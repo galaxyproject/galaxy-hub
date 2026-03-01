@@ -9,7 +9,7 @@ A Galaxy Administrator user has additional privileges and can install/manage too
 
 In order to become an Admin user on the CloudMan instance, head to the CloudMan Admin page and type comma-separated email addresses for users you would like to become Admins (see screenshot below). Note that those emails should be registered users with this Galaxy instance. Then, click *Set admin users* and wait for Galaxy application to restart; refresh your Galaxy window and an *Admin* tab will become visible in the masthead.
 
-<img src="http://i.imgur.com/lMh7ahV.png" alt="" width=500 />
+<img src="http://i.imgur.com/lMh7ahV.png" alt="" width="500" />
 
 ### Changing Galaxy configuration files
 
@@ -37,7 +37,7 @@ Galaxy application installed within CloudMan can be updated to a newer version v
 
 1. Stop Galaxy service via CloudMan Admin by clicking on the 'Stop' button next to the Galaxy service name
 
-<img src="http://i.imgur.com/SV3gHFA.jpg" alt="" width=500 />
+<img src="http://i.imgur.com/SV3gHFA.jpg" alt="" width="500" />
 2. ssh to the instance, change to *galaxy* user (with *sudo su galaxy*) and change to */mnt/galaxy/galaxy-app* directory
 3. Issue *git pull* command (note that it may also be necessary to run *sh manage_db.sh upgrade* command if database migrations were introduced since the initial version of Galaxy)
 4. Start Galaxy from CloudMan Admin

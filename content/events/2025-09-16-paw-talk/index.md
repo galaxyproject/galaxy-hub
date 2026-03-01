@@ -24,9 +24,9 @@ Join [Diana Chiang Jurado](https://github.com/dianichj) from the [University of 
 
 **Time**: 14:00–16:00 CEST
 
-**Further details**: <https://uni-freiburg.de/gdape/card/learning-and-development/#paw>
+**Further details**: [https://uni-freiburg.de/gdape/card/learning-and-development/#paw](https://uni-freiburg.de/gdape/card/learning-and-development/#paw)
 
-**Register here**: <https://eveeno.com/registration-galaxy-webinar>
+**Register here**: [https://eveeno.com/registration-galaxy-webinar](https://eveeno.com/registration-galaxy-webinar)
 
 As part of [Postdoc Appreciation Week Germany](https://paw-germany.de/), this interactive webinar will walk you through:
 

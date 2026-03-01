@@ -110,7 +110,7 @@ Many image analysis tasks require "eyes-on-data" interaction. Galaxy's **Interac
 The **[zarr](https://zarr.dev/)** format is becoming a standard for storing large image data. With various adaptations like [OME-Zarr](https://ome-zarr.readthedocs.io/en/stable/) and [GEOZarr](https://github.com/zarr-developers/geozarr-spec), this interoperable format enhances data reusability across disciplines. Our community supports zarr-based visualization through tools like vizarr, helping bring this dream of cross-discipline interoperability to life.
 
 <video controls width="100%">
-  <source src="./vizarr-visualization.mp4" type="video/mp4">
+  <source src="./vizarr-visualization.mp4" type="video/mp4" />
 </video>
 
 

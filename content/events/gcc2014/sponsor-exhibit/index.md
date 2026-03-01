@@ -78,17 +78,17 @@ Sponsorships are available at four different levels.
 
 <table>
   <tr>
-    <td colspan=2 style=" border: none; text-align: center;"> <a href='http://globus.org/genomics'><img src="/images/logos/GlobusGenomics.png" alt="Globus Genomics" width="180" /></a> </td>
+    <td colspan="2" style=" border: none; text-align: center;"> <a href='http://globus.org/genomics'><img src="/images/logos/GlobusGenomics.png" alt="Globus Genomics" width="180" /></a> </td>
     <td style=" border: none; width: 5%; text-align: center;"> </td>
-    <td colspan=3 style=" border: none; text-align: center;"> <a href='http://www.gigasciencejournal.com/'><img src="/images/logos/GigaScienceLogo250.png" alt="GigaScience Journal" width="160" /></a> <br /> <a href='http://www.biomedcentral.com/'><img src="/images/logos/BMCLogo200.png" alt="BioMed Central, The Open Access Publisher" width="160" /></a> </td>
+    <td colspan="3" style=" border: none; text-align: center;"> <a href='http://www.gigasciencejournal.com/'><img src="/images/logos/GigaScienceLogo250.png" alt="GigaScience Journal" width="160" /></a> <br /> <a href='http://www.biomedcentral.com/'><img src="/images/logos/BMCLogo200.png" alt="BioMed Central, The Open Access Publisher" width="160" /></a> </td>
     <td style=" border: none; width: 5%; text-align: center;"> </td>
     <td style=" border: none; text-align: center;"> <a href='http://www.abgenomica.com/'><img src="/images/logos/ABgenomicaLogo.jpg" alt="ABgenomica"  /></a> </td>
   </tr>
   <tr>
     <td style=" border: none; width: 5%; text-align: center;"> </td>
-    <td colspan=3 style=" border: none; text-align: center;"> <br /> <a href='http://genomeweb.com'><img src="/images/logos/GenomeWebSmall.png" alt="GenomeWeb" width="180" /></a> </td>
+    <td colspan="3" style=" border: none; text-align: center;"> <br /> <a href='http://genomeweb.com'><img src="/images/logos/GenomeWebSmall.png" alt="GenomeWeb" width="180" /></a> </td>
     <td style=" border: none; width: 5%; text-align: center;"> </td>
-    <td colspan=3 style=" border: none; text-align: left;"> <br /><a href='http://www.penguincomputing.com/'><img src="/images/logos/PenguinComputing.png" alt="Penguin Computing" width="170" /></a> </td>
+    <td colspan="3" style=" border: none; text-align: left;"> <br /><a href='http://www.penguincomputing.com/'><img src="/images/logos/PenguinComputing.png" alt="Penguin Computing" width="170" /></a> </td>
   </tr>
 </table>
 

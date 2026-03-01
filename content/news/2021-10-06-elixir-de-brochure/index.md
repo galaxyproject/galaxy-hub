@@ -20,6 +20,6 @@ Galaxy is one of the services provided by ELIXIR-DE with a strong impact on COVI
 
 Take a look at the [brochure](https://www.denbi.de/images/Downloads/ELIXIR-DE_brochure_2021.pdf)!
 
-<embed src="https://www.denbi.de/images/Downloads/ELIXIR-DE_brochure_2021.pdf" width="65%" height="700px" type='application/pdf'>
+<embed src="https://www.denbi.de/images/Downloads/ELIXIR-DE_brochure_2021.pdf" width="65%" height="700px" type='application/pdf' />
 
 

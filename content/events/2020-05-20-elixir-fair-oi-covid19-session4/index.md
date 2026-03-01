@@ -26,7 +26,7 @@ The Galaxy Community and ELIXIR organise a webinar series to demonstrate how ope
 
 20 May 2020, **17.00-18.00 CEST** (starts at **16.00 BST**, **11.00 EDT**, **8.00 PDT**)
 
-[Programme Information and Registration](https://elixir-europe.org/events/webinar-galaxy-elixir-covid19){:target="_blank"}
+<a href="https://elixir-europe.org/events/webinar-galaxy-elixir-covid19" target="_blank">Programme Information and Registration</a>
 
 ### Speakers
 

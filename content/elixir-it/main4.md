@@ -12,7 +12,7 @@ The **Laniakea@ReCaS** service, based on Laniakea software stack, provides the p
 
 For more information about Laniakea, please subscribe to our <a href="http://srv00.area.ba.cnr.it/mailman/listinfo/galaxy.elixir-ita.cnr.it">mailing list</a>.
 
-[Get Access](https://laniakea-elixir-it.github.io/laniakea_at_recas){: .btn .btn-primary .trim-p}
+<a href="https://laniakea-elixir-it.github.io/laniakea_at_recas" class="btn btn-primary trim-p">Get Access</a>
 
 </div>
 <div class="col-sm-6">

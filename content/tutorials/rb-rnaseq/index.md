@@ -38,7 +38,7 @@ Reverse Transcriptase (RT) requires a primer. One can leverage the fact that the
 
 >![](./dT_random.png)
 >
->**Oligo-dT vs. random priming**<br>
+>**Oligo-dT vs. random priming**<br />
 >Oligo-dT (**A**) and random priming (**B**)
 
 Depending on the choice of the approach one would have different types of RNAs included in the final sequencing outcome. For example, if one attempts to study RNAs that are not polyadenylated or not fully processed, it would be unwise to use oligo-dT priming approach.
@@ -56,14 +56,14 @@ During a typical RNAseq experiment the information about strandedness is lost af
 
 >[![](./stranded_protocols.png)](http://www.nature.com/nmeth/journal/v7/n9/fig_tab/nmeth.1491_F1.html)
 >
->**Generation of stranded RNAseq libraries**<br>
+>**Generation of stranded RNAseq libraries**<br />
 >Different types of stranded library generation protocols from [Levin:2010](http://www.nature.com/nmeth/journal/v7/n9/full/nmeth.1491.html)
 
 Depending on the approach and whether one performs single- or paired-end sequencing there are multiple possibilities on how to interpret the results of mapping of these reads onto genome/transcriptome:
 
 >[![](./lib_type.png)](http://sailfish.readthedocs.org/en/master/library_type.html)
 >
->**Effects of RNAseq library types**<br>
+>**Effects of RNAseq library types**<br />
 >Image and description below is from [Sailfish documentation](http://sailfish.readthedocs.org/en/master/library_type.html)
 
 The relative orientation of the reads is only relevant if the library is pair-ended. The possible options are:
@@ -94,7 +94,7 @@ The implication of stranded RNAseq is that you can distinguish whether the reads
 
 >![](./stranded_result.png)
 >
->**Stranded RNAseq data look like this**<br>
+>**Stranded RNAseq data look like this**<br />
 >This example contrasts unstranded and stranded RNAseq experiments. <span style="color: red;">Red transcripts</span> are from + strand and <span style="color: blue;">blue</span> are from - strand. In stranded example reads are clearly stratified between the two strands.  A small number of reads from opposite strand may represent anti-sense transcription. The image from GATC Biotech.
 
 ### Replicates: Biological or Technical and how many?
@@ -123,13 +123,13 @@ After sequencing is performed you have a collection of sequencing reads for each
 
 >[![](./tophat.png)](http://bioinformatics.oxfordjournals.org/content/25/9/1105/F1.expansion.html)
 >
->**TopHat and TopHat2: Mapping RNAseq regions to genome**<br>
+>**TopHat and TopHat2: Mapping RNAseq regions to genome**<br />
 >In TopHat reads are mapped against the genome and are separated into two categories: (1) those that map, and (2) those that initially unmapped (IUM). "Piles" of reads representing potential exons are extended in search of potential donor/acceptor splice sites and potential splice junctions are reconstructed. IUMs are then mapped to these junctions. Image from [Trapnell:2009](http://bioinformatics.oxfordjournals.org/content/25/9/1105.full).
 
 
 >[![](./tophat2.png)](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2013-14-4-r36)
 >
->**TopHat has been subsequently improved with the development of TopHat2**<br>
+>**TopHat has been subsequently improved with the development of TopHat2**<br />
 >Image from [Kim:2012](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2013-14-4-r36) summarizes steps involved in aligning of RNAseq reads with TopHat2
 
 To further optimize and speed up spliced read alignment Kim at al. [2015](http://www.nature.com/nmeth/journal/v12/n4/full/nmeth.3317.html) developed [HISAT](http://ccb.jhu.edu/software/hisat2/index.shtml). It uses a set of [FM-indices](https://en.wikipedia.org/wiki/FM-index) consisting one global genome-wide index and a collection of ~48,000 local overlapping 42 kb indices (~55,000 56 kb indices in HiSat2). This allows to find initial seed locations for potential read alignments in the genome using global index and to rapidly refine these alignments using a corresponding local index:
@@ -137,7 +137,7 @@ To further optimize and speed up spliced read alignment Kim at al. [2015](http:/
 
 >![](./hisat.png)
 >
->**Hierarchical Graph FM index in HiSat/HiSat2**<br>
+>**Hierarchical Graph FM index in HiSat/HiSat2**<br />
 >A part of the read (blue arrow) is first mapped to the genome using the global FM index. The HiSat then tries to extend the alignment directly utilizing the genome sequence (violet arrow). In (**a**) it succeeds and this read aligned as it completely resides within an exon. In (**b**) the extension hits a mismatch. Now HiSat takes advantage of the local FM index overlapping this location to find the appropriate matting for the remainder of this read (green arrow). The (**c**) shows a combination these two strategies: the beginning of the read is mapped using global FM index (blue arrow), extended until it reaches the end of the exon (violet arrow), mapped using local FM index (green arrow) and extended again (violet arrow). Image from [Kim:2015](http://www.nature.com/nmeth/journal/v12/n4/full/nmeth.3317.html)
 
 ### STAR mapper
@@ -146,7 +146,7 @@ To further optimize and speed up spliced read alignment Kim at al. [2015](http:/
 
 >![](./star.png)
 >
->**STAR's seed search**<br>
+>**STAR's seed search**<br />
 >Here a read is split between two consecutive exons. STAR starts to look for a *maximum mappable prefix* (MMP) from the beginning of the read until it can no longer match continuously. After this point it start to MMP for the unmatched portion of the read (**a**). In the case of mismatches (**b**) and unalignable regions (**c**) MMPs serve as anchors from which to extend alignments. Image from [Dobin:2013](http://bioinformatics.oxfordjournals.org/content/early/2012/10/25/bioinformatics.bts635.full.pdf+html).
 
 At the second stage STAR stitches MMPs to generate read-level alignments that (contrary to MMPs) can contain mismatches and indels. A scoring scheme is used to evaluate and prioritize stitching combinations and to evaluate reads that map to multiple locations. STAR is extremely fast but requires a substantial amount of RAM to run efficiently.
@@ -157,7 +157,7 @@ The previous step - mapping - assigns RNAseq reads to genomic locations and iden
 
 >[![](./rnaseq_comparison.png)](http://bioinformatics.oxfordjournals.org/content/early/2015/09/08/bioinformatics.btv488/F5.large.jpg)
 >
->**Comparison of transcript reconstruction approaches**<br>
+>**Comparison of transcript reconstruction approaches**<br />
 >Here *recall* (the number of correctly constructed forms divided by the total number of real forms) versus *precision* (true positives divided by the sum of true positives and false positives) are plotted for seven transcript assemblers tested on two simulated datasets: *EnsemblPerfect* and *EnsemblRealistic*. The shaded region is indicating suboptimal performance (i.e., the white, unshaded region is "good"). The figure is from [Hayer:2015](http://bioinformatics.oxfordjournals.org/content/early/2015/09/03/bioinformatics.btv488.full.pdf+html).
 
 Based on these results [Cufflinks](http://cole-trapnell-lab.github.io/cufflinks/) and [StringTie](https://ccb.jhu.edu/software/stringtie/) have satisfactory performance. The following discussion is based on inner workings of StringTie.
@@ -168,7 +168,7 @@ Based on these results [Cufflinks](http://cole-trapnell-lab.github.io/cufflinks/
 
 >![](./stringtie1.png)
 >
->**StringTie workflow**<br>
+>**StringTie workflow**<br />
 >Image from [Pertea:2015](http://www.nature.com/nbt/journal/v33/n3/full/nbt.3122.html)
 
 In essence StringTie builds an alternative splice graph from overlapping reads in a given locus. In such a graph nodes correspond to exons (or, rather, contiguous regions of genome covered by reads; colored regions on the figure above), while edges are represented by reads connecting these exons. Next, it identifies a path within the splice graph that has the highest weight (largest number of reads on edges). Such path would correspond to an assembled transcript at this iteration of the algorithm. Because the edge weight is equal to the number of the reads StringTie estimates the coverage level for this transcript (see below) which can be used to estimate the transcript's abundance. Reads that are associated with the transcript that was just assembled are then removed and the graph is updated to perform the next iteration of the algorithm.
@@ -187,21 +187,21 @@ To associate reads with transcripts they (the reads) need to be aligned to the t
 
 >![](./sailfish.png)
 >
->**Assigning reads to transcripts: Sailfish**<br>
+>**Assigning reads to transcripts: Sailfish**<br />
 >Sailfish indexes input transcriptome for a fixed *k*-mer length and compares *k*-mers derived from RNAseq reads against this index. Image from [Patro:2014](http://www.nature.com/nbt/journal/v32/n5/full/nbt.2862.html)
 
 The current version of Sailfish uses [quasi-alignment](http://biorxiv.org/content/biorxiv/early/2015/10/22/029652.full.pdf) to extend exact matches found with *k*-mers:
 
 >![](./quasi_aln.png)
 >
->**Quasi-alignment of reads in Sailfish**<br>
+>**Quasi-alignment of reads in Sailfish**<br />
 >In Sailfish version [0.7.0](https://github.com/kingsfordgroup/sailfish/releases/tag/v0.7.0) and up transcriptome is concatenated into a single sequence using `$` separators from which a [suffix array](https://en.wikipedia.org/wiki/Suffix_array) and a [hash table](https://en.wikipedia.org/wiki/Hash_table) are constructed. A *k*-mer from an RNAseq read (green) is looked up in the hash table, which immediately gives its position in the suffix array allowing to extend the march as described in the legend and the [paper](http://biorxiv.org/content/biorxiv/early/2015/10/22/029652.full.pdf). Image from  [Srivastava:2015](http://biorxiv.org/content/biorxiv/early/2015/10/22/029652.full.pdf)
 
 [Kallisto](http://pachterlab.github.io/kallisto/) also utilizes *k*-mer matching but uses a different data structure. It constructs a [De Bruijn graph](https://en.wikipedia.org/wiki/De_Bruijn_graph) from transcriptome input (pane **b** of the figure below). This graph is different from De Bruijn graphs used for genome assembly in that its nodes are *k*-mers and transcripts correspond to paths through the graph. To accommodate multiple transcripts that can lay along the same path (or sub-path) the paths are "colored" with each transcript given a distinct "color" (in genome assembly the graph is built from the reads and nodes usually correspond to overlaps between *k*-mers forming incoming and outgoing edges). Non-branching sections of the graph that have identical coloring are "glued" into contigs. Finally a [hash table](https://en.wikipedia.org/wiki/Hash_table) is built that stores the position of each transcriptome *k*-mer within the graph:
 
 >![](./kallisto.png)
 >
->**Assigning reads to transcripts: Kallisto**<br>
+>**Assigning reads to transcripts: Kallisto**<br />
 >Here a black read is being associated with a set consisting of red, blue, and green transcripts (**a**). First, a graph is built from transcriptome (**b**). Next, by finding common *k*-mers between the read and the graph the read is "threaded" along a path (**c** and **d**). The colors along that path would indicate which transcripts it is likely derived from. Specifically, this is done by taking intersection of "colors" (**c**). It this case the read is assigned to two transcripts: red and blue. Image from [Bray:2015](http://arxiv.org/pdf/1505.02710v2.pdf)
 
 [Salmon](https://combine-lab.github.io/salmon/about/) does not use *k*-mer matching approach. Instead it creates [bwa](https://github.com/lh3/bwa)-like [FM-index](https://en.wikipedia.org/wiki/FM-index) and uses it to finds chains of *Maximal Exact Matches* (MEMs) and *Super Maximal Exact Matches* (SMEMs) between a read and the transcriptome.
@@ -209,7 +209,7 @@ The current version of Sailfish uses [quasi-alignment](http://biorxiv.org/conten
 
 >![](./salmon.png)
 >
->**Assigning reads to transcripts: Salmon**<br>
+>**Assigning reads to transcripts: Salmon**<br />
 >Image from [Patro:2015](http://biorxiv.org/content/biorxiv/early/2015/06/27/021592.full.pdf)
 
 ### Estimating transcript levels
@@ -222,7 +222,7 @@ StringTie, which performs assembly and quantification simultaneously converts sp
 
 >![](./stringtie2.png)
 >
->**StringTie flow network**<br>
+>**StringTie flow network**<br />
 >Here each exon node from the splice graph is split into *in* and *out* nodes connected with an edge weighted by the number of reads corresponding to that exon. For example, the first exon is covered by seven reads and so the edge between 1-in and 1-out has a weight of 7. Expression level would correspond to the maximum flow through a path representing a given transcript. Image from [Pertea:2015](http://www.nature.com/nbt/journal/v33/n3/full/nbt.3122.html)
 
 #### Expectation Maximization
@@ -245,7 +245,7 @@ During next expectation stage read are re-apportioned across transcripts and the
 
 >![](./em.png)
 >
->**Expectation Maximization (EM)**<br>
+>**Expectation Maximization (EM)**<br />
 >Image from [Pacher:2011](http://arxiv.org/pdf/1104.3889v2.pdf)
 
 ### Understanding quantification metrics
@@ -259,7 +259,7 @@ In their [tutorial](http://chagall.med.cornell.edu/RNASEQcourse/) Dündar et al.
 
 >![](./within_norm.png)
 >
->**RNAseq normalization metrics: Within sample comparisons**<br>
+>**RNAseq normalization metrics: Within sample comparisons**<br />
 >Table from Dündar et al. [2015](http://chagall.med.cornell.edu/RNASEQcourse/)
 
 In addition, an excellent overview of these metrics can be found [here](https://haroldpimentel.wordpress.com/2014/05/08/what-the-fpkm-a-review-rna-seq-expression-units/).
@@ -277,7 +277,7 @@ For this expression is estimated from read counts and attempts are made to corre
 
 >![](./diff.png)
 >
->**Differential expression: Read counts and Expression levels**<br>
+>**Differential expression: Read counts and Expression levels**<br />
 >**Change in fragment count for a gene does not necessarily equal a change in expression**. (**a**) Simple read-counting schemes sum the fragments incident on a gene’s exons. The exon-union model counts reads falling on any of a gene’s exons, whereas the exon-intersection model counts only reads on constitutive exons. (**b**) Both of the exon-union and exon intersection counting schemes may incorrectly estimate a change in expression in genes with multiple isoforms. The true expression is estimated by the sum of the length-normalized isoform read counts. The discrepancy between a change in the union or intersection count and a change in gene expression is driven by a change in the abundance of the isoforms with respect to one another. In the top row, the gene generates the same number of reads in conditions A and B, but in condition B, all of the reads come from the shorter of the two isoforms, and thus the true expression for the gene is higher in condition B. The intersection count scheme underestimates the true change in gene expression, and the union scheme fails to detect the change entirely. In the middle row, the intersection count fails to detect a change driven by a shift in the dominant isoform for the gene. The union scheme detects a shift in the wrong direction. In the bottom row, the gene’s expression is constant, but the isoforms undergo a complete switch between conditions A and B. Both simplified counting schemes register a change in count that does not reflect a change in gene expression. Figure from [Trapnell:2013] (http://www.nature.com/nbt/journal/v31/n1/abs/nbt.2450.html)
 
 
@@ -366,7 +366,7 @@ Using mapped reads produced by TopHat we will perform analysis of differential g
 
 >[![](./htseq_count.png)](http://www-huber.embl.de/users/anders/HTSeq/doc/count.html)
 >
->**`HTseq-count` read/feature overlap modes**<br>
+>**`HTseq-count` read/feature overlap modes**<br />
 >The `htseq-count` script of the HTSeq suite offers three different modes to handle details of read–feature overlaps that are depicted here. The default of featureCounts is the behavior of the union option. Image is from [HTseq documentation](http://www-huber.embl.de/users/anders/HTSeq/doc/count.html); Caption by [Dündar:2015](http://chagall.med.cornell.edu/RNASEQcourse/)
 
 Before we can use `HTseq-count` we need to download gene annotations for version `dm3` of the *Drosophila melanogaster* genome. We use version `dm3` because it is the same genome we have mapped reads against during the TopHat step.

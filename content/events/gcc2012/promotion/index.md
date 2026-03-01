@@ -20,8 +20,8 @@ The conference logo is available in 2 formats in several widths.
 
 <table>
   <tr class="th" >
-    <th rowspan=2> Logo </th>
-    <th colspan=5 style=" text-align: center;"> Width </th>
+    <th rowspan="2"> Logo </th>
+    <th colspan="5" style=" text-align: center;"> Width </th>
   </tr>
   <tr class="th" >
     <th style=" text-align: center;"> 200 px </th>

@@ -39,5 +39,5 @@ __Workflow editor__
 
 ![workflow editor](https://github.com/anuprulez/issues/raw/master/wf-exe.gif)
 
-<br>
+<br />
 {% twitter https://twitter.com/musafirtweetsz/status/1347103855247560704 %}

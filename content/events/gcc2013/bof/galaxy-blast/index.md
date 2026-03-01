@@ -5,8 +5,8 @@ title: Galaxy wrappers for NCBI BLAST+ BoF
 
 
 
-import linkbox from "../../linkbox.json"
-<link-box :data="linkbox" />
+
+<link-box data="linkbox" />
 <slot name="/events/gcc2013/bof/linkbox" />
 
 <div class='left'><a href='/events/gcc2013/bof/'><img src="/images/logos/GCC2013BoFLogo.png" alt="" width="160" /></a></div>

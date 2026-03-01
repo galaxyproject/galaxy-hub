@@ -15,8 +15,8 @@ A CloudMan cluster can be used for different scenarios, including a comprehensiv
     <td style=" border-width: 0;"> <strong>CloudMan application</strong></td>
   </tr>
   <tr>
-    <td style=" border-width: 0;"> <img src="http://i.imgur.com/IBJoLLc.png" alt="" width=400 /></td>
-    <td style=" border-width: 0;"> <img src="http://i.imgur.com/aBEEnuL.png?1" alt="" width=400 /></td>
+    <td style=" border-width: 0;"> <img src="http://i.imgur.com/IBJoLLc.png" alt="" width="400" /></td>
+    <td style=" border-width: 0;"> <img src="http://i.imgur.com/aBEEnuL.png?1" alt="" width="400" /></td>
   </tr>
 </table>
 
@@ -37,7 +37,7 @@ A CloudMan cluster can be used for different scenarios, including a comprehensiv
   </tr>
   <tr>
     <th> </th>
-    <td colspan=3 style=" background-color: #eef;"> </td>
+    <td colspan="3" style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> Cluster with Galaxy </th>
@@ -46,7 +46,7 @@ A CloudMan cluster can be used for different scenarios, including a comprehensiv
   </tr>
   <tr>
     <th> </th>
-    <td colspan=3 style=" background-color: #eef;"> </td>
+    <td colspan="3" style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> Cloned cluster <br />(available within CloudMan only)</th>
@@ -55,7 +55,7 @@ A CloudMan cluster can be used for different scenarios, including a comprehensiv
   </tr>
   <tr>
     <th> </th>
-    <td colspan=3 style=" background-color: #eef;"> </td>
+    <td colspan="3" style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> Do not set cluster type now</th>
@@ -79,7 +79,7 @@ When launching a new cluster, you need to decide what type of storage would you 
   </tr>
   <tr>
     <th> </th>
-    <td colspan=3 style=" background-color: #eef;"> </td>
+    <td colspan="3" style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> Transient instance storage</th>

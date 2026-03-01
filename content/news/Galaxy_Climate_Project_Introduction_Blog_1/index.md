@@ -58,7 +58,7 @@ The Galaxy ToolShed houses more than 2,000 tools, out of which several tools are
 ## Interactive tools
 
 
-You can find and use many climate relevant interactive tools @ <https://climate.usegalaxy.eu/>  in the interactive tools section.
+You can find and use many climate relevant interactive tools @ [https://climate.usegalaxy.eu/](https://climate.usegalaxy.eu/)  in the interactive tools section.
 
 | Interactive Tools |      Description   |
 |----------|:-------------|

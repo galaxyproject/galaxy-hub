@@ -10,7 +10,7 @@ title: Galactic December News!
 
 </div>
 
-<div class='left'><a href='/galaxy-updates/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="150" /></a></div>
 
 Welcome to the December 2015 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.
 
@@ -38,13 +38,13 @@ The new papers were tagged with:
   <tr>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
-    <td rowspan=4 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="4" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
   </tr>
@@ -143,13 +143,13 @@ There are [many upcoming events](/events/) in the next few months.  See the [Gal
   </tr>
   <tr>
     <th> </th>
-    <td colspan=3 style=" background-color: #eef;"> </td>
+    <td colspan="3" style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> December 3 </th>
     <td> <em><a href='http://www.bioplatforms.com/rna-seq-using-galaxy-dec15/'>RNA-Seq Analysis Using Galaxy</a></em> </td>
-    <td rowspan=2> <img src='/images/icons/AU.png' alt='Australia' align='right' /> University of Newcastle, Newcastle, NSW, Australia </td>
-    <td rowspan=2> <a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> Mark Crowe, <a href="mailto:kchamp@bioplatforms.com">Katherine Champ</a> </td>
+    <td rowspan="2"> <img src='/images/icons/AU.png' alt='Australia' align='right' /> University of Newcastle, Newcastle, NSW, Australia </td>
+    <td rowspan="2"> <a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> Mark Crowe, <a href="mailto:kchamp@bioplatforms.com">Katherine Champ</a> </td>
   </tr>
   <tr>
     <th> December 4 </th>
@@ -163,7 +163,7 @@ There are [many upcoming events](/events/) in the next few months.  See the [Gal
   </tr>
   <tr>
     <td> </td>
-    <td colspan=4 style=" background-color: #eef; text-align: center;"> <strong>2016</strong> </td>
+    <td colspan="4" style=" background-color: #eef; text-align: center;"> <strong>2016</strong> </td>
   </tr>
   <tr>
     <th> January 8 </th>
@@ -185,7 +185,7 @@ There are [many upcoming events](/events/) in the next few months.  See the [Gal
   </tr>
   <tr>
     <th> </th>
-    <td colspan=3 style=" background-color: #eef;"> </td>
+    <td colspan="3" style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> February 11 </th>
@@ -207,7 +207,7 @@ There are [many upcoming events](/events/) in the next few months.  See the [Gal
   </tr>
   <tr>
     <th> </th>
-    <td colspan=3 style=" background-color: #eef;"> </td>
+    <td colspan="3" style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> June 25-29 </th>
@@ -370,7 +370,7 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 <br />
 
 ----
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width="150" /></a></div>
 
 # ToolShed Contributions
 

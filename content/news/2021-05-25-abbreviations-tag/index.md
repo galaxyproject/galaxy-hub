@@ -10,6 +10,7 @@ contributions:
     - deNBI
     - elixir-europe
     - gallantries
+components: true
 ---
 
 <p>Thanks to the great tutorial developed by first time contributor Erik Schill and edited by Simon Bray, we noticed that they defined a number of abbreviations and re-used those throughout their tutorial.</p>
@@ -18,27 +19,18 @@ contributions:
 
 <p>In your tutorial metadata you can add an abbreviations section like:</p>
 
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
-<span class="na">title</span><span class="pi">:</span> <span class="s">My awesome tutorial</span>
-<span class="nn">...</span>
-<span class="na">abbreviations</span><span class="pi">:</span>
-  <span class="na">API</span><span class="pi">:</span> <span class="s">Application Programming Interface</span>
-  <span class="na">JSON</span><span class="pi">:</span> <span class="s">JavaScript Object Notation</span>
-<span class="nn">---</span>
-</code></pre></div></div>
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>{"\n"}<span class="na">title</span><span class="pi">:</span> <span class="s">My awesome tutorial</span>{"\n"}<span class="nn">...</span>{"\n"}<span class="na">abbreviations</span><span class="pi">:</span>{"\n"}  <span class="na">API</span><span class="pi">:</span> <span class="s">Application Programming Interface</span>{"\n"}  <span class="na">JSON</span><span class="pi">:</span> <span class="s">JavaScript Object Notation</span>{"\n"}<span class="nn">---</span></code></pre></div></div>
 
 <p>And in your text you can use braces to refer to the term</p>
 
 <blockquote class="code-2col">
   <blockquote class="code-in">
-    <h3 id="code-in-input-markdown"><i class="far fa-keyboard"></i><span class="visually-hidden">code-in</span> Input: Markdown</h3>
-    <p><code>
-The `/jobs` &amp;lbraceAPI&amp;rbrace will return &amp;lbraceJSON&amp;rbrace. When we call the &amp;lbraceAPI&amp;rbrace we'll get back this result &amp;lbraceJSON&amp;rbrace.
-</code></p>
+    <h3 id="code-in-input-markdown"><Icon name="keyboard" /><span class="visually-hidden">code-in</span> Input: Markdown</h3>
+    <p><code>The `/jobs` &amp;lbraceAPI&amp;rbrace will return &amp;lbraceJSON&amp;rbrace. When we call the &amp;lbraceAPI&amp;rbrace we'll get back this result &amp;lbraceJSON&amp;rbrace.</code></p>
   </blockquote>
 
   <blockquote class="code-out">
-    <h3 id="code-out-output"><i class="fas fa-laptop-code"></i><span class="visually-hidden">code-out</span> Output</h3>
+    <h3 id="code-out-output"><Icon name="code" /><span class="visually-hidden">code-out</span> Output</h3>
 
     <p>The <code class="language-plaintext highlighter-rouge">/jobs</code> Application Programming Interface (API) will return JavaScript Object Notation (JSON). When we call the <abbr title="Application Programming Interface">API</abbr> we’ll get back this result <abbr title="JavaScript Object Notation">JSON</abbr>.</p>
 

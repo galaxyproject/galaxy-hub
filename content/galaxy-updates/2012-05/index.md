@@ -1,7 +1,7 @@
 ---
 title: May 2012 Galaxy Update
 ---
-<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width="150" /></a></div>
 
 Welcome to the May 2012 edition of *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -56,10 +56,10 @@ This paper may be of interest to the Galaxy community:
 
 <table>
   <tr>
-    <td rowspan=4 style=" text-align: left; vertical-align: top; border:none;"> This open access article includes a detailed recipe describing how Galaxy was used in their analysis.<br /><br /> This paper was among <a href='http://www.citeulike.org/group/16008/library'>31 papers added to the Galaxy CiteULike group</a> since the last <a href='/galaxy-updates/'>Galaxy Update</a>.  The new papers were spread <a href='http://www.citeulike.org/group/16008/tags'>across 5 categories</a>. </td>
+    <td rowspan="4" style=" text-align: left; vertical-align: top; border:none;"> This open access article includes a detailed recipe describing how Galaxy was used in their analysis.<br /><br /> This paper was among <a href='http://www.citeulike.org/group/16008/library'>31 papers added to the Galaxy CiteULike group</a> since the last <a href='/galaxy-updates/'>Galaxy Update</a>.  The new papers were spread <a href='http://www.citeulike.org/group/16008/tags'>across 5 categories</a>. </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=4 style=" border:none;"> &nbsp;&nbsp;&nbsp; </td>
+    <td rowspan="4" style=" border:none;"> &nbsp;&nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
   </tr>
@@ -98,7 +98,7 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 ## Upcoming Events and Deadlines
 
 <div class='center'>
-<a href='/events/galaxy-tour-de-france2012/'><img src="/images/logos/GalaxyTourDeFranceLogo400.png" alt="Galaxy Tour de France 2012" height="100" /></a> <a href='http://bioinformatics.ca/workshops/high_throughput'><img src="/images/logos/CanadianBioinfWorkshopsLog.png" alt="Informatics on High Throughput Sequencing Data Workshop" height=100 /></a>  <a href='https://www.nescent.org/sites/academy/Next-gen_sequencing'><img src="/images/logos/NESCentAcademyLogo.png" alt="Next-gen Sequencing in Evolutionary Biology Course" height="100" /></a> <a href='http://www.iscb.org/ismb2012'><img src="/images/logos/ISMB2012.jpg" alt="ISMB 2012" height=100 /></a> <a href='/events/gcc2012/'><img src="/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a>
+<a href='/events/galaxy-tour-de-france2012/'><img src="/images/logos/GalaxyTourDeFranceLogo400.png" alt="Galaxy Tour de France 2012" height="100" /></a> <a href='http://bioinformatics.ca/workshops/high_throughput'><img src="/images/logos/CanadianBioinfWorkshopsLog.png" alt="Informatics on High Throughput Sequencing Data Workshop" height="100" /></a>  <a href='https://www.nescent.org/sites/academy/Next-gen_sequencing'><img src="/images/logos/NESCentAcademyLogo.png" alt="Next-gen Sequencing in Evolutionary Biology Course" height="100" /></a> <a href='http://www.iscb.org/ismb2012'><img src="/images/logos/ISMB2012.jpg" alt="ISMB 2012" height="100" /></a> <a href='/events/gcc2012/'><img src="/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a>
 </div>
 
 ### Deadlines
@@ -119,9 +119,9 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
     <th> Contact </th>
   </tr>
   <tr>
-    <th rowspan=3> May 8-12 </th>
+    <th rowspan="3"> May 8-12 </th>
     <td> <strong>Staying on top of evolving best practices with Galaxy</strong>, Poster </td>
-    <td rowspan=3> <strong><a href='http://meetings.cshl.edu/meetings/genome12.shtml'>The Biology of Genomes</a></strong>, Cold Spring Harbor Laboratory, New York, United States </td>
+    <td rowspan="3"> <strong><a href='http://meetings.cshl.edu/meetings/genome12.shtml'>The Biology of Genomes</a></strong>, Cold Spring Harbor Laboratory, New York, United States </td>
     <td> <a href='/people/dan/'>Dan Blankenberg</a> </td>
   </tr>
   <tr>

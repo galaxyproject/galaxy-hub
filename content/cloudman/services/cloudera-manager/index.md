@@ -6,51 +6,51 @@ For the time being, it is necessary to manually create and configure a Hadoop cl
 
 Login with the password you specified on Cloud Launch form when you started the cluster (username is always *ubuntu*):
 
-<img src="http://i.imgur.com/wHAafY7.png" alt="" width=700 />
+<img src="http://i.imgur.com/wHAafY7.png" alt="" width="700" />
 
 Select "Cloudera Express" version:
 
-<img src="http://i.imgur.com/iDIAubH.png" alt="" width=700 />
+<img src="http://i.imgur.com/iDIAubH.png" alt="" width="700" />
 
 Overview of available services. Just press "Continue":
 
-<img src="http://i.imgur.com/XUMBFk5.png" alt="" width=700 />
+<img src="http://i.imgur.com/XUMBFk5.png" alt="" width="700" />
 
 Select the "Currently Managed Hosts" and check the checkbox next to the available node; press "Continue":
 
-<img src="http://i.imgur.com/7ADgrlE.png" alt="" width=700 />
+<img src="http://i.imgur.com/7ADgrlE.png" alt="" width="700" />
 
 Select the (only) available version of CDH and press "Continue":
 
-<img src="http://i.imgur.com/MLME7SG.png" alt="" width=700 />
+<img src="http://i.imgur.com/MLME7SG.png" alt="" width="700" />
 
 Overview of progress. Press "Continue" when parcel is ready (this typically takes 3-5 minutes):
 
-<img src="http://i.imgur.com/ejxwPD1.png" alt="" width=700 />
+<img src="http://i.imgur.com/ejxwPD1.png" alt="" width="700" />
 
 Inspect for correctness. Press "Finish":
 
-<img src="http://i.imgur.com/KQSsjqr.png" alt="" width=700 />
+<img src="http://i.imgur.com/KQSsjqr.png" alt="" width="700" />
 
 Select "Custom Services" and check "HDFS" and "YARN (MR2 included)"
 
-<img src="http://i.imgur.com/s45eYoj.png" alt="" width=700 />
+<img src="http://i.imgur.com/s45eYoj.png" alt="" width="700" />
 
 Use default configuration and press "Continue":
 
-<img src="http://i.imgur.com/UzXZXWd.png" alt="" width=700 />
+<img src="http://i.imgur.com/UzXZXWd.png" alt="" width="700" />
 
 Select the directories where you want to store your HDFS data and press "Continue":
 
-<img src="http://i.imgur.com/lKtflmx.png" alt="" width=700 />
+<img src="http://i.imgur.com/lKtflmx.png" alt="" width="700" />
 
 Wait until "First Run" is finished and press "Continue":
 
-<img src="http://i.imgur.com/ikOX0ah.png" alt="" width=700 />
-<img src="http://i.imgur.com/QsEiUs1.png" alt="" width=700 />
+<img src="http://i.imgur.com/ikOX0ah.png" alt="" width="700" />
+<img src="http://i.imgur.com/QsEiUs1.png" alt="" width="700" />
 
 System is now ready and  [Cloudgene](/cloudman/services/cloudgene/) can be started (from the CloudMan Admin page):
-<img src="http://i.imgur.com/SirnrWl.png" alt="" width=700 />
+<img src="http://i.imgur.com/SirnrWl.png" alt="" width="700" />
 
 This is a default dashboard view for the Cloudera Manager.
-<img src="http://i.imgur.com/llO7KvF.png" alt="" width=700 />
+<img src="http://i.imgur.com/llO7KvF.png" alt="" width="700" />

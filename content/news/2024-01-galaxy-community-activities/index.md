@@ -36,24 +36,24 @@ Repositories to be scanned can be configured via the `repositories.yml` file.
 
 In addition to the visualizations described above, the tool also generates lists of *(i) the all-time most frequent contributors*, *(ii) the last-year most frequent contributors*, and *(iii) newcomers* (those who contributed for the first time during the last year to a community).
 
-**The tool is available on:**&nbsp;<https://kostrykin.github.io/galaxy-community-activities/report/>
+**The tool is available on:**&nbsp;[https://kostrykin.github.io/galaxy-community-activities/report/](https://kostrykin.github.io/galaxy-community-activities/report/)
 
 </div>
 <div class="col-sm-5">
 
 <figure class="figure">
-  <g-image src="./example-personal-contributions.png" class="figure-img img-fluid rounded" />
+  <img src="./example-personal-contributions.png" class="figure-img img-fluid rounded" />
   <figcaption class="figure-caption">Example of a personal contributions timeline.</figcaption>
 </figure>
 
 
 <figure class="figure">
-  <g-image src="./example-image-contributions.png" class="figure-img img-fluid rounded" />
+  <img src="./example-image-contributions.png" class="figure-img img-fluid rounded" />
   <figcaption class="figure-caption">Example of the contribution graph of a Galaxy community.</figcaption>
 </figure>
 
 <figure class="figure">
-  <g-image src="./example-code-distribution.svg" class="figure-img img-fluid rounded" />
+  <img src="./example-code-distribution.svg" class="figure-img img-fluid rounded" />
   <figcaption class="figure-caption">Example of the distribution of repositories within a Galaxy community.</figcaption>
 </figure>
 

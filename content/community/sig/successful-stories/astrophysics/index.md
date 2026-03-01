@@ -48,7 +48,7 @@ To facilitate galaxy live tool review in galaxy tool flow, we setup a small [pre
 On preview instance - local users only, **authentication**, **basic job configuration** and 
 **storage**
 
-Update: Now, the astronomy subdomain is available here: <https://astronomy.usegalaxy.eu/>
+Update: Now, the astronomy subdomain is available here: [https://astronomy.usegalaxy.eu/](https://astronomy.usegalaxy.eu/)
 
 ### Problems to solve
 

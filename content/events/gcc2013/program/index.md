@@ -1,8 +1,5 @@
 <slot name="/events/gcc2013/header" />
 
-import linkbox from "../linkbox.json"
-<link-box :data="linkbox" />
-
 The 2013 Galaxy Community Conference will start with a [Training Day](/events/gcc2013/training-day/) on 30 June, followed by two full days of accepted talks, keynotes, [lightning talks](/events/gcc2013/lightning/), [poster sessions](/events/gcc2013/abstracts/posters/), [birds-of-a-feather sessions](/events/gcc2013/bof/), and networking time.
 
 As in past years, talks will cover a wide range of biology, bioinformatics, and informatics.  However, unlike in previous years, talks will be grouped and scheduled in sessions focusing on particular topics.
@@ -34,7 +31,7 @@ Workshops will be hands-on and participants will be strongly encouraged to bring
   </tr>
   <tr>
     <th style=" text-align: right;"> 8:00 </th>
-    <td colspan=5 style=" text-align: center; background-color: #F8F8F8 ;"> <em>Registration Opens and Catered Breakfast</em> </td>
+    <td colspan="5" style=" text-align: center; background-color: #F8F8F8 ;"> <em>Registration Opens and Catered Breakfast</em> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:00 </th>
@@ -46,7 +43,7 @@ Workshops will be hands-on and participants will be strongly encouraged to bring
   </tr>
   <tr>
     <th style=" text-align: right;"> 11:00 </th>
-    <td colspan=5 style=" text-align: center; background-color: #F8F8F8 ;"> <em>Catered Lunch</em> </td>
+    <td colspan="5" style=" text-align: center; background-color: #F8F8F8 ;"> <em>Catered Lunch</em> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 12:30 </th>
@@ -58,7 +55,7 @@ Workshops will be hands-on and participants will be strongly encouraged to bring
   </tr>
   <tr>
     <th style=" text-align: right;"> 14:30 </th>
-    <td colspan=5 style=" text-align: center; background-color: #F8F8F8 ;"> <em>Break</em> </td>
+    <td colspan="5" style=" text-align: center; background-color: #F8F8F8 ;"> <em>Break</em> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 15:00 </th>
@@ -70,10 +67,10 @@ Workshops will be hands-on and participants will be strongly encouraged to bring
   </tr>
   <tr>
     <th style=" text-align: right;"> 17:00</th>
-    <td colspan=5 style=" text-align: center; background-color: #F8F8F8 ;"> <em>Finish</em> </td>
+    <td colspan="5" style=" text-align: center; background-color: #F8F8F8 ;"> <em>Finish</em> </td>
   </tr>
   <tr>
-    <td colspan=5 style=" border: none;"> </td>
+    <td colspan="5" style=" border: none;"> </td>
   </tr>
   <tr>
     <td style=" border: none;"> </td>
@@ -123,11 +120,11 @@ The first day of the conference will feature [accepted talks](/events/gcc2013/ab
 <table>
           <tr>
             <td style=" vertical-align: top; text-align: right; border: none;"> 9:20 </td>
-            <td colspan=2 style=" border: none; width: 100%;"> <div class='right'><em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/StoddenComputationalReproducibility.pdf'>Slides</a>, <a href='https://vimeo.com/74878594'>Vimeo</a></em></div> <strong>Keynote:</strong> <strong><em><a href='/events/gcc2013/abstracts/talks/#computational-reproducibility-is-crucial-for-scientific-software-platforms'>Computational Reproducibility is Crucial for Scientific Software Platforms</a></em></strong> <div class='indent'> <strong><a href='http://www.stanford.edu/~vcs/Bio.html'>Victoria Stodden</a></strong>, <a href='http://idse.columbia.edu/victoria-stodden'>Institute for Data Sciences and Engineering</a>, and Assistant Professor, <a href='http://www.stat.columbia.edu/'>Department of Statistics</a>, <a href='http://www.columbia.edu/'>Columbia University</a></div> </td>
+            <td colspan="2" style=" border: none; width: 100%;"> <div class='right'><em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/StoddenComputationalReproducibility.pdf'>Slides</a>, <a href='https://vimeo.com/74878594'>Vimeo</a></em></div> <strong>Keynote:</strong> <strong><em><a href='/events/gcc2013/abstracts/talks/#computational-reproducibility-is-crucial-for-scientific-software-platforms'>Computational Reproducibility is Crucial for Scientific Software Platforms</a></em></strong> <div class='indent'> <strong><a href='http://www.stanford.edu/~vcs/Bio.html'>Victoria Stodden</a></strong>, <a href='http://idse.columbia.edu/victoria-stodden'>Institute for Data Sciences and Engineering</a>, and Assistant Professor, <a href='http://www.stat.columbia.edu/'>Department of Statistics</a>, <a href='http://www.columbia.edu/'>Columbia University</a></div> </td>
           </tr>
           <tr>
-            <td rowspan=3 style=" vertical-align: top; text-align: right; border: none;"> 10:10 </td>
-            <td colspan=2 style=" border: none; width: 100%;"> <strong>Accepted Talks</strong> </td>
+            <td rowspan="3" style=" vertical-align: top; text-align: right; border: none;"> 10:10 </td>
+            <td colspan="2" style=" border: none; width: 100%;"> <strong>Accepted Talks</strong> </td>
           </tr>
           <tr>
             <td style=" vertical-align: top; text-align: right; border: none;"> 10:10 </td>
@@ -151,8 +148,8 @@ The first day of the conference will feature [accepted talks](/events/gcc2013/ab
 
 <table class="table">
           <tr>
-            <td rowspan=4 style=" vertical-align: top; text-align: right; border: none;"> 11:15 </td>
-            <td colspan=2 style=" border: none; width: 100%;"> <strong>Accepted Talks</strong> </td>
+            <td rowspan="4" style=" vertical-align: top; text-align: right; border: none;"> 11:15 </td>
+            <td colspan="2" style=" border: none; width: 100%;"> <strong>Accepted Talks</strong> </td>
           </tr>
           <tr>
             <td style=" vertical-align: top; text-align: right; border: none;"> 11:15 </td>
@@ -168,7 +165,7 @@ The first day of the conference will feature [accepted talks](/events/gcc2013/ab
           </tr>
           <tr>
             <td style=" vertical-align: top; text-align: right; border: none;"> 12:15 </td>
-            <td colspan=2 style=" text-align: center; border: none; width: 100%;"> <div class='right'><em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/BrownleyGalaxySlipStream.pdf'>Slides</a>, <a href='https://vimeo.com/74869438'>Vimeo</a></em><br /><a href='http://bioteam.net/'><img src="/images/logos/BioTeamLogo154.gif" alt="BioTeam" width="90" /></a></div> <strong><em><a href='/events/gcc2013/abstracts/talks/#the-galaxy-slipstream-appliance-galaxy-made-easy'>The Galaxy SlipStream Appliance: Galaxy Made Easy</a></em></strong><br /><a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a><br /> Product Manager and Scientific Consultant, <a href='http://bioteam.net/'>BioTeam</a> <br /> Gold Sponsor Presentation </td>
+            <td colspan="2" style=" text-align: center; border: none; width: 100%;"> <div class='right'><em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/BrownleyGalaxySlipStream.pdf'>Slides</a>, <a href='https://vimeo.com/74869438'>Vimeo</a></em><br /><a href='http://bioteam.net/'><img src="/images/logos/BioTeamLogo154.gif" alt="BioTeam" width="90" /></a></div> <strong><em><a href='/events/gcc2013/abstracts/talks/#the-galaxy-slipstream-appliance-galaxy-made-easy'>The Galaxy SlipStream Appliance: Galaxy Made Easy</a></em></strong><br /><a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a><br /> Product Manager and Scientific Consultant, <a href='http://bioteam.net/'>BioTeam</a> <br /> Gold Sponsor Presentation </td>
           </tr>
 </table>
 
@@ -184,8 +181,8 @@ The first day of the conference will feature [accepted talks](/events/gcc2013/ab
 
 <table class="table">
           <tr>
-            <td rowspan=6 style=" vertical-align: top; text-align: right; border: none;"> 13:30 </td>
-            <td colspan=2 style=" border: none; width: 100%;"> <strong>Accepted Talks</strong> </td>
+            <td rowspan="6" style=" vertical-align: top; text-align: right; border: none;"> 13:30 </td>
+            <td colspan="2" style=" border: none; width: 100%;"> <strong>Accepted Talks</strong> </td>
           </tr>
           <tr>
             <td style=" vertical-align: top; text-align: right; border: none;"> 13:30</td>
@@ -226,32 +223,32 @@ The first day of the conference will feature [accepted talks](/events/gcc2013/ab
             <td style=" vertical-align: top; text-align: right; border: none;"> &nbsp;<a href='http://www.lifetechnologies.com/'><img src="/images/logos/IonTorrentLogo320.png" alt="Ion Torrent" width="150" /></a> </td>
           </tr>
           <tr>
-            <td rowspan=9 style=" vertical-align: top; text-align: right; border: none;"> 16:30 </td>
-            <td colspan=2 style=" border: none; width: 100%;"> <strong><a href='/events/gcc2013/lightning/'>Lightning Talks</a>, <a href='/events/gcc2013/lightning/#day-1-monday-1-july'>Session 1</a></strong></td>
+            <td rowspan="9" style=" vertical-align: top; text-align: right; border: none;"> 16:30 </td>
+            <td colspan="2" style=" border: none; width: 100%;"> <strong><a href='/events/gcc2013/lightning/'>Lightning Talks</a>, <a href='/events/gcc2013/lightning/#day-1-monday-1-july'>Session 1</a></strong></td>
           </tr>
           <tr>
-            <td colspan=2 style=" border: none; width: 100%;"> <div class='right'><em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/MedilaxyLightning.pdf'>Slides</a></em></div><em><a href='/events/gcc2013/lightning/#medilaxy-a-galaxy-platform-for-medical-image-analysis'>Medilaxy: A Galaxy Platform For Medical Image Analysis</a></em><div class='indent'>Marco Carnini, Johannes Gutenberg University</div></td>
+            <td colspan="2" style=" border: none; width: 100%;"> <div class='right'><em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/MedilaxyLightning.pdf'>Slides</a></em></div><em><a href='/events/gcc2013/lightning/#medilaxy-a-galaxy-platform-for-medical-image-analysis'>Medilaxy: A Galaxy Platform For Medical Image Analysis</a></em><div class='indent'>Marco Carnini, Johannes Gutenberg University</div></td>
           </tr>
           <tr>
-            <td colspan=2 style=" border: none; width: 100%;"> <div class='right'><em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/EstablishingWorkbenchLightning.pdf'>PDF</a>, <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/EstablishingWorkbenchLightning.pptx'>PPTX</a></em></div> <em><a href='/events/gcc2013/lightning/#establishing-a-genomics-analysis-workbench'>Establishing a genomics analysis workbench</a></em> <div class='indent'><a href='/people/enis-afgan/'>Enis Afgan</a>, Victorian Life Sciences Computation Initiative, University of Melbourne</div> </td>
+            <td colspan="2" style=" border: none; width: 100%;"> <div class='right'><em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/EstablishingWorkbenchLightning.pdf'>PDF</a>, <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/EstablishingWorkbenchLightning.pptx'>PPTX</a></em></div> <em><a href='/events/gcc2013/lightning/#establishing-a-genomics-analysis-workbench'>Establishing a genomics analysis workbench</a></em> <div class='indent'><a href='/people/enis-afgan/'>Enis Afgan</a>, Victorian Life Sciences Computation Initiative, University of Melbourne</div> </td>
           </tr>
           <tr>
-            <td colspan=2 style=" border: none; width: 100%;"> <div class='right'><em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/LiSIsLightning.pdf'>PDF</a>, <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/LiSIsLightning.pptx'>PPTX</a></em></div> <em><a href='/events/gcc2013/lightning/#lisis-a-galaxy-based-platform-for-life-science-informatics-research'>LiSIs: a Galaxy-based platform for Life Science Informatics Research</a></em><div class='indent'>Christos Kannas, University of Cyprus</div></td>
+            <td colspan="2" style=" border: none; width: 100%;"> <div class='right'><em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/LiSIsLightning.pdf'>PDF</a>, <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/LiSIsLightning.pptx'>PPTX</a></em></div> <em><a href='/events/gcc2013/lightning/#lisis-a-galaxy-based-platform-for-life-science-informatics-research'>LiSIs: a Galaxy-based platform for Life Science Informatics Research</a></em><div class='indent'>Christos Kannas, University of Cyprus</div></td>
           </tr>
           <tr>
-            <td colspan=2 style=" border: none; width: 100%;"> <div class='right'><em><a href='http://jiffyclub.github.io/scipy2013-swc-lightning-talk/#/'>Slides</a></em></div> <em><a href='/events/gcc2013/lightning/#software-carpentry---helping-scientists-build-better-software-since-1998'>Software Carpentry - Helping scientists build better software since 1998</a></em><div class='indent'>Lex Nederbragt, University of Oslo</div> </td>
+            <td colspan="2" style=" border: none; width: 100%;"> <div class='right'><em><a href='http://jiffyclub.github.io/scipy2013-swc-lightning-talk/#/'>Slides</a></em></div> <em><a href='/events/gcc2013/lightning/#software-carpentry---helping-scientists-build-better-software-since-1998'>Software Carpentry - Helping scientists build better software since 1998</a></em><div class='indent'>Lex Nederbragt, University of Oslo</div> </td>
           </tr>
           <tr>
-            <td colspan=2 style=" border: none; width: 100%;"> <div class='right'><em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/ExternalIntegrationLightning.pdf'>PDF</a>, <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/ExternalIntegrationLightning.pptx'>PPTX</a></em></div> <em><a href='/events/gcc2013/lightning/#galaxy-integration-into-an-external-information-system'>Galaxy Integration into an External Information System</a></em><div class='indent'>Alban Lermine, Institut Curie</div> </td>
+            <td colspan="2" style=" border: none; width: 100%;"> <div class='right'><em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/ExternalIntegrationLightning.pdf'>PDF</a>, <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/ExternalIntegrationLightning.pptx'>PPTX</a></em></div> <em><a href='/events/gcc2013/lightning/#galaxy-integration-into-an-external-information-system'>Galaxy Integration into an External Information System</a></em><div class='indent'>Alban Lermine, Institut Curie</div> </td>
           </tr>
           <tr>
-            <td colspan=2 style=" border: none; width: 100%;"> <div class='right'><em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/NextGenWebServerLightning.pdf'>Slides</a></em></div><em><a href='/events/gcc2013/lightning/#implementing-next-generation-web-server-in-galaxy'>Implementing Next Generation Web Server in Galaxy</a></em> <div class='indent'>Wai Yi Leung, Leiden University Medical Centre</div> </td>
+            <td colspan="2" style=" border: none; width: 100%;"> <div class='right'><em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/NextGenWebServerLightning.pdf'>Slides</a></em></div><em><a href='/events/gcc2013/lightning/#implementing-next-generation-web-server-in-galaxy'>Implementing Next Generation Web Server in Galaxy</a></em> <div class='indent'>Wai Yi Leung, Leiden University Medical Centre</div> </td>
           </tr>
           <tr>
-            <td colspan=2 style=" border: none; width: 100%;"> <div class='right'><em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/ScratchbookLightning.pdf'>PDF</a>, <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/ScratchbookLightning.pptx'>PPTX</a></em></div><em><a href='/events/gcc2013/lightning/#galaxy-scratchbook-how-to-view-customize-and-layout-multiple-visualizations'>Galaxy Scratchbook: How to view, customize, and layout multiple visualizations</a></em> <div class='indent'>Aysam Guerler, Emory University</div></td>
+            <td colspan="2" style=" border: none; width: 100%;"> <div class='right'><em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/ScratchbookLightning.pdf'>PDF</a>, <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/ScratchbookLightning.pptx'>PPTX</a></em></div><em><a href='/events/gcc2013/lightning/#galaxy-scratchbook-how-to-view-customize-and-layout-multiple-visualizations'>Galaxy Scratchbook: How to view, customize, and layout multiple visualizations</a></em> <div class='indent'>Aysam Guerler, Emory University</div></td>
           </tr>
           <tr>
-            <td colspan=2 style=" border: none; width: 100%;"> <div class='right'><em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/UnravelingCodeLightning.pdf'>Slides</a></em></div> <em><a href='/events/gcc2013/lightning/#unraveling-the-code-of-our-galaxy'>Unraveling the code of our Galaxy</a></em> <div class='indent'>Pieter Lukasse</div> </td>
+            <td colspan="2" style=" border: none; width: 100%;"> <div class='right'><em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/UnravelingCodeLightning.pdf'>Slides</a></em></div> <em><a href='/events/gcc2013/lightning/#unraveling-the-code-of-our-galaxy'>Unraveling the code of our Galaxy</a></em> <div class='indent'>Pieter Lukasse</div> </td>
           </tr>
 </table>
 </td>
@@ -302,11 +299,11 @@ The second and final day of the conference will feature  [accepted talks](/event
 <table class="table">
            <tr>
              <td style=" vertical-align: top; text-align: right; border: none;"> 9:10 </td>
-             <td colspan=2 style=" border: none; width: 100%;"> <div class='right'><em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/NekrutenkoTaylorState.pdf'>Slides</a>, <a href='https://vimeo.com/74413993'>Vimeo</a></em></div>  <strong><em><a href='/events/gcc2013/abstracts/talks/#state-of-the-galaxy'>State of the Galaxy</a></em></strong> <div class='indent'><a href='/people/anton/'>Anton Nekrutenko</a> and <a href='/people/james-taylor/'>James Taylor</a>, Galaxy Project </div> </td>
+             <td colspan="2" style=" border: none; width: 100%;"> <div class='right'><em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/NekrutenkoTaylorState.pdf'>Slides</a>, <a href='https://vimeo.com/74413993'>Vimeo</a></em></div>  <strong><em><a href='/events/gcc2013/abstracts/talks/#state-of-the-galaxy'>State of the Galaxy</a></em></strong> <div class='indent'><a href='/people/anton/'>Anton Nekrutenko</a> and <a href='/people/james-taylor/'>James Taylor</a>, Galaxy Project </div> </td>
            </tr>
            <tr>
-             <td rowspan=4 style=" vertical-align: top; text-align: right; border: none;"> 9:40 </td>
-             <td colspan=2 style=" border: none; width: 100%;"> <strong>Accepted Talks</strong> </td>
+             <td rowspan="4" style=" vertical-align: top; text-align: right; border: none;"> 9:40 </td>
+             <td colspan="2" style=" border: none; width: 100%;"> <strong>Accepted Talks</strong> </td>
            </tr>
            <tr>
              <td style=" vertical-align: top; text-align: right; border: none;"> 9:40</td>
@@ -334,8 +331,8 @@ The second and final day of the conference will feature  [accepted talks](/event
 
 <table class="table">
           <tr>
-            <td rowspan=4 style=" vertical-align: top; text-align: right; border: none;"> 11:10 </td>
-            <td colspan=2 style=" border: none;"> <strong>Accepted Talks</strong> </td>
+            <td rowspan="4" style=" vertical-align: top; text-align: right; border: none;"> 11:10 </td>
+            <td colspan="2" style=" border: none;"> <strong>Accepted Talks</strong> </td>
           </tr>
           <tr>
             <td style=" vertical-align: top; text-align: right; border: none;"> 11:10</td>
@@ -351,7 +348,7 @@ The second and final day of the conference will feature  [accepted talks](/event
           </tr>
           <tr>
             <td style=" vertical-align: top; text-align: right; border: none;"> 12:10 </td>
-            <td colspan=2 style=" text-align: center; border: none; width: 100%;"> <div class='right'> <em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/JoshiClinicalGalaxy.pdf'>Slides</a>, <a href='https://vimeo.com/74391527'>Vimeo</a></em><br />  <a href='http://www.emc.com/isilon'><img src="/images/logos/EMCIsilonLogo.jpg" alt="EMC Isilon" width="150" /></a></div> <strong><em><a href='/events/gcc2013/abstracts/talks/#the-clinical-galaxy-a-validated-platform-initiative'>The Clinical Galaxy: A validated platform initiative</a></em></strong><br /><a href='/people/sanjay-joshi/'>Sanjay Joshi</a><br /> Chief Technical Officer (CTO), <a href='http://www.isilon.com/industry/lifesciences'>Life Sciences</a>, <a href='http://www.emc.com/isilon'>EMC Isilon</a> <br />Gold Sponsor Presentation </td>
+            <td colspan="2" style=" text-align: center; border: none; width: 100%;"> <div class='right'> <em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/JoshiClinicalGalaxy.pdf'>Slides</a>, <a href='https://vimeo.com/74391527'>Vimeo</a></em><br />  <a href='http://www.emc.com/isilon'><img src="/images/logos/EMCIsilonLogo.jpg" alt="EMC Isilon" width="150" /></a></div> <strong><em><a href='/events/gcc2013/abstracts/talks/#the-clinical-galaxy-a-validated-platform-initiative'>The Clinical Galaxy: A validated platform initiative</a></em></strong><br /><a href='/people/sanjay-joshi/'>Sanjay Joshi</a><br /> Chief Technical Officer (CTO), <a href='http://www.isilon.com/industry/lifesciences'>Life Sciences</a>, <a href='http://www.emc.com/isilon'>EMC Isilon</a> <br />Gold Sponsor Presentation </td>
           </tr>
 </table>
 
@@ -367,8 +364,8 @@ The second and final day of the conference will feature  [accepted talks](/event
 
 <table class="table">
           <tr>
-            <td rowspan=5 style=" vertical-align: top; text-align: right; border: none;"> 13:30 </td>
-            <td colspan=2 style=" border: none;"> <strong>Accepted Talks</strong> </td>
+            <td rowspan="5" style=" vertical-align: top; text-align: right; border: none;"> 13:30 </td>
+            <td colspan="2" style=" border: none;"> <strong>Accepted Talks</strong> </td>
           </tr>
           <tr>
             <td style=" vertical-align: top; text-align: right; border: none;"> 13:30</td>
@@ -399,7 +396,7 @@ The second and final day of the conference will feature  [accepted talks](/event
 
 <table class="table">
           <tr>
-            <td rowspan=12 style=" vertical-align: top; text-align: right; border: none;"> 15:50 </td>
+            <td rowspan="12" style=" vertical-align: top; text-align: right; border: none;"> 15:50 </td>
             <td style=" border: none;"> <strong><a href='/events/gcc2013/lightning/'>Lightning Talks</a>, <a href='/events/gcc2013/lightning/#day-2-tuesday-2-july'>Session 2</a></strong> </td>
           </tr>
           <tr>

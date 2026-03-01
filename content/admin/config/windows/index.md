@@ -7,7 +7,7 @@ title: Running Galaxy on Windows
 
 Running Galaxy on Windows requires the use of [Windows Subsystem for Linux](https://msdn.microsoft.com/commandline/wsl/about) on 64-bit Windows 10 or running Linux on a Virtual Machine. You can find a tutorial on using Virtual Machines to run Galaxy at [https://getgalaxy.org](https://getgalaxy.org) while the below instructions describe running Galaxy on Windows subsystem for Linux.
 
-There is also a Virtual machine for tools development which comes pre-installed with Galaxy, Planemo and other useful tools: <https://planemo.readthedocs.org/en/latest/appliance.html#launching-the-appliance-virtualbox-ova>. The virtual machine is updated once per year and is suitable for tools development while the below process is more suited for running a local production server or develop the source code for Galaxy.
+There is also a Virtual machine for tools development which comes pre-installed with Galaxy, Planemo and other useful tools: [https://planemo.readthedocs.org/en/latest/appliance.html#launching-the-appliance-virtualbox-ova](https://planemo.readthedocs.org/en/latest/appliance.html#launching-the-appliance-virtualbox-ova). The virtual machine is updated once per year and is suitable for tools development while the below process is more suited for running a local production server or develop the source code for Galaxy.
 
 To run Galaxy using the [Windows Subsystem for Linux](https://msdn.microsoft.com/commandline/wsl/about) you need to set up your Windows environment, install Galaxy in your Linux distribution, and for development you can either use a text editor such as EMACS or use a remote development plugin for an IDE as the Linux distributions on Windows does not support graphical user interfaces. Below we describe how to use Microsoft Visual Studio on Windows as your IDE.
 
@@ -80,7 +80,7 @@ Finally enter the linux environment and write `code`in the terminal which will l
 ### Running old Galaxy (pre 16.01) on Windows
 *These instructions allow you to recreate old Galaxy set ups and should not be used for new projects.*
 
-The effort required involves building architecture specific “eggs” (think of these as python’s version of Java’s jar files). Eggs are created using the setuptools package, <http://peak.telecommunity.com/DevCenter/setuptools>. Galaxy has been run in Windows using both MinGW/MSYS (<http://www.mingw.org>) and CYGWIN (<https://www.cygwin.com>).
+The effort required involves building architecture specific “eggs” (think of these as python’s version of Java’s jar files). Eggs are created using the setuptools package, [http://peak.telecommunity.com/DevCenter/setuptools](http://peak.telecommunity.com/DevCenter/setuptools). Galaxy has been run in Windows using both MinGW/MSYS ([http://www.mingw.org](http://www.mingw.org)) and CYGWIN ([https://www.cygwin.com](https://www.cygwin.com)).
 
 Please note, a simple alternative to attempting to build eggs for Windows is to simply run Linux via virtualization software (such as the free [VirtualBox](https://www.virtualbox.org)). For best results, use a lightweight Linux such as [Xubuntu](https://www.xubuntu.org), or disable X-Windows.
 
@@ -88,7 +88,7 @@ If you choose to continue, to understand Eggs and how they work in Galaxy, read 
 
 ### Building Eggs
 
-Most eggs are platform-agnostic (e.g. Pure Python), and thus you can use the pre-built versions of these (from <https://eggs.g2.bx.psu.edu>). Of the remaining eggs, not all are required by the default configuration. You'll need at a minimum:
+Most eggs are platform-agnostic (e.g. Pure Python), and thus you can use the pre-built versions of these (from [https://eggs.g2.bx.psu.edu](https://eggs.g2.bx.psu.edu)). Of the remaining eggs, not all are required by the default configuration. You'll need at a minimum:
 
 * bx-python
 * Cheetah

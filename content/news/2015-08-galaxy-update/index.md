@@ -4,7 +4,7 @@ date: "2015-07-31"
 subsites: [global, us]
 ---
 <div class='right'>
-<a href='/galaxy-updates/2015-08/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galactic News! August 2015 Edition" width=150 /></a>
+<a href='/galaxy-updates/2015-08/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galactic News! August 2015 Edition" width="150" /></a>
 </div>
 
 The **[August Galactic News](/galaxy-updates/2015-08/)** is out.  It's been a busy two months for the community.  The *News* includes items on:

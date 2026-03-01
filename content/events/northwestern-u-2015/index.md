@@ -92,7 +92,7 @@ The Learning Resources Center has 23 computers, and seating for up to 50. Partic
 
 <div class='right center'>
 <a href='http://www.galter.northwestern.edu/'><img src="/events/northwestern-u-2015/GaltierHSL.jpg" alt="Galter Health Sciences Library" width="165" /></a><br /><br />
-<a href='http://www.it.northwestern.edu/research/'><img src="/events/northwestern-u-2015/NUITLogo.gif" alt="Northwestern University Research Computing Services" width=165 /></a><br /><br />
+<a href='http://www.it.northwestern.edu/research/'><img src="/events/northwestern-u-2015/NUITLogo.gif" alt="Northwestern University Research Computing Services" width="165" /></a><br /><br />
 <a href='http://nucats.northwestern.edu/'><img src="/events/northwestern-u-2015/NUCATS.jpg" alt="Northwestern University Clinical and Translational Sciences Institute" width="165" /></a><br />
 <a href='http://www.feinberg.northwestern.edu/'><img src="/events/northwestern-u-2015/FeinbergSOM.png" alt="Feinberg School of Medicine" width="185" /></a><br />
 <a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="Amazon Web Services" /></a>

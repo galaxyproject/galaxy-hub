@@ -10,7 +10,7 @@ title: September 2016 Galaxy News
 
 </div>
 
-<div class='left'><a href='/galaxy-updates/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="150" /></a></div>
 
 Welcome to the September 2016 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.
 
@@ -126,12 +126,12 @@ There are [a plentitude of Galaxy related events coming up](/events/). Here's wh
     <td> Ryota Yamanaka, Tazra Ohta </td>
   </tr>
   <tr>
-    <td colspan=4 style=" background-color: #eef;"> </td>
+    <td colspan="4" style=" background-color: #eef;"> </td>
   </tr>
   <tr>
-    <th rowspan=2> October 10 </th>
+    <th rowspan="2"> October 10 </th>
     <td> <em><a href='https://drive.google.com/file/d/0BwK61gB7NIcic1BnVmhxMFJEM3M/view'>Omics Data Services Platform: Supporting bacterial pathogen multi omics analysis</a></em> </td>
-    <td rowspan=2> <img src='/images/icons/AU.png' alt='Australia' align='right' />  <a href='https://nectar.org.au/workshop-science-gateways/'>International Workshop on Science Gateways</a>, Melbourne, Australia </td>
+    <td rowspan="2"> <img src='/images/icons/AU.png' alt='Australia' align='right' />  <a href='https://nectar.org.au/workshop-science-gateways/'>International Workshop on Science Gateways</a>, Melbourne, Australia </td>
     <td> Andrew Lonie </td>
   </tr>
   <tr>
@@ -163,7 +163,7 @@ There are [a plentitude of Galaxy related events coming up](/events/). Here's wh
     <td> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> and <a href='/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
-    <td colspan=4 style=" background-color: #eef;"> </td>
+    <td colspan="4" style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> November 7-8 </th>
@@ -214,7 +214,7 @@ There are [a plentitude of Galaxy related events coming up](/events/). Here's wh
     <td> <a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a>  <a href="mailto:contact@workflow4metabolomics.org">Contact</a> </td>
   </tr>
   <tr>
-    <td colspan=4 style=" text-align: center; background-color: #eef;"> <span style="font-size: larger;"> <strong>2017</strong> </span> </td>
+    <td colspan="4" style=" text-align: center; background-color: #eef;"> <span style="font-size: larger;"> <strong>2017</strong> </span> </td>
   </tr>
   <tr>
     <th> February 3-9 </th>
@@ -223,7 +223,7 @@ There are [a plentitude of Galaxy related events coming up](/events/). Here's wh
     <td> <a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='https://www.embl-abr.org.au/organisers/'>Organisers</a> </td>
   </tr>
   <tr>
-    <td colspan=4 style=" background-color: #eef;"> </td>
+    <td colspan="4" style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> June 26-30 </th>
@@ -294,13 +294,13 @@ The new papers were tagged with:
   <tr>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
   </tr>
@@ -554,7 +554,7 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 ----
 
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width="150" /></a></div>
 
 # ToolShed Contributions
 

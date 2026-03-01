@@ -30,7 +30,7 @@ The Galaxy Community and ELIXIR organise a second webinar series to demonstrate 
 **24 February 2020, 17.00-18.00 CET** (starts at 16.00 GMT, 11.00 EST, 8.00 PST)
 
 
-[Registration](https://us02web.zoom.us/webinar/register/WN_xolA85RUSP-NSHXB8CIztA){:target="_blank"}
+<a href="https://us02web.zoom.us/webinar/register/WN_xolA85RUSP-NSHXB8CIztA" target="_blank">Registration</a>
 
 #### Speakers
 

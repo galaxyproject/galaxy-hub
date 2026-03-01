@@ -24,7 +24,7 @@ Metagenomics Assembled Genomes (MAGs) are crucial for understanding biodiversity
 Leveraging the Galaxy platform, our primary objectives include finalising a user-friendly state-of-the-art Galaxy workflow tailored for MAG construction, and ensuring its accessibility and reusability through integration with WorkflowHub. 
 
 <figure class="figure">
-  <g-image src="./Flowchart_Individual_Assembly.png" class="figure-img img-fluid rounded" />
+  <img src="./Flowchart_Individual_Assembly.png" class="figure-img img-fluid rounded" />
   <figcaption class="figure-caption">Current state of the MAGs building Workflow</figcaption>
 </figure>
 
@@ -42,7 +42,7 @@ This evaluation will provide valuable insights into the workflow's performance a
 We will also investigate the computational resources required for executing the assembly step of the workflow using data provided by several Galaxy servers and the MGnify team on various input datasets. The aim would be to optimise resource allocation to ensure efficient and cost-effective MAGs construction. A novel tool will be developed to facilitate this process, allowing researchers to accurately estimate and allocate resources for each step of the assembly pipeline. 
 
 <figure class="figure">
-  <g-image src="./ML_tool.png" class="figure-img img-fluid rounded" />
+  <img src="./ML_tool.png" class="figure-img img-fluid rounded" />
   <figcaption class="figure-caption">Idea of the resource allocation prediction tool.</figcaption>
 </figure>
 

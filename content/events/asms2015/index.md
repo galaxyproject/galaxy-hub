@@ -24,13 +24,13 @@ Galaxy will again have a strong presence at the 2015 ASMS meeting.
     <td> 5:45 </td>
     <td> Room 123/124 </td>
     <td> Workshop: The Galaxy Framework for MS-based Informatics </td>
-    <td colspan=2 style=" text-align: center;"> See <a href='/events/asms2015/#workshop-4-the-galaxy-framework-for-ms-based-informatics'>below</a> </td>
+    <td colspan="2" style=" text-align: center;"> See <a href='/events/asms2015/#workshop-4-the-galaxy-framework-for-ms-based-informatics'>below</a> </td>
   </tr>
   <tr class="th" >
-    <th colspan=6> </th>
+    <th colspan="6"> </th>
   </tr>
   <tr>
-    <th rowspan=6> June 2 </th>
+    <th rowspan="6"> June 2 </th>
     <td> 8:50 </td>
     <td> Room 130/132 </td>
     <td> The quest for novel proteoforms: integration of proteomics and ribosome profiling based translatomics </td>
@@ -45,8 +45,8 @@ Galaxy will again have a strong presence at the 2015 ASMS meeting.
     <td> </td>
   </tr>
   <tr>
-    <td rowspan=2> 10:30 </td>
-    <td rowspan=2> Poster Session, Odd Numbered </td>
+    <td rowspan="2"> 10:30 </td>
+    <td rowspan="2"> Poster Session, Odd Numbered </td>
     <td> Poster TP 127: Democratizing and expanding the reach of DIA Mass Spectrometry: Developing OpenSWATH tools and workflows within user-friendly Galaxy-P platform. </td>
     <td> <a href='http://cbs.umn.edu/contacts/pratik-d-jagtap'>Pratik Jagtap</a> </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/posters/2015_ASMS_OpenSWATH_Jagtap.pdf'>Poster</a> </td>
@@ -57,8 +57,8 @@ Galaxy will again have a strong presence at the 2015 ASMS meeting.
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/posters/2015_ASMS_PeptideSpectral_Johnson.pdf'>Poster</a> </td>
   </tr>
   <tr>
-    <td rowspan=2> 12:00 </td>
-    <td rowspan=2> Poster Session, Even Numbered </td>
+    <td rowspan="2"> 12:00 </td>
+    <td rowspan="2"> Poster Session, Even Numbered </td>
     <td> Poster TP 366: Metaproteomic analysis of human cervical-vaginal fluid in residual Pap tests: Insights into the cervical microbiome </td>
     <td> Tim Griffin </td>
     <td> </td>
@@ -69,12 +69,12 @@ Galaxy will again have a strong presence at the 2015 ASMS meeting.
     <td> </td>
   </tr>
   <tr class="th" >
-    <th colspan=6> </th>
+    <th colspan="6"> </th>
   </tr>
   <tr>
-    <th rowspan=3> June 4 </th>
-    <td rowspan=2> 10:30 </td>
-    <td rowspan=2> Poster Session, Odd Numbered </td>
+    <th rowspan="3"> June 4 </th>
+    <td rowspan="2"> 10:30 </td>
+    <td rowspan="2"> Poster Session, Odd Numbered </td>
     <td> Poster ThP 455: A Novel Analytical-Informatics Platform Reveals the Hidden Tryptic Peptidome and Improves Multi-omic Applications </td>
     <td> Candace Guerrero </td>
     <td> </td>
@@ -86,7 +86,7 @@ Galaxy will again have a strong presence at the 2015 ASMS meeting.
   </tr>
   <tr>
     <td> 12:00 </td>
-    <td rowspan=2> Poster Session, Even Numbered </td>
+    <td rowspan="2"> Poster Session, Even Numbered </td>
     <td> Poster ThP 468: Automated classification of translated genomic elements identified by proteomics informed by transcriptomics </td>
     <td> Shyamasree Saha </td>
     <td> </td>

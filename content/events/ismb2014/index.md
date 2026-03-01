@@ -53,14 +53,14 @@ Galaxy has a significant presence at [ISMB 2014](http://www.iscb.org/ismb2014) a
     <th> Links </th>
   </tr>
   <tr>
-    <th rowspan=4> July 13 </th>
+    <th rowspan="4"> July 13 </th>
     <th style=" text-align: right;"> 3:05 </th>
     <td> Room 309 </td>
     <td> <em><a href='http://www.iscb.org/uploaded/css/166/29988.pdf'>TT03: Interactive Visual Analysis with Galaxy Charts</a></em><div class='indent'><a href='/people/guerler/'>Aysam Guerler</a> </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/ISMB2014_Guerler_Charts.pdf'>Slides</a> </td>
   </tr>
   <tr>
-    <th rowspan=3 style=" text-align: right;"> 5:00 </th>
+    <th rowspan="3" style=" text-align: right;"> 5:00 </th>
     <td> </td>
     <td> <em><a href='https://www.iscb.org/cms_addon/conferences/ismb2014/posterlist.php?cat=A#A29'>Poster A29: CanSNPer: a hierarchical genotype classiﬁer of clonal pathogens</a></em> <div class='indent'>Adrian Lärkeryd</div> </td>
     <td> </td>
@@ -76,8 +76,8 @@ Galaxy has a significant presence at [ISMB 2014](http://www.iscb.org/ismb2014) a
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/posters/ISMB2014_GalaxyForLocalResearchHao.pdf'>Poster</a> </td>
   </tr>
   <tr>
-    <th rowspan=3> July 14 </th>
-    <th rowspan=3 style=" text-align: right;"> 5:45 </th>
+    <th rowspan="3"> July 14 </th>
+    <th rowspan="3" style=" text-align: right;"> 5:45 </th>
     <td> </td>
     <td> <em><a href='https://www.iscb.org/cms_addon/conferences/ismb2014/posterlist.php?cat=B#B18'>Poster B18: High-Performance De Novo RNA-Transcript Assembly Leveraging Distributed Memory and Massive Parallelization</a></em> <div class='indent'>Pierre Carrier</div> </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/posters/ISMB2014_HighPerfRNATrans_Carrier.pdf'>Poster</a> </td>
@@ -93,7 +93,7 @@ Galaxy has a significant presence at [ISMB 2014](http://www.iscb.org/ismb2014) a
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/posters/ISMB2014_Kandalaft_GenomeAnnotation.pdf'>Poster</a> </td>
   </tr>
   <tr>
-    <th rowspan=4> July 15 </th>
+    <th rowspan="4"> July 15 </th>
     <th style=" text-align: right;"> 11:00 </th>
     <td> Room 313 </td>
     <td> <em><a href='http://www.iscb.org/uploaded/css/166/30137.pdf'>TT24: From the Ground to the Cloud in 25 minutes: Building a Customized Galaxy Analysis Server Using Only a Web Browser</a></em> <div class='indent'><a href='/people/dan/'>Daniel Blankenberg</a> </div> </td>

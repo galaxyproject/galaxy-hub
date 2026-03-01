@@ -11,10 +11,10 @@ title: Introduction to Galaxy
     <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.cbcb.umd.edu/'><img src="/images/logos/CBCBLogo.png" alt="Center for Bioinformatics & Computational Biology" width="300" /></a> </td>
   </tr>
   <tr>
-    <td colspan=3 style=" border: none; text-align: center; vertical-align: middle;"> </td>
+    <td colspan="3" style=" border: none; text-align: center; vertical-align: middle;"> </td>
   </tr>
   <tr>
-    <td colspan=3 style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://umd.edu/'><img src="/images/logos/UMarylandLogoLong349.gif" alt="University of Maryland" width="300" /></a> </td>
+    <td colspan="3" style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://umd.edu/'><img src="/images/logos/UMarylandLogoLong349.gif" alt="University of Maryland" width="300" /></a> </td>
   </tr>
 </table>
 

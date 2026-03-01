@@ -21,6 +21,7 @@ contributions:
     - deNBI
     - sfb992
 
+components: true
 ---
 
 We are offering a Galaxy workshop on high-throughput data analysis. This is an 
@@ -30,7 +31,7 @@ online course and is limited to the members CRC 1425, CRC 992 and MeInBio.
 <div align="center" width="100%">
     <a href="https://usegalaxy.eu/join-training/fr-feb-2022">
         <button type="button" class="btn btn-primary btn-lg">Start here!</button>
-    </a><br><br>
+    </a><br /><br />
 </div>
 Note: This is a special link created for the workshop only. After the workshop, you can directly access the Galaxy service from here: [https://usegalaxy.eu](https://usegalaxy.eu)
   
@@ -47,12 +48,11 @@ Schedule:
 
 Day     | Topics | Slides | Training material | Hands-on video
 ------- | -------------------------------------------
-Mon     | Introduction to Galaxy | [](https://docs.google.com/presentation/d/1ZscmajwHI02nI3bLkDRDbLelMELOfnrT3JF0vxCowbQ/edit?usp=sharing){:.fa .fa-slideshare target="_blank"} | [](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-strands/tutorial.html){:.fa .fa-laptop target="_blank"} | [](https://www.youtube.com/watch?v=1UPCrQxGwcU){:.fa .fa-video-camera target="_blank"}
-Tue     | ATAC-Seq data analysis | [](https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/atac-seq/slides.html){:.fa .fa-slideshare target="_blank"}  | [](https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/atac-seq/tutorial.html){:.fa .fa-laptop target="_blank"} | [](https://www.youtube.com/watch?v=Zc-bl6ZfcX4){:.fa .fa-video-camera target="_blank"}
-Wed     | RNA-Seq data analysis part I | [](https://training.galaxyproject.org/training-material/topics/transcriptomics/slides/introduction.html){:.fa .fa-slideshare target="_blank"} | [](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html){:.fa .fa-laptop target="_blank"} | [](https://www.youtube.com/watch?v=j4onRSN650A){:.fa .fa-video-camera target="_blank"}
-Thu     | RNA-Seq data analysis part II | [](https://training.galaxyproject.org/training-material/topics/transcriptomics/slides/introduction.html#21){:.fa .fa-slideshare target="_blank"} | [](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html#analysis-of-the-differential-gene-expression){:.fa .fa-laptop target="_blank"} | [](https://www.youtube.com/watch?v=j4onRSN650A&t=3960s){:.fa .fa-video-camera target="_blank"}
-Fri     | Advanced Galaxy features, discussions, bring your own data | [](https://docs.google.com/presentation/d/1VwZC3-CfF2AOA8mEELhE7jYmBopjGAJudgpOStxvkv0){:.fa .fa-slideshare target="_blank"} | |
-{:.table.table-striped}
+Mon     | Introduction to Galaxy | <a href="https://docs.google.com/presentation/d/1ZscmajwHI02nI3bLkDRDbLelMELOfnrT3JF0vxCowbQ/edit?usp=sharing" target="_blank"><Icon name="presentation" /></a> | <a href="https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-strands/tutorial.html" target="_blank"><Icon name="laptop" /></a> | <a href="https://www.youtube.com/watch?v=1UPCrQxGwcU" target="_blank"><Icon name="video" /></a>
+Tue     | ATAC-Seq data analysis | <a href="https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/atac-seq/slides.html" target="_blank"><Icon name="presentation" /></a>  | <a href="https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/atac-seq/tutorial.html" target="_blank"><Icon name="laptop" /></a> | <a href="https://www.youtube.com/watch?v=Zc-bl6ZfcX4" target="_blank"><Icon name="video" /></a>
+Wed     | RNA-Seq data analysis part I | <a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/slides/introduction.html" target="_blank"><Icon name="presentation" /></a> | <a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html" target="_blank"><Icon name="laptop" /></a> | <a href="https://www.youtube.com/watch?v=j4onRSN650A" target="_blank"><Icon name="video" /></a>
+Thu     | RNA-Seq data analysis part II | <a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/slides/introduction.html#21" target="_blank"><Icon name="presentation" /></a> | <a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html#analysis-of-the-differential-gene-expression" target="_blank"><Icon name="laptop" /></a> | <a href="https://www.youtube.com/watch?v=j4onRSN650A&t=3960s" target="_blank"><Icon name="video" /></a>
+Fri     | Advanced Galaxy features, discussions, bring your own data | <a href="https://docs.google.com/presentation/d/1VwZC3-CfF2AOA8mEELhE7jYmBopjGAJudgpOStxvkv0" target="_blank"><Icon name="presentation" /></a> | |
 
 ### Agenda
 Each day is divided in to 3 sessions:
@@ -93,9 +93,5 @@ If you have any questions, please do not hesitate to [contact us](mailto:contact
 
 ## Organizers
 
-{% assign extra_organizers =  "galaxy-freiburg|galaxy-europe" | split: "|"  %}
-{% include sponsors.html supporters=extra_organizers hidetitle=true %}
-
 ## Supported By
 
-{% include sponsors.html supporters=page.supporters hidetitle=true %}

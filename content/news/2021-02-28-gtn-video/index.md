@@ -15,6 +15,6 @@ This formidable video takes us on a journey through the different learning profi
 
 <iframe width="760" height="500" src="https://www.youtube.com/embed/lDqWxzWNk1k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<br>
+<br />
 Thank you very much for this great contribution to the Galaxy community, Geert!
 

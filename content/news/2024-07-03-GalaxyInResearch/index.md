@@ -45,7 +45,7 @@ Galaxy sends a huge ‘thank you’ to the authors, Camilo Escobar-Sierra, Migue
 
 *Stay tuned for more updates on Galaxy-enabled research and scientific discovery.*
 
----<br><be> 
+---<br /><be> 
 
 Camilo Escobar-Sierra, Miguel Cañedo-Argüelles, Dolors Vinyoles, Kathrin P. Lampert,
 Unraveling the molecular mechanisms of fish physiological response to freshwater salinization: A comparative multi-tissue transcriptomic study in a river polluted by potash mining, Environmental Pollution, Volume 357, 2024, 124400, ISSN 0269-7491, https://doi.org/10.1016/j.envpol.2024.124400.

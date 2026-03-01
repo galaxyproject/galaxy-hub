@@ -36,7 +36,7 @@ The blended training event focuses on helping the participants to develop a clim
 
 ## Venue
 
-{% include map.html location=page.location showmap=true zoomlevel=15 hidepopup=true %}
+{% include map.html location=page.location showmap=true zoomlevel="15" hidepopup=true %}
 
 
 # Important notes

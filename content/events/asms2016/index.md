@@ -20,7 +20,7 @@ Galaxy had a strong presence at the [2016 ASMS meeting](http://www.asms.org/conf
     <th> Links </th>
   </tr>
   <tr>
-    <th rowspan=4> June 6 </th>
+    <th rowspan="4"> June 6 </th>
     <td style=" text-align: right;"> 8:50 </td>
     <td> Hemisfair 3 </td>
     <td> Embracing Complexity and Diversity: Discovery Metaproteomics of Multiple Microbiomes using the Galaxy Framework </td>
@@ -35,8 +35,8 @@ Galaxy had a strong presence at the [2016 ASMS meeting](http://www.asms.org/conf
     <td> <a href='http://cbs.umn.edu/sites/cbs.umn.edu/files/public/downloads/ASMS_Poster_McGowan.pdf'>Poster</a> </td>
   </tr>
   <tr>
-    <td rowspan=2 style=" text-align: right;"> 12:30 </td>
-    <td rowspan=2> Poster Session, Even Numbered </td>
+    <td rowspan="2" style=" text-align: right;"> 12:30 </td>
+    <td rowspan="2"> Poster Session, Even Numbered </td>
     <td> Poster MP 266 From Start to Finish: a complete proteogenomic informatics environment implemented in the Galaxy </td>
     <td> Getiria Onsongo </td>
     <td> <a href='http://cbs.umn.edu/sites/cbs.umn.edu/files/public/downloads/ASMS16_onsongo.pdf'>Poster</a> </td>
@@ -47,10 +47,10 @@ Galaxy had a strong presence at the [2016 ASMS meeting](http://www.asms.org/conf
     <td> <a href='http://cbs.umn.edu/sites/cbs.umn.edu/files/public/downloads/Guerrero%20ASMS%20Poster%20Template%202016%20PDF.pdf'>Poster</a> </td>
   </tr>
   <tr>
-    <th colspan=6> </th>
+    <th colspan="6"> </th>
   </tr>
   <tr>
-    <th rowspan=2> June 7 </th>
+    <th rowspan="2"> June 7 </th>
     <td style=" text-align: right;"> 10:30 </td>
     <td> Poster Session, Odd Numbered </td>
     <td> Poster TP 775: Quantitative Top Down Proteomics in Translational Research: Markers for Rejection in Peripheral Blood Following Kidney Transplantation </td>
@@ -65,12 +65,12 @@ Galaxy had a strong presence at the [2016 ASMS meeting](http://www.asms.org/conf
     <td> </td>
   </tr>
   <tr>
-    <th colspan=6> </th>
+    <th colspan="6"> </th>
   </tr>
   <tr>
-    <th rowspan=4> June 8 </th>
-    <td rowspan=3 style=" text-align: right;"> 12:30 </td>
-    <td rowspan=3> Poster Session, Even Numbered </td>
+    <th rowspan="4"> June 8 </th>
+    <td rowspan="3" style=" text-align: right;"> 12:30 </td>
+    <td rowspan="3"> Poster Session, Even Numbered </td>
     <td> Poster WP 390 <a href='https://usegalaxyp.org/'>Galaxy-P</a>: recent developments and emerging applications </td>
     <td> <a href='http://cbs.umn.edu/contacts/timothy-j-griffin'>Timothy Griffin</a> </td>
     <td> <a href='http://cbs.umn.edu/sites/cbs.umn.edu/files/public/downloads/ASMS_Griffin_poster_FINAL.pdf'>Poster</a> </td>

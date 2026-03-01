@@ -22,7 +22,7 @@ Registration is now closed. Please contact [Hans-Rudolf Hotz](/people/hansrudolf
   </tr>
   <tr>
     <th> September 30<sup>th</sup>, Tuesday </th>
-    <td rowspan=2 style=" text-align: left;"> <a href='http://www.bau.unibe.ch/plaene/hgexwiunis.htm'>Universität Bern</a>, Bern, Switzerland </td>
+    <td rowspan="2" style=" text-align: left;"> <a href='http://www.bau.unibe.ch/plaene/hgexwiunis.htm'>Universität Bern</a>, Bern, Switzerland </td>
     <td> <strong><a href='/events/switzerland2014/trainingday/'>Galaxy Demo / Training Day</a></strong> </td>
   </tr>
   <tr>

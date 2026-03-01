@@ -1,7 +1,7 @@
 ---
 title: June 2013 Galaxy Update
 ---
-<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width="150" /></a></div>
 
 Welcome to the June 2013 *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -232,19 +232,19 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <td> <a href="mailto:m DOT crowe AT qfab DOT org">Mark Crowe</a> </td>
   </tr>
   <tr>
-    <th rowspan=2> July 19-23 </th>
+    <th rowspan="2"> July 19-23 </th>
     <td> <em><a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2013/workshops.php#W05'>The “How To Guide” for Establishing a Successful Bioinformatics Network</a></em> </td>
-    <td rowspan=2> <strong><a href='http://www.iscb.org/ismbeccb2013'>ISMB/ECCB 2013</a></strong> & <strong><a href='http://www.open-bio.org/wiki/BOSC_2013'>BOSC 2013</a></strong>, Berlin, Germany </td>
-    <td rowspan=2> <a href='/people/jeremy-goecks/'>JeremyGoecks</a> </td>
+    <td rowspan="2"> <strong><a href='http://www.iscb.org/ismbeccb2013'>ISMB/ECCB 2013</a></strong> & <strong><a href='http://www.open-bio.org/wiki/BOSC_2013'>BOSC 2013</a></strong>, Berlin, Germany </td>
+    <td rowspan="2"> <a href='/people/jeremy-goecks/'>JeremyGoecks</a> </td>
   </tr>
   <tr>
     <td> <em><a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2013/workshops.php#W06'>Integrated Visualization and Computing for Biomedical Research</a></em> </td>
   </tr>
   <tr>
-    <th rowspan=4> July 18-23 </th>
+    <th rowspan="4"> July 18-23 </th>
     <td> <em><a href='/events/niehs2013/'>Introduction to Galaxy Workshop</a></em><div class='indent'>National Institute of Environmental Health Sciences (NIEHS)</div> </td>
-    <td rowspan=4> <a href='/events/rt-workshop-tour2013/'>2013 Research Triangle Workshop Tour</a>, North Carolina, United States </td>
-    <td rowspan=4> <a href='/people/dave-clements/'>Dave Clements</a> </td>
+    <td rowspan="4"> <a href='/events/rt-workshop-tour2013/'>2013 Research Triangle Workshop Tour</a>, North Carolina, United States </td>
+    <td rowspan="4"> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <td> <em><a href='/events/unc2013/'>Introduction to Galaxy Workshop</a></em> <div class='indent'>University of North Carolina, Chapel Hill</div> </td>
@@ -256,9 +256,9 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <td> <em><a href='/events/ncsu2013/'>Introduction to Galaxy Workshop</a></em> <div class='indent'> North Carolina State University</div> </td>
   </tr>
   <tr>
-    <th rowspan=3> July 21-25 </th>
+    <th rowspan="3"> July 21-25 </th>
     <td> <em><a href='http://bit.ly/116LWZB'>Experiences in building a Next-Generation Sequencing Analysis Service using Galaxy, Globus Online, and Amazon Web Services</a></em> </td>
-    <td rowspan=3> <strong><a href='https://www.xsede.org/web/xsede13'>XSEDE13</a></strong>, San Diego, California, United States </td>
+    <td rowspan="3"> <strong><a href='https://www.xsede.org/web/xsede13'>XSEDE13</a></strong>, San Diego, California, United States </td>
     <td> <a href='http://www.mcs.anl.gov/about/people_detail.php?id=347'>Ravi Madduri</a> </td>
   </tr>
   <tr>
@@ -304,7 +304,7 @@ The most recent official distribution was on [April 1, 2013](/archive/dev-news-b
 
 ## Tool Shed Contributions
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width="150" /></a></div>
 
 * [rxlr_venn_workflow](http://bit.ly/1071hG2): a workflow for comparing 3 RXLR prediction methods with a Venn Diagram
 * [vcf_to_variantdb](http://bit.ly/14bpN9c): Send UnifiedGenotyper VCF to a !VariantDB instance  

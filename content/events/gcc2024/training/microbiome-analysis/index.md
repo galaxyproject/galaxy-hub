@@ -15,9 +15,9 @@ This workshop demonstrates the PathoGFAIR workflow, a series of Galaxy-based FAI
 ## Meet the Instructors
 
 ### Engy Nasr
-University of Freiburg, Department of Bioinformatics <br>
+University of Freiburg, Department of Bioinformatics <br />
 I am research assistant and a PhD student at the faculty of engineering, the department of bioinformatics. My main PhD focus is Microbiome analysis using Galaxy Framework
 
 ### Paul Zierep
-University of Freiburg, European Galaxy Team <br>
+University of Freiburg, European Galaxy Team <br />
 Enthusiast about workflow development and microbial research. Main focus on microbiome pipeline development and tool integration. Co-organiser of the microGalaxy community. 

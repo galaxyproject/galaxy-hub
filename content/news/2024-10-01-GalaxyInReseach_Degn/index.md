@@ -35,6 +35,6 @@ This study is a major step toward a comprehensive model of BCR activation. Propo
    
 Thank you to Søren Degn and Pavel Tolar for employing Galaxy in their analysis. Their work adds to the growing knowledge of immune system function and its molecular underpinnings.  
  
----<br><be> 
+---<br /><be> 
    
 Degn, S.E., Tolar, P. Towards a unifying model for B-cell receptor triggering. Nat Rev Immunol (2024). https://doi.org/10.1038/s41577-024-01073-x  

@@ -33,7 +33,7 @@ Galaxy will have a strong presence at [Plant and Animal Genome XXIV (PAG 2017)](
     <td> Robert Davey </td>
   </tr>
   <tr>
-    <th colspan=6 style=" background-color: #eef;"> </th>
+    <th colspan="6" style=" background-color: #eef;"> </th>
   </tr>
   <tr>
     <th rowspan="3"> Sunday<br />January 15 </th>
@@ -58,7 +58,7 @@ Galaxy will have a strong presence at [Plant and Animal Genome XXIV (PAG 2017)](
     <td> Nic Herndon </td>
   </tr>
   <tr>
-    <th colspan=6 style=" background-color: #eef;"> </th>
+    <th colspan="6" style=" background-color: #eef;"> </th>
   </tr>
   <tr>
     <th rowspan="10"> Monday<br />January 16 </th>
@@ -118,7 +118,7 @@ Galaxy will have a strong presence at [Plant and Animal Genome XXIV (PAG 2017)](
     <td> Matthew Vaughn </td>
   </tr>
   <tr>
-    <th colspan=6 style=" background-color: #eef;"> </th>
+    <th colspan="6" style=" background-color: #eef;"> </th>
   </tr>
   <tr>
     <th> Tuesday<br />January 17 </th>
@@ -129,10 +129,10 @@ Galaxy will have a strong presence at [Plant and Animal Genome XXIV (PAG 2017)](
     <td> <a href='/people/jeremy-goecks/'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
-    <th colspan=6 style=" background-color: #eef;"> </th>
+    <th colspan="6" style=" background-color: #eef;"> </th>
   </tr>
   <tr>
-    <th rowspan=2> Wednesday<br />January 18 </th>
+    <th rowspan="2"> Wednesday<br />January 18 </th>
     <td style=" text-align: center;"> 1:35-2:00 </td>
     <td> <a href='https://pag.confex.com/pag/xxv/meetingapp.cgi/Paper/25649'>Galaxy Community Update</a> </td>
     <td> <a href='https://pag.confex.com/pag/xxv/meetingapp.cgi/Session/4229'>GMOD</a>, Golden West </td>

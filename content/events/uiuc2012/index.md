@@ -62,7 +62,7 @@ There will be one workshop split into two consecutive days:
     <td> <strong>Day 1 Ends</strong> </td>
   </tr>
   <tr>
-    <td colspan=1> </td>
+    <td colspan="1"> </td>
   </tr>
   <tr class="th" >
     <th style=" text-align: center;"> Day 2: October 17, 1-5pm </th>

@@ -3,8 +3,8 @@ title: Sponsorships
 ---
 <slot name="/events/gcc2013/header" />
 
-import linkbox from "../linkbox.json"
-<link-box :data="linkbox" />
+
+<link-box data="linkbox" />
 
 Is your organization interested in being a prominent part of one of the fastest growing communities in bioinformatics?  Becoming a 2013 Galaxy Community Conference Sponsor is an excellent way to raise your organization's visibility in this active and engaged community.
 
@@ -124,13 +124,13 @@ Sponsorships are available at four different levels.
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='http://www.uio.no/english/research/interfaculty-research-areas/mls/'><img src="/images/logos/MLSUiOLogo.png" alt="Molecular Life Science at the University of Oslo" height=120 /></a> </td>
+    <td style=" text-align: center; border: none;"> <a href='http://www.uio.no/english/research/interfaculty-research-areas/mls/'><img src="/images/logos/MLSUiOLogo.png" alt="Molecular Life Science at the University of Oslo" height="120" /></a> </td>
     <td style=" text-align: center; border: none;"> &nbsp;&nbsp; <a href='http://www.forskningsradet.no/english/'><img src="/images/logos/ResearchCouncilNorway500.png" alt="The Research Council of Norway" width="400" /></a> </td>
-    <td style=" text-align: center; border: none;"> &nbsp;&nbsp; <a href='http://www.bioinfo.no/about/'><img src="/images/logos/FUGE.png" alt="Functional Genomics" height=120 /></a> &nbsp;&nbsp; </td>
-    <td style=" text-align: center; border: none;"> <a href='http://www.elixir-europe.org/'><img src="/images/logos/ElixirNoTextLogo.png" alt="Elixer" height=120 /></a> </td>
+    <td style=" text-align: center; border: none;"> &nbsp;&nbsp; <a href='http://www.bioinfo.no/about/'><img src="/images/logos/FUGE.png" alt="Functional Genomics" height="120" /></a> &nbsp;&nbsp; </td>
+    <td style=" text-align: center; border: none;"> <a href='http://www.elixir-europe.org/'><img src="/images/logos/ElixirNoTextLogo.png" alt="Elixer" height="120" /></a> </td>
   </tr>
   <tr>
-    <td colspan=4 style=" border: none; text-align: center;"> <a href='http://uio.no/'><img src="/images/logos/UiOLogo.png" alt="University of Oslo"  /></a> </td>
+    <td colspan="4" style=" border: none; text-align: center;"> <a href='http://uio.no/'><img src="/images/logos/UiOLogo.png" alt="University of Oslo"  /></a> </td>
   </tr>
 </table>
 

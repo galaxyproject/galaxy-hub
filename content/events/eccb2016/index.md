@@ -23,7 +23,7 @@ Galaxy will have a significant presence at the **[European Conference on Computa
     <th> Links </th>
   </tr>
   <tr>
-    <td colspan=5 style=" background-color: #eef;"> </td>
+    <td colspan="5" style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> September&nbsp;3 </th>
@@ -33,10 +33,10 @@ Galaxy will have a significant presence at the **[European Conference on Computa
     <td> <a href='http://bitlab-es.com/bitlab/compartir/galaxy-eccb/slides/'>Slides</a> </td>
   </tr>
   <tr>
-    <td colspan=5 style=" background-color: #eef;"> </td>
+    <td colspan="5" style=" background-color: #eef;"> </td>
   </tr>
   <tr>
-    <th rowspan=3> September 5 </th>
+    <th rowspan="3"> September 5 </th>
     <td> 11:50 </td>
     <td> <em><a href='http://www.eccb2016.org/sessions/et02/'>ET02: Integrating Oncotrack and TraIT workflows with EGA to store and reference Human Data</a></em> </td>
     <td> J. Dylan Spalding </td>
@@ -55,10 +55,10 @@ Galaxy will have a significant presence at the **[European Conference on Computa
     <td> See <a href='/events/eccb2016/#even-numbered-posters'>below</a> </td>
   </tr>
   <tr>
-    <td colspan=5 style=" background-color: #eef;"> </td>
+    <td colspan="5" style=" background-color: #eef;"> </td>
   </tr>
   <tr>
-    <th rowspan=4> September 6 </th>
+    <th rowspan="4"> September 6 </th>
     <td> 11:30 </td>
     <td> <em><a href='http://www.eccb2016.org/sessions/et07-the-genomic-hyperbrowser/'>ET07:  The Genomic HyperBrowser</a></em> </td>
     <td> Finn Drabløs </td>

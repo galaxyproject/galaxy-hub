@@ -14,5 +14,5 @@ Modern CSS has many features which when properly utilized can vastly simplify co
 ## Meet the Instructor
 
 ### Laila Los
-University of Freiburg <br>
+University of Freiburg <br />
 Galaxy Frontend Developer

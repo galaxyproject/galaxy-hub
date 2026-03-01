@@ -10,12 +10,12 @@ contributions:
     - beatrizserrano
 ---
 
-<br>
+<br />
 After two intense weeks of training, conference and collaboration fest, the [__Galaxy Community Conference 2021 (GCC2021)__](https://www.vibconferences.be/events/gcc2021-virtual-edition) has come to an end. This has been the second virtual GCC since the pandemic started and it has featured a week of training, a three-day conference and a two-day CoFest. In total, __399 participants from 55 countries__ attended any of these events.
 
 {% twitter https://twitter.com/tnabtaf/status/1413972089753673731 %}
 
-<br>
+<br />
 
 ## Training Week
 
@@ -59,7 +59,7 @@ All the recordings are available, with captions in the [Galaxy Project YouTube c
 Besides the talks and BoFs, we had the __poster/demo/sponsor sessions__ every day after the second session, with 44 posters presented over the 3 days in both time zones.
 
 {% twitter https://twitter.com/Birthae/status/1413145200495448077 %}
-<br>
+<br />
 
 ## CoFest
 
@@ -68,7 +68,7 @@ The three-day conference was followed by a __two-day collaborative work event__ 
 To celebrate the success of GCC2021, the Freiburg Galaxy team enjoyed an outdoor BBQ!
 
 {% twitter https://twitter.com/bjoerngruening/status/1413942191358160899 %}
-<br>
+<br />
 
 ### Thank you to all the organizers, scientific program committee, sponsors and the Galaxy community for the engagement, enthusiasm and contributions!!
 

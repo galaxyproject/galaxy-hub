@@ -14,7 +14,10 @@ contacts:
 - name: Person
   email: name@example.com
   url: https://example.com
-authors: Jose and me
+contributions:
+  authorship:
+    - jose
+    - me
 location:
   name: Strong Badia
 location_url: 'https://www.youtube.com/watch?v=hfUqRp4E0L8&t=37s'
@@ -32,7 +35,6 @@ links:
   url: "https://youtu.be/bQFv4EVunWw"
 redirect: /somewhere/else/
 subsites: [global]
-components: true
 ---
 
 This also serves to provide a page with all the metadata fields present. If you have a dynamic page with a GraphQL query for a metadata field, there must be at least one page with that field present. Otherwise Gridsome throws an error.
@@ -49,7 +51,6 @@ Here's how Inserts are inserted:
 
 Using Vue components:
 
-import Continent from '~/components/Continent.vue'
 
 They can even be used <continent continent="EU" /> inline!
 

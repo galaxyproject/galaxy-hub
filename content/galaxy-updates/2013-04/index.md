@@ -1,7 +1,7 @@
 ---
 title: April 2013 Galaxy Update
 ---
-<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width="150" /></a></div>
 
 Welcome to the April 2013 *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -213,9 +213,9 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <td> <a href='/people/dave-clements/'>Dave Clements</a>, <a href='http://www.berkeleybop.org/person/suzanna-lewis'>Suzanna Lewis</a> </td>
   </tr>
   <tr>
-    <th rowspan=2> April 9-11 </th>
+    <th rowspan="2"> April 9-11 </th>
     <td> Workshop: <em><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=110781'>Integrated Research Data Management for Next Gen Sequencing Analysis Using Galaxy and Globus Online Software-as-a-Service</a></em> </td>
-    <td rowspan=2> <a href='http://www.bio-itworldexpo.com'>BioIT World</a>, Boston, Massachusetts, United States </td>
+    <td rowspan="2"> <a href='http://www.bio-itworldexpo.com'>BioIT World</a>, Boston, Massachusetts, United States </td>
     <td> <a href='http://www.mcs.anl.gov/about/people_detail.php?id=347'>Ravi K. Madduri</a>, Alex R. Paciorkowski, Vas Vasiliadis </td>
   </tr>
   <tr>
@@ -225,7 +225,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   <tr>
     <th> April 10 </th>
     <td> <em><a href='http://bit.ly/13EwL9j'>Introduction to Galaxy Boot Camp</a></em> </td>
-    <td rowspan=2> <a href='http://bioinformatics.ucdavis.edu/'>UC Davis Bioinformatics Core</a> Davis, California, United States </td>
+    <td rowspan="2"> <a href='http://bioinformatics.ucdavis.edu/'>UC Davis Bioinformatics Core</a> Davis, California, United States </td>
     <td> <a href="mailto:najoshi AT ucdavis DOT edu">Nikhil Joshi</a> </td>
   </tr>
   <tr>
@@ -252,9 +252,9 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <td> <a href='/people/james-taylor/'>James Taylor</a> </td>
   </tr>
   <tr>
-    <th rowspan=3> May 28-31 </th>
+    <th rowspan="3"> May 28-31 </th>
     <td> <em><a href='http://www.bio-itworldasia.com/cla/'>A Genomics Virtual Lab for Cancer Research</a></em> </td>
-    <td rowspan=3> <a href='http://www.bio-itworldasia.com/'>Bio-IT World Asia</a>, Singapore </td>
+    <td rowspan="3"> <a href='http://www.bio-itworldasia.com/'>Bio-IT World Asia</a>, Singapore </td>
     <td> Dominique Gorse </td>
   </tr>
   <tr>
@@ -316,7 +316,7 @@ Once the discussion settles, we will [summarize the discussion](http://bit.ly/11
 
 ## Galaxy Distributions
 
-<div class='right'><a href='http://galaxyproject.org'><img src="/images/news-graphics/2013_04_01_granular-galaxy-utilities.png" alt="tool shed" width=350 /></a></div>
+<div class='right'><a href='http://galaxyproject.org'><img src="/images/news-graphics/2013_04_01_granular-galaxy-utilities.png" alt="tool shed" width="350" /></a></div>
 
 **[April 1, 2013 Distribution](/archive/dev-news-briefs/2013-04-01/)**
 
@@ -328,7 +328,7 @@ Once the discussion settles, we will [summarize the discussion](http://bit.ly/11
 
 ## Tool Shed Contributions
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width="150" /></a></div>
 
 * [ctcf_analysis](http://bit.ly/Z6ii0k): computationally predict CTCF sites for a nucleotide sequence
 * [interproscan_to_excel](http://bit.ly/12AF0nF): Convert interproscan raw or xml output to an Excel file

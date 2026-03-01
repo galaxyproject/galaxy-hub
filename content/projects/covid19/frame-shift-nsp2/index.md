@@ -2,6 +2,7 @@
 description: "Variants for frame-shift sites in gene nsp2"
 autotoc: false
 title: "Distribution of allele frequencies for [frame-shift] sites in gene [nsp2]"
+components: true
 ---
 
 Period: from 2021-01-02 00:00:00 to 2022-01-29 00:00:00
@@ -14,6 +15,6 @@ Shows distribution of mean alternative allele frequencies in weekly intervals. T
 Mouse over to see additional information. Click on the country code label to restrict graph to that country.
 
 <div class="shadow-sm p-3 mb-5 bg-light rounded" align="center">
-<vega-embed spec="https://raw.githubusercontent.com/galaxyproject/SARS-CoV-2/master/data/ipynb/graphs/frame-shift-nsp2.json"/>
+<VegaEmbed spec="https://raw.githubusercontent.com/galaxyproject/SARS-CoV-2/master/data/ipynb/graphs/frame-shift-nsp2.json"/>
 </div>
 

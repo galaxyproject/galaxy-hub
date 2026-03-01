@@ -1,10 +1,10 @@
 # Global Galaxy Steering Committee
 
 <div class="alert alert-info float-center text-center trim-p">
-<br>
+<br />
 The Global Galaxy Steering Committee is superseded by the <a href="/community/governance/gcb/">Galaxy Community Board</a>.
-<br>
-<br>
+<br />
+<br />
 </div>
 
 ---

@@ -20,7 +20,7 @@ From 7th to 9th of April 2025, Björn Grüning and Armin Dadras attended the [ki
 
 <figure class="figure">
     <img src="https://www.egi.eu/_next/image/?url=https%3A%2F%2Fcdn.egi.eu%2Fapp%2Fuploads%2F2025%2F04%2FEOSC-Data-Commons-KOM-1024x683.png&w=3840&q=75" 
-         class="figure-img img-fluid rounded">
+         class="figure-img img-fluid rounded" />
 </figure>
 
 Key goals include:

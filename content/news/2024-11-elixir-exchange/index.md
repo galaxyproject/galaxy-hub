@@ -25,31 +25,31 @@ I drew on my experience of using Galaxy to reorganise the Seurat tools, grouping
 Load transcriptomic or CITEseq data into a Seurat Object, add QC metrics, and filter the dataset with:
 <div align="left">
 <a href="https://usegalaxy.eu/?tool_id=seurat_create"><button type="button" class="btn btn-primary btn-lg">Seurat Create</button></a>
-</div><br>
+</div><br />
 Prepare data for analysis with separate normalization, scaling, and feature selection functions or using SCTransform with:
 <div align="left">
 <a href="https://usegalaxy.eu/?tool_id=seurat_preprocessing"><button type="button" class="btn btn-primary btn-lg">Seurat Preprocessing</button></a>
-</div><br>
+</div><br />
 Calculate PCA, tSNE, or UMAP with:
 <div align="left">
 <a href="https://usegalaxy.eu/?tool_id=seurat_reduce_dimension"><button type="button" class="btn btn-primary btn-lg">Seurat Run Dimensional Reduction</button></a>
-</div><br>
+</div><br />
 Compute a neighborhood graph, apply clustering algorithms, and perform differential expression analysis with:
 <div align="left">
 <a href="https://usegalaxy.eu/?tool_id=seurat_clustering"><button type="button" class="btn btn-primary btn-lg">Seurat Find Clusters</button></a>
-</div><br>
+</div><br />
 Create plots such as violin plots, heatmaps, or dimensional reduction plots with:
 <div align="left">
 <a href="https://usegalaxy.eu/?tool_id=seurat_plot"><button type="button" class="btn btn-primary btn-lg">Seurat Visualize</button></a>
-</div><br>
+</div><br />
 Inspect or manipulate a Seurat Object (e.g. add more metadata, rename idents, subset data) with:
 <div align="left">
 <a href="https://usegalaxy.eu/?tool_id=seurat_data"><button type="button" class="btn btn-primary btn-lg">Seurat Data Management</button></a>
-</div><br>
+</div><br />
 Split, join, or integrate layers of data with:
 <div align="left">
 <a href="https://usegalaxy.eu/?tool_id=seurat_integrate"><button type="button" class="btn btn-primary btn-lg">Seurat Integrate</button></a>
-</div><br>
+</div><br />
 
 ## What I Learned About Galaxy
 

@@ -52,6 +52,6 @@ In an effort to promote sustainability, Galaxy now displays estimated CO2 emissi
 
 The Galaxy Project is dedicated to advancing new software technologies, scientific data types, and collaborative research paradigms. Future developments include shared Pulsar servers for better computational efficiency, scratch storage to enhance data processing, and expanded support for diverse research domains. These efforts are rooted in our commitment to accessibility, reproducibility, and transparency in research. We aim to integrate seamlessly with external data sources, computational infrastructure, and third-party tools. By fostering a strong, collaborative community, we ensure continuous improvement of the Galaxy platform, adapting to the evolving needs of the open science community.
 
----<br><be> 
+---<br /><be> 
 
 We extend our utmost gratitude to the entire Galaxy Community for their unwavering support, dedication, and contributions. Your active engagement and collaboration are the driving forces behind the continuous evolution and success of the Galaxy Project. We are advancing the frontiers of accessible, reproducible, and transparent research. Thank you for being an integral part of this journey.

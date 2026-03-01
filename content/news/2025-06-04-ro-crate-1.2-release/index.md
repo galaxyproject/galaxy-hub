@@ -1,7 +1,6 @@
 ---
 title: "RO-Crate specification 1.2 released"
 tags: [esg, esg-wp2, covid-19, esg, community, ro-crate, fair, community]
-layout: news
 date: "2025-06-04"
 tease: "Specification for RO-Crate 1.2 released"
 subsites: [all,esg]
@@ -18,7 +17,7 @@ contributions:
 
 [![RO-Crate](ro-crate-wide.svg)](https://www.researchobject.org/ro-crate/)
 
-This release (<https://w3id.org/ro/crate/1.2>) marks the culmination of a large collaborative effort by the [RO-Crate community](https://www.researchobject.org/ro-crate/community), working closely with the Galaxy community through the projects [EuroScienceGateway](https://galaxyproject.org/projects/esg/) and [FAIR-EASE](https://fairease.eu/about), and multiple international collaborators.
+This release ([https://w3id.org/ro/crate/1.2](https://w3id.org/ro/crate/1.2)) marks the culmination of a large collaborative effort by the [RO-Crate community](https://www.researchobject.org/ro-crate/community), working closely with the Galaxy community through the projects [EuroScienceGateway](https://galaxyproject.org/projects/esg/) and [FAIR-EASE](https://fairease.eu/about), and multiple international collaborators.
 
 ## Release highlights
 
@@ -77,10 +76,10 @@ provide support on Slack.  The community is open for anyone to join!
 
 ## References
 
-* RO-Crate 1.2 release <https://doi.org/10.5281/zenodo.13751027>
-* Packaging research artefacts with RO-Crate <https://doi.org/10.3233/DS-210053>
-* Practical webby FDOs With RO-Crate and FAIR Signposting <https://doi.org/10.52825/ocp.v5i.1273>
-* Recording provenance of workflow runs with RO-Crate <https://doi.org/10.1371/journal.pone.0309210>
-* WorkflowHub: a registry for computational workflows <https://doi.org/10.1038/s41597-025-04786-3>
-* Enhancing RDM in Galaxy by integrating RO-Crate <https://doi.org/10.3897/rio.8.e95164>
-* Facilitating Reproducibility in Catalysis Research with Managed Workflows and RO-Crates: A Galaxy Case Study <https://doi.org/10.1002/cctc.202401676>
+* RO-Crate 1.2 release [https://doi.org/10.5281/zenodo.13751027](https://doi.org/10.5281/zenodo.13751027)
+* Packaging research artefacts with RO-Crate [https://doi.org/10.3233/DS-210053](https://doi.org/10.3233/DS-210053)
+* Practical webby FDOs With RO-Crate and FAIR Signposting [https://doi.org/10.52825/ocp.v5i.1273](https://doi.org/10.52825/ocp.v5i.1273)
+* Recording provenance of workflow runs with RO-Crate [https://doi.org/10.1371/journal.pone.0309210](https://doi.org/10.1371/journal.pone.0309210)
+* WorkflowHub: a registry for computational workflows [https://doi.org/10.1038/s41597-025-04786-3](https://doi.org/10.1038/s41597-025-04786-3)
+* Enhancing RDM in Galaxy by integrating RO-Crate [https://doi.org/10.3897/rio.8.e95164](https://doi.org/10.3897/rio.8.e95164)
+* Facilitating Reproducibility in Catalysis Research with Managed Workflows and RO-Crates: A Galaxy Case Study [https://doi.org/10.1002/cctc.202401676](https://doi.org/10.1002/cctc.202401676)

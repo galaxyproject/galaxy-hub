@@ -45,7 +45,7 @@ The AlphaFold Service is now taking amino acid sequences from the user, and all 
 
 <div align="center">
 <a href="https://usegalaxy.eu/?tool_id=alphafold"><button type="button" class="btn btn-primary btn-lg">Start AlphaFold now</button></a>
-</div><br>
+</div><br />
 
 Thanks especially to [Australian BioCommons](https://www.biocommons.org.au/) for this [great collaboration](https://www.biocommons.org.au/news/alphafold-galaxy-au) and the blog that was adopted from from them.
 

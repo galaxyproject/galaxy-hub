@@ -48,11 +48,10 @@ The course consists of six modules, as the table above shows, covering a list of
 
 |                | Day 1 - Wed Oct 17                 | Day 2 - Thu Oct 18                                    | Day 3 - Fri Oct 19                                 |
 | -------------- | ---------------------------------- | ----------------------------------------------------- | -------------------------------------------------- |
-| **Morning**    | Galaxy 101 + Variant detection<br> [(Saskia Hiltemann)](https://shiltemann.github.io/) | Network analysis with microbiota metatranscriptome <br>[(Chao Zhang)](https://hi-it.org/)  | Teaching bioinformatics workflows <br> [(Anton Feenstra)](http://www.few.vu.nl/~feenstra/)                |
-| **Keynote**    | I: About bioinformatics workflows (TBD)   | II: About Galaxy and ELIXIR <br> [(Björn Grüning)](https://galaxyproject.org/people/bjoern-gruening/)     | III: About bioinformatics teaching <br> [(Jaap Heringa)](https://www.cs.vu.nl/~heringa/)  |
-| **Afternoon**  | BWA + RNAseq <br> [(Saskia Hiltemann)](https://shiltemann.github.io/)| 16S rRNA sequencing with mothur <br> [(Saskia Hiltemann)](https://shiltemann.github.io/) | Galaxy training material development <br> [(Saskia Hiltemann)](https://shiltemann.github.io/)              |
+| **Morning**    | Galaxy 101 + Variant detection<br /> [(Saskia Hiltemann)](https://shiltemann.github.io/) | Network analysis with microbiota metatranscriptome <br />[(Chao Zhang)](https://hi-it.org/)  | Teaching bioinformatics workflows <br /> [(Anton Feenstra)](http://www.few.vu.nl/~feenstra/)                |
+| **Keynote**    | I: About bioinformatics workflows (TBD)   | II: About Galaxy and ELIXIR <br /> [(Björn Grüning)](https://galaxyproject.org/people/bjoern-gruening/)     | III: About bioinformatics teaching <br /> [(Jaap Heringa)](https://www.cs.vu.nl/~heringa/)  |
+| **Afternoon**  | BWA + RNAseq <br /> [(Saskia Hiltemann)](https://shiltemann.github.io/)| 16S rRNA sequencing with mothur <br /> [(Saskia Hiltemann)](https://shiltemann.github.io/) | Galaxy training material development <br /> [(Saskia Hiltemann)](https://shiltemann.github.io/)              |
 | **Evening**    |                                    | Social dinner                                         |                                                    |
-{:.table.table-striped}
 
 **About the instructor:** Each session is led by one instructor listed in the table above but strongly supported by multiple co-instructors, including, but not limited to, Saskia Hiltemann (ErasmusMC), Chao Zhang (VU), Leon Mei (LUMC), Ruben Vorderman (LUMC) and Sanne Abeln (VU).
 

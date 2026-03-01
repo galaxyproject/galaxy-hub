@@ -6,7 +6,6 @@ contributions:
   funding:
     - nfdi4bioimage
 tags: [imaging, workflow, microscopy]
-layout: news
 date: "2025-10-21"
 tease: "Perform advanced deep-learning-based workflows for image segmentation, classification, and reconstruction" 
 subsites: [all,global,esg,eu]

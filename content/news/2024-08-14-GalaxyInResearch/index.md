@@ -49,6 +49,6 @@ We thank Niyati Jain and the team for using Galaxy in their \= study. Their work
    
 *Stay tuned for more updates on Galaxy-enabled research and scientific discovery\!*  
 
----<br><be> 
+---<br /><be> 
    
 Jain, N., Li, J.L., Tong, L. et al. DNA methylation correlates of chronological age in diverse human tissue types. Epigenetics & Chromatin 17, 25 (2024). [https://doi.org/10.1186/s13072-024-00546-6](https://doi.org/10.1186/s13072-024-00546-6)  

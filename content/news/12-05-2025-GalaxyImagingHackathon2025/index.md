@@ -1,7 +1,6 @@
 ---
 title: "Lights, Camera... Hacking! Highlights from the Galaxy Imaging Hackathon 2025"
 tags: [imaging, hackathon, community, workflow, FAIR, microscopy]
-layout: news
 date: "2025-05-12"
 tease: "Three days of collaborative hacking, coffee-fueled brainstorming, and community-powered innovation—Galaxy Imaging is growing, and so are its FAIR tools!" 
 organizers:

@@ -20,7 +20,7 @@ Galaxy has a significant presence at [ISMB 2016](http://www.iscb.org/ismb2016) a
     <th> Links </th>
   </tr>
   <tr>
-    <th rowspan=5> July 8 </th>
+    <th rowspan="5"> July 8 </th>
     <th> 10:45 </th>
     <td> <em>GenomeSpace: Open source interoperability platform with crowd-sourced analysis recipes</em> <div class='indent'> Ted Liefeld </div> </td>
     <td> <a href='http://f1000research.com/slides/5-1633'>Slides</a>, <a href='http://f1000research.com/posters/5-1634'>Poster</a>, <a href='https://youtu.be/EpHn_WhXlI8'>Video</a> </td>
@@ -46,10 +46,10 @@ Galaxy has a significant presence at [ISMB 2016](http://www.iscb.org/ismb2016) a
     <td> </td>
   </tr>
   <tr>
-    <th colspan=4> </th>
+    <th colspan="4"> </th>
   </tr>
   <tr>
-    <th rowspan=3> July 9 </th>
+    <th rowspan="3"> July 9 </th>
     <th> 12:15 </th>
     <td> <em>Development of NGSEP as an open-source comprehensive solution for analysis of high throughput sequencing data</em> <div class='indent'> Jorge Duitama </div> </td>
     <td> <a href='http://f1000research.com/slides/5-1650'>Slides</a>, <a href='https://youtu.be/51nuQ3c063Q'>Video</a> </td>
@@ -80,13 +80,13 @@ Galaxy has a significant presence at [ISMB 2016](http://www.iscb.org/ismb2016) a
     <th> Links </th>
   </tr>
   <tr>
-    <th rowspan=4> July 10 </th>
+    <th rowspan="4"> July 10 </th>
     <th> 3:30 </th>
     <td> <em><a href='https://www.iscb.org/cms_addon/conferences/ismb2016/oralposters.php#OP34'>OP34: Hidden RNA Codes Revealed from in vivo RNA Structurome</a></em>  <div class='indent'> Yin Tang</div> </td>
     <td> </td>
   </tr>
   <tr>
-    <th rowspan=3> 5:40 </th>
+    <th rowspan="3"> 5:40 </th>
     <td> <em><a href='https://www.iscb.org/cms_addon/conferences/ismb2016/posterlist.php?cat=E#E22'>E22: Clustering Gene Ontology terms using different similarity measures – comparison of the measures performance and visualization of the dependences among Gene Ontology terms</a></em> <div class='indent'> Aleksandra Gruca </div> </td>
     <td> </td>
   </tr>

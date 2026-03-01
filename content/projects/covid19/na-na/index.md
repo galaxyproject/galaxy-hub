@@ -2,6 +2,7 @@
 description: "Variants for na sites in gene na"
 autotoc: false
 title: "Distribution of allele frequencies for [na] sites in gene [na]"
+components: true
 ---
 
 Period: from 2020-01-01 00:00:00 to 2021-12-06 00:00:00
@@ -14,6 +15,6 @@ Shows distribution of mean alternative allele frequencies in weekly intervals. T
 Mouse over to see additional information. Click on the country code label to restrict graph to that country.
 
 <div class="shadow-sm p-3 mb-5 bg-light rounded" align="center">
-<vega-embed spec="https://raw.githubusercontent.com/galaxyproject/SARS-CoV-2/master/data/ipynb/graphs/na-na.json"/>
+<VegaEmbed spec="https://raw.githubusercontent.com/galaxyproject/SARS-CoV-2/master/data/ipynb/graphs/na-na.json"/>
 </div>
 

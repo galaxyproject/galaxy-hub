@@ -16,14 +16,14 @@ Galaxy will have a significant presence at the [Bio-IT World Conference](http://
     <th> Links </th>
   </tr>
   <tr>
-    <th rowspan=3> Tuesday<br />April 29 </th>
-    <td rowspan=1> 8:00-11:30 </td>
+    <th rowspan="3"> Tuesday<br />April 29 </th>
+    <td rowspan="1"> 8:00-11:30 </td>
     <td> <em><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=135146'>W4: Analyzing NGS Data in Galaxy</a></em> </td>
     <td> <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a>, <a href='/people/nate/'>Nate Coraor</a>, <a href='http://bioteam.net/company-leadership/'>Adam Kraut</a>, Tristan Lubinski </td>
     <td> </td>
   </tr>
   <tr>
-    <td rowspan=2> 12:30-4:00 </td>
+    <td rowspan="2"> 12:30-4:00 </td>
     <td> <em><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=135075'>W13: Practical Solutions for Big Data Analytics</a></em> </td>
     <td> Vas Vasiliadis, <a href='http://www.mcs.anl.gov/person/ravi-madduri'>Ravi Madduri</a> </td>
     <td> </td>
@@ -34,7 +34,7 @@ Galaxy will have a significant presence at the [Bio-IT World Conference](http://
     <td> <a href='/events/bio-it-world2014/w14/'>Tutorial script</a> </td>
   </tr>
   <tr>
-    <th rowspan=2> Wednesday<br />April 30 </th>
+    <th rowspan="2"> Wednesday<br />April 30 </th>
     <td> 12:15-12:40 </td>
     <td> <em><a href='http://www.bio-itworldexpo.com/Next-Gen-Sequencing-Informatics/'>Next Generation Sequencing: Workflow Overview from a High-Performance Computing Point of View</a></em> </td>
     <td> <a href='http://www.linkedin.com/pub/carlos-p-sosa/4/151/275'>Carlos P. Sosa</a> </td>
@@ -47,7 +47,7 @@ Galaxy will have a significant presence at the [Bio-IT World Conference](http://
     <td> </td>
   </tr>
   <tr>
-    <th rowspan=3> Thursday<br />May 1 </th>
+    <th rowspan="3"> Thursday<br />May 1 </th>
     <td> 11:15-11:35 </td>
     <td> <em><a href='http://www.bio-itworldexpo.com/Next-Gen-Sequencing-Informatics/'>Globus Genomics: An End-to-End NGS Analysis Service on the Cloud for Researchers and Core Labs</a></em> </td>
     <td> <a href='http://www.mcs.anl.gov/person/ravi-madduri'>Ravi Madduri</a> </td>

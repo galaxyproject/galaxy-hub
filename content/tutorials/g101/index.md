@@ -1,31 +1,32 @@
 ---
 title: Galaxy 101 - What is Galaxy?
 redirect: "https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-101/tutorial.html?utm_source=redirect&utm_medium=learn&utm_campaign=galaxyhub"
+components: true
 ---
 
 Before diving into a practical exercise let us introduce several fundamental concepts about Galaxy.
 
 ## What is Galaxy Project?
 
-According to [wikipedia](https://en.wikipedia.org/wiki/Galaxy) "*a galaxy is a gravitationally bound system of stars, stellar remnants, interstellar gas, dust, and dark matter*". In other words it is a *system* composed of *multiple components*. Likewise the Galaxy Project also consists of multiple components including:
+According to <a href="https://en.wikipedia.org/wiki/Galaxy">wikipedia</a> "*a galaxy is a gravitationally bound system of stars, stellar remnants, interstellar gas, dust, and dark matter*". In other words it is a *system* composed of *multiple components*. Likewise the Galaxy Project also consists of multiple components including:
 
 - **The Galaxy Software Framework**
 - **The Public Galaxy Service**
 
 ### The Galaxy software framework
 
-Galaxy software framework is an open-source application (distributed under the permissive [Academic Free License](https://getgalaxy.org)). Its goal is to develop and maintain a system that enables researchers without informatics expertise to perform computational analyses through the web. A user interacts with Galaxy through the web by uploading and analyzing the data. Galaxy interacts with underlying computational infrastructure (servers that run the analyses and disks that store the data) without exposing it to the user.
+Galaxy software framework is an open-source application (distributed under the permissive <a href="https://getgalaxy.org">Academic Free License</a>). Its goal is to develop and maintain a system that enables researchers without informatics expertise to perform computational analyses through the web. A user interacts with Galaxy through the web by uploading and analyzing the data. Galaxy interacts with underlying computational infrastructure (servers that run the analyses and disks that store the data) without exposing it to the user.
 
 |        |
 |--------|
-|![What is Galaxy?](/tutorials/g101/what_is_galaxy.png)|
-|<small>**Figure 1. Galaxy** is a web application that allows processing of large datasets using powerful infrastructure that the user never sees or directly interacts with. This infrastructure can be a conventional cluster, a cloud, or any combination of the two.</small>|
+|<img src="/tutorials/g101/what_is_galaxy.png" alt="What is Galaxy?" />|
+|<em>**Figure 1. Galaxy** is a web application that allows processing of large datasets using powerful infrastructure that the user never sees or directly interacts with. This infrastructure can be a conventional cluster, a cloud, or any combination of the two.</em>|
 
 ### The Public Galaxy Service
 
-The main Galaxy instance at https://usegalaxy.org is an installation of the Galaxy software combined with many common tools and data; this site has been available since 2007 for anyone to analyze their data free of charge. The site provides substantial CPU and disk space, making it possible to analyze large datasets. The site supports thousands of users and hundreds of thousands of jobs per month (see https://bit.ly/gxystats). It is sustained by [TACC](https://www.tacc.utexas.edu/) hardware using allocation generously provided by the [CyVerse](https://www.cyverse.org/) project.  
+The main Galaxy instance at https://usegalaxy.org is an installation of the Galaxy software combined with many common tools and data; this site has been available since 2007 for anyone to analyze their data free of charge. The site provides substantial CPU and disk space, making it possible to analyze large datasets. The site supports thousands of users and hundreds of thousands of jobs per month (see https://bit.ly/gxystats). It is sustained by <a href="https://www.tacc.utexas.edu/">TACC</a> hardware using allocation generously provided by the <a href="https://www.cyverse.org/">CyVerse</a> project.  
 
-In addition to the main Galaxy instance there numerous other sites running Galaxy software framework featuring different sets of tools and alternative interfaces. These can be explored at out [public servers](/use/) page.
+In addition to the main Galaxy instance there numerous other sites running Galaxy software framework featuring different sets of tools and alternative interfaces. These can be explored at out <a href="/use/">public servers</a> page.
 
 ## What is the goal of this tutorial?
 
@@ -52,37 +53,37 @@ To make this demonstration smooth we would recommend setting up your workspace a
 
 <div class="alert alert-warning trim-p" role="alert">
 
-**Note**: Some screenshots shown here may appear slightly different from the ones you will see on your screen. Galaxy is quickly evolving and as a result some discrepancies are possible.
+<strong>Note</strong>: Some screenshots shown here may appear slightly different from the ones you will see on your screen. Galaxy is quickly evolving and as a result some discrepancies are possible.
 
 </div>
 
-To get the most of this tutorial open two browser windows. The first is the one you already have (this page). To open the other, **right** click [this link](https://usegalaxy.org) and choose "Open in a New Window" (or something similar depending on your operating system and browser):
+To get the most of this tutorial open two browser windows. The first is the one you already have (this page). To open the other, **right** click <a href="https://usegalaxy.org">this link</a> and choose "Open in a New Window" (or something similar depending on your operating system and browser):
 
 |        |
 |--------|
-|![open in a new window](/tutorials/g101/newWindow.png)|
-|<small>**Figure 2. Open a new window** by right clicking [this link](https://usegalaxy.org).</small>|
+|<img src="/tutorials/g101/newWindow.png" alt="open in a new window" />|
+|<em>**Figure 2. Open a new window** by right clicking <a href="https://usegalaxy.org">this link</a>.</em>|
 
 Then organize your windows as something like this (depending on the size of your monitor you may or may not be able to organize things this way, but you get the idea):
 
 |        |
 |--------|
-|![Windows side by side](/tutorials/g101/twoScreens.png)|
-|<small>**Figure 3**. Two screens side by side will make it easy for you to follow this tutorial.</small>|
+|<img src="/tutorials/g101/twoScreens.png" alt="Windows side by side" />|
+|<em>**Figure 3**. Two screens side by side will make it easy for you to follow this tutorial.</em>|
 
 ### Setting up Galaxy account
 Go to the "Login or Register" link at the top of Galaxy interface and choose "Register" (unless of course you already have an account):
 
 |        |
 |--------|
-|![register](/tutorials/g101/register.png)|
-|<small>**Figure 4**. To create a user account use "Login or Register" link on top of Galaxy interface.</small>|
+|<img src="/tutorials/g101/register.png" alt="register" />|
+|<em>**Figure 4**. To create a user account use "Login or Register" link on top of Galaxy interface.</em>|
 
 Then enter your information and you're in!
 
 ## Getting data
 
-Our research problem calls for using existing annotation of human genome (we will use exons and SNPs that are *already* annotated across the genome sequence). So to answer our question we need to compare coordinates of exons and SNPs against each other. One of the most frequently used repositories of genome annotation data is maintained by the [Genome Informatics Group](https://genome.ucsc.edu/) at the University of California at Santa Cruz.
+Our research problem calls for using existing annotation of human genome (we will use exons and SNPs that are *already* annotated across the genome sequence). So to answer our question we need to compare coordinates of exons and SNPs against each other. One of the most frequently used repositories of genome annotation data is maintained by the <a href="https://genome.ucsc.edu/">Genome Informatics Group</a> at the University of California at Santa Cruz.
 
 ### Getting coding exons
 
@@ -90,15 +91,15 @@ First thing we will do is to obtain exon coordinate data from UCSC by clicking *
 
 |        |
 |--------|
-|![get data from UCSC](/tutorials/g101/getDataUCSC.png)|
-|<small>**Figure 5**. Expand "Get Data" category and click on "UCSC Main".</small>|
+|<img src="/tutorials/g101/getDataUCSC.png" alt="get data from UCSC" />|
+|<em>**Figure 5**. Expand "Get Data" category and click on "UCSC Main".</em>|
 
 You will see UCSC Table Browser interface appearing in your browser window:
 
 |        |
 |--------|
-|![UCSC genes](/tutorials/g101/ucscGenes.png)|
-|<small>**Figure 6**. The UCSC Table Browser interface. Verify that parameters highlighted in red are set as shown here.</small>|
+|<img src="/tutorials/g101/ucscGenes.png" alt="UCSC genes" />|
+|<em>**Figure 6**. The UCSC Table Browser interface. Verify that parameters highlighted in red are set as shown here.</em>|
 
 <div class="alert alert-info" role="alert">
 Here we are restricting our analysis to chromosome 22 only to make it quicker since this is the smallest human autosome. You are welcome to do it genomewide, but it will take a bit longer.
@@ -108,53 +109,53 @@ Make sure that your settings are exactly the same as shown Fig. 6 (in particular
 
 |        |
 |--------|
-|![UCSC ganes 2](/tutorials/g101/ucscGenes2.png)|
-|<small>**Figure 7**. BED output screen of the UCSC Table Browser interface. Here make sure you select "Coding Exons" radio button.</small>|
+|<img src="/tutorials/g101/ucscGenes2.png" alt="UCSC ganes 2" />|
+|<em>**Figure 7**. BED output screen of the UCSC Table Browser interface. Here make sure you select "Coding Exons" radio button.</em>|
 
 Make sure **Create one BED record per:** is set to "Coding Exons" and click **Send Query to Galaxy** button. After this you will see your first History Item in Galaxy's right pane. It will go through gray (preparing) and yellow (running) states to become green:
 
 |        |
 |--------|
-|![First history item](/tutorials/g101/firstHistoryItem.png)|
-|<small>**Figure 8**. The first dataset in the history (right pane) contains data about location of coding exons on chromosome 22.</small>|
+|<img src="/tutorials/g101/firstHistoryItem.png" alt="First history item" />|
+|<em>**Figure 8**. The first dataset in the history (right pane) contains data about location of coding exons on chromosome 22.</em>|
 
 ### Getting SNPs
 
-Now is the time to obtain SNP data (SNPs are [*single nucleotide polymorphisms*](https://ghr.nlm.nih.gov/primer/genomicresearch/snp)). This is done almost exactly the same way except now we will need to make a different set of choices within the UCSC Table Browser interface. First thing we will do is to again click on **Get Data &#8594; UCSC Main**:
+Now is the time to obtain SNP data (SNPs are <a href="https://ghr.nlm.nih.gov/primer/genomicresearch/snp">*single nucleotide polymorphisms*</a>). This is done almost exactly the same way except now we will need to make a different set of choices within the UCSC Table Browser interface. First thing we will do is to again click on **Get Data &#8594; UCSC Main**:
 
 |        |
 |--------|
-|![UCSC SNPs](/tutorials/g101/ucscSNPs.png)|
-|<small>**Figure 9**. The UCSC Table Browser interface. Verify that parameters highlighted in red are set at shown here.</small>|
+|<img src="/tutorials/g101/ucscSNPs.png" alt="UCSC SNPs" />|
+|<em>**Figure 9**. The UCSC Table Browser interface. Verify that parameters highlighted in red are set at shown here.</em>|
 
 click "get output" and you should see this:
 
 |        |
 |--------|
-|![UCSC SNPs 2](/tutorials/g101/ucscSNPs2.png)|
-|<small>**Figure 10**. BED output screen of the UCSC Table Browser interface. Here you do not need to modify any settings.</small>|
+|<img src="/tutorials/g101/ucscSNPs2.png" alt="UCSC SNPs 2" />|
+|<em>**Figure 10**. BED output screen of the UCSC Table Browser interface. Here you do not need to modify any settings.</em>|
 
 where you do not need to change anything (make sure that **Whole Gene** is selected ("Whole Gene" here really means "Whole Feature") and click **Send Query to Galaxy** button. You will get your second item in the history:
 
 |        |
 |--------|
-|![Second history item](/tutorials/g101/secondHistoryItem.png)|
-|<small>**Figure 11**. History with two datasets.</small>|
+|<img src="/tutorials/g101/secondHistoryItem.png" alt="Second history item" />|
+|<em>**Figure 11**. History with two datasets.</em>|
 
 ### Tidying up
 
 <div class="alert alert-success trim-p" role="alert">
 
-History keeps the entire record of your analysis. To find more about histories take a look at this [tutorial](/tutorials/histories).
+History keeps the entire record of your analysis. To find more about histories take a look at this <a href="/tutorials/histories">tutorial</a>.
 
 </div>
 
-Now we will rename the two history items to "Exons" and "SNPs" by clicking on the Pencil icon <i class="fas fa-pencil-alt" aria-hidden="true"></i> adjacent to each item. You will see middle pane of the interface changing. There (in the middle pane) you will have the opportunity to rename datasets. After changing the name scroll down and click **Save**.  Also we will rename history to "my example" (or whatever you want) by clicking on **Unnamed history** so everything looks like this:
+Now we will rename the two history items to "Exons" and "SNPs" by clicking on the Pencil icon <Icon name="pencil" /> adjacent to each item. You will see middle pane of the interface changing. There (in the middle pane) you will have the opportunity to rename datasets. After changing the name scroll down and click **Save**.  Also we will rename history to "my example" (or whatever you want) by clicking on **Unnamed history** so everything looks like this:
 
 |        |
 |--------|
-|![Rename](/tutorials/g101/rename.png)|
-|<small>**Figure 12**. History after datasets were renamed.</small>|
+|<img src="/tutorials/g101/rename.png" alt="Rename" />|
+|<em>**Figure 12**. History after datasets were renamed.</em>|
 
 ## Finding Exons with the highest number of SNPs
 
@@ -164,8 +165,8 @@ Let's remind ourselves that our objective was to find which exon contains the mo
 
 |        |
 |--------|
-|![Join](/tutorials/g101/join.png)|
-|<small>**Figure 13**. To join exons with SNPs select "Exons" as the first dataset and "SNPs" as the second.</small>|
+|<img src="/tutorials/g101/join.png" alt="Join" />|
+|<em>**Figure 13**. To join exons with SNPs select "Exons" as the first dataset and "SNPs" as the second.</em>|
 
 
 make sure your **Exons** are first and **SNPs** are second and click **Execute**. Note that you can drag and drop datasets from History into tool interface input selectors:
@@ -173,18 +174,18 @@ make sure your **Exons** are first and **SNPs** are second and click **Execute**
 |        |
 |--------|
 |![](/tutorials/g101/dataset_drag.gif)|
-|<small>**Figure 13A**. You can drag and drop datasets!</small>|
+|<em>**Figure 13A**. You can drag and drop datasets!</em>|
 
 You will get the third history item:
 
 |        |
 |--------|
-|![Third history item](/tutorials/g101/thirdHistoryItem.png)|
-|<small>**Figure 14**. The third history item is the result of joining of the first (Exons) with the second (SNPs). Each subsequent analysis operation will add additional items to the growing history.</small>|
+|<img src="/tutorials/g101/thirdHistoryItem.png" alt="Third history item" />|
+|<em>**Figure 14**. The third history item is the result of joining of the first (Exons) with the second (SNPs). Each subsequent analysis operation will add additional items to the growing history.</em>|
 
 ### Counting the number of SNPs per exon
 
-Look at the data obtained from the join operation above (you can do it by clicking the eye icon <i class="far fa-eye" aria-hidden="true"></i> adjacent to the dataset). Below is a subsample of rows from the joined datasets (you may need to scroll sideways to see the entire length of the rows below):
+Look at the data obtained from the join operation above (you can do it by clicking the eye icon <Icon name="eye" /> adjacent to the dataset). Below is a subsample of rows from the joined datasets (you may need to scroll sideways to see the entire length of the rows below):
 
 
 ```
@@ -210,15 +211,15 @@ Look at the rows. They all correspond to the same exon (id = `uc062bej.1_cds_9_0
 
 |        |
 |--------|
-|![Group](/tutorials/g101/group1.png)|
-|<small>**Figure 15**. Grouping tool interface. Set parameters as highlighted with red outlines. To reveal operation interface at the bottom click on **Insert Operation** button.</small>|
+|<img src="/tutorials/g101/group1.png" alt="Group" />|
+|<em>**Figure 15**. Grouping tool interface. Set parameters as highlighted with red outlines. To reveal operation interface at the bottom click on **Insert Operation** button.</em>|
 
 click **Execute**. Your history will look like this:
 
 |        |
 |--------|
-|![Fourth history item](/tutorials/g101/fourthHistoryItem.png)|
-|<small>**Figure 16. Results of grouping** operation appear as the fourth item in the history.</small>|
+|<img src="/tutorials/g101/fourthHistoryItem.png" alt="Fourth history item" />|
+|<em>**Figure 16. Results of grouping** operation appear as the fourth item in the history.</em>|
 
 if you look at the above image you will see that the result of grouping (dataset #4) contains two columns. This first contains the exon name while the second shows the number of times this name has been repeated in dataset #3:
 
@@ -237,15 +238,15 @@ To see which exon has the highest number of SNPs we can simply sort the dataset 
 
 |        |
 |--------|
-|![Sort](/tutorials/g101/sort.png)|
-|<small>**Figure 17**. Sorting results by SNP count in descending order.</small>|
+|<img src="/tutorials/g101/sort.png" alt="Sort" />|
+|<em>**Figure 17**. Sorting results by SNP count in descending order.</em>|
 
 This will generate the fifth history item:
 
 |        |
 |--------|
-|![Fifth history item](/tutorials/g101/fifthHistoryItem.png)|
-|<small>**Figure 18**. Sorting generates the fifth item in the history.</small>|
+|<img src="/tutorials/g101/fifthHistoryItem.png" alt="Fifth history item" />|
+|<em>**Figure 18**. Sorting generates the fifth item in the history.</em>|
 
 and you can now see that the highest number of SNPs per exon is 40.
 
@@ -255,8 +256,8 @@ Now let's select top five exons with the highest number of SNPs. For this we wil
 
 |        |
 |--------|
-|![Select first](/tutorials/g101/selectFirst.png)|
-|<small>**Figure 19.** Selecting the first five lines.</small>|
+|<img src="/tutorials/g101/selectFirst.png" alt="Select first" />|
+|<em>**Figure 19.** Selecting the first five lines.</em>|
 
 Clicking **Execute** will produce the sixth history item that will contain just five lines:
 
@@ -278,14 +279,14 @@ Now we know that in this dataset the five top exons contain between 25 and 40 SN
 
 <div class="alert alert-danger trim-p" role="alert">
 
-Note that there are two kinds of join in Galaxy. One is to join genomic features based on positional information: if start and end coordinates of one feature overlap with start and end coordinates of the other, they are joined. This type of join is found in **Operate on Genomics Intervals &#8594; Join**. We used it before to join exons and SNPs (see Fig. 13). Here we use a **different kind** of join. It joins lines from two datasets is they share a common field. It can be found in **Join, Subtract and Group &#8594; Join**.
+Note that there are two kinds of join in Galaxy. One is to join genomic features based on positional information: if start and end coordinates of one feature overlap with start and end coordinates of the other, they are joined. This type of join is found in <strong>Operate on Genomics Intervals &#8594; Join</strong>. We used it before to join exons and SNPs (see Fig. 13). Here we use a <strong>different kind</strong> of join. It joins lines from two datasets is they share a common field. It can be found in <strong>Join, Subtract and Group &#8594; Join</strong>.
 
 </div>
 
 |        |
 |--------|
-|![Compare](/tutorials/g101/recover_coordinates.png)|
-|<small>**Figure 20**. Joining the first history dataset (Exons) with dataset #6 (sorting results) will retrieve those records from dataset #1 which share IDs with dataset #6.</small>|
+|<img src="/tutorials/g101/recover_coordinates.png" alt="Compare" />|
+|<em>**Figure 20**. Joining the first history dataset (Exons) with dataset #6 (sorting results) will retrieve those records from dataset #1 which share IDs with dataset #6.</em>|
 
 this adds the seventh dataset to the history in which lines from datasets #1 and #6 are joined line-by-line:
 
@@ -299,9 +300,9 @@ chr22 46256560 46263322 uc003bhh.4_cds_0_0_chr22_46256561_r 0 - uc003bhh.4_cds_0
 
 ### Visualizing results
 
-The best way to learn about these exons is to look at their genomic surrounding. There is really no better way to do this than using genome browsers. Because this analysis was performed on "standard" human genome (`hg38` in this case), you have two choices - [UCSC Genome Browser](https://genome.ucsc.edu) and [IGV](https://www.broadinstitute.org/igv/).
+The best way to learn about these exons is to look at their genomic surrounding. There is really no better way to do this than using genome browsers. Because this analysis was performed on "standard" human genome (`hg38` in this case), you have two choices - <a href="https://genome.ucsc.edu">UCSC Genome Browser</a> and <a href="https://www.broadinstitute.org/igv/">IGV</a>.
 
-However, before we begin we need to prepare data. The problem is that browsers expect data in certain format. In particular the UCSC Genome Browser "plays well" with datasets in [BED](https://genome.ucsc.edu/FAQ/FAQformat.html#format1) format. To convert the data shown above into BED format we need:
+However, before we begin we need to prepare data. The problem is that browsers expect data in certain format. In particular the UCSC Genome Browser "plays well" with datasets in <a href="https://genome.ucsc.edu/FAQ/FAQformat.html#format1">BED</a> format. To convert the data shown above into BED format we need:
 
  1. replace data in column 5 with data from the last column
  2. remove duplicate IDs (retain only column 4 and remove column 7)
@@ -310,8 +311,8 @@ The first step will set *score* columns of BED format to the number of SNPs and 
 
 |        |
 |--------|
-|![Compare](/tutorials/g101/cut.png)|
-|<small>**Figure 21**. Cutting columns `c1,c2,c3,c4,c8,c6` from dataset #7. Here `c` is short for "column". Column numbers start with 1.</small>|
+|<img src="/tutorials/g101/cut.png" alt="Compare" />|
+|<em>**Figure 21**. Cutting columns `c1,c2,c3,c4,c8,c6` from dataset #7. Here `c` is short for "column". Column numbers start with 1.</em>|
 
 The resulting dataset looks like this:
 
@@ -323,42 +324,42 @@ chr22 22376182 22376505 uc062cbs.1_cds_1_0_chr22_22376183_f 25 +
 chr22 46256560 46263322 uc003bhh.4_cds_0_0_chr22_46256561_r 31 -
 ```
 
-This is exactly as BED6 should look like. However, Galaxy does not know that this is BED6, so we need to tell it that. To do this click on pencil icon <i class="fas fa-pencil-alt" aria-hidden="true"></i> adjacent to the latest history dataset and click on "Datatype" tab:
+This is exactly as BED6 should look like. However, Galaxy does not know that this is BED6, so we need to tell it that. To do this click on pencil icon <Icon name="pencil" /> adjacent to the latest history dataset and click on "Datatype" tab:
 
 |        |
 |--------|
-|![Changing datatype](/tutorials/g101/change_datatype.gif)|
-|<small>**Figure 22**. Changing datatype to BED.</small>|
+|<img src="/tutorials/g101/change_datatype.gif" alt="Changing datatype" />|
+|<em>**Figure 22**. Changing datatype to BED.</em>|
 
 After changing the datatype the history item will reveal UCSC Browser link:
 
 |        |
 |--------|
 |![](/tutorials/g101/item8.png)|
-|<small>**Figure 23**. After changing format to BED UCSC link becomes visible.</small>|
+|<em>**Figure 23**. After changing format to BED UCSC link becomes visible.</em>|
 
 Let's click in this "display at UCSC main" link. This open a new tab within your web browser:
 
 |        |
 |--------|
 |![](/tutorials/g101/browser.png)|
-|<small>**Figure 24**. UCSC Genome browser displaying dataset #8 as a "User Track". Make sure that you can see the entire chromosome by using zoom settings of the browser.</small>|
+|<em>**Figure 24**. UCSC Genome browser displaying dataset #8 as a "User Track". Make sure that you can see the entire chromosome by using zoom settings of the browser.</em>|
 
 The above figure shows out five exons widely spread out across chromosome 22. But which one contains the highest number of SNPs? Since we know that the highest number is 40 we can filter visible regions of the "User track" to show only those that have number 40 in their score field (see Fig. 21). To do this click on a browser area highlighted with red rectangle in Fig. 24 above:
 
 |        |
 |--------|
 |![](/tutorials/g101/browser2.png)|
-|<small>**Figure 25**. Restricting visible regions to these with the score 40 of higher. Click "Submit" to see the effect of this filtering.</small>|
+|<em>**Figure 25**. Restricting visible regions to these with the score 40 of higher. Click "Submit" to see the effect of this filtering.</em>|
 
 Filtering shows only one "User track" item on the browser:
 
 |        |
 |--------|
 |![](/tutorials/g101/browser3.png)|
-|<small>Zooming in produces the following:</small>|
+|<em>Zooming in produces the following:</em>|
 |![](/tutorials/g101/browser4.png)|
-|<small>**Figure 26**. The exon with the highest number of SNPs. Zooming in (lower part) shows that this is the first exons of [*POTEH*](https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=gene&cmd=Retrieve&dopt=Graphics&list_uids=23784) gene.</small>|
+|<em>**Figure 26**. The exon with the highest number of SNPs. Zooming in (lower part) shows that this is the first exons of <a href="https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=gene&cmd=Retrieve&dopt=Graphics&list_uids=23784">*POTEH*</a> gene.</em>|
 
 ## Recap
 
@@ -367,7 +368,7 @@ In this tutorial we started with coordinates of exons and SNPs, found overlap be
 |        |
 |--------|
 |![](/tutorials/g101/g101_outline.png)|
-|<small>**Figure 27**. Analysis outline. This looks like a workflow, doesn't it?</small>|
+|<em>**Figure 27**. Analysis outline. This looks like a workflow, doesn't it?</em>|
 
 ## Creating and editing a workflow
 
@@ -379,22 +380,22 @@ Lets take a look at the history datasets generated during the analysis described
 
 |        |
 |--------|
-|![Collapsed history](/tutorials/g101/historyCollapsed.png)|
-|<small>**Figure 28.** History provides a complete record of the analysis. It can be converted into a workflow.</small>|
+|<img src="/tutorials/g101/historyCollapsed.png" alt="Collapsed history" />|
+|<em>**Figure 28.** History provides a complete record of the analysis. It can be converted into a workflow.</em>|
 
-You can see that this history contains all steps of our analysis. So by building this history we have actually created a complete record of our analysis with Galaxy preserving all parameter settings applied at every step. Wouldn't it be nice to just convert this history into a workflow that we'll be able to execute again and again? This can be done by clicking on the cog icon <i class="fa fa-cog" aria-hidden="true"></i> and selecting **Extract Workflow** option:
+You can see that this history contains all steps of our analysis. So by building this history we have actually created a complete record of our analysis with Galaxy preserving all parameter settings applied at every step. Wouldn't it be nice to just convert this history into a workflow that we'll be able to execute again and again? This can be done by clicking on the cog icon <Icon name="settings" /> and selecting **Extract Workflow** option:
 
 |        |
 |--------|
-|![Extract workflow](/tutorials/g101/extractWorkflow.png)|
-|<small>**Figure 29**. History menu has an option for creating a workflow directly from history.</small>|
+|<img src="/tutorials/g101/extractWorkflow.png" alt="Extract workflow" />|
+|<em>**Figure 29**. History menu has an option for creating a workflow directly from history.</em>|
 
 The center pane will change as shown below and you will be able to choose which steps to include/exclude and how to name the newly created workflow. In this case I named it `g101`:
 
 |        |
 |--------|
-|![Create workflow](/tutorials/g101/createWorkflow.png)|
-|<small>**Figure 30**. Creating workflow from history. Here you can choose which steps should be included into workflow (in this case we include all) and name the workflow.</small>|
+|<img src="/tutorials/g101/createWorkflow.png" alt="Create workflow" />|
+|<em>**Figure 30**. Creating workflow from history. Here you can choose which steps should be included into workflow (in this case we include all) and name the workflow.</em>|
 
 Once you click **Create Workflow** you will get the following message: "Workflow 'g101' created from current history. You can **edit** or **run** the workflow".
 
@@ -404,15 +405,15 @@ Let's click **edit** (if you click something else and the message in the center 
 
 |        |
 |--------|
-|![Workflow editor](/tutorials/g101/wfEditor.png)|
-|<small>**Figure 31. Workflow editor** can be used to modify all aspects of the workflow. Here **cut** tool is in focus and in the right pane of the interface you can see its settings. They are exactly as we set them when using this tool before (see Fig. 21).</small>|
+|<img src="/tutorials/g101/wfEditor.png" alt="Workflow editor" />|
+|<em>**Figure 31. Workflow editor** can be used to modify all aspects of the workflow. Here **cut** tool is in focus and in the right pane of the interface you can see its settings. They are exactly as we set them when using this tool before (see Fig. 21).</em>|
 
 The following image shows the workflow in its entirely. You can see that is exactly as was shown in Fig. 27 (well ... it has different shape but topologically it is the same).
 
 |        |
 |--------|
 |![](/tutorials/g101/workflow_outline.png)|
-|<small>**Figure 32**. Complete view of the workflow we have just created. You can see that it is exactly the same as in the theoretical outline shown in Fig. 27.</small>|
+|<em>**Figure 32**. Complete view of the workflow we have just created. You can see that it is exactly the same as in the theoretical outline shown in Fig. 27.</em>|
 
 ### Hiding intermediate steps
 
@@ -420,22 +421,22 @@ When workflow is executed one is usually interested in the final product and not
 
 |        |
 |--------|
-|![Hide step](/tutorials/g101/hideStep.png)|
-|<small>**Figure 33**. Intermediate steps can be hidden by clicking on the asterisk within workflow elements.</small>|
+|<img src="/tutorials/g101/hideStep.png" alt="Hide step" />|
+|<em>**Figure 33**. Intermediate steps can be hidden by clicking on the asterisk within workflow elements.</em>|
 
 Yet there is a catch. In a newly created workflow all steps are hidden by default and the default behavior of Galaxy is that if all steps of a given workflow are hidden, then nothing gets hidden in the history. This may be counterintuitive, but this is done to decrease the amount of clicking if you do want to hide some steps. So in our case if we want to hide all intermediate steps with the exception of the last one we will click that asterisk in last step of the workflow:
 
 |        |
 |--------|
-|![Last step](/tutorials/g101/lastStep.png)|
-|<small>**Figure 34**. Clicking an asterisk of the last element will make sure that a history element corresponding to this workflow step will be shown in the history minimizing clutter.</small>|
+|<img src="/tutorials/g101/lastStep.png" alt="Last step" />|
+|<em>**Figure 34**. Clicking an asterisk of the last element will make sure that a history element corresponding to this workflow step will be shown in the history minimizing clutter.</em>|
 
 Once you do this the representation of the workflow in the bottom right corner of the editor will change with the last step becoming orange. This means that this is the only step, which will generate a dataset visible in the history:
 
 |        |
 |--------|
-|![Workflow Overview](/tutorials/g101/workflowOverview.png)|
-|<small>**Figure 35**. An overview of the workflow in the bottom right corner of the editor shows which steps will produce visible history datasets. They are shown in orange.</small>|
+|<img src="/tutorials/g101/workflowOverview.png" alt="Workflow Overview" />|
+|<em>**Figure 35**. An overview of the workflow in the bottom right corner of the editor shows which steps will produce visible history datasets. They are shown in orange.</em>|
 
 ### Renaming inputs
 
@@ -443,28 +444,28 @@ Right now inputs are named after datasets that were in history from which this w
 
 |        |
 |--------|
-|![Naming inputs 1](/tutorials/g101/namingInputs1.png)|
-|<small>**Figure 36**. To rename an input click on it and edit its name within the highlighted box.</small>|
+|<img src="/tutorials/g101/namingInputs1.png" alt="Naming inputs 1" />|
+|<em>**Figure 36**. To rename an input click on it and edit its name within the highlighted box.</em>|
 
 Here we will simply rename input called "Exons" into "Feature 1" and the one called "SNPs" into "Feature 2":
 
 |        |
 |--------|
-|![Naming inputs 2](/tutorials/g101/namingInputs2.png)|
-|<small>**Figure 37**. Giving inputs genetic names.</small>|
+|<img src="/tutorials/g101/namingInputs2.png" alt="Naming inputs 2" />|
+|<em>**Figure 37**. Giving inputs genetic names.</em>|
 
 ### Renaming outputs
 
 Finally let's rename the workflow's output. For this:
 
 - click on the last dataset (**Cut**)
-- scroll down the rightmost pane and click on ![add action](/tutorials/g101/addAction.png)
+- scroll down the rightmost pane and click on <img src="/tutorials/g101/addAction.png" alt="add action" />
 - Type `Top Exons` in the **Rename dataset** text box:
 
 |        |
 |--------|
-|![Top exons](/tutorials/g101/topExons.png)|
-|<small>**Figure 38**. Renaming workflow output.</small>|
+|<img src="/tutorials/g101/topExons.png" alt="Top exons" />|
+|<em>**Figure 38**. Renaming workflow output.</em>|
 
 ### Setting parameters "at runtime"
 
@@ -472,17 +473,17 @@ What we are trying to do here is do design a generic workflow. This means that f
 
 |        |
 |--------|
-|![runtime Tool Selection](/tutorials/g101/runtime_parameter.gif)|
-|<small>**Figure 39**. To make a tool parameter settable at runtime simply click the <i class="far fa-caret-square-down" aria-hidden="true"></i> icon.</small>|
+|<img src="/tutorials/g101/runtime_parameter.gif" alt="runtime Tool Selection" />|
+|<em>**Figure 39**. To make a tool parameter settable at runtime simply click the <Icon name="chevron-down" /> icon.</em>|
 
 ### Save! It is important...
 
-Now let's save the changes we've made by clicking cog <i class="fa fa-cog" aria-hidden="true"></i> and selecting **Save**:
+Now let's save the changes we've made by clicking cog <Icon name="settings" /> and selecting **Save**:
 
 |        |
 |--------|
-|![wfSave](/tutorials/g101/wfSave.png)|
-|<small>**Figure 40**. Saving the workflow.</small>|
+|<img src="/tutorials/g101/wfSave.png" alt="wfSave" />|
+|<em>**Figure 40**. Saving the workflow.</em>|
 
 ## Run workflow on whole genome data
 
@@ -494,19 +495,19 @@ Curently the Galaxy interface is in the **Workflow** mode. To get back to the **
 
 ### Copy exon dataset to a new history
 
-Since we already have exons in the history let's simply copy them into a new history. To do this click the cog icon <i class="fa fa-cog" aria-hidden="true"></i> and select "Copy Datasets":
+Since we already have exons in the history let's simply copy them into a new history. To do this click the cog icon <Icon name="settings" /> and select "Copy Datasets":
 
 |        |
 |--------|
-|![Copy datasets](/tutorials/g101/copyDatasets.png)|
-|<small>**Figure 41**. Copying datasets starts will invoking "Copy Datasets" option within the history menu.</small>|
+|<img src="/tutorials/g101/copyDatasets.png" alt="Copy datasets" />|
+|<em>**Figure 41**. Copying datasets starts will invoking "Copy Datasets" option within the history menu.</em>|
 
 A new interface will appear in the middle pane. The following animated GIF shows next steps:
 
 |        |
 |--------|
-|![Copy datasets 2](/tutorials/g101/copy_datasets.gif)|
-|<small>**Figure 42**. To copy datasets select those you want to copy (just one in this case), give a name to the new history you want this dataset needs to be copied to ("my example 2"), click "Copy History Items". A green message "1 dataset copied to 1 history "my example 2" will appear. The name of the history in this message will be shown as a click-able link. Click on it and Galaxy will take you to a new history with only one dataset.</small>|
+|<img src="/tutorials/g101/copy_datasets.gif" alt="Copy datasets 2" />|
+|<em>**Figure 42**. To copy datasets select those you want to copy (just one in this case), give a name to the new history you want this dataset needs to be copied to ("my example 2"), click "Copy History Items". A green message "1 dataset copied to 1 history "my example 2" will appear. The name of the history in this message will be shown as a click-able link. Click on it and Galaxy will take you to a new history with only one dataset.</em>|
 
 ### Get Repeats
 
@@ -514,33 +515,33 @@ Now let's retrieve coordinates of repetitive elements from the UCSC Table Browse
 
 |        |
 |--------|
-|![All repeats](/tutorials/g101/allRepeats.png)|
-|<small>**Figure 43**. Selecting repetitive elements annotated by RepeatMasker from the UCSC Table Browser. Note parameter selection highlighted with red outlines.</small>|
+|<img src="/tutorials/g101/allRepeats.png" alt="All repeats" />|
+|<em>**Figure 43**. Selecting repetitive elements annotated by RepeatMasker from the UCSC Table Browser. Note parameter selection highlighted with red outlines.</em>|
 
 Click **get output** and you will get the next page (if it looks different from the image below, go back and make sure `output format` is set to **BED - browser extensible format**):
 
 |        |
 |--------|
-|![All repeats 2](/tutorials/g101/allRepeats2.png)|
-|<small>**Figure 44**. BED output screen of the UCSC Table Browser. You do not need to modify anything here. Just make sure **Whole gene** is selected and click **Send Query to Galaxy**.</small>|
+|<img src="/tutorials/g101/allRepeats2.png" alt="All repeats 2" />|
+|<em>**Figure 44**. BED output screen of the UCSC Table Browser. You do not need to modify anything here. Just make sure **Whole gene** is selected and click **Send Query to Galaxy**.</em>|
 
 Finally, rename history item containing repetitive elements as "Repeats" (e.g., see Fig. 12).
 
 ### Start the Workflow
 
-At this point you will have two items in your history - one with exons and one with repeats. These datasets are large (especially repeats) and it will take some time for them to become green. Luckily you do not have to wait as Galaxy will automatically start jobs once uploads have ended. So nothing stops us from starting the workflow we have created. First, click on the **Workflow link** at the top of Galaxy interface, mouse over **g101**, click, and select **Run**. Center pane will change to allow you launching the workflow. Select appropriate datasets for `Repeats` and `Exon` inputs as shown below. Now scroll to **Step 6** and will see that we can set up `Select first` parameter at *Runtime* (meaning Now!). So lets put `2` in there (or anything else you want) and scroll further down to click ![Run workflow](/tutorials/g101/runWorkflowButton.png) to see this:
+At this point you will have two items in your history - one with exons and one with repeats. These datasets are large (especially repeats) and it will take some time for them to become green. Luckily you do not have to wait as Galaxy will automatically start jobs once uploads have ended. So nothing stops us from starting the workflow we have created. First, click on the **Workflow link** at the top of Galaxy interface, mouse over **g101**, click, and select **Run**. Center pane will change to allow you launching the workflow. Select appropriate datasets for `Repeats` and `Exon` inputs as shown below. Now scroll to **Step 6** and will see that we can set up `Select first` parameter at *Runtime* (meaning Now!). So lets put `2` in there (or anything else you want) and scroll further down to click <img src="/tutorials/g101/runWorkflowButton.png" alt="Run workflow" /> to see this:
 
 |        |
 |--------|
-|![Launch workflow](/tutorials/g101/launchWorkflow.png)|
-|<small>**Figure 45**. Workflow launch interface. Note that "Exons" are selected as **Feature 1** and "Repeats" as **Feature 2**. The number of lines in the **Select first** tool is set to "2".</small>|
+|<img src="/tutorials/g101/launchWorkflow.png" alt="Launch workflow" />|
+|<em>**Figure 45**. Workflow launch interface. Note that "Exons" are selected as **Feature 1** and "Repeats" as **Feature 2**. The number of lines in the **Select first** tool is set to "2".</em>|
 
 Once workflow has started you will initially be able to see all its steps. Note that you are joining all exons with all repeats, so naturally this will take some time:
 
 |        |
 |--------|
-|![Launched workflow](/tutorials/g101/launchedWorkflow.png)|
-|<small>**figure 46**. Workflow execution has started.</small>|
+|<img src="/tutorials/g101/launchedWorkflow.png" alt="Launched workflow" />|
+|<em>**figure 46**. Workflow execution has started.</em>|
 
 ### Get coffee
 
@@ -548,27 +549,27 @@ As we mentioned above this will take some time, so go get coffee. At last you wi
 
 |        |
 |--------|
-|![Final view](/tutorials/g101/final.png)|
-|<small>**Figure 47**. The result of running the workflow. Only the final dataset is shown because the intermediate datasets are hidden (see Fig. 33). They can be "unhidden" by clicking on "hidden" link immediate below history name (highlighted in red).</small>|
+|<img src="/tutorials/g101/final.png" alt="Final view" />|
+|<em>**Figure 47**. The result of running the workflow. Only the final dataset is shown because the intermediate datasets are hidden (see Fig. 33). They can be "unhidden" by clicking on "hidden" link immediate below history name (highlighted in red).</em>|
 
 We did not fake this:
 
 The two histories and the workflow described in this page are accessible directly from this page below:
 
-- History [**my example**](https://usegalaxy.org/u/aun1/h/my-example)
-- History [**my example 2**](https://usegalaxy.org/u/aun1/h/my-example-2)
-- Workflow [**g101**]( https://usegalaxy.org/u/aun1/w/g101)
+- History <a href="https://usegalaxy.org/u/aun1/h/my-example">**my example**</a>
+- History <a href="https://usegalaxy.org/u/aun1/h/my-example-2">**my example 2**</a>
+- Workflow <a href=" https://usegalaxy.org/u/aun1/w/g101">**g101**</a>
 
-From there you can import histories and workflows to make them your own. For example, to import **my example** history simply click [this link](https://usegalaxy.org/u/aun1/h/my-example) and select `Import history` link:
+From there you can import histories and workflows to make them your own. For example, to import **my example** history simply click <a href="https://usegalaxy.org/u/aun1/h/my-example">this link</a> and select `Import history` link:
 
 |        |
 |--------|
-|![Final view](/tutorials/g101/importHistory.png)|
-|<small>**Figure 48**. To import a history simply click "Import history" link.</small>
+|<img src="/tutorials/g101/importHistory.png" alt="Final view" />|
+|<em>**Figure 48**. To import a history simply click "Import history" link.</em>
 
 ## If things don't work...
 
-- ...create an issue by clicking "New issue" button [here](https://github.com/galaxyproject/galaxy-hub/issues)
-- ...complain. Use [Galaxy's support forum](https://help.galaxyproject.org/) to do this.
+- ...create an issue by clicking "New issue" button <a href="https://github.com/galaxyproject/galaxy-hub/issues">here</a>
+- ...complain. Use <a href="https://help.galaxyproject.org/">Galaxy's support forum</a> to do this.
 
 
