@@ -28,7 +28,7 @@ const PUBLIC_MEDIA_DIR = path.join(ASTRO_ROOT, 'public/media');
 // Post-normalization fixups for edge cases where the algorithm produces bad output.
 // Keys are the bad normalized form; values are the corrected form.
 // Applied after all regex rules + lowercasing, so keys should be lowercase-hyphenated.
-import slugOverrides from './slug-overrides.json' with { type: 'json' };
+const slugOverrides = JSON.parse(fs.readFileSync(new URL('./slug-overrides.json', import.meta.url), 'utf-8'));
 
 /**
  * Normalize a single path segment into a lowercase-hyphenated slug.

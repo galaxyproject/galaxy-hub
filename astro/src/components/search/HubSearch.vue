@@ -11,8 +11,12 @@ interface SearchEntry {
   excerpt: string;
   tease: string;
   tags: string[];
-  date: string;
+  date: string | null;
   collection: string;
+  contributors?: string[];
+  organisations?: string[];
+  grants?: string[];
+  search_terms?: string[];
 }
 
 const props = defineProps<{ query: string }>();
@@ -37,17 +41,80 @@ const collections = computed(() => {
   return ['all', ...Array.from(unique).sort()];
 });
 
+function normalizeForMatch(value: string): string {
+  return String(value || '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '');
+}
+
+function normalizeQueryWord(word: string): string {
+  return String(word || '')
+    .toLowerCase()
+    .trim()
+    .replace(/^tags?:/, '')
+    .replace(/^#/, '')
+    .replace(/^["']+|["']+$/g, '');
+}
+
+function fieldMatches(fieldValue: string, word: string): boolean {
+  const field = String(fieldValue || '').toLowerCase();
+  if (!field) return false;
+  if (field.includes(word)) return true;
+  const compactWord = normalizeForMatch(word);
+  if (!compactWord) return false;
+  return normalizeForMatch(field).includes(compactWord);
+}
+
+function scoreEntry(entry: SearchEntry, words: string[]): number {
+  const metaFields = [
+    ...(entry.contributors || []),
+    ...(entry.organisations || []),
+    ...(entry.grants || []),
+    ...(entry.search_terms || []),
+  ];
+
+  let score = 0;
+  for (const word of words) {
+    const inTitle = fieldMatches(entry.title, word);
+    const inMeta = metaFields.some((field) => fieldMatches(field, word));
+    const inTags = (entry.tags || []).some((tag) => fieldMatches(tag, word));
+    const inBody = fieldMatches(entry.tease, word) || fieldMatches(entry.excerpt, word);
+    const inPath = fieldMatches(entry.path, word);
+
+    if (inTitle) score += 120;
+    if (inMeta) score += 90;
+    if (inTags) score += 40;
+    if (inBody) score += 10;
+    if (inPath) score += 15;
+    if (entry.collection === 'hall-of-fame' && (inTitle || inMeta)) score += 30;
+  }
+
+  return score;
+}
+
 const results = computed(() => {
   if (!props.query.trim()) {
     return [];
   }
 
   const q = props.query.toLowerCase().trim();
-  const words = q.split(/\s+/);
+  const words = q
+    .split(/\s+/)
+    .map((word) => normalizeQueryWord(word))
+    .filter(Boolean);
 
   let filtered = searchIndex.value.filter((entry) => {
-    const searchText = [entry.title, entry.excerpt, entry.tease, ...entry.tags].join(' ').toLowerCase();
-    return words.every((word) => searchText.includes(word));
+    const fields = [
+      entry.title,
+      entry.excerpt,
+      entry.tease,
+      ...(entry.tags || []),
+      ...(entry.contributors || []),
+      ...(entry.organisations || []),
+      ...(entry.grants || []),
+      ...(entry.search_terms || []),
+    ];
+    return words.every((word) => fields.some((field) => fieldMatches(String(field || ''), word)));
   });
 
   if (selectedCollection.value !== 'all') {
@@ -55,11 +122,14 @@ const results = computed(() => {
   }
 
   return filtered
+    .map((entry) => ({ entry, score: scoreEntry(entry, words) }))
     .sort((a, b) => {
-      const dateA = new Date(a.date).getTime() || 0;
-      const dateB = new Date(b.date).getTime() || 0;
+      if (b.score !== a.score) return b.score - a.score;
+      const dateA = new Date(a.entry.date || '').getTime() || 0;
+      const dateB = new Date(b.entry.date || '').getTime() || 0;
       return dateB - dateA;
     })
+    .map((item) => item.entry)
     .slice(0, 100);
 });
 
@@ -68,6 +138,19 @@ function getCollectionLabel(collection: string): string {
     articles: 'Article',
     events: 'Event',
     platforms: 'Platform',
+    news: 'News',
+    'hall-of-fame': 'Hall of Fame',
+  };
+  return labels[collection] || collection;
+}
+
+function getCollectionFilterLabel(collection: string): string {
+  const labels: Record<string, string> = {
+    articles: 'Articles',
+    events: 'Events',
+    platforms: 'Platforms',
+    news: 'News',
+    'hall-of-fame': 'Hall of Fame',
   };
   return labels[collection] || collection;
 }
@@ -77,6 +160,8 @@ function getCollectionColor(collection: string): string {
     articles: 'bg-blue-100 text-blue-800',
     events: 'bg-green-100 text-green-800',
     platforms: 'bg-purple-100 text-purple-800',
+    news: 'bg-cyan-100 text-cyan-800',
+    'hall-of-fame': 'bg-amber-100 text-amber-900',
   };
   return colors[collection] || 'bg-gray-100 text-gray-800';
 }
@@ -87,6 +172,7 @@ function highlightMatch(text: string, maxLength: number = 200): string {
   const words = props.query
     .toLowerCase()
     .split(/\s+/)
+    .map((w) => normalizeQueryWord(w))
     .filter((w) => w.length > 2);
 
   let result = text.length > maxLength ? text.slice(0, maxLength) + '...' : text;
@@ -110,7 +196,7 @@ function highlightMatch(text: string, maxLength: number = 200): string {
           class="w-full h-10 rounded-md border border-input bg-background px-3 py-2 text-sm"
         >
           <option v-for="col in collections" :key="col" :value="col">
-            {{ col === 'all' ? 'All content' : getCollectionLabel(col) + 's' }}
+            {{ col === 'all' ? 'All content' : getCollectionFilterLabel(col) }}
           </option>
         </select>
       </div>
