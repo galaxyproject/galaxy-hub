@@ -1,0 +1,106 @@
+@import 'tailwindcss'; /* TODO create base.css for Tailwind imports and utilities, then import that here */
+@import 'tw-animate-css';
+/* @import './bootstrap-compat.css'; */
+@import '@fontsource/atkinson-hyperlegible/400.css';
+@import '@fontsource/atkinson-hyperlegible/700.css';
+@plugin "@tailwindcss/typography";
+
+/* IFB main3 - Tailwind-based card styling with @apply */
+@layer components {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6 {
+    font-weight: normal;
+    line-height: 1.2;
+    margin: 0.75rem 0 0.75rem;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  a:hover {
+    text-decoration: underline !important;
+  }
+
+  h1,
+  .h1 {
+    font-size: 1.5rem;
+  }
+
+  h2,
+  .h2 {
+    font-size: 1.3rem;
+    font-weight: normal !important;
+  }
+
+  h3,
+  .h3 {
+    font-size: 1.2rem;
+  }
+
+  h4,
+  .h4 {
+    font-size: 1.15rem;
+  }
+
+  h5,
+  .h5 {
+    font-size: 1.1rem;
+  }
+
+  h6,
+  .h6 {
+    font-size: 1rem;
+  }
+
+  .card-deck {
+    gap: 0.25rem !important;
+
+    .card {
+      margin-left: 0;
+      background-color: #f8f9fa !important;
+      border: 1px solid #dee2e6;
+    }
+
+    .card-body {
+      padding: 1.25rem;
+
+      p {
+        font-size: 0.9rem;
+        line-height: 1.2;
+        margin-bottom: 1rem;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        unicode-bidi: isolate;
+        padding: 0.75rem 1.25rem 0px;
+      }
+
+      img {
+        margin: 0 auto;
+        display: block;
+        height: 100px;
+        width: auto;
+      }
+
+      .text-center {
+        line-height: 0.55rem;
+      }
+    }
+  }
+
+  [data-name='/ifb/main3'] .card-deck .card-body img[alt='microGalaxy'] {
+    height: 50px;
+    width: auto;
+  }
+}
