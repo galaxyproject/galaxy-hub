@@ -13,6 +13,7 @@ location:
 hidefooter: true
 subsites: [freiburg]
 main_subsite: freiburg
+components: true
 ---
 
 We are offering a Galaxy training on high-throughput data analysis. This is an
@@ -36,11 +37,11 @@ Schedule:
 
 | Day        | Topics                         | Training material |
 |------------|--------------------------------|-------------------|
-| 04.07.2022 | RNA-Seq analysis: QC, genome mapping, gene quantification, DE | [](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html){: .fa .fa-laptop} |
-| 05.07.2022 | RNA-Seq analysis: visualization and functional profile        | [](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-heatmap2/tutorial.html){: .fa .fa-laptop target="_blank"} [](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot/tutorial.html){: .fa .fa-laptop} |
+| 04.07.2022 | RNA-Seq analysis: QC, genome mapping, gene quantification, DE | <a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html"><Icon name="laptop" /></a> |
+| 05.07.2022 | RNA-Seq analysis: visualization and functional profile        | <a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-heatmap2/tutorial.html" target="_blank"><Icon name="laptop" /></a> <a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot/tutorial.html"><Icon name="laptop" /></a> |
 | 06.07.2022 | Build workflow of RNA-Seq analysis |
-| 07.07.2022 | Pre-processing of scRNA | [](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-preprocessing/tutorial.html){: .fa .fa-laptop} [](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-preprocessing-tenx/tutorial.html){: .fa .fa-laptop} |
-| 08.07.2022 | Clustering of scRNA | [](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html){: .fa .fa-laptop} |
+| 07.07.2022 | Pre-processing of scRNA | <a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-preprocessing/tutorial.html"><Icon name="laptop" /></a> <a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-preprocessing-tenx/tutorial.html"><Icon name="laptop" /></a> |
+| 08.07.2022 | Clustering of scRNA | <a href="https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html"><Icon name="laptop" /></a> |
 
 ### Agenda
 Each tutorial is divided into 3 sessions:
@@ -71,8 +72,4 @@ to go through the following two Galaxy interactive tours before beginning the
 If you have any questions, please do not hesitate to [contact me](mailto:dyusuf@informatik.uni-freiburg.de).
 
 ## Organizers
-
-{% assign extra_organizers =  "galaxy-freiburg|galaxy-europe" | split: "|"  %}
-{% include sponsors.html supporters=extra_organizers hidetitle=true %}
-
 

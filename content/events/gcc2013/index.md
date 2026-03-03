@@ -12,7 +12,6 @@ gtn: false
 contact: Organisers
 image: /images/logos/GCC2013Logo400.png
 autotoc: false
-components: true
 subsites: [global, us]
 tags: [gcc, community, talk]
 ---
@@ -25,8 +24,8 @@ Galaxy Community Conference is an opportunity to participate in [two full days](
 
 GCC2013 will continue the [best of previous meetings](/gcc/), and also incorporate new features, such as poster sessions, keynote speakers, and *themes* that organize each day and session.
 
-import linkbox from './linkbox.json'
-<link-box :data="linkbox" />
+
+<link-box data="linkbox" />
 
 ## Meeting Reports
 

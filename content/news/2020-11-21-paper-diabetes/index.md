@@ -21,6 +21,6 @@ _Conclusion_
 In summary, cell type-specific analysis reveals differentially regulated gene programs that are associated with distinct biological processes in diabetes. Interestingly, despite these changes in gene expression, cell type-specific DNA methylation signatures of genic and regulatory regions remain stable in diabetes. Analysis of heterocellular interactions in the diabetic heart suggest that the interplay between fibroblasts and monocytes is of pivotal importance.
 
 
-<br>
+<br />
 {% twitter https://twitter.com/Ralf_Gilsbach/status/1328312346415165440 %}
 

@@ -15,7 +15,7 @@ contributions:
 Last week, the [ELIXIR Galaxy Community](https://elixir-europe.org/communities/galaxy) organized a [4-days workshop related to Galaxy tool integration and training]({% link _events/2019-01-28-roscoff-workshop.md %}). This event was hosted by the [Biological station of Roscoff](http://www.sb-roscoff.fr/), in the (sunny/rainy) beautiful Brittany (France).
 
 <div class="multiple-img">
-    <a data-flickr-embed="true"  href="https://www.flickr.com/photos/134305289@N03/46791107155/in/datetaken/" title="Galaxy tool and training workshop @ Roscoff"><img src="https://live.staticflickr.com/65535/46791107155_68325cc82b_z.jpg" width="640" height="427" alt="Galaxy tool and training workshop @ Roscoff"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+    <a data-flickr-embed="true"  href="https://www.flickr.com/photos/134305289@N03/46791107155/in/datetaken/" title="Galaxy tool and training workshop @ Roscoff"><img src="https://live.staticflickr.com/65535/46791107155_68325cc82b_z.jpg" width="640" height="427" alt="Galaxy tool and training workshop @ Roscoff" /></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </div>
 
 15 participants joined the workshop from 4 european countries, with heterogeneous background.
@@ -40,7 +40,7 @@ Based on the nice feedback we received, the 15 participants and the 4 instuctors
 ### More images of this event on Flickr
 
 <div class="multiple-img">
-    <a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/134305289@N03/shares/Yx2DB3" title="Galaxy tool and training workshop @ Roscoff"><img src="https://live.staticflickr.com/65535/33817223478_620abf88aa_z_d.jpg" width="640" height="427" alt="Galaxy tool and training workshop @ Roscoff"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+    <a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/134305289@N03/shares/Yx2DB3" title="Galaxy tool and training workshop @ Roscoff"><img src="https://live.staticflickr.com/65535/33817223478_620abf88aa_z_d.jpg" width="640" height="427" alt="Galaxy tool and training workshop @ Roscoff" /></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </div>
 
 ### More activity about this event on Twitter

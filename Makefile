@@ -45,6 +45,10 @@ check: ## Format, lint, and test Astro site
 	cd astro && npm install && npm run format && npm run lint && npm test
 .PHONY: check
 
+content-lint: ## Lint content files for legacy syntax issues
+	cd astro && npm install && npm run content:lint
+.PHONY: content-lint
+
 link-check: build ## Build site and check internal links with linkinator
 	cd astro && npx astro preview --port 9999 & sleep 5 && cd astro && PORT=9999 npm run links:internal; kill %1 2>/dev/null || true
 .PHONY: link-check

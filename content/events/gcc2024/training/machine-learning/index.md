@@ -14,14 +14,14 @@ This training offers a crash course in AI/ML. We discuss the history of AI, trad
 ## Meet the Instructors
 
 ### Kaivan Kamali
-Penn State University <br>
+Penn State University <br />
 Computer Scientist specializing in AI/ML and software engineering
 
 ### Anup Kumar
-University of Freiburg <br>
+University of Freiburg <br />
 ML researcher, Bioinformatics group, PhD Candidate
 
 
 ### Michelle Savage
-Johns Hopkins University <br>
+Johns Hopkins University <br />
 Senior DevOps Engineer for Galaxy Project

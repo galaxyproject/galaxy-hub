@@ -19,6 +19,6 @@ Grouping reference loci on the basis of aligned common reads and quantification 
 __Conclusion__
 ChiRA tool suite provides a complete analysis and visualization framework along with ready-to-use Galaxy workflows and tutorials for RNA-RNA interactome and structurome datasets. Common read loci built by ChiRA can rescue multi-mapped reads on paralogous genes without requiring any information on gene relations. We showed that ChiRA is sensitive in detecting new RNA-RNA interactions from published RNA-RNA interactome datasets.
 
-<br>
+<br />
 {% twitter https://twitter.com/GigaScience/status/1368137547788980224?s=20 %}
 

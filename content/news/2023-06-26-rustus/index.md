@@ -47,7 +47,7 @@ The rustus project was started at the end of 2021 by [Pavel Kirilin](https://git
   </figure>
 
 </details>
-<br>
+<br />
 
 Given our use case, we considered that the latter were worth the tradeoff of missing on the former. Two features were especially of our interest:
 

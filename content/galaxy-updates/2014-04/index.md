@@ -1,7 +1,7 @@
 ---
 title: April 2014 Galaxy Update
 ---
-<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width="150" /></a></div>
 
 Welcome to the April 2014 *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
@@ -27,13 +27,13 @@ The new papers covered:
   <tr>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=4 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="4" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
   </tr>
@@ -181,9 +181,9 @@ A similar workshop, [using command line interfaces to perform the analysis](http
     <td> <a href="mailto:outreach AT globus DOT org">Globus Outreach</a>, <a href='/people/john-chilton/'>John Chilton</a> </td>
   </tr>
   <tr>
-    <th rowspan=6> April 29 -<br />May 1 </th>
+    <th rowspan="6"> April 29 -<br />May 1 </th>
     <td> <em><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=121423'>W1: Integrated Research Data Management for Next Gen Sequencing Analysis Using Galaxy and Globus Online Software-as-a-Service</a></em> </td>
-    <td rowspan=6> <a href='http://www.bio-itworldexpo.com/'>BioIT World</a> </td>
+    <td rowspan="6"> <a href='http://www.bio-itworldexpo.com/'>BioIT World</a> </td>
     <td> <a href='http://www.mcs.anl.gov/person/ravi-madduri'>Ravi Madduri</a>, <a href='https://www.urmc.rochester.edu/people/21779848-alex-r-paciorkowski'>Alex Paciorkowski</a>, <a href='http://www.ci.uchicago.edu/profile/328'>Vas Vasiliadis</a> </td>
   </tr>
   <tr>
@@ -239,7 +239,7 @@ A similar workshop, [using command line interfaces to perform the analysis](http
   <tr>
     <th> June 28-30 </th>
     <td> <a href='/events/gcc2014/hackathon/'>Galaxy Hackathon</a> </td>
-    <td rowspan=2> <a href='http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/'>Homewood Campus</a> of <a href='http://jhu.edu'>Johns Hopkins University</a>, <a href='http://visitors.baltimorecity.gov/'>Baltimore, Maryland</a>, United States </td>
+    <td rowspan="2"> <a href='http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/'>Homewood Campus</a> of <a href='http://jhu.edu'>Johns Hopkins University</a>, <a href='http://visitors.baltimorecity.gov/'>Baltimore, Maryland</a>, United States </td>
     <td> <a href='/events/gcc2014/organizers/'>Organizers</a> </td>
   </tr>
   <tr>
@@ -353,7 +353,7 @@ There was one new [Community Log Board](/news/) entry in March:
 
 # ToolShed Contributions
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width="150" /></a></div>
 
 ## New Repositories in the Galaxy Project ToolShed
 

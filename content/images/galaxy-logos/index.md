@@ -42,7 +42,7 @@ Many of the __illustrations__ used in this Community Hub are from [unDraw](https
 
 * Application logo, square, transparent background, symbol + "Galaxy": [600x600 pixels](/images/galaxy-logos/galaxy_project_logo_square.png)
 
-    [<img src="/images/galaxy-logos/galaxy_project_logo_square.png" alt="Galaxy Project Logo, Square, transparent background" width=150 />](/images/galaxy-logos/galaxy_project_logo_square.png)
+    [<img src="/images/galaxy-logos/galaxy_project_logo_square.png" alt="Galaxy Project Logo, Square, transparent background" width="150" />](/images/galaxy-logos/galaxy_project_logo_square.png)
 
 * Application logo, no text, transparent background (good for icons): [597x451 pixels](/images/galaxy-logos/galaxy_project_logo_white.png)
 
@@ -57,25 +57,25 @@ Many of the __illustrations__ used in this Community Hub are from [unDraw](https
 * Transparent background
     * [SVG](/images/galaxy-logos/usegalaxy-dot-star-trans.svg)
 
-    [<img src="/images/galaxy-logos/usegalaxy-dot-star-trans.svg" alt="UseGalaxy.* Logo, transparent background" width=300 />](/images/galaxy-logos/usegalaxy-dot-star-trans.svg)
+    [<img src="/images/galaxy-logos/usegalaxy-dot-star-trans.svg" alt="UseGalaxy.* Logo, transparent background" width="300" />](/images/galaxy-logos/usegalaxy-dot-star-trans.svg)
 
 ## Galaxy Africa
 
 * Transparent background
     * [PNG](/images/galaxy-logos/galaxy-africa-logo-big.png), [1247x1247 pixels](/images/galaxy-logos/galaxy-africa-logo-big.png)
 
-    [<img src="/images/galaxy-logos/galaxy-africa-logo-big.png" alt="Galaxy Africa Logo, transparent background" width=300 />](/images/galaxy-logos/galaxy-africa-logo-big.png)
+    [<img src="/images/galaxy-logos/galaxy-africa-logo-big.png" alt="Galaxy Africa Logo, transparent background" width="300" />](/images/galaxy-logos/galaxy-africa-logo-big.png)
 
 ## Galaxy Australia
 Please contact [comms@biocommons.org.au](mailto:comms@biocommons.org.au) for additional logo material (reversed colours, alternative file types and more) if required
 
 * Transparent background, horizontal, [PNG](/images/galaxy-logos/Galaxy-Aust-Logo-Horizontal-RGB.png)
 
-    [<img src="/images/galaxy-logos/Galaxy-Aust-Logo-Horizontal-RGB.png" alt="Galaxy Australia Logo, horizontal with transparent background" width=300 />](/images/galaxy-logos/Galaxy-Aust-Logo-Horizontal-RGB.png)
+    [<img src="/images/galaxy-logos/Galaxy-Aust-Logo-Horizontal-RGB.png" alt="Galaxy Australia Logo, horizontal with transparent background" width="300" />](/images/galaxy-logos/Galaxy-Aust-Logo-Horizontal-RGB.png)
 
 * Transparent background, stacked, [PNG](/images/galaxy-logos/Galaxy-Aust-Logo-Stacked-RGB.png)
 
-    [<img src="/images/galaxy-logos/Galaxy-Aust-Logo-Stacked-RGB.png" alt="Galaxy Australia Logo, stacked with transparent background" width=300 />](/images/galaxy-logos/Galaxy-Aust-Logo-Stacked-RGB.png)
+    [<img src="/images/galaxy-logos/Galaxy-Aust-Logo-Stacked-RGB.png" alt="Galaxy Australia Logo, stacked with transparent background" width="300" />](/images/galaxy-logos/Galaxy-Aust-Logo-Stacked-RGB.png)
 
 
 ## Galaxy Europe
@@ -107,13 +107,13 @@ Please contact [comms@biocommons.org.au](mailto:comms@biocommons.org.au) for add
 
 * Transparent background
 
-    <a href='/images/galaxy-logos/planemo-logo.png'><img src="/images/galaxy-logos/planemo-logo.png" alt="" width=800 /></a>
+    <a href='/images/galaxy-logos/planemo-logo.png'><img src="/images/galaxy-logos/planemo-logo.png" alt="" width="800" /></a>
 
 ## Pulsar
 
 * Transparent background
 
-    <a href='/images/galaxy-logos/pulsar_transparent.png'><img src="/images/galaxy-logos/pulsar_transparent.png" alt="" width=800 /></a>
+    <a href='/images/galaxy-logos/pulsar_transparent.png'><img src="/images/galaxy-logos/pulsar_transparent.png" alt="" width="800" /></a>
 
 ## Starforge
 

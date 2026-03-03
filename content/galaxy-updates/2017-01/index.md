@@ -1,7 +1,7 @@
 ---
 title: January 2017 Galaxy News
 ---
-<div class='right'><a href='/galaxy-updates/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
+<div class='right'><a href='/galaxy-updates/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="150" /></a></div>
 
 Welcome to the January 2017 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.
 
@@ -120,7 +120,7 @@ There are [a plenitude of Galaxy related events coming up](/events/) in the next
     <td>  <a href="mailto:kchamp@bioplatforms.com">Katherine Chamnp</a> </td>
   </tr>
   <tr>
-    <td colspan=4 style=" background-color: #eef;"> </td>
+    <td colspan="4" style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> February 3-9 </th>
@@ -141,7 +141,7 @@ There are [a plenitude of Galaxy related events coming up](/events/) in the next
     <td> <a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='mailto:erxleben@informatik.uni-freiburg.de'>Organisers</a> </td>
   </tr>
   <tr>
-    <td colspan=4 style=" background-color: #eef;"> </td>
+    <td colspan="4" style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> March 25-28 </th>
@@ -150,7 +150,7 @@ There are [a plenitude of Galaxy related events coming up](/events/) in the next
     <td> <a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='http://conf.abrf.org/the-galaxy-platform'>Tim Griffin, Pratik Jagtap, James Johnson</a> </td>
   </tr>
   <tr>
-    <td colspan=4 style=" background-color: #eef;"> </td>
+    <td colspan="4" style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> April 19-21 </th>
@@ -159,7 +159,7 @@ There are [a plenitude of Galaxy related events coming up](/events/) in the next
     <td> <a href='http://www.canceropole-idf.fr/formation-ngs-dnaseq'>Instructors</a> </td>
   </tr>
   <tr>
-    <td colspan=4 style=" background-color: #eef;"> </td>
+    <td colspan="4" style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> May 29 - June 2 </th>
@@ -168,7 +168,7 @@ There are [a plenitude of Galaxy related events coming up](/events/) in the next
     <td> <a href='https://bioinformatics.ca/workshops/2017/bioinformatics-cancer-genomics-2017'>Instructors</a> </td>
   </tr>
   <tr>
-    <td colspan=4 style=" background-color: #eef;"> </td>
+    <td colspan="4" style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> June 26-30 </th>
@@ -462,7 +462,7 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 ----
 
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width="150" /></a></div>
 
 # ToolShed Contributions
 

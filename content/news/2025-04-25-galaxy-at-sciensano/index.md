@@ -51,10 +51,10 @@ Galaxy has enabled us to make advanced bioinformatics analyses accessible to use
 - Read our publication on Galaxy @Sciensano in [BMC Genomics](https://pubmed.ncbi.nlm.nih.gov/39780046/)
 - Training videos on [YouTube](https://www.youtube.com/watch?v=z0oxaaNzZks&list=PL9O-3w2bLZ4X5DJGYlbqL60PQDzn42Wjh)
 
-<br></br>
+<br /></br>
 
 <div align="center" id="fig1">
-  <img src="./sciensano.png" alt="Sciensano Report" width="600">
+  <img src="./sciensano.png" alt="Sciensano Report" width="600" />
   <p><strong>Figure 1:</strong> HTML output report of the custom sequence typing tool. Basic information about the analysis, such as the date of the analysis and the input file(s), is displayed in the top section. The top table lists the detected sequence type (or best matching
   sequence type in case of an imperfect match). If metadata is available, such as clonal complex or lineage, it is also shown here.
   The second table lists the detected allele for each locus. In the case of an imperfect match (e.g., for glnS), a visual representation

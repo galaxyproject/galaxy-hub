@@ -17,5 +17,5 @@ In this training session, participants will be instructed on the comprehensive m
 
 ### Björn Grüning
 
-University of Freiburg <br>
+University of Freiburg <br />
 My name is Björn Grüning from the University of Freiburg in Germany. I'm part of the Bioconda and BioContainers community. Bioconda and BioContainers are an essential part of the Galaxy ecosystem to enhance reproducibility of research but also to make maintaining a Galaxy server with a large tool set easier.

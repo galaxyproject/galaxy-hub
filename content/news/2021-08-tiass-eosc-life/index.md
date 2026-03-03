@@ -14,7 +14,7 @@ contributions:
 
 <div class="row">
 <div class="col-md-6" markdown="1">
-<br><br>
+<br /><br />
 __TIaaS (Training Infrastructure as a Service)__ provides a special queue in the server so that, during the execution of a workshop, __the trainees’ jobs
 are run preferentially__ without waiting in the general job queue of the server. The main advantage of this system is that the workshop
 can run smoothly avoiding possible waiting execution times depending on the load of the server.
@@ -43,5 +43,5 @@ TIaaS for organising training activities!
 </div>
 </div>
 
-<br>
+<br />
 

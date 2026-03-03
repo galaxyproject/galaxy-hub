@@ -4,8 +4,8 @@ title: Key Dates
 
 <slot name="/events/gcc2013/header" />
 
-import linkbox from "../linkbox.json"
-<link-box :data="linkbox" />
+
+<link-box data="linkbox" />
 
 <table>
   <tr class="th" >

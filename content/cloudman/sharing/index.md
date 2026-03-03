@@ -94,7 +94,7 @@ Below is a list of CloudMan clusters that have been shared publicly. Feel free t
     <td style=" text-align: left;"> A 16.05 Galaxy CloudMan instances created as a demo for GCC2016. Sample data and sample workflow have been uploaded and published. </td>
   </tr>
   <tr>
-    <td colspan=3 style=" background-color: #eef;"> </td>
+    <td colspan="3" style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <td style=" width: 65%;"> cm-f166fb7533ab13b2df095e86d20c7ba1/shared/2016-07-07--19-03/</td>
@@ -109,7 +109,7 @@ Below is a list of CloudMan clusters that have been shared publicly. Feel free t
     <td style=" text-align: left;"> This is a share of the GCC2016 Data Hack cluster (<a href='https://gcc16.sched.org/event/5YRH/data-hackathon), from after the conference. '>https://gcc16.sched.org/event/5YRH/data-hackathon), from after the conference. </a></td>
   </tr>
   <tr>
-    <td colspan=3 style=" background-color: #eef;"> </td>
+    <td colspan="3" style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <td style=" width: 65%;"> cm-[hash]</td>
@@ -124,6 +124,6 @@ Below is a list of CloudMan clusters that have been shared publicly. Feel free t
     <td style=" text-align: left;"> Brief share description; usage instructions.</td>
   </tr>
   <tr>
-    <td colspan=3 style=" background-color: #eef;"> </td>
+    <td colspan="3" style=" background-color: #eef;"> </td>
   </tr>
 </table>

@@ -140,7 +140,7 @@ Using **CAMI infrastructure and real datasets**, the group worked to standardize
 * **Marine MAGs exploration** — high-quality MAGs identified for the Marine use case
 
 <div align="center">
-  <img src="./static/marine_mags.png" alt="MAGs of the marine use case: Completeness, Contamination and Average Gene Length." width="60%">
+  <img src="./static/marine_mags.png" alt="MAGs of the marine use case: Completeness, Contamination and Average Gene Length." width="60%" />
   <p><em>MAGs of the marine use case: Completeness, Contamination and Average Gene Length.</em></p>
 </div>
 
@@ -153,7 +153,7 @@ Using **CAMI infrastructure and real datasets**, the group worked to standardize
 * Evaluated **correlation between sample metadata and memory usage** → [PR #68](https://github.com/usegalaxy-eu/FAIRyMAGs/pull/68)
 
 <div align="center">
-  <img src="./static/biome_aggregated_plots.png" alt="Correlation between sample metadata and memory usage" width="90%">
+  <img src="./static/biome_aggregated_plots.png" alt="Correlation between sample metadata and memory usage" width="90%" />
   <p><em>Correlation between sample metadata and memory usage</em></p>
 </div>
 
@@ -169,12 +169,12 @@ A key challenge identified:
 The **FAIRyMAGs hackathon** brought together a great community of MAGs scientists. And although the hackathon was slightly Galaxy-centric, a nice exchange beyond workflow engines could be established, targeting major MAGs issues together!
 
 <div align="center" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; justify-items: center;">
-  <img src="./static/IMG_20251007_103940.jpg" alt="FAIRyMAGs Hackers 1" style="width:90%; border-radius:8px;">
-  <img src="./static/IMG_20251007_103946.jpg" alt="FAIRyMAGs Hackers 2" style="width:90%; border-radius:8px;">
-  <img src="./static/IMG_20251007_141445.jpg" alt="FAIRyMAGs Hackers 3" style="width:90%; border-radius:8px;">
-  <img src="./static/IMG_20251007_152237.jpg" alt="FAIRyMAGs Hackers 4" style="width:90%; border-radius:8px;">
-  <img src="./static/FAIRyMAGsHacking1.jpg" alt="FAIRyMAGs Hackers 5" style="width:90%; border-radius:8px;">
-  <img src="./static/FAIRyMAGsHackathon.jpg" alt="FAIRyMAGs Hackers 6" style="width:90%; border-radius:8px;">
+  <img src="./static/IMG_20251007_103940.jpg" alt="FAIRyMAGs Hackers 1" style="width:90%; border-radius:8px;" />
+  <img src="./static/IMG_20251007_103946.jpg" alt="FAIRyMAGs Hackers 2" style="width:90%; border-radius:8px;" />
+  <img src="./static/IMG_20251007_141445.jpg" alt="FAIRyMAGs Hackers 3" style="width:90%; border-radius:8px;" />
+  <img src="./static/IMG_20251007_152237.jpg" alt="FAIRyMAGs Hackers 4" style="width:90%; border-radius:8px;" />
+  <img src="./static/FAIRyMAGsHacking1.jpg" alt="FAIRyMAGs Hackers 5" style="width:90%; border-radius:8px;" />
+  <img src="./static/FAIRyMAGsHackathon.jpg" alt="FAIRyMAGs Hackers 6" style="width:90%; border-radius:8px;" />
   <p style="grid-column: span 2; text-align:center; font-style:italic; margin-top:8px;">
     FAIRyMAGs Hackers
   </p>

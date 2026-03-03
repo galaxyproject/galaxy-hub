@@ -1,7 +1,7 @@
 ---
 title: August 2014 Galaxy Update
 ---
-<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width="150" /></a></div>
 
 Welcome to the august 2014 *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
@@ -28,18 +28,18 @@ Feedback has been very positive (see below for some of it), and we would like to
     <th> Value </th>
     <td style=" border: none;"> &nbsp;&nbsp;&nbsp;&nbsp;</td>
     <th> Question </th>
-    <th colspan=2> No </th>
+    <th colspan="2"> No </th>
     <th> Yes, but ... </th>
-    <th colspan=2> Yes </th>
+    <th colspan="2"> Yes </th>
   </tr>
   <tr>
     <td style=" text-align: center;"> Total Participants </td>
     <td style=" text-align: right;"> 214 </td>
-    <td rowspan=2 style=" border: none;"> </td>
-    <td rowspan=2 style=" text-align: center;"> Would you recommend future Galaxy events to others? </td>
-    <td rowspan=2 colspan=2 style=" text-align: right;"> 2% </td>
-    <td rowspan=2 style=" text-align: right;"> 3% </td>
-    <td rowspan=2 colspan=2 style=" text-align: right;"> <strong>95%</strong> </td>
+    <td rowspan="2" style=" border: none;"> </td>
+    <td rowspan="2" style=" text-align: center;"> Would you recommend future Galaxy events to others? </td>
+    <td rowspan="2" colspan="2" style=" text-align: right;"> 2% </td>
+    <td rowspan="2" style=" text-align: right;"> 3% </td>
+    <td rowspan="2" colspan="2" style=" text-align: right;"> <strong>95%</strong> </td>
   </tr>
   <tr>
     <td style=" text-align: center;"> <a href='/events/gcc2014/training-day/'>Training Day Participants</a> </td>
@@ -48,7 +48,7 @@ Feedback has been very positive (see below for some of it), and we would like to
   <tr>
     <td style=" text-align: center;"> <a href='/events/gcc2014/hackathon/'>Hackathon Participants</a> </td>
     <td style=" text-align: right;"> 40 </td>
-    <td colspan=6 style=" border: none;"> </td>
+    <td colspan="6" style=" border: none;"> </td>
   </tr>
   <tr>
     <td style=" text-align: center;"> <a href='/events/gcc2014/abstracts/'>Videos, slides, posters</a>, <a href='/events/gcc2014/training-day/'>exercises, ...</a> </td>
@@ -75,13 +75,13 @@ Feedback has been very positive (see below for some of it), and we would like to
   <tr>
     <td style=" text-align: center;"> <a href='/events/gcc2014/abstracts/posters/'>Posters</a> </td>
     <td style=" text-align: right;"> 30 </td>
-    <td rowspan=2 style=" border: none;"> </td>
-    <td rowspan=2 style=" text-align: center;"> Was the main meeting well run and organized? </td>
-    <td rowspan=2 style=" text-align: right;"> 0% </td>
-    <td rowspan=2 style=" text-align: right;"> 0% </td>
-    <td rowspan=2 style=" text-align: right;"> 2% </td>
-    <td rowspan=2 style=" text-align: right;"> <strong>51%</strong> </td>
-    <td rowspan=2 style=" text-align: right;"> 47% </td>
+    <td rowspan="2" style=" border: none;"> </td>
+    <td rowspan="2" style=" text-align: center;"> Was the main meeting well run and organized? </td>
+    <td rowspan="2" style=" text-align: right;"> 0% </td>
+    <td rowspan="2" style=" text-align: right;"> 0% </td>
+    <td rowspan="2" style=" text-align: right;"> 2% </td>
+    <td rowspan="2" style=" text-align: right;"> <strong>51%</strong> </td>
+    <td rowspan="2" style=" text-align: right;"> 47% </td>
   </tr>
   <tr>
     <td style=" text-align: center;"> <a href='/events/gcc2014/lightning/'>Lightning Talks</a> </td>
@@ -90,13 +90,13 @@ Feedback has been very positive (see below for some of it), and we would like to
   <tr>
     <td style=" text-align: center;"> <a href='/events/gcc2014/training-day/'>Training Day Sessions</a> </td>
     <td style=" text-align: right;"> 15 </td>
-    <td rowspan=2 style=" border: none;"> </td>
-    <td rowspan=2 style=" text-align: center;"> Did the main meeting meet your expectations? </td>
-    <td rowspan=2 style=" text-align: right;"> 0% </td>
-    <td rowspan=2 style=" text-align: right;"> 0% </td>
-    <td rowspan=2 style=" text-align: right;"> 10% </td>
-    <td rowspan=2 style=" text-align: right;"> <strong>55%</strong> </td>
-    <td rowspan=2 style=" text-align: right;"> 35% </td>
+    <td rowspan="2" style=" border: none;"> </td>
+    <td rowspan="2" style=" text-align: center;"> Did the main meeting meet your expectations? </td>
+    <td rowspan="2" style=" text-align: right;"> 0% </td>
+    <td rowspan="2" style=" text-align: right;"> 0% </td>
+    <td rowspan="2" style=" text-align: right;"> 10% </td>
+    <td rowspan="2" style=" text-align: right;"> <strong>55%</strong> </td>
+    <td rowspan="2" style=" text-align: right;"> 35% </td>
   </tr>
   <tr>
     <td style=" text-align: center;"> <a href='/events/gcc2014/bofs/'>BoFs</a> </td>
@@ -198,10 +198,10 @@ Over the rest of the few months there are many [Galaxy related events](/events/)
     <td> <a href="mailto:navratil AT prabi DOT fr">Navratil V</a>., <a href="mailto:oger AT prabi DOT fr">Oger C.</a>, <a href="mailto:veber AT prabi DOT fr">Veber P.</a>, <a href="mailto:deschamps AT prabi DOT fr">Deschamps C.</a>, <a href="mailto:perriere AT prabi DOT fr">Perriere G.</a> </td>
   </tr>
   <tr>
-    <th rowspan=3> September 30 - October 2 </th>
+    <th rowspan="3"> September 30 - October 2 </th>
     <td> <a href='/events/switzerland2014/trainingday/'>Galaxy Training and Demo Day</a> </td>
     <td> Bern (Switzerland) </td>
-    <td rowspan=3> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> and <a href='/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
+    <td rowspan="3"> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> and <a href='/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
     <td> <em><a href='/events/switzerland2014/'>(second Swiss) Galaxy Workshop</a></em> </td>
@@ -218,10 +218,10 @@ Over the rest of the few months there are many [Galaxy related events](/events/)
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
-    <th rowspan=3> November 2-5 </th>
+    <th rowspan="3"> November 2-5 </th>
     <td> <em><a href='https://www.acsmeetings.org/tours-workshops#Intro to'>Introduction to Bioinformatics Analysis with Galaxy Workshop</a></em> </td>
-    <td rowspan=3> <strong><a href='https://www.acsmeetings.org/home'>ASA, CSSA, and SSSA International Annual Meeting</a></strong>, Long Beach, California, United States </td>
-    <td rowspan=3> <a href="mailto:outreach AT galaxyproject DOT org">Galaxy Outreach</a> </td>
+    <td rowspan="3"> <strong><a href='https://www.acsmeetings.org/home'>ASA, CSSA, and SSSA International Annual Meeting</a></strong>, Long Beach, California, United States </td>
+    <td rowspan="3"> <a href="mailto:outreach AT galaxyproject DOT org">Galaxy Outreach</a> </td>
   </tr>
   <tr>
     <td> <em><a href='https://www.acsmeetings.org/tours-workshops#SNP'>SNP/Variant Analysis with Galaxy Workshop</a></em> </td>
@@ -252,13 +252,13 @@ The new papers were tagged in many different areas:
   <tr>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=4 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="4" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
   </tr>
@@ -371,7 +371,7 @@ Because this vulnerability allows for arbitrary code execution, administrators a
 
 The *[Community Log Board](/news/)* and  *Deployment Catalog* *[Galaxy community hubs](/community/)* were launched last your.  If you have a Galaxy deployment, or [experience](/news/) you want to share then please publish them **this month.**
 
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width="150" /></a></div>
 
 # ToolShed Contributions
 

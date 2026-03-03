@@ -28,8 +28,8 @@ The WorkflowHub also supports author credit and attribution. DOIs are [minted](h
 
 Journals are a central communication mechanism for scientific results, and will therefore also be central to making workflows first class research outputs that are easier to discover, understand, reuse and cite.  WorkflowHub is the ideal registry for supporting workflow visibility, sharing and publication in the scholarly literature. Authors register a workflow in WorkflowHub and reference its permanent identifier in their publication as either:
 
-1. A DOI for a specific immutable version of the workflow, e.g. <https://doi.org/10.48546/workflowhub.workflow.1063.2>
-2. A WorkflowHub URL for the entry for the workflow and all its versions, e.g. <https://workflowhub.eu/workflows/1063>
+1. A DOI for a specific immutable version of the workflow, e.g. [https://doi.org/10.48546/workflowhub.workflow.1063.2](https://doi.org/10.48546/workflowhub.workflow.1063.2)
+2. A WorkflowHub URL for the entry for the workflow and all its versions, e.g. [https://workflowhub.eu/workflows/1063](https://workflowhub.eu/workflows/1063)
 
 
 ## Establishing the WorkflowHub Publishers and Journal Forum
@@ -57,17 +57,17 @@ https://s.apache.org/existing-workflow-systems updated 2024-08-01, accessed 2024
 Scott Edmunds (2024):  
 **A Decade of FAIR – and what next?** Q\&A on FAIR workflows with the Netherlands X-omics Initiative.  
 _GIGABlog_, 2024-01-14  
-<http://gigasciencejournal.com/blog/fair-workflows/>
+[http://gigasciencejournal.com/blog/fair-workflows/](http://gigasciencejournal.com/blog/fair-workflows/)
 
 \[Goble et al. 2022\] Carole Goble, Sarah Cohen-Boulakia, Stian Soiland-Reyes, Daniel Garijo, Yolanda Gil, Michael R. Crusoe, Kristian Peters, Daniel Schober (2020):  
 **FAIR Computational Workflows**.  
 _Data Intelligence_ **2**(1)  
-<https://doi.org/10.1162/dint_a_00033>
+[https://doi.org/10.1162/dint_a_00033](https://doi.org/10.1162/dint_a_00033)
 
 \[Maier et al. 2021\] Wolfgang Maier, Simon Bray, Marius van den Beek, Dave Bouvier, Nathan Coraor, Milad Miladi, Babita Singh, Jordi Rambla De Argila, Dannon Baker, Nathan Roach, Simon Gladman, Frederik Coppens, Darren P. Martin, Andrew Lonie, Björn Grüning, Sergei L. Kosakovsky Pond, Anton Nekrutenko (2021):  
 **Ready-to-use public infrastructure for global SARS-CoV-2 monitoring**.  
 _Nature Biotechnology_ **39**  
-<https://doi.org/10.1038/s41587-021-01069-1>
+[https://doi.org/10.1038/s41587-021-01069-1](https://doi.org/10.1038/s41587-021-01069-1)
 
 <!-- hyperlinks for the inline [[citations]]  -->
 

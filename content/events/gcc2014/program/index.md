@@ -36,7 +36,7 @@ Topics were nominated and then voted on by the Galaxy Community.  There are 15 s
   </tr>
   <tr>
     <th style=" text-align: right;"> 8:00 </th>
-    <td colspan=5 style=" text-align: center;"> <strong>Registration Opens and Catered Breakfast</strong> </td>
+    <td colspan="5" style=" text-align: center;"> <strong>Registration Opens and Catered Breakfast</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:00 </th>
@@ -48,7 +48,7 @@ Topics were nominated and then voted on by the Galaxy Community.  There are 15 s
   </tr>
   <tr>
     <th style=" text-align: right;"> 11:30 </th>
-    <td colspan=5 style=" text-align: center;"> <strong>Lunch</strong><br />Sponsored by <strong><a href='http://www.emc.com/isilon'>EMC Isilon</a></strong><br /><a href='http://www.emc.com/isilon'><img src="/images/logos/EMCIsilonLogo.jpg" alt="EMC Isilon" width="150" /></a> </td>
+    <td colspan="5" style=" text-align: center;"> <strong>Lunch</strong><br />Sponsored by <strong><a href='http://www.emc.com/isilon'>EMC Isilon</a></strong><br /><a href='http://www.emc.com/isilon'><img src="/images/logos/EMCIsilonLogo.jpg" alt="EMC Isilon" width="150" /></a> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 12:30 </th>
@@ -60,7 +60,7 @@ Topics were nominated and then voted on by the Galaxy Community.  There are 15 s
   </tr>
   <tr>
     <th style=" text-align: right;"> 3:00 </th>
-    <td colspan=5 style=" text-align: center;"> <strong>Break</strong> </td>
+    <td colspan="5" style=" text-align: center;"> <strong>Break</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 3:30 </th>
@@ -72,15 +72,15 @@ Topics were nominated and then voted on by the Galaxy Community.  There are 15 s
   </tr>
   <tr>
     <th style=" text-align: right;"> 6:00 </th>
-    <td colspan=5 style=" text-align: center;"> <strong>Break</strong> </td>
+    <td colspan="5" style=" text-align: center;"> <strong>Break</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 6:15 </th>
-    <td colspan=5 style=" vertical-align: top; text-align: center;"> <strong>Dinner</strong> (on your own) / <strong><a href='/events/gcc2014/bofs/'>Birds-of-a-Feather Flock 1</a></strong> </td>
+    <td colspan="5" style=" vertical-align: top; text-align: center;"> <strong>Dinner</strong> (on your own) / <strong><a href='/events/gcc2014/bofs/'>Birds-of-a-Feather Flock 1</a></strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 10:00 </th>
-    <td colspan=5 style=" text-align: center;"> <strong>Finish</strong> </td>
+    <td colspan="5" style=" text-align: center;"> <strong>Finish</strong> </td>
   </tr>
 </table>
 
@@ -123,11 +123,11 @@ Moderator:  [Karen Reddy](http://biolchem.bs.jhmi.edu/pages/facultydetail.aspx?F
 <table>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 9:15 </td>
-    <td colspan=2 style=" border: none; width: 100%;"> <strong>Keynote:</strong> <strong><em><a href='/events/gcc2014/abstracts/talks/#transcriptomes-and-exomes-computational-challenges-of-ngs-data'>Transcriptomes and Exomes: Computational Challenges of NGS Data</a></em></strong> <div class='indent'> <strong><a href='http://ccb.jhu.edu/people/salzberg/'>Steven Salzberg</a></strong>, <a href='http://www.biostat.jhsph.edu/'>Biostatistics</a> and <a href='http://www.cs.jhu.edu/'>Computer Science</a> at the <a href='http://www.hopkinsmedicine.org/som/'>Johns Hopkins University School of Medicine</a></div> </td>
+    <td colspan="2" style=" border: none; width: 100%;"> <strong>Keynote:</strong> <strong><em><a href='/events/gcc2014/abstracts/talks/#transcriptomes-and-exomes-computational-challenges-of-ngs-data'>Transcriptomes and Exomes: Computational Challenges of NGS Data</a></em></strong> <div class='indent'> <strong><a href='http://ccb.jhu.edu/people/salzberg/'>Steven Salzberg</a></strong>, <a href='http://www.biostat.jhsph.edu/'>Biostatistics</a> and <a href='http://www.cs.jhu.edu/'>Computer Science</a> at the <a href='http://www.hopkinsmedicine.org/som/'>Johns Hopkins University School of Medicine</a></div> </td>
   </tr>
   <tr>
-    <td rowspan=3 style=" vertical-align: top; text-align: right; border: none;"> 10:00 </td>
-    <td colspan=2 style=" border: none; width: 100%;"> <strong>Accepted Talks</strong> </td>
+    <td rowspan="3" style=" vertical-align: top; text-align: right; border: none;"> 10:00 </td>
+    <td colspan="2" style=" border: none; width: 100%;"> <strong>Accepted Talks</strong> </td>
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 10:00 </td>
@@ -157,8 +157,8 @@ Moderator: [Hailiang (Leon) Mei](http://wiki.data.dtls.nl/index.php/User:Leon_Me
 <div class='left'>
 <table>
   <tr>
-    <td rowspan=4 style=" vertical-align: top; text-align: right; border: none;"> 11:00 </td>
-    <td colspan=2 style=" border: none; width: 100%;"> <strong>Accepted Talks</strong> </td>
+    <td rowspan="4" style=" vertical-align: top; text-align: right; border: none;"> 11:00 </td>
+    <td colspan="2" style=" border: none; width: 100%;"> <strong>Accepted Talks</strong> </td>
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 11:00 </td>
@@ -174,7 +174,7 @@ Moderator: [Hailiang (Leon) Mei](http://wiki.data.dtls.nl/index.php/User:Leon_Me
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 11:55 </td>
-    <td colspan=2 style=" text-align: center; vertical-align: top; border: none;"> <div class='right'><a href='http://bioteam.net/'><img src="/images/logos/BioTeamLogo154.gif" alt="BioTeam" width="90" /></a></div> <strong><em><a href='/events/gcc2014/abstracts/talks/#enabling-dynamic-science-with-flexible-infrastructure'>Enabling Dynamic Science with Flexible Infrastructure</a></em></strong> <br /><a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a>, Product Manager and Senior Scientific Consultant<br /><a href='http://bioteam.net/company-leadership/'>Aaron Gardner</a>, Senior Scientific Consultant<br /> <a href='http://bioteam.net/'>BioTeam</a> <br /> Gold Sponsor Presentation  </td>
+    <td colspan="2" style=" text-align: center; vertical-align: top; border: none;"> <div class='right'><a href='http://bioteam.net/'><img src="/images/logos/BioTeamLogo154.gif" alt="BioTeam" width="90" /></a></div> <strong><em><a href='/events/gcc2014/abstracts/talks/#enabling-dynamic-science-with-flexible-infrastructure'>Enabling Dynamic Science with Flexible Infrastructure</a></em></strong> <br /><a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a>, Product Manager and Senior Scientific Consultant<br /><a href='http://bioteam.net/company-leadership/'>Aaron Gardner</a>, Senior Scientific Consultant<br /> <a href='http://bioteam.net/'>BioTeam</a> <br /> Gold Sponsor Presentation  </td>
   </tr>
 </table>
 
@@ -197,7 +197,7 @@ Moderator: [Liisa Koski](https://www.linkedin.com/pub/liisa-koski/70/164/b0b), [
 <table>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 1:15 </td>
-    <td colspan=2 style=" border: none; width: 100%;"> <strong><em><a href='/events/gcc2014/abstracts/talks/#state-of-the-galaxy'>State of the Galaxy</a></em></strong> <div class='indent'><a href='/people/anton/'>Anton Nekrutenko</a> and <a href='/people/james-taylor/'>James Taylor</a>, Galaxy Project </div> </td>
+    <td colspan="2" style=" border: none; width: 100%;"> <strong><em><a href='/events/gcc2014/abstracts/talks/#state-of-the-galaxy'>State of the Galaxy</a></em></strong> <div class='indent'><a href='/people/anton/'>Anton Nekrutenko</a> and <a href='/people/james-taylor/'>James Taylor</a>, Galaxy Project </div> </td>
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 1:50 </td>
@@ -224,8 +224,8 @@ Moderator: [Ravi Madduri](http://www.mcs.anl.gov/person/ravi-madduri),  [Argonne
 <div class='left'>
 <table>
   <tr>
-    <td rowspan=4 style=" vertical-align: top; text-align: right; border: none;"> 4:00 </td>
-    <td colspan=2 style=" border: none; width: 100%;"> <strong>Accepted Talks</strong> </td>
+    <td rowspan="4" style=" vertical-align: top; text-align: right; border: none;"> 4:00 </td>
+    <td colspan="2" style=" border: none; width: 100%;"> <strong>Accepted Talks</strong> </td>
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 4:00 </td>
@@ -240,11 +240,11 @@ Moderator: [Ravi Madduri](http://www.mcs.anl.gov/person/ravi-madduri),  [Argonne
     <td style=" vertical-align: top; border: none;"> <em><a href='/events/gcc2014/abstracts/talks/#deeptools-a-flexible-platform-for-exploring-deep-sequencing-data'>deepTools: a flexible platform for exploring deep-sequencing data</a></em> <div class='indent'> <a href='https://github.com/bgruening'>Björn Grüning</a>, <a href='http://www.uni-freiburg.de/'>University of Freiburg</a> </div> </td>
   </tr>
   <tr>
-    <td rowspan=7 style=" vertical-align: top; text-align: right; border: none;"> 4:50 </td>
-    <td colspan=2 style=" vertical-align: top; border: none;"> <strong><a href='/events/gcc2014/lightning/'>Lightning Talks</a>, Session 1</strong> </td>
+    <td rowspan="7" style=" vertical-align: top; text-align: right; border: none;"> 4:50 </td>
+    <td colspan="2" style=" vertical-align: top; border: none;"> <strong><a href='/events/gcc2014/lightning/'>Lightning Talks</a>, Session 1</strong> </td>
   </tr>
   <tr>
-    <td rowspan=6 style=" border: none;"> </td>
+    <td rowspan="6" style=" border: none;"> </td>
     <td style=" vertical-align: top; border: none;"> <em><a href='/events/gcc2014/lightning/#visualising-proteomics-data-in-galaxy'>Visualising Proteomics Data in Galaxy</a></em><div class='indent'>Ira Cooke, Latrobe University</div> </td>
   </tr>
   <tr>
@@ -310,8 +310,8 @@ Moderator: [Mohammad Heydarian](http://epigenetics.jhu.edu/?section=personnelPag
 <div class='left'>
 <table>
   <tr>
-    <td rowspan=4 style=" vertical-align: top; text-align: right; border: none;"> 9:10 </td>
-    <td colspan=2 style=" border: none; width: 100%;"> <strong>Accepted Talks</strong> </td>
+    <td rowspan="4" style=" vertical-align: top; text-align: right; border: none;"> 9:10 </td>
+    <td colspan="2" style=" border: none; width: 100%;"> <strong>Accepted Talks</strong> </td>
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 9:10 </td>
@@ -327,7 +327,7 @@ Moderator: [Mohammad Heydarian](http://epigenetics.jhu.edu/?section=personnelPag
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 10:05 </td>
-    <td colspan=2 style=" text-align: center; vertical-align: top; border: none;"> <div class='right'><br /><a href='http://www.emc.com/isilon'><img src="/images/logos/EMCIsilonLogo.jpg" alt="EMC Isilon" width="150" /></a></div> <strong><em><a href='/events/gcc2014/abstracts/talks/#an-appliance-for-life-science-research-isilon-penguin-and-galaxy'>An Appliance for Life Science Research: Isilon, Penguin and Galaxy</a></em></strong<br /><a href='http://www.linkedin.com/pub/patrick-combes/1/a6/111'>Patrick Combes</a> <br /> Senior Solution Architect for <a href='http://www.isilon.com/industry/lifesciences'>Life Sciences</a>, <a href='http://www.emc.com/isilon'>EMC Isilon</a> <br /> Gold Sponsor Presentation </td>
+    <td colspan="2" style=" text-align: center; vertical-align: top; border: none;"> <div class='right'><br /><a href='http://www.emc.com/isilon'><img src="/images/logos/EMCIsilonLogo.jpg" alt="EMC Isilon" width="150" /></a></div> <strong><em><a href='/events/gcc2014/abstracts/talks/#an-appliance-for-life-science-research-isilon-penguin-and-galaxy'>An Appliance for Life Science Research: Isilon, Penguin and Galaxy</a></em></strong<br /><a href='http://www.linkedin.com/pub/patrick-combes/1/a6/111'>Patrick Combes</a> <br /> Senior Solution Architect for <a href='http://www.isilon.com/industry/lifesciences'>Life Sciences</a>, <a href='http://www.emc.com/isilon'>EMC Isilon</a> <br /> Gold Sponsor Presentation </td>
   </tr>
 </table>
 </div>
@@ -347,8 +347,8 @@ Moderator: [Tom Bair](http://www.medicine.uiowa.edu/humangenetics/biostatistics/
 <div class='left'>
 <table>
   <tr>
-    <td rowspan=5 style=" vertical-align: top; text-align: right; border: none;"> 10:55 </td>
-    <td colspan=2 style=" border: none; width: 100%;"> <strong>Accepted Talks</strong> </td>
+    <td rowspan="5" style=" vertical-align: top; text-align: right; border: none;"> 10:55 </td>
+    <td colspan="2" style=" border: none; width: 100%;"> <strong>Accepted Talks</strong> </td>
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 10:55 </td>
@@ -368,7 +368,7 @@ Moderator: [Tom Bair](http://www.medicine.uiowa.edu/humangenetics/biostatistics/
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 11:55 </td>
-    <td colspan=2 style=" vertical-align: top; text-align: center; border: none;"> <div class='right'><a href='http://www.sgi.com/solutions/genomics/'><img src="/images/logos/SGILogo400.jpg" alt="SGI" width="100" /></a></div> <strong><em><a href='/events/gcc2014/abstracts/talks/#sgi-uv--harnessing-the-big-brain-platform-for-galaxy'>SGI UV:  Harnessing the Big Brain Platform for Galaxy</a></em></strong> <br /> <a href='http://www.sgi.com/solutions/genomics/'>James Reaney</a><br />Senior Director, Research Markets, <a href='http://www.sgi.com'>SGI</a> <br /> Gold Sponsor Presentation </td>
+    <td colspan="2" style=" vertical-align: top; text-align: center; border: none;"> <div class='right'><a href='http://www.sgi.com/solutions/genomics/'><img src="/images/logos/SGILogo400.jpg" alt="SGI" width="100" /></a></div> <strong><em><a href='/events/gcc2014/abstracts/talks/#sgi-uv--harnessing-the-big-brain-platform-for-galaxy'>SGI UV:  Harnessing the Big Brain Platform for Galaxy</a></em></strong> <br /> <a href='http://www.sgi.com/solutions/genomics/'>James Reaney</a><br />Senior Director, Research Markets, <a href='http://www.sgi.com'>SGI</a> <br /> Gold Sponsor Presentation </td>
   </tr>
 </table>
 </div>
@@ -388,8 +388,8 @@ Moderator: [Jessica Kissinger](http://mango.ctegd.uga.edu/jkissingLab/), [Univer
 <div class='left'>
 <table>
   <tr>
-    <td rowspan=5 style=" vertical-align: top; text-align: right; border: none;"> 1:15 </td>
-    <td colspan=2 style=" border: none; width: 100%;"> <strong>Accepted Talks</strong> </td>
+    <td rowspan="5" style=" vertical-align: top; text-align: right; border: none;"> 1:15 </td>
+    <td colspan="2" style=" border: none; width: 100%;"> <strong>Accepted Talks</strong> </td>
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 1:15 </td>
@@ -409,7 +409,7 @@ Moderator: [Jessica Kissinger](http://mango.ctegd.uga.edu/jkissingLab/), [Univer
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 2:15 </td>
-    <td colspan=2 style=" text-align: center; vertical-align: top; border: none;"> <div class='right'> <a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo1280.jpg" alt="Amazon Web Services" width="140" /></a></div> <strong><em><a href='/events/gcc2014/abstracts/talks/#bioinformatics-on-aws-new-and-noteworthy-features'>Bioinformatics on AWS: New and Noteworthy Features</a></em></strong <br /> <a href='https://www.linkedin.com/in/angelpizarro'>Angel Pizarro</a> <br /> Senior Solutions Architect, <a href='http://aws.amazon.com/'>Amazon Web Services</a><br /> <a href='/events/gcc2014/training-day/'>Training Day</a> Sponsor Presentation </td>
+    <td colspan="2" style=" text-align: center; vertical-align: top; border: none;"> <div class='right'> <a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo1280.jpg" alt="Amazon Web Services" width="140" /></a></div> <strong><em><a href='/events/gcc2014/abstracts/talks/#bioinformatics-on-aws-new-and-noteworthy-features'>Bioinformatics on AWS: New and Noteworthy Features</a></em></strong <br /> <a href='https://www.linkedin.com/in/angelpizarro'>Angel Pizarro</a> <br /> Senior Solutions Architect, <a href='http://aws.amazon.com/'>Amazon Web Services</a><br /> <a href='/events/gcc2014/training-day/'>Training Day</a> Sponsor Presentation </td>
   </tr>
 </table>
 
@@ -431,11 +431,11 @@ Moderator: [Jeremy Goecks](/people/jeremy-goecks/), [George Washington Universit
 <div class='left'>
 <table>
   <tr>
-    <td rowspan=10 style=" vertical-align: top; text-align: right; border: none;"> 4:05 </td>
-    <td colspan=2 style=" vertical-align: top; border: none; width: 100%;"> <strong><a href='/events/gcc2014/lightning/'>Lightning Talks</a>, Session 2</strong> </td>
+    <td rowspan="10" style=" vertical-align: top; text-align: right; border: none;"> 4:05 </td>
+    <td colspan="2" style=" vertical-align: top; border: none; width: 100%;"> <strong><a href='/events/gcc2014/lightning/'>Lightning Talks</a>, Session 2</strong> </td>
   </tr>
   <tr>
-    <td rowspan=9 style=" border: none;"> </td>
+    <td rowspan="9" style=" border: none;"> </td>
     <td style=" vertical-align: top; border: none;"> <em><a href='/events/gcc2014/lightning/#plan-for-galaxy-based-chip-exo-analysis-platform'>Plan for Galaxy based Chip-exo Analysis platform</a></em><div class='indent'> Bongsoo Park, Center for Eukaryotic Gene Regulation, The Pennsylvania State University </div> </td>
   </tr>
   <tr>

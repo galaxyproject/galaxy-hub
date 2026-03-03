@@ -21,7 +21,7 @@ Galaxy has a significant presence at [ISMB/ECCB 2015](http://www.iscb.org/ismbec
     <th> Links </th>
   </tr>
   <tr>
-    <th rowspan=8> 10 July </th>
+    <th rowspan="8"> 10 July </th>
     <th> 11:36 </th>
     <td> <em>Bringing Hadoop into Bioinformatics with Cloudgene and CloudMan</em> <div class='indent'> Sebastian Schoenherr </div> </td>
     <td> <a href='http://f1000research.com/slides/4-300'>Slides</a>, <a href='http://youtu.be/Eu4AHr3Rg98'>Video</a> </td>
@@ -62,10 +62,10 @@ Galaxy has a significant presence at [ISMB/ECCB 2015](http://www.iscb.org/ismbec
     <td> <a href='http://youtu.be/u5O1eG0GDnE'>Video</a> </td>
   </tr>
   <tr>
-    <th colspan=4> </th>
+    <th colspan="4"> </th>
   </tr>
   <tr>
-    <th rowspan=3> 11 July </th>
+    <th rowspan="3"> 11 July </th>
     <th> 12:05 </th>
     <td> <em>The perfect fit for reproducible interactive research: Galaxy, Docker, IPython</em> <div class='indent'><a href='/people/bjoern-gruening/'>Björn Grüning</a> </td>
     <td> <a href='http://youtu.be/S2DKQRcHY4s'>Video</a> </td>
@@ -95,7 +95,7 @@ Galaxy has a significant presence at [ISMB/ECCB 2015](http://www.iscb.org/ismbec
     <th> Links </th>
   </tr>
   <tr>
-    <th rowspan=8> 10 July </th>
+    <th rowspan="8"> 10 July </th>
     <th> 18:30 </th>
     <td> <em><a href='http://www.biovis.net/year/2015/papers/interactive-visualization-provenance-graphs-reproducible-biomedical-research'>Interactive Visualization of Provenance Graphs for Reproducible Biomedical Research</a></em>  <div class='indent'> Stefan Luger </div> </td>
     <td> <a href='http://gehlenborg.com/wp-content/uploads/refinery_poster_biovis-2015.pdf'>Poster</a> </td>
@@ -128,8 +128,8 @@ Galaxy has a significant presence at [ISMB/ECCB 2015](http://www.iscb.org/ismbec
     <td> </td>
   </tr>
   <tr>
-    <th rowspan=2> 12 July </th>
-    <th rowspan=2> 17:00 </th>
+    <th rowspan="2"> 12 July </th>
+    <th rowspan="2"> 17:00 </th>
     <td> <em><a href='https://www.iscb.org/cms_addon/conferences/ismbeccb2015/posterlist.php?cat=J#J05'>J05: IRIDA: Canada’s federated platform for genomic epidemiology</a></em> <div class='indent'>Damion Dooley</div> </td>
     <td> </td>
   </tr>
@@ -138,8 +138,8 @@ Galaxy has a significant presence at [ISMB/ECCB 2015](http://www.iscb.org/ismbec
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/posters/2015_ISMB_RiboGalaxy.pdf'>Poster</a> </td>
   </tr>
   <tr>
-    <th rowspan=2> 13 July </th>
-    <th rowspan=2> 17:45 </th>
+    <th rowspan="2"> 13 July </th>
+    <th rowspan="2"> 17:45 </th>
     <td> <em><a href='https://www.iscb.org/cms_addon/conferences/ismbeccb2015/posterlist.php?cat=F#F12'>F12: EuGene-PP: a next-generation automated annotation pipeline for prokaryotic genomes</a></em> <div class='indent'>Erika Sallet</div> </td>
     <td> <a href='http://f1000research.com/posters/4-305'>Poster</a> </td>
   </tr>

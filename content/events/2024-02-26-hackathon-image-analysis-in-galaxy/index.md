@@ -58,7 +58,7 @@ Times to start for each day and the particular schedules are listed down below. 
 | Time | Topic |
 |---|---|
 | 10:00 | Welcome & Logistics |
-| 10:10 | Presentation of personal goals and plans for the week<br>[GDoc: Hackathon Freiburg 2024 - Planning](https://docs.google.com/document/d/1Sckc6me-6oVZlPovle-h4gWKgYCiHkendhnQK2wBOzY/edit) |
+| 10:10 | Presentation of personal goals and plans for the week<br />[GDoc: Hackathon Freiburg 2024 - Planning](https://docs.google.com/document/d/1Sckc6me-6oVZlPovle-h4gWKgYCiHkendhnQK2wBOzY/edit) |
 | 11:00 | Hacking! |
 
 **Tuesday-Thursday, February 27-29th**
@@ -71,7 +71,7 @@ Times to start for each day and the particular schedules are listed down below. 
 
 | Time | Topic |
 |---|---|
-| 9:30 | Presentations of [Hackathon outcomes (GDoc)](https://docs.google.com/presentation/d/1saZiyLmS8q4-6BH2LGjxGtpeYLIZSqgoj2tZSGmkFyU/edit#slide=id.g28c070389ad_3_766)<br>and summary writing (to be published on forum.image.sc and others) |
+| 9:30 | Presentations of [Hackathon outcomes (GDoc)](https://docs.google.com/presentation/d/1saZiyLmS8q4-6BH2LGjxGtpeYLIZSqgoj2tZSGmkFyU/edit#slide=id.g28c070389ad_3_766)<br />and summary writing (to be published on forum.image.sc and others) |
 
 # Event rules and regulations
 

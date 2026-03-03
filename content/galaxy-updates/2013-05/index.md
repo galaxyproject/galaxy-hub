@@ -1,7 +1,7 @@
 ---
 title: May 2013 Galaxy Update
 ---
-<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width="150" /></a></div>
 
 Welcome to the May 2013 *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -110,7 +110,7 @@ There are still several [sponsorships](/events/gcc2013/sponsorships/) still avai
 <div class='center'>
 <a href='http://www.iscb.org/glbio2013'><img src="/images/logos/GLBioLogo.png" alt="Great Lakes Bioinformatics Conference (GLBIO) 2013" height="50" /></a>
 <a href='/community/galaxy-admins/meetups/2013-05-15/'><img src="/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins May 2013 Meetup" height="70" /></a>
-<a href='http://bit.ly/WiNGS2013'><img src="/images/logos/WINGS.png" alt="Workshop in Next-Generation Sequence Analysis and Metabolomics" height=90 /></a>
+<a href='http://bit.ly/WiNGS2013'><img src="/images/logos/WINGS.png" alt="Workshop in Next-Generation Sequence Analysis and Metabolomics" height="90" /></a>
 
 <a href='/events/gcc2013/'><img src="/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="135px" /></a>
 </div>
@@ -148,13 +148,13 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   <tr>
     <th> May 24<br />June 19 </th>
     <td> <em><a href='http://bit.ly/17JDpcb'>Introduction to Galaxy</a></em> </td>
-    <td rowspan=1> <a href='http://bioinformatics.ucdavis.edu/'>UC Davis Bioinformatics Core</a> Davis, California, United States </td>
+    <td rowspan="1"> <a href='http://bioinformatics.ucdavis.edu/'>UC Davis Bioinformatics Core</a> Davis, California, United States </td>
     <td> <a href="mailto:najoshi AT ucdavis DOT edu">Nikhil Joshi</a> </td>
   </tr>
   <tr>
-    <th rowspan=3> May 28-31 </th>
+    <th rowspan="3"> May 28-31 </th>
     <td> <em><a href='http://www.bio-itworldasia.com/cla/'>A Genomics Virtual Lab for Cancer Research</a></em> </td>
-    <td rowspan=3> <a href='http://www.bio-itworldasia.com/'>Bio-IT World Asia</a>, Singapore </td>
+    <td rowspan="3"> <a href='http://www.bio-itworldasia.com/'>Bio-IT World Asia</a>, Singapore </td>
     <td> Dominique Gorse </td>
   </tr>
   <tr>
@@ -168,7 +168,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   <tr>
     <th> May 31<br />June 20 </th>
     <td> <em><a href='http://bit.ly/ZJXOZL'>Introduction to RNAseq</a></em> </td>
-    <td rowspan=1> <a href='http://bioinformatics.ucdavis.edu/'>UC Davis Bioinformatics Core</a> Davis, California, United States </td>
+    <td rowspan="1"> <a href='http://bioinformatics.ucdavis.edu/'>UC Davis Bioinformatics Core</a> Davis, California, United States </td>
     <td> <a href="mailto:najoshi AT ucdavis DOT edu">Nikhil Joshi</a> </td>
   </tr>
   <tr>
@@ -222,7 +222,7 @@ The most recent official distribution was on [April 1, 2013](/archive/dev-news-b
 
 ## Tool Shed Contributions
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width="150" /></a></div>
 
 * [snptools](http://bit.ly/17irtR1): Tools for functional analysis of SNPs in microbial genomes  
 * [rnbeads](http://bit.ly/11tcQV9): R-package for Illumina Infinium HumanMethylation450 BeadChip data analysis

@@ -5,7 +5,7 @@ subsites: [global, us]
 tags: [newsletter]
 ---
 <div class='right'>
-<a href='/galaxy-updates/2014-09/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a>
+<a href='/galaxy-updates/2014-09/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width="150" /></a>
 </div>
 
 Hello all,

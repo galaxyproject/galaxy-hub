@@ -105,7 +105,7 @@ and analysis accessible, reproducible, and transparent.</td>
   </tbody>
 </table>
 
-<br>
+<br />
 
 **Friday, 16.03.2018**
 
@@ -145,7 +145,7 @@ and analysis accessible, reproducible, and transparent.</td>
     </tr>
     <tr>
       <td valign="top">11:30-12:00</td>
-      <td valign="top">Quality control and analysis of large scale MALDI<br> imaging data of peptides from formalin-fixed paraffin-embedded tissues within the Galaxy environment</td>
+      <td valign="top">Quality control and analysis of large scale MALDI<br /> imaging data of peptides from formalin-fixed paraffin-embedded tissues within the Galaxy environment</td>
       <td valign="top">Melanie Föll (Freiburg, Germany)</td>
     </tr>
     <tr>

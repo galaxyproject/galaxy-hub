@@ -448,7 +448,7 @@ In a typical analysis scenario a user usually processes multiple datasets. To ma
 
 <div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/219916942?portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
-<br>
+<br />
 
 After QC'ing we move on to map the reads, process the resulting BAM datasets, and visualize coverage in a genome browser. The following figure and video detail these steps:
 
@@ -459,7 +459,7 @@ After QC'ing we move on to map the reads, process the resulting BAM datasets, an
 
 <div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/220047465?portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
-<br>
+<br />
 
 The merged BAM file can be using in a variety of downstream analyses. In this example we only used four samples represented by eight paired fastq datasets. Collection, prominently featured in this tutorial, make it easy to apply the same exact analysis logic to 100s or 1,000s of datasets.
 

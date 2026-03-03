@@ -14,7 +14,7 @@ contributions:
 More than 120 participants joined us for the first Galaxy User Conference in Freiburg. The first day has just ended and what an amazing day it was!
 
 <div class="multiple-img">
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/134305289@N03/albums/72157666749418028" title="Galaxy User Conference"><img src="https://farm5.staticflickr.com/4786/39930400815_5788c882b6.jpg" width="500" height="333" alt="Galaxy User Conference"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/134305289@N03/albums/72157666749418028" title="Galaxy User Conference"><img src="https://farm5.staticflickr.com/4786/39930400815_5788c882b6.jpg" width="500" height="333" alt="Galaxy User Conference" /></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </div>
 
 It started with a tribute from Björn to Stephen Hawkings.
@@ -34,7 +34,7 @@ Followed by several talks across diverse topics:
 At the end, Simon Gladman (from Australia) and Björn officially launched the useGalaxy.eu/.org.au!
 
 <div class="multiple-img">
-    <a data-flickr-embed="true"  href="https://www.flickr.com/photos/134305289@N03/39931636715/in/datetaken/" title="Galaxy User Conference - Freiburg - 2018 - Day 1"><img src="https://farm5.staticflickr.com/4771/39931636715_2f6af569f6.jpg" width="500" height="333" alt="Galaxy User Conference - Freiburg - 2018 - Day 1"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+    <a data-flickr-embed="true"  href="https://www.flickr.com/photos/134305289@N03/39931636715/in/datetaken/" title="Galaxy User Conference - Freiburg - 2018 - Day 1"><img src="https://farm5.staticflickr.com/4771/39931636715_2f6af569f6.jpg" width="500" height="333" alt="Galaxy User Conference - Freiburg - 2018 - Day 1" /></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </div>
 
 For more information about what are the implication of useGalaxy.eu launch, you can check our [post explaining the details](/news/2018-03-15-usegalaxy-eu/)

@@ -29,9 +29,9 @@ Here is a picture of the smiling workshop participants - myself included, back r
 
 <img src="/assets/media/unesp.jpg" width="800px" alt="Training participants." />
 
-Giovanni Widmer<br>
-Professor<br>
-Cummings School of Veterinary Medicine<br>
-Tufts University<br>
-North Grafton, Massachusetts<br>
+Giovanni Widmer<br />
+Professor<br />
+Cummings School of Veterinary Medicine<br />
+Tufts University<br />
+North Grafton, Massachusetts<br />
 

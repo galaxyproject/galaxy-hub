@@ -210,9 +210,9 @@ tower, Brno underground, Cathedral of Saints Peter and Paul, and the Brno Zoo.
 The card is also offers free ticket on city transportation.
 
 <p align="center">
-  <img alt="Castle" src="/images/events/gcc2024/spilberk.jpg" width="45%">
+  <img alt="Castle" src="/images/events/gcc2024/spilberk.jpg" width="45%" />
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Market square" src="/images/events/gcc2024/zelniak.jpg" width="45%">
+  <img alt="Market square" src="/images/events/gcc2024/zelniak.jpg" width="45%" />
 </p>
 
 [Vila Tugendhat](https://en.wikipedia.org/wiki/Villa_Tugendhat) was built in

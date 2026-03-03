@@ -17,7 +17,7 @@ The ERGA Assembly Report (EAR) is a community-developed Genome Assembly QC docum
 
 <div align="center">
 <a href="https://usegalaxy.eu/root?tool_id=make_ear"><button type="button" class="btn btn-primary btn-lg">Check ERGA Assembly Reporting Tool in Galaxy</button></a>
-</div><br>
+</div><br />
 
 ![A graphical representation of ERGA Assembly Reporting tool in a Galaxy workflow and resultant output PDF report](EAR.png)
 

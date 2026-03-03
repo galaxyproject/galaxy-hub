@@ -10,8 +10,8 @@ But we cannot always meet capacity, so we've put all of our training materials o
 
 Topics include: variant analysis, transcriptomics, metagenomics, epigenetics, and many more!
 
-[Visit the Training Material](https://training.galaxyproject.org){: .btn .btn-secondary .trim-p style="margin-right: 5px"}
-[View Publication](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6296361/){: .btn .btn-secondary .trim-p}
+<a href="https://training.galaxyproject.org" class="btn btn-secondary trim-p" style="margin-right: 5px">Visit the Training Material</a>
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6296361/" class="btn btn-secondary trim-p">View Publication</a>
 
 </div>
 <div class="col-sm-6 img-sizer" style="height: 270px">

@@ -19,17 +19,17 @@ The first block of the course covers genome sequencing, assembly, and comparativ
 
 Like everyone else, for the 2020 course presentation we were challenged by the global coronavirus pandemic. In particular, we could not run our usual face-to-face Galaxy workshop in the on-campus computer labs. We were also looking to move on in some way from our on-site teaching hardware, which struggled under the load of an entire class assembling their reads in the previous year’s presentation. We aim to be relevant and timely in our teaching so, for this year’s course, we were asking the students to assemble and annotate the [Wuhan SARS-CoV-2 isolate](https://doi.org/10.1038/s41586-020-2008-3), and compare it with a 2003 SARS isolate, and a more recent [Dutch SARS-CoV-2 isolate](https://doi.org/10.1038/s41591-020-0997-y).
 
-<br>
+<br />
 
 ![Slide from the workshop guide, comparing SARS-CoV-2 mapping to a SARS genome](/assets/media/tiaas/leighton1.jpg)
 *Slide from the workshop guide, comparing SARS-CoV-2 mapping to a SARS genome*
 
-<br>
+<br />
 
 ![JBrowse view of Dutch nanopore reads mapped to the Prokka-annotated assembly of the Wuhan SARS-CoV-2 genome](/assets/media/tiaas/leighton2.jpg)
 *JBrowse view of Dutch nanopore reads mapped to the Prokka-annotated assembly of the Wuhan SARS-CoV-2 genome. Coverage chart & variants at the top – note the characteristic pattern caused by overlaps of the amplicons and the SNP in the Spike. Annotation track is the GFF file from Prokka, bottom window shows the individual reads.*
 
-<br>
+<br />
 
 We needed to find a way to deliver this course so that ≈50 geographically-separated students and course tutors could simultaneously work in a stable environment with minimal queuing and hardware issues, so that we could focus on teaching, rather than administration of the computing resource. We also needed to account for a certain amount of asynchronous participation, so that we could test the materials, and allow for students with other time pressures due to lockdown to progress through the material in their own time.
 

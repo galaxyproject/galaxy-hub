@@ -29,7 +29,7 @@ To minimize travelling (and yes, we recommend taking a train :-) ), we are **co-
 
 </div>
 
-<br>
+<br />
 
 [//]: # "- [**EuroScienceGateway General Assembly (ESG GA)**](/events/2023-10-egd/esg/)"
 
@@ -39,7 +39,7 @@ To minimize travelling (and yes, we recommend taking a train :-) ), we are **co-
 - The **[EuroScienceGateway](/projects/esg/) [General Assembly (ESG GA)](/events/2023-10-egd/esg/)**,
 - The **[European Galaxy Days (EGD)](/events/2023-10-egd/egd/)** themselves.
 
-<br><br>
+<br /><br />
 
 # Contributing
 
@@ -61,7 +61,7 @@ The organizers will contact you for further clarification.
   <a class="btn w-25 btn-dark" href="https://docs.google.com/forms/d/1Lgwe6Hy-GgcpVUYi7u6uvyGJuZlueXYpWiK0RwgTGec" role="button" target="_blank">Register now</a>
 </div>
 
-<br><br>
+<br /><br />
 
 # Schedule
 Updates as of September 29th - for a more detailed schedule now check out the [EGD subpage](/events/2023-10-egd/egd/).
@@ -69,23 +69,23 @@ Updates as of September 29th - for a more detailed schedule now check out the [E
   <tbody>
     <tr class="lead text-center" style="background-color: lightgray;">
       <th style="border: 3px solid white;"></th>
-      <th colspan=2 style="border: 3px solid white;">October 4</th>
-      <th colspan=2 style="border: 3px solid white;">October 5</th>
-      <th colspan=2 style="border: 3px solid white;">October 6</th>
+      <th colspan="2" style="border: 3px solid white;">October 4</th>
+      <th colspan="2" style="border: 3px solid white;">October 5</th>
+      <th colspan="2" style="border: 3px solid white;">October 6</th>
     </tr>
     <tr class="text-center" style="background-color: #EEEEEE; border: 3px solid white">
       <th style="border: 3px solid white;">Time</th>
-      <th colspan=2 style="max-width: 18%; border: 3px solid white;">Wed</th>
-      <th colspan=2 style="max-width: 18%; border: 3px solid white;">Thu</th>
-      <th colspan=2 style="max-width: 18%; border: 3px solid white;">Fri</th>
+      <th colspan="2" style="max-width: 18%; border: 3px solid white;">Wed</th>
+      <th colspan="2" style="max-width: 18%; border: 3px solid white;">Thu</th>
+      <th colspan="2" style="max-width: 18%; border: 3px solid white;">Fri</th>
     </tr>
     <tr class="text-center">
-      <th style="border: 3px solid white; vertical-align: middle;">9:00<br> - <br>13:00</th>
+      <th style="border: 3px solid white; vertical-align: middle;">9:00<br /> - <br />13:00</th>
       <td colspan="2" style="background-color: #78C7C7; border: 3px solid white;"><strong><a href="/events/2023-10-egd/egd/">European Galaxy Days</a></strong>
-        <br><small>Arrival and Welcome<br>Community update talks</small>
+        <br /><small>Arrival and Welcome<br />Community update talks</small>
       </td>
       <td colspan="2" style="background-color: #78C7C7; border: 3px solid white;"><strong><a href="/events/2023-10-egd/egd/">European Galaxy Days</a></strong>
-        <br><br><small>New developments talks</small>
+        <br /><br /><small>New developments talks</small>
       </td>
       <td style="background-color: #87CEFA; border: 3px solid white;"><strong>EGD Co-Fest</strong>
       </td>
@@ -93,19 +93,19 @@ Updates as of September 29th - for a more detailed schedule now check out the [E
       </td>
     </tr>
     <tr class="text-center">
-      <th style="border: 3px solid white; vertical-align: middle;">13:00<br> - <br>14:30</th>
+      <th style="border: 3px solid white; vertical-align: middle;">13:00<br /> - <br />14:30</th>
       <td colspan="6" style="background-color: #EEEEEE;">
         <strong>Lunch Break</strong>
       </td>
     </tr>
     <tr class="text-center">
-      <th style="border: 3px solid white; vertical-align: middle;">14:30<br> - <br>16:00</th>
+      <th style="border: 3px solid white; vertical-align: middle;">14:30<br /> - <br />16:00</th>
       <td colspan="2" style="background-color: #FBB117; border: 3px solid white;">
         <strong><a href="/events/2023-10-egd/egd/#wednesday-october-4">ELIXIR Galaxy Community</a></strong>
-        <br><br><small>One talk describing the ELIXIR Galaxy Community and additional talks highlighting interactions with other ELIXIR communities/platforms/focus groups</small>
+        <br /><br /><small>One talk describing the ELIXIR Galaxy Community and additional talks highlighting interactions with other ELIXIR communities/platforms/focus groups</small>
       </td>
       <td colspan="2" style="background-color: #78C7C7; border: 3px solid white;"><strong><a href="/events/2023-10-egd/egd/">EGD meets ESG</a></strong>
-        <br><br><small>Several talks to get to know each other</small>
+        <br /><br /><small>Several talks to get to know each other</small>
       </td>
       <td style="background-color: #87CEFA; border: 3px solid white;"><strong>EGD Co-Fest</strong>
       </td>
@@ -113,12 +113,12 @@ Updates as of September 29th - for a more detailed schedule now check out the [E
       </td>
     </tr>
     <tr class="text-center">
-      <th style="border: 3px solid white; vertical-align: middle;">16:30<br> - <br>17:30</th>
+      <th style="border: 3px solid white; vertical-align: middle;">16:30<br /> - <br />17:30</th>
       <td colspan="2" style="background-color: #78C7C7; border: 3px solid white;">
-        <strong>Birds of a Feather meetings (BoFs)<br><br><small>Session 1</small></strong>
+        <strong>Birds of a Feather meetings (BoFs)<br /><br /><small>Session 1</small></strong>
       </td>
       <td colspan="2" style="background-color: #78C7C7; border: 3px solid white;">
-        <strong>Birds of a Feather meetings (BoFs)<br><br><small>Session 2</small></strong>
+        <strong>Birds of a Feather meetings (BoFs)<br /><br /><small>Session 2</small></strong>
       </td>
       <td style="background-color: #87CEFA; border: 3px solid white;"><strong>EGD Co-Fest</strong>
       </td>
@@ -130,19 +130,19 @@ Updates as of September 29th - for a more detailed schedule now check out the [E
 
 (Coffee breaks included, for sure.)
 
-<br><br>
+<br /><br />
 
 # Venue
 
 <img class="float-right" src="https://www.informatik.uni-freiburg.de/data/intern/bilder/1756.jpg" />
-<br><br>
+<br /><br />
 Albert-Ludwigs-University Freiburg<br />
 Institute for Informatics<br />
 Georges-Köhler-Allee, 101<br />
 79110 Freiburg<br />
 Germany
 
-<br><br>
+<br /><br />
 
 # Logistics
 
@@ -177,7 +177,7 @@ If you book before September 21st 2023, we can offer you a special rate for two 
 <div class="row justify-content-center">
   <a class="btn w-25 btn-dark" href="https://tportal.toubiz.de/freiburgKongresse/ukv/?doSearch=1&ukv_result_order=1&number_adult=1&rate=FIT00020071573930301&date_from=03.10.2023&date_to=06.10.2023&reset=1&globalReset=1&lang=en" role="button" target="_blank">Special rate hotel booking</a>
 </div>
-<br>
+<br />
 
 Apart from simply using any hotel booking portal of your choice, we can recommend the following accommodations, grouped by city area.
 

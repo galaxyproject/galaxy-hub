@@ -36,7 +36,7 @@ The **European Galaxy Days** will be held from the 4th to 7th October 2022 in Fr
 |               | Alireza Heidari | [New multi-history view](https://docs.google.com/presentation/d/1egeOqDLP6Xjl-uC35HrVDlUxQJT4rJnbK_pPpsV93_k/edit#slide=id.p) | 10' |
 |               | Sveinung	Gundersen | [Interactive Client Tools and Galaxy ProTo 2.0 Redux: empowering researchers to implement a GUI alongside methodology by using Galaxy as an IDE](/media/egd2022/Galaxy_ProTo_2.0_Redux.pdf) | 20' |
 
-<br><br>
+<br /><br />
 ### Wednesday, October 5
 
 **Location**: Building 101, room 00-026

@@ -29,7 +29,7 @@ FAIR workflows will be promoted as scholarly objects in scientific publishing, w
 
 By collaborating with the [FAIR-IMPACT](https://fair-impact.eu/) project, both the WorkflowHub and Workflow Digital Objects, will be further aligned with its PID, metadata schema frameworks and workflow citation practices.
 
-* WP2 introduction slides: <https://doi.org/10.5281/zenodo.7152762>
+* WP2 introduction slides: [https://doi.org/10.5281/zenodo.7152762](https://doi.org/10.5281/zenodo.7152762)
 
 #### WP2 Objectives and tasks
 

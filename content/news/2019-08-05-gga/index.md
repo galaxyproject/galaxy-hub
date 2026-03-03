@@ -112,25 +112,25 @@ The Circos tool is in final polishing, we will integrate it into training and an
 * Phobius: combined transmembrane topology and signal peptide predictor
 * TMHMM: Prediction of transmembrane helices in proteins
 
-[Try InterProScan in Galaxy!](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/interproscan5/interproscan/5.0.0){:target="top"}
+<a href="https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/interproscan5/interproscan/5.0.0" target="top">Try InterProScan in Galaxy!</a>
 
 ### MAKER
 
 [MAKER](http://www.yandell-lab.org/software/maker.html) is a portable and easily configurable genome annotation pipeline. Its purpose is to allow smaller eukaryotic and prokaryotic genome projects to independently annotate their genomes and to create genome databases. MAKER identifies repeats, aligns ESTs and proteins to a genome, produces ab-initio gene predictions and automatically synthesizes these data into gene annotations having evidence-based quality values. MAKER is also easily trainable: outputs of preliminary runs can be used to automatically retrain its gene prediction algorithm, producing higher quality gene-models on seusequent runs. MAKER's inputs are minimal and its ouputs can be directly loaded into a GMOD database. They can also be viewed in the Apollo genome browser; this feature of MAKER provides an easy means to annotate, view and edit individual contigs and BACs without the overhead of a database. MAKER should prove especially useful for emerging model organism projects with minimal bioinformatics expertise and computer resources.
-[Try MAKER in Galaxy!](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/maker/maker/2.31.10){:target="top"}
+<a href="https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/maker/maker/2.31.10" target="top">Try MAKER in Galaxy!</a>
 
 ### Prokka
 
 [Prokka](https://github.com/tseemann/prokka) is a software tool to rapidly annotate bacterial, archaeal and viral genomes,
 and produce output files that require only minor tweaking to submit to GenBank/ENA/DDBJ.
-[Try Prokka in Galaxy!](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/crs4/prokka/prokka/1.13){:target="top"}
+<a href="https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/crs4/prokka/prokka/1.13" target="top">Try Prokka in Galaxy!</a>
 
 ### JBrowse
 
 [JBrowse](https://jbrowse.org/) is a fast, embeddable genome browser built completely with JavaScript and HTML5.
 
 ![JBrowse](/assets/media/jbrowse.png)
-[Try JBrowse in Galaxy!](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.5+galaxy3){:target="top"}
+<a href="https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.5+galaxy3" target="top">Try JBrowse in Galaxy!</a>
 
 ## Functional and Structural Annotation
 

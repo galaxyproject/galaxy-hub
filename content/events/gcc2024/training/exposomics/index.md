@@ -17,7 +17,7 @@ Participants will learn the conceptual steps of the underlying tools and how to 
 ## Meet the Instructor
 
 ### Helge Hecht
-Mararyk University <br>
+Mararyk University <br />
 
 I'm part of the RECETOX Research Infrastructure and my PhD is focusing on mass spectrometry data processing with Galaxy.
 I'm involved in the ELIXIR Galaxy community and the Galaxy for Mass Spectrometry community.

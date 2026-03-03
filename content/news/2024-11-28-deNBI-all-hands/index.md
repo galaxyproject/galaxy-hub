@@ -29,4 +29,4 @@ For more details, the complete agenda of the All Hands Meeting can be found [her
 
 The Team had a good time in Berlin and nice interactions with other German Bioinformatic researchers!
 
-<img src="group.jpeg" alt="Group" width="500">
+<img src="group.jpeg" alt="Group" width="500" />

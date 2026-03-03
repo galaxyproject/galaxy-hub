@@ -5,7 +5,7 @@ title: Galaxy @ Caltech March 5, 2013
 
 <table>
   <tr>
-    <td colspan=3 style=" text-align: center; border: none;"> <a href='http://caltech.edu/'><img src="/images/logos/CaltechLogoWTextBig.png" alt="California Institute of Technology" width="400" /></a> </td>
+    <td colspan="3" style=" text-align: center; border: none;"> <a href='http://caltech.edu/'><img src="/images/logos/CaltechLogoWTextBig.png" alt="California Institute of Technology" width="400" /></a> </td>
   </tr>
 </table>
 

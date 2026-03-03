@@ -63,6 +63,6 @@ Overall, the study's findings shed light on the genetic basis of peptide toxin p
 
 The Galaxy Project extends its appreciation to the researchers for using Galaxy in their study, demonstrating the platform's versatility and effectiveness in advancing scientific research.
 
----<br><be>
+---<br /><be>
 
 Jacobsson E, Strömstedt AA, Andersson HS, Avila C, Göransson U. Peptide Toxins from Antarctica: The Nemertean Predator and Scavenger Parborlasia corrugatus (McIntosh, 1876). Toxins. 2024; 16(5):209. https://doi.org/10.3390/toxins16050209

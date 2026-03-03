@@ -34,7 +34,7 @@ The second session will present some of the data resources used to deposit and a
 - Analysis resources
 - Interoperability
 
-[Registration](https://us02web.zoom.us/webinar/register/WN_RVlDaaZiTu-CPtiVxlmsCQ){:target="_blank"}
+<a href="https://us02web.zoom.us/webinar/register/WN_RVlDaaZiTu-CPtiVxlmsCQ" target="_blank">Registration</a>
 
 #### Speakers
 

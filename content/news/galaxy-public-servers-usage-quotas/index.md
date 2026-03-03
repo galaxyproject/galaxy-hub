@@ -7,7 +7,7 @@ User data and job [quota limits](/test/#quotas) are now implemented at the publi
 
 <table>
   <tr>
-    <th colspan=2> Quotas on Test </th>
+    <th colspan="2"> Quotas on Test </th>
   </tr>
   <tr>
     <th> Maximum total user data on server: </th>
@@ -26,7 +26,7 @@ While [no quotas](/main/#quotas) are currently implemented at the public Galaxy 
 
 <table>
   <tr>
-    <th colspan=2> Guidelines on Main </th>
+    <th colspan="2"> Guidelines on Main </th>
   </tr>
   <tr>
     <th> User data on server: </th>

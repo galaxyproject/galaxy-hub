@@ -1,7 +1,6 @@
 ---
 title: "Major Galaxy Europe Efficiency Boost - Mensa next to the Galaxy Europe Office Opens after 5 years!"
 tags: [news]
-layout: news
 date: "2025-04-07"
 tease: "Work condition improvement and efficiency boost due to renovated university infrastructure at Galaxy Europe"
 subsites: [eu]

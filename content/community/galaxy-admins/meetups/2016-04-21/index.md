@@ -10,8 +10,8 @@
   <tr>
     <th> Date </th>
     <td> 21 April 2016 </td>
-    <td rowspan=4 style=" border: none;"> </td>
-    <td rowspan=4 style=" border: none;"> </td>
+    <td rowspan="4" style=" border: none;"> </td>
+    <td rowspan="4" style=" border: none;"> </td>
   </tr>
   <tr>
     <th> Time </th>

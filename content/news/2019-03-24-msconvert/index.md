@@ -13,7 +13,7 @@ contributions:
     - elixir-europe
 ---
 
-[msconvert](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.19052.0){:target="_blank"} is a tool to
+<a href="https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.19052.0" target="_blank">msconvert</a> is a tool to
 convert mass spectrometry data file formats.
 
 A list of supported file formats is given below:
@@ -36,7 +36,7 @@ This tool is special in multiple ways. At first its one of the few tools that on
 [Wine](https://www.winehq.org/) and [Proteowizard](http://www.proteowizard.org/). This is because many of the underlying libraries do need a Windows runtime environment
 and Matt found a way to make this available in a Container so Galaxy Europe and all others can use it on there Cloud systems.
 
-Because [msconvert](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.19052.0){:target="_blank"} is part of
+Because <a href="https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.19052.0" target="_blank">msconvert</a> is part of
 [Proteowizard](http://www.proteowizard.org/) you need to agree with the [vendor licenses](http://www.proteowizard.org/licenses.html) before you can use this tool.
 
 

@@ -1,6 +1,5 @@
 ---
 title: The Galactic Blog
-layout: blog_index.pug
 ---
 
 <img class="img-fluid float-right" style="width:180px;" src="/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" />

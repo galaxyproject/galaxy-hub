@@ -7,8 +7,8 @@ date: 2012-12-20
 
 <table>
   <tr>
-    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width=70 /></a> &nbsp;&nbsp; </td>
-    <td colspan=2 style=" border: none;"> <strong><a href='http://getgalaxy.org'>getgalaxy.org</a></strong> </td>
+    <td rowspan="3" style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width="70" /></a> &nbsp;&nbsp; </td>
+    <td colspan="2" style=" border: none;"> <strong><a href='http://getgalaxy.org'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
     <td style=" border: none;"> <strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a></strong> </td>
@@ -95,11 +95,11 @@ It is important to note that *only the most **specific match** will be used if t
 
 **Bowtie2**
 <br />
-<img src="/images/news-graphics/2012_12_20_ngs-mapping-bowtie2.png" alt="Bowtie2" width=600 />
+<img src="/images/news-graphics/2012_12_20_ngs-mapping-bowtie2.png" alt="Bowtie2" width="600" />
 
 **RNA-Seq Tool Suite** with updated tools highlighted
 <br />
-<img src="/images/news-graphics/2012_12_20_ngs-rna-analysis-toolsuite.png" alt="RNA-Seq" width=300 />
+<img src="/images/news-graphics/2012_12_20_ngs-rna-analysis-toolsuite.png" alt="RNA-Seq" width="300" />
 
 <br />
 # Visualization

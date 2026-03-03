@@ -12,7 +12,7 @@ title: 'James Peter Taylor | 1979 - 2020'
 
 ---
 
-<img src="/jxtx/i-love-you-so-much.jpg" class="float-right figure-img img-fluid rounded" style="max-width: 30rem;" alt="We miss you James.">
+<img src="/jxtx/i-love-you-so-much.jpg" class="float-right figure-img img-fluid rounded" style="max-width: 30rem;" alt="We miss you James." />
 
 ## Community
 
