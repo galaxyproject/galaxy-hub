@@ -4,7 +4,7 @@ date: "2015-01-05"
 subsites: [global, us]
 ---
 <div class='right'>
-<a href='/galaxy-updates/2015-01/'><img src="/images/logos/GalaxyUpdate200.png" alt="January 2015 Newsletter" width=150 /></a>
+<a href='/galaxy-updates/2015-01/'><img src="/images/logos/GalaxyUpdate200.png" alt="January 2015 Newsletter" width="150" /></a>
 </div>
 
 Happy New Year from the Galaxy Project!

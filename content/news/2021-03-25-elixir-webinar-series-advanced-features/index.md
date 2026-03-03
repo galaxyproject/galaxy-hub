@@ -20,25 +20,25 @@ In the first webinar, Marius van den Beek and Aysam Guerler explained all sort o
 
 <iframe width="660" height="415" src="https://www.youtube.com/embed/7atWvOoMQwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<br>
+<br />
 
 The second session was run by Wolfgang Maier and Anton Nekrutenko. They guided us through the process of importing massive data from SRA/ENA and processing it making use of collections.
 
 <iframe width="660" height="415" src="https://www.youtube.com/embed/7DN8hbI87PE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<br>
+<br />
 
 For the third webinar, Daniel Blankenberg, Bérénice Batut and Helena Rasche prepared a showcase of the bridge between Jupyter notebooks, RStudio and Galaxy workflows.
 
 <iframe width="660" height="415" src="https://www.youtube.com/embed/eEpuA5oltrA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<br>
+<br />
 
 And the fourth webinar, led by Jennifer Hillman-Jackson and Anika Erxleben, addressed all the user preference options, explored all the possibilities for data sharing in project collaborations, and error debugging whenever an issue running a tool arises.
 
 <iframe width="660" height="415" src="https://www.youtube.com/embed/IUCgUHCixxc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<br>
+<br />
 
 The strong attendance and YouTube access to these webinars show the interest they generated in the Galaxy community. We would like to thank all the speakers for this wonderful series, and to the ELIXIR Hub technical team for the support. We hope you can enjoy the recordings and we will be happy to organize another such webinar series at a later stage.
 

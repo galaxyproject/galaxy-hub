@@ -35,10 +35,10 @@ The **European Galaxy Days** will be held from the 4th to 6th October 2023 in Fr
 | Title |  Organizer(s) |  Abstract  |
 | ----- |  ------------ |  --------  |
 | Small-scale Admins Gathering | Lucille Delisle | Hosting your own Galaxy instance, for a small number of people (or even just yourself)? Welcome to the Galaxy Small Scale Galaxy Admins, a [community of practice](https://galaxyproject.org/community/#communities-of-practice) group. Having grown out of the "Small Scale Servers" subcommittee of the [Global Galaxy Steering Committee](https://galaxyproject.org/community/steering/), our meetings are taking place every two months. This time, we happily meet face to face. Join and share your experiences! |
-| microGalaxy Meeting |  Paul Zierep | Many efforts on microbial analysis are done in Galaxy. To avoid redundancy and coordinate our efforts, we started [microGalaxy](https://galaxyproject.org/projects/microbial/#microgalaxy-community), a community focusing on microbial analysis with Galaxy. Whether you are analysing microbiome samples or bacterial isolates, long reads or short, shotgun or 16S, genomics transcriptomics or proteomics, this is the place to be!<br>We organize quarterly community meetings. What’s a better occasion than EGD and a BoF for our next meeting? Anyone interested is welcome to join. |
+| microGalaxy Meeting |  Paul Zierep | Many efforts on microbial analysis are done in Galaxy. To avoid redundancy and coordinate our efforts, we started [microGalaxy](https://galaxyproject.org/projects/microbial/#microgalaxy-community), a community focusing on microbial analysis with Galaxy. Whether you are analysing microbiome samples or bacterial isolates, long reads or short, shotgun or 16S, genomics transcriptomics or proteomics, this is the place to be!<br />We organize quarterly community meetings. What’s a better occasion than EGD and a BoF for our next meeting? Anyone interested is welcome to join. |
 
 
-<br><br>
+<br /><br />
 ### Thursday, October 5
 
 **Location**: Building 101, room XXX

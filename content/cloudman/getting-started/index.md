@@ -27,10 +27,10 @@ cloud.
 *S3FullAccess*. After reviewing the configuration, create the user. Once created, make a note of and download the API access credentials. Keep these credentials safe because they are all that is required to use your cloud account.
 
 <div class='center'>
-<a href='/cloudman/getting-started/iam1.png'><img src="/cloudman/getting-started/iam1.png" alt="" width=200 /></a>
-<a href='/cloudman/getting-started/iam2.png'><img src="/cloudman/getting-started/iam2.png" alt="" width=200 /></a>
-<a href='/cloudman/getting-started/iam3.png'><img src="/cloudman/getting-started/iam3.png" alt="" width=200 /></a>
-<a href='/cloudman/getting-started/iam4.png'><img src="/cloudman/getting-started/iam4.png" alt="" width=200 /></a>
+<a href='/cloudman/getting-started/iam1.png'><img src="/cloudman/getting-started/iam1.png" alt="" width="200" /></a>
+<a href='/cloudman/getting-started/iam2.png'><img src="/cloudman/getting-started/iam2.png" alt="" width="200" /></a>
+<a href='/cloudman/getting-started/iam3.png'><img src="/cloudman/getting-started/iam3.png" alt="" width="200" /></a>
+<a href='/cloudman/getting-started/iam4.png'><img src="/cloudman/getting-started/iam4.png" alt="" width="200" /></a>
 </div>
 
 ### Jetstream cloud
@@ -56,9 +56,9 @@ access to your basic profile information. Note that each provider will create a
 separate account on CloudLaunch so remember which provider you use.
 
     <div class='center'>
-    <a href='/cloudman/getting-started/cloudlaunch-login.png'><img src="/cloudman/getting-started/cloudlaunch-login.png" alt="" width=200 /></a>
-    <a href='/cloudman/getting-started/twitter-login.png'><img src="/cloudman/getting-started/twitter-login.png" alt="" width=200 /></a>
-    <a href='/cloudman/getting-started/twitter-auth.png'><img src="/cloudman/getting-started/twitter-auth.png" alt="" width=200 /></a>
+    <a href='/cloudman/getting-started/cloudlaunch-login.png'><img src="/cloudman/getting-started/cloudlaunch-login.png" alt="" width="200" /></a>
+    <a href='/cloudman/getting-started/twitter-login.png'><img src="/cloudman/getting-started/twitter-login.png" alt="" width="200" /></a>
+    <a href='/cloudman/getting-started/twitter-auth.png'><img src="/cloudman/getting-started/twitter-auth.png" alt="" width="200" /></a>
     </div>
 
 1. Once logged in, choose an appliance you would like to launch from the
@@ -79,9 +79,9 @@ name values are simply *tacc*. After supplying the credentials, click *Test and
 use these credentials, followed by clicking *Next*.
 
     <div class='center'>
-    <a href='/cloudman/getting-started/cloudlaunch-app-config-aws.png'><img src="/cloudman/getting-started/cloudlaunch-app-config-aws.png" alt="" width=200 /></a>
-    <a href='/cloudman/getting-started/cloudlaunch-app-config-js.png'><img src="/cloudman/getting-started/cloudlaunch-app-config-js.png" alt="" width=200 /></a>
-    <a href='/cloudman/getting-started/cloudlaunch-cloud-config.png'><img src="/cloudman/getting-started/cloudlaunch-cloud-config.png" alt="" width=200 /></a>
+    <a href='/cloudman/getting-started/cloudlaunch-app-config-aws.png'><img src="/cloudman/getting-started/cloudlaunch-app-config-aws.png" alt="" width="200" /></a>
+    <a href='/cloudman/getting-started/cloudlaunch-app-config-js.png'><img src="/cloudman/getting-started/cloudlaunch-app-config-js.png" alt="" width="200" /></a>
+    <a href='/cloudman/getting-started/cloudlaunch-cloud-config.png'><img src="/cloudman/getting-started/cloudlaunch-cloud-config.png" alt="" width="200" /></a>
     </div>
 
 1. Before launching, we need to give our cluster a name. A default one is
@@ -99,7 +99,7 @@ during the launch process and return to it later while the launch process will
 continue uninterrupted.
 
     <div class='center'>
-    <a href='/cloudman/getting-started/cloudlaunch-my-apps.png'><img src="/cloudman/getting-started/cloudlaunch-my-apps.png" alt="" width=200 /></a>
+    <a href='/cloudman/getting-started/cloudlaunch-my-apps.png'><img src="/cloudman/getting-started/cloudlaunch-my-apps.png" alt="" width="200" /></a>
     </div>
 
 1. [Optional] The first time you launch an appliance on a given cloud, you

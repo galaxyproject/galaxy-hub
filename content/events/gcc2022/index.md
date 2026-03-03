@@ -2,7 +2,6 @@
 title: "2022 Galaxy Community Conference (GCC2022)"
 skip_title_render: true
 autotoc: false
-components: true
 subsites: [all]
 ---
 

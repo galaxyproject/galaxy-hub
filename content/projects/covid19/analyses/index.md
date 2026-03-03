@@ -17,7 +17,7 @@ We provide two resources interpreting our results. The first is this page. Its c
 After filtering (see [Methods](#methods)) the dataset has the following characteristics:
 
 <div class="shadow-sm p-3 mb-5 bg-light rounded" align="center">
-  <vega-embed spec="https://raw.githubusercontent.com/galaxyproject/SARS-CoV-2/master/data/ipynb/graphs/high_level_stats.json"/>
+  <VegaEmbed spec="https://raw.githubusercontent.com/galaxyproject/SARS-CoV-2/master/data/ipynb/graphs/high_level_stats.json"/>
 </div>
 
 
@@ -26,7 +26,7 @@ After filtering (see [Methods](#methods)) the dataset has the following characte
 The allele frequencies have the following distribution when stratified by EFFECT types:
 
 <div class="shadow-sm p-3 mb-5 bg-light rounded" align="center">
-  <vega-embed spec="https://raw.githubusercontent.com/galaxyproject/SARS-CoV-2/master/data/ipynb/graphs/af_effect.json"/>
+  <VegaEmbed spec="https://raw.githubusercontent.com/galaxyproject/SARS-CoV-2/master/data/ipynb/graphs/af_effect.json"/>
 </div>
 
 ### Distribution of variants across genes
@@ -34,7 +34,7 @@ The allele frequencies have the following distribution when stratified by EFFECT
 The density of synonymous and non-synonymous changes across genes:
 
 <div class="shadow-sm p-3 mb-5 bg-light rounded" align="center">
-  <vega-embed spec="https://raw.githubusercontent.com/galaxyproject/SARS-CoV-2/master/data/ipynb/graphs/per_gene_density.json"/>
+  <VegaEmbed spec="https://raw.githubusercontent.com/galaxyproject/SARS-CoV-2/master/data/ipynb/graphs/per_gene_density.json"/>
 </div>
 
 ### Allele frequency distribution for individual sites
@@ -42,7 +42,7 @@ The density of synonymous and non-synonymous changes across genes:
 To view allele frequency distribution for individual sites click on a circle in the graph below:
 
 <div class="shadow-sm p-3 mb-5 bg-light rounded" align="center">
-  <vega-embed spec="https://raw.githubusercontent.com/galaxyproject/SARS-CoV-2/master/data/ipynb/graphs/genome_map_density.json"/>
+  <VegaEmbed spec="https://raw.githubusercontent.com/galaxyproject/SARS-CoV-2/master/data/ipynb/graphs/genome_map_density.json"/>
 </div>
 
 ------
@@ -52,7 +52,7 @@ To view allele frequency distribution for individual sites click on a circle in 
 The figure below shows all sets of two or more variants co-occuring in two of more samples:
 
 <div class="shadow-sm p-3 mb-5 bg-light rounded" align="center">
-  <vega-embed spec="https://raw.githubusercontent.com/galaxyproject/SARS-CoV-2/master/data/ipynb/graphs/co_occ.json"/>
+  <VegaEmbed spec="https://raw.githubusercontent.com/galaxyproject/SARS-CoV-2/master/data/ipynb/graphs/co_occ.json"/>
 </div>
 
 ------
@@ -62,7 +62,7 @@ The figure below shows all sets of two or more variants co-occuring in two of mo
 One interesting application of our data is examining the extent of intra-host variation at sites identified as [Variants of Concern](https://cov-lineages.org/index.html#global_reports). Many VOC sites have been present in SARS-CoV-2 genomes at below-consensus frequencies well before becoming fixed. As we demonstrate on our recent [virological post](https://virological.org/t/selection-analysis-identifies-significant-mutational-changes-in-omicron-that-are-likely-to-influence-both-antibody-neutralization-and-spike-function-part-1-of-2/771) the mutations occurring at the 14 Omicron *S*-gene codons which display either evidence of negative selection or no evidence of selection (neutral evolution), have rarely been seen within previously sampled sequences (see [here](https://observablehq.com/@spond/omicron-mutations-tables)) indicating the action of strong purifying selection due to functional constraints. Despite the rarity of these mutations in assembled genomes, it is not uncommon to find them in within-patient sequence datasets (Figure below), often at sub-consensus allelic frequencies. This indicates that, with the possible exceptions of S/N764K, S/N856K and S/Q954H, the mutations at these sites are not rare simply because they are unlikely to occur, but rather because whenever they do occur they are unlikely to either increase sufficiently in frequency to be transmitted, or increase sufficiently in frequency among transmitting viruses to be detected by genomic surveillance. The following figure shows this dynamics using pre-omicron data across the SARS-CoV-2 genome:
 
 <div class="shadow-sm p-3 mb-5 bg-light rounded" align="center">
-  <vega-embed spec="https://raw.githubusercontent.com/galaxyproject/SARS-CoV-2/master/data/ipynb/graphs/voc_time_progression_full_genome.json"/>
+  <VegaEmbed spec="https://raw.githubusercontent.com/galaxyproject/SARS-CoV-2/master/data/ipynb/graphs/voc_time_progression_full_genome.json"/>
 </div>
 
 ------
@@ -72,17 +72,17 @@ One interesting application of our data is examining the extent of intra-host va
 In addition to continuously analyzing [data](/projects/covid19/samples/) from several national surveillance projects we applied our [workflows](/projects/covid19/workflows/) to a unique datadset generated by Weigang et al. [2021](https://www.nature.com/articles/s41467-021-26602-3). In this dataset ampliconic and metatranscriptomic data was collected at nine time points. At several time points (days 14 and 105) in addition to ampliconic sequencing from swab specimens a cell-culture propagated isolates were also created and sequenced. The following figure shows the temporal dynamics for variants identified in these samples:
 
 <div class="shadow-sm p-3 mb-5 bg-light rounded" align="center">
-  <vega-embed spec="https://raw.githubusercontent.com/galaxyproject/SARS-CoV-2/master/data/ipynb/graphs/freiburg_chronic.json"/>
+  <VegaEmbed spec="https://raw.githubusercontent.com/galaxyproject/SARS-CoV-2/master/data/ipynb/graphs/freiburg_chronic.json"/>
 </div>
 
 -----
 
 # Methods
 
-<markdown-embed href="https://raw.githubusercontent.com/galaxyproject/SARS-CoV-2/master/data/ipynb/md/poisson_filtering.md" />
+<MarkdownEmbed href="https://raw.githubusercontent.com/galaxyproject/SARS-CoV-2/master/data/ipynb/md/poisson_filtering.md" />
 
 <div class="shadow-sm p-3 mb-5 bg-light rounded" align="center">
-  <vega-embed spec="https://raw.githubusercontent.com/galaxyproject/SARS-CoV-2/master/data/ipynb/graphs/poisson.json"/>
+  <VegaEmbed spec="https://raw.githubusercontent.com/galaxyproject/SARS-CoV-2/master/data/ipynb/graphs/poisson.json"/>
 </div> 
 
 ### The filtered set

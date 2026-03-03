@@ -10,7 +10,7 @@ title: Galactic November News!
 
 </div>
 
-<div class='left'><a href='/galaxy-updates/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="150" /></a></div>
 
 Welcome to the November 2015 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.
 
@@ -51,13 +51,13 @@ The new papers were tagged with:
   <tr>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
-    <td rowspan=4 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="4" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
   </tr>
@@ -161,7 +161,7 @@ See [the event home page for more](https://github.com/galaxyproject/tools-iuc/is
     <td style=" text-align: center; border: none;"> <a href='https://galaxyproject.org/gcc2011/'><img src="/events/GCC2011Logo400.png" alt="" width="120" /></a>&nbsp;&nbsp; <a href='/events/gcc2012/'><img src="/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" width="85" /></a>&nbsp;&nbsp;&nbsp; <a href='/events/gcc2013/'><img src="/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="100px" /></a>&nbsp;&nbsp;&nbsp; <a href='/events/gcc2014/'><img src="/images/logos/GCC2014LogoWide200.png" alt="GCC2014, June 30-July2" width="130" /></a>&nbsp;&nbsp;&nbsp; <a href='http://gcc2015.tsl.ac.uk/'><img src="/images/logos/GCC2015LogoWide600.png" alt="2015 Galaxy Community Conference (GCC2015)" width="100" /></a> &nbsp;&nbsp; <a href='http://galaxyproject.org/GCC2016'><img src="/events/gcc2016/GCC2016LogoFull_big.png" alt="2016 Galaxy Community Conference (GCC2016)" width="110px" /></a> </td>
   </tr>
   <tr>
-    <td colspan=6 style=" text-align: center; border: none;"> <div class='solid red'> <span style="font-size: larger;"> <strong>GCC2017 needs a host!</strong><br /></span> <span style="font-size: smaller;">(and a logo)</span> </td>
+    <td colspan="6" style=" text-align: center; border: none;"> <div class='solid red'> <span style="font-size: larger;"> <strong>GCC2017 needs a host!</strong><br /></span> <span style="font-size: smaller;">(and a logo)</span> </td>
   </tr>
 </table>
 
@@ -202,9 +202,9 @@ There are [upcoming events](/events/) on 3 continents in 4 countries, *and a ver
     <th> Contact </th>
   </tr>
   <tr>
-    <th rowspan=3> November 3 </th>
+    <th rowspan="3"> November 3 </th>
     <td> <em><a href='http://www.festivalofgenomicscalifornia.com/workshops/galaxy-for-the-analysis-of-very-large-biomedical-data/'>Galaxy for the Analysis of Very Large Biomedical Data Workshop</a></em> </td>
-    <td rowspan=3> <img src='/images/icons/NA.png' alt='North America' align='right' /> <a href='http://www.festivalofgenomicscalifornia.com/'>Festival of Genomics California</a>, San Mateo, California, United States </td>
+    <td rowspan="3"> <img src='/images/icons/NA.png' alt='North America' align='right' /> <a href='http://www.festivalofgenomicscalifornia.com/'>Festival of Genomics California</a>, San Mateo, California, United States </td>
     <td> <a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/people/dan/'>Dan Blankenberg</a>, <a href='/people/john-chilton/'>John Chilton</a> </td>
   </tr>
   <tr>
@@ -236,8 +236,8 @@ There are [upcoming events](/events/) on 3 continents in 4 countries, *and a ver
   <tr>
     <th> November 18 </th>
     <td> Hackathon Galaxy 2015 <div class='indent'><a href='http://www.france-bioinformatique.fr/?q=fr/galaxy-2/Hackathon_18nov'>Register here</a></div> </td>
-    <td rowspan=2> <img src='/images/icons/EU.png' alt='Europe' align='right' /> <a href='http://www.pasteur.fr/'>Institut Pasteur</a>, Paris, France </td>
-    <td rowspan=2> <a href="mailto:gtgalaxy@groupes.france-bioinformatique.fr">Email</a> </td>
+    <td rowspan="2"> <img src='/images/icons/EU.png' alt='Europe' align='right' /> <a href='http://www.pasteur.fr/'>Institut Pasteur</a>, Paris, France </td>
+    <td rowspan="2"> <a href="mailto:gtgalaxy@groupes.france-bioinformatique.fr">Email</a> </td>
   </tr>
   <tr>
     <th> November 19 </th>
@@ -251,13 +251,13 @@ There are [upcoming events](/events/) on 3 continents in 4 countries, *and a ver
   </tr>
   <tr>
     <th> </th>
-    <td colspan=3 style=" background-color: #eef;"> </td>
+    <td colspan="3" style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> December 3 </th>
     <td> <em><a href='http://www.bioplatforms.com/rna-seq-using-galaxy-dec15/'>RNA-Seq Analysis Using Galaxy</a></em> </td>
-    <td rowspan=2> <img src='/images/icons/AU.png' alt='Australia' align='right' /> University of Newcastle, Newcastle, NSW, Australia </td>
-    <td rowspan=2> <a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> Mark Crowe, <a href="mailto:kchamp@bioplatforms.com">Katherine Champ</a> </td>
+    <td rowspan="2"> <img src='/images/icons/AU.png' alt='Australia' align='right' /> University of Newcastle, Newcastle, NSW, Australia </td>
+    <td rowspan="2"> <a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> Mark Crowe, <a href="mailto:kchamp@bioplatforms.com">Katherine Champ</a> </td>
   </tr>
   <tr>
     <th> December 4 </th>
@@ -271,7 +271,7 @@ There are [upcoming events](/events/) on 3 continents in 4 countries, *and a ver
   </tr>
   <tr>
     <td> </td>
-    <td colspan=4 style=" background-color: #eef; text-align: center;"> <strong>2016</strong> </td>
+    <td colspan="4" style=" background-color: #eef; text-align: center;"> <strong>2016</strong> </td>
   </tr>
   <tr>
     <th> January 8 </th>
@@ -280,9 +280,9 @@ There are [upcoming events](/events/) on 3 continents in 4 countries, *and a ver
     <td> <a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='https://sols.asu.edu/people/nico-franz'>Nico Franz</a>, <a href='https://sols.asu.edu/people/melissa-wilson-sayres'>Melissa A. Wilson Sayres</a>, <a href='/people/anton/'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
-    <th rowspan=2> January 9-13 </th>
+    <th rowspan="2"> January 9-13 </th>
     <td> <em><a href='https://pag.confex.com/pag/xxiv/webprogram/Paper19738.html'>TreeGenes: Enabling visualization and analysis in forest tree genomics</a></em> </td>
-    <td rowspan=2> <img src='/images/icons/NA.png' alt='North America' align='right' /> <a href='http://www.intlpag.org/'>Plant and Animal Genome (PAG XXIV)</a>, San Diego, California, United States </td>
+    <td rowspan="2"> <img src='/images/icons/NA.png' alt='North America' align='right' /> <a href='http://www.intlpag.org/'>Plant and Animal Genome (PAG XXIV)</a>, San Diego, California, United States </td>
     <td> Emily Grau </td>
   </tr>
   <tr>
@@ -297,7 +297,7 @@ There are [upcoming events](/events/) on 3 continents in 4 countries, *and a ver
   </tr>
   <tr>
     <th> </th>
-    <td colspan=3 style=" background-color: #eef;"> </td>
+    <td colspan="3" style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> February 20-23 </th>
@@ -307,7 +307,7 @@ There are [upcoming events](/events/) on 3 continents in 4 countries, *and a ver
   </tr>
   <tr>
     <th> </th>
-    <td colspan=3 style=" background-color: #eef;"> </td>
+    <td colspan="3" style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> June 25-29 </th>
@@ -485,7 +485,7 @@ And 2 new **[Community Log Board](/news/)** entries were added as well.  Both ar
     [Peter van Heusden](https://github.com/pvanheus/) documents tool dependencies that specify how to source the actual packages that implement a tool’s commands.
 
 ----
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width="150" /></a></div>
 
 # ToolShed Contributions
 

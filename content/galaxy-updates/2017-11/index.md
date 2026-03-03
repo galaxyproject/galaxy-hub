@@ -1,7 +1,7 @@
 ---
 title: November 2017 Galaxy News
 ---
-[<img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/galaxy-updates/)
+[<img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="150" />](/galaxy-updates/)
 
 Welcome to the November 2017 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 

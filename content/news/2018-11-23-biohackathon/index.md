@@ -14,7 +14,7 @@ contributions:
 ELIXIR France with the support of the ELIXIR Hub and the ELIXIR interoperability platform and in collaboration with COST CHARME, the National Bioscience Database Center (NBDC) and the Database Center for Life Science (DBCLS), organized last week (November 12th - 16th, 2018) a [BioHackathon](https://bh2018paris.info/index.html) in Paris. Bérénice, Helena, Björn, and Saskia were there and represented the Galaxy Freiburg team and ERASMUS MC. The event was a total blast: 5 days in a remote area to work, code, have fun, eat and discuss with the 150 other participants from all Europe (even US)!
 
 <div class="multiple-img">
-<a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/gp/134305289@N03/r1705T" title="Biohackathon"><img src="https://farm2.staticflickr.com/1939/44960833595_a064a27d9b_z.jpg" width="640" height="427" alt="Biohackathon"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/gp/134305289@N03/r1705T" title="Biohackathon"><img src="https://farm2.staticflickr.com/1939/44960833595_a064a27d9b_z.jpg" width="640" height="427" alt="Biohackathon" /></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </div>
 
 We worked, discussed and contributed on many projects: 

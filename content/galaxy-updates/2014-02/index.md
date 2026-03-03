@@ -1,7 +1,7 @@
 ---
 title: February 2014 Galaxy Update
 ---
-<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width="150" /></a></div>
 
 Welcome to the February 2014 *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
@@ -20,13 +20,13 @@ How those papers were tagged:
   <tr>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=4 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="4" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
   </tr>
@@ -121,7 +121,7 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/events/gcc2014/sponsor-
 
 The [Galaxy Australasia Workshop](http://australianbioinformatics.net/gaw-2014) is a great opportunity for you to participate in two full days of presentations, discussions, poster sessions, keynotes and lightning talks, all about ways of using Galaxy for high-throughput biology, imaging and other scientific applications. The workshop will also include Training Sessions taught by Galaxy developers and master users.  GAW 2014 will run 24 and 25th March, immediately preceding [Computational and Simulation Sciences and eResearch](http://wp.csiro.au/css/) in Melbourne.  GAW 2014 will also include poster session, keynote speakers.
 
-<div class='left'><a href='http://mcec.com.au/'><img src="/events/gaw2014/MCC.png" alt="Melbourne Convention Centre" width=200 /></a></div>
+<div class='left'><a href='http://mcec.com.au/'><img src="/events/gaw2014/MCC.png" alt="Melbourne Convention Centre" width="200" /></a></div>
 
 [Registration is open](http://australianbioinformatics.net/gaw-2014).  Registration is also *free, but space is limited.*
 
@@ -234,8 +234,8 @@ GMOD Malaysia 2014 is made possible by the generous support of the [National Evo
   <tr>
     <th> June 10 </th>
     <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2014/module17-10juin.pdf'>Initiation à l’utilisation de Galaxy</a></em> </td>
-    <td rowspan=2> <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2014</a>, <a href='http://migale.jouy.inra.fr/'>INRA Jouy-en-Josas</a>, France </td>
-    <td rowspan=2> <a href="mailto:veronique.martin AT jouy DOT inra DOT fr">Véronique Martin</a>, <a href='http://genome.jouy.inra.fr/~schbath/'>Sophie Schbath</a> </td>
+    <td rowspan="2"> <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2014</a>, <a href='http://migale.jouy.inra.fr/'>INRA Jouy-en-Josas</a>, France </td>
+    <td rowspan="2"> <a href="mailto:veronique.martin AT jouy DOT inra DOT fr">Véronique Martin</a>, <a href='http://genome.jouy.inra.fr/~schbath/'>Sophie Schbath</a> </td>
   </tr>
   <tr>
     <th> June 11 </th>
@@ -244,8 +244,8 @@ GMOD Malaysia 2014 is made possible by the generous support of the [National Evo
   <tr>
     <th> June 16 </th>
     <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2014/module17-16juin.pdf'>Initiation à l’utilisation de Galaxy</a></em> </td>
-    <td rowspan=2> <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2014</a>, <a href='http://migale.jouy.inra.fr/'>INRA Jouy-en-Josas</a>, France </td>
-    <td rowspan=2> <a href="mailto:veronique.martin AT jouy DOT inra DOT fr">Véronique Martin</a>, <a href='http://genome.jouy.inra.fr/~schbath/'>Sophie Schbath</a> </td>
+    <td rowspan="2"> <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2014</a>, <a href='http://migale.jouy.inra.fr/'>INRA Jouy-en-Josas</a>, France </td>
+    <td rowspan="2"> <a href="mailto:veronique.martin AT jouy DOT inra DOT fr">Véronique Martin</a>, <a href='http://genome.jouy.inra.fr/~schbath/'>Sophie Schbath</a> </td>
   </tr>
   <tr>
     <th> June 17 </th>
@@ -362,7 +362,7 @@ bringing the number of log entries to 12.
 
 # ToolShed Contributions
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width="150" /></a></div>
 
 ## New Repositories in the Galaxy Project ToolShed
 

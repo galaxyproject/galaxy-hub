@@ -16,7 +16,7 @@ Rangos 490<br />
     <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://ccb.jhu.edu/'><img src="/images/logos/JohnsHopkinsCCB.png" alt="Center for Computational Biology" height="100" /></a><br /><strong><a href='http://bioinformatics.igm.jhmi.edu/salzberg/Salzberg/Salzberg_Lab_Home.html'>Salzberg Lab</a></strong> </td>
   </tr>
   <tr>
-    <td colspan=3 style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://jhmi.edu/'><img src="/images/logos/JohnsHopkins.png" alt="Johns Hopkins"  /></a> </td>
+    <td colspan="3" style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://jhmi.edu/'><img src="/images/logos/JohnsHopkins.png" alt="Johns Hopkins"  /></a> </td>
   </tr>
 </table>
 

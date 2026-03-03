@@ -24,7 +24,7 @@ This information will help ecologist in further data analysis, for example, to t
 </div>
 
 
-<br>
+<br />
 #### Crowdsourcing in science is hard
 
 Crowdsourcing in science is hard. Nevertheless, there are tremendous opportunities where we all can advance science and help our colleagues. Here we are trying to overcome the challenges by embedding the crowdsourcing tasks into Galaxy.
@@ -39,7 +39,7 @@ The work done by __you__ with this new Galaxy feature allows ecologist to extend
 and will open new ways to analyse them. For example by
 training machine learning models or taking into account new factors (here the sex of the flies) in statistical modelling.
 
-<br>
+<br />
 #### How it works and how to create new plugins of this kind
 
 The [SPIPOLL](https://www.spipoll.org) citizen science project collects images from different species, in our case from [Episyrphus balteatus](https://en.wikipedia.org/wiki/Episyrphus_balteatus), also called marmalade hoverfly. In a second step, a project manager prepares certain tasks and seeks for community contribution to help to classify the images.
@@ -55,7 +55,7 @@ This is a very simple example, with a single picture displayed as a task, but yo
 If you have a task where you need the help of thousands of researchers, talk to us and we will figure out together how we can treat your data in a similar way as our marmalade flies!
 
 
-<br>
+<br />
 #### Have a lot of fun during your research!
 
 Have much fun classifying flies and let us know if you have similar use-cases!

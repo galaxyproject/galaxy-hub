@@ -27,17 +27,17 @@ Tools can now be marked as favorites, and then they’ll be easily accessible fr
 
 The editor now provides feedback on why connections are invalid, so you aren’t left wondering why two tools won’t connect. For complex data pipelines this should greatly simplify your life!
 
-<img alt="Workflow editor connections provide feedback on why they won't connect." src="https://docs.galaxyproject.org/en/latest/_images/19.05-wf-hints.gif">
+<img alt="Workflow editor connections provide feedback on why they won't connect." src="https://docs.galaxyproject.org/en/latest/_images/19.05-wf-hints.gif" />
 
 **Data Dialog for Tool Form**
 
 There is a new way to select datasets when running tools! It is a very simple method to select any number of files from both your History and Data Libraries.
 
-<img alt="Data dialog for selecting dataset in the tool form." src="https://docs.galaxyproject.org/en/latest/_images/19.05-inputs.gif">
+<img alt="Data dialog for selecting dataset in the tool form." src="https://docs.galaxyproject.org/en/latest/_images/19.05-inputs.gif" />
 
 Additionally the selector implements a highly requested feature, the ability to run tools on arbitrary datasets from a collection
 
-<img alt="Selecting datasets from within a collection." src="https://docs.galaxyproject.org/en/latest/_images/19.05-input-collection.gif">
+<img alt="Selecting datasets from within a collection." src="https://docs.galaxyproject.org/en/latest/_images/19.05-input-collection.gif" />
 
 **History Export/Import Reworked**
 

@@ -11,56 +11,31 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import matter from 'gray-matter';
 import { glob } from 'glob';
+import {
+  classifyFunding,
+  communitySlug,
+  extractCommunityMetadata,
+  loadCommunityData,
+  buildHallOfFameEntries as buildHallOfFameEntriesFromMetadata,
+} from './search-index/community-metadata.mjs';
+import { extractText, truncate } from './search-index/text-utils.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ASTRO_ROOT = path.resolve(__dirname, '../..');
+const PROJECT_ROOT = path.resolve(ASTRO_ROOT, '..');
 const CONTENT_DIR = path.join(ASTRO_ROOT, 'src/content');
+const SOURCE_CONTENT_DIR = path.join(PROJECT_ROOT, 'content');
 const OUTPUT_PATH = path.join(ASTRO_ROOT, 'public/search-index.json');
+export { classifyFunding, extractCommunityMetadata, communitySlug };
 
-/**
- * Extract plain text from markdown content
- */
-function extractText(markdown) {
-  return (
-    markdown
-      // Remove frontmatter
-      .replace(/^---[\s\S]*?---\n?/, '')
-      // Remove HTML tags
-      .replace(/<[^>]+>/g, '')
-      // Remove markdown links, keep text
-      .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
-      // Remove markdown images
-      .replace(/!\[([^\]]*)\]\([^)]+\)/g, '')
-      // Remove bold/italic
-      .replace(/[*_]{1,3}([^*_]+)[*_]{1,3}/g, '$1')
-      // Remove code blocks
-      .replace(/```[\s\S]*?```/g, '')
-      // Remove inline code
-      .replace(/`[^`]+`/g, '')
-      // Remove headers
-      .replace(/#{1,6}\s+/g, '')
-      // Remove blockquotes
-      .replace(/^>\s+/gm, '')
-      // Remove horizontal rules
-      .replace(/^[-*_]{3,}\s*$/gm, '')
-      // Normalize whitespace
-      .replace(/\s+/g, ' ')
-      .trim()
-  );
-}
-
-/**
- * Truncate text to a maximum length
- */
-function truncate(text, maxLength = 300) {
-  if (text.length <= maxLength) return text;
-  return text.slice(0, maxLength).replace(/\s+\S*$/, '') + '...';
+export function buildHallOfFameEntries(communityData) {
+  return buildHallOfFameEntriesFromMetadata(communityData, extractText, truncate);
 }
 
 /**
  * Process a single content file for the search index
  */
-function processFile(filePath, collection) {
+function processFile(filePath, collection, communityData) {
   const content = fs.readFileSync(filePath, 'utf-8');
   const { data: frontmatter, content: body } = matter(content);
 
@@ -72,6 +47,7 @@ function processFile(filePath, collection) {
 
   const plainText = extractText(body);
   const excerpt = truncate(plainText);
+  const metadata = extractCommunityMetadata(frontmatter, communityData);
 
   return {
     title: frontmatter.title || '',
@@ -80,9 +56,13 @@ function processFile(filePath, collection) {
     external_url: frontmatter.external_url || null,
     excerpt,
     tease: frontmatter.tease || '',
-    tags: frontmatter.tags || [],
+    tags: metadata.tags,
     date: frontmatter.date || null,
     collection,
+    contributors: metadata.contributors,
+    organisations: metadata.organisations,
+    grants: metadata.grants,
+    search_terms: metadata.search_terms,
   };
 }
 
@@ -95,6 +75,7 @@ export async function generateSearchIndex(options = {}) {
   console.log('Generating search index...');
 
   const index = [];
+  const communityData = loadCommunityData(SOURCE_CONTENT_DIR);
 
   // Collections to index
   const collections = ['articles', 'news', 'vue-articles', 'events', 'platforms'];
@@ -107,7 +88,7 @@ export async function generateSearchIndex(options = {}) {
       continue;
     }
 
-    const files = await glob('**/*.md', {
+    const files = await glob('**/*.{md,mdx}', {
       cwd: collectionDir,
       absolute: true,
     });
@@ -115,7 +96,7 @@ export async function generateSearchIndex(options = {}) {
     let count = 0;
     for (const file of files) {
       try {
-        const entry = processFile(file, collection);
+        const entry = processFile(file, collection, communityData);
         if (entry) {
           index.push(entry);
           count++;
@@ -129,6 +110,10 @@ export async function generateSearchIndex(options = {}) {
 
     console.log(`  ${collection}: ${count} entries`);
   }
+
+  const hallOfFameEntries = buildHallOfFameEntries(communityData);
+  index.push(...hallOfFameEntries);
+  console.log(`  hall-of-fame: ${hallOfFameEntries.length} entries`);
 
   // Sort by date (most recent first)
   index.sort((a, b) => {

@@ -1,7 +1,7 @@
 ---
 title: March 2014 Galaxy Update
 ---
-<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width="150" /></a></div>
 
 Welcome to the March 2014 *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
@@ -21,13 +21,13 @@ How those papers were tagged:
   <tr>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=4 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="4" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
   </tr>
@@ -105,7 +105,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 The [Galaxy Australasia Workshop](http://australianbioinformatics.net/gaw-2014) is a great opportunity for you to participate in two full days of presentations, discussions, poster sessions, keynotes and lightning talks, all about ways of using Galaxy for high-throughput biology, imaging and other scientific applications. The workshop will also include Training Sessions taught by Galaxy developers and master users.  GAW 2014 will run 24 and 25th March, immediately preceding [Computational and Simulation Sciences and eResearch](http://wp.csiro.au/css/) in Melbourne.  GAW 2014 will also include poster session, keynote speakers.
 
-<div class='left'><a href='http://mcec.com.au/'><img src="/events/gaw2014/MCC.png" alt="Melbourne Convention Centre" width=150 /></a></div>
+<div class='left'><a href='http://mcec.com.au/'><img src="/events/gaw2014/MCC.png" alt="Melbourne Convention Centre" width="150" /></a></div>
 
 [Registration is open](http://australianbioinformatics.net/gaw-2014).  Registration is also *free, but space is limited.*
 
@@ -197,9 +197,9 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/events/gcc2014/sponsor-
     <td> <a href="mailto:outreach AT globus DOT org">Globus Outreach</a> </td>
   </tr>
   <tr>
-    <th rowspan=6> April 29 - May 1 </th>
+    <th rowspan="6"> April 29 - May 1 </th>
     <td> <em><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=121423'>W1: Integrated Research Data Management for Next Gen Sequencing Analysis Using Galaxy and Globus Online Software-as-a-Service</a></em> </td>
-    <td rowspan=6> <a href='http://www.bio-itworldexpo.com/'>BioIT World</a> </td>
+    <td rowspan="6"> <a href='http://www.bio-itworldexpo.com/'>BioIT World</a> </td>
     <td> <a href='http://www.mcs.anl.gov/person/ravi-madduri'>Ravi Madduri</a>, <a href='https://www.urmc.rochester.edu/people/21779848-alex-r-paciorkowski'>Alex Paciorkowski</a>, <a href='http://www.ci.uchicago.edu/profile/328'>Vas Vasiliadis</a> </td>
   </tr>
   <tr>
@@ -249,8 +249,8 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/events/gcc2014/sponsor-
   <tr>
     <th> June 10 </th>
     <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2014/module17-10juin.pdf'>Initiation à l’utilisation de Galaxy</a></em> </td>
-    <td rowspan=2> <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2014</a>, <a href='http://migale.jouy.inra.fr/'>INRA Jouy-en-Josas</a>, France </td>
-    <td rowspan=2> <a href="mailto:veronique.martin AT jouy DOT inra DOT fr">Véronique Martin</a>, <a href='http://genome.jouy.inra.fr/~schbath/'>Sophie Schbath</a> </td>
+    <td rowspan="2"> <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2014</a>, <a href='http://migale.jouy.inra.fr/'>INRA Jouy-en-Josas</a>, France </td>
+    <td rowspan="2"> <a href="mailto:veronique.martin AT jouy DOT inra DOT fr">Véronique Martin</a>, <a href='http://genome.jouy.inra.fr/~schbath/'>Sophie Schbath</a> </td>
   </tr>
   <tr>
     <th> June 11 </th>
@@ -259,8 +259,8 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/events/gcc2014/sponsor-
   <tr>
     <th> June 16 </th>
     <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2014/module17-16juin.pdf'>Initiation à l’utilisation de Galaxy</a></em> </td>
-    <td rowspan=2> <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2014</a>, <a href='http://migale.jouy.inra.fr/'>INRA Jouy-en-Josas</a>, France </td>
-    <td rowspan=2> <a href="mailto:veronique.martin AT jouy DOT inra DOT fr">Véronique Martin</a>, <a href='http://genome.jouy.inra.fr/~schbath/'>Sophie Schbath</a> </td>
+    <td rowspan="2"> <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2014</a>, <a href='http://migale.jouy.inra.fr/'>INRA Jouy-en-Josas</a>, France </td>
+    <td rowspan="2"> <a href="mailto:veronique.martin AT jouy DOT inra DOT fr">Véronique Martin</a>, <a href='http://genome.jouy.inra.fr/~schbath/'>Sophie Schbath</a> </td>
   </tr>
   <tr>
     <th> June 17 </th>
@@ -275,7 +275,7 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/events/gcc2014/sponsor-
   <tr>
     <th> June 28-30 </th>
     <td> <a href='/events/gcc2014/hackathon/'>Galaxy Hackathon</a> </td>
-    <td rowspan=2> <a href='http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/'>Homewood Campus</a> of <a href='http://jhu.edu'>Johns Hopkins University</a>, <a href='http://visitors.baltimorecity.gov/'>Baltimore, Maryland</a>, United States </td>
+    <td rowspan="2"> <a href='http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/'>Homewood Campus</a> of <a href='http://jhu.edu'>Johns Hopkins University</a>, <a href='http://visitors.baltimorecity.gov/'>Baltimore, Maryland</a>, United States </td>
     <td> <a href='/events/gcc2014/organizers/'>Organizers</a> </td>
   </tr>
   <tr>
@@ -284,10 +284,10 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/events/gcc2014/sponsor-
     <td> <a href='/events/gcc2014/organizers/'>Organizers</a> </td>
   </tr>
   <tr>
-    <th rowspan=3> September 30 - October 2 </th>
+    <th rowspan="3"> September 30 - October 2 </th>
     <td> Galaxy Training and Demo Day </td>
     <td> Bern (Switzerland) </td>
-    <td rowspan=3> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> and <a href='/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
+    <td rowspan="3"> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> and <a href='/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
     <td> <em><a href='/events/switzerland2014/'>(second Swiss) Galaxy Workshop</a></em> </td>
@@ -376,7 +376,7 @@ The *[Community Log Board](/news/)* and  *Deployment Catalog* *[Galaxy community
 
 # ToolShed Contributions
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width="150" /></a></div>
 
 ## New Repositories in the Galaxy Project ToolShed
 

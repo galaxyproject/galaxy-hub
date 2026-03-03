@@ -6,7 +6,7 @@ highlight: true
 Galaxy as both a project and a platform facilitates FAIR research, addressing common needs, invoking available standards and contributing to several upstream projects. 
 
 <div class="float-right" style="max-width: 200px"><img src="/images/logos/ELIXIR_RIR_Logo.png" alt="ELIXIR RIR logo"/></div>
-<br>
+<br />
 
 This page focusses on FAIR's 'I' component, so highlighting interoperability measures, pointing to respective implementations and answering a range of questions about the topic. Contents have been generated from [Galaxy Europe's successful evaluation](/news/2023-12-14-elixir-rir-for-galaxy-europe/) of being an [ELIXIR 'Recommended Interoperability Resource' (RIR)](https://elixir-europe.org/platforms/interoperability/rirs), for which central considerations have been addressed. Both asked questions and their answers should be shared here with the community, hopefully serving as references for future needs. 
 

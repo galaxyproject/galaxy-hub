@@ -8,8 +8,6 @@ authors_structured:
 - github: annefou
 - github: yvanlebras
 tags: [EU]
-subsites: [all-eu]
-main_subsite: eu
 ---
 
 We’ve created a new Matrix room called Earth Climate Ecology Sciences to support discussions around Galaxy, climate, ecology, and Earth system science.

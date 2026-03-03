@@ -16,7 +16,7 @@ During the [de.NBI Symposium 2017](https://www.denbi.de/symposium2017), Béréni
     <img src="/assets/media/2017-10-23_poster_presentation.jpg" height="200px" alt="Poster presentation @ de.NBI Symposium"/>
 </div>
 
-<embed src="https://d1hiluowqo0t4b.cloudfront.net/posters/compressed/f1000research-178036.pdf" width="100%" height="700" type='application/pdf'>
+<embed src="https://d1hiluowqo0t4b.cloudfront.net/posters/compressed/f1000research-178036.pdf" width="100%" height="700" type='application/pdf' />
 
 ## Abstract
 

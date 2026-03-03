@@ -53,7 +53,7 @@ The first webinar will cover recent Advanced Galaxy workflow features, from para
 
 * Hans-Rudolf Hotz
 
-[Registration](https://us02web.zoom.us/webinar/register/WN_P5bwskN0RZa_t4rAxJ20nw){:target="_blank"}
+<a href="https://us02web.zoom.us/webinar/register/WN_P5bwskN0RZa_t4rAxJ20nw" target="_blank">Registration</a>
 
 
 

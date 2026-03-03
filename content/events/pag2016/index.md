@@ -26,10 +26,10 @@ Galaxy will be at [Plant and Animal Genome XXIV (PAG 2016)](http://www.intlpag.o
     <td> <a href='https://pag.confex.com/pag/xxiv/meetingapp.cgi/Person/34155'>Emily Grau</a> </td>
   </tr>
   <tr>
-    <th rowspan=5> Monday<br />January 11 </th>
-    <td rowspan=2> 10:00-11:30 </td>
+    <th rowspan="5"> Monday<br />January 11 </th>
+    <td rowspan="2"> 10:00-11:30 </td>
     <td> <a href='https://pag.confex.com/pag/xxiv/meetingapp.cgi/Paper/21193'>P0322: TreeGenes: Enabling Visualization and Analysis in Forest Tree Genomics</a> </td>
-    <td rowspan=2> Poster Session </td>
+    <td rowspan="2"> Poster Session </td>
     <td> </td>
     <td> <a href='https://pag.confex.com/pag/xxiv/meetingapp.cgi/Person/34155'>Emily Grau</a> </td>
   </tr>
@@ -41,7 +41,7 @@ Galaxy will be at [Plant and Animal Genome XXIV (PAG 2016)](http://www.intlpag.o
   <tr>
     <td style=" text-align: center;"> 1:10-1:30 </td>
     <td> <a href='https://pag.confex.com/pag/xxiv/meetingapp.cgi/Paper/19663'>C09: Web Portal for Next Generation RNA-seq Sequence Computation and Analysis for Agricultural Animal Species</a> </td>
-    <td rowspan=2> <a href='https://pag.confex.com/pag/xxiv/meetingapp.cgi/Session/3269'>Computer Demo Session 2</a>, California Room  </td>
+    <td rowspan="2"> <a href='https://pag.confex.com/pag/xxiv/meetingapp.cgi/Session/3269'>Computer Demo Session 2</a>, California Room  </td>
     <td> <a href='http://weizhongli-lab.org/RNA-seq'>RNA-Seq Portal</a>, <a href='https://pag.confex.com/pag/xxiv/recordingredirect.cgi/id/1918'>Slides</a> </td>
     <td> <a href='https://pag.confex.com/pag/xxiv/meetingapp.cgi/Person/37842'>Weizhong Li</a> </td>
   </tr>
@@ -67,7 +67,7 @@ Galaxy will be at [Plant and Animal Genome XXIV (PAG 2016)](http://www.intlpag.o
     <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
-    <th rowspan=2> Wednesday<br />January 13 </th>
+    <th rowspan="2"> Wednesday<br />January 13 </th>
     <td style=" text-align: center;"> 11:25-11:50 </td>
     <td> <a href='https://pag.confex.com/pag/xxiv/meetingapp.cgi/Paper/21816'>Galaxy Community Update</a> </td>
     <td> <a href='https://pag.confex.com/pag/xxiv/meetingapp.cgi/Session/3109'>GMOD</a>, Golden West </td>

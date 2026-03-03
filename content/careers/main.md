@@ -1,6 +1,5 @@
 ---
 title: Galactic Career Center
-layout: careers_index.pug
 ---
 
 <div class='right'><img src="/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>

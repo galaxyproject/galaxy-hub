@@ -1,7 +1,7 @@
 ---
 title: July 2012 Galaxy Update
 ---
-<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width="150" /></a></div>
 
 Welcome to the July 2012 edition of *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -95,7 +95,7 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 ## Upcoming Events and Deadlines
 
 <div class='center'>
-<a href='http://www.cbib.u-bordeaux2.fr/fr/content/atelier-galaxy-5-et-6-juillet'><img src="/images/logos/CGFB_LOGO.png" alt="Atelier Galaxy" height=60 /></a> &nbsp; <a href='/events/ismb2012/'><img src="/images/logos/ISMB2012.jpg" alt="ISMB 2012" height=100 /></a>&nbsp;&nbsp; <a href='/events/gcc2012/'><img src="/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a> &nbsp; <a href='http://gmod.org/wiki/2012_GMOD_Summer_School'><img src="/images/logos/2012GMODSummerSchool200.png" alt="2012 GMOD Summer School" height="98" /></a> &nbsp; <a href='/news/galaxy-workshops-in-south-africa/'><img src="/images/logos/SASBCB_SAGS.png" alt="South African Genetics and Bioinformatics Society Conference" height="100" /></a>
+<a href='http://www.cbib.u-bordeaux2.fr/fr/content/atelier-galaxy-5-et-6-juillet'><img src="/images/logos/CGFB_LOGO.png" alt="Atelier Galaxy" height="60" /></a> &nbsp; <a href='/events/ismb2012/'><img src="/images/logos/ISMB2012.jpg" alt="ISMB 2012" height="100" /></a>&nbsp;&nbsp; <a href='/events/gcc2012/'><img src="/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a> &nbsp; <a href='http://gmod.org/wiki/2012_GMOD_Summer_School'><img src="/images/logos/2012GMODSummerSchool200.png" alt="2012 GMOD Summer School" height="98" /></a> &nbsp; <a href='/news/galaxy-workshops-in-south-africa/'><img src="/images/logos/SASBCB_SAGS.png" alt="South African Genetics and Bioinformatics Society Conference" height="100" /></a>
 </div>
 
 ### Deadlines
@@ -136,7 +136,7 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
     <td> <a href="mailto:training@nowgen.org.uk">Tom Hancocks</a> </td>
   </tr>
   <tr>
-    <th rowspan=1> July 13-17 </th>
+    <th rowspan="1"> July 13-17 </th>
     <td> <strong><em><a href='/events/ismb2012/'>ISMB 2012 and BOSC 2012</a></strong></em><div class='indent'><a href='/events/ismb2012/'>Eight presentations, one Codefest, seven posters, and counting</a></td>
     <td> Long Beach, California, United States </td>
     <td> <a href="mailto:outreach@galaxyproject.org">Galaxy Outreach</a> </td>
@@ -155,9 +155,9 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
   </tr>
   <tr>
     <th> September 3-4 </th>
-    <td rowspan=2 style=" text-align: left;"> <em><a href='http://genetics.cmc-uct.co.za/?page_id=79'>Galaxy Workshop</a></em><div class='indent red'>Application deadline is June 30</div> </td>
+    <td rowspan="2" style=" text-align: left;"> <em><a href='http://genetics.cmc-uct.co.za/?page_id=79'>Galaxy Workshop</a></em><div class='indent red'>Application deadline is June 30</div> </td>
     <td> <a href='http://web.up.ac.za/default.asp?ipkCategoryID=17741'>University of Pretoria</a>, Pretoria, South Africa </td>
-    <td rowspan=2> <a href='/people/dave-clements/'>Dave Clements</a> </td>
+    <td rowspan="2"> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> September 6-7 </th>

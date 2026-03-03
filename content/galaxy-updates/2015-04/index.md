@@ -10,7 +10,7 @@ title: The April 2015 Galactic News!
 
 </div>
 
-<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width="150" /></a></div>
 
 Welcome to the April 2015 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. *[These newsletters](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
@@ -30,13 +30,13 @@ The new papers were tagged with:
   <tr>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
-    <td rowspan=4 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="4" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
   </tr>
@@ -217,9 +217,9 @@ There are [upcoming events](/events/) in 8 countries on 4 continents.  See the [
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
-    <th rowspan=3> April 21 </th>
+    <th rowspan="3"> April 21 </th>
     <td> <em><a href='http://www.bio-itworldexpo.com/Next-Gen-Sequencing-Informatics/'>Large-Scale NGS Analysis Using Globus Genomics: Challenges and User Success Stories</a></em> </td>
-    <td rowspan=4> <a href='http://www.bio-itworldexpo.com/'>Bio-IT World 2015</a>, Boston, Massachusetts, United States </td>
+    <td rowspan="4"> <a href='http://www.bio-itworldexpo.com/'>Bio-IT World 2015</a>, Boston, Massachusetts, United States </td>
     <td> <a href='http://www.mcs.anl.gov/person/ravi-madduri'>Ravi Madduri</a> </td>
   </tr>
   <tr>
@@ -249,13 +249,13 @@ There are [upcoming events](/events/) in 8 countries on 4 continents.  See the [
   </tr>
   <tr>
     <th> </th>
-    <td colspan=3 style=" background-color: #eef;"> </td>
+    <td colspan="3" style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> May 12 </th>
     <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2015/module17-12mai.pdf'>Initiation à l’utilisation de Galaxy</a></em> <div class='indent'>Partie du <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2015</a></div> </td>
-    <td rowspan=2> <a href='http://www.jouy.inra.fr/'>Jouy-en-Josas</a>, France </td>
-    <td rowspan=2> <a href="mailto:veronique.martin@jouy.inra.fr">Veronique Martin</a>, <a href="mailto:sophie.schbath@jouy.inra.fr">Sophie Schbath</a> </td>
+    <td rowspan="2"> <a href='http://www.jouy.inra.fr/'>Jouy-en-Josas</a>, France </td>
+    <td rowspan="2"> <a href="mailto:veronique.martin@jouy.inra.fr">Veronique Martin</a>, <a href="mailto:sophie.schbath@jouy.inra.fr">Sophie Schbath</a> </td>
   </tr>
   <tr>
     <th> May 13 </th>
@@ -281,13 +281,13 @@ There are [upcoming events](/events/) in 8 countries on 4 continents.  See the [
   </tr>
   <tr>
     <th> </th>
-    <td colspan=3 style=" background-color: #eef;"> </td>
+    <td colspan="3" style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> June 2 </th>
     <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2015/module17-2juin.pdf'>Initiation à l’utilisation de Galaxy</a></em> <div class='indent'>Partie du <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2015</a></div> </td>
-    <td rowspan=3> <a href='http://www.jouy.inra.fr/'>Jouy-en-Josas</a>, France </td>
-    <td rowspan=3> <a href="mailto:veronique.martin@jouy.inra.fr">Veronique Martin</a>, <a href="mailto:sophie.schbath@jouy.inra.fr">Sophie Schbath</a> </td>
+    <td rowspan="3"> <a href='http://www.jouy.inra.fr/'>Jouy-en-Josas</a>, France </td>
+    <td rowspan="3"> <a href="mailto:veronique.martin@jouy.inra.fr">Veronique Martin</a>, <a href="mailto:sophie.schbath@jouy.inra.fr">Sophie Schbath</a> </td>
   </tr>
   <tr>
     <th> June 3 </th>
@@ -311,7 +311,7 @@ There are [upcoming events](/events/) in 8 countries on 4 continents.  See the [
   </tr>
   <tr>
     <th> </th>
-    <td colspan=3 style=" background-color: #eef;"> </td>
+    <td colspan="3" style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> July 6-8 </th>
@@ -430,8 +430,8 @@ One new [Community Log Board](/news/) entry was added in March:
 <br />
 <table>
   <tr>
-    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width=70 /></a> &nbsp;&nbsp; </td>
-    <td colspan=2 style=" border: none;"> <strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a></strong> </td>
+    <td rowspan="3" style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width="70" /></a> &nbsp;&nbsp; </td>
+    <td colspan="2" style=" border: none;"> <strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
     <td style=" border: none;"> <strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a></strong> </td>
@@ -527,7 +527,7 @@ New versions [CloudMan](/galaxy-updates/2014-09/#august-2014-cloudman-release), 
 
 ----
 
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width="150" /></a></div>
 
 # ToolShed Contributions
 

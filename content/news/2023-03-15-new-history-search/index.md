@@ -80,7 +80,7 @@ Here are multiple ways users can apply this filter:
 | Button on Expanded Dataset | Add filter text manually |
 | -------------------------- | ------------------------ |
 | Click on the `sitemap` button on an expanded dataset to apply the filter. | Add the `related:item_index` filter to the search field or use the advanced panel.
-| <video-player src="23.0-history-related-filter-button.mp4" /> | <video-player src="23.0-history-related-filter-text.mp4" /> |
+| <VideoPlayer src="23.0-history-related-filter-button.mp4" /> | <VideoPlayer src="23.0-history-related-filter-text.mp4" /> |
 
 This work is a collective effort of the [Galaxy UI/UX working group](https://github.com/orgs/galaxyproject/teams/wg-uiux).
 Thanks to [Aysam Guerler](https://github.com/guerler), [David Lopez](https://github.com/davelopez), [Ahmed Awan](https://github.com/ahmedhamidawan), [Dannon Baker](https://github.com/dannon) and [Marius van den Beek](https://github.com/mvdbeek) for working on this project.

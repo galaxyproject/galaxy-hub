@@ -1,4 +1,5 @@
 import { getGrant, getOrganisation } from './contributors';
+import { communitySlug as baseCommunitySlug, toArray as baseToArray } from './community-base.mjs';
 
 export type SupporterProfile = {
   slug: string;
@@ -8,27 +9,11 @@ export type SupporterProfile = {
 };
 
 function slugify(value: string): string {
-  const normalized = String(value).trim().replace(/^@/, '');
-  return normalized
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '');
+  return baseCommunitySlug(value);
 }
 
 function toArray(value: unknown): string[] {
-  if (!value) return [];
-  if (Array.isArray(value)) {
-    return value.flatMap((v) => toArray(v));
-  }
-  if (typeof value === 'object') {
-    const obj = value as Record<string, any>;
-    if (obj.id) return [String(obj.id)];
-    if (obj.name) return [String(obj.name)];
-    if (obj.github) return [String(obj.github)];
-    if (obj.twitter) return [String(obj.twitter)];
-    return [];
-  }
-  return [String(value)];
+  return baseToArray(value);
 }
 
 let supporterMap: Map<string, SupporterProfile> | null = null;

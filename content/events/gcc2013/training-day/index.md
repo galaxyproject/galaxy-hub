@@ -3,8 +3,8 @@ title: GCC2013 Training Day
 ---
 <slot name="/events/gcc2013/header" />
 
-import linkbox from "../linkbox.json"
-<link-box :data="linkbox" />
+
+<link-box data="linkbox" />
 
 <div class='left'><img src="/images/logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="200" /></div>
 
@@ -34,7 +34,7 @@ You [register](/events/gcc2013/register/) for the Training Day (and specify whic
   </tr>
   <tr>
     <th style=" text-align: right;"> 8:00 </th>
-    <td colspan=5 style=" text-align: center; background-color: #F8F8F8 ;"> <em>Registration Opens and Catered Breakfast</em> </td>
+    <td colspan="5" style=" text-align: center; background-color: #F8F8F8 ;"> <em>Registration Opens and Catered Breakfast</em> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:00 </th>
@@ -46,7 +46,7 @@ You [register](/events/gcc2013/register/) for the Training Day (and specify whic
   </tr>
   <tr>
     <th style=" text-align: right;"> 11:00 </th>
-    <td colspan=5 style=" text-align: center; background-color: #F8F8F8 ;"> <em>Catered Lunch</em> </td>
+    <td colspan="5" style=" text-align: center; background-color: #F8F8F8 ;"> <em>Catered Lunch</em> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 12:30 </th>
@@ -58,7 +58,7 @@ You [register](/events/gcc2013/register/) for the Training Day (and specify whic
   </tr>
   <tr>
     <th style=" text-align: right;"> 14:30 </th>
-    <td colspan=5 style=" text-align: center; background-color: #F8F8F8 ;"> <em>Break</em> </td>
+    <td colspan="5" style=" text-align: center; background-color: #F8F8F8 ;"> <em>Break</em> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 15:00 </th>
@@ -70,10 +70,10 @@ You [register](/events/gcc2013/register/) for the Training Day (and specify whic
   </tr>
   <tr>
     <th style=" text-align: right;"> 17:00</th>
-    <td colspan=5 style=" text-align: center; background-color: #F8F8F8 ;"> <em>Finish</em> </td>
+    <td colspan="5" style=" text-align: center; background-color: #F8F8F8 ;"> <em>Finish</em> </td>
   </tr>
   <tr>
-    <td colspan=5 style=" border: none;"> </td>
+    <td colspan="5" style=" border: none;"> </td>
   </tr>
   <tr>
     <td style=" border: none;"> </td>
@@ -113,12 +113,12 @@ See each individual workshop's list of prerequisite for specifics.
 <table class="table">
   <tr>
     <th style=" vertical-align: top;"> Instructors </th>
-    <td colspan=2 style=" background-color: #cceeff;"> <a href='/people/anton/'>Anton Nekrutenko</a>, <a href='http://psu.edu/'>Penn State University</a><br /> <a href='/people/jennifer-jackson/'>Jennifer Hillman-Jackson</a>, <a href='http://psu.edu/'>Penn State University</a> </td>
+    <td colspan="2" style=" background-color: #cceeff;"> <a href='/people/anton/'>Anton Nekrutenko</a>, <a href='http://psu.edu/'>Penn State University</a><br /> <a href='/people/jennifer-jackson/'>Jennifer Hillman-Jackson</a>, <a href='http://psu.edu/'>Penn State University</a> </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Content </th>
     <td style=" vertical-align: top; background-color: #cceeff;"> New to Galaxy? This will introduce you to the Galaxy Project, the Galaxy Community, and walk you through a simple use case demonstrating what Galaxy can do. </td>
-    <td rowspan=3 style=" width: 16%;"> &nbsp;<a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a>&nbsp; <br />This workshop uses [AWS](http://aws.amazon.com/)-based compute infrastructure </td>
+    <td rowspan="3" style=" width: 16%;"> &nbsp;<a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a>&nbsp; <br />This workshop uses [AWS](http://aws.amazon.com/)-based compute infrastructure </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
@@ -143,12 +143,12 @@ See each individual workshop's list of prerequisite for specifics.
 <table class="table">
   <tr>
     <th style=" vertical-align: top;"> Instructors </th>
-    <td colspan=2 style=" background-color: #cceeff;"> <a href='/people/enis-afgan/'>Enis Afgan</a>, <a href='http://www.irb.hr/eng/'>Ruđer Bošković Institute (RBI)</a> <br /> <a href='/people/dannon-baker/'>Dannon Baker</a>, <a href='http://emory.edu/'>Emory University</a> </td>
+    <td colspan="2" style=" background-color: #cceeff;"> <a href='/people/enis-afgan/'>Enis Afgan</a>, <a href='http://www.irb.hr/eng/'>Ruđer Bošković Institute (RBI)</a> <br /> <a href='/people/dannon-baker/'>Dannon Baker</a>, <a href='http://emory.edu/'>Emory University</a> </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Content </th>
     <td style=" vertical-align: top; background-color: #cceeff;"> Want the power of Galaxy without the compute infrastructure overhead? Need to run compute-intensive analysis, but only from time to time? Learn how to set up your own elastic, and fully populated (tools and reference data) Galaxy instance using Amazon Web Services.  You'll also learn to customize and share your galaxy cloud instance with others. </td>
-    <td rowspan=3 style=" width: 16%;"> &nbsp;<a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a>&nbsp; <br />This workshop uses [AWS](http://aws.amazon.com/)-based compute infrastructure </td>
+    <td rowspan="3" style=" width: 16%;"> &nbsp;<a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a>&nbsp; <br />This workshop uses [AWS](http://aws.amazon.com/)-based compute infrastructure </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
@@ -177,12 +177,12 @@ See each individual workshop's list of prerequisite for specifics.
 <table class="table">
   <tr>
     <th style=" vertical-align: top;"> Instructors </th>
-    <td colspan=2 style=" background-color: #ddffcc;"> <a href='http://www.lgtc.nl/about_us/lgtc_team.php'>Jeroen F.J. Laros, LUMC</a><br /><a href='http://bow.web.id/'>Wibowo Arindrarto</a>, LUMC<br /><a href='http://ngs.nbic.nl/'>Leon Mei, NBIC/LUMC</a> </td>
+    <td colspan="2" style=" background-color: #ddffcc;"> <a href='http://www.lgtc.nl/about_us/lgtc_team.php'>Jeroen F.J. Laros, LUMC</a><br /><a href='http://bow.web.id/'>Wibowo Arindrarto</a>, LUMC<br /><a href='http://ngs.nbic.nl/'>Leon Mei, NBIC/LUMC</a> </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Content </th>
     <td style=" vertical-align: top; background-color: #ddffcc;"> This hands-on workshop will demonstrate basic RNA-Seq analysis pipelines including quality control, alignment (e.g. Tophat (Bowtie), GSNAP), transcript assembly (Cufflinks), exon and transcript quantification, and differential expression analysis in Galaxy.<br /><br />Sample datasets small enough to be successfully processed during the course of the seminar will be provided. Participants will perform the analyses themselves on the provided cloud instance of Galaxy. </td>
-    <td rowspan=4 style=" width: 16%;"> &nbsp;<a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a>&nbsp; <br />This workshop uses [AWS](http://aws.amazon.com/)-based compute infrastructure </td>
+    <td rowspan="4" style=" width: 16%;"> &nbsp;<a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a>&nbsp; <br />This workshop uses [AWS](http://aws.amazon.com/)-based compute infrastructure </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
@@ -268,12 +268,12 @@ See each individual workshop's list of prerequisite for specifics.
 <table class="table">
   <tr>
     <th style=" vertical-align: top;"> Instructors </th>
-    <td colspan=2 style=" background-color: #ddffcc;"> <a href='http://bioinformatics.bc.edu/marthlab/Erik_Garrison'>Erik Garrison</a>, <a href='http://bc.edu/'>Boston College</a><br /><a href='/people/anton/'>Anton Nekrutenko</a>, <a href='http://psu.edu/'>Penn State University</a> </td>
+    <td colspan="2" style=" background-color: #ddffcc;"> <a href='http://bioinformatics.bc.edu/marthlab/Erik_Garrison'>Erik Garrison</a>, <a href='http://bc.edu/'>Boston College</a><br /><a href='/people/anton/'>Anton Nekrutenko</a>, <a href='http://psu.edu/'>Penn State University</a> </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Content </th>
     <td style=" vertical-align: top; background-color: #ddffcc;"> Participants in this workshop will use simulation to develop familiarity with the performance of basic SNP and indel detection methods.<br /><br />By comparing variant detection results under different conditions to the known set of true variants produced by the simulation, participants will assess the effects of standard practices such as base quality recalibration, indel realignment, and variant quality filters. </td>
-    <td rowspan=4 style=" width: 16%;"> &nbsp;<a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a>&nbsp; <br />This workshop uses [AWS](http://aws.amazon.com/)-based compute infrastructure </td>
+    <td rowspan="4" style=" width: 16%;"> &nbsp;<a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a>&nbsp; <br />This workshop uses [AWS](http://aws.amazon.com/)-based compute infrastructure </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
@@ -299,11 +299,11 @@ See each individual workshop's list of prerequisite for specifics.
 <table class="table">
   <tr>
     <th style=" vertical-align: top;"> Instructors </th>
-    <td colspan=2 style=" background-color: #ffffcc;"> <a href='http://folk.uio.no/georgios'>George Magklaras</a>, <a href='http://www.biotek.uio.no/'>Biotechnology Center of Oslo</a> & <a href='http://www.ncmm.uio.no/'>Norwegian Center for Molecular Medicine</a>, <a href='http://www.uio.no/english'>University of Oslo</a><br /><a href='http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/katerim/index.html'>Katerina Michalickova</a>, <a href='http://www.usit.uio.no/'>University Center for Information Technology (USIT)</a>, <a href='http://www.uio.no/english'>University of Oslo</a><br /><a href='http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/nikolaiv/index.html'>Nikolay Vazov</a>, <a href='http://www.usit.uio.no/'>University Center for Information Technology (USIT)</a>,  <a href='http://www.uio.no/english'>University of Oslo</a> </td>
+    <td colspan="2" style=" background-color: #ffffcc;"> <a href='http://folk.uio.no/georgios'>George Magklaras</a>, <a href='http://www.biotek.uio.no/'>Biotechnology Center of Oslo</a> & <a href='http://www.ncmm.uio.no/'>Norwegian Center for Molecular Medicine</a>, <a href='http://www.uio.no/english'>University of Oslo</a><br /><a href='http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/katerim/index.html'>Katerina Michalickova</a>, <a href='http://www.usit.uio.no/'>University Center for Information Technology (USIT)</a>, <a href='http://www.uio.no/english'>University of Oslo</a><br /><a href='http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/nikolaiv/index.html'>Nikolay Vazov</a>, <a href='http://www.usit.uio.no/'>University Center for Information Technology (USIT)</a>,  <a href='http://www.uio.no/english'>University of Oslo</a> </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Content </th>
-    <td colspan=2 style=" vertical-align: top; background-color: #ffffcc;"> Learn how to install your own copy of Galaxy locally.  Participants will install Galaxy on a virtual machine image provided at the workshop. Different aspects of the administration of a running Galaxy instance. How to monitor tool usage and user quota. How to make good use of groups. How to safely upgrade your Galaxy, and the tools it uses. </td>
+    <td colspan="2" style=" vertical-align: top; background-color: #ffffcc;"> Learn how to install your own copy of Galaxy locally.  Participants will install Galaxy on a virtual machine image provided at the workshop. Different aspects of the administration of a running Galaxy instance. How to monitor tool usage and user quota. How to make good use of groups. How to safely upgrade your Galaxy, and the tools it uses. </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
@@ -316,7 +316,7 @@ See each individual workshop's list of prerequisite for specifics.
 * Basic [PostgreSQL](http://postgresql.org) database setup skills
 * Knowledge of a simple Text Editor (`vi, pico, nano`).
  </td>
-    <td rowspan=3 style=" width: 16%;"> <a href='http://virtualbox.org'><img src="/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="80" /></a><br />This workshop will require that you have the [VirtualBox](http://virtualbox.org) player (or [VMware](http://vnware.com) player) installed on your laptop.
+    <td rowspan="3" style=" width: 16%;"> <a href='http://virtualbox.org'><img src="/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="80" /></a><br />This workshop will require that you have the [VirtualBox](http://virtualbox.org) player (or [VMware](http://vnware.com) player) installed on your laptop.
  </td>
   </tr>
   <tr>
@@ -335,11 +335,11 @@ See each individual workshop's list of prerequisite for specifics.
 <table class="table">
   <tr>
     <th style=" vertical-align: top;"> Instructors </th>
-    <td colspan=2 style=" background-color: #ffffcc;"> <a href='/people/dan/'>Dan Blankenberg</a>, <a href='http://psu.edu/'>Penn State University</a> <br /> <a href='/people/fubar/'>Ross Lazarus</a>, <a href='http://www.bakeridi.edu.au/'>BakerIDI</a> </td>
+    <td colspan="2" style=" background-color: #ffffcc;"> <a href='/people/dan/'>Dan Blankenberg</a>, <a href='http://psu.edu/'>Penn State University</a> <br /> <a href='/people/fubar/'>Ross Lazarus</a>, <a href='http://www.bakeridi.edu.au/'>BakerIDI</a> </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Content </th>
-    <td colspan=2 style=" vertical-align: top; background-color: #ffffcc;"> <a href='/events/gcc2013/training-day/intro-tool-data/'>Learn to integrate new tools and data sources into your Galaxy installation</a>. </td>
+    <td colspan="2" style=" vertical-align: top; background-color: #ffffcc;"> <a href='/events/gcc2013/training-day/intro-tool-data/'>Learn to integrate new tools and data sources into your Galaxy installation</a>. </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
@@ -351,7 +351,7 @@ See each individual workshop's list of prerequisite for specifics.
 * Knowledge of a simple Text Editor (`vi, pico, nano`).
 * A "simple" executable tool you would like to wrap that takes and/or creates existing Galaxy datatypes like bed/fastq/bam etc such as one of the [bedTools executables](http://code.google.com/p/bedtools/).
 </td>
-    <td rowspan=3 style=" width: 16%;"> <a href='http://virtualbox.org'><img src="/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="80" /></a><br />This workshop will require that you have the [VirtualBox](http://virtualbox.org) player (or [VMware](http://vnware.com) player) installed on your laptop.
+    <td rowspan="3" style=" width: 16%;"> <a href='http://virtualbox.org'><img src="/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="80" /></a><br />This workshop will require that you have the [VirtualBox](http://virtualbox.org) player (or [VMware](http://vnware.com) player) installed on your laptop.
  </td>
   </tr>
   <tr>
@@ -370,11 +370,11 @@ See each individual workshop's list of prerequisite for specifics.
 <table class="table">
   <tr>
     <th style=" vertical-align: top;"> Instructors </th>
-    <td colspan=2 style=" background-color: #ffffcc;"> <a href='/people/fubar/'>Ross Lazarus</a>, <a href='http://www.bakeridi.edu.au/'>BakerIDI</a><br /> <a href='/people/dan/'>Dan Blankenberg</a>, <a href='http://psu.edu/'>Penn State University</a> </td>
+    <td colspan="2" style=" background-color: #ffffcc;"> <a href='/people/fubar/'>Ross Lazarus</a>, <a href='http://www.bakeridi.edu.au/'>BakerIDI</a><br /> <a href='/people/dan/'>Dan Blankenberg</a>, <a href='http://psu.edu/'>Penn State University</a> </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Content </th>
-    <td colspan=2 style=" vertical-align: top; background-color: #ffffcc;"> This topic would cover the <a href='/events/gcc2013/training-day/advance-tool-data/'>advanced tool configuration</a>, specifically designed for people that want to add their own tools or need to modify existing tools. Specific emphasis on using CHEETAH code and explanation of all the XML tags used in defining a tool </td>
+    <td colspan="2" style=" vertical-align: top; background-color: #ffffcc;"> This topic would cover the <a href='/events/gcc2013/training-day/advance-tool-data/'>advanced tool configuration</a>, specifically designed for people that want to add their own tools or need to modify existing tools. Specific emphasis on using CHEETAH code and explanation of all the XML tags used in defining a tool </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
@@ -385,7 +385,7 @@ See each individual workshop's list of prerequisite for specifics.
 * Knowledge of a simple Text Editor (`vi, pico, nano`).
 * Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop.
 </td>
-    <td rowspan=3 style=" width: 16%;"> <a href='http://virtualbox.org'><img src="/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="80" /></a><br />This workshop will require that you have the [VirtualBox](http://virtualbox.org) player (or [VMware](http://vnware.com) player) installed on your laptop.
+    <td rowspan="3" style=" width: 16%;"> <a href='http://virtualbox.org'><img src="/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="80" /></a><br />This workshop will require that you have the [VirtualBox](http://virtualbox.org) player (or [VMware](http://vnware.com) player) installed on your laptop.
  </td>
   </tr>
   <tr>
@@ -404,11 +404,11 @@ See each individual workshop's list of prerequisite for specifics.
 <table class="table">
   <tr>
     <th style=" vertical-align: top;"> Instructors </th>
-    <td colspan=2 style=" background-color: #ffffcc;"> <a href='/people/greg-vonkuster/'>Greg Von Kuster</a>, <a href='http://psu.edu/'>Penn State University</a> <br /> <a href='/people/dave-bouvier/'>Dave Bouvier</a>, <a href='http://psu.edu/'>Penn State University</a> </td>
+    <td colspan="2" style=" background-color: #ffffcc;"> <a href='/people/greg-vonkuster/'>Greg Von Kuster</a>, <a href='http://psu.edu/'>Penn State University</a> <br /> <a href='/people/dave-bouvier/'>Dave Bouvier</a>, <a href='http://psu.edu/'>Penn State University</a> </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Content </th>
-    <td colspan=2 style=" vertical-align: top; background-color: #ffffcc;"> The <a href='/toolshed/'>Galaxy Tool Shed</a> is a place for the Galaxy community to share useful Galaxy utilities.  Galaxy utilities are functionally correct Galaxy tools (including the new specialized Data Manager tools), custom Galaxy datatypes, 3rd-party tool dependency definitions, simple and complex repository dependency definitions and exported Galaxy workflows.  All of these Galaxy utilities will be discussed in detail in this workshop.  This workshop includes discussions about tool dependency and repository dependency definitions, but excludes discussions about developing new tools, custom datatypes or Galaxy workflows. </td>
+    <td colspan="2" style=" vertical-align: top; background-color: #ffffcc;"> The <a href='/toolshed/'>Galaxy Tool Shed</a> is a place for the Galaxy community to share useful Galaxy utilities.  Galaxy utilities are functionally correct Galaxy tools (including the new specialized Data Manager tools), custom Galaxy datatypes, 3rd-party tool dependency definitions, simple and complex repository dependency definitions and exported Galaxy workflows.  All of these Galaxy utilities will be discussed in detail in this workshop.  This workshop includes discussions about tool dependency and repository dependency definitions, but excludes discussions about developing new tools, custom datatypes or Galaxy workflows. </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
@@ -419,7 +419,7 @@ See each individual workshop's list of prerequisite for specifics.
 * Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop.
 * Basic understanding of the process for developing a simple Galaxy tool as well as Galaxy data types, or attendance at [Introduction to Tool and Data Sources Configureation](/events/gcc2013/training-day/#introduction-to-tool-and-data-source-configuration).
  </td>
-    <td rowspan=3 style=" width: 16%;"> <a href='http://virtualbox.org'><img src="/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="80" /></a><br />This workshop will require that you have the [VirtualBox](http://virtualbox.org) player (or [VMware](http://vnware.com) player) installed on your laptop.
+    <td rowspan="3" style=" width: 16%;"> <a href='http://virtualbox.org'><img src="/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="80" /></a><br />This workshop will require that you have the [VirtualBox](http://virtualbox.org) player (or [VMware](http://vnware.com) player) installed on your laptop.
  </td>
   </tr>
   <tr>
@@ -445,11 +445,11 @@ See each individual workshop's list of prerequisite for specifics.
 <table class="table">
   <tr>
     <th style=" vertical-align: top;"> Instructors </th>
-    <td colspan=2 style=" background-color: #ffffcc;"> <a href='/people/nate/'>Nate Coraor</a>, <a href='http://psu.edu/'>Penn State University</a> <br /><a href='/people/carl-eberhard/'>Carl Eberhard</a>, <a href='http://emory.edu/'>Emory University</a> </td>
+    <td colspan="2" style=" background-color: #ffffcc;"> <a href='/people/nate/'>Nate Coraor</a>, <a href='http://psu.edu/'>Penn State University</a> <br /><a href='/people/carl-eberhard/'>Carl Eberhard</a>, <a href='http://emory.edu/'>Emory University</a> </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Content </th>
-    <td colspan=2 style=" vertical-align: top; background-color: #ffffcc;"> Learn the ins and outs of the Galaxy Applications Programming Interface (API). Examples of how to interact with multiple Galaxy resources and how to build a complex script from API building blocks. <a href='/events/gcc2013/training-day/api'>Details</a>. </td>
+    <td colspan="2" style=" vertical-align: top; background-color: #ffffcc;"> Learn the ins and outs of the Galaxy Applications Programming Interface (API). Examples of how to interact with multiple Galaxy resources and how to build a complex script from API building blocks. <a href='/events/gcc2013/training-day/api'>Details</a>. </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
@@ -460,7 +460,7 @@ See each individual workshop's list of prerequisite for specifics.
 * Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop.
 * Knowledge of a programming or scripting language.
 </td>
-    <td rowspan=3 style=" width: 16%;"> <a href='http://virtualbox.org'><img src="/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="80" /></a><br />This workshop will require that you have the [VirtualBox](http://virtualbox.org) player (or [VMware](http://vnware.com) player) installed on your laptop.
+    <td rowspan="3" style=" width: 16%;"> <a href='http://virtualbox.org'><img src="/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="80" /></a><br />This workshop will require that you have the [VirtualBox](http://virtualbox.org) player (or [VMware](http://vnware.com) player) installed on your laptop.
  </td>
   </tr>
   <tr>

@@ -1,6 +1,7 @@
 ---
 title: Galaxy Europe Metabolomics
 autotoc: true
+components: true
 ---
 
 <slot name="/bare/eu/usegalaxy/notices" />
@@ -27,10 +28,10 @@ Want to learn more about metabolomics? Check out the following lesson tutorials 
 
 | Lesson | Slides | Hands-on | Input dataset | Workflows | Galaxy tour |
 | --- | --- | --- | --- | --- | --- |
-Introduction to Metabolomics | [<i class="fa fa-slideshare" aria-hidden="true"></i>](https://galaxyproject.github.io/training-material/topics/metabolomics/slides/introduction.html) | | | |
-Mass spectrometry imaging: Examining the spatial distribution of analytes | | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://galaxyproject.github.io/training-material/topics/metabolomics/tutorials/msi-analyte-distribution/tutorial.html) | [<i class="fa fa-topic" aria-hidden="true"></i>](https://zenodo.org/record/484496) | [<i class="fa fa-share-alt" aria-hidden="true"></i>](https://github.com/galaxyproject/training-material/tree/master/topics/metabolomics/tutorials/msi-analyte-distribution/workflows/) |
-Mass spectrometry imaging: Finding differential analytes | | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://galaxyproject.github.io/training-material/topics/metabolomics/tutorials/msi-finding-nglycans/tutorial.html) | [<i class="fa fa-topic" aria-hidden="true"></i>](https://zenodo.org/record/2628280) | [<i class="fa fa-share-alt" aria-hidden="true"></i>](https://github.com/galaxyproject/training-material/tree/master/topics/metabolomics/tutorials/msi-finding-nglycans/workflows/) |
-Mass spectrometry: LC-MS analysis | | [<i class="fa fa-laptop" aria-hidden="true"></i>](https://training.galaxyproject.org/training-material/topics/metabolomics/tutorials/lcms/tutorial.html) | [<i class="fa fa-topic" aria-hidden="true"></i>](https://zenodo.org/record/3244991) | [<i class="fa fa-share-alt" aria-hidden="true"></i>](https://github.com/galaxyproject/training-material/tree/master/topics/metabolomics/tutorials/lcms/workflows/) |
+Introduction to Metabolomics | [<Icon name="presentation" />](https://galaxyproject.github.io/training-material/topics/metabolomics/slides/introduction.html) | | | |
+Mass spectrometry imaging: Examining the spatial distribution of analytes | | [<Icon name="laptop" />](https://galaxyproject.github.io/training-material/topics/metabolomics/tutorials/msi-analyte-distribution/tutorial.html) | [<Icon name="hash" />](https://zenodo.org/record/484496) | [<Icon name="share-2" />](https://github.com/galaxyproject/training-material/tree/master/topics/metabolomics/tutorials/msi-analyte-distribution/workflows/) |
+Mass spectrometry imaging: Finding differential analytes | | [<Icon name="laptop" />](https://galaxyproject.github.io/training-material/topics/metabolomics/tutorials/msi-finding-nglycans/tutorial.html) | [<Icon name="hash" />](https://zenodo.org/record/2628280) | [<Icon name="share-2" />](https://github.com/galaxyproject/training-material/tree/master/topics/metabolomics/tutorials/msi-finding-nglycans/workflows/) |
+Mass spectrometry: LC-MS analysis | | [<Icon name="laptop" />](https://training.galaxyproject.org/training-material/topics/metabolomics/tutorials/lcms/tutorial.html) | [<Icon name="hash" />](https://zenodo.org/record/3244991) | [<Icon name="share-2" />](https://github.com/galaxyproject/training-material/tree/master/topics/metabolomics/tutorials/lcms/workflows/) |
 
 --------------------------------------------------------------------
 
@@ -93,7 +94,7 @@ Other metabolomics specialized Galaxy servers:
 
 # News and Events
 
-<!-- TODO: carousel content -->
+{/* TODO: carousel content */}
 
 <iframe title="Recent Galaxy Europe news"
  class="resize-y" src="/bare/eu/latest/news/" scrolling="no"
@@ -113,7 +114,7 @@ Other metabolomics specialized Galaxy servers:
 
 <div class="img-sizer" style="width: 192px">
 
-[![GalaxyP logo](/images/logos/GalaxyPLogo.png)](https://galaxyp.org)
+<a href="https://galaxyp.org"><img src="/images/logos/GalaxyPLogo.png" alt="GalaxyP logo" /></a>
 
 </div>
 

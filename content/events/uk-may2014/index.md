@@ -13,10 +13,10 @@ Around Norwich or Edinburgh?  A [Galaxy Tour](/events/) is happening in the Unit
 
 <table>
   <tr>
-    <td colspan=3 style=" text-align: center; border: none;"> <a href='http://www.tgac.ac.uk/'><img src="/images/logos/TGACLogo.png" alt="NGS Data after the Gold Rush" height="80" /></a> </td>
+    <td colspan="3" style=" text-align: center; border: none;"> <a href='http://www.tgac.ac.uk/'><img src="/images/logos/TGACLogo.png" alt="NGS Data after the Gold Rush" height="80" /></a> </td>
   </tr>
   <tr>
-    <td colspan=3 style=" text-align: center; border: none;"> </td>
+    <td colspan="3" style=" text-align: center; border: none;"> </td>
   </tr>
   <tr>
     <td style=" text-align: center; border: none;"> <strong>6-7 May</strong> <br /> <strong>Scaling Galaxy for Big Data</strong> <br /> <strong><a href='http://www.tgac.ac.uk/SeqAhead_Scientific_Meeting_and_Management_Committee_Meeting/'>NGS Data after the Gold Rush</a></strong> <br /> <a href='http://www.tgac.ac.uk/'>The Genome Access Centre (TGAC)</a>, Norwich <br /> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/ScalingGalaxyTGAC2014.pdf'>Slides</a> <br /><br /><br /></td>

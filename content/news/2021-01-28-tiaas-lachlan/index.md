@@ -12,7 +12,7 @@ contributions:
     - elixir-europe
 ---
 
-<br>
+<br />
 In January 2021, we ran a bioinformatics workshop for 20 Australian Science Extension students for the SciX program at the University of New South Wales, Sydney. 
 
 The research project tasked the students with comparing RNA-seq data from neurodegenerative disease patients against healthy controls.

@@ -22,7 +22,7 @@ The goals of the GCB are to:
 Galaxy Governance consists of a [Galaxy Executive Board](https://galaxyproject.org/community/governance/geb/) that provides global direction, working with a [Galaxy Technical Board](https://galaxyproject.org/community/governance/gtb/) that represents [Working Groups](https://galaxyproject.org/community/wg/) and a [Galaxy Community Board](https://galaxyproject.org/community/governance/gcb/) that represents [Special Interest Groups](https://galaxyproject.org/community/sig/).
 
 <p align="center">
-<img src="structure.png" alt="Galaxy Executive Board is in a rectangle over top of two rectangles, the Galaxy Technical Board and Galaxy Community Board, which are themselves over top of Working Groups and Special Interest Groups, respectively. A Project Management Office rectangle spans the image across the bottom" style="width:450px">
+<img src="structure.png" alt="Galaxy Executive Board is in a rectangle over top of two rectangles, the Galaxy Technical Board and Galaxy Community Board, which are themselves over top of Working Groups and Special Interest Groups, respectively. A Project Management Office rectangle spans the image across the bottom" style="width:450px" />
 </p>
 
 ## Who is in the GCB?
@@ -37,19 +37,19 @@ You can learn more about **SIGs** in our dedicated tutorials below, or explore o
       <div style="display: flex; flex-wrap: nowrap; justify-content: center;">
         <div style="border: 2px solid black; padding: 10px; margin: 5px;background-color: papayawhip;">
           <a href="https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_define/tutorial.html">
-            <img src="gtn_hat.png" alt="GTN Hat" width="50">
+            <img src="gtn_hat.png" alt="GTN Hat" width="50" />
             What is a SIG?
           </a>
         </div>
         <div style="border: 2px solid black; padding: 10px; margin: 5px;background-color: papayawhip;">
           <a href="https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_create/tutorial.html">
-            <img src="gtn_hat.png" alt="GTN Hat" width="50">
+            <img src="gtn_hat.png" alt="GTN Hat" width="50" />
             Creating a SIG
           </a>
         </div>
         <div style="border: 2px solid black; padding: 10px; margin: 5px;background-color: papayawhip;">
           <a href="https://training.galaxyproject.org/training-material/topics/community/faqs/governance_gcb_join.html">
-            <img src="gtn_hat.png" alt="GTN Hat" width="50">
+            <img src="gtn_hat.png" alt="GTN Hat" width="50" />
             Join the GCB
           </a>
         </div>

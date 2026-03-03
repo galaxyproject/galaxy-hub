@@ -10,7 +10,7 @@ title: The June 2015 Galactic News!
 
 </div>
 
-<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width="150" /></a></div>
 
 Welcome to the June 2015 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. *[These newsletters](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -31,13 +31,13 @@ The new papers were tagged with:
   <tr>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
-    <td rowspan=4 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="4" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
   </tr>
@@ -224,8 +224,8 @@ There are [upcoming events](/events/) in seven countries on three continents.  S
   <tr>
     <th> June 2 </th>
     <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2015/module17-2juin.pdf'>Initiation à l’utilisation de Galaxy</a></em>  </td>
-    <td rowspan=3 style=" text-align: left;"> <div class='right'><img src="/images/icons/EU.png" alt="" /></div> <a href='http://www.jouy.inra.fr/'>Jouy-en-Josas</a>, France <div class='indent'>Partie du <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2015</a></div> </td>
-    <td rowspan=3> <a href="mailto:veronique.martin@jouy.inra.fr">Veronique Martin</a>, <a href="mailto:sophie.schbath@jouy.inra.fr">Sophie Schbath</a> </td>
+    <td rowspan="3" style=" text-align: left;"> <div class='right'><img src="/images/icons/EU.png" alt="" /></div> <a href='http://www.jouy.inra.fr/'>Jouy-en-Josas</a>, France <div class='indent'>Partie du <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2015</a></div> </td>
+    <td rowspan="3"> <a href="mailto:veronique.martin@jouy.inra.fr">Veronique Martin</a>, <a href="mailto:sophie.schbath@jouy.inra.fr">Sophie Schbath</a> </td>
   </tr>
   <tr>
     <th> June 3 </th>
@@ -285,16 +285,16 @@ There are [upcoming events](/events/) in seven countries on three continents.  S
   </tr>
   <tr>
     <th> </th>
-    <td colspan=3 style=" background-color: #eef;"> </td>
+    <td colspan="3" style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> July 4-8 </th>
     <td> <strong><a href='http://gcc2015.tsl.ac.uk/'>2015 Galaxy Community Conference (GCC2015)</a></strong> </td>
-    <td rowspan=6> <div class='right'><img src="/images/icons/EU.png" alt="" /></div> <a href='http://www.tsl.ac.uk/'>The Sainsbury Lab</a>, <a href='http://www.visitnorwich.co.uk/'>Norwich</a>, United Kingdom </td>
+    <td rowspan="6"> <div class='right'><img src="/images/icons/EU.png" alt="" /></div> <a href='http://www.tsl.ac.uk/'>The Sainsbury Lab</a>, <a href='http://www.visitnorwich.co.uk/'>Norwich</a>, United Kingdom </td>
     <td> GCC2015 Organisers </td>
   </tr>
   <tr>
-    <th rowspan=2> July 4-5 </th>
+    <th rowspan="2"> July 4-5 </th>
     <td> <div class='indent'><strong><a href='http://gcc2015.tsl.ac.uk/data_hackathon'>Data Wrangling Hackathon</a></div></strong> </td>
     <td> Data Hackathon Organisers </td>
   </tr>
@@ -305,7 +305,7 @@ There are [upcoming events](/events/) in seven countries on three continents.  S
   <tr>
     <th> July 5 </th>
     <td> <div class='indent'><strong><a href='http://gcc2015.tsl.ac.uk/training_day'>Training SunDay</a></div></strong> </td>
-    <td rowspan=2> <div class='right'><a href='https://training.galaxyproject.org/'><img src="/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> GCC2015 Organisers </td>
+    <td rowspan="2"> <div class='right'><a href='https://training.galaxyproject.org/'><img src="/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> GCC2015 Organisers </td>
   </tr>
   <tr>
     <th> July 6 </th>
@@ -330,7 +330,7 @@ There are [upcoming events](/events/) in seven countries on three continents.  S
   </tr>
   <tr>
     <th> </th>
-    <td colspan=3 style=" background-color: #eef;"> </td>
+    <td colspan="3" style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> August 6-7 </th>
@@ -340,7 +340,7 @@ There are [upcoming events](/events/) in seven countries on three continents.  S
   </tr>
   <tr>
     <th> </th>
-    <td colspan=3 style=" background-color: #eef;"> </td>
+    <td colspan="3" style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> September<br />4, 11 </th>
@@ -390,7 +390,7 @@ The [VirAmp](http://viramp.com/) server was added to the [list of public Galaxy 
 
 ## VirAmp
 
-<div class='right solid'><a href='http://viramp.com/'><img src="/use/viramp/viramp-home.png" alt="VirAmp" width=300 /></a></div>
+<div class='right solid'><a href='http://viramp.com/'><img src="/use/viramp/viramp-home.png" alt="VirAmp" width="300" /></a></div>
 
 **[VirAmp](http://viramp.com/)** is a web-based semi-*de novo* fast virus genome assembly pipeline designed for extremely high coverage NGS data. From [VirAmp: a galaxy-based viral genome assembly pipeline](http://www.gigasciencejournal.com/content/4/1/19), Yinan Wan, Daniel W Renner, Istvan Albert and Moriah L Szpara, *[GigaScience](http://www.gigasciencejournal.com/)* 2015, 4:19 doi:10.1186/s13742-015-0060-y
       [VirAmp](http://viramp.com/) "combines existing tools and techniques and presents them to end users via a web-enabled Galaxy interface. Our pipeline allows users to assemble, analyze, and interpret high coverage viral sequencing data with an ease and efficiency that was not possible previously. Our software makes a large number of genome assembly and related tools available to life scientists and automates the currently recommended best practices into a single, easy to use interface. We tested our pipeline with three different datasets from human herpes simplex virus (HSV)."
@@ -467,7 +467,7 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 * [Videos from Pitagora Galaxy workshop](http://bit.ly/1CPXf8v) are now online
 * [GigaScience Pushes Metabolomics Open Data & Training](http://blogs.biomedcentral.com/gigablog/2015/05/13/gigascience-pushes-metabolomics-open-data-training/), by [Scott Edmunds](http://blogs.biomedcentral.com/gigablog/author/scottedmunds)
 
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width="150" /></a></div>
 
 # ToolShed Contributions
 

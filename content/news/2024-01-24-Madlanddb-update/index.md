@@ -27,11 +27,11 @@ MAdLandDB is a protein database comprising a comprehensive collection of fully s
 <div class="img-sizer" style="width: 30%"> -->
 
 [![MAdland](madland_logo.jpg)](https://madland.science/)
-<br>
+<br />
 [![plantco_logo](plantco.de5.jpg)](http://www.plantco.de/)
 </div>
 </div>
-<br>
+<br />
 
 
 ### What Sets MAdLandDB Apart? 

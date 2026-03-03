@@ -4,8 +4,8 @@ title: GalaxyAdmins BoF
 
 <slot name="/events/gcc2013/header" />
 
-import linkbox from "../../linkbox.json"
-<link-box :data="linkbox" />
+
+<link-box data="linkbox" />
 
 <slot name="/events/gcc2013/bof/linkbox" />
 <slot name="/community/galaxy-admins/linkbox" />

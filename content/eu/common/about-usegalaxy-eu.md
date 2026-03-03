@@ -3,8 +3,8 @@ title: Galaxy Europe
 subtitle: The homepage of the European Galaxy community
 ---
 
-<!-- Color palette: https://www.color-hex.com/color-palette/9983 -->
-<!-- "The European Galaxy server" info box -->
+{/*  Color palette: https://www.color-hex.com/color-palette/9983  */}
+{/*  "The European Galaxy server" info box  */}
 
 <div class="card border-secondary bg-secondary" style="width: 100%;">
   <div class="card-body">

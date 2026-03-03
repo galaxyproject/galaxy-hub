@@ -4,7 +4,7 @@ date: "2015-10-01"
 subsites: [global, us]
 ---
 <div class='right'>
-<a href='/galaxy-updates/2015-10/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galactic News! October 2015 Edition" width=170 /></a><br /><br />
+<a href='/galaxy-updates/2015-10/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galactic News! October 2015 Edition" width="170" /></a><br /><br />
 <a href='/galaxy-updates/2015-10/#october-galaxyadmins-meetup'><img src="/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins meetup October 15" width="170" /></a><br />
 <a href='/galaxy-updates/2015-10/#gcc2016-call-for-training-topic-nominations'><img src="/events/gcc2016/GCC2016TrainingLogo400.png" alt="GCC2016 Training" width="80" /></a>
 <a href='/galaxy-updates/2015-10/#upcoming-events'><img src="/images/logos/GalxyEventsCalThumb.png" alt="Galaxy Events Calendar" width="90" /></a><br />

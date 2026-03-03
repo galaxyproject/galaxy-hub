@@ -48,11 +48,11 @@ Sponsorships are available at four different levels.
     <td style=" border: none; text-align: center;"> <a href='http://www.uic.edu/labs/bds/bdslab/Welcome.html'>Bernard Santarsiero</a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='http://www.igb.uiuc.edu/'><img src="/events/gcc2012/sponsorships/UIUC_IGB280.png" alt="The Institute for Genomic Biology" width=260 /></a> </td>
+    <td style=" text-align: center; border: none;"> <a href='http://www.igb.uiuc.edu/'><img src="/events/gcc2012/sponsorships/UIUC_IGB280.png" alt="The Institute for Genomic Biology" width="260" /></a> </td>
     <td style=" border: none; text-align: center;"> <a href='/people/radhika-khetani/'>Radhika Khetani</a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='http://www.biotech.uiuc.edu/'><img src="/events/gcc2012/sponsorships/UIUC_RJC_Biotech_Center280.png" alt="Roy J. Carver Biotechnology Center" width=260 /></a> </td>
+    <td style=" text-align: center; border: none;"> <a href='http://www.biotech.uiuc.edu/'><img src="/events/gcc2012/sponsorships/UIUC_RJC_Biotech_Center280.png" alt="Roy J. Carver Biotechnology Center" width="260" /></a> </td>
     <td style=" border: none; text-align: center;"> <a href='http://www.bioperl.org/wiki/User:Cjfields'>Chris Fields</a> </td>
   </tr>
   <tr>
@@ -73,7 +73,7 @@ Sponsorships are available at four different levels.
   <tr>
     <td style=" text-align: center; border: none;"> <a href='http://uic.edu/'><img src="/images/logos/UICLogo.png" alt="University of Illinois Chicago"  /></a> </td>
     <td style=" text-align: center; border: none;"> &nbsp;&nbsp; <a href='http://illinois.edu/'><img src="/images/logos/UIUCLogo.png" alt="University of Illinois at Urbana-Champaign"  /></a> &nbsp;&nbsp; </td>
-    <td style=" text-align: center; border: none;"> <a href='http://http://www.ci.uchicago.edu/'><img src="/images/logos/ComputaitonInstituteLogo.png" alt="Computation Institute" height=80 /></a> </td>
+    <td style=" text-align: center; border: none;"> <a href='http://http://www.ci.uchicago.edu/'><img src="/images/logos/ComputaitonInstituteLogo.png" alt="Computation Institute" height="80" /></a> </td>
   </tr>
 </table>
 

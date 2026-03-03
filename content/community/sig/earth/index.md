@@ -2,6 +2,7 @@
 description: "Whether you are analysing geosphere, biosphere, cryosphere, hydrosphere, and atmosphere, in short all Earth related sciences this is the place to be!"
 autotoc: true
 title: "Earth data analysis in Galaxy"
+components: true
 ---
 
 <slot name="/community/sig/common_linkbox" />
@@ -27,26 +28,26 @@ Several curated Galaxy workflows are publicly available for different kinds of e
 
 | Target | Analysis | GTN Tutorial | Workflow |
 |--------|----------|--------------|----------|
-| Coastal water dynamics | Oceanographic study | <a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/ocean-variables/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/ocean-variables/workflows/" class="fas fa-share-alt" aria-hidden="true"></a> |
-| Biogeochemical and physical ocean study | Oceanographic study  | <a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/argo_pangeo/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/argo_pangeo/workflows/" class="fas fa-share-alt" aria-hidden="true"></a> |
+| Coastal water dynamics | Oceanographic study | <a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/ocean-variables/tutorial.html" aria-hidden="true"><Icon name="graduation-cap" /></a> | <a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/ocean-variables/workflows/" aria-hidden="true"><Icon name="share-2" /></a> |
+| Biogeochemical and physical ocean study | Oceanographic study  | <a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/argo_pangeo/tutorial.html" aria-hidden="true"><Icon name="graduation-cap" /></a> | <a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/argo_pangeo/workflows/" aria-hidden="true"><Icon name="share-2" /></a> |
 
 ### Land
 
 | Target | Analysis | GTN Tutorial | Workflow |
 |--------|----------|--------------|----------|
-| Land degradation | Land study | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/ndvi_openeo/tutorial.html" class="fas fa-graduation-cap" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/ndvi_openeo/workflows/" class="fas fa-share-alt" aria-hidden="true"></a> |
+| Land degradation | Land study | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/ndvi_openeo/tutorial.html" aria-hidden="true"><Icon name="graduation-cap" /></a> | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/ndvi_openeo/workflows/" aria-hidden="true"><Icon name="share-2" /></a> |
 
 ### Biodiversity
 
 | Target | Analysis | GTN Tutorial | Workflow |
 |--------|----------|--------------|----------|
-| Marine omics | Marine biodiversity study | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/obisindicators/tutorial.html" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/obisindicators/workflows/" class="fas fa-share-alt" aria-hidden="true"></a> |
-| Biodiversity data exploration | Biodiversity state of the art | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/biodiversity-data-exploration/tutorial.html" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/biodiversity-data-exploration/workflows/" class="fas fa-share-alt" aria-hidden="true"></a> |
+| Marine omics | Marine biodiversity study | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/obisindicators/tutorial.html" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/obisindicators/workflows/" aria-hidden="true"><Icon name="share-2" /></a> |
+| Biodiversity data exploration | Biodiversity state of the art | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/biodiversity-data-exploration/tutorial.html" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/biodiversity-data-exploration/workflows/" aria-hidden="true"><Icon name="share-2" /></a> |
 ### Atmosphere
 
 | Target | Analysis | GTN Tutorial | Workflow |
 |--------|----------|--------------|----------|
-| Volcano | Volcanic eruption atmosphere study | <a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/sentinel5_data/tutorial.html" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/sentinel5_data/workflows/" class="fas fa-share-alt" aria-hidden="true"></a> |
+| Volcano | Volcanic eruption atmosphere study | <a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/sentinel5_data/tutorial.html" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/sentinel5_data/workflows/" aria-hidden="true"><Icon name="share-2" /></a> |
 
 Want to include your workflow here? Let us know!
 

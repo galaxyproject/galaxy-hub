@@ -47,6 +47,6 @@ This research sheds new light on the unique microbial ecosystems that thrive in 
 
 A special thank you to the entire research team for using Galaxy to power their phylogenetic analyses. Your work highlights the platform’s versatility and underscores the importance of open, accessible tools in advancing marine microbiology.
 
----<br><be> 
+---<br /><be> 
 
 Wegener G, Molari M, Purser A, Diehl A, Albers E, Walter M, Mertens C, German CR and Boetius A (2024) Hydrothermal vents supporting persistent plumes and microbial chemoautotrophy at Gakkel Ridge (Arctic Ocean). Front. Microbiol. 15:1473822. doi: 10.3389/fmicb.2024.1473822
