@@ -1011,7 +1011,7 @@ jannemarkustoivonen:
     name: Janne Markus Toivonen
     github: false
     joined: 2026-01
-    
+
 jeffreyperkel:
     gtn-halloffame: "no"
     name: Jeffrey Perkel
@@ -1636,7 +1636,7 @@ ethering:
     joined: 2019-10
 
 etzm:
-    name: Martin Etzrodt 
+    name: Martin Etzrodt
     joined: 2026-01
     orcid: 0000-0003-1928-3904
     affiliations:
@@ -2615,7 +2615,7 @@ poterlowicz-lab:
     elixir_node: uk
     affiliations:
       - elixir-europe
-      
+
 maartenpaul:
     name: Maarten Paul
     email: m.w.paul@lacdr.leidenuniv.nl
@@ -3118,6 +3118,12 @@ nuwang:
 nvk747:
     name: Vijay
     joined: 2018-07
+
+ocaisa:
+    name: "Alan O'Cais"
+    joined: 2026-03
+    former_affiliations:
+      - biont
 
 odameron:
     name: Olivier Dameron
@@ -3857,6 +3863,12 @@ thomaswollmann:
       - deNBI
       - elixir-europe
 
+Tillsa:
+    name: Till Sauerwein
+    joined: 2026-03
+    affiliations:
+      - biont
+
 timonschlegel:
     name: Timon Schlegel
     orcid: 0009-0001-3228-105X
@@ -3952,6 +3964,27 @@ twishigulati:
 tuncK:
     name:  Tunc Kayikcioglu
     joined: 2023-10
+
+unode:
+    name: Renato Alves
+    email: renato.alves@embl.de
+    fediverse: https://mstdn.science/@renato_alves
+    fediverse_flavor: mastodon
+    bluesky: alves-renato.bsky.social
+    matrix: 'renato_alves:matrix.org'
+    orcid: 0000-0002-7212-0234
+    joined: 2026-03
+    bio: Bioinformatics Community Manager at EMBL
+    elixir_node: de
+    contact_for_training: true
+    affiliations:
+      - embl
+      - elixir-europe
+      - biont
+    location:
+      country: DE
+      lat: 49.384622
+      lon: 8.710142
 
 uwwint:
     name: Uwe Winter
@@ -4212,7 +4245,7 @@ rmassei:
     joined: 2024-11
     affiliations:
       - nfdi4bioimage
-      - ufz
+      - helmholtz-ufz
 
 sfragkoul:
     name: Stella Fragkouli
