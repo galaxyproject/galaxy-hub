@@ -1,5 +1,6 @@
 ---
 import HomeLayout from '../layouts/HomeLayout.astro';
+import HeroHighlight from '../components/HeroHighlight.astro';
 import { getCollection } from 'astro:content';
 
 // Get recent news from the news collection
@@ -325,15 +326,9 @@ const pillars = [
       align-items: center;
     }
 
-    .hero-visual img {
-      max-width: 360px;
-      height: auto;
-      filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.3));
-    }
-
     @media (max-width: 900px) {
-      .hero-visual img {
-        max-width: 240px;
+      .hero-visual {
+        margin-top: 1rem;
       }
     }
 
@@ -1060,7 +1055,7 @@ const pillars = [
           </div>
         </div>
         <div class="hero-visual">
-          <img src="/images/galaxy_logo_white.svg" alt="Galaxy" />
+          <HeroHighlight />
         </div>
       </div>
     </section>
