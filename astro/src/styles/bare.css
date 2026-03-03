@@ -26,6 +26,10 @@
     padding-bottom: 0;
   }
 
+  a {
+    color: var(--color-galaxy-primary);
+  }
+  
   a:hover {
     text-decoration: underline !important;
   }
