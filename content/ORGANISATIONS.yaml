@@ -134,6 +134,13 @@ elixir-cz:
     github: false
     gtn-halloffame: "no"
 
+elixir-de:
+    name: ELIXIR Germany
+    url: https://www.denbi.de/elixir-de/
+    github: false
+    gtn-halloffame: "no"
+    avatar: "/training-material/shared/images/logos/ELIXIR-Germany-logo.jpg"
+
 esa:
     name: European Space Agency
     github: false
@@ -151,6 +158,12 @@ galaxyworks:
     url: https://galaxyworks.io/
     github: false
     gtn-halloffame: "no"
+
+ghga-de:
+    name: GHGA
+    url: https://www.ghga.de/
+    gtn-halloffame: "no"
+    avatar: "/training-material/shared/images/logos/ghga-logo.svg"
 
 gigascience:
     name: GigaScience
@@ -266,6 +279,13 @@ elixir-goblet-ttt:
     joined: 2022-09
     github: false
     avatar: "/training-material/shared/images/elixir.png"
+
+embl:
+    short_name: EMBL
+    name: European Molecular Biology Laboratory
+    url: https://www.embl.org
+    github: false
+    ror: "01zjc6908"
 
 embl-ebi:
     short_name: EMBL-EBI
@@ -608,9 +628,8 @@ tb-capt:
     avatar: "/training-material/shared/images/tb_capt.svg"
     github: false
 
-ufz:
+helmholtz-ufz:
     name: UFZ - Helmholtz-Zentrum für Umweltforschung UFZ
-    github: https://github.com/Helmholtz-UFZ
     url: https://www.ufz.de/
     avatar: /training-material/shared/images/logos/UFZ-logo.png
 
