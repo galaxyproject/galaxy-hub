@@ -27,7 +27,7 @@ title: 'James Peter Taylor | 1979 - 2020'
 <br />
 
 <div class="text-center">
-<a href="https://jxtxfoundation.org/donate/" class="btn btn-secondary" style="font-size: x-large; font-weight: 600; text-decoration: none; display: inline-block; margin: 0.5rem;">Donate now</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="https://jxtxfoundation.org/" class="btn btn-secondary" style="font-size: x-large; font-weight: 600; text-decoration: none; display: inline-block; margin: 0.5rem;">Learn more</a>
+<a href="https://jxtxfoundation.org/donate/" class="btn btn-primary" style="font-size: x-large; font-weight: 600; text-decoration: none; display: inline-block; margin: 0.5rem;">Donate now</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="https://jxtxfoundation.org/" class="btn btn-primary" style="font-size: x-large; font-weight: 600; text-decoration: none; display: inline-block; margin: 0.5rem;">Learn more</a>
 </div>
 
 <br />

@@ -123,7 +123,7 @@ function filteredItems(section: NavSection) {
     >
       <SheetHeader class="px-4 py-3 border-b border-medium-bg flex-shrink-0">
         <SheetTitle class="text-white flex items-center gap-2">
-          <img src="/galaxy-logo.svg" alt="Galaxy" class="h-8" />
+          <img src="/images/galaxy_logo_hub_white.svg" alt="Galaxy" class="h-8" />
           Galaxy Hub
         </SheetTitle>
       </SheetHeader>

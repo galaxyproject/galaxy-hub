@@ -1,7 +1,6 @@
 ---
 autotoc: true
 title: Analysis of ChIP-seq data
-redirect: "/learn"
 components: true
 ---
 

@@ -24,7 +24,11 @@ const subsiteEvents = allEvents.filter((event) => {
   const eventSubsites = event.data.subsites;
   if (!eventSubsites) return false;
   const subsitesArray = Array.isArray(eventSubsites) ? eventSubsites : [eventSubsites];
-  return subsitesArray.includes(subsite);
+  return (
+    subsitesArray.includes('all') ||
+    subsitesArray.includes(subsite) ||
+    subsitesArray.some((s) => s.toLowerCase() === subsite.toLowerCase())
+  );
 });
 
 const upcomingEvents = subsiteEvents
@@ -46,7 +50,11 @@ const subsiteNews = allNews
     const articleSubsites = article.data.subsites;
     if (!articleSubsites) return false;
     const subsitesArray = Array.isArray(articleSubsites) ? articleSubsites : [articleSubsites];
-    return subsitesArray.includes(subsite);
+    return (
+      subsitesArray.includes('all') ||
+      subsitesArray.includes(subsite) ||
+      subsitesArray.some((s) => s.toLowerCase() === subsite.toLowerCase())
+    );
   })
   .sort((a, b) => {
     const dateA = a.data.date instanceof Date ? a.data.date : new Date(a.data.date || '');
