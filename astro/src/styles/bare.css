@@ -7,6 +7,12 @@
 
 /* IFB main3 - Tailwind-based card styling with @apply */
 @layer components {
+  body {
+    /* -webkit-font-smoothing: subpixel-antialiased; */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: auto; /* For Firefox */
+    font-weight: 500;
+  }
   h1,
   h2,
   h3,
@@ -21,7 +27,7 @@
   .h6 {
     font-weight: normal;
     line-height: 1.2;
-    margin: 0.75rem 0 0.75rem;
+    margin: 0.5rem 0 0.5rem;
     border-bottom: none;
     padding-bottom: 0;
   }
@@ -36,28 +42,28 @@
 
   h1,
   .h1 {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
   }
 
   h2,
   .h2 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: normal !important;
   }
 
   h3,
   .h3 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   h4,
   .h4 {
-    font-size: 1.15rem;
+    font-size: 1.3rem;
   }
 
   h5,
   .h5 {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 
   h6,
@@ -67,11 +73,17 @@
 
   .card-deck {
     gap: 0.25rem !important;
+    margin-bottom: 2rem !important;
 
     .card {
+      margin-top: 1rem;
       margin-left: 0 !important;
       background-color: #f8f9fa !important;
       border: 1px solid #dee2e6;
+    }
+
+    .border-secondary {
+      border-color: #dee2e6 !important;
     }
 
     .card-body {
@@ -97,8 +109,13 @@
         width: auto;
       }
 
+      .card-text {
+        margin-bottom: 1rem !important;
+      }
+
       .text-center {
         line-height: 0.55rem;
+        /* line-height: 0.85rem; */
       }
     }
   }
