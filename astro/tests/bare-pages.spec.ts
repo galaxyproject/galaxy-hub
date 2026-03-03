@@ -103,7 +103,7 @@ test.describe('Bare Pages', () => {
       const response = await page.goto('/bare/fr/events/');
       expect(response?.status()).toBe(200);
 
-      await expect(page.locator('h2')).toContainText('Galaxy France Events');
+      await expect(page.getByRole('heading', { name: 'Galaxy France Events' })).toBeVisible();
 
       // Table should be present (may have upcoming and/or recent sections)
       const table = page.locator('table.events-table').first();
