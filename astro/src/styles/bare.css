@@ -1,127 +1,156 @@
-@import 'tailwindcss'; /* TODO create base.css for Tailwind imports and utilities, then import that here */
+@import 'tailwindcss';
 @import 'tw-animate-css';
-/* @import './bootstrap-compat.css'; */
 @import '@fontsource/atkinson-hyperlegible/400.css';
 @import '@fontsource/atkinson-hyperlegible/700.css';
 @plugin "@tailwindcss/typography";
 
-/* IFB main3 - Tailwind-based card styling with @apply */
-@layer components {
-  body {
-    /* -webkit-font-smoothing: subpixel-antialiased; */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: auto; /* For Firefox */
-    font-weight: 500;
-  }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  .h1,
-  .h2,
-  .h3,
-  .h4,
-  .h5,
-  .h6 {
-    font-weight: normal;
-    line-height: 1.2;
-    margin: 0.5rem 0 0.5rem;
-    border-bottom: none;
-    padding-bottom: 0;
-  }
+/* Region-specific UseGalaxy.* Home Page styles - based on legacy bootstrap and designed to work in conjunction with the .bs-compat class */
 
-  a {
-    color: var(--color-galaxy-primary);
+body {
+  font-weight: 500 !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-weight: normal;
+  line-height: 1.2;
+  margin: 0.5rem 0 0.5rem;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+a {
+  color: var(--color-galaxy-primary);
+}
+
+a:hover {
+  text-decoration: underline !important;
+}
+
+h1,
+.h1 {
+  font-size: 1.75rem;
+}
+
+h2,
+.h2 {
+  font-size: 1.5rem;
+  font-weight: normal !important;
+}
+
+h3,
+.h3 {
+  font-size: 1.4rem;
+}
+
+h4,
+.h4 {
+  font-size: 1.3rem;
+}
+
+h5,
+.h5 {
+  font-size: 1.2rem;
+}
+
+h6,
+.h6 {
+  font-size: 1rem;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 0.5rem;
+  margin-left: 1.6rem;
+}
+
+li {
+  margin: 0 0 0.25rem;
+  font-size: 0.875rem;
+  line-height: 1.2;
+
+  &::marker {
+    color: #000;
   }
+}
 
-  a:hover {
-    text-decoration: underline !important;
-  }
+.card {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: auto; /* For Firefox */
+  margin-left: 0 !important;
+  background-color: #f8f9fa !important;
+  border: 1px solid #dee2e6;
+}
 
-  h1,
-  .h1 {
-    font-size: 1.75rem;
-  }
+.card-deck {
+  gap: 0.25rem !important;
+  margin-top: 1rem;
+  margin-bottom: 2rem !important;
 
-  h2,
-  .h2 {
-    font-size: 1.5rem;
-    font-weight: normal !important;
-  }
+  .card-body {
+    padding: 1.25rem;
 
-  h3,
-  .h3 {
-    font-size: 1.4rem;
-  }
-
-  h4,
-  .h4 {
-    font-size: 1.3rem;
-  }
-
-  h5,
-  .h5 {
-    font-size: 1.2rem;
-  }
-
-  h6,
-  .h6 {
-    font-size: 1rem;
-  }
-
-  .card-deck {
-    gap: 0.25rem !important;
-    margin-bottom: 2rem !important;
-
-    .card {
-      margin-top: 1rem;
-      margin-left: 0 !important;
-      background-color: #f8f9fa !important;
-      border: 1px solid #dee2e6;
+    p {
+      font-size: 0.9rem;
+      line-height: 1.2;
+      margin-bottom: 1rem;
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      unicode-bidi: isolate;
+      padding: 0.75rem 1.25rem 0px;
     }
 
-    .border-secondary {
-      border-color: #dee2e6 !important;
+    img {
+      margin: 0 auto;
+      display: block;
+      height: 100px;
+      width: auto;
     }
 
-    .card-body {
-      padding: 1.25rem;
-
-      p {
-        font-size: 0.9rem;
-        line-height: 1.2;
-        margin-bottom: 1rem;
-        display: block;
-        margin-block-start: 1em;
-        margin-block-end: 1em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-        unicode-bidi: isolate;
-        padding: 0.75rem 1.25rem 0px;
-      }
-
-      img {
-        margin: 0 auto;
-        display: block;
-        height: 100px;
-        width: auto;
-      }
-
-      .card-text {
-        margin-bottom: 1rem !important;
-      }
-
-      .text-center {
-        line-height: 0.55rem;
-        /* line-height: 0.85rem; */
-      }
+    .text-center {
+      line-height: 0.55rem;
     }
   }
+}
 
-  [data-name='/ifb/main3'] .card-deck .card-body img[alt='microGalaxy'] {
-    height: 50px;
-    width: auto;
+.card-text {
+  padding: 0.75rem 1rem 1rem 0.5rem !important;
+}
+
+.border-secondary {
+  border-color: #dee2e6 !important;
+
+  &.bg-secondary {
+    margin-top: 1.5rem;
+    max-width: none;
+    background-color: #dee2e6 !important;
+  }
+}
+
+/* Site-specific overrides by directory-path css selector */
+
+[data-name='/ifb/main3'] .card-deck .card-body img[alt='microGalaxy'] {
+  height: 50px;
+  width: auto;
+}
+
+[data-name='/ifb/lead2'] {
+  li {
+    line-height: 1.5;
+  }
+  p {
+    font-size: 0.875rem;
   }
 }

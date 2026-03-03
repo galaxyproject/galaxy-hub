@@ -145,70 +145,6 @@ const { title, description } = Astro.props;
     }
   }
 
-  [data-name='/eu/main2'] {
-    margin: 3rem 0;
-
-    .bs-compat.card-deck {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1rem;
-      margin-bottom: 0;
-    }
-
-    .bs-compat.card {
-      flex: 1 1 auto;
-      margin: 0;
-      background-color: #f8f9fa !important;
-      border: 1px solid #dee2e6;
-    }
-
-    .bs-compat.card-body {
-      page-break-inside: avoid;
-      break-inside: avoid;
-      padding: 1.5rem;
-    }
-
-    h2 {
-      font-size: 1.375rem;
-      margin: 0 0 1rem;
-      color: #212529;
-      border-bottom: none !important;
-      padding-bottom: 0;
-    }
-
-    .card-text {
-      font-size: 1rem;
-      line-height: 1.1;
-      margin-bottom: 1rem;
-      min-height: 4.5rem;
-      padding: 0.75rem 1rem 0;
-    }
-
-    .text-center {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 0;
-    }
-
-    img {
-      margin: 0 auto;
-      display: block;
-      height: 100px;
-      width: auto;
-    }
-
-    .btn {
-      margin-top: 0.5rem;
-      font-size: 1rem;
-      white-space: normal;
-
-      &:hover {
-        text-decoration: underline;
-      }
-    }
-  }
-
   [data-name='/eu/common/data-policy'] {
     table {
       padding: 0;
@@ -363,51 +299,6 @@ const { title, description } = Astro.props;
       display: inline-block;
       vertical-align: top;
       float: right;
-    }
-  }
-
-  [data-name='/ifb/main1'] {
-    margin-bottom: 1.5rem;
-    font-size: 0.875rem;
-
-    .bs-compat.card.border-secondary.bg-secondary {
-      margin-top: 1.5rem;
-      max-width: none;
-      background-color: #dee2e6 !important;
-    }
-
-    h2 {
-      font-size: 1.25rem;
-      margin: 0 0 0.75rem;
-      border-bottom: none !important;
-      padding-bottom: 0;
-    }
-
-    .bs-compat.card-text {
-      font-size: 1rem;
-      line-height: 1.3;
-      padding: 0.75rem 1rem 0;
-    }
-
-    .text-center {
-      font-size: 0.875rem;
-      line-height: 1.1;
-    }
-
-    ul {
-      list-style-type: disc;
-      padding-left: 1.5rem;
-      margin-left: 1.6rem;
-    }
-
-    li {
-      margin: 0 0 0.25rem;
-      font-size: 0.875rem;
-      line-height: 1.2;
-
-      &::marker {
-        color: #000;
-      }
     }
   }
 </style>
