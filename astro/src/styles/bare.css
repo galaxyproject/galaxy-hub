@@ -29,7 +29,7 @@
   a {
     color: var(--color-galaxy-primary);
   }
-  
+
   a:hover {
     text-decoration: underline !important;
   }
@@ -69,7 +69,7 @@
     gap: 0.25rem !important;
 
     .card {
-      margin-left: 0;
+      margin-left: 0 !important;
       background-color: #f8f9fa !important;
       border: 1px solid #dee2e6;
     }
