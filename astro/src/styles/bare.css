@@ -8,6 +8,7 @@
 
 body {
   font-weight: 500 !important;
+  color: var(--color-gray-800);
 }
 h1,
 h2,
@@ -139,18 +140,71 @@ li {
   }
 }
 
-/* Site-specific overrides by directory-path css selector */
+/* Events & News modules */
+
+:root {
+  --gap-news-events-modules: 3rem;
+  --border-width-news-events-modules: 5px;
+}
+
+iframe[title*='Recent Galaxy France news'],
+iframe[title*='Recent Galaxy France events'] {
+  width: calc(50% - var(--gap-news-events-modules) / 2 - var(--border-width-news-events-modules)) !important;
+  display: inline-block;
+  vertical-align: top;
+}
+
+iframe[title*='Recent Galaxy France news'] {
+  margin-right: var(--gap-news-events-modules) !important;
+}
+
+/* Site-specific overrides by directory-path css selector: IFB */
+
+[data-name='/ifb/lead1'] {
+  float: right;
+  margin: 0 0 1rem 1.5rem;
+  max-width: 350px;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 0 0.5rem;
+  }
+
+  .img-sizer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0.5rem 0 0;
+    flex-wrap: nowrap;
+
+    a {
+      display: inline-flex;
+      align-items: center;
+      margin: 0;
+    }
+
+    img {
+      height: 70px;
+      width: auto;
+      margin: 0;
+      display: block;
+    }
+  }
+}
+[data-name='/ifb/lead2'] {
+  li {
+    line-height: 1.4;
+  }
+  p {
+    font-size: 0.875rem;
+    margin: 1rem 0;
+  }
+}
 
 [data-name='/ifb/main3'] .card-deck .card-body img[alt='microGalaxy'] {
   height: 50px;
   width: auto;
-}
-
-[data-name='/ifb/lead2'] {
-  li {
-    line-height: 1.5;
-  }
-  p {
-    font-size: 0.875rem;
-  }
 }
