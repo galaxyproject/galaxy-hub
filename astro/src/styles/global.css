@@ -239,6 +239,14 @@ body {
   margin-right: auto;
 }
 
+/* Inline icon images in list items should flow with text, not center as block */
+.prose li img {
+  display: inline;
+  margin: 0;
+  border-radius: 0;
+  vertical-align: middle;
+}
+
 .prose table {
   width: 100%;
   border-collapse: collapse;

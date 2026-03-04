@@ -34,7 +34,7 @@ Many of the __illustrations__ used in this Community Hub are from [unDraw](https
 
     (The background is actually transparent. The image has been placed over a gray background to make the white elements visible.)
 
-    [![Galaxy Project Logo, white text, transparent backgound](/images/galaxy-logos/galaxy_project_logo_white.png){width="300" style="margin: 5px; padding: 5px; border: 1px solid #ccc; border-radius: 5px; background-color: #dfdfdf"}](/images/galaxy-logos/galaxy_project_logo_white.png)
+    <a href="/images/galaxy-logos/galaxy_project_logo_white.png"><img src="/images/galaxy-logos/galaxy_project_logo_white.png" alt="Galaxy Project Logo, white text, transparent background" width="300" style="margin: 5px; padding: 5px; border: 1px solid #ccc; border-radius: 5px; background-color: #dfdfdf" /></a>
 
 * White text, slate blue (#2C3143) background, symbol + "Galaxy Project": [1600x566 pixels](/images/galaxy-logos/galaxy_project_logo_blue.png)
 
@@ -46,7 +46,7 @@ Many of the __illustrations__ used in this Community Hub are from [unDraw](https
 
 * Application logo, no text, transparent background (good for icons): [597x451 pixels](/images/galaxy-logos/galaxy_project_logo_white.png)
 
-    [![Galaxy Project Logo, white text, transparent backgound](/images/galaxy-logos/galaxy_project_logo_square_no_text_trans.png){width="147"}](/images/galaxy-logos/galaxy_project_logo_square_no_text_trans.png)
+    <a href="/images/galaxy-logos/galaxy_project_logo_square_no_text_trans.png"><img src="/images/galaxy-logos/galaxy_project_logo_square_no_text_trans.png" alt="Galaxy Project Logo, no text, transparent background" width="147" /></a>
 
 # UseGalaxy and Communities Logos
 
