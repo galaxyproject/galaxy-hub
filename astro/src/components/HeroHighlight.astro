@@ -71,12 +71,12 @@ const image = normalizeImagePath(rawImage);
       border-color 0.2s ease;
   }
 
-  .hero-highlight-container.show-card .hero-logo {
+  .hero-highlight-container:global(.show-card) .hero-logo {
     opacity: 0;
     pointer-events: none;
   }
 
-  .hero-highlight-container.show-card .hero-highlight-link {
+  .hero-highlight-container:global(.show-card) .hero-highlight-link {
     opacity: 1;
   }
 
