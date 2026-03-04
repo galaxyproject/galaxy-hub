@@ -1,16 +1,16 @@
 ---
-import { normalizeSlug } from "../build/preprocess.mjs";
+import { normalizeSlug } from '../build/preprocess.mjs';
 
 // Edit these to change the homepage hero highlight.
 // Set image to "" to show the Galaxy logo instead.
-const rawImage = "/images/events/gcc2026/gcc2026-carousel.png";
-const link = "/events/gcc2026/";
-const alt = "Galaxy Community Conference 2026";
+const rawImage = '/images/events/gcc2026/gcc2026-carousel.png';
+const link = '/events/gcc2026/';
+const alt = 'Galaxy Community Conference 2026';
 
 // Normalize directory segments to match preprocessing output.
 function normalizeImagePath(src: string) {
   if (!src) return src;
-  const lastSlash = src.lastIndexOf("/");
+  const lastSlash = src.lastIndexOf('/');
   if (lastSlash < 0) return src;
   const dir = src.slice(0, lastSlash);
   const file = src.slice(lastSlash);
