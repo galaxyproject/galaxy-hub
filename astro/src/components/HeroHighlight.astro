@@ -30,7 +30,16 @@ const image = normalizeImagePath(rawImage);
   }
 </div>
 
-{image && <script>setTimeout(() => document.getElementById('hero-highlight')?.classList.add('show-card'), 1000);</script>}
+{image && <script>{
+  const el = document.getElementById('hero-highlight');
+  if (el) {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      el.classList.add('show-card');
+    } else {
+      setTimeout(() => el.classList.add('show-card'), 1000);
+    }
+  }
+}</script>}
 
 <style>
   .hero-highlight-container {
@@ -82,6 +91,13 @@ const image = normalizeImagePath(rawImage);
     width: 100%;
     max-width: 520px;
     height: auto;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .hero-logo,
+    .hero-highlight-link {
+      transition: none;
+    }
   }
 
   @media (max-width: 900px) {
