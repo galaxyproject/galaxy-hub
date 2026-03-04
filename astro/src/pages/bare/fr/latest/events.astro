@@ -87,11 +87,24 @@ function formatDateRange(start: Date | string | undefined, end: Date | string | 
         display: flex;
         align-items: center;
         gap: 10px;
+        height: 3.5rem;
       }
 
       .card-header-icon {
         color: #25537b;
         font-size: 18px;
+      }
+
+      .card-header > a:first-child {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .card-header > a:first-child svg {
+        color: #25537b;
+        font-size: 28px;
+        line-height: 28px;
+        height: 34px;
       }
 
       .card-header-title {
@@ -163,15 +176,8 @@ function formatDateRange(start: Date | string | undefined, end: Date | string | 
   <body>
     <div class="home-card">
       <div class="card-header">
-        <a
-          href="https://galaxyproject.org/bare/fr/events/"
-          target="_blank"
-          style="color: inherit; text-decoration: none;"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 640 640"
-            style="color: #25537b; font-size: 28px; line-height:28px; height:34px;"
+        <a href="https://galaxyproject.org/bare/fr/events/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"
             ><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
             <path
               fill="currentColor"
