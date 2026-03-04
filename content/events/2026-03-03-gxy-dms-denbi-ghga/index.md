@@ -9,7 +9,7 @@ title: Practical Variant Effect Prediction with Deep Mutational Scanning Data
 location:
   name: Online, Global
 continent: EU
-supporters: [denbi, elixir, ghga]
+supporters: [deNBI, elixir-de, ghga-de]
 external_url: https://www.denbi.de/de-nbi-events/2042-de-nbi-elixir-de-and-ghga-webinar-series-the-knowledge-series-practical-variant-effect-prediction-with-deep-mutational-scanning-data-vol-5
 tease: 'A webinar in the de.NBI & ELIXIR-DE and GHGA knowledge series'
 ---
