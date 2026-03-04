@@ -1,0 +1,60 @@
+---
+/**
+ * EmbedLayout
+ * Middle-ground layout for embedding subsite pages in iframes.
+ * No sidebar or navigation chrome, but includes a minimal attribution footer.
+ */
+
+import '../styles/global.css';
+import '../styles/bootstrap-compat.css';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description } = Astro.props;
+const year = new Date().getFullYear();
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description || `${title} - Galaxy Community Hub`} />
+    <title>{title} | Galaxy</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body class="min-h-screen bg-white text-gray-900">
+    <main class="p-4 sm:p-6 lg:p-8">
+      <slot />
+    </main>
+    <footer class="embed-footer">
+      <span>&copy; {year} Galaxy Project &middot; <a href="https://galaxyproject.org/hub/">Galaxy Community Hub</a></span>
+    </footer>
+    <script>
+      import { setupIframeResize } from '../utils/iframe';
+      setupIframeResize();
+    </script>
+  </body>
+</html>
+
+<style>
+  .embed-footer {
+    padding: 0.75rem 1rem;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #6b7280;
+    border-top: 1px solid #e5e7eb;
+  }
+
+  .embed-footer a {
+    color: #25537b;
+    text-decoration: none;
+  }
+
+  .embed-footer a:hover {
+    text-decoration: underline;
+  }
+</style>
