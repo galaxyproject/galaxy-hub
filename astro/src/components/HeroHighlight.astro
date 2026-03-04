@@ -1,9 +1,22 @@
 ---
+import { normalizeSlug } from "../build/preprocess.mjs";
+
 // Edit these to change the homepage hero highlight.
 // Set image to "" to show the Galaxy logo instead.
-const image = "/images/events/gcc2026/gcc2026-carousel.png";
+const rawImage = "/images/events/gcc2026/gcc2026-carousel.png";
 const link = "/events/gcc2026/";
 const alt = "Galaxy Community Conference 2026";
+
+// Normalize directory segments to match preprocessing output.
+function normalizeImagePath(src: string) {
+  if (!src) return src;
+  const lastSlash = src.lastIndexOf("/");
+  if (lastSlash < 0) return src;
+  const dir = src.slice(0, lastSlash);
+  const file = src.slice(lastSlash);
+  return normalizeSlug(dir) + file;
+}
+const image = normalizeImagePath(rawImage);
 ---
 
 {
@@ -21,14 +34,17 @@ const alt = "Galaxy Community Conference 2026";
     display: block;
     border-radius: 12px;
     overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.15);
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
     transition:
       transform 0.2s ease,
-      box-shadow 0.2s ease;
+      box-shadow 0.2s ease,
+      border-color 0.2s ease;
   }
 
   .hero-highlight-link:hover {
     transform: translateY(-2px);
+    border-color: rgba(255, 255, 255, 0.3);
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
   }
 
