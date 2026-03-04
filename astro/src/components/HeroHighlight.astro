@@ -19,27 +19,56 @@ function normalizeImagePath(src: string) {
 const image = normalizeImagePath(rawImage);
 ---
 
-{
-  image ? (
-    <a href={link} class="hero-highlight-link">
-      <img src={image} alt={alt} class="hero-highlight-img" />
-    </a>
-  ) : (
-    <img src="/images/galaxy_logo_white.svg" alt="Galaxy" class="hero-logo-fallback" />
-  )
-}
+<div class="hero-highlight-container" id="hero-highlight">
+  <img src="/images/galaxy_logo_white.svg" alt="Galaxy" class="hero-logo" />
+  {
+    image && (
+      <a href={link} class="hero-highlight-link">
+        <img src={image} alt={alt} class="hero-highlight-img" />
+      </a>
+    )
+  }
+</div>
+
+{image && <script>setTimeout(() => document.getElementById('hero-highlight')?.classList.add('show-card'), 1000);</script>}
 
 <style>
+  .hero-highlight-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-logo {
+    max-width: 360px;
+    height: auto;
+    filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.3));
+    transition: opacity 0.6s ease;
+  }
+
   .hero-highlight-link {
+    position: absolute;
     display: block;
     border-radius: 12px;
     overflow: hidden;
     border: 1px solid rgba(255, 255, 255, 0.15);
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    opacity: 0;
     transition:
+      opacity 0.6s ease,
       transform 0.2s ease,
       box-shadow 0.2s ease,
       border-color 0.2s ease;
+  }
+
+  .hero-highlight-container.show-card .hero-logo {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .hero-highlight-container.show-card .hero-highlight-link {
+    opacity: 1;
   }
 
   .hero-highlight-link:hover {
@@ -55,18 +84,12 @@ const image = normalizeImagePath(rawImage);
     height: auto;
   }
 
-  .hero-logo-fallback {
-    max-width: 360px;
-    height: auto;
-    filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.3));
-  }
-
   @media (max-width: 900px) {
     .hero-highlight-img {
       max-width: 360px;
     }
 
-    .hero-logo-fallback {
+    .hero-logo {
       max-width: 240px;
     }
   }
