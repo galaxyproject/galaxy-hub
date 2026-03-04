@@ -19,27 +19,18 @@ function normalizeImagePath(src: string) {
 const image = normalizeImagePath(rawImage);
 ---
 
-<div class="hero-highlight-container" id="hero-highlight">
-  <img src="/images/galaxy_logo_white.svg" alt="Galaxy" class="hero-logo" />
-  {
-    image && (
+{
+  image ? (
+    <div class="hero-highlight-container">
+      <img src="/images/galaxy_logo_white.svg" alt="Galaxy" class="hero-logo" />
       <a href={link} class="hero-highlight-link">
         <img src={image} alt={alt} class="hero-highlight-img" />
       </a>
-    )
-  }
-</div>
-
-{image && <script>{
-  const el = document.getElementById('hero-highlight');
-  if (el) {
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-      el.classList.add('show-card');
-    } else {
-      setTimeout(() => el.classList.add('show-card'), 1000);
-    }
-  }
-}</script>}
+    </div>
+  ) : (
+    <img src="/images/galaxy_logo_white.svg" alt="Galaxy" class="hero-logo-only" />
+  )
+}
 
 <style>
   .hero-highlight-container {
@@ -53,7 +44,7 @@ const image = normalizeImagePath(rawImage);
     max-width: 360px;
     height: auto;
     filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.3));
-    transition: opacity 0.6s ease;
+    animation: hero-fade-out 0.6s ease 1s forwards;
   }
 
   .hero-highlight-link {
@@ -64,20 +55,11 @@ const image = normalizeImagePath(rawImage);
     border: 1px solid rgba(255, 255, 255, 0.15);
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
     opacity: 0;
+    animation: hero-fade-in 0.6s ease 1s forwards;
     transition:
-      opacity 0.6s ease,
       transform 0.2s ease,
       box-shadow 0.2s ease,
       border-color 0.2s ease;
-  }
-
-  .hero-highlight-container:global(.show-card) .hero-logo {
-    opacity: 0;
-    pointer-events: none;
-  }
-
-  .hero-highlight-container:global(.show-card) .hero-highlight-link {
-    opacity: 1;
   }
 
   .hero-highlight-link:hover {
@@ -93,10 +75,33 @@ const image = normalizeImagePath(rawImage);
     height: auto;
   }
 
+  .hero-logo-only {
+    max-width: 360px;
+    height: auto;
+    filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.3));
+  }
+
+  @keyframes hero-fade-out {
+    to {
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+
+  @keyframes hero-fade-in {
+    to {
+      opacity: 1;
+    }
+  }
+
   @media (prefers-reduced-motion: reduce) {
-    .hero-logo,
+    .hero-logo {
+      display: none;
+    }
+
     .hero-highlight-link {
-      transition: none;
+      opacity: 1;
+      animation: none;
     }
   }
 
@@ -105,7 +110,8 @@ const image = normalizeImagePath(rawImage);
       max-width: 360px;
     }
 
-    .hero-logo {
+    .hero-logo,
+    .hero-logo-only {
       max-width: 240px;
     }
   }
