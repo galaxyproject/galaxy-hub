@@ -926,6 +926,11 @@
   height: auto;
 }
 
+.no-header thead,
+.no-header th {
+  display: none;
+}
+
 /* ==========================================================================
    Font Awesome Compatibility (basic icons)
    Common icons used in Galaxy Hub content

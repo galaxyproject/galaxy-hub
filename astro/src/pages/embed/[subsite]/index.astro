@@ -1,8 +1,8 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import SubsiteOverview from '../../components/SubsiteOverview.astro';
-import { getSubsiteStaticPaths, subsiteLabels } from '../../stores/subsiteStore';
-import { getUpcomingEvents, getPublishedNews } from '../../utils/content';
+import EmbedLayout from '../../../layouts/EmbedLayout.astro';
+import SubsiteOverview from '../../../components/SubsiteOverview.astro';
+import { getSubsiteStaticPaths, subsiteLabels } from '../../../stores/subsiteStore';
+import { getUpcomingEvents, getPublishedNews } from '../../../utils/content';
 
 export const getStaticPaths = getSubsiteStaticPaths;
 
@@ -20,6 +20,6 @@ const { title, description } = subsiteLabels[subsite] || {
 };
 ---
 
-<BaseLayout title={title} description={description}>
+<EmbedLayout title={title} description={description}>
   <SubsiteOverview {subsite} {title} {description} {upcomingEvents} {subsiteNews} />
-</BaseLayout>
+</EmbedLayout>

@@ -60,6 +60,52 @@ export const isExternalSubsite = computed(currentSubsiteInfo, (info) => {
   return 'external' in info && !!info.external;
 });
 
+// Labels for subsite landing pages
+export const subsiteLabels: Record<string, { title: string; description: string }> = {
+  us: {
+    title: 'Galaxy US',
+    description: 'Galaxy resources and news for the United States community',
+  },
+  eu: {
+    title: 'Galaxy Europe',
+    description: 'Galaxy resources and news for the European community',
+  },
+  freiburg: {
+    title: 'Galaxy Freiburg',
+    description: 'Galaxy resources and news from the University of Freiburg',
+  },
+  erasmusmc: {
+    title: 'Galaxy Erasmus MC',
+    description: 'Galaxy resources and news from Erasmus Medical Center',
+  },
+  belgium: {
+    title: 'Galaxy Belgium (VIB)',
+    description: 'Galaxy resources and news from VIB Belgium',
+  },
+  pasteur: {
+    title: 'Galaxy Pasteur',
+    description: 'Galaxy resources and news from Institut Pasteur',
+  },
+  'elixir-it': {
+    title: 'Galaxy ELIXIR-IT',
+    description: 'Galaxy resources and news from ELIXIR Italy',
+  },
+  ifb: {
+    title: 'Galaxy ELIXIR-FR/IFB',
+    description: 'Galaxy resources and news from ELIXIR France / IFB',
+  },
+};
+
+// Static paths for subsite pages (reused by normal and embed routes)
+export function getSubsiteStaticPaths() {
+  return subsites
+    .filter((s) => s.id !== 'global' && !('external' in s && s.external))
+    .map((s) => ({
+      params: { subsite: s.id },
+      props: { subsiteInfo: s },
+    }));
+}
+
 // Helper: set subsite
 export function setSubsite(id: SubsiteId) {
   const subsite = subsites.find((s) => s.id === id);

@@ -15,6 +15,8 @@ import { fileURLToPath } from 'url';
 import matter from 'gray-matter';
 import { glob } from 'glob';
 import { processMarkdown, processFrontmatter } from './markdown-processor.mjs';
+import { normalizeSlugSegment, normalizeSlug } from './slug-utils.mjs';
+export { normalizeSlugSegment, normalizeSlug };
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ASTRO_ROOT = path.resolve(__dirname, '../..');
@@ -24,78 +26,6 @@ const ASTRO_CONTENT_DIR = path.join(ASTRO_ROOT, 'src/content');
 const PUBLIC_IMAGES_DIR = path.join(ASTRO_ROOT, 'public/images');
 const PUBLIC_ASSETS_DIR = path.join(ASTRO_ROOT, 'public/assets');
 const PUBLIC_MEDIA_DIR = path.join(ASTRO_ROOT, 'public/media');
-
-// Post-normalization fixups for edge cases where the algorithm produces bad output.
-// Keys are the bad normalized form; values are the corrected form.
-// Applied after all regex rules + lowercasing, so keys should be lowercase-hyphenated.
-const slugOverrides = JSON.parse(fs.readFileSync(new URL('./slug-overrides.json', import.meta.url), 'utf-8'));
-
-/**
- * Normalize a single path segment into a lowercase-hyphenated slug.
- *
- * Rules applied in order:
- *   1. Insert hyphen at lowercase→uppercase boundary (camelCase / PascalCase)
- *   2. Insert hyphen at end-of-uppercase-run→lowercase boundary
- *   3. Insert hyphen at letter→digit boundary
- *   4. Insert hyphen at digit→letter boundary
- *   5. Replace underscores with hyphens
- *   6. Lowercase everything
- *   7. Collapse consecutive hyphens
- *   8. Apply slug-overrides.json fixups for known edge cases
- *
- * Uppercase runs are NOT split internally — "RNA" stays "rna", not "rn-a".
- */
-export function normalizeSlugSegment(segment) {
-  let s = segment;
-
-  // Insert hyphen at lowercase→uppercase boundary: "chatGPT" → "chat-GPT"
-  s = s.replace(/([a-z])([A-Z])/g, '$1-$2');
-
-  // Insert hyphen at end-of-uppercase-run→lowercase boundary: "GBCCMeeting" → "GBCC-Meeting"
-  // This handles runs like "GCC" followed by lowercase: "GCC2024Meeting" after step above
-  // is still "GCC2024-Meeting". We need: "HTMLParser" → "HTML-Parser".
-  s = s.replace(/([A-Z]+)([A-Z][a-z])/g, '$1-$2');
-
-  // Insert hyphen at letter→digit boundary: "PAG31" → "PAG-31"
-  s = s.replace(/([a-zA-Z])(\d)/g, '$1-$2');
-
-  // Insert hyphen at digit→letter boundary: "4Bio" → "4-Bio"
-  s = s.replace(/(\d)([a-zA-Z])/g, '$1-$2');
-
-  // Replace underscores with hyphens
-  s = s.replace(/_/g, '-');
-
-  // Lowercase
-  s = s.toLowerCase();
-
-  // Collapse consecutive hyphens
-  s = s.replace(/-{2,}/g, '-');
-
-  // Apply overrides to fix known edge cases (longest match first)
-  const sortedKeys = Object.keys(slugOverrides).sort((a, b) => b.length - a.length);
-  for (const key of sortedKeys) {
-    if (s.includes(key)) {
-      s = s.replaceAll(key, slugOverrides[key]);
-    }
-  }
-
-  // Trim leading/trailing hyphens (shouldn't happen normally but be safe)
-  s = s.replace(/^-|-$/g, '');
-
-  return s;
-}
-
-/**
- * Normalize a full slug path (e.g. "events/2024-01-12-PAG31").
- * Each segment is normalized independently; leading date prefixes (YYYY-MM-DD-)
- * pass through unchanged since they're already well-formed.
- */
-export function normalizeSlug(slug) {
-  return slug
-    .split('/')
-    .map((segment) => normalizeSlugSegment(segment))
-    .join('/');
-}
 
 /**
  * Copy images and assets from a content directory

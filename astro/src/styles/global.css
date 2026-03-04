@@ -43,7 +43,7 @@ h3,
 h4,
 h5,
 h6 {
-  scroll-margin-top: 5rem;
+  scroll-margin-top: 6rem;
 }
 
 body {
@@ -237,6 +237,14 @@ body {
   border-radius: 0.5rem;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Inline icon images in list items should flow with text, not center as block */
+.prose li img {
+  display: inline;
+  margin: 0;
+  border-radius: 0;
+  vertical-align: middle;
 }
 
 .prose table {

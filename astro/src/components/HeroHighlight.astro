@@ -1,0 +1,73 @@
+---
+import { normalizeSlug } from '../build/slug-utils.mjs';
+
+// Edit these to change the homepage hero highlight.
+// Set image to "" to show the Galaxy logo instead.
+const rawImage = '/images/events/gcc2026/gcc2026-carousel.png';
+const link = '/events/gcc2026/';
+const alt = 'Galaxy Community Conference 2026';
+
+// Normalize directory segments to match preprocessing output.
+function normalizeImagePath(src: string) {
+  if (!src) return src;
+  const lastSlash = src.lastIndexOf('/');
+  if (lastSlash < 0) return src;
+  const dir = src.slice(0, lastSlash);
+  const file = src.slice(lastSlash);
+  return normalizeSlug(dir) + file;
+}
+const image = normalizeImagePath(rawImage);
+---
+
+{
+  image ? (
+    <a href={link} class="hero-highlight-link">
+      <img src={image} alt={alt} class="hero-highlight-img" />
+    </a>
+  ) : (
+    <img src="/images/galaxy_logo_white.svg" alt="Galaxy" class="hero-logo-fallback" />
+  )
+}
+
+<style>
+  .hero-highlight-link {
+    display: block;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    transition:
+      transform 0.2s ease,
+      box-shadow 0.2s ease,
+      border-color 0.2s ease;
+  }
+
+  .hero-highlight-link:hover {
+    transform: translateY(-2px);
+    border-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+  }
+
+  .hero-highlight-img {
+    display: block;
+    width: 100%;
+    max-width: 520px;
+    height: auto;
+  }
+
+  .hero-logo-fallback {
+    max-width: 360px;
+    height: auto;
+    filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.3));
+  }
+
+  @media (max-width: 900px) {
+    .hero-highlight-img {
+      max-width: 360px;
+    }
+
+    .hero-logo-fallback {
+      max-width: 240px;
+    }
+  }
+</style>
