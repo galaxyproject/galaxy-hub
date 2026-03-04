@@ -12,7 +12,8 @@ The schedule is where you can discover what’s happening when at GCC2026.
 | Monday, Jun 22    | 9:00 - 9:15   | Open and welcome                                         |
 |                   | 9:15 - 10:00  | Galaxy Live!                                             |
 |                   | 10:00 - 10:30 | Break                                                    |
-|                   | 10:30 - 12:00 | Talks 1                                                  |
+|                   | 10:30 - 10:50 | Overview of Galaxy SiGs                                  |
+|                   | 10:50 - 12:00 | Talks 1                                                  |
 |                   | 12:00 - 13:00 | Lunch                                                    |
 |                   | 13:00 - 14:30 | Talks 2                                                  |
 |                   | 14:30 - 16:00 | Posters 1                                                |
