@@ -207,6 +207,14 @@ supporters:
       image: /images/logos/gallantries.png
       website: https://gallantries.github.io/
 
+    - name: GHGA
+      image: /images/logos/ghga-logo.svg
+      website: https://www.ghga.de/
+
+    - name: ghga
+      image: /images/logos/ghga-logo.svg
+      website: https://www.ghga.de/
+
     - name: GigaScience
       image: /images/logos/The_2012_logo_of_GigaScience_Journal.png
       website: https://academic.oup.com/gigascience
