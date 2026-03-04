@@ -22,26 +22,36 @@ const image = normalizeImagePath(rawImage);
 {
   image ? (
     <div class="hero-highlight-container">
-      <img src="/images/galaxy_logo_white.svg" alt="Galaxy" class="hero-logo" />
+      <img
+        src="/images/galaxy_logo_white.svg"
+        alt="Galaxy"
+        class="hero-logo"
+      />
       <a href={link} class="hero-highlight-link">
         <img src={image} alt={alt} class="hero-highlight-img" />
       </a>
     </div>
   ) : (
-    <img src="/images/galaxy_logo_white.svg" alt="Galaxy" class="hero-logo-only" />
+    <img
+      src="/images/galaxy_logo_white.svg"
+      alt="Galaxy"
+      class="hero-logo"
+    />
   )
 }
 
-<style>
+<style is:global>
   .hero-highlight-container {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
   }
 
   .hero-logo {
-    max-width: 360px;
+    width: 360px;
+    max-width: 100%;
     height: auto;
     filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.3));
     animation: hero-fade-out 0.6s ease 1s forwards;
@@ -49,12 +59,17 @@ const image = normalizeImagePath(rawImage);
 
   .hero-highlight-link {
     position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     display: block;
+    width: 520px;
+    max-width: 100%;
     border-radius: 12px;
     overflow: hidden;
+    opacity: 0;
     border: 1px solid rgba(255, 255, 255, 0.15);
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-    opacity: 0;
     animation: hero-fade-in 0.6s ease 1s forwards;
     transition:
       transform 0.2s ease,
@@ -63,7 +78,7 @@ const image = normalizeImagePath(rawImage);
   }
 
   .hero-highlight-link:hover {
-    transform: translateY(-2px);
+    transform: translate(-50%, calc(-50% - 2px));
     border-color: rgba(255, 255, 255, 0.3);
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
   }
@@ -73,12 +88,6 @@ const image = normalizeImagePath(rawImage);
     width: 100%;
     max-width: 520px;
     height: auto;
-  }
-
-  .hero-logo-only {
-    max-width: 360px;
-    height: auto;
-    filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.3));
   }
 
   @keyframes hero-fade-out {
@@ -96,23 +105,24 @@ const image = normalizeImagePath(rawImage);
 
   @media (prefers-reduced-motion: reduce) {
     .hero-logo {
-      display: none;
+      animation: none;
+      opacity: 0 !important;
     }
 
     .hero-highlight-link {
-      opacity: 1;
+      opacity: 1 !important;
       animation: none;
+      position: relative;
     }
   }
 
   @media (max-width: 900px) {
-    .hero-highlight-img {
-      max-width: 360px;
+    .hero-highlight-link {
+      width: 360px;
     }
 
-    .hero-logo,
-    .hero-logo-only {
-      max-width: 240px;
+    .hero-logo {
+      width: 240px;
     }
   }
 </style>
