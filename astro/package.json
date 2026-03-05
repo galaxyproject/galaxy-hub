@@ -25,7 +25,7 @@
     "format": "prettier --write 'src/**/*.{js,mjs,ts,vue,astro,css}'",
     "format:check": "prettier --check 'src/**/*.{js,mjs,ts,vue,astro,css}'",
     "normalize": "node src/build/normalize-content.mjs",
-    "content:lint": "node src/build/normalize-content.mjs --all --check"
+    "content:lint": "node src/build/normalize-content.mjs --all --check && node src/build/check-dir-names.mjs"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.3.13",
