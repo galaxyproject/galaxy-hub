@@ -66,7 +66,33 @@ Place images in the same directory as your `index.md` and reference them with re
 ![Screenshot](./screenshot.png)
 ```
 
-For images shared across pages, use `/content/images/` with an absolute path.
+For images shared across pages, use `/images/...` paths (these are served from `content/images/`). Example: `/images/logos/galaxy_project_logo.jpg`.
+
+### Contributions metadata and Hall of Fame recognition
+
+For news and event posts, credit authors and supporters in frontmatter using `contributions`:
+
+```yaml
+---
+title: "My Event"
+date: 2026-03-05
+contributions:
+  authorship:
+    - bgruening
+    - deNBI
+  funding:
+    - deNBI         # organisation
+    - elixir-europe # organisation
+    - eosc-life     # grant
+    - edctp-eu      # grant
+---
+```
+
+- `contributions.authorship` supports contributor and organisation IDs
+- `contributions.funding` supports organisation and grant IDs, and can include multiple funders
+- IDs should come from [`CONTRIBUTORS.yaml`](https://github.com/galaxyproject/training-material/blob/main/CONTRIBUTORS.yaml), [`ORGANISATIONS.yaml`](https://github.com/galaxyproject/training-material/blob/main/ORGANISATIONS.yaml), and [`GRANTS.yaml`](https://github.com/galaxyproject/training-material/blob/main/GRANTS.yaml) shared with the [GTN](https://training.galaxyproject.org/), please edit them directly in the GTN repository.
+
+This metadata is used to build recognition on the Hub, including `/hall-of-fame/` listings and each profile's attributed news/event contributions.
 
 ### Using components
 
@@ -107,6 +133,13 @@ make dev
 
 This starts a dev server at http://localhost:4321 with hot reload. See [astro/README.md](astro/README.md) for build, test, and lint commands.
 
+Before opening a PR, run:
+
+```bash
+make content-lint
+make validate-metadata
+```
+
 **Note**: The dev server is case-insensitive for URLs but production is case-sensitive. Always use lowercase URLs.
 
 ## Submitting changes
@@ -119,4 +152,4 @@ After a PR or two, maintainers will add you to the Editors group so you can comm
 
 ## License
 
-The [contents](/content/) of the Galaxy Hub are licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0). The code is licensed under the [MIT License](LICENSE.md).
+The [content](content/) of the Galaxy Hub is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0). The code is licensed under the [MIT License](LICENSE.md).
