@@ -152,6 +152,11 @@ iframe[title*='Recent Galaxy France events'] {
   width: calc(50% - var(--gap-news-events-modules) / 2 - var(--border-width-news-events-modules)) !important;
   display: inline-block;
   vertical-align: top;
+  height: 500px;
+  /* static height means bottom border inside iFrame's nested <BODY> will be cut off. So must add border here. */
+  border-bottom: 1px solid #ccc !important; 
+  /* prevent iFrame from being resized by user, which would break the layout. */
+  resize: none !important;
 }
 
 iframe[title*='Recent Galaxy France news'] {
