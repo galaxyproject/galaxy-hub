@@ -104,6 +104,48 @@ test('Does not redirect /learn/api/extra', () => {
   assert.strictEqual(result.statusCode, undefined);
 });
 
+// Slug normalization tests
+
+// Test 9: camelCase segment normalizes
+test('Redirects /use/GalaxyProject/ to /use/galaxy-project/', () => {
+  const event = createEvent('/use/GalaxyProject/');
+  const result = handler(event);
+  assert.strictEqual(result.statusCode, 302);
+  assert.strictEqual(result.headers.location.value, '/use/galaxy-project/');
+});
+
+// Test 10: underscore segment normalizes
+test('Redirects /admin/galaxy_slots/ to /admin/galaxy-slots/', () => {
+  const event = createEvent('/admin/galaxy_slots/');
+  const result = handler(event);
+  assert.strictEqual(result.statusCode, 302);
+  assert.strictEqual(result.headers.location.value, '/admin/galaxy-slots/');
+});
+
+// Test 11: letter+digit identifiers pass through unchanged (no digit-split rule)
+test('Passes through /events/gcc2026/ unchanged', () => {
+  const event = createEvent('/events/gcc2026/');
+  const result = handler(event);
+  assert.strictEqual(result.uri, '/events/gcc2026/');
+  assert.strictEqual(result.statusCode, undefined);
+});
+
+// Test 12: already-normalized slug passes through
+test('Passes through /events/gcc-2026/ unchanged', () => {
+  const event = createEvent('/events/gcc-2026/');
+  const result = handler(event);
+  assert.strictEqual(result.uri, '/events/gcc-2026/');
+  assert.strictEqual(result.statusCode, undefined);
+});
+
+// Test 13: date-prefixed segment passes through unchanged
+test('Passes through date-prefixed segment /events/2024-01-12-PAGconf/ unchanged', () => {
+  const event = createEvent('/events/2024-01-12-PAGconf/');
+  const result = handler(event);
+  assert.strictEqual(result.uri, '/events/2024-01-12-PAGconf/');
+  assert.strictEqual(result.statusCode, undefined);
+});
+
 // Summary
 console.log(`\n${passed} passed, ${failed} failed`);
 

@@ -2,5 +2,7 @@
   "rn-aseq": "rnaseq",
   "bia-py": "biapy",
   "ne-ic": "neic",
-  "bio-m-ltool": "bio-ml-tool"
+  "bio-m-ltool": "bio-ml-tool",
+  "mi-rna": "mirna",
+  "ma-gs": "mags"
 }
