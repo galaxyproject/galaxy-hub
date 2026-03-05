@@ -22,21 +22,13 @@ const image = normalizeImagePath(rawImage);
 {
   image ? (
     <div class="hero-highlight-container">
-      <img
-        src="/images/galaxy_logo_white.svg"
-        alt="Galaxy"
-        class="hero-logo"
-      />
+      <img src="/images/galaxy_logo_white.svg" alt="Galaxy" class="hero-logo" />
       <a href={link} class="hero-highlight-link">
         <img src={image} alt={alt} class="hero-highlight-img" />
       </a>
     </div>
   ) : (
-    <img
-      src="/images/galaxy_logo_white.svg"
-      alt="Galaxy"
-      class="hero-logo"
-    />
+    <img src="/images/galaxy_logo_white.svg" alt="Galaxy" class="hero-logo" />
   )
 }
 
