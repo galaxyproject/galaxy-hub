@@ -455,6 +455,9 @@ bebatut:
       - gallantries
       - ifb
       - elixir-europe
+    former_affiliations:
+      - uni-freiburg
+      - deNBI
 
 bedroesb:
     name: Bert Droesbeke
@@ -1392,6 +1395,7 @@ Sch-Da:
       - elixir-europe
       - nfdi4culture
       - biont
+      - deNBI
 
 dadrasarmin:
     name: Armin Dadras
@@ -1431,6 +1435,7 @@ davelopez:
     affiliations:
       - eurosciencegateway
       - uni-freiburg
+      - deNBI
 
 dbrites:
     name: Daniela Brites
@@ -1620,9 +1625,10 @@ erxleben:
     elixir_node: de
     affiliations:
       - uni-freiburg
-      - elixir-europe
     former_affiliations:
       - eurosciencegateway
+      - elixir-europe
+      - deNBI
 
 estebanpw:
     name: Esteban Perez-Wohlfeil
@@ -1812,6 +1818,7 @@ gmauro:
     former_affiliations:
       - uni-freiburg
       - elixir-europe
+      - deNBI
 
 GokceOGUZ:
     name: Gokce Oguz
@@ -3255,6 +3262,7 @@ paulzierep:
     affiliations:
       - uni-freiburg
       - elixir-europe
+      - deNBI
 
 pavanvidem:
     name: Pavankumar Videm
@@ -3264,6 +3272,7 @@ pavanvidem:
       - uni-freiburg
       - elixir-europe
       - spoc
+      - deNBI
 
 PfisterMaxJLU:
     name: Max Pfister
@@ -4083,6 +4092,7 @@ wm75:
       - uni-freiburg
       - elixir-europe
       - eurosciencegateway
+      - deNBI
 
 wverastegui:
     name: Wudmir Rojas
