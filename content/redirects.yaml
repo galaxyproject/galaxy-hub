@@ -34,3 +34,84 @@ redirects:
   /tutorials/var_hap/: /tutorials/var-hap/
   /news/25-05-20-berd-wf/: /news/2025-05-20-berd-wf/
   /news/25-05-19-dh-lab/: /news/2025-05-19-dh-lab/
+
+  # Redirects previously handled by nginx — moved here so all redirect logic
+  # lives in the hub and can be removed from the nginx config.
+
+  # API docs consolidation
+  /learn/api/: /develop/api/
+  /admin/api/: /develop/api/
+  /develop/resources-api/: /develop/api/
+  /learn/api/examples/: /develop/api/
+
+  # Data libraries
+  /admin/data-libraries/: /data-libraries/
+  /admin/data-libraries/new-libraries/: /data-libraries/
+  /admin/data-libraries/libraries/: /data-libraries/
+  /admin/data-libraries/library-sample-tracking/: /data-libraries/
+  /admin/data-libraries/library-security/: /data-libraries/
+  /admin/data-libraries/library-templates/: /data-libraries/
+  /admin/data-libraries/uploading-library-files/: /data-libraries/
+
+  # Old top-level toolshed pages (pre-dated the /toolshed/ hierarchy)
+  /a-tool-or-a-suite-per-repository/: /toolshed/a-tool-or-a-suite-per-repository/
+  /advanced-repository-features/: /toolshed/advanced-repository-features/
+  /bells-and-whistles/: /toolshed/bells-and-whistles/
+  /complex-repository-dependencies/: /toolshed/complex-repository-dependencies/
+  /defining-repository-dependencies/: /toolshed/defining-repository-dependencies/
+  /downloading-binaries/: /toolshed/downloading-binaries/
+  /galaxy-utilities-in-repositories/: /toolshed/galaxy-utilities-in-repositories/
+  /hosting-a-local-development-tool-she/: /toolshed/hosting-a-local-development-toolshed/
+  /hosting-a-local-development-tool-shed/: /toolshed/hosting-a-local-development-toolshed/
+  /hosting-a-local-tool-she/: /toolshed/hosting-a-local-toolshed/
+  /hosting-a-local-tool-shed/: /toolshed/hosting-a-local-toolshed/
+  /repository-dependencies-tag-sets/: /toolshed/repository-dependencies-tag-sets/
+  /repository-population-best-practices1/: /toolshed/repository-population-best-practices1/
+  /repository-population-best-practices2/: /toolshed/repository-population-best-practices2/
+  /repository-revisions/: /toolshed/repository-revisions/
+  /repository-types/: /toolshed/repository-types/
+  /set-up-r-environment/: /toolshed/set-up-r-environment/
+  /simple-repository-dependencies/: /toolshed/simple-repository-dependencies/
+  /tool-dependencies-tag-sets/: /toolshed/tool-dependencies-tag-sets/
+  /tool-dependencies-with-initial-install/: /toolshed/tool-dependencies-with-initial-install/
+  /tool-dependency-recipes/: /toolshed/tool-dependency-recipes/
+  /tools-with-dependencies-in-same-repository/: /toolshed/tools-with-dependencies-in-same-repository/
+  /tools-with-dependencies-in-separate-repositories/: /toolshed/tools-with-dependencies-in-separate-repositories/
+  /toolshed-advanced-topics/: /toolshed/advanced-topics/
+  /toolshed-api/: /toolshed/api/
+  /toolshed-datatypes-features/: /toolshed/datatypes-features/
+  /toolshed-readme-files/: /toolshed/readme-files/
+  /toolshed-repository-contents/: /toolshed/repository-contents/
+  /toolshed-repository-features/: /toolshed/repository-features/
+  /toolshed-tool-features/: /toolshed/tool-features/
+  /toolshed-tour/: /toolshed/tour/
+  /toolshed-workflow-sharing/: /toolshed/workflow-sharing/
+
+  # Misc
+  /FTPUpload/: /ftp-upload/
+  /news/2020-04-james-taylor/: /jxtx/
+  /automated-tool-tests/: /archive/
+  /install-and-test-certification/: /archive/
+
+  # Old conference URLs — nginx matched these case-insensitively with wildcards;
+  # lowercase base paths are covered here, case normalization handled by CloudFront.
+  /gcc2012/: /events/gcc2012/
+  /gcc2013/: /events/gcc2013/
+  /gcc2014/: /events/gcc2014/
+  /gat2016/: /events/admin-training2016/
+  /gcc2019/: /events/gcc2019/
+  /gcc2022/: /events/gcc2022/
+
+  # Old search sub-paths
+  /search/getgalaxy/: /search/
+  /search/mailinglists/: /search/
+  /search/usegalaxy/: /search/
+  /search/web/: /search/
+
+  # External redirects — these generate S3 301s via the deploy script
+  /bushman/: https://usegalaxy.org/bushman
+  /GCC2015/: http://gcc2015.tsl.ac.uk/
+  /gcc2015/: http://gcc2015.tsl.ac.uk/
+  /GCC2016/: https://gcc2016.iu.edu/
+  /gcc2016/: https://gcc2016.iu.edu/
+  /trello/: https://github.com/galaxyproject/galaxy/issues/
