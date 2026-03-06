@@ -13,7 +13,7 @@ gtn: false
 contact: "Atsushi Asai"
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - a-asai
 
 ---

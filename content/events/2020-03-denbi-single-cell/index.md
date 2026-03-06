@@ -13,7 +13,7 @@ contact: "Anika Erxleben, Mehmet Tekman"
 gtn: true
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - erxleben
     - mtekman
 

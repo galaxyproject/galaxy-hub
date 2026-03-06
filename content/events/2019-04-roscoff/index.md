@@ -13,7 +13,7 @@ contact: Gildas Le Corguillé
 image: 
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - lecorguille
 
 ---

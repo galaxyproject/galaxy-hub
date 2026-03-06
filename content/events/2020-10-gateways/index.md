@@ -13,7 +13,7 @@ contact: "Enis Afgan, Dave Clements"
 image: 
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - afgane
     - tnabtaf
 

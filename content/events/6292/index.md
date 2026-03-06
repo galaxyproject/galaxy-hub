@@ -16,7 +16,7 @@ tease: Are you new to digital history? Do you want to learn ways to analyse your
   to get an idea of research data management? Register for our course at the Historikertag
   2025 in Bonn to find out more
 contributions:
-  authorship:
+  organisers:
     - Sch-Da
   funding:
     - nfdi4plants

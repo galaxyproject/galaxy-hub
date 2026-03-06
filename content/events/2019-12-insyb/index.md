@@ -13,7 +13,7 @@ contact: "Sonika Tyagi, Gareth Price, Harpreet Singh"
 image: insyb-2019.png
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - GarethPrice-Aus
 
 ---

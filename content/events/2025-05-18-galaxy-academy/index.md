@@ -17,6 +17,8 @@ tease: 'The Galaxy Training Academy is a self-paced online training event for be
 
   Over the course of one week, we offer a diverse selection of learning tracks for
   you.'
+contributions:
+  organisers: []
 ---
 The Galaxy Training Academy is a self-paced online training event for beginners and advanced learners who want to improve their data analysis skills in Galaxy and/or in popular fields in bioinformatics.
 Over the course of one week, we offer a diverse selection of learning tracks for you.

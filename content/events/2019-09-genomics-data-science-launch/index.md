@@ -13,7 +13,7 @@ contact: "Anton Nekrutenko"
 image: 
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - nekrut
 
 ---

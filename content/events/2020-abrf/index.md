@@ -14,7 +14,7 @@ contact: Pratik Jagtap, Tim Griffin, Dave Clements, Saskia Hiltemann, Subina Meh
 tags: [training, microbiology, conference]
 subsites: [eu, freiburg, global, us]
 contributions:
-  authorship:
+  organisers:
     - mtekman
     - pratikdjagtap
     - shiltemann

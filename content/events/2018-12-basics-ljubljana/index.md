@@ -13,7 +13,7 @@ contact: "Christophe Antoniewski, Olivier Inizan"
 gtn: true
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - olivierinizan
 
 ---

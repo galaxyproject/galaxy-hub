@@ -13,7 +13,7 @@ contact: "Markus Wolfien, Andrea Bagnacani, Olaf Wolkenhauer "
 image: 
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - bagnacan
     - mwolfien
 

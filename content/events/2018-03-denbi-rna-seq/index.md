@@ -13,7 +13,7 @@ contact: Andrea Bagnacani, Markus Wolfien
 gtn: true
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - bagnacan
     - mwolfien
 

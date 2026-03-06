@@ -6,14 +6,13 @@ location:
   name: "Freiburg, Germany"
 contact: "Beatriz Serrano-Solano, Diana Chiang Jurado"
 tags: [Hackathon,imaging,bioimaging,esg,esg-wp1,esg-wp5]
-organizers:
-  - galaxyfreiburg
-  - eurobioimaging
 subsites: [all, esg, eu]
 contributions:
-  authorship:
+  organisers:
     - beatrizserrano
     - dianichj
+    - freiburggalaxyteam
+    - eubi
   funding:
     - nfdi
     - oscars

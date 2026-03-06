@@ -16,7 +16,7 @@ links:
   url: "https://youtu.be/6S0yOvgISVI"
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - tnabtaf
 
 ---

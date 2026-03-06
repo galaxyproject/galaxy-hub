@@ -15,7 +15,7 @@ gtn: true
 tags: []
 subsites: [all-eu, global, us]
 contributions:
-  authorship:
+  organisers:
     - vloux
 
 ---

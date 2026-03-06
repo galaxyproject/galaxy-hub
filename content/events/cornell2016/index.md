@@ -13,7 +13,7 @@ contact: "Dave Clements, Lukas Mueller, Surya Saha"
 image:
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - tnabtaf
 
 ---

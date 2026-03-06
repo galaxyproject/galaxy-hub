@@ -15,7 +15,7 @@ links:
 image: "/images/galaxy-logos/admin-training-logo.jpg"
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - hexylena
     - natefoo
 

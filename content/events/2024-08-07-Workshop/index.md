@@ -9,7 +9,7 @@ contact: "Natalie Whitaker-Allen"
 tags: [workshop]
 subsites: [all]
 contributions:
-  authorship:
+  organisers:
     - natalie-wa
 
 ---

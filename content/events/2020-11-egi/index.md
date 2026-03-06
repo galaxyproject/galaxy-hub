@@ -14,7 +14,7 @@ image:
 subsites: [global, us]
 tags: [talk, conference]
 contributions:
-  authorship:
+  organisers:
     - bgruening
   funding:
     - deNBI

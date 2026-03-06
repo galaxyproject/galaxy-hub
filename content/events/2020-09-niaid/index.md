@@ -19,7 +19,7 @@ links:
 contact: "Dave Clements, Steven Weaver"
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - tnabtaf
 
 ---

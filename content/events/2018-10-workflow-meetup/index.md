@@ -13,7 +13,7 @@ gtn: false
 contact: "Manabu ISHII "
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - manabuishii
 
 ---

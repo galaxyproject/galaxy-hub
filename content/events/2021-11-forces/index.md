@@ -14,7 +14,7 @@ contact: "Anne Fouilloux"
 gtn: true
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - annefou
 
 ---

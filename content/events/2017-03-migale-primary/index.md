@@ -12,7 +12,7 @@ external_url: http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2
 contact: Valentin Loux, Véronique Martin
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - vloux
 
 ---

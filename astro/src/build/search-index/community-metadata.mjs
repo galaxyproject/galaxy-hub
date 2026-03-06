@@ -182,6 +182,8 @@ export function extractCommunityMetadata(frontmatter, communityData) {
   const contributors = uniqueStrings([
     ...toArray(frontmatter.CONTRIBUTORS),
     ...toArray(frontmatter.contributors),
+    ...toArray(contributions.organisers),
+    ...toArray(contributions.organizers),
     ...toArray(contributions.authorship),
     ...toArray(contributions.author),
     ...toArray(contributions.contributors),

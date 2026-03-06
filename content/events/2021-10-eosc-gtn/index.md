@@ -14,7 +14,7 @@ contact: Helena Rasche
 tags: [talk, webinar]
 subsites: [all-eu, global, us]
 contributions:
-  authorship:
+  organisers:
     - hexylena
 
 ---

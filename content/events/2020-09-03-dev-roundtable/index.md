@@ -14,7 +14,7 @@ contact: "Alexandru Mahmoud, John Chilton"
 tags: [ "devroundtable" ]
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - almahmoud
     - jmchilton
 

@@ -13,7 +13,7 @@ contact: "James Taylor, Dave Clements, Mo Heydarian"
 image: "gateways-2019-logo.png"
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - jxtx
     - moheydarian
     - tnabtaf

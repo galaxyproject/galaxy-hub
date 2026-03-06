@@ -12,7 +12,7 @@ gtn: true
 contact: Mo Heydarian
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - moheydarian
 
 ---

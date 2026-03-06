@@ -13,7 +13,7 @@ contact: "Linelle Abueg"
 tags: ["community-call"]
 subsites: [all]
 contributions:
-  authorship:
+  organisers:
     - abueg
 
 ---

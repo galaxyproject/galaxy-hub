@@ -10,7 +10,7 @@ contact: "Armin Dadras"
 tags: [talk,esg,esg-wp1]
 subsites: [all, esg, eu]
 contributions:
-  authorship:
+  organisers:
     - dadrasarmin
   funding:
     - deNBI

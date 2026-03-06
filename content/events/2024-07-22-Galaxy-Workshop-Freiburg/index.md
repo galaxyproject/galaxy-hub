@@ -11,7 +11,7 @@ contact: "Anika Erxleben-Eggenhofer"
 tags: [workshop, training, esg, esg-wp1]
 subsites: [all,esg]
 contributions:
-  authorship:
+  organisers:
     - erxleben
   funding:
     - deNBI

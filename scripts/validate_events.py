@@ -12,6 +12,7 @@ import argparse
 import logging
 import os
 import sys
+from datetime import date, datetime
 from validate_common import (
     ROOT,
     aggregate_frontmatter,
@@ -35,6 +36,49 @@ FOLDER_NAME_EXCEPTIONS = {
 }
 
 
+def _to_date(value):
+    if isinstance(value, datetime):
+        return value.date()
+    if isinstance(value, date):
+        return value
+    if isinstance(value, str):
+        try:
+            return datetime.strptime(value, "%Y-%m-%d").date()
+        except ValueError:
+            return None
+    return None
+
+
+def check_recent_contributions_required(aggregated, cutoff="2026-02-01"):
+    """
+    Require a non-empty `contributions` map for events newer than cutoff.
+    This keeps older historical entries valid while enforcing current policy.
+    """
+    errors = []
+    cutoff_date = datetime.strptime(cutoff, "%Y-%m-%d").date()
+
+    for folder, data in aggregated.items():
+        if not isinstance(data, dict):
+            continue
+
+        parsed_date = _to_date(data.get("date"))
+        if not parsed_date or parsed_date <= cutoff_date:
+            continue
+
+        contributions = data.get("contributions")
+        if not isinstance(contributions, dict):
+            errors.append(
+                f"{folder}: frontmatter must include a `contributions` mapping for events dated after {cutoff}."
+            )
+            continue
+        if not contributions:
+            errors.append(
+                f"{folder}: `contributions` must not be empty for events dated after {cutoff}."
+            )
+
+    return errors
+
+
 def main():
     logging.basicConfig(level=logging.INFO, format="%(levelname)s - %(message)s")
     logger = logging.getLogger("validate_events")
@@ -54,6 +98,7 @@ def main():
         cutoff=args.cutoff,
         skip_folders=FOLDER_NAME_EXCEPTIONS,
     )
+    contribution_errors = check_recent_contributions_required(aggregated_events, cutoff=args.cutoff)
     parse_error_count = len(parse_errors)
 
     if errors and not args.quiet:
@@ -64,8 +109,11 @@ def main():
     if folder_errors and not args.quiet:
         for err in folder_errors:
             logger.error(f"FOLDER - {err}")
+    if contribution_errors and not args.quiet:
+        for err in contribution_errors:
+            logger.error(f"CONTRIBUTIONS - {err}")
 
-    if code == 0 and not folder_errors and parse_error_count == 0:
+    if code == 0 and not folder_errors and not contribution_errors and parse_error_count == 0:
         logger.info("OK: events frontmatter valid")
     else:
         logger.error("FAILED: events frontmatter has issues")

@@ -13,7 +13,7 @@ image: "/images/logos/GobletLogo.png"
 gtn: false
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - GarethPrice-Aus
     - fpsom
 

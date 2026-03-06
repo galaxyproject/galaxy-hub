@@ -13,7 +13,7 @@ gtn: true
 contact: "Yvan Le Bras, Sandrine LAGARRIGUE, formco @ agrocampus-ouest . fr"
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - yvanlebras
 
 ---

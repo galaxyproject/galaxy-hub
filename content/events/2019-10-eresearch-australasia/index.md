@@ -13,7 +13,7 @@ contact: "Gareth Price, M. Farhan Sjaugi"
 image: "era-2019-banner.jpg"
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - GarethPrice-Aus
 
 ---

@@ -13,7 +13,7 @@ contact: "Simon Gladman"
 image: 
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - slugger70
 
 ---

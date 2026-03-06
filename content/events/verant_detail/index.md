@@ -16,7 +16,7 @@ tease: 'This workshop is designed for biologists and life scientists who want
 
   Participants will learn how to perform key bioinformatics tasks'
 contributions:
-  authorship:
+  organisers:
     - sbueker77
 
 ---

@@ -14,7 +14,7 @@ image: sortee-logo.png
 tags: [training]
 subsites: [all-eu, global, us]
 contributions:
-  authorship:
+  organisers:
     - yvanlebras
 
 ---

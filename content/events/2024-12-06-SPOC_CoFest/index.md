@@ -12,7 +12,7 @@ gtn: true
 tags: [cofest, single-cell]
 subsites: [all]
 contributions:
-  authorship:
+  organisers:
     - nomadscientist
 
 ---

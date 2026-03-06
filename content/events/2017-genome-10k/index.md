@@ -12,7 +12,7 @@ gtn: true
 contact: Nicola Soranzo, Graham Etherington
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - ethering
     - nsoranzo
 

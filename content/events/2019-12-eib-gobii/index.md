@@ -13,7 +13,7 @@ contact: "Dave Clements, Star Yanxin Gao"
 image: 
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - tnabtaf
 
 ---

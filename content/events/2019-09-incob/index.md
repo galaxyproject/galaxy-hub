@@ -13,7 +13,7 @@ image: "/events/2019-09-incob/incob-logo-square.jpeg"
 gtn: true
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - GarethPrice-Aus
     - slugger70
     - tnabtaf

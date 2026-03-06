@@ -13,7 +13,7 @@ contact: "Mo Heydarian, Dave Clements"
 image: /events/2019-10-aises/aises-2019-banner.png 
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - moheydarian
     - tnabtaf
 

@@ -11,7 +11,7 @@ gtn: true
 contact: Mo Heydarian, Mallory Freeberg
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - malloryfreeberg
     - moheydarian
 

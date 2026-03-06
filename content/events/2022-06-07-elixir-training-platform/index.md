@@ -13,7 +13,7 @@ contact: "Fotis Psomopoulos, Jessica Lindvall, Katharina Heil, Ana P. Melo, Alex
 image:
 subsites: [global, all-eu]
 contributions:
-  authorship:
+  organisers:
     - bebatut
     - fpsom
     - ppalagi

@@ -13,7 +13,7 @@ contact: "Frederik Coppens"
 image:
 subsites: [global, eu, belgium]
 contributions:
-  authorship:
+  organisers:
     - frederikcoppens
 
 ---

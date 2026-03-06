@@ -13,7 +13,7 @@ contact: "Beatriz Serrano-Solano, Björn Grüning, Frederik Coppens"
 image: 
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - beatrizserrano
     - bgruening
     - frederikcoppens

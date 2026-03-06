@@ -19,7 +19,7 @@ links:
 image: "galaxy-sra.png"
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - blankenberg
     - mvdbeek
     - tnabtaf

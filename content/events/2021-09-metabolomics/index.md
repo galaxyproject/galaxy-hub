@@ -15,7 +15,7 @@ links:
 image: "/images/communities/metabolomics.png"
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - foellmelanie
 
 ---

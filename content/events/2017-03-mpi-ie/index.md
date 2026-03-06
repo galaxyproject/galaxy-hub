@@ -12,7 +12,7 @@ external_url: https://t.co/0dCEj9sLb8
 contact: Björn Grüning, Devon Ryan, David Sanin
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - dpryan79
 
 ---

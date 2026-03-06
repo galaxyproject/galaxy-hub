@@ -13,7 +13,7 @@ contact: "Björn Grüning"
 gtn: false
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - bgruening
 
 ---

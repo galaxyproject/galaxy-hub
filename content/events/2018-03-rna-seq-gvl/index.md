@@ -13,7 +13,7 @@ gtn: true
 contact: Christina Hall
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - christinahall
 
 ---

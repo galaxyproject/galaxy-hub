@@ -12,7 +12,7 @@ external_url: http://www.denbi.de/22-training-cat/training-courses/213-3rd-galax
 contact: Freiburg Galaxy Team
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - freiburggalaxyteam
 
 ---

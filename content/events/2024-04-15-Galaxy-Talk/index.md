@@ -10,7 +10,7 @@ contact: "Anika Erxleben-Eggenhofer"
 tags: [talk]
 subsites: [all]
 contributions:
-  authorship:
+  organisers:
     - erxleben
   funding:
     - deNBI

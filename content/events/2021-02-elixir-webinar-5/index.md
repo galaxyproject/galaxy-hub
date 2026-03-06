@@ -21,7 +21,7 @@ links:
 image: 
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - bgruening
     - wm75
 

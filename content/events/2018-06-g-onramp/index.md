@@ -13,7 +13,7 @@ contact: Jeremy Goecks, Sarah Elgin
 gtn: true
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - jgoecks
 
 ---

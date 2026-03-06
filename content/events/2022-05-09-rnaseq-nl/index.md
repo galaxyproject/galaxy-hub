@@ -13,7 +13,7 @@ contact: "Andrew Stubbs, Miaomiao Zhou"
 links:
 subsites: [global, erasmusmc]
 contributions:
-  authorship:
+  organisers:
     - miaomiaozhou88
 
 ---

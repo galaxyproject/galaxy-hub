@@ -13,7 +13,7 @@ contact: "Laure Quintric, Patrick Durand, Erwan Corre"
 image: 
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - r1corre
 
 ---

@@ -11,7 +11,7 @@ gtn: false
 contact: "Teresa Müller"
 subsites: [all]
 contributions:
-  authorship:
+  organisers:
     - teresa-m
 
 ---

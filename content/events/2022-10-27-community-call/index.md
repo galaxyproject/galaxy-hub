@@ -12,7 +12,7 @@ contact: Dannon Baker
 tags: [training, community-call]
 subsites: [all]
 contributions:
-  authorship:
+  organisers:
     - dannon
 
 ---

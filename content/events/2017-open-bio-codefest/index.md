@@ -12,7 +12,7 @@ external_url: https://www.open-bio.org/wiki/Codefest_2017
 contact: Brad Chapman, Matúš Kalaš, Heather Wiencko
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - bradchapman
     - matuskalas
   funding:

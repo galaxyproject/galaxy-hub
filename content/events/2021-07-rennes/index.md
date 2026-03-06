@@ -15,7 +15,7 @@ contact: Yvan Le Bras
 tags: [training]
 subsites: [belgium, global, eu, genouest, us, pasteur]
 contributions:
-  authorship:
+  organisers:
     - yvanlebras
 
 ---

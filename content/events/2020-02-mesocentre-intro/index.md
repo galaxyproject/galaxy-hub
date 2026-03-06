@@ -13,7 +13,7 @@ contact: "Nadia Goué"
 image: 
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - nagoue
 
 ---

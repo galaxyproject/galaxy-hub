@@ -12,7 +12,7 @@ gtn: false
 tags: [conference, workshop, rdm, humanities, community, poster]
 subsites: [all]
 contributions:
-  authorship:
+  organisers:
     - Sch-Da
 
 ---

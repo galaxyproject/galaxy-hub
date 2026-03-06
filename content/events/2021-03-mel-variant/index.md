@@ -14,7 +14,7 @@ tags: [ ]
 image: 
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - GraceAHall
 
 ---

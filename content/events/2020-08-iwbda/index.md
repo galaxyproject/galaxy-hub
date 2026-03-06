@@ -18,7 +18,7 @@ links:
     url: "https://drive.google.com/file/d/1aTrUJvdExaVR8KHcKJzTQpPPzNlcBSx7/view?usp=sharing"
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - jfaulon
 
 ---

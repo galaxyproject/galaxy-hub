@@ -13,7 +13,7 @@ contact: Steve Cassidy
 image: 
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - stevecassidy
 
 ---

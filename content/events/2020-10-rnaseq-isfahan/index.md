@@ -14,7 +14,7 @@ contact: "Maryam Kay, Fariba Dehghanian, Alireza Khanteymoori"
 image: 
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - khanteymoori
 
 ---

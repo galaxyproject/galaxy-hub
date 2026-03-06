@@ -11,7 +11,7 @@ gtn: false
 contact: "Enis Afgan"
 subsites: [all]
 contributions:
-  authorship:
+  organisers:
     - afgane
 
 ---

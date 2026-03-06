@@ -13,7 +13,7 @@ gtn: true
 contact: "Peter van Heusden"
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - pvanheus
 
 ---
