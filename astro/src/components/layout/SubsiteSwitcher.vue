@@ -1,12 +1,12 @@
 <script setup lang="ts">
 import { useStore } from '@nanostores/vue';
-import { currentSubsite, subsites, setSubsite, type SubsiteId } from '@/stores/subsiteStore';
+import { currentSubsite, navigateToSubsiteMain, subsites, type SubsiteId } from '@/stores/subsiteStore';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 
 const current = useStore(currentSubsite);
 
 function handleChange(value: string) {
-  setSubsite(value as SubsiteId);
+  navigateToSubsiteMain(value as SubsiteId);
 }
 </script>
 
