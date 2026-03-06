@@ -9,6 +9,7 @@ contributions:
     - eurosciencegateway
     - nfdi
     - deNBI
+    - mwk
     - elixir-europe
     - nfdi4bioimage
 ---

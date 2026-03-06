@@ -12,6 +12,7 @@ contributions:
   funding:
     - elixir-europe
     - deNBI
+    - mwk
     - uni-freiburg
 ---
 

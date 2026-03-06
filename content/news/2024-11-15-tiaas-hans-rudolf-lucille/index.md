@@ -11,6 +11,7 @@ contributions:
     - lldelisle
   funding:
     - deNBI
+    - mwk
     - elixir-europe
 ---
 

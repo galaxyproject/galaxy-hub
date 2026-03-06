@@ -16,6 +16,7 @@ contributions:
     - kws
     - limagrain
     - deNBI
+    - mwk
     - uni-freiburg
     - eurosciencegateway
     - cesnet

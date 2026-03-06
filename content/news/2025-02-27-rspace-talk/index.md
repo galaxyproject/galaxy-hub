@@ -9,6 +9,7 @@ contributions:
   funding:
     - eurosciencegateway
     - deNBI
+    - mwk
     - uni-freiburg
 ---
 On February 27, 2025, the Galaxy Freiburg team hosted Dr. Tilo Mathes from RSpace, who gave a talk titled "Research Data Management with RSpace and Galaxy".

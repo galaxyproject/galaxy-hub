@@ -17,6 +17,7 @@ contributions:
   funding:
     - deKCD
     - deNBI
+    - mwk
 
 ---
 

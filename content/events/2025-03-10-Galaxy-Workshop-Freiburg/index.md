@@ -15,6 +15,7 @@ contributions:
     - Sch-Da
   funding:
     - deNBI
+    - mwk
     - eurosciencegateway
     - nfdi4plants
 

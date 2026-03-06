@@ -17,6 +17,7 @@ tags: [workshop, training]
 contributions:
   funding:
     - deNBI
+    - mwk
 
 ---
 

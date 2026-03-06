@@ -13,6 +13,7 @@ subsites: [all-eu, global, esg]
 contributions:
   funding:
     - deNBI
+    - mwk
     - elixir-europe
     - eu
     - eurosciencegateway

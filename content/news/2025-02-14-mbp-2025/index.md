@@ -12,6 +12,7 @@ contributions:
     - eurosciencegateway
     - uni-freiburg
     - deNBI
+    - mwk
     - nfdi4plants
     - elixir-europe
     - madland

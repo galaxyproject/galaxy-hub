@@ -13,6 +13,7 @@ contributions:
   funding:
     - elixir-europe
     - deNBI
+    - mwk
     - uni-freiburg
     - nfdi4bioimage
 ---
