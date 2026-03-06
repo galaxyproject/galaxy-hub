@@ -544,6 +544,7 @@ bgruening:
       - eosc-life
       - by-covid
       - deNBI
+      - mwk
       - sfb992
       - elixir-converge
       - uni-freiburg
@@ -1396,6 +1397,7 @@ Sch-Da:
       - nfdi4culture
       - biont
       - deNBI
+      - mwk
 
 dadrasarmin:
     name: Armin Dadras
@@ -1436,6 +1438,7 @@ davelopez:
       - eurosciencegateway
       - uni-freiburg
       - deNBI
+      - mwk
 
 dbrites:
     name: Daniela Brites
@@ -1629,6 +1632,7 @@ erxleben:
       - eurosciencegateway
       - elixir-europe
       - deNBI
+      - mwk
 
 estebanpw:
     name: Esteban Perez-Wohlfeil
@@ -1701,6 +1705,7 @@ foellmelanie:
     affiliations:
       - uni-freiburg
       - deNBI
+      - mwk
       - elixir-europe
 
 fpsom:
@@ -2452,6 +2457,7 @@ kostrykin:
     affiliations:
       - elixir-europe
       - deNBI
+      - mwk
 
 KristinaGomoryova:
     name: Kristina Gomoryova
@@ -2868,6 +2874,7 @@ Minamehr:
       - uni-freiburg
       - elixir-europe
       - deNBI
+      - mwk
 
 Mingkai14:
     name: Mingkai Wang
@@ -2884,6 +2891,7 @@ mira-miracoli:
       - uni-freiburg
       - elixir-europe
       - deNBI
+      - mwk
       - eurosciencegateway
 
 miRlyKayleigh:
@@ -3263,6 +3271,7 @@ paulzierep:
       - uni-freiburg
       - elixir-europe
       - deNBI
+      - mwk
 
 pavanvidem:
     name: Pavankumar Videm
@@ -3273,6 +3282,7 @@ pavanvidem:
       - elixir-europe
       - spoc
       - deNBI
+      - mwk
 
 PfisterMaxJLU:
     name: Max Pfister
@@ -3842,6 +3852,7 @@ teresa-m:
       - uni-freiburg
       - elixir-europe
       - deNBI
+      - mwk
       - biont
 
 TanguyGen:
@@ -4093,6 +4104,7 @@ wm75:
       - elixir-europe
       - eurosciencegateway
       - deNBI
+      - mwk
 
 wverastegui:
     name: Wudmir Rojas

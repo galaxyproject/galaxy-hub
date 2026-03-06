@@ -65,6 +65,12 @@ biodaten:
     gtn-halloffame: "no"
     avatar: https://raw.githubusercontent.com/bgruening/rbc_docs/blob/master/logos/csm_biodaten_logo.jpg
 
+biofair:
+    name: BioFAIR
+    github: false
+    url: https://biofair.uk/
+    avatar: "/training-material/assets/images/biofair.png"
+    
 biolytix:
     name: Biolytix AG
     url: https://www.biolytix.ch/en/
@@ -476,6 +482,7 @@ mwk:
     url: https://mwk.baden-wuerttemberg.de/de/startseite
     avatar: "/training-material/assets/images/MWK.png"
     github: false
+    ror: https://ror.org/01hc18p32
 
 ncbi:
     short_name: NCBI
