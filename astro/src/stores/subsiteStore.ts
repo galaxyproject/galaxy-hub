@@ -106,15 +106,19 @@ export function getSubsiteStaticPaths() {
     }));
 }
 
-// Helper: set subsite
-export function setSubsite(id: SubsiteId) {
+// Helper: navigate to subsite landing page
+export function navigateToSubsiteMain(id: SubsiteId) {
   const subsite = subsites.find((s) => s.id === id);
-  if (subsite) {
-    if ('external' in subsite && subsite.external) {
-      // External subsites redirect
-      window.location.href = subsite.external;
-    } else {
-      currentSubsite.set(id);
-    }
+  if (!subsite || typeof window === 'undefined') return;
+
+  if ('external' in subsite && subsite.external) {
+    window.location.href = subsite.external;
+    return;
+  }
+
+  // Global intentionally routes to the onboarding landing page instead of `/`.
+  const targetPath = id === 'global' ? '/get-started/' : subsite.path || '/';
+  if (window.location.pathname !== targetPath) {
+    window.location.href = targetPath;
   }
 }

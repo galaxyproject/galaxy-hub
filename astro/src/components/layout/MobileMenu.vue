@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue';
 import { useStore } from '@nanostores/vue';
-import { currentSubsite, subsites, setSubsite, type SubsiteId } from '@/stores/subsiteStore';
+import { currentSubsite, navigateToSubsiteMain, subsites, type SubsiteId } from '@/stores/subsiteStore';
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible';
@@ -91,7 +91,7 @@ function buildHref(href: string, external?: boolean): string {
 }
 
 function handleSubsiteChange(value: string) {
-  setSubsite(value as SubsiteId);
+  navigateToSubsiteMain(value as SubsiteId);
 }
 
 function handleNavClick() {
