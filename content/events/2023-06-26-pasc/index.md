@@ -11,7 +11,7 @@ contact: "Gregory Watson, Leandro Liborio, Kelly Elizabeth Nygren, Rolf Verberg,
 subsites: [global,esg]
 tags: [esg-wp5, esg, conference]
 contributions:
-  authorship:
+  organisers:
     - hrhotz
     - leandro-liborio
   funding:

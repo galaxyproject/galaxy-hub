@@ -13,7 +13,7 @@ contact: Emily Angiolini
 tags: [training]
 subsites: [all-eu, global, us]
 contributions:
-  authorship:
+  organisers:
     - angiolini
 
 ---

@@ -12,7 +12,7 @@ external_url: http://www.asms.org/conferences/annual-conference/annual-conferenc
 contact: Tim Griffin, Pratik Jagtap
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - pratikdjagtap
 
 ---

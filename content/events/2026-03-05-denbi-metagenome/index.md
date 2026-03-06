@@ -12,6 +12,15 @@ continent: GL
 tags: [workshop, metagenomics]
 external_url: https://www.denbi.de/training-courses-2026/2018-galaxy-metagenome-training-course-2026
 tease: "Join us online in the 2026 Metagenome Training Course"
+contributions:
+  organisers:
+    - deNBI
+  instructors:
+    - paulzierep
+    - minamehr
+    - RZ9082
+  infrastructure:
+    - deNBI
 ---
 The aim of this two-day workshop is to offer participants a clear and comprehensive introduction to the bioinformatics tools and techniques used for analyzing next-generation sequencing (NGS)
 data from microbial communities. Blending informative lectures with practical, hands-on tutorials, the course enables participants to work with real datasets in real time using the intuitive usegalaxy.eu platform.

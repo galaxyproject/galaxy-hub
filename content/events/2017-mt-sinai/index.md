@@ -12,7 +12,7 @@ gtn: true
 contact: Anton Nekrutenko, Andrew Sharp
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - nekrut
 
 ---

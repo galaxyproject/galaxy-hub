@@ -11,7 +11,7 @@ contact: Bérénice Batut
 tags: [workshop, training]
 subsites: [all]
 contributions:
-  authorship:
+  organisers:
     - bebatut
 
 ---

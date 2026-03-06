@@ -13,7 +13,7 @@ contact: "Alex Kanitx, Gavin Farrell, Jennifer Harrow, Jonathan Tedds, Finn Baca
 image:
 subsites: [global, all-eu]
 contributions:
-  authorship:
+  organisers:
     - bgruening
     - fbacall
 

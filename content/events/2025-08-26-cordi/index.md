@@ -12,7 +12,7 @@ contact: Daniela Schneider
 tags: [conference]
 subsites: [all]
 contributions:
-  authorship:
+  organisers:
     - Sch-Da
   funding:
     - nfdi4bioimage

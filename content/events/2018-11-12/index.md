@@ -13,7 +13,7 @@ contact: Jan Oppelt, Jelle Scholtalbers
 image: 
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - jellescholtalbers
 
 ---

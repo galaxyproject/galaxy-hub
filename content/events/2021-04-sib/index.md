@@ -13,7 +13,7 @@ contact: "Lucille Delisle, Hans-Rudolf Hotz, Florian Heyl"
 image: 
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - heylf
     - hrhotz
     - lldelisle

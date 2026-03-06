@@ -13,7 +13,7 @@ gtn: false
 contact: "Helena Rasche, Dave Clements"
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - hexylena
     - tnabtaf
 

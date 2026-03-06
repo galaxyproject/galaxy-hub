@@ -13,7 +13,7 @@ contact: "Liesbet Peeters, Wim Vranken, Alexander Botzki, Flora D’Anna, Freder
 image:
 subsites: [global, eu, belgium]
 contributions:
-  authorship:
+  organisers:
     - frederikcoppens
 
 ---

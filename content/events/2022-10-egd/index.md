@@ -12,7 +12,7 @@ contact: Hans-Rudolf Hotz, Björn Grüning, Beatriz Serrano-Solano, Oana Marchis
 tags: [training, conferece, cofest, esg, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5]
 subsites: [all-eu, global, esg]
 contributions:
-  authorship:
+  organisers:
     - beatrizserrano
     - bgruening
     - erxleben

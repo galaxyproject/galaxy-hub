@@ -10,7 +10,7 @@ gtn: false
 contact: "Beatriz Serrano-Solano, Björn Grüning"
 subsites: [global, all-eu]
 contributions:
-  authorship:
+  organisers:
     - beatrizserrano
     - bgruening
 

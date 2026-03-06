@@ -13,7 +13,7 @@ contact: Freiburg Galaxy Team
 gtn: true
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - freiburggalaxyteam
 
 ---

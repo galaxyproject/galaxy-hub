@@ -13,7 +13,7 @@ contact: "Wolfgang Maier"
 image: 
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - wm75
 
 ---

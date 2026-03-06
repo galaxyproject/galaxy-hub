@@ -6,4 +6,6 @@ tease: "Biology of Genomes 2026 brings together researchers worldwide to discuss
 continent: NA
 location: "Cold Spring Harbor, NY, USA"
 external_url: "https://meetings.cshl.edu/meetings.aspx?meet=GENOME&year=26"
+contributions:
+  organisers: []
 ---

@@ -10,7 +10,7 @@ contact:  Lucille Delisle, Hans-Rudolf Hotz
 tags:
 subsites: [all-eu, global, us]
 contributions:
-  authorship:
+  organisers:
     - hrhotz
     - lldelisle
 

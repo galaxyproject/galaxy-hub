@@ -13,7 +13,7 @@ contact: Pratik Jagtap, Subina Mehta, Tim Griffin, Magnus Arntzen, Saskia Hiltem
 tags: [training]
 subsites: [all-eu, global, us]
 contributions:
-  authorship:
+  organisers:
     - pratikdjagtap
     - shiltemann
     - subinamehta

@@ -13,7 +13,7 @@ contact: "Charles Girardot "
 image: 
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - charlesgirardot
 
 ---

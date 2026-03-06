@@ -14,7 +14,7 @@ image: "eresearch-australasia-logo.png"
 subsites: [global, us]
 tags: [talk, covid-19, outreach]
 contributions:
-  authorship:
+  organisers:
     - GarethPrice-Aus
     - slugger70
 

@@ -12,7 +12,7 @@ external_url: http://www.cmb.ac.lk/index.php/event/the-pulse-of-cloud-computing-
 contact: Nuwan Goonasekera, Enis Afgan
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - afgane
     - nuwang
 

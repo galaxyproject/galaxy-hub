@@ -10,7 +10,7 @@ contact: "Delphine Larivière, Ibrahim Jivanjee"
 tags: [training]
 subsites: [all]
 contributions:
-  authorship:
+  organisers:
     - delphine-l
 
 ---

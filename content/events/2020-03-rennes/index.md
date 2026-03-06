@@ -13,7 +13,7 @@ contact: "Yvan Le Bras"
 image: 
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - yvanlebras
 
 ---

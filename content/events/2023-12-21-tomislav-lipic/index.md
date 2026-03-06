@@ -12,7 +12,7 @@ gtn: false
 tags: [conference]
 subsites: [all]
 contributions:
-  authorship:
+  organisers:
     - afgane
 
 ---

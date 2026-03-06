@@ -17,7 +17,7 @@ links:
   url: https://youtu.be/vx2icgaU_h0
 subsites: [all-eu, global, us]
 contributions:
-  authorship:
+  organisers:
     - gmauro
     - lldelisle
 

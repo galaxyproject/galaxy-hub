@@ -12,7 +12,7 @@ contact: "Bérénice Batut"
 tags: ["workshop", training, microbiology, workflow]
 subsites: [all]
 contributions:
-  authorship:
+  organisers:
     - bebatut
   funding:
     - biolytix

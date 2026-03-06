@@ -13,7 +13,7 @@ contact: Stefana Dreptate, Wendi Bacon
 tags: [training, webinar]
 subsites: [all-eu, global, us]
 contributions:
-  authorship:
+  organisers:
     - nomadscientist
 
 ---

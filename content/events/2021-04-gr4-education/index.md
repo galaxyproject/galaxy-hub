@@ -21,7 +21,7 @@ links:
   url: https://depot.galaxyproject.org/hub/attachments/events/2021-04-gr4-education/gr4-education-slides-2.pdf
 subsites: [all-eu, global, us]
 contributions:
-  authorship:
+  organisers:
     - bebatut
     - miaomiaozhou88
     - shiltemann

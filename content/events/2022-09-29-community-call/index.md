@@ -13,7 +13,7 @@ contact: Wolfgang Maier
 tags: [training, community-call, covid-19, workflow, community]
 subsites: [all]
 contributions:
-  authorship:
+  organisers:
     - wm75
 
 ---

@@ -14,7 +14,7 @@ contact: "Pratik Jagtap"
 tags: [webinar]
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - pratikdjagtap
 
 ---

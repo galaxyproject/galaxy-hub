@@ -13,7 +13,7 @@ gtn: true
 contact: Camille Avestruz, Tracy Teal, Joslynn Lee, Dave Clements
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - tnabtaf
 
 ---

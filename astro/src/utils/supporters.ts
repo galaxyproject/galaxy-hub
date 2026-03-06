@@ -16,35 +16,7 @@ function toArray(value: unknown): string[] {
   return baseToArray(value);
 }
 
-let supporterMap: Map<string, SupporterProfile> | null = null;
-
-async function loadSupporterMap(): Promise<Map<string, SupporterProfile>> {
-  if (supporterMap) return supporterMap;
-
-  const { getEntry } = await import('astro:content');
-  const entry = await getEntry('datasets', 'supporters');
-  const map = new Map<string, SupporterProfile>();
-
-  const list = Array.isArray(entry?.data?.supporters) ? (entry.data.supporters as Array<Record<string, unknown>>) : [];
-
-  for (const item of list) {
-    const name = String(item.name || '').trim();
-    if (!name) continue;
-    const slug = slugify(name);
-    map.set(slug, {
-      slug,
-      name,
-      image: typeof item.image === 'string' ? item.image : undefined,
-      website: typeof item.website === 'string' ? item.website : undefined,
-    });
-  }
-
-  supporterMap = map;
-  return map;
-}
-
 export async function resolveSupporters(value: unknown): Promise<SupporterProfile[]> {
-  const map = await loadSupporterMap();
   const names = toArray(value).filter(Boolean);
   const seen = new Set<string>();
   const resolved: SupporterProfile[] = [];
@@ -81,13 +53,10 @@ export async function resolveSupporters(value: unknown): Promise<SupporterProfil
     const slug = slugify(name);
     if (!slug || seen.has(slug)) continue;
     seen.add(slug);
-    const mapped = map.get(slug);
-    resolved.push(
-      mapped || {
-        slug,
-        name,
-      }
-    );
+    resolved.push({
+      slug,
+      name,
+    });
   }
 
   return resolved;

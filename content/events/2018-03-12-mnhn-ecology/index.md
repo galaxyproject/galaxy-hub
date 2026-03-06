@@ -13,7 +13,7 @@ gtn: true
 contact: "Yvan Le Bras, Valentin Chambon, Alan Amossé, yvan.le-bras@mnhn.fr"
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - yvanlebras
 
 ---

@@ -14,7 +14,7 @@ image:
 tags: []
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - christinahall
 
 ---

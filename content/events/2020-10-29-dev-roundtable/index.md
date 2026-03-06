@@ -16,7 +16,7 @@ links:
 tags: [devroundtable]
 subsites: [all-eu, global, us]
 contributions:
-  authorship:
+  organisers:
     - dannon
     - jmchilton
     - mvdbeek

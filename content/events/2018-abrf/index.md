@@ -13,7 +13,7 @@ gtn: true
 contact: Pratik Jagtap
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - pratikdjagtap
 
 ---

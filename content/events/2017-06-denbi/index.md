@@ -10,7 +10,7 @@ external_url: http://www.denbi.de/22-training-cat/training-courses/353-bimsb-gal
 contact: Dilmurat Yusuf, Bora Uyar
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - dyusuf
 
 ---

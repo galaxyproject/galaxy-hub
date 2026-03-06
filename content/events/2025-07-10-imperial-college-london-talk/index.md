@@ -12,7 +12,7 @@ tags: [talk, uni-freiburg, esg, esg-wp1]
 subsites: [all,esg]
 autotoc: false
 contributions:
-  authorship:
+  organisers:
     - dadrasarmin
   funding:
     - elixir-europe

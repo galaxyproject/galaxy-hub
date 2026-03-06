@@ -11,7 +11,7 @@ contact: "Pavankumar Videm"
 tags: [workshop, training]
 subsites: [all]
 contributions:
-  authorship:
+  organisers:
     - pavanvidem
 
 ---

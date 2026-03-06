@@ -14,6 +14,8 @@ gtn: true
 contact: "Organizing Committee"
 conference: true
 subsites: [all, all-eu]
+contributions:
+  organisers: []
 ---
 
 <div class="text-center my-5">

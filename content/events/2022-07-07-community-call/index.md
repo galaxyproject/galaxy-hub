@@ -12,7 +12,7 @@ contact: Anup Kumar
 tags: [community-call, tool]
 subsites: [all]
 contributions:
-  authorship:
+  organisers:
     - anuprulez
 
 ---

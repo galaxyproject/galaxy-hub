@@ -13,7 +13,7 @@ contact: "Dan Blankenberg, Martin Čech"
 image: "acm-bcb-2019-banner.png"
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - blankenberg
     - martenson
 

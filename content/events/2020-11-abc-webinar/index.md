@@ -17,7 +17,7 @@ links:
     url: "https://youtu.be/0IzmfebWtUU"
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - GarethPrice-Aus
     - supernord
 

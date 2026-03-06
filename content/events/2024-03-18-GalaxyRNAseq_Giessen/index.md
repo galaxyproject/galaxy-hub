@@ -11,7 +11,7 @@ contact: "Anika Erxleben-Eggenhofer, Jochen Blom"
 subsites: [all]
 tags: [training, workshop]
 contributions:
-  authorship:
+  organisers:
     - erxleben
     - jochenblom
   funding:

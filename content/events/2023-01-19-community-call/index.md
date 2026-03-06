@@ -13,7 +13,7 @@ contact: "Natalie Kucher"
 tags: ["community-call"]
 subsites: [all]
 contributions:
-  authorship:
+  organisers:
     - nakucher
 
 ---

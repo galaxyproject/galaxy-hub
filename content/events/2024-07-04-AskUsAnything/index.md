@@ -10,7 +10,7 @@ contact: "Anika Erxleben-Eggenhofer"
 tags: [webinar]
 subsites: [all]
 contributions:
-  authorship:
+  organisers:
     - erxleben
   funding:
     - deKCD

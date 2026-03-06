@@ -12,7 +12,7 @@ gtn: true
 tags: [workshop]
 subsites: [all]
 contributions:
-  authorship:
+  organisers:
     - Sch-Da
   funding:
     - deKCD

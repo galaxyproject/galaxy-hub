@@ -13,7 +13,7 @@ tags: [ ]
 image:
 subsites: [eu]
 contributions:
-  authorship:
+  organisers:
     - bgruening
 
 ---

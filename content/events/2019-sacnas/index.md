@@ -13,7 +13,7 @@ gtn: true
 contact: "Mo Heydarian, Dave Clements"
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - moheydarian
     - tnabtaf
 

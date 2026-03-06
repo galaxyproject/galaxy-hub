@@ -15,7 +15,7 @@ links:
 image: "/images/events/2021-11-microbiomes/sponsors-hosts.png"
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - pratikdjagtap
 
 ---

@@ -19,7 +19,7 @@ links:
 image: 
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - pratikdjagtap
     - subinamehta
     - wm75

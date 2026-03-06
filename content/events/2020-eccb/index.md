@@ -13,7 +13,7 @@ contact: "Björn Grüning, Anup Kumar, Alireza Khanteymoori, Fotis Psomopoulos"
 gtn: true
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - anuprulez
     - bgruening
     - fpsom

@@ -13,7 +13,7 @@ image: /images/logos/ben_gurion_logo.png
 gtn: true
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - nekrut
 
 ---

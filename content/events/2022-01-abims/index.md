@@ -14,7 +14,7 @@ image: ''
 tags: [training]
 subsites: [all-eu, global, us]
 contributions:
-  authorship:
+  organisers:
     - loraine-gueguen
     - r1corre
 

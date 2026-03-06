@@ -14,7 +14,7 @@ contact: Olivier Inizan, Mouhamadou Ba
 tags: []
 subsites: [all-eu, global, us]
 contributions:
-  authorship:
+  organisers:
     - olivierinizan
 
 ---

@@ -13,7 +13,7 @@ gtn: true
 contact: "Grace Hall"
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - GraceAHall
 
 ---

@@ -14,7 +14,7 @@ external_url: https://training.galaxyproject.org/training-material/events/2025-1
 tease: The purpose of this workshop is to gain knowledge on detect (foodborne) pathogens
   from (direct Nanopore) sequencing data using Galaxy
 contributions:
-  authorship:
+  organisers:
     - abdullahkahraman
     - annahenger
 

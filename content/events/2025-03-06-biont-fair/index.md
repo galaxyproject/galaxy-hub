@@ -15,7 +15,7 @@ external_url: https://training.galaxyproject.org/training-material/events/2025-0
 tease: 'Join the #BioNT workshop on Data Management and Analysis for Industry and
   Research'
 contributions:
-  authorship:
+  organisers:
     - teresa-m
 
 ---

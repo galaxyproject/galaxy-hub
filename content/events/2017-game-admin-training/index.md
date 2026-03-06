@@ -13,7 +13,7 @@ gtn: true
 contact: Enis Afgan, Nate Coraor, Björn Grüning, Simon Gladman, Ross Lazarus, 
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - afgane
     - bgruening
     - fubar2

@@ -13,7 +13,7 @@ contact: "Bérénice Batut"
 tags: ["community-call"]
 subsites: [all]
 contributions:
-  authorship:
+  organisers:
     - bebatut
 
 ---

@@ -13,7 +13,7 @@ gtn: true
 contact: Martin Čech
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - martenson
 
 ---

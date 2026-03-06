@@ -250,18 +250,35 @@ export function toArray(value: unknown): string[] {
   return baseToArray(value);
 }
 
+function uniqueStrings(values: string[]): string[] {
+  const seen = new Set<string>();
+  const out: string[] = [];
+  values.forEach((value) => {
+    if (!value || seen.has(value)) return;
+    seen.add(value);
+    out.push(value);
+  });
+  return out;
+}
+
 /**
  * Extract author identifiers from content entry data.
  */
 export function extractAuthors(data: Record<string, unknown>): string[] {
   const contrib = (data.contributions as Record<string, unknown>) || {};
   const contributionAuthors = [
+    ...toArray(contrib.organisers),
+    ...toArray(contrib.organizers),
     ...toArray(contrib.authorship),
     ...toArray(contrib.author),
     ...toArray(contrib.contributors),
+    ...toArray(contrib.instructors),
+    ...toArray(contrib.testing),
+    ...toArray(contrib.reviewing),
+    ...toArray(contrib.translation),
   ].filter(Boolean);
 
-  return contributionAuthors;
+  return uniqueStrings(contributionAuthors);
 }
 
 /**
@@ -270,14 +287,11 @@ export function extractAuthors(data: Record<string, unknown>): string[] {
  */
 export function extractFunding(data: Record<string, unknown>): string[] {
   const contrib = (data.contributions as Record<string, unknown>) || {};
-  const funding = [
-    ...toArray(contrib.funding),
-    ...toArray(data.funding),
-    ...toArray(data.infrastructure),
-    ...toArray(data.data),
-  ].filter(Boolean);
+  const funding = [...toArray(contrib.funding), ...toArray(contrib.infrastructure), ...toArray(data.data)].filter(
+    Boolean
+  );
 
-  return funding;
+  return uniqueStrings(funding);
 }
 
 /**

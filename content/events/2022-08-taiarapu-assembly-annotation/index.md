@@ -12,7 +12,7 @@ gtn: true
 contact: "Alexandre Cormier, Cyril Noel, Patrick Durand"
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - alexcorm
 
 ---

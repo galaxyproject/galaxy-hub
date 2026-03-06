@@ -17,7 +17,7 @@ tease: As colleagues from CCAMLR / Antarctica conservation from Belgium are comi
   wanted to learn how to use and contribute to Galaxy Ecology European Platform during
   these 3 days.
 contributions:
-  authorship:
+  organisers:
     - yvanlebras
 
 ---

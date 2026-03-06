@@ -13,7 +13,7 @@ contact: "Alireza Khanteymoori, Anup Kumar"
 gtn: true
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - anuprulez
     - khanteymoori
 

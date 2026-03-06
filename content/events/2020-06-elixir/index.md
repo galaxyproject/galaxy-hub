@@ -13,7 +13,7 @@ contact: "Frederik Coppens, Björn Grüning and Gildas Le Corguillé"
 image: 
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - frederikcoppens
 
 ---

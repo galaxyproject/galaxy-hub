@@ -13,7 +13,7 @@ contact: "Gareth Price, Simon Gladman"
 image: "eresearch-nz-banner.png"
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - GarethPrice-Aus
     - slugger70
 
