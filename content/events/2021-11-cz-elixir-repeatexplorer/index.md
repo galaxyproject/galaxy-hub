@@ -15,5 +15,7 @@ subsites: [all-eu, global, us]
 contributions:
   authorship:
     - martenson
+  funding:
+    - elixir-cz
 
 ---

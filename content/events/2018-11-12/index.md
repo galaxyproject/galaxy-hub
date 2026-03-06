@@ -15,5 +15,7 @@ subsites: [global, us]
 contributions:
   authorship:
     - jellescholtalbers
+  funding:
+    - elixir-cz
 
 ---

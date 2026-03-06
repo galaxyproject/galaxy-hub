@@ -15,5 +15,6 @@ contributions:
   authorship:
     - bradchapman
     - matuskalas
-
+  funding:
+    - elixir-cz
 ---
