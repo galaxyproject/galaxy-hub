@@ -9,6 +9,7 @@ contributions:
   funding:
     - eurosciencegateway
     - deNBI
+    - mwk
     - uni-freiburg
 ---
 The [April 2025](https://cms.aquainfra.eu/files/AquaINFRA%20Newsletter%20April%202025%20V1.0.pdf) issue of [AquaINFRA](https://aquainfra.eu/)'s 

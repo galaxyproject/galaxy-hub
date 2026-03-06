@@ -20,6 +20,7 @@ contributions:
     - earlham
     - vib
     - deNBI
+    - mwk
     - elixir-europe
     - cesnet
     - elixir-cz

@@ -8,6 +8,7 @@ main_subsite: eu
 contributions:
   funding:
     - deNBI
+    - mwk
     - elixir-europe
     - eosc-life
     - eurosciencegateway

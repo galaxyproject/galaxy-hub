@@ -10,6 +10,7 @@ contributions:
     funding:
     - deKCD
     - deNBI
+    - mwk
 ---
 # The Freiburg Galaxy team presented use cases from the Humanities at the E-Science Days
 

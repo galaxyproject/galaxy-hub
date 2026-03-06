@@ -14,6 +14,7 @@ contributions:
     - erxleben
   funding:
     - deNBI
+    - mwk
     - eurosciencegateway
     - nfdi4plants
 

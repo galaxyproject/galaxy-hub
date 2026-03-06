@@ -10,6 +10,7 @@ contributions:
   funding:
     - elixir-europe
     - deNBI
+    - mwk
 ---
 
 <img style="background-color:#FFFFFF" src="https://www.denbi.de/images/Events/LOGO_BioHack2025_tr_3976x2132_srgb.png" />

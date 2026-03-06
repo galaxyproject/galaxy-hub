@@ -23,6 +23,7 @@ contributions:
   funding:
     - ifb
     - deNBI
+    - mwk
     - elixir-europe
 ---
 

@@ -14,6 +14,7 @@ tease: 'A webinar in the de.NBI & ELIXIR-DE and GHGA knowledge series'
 contributions:
   funding:
     - deNBI
+    - mwk
     - elixir-de
     - ghga-de
 ---

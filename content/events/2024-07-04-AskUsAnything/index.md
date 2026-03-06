@@ -15,6 +15,7 @@ contributions:
   funding:
     - deKCD
     - deNBI
+    - mwk
     - eurosciencegateway
 
 ---

@@ -16,6 +16,7 @@ contributions:
   funding:
     - elixir-europe
     - deNBI
+    - mwk
     - eurosciencegateway
 ---
 

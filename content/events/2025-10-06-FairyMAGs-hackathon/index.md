@@ -16,6 +16,7 @@ contributions:
     - paulzierep
   funding:
     - deNBI
+    - mwk
     - elixir-europe
     - ifb
 

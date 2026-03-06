@@ -11,6 +11,7 @@ contributions:
     - hrhotz
   funding:
     - deNBI
+    - mwk
     - elixir-europe
 ---
 

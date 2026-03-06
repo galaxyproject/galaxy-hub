@@ -12,6 +12,7 @@ contributions:
     - eosc-life
     - uni-freiburg
     - deNBI
+    - mwk
     - elixir-europe
     - eurosciencegateway
 ---

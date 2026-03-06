@@ -15,6 +15,7 @@ contributions:
     - eurosciencegateway
     - elixir-europe
     - deNBI
+    - mwk
     - nfdi
     - egi
     - ifremer
