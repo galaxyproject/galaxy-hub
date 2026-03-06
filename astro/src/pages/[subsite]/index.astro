@@ -2,7 +2,8 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import SubsiteOverview from '../../components/SubsiteOverview.astro';
 import { getSubsiteStaticPaths, subsiteLabels } from '../../stores/subsiteStore';
-import { getUpcomingEvents, getPublishedNews } from '../../utils/content';
+import { getUpcomingEvents, getPublishedNews, getInsert } from '../../utils/content';
+import { render } from 'astro:content';
 
 export const getStaticPaths = getSubsiteStaticPaths;
 
@@ -18,8 +19,13 @@ const { title, description } = subsiteLabels[subsite] || {
   title: `Galaxy ${subsiteInfo.name}`,
   description: `Galaxy resources and news for ${subsiteInfo.name}`,
 };
+
+const mainInsert = await getInsert(`${subsite}/main`);
+const { Content: MainContent } = mainInsert ? await render(mainInsert) : { Content: null };
 ---
 
 <BaseLayout title={title} description={description}>
-  <SubsiteOverview {subsite} {title} {description} {upcomingEvents} {subsiteNews} />
+  <SubsiteOverview {subsite} {title} {description} {upcomingEvents} {subsiteNews} hasMainContent={!!MainContent}>
+    {MainContent && <MainContent slot="main-content" />}
+  </SubsiteOverview>
 </BaseLayout>
