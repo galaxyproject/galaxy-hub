@@ -10,7 +10,7 @@ contact:  Wendi Bacon
 tags: [single-cell]
 subsites: [all-eu, global, us]
 contributions:
-  authorship:
+  organisers:
     - nomadscientist
 
 ---

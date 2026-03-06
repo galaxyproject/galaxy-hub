@@ -10,7 +10,7 @@ contact: "Armin Dadras"
 tags: [workshop,elixir,esg,esg-wp2,single-cell,workflow, workflowhub, omics, demo]
 subsites: [all, esg, eu]
 contributions:
-  authorship:
+  organisers:
     - dadrasarmin
   funding:
     - deNBI

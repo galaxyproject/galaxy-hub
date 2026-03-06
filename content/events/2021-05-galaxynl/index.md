@@ -14,7 +14,7 @@ image: /images/logos/galaxy-nl-big.png
 tags: []
 subsites: [all-eu, global, us]
 contributions:
-  authorship:
+  organisers:
     - shiltemann
 
 ---

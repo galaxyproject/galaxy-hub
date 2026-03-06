@@ -13,7 +13,7 @@ gtn: true
 contact: Arun Sethuraman, Dave Clements
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - tnabtaf
 
 ---

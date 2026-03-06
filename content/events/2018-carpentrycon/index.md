@@ -12,7 +12,7 @@ contact: Bérénice Batut
 gtn: false
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - bebatut
 
 ---

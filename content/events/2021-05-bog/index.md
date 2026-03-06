@@ -14,7 +14,7 @@ image: "/images/logos/CSHLLogo.jpg"
 subsites: [global, us]
 tags: [workflow, conference, poster]
 contributions:
-  authorship:
+  organisers:
     - mschatz
     - nekrut
 

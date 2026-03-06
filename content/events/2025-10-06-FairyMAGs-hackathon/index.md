@@ -11,7 +11,7 @@ subsites: [all]
 tease: "This 4-day hybrid hackathon aims to optimize Metagenomics Assembled Genomes Building workflows"
 hide_tease: true
 contributions:
-  authorship:
+  organisers:
     - bebatut
     - paulzierep
   funding:

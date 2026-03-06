@@ -11,7 +11,7 @@ external_url: http://cnrsformation.cnrs.fr/stage-17012-Analyse-avancee-de-sequen
 contact: Aurélien Barré, Raluca Uricaru, Benjamin Dartigues
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - benjamindartigues
 
 ---

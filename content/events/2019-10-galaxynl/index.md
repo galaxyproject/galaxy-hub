@@ -13,7 +13,7 @@ contact: "Saskia Hiltemann"
 image: "/images/logos/galaxy-nl-big.png"
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - shiltemann
 
 ---

@@ -12,7 +12,7 @@ external_url:
 contact: Tim Griffin, Pratik Jagtap
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - pratikdjagtap
 
 ---

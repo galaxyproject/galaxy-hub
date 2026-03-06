@@ -13,7 +13,7 @@ gtn: true
 contact: "Simon Gladman"
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - slugger70
 
 ---

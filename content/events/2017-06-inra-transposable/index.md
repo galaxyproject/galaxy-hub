@@ -11,7 +11,7 @@ external_url: https://lists.galaxyproject.org/archives/list/galaxy-france@lists.
 contact: Nathalie Choisne, Olivier Inizan
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - olivierinizan
 
 ---

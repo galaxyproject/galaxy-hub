@@ -19,7 +19,7 @@ links:
 contact: "Dave Clements"
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - tnabtaf
 
 ---

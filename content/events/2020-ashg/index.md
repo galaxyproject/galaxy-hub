@@ -16,7 +16,7 @@ links:
   url: "https://www.pathlms.com/ashg/courses/25102"
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - astrovsky01
     - tnabtaf
 

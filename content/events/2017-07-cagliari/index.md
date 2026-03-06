@@ -12,7 +12,7 @@ gtn: true
 contact: Gianmauro Cuccuru
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - gmauro
 
 ---

@@ -16,7 +16,7 @@ image: /images/logos/SIB_Logo_trans_background.png
 tags: [training]
 subsites: [all]
 contributions:
-  authorship:
+  organisers:
     - hrhotz
     - lldelisle
 

@@ -13,7 +13,7 @@ contact: "Johan Gustafsson, Steven Manos, Nigel Ward, Andrew Lonie, Brian Davis,
 image:
 subsites: [global, all-eu]
 contributions:
-  authorship:
+  organisers:
     - carolegoble
     - fbacall
     - nsoranzo

@@ -13,7 +13,7 @@ contact: "Enis Afgan"
 tags: ["community-call"]
 subsites: [all]
 contributions:
-  authorship:
+  organisers:
     - afgane
 
 ---

@@ -11,7 +11,7 @@ contact: "Anton Nekrutenko"
 tags: [webinar]
 subsites: [all]
 contributions:
-  authorship:
+  organisers:
     - nekrut
 
 ---

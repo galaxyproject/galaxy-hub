@@ -13,7 +13,7 @@ contact: "Enis Afgan"
 image: 
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - afgane
 
 ---

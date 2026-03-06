@@ -9,7 +9,7 @@ subsites: [all-eu]
 gtn: true
 tags: [workshop, training]
 contributions:
-  authorship:
+  organisers:
     - paulzierep
 
 ---

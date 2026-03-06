@@ -19,7 +19,7 @@ links:
 contact: "Nate Coraor"
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - natefoo
 
 ---

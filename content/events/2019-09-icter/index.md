@@ -14,7 +14,7 @@ gtn: false
 contact: "Nuwan Goonasekera"
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - nuwang
 
 ---

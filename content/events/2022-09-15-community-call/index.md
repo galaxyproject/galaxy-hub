@@ -12,7 +12,7 @@ contact: Michelle Savage, Ahmed Awan, Tyler Collins
 tags: [training, community-call]
 subsites: [all]
 contributions:
-  authorship:
+  organisers:
     - hujambo-dunia
     - tcollins2011
 

@@ -19,7 +19,7 @@ links:
   url: https://youtu.be/srUg7O318PA
 subsites: [all-eu, global, us]
 contributions:
-  authorship:
+  organisers:
     - afgane
     - mschatz
     - nekrut

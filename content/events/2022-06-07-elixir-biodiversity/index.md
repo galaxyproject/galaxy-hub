@@ -17,7 +17,7 @@ contact: Nicola Soranzo, Bérénice Batut, Anthony Bretaudeau, Johan Gustafsson,
 tags: [training]
 subsites: [all-eu, global]
 contributions:
-  authorship:
+  organisers:
     - abretaud
     - beatrizserrano
     - bebatut

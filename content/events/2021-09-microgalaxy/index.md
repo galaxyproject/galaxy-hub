@@ -14,7 +14,7 @@ tags: []
 image: ''
 subsites: [all-eu, global, us]
 contributions:
-  authorship:
+  organisers:
     - bebatut
 
 ---

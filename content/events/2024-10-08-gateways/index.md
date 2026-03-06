@@ -12,7 +12,7 @@ contact: "Enis Afgan"
 tags: [conference]
 subsites: [all]
 contributions:
-  authorship:
+  organisers:
     - afgane
 
 ---

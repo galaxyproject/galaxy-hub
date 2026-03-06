@@ -13,7 +13,7 @@ contact: "Elli Papadopoulou, Alexandros Dimopoulos, Thanasis Vergoulis, Fotis Ps
 image: 
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - fpsom
 
 ---

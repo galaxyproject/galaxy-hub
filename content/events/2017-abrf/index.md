@@ -13,7 +13,7 @@ contact: Tim Griffin, Pratik Jagtap, James Johnson
 subsites: [global, us]
 tags: [microbiology, community, demo]
 contributions:
-  authorship:
+  organisers:
     - jj-umn
     - pratikdjagtap
 

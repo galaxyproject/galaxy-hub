@@ -12,7 +12,7 @@ gtn: true
 contact: Simon Gladman, Pip Griffin, Jessica Chung, Clare Sloggett
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - claresloggett
     - slugger70
 

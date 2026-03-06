@@ -13,7 +13,7 @@ contact: "Tim Griffin, Pratik Jagtap"
 image: 
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - pratikdjagtap
 
 ---

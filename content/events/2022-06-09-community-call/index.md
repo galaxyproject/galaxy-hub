@@ -12,7 +12,7 @@ contact: Simon Bray
 tags: [community-call, workflow, tools]
 subsites: [all]
 contributions:
-  authorship:
+  organisers:
     - simonbray
 
 ---

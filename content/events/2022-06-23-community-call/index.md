@@ -12,7 +12,7 @@ contact: John Davis, Marius van den Beek
 tags: [community-call]
 subsites: [all]
 contributions:
-  authorship:
+  organisers:
     - jdavcs
     - mvdbeek
 

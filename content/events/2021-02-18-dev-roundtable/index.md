@@ -17,7 +17,7 @@ links:
 tags: [ "devroundtable" ]
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - afgane
 
 ---

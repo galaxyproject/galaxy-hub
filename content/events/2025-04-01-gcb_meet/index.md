@@ -10,7 +10,7 @@ contact:  Wendi Bacon
 tags: [community]
 subsites: [all-eu, global, us]
 contributions:
-  authorship:
+  organisers:
     - nomadscientist
 
 ---

@@ -12,7 +12,7 @@ continent: EU
 external_url: https://training.galaxyproject.org/training-material/events/2025-06-30-hts-workshop-freiburg.html
 tease: This course introduces scientists to the data analysis platform Galaxy
 contributions:
-  authorship:
+  organisers:
     - Sch-Da
     - teresa-m
 

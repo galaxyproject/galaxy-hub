@@ -13,7 +13,7 @@ contact: "Jeremy Goecks"
 image: 
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - jgoecks
 
 ---

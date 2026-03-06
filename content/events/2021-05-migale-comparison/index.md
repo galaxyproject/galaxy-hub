@@ -14,7 +14,7 @@ contact: Valentin Loux, Hélène Chiapello
 tags: []
 subsites: [all-eu, global, us]
 contributions:
-  authorship:
+  organisers:
     - hchiapello
     - vloux
 

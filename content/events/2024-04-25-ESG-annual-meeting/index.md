@@ -3,14 +3,14 @@ site: Berlin
 title: "EuroScienceGateway General Assembly Meeting 2024"
 starts: 2024-10-24
 ends: 2024-10-24
-organiser: ALU Freiburg Team
 contact: Anika Erxleben-Eggenhofer
 location:  ParkInn Hotel, Alexanderplatz 7, 10178, Berlin
 tags: [esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5, esg, meeting, meeting]
 subsites: [all-eu, esg]
 contributions:
-  authorship:
+  organisers:
     - erxleben
+    - freiburggalaxyteam
   funding:
     - eu
 

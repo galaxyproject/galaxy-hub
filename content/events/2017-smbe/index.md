@@ -12,7 +12,7 @@ gtn: true
 contact: Anton Nekrutenko, Sergei Kosakovsky Pond
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - nekrut
     - sergeikosakovskypond
 

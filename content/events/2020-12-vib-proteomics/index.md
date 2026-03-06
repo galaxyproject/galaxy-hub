@@ -13,7 +13,7 @@ contact: Melanie Föll, Matthias Fahrner
 tags: [training]
 subsites: [all-eu, global, us]
 contributions:
-  authorship:
+  organisers:
     - foellmelanie
     - matthias313
 

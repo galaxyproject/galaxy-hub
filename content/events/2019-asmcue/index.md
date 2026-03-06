@@ -13,7 +13,7 @@ image: "/events/2019-asmcue/asmcue-2019.jpg"
 gtn: true
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - nekrut
 
 ---

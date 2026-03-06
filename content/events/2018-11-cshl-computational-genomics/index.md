@@ -13,7 +13,7 @@ contact: "James Taylor"
 image: 
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - jxtx
 
 ---

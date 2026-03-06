@@ -12,7 +12,7 @@ contact: Kaivan Kamali
 tags: [training, community-call, machine-learning]
 subsites: [all]
 contributions:
-  authorship:
+  organisers:
     - kxk302
 
 ---

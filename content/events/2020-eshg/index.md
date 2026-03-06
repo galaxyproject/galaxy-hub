@@ -13,7 +13,7 @@ contact: "Anton Nekrutenko, Marius van den Beek"
 image: 
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - mvdbeek
     - nekrut
 

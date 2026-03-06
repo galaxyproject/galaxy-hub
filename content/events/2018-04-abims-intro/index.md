@@ -13,7 +13,7 @@ contact: "Loraine Guéguen, Gildas Le Corguillé, Annie Le Breton"
 gtn: true
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - lecorguille
     - loraine-gueguen
 

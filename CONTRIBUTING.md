@@ -70,14 +70,14 @@ For images shared across pages, use `/images/...` paths (these are served from `
 
 ### Contributions metadata and Hall of Fame recognition
 
-For news and event posts, credit authors and supporters in frontmatter using `contributions`:
+For news and event posts, credit organisers and supporters in frontmatter using `contributions`:
 
 ```yaml
 ---
 title: "My Event"
 date: 2026-03-05
 contributions:
-  authorship:
+  organisers:
     - bgruening
     - deNBI
   funding:
@@ -88,7 +88,7 @@ contributions:
 ---
 ```
 
-- `contributions.authorship` supports contributor and organisation IDs
+- `contributions.organisers` supports contributor and organisation IDs
 - `contributions.funding` supports organisation and grant IDs, and can include multiple funders
 - IDs should come from [`CONTRIBUTORS.yaml`](https://github.com/galaxyproject/training-material/blob/main/CONTRIBUTORS.yaml), [`ORGANISATIONS.yaml`](https://github.com/galaxyproject/training-material/blob/main/ORGANISATIONS.yaml), and [`GRANTS.yaml`](https://github.com/galaxyproject/training-material/blob/main/GRANTS.yaml) shared with the [GTN](https://training.galaxyproject.org/), please edit them directly in the GTN repository.
 

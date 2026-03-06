@@ -22,7 +22,7 @@ links:
   url: 'https://depot.galaxyproject.org/hub/attachments/events/2021-05-gr4-tool-devs/gr4-tool-devs-server.pdf '
 subsites: [all-eu, global, us]
 contributions:
-  authorship:
+  organisers:
     - abretaud
     - blankenberg
 

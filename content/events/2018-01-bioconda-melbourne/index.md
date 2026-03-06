@@ -13,7 +13,7 @@ gtn: true
 contact: Saskia Hiltemann, Helena Rasche
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - hexylena
     - shiltemann
 

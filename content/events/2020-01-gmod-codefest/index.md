@@ -13,7 +13,7 @@ contact: "Scott Cain, Dave Clements"
 image: 
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - scottcain
     - tnabtaf
 

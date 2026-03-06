@@ -13,7 +13,7 @@ gtn: true
 contact: James Taylor
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - jxtx
 
 ---

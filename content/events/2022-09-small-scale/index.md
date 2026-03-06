@@ -8,7 +8,7 @@ gtn: false
 contact: "Lucille Delisle"
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - lldelisle
 
 ---

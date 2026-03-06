@@ -13,7 +13,7 @@ contact: Frederik Coppens
 tags: [ cofest ]
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - frederikcoppens
 
 ---

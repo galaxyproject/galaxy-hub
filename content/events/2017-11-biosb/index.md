@@ -13,7 +13,7 @@ image: /images/logos/BioSBResearchSchool.png
 contact: "Peter-Bram 't Hoen,  Leon Mei, Jan Oosting, Szymon Kielbasa"
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - pacthoen
 
 ---

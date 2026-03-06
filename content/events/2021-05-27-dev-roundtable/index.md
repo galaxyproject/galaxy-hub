@@ -19,7 +19,7 @@ links:
 tags: [devroundtable, training, webinar]
 subsites: [all-eu, global, us]
 contributions:
-  authorship:
+  organisers:
     - davelopez
     - ksuderman
     - mvdbeek

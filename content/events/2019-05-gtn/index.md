@@ -11,7 +11,7 @@ gtn: false
 tags: [cofest, training]
 subsites: [all-eu, global, us]
 contributions:
-  authorship:
+  organisers:
     - bebatut
     - shiltemann
   funding:

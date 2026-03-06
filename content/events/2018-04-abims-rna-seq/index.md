@@ -13,7 +13,7 @@ contact: "E. Corre, Gildas Le Corguillé, X. Liu"
 gtn: true
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - lecorguille
 
 ---

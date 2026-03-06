@@ -14,7 +14,7 @@ contact: Valentin Loux, Jean-François Gibrat, Thomas Lacroix
 tags: []
 subsites: [all-eu, global, us]
 contributions:
-  authorship:
+  organisers:
     - vloux
 
 ---

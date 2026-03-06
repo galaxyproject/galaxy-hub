@@ -11,7 +11,7 @@ gtn: false
 contact: "Saim Momin, Amirhossein Naghsh Nilchi & Pavan Videm"
 subsites: [all]
 contributions:
-  authorship:
+  organisers:
     - SaimMomin12
 
 ---

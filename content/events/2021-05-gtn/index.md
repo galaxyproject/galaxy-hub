@@ -14,7 +14,7 @@ gtn: true
 tags: [ cofest ]
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - annasyme
     - bebatut
     - delphine-l

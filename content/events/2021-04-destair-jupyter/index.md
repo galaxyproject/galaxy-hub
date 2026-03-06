@@ -14,7 +14,7 @@ contact: Steffen C. Lott, David Brauer, Markus Wolfien, Maximilian Hillemanns, K
 tags: [training]
 subsites: [all-eu, global, us]
 contributions:
-  authorship:
+  organisers:
     - mwolfien
   funding:
     - deNBI
