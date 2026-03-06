@@ -9,6 +9,8 @@ main_subsite: eu
 contributions:
   funding:
     - eurosciencegateway
+    - cesnet
+    - elixir-cz
 ---
 
 ![EuroScienceGateway logo](/projects/esg/eosc_euro_science_gateway.svg)

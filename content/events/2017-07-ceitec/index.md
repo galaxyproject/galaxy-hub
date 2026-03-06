@@ -15,6 +15,8 @@ subsites: [global, us]
 contributions:
   organisers:
     - martenson
+  funding:
+    - elixir-cz
 
 ---
 

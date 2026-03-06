@@ -15,5 +15,7 @@ subsites: [global, us]
 contributions:
   organisers:
     - jellescholtalbers
+  funding:
+    - elixir-cz
 
 ---

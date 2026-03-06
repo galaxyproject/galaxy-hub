@@ -16,5 +16,7 @@ contributions:
   organisers:
     - martenson
     - simonbray
+  funding:
+    - elixir-cz
 
 ---

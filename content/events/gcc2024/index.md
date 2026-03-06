@@ -17,6 +17,8 @@ subsites: [all, esg, all-eu]
 contributions:
   funding:
     - eu
+    - cesnet
+    - elixir-cz
 
 ---
 

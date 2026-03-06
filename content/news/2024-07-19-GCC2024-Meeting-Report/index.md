@@ -16,6 +16,9 @@ contributions:
     - nataliapadilloanthemides
     - shwdey
     - plushz
+  funding:
+    - cesnet
+    - elixir-cz
 ---
 
 ![GCC2024 Logo](gcc2024-banner.png)

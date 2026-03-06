@@ -15,5 +15,6 @@ subsites: [global, us]
 contributions:
   organisers:
     - bgruening
-
+  funding:
+    - elixir-cz
 ---

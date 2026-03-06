@@ -15,5 +15,6 @@ contributions:
   organisers:
     - bradchapman
     - matuskalas
-
+  funding:
+    - elixir-cz
 ---
