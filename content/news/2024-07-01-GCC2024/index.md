@@ -18,6 +18,8 @@ contributions:
     - deNBI
     - uni-freiburg
     - eurosciencegateway
+    - cesnet
+    - elixir-cz
 ---
 
 The [2024 Galaxy Community Conference (GCC2024)](https://galaxyproject.org/events/gcc2024/) was held in Brno, Czech Republic, 24-29 June, 2024.

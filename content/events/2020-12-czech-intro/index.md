@@ -16,5 +16,7 @@ contributions:
   authorship:
     - martenson
     - simonbray
+  funding:
+    - elixir-cz
 
 ---

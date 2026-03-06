@@ -15,5 +15,6 @@ subsites: [global, us]
 contributions:
   authorship:
     - bgruening
-
+  funding:
+    - elixir-cz
 ---
