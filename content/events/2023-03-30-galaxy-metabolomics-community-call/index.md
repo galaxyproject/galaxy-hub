@@ -1,17 +1,22 @@
 ---
-title: "Galaxy Metabolomics Community Call"
+title: Galaxy Metabolomics Community Call
 date: '2023-03-30'
 days: 1
-tease: "A forum to share updates and discuss community-wide topics."
+tease: A forum to share updates and discuss community-wide topics.
 continent: EU
 location:
-  name: "Galaxy Metabolomics Community Call, Online"
-  url: "/community/sig/#communities-of-practice"
-external_url:
+  name: Galaxy Metabolomics Community Call, Online
+  url: /community/sig/#communities-of-practice
+external_url: null
 gtn: false
-contact: "foellmelanie@gmail.com; helge.hecht@recetox.muni.cz"
-tags: ["community-call"]
-subsites: [all]
+contact: foellmelanie@gmail.com; helge.hecht@recetox.muni.cz
+tags:
+- community-call
+subsites:
+- all
+contributions:
+  organisers: []
+
 ---
 
 We will have some community updates followed by a presentation. Mélanie Petera from MetaboHUB Clermont will speak about “Workflow4Experimenters: feedback on a ‘bring your own data’ Galaxy-based training”. Afterwards we also have time for general updates and discussions. If you'd like to discuss particular topics, please add them to the [agenda](https://docs.google.com/document/d/1OrcpWJcHThn8eZd_eURnh1qybp3yetDd_NKtGvdfyjo/edit?usp=sharing) or bring them to the call!

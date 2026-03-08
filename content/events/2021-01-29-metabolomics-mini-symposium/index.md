@@ -7,8 +7,13 @@ contacts:
   name: Melanie Föll
 location:
   name: online
-subsites: [eu, freiburg]
+subsites:
+- eu
+- freiburg
 main_subsite: freiburg
+contributions:
+  organisers: []
+
 ---
 
 Join us for the __Galaxy Metabolomics Mini-Symposium__ on __Friday 29th January from 9 am to 12 pm CET__ on zoom.

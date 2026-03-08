@@ -2,14 +2,25 @@
 title: Mini-symposium on microbial evolutionary genomics
 date: '2022-05-17'
 end: '2022-05-18'
-tags: [training]
+tags:
+- training
 contacts:
 - name: Stéphanie Bedhomme & Anton Nekrutenko
 location:
   name: Montpellier, France
 external_url: https://nekrut.github.io/msmg
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites:
+- eu
+- pasteur
+- freiburg
+- erasmusmc
+- elixir-it
+- belgium
+- genouest
 main_subsite: eu
+contributions:
+  organisers: []
+
 ---
 
 Due to proliferation of new data generation technologies microbial biology has become a data driven science. Yet there is still a limited "mixing"

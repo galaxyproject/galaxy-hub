@@ -1,23 +1,29 @@
 ---
-title: "Galaxy for AnVIL Cloud Cost Analysis"
+title: Galaxy for AnVIL Cloud Cost Analysis
 date: '2021-08-19'
 days: 1
-tease: "Jetstream, AWS, GCP, and UseGalaxy.org"
+tease: Jetstream, AWS, GCP, and UseGalaxy.org
 continent: GL
 location:
-  name: "Galaxy Developer Roundtable, Online, Global"
-image: "/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png"
-location_url: "/community/devroundtable/"
-external_url:
+  name: Galaxy Developer Roundtable, Online, Global
+image: /images/galaxy-logos/galaxy-developer-roundtable-wide-600.png
+location_url: /community/devroundtable/
+external_url: null
 gtn: false
-contact: "Victor Wen, Bridget Carr"
+contact: Victor Wen, Bridget Carr
 links:
-- text: "Video"
-  url: "https://youtu.be/DkGrrbaTPN8"
-- text: "Slides"
-  url: "https://docs.google.com/presentation/d/1-KzEgD8xJK4fv9VyYD8PTEOtcgUYRC7YY6BnwNXLY00/edit#slide=id.ge915f2a5c6_0_15"
-tags: [ "devroundtable" ]
-subsites: [global, us]
+- text: Video
+  url: https://youtu.be/DkGrrbaTPN8
+- text: Slides
+  url: https://docs.google.com/presentation/d/1-KzEgD8xJK4fv9VyYD8PTEOtcgUYRC7YY6BnwNXLY00/edit#slide=id.ge915f2a5c6_0_15
+tags:
+- devroundtable
+subsites:
+- global
+- us
+contributions:
+  organisers: []
+
 ---
 
 <div class="video-variable">

@@ -1,21 +1,27 @@
 ---
-title: "The New History"
+title: The New History
 date: '2020-06-11'
 days: 1
-tease: ""
+tease: ''
 continent: GL
 location:
-  name: "Galaxy Developer Roundtable, Online"
-image: 
-location_url: "/community/devroundtable/"
-external_url:
+  name: Galaxy Developer Roundtable, Online
+image: null
+location_url: /community/devroundtable/
+external_url: null
 gtn: false
-contact: "Mason Houtz"
+contact: Mason Houtz
 links:
-  - text: "Video"
-    url: "https://youtu.be/yR67bFB6W38"
-tags: [ "devroundtable" ]
-subsites: [global, us]
+- text: Video
+  url: https://youtu.be/yR67bFB6W38
+tags:
+- devroundtable
+subsites:
+- global
+- us
+contributions:
+  organisers: []
+
 ---
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yR67bFB6W38" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

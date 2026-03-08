@@ -2,10 +2,18 @@
 title: Traitement de données de séquences par Galaxy
 date: '2021-06-25'
 end: '2021-06-25'
-tags: [training]
+tags:
+- training
 external_url: https://www.omic-rennes.com/modules/galaxy/
-subsites: [eu, pasteur, belgium, genouest]
+subsites:
+- eu
+- pasteur
+- belgium
+- genouest
 main_subsite: eu
+contributions:
+  organisers: []
+
 ---
 
 Le module Galaxy vise à présenter l’environnement Galaxy, convivial d’utilisation pour celles et ceux qui seraient réfractaires à

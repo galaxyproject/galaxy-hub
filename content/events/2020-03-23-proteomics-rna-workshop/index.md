@@ -16,8 +16,13 @@ location:
   region: Baden-Württemberg
   street: Schaenzlestr.1
 hidefooter: true
-subsites: [eu, freiburg]
+subsites:
+- eu
+- freiburg
 main_subsite: freiburg
+contributions:
+  organisers: []
+
 ---
 
 

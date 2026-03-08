@@ -4,16 +4,21 @@ date: '2022-07-04'
 end: '2022-07-08'
 tease: We are offering a Galaxy training on high-throughput data analysis.
 hide_tease: true
-tags: [training]
+tags:
+- training
 contacts:
 - email: dyusuf@informatik.uni-freiburg.de
   name: Dilmurat Yusuf
 location:
   name: online
 hidefooter: true
-subsites: [freiburg]
+subsites:
+- freiburg
 main_subsite: freiburg
 components: true
+contributions:
+  organisers: []
+
 ---
 
 We are offering a Galaxy training on high-throughput data analysis. This is an

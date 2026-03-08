@@ -2,7 +2,8 @@
 title: First Metabolomics Community Call
 date: '2020-12-10'
 end: '2020-12-10'
-tease: "Bringing together Galaxy metabolomics researchers, users and developers, to discuss needs, ideas, ..."
+tease: Bringing together Galaxy metabolomics researchers, users and developers, to
+  discuss needs, ideas, ...
 contacts:
 - email: foellmelanie@gmail.com
   name: Melanie Foell
@@ -10,8 +11,20 @@ gtn: false
 continent: EU
 location:
   name: online
-subsites: [global, us, eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites:
+- global
+- us
+- eu
+- pasteur
+- freiburg
+- erasmusmc
+- elixir-it
+- belgium
+- genouest
 main_subsite: eu
+contributions:
+  organisers: []
+
 ---
 
 The first call of the Galaxy Metabolomics Community will be held on the __10th of December at 2 PM CET__. 

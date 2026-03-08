@@ -1,13 +1,19 @@
 ---
-title: "International Congress of Genetics"
+title: International Congress of Genetics
 date: '2023-07-14'
 days: 5
-tease: "Meeting once every 5 years, and right on the heels of GCC2023 in a nearby location, come and check out this year's conference theme: Genetics and Genomics - Linking Life and Society."
+tease: 'Meeting once every 5 years, and right on the heels of GCC2023 in a nearby
+  location, come and check out this year''s conference theme: Genetics and Genomics
+  - Linking Life and Society.'
 continent: AU
 location:
-  name: "Melbourne, Australia"
-external_url: "https://www.icg2023.com.au/"
+  name: Melbourne, Australia
+external_url: https://www.icg2023.com.au/
 gtn: false
-contact: "icg2023@wsm.com.au"
-subsites: [all]
+contact: icg2023@wsm.com.au
+subsites:
+- all
+contributions:
+  organisers: []
+
 ---

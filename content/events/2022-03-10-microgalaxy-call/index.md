@@ -5,8 +5,18 @@ end: '2022-03-10'
 location:
   name: online
 external_url: https://docs.google.com/document/d/13VjcUjStuIp7bK29e74k8Nqb7N4lmVcg1ioArEWr254/edit?usp=sharing
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites:
+- eu
+- pasteur
+- freiburg
+- erasmusmc
+- elixir-it
+- belgium
+- genouest
 main_subsite: eu
+contributions:
+  organisers: []
+
 ---
 
 microGalaxy is a

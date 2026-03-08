@@ -4,8 +4,18 @@ date: '2020-10-01'
 end: '2020-10-01'
 location:
   name: online
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites:
+- eu
+- pasteur
+- freiburg
+- erasmusmc
+- elixir-it
+- belgium
+- genouest
 main_subsite: eu
+contributions:
+  organisers: []
+
 ---
 
 Kaivan Kamali will give a presentation discussing his experimenting with __machine learning tools in Galaxy__ by applying Singular Value Decomposition (SVD). More specifically, he will cover the basics of linear algebra, eigenvalues/eigenvectors, and principal calculations axes in symmetric and non-symmetric matrices.

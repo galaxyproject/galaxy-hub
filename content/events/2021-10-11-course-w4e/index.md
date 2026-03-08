@@ -5,8 +5,18 @@ end: '2021-10-11'
 location:
   name: UMR Toxalim, INRAE, Toulouse, France
 external_url: https://workflow4metabolomics.org/events
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites:
+- eu
+- pasteur
+- freiburg
+- erasmusmc
+- elixir-it
+- belgium
+- genouest
 main_subsite: eu
+contributions:
+  organisers: []
+
 ---
 
 

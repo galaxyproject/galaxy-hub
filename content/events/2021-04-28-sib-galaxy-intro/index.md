@@ -5,8 +5,18 @@ end: '2021-04-28'
 location:
   name: SIB Training, Lausanne, Switzerland
 external_url: https://www.sib.swiss/component/courses/661?view=courses_item
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites:
+- eu
+- pasteur
+- freiburg
+- erasmusmc
+- elixir-it
+- belgium
+- genouest
 main_subsite: eu
+contributions:
+  organisers: []
+
 ---
 
 A general introduction on Galaxy, how to import data, run tools, and share analyses. Participants will run a whole NGS analysis using an ATAC-seq dataset as an example. 

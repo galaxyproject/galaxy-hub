@@ -1,17 +1,22 @@
 ---
-title: "Galaxy Community Call: 23.0 Release Testing Outcomes"
+title: 'Galaxy Community Call: 23.0 Release Testing Outcomes'
 date: '2023-02-09'
 days: 1
-tease: "A forum to share updates and discuss community-wide topics"
+tease: A forum to share updates and discuss community-wide topics
 continent: GL
 location:
-  name: "Galaxy Community Call, Online, Global"
-  url: "/community/community-calls/"
-external_url:
+  name: Galaxy Community Call, Online, Global
+  url: /community/community-calls/
+external_url: null
 gtn: false
-contact: "Release Testing Team"
-tags: ["community-call"]
-subsites: [all]
+contact: Release Testing Team
+tags:
+- community-call
+subsites:
+- all
+contributions:
+  organisers: []
+
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/W5SvXDMx6EE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

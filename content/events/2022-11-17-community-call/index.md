@@ -1,17 +1,24 @@
 ---
-title: "Galaxy Community Call: The new GTN course builder"
+title: 'Galaxy Community Call: The new GTN course builder'
 date: '2022-11-17'
 days: 1
-tease: "A forum to share updates and discuss community-wide topics"
+tease: A forum to share updates and discuss community-wide topics
 continent: GL
 location:
-  name: "Galaxy Community Call, Online, Global"
-  url: "/community/community-calls/"
-external_url:
+  name: Galaxy Community Call, Online, Global
+  url: /community/community-calls/
+external_url: null
 gtn: false
-contact: "Helena Rasche & Saskia Hiltemann"
-tags: ["community-call", gtn-news, training]
-subsites: [all]
+contact: Helena Rasche & Saskia Hiltemann
+tags:
+- community-call
+- gtn-news
+- training
+subsites:
+- all
+contributions:
+  organisers: []
+
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GI75znQTznk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -6,9 +6,15 @@ continent: GL
 location:
   name: Online, Global
 gtn: false
-contact:  Gregory Watson
-tags:
-subsites: [all-eu, global, us]
+contact: Gregory Watson
+tags: null
+subsites:
+- all-eu
+- global
+- us
+contributions:
+  organisers: []
+
 ---
 
 

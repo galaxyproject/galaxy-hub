@@ -4,8 +4,18 @@ date: '2020-09-17'
 end: '2020-09-17'
 location:
   name: online
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites:
+- eu
+- pasteur
+- freiburg
+- erasmusmc
+- elixir-it
+- belgium
+- genouest
 main_subsite: eu
+contributions:
+  organisers: []
+
 ---
 
 Like every second Thursday at **6 pm CET**, the Galaxy Developer Roundtable will take place. Today, [**John Chilton**](https://galaxyproject.org/people/john-chilton/) is the presenter. 

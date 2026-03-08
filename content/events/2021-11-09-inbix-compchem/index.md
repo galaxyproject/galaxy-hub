@@ -2,12 +2,23 @@
 title: Protein-ligand docking training for the Galaxy India community
 date: '2021-11-09'
 end: '2021-11-10'
-tags: [talk]
+tags:
+- talk
 contacts:
 - name: CSIR-North East Institute of Science & Technology
 external_url: http://neist.res.in/inbix2021/workshop.html
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites:
+- eu
+- pasteur
+- freiburg
+- erasmusmc
+- elixir-it
+- belgium
+- genouest
 main_subsite: eu
+contributions:
+  organisers: []
+
 ---
 
 We will be contributing to the Indian Conference on Bioinformatics (Inbix2021), providing a tutorial on the tools and workflows available for protein-ligand docking and cheminformatics in Galaxy.

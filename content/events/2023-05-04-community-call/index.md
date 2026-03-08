@@ -1,17 +1,24 @@
 ---
-title: "Galaxy Community Call: King of the Quarries: Investigating the origins of quarry populations of the Caribbean king crab (Maguimithrax spinosissimus) to advise coral reef recovery in the Florida Keys"
+title: 'Galaxy Community Call: King of the Quarries: Investigating the origins of
+  quarry populations of the Caribbean king crab (Maguimithrax spinosissimus) to advise
+  coral reef recovery in the Florida Keys'
 date: '2023-05-04'
 days: 1
-tease: "A forum to share updates and discuss community-wide topics"
+tease: A forum to share updates and discuss community-wide topics
 continent: GL
 location:
-  name: "Galaxy Community Call, Online, Global"
-  url: "/community/community-calls/"
-external_url:
+  name: Galaxy Community Call, Online, Global
+  url: /community/community-calls/
+external_url: null
 gtn: false
-contact: "Natalie Whitaker"
-tags: ["community-call"]
-subsites: [all]
+contact: Natalie Whitaker
+tags:
+- community-call
+subsites:
+- all
+contributions:
+  organisers: []
+
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gP24MIbPMRQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

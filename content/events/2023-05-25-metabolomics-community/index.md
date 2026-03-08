@@ -1,17 +1,21 @@
 ---
-title: "Galaxy Metabolomics Community Call"
+title: Galaxy Metabolomics Community Call
 date: '2023-05-25'
 days: 1
-tease: "A forum to share updates and discuss community-wide topics."
+tease: A forum to share updates and discuss community-wide topics.
 continent: EU
 location:
-  name: "Galaxy Metabolomics Community Call, Online"
-  url: "/community/sig/#communities-of-practice"
-external_url:
+  name: Galaxy Metabolomics Community Call, Online
+  url: /community/sig/#communities-of-practice
+external_url: null
 gtn: false
-contact: "foellmelanie@gmail.com; helge.hecht@recetox.muni.cz"
-tags: ["community-call"]
-subsites: [all]
+contact: foellmelanie@gmail.com; helge.hecht@recetox.muni.cz
+tags:
+- community-call
+subsites:
+- all
+contributions:
+  organisers: []
 
 ---
 
