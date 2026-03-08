@@ -2,15 +2,21 @@
 title: Galaxy for Oceanographic Insights
 date: '2024-04-12'
 days: 1
-tease: "1H webinar on harnessing Galaxy for Oceanographic Insights with ODV and DIVAnd Interpolation"
+tease: 1H webinar on harnessing Galaxy for Oceanographic Insights with ODV and DIVAnd
+  Interpolation
 continent: NA
 location:
-  name: "online"
+  name: online
   url: https://fairease.eu/events/harnessing-galaxy-oceanographic-insights-odv-and-divand-interpolation
 gtn: true
-contact: "Marie Josse: marie.josse@ifremer.fr"
-tags: [conference]
-subsites: [all]
+contact: 'Marie Josse: marie.josse@ifremer.fr'
+tags:
+- conference
+subsites:
+- all
+contributions:
+  organisers: []
+
 ---
 
 In this webinar Marie Josse (Research Engineer, CNRS) from FAIR-EASE provides a comprehensive guide on utilising the Galaxy platform for oceanographic data analysis, focusing on the use of Ocean Data View (ODV) and Data Interpolating Variational Analysis in n dimensions (DIVAnd) for data interpolation. Participants will learn about the management of ODV tool within Galaxy, including data visualisation, subsetting, and saving processes. The session will also cover the application of DIVAnd within a JupyterLab environment, facilitated by a series of notebooks. An additional segment is dedicated to addressing participant inquiries and providing further clarifications.

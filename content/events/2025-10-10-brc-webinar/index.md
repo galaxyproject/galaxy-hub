@@ -1,12 +1,16 @@
 ---
 title: Tools for Tomorrow NIAID BRC Webinar
-date: "2025-10-10"
-tease: "First in a series of NIAID BRC webinars"
-continent: NA 
+date: '2025-10-10'
+tease: First in a series of NIAID BRC webinars
+continent: NA
 location:
-    name: Online
-contact: "scott@galaxyproject.org"
-subsites: [all]
+  name: Online
+contact: scott@galaxyproject.org
+subsites:
+- all
+contributions:
+  organisers: []
+
 ---
 ![BRC webinar infographic](https://galaxyproject.org/images/brc_webinar_banner.png)
 

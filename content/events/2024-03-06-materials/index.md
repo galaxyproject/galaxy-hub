@@ -6,9 +6,15 @@ continent: GL
 location:
   name: Online, Global
 gtn: false
-contact:  Gregory Watson
-tags:
-subsites: [all-eu, global, us]
+contact: Gregory Watson
+tags: null
+subsites:
+- all-eu
+- global
+- us
+contributions:
+  organisers: []
+
 ---
 
 Please <a href="https://exascaleproject.zoomgov.com/j/1616510031?pwd=V0d0WklOQm0xN3ZRbmw2RWh4aGF5UT09">join us</a> 

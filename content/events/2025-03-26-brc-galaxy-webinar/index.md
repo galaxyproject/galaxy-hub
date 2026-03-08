@@ -1,15 +1,21 @@
 ---
 title: BRC Analytics Webinar
-date: "2025-03-26"
+date: '2025-03-26'
 days: 1
-tease: "Please join Anton Nekrutenko and Scott Cain for a look at BRC Analytics and new features in Galaxy!"
+tease: Please join Anton Nekrutenko and Scott Cain for a look at BRC Analytics and
+  new features in Galaxy!
 continent: GL
 location:
-  name: "Online"
+  name: Online
 gtn: false
-contact: "scott@scottcain.net"
-tags: [webinar]
-subsites: [all]
+contact: scott@scottcain.net
+tags:
+- webinar
+subsites:
+- all
+contributions:
+  organisers: []
+
 ---
 [Video now available!](https://youtu.be/lYzb0j_UtWk)
 

@@ -1,12 +1,16 @@
 ---
 title: Tools for Tomorrow NIAID BRC Webinar
-date: "2025-12-12"
-tease: "Using BRC-Analytics to analyze C. auris data"
-continent: NA 
+date: '2025-12-12'
+tease: Using BRC-Analytics to analyze C. auris data
+continent: NA
 location:
-    name: Online
-contact: "scott@galaxyproject.org"
-subsites: [all]
+  name: Online
+contact: scott@galaxyproject.org
+subsites:
+- all
+contributions:
+  organisers: []
+
 ---
 <img src="https://galaxyproject.org/images/brc-analytics-c-auris-webinar.png" width="400" alt="BRC webinar graphic" />
 
