@@ -22,7 +22,8 @@ user_support:
 quotas:
   - "Free to use"
   - "50 GB for any signed in user"
-  - "Special requests contact regalaxy@rt.cesnet.cz"
+  - "250 GB for user signed in with e-infra.cz"
+  - "For special requests please contact galaxy@cesnet.cz"
 citations:
   - "[The Czech National Grid Infrastructure](http://stacks.iop.org/1742-6596/898/i=8/a=082042), J Chudoba, I Křenková, M Mulač, M Ruda and J Sitera. *Journal of Physics:* Conference Series, Volume 898, Track 6: Infrastructures, doi:10.1088/1742-6596/898/8/082042"
 pub_libraries:
