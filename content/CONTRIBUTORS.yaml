@@ -2687,8 +2687,13 @@ MarisaJL:
     affiliations:
       - spoc
       - ou
+      - biofair
+      - elixir-europe
     former_affiliations:
       - uni-freiburg
+    location:
+      country: UK
+    elixir_node: uk
 
 martenson:
     name: Martin Čech
