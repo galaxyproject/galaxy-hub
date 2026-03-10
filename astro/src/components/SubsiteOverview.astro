@@ -20,11 +20,13 @@ const { subsite, title, description, upcomingEvents, subsiteNews, hasMainContent
     {!hasMainContent && <p class="text-gray-600">{description}</p>}
   </div>
 
-  {hasMainContent && (
-    <div class="mb-10 prose prose-galaxy max-w-none">
-      <slot name="main-content" />
-    </div>
-  )}
+  {
+    hasMainContent && (
+      <div class="mb-10 prose prose-galaxy max-w-none">
+        <slot name="main-content" />
+      </div>
+    )
+  }
 
   <div class="grid gap-8 lg:grid-cols-2">
     <section>

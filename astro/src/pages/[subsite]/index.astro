@@ -23,20 +23,35 @@ const { title, description } = subsiteLabels[subsite] || {
 // Conventional insert filenames used across subsite homepages, in display order.
 // Each subsite uses a subset; missing ones are silently skipped.
 const INSERT_ORDER = [
-  'jumbotron', 'lead', 'lead1', 'lead2',
-  'main', 'main1', 'main2', 'main3', 'main4', 'main5',
-  'cards', 'lower', 'site-footer',
+  'jumbotron',
+  'lead',
+  'lead1',
+  'lead2',
+  'main',
+  'main1',
+  'main2',
+  'main3',
+  'main4',
+  'main5',
+  'cards',
+  'lower',
+  'site-footer',
 ];
 
-const subsiteInserts = (
-  await Promise.all(INSERT_ORDER.map((name) => getInsert(`${subsite}/${name}`)))
-).filter(Boolean);
+const subsiteInserts = (await Promise.all(INSERT_ORDER.map((name) => getInsert(`${subsite}/${name}`)))).filter(Boolean);
 
 const renderedInserts = await Promise.all(subsiteInserts.map((ins) => render(ins)));
 ---
 
 <BaseLayout title={title} description={description}>
-  <SubsiteOverview {subsite} {title} {description} {upcomingEvents} {subsiteNews} hasMainContent={renderedInserts.length > 0}>
+  <SubsiteOverview
+    {subsite}
+    {title}
+    {description}
+    {upcomingEvents}
+    {subsiteNews}
+    hasMainContent={renderedInserts.length > 0}
+  >
     {renderedInserts.map(({ Content }) => <Content slot="main-content" />)}
   </SubsiteOverview>
 </BaseLayout>
