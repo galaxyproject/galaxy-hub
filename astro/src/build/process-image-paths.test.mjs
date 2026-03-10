@@ -6,7 +6,7 @@ describe('rewriteSrc', () => {
 
   it('normalizes directory segments in /images/ paths', () => {
     expect(rewriteSrc('/images/events/gcc2013/photos/Venue.jpg', slug)).toBe(
-      '/images/events/gcc-2013/photos/Venue.jpg'
+      '/images/events/gcc2013/photos/Venue.jpg'
     );
   });
 
@@ -15,7 +15,7 @@ describe('rewriteSrc', () => {
   });
 
   it('normalizes absolute paths when prepending /images/', () => {
-    expect(rewriteSrc('/events/gcc2013/photos/Venue.jpg', slug)).toBe('/images/events/gcc-2013/photos/Venue.jpg');
+    expect(rewriteSrc('/events/gcc2013/photos/Venue.jpg', slug)).toBe('/images/events/gcc2013/photos/Venue.jpg');
   });
 
   it('strips ./ prefix from relative paths', () => {
@@ -80,7 +80,7 @@ describe('processImagePaths', () => {
 
     it('normalizes directory segments when prepending /images', () => {
       const input = '<img src="/events/gcc2013/photos/Venue.jpg">';
-      expect(processImagePaths(input, slug)).toBe('<img src="/images/events/gcc-2013/photos/Venue.jpg">');
+      expect(processImagePaths(input, slug)).toBe('<img src="/images/events/gcc2013/photos/Venue.jpg">');
     });
 
     it('prepends /images to /authnz/ path', () => {
@@ -96,7 +96,7 @@ describe('processImagePaths', () => {
     it('normalizes slug segments like workflow4metabolomics', () => {
       const input = '![screenshot](/use/archive/workflow4metabolomics/workflow4metabolomics.png)';
       expect(processImagePaths(input, slug)).toBe(
-        '![screenshot](/images/use/archive/workflow-4-metabolomics/workflow4metabolomics.png)'
+        '![screenshot](/images/use/archive/workflow4metabolomics/workflow4metabolomics.png)'
       );
     });
 
@@ -131,7 +131,7 @@ describe('processImagePaths', () => {
   describe('/images/ path normalization', () => {
     it('normalizes slug segments in /images/ paths', () => {
       const input = '![ok](/images/events/gcc2013/logo.png)';
-      expect(processImagePaths(input, slug)).toBe('![ok](/images/events/gcc-2013/logo.png)');
+      expect(processImagePaths(input, slug)).toBe('![ok](/images/events/gcc2013/logo.png)');
     });
 
     it('leaves already-normalized /images/ paths unchanged', () => {
@@ -201,7 +201,7 @@ describe('processImagePaths', () => {
     it('rewrites outer link with non-normalized slug', () => {
       const input = '[![](./gvl-data.png)](/news/2020-07-gvl5-beta4/gvl-data.png)';
       expect(processImagePaths(input, slug)).toBe(
-        '[![](/images/events/gcc-2024/gvl-data.png)](/images/news/2020-07-gvl-5-beta-4/gvl-data.png)'
+        '[![](/images/events/gcc-2024/gvl-data.png)](/images/news/2020-07-gvl5-beta4/gvl-data.png)'
       );
     });
 

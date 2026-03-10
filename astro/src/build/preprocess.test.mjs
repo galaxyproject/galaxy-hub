@@ -100,21 +100,21 @@ describe('normalizeSlugSegment', () => {
     expect(normalizeSlugSegment('ChatGPT')).toBe('chat-gpt');
   });
 
-  it('inserts hyphen at letter→digit boundary', () => {
-    expect(normalizeSlugSegment('PAG31')).toBe('pag-31');
+  it('does not split at letter→digit boundary', () => {
+    expect(normalizeSlugSegment('PAG31')).toBe('pag31');
   });
 
-  it('inserts hyphen at digit→letter boundary', () => {
-    expect(normalizeSlugSegment('4Bio')).toBe('4-bio');
+  it('does not split at digit→letter boundary', () => {
+    expect(normalizeSlugSegment('4Bio')).toBe('4bio');
   });
 
   it('replaces underscores with hyphens', () => {
     expect(normalizeSlugSegment('slides_to_videos')).toBe('slides-to-videos');
   });
 
-  it('does not split within uppercase runs', () => {
-    // "GBCC2025" — the uppercase run "GBCC" stays together
-    expect(normalizeSlugSegment('GBCC2025')).toBe('gbcc-2025');
+  it('does not split within uppercase runs or at letter-digit boundaries', () => {
+    // "GBCC2025" — the uppercase run "GBCC" stays together, no letter-digit split
+    expect(normalizeSlugSegment('GBCC2025')).toBe('gbcc2025');
   });
 
   it('handles mixed camelCase with acronyms', () => {
@@ -122,15 +122,15 @@ describe('normalizeSlugSegment', () => {
   });
 
   it('handles PascalCase with numbers', () => {
-    expect(normalizeSlugSegment('GCC2023-Meeting-Report')).toBe('gcc-2023-meeting-report');
+    expect(normalizeSlugSegment('GCC2023-Meeting-Report')).toBe('gcc2023-meeting-report');
   });
 
   it('handles GalaxyInResearch', () => {
     expect(normalizeSlugSegment('GalaxyInResearch')).toBe('galaxy-in-research');
   });
 
-  it('handles NFDI4Bioimage (digit→letter boundary)', () => {
-    expect(normalizeSlugSegment('NFDI4Bioimage')).toBe('nfdi-4-bioimage');
+  it('handles NFDI4Bioimage (no digit→letter split)', () => {
+    expect(normalizeSlugSegment('NFDI4Bioimage')).toBe('nfdi4bioimage');
   });
 
   it('collapses multiple hyphens', () => {
@@ -138,7 +138,7 @@ describe('normalizeSlugSegment', () => {
   });
 
   it('handles date-prefixed segments (already well-formed)', () => {
-    expect(normalizeSlugSegment('2024-01-12-PAG31')).toBe('2024-01-12-pag-31');
+    expect(normalizeSlugSegment('2024-01-12-PAG31')).toBe('2024-01-12-pag31');
   });
 
   it('applies overrides for BiaPy', () => {
@@ -157,14 +157,14 @@ describe('normalizeSlugSegment', () => {
     expect(normalizeSlugSegment('2024-12-19-community_page')).toBe('2024-12-19-community-page');
   });
 
-  it('handles gcc2024 (no change needed except letter-digit boundary)', () => {
-    expect(normalizeSlugSegment('gcc2024')).toBe('gcc-2024');
+  it('handles gcc2024 (no change needed, no letter-digit split)', () => {
+    expect(normalizeSlugSegment('gcc2024')).toBe('gcc2024');
   });
 });
 
 describe('normalizeSlug', () => {
   it('normalizes each path segment independently', () => {
-    expect(normalizeSlug('events/2024-01-12-PAG31')).toBe('events/2024-01-12-pag-31');
+    expect(normalizeSlug('events/2024-01-12-PAG31')).toBe('events/2024-01-12-pag31');
   });
 
   it('normalizes multi-segment paths', () => {

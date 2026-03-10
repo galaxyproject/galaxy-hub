@@ -33,12 +33,20 @@ try {
 function check(dir, depth = 0, violations = []) {
   if (depth > 8) return violations;
   let entries;
-  try { entries = readdirSync(dir); } catch { return violations; }
+  try {
+    entries = readdirSync(dir);
+  } catch {
+    return violations;
+  }
   for (const entry of entries) {
     if (entry.startsWith('.')) continue;
     const full = join(dir, entry);
     let isDir = false;
-    try { isDir = statSync(full).isDirectory(); } catch { continue; }
+    try {
+      isDir = statSync(full).isDirectory();
+    } catch {
+      continue;
+    }
     if (!isDir) continue;
 
     const rel = relative(root, full);
