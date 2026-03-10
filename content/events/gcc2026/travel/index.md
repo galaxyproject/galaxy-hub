@@ -199,7 +199,7 @@ The university excels in numerous fields including **physics, chemistry, health 
 **GCC2026 will be held at the [IUT Clermont Auvergne](https://iut.uca.fr/)**—a branch of **Université Clermont Auvergne (UCA)** specializing in **technical and professional education**. Located on the **Cezeaux campus**, the IUT offers modern facilities and a vibrant academic environment, making it an ideal setting for the Galaxy Community Conference.
 
 The **Cezeaux campus** is situated just **5 kilometers from Clermont-Ferrand's city center**, ensuring easy access for all attendees:
-- **Public Transportation**: The campus is well-connected via **tramway (Line A, "Université" stop)** and **multiple bus lines** (e.g., Line 6, 32, or 35).
+- **Public Transportation**: The campus is well-connected via **tramway (Line A, "UCA - Campus Cézeaux" stop)** and **multiple bus lines** (e.g., Line 6, 32, or 35).
 - **Address**:
   **IUT Clermont Auvergne – Campus des Cézeaux**
   4 Avenue Blaise Pascal
