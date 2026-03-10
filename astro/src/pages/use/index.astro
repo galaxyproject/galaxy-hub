@@ -155,7 +155,7 @@ const platformData = platforms.map((p) => ({
         geographic regions, and research areas. Use the filters below to find the right one for your needs.
       </p>
 
-      <PlatformDirectory client:load platforms={platformData} />
+      <PlatformDirectory client:only="vue" platforms={platformData} />
     </section>
 
     <!-- Additional Resources -->
