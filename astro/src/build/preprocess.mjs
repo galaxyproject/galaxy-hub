@@ -355,6 +355,7 @@ function resolveInsertContent(slotName, depth = 0) {
 
   // Apply the same content transforms used in processMarkdownFile
   let processed = body;
+  processed = processed.replace(/\{\/\*[\s\S]*?\*\/\}/g, '');
   processed = inlineInserts(processed, depth + 1);
   processed = addBootstrapMarker(processed);
   processed = processImagePaths(processed, insertSlug);
@@ -445,6 +446,7 @@ async function processMarkdownFile(filePath) {
   // Inline insert content before checking for components — slots are resolved
   // at preprocess time now, so pages that only had slots won't need MDX
   let processedContent = body;
+  processedContent = processedContent.replace(/\{\/\*[\s\S]*?\*\/\}/g, '');
   processedContent = inlineInserts(processedContent);
 
   // Process content
@@ -501,7 +503,7 @@ async function processMarkdownFile(filePath) {
   const collectionDir = path.join(ASTRO_CONTENT_DIR, collection);
   await fs.promises.mkdir(collectionDir, { recursive: true });
 
-  const useMdx = frontmatter.components === true && collection !== 'inserts';
+  const useMdx = frontmatter.components === true;
   const destPath = path.join(collectionDir, slugToFilename(slug, useMdx));
   const newContent = matter.stringify(processedContent, processedFrontmatter);
   await fs.promises.writeFile(destPath, newContent);
