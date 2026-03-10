@@ -7,21 +7,23 @@ import PlatformDirectory from '../../components/platforms/PlatformDirectory.vue'
 const platforms = await getCollection('platforms');
 
 // Transform platforms to the format expected by the Vue component
-const platformData = platforms.map((p) => ({
-  slug: p.data.slug,
-  title: p.data.title || 'Galaxy Server',
-  url: p.data.url,
-  scope: p.data.scope,
-  summary: p.data.summary,
-  platforms: p.data.platforms,
-  image: p.data.image,
-})).sort((a, b) => {
-  const titleA = a.title.toLowerCase();
-  const titleB = b.title.toLowerCase();
-  if (titleA < titleB) return -1;
-  if (titleA > titleB) return 1;
-  return 0;
-});
+const platformData = platforms
+  .map((p) => ({
+    slug: p.data.slug,
+    title: p.data.title || 'Galaxy Server',
+    url: p.data.url,
+    scope: p.data.scope,
+    summary: p.data.summary,
+    platforms: p.data.platforms,
+    image: p.data.image,
+  }))
+  .sort((a, b) => {
+    const titleA = a.title.toLowerCase();
+    const titleB = b.title.toLowerCase();
+    if (titleA < titleB) return -1;
+    if (titleA > titleB) return 1;
+    return 0;
+  });
 ---
 
 <BaseLayout title="Use Galaxy" description="Find a Galaxy server to analyze your data">
