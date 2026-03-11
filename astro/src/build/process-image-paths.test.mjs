@@ -5,9 +5,7 @@ describe('rewriteSrc', () => {
   const slug = 'events/gcc-2024';
 
   it('normalizes directory segments in /images/ paths', () => {
-    expect(rewriteSrc('/images/events/gcc2013/photos/Venue.jpg', slug)).toBe(
-      '/images/events/gcc2013/photos/Venue.jpg'
-    );
+    expect(rewriteSrc('/images/events/gcc2013/photos/Venue.jpg', slug)).toBe('/images/events/gcc2013/photos/Venue.jpg');
   });
 
   it('leaves already-normalized /images/ paths unchanged', () => {
