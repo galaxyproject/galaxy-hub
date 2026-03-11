@@ -7,7 +7,11 @@ location:
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:
+  authorship:
+    - paulzierep
   funding:
+    - elixir-europe
+  organisers:
     - elixir-europe
 ---
 
