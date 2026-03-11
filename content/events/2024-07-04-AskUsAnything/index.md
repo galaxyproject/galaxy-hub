@@ -13,11 +13,11 @@ contributions:
   organisers:
     - erxleben
   funding:
+    - eu
     - deKCD
     - deNBI
     - mwk
     - eurosciencegateway
-
 ---
 
 ## General information

@@ -8,6 +8,7 @@ contributions:
   authorship:
     - erxleben
   funding:
+    - eu
     - eurosciencegateway
     - uni-freiburg
     - egi

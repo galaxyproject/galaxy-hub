@@ -35,6 +35,7 @@ export async function getStaticPaths() {
 
 const { article } = Astro.props;
 const { Content, headings } = await render(article);
+const sourceFile = article.data.sourceFile || `${article.data.slug}/index.md`;
 
 const articleData = article.data as Record<string, unknown>;
 const authorIds = extractAuthors(articleData);
@@ -107,7 +108,7 @@ const schemaNews = {
   autotoc={autotoc}
   supporters={supporters}
   backLink={{ href: '/news/', label: 'Back to News' }}
-  sourceFile={article.data.slug}
+  sourceFile={sourceFile}
 >
   <Content components={components} />
   <script type="application/ld+json" is:inline set:html={JSON.stringify(schemaNews)} />

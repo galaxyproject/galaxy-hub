@@ -6,6 +6,7 @@ subsites: [all, esg, eu, freiburg]
 main_subsite: eu
 contributions:
   funding:
+    - eu
     - elixir-europe
     - uni-freiburg
     - deNBI

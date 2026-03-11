@@ -9,6 +9,7 @@ contributions:
   authorship:
     - kysrpex
   funding:
+    - eu
     - eurosciencegateway
     - uni-freiburg
     - elixir-europe

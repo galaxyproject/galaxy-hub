@@ -12,6 +12,7 @@ contributions:
     - sanjaysrikakulam
     - dadrasarmin
   funding:
+    - eu
     - egi
     - uni-freiburg
     - eurosciencegateway

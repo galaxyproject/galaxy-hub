@@ -8,6 +8,7 @@ subsites: [all-eu, esg]
 main_subsite: eu
 contributions:
   funding:
+    - eu
     - eurosciencegateway
     - uni-freiburg
 ---

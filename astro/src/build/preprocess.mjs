@@ -18,6 +18,8 @@ import { processMarkdown, processFrontmatter } from './markdown-processor.mjs';
 import { normalizeSlugSegment, normalizeSlug } from './slug-utils.mjs';
 export { normalizeSlugSegment, normalizeSlug };
 
+const JSX_COMMENT_RE = /\{\/\*[\s\S]*?\*\/\}/g;
+
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ASTRO_ROOT = path.resolve(__dirname, '../..');
 const PROJECT_ROOT = path.resolve(ASTRO_ROOT, '..'); // galaxy-hub/
@@ -355,6 +357,7 @@ function resolveInsertContent(slotName, depth = 0) {
 
   // Apply the same content transforms used in processMarkdownFile
   let processed = body;
+  processed = processed.replace(JSX_COMMENT_RE, '');
   processed = inlineInserts(processed, depth + 1);
   processed = addBootstrapMarker(processed);
   processed = processImagePaths(processed, insertSlug);
@@ -445,6 +448,7 @@ async function processMarkdownFile(filePath) {
   // Inline insert content before checking for components — slots are resolved
   // at preprocess time now, so pages that only had slots won't need MDX
   let processedContent = body;
+  processedContent = processedContent.replace(JSX_COMMENT_RE, '');
   processedContent = inlineInserts(processedContent);
 
   // Process content
@@ -463,6 +467,7 @@ async function processMarkdownFile(filePath) {
   // Process frontmatter
   const processedFrontmatter = processFrontmatter({ ...frontmatter });
   processedFrontmatter.slug = slug;
+  processedFrontmatter.sourceFile = relativePath.replace(/\\/g, '/');
 
   // Rewrite frontmatter image path the same way we rewrite body image paths
   if (processedFrontmatter.image && typeof processedFrontmatter.image === 'string') {
@@ -501,7 +506,7 @@ async function processMarkdownFile(filePath) {
   const collectionDir = path.join(ASTRO_CONTENT_DIR, collection);
   await fs.promises.mkdir(collectionDir, { recursive: true });
 
-  const useMdx = frontmatter.components === true && collection !== 'inserts';
+  const useMdx = frontmatter.components === true;
   const destPath = path.join(collectionDir, slugToFilename(slug, useMdx));
   const newContent = matter.stringify(processedContent, processedFrontmatter);
   await fs.promises.writeFile(destPath, newContent);

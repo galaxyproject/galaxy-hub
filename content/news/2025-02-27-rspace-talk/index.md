@@ -7,6 +7,7 @@ tags: [talk,esg]
 subsites: [all, esg, eu]
 contributions:
   funding:
+    - eu
     - eurosciencegateway
     - deNBI
     - mwk

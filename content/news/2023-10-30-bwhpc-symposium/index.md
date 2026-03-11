@@ -10,6 +10,7 @@ contributions:
   authorship:
     - sanjaysrikakulam
   funding:
+    - eu
     - eurosciencegateway
     - uni-freiburg
 ---

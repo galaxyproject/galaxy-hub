@@ -8,6 +8,7 @@ contributions:
   authorship:
     - abdussalam
   funding:
+    - eu
     - deNBI
     - elixir-europe
     - uni-freiburg

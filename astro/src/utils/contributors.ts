@@ -38,6 +38,11 @@ export interface GrantRecord {
 type ContributorMap = Record<string, ContributorRecord>;
 type OrganisationMap = Record<string, OrganisationRecord>;
 type GrantMap = Record<string, GrantRecord>;
+type CommunityGithubRecord = {
+  id?: string;
+  github?: string | boolean;
+  github_username?: string;
+};
 
 let contributorCache: ContributorMap | null = null;
 let organisationCache: OrganisationMap | null = null;
@@ -196,6 +201,22 @@ export function getGrantDisplay(id: string | undefined): string | undefined {
 export function getCommunityDisplay(value: string | undefined): string | undefined {
   if (!value) return undefined;
   return getContributorDisplay(value) || getOrganisationDisplay(value) || getGrantDisplay(value) || value;
+}
+
+export function getCommunityGithubHandle(record?: CommunityGithubRecord): string | undefined {
+  if (!record) return undefined;
+
+  const explicit = record.github_username ?? record.github;
+  if (explicit === false) return undefined;
+  if (typeof explicit === 'string' && explicit.trim()) {
+    return explicit.trim().replace(/^@/, '');
+  }
+
+  if (typeof record.id === 'string' && record.id.trim()) {
+    return record.id.trim().replace(/^@/, '');
+  }
+
+  return undefined;
 }
 
 export function listContributors(): ContributorRecord[] {

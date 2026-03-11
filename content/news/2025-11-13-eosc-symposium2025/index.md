@@ -10,6 +10,7 @@ contributions:
     - dadrasarmin
     - dianichj
   funding:
+    - eu
     - eosc-life
     - uni-freiburg
     - eurosciencegateway

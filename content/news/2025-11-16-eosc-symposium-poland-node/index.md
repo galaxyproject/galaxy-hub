@@ -9,6 +9,7 @@ contributions:
   authorship:
     - dadrasarmin
   funding:
+    - eu
     - eosc-life
     - eurosciencegateway
 ---

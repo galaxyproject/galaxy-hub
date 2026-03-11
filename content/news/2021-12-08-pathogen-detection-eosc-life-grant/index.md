@@ -14,6 +14,7 @@ contributions:
   authorship:
     - bebatut
   funding:
+    - eu
     - eosc-life
     - biolytix
     - elixir-europe
