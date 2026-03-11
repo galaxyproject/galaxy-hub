@@ -19,7 +19,7 @@ contributions:
 
 # MaterialVital-Digital kickoff (23.02.2026)
 
-MaterialVital-Digital (MVD) project had a kickoff meeting on 23rd February 2026 at [VDI office](https://www.vdi.de/en/home) in Düsseldorf, Germany that included key partners from Fraunhofer IWM, University of Freiburg, and Leibniz INM. The MVD project aims to advance digital and data-driven research for biohybrid and living material systems. Its core aim is to make scientific data better structured, semantically described, and improved reusability in AI-assisted workflows. The project includes significant tasks such ontology development, user and data journeys, workflow implementation, FAIR data handling, and training activities - all centered around scientific use cases such as living therapeutic materials and biohybrid sensor materials.
+MaterialVital-Digital (MVD) project had a kickoff meeting on 23rd February 2026 at [VDI office](https://www.vdi.de/en/home) in Düsseldorf, Germany that included key partners from Fraunhofer IWM, University of Freiburg, and Leibniz INM. The MVD project aims to advance digital and data-driven research for biohybrid and living material systems. Its core aim is to make scientific data better structured, semantically described, and improved reusability in Galaxy workflows. The project includes significant tasks such ontology development, user and data journeys, workflow implementation, FAIR data handling, and training activities - all centered around scientific use cases such as living therapeutic materials and biohybrid sensor materials.
 
 # Key partners
 
