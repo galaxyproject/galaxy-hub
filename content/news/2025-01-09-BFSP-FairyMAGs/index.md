@@ -10,8 +10,6 @@ contributions:
     - bebatut
   funding:
     - elixir-europe
-  organisers:
-    - elixir-europe
 ---
 
 

@@ -11,8 +11,7 @@ contributions:
     - paulzierep
   funding:
     - elixir-europe
-  organisers:
-    - elixir-europe
+
 ---
 
 ![biohackathon logo](./bhlogolightnotx.png)

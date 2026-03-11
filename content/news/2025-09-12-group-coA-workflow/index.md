@@ -10,6 +10,7 @@ contributions:
     - minamehr
   funding:
     - uni-freiburg
+    - elixir-europe
     - eurosciencegateway
 ---
 

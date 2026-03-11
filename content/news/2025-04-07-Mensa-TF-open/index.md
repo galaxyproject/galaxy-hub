@@ -7,7 +7,7 @@ subsites: [eu]
 contributions:
   authorship:
     - paulzierep
-  organisers:
+  funding:
     - uni-freiburg
 ---
 

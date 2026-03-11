@@ -11,8 +11,7 @@ contributions:
     - paulzierep
   funding:
     - elixir-europe
-  organisers:
-    - elixir-europe
+
 ---
 
 <img style="background-color:#405839" src="https://biohackathon-europe.org/img/biohackathon-logo-white.svg" />

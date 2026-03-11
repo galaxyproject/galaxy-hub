@@ -9,8 +9,7 @@ contributions:
     - paulzierep
   funding:
     - deNBI
-  organisers:
-    - deNBI
+
 ---
 
 # The Freiburg Galaxy Team participated in the **de.NBI / ELIXIR-DE All Hands Meeting** in Berlin on November 28–29, 2024.  

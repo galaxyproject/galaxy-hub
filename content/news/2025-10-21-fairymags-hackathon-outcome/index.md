@@ -15,10 +15,6 @@ tags:
 contributions:
   funding:
     - elixir-europe
-  organisers:
-    - paulzierep
-    - bebatut
-    - elixir-europe
   authorship:
     - paulzierep
     - bebatut
