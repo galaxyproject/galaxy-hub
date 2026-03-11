@@ -29,6 +29,12 @@
     flex-wrap: wrap;
     gap: 1rem;
     margin-bottom: 1.5rem;
+
+    > .bs-compat.card {
+      flex: 1 1 0%;
+      min-width: 0;
+      max-width: none;
+    }
   }
 
   &.card {
@@ -36,7 +42,6 @@
     display: flex;
     flex-direction: column;
     min-width: 12rem;
-    max-width: 20rem;
     flex: 1 1 auto;
     background-color: #fff;
     border: 1px solid rgba(0, 0, 0, 0.125);
@@ -788,9 +793,27 @@
   margin-right: auto !important;
 }
 
-/* Note: my-*, mx-*, px-*, py-* utilities intentionally not defined here
-   to avoid conflicts with Tailwind's spacing scale. Content using these
-   Bootstrap classes will get Tailwind's values instead, which are close enough. */
+/* mx-* utilities: needed because bs-compat prefixing prevents Tailwind from matching */
+.mx-1 {
+  margin-left: 0.25rem !important;
+  margin-right: 0.25rem !important;
+}
+.mx-2 {
+  margin-left: 0.5rem !important;
+  margin-right: 0.5rem !important;
+}
+.mx-3 {
+  margin-left: 1rem !important;
+  margin-right: 1rem !important;
+}
+.mx-4 {
+  margin-left: 1.5rem !important;
+  margin-right: 1.5rem !important;
+}
+.mx-5 {
+  margin-left: 3rem !important;
+  margin-right: 3rem !important;
+}
 
 .p-0 {
   padding: 0 !important;
