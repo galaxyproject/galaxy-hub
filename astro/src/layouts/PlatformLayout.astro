@@ -50,9 +50,7 @@ const {
   sourceFile,
 } = Astro.props;
 
-const editUrl = sourceFile
-  ? `https://github.com/galaxyproject/galaxy-hub/edit/main/content/${sourceFile}/index.md`
-  : undefined;
+const editUrl = sourceFile ? `https://github.com/galaxyproject/galaxy-hub/edit/main/content/${sourceFile}` : undefined;
 
 // Platform group display names
 const groupNames: Record<string, string> = {
