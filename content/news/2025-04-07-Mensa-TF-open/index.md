@@ -7,6 +7,8 @@ subsites: [eu]
 contributions:
   authorship:
     - paulzierep
+  organisers:
+    - uni-freiburg
 ---
 
 # 🥳 Mensa Opening at the Technical Faculty!
