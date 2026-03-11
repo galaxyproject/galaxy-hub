@@ -15,11 +15,21 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       incorrect.
     </p>
 
+    <!-- Suggestion box, populated by client JS if a match is found -->
+    <div id="suggestion" class="hidden mb-8 bg-green-50 border border-green-200 rounded-lg p-4 text-left">
+      <h3 class="font-semibold text-green-800 mb-2">Did you mean this page?</h3>
+      <p class="text-sm text-green-700">
+        <a id="suggestion-link" href="#" class="underline hover:text-green-900 font-medium"></a>
+      </p>
+    </div>
+
     <div class="space-y-4">
-      <div class="bg-blue-50 border border-blue-200 rounded-lg p-4 text-left">
+      <div id="help-box" class="bg-blue-50 border border-blue-200 rounded-lg p-4 text-left">
         <h3 class="font-semibold text-blue-800 mb-2">Looking for something specific?</h3>
         <ul class="text-sm text-blue-700 space-y-1">
-          <li>• Try using the <a href="/search/" class="underline hover:text-blue-900">search page</a></li>
+          <li>
+            • Try <a id="search-link" href="/search/" class="underline hover:text-blue-900">searching the site</a>
+          </li>
           <li>
             • Check the <a href="/news/" class="underline hover:text-blue-900">news</a> or <a
               href="/events/"
@@ -57,37 +67,66 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         </button>
       </div>
     </div>
-
-    <!-- Redirect detection for old URLs -->
-    <div id="redirect-notice" class="hidden mt-8 bg-yellow-50 border border-yellow-200 rounded-lg p-4 text-left">
-      <h3 class="font-semibold text-yellow-800 mb-2">URL Redirect Notice</h3>
-      <p class="text-sm text-yellow-700">
-        This URL may have been moved. If you came from an old link, try searching for the content.
-      </p>
-    </div>
   </div>
 
   <script>
-    // Check for common redirect patterns
     const path = window.location.pathname;
-    const redirectNotice = document.getElementById('redirect-notice');
 
-    // Old /blog/ URLs should redirect to /news/
-    if (path.startsWith('/blog/')) {
-      const newPath = path.replace('/blog/', '/news/');
-      redirectNotice?.classList.remove('hidden');
-      redirectNotice!.innerHTML = `
-        <h3 class="font-semibold text-yellow-800 mb-2">URL Redirect Notice</h3>
-        <p class="text-sm text-yellow-700">
-          The <code>/blog/</code> URL pattern has been moved to <code>/news/</code>.
-          Try: <a href="${newPath}" class="underline hover:text-yellow-900">${newPath}</a>
-        </p>
-      `;
+    /** Strip to lowercase alphanumeric + slashes — matches the build-time skeleton. */
+    function skeleton(s: string): string {
+      return s
+        .toLowerCase()
+        .replace(/[^a-z0-9/]/g, '')
+        .replace(/\/+/g, '/')
+        .replace(/\/$/, '');
     }
 
-    // Show notice for any 404 with query params (possible old link)
-    if (window.location.search && redirectNotice) {
-      redirectNotice.classList.remove('hidden');
+    /** Pull search-worthy keywords out of the last meaningful path segment. */
+    function extractKeywords(urlPath: string): string {
+      const segments = urlPath.split('/').filter(Boolean);
+      const last = segments[segments.length - 1] || '';
+      return (
+        last
+          // strip leading date prefix (2024-05-14-)
+          .replace(/^\d{4}-\d{2}-\d{2}-/, '')
+          // expand camelCase
+          .replace(/([a-z])([A-Z])/g, '$1 $2')
+          .replace(/([A-Z]+)([A-Z][a-z])/g, '$1 $2')
+          // hyphens/underscores to spaces
+          .replace(/[-_]/g, ' ')
+          .trim()
+      );
+    }
+
+    // Pre-populate the search link with keywords from the URL
+    const keywords = extractKeywords(path);
+    if (keywords) {
+      const searchLink = document.getElementById('search-link');
+      if (searchLink) {
+        (searchLink as HTMLAnchorElement).href = `/search/?q=${encodeURIComponent(keywords)}`;
+      }
+    }
+
+    // Try to find a match in the 404 lookup index
+    try {
+      const res = await fetch('/404-lookup.json');
+      if (res.ok) {
+        const lookup: Record<string, { p: string; t: string }> = await res.json();
+        const key = skeleton(path);
+        const match = lookup[key];
+
+        if (match && match.p !== path) {
+          const box = document.getElementById('suggestion');
+          const link = document.getElementById('suggestion-link') as HTMLAnchorElement | null;
+          if (box && link) {
+            link.href = match.p;
+            link.textContent = `${match.t} → ${match.p}`;
+            box.classList.remove('hidden');
+          }
+        }
+      }
+    } catch {
+      // Lookup fetch failed — no big deal, the rest of the page still works
     }
   </script>
 </BaseLayout>
