@@ -7,6 +7,13 @@ subsites: [all-eu, global]
 contributions:
   authorship:
     - paulzierep
+    - bebatut
+  funding:
+    - elixir-europe
+  organisers:
+    - elixir-europe
+    - uni-freiburg
+    - ifb
 ---
 
 ## ELIXIR Research Software Ecosystem (RSEc)
