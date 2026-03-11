@@ -10,6 +10,7 @@ contributions:
   authorship:
     - bebatut
   funding:
+    - eu
     - elixir-europe
     - eosc-life
     - deNBI

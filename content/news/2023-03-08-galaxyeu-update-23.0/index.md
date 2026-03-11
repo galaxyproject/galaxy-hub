@@ -10,6 +10,7 @@ contributions:
   authorship:
     - mira-miracoli
   funding:
+    - eu
     - eurosciencegateway
 ---
 

@@ -9,6 +9,7 @@ contributions:
   authorship:
     - annefou
   funding:
+    - eu
     - deNBI
     - elixir-europe
     - uni-freiburg

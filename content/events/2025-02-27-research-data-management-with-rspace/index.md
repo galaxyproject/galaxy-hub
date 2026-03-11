@@ -13,10 +13,10 @@ contributions:
   organisers:
     - dadrasarmin
   funding:
+    - eu
     - deNBI
     - mwk
     - eurosciencegateway
-
 ---
 
 # General information

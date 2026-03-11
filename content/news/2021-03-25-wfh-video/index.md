@@ -9,6 +9,7 @@ contributions:
   authorship:
     - beatrizserrano
   funding:
+    - eu
     - biodaten
     - nfdi4plants
     - eosc-life

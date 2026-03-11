@@ -9,6 +9,7 @@ contributions:
   authorship:
     - stefaniedukowicschulze
   funding:
+    - eu
     - eosc-life
     - uni-freiburg
     - deNBI

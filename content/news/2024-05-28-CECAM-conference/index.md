@@ -14,6 +14,7 @@ contributions:
     - abrahamnievadelahidalga
     - alejandragonzalezbeltran
   funding:
+    - eu
     - eurosciencegateway
 ---
 

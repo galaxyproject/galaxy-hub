@@ -9,6 +9,7 @@ contributions:
   authorship:
     - sandyrogers
   funding:
+    - eu
     - eosc-life
 ---
 

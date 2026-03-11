@@ -33,6 +33,6 @@ test.describe('Contributions authors precedence', () => {
     await page.goto('/news/2025-11-20-tools-sig/');
 
     const supporters = page.locator('[data-supporter-card]');
-    await expect(supporters).toHaveCount(2);
+    await expect(supporters).toHaveCount(3);
   });
 });

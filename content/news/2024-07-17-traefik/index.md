@@ -11,6 +11,7 @@ contributions:
   authorship:
     - mira-miracoli
   funding:
+    - eu
     - eurosciencegateway
     - uni-freiburg
 ---

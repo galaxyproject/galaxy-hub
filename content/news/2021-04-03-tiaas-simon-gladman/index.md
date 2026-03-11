@@ -8,6 +8,7 @@ contributions:
   authorship:
     - slugger70
   funding:
+    - eu
     - deNBI
     - elixir-europe
     - eosc-life

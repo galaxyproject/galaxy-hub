@@ -10,6 +10,7 @@ contributions:
     - sebastian-schaaf
     - bgruening
   funding:
+    - eu
     - eurosciencegateway
     - uni-freiburg
     - elixir-europe

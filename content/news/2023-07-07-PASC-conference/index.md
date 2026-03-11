@@ -9,6 +9,7 @@ contributions:
   authorship:
     - hrhotz
   funding:
+    - eu
     - eurosciencegateway
 ---
 

@@ -14,8 +14,8 @@ contributions:
   organisers:
     - dsavchenko
   funding:
+    - eu
     - eurosciencegateway
-
 ---
 
 EuroScienceGateway and Galaxy [were presented on Swiss SKA Days 2023](

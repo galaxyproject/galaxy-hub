@@ -9,6 +9,7 @@ contributions:
   authorship:
     - beatrizserrano
   funding:
+    - eu
     - eosc-life
 ---
 

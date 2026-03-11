@@ -10,6 +10,7 @@ contributions:
   authorship:
     - davelopez
   funding:
+    - eu
     - eurosciencegateway
     - uni-freiburg
 ---

@@ -11,6 +11,7 @@ contributions:
     - sebastian-schaaf
     - sanjaysrikakulam
   funding:
+    - eu
     - nfdi
     - nfdi4bioimage
     - nfdi4plants

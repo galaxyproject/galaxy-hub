@@ -11,6 +11,7 @@ contributions:
   authorship:
     - dianichj
   funding:
+    - eu
     - deKCD
     - nfdi4bioimage
     - deNBI

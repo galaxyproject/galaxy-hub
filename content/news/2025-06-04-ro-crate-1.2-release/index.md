@@ -8,6 +8,7 @@ contributions:
   authorship:
     - stain
   funding:
+    - eu
     - eurosciencegateway
     - fairease
     - by-covid

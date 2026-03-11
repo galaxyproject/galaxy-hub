@@ -10,6 +10,7 @@ contributions:
     - pavanvidem
     - mtekman
   funding:
+    - eu
     - eurosciencegateway
 ---
 

@@ -11,6 +11,7 @@ contributions:
     - bgruening
     - yvanlebras
   funding:
+    - eu
     - eurosciencegateway
 ---
 

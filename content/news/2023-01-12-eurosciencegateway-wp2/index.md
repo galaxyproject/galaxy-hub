@@ -10,6 +10,7 @@ contributions:
   authorship:
     - stain
   funding:
+    - eu
     - eurosciencegateway
 ---
 

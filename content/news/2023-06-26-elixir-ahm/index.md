@@ -9,6 +9,7 @@ main_subsite: eu
 components: true
 contributions:
   funding:
+    - eu
     - eurosciencegateway
     - uni-freiburg
     - elixir-europe
