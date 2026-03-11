@@ -8,6 +8,7 @@ tags: [esg,elixir,galaxy, esg-wp1, year-in-review]
 main_subsite: eu
 contributions:
   funding:
+    - eu
     - eurosciencegateway
     - uni-freiburg
     - elixir-europe

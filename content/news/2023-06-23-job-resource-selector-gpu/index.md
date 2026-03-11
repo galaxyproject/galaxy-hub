@@ -11,6 +11,7 @@ contributions:
     - anuprulez
     - kysrpex
   funding:
+    - eu
     - eurosciencegateway
     - uni-freiburg
     - deNBI

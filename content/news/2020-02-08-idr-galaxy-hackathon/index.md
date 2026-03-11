@@ -8,6 +8,7 @@ contributions:
   authorship:
     - beatrizserrano
   funding:
+    - eu
     - deNBI
     - elixir-europe
     - corbel

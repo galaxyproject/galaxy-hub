@@ -9,6 +9,7 @@ contributions:
   authorship:
     - beatrizserrano
   funding:
+    - eu
     - uni-freiburg
     - elixir-europe
     - deNBI

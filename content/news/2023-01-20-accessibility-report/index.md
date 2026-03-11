@@ -9,6 +9,7 @@ contributions:
   authorship:
     - ElectronicBlueberry
   funding:
+    - eu
     - eurosciencegateway
 ---
 

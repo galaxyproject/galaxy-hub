@@ -8,6 +8,7 @@ contributions:
   authorship:
     - SaimMomin12
   funding:
+    - eu
     - eurosciencegateway
     - uni-freiburg
 ---

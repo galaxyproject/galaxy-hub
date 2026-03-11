@@ -8,6 +8,7 @@ tags: [esg, esg-wp1, esg-wp3, esg-wp4]
 main_subsite: eu
 contributions:
   funding:
+    - eu
     - eurosciencegateway
     - uni-freiburg
     - egi

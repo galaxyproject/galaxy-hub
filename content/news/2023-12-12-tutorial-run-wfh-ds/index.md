@@ -9,6 +9,7 @@ contributions:
   authorship:
     - hexylena
   funding:
+    - eu
     - eurosciencegateway
 ---
 

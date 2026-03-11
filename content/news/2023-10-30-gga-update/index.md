@@ -12,6 +12,7 @@ contributions:
     - hexylena
     - bgruening
   funding:
+    - eu
     - eurosciencegateway
 ---
 

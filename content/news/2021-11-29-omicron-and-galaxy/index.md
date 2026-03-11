@@ -9,6 +9,7 @@ contributions:
   authorship:
     - wm75
   funding:
+    - eu
     - deNBI
     - elixir-europe
     - elixir-converge

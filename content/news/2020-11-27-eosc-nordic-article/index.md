@@ -9,6 +9,7 @@ contributions:
   authorship:
     - annefou
   funding:
+    - eu
     - uni-freiburg
     - elixir-europe
     - eosc-life

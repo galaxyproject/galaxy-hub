@@ -14,9 +14,9 @@ contributions:
   organisers:
     - erxleben
   funding:
+    - eu
     - eurosciencegateway
     - nfdi4plants
-
 ---
 
 # General information

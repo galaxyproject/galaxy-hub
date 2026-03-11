@@ -8,6 +8,7 @@ contributions:
   authorship:
     - guerler
   funding:
+    - eu
     - eurosciencegateway
 ---
 

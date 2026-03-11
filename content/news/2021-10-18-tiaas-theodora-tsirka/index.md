@@ -10,6 +10,7 @@ contributions:
   authorship:
     - theodoratsirka
   funding:
+    - eu
     - deNBI
     - elixir-europe
     - uni-freiburg

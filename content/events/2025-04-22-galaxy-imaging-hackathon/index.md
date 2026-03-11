@@ -14,10 +14,10 @@ contributions:
     - freiburggalaxyteam
     - eubi
   funding:
+    - eu
     - nfdi
     - oscars
     - nfdi4bioimage
-
 ---
 
 # Join Us for the Galaxy Imaging Hackathon 2025

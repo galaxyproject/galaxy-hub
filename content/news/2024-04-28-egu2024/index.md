@@ -12,6 +12,7 @@ contributions:
     - j34ni
     - alejandrococacastro
   funding:
+    - eu
     - eurosciencegateway
 ---
 

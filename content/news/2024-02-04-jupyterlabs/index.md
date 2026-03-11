@@ -9,6 +9,7 @@ contributions:
   authorship:
     - Marie59
   funding:
+    - eu
     - eurosciencegateway
 ---
 

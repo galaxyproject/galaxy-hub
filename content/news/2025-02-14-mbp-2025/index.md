@@ -9,6 +9,7 @@ contributions:
   authorship:
     - deeptivarshney
   funding:
+    - eu
     - eurosciencegateway
     - uni-freiburg
     - deNBI

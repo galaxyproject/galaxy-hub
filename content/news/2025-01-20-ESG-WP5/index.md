@@ -11,6 +11,7 @@ contributions:
     - torfinnnome
     - vazovn
   funding:
+    - eu
     - eurosciencegateway
 ---
 
