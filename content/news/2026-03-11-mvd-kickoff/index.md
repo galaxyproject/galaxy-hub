@@ -1,11 +1,12 @@
 ---
 title: "MaterialVital-Digital Kickoff"
-tags: [conference]
 date: "2026-03-11"
-tease: ""
+tease: "MaterialVital-Digital (MVD) project kickoff meeting on 23rd February 2026 at VDI office in Düsseldorf, Germany"
 tags:
-- MVD
-subsites: [eu, freiburg]
+  - materialvitaldigital
+  - project
+  - conference
+subsites: [global,eu,us,freiburg]
 main_subsite: freiburg
 contributions:
   authorship:
