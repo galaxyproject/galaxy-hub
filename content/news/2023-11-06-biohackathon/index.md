@@ -7,8 +7,11 @@ location:
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:
+  authorship:
+    - paulzierep
   funding:
     - elixir-europe
+
 ---
 
 ![biohackathon logo](./bhlogolightnotx.png)
