@@ -23,7 +23,7 @@ MaterialVital-Digital (MVD) project had a kickoff meeting on 23rd February 2026 
 
 # Key partners
 
-The main partners are [Fraunhofer IWM](https://www.iwm.fraunhofer.de/en.html), [University of Freiburg](https://galaxyproject.org/freiburg/), and [Leibniz INM](https://www.leibniz-inm.de/). Fraunhofer IWM. They will collaborate in areas such as ontology development, creation of user and data journeys, and semantic workflows, RAG/LLM-based tools, and execution infrastructures. The University of Freiburg contributes expertise in omics data analysis, FAIR tools and workflow development, and research data management  (RDM), mainly through [Galaxy platform](https://usegalaxy.eu/). Leibniz INM contributes the scientific use cases from the field of engineered living and biohybrid materials and supports the practical implementation of digitization efforts.
+The main partners are [Fraunhofer IWM](https://www.iwm.fraunhofer.de/en.html), [University of Freiburg](https://galaxyproject.org/freiburg/), and [Leibniz INM](https://www.leibniz-inm.de/). Fraunhofer IWM. They will collaborate in areas such as ontology development, creation of user and data journeys, and semantic workflows, RAG/LLM-based tools, and execution infrastructures. The University of Freiburg contributes expertise in omics data analysis, FAIR tools and workflow development, and research data management (RDM), mainly through [Galaxy platform](https://usegalaxy.eu/). Leibniz INM contributes the scientific use cases from the field of engineered living and biohybrid materials and supports the practical implementation of digitization efforts.
 
 # Looking ahead
 
