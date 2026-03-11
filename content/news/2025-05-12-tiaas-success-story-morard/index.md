@@ -9,6 +9,7 @@ contributions:
   authorship:
     - miguelmorard
   funding:
+    - eu
     - eosc-life
     - uni-freiburg
     - deNBI

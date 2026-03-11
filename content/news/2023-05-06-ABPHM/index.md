@@ -11,6 +11,7 @@ contributions:
   authorship:
     - EngyNasr
   funding:
+    - eu
     - eosc-life
     - elixir-europe
 ---

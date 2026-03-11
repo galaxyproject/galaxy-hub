@@ -9,6 +9,7 @@ contributions:
   authorship:
     - freiburggalaxyteam
   funding:
+    - eu
     - jxtxfoundation
     - worfklow4metabelomics
     - galaxyworks

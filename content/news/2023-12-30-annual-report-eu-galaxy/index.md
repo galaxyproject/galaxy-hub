@@ -8,6 +8,7 @@ tags: [esg,elixir,galaxy, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5, outreach,
 main_subsite: eu
 contributions:
   funding:
+    - eu
     - eurosciencegateway
     - uni-freiburg
     - elixir-europe

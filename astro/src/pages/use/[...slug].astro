@@ -34,6 +34,7 @@ export async function getStaticPaths() {
 
 const { platform } = Astro.props;
 const { Content } = await render(platform);
+const sourceFile = platform.data.sourceFile || `${platform.data.slug}/index.md`;
 
 const {
   title,
@@ -85,7 +86,7 @@ const components = {
   pub_libraries={pub_libraries}
   sponsors={sponsors}
   tags={tagList}
-  sourceFile={platform.data.slug}
+  sourceFile={sourceFile}
 >
   <Content components={components} />
 </PlatformLayout>

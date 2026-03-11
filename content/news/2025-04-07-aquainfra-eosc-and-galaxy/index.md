@@ -7,6 +7,7 @@ tags: [collaboration, aquainfra,esg, eosc, community]
 subsites: [all, esg, eu]
 contributions:
   funding:
+    - eu
     - eurosciencegateway
     - deNBI
     - mwk

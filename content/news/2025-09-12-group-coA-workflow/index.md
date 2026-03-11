@@ -9,7 +9,9 @@ contributions:
   authorship:
     - minamehr
   funding:
+    - eu
     - uni-freiburg
+    - elixir-europe
     - eurosciencegateway
 ---
 

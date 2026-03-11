@@ -6,6 +6,7 @@ import {
   contributorHasHallOfFame,
   findCommunityBySlug,
   getGrantDisplay,
+  getCommunityGithubHandle,
   getOrganisationDisplay,
   getCommunityDisplay,
   listContributors,
@@ -44,15 +45,7 @@ const profileDescription =
   (community as any)?.record?.description ||
   (community as any)?.record?.funding_statement;
 const profileDescriptionHtml = profileDescription ? marked.parse(profileDescription) : '';
-const githubHandle =
-  community?.record && (community as any).type === 'contributor'
-    ? (() => {
-        const gh = (community.record as any).github;
-        if (gh === false) return undefined;
-        if (typeof gh === 'string' && gh.trim().length > 0) return gh.trim();
-        return community.record.id || undefined;
-      })()
-    : undefined;
+const githubHandle = community?.record ? getCommunityGithubHandle(community.record as any) : undefined;
 const githubAvatar = githubHandle ? `https://github.com/${githubHandle}.png` : undefined;
 const avatarUrl = githubAvatar || (community as any)?.record?.avatarUrl;
 

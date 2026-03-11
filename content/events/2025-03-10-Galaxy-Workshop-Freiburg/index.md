@@ -14,11 +14,11 @@ contributions:
   organisers:
     - Sch-Da
   funding:
+    - eu
     - deNBI
     - mwk
     - eurosciencegateway
     - nfdi4plants
-
 ---
 
 # General information

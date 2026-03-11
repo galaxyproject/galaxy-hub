@@ -9,6 +9,7 @@ contributions:
   authorship:
     - uweschwartz
   funding:
+    - eu
     - eosc-life
     - uni-freiburg
     - deNBI

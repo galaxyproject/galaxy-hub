@@ -13,11 +13,11 @@ contributions:
   organisers:
     - erxleben
   funding:
+    - eu
     - deNBI
     - mwk
     - eurosciencegateway
     - nfdi4plants
-
 ---
 
 # General information

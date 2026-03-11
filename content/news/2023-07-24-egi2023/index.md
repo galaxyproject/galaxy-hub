@@ -16,6 +16,7 @@ tags:
 main_subsite: eu
 contributions:
   funding:
+    - eu
     - eurosciencegateway
     - uni-freiburg
     - egi

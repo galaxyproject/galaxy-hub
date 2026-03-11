@@ -9,6 +9,7 @@ contributions:
   authorship:
     - annefou
   funding:
+    - eu
     - eosc-life
     - elixir-europe
     - deNBI

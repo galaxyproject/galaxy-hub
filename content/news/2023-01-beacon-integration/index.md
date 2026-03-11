@@ -6,6 +6,7 @@ tags: [collaboration, usecase, esg, esg-wp3]
 subsites: [global,all,esg]
 contributions:
   funding:
+    - eu
     - eurosciencegateway
 ---
 

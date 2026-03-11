@@ -6,6 +6,7 @@ subsites: [eu, freiburg, global]
 main_subsite: eu
 contributions:
   funding:
+    - eu
     - eosc-life
 ---
 

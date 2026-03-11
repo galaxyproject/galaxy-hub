@@ -8,6 +8,7 @@ subsites: [all-eu, all]
 main_subsite: eu
 contributions:
   funding:
+    - eu
     - eosc-life
 ---
 

@@ -9,6 +9,7 @@ contributions:
     - erxleben
     - bgruening
   funding:
+    - eu
     - eurosciencegateway
     - uni-freiburg
     - eosc-life

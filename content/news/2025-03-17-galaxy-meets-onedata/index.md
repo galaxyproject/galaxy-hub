@@ -10,5 +10,6 @@ contributions:
   authorship:
     - lopiola
   funding:
+    - eu
     - eurosciencegateway
 ---

@@ -15,11 +15,11 @@ subsites: [all]
 autotoc: false
 contributions:
   funding:
+    - eu
     - deNBI
     - by-covid
     - gallantries
     - elixir-converge
-
 components: true
 ---
 

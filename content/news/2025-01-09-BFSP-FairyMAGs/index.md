@@ -8,6 +8,8 @@ contributions:
   authorship:
     - paulzierep
     - bebatut
+  funding:
+    - elixir-europe
 ---
 
 

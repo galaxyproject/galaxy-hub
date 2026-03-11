@@ -8,6 +8,7 @@ subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:
   funding:
+    - eu
     - deNBI
     - elixir-europe
     - crc992

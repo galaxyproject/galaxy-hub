@@ -11,6 +11,7 @@ contributions:
     - beatrizserrano
     - bgruening
   funding:
+    - eu
     - uni-freiburg
     - elixir-europe
     - deNBI

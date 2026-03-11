@@ -8,6 +8,7 @@ tags: [esg,madland,de.nbi,nfdi4plants,dataplant,esg-wp1, esg-wp5]
 main_subsite: eu
 contributions:
   funding:
+    - eu
     - eurosciencegateway
     - uni-freiburg
     - deNBI

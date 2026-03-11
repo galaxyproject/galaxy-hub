@@ -9,6 +9,7 @@ contributions:
   authorship:
     - dadrasarmin
   funding:
+    - eu
     - nfdi
     - eurosciencegateway
 ---

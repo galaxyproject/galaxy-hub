@@ -12,5 +12,6 @@ contributions:
     - leandro-liborio
     - subindevdevadasan
   funding:
+    - eu
     - eurosciencegateway
 ---
