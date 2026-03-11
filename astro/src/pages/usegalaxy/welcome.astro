@@ -9,6 +9,7 @@
  */
 import { getCollection, render } from 'astro:content';
 import '../../styles/global.css';
+import Icon from '../../components/mdx/Icon.astro';
 
 // Get the insert content
 const inserts = await getCollection('inserts');
@@ -387,7 +388,7 @@ const carouselSlides = [
     {
       MainContent && (
         <div class="welcome-main prose">
-          <MainContent />
+          <MainContent components={{ Icon }} />
         </div>
       )
     }

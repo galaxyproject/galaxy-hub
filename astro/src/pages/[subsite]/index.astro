@@ -4,6 +4,7 @@ import SubsiteOverview from '../../components/SubsiteOverview.astro';
 import { getSubsiteStaticPaths, subsiteLabels } from '../../stores/subsiteStore';
 import { getUpcomingEvents, getPublishedNews, getInsert } from '../../utils/content';
 import { render } from 'astro:content';
+import * as mdxComponents from '../../components/mdx/index.ts';
 
 export const getStaticPaths = getSubsiteStaticPaths;
 
@@ -56,7 +57,7 @@ const renderedFooter = await Promise.all(footerEntries.map((ins) => render(ins))
     {subsiteNews}
     hasMainContent={renderedBody.length > 0}
   >
-    {renderedBody.map(({ Content }) => <Content slot="main-content" />)}
-    {renderedFooter.map(({ Content }) => <Content slot="footer-content" />)}
+    {renderedBody.map(({ Content }) => <Content slot="main-content" components={mdxComponents} />)}
+    {renderedFooter.map(({ Content }) => <Content slot="footer-content" components={mdxComponents} />)}
   </SubsiteOverview>
 </BaseLayout>

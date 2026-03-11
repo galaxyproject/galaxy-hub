@@ -191,7 +191,7 @@ describe('inlineInserts', () => {
 
   it('resolves a real insert file (learn/linkbox)', () => {
     const content = 'Before\n<slot name="/learn/linkbox" />\nAfter';
-    const result = inlineInserts(content);
+    const { content: result } = inlineInserts(content);
     expect(result).toContain('Before');
     expect(result).toContain('After');
     expect(result).not.toContain('<slot');
@@ -201,13 +201,13 @@ describe('inlineInserts', () => {
 
   it('leaves a comment for missing inserts', () => {
     const content = '<slot name="/nonexistent/path" />';
-    const result = inlineInserts(content);
+    const { content: result } = inlineInserts(content);
     expect(result).toContain('<!-- Insert not found: /nonexistent/path -->');
   });
 
   it('handles multiple slots in the same content', () => {
     const content = '<slot name="/learn/linkbox" />\nMiddle\n<slot name="/learn/linkbox" />';
-    const result = inlineInserts(content);
+    const { content: result } = inlineInserts(content);
     expect(result).not.toContain('<slot');
     expect(result).toContain('Middle');
     // Both should be resolved
@@ -218,18 +218,19 @@ describe('inlineInserts', () => {
   it('handles nested inserts (cop_template references common_linkbox)', () => {
     const result = resolveInsertContent('/community/sig/common_linkbox');
     expect(result).not.toBeNull();
-    expect(result).toContain('Galaxy Community Board');
+    expect(result.content).toContain('Galaxy Community Board');
   });
 
   it('applies bootstrap marker to insert content', () => {
     const result = resolveInsertContent('/community/sig/common_linkbox');
     // common_linkbox has class="alert alert-info..." which should get bs-compat
-    expect(result).toContain('bs-compat');
+    expect(result.content).toContain('bs-compat');
   });
 
   it('passes content through unchanged when no slots present', () => {
     const content = '# Hello\n\nNo slots here.';
-    expect(inlineInserts(content)).toBe(content);
+    const { content: result } = inlineInserts(content);
+    expect(result).toBe(content);
   });
 });
 
