@@ -10,6 +10,7 @@ contributions:
   authorship:
     - sebastian-schaaf
   funding:
+    - eu
     - eurosciencegateway
     - uni-freiburg
     - egi

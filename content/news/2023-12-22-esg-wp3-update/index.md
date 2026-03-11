@@ -11,6 +11,7 @@ contributions:
     - mtangaro
     - Federico77z
   funding:
+    - eu
     - eurosciencegateway
     - cesnet
     - elixir-cz

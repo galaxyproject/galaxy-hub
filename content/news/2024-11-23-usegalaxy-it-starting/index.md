@@ -12,6 +12,7 @@ contributions:
     - polinakhmelevskaia
     - Federico77z
   funding:
+    - eu
     - eurosciencegateway
 ---
 

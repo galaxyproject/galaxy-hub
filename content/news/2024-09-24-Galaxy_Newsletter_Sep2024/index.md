@@ -9,6 +9,7 @@ contributions:
   authorship:
     - natalie-wa
   funding:
+    - eu
     - eurosciencegateway
 ---
 

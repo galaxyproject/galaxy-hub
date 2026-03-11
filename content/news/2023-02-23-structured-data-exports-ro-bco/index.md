@@ -9,6 +9,7 @@ contributions:
     - davelopez
     - stain
   funding:
+    - eu
     - eurosciencegateway
 ---
 

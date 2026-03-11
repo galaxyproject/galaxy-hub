@@ -11,5 +11,6 @@ contributions:
   authorship:
     - markuskonkol
   funding:
+    - eu
     - eurosciencegateway
 ---

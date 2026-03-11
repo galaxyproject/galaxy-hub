@@ -10,6 +10,7 @@ contributions:
     - dadrasarmin
     - SaimMomin12
   funding:
+    - eu
     - uni-freiburg
     - eurosciencegateway
 ---

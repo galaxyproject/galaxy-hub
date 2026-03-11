@@ -9,6 +9,7 @@ contributions:
   authorship:
     - beatrizserrano
   funding:
+    - eu
     - deNBI
     - elixir-europe
     - nfdi4plants

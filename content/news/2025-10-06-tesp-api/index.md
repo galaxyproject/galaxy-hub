@@ -8,6 +8,7 @@ contributions:
   authorship:
     - borisjuric
   funding:
+    - eu
     - eurosciencegateway
     - cesnet
     - elixir-cz

@@ -8,6 +8,7 @@ contributions:
   authorship:
     - leandro-liborio
   funding:
+    - eu
     - eurosciencegateway
 ---
 

@@ -10,6 +10,7 @@ contributions:
   authorship:
     - benjamindartigues
   funding:
+    - eu
     - eurosciencegateway
 ---
 

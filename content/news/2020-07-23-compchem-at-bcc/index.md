@@ -8,6 +8,7 @@ contributions:
   authorship:
     - simonbray
   funding:
+    - eu
     - deNBI
     - elixir-europe
     - eosc-life

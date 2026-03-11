@@ -9,6 +9,7 @@ contributions:
   authorship:
     - patrick-austin
   funding:
+    - eu
     - eurosciencegateway
 ---
 

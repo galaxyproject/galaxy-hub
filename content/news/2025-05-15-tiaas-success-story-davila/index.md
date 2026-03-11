@@ -9,6 +9,7 @@ contributions:
   authorship:
     - marceladavila
   funding:
+    - eu
     - eosc-life
     - uni-freiburg
     - deNBI

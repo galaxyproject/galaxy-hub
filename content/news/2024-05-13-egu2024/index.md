@@ -13,6 +13,7 @@ tags: [conference, esg, esg-wp5, earth-system, collaboration, talk, outreach]
 subsites: [all, esg, all-eu]
 contributions:
   funding:
+    - eu
     - eurosciencegateway
 ---
 

@@ -6,6 +6,7 @@ tags: [hackathon, biohackathon, fair, esg, esg-wp1, esg-wp5,  elixir, eurobioima
 subsites: [all, esg, eu]
 contributions:
   funding:
+    - eu
     - eurosciencegateway
     - nfdi
     - deNBI

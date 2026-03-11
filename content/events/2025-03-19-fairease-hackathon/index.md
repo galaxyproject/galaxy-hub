@@ -11,9 +11,9 @@ contributions:
   organisers:
     - Marie59
   funding:
+    - eu
     - fairease
     - eurosciencegateway
-
 ---
 
 # FAIR-EASE Hackathon: Advancing Scientific & Technical Data Integration! 🚀

@@ -9,6 +9,7 @@ contributions:
   authorship:
     - bgruening
   funding:
+    - eu
     - by-covid
 ---
 

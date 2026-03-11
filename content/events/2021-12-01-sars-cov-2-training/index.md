@@ -9,11 +9,11 @@ subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   funding:
+    - eu
     - deNBI
     - by-covid
     - elixir-converge
     - gallantries
-
 components: true
 ---
 

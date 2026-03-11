@@ -10,11 +10,11 @@ contributions:
     - jnussbaum
     - Sch-Da
   funding:
+    - eu
     - deKCD
     - datacommons
     - deNBI
     - mwk
-
 ---
 
 # Connecting Humanities Data: Analyzing DaSCH data on Galaxy

@@ -11,6 +11,7 @@ contributions:
     - bgruening
     - pauldg
   funding:
+    - eu
     - eurosciencegateway
 ---
 

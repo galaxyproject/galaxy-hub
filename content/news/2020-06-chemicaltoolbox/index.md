@@ -11,6 +11,7 @@ contributions:
   authorship:
     - simonbray
   funding:
+    - eu
     - eosc-life
 ---
 
