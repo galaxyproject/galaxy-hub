@@ -467,6 +467,7 @@ async function processMarkdownFile(filePath) {
   // Process frontmatter
   const processedFrontmatter = processFrontmatter({ ...frontmatter });
   processedFrontmatter.slug = slug;
+  processedFrontmatter.sourceFile = relativePath.replace(/\\/g, '/');
 
   // Rewrite frontmatter image path the same way we rewrite body image paths
   if (processedFrontmatter.image && typeof processedFrontmatter.image === 'string') {
