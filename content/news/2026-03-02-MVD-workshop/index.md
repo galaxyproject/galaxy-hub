@@ -1,7 +1,7 @@
 ---
 title: "First MaterialVital-Digital Workshop in Saarbrücken"
 date: "2025-03-02"
-tease: "The Leibniz Institute for New Materials (INM), the Fraunhofer Institute for Mechanics of Materials (IWM), and the University of Freiburg met in Saarbrücken to discuss user journeys as a guide for the digitalization of Engineered Living Materials (ELM) development.""
+tease: "The Leibniz Institute for New Materials (INM), the Fraunhofer Institute for Mechanics of Materials (IWM), and the University of Freiburg met in Saarbrücken to discuss user journeys as a guide for the digitalization of Engineered Living Materials (ELM) development."
 subsites: [freiburg]
 
 contributions:
