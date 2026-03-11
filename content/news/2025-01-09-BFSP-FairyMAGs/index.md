@@ -8,6 +8,10 @@ contributions:
   authorship:
     - paulzierep
     - bebatut
+  funding:
+    - elixir-europe
+  organisers:
+    - elixir-europe
 ---
 
 
