@@ -22,7 +22,7 @@ const { subsite, title, description, upcomingEvents, subsiteNews, hasMainContent
 
   {
     hasMainContent && (
-      <div class="mb-10 prose prose-galaxy max-w-none">
+      <div class="mb-10 max-w-none subsite-inserts">
         <slot name="main-content" />
       </div>
     )
@@ -107,4 +107,56 @@ const { subsite, title, description, upcomingEvents, subsiteNews, hasMainContent
       </a>
     </div>
   </section>
+
+  <slot name="footer-content" />
 </div>
+
+<style>
+  .subsite-inserts :global(> *) {
+    margin-bottom: 1.5rem;
+  }
+
+  .subsite-inserts :global(p),
+  .subsite-inserts :global(ul),
+  .subsite-inserts :global(ol) {
+    max-width: 65ch;
+    line-height: 1.7;
+  }
+
+  .subsite-inserts :global(ul) {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+  }
+
+  .subsite-inserts :global(li) {
+    margin-bottom: 0.25rem;
+  }
+
+  .subsite-inserts :global(a) {
+    color: var(--color-galaxy-primary);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .subsite-inserts :global(a:hover) {
+    color: var(--color-galaxy-dark);
+  }
+
+  /* Override the harsh bg-secondary on info-box cards to use Galaxy branding */
+  .subsite-inserts :global(.bg-secondary) {
+    background-color: #e8eef4 !important;
+    border-color: #c5d4e2 !important;
+  }
+
+  .subsite-inserts :global(.bg-secondary .btn) {
+    background-color: #25537b !important;
+    color: #fff !important;
+    border-color: #25537b !important;
+    border-radius: 0.375rem;
+  }
+
+  .subsite-inserts :global(.bg-secondary .btn:hover) {
+    background-color: #1d4261 !important;
+    border-color: #1d4261 !important;
+  }
+</style>
