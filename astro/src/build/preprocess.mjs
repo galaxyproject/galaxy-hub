@@ -18,6 +18,8 @@ import { processMarkdown, processFrontmatter } from './markdown-processor.mjs';
 import { normalizeSlugSegment, normalizeSlug } from './slug-utils.mjs';
 export { normalizeSlugSegment, normalizeSlug };
 
+const JSX_COMMENT_RE = /\{\/\*[\s\S]*?\*\/\}/g;
+
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ASTRO_ROOT = path.resolve(__dirname, '../..');
 const PROJECT_ROOT = path.resolve(ASTRO_ROOT, '..'); // galaxy-hub/
@@ -355,7 +357,7 @@ function resolveInsertContent(slotName, depth = 0) {
 
   // Apply the same content transforms used in processMarkdownFile
   let processed = body;
-  processed = processed.replace(/\{\/\*[\s\S]*?\*\/\}/g, '');
+  processed = processed.replace(JSX_COMMENT_RE, '');
   processed = inlineInserts(processed, depth + 1);
   processed = addBootstrapMarker(processed);
   processed = processImagePaths(processed, insertSlug);
@@ -446,7 +448,7 @@ async function processMarkdownFile(filePath) {
   // Inline insert content before checking for components — slots are resolved
   // at preprocess time now, so pages that only had slots won't need MDX
   let processedContent = body;
-  processedContent = processedContent.replace(/\{\/\*[\s\S]*?\*\/\}/g, '');
+  processedContent = processedContent.replace(JSX_COMMENT_RE, '');
   processedContent = inlineInserts(processedContent);
 
   // Process content
