@@ -7,6 +7,8 @@ subsites: [all-eu, global]
 contributions:
   authorship:
     - paulzierep
+  funding:
+    - deKCD
 ---
 
 # Shiny phyloseq interactive tool (IT)
