@@ -13,9 +13,13 @@ tags:
 - metagenomics
 - fairymags
 contributions:
+  funding:
+    - elixir-europe
   authorship:
     - paulzierep
     - bebatut
+
+
 ---
 
 # 🧬 Introduction
