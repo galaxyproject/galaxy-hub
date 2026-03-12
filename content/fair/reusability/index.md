@@ -22,7 +22,7 @@ Galaxy is designed to lower the barriers to reproducible and reusable data analy
 All of this makes Galaxy a trusted platform for researchers who need to ensure that their work is ready for reuse by others.
 
 # Scope and User Base 
-Galaxy’s reusability features serve a global, multidisciplinary community of researchers, educators, and data stewards. The platform’s usegalaxy. instances* (US, EU, AU) support tens of thousands of users, many of whom rely on Galaxy to develop, share, and reuse workflows and datasets in scientific domains going from genomics to climate science.
+Galaxy’s reusability features serve a global, multidisciplinary community of researchers, educators, and data stewards. The platform’s usegalaxy.* instances (US, EU, AU) support tens of thousands of users, many of whom rely on Galaxy to develop, share, and reuse workflows and datasets in scientific domains going from genomics to climate science.
 
 ## Capturing and Leveraging Provenance: the backbone of reusability
 
