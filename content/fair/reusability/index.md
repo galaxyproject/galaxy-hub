@@ -17,6 +17,8 @@ Galaxy’s architecture relies on container technologies, provenance tracking, a
 Galaxy is designed to lower the barriers to reproducible and reusable data analysis as described in the paper [Practical Computational Reproducibility in the Life Sciences](https://doi.org/10.1016/j.cels.2018.03.014) . By capturing the full context of computational research, Galaxy ensures that analyses can be rerun, shared, and adapted with minimal difficulties. This is achieved through:
 - Dependency resolution via containerisation with technologies such as Conda, Docker, Singularity. Indeed, the tight integration with Biocontainers, for example, ensures that tools and workflows are portable and executable across different infrastructures.
 - Comprehensive provenance tracking, which records every parameter, input, tool version, and container used in an analysis.
+- Long-term access to tool versions: Galaxy preserves all versions of tools, which ensures that even older versions remain accessible to users years after their release. This guarantees that old analyses can always be reproduced exactly as they were originally designed.
+- Easy re-execution of tools: users can rerun tools and workflows with a single click using the reload button, even for analyses done months or years earlier. This feature with the preserved tool versions and complete provenance records ones, makes Galaxy a robust platform for long-term reproducibility.
 
 All of this makes Galaxy a trusted platform for researchers who need to ensure that their work is ready for reuse by others.
 
