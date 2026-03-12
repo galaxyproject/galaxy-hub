@@ -15,12 +15,9 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       incorrect.
     </p>
 
-    <!-- Suggestion box, populated by client JS if a match is found -->
-    <div id="suggestion" class="hidden mb-8 bg-green-50 border border-green-200 rounded-lg p-4 text-left">
-      <h3 class="font-semibold text-green-800 mb-2">Did you mean this page?</h3>
-      <p class="text-sm text-green-700">
-        <a id="suggestion-link" href="#" class="underline hover:text-green-900 font-medium"></a>
-      </p>
+    <!-- Shown briefly while redirecting to a matched page -->
+    <div id="redirect-notice" class="hidden mb-8 bg-green-50 border border-green-200 rounded-lg p-4 text-center">
+      <p class="text-sm text-green-700">Redirecting to <a id="redirect-link" href="#" class="underline font-medium"></a>&hellip;</p>
     </div>
 
     <div class="space-y-4">
@@ -107,7 +104,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       }
     }
 
-    // Try to find a match in the 404 lookup index
+    // Try to find a match in the 404 lookup index and auto-redirect
     try {
       const res = await fetch('/404-lookup.json');
       if (res.ok) {
@@ -116,17 +113,18 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         const match = lookup[key];
 
         if (match && match.p !== path) {
-          const box = document.getElementById('suggestion');
-          const link = document.getElementById('suggestion-link') as HTMLAnchorElement | null;
-          if (box && link) {
+          const notice = document.getElementById('redirect-notice');
+          const link = document.getElementById('redirect-link') as HTMLAnchorElement | null;
+          if (notice && link) {
             link.href = match.p;
-            link.textContent = `${match.t} → ${match.p}`;
-            box.classList.remove('hidden');
+            link.textContent = match.p;
+            notice.classList.remove('hidden');
           }
+          window.location.replace(match.p);
         }
       }
     } catch {
-      // Lookup fetch failed — no big deal, the rest of the page still works
+      // Lookup fetch failed — page degrades to static 404 content
     }
   </script>
 </BaseLayout>
