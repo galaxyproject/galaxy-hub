@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 test.describe('Conference Layout', () => {
   test.describe('GCC2026 Conference Pages', () => {
     test('conference root page loads with subnav', async ({ page }) => {
-      await page.goto('/events/gcc-2026/');
+      await page.goto('/events/gcc2026/');
       await expect(page.locator('h1').first()).toBeVisible();
 
       const subnav = page.locator('nav[aria-label="Conference pages"]');
@@ -16,7 +16,7 @@ test.describe('Conference Layout', () => {
     });
 
     test('Home link is active on conference root', async ({ page }) => {
-      await page.goto('/events/gcc-2026/');
+      await page.goto('/events/gcc2026/');
 
       const subnav = page.locator('nav[aria-label="Conference pages"]');
       const homeLink = subnav.locator('a', { hasText: 'Home' });
@@ -24,7 +24,7 @@ test.describe('Conference Layout', () => {
     });
 
     test('subpage shows subnav with correct active state', async ({ page }) => {
-      await page.goto('/events/gcc-2026/register/');
+      await page.goto('/events/gcc2026/register/');
       await expect(page.locator('h1').first()).toBeVisible();
 
       const subnav = page.locator('nav[aria-label="Conference pages"]');
@@ -39,19 +39,19 @@ test.describe('Conference Layout', () => {
     });
 
     test('subnav links navigate between conference pages', async ({ page }) => {
-      await page.goto('/events/gcc-2026/');
+      await page.goto('/events/gcc2026/');
 
       const subnav = page.locator('nav[aria-label="Conference pages"]');
       const trainingLink = subnav.locator('a', { hasText: 'Training' });
       await trainingLink.click();
       await page.waitForLoadState('domcontentloaded');
 
-      await expect(page).toHaveURL(/\/events\/gcc-2026\/training\//);
+      await expect(page).toHaveURL(/\/events\/gcc2026\/training\//);
       await expect(page.locator('h1').first()).toBeVisible();
     });
 
     test('conference page shows date and location metadata', async ({ page }) => {
-      await page.goto('/events/gcc-2026/');
+      await page.goto('/events/gcc2026/');
 
       const header = page.locator('header');
 
@@ -65,7 +65,7 @@ test.describe('Conference Layout', () => {
     });
 
     test('conference page has footer with back link and edit link', async ({ page }) => {
-      await page.goto('/events/gcc-2026/');
+      await page.goto('/events/gcc2026/');
 
       const backLink = page.locator('a[href="/events/"]');
       await expect(backLink.first()).toBeVisible();
@@ -75,7 +75,7 @@ test.describe('Conference Layout', () => {
     });
 
     test('all subnav subpages load successfully', async ({ page }) => {
-      await page.goto('/events/gcc-2026/');
+      await page.goto('/events/gcc2026/');
 
       const subnav = page.locator('nav[aria-label="Conference pages"]');
       const links = subnav.locator('a');
@@ -88,7 +88,7 @@ test.describe('Conference Layout', () => {
       }
 
       // Spot-check a few subpages load with 200
-      const sample = hrefs.filter((h) => h !== '/events/gcc-2026/').slice(0, 4);
+      const sample = hrefs.filter((h) => h !== '/events/gcc2026/').slice(0, 4);
       for (const href of sample) {
         const response = await page.goto(href);
         expect(response?.status(), `${href} should return 200`).toBe(200);

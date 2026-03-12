@@ -252,4 +252,19 @@ redirects:
   /cloud/storage/get_step_by_step/: /cloud/storage/get-step-by-step/
   /cloud/storage/send_step_by_step/: /cloud/storage/send-step-by-step/
   /images/esg/interactive_poster/: /images/esg/interactive-poster/
+  # Letter-digit split redirects (URLs that were live before the split rule was dropped)
+  /events/gcc-2026/: /events/gcc2026/
+  /events/gcc-2026/abstracts/: /events/gcc2026/abstracts/
+  /events/gcc-2026/cofest/: /events/gcc2026/cofest/
+  /events/gcc-2026/conduct/: /events/gcc2026/conduct/
+  /events/gcc-2026/fellowships/: /events/gcc2026/fellowships/
+  /events/gcc-2026/highlights/: /events/gcc2026/highlights/
+  /events/gcc-2026/key-dates/: /events/gcc2026/key-dates/
+  /events/gcc-2026/organizers/: /events/gcc2026/organizers/
+  /events/gcc-2026/register/: /events/gcc2026/register/
+  /events/gcc-2026/schedule/: /events/gcc2026/schedule/
+  /events/gcc-2026/sponsors/: /events/gcc2026/sponsors/
+  /events/gcc-2026/training/: /events/gcc2026/training/
+  /events/gcc-2026/travel/: /events/gcc2026/travel/
+  /news/2025-10-15-egd-2025/: /news/2025-10-15-egd2025/
   /news/2026-03-02-MVD-workshop/: /news/2026-03-02-mvd-workshop/
