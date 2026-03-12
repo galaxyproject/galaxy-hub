@@ -16,9 +16,9 @@ Galaxy’s architecture is based on community-driven initiatives and integration
 
 Galaxy is designed to be accessible by default, offering multiple entry points and interfaces to accommodate users with varying levels of technical skill. The platform’s open-source nature ensures transparency, customisability, and community-driven innovation. Its architecture allows for deployment in diverse contexts, from public servers to private, and institution-specific instances.
 Key features enabling accessibility include:
-- Open-source design: Galaxy’s codebase is publicly available (https://github.com/galaxyproject), allowing anyone to deploy, modify, or extend the platform.
-- Subdomains and Labs: Galaxy supports community-specific subdomains (e.g., for genomics, earth system science, or ecology) and Galaxy Labs for specialised scientific fields.
-- Multi-lingual and multi-interface support: Users can interact with Galaxy via web interfaces, APIs, or interactive environments (e.g., RStudio, Jupyter).
+- **Open-source design:** Galaxy’s codebase is publicly available (https://github.com/galaxyproject), allowing anyone to deploy, modify, or extend the platform.
+- **Subdomains and Labs:** Galaxy supports community-specific subdomains (e.g., for genomics, earth system science, or ecology) and Galaxy Labs for specialised scientific fields.
+- **Multi-lingual and multi-interface support:** Users can interact with Galaxy via web interfaces, APIs, or interactive environments (e.g., RStudio, Jupyter).
 
 # Scope and User Base
 
