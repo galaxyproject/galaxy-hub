@@ -23,9 +23,9 @@ Key features enabling accessibility include:
 # Scope and User Base
 
 Galaxy’s accessibility features serve a global, multidisciplinary community of researchers, educators, and data managers. The platform’s public instances (e.g., usegalaxy.eu, usegalaxy.org, usegalaxy.org.au) collectively support tens of thousands of users, including:
-- Researchers with limited technical expertise, who rely on Galaxy’s intuitive interfaces.
+- Researchers with limited computational expertise, who rely on Galaxy’s intuitive interfaces.
 - Data scientists, who leverage Galaxy’s distributed computing and API-driven automation.
-- Educators and trainees, who use Galaxy’s training materials (e.g., via the Galaxy Training Network, GTN) to onboard new users.
+- Educators and trainees, who use Galaxy’s training materials (e.g., via the Galaxy Training Network (GTN)) to onboard new users.
 
 Galaxy’s accessibility is further enhanced by its integration with federated identity providers, ensuring secure and easy access for users worldwide.
 
@@ -40,7 +40,7 @@ Galaxy’s file-sources and object stores enable access to:
 - Standard data repositories:
   - Zenodo, Invenio, Dataverse, Nextcloud, OpenCloud.
   - S3, FTP, WebDAV, iRODS, OneData.
-  All available repositories are findable here https://github.com/galaxyproject/galaxy/tree/dev/lib/galaxy/files/sources
+  All available repositories are findable here: https://training.galaxyproject.org/training-material/faqs/galaxy/manage_your_repositories.html
 
 - Domain-specific repositories (via API):
   - Copernicus (climate/earth observation), ENA (nucleotides), NCBI, UniProt, Ensembl, BioMart, AquaINFRA (aquatic sciences).
@@ -71,7 +71,7 @@ Galaxy hosts thousands of tools, each designed to be accessible, documented, and
 ## Authentication and Security: Federated and Flexible
 
 Galaxy supports diverse authentication methods to ensure secure and inclusive access:
-- Public account creation: Anyone can create an account on public Galaxy servers using simple username/password or federated identity providers (e.g., EGI Check-in, AAI).
+- Public account creation: Anyone can create an account on public Galaxy servers using simple username/password or federated identity providers (e.g., EGI Check-in, EOSC AAI, and LS login).
 - Federated identity management: Galaxy’s authentication subsystem supports LDAP, PAM, OIDC, and other protocols, enabling integration with institutional or national identity providers.
 
 # Programmatic Accessibility: APIs and Distributed Computing
@@ -84,7 +84,7 @@ Galaxy’s comprehensive API (based on the OpenAPI standard) enables programmati
 
 ## Distributed Computing with Pulsar
 
-Galaxy’s use of Pulsar, a lightweight distributed computing system, extends its accessibility by:
+Galaxy’s use of Pulsar, a lightweight distributed job execution application, extends its accessibility by:
 - Enabling workflows to run on remote resources, including HPC clusters and cloud infrastructures.
 - Supporting scalable, high-performance computing for resource-intensive analyses.
 
@@ -107,7 +107,7 @@ Galaxy’s global community actively promotes accessibility through:
 
 # Conclusion: Accessibility as a Catalyst for Open Science
 
-Galaxy’s commitment to accessibility ensures that researchers of all backgrounds can discover, use, and contribute to the platform’s rich ecosystem of tools, workflows, and data. By combining open-source design, flexible authentication, distributed computing, and community support, Galaxy lowers the barriers to FAIR, reproducible, and collaborative science.
+Galaxy’s commitment to accessibility ensures that researchers of all backgrounds can discover, use, and contribute to the platform’s rich ecosystem of tools, workflows, and data. By combining open-source design, flexible authorisation and authentication, distributed computing, and community support, Galaxy lowers the barriers to FAIR, reproducible, and collaborative science.
 
 # Legal framework, funding, and governance 
 
