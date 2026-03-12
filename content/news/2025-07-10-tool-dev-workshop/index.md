@@ -9,6 +9,7 @@ contributions:
   authorship:
     - SaimMomin12
     - dadrasarmin
+    - intergalacticutilitiescommissioniuc
   funding:
     - eu
     - uni-freiburg

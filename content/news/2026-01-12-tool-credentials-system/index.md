@@ -7,6 +7,7 @@ tags: [tools, security, feature]
 contributions:
   authorship:
     - arash77
+    - intergalacticutilitiescommissioniuc
 ---
 
 If you've ever needed to use a Galaxy tool that connects to an external service—like OpenAI's ChatGPT, cloud storage providers, or specialized databases—you know the challenge: how do you securely provide your API keys, passwords, or other credentials? Until now, the approach often involved configuring user preferences or hardcoding sensitive information in configuration files, which was neither secure nor user-friendly.

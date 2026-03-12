@@ -3,10 +3,14 @@ title: "Enhancing Genomic Research: A comprehensive review of FAIR assembly with
 date: "2025-03-07"
 tease: "Explore how the ERGA EAR Bot is revolutionizing FAIR Assembly reviews in genomic research and contributing in advancing the Biodiversity Genomics Europe (BGE) project"
 subsites: [global,eu,us,freiburg]
+tags: [BGE, biodiversity, project, erga]
 contributions:
   authorship:
     - SaimMomin12
     - arash77
+  funding:
+    - eu
+    - bge
 ---
 
 # **The ERGA EAR Bot**
