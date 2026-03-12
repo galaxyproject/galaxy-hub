@@ -92,8 +92,7 @@ Galaxy’s approach to reusability is comprehensive, integrating technical infra
 
 Galaxy is available under a small range of licenses:
 * Web contents of usegalaxy.eu are published as Creative Commons Zero v1.0 (CC0-v1.)
-* Work on the [codebase](https://github.com/galaxyproject/galaxy) contributed from 2021-04-07 onwards is licensed under the MIT License
-* Work on the [codebase](https://github.com/galaxyproject/galaxy) contributed before 2021-04-07 is licensed under the Academic Free License, v3.0
+* The [codebase](https://github.com/galaxyproject/galaxy) is licensed under the MIT License
 * Further details of underlying licenses: https://github.com/galaxyproject/galaxy/blob/dev/LICENSE.txt 
 * Every single tool (currently ~3000) has its own license, which is annotated as part of its conda package or container.
 
