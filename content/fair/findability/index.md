@@ -21,7 +21,7 @@ Galaxy’s findability features are very useful for non-technical users.  They c
 
 # Scope and User Base
 
-Galaxy’s findability mechanisms serve a diverse and global user base across the usegalaxy. instances* (US, EU, AU), which collectively support tens of thousands of registered users. These users come from multiple scientific domains, such as omics and climate science and include researchers, educators and data stewards. Many users lack a background in data-intensive methodologies but rely on Galaxy to develop, share, and execute workflows at scale.
+Galaxy’s findability mechanisms serve a diverse and global user base across the usegalaxy.* instances (US, EU, AU), which collectively support tens of thousands of registered users. These users come from multiple scientific domains, such as omics and climate science and include researchers, educators and data stewards. Many users lack a background in data-intensive methodologies but rely on Galaxy to develop, share, and execute workflows at scale.
 
 To support this community, Galaxy provides:
 
