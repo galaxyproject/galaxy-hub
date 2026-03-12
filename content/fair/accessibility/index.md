@@ -92,10 +92,10 @@ Galaxy’s use of Pulsar, a lightweight distributed job execution application, e
 ## Onboarding and Help Channels
 
 Galaxy’s accessibility is reinforced by community support and training resources:
-- Galaxy Training Network (GTN): provides interactive tutorials and FAIR training materials to help users get started.
+- [Galaxy Training Network (GTN)](https://training.galaxyproject.org): provides interactive tutorials and FAIR training materials to help users get started.
 - Help channels: users can access support via:
-    - Matrix chat (e.g., #galaxyproject:matrix.org).
-    - Help boards (e.g., help.galaxyproject.org).
+    - Matrix chat (e.g., [#galaxyproject:matrix.org](https://matrix.to/#/#galaxyproject:matrix.org)).
+    - Help boards (e.g., [help.galaxyproject.org](https://help.galaxyproject.org)).
     - Dedicated documentation and video tutorials.
 
 ## Outreach and Inclusivity
