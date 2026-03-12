@@ -7,7 +7,10 @@ test.describe('FAIR pages', () => {
 
     await expect(page.locator('[data-fair-card="findability"]')).toHaveAttribute('href', '/fair/findability/');
     await expect(page.locator('[data-fair-card="accessibility"]')).toHaveAttribute('href', '/fair/accessibility/');
-    await expect(page.locator('[data-fair-card="interoperability"]')).toHaveAttribute('href', '/fair/interoperability/');
+    await expect(page.locator('[data-fair-card="interoperability"]')).toHaveAttribute(
+      'href',
+      '/fair/interoperability/'
+    );
     await expect(page.locator('[data-fair-card="reusability"]')).toHaveAttribute('href', '/fair/reusability/');
   });
 
@@ -17,7 +20,10 @@ test.describe('FAIR pages', () => {
 
     await expect(page.getByRole('link', { name: 'FAIR overview' })).toHaveAttribute('href', '/fair/');
     await expect(page.locator('[data-fair-card="accessibility"]')).toHaveAttribute('href', '/fair/accessibility/');
-    await expect(page.locator('[data-fair-card="interoperability"]')).toHaveAttribute('href', '/fair/interoperability/');
+    await expect(page.locator('[data-fair-card="interoperability"]')).toHaveAttribute(
+      'href',
+      '/fair/interoperability/'
+    );
     await expect(page.locator('[data-fair-card="reusability"]')).toHaveAttribute('href', '/fair/reusability/');
 
     await page.locator('[data-fair-card="reusability"]').click();
