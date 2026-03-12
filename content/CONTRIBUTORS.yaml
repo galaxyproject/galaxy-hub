@@ -87,9 +87,10 @@ abretaud:
     fediverse_flavor: mastodon
     bluesky: abretaud.bsky.social
     affiliations:
-      - gallantries
-      - eurosciencegateway
       - elixir-europe
+    former_affiliations:
+      - eurosciencegateway
+      - gallantries
 
 abdullahkahraman:
     name: Abdullah Kahraman
@@ -99,7 +100,7 @@ abdullahkahraman:
 abdulrahmanazab:
     name: Abdulrahman Azab
     joined: 2019-01
-    affiliations:
+    former_affiliations:
       - eurosciencegateway
 
 abueg:
@@ -276,7 +277,6 @@ andrewr:
       - minnesotauni
     joined: 2024-05
 
-
 annahenger:
     name: Anna Henger
     github: false
@@ -339,7 +339,6 @@ anuprulez:
     elixir_node: de
     affiliations:
       - uni-freiburg
-      - eurosciencegateway
       - elixir-europe
       - materialvitaldigital
 
@@ -542,14 +541,15 @@ bgruening:
       country: DE
       lat: 47.997791
       lon: 7.842609
-    affiliations:
+    former_affiliations:
       - eurosciencegateway
       - eosc-life
       - by-covid
-      - deNBI
-      - mwk
       - sfb992
       - elixir-converge
+    affiliations:
+      - deNBI
+      - mwk
       - uni-freiburg
       - elixir-europe
       - materialvitaldigital
@@ -652,6 +652,7 @@ B0r1sD:
         lon: 3.723
     affiliations:
       - elixir-europe
+    former_affiliations:
       - eurosciencegateway
 
 CameronFRWatson:
@@ -1417,7 +1418,8 @@ dadrasarmin:
     contact_for_training: true
     affiliations:
         - uni-freiburg
-        - eurosciencegateway
+    former_affiliations:
+      - eurosciencegateway
     location:
         country: DE
         lat: 47.997791
@@ -1552,7 +1554,7 @@ elichad:
     email: eli.chadwick@manchester.ac.uk
     orcid: 0000-0002-0035-6475
     joined: 2022-11
-    affiliations:
+    former_affiliations:
       - eurosciencegateway
 
 elifsu-simula:
@@ -1578,10 +1580,10 @@ ElectronicBlueberry:
     joined: 2023-04
     elixir_node: de
     orcid: 0000-0002-2362-9720
-    affiliations:
+    former_affiliations:
+      - eurosciencegateway
       - uni-freiburg
       - elixir-europe
-      - eurosciencegateway
 
 angiolini:
     github: false
@@ -2483,6 +2485,7 @@ kysrpex:
     affiliations:
       - uni-freiburg
       - elixir-europe
+    former_affiliations:
       - eurosciencegateway
 
 Lain-inrae:
@@ -2514,7 +2517,7 @@ leandro-liborio:
     name: Leandro Liborio
     email: leandro.liborio@stfc.ac.uk
     joined: 2022-11
-    affiliations:
+    former_affiliations:
       - eurosciencegateway
 
 Laura190:
@@ -2588,7 +2591,7 @@ lopiola:
     name: Łukasz Opioła
     joined: 2025-03
     orcid: 0000-0003-1997-932X
-    affiliations:
+    former_affiliations:
       - eurosciencegateway
 
 LonsBio:
@@ -2715,6 +2718,7 @@ martenson:
     joined: 2017-09
     affiliations:
       - elixir-europe
+    former_affiliations:
       - eurosciencegateway
 
 MarenStillger:
@@ -2901,6 +2905,7 @@ mira-miracoli:
       - elixir-europe
       - deNBI
       - mwk
+    former_affiliations:
       - eurosciencegateway
 
 miRlyKayleigh:
@@ -3237,7 +3242,7 @@ patrick-austin:
     name: Patrick Austin
     email: patrick.austin@stfc.ac.uk
     joined: 2022-11
-    affiliations:
+    former_affiliations:
       - eurosciencegateway
 
 paulineauffret:
@@ -3259,8 +3264,9 @@ pauldg:
     affiliations:
       - by-covid
       - vib
-      - eurosciencegateway
       - elixir-europe
+    former_affiliations:
+      - eurosciencegateway
 
 paulocilasjr:
     name: Paulo Cilas Morais Lyra Junior
@@ -3473,8 +3479,9 @@ rlibouba:
     matrix: 'rlibouban:matrix.org'
     orcid: 0009-0001-4920-9951
     affiliations:
-      - eurosciencegateway
       - elixir-europe
+    former_affiliations:
+      - eurosciencegateway
 
 rwinand:
     name: Raf Winand
@@ -3512,6 +3519,9 @@ SaimMomin12:
     affiliations:
       - uni-freiburg
       - elixir-europe
+      - eosc-mesh
+      - bge
+    former_affiliations:
       - eurosciencegateway
 
 samanthaanjei:
@@ -3533,6 +3543,7 @@ sanjaysrikakulam:
     affiliations:
       - uni-freiburg
       - elixir-europe
+    former_affiliations:
       - eurosciencegateway
 
 santamccloud:
@@ -3752,6 +3763,7 @@ stain:
     affiliations:
       - by-covid
       - elixir-europe
+    former_affiliations:
       - eurosciencegateway
 
 StellaEggels:
@@ -3944,6 +3956,7 @@ torfinnnome:
     elixir_node: "no"
     affiliations:
       - elixir-europe
+    former_affiliations:
       - eurosciencegateway
 
 tseemann:
@@ -4112,9 +4125,10 @@ wm75:
       - by-covid
       - uni-freiburg
       - elixir-europe
-      - eurosciencegateway
       - deNBI
       - mwk
+    former_affiliations:
+      - eurosciencegateway
 
 wverastegui:
     name: Wudmir Rojas
