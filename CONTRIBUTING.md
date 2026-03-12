@@ -52,7 +52,9 @@ Events have additional fields:
 | `continent` | Two-letter code: AF, AS, AU, EU, GL, NA, SA          |
 | `location`  | Object with `name:` and optional `url:`              |
 | `contact`   | Event contact information                            |
-| `subsites`  | Array of subsites to display on, e.g. `[global, eu]` |
+| `subsites`  | Array of subsites to display on, e.g. `[all]` or `[eu]` |
+
+`all` and `global` are different. Use `all` to show a news item or event on every subsite feed. Use `global` for the root/global site only. A post tagged only with `global` will not appear on `/eu/`, `/fr/`, or other regional subsite feeds.
 
 ### Markdown
 
