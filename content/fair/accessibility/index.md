@@ -48,7 +48,7 @@ Galaxy’s file-sources and object stores enable access to:
 **Data Export: Sharing and Archiving**
 
 Users can export data to:
-- Standard repositories (e.g., ENA for nucleotide sequences).
+- Standard repositories with user-defined repositories via BYOD (Bring Your Own Data) across scientific disciplines, such as, ENA (genomics/omics), Zenodo (multi-domain/generalist), and RSpace (electronic lab notebooks and collaborative platforms)
 - Writable file sources (e.g., FTP, S3, WebDAV).
 
 **Object Stores: Scalable and User-Owned Storage**
