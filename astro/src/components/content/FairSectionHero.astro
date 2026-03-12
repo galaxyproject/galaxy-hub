@@ -1,0 +1,243 @@
+---
+interface FairSectionLink {
+  key: string;
+  slug: string;
+  href: string;
+  name: string;
+  letter: string;
+  summary: string;
+}
+
+interface Props {
+  sectionSlug: string;
+}
+
+const { sectionSlug } = Astro.props;
+
+const overviewHref = '/fair/';
+const sections: FairSectionLink[] = [
+  {
+    key: 'findability',
+    slug: 'fair/findability',
+    href: '/fair/findability/',
+    name: 'Findability',
+    letter: 'F',
+    summary: 'Persistent IDs, metadata, and discovery pathways.',
+  },
+  {
+    key: 'accessibility',
+    slug: 'fair/accessibility',
+    href: '/fair/accessibility/',
+    name: 'Accessibility',
+    letter: 'A',
+    summary: 'Open access paths, storage connectors, and inclusive entry points.',
+  },
+  {
+    key: 'interoperability',
+    slug: 'fair/interoperability',
+    href: '/fair/interoperability/',
+    name: 'Interoperability',
+    letter: 'I',
+    summary: 'Standards, APIs, and exchange formats across research systems.',
+  },
+  {
+    key: 'reusability',
+    slug: 'fair/reusability',
+    href: '/fair/reusability/',
+    name: 'Reusability',
+    letter: 'R',
+    summary: 'Provenance, workflow sharing, and reproducible execution.',
+  },
+];
+
+const backLink = sectionSlug !== 'fair' ? { href: overviewHref, label: 'FAIR overview' } : undefined;
+---
+
+<div class="fair-shell">
+  <div class="fair-layout">
+    <div id="fair-principles" class="fair-cards">
+      {
+        sections.map((section) => (
+          <a
+            href={section.href}
+            class:list={['fair-card', section.slug === sectionSlug && 'is-active']}
+            data-fair-card={section.key}
+            aria-current={section.slug === sectionSlug ? 'page' : undefined}
+          >
+            <span class="fair-card-title">
+              <span class="fair-letter">{section.letter}</span>
+              <span class="fair-word-fragment">{section.name.slice(1)}</span>
+            </span>
+            <span class="fair-card-text">{section.summary}</span>
+          </a>
+        ))
+      }
+    </div>
+        <div class="fair-copy">
+      <div class="fair-actions">
+        <a
+          href="https://training.galaxyproject.org/training-material/topics/fair/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="fair-button fair-button-primary"
+        >
+          FAIR training in GTN
+        </a>
+      </div>
+      {backLink && (
+        <a href={backLink.href} class="fair-back-link">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+          </svg>
+          {backLink.label}
+        </a>
+      )}
+    </div>
+  </div>
+</div>
+
+<style>
+  .fair-shell {
+    margin-top: 1.75rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.16);
+  }
+
+  .fair-layout {
+    display: grid;
+    gap: 1.5rem;
+    align-items: start;
+  }
+
+  .fair-actions {
+    display: flex;
+    gap: 0.875rem;
+    flex-wrap: wrap;
+    margin-top: 1.25rem;
+  }
+
+  .fair-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 2.75rem;
+    padding: 0.75rem 1.25rem;
+    border-radius: 0.5rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition:
+      transform 0.2s ease,
+      background-color 0.2s ease,
+      border-color 0.2s ease,
+      color 0.2s ease;
+  }
+
+  .fair-button:hover {
+    transform: translateY(-1px);
+  }
+
+  .fair-button-primary {
+    background: var(--color-galaxy-gold);
+    color: var(--color-galaxy-dark);
+    border: 1px solid var(--color-galaxy-gold);
+  }
+
+  .fair-button-primary:hover {
+    background: #ffe660;
+  }
+
+  .fair-back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.375rem;
+    margin-top: 1rem;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 0.875rem;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  .fair-back-link:hover {
+    color: var(--color-galaxy-gold);
+  }
+
+  .fair-cards {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    width: 100%;
+    gap: 0.875rem;
+  }
+
+  .fair-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+    padding: 0.85rem 0.95rem 0.95rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.03)),
+      rgba(255, 255, 255, 0.02);
+    color: white;
+    text-decoration: none;
+    transition:
+      transform 0.2s ease,
+      border-color 0.2s ease,
+      box-shadow 0.2s ease;
+  }
+
+  .fair-card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(255, 215, 0, 0.55);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
+  }
+
+  .fair-card.is-active {
+    background: linear-gradient(180deg, rgba(255, 215, 0, 0.98), rgba(255, 215, 0, 0.82));
+    border-color: rgba(255, 215, 0, 0.92);
+    color: var(--color-galaxy-dark);
+  }
+
+  .fair-card-title {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.12rem;
+    font-weight: 700;
+    line-height: 1;
+  }
+
+  .fair-letter {
+    flex-shrink: 0;
+    font-size: clamp(2.5rem, 4vw, 3.4rem);
+    font-weight: 800;
+    line-height: 0.86;
+  }
+
+  .fair-word-fragment {
+    padding-top: 0.42rem;
+    font-size: 0.98rem;
+    letter-spacing: 0.02em;
+  }
+
+  .fair-card-text {
+    color: inherit;
+    font-size: 0.95rem;
+    line-height: 1.45;
+    opacity: 0.92;
+  }
+
+  @media (max-width: 960px) {
+    .fair-cards {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 560px) {
+    .fair-cards {
+      grid-template-columns: 1fr;
+      width: min(100%, 16rem);
+      justify-self: center;
+    }
+  }
+</style>

@@ -1,6 +1,7 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import PageHeader from '../components/layout/PageHeader.astro';
+import FairSectionHero from '../components/content/FairSectionHero.astro';
 import SupporterGrid from '../components/content/SupporterGrid.astro';
 import type { SupporterProfile } from '../utils/supporters';
 import ContentWithToc from '../components/layout/ContentWithToc.astro';
@@ -27,6 +28,7 @@ interface Props {
   };
   supporters?: SupporterProfile[];
   sourceFile?: string;
+  fairSection?: string;
 }
 
 const {
@@ -41,6 +43,7 @@ const {
   headings = [],
   supporters: supportersRaw = [],
   sourceFile,
+  fairSection,
 } = Astro.props;
 
 const editUrl = sourceFile ? `https://github.com/galaxyproject/galaxy-hub/edit/main/content/${sourceFile}` : undefined;
@@ -57,7 +60,13 @@ const hasMetadata =
 
 <BaseLayout title={title} description={description}>
   <article class="max-w-6xl mx-auto bg-white relative">
-    {hasMetadata && <PageHeader title={title} description={description} date={date} authors={authors} tags={tags} />}
+    {
+      hasMetadata && (
+        <PageHeader title={title} description={description} date={date} authors={authors} tags={tags}>
+          {fairSection && <FairSectionHero sectionSlug={fairSection} />}
+        </PageHeader>
+      )
+    }
 
     {
       image && (
