@@ -104,6 +104,48 @@ test('Does not redirect /learn/api/extra', () => {
   assert.strictEqual(result.statusCode, undefined);
 });
 
+// Slug normalization tests
+
+// Test 9: letter→digit boundary (gcc2026 → gcc-2026)
+test('Redirects /events/gcc2026/ to /events/gcc-2026/', () => {
+  const event = createEvent('/events/gcc2026/');
+  const result = handler(event);
+  assert.strictEqual(result.statusCode, 302);
+  assert.strictEqual(result.headers.location.value, '/events/gcc-2026/');
+});
+
+// Test 10: subpage of unnormalized slug also redirects
+test('Redirects /events/gcc2026/abstracts/ to /events/gcc-2026/abstracts/', () => {
+  const event = createEvent('/events/gcc2026/abstracts/');
+  const result = handler(event);
+  assert.strictEqual(result.statusCode, 302);
+  assert.strictEqual(result.headers.location.value, '/events/gcc-2026/abstracts/');
+});
+
+// Test 11: already-normalized slug passes through (no redirect loop)
+test('Passes through /events/gcc-2026/ unchanged', () => {
+  const event = createEvent('/events/gcc-2026/');
+  const result = handler(event);
+  assert.strictEqual(result.uri, '/events/gcc-2026/');
+  assert.strictEqual(result.statusCode, undefined);
+});
+
+// Test 12: date-prefixed segment passes through unchanged
+test('Passes through date-prefixed segment /events/2024-01-12-PAGconf/ unchanged', () => {
+  const event = createEvent('/events/2024-01-12-PAGconf/');
+  const result = handler(event);
+  assert.strictEqual(result.uri, '/events/2024-01-12-PAGconf/');
+  assert.strictEqual(result.statusCode, undefined);
+});
+
+// Test 13: camelCase segment normalizes
+test('Redirects /use/GalaxyProject/ to /use/galaxy-project/', () => {
+  const event = createEvent('/use/GalaxyProject/');
+  const result = handler(event);
+  assert.strictEqual(result.statusCode, 302);
+  assert.strictEqual(result.headers.location.value, '/use/galaxy-project/');
+});
+
 // Summary
 console.log(`\n${passed} passed, ${failed} failed`);
 
