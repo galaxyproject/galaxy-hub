@@ -55,7 +55,7 @@ Users can export data to:
 
 Galaxy’s object stores allow for flexible storage solutions:
 - Institution-funded storage (e.g., de.NBI-cloud for European users).
-- User-owned storage (e.g., AWS, GCS, S3, iRODS), which can be integrated into Galaxy instances.
+- User-owned storage (e.g., AWS, GCS, S3, iRODS, Dropbox, and Google Drive), which can be integrated into Galaxy instances.
 
 # Tool Accessibility: Usable, Annotated, and Validated
 ## A Rich Ecosystem of Accessible Tools
