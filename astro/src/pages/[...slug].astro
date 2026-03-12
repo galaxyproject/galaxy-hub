@@ -35,7 +35,8 @@ export async function getStaticPaths() {
 const { article } = Astro.props;
 const { Content, headings } = await render(article);
 const sourceFile = article.data.sourceFile || `${article.data.slug}/index.md`;
-const fairSection = article.data.slug === 'fair' || article.data.slug.startsWith('fair/') ? article.data.slug : undefined;
+const fairSection =
+  article.data.slug === 'fair' || article.data.slug.startsWith('fair/') ? article.data.slug : undefined;
 
 const { title, date, authors = [], tags = [], tease, image, autotoc } = article.data;
 

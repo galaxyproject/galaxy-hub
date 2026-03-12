@@ -73,7 +73,7 @@ const backLink = sectionSlug !== 'fair' ? { href: overviewHref, label: 'FAIR ove
         ))
       }
     </div>
-        <div class="fair-copy">
+    <div class="fair-copy">
       <div class="fair-actions">
         <a
           href="https://training.galaxyproject.org/training-material/topics/fair/"
@@ -84,14 +84,16 @@ const backLink = sectionSlug !== 'fair' ? { href: overviewHref, label: 'FAIR ove
           FAIR training in GTN
         </a>
       </div>
-      {backLink && (
-        <a href={backLink.href} class="fair-back-link">
-          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
-          </svg>
-          {backLink.label}
-        </a>
-      )}
+      {
+        backLink && (
+          <a href={backLink.href} class="fair-back-link">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+            </svg>
+            {backLink.label}
+          </a>
+        )
+      }
     </div>
   </div>
 </div>
@@ -177,8 +179,7 @@ const backLink = sectionSlug !== 'fair' ? { href: overviewHref, label: 'FAIR ove
     border-radius: 1rem;
     border: 1px solid rgba(255, 255, 255, 0.14);
     background:
-      linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.03)),
-      rgba(255, 255, 255, 0.02);
+      linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.03)), rgba(255, 255, 255, 0.02);
     color: white;
     text-decoration: none;
     transition:
