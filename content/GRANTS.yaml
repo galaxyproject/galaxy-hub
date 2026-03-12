@@ -400,4 +400,14 @@ materialvitaldigital:
     url: https://www.materialdigital.de/
     github: false
 
-
+eosc-mesh:
+    name: EOSC-Mesh
+    short_name: "EOSC-Mesh"
+    joined: 2026-09
+    funding_id: "101292826"
+    funding_database: cordis
+    funder_name: Horizon Europe
+    #url: https://eosc-mesh.eu/ # No website yet
+    github: false
+    funding_statement: |
+      EOSC-Mesh is funded under HORIZON-INFRA-2025-01-EOSC-01 to expand EOSC capacity and capabilities by establishing and enrolling seven federating Nodes interoperable with the EOSC EU Node.
