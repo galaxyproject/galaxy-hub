@@ -1,12 +1,10 @@
 ---
 title: Galaxy and Findability
-highlight: true
+tease: | 
+    Galaxy combines human-friendly interfaces with machine-readable metadata, standard APIs, portable tool execution,
+    and community training. That makes FAIR usable both for researchers working interactively and for systems integrating
+    Galaxy programmatically across larger digital research ecosystems.
 ---
-
-Galaxy as both a project and a platform facilitates FAIR research, addressing common needs, invoking available standards and contributing to several upstream projects. 
-
-<div class="float-right" style="max-width: 200px"><img src="/images/logos/ELIXIR_RIR_Logo.png" alt="ELIXIR RIR logo"/></div>
-<br />
 
 Galaxy is an open-source platform for scientific data analysis and sharing. It operationalises the FAIR “F” principle (Findability) through a combination of technical, organisational, and community-driven measures. These ensure that tools, workflows, datasets, and other research objects are easy to find and access by users and machines.
 This page highlights Galaxy’s findability mechanisms, their alignment with Research Data Management (RDM) principles, and their integration with interoperability frameworks such as those promoted by ELIXIR, GA4GH, and EOSC.

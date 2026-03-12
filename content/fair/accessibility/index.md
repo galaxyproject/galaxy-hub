@@ -1,12 +1,10 @@
 ---
 title: Galaxy and Accessibility
-highlight: true
+tease: | 
+    Galaxy combines human-friendly interfaces with machine-readable metadata, standard APIs, portable tool execution,
+    and community training. That makes FAIR usable both for researchers working interactively and for systems integrating
+    Galaxy programmatically across larger digital research ecosystems.
 ---
-
-Galaxy as both a project and a platform facilitates FAIR research, addressing common needs, invoking available standards and contributing to several upstream projects. 
-
-<div class="float-right" style="max-width: 200px"><img src="/images/logos/ELIXIR_RIR_Logo.png" alt="ELIXIR RIR logo"/></div>
-<br />
 
 Galaxy embodies the FAIR “A” principle (Accessibility) by providing an open, inclusive, and technically robust platform that ensures research tools, workflows, and data are available, usable, and adaptable to a diverse global user base. Accessibility in Galaxy is not limited to technical access, it encompasses open-source design, flexible authentication, multi-modal interfaces, distributed computing, and data integration with standard repositories and cloud infrastructures.
 Galaxy’s architecture is based on community-driven initiatives and integration with global standards and services. This page highlights how this architecture allows to lower barriers to entry for researchers, educators, and data stewards, regardless of their technical expertise or institutional affiliation.
