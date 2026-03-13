@@ -1,5 +1,4 @@
 ---
-autotoc: true
 redirect: "/learn"
 components: true
 ---

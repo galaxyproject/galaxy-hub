@@ -1,6 +1,5 @@
 ---
 description: "This community is for you: a space for researchers and developers to extract quantitative information from images through scalable and reusable workflows." 
-autotoc: true
 title: "Image Analysis Community in Galaxy"
 ---
 
