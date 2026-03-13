@@ -6,7 +6,6 @@ date: '2025-12-02'
 tags:
 - news
 - nfdi
-- dataplant
 - community
 - workshop
 - rdm
@@ -24,5 +23,7 @@ tease: Freiburg Galaxy team recently joined experts in Göttingen for the 1st Op
 contributions:
   authorship:
     - dadrasarmin
+  funding:
+    - nfdi4plants
 ---
 Freiburg Galaxy team recently joined experts in Göttingen for the 1st Open Architecture Workshop to help shape the future technical foundations of the National Research Data Infrastructure (NFDI). The team presented their cloud-oriented architecture and shared critical insights from the PLANT DataHUB regarding scalable storage and the "Software as a Service" approach. Read the full report to discover how collaborative efforts and common building blocks, such as ARC RO-crates, are driving the development of a robust and interoperable data ecosystem.
