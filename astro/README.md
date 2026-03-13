@@ -63,6 +63,33 @@ Since MDX files are parsed as JSX, a few things that work in plain markdown will
 
 These only matter in files with `components: true`. Plain markdown files are unaffected.
 
+## Content Frontmatter
+
+Common frontmatter fields for content pages:
+
+```yaml
+---
+title: "Page Title"
+date: 2024-01-15
+authors: [alice, bob]
+tags: [tools, workflows]
+autotoc: false          # opt out of table of contents (default: true)
+components: true        # enable MDX component rendering
+---
+```
+
+### Table of Contents
+
+A table of contents sidebar is automatically generated for any page with 2+ headings (h2–h4). To disable it on a specific page, set `autotoc: false` in frontmatter.
+
+### Heading Levels
+
+Use `##` (h2) as the top-level heading in content — the page title is rendered as h1 by the layout. During preprocessing, pages with multiple `#` (h1) headings are automatically shifted down one level (h1→h2, h2→h3, etc.) to maintain a proper hierarchy.
+
+### Link Styling
+
+Links in prose content have a subtle underline by default (40% opacity) that becomes fully visible on hover. This applies within `.prose` areas only — navigation, buttons, and heading anchors are unaffected.
+
 ## Build Pipeline
 
 Content preprocessing (`src/build/preprocess.mjs`) reads from `/content/` and writes to `src/content/`:
