@@ -124,7 +124,12 @@ const carouselSlides = [
     </section>
 
     <!-- JXTX Foundation CTA -->
-    <section class="bg-galaxy-dark rounded-lg p-6 mb-8 text-white flex flex-col sm:flex-row items-start sm:items-center gap-4">
+    <section class="bg-galaxy-dark rounded-lg p-6 mb-8 text-white flex flex-col sm:flex-row items-center gap-4">
+      <img
+        src="/images/usegalaxy-welcome/jxtx_shoes.png"
+        alt="JXTX galaxy sneakers"
+        class="w-20 h-20 object-contain shrink-0"
+      />
       <div class="flex-1">
         <p class="font-bold text-lg mb-1">James P. Taylor Foundation for Open Science</p>
         <p class="text-white/70 text-sm m-0 italic">"The most important job of senior faculty is to mentor junior faculty and students."</p>
@@ -316,8 +321,8 @@ const carouselSlides = [
         const carousel = document.getElementById('welcome-carousel');
         if (!carousel) return;
 
-        const slides = carousel.querySelectorAll('.carousel-slide') as NodeListOf<HTMLElement>;
-        const indicators = document.querySelectorAll('.carousel-indicator') as NodeListOf<HTMLElement>;
+        const slides = /** @type {NodeListOf<HTMLElement>} */ (carousel.querySelectorAll('.carousel-slide'));
+        const indicators = /** @type {NodeListOf<HTMLElement>} */ (document.querySelectorAll('.carousel-indicator'));
         const prevBtn = document.getElementById('prev-btn');
         const nextBtn = document.getElementById('next-btn');
 
