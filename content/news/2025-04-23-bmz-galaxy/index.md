@@ -9,7 +9,7 @@ subsites: [all-eu,all,global]
 main_subsite: eu
 contributions:
   funding:
-    - nfdi4bioimaging
+    - nfdi4bioimage
 ---
 
 A new Galaxy integration enables researchers to access AI models from the [BioImage Model Zoo (BioImage.IO)](https://bioimage.io/#/).
