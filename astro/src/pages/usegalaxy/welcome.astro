@@ -388,7 +388,9 @@ const carouselSlides = [
         startAutoPlay();
       }
 
+      // astro:page-load for ViewTransitions, DOMContentLoaded as fallback for standalone pages
       document.addEventListener('astro:page-load', initWelcomeCarousel);
+      document.addEventListener('DOMContentLoaded', initWelcomeCarousel);
 
       document.addEventListener('astro:before-swap', () => {
         if (welcomeCarouselInterval) {
