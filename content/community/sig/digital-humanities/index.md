@@ -1,6 +1,5 @@
 ---
 description: "Analyse your texts, images or media content with Galaxy!"
-autotoc: true
 title: "Digital Humanities and Social Sciences in Galaxy"
 ---
 

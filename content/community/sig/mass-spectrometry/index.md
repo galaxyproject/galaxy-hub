@@ -1,6 +1,5 @@
 ---
 description: "Users, developers, and trainers providing feedback and energy to improve and expand the Galaxy mass spectrometry capabilities."
-autotoc: true
 title: "Galaxy Mass Spectrometry Community (GMSC)"
 components: true
 ---

@@ -1,6 +1,5 @@
 ---
 description: "Users, developers, and trainers providing feedback and energy to improve and expand Computational Chemistry."
-autotoc: true
 title: "Galaxy Computational Chemistry Community of Practice"
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: "Galaxy Tool Developers (SIG)"
 description: "A community of practice for developers creating and maintaining Galaxy tools. This SIG focuses on improving the quality, sustainability, and consistency of Galaxy tool development through shared best practices, mentoring, code review, and collaboration across repositories and scientific domains."
-autotoc: true
 ---
 
 <slot name="/community/sig/common_linkbox" />

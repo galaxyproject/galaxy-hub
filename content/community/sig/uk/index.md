@@ -1,6 +1,5 @@
 ---
 description: "Users, developers, admins and trainers of Galaxy living in the United Kingdom"
-autotoc: true
 title: "Galaxy UK Special Interest Group"
 ---
 
