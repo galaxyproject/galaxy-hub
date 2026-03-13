@@ -1,5 +1,4 @@
 ---
-autotoc: true
 ---
 
 # GCC2026 Daily Schedule

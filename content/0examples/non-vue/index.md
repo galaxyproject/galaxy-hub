@@ -26,7 +26,6 @@ source_blog_url: "https://blogs.nature.com/naturejobs/"
 source_blog: "Naturejobs Blog"
 tags: [ cofest ]
 draft: false
-autotoc: true
 gtn: false
 skip_title_render: false
 image: /images/icons/GL.png

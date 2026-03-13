@@ -1,6 +1,5 @@
 ---
 description: "Explore microbiological data analysis in Galaxy. Whether you're working with microbiome samples, bacterial isolates, or multi-omics datasets, the microGalaxy community is for you!"
-autotoc: true
 title: "Microbiological Data Analysis in Galaxy"
 ---
 
