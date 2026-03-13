@@ -11,7 +11,7 @@ contributions:
   authorship:
     - mira-miracoli
   funding:
-    - dekcd
+    - deKCD
 ---
 
 <img src="sanbi.jpg" alt="Workshop's participants standing in front of a monitor showing the two online participants" hight="300" />

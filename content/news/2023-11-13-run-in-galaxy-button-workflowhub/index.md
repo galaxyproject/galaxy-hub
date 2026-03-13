@@ -5,7 +5,7 @@ tease: "Find solutions and templates in WorkflowHub, immediately import to Galax
 hide_tease: false
 subsites: [all-eu, esg]
 main_subsite: eu
-tags: [eosc, workflows, workflowhub, repository, catalog, import, ro-crate, esg, esg-wp2]
+tags: [eosc, workflow, workflowhub, repository, catalog, import, ro-crate, esg, esg-wp2]
 contributions:
   authorship:
     - sebastian-schaaf
