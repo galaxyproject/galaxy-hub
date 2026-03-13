@@ -201,14 +201,28 @@ body {
   padding-bottom: 0.5rem;
 }
 
+.prose h3 {
+  margin-top: 2em;
+}
+
 .prose a {
   color: var(--tw-prose-links);
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--tw-prose-links) 40%, transparent);
+  text-underline-offset: 2px;
+  transition:
+    text-decoration-color 0.15s ease-in-out,
+    color 0.15s ease-in-out;
 }
 
 .prose a:hover {
   color: #ffd700;
   text-decoration: underline;
+  text-decoration-color: #ffd700;
+}
+
+.prose a:has(> img) {
+  text-decoration: none;
 }
 
 .prose code:not(pre code) {
