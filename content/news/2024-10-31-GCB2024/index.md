@@ -3,7 +3,7 @@ title: "Engaging, Learning, and Sharing at the German Conference of Bioinformati
 tease: "A recap of our Galaxy team's experience at GCB 2024, featuring insightful talks, interactive poster sessions, hands-on workshops, and memorable social events!"
 date: '2024-10-30'
 subsites: [all-eu, global, us]
-tags: [GCB-2024, Bielefeld]
+tags: [gcb-2024, Bielefeld]
 main_subsite: eu
 contributions:
   authorship:

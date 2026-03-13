@@ -1,7 +1,7 @@
 ---
 title: Galaxy Europe Branding Material
 date: '2020-09-06'
-tags: [FAQ]
+tags: [faq]
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
@@ -19,4 +19,3 @@ And of course, feel free to use and/or adapt these resources to promote your inf
 Thank you for using Galaxy!
 
 <a href="https://github.com/usegalaxy-eu/branding" target="_blank">![Factsheet](/assets/media/fact_sheet.jpg)</a>
-

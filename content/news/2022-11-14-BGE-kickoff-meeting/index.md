@@ -3,7 +3,7 @@ title: BGE - Kickoff meeting
 date: "2022-11-14"
 tease: "The BGE project kick-off meeting was celebrated between November 14th and November 18th in Leiden."
 hide_tease: false
-tags: [BGE, biodiversity, project]
+tags: [biodiversity, project]
 subsites: [all-eu, esg]
 main_subsite: eu
 contributions:
@@ -12,6 +12,7 @@ contributions:
     - eurosciencegateway
     - uni-freiburg
     - elixir-europe
+    - bge
 ---
 
 From November 14 to November 18, the Naturalis Biodiversity Center in Leiden played host to an extraordinary event—the kick-off meeting of the Biodiversity Genome Europe (BGE) project. This momentous gathering brought together leading scientists, researchers, and conservationists from across Europe, marking the beginning of an ambitious initiative focused on unraveling the mysteries of biodiversity through genomics.

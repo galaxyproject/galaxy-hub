@@ -2,7 +2,7 @@
 title: Massively Multiplayer Online Science in Galaxy to help Ecologists - A Citizen
   Science Project
 date: '2020-01-07'
-tags: [MMOS, devops, society, community]
+tags: [mmos, devops, society, community]
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:
@@ -69,4 +69,3 @@ If you want to read more about crowdsourcing citizen science data on UseGalaxy.e
 <div class="multiple-img">
     <iframe width="750" height="315" src="https://www.youtube.com/embed/U6mu3QrK9Ao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-

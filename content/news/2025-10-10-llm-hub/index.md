@@ -4,7 +4,7 @@ date: '2025-10-10'
 tease: "Access powerful Large Language Models in Galaxy easily"
 hide_tease: false
 subsites: [global,eu,us,freiburg]
-tags: [tools,AI,LLM]
+tags: [tools, ai, llm]
 contributions:
   authorship:
     - arash77
