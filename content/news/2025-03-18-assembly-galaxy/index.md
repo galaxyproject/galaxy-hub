@@ -3,7 +3,7 @@ title: "Galaxy’s contributions to Genome Assembly and Annotation: Advancing Ge
 date: "2025-03-18"
 tease: "Know how Galaxy is contributing towards Genome Assembly and Annotation with cutting-edge tools, global biodiversity projects, and training initiatives"
 subsites: [global,eu,us,freiburg,esg]
-tags: [esg, esg-wp5, tiaas, BGE, biodiversity, project, erga, tools, training, workflows]
+tags: [esg, esg-wp5, tiaas, biodiversity, project, erga, tools, training, workflow]
 contributions:
   authorship:
     - SaimMomin12

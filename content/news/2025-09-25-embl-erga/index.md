@@ -11,7 +11,6 @@ tags:
 - workflowhub
 - gtn-news
 - gtn
-- bge
 - erga
 - tools
 title: Galaxy joins hands with ERGA at the EMBO course for genome sequencing, assembly, curation, and downstream analyses
