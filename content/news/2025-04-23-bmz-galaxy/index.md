@@ -3,10 +3,13 @@ title: 'The BioImage Model Zoo meets the Galaxy platform'
 date: "2025-04-23"
 tease: "New tool to run AI models for image analysis"
 tags:
-- nfdi4bioimaging
+- nfdi
 - imaging
 subsites: [all-eu,all,global]
 main_subsite: eu
+contributions:
+  funding:
+    - nfdi4bioimaging
 ---
 
 A new Galaxy integration enables researchers to access AI models from the [BioImage Model Zoo (BioImage.IO)](https://bioimage.io/#/).
