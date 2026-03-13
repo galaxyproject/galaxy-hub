@@ -1,7 +1,7 @@
 ---
 title: GCC registration is open and abstracts can be submitted until Friday
 date: '2019-04-24'
-tags: [training, GCC]
+tags: [training, gcc]
 location:
   name: Galaxy Europe
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]

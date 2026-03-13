@@ -2,7 +2,7 @@
 title: 'We are striking!'
 date: '2025-09-20'
 tease: 'usegalaxy.eu closes job-queue on September 20th to support climate strike'
-tags: [Freiburg, s4f, society]
+tags: [freiburg, s4f, society]
 subsites: [all-eu, freiburg]
 main_subsite: eu
 ---

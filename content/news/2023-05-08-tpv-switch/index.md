@@ -3,7 +3,7 @@ title: "Replacing the Job Router with Zero Downtime on EU"
 date: "2023-05-08"
 tease: "Mothballing the Sorting Hat – how we migrated our dynamic job routing"
 hide_tease: false
-tags: [EU]
+tags: [eu]
 subsites: [all-eu]
 main_subsite: eu
 contributions:

@@ -2,7 +2,7 @@
 title: WirVsVirus Hackathon
 date: '2020-03-19'
 tease: March 20-22
-tags: [COVID-19, hackathon]
+tags: [covid-19, hackathon]
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
 ---

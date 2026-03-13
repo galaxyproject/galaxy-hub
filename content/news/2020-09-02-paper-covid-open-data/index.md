@@ -1,9 +1,8 @@
 ---
-title: 'New Paper "No more business as usual: Agile and effective responses to emerging
-  pathogen threats require open data and open analytics"'
+title: 'New Paper "No more business as usual: Agile and effective responses to emerging pathogen threats require open data and open analytics"'
 date: '2020-09-02'
 doi: 10.1371/journal.ppat.1008643
-tags: [paper, COVID-19, data]
+tags: [paper, covid-19, data]
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

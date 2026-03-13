@@ -1,11 +1,11 @@
 ---
 title: NFDI4BIOIMAGE All-Hands Meeting 2025
-date: '2025-02-04' 
+date: '2025-02-04'
 end: '2025-02-06'
 location:
   name: "Düsseldorf - Haus der Universität"
 contact: "Christian Schmidt, Mira Kubitz, Ksenia Krooß"
-tags: [Conference, talk, nfdi, bioimaging, meeting]
+tags: [conference, talk, nfdi, bioimaging, meeting]
 subsites: [eu, freiburg]
 contributions:
   funding:

@@ -1,7 +1,7 @@
 ---
 title: GCCBOSC
 date: '2018-07-18'
-tags: [training, GCC]
+tags: [training, gcc]
 location:
   name: Portland, USA
 subsites: [eu, freiburg]

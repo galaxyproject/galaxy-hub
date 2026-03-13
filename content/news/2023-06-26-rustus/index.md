@@ -3,7 +3,7 @@ title: "Upscaling file uploads with rustus"
 date: "2023-06-28"
 tease: "Migrating the server software behind our file upload system"
 hide_tease: false
-tags: [EU]
+tags: [eu]
 subsites: [all-eu]
 main_subsite: eu
 contributions:

@@ -1,7 +1,7 @@
 ---
 title: Freiburg Galaxy Team at the Galaxy Community Conference 2021
 date: '2021-07-21'
-tags: [GCC]
+tags: [gcc]
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

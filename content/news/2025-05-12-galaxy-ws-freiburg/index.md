@@ -6,11 +6,11 @@ date: '2025-05-12'
 tags:
 - eu
 - news
-- Galaxy
-- Workshop
+- galaxy
+- workshop
 - gtn-news
 - training
-- GTN
+- gtn
 title: Register for our free Galaxy Workshop in Freiburg on Metagenomics and RNA-Seq
 external_url: https://training.galaxyproject.org/training-material/news/2025/05/12/Galaxy_WS_Freiburg.html
 tease: Join us for a week of Training about Metagenomics and RNA-Seq in Freiburg

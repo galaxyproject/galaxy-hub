@@ -3,8 +3,8 @@ title: "Accessibility in Galaxy 23.0 and beyond"
 tease: "Accessibility improvement Highlights for the upcoming 23.0 release, and a few words on accessibility in general"
 hide_tease: false
 date: "2023-01-20"
-tags: ["UI/UX", "accessibility", "highlight", esg]
-subsites: [global,all,esg,eu]
+tags: ["ui-ux", "accessibility", "highlight", esg]
+subsites: [global, all, esg, eu]
 contributions:
   authorship:
     - ElectronicBlueberry

@@ -3,7 +3,7 @@ title: 'Viral pathogen data analysis beyond BY-COVID'
 date: '2024-09-16'
 tease: "A look back at the BY-COVID project and ahead to upcoming developments"
 subsites: [global, eu, freiburg]
-tags: [COVID-19, virology, community]
+tags: [covid-19, virology, community]
 contributions:
   authorship:
     - wm75

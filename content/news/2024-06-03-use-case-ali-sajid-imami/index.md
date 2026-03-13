@@ -1,7 +1,7 @@
 ---
 title: 'UseGalaxy.eu Use Case: Translational Research and Precision Medicine'
 date: '2024-06-03'
-tags: [UseCase]
+tags: [usecase]
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

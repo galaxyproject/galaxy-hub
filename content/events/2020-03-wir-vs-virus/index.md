@@ -9,13 +9,12 @@ location:
 external_url: "https://galaxyproject.eu/posts/2020/03/19/wirvsvirus/"
 gtn: true
 contact: "Organizers"
-tags: [ cofest, COVID-19, hackathon ]
+tags: [cofest, covid-19, hackathon]
 subsites: [global, us, freiburg]
 main_subsite: freiburg
 contributions:
   funding:
     - deNBI
-
 ---
 
 We want to encourage you to participate and join the fight against COVID-19.

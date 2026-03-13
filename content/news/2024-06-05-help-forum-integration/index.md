@@ -3,7 +3,7 @@ title: "Help Forum Posts in the Tool Form"
 tease: "Galaxy's Help Forum is now integrated into the Tool Form. View relevant solved questions, or ask a new question from within Galaxy."
 hide-tease: false
 date: "2024-06-05"
-tags: ["UI/UX", "highlight"]
+tags: ["ui-ux", "highlight"]
 subsites: [global]
 contributions:
   authorship:

@@ -3,7 +3,7 @@ title: "Coordination meeting of EOSC-related projects funded under Horizon Europ
 date: "2023-06-16"
 tease: "Members of the EuroScienceGateway project attended the EOSC Coordination meeting in Brussels"
 hide_tease: false
-tags: [EU, esg, esg-wp1, eosc]
+tags: [eu, esg, esg-wp1, eosc]
 subsites: [all-eu, global, esg]
 main_subsite: eu
 contributions:

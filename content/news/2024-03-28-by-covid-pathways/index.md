@@ -8,11 +8,14 @@ tags:
 - training
 - gtn-news
 - news
-- by-covid
 - pathways
 - minerva
 - gtn infrastructure
 - new feature
+contributions:
+  funding:
+    - eu
+    - by-covid
 tease: "As part of the work of BeYond COVID, we have developed a new integration between\
   \ the MINERVA Platform\u2019s COVID-19 Disease Map and Galaxy! Datasets created\
   \ within Galaxy can now be seamlessly visualized in the MINERVA Platform, allowing\
