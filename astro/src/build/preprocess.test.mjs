@@ -7,6 +7,7 @@ import {
   resolveInsertContent,
   insertCache,
   generateTease,
+  shiftHeadings,
   preprocessContent,
 } from './preprocess.mjs';
 
@@ -231,6 +232,33 @@ describe('inlineInserts', () => {
     const content = '# Hello\n\nNo slots here.';
     const { content: result } = inlineInserts(content);
     expect(result).toBe(content);
+  });
+});
+
+describe('shiftHeadings', () => {
+  it('shifts all headings down by one when multiple h1s exist', () => {
+    const content = '# First\n\nSome text\n\n# Second\n\n## Sub';
+    expect(shiftHeadings(content)).toBe('## First\n\nSome text\n\n## Second\n\n### Sub');
+  });
+
+  it('leaves content unchanged when only one h1', () => {
+    const content = '# Title\n\n## Section\n\n### Sub';
+    expect(shiftHeadings(content)).toBe(content);
+  });
+
+  it('leaves content unchanged when no h1s', () => {
+    const content = '## Section\n\n### Sub';
+    expect(shiftHeadings(content)).toBe(content);
+  });
+
+  it('caps at h6', () => {
+    const content = '# A\n\n# B\n\n###### Deep';
+    expect(shiftHeadings(content)).toBe('## A\n\n## B\n\n###### Deep');
+  });
+
+  it('shifts h5 to h6', () => {
+    const content = '# A\n\n# B\n\n##### Five';
+    expect(shiftHeadings(content)).toBe('## A\n\n## B\n\n###### Five');
   });
 });
 
