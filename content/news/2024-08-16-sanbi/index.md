@@ -3,13 +3,15 @@ title: "Sysadmin Curriculum Planning"
 date: "2024-08-16"
 tease: "Workshop on filling the sysadmin skills gap to support public health bioinformatics & genomic epidemiology in Africa"
 hide_tease: false
-tags: [deKCD, admin, infrastructure, africa]
+tags: [admin, infrastructure, africa]
 contact: "kuntzm@informatik.uni-freiburg.de"
 subsites: [eu, freiburg]
 main_subsite: eu
 contributions:
   authorship:
     - mira-miracoli
+  funding:
+    - dekcd
 ---
 
 <img src="sanbi.jpg" alt="Workshop's participants standing in front of a monitor showing the two online participants" hight="300" />
