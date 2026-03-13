@@ -1,7 +1,7 @@
 ---
 title: Galaxy Europe Branding Material
 date: '2020-09-06'
-tags: [galaxy, FAQ]
+tags: [FAQ]
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

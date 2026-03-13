@@ -1,7 +1,7 @@
 ---
 title: UseGalaxy.eu update to 21.05
 date: '2021-06-11'
-tags: [galaxy, release]
+tags: [release]
 external_url: https://docs.galaxyproject.org/en/release_21.05/releases/21.05_announce_user.html
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu

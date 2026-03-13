@@ -2,7 +2,7 @@
 title: "From Functional Nucleic Acids to Galaxy Training: Reflections on My Research Stay in Freiburg"
 date: "2025-10-20"
 tease: "Collaboration and innovation with the Galaxy Europe team"
-tags: [gtn, galaxy, training, imaging, RNA, dnazyme, cleaveRNA, outreach]
+tags: [gtn, training, imaging, RNA, dnazyme, cleaveRNA, outreach]
 subsites: [all]
 main_subsite: eu
 contributions:

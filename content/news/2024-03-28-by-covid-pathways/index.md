@@ -10,7 +10,7 @@ tags:
 - news
 - pathways
 - minerva
-- gtn infrastructure
+- gtn
 - new feature
 contributions:
   funding:

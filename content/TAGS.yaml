@@ -39,7 +39,6 @@
 - birthday
 - brc-analytics
 - bug
-- by-covid
 - catalog
 - cca
 - citations
@@ -62,8 +61,6 @@
 - datacommons
 - dataplant
 - dataverse
-- de.nbi
-- deKCD
 - deep-learning
 - demo
 - deploying
@@ -95,7 +92,6 @@
 - esg-wp4
 - esg-wp5
 - eu
-- eurobioimaging
 - event
 - fair
 - fairymags
@@ -103,7 +99,6 @@
 - federation
 - fiesta
 - freiburg
-- galaxy
 - gat
 - gcb
 - gcc
@@ -112,7 +107,6 @@
 - gmn
 - grants
 - gtn
-- gtn infrastructure
 - gtn-news
 - hackathon
 - hardware
@@ -156,8 +150,6 @@
 - news
 - newsletter
 - nfdi
-- nfdi4bioimaging
-- nfdi4plants
 - nlp
 - omics
 - onedata

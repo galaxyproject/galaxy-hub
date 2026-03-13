@@ -10,7 +10,7 @@ tags:
 - news
 - community
 - automation
-- gtn infrastructure
+- gtn
 - new feature
 title: 'Credit where it’s due: GTN Reviewers in the spotlight'
 external_url: https://training.galaxyproject.org/training-material/news/2024/12/02/reviewing.html

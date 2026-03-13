@@ -7,7 +7,6 @@ tease: 'Exploring Microbial Dark Matter: Outcomes of the FAIRyMAGs Hackathon 202
 hide_tease: true
 tags:
 - hackathon
-- galaxy
 - mags
 - microbial
 - metagenomics

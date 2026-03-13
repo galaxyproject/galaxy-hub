@@ -8,7 +8,7 @@ tags:
 - training
 - gtn-news
 - news
-- gtn infrastructure
+- gtn
 - new feature
 - event
 tease: Are you organizing a training event using GTN materials? You can now add your

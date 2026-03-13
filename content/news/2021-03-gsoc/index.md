@@ -3,7 +3,7 @@ title: 2021 Google Summer of Code
 date: '2021-03-16'
 tease: Galaxy is participating
 external_url: ''
-tags: [galaxy]
+tags: []
 subsites: [all-eu, global, us]
 ---
 

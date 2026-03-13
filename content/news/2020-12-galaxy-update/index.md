@@ -2,7 +2,7 @@
 title: December 2020 Galactic News
 date: '2020-12-08'
 tease: And what a month it is
-tags: [newsletter, galaxy, outreach]
+tags: [newsletter, outreach]
 subsites: [all-eu, global, us]
 ---
 

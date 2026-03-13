@@ -2,7 +2,7 @@
 title: October 2019 Galactic News
 date: '2019-10-02'
 tease: Events! Pubs! Platforms! Jobs! Doc! Tutorials! And some other news too.
-tags: [newsletter, galaxy]
+tags: [newsletter]
 subsites: [all-eu, global, us]
 ---
 

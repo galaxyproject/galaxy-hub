@@ -1,7 +1,7 @@
 ---
 title: Laniakea@ReCaS becomes an EOSC Provider
 date: '2020-02-28'
-tags: [galaxy, laniakea]
+tags: [laniakea]
 external_url: https://marketplace.eosc-portal.eu/services/laniakea-recas
 subsites: [eu, elixir-it]
 main_subsite: elixir-it

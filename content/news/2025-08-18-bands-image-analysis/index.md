@@ -6,7 +6,6 @@ date: '2025-08-18'
 tags:
 - gtn-news
 - electrophoresis
-- galaxy
 - training
 - imaging
 - gtn

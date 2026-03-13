@@ -6,7 +6,6 @@ date: '2025-05-12'
 tags:
 - eu
 - news
-- galaxy
 - workshop
 - gtn-news
 - training
