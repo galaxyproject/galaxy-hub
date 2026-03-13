@@ -2,7 +2,7 @@
 title: "pairtools: A simple and fast tool suite for processing sequencing data from a Hi-C experiment now in Galaxy!"
 date: "2024-04-22"
 tease: "Now use pairtools in the European Galaxy Server to process your Hi-C experiment data 🧑‍💻"
-tags: [BGE, biodiversity, project, erga, tools]
+tags: [biodiversity, project, erga, tools]
 subsites: [global, eu, us, freiburg]
 contributions:
   authorship:
