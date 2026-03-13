@@ -9,7 +9,7 @@ tags:
 - gtn-news
 - news
 - fair
-- research data management
+- rdm
 - new learning pathway
 tease: "ELIXIR-UK\u2019s Data Stewardship Fellowship is excited to announce a new\
   \ learning pathway focused on FAIR Data Management! This program equips researchers\

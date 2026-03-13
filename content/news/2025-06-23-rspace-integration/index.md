@@ -4,7 +4,7 @@ date: "2025-06-23"
 tease: "Analyze data with Galaxy, keep it under control on RSpace"
 hide_tease: false
 subsites: [all,esg]
-tags: [esg, esg-wp2, "new feature", "research data management"]
+tags: [esg, esg-wp2, "new feature", rdm]
 contributions:
   authorship:
     - kysrpex

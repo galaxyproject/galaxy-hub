@@ -9,7 +9,7 @@ tags:
 - dataplant
 - community
 - workshop
-- research data management
+- rdm
 - interoperability
 - standardization
 - arc
