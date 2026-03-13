@@ -130,11 +130,14 @@ const hasMetadata =
 
   .prose-galaxy :where(a):not(:where([class~='not-prose'] *)) {
     color: var(--tw-prose-links);
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: color-mix(in srgb, var(--tw-prose-links) 40%, transparent);
+    text-underline-offset: 2px;
   }
 
   .prose-galaxy :where(a):not(:where([class~='not-prose'] *)):hover {
     text-decoration: underline;
+    text-decoration-color: currentColor;
   }
 
   .prose-galaxy :where(code):not(:where([class~='not-prose'] *)) {

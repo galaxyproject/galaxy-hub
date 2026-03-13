@@ -49,11 +49,28 @@
     overflow: hidden;
 
     /* Card content that's not in card-body still needs padding */
-    > p,
-    > ul,
-    > ol {
+    > p {
       padding: 0 1rem;
       margin-bottom: 0.75rem;
+    }
+
+    > ul {
+      list-style-type: disc;
+      padding-left: 2.5rem;
+      padding-right: 1rem;
+      margin-bottom: 0.75rem;
+    }
+
+    > ol {
+      list-style-type: decimal;
+      padding-left: 2.5rem;
+      padding-right: 1rem;
+      margin-bottom: 0.75rem;
+    }
+
+    > ul li,
+    > ol li {
+      margin-bottom: 0.25rem;
     }
 
     > p:last-child {
