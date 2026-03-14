@@ -1,17 +1,17 @@
 ---
 title: "Highlights from the Galaxy Hackathon in Brest, France!"
 contributions:
-  funding: [fairease,ifremer,eu,eurosciencegateway]
+  funding: [fairease, ifremer, eu, eurosciencegateway]
   authorship:
     - dianichj
     - RZ9082
     - elichad
-tags: [Hackathon,esg, esg-wp3, esg-wp4, esg-wp1]
+tags: [hackathon, esg, esg-wp3, esg-wp4, esg-wp1]
 date: "2025-04-02"
 cover: "Hackathon-FAIR-EASE-2025-lighthouse.jpg"
 coveralt: "Brest Lighthouse photo 2025"
 tease: "Collaboration, innovation, and waves of creativity—Galaxy dives into data at the FAIR-EASE Hackathon in Brest!"
-subsites: [all,global,esg,eu]
+subsites: [all, global, esg, eu]
 ---
 
 # Galaxy Hackathon in Brest, France: Innovation on the Edge of the Ocean

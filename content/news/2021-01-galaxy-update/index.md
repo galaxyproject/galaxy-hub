@@ -2,7 +2,7 @@
 title: January 2021 Galactic News
 date: '2021-01-07'
 tease: Events, platform news, blog posts, videos, pubs, jobs and releases
-tags: [newsletter, galaxy]
+tags: [newsletter]
 subsites: [all-eu, global, us]
 ---
 

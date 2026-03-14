@@ -11,7 +11,7 @@ tags:
 - esg
 - outreach
 - collaboration
-- talks
+- talk
 - conference
 main_subsite: eu
 contributions:

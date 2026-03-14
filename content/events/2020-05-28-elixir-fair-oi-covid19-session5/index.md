@@ -1,9 +1,8 @@
 ---
-title: 'Galaxy-ELIXIR Webinar 5: Behind the scenes - Global Open Infrastructures at
-  work'
+title: 'Galaxy-ELIXIR Webinar 5: Behind the scenes - Global Open Infrastructures at work'
 date: '2020-05-28'
 end: '2020-05-28'
-tags: [training, COVID-19]
+tags: [training, covid-19]
 contacts:
 - name: Galaxy and ELIXIR
 hidefooter: true
@@ -15,7 +14,6 @@ contributions:
     - deNBI
     - elixir-europe
     - uni-freiburg
-
 ---
 
 **Galaxy-ELIXIR Webinar Series: FAIR data and Open Infrastructures to tackle the COVID-19 pandemic**

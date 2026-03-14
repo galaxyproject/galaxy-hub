@@ -1,7 +1,7 @@
 ---
 title: 'New Galaxy Community Organization: Working Groups'
 date: '2021-01-15'
-tags: [galaxy]
+tags: []
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

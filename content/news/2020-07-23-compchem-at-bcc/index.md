@@ -1,7 +1,7 @@
 ---
 title: Computational chemistry at BCC2020
 date: '2020-07-23'
-tags: [GCC]
+tags: [gcc]
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

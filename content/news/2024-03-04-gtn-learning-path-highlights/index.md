@@ -8,7 +8,7 @@ tags:
 - training
 - gtn-news
 - news
-- gtn infrastructure
+- gtn
 - new feature
 tease: We know the GTN has a lot of learning materials (400 and counting!) which can
   make it quite difficult to figure out where to start in some topics.

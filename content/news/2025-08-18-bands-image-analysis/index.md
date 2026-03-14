@@ -6,16 +6,14 @@ date: '2025-08-18'
 tags:
 - gtn-news
 - electrophoresis
-- Galaxy
 - training
 - imaging
-- GTN
+- gtn
 - QuPath
 - news
 title: Quantifying Electrophoresis Gel Bands with QuPath and Galaxy
 external_url: https://training.galaxyproject.org/training-material/news/2025/08/18/bands_image_analysis.html
-tease: Gel Electrophoresis is a staple of molecular biology, providing a way to separate
-  DNA, RNA, or proteins by size and charge
+tease: Gel Electrophoresis is a staple of molecular biology, providing a way to separate DNA, RNA, or proteins by size and charge
 contributions:
   authorship:
     - reytakop

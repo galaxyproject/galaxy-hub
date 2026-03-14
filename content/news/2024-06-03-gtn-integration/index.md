@@ -3,7 +3,7 @@ title: "Integrating the Galaxy Training Network into the Tool Form"
 tease: "View relevant tutorials and guides from the Galaxy Training Network directly in the Tool Form, relevant to the tool you are currently using."
 hide-tease: false
 date: "2024-06-03"
-tags: ["UI/UX", "highlight"]
+tags: ["ui-ux", "highlight"]
 subsites: [global]
 contributions:
   authorship:

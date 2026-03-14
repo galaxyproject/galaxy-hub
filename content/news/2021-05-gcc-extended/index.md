@@ -4,7 +4,7 @@ title: GCC2021 Abstract and Fellowship Submission, and Early Registration Deadli
 date: '2021-05-04'
 tease: Talks & Fellowships due 17 May; Poster/Demos due 14 June
 external_url: ''
-tags: [newsletter, galaxy]
+tags: [newsletter]
 subsites: [all-eu, global, us]
 ---
 

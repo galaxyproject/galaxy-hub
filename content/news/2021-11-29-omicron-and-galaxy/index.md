@@ -2,7 +2,7 @@
 title: Omicron and SARS-CoV-2 genome surveillance
 date: '2021-11-29'
 tease: 'A first view of the Omicron lineage’s mutational pattern derived transparently and fully reproducibly from raw sequencing reads'
-tags: [data, COVID-19]
+tags: [data, covid-19]
 subsites: [global, eu, freiburg]
 main_subsite: freiburg
 contributions:
@@ -59,5 +59,5 @@ New analysis results are available from both ONT and Illumina data:
 
 Further readings:
 * [https://covid19.galaxyproject.org](https://covid19.galaxyproject.org)
-* [https://galaxyproject.eu/news?tag=COVID-19](https://galaxyproject.eu/news?tag=COVID-19)
+* [https://galaxyproject.eu/news?tag=covid-19](https://galaxyproject.eu/news?tag=covid-19)
 

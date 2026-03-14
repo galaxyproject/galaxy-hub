@@ -4,7 +4,7 @@ date: "2025-05-15"
 tease: "Use AnyLabeling in the European Galaxy Server as an interactive tool"
 hide_tease: false
 subsites: [all-eu, global]
-tags: [imaging, nfdi, nfdi4bioimaging, tool]
+tags: [imaging, nfdi, tools]
 main_subsite: eu
 contributions:
   authorship:

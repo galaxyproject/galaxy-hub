@@ -9,7 +9,6 @@ tags:
 - paper
 - single-cell
 - spatial-omics
-- galaxy
 contributions:
   authorship:
     - dianichj

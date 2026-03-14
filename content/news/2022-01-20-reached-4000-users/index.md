@@ -5,7 +5,7 @@ tease: We are celebrating that usegalaxy.eu reached 40,000 registered users last
   Over the last year, the number of registered users has almost doubled, from 25,000
   to more than 41,000 by January 2022.
 hide_tease: true
-tags: [galaxy, support, society, report]
+tags: [support, society, report]
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

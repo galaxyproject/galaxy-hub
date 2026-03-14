@@ -3,7 +3,7 @@ title: April 2021 Galactic News
 date: '2021-04-12'
 tease: GCC2021 Abstracts and Registration are open, plus lots more.
 autotoc: false
-tags: [newsletter, galaxy]
+tags: [newsletter]
 subsites: [all-eu, global, us]
 ---
 

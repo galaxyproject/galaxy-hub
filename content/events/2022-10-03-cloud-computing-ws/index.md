@@ -12,4 +12,3 @@ subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 ---
 Online video tutorials about the use of cloud computing resources for MS-based proteomics. 
-

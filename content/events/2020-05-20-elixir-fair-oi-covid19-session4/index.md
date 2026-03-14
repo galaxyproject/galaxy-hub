@@ -2,7 +2,7 @@
 title: 'Galaxy-ELIXIR Webinar 4: Evolution of the Virus'
 date: '2020-05-20'
 end: '2020-05-20'
-tags: [training, COVID-19]
+tags: [training, covid-19]
 contacts:
 - name: Galaxy and ELIXIR
 location:
@@ -15,7 +15,6 @@ contributions:
     - biodaten
     - deNBI
     - elixir-europe
-
 ---
 
 **Galaxy-ELIXIR Webinar Series: FAIR data and Open Infrastructures to tackle the COVID-19 pandemic**

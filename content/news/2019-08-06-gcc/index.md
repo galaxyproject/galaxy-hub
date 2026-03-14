@@ -2,7 +2,7 @@
 title: Galaxy Community Conference - a brief summary!
 date: '2019-08-06'
 tease: A brief summary
-tags: [tiaas, training, GCC]
+tags: [tiaas, training, gcc]
 subsites: [all-eu, global, us]
 main_subsite: eu
 contributions:

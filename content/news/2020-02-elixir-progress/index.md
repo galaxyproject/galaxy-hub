@@ -3,7 +3,7 @@ title: Exciting progress in the ELIXIR Galaxy community
 date: '2020-02-11'
 tease: Towards a European network of Galaxy resources
 external_url: https://elixir-europe.org/news/galaxy-europe-2020
-tags: [galaxy, report]
+tags: [report]
 subsites: [all-eu, global, us]
 ---
 

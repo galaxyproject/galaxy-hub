@@ -1,10 +1,9 @@
 ---
 title: New brochure from ELIXIR Germany
 date: '2021-10-06'
-tease: ELIXIR Germany has published the handout "ELIXIR GERMANY - Shaping the Bioinformatics
-  Infrastructure for Life Sciences in Europe".
+tease: ELIXIR Germany has published the handout "ELIXIR GERMANY - Shaping the Bioinformatics Infrastructure for Life Sciences in Europe".
 hide_tease: true
-tags: [COVID-19, elixir, community]
+tags: [covid-19, elixir, community]
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

@@ -1,12 +1,9 @@
 ---
-title: 'UseGalaxy.eu Use Case: cellular specification, differentiation and morphogenesis
-  of the mucociliary epithelium'
+title: 'UseGalaxy.eu Use Case: cellular specification, differentiation and morphogenesis of the mucociliary epithelium'
 date: '2021-10-12'
-tease: Sarah Bowden from the Innere Medizin IV (Nephrologie und Allgemeinmedizin)
-  and ZBSA - Center for Biological Systems Analysis
-  in Freiburg (Germany) has shared with us the main area of research of her project.
+tease: Sarah Bowden from the Innere Medizin IV (Nephrologie und Allgemeinmedizin) and ZBSA - Center for Biological Systems Analysis in Freiburg (Germany) has shared with us the main area of research of her project.
 hide_tease: true
-tags: [UseCase]
+tags: [usecase]
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

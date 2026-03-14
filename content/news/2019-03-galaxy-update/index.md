@@ -3,7 +3,7 @@ title: March 2019 Galactic News
 date: '2019-03-04'
 tease: GalaxyAdmins, GCC2019 Childcare sponsors, Platforms, Pubs, Jobs, Blog!, Training,
   Tools, Releases and more!
-tags: [newsletter, galaxy]
+tags: [newsletter]
 subsites: [all-eu, global, us]
 ---
 

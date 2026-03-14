@@ -1,9 +1,8 @@
 ---
 title: The landscape of SARS-CoV-2 RNA modifications
 date: '2020-07-19'
-tease: Studying the RNA modifications of SARS-CoV-2 to improve understanding of SARS
-  viruses
-tags: [paper, COVID-19, data]
+tease: Studying the RNA modifications of SARS-CoV-2 to improve understanding of SARS viruses
+tags: [paper, covid-19, data]
 doi: 10.1101/2020.07.18.204362
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg

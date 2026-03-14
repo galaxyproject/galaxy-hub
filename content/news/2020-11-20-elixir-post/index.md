@@ -1,7 +1,7 @@
 ---
 title: Simplified submission of SARS-CoV-2 data to open databases
 date: '2020-11-20'
-tags: [data, tools, COVID-19]
+tags: [data, tools, covid-19]
 subsites: [eu, freiburg, belgium]
 main_subsite: eu
 contributions:

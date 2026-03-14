@@ -1,9 +1,8 @@
 ---
-title: DRS, long-read-sequencing, proteomics and more - An update to recent COVID-19
-  workflow developments
+title: DRS, long-read-sequencing, proteomics and more - An update to recent COVID-19 workflow developments
 date: '2021-02-24'
 end: '2021-02-24'
-tags: [training, COVID-19, workflow]
+tags: [training, covid-19, workflow]
 contacts:
 - name: Galaxy and ELIXIR
 location:
@@ -18,7 +17,6 @@ contributions:
     - deNBI
     - elixir-europe
     - uni-freiburg
-
 ---
 
 The Galaxy Community and ELIXIR organise a second webinar series to demonstrate how open software and public research infrastructures can be used in analysing and publishing SARS-CoV2 data.

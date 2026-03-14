@@ -2,7 +2,7 @@
 title: 'BY-COVID: A new EU project for pandemic preparedness'
 date: '2021-10-13'
 tease: "A new €12 million Horizon Europe funded project which will tackle the data challenges that can hinder effective pandemic response."
-tags: [COVID-19, collaboration]
+tags: [covid-19, collaboration]
 subsites: [global, eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

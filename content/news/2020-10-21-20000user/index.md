@@ -1,7 +1,7 @@
 ---
 title: 20,000 users
 date: '2020-10-21'
-tags: [galaxy, tiaas, outreach]
+tags: [tiaas, outreach]
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

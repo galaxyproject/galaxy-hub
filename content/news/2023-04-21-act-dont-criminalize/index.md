@@ -2,7 +2,7 @@
 title: 'You understand the data? Call for action!'
 date: '2023-04-21'
 tease: 'Civil disobedience by climate activists is neither futile nor a criminal act statement of scientists says'
-tags: [Freiburg, s4f, society]
+tags: [freiburg, s4f, society]
 subsites: [all-eu, freiburg]
 main_subsite: eu
 contributions:
