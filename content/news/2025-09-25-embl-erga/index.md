@@ -11,6 +11,8 @@ tags:
 - workflowhub
 - gtn-news
 - gtn
+- erga
+- tools
 title: Galaxy joins hands with ERGA at the EMBO course for genome sequencing, assembly, curation, and downstream analyses
 external_url: https://www.erga-biodiversity.eu/post/erga-at-the-embo-course-in-genome-sequencing-assembly-curation-and-downstream-analyses
 tease: Know more about the recent EMBO Practical Course on Genome Sequencing, Assembly, Curation, and Downstream Analyses using Galaxy platform.
@@ -18,5 +20,8 @@ contributions:
   authorship:
     - bgruening
     - SaimMomin12
+  funding:
+    - eu
+    - bge
 ---
 

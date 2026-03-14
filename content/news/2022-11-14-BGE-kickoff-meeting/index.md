@@ -3,7 +3,7 @@ title: BGE - Kickoff meeting
 date: "2022-11-14"
 tease: "The BGE project kick-off meeting was celebrated between November 14th and November 18th in Leiden."
 hide_tease: false
-tags: [biodiversity, project]
+tags: [biodiversity, project, erga]
 subsites: [all-eu, esg]
 main_subsite: eu
 contributions:

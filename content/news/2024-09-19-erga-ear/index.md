@@ -3,10 +3,14 @@ title: "The ERGA Assembly Report - a community-developed Genome Assembly QC Docu
 date: "2024-09-19"
 tease: "Discover more about the ERGA Assembly Report – a comprehensive, community-driven Genome assembly Quality Control Document."
 subsites: [global, eu, us, freiburg]
+tags: [biodiversity, project, erga]
 contributions:
   authorship:
     - SaimMomin12
     - diegodepanis
+  funding:
+    - eu
+    - bge
 ---
 
 # **The ERGA Assembly Report - a community-developed Genome Assembly QC Document Using Galaxy**
