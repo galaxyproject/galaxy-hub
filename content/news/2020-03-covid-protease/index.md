@@ -2,7 +2,7 @@
 title: Virtual screening against SARS-CoV-2 main protease
 date: '2020-03-11'
 tease: workflows for identifying potential ligands by virtual screening
-tags: [tools, COVID-19, workflow]
+tags: [tools, covid-19, workflow]
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
 contributions:

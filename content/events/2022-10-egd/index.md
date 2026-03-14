@@ -9,7 +9,7 @@ location:
 gtn: false
 contact: Hans-Rudolf Hotz, Björn Grüning, Beatriz Serrano-Solano, Oana Marchis, Anika
   Erxleben
-tags: [training, conferece, cofest, esg, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5]
+tags: [training, conference, cofest, esg, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5]
 subsites: [all-eu, global, esg]
 contributions:
   organisers:
@@ -226,4 +226,3 @@ This event is generously supported by [ELIXIR](https://elixir-europe.org/) and f
 ![logo EC](eu_funded_en.jpg)
 
 </div>
-

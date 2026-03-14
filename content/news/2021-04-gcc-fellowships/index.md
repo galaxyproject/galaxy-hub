@@ -4,7 +4,6 @@ tease: "Apply by May 17"
 external_url: ""
 date: "2021-04-14"
 tags: 
-- galaxy
 - newsletter
 subsites: [global, us, all-eu]
 contributions:

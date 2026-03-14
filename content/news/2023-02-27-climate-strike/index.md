@@ -2,7 +2,7 @@
 title: 'We are striking!'
 date: '2023-02-27'
 tease: 'usegalaxy.eu closes job-queue on March 3 to support climate strike'
-tags: [Freiburg, s4f, society]
+tags: [freiburg, s4f, society]
 subsites: [all-eu, freiburg]
 main_subsite: eu
 contributions:

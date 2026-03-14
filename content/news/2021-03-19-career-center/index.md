@@ -1,7 +1,7 @@
 ---
 title: Galaxy Career Center
 date: '2021-03-19'
-tags: [galaxy, jobs]
+tags: [jobs]
 external_url: https://galaxyproject.org/careers/
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu

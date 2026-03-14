@@ -1,7 +1,7 @@
 ---
 title: 'UseGalaxy.eu Use Case: Sex determination of fish species'
 date: '2021-08-13'
-tags: [UseCase]
+tags: [usecase]
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

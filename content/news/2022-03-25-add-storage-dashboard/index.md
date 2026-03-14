@@ -4,7 +4,7 @@ date: "2022-03-25"
 tease: "New pull request from David López merged: Add Storage dashboard"
 hide_tease: true
 autotoc: false
-tags: ['UI-UX', 'feature', 'highlight']
+tags: ['ui-ux', 'feature', 'highlight']
 subsites: [global]
 contributions:
   authorship:

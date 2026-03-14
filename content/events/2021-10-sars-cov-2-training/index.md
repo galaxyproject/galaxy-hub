@@ -7,9 +7,9 @@ continent: GL
 location:
   name: 'University of Freiburg, New England Biolabs, Online'
 location_url: ""
-image: 
+image:
 gtn: true
-tags: [COVID-19, workshop, talk, training]
+tags: [covid-19, workshop, talk, training]
 contact: "Instructors"
 subsites: [all]
 autotoc: false

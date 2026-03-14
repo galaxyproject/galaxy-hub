@@ -1,7 +1,7 @@
 ---
 title: The Community Against COVID-19
 date: '2020-10-08'
-tags: [data, COVID-19, outreach]
+tags: [data, covid-19, outreach]
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

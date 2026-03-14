@@ -3,7 +3,7 @@ title: "Behind the curtains on Galaxy's themes"
 tease: "Details about Galaxy's new theming system, what it can do today, and what is planned for the future."
 hide_tease: false
 date: "2023-04-28"
-tags: ["UI/UX", "highlight"]
+tags: ["ui-ux", "highlight"]
 subsites: [global]
 contributions:
   authorship:

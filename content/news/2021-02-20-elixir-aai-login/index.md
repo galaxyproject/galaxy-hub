@@ -1,7 +1,7 @@
 ---
 title: Login via ELIXIR-AAI, Google, LinkedIn, or your ORCID iD
 date: '2021-02-20'
-tags: [FAQ]
+tags: [faq]
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:
@@ -51,4 +51,3 @@ When you are connected, it will look like this:
 
 
 If you find issues or have any questions, please don't hesitate to [contact us](mailto:galaxy@informatik.uni-freiburg.de).
-

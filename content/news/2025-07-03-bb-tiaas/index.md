@@ -7,14 +7,11 @@ tags:
 - news
 - gtn-news
 - gtn
-- TIAAS
+- tiaas
 - training
-title: Scaling Up Hands-On Bioinformatics Training with TIAAS – An Open University
-  Perspective
+title: Scaling Up Hands-On Bioinformatics Training with TIAAS – An Open University Perspective
 external_url: https://training.galaxyproject.org/training-material/news/2025/07/03/bb-tiaas.html
-tease: Back in September 2024, we ran the Open University Bioinformatics Bootcamp—a
-  free, five-day online course introducing students to the core tools and techniques
-  used in single-cell biology
+tease: Back in September 2024, we ran the Open University Bioinformatics Bootcamp—a free, five-day online course introducing students to the core tools and techniques used in single-cell biology
 contributions:
   authorship:
     - nomadscientist

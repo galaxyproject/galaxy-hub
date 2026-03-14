@@ -8,7 +8,7 @@ tags:
 - training
 - gtn-news
 - news
-- gtn infrastructure
+- gtn
 tease: We are happy to report that over the years of our fruitful collaboration with
   ELIXIR TeSS, all GTN materials should receive a perfect score on the FAIR-Checker.
 title: Perfectly FAIR Training!

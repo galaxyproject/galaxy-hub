@@ -4,7 +4,7 @@ date: '2022-02-01'
 tease: 'TÜV SÜD has awarded the University''s data centre
   the international certification for information security management systems ISO/IEC 27001.'
 hide_tease: true
-tags: [galaxy, support]
+tags: [support]
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 components: true

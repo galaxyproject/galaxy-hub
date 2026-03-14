@@ -8,7 +8,7 @@ tags:
 - training
 - gtn-news
 - news
-- gtn infrastructure
+- gtn
 tease: ''
 title: "Standards compliant\u2122 training news via RSS/Atom"
 contributions:

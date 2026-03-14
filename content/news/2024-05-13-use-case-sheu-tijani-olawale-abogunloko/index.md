@@ -2,7 +2,7 @@
 title: 'UseGalaxy.eu Use Case: Profiling of Tregs in Coronary Artery Disease using RNAseq'
 date: '2024-05-16'
 tease: "A report out of Galaxy Europe's user space, by Sheu-Tijani Olawale Abogunloko"
-tags: [UseCase]
+tags: [usecase]
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

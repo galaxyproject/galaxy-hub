@@ -8,7 +8,7 @@ tags:
 - training
 - gtn-news
 - news
-- gtn infrastructure
+- gtn
 - new feature
 tease: At the Galaxy Training Network we are really committed to ensuring our training
   materials are Findable, Accessible, Interoperable, and Reusable

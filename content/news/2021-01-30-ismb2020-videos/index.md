@@ -1,7 +1,7 @@
 ---
 title: ISMB 2020 conference videos available on YouTube
 date: '2021-01-30'
-tags: [training, talk, poster, COVID-19]
+tags: [training, talk, poster, covid-19]
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

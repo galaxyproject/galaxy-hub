@@ -3,7 +3,7 @@ title: December 2019 Galactic News
 date: '2019-12-09'
 tease: Events, Pubs, Blogs, Platforms, Tutorials, Doc, Jobs, Releases, and Platypi
   too.
-tags: [newsletter, galaxy]
+tags: [newsletter]
 subsites: [all-eu, global, us]
 ---
 

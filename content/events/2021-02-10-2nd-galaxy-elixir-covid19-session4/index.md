@@ -2,7 +2,7 @@
 title: Insights from selection analysis of complete genomes and read-level data
 date: '2021-02-10'
 end: '2021-02-10'
-tags: [training, COVID-19]
+tags: [training, covid-19]
 contacts:
 - name: Galaxy and ELIXIR
 location:
@@ -17,7 +17,6 @@ contributions:
     - deNBI
     - elixir-europe
     - uni-freiburg
-
 ---
 
 The Galaxy Community and ELIXIR organise a second webinar series to demonstrate how open software and public research infrastructures can be used in analysing and publishing SARS-CoV2 data.

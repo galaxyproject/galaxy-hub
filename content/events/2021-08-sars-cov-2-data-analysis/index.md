@@ -2,9 +2,8 @@
 title: SARS-CoV-2 Data Analysis and Monitoring with Galaxy
 date: '2021-08-09'
 end: '2021-08-12'
-tease: '...upload viral sequencing data, call all variants, create a variety of reports
-  and create consensus alignments...'
-tags: [training, COVID-19]
+tease: '...upload viral sequencing data, call all variants, create a variety of reports and create consensus alignments...'
+tags: [training, covid-19]
 location:
   name: online
 continent: EU

@@ -2,7 +2,7 @@
 title: July 2019 Galactic News
 date: '2019-06-28'
 tease: GCC2019 is here! (And other new stuff too)
-tags: [newsletter, galaxy]
+tags: [newsletter]
 subsites: [all-eu, global, us]
 ---
 

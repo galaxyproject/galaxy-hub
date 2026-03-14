@@ -1,7 +1,7 @@
 ---
 title: Human multi-omics data from UK Personal Genome Project accessible through UseGalaxy.eu
 date: '2020-01-16'
-tags: [training, PGP, data]
+tags: [training, pgp, data]
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:
@@ -54,5 +54,4 @@ and
 [Transcriptomics](https://training.galaxyproject.org/training-material/topics/transcriptomics/)
 , and we would love to get feedback from you regarding the usefulness of the
 tutorials for analyzing real-world human data.
-
 

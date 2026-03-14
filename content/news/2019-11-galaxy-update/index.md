@@ -2,7 +2,7 @@
 title: November 2019 Galactic News
 date: '2019-11-12'
 tease: Events! Pubs! Platforms! Jobs! Releases!
-tags: [newsletter, galaxy]
+tags: [newsletter]
 subsites: [all-eu, global, us]
 ---
 

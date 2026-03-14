@@ -48,7 +48,7 @@ Analogously, the team behind usegalaxy.eu builds from a number of groups and ind
 
 ### Documented evidence of **community impact**
 
-Galaxy serves many different communities (not only in life science), by providing the computational infrastructure, Galaxy training courses, and training material. For many communities we offer [specific Galaxy sub-domains]( https://usegalaxy-eu.github.io/posts/2020/12/28/subdomains) with individual entry pages and dedicated tools for community-specific research. Community members are using the Galaxy servers for their data analysis and report their application to other Galaxy users (“use cases”). These use cases are [published on our homepage](https://usegalaxy-eu.github.io/news?tag=UseCase) to support visibility of their work. 
+Galaxy serves many different communities (not only in life science), by providing the computational infrastructure, Galaxy training courses, and training material. For many communities we offer [specific Galaxy sub-domains]( https://usegalaxy-eu.github.io/posts/2020/12/28/subdomains) with individual entry pages and dedicated tools for community-specific research. Community members are using the Galaxy servers for their data analysis and report their application to other Galaxy users (“use cases”). These use cases are [published on our homepage](https://usegalaxy-eu.github.io/news?tag=usecase) to support visibility of their work. 
 
 Measuring impact is hard. In the following we will state a few resources and numbers that we have been able to track semi-automatically over time.
 

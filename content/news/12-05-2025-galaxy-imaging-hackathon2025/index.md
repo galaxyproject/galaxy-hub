@@ -1,12 +1,12 @@
 ---
 title: "Lights, Camera... Hacking! Highlights from the Galaxy Imaging Hackathon 2025"
-tags: [imaging, hackathon, community, workflow, FAIR, microscopy]
+tags: [imaging, hackathon, community, workflow, fair, microscopy]
 date: "2025-05-12"
-tease: "Three days of collaborative hacking, coffee-fueled brainstorming, and community-powered innovation—Galaxy Imaging is growing, and so are its FAIR tools!" 
+tease: "Three days of collaborative hacking, coffee-fueled brainstorming, and community-powered innovation—Galaxy Imaging is growing, and so are its FAIR tools!"
 organizers:
-  - galaxyfreiburg
-  - eurobioimaging
-subsites: [all,global,esg,eu]
+- galaxyfreiburg
+- eurobioimaging
+subsites: [all, global, esg, eu]
 contributions:
   authorship:
     - dianichj

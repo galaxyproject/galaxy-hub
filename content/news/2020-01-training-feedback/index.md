@@ -2,7 +2,7 @@
 title: Galaxy Training Survey
 date: '2020-01-08'
 tease: We need your input on preparing and giving Galaxy Trainings
-tags: [training, galaxy]
+tags: [training]
 subsites: [all-eu, global, us]
 ---
 

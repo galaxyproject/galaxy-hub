@@ -1,7 +1,7 @@
 ---
 title: European Galaxy Flavours
 date: '2020-12-28'
-tags: [FAQ, community]
+tags: [faq, community]
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
@@ -40,6 +40,5 @@ Single Cell Omics | [singlecell.usegalaxy.eu](https://singlecell.usegalaxy.eu)
 Street Science Community | [streetscience.usegalaxy.eu](https://streetscience.usegalaxy.eu)
 Virology | [virology.usegalaxy.eu](https://virology.usegalaxy.eu)
 {: .table.table-striped }
-
 
 
