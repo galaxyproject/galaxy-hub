@@ -16,19 +16,19 @@ contributions:
 Galaxy instances accumulate history. That is a strength, but it also creates a familiar problem: 
 Some tools remain scientifically valid and still need to run for old workflows to enable 
 reproducibility, while newer alternatives are often faster, have better defaults or are easier to 
-use. Removing the older tool outright risks breaking reproducibility. Leaving it untouched means 
+use. Outright removing the older tool risks breaking reproducibility. Leaving it untouched means 
 users keep selecting them out of habit.
 
 One practical answer is a soft deprecation layer in the Galaxy tool form itself.
 
-Galaxy already supports site-specific UI extensions through [webhooks](https://docs.galaxyproject.org/en/master/admin/webhooks.html). The same pattern can be used to add a contextual information to 
-specific tools. When a user opens an older (still functional tool) Galaxy can display a short 
+Galaxy already supports site-specific UI extensions through [webhooks](https://docs.galaxyproject.org/en/master/admin/webhooks.html). The same pattern can be used to add contextual information to 
+specific tools. When a user opens an older (still functional) tool, Galaxy can display a short 
 notice explaining that the tool is retained for compatibility, why it is no longer the preferred 
-choice, and which replacement should be used instead.
+choice, and which replacement tool should be used instead.
 
 We want to: preserve execution, but improve defaults.
 
-The `FastQC` to `Falco` transition on the European Galaxy server is a good example. `FastQC` has 
+The `FastQC` to `Falco` transition on the European Galaxy server is a good example. `FastQC` is a quality control tool for high-throughput sequence data which has 
 been executed more than two million times over the years and is still deeply embedded in many 
 sequencing workflows. But `Falco`, published in 2021 as a reimplementation of `FastQC`, is roughly 
 three times more efficient. When `Falco` first appeared on the European Galaxy server in June 2024, 
