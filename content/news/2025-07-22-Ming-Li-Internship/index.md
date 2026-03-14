@@ -3,7 +3,7 @@ title: "Exploring Genomics with Galaxy: A Six-Week Internship Journey"
 date: "2025-07-22"
 tease: "My internship experience with assembling genomes and annotating them during a 6 week internship"
 subsites: [all]
-tags: [tools, training, workflows]
+tags: [tools, training, workflow]
 contributions:
   authorship:
     - mingli
