@@ -2,14 +2,14 @@
 title: "Using Galaxy webhooks to nudge users toward better tools"
 date: "2026-03-13"
 tease: "A small tool-form extension can mark legacy tools as deprecated, keep them available for reproducibility, and guide users toward faster and more efficient alternatives."
-tags: [tools, UI/UX, feature, environmental, esg]
+tags: [tools, ui-ux, feature, environmental, esg]
 subsites: [all-eu, esg, global]
 main_subsite: eu
 contributions:
   funding:
     - eu
     - eurosciencegateway
-    - elixir
+    - elixir-europe
     - AustralianBioCommons
 ---
 
