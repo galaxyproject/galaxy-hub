@@ -15,7 +15,7 @@ main_subsite: freiburg
 contributions:
   funding:
     - crc1425
-    - sfb992
+    - crc992
 
 ---
 
