@@ -1,5 +1,6 @@
 ---
 title: Citing Galaxy
+components: true
 ---
 
 **Please do not forget to cite Galaxy in any research that uses or extends Galaxy.**
@@ -8,7 +9,7 @@ title: Citing Galaxy
 
 When you use Galaxy and want to publish your work, please cite this paper:
 
-* The Galaxy Community. [The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update](https://doi.org/10.1093/nar/gkae410), *Nucleic Acids Research*, 2024, 52(W1):W83-W94. doi:10.1093/nar/gkae410
+* The Galaxy Community. [The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update](https://doi.org/10.1093/nar/gkae410), *Nucleic Acids Research*, 2024, 52(W1):W83-W94. doi:10.1093/nar/gkae410 <CopyButton text='The Galaxy Community. "The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update." Nucleic Acids Research, 2024, 52(W1):W83-W94. doi:10.1093/nar/gkae410' />
 
 This and other references are also [available in GitHub](https://github.com/galaxyproject/galaxy/blob/dev/CITATION) as a [CITATION file](http://software-carpentry.org/blog/2013/09/introducing-citation-files.html).
 

@@ -1,0 +1,65 @@
+---
+import * as icons from 'lucide-static';
+
+interface Props {
+  text: string;
+}
+
+const { text } = Astro.props;
+const copySvg = (icons as Record<string, string>)['Copy'];
+const checkSvg = (icons as Record<string, string>)['Check'];
+---
+
+<button class="copy-btn" data-copy-text={text} title="Copy citation to clipboard" aria-label="Copy citation">
+  <span class="copy-icon" set:html={copySvg} />
+  <span class="check-icon" set:html={checkSvg} />
+</button>
+
+<style>
+  .copy-btn {
+    background: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 3px 6px;
+    vertical-align: middle;
+    transition: border-color 0.2s;
+    line-height: 0;
+  }
+  .copy-btn:hover {
+    border-color: #25537b;
+  }
+  .copy-btn .copy-icon :global(svg) {
+    width: 14px;
+    height: 14px;
+  }
+  .copy-btn .check-icon :global(svg) {
+    width: 14px;
+    height: 14px;
+    color: #16a34a;
+  }
+  .copy-btn .check-icon {
+    display: none;
+  }
+  .copy-btn.copied .copy-icon {
+    display: none;
+  }
+  .copy-btn.copied .check-icon {
+    display: inline-flex;
+  }
+</style>
+
+<script>
+  document.addEventListener('astro:page-load', () => {
+    document.querySelectorAll('.copy-btn').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const text = (btn as HTMLButtonElement).dataset.copyText;
+        if (!text) return;
+        navigator.clipboard.writeText(text).then(() => {
+          btn.classList.add('copied');
+          setTimeout(() => btn.classList.remove('copied'), 2000);
+        });
+      });
+    });
+  });
+</script>
