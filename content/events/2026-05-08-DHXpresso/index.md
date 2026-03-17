@@ -1,5 +1,5 @@
 ---
-title: Enter the Galaxy: How to leverage the open source platform Galaxy for the Digital Humanities and Social Sciences
+title: "Enter the Galaxy: How to leverage the open source platform Galaxy for the Digital Humanities and Social Sciences"
 date: '2026-05-08'
 end: '2026-05-08'
 location:
