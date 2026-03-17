@@ -21,7 +21,7 @@ main_subsite: freiburg
 contributions:
   funding:
     - deNBI
-    - sfb992
+    - crc992
 
 ---
 

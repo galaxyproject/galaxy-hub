@@ -19,7 +19,7 @@ contributions:
   funding:
     - crc1425
     - deNBI
-    - sfb992
+    - crc992
 
 components: true
 ---
