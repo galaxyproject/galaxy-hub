@@ -62,17 +62,6 @@ Your application will ask about:
 * **Application deadline**: March 15, 2026
 * **Winners announced**: March 31, 2026
 
-## Apply Now
-
-All fellowships use a single application form. You will be automatically considered for all awards for which you are eligible.
-
-<div class="text-center">
-<button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">
-
-[Apply for GCC2026 Fellowships](https://forms.gle/FBQnhC2hMRqAX3qq5)
-
-</button>
-</div>
 
 ## Questions?
 
