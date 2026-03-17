@@ -170,24 +170,30 @@ function formatDate(date: Date | string | undefined): string {
                   <span class="profile-avatar-fallback">{(displayName || slug || '?').charAt(0).toUpperCase()}</span>
                 )}
               </a>
-              <div class="flex-1 space-y-2 min-w-0">
+              <div class="flex-1 space-y-3 min-w-0">
                 {affiliationTags.length > 0 && (
-                  <div class="flex flex-wrap gap-2" aria-label="Affiliations">
-                    {affiliationTags.map((aff) => (
-                      <a href={aff.slug} class="chip chip-light">
-                        {aff.label}
-                      </a>
-                    ))}
+                  <div class="affiliation-group">
+                    <p class="affiliation-label">Affiliations</p>
+                    <div class="flex flex-wrap gap-2" aria-label="Affiliations">
+                      {affiliationTags.map((aff) => (
+                        <a href={aff.slug} class="chip chip-light">
+                          {aff.label}
+                        </a>
+                      ))}
+                    </div>
                   </div>
                 )}
 
                 {formerAffiliationTags.length > 0 && (
-                  <div class="flex flex-wrap gap-2" aria-label="Former affiliations">
-                    {formerAffiliationTags.map((aff) => (
-                      <a href={aff.slug} class="chip chip-muted chip-light">
-                        {aff.label}
-                      </a>
-                    ))}
+                  <div class="affiliation-group">
+                    <p class="affiliation-label affiliation-label-muted">Former Affiliations</p>
+                    <div class="flex flex-wrap gap-2" aria-label="Former affiliations">
+                      {formerAffiliationTags.map((aff) => (
+                        <a href={aff.slug} class="chip chip-muted chip-light">
+                          {aff.label}
+                        </a>
+                      ))}
+                    </div>
                   </div>
                 )}
 
@@ -562,6 +568,25 @@ function formatDate(date: Date | string | undefined): string {
 
   .chip-light.chip-muted {
     color: rgba(255, 255, 255, 0.78);
+  }
+
+  .affiliation-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .affiliation-label {
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.55);
+    margin: 0;
+  }
+
+  .affiliation-label-muted {
+    color: rgba(255, 255, 255, 0.38);
   }
 
   .chip-light.chip-link {
