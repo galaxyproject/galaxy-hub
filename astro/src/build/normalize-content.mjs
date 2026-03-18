@@ -450,6 +450,7 @@ const KNOWN_COMPONENTS = [
   'MarkdownEmbed',
   'CalendarEmbed',
   'Insert',
+  'CopyButton',
 ];
 
 function bodyHasComponents(body) {
