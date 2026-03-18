@@ -832,72 +832,54 @@ const pillars = [
       color: var(--text-muted);
     }
 
-    /* CTA Section */
-    .cta-section {
-      padding: 4rem 2rem;
+    /* Cite Galaxy Section */
+    .cite-section {
+      padding: 2rem 2rem;
       text-align: center;
       background: var(--galaxy-dark);
-      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      border-top: 2px solid rgba(255, 215, 0, 0.25);
     }
 
-    .cta-container {
-      max-width: 700px;
+    .cite-container {
+      max-width: 750px;
       margin: 0 auto;
     }
 
-    .cta-container h2 {
-      font-size: 1.75rem;
+    .cite-container h2 {
+      font-size: 1.1rem;
       font-weight: 700;
       margin-bottom: 0.75rem;
-      color: var(--text-primary);
-    }
-
-    .cta-container p {
-      font-size: 1rem;
-      color: var(--text-secondary);
-      margin-bottom: 2rem;
-    }
-
-    .cta-servers {
-      display: flex;
-      justify-content: center;
-      gap: 1.5rem;
-      flex-wrap: wrap;
-      margin-bottom: 1.5rem;
-    }
-
-    .cta-server {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 0.5rem;
-    }
-
-    .cta-server .btn-primary {
-      min-width: 180px;
-      justify-content: center;
-      animation: none;
-    }
-
-    .cta-server .btn-primary::before {
-      display: none;
-    }
-
-    .cta-server-region {
-      font-size: 0.75rem;
-      color: var(--text-muted);
+      color: var(--galaxy-gold);
       text-transform: uppercase;
-      letter-spacing: 0.05em;
+      letter-spacing: 0.06em;
     }
 
-    .cta-explore-link {
-      font-size: 0.85rem;
+    .cite-container .cite-text {
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      margin: 0 auto 1rem;
+    }
+
+    .cite-container .cite-text a {
+      color: var(--galaxy-gold);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .cite-container .cite-text a:hover {
+      color: var(--galaxy-gold-dark);
+      text-decoration: underline;
+    }
+
+    .cite-guide-link {
+      font-size: 0.8rem;
       color: var(--text-muted);
       text-decoration: none;
       transition: color 0.2s;
     }
 
-    .cta-explore-link:hover {
+    .cite-guide-link:hover {
       color: var(--galaxy-gold);
     }
 
@@ -1279,31 +1261,19 @@ const pillars = [
       </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="cta-section grid-overlay">
-      <div class="cta-container">
-        <h2>Ready to get started?</h2>
-        <p>Galaxy is free to use. Choose the server nearest you.</p>
-        <div class="cta-servers">
-          <div class="cta-server">
-            <a href="https://usegalaxy.org" target="_blank" rel="noopener noreferrer" class="btn-primary"
-              >UseGalaxy.org</a
-            >
-            <span class="cta-server-region">US</span>
-          </div>
-          <div class="cta-server">
-            <a href="https://usegalaxy.eu" target="_blank" rel="noopener noreferrer" class="btn-primary">UseGalaxy.eu</a
-            >
-            <span class="cta-server-region">Europe</span>
-          </div>
-          <div class="cta-server">
-            <a href="https://usegalaxy.org.au" target="_blank" rel="noopener noreferrer" class="btn-primary"
-              >UseGalaxy.org.au</a
-            >
-            <span class="cta-server-region">Australia</span>
-          </div>
-        </div>
-        <a href="/use/" class="cta-explore-link">Or explore all Galaxy platforms →</a>
+    <!-- Cite Galaxy -->
+    <section class="cite-section">
+      <div class="cite-container">
+        <h2>Cite Galaxy</h2>
+        <p class="cite-text">
+          The Galaxy Community. &ldquo;The Galaxy platform for accessible, reproducible, and collaborative data
+          analyses: 2024 update.&rdquo;
+          <em>Nucleic Acids Res.</em> 2024, 52(W1):W83-W94.
+          <a href="https://doi.org/10.1093/nar/gkae410" target="_blank" rel="noopener noreferrer"
+            >doi:10.1093/nar/gkae410</a
+          >
+        </p>
+        <a href="/citing-galaxy/" class="cite-guide-link">Full citation guide &rarr;</a>
       </div>
     </section>
 
