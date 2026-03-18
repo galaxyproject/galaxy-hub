@@ -114,3 +114,10 @@ and
 https://docs.galaxyproject.org/en/master/project/organization.html (code governance). 
 
 The ELIXIR Galaxy Community is the European part of the Galaxy community, similar to the Biocommons in Australia. Scientific communities, national and international communities are coming together to govern the Galaxy project as part of working groups or the steering committee.
+
+# Acknowledgements
+
+This work took place in the framework of a collaboration between [Elixir](https://elixir-europe.org) and [Data Terra](https://www.data-terra.org/)'s project, [Gaia Data](https://www.gaia-data.org/).
+
+<div class="float-left" style="max-width: 200px"><img src="/images/logos/ELIXIR_RIR_Logo.png" alt="ELIXIR RIR logo"/></div>
+<div class="float-left" style="max-width: 200px"><img src="/images/logos/gaia_data.png" alt="Gaia Data logo"/></div>
