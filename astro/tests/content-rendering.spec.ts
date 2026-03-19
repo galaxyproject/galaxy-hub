@@ -201,8 +201,8 @@ test.describe('Content Rendering', () => {
     test('links are styled and clickable', async ({ page }) => {
       await page.goto('/admin/');
 
-      // Find links in content
-      const contentLinks = page.locator('main a[href]');
+      // Find links in content (exclude TOC sidebar links)
+      const contentLinks = page.locator('main a[href]:not(.toc-link)');
       const linkCount = await contentLinks.count();
 
       if (linkCount > 0) {
