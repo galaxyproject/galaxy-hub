@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { parse } from 'yaml';
-import { communitySlug } from './contributors';
+import { buildGtnHallOfFameUrl, communitySlug } from './contributors';
 
 export const europeSites = {
   freiburg: 'Freiburg',
@@ -124,9 +124,7 @@ export function loadPeopleData(): PeopleBySubsite {
           googleScholar: record['google-scholar'],
           researchgate: record.researchgate,
           hallOfFameSlug: hallSlug,
-          gtnProfile: hallSlug
-            ? `https://training.galaxyproject.org/training-material/hall-of-fame/${hallSlug}/`
-            : undefined,
+          gtnProfile: hallSlug ? buildGtnHallOfFameUrl(hallSlug) : undefined,
           avatarUrl: buildAvatar(github),
           bio: record.bio,
           alumni: record.alumni === true,
