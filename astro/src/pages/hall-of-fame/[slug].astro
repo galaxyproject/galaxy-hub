@@ -2,8 +2,9 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { marked } from 'marked';
 import {
+  buildGtnHallOfFameUrl,
+  communityHasGtnHallOfFame,
   communitySlug,
-  contributorHasHallOfFame,
   findCommunityBySlug,
   getGrantDisplay,
   getCommunityGithubHandle,
@@ -68,9 +69,8 @@ if (community) {
   if (record.matrix) pushLink('Matrix', `https://matrix.to/#/${record.matrix}`, 'matrix');
   if (record.orcid) pushLink('ORCID', `https://orcid.org/${record.orcid}`, 'orcid');
   if (githubHandle) pushLink('GitHub', `https://github.com/${githubHandle}`, 'github');
-  if (community?.type === 'contributor' && contributorHasHallOfFame(community.record)) {
-    const gtnSlug = communitySlug(community.record.id || displayName || targetSlug);
-    const gtnUrl = `https://galaxyproject.github.io/training-material/hall-of-fame/${gtnSlug}/`;
+  if (communityHasGtnHallOfFame(record)) {
+    const gtnUrl = buildGtnHallOfFameUrl(community.record.id || displayName || targetSlug);
     pushLink('GTN Hall of Fame', gtnUrl, 'gtn');
   }
 }

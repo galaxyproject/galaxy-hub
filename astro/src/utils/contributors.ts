@@ -11,6 +11,7 @@ export interface ContributorRecord {
   name?: string;
   avatar?: string;
   avatarUrl?: string;
+  'gtn-halloffame'?: string | boolean | number;
   halloffame?: string | boolean | number;
   hasHallOfFame?: boolean;
   [key: string]: any;
@@ -22,6 +23,7 @@ export interface OrganisationRecord {
   short_name?: string;
   avatar?: string;
   avatarUrl?: string;
+  'gtn-halloffame'?: string | boolean | number;
   [key: string]: any;
 }
 
@@ -32,6 +34,7 @@ export interface GrantRecord {
   avatar?: string;
   avatarUrl?: string;
   url?: string;
+  'gtn-halloffame'?: string | boolean | number;
   [key: string]: any;
 }
 
@@ -43,6 +46,13 @@ type CommunityGithubRecord = {
   github?: string | boolean;
   github_username?: string;
 };
+type HallOfFameRecord = {
+  id?: string;
+  'gtn-halloffame'?: string | boolean | number;
+  gtnHallOfFame?: string | boolean | number;
+  halloffame?: string | boolean | number;
+  hasHallOfFame?: boolean;
+};
 
 let contributorCache: ContributorMap | null = null;
 let organisationCache: OrganisationMap | null = null;
@@ -50,6 +60,19 @@ let grantCache: GrantMap | null = null;
 
 export function communitySlug(value: string): string {
   return baseCommunitySlug(value);
+}
+
+function parseHallOfFameFlag(flag: unknown, defaultValue = true): boolean {
+  if (flag === undefined || flag === null) return defaultValue;
+  if (typeof flag === 'boolean') return flag;
+  if (typeof flag === 'number') return flag !== 0;
+  if (typeof flag === 'string') {
+    const normalized = flag.trim().toLowerCase();
+    if (!normalized) return false;
+    if (['no', 'false', '0', 'off'].includes(normalized)) return false;
+    return true;
+  }
+  return Boolean(flag);
 }
 
 function normalizeAvatar(avatar?: string): string | undefined {
@@ -167,25 +190,28 @@ export function getContributorDisplay(userid: string | undefined): string | unde
 }
 
 /**
- * Determine if a contributor has a GTN Hall of Fame page.
+ * Determine if a community record has a GTN Hall of Fame page.
  * Defaults to true when the field is absent; falsy values or "no"/"false"/"0"/"off" disable it.
  */
-export function contributorHasHallOfFame(value?: string | ContributorRecord): boolean {
-  const record: ContributorRecord | undefined =
-    typeof value === 'string' ? getContributor(value) : (value as ContributorRecord | undefined);
+export function communityHasGtnHallOfFame(
+  value?: string | ContributorRecord | OrganisationRecord | GrantRecord
+): boolean {
+  const record: HallOfFameRecord | undefined =
+    typeof value === 'string'
+      ? getContributor(value) || getOrganisation(value) || getGrant(value)
+      : (value as HallOfFameRecord | undefined);
   if (!record) return false;
   if (typeof record.hasHallOfFame === 'boolean') return record.hasHallOfFame;
-  const flag = record.halloffame;
-  if (flag === undefined) return true;
-  if (typeof flag === 'boolean') return flag;
-  if (typeof flag === 'number') return flag !== 0;
-  if (typeof flag === 'string') {
-    const normalized = flag.trim().toLowerCase();
-    if (!normalized) return false;
-    if (['no', 'false', '0', 'off'].includes(normalized)) return false;
-    return true;
-  }
-  return Boolean(flag);
+  const flag = record['gtn-halloffame'] ?? record.gtnHallOfFame ?? record.halloffame;
+  return parseHallOfFameFlag(flag, true);
+}
+
+export function contributorHasHallOfFame(value?: string | ContributorRecord): boolean {
+  return communityHasGtnHallOfFame(value);
+}
+
+export function buildGtnHallOfFameUrl(value: string): string {
+  return `https://training.galaxyproject.org/training-material/hall-of-fame/${communitySlug(value)}/`;
 }
 
 export function getOrganisationDisplay(id: string | undefined): string | undefined {
