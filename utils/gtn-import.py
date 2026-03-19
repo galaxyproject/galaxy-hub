@@ -1,6 +1,7 @@
 import html
 import logging
 import os
+import re
 import sys
 from datetime import datetime
 
@@ -12,6 +13,17 @@ from geopy.geocoders import Nominatim
 from github import Github, GithubException
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
+
+
+def normalize_slug_segment(segment):
+    """Mirror the normalizeSlugSegment rules from astro/src/build/slug-utils.mjs."""
+    s = re.sub(r"([a-z])([A-Z])", r"\1-\2", segment)
+    s = re.sub(r"([A-Z]+)([A-Z][a-z])", r"\1-\2", s)
+    s = s.replace("_", "-")
+    s = s.lower()
+    s = re.sub(r"-{2,}", "-", s)
+    s = s.strip("-")
+    return s
 
 feed = feedparser.parse(os.getenv("FEED_URL"))
 
@@ -63,7 +75,7 @@ for entry in feed.get("entries", []):
     summary = html.unescape(entry.get("summary", ""))
 
     id = entry.get("id", "")
-    slug = os.path.splitext(os.path.basename(id.rstrip("/")))[0]
+    slug = normalize_slug_segment(os.path.splitext(os.path.basename(id.rstrip("/")))[0])
     folder = f"{date_ymd}-{slug}" if import_type == "news" else f"{slug}"
 
     if folder in existing_folders:
