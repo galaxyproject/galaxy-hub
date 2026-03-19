@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { extractAuthors, extractFunding, getCommunityGithubHandle } from './contributors';
+import { buildGtnHallOfFameUrl, extractAuthors, extractFunding, getCommunityGithubHandle } from './contributors';
 
 describe('contribution extraction', () => {
   it('includes extended contributions roles for authors', () => {
@@ -41,5 +41,13 @@ describe('community GitHub handles', () => {
 
   it('honors github false as an opt-out', () => {
     expect(getCommunityGithubHandle({ id: 'deKCD', github: false })).toBeUndefined();
+  });
+});
+
+describe('GTN Hall of Fame URLs', () => {
+  it('preserves the original community id casing', () => {
+    expect(buildGtnHallOfFameUrl('deKCD')).toBe(
+      'https://training.galaxyproject.org/training-material/hall-of-fame/deKCD/'
+    );
   });
 });

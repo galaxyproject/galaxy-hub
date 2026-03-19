@@ -104,6 +104,7 @@ export function loadPeopleData(): PeopleBySubsite {
       for (const [id, record] of Object.entries(people)) {
         if (!record || typeof record !== 'object') continue;
         const github = normalizeGithub(id, record);
+        const gtnProfileKey = github || id;
         const hallSlug = communitySlug(github || record.name || id);
         const profile: PersonProfile = {
           id,
@@ -124,7 +125,7 @@ export function loadPeopleData(): PeopleBySubsite {
           googleScholar: record['google-scholar'],
           researchgate: record.researchgate,
           hallOfFameSlug: hallSlug,
-          gtnProfile: hallSlug ? buildGtnHallOfFameUrl(hallSlug) : undefined,
+          gtnProfile: gtnProfileKey ? buildGtnHallOfFameUrl(gtnProfileKey) : undefined,
           avatarUrl: buildAvatar(github),
           bio: record.bio,
           alumni: record.alumni === true,

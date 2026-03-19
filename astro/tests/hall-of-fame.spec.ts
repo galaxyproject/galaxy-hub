@@ -51,6 +51,18 @@ test.describe('Hall of Fame', () => {
     );
   });
 
+  test('/hall-of-fame/dekcd/ preserves the original GTN key casing for organisations', async ({ page }) => {
+    const response = await page.goto('/hall-of-fame/dekcd/');
+    expect(response?.status()).toBe(200);
+
+    const gtnLink = page.getByRole('link', { name: 'GTN Hall of Fame' });
+    await expect(gtnLink).toBeVisible();
+    await expect(gtnLink).toHaveAttribute(
+      'href',
+      'https://training.galaxyproject.org/training-material/hall-of-fame/deKCD/'
+    );
+  });
+
   test('/hall-of-fame/an-example/ hides the GTN Hall of Fame link when opted out', async ({ page }) => {
     const response = await page.goto('/hall-of-fame/an-example/');
     expect(response?.status()).toBe(200);
