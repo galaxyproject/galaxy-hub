@@ -1,20 +1,22 @@
 ---
 import { normalizeSlug } from '../build/slug-utils.mjs';
+import HeroCarousel from './HeroCarousel.vue';
 
 // Edit these to change the homepage hero highlights.
-// Each entry needs { image, link, alt }.
+// Each entry needs { rawImage, link, alt }.
 // Set image to "" on an entry (or remove it) to skip that highlight.
 // If all images are empty, the Galaxy logo will be shown instead.
+// With multiple entries, they rotate as a carousel.
 const highlights = [
-  {
-    rawImage: '/images/events/gcc2026/gcc2026-carousel.png',
-    link: '/events/gcc2026/',
-    alt: 'Galaxy Community Conference 2026',
-  },
   {
     rawImage: '/images/gta2026-registration-banner-9x13.png',
     link: 'https://training.galaxyproject.org/training-material/events/2026-05-18-galaxy-academy.html',
     alt: 'Galaxy Training Academy 2026',
+  },
+  {
+    rawImage: '/images/events/gcc2026/gcc2026-carousel.png',
+    link: '/events/gcc2026/',
+    alt: 'Galaxy Community Conference 2026',
   },
 ];
 
@@ -37,13 +39,7 @@ const items = highlights
   items.length > 0 ? (
     <div class="hero-highlight-container">
       <img src="/images/galaxy_logo_white.svg" alt="Galaxy" class="hero-logo" />
-      <div class="hero-highlight-stack">
-        {items.map(({ image, link, alt }) => (
-          <a href={link} class="hero-highlight-link">
-            <img src={image} alt={alt} class="hero-highlight-img" />
-          </a>
-        ))}
-      </div>
+      <HeroCarousel client:load items={items} class="hero-carousel-wrapper" />
     </div>
   ) : (
     <img src="/images/galaxy_logo_white.svg" alt="Galaxy" class="hero-logo" />
@@ -59,7 +55,6 @@ const items = highlights
     width: 100%;
   }
 
-  /* Logo is absolutely centered over the stack, so the stack drives the container height. */
   .hero-logo {
     position: absolute;
     left: 50%;
@@ -72,39 +67,9 @@ const items = highlights
     animation: hero-fade-out 0.6s ease 1s forwards;
   }
 
-  .hero-highlight-stack {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    width: 470px;
-    max-width: 100%;
+  .hero-carousel-wrapper {
     opacity: 0;
     animation: hero-fade-in 0.6s ease 1s forwards;
-  }
-
-  .hero-highlight-link {
-    display: block;
-    width: 100%;
-    border-radius: 12px;
-    overflow: hidden;
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-    transition:
-      transform 0.2s ease,
-      box-shadow 0.2s ease,
-      border-color 0.2s ease;
-  }
-
-  .hero-highlight-link:hover {
-    transform: translateY(-2px);
-    border-color: rgba(255, 255, 255, 0.3);
-    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
-  }
-
-  .hero-highlight-img {
-    display: block;
-    width: 100%;
-    height: auto;
   }
 
   @keyframes hero-fade-out {
@@ -126,15 +91,15 @@ const items = highlights
       opacity: 0 !important;
     }
 
-    .hero-highlight-stack {
+    .hero-carousel-wrapper {
       opacity: 1 !important;
       animation: none;
     }
   }
 
   @media (max-width: 900px) {
-    .hero-highlight-stack {
-      width: 325px;
+    .hero-carousel-wrapper {
+      width: 360px;
     }
 
     .hero-logo {
