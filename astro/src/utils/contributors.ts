@@ -210,8 +210,17 @@ export function contributorHasHallOfFame(value?: string | ContributorRecord): bo
   return communityHasGtnHallOfFame(value);
 }
 
+function normalizeGtnHallOfFameKey(value: string): string {
+  return String(value || '')
+    .trim()
+    .replace(/^@/, '');
+}
+
 export function buildGtnHallOfFameUrl(value: string): string {
-  return `https://training.galaxyproject.org/training-material/hall-of-fame/${communitySlug(value)}/`;
+  const key = normalizeGtnHallOfFameKey(value);
+  return key
+    ? `https://training.galaxyproject.org/training-material/hall-of-fame/${encodeURIComponent(key)}/`
+    : 'https://training.galaxyproject.org/training-material/hall-of-fame/';
 }
 
 export function getOrganisationDisplay(id: string | undefined): string | undefined {
