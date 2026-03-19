@@ -1,4 +1,5 @@
 import html
+import json
 import logging
 import os
 import re
@@ -15,6 +16,13 @@ from github import Github, GithubException
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 
+_SLUG_OVERRIDES_PATH = os.path.join(
+    os.path.dirname(__file__), "..", "astro", "src", "build", "slug-overrides.json"
+)
+with open(_SLUG_OVERRIDES_PATH) as f:
+    _SLUG_OVERRIDES = json.load(f)
+
+
 def normalize_slug_segment(segment):
     """Mirror the normalizeSlugSegment rules from astro/src/build/slug-utils.mjs."""
     s = re.sub(r"([a-z])([A-Z])", r"\1-\2", segment)
@@ -22,8 +30,11 @@ def normalize_slug_segment(segment):
     s = s.replace("_", "-")
     s = s.lower()
     s = re.sub(r"-{2,}", "-", s)
+    for key, value in sorted(_SLUG_OVERRIDES.items(), key=lambda x: -len(x[0])):
+        s = s.replace(key, value)
     s = s.strip("-")
     return s
+
 
 feed = feedparser.parse(os.getenv("FEED_URL"))
 
