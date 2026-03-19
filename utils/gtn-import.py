@@ -32,7 +32,7 @@ def normalize_slug_segment(segment):
     s = re.sub(r"-{2,}", "-", s)
     for key, value in sorted(_SLUG_OVERRIDES.items(), key=lambda x: -len(x[0])):
         s = s.replace(key, value)
-    s = s.strip("-")
+    s = re.sub(r"^-|-$", "", s)
     return s
 
 
