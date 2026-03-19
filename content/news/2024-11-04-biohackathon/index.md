@@ -1,5 +1,5 @@
 ---
-title: ELIXIR Biohackathon in Barcelona
+title: ELIXIR BioHackathon Europe in Barcelona
 date: '2024-11-04'
 tags: [training, hackathon]
 location:
