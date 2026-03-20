@@ -260,6 +260,16 @@ describe('shiftHeadings', () => {
     const content = '# A\n\n# B\n\n##### Five';
     expect(shiftHeadings(content)).toBe('## A\n\n## B\n\n###### Five');
   });
+
+  it('does not shift headings inside fenced code blocks', () => {
+    const content = '# A\n\n# B\n\n```\n# code comment\n## also code\n```\n\n## Real heading';
+    expect(shiftHeadings(content)).toBe('## A\n\n## B\n\n```\n# code comment\n## also code\n```\n\n### Real heading');
+  });
+
+  it('does not shift headings inside tilde fenced code blocks', () => {
+    const content = '# A\n\n# B\n\n~~~\n# code comment\n~~~\n\n## Real';
+    expect(shiftHeadings(content)).toBe('## A\n\n## B\n\n~~~\n# code comment\n~~~\n\n### Real');
+  });
 });
 
 describe('generateTease', () => {
