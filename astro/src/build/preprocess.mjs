@@ -173,16 +173,19 @@ function shiftHeadings(content) {
   if (h1Count < 2) return content;
 
   let inFence = false;
-  return content.split('\n').map((line) => {
-    if (/^(`{3,}|~{3,})/.test(line)) {
-      inFence = !inFence;
-    }
-    if (inFence) return line;
-    return line.replace(/^(#{1,6})( )/, (match, hashes, space) => {
-      if (hashes.length >= 6) return match;
-      return '#' + hashes + space;
-    });
-  }).join('\n');
+  return content
+    .split('\n')
+    .map((line) => {
+      if (/^(`{3,}|~{3,})/.test(line)) {
+        inFence = !inFence;
+      }
+      if (inFence) return line;
+      return line.replace(/^(#{1,6})( )/, (match, hashes, space) => {
+        if (hashes.length >= 6) return match;
+        return '#' + hashes + space;
+      });
+    })
+    .join('\n');
 }
 
 /**
