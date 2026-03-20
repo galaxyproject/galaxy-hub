@@ -10,6 +10,9 @@ contributions:
     - yvanlebras
     - TuturBaba
     - nadinelebris
+  funding:
+    - moorev
+    - pndb
 source_blog: "Galaxy Project Blog"
 source_blog_url: "https://galaxyproject.org/blog/2026-03-20-ecology-IA-imaging/"
 ---
