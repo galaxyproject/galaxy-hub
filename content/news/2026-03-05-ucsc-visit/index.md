@@ -1,5 +1,5 @@
 ---
-title: 'UCSC staff visit: Integration Genome Browser - Galaxy'
+title: 'UCSC staff visit: enhancing the Genome Browser - Galaxy integration'
 date: '2026-03-05'
 tease: "Data annotation imports"
 tags: [tools, data, visualization]
