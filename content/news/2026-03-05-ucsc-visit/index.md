@@ -11,7 +11,7 @@ contributions:
     - wm75
   funding:
     - deNBI
-    - eubi
+    - dfg
 ---
 
 # **Human Genome Browser staff visit**
