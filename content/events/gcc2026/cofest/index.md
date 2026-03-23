@@ -44,7 +44,7 @@ CoFest is intentionally informal. We will have two days of collaborative work/br
 
 ## Find Your Track
 
-To put together the best possible teams, we want to hear from you before the event. Fill out the form below to share your background, the kind of work you enjoy, and what you're hoping to get out of CoFest.
+To put together the best possible teams, we would like to know your interests. Fill out the form below to share your background, the kind of work you enjoy, and what you're hoping to get out of CoFest.
 
 <div class="flex justify-center my-5">
   <a href="https://docs.google.com/forms/d/e/1FAIpQLSfVznubQqoEZYHT0IFoG5zumoXI0oyaBxcNEgOUFnWzVLChkw/viewform?usp=sharing&ouid=117702235489827456804" class="inline-flex items-center justify-center rounded px-8 py-2 text-sm font-semibold text-white bg-galaxy-primary hover:bg-galaxy-dark no-underline hover:no-underline" target="_blank">Fill out this form!</a>
