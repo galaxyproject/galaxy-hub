@@ -7,7 +7,8 @@ subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:
   authorship:
-    - maximilianhaeussler
+    - maximilianh
+    - wm75
   funding:
     - deNBI
     - eubi
