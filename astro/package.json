@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.1",
   "engines": {
-    "node": ">=20"
+    "node": ">=22"
   },
   "scripts": {
     "preprocess": "node src/build/preprocess.mjs",
@@ -29,10 +29,10 @@
     "content:lint": "node src/build/normalize-content.mjs --all --check && node src/build/check-dir-names.mjs"
   },
   "dependencies": {
-    "@astrojs/mdx": "^4.3.13",
-    "@astrojs/rss": "^4.0.15",
-    "@astrojs/sitemap": "^3.7.0",
-    "@astrojs/vue": "^5.1.4",
+    "@astrojs/mdx": "^5.0.0",
+    "@astrojs/rss": "^4.0.17",
+    "@astrojs/sitemap": "^3.7.1",
+    "@astrojs/vue": "^6.0.0",
     "@citation-js/core": "^0.6.9",
     "@citation-js/plugin-bibtex": "^0.6.9",
     "@fontsource/atkinson-hyperlegible": "^5.2.8",
@@ -41,7 +41,7 @@
     "@tailwindcss/typography": "^0.5.19",
     "@tailwindcss/vite": "^4.1.17",
     "@vueuse/core": "^14.1.0",
-    "astro": "^5.16.11",
+    "astro": "^6.0.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "glob": "^13.0.0",

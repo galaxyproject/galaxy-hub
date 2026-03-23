@@ -61,4 +61,4 @@ to the [organizers](/events/gcc2026/organizers/).
 # Questions?
 
 Got questions about abstracts, abstract submission, or BoFs? Ask the [Scientific Program
-Committee](https://galaxyproject.org/events/gcc2023/organizers/#scientific-program-committee).
+Committee](https://galaxyproject.org/events/gcc2026/organizers/#scientific-program-committee).
