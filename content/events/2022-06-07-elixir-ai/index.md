@@ -13,7 +13,7 @@ contact: "Anup Kumar, Kaivan Kamali, Leyla Jael Castro, Fotis E. Psomopoulos and
 image:
 subsites: [global, all-eu]
 contributions:
-  authorship:
+  organisers:
     - anuprulez
     - kxk302
 

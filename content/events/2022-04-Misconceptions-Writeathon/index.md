@@ -14,7 +14,7 @@ contact: "Hans-Rudolf Hotz"
 tags: []
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - hrhotz
 
 ---

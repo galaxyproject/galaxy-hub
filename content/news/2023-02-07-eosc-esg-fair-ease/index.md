@@ -8,7 +8,9 @@ subsites: [all-eu, esg, all]
 main_subsite: eu
 contributions:
   funding:
+    - eu
     - deNBI
+    - mwk
     - elixir-europe
     - eosc-life
     - eurosciencegateway

@@ -13,7 +13,7 @@ contact: "Coline Royaux, Yvan Le Bras"
 image:
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - colineroyaux
     - yvanlebras
 

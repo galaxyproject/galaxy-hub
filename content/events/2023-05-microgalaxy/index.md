@@ -11,7 +11,7 @@ gtn: false
 contact: "Bérénice Batut"
 subsites: [all]
 contributions:
-  authorship:
+  organisers:
     - bebatut
 
 ---

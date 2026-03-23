@@ -19,7 +19,21 @@ The easiest way is to use the edit link on any Hub page — click the GitHub ico
 
 In the GitHub web interface, navigate to the appropriate directory under `/content/` and click "Add file" → "Create new file". Name it `your-page-name/index.md` (GitHub will create the directory for you).
 
-**Naming conventions**: Use lowercase letters and hyphens. `community/galaxy-south-africa/` not `community/GalaxySouthAfrica/`.
+**Directory naming rules**: Use lowercase letters, numbers, and hyphens. The directory name becomes the URL slug.
+
+```
+community/galaxy-south-africa/     ✓
+community/GalaxySouthAfrica/       ✗  (camelCase)
+events/2025-05-06-spoc_meet/       ✗  (underscore)
+```
+
+A CI lint check enforces these rules on every PR. If your directory name doesn't match, the check will fail and tell you what to rename.
+
+**What gets normalized automatically**: If a legacy directory has camelCase or underscores, the build normalizes it — `GalaxySouthAfrica` becomes `galaxy-south-africa`, `spoc_meet` becomes `spoc-meet`. Redirects are generated from the old name.
+
+**Letters next to numbers are fine as-is**: `gcc2026`, `pag31`, `lkj34` are all valid and won't be split. You can also write `gcc-2026` if you prefer — it's your choice. The normalizer does not insert or remove hyphens at letter-digit boundaries.
+
+**Date-prefixed directories** (like `2025-10-15-my-event`) keep the date prefix unchanged; only the part after the date is normalized.
 
 ## Writing content
 
@@ -70,14 +84,14 @@ For images shared across pages, use `/images/...` paths (these are served from `
 
 ### Contributions metadata and Hall of Fame recognition
 
-For news and event posts, credit authors and supporters in frontmatter using `contributions`:
+For news and event posts, credit organisers and supporters in frontmatter using `contributions`:
 
 ```yaml
 ---
 title: "My Event"
 date: 2026-03-05
 contributions:
-  authorship:
+  organisers:
     - bgruening
     - deNBI
   funding:
@@ -88,7 +102,7 @@ contributions:
 ---
 ```
 
-- `contributions.authorship` supports contributor and organisation IDs
+- `contributions.organisers` supports contributor and organisation IDs
 - `contributions.funding` supports organisation and grant IDs, and can include multiple funders
 - IDs should come from [`CONTRIBUTORS.yaml`](https://github.com/galaxyproject/training-material/blob/main/CONTRIBUTORS.yaml), [`ORGANISATIONS.yaml`](https://github.com/galaxyproject/training-material/blob/main/ORGANISATIONS.yaml), and [`GRANTS.yaml`](https://github.com/galaxyproject/training-material/blob/main/GRANTS.yaml) shared with the [GTN](https://training.galaxyproject.org/), please edit them directly in the GTN repository.
 

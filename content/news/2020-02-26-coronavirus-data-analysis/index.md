@@ -1,7 +1,7 @@
 ---
 title: Coronavirus data analysis by University of Freiburg
 date: '2020-02-26'
-tags: [COVID-19, data, training, workshop, talk]
+tags: [covid-19, data, training, workshop, talk]
 external_url: https://www.pr.uni-freiburg.de/pm-en/press-releases-2020/coronavirus-data-analysis?set_language=en
 subsites: [eu, freiburg]
 main_subsite: freiburg

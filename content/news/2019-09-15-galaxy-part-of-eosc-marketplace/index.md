@@ -8,6 +8,7 @@ contributions:
   authorship:
     - bgruening
   funding:
+    - eu
     - deNBI
     - elixir-europe
     - eosc-life

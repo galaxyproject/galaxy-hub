@@ -11,6 +11,9 @@ gtn: true
 contact: "Marie Josse: marie.josse@ifremer.fr"
 tags: [conference]
 subsites: [all]
+contributions:
+  organisers:
+    - dataterra
 ---
 
 The European Geosciences Union (EGU) is held at the Austria Center Vienna (ACV) in Vienna, Austria and online, from the  03-08 May 2026. The assembly is open to the scientists of all nations. During this conference Data Terra is holding a session called **FAIR Data and Virtual Research Environments for Interdisciplinary Earth System Science**. 

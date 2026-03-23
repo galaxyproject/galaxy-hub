@@ -1,7 +1,7 @@
 ---
 title: Galaxy Africa Community Update
 date: '2020-07-30'
-tags: [training, tiaas, GCC]
+tags: [training, tiaas, gcc]
 location:
   name: online
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]

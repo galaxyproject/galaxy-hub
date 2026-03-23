@@ -328,7 +328,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 ![usegalaxy-dot-star](/images/galaxy-logos/usegalaxy-dot-star-white.png)
 
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
-* New use cases published in [UseGalaxy.eu](https://galaxyproject.eu/news?tag=UseCase):
+* New use cases published in [UseGalaxy.eu](https://galaxyproject.eu/news?tag=usecase):
     * [microRNAs in heart disease](https://galaxyproject.eu/posts/2021/10/11/use-case-ileana-duran/)
     * [cellular specification, differentiation and morphogenesis of the mucociliary epithelium](https://galaxyproject.eu/posts/2021/10/12/use-case-sarah-bowden/)
 

@@ -3,7 +3,7 @@ title: June 2019 Galactic News
 date: '2019-06-03'
 tease: GCC2019 registration / Poster/Demo abstracts / sponsors, GTN CoFest, Platforms,
   Pubs, Jobs, Blog!, Training, Tools, Releases and more!
-tags: [newsletter, galaxy]
+tags: [newsletter]
 subsites: [all-eu, global, us]
 ---
 

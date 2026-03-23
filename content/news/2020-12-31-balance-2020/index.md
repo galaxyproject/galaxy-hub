@@ -1,9 +1,8 @@
 ---
 title: The European Galaxy Server in 2020
 date: '2020-12-31'
-tease: What a shitty year! But it’s over and we hope you and your family are safe
-  and healthy.
-tags: [data, training, tools, streetscience, COVID-19, report]
+tease: What a shitty year! But it’s over and we hope you and your family are safe and healthy.
+tags: [data, training, tools, streetscience, covid-19, report]
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
 contributions:
@@ -11,6 +10,7 @@ contributions:
     - beatrizserrano
     - bgruening
   funding:
+    - eu
     - uni-freiburg
     - elixir-europe
     - deNBI

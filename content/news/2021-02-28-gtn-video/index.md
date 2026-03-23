@@ -1,7 +1,7 @@
 ---
 title: New introductory video to the Galaxy Training Network
 date: '2021-02-28'
-tags: [training, FAQ]
+tags: [training, faq]
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
@@ -17,4 +17,3 @@ This formidable video takes us on a journey through the different learning profi
 
 <br />
 Thank you very much for this great contribution to the Galaxy community, Geert!
-

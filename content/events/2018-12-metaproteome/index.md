@@ -12,7 +12,7 @@ external_url:
 contact: "Pratik Jagtap, Tim Griffin, Magnus Arntzen, Praveen Kumar"
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - pratikdjagtap
     - pravs3683
 

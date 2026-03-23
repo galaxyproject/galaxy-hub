@@ -11,7 +11,7 @@ contact: "Amirhossein Nilchi, Pavan Videm, Sebastian Preissl"
 tags: [workshop, training]
 subsites: [all]
 contributions:
-  authorship:
+  organisers:
     - Nilchia
     - pavanvidem
     - sebastian-preissl

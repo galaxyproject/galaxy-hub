@@ -2,7 +2,7 @@
 title: 'Speed up your data analysis with Galaxy: Features no one knows about'
 date: '2021-03-24'
 end: '2021-03-24'
-tags: [training, COVID-19, webinar, talk]
+tags: [training, covid-19, webinar, talk]
 contacts:
 - name: Galaxy and ELIXIR
 location:
@@ -17,7 +17,6 @@ contributions:
     - deNBI
     - elixir-europe
     - uni-freiburg
-
 ---
 
 Galaxy is supported by a large and active community distributed across the globe, which leads to rapid developments in every release. However, many of this features remain unknown by most of the users.

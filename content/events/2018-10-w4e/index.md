@@ -13,7 +13,7 @@ gtn: True
 contact: "Gildas Le Corguillé"
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - lecorguille
 
 ---

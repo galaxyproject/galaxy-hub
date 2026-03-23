@@ -49,15 +49,19 @@ const { title, description } = Astro.props;
 
   .prose-galaxy a {
     color: var(--tw-prose-links);
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: color-mix(in srgb, var(--tw-prose-links) 40%, transparent);
+    text-underline-offset: 2px;
   }
 
   .prose-galaxy a:hover {
     text-decoration: underline;
+    text-decoration-color: currentColor;
   }
 
   .prose a:hover {
     text-decoration: underline;
+    text-decoration-color: currentColor;
     color: var(--tw-prose-links);
   }
 

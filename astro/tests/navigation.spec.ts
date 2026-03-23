@@ -319,8 +319,12 @@ test.describe('Navigation', () => {
       const searchButton = page.locator('aside button[type="submit"]');
       await searchButton.click();
 
-      // Should navigate to search page with query
-      await expect(page).toHaveURL(/\/search/);
+      // Should navigate to search page with query parameter preserved
+      await expect(page).toHaveURL(/\/search\/\?q=galaxy/);
+
+      // Wait for Vue hydration and search results to appear
+      const resultsText = page.getByText(/\d+ results?/);
+      await expect(resultsText).toBeVisible({ timeout: 10000 });
     });
   });
 

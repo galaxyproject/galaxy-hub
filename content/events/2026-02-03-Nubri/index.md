@@ -5,9 +5,10 @@ end: '2026-02-03'
 location:
   name: "Online"
 tags: [community]
-organizers:
-  - galaxyfreiburg
 subsites: [all, eu]
+contributions:
+  organisers:
+    - freiburggalaxyteam
 ---
 
 # Kick off event for Galaxy NUBRI

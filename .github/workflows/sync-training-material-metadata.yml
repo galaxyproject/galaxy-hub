@@ -10,6 +10,7 @@ jobs:
   sync-files:
     name: Sync files from training-material
     runs-on: ubuntu-latest
+    if: github.repository_owner == 'galaxyproject'
     permissions:
       contents: write
       pull-requests: write

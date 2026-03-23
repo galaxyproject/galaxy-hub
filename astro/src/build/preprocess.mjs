@@ -18,6 +18,8 @@ import { processMarkdown, processFrontmatter } from './markdown-processor.mjs';
 import { normalizeSlugSegment, normalizeSlug } from './slug-utils.mjs';
 export { normalizeSlugSegment, normalizeSlug };
 
+const JSX_COMMENT_RE = /\{\/\*[\s\S]*?\*\/\}/g;
+
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ASTRO_ROOT = path.resolve(__dirname, '../..');
 const PROJECT_ROOT = path.resolve(ASTRO_ROOT, '..'); // galaxy-hub/
@@ -308,12 +310,12 @@ const insertCache = new Map();
 
 /**
  * Resolve an insert file's content, applying the same transforms used for page content.
- * Returns the processed body HTML, or null if the file doesn't exist.
+ * Returns { content, hasComponents } or null if the file doesn't exist.
  */
 function resolveInsertContent(slotName, depth = 0) {
   if (depth > 2) {
     console.warn(`  Warning: insert nesting too deep for ${slotName}, stopping at depth ${depth}`);
-    return `<!-- Insert nesting too deep: ${slotName} -->`;
+    return { content: `<!-- Insert nesting too deep: ${slotName} -->`, hasComponents: false };
   }
 
   const cacheKey = `${slotName}:${depth}`;
@@ -348,35 +350,46 @@ function resolveInsertContent(slotName, depth = 0) {
     }
   }
 
-  const { content: body } = matter(rawContent);
+  const { data: insertFrontmatter, content: body } = matter(rawContent);
 
   // Compute the insert's own slug for image path resolution
   const insertSlug = normalizeSlug(relativePath);
 
   // Apply the same content transforms used in processMarkdownFile
   let processed = body;
-  processed = inlineInserts(processed, depth + 1);
+  processed = processed.replace(JSX_COMMENT_RE, '');
+  const { content: inlined, hasComponents: nestedComponents } = inlineInserts(processed, depth + 1);
+  processed = inlined;
   processed = addBootstrapMarker(processed);
   processed = processImagePaths(processed, insertSlug);
 
-  insertCache.set(cacheKey, processed);
-  return processed;
+  const hasComponents = insertFrontmatter.components === true || nestedComponents;
+  const result = { content: processed, hasComponents };
+  insertCache.set(cacheKey, result);
+  return result;
 }
 
 /**
  * Inline <slot name="..."> references by reading insert files and splicing
  * their processed content directly into the parent. This eliminates the MDX
  * requirement for pages that only used slots (171 of 184 conflict pages).
+ * Returns { content, hasComponents } — hasComponents is true if any inlined
+ * insert had components: true in its frontmatter.
  */
 function inlineInserts(content, depth = 0) {
-  return content.replace(/<slot\s+name=["']([^"']+)["']\s*\/?>/gi, (match, slotName) => {
+  let hasComponents = false;
+  const result = content.replace(/<slot\s+name=["']([^"']+)["']\s*\/?>/gi, (match, slotName) => {
     const resolved = resolveInsertContent(slotName, depth);
     if (resolved === null) {
       return `<!-- Insert not found: ${slotName} -->`;
     }
+    if (resolved.hasComponents) {
+      hasComponents = true;
+    }
     // Wrap in a div with data-name so layout CSS selectors can target inserts
-    return `<div class="insert" data-name="${slotName}">\n${resolved}\n</div>`;
+    return `<div class="insert" data-name="${slotName}">\n${resolved.content}\n</div>`;
   });
+  return { content: result, hasComponents };
 }
 
 /**
@@ -443,9 +456,12 @@ async function processMarkdownFile(filePath) {
   }
 
   // Inline insert content before checking for components — slots are resolved
-  // at preprocess time now, so pages that only had slots won't need MDX
+  // at preprocess time now, so pages that only had slots won't need MDX.
+  // If any inlined insert has components: true, the parent must become MDX too.
   let processedContent = body;
-  processedContent = inlineInserts(processedContent);
+  processedContent = processedContent.replace(JSX_COMMENT_RE, '');
+  const { content: inlinedContent, hasComponents: insertsHaveComponents } = inlineInserts(processedContent);
+  processedContent = inlinedContent;
 
   // Process content
   processedContent = addBootstrapMarker(processedContent);
@@ -463,6 +479,7 @@ async function processMarkdownFile(filePath) {
   // Process frontmatter
   const processedFrontmatter = processFrontmatter({ ...frontmatter });
   processedFrontmatter.slug = slug;
+  processedFrontmatter.sourceFile = relativePath.replace(/\\/g, '/');
 
   // Rewrite frontmatter image path the same way we rewrite body image paths
   if (processedFrontmatter.image && typeof processedFrontmatter.image === 'string') {
@@ -501,7 +518,7 @@ async function processMarkdownFile(filePath) {
   const collectionDir = path.join(ASTRO_CONTENT_DIR, collection);
   await fs.promises.mkdir(collectionDir, { recursive: true });
 
-  const useMdx = frontmatter.components === true && collection !== 'inserts';
+  const useMdx = frontmatter.components === true || insertsHaveComponents;
   const destPath = path.join(collectionDir, slugToFilename(slug, useMdx));
   const newContent = matter.stringify(processedContent, processedFrontmatter);
   await fs.promises.writeFile(destPath, newContent);

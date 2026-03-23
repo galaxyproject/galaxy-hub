@@ -13,8 +13,10 @@ contact: "Jiří Vondrášek, Martin Čech, Simon Bray"
 image: 
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - martenson
     - simonbray
+  funding:
+    - elixir-cz
 
 ---

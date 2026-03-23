@@ -118,7 +118,14 @@ const filteredPlatforms = computed(() => {
   }
 
   // Sort by title
-  return result.sort((a, b) => (a.title || '').localeCompare(b.title || ''));
+  const sorted = result.sort((a, b) => {
+    const titleA = (a.title || '').toLowerCase();
+    const titleB = (b.title || '').toLowerCase();
+    if (titleA < titleB) return -1;
+    if (titleA > titleB) return 1;
+    return 0;
+  });
+  return sorted;
 });
 
 function clearFilters() {

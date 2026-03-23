@@ -3,7 +3,7 @@ title: September 2020 Galactic News
 date: '2020-09-01'
 tease: BCC2020 & GCC2021, events, platforms, blog posts, tutorials, pubs, releases,
   obs ...
-tags: [newsletter, galaxy]
+tags: [newsletter]
 subsites: [all-eu, global, us]
 ---
 

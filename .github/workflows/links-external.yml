@@ -9,6 +9,7 @@ jobs:
   check_links:
     name: Check External Links
     runs-on: ubuntu-latest
+    if: github.repository_owner == 'galaxyproject'
     steps:
       - name: Link Checker
         uses: lycheeverse/lychee-action@v2

@@ -14,7 +14,7 @@ tags: [ ]
 image: 
 subsites: [global, all-eu]
 contributions:
-  authorship:
+  organisers:
     - jmchilton
     - kxk302
     - mvdbeek

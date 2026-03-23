@@ -10,6 +10,7 @@ contributions:
     - Marie59
     - yvanlebras
   funding:
+    - eu
     - eurosciencegateway
 ---
 

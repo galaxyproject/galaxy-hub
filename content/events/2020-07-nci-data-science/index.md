@@ -13,7 +13,7 @@ gtn: true
 contact: "Anton Nekrutenko"
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - nekrut
 
 ---

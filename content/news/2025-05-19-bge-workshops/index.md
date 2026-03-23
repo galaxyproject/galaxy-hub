@@ -3,12 +3,15 @@ title: "Genome Assembly and Annotation Training using Galaxy and TIaaS"
 date: "2025-05-19"
 tease: "Using the Galaxy infrastructure and workflows to teach de-novo genome assembly and annotation"
 subsites: [global,eu,all]
-tags: [tiaas]
+tags: [tiaas, erga]
 main_subsite: eu
 contributions:
   authorship:
     - tbrown91
     - diegodepanis
+  funding:
+    - eu
+    - bge
 ---
 
 ## Biodiversity Genomics in Europe

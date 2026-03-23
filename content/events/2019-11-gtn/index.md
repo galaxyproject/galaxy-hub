@@ -11,7 +11,7 @@ gtn: false
 tags: [cofest, training]
 subsites: [eu, freiburg, global, us]
 contributions:
-  authorship:
+  organisers:
     - shiltemann
   funding:
     - deNBI

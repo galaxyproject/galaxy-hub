@@ -13,7 +13,9 @@ contact: Martin Čech, Petr Novák
 tags: [training]
 subsites: [all-eu, global, us]
 contributions:
-  authorship:
+  organisers:
     - martenson
+  funding:
+    - elixir-cz
 
 ---

@@ -1,9 +1,8 @@
 ---
 title: 'COVID updates: B.1.617.2 detected in COG-UK data from the beginning of April'
 date: '2021-05-11'
-tease: We checked the COG-UK data to see if we’d find representative samples of  B.1.617.2
-  (one of the Indian lineages, and a Variant of Concern).
-tags: [COVID-19, galaxy]
+tease: We checked the COG-UK data to see if we’d find representative samples of  B.1.617.2 (one of the Indian lineages, and a Variant of Concern).
+tags: [covid-19]
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
 contributions:

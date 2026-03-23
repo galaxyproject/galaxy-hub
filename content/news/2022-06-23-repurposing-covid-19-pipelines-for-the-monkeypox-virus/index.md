@@ -4,11 +4,12 @@ date: '2022-06-23'
 tease: "One aim of the BY-COVID project is to build a framework enabling data from newly emerging infectious disease threats to be made rapidly and widely accessible."
 hide_tease: true
 external_url: https://by-covid.org/news-events/monkeypox-pipeline/
-tags: [COVID-19, data, workflow, virology, community]
+tags: [covid-19, data, workflow, virology, community]
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:
   funding:
+    - eu
     - deNBI
     - elixir-europe
     - eosc-life

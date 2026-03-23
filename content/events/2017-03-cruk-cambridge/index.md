@@ -13,7 +13,7 @@ gtn: true
 contact: Anne Pajon, Jing Su
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - pajanne
 
 ---

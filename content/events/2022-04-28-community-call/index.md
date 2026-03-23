@@ -12,7 +12,7 @@ contact: Aysam Guerler, Marius van der Beek, Beatriz Serrano-Solano
 tags: [community-call]
 subsites: [all]
 contributions:
-  authorship:
+  organisers:
     - beatrizserrano
     - guerler
 

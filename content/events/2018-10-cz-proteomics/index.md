@@ -13,7 +13,8 @@ contact: "Björn Grüning"
 gtn: true
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - bgruening
-
+  funding:
+    - elixir-cz
 ---

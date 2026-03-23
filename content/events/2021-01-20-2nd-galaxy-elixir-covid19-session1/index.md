@@ -2,7 +2,7 @@
 title: 'COVID-19 analysis in Galaxy: Lessons learned and introduction to the series'
 date: '2021-01-20'
 end: '2021-01-20'
-tags: [training, COVID-19]
+tags: [training, covid-19]
 contacts:
 - name: Galaxy and ELIXIR
 location:
@@ -16,7 +16,6 @@ contributions:
     - bmbf
     - deNBI
     - elixir-europe
-
 ---
 
 The Galaxy Community and ELIXIR organise a second webinar series to demonstrate how open software and public research infrastructures can be

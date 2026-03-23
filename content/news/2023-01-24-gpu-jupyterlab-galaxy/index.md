@@ -9,6 +9,7 @@ contributions:
   authorship:
     - anuprulez
   funding:
+    - eu
     - eurosciencegateway
 ---
 

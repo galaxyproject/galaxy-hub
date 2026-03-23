@@ -12,7 +12,7 @@ external_url: http://sched.co/Bl3d
 contact: 'Enis Afgan, Marcus Christie, Nuwan Goonasekera'
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - afgane
     - nuwang
 

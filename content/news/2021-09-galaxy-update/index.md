@@ -47,7 +47,7 @@ PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.
 </div>
 <div class="card-header trim-p">
 
-[Galaxy Use Cases](https://galaxyproject.eu/news?tag=UseCase)
+[Galaxy Use Cases](https://galaxyproject.eu/news?tag=usecase)
 
 </div>
 

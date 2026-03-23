@@ -15,7 +15,7 @@ contact: Anthony Bretaudeau, Alexandre Cormier, Erwan Corre, Stéphanie Robin
 tags: []
 subsites: [all-eu, global, us]
 contributions:
-  authorship:
+  organisers:
     - abretaud
     - alexcorm
     - r1corre

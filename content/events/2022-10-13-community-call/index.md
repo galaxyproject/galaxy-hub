@@ -12,7 +12,7 @@ contact: Eli Chadwick
 tags: [training, community-call, community]
 subsites: [all]
 contributions:
-  authorship:
+  organisers:
     - elichad
 
 ---

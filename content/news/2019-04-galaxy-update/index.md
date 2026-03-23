@@ -3,7 +3,7 @@ title: April 2019 Galactic News
 date: '2019-04-03'
 tease: GCC2019 registration and abstract submission, Platforms, Pubs, Jobs, Blog!,
   Training, Tools, Releases and more!
-tags: [newsletter, galaxy]
+tags: [newsletter]
 subsites: [all-eu, global, us]
 ---
 

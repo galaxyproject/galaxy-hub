@@ -1,7 +1,7 @@
 ---
 title: Queue changes during GCC
 date: '2019-05-24'
-tags: [devops, GCC]
+tags: [devops, gcc]
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

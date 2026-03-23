@@ -11,12 +11,12 @@ contact: "Anika Erxleben"
 tags: [workshop, training, esg, esg-wp1]
 subsites: [all, esg]
 contributions:
-  authorship:
+  organisers:
     - erxleben
   funding:
+    - eu
     - eurosciencegateway
     - nfdi4plants
-
 ---
 
 # General information

@@ -9,6 +9,7 @@ contributions:
   authorship:
     - plushz
   funding:
+    - eu
     - eurosciencegateway
 ---
 

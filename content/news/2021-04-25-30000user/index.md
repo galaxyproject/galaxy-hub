@@ -1,13 +1,14 @@
 ---
 title: 30,000 users
 date: '2021-04-25'
-tags: [galaxy]
+tags: []
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   authorship:
     - beatrizserrano
   funding:
+    - eu
     - deNBI
     - elixir-europe
     - eosc-life

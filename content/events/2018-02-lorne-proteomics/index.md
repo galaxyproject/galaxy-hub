@@ -13,7 +13,7 @@ gtn: false
 contact: Maria Doyle
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - mblue9
 
 ---

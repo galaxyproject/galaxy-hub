@@ -3,7 +3,7 @@ title: "Carbon Emissions Reporting in Galaxy"
 tease: "Dynamic carbon emissions reporting for jobs in Galaxy"
 hide_tease: false
 date: "2023-07-11"
-tags: ["UI/UX", "highlight"]
+tags: ["ui-ux", "highlight"]
 subsites: [global, all]
 contributions:
   authorship:

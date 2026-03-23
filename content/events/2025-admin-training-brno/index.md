@@ -13,12 +13,13 @@ contact: Instructors
 tags: [gat, admin]
 subsites: [global, us, eu, esg]
 contributions:
-  authorship:
+  organisers:
     - martenson
   funding:
     - cesnet
     - deKCD
     - deNBI
+    - mwk
     - elixir-cz
 
 ---

@@ -11,6 +11,7 @@ tags: [esg, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5, conference, cofest, dem
 contributions:
   funding:
     - deNBI
+    - mwk
     - egi
     - elixir-europe
     - eu

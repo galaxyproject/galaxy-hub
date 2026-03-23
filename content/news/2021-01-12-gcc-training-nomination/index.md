@@ -1,7 +1,7 @@
 ---
 title: Nominate a training for the 2021 Galaxy Community Conference (GCC2021)
 date: '2021-01-12'
-tags: [training, GCC]
+tags: [training, gcc]
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:

@@ -2,7 +2,7 @@
 title: 'Galaxy-ELIXIR Webinar 3: Cheminformatics - Screening of the main protease'
 date: '2020-05-14'
 end: '2020-05-14'
-tags: [training, COVID-19]
+tags: [training, covid-19]
 contacts:
 - name: Galaxy and ELIXIR
 location:
@@ -16,7 +16,6 @@ contributions:
     - deNBI
     - elixir-europe
     - uni-freiburg
-
 ---
 
 **Galaxy-ELIXIR Webinar Series: FAIR data and Open Infrastructures to tackle the COVID-19 pandemic**

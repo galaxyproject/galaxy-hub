@@ -1,6 +1,6 @@
 ---
 title: "Microbial Genes Recovery in Galaxy"
-tags: [workflow, metagenomics, microbial-genes, Galaxy]
+tags: [workflow, metagenomics, microbial-genes]
 date: "2025-09-26"
 tease: "A new Galaxy workflow enables researchers to recover and analyze microbial genes from metagenomic data."
 subsites: [all, esg]
@@ -9,6 +9,7 @@ contributions:
   authorship:
     - minamehr
   funding:
+    - eu
     - uni-freiburg
     - eurosciencegateway
 ---

@@ -13,7 +13,7 @@ contact: "Björn Grüning"
 image:
 subsites: [global, all-eu]
 contributions:
-  authorship:
+  organisers:
     - bgruening
 
 ---

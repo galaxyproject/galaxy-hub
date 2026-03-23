@@ -12,7 +12,7 @@ external_url: "http://z.umn.edu/mumbaidocs"
 contact: "Pratik Jagtap"
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - pratikdjagtap
 
 ---

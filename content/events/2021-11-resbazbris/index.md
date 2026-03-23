@@ -13,7 +13,7 @@ contact: "Gareth Price"
 gtn: true
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - GarethPrice-Aus
 
 ---

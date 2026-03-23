@@ -39,6 +39,37 @@ test.describe('Hall of Fame', () => {
     await expect(backLink).toBeVisible();
   });
 
+  test('/hall-of-fame/elixir-europe/ exposes the GTN Hall of Fame link for organisations', async ({ page }) => {
+    const response = await page.goto('/hall-of-fame/elixir-europe/');
+    expect(response?.status()).toBe(200);
+
+    const gtnLink = page.getByRole('link', { name: 'GTN Hall of Fame' });
+    await expect(gtnLink).toBeVisible();
+    await expect(gtnLink).toHaveAttribute(
+      'href',
+      'https://training.galaxyproject.org/training-material/hall-of-fame/elixir-europe/'
+    );
+  });
+
+  test('/hall-of-fame/dekcd/ preserves the original GTN key casing for organisations', async ({ page }) => {
+    const response = await page.goto('/hall-of-fame/dekcd/');
+    expect(response?.status()).toBe(200);
+
+    const gtnLink = page.getByRole('link', { name: 'GTN Hall of Fame' });
+    await expect(gtnLink).toBeVisible();
+    await expect(gtnLink).toHaveAttribute(
+      'href',
+      'https://training.galaxyproject.org/training-material/hall-of-fame/deKCD/'
+    );
+  });
+
+  test('/hall-of-fame/an-example/ hides the GTN Hall of Fame link when opted out', async ({ page }) => {
+    const response = await page.goto('/hall-of-fame/an-example/');
+    expect(response?.status()).toBe(200);
+
+    await expect(page.getByRole('link', { name: 'GTN Hall of Fame' })).toHaveCount(0);
+  });
+
   test(`/hall-of-fame/${markdownProfileSlug} renders markdown profile text while keeping contribution teasers plain`, async ({
     page,
   }) => {

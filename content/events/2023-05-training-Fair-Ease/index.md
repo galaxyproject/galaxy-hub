@@ -11,7 +11,7 @@ contact: "Marie Josse"
 tags: [esg, esg-wp5, eosc, training]
 subsites: [all-eu, global, esg]
 contributions:
-  authorship:
+  organisers:
     - Marie59
   funding:
     - eu

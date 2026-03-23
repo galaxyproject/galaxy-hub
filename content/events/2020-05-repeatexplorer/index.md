@@ -12,4 +12,7 @@ external_url: "http://repeatexplorer.org/?page_id=14"
 gtn: false
 contact: "Jiri Macas"
 subsites: [global, us]
+contributions:
+  funding:
+    - elixir-cz
 ---

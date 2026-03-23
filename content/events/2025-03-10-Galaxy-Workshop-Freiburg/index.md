@@ -11,13 +11,14 @@ contact: "Daniela Schneider"
 tags: [workshop, training, esg, esg-wp1]
 subsites: [all, esg, all-eu]
 contributions:
-  authorship:
+  organisers:
     - Sch-Da
   funding:
+    - eu
     - deNBI
+    - mwk
     - eurosciencegateway
     - nfdi4plants
-
 ---
 
 # General information

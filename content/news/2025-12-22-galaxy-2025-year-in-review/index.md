@@ -2,7 +2,7 @@
 title: "Galaxy 2025 Year in Review"
 date: "2025-12-22"
 tease: "650K+ users, 186M+ jobs, ~15K commits across the ecosystem"
-tags: [galaxy, community, statistics, year-in-review]
+tags: [community, statistics, year-in-review]
 subsites: [all]
 components: true
 contributions:

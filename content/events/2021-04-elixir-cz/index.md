@@ -18,8 +18,10 @@ links:
   url: http://bit.ly/galaxy_coffee
 subsites: [all-eu, global, us]
 contributions:
-  authorship:
+  organisers:
     - martenson
+  funding:
+    - elixir-cz
 
 ---
 

@@ -2,7 +2,7 @@
 title: July 2020 Galactic News
 date: '2020-07-01'
 tease: BCC2020, SRA, Events, Platforms, Training, Jobs, ...
-tags: [newsletter, galaxy]
+tags: [newsletter]
 subsites: [all-eu, global, us]
 ---
 

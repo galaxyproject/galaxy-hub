@@ -1,49 +1,23 @@
 ---
-- AI
-- BGE
+- ai
 - Bielefeld
 - Bioconda
 - Brno
-- COVID-19
-- CoFest
-- Community
-- Conference
-- ELIXIR
-- EOSC
-- EU
-- Elixir
-- FAIR
-- FAIRyMAGs
-- FAQ
-- Freiburg
-- GCB-2024
-- GCC
-- GTN
-- Galaxy
-- Hackathon
+- faq
+- gcb-2024
 - Invenio
-- LLM
-- MMOS
-- PGP
+- llm
+- mmos
+- pgp
 - QuPath
-- RIR
-- RNA
-- Release
-- SaaS
-- TIAAS
-- Talk
-- Training
-- Tutorial
-- UI-UX
-- UI/UX
-- UseCase
-- Workshop
+- rir
+- rna
+- saas
 - Zenodo
 - aai
 - accessibility
 - admin
 - africa
-- all-eu
 - apollo
 - aquainfra
 - arc
@@ -63,7 +37,6 @@
 - birthday
 - brc-analytics
 - bug
-- by-covid
 - catalog
 - cca
 - citations
@@ -78,16 +51,12 @@
 - community-call
 - conda
 - conda-forge
-- conferece
 - conference
 - contributing
 - covid-19
 - data
 - datacommons
-- dataplant
 - dataverse
-- de.nbi
-- deKCD
 - deep-learning
 - demo
 - deploying
@@ -109,7 +78,6 @@
 - enhancement
 - environmental
 - eosc
-- eosc-life
 - equality
 - erga
 - esg
@@ -119,7 +87,6 @@
 - esg-wp4
 - esg-wp5
 - eu
-- eurobioimaging
 - event
 - fair
 - fairymags
@@ -127,7 +94,6 @@
 - federation
 - fiesta
 - freiburg
-- galaxy
 - gat
 - gcb
 - gcc
@@ -136,7 +102,6 @@
 - gmn
 - grants
 - gtn
-- gtn infrastructure
 - gtn-news
 - hackathon
 - hardware
@@ -180,8 +145,6 @@
 - news
 - newsletter
 - nfdi
-- nfdi4bioimaging
-- nfdi4plants
 - nlp
 - omics
 - onedata
@@ -208,9 +171,7 @@
 - repository
 - reproducibility
 - research
-- research data management
 - ro-crate
-- rocrate
 - routing
 - s4f
 - scalable
@@ -232,11 +193,9 @@
 - sysadmins
 - tags
 - talk
-- talks
 - termite microbiome
 - text-mining
 - tiaas
-- tool
 - tools
 - training
 - tutorial
@@ -253,6 +212,5 @@
 - webinar
 - workflow
 - workflowhub
-- workflows
 - workshop
 - year-in-review

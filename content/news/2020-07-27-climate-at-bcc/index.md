@@ -2,13 +2,14 @@
 title: Climate Science at BCC2020
 date: '2020-07-27'
 tease: July has been a very busy month for Galaxy Climate
-tags: [GCC, tiaas, climate, community, conference]
+tags: [gcc, tiaas, climate, community, conference]
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
 contributions:
   authorship:
     - annefou
   funding:
+    - eu
     - eosc-life
     - elixir-europe
     - deNBI

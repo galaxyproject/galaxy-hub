@@ -3,7 +3,7 @@ title: "GPU-enabled deep learning on Galaxy"
 date: "2023-06-23"
 tease: "Taking advantage of Galaxy's GPU computing nodes"
 hide_tease: false
-tags: [machine-learning,EU,esg,esg-wp5]
+tags: [machine-learning, eu, esg, esg-wp5]
 subsites: [all-eu, esg]
 main_subsite: eu
 contributions:
@@ -11,9 +11,11 @@ contributions:
     - anuprulez
     - kysrpex
   funding:
+    - eu
     - eurosciencegateway
     - uni-freiburg
     - deNBI
+    - mwk
 ---
 
 The European Galaxy server relies on the compute nodes provided by the [de.NBI-Cloud](https://www.denbi.de/cloud). Did you know that some of them are **GPU-enabled**?

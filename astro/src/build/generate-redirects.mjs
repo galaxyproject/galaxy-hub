@@ -225,7 +225,8 @@ async function generateRedirects() {
 
   for (const [from, to] of Object.entries(yamlData.redirects)) {
     const fromPath = from.endsWith('/') ? from : `${from}/`;
-    const toPath = to.endsWith('/') ? to : `${to}/`;
+    const isExternal = to.includes('://');
+    const toPath = isExternal || to.endsWith('/') ? to : `${to}/`;
     redirects[fromPath] = toPath;
   }
 

@@ -10,6 +10,7 @@ contributions:
   authorship:
     - carolegoble
   funding:
+    - eu
     - eurosciencegateway
 ---
 

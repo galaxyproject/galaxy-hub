@@ -173,6 +173,7 @@ export async function getStaticPaths() {
 
 const { event, conferenceContext } = Astro.props as { event: any; conferenceContext?: ConferenceContext };
 const { Content, headings } = await render(event);
+const sourceFile = event.data.sourceFile || `${event.data.slug}/index.md`;
 
 const { title, date, end, location, tags = [], tease, external_url, contacts = [], autotoc } = event.data;
 
@@ -318,7 +319,7 @@ const schemaEvent = {
   },
 };
 
-const editUrl = `https://github.com/galaxyproject/galaxy-hub/edit/main/content/${event.data.slug}/index.md`;
+const editUrl = `https://github.com/galaxyproject/galaxy-hub/edit/main/content/${sourceFile}`;
 ---
 
 {

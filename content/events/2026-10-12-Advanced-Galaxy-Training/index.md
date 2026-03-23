@@ -15,7 +15,7 @@ external_url: https://training.galaxyproject.org/training-material/events/2026-1
 tease: Join us for an **intensive, week-long, in-person training** designed to elevate
   your Galaxy expertise to new heights
 contributions:
-  authorship:
+  organisers:
     - Marie59
     - abretaud
     - bebatut

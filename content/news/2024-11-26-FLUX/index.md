@@ -4,7 +4,7 @@ date: "2024-11-26"
 tease: "Turn your text into stunning visuals with FLUX models, now integrated into Galaxy!"
 hide_tease: false
 subsites: [global, eu, us, freiburg]
-tags: [tool]
+tags: [tools]
 contributions:
   authorship:
     - arash77

@@ -20,7 +20,10 @@ contributions:
     - earlham
     - vib
     - deNBI
+    - mwk
     - elixir-europe
+    - cesnet
+    - elixir-cz
 ---
 
 Modern computational workflows are complex and energy intensive. As analyses grow in scale and complexity, avoiding unnecessary re-computation is no longer just a convenience feature: it is essential for efficiency, reproducibility, and environmental sustainability.

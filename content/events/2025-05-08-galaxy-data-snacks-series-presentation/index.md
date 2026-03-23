@@ -10,12 +10,13 @@ contact: "Armin Dadras"
 tags: [talk,esg,esg-wp1]
 subsites: [all, esg, eu]
 contributions:
-  authorship:
+  organisers:
     - dadrasarmin
   funding:
+    - eu
     - deNBI
+    - mwk
     - eurosciencegateway
-
 ---
 
 We’re excited to share that our colleague [Dr. Sanjay Kumar Srikakulam](https://github.com/sanjaysrikakulam) will be presenting at an upcoming session of [Data Snacks](https://www.dsc-ub.de/en/data_snacks_en.php), a virtual event series offering bite-sized insights into effective research data management. In just 30 minutes, Data Snacks talks are about handling research data responsibly in line with the FAIR principles (Findable, Accessible, Interoperable, Reusable).

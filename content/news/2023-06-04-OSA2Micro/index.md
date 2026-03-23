@@ -11,6 +11,7 @@ contributions:
   authorship:
     - paulzierep
   funding:
+    - eu
     - eosc-life
 ---
 

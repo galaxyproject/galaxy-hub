@@ -8,11 +8,12 @@ contact: "Bérénice Batut, Paul Zierep"
 tags: [hackathon, microbial, microgalaxy]
 subsites: [all]
 contributions:
-  authorship:
+  organisers:
     - bebatut
     - paulzierep
   funding:
     - deNBI
+    - mwk
     - ifb
 
 ---

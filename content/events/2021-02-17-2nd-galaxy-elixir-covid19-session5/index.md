@@ -2,7 +2,7 @@
 title: Viral Beacon and Galaxy variant workflows
 date: '2021-02-17'
 end: '2021-02-17'
-tags: [training, COVID-19, demo, workflow]
+tags: [training, covid-19, demo, workflow]
 contacts:
 - name: Galaxy and ELIXIR
 location:
@@ -17,7 +17,6 @@ contributions:
     - deNBI
     - elixir-europe
     - uni-freiburg
-
 ---
 
 The Galaxy Community and ELIXIR organise a second webinar series to demonstrate how open software and public research infrastructures can be used in analysing and publishing SARS-CoV2 data.

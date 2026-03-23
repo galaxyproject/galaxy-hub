@@ -10,7 +10,7 @@ contact: "Beatriz Serrano-Solano, Yi Sun, Björn Grüning"
 tags: [hackathon, imaging, bioimaging]
 subsites: [all]
 contributions:
-  authorship:
+  organisers:
     - beatrizserrano
     - bgruening
     - sunyi000

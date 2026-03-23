@@ -15,4 +15,3 @@ contributions:
 ---
 
 As part of the BY-COVID project, the RO-Crate team and BY-COVID members have brought several RO-Crate related tutorials into the Galaxy Training Network, under a brand new {FAIR} topic!
-

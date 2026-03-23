@@ -11,6 +11,7 @@ contributions:
     - patrick-austin
     - leandro-liborio
   funding:
+    - eu
     - eurosciencegateway
 ---
 

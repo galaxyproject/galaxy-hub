@@ -2,7 +2,7 @@
 title: Variant Analysis of SARS-CoV-2 Sequencing Data (Jan 2021 update)
 date: '2021-01-22'
 tease: January 2021 update
-tags: [workflow, tools, COVID-19]
+tags: [workflow, tools, covid-19]
 subsites: [all-eu, global, us]
 main_subsite: eu
 contributions:

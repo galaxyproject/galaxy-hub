@@ -11,13 +11,14 @@ contact: "Anika Erxleben-Eggenhofer"
 tags: [workshop, training, esg, esg-wp1]
 subsites: [all,esg]
 contributions:
-  authorship:
+  organisers:
     - erxleben
   funding:
+    - eu
     - deNBI
+    - mwk
     - eurosciencegateway
     - nfdi4plants
-
 ---
 
 # General information

@@ -13,7 +13,7 @@ contact: "Olga Vitek, Ting Huang, Mateusz Staniak, Melanie Föll"
 gtn: true
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - foellmelanie
 
 ---

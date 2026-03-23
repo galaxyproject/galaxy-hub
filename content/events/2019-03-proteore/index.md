@@ -13,7 +13,7 @@ contact: "Yves Vandenbrouck"
 image: 
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - yvesvdb
 
 ---

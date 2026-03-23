@@ -4,10 +4,11 @@ date: "2023-12-30"
 tease: "In this post we summarized the activities and achievements of the Freiburg Galaxy team in 2023."
 hide_tease: false
 subsites: [freiburg, eu, esg]
-tags: [esg,elixir,galaxy, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5, outreach, year-in-review]
+tags: [esg, elixir, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5, outreach, year-in-review]
 main_subsite: eu
 contributions:
   funding:
+    - eu
     - eurosciencegateway
     - uni-freiburg
     - elixir-europe

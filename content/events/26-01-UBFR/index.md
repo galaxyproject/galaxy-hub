@@ -5,14 +5,14 @@ end: '2026-01-13'
 location:
   name: "University Library Freiburg"
 tags: [humanities]
-organizers:
-  - galaxyfreiburg
 contributions:
-  authorship:
+  organisers:
     - Sch-Da
+    - freiburggalaxyteam
   funding:
     - deKCD
     - deNBI
+    - mwk
 subsites: [all, eu]
 ---
 

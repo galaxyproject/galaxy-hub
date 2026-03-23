@@ -1,11 +1,24 @@
 ---
 import { normalizeSlug } from '../build/slug-utils.mjs';
+import HeroCarousel from './HeroCarousel.vue';
 
-// Edit these to change the homepage hero highlight.
-// Set image to "" to show the Galaxy logo instead.
-const rawImage = '/images/events/gcc2026/gcc2026-carousel.png';
-const link = '/events/gcc2026/';
-const alt = 'Galaxy Community Conference 2026';
+// Edit these to change the homepage hero highlights.
+// Each entry needs { rawImage, link, alt }.
+// Set image to "" on an entry (or remove it) to skip that highlight.
+// If all images are empty, the Galaxy logo will be shown instead.
+// With multiple entries, they rotate as a carousel.
+const highlights = [
+  {
+    rawImage: '/images/gta2026-registration-banner-9x13.png',
+    link: 'https://training.galaxyproject.org/training-material/events/2026-05-18-galaxy-academy.html',
+    alt: 'Galaxy Training Academy 2026',
+  },
+  {
+    rawImage: '/images/events/gcc2026/gcc2026-carousel.png',
+    link: '/events/gcc2026/',
+    alt: 'Galaxy Community Conference 2026',
+  },
+];
 
 // Normalize directory segments to match preprocessing output.
 function normalizeImagePath(src: string) {
@@ -16,16 +29,17 @@ function normalizeImagePath(src: string) {
   const file = src.slice(lastSlash);
   return normalizeSlug(dir) + file;
 }
-const image = normalizeImagePath(rawImage);
+
+const items = highlights
+  .map(({ rawImage, link, alt }) => ({ image: normalizeImagePath(rawImage), link, alt }))
+  .filter(({ image }) => image);
 ---
 
 {
-  image ? (
+  items.length > 0 ? (
     <div class="hero-highlight-container">
       <img src="/images/galaxy_logo_white.svg" alt="Galaxy" class="hero-logo" />
-      <a href={link} class="hero-highlight-link">
-        <img src={image} alt={alt} class="hero-highlight-img" />
-      </a>
+      <HeroCarousel client:load items={items} class="hero-carousel-wrapper" />
     </div>
   ) : (
     <img src="/images/galaxy_logo_white.svg" alt="Galaxy" class="hero-logo" />
@@ -42,6 +56,10 @@ const image = normalizeImagePath(rawImage);
   }
 
   .hero-logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     width: 360px;
     max-width: 100%;
     height: auto;
@@ -49,37 +67,9 @@ const image = normalizeImagePath(rawImage);
     animation: hero-fade-out 0.6s ease 1s forwards;
   }
 
-  .hero-highlight-link {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    display: block;
-    width: 520px;
-    max-width: 100%;
-    border-radius: 12px;
-    overflow: hidden;
+  .hero-carousel-wrapper {
     opacity: 0;
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
     animation: hero-fade-in 0.6s ease 1s forwards;
-    transition:
-      transform 0.2s ease,
-      box-shadow 0.2s ease,
-      border-color 0.2s ease;
-  }
-
-  .hero-highlight-link:hover {
-    transform: translate(-50%, calc(-50% - 2px));
-    border-color: rgba(255, 255, 255, 0.3);
-    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
-  }
-
-  .hero-highlight-img {
-    display: block;
-    width: 100%;
-    max-width: 520px;
-    height: auto;
   }
 
   @keyframes hero-fade-out {
@@ -101,15 +91,14 @@ const image = normalizeImagePath(rawImage);
       opacity: 0 !important;
     }
 
-    .hero-highlight-link {
+    .hero-carousel-wrapper {
       opacity: 1 !important;
       animation: none;
-      position: relative;
     }
   }
 
   @media (max-width: 900px) {
-    .hero-highlight-link {
+    .hero-carousel-wrapper {
       width: 360px;
     }
 

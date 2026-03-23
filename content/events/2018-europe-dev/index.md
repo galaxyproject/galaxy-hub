@@ -13,7 +13,7 @@ gtn: false
 contact: Hans-Rudolf Hotz, Björn Grüning, Jean-François Dufayard
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - bgruening
     - hrhotz
 

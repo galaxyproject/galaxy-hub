@@ -13,7 +13,7 @@ image: ""
 gtn: true
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - nekrut
 
 ---

@@ -14,7 +14,7 @@ contact: "Bérénice Batut, Hervé Ménager"
 tags: [ cofest ]
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - bebatut
     - hmenager
 

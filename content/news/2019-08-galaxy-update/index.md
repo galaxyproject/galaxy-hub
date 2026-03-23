@@ -2,7 +2,7 @@
 title: August 2019 Galactic News
 date: '2019-08-01'
 tease: GCC2019 is done; BCC2020 is coming
-tags: [newsletter, galaxy]
+tags: [newsletter]
 subsites: [all-eu, global, us]
 ---
 

@@ -14,7 +14,7 @@ image: ""
 tags: [ webinar ]
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - mschatz
 
 ---

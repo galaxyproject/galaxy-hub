@@ -1,6 +1,6 @@
 ---
 title: "Galaxy at the E-Science Days 2025 in Heidelberg"
-tags: [training, conference, rdm, research data management, humanities]
+tags: [training, conference, rdm, humanities]
 date: "2025-03-13"
 tease: "We are presenting Galaxy's applicability for the Humanities"
 subsites: [all,eu]
@@ -10,6 +10,7 @@ contributions:
     funding:
     - deKCD
     - deNBI
+    - mwk
 ---
 # The Freiburg Galaxy team presented use cases from the Humanities at the E-Science Days
 

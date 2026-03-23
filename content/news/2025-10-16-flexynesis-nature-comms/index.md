@@ -11,7 +11,6 @@ tags:
 - deep-learning
 - machine-learning
 - precision-oncology
-- galaxy
 contributions:
   authorship:
     - Nilchia

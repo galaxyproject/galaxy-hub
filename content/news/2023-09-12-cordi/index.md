@@ -4,13 +4,14 @@ date: '2023-10-12'
 tease: "The Galaxy Europe Team active at NFDI's CoRDI (Karlsruhe, Germany, Sep 12th to 14th)"
 location:
   name: Karlsruhe, Germany
-tags: [conference, talk, poster, nfdi, esg, esg-wp1, tiaas,esg-wp2, research data management]
+tags: [conference, talk, poster, nfdi, esg, esg-wp1, tiaas,esg-wp2, rdm]
 subsites: [all-eu, esg]
 contributions:
   authorship:
     - sebastian-schaaf
     - sanjaysrikakulam
   funding:
+    - eu
     - nfdi
     - nfdi4bioimage
     - nfdi4plants

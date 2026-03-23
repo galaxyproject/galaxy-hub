@@ -1,9 +1,8 @@
 ---
 title: Two New Teaching Papers using Galaxy
 date: '2021-05-14'
-tease: Two hand-in-hand teaching papers have been published this week using Galaxy
-  as a teaching platform.
-tags: [tiaas, training, paper, COVID-19]
+tease: Two hand-in-hand teaching papers have been published this week using Galaxy as a teaching platform.
+tags: [tiaas, training, paper, covid-19]
 subsites: [global, all-eu, us]
 main_subsite: eu
 contributions:

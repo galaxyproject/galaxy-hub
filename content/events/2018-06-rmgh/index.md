@@ -14,7 +14,7 @@ gtn: false
 tags: [ cofest ]
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - jxtx
 
 ---

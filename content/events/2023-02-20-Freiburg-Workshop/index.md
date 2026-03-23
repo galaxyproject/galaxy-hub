@@ -11,12 +11,12 @@ contact: "Anika Erxleben"
 tags: ["workshop", "training", "esg", "esg-wp1"]
 subsites: [all, all-eu, esg]
 contributions:
-  authorship:
+  organisers:
     - erxleben
   funding:
+    - eu
     - eurosciencegateway
     - nfdi4plants
-
 ---
 
 We are offering a Galaxy workshop on HTS Data analysis. This is a students workshop at the University of Freiburg where we have a few places left for other Galaxy users, e.g. PhD students and PostDocs. If you are interested or need more information, please contact Anika Erxleben (erxleben@informatik.uni-freiburg.de).

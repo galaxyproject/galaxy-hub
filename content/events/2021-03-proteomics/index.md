@@ -13,7 +13,9 @@ contact: "Jiří Vondrášek, Martin Čech"
 image: 
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - martenson
+  funding:
+    - elixir-cz
 
 ---

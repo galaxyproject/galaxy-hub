@@ -3,7 +3,7 @@ title: GCC2021 Registration is Open
 date: '2021-04-14'
 tease: Please join us at Galaxy's annual community gathering
 external_url: ''
-tags: [newsletter, galaxy]
+tags: [newsletter]
 subsites: [all-eu, global, us]
 contributions:
   authorship:

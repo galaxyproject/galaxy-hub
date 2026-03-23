@@ -17,7 +17,7 @@ tease: "You want to analyse your media, text or data digitally, but do not know 
   \ overview of how you can use the open source platform Galaxy (usegalaxy.eu) for\
   \ your research"
 contributions:
-  authorship:
+  organisers:
     - Sch-Da
 
 ---

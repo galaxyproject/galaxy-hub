@@ -13,7 +13,7 @@ contact: "Gareth Price, Simon Gladman"
 image: 
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - GarethPrice-Aus
     - slugger70
 

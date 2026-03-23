@@ -3,13 +3,14 @@ title: "Stimulate FAIR and reusable research with computational workflows"
 tease: "The Work Package 2 of the EuroScienceGateway project"
 hide_tease: false
 date: "2023-01-12"
-tags: [esg, esg-wp2, workflow, workflowhub, rocrate, astrophysics, astronomy]
+tags: [esg, esg-wp2, workflow, workflowhub, ro-crate, astrophysics, astronomy]
 subsites: [all-eu, esg ]
 main_subsite: eu
 contributions:
   authorship:
     - stain
   funding:
+    - eu
     - eurosciencegateway
 ---
 
@@ -41,5 +42,4 @@ By collaborating with the [FAIR-IMPACT](https://fair-impact.eu/) project, both t
 * Task T2.2: Reproducible and reusable FAIR Digital Objects
 * Task T2.3: Using and enriching workflow FDOs
 * Task T2.4: FAIR workflows as scholarly objects in scientific publishing
-
 

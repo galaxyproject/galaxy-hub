@@ -13,7 +13,7 @@ contact: Anne Fouilloux
 tags: []
 subsites: [all-eu, global, us]
 contributions:
-  authorship:
+  organisers:
     - annefou
 
 ---

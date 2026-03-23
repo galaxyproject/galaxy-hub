@@ -17,7 +17,7 @@ links:
   url: "https://youtu.be/cNoAo-mDKAY"
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - frederikcoppens
     - roncoronimiguel
   funding:

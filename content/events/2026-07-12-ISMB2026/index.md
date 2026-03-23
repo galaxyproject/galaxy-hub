@@ -7,4 +7,6 @@ continent: NA
 location: "Washington, DC, USA"
 external_url: "https://www.iscb.org/ismb2026/home"
 subsites: [all]
+contributions:
+  organisers: []
 ---

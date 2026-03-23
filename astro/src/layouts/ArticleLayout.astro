@@ -1,6 +1,7 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import PageHeader from '../components/layout/PageHeader.astro';
+import FairSectionHero from '../components/content/FairSectionHero.astro';
 import SupporterGrid from '../components/content/SupporterGrid.astro';
 import type { SupporterProfile } from '../utils/supporters';
 import ContentWithToc from '../components/layout/ContentWithToc.astro';
@@ -27,6 +28,7 @@ interface Props {
   };
   supporters?: SupporterProfile[];
   sourceFile?: string;
+  fairSection?: string;
 }
 
 const {
@@ -41,11 +43,10 @@ const {
   headings = [],
   supporters: supportersRaw = [],
   sourceFile,
+  fairSection,
 } = Astro.props;
 
-const editUrl = sourceFile
-  ? `https://github.com/galaxyproject/galaxy-hub/edit/main/content/${sourceFile}/index.md`
-  : undefined;
+const editUrl = sourceFile ? `https://github.com/galaxyproject/galaxy-hub/edit/main/content/${sourceFile}` : undefined;
 
 // Ensure arrays are never null
 const authors = authorsRaw || [];
@@ -59,7 +60,13 @@ const hasMetadata =
 
 <BaseLayout title={title} description={description}>
   <article class="max-w-6xl mx-auto bg-white relative">
-    {hasMetadata && <PageHeader title={title} description={description} date={date} authors={authors} tags={tags} />}
+    {
+      hasMetadata && (
+        <PageHeader title={title} description={description} date={date} authors={authors} tags={tags}>
+          {fairSection && <FairSectionHero sectionSlug={fairSection} />}
+        </PageHeader>
+      )
+    }
 
     {
       image && (
@@ -123,11 +130,14 @@ const hasMetadata =
 
   .prose-galaxy :where(a):not(:where([class~='not-prose'] *)) {
     color: var(--tw-prose-links);
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: color-mix(in srgb, var(--tw-prose-links) 40%, transparent);
+    text-underline-offset: 2px;
   }
 
   .prose-galaxy :where(a):not(:where([class~='not-prose'] *)):hover {
     text-decoration: underline;
+    text-decoration-color: currentColor;
   }
 
   .prose-galaxy :where(code):not(:where([class~='not-prose'] *)) {

@@ -1,7 +1,7 @@
 ---
 title: Meet & Join the Galaxy Community
 date: '2021-02-18'
-tags: [galaxy]
+tags: []
 location:
   name: online
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]

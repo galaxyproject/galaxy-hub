@@ -9,6 +9,7 @@ contributions:
   authorship:
     - beatrizserrano
   funding:
+    - eu
     - eosc-life
 ---
 
@@ -32,7 +33,7 @@ __Anyone providing training is eligible__ to request the use of this service. To
 trainers just need to [fill out a form](https://galaxyproject.eu/tiaas) indicating the number of attendees, the start and
 end dates of the training activity, and what kind of analysis will be run during the workshop. The European Galaxy team then processes the request
 and gets back to the requesting trainer.
-The trainers share their experiences with TIaaS that can be useful for other trainers as well in [a blog posts](https://galaxyproject.eu/news?tag=TIaaS).
+The trainers share their experiences with TIaaS that can be useful for other trainers as well in [a blog posts](https://galaxyproject.eu/news?tag=tiaas).
 
 We would like to thank [EOSC-Life](https://www.eosc-life.eu/) for the support and all the trainers that are using
 TIaaS for organising training activities!

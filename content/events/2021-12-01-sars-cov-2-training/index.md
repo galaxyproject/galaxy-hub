@@ -2,18 +2,18 @@
 title: SARS-CoV-2 Data Analysis and Monitoring with Galaxy
 date: '2021-12-01'
 end: '2021-12-01'
-tags: [training, COVID-19, talk, workshop]
+tags: [training, covid-19, talk, workshop]
 location:
   name: online
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   funding:
+    - eu
     - deNBI
     - by-covid
     - elixir-converge
     - gallantries
-
 components: true
 ---
 

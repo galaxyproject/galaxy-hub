@@ -5,7 +5,7 @@ tease: "During 6-9th of June, members of the European Galaxy team travelled to A
 hide_tease: true
 location:
   name: Amsterdam, Netherlands
-tags: [conference, talk, poster, training, conda, COVID-19]
+tags: [conference, talk, poster, training, conda, covid-19]
 components: true
 subsites: [all-eu]
 contributions:
@@ -56,7 +56,7 @@ On the third and last day of the event, the 9th of June, several talks were give
 <Twitter tweet="1534804591535181824"></Twitter>
 <Twitter tweet="1534807219740581888"></Twitter>
 
-On the last session before the closing of the All Hands meeting, Beatriz Serrano-Solano presented the [EOSC-Life consortium and the participation of the Galaxy community](https://docs.google.com/presentation/d/1Wv1teYk2Egww6fg5RbD5iq4s_5qkaVby2OXHmkaYVW4/edit#slide=id.g130fad382dc_0_0) in different aspects of the project, from the technical side (tools, workflows, infrastructure) to the use cases ([chemoinformatics, marine biology, imaging](https://usegalaxy-eu.github.io/posts/2021/03/10/eosc-life-d6/), reference data, [food safety](https://usegalaxy-eu.github.io/posts/2021/12/08/pathogen-detection-eosc-life-grant/) and [SARS-CoV-2](https://usegalaxy-eu.github.io/news?tag=COVID-19)), training and outreach. She also presented the Galaxy platform as the link between different EOSC projects, like [EOSC-Nordic](https://www.eosc-nordic.eu/) and [EOSC-Pillar](https://www.eosc-pillar.eu/).
+On the last session before the closing of the All Hands meeting, Beatriz Serrano-Solano presented the [EOSC-Life consortium and the participation of the Galaxy community](https://docs.google.com/presentation/d/1Wv1teYk2Egww6fg5RbD5iq4s_5qkaVby2OXHmkaYVW4/edit#slide=id.g130fad382dc_0_0) in different aspects of the project, from the technical side (tools, workflows, infrastructure) to the use cases ([chemoinformatics, marine biology, imaging](https://usegalaxy-eu.github.io/posts/2021/03/10/eosc-life-d6/), reference data, [food safety](https://usegalaxy-eu.github.io/posts/2021/12/08/pathogen-detection-eosc-life-grant/) and [SARS-CoV-2](https://usegalaxy-eu.github.io/news?tag=covid-19)), training and outreach. She also presented the Galaxy platform as the link between different EOSC projects, like [EOSC-Nordic](https://www.eosc-nordic.eu/) and [EOSC-Pillar](https://www.eosc-pillar.eu/).
 
 <Twitter tweet="1534904940451311616"></Twitter>
 <Twitter tweet="1534919493377466368"></Twitter>

@@ -100,21 +100,21 @@ describe('normalizeSlugSegment', () => {
     expect(normalizeSlugSegment('ChatGPT')).toBe('chat-gpt');
   });
 
-  it('inserts hyphen at letter→digit boundary', () => {
-    expect(normalizeSlugSegment('PAG31')).toBe('pag-31');
+  it('does not split at letter→digit boundary', () => {
+    expect(normalizeSlugSegment('PAG31')).toBe('pag31');
   });
 
-  it('inserts hyphen at digit→letter boundary', () => {
-    expect(normalizeSlugSegment('4Bio')).toBe('4-bio');
+  it('does not split at digit→letter boundary', () => {
+    expect(normalizeSlugSegment('4Bio')).toBe('4bio');
   });
 
   it('replaces underscores with hyphens', () => {
     expect(normalizeSlugSegment('slides_to_videos')).toBe('slides-to-videos');
   });
 
-  it('does not split within uppercase runs', () => {
-    // "GBCC2025" — the uppercase run "GBCC" stays together
-    expect(normalizeSlugSegment('GBCC2025')).toBe('gbcc-2025');
+  it('does not split within uppercase runs or at letter-digit boundaries', () => {
+    // "GBCC2025" — the uppercase run "GBCC" stays together, no letter-digit split
+    expect(normalizeSlugSegment('GBCC2025')).toBe('gbcc2025');
   });
 
   it('handles mixed camelCase with acronyms', () => {
@@ -122,15 +122,15 @@ describe('normalizeSlugSegment', () => {
   });
 
   it('handles PascalCase with numbers', () => {
-    expect(normalizeSlugSegment('GCC2023-Meeting-Report')).toBe('gcc-2023-meeting-report');
+    expect(normalizeSlugSegment('GCC2023-Meeting-Report')).toBe('gcc2023-meeting-report');
   });
 
   it('handles GalaxyInResearch', () => {
     expect(normalizeSlugSegment('GalaxyInResearch')).toBe('galaxy-in-research');
   });
 
-  it('handles NFDI4Bioimage (digit→letter boundary)', () => {
-    expect(normalizeSlugSegment('NFDI4Bioimage')).toBe('nfdi-4-bioimage');
+  it('handles NFDI4Bioimage (no digit→letter split)', () => {
+    expect(normalizeSlugSegment('NFDI4Bioimage')).toBe('nfdi4bioimage');
   });
 
   it('collapses multiple hyphens', () => {
@@ -138,7 +138,7 @@ describe('normalizeSlugSegment', () => {
   });
 
   it('handles date-prefixed segments (already well-formed)', () => {
-    expect(normalizeSlugSegment('2024-01-12-PAG31')).toBe('2024-01-12-pag-31');
+    expect(normalizeSlugSegment('2024-01-12-PAG31')).toBe('2024-01-12-pag31');
   });
 
   it('applies overrides for BiaPy', () => {
@@ -157,14 +157,14 @@ describe('normalizeSlugSegment', () => {
     expect(normalizeSlugSegment('2024-12-19-community_page')).toBe('2024-12-19-community-page');
   });
 
-  it('handles gcc2024 (no change needed except letter-digit boundary)', () => {
-    expect(normalizeSlugSegment('gcc2024')).toBe('gcc-2024');
+  it('handles gcc2024 (no change needed, no letter-digit split)', () => {
+    expect(normalizeSlugSegment('gcc2024')).toBe('gcc2024');
   });
 });
 
 describe('normalizeSlug', () => {
   it('normalizes each path segment independently', () => {
-    expect(normalizeSlug('events/2024-01-12-PAG31')).toBe('events/2024-01-12-pag-31');
+    expect(normalizeSlug('events/2024-01-12-PAG31')).toBe('events/2024-01-12-pag31');
   });
 
   it('normalizes multi-segment paths', () => {
@@ -191,7 +191,7 @@ describe('inlineInserts', () => {
 
   it('resolves a real insert file (learn/linkbox)', () => {
     const content = 'Before\n<slot name="/learn/linkbox" />\nAfter';
-    const result = inlineInserts(content);
+    const { content: result } = inlineInserts(content);
     expect(result).toContain('Before');
     expect(result).toContain('After');
     expect(result).not.toContain('<slot');
@@ -201,13 +201,13 @@ describe('inlineInserts', () => {
 
   it('leaves a comment for missing inserts', () => {
     const content = '<slot name="/nonexistent/path" />';
-    const result = inlineInserts(content);
+    const { content: result } = inlineInserts(content);
     expect(result).toContain('<!-- Insert not found: /nonexistent/path -->');
   });
 
   it('handles multiple slots in the same content', () => {
     const content = '<slot name="/learn/linkbox" />\nMiddle\n<slot name="/learn/linkbox" />';
-    const result = inlineInserts(content);
+    const { content: result } = inlineInserts(content);
     expect(result).not.toContain('<slot');
     expect(result).toContain('Middle');
     // Both should be resolved
@@ -218,18 +218,19 @@ describe('inlineInserts', () => {
   it('handles nested inserts (cop_template references common_linkbox)', () => {
     const result = resolveInsertContent('/community/sig/common_linkbox');
     expect(result).not.toBeNull();
-    expect(result).toContain('Galaxy Community Board');
+    expect(result.content).toContain('Galaxy Community Board');
   });
 
   it('applies bootstrap marker to insert content', () => {
     const result = resolveInsertContent('/community/sig/common_linkbox');
     // common_linkbox has class="alert alert-info..." which should get bs-compat
-    expect(result).toContain('bs-compat');
+    expect(result.content).toContain('bs-compat');
   });
 
   it('passes content through unchanged when no slots present', () => {
     const content = '# Hello\n\nNo slots here.';
-    expect(inlineInserts(content)).toBe(content);
+    const { content: result } = inlineInserts(content);
+    expect(result).toBe(content);
   });
 });
 

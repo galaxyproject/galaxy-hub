@@ -11,7 +11,7 @@ external_url: http://www.sib.swiss/training/upcoming-training-events/2017-06-met
 contact: Yann Guitton
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - yguitton
 
 ---

@@ -4,7 +4,6 @@ tease: "Events, platform news, blog posts, videos, pubs, jobs and releases"
 date: "2021-02-08"
 autotoc: false
 tags:
-- galaxy
 - newsletter
 subsites: [global, us, all-eu]
 ---

@@ -9,6 +9,7 @@ contributions:
   authorship:
     - tomasvondrak
   funding:
+    - eu
     - eurosciencegateway
     - cesnet
     - elixir-cz

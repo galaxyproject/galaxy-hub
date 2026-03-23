@@ -14,8 +14,10 @@ contributions:
     - bgruening
     - hrhotz
   funding:
+    - eu
     - elixir-europe
     - deNBI
+    - mwk
     - eurosciencegateway
 ---
 

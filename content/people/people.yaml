@@ -784,3 +784,16 @@ cz:
         website: https://github.com/micoleaoo
         bio: |
           I'm a junior developer, learning and growing through Galaxy Project.
+
+sci-scale:
+    mvdbeek:
+        name: Marius van den Beek
+        title: PhD, Managing Director at Sci-Scale
+        website: https://sci-scale.net
+        matrix: "@mvdbeek:matrix.org"
+        orcid: 0000-0002-9676-7032
+        google-scholar: NXmLuTIAAAAJ
+        bio: |
+          Marius is a Galaxy core contributor since 2015 and founder of sci-scale.
+          He has been working with Penn State University as a client, contributing to
+          the development and maintenance of the Galaxy platform.

@@ -4,7 +4,7 @@ date: '2021-08-24'
 tease: An updated ELIXIR Galaxy website includes our goals, with a special emphasis
   on interactions with the local, domain-specific and global communities; plus much
   more
-tags: [covid-19, training, galaxy, elixir, community]
+tags: [covid-19, training, elixir, community]
 subsites: [global, all-eu, us]
 main_subsite: eu
 contributions:

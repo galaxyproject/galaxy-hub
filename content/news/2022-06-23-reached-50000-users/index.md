@@ -2,13 +2,14 @@
 title: Usegalaxy.eu has reached 50,000 registered users
 date: '2022-06-23'
 tease: "Big thanks to everybody that has contributed to the success of UseGalaxy.eu and to each of the 50K users for using Galaxy! Next stop: 100K!"
-tags: [galaxy, support, society, report, outreach]
+tags: [support, society, report, outreach]
 components: true
 subsites: [global, all-eu]
 contributions:
   authorship:
     - beatrizserrano
   funding:
+    - eu
     - deNBI
     - elixir-europe
     - nfdi4plants
@@ -40,9 +41,9 @@ contributions:
 
 The [European Galaxy server](https://usegalaxy.eu/) was [officially launched on __March 15, 2018__](https://usegalaxy-eu.github.io/posts/2018/03/15/usegalaxy-eu/) during the first [Galaxy User Conference](https://usegalaxy-eu.github.io/posts/2018/03/15/y-galaxy-user-conference-a-successful-first-day/) in Freiburg. Despite the short timespan, many things have changed since then: __from 800 users at that time till the 50,000 that we've reached this year!__ 
 
-The European Galaxy server provides __free computing resources to scientist all over the world__ (more than 100 countries!). The aim is to __support scientists__ at all career stages and __regardless of their socioeconomic background__, so that everybody gets the same chances to perform data analysis. Some of our users have shared with us some [interesting scientific uses cases](https://usegalaxy-eu.github.io/news?tag=UseCase) and [publications in scientific journals](https://usegalaxy-eu.github.io/citations) that show the importance of the use of the services in the scientific progress.
+The European Galaxy server provides __free computing resources to scientist all over the world__ (more than 100 countries!). The aim is to __support scientists__ at all career stages and __regardless of their socioeconomic background__, so that everybody gets the same chances to perform data analysis. Some of our users have shared with us some [interesting scientific uses cases](https://usegalaxy-eu.github.io/news?tag=usecase) and [publications in scientific journals](https://usegalaxy-eu.github.io/citations) that show the importance of the use of the services in the scientific progress.
 
-Not only the amount of registered users have grown, the number of [tools installed](https://usegalaxy-eu.github.io/tools) is now over 2,800, 47M jobs have been run, 260K workflows have been executed... The training activities have also increased, reaching 13K trainees using [Training Infrastructure as a Service (TIaaS)](https://usegalaxy-eu.github.io/posts/2021/08/24/tiaas-flyer/) in [different aspects of science](https://usegalaxy-eu.github.io/news?tag=TIaaS). The [Pulsar Network](https://pulsar-network.readthedocs.io/) has now 12 nodes in Europe ([UFR](https://www.uni-freiburg.de/), [de.NBI Cloud](https://www.denbi.de/), [CESNET](https://www.cesnet.cz/), [IBIOM-CNR](http://www.ibiom.cnr.it/), [ReCaS-Bari](https://www.recas-bari.it/index.php/en/), [VIB](https://vib.be), [VSC](https://www.vscentrum.be/), [Tecnico ULisboa](https://tecnico.ulisboa.pt/en/), [GenOuest](https://www.genouest.org/), [Diamond Light Source](https://www.diamond.ac.uk/Home.html), [UIB](https://www.uib.no/en) and [CSC](https://www.csc.fi/)). Take a look at these and other impressive numbers in our factsheet:
+Not only the amount of registered users have grown, the number of [tools installed](https://usegalaxy-eu.github.io/tools) is now over 2,800, 47M jobs have been run, 260K workflows have been executed... The training activities have also increased, reaching 13K trainees using [Training Infrastructure as a Service (TIaaS)](https://usegalaxy-eu.github.io/posts/2021/08/24/tiaas-flyer/) in [different aspects of science](https://usegalaxy-eu.github.io/news?tag=tiaas). The [Pulsar Network](https://pulsar-network.readthedocs.io/) has now 12 nodes in Europe ([UFR](https://www.uni-freiburg.de/), [de.NBI Cloud](https://www.denbi.de/), [CESNET](https://www.cesnet.cz/), [IBIOM-CNR](http://www.ibiom.cnr.it/), [ReCaS-Bari](https://www.recas-bari.it/index.php/en/), [VIB](https://vib.be), [VSC](https://www.vscentrum.be/), [Tecnico ULisboa](https://tecnico.ulisboa.pt/en/), [GenOuest](https://www.genouest.org/), [Diamond Light Source](https://www.diamond.ac.uk/Home.html), [UIB](https://www.uib.no/en) and [CSC](https://www.csc.fi/)). Take a look at these and other impressive numbers in our factsheet:
 
 <br />
 <div class="center">

@@ -1,7 +1,7 @@
 ---
 title: GCC2019 will be livestreamed
 date: '2019-06-30'
-tags: [talk, video, GCC]
+tags: [talk, video, gcc]
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:

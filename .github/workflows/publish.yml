@@ -11,6 +11,7 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    if: github.repository_owner == 'galaxyproject'
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -30,5 +31,7 @@ jobs:
           aws-region: us-east-2
       - name: Sync to preview S3
         run: aws s3 sync astro/dist/ s3://astro-hub/ --delete
+      - name: Set S3 redirect metadata
+        run: S3_BUCKET=astro-hub node deploy/set-s3-redirects.mjs
       - name: Invalidate CloudFront cache
         run: aws cloudfront create-invalidation --distribution-id ${{ secrets.ASTRO_CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"

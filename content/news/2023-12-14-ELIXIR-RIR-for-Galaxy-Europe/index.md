@@ -2,7 +2,7 @@
 title: Galaxy Europe has been added as a new ELIXIR RIR
 date: '2023-12-14'
 tease: "usegalaxy.eu is now an ELIXIR Recommended Interoperability Resource!"
-tags: [ELIXIR, RIR, interoperability, esg, esg-wp1, tiaas]
+tags: [elixir, rir, interoperability, esg, esg-wp1, tiaas]
 autotoc: true
 subsites: [all, eu, esg]
 contributions:
@@ -10,6 +10,7 @@ contributions:
     - sebastian-schaaf
     - bgruening
   funding:
+    - eu
     - eurosciencegateway
     - uni-freiburg
     - elixir-europe
@@ -78,4 +79,3 @@ The last point in fact led to one score point less - in turn, we can state that 
 ELIXIR RIRs are subject to regular review, and we all know that the landscape in computational sciences is constantly, often rapidly evolving. However, beyond our own perception, we have been evaluated as a well-maintained resource, driven by a strong community and being well-established also in a variety of scientific fields, exceeding ELIXIR's scope.
 
 We are looking forward to deeper integrate with the other resources and further contributing to interoperability efforts in Europe and beyond. Thanks ELIXIR for honoring our work!
-

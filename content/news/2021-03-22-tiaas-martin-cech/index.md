@@ -10,6 +10,7 @@ contributions:
   funding:
     - deNBI
     - elixir-europe
+    - elixir-cz
 ---
 
 

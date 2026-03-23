@@ -4,13 +4,15 @@ date: "2024-10-01"
 tease: "The department of Molecular Plant Sciences presented the open, FAIR, and free tools and resources available for the plant research data analysis and data management developed in the MAdLand context."
 hide_tease: false
 subsites: [global, freiburg, eu, esg]
-tags: [esg,madland,de.nbi,nfdi4plants,dataplant,esg-wp1, esg-wp5]
+tags: [esg,madland,nfdi,esg-wp1, esg-wp5]
 main_subsite: eu
 contributions:
   funding:
+    - eu
     - eurosciencegateway
     - uni-freiburg
     - deNBI
+    - mwk
     - nfdi4plants
     - elixir-europe
     - madland
@@ -21,4 +23,3 @@ As an example, [the MAdLandDB (also known as the Genome Zoo)](https://github.com
 Another tool introduced during the workshop was [TAPscan v4](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/tapscan/tapscan_classify/4.76+galaxy0), available via the usegalaxy.eu portal as well for genome-wide annotation of plant transcription-associated proteins including both transcription factors and transcriptional regulators. 
 In addition to this, the [DataPLANT Research Data Management](https://training.galaxyproject.org/training-material/topics/fair/tutorials/dataplant-arcs/tutorial.html) (RDM) platform which supports the generation of Annotated Research Contexts (ARCs) was presented. ARCs are a RO-Crate implementation and provide an easy-to-use way to bundle plant research data in a FAIR and citeable way.  [DataPLANT](https://training.galaxyproject.org/videos/watch.html?v=fair/tutorials/dataplant-arcs/slides) ensures that all research data, including raw data and metadata, is encapsulated in a FAIR, open, and standardized format.
 During the talk, a live demonstration was also conducted, showcasing the usage of Galaxy and above mentioned MAdLand resources. This interactive session successfully captured the audience’s attention.
-

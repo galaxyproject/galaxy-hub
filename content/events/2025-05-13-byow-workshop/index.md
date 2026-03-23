@@ -10,12 +10,13 @@ contact: "Armin Dadras"
 tags: [workshop,elixir,esg,esg-wp2,single-cell,workflow, workflowhub, omics, demo]
 subsites: [all, esg, eu]
 contributions:
-  authorship:
+  organisers:
     - dadrasarmin
   funding:
+    - eu
     - deNBI
+    - mwk
     - eurosciencegateway
-
 ---
 
 Join the ELIXIR Tools Platform and Single Cell Omics community for an engaging online event focused on best practices for sharing and managing computational workflows using [WorkflowHub](https://workflowhub.eu).

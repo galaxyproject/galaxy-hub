@@ -13,7 +13,7 @@ contact: Beatriz Serrano-Solano
 tags: [training]
 subsites: [all-eu, global, us]
 contributions:
-  authorship:
+  organisers:
     - beatrizserrano
 
 ---

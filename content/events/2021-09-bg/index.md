@@ -16,7 +16,7 @@ links:
   url: "https://youtu.be/oGPaYTOOHug"
 subsites: [global, us]
 contributions:
-  authorship:
+  organisers:
     - pickettbd
 
 ---

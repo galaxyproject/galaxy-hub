@@ -18,7 +18,7 @@ links:
 tags: [devroundtable, training, webinar]
 subsites: [all-eu, global, us]
 contributions:
-  authorship:
+  organisers:
     - assuntad23
     - davelopez
     - jmchilton
