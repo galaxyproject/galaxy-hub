@@ -1,7 +1,7 @@
 ---
 title: 'UCSC staff visit: enhancing the Genome Browser - Galaxy integration'
 date: '2026-03-05'
-tease: "Data annotation imports"
+tease: "UCSC staff and Freiburg Galaxy team members had a first meeting on deepening collaboration and integration between the Genome Browser and Galaxy."
 tags: [tools, data, interoperability, collaboration]
 subsites: [eu, freiburg]
 main_subsite: freiburg
