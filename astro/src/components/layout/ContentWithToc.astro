@@ -49,11 +49,11 @@ const showToc = autotoc && filteredHeadings.length >= 2;
   {/* Desktop TOC Sidebar (right side) */}
   {
     showToc && (
-      <aside class="toc-sidebar hidden lg:block lg:w-56 lg:flex-shrink-0">
+      <div class="toc-sidebar hidden lg:block lg:w-56 lg:flex-shrink-0">
         <div class="sticky top-24">
           <TableOfContents headings={headings} />
         </div>
-      </aside>
+      </div>
     )
   }
 </div>

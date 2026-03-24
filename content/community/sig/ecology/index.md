@@ -1,6 +1,5 @@
 ---
 description: "Access, manage, visualize and analyse biodiversity data, from genes to ecosystems, through Galaxy. "
-autotoc: true
 title: "Biodiversity data analysis in Galaxy"
 components: true
 ---
