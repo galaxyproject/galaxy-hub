@@ -5,6 +5,8 @@ tease: "From upcoming training and conferences to new publications and research 
 hide_tease: false
 authors_structured:
 - github: natalie-wa
+tags: [newsletter]
+subsites: [global, all]
 ---
 
 <p align="center">
@@ -15,15 +17,15 @@ March 2026
 
 Hello Galaxy Community,
 
-We hope your year is off to a great start\! The Galaxy community continues to grow and innovate, and this first newsletter of 2026 brings several exciting updates from across the ecosystem. In this issue, we highlight the upcoming Galaxy Training Academy 2026, share details about the Galaxy Community Conference (GCC2026) taking place this June in Clermont-Ferrand, France, and spotlight a new publication addressing ten common misconceptions about Galaxy.
+We hope your year is off to a great start! The Galaxy community continues to grow and innovate, and this first newsletter of 2026 brings several exciting updates from across the ecosystem. In this issue, we highlight the upcoming Galaxy Training Academy 2026, share details about the Galaxy Community Conference (GCC2026) taking place this June in Clermont-Ferrand, France, and spotlight a new publication addressing ten common misconceptions about Galaxy.
 
 We also feature several recent studies in our Galaxy in Research section that demonstrate the wide range of scientific questions being explored with Galaxy. As always, we’ve included a list of upcoming events where you can connect with the community, learn new skills, and stay involved with the latest developments in Galaxy.  
 
 ---
 
-# **Galaxy Training Academy 2026**
+# Galaxy Training Academy 2026
 
-Registration is now open for the Galaxy Training Academy (GTA) 2026, taking place May 18–22, 2026\. This week-long online event brings together researchers, educators, and developers from around the world for hands-on learning with Galaxy.
+Registration is now open for the Galaxy Training Academy (GTA) 2026, taking place May 18–22, 2026. This week-long online event brings together researchers, educators, and developers from around the world for hands-on learning with Galaxy.
 
 The GTA combines self-paced tutorials with live support from trainers and community members across time zones, creating a collaborative environment where participants can explore new analysis techniques and ask questions in real time.
 
@@ -33,17 +35,17 @@ This year’s training topics include:
 
 All sessions are based on tutorials from the Galaxy Training Network (GTN), a community-driven collection of openly accessible training materials designed to make advanced computational analysis more approachable for researchers at all experience levels.
 
-Whether you're new to Galaxy or looking to expand your skills, the GTA is a great opportunity to learn new workflows and connect with the global Galaxy community\!
+Whether you're new to Galaxy or looking to expand your skills, the GTA is a great opportunity to learn new workflows and connect with the global Galaxy community!
 
-[**Learn more and register\!**](https://training.galaxyproject.org/training-material/events/2026-05-18-galaxy-academy.html)  
+[**Learn more and register!**](https://training.galaxyproject.org/training-material/events/2026-05-18-galaxy-academy.html)  
 
 ---
 
-# **Galaxy Community Conference 2026**
+# Galaxy Community Conference 2026
 
-![Clermont-Ferrant, France](Clermont-France.jpeg)
+![Clermont-Ferrand, France](Clermont-France.jpeg)
 
-The **Galaxy Community Conference 2026 (GCC2026) will take place June 22–24, 2026 in Clermont-Ferrand, France**, bringing together the global Galaxy community for three days of talks, discussions, and collaboration. GCC is the largest annual gathering of Galaxy users, developers, educators, and researchers working with data-intensive science.  
+The **Galaxy Community Conference 2026 (GCC2026) will take place June 22–24, 2026, in Clermont-Ferrand, France**, bringing together the global Galaxy community for three days of talks, discussions, and collaboration. GCC is the largest annual gathering of Galaxy users, developers, educators, and researchers working with data-intensive science.  
 The conference highlights new developments across the Galaxy ecosystem and provides opportunities to connect with the community, share research, and explore new tools and workflows.
 
 GCC2026 will feature:
@@ -58,13 +60,13 @@ Following the conference, **CollaborationFest (CoFest) will take place June 25�
 
 Whether you are a long-time Galaxy contributor or new to the platform, GCC is a great opportunity to meet the community and learn about the latest developments in Galaxy.
 
-[**Learn more and register\!**](https://galaxyproject.org/events/gcc-2026/)  
+[**Learn more and register!**](https://galaxyproject.org/events/gcc-2026/)  
 
 ---
 
-# **New Publication: Ten common misconceptions about Galaxy (and why they are wrong\!)**
+# New Publication: Ten common misconceptions about Galaxy (and why they are wrong!)
 
-A new paper titled “[Ten Common Misconceptions About Galaxy (and why they are wrong\!)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013869)” was recently published in *PLOS Computational Biology*. The article addresses persistent myths about the Galaxy platform and highlights how the project has evolved into a powerful and versatile environment for modern data analysis.
+A new paper titled “[Ten Common Misconceptions About Galaxy (and why they are wrong!)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013869)” was recently published in *PLOS Computational Biology*. The article addresses persistent myths about the Galaxy platform and highlights how the project has evolved into a powerful and versatile environment for modern data analysis.
 
 Despite Galaxy’s widespread adoption, misconceptions persist. For example, common misconceptions include: Galaxy is only useful for genomics, cannot scale to large analyses, or is mainly designed for teaching rather than research. This paper tackles those assumptions directly, presenting evidence from real-world use cases, infrastructure, and community practices that demonstrate Galaxy’s scalability, flexibility, and impact across disciplines.
 
@@ -84,7 +86,7 @@ Whether you are new to Galaxy or a long-time user, this article provides a helpf
 
 ---
 
-# **Galaxy in Research**
+# Galaxy in Research
 
 The Galaxy in Research section highlights recent publications that demonstrate how Galaxy is being used to advance science across disciplines. From foundational genomics to applied conservation and human health, these studies reflect Galaxy’s role in enabling open, reproducible research.
 
@@ -110,23 +112,23 @@ In this study, researchers developed new genomic resources for several imperiled
 
 *(Zabransky et al., 2026)*
 
-These resources are especially valuable as Caribbean coral reefs face increasing pressures from climate change, disease, and habitat degradation. By expanding the genomic toolkit available for these species, the study supports ongoing efforts to better understand coral evolution and inform conservation strategies. Galaxy contributed to the analysis workflow, supporting genome annotation and comparative analyses used to validate mitochondrial gene structure and explore phylogenetic relationships.
+These resources are especially valuable as Caribbean coral reefs face growing pressures from climate change and other environmental stressors. Galaxy contributed directly to the analysis workflow, with mitochondrial genome annotation performed using MITOS2 in Galaxy EU and tRNA secondary structure prediction performed using Galaxy-based tools.
 
 ## [**Mast cells act as pro-angiogenic and pro-tumorigenic players in pituitary gonadotroph tumors**](https://academic.oup.com/neuro-oncology/article/28/1/175/8287636?login=false)
 
 *Ilie et al., Neuro-Oncology, 2025*
 
-In this study, researchers investigated the genomic evolution of glioma tumors to better understand how these cancers develop and progress over time. By analyzing genomic sequencing data from tumor samples, the team identified patterns of mutation, clonal expansion, and tumor heterogeneity that help explain how gliomas adapt and evolve within the brain. These findings provide new insights into the biological mechanisms driving tumor progression and may help inform future strategies for diagnosis and treatment.
+In this study, researchers investigated the role of mast cells in pituitary gonadotroph tumors, focusing on their contributions to tumor growth and vascularization. Using single-cell and spatial transcriptomics, along with histological analysis and mouse experiments, the team identified mast cells in the tumor microenvironment and found that they were associated with increased microvessel density, thicker vessel walls, and faster tumor recurrence. Depleting mast cells in a mouse model reduced tumor growth, increased apoptosis, and disrupted tumor vascularization.
 
 ![Ilie et al., 2025](Paper4.jpeg)
 
 *(Ilie et al., 2025)*
 
-The study highlights how large-scale genomic data can be used to uncover complex evolutionary processes in cancer. Galaxy supported parts of the analysis workflow, enabling researchers to process and explore sequencing data using reproducible bioinformatics pipelines to characterize tumor genomic variation and evolutionary patterns.  
+These findings provide new insight into the cellular interactions driving pituitary tumor progression and highlight mast cells as potential therapeutic targets. Galaxy supported part of the transcriptomics workflow, with public single-cell sequencing data processed through STARsolo on usegalaxy.eu, helping the authors integrate normal pituitary and tumor datasets for their analysis.
 
 ---
 
-# **Upcoming Events**
+# Upcoming Events
 
 | Date | Event | Venue / Location |
 | ----- | ----- | ----- |
@@ -144,7 +146,7 @@ The study highlights how large-scale genomic data can be used to uncover complex
 
 ---
 
-*Thank you for being a part of the Galaxy Community\!* 
+*Thank you for being a part of the Galaxy Community!* 
 
-**Stay updated with the latest news by following us on [Mastodon](https://mastodon.social/@galaxyproject@mstdn.science), [Bluesky](https://bsky.app/profile/galaxyproject.bsky.social), and [LinkedIn](https://www.linkedin.com/company/galaxy-project)\!**
+**Stay updated with the latest news by following us on [Mastodon](https://mastodon.social/@galaxyproject@mstdn.science), [Bluesky](https://bsky.app/profile/galaxyproject.bsky.social), and [LinkedIn](https://www.linkedin.com/company/galaxy-project)!**
 
