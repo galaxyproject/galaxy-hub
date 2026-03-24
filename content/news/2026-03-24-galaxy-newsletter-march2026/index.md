@@ -1,11 +1,15 @@
 ---
 title: "Galaxy Newsletter March 2026"
-date: "2026-02-17"
+date: "2026-03-24"
 tease: "From upcoming training and conferences to new publications and research highlights, the Galaxy community is off to a strong start in 2026!"
 hide_tease: false
 authors_structured:
 - github: natalie-wa
 ---
+
+<p align="center">
+  <img src="GalaxyNews.png" width="1000"/>
+</p>
 
 March 2026
 
@@ -17,13 +21,15 @@ We also feature several recent studies in our Galaxy in Research section that de
 
 ---
 
-**Galaxy Training Academy 2026**
+# **Galaxy Training Academy 2026**
 
 Registration is now open for the Galaxy Training Academy (GTA) 2026, taking place May 18–22, 2026\. This week-long online event brings together researchers, educators, and developers from around the world for hands-on learning with Galaxy.
 
 The GTA combines self-paced tutorials with live support from trainers and community members across time zones, creating a collaborative environment where participants can explore new analysis techniques and ask questions in real time.
 
 This year’s training topics include:
+
+![GTA Training Topics](GTA-tracks.jpeg)
 
 All sessions are based on tutorials from the Galaxy Training Network (GTN), a community-driven collection of openly accessible training materials designed to make advanced computational analysis more approachable for researchers at all experience levels.
 
@@ -33,7 +39,9 @@ Whether you're new to Galaxy or looking to expand your skills, the GTA is a grea
 
 ---
 
-**Galaxy Community Conference 2026**
+# **Galaxy Community Conference 2026**
+
+![Clermont-Ferrant, France](Clermont-France.jpeg)
 
 The **Galaxy Community Conference 2026 (GCC2026) will take place June 22–24, 2026 in Clermont-Ferrand, France**, bringing together the global Galaxy community for three days of talks, discussions, and collaboration. GCC is the largest annual gathering of Galaxy users, developers, educators, and researchers working with data-intensive science.  
 The conference highlights new developments across the Galaxy ecosystem and provides opportunities to connect with the community, share research, and explore new tools and workflows.
@@ -54,7 +62,7 @@ Whether you are a long-time Galaxy contributor or new to the platform, GCC is a 
 
 ---
 
-**New Publication: Ten common misconceptions about Galaxy (and why they are wrong\!)**
+# **New Publication: Ten common misconceptions about Galaxy (and why they are wrong\!)**
 
 A new paper titled “[Ten Common Misconceptions About Galaxy (and why they are wrong\!)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013869)” was recently published in *PLOS Computational Biology*. The article addresses persistent myths about the Galaxy platform and highlights how the project has evolved into a powerful and versatile environment for modern data analysis.
 
@@ -68,35 +76,57 @@ Some of the misconceptions discussed include:
 * Galaxy is unsuitable for developers or advanced users  
 * Galaxy cannot support secure or industry applications
 
+![Galaxy Misconceptions](Paper1.jpeg)
+
 The paper shows that Galaxy supports a wide range of scientific domains, scales to massive datasets, and is actively used in research, education, clinical settings, and industry.
 
 Whether you are new to Galaxy or a long-time user, this article provides a helpful overview of what the platform can really do and why it continues to grow as a global, community-driven research infrastructure.  
 
 ---
 
-**Galaxy in Research**
+# **Galaxy in Research**
 
-[**Lineages to landscapes: mitogenomic insights and climate refugia informing proactive conservation of the endangered Tricarinate Hill Turtle (*Melanochelys tricarinata*) in the Indian subcontinent**](https://www.nature.com/articles/s41598-025-26890-5)
+The Galaxy in Research section highlights recent publications that demonstrate how Galaxy is being used to advance science across disciplines. From foundational genomics to applied conservation and human health, these studies reflect Galaxy’s role in enabling open, reproducible research.
+
+## [**Lineages to landscapes: mitogenomic insights and climate refugia informing proactive conservation of the endangered Tricarinate Hill Turtle (*Melanochelys tricarinata*) in the Indian subcontinent**](https://www.nature.com/articles/s41598-025-26890-5)
+
+*Abedin et al., Scientific Reports, 2025*
 
 Researchers sequenced and analyzed the complete mitochondrial genome of the endangered three-keeled land turtle (*Melanochelys tricarinata*) to better understand its evolutionary history and conservation needs. Using high-throughput sequencing, the team assembled a 16,745 bp mitochondrial genome containing the standard 37 mitochondrial genes, and used comparative phylogenetic analyses to clarify the species’ placement within the broader turtle lineage. The study also incorporated species distribution modeling to examine how climate change may impact habitat suitability, with results suggesting substantial future habitat loss and fragmentation for the species.
 
+![Abedin et al. 2025](Paper2.jpeg)
+
+*(Abedin et al., 2025)*
+
 These findings provide an important genomic resource for a threatened reptile while helping inform conservation strategies for freshwater turtles facing climate and habitat pressures. Galaxy supported key parts of the genomic analysis, including mitochondrial gene annotation validation using the MITOS tool and additional analyses, such as tRNA structure prediction, performed on the Galaxy platform.
 
-[**Genomic Resources for Imperiled Caribbean Reef-Forming Corals (Hexacorallia: Scleractinia): Complete Mitochondrial Genomes of *Dichocoenia stokesii, Diploria labyrinthiformis, Oculina patagonica, and Stephanocoenia intersepta***](https://onlinelibrary.wiley.com/doi/10.1002/ece3.72967)
+## [**Genomic Resources for Imperiled Caribbean Reef-Forming Corals (Hexacorallia: Scleractinia): Complete Mitochondrial Genomes of *Dichocoenia stokesii, Diploria labyrinthiformis, Oculina patagonica, and Stephanocoenia intersepta***](https://onlinelibrary.wiley.com/doi/10.1002/ece3.72967)
+
+*Zabransky et al., Ecology and Evolution, 2026*
 
 In this study, researchers developed new genomic resources for several imperiled Caribbean reef-building corals, including *Dichocoenia stokesii* and related species, to support conservation and evolutionary research. By sequencing and assembling complete mitochondrial genomes, the team characterized gene content, genome structure, and phylogenetic relationships among coral taxa. These genomic data help clarify evolutionary relationships within reef-forming corals and provide important reference sequences for future studies of coral genetics, biodiversity, and reef resilience.
 
+![Zabransky et al., 2026](Paper3.jpeg)
+
+*(Zabransky et al., 2026)*
+
 These resources are especially valuable as Caribbean coral reefs face increasing pressures from climate change, disease, and habitat degradation. By expanding the genomic toolkit available for these species, the study supports ongoing efforts to better understand coral evolution and inform conservation strategies. Galaxy contributed to the analysis workflow, supporting genome annotation and comparative analyses used to validate mitochondrial gene structure and explore phylogenetic relationships.
 
-[**Mast cells act as pro-angiogenic and pro-tumorigenic players in pituitary gonadotroph tumors**](https://academic.oup.com/neuro-oncology/article/28/1/175/8287636?login=false)
+## [**Mast cells act as pro-angiogenic and pro-tumorigenic players in pituitary gonadotroph tumors**](https://academic.oup.com/neuro-oncology/article/28/1/175/8287636?login=false)
+
+*Ilie et al., Neuro-Oncology, 2025*
 
 In this study, researchers investigated the genomic evolution of glioma tumors to better understand how these cancers develop and progress over time. By analyzing genomic sequencing data from tumor samples, the team identified patterns of mutation, clonal expansion, and tumor heterogeneity that help explain how gliomas adapt and evolve within the brain. These findings provide new insights into the biological mechanisms driving tumor progression and may help inform future strategies for diagnosis and treatment.
 
-The study highlights how large-scale genomic data can be used to uncover complex evolutionary processes in cancer. Galaxy supported parts of the analysis workflow, enabling researchers to process and explore sequencing data through reproducible bioinformatics pipelines for characterizing tumor genomic variation and evolutionary patterns.  
+![Ilie et al., 2025](Paper4.jpeg)
+
+*(Ilie et al., 2025)*
+
+The study highlights how large-scale genomic data can be used to uncover complex evolutionary processes in cancer. Galaxy supported parts of the analysis workflow, enabling researchers to process and explore sequencing data using reproducible bioinformatics pipelines to characterize tumor genomic variation and evolutionary patterns.  
 
 ---
 
-**Upcoming Events**
+# **Upcoming Events**
 
 | Date | Event | Venue / Location |
 | ----- | ----- | ----- |
