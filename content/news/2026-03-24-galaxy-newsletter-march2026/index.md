@@ -3,10 +3,11 @@ title: "Galaxy Newsletter March 2026"
 date: "2026-03-24"
 tease: "From upcoming training and conferences to new publications and research highlights, the Galaxy community is off to a strong start in 2026!"
 hide_tease: false
-authors_structured:
-- github: natalie-wa
 tags: [newsletter]
 subsites: [global, all]
+contributions:
+  authorship:
+    - natalie-wa
 ---
 
 <p align="center">
