@@ -2,8 +2,6 @@
 title: 'Galactic Weekly: Week 12, 2026'
 date: '2026-03-22'
 tease: Weekly summary of activity across 150+ galaxyproject repositories
-authors_structured:
-- name: Galactic Bot
 tags:
 - community
 - development

@@ -39,7 +39,7 @@ const sourceFile = article.data.sourceFile || `${article.data.slug}/index.md`;
 const fairSection =
   article.data.slug === 'fair' || article.data.slug.startsWith('fair/') ? article.data.slug : undefined;
 
-const { title, date, authors = [], tags = [], tease, image, autotoc } = article.data;
+const { title, date, tags = [], tease, image, autotoc } = article.data;
 
 // MDX components map - keys match PascalCase names used in preprocessed content
 const components = {
@@ -63,7 +63,6 @@ const components = {
   title={title || 'Galaxy Hub'}
   description={tease}
   date={date}
-  authors={authors}
   tags={tags}
   image={image}
   headings={headings}

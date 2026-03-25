@@ -3,11 +3,12 @@ title: "Bringing Climate, Ecology, and Earth System Science Together"
 date: "2026-02-17"
 tease: "Join Our Galaxy Earth-Climate-Ecology Room"
 hide_tease: false
-authors_structured:
-- github: Marie59
-- github: annefou
-- github: yvanlebras
 tags: [eu]
+contributions:
+  authorship:
+    - Marie59
+    - annefou
+    - yvanlebras
 ---
 
 We’ve created a new Matrix room called Earth Climate Ecology Sciences to support discussions around Galaxy, climate, ecology, and Earth system science.

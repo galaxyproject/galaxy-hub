@@ -111,7 +111,6 @@ export async function GET() {
         contact: typeof data.contacts === 'string' ? data.contacts : '',
         image: data.image || null,
         authors,
-        authors_structured: [],
         external_url: data.external_url || '',
         path: `/${slug}/`,
         content,

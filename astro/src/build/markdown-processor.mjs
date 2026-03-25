@@ -146,11 +146,6 @@ export function processFrontmatter(frontmatter) {
     }
   }
 
-  // Ensure authors is properly formatted
-  if (frontmatter.authors && !Array.isArray(frontmatter.authors) && typeof frontmatter.authors === 'string') {
-    frontmatter.authors = [frontmatter.authors];
-  }
-
   // Convert date strings to ISO format for consistency
   const dateFields = ['date', 'end', 'closes', 'opens'];
   for (const field of dateFields) {
