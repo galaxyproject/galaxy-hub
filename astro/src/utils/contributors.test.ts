@@ -1,5 +1,12 @@
 import { describe, expect, it } from 'vitest';
-import { buildGtnHallOfFameUrl, extractAuthors, extractFunding, getCommunityGithubHandle } from './contributors';
+import {
+  buildGtnHallOfFameUrl,
+  extractAuthors,
+  extractFunding,
+  getCommunityGithubHandle,
+  getGrant,
+  getOrganisation,
+} from './contributors';
 
 describe('contribution extraction', () => {
   it('includes extended contributions roles for authors', () => {
@@ -48,6 +55,23 @@ describe('GTN Hall of Fame URLs', () => {
   it('preserves the original community id casing', () => {
     expect(buildGtnHallOfFameUrl('deKCD')).toBe(
       'https://training.galaxyproject.org/training-material/hall-of-fame/deKCD/'
+    );
+  });
+});
+
+describe('avatar resolution', () => {
+  it('resolves training-material avatar paths to the remote training host', () => {
+    expect(getOrganisation('deNBI')?.avatarUrl).toBe(
+      'https://training.galaxyproject.org/training-material/shared/images/deNBI.png'
+    );
+    expect(getOrganisation('eu')?.avatarUrl).toBe(
+      'https://training.galaxyproject.org/training-material/shared/images/EU-logo.jpg'
+    );
+    expect(getOrganisation('mwk')?.avatarUrl).toBe(
+      'https://training.galaxyproject.org/training-material/assets/images/MWK.png'
+    );
+    expect(getGrant('eurosciencegateway')?.avatarUrl).toBe(
+      'https://training.galaxyproject.org/training-material/assets/images/eurosciencegateway.png'
     );
   });
 });
