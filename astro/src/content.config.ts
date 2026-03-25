@@ -45,7 +45,6 @@ const baseArticleSchema = z
     slug: z.string(),
     date: z.coerce.date().optional().nullable(),
     tease: z.string().optional().nullable(),
-    authors: arrayOrString,
     contacts: z
       .union([z.array(contactSchema), contactSchema])
       .optional()

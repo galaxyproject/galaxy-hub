@@ -4,7 +4,6 @@ tease: The European Galaxy Community gathered in Freiburg to discuss recent and 
 date: '2022-10-12'
 subsites: [global, all-eu, esg]
 tags: [esg, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5]
-author_github: beatrizserrano
 contributions:
   authorship:
     - beatrizserrano
@@ -34,7 +33,6 @@ There were no incidents reported to the Code of Conduct committee and we got ver
 (Pictures by Bérénice Batut, [see more in her flickr](https://www.flickr.com/photos/134305289@N03/shares/TT07w5S0S0/))
 
 We would like to thank all the participants for attending, the presenters for sharing their work, the Freiburg Galaxy team for taking care of the logistics and organisation and to ELIXIR for the generous support of this event!
-
 
 
 

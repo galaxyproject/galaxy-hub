@@ -50,24 +50,6 @@ mapping:
                 enum:
                     - SUBSITES
                 description: Primary subsite used for routing
-            authors_structured:
-                type: seq
-                sequence:
-                    - type: map
-                      mapping:
-                          github:
-                              type: str
-                              required: false
-                          name:
-                              type: str
-                              required: false
-                          orcid:
-                              type: str
-                              required: false
-                description: Structured author data
-            author_github:
-                type: str
-                description: Legacy single author github handle
             external_url:
                 type: str
                 description: External link instead of internal page

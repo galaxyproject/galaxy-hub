@@ -3,7 +3,6 @@ title: Tool form improvements
 date: "2022-10-11"
 tease: "New pull request from Laila Los merged: Tool form improvements"
 autotoc: false
-author_github: ElectronicBlueberry
 tags: ['enhancement', 'ui-ux', 'client', 'power-user']
 subsites: [global]
 contributions:

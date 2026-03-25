@@ -101,7 +101,7 @@ function stripLayout(fm) {
 }
 
 /**
- * Normalize scalar tags/subsites/authors to single-element arrays.
+ * Normalize scalar tags/subsites to single-element arrays.
  * Operates on raw YAML text to avoid reformatting.
  *
  * Converts:  tags: foo        →  tags: [foo]
@@ -110,7 +110,7 @@ function stripLayout(fm) {
  * Leaves alone: tags: [a, b], tags:\n  - a, etc.
  */
 function normalizeFrontmatterArrays(fm) {
-  const fields = ['tags', 'subsites', 'authors'];
+  const fields = ['tags', 'subsites'];
   let result = fm;
   for (const field of fields) {
     // Match `field: value` on a single line where value is a bare scalar.
