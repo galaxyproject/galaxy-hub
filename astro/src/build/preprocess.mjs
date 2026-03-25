@@ -466,7 +466,19 @@ async function processMarkdownFile(filePath) {
   // Create slug from path
   let naturalSlug;
   if (path.basename(filePath) === 'index.md') {
-    naturalSlug = dirname === '.' ? 'home' : dirname.replace(/\\/g, '/');
+    const normalizedDirname = dirname.replace(/\\/g, '/');
+    if (collection === 'news') {
+      const parts = normalizedDirname.split('/');
+      if (parts.length >= 3 && parts[0] === 'news' && /^\d{4}$/.test(parts[1])) {
+        naturalSlug = parts.slice(2).join('/');
+      } else if (parts.length >= 2 && parts[0] === 'news') {
+        naturalSlug = parts.slice(1).join('/');
+      } else {
+        naturalSlug = normalizedDirname === '.' ? 'home' : normalizedDirname;
+      }
+    } else {
+      naturalSlug = normalizedDirname === '.' ? 'home' : normalizedDirname;
+    }
   } else {
     const filename = path.basename(filePath, '.md');
     naturalSlug = dirname === '.' ? filename : `${dirname}/${filename}`.replace(/\\/g, '/');

@@ -24,7 +24,7 @@ Central to this improved experience is a unified content directory. All static c
 
 #### Directory hierarchy == url hierarchy
 
-As before, the path to the Markdown file is the same as the url it will appear at. Just write your Markdown in `content/news/2021-09-hub2/index.md` to create a news post at `galaxyproject.org/news/2021-09-hub2/`.
+At the time, the path to the Markdown file matched the URL it appeared at. Today, news posts live under a year bucket such as `content/news/2021/2021-09-hub2/index.md`, while the public URL remains `galaxyproject.org/news/2021-09-hub2/`.
 
 <div class="img-resizer trim-p right" style="width: 500px; margin: 0 0 2em 1em; border: 1px solid #212529">
 
@@ -107,4 +107,3 @@ We've made sure that the framework underlying the new Hub is generalizable and f
 We're excited to finally share what we've been working on for months now. And we're excited to start adding some really cool new features that you *will* notice!
 
 We'd like to thank all the Galaxy Team members who helped get us to this point. In particular we want to acknowledge all the time, effort, and support [Dave Clements](/people/dave-clements/) and [Beatriz Serrano-Solano](https://galaxyproject.eu/people#beatrizserrano) have contributed to this project.
-
