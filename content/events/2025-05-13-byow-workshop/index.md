@@ -16,7 +16,7 @@ contributions:
     - eu
     - deNBI
     - mwk
-    - elixir
+    - elixir-europe
     - eurosciencegateway
 ---
 
