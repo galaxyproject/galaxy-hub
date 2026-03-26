@@ -5,7 +5,7 @@ export type SupporterProfile = {
   slug: string;
   name: string;
   image?: string;
-  website?: string;
+  url?: string;
 };
 
 function slugify(value: string): string {
@@ -29,9 +29,9 @@ export async function resolveSupporters(value: unknown): Promise<SupporterProfil
       seen.add(slug);
       resolved.push({
         slug,
-        name: org.name || org.short_name || org.id,
+        name: org.short_name || org.name || org.id,
         image: org.avatarUrl,
-        website: org.url,
+        url: org.url,
       });
       continue;
     }
@@ -43,9 +43,9 @@ export async function resolveSupporters(value: unknown): Promise<SupporterProfil
       seen.add(slug);
       resolved.push({
         slug,
-        name: grant.name || grant.short_name || grant.id,
+        name: grant.short_name || grant.name || grant.id,
         image: grant.avatarUrl,
-        website: grant.url,
+        url: grant.url,
       });
       continue;
     }

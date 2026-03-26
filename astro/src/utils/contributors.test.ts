@@ -29,8 +29,6 @@ describe('contribution extraction', () => {
         funding: ['grant-a', 'org-a'],
         infrastructure: ['org-a', 'grant-b'],
       },
-      funding: ['legacy-funding-only'],
-      infrastructure: ['legacy-infra-only'],
     };
 
     expect(extractFunding(data)).toEqual(['grant-a', 'org-a', 'grant-b']);

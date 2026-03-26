@@ -1,7 +1,7 @@
 <script setup lang="ts">
 interface Supporter {
   name: string;
-  logo?: string;
+  image?: string;
   url?: string;
   description?: string;
 }
@@ -29,8 +29,8 @@ defineProps<{
           class="flex flex-col items-center text-center"
         >
           <img
-            v-if="supporter.logo"
-            :src="supporter.logo"
+            v-if="supporter.image"
+            :src="supporter.image"
             :alt="supporter.name"
             class="max-h-16 w-auto mb-2 object-contain"
           />
@@ -39,8 +39,8 @@ defineProps<{
         </a>
         <template v-else>
           <img
-            v-if="supporter.logo"
-            :src="supporter.logo"
+            v-if="supporter.image"
+            :src="supporter.image"
             :alt="supporter.name"
             class="max-h-16 w-auto mb-2 object-contain"
           />
