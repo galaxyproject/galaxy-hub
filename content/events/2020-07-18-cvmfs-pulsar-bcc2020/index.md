@@ -8,12 +8,13 @@ contacts:
   name: Freiburg Galaxy Team
 location:
   name: Online
-supporters:
-- unifreiburg
-- denbi
-- biodaten
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  funding:
+    - biodaten
+    - deNBI
+
 ---
 
 We are offering a Galaxy workshop on **Reference data with CVMFS and remote jobs with Pulsar** at the [BCC2020 conference](https://bcc2020.github.io/).

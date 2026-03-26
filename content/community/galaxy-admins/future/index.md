@@ -12,7 +12,7 @@ title: GalaxyAdmins Future Directions (circa 2015)
 
 
 
-First, some background history, and then a list of open questions circa 2015. The regular online [meetings](/community/galaxy-admins/meetups/) resumed and continued until early 2017, with a final in person meeting during  [GCCBOSC 2018](https://gccbosc2018.sched.com/event/FMQW/bof-galaxyadmins). Discussion has since shifted to [Galaxy Project Gitter "Admins"](https://gitter.im/galaxyproject/admins).
+First, some background history, and then a list of open questions circa 2015. The regular online [meetings](/community/galaxy-admins/meetups/) resumed and continued until early 2017, with a final in person meeting during  [GCCBOSC 2018](https://gccbosc2018.sched.com/event/FMQW/bof-galaxyadmins). Discussion has since shifted to [Galaxy Project Matrix "Admins"](https://matrix.to/#/#galaxyproject_admins:gitter.im).
 
 # History
 

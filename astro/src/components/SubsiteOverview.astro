@@ -1,0 +1,162 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { formatDate } from '../utils/dateUtils';
+
+interface Props {
+  subsite: string;
+  title: string;
+  description: string;
+  upcomingEvents: CollectionEntry<'events'>[];
+  subsiteNews: CollectionEntry<'news'>[];
+  hasMainContent?: boolean;
+}
+
+const { subsite, title, description, upcomingEvents, subsiteNews, hasMainContent = false } = Astro.props;
+---
+
+<div class="max-w-5xl mx-auto">
+  <div class="mb-8 pb-6 border-b border-gray-200">
+    <h1 class="text-3xl font-bold text-galaxy-dark mb-2">{title}</h1>
+    {!hasMainContent && <p class="text-gray-600">{description}</p>}
+  </div>
+
+  {
+    hasMainContent && (
+      <div class="mb-10 max-w-none subsite-inserts">
+        <slot name="main-content" />
+      </div>
+    )
+  }
+
+  <div class="grid gap-8 lg:grid-cols-2">
+    <section>
+      <div class="flex items-center justify-between mb-4">
+        <h2 class="text-xl font-bold text-galaxy-dark">Upcoming Events</h2>
+        <a href={`/${subsite}/events/`} class="text-sm text-galaxy-primary hover:underline"> View all → </a>
+      </div>
+
+      {
+        upcomingEvents.length === 0 ? (
+          <p class="text-gray-500 italic">No upcoming events.</p>
+        ) : (
+          <div class="space-y-3">
+            {upcomingEvents.map((event) => (
+              <a
+                href={`/${event.data.slug}/`}
+                class="block p-3 bg-white rounded-lg border border-gray-200 hover:border-galaxy-primary hover:shadow-sm transition-all"
+              >
+                <div class="text-xs text-galaxy-primary font-medium mb-1">{formatDate(event.data.date)}</div>
+                <h3 class="font-medium text-galaxy-dark line-clamp-2">{event.data.title}</h3>
+              </a>
+            ))}
+          </div>
+        )
+      }
+    </section>
+
+    <section>
+      <div class="flex items-center justify-between mb-4">
+        <h2 class="text-xl font-bold text-galaxy-dark">Recent News</h2>
+        <a href={`/${subsite}/news/`} class="text-sm text-galaxy-primary hover:underline"> View all → </a>
+      </div>
+
+      {
+        subsiteNews.length === 0 ? (
+          <p class="text-gray-500 italic">No recent news.</p>
+        ) : (
+          <div class="space-y-3">
+            {subsiteNews.map((article) => (
+              <a
+                href={`/${article.data.slug}/`}
+                class="block p-3 bg-white rounded-lg border border-gray-200 hover:border-galaxy-primary hover:shadow-sm transition-all"
+              >
+                <div class="text-xs text-gray-500 mb-1">{formatDate(article.data.date)}</div>
+                <h3 class="font-medium text-galaxy-dark line-clamp-2">{article.data.title}</h3>
+              </a>
+            ))}
+          </div>
+        )
+      }
+    </section>
+  </div>
+
+  <section class="mt-12 pt-8 border-t border-gray-200">
+    <h2 class="text-xl font-bold text-galaxy-dark mb-4">Quick Links</h2>
+    <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      <a
+        href={`/${subsite}/events/`}
+        class="p-4 bg-galaxy-primary/5 rounded-lg hover:bg-galaxy-primary/10 transition-colors"
+      >
+        <h3 class="font-semibold text-galaxy-dark">Events</h3>
+        <p class="text-sm text-gray-600">Browse all events</p>
+      </a>
+      <a
+        href={`/${subsite}/news/`}
+        class="p-4 bg-galaxy-primary/5 rounded-lg hover:bg-galaxy-primary/10 transition-colors"
+      >
+        <h3 class="font-semibold text-galaxy-dark">News</h3>
+        <p class="text-sm text-gray-600">Read latest news</p>
+      </a>
+      <a href="/use/" class="p-4 bg-galaxy-primary/5 rounded-lg hover:bg-galaxy-primary/10 transition-colors">
+        <h3 class="font-semibold text-galaxy-dark">Platforms</h3>
+        <p class="text-sm text-gray-600">Find Galaxy servers</p>
+      </a>
+      <a href="/community/" class="p-4 bg-galaxy-primary/5 rounded-lg hover:bg-galaxy-primary/10 transition-colors">
+        <h3 class="font-semibold text-galaxy-dark">Community</h3>
+        <p class="text-sm text-gray-600">Get involved</p>
+      </a>
+    </div>
+  </section>
+
+  <slot name="footer-content" />
+</div>
+
+<style>
+  .subsite-inserts :global(> *) {
+    margin-bottom: 1.5rem;
+  }
+
+  .subsite-inserts :global(p),
+  .subsite-inserts :global(ul),
+  .subsite-inserts :global(ol) {
+    max-width: 65ch;
+    line-height: 1.7;
+  }
+
+  .subsite-inserts :global(ul) {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+  }
+
+  .subsite-inserts :global(li) {
+    margin-bottom: 0.25rem;
+  }
+
+  .subsite-inserts :global(a) {
+    color: var(--color-galaxy-primary);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .subsite-inserts :global(a:hover) {
+    color: var(--color-galaxy-dark);
+  }
+
+  /* Override the harsh bg-secondary on info-box cards to use Galaxy branding */
+  .subsite-inserts :global(.bg-secondary) {
+    background-color: #e8eef4 !important;
+    border-color: #c5d4e2 !important;
+  }
+
+  .subsite-inserts :global(.bg-secondary .btn) {
+    background-color: var(--color-galaxy-primary) !important;
+    color: #fff !important;
+    border-color: var(--color-galaxy-primary) !important;
+    border-radius: 0.375rem;
+  }
+
+  .subsite-inserts :global(.bg-secondary .btn:hover) {
+    background-color: #1d4261 !important;
+    border-color: #1d4261 !important;
+  }
+</style>

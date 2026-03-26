@@ -2,12 +2,12 @@
 title: Galaxy 17.09 released!
 date: '2017-11-08'
 tags: [release]
-supporters:
-- denbi
-- elixir
-- ViCE
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 We just updated our Galaxy server to version 17.09! Actually this was done by [H. Rasche](https://usegalaxy-eu.github.io/freiburg/people),

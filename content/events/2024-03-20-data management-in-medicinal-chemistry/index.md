@@ -8,10 +8,12 @@ contacts:
   name: ELIXIR UK
 location:
   name: online
-supporters:
-- elixir
 subsites: [eu]
 main_subsite: eu
+contributions:
+  funding:
+    - elixir-europe
+
 ---
 
 The development of medicinal chemistry is advancing very rapidly. Big pharmaceutical companies, research institutes and universities are working on ground-breaking solutions to help patients combat all kinds of 

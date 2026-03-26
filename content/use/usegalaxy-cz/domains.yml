@@ -1,0 +1,27 @@
+domains:
+    - platform_url: https://usegalaxy.cz/
+      ip: 78.128.247.44
+      version: IPv4
+      asn: AS2852 CESNET z.s.p.o.
+      org: CESNET z.s.p.o
+      release:
+          version_major: "25.0"
+          version_minor: 4.dev0
+      location:
+          city: Prague
+          region: Prague
+          region_code: "10"
+          country: CZ
+          country_name: Czechia
+          country_code: CZ
+          continent_code: EU
+          postal: 120 00
+          latitude: 50.0766
+          longitude: 14.4464
+          timezone: Europe/Prague
+          currency: CZK
+      response:
+          time: "2025-11-25T21:23:06Z"
+          status_code: 200
+          response_time_ms: 0
+          reason: OK

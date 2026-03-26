@@ -12,6 +12,10 @@ contact: Anton Nekrutenko
 image: /images/logos/ben_gurion_logo.png
 gtn: true
 subsites: [global, us]
+contributions:
+  organisers:
+    - nekrut
+
 ---
 
 **An [EGM](http://in.bgu.ac.il/en/egm/Pages/default.aspx) annual workshop**

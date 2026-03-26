@@ -2,11 +2,20 @@
 title: "Streamlining Bioinformatics Training with Galaxy TIaaS: A Wet Lab Success Story"
 tease: "No more setup headaches—TIaaS lets us deliver scalable, hands-on bioinformatics training that just works."
 date: "2025-05-15"
-tags: [tiaas, esg-wp1, esg, gtn]
-supporters: [eosc, unifreiburg, denbi, elixir, eurosciencegateway]
+tags: [tiaas, esg-wp1, esg, gtn, outreach]
 subsites: [eu, esg]
 main_subsite: eu
-authors: Marcela Davila
+contributions:
+  authorship:
+    - marceladavila
+  funding:
+    - eu
+    - eosc-life
+    - uni-freiburg
+    - deNBI
+    - mwk
+    - elixir-europe
+    - eurosciencegateway
 ---
 I’m [Marcela Davila](https://www.gu.se/en/about/find-staff/marceladavila), an instructor working in bioinformatics at the [University of Gothnburg](https://www.gu.se/en), Sweden, where hands-on training with real tools is critical. When I first heard about [Training Infrastructure as a Service (TIaaS)](https://usegalaxy.eu/tiaas/), I saw the potential to overcome the common headaches of managing technical resources for workshops and courses directed to wet lab scientists.
 

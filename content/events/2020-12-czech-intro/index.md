@@ -12,4 +12,11 @@ gtn: true
 contact: "Jiří Vondrášek, Martin Čech, Simon Bray"
 image: 
 subsites: [global, us]
+contributions:
+  organisers:
+    - martenson
+    - simonbray
+  funding:
+    - elixir-cz
+
 ---

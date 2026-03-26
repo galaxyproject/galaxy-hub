@@ -12,6 +12,10 @@ gtn: false
 contact: Beatriz Serrano-Solano
 tags: [talk]
 subsites: [all-eu, global, us]
+contributions:
+  organisers:
+    - beatrizserrano
+
 ---
 
 Talk at the Euro-BioImaging Virtual Pub showcasing the image analysis capabilities of Galaxy.

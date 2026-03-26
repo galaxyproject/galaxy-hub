@@ -2,7 +2,7 @@
 title: January 2020 Galactic News
 date: '2020-01-08'
 tease: Events, Pubs, Blogs, Platforms, Tutorials, Doc, and Happy New Year too
-tags: [newsletter, galaxy]
+tags: [newsletter]
 subsites: [all-eu, global, us]
 ---
 

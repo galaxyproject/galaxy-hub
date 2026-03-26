@@ -12,10 +12,13 @@ contacts:
   name: "Paul Zierep"
 subsites: [eu, freiburg]
 main_subsite: freiburg
-supporters:
-- denbi
 gtn: true
 tags: [workshop, training]
+contributions:
+  funding:
+    - deNBI
+    - mwk
+
 ---
 
 # Galaxy Microbial Genomics Course

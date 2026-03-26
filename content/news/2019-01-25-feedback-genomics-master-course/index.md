@@ -5,17 +5,17 @@ date: '2019-01-25'
 tags: [training, tiaas]
 location:
   name: Galaxy Europe
-supporters:
-- galaxy-europe
-- TIaaS
-authors: Nevena Veljkovic
-authors_structured:
-- name: Nevena Veljkovic
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - nevenaveljkovic
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
-This semester, the [Faculty of Biology at the University of Belgrade](http://bg.ac.rs/en/members/faculties/FB.php){:target="_blank"} offered for the first time
+This semester, the <a href="http://bg.ac.rs/en/members/faculties/FB.php" target="_blank">Faculty of Biology at the University of Belgrade</a> offered for the first time
 an elective master course **Introduction to Genomics** which included several hands-on sessions on the Galaxy platform.
 
 Lectures in this course were open to everyone and soon after the hands-on sessions

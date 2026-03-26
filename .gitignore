@@ -1,18 +1,11 @@
-/node_modules
-/coverage
-/build
-/dist
-/package-lock.json
-/src/.temp
 __pycache__
-/.cache
+/.cache/
 *.DS_Store
-/testing
-/meta
-/cypress/videos
-/cypress/screenshots
+*.orig
+node_modules/
 broken-links.md
-stderr.log
-stdout.log
-test.html
-/.yarn*
+
+# Legacy Gridsome build artifacts (safe to delete locally)
+/build/
+/coverage/
+/dist/

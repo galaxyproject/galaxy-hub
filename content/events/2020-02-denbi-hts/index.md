@@ -18,22 +18,22 @@ location:
   postal: 79104
   region: Baden-Württemberg
   street: Hermann-Herder-Straße 10
-supporters:
-- unifreiburg
-- denbi
-- mpi
 hidefooter: true
 continent: EU
 gtn: true
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+
 ---
 
 We are offering a Galaxy **beginner** workshop on high-throughput data analysis. 39 participants will be selected from all applicants. To apply for attendance, please sign in [here](https://drive.google.com/open?id=1AqPFa0fKbzVjBgm6ZAy5sVOWgotqELioUCGKw6sa6rY).
 
 ## Venue
 
-{% include map.html location=page.location showmap=true zoomlevel=15 hidepopup=true %}
+{% include map.html location=page.location showmap=true zoomlevel="15" hidepopup=true %}
 
 
 # Important notes
@@ -61,7 +61,6 @@ Tue     | ChIPseq data analysis
 Wed     | RNA-seq data analysis
 Thu     | HiC data analysis
 Fri     | exercises, questions, discussions, bring your own data ... (until 14:00)
-{:.table.table-striped}
 
 ## Links
 
@@ -109,14 +108,12 @@ Intercity Hotel Freiburg                      | Bismarckallee 3    | [Website](h
 Stadthotel Freiburg Kolping Hotel & Gästehaus | Karlstr.7          | [Website](http://www.hotel-freiburg.de/)
 Ibis Freiburg Süd (bit more far away)         | Bötzinger Str.76   | [Website](http://www.accorhotels.com/de/hotel-2656-ibis-budget-freiburg-sued/index.shtml)
 StayInn Hostel und Gästehaus                  | Stühlinger Str.24a | [Website](http://www.stayinn-freiburg.de/hostel-und-gaestehaus/)
-{:.table.table-striped}
 
 <!-- TODO: map -->
 
 > Note:
 > In Freiburg you sometimes have to pay an additional accommodation tax. For business trips this tax does not
 > to be paid if your employer fills out [this form](http://www.freiburg.de/servicebw/UebernachtungSt_Arbeitgeberbescheinigung.pdf). You will need to show this form to the hotel.
-{:.alert.alert-warning}
 
 ## Organizers
 

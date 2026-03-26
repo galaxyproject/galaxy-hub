@@ -3,6 +3,7 @@ title: 'October 2021 Galactic News'
 tease: "It's all good."
 date: "2021-10-11"
 subsites: [global, us]
+tags: [newsletter]
 ---
 
 <a href="/galaxy-updates/"><img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
@@ -211,7 +212,7 @@ Please join us for the [CoFest day](/events/2021-10-papercuts/) on October 21 to
 
 This month the Metabolomics community will meet to work on tools, get in touch with [Melanie Föll](https://training.galaxyproject.org/training-material/hall-of-fame/foellmelanie/) to participate.
 
-We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day long, please take advantage of both to communicate with your collaborators around the world.
+We will be on [Matrix](https://matrix.to/#/#galaxyproject_Lobby:gitter.im) for chat all day long, please take advantage of both to communicate with your collaborators around the world.
 
 </div>
 

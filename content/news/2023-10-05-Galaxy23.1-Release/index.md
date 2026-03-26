@@ -3,10 +3,12 @@ title: 'Galaxy 23.1 Release'
 date: '2023-10-05'
 tease: "Galaxy 23.1 is here! Check out the highlights!"
 hide_tease: false
-authors: Natalie Whitaker
-tags: [Release]
+tags: [release]
 subsites: [global, all]
 main_subsite: us
+contributions:
+  authorship:
+    - natalie-wa
 ---
 
 # June 2023 Galaxy Release (v 23.1)
@@ -35,7 +37,7 @@ The history menu has a new option to move a history out of your active histories
 
 Users can now visualize their HDF5 datasets directly in Galaxy, thanks to the integration of the h5web visualizer (https://h5web.panosc.eu/)!
 
-<img width="400" alt="23 1-hdf5" src="https://github.com/galaxyproject/galaxy-hub/assets/129767521/602dd86d-320b-4f46-bb11-0eda6cc9117b">
+<img width="400" alt="23 1-hdf5" src="https://github.com/galaxyproject/galaxy-hub/assets/129767521/602dd86d-320b-4f46-bb11-0eda6cc9117b" />
 
 # Galaxy Notification Framework
 

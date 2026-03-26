@@ -2,11 +2,11 @@
 title: PIPE-T paper published
 date: '2019-11-26'
 tags: [tools]
-authors: mtangaro
-authors_structured:
-- github: mtangaro
 subsites: [eu, elixir-it]
 main_subsite: elixir-it
+contributions:
+  authorship:
+    - mtangaro
 ---
 
 PIPE-T is a new Galaxy tool implementing a workflow for parsing, filtering, normalizing, imputing, and analyzing RT-qPCR data.

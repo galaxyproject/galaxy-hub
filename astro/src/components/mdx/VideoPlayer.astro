@@ -1,0 +1,15 @@
+---
+import VideoPlayerVue from '../embed/VideoPlayer.vue';
+
+interface Props {
+  src?: string;
+  url?: string;
+  youtube?: string;
+  vimeo?: string;
+  title?: string;
+}
+
+const props = Astro.props;
+---
+
+<VideoPlayerVue client:visible {...props} />

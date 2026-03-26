@@ -12,4 +12,13 @@ gtn: false
 contact: "Björn Grüning"
 image: 
 subsites: [global, us]
+tags: [talk, conference]
+contributions:
+  organisers:
+    - bgruening
+  funding:
+    - deNBI
+    - egi
+    - eu
+
 ---

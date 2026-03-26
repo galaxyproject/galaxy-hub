@@ -5,9 +5,11 @@ tease: "Estimating redshifts of optical counter parts of sources detected in ast
 hide_tease: false
 tags: [esg-wp5, esg, tools, workflow, astrophysics]
 subsites: [all, esg]
-supporters:
-  - eurosciencegateway
 main_subsite: eu
+contributions:
+  funding:
+    - eu
+    - eurosciencegateway
 ---
 
 The WP5 EPFL team is excited to share a new Galaxy workflow that facilitates follow-up analysis of astronomical transient events mentioned in bulletins such as [ATels](https://astronomerstelegram.org/) or [GCN Circulars](https://gcn.nasa.gov/circulars).

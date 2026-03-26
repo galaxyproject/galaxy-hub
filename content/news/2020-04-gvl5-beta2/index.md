@@ -1,10 +1,17 @@
 ---
 date: '2020-04-24'
 title: "GVL 5.0-beta2 release"
-authors: "Alexandru Mahmoud, Nuwan Goonasekera, Luke Sargent, Enis Afgan"
 tease: "30% faster and single sign-on, ohh my"
 image: "/news/2020-02-gvl5-beta/gvl-logo-landscape-2018.svg"
 highlight: true
+contributions:
+  authorship:
+    - almahmoud
+    - nuwang
+    - lukesargent
+    - afgane
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2020-04-gvl5-beta2/"
 ---
 
 Mid-February, we announced [the first beta release](https://galaxyproject.org/blog/2020-02-gvl5-beta/) of the all-new Genomics Virtual Lab v5.0 (GVL 5). Today, beta2 release has become available. This latest version comes packed with several new features and enhancements as well as general improvements regarding the stability and robustness of the platform. We’d like to highlight the following three features, with more detailed blog posts about each of the features coming in the following weeks:
@@ -36,7 +43,7 @@ To ensure responsiveness and scalability of the Galaxy application, Galaxy is co
 
 # How to start using the GVL?
 
-The GVL 5 beta2 release is available via CloudLaunch at [https://launch.usegalaxy.org/](https://launch.usegalaxy.org/), as the GVL 5.0 beta2 version of the Genomics Virtual Lab appliance. The GVL continues to be uniformly available on at least 4 different clouds: AWS, GCP, NeCTAR, and Jetstream. If you would like to enable GVL on your cloud, please [reach out to us](https://gitter.im/galaxyproject/FederatedGalaxy).
+The GVL 5 beta2 release is available via CloudLaunch at [https://launch.usegalaxy.org/](https://launch.usegalaxy.org/), as the GVL 5.0 beta2 version of the Genomics Virtual Lab appliance. The GVL continues to be uniformly available on at least 4 different clouds: AWS, GCP, NeCTAR, and Jetstream. If you would like to enable GVL on your cloud, please [reach out to us](https://matrix.to/#/#galaxyproject_FederatedGalaxy:gitter.im).
 
 
 # What’s next for the GVL?

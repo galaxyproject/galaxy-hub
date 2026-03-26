@@ -1,9 +1,16 @@
 ---
 site: freiburg
-tags: [comment]
+tags: [outreach]
 title: Galaxy as a sharing infrastructure and how this enables efficient user support
-authors: "Björn Grüning, Cristóbal Gallardo, Jennifer Hillman-Jackson, Ross Lazarus"
 date: "2022-01-18"
+contributions:
+  authorship:
+    - bgruening
+    - gallardoalba
+    - jennaj
+    - fubar2
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2022-01-18-reproducibility-and-support-bjoern/"
 ---
 
 `tl;dr` We take a closer look at Galaxy as a sharing infrastructure and framework. How this enables best practices in science and helps the European Galaxy team to

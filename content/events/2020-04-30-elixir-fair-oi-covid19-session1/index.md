@@ -1,23 +1,21 @@
 ---
-title: 'Galaxy-ELIXIR Webinar 1: Introduction to Galaxy and the Galaxy workflows for
-  SARS-CoV-2 data analysis'
+title: 'Galaxy-ELIXIR Webinar 1: Introduction to Galaxy and the Galaxy workflows for SARS-CoV-2 data analysis'
 date: '2020-04-30'
 end: '2020-04-30'
-tags: [training, COVID-19]
+tags: [training, covid-19, workflow]
 contacts:
 - name: Galaxy and ELIXIR
 location:
   name: online
-supporters:
-- galaxy
-- elixir
-- denbi
-- bmbf
-- elixir-belgium
-- biodaten
 hidefooter: true
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  funding:
+    - biodaten
+    - bmbf
+    - deNBI
+    - elixir-europe
 ---
 
 **Galaxy-ELIXIR Webinar Series: FAIR data and Open Infrastructures to tackle the COVID-19 pandemic**
@@ -30,7 +28,7 @@ The Galaxy Community and ELIXIR organise a webinar series to demonstrate how ope
 
 The first session will introduce the Galaxy platform and other public research infrastructure to be used throughout the webinar series. It will also explain the motivation behind the Galaxy COVID-19 projects and explain the benefits of open reproducible research and transparent and interoperable analytics.
 
-[Programme Information and Registration](https://elixir-europe.org/events/webinar-galaxy-elixir-covid19){:target="_blank"}
+<a href="https://elixir-europe.org/events/webinar-galaxy-elixir-covid19" target="_blank">Programme Information and Registration</a>
 
 ### Speakers
 

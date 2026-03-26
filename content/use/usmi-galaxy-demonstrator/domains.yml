@@ -1,0 +1,23 @@
+domains:
+    - platform_url: http://bioinformatics.hsanmartino.it:8080/
+      ip: 2.33.121.168
+      version: IPv4
+      asn: AS30722 Vodafone Italia S.p.A.
+      location:
+          city: Milan
+          region: Lombardy
+          region_code: "25"
+          country: IT
+          country_name: Italy
+          country_code: IT
+          continent_code: EU
+          postal: "20121"
+          latitude: 45.4642
+          longitude: 9.18998
+          timezone: Europe/Rome
+          currency: EUR
+      response:
+          time: "2025-11-25T21:23:44Z"
+          status_code: 200
+          response_time_ms: 0
+          reason: OK

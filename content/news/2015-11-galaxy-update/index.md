@@ -4,7 +4,7 @@ date: "2015-11-02"
 subsites: [global, us]
 ---
 <div class='right'>
-<a href='/galaxy-updates/2015-11/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galactic News! October 2015 Edition" width=150 /></a><br />
+<a href='/galaxy-updates/2015-11/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galactic News! October 2015 Edition" width="150" /></a><br />
 <a href='/galaxy-updates/2015-11/#gcc2016-training-topic-vote-ends-this-friday'><img src="/events/gcc2016/GCC2016TrainingLogo400.png" alt="GCC2016 Training" width="150" /></a>
 </div>
 

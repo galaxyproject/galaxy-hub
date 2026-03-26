@@ -3,15 +3,14 @@ title: de.NBI Training Infrastructure Feedback from Helena Rasche
 date: '2020-03-06'
 tease: and was wildly successful
 tags: [tiaas, training]
-supporters:
-- galaxy-europe
-- denbi
-- elixir
-authors: hexylena
-authors_structured:
-- github: hexylena
 subsites: [global, all-eu, us]
 main_subsite: eu
+contributions:
+  authorship:
+    - hexylena
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 

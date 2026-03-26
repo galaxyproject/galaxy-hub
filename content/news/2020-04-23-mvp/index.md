@@ -6,14 +6,14 @@ tease: a visualization plug-in that extends Galaxy-P’s advantages into the vis
   of large, complex datasets
 tags: [paper]
 doi: https://doi.org/10.1093/gigascience/giaa025
-supporters:
-- denbi
-- elixir
-authors: subinamehta
-authors_structured:
-- github: subinamehta
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - subinamehta
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 Proteogenomics, enables new insights into understanding the complex biological systems by integrating genomics/transcriptomics with mass spectrometry based proteomics data.

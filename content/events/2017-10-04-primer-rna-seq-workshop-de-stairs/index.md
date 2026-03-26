@@ -12,6 +12,10 @@ location:
   street: Schänzlestr. 1
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+
 ---
 
 A Primer for RNA-Seq Processing, Interpreting and Visualization, October 2017, registration is closed!

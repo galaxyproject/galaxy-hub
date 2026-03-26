@@ -15,7 +15,7 @@ tool groups: **Convert Formats**, **SAM Tools**, and **NGS: QC and
 manipulation**, or perform a search in the top left Tool Search box.
 
 2. With the **Edit Attributes** form, reached by clicking on the pencil icon
-<img src="/images/icons/pencil.png" alt="/images/icons/pencil.png"> inside of a
+<img src="/images/icons/pencil.png" alt="/images/icons/pencil.png" /> inside of a
 [dataset](/learn/managing-datasets) box in the history.
 
 **Tool developers**: please see [admin/datatypes](/admin/datatypes) for
@@ -70,7 +70,7 @@ data formats) is at `UCSC`'s genomewiki:
 [http://genomewiki.ucsc.edu/index.php/Coordinate_Transforms](http://genomewiki.ucsc.edu/index.php/Coordinate_Transforms)
 
 For example, the first 100 bases of a chromosome would be given the
-coordinates: chromStart=0 and chromEnd=100.
+coordinates: chromStart="0" and chromEnd=100.
 
 * In a display application, a feature with these coordinates would overlap
     chromosome bases 1-100. This overlap could be on either the (+) or (-)

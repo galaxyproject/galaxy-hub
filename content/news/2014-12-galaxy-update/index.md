@@ -2,9 +2,10 @@
 title: "December 2014 Galaxy Newsletter"
 date: "2014-12-01"
 subsites: [global, us]
+tags: [newsletter]
 ---
 <div class='right'>
-<a href='/galaxy-updates/2014-12/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a>
+<a href='/galaxy-updates/2014-12/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width="150" /></a>
 </div>
 
 As always there's a lot going on in the Galaxy this month.  "Like what?" you say.  Well, read the dang [December Galaxy Newsletter](/galaxy-updates/2014-12/) we say! Highlights include:

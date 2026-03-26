@@ -14,7 +14,7 @@ GCC2019 will finish with *CollaborationFest*, a 2 (or 4) day collaborative work 
 
 * Add or expand the cluster ideas document (coming))
 * Add an introduction and indicate your preferred working clusters (coming)
-* Ask questions on the [Conference gitter channel](https://gitter.im/galaxyproject/gcc)
+* Ask questions on the [Conference matrix channel](https://matrix.to/#/#galaxyproject_gcc:gitter.im)
 
 
 # Core and Encore

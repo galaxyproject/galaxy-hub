@@ -11,11 +11,13 @@ location:
 contacts:
 - email: null
   name: EBI
-supporters:
-- elixir
 tags: [training, talk]
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - elixir-europe
+
 ---
 
 On the ECCB 2016 we will give a talk. More information can be found [here](https://www.ebi.ac.uk/eccb/2016/index.html).

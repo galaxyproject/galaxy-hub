@@ -2,12 +2,15 @@
 title: 'Success Story: “TIaaS: Training Infrastructure as a Service for an MGnify training”'
 tease: 'The MGnify team of EMBL-EBI have used TIaaS to run the MGnify Interactive Tool on scale'
 date: '2023-09-29'
-tags: [tiaas]
-supporters:
-- eosc
-authors: Sandy Rogers
+tags: [tiaas, outreach, training]
 subsites: [all-eu, all]
 main_subsite: eu
+contributions:
+  authorship:
+    - sandyrogers
+  funding:
+    - eu
+    - eosc-life
 ---
 
 The MGnify team of EMBL-EBI have used [TIaaS](https://usegalaxy.eu/tiaas/) to run the [MGnify Interactive Tool](https://usegalaxy.eu/?tool_id=interactive_tool_mgnify_notebook) on scale.

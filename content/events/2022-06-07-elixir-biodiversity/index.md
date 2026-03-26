@@ -15,9 +15,23 @@ contact: Nicola Soranzo, Bérénice Batut, Anthony Bretaudeau, Johan Gustafsson,
   Harrow, Saskia Hiltemann, Jerry Lanfear, Yvan Le Bras, Krzysztof Poterlowicz, Helena
   Rasche, Beatriz Serrano-Solano, Andrew Lonie, Frederik Coppens, Björn Grüning
 tags: [training]
-supporters:
-- elixir
 subsites: [all-eu, global]
+contributions:
+  organisers:
+    - abretaud
+    - beatrizserrano
+    - bebatut
+    - bgruening
+    - frederikcoppens
+    - hexylena
+    - nsoranzo
+    - poterlowicz-lab
+    - shiltemann
+    - supernord
+    - yvanlebras
+  funding:
+    - elixir-europe
+
 ---
 
 Part of ELIXIR All Hands meeting.

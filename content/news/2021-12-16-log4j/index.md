@@ -4,11 +4,11 @@ date: '2021-12-16'
 tease: The Freiburg galaxy team reviewed the Usegalaxy.eu software stack, looking
   for the presence of vulnerable versions of the Log4j library.
 hide_tease: true
-authors: gmauro
-authors_structured:
-- github: gmauro
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - gmauro
 ---
 
 The Freiburg galaxy team reviewed the Usegalaxy.eu software stack, looking for the presence of vulnerable versions of the Log4j library. 

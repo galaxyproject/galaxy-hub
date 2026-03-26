@@ -8,13 +8,14 @@ contacts:
   name: Freiburg Galaxy Team
 location:
   name: online
-supporters:
-- unifreiburg
-- denbi
-- biodaten
 hidefooter: true
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  funding:
+    - biodaten
+    - deNBI
+
 ---
 
 The __nf-core hackathon__ in July this year will be fully virtual, so you can contribute to nf-core and get your pipeline started from the comfort of your homes.

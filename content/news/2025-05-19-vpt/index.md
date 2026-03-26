@@ -4,16 +4,17 @@ date: '2025-05-19'
 tease: Reprocess and refine the single-cell results of MERSCOPE experiments
 hide_tease: true
 tags: [tools]
-supporters:
-- elixir
-- denbi
-- unifreiburg
-- nfdi4bioimage
-authors: Amirhossein Nilchi
-authors_structured:
-- github: nilchia
 subsites: [global, all, eu]
 main_subsite: eu
+contributions:
+  authorship:
+    - Nilchia
+  funding:
+    - elixir-europe
+    - deNBI
+    - mwk
+    - uni-freiburg
+    - nfdi4bioimage
 ---
 
 [VPT (Vizgen Post-processing Tool)](https://github.com/Vizgen/vizgen-postprocessing) open-source suite for post-processing MERFISH spatial transcriptomics data from Vizgen, is now available in Galaxy.

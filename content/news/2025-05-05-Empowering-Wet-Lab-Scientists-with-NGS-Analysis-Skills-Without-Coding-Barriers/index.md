@@ -2,11 +2,20 @@
 title: "Empowering Wet Lab Scientists with NGS Analysis Skills Without Coding Barriers"
 tease: "Teaching NGS to wet lab scientists got a whole lot easier once I discovered TIaaS and the Galaxy platform."
 date: "2025-05-08"
-tags: [tiaas, esg-wp1, esg]
-supporters: [eosc, unifreiburg, denbi, elixir, eurosciencegateway]
+tags: [tiaas, esg-wp1, esg, outreach]
 subsites: [eu, esg]
 main_subsite: eu
-authors: Uwe Schwartz
+contributions:
+  authorship:
+    - uweschwartz
+  funding:
+    - eu
+    - eosc-life
+    - uni-freiburg
+    - deNBI
+    - mwk
+    - elixir-europe
+    - eurosciencegateway
 ---
 
 My name is [Uwe Schwartz](https://scholar.google.de/citations?user=qkqtUboAAAAJ&hl=de&oi=ao) and five years ago, I began teaching Next-Generation Sequencing (NGS) data analysis to wet lab scientists at the [University of Regensburg](https://www.uni-regensburg.de/biologie-vorklinische-medizin/fakultaet/einrichtungen/ngs-analysis-center/index.html). My primary challenge was finding a platform that would allow me to focus on teaching analytical concepts rather than troubleshooting technical issues. The [Galaxy Training Infrastructure as a Service (TIaaS)](https://usegalaxy.eu/tiaas/) has been the perfect solution, providing a reliable computing environment that has transformed how I deliver NGS training to beginners.

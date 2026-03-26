@@ -2,10 +2,12 @@
 title: "Updates to your InvenioRDM and Zenodo integration in Galaxy"
 tease: "Discover a more streamlined and user-friendly way to manage InvenioRDM-compatible repositories in Galaxy."
 hide-tease: false
-authors: "David López"
 date: "2025-03-10"
-tags: ["Invenio", "Zenodo", "research data management"]
+tags: ["Invenio", "Zenodo", "rdm"]
 subsites: [global, all-eu]
+contributions:
+  authorship:
+    - davelopez
 ---
 
 Some time back, [in this post](../2024-05-03-inveniordm-integration/), we introduced an integration that aimed to enhance **research data management in Galaxy** by connecting it with

@@ -13,4 +13,9 @@ contact: Loraine Guéguen, Erwan Corre
 image: ''
 tags: [training]
 subsites: [all-eu, global, us]
+contributions:
+  organisers:
+    - loraine-gueguen
+    - r1corre
+
 ---

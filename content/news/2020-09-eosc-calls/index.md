@@ -3,13 +3,14 @@ title: EOSC-Life Open Calls
 date: '2020-09-23'
 tease: Two funding opportunities are now open in EOSC-Life.
 tags: [grants]
-supporters:
-- eosc
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
 subsites: [global, all-eu, us]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
+  funding:
+    - eu
+    - eosc-life
 ---
 
 Two funding opportunities are now open in [EOSC-Life](https://www.eosc-life.eu/). We encourage the different Galaxy communities to apply!

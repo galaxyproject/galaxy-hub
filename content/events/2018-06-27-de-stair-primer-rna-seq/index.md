@@ -13,9 +13,11 @@ location:
   postal: 4069
   region: Thueringen
   street: Beutenbergstr. 11
-supporters:
-- denbi
 subsites: [eu]
+contributions:
+  funding:
+    - deNBI
+
 ---
 
 de.STAIR is offering an introductory course on RNA-Sequencing data analysis using the Galaxy platform.

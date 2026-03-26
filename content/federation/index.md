@@ -38,5 +38,5 @@ library and partnership on the [NSF Custos project](https://www.nsf.gov/awardsea
 are ongoing efforts to make resource connectivity as secure yet simple as possible.
 
 ## Contact
-If you are interested in any of the above topics, it is best to get in touch with us via a public Gitter channel
-available at https://gitter.im/galaxyproject/FederatedGalaxy.
+If you are interested in any of the above topics, it is best to get in touch with us via a public Matrix channel
+available at https://matrix.to/#/#galaxyproject_FederatedGalaxy:gitter.im.

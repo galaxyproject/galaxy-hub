@@ -1,17 +1,16 @@
 ---
 title: New brochure from ELIXIR Germany
 date: '2021-10-06'
-tease: ELIXIR Germany has published the handout "ELIXIR GERMANY - Shaping the Bioinformatics
-  Infrastructure for Life Sciences in Europe".
+tease: ELIXIR Germany has published the handout "ELIXIR GERMANY - Shaping the Bioinformatics Infrastructure for Life Sciences in Europe".
 hide_tease: true
-tags: [COVID-19]
-supporters:
-- denbi
-authors: bgruening
-authors_structured:
-- github: bgruening
+tags: [covid-19, elixir, community]
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bgruening
+  funding:
+    - deNBI
 ---
 
 ELIXIR Germany has published the handout "ELIXIR GERMANY - Shaping the Bioinformatics Infrastructure for Life Sciences in Europe". 
@@ -20,6 +19,6 @@ Galaxy is one of the services provided by ELIXIR-DE with a strong impact on COVI
 
 Take a look at the [brochure](https://www.denbi.de/images/Downloads/ELIXIR-DE_brochure_2021.pdf)!
 
-<embed src="https://www.denbi.de/images/Downloads/ELIXIR-DE_brochure_2021.pdf" width="65%" height="700px" type='application/pdf'>
+<embed src="https://www.denbi.de/images/Downloads/ELIXIR-DE_brochure_2021.pdf" width="65%" height="700px" type='application/pdf' />
 
 

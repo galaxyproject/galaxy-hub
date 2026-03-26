@@ -4,17 +4,18 @@ date: '2022-02-01'
 tease: 'TÜV SÜD has awarded the University''s data centre
   the international certification for information security management systems ISO/IEC 27001.'
 hide_tease: true
-tags: [galaxy, support]
-supporters:
-- galaxy-europe
-- unifreiburg
-- denbi
-authors: bgruening
-authors_structured:
-- github: bgruening
+tags: [support]
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
 components: true
+contributions:
+  authorship:
+    - bgruening
+  funding:
+    - deNBI
+    - elixir-europe
+    - uni-freiburg
+    - deNBI
 ---
 
 [TÜV SÜD](https://www.tuvsud.com) has awarded the University's data centre the international certification for information security management systems ([ISMS](https://en.wikipedia.org/wiki/Information_security_management)) [ISO/IEC 27001](https://en.wikipedia.org/wiki/ISO/IEC_27001).
@@ -30,5 +31,5 @@ especially Jan Leendertse, Dirk von Suchodoletz, Marc Herbstritt and the entire 
 
 For further information please visit the official [press release](https://www.pr.uni-freiburg.de/pm/2022/it-sicherheitsmanagement-der-universitaet-freiburg-durch-tuev-sued-zertifiziert).
 
-<twitter tweet="1488482463248797701"></twitter>
+<Twitter tweet="1488482463248797701"></Twitter>
 

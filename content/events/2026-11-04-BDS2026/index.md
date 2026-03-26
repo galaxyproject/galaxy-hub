@@ -6,4 +6,6 @@ tease: "Biological Data Science 2026 convenes computational biologists, data sci
 continent: NA
 location: "Cold Spring Harbor, NY, USA"
 external_url: "https://meetings.cshl.edu/meetings.aspx?meet=DATA"
+contributions:
+  organisers: []
 ---

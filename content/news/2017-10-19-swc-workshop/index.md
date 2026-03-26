@@ -2,11 +2,12 @@
 title: Helping at the Software Carpentry workshop @ EMBL Heidelberg and Talk @ de.NBIer
 date: '2017-10-19'
 tags: [training, talk]
-supporters:
-- denbi
-- elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 Bérénice was helping Toby Hodges, Malvika Sharan and the other instructors for the [Software Carpentry workshop](https://www.embl.de/training/events/2017/SWC17-01/) organized at EMBL in Heidelberg.

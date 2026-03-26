@@ -7,7 +7,6 @@ days: 6
 tags:
 - new event-external
 title: "PAG 33 Plant and Animal Genome Conference"
-contact: ''
 location:
   name: San Diego, CA, USA
 continent: NA

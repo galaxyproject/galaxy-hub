@@ -1,16 +1,15 @@
 ---
 title: 'COVID updates: B.1.617.2 detected in COG-UK data from the beginning of April'
 date: '2021-05-11'
-tease: We checked the COG-UK data to see if we’d find representative samples of  B.1.617.2
-  (one of the Indian lineages, and a Variant of Concern).
-tags: [COVID-19, galaxy]
-supporters:
-- elixir
-authors: bgruening
-authors_structured:
-- github: bgruening
+tease: We checked the COG-UK data to see if we’d find representative samples of  B.1.617.2 (one of the Indian lineages, and a Variant of Concern).
+tags: [covid-19]
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bgruening
+  funding:
+    - elixir-europe
 ---
 
 With B.1.617.2 (one of the Indian lineages) now being a Variant Of Concern (VOC), we checked the COG-UK data that we have been analyzing to

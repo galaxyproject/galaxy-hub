@@ -19,15 +19,15 @@ Galaxy will again have a strong presence at the 2014 ASMS meeting.  This year it
     <th> Links </th>
   </tr>
   <tr>
-    <th rowspan=5> Monday </th>
+    <th rowspan="5"> Monday </th>
     <td style=" text-align: center;"> 9:10am - 9:30am </td>
     <td> Ballroom III </td>
     <td> <strong>Novel Galaxy Workflows Combining RNA-seq and Proteomic MS/MS Reveal New Insights into Non-Model Organisms</strong> <div class='indent'><em>Conrad Bessant, Queen Mary University of London</em></div> </td>
     <td> </td>
   </tr>
   <tr>
-    <td rowspan=3 style=" text-align: center;"> 10:30am - 1:00pm </td>
-    <td rowspan=3 style=" text-align: left;"> Exhibit Hall C-G </td>
+    <td rowspan="3" style=" text-align: center;"> 10:30am - 1:00pm </td>
+    <td rowspan="3" style=" text-align: left;"> Exhibit Hall C-G </td>
     <td> <strong>MP 033: Community-based Development and Evaluation of Biological Mass Spectrometry Software via the Galaxy Tool Shed</strong> <div class='indent'><em>Bart Gottschalk, Minnesota Supercomputing Institute</em></div> </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/posters/2014_ASMS_Gottschalk_MP33.pdf'>Poster</a> </td>
   </tr>
@@ -46,9 +46,9 @@ Galaxy will again have a strong presence at the 2014 ASMS meeting.  This year it
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2014_ASMS_Griffin_PublicSharing.pdf'>Slides</a> </td>
   </tr>
   <tr>
-    <th rowspan=2> Tuesday </th>
+    <th rowspan="2"> Tuesday </th>
     <td style=" text-align: center;"> 10:30am - 1:00pm </td>
-    <td rowspan=2 style=" text-align: left;"> Exhibit Hall C-G </td>
+    <td rowspan="2" style=" text-align: left;"> Exhibit Hall C-G </td>
     <td> <strong>TP 077: Identifying Novel Peptide Sequence Variants from High Throughput RNA-Seq Data Via Flexible Proteomic Database Generation using the Galaxy Framework</strong> <div class='indent'><em>James Johnson, Minnesota Supercomputing Institute</em></div> </td>
     <td> </td>
   </tr>

@@ -1,0 +1,12 @@
+---
+import TwitterVue from '../embed/Twitter.vue';
+
+interface Props {
+  tweetUrl?: string;
+  id?: string;
+}
+
+const props = Astro.props;
+---
+
+<TwitterVue client:load {...props} />

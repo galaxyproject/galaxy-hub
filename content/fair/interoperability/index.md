@@ -1,12 +1,13 @@
 ---
 title: Galaxy and Interoperability
-highlight: true
+tease: | 
+    Galaxy combines human-friendly interfaces with machine-readable metadata, standard APIs, portable tool execution,
+    and community training. That makes FAIR usable both for researchers working interactively and for systems integrating
+    Galaxy programmatically across larger digital research ecosystems.
 ---
 
-Galaxy as both a project and a platform facilitates FAIR research, addressing common needs, invoking available standards and contributing to several upstream projects. 
-
 <div class="float-right" style="max-width: 200px"><img src="/images/logos/ELIXIR_RIR_Logo.png" alt="ELIXIR RIR logo"/></div>
-<br>
+<br />
 
 This page focusses on FAIR's 'I' component, so highlighting interoperability measures, pointing to respective implementations and answering a range of questions about the topic. Contents have been generated from [Galaxy Europe's successful evaluation](/news/2023-12-14-elixir-rir-for-galaxy-europe/) of being an [ELIXIR 'Recommended Interoperability Resource' (RIR)](https://elixir-europe.org/platforms/interoperability/rirs), for which central considerations have been addressed. Both asked questions and their answers should be shared here with the community, hopefully serving as references for future needs. 
 
@@ -47,7 +48,7 @@ Analogously, the team behind usegalaxy.eu builds from a number of groups and ind
 
 ### Documented evidence of **community impact**
 
-Galaxy serves many different communities (not only in life science), by providing the computational infrastructure, Galaxy training courses, and training material. For many communities we offer [specific Galaxy sub-domains]( https://usegalaxy-eu.github.io/posts/2020/12/28/subdomains) with individual entry pages and dedicated tools for community-specific research. Community members are using the Galaxy servers for their data analysis and report their application to other Galaxy users (“use cases”). These use cases are [published on our homepage](https://usegalaxy-eu.github.io/news?tag=UseCase) to support visibility of their work. 
+Galaxy serves many different communities (not only in life science), by providing the computational infrastructure, Galaxy training courses, and training material. For many communities we offer [specific Galaxy sub-domains]( https://usegalaxy-eu.github.io/posts/2020/12/28/subdomains) with individual entry pages and dedicated tools for community-specific research. Community members are using the Galaxy servers for their data analysis and report their application to other Galaxy users (“use cases”). These use cases are [published on our homepage](https://usegalaxy-eu.github.io/news?tag=usecase) to support visibility of their work. 
 
 Measuring impact is hard. In the following we will state a few resources and numbers that we have been able to track semi-automatically over time.
 
@@ -115,8 +116,7 @@ In terms of tutorials and training, videos (screen casts) are available on Youtu
 
 Galaxy is available under a small range of licenses:
 * Web contents of usegalaxy.eu are published as Creative Commons Zero v1.0 (CC0-v1.)
-* Work on the [codebase](https://github.com/galaxyproject/galaxy) contributed from 2021-04-07 onwards is licensed under the MIT License
-* Work on the [codebase](https://github.com/galaxyproject/galaxy) contributed before 2021-04-07 is licensed under the Academic Free License, v3.0
+* The [codebase](https://github.com/galaxyproject/galaxy) is licensed under the MIT License
 * Further details of underlying licenses: https://github.com/galaxyproject/galaxy/blob/dev/LICENSE.txt 
 * Every single tool (currently ~3000) has its own license, which is annotated as part of its conda package or container.
 

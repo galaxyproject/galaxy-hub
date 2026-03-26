@@ -1,5 +1,4 @@
 ---
-autotoc: true
 ---
 
 <slot name="/events/gcc2024/header" />
@@ -14,13 +13,13 @@ A quick walkthrough of the Galaxy backend geared for developers wishing to exten
 ## Meet the Instructors
 
 ### John Chilton
-Penn State University <br>
+Penn State University <br />
 Galaxy Developer
 
 ### David Lopez
-University of Freiburg <br>
+University of Freiburg <br />
 Galaxy Developer
 
 ### Marius Van Den Beek
-Penn State University <br>
+Penn State University <br />
 Galaxy Developer

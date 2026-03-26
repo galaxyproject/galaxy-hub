@@ -1,0 +1,24 @@
+domains:
+    - platform_url: http://orione.crs4.it/
+      ip: 156.148.18.202
+      version: IPv4
+      asn: AS137 Consortium GARR
+      org: CRS4 S.r.l.
+      location:
+          city: Pula
+          region: Sardinia
+          region_code: "88"
+          country: IT
+          country_name: Italy
+          country_code: IT
+          continent_code: EU
+          postal: 09010
+          latitude: 39.013
+          longitude: 9.0014
+          timezone: Europe/Rome
+          currency: EUR
+      response:
+          time: "2025-11-25T19:56:02Z"
+          status_code: 200
+          response_time_ms: 0
+          reason: OK

@@ -3,7 +3,7 @@ title: September 2019 Galactic News
 date: '2019-08-30'
 tease: Events! Pubs! Platforms! Jobs! Doc! Tutorials! Releases! And some other news
   too.
-tags: [newsletter, galaxy]
+tags: [newsletter]
 subsites: [all-eu, global, us]
 ---
 

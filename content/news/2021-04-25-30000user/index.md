@@ -1,17 +1,18 @@
 ---
 title: 30,000 users
 date: '2021-04-25'
-tags: [galaxy]
-supporters:
-- denbi
-- elixir
-- eosc
-- unifreiburg
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
+tags: []
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
+  funding:
+    - eu
+    - deNBI
+    - elixir-europe
+    - eosc-life
+    - uni-freiburg
 ---
 
 The [European Galaxy Server](https://www.usegalaxy.eu) has surpassed the **30,000 registered users**.

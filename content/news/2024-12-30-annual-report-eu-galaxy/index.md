@@ -3,13 +3,15 @@ title: "The annual report of the Freiburg Galaxy team 2024"
 date: "2024-12-30"
 tease: "In this post we summarized the activities and achievements of the Freiburg Galaxy team in 2024."
 hide_tease: false
-supporters:
-  - eurosciencegateway
-  - unifreiburg
-  - elixir
 subsites: [freiburg, eu, esg]
-tags: [esg,elixir,galaxy, esg-wp1]
+tags: [esg, elixir, esg-wp1, year-in-review]
 main_subsite: eu
+contributions:
+  funding:
+    - eu
+    - eurosciencegateway
+    - uni-freiburg
+    - elixir-europe
 ---
 The Freiburg Galaxy Team took several opportunities to present Galaxy as a FAIR 
 data analysis and workflow management system, computing platform, training 

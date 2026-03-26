@@ -17,6 +17,9 @@ links:
   url: http://repeatexplorer.org/?page_id=19
 tags: [training]
 subsites: [all-eu, global, us]
+contributions:
+  funding:
+    - elixir-cz
 ---
 
 Theoretical and practical aspects of using next generation sequencing (NGS) data for analyzing repeat composition of plant genomes.

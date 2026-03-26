@@ -13,10 +13,9 @@ location:
   postal: 79104
   region: Baden-Württemberg
   street: Hermann-Herder-Straße 10
-supporters:
-- ViCE
 subsites: [eu, freiburg]
 main_subsite: freiburg
+
 ---
 
 In this [ViCE](https://www.rz.uni-freiburg.de/rz/aktuell/vice-gestartet) workshop we will give a talk and introduce Conda, Docker, and VMs.

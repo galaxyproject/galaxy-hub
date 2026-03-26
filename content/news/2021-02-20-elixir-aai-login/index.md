@@ -1,15 +1,15 @@
 ---
 title: Login via ELIXIR-AAI, Google, LinkedIn, or your ORCID iD
 date: '2021-02-20'
-tags: [FAQ]
-supporters:
-- denbi
-- elixir
-authors: bgruening
-authors_structured:
-- github: bgruening
+tags: [faq]
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bgruening
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 The [ELIXIR Authentication and Authorisation Infrastructure (AAI)](https://elixir-europe.org/services/compute/aai)
@@ -51,4 +51,3 @@ When you are connected, it will look like this:
 
 
 If you find issues or have any questions, please don't hesitate to [contact us](mailto:galaxy@informatik.uni-freiburg.de).
-

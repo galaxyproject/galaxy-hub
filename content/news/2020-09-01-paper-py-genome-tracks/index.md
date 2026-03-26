@@ -4,12 +4,13 @@ title: 'New Paper "pyGenomeTracks: reproducible plots for multivariate genomic d
 date: '2020-09-01'
 doi: 10.1093/bioinformatics/btaa692
 tags: [paper]
-supporters:
-- denbi
-- elixir
-- crc992
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+    - crc992
 ---
 
 We are happy to announce the publication of **pyGenomeTracks (PGT)** in Bioinformatics. The tool plots combinations of genomic tracks in a

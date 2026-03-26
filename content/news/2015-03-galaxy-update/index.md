@@ -4,7 +4,7 @@ date: "2015-03-02"
 subsites: [global, us]
 ---
 <div class='right'>
-<a href='/galaxy-updates/2015-03/'><img src="/images/logos/GalaxyUpdate200.png" alt="The March 2015 News" width=150 /></a><br /><br />
+<a href='/galaxy-updates/2015-03/'><img src="/images/logos/GalaxyUpdate200.png" alt="The March 2015 News" width="150" /></a><br /><br />
 </div>
 
 As always, it's [a busy time in the Galaxy](/galaxy-updates/2015-03/).   The [March 2015 Galaxy News](/galaxy-updates/2015-03/) is out, and it's chock full of information.  Here are some of the highlights.

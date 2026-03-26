@@ -7,11 +7,17 @@ continent: EU
 location:
   name: "Online (Zoom) - 10:30–12:00 BST "
 contact: "Armin Dadras"
-tags: [workshops,elixir,esg,eurosciencegateway,esg-wp2,single-cell,workflow, workflow-hub, omics, demo]
-supporters:
-- eurosciencegateway
-- denbi
+tags: [workshop,elixir,esg,esg-wp2,single-cell,workflow, workflowhub, omics, demo]
 subsites: [all, esg, eu]
+contributions:
+  organisers:
+    - dadrasarmin
+  funding:
+    - eu
+    - deNBI
+    - mwk
+    - elixir-europe
+    - eurosciencegateway
 ---
 
 Join the ELIXIR Tools Platform and Single Cell Omics community for an engaging online event focused on best practices for sharing and managing computational workflows using [WorkflowHub](https://workflowhub.eu).
@@ -32,14 +38,5 @@ This interactive session will highlight how to make your workflows more **FAIR**
 Whether you're a beginner or experienced developer, this event offers practical insights into improving the visibility and impact of your workflows.
 
 More information and registration is available on [ELIXIR Event Page](https://elixir-europe.org/events/tools-platform-and-single-cell-omics-bring-your-workflow-workflowhub)
-
-
-### Supporters
-
-<div style="max-width: 300px">
-
-![logo de.NBI](/images/logos/deNBILogo.png)
-![logo eurosciencegateway](/images/logos/Eurosciencegateway_logo.png)
-![logo ELIXIR](/images/logos/elixir-logo-big.png)
 
 </div>

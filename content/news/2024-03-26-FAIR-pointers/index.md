@@ -1,5 +1,4 @@
 ---
-authors: ''
 date: '2024-03-26'
 external_url: https://training.galaxyproject.org/training-material/news/2024/03/26/FAIR-pointers.html
 main_subsite: global
@@ -10,9 +9,7 @@ tags:
 - gtn-news
 - news
 - fair
-- dmp
-- data stewardship
-- data management
+- rdm
 - new learning pathway
 tease: "ELIXIR-UK\u2019s Data Stewardship Fellowship is excited to announce a new\
   \ learning pathway focused on FAIR Data Management! This program equips researchers\

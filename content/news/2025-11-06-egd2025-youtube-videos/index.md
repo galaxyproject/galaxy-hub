@@ -1,12 +1,19 @@
 ---
 title: "European Galaxy Days 2025 recordings now online"
 date: "2025-11-06"
-authors: "Armin Dadras"
 tease: "European Galaxy Days 2025 might be over, but the talks aren’t. Explore our new playlist featuring highlights from EGD2025"
-tags: [eosc, meeting, esg, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5, conference, egd]
-supporters: [eosc, unifreiburg, esg, elixir, eu]
+tags: [eosc, meeting, esg, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5, conference, egd, talk, demo, outreach]
 subsites: [all, esg]
 main_subsite: eu
+contributions:
+  authorship:
+    - dadrasarmin
+  funding:
+    - eosc-life
+    - uni-freiburg
+    - eurosciencegateway
+    - elixir-europe
+    - eu
 ---
 Couldn’t join European Galaxy Days 2025 in Freiburg, or want to revisit your favorite sessions? Many of the talks from EGD2025 are now available as recordings in our dedicated YouTube playlist:
 

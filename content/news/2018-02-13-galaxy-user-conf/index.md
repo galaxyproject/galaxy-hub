@@ -3,12 +3,13 @@ title: Program for the Galaxy User Conference
 date: '2018-02-13'
 location:
   name: Freiburg, Germany
-supporters:
-- denbi
-- elixir
-- ViCE
 subsites: [eu, freiburg]
+tags: [conference]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 Our preliminary program for the Galaxy User Conference is now ready.
@@ -104,7 +105,7 @@ and analysis accessible, reproducible, and transparent.</td>
   </tbody>
 </table>
 
-<br>
+<br />
 
 **Friday, 16.03.2018**
 
@@ -144,7 +145,7 @@ and analysis accessible, reproducible, and transparent.</td>
     </tr>
     <tr>
       <td valign="top">11:30-12:00</td>
-      <td valign="top">Quality control and analysis of large scale MALDI<br> imaging data of peptides from formalin-fixed paraffin-embedded tissues within the Galaxy environment</td>
+      <td valign="top">Quality control and analysis of large scale MALDI<br /> imaging data of peptides from formalin-fixed paraffin-embedded tissues within the Galaxy environment</td>
       <td valign="top">Melanie Föll (Freiburg, Germany)</td>
     </tr>
     <tr>

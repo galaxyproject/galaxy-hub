@@ -1,8 +1,15 @@
 ---
 title: "Goodbye Dev Roundtables"
 tease: "working groups do it better"
-authors: "Assunta DeSanto, Beatriz Serrano-Solano, John Chilton, Dannon Baker"
 date: "2022-01-27"
+contributions:
+  authorship:
+    - assuntad23
+    - beatrizserrano
+    - jmchilton
+    - dannon
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2022-01-27-disbanding-roundtables/"
 ---
 
 ## Why are we disbanding roundtables?

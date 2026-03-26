@@ -2,12 +2,15 @@
 title: "Accessibility in Galaxy 23.0 and beyond"
 tease: "Accessibility improvement Highlights for the upcoming 23.0 release, and a few words on accessibility in general"
 hide_tease: false
-authors: "Laila Los"
 date: "2023-01-20"
-tags: ["UI/UX", "accessibility", "highlight", esg]
-subsites: [global,all,esg,eu]
-supporters:
-  - eurosciencegateway
+tags: ["ui-ux", "accessibility", "highlight", esg]
+subsites: [global, all, esg, eu]
+contributions:
+  authorship:
+    - ElectronicBlueberry
+  funding:
+    - eu
+    - eurosciencegateway
 ---
 
 Hello, I'm Laila a front-end developer for Galaxy from the Freiburg team and part of the UI/UX working group. For the forthcoming 23.0 release improving Galaxy's accessibility was a high priority for the UI/UX team. This is a preview of some of the accessibility-related changes we are most excited about.

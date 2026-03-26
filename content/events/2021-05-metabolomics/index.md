@@ -10,10 +10,14 @@ external_url: ""
 location_url: ""
 gtn: false
 contact: "Melanie Föll, Amrita Cheema"
-tags: []
+tags: [community, talk, metabolomics]
 links:
 image: "/images/communities/metabolomics.png"
 subsites: [global, us]
+contributions:
+  organisers:
+    - foellmelanie
+
 ---
 
 **When: 14:00 CET**

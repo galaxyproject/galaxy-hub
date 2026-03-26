@@ -9,10 +9,12 @@ location:
   url: https://www.egu24.eu/
 gtn: true
 contact: "Marie Josse: marie.josse@ifremer.fr"
-supporters:
-  - eurosciencegateway
-tags: [conference, esg, esg-wp5]
+tags: [conference, esg, esg-wp5, earth-system, collaboration, talk, outreach]
 subsites: [all, esg, all-eu]
+contributions:
+  funding:
+    - eu
+    - eurosciencegateway
 ---
 
 The European Geosciences Union (EGU) was held at the Austria Center Vienna (ACV) and online, from the 14–19th April 2024.

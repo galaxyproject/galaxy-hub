@@ -12,4 +12,10 @@ gtn: true
 contact: Martin Čech, Petr Novák
 tags: [training]
 subsites: [all-eu, global, us]
+contributions:
+  organisers:
+    - martenson
+  funding:
+    - elixir-cz
+
 ---

@@ -1,6 +1,6 @@
 ---
 title: "@galaxyproject"
-icon: fab fa-twitter
+icon: twitter
 link: https://twitter.com/galaxyproject
 ---
 

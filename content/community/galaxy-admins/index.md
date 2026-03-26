@@ -10,7 +10,7 @@ autotoc: false
 
 Galaxy-Admins was started with [this email thread in April 2012](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/ON7MIOYB2H4PSXBNTRBFNCTLG4HU7LFR/#5DXKB3GIUGMOZSAM3SPKJ5AN3KBDOBXU). This proposal got a huge response, and thus this group was born.
 
-This community currently continues on [Galaxy Project Gitter "Admins"](https://gitter.im/galaxyproject/admins), while the [Development Round Table](https://galaxyproject.org/community/devroundtable/) working group continues the more development focused discussions.
+This community currently continues on [Galaxy Project Matrix "Admins"](https://matrix.to/#/#galaxyproject_admins:gitter.im), while the [Development Round Table](https://galaxyproject.org/community/devroundtable/) working group continues the more development focused discussions.
 
 The [Global Galaxy Steering Committee](https://galaxyproject.org/community/steering/) initiated a "Small Scale Servers" subcommittee in 2021. The group meets every two months (see [Galaxy Event Horizon](https://galaxyproject.org/events/)) to discuss issues and problems affecting local Galaxy admins.
 

@@ -4,20 +4,20 @@ date: '2023-10-13'
 tease: "...but we look back with a relaxed smile. Let's draw the balance!"
 location:
   name: Freiburg, Germany
-tags: [meeting, esg, egd, community, elixir, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5]
-authors: Sebastian Schaaf, Anika Erxleben-Eggenhofer, Björn Grüning, Hans-Rudolf Hotz
-authors_structured:
-- github: sebastian-schaaf
-- github: erxleben
-- github: bgruening
-- github: hrhotz
-supporters:
-- ELIXIR
-- denbi
-- esg
-components: true
-autotoc: true
+tags: [meeting, esg, egd, community, elixir, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5, conference]
 subsites: [all, esg]
+contributions:
+  authorship:
+    - sebastian-schaaf
+    - erxleben
+    - bgruening
+    - hrhotz
+  funding:
+    - eu
+    - elixir-europe
+    - deNBI
+    - mwk
+    - eurosciencegateway
 ---
 
 <div class="float-right" style="max-width: 400px">

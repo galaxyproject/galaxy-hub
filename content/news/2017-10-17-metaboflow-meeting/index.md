@@ -4,13 +4,12 @@ date: '2017-10-17'
 tags: [training, hackathon]
 location:
   name: Birmingham, England
-supporters:
-- denbi
-- elixir
-- ViCE
-- MetaboFlow
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 Björn participated to the Wellcome Trust funded MetaboFlow meeting (training and hackathon) in Birmingham.

@@ -1,0 +1,27 @@
+domains:
+    - platform_url: http://galaxy.ugent.be/
+      ip: 157.193.231.153
+      version: IPv4
+      asn: AS2611 BELNET
+      org: Research network University of Ghent
+      release:
+          version_major: "23.0"
+          version_minor: 7.dev0
+      location:
+          city: Ghent
+          region: Flanders
+          region_code: VLG
+          country: BE
+          country_name: Belgium
+          country_code: BE
+          continent_code: EU
+          postal: "9000"
+          latitude: 51.047
+          longitude: 3.7206
+          timezone: Europe/Brussels
+          currency: EUR
+      response:
+          time: "2025-11-25T19:37:18Z"
+          status_code: 200
+          response_time_ms: 0
+          reason: OK

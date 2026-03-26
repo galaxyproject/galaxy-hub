@@ -4,25 +4,21 @@ date: '2021-04-30'
 end: '2021-04-30'
 tease: Building capacity, both in the analysis and data management sides of SARS-CoV-2
 tags: [training]
-supporters:
-- denbi
-- galaxy-europe
-- galaxy-australia
-- gallantries
-- erasmus+
-- eosc
-- converge
-- pari
-- neic
-- australian_biocommons
-- qfab
-- melbbioinfo
-- sanbi
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
 subsites: [global, all-eu, us]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
+  funding:
+    - eu
+    - deNBI
+    - elixir-europe
+    - gallantries
+    - eosc-life
+    - elixir-converge
+    - AustralianBioCommons
+    - melbournebioinformatics
+    - sanbi
 ---
 
 The Galaxy community has recently organised a workshop on [__SARS-CoV-2 Data Analysis and Monitoring with Galaxy__](https://galaxyproject.eu/event/2021-06-21-sars-cov-2-data-analysis-monitoring-training/). 

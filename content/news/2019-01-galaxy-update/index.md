@@ -3,6 +3,7 @@ title: 'January 2019 Galactic News'
 tease: 'Events (Admin Training, PAG, GSOC, GCC, GalaxyAdmins), Platforms, Pubs, Jobs, COTM!, Doc, Training, Tools, Releases and more'
 date: "2019-01-04"
 subsites: [global, us]
+tags: [newsletter]
 ---
 
 [<img class="float-right" src="/news/2019-01-galaxy-update/2019-01-news-summary.png" alt="Galaxy News" width="350" />](/galaxy-updates/)
@@ -399,7 +400,7 @@ See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HI
 
 [<img class="float-right" src="/news/2018-11-help/galaxy-help.png" alt="Galaxy has a new help site." style="max-width: 200px" />](https://help.galaxyproject.org/)
 
-**Visit the new [Galaxy Community Q&A web site](https://help.galaxyproject.org/).**  Galaxy Help joins the Galaxy Gitter channels, Galaxy mailing lists and the Galaxy Hub as [another place to get answers to your Galaxy related questions](/support/).
+**Visit the new [Galaxy Community Q&A web site](https://help.galaxyproject.org/).**  Galaxy Help joins the Galaxy Matrix channels, Galaxy mailing lists and the Galaxy Hub as [another place to get answers to your Galaxy related questions](/support/).
 
 Galaxy Help replaces *[Galaxy BioStars](https://biostar.usegalaxy.org/)*, which is being retired after almost 5 years of service.  (Galaxy BioStars was itself a replacement for the earlier *galaxy-user* mailing list.)  The Galaxy BioStars site will remain up as a read-only archive (and will still be searched by the [Galaxy Hub search](/search/)).
 

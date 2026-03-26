@@ -1,6 +1,5 @@
 ---
 title: 'The Intergalactic Workflow Commission'
-authors: Anton Nekrutenko 
 subsites: [eu,all,global]
 main_subsite: global
 date: '2025-11-19'
@@ -11,6 +10,9 @@ tags:
 - sra
 - upload
 autotoc: false
+contributions:
+  authorship:
+    - nekrut
 ---
 
 <img src="iwc.png" alt="IWC" width="600" />

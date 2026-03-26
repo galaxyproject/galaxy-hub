@@ -2,18 +2,18 @@
 title: 3 steps to get your tool into Galaxy - A real-world example
 date: '2020-08-22'
 tease: A real-world example
-tags: [bioconda, conda-forge, training, galaxy, FAQ]
-supporters:
-- denbi
-- elixir
-- dataplant
-- unifreiburg
-authors: bgruening, davelopez
-authors_structured:
-- github: bgruening
-- github: davelopez
+tags: [conda, conda-forge, training, faq]
 subsites: [all-eu, global, us]
 main_subsite: eu
+contributions:
+  authorship:
+    - bgruening
+    - davelopez
+  funding:
+    - deNBI
+    - elixir-europe
+    - nfdi4plants
+    - uni-freiburg
 ---
 
 In this blog post, we will explain how you can get your software tool into a Galaxy server and with this, exposed to thousands of researchers.

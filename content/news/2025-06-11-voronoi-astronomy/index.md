@@ -5,8 +5,14 @@ tease: "Dividing the sky images in regions that include individual astronomical 
 hide_tease: false
 tags: [esg-wp5, esg, tools, workflow, astrophysics, oscars, fiesta]
 subsites: [all,esg]
-supporters: [esg, oscars, fiesta]
 main_subsite: eu
+contributions:
+  funding:
+    - eu
+    - eurosciencegateway
+    - oscars
+    - fiesta
+    - nfdi4bioimage
 ---
 
 

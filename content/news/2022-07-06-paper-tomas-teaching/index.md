@@ -6,7 +6,6 @@ hide_tease: true
 tags:
 - paper
 - citations
-supporters:
 subsites: [global, all-eu]
 main_subsite: eu
 ---

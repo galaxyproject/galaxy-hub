@@ -2,13 +2,16 @@
 title: "Stimulate FAIR and reusable research with computational workflows"
 tease: "The Work Package 2 of the EuroScienceGateway project"
 hide_tease: false
-authors: "Stian Soiland-Reyes"
 date: "2023-01-12"
-tags: [esg, esg-wp2]
-subsites: [all-eu, esg]
-supporters:
-  - eurosciencegateway
+tags: [esg, esg-wp2, workflow, workflowhub, ro-crate, astrophysics, astronomy]
+subsites: [all-eu, esg ]
 main_subsite: eu
+contributions:
+  authorship:
+    - stain
+  funding:
+    - eu
+    - eurosciencegateway
 ---
 
 # EuroScienceGateway WP2
@@ -27,7 +30,7 @@ FAIR workflows will be promoted as scholarly objects in scientific publishing, w
 
 By collaborating with the [FAIR-IMPACT](https://fair-impact.eu/) project, both the WorkflowHub and Workflow Digital Objects, will be further aligned with its PID, metadata schema frameworks and workflow citation practices.
 
-* WP2 introduction slides: <https://doi.org/10.5281/zenodo.7152762>
+* WP2 introduction slides: [https://doi.org/10.5281/zenodo.7152762](https://doi.org/10.5281/zenodo.7152762)
 
 #### WP2 Objectives and tasks
 
@@ -39,5 +42,4 @@ By collaborating with the [FAIR-IMPACT](https://fair-impact.eu/) project, both t
 * Task T2.2: Reproducible and reusable FAIR Digital Objects
 * Task T2.3: Using and enriching workflow FDOs
 * Task T2.4: FAIR workflows as scholarly objects in scientific publishing
-
 

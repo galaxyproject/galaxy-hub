@@ -8,9 +8,11 @@ contacts:
   name: ELIXIR UK
 location:
   name: online
-supporters:
-- elixir
 subsites: [all]
+contributions:
+  funding:
+    - elixir-europe
+
 ---
 
 # What will you learn?

@@ -14,9 +14,9 @@ comments:
 user_support:
   - "[FROG Framework User Manual](http://ab-openlab.csir.res.in/frog/static/user_manual.pdf)"
 quotas:
- - "Anyone can create an account.  FROG can also be accessed anonymously."
+  - Anyone can create an account.  FROG can also be accessed anonymously.
 citations:
-  -  "[FROG - Fingerprinting Genomic Variation Ontology](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0134693), by E. Abinaya, Pankaj Narang, Anshu Bhardwaj, *PLoS ONE* 10(8): e0134693. doi:10.1371/journal.pone.0134693"
+  - "[FROG - Fingerprinting Genomic Variation Ontology](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0134693), by E. Abinaya, Pankaj Narang, Anshu Bhardwaj, *PLoS ONE* 10(8): e0134693. doi:10.1371/journal.pone.0134693"
 pub_libraries:
   - "AB-OpenLab"
 sponsors:

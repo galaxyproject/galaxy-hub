@@ -11,7 +11,7 @@ location:
 contacts:
 - email: null
   name: ISMB ECCB
-tags: [training]
+tags: [training, talk, workshop]
 subsites: [eu, freiburg]
 main_subsite: freiburg
 ---

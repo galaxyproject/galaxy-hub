@@ -4,7 +4,7 @@ title: 'Galaxy Metabolomics Community Call: Galaxy Interactive Tools - how to cr
 date: '2022-06-02'
 end: '2022-06-02'
 tease: Dan Blankenberg will present 'How to create and use Galaxy Interactive Tools'
-tags: []
+tags: [talk, training, metabolomics, community]
 contacts:
 - email: foellmelanie@gmail.com
   name: Melanie Föll

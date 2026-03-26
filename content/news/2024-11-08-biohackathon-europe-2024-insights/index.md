@@ -2,13 +2,17 @@
 title: 'Biohackathon Europe 2024: A successful collaborative effort to develop workflows for FAIR Image Analysis using Galaxy'
 date: '2024-11-08'
 tease: "At BioHackathon Europe 2024 in Barcelona, a group of FAIR enthusiasts work on development of image analysis workflows using the Galaxy."
-supporters:
-- eurosciencegateway
-- nfdi
-- denbi
-- elixir
-tags: [hackathon, biohackathon, fair, esg, esg-wp1, esg-wp5,  elixir, eurobioimaging, bioimaging, workflow]
+tags: [hackathon, biohackathon, nfdi, fair, esg, esg-wp1, esg-wp5,  elixir, bioimaging, workflow]
 subsites: [all, esg, eu]
+contributions:
+  funding:
+    - eu
+    - eurosciencegateway
+    - deNBI
+    - mwk
+    - elixir-europe
+    - nfdi4bioimage
+    - eubi
 ---
 The [Biohackathon Europe 2024](https://biohackathon-europe.org/projects/), held recently in Barcelona, brought together over twenty researchers, developers, and bioinformatics experts from across the Europe to work on [30 projects](https://github.com/elixir-europe/biohackathon-projects-2024) with a particular focus on FAIR (Findable, Accessible, Interoperable, and Reusable) image data analysis. Organized by [ELIXIR Europe](https://elixir-europe.org/) and [Euro-BioImaging](https://www.eurobioimaging.eu/), the event proved the power of collaborative BioHackathon in advancing open science and improving workflows for biological image data.
 

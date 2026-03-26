@@ -2,14 +2,15 @@
 title: Virtual screening against SARS-CoV-2 main protease
 date: '2020-03-11'
 tease: workflows for identifying potential ligands by virtual screening
-tags: [tools, COVID-19]
-supporters:
-- eosc
-authors: simonbray
-authors_structured:
-- github: simonbray
+tags: [tools, covid-19, workflow]
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - simonbray
+  funding:
+    - eu
+    - eosc-life
 ---
 
 Thanks to some amazing work done at the Diamond Light Source in the UK, protein structures of SARS-CoV-2 main protease in complex with a number of different fragments have recently been published. 

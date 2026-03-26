@@ -12,5 +12,9 @@ image:
 gtn: true
 contact: "Yvan Le Bras, Valentin Chambon, Alan Amossé, yvan.le-bras@mnhn.fr"
 subsites: [global, us]
+contributions:
+  organisers:
+    - yvanlebras
+
 ---
 

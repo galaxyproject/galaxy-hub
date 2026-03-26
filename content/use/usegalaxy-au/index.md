@@ -17,7 +17,7 @@ comments:
 user_support:
   - "[Contact the Australian help desk for **usegalaxy.org.au**](mailto:help@genome.edu.au)"
   - "[Access training material on the Galaxy Training Networks](https://galaxy-au-training.github.io/tutorials/)"
-  - "[Post in the global Galaxy Project Gitter Support Channel](https://gitter.im/galaxyproject/Lobby)"
+  - "[Post in the global Galaxy Project Matrix Support Channel](https://matrix.to/#/#galaxyproject_Lobby:gitter.im)"
   - "[Visit the global Galaxy Help Forum](https://help.galaxyproject.org/)"
 quotas:
   - "Galaxy Australia applies a default storage quota which can be increased on request"

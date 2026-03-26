@@ -5,7 +5,7 @@ end: '2018-09-28'
 location:
   city: Vienna
   country: Austria
-tags: [talk]
+tags: [talk, gcb, conda]
 subsites: [eu, freiburg]
 main_subsite: freiburg
 ---

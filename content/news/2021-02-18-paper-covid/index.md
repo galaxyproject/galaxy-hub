@@ -3,7 +3,7 @@ title: 'New Paper "Next generation sequencing of SARS-CoV-2 genomes: challenges,
   and opportunities"'
 date: '2021-02-18'
 doi: 10.1093/bib/bbaa297
-tags: [paper]
+tags: [paper, covid-19, elixir]
 subsites: [eu, freiburg, elixir-it]
 main_subsite: eu
 ---

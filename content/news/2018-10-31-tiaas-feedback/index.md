@@ -2,10 +2,12 @@
 title: Training Infrastructure Feedback from Maria Doyle
 date: '2018-10-31'
 tags: [training, tiaas]
-supporters:
-- galaxy-europe
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 We recently had the privilege of using the usegalaxy.eu's new [Training

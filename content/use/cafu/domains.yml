@@ -1,0 +1,24 @@
+domains:
+    - platform_url: http://omicstudio.cloud:4001/
+      ip: 39.101.176.205
+      version: IPv4
+      asn: AS37963 Hangzhou Alibaba Advertising Co.,Ltd.
+      org: Aliyun Computing Co., LTD
+      location:
+          city: Beijing
+          region: Beijing
+          region_code: BJ
+          country: CN
+          country_name: China
+          country_code: CN
+          continent_code: AS
+          postal: ""
+          latitude: 39.911
+          longitude: 116.395
+          timezone: Asia/Shanghai
+          currency: CNY
+      response:
+          time: "2025-11-25T19:38:59Z"
+          status_code: 200
+          response_time_ms: 0
+          reason: OK

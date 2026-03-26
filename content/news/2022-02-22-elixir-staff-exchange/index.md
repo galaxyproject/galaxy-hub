@@ -1,14 +1,14 @@
 ---
 title: ELIXIR staff exchange between the German and Italian ELIXIR nodes
 date: '2022-02-22'
-tags: [galaxy, devops]
-supporters:
-- ELIXIR
-authors: pmandreoli
-authors_structured:
-- github: pmandreoli
+tags: [devops]
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - pietromandreoli
+  funding:
+    - elixir-europe
 ---
 
 Hello, I’m Pietro Mandreoli, PhD student at the University of Milan (Italy) and one of the developers of the [Laniakea](https://laniakea-elixir-it.github.io) platform for the deployment of on-demand Galaxy instances over Cloud infrastructures.

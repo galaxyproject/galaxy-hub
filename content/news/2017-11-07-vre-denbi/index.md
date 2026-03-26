@@ -4,11 +4,12 @@ date: '2017-11-07'
 tags: [training, talk]
 location:
   name: Freiburg, Germany
-supporters:
-- denbi
-- ViCE
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 (from [https://www.rz.uni-freiburg.de/rz/aktuell/vice-ws](https://www.rz.uni-freiburg.de/rz/aktuell/vice-ws))

@@ -1,6 +1,5 @@
 ---
 title: 'Why collections?'
-authors: Anton Nekrutenko 
 subsites: [eu,all,global]
 main_subsite: global
 date: '2025-10-21'
@@ -9,6 +8,9 @@ hide_tease: false
 tags:
 - collections
 autotoc: false
+contributions:
+  authorship:
+    - nekrut
 ---
 
 ## Right tools are everything!

@@ -14,8 +14,8 @@ comments:
 - "This workbench is built on the Galaxy framework thanks to Galaxy Europe we are hosting the seeds of Indian Galaxy to facilitate more wider user base."
 - "To know more about the events, training webinars focused on Galaxy for Indian data analysis community visit [www.galaxyproject.in](https://www.galaxyproject.in/)."
 user_support:
-- " If you want to talk about Galaxy and any required help about it join the [Gitter adda (अड्डा)](https://gitter.im/usegalaxy-in/adda)."
-- "[UseGalaxy.eu Gitter Support Channel](https://gitter.im/usegalaxy-eu/Lobby)"
+- " If you want to talk about Galaxy and any required help about it join the [Matrix adda (अड्डा)](https://matrix.to/#/#usegalaxy-in_adda:gitter.im)."
+- "[UseGalaxy.eu Matrix Support Channel](https://matrix.to/#/#usegalaxy-eu_Lobby:gitter.im)"
 - "[Galaxy Help Forum](https://help.galaxyproject.org/)"
 quotas:
 - "Registered users' data (i.e. datasets, histories) will be available as long as they are not deleted by the user. Once marked as deleted the datasets will be permanently removed within 14 days. If the user *purges* the dataset in the Galaxy, it will be removed immediately, permanently. An extended quota can be [requested](https://docs.google.com/forms/d/e/1FAIpQLSf9w2MOS6KOlu9XdhRSDqWnCDkzoVBqHJ3zH_My4p8D8ZgkIQ/viewform) for a limited time period in special cases."

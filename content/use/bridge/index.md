@@ -17,7 +17,7 @@ comments:
 user_support:
   - "[Tutorial: Free energy calculations for drug discovery](http://bit.ly/2QSIrE4)"
   - "[Tutorial: High Throughput Molecular Dynamics and Analysis](https://galaxyproject.github.io/training-material/topics/computational-chemistry/tutorials/htmd-analysis/tutorial.html) (and [more GTN computational chemistry training](https://galaxyproject.github.io/training-material/topics/computational-chemistry/))"
-  - "[Gitter Support Channel](https://gitter.im/galaxycomputationalchemistry/Lobby)"
+  - "[Matrix Support Channel](https://matrix.to/#/#galaxycomputationalchemistry_Lobby:gitter.im)"
 quotas:
   - "Storage and computational quotas."
 citations:

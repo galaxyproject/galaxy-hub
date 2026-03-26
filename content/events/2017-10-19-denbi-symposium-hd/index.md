@@ -11,11 +11,13 @@ location:
 contacts:
 - email: null
   name: de.NBI Heidelberg
-supporters:
-- denbi
 tags: [training, poster, talk]
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+
 ---
 
 At the de.NBI Symposium in Heidelberg, we will give a talk about the HiCExplorer and present a poster about bioinformatics online training.

@@ -4,11 +4,12 @@ title: New Paper "Survey of metaproteomics software tools for functional microbi
 date: '2020-01-08'
 tags: [paper]
 doi: 10.1101/2020.01.07.897561
-supporters:
-- denbi
-- elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 Our metaproteomics and microbiomics communities are constantly growing. This article on bioRxiv may be interesting for many of you: ["Survey of metaproteomics software tools for functional microbiome analysis"](https://www.biorxiv.org/content/10.1101/2020.01.07.897561v1). The authors compare six open software tools for microbiome analysis, including Unipept 4.0 and eggNOG-mapper, which are already installed in the European Galaxy server.

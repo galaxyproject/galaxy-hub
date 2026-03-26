@@ -1,15 +1,15 @@
 ---
 title: UseGalaxy.eu update to 20.09
 date: '2020-12-03'
-supporters:
-- denbi
-- elixir
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 tags: [release]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 The Galaxy __Release 20.09__ was announced on the 17th of November with plenty of new features. Discover all the details in the [__release notes__](https://docs.galaxyproject.org/en/master/releases/20.09_announce.html). Alternatively, you can watch the video with all the new features, thanks to Gareth Price for recording it!

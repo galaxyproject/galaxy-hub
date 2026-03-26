@@ -5,7 +5,7 @@ date: 2012-09-07
 
 # Get Galaxy
 
-<div class='left'><a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width=50 /></a></div>
+<div class='left'><a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width="50" /></a></div>
 
  **[getgalaxy.org](http://getgalaxy.org)**
 
@@ -72,7 +72,7 @@ As reported in the *[July 20th, 2012 News Brief](/archive/dev-news-briefs/2012-0
 * *New*
     * Addition of **interactive phylogenetic tree visualization**.
 
-</div><a href='/learn/'><img src="/images/news-graphics/2012_09_07_interactive-phylo-tree.png" alt="interactive-phylo-tree" width=800 /></a></div>
+</div><a href='/learn/'><img src="/images/news-graphics/2012_09_07_interactive-phylo-tree.png" alt="interactive-phylo-tree" width="800" /></a></div>
 
 <br />
 # Galaxy Track Browser (GTB)
@@ -86,7 +86,7 @@ As reported in the *[July 20th, 2012 News Brief](/archive/dev-news-briefs/2012-0
     * Server-side code for coverage histograms
     * Add feature search to **[Trackster](/learn/visualization/)** ; typing in location box will search tracks in visualization for features that start with entered text. Works with **[GFF](/learn/datatypes/#gff)**, **[GTF](/learn/datatypes/#gtf)**, and **[BED](/learn/datatypes/#bed)** datasets. Fixes [https://bitbucket.org/galaxy/galaxy-central/issue/611](https://bitbucket.org/galaxy/galaxy-central/issue/611)
 
-<a href='/learn/visualization/'><img src="/images/news-graphics/2012_09_07_trackster-feature-search.png" alt="trackster-feature-search.png" width=800 /></a>
+<a href='/learn/visualization/'><img src="/images/news-graphics/2012_09_07_trackster-feature-search.png" alt="trackster-feature-search.png" width="800" /></a>
 
 <br />
 # Source
@@ -164,7 +164,7 @@ Now the above entry still works, but the following entry is also ok (notice the 
 <br />
 # Bug Fixes
 
-<div class='right'><a href='/support/'><img src="/images/icons/bug.png" alt="bugs" width=20 /></a></div>
+<div class='right'><a href='/support/'><img src="/images/icons/bug.png" alt="bugs" width="20" /></a></div>
 * *General*
   * Fix permissions problems on `stdout/stderr/errorcode` files when running jobs as the [real system user](/archive/dev-news-briefs/2012-01-27/#run-cluster-jobs-as-the-real-user).
   * Galaxy will no longer try to modify permissions of [linked library uploads](/admin/Data Libraries/Uploading Library Files/).
@@ -194,7 +194,7 @@ Now the above entry still works, but the following entry is also ok (notice the 
 
 [News](/news/), *[August](/galaxy-updates/2012-09/)* and *[September](/galaxy-updates/2012-09/)* *2012 Galaxy Updates*
 
-<div class='right'><a href='/galaxy-updates/2012-09/'><img src="/images/logos/GalaxyUpdate200.png" alt="September 2012 Galaxy Update" width=150 /></a></div>
+<div class='right'><a href='/galaxy-updates/2012-09/'><img src="/images/logos/GalaxyUpdate200.png" alt="September 2012 Galaxy Update" width="150" /></a></div>
 
 ## Highlights
 
@@ -222,7 +222,7 @@ The workshop is part of the SyBIT Tech Day series.
 <br />
 ## Who's Hiring
 
-<div class='right'><img src="/images/icons/PointingFinger.png" alt="Please Help!  Yes you!" width=100 /></div>
+<div class='right'><img src="/images/icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
 The Galaxy is expanding!  Please help it grow.
 * The [Galaxy Project is hiring](/galaxy-is-hiring/) post-docs @ Penn State and Emory
 * [Bioinformatics & Integrative Genomics Specialist - Manager Bioinformatics Consulting Core](http://www.nature.com/naturejobs/science/jobs/275747-Bioinformatics-Integrative-Genomics-Specialist-Manager-Bioinformatics-Consulting-Core) @ Leuven, Belgium

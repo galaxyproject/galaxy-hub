@@ -2,14 +2,15 @@
 title: Training Infrastructure Feedback from Charles Girardot
 date: '2019-10-15'
 tags: [training, tiaas]
-supporters:
-- galaxy-europe
-authors: Jelle Scholtalbers, Charles Girardot
-authors_structured:
-- name: Jelle Scholtalbers
-- name: Charles Girardot
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - jellescholtalbers
+    - charlesgirardot
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 

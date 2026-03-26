@@ -1,0 +1,13 @@
+---
+import CalendarEmbedVue from '../embed/CalendarEmbed.vue';
+
+interface Props {
+  src?: string;
+  calendarId?: string;
+  googleCalendarId?: string;
+}
+
+const props = Astro.props;
+---
+
+<CalendarEmbedVue client:visible {...props} />

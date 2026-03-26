@@ -2,13 +2,15 @@
 title: Training Infrastructure Feedback from Martin Čech
 date: '2021-03-22'
 tags: [training, tiaas]
-supporters:
-- galaxy-europe
-authors: martenson
-authors_structured:
-- github: martenson
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - martenson
+  funding:
+    - deNBI
+    - elixir-europe
+    - elixir-cz
 ---
 
 

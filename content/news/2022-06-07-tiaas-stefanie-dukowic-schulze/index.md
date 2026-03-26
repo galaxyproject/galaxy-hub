@@ -4,12 +4,13 @@ date: '2022-06-07'
 tease: Dr.
 hide_tease: true
 tags: [training, tiaas]
-supporters:
-- galaxy-europe
-authors: Stefanie Dukowic-Schulze
-authors_structured:
-- name: Stefanie Dukowic-Schulze
 subsites: [pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+contributions:
+  authorship:
+    - stefaniedukowicschulze
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 Dr. Stefanie Dukowic-Schulze gave a training in the MSc Program "Translational Medical Research“ (TMR) at the Medical Faculty of Mannheim (University of Heidelberg).

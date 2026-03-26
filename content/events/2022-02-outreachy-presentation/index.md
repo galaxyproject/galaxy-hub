@@ -11,6 +11,7 @@ location_url:
 external_url:
 contact: Community
 subsites: [global, us]
+tags: [talk, outreach, gmn]
 ---
 
 *Please join our Outreachy interns - Rahmot, and Chinonye - in celebrating their contributions to the Galaxy Community!*

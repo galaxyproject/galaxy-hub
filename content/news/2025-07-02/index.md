@@ -3,12 +3,12 @@ title: 'SURF Research Cloud as infrastructure for Galaxy in The Netherlands'
 date: '2025-07-02'
 tease: 'Dutch scientists can now use Galaxy in secure environments.'
 hide_tease: false
-authors: "Mirela Minkova"
-authors_structured:
-- github: mirelaminkova
-tags: [elixir-nl, eosc, geant, surf]
+tags: [elixir-nl, eosc, geant, surf, eu]
 subsites: [all]
 main_subsite: eu
+contributions:
+  authorship:
+    - mirelaminkova
 ---
 
 # Galaxy is now supported inside SURF Research Cloud

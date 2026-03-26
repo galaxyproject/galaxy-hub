@@ -1,9 +1,12 @@
 ---
 title: "DOMPS Plant Science Seminar"
 date: "2024-02-23"
-authors: Deepti Varshney
 tease: "Seminar talk entitled MAdLand Resources & Tools presented by Deepti Varshney and Saskia Hiltemann"
 subsites: [all-eu]
+tags: [madland, community, talk, nfdi]
+contributions:
+  authorship:
+    - deeptivarshney
 ---
 
 

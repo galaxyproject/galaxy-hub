@@ -2,12 +2,12 @@
 title: Variant Analysis of SARS-CoV-2 Sequencing Data (Jan 2021 update)
 date: '2021-01-22'
 tease: January 2021 update
-tags: [workflows, tools, COVID-19]
-authors: wm75
-authors_structured:
-- github: wm75
+tags: [workflow, tools, covid-19]
 subsites: [all-eu, global, us]
 main_subsite: eu
+contributions:
+  authorship:
+    - wm75
 ---
 
 With the recent appearance of novel SARS-CoV-2 lineages in the UK, South Africa
@@ -63,7 +63,7 @@ potential intra-sample variation, you could run our
 workflow, which will create different graphical and tabular views on the
 variant data, which you can use as a starting point for further investigation,
 *e.g.* with [__Interactive Notebooks__](https://live.usegalaxy.eu) or using resources like
-<https://observablehq.com/collection/@spond/intrahost-variant-exploration>.
+[https://observablehq.com/collection/@spond/intrahost-variant-exploration](https://observablehq.com/collection/@spond/intrahost-variant-exploration).
 
 ![Variant allele frequency plot](/assets/media/2021-01-22-sars-cov-2-variation-plot.png)
 

@@ -7,7 +7,6 @@ days: 5
 tags:
 - new event-external
 title: "ASHG 2025 Annual Meeting"
-contact: ''
 location:
   name: Boston, MA, USA
 continent: NA

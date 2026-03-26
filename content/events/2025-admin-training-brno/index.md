@@ -10,13 +10,18 @@ location_url: ""
 external_url:
 gtn: true
 contact: Instructors
-tags: [gat, admins]
-supporters:
-  - cesnet
-  - elixir-cz
-  - de.KCD
-  - de.NBI
-subsites: [global, us, eu, fr, esg]
+tags: [gat, admin]
+subsites: [global, us, eu, esg]
+contributions:
+  organisers:
+    - martenson
+  funding:
+    - cesnet
+    - deKCD
+    - deNBI
+    - mwk
+    - elixir-cz
+
 ---
 
 **Galaxy Admin Training** will be offered November 24 through November 28 in CESNET offices, Brno, Czechia ([map](https://maps.app.goo.gl/btN9zLdmwA8ubeSPA)).
@@ -76,7 +81,7 @@ All participants should bring a wifi-enabled laptop with
 
 We currently have these confirmed (and highly experienced!) instructors:
 
-* [Marius van den Beek](https://github.com/mvdbeek) - Galaxy Project, Penn State University, *Europe*
+* [Marius van den Beek](https://github.com/mvdbeek) - Galaxy Project, Penn State University, SCI-SCALE CommV, Belgium
 * [Mira Kuntz](https://github.com/mira-miracoli) - Uni-Freiburg, Germany
 * [Bjoern Gruening](https://github.com/bgruening) - Uni-Freiburg, Germany
 * [Paul De Geest](https://github.com/pauldg) - VIB, Belgium

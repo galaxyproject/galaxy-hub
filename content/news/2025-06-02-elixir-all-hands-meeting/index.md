@@ -3,13 +3,15 @@ title: "The Galaxy Europe team at the ELIXIR All Hands Meeting 2025"
 date: "2025-06-02"
 tease: "The Galaxy Europe team has participated in the ELIXIR All Hands meeting 2025 in Thessaloniki, Greece."
 hide_tease: false
-supporters:
-  - eurosciencegateway
-  - unifreiburg
-  - elixir
 subsites: [global, freiburg, eu, esg]
-tags: [esg,elixir,esg-wp1,esg-wp3, esg-wp4,esg-wp2,esg-wp5]
+tags: [esg,elixir,esg-wp1,esg-wp3, esg-wp4,esg-wp2,esg-wp5, meeting, outreach, talk, workshop, training, eosc]
 main_subsite: eu
+contributions:
+  funding:
+    - eu
+    - eurosciencegateway
+    - uni-freiburg
+    - elixir-europe
 ---
 
 The [11th ELIXIR All Hands meeting](https://elixir-events.eventscase.com/EN/ahm2025) was held in Thessaloniki, Greece, from June 02 to 05, 2025. The Europen Galaxy team members from University of Freiburg attended this meeting, which aimed to bring together members of the ELIXIR community from across the ELIXIR Nodes, as well as collaborators from partner organisations, to review ELIXIR's achievements and activities and discuss future plans.

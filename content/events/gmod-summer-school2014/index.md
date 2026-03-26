@@ -632,7 +632,7 @@ Programs and their dependencies will be installed to the directory setting `tool
 from there (or added to your PATH). For example, if we have installed bwa, we could use that Galaxy tool installation
 from the command-line to index a yeast fasta:
 
-```hightlight bash
+```bash
 ~/tool_deps/bwa/0.5.9/devteam/package_bwa_0_5_9/ec2595e4d313/bin/bwa index -a bwtsw sacCer2.fa
 ```
 

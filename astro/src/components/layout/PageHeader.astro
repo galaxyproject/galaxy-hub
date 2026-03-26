@@ -1,0 +1,164 @@
+---
+/**
+ * Reusable page header component with Galaxy branding
+ * Features gradient background, grid pattern overlay, and gold accent bar
+ * Supports optional article metadata (date, authors, tags)
+ */
+
+import { formatDate } from '../../utils/dateUtils';
+
+interface Props {
+  title: string;
+  description?: string;
+  date?: Date | string;
+  authors?: Array<string | { id?: string; name: string }>;
+  tags?: string[];
+}
+
+const { title, description, date, authors: authorsRaw = [], tags: tagsRaw = [] } = Astro.props;
+
+// Helpers
+function slugify(value: string): string {
+  const normalized = String(value).trim().replace(/^@/, '');
+  return normalized
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
+// Ensure arrays are never null
+const authors = authorsRaw || [];
+const tags = tagsRaw || [];
+
+const normalizedAuthors = authors
+  .map((author) => {
+    if (!author) return null;
+    if (typeof author === 'string') {
+      return { label: author, slug: slugify(author) };
+    }
+    const label = author.name || '';
+    const slug = author.id ? slugify(author.id) : slugify(label);
+    return { label, slug };
+  })
+  .filter(Boolean) as Array<{ label: string; slug: string }>;
+
+// Helper to ensure date is a Date object
+function toDate(d: Date | string | undefined): Date | null {
+  if (!d) return null;
+  return d instanceof Date ? d : new Date(d);
+}
+
+function toISOString(d: Date | string | undefined): string {
+  const dateObj = toDate(d);
+  return dateObj ? dateObj.toISOString() : '';
+}
+
+// Use long format (full month names) for standalone page headers
+const formattedDate = formatDate(date, false);
+---
+
+<header class="page-header">
+  <div class="page-header-content">
+    <div class="flex items-center gap-3 mb-4">
+      <div class="w-1 h-8 bg-galaxy-gold"></div>
+      <h1 class="text-3xl sm:text-4xl font-bold tracking-tight">{title}</h1>
+    </div>
+    {description && <p class="text-white/80 text-lg max-w-2xl">{description}</p>}
+
+    {/* Article metadata row */}
+    {
+      (date || normalizedAuthors.length > 0) && (
+        <div class="flex flex-wrap items-center gap-4 text-sm text-white/70 mt-4">
+          {date && (
+            <time datetime={toISOString(date)} class="font-medium">
+              {formattedDate}
+            </time>
+          )}
+          {normalizedAuthors.length > 0 && (
+            <div class="flex items-center gap-1.5 flex-wrap">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-4 w-4"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+                />
+              </svg>
+              <span class="flex flex-wrap gap-1.5">
+                {normalizedAuthors.map((author, idx) => {
+                  const href = author.slug ? `/hall-of-fame/${author.slug}/` : '#';
+                  return (
+                    <a href={href} class="underline decoration-white/40 hover:decoration-galaxy-gold">
+                      {author.label}
+                      {idx < normalizedAuthors.length - 1 ? ',' : ''}
+                    </a>
+                  );
+                })}
+              </span>
+            </div>
+          )}
+        </div>
+      )
+    }
+
+    {/* Tags — only link tags that have a generated page (no slashes, reasonable length) */}
+    {
+      tags.length > 0 && (
+        <div class="flex flex-wrap gap-2 mt-4">
+          {tags.map((tag) => {
+            const linkable = tag && !tag.includes('/') && tag.trim().length < 100;
+            return linkable ? (
+              <a
+                href={`/tags/${tag.toLowerCase()}/`}
+                class="inline-flex items-center px-2.5 py-1 rounded-md text-sm font-medium border border-white/30 text-white hover:border-galaxy-gold hover:bg-galaxy-gold/20 transition-colors"
+              >
+                {tag}
+              </a>
+            ) : (
+              <span class="inline-flex items-center px-2.5 py-1 rounded-md text-sm font-medium border border-white/30 text-white/70">
+                {tag}
+              </span>
+            );
+          })}
+        </div>
+      )
+    }
+
+    <slot />
+  </div>
+</header>
+
+<style>
+  .page-header {
+    position: relative;
+    padding: 2.5rem 2rem;
+    background: linear-gradient(135deg, var(--color-galaxy-dark) 0%, var(--color-galaxy-primary) 100%);
+    color: white;
+    border-radius: 0.5rem 0.5rem 0 0;
+    border-bottom: 4px solid var(--color-galaxy-gold);
+  }
+
+  /* Grid overlay */
+  .page-header::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    background-size: 24px 24px;
+    pointer-events: none;
+    border-radius: inherit;
+  }
+
+  .page-header-content {
+    position: relative;
+    z-index: 1;
+  }
+</style>

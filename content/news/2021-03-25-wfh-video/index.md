@@ -1,18 +1,18 @@
 ---
-title: How to import a workflow from the Workflow Hub and run it on remote COVID-19
-  data
+title: How to import a workflow from the Workflow Hub and run it on remote COVID-19 data
 date: '2021-03-25'
-tags: [training, FAQ, COVID-19]
-supporters:
-- biodaten
-- dataplant
-- eosc
-- denbi
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
+tags: [training, faq, covid-19, workflow, workflowhub, gtn]
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
+  funding:
+    - eu
+    - biodaten
+    - nfdi4plants
+    - eosc-life
+    - deNBI
 ---
 
 Thanks to a great Collaboration between the Galaxy Community, [Dockstore](https://dockstore.org/) and the [Workflow Hub](https://workflowhub.eu/),
@@ -29,4 +29,3 @@ We have created a video showcasing the process for a COVID-19 data analysis work
 You can see how it works in practice in the following video:
 
 <iframe width="660" height="415" src="https://www.youtube.com/embed/eU1753h6NIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-

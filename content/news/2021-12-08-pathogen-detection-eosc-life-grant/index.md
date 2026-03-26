@@ -8,16 +8,17 @@ tease: 'Thanks to funding from EOSC-Life, the
   microbiological analyses, toward Accessible and scalable detection and
   identification of foodborne pathogens.'
 hide_tease: true
-supporters:
-- eosc
-- biolytix
-- elixir
-- denbi
-authors: bebatut
-authors_structured:
-- github: bebatut
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bebatut
+  funding:
+    - eu
+    - eosc-life
+    - biolytix
+    - elixir-europe
+    - deNBI
 ---
 
 **TLDR**: Thanks to funding from [EOSC-Life](https://www.eosc-life.eu/), the

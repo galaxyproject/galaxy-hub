@@ -1,12 +1,17 @@
 ---
 title: "EOSC Node Poland at EOSC Symposium 2025: Galaxy and Pulsar in action"
 date: "2025-11-16"
-authors: "Armin Dadras"
 tease: "At the EOSC Symposium 2025, the Polish EOSC Node demonstrated a complete FAIR research workflow powered by Galaxy and PLGrid’s Pulsar integrating data analysis, execution, and provenance tracking through Onedata. The presentation video and full details are available via the [EOSC Node - Poland](https://eosc.pl/search/all_collection?q=EOSC%20Symposium%20Demo)."
-tags: [eosc, workflows, rocrate, onedata, provenance, aai, poland, fair, pulsar, federation, esg, esg-wp1, esg-wp4, esg-wp2, esg-wp5, esg-wp3]
-supporters: [eosc, esg]
+tags: [eosc, workflow, ro-crate, onedata, provenance, aai, poland, fair, pulsar, federation, esg, esg-wp1, esg-wp4, esg-wp2, esg-wp5, esg-wp3]
 subsites: [all, esg]
 main_subsite: eu
+contributions:
+  authorship:
+    - dadrasarmin
+  funding:
+    - eu
+    - eosc-life
+    - eurosciencegateway
 ---
 At the [EOSC Symposium 2025](https://eosc.eu/news/lets-seize-this-moment-momentum-made-visible-at-eosc-symposium-2025/) in Brussels, the programme spotlighted the first wave of EOSC Nodes and the momentum behind the Federation’s launch. Roksana Wilk presented “From National Resources to EOSC: The EOSC Node Poland Gateway,” positioning the Polish node within EOSC’s broader move from plans to operations. 
 

@@ -1,0 +1,63 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SubsiteOverview from '../../components/SubsiteOverview.astro';
+import { getSubsiteStaticPaths, subsiteLabels } from '../../stores/subsiteStore';
+import { getUpcomingEvents, getPublishedNews, getInsert } from '../../utils/content';
+import { render } from 'astro:content';
+import * as mdxComponents from '../../components/mdx/index.ts';
+
+export const getStaticPaths = getSubsiteStaticPaths;
+
+const { subsite } = Astro.params;
+const { subsiteInfo } = Astro.props;
+
+const [upcomingEvents, subsiteNews] = await Promise.all([
+  getUpcomingEvents(subsite).then((e) => e.slice(0, 5)),
+  getPublishedNews(subsite).then((n) => n.slice(0, 5)),
+]);
+
+const { title, description } = subsiteLabels[subsite] || {
+  title: `Galaxy ${subsiteInfo.name}`,
+  description: `Galaxy resources and news for ${subsiteInfo.name}`,
+};
+
+// Conventional insert filenames used across subsite homepages, in display order.
+// Each subsite uses a subset; missing ones are silently skipped.
+// "cards" is structured YAML data from Gridsome, not renderable content.
+const BODY_INSERTS = [
+  'jumbotron',
+  'lead',
+  'lead1',
+  'lead2',
+  'main',
+  'main1',
+  'main2',
+  'main3',
+  'main4',
+  'main5',
+  'lower',
+];
+const FOOTER_INSERTS = ['site-footer'];
+
+const bodyEntries = (await Promise.all(BODY_INSERTS.map((name) => getInsert(`${subsite}/${name}`)))).filter(Boolean);
+const footerEntries = (await Promise.all(FOOTER_INSERTS.map((name) => getInsert(`${subsite}/${name}`)))).filter(
+  Boolean
+);
+
+const renderedBody = await Promise.all(bodyEntries.map((ins) => render(ins)));
+const renderedFooter = await Promise.all(footerEntries.map((ins) => render(ins)));
+---
+
+<BaseLayout title={title} description={description}>
+  <SubsiteOverview
+    {subsite}
+    {title}
+    {description}
+    {upcomingEvents}
+    {subsiteNews}
+    hasMainContent={renderedBody.length > 0}
+  >
+    {renderedBody.map(({ Content }) => <Content slot="main-content" components={mdxComponents} />)}
+    {renderedFooter.map(({ Content }) => <Content slot="footer-content" components={mdxComponents} />)}
+  </SubsiteOverview>
+</BaseLayout>

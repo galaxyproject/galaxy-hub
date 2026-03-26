@@ -2,16 +2,19 @@
 title: "EuroScienceGateway Work Package 3: first year achievements"
 tease: ""
 hide_tease: true
-authors: "MATangaro (CNR), F Zambelli (CNR and UniMi)"
-authors_structured:
-- github: mtangaro
-- github: Federico77z
 date: "2023-12-22"
-tags: [esg, esg-wp3]
-supporters:
-  - eurosciencegateway
+tags: [esg, esg-wp3, outreach, year-in-review]
 subsites: [all-eu, esg]
 main_subsite: eu
+contributions:
+  authorship:
+    - mtangaro
+    - Federico77z
+  funding:
+    - eu
+    - eurosciencegateway
+    - cesnet
+    - elixir-cz
 ---
 
 The Work Package 3 of the [**EuroScienceGateway**](/projects/esg/) provides the compute infrastructure to the project and develops the software needed to maintain and further extend its architecture. Indeed, leveraging the Pulsar application, 6 National Galaxy instances will be able to provide access to remote computing resources for end-users. We present here a short summary of the WP3 first year’s achievements.

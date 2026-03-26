@@ -1,17 +1,17 @@
 ---
 title: Announcing the Workflows Community Initiative (WCI)
 date: '2022-03-13'
-tags: [workflows]
-supporters:
-- crc1425
-- crc992
-- denbi
-- elixir
-authors: bgruening
-authors_structured:
-- github: bgruening
+tags: [workflow]
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bgruening
+  funding:
+    - crc1425
+    - crc992
+    - deNBI
+    - elixir-europe
 ---
 
 ![Workflow Community initiative](/assets/media/workflows-community-logo.png)

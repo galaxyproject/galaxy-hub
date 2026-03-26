@@ -14,6 +14,10 @@ tags: []
 links:
 image: "/images/communities/metabolomics.png"
 subsites: [global, us]
+contributions:
+  organisers:
+    - foellmelanie
+
 ---
 
 **When: 14:00 CET**

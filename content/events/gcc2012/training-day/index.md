@@ -25,7 +25,7 @@ Register for the Training Day at the same time you [Register](/events/gcc2012/re
   </tr>
   <tr>
     <th style=" text-align: right;"> 8:00 </th>
-    <td colspan=3 style=" text-align: center; background-color: #F8F8F8 ;"> <em>Continental Breakfast, Registration Open</em> </td>
+    <td colspan="3" style=" text-align: center; background-color: #F8F8F8 ;"> <em>Continental Breakfast, Registration Open</em> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:00 </th>
@@ -35,7 +35,7 @@ Register for the Training Day at the same time you [Register](/events/gcc2012/re
   </tr>
   <tr>
     <th style=" text-align: right;"> 10:30 </th>
-    <td colspan=3 style=" text-align: center; background-color: #F8F8F8 ;"> <em>Break</em> </td>
+    <td colspan="3" style=" text-align: center; background-color: #F8F8F8 ;"> <em>Break</em> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 11:00 </th>
@@ -45,7 +45,7 @@ Register for the Training Day at the same time you [Register](/events/gcc2012/re
   </tr>
   <tr>
     <th style=" text-align: right;"> 12:30 </th>
-    <td colspan=3 style=" text-align: center; background-color: #F8F8F8 ;"> <em>Lunch Break</em> </td>
+    <td colspan="3" style=" text-align: center; background-color: #F8F8F8 ;"> <em>Lunch Break</em> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 2:00 </th>
@@ -55,7 +55,7 @@ Register for the Training Day at the same time you [Register](/events/gcc2012/re
   </tr>
   <tr>
     <th style=" text-align: right;"> 3:30 </th>
-    <td colspan=3 style=" text-align: center; background-color: #F8F8F8 ;"> <em>Break</em> </td>
+    <td colspan="3" style=" text-align: center; background-color: #F8F8F8 ;"> <em>Break</em> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 4:00 </th>
@@ -65,7 +65,7 @@ Register for the Training Day at the same time you [Register](/events/gcc2012/re
   </tr>
   <tr>
     <th style=" text-align: right;"> 5:30 </th>
-    <td colspan=3 style=" text-align: center; background-color: #F8F8F8 ;"> <em>Finish</em> </td>
+    <td colspan="3" style=" text-align: center; background-color: #F8F8F8 ;"> <em>Finish</em> </td>
   </tr>
 </table>
 
@@ -164,7 +164,7 @@ This workshop is supported by an AWS in Education teaching grant award.
 | :----: | ---- |
 | **Instructors** | Greg von Kuster & Nate Coraor; Penn State University |
 | **Content** | The Galaxy tool shed is a place for the Galaxy community to share functionally correct Galaxy tools, proprietary Galaxy data types and exported Galaxy workflows. Tools in the tool shed should have been built within a proprietary development environment that included a local Galaxy instance in which they were proven to be functionally correct before they were uploaded to the tool shed. Demonstrating the use of the tool shed excludes discussions about developing the tools, proprietary datatypes or workflows that are stored there. |
-| **Prerequisites** | A general knowledge of Galaxy, or attendance at Workshop 2 <br />Administrative access to a Galaxy instance that was: <br > • Installed by you prior to the training day. <br /> • Setup by you during Workshop 5 using the virtual machine image for Workshop 5.<br /> • Installed by you prior to arriving at the conference, using the virtual machine image that has a running Galaxy.<br />We strongly recommend that you use the conference provided virtual machine image and have it installed and running before arriving at the conference. If you use something other than a conference-provided virtual machine (VM) instance, you'll be responsible for handling issues that are outside of Galaxy.<br />Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop.<br />Basic understanding of the process for developing a simple Galaxy tool as well as Galaxy data types, or attendance at Workshop 1. |
+| **Prerequisites** | A general knowledge of Galaxy, or attendance at Workshop 2 <br />Administrative access to a Galaxy instance that was: <br  /> • Installed by you prior to the training day. <br /> • Setup by you during Workshop 5 using the virtual machine image for Workshop 5.<br /> • Installed by you prior to arriving at the conference, using the virtual machine image that has a running Galaxy.<br />We strongly recommend that you use the conference provided virtual machine image and have it installed and running before arriving at the conference. If you use something other than a conference-provided virtual machine (VM) instance, you'll be responsible for handling issues that are outside of Galaxy.<br />Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop.<br />Basic understanding of the process for developing a simple Galaxy tool as well as Galaxy data types, or attendance at Workshop 1. |
 | **Results** | Starting up your own local tool shed in addition to your own local Galaxy instance. You will be interacting between these two applications throughout the workshop. Uploading one or more custom tools to your local tool shed, creating a tool shed repository. Installing repositories containing tools and custom datatypes from your local tool shed into your local Galaxy instance. Installing a repository that contains a workflow into your local Galaxy instance, and then import the workflow from the repository. Deactivating and reactivating installed repositories that contain custom datatypes and tools. Uninstalling and reinstalling installed repositories that contain custom datatypes and tools. Getting updates in your local Galaxy instance for installed repositories. Understanding of Galaxy tool versions and how they relate to tools contained in installed repositories. Discussion of tools being migrated from the Galaxy distribution to the tool shed. |
 | **Links** | • Virtual Machine Image <br /> • [Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/vonKuster.pdf) <br /> • [Video part 1](https://uic.sharestream.net/ssdcms/i.do?u=96c8f43dd8584ce), [part 2](https://uic.sharestream.net/ssdcms/i.do?u=4e36171aab5e410) |
 

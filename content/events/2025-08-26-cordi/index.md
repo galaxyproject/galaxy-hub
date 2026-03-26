@@ -11,6 +11,12 @@ gtn: false
 contact: Daniela Schneider
 tags: [conference]
 subsites: [all]
+contributions:
+  organisers:
+    - Sch-Da
+  funding:
+    - nfdi4bioimage
+
 ---
 
 The second edition of the Conference on Research Data Infrastructure (CoRDI) from the German National Research Data Infrastructure ([NFDI](https://www.nfdi.de/association/?lang=en)) will take place in Aachen in August! 

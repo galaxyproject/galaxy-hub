@@ -2,18 +2,19 @@
 title: 'CORBEL staff visit program: Integration IDR - Galaxy'
 date: '2020-02-08'
 tags: [tools, hackathon, data]
-supporters:
-- denbi
-- elixir
-- corbel
-- idr
-- eosc
-- eubi
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - beatrizserrano
+  funding:
+    - eu
+    - deNBI
+    - elixir-europe
+    - corbel
+    - idr
+    - eosc-life
+    - eubi
 ---
 
 

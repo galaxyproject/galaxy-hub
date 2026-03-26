@@ -19,7 +19,7 @@ comments:
 user_support:
   - "[Tutorials](https://training.galaxyproject.org/training-material/topics/ecology/)"
   - "Workflows for phenology study and abundance index as trends computation through regionalGAM"
-  - "[UseGalaxy.eu Gitter Support Channel](https://gitter.im/usegalaxy-eu/Lobby)"
+  - "[UseGalaxy.eu Matrix Support Channel](https://matrix.to/#/#usegalaxy-eu_Lobby:gitter.im)"
   - "[Galaxy Help Forum](https://help.galaxyproject.org/)"
 quotas:
   - "Storage and computational quotas."

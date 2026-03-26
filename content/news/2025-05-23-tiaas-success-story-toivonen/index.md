@@ -2,11 +2,20 @@
 title: "Training Infrastructure as a service (TIaaS) Feedback from Dr. Janne M. Toivonen"
 tease: "Thanks to TIaaS, our RNA-Seq workshops run smoothly—no more delays, just effective hands-on learning."
 date: "2025-05-23"
-tags: [tiaas, esg-wp1, esg, gtn]
-supporters: [eosc, unifreiburg, denbi, elixir, eurosciencegateway]
+tags: [tiaas, esg-wp1, esg, gtn, outreach]
 subsites: [eu, esg]
 main_subsite: eu
-authors: Janne Markus Toivonen
+contributions:
+  authorship:
+    - jannemarkustoivonen
+  funding:
+    - eu
+    - eosc-life
+    - uni-freiburg
+    - deNBI
+    - mwk
+    - elixir-europe
+    - eurosciencegateway
 ---
 In the last 5 years, we have run a 3-hour RNA-Seq analysis workshop in [Galaxy](https://usegalaxy.eu/) as a part of Master’s degree in the [University of Zaragoza, Spain](https://en.iisaragon.es/grupos-de-investigacion/neurociencia-salud-mental-y-organos-de-los-sentidos/giis052-lagenbio-teragen-y-regeneragen/). While the training has been fruitful, we have suffered from occasional delays due to waiting periods during the past years. This year we used [usegalaxy.eu](https://usegalaxy.eu/) and tried the [Training Infrastructure as a service (TIaaS)](https://usegalaxy.eu/tiaas/) to alleviate the above-mentioned problem.
 

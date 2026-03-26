@@ -15,7 +15,9 @@ contacts:
 - name: Person
   email: name@example.com
   url: https://example.com
-authors: Marzipan
+contributions:
+  authorship:
+    - marzipan
 location:
   name: Strong Badia
 location_url: https://www.youtube.com/watch?v=hfUqRp4E0L8&t=37s
@@ -24,7 +26,6 @@ source_blog_url: "https://blogs.nature.com/naturejobs/"
 source_blog: "Naturejobs Blog"
 tags: [ cofest ]
 draft: false
-autotoc: true
 gtn: false
 skip_title_render: false
 image: /images/icons/GL.png

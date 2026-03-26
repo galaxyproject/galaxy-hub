@@ -2,11 +2,11 @@
 title: Using secure BioContainers to run Galaxy tools
 date: '2021-02-15'
 tags: [data, tools]
-authors: bgruening
-authors_structured:
-- github: bgruening
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bgruening
 ---
 
 The Galaxy community has heavily invested in the [Bioconda](https://doi.org/10.1038/s41592-018-0046-7)-[BioContainer](https://doi.org/10.1093/bioinformatics/btx192)
@@ -26,5 +26,5 @@ And this is what we want to tackle during this year. Our plan is to do this in t
 - __Step 2__: We mount all the previously created 50,000 Singularity containers using our community-built CVMFS repository into the cluster and share those containers with
 all nodes. Galaxy will then attempt to find a native container for every Galaxy tool. If such a container does not exist, which is unlikely, Galaxy will fallback to step 1 and run the tool in a secure Container environment using Conda packages.
 
-If you have any questions, please do not hesitate to contact the [BioContainers community](https://gitter.im/biocontainers/Lobby) or the [European Galaxy Project](mailto:contact@usegalaxy.eu).
+If you have any questions, please do not hesitate to contact the [BioContainers community](https://matrix.to/#/#biocontainers_Lobby:gitter.im) or the [European Galaxy Project](mailto:contact@usegalaxy.eu).
 

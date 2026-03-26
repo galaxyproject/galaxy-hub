@@ -3,12 +3,15 @@ title: 'What do you want to know about Galaxy-EU? Our first "Ask us anything" Q&
 date: '2024-07-29'
 tease: "Galaxy-EU had its first ask us anything live webinar"
 hide_tease: false
-authors: Anika Erxleben-Eggenhofer 
 subsites: [all-eu, global, esg]
 tags: [esg, esg-wp1]
-supporters:
-  - eurosciencegateway
-  - unifreiburg
+contributions:
+  authorship:
+    - erxleben
+  funding:
+    - eu
+    - eurosciencegateway
+    - uni-freiburg
 ---
 
 🚀 **First “Ask Us Anything about Galaxy” live Q&A session was successful**

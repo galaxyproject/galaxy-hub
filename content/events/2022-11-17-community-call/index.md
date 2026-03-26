@@ -10,7 +10,7 @@ location:
 external_url:
 gtn: false
 contact: "Helena Rasche & Saskia Hiltemann"
-tags: ["community-call"]
+tags: ["community-call", gtn-news, training]
 subsites: [all]
 ---
 

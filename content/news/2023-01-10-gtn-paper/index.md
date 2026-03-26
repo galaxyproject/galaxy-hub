@@ -3,7 +3,7 @@ title: 'New Paper "Galaxy Training: A powerful framework for teaching!"'
 date: "2023-01-10"
 tease: "Our new paper about the Galaxy Training Network has been published this week in Plos Computational Biology."
 hide_tease: true
-tags: [paper, tiaas]
+tags: [paper, tiaas, training]
 subsites: [global]
 ---
 

@@ -13,4 +13,8 @@ contact: "Gareth Price"
 image: 
 tags: [webinar]
 subsites: [global, us]
+contributions:
+  organisers:
+    - GarethPrice-Aus
+
 ---

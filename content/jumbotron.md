@@ -1,6 +1,6 @@
-<!-- ---
+{/*  ---
 title: Announcements
---- -->
+---  */}
 
 <div class="row">
   <div class="col-1"></div>

@@ -8,12 +8,13 @@ contacts:
   name: Freiburg Galaxy Team
 location:
   name: online
-supporters:
-- unifreiburg
-- denbi
 hidefooter: true
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  funding:
+    - deNBI
+
 ---
 
 
@@ -36,7 +37,7 @@ Learn how to use Galaxy's machine learning tools
 
 Introduction to Galaxy or equivalent experience
 
-[Registration](https://bcc2020.github.io){:target="_blank"}
+<a href="https://bcc2020.github.io" target="_blank">Registration</a>
 
 ### Speakers
 

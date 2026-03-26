@@ -11,6 +11,9 @@ location:
   name: Institute of Organic Chemistry and Biochemistry
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - elixir-cz
 ---
 
 This Workshop is organised by ELIXIR CZ at the Institute of Organic Chemistry and Biochemistry of the CAS in cooperation with the Czech Society for Mass Spectrometry.

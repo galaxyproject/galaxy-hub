@@ -1,0 +1,146 @@
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import { parse } from 'yaml';
+import { buildGtnHallOfFameUrl, communitySlug } from './contributors';
+
+export const europeSites = {
+  freiburg: 'Freiburg',
+  ifb: 'ELIXIR France/IFB',
+  erasmusmc: 'Erasmus MC',
+  'elixir-it': 'ELIXIR Italy',
+  genouest: 'GenOuest',
+  cz: 'Czech Republic',
+} as const;
+
+export const usSites = {
+  jhu: 'Johns Hopkins',
+  pennstate: 'Penn State',
+  ccf: 'Cleveland Clinic',
+  moffitt: 'Moffitt Cancer Center',
+} as const;
+
+export type EuropeSiteId = keyof typeof europeSites;
+export type UsSiteId = keyof typeof usSites;
+
+export interface PersonProfile {
+  id: string;
+  subsite: string;
+  name: string;
+  title?: string;
+  email?: string;
+  phone?: string;
+  location?: string;
+  locationLink?: string;
+  website?: string;
+  github?: string;
+  matrix?: string;
+  linkedin?: string;
+  orcid?: string;
+  mastodon?: string;
+  gitter?: string;
+  googleScholar?: string;
+  researchgate?: string;
+  hallOfFameSlug: string;
+  gtnProfile?: string;
+  avatarUrl?: string;
+  bio?: string;
+  alumni?: boolean;
+}
+
+export type PeopleBySubsite = Record<string, PersonProfile[]>;
+
+let cache: PeopleBySubsite | null = null;
+
+function normalizeMastodon(value?: string): string | undefined {
+  if (!value) return undefined;
+  const trimmed = value.trim();
+  if (!trimmed) return undefined;
+  if (/^https?:\/\//i.test(trimmed)) return trimmed;
+  return `https://${trimmed.replace(/^https?:\/\//i, '')}`;
+}
+
+function normalizeGithub(id: string, record: Record<string, any>): string | undefined {
+  const explicit = record.github_username || record.github;
+  const handle = explicit && typeof explicit === 'string' ? explicit.trim() : id;
+  return handle || undefined;
+}
+
+function buildAvatar(handle?: string): string | undefined {
+  if (!handle) return undefined;
+  const clean = handle.replace(/^@/, '');
+  return `https://avatars.githubusercontent.com/${clean}?s=240`;
+}
+
+function resolvePath(): string {
+  // Prefer repo-level content path, works in dev and preview builds
+  const candidates = [
+    path.resolve(process.cwd(), '../content/people/people.yaml'),
+    path.resolve(fileURLToPath(new URL('../../../content/people/people.yaml', import.meta.url))),
+  ];
+
+  for (const candidate of candidates) {
+    if (fs.existsSync(candidate)) {
+      return candidate;
+    }
+  }
+
+  // Fall back to the first candidate even if missing, so upstream error shows the attempted location
+  return candidates[0];
+}
+
+export function loadPeopleData(): PeopleBySubsite {
+  if (cache) return cache;
+
+  try {
+    const raw = fs.readFileSync(resolvePath(), 'utf8');
+    const parsed = parse(raw, { uniqueKeys: false }) as Record<string, Record<string, any>>;
+    const entries: PeopleBySubsite = {};
+
+    for (const [subsite, people] of Object.entries(parsed || {})) {
+      if (!people || typeof people !== 'object') continue;
+      const profiles: PersonProfile[] = [];
+
+      for (const [id, record] of Object.entries(people)) {
+        if (!record || typeof record !== 'object') continue;
+        const github = normalizeGithub(id, record);
+        const gtnProfileKey = github || id;
+        const hallSlug = communitySlug(github || record.name || id);
+        const profile: PersonProfile = {
+          id,
+          subsite,
+          name: typeof record.name === 'string' && record.name.trim().length > 0 ? record.name : github || id,
+          title: record.title,
+          email: record.email,
+          phone: record.phone,
+          location: record.location,
+          locationLink: record.location_link,
+          website: record.website,
+          github,
+          matrix: record.matrix,
+          linkedin: record.linkedin,
+          orcid: record.orcid,
+          mastodon: normalizeMastodon(record.mastodon || record.fediverse),
+          gitter: record.gitter,
+          googleScholar: record['google-scholar'],
+          researchgate: record.researchgate,
+          hallOfFameSlug: hallSlug,
+          gtnProfile: gtnProfileKey ? buildGtnHallOfFameUrl(gtnProfileKey) : undefined,
+          avatarUrl: buildAvatar(github),
+          bio: record.bio,
+          alumni: record.alumni === true,
+        };
+        profiles.push(profile);
+      }
+
+      profiles.sort((a, b) => a.name.localeCompare(b.name));
+      entries[subsite] = profiles;
+    }
+
+    cache = entries;
+    return entries;
+  } catch (err) {
+    console.warn('Failed to load people.yaml', err);
+    return {};
+  }
+}

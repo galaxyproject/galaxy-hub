@@ -1,0 +1,23 @@
+domains:
+    - platform_url: https://pistacho.ac.uma.es/galaxy-bitlab
+      ip: 150.214.45.10
+      version: IPv4
+      asn: AS198096 Junta de Andalucia
+      location:
+          city: Málaga
+          region: Andalusia
+          region_code: AN
+          country: ES
+          country_name: Spain
+          country_code: ES
+          continent_code: EU
+          postal: "29010"
+          latitude: 36.7162
+          longitude: -4.4161
+          timezone: Europe/Madrid
+          currency: EUR
+      response:
+          time: "2025-11-25T19:38:54Z"
+          status_code: 200
+          response_time_ms: 0
+          reason: OK

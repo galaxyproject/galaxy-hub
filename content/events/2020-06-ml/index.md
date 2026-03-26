@@ -9,16 +9,17 @@ contacts:
   name: Freiburg Galaxy Team and ELIXIR
 location:
   name: online
-supporters:
-- galaxy
-- elixir
-- unifreiburg
-- denbi
 hidefooter: true
 continent: EU
 gtn: true
 subsites: [global, all-eu, us]
 main_subsite: eu
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+    - uni-freiburg
+
 ---
 
 

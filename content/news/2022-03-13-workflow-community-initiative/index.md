@@ -5,17 +5,17 @@ tease: 'The Workflows Community Initiative has lunched the new website at workfl
   The Freiburg Galaxy team is part of this Inititive to help improving computational workflows
   for everyone.'
 hide_tease: true
-tags: [workflows]
-supporters:
-- crc1425
-- crc992
-- denbi
-- elixir
-authors: bgruening
-authors_structured:
-- github: bgruening
+tags: [workflow]
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bgruening
+  funding:
+    - crc1425
+    - crc992
+    - deNBI
+    - elixir-europe
 ---
 
 ![Workflow Community initiative](/assets/media/workflows-community-logo.png)

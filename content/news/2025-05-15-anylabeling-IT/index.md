@@ -1,13 +1,16 @@
 ---
 title: "Effortless data labeling with AI support from YOLO and Segment Anything on Galaxy Europe!"
 date: "2025-05-15"
-authors: Yi Sun
 tease: "Use AnyLabeling in the European Galaxy Server as an interactive tool"
 hide_tease: false
 subsites: [all-eu, global]
-supporters: nfdi4bioimage
-tags: [imaging, nfdi, nfdi4bioimaging, tool]
+tags: [imaging, nfdi, tools]
 main_subsite: eu
+contributions:
+  authorship:
+    - sunyi000
+  funding:
+    - nfdi4bioimage
 ---
 
 AnyLabeling is now available for the imaging community to use in Galaxy Europe!

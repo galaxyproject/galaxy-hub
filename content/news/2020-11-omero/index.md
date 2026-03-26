@@ -3,11 +3,11 @@ title: Images stored in local OMERO instances are now available from Galaxy
 date: '2020-11-23'
 tease: An important step towards the accessibility of bioimage data
 tags: [tools, data]
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - beatrizserrano
 ---
 
 

@@ -4,11 +4,12 @@ title: 'GraphClust2: Annotation and discovery of structured RNAs with scalable a
 date: '2019-11-30'
 tags: [paper]
 doi: 10.1093/gigascience/giz150
-supporters:
-- denbi
-- elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 Going back to the roots of the [Prof. Backofen lab](http://www.bioinf.uni-freiburg.de/?en), our colleague Milad has published a paper on annotation and discovery of structured RNAs with scalable and accessible integrative clustering with GraphClust2. We are happy that we were able to support Milad to integrate GraphClust2 into Galaxy and make it available to our RNA community. Congratulations to Milad and colleagues!

@@ -2,6 +2,7 @@
 title: "Feb 8, 2013 Galaxy Distribution & News Brief"
 date: "2013-02-09"
 subsites: [global, us]
+tags: [newsletter]
 ---
 **Complete [News Brief](/archive/dev-news-briefs/2013-02-08/)**
 <div class='right'><a href='http://wiki.galaxyproject.org/Tool%20Shed'><img src="/images/news-graphics/2013_02_6-confirm-dependency-installation-sm2.png" alt="" width="200px" /></a></div>

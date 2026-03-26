@@ -1,7 +1,7 @@
 ---
 title: Summer (August) 2018 Galaxy News
 ---
-[<img class="float-left" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/galaxy-updates/)
+[<img class="float-left" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="150" />](/galaxy-updates/)
 
 Welcome to the Summer 2018 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -74,7 +74,7 @@ A joint meeting in 2020 or 2021 depends on finding a suitable venue (300+ attend
 
 The Galaxy Training Network is organizing regular online CoFests (Collaboration/Contribution Fests) every 3 months on the 3rd Friday for a day of the collaborative work on the training content.
 
-**[The first one will be on the 17th of August](/events/2018-08-gtn/).** We plan to focus on metagenomics training; but anyone who would like to contribute on any other topics is very welcome to join. We will coordinate via [the GTN Gitter channel](https://gitter.im/Galaxy-Training-Network/Lobby) and [GitHub issues](https://github.com/galaxyproject/training-material/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22Contribution+fest%22).
+**[The first one will be on the 17th of August](/events/2018-08-gtn/).** We plan to focus on metagenomics training; but anyone who would like to contribute on any other topics is very welcome to join. We will coordinate via [the GTN Matrix channel](https://matrix.to/#/#Galaxy-Training-Network_Lobby:gitter.im) and [GitHub issues](https://github.com/galaxyproject/training-material/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22Contribution+fest%22).
 
 ## 2018 SACNAS Workshops
 

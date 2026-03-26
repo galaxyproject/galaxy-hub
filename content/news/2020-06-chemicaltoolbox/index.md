@@ -5,19 +5,20 @@ date: '2020-06-03'
 tease: cheminformatics.usegalaxy.eu
 tags: [paper]
 doi: 10.1186/s13321-020-00442-7
-supporters:
-- eosc
-authors: simonbray
-authors_structured:
-- github: simonbray
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - simonbray
+  funding:
+    - eu
+    - eosc-life
 ---
 
-We are happy to announce a new publication, '[The ChemicalToolbox: reproducible, user-friendly cheminformatics
-analysis on the Galaxy platform](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-020-00442-7){:target="_blank"}' 
+We are happy to announce a new publication, '<a href="https://jcheminf.biomedcentral.com/articles/10.1186/s13321-020-00442-7" target="_blank">The ChemicalToolbox: reproducible, user-friendly cheminformatics
+analysis on the Galaxy platform</a>' 
 in the Journal of Cheminformatics. This accompanies our Galaxy webserver for computational chemistry, 
-located at <https://cheminformatics.usegalaxy.eu>.
+located at [https://cheminformatics.usegalaxy.eu](https://cheminformatics.usegalaxy.eu).
 
 Apart from the paper itself, check out our collection of [training material](https://galaxyproject.github.io/training-material/topics/computational-chemistry),
 and the documentation for our most recent project using the ChemicalToolbox, 

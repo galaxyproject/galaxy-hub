@@ -1,12 +1,22 @@
 ---
 title: "Freiburg Galaxy team at the EGI 2025"
 date: "2025-06-20"
-authors: "Smitesh Jain, Sebastián Luna-Valero, Sanjay Kumar Srikakulam, and Armin Dadras"
 tease: "From June 03rd to 6th, members from the Freiburg Galaxy team travelled to Santander, Spain to participate and present the EuroScienceGateway (ESG) project at the EGI2025 meeting"
-tags: [eosc, meeting, egi, esg, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5, conference, datacommons]
-supporters: [egi, unifreiburg, esg, datacommons]
+tags: [eosc, meeting, egi, esg, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5, conference, datacommons, talk, poster, outreach]
 subsites: [all, esg]
 main_subsite: eu
+contributions:
+  authorship:
+    - smiteshjain
+    - sebastian-luna-valero
+    - sanjaysrikakulam
+    - dadrasarmin
+  funding:
+    - eu
+    - egi
+    - uni-freiburg
+    - eurosciencegateway
+    - datacommons
 ---
 From June 3rd to 6th, [the European Galaxy Team](https://usegalaxy-eu.github.io/people) actively participated in the [EGI2025 conference](https://www.egi.eu/event/egi2025/), continuing its strong presence with engaging sessions, posters, and an exhibition booth. Armin Dadras and Sanjay Kumar Srikakulam from the European Galaxy Team travelled to Santander, Spain, to join the [EGI2025 conference](https://www.egi.eu/event/egi2025/) to present the [EuroScienceGateway project](https://galaxyproject.org/projects/esg/) along with collaborators -  [Sebastián Luna-Valero](https://www.egi.eu/people/sebastian-luna-valero/), [Enol Fernández](https://www.egi.eu/people/enol-fernandez/), and [Smitesh Jain](https://www.egi.eu/people/smitesh-jain/) (EGI/NL), [Łukasz Opioła](https://www.egi.eu/people/lukasz-opiola/) (ACC Cyfronet AGH  University of Krakow), [Michal Orzechowski](https://scholar.google.com/citations?user=jn8uxWEAAAAJ&hl=en) (AGH University of Krakow), and [Hakan Bayındır](https://scholar.google.com/citations?user=l0IjsVcAAAAJ&hl=de) (ULAKBIM/TR).
 
@@ -75,6 +85,6 @@ EGI2025 provided another excellent opportunity for [EuroScienceGateway](https://
 
 ![*TPV Broker poster*](./egi2025-tpv-broker.jpg)
 
-<br>
+<br />
 
 ![*ESG poster*](./egi2025-esg-poster.jpg)

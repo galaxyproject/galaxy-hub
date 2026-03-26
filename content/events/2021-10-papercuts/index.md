@@ -33,7 +33,7 @@ This will be a 24h event, spanning all time zones with our worldwide community. 
 
 Please let us know by **[registering your interest](https://docs.google.com/forms/d/e/1FAIpQLSc-OUa9s-L9DO1RMuSeiOWts1am0eWXI9VKM9dHfKxExBS-ag/viewform).**  We'll send you information before the event.  Registering your interest is optional, but is strongly encouraged, *especially if you are a relatively new contributor.*  The form includes questions about what you are interested in.  If you let us know, we can connect you with a more experienced contributor for the day.
 
-On Papercuts Day, please join us on [Gitter](https://gitter.im/galaxyproject/Lobby) (all day), and on 3 calls held throughout the day (arranged to cover the globe).
+On Papercuts Day, please join us on [Matrix](https://matrix.to/#/#galaxyproject_Lobby:gitter.im) (all day), and on 3 calls held throughout the day (arranged to cover the globe).
 
 
 ## Issues to work on
@@ -62,7 +62,7 @@ If working the core Galaxy engine and interface is your goal, then take a look a
 
 If you are a Galaxy user or admin, you can create, or tag existing GitHub issues for any irritating, but likely easily fixed bugs (make a guess). These can be in any part of Galaxy, not just the core engine, and includes training, documentation, and other software.
 
-If you don't have a GitHub or Gitter (or Elements/Matrix) account yet, then set them up (in that order).
+If you don't have a GitHub or Matrix (or Elements/Matrix) account yet, then set them up (in that order).
 
 If you have time, and want to learn more about contributing you are encouraged to review:
 
@@ -73,7 +73,7 @@ If you have time, and want to learn more about contributing you are encouraged t
 
 ## During the event
 
-We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day long, and on 3 calls spread across the day. Please take advantage of both to communicate with your collaborators around the world.
+We will be on [Matrix](https://matrix.to/#/#galaxyproject_Lobby:gitter.im) for chat all day long, and on 3 calls spread across the day. Please take advantage of both to communicate with your collaborators around the world.
 
 * **Call 1: Oceania, Australia, Asia**
     * 14:00 Australia Eastern time.  <a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=14%3A00+Melbourne+Galaxy+Papercuts+CoFest+Call&iso=20211021T14&p1=152&am=30">See your time</a>.

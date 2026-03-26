@@ -16,8 +16,8 @@ Galaxy had a significant presence at [ISMB/ECCB](http://www.iscb.org/ismbeccb201
     <th> Links </th>
   </tr>
   <tr>
-    <th rowspan=3> Friday July 15 </th>
-    <td rowspan=2> <a href='http://www.open-bio.org/wiki/BOSC_2011'>BOSC</a> </td>
+    <th rowspan="3"> Friday July 15 </th>
+    <td rowspan="2"> <a href='http://www.open-bio.org/wiki/BOSC_2011'>BOSC</a> </td>
     <td> 11:55-12:05 </td>
     <td> <em>Enacting Taverna Workflows through Galaxy</em>, Kostas Karasavvas </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/ISMB2011_TavernaInGalaxy.pdf'>PDF</a> </td>
@@ -34,7 +34,7 @@ Galaxy had a significant presence at [ISMB/ECCB](http://www.iscb.org/ismbeccb201
     <td> </td>
   </tr>
   <tr>
-    <th rowspan=2> Saturday July 16 </th>
+    <th rowspan="2"> Saturday July 16 </th>
     <td> <a href='http://www.open-bio.org/wiki/BOSC_2011'>BOSC</a> </td>
     <td> 12:05-12:15 </td>
     <td> <em>Enabling NGS Analysis with(out) the Infrastructure</em>, <a href='/people/enis-afgan/'>Enis Afgan</a>, Emory University </td>
@@ -47,15 +47,15 @@ Galaxy had a significant presence at [ISMB/ECCB](http://www.iscb.org/ismbeccb201
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/posters/ISMB2011_SymD.pdf'>PDF</a> </td>
   </tr>
   <tr>
-    <th rowspan=4> Monday July 18 </th>
+    <th rowspan="4"> Monday July 18 </th>
     <td> <a href='https://www.iscb.org/cms_addon/conferences/ismbeccb2011/technologytrack.php'>ISMB/ECCB Tech Track</a> </td>
     <td> 12:15-12:40 </td>
     <td> TT23: <em>Enacting Taverna Workflows through Galaxy,</em> Kostas Karasavvas, NBIC - LUMC </td>
     <td> <a href='http://www.iscb.org/uploaded/css/82/22437.pdf'>Abstract</a>, <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/ISMB2011_TavernaInGalaxy.pdf'>PDF</a> </td>
   </tr>
   <tr>
-    <td rowspan=2> <a href='https://www.iscb.org/cms_addon/conferences/ismbeccb2011/posterlist.php'>ISMB/ECCB Poster Presentations, Odd</a> </td>
-    <td rowspan=2> 12:40-14:30 </td>
+    <td rowspan="2"> <a href='https://www.iscb.org/cms_addon/conferences/ismbeccb2011/posterlist.php'>ISMB/ECCB Poster Presentations, Odd</a> </td>
+    <td rowspan="2"> 12:40-14:30 </td>
     <td> V7: <em><a href='http://symd.nci.nih.gov/'>SymD server</a>: a platform for detecting internally symmetric protein structures</em>, Chin-Hsien (Emily) Tai, <em>et al.</em>, National Cancer Institute </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/posters/ISMB2011_SymD.pdf'>PDF</a> </td>
   </tr>
@@ -70,7 +70,7 @@ Galaxy had a significant presence at [ISMB/ECCB](http://www.iscb.org/ismbeccb201
     <td> <a href='http://www.iscb.org/uploaded/css/82/22410.pdf'>Abstract</a> </td>
   </tr>
   <tr>
-    <th rowspan=10> Tuesday July 19 </th>
+    <th rowspan="10"> Tuesday July 19 </th>
     <td> <a href='https://www.iscb.org/cms_addon/conferences/ismbeccb2011/technologytrack.php'>ISMB/ECCB Tech Track</a> </td>
     <td> 10:45-11:10 </td>
     <td> TT37: <em>NGS Best Practices through Galaxy: Cloud-based variant discovery with visual analytics</em>, Daniel Blankenberg, Penn State University </td>
@@ -89,8 +89,8 @@ Galaxy had a significant presence at [ISMB/ECCB](http://www.iscb.org/ismbeccb201
     <td> </td>
   </tr>
   <tr>
-    <td rowspan=5> <a href='http://www.iscb.org/ismbeccb2011-program/workshops'>ISMB/ECCB Workshops</a> </td>
-    <td rowspan=5> 14:30-16:25 </td>
+    <td rowspan="5"> <a href='http://www.iscb.org/ismbeccb2011-program/workshops'>ISMB/ECCB Workshops</a> </td>
+    <td rowspan="5"> 14:30-16:25 </td>
     <td> W6: <em><a href='http://www.iscb.org/archive/conferences/iscb/ismbeccb2011-program/workshops.html#w6'>Genomics for Non-Model Organisms</a></em>, <a href='/people/dave-clements/'>Dave Clements</a>, Emory University. This Galaxy organized workshop features these talks: </td>
     <td> <a href='http://www.iscb.org/archive/conferences/iscb/ismbeccb2011-program/workshops.html#w6'>Abstracts</a> </td>
   </tr>

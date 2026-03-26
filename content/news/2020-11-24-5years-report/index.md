@@ -2,22 +2,23 @@
 title: Activity report of the last 5 years of the Freiburg Galaxy Team
 date: '2020-11-24'
 tease: Crucial infrastructure  serving more than 22,000 researchers
-tags: [data, training, tools, streetscience, COVID-19, report, tiaas]
-supporters:
-- unifreiburg
-- elixir
-- denbi
-- dataPLANT
-- eosc
-- biodaten
-- bmbf
-- dfg
-- egi
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
+tags: [data, training, tools, streetscience, covid-19, report, tiaas]
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - beatrizserrano
+  funding:
+    - eu
+    - uni-freiburg
+    - elixir-europe
+    - deNBI
+    - nfdi4plants
+    - eosc-life
+    - biodaten
+    - bmbf
+    - dfg
+    - egi
 ---
 
 Since the Galaxy project was started in Freiburg in 2010, it has evolved in such a way that it has become a crucial infrastructure that serves more than __22,000 researchers__, with more than __12 million jobs run__. In terms of training, around __150 workshops__ have run, and more than __5,000 trainees__ trained using TIaaS.

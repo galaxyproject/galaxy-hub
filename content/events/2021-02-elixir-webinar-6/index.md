@@ -10,7 +10,7 @@ external_url: "https://elixir-europe.org/events/2nd-galaxy-elixir-webinar-series
 location_url: "https://elixir-europe.org/events/2nd-galaxy-elixir-webinar-series"
 gtn: false
 contact: "Wolfgang Maier, Nathan Roach, Pratik Jagtap, Subina Mehta"
-tags: [ webinar ]
+tags: [ webinar, workflow, covid-19, talk ]
 links:
   - text: "Slides"
     url: "https://docs.google.com/presentation/d/1wcf1rkui8MZurMatpiJiWyt-cjkhIkO2Cx2lHlpTZE8"
@@ -18,4 +18,10 @@ links:
     url: "https://youtu.be/HCNNUSlL73k"
 image: 
 subsites: [global, us]
+contributions:
+  organisers:
+    - pratikdjagtap
+    - subinamehta
+    - wm75
+
 ---

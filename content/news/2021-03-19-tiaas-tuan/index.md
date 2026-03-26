@@ -2,17 +2,18 @@
 title: Training Infrastructure Feedback from Dr. Tuan Leng Tay
 date: '2021-03-19'
 tags: [training, tiaas]
-supporters:
-- galaxy-europe
-authors: Dr. Tuan Leng Tay
-authors_structured:
-- name: Dr. Tuan Leng Tay
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - tuanlengtay
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 
-From 22 to 26 February 2021, I ran a full-time bioinformatics workshop during the practical “Block Week” for 23 Master of Biology students at the University of Freiburg, Freiburg im Breisgau. The OM-02 course is an elective module for Master students in their first semester tailored to help them identify a specialisation to pursue subsequent research internships and their thesis work. All students came from different backgrounds and training in their undergraduate studies, and have not had prior exposure to bioinformatics analyses or coding. I started by giving an introduction to the Galaxy platform for -omics analysis and focussed specifically on the following tutorials found on <https://training.galaxyproject.org/>:
+From 22 to 26 February 2021, I ran a full-time bioinformatics workshop during the practical “Block Week” for 23 Master of Biology students at the University of Freiburg, Freiburg im Breisgau. The OM-02 course is an elective module for Master students in their first semester tailored to help them identify a specialisation to pursue subsequent research internships and their thesis work. All students came from different backgrounds and training in their undergraduate studies, and have not had prior exposure to bioinformatics analyses or coding. I started by giving an introduction to the Galaxy platform for -omics analysis and focussed specifically on the following tutorials found on [https://training.galaxyproject.org/](https://training.galaxyproject.org/):
 
 - From peaks to genes
 - Quality Control

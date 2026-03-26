@@ -4,11 +4,12 @@ date: '2019-01-08'
 tags: [devops, hardware]
 location:
   name: Galaxy Europe
-supporters:
-- denbi
-- bmbf
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - bmbf
 ---
 
 Today we activated our brand new hardware. Thanks to the [Federal Ministry of Education and Research](https://www.bmbf.de/en/) we could extend the

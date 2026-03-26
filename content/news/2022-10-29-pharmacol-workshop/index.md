@@ -3,8 +3,9 @@ title: 'Galaxy Workshop at the Institute of Pharmacology'
 tease: Learn ChIP-seq and ATAC-seq with Galaxy
 date: '2022-10-27'
 subsites: [freiburg]
-authors: Mehmet Tekman
-author_github: mtekman
+contributions:
+  authorship:
+    - mtekman
 ---
 
 Chiara Schröder at the [AG Arnold Lab](https://arnold-lab.com/)

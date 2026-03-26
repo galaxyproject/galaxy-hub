@@ -3,12 +3,11 @@ title: Development News Brief
 date: 2011-04-08
 ---
 
-----
-[Get Galaxy!](http://bitbucket.org/galaxy/galaxy-central/wiki/GetGalaxy)
- new: `% hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist`<br />
- upgrade: `% hg pull -u -r 50e249442c5a`
+**Get Galaxy!** [http://bitbucket.org/galaxy/galaxy-central/wiki/GetGalaxy](http://bitbucket.org/galaxy/galaxy-central/wiki/GetGalaxy)
 
-----
+* new: `% hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist`
+* upgrade: `% hg pull -u -r 50e249442c5a`
+
 ## Key Upcoming Galaxy Events
 
 **May 24-26, 2011 Galaxy Community Conference**, Lunteren, The Netherlands.

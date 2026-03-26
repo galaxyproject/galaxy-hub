@@ -1,17 +1,18 @@
 ---
 title: 20,000 users
 date: '2020-10-21'
-tags: [galaxy, tiaas]
-supporters:
-- denbi
-- elixir
-- eosc
-- unifreiburg
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
+tags: [tiaas, outreach]
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
+  funding:
+    - eu
+    - deNBI
+    - elixir-europe
+    - eosc-life
+    - uni-freiburg
 ---
 
 [We](https://usegalaxy-eu.github.io/people) have exciting news to share! The [European Galaxy Server](https://www.usegalaxy.eu) surpassed the **20,000 registered users** last week! 

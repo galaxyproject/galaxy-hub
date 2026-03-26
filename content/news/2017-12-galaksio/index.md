@@ -2,11 +2,13 @@
 date: '2017-12-12'
 title: "Galaksio: a Galaxy user interface focused on running prepared workflows"
 tease: "Make your workflows more accessible to non-bioinformaticians"
-authors: "Tomas Klingström"
 external_url: ""
 image: "/images/logos/galaksio_logo.png"
 source_blog_url: ""
-source_blog: 
+source_blog:
+contributions:
+  authorship:
+    - TKlingstrom
 ---
 
 Galaksio (Esperanto for Galaxy) is a user interface for Galaxy designed to make workflows more accessible to non-bioinformaticians. The interface is focused on running prepared workflows and bioinformaticians can use the interface to make comprehensive workflows accessible for colleagues lacking the skills necessary to create their own workflows.

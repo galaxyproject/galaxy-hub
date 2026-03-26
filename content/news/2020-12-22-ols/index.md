@@ -4,15 +4,16 @@ title: 'Open Life Science program & the Galaxy community: involvement in OLS-2 a
 date: '2020-12-22'
 tease: ' involvement in OLS-2 and invitation to apply to the next cohort'
 tags: [training]
-supporters:
-- elixir
-- eosc
-- denbi
-authors: bebatut
-authors_structured:
-- github: bebatut
 subsites: [all-eu, global, us]
 main_subsite: eu
+contributions:
+  authorship:
+    - bebatut
+  funding:
+    - eu
+    - elixir-europe
+    - eosc-life
+    - deNBI
 ---
 
 [Open Life Science (OLS)](https://openlifesci.org/) is an **online mentoring & training program** to help **individuals and stakeholders in research** to become **Open Science ambassadors**. Participants of this program learn essential knowledge required to create, lead, and sustain an Open Science project, connect with members across different communities, backgrounds, and identities by sharing their experiences and expertise.

@@ -17,7 +17,7 @@ subsites: [global, us]
 
 <table>
   <tr>
-    <th colspan=2> Quotas on Main </th>
+    <th colspan="2"> Quotas on Main </th>
   </tr>
   <tr>
     <th> Maximum total user data on server: </th>

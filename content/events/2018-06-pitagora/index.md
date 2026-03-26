@@ -12,4 +12,8 @@ external_url: "https://pitagora.connpass.com/event/88098/"
 contact: "Atsushi Asai"
 gtn: false
 subsites: [global, us]
+contributions:
+  organisers:
+    - a-asai
+
 ---

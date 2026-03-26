@@ -25,8 +25,8 @@ There were several sessions and posters featuring Galaxy at the [13th European C
     <td> <a href='http://www.liacs.nl/~kwolsten/'>Katy Wolstencroft</a>, <a href='http://wiki.data.dtls.nl/index.php/User:Leon_Mei'>Hailiang (Leon) Mei</a>, <a href='http://staff.science.uva.nl/~silvia/'>Sílvia Olabarriaga</a> </td>
   </tr>
   <tr>
-    <th rowspan=6> September 8 </th>
-    <td rowspan=4> 18:30-19:30 </td>
+    <th rowspan="6"> September 8 </th>
+    <td rowspan="4"> 18:30-19:30 </td>
     <td> <em><a href='http://www.eccb14.org/95'>A45: A targeted metagenomic analysis pipeline dedicated to Ion Torrent PGM Data</a></em> </td>
     <td> </td>
     <td> <a href='http://www.pegase-biosciences.com/pegase/le-sous-menu/'>Alexandre Loywick, Gael Even, Sophie Merlin, Renaud Blervaque and Christophe Audebert</a> </td>
@@ -47,7 +47,7 @@ There were several sessions and posters featuring Galaxy at the [13th European C
     <td> Damien Correia, Olivia Doppelt-Azeroual, Jean-Baptiste Denis, Mathias Vandenbogaert and Valérie Caro </td>
   </tr>
   <tr>
-    <td rowspan=2> 19:30-20:30 </td>
+    <td rowspan="2"> 19:30-20:30 </td>
     <td> <em><a href='http://www.eccb14.org/18-poster/103-poster-abstracts-a-9'>J04: SMITH: managing NGS data and workflows in a sequencing facility</a></em> </td>
     <td> <a href='/documents/posters/ECCB2014_SMITH.png'>Poster</a> </td>
     <td> Yuriy Vaskin, Francesco Venco and Heiko Muller </td>
@@ -58,7 +58,7 @@ There were several sessions and posters featuring Galaxy at the [13th European C
     <td> Stephanie Le Gras, Serge Uge, Matthieu Jung, Ludovic Roy, Valerie Cognat, Frederic Plewniak, Irwin Davidson and Julien Seiler </td>
   </tr>
   <tr>
-    <th rowspan=2> September 8+9 </th>
+    <th rowspan="2"> September 8+9 </th>
     <td> 13:30-14:00 </td>
     <td> <strong><em><a href='http://www.eccb14.org/program/demos'>ID01: Bringing the tools to the data - Providing scientists with personalized and on-demand bioinformatics services on the cloud of the French Institute of Bioinformatics</a></strong></em> </td>
     <td> </td>

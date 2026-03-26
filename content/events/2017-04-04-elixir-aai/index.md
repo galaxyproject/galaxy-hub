@@ -12,11 +12,13 @@ location:
   postal: 79110
   region: Baden-Württemberg
   street: Georges-Köhler-Allee
-supporters:
-- denbi
-- elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+
 ---
 
 We will be hosting a hackathon in Freiburg with international guests.

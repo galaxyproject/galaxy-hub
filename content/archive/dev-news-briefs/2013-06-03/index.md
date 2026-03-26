@@ -15,8 +15,8 @@ date: 2013-06-03
 *Please note new* **upgrade** *syntax*
 <table>
   <tr>
-    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width=70 /></a> &nbsp;&nbsp; </td>
-    <td colspan=2 style=" border: none;"> <strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a></strong> </td>
+    <td rowspan="3" style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width="70" /></a> &nbsp;&nbsp; </td>
+    <td colspan="2" style=" border: none;"> <strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
     <td style=" border: none;"> <strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a></strong> </td>
@@ -202,7 +202,7 @@ Support for Toolsheds with external auth enabled, pull request **[#155](https://
 
 1. Enhancements to handlers, display, and data input parsing. https://trello.com/c/5jk3k7Td
 
-<a href='/archive/dev-news-briefs/2013-06-03/'><img src="/images/news-graphics/2013_06_03_scatterplot-1.png" alt="scatterplot" width=500 /></a>
+<a href='/archive/dev-news-briefs/2013-06-03/'><img src="/images/news-graphics/2013_06_03_scatterplot-1.png" alt="scatterplot" width="500" /></a>
 
 <br />
 # Trackster
@@ -249,9 +249,9 @@ Support for Toolsheds with external auth enabled, pull request **[#155](https://
 1. Upgraded `SQLAlchemy`. https://trello.com/c[/Q6kBeBy](/archive/dev-news-briefs/2013-06-03/Q6kBeBy/)D
 1. Error Logging with `Sentry`. https://trello.com/c/Yc1LXXTR
 
-<a href='/archive/dev-news-briefs/2013-06-03/'><img src="/images/news-graphics/2013_06_03_sentry-1.png" alt="sentry-1" width=600 /></a>
+<a href='/archive/dev-news-briefs/2013-06-03/'><img src="/images/news-graphics/2013_06_03_sentry-1.png" alt="sentry-1" width="600" /></a>
 
-<a href='/archive/dev-news-briefs/2013-06-03/'><img src="/images/news-graphics/2013_06_03_sentry-2.png" alt="sentry-2" width=500 /></a>
+<a href='/archive/dev-news-briefs/2013-06-03/'><img src="/images/news-graphics/2013_06_03_sentry-2.png" alt="sentry-2" width="500" /></a>
 
 <br />
 # Pull Requests Merged

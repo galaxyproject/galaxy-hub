@@ -1,0 +1,138 @@
+---
+/**
+ * NewsTable — table layout for bare news pages.
+ * Columns: Date | Title | Tease
+ */
+
+interface NewsEntry {
+  id: string;
+  data: {
+    title?: string | null;
+    slug?: string;
+    date?: Date | string | null;
+    tease?: string | null;
+    external_url?: string | null;
+  };
+}
+
+interface Props {
+  articles: NewsEntry[];
+}
+
+const { articles } = Astro.props;
+
+function formatDate(date: Date | string | undefined | null): string {
+  if (!date) return '';
+  const d = typeof date === 'string' ? new Date(date) : date;
+  return d.toLocaleDateString('en-GB', { year: 'numeric', month: 'long', day: 'numeric' });
+}
+
+function articleSlug(article: NewsEntry): string {
+  return (article.data.slug || article.id)
+    .replace(/\.mdx?$/, '')
+    .replace(/--/g, '/')
+    .replace(/^news\//, '');
+}
+
+const EXTERNAL_LINK_SVG = `<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block;vertical-align:middle;margin-left:4px;"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>`;
+---
+
+<table class="news-table">
+  <thead>
+    <tr>
+      <th class="col-date">Date</th>
+      <th class="col-title">Title</th>
+      <th class="col-tease">Tease</th>
+    </tr>
+  </thead>
+  <tbody>
+    {
+      articles.map((article) => {
+        const slug = articleSlug(article);
+        return (
+          <tr>
+            <td class="col-date">{formatDate(article.data.date)}</td>
+            <td class="col-title">
+              {article.data.external_url ? (
+                <span class="title-row">
+                  <a href={article.data.external_url} target="_blank" rel="noopener">
+                    {article.data.title}
+                  </a>
+                  <Fragment set:html={EXTERNAL_LINK_SVG} />
+                </span>
+              ) : (
+                <a href={`/news/${slug}/`}>{article.data.title}</a>
+              )}
+            </td>
+            <td class="col-tease">{article.data.tease}</td>
+          </tr>
+        );
+      })
+    }
+  </tbody>
+</table>
+
+<style>
+  body table.news-table {
+    border: 1px solid #bdc6d0;
+  }
+  .news-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9em;
+    table-layout: fixed;
+    border: 1px solid #bdc6d0;
+  }
+
+  .news-table th {
+    text-align: left;
+    border-bottom: 2px solid #25537b;
+    padding: 0.5rem 0.75rem;
+    color: #2c3143;
+    font-weight: 600;
+    white-space: nowrap;
+    background-color: #fff;
+  }
+
+  .news-table td {
+    padding: 0.7rem 1rem;
+    border: 1px solid #bdc6d0;
+    vertical-align: top;
+  }
+
+  table.news-table tbody tr:hover {
+    background: #eef0f2 !important;
+  }
+
+  .col-date {
+    white-space: nowrap;
+    color: #555;
+    width: 20%;
+  }
+
+  .col-title {
+    width: 30%;
+  }
+  .col-title a {
+    color: #25537b;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .col-title a:hover {
+    text-decoration: underline;
+  }
+
+  .title-row {
+    display: inline;
+  }
+
+  .col-tease {
+    color: #555;
+    font-size: 0.95em;
+    width: 50%;
+  }
+  table.news-table tbody tr:nth-child(odd) {
+    background: #f8f9fa;
+  }
+</style>

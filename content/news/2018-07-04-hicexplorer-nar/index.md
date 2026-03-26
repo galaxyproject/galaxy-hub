@@ -3,11 +3,12 @@ title: 'Galaxy HiCExplorer: a web server for reproducible Hi-C data analysis, qu
   control and visualization'
 date: '2018-07-04'
 tags: [paper]
-supporters:
-- denbi
-- elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 HiCExplorer - a tool suite for reproducible Hi-C data analysis, quality control and visualization

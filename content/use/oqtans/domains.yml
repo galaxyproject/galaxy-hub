@@ -1,0 +1,27 @@
+domains:
+    - platform_url: http://galaxy.inf.ethz.ch
+      ip: 129.132.14.196
+      version: IPv4
+      asn: AS559 SWITCH
+      org: Swiss Federal Institute of Technology Zurich
+      release:
+          version_major: "17.09"
+          version_minor: null
+      location:
+          city: Zurich
+          region: Zurich
+          region_code: ZH
+          country: CH
+          country_name: Switzerland
+          country_code: CH
+          continent_code: EU
+          postal: "8092"
+          latitude: 47.3826
+          longitude: 8.5351
+          timezone: Europe/Zurich
+          currency: CHF
+      response:
+          time: "2025-11-25T19:46:28Z"
+          status_code: 200
+          response_time_ms: 0
+          reason: OK

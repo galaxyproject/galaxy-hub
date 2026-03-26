@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 30 157 157">
+  <rect x="20" y="30" width="157" height="157" rx="20" fill="#2c3143"/>
+  <!-- Galaxy logo bars (symbol only) -->
+  <path fill="#ffffff" d="M124.8,82.2H41.9C40.8,82.2 40,81.3 40,80.3V58.7c0-1.1 0.9-1.9 1.9-1.9h82.9c1.1,0 1.9,0.9 1.9,1.9V80c0,1.1-0.7,2.2-1.9,2.2z"/>
+  <path fill="#ffffff" d="M102.6,115.5H42.1C41,115.5 40,114.6 40,113.4V92.2c0-1.1 0.9-2.1 2.1-2.1h60.5c1.1,0 2.1,0.9 2.1,2.1v21.2c0,1.2-0.9,2.1-2.1,2.1z"/>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0.17" stop-color="#d0bd2b"/>
+      <stop offset="1" stop-color="#d0bd2b" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#g)" d="M154.6,148.3H71.7c-1.1,0-2.1-0.9-2.1-2.1V125c0-1.1 0.9-2.1 2.1-2.1h82.7c1.1,0 2.1,0.9 2.1,2.1v21.2c0,1.2-0.9,2.1-1.9,2.1z"/>
+</svg>

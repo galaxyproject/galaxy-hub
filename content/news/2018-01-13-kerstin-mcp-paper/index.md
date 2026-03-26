@@ -3,10 +3,11 @@ title: New Paper "Combinatorial omics analysis reveals perturbed lysosomal homeo
   in collagen VII-deficient keratinocytes"
 date: '2018-01-13'
 tags: [paper]
-supporters:
-- denbi
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
 ---
 
 ["Combinatorial omics analysis reveals perturbed lysosomal homeostasis in collagen VII-deficient keratinocytes"](http://www.mcponline.org/content/early/2018/01/11/mcp.RA117.000437)

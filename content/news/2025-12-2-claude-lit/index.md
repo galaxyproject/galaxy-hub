@@ -1,11 +1,12 @@
 ---
 title: "Using Claude AI for  Literature Searches"
-authors: "Anton Nekrutenko"
-tags: [AI, literature, research, tools]
-layout: news
+tags: [ai, literature, research, tools]
 date: "2025-12-02"
 tease: "LLMs for literature search produce 'interesting' results: It is almost useful"
 subsites: [all, global]
+contributions:
+  authorship:
+    - nekrut
 ---
 
 # Using Claude AI for  Literature Searches

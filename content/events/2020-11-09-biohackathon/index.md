@@ -4,10 +4,12 @@ date: '2020-11-09'
 end: '2020-11-13'
 location:
   name: online
-supporters:
-- elixir
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  funding:
+    - elixir-europe
+
 ---
 
  A new opportunity to engage with the community comes! 

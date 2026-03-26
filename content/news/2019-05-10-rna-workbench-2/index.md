@@ -3,11 +3,12 @@ title: 'New Paper "The RNA workbench 2.0: next generation RNA data analysis"'
 date: '2019-05-10'
 tags: [paper]
 doi: 10.1093/nar/gkz353
-supporters:
-- denbi
-- elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 A new significant update of our RNA workbench was released! You can access the new tools, workflows, tours and tutorials at [http://rna.usegalaxy.eu/](http://rna.usegalaxy.eu/).

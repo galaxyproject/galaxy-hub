@@ -3,11 +3,12 @@ title: Accessible and reproducible mass spectrometry imaging data analysis in Ga
 date: '2020-02-06'
 tags: [paper]
 doi: 10.1093/gigascience/giz143
-supporters:
-- denbi
-- elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 Congratulation to our friend and colleague Melanie Föll from the University of Freiburg

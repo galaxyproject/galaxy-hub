@@ -1,16 +1,16 @@
 ---
 title: UseGalaxy.eu updated to 21.09
 date: '2021-11-25'
-tags: [galaxy, release]
-supporters:
-- denbi
-- elixir
+tags: [release]
 external_url: https://docs.galaxyproject.org/en/release_21.09/releases/21.09_announce_user.html
-authors: gmauro
-authors_structured:
-- github: gmauro
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - gmauro
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 UseGalaxy.eu has been updated to version 21.09. 

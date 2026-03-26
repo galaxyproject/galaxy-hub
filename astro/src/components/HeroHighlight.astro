@@ -1,0 +1,109 @@
+---
+import { normalizeSlug } from '../build/slug-utils.mjs';
+import HeroCarousel from './HeroCarousel.vue';
+
+// Edit these to change the homepage hero highlights.
+// Each entry needs { rawImage, link, alt }.
+// Set image to "" on an entry (or remove it) to skip that highlight.
+// If all images are empty, the Galaxy logo will be shown instead.
+// With multiple entries, they rotate as a carousel.
+const highlights = [
+  {
+    rawImage: '/images/gta2026-registration-banner-9x13.png',
+    link: 'https://training.galaxyproject.org/training-material/events/2026-05-18-galaxy-academy.html',
+    alt: 'Galaxy Training Academy 2026',
+  },
+  {
+    rawImage: '/images/events/gcc2026/gcc2026-carousel.png',
+    link: '/events/gcc2026/',
+    alt: 'Galaxy Community Conference 2026',
+  },
+];
+
+// Normalize directory segments to match preprocessing output.
+function normalizeImagePath(src: string) {
+  if (!src) return src;
+  const lastSlash = src.lastIndexOf('/');
+  if (lastSlash < 0) return src;
+  const dir = src.slice(0, lastSlash);
+  const file = src.slice(lastSlash);
+  return normalizeSlug(dir) + file;
+}
+
+const items = highlights
+  .map(({ rawImage, link, alt }) => ({ image: normalizeImagePath(rawImage), link, alt }))
+  .filter(({ image }) => image);
+---
+
+{
+  items.length > 0 ? (
+    <div class="hero-highlight-container">
+      <img src="/images/galaxy_logo_white.svg" alt="Galaxy" class="hero-logo" />
+      <HeroCarousel client:load items={items} class="hero-carousel-wrapper" />
+    </div>
+  ) : (
+    <img src="/images/galaxy_logo_white.svg" alt="Galaxy" class="hero-logo" />
+  )
+}
+
+<style is:global>
+  .hero-highlight-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .hero-logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 360px;
+    max-width: 100%;
+    height: auto;
+    filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.3));
+    animation: hero-fade-out 0.6s ease 1s forwards;
+  }
+
+  .hero-carousel-wrapper {
+    opacity: 0;
+    animation: hero-fade-in 0.6s ease 1s forwards;
+  }
+
+  @keyframes hero-fade-out {
+    to {
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+
+  @keyframes hero-fade-in {
+    to {
+      opacity: 1;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .hero-logo {
+      animation: none;
+      opacity: 0 !important;
+    }
+
+    .hero-carousel-wrapper {
+      opacity: 1 !important;
+      animation: none;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .hero-carousel-wrapper {
+      width: 360px;
+    }
+
+    .hero-logo {
+      width: 240px;
+    }
+  }
+</style>

@@ -2,8 +2,13 @@
 date: '2017-10-10'
 title: "SciPy and scikit-learn integration into Galaxy"
 tease: ""
-authors: "Björn Grüning"
 image: /news/2017-10-10-scipy-galaxy/sci-py-kit-learn.png
+tags: [tools]
+contributions:
+  authorship:
+    - bgruening
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2017-10-10-scipy-galaxy/"
 ---
 
 [Numpy](http://www.numpy.org), [SciPy](https://www.scipy.org), [scikit-learn](http://scikit-learn.org),

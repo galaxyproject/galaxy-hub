@@ -12,6 +12,10 @@ gtn: false
 contact: Dayane Araújo, Wendi Bacon
 tags: [training]
 subsites: [all-eu, global, us]
+contributions:
+  organisers:
+    - nomadscientist
+
 ---
 
 This course utilises Galaxy pipelines, an online open-access resource that allows even the most computer-phobic bench scientists to analyse their biological data. Participants will be guided through the droplet-based scRNA-seq analysis pipelines from raw reads to trajectories. __Applications close 31 December 2021.__

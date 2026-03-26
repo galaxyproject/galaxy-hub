@@ -2,22 +2,19 @@
 title: 'Galaxy-ELIXIR Webinar 2: Genomics/Variant Calling'
 date: '2020-05-07'
 end: '2020-05-07'
-tags: [training, COVID-19]
+tags: [training, covid-19]
 contacts:
 - name: Galaxy and ELIXIR
 location:
   name: online
-supporters:
-- galaxy
-- elixir
-- denbi
-- galaxy-europe
-- galaxy-freiburg
-- backofenlab
-- biodaten
 hidefooter: true
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  funding:
+    - biodaten
+    - deNBI
+    - elixir-europe
 ---
 
 **Galaxy-ELIXIR Webinar Series: FAIR data and Open Infrastructures to tackle the COVID-19 pandemic**
@@ -30,7 +27,7 @@ The Galaxy Community and ELIXIR organise a webinar series to demonstrate how ope
 
 The second session will present the [initial analysis of the SARS-CoV-2 genome, published on bioRxiv](https://doi.org/10.1101/2020.02.21.959973). It will guide the participants through accessing and collecting the available datasets, the genome assembly and the analysis of the  within-sample sequence variants. It will also explain how to deploy on a Galaxy instance all the tools and workflows needed to reproduce the analysis.
 
-[Programme Information and Registration](https://elixir-europe.org/events/webinar-galaxy-elixir-covid19){:target="_blank"}
+<a href="https://elixir-europe.org/events/webinar-galaxy-elixir-covid19" target="_blank">Programme Information and Registration</a>
 
 ### Speakers
 

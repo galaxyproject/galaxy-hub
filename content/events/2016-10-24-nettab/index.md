@@ -11,11 +11,13 @@ location:
 contacts:
 - email: null
   name: NETTAB
-supporters:
-- elixir
 tags: [training, talk]
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - elixir-europe
+
 ---
 
 We will give a talk and contribute to a hackathon within the Combined CHARME – EMBnet and NETTAB 2016 Workshop in Rome.

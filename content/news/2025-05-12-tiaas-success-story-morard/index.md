@@ -2,11 +2,20 @@
 title: "Empowering Genomics Education with Galaxy TIaaS"
 tease: "TIaaS and Galaxy are transforming how we teach genomics—making hands-on bioinformatics accessible to every student, no coding required."
 date: "2025-05-12"
-tags: [tiaas, esg-wp1, esg, gtn]
-supporters: [eosc, unifreiburg, denbi, elixir, eurosciencegateway]
+tags: [tiaas, esg-wp1, esg, gtn, outreach]
 subsites: [eu, esg]
 main_subsite: eu
-authors: Miguel Morard (IATA-CSIC, Valencia, Spain)
+contributions:
+  authorship:
+    - miguelmorard
+  funding:
+    - eu
+    - eosc-life
+    - uni-freiburg
+    - deNBI
+    - mwk
+    - elixir-europe
+    - eurosciencegateway
 ---
 As part of the [Master's program in R&D in Biotechnology and Biomedicine at the University of
 Valencia (Spain)](https://www.uv.es/uvweb/college/en/postgraduate-courses/official-master-s-degrees/official-master-s-degrees-offered/master-s-degree-research-development-biotechnology-biomedicine-1285848941532/Titulacio.html?id=1285956361839), I ([Miguel Morard](https://scholar.google.es/citations?user=_j3v1hMAAAAJ&hl=en)) teach a practical course on [Bioinformatic techniques](https://www.uv.es/uvweb/undergraduate-degree-human-nutrition-dietetics/en/after-degree/official-master-s-degree/uv-master-s-degrees-catalogue-1285933577299.html?idA=44696&idT=2224;2025), with a strong focus on

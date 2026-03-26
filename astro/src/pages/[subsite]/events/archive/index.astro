@@ -1,0 +1,57 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import EventsList from '../../../../components/events/EventsList.vue';
+import { subsites } from '../../../../stores/subsiteStore';
+
+export function getStaticPaths() {
+  return subsites
+    .filter((s) => s.id !== 'global' && !('external' in s))
+    .map((subsite) => ({
+      params: { subsite: subsite.id },
+      props: { subsiteName: subsite.name, subsiteId: subsite.id },
+    }));
+}
+
+const { subsiteName, subsiteId } = Astro.props;
+
+const events = await getCollection('events');
+
+const eventData = events.map((e) => ({
+  slug: e.data.slug,
+  title: e.data.title || 'Untitled Event',
+  date: e.data.date instanceof Date ? e.data.date.toISOString() : e.data.date,
+  end: e.data.end instanceof Date ? e.data.end?.toISOString() : e.data.end,
+  tease: e.data.tease,
+  location: e.data.location,
+  subsites: e.data.subsites,
+  externalUrl: e.data.external_url,
+}));
+---
+
+<BaseLayout
+  title={`${subsiteName} Events Archive`}
+  description={`Past events for the ${subsiteName} Galaxy community.`}
+>
+  <div class="max-w-6xl mx-auto bg-white">
+    <header class="px-6 sm:px-8 pt-6 pb-6 border-b-4 border-b-galaxy-gold">
+      <h1 class="text-3xl sm:text-4xl font-bold text-galaxy-dark mb-2">{subsiteName} Events Archive</h1>
+      <p class="text-lg text-gray-600">
+        Past events for the {subsiteName} Galaxy community.
+        <a class="text-sm text-galaxy-primary hover:underline ml-2" href={`/${subsiteId}/events/`}>
+          View upcoming events
+        </a>
+      </p>
+    </header>
+
+    <div class="px-6 sm:px-8 py-6">
+      <EventsList
+        client:load
+        events={eventData}
+        initialSubsite={subsiteId}
+        showUpcoming={false}
+        defaultToAllYears={true}
+      />
+    </div>
+  </div>
+</BaseLayout>

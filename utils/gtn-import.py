@@ -1,6 +1,8 @@
 import html
+import json
 import logging
 import os
+import re
 import sys
 from datetime import datetime
 
@@ -13,22 +15,48 @@ from github import Github, GithubException
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
+
+_SLUG_OVERRIDES_PATH = os.path.join(
+    os.path.dirname(__file__), "..", "astro", "src", "build", "slug-overrides.json"
+)
+with open(_SLUG_OVERRIDES_PATH) as f:
+    _SLUG_OVERRIDES = json.load(f)
+
+
+def normalize_slug_segment(segment):
+    """Mirror the normalizeSlugSegment rules from astro/src/build/slug-utils.mjs."""
+    s = re.sub(r"([a-z])([A-Z])", r"\1-\2", segment)
+    s = re.sub(r"([A-Z]+)([A-Z][a-z])", r"\1-\2", s)
+    s = s.replace("_", "-")
+    s = s.lower()
+    s = re.sub(r"-{2,}", "-", s)
+    for key, value in sorted(_SLUG_OVERRIDES.items(), key=lambda x: -len(x[0])):
+        s = s.replace(key, value)
+    s = re.sub(r"^-|-$", "", s)
+    return s
+
+
 feed = feedparser.parse(os.getenv("FEED_URL"))
 
 g = Github(os.getenv("GITHUB_TOKEN") or sys.exit("GITHUB_TOKEN not set"))
 repo = g.get_repo(os.getenv("REPO_NAME") or sys.exit("REPO_NAME not set"))
 default_branch = repo.default_branch
-existing_files = [
-    (pr.html_url, file.filename)
-    for pr in repo.get_pulls(state="open", base=default_branch)
-    for file in pr.get_files()
-]
 
 import_type = os.getenv("IMPORT_TYPE")
 if import_type not in {"news", "events"}:
     sys.exit("IMPORT_TYPE should be either news or events")
 
-branch_name = f"import-gtn-{import_type}-{datetime.now().strftime('%Y%m%d%H%M%S')}"
+branch_prefix = f"import-gtn-{import_type}-"
+
+query = f"repo:{repo.full_name} is:pr is:unmerged base:{default_branch} head:{branch_prefix}"
+existing_folders = set()
+for issue in g.search_issues(query):
+    for file in issue.as_pull_request().get_files():
+        parts = file.filename.split("/")
+        if len(parts) >= 3:
+            existing_folders.add(parts[2])
+
+branch_name = f"{branch_prefix}{datetime.now().strftime('%Y%m%d%H%M%S')}"
 repo.create_git_ref(
     ref=f"refs/heads/{branch_name}", sha=repo.get_branch(default_branch).commit.sha
 )
@@ -58,16 +86,11 @@ for entry in feed.get("entries", []):
     summary = html.unescape(entry.get("summary", ""))
 
     id = entry.get("id", "")
-    slug = os.path.splitext(os.path.basename(id.rstrip("/")))[0]
+    slug = normalize_slug_segment(os.path.splitext(os.path.basename(id.rstrip("/")))[0])
     folder = f"{date_ymd}-{slug}" if import_type == "news" else f"{slug}"
 
-    pr_exists = False
-    for pr_url, file_path in existing_files:
-        if folder in file_path:
-            logging.info(f"PR already exists for {folder}: {pr_url}")
-            pr_exists = True
-            break
-    if pr_exists:
+    if folder in existing_folders:
+        logging.info(f"Skipping {folder}: already proposed in an existing PR")
         continue
 
     folder_path = os.path.join("content", import_type, folder)

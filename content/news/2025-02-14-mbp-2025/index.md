@@ -1,18 +1,22 @@
 ---
 title: "Molecular Biology of Plants conference (MBP 2025)"
 date: "2025-02-14"
-authors: Deepti Varshney
 tease: "Talk entitled DataPLANT, MAdLand, and Galaxy: Tools and Resources for Plant Research"
 hide_tease: false
-supporters:
-  - eurosciencegateway
-  - unifreiburg
-  - denbi
-  - dataplant
-  - galaxy-europe
-  - madland
 subsites: [global, freiburg, eu, esg]
-tags: [esg,madland,de.nbi,nfdi4plants,dataplant]
+tags: [esg,madland,nfdi]
+contributions:
+  authorship:
+    - deeptivarshney
+  funding:
+    - eu
+    - eurosciencegateway
+    - uni-freiburg
+    - deNBI
+    - mwk
+    - nfdi4plants
+    - elixir-europe
+    - madland
 ---
 #### MBP2025 - Molecular Biology of Plants 2025
 

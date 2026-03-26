@@ -11,12 +11,13 @@ location:
 contacts:
 - email: null
   name: null
-supporters:
-- denbi
-- ViCE
 tags: [training]
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+
 ---
 
 On Monday 04.12.2017 the Rechenzentrum of the University of Freiburg is hosting an introductory workshop on creation, usage, maintenance and sharing of Virtual Research Environments (VRE). The focus is on Neuroscience-related software (e.g. NEST, Neuron, Tensorflow, Python) but the methods and examples presented can be applied to other scientific fields as well.

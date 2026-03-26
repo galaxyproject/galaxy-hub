@@ -3,13 +3,15 @@ title: "The Galaxy Europe team at the ELIXIR All Hands Meeting 2024"
 date: "2024-06-10"
 tease: "The Galaxy Europe team has participated in the ELIXIR All Hands meeting 2024 in Uppsala, Sweden."
 hide_tease: false
-supporters:
-  - eurosciencegateway
-  - unifreiburg
-  - elixir
 subsites: [global, freiburg, eu, esg]
-tags: [esg,elixir,esg-wp1,esg-wp3, esg-wp4,esg-wp2, esg-wp5]
+tags: [esg,elixir,esg-wp1,esg-wp3, esg-wp4,esg-wp2, esg-wp5, collaboration, talk, meeting, outreach]
 main_subsite: eu
+contributions:
+  funding:
+    - eu
+    - eurosciencegateway
+    - uni-freiburg
+    - elixir-europe
 ---
 The [10th ELIXIR All Hands meeting](https://elixir-events.eventscase.com/EN/ahm2024) was held in Uppsala, Sweden, from June 10 to 12, 2024. The Galaxy Europe team attended this meeting,
 which aimed to bring together members of the ELIXIR community from across the ELIXIR Nodes, as well as collaborators from partner organisations, to review ELIXIR's achievements and activities and discuss future plans.

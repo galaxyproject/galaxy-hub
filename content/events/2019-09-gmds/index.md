@@ -12,4 +12,11 @@ gtn: true
 contact: "Markus Wolfien"
 image: 
 subsites: [global, us]
+tags: [training, bioinformatics, community]
+contributions:
+  organisers:
+    - mwolfien
+  funding:
+    - deNBI
+
 ---

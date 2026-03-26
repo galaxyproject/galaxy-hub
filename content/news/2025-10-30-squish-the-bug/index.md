@@ -1,6 +1,5 @@
 ---
 title: 'Squish the bug!'
-authors: Anton Nekrutenko 
 subsites: [eu,all,global]
 main_subsite: global
 date: '2025-10-30'
@@ -11,6 +10,9 @@ tags:
 - sra
 - upload
 autotoc: false
+contributions:
+  authorship:
+    - nekrut
 ---
 
 ![](squish-it.png)

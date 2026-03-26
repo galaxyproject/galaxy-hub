@@ -3,12 +3,12 @@ title: "Interactive tool collection is growing"
 date: "2023-09-15"
 tease: "New and improved interactive tools are available"
 hide_tease: false
-authors: 'Tunc Kayikcioglu'
-authors_structured:
-- github: tuncK
-tags: [EU]
+tags: [tools]
 subsites: [all-eu]
 main_subsite: eu
+contributions:
+  authorship:
+    - tuncK
 ---
 
 

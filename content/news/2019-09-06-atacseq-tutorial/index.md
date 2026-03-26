@@ -2,15 +2,14 @@
 title: First ATACseq training material!
 date: '2019-09-06'
 tags: [training]
-supporters:
-- galaxy-europe
-- elixir
-- denbi
-authors: erxleben
-authors_structured:
-- github: erxleben
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - erxleben
+  funding:
+    - elixir-europe
+    - deNBI
 ---
 
 Many people are waiting for it! We are proud to present the first Galaxy training material on [ATACseq](https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/atac-seq/tutorial.html) data analysis. 

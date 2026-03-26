@@ -7,7 +7,6 @@ days: 3
 tags:
 - new event-external
 title: AnVIL Community Conference 2025
-contact: ''
 location:
   name: Nashville, TN, USA
 continent: NA

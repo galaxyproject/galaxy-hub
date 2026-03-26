@@ -2,14 +2,14 @@
 title: ELIXIR tools platform meeting and Container SIS meeting in Paris
 date: '2020-01-30'
 tags: [report]
-supporters:
-- denbi
-- elixir
-authors: bgruening
-authors_structured:
-- github: bgruening
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - bgruening
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 This week we joined the [ELIXIR tools platform](https://elixir-europe.org/platforms/tools) meeting in Paris.

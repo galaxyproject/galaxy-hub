@@ -4,8 +4,10 @@ date: "2023-01-24"
 tease: "Galaxy has gained a Beacon integration that enables users to publish genetic variance data conveniently via Beacon project"
 tags: [collaboration, usecase, esg, esg-wp3]
 subsites: [global,all,esg]
-supporters:
-  - eurosciencegateway
+contributions:
+  funding:
+    - eu
+    - eurosciencegateway
 ---
 
 Science is most efficient when researchers share their data and results, so others can re-use them. Some datasets, however, cannot easily be shared

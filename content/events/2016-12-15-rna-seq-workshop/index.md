@@ -11,10 +11,12 @@ location:
   postal: 79110
   region: Baden-Württemberg
   street: Georges-Köhler-Allee
-supporters:
-- denbi
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+
 ---
 
 Registration is open! Apply [here](https://bit.ly/2eznnwD)

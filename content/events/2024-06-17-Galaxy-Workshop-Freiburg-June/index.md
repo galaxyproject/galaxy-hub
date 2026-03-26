@@ -9,11 +9,16 @@ location:
 gtn: true
 contact: "Anika Erxleben-Eggenhofer"
 tags: [workshop, training, esg, esg-wp1]
-supporters:
-- dataplant
-- eurosciencegateway
-- denbi
 subsites: [all, esg, all-eu]
+contributions:
+  organisers:
+    - erxleben
+  funding:
+    - eu
+    - deNBI
+    - mwk
+    - eurosciencegateway
+    - nfdi4plants
 ---
 
 # General information

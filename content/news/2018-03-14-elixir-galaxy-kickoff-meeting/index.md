@@ -3,12 +3,12 @@ title: ELIXIR Galaxy community kick-off meeting
 date: '2018-03-14'
 location:
   name: Freiburg, Germany
-supporters:
-- denbi
-- elixir
-- ViCE
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 The [ELIXIR Galaxy community](https://www.elixir-europe.org/about/groups/galaxy-wg) kick-off meeting was held here in Freiburg.

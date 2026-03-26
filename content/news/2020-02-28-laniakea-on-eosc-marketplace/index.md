@@ -1,13 +1,13 @@
 ---
 title: Laniakea@ReCaS becomes an EOSC Provider
 date: '2020-02-28'
-tags: [galaxy, laniakea]
+tags: [laniakea]
 external_url: https://marketplace.eosc-portal.eu/services/laniakea-recas
-authors: mtangaro
-authors_structured:
-- github: mtangaro
 subsites: [eu, elixir-it]
 main_subsite: elixir-it
+contributions:
+  authorship:
+    - mtangaro
 ---
 
 [Laniakea@ReCaS](https://laniakea-elixir-it.github.io/) is now a European Open Science Cloud provider, thus opening the service to all EOSC users.

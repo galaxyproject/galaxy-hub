@@ -1,10 +1,23 @@
 ---
 title: "How to improve the annotation of Galaxy resources? Outcomes of an online hackathon for improving the annotation of Galaxy resources for microbial data resources"
 date: "2024-04-30"
-authors:  Bérénice Batut, Matthias Bernt, Mina Hojat Ansari, Matúš Kalaš, Paul Klemm, Romane Libouban, Engy Nasr, Claire Rioualen, Wai Cheng Thang, Rand Zoabi, Paul Zierep 
 tease: "Find out how we improved the annotation of Galaxy tools and training material for microbiological data analysis!"
 hide_tease: false
 subsites: [all-eu, global]
+contributions:
+  authorship:
+    - bebatut
+    - bernt-matthias
+    - minamehr
+    - matuskalas
+    - paulklemm
+    - rlibouba
+    - EngyNasr
+    - clairerioualen
+    - waichengthang
+    - RZ9082
+    - paulzierep
+    - intergalacticutilitiescommissioniuc
 ---
 
 Galaxy offers almost 10,000 different tools. To solve the visibility of tools across this ecosystem, a pipeline ([Galaxy Tool Metadata Extractor](https://github.com/galaxyproject/galaxy_tool_metadata_extractor)) was developed at the [ELIXIR BioHackathon Europe 2023](https://2023.biohackathon-europe.org) that collects Galaxy wrappers from a list of GitHub repositories and automatically extracts their metadata (including Conda version, bio.tools identifier, BIII identifier, and EDAM ontology, tool availability on public servers, usage statistics on the [Europen Galaxy Server](https://usegalaxy.eu)). The pipeline can filter its inputs to only include tools that are relevant to a specific research community. 
@@ -15,7 +28,7 @@ While developing this pipeline, we realized many tools miss proper annotations. 
 
 In addition to the tools, the microGalaxy community offers also other resources (30+ tutorials, 30+ workflows) that are also not properly annotated using ontologies like EDAM. Annotating all mentioned resources would improve their findability but also allow for aggregation and display of resources covering similar topics. 
 
-To facilitate this work and work on a proof-of-concept for other communities, the microGalaxy community organized an [online hackathon in March 2024](/events/2024-03-11-hackathon-galaxy-resources-annotation/) to improve the annotation of Galaxy resources and expand Galaxy Tool Metadata Extractor to other resources like tutorials and workflows. This blogpost and the [associated preprint](https://osf.io/preprints/biohackrxiv/s7tru) hightlight the outcomes for this hackathon.
+To facilitate this work and work on a proof-of-concept for other communities, the microGalaxy community organized an [online hackathon in March 2024](/events/2024-03-11-hackathon-galaxy-resources-annotation/) to improve the annotation of Galaxy resources and expand Galaxy Tool Metadata Extractor to other resources like tutorials and workflows. This blogpost and the [associated preprint](https://osf.io/preprints/biohackrxiv/s7tru) highlight the outcomes for this hackathon.
 
 # Methods
 

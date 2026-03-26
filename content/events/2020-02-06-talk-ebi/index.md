@@ -13,12 +13,14 @@ contacts:
 - email: null
   name: ELIXIR
 tags: [talk]
-supporters:
-- elixir
-- denbi
-- biodaten
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - biodaten
+    - deNBI
+    - elixir-europe
+
 ---
 
 Björn will present the ELIXIR Tools Platform and Galaxy Community at the [ELIXIR Open Day](https://elixir-europe.org/events/elixir-open-day) in the European Bioinformatics Institute in Hinxton (Cambridge).

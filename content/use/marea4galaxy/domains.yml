@@ -1,0 +1,24 @@
+domains:
+    - platform_url: http://bimib.disco.unimib.it:5555/
+      ip: 149.132.176.53
+      version: IPv4
+      asn: AS137 Consortium GARR
+      org: Universita' degli Studi di Milano-Bicocca
+      location:
+          city: Milan
+          region: Lombardy
+          region_code: "25"
+          country: IT
+          country_name: Italy
+          country_code: IT
+          continent_code: EU
+          postal: "20162"
+          latitude: 45.4722
+          longitude: 9.1922
+          timezone: Europe/Rome
+          currency: EUR
+      response:
+          time: "2025-11-25T19:45:23Z"
+          status_code: 200
+          response_time_ms: 0
+          reason: OK

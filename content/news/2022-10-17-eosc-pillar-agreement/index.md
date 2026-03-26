@@ -3,8 +3,9 @@ title: 'Galaxy as a cross-EOSC platform'
 tease: New scientific collaboration agreement between EOSC-Life and EOSC-Pillar
 date: '2022-10-17'
 subsites: [global, all-eu]
-authors: Beatriz Serrano-Solano
-author_github: beatrizserrano
+contributions:
+  authorship:
+    - beatrizserrano
 ---
 
 <div class="float-right">

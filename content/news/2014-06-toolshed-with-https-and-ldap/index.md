@@ -2,10 +2,12 @@
 date: '2014-06-10'
 title: "Setting up a secure tool shed with remote authentication"
 tease: "Requires some tweaks in order to allow Galaxy to communicate with the Tool Shed"
-authors: "William Holtz"
 external_url: 
 source_blog_url: 
-source_blog: 
+source_blog:
+contributions:
+  authorship:
+    - williamholtz
 ---
 
 Setting up a local tool shed to use https and remote authentication, such as LDAP, requires some additional steps beyond what is necessary to setup Galaxy with https and LDAP. Setting up Galaxy with https and LDAP is relatively well documented and can readily be applied to a tool shed configuration. Therefore this will focus on the additional changes that are specific to tool sheds.

@@ -18,14 +18,12 @@ location:
   postal: 0349
   region: Oslo
   street: Gaustadalléen 21
-supporters:
-- Copernicus Climate Services
-- Galaxy
 hidefooter: true
 continent: EU
 gtn: false
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+
 ---
 
 
@@ -38,7 +36,7 @@ The blended training event focuses on helping the participants to develop a clim
 
 ## Venue
 
-{% include map.html location=page.location showmap=true zoomlevel=15 hidepopup=true %}
+{% include map.html location=page.location showmap=true zoomlevel="15" hidepopup=true %}
 
 
 # Important notes

@@ -18,7 +18,7 @@ comments:
 user_support:
   - "[Installation and usage instructions, and a comprehensive tool list](https://github.com/bgruening/galaxy-rna-workbench)."
   - "[Video: Installing RNA Workbench with Kitematic](https://www.youtube.com/watch?v=fYer4Xdw_h4)"
-  - "[UseGalaxy.eu Gitter Support Channel](https://gitter.im/usegalaxy-eu/Lobby)"
+  - "[UseGalaxy.eu Matrix Support Channel](https://matrix.to/#/#usegalaxy-eu_Lobby:gitter.im)"
   - "[Galaxy Help Forum](https://help.galaxyproject.org/)"
 quotas:
   - "Docker Container: None"

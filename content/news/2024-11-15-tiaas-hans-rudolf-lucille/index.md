@@ -2,17 +2,17 @@
 title: 'Training Infrastructure Feedback from Hans-Rudolf Hotz and Lucille Delisle'
 date: "2024-11-15"
 tags: [training, tiaas]
-supporters:
-- galaxy-europe
 tease: 'We were super happy to stand in front of a group of highly motivated people to teach them galaxy and workflows.'
 hide_tease: true
-authors: Hans-Rudolf Hotz and Lucille Delisle
-authors_structured:
-- name: Hans-Rudolf Hotz
-  github: hrhotz
-- name: Lucille Delisle
-  github: ldelisle
 subsites: [all-eu]
+contributions:
+  authorship:
+    - hrhotz
+    - lldelisle
+  funding:
+    - deNBI
+    - mwk
+    - elixir-europe
 ---
 
 For the second time, we were offering to the scientists of the EPFL Life Science faculty a training called "Learn how to analyze your sequencing data in few clicks".

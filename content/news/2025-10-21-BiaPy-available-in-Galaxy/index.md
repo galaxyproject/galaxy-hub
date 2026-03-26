@@ -1,14 +1,13 @@
 ---
 title: "New Galaxy Tool: BiaPy – Deep Learning for Bioimage Analysis in Galaxy"
-authors: "Daniel Franco Barranco" 
 contributions:
-    funding: []
-tags: [imaging, workflows, microscopy]
-layout: news
+  authorship:
+    - danifranco
+  funding:
+    - nfdi4bioimage
+tags: [imaging, workflow, microscopy]
 date: "2025-10-21"
 tease: "Perform advanced deep-learning-based workflows for image segmentation, classification, and reconstruction" 
-organizers:
-supporters:
 subsites: [all,global,esg,eu]
 ---
 

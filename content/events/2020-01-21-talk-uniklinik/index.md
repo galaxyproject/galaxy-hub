@@ -10,11 +10,13 @@ location:
   city: Freiburg im Breisgau
   country: Germany
   region: Baden-Württemberg
-supporters:
-- elixir
-- denbi
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+
 ---
 
 Introduction to Galaxy and RNAseq data analysis to researchers of the Uniklinik Freiburg. Anika will present Galaxy as a framework to allow researchers without any programming or informatics skills to perform their own data analysis.

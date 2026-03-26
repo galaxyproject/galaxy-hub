@@ -8,12 +8,13 @@ contacts:
   name: Freiburg Galaxy Team
 location:
   name: online
-supporters:
-- unifreiburg
-- denbi
 hidefooter: true
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  funding:
+    - deNBI
+
 ---
 
 **Machine Learning in Bioinformatics using Galaxy at 11th International Conference on Information, Intelligence, Systems and Applications**  

@@ -7,26 +7,26 @@ continent: EU
 location:
   name: "Galaxy-ELIXIR Advanced Features webinar series, Online, Europe"
   url: "https://elixir-europe.org/events/galaxy-elixir-webinars-series-advanced-features"
-image: 
+image:
 external_url: "https://galaxyproject.eu/event/2021-01-15-webinars-adv-features-session2/"
 contacts:
 - name: Wolfgang Maier
 - name: Anton Nekrutenko
-tags: [ webinar, training, COVID-19 ]
-supporters:
-- galaxy
-- elixir
-- denbi
-- bmbf
-- elixir-belgium
-- biodaten
+tags: [webinar, training, covid-19, talk]
 gtn: false
 links:
-  - text: "Register"
-    url: "https://us02web.zoom.us/webinar/register/WN_QiQJDKkSTlSyZLbHTJxaHA"
+- text: "Register"
+  url: "https://us02web.zoom.us/webinar/register/WN_QiQJDKkSTlSyZLbHTJxaHA"
 # special hiding of footer since we want to do it manually.
 hidefooter: true
 subsites: [global, us, all-eu]
+contributions:
+  funding:
+    - biodaten
+    - bmbf
+    - deNBI
+    - elixir-europe
+    - uni-freiburg
 ---
 
 Galaxy is supported by a large and active community distributed across the globe, which leads to rapid developments in every release. However, many of this features remain unknown by most of the users.
@@ -54,5 +54,5 @@ Processing thousands of datasets simultaneously: From SRA/ENA import and metadat
 
 * Hans-Rudolf Hotz
 
-[Registration](https://us02web.zoom.us/webinar/register/WN_QiQJDKkSTlSyZLbHTJxaHA){:target="_blank"}
+<a href="https://us02web.zoom.us/webinar/register/WN_QiQJDKkSTlSyZLbHTJxaHA" target="_blank">Registration</a>
 

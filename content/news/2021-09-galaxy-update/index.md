@@ -3,6 +3,7 @@ title: 'September 2021 Galactic News'
 tease: ""
 date: "2021-09-15"
 subsites: [global, us]
+tags: [newsletter]
 ---
 
 <a href="/galaxy-updates/"><img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
@@ -46,7 +47,7 @@ PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.
 </div>
 <div class="card-header trim-p">
 
-[Galaxy Use Cases](https://galaxyproject.eu/news?tag=UseCase)
+[Galaxy Use Cases](https://galaxyproject.eu/news?tag=usecase)
 
 </div>
 
@@ -229,7 +230,7 @@ Please join us for the [CoFest day](/events/2021-09-papercuts/) on September 16 
 
 This month the [Spanish GTN community](https://training.galaxyproject.org/archive/2021-06-01/news/2021/05/20/spanish_project_begins.html) will meet to work on the curated tutorials, at 6 pm CEST. Get in touch with [Wendi Bacon](https://training.galaxyproject.org/archive/2021-06-01/hall-of-fame/nomadscientist/) to participate.
 
-We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day long, please take advantage of both to communicate with your collaborators around the world.
+We will be on [Matrix](https://matrix.to/#/#galaxyproject_Lobby:gitter.im) for chat all day long, please take advantage of both to communicate with your collaborators around the world.
 
 </div>
 

@@ -2,8 +2,6 @@
 autotoc: false
 ---
 
-<slot name="/events/gcc2026/header" />
-
 # Code of Conduct
 
 <p class="lead">

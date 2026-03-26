@@ -8,10 +8,15 @@ continent: "EU"
 location:
   name: Online, Global
 gtn: false
-tags: [talks, uni-freiburg, esg, esg-wp1]
-supporters: [card, esg, unifreiburg]
+tags: [talk, uni-freiburg, esg, esg-wp1]
 subsites: [all,esg]
 autotoc: false
+contributions:
+  organisers:
+    - dianichj
+  funding:
+    - nfdi4bioimage
+
 ---
 Join [Diana Chiang Jurado](https://github.com/dianichj) from the [University of Freiburg](https://uni-freiburg.de/en/) for her session: [“Data Analysis for Everyone: Introducing the Galaxy Europe Platform”](https://paw-germany-2025.sessionize.com/session/961767)
 
@@ -19,9 +24,9 @@ Join [Diana Chiang Jurado](https://github.com/dianichj) from the [University of 
 
 **Time**: 14:00–16:00 CEST
 
-**Further details**: <https://uni-freiburg.de/gdape/card/learning-and-development/#paw>
+**Further details**: [https://uni-freiburg.de/gdape/card/learning-and-development/#paw](https://uni-freiburg.de/gdape/card/learning-and-development/#paw)
 
-**Register here**: <https://eveeno.com/registration-galaxy-webinar>
+**Register here**: [https://eveeno.com/registration-galaxy-webinar](https://eveeno.com/registration-galaxy-webinar)
 
 As part of [Postdoc Appreciation Week Germany](https://paw-germany.de/), this interactive webinar will walk you through:
 

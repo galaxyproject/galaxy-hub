@@ -14,12 +14,13 @@ location:
   postal: 79110
   region: Baden-Württemberg
   street: Georges-Köhler-Allee 101
-supporters:
-- eu
-- elixir
-- esg
 subsites: [all-eu, freiburg, esg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - elixir-europe
+    - eu
+
 ---
 
 Within the **European Galaxy Days**, the **EuroScienceGateway consortium of 18 partners** will get together in Freiburg, Germany, 

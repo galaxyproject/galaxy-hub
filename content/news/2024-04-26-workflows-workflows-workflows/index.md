@@ -2,10 +2,12 @@
 title: "Workflows Workflows Workflows!"
 tease: "Comments, Embeds, Cards... Many new exciting features have arrived in Galaxy Workflows. Let's have a look at what they are, do, and how you can use them to super-power your Workflow workflow"
 hide-tease: false
-authors: "Laila Los"
 date: "2024-04-26"
-tags: ["UI/UX", "highlight"]
+tags: ["ui-ux", "highlight", workflow, outreach]
 subsites: [global]
+contributions:
+  authorship:
+    - ElectronicBlueberry
 ---
 
 In the past few updates to Galaxy, many exciting changes and additions have arrived to workflows.

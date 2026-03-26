@@ -5,9 +5,11 @@ tease: "Matching short scientific texts to relevant analysis pipelines using AI"
 hide_tease: false
 tags: [esg-wp5, esg, tools, astrophysics]
 subsites: [all, esg]
-supporters:
-  - eurosciencegateway
 main_subsite: eu
+contributions:
+  funding:
+    - eu
+    - eurosciencegateway
 ---
 
 Astronomical bulletins such as [ATels](https://astronomerstelegram.org/) or [GCN Circulars](https://gcn.nasa.gov/circulars) often provide crucial early information about new discoveries - ranging from transient events to peculiar sources across the electromagnetic spectrum. Due to the fleeting nature of some of these phenomena, automating follow-up observations, using insights from past experience, with space-based telescopes is becoming increasingly valuable.

@@ -1,0 +1,36 @@
+---
+/**
+ * Bare EU News Page
+ * Shows EU-filtered news articles in a table layout
+ * Embedded in Galaxy EU interface
+ */
+import { getCollection } from 'astro:content';
+import BareArticleLayout from '../../../layouts/BareArticleLayout.astro';
+import NewsTable from '../../../components/bare/NewsTable.astro';
+import Insert from '../../../components/Insert.astro';
+
+const allNews = await getCollection('news');
+const newsArticles = allNews
+  .filter((article) => {
+    const subsites = article.data.subsites || [];
+    const isEU =
+      subsites.includes('eu') ||
+      subsites.includes('all') ||
+      subsites.includes('all-eu') ||
+      subsites.includes('global') ||
+      subsites.length === 0;
+    return isEU && !article.data.draft;
+  })
+  .sort((a, b) => {
+    const dateA = a.data.date ? new Date(a.data.date) : new Date(0);
+    const dateB = b.data.date ? new Date(b.data.date) : new Date(0);
+    return dateB.getTime() - dateA.getTime();
+  })
+  .slice(0, 50);
+---
+
+<BareArticleLayout title="Galaxy Europe News">
+  <Insert name="/eu/news/main" />
+
+  {newsArticles.length > 0 ? <NewsTable articles={newsArticles} /> : <p>No news articles found.</p>}
+</BareArticleLayout>

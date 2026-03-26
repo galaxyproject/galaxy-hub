@@ -12,6 +12,12 @@ gtn: true
 contact: "Simon Gladman, Gareth Price, Idris Sulaiman, Nuwan Goonasekara, Derek Benson"
 image: "eresearch-australasia-logo.png"
 subsites: [global, us]
+tags: [talk, covid-19, outreach]
+contributions:
+  organisers:
+    - GarethPrice-Aus
+    - slugger70
+
 ---
 
 ## Galaxy @ eResearch Australasia 2020

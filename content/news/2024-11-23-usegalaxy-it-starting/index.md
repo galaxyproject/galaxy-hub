@@ -2,16 +2,18 @@
 title: "Enhancing the Galaxy Italian Community: Italy's National Galaxy Server"
 tease: ""
 hide_tease: true
-authors: "MA Tangaro (CNR), P Khmelevskaia (UniMi), F Zambelli (CNR and UniMi)"
-authors_structured:
-- github: mtangaro
-- github: Federico77z
 date: "2024-11-23"
-tags: [esg, esg-wp3]
+tags: [esg, esg-wp3, collaboration, eosc, community]
 subsites: [all-eu, esg, global]
-supporters:
-  - eurosciencegateway
 main_subsite: eu
+contributions:
+  authorship:
+    - mtangaro
+    - polinakhmelevskaia
+    - Federico77z
+  funding:
+    - eu
+    - eurosciencegateway
 ---
 
 The Italian National Galaxy Server, UseGalaxy.it, is under development as part of the EOSC [**EuroScienceGateway**](/projects/esg/) (ESG)

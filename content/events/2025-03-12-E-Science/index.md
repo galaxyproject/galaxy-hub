@@ -9,8 +9,12 @@ location:
   url: https://e-science-tage.de/en/startseite
 contact: Daniela Schneider
 gtn: false
-tags: [conference, workshop]
+tags: [conference, workshop, rdm, humanities, community, poster]
 subsites: [all]
+contributions:
+  organisers:
+    - Sch-Da
+
 ---
 
 # E-Science-Tage 2025

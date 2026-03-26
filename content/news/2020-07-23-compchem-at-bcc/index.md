@@ -1,15 +1,18 @@
 ---
 title: Computational chemistry at BCC2020
 date: '2020-07-23'
-tags: [GCC]
-supporters:
-- galaxy-europe
-- eosc
-authors: simonbray
-authors_structured:
-- github: simonbray
+tags: [gcc]
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - simonbray
+  funding:
+    - eu
+    - deNBI
+    - elixir-europe
+    - eosc-life
+    - uni-freiburg
 ---
 
 Several sessions were related to computational chemistry during this year's BCC. On July 18th we ran a successful introductory tutorial on 'Intuitive, reproducible high-throughput molecular dynamics in Galaxy'. The online training was led jointly by representatives from the European Galaxy Team (Simon Bray) and the University of Cape Town (Chris Barnett, Tharindu Senapathi).

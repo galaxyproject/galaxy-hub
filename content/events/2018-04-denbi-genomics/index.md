@@ -12,4 +12,9 @@ external_url: http://www.denbi.de/22-training-cat/training-courses/513-4th-de-nb
 contact: "denbi_genomics @ computational.bio"
 gtn: false
 subsites: [global, us]
+tags: [training, workshop]
+contributions:
+  funding:
+    - deNBI
+
 ---

@@ -1,5 +1,4 @@
 ---
-autotoc: true
 ---
 
 <slot name="/events/gcc2024/header" />
@@ -14,11 +13,11 @@ This training is an introduction to the basics of development in Galaxy; such as
 ## Meet the Instructor
 
 ### Ahmed Hamid Awan
-Johns Hopkins University <br>
+Johns Hopkins University <br />
 Galaxy Developer
 
 ### Dannon Baker
-Johns Hopkins University <br>
+Johns Hopkins University <br />
 Galaxy Developer
 
 ## Prerequisites

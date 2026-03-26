@@ -1,9 +1,11 @@
 ---
 title: "MAdLandDB: A Comprehensive Protein Database for Plant and Algal Genomes"
 date: "2024-01-24"
-authors: Deepti Varshney
 tease: "Exploring MAdLandDB: Protein Sequences across diverse Organisms"
 subsites: [global, eu]
+contributions:
+  authorship:
+    - deeptivarshney
 ---
 
 Welcome to the world of MAdLandDB – your go-to protein database for a comprehensive collection of fully sequenced plant and algal genomes. Developed and actively maintained by the [Rensing lab](https://plantco.de/), MAdLandDB stands out for its emphasis on non-seed plants and streptophyte algae. In this blog post, we'll explore the key features and recent updates of this resource.
@@ -25,11 +27,11 @@ MAdLandDB is a protein database comprising a comprehensive collection of fully s
 <div class="img-sizer" style="width: 30%"> -->
 
 [![MAdland](madland_logo.jpg)](https://madland.science/)
-<br>
+<br />
 [![plantco_logo](plantco.de5.jpg)](http://www.plantco.de/)
 </div>
 </div>
-<br>
+<br />
 
 
 ### What Sets MAdLandDB Apart? 

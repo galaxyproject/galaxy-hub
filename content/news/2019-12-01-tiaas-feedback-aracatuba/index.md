@@ -2,10 +2,12 @@
 title: Training Infrastructure Feedback from Giovanni Widmer
 date: '2019-12-01'
 tags: [training, tiaas]
-supporters:
-- galaxy-europe
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 Hi [Galaxy team](https://galaxyproject.eu/freiburg/)!
@@ -27,9 +29,9 @@ Here is a picture of the smiling workshop participants - myself included, back r
 
 <img src="/assets/media/unesp.jpg" width="800px" alt="Training participants." />
 
-Giovanni Widmer<br>
-Professor<br>
-Cummings School of Veterinary Medicine<br>
-Tufts University<br>
-North Grafton, Massachusetts<br>
+Giovanni Widmer<br />
+Professor<br />
+Cummings School of Veterinary Medicine<br />
+Tufts University<br />
+North Grafton, Massachusetts<br />
 

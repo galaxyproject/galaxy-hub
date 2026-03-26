@@ -1,8 +1,12 @@
 ---
 title: "Cancer informatics working group T2 update"
 tease: "CI-WG Updates from the tertile"
-authors: "Luke Sargent"
 date: "2021-09-02"
+contributions:
+  authorship:
+    - lukesargent
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2021-09-cancer-informatics-wg-update/"
 ---
 
 # Cancer Informatics + Galaxy
@@ -53,7 +57,7 @@ We still have some steps to take before Galaxy Cancer is ready for users, but th
 - more iobio services as ITs
 - more tools and workflows
 
-If you have questions, comments or suggestions, please let us know in our gitter channel: https://gitter.im/galaxyproject/wg-cancer-informatics
+If you have questions, comments or suggestions, please let us know in our matrix channel: https://matrix.to/#/#galaxyproject_wg-cancer-informatics:gitter.im
 
 
 <br />

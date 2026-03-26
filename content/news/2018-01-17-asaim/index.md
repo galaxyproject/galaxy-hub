@@ -30,6 +30,6 @@ Several [workflows](https://asaim.readthedocs.io/en/latest/workflows.html) has b
 
 ## Credit
 
-<embed src="https://www.biorxiv.org/content/early/2017/09/04/183970.full.pdf" width="100%" height="700" type='application/pdf'>
+<embed src="https://www.biorxiv.org/content/early/2017/09/04/183970.full.pdf" width="100%" height="700" type='application/pdf' />
 
 

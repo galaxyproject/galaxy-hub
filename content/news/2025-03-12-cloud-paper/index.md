@@ -6,7 +6,6 @@ doi: 10.5194/bg-22-1257-2025
 tags:
 - paper
 - citations
-supporters:
 subsites: [global,all,all-eu]
 main_subsite: eu
 ---

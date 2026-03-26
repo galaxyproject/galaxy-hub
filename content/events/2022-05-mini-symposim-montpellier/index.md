@@ -11,4 +11,8 @@ gtn: false
 contact: "Stéphanie Bedhomme, Anton Nekrutenko"
 image:
 subsites: [global, us]
+contributions:
+  organisers:
+    - nekrut
+
 ---

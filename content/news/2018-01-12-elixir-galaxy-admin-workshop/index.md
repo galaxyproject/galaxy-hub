@@ -1,12 +1,13 @@
 ---
 title: ELIXIR Galxy Admin workshop in Oslo.
 date: '2018-01-12'
-tags: [training]
-supporters:
-- denbi
-- elixir
+tags: [training, admin, workshop]
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 We had a very nice Galaxy Admin workshop in Oslo.

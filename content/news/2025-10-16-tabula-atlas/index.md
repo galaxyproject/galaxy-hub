@@ -4,15 +4,16 @@ date: '2025-10-16'
 tease: Comprehensive Single-Cell Reference Atlases Ready for Import
 hide_tease: true
 tags: [data]
-supporters:
-- elixir
-- denbi
-- unifreiburg
-authors: Amirhossein Nilchi
-authors_structured:
-- github: nilchia
 subsites: [global, all, eu]
 main_subsite: eu
+contributions:
+  authorship:
+    - Nilchia
+  funding:
+    - elixir-europe
+    - deNBI
+    - mwk
+    - uni-freiburg
 ---
 
 We are excited to announce that two comprehensive single-cell reference atlases, [Tabula Sapiens](https://tabula-sapiens-portal.ds.czbiohub.org/) and [Tabula Muris Senis](https://tabula-muris-senis.ds.czbiohub.org/), are now available for easy import directly into your Galaxy history!

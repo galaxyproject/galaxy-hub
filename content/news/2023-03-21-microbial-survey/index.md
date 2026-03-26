@@ -3,11 +3,12 @@ title: 'Evaluation of the current usage and future needs of Galaxy for microbial
 date: '2023-03-21'
 tease: The microGalaxy community of practice would like to learn more about use-cases where Galaxy was beneficial, and also the barriers that prevent researchers from using Galaxy. The aim is to collectively find solutions to improve user experience and reduce barriers. To this end, we are launching a survey to reach out to, and learn from, the microbial research community.
 hide_tease: true
-authors: Bérénice Batut, Paul Zierep
-authors_structured:
-- github: bebatut
 tags: [microbial]
 subsites: [all]
+contributions:
+  authorship:
+    - bebatut
+    - paulzierep
 ---
 
 <img class="img-fluid float-right" src="./visual.png" style="width:500px;" alt="Visual for survey advertisement"/>
@@ -48,4 +49,4 @@ First, thank you for your interest. You are welcome to join any activity of the 
 * Join the [mailing list](https://lists.galaxyproject.org/lists/microgalaxy.lists.galaxyproject.org/) [microgalaxy@lists.galaxyproject.org](mailto:microgalaxy@lists.galaxyproject.org)
 * Join our [quarterly meetings](https://docs.google.com/document/d/13VjcUjStuIp7bK29e74k8Nqb7N4lmVcg1ioArEWr254/edit#)!
 * Participate in our **[working groups](/community/sig/microbial/#working-groups)**
-* Chat using the [Gitter Chat](https://gitter.im/galaxyproject/microGalaxy) (also available via[ Matrix](https://matrix.to/#/#galaxyproject_microGalaxy:gitter.im))
+* Chat using the [Matrix Chat](https://matrix.to/#/#galaxyproject_microGalaxy:gitter.im) (also available via[ Matrix](https://matrix.to/#/#galaxyproject_microGalaxy:gitter.im))

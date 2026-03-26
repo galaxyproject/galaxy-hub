@@ -28,8 +28,8 @@ Papercuts CoFests are held every three months (see below), and it's easy to get 
     -   Do some (even a little bit is useful) on that project.
     -   Check the event page for more information on that particular event. Depending on what issues we're hoping to tackle, there may be some scheduled Zoom calls or collaboration materials.
 -   **During**
-    -   Join the discussion on [Gitter](https://gitter.im/galaxyproject/Lobby).
-    -   People on Gitter will provide guidance and resources, and help connect you to folks who specialize in the area you are interested in.
+    -   Join the discussion on [Matrix](https://matrix.to/#/#galaxyproject_Lobby:gitter.im).
+    -   People on Matrix will provide guidance and resources, and help connect you to folks who specialize in the area you are interested in.
     -   Ask for help! Collaborate! Work together!
     -   Join the GTN CoFest Calls! (And any other Zoom calls that we may have for the event.)
 -   **After**

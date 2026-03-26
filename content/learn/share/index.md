@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Sharing Your Galaxy Items with Other People 
 ---
 

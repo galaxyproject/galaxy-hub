@@ -1,0 +1,132 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Page Not Found" description="The requested page could not be found">
+  <div class="max-w-2xl mx-auto text-center py-12">
+    <div class="mb-8">
+      <span class="text-8xl font-bold text-galaxy-primary/20">404</span>
+    </div>
+
+    <h1 class="text-3xl font-bold text-galaxy-dark mb-4">Page Not Found</h1>
+
+    <p class="text-gray-600 mb-8">
+      Sorry, we couldn't find the page you're looking for. It may have been moved, deleted, or the URL might be
+      incorrect.
+    </p>
+
+    <!-- Shown briefly while redirecting to a matched page -->
+    <div id="redirect-notice" class="hidden mb-8 bg-green-50 border border-green-200 rounded-lg p-4 text-center">
+      <p class="text-sm text-green-700">
+        Redirecting to <a id="redirect-link" href="#" class="underline font-medium"></a>&hellip;
+      </p>
+    </div>
+
+    <div class="space-y-4">
+      <div id="help-box" class="bg-blue-50 border border-blue-200 rounded-lg p-4 text-left">
+        <h3 class="font-semibold text-blue-800 mb-2">Looking for something specific?</h3>
+        <ul class="text-sm text-blue-700 space-y-1">
+          <li>
+            • Try <a id="search-link" href="/search/" class="underline hover:text-blue-900">searching the site</a>
+          </li>
+          <li>
+            • Check the <a href="/news/" class="underline hover:text-blue-900">news</a> or <a
+              href="/events/"
+              class="underline hover:text-blue-900">events</a
+            > pages
+          </li>
+          <li>• Browse our <a href="/use/" class="underline hover:text-blue-900">Galaxy platforms</a></li>
+        </ul>
+      </div>
+
+      <div class="flex flex-wrap justify-center gap-4">
+        <a
+          href="/"
+          class="inline-flex items-center px-6 py-2 bg-galaxy-primary hover:bg-galaxy-dark text-white font-medium rounded-lg transition-colors"
+        >
+          <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+            ></path>
+          </svg>
+          Go to Homepage
+        </a>
+        <button
+          onclick="history.back()"
+          class="inline-flex items-center px-6 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 font-medium rounded-lg transition-colors"
+        >
+          <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"
+            ></path>
+          </svg>
+          Go Back
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const path = window.location.pathname;
+
+    /** Strip to lowercase alphanumeric + slashes — matches the build-time skeleton. */
+    function skeleton(s: string): string {
+      return s
+        .toLowerCase()
+        .replace(/[^a-z0-9/]/g, '')
+        .replace(/\/+/g, '/')
+        .replace(/\/$/, '');
+    }
+
+    /** Pull search-worthy keywords out of the last meaningful path segment. */
+    function extractKeywords(urlPath: string): string {
+      const segments = urlPath.split('/').filter(Boolean);
+      const last = segments[segments.length - 1] || '';
+      return (
+        last
+          // strip leading date prefix (2024-05-14-)
+          .replace(/^\d{4}-\d{2}-\d{2}-/, '')
+          // expand camelCase
+          .replace(/([a-z])([A-Z])/g, '$1 $2')
+          .replace(/([A-Z]+)([A-Z][a-z])/g, '$1 $2')
+          // hyphens/underscores to spaces
+          .replace(/[-_]/g, ' ')
+          .trim()
+      );
+    }
+
+    // Pre-populate the search link with keywords from the URL
+    const keywords = extractKeywords(path);
+    if (keywords) {
+      const searchLink = document.getElementById('search-link');
+      if (searchLink) {
+        (searchLink as HTMLAnchorElement).href = `/search/?q=${encodeURIComponent(keywords)}`;
+      }
+    }
+
+    // Try to find a match in the 404 lookup index and auto-redirect
+    try {
+      const res = await fetch('/404-lookup.json');
+      if (res.ok) {
+        const lookup: Record<string, { p: string; t: string }> = await res.json();
+        const key = skeleton(path);
+        const match = lookup[key];
+
+        if (match && match.p !== path) {
+          const notice = document.getElementById('redirect-notice');
+          const link = document.getElementById('redirect-link') as HTMLAnchorElement | null;
+          if (notice && link) {
+            link.href = match.p;
+            link.textContent = match.p;
+            notice.classList.remove('hidden');
+          }
+          window.location.replace(match.p);
+        }
+      }
+    } catch {
+      // Lookup fetch failed — page degrades to static 404 content
+    }
+  </script>
+</BaseLayout>

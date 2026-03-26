@@ -5,6 +5,7 @@ tease: "EOSC4Cancer has been launched"
 hide_tease: true
 tags:
 - conference
+- meeting
 subsites: [all-eu]
 main_subsite: eu
 ---

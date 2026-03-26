@@ -1,0 +1,27 @@
+domains:
+    - platform_url: https://galaxy.mesocentre.uca.fr
+      ip: 193.55.252.12
+      version: IPv4
+      asn: AS2200 Renater
+      org: U Clermont Auvergne
+      release:
+          version_major: "24.1"
+          version_minor: 5.dev0
+      location:
+          city: Lyon
+          region: Auvergne-Rhône-Alpes
+          region_code: ARA
+          country: FR
+          country_name: France
+          country_code: FR
+          continent_code: EU
+          postal: "69201"
+          latitude: 45.748
+          longitude: 4.85
+          timezone: Europe/Paris
+          currency: EUR
+      response:
+          time: "2025-11-25T19:40:19Z"
+          status_code: 200
+          response_time_ms: 0
+          reason: OK

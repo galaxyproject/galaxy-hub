@@ -1,10 +1,16 @@
 ---
 date: '2020-06-22'
 title: "Multi-tenant, multi-project GVL with Galaxy, Jupyter, Terminal, and RStudio"
-authors: "Alexandru Mahmoud, Nuwan Goonasekera, Enis Afgan"
 tease: "Complete analysis on one platform, including training and collaboration"
 image: "/news/2020-02-gvl5-beta/gvl-logo-landscape-2018.svg"
 highlight: true
+contributions:
+  authorship:
+    - almahmoud
+    - nuwang
+    - afgane
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2020-06-gvl5-beta3/"
 ---
 
 We are happy to announce the latest release of the Genomics Virtual Lab (GVL),
@@ -118,7 +124,7 @@ As with the recent GVL releases
 but we are approaching the end of adding new features. We will then transition
 to improving robustness of the applications as well as write documentation. In
 the meantime, please take the GVL for a test drive and [let us
-know](https://gitter.im/galaxyproject/FederatedGalaxy) how it feels. **If you
+know](https://matrix.to/#/#galaxyproject_FederatedGalaxy:gitter.im) how it feels. **If you
 have a good use case that makes use of the multiple applications now available,
 please reach out to the authors.** We’d love to work with you to support the
 use case, test the platform, and ideally write a paper describing the new

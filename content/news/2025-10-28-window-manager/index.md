@@ -1,6 +1,5 @@
 ---
 title: 'Use Galaxy window manager!'
-authors: Anton Nekrutenko 
 subsites: [eu,all,global]
 main_subsite: global
 date: '2025-10-28'
@@ -11,6 +10,9 @@ tags:
 - sra
 - upload
 autotoc: false
+contributions:
+  authorship:
+    - nekrut
 ---
 
 ![](washing-windows.png)

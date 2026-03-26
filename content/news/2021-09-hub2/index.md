@@ -1,8 +1,13 @@
 ---
 title: "The New Galaxy Community Hub"
 date: "2021-09-14"
-authors: "Nick Stoler, Dannon Baker"
 components: false
+contributions:
+  authorship:
+    - NickSto
+    - dannon
+source_blog: "Galaxy Project Blog"
+source_blog_url: "https://galaxyproject.org/blog/2021-09-hub2/"
 ---
 
 You may not have noticed, but things have changed a lot around here! Today we are happy to unveil the new Galaxy Community Hub. This is a ground-up rewrite of the back-end for the site you're reading right now.
@@ -91,7 +96,7 @@ The benefit is that the Markdown we write in the future will be portable to any 
 
 ### Bug reporting
 
-The new Hub features all the major functionality of the old one. But there are some minor features still being added and some rough corners here and there. So if you notice something broken, don't be too surprised, but *do* let us know on [Github](https://github.com/galaxyproject/galaxy-hub/issues), [gitter](https://gitter.im/galaxyproject/hub2),  or [email](mailto:outreach@galaxyproject.org?subject=Community%20Hub%20issue).
+The new Hub features all the major functionality of the old one. But there are some minor features still being added and some rough corners here and there. So if you notice something broken, don't be too surprised, but *do* let us know on [Github](https://github.com/galaxyproject/galaxy-hub/issues), [matrix](https://matrix.to/#/#galaxyproject_hub2:gitter.im),  or [email](mailto:outreach@galaxyproject.org?subject=Community%20Hub%20issue).
 
 ## Extensibility
 

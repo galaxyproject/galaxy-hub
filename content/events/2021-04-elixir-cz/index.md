@@ -17,6 +17,12 @@ links:
 - text: Slides
   url: http://bit.ly/galaxy_coffee
 subsites: [all-eu, global, us]
+contributions:
+  organisers:
+    - martenson
+  funding:
+    - elixir-cz
+
 ---
 
 a high level overview of the Galaxy Project - what it is, what it does and how to start using it. And the Elixir Galaxy and currently forming Galaxy Czech communities 

@@ -3,18 +3,19 @@ title: Training Infrastructure as a Service (TIaaS) is sponsored by EOSC-Life
 date: '2021-08-24'
 tease: Anyone providing training is eligible to request the use of this service.
 tags: [tiaas, training]
-supporters:
-- eosc
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
 subsites: [global, all-eu, us]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
+  funding:
+    - eu
+    - eosc-life
 ---
 
 <div class="row">
 <div class="col-md-6" markdown="1">
-<br><br>
+<br /><br />
 __TIaaS (Training Infrastructure as a Service)__ provides a special queue in the server so that, during the execution of a workshop, __the trainees’ jobs
 are run preferentially__ without waiting in the general job queue of the server. The main advantage of this system is that the workshop
 can run smoothly avoiding possible waiting execution times depending on the load of the server.
@@ -32,7 +33,7 @@ __Anyone providing training is eligible__ to request the use of this service. To
 trainers just need to [fill out a form](https://galaxyproject.eu/tiaas) indicating the number of attendees, the start and
 end dates of the training activity, and what kind of analysis will be run during the workshop. The European Galaxy team then processes the request
 and gets back to the requesting trainer.
-The trainers share their experiences with TIaaS that can be useful for other trainers as well in [a blog posts](https://galaxyproject.eu/news?tag=TIaaS).
+The trainers share their experiences with TIaaS that can be useful for other trainers as well in [a blog posts](https://galaxyproject.eu/news?tag=tiaas).
 
 We would like to thank [EOSC-Life](https://www.eosc-life.eu/) for the support and all the trainers that are using
 TIaaS for organising training activities!
@@ -43,5 +44,5 @@ TIaaS for organising training activities!
 </div>
 </div>
 
-<br>
+<br />
 

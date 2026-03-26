@@ -1,10 +1,12 @@
 ---
 title: "Galaxy Newsletter: December 2023"
 tease: "Check out the December 2023 Galaxy Newsletter to learn about some of the highlights of 2023, take a look ahead into 2024, and read some of this year's top Galaxy Success Stories!"
-authors: "Natalie Whitaker-Allen"
 date: "2023-12-19"
-tags: [tiaas]
+tags: [tiaas, newsletter, year-in-review]
 subsites: [global, all]
+contributions:
+  authorship:
+    - natalie-wa
 ---
 
 ![Galaxy Newsletter Logo](GalaxyNews.png)

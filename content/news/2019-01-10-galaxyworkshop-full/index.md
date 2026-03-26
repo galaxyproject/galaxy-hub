@@ -4,10 +4,11 @@ date: '2019-01-10'
 tags: [training]
 location:
   name: Freiburg, Germany
-supporters:
-- denbi
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
 ---
 
 Our next Galaxy Workshop on HTS data analysis from 25.2.-1.3.2019 in Freiburg is full.

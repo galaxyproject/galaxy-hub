@@ -4,7 +4,7 @@ date: '2021-03-17'
 tease: New Featured and Community News sections; new events, releases, training, and
   lots of videos
 autotoc: false
-tags: [newsletter, galaxy]
+tags: [newsletter, outreach]
 subsites: [all-eu, global, us]
 ---
 
