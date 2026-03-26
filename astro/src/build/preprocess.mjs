@@ -330,6 +330,21 @@ function addBootstrapMarker(content) {
   return processed;
 }
 
+/**
+ * Build the canonical slug for news content.
+ * Keeps the `news/` prefix and removes any year bucket directory.
+ */
+export function deriveNewsNaturalSlug(normalizedDirname) {
+  const parts = normalizedDirname.split('/');
+  if (parts.length >= 3 && parts[0] === 'news' && /^\d{4}$/.test(parts[1])) {
+    return `news/${parts.slice(2).join('/')}`;
+  }
+  if (parts.length >= 2 && parts[0] === 'news') {
+    return `news/${parts.slice(1).join('/')}`;
+  }
+  return normalizedDirname === '.' ? 'home' : normalizedDirname;
+}
+
 // Cache for resolved insert content (inserts are referenced by multiple pages)
 const insertCache = new Map();
 
@@ -468,14 +483,7 @@ async function processMarkdownFile(filePath) {
   if (path.basename(filePath) === 'index.md') {
     const normalizedDirname = dirname.replace(/\\/g, '/');
     if (collection === 'news') {
-      const parts = normalizedDirname.split('/');
-      if (parts.length >= 3 && parts[0] === 'news' && /^\d{4}$/.test(parts[1])) {
-        naturalSlug = parts.slice(2).join('/');
-      } else if (parts.length >= 2 && parts[0] === 'news') {
-        naturalSlug = parts.slice(1).join('/');
-      } else {
-        naturalSlug = normalizedDirname === '.' ? 'home' : normalizedDirname;
-      }
+      naturalSlug = deriveNewsNaturalSlug(normalizedDirname);
     } else {
       naturalSlug = normalizedDirname === '.' ? 'home' : normalizedDirname;
     }
