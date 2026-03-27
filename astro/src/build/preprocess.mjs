@@ -164,6 +164,31 @@ function rewriteSrc(src, slug) {
 }
 
 /**
+ * Shift heading levels down by one when content has multiple h1 headings.
+ * h1→h2, h2→h3, …, h5→h6. Headings already at h6 stay at h6.
+ * Skips headings inside fenced code blocks.
+ */
+function shiftHeadings(content) {
+  const h1Count = (content.match(/^# (?!#)/gm) || []).length;
+  if (h1Count < 2) return content;
+
+  let inFence = false;
+  return content
+    .split('\n')
+    .map((line) => {
+      if (/^(`{3,}|~{3,})/.test(line)) {
+        inFence = !inFence;
+      }
+      if (inFence) return line;
+      return line.replace(/^(#{1,6})( )/, (match, hashes, space) => {
+        if (hashes.length >= 6) return match;
+        return '#' + hashes + space;
+      });
+    })
+    .join('\n');
+}
+
+/**
  * Process asset paths in markdown content — images, videos, PDFs, and other
  * files that live alongside content and get copied to /images/{slug}/.
  */
@@ -463,6 +488,9 @@ async function processMarkdownFile(filePath) {
   const { content: inlinedContent, hasComponents: insertsHaveComponents } = inlineInserts(processedContent);
   processedContent = inlinedContent;
 
+  // Shift headings down if content has multiple h1s
+  processedContent = shiftHeadings(processedContent);
+
   // Process content
   processedContent = addBootstrapMarker(processedContent);
   processedContent = processImagePaths(processedContent, slug);
@@ -760,4 +788,5 @@ export {
   resolveInsertContent,
   insertCache,
   generateTease,
+  shiftHeadings,
 };

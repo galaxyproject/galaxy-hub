@@ -1,6 +1,5 @@
 ---
 title: Galaxy Europe Metabolomics
-autotoc: true
 components: true
 ---
 

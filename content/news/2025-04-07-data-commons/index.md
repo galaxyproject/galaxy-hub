@@ -3,9 +3,6 @@ title: "Galaxy Team joined the EOSC Data Commons Kick-off to advance open Data S
 date: "2025-04-07"
 tease: "Galaxy is participating in the EOSC Data Commons project to make Science more accessible and reusable across Europe."
 tags: [eosc, meeting, datacommons, outreach, collaboration]
-authors_structured:
-- name: ""
-- github: ""
 subsites: [all]
 main_subsite: eu
 contributions:

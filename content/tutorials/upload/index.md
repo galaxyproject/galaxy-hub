@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Uploading data into Galaxy
 redirect: "/learn"
 ---

@@ -1,6 +1,5 @@
 ---
 description: "This Community of Practice is dedicated to admins or potential future admins who are managing instances smaller than usegalaxy.*"
-autotoc: true
 title: "Small scale Galaxy Admins Community of Practice"
 ---
 

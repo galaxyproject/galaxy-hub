@@ -1,6 +1,5 @@
 ---
 description: "Whether you are analysing geosphere, biosphere, cryosphere, hydrosphere, and atmosphere, in short all Earth related sciences this is the place to be!"
-autotoc: true
 title: "Earth data analysis in Galaxy"
 components: true
 ---

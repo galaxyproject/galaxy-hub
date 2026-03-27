@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Processing many samples at once with collections
 redirect: "https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/collections/tutorial.html"
 components: true
