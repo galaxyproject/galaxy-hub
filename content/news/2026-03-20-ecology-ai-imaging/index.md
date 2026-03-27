@@ -3,15 +3,13 @@ date: '2026-03-20'
 title: "AI for wildlife study, when Ecology and Imaging are benefiting from Galaxy ecosystem"
 tease: "Galaxy for Ecology, mixing Ecology research, Citizen Science and AI"
 tags: [ecology, biodiversity, citizen science, ai, marine biology, data, community]
-subsites: [global, eu, freiburg]
+subsites: [global,eu,freiburg]
 main_subsite: eu
 contributions:
   authorship:
     - yvanlebras
     - TuturBaba
     - nadinelebris
-source_blog: "Galaxy Project Blog"
-source_blog_url: "https://galaxyproject.org/blog/2026-03-20-ecology-IA-imaging/"
 ---
 
 Since 2025, Galaxy Ecology team is notably working on marine images annotation and analysis through the MOOREV citizen science project. Thanks to existing Galaxy materials (tools, workflows and training) created by communities as Imaging one and strong support of usegalaxy.eu team, we were able to not start from scratch to meet the MOOREV objectives through a dedicated funding who allows to produce new materials for Galaxy communities. 
@@ -44,18 +42,19 @@ With [SAM3 Galaxy tool](https://ecology.usegalaxy.eu/root?tool_id=toolshed.g2.bx
 
 We thus can identify crabs or winkles on picture coming from a MOOREV site on the shore at Concarneau, Brittany, France. Even if the picture is blurred, it is working quite well. Unfortunately, SAM3 doesn't seems to find the shrimp ;)
 
-![MOOREV underwater image](../../images/news/2026-03-20/crab_winkle.png)
+![MOOREV underwater image](crab_winkle.png)
 
 We also can identify seagull from aerial drone pictures. It is interesting to see that searching for "bird" is identifying same features, but searching "swallow" or others bird species didn't work. Here it is illustrating the specificity and precision the model can have.
 
-![French bird survey aerial image](../../images/news/2026-03-20/seagull.png). 
+![French bird survey aerial image](seagull.png). 
 
 We also tested on Yvan's aquarium ;) to identify fish, mullet species seems to be unknown from SAM3 model, how can this be possible !!!. Here we see the interest of the concept-level understanding rerunning the tool with another prompt searching "smallest fish".
 
-![Yvan's mullet image](../../images/news/2026-03-20/fish_smallest_fish.png)
+![Yvan's mullet image](fish_smallest_fish.png)
 
 ### References
-- MOOREV website: https://moorev.fr/
+
+- MOOREV website: https://moorev.fr
 - Galaxy Ecology article: Royaux et al. (2025) Guidance framework to apply best practices in ecological data analysis: lessons learned from building Galaxy-Ecology. GigaScience, Volume 14, 2025, giae122, https://doi.org/10.1093/gigascience/giae122
 - Galaxy-E tools and workflows: https://github.com/galaxyecology/tools-ecology
 - Galaxy-E tutorials:
