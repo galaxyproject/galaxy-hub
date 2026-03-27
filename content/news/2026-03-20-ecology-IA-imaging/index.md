@@ -2,7 +2,7 @@
 date: '2026-03-20'
 title: "AI for wildlife study, when Ecology and Imaging are benefiting from Galaxy ecosystem"
 tease: "Galaxy for Ecology, mixing Ecology research, Citizen Science and AI"
-tags: [ecology, biodiversity, AI, marine biology, sea, data, community]
+tags: [ecology, biodiversity, citizen science, ai, marine biology, data, community]
 subsites: [global, eu, freiburg]
 main_subsite: eu
 contributions:
