@@ -1,6 +1,7 @@
 import { describe, it, expect, beforeEach } from 'vitest';
 import {
   addBootstrapMarker,
+  deriveNewsNaturalSlug,
   normalizeSlugSegment,
   normalizeSlug,
   inlineInserts,
@@ -182,6 +183,20 @@ describe('normalizeSlug', () => {
 
   it('handles single segment', () => {
     expect(normalizeSlug('home')).toBe('home');
+  });
+});
+
+describe('deriveNewsNaturalSlug', () => {
+  it('keeps the news prefix and removes a year bucket', () => {
+    expect(deriveNewsNaturalSlug('news/2025/2025-01-foo')).toBe('news/2025-01-foo');
+  });
+
+  it('keeps the news prefix for non-bucketed news paths', () => {
+    expect(deriveNewsNaturalSlug('news/2025-01-foo')).toBe('news/2025-01-foo');
+  });
+
+  it('passes through non-news paths', () => {
+    expect(deriveNewsNaturalSlug('articles/example')).toBe('articles/example');
   });
 });
 

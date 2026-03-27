@@ -4,12 +4,12 @@ The [Galaxy Community Hub](https://galaxyproject.org/) is the community and docu
 
 ## Quick start
 
-Content lives in the `/content/` directory. Each page is an `index.md` file inside a directory whose path becomes the URL:
+Content lives in the `/content/` directory. Most pages are an `index.md` file inside a directory whose path becomes the URL. News pages are the exception: they route by frontmatter `slug`, while the filesystem layout is just for organization:
 
 | File path                                            | URL                                                    |
 | :--------------------------------------------------- | :----------------------------------------------------- |
 | `content/events/2025-10-20-galaxy-workshop/index.md` | `galaxyproject.org/events/2025-10-20-galaxy-workshop/` |
-| `content/news/2025-01-galaxy-update/index.md`        | `galaxyproject.org/news/2025-01-galaxy-update/`        |
+| `content/news/2025/2025-01-galaxy-update/index.md`   | `galaxyproject.org/news/2025-01-galaxy-update/`        |
 
 ### Editing an existing page
 
@@ -17,7 +17,7 @@ The easiest way is to use the edit link on any Hub page — click the GitHub ico
 
 ### Creating a new page
 
-In the GitHub web interface, navigate to the appropriate directory under `/content/` and click "Add file" → "Create new file". Name it `your-page-name/index.md` (GitHub will create the directory for you).
+In the GitHub web interface, navigate to the appropriate directory under `/content/` and click "Add file" → "Create new file". For news items, create the year bucket first, then add `your-page-name/index.md` inside it (for example `content/news/2026/my-news-item/index.md`). GitHub will create the directory for you.
 
 **Directory naming rules**: Use lowercase letters, numbers, and hyphens. The directory name becomes the URL slug.
 
