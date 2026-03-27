@@ -1,6 +1,5 @@
 ---
 description: "If you apply Machine Learning or Artificial Intelligence in any Galaxy field from life sciences to humanities and want to connect, share and learn, this is your community."
-autotoc: true
 title: "Galaxy Community for Research in AI, Statistics, and Prediction" 
 ---
 

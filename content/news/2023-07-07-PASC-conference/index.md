@@ -4,7 +4,6 @@ tease: Several Galaxy Community members gathered in Davos
 date: '2023-07-07'
 subsites: [global, all-eu, esg]
 tags: [esg, esg-wp5, conference]
-author_github: hrhotz
 contributions:
   authorship:
     - hrhotz

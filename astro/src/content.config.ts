@@ -1,4 +1,5 @@
-import { defineCollection, z } from 'astro:content';
+import { defineCollection } from 'astro:content';
+import { z } from 'astro/zod';
 import { glob } from 'astro/loaders';
 
 // Shared schema for contact information (very permissive to handle legacy content)
@@ -44,7 +45,6 @@ const baseArticleSchema = z
     slug: z.string(),
     date: z.coerce.date().optional().nullable(),
     tease: z.string().optional().nullable(),
-    authors: arrayOrString,
     contacts: z
       .union([z.array(contactSchema), contactSchema])
       .optional()

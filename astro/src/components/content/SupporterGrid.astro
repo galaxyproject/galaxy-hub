@@ -39,7 +39,7 @@ const { supporters = [], title = 'Supporters' } = Astro.props;
           >
             <div class="supporter-media">
               {supporter.image ? (
-                <img src={supporter.image} alt={supporter.name} loading="lazy" class="supporter-logo" />
+                <img src={supporter.image} alt={supporter.name} loading="eager" class="supporter-logo" />
               ) : (
                 <div class="supporter-placeholder" aria-hidden="true">
                   {supporter.name.charAt(0).toUpperCase()}

@@ -2,7 +2,6 @@
 title: Task-based history export tracking
 date: "2022-11-21"
 tease: "New pull request from David López merged: Add task-based history export tracking"
-author_github: davelopez
 autotoc: false
 tags: ['area/API', 'area/database', esg, esg-wp2]
 subsites: [all,esg]

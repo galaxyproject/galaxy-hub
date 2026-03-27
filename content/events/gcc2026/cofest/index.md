@@ -2,85 +2,64 @@
 autotoc: false
 ---
 
+<div class="text-center my-5">
+
 # GCC2026 CollaborationFest (CoFest!)
 
-## CoFest: A Collaborative Sprint for Everyone
+#### June 25-26, 2026
 
-CoFest is a community gathering by those interested in
-contributing to Galaxy's tool set, documentation, training materials, code base,
-and anywhere else that expands the Galaxy ecosystem.
+  <div class="lead">
+    CoFest is a community gathering by those interested in
+    contributing to Galaxy's tool set, documentation, training materials, code base,
+    and anywhere else that expands the Galaxy ecosystem.
+  </div>
 
-CoFest participants will gather around shared interests and address common
-topics related to those interests. It is an informal, highly interactive meeting
-where you get to "hack" on a topic of choice - and you can do it with others
-that share similar interests.
+  <i>
+    Held June 25-26, 2026, immediately following the main GCC2026
+    conference in Clermont-Ferrand, France.
+  </i>
 
-CoFest will be held June 25-26, 2026, immediately following the main GCC2026
-conference in Clermont-Ferrand, France. You can attend CoFest whether or not you
-attend the main conference.
+</div>
 
 ## What to Expect at CoFest
 
-<p class="lead">
-    <strong>
-        The goals of CoFest are to expand the Galaxy contributor community and its ecosystem.
-    </strong>
+<p class="alert alert-info text-center">
+    The goals of CoFest are to expand the Galaxy contributor community and its ecosystem.
 </p>
 
-Engage in an interactive environment where you can:
+CoFest participants will collaborate around **project tracks**, each with real, achievable goals and a team of people to work on them together. Tracks will span the full breadth of the Galaxy ecosystem:
 
-- **Improve Tools & Workflows** – Enhance Galaxy & Bioconductor functionalities.
-- **Enhance Documentation & Training** – Support learning through refined materials.
-- **Design & User Experience** – Create accessible and visually appealing interfaces.
-- **Community Discussions** – Collaborate with enthusiasts and experts.
-- **Casual Collaboration** – Enjoy a stress-free setting to innovate.
+- **Wrap & annotate tools** – Get Galaxy-compatible tools into the hands of researchers.
+- **Build & improve workflows** – Develop and refine best-practice workflows for the community.
+- **Shape the user experience** – Tackle interface improvements that make Galaxy more intuitive for everyone.
+- **Strengthen the platform** – Dig into the core codebase and help make Galaxy more robust.
+- **Grow the training ecosystem** – Update, improve, and create GTN tutorials that help researchers worldwide.
+- **Build community** – Contribute to governance, outreach, and the things that keep Galaxy's community thriving.
 
+## How It Works
 
-## Why you should join ?
+CoFest is intentionally informal. We will have two days of collaborative work/brainstorming with people who care about the same things you do. There's no rigid agenda. You'll be matched with a track based on your interests and skills, and each track will have experienced contributors ready to help orient you and keep things moving.
 
-Joining CoFest means you can:
+**You don't need to know anyone ahead of time**, and you don't need to come with a finished plan. Just show up, find your people, and leave having developed/planned something real together.
 
-- **Meet Experts & Enthusiasts** – Forge strong community connections.
-- **Learn New Skills** – Gain hands-on experience with real-world projects.
-- **Make an Impact** – Contribute to an expansive ecosystem.
-- **Enjoy a Vibrant Community** – Collaborate with passionate, supportive peers.
+## Find Your Track
 
+To put together the best possible teams, we would like to know your interests. Fill out the form below to share your background, the kind of work you enjoy, and what you're hoping to get out of CoFest.
 
-Welcome aboard! If you'd like to get involved early check out our _live document of CoFest
-project ideas_ linked below.
-Feel free to add to this document or join someone else's project by adding your name to the
-*Participants* column.
-
-<p class="alert alert-info">
-    A good project idea for the Cofest is preferrably a collaborative one or at the very least,
-    one that would benefit from in-person planning, feedback and dicussion.
-</p>
-
-### <i>Note that this is not the exhaustive list of projects for the CoFest!</i>
-
-<p class="lead">
-    <strong>
-        Share your ideas and get input from Working Group Leads.
-    </strong>
-</p>
-
-Show up, share what you're curious to do (doesn't have to be a fully fledged project!), get
-input or support from the Galaxy Working Group leads (UI/UX, Backend, Systems, Tools &
-Workflows, Testing & Hardening, GOATS).
-
-CoFest is all about collaboration and interaction. The best ideas and solutions come from
-open discussions and collective problem-solving.
-
-## Dates & location
-
-CoFest will be held June 25-26, 2026, immediately following the main GCC2026
-conference in Clermont-Ferrand, France. You can attend CoFest whether or not you
-attend the main conference.
+<div class="flex justify-center my-5">
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfVznubQqoEZYHT0IFoG5zumoXI0oyaBxcNEgOUFnWzVLChkw/viewform?usp=sharing&ouid=117702235489827456804" class="inline-flex items-center justify-center rounded px-8 py-2 text-sm font-semibold text-white bg-galaxy-primary hover:bg-galaxy-dark no-underline hover:no-underline" target="_blank">Fill out this form!</a>
+</div>
 
 ## Registration
 
 To attend CoFest, we do ask that you register. This will help us find adequate
 space and ensure we have enough coffee and drinks.
+
+The registration cost is EUR50, added on top of the GCC2026 conference registration. Select the **Are you attending the CoFest/Training on June 25-26?** option in the registration form to register for CoFest.
+
+<div class="flex justify-center my-5">
+  <a href="/events/gcc2026/register/" class="inline-flex items-center justify-center rounded px-8 py-2 text-sm font-semibold text-white bg-galaxy-primary hover:bg-galaxy-dark no-underline hover:no-underline">Register for GCC2026 and CoFest</a>
+</div>
 
 ## Past projects (GCC 2024 & 2025)
 
