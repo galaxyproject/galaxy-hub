@@ -5,10 +5,15 @@ tease: "Elevating FAIR data analytics in EOSC: SLA between ESG and EGI; IISAS to
 hide_tease: false
 subsites: [all-eu, esg]
 main_subsite: eu
-tags: [eurosciencegateway, sla, egi, service level agreement]
-authors: Sebastian Schaaf
-authors_structured:
-- github: sebastian-schaaf
+tags: [egi, service level agreement, esg, esg-wp1, esg-wp4, collaboration, fair]
+contributions:
+  authorship:
+    - sebastian-schaaf
+  funding:
+    - eu
+    - eurosciencegateway
+    - uni-freiburg
+    - egi
 ---
 
 In the Galaxy-driven EOSC project [EuroScienceGateway (ESG)](https://www.eurosciencegateway.org) one of 18 partners is [EGI - the European Grid Initiative](https://www.egi.eu/about/) - a federation of computing and storage resource providers in Europe, facilitating up a distributed infrastructure. The 29 participants  from 22 countries are united by the mission to deliver advanced computing and data analytics services for research and innovation. They provide access to more than 1.2 Exabytes of research data and 1.2 Million CPU Cores for data processing. Notably, with [CESNET](https://www.egi.eu/partner/cesnet/) (CZ), [CNRS](https://www.egi.eu/partner/cnrs/) (FR), [CYFRONET](https://www.egi.eu/partner/cyfronet/) (PL), [INFN](https://www.egi.eu/partner/infn/) (IT) and [TUBITAK ULAKBIM](https://www.egi.eu/partner/tubitak-ulakbim/) (TR), five of these partners are partners of ESG, too.

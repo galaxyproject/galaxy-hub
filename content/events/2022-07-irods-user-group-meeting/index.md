@@ -13,4 +13,12 @@ contact: "Kaivan Kamali, Nate Coraor, Marius van den Beek, John Chilton, Anton N
 tags: [ ]
 image: 
 subsites: [global, all-eu]
+contributions:
+  organisers:
+    - jmchilton
+    - kxk302
+    - mvdbeek
+    - natefoo
+    - nekrut
+
 ---

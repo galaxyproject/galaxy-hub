@@ -3,6 +3,7 @@ title: "Vote Now: GCC2019 Training Topics"
 tease: "Voting closes 4 February"
 date: "2019-01-28"
 subsites: [global, us]
+tags: [meeting, gcc]
 ---
 
 [<img class="float-right" style="max-width: 300px" src="/events/gcc2019/gcc2019-logo-big.png" alt="GCC2019: Vote for the Training Topics you want" />](/events/gcc2019/training/)

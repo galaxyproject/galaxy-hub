@@ -1,7 +1,7 @@
 ---
 title: March 2012 Galaxy Update
 ---
-<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width="150" /></a></div>
 
 Welcome to the March 2012 edition of *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -12,7 +12,7 @@ There were [28 papers added to the Galaxy CiteULike group](http://www.citeulike.
   <tr>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=3 style=" border:none;"> &nbsp;&nbsp;&nbsp; </td>
+    <td rowspan="3" style=" border:none;"> &nbsp;&nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
   </tr>
@@ -49,7 +49,7 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 ## Upcoming Events and Deadlines
 
 <div class='center'>
-<a href='http://gmod.org/wiki/April_2012_GMOD_Meeting'><img src="/images/logos/GMODApril2012Logo.png" alt="April 2012 GMOD Meeting" height=100 /></a>&nbsp;&nbsp; <a href='http://bioinformatics.ca/workshops/high_throughput'><img src="/images/logos/CanadianBioinfWorkshopsLog.png" alt="Informatics on High Throughput Sequencing Data Workshop" height=100 /></a>  <a href='https://www.nescent.org/sites/academy/Next-gen_sequencing'><img src="/images/logos/NESCentAcademyLogo.png" alt="Next-gen Sequencing in Evolutionary Biology Course" height="100" /></a> <a href='http://www.iscb.org/ismb2012'><img src="/images/logos/ISMB2012.jpg" alt="ISMB 2012" height=100 /></a>
+<a href='http://gmod.org/wiki/April_2012_GMOD_Meeting'><img src="/images/logos/GMODApril2012Logo.png" alt="April 2012 GMOD Meeting" height="100" /></a>&nbsp;&nbsp; <a href='http://bioinformatics.ca/workshops/high_throughput'><img src="/images/logos/CanadianBioinfWorkshopsLog.png" alt="Informatics on High Throughput Sequencing Data Workshop" height="100" /></a>  <a href='https://www.nescent.org/sites/academy/Next-gen_sequencing'><img src="/images/logos/NESCentAcademyLogo.png" alt="Next-gen Sequencing in Evolutionary Biology Course" height="100" /></a> <a href='http://www.iscb.org/ismb2012'><img src="/images/logos/ISMB2012.jpg" alt="ISMB 2012" height="100" /></a>
 </div>
 
 ### Deadlines

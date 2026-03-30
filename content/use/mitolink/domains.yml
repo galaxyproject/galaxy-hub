@@ -1,0 +1,23 @@
+domains:
+    - platform_url: https://ab-openlab.csir.res.in/mitolink_v1
+      ip: 14.139.234.87
+      version: IPv4
+      asn: AS55824 NKN Core Network
+      location:
+          city: Bikaner
+          region: Rajasthan
+          region_code: RJ
+          country: IN
+          country_name: India
+          country_code: IN
+          continent_code: AS
+          postal: "334001"
+          latitude: 28.0175
+          longitude: 73.3193
+          timezone: Asia/Kolkata
+          currency: INR
+      response:
+          time: "2025-11-25T19:46:08Z"
+          status_code: 200
+          response_time_ms: 0
+          reason: OK

@@ -7,12 +7,16 @@ continent: EU
 location:
   name: "Time: 14:00 (CET), Location: University of Freiburg, Rechenzentrum (Compute Center), Hermann-Herder-Str. 10, Raum 112, 79104 Freiburg"
 contact: "Armin Dadras"
-tags: [talk]
-supporters:
-- eurosciencegateway
-- denbi
-- unifreiburg
+tags: [talk,esg,esg-wp1,esg-wp2]
 subsites: [all, esg, eu]
+contributions:
+  organisers:
+    - dadrasarmin
+  funding:
+    - eu
+    - deNBI
+    - mwk
+    - eurosciencegateway
 ---
 
 # General information

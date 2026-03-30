@@ -21,14 +21,14 @@ experience.
 <div class='right'>![Galaxy Chat](/images/icons/ChatBalloons.png)</div>
 
 Galaxy also has an open community chatroom.  The channel exists on both IRC and
-Gitter, and the rooms are bridged together, so feel free to use whichever
+Matrix, and the rooms are bridged together, so feel free to use whichever
 interface you prefer.  This channel is intended to be an informal online
 gathering place for the Galaxy community to post questions and help each other
-out.  If you are unfamiliar with IRC or Gitter, no worries -- we're friendly!
+out.  If you are unfamiliar with IRC or Matrix, no worries -- we're friendly!
 Do note that the community is widely scattered across the globe, and when you
 post a question you may have to wait a little bit for someone to respond.
 
-To join via Gitter, you can simply click the "OPEN CHAT" button at the bottom
+To join via Matrix, you can simply click the "OPEN CHAT" button at the bottom
 right of this screen.  If you prefer IRC, you can connect directly via browser
 [here](http://webchat.freenode.net/?channels=#galaxyproject), or via
 `irc.freenode.net` in the room `#galaxyproject`, using your favorite IRC
@@ -68,11 +68,11 @@ If and when you [setup your own Galaxy instance](/admin/get-galaxy/), you can ma
 
 <img class="img-fluid float-right" src="/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="200" />
 
-The [Galactic Blog](/blog/) features Galaxy related blog posts from community members.  The blog contains longer form posts or pointers to longer form posts that are elsewhere on the web.
+The [Galactic Blog](/news/) features Galaxy related blog posts from community members.  The blog contains longer form posts or pointers to longer form posts that are elsewhere on the web.
 
 # Documentation
 
-This site contains a large amount of documentation about using and administering Galaxy.  You can help keep this site current and relevant by maintaining it and by addressing gaps in the current documentation.  See the  [CONTRIBUTING.md file](https://github.com/galaxyproject/galaxy-hub/blob/master/CONTRIBUTING.md) for more on updating this site.
+This site contains a large amount of documentation about using and administering Galaxy.  You can help keep this site current and relevant by maintaining it and by addressing gaps in the current documentation.  See the  [CONTRIBUTING.md file](https://github.com/galaxyproject/galaxy-hub/blob/main/CONTRIBUTING.md) for more on updating this site.
 
 # Code
 

@@ -1,0 +1,249 @@
+---
+/**
+ * EventsTable — table layout for bare event pages.
+ * Columns: Date | Topic/Event | Venue/Location | Contact
+ */
+
+interface EventEntry {
+  id: string;
+  data: {
+    title?: string | null;
+    slug?: string;
+    date?: Date | string | null;
+    end?: Date | string | null;
+    location?: string | { name?: string; url?: string } | null;
+    continent?: string | null;
+    contact?: string | null;
+    contacts?:
+      | Array<{ name?: string; email?: string; url?: string }>
+      | { name?: string; email?: string; url?: string }
+      | null;
+    external_url?: string | null;
+    gtn?: boolean | null;
+    tease?: string | null;
+  };
+}
+
+interface Props {
+  events: EventEntry[];
+}
+
+const { events } = Astro.props;
+
+function formatDate(date: Date | string | undefined | null): string {
+  if (!date) return '';
+  const d = typeof date === 'string' ? new Date(date) : date;
+  return d.toLocaleDateString('en-GB', { year: 'numeric', month: 'short', day: 'numeric' });
+}
+
+function formatDateRange(start: Date | string | undefined | null, end: Date | string | undefined | null): string {
+  if (!start) return '';
+  const startStr = formatDate(start);
+  if (!end) return startStr;
+  const startD = typeof start === 'string' ? new Date(start) : start;
+  const endD = typeof end === 'string' ? new Date(end) : end;
+  if (startD.toDateString() === endD.toDateString()) return startStr;
+  return `${startStr} - ${formatDate(end)}`;
+}
+
+function eventSlug(event: EventEntry): string {
+  return (event.data.slug || event.id)
+    .replace(/\.mdx?$/, '')
+    .replace(/--/g, '/')
+    .replace(/^events\//, '');
+}
+
+function renderContacts(
+  contact: EventEntry['data']['contact'],
+  contacts: EventEntry['data']['contacts']
+): Array<{ name: string; href?: string }> {
+  if (contact && typeof contact === 'string') {
+    return [{ name: contact }];
+  }
+  if (!contacts) return [];
+  const list = Array.isArray(contacts) ? contacts : [contacts];
+  return list.map((c) => ({
+    name: c.name || '',
+    href: c.email ? `mailto:${c.email}` : c.url || undefined,
+  }));
+}
+
+const EXTERNAL_LINK_SVG = `<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block;vertical-align:middle;margin-left:4px;"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>`;
+---
+
+<table class="events-table">
+  <thead>
+    <tr>
+      <th class="col-date">Date</th>
+      <th class="col-topic">Topic/Event</th>
+      <th class="col-location">Venue/Location</th>
+      <th class="col-contact">Contact</th>
+    </tr>
+  </thead>
+  <tbody>
+    {
+      events.map((event) => {
+        const slug = eventSlug(event);
+        const loc = event.data.location;
+        const locName = loc ? (typeof loc === 'string' ? loc : loc.name) : null;
+        const locUrl = loc && typeof loc !== 'string' ? loc.url : null;
+        const contactList = renderContacts(event.data.contact, event.data.contacts);
+        return (
+          <tr>
+            <td class="col-date">{formatDateRange(event.data.date, event.data.end)}</td>
+            <td class="col-topic">
+              {event.data.external_url ? (
+                <span class="title-row">
+                  <a href={event.data.external_url} target="_blank" rel="noopener">
+                    {event.data.title}
+                  </a>
+                  <Fragment set:html={EXTERNAL_LINK_SVG} />
+                </span>
+              ) : (
+                <a href={`/events/${slug}/`}>{event.data.title}</a>
+              )}
+              {event.data.tease && <p class="tease">{event.data.tease}</p>}
+            </td>
+            <td class="col-location">
+              {event.data.continent && (
+                <img
+                  class="continent-icon"
+                  src={`/images/icons/${event.data.continent}.png`}
+                  alt={event.data.continent}
+                />
+              )}
+              {locUrl ? <a href={locUrl}>{locName}</a> : locName ? <span>{locName}</span> : null}
+            </td>
+            <td class="col-contact">
+              {event.data.gtn && (
+                <a href="https://training.galaxyproject.org/" class="gtn-link">
+                  <img
+                    class="gtn-icon"
+                    src="/images/galaxy-logos/GTN16.png"
+                    alt="Training offered by GTN Member"
+                    title="Training offered by GTN Member"
+                  />
+                </a>
+              )}
+              {contactList.map((c, i) => (
+                <Fragment>
+                  {c.href ? <a href={c.href}>{c.name}</a> : <span>{c.name}</span>}
+                  {i < contactList.length - 1 && ', '}
+                </Fragment>
+              ))}
+            </td>
+          </tr>
+        );
+      })
+    }
+  </tbody>
+</table>
+
+<style>
+  body table.events-table {
+    border: 1px solid #bdc6d0;
+  }
+
+  .events-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9em;
+    table-layout: fixed;
+    border: 1px solid #bdc6d0;
+  }
+
+  .events-table th {
+    text-align: left;
+    border-bottom: 2px solid #bdc6d0;
+    padding: 0.5rem 0.75rem;
+    color: #2c3143;
+    font-weight: 600;
+    white-space: nowrap;
+    background-color: #fff;
+  }
+
+  .events-table td {
+    padding: 0.7rem 1rem;
+    border: 1px solid #bdc6d0;
+    vertical-align: top;
+  }
+
+  table.events-table tbody tr:hover {
+    background: #eef0f2 !important;
+  }
+
+  table.events-table tbody tr:nth-child(odd) {
+    background: #f8f9fa;
+  }
+
+  .col-date {
+    color: #555;
+    width: 20%;
+  }
+
+  .col-topic {
+    width: 40%;
+  }
+
+  .col-topic a {
+    color: #25537b;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .col-topic a:hover {
+    text-decoration: underline;
+  }
+
+  .title-row {
+    display: inline;
+  }
+
+  .tease {
+    margin: 0.25rem 0 0;
+    font-size: 0.9em;
+    color: #555;
+  }
+
+  .col-location {
+    width: 20%;
+  }
+
+  .col-location a {
+    color: #25537b;
+    text-decoration: none;
+  }
+
+  .col-location a:hover {
+    text-decoration: underline;
+  }
+
+  .continent-icon {
+    float: right;
+    margin-left: 4px;
+    height: 40px;
+    width: auto;
+  }
+
+  .col-contact {
+    width: 20%;
+  }
+
+  .col-contact a {
+    color: #25537b;
+    text-decoration: none;
+  }
+
+  .col-contact a:hover {
+    text-decoration: underline;
+  }
+
+  .gtn-link {
+    float: right;
+  }
+
+  .gtn-icon {
+    height: 16px;
+    width: auto;
+  }
+</style>

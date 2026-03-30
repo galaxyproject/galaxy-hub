@@ -1,7 +1,7 @@
 ---
 title: February 2018 Galaxy News
 ---
-[<img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/galaxy-updates/)
+[<img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="150" />](/galaxy-updates/)
 
 Welcome to the February 2018 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -227,10 +227,10 @@ Plenty of materials for Galaxy administration are now [up to date and available 
 # New Galactic Blog Entry: Galaxy R Markdown Tools
 
 <div class="float-right" >
-[<img src="/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="200" />](/blog/)
+[<img src="/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="200" />](/news/)
 </div>
 
-January saw one new *[Galactic Blog](/blog/)* entry:
+January saw one new *[Galactic Blog](/news/)* entry:
 
 * [Galaxy R Markdown Tools](https://github.com/statonlab/galaxy-r-markdown-tools), by Ming Chen
 

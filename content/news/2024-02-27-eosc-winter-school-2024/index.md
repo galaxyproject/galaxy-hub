@@ -1,9 +1,18 @@
 ---
 title: "Horizon Europe project EOSC EuroScienceGateway at EOSC Winter School 2024"
 date: "2024-02-27"
-authors: "Anika Erxleben"
-subsites: [all-eu, global]
+subsites: [all-eu, global, esg]
+tags: [esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5, freiburg, demo, fair, training, outreach]
 main_subsite: eu
+contributions:
+  authorship:
+    - erxleben
+  funding:
+    - eu
+    - eurosciencegateway
+    - uni-freiburg
+    - egi
+    - eosc-life
 ---
 
 ![EOSC Winter School 2024](./images/image4.jpg)

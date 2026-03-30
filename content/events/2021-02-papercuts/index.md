@@ -34,7 +34,7 @@ This will be a 24h event, spanning all time zones with our worldwide community. 
 
 ## Interested?
 
-Interested?  Please let us know by registering your interest.  We'll send you information before the event.  (Registering your interest is optional.) Please join us on a call (and on [Gitter](https://gitter.im/galaxyproject/Lobby)) and we will get you on board.
+Interested?  Please let us know by registering your interest.  We'll send you information before the event.  (Registering your interest is optional.) Please join us on a call (and on [Matrix](https://matrix.to/#/#galaxyproject_Lobby:gitter.im)) and we will get you on board.
 
 <button type="button" class="btn btn-light"> **[Sign up](https://docs.google.com/forms/d/e/1FAIpQLSekStDOirT2EFO4DBtAV5pJvj15xdiYrpFHS1KhEtZh3_Cfuw/viewform)**
  </button></a>
@@ -102,7 +102,7 @@ Here are links to the issues identified as potential targets for papercuts day:
 
 If you are a Galaxy user or admin, you can create, or tag existing GitHub issues for any irritating, but likely easily fixed bugs (make a guess). These can be in any part of Galaxy, not just the core engine, and includes training, documentation, and other software.
 
-If you don't have a GitHub or Gitter account yet, then set them up (in that order).
+If you don't have a GitHub or Matrix account yet, then set them up (in that order).
 
 If you have time, and want to learn more about contributing you are encouraged to review:
 
@@ -113,7 +113,7 @@ If you have time, and want to learn more about contributing you are encouraged t
 
 ### During the event
 
-We will have video calls throughout the day and be on Gitter for chat all day long. Please take advantage of both to communicate with your collaborators around the world.
+We will have video calls throughout the day and be on Matrix for chat all day long. Please take advantage of both to communicate with your collaborators around the world.
 
 ### After the event
 
@@ -123,7 +123,7 @@ We will have video calls throughout the day and be on Gitter for chat all day lo
 
 ### Communication
 
-Communication will happen through GitHub, [Gitter channels](https://gitter.im/galaxyproject/Lobby) and [Zoom](#join-us-in-our-regular-video-calls). Links will be posted here before the event.
+Communication will happen through GitHub, [Matrix channels](https://matrix.to/#/#galaxyproject_Lobby:gitter.im) and [Zoom](#join-us-in-our-regular-video-calls). Links will be posted here before the event.
 
 ## Get the word out
 

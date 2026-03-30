@@ -12,4 +12,9 @@ gtn: true
 contact: Melanie Föll, Matthias Fahrner
 tags: [training]
 subsites: [all-eu, global, us]
+contributions:
+  organisers:
+    - foellmelanie
+    - matthias313
+
 ---

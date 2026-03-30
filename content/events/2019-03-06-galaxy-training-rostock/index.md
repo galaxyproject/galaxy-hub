@@ -14,9 +14,11 @@ location:
   postal: 18059
   region: Mecklenburg-Vorpommern
   street: Albert-Einstein-Str. 22
-supporters:
-- denbi
 subsites: [eu]
+contributions:
+  funding:
+    - deNBI
+
 ---
 
 Galaxy for linking Bisulfite sequencing with RNA sequencing, March 2019, registration is open!

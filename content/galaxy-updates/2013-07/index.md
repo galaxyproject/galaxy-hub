@@ -1,7 +1,7 @@
 ---
 title: July 2013 Galaxy Update
 ---
-<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width="150" /></a></div>
 
 Welcome to the July 2013 *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -114,7 +114,7 @@ This installation of Galaxy has been configured such that anonymous users can op
     <td> <a href='http://www.citeulike.org/group/16008/tag/howto'>howto</a> </td>
   </tr>
   <tr>
-    <td colspan=2 style=" text-align: center; border: none;"> <span style="font-size: smaller;"> * New tag this month </span> </td>
+    <td colspan="2" style=" text-align: center; border: none;"> <span style="font-size: smaller;"> * New tag this month </span> </td>
   </tr>
 </table>
 
@@ -199,10 +199,10 @@ The [1,000th Galaxy related paper](/news/galaxy-cite-u-like-paper1000/) was adde
     <td> <a href='http://www.citeulike.org/group/16008/tag/usecloud'>usecloud</a>* </td>
   </tr>
   <tr>
-    <td colspan=8 style=" text-align: center; border: none;"> </td>
+    <td colspan="8" style=" text-align: center; border: none;"> </td>
   </tr>
   <tr>
-    <td colspan=8 style=" text-align: center; border: none;"> <span style="font-size: smaller;"> * These tags were added in 2013 and very few papers before 2013 have been back-curated with them.  All the tags are explained on the <a href='/publication-library/'>CiteULike</a> page. </span> </td>
+    <td colspan="8" style=" text-align: center; border: none;"> <span style="font-size: smaller;"> * These tags were added in 2013 and very few papers before 2013 have been back-curated with them.  All the tags are explained on the <a href='/publication-library/'>CiteULike</a> page. </span> </td>
   </tr>
 </table>
 
@@ -318,10 +318,10 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <td> <a href="mailto:m DOT crowe AT qfab DOT org">Mark Crowe</a> </td>
   </tr>
   <tr>
-    <th rowspan=4> July 18-23 </th>
+    <th rowspan="4"> July 18-23 </th>
     <td> <em><a href='/events/niehs2013/'>Introduction to Galaxy Workshop</a></em><div class='indent'>National Institute of Environmental Health Sciences (NIEHS)</div> </td>
-    <td rowspan=4> <a href='/events/rt-workshop-tour2013/'>2013 Research Triangle Workshop Tour</a>, North Carolina, United States </td>
-    <td rowspan=4> <a href='/people/dave-clements/'>Dave Clements</a> </td>
+    <td rowspan="4"> <a href='/events/rt-workshop-tour2013/'>2013 Research Triangle Workshop Tour</a>, North Carolina, United States </td>
+    <td rowspan="4"> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <td> <em><a href='/events/unc2013/'>Introduction to Galaxy Workshop</a></em> <div class='indent'>University of North Carolina, Chapel Hill</div> </td>
@@ -339,9 +339,9 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <td> <a href="mailto:outreach AT galaxyproject DOT org">Galaxy Outreach</a> </td>
   </tr>
   <tr>
-    <th rowspan=3> July 21-25 </th>
+    <th rowspan="3"> July 21-25 </th>
     <td> <em><a href='http://bit.ly/116LWZB'>Experiences in building a Next-Generation Sequencing Analysis Service using Galaxy, Globus Online, and Amazon Web Services</a></em> </td>
-    <td rowspan=3> <strong><a href='https://www.xsede.org/web/xsede13'>XSEDE13</a></strong>, San Diego, California, United States </td>
+    <td rowspan="3"> <strong><a href='https://www.xsede.org/web/xsede13'>XSEDE13</a></strong>, San Diego, California, United States </td>
     <td> <a href='http://www.mcs.anl.gov/about/people_detail.php?id=347'>Ravi Madduri</a> </td>
   </tr>
   <tr>
@@ -378,7 +378,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
 # Galaxy Distributions
 
 <div class='right'>
-<a href='/archive/dev-news-briefs/2013-06-03/'><img src="/images/news-graphics/2013_06_03_scatterplot-1.png" alt="scatterplot" width=400 /></a></div>
+<a href='/archive/dev-news-briefs/2013-06-03/'><img src="/images/news-graphics/2013_06_03_scatterplot-1.png" alt="scatterplot" width="400" /></a></div>
 
 The most recent official distribution was on [June 3, 2013](/archive/dev-news-briefs/2013-06-03/).  There was minor  [security patch released on June 12](https://lists.galaxyproject.org/archives/list/galaxy-announce@lists.galaxyproject.org/thread/MELA4C4YJ32QUVFXLMTH3RXY4X2QLGOS/#MELA4C4YJ32QUVFXLMTH3RXY4X2QLGOS).
 
@@ -457,7 +457,7 @@ Third, the feature can be left enabled and unpatched, and the vulnerability can 
 
 # Tool Shed Contributions
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width="150" /></a></div>
 
 * [MMuFLR](http://bit.ly/19JoLFq): Missense Mutation and Frameshift Location Reporter Workflows.
 * [ensembl_vep](http://bit.ly/ZvuN8A): Annotation tool using Ensembl Variant Effect Predictor for GVL

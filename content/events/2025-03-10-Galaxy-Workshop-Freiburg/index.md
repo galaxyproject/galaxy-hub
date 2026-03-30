@@ -8,12 +8,17 @@ location:
   name: "University of Freiburg, Germany"
 gtn: true
 contact: "Daniela Schneider"
-tags: [workshop, training]
-supporters:
-- dataplant
-- eurosciencegateway
-- denbi
-subsites: [all]
+tags: [workshop, training, esg, esg-wp1]
+subsites: [all, esg, all-eu]
+contributions:
+  organisers:
+    - Sch-Da
+  funding:
+    - eu
+    - deNBI
+    - mwk
+    - eurosciencegateway
+    - nfdi4plants
 ---
 
 # General information

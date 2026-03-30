@@ -1,0 +1,87 @@
+import { test, expect } from '@playwright/test';
+
+const supporterSlug = 'eurosciencegateway'; // credited via contributions.funding
+const markdownProfileSlug = 'nfdi4bioimage';
+
+test.describe('Hall of Fame', () => {
+  test('/hall-of-fame/ lists contributors', async ({ page }) => {
+    const response = await page.goto('/hall-of-fame/');
+    expect(response?.status()).toBe(200);
+
+    await expect(page.getByRole('heading', { name: /hall of fame/i })).toBeVisible();
+    await expect(page.getByRole('heading', { name: /authors/i })).toBeVisible();
+    await expect(page.getByRole('heading', { name: /supporters/i })).toBeVisible();
+
+    const authors = page.locator('[data-kind="author"]');
+    const supporters = page.locator('[data-kind="supporter"]');
+    await expect(authors.first()).toBeVisible();
+    await expect(supporters.first()).toBeVisible();
+    expect(await authors.count()).toBeGreaterThan(0);
+    expect(await supporters.count()).toBeGreaterThan(0);
+
+    // Supporter names should use display names, not YAML keys
+    await expect(supporters.filter({ hasText: /EuroScienceGateway/i }).first()).toBeVisible();
+  });
+
+  test(`/hall-of-fame/${supporterSlug} renders contributions`, async ({ page }) => {
+    const response = await page.goto(`/hall-of-fame/${supporterSlug}/`);
+    expect(response?.status()).toBe(200);
+
+    await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
+    await expect(page.getByRole('heading', { name: /news/i })).toBeVisible();
+
+    const items = page.locator('[data-item]');
+    await expect(items.first()).toBeVisible();
+    expect(await items.count()).toBeGreaterThan(0);
+
+    // Back link should point to Hall of Fame index
+    const backLink = page.locator('a[href="/hall-of-fame/"]').first();
+    await expect(backLink).toBeVisible();
+  });
+
+  test('/hall-of-fame/elixir-europe/ exposes the GTN Hall of Fame link for organisations', async ({ page }) => {
+    const response = await page.goto('/hall-of-fame/elixir-europe/');
+    expect(response?.status()).toBe(200);
+
+    const gtnLink = page.getByRole('link', { name: 'GTN Hall of Fame' });
+    await expect(gtnLink).toBeVisible();
+    await expect(gtnLink).toHaveAttribute(
+      'href',
+      'https://training.galaxyproject.org/training-material/hall-of-fame/elixir-europe/'
+    );
+  });
+
+  test('/hall-of-fame/dekcd/ preserves the original GTN key casing for organisations', async ({ page }) => {
+    const response = await page.goto('/hall-of-fame/dekcd/');
+    expect(response?.status()).toBe(200);
+
+    const gtnLink = page.getByRole('link', { name: 'GTN Hall of Fame' });
+    await expect(gtnLink).toBeVisible();
+    await expect(gtnLink).toHaveAttribute(
+      'href',
+      'https://training.galaxyproject.org/training-material/hall-of-fame/deKCD/'
+    );
+  });
+
+  test('/hall-of-fame/an-example/ hides the GTN Hall of Fame link when opted out', async ({ page }) => {
+    const response = await page.goto('/hall-of-fame/an-example/');
+    expect(response?.status()).toBe(200);
+
+    await expect(page.getByRole('link', { name: 'GTN Hall of Fame' })).toHaveCount(0);
+  });
+
+  test(`/hall-of-fame/${markdownProfileSlug} renders markdown profile text while keeping contribution teasers plain`, async ({
+    page,
+  }) => {
+    const response = await page.goto(`/hall-of-fame/${markdownProfileSlug}/`);
+    expect(response?.status()).toBe(200);
+
+    const profileDescription = page.locator('[data-profile-description]').first();
+    await expect(profileDescription).toBeVisible();
+    await expect(profileDescription.locator('a[href="https://nfdi4bioimage.de/"]').first()).toBeVisible();
+    await expect(profileDescription).not.toContainText('[NFDI4BIOIMAGE](');
+
+    // News/Event teases are treated as plain text and should not render markdown links.
+    await expect(page.locator('[data-item] p.line-clamp-2 a')).toHaveCount(0);
+  });
+});

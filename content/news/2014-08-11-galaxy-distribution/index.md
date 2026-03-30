@@ -3,8 +3,8 @@ title: "August 11, 2014 Galaxy Distribution"
 date: "2014-08-11"
 subsites: [global, us]
 ---
-<div class='left'><a href='http://getgalaxy.org'><img src="/images/logos/GetGalaxyOrg.png" alt=" " width=150 /></a></div>
-<div class='right'><a href='http://wiki.galaxyproject.org/Admin/Tools/Docker'><img src="/images/logos/DockerInGalaxyAnnotated.png" alt=" " width=280 /></a></div>
+<div class='left'><a href='http://getgalaxy.org'><img src="/images/logos/GetGalaxyOrg.png" alt=" " width="150" /></a></div>
+<div class='right'><a href='http://wiki.galaxyproject.org/Admin/Tools/Docker'><img src="/images/logos/DockerInGalaxyAnnotated.png" alt=" " width="280" /></a></div>
 <br />
 **[Complete News Brief](http://wiki.galaxyproject.org/DevNewsBriefs/2014-08-11)**
 <br /><br /><br />
@@ -17,8 +17,8 @@ subsites: [global, us]
 <br /><br />
 <table>
   <tr>
-    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width=70 /></a> &nbsp;&nbsp; </td>
-    <td colspan=2 style=" border: none;"> <strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a></strong> </td>
+    <td rowspan="3" style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width="70" /></a> &nbsp;&nbsp; </td>
+    <td colspan="2" style=" border: none;"> <strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
     <td style=" border: none;"> <strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a></strong> </td>

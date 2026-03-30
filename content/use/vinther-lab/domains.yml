@@ -1,0 +1,23 @@
+domains:
+    - platform_url: http://galaxy.bio.ku.dk/
+      ip: 130.225.98.17
+      version: IPv4
+      asn: AS1835 Forskningsnettet - Danish network for Research and Education
+      location:
+          city: Copenhagen
+          region: Capital Region
+          region_code: "84"
+          country: DK
+          country_name: Denmark
+          country_code: DK
+          continent_code: EU
+          postal: "2300"
+          latitude: 55.6482
+          longitude: 12.6014
+          timezone: Europe/Copenhagen
+          currency: DKK
+      response:
+          time: "2025-11-25T21:24:17Z"
+          status_code: 200
+          response_time_ms: 0
+          reason: OK

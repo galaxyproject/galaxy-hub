@@ -1,14 +1,14 @@
 ---
 title: 'Training material and workshops - Pathogen detection from (direct Nanopore) sequencing data using Galaxy'
 tease: "Our new GTN material has been published in January and used in workshops"
-authors: Engy Nasr, Bérénice Batut
 date: '2023-03-21'
-authors_structured:
-- github: EngyNasr
-- github: bebatut
 hide_tease: false
-tags: [training]
+tags: [training, outreach]
 subsites: [global]
+contributions:
+  authorship:
+    - EngyNasr
+    - bebatut
 ---
 
 Food contamination with pathogens are a major burden on our society. Globally, they affect an estimated 600 million people a year and impact socioeconomic development at different levels. These outbreaks are mainly due to *Salmonella* spp. followed by *Campylobacter* spp. and Noroviruses.

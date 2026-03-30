@@ -1,0 +1,801 @@
+tools:
+    - name: Create a GSuite from an integrated catalog of genomic datasets
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_track_global_search_tool
+      description: ""
+    - name: Create a remote GSuite from a public repository
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_track_source_test_tool
+      description: ""
+    - name: Create a GSuite from datasets in your history
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_create_g_suite_file_from_history_elements_tool
+      description: ""
+    - name: Create a GSuite from a single track based on a single column/attribute
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_compile_gsuite_from_single_track_attribute_tool
+      description: ""
+    - name: Create a GSuite from an archive (Zip/tar) in history
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_compile_g_suite_from_archive_tool
+      description: ""
+    - name: Create a GSuite from the HyperBrowser repository
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_extract_subtracks_tool
+      description: ""
+    - name: Convert GSuite tracks from remote to primary (Download tracks)
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_g_suite_download_files
+      description: ""
+    - name: Preprocess a GSuite for analysis
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_preprocess_g_suite_tracks_tool
+      description: ""
+    - name: "Convert GSuite tracks from preprocessed to primary "
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_g_suite_convert_from_preprocessed_to_primary_tool
+      description: ""
+    - name: Select a subset of tracks from a GSuite
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_g_suite_select_rows
+      description: ""
+    - name: Select a subset of metadata columns in a GSuite
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_g_suite_select_columns
+      description: ""
+    - name: Concatenate two or more GSuites
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_concatenate_gsuites_tool
+      description: ""
+    - name: Edit a metadata column in a GSuite
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_edit_gsuite_metadata_tool
+      description: ""
+    - name: Generate a union track from all the tracks in a GSuite
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_union_of_g_suite_tracks_tool
+      description: ""
+    - name: Intersect preprocessed tracks in GSuite with a single track
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_multi_track_intersect_tool
+      description: ""
+    - name: Modify primary tracks referred to in a GSuite
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_g_suite_manipulate_text_files
+      description: ""
+    - name: Export primary tracks from a GSuite to your history
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_g_suite_export_to_history_tool
+      description: ""
+    - name: Summary of metadata attributes for GSuite
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_g_suite_metadata_overview_tool
+      description: ""
+    - name: Summary statistics per track in a GSuite
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_pilot_page_basic_overview_of_tracks_in_g_suite_tool
+      description: ""
+    - name: Similarity and uniqueness of tracks in GSuite
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_pilot_page_similarity_and_uniqueness_of_tracks_tool
+      description: ""
+    - name: Tendency of track elements to clump together along the genome (Ripleys K)
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_pilot_page_clustering_in_tracks_tool
+      description: ""
+    - name: Calculate all summary statistics for tracks in GSuite (all of the above)
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_pilot_page_combined_overview_of_tracks_tool
+      description: ""
+    - name: Compute a basic measure for each track in a GSuite
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_g_suite_single_value_analysis_per_track_tool
+      description: ""
+    - name: Determine representative and atypical tracks in a GSuite
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_g_suite_representative_and_untypical_track_tool
+      description: ""
+    - name: Determine GSuite tracks coinciding with a target track
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_g_suite_tracks_coinciding_with_query_track_tool
+      description: ""
+    - name: Determine coinciding track combinations from two GSuites
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_coinciding_tracks_from_two_g_suites_tool
+      description: ""
+    - name: Determine GSuite tracks coinciding with another GSuite
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_determine_suite_tracks_coinciding_with_another_suite
+      description: ""
+    - name: Determine regions where GSuite tracks are enriched
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_multi_track_count_overrepresentation_bins
+      description: ""
+    - name: Determine regions where GSuite tracks co-occur more strongly
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_multi_track_cooccurrence_bins
+      description: ""
+    - name: Color-code segments from a query track based on overlap with reference tracks
+          in a GSuite
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_segments_overlap_visualization_tool
+      description: ""
+    - name: Generate a heatmap based on overlap of segments from a query track with reference
+          tracks in a GSuite
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_segments_overlap_visualization_heatmap_tool
+      description: ""
+    - name: Generate a Venn diagram of overlap between tracks in a GSuite
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_create_bps_venn_d_iagram
+      description: ""
+    - name: Scan targets of a transcription factor
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_all_targets_of_tfs
+      description: ""
+    - name: Scan transcription factors of a genomic region
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_all_tfs_of_regions
+      description: ""
+    - name: Scan for TF binding disruptions due to point mutations
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_tf_binding_disruption
+      description: ""
+    - name: Match a suite of TFs with PWMs
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_match_tf_with_pwm_tool
+      description: ""
+    - name: Show GSuite specification
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=gsuite_spec
+      description: ""
+    - name: "ClusTrack: Cluster tracks in a GSuite based on genome level similarity"
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_clus_track_tool
+      description: ""
+    - name: Plot metadata values of a GSuite file
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_generic_plot_data_tool
+      description: ""
+    - name: Analyze genomic tracks
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_test_1
+      description: ""
+    - name: Visualize track elements relative to anchor regions
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_visualize_track_presence_on_genome
+      description: ""
+    - name: Create high-resolution map of track distribution along genome
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_visualize_single_track_as_heatmap
+      description: ""
+    - name: Create high-resolution map of multiple track distributions along genome
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_visualize_tracks_as_heatmap
+      description: ""
+    - name: Visualize relation between two tracks across genomic regions
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_plot_scatter
+      description: ""
+    - name: Aggregation plot of track elements relative to anchor regions
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_plot_progpattern
+      description: ""
+    - name: Analyze spatial colocalization of track elements (in 3D)
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_colocalization_in_3d_tool
+      description: ""
+    - name: "ClusTrack: Cluster tracks based on genome level similarity"
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_clustering
+      description: ""
+    - name: Analyze k-mer occurrences
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_nmer_analyze
+      description: ""
+    - name: Inspect k-mer frequency variation
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_nmer_inspect
+      description: ""
+    - name: Execute batch commands
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_batch_run_tool
+      description: ""
+    - name: Retrieve batch command IDs of history tracks
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_extract_history_track_names
+      description: ""
+    - name: Concatenate results of multiple history items
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_concatenate_history_results_tool
+      description: ""
+    - name: Extract track from HyperBrowser repository
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_extract_1
+      description: ""
+    - name: Expand or contract points/segments
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_expandbed
+      description: ""
+    - name: Expand BED segments to cover whole genome
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_make_genome_partion_according_to_segments
+      description: ""
+    - name: Combine two BED files into single case-control track
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_create_case_control_track
+      description: ""
+    - name: Merge multiple BED files into single categorical track
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_create_categorical_track_tool
+      description: ""
+    - name: Split BED segments into subsegments of equal size
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_split_segments_tool
+      description: ""
+    - name: Create smoothing or density track
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_create_smoothed_track
+      description: ""
+    - name: Extract segments where value is greater/less than threshold
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_extract_segments_by_thresholding
+      description: ""
+    - name: Generate bp-level track from DNA sequence
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_create_dna_based
+      description: ""
+    - name: Generate bp-level track of distance to nearest segment
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_create_function_track_as_distance_to_nearest_segments
+      description: ""
+    - name: Generate intensity track for confounder handling
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_intensity
+      description: ""
+    - name: Generate k-mer occurrence track
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_nmer_extract
+      description: ""
+    - name: Generate segment track from gene IDs
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_genelist
+      description: ""
+    - name: Create GTrack file from unstructured tabular data
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_tabular_to_gtrack_tool
+      description: ""
+    - name: Convert between GTrack/BED/WIG/bedGraph/GFF/FASTA files
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_universal_converter_tool
+      description: ""
+    - name: Show GTrack specification
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=gtrack_spec
+      description: ""
+    - name: Create GTrack file from unstructured tabular data
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_tabular_to_gtrack_tool
+      description: ""
+    - name: Expand GTrack headers
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_expand_gtrack_header_tool
+      description: ""
+    - name: Validate GTrack file
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_validate_gtrack_file
+      description: ""
+    - name: Standardize GTrack file
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_convert_to_linked_valued_segments
+      description: ""
+    - name: Sort GTrack file
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_sort_gtrack_file
+      description: ""
+    - name: Complement GTrack columns
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_complement_track_element_information
+      description: ""
+    - name: Convert between GTrack/BED/WIG/bedGraph/GFF/FASTA files
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_universal_converter_tool
+      description: ""
+    - name: View clustered heatmap of the 1000 RNAs most associated with bone mineral
+          densities (BMD)
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=skeletome_top_1000
+      description: ""
+    - name: View clustered heatmap of the 1000 RNAs least associated with bone mineral
+          densities (BMD)
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=skeletome_bottom_1000
+      description: ""
+    - name: View regulomes (list)
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_regulomes
+      description: ""
+    - name: View regulomes (table)
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_regulomes_matrix
+      description: ""
+    - name: Select TFs for regulome
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_select_tf
+      description: ""
+    - name: Select diseases for regulome
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_select_disease
+      description: ""
+    - name: Create regulome from history
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_create_regulome
+      description: ""
+    - name: Create google map
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_create_google_map
+      description: ""
+    - name: Set google map image borders
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_set_google_map_image_borders
+      description: ""
+    - name: Simulate p-values using the MCFDR scheme
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=mc_fdr_simulation_tool
+      description: ""
+    - name: MCFDR exploration tool
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_mcfdr_exploration_tool
+      description: ""
+    - name: "Tools used in article: Monte Carlo null models for genomic data"
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_null_model_article_tool
+      description: ""
+    - name: Find TF gene targets
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_tf_gene_targets
+      description: ""
+    - name: Find TFs regulating gene set
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_tf_reg_gene_set
+      description: ""
+    - name: Find cooperative TFs
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_find_cooperative_tfs_tool
+      description: ""
+    - name: Extract IDs of genes intersecting with track elements
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_intersecting_genes
+      description: ""
+    - name: Variant melting profiles
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_variant_melting_profiles
+      description: ""
+    - name: Edit genome info
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_genome_info
+      description: ""
+    - name: Upload genome
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_upload_genome
+      description: ""
+    - name: Install uploaded genome
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_install_genome
+      description: ""
+    - name: Remove genome
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_remove_genome
+      description: ""
+    - name: Edit track info
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_meta_1
+      description: ""
+    - name: Integrate track from history
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_integrate
+      description: ""
+    - name: Preprocess tracks
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_preprocess_tracks_tool
+      description: ""
+    - name: Rename track
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_rename_track
+      description: ""
+    - name: Touch standardized track
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_touch_standardized_track
+      description: ""
+    - name: Standardize track files
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_standardize_track_files_tool
+      description: ""
+    - name: Integrate categorical track from history
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_integrate_categorical_track_from_history
+      description: ""
+    - name: Debug statistic
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_debug_analysis_tool
+      description: ""
+    - name: Debug analysis list
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_debug_analysis_list_tool
+      description: ""
+    - name: Show tail of log file
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_show_tail_of_log_file
+      description: ""
+    - name: Fetch full disk path for data behind history element
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_get_disk_path_for_history_element
+      description: ""
+    - name: List subtrack names
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_list_subtrack_names
+      description: ""
+    - name: Convert primary GSuite with Galaxy URI
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_convert_primary_gsuite_to_local_paths_tool
+      description: to GSuite with local paths
+    - name: Converts a preprocessed GSuite into a primary GSuite with local file paths
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_convert_preprocessed_g_suite_to_file_based_primary_tool
+      description: (not secure)
+    - name: Generate HB ProTo tool
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_proto_generate_tools_tool
+      description: ""
+    - name: Explore HB ProTo tools
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_explore_tools_tool
+      description: ""
+    - name: Hide HB ProTo tool modules
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_hide_in_explorer_tool
+      description: from 'Explore HB ProTo tools'
+    - name: Debug import of HB ProTo tools
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_debug_tool_import_tool
+      description: ""
+    - name: Install HB ProTo tool
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hb_proto_install_tools_tool
+      description: ""
+    - name: Upload File
+      version: 1.1.4
+      link: /hb/tool_runner?tool_id=upload1
+      description: from your computer
+    - name: UCSC Main
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=ucsc_table_direct1
+      description: table browser
+    - name: UCSC Test
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=ucsc_table_direct_test1
+      description: table browser
+    - name: UCSC Archaea
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=ucsc_table_direct_archaea1
+      description: table browser
+    - name: EBI SRA
+      version: 1.0.1
+      link: /hb/tool_runner/data_source_redirect?tool_id=ebi_sra_main
+      description: ENA SRA
+    - name: Get Microbial Data
+      version: 1.0.0
+      link: /hb/tool_runner?tool_id=microbial_import1
+      description: ""
+    - name: BioMart
+      version: 1.0.1
+      link: /hb/tool_runner/data_source_redirect?tool_id=biomart
+      description: Central server
+    - name: CBI Rice Mart
+      version: 1.0.1
+      link: /hb/tool_runner/data_source_redirect?tool_id=cbi_rice_mart
+      description: rice mart
+    - name: GrameneMart
+      version: 1.0.1
+      link: /hb/tool_runner/data_source_redirect?tool_id=gramenemart
+      description: Central server
+    - name: modENCODE fly
+      version: 1.0.1
+      link: /hb/tool_runner/data_source_redirect?tool_id=modENCODEfly
+      description: server
+    - name: Flymine
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=flymine
+      description: server
+    - name: Flymine test
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=flymine_test
+      description: server
+    - name: modENCODE modMine
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=modmine
+      description: server
+    - name: MouseMine
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=mousemine
+      description: server
+    - name: Ratmine
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=ratmine
+      description: server
+    - name: YeastMine
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=yeastmine
+      description: server
+    - name: metabolicMine
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=metabolicmine
+      description: server
+    - name: modENCODE worm
+      version: 1.0.1
+      link: /hb/tool_runner/data_source_redirect?tool_id=modENCODEworm
+      description: server
+    - name: WormBase
+      version: 1.0.1
+      link: /hb/tool_runner/data_source_redirect?tool_id=wormbase
+      description: server
+    - name: Wormbase
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=wormbase_test
+      description: test server
+    - name: ZebrafishMine
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=zebrafishmine
+      description: server
+    - name: EuPathDB
+      version: 1.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=eupathdb
+      description: server
+    - name: HbVar
+      version: 2.0.0
+      link: /hb/tool_runner/data_source_redirect?tool_id=hbvar
+      description: Human Hemoglobin Variants and Thalassemias
+    - name: GenomeSpace import
+      version: 0.0.1
+      link: /hb/tool_runner/data_source_redirect?tool_id=genomespace_file_browser_prod
+      description: from file browser
+    - name: Convert genome coordinates
+      version: 1.0.4
+      link: /hb/tool_runner?tool_id=liftOver1
+      description: between assemblies and genomes
+    - name: Compute
+      version: 1.1.0
+      link: /hb/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fcolumn_maker%2FAdd_a_column1%2F1.1.0
+      description: an expression on every row
+    - name: Add column
+      version: 1.0.0
+      link: /hb/tool_runner?tool_id=addValue
+      description: to an existing dataset
+    - name: Concatenate datasets
+      version: 1.0.0
+      link: /hb/tool_runner?tool_id=cat1
+      description: tail-to-head
+    - name: Cut
+      version: 1.0.2
+      link: /hb/tool_runner?tool_id=Cut1
+      description: columns from a table
+    - name: Merge Columns
+      version: 1.0.1
+      link: /hb/tool_runner?tool_id=mergeCols1
+      description: together
+    - name: Convert
+      version: 1.0.0
+      link: /hb/tool_runner?tool_id=Convert+characters1
+      description: delimiters to TAB
+    - name: Create single interval
+      version: 1.0.0
+      link: /hb/tool_runner?tool_id=createInterval
+      description: as a new dataset
+    - name: Change Case
+      version: 1.0.0
+      link: /hb/tool_runner?tool_id=ChangeCase
+      description: of selected columns
+    - name: Paste
+      version: 1.0.0
+      link: /hb/tool_runner?tool_id=Paste1
+      description: two files side by side
+    - name: Remove beginning
+      version: 1.0.0
+      link: /hb/tool_runner?tool_id=Remove+beginning1
+      description: of a file
+    - name: Select random lines
+      version: 2.0.1
+      link: /hb/tool_runner?tool_id=random_lines1
+      description: from a file
+    - name: Select first
+      version: 1.0.0
+      link: /hb/tool_runner?tool_id=Show+beginning1
+      description: lines from a dataset
+    - name: Select last
+      version: 1.0.0
+      link: /hb/tool_runner?tool_id=Show+tail1
+      description: lines from a dataset
+    - name: Trim
+      version: 0.0.1
+      link: /hb/tool_runner?tool_id=trimmer
+      description: leading or trailing characters
+    - name: Line/Word/Character count
+      version: 1.0.0
+      link: /hb/tool_runner?tool_id=wc_gnu
+      description: of a dataset
+    - name: Secure Hash / Message Digest
+      version: 0.0.1
+      link: /hb/tool_runner?tool_id=secure_hash_message_digest
+      description: on a dataset
+    - name: Filter
+      version: 1.1.0
+      link: /hb/tool_runner?tool_id=Filter1
+      description: data on any column using simple expressions
+    - name: Sort
+      version: 1.0.3
+      link: /hb/tool_runner?tool_id=sort1
+      description: data in ascending or descending order
+    - name: Select
+      version: 1.0.1
+      link: /hb/tool_runner?tool_id=Grep1
+      description: lines that match an expression
+    - name: Extract features
+      version: 1.0.0
+      link: /hb/tool_runner?tool_id=Extract_features1
+      description: from GFF data
+    - name: Filter GFF data by attribute
+      version: "0.1"
+      link: /hb/tool_runner?tool_id=gff_filter_by_attribute
+      description: using simple expressions
+    - name: Filter GFF data by feature count
+      version: "0.1"
+      link: /hb/tool_runner?tool_id=gff_filter_by_feature_count
+      description: using simple expressions
+    - name: Filter GTF data by attribute values_list
+      version: "0.1"
+      link: /hb/tool_runner?tool_id=gtf_filter_by_attribute_values_list
+      description: ""
+    - name: Join two Datasets
+      version: 2.0.2
+      link: /hb/tool_runner?tool_id=join1
+      description: side by side on a specified field
+    - name: Compare two Datasets
+      version: 1.0.2
+      link: /hb/tool_runner?tool_id=comp1
+      description: to find common or distinct rows
+    - name: Group
+      version: 2.1.0
+      link: /hb/tool_runner?tool_id=Grouping1
+      description: data by a column and perform aggregate operation on other columns.
+    - name: AXT to concatenated FASTA
+      version: 1.0.0
+      link: /hb/tool_runner?tool_id=axt_to_concat_fasta
+      description: Converts an AXT formatted file to a concatenated FASTA alignment
+    - name: AXT to FASTA
+      version: 1.0.0
+      link: /hb/tool_runner?tool_id=axt_to_fasta
+      description: Converts an AXT formatted file to FASTA format
+    - name: AXT to LAV
+      version: 1.0.0
+      link: /hb/tool_runner?tool_id=axt_to_lav_1
+      description: Converts an AXT formatted file to LAV format
+    - name: BED-to-GFF
+      version: 2.0.0
+      link: /hb/tool_runner?tool_id=bed2gff1
+      description: converter
+    - name: GFF-to-BED
+      version: 1.0.1
+      link: /hb/tool_runner?tool_id=gff2bed1
+      description: converter
+    - name: LAV to BED
+      version: 1.0.0
+      link: /hb/tool_runner?tool_id=lav_to_bed1
+      description: Converts a LAV formatted file to BED format
+    - name: MAF to BED
+      version: 1.0.0
+      link: /hb/tool_runner?tool_id=MAF_To_BED1
+      description: Converts a MAF formatted file to the BED format
+    - name: MAF to Interval
+      version: 1.0.0
+      link: /hb/tool_runner?tool_id=MAF_To_Interval1
+      description: Converts a MAF formatted file to the Interval format
+    - name: MAF to FASTA
+      version: 1.0.1
+      link: /hb/tool_runner?tool_id=MAF_To_Fasta1
+      description: Converts a MAF formatted file to FASTA format
+    - name: Wiggle-to-Interval
+      version: 1.0.0
+      link: /hb/tool_runner?tool_id=wiggle2simple1
+      description: converter
+    - name: SFF converter
+      version: 1.0.1
+      link: /hb/tool_runner?tool_id=Sff_extractor
+      description: ""
+    - name: GTF-to-BEDGraph
+      version: 1.0.0
+      link: /hb/tool_runner?tool_id=gtf2bedgraph
+      description: converter
+    - name: Wig/BedGraph-to-bigWig
+      version: 1.1.0
+      link: /hb/tool_runner?tool_id=wig_to_bigWig
+      description: converter
+    - name: BED-to-bigBed
+      version: 1.0.0
+      link: /hb/tool_runner?tool_id=bed_to_bigBed
+      description: converter
+    - name: Gene BED To Exon/Intron/Codon BED
+      version: 1.0.0
+      link: /hb/tool_runner?tool_id=gene2exon1
+      description: expander
+    - name: Extract Genomic DNA
+      version: 2.2.3
+      link: /hb/tool_runner?tool_id=Extract+genomic+DNA+1
+      description: using coordinates from assembled/unassembled genomes
+    - name: Extract Pairwise MAF blocks
+      version: 1.0.1
+      link: /hb/tool_runner?tool_id=Interval2Maf_pairwise1
+      description: given a set of genomic intervals
+    - name: Extract MAF blocks
+      version: 1.0.1
+      link: /hb/tool_runner?tool_id=Interval2Maf1
+      description: given a set of genomic intervals
+    - name: Split MAF blocks
+      version: 1.0.0
+      link: /hb/tool_runner?tool_id=MAF_split_blocks_by_species1
+      description: by Species
+    - name: Stitch MAF blocks
+      version: 1.0.1
+      link: /hb/tool_runner?tool_id=Interval_Maf_Merged_Fasta2
+      description: given a set of genomic intervals
+    - name: Stitch Gene blocks
+      version: 1.0.1
+      link: /hb/tool_runner?tool_id=GeneBed_Maf_Fasta2
+      description: given a set of coding exon intervals
+    - name: MAF Coverage Stats
+      version: 1.0.1
+      link: /hb/tool_runner?tool_id=maf_stats1
+      description: Alignment coverage information
+    - name: Join MAF blocks
+      version: 1.0.0
+      link: /hb/tool_runner?tool_id=MAF_Thread_For_Species1
+      description: by Species
+    - name: Filter MAF blocks
+      version: 1.0.0
+      link: /hb/tool_runner?tool_id=MAF_Limit_To_Species1
+      description: by Species
+    - name: Filter MAF blocks
+      version: 1.0.1
+      link: /hb/tool_runner?tool_id=maf_limit_size1
+      description: by Size
+    - name: Extract MAF by block number
+      version: 1.0.1
+      link: /hb/tool_runner?tool_id=maf_by_block_number1
+      description: given a set of block numbers and a MAF file
+    - name: Reverse Complement
+      version: 1.0.1
+      link: /hb/tool_runner?tool_id=MAF_Reverse_Complement_1
+      description: a MAF file
+    - name: Filter MAF
+      version: 1.0.1
+      link: /hb/tool_runner?tool_id=MAF_filter
+      description: by specified attributes
+    - name: Summary Statistics
+      version: 1.1.0
+      link: /hb/tool_runner?tool_id=Summary_Statistics1
+      description: for any numerical column
+    - name: Count
+      version: 1.0.2
+      link: /hb/tool_runner?tool_id=Count1
+      description: occurrences of each record
+    - name: Bar chart
+      version: 1.0.0
+      link: /hb/tool_runner?tool_id=barchart_gnuplot
+      description: for multiple columns
+    - name: Boxplot
+      version: 1.0.0
+      link: /hb/tool_runner?tool_id=qual_stats_boxplot
+      description: of quality statistics
+    - name: VCF to MAF Custom Track
+      version: 1.0.0
+      link: /hb/tool_runner?tool_id=vcf_to_maf_customtrack1
+      description: for display at UCSC

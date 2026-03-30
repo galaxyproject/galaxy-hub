@@ -1,0 +1,26 @@
+domains:
+    - platform_url: https://mississippi.sorbonne-universite.fr
+      ip: 134.157.183.152
+      version: IPv4
+      asn: AS1307 Renater
+      release:
+          version_major: "24.1"
+          version_minor: 5.dev0
+      location:
+          city: Le Pré-Saint-Gervais
+          region: Île-de-France
+          region_code: IDF
+          country: FR
+          country_name: France
+          country_code: FR
+          continent_code: EU
+          postal: "93310"
+          latitude: 48.8872
+          longitude: 2.4162
+          timezone: Europe/Paris
+          currency: EUR
+      response:
+          time: "2025-11-25T19:45:35Z"
+          status_code: 200
+          response_time_ms: 0
+          reason: OK

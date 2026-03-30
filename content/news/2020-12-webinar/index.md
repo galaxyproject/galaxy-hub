@@ -4,6 +4,7 @@ tease: "Options for using Galaxy: everywhere and right now"
 external_url: ""
 date: "2020-12-03"
 subsites: [global, us]
+tags: [webinar, talk]
 ---
 
 <img class="float-right" src="/images/galaxy-logos/galaxy_logo_25percent.png" alt="Galaxy Project" />

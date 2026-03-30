@@ -12,6 +12,11 @@ gtn: true
 contact: "Dan Blankenberg, Martin Čech"
 image: "acm-bcb-2019-banner.png"
 subsites: [global, us]
+contributions:
+  organisers:
+    - blankenberg
+    - martenson
+
 ---
 
 **Tutorial**

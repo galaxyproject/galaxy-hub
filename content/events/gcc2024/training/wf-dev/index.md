@@ -1,6 +1,3 @@
-autotoc: true
----
-
 <slot name="/events/gcc2024/header" />
 <div class="text-center">
 
@@ -13,5 +10,5 @@ Learn how to go from an interactive analysis to a reproducible, tested and flexi
 ## Meet the Instructor
 
 ### Marius Van Den Beek
-Penn State University <br>
+Penn State University <br />
 Galaxy Developer

@@ -4,13 +4,14 @@ date: '2020-04-02'
 tags: [training]
 location:
   name: Online
-supporters:
-- eosc
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
+  funding:
+    - eu
+    - eosc-life
 ---
 
 The [workshop on Workflow Management Systems](https://docs.google.com/document/d/1Od0JzTduih7DIlaIoYS-MnfFUl1UVmy6DprqhBlqAV8) organised by [EOSC-Life](https://www.eosc-life.eu/) WP2 took place on the 2nd and 3rd of April 2020.

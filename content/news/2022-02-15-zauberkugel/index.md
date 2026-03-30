@@ -4,11 +4,11 @@ date: '2022-02-15'
 tease: Bioactive compounds often bind to several target proteins, thereby exhibiting polypharmacology.
 hide_tease: true
 tags: [training, tools]
-authors: aurelienmoumbock
-authors_structured:
-- github: aurelienmoumbock
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - aurelienmoumbock
 ---
 
 

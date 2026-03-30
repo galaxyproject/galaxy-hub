@@ -10,7 +10,7 @@ title: The September 2015 Galactic News!
 
 </div>
 
-<div class='left'><a href='/galaxy-updates/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="150" /></a></div>
 
 Welcome to the September 2015 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. It's been, and will be, a busy few months.  If you have anything to include in the September News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).
 
@@ -45,13 +45,13 @@ The new papers were tagged with:
   <tr>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
-    <td rowspan=4 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="4" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
   </tr>
@@ -236,7 +236,7 @@ There are [upcoming events](/events/) in five countries on three continents.  Se
   </tr>
   <tr>
     <th> </th>
-    <td colspan=3 style=" background-color: #eef;"> </td>
+    <td colspan="3" style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> October<br />12-14 </th>
@@ -304,7 +304,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 ## Workflow4Metabolomics
 
 <div class='right'>
-<div class='solid'><a href='http://galaxy.workflow4metabolomics.org/'><img src="/use/workflow4metabolomics/workflow4metabolomics.png" alt="Workflow4metabolomics Galaxy server" width=300 /></a></div>
+<div class='solid'><a href='http://galaxy.workflow4metabolomics.org/'><img src="/use/workflow4metabolomics/workflow4metabolomics.png" alt="Workflow4metabolomics Galaxy server" width="300" /></a></div>
 <br />
 <div class='right solid'><a href='/use/workflow4metabolomics/workflow4metabolomics-sponsors.png'><img src="/use/workflow4metabolomics/workflow4metabolomics-sponsors.png" alt="Workflow4Metabolomics Sponsors" width="200" /></a>
 <br /><div class='center'>*Sponsors*</div>
@@ -394,12 +394,12 @@ Two security vulnerabilities were recently discovered in Galaxy, and a third in 
 <table>
   <tr>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/images/logos/GTNLogo600.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/blog/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/news/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <img src="/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/blog/'>Share your experience</a> <em><a href='/blog/'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/news/'>Share your experience</a> <em><a href='/news/'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong> </strong> </td>
   </tr>
 </table>
@@ -412,7 +412,7 @@ One new new **[Galaxy Training Network member](https://training.galaxyproject.or
     Krzysztof offers training in Assembly, RNAseq, ChIPseq, Hi-C, DNase-Seq, and Pathway enrichment.
 
 ----
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width="150" /></a></div>
 
 # ToolShed Contributions
 

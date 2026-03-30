@@ -10,7 +10,7 @@ subsites: [global, us]
     <td style=" text-align: center; border: none;"> <a href='http://gcc2015.tsl.ac.uk/'><img src="/images/logos/GCC2015LogoWide600.png" alt="2015 Galaxy Community Conference (GCC2015)" width="200" /></a><br /><br /> <a href='https://galaxyproject.org/gcc2011/'><img src="/events/GCC2011Logo400.png" alt="" width="200" /></a> </td>
   </tr>
   <tr>
-    <td colspan=3 style=" text-align: center; border: none;"> <div class='solid red'> <span style="font-size: larger;"> <strong>GCC2018 needs a host!</strong><br /></span> <span style="font-size: smaller;">(and a logo) </span> </td>
+    <td colspan="3" style=" text-align: center; border: none;"> <div class='solid red'> <span style="font-size: larger;"> <strong>GCC2018 needs a host!</strong><br /></span> <span style="font-size: smaller;">(and a logo) </span> </td>
   </tr>
 </table>
 

@@ -1,14 +1,16 @@
 ---
 title: 'Training Infrastructure Feedback from Marcel Schulz '
 date: '2020-06-08'
-tags: [training, TIaaS]
-supporters:
-- galaxy-europe
-authors: Marcel Schulz
-authors_structured:
-- name: Marcel Schulz
+tags: [training, tiaas, outreach]
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - marcelschulz
+  funding:
+    - deNBI
+    - elixir-europe
+    - uni-freiburg
 ---
 
 ## Galaxy helps virtual teaching!

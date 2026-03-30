@@ -1,17 +1,18 @@
 ---
 title: The ELIXIR tools platform for COVID-19 research at the ECCB2020
 date: '2020-09-10'
-tags: [talk, COVID-19]
-supporters:
-- denbi
-- elixir
-- eosc
-- biodaten
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
+tags: [talk, covid-19, elixir]
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
+  funding:
+    - eu
+    - deNBI
+    - elixir-europe
+    - eosc-life
+    - biodaten
 ---
 
 The 19th [European Conference on Computational Biology](https://eccb2020.info/) is now over. The research on COVID-19 that is being carried out since February was presented in the session “A glimpse into Global Bioinformatics Communities: Europe - ELIXIR”. 

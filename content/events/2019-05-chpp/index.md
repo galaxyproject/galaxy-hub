@@ -13,4 +13,8 @@ gtn: false
 contact: "Yves Vandenbrouck"
 image: 
 subsites: [global, us]
+contributions:
+  organisers:
+    - yvesvdb
+
 ---

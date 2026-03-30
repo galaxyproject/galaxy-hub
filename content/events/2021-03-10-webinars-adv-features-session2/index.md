@@ -2,21 +2,21 @@
 title: Processing thousands of datasets simultaneously
 date: '2021-03-10'
 end: '2021-03-10'
-tags: [training, COVID-19]
+tags: [training, covid-19, webinar, talk]
 contacts:
 - name: Galaxy and ELIXIR
 location:
   name: online
-supporters:
-- galaxy
-- elixir
-- denbi
-- bmbf
-- elixir-belgium
-- biodaten
 hidefooter: true
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  funding:
+    - biodaten
+    - bmbf
+    - deNBI
+    - elixir-europe
+    - uni-freiburg
 ---
 
 Galaxy is supported by a large and active community distributed across the globe, which leads to rapid developments in every release. However, many of this features remain unknown by most of the users.
@@ -44,7 +44,7 @@ Processing thousands of datasets simultaneously: From SRA/ENA import and metadat
 
 * Hans-Rudolf Hotz
 
-[Registration](https://us02web.zoom.us/webinar/register/WN_QiQJDKkSTlSyZLbHTJxaHA){:target="_blank"}
+<a href="https://us02web.zoom.us/webinar/register/WN_QiQJDKkSTlSyZLbHTJxaHA" target="_blank">Registration</a>
 
 
 

@@ -2,12 +2,13 @@
 title: 'Bioconda: sustainable and comprehensive software distribution for the life
   sciences'
 date: '2018-07-04'
-tags: [paper, Bioconda]
-supporters:
-- denbi
-- elixir
+tags: [paper, conda]
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 3 years ago the Galaxy community evaluated mechanism to make software installation more robust and we joined

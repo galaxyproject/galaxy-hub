@@ -3,11 +3,12 @@ title: UseGalaxy.eu Tool Updates for 2019-06-21
 date: '2019-06-21'
 tease: usegalaxy.eu is getting ready for GCC 2019
 tags: [tools]
-supporters:
-- denbi
-- elixir
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 On 2019-06-21, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in [Jenkins Build #109](https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#109/)

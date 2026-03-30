@@ -1,0 +1,24 @@
+domains:
+    - platform_url: https://github.com/COMBAT-TB/irida-galaxy-deploy
+      ip: 140.82.114.3
+      version: IPv4
+      asn: AS36459 GitHub, Inc.
+      org: GitHub, Inc.
+      location:
+          city: San Francisco
+          region: California
+          region_code: CA
+          country: US
+          country_name: United States
+          country_code: US
+          continent_code: NA
+          postal: "94107"
+          latitude: 37.7823
+          longitude: -122.391
+          timezone: America/Los_Angeles
+          currency: USD
+      response:
+          time: "2025-11-25T19:39:52Z"
+          status_code: 200
+          response_time_ms: 0
+          reason: OK

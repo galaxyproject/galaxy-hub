@@ -3,9 +3,11 @@ title: 'NCBI Foreign Contamination Screen Tool: Now Available in Galaxy!'
 date: '2024-03-07'
 tease: "We are thrilled to have partnered with NCBI to include their Foreign Contamination Screen tool in Galaxy!"
 hide_tease: false
-authors: NCBI Staff
 subsites: [global, all]
 main_subsite: us
+contributions:
+  authorship:
+    - ncbistaff
 ---
 
 ![Foreign Contamincation Screen Tool Now Available in Galaxy](NCBIToolPost.jpeg)

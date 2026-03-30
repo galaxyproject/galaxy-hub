@@ -12,4 +12,8 @@ gtn: false
 contact: "Liesbet Peeters, Wim Vranken, Alexander Botzki, Flora D’Anna, Frederik Coppens, Kim De Ruyck"
 image:
 subsites: [global, eu, belgium]
+contributions:
+  organisers:
+    - frederikcoppens
+
 ---

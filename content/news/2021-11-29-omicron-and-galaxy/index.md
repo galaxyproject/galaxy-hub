@@ -2,18 +2,19 @@
 title: Omicron and SARS-CoV-2 genome surveillance
 date: '2021-11-29'
 tease: 'A first view of the Omicron lineage’s mutational pattern derived transparently and fully reproducibly from raw sequencing reads'
-tags: [data, COVID-19]
-supporters:
-- denbi
-- elixir
-- converge
-- bycovid
-- eosc
-authors: wm75
-authors_structured:
-- github: wm75
+tags: [data, covid-19]
 subsites: [global, eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - wm75
+  funding:
+    - eu
+    - deNBI
+    - elixir-europe
+    - elixir-converge
+    - by-covid
+    - eosc-life
 ---
 
 The newly reported SARS-CoV-2 lineage B.1.1.529 made the headlines last week.
@@ -58,5 +59,5 @@ New analysis results are available from both ONT and Illumina data:
 
 Further readings:
 * [https://covid19.galaxyproject.org](https://covid19.galaxyproject.org)
-* [https://galaxyproject.eu/news?tag=COVID-19](https://galaxyproject.eu/news?tag=COVID-19)
+* [https://galaxyproject.eu/news?tag=covid-19](https://galaxyproject.eu/news?tag=covid-19)
 

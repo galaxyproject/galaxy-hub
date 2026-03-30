@@ -2,17 +2,18 @@
 title: Climate Science at BCC2020
 date: '2020-07-27'
 tease: July has been a very busy month for Galaxy Climate
-tags: [GCC]
-supporters:
-- galaxy-europe
-- eosc
-- elixir
-- denbi
-authors: annefou
-authors_structured:
-- github: annefou
+tags: [gcc, tiaas, climate, community, conference]
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - annefou
+  funding:
+    - eu
+    - eosc-life
+    - elixir-europe
+    - deNBI
+    - uni-freiburg
 ---
 
 July has been a very busy month for [Galaxy Climate](https://climate.usegalaxy.eu/) ending with several sessions dedicated to Climate Science at [BCC2020](https://bcc2020.github.io/). It started on July 18-19 with two introductory training sessions (West and East) on “[Getting your hands on Climate data](https://training.galaxyproject.org/training-material/topics/climate/tutorials/climate-101/tutorial.html)” where attendees learned on accessing and analyzing climate data in Galaxy. One important aspect was to explain the difference between climate and weather data; show how to visualize climate data on a map with Galaxy and then how to create and share a simple workflow for framing a very simple adaptation case study.

@@ -1,0 +1,24 @@
+domains:
+    - platform_url: https://galaxy.aws.biochemistry.gwu.edu/
+      ip: 34.194.172.94
+      version: IPv4
+      asn: AS14618 Amazon.com, Inc.
+      org: AWS EC2 (us-east-1)
+      location:
+          city: Ashburn
+          region: Virginia
+          region_code: VA
+          country: US
+          country_name: United States
+          country_code: US
+          continent_code: NA
+          postal: "20149"
+          latitude: 39.0438
+          longitude: -77.4874
+          timezone: America/New_York
+          currency: USD
+      response:
+          time: "2025-11-25T19:37:49Z"
+          status_code: 200
+          response_time_ms: 0
+          reason: OK

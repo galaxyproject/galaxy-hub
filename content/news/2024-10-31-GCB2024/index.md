@@ -2,10 +2,14 @@
 title: "Engaging, Learning, and Sharing at the German Conference of Bioinformatics 2024 with the Galaxy Team!"
 tease: "A recap of our Galaxy team's experience at GCB 2024, featuring insightful talks, interactive poster sessions, hands-on workshops, and memorable social events!"
 date: '2024-10-30'
-authors: Engy Nasr and Saim Momin
 subsites: [all-eu, global, us]
-tags: [GCB-2024, Bielefeld]
+tags: [gcb-2024, Bielefeld]
 main_subsite: eu
+contributions:
+  authorship:
+    - EngyNasr
+    - SaimMomin12
+    - intergalacticutilitiescommissioniuc
 ---
 
 The [German Conference of Bioinformatics (GCB) 2024](https://gcb2024.de/) took place in Bielefeld from September 30 to October 2, bringing together leading minds in bioinformatics to discuss the latest advancements in computational biology, microbiome research, genomics, and more. Representing the Galaxy community, Engy Nasr and Saim Momin attended, contributing with two poster presentations and participating in workshops, poster sessions, and stimulating talks. Here’s a recap of our experience and the conference highlights.

@@ -3,18 +3,11 @@ title: Advanced Galaxy workflow features
 date: '2021-03-03'
 end: '2021-03-03'
 tease: From parameter sweeping to automatic reports
-tags: [COVID-19, training, webinar]
+tags: [covid-19, training, webinar, talk, workflow]
 contacts:
 - name: Galaxy and ELIXIR
 location:
   name: online
-supporters:
-- galaxy
-- elixir
-- denbi
-- bmbf
-- elixir-belgium
-- biodaten
 hidefooter: true
 continent: EU
 gtn: false
@@ -25,6 +18,13 @@ links:
   url: https://youtu.be/ubBnfcPJup0
 subsites: [global, all-eu, us]
 main_subsite: eu
+contributions:
+  funding:
+    - biodaten
+    - bmbf
+    - deNBI
+    - elixir-europe
+    - uni-freiburg
 ---
 
 Galaxy is supported by a large and active community distributed across the globe, which leads to rapid developments in every release. However, many of this features remain unknown by most of the users.
@@ -52,7 +52,7 @@ The first webinar will cover recent Advanced Galaxy workflow features, from para
 
 * Hans-Rudolf Hotz
 
-[Registration](https://us02web.zoom.us/webinar/register/WN_P5bwskN0RZa_t4rAxJ20nw){:target="_blank"}
+<a href="https://us02web.zoom.us/webinar/register/WN_P5bwskN0RZa_t4rAxJ20nw" target="_blank">Registration</a>
 
 
 

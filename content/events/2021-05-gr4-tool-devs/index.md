@@ -20,9 +20,12 @@ links:
   url: 'https://depot.galaxyproject.org/hub/attachments/events/2021-05-gr4-tool-devs/gr4-tool-devs-docker.pdf '
 - text: Server slides
   url: 'https://depot.galaxyproject.org/hub/attachments/events/2021-05-gr4-tool-devs/gr4-tool-devs-server.pdf '
-supporters:
-- galaxy
 subsites: [all-eu, global, us]
+contributions:
+  organisers:
+    - abretaud
+    - blankenberg
+
 ---
 
 * **10am Eastern US / 4pm Central European / [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Resources+for+Tool+Developers+Webinar&iso=20210512T10&p1=419&ah=1)**

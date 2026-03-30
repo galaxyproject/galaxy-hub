@@ -1,6 +1,5 @@
 ---
 description: "Users, developers, and trainers providing feedback and energy to improve and expand the <>."
-autotoc: true
 title: "Galaxy <> Community of Practice"
 ---
 

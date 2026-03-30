@@ -1,17 +1,18 @@
 ---
 title: Training Infrastructure Feedback from Lachlan Gray
 date: '2021-01-28'
-tags: [training, TIaaS]
-supporters:
-- galaxy-europe
-authors: Lachlan Gray
-authors_structured:
-- name: Lachlan Gray
+tags: [training, tiaas]
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - lachlangray
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
-<br>
+<br />
 In January 2021, we ran a bioinformatics workshop for 20 Australian Science Extension students for the SciX program at the University of New South Wales, Sydney. 
 
 The research project tasked the students with comparing RNA-seq data from neurodegenerative disease patients against healthy controls.

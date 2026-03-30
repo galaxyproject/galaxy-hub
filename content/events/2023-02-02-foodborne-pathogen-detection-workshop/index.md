@@ -9,8 +9,18 @@ location:
   url: "https://goo.gl/maps/oGrjgjeNPA3XqjE28"
 gtn: true
 contact: "Bérénice Batut"
-tags: ["workshop"]
+tags: ["workshop", training, microbiology, workflow]
 subsites: [all]
+contributions:
+  organisers:
+    - bebatut
+  funding:
+    - biolytix
+    - elixir-europe
+    - eosc-life
+    - eu
+    - gallantries
+
 ---
 
 <img class="img-fluid float-right" src="/events/2023-02-02-foodborne-pathogen-detection-workshop/flyer.png" style="width:500px;" alt="Flyer for the practical workshop for (foodborne) pathogen detection from (direct Nanopore) sequencing data using Galaxy"/>
@@ -77,10 +87,10 @@ To share about the workflows and (foodborne) pathogen detection in general, we o
 
 The workshop will take place at:
 
-FHNW University of Applied Sciences and Arts Northwestern Switzerland<br>
-Room 01.S.01<br>
-Hofackerstrasse 30<br>
-4132 Muttenz<br>
+FHNW University of Applied Sciences and Arts Northwestern Switzerland<br />
+Room 01.S.01<br />
+Hofackerstrasse 30<br />
+4132 Muttenz<br />
 Switzerland
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2693.6915322715913!2d7.6419649000000005!3d47.53486819999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4791b7960c310f79%3A0x2c6eaa7f823c008f!2sHofackerstrasse%2030%2C%204132%20Muttenz%2C%20Switzerland!5e0!3m2!1sen!2sde!4v1671112546008!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -115,7 +125,7 @@ The FHNW Muttenz Campus is well served by public transport.
 
 - **Address**
 
-  Seminarstrasse 12 – 22<br>
+  Seminarstrasse 12 – 22<br />
   4132 Muttenz
 
 - **Location**: 20 min walking distance
@@ -130,8 +140,8 @@ The FHNW Muttenz Campus is well served by public transport.
 
 - **Address**
 
-  Centralbahnplatz 14<br>
-  4002 Basel<br>
+  Centralbahnplatz 14<br />
+  4002 Basel<br />
 
 - **Location**: 10 minutes by train from Basel and a 5 minute walk from the train station to the campus
 - **Prices**

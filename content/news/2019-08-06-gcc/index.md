@@ -2,15 +2,14 @@
 title: Galaxy Community Conference - a brief summary!
 date: '2019-08-06'
 tease: A brief summary
-tags: [TIaaS, training, GCC]
-supporters:
-- galaxy-europe
-- TIaaS
-- denbi
-- elixir
-- aws
+tags: [tiaas, training, gcc]
 subsites: [all-eu, global, us]
 main_subsite: eu
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+    - aws
 ---
 
 

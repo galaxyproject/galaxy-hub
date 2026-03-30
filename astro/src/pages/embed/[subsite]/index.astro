@@ -1,0 +1,25 @@
+---
+import EmbedLayout from '../../../layouts/EmbedLayout.astro';
+import SubsiteOverview from '../../../components/SubsiteOverview.astro';
+import { getSubsiteStaticPaths, subsiteLabels } from '../../../stores/subsiteStore';
+import { getUpcomingEvents, getPublishedNews } from '../../../utils/content';
+
+export const getStaticPaths = getSubsiteStaticPaths;
+
+const { subsite } = Astro.params;
+const { subsiteInfo } = Astro.props;
+
+const [upcomingEvents, subsiteNews] = await Promise.all([
+  getUpcomingEvents(subsite).then((e) => e.slice(0, 5)),
+  getPublishedNews(subsite).then((n) => n.slice(0, 5)),
+]);
+
+const { title, description } = subsiteLabels[subsite] || {
+  title: `Galaxy ${subsiteInfo.name}`,
+  description: `Galaxy resources and news for ${subsiteInfo.name}`,
+};
+---
+
+<EmbedLayout title={title} description={description}>
+  <SubsiteOverview {subsite} {title} {description} {upcomingEvents} {subsiteNews} />
+</EmbedLayout>

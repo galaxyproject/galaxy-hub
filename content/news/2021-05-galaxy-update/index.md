@@ -3,7 +3,7 @@ title: May 2021 Galactic News
 date: '2021-05-04'
 tease: GCC2021 and James Taylor Video Deadlines Extended, plus a whole lot more.
 autotoc: false
-tags: [newsletter, galaxy]
+tags: [newsletter, gcc]
 subsites: [all-eu, global, us]
 ---
 
@@ -234,7 +234,7 @@ Recordings of the two earlier webinars in the series are now available:
 
 Please join us for the [8th Papercuts CoFest day](/events/2021-05-papercuts/) and the [Galaxy Training Network CoFest day](/events/2021-05-gtn/) on May 20 to help the Galaxy Ecosystem become a better place, and to help new contributors come on board.
 
-We will be on Gitter for chat all day long, and each event will have 3 calls spread across the day. Please take advantage of both to communicate with your collaborators around the world.
+We will be on Matrix for chat all day long, and each event will have 3 calls spread across the day. Please take advantage of both to communicate with your collaborators around the world.
 
 </div>
 
@@ -313,7 +313,7 @@ We still [need a volunteer to lead a discussions on a topic of interest on May 2
 
 The call features a guest speaker, Amrita Cheema, Georgetown University School of Medicine in Washington DC, presenting her work in radiometabolomics. We'll also discuss GCC CoFest work, and training and standardization in metabolomics.
 
-To know more about the Galaxy Metabolomics community, please [subscribe to the mailing list](https://lists.galaxyproject.org/lists/metabolomics.lists.galaxyproject.org/) or join the [metabolomics Gitter channel](https://gitter.im/usegalaxy-eu/metabolomics).
+To know more about the Galaxy Metabolomics community, please [subscribe to the mailing list](https://lists.galaxyproject.org/lists/metabolomics.lists.galaxyproject.org/) or join the [metabolomics Matrix channel](https://matrix.to/#/#usegalaxy-eu_metabolomics:gitter.im).
 
 </div>
 
@@ -570,7 +570,7 @@ This [slide deck](https://training.galaxyproject.org/training-material/topics/tr
 
 # Publications
 
-Pub curation activities [are on a semi-hiatus right now](/blog/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
+Pub curation activities [are on a semi-hiatus right now](/news/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
 
 <div class="card-deck">
 

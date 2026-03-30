@@ -2,3 +2,5 @@ feedparser
 PyYAML
 PyGithub
 python-dateutil
+geopy
+country-converter

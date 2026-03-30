@@ -8,8 +8,15 @@ location:
 image: 
 location_url: "https://pasc23.pasc-conference.org/"
 contact: "Gregory Watson, Leandro Liborio, Kelly Elizabeth Nygren, Rolf Verberg, Sergey Yakubov, Hans-Rudolf Hotz"
-subsites: [global]
+subsites: [global,esg]
 tags: [esg-wp5, esg, conference]
+contributions:
+  organisers:
+    - hrhotz
+    - leandro-liborio
+  funding:
+    - eu
+    - eurosciencegateway
 ---
 
 There will be a symposium on "Galaxy: An Open Web-based Platform for FAIR Data Analysis and Computing Across Scales, Domains and Communities" at the [Platform for Advanced Scientific Computing (PASC) Conference, 2023](https://pasc23.pasc-conference.org/)

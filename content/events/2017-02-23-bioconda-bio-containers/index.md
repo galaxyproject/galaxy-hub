@@ -11,11 +11,13 @@ location:
 contacts:
 - email: galaxy@informatik.uni-freiburg.de
   name: Freiburg Galaxy Team
-supporters:
-- denbi
 tags: [training, talk]
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+
 ---
 
 We are active contributors to [Bioconda](https://bioconda.github.io/) and [BioContainers](https://biocontainers.pro/). In Tübingen, we are invited to give a talk about that.

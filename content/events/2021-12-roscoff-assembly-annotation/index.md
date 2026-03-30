@@ -14,6 +14,13 @@ gtn: true
 contact: Anthony Bretaudeau, Alexandre Cormier, Erwan Corre, Stéphanie Robin
 tags: []
 subsites: [all-eu, global, us]
+contributions:
+  organisers:
+    - abretaud
+    - alexcorm
+    - r1corre
+    - stephanierobin
+
 ---
 
 A 3-day training course on bioinformatics methods for de novo assembly and structural and functional annotation of genomes using short (Illumina) and long reads (PacBio / Oxford Nanopore) sequencing technologies (will be run in french). 

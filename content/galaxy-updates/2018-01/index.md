@@ -1,7 +1,7 @@
 ---
 title: January 2018 Galaxy News
 ---
-[<img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/galaxy-updates/)
+[<img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="150" />](/galaxy-updates/)
 
 Welcome to the January 2018 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -216,13 +216,13 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 # New Galactic Blog Entries: Galaksio
 
 <div class="float-right" >
-[<img src="/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="200" />](/blog/) <br /><br />
-[<img src="/images/logos/galaksio_logo.png" alt="Galaksio in the Galactic Blog" width="200" />](/blog/)
+[<img src="/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="200" />](/news/) <br /><br />
+[<img src="/images/logos/galaksio_logo.png" alt="Galaksio in the Galactic Blog" width="200" />](/news/)
 </div>
 
-We've got two new *[Galactic Blog](/blog/)* entries, both related to [Galaksio](https://galaksio.readthedocs.io/en/latest/):
+We've got two new *[Galactic Blog](/news/)* entries, both related to [Galaksio](https://galaksio.readthedocs.io/en/latest/):
 
-- [Galaksio: a Galaxy user interface focused on running prepared workflows](/blog/2017-12-galaksio/), by Tomas Klingström
+- [Galaksio: a Galaxy user interface focused on running prepared workflows](/news/2017-12-galaksio/), by Tomas Klingström
 - [Bioinformatic training with the B3Africa project](https://usegalaxy-eu.github.io/galaxy-freiburg/2017/12/10/b3africa.html), by Tomas Klingström
 
 The *Galactic Blog* is a place for longer-form posts that are relevant to Galaxy. (See [Galaxy News](/news/) for shorter-form items.)

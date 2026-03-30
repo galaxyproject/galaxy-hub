@@ -1,0 +1,1343 @@
+tools:
+    - name: NCBI Datasets Gene
+      version: 18.5.1+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fncbi_datasets%2Fdatasets_download_gene%2F18.5.1%2Bgalaxy0
+      description: download gene sequences and metadata
+    - name: NCBI Datasets Genomes
+      version: 18.5.1+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fncbi_datasets%2Fdatasets_download_genome%2F18.5.1%2Bgalaxy0
+      description: download genome sequence, annotation and metadata
+    - name: NCBI Accession Download
+      version: 0.2.8+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fncbi_acc_download%2Fncbi_acc_download%2F0.2.8%2Bgalaxy0
+      description: Download sequences from GenBank/RefSeq by accession through the NCBI
+          ENTREZ API
+    - name: Download and Generate Pileup Format
+      version: 2.10.3
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fsra_tools%2Fsra_pileup%2F2.10.3
+      description: from NCBI SRA
+    - name: Faster Download and Extract Reads in FASTQ
+      version: 3.1.1+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fsra_tools%2Ffasterq_dump%2F3.1.1%2Bgalaxy1
+      description: format from NCBI SRA
+    - name: Download and Extract Reads in FASTQ
+      version: 3.1.1+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fsra_tools%2Ffastq_dump%2F3.1.1%2Bgalaxy1
+      description: format from NCBI SRA
+    - name: Download and Extract Reads in BAM
+      version: 3.1.1+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fsra_tools%2Fsam_dump%2F3.1.1%2Bgalaxy1
+      description: format from NCBI SRA
+    - name: Get species occurrences data
+      version: 1.2.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fecology%2Fspocc_occ%2Fspocc_occ%2F1.2.2
+      description: from GBIF, OBIS, ALA, iNAT and others
+    - name: BARIC Archive
+      version: 1.1.0
+      link: /tool_runner/data_source_redirect?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fgenouest%2Fbaric_archive_rennes%2Fbaric_archive_rennes%2F1.1.0
+      description: Rennes
+    - name: BARIC Archive
+      version: 1.1.0
+      link: /tool_runner/data_source_redirect?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fgenouest%2Fbaric_archive_toulouse%2Fbaric_archive_toulouse%2F1.1.0
+      description: Toulouse
+    - name: EBI SCXA Data Retrieval
+      version: v0.0.2+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Febi-gxa%2Fretrieve_scxa%2Fretrieve_scxa%2Fv0.0.2%2Bgalaxy2
+      description: Retrieves expression matrixes and metadata from EBI Single Cell Expression
+          Atlas (SCXA)
+    - name: Download run data
+      version: 0.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Febi_metagenomics_run_downloader%2Febi_metagenomics_run_downloader%2F0.1.0
+      description: from EBI Metagenomics database
+    - name: EBI Search
+      version: 0.1.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Febi_search_rest_results%2Febi_search_rest_results%2F0.1.1
+      description: to obtain search results on resources and services hosted at the EBI
+    - name: Upload File
+      version: 1.1.7
+      link: /tool_runner?tool_id=upload1
+      description: from your computer
+    - name: UCSC Main
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=ucsc_table_direct1
+      description: table browser
+    - name: UCSC Archaea
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=ucsc_table_direct_archaea1
+      description: table browser
+    - name: EBI SRA
+      version: 1.0.1
+      link: /tool_runner/data_source_redirect?tool_id=ebi_sra_main
+      description: ENA SRA
+    - name: modENCODE fly
+      version: 1.0.1
+      link: /tool_runner/data_source_redirect?tool_id=modENCODEfly
+      description: server
+    - name: InterMine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=intermine
+      description: server
+    - name: Flymine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=flymine
+      description: server
+    - name: modENCODE modMine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=modmine
+      description: server
+    - name: MouseMine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=mousemine
+      description: server
+    - name: Ratmine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=ratmine
+      description: server
+    - name: YeastMine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=yeastmine
+      description: server
+    - name: modENCODE worm
+      version: 1.0.1
+      link: /tool_runner/data_source_redirect?tool_id=modENCODEworm
+      description: server
+    - name: WormBase
+      version: 1.0.1
+      link: /tool_runner/data_source_redirect?tool_id=wormbase
+      description: server
+    - name: ZebrafishMine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=zebrafishmine
+      description: server
+    - name: EuPathDB
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=eupathdb
+      description: server
+    - name: HbVar
+      version: 2.0.0
+      link: /tool_runner/data_source_redirect?tool_id=hbvar
+      description: Human Hemoglobin Variants and Thalassemias
+    - name: Unzip
+      version: 6.0+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fimgteam%2Funzip%2Funzip%2F6.0%2Bgalaxy2
+      description: Unzip a file
+    - name: Extract element identifiers
+      version: 0.0.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fcollection_element_identifiers%2Fcollection_element_identifiers%2F0.0.2
+      description: of a list collection
+    - name: Bundle Collection
+      version: 1.3.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fnml%2Fbundle_collections%2Fbundle_collection%2F1.3.0
+      description: Package up and download a collection of files as a single archive.
+    - name: Split file
+      version: 0.5.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fsplit_file_to_collection%2Fsplit_file_to_collection%2F0.5.2
+      description: to dataset collection
+    - name: Pick parameter value
+      version: 0.2.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fpick_value%2Fpick_value%2F0.2.0
+      description: ""
+    - name: Collapse Collection
+      version: 5.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fnml%2Fcollapse_collections%2Fcollapse_dataset%2F5.1.0
+      description: into single dataset in order of the collection
+    - name: Column join
+      version: 0.0.3
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fcollection_column_join%2Fcollection_column_join%2F0.0.3
+      description: on multiple datasets
+    - name: Unzip collection
+      version: 1.0.0
+      link: /tool_runner?tool_id=__UNZIP_COLLECTION__
+      description: ""
+    - name: Zip collections
+      version: 1.0.0
+      link: /tool_runner?tool_id=__ZIP_COLLECTION__
+      description: ""
+    - name: Filter failed datasets
+      version: 1.0.0
+      link: /tool_runner?tool_id=__FILTER_FAILED_DATASETS__
+      description: ""
+    - name: Filter empty datasets
+      version: 1.0.0
+      link: /tool_runner?tool_id=__FILTER_EMPTY_DATASETS__
+      description: ""
+    - name: Flatten collection
+      version: 1.0.0
+      link: /tool_runner?tool_id=__FLATTEN__
+      description: ""
+    - name: Merge collections
+      version: 1.0.0
+      link: /tool_runner?tool_id=__MERGE_COLLECTION__
+      description: ""
+    - name: Relabel identifiers
+      version: 1.1.0
+      link: /tool_runner?tool_id=__RELABEL_FROM_FILE__
+      description: ""
+    - name: Filter collection
+      version: 1.0.0
+      link: /tool_runner?tool_id=__FILTER_FROM_FILE__
+      description: ""
+    - name: Sort collection
+      version: 1.0.0
+      link: /tool_runner?tool_id=__SORTLIST__
+      description: ""
+    - name: Tag elements
+      version: 1.0.0
+      link: /tool_runner?tool_id=__TAG_FROM_FILE__
+      description: ""
+    - name: Apply rules
+      version: 1.1.0
+      link: /tool_runner?tool_id=__APPLY_RULES__
+      description: ""
+    - name: Build list
+      version: 1.1.0
+      link: /tool_runner?tool_id=__BUILD_LIST__
+      description: ""
+    - name: Extract dataset
+      version: 1.0.2
+      link: /tool_runner?tool_id=__EXTRACT_DATASET__
+      description: ""
+    - name: table rename column
+      version: 2.2.3+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frecetox%2Ftable_pandas_rename_column%2Ftable_pandas_rename_column%2F2.2.3%2Bgalaxy1
+      description: of a table
+    - name: Add line to file
+      version: 0.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fadd_line_to_file%2Fadd_line_to_file%2F0.1.0
+      description: writes a line of text at the begining or end of a text file.
+    - name: Regex Replace
+      version: 1.0.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fkellrott%2Fregex_replace%2Fregex_replace%2F1.0.0
+      description: Regular Expression replacement using the Python re module
+    - name: Rebase GFF3 features
+      version: "1.2"
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fgff3_rebase%2Fgff3.rebase%2F1.2
+      description: against parent features
+    - name: metagenomeSeq Normalization
+      version: 1.16.0-0.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fmetagenomeseq_normalization%2Fmetagenomeseq_normalizaton%2F1.16.0-0.0.1
+      description: Cumulative sum scaling
+    - name: Remove columns
+      version: "1.0"
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fcolumn_remove_by_header%2Fcolumn_remove_by_header%2F1.0
+      description: by heading
+    - name: Sort Column Order
+      version: 0.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fcolumn_order_header_sort%2Fcolumn_order_header_sort%2F0.0.1
+      description: by heading
+    - name: Histogram
+      version: 1.0.3
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fdna_filtering%2Fhistogram_rpy%2F1.0.3
+      description: of a numeric column
+    - name: Arithmetic Operations
+      version: 1.0.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Ftables_arithmetic_operations%2Ftables_arithmetic_operations%2F1.0.0
+      description: on tables
+    - name: JQ
+      version: "1.0"
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fjq%2Fjq%2F1.0
+      description: process JSON
+    - name: Add column
+      version: 1.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fadd_value%2FaddValue%2F1.0.1
+      description: to an existing dataset
+    - name: cast
+      version: 1.4.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Freshape2_cast%2Fcast%2F1.4.2
+      description: expand combinations of variables:values to columnar format
+    - name: melt
+      version: 1.4.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Freshape2_melt%2Fmelt%2F1.4.2
+      description: collapse combinations of variables:values to single lines
+    - name: Unique
+      version: "0.3"
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Funique%2Fbg_uniq%2F0.3
+      description: occurrences of each record
+    - name: Merge Columns
+      version: 1.0.3
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fmerge_cols%2FmergeCols1%2F1.0.3
+      description: together
+    - name: Split by group
+      version: "0.6"
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fsplit_file_on_column%2Ftp_split_on_column%2F0.6
+      description: ""
+    - name: PRINSEQ
+      version: 0.20.4+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fprinseq%2Fprinseq%2F0.20.4%2Bgalaxy2
+      description: to process quality of sequences
+    - name: Query Tabular
+      version: 3.3.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fquery_tabular%2Fquery_tabular%2F3.3.2
+      description: using sqlite sql
+    - name: annotateMyIDs
+      version: 3.18.0+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fannotatemyids%2Fannotatemyids%2F3.18.0%2Bgalaxy0
+      description: annotate a generic set of identifiers
+    - name: Compute
+      version: "2.1"
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fcolumn_maker%2FAdd_a_column1%2F2.1
+      description: on rows
+    - name: Replace column
+      version: "0.2"
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Freplace_column_by_key_value_file%2Freplace_column_with_key_value_file%2F0.2
+      description: by values which are defined in a convert file
+    - name: Sort a row
+      version: 9.5+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_sort_rows%2F9.5%2Bgalaxy2
+      description: according to their columns
+    - name: Column Regex Find And Replace
+      version: 1.0.3
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fgalaxyp%2Fregex_find_replace%2FregexColumn1%2F1.0.3
+      description: ""
+    - name: Regex Find And Replace
+      version: 1.0.3
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fgalaxyp%2Fregex_find_replace%2Fregex1%2F1.0.3
+      description: ""
+    - name: Replace
+      version: 9.5+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_find_and_replace%2F9.5%2Bgalaxy2
+      description: parts of text
+    - name: Concatenate datasets
+      version: 9.5+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_cat%2F9.5%2Bgalaxy2
+      description: tail-to-head (cat)
+    - name: Text reformatting
+      version: 9.5+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_awk_tool%2F9.5%2Bgalaxy2
+      description: with awk
+    - name: Select first
+      version: 9.5+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_head_tool%2F9.5%2Bgalaxy2
+      description: lines from a dataset (head)
+    - name: Replace Text
+      version: 9.5+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_replace_in_line%2F9.5%2Bgalaxy2
+      description: in entire line
+    - name: Unique lines
+      version: 9.5+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_uniq_tool%2F9.5%2Bgalaxy2
+      description: assuming sorted input file
+    - name: Multi-Join
+      version: 9.5+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_multijoin_tool%2F9.5%2Bgalaxy2
+      description: (combine multiple files)
+    - name: Select last
+      version: 9.5+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_tail_tool%2F9.5%2Bgalaxy2
+      description: lines from a dataset (tail)
+    - name: Join
+      version: 9.5+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_easyjoin_tool%2F9.5%2Bgalaxy2
+      description: two files
+    - name: xmlstarlet
+      version: 1.6.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fecology%2Fxmlstarlet%2Fxmlstarlet%2F1.6.1
+      description: convert a metadata XML file in one standard to another
+    - name: Advanced Cut
+      version: 9.5+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_cut_tool%2F9.5%2Bgalaxy2
+      description: columns from a table (cut)
+    - name: Create text file
+      version: 9.5+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_text_file_with_recurring_lines%2F9.5%2Bgalaxy2
+      description: with recurring lines
+    - name: Unique
+      version: 9.5+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_sorted_uniq%2F9.5%2Bgalaxy2
+      description: occurrences of each record
+    - name: Sort
+      version: 9.5+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_sort_header_tool%2F9.5%2Bgalaxy2
+      description: data in ascending or descending order
+    - name: Unfold
+      version: 9.5+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_unfold_column_tool%2F9.5%2Bgalaxy2
+      description: columns from a table
+    - name: Replace Text
+      version: 9.5+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_replace_in_column%2F9.5%2Bgalaxy2
+      description: in a specific column
+    - name: Search in textfiles
+      version: 9.5+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_grep_tool%2F9.5%2Bgalaxy2
+      description: (grep)
+    - name: Text transformation
+      version: 9.5+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_sed_tool%2F9.5%2Bgalaxy2
+      description: with sed
+    - name: tac
+      version: 9.5+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_tac%2F9.5%2Bgalaxy2
+      description: reverse a file (reverse cat)
+    - name: Add column
+      version: 1.0.0
+      link: /tool_runner?tool_id=addValue
+      description: to an existing dataset
+    - name: Concatenate datasets
+      version: 1.0.0
+      link: /tool_runner?tool_id=cat1
+      description: tail-to-head
+    - name: Cut
+      version: 1.0.2
+      link: /tool_runner?tool_id=Cut1
+      description: columns from a table
+    - name: Merge Columns
+      version: 1.0.1
+      link: /tool_runner?tool_id=mergeCols1
+      description: together
+    - name: Convert
+      version: 1.0.0
+      link: /tool_runner?tool_id=Convert+characters1
+      description: delimiters to TAB
+    - name: Create single interval
+      version: 1.0.0
+      link: /tool_runner?tool_id=createInterval
+      description: as a new dataset
+    - name: csvtk-cut
+      version: 0.20.0+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fnml%2Fcsvtk_cut%2Fcsvtk_cut%2F0.20.0%2Bgalaxy0
+      description: and keep selected columns
+    - name: Add Header
+      version: 0.1.3
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Festrain%2Fadd_column_headers%2Fadd_column_headers%2F0.1.3
+      description: Add header row with column names to tabular data
+    - name: Number lines
+      version: 9.5+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Fnl%2F9.5%2Bgalaxy2
+      description: ""
+    - name: Change Case
+      version: 1.0.0
+      link: /tool_runner?tool_id=ChangeCase
+      description: of selected columns
+    - name: Paste
+      version: 1.0.0
+      link: /tool_runner?tool_id=Paste1
+      description: two files side by side
+    - name: Remove beginning
+      version: 1.0.0
+      link: /tool_runner?tool_id=Remove+beginning1
+      description: of a file
+    - name: Select random lines
+      version: 2.0.2
+      link: /tool_runner?tool_id=random_lines1
+      description: from a file
+    - name: Select first
+      version: 1.0.2
+      link: /tool_runner?tool_id=Show+beginning1
+      description: lines from a dataset
+    - name: Select last
+      version: 1.0.1
+      link: /tool_runner?tool_id=Show+tail1
+      description: lines from a dataset
+    - name: Trim
+      version: 0.0.2
+      link: /tool_runner?tool_id=trimmer
+      description: leading or trailing characters
+    - name: Line/Word/Character count
+      version: 1.0.0
+      link: /tool_runner?tool_id=wc_gnu
+      description: of a dataset
+    - name: Secure Hash / Message Digest
+      version: 0.0.2
+      link: /tool_runner?tool_id=secure_hash_message_digest
+      description: on a dataset
+    - name: Filter sequences by ID
+      version: 0.2.9
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fpeterjc%2Fseq_filter_by_id%2Fseq_filter_by_id%2F0.2.9
+      description: from a tabular file
+    - name: Column arrange
+      version: "0.2"
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fcolumn_arrange_by_header%2Fbg_column_arrange_by_header%2F0.2
+      description: by header name
+    - name: Sub-sample sequences files
+      version: 0.2.6
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fpeterjc%2Fsample_seqs%2Fsample_seqs%2F0.2.6
+      description: e.g. to reduce coverage
+    - name: Filter
+      version: 1.1.1
+      link: /tool_runner?tool_id=Filter1
+      description: data on any column using simple expressions
+    - name: Sort
+      version: 1.2.0
+      link: /tool_runner?tool_id=sort1
+      description: data in ascending or descending order
+    - name: Select
+      version: 1.0.4
+      link: /tool_runner?tool_id=Grep1
+      description: lines that match an expression
+    - name: Extract features
+      version: 1.0.0
+      link: /tool_runner?tool_id=Extract_features1
+      description: from GFF data
+    - name: Filter GFF data by attribute
+      version: "0.2"
+      link: /tool_runner?tool_id=gff_filter_by_attribute
+      description: using simple expressions
+    - name: Filter GFF data by feature count
+      version: 0.1.1
+      link: /tool_runner?tool_id=gff_filter_by_feature_count
+      description: using simple expressions
+    - name: Filter GTF data by attribute values_list
+      version: "0.2"
+      link: /tool_runner?tool_id=gtf_filter_by_attribute_values_list
+      description: ""
+    - name: Metabolights downloader
+      version: 4.1.5
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fprog%2Fmtblsdwnld%2Fmtbls-dwnld%2F4.1.5
+      description: Import public and private MetaboLights studies
+    - name: Wishart bank downloader
+      version: 1.1.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ffgiacomoni%2Fdownloader_bank_hmdb%2Fdownloader_bank_hmdb%2F1.1.2
+      description: ": get a specific metabolite bank (as Urine, Serum...) from Wishart
+          web portal."
+    - name: HMDB MS search
+      version: 1.7.4
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ffgiacomoni%2Fhmdb_ms_search%2Fwsdl_hmdb%2F1.7.4
+      description: search by masses on HMDB v5 online LCMS bank
+    - name: MSnbase readMSData
+      version: 2.16.1+galaxy3
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Flecorguille%2Fmsnbase_readmsdata%2Fmsnbase_readmsdata%2F2.16.1%2Bgalaxy3
+      description: Imports mass-spectrometry data files
+    - name: xcms get a sampleMetadata file
+      version: 3.12.0+galaxy3
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Flecorguille%2Fxcms_export_samplemetadata%2Fxcms_export_samplemetadata%2F3.12.0%2Bgalaxy3
+      description: which need to be filled with extra information
+    - name: xcms findChromPeaks (xcmsSet)
+      version: 3.12.0+galaxy3
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Flecorguille%2Fxcms_xcmsset%2Fabims_xcms_xcmsSet%2F3.12.0%2Bgalaxy3
+      description: Chromatographic peak detection
+    - name: xcms plot chromatogram
+      version: 3.12.0+galaxy3
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Flecorguille%2Fxcms_plot_chromatogram%2Fxcms_plot_chromatogram%2F3.12.0%2Bgalaxy3
+      description: Plots base peak intensity chromatogram (BPI) and total ion current
+          chromatogram (TIC) from MSnbase or xcms experiment(s)
+    - name: xcms findChromPeaks Merger
+      version: 3.12.0+galaxy3
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Flecorguille%2Fxcms_merge%2Fxcms_merge%2F3.12.0%2Bgalaxy3
+      description: Merge xcms findChromPeaks RData into a unique file to be used by group
+    - name: xcms groupChromPeaks (group)
+      version: 3.12.0+galaxy3
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Flecorguille%2Fxcms_group%2Fabims_xcms_group%2F3.12.0%2Bgalaxy3
+      description: Perform the correspondence, the grouping of chromatographic peaks within
+          and between samples.
+    - name: xcms refineChromPeaks (refine)
+      version: 3.12.0+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Flecorguille%2Fxcms_retcor%2Fabims_xcms_refine%2F3.12.0%2Bgalaxy1
+      description: Remove or merge chromatographic peaks based on specific criteria.
+    - name: xcms adjustRtime (retcor)
+      version: 3.12.0+galaxy3
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Flecorguille%2Fxcms_retcor%2Fabims_xcms_retcor%2F3.12.0%2Bgalaxy3
+      description: Retention Time Correction
+    - name: xcms fillChromPeaks (fillPeaks)
+      version: 3.12.0+galaxy3
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Flecorguille%2Fxcms_fillpeaks%2Fabims_xcms_fillPeaks%2F3.12.0%2Bgalaxy3
+      description: Integrate areas of missing peaks
+    - name: CAMERA.annotate
+      version: 2.2.7+camera1.48.0-galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Flecorguille%2Fcamera_annotate%2Fabims_CAMERA_annotateDiffreport%2F2.2.7%2Bcamera1.48.0-galaxy1
+      description: CAMERA annotate function. Returns annotation results (isotope peaks,
+          adducts and fragments) and a diffreport if more than one condition.
+    - name: xcms process history
+      version: 3.12.0+galaxy3
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Flecorguille%2Fxcms_summary%2Fabims_xcms_summary%2F3.12.0%2Bgalaxy3
+      description: Create a summary of XCMS analysis
+    - name: CAMERA.groupFWHM
+      version: 0.1.0+camera1.48.0-galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fworkflow4metabolomics%2Fcamera_groupfwhm%2FCAMERA_groupFWHM%2F0.1.0%2Bcamera1.48.0-galaxy1
+      description: Group peaks into pseudospectra-groups
+    - name: CAMERA.groupCorr
+      version: 0.1.0+camera1.48.0-galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fworkflow4metabolomics%2Fcamera_groupcorr%2FCAMERA_groupCorr%2F0.1.0%2Bcamera1.48.0-galaxy1
+      description: EIC correlation grouping of LC/ESI-MS data
+    - name: CAMERA.findIsotopes
+      version: 0.1.0+camera1.48.0-galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fworkflow4metabolomics%2Fcamera_findisotopes%2FCAMERA_findIsotopes%2F0.1.0%2Bcamera1.48.0-galaxy1
+      description: Annotate isotope peaks
+    - name: CAMERA.findAdducts
+      version: 0.1.0+camera1.48.0-galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fworkflow4metabolomics%2Fcamera_findadducts%2FCAMERA_findAdducts%2F0.1.0%2Bcamera1.48.0-galaxy1
+      description: Annotate adducts
+    - name: CAMERA.combinexsAnnos
+      version: 2.2.6+camera1.48.0-galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fworkflow4metabolomics%2Fcamera_combinexsannos%2Fabims_CAMERA_combinexsAnnos%2F2.2.6%2Bcamera1.48.0-galaxy1
+      description: Wrapper function for the combinexsAnnos CAMERA function. Returns a
+          dataframe with recalculated annotations.
+    - name: recetox-aplcms - generate feature table
+      version: 0.13.4+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frecetox%2Frecetox_aplcms_generate_feature_table%2Frecetox_aplcms_generate_feature_table%2F0.13.4%2Bgalaxy0
+      description: generate feature table from noise-removed HRMS profile data
+    - name: recetox-aplcms - recover weaker signals
+      version: 0.13.4+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frecetox%2Frecetox_aplcms_recover_weaker_signals%2Frecetox_aplcms_recover_weaker_signals%2F0.13.4%2Bgalaxy0
+      description: recover weaker signals from raw data using an aligned feature table
+    - name: recetox-aplcms - correct time
+      version: 0.13.4+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frecetox%2Frecetox_aplcms_correct_time%2Frecetox_aplcms_correct_time%2F0.13.4%2Bgalaxy0
+      description: correct retention time across samples for peak alignment
+    - name: recetox-aplcms - compute clusters
+      version: 0.13.4+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frecetox%2Frecetox_aplcms_compute_clusters%2Frecetox_aplcms_compute_clusters%2F0.13.4%2Bgalaxy0
+      description: compute clusters of mz and rt across samples and assign cluster IDs
+          to individual features
+    - name: recetox-aplcms - remove noise
+      version: 0.13.4+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frecetox%2Frecetox_aplcms_remove_noise%2Frecetox_aplcms_remove_noise%2F0.13.4%2Bgalaxy0
+      description: filter noise and detect peaks in high resolution mass spectrometry
+          (HRMS) profile data
+    - name: recetox-aplcms - merge known table
+      version: 0.13.4+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frecetox%2Frecetox_aplcms_merge_known_table%2Frecetox_aplcms_merge_known_table%2F0.13.4%2Bgalaxy0
+      description: join knowledge from aligned features and known table.
+    - name: recetox-aplcms - compute template
+      version: 0.13.4+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frecetox%2Frecetox_aplcms_compute_template%2Frecetox_aplcms_compute_template%2F0.13.4%2Bgalaxy0
+      description: compute retention time correction template feature table
+    - name: recetox-aplcms - align features
+      version: 0.13.4+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frecetox%2Frecetox_aplcms_align_features%2Frecetox_aplcms_align_features%2F0.13.4%2Bgalaxy0
+      description: align peaks across samples
+    - name: XSeeker Preparator
+      version: 1.3.1+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Flain%2Fxseekerpreparator%2Fxseeker_preparator%2F1.3.1%2Bgalaxy0
+      description: prepares RData file from XCMS+CAMERA for XSeeker
+    - name: proFIA
+      version: 3.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fethevenot%2Fprofia%2Fprofia%2F3.1.0
+      description: Preprocessing of FIA-HRMS data
+    - name: Process Scans (and SIM-Stitch)
+      version: 2.0.0+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fcomputational-metabolomics%2Fdimspy_process_scans%2Fdimspy_process_scans%2F2.0.0%2Bgalaxy1
+      description: "- Read, filter and average MS scans"
+    - name: Replicate Filter
+      version: 2.0.0+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fcomputational-metabolomics%2Fdimspy_replicate_filter%2Fdimspy_replicate_filter%2F2.0.0%2Bgalaxy1
+      description: "- Remove peaks that fail to appear in at least x-out-of-n (technical)
+          replicates"
+    - name: Align Samples
+      version: 2.0.0+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fcomputational-metabolomics%2Fdimspy_align_samples%2Fdimspy_align_samples%2F2.0.0%2Bgalaxy1
+      description: "- Align peaks across Peaklists"
+    - name: Blank Filter
+      version: 2.0.0+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fcomputational-metabolomics%2Fdimspy_blank_filter%2Fdimspy_blank_filter%2F2.0.0%2Bgalaxy0
+      description: "- Remove 'blank' peaks from the biological mass spectra"
+    - name: Sample Filter
+      version: 2.0.0+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fcomputational-metabolomics%2Fdimspy_sample_filter%2Fdimspy_sample_filter%2F2.0.0%2Bgalaxy0
+      description: Remove peaks that fail to appear in x-out-of-n (biological) samples
+    - name: Missing Values Sample Filter
+      version: 2.0.0+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fcomputational-metabolomics%2Fdimspy_missing_values_sample_filter%2Fdimspy_missing_values_sample_filter%2F2.0.0%2Bgalaxy0
+      description: "- Remove samples with a high percentage of missing values"
+    - name: Merge peaklists
+      version: 2.0.0+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fcomputational-metabolomics%2Fdimspy_merge_peaklists%2Fdimspy_merge_peaklists%2F2.0.0%2Bgalaxy0
+      description: produced by the tools 'Process scans (and SIM-Stitch)' or 'Replicate
+          filter'
+    - name: Get peaklists
+      version: 2.0.0+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fcomputational-metabolomics%2Fdimspy_get_peaklists%2Fdimspy_get_peaklists%2F2.0.0%2Bgalaxy0
+      description: or an average peaklist from a Peak Intensity Matrix
+    - name: Convert DIMSpy-based HDF5 to tsv
+      version: 2.0.0+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fcomputational-metabolomics%2Fdimspy_hdf5_to_txt%2Fdimspy_hdf5_to_txt%2F2.0.0%2Bgalaxy0
+      description: ""
+    - name: metaMS.runGC
+      version: 3.0.0+metaMS1.24.0-galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fyguitton%2Fmetams_rungc%2Fmetams_runGC%2F3.0.0%2BmetaMS1.24.0-galaxy0
+      description: GC-MS data preprocessing using metaMS package
+    - name: RAMClustR
+      version: 1.3.1+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frecetox%2Framclustr%2Framclustr%2F1.3.1%2Bgalaxy0
+      description: A feature clustering algorithm for non-targeted mass spectrometric
+          metabolomics data.
+    - name: NMR_Read
+      version: 3.3.0+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmarie-tremblay-metatoul%2Fnmr_preprocessing%2FNMR_Read%2F3.3.0%2Bgalaxy1
+      description: Read Bruker NMR raw files
+    - name: NMR_Preprocessing
+      version: 3.3.0+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmarie-tremblay-metatoul%2Fnmr_preprocessing%2FNMR_Preprocessing%2F3.3.0%2Bgalaxy2
+      description: Preprocessing of 1D NMR spectra
+    - name: NMR spectra alignment
+      version: 2.0.4
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmarie-tremblay-metatoul%2Fnmr_alignment%2FNmrAlignment%2F2.0.4
+      description: based on the Cluster-based Peak Alignment (CluPA) algorithm
+    - name: NMR_Bucketing
+      version: 2.0.3
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmarie-tremblay-metatoul%2Fnmr_bucketing%2FNmrBucketing%2F2.0.3
+      description: Bucketing and integration of NMR Bruker raw data
+    - name: Batch_correction
+      version: 3.0.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmelpetera%2Fbatchcorrection%2FBatch_correction%2F3.0.0
+      description: Corrects intensities for signal drift and batch-effects
+    - name: Determine_batch_correction
+      version: 3.0.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmelpetera%2Fbatchcorrection%2FDetermine_BC%2F3.0.0
+      description: to choose between linear, lowess and loess methods
+    - name: Analytic correlation filtration
+      version: "2019-06-20"
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmelpetera%2Facorf%2FAnalytic_correlation_filtration%2F2019-06-20
+      description: ": Detect analytic correlation among data and remove them."
+    - name: Metabolites Correlation Analysis
+      version: 1.0.1+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fworkflow4metabolomics%2Fcorrelation_analysis%2Fcorrelation_analysis%2F1.0.1%2Bgalaxy0
+      description: to highlight ion correlations considering PC-groups
+    - name: RMassBank
+      version: 3.0.0+galaxy4
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frecetox%2Frmassbank%2Frmassbank%2F3.0.0%2Bgalaxy4
+      description: ""
+    - name: BioTransformer
+      version: 3.0.20230403+galaxy5
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frecetox%2Fbiotransformer%2Fbiotransformer%2F3.0.20230403%2Bgalaxy5
+      description: Generate biotransformation products for molecules.
+    - name: MSMetaEnhancer
+      version: 0.4.1+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frecetox%2Fmsmetaenhancer%2Fmsmetaenhancer%2F0.4.1%2Bgalaxy2
+      description: collect and convert chemical identifiers in tables or MS libraries
+    - name: RIAssigner
+      version: 0.4.1+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frecetox%2Friassigner%2Friassigner%2F0.4.1%2Bgalaxy1
+      description: compute retention indices
+    - name: RAMClustR define experiment
+      version: 1.0.2+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frecetox%2Framclustr_define_experiment%2Framclustr_define_experiment%2F1.0.2%2Bgalaxy2
+      description: Definition of experimental design used for record keeping and writing
+          spectra data.
+    - name: recetox-xMSannotator
+      version: 0.10.0+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frecetox%2Frecetox_xmsannotator_advanced%2Frecetox_xmsannotator_advanced%2F0.10.0%2Bgalaxy1
+      description: annotate peak intensity table including scores and confidence levels
+    - name: matchms convert
+      version: 0.30.2+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frecetox%2Fmatchms_convert%2Fmatchms_convert%2F0.30.2%2Bgalaxy2
+      description: convert between mass spectral library formats (.mgf/.msp/.json) using
+          matchms
+    - name: matchms filtering
+      version: 0.30.2+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frecetox%2Fmatchms_filtering%2Fmatchms_filtering%2F0.30.2%2Bgalaxy0
+      description: filter and normalize mass spectrometry data
+    - name: matchms fingerprint similarity
+      version: 0.30.2+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frecetox%2Fmatchms_fingerprint_similarity%2Fmatchms_fingerprint_similarity%2F0.30.2%2Bgalaxy0
+      description: calculate similarity between molecular fingerprints calculated from
+          structural spectrum metadata descriptors
+    - name: matchms scores formatter
+      version: 0.30.2+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frecetox%2Fmatchms_formatter%2Fmatchms_formatter%2F0.30.2%2Bgalaxy0
+      description: reformat scores object of matchms to long format table
+    - name: matchms metadata export
+      version: 0.30.2+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frecetox%2Fmatchms_metadata_export%2Fmatchms_metadata_export%2F0.30.2%2Bgalaxy0
+      description: extract all metadata from mass spectra file to tabular format
+    - name: matchms metadata match
+      version: 0.30.2+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frecetox%2Fmatchms_metadata_match%2Fmatchms_metadata_match%2F0.30.2%2Bgalaxy0
+      description: matchms metadata match calculation for numeric fields based on tolerance
+    - name: matchms networking
+      version: 0.30.2+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frecetox%2Fmatchms_networking%2Fmatchms_networking%2F0.30.2%2Bgalaxy0
+      description: create similarity network graph from matchms similarity scores
+    - name: matchms similarity
+      version: 0.22.0+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frecetox%2Fmatchms_similarity%2Fmatchms_similarity%2F0.22.0%2Bgalaxy2
+      description: calculate the similarity score and matched peaks
+    - name: matchms spectral similarity
+      version: 0.30.2+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frecetox%2Fmatchms_spectral_similarity%2Fmatchms_spectral_similarity%2F0.30.2%2Bgalaxy0
+      description: matchms spectral similarity calculation
+    - name: matchms split library
+      version: 0.30.2+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frecetox%2Fmatchms_split%2Fmatchms_split%2F0.30.2%2Bgalaxy1
+      description: split a large library into subsets
+    - name: matchms subsetting
+      version: 0.30.2+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frecetox%2Fmatchms_subsetting%2Fmatchms_subsetting%2F0.30.2%2Bgalaxy0
+      description: Extract spectra from a library given unique metadata identifier
+    - name: matchms metadata merge
+      version: 0.30.2+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frecetox%2Fmatchms_metadata_merge%2Fmatchms_metadata_merge%2F0.30.2%2Bgalaxy0
+      description: Merge metadata csv into MSP by a specified column
+    - name: xcms plot eic
+      version: 4.4.0+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fworkflow4metabolomics%2Fxcms_plot_eic%2Fxcms_plot_eic%2F4.4.0%2Bgalaxy0
+      description: Plot the extracted ion chromatogram (EIC) from mzML file
+    - name: xcms plot raw
+      version: 4.4.0+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fworkflow4metabolomics%2Fxcms_plot_raw%2Fxcms_plot_raw%2F4.4.0%2Bgalaxy0
+      description: Plot raw data filtered by m/z range and retention time (RT) range
+    - name: Normalization
+      version: 1.0.7
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmarie-tremblay-metatoul%2Fnormalization%2Fnormalization%2F1.0.7
+      description: Normalization of (preprocessed) spectra
+    - name: Transformation
+      version: 2.2.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fethevenot%2Ftransformation%2FTransformation%2F2.2.0
+      description: Transforms the dataMatrix intensity values
+    - name: Quality Metrics
+      version: 2.2.8+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fethevenot%2Fqualitymetrics%2Fquality_metrics%2F2.2.8%2Bgalaxy0
+      description: Metrics and graphics to check the quality of the data
+    - name: Multilevel
+      version: 0.5.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fyguitton%2Fwithinvariation%2Fmixomics_multilevel%2F0.5.0
+      description: "Data transformation: Within matrix decomposition for repeated measurements
+          (cross-over design) with mixOmics package"
+    - name: Intensity Check
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmelpetera%2Fintensity_checks%2Fintens_check%2F2.0.1
+      description: Statistical measures, number of missing values and mean fold change
+    - name: Univariate
+      version: 2.2.4
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fethevenot%2Funivariate%2FUnivariate%2F2.2.4
+      description: Univariate statistics
+    - name: Multivariate
+      version: 2.3.10
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fethevenot%2Fmultivariate%2FMultivariate%2F2.3.10
+      description: PCA, PLS and OPLS
+    - name: Anova
+      version: 1.2.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Flecorguille%2Fanova%2Fabims_anova%2F1.2.1
+      description: N-way anova. With ou Without interactions
+    - name: mixmodel
+      version: 3.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fworkflow4metabolomics%2Fmixmodel4repeated_measures%2Fmixmodel4repeated_measures%2F3.1.0
+      description: ANOVA for repeated measures statistics
+    - name: ASCA
+      version: 1.0.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmarie-tremblay-metatoul%2Fasca%2Fasca%2F1.0.0
+      description: Splitting of the total variance into independent blocks according to
+          the experimental factors and multivariate analysis (SCA) of each block
+    - name: Biosigner
+      version: 2.2.7
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fethevenot%2Fbiosigner%2Fbiosigner%2F2.2.7
+      description: Molecular signature discovery from omics data
+    - name: Between-table Correlation
+      version: 1.0.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmelpetera%2Fcorr_table%2Fcorrtable%2F1.0.0
+      description: Correlation table between two tables and graphic representation
+    - name: Heatmap
+      version: 2.2.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fethevenot%2Fheatmap%2FHeatmap%2F2.2.2
+      description: Heatmap of the dataMatrix
+    - name: WaveICA
+      version: 0.2.0+galaxy9
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frecetox%2Fwaveica%2Fwaveica%2F0.2.0%2Bgalaxy9
+      description: removal of batch effects for untargeted metabolomics data
+    - name: HMDB MS search
+      version: 1.7.6
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ffgiacomoni%2Fhmdb_ms_search%2Fwsdl_hmdb%2F1.7.6
+      description: search by masses on HMDB v5 online LCMS bank
+    - name: bank_inhouse
+      version: 1.2.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ffgiacomoni%2Fbank_inhouse%2Fbank_inhouse%2F1.2.1
+      description: search by accurate mass (and by Retention time) on a local bank
+    - name: Bih4MaConDa
+      version: 0.1.4
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ffgiacomoni%2Fbih4maconda%2Fbih4maconda%2F0.1.4
+      description: ": Utility to detect potential contaminants in your peak list based
+          on MaConDa database"
+    - name: HR2 formula
+      version: 1.2.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ffgiacomoni%2Fhr2%2Fhr2%2F1.2.0
+      description: find a chemical formula from a accurate mass
+    - name: LCMS matching
+      version: 4.0.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fprog%2Flcmsmatching%2Flcmsmatching%2F4.0.2
+      description: Annotation of LCMS peaks using matching on a in-house spectra database
+          or on PeakForest spectra database.
+    - name: Golm Metabolome Database search spectrum
+      version: "2018-10-01"
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ffgiacomoni%2Fgolm_ws_lib_search%2Fgolm_ws_lib_search%2F2018-10-01
+      description: ": GC-MS Mass Spectral Database."
+    - name: RIAssigner
+      version: 0.3.4+galaxy4
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frecetox%2Friassigner%2Friassigner%2F0.3.4%2Bgalaxy4
+      description: compute retention indices
+    - name: RECETOX MsFinder
+      version: v3.5.2+galaxy4
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frecetox%2Frecetox_msfinder%2Frecetox_msfinder%2Fv3.5.2%2Bgalaxy4
+      description: Annotation of fragment peaks in mass spectral libraries.
+    - name: matchMS similarity
+      version: 0.17.0+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frecetox%2Fmatchms%2Fmatchms%2F0.17.0%2Bgalaxy0
+      description: calculate the similarity score and matched peaks
+    - name: matchms filtering
+      version: 0.24.0+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frecetox%2Fmatchms_filtering%2Fmatchms_filtering%2F0.24.0%2Bgalaxy1
+      description: filter and normalize mass spectrometry data
+    - name: matchms scores formatter
+      version: 0.24.0+galaxy3
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frecetox%2Fmatchms_formatter%2Fmatchms_formatter%2F0.24.0%2Bgalaxy3
+      description: reformat scores object of matchms to long format table
+    - name: matchms networking
+      version: 0.24.0+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frecetox%2Fmatchms_networking%2Fmatchms_networking%2F0.24.0%2Bgalaxy0
+      description: create similarity network graph from matchms similarity scores
+    - name: xtb molecular optimization
+      version: 6.6.1+galaxy3
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frecetox%2Fxtb_molecular_optimization%2Fxtb_molecular_optimization%2F6.6.1%2Bgalaxy3
+      description: Semiempirical quantum mechanical molecular optimization method
+    - name: NMR_Annotation
+      version: 3.0.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmarie-tremblay-metatoul%2Fnmr_annotation%2FNmrAnnotation%2F3.0.0
+      description: Annotation of complex mixture NMR spectra and metabolite proportion
+          estimation
+    - name: 2DNMRAnnotation
+      version: 2.0.0+galaxy3
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmarie-tremblay-metatoul%2F2dnmrannotation%2F2DNmrAnnotation%2F2.0.0%2Bgalaxy3
+      description: Annotation of complex mixture bidimensional NMR spectra
+    - name: msPurity.purityA
+      version: 1.28.0+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fcomputational-metabolomics%2Fmspurity_puritya%2Fmspurity_puritya%2F1.28.0%2Bgalaxy1
+      description: Assess acquired precursor ion purity of MS/MS spectra
+    - name: msPurity.frag4feature
+      version: 1.28.0+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fcomputational-metabolomics%2Fmspurity_frag4feature%2Fmspurity_frag4feature%2F1.28.0%2Bgalaxy1
+      description: Assign fragmentation spectra to XCMS features using msPurity
+    - name: msPurity.filterFragSpectra
+      version: 1.28.0+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fcomputational-metabolomics%2Fmspurity_filterfragspectra%2Fmspurity_filterfragspectra%2F1.28.0%2Bgalaxy1
+      description: Filter fragmentations spectra associated with an XCMS feature
+    - name: msPurity.averageFragSpectra
+      version: 1.28.0+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fcomputational-metabolomics%2Fmspurity_averagefragspectra%2Fmspurity_averagefragspectra%2F1.28.0%2Bgalaxy1
+      description: Average and filter LC-MS/MS fragmentation spectra (Inter, Intra or
+          All)
+    - name: msPurity.createDatabase
+      version: 1.28.0+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fcomputational-metabolomics%2Fmspurity_createdatabase%2Fmspurity_createdatabase%2F1.28.0%2Bgalaxy1
+      description: Create and SQLite database of an LC-MS(/MS) experiment
+    - name: msPurity.spectralMatching
+      version: 1.28.0+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fcomputational-metabolomics%2Fmspurity_spectralmatching%2Fmspurity_spectralmatching%2F1.28.0%2Bgalaxy1
+      description: Perform spectral matching to MS/MS spectral libraries
+    - name: msPurity.createMSP
+      version: 1.28.0+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fcomputational-metabolomics%2Fmspurity_createmsp%2Fmspurity_createmsp%2F1.28.0%2Bgalaxy1
+      description: Create MSP files from msPurity processed data
+    - name: MetFrag
+      version: 2.4.5+galaxy3
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fcomputational-metabolomics%2Fmetfrag%2Fmetfrag%2F2.4.5%2Bgalaxy3
+      description: in silico fragmentor for compound annotation of mass spectrometry fragmentation
+          spectra
+    - name: SIRIUS-CSI:FingerID
+      version: 4.9.8+galaxy4
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fcomputational-metabolomics%2Fsirius_csifingerid%2Fsirius_csifingerid%2F4.9.8%2Bgalaxy4
+      description: is used to identify metabolites using single and        tandem mass
+          spectrometry
+    - name: msPurity.combineAnnotations
+      version: 1.28.0+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fcomputational-metabolomics%2Fmspurity_combineannotations%2Fmspurity_combineannotations%2F1.28.0%2Bgalaxy1
+      description: Combine, score and rank metabolite annotation results
+    - name: msPurity.flagRemove
+      version: 1.28.0+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fcomputational-metabolomics%2Fmspurity_flagremove%2Fmspurity_flagremove%2F1.28.0%2Bgalaxy1
+      description: Tool to flag and remove XCMS grouped peaks from the xcmsSet object
+          based on various thresholds        (e.g. RSD of intensity and retention time).
+    - name: msPurity.purityX
+      version: 1.28.0+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fcomputational-metabolomics%2Fmspurity_purityx%2Fmspurity_purityx%2F1.28.0%2Bgalaxy1
+      description: Calculate the anticipated precursor ion purity from a LC-MS XCMS dataset.
+    - name: msPurity.dimsPredictPuritySingle
+      version: 1.28.0+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fcomputational-metabolomics%2Fmspurity_dimspredictpuritysingle%2Fmspurity_dimspredictpuritysingle%2F1.28.0%2Bgalaxy1
+      description: Calculate the anticipated precursor ion purity from a DIMS dataset.
+    - name: MS2 Snoop
+      version: 2.2.1+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fworkflow4metabolomics%2Fms2snoop%2Fms2snoop%2F2.2.1%2Bgalaxy0
+      description: MS1/MS2 spectra and associated adducts extraction and cleaning
+    - name: msconvert
+      version: 3.0.20287.6
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fgalaxyp%2Fmsconvert%2Fmsconvert%2F3.0.20287.6
+      description: Convert and/or filter mass spectrometry files
+    - name: Mz(X)ML Shaper
+      version: 1.0.0+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fworkflow4metabolomics%2Fmzxmlshaper%2Fmzxmlshaper%2F1.0.0%2Bgalaxy0
+      description: conversion into XCMS-supported mz(X)ML file formats
+    - name: Generic_Filter
+      version: "2020.01"
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmelpetera%2Fgeneric_filter%2Fgeneric_filter%2F2020.01
+      description: Removes elements according to numerical or qualitative values
+    - name: Table Merge
+      version: 1.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmelpetera%2Ftablemerge%2Ftablemerge%2F1.0.1
+      description: Merging dataMatrix with a metadata table
+    - name: Check Format
+      version: 3.0.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fethevenot%2Fcheckformat%2FcheckFormat%2F3.0.0
+      description: Checking/formatting the sample and variable names of the dataMatrix,
+          sampleMetadata, and variableMetadata files
+    - name: W4M concatenate
+      version: 1.0.0+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fworkflow4metabolomics%2Fw4mconcatenate%2FW4Mconcatenate%2F1.0.0%2Bgalaxy0
+      description: to merge two metadata tables
+    - name: ID choice
+      version: "19.12"
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmelpetera%2Fidchoice%2Fidchoice%2F19.12
+      description: Choosing a particular column in your metadata to be considered as Identifiers
+    - name: ISA to W4M
+      version: 1.1.3
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fprog%2Fisa2w4m%2Fisa2w4m%2F1.1.3
+      description: Convert ISA data type into W4M format
+    - name: ISA to netCDF
+      version: 1.3.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fprog%2Fisaextractor%2Fisa2netcdf%2F1.3.0
+      description: Extract netCDF files from an ISA dataset and output a collection of
+          netCDF dataset.
+    - name: ISA to mzML
+      version: 1.3.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fprog%2Fisaextractor%2Fisa2mzml%2F1.3.0
+      description: Extract mzML files from an ISA dataset and output a collection of mzML
+          dataset.
+    - name: ISA to mzXML
+      version: 1.3.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fprog%2Fisaextractor%2Fisa2mzxml%2F1.3.0
+      description: Extract mzXML files from an ISA dataset and output a collection of
+          mzXML dataset.
+    - name: ISA to mzData
+      version: 1.3.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fprog%2Fisaextractor%2Fisa2mzdata%2F1.3.0
+      description: Extract mzData files from an ISA dataset and output a collection of
+          mzData dataset.
+    - name: ISA to nmrML
+      version: 1.3.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fprog%2Fisaextractor%2Fisa2nmrml%2F1.3.0
+      description: Extract nmrML files from an ISA dataset and output a collection of
+          nmrML dataset.
+    - name: "Skyline2Isocor: converting skyling outputs into IsoCor inputs"
+      version: 1.0.0+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fworkflow4metabolomics%2Fskyline2isocor%2Fskyline2isocor%2F1.0.0%2Bgalaxy0
+      description: ""
+    - name: MZMine batch
+      version: 3.9.0+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fmzmine_batch%2Fmzmine_batch%2F3.9.0%2Bgalaxy0
+      description: ""
+    - name: Intensity Check
+      version: 1.2.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmelpetera%2Fintensity_checks%2Fintens_check%2F1.2.1
+      description: Statistical measures, number of missing values and mean fold change
+    - name: xcms get a sampleMetadata file
+      version: 3.4.4.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Flecorguille%2Fxcms_export_samplemetadata%2Fxcms_export_samplemetadata%2F3.4.4.0
+      description: which need to be filled with extra information
+    - name: xseeker
+      version: 1.5.2+0
+      link: /tool_runner?tool_id=interactive_tool_xseeker
+      description: Visualization and annotation of LC-MSMS data tool
+    - name: heatmap
+      version: 1.0.0
+      link: /tool_runner?tool_id=interactive_tool_heatmap
+      description: Visualize tsv dataMatrix files
+    - name: nmrpro
+      version: 1.0.1
+      link: /tool_runner?tool_id=interactive_tool_nmrpro
+      description: Visualization of NMR spectra (1D & 2D)
+    - name: MS To PeakForest IT
+      version: 1.2.1+galaxy0
+      link: /tool_runner?tool_id=ms_to_peakforest_it
+      description: adds you MS spectrum to peakforest.
+    - name: influx_si
+      version: 7.0.1+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fworkflow4metabolomics%2Finflux_si%2Finflux_si%2F7.0.1%2Bgalaxy1
+      description: Estimate metabolic fluxes and concentrations by fitting simulated labeling
+          in metabolites to NMR/MS measurements
+    - name: Isotope Correction for mass spectrometry labeling experiments
+      version: 0.1.3
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fgmat%2Fisocor%2Fisocor%2F0.1.3
+      description: ""
+    - name: "Isoplot: Generate plots from isocor output"
+      version: 1.3.1+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fworkflow4metabolomics%2Fisoplot%2Fisoplot%2F1.3.1%2Bgalaxy2
+      description: ""
+    - name: "PhysioFit: extracellular flux calculation"
+      version: 3.4.0+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fworkflow4metabolomics%2Fphysiofit%2Fphysiofit%2F3.4.0%2Bgalaxy0
+      description: PhysioFit is a scientific tool designed to quantify cell growth parameters
+          and uptake and production fluxes
+    - name: PhysioFit data connector
+      version: 1.0.1+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fworkflow4metabolomics%2Fphysiofit_manager%2Fphysiofit_data_manager%2F1.0.1%2Bgalaxy1
+      description: Managing inputs for PhysioFit
+    - name: "Influx Data Connector: Handling influx_si data inputs in Galaxy workflows"
+      version: 1.0.2+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fworkflow4metabolomics%2Finflux_si_data_manager%2Finflux_data_manager%2F1.0.2%2Bgalaxy0
+      description: ""
+    - name: dimet abundance plot
+      version: 0.2.4+galaxy4
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fdimet_abundance_plot%2Fdimet_abundance_plot%2F0.2.4%2Bgalaxy4
+      description: Figures of metabolites total abundance as barplots (by DIMet)
+    - name: dimet differential analysis
+      version: 0.2.4+galaxy4
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fdimet_differential_analysis%2Fdimet_differential_analysis%2F0.2.4%2Bgalaxy4
+      description: Differential analysis of tracer metabolomics data comparing two groups
+          (by DIMet)
+    - name: dimet differential multigroup analysis
+      version: 0.2.4+galaxy4
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fdimet_differential_multigroup_analysis%2Fdimet_differential_multigroup_analysis%2F0.2.4%2Bgalaxy4
+      description: Differential analysis of 3 or more chosen groups of tracer metabolomics
+          data (by DIMet)
+    - name: dimet enrichment plot
+      version: 0.2.4+galaxy4
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fdimet_enrichment_plot%2Fdimet_enrichment_plot%2F0.2.4%2Bgalaxy4
+      description: Figures of mean enrichment by metabolite, as line-plots (by DIMet)
+    - name: dimet isotopologues plot
+      version: 0.2.4+galaxy4
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fdimet_isotopologues_plot%2Fdimet_isotopologues_plot%2F0.2.4%2Bgalaxy4
+      description: Figures of isotopologues proportions by metabolite, as stacked barplots
+          (by DIMet)
+    - name: dimet metabologram
+      version: 0.2.4+galaxy4
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fdimet_metabologram%2Fdimet_metabologram%2F0.2.4%2Bgalaxy4
+      description: Integration of transcriptomics and (tracer) metabolomics differential
+          data (by DIMet)
+    - name: dimet pca analysis
+      version: 0.2.4+galaxy4
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fdimet_pca_analysis%2Fdimet_pca_analysis%2F0.2.4%2Bgalaxy4
+      description: Principal Component Analysis for tracer metabolomics data, producing
+          tables (by DIMet)
+    - name: dimet pca plot
+      version: 0.2.4+galaxy4
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fdimet_pca_plot%2Fdimet_pca_plot%2F0.2.4%2Bgalaxy4
+      description: Figures of Principal Component Analysis for tracer metabolomics (by
+          DIMet)
+    - name: dimet timecourse analysis
+      version: 0.2.4+galaxy4
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fdimet_timecourse_analysis%2Fdimet_timecourse_analysis%2F0.2.4%2Bgalaxy4
+      description: Differential analysis of tracer metabolomics data comparing consecutive
+          time-points (by DIMet)
+    - name: dimet bivariate analysis
+      version: 0.2.4+galaxy4
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fdimet_bivariate_analysis%2Fdimet_bivariate_analysis%2F0.2.4%2Bgalaxy4
+      description: Computation of the correlation of MDV profiles, or the metabolite time
+          course profiles (by DIMet)
+    - name: tracegroomer
+      version: 0.1.4+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Ftracegroomer%2Ftracegroomer%2F0.1.4%2Bgalaxy1
+      description: TraceGroomer is a solution to format and normalize files for DIMet
+          tool
+    - name: JBrowse2
+      version: 3.6.5+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ffubar%2Fjbrowse2%2Fjbrowse2%2F3.6.5%2Bgalaxy1
+      description: genome browser
+    - name: Volcano Plot
+      version: 4.0.0+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fvolcanoplot%2Fvolcanoplot%2F4.0.0%2Bgalaxy0
+      description: create a volcano plot
+    - name: Histogram with ggplot2
+      version: 3.5.1+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fggplot2_histogram%2Fggplot2_histogram%2F3.5.1%2Bgalaxy1
+      description: ""
+    - name: Scatterplot with ggplot2
+      version: 3.5.1+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fggplot2_point%2Fggplot2_point%2F3.5.1%2Bgalaxy2
+      description: ""
+    - name: Violin plot w ggplot2
+      version: 3.5.1+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fggplot2_violin%2Fggplot2_violin%2F3.5.1%2Bgalaxy1
+      description: ""
+    - name: PCA plot w ggplot2
+      version: 3.5.1+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fggplot2_pca%2Fggplot2_pca%2F3.5.1%2Bgalaxy1
+      description: ""
+    - name: rtsne
+      version: 0.0.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Ftsne%2Ftsne%2F0.0.2
+      description: ""
+    - name: pyGenomeTracks
+      version: 3.9+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fpygenometracks%2FpygenomeTracks%2F3.9%2Bgalaxy0
+      description: plot genomic data tracks
+    - name: Draw Stacked Bar Plots
+      version: 1.0.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fdraw_stacked_barplots%2Fdraw_stacked_barplots%2F1.0.0
+      description: for different categories and different criteria
+    - name: Histogram
+      version: 1.0.5
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fhistogram%2Fhistogram_rpy%2F1.0.5
+      description: of a numeric column
+    - name: Scatterplot
+      version: 1.0.3
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fscatterplot%2Fscatterplot_rpy%2F1.0.3
+      description: of two numeric columns
+    - name: Venn Diagram
+      version: 0.1.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fpeterjc%2Fvenn_list%2Fvenn_list%2F0.1.1
+      description: from lists
+    - name: "Circos: Interval to Circos Text Labels"
+      version: 0.69.8+galaxy9
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fcircos%2Fcircos_interval_to_text%2F0.69.8%2Bgalaxy9
+      description: reformats interval files to prepare for Circos text labels
+    - name: "Circos: bigWig to Scatter"
+      version: 0.69.8+galaxy9
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fcircos%2Fcircos_wiggle_to_scatter%2F0.69.8%2Bgalaxy9
+      description: reformats bigWig files to prepare for Circos 2d scatter/line/histogram
+          plots
+    - name: "Circos: Table viewer"
+      version: 0.69.8+galaxy9
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fcircos%2Fcircos_tableviewer%2F0.69.8%2Bgalaxy9
+      description: easily creates circos plots from tabular data
+    - name: "Circos: Alignments to links"
+      version: 0.69.8+galaxy9
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fcircos%2Fcircos_aln_to_links%2F0.69.8%2Bgalaxy9
+      description: reformats alignment files to prepare for Circos
+    - name: "Circos: Stack bigWigs as Histogram"
+      version: 0.69.8+galaxy9
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fcircos%2Fcircos_wiggle_to_stacked%2F0.69.8%2Bgalaxy9
+      description: reformats for use in Circos stacked histogram plots
+    - name: "Circos: Interval to Tiles"
+      version: 0.69.8+galaxy9
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fcircos%2Fcircos_interval_to_tile%2F0.69.8%2Bgalaxy9
+      description: reformats interval files to prepare for Circos tile plots
+    - name: GC Skew
+      version: 0.69.8+galaxy9
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fcircos%2Fcircos_gc_skew%2F0.69.8%2Bgalaxy9
+      description: calculates skew over genomic sequences
+    - name: Circos
+      version: 0.69.8+galaxy9
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fcircos%2Fcircos%2F0.69.8%2Bgalaxy9
+      description: visualizes data in a circular layout
+    - name: "Circos: Bundle Links"
+      version: 0.69.8+galaxy9
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fcircos%2Fcircos_bundlelinks%2F0.69.8%2Bgalaxy9
+      description: reduce numbers of links in datasets before plotting
+    - name: "Circos: Resample 1/2D data"
+      version: 0.69.8+galaxy9
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fcircos%2Fcircos_resample%2F0.69.8%2Bgalaxy9
+      description: reduce numbers of points in a dataset before plotting
+    - name: "Circos: Link Density Track"
+      version: 0.69.8+galaxy9
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fcircos%2Fcircos_binlinks%2F0.69.8%2Bgalaxy9
+      description: reduce links to a density plot
+    - name: Heatmap w ggplot
+      version: 3.5.1+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fggplot2_heatmap%2Fggplot2_heatmap%2F3.5.1%2Bgalaxy1
+      description: ""
+    - name: Bandage Info
+      version: 2022.09+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbandage%2Fbandage_info%2F2022.09%2Bgalaxy2
+      description: determine statistics of de novo assembly graphs
+    - name: JBrowse - Data Directory to Standalone
+      version: 1.16.11+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fjbrowse%2Fjbrowse_to_standalone%2F1.16.11%2Bgalaxy1
+      description: upgrades the bare data directory to a full JBrowse instance
+    - name: Bandage Image
+      version: 2022.09+galaxy4
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbandage%2Fbandage_image%2F2022.09%2Bgalaxy4
+      description: visualize de novo assembly graphs
+    - name: JBrowse
+      version: 1.16.11+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fjbrowse%2Fjbrowse%2F1.16.11%2Bgalaxy1
+      description: genome browser
+    - name: heatmap2
+      version: 3.2.0+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fggplot2_heatmap2%2Fggplot2_heatmap2%2F3.2.0%2Bgalaxy1
+      description: ""
+    - name: Paired-end histogram
+      version: 1.0.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fpe_histogram%2Fpe_histogram%2F1.0.2
+      description: of insert size frequency
+    - name: DropletUtils
+      version: 1.10.0+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fdropletutils%2Fdropletutils%2F1.10.0%2Bgalaxy2
+      description: Utilities for handling droplet-based single-cell RNA-seq data
+    - name: Plot
+      version: 4.0.4+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Febi-gxa%2Fseurat_plot%2Fseurat_plot%2F4.0.4%2Bgalaxy0
+      description: with Seurat
+    - name: Krona pie chart
+      version: 2.7.1+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fcrs4%2Ftaxonomy_krona_chart%2Ftaxonomy_krona_chart%2F2.7.1%2Bgalaxy0
+      description: from taxonomic profile
+    - name: Visualize  with Krona
+      version: "1"
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fsaskia-hiltemann%2Fkrona_text%2Fkrona-text%2F1
+      description: Visualise any hierarchical data
+    - name: Plotting tool
+      version: 1.0.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fxy_plot%2FXY_Plot_1%2F1.0.2
+      description: for multiple series and graph types
+    - name: Newick Display
+      version: 1.6+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fnewick_utils%2Fnewick_display%2F1.6%2Bgalaxy1
+      description: visualize a phylogenetic tree
+    - name: GMAJ
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fgmaj%2Fgmaj_1%2F2.0.1
+      description: Multiple Alignment Viewer
+    - name: VCF to MAF Custom Track
+      version: 1.0.1
+      link: /tool_runner?tool_id=vcf_to_maf_customtrack1
+      description: for display at UCSC
+    - name: EtherCalc
+      version: "0.1"
+      link: /tool_runner?tool_id=interactive_tool_ethercalc
+      description: ""
+    - name: AskOmics
+      version: 4.3.1
+      link: /tool_runner?tool_id=interactive_tool_askomics
+      description: a visual SPARQL query builder
+    - name: RStudio AskoR
+      version: "0.1"
+      link: /tool_runner?tool_id=interactive_tool_rstudio_askor
+      description: ""
+    - name: bam.iobio visualisation
+      version: 0.4.0
+      link: /tool_runner?tool_id=interactive_tool_bam_iobio
+      description: ""
+    - name: HiCBrowser
+      version: "0.1"
+      link: /tool_runner?tool_id=interactive_tool_hicbrowser
+      description: ""
+    - name: Pavian
+      version: "1.0"
+      link: /tool_runner?tool_id=interactive_tool_pavian
+      description: Interactive analysis of metagenomics data
+    - name: Neo4j (Graph Database)
+      version: "0.1"
+      link: /tool_runner?tool_id=interactive_tool_neo4j
+      description: ""
+    - name: NEAL
+      version: "0.1"
+      link: /tool_runner?tool_id=interactive_tool_audiolabeler
+      description: Nature+Energy Audio Labeller audio data annotation tool
+    - name: geoexplorer
+      version: "0.1"
+      link: /tool_runner?tool_id=interactive_tool_geoexplorer
+      description: An interactive spatial analysis platform using ggvis and Leaflet
+    - name: radiant
+      version: "0.1"
+      link: /tool_runner?tool_id=interactive_tool_radiant
+      description: Data analytics using Radiant R Shiny app
+    - name: OpenRefine
+      version: "0.2"
+      link: /tool_runner?tool_id=interactive_tool_openrefine
+      description: Working with messy data
+    - name: metashark
+      version: 1.7.5
+      link: /tool_runner?tool_id=interactive_tool_metashark
+      description: Metadata Shiny Automated Resource and Knowledge
+    - name: Phinch Visualisation
+      version: "0.1"
+      link: /tool_runner?tool_id=interactive_tool_phinch
+      description: ""
+    - name: GeneNoteBook
+      version: 0.4.3
+      link: /tool_runner?tool_id=interactive_tool_genenotebook
+      description: viewer
+    - name: ODV
+      version: 5.6.5
+      link: /tool_runner?tool_id=interactive_tool_odv
+      description: interactive plotting tool for geo-referenced data
+    - name: Phyloseq
+      version: 1.0.0
+      link: /tool_runner?tool_id=interactive_tool_phyloseq
+      description: Explore microbiome profiles
+    - name: Wallace
+      version: "0.1"
+      link: /tool_runner?tool_id=interactive_tool_wallace
+      description: Webbased Interactive modeling of species niches and distributions
+    - name: Wilson
+      version: "0.1"
+      link: /tool_runner?tool_id=interactive_tool_wilson
+      description: Webbased Interactive Omics visualization

@@ -31,5 +31,5 @@ access to and utilization of metaproteomics tools, as well as offer a framework 
 
 ## Credit
 
-<embed src="https://www.mdpi.com/2227-7382/6/1/7" width="100%" height="700" type='application/xhtml+xml'>
+<embed src="https://www.mdpi.com/2227-7382/6/1/7" width="100%" height="700" type='application/xhtml+xml' />
 

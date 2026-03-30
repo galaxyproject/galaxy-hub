@@ -11,6 +11,7 @@ location_url: http://www.congrescentrum.com/accommodations/de_werelt
 external_url: https://galaxyproject.org/gcc2011/
 contact: Organizers
 subsites: [global, us]
+tags: [gcc, conference, talk]
 ---
 
 The 2011 Galaxy Community Conference was held 25-26 May, at the [Conference Centre De Werelt](http://www.congrescentrum.com/accommodations/de_werelt) in Lunteren, The Netherlands. The conference featured [two full days](https://galaxyproject.org/gcc2011/Programme.html) of presentations and discussion on extending [Galaxy](http://usegalaxy.org) to use new tools and data sources, deploying Galaxy locally, and best practices for using Galaxy to further your research. The event drew almost 150 participants from 19 countries on six continents.  The conference was co-organized and hosted by the [Netherlands Bioinformatics Centre (NBIC)](http://www.nbic.nl/).

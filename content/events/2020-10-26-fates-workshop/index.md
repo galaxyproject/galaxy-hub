@@ -11,11 +11,12 @@ contacts:
   name: Anne Fouilloux
 location:
   name: online
-supporters:
-- eosc
-- galaxy-europe
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 Learn about Galaxy and how to compose and execute repeatable and reproducible modelling workflow with FATES for improving climate models.

@@ -3,6 +3,7 @@ title: 'September 2021 Galactic News'
 tease: ""
 date: "2021-09-15"
 subsites: [global, us]
+tags: [newsletter]
 ---
 
 <a href="/galaxy-updates/"><img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
@@ -46,7 +47,7 @@ PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.
 </div>
 <div class="card-header trim-p">
 
-[Galaxy Use Cases](https://galaxyproject.eu/news?tag=UseCase)
+[Galaxy Use Cases](https://galaxyproject.eu/news?tag=usecase)
 
 </div>
 
@@ -103,7 +104,7 @@ of Galaxy have made their rounds in the scientific communities. The
 New Galaxy Community Hub Implementation
 </div>
 
-You may not have noticed, but things have changed a lot in the Galaxy Community Hub. We are happy to unveil the new Galaxy Community Hub. This is a ground-up rewrite of the back-end for the site you're reading right now, with Gridsome replacing Metalsmith.  A complete site restructure, and federation of Galaxy community sites is coming. [Read more](/blog/2021-09-hub2/).
+You may not have noticed, but things have changed a lot in the Galaxy Community Hub. We are happy to unveil the new Galaxy Community Hub. This is a ground-up rewrite of the back-end for the site you're reading right now, with Gridsome replacing Metalsmith.  A complete site restructure, and federation of Galaxy community sites is coming. [Read more](/news/2021-09-hub2/).
 
 </div>
 
@@ -229,7 +230,7 @@ Please join us for the [CoFest day](/events/2021-09-papercuts/) on September 16 
 
 This month the [Spanish GTN community](https://training.galaxyproject.org/archive/2021-06-01/news/2021/05/20/spanish_project_begins.html) will meet to work on the curated tutorials, at 6 pm CEST. Get in touch with [Wendi Bacon](https://training.galaxyproject.org/archive/2021-06-01/hall-of-fame/nomadscientist/) to participate.
 
-We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day long, please take advantage of both to communicate with your collaborators around the world.
+We will be on [Matrix](https://matrix.to/#/#galaxyproject_Lobby:gitter.im) for chat all day long, please take advantage of both to communicate with your collaborators around the world.
 
 </div>
 
@@ -409,7 +410,7 @@ A COVID-19 focused version of the UseGalaxy.fr server.  This server provides num
 <div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
 <div class="card-header trim-p">
 
-[Cancer informatics working group T2 update](/blog/2021-09-cancer-informatics-wg-update/)
+[Cancer informatics working group T2 update](/news/2021-09-cancer-informatics-wg-update/)
 
 </div>
 
@@ -417,7 +418,7 @@ By Luke Sargent.
 
 An update on some of our work in our NCII TCR project and our  NCI HTAN center: multiplex tissue image analysis and the beautiful [iobio applications](https://iobio.io/) are coming to Galaxy.
 
-![MCMICRO on GVL](/blog/2021-09-cancer-informatics-wg-update/mcmicro.png)
+![MCMICRO on GVL](/news/2021-09-cancer-informatics-wg-update/mcmicro.png)
 
 </div>
 
@@ -530,7 +531,7 @@ How to submit raw viral sequence reads to the European Nucleotide Archive using 
 
 # Publications
 
-Pub curation activities [are on a semi-hiatus right now](/blog/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
+Pub curation activities [are on a semi-hiatus right now](/news/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
 
 <div class="card-deck">
 

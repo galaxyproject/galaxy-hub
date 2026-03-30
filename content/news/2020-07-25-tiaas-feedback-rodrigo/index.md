@@ -1,14 +1,15 @@
 ---
 title: Training Infrastructure Feedback from Rodrigo Ortega Polo
 date: '2020-07-25'
-tags: [training, TIaaS]
-supporters:
-- galaxy-europe
-authors: Rodrigo Ortega Polo
-authors_structured:
-- name: Rodrigo Ortega Polo
+tags: [training, tiaas]
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - rodrigoortegapolo
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 An introductory workshop to bacterial whole-genome sequence analysis was delivered from December 9-12, 2019 in the [Lethbridge Research and Development Centre](https://www.agr.gc.ca)

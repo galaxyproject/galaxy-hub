@@ -2,13 +2,14 @@
 title: '[GTN news] Accessibility Improvements'
 date: '2021-07-27'
 tags: [training, gtn-news]
-supporters:
-- denbi
-- elixir
-- gallantries
 external_url: https://training.galaxyproject.org/training-material/news/2021/07/27/a11y.html
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+    - gallantries
 ---
 
 <p><strong>Accessibility Improvements</strong></p>

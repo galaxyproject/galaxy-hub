@@ -1,0 +1,24 @@
+domains:
+    - platform_url: http://services.cbib.u-bordeaux2.fr/galaxy/
+      ip: 194.167.124.72
+      version: IPv4
+      asn: AS2200 Renater
+      org: U Bordeaux
+      location:
+          city: Manduel
+          region: Occitanie
+          region_code: OCC
+          country: FR
+          country_name: France
+          country_code: FR
+          continent_code: EU
+          postal: "30129"
+          latitude: 43.8214
+          longitude: 4.4699
+          timezone: Europe/Paris
+          currency: EUR
+      response:
+          time: "2025-11-25T19:39:06Z"
+          status_code: 200
+          response_time_ms: 0
+          reason: OK

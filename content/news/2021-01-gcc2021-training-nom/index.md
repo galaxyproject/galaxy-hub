@@ -4,6 +4,7 @@ tease: "The training topics at GCC2021 are determined BY YOU."
 external_url: ""
 date: "2021-01-12"
 subsites: [global, us]
+tags: [talk, training, gcc]
 ---
 
 [<img src="/images/events/gcc2021/gcc2021g-logo-wide.png" class="float-right" style="max-width: 14rem;" />](https://www.vibconferences.be/events/gcc2021)

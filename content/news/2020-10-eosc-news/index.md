@@ -2,14 +2,15 @@
 title: The EOSC-Life newsletter is out!
 date: '2020-10-22'
 tease: Galaxy training, CellProfiler, and more
-tags: [newsletter]
-supporters:
-- eosc
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
+tags: [newsletter, outreach]
 subsites: [global, all-eu, us]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
+  funding:
+    - eu
+    - eosc-life
 ---
 
 Check out the news in the EOSC-Life [external newsletter](https://mailchi.mp/eosc-life/newsletter-2020oct)!

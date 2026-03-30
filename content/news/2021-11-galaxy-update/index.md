@@ -4,6 +4,7 @@ tease: "Galaxy India, new jobs, events, blog posts, ..."
 date: "2021-11-01"
 autotoc: false
 subsites: [global, us]
+tags: [newsletter]
 ---
 
 <a href="/galaxy-updates/"><img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
@@ -214,7 +215,7 @@ We are [seeking volunteers (like you!) to lead the discussion on your favorite t
 
 Please join us for the [CoFest day](/events/2021-11-papercuts/) on November 18 to help the Galaxy Ecosystem become a better place, and to help new contributors come on board.
 
-We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day long, please take advantage of both to communicate with your collaborators around the world.
+We will be on [Matrix](https://matrix.to/#/#galaxyproject_Lobby:gitter.im) for chat all day long, please take advantage of both to communicate with your collaborators around the world.
 
 </div>
 
@@ -327,7 +328,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 ![usegalaxy-dot-star](/images/galaxy-logos/usegalaxy-dot-star-white.png)
 
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
-* New use cases published in [UseGalaxy.eu](https://galaxyproject.eu/news?tag=UseCase):
+* New use cases published in [UseGalaxy.eu](https://galaxyproject.eu/news?tag=usecase):
     * [microRNAs in heart disease](https://galaxyproject.eu/posts/2021/10/11/use-case-ileana-duran/)
     * [cellular specification, differentiation and morphogenesis of the mucociliary epithelium](https://galaxyproject.eu/posts/2021/10/12/use-case-sarah-bowden/)
 
@@ -369,7 +370,7 @@ The switch to online bioinformatics training forced by the COVID-19 pandemic has
 
 <div class="card-header trim-p">
 
-[Sunsetting the CloudLaunch service](/blog/2021-10-sunsetting-cloudlaunch/)
+[Sunsetting the CloudLaunch service](/news/2021-10-sunsetting-cloudlaunch/)
 
 </div>
 

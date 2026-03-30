@@ -13,7 +13,7 @@ comments:
   - "The workbench provides you with a Swiss Army knife of scikit-learn, Keras (a deep learning library based on TensorFlow) and various other tools to transform, learn and predict and plot your data."
   - "The public server is hosted by the UesGalaxy.eu team."
 user_support:
-  - "[UseGalaxy.eu Gitter Support Channel](https://gitter.im/usegalaxy-eu/Lobby)"
+  - "[UseGalaxy.eu Matrix Support Channel](https://matrix.to/#/#usegalaxy-eu_Lobby:gitter.im)"
   - "[Galaxy Help Forum](https://help.galaxyproject.org/)"
 quotas:
   - "Storage and computational quotas."

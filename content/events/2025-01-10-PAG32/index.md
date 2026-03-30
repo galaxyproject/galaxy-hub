@@ -9,7 +9,7 @@ location:
   url: https://intlpag.org/PAG32/
 contact: Organizing Committee
 gtn: false
-tags: [conference, workshop]
+tags: [conference, workshop, community]
 subsites: [all]
 ---
 

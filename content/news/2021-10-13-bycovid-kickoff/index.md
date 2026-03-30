@@ -2,14 +2,15 @@
 title: 'BY-COVID: A new EU project for pandemic preparedness'
 date: '2021-10-13'
 tease: "A new €12 million Horizon Europe funded project which will tackle the data challenges that can hinder effective pandemic response."
-tags: [COVID-19]
-supporters:
-- bycovid
-authors: bgruening
-authors_structured:
-- github: bgruening
+tags: [covid-19, collaboration]
 subsites: [global, eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - bgruening
+  funding:
+    - eu
+    - by-covid
 ---
 
 Today marks the launch of a new €12 million Horizon Europe funded project, [BeYond-COVID (BY-COVID)](https://by-covid.org), which will tackle the data challenges that can hinder effective pandemic response. The core aim of the project is to ensure that data on SARS-CoV-2 and other infectious diseases can be found and used by everyone.

@@ -3,6 +3,7 @@ title: 'June 2021 Galactic News'
 tease: "GCC2021 starts this month; James Taylor Video; plus a whole lot more."
 date: "2021-05-31"
 subsites: [global, us]
+tags: [newsletter]
 ---
 
 <a href="/galaxy-updates/"><img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
@@ -354,7 +355,7 @@ As the [2021 Galaxy Community Conference (GCC2021)](https://www.vibconferences.b
 
 **17 June, Online, Global**
 
-The June Papercuts CoFest Day is now the **[GCC2021 CoFest Prep Day](/events/2021-06-papercuts/)** for participants to plan work *(collaborative work, dang it)* for the **[GCC2021 CoFest](https://sched.co/iLKn)** being held July 9-10, right after the 3-day GCC2021 meeting.  We will have 3 calls, spread throughout the global day, and communicate via Gitter and (video as needed) between calls.
+The June Papercuts CoFest Day is now the **[GCC2021 CoFest Prep Day](/events/2021-06-papercuts/)** for participants to plan work *(collaborative work, dang it)* for the **[GCC2021 CoFest](https://sched.co/iLKn)** being held July 9-10, right after the 3-day GCC2021 meeting.  We will have 3 calls, spread throughout the global day, and communicate via Matrix and (video as needed) between calls.
 
 If you are participating in the GCC2021 CoFest<sup>*</sup> then please join us June 17.
 
@@ -551,7 +552,7 @@ Have you noticed a new emphasis on Galaxy Developer training?  The new BioBlend 
 
 # Publications
 
-Pub curation activities [are on a semi-hiatus right now](/blog/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
+Pub curation activities [are on a semi-hiatus right now](/news/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
 
 <div class="card-deck">
 
@@ -650,15 +651,15 @@ Fahrner, M., Kook, L., Fröhlich, K., Biniossek, M. L., & Schilling, O. (2021). 
 <div class="card border-info" style="min-width: 20%; max-width: 40%;">
 <div class="card-header trim-p">
 
-[Galaxy Helm Chart v4.0](/blog/2021-05-galaxy-helm-chart-v4/)
+[Galaxy Helm Chart v4.0](/news/2021-05-galaxy-helm-chart-v4/)
 
 </div>
 
 The Galaxy Helm chart automates the mechanics of deploying Galaxy into a single package. The same package can be used to deploy Galaxy for development, testing, or production. With v4, the chart also introduces improvements for managing Galaxy over time.
 
-See this [blog post](/blog/2021-05-galaxy-helm-chart-v4/) by Alex Mahmoud, Nuwan Goonasekera, Keith Suderman, and Enis Afgan for details.
+See this [blog post](/news/2021-05-galaxy-helm-chart-v4/) by Alex Mahmoud, Nuwan Goonasekera, Keith Suderman, and Enis Afgan for details.
 
-![Galaxy Helm](/blog/2021-05-galaxy-helm-chart-v4/no-cvmfs.png)
+![Galaxy Helm](/news/2021-05-galaxy-helm-chart-v4/no-cvmfs.png)
 
 </div>
 

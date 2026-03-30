@@ -11,11 +11,13 @@ location:
 contacts:
 - email: null
   name: de.NBI
-supporters:
-- denbi
 tags: [talk]
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+
 ---
 
 We will attend the de.NBI symposium with a talk in Heidelberg.

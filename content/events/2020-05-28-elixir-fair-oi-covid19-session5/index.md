@@ -1,19 +1,19 @@
 ---
-title: 'Galaxy-ELIXIR Webinar 5: Behind the scenes - Global Open Infrastructures at
-  work'
+title: 'Galaxy-ELIXIR Webinar 5: Behind the scenes - Global Open Infrastructures at work'
 date: '2020-05-28'
 end: '2020-05-28'
-tags: [training, COVID-19]
+tags: [training, covid-19]
 contacts:
 - name: Galaxy and ELIXIR
-supporters:
-- galaxy
-- elixir
-- denbi
-- biodaten
 hidefooter: true
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  funding:
+    - biodaten
+    - deNBI
+    - elixir-europe
+    - uni-freiburg
 ---
 
 **Galaxy-ELIXIR Webinar Series: FAIR data and Open Infrastructures to tackle the COVID-19 pandemic**
@@ -27,7 +27,7 @@ The Galaxy Community and ELIXIR organise a [webinar series](https://elixir-europ
 This session will guide the participants how they can use the Galaxy compute capacities to run their own analysis. It will present the Pulsar network that connects data centres and High Performance Computing clusters to share their computation power in support of the Galaxy Europe users and provide examples of how to submit an analysis job from the user’s perspective.
 
 
-[Programme Information and Registration](https://elixir-europe.org/events/webinar-galaxy-elixir-covid19){:target="_blank"}
+<a href="https://elixir-europe.org/events/webinar-galaxy-elixir-covid19" target="_blank">Programme Information and Registration</a>
 
 ### Speakers
 

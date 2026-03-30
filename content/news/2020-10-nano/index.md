@@ -4,10 +4,11 @@ date: '2020-10-23'
 tease: New paper in GigaScience
 doi: 10.1093/gigascience/giaa105
 tags: [paper]
-supporters:
-- unifreiburg
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  funding:
+    - uni-freiburg
 ---
 
 _Abstract_ - Long-read sequencing can be applied to generate very long contigs and even completely assembled genomes at relatively low cost and with minimal sample preparation. As a result, long-read sequencing platforms are becoming more popular. 
@@ -18,5 +19,5 @@ The Galaxy platform provides a user-friendly interface to computational command 
 
 A range of best-practice tools and workflows for long-read sequence genome assembly has been integrated into a NanoGalaxy platform to facilitate easy access and use of bioinformatics tools for researchers. NanoGalaxy is freely available at the European Galaxy server https://nanopore.usegalaxy.eu with supporting self-learning training material available at https://training.galaxyproject.org.
 
-<br>
+<br />
 {% twitter https://twitter.com/MiladMiladi_/status/1318645556751859712 %}

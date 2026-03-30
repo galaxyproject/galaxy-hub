@@ -1,0 +1,176 @@
+---
+type: map
+_examples: |
+    2025-10-07-spoc_meet:
+        title: Single-cell & sPatial Omics Community Meeting
+        date: 2025-10-07
+        days: 1
+        continent: GL
+        subsites: [all-eu, global, us]
+        location:
+            name: Online, Global
+mapping:
+    "=":
+        type: map
+        mapping:
+            title:
+                type: str
+                description: Event title
+            date:
+                type: any
+                description: Start date (YYYY-MM-DD)
+            end:
+                type: any
+                description: End date (optional, YYYY-MM-DD)
+            days:
+                type: int
+                description: Number of days
+            tease:
+                type: str
+            hide_tease:
+                type: bool
+            tags:
+                type: seq
+                sequence:
+                    - type: str
+                      enum:
+                          - TAGS
+            subsites:
+                type: seq
+                sequence:
+                    - type: str
+                      enum:
+                          - SUBSITES
+            main_subsite:
+                type: str
+                enum:
+                    - SUBSITES
+            continent:
+                type: str
+            gtn:
+                type: bool
+            contact:
+                type: str
+            contacts:
+                type: seq
+                sequence:
+                    - type: any
+            external_url:
+                type: str
+            externalurl:
+                type: str
+            image:
+                type: str
+            location_url:
+                type: str
+            site:
+                type: str
+            redirect:
+                type: str
+            skip_title_render:
+                type: bool
+            components:
+                type: bool
+            hidefooter:
+                type: bool
+            hide_metadata:
+                type: bool
+            rtl:
+                type: bool
+            autotoc:
+                type: bool
+            conference:
+                type: bool
+            location:
+                type: any
+                description: Location as a string or map with name/city/region/country/lat/lon/url
+            links:
+                type: seq
+                sequence:
+                    - type: map
+                      mapping:
+                          text:
+                              type: str
+                          url:
+                              type: str
+            contributions:
+                required: false
+                description: |
+                    List of tutorial contributors. Here we break them down into several broad categories to help contributors identify how they contributed to a specific tutorial.
+                _examples: |
+                    contributions:
+                        organisers:
+                            - shiltemann
+                            - bebatut
+                        instructors:
+                            - hexylena
+                            - bebatut
+                            - natefoo
+                        testing:
+                            - bebatut
+                        infrastructure:
+                            - natefoo
+                        funding:
+                            - gallantries
+                type: map
+                mapping:
+                    testing:
+                        type: seq
+                        description: These entities tested the tutorial to ensure it works correctly for students, or reported issues with the tutorial.
+                        sequence:
+                        - type: str
+                          enum:
+                          - CONTRIBUTORS
+                          - ORGANISATIONS
+                    infrastructure:
+                        type: seq
+                        description: These entities managed and provided infrastructure to the GTN or for training purposes
+                        sequence:
+                        - type: str
+                          enum:
+                          - CONTRIBUTORS
+                          - ORGANISATIONS
+                          - GRANTS
+                    reviewing:
+                        type: seq
+                        description: This person reviewed this material for accuracy and correctness
+                        sequence:
+                        - type: str
+                          enum:
+                          - CONTRIBUTORS
+                    funding:
+                        type: seq
+                        description: These entities provided funding support for the development of this resource
+                        sequence:
+                        - type: str
+                          enum:
+                          - ORGANISATIONS
+                          - GRANTS
+                    translation:
+                        type: seq
+                        description: These entities did translation and localisation work on this resource
+                        sequence:
+                        - type: str
+                          enum:
+                          - CONTRIBUTORS
+                          - ORGANISATIONS
+                    organisers:
+                        description: These entities organised the event
+                        type: seq
+                        sequence:
+                        - type: str
+                          enum:
+                          - CONTRIBUTORS
+                          - ORGANISATIONS
+                    instructors:
+                        description: These entities helped or instructed at the event
+                        type: seq
+                        sequence:
+                        - type: str
+                          enum:
+                          - CONTRIBUTORS
+                          - ORGANISATIONS
+            starts:
+                type: any
+            ends:
+                type: any

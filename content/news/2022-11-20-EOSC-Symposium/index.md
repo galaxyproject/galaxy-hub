@@ -3,9 +3,14 @@ title: Annual EOSC Symposium 14-17th November 2022
 date: "2022-11-20"
 tease: "The European Open Science Cloud (EOSC) had its main EOSC annual event. Find photos and recordings here."
 hide_tease: false
-tags: [esg]
+tags: [esg, esg-wp1, esg-wp2, esg-wp3, esg-wp4, esg-wp5, meeting]
 subsites: [all-eu, esg]
 main_subsite: eu
+contributions:
+  funding:
+    - eu
+    - eurosciencegateway
+    - eosc-life
 ---
 
 Over 500 stakeholders from ministries, policy makers, research organisations, service providers, research infrastructures and research communities across Europe and beyond met at the Symposium to reflect on the EOSC key achievements and strategic challenges, and to identify priorities and concrete actions at the European, national, and institutional level to speed up EOSC implementation.

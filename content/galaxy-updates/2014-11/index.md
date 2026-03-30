@@ -1,7 +1,7 @@
 ---
 title: November 2014 Galaxy Update
 ---
-<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width="150" /></a></div>
 
 Welcome to the November 2014 *[Galaxy Update](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
@@ -69,7 +69,7 @@ More than 40 people registered for the event, signing up for one, two or all thr
 
 ## Fall 2014 GUGGO Events Report
 
-<div class='right'><a href='http://www.biogenouest.org/agenda/evenement/groupe-de-travail-des-utilisateurs-galaxy-du-grand-ouest-guggo'><img src="/images/logos/eBiogenouestLogo.png" alt="Galaxy User Group Grand Ouest (GUGGO)" width=120 /></a></div>
+<div class='right'><a href='http://www.biogenouest.org/agenda/evenement/groupe-de-travail-des-utilisateurs-galaxy-du-grand-ouest-guggo'><img src="/images/logos/eBiogenouestLogo.png" alt="Galaxy User Group Grand Ouest (GUGGO)" width="120" /></a></div>
 
 Three events were sponsored by the [Galaxy User Group Grand Ouest (GUGGO)](https://www.e-biogenouest.org/groups/guggo) in western France earlier this fall.  Summaries of all 3 events are now available online.
 
@@ -116,9 +116,9 @@ There are [upcoming events](/events/) in France, Germany, Australia, Italy, and 
     <td> <a href='http://bioinfo.genotoul.fr/index.php?id=74'>GenoToul Bioinformatics Team</a> </td>
   </tr>
   <tr>
-    <th rowspan=2> November 5-8 </th>
+    <th rowspan="2"> November 5-8 </th>
     <td> <em>Rapidly bringing software to biologists with Galaxy and Docker</em> </td>
-    <td rowspan=2> <a href='http://meetings.cshl.edu/meetings/2014/data14.shtml'>Biological Data Science</a>, Cold Spring Harbor Laboratory, New York, United States </td>
+    <td rowspan="2"> <a href='http://meetings.cshl.edu/meetings/2014/data14.shtml'>Biological Data Science</a>, Cold Spring Harbor Laboratory, New York, United States </td>
     <td> <a href='/people/john-chilton/'>John Chilton</a> </td>
   </tr>
   <tr>
@@ -180,7 +180,7 @@ There are [upcoming events](/events/) in France, Germany, Australia, Italy, and 
     <td> <a href="mailto:bioinformatics DOT core AT ucdavis DOT edu">UC Davis Bioinformatics Training</a> </td>
   </tr>
   <tr>
-    <th colspan=4> 2015 </th>
+    <th colspan="4"> 2015 </th>
   </tr>
   <tr>
     <th> January 10-14 </th>
@@ -229,13 +229,13 @@ The new papers were tagged in these areas:
   <tr>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=4 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="4" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
   </tr>
@@ -319,23 +319,23 @@ The [OSDD Molecular Property Diagnostic Suite (MPDS)](http://mpds.osdd.net/) Gal
 
 # Galaxy Community Hubs
 
-<div class='left'>&nbsp;&nbsp; <a href='/blog/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
+<div class='left'>&nbsp;&nbsp; <a href='/news/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
 <div class='right'><img src="/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> &nbsp;&nbsp;</div>
 <br />
 
 <table>
   <tr>
-    <td style="text-align: center;"> &nbsp;&nbsp; <a href='/blog/'>Share your experience</a> <em><a href='/blog/'>now</a> </em> &nbsp;&nbsp;<br /> </td>
+    <td style="text-align: center;"> &nbsp;&nbsp; <a href='/news/'>Share your experience</a> <em><a href='/news/'>now</a> </em> &nbsp;&nbsp;<br /> </td>
   </tr>
 </table>
 
 <br /><br />
 
-**There were no new [Log Board](/blog/) or Deployment Catalog entries in August!**  Eek!  Please don't let this happen again!  
+**There were no new [Log Board](/news/) or Deployment Catalog entries in August!**  Eek!  Please don't let this happen again!  
 
-The *[Community Log Board](/blog/)* and  *Deployment Catalog* *[Galaxy community hubs](/community/)* were launched last your.  If you have a Galaxy deployment, or [experience](/blog/) you want to share then please publish them **this month.**
+The *[Community Log Board](/news/)* and  *Deployment Catalog* *[Galaxy community hubs](/community/)* were launched last your.  If you have a Galaxy deployment, or [experience](/news/) you want to share then please publish them **this month.**
 
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width="150" /></a></div>
 
 # New Releases
 

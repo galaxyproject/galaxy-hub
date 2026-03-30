@@ -13,8 +13,8 @@ Dannon is a software engineer in the [Taylor Lab](https://web.archive.org/web/20
     <td> <a href="mailto:dannon.baker AT gmail DOT com">dannon.baker AT gmail DOT com</a> </td>
   </tr>
   <tr>
-    <th> Gitter </th>
-    <td> https://gitter.im/dannon </td>
+    <th> Matrix </th>
+    <td> https://matrix.to/#/#dannon:gitter.im </td>
   </tr>
   <tr>
     <th> IRC </th>

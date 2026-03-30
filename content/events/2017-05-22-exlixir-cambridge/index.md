@@ -12,11 +12,13 @@ location:
 contacts:
 - email: null
   name: ELIXIR, GOBLET, GTN
-supporters:
-- elixir
 tags: [training]
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - elixir-europe
+
 ---
 
 The aim of the [ELIXIR/GOBLET/GTN hackathon](https://tess.elixir-europe.org/events/elixir-goblet-gtn-hackathon-for-galaxy-training-material-re-use-0ee16689-cd8e-4c02-af86-714e1e1e062b) for Galaxy training material re-use is to extend and improve the content of the Galaxy Training material repository

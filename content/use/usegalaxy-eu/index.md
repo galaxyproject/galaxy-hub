@@ -13,7 +13,7 @@ comments:
   - "Strong on genomics; community-specific subdomains; interactive environments. See the [project website](https://galaxyproject.eu/) for more."
   - "List of [installed tools in UseGalaxy.eu](https://galaxyproject.eu/tools)."
 user_support:
-  - "[UseGalaxy.eu Gitter Support Channel](https://gitter.im/usegalaxy-eu/Lobby)"
+  - "[UseGalaxy.eu Matrix Support Channel](https://matrix.to/#/#usegalaxy-eu_Lobby:gitter.im)"
   - "[Galaxy Help Forum](https://help.galaxyproject.org/)"
   - "[Support](/support/)"
 quotas:

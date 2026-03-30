@@ -1,7 +1,7 @@
 ---
 title: September 2013 Galaxy Update
 ---
-<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width="150" /></a></div>
 
 Welcome to the September 2013 *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -71,10 +71,10 @@ The [ZBIT Bioinformatics Toolbox](http://webservices.cs.uni-tuebingen.de/) enabl
   <tr>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=6 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="6" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=6 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="6" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
   </tr>
@@ -199,9 +199,9 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
     <td> <a href='/people/jeremy-goecks/'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
-    <th rowspan=2> October 7-8 </th>
+    <th rowspan="2"> October 7-8 </th>
     <td> <em><a href='https://www.gtcbio.com/conference/ngseurope-agenda#Day 1 -BIO'>TBD</a></em></td>
-    <td rowspan=2> <a href='http://www.gtcbio.com/conference/ngseurope-overview'>NGS & Bioinformatics Summit Europe</a>, Berlin, Germany </td>
+    <td rowspan="2"> <a href='http://www.gtcbio.com/conference/ngseurope-overview'>NGS & Bioinformatics Summit Europe</a>, Berlin, Germany </td>
     <td> <a href='/people/anton/'>Anton Nektutenko</a> </td>
   </tr>
   <tr>
@@ -221,9 +221,9 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
     <td> <a href="mailto:sarah DOT maman AT toulouse AT inra AT fr">Sarah Maman</a> </td>
   </tr>
   <tr>
-    <th rowspan=2> October 22-26 </th>
+    <th rowspan="2"> October 22-26 </th>
     <td> <em><a href='http://www.ashg.org/2013meeting/pages/workshops.shtml#intro'>Introduction to Integrative Analysis with GenomeSpace</a></em> </td>
-    <td rowspan=2> <strong><a href='http://www.ashg.org/2013meeting/'>ASHG 2013</a></strong>, Boston, Massachusetts, United States </td>
+    <td rowspan="2"> <strong><a href='http://www.ashg.org/2013meeting/'>ASHG 2013</a></strong>, Boston, Massachusetts, United States </td>
     <td> <a href='http://www.broadinstitute.org/science/programs/cancer/icbp/integrated-team-0'>Michael Reich</a> </td>
   </tr>
   <tr>
@@ -282,7 +282,7 @@ A new version of [CloudMan](/cloudman/) was [released in July](/news/cloudman-re
 
 # Tool Shed Contributions
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width="150" /></a></div>
 
 * [samifier](http://bit.ly/13JjmN0): enable a nexus between proteomic and genomic analysis.
 * [neuma](http://bit.ly/144FqOy): Accurate quantification of transcriptome from RNA-Seq data by effective length normalization

@@ -2,14 +2,15 @@
 title: New Paper "Ready-to-use public infrastructure for global SARS-CoV-2 monitoring"
 date: '2021-09-23'
 doi: 10.1038/s41587-021-01069-1
-tags: [paper, citations]
-supporters:
-- crc1425
-- crc992
-- denbi
-- elixir
+tags: [paper, citations, covid-19]
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  funding:
+    - crc1425
+    - crc992
+    - deNBI
+    - elixir-europe
 ---
 
 ![Graphical Abstract](/assets/media/2021-09-23-covid.webp)

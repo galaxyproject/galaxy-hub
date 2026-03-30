@@ -11,7 +11,7 @@ main_subsite: freiburg
 The Freiburg Galaxy Team is looking for a JavaScript developer.
 
 <div class="multiple-img">
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/134305289@N03/31768905991/in/album-72157671198874931/" title="Untitled"><img src="https://farm1.staticflickr.com/366/31768905991_508703bbeb_k.jpg" width="512" height="340" alt="Untitled"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/134305289@N03/31768905991/in/album-72157671198874931/" title="Untitled"><img src="https://farm1.staticflickr.com/366/31768905991_508703bbeb_k.jpg" width="512" height="340" alt="Untitled" /></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </div>
 
 The Freiburg Galaxy Team is looking for a JavaScript developer (f/m) to support our work on the web-based computational platform Galaxy. The Freiburg Galaxy

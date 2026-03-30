@@ -9,11 +9,13 @@ contacts:
 location:
   city: Freiburg
   country: Germany
-supporters:
-- elixir
-- denbi
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+
 ---
 
 The Freiburg Galaxy team will organize a local Galaxy User Conference

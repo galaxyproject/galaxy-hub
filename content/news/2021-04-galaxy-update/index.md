@@ -3,7 +3,7 @@ title: April 2021 Galactic News
 date: '2021-04-12'
 tease: GCC2021 Abstracts and Registration are open, plus lots more.
 autotoc: false
-tags: [newsletter, galaxy]
+tags: [newsletter]
 subsites: [all-eu, global, us]
 ---
 
@@ -258,7 +258,7 @@ In addition, there are two more webinars this month:
 
 Please join us for the [7th Papercuts CoFest day on April 15](/events/2021-04-papercuts/) to help the Galaxy Ecosystem become a better place, and to help new contributors come on board.
 
-We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day long, and on 3 calls spread across the day. Please take advantage of both to communicate with your collaborators around the world.
+We will be on [Matrix](https://matrix.to/#/#galaxyproject_Lobby:gitter.im) for chat all day long, and on 3 calls spread across the day. Please take advantage of both to communicate with your collaborators around the world.
 
 </div>
 
@@ -450,7 +450,7 @@ By [Nolan Woods](https://www.linkedin.com/in/nolan-woods)
 
 Tips for collections, mapping, AWK, flow control, writing tool wrappers, and more.
 
-![Flow Control: Conditional](/blog/2021-03-tips-and-tricks/conditional-flow-control.png)
+![Flow Control: Conditional](/news/2021-03-tips-and-tricks/conditional-flow-control.png)
 
 </div>
 
@@ -621,7 +621,7 @@ The Galaxy Training Network now has a [Frequently Asked Questions (FAQ) page](ht
 
 # Publications
 
-Pub curation activities [are on a semi-hiatus right now](/blog/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
+Pub curation activities [are on a semi-hiatus right now](/news/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
 
 <div class="card-deck">
 

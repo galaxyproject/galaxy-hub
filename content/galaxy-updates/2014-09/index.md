@@ -1,7 +1,7 @@
 ---
 title: September 2014 Galaxy Update
 ---
-<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width="150" /></a></div>
 
 Welcome to the September 2014 *[Galaxy Update](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
@@ -92,10 +92,10 @@ These events are a great way to meet other Galaxy users and developers and learn
     <td> <a href='https://wiki.galaxyproject.org/EnisAfgan'>Enis Afgan</a> </td>
   </tr>
   <tr>
-    <th rowspan=3> September 30 - October 2 </th>
+    <th rowspan="3"> September 30 - October 2 </th>
     <td> <a href='/events/switzerland2014/trainingday/'>Galaxy Training and Demo Day</a> </td>
-    <td rowspan=3> <strong><a href='/events/sg2014/'>2014 Swiss-German Galaxy Tour</a></strong> with events in <strong>Bern, Switzerland</strong> and <strong>Freiburg, Germany</strong> </td>
-    <td rowspan=3> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> and <a href='/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
+    <td rowspan="3"> <strong><a href='/events/sg2014/'>2014 Swiss-German Galaxy Tour</a></strong> with events in <strong>Bern, Switzerland</strong> and <strong>Freiburg, Germany</strong> </td>
+    <td rowspan="3"> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> and <a href='/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
     <td> <em><a href='/events/switzerland2014/'>(second Swiss) Galaxy Workshop</a></em> </td>
@@ -166,10 +166,10 @@ And don't worry, Europe does not have a complete lock on upcoming Galaxy related
     <td> <a href='http://faculty.virginia.edu/wrpearson/'>William Pearson</a>, <a href='http://mcb.illinois.edu/faculty/profile/ljstubbs'>Lisa Stubbs</a> </td>
   </tr>
   <tr>
-    <th rowspan=3> November 2-5 </th>
+    <th rowspan="3"> November 2-5 </th>
     <td> <em><a href='https://www.acsmeetings.org/tours-workshops#Intro to'>Introduction to Bioinformatics Analysis with Galaxy Workshop</a></em> </td>
-    <td rowspan=3> <strong><a href='https://www.acsmeetings.org/home'>ASA, CSSA, and SSSA International Annual Meeting</a></strong>, Long Beach, California, United States </td>
-    <td rowspan=3> <a href="mailto:outreach AT galaxyproject DOT org">Galaxy Outreach</a> </td>
+    <td rowspan="3"> <strong><a href='https://www.acsmeetings.org/home'>ASA, CSSA, and SSSA International Annual Meeting</a></strong>, Long Beach, California, United States </td>
+    <td rowspan="3"> <a href="mailto:outreach AT galaxyproject DOT org">Galaxy Outreach</a> </td>
   </tr>
   <tr>
     <td> <em><a href='https://www.acsmeetings.org/tours-workshops#SNP'>SNP/Variant Analysis with Galaxy Workshop</a></em> </td>
@@ -184,7 +184,7 @@ And don't worry, Europe does not have a complete lock on upcoming Galaxy related
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
-    <th colspan=4> 2015 </th>
+    <th colspan="4"> 2015 </th>
   </tr>
   <tr>
     <th> July 6-8 </th>
@@ -209,13 +209,13 @@ The new papers were tagged in many different areas:
   <tr>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=4 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="4" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
   </tr>
@@ -283,8 +283,8 @@ August was an eventful month for releases.  New versions of [Galaxy](/galaxy-upd
 
 ## August 11, 2014 Galaxy Distribution
 
-<div class='left'><a href='http://getgalaxy.org'><img src="/images/logos/GetGalaxyOrg.png" alt=" " width=150 /></a></div>
-<div class='right'><a href='http://wiki.galaxyproject.org/Admin/Tools/Docker'><img src="/images/logos/DockerInGalaxyAnnotated.png" alt=" " width=280 /></a></div>
+<div class='left'><a href='http://getgalaxy.org'><img src="/images/logos/GetGalaxyOrg.png" alt=" " width="150" /></a></div>
+<div class='right'><a href='http://wiki.galaxyproject.org/Admin/Tools/Docker'><img src="/images/logos/DockerInGalaxyAnnotated.png" alt=" " width="280" /></a></div>
 <br />
 **[Complete News Brief](http://wiki.galaxyproject.org/DevNewsBriefs/2014-08-11)**
 <br /><br /><br />
@@ -297,8 +297,8 @@ August was an eventful month for releases.  New versions of [Galaxy](/galaxy-upd
 <br /><br />
 <table>
   <tr>
-    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width=70 /></a> &nbsp;&nbsp; </td>
-    <td colspan=2 style=" border: none;"> <strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a></strong> </td>
+    <td rowspan="3" style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width="70" /></a> &nbsp;&nbsp; </td>
+    <td colspan="2" style=" border: none;"> <strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
     <td style=" border: none;"> <strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a></strong> </td>
@@ -423,23 +423,23 @@ Eric & Björn
 
 # Galaxy Community Hubs
 
-<div class='left'>&nbsp;&nbsp; <a href='/blog/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
+<div class='left'>&nbsp;&nbsp; <a href='/news/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
 <div class='right'><img src="/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> &nbsp;&nbsp;</div>
 <br />
 
 <table>
   <tr>
-    <td style="text-align: center;"> &nbsp;&nbsp; <a href='/blog/'>Share your experience</a> <em><a href='/blog/'>now</a> </em> &nbsp;&nbsp;<br /> </td>
+    <td style="text-align: center;"> &nbsp;&nbsp; <a href='/news/'>Share your experience</a> <em><a href='/news/'>now</a> </em> &nbsp;&nbsp;<br /> </td>
   </tr>
 </table>
 
 <br /><br />
 
-**There were no new [Log Board](/blog/) or Deployment Catalog entries in August!**  Eek!  Please don't let this happen again!  
+**There were no new [Log Board](/news/) or Deployment Catalog entries in August!**  Eek!  Please don't let this happen again!  
 
-The *[Community Log Board](/blog/)* and  *Deployment Catalog* *[Galaxy community hubs](/community/)* were launched last your.  If you have a Galaxy deployment, or [experience](/blog/) you want to share then please publish them **this month.**
+The *[Community Log Board](/news/)* and  *Deployment Catalog* *[Galaxy community hubs](/community/)* were launched last your.  If you have a Galaxy deployment, or [experience](/news/) you want to share then please publish them **this month.**
 
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width="150" /></a></div>
 
 # ToolShed Contributions
 

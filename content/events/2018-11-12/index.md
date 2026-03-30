@@ -12,4 +12,10 @@ gtn: false
 contact: Jan Oppelt, Jelle Scholtalbers
 image: 
 subsites: [global, us]
+contributions:
+  organisers:
+    - jellescholtalbers
+  funding:
+    - elixir-cz
+
 ---

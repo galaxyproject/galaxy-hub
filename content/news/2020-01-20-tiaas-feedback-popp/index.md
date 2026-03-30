@@ -1,14 +1,15 @@
 ---
 title: Training Infrastructure Feedback from Denny Popp
 date: '2020-01-20'
-tags: [training, TIaaS]
-supporters:
-- galaxy-europe
-authors: Denny Popp
-authors_structured:
-- name: Denny Popp
+tags: [training, tiaas]
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - dennypopp
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 For a 1-day course on long read sequencing for (meta)genomics I was looking for a powerful, easy-to-use computational infrastructure. 

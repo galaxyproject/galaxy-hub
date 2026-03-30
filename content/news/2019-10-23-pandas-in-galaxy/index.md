@@ -5,14 +5,14 @@ date: '2019-10-23'
 tease: Drop or duplicate given rows or columns from a tabular dataset, filter rows
   or columns on their properties, replace or transform table elements, ...
 tags: [tools]
-authors: bgruening
-authors_structured:
-- github: bgruening
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bgruening
 ---
 
-With [Table Compute](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute/0.9.2){:target="_top"}
+With <a href="https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute/0.9.2" target="_top">Table Compute</a>
 you can:
 - drop or duplicate given rows or columns from a tabular dataset
 - filter rows or columns on their properties

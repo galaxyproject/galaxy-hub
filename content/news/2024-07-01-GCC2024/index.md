@@ -2,18 +2,26 @@
 title: "Galaxy Community Conference 2024 - a brief summary from the Freiburg Galaxy Team!"
 tease: "A brief summary from the Freiburg Galaxy Team for GCC 2024"
 date: '2024-07-01'
-authors: Freiburg Galaxy Team
-supporters:
-- JXTX Foundation
-- Worfklow4Metabelomics
-- GalaxyWorks
-- GigaScience
-- KWS
-- Limagrain
-- deNBI
-subsites: [all-eu, global, us]
-tags: [GCC-2024, CoFest, training, Elixir, EOSC, Brno]
+subsites: [all-eu, global, us, esg]
+tags: [gcc, cofest, training, elixir, eosc, Brno, esg, esg-wp1, meeting, outreach, talk]
 main_subsite: eu
+contributions:
+  authorship:
+    - freiburggalaxyteam
+  funding:
+    - eu
+    - jxtxfoundation
+    - worfklow4metabelomics
+    - galaxyworks
+    - gigascience
+    - kws
+    - limagrain
+    - deNBI
+    - mwk
+    - uni-freiburg
+    - eurosciencegateway
+    - cesnet
+    - elixir-cz
 ---
 
 The [2024 Galaxy Community Conference (GCC2024)](https://galaxyproject.org/events/gcc2024/) was held in Brno, Czech Republic, 24-29 June, 2024.

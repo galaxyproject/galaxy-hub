@@ -11,11 +11,13 @@ location:
 contacts:
 - email: galaxy@informatik.uni-freiburg.de
   name: Freiburg Galaxy Team
-supporters:
-- denbi
 tags: [training, talk]
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+
 ---
 
 We will give a talk and a workshop about Galaxy for biomedical research.

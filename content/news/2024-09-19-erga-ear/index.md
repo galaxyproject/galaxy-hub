@@ -1,9 +1,16 @@
 ---
 title: "The ERGA Assembly Report - a community-developed Genome Assembly QC Document Using Galaxy"
 date: "2024-09-19"
-authors: Saim Momin and Diego De Panis
 tease: "Discover more about the ERGA Assembly Report – a comprehensive, community-driven Genome assembly Quality Control Document."
 subsites: [global, eu, us, freiburg]
+tags: [biodiversity, project, erga]
+contributions:
+  authorship:
+    - SaimMomin12
+    - diegodepanis
+  funding:
+    - eu
+    - bge
 ---
 
 # **The ERGA Assembly Report - a community-developed Genome Assembly QC Document Using Galaxy**
@@ -14,7 +21,7 @@ The ERGA Assembly Report (EAR) is a community-developed Genome Assembly QC docum
 
 <div align="center">
 <a href="https://usegalaxy.eu/root?tool_id=make_ear"><button type="button" class="btn btn-primary btn-lg">Check ERGA Assembly Reporting Tool in Galaxy</button></a>
-</div><br>
+</div><br />
 
 ![A graphical representation of ERGA Assembly Reporting tool in a Galaxy workflow and resultant output PDF report](EAR.png)
 

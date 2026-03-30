@@ -1,7 +1,7 @@
 ---
 title: August 2013 Galaxy Update
 ---
-<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width="150" /></a></div>
 
 Welcome to the August 2013 *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -56,10 +56,10 @@ The QBRC galaxy server tools are constantly being updated. Please contact author
   <tr>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=6 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="6" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=4 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="4" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
   </tr>
@@ -189,8 +189,8 @@ Galaxy had a strong presence at [ISMB / ECCB 2013](http://www.iscb.org/ismbeccb2
   <tr>
     <th> September 9-11 </th>
     <td> <em><a href='https://training.bioinformatics.ucdavis.edu/2013/07/02/the-2013-rna-seq-workshop/'>RNA-Seq Workshop: From Pipette to P-value!</a></em> </td>
-    <td rowspan=1> <a href='http://bioinformatics.ucdavis.edu/'>UC Davis Bioinformatics Core</a> Davis, California, United States </td>
-    <td rowspan=1> <a href="mailto:ucdbio AT gmail DOT com">Email</a> </td>
+    <td rowspan="1"> <a href='http://bioinformatics.ucdavis.edu/'>UC Davis Bioinformatics Core</a> Davis, California, United States </td>
+    <td rowspan="1"> <a href="mailto:ucdbio AT gmail DOT com">Email</a> </td>
   </tr>
   <tr>
     <th> September&nbsp;28 - October&nbsp;1 </th>
@@ -211,9 +211,9 @@ Galaxy had a strong presence at [ISMB / ECCB 2013](http://www.iscb.org/ismbeccb2
     <td> <a href='/people/jeremy-goecks/'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
-    <th rowspan=2> October 7-8 </th>
+    <th rowspan="2"> October 7-8 </th>
     <td> <em><a href='https://www.gtcbio.com/conference/ngseurope-agenda#Day 1 -BIO'>TBD</a></em></td>
-    <td rowspan=2> <a href='http://www.gtcbio.com/conference/ngseurope-overview'>NGS & Bioinformatics Summit Europe</a> </td>
+    <td rowspan="2"> <a href='http://www.gtcbio.com/conference/ngseurope-overview'>NGS & Bioinformatics Summit Europe</a> </td>
     <td> <a href='/people/anton/'>Anton Nektutenko</a> </td>
   </tr>
   <tr>
@@ -274,7 +274,7 @@ For more details on the new features, see the the [CHANGELOG](https://bitbucket.
 
 # Tool Shed Contributions
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width="150" /></a></div>
 
 * [varscan](http://bit.ly/12cDtT2): mutation callers for targeted, exome, & whole-genome resequencing; cancer genomics
 * [jointsnvmix](http://bit.ly/153MT1x): Somatic mutations caller using probabilistic graphical model w/ tumour/normal pairs

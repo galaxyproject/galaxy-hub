@@ -1,0 +1,24 @@
+domains:
+    - platform_url: https://veupathdb.org/veupathdb/app/galaxy-orientation
+      ip: 128.192.21.13
+      version: IPv4
+      asn: AS36441 University of Georgia
+      org: University of Georgia
+      location:
+          city: Athens
+          region: Georgia
+          region_code: GA
+          country: US
+          country_name: United States
+          country_code: US
+          continent_code: NA
+          postal: "30605"
+          latitude: 33.9332
+          longitude: -83.3536
+          timezone: America/New_York
+          currency: USD
+      response:
+          time: "2025-11-25T21:23:46Z"
+          status_code: 200
+          response_time_ms: 0
+          reason: OK

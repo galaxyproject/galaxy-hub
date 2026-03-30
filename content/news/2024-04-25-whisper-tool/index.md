@@ -1,9 +1,11 @@
 ---
 title: "Whisper: An open-source model for speech recognition now available in Galaxy!"
 date: "2024-04-25"
-authors: "itisalirh"
 tease: "Now use Whisper in the European Galaxy Server to recognize and transcribe your speech data🎙️!"
 subsites: [global, eu, us, freiburg]
+contributions:
+  authorship:
+    - itisalirh
 ---
 
 ## What is Whisper? What does it do?

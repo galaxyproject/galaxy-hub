@@ -2,7 +2,7 @@
 title: August 2017 Galaxy News
 ---
 <div class='right'>
-[<img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/galaxy-updates/)
+[<img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="150" />](/galaxy-updates/)
 </div>
 
 Welcome to the August 2017 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
@@ -11,7 +11,7 @@ Welcome to the August 2017 *[Galactic News](/galaxy-updates/)*, a summary of wha
 # GCC2018: Portland, Oregon, United States, June 25-30
 
 <div class="left">
-[<img src="/images/logos/gcc-bosc-2018-logo-300.png" width="200" alt="GCC2018 will be colocated with BOSC 2018 in Portland, Oregon">](https://gccbosc2018.sched.com/)
+[<img src="/images/logos/gcc-bosc-2018-logo-300.png" width="200" alt="GCC2018 will be colocated with BOSC 2018 in Portland, Oregon" />](https://gccbosc2018.sched.com/)
 </div>
 
 We are pleased to announce that the **2018 Galaxy Community Conference (GCC2018)** and the **[Bioinformatics Open Source Conference 2018 (BOSC2018)](https://www.open-bio.org/wiki/BOSC)** are [joining together for a unified event](https://gccbosc2018.sched.com/) to be held in Portland, Oregon, United States, June 25-30, 2018.  The event will feature two days of training, a two day meeting, and finish with two days of intense collaboration at the [OBF Codefest](https://www.open-bio.org/wiki/Codefest), and Hack the Galaxy: Dev and Data.  The meeting will feature joint and parallel sessions, and shared keynotes, poster and demo sessions, and social events.  Colocating GCC and BOSC will bring together the widest possible community of bioinformatics developers and practitioners into a single place.  At this event the whole will be greater than the sum of the parts.
@@ -419,7 +419,7 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 # Other News
 
-<div class="right">[<img src="/images/news-graphics/tacc-mining-cancer-data-thumb.png" alt="Mining cancer data for treatment clues">](https://www.tacc.utexas.edu/-/mining-cancer-data-for-treatment-clues)</div>
+<div class="right">[<img src="/images/news-graphics/tacc-mining-cancer-data-thumb.png" alt="Mining cancer data for treatment clues" />](https://www.tacc.utexas.edu/-/mining-cancer-data-for-treatment-clues)</div>
 
 * [Mining cancer data for treatment clues](https://www.tacc.utexas.edu/-/mining-cancer-data-for-treatment-clues): Cancer genomics researchers rely on TACC supercomputers to help identify risk factors and classify tumors
 * [Five years of Galaxy-P!](https://twitter.com/usegalaxyp/status/888157211612110849)

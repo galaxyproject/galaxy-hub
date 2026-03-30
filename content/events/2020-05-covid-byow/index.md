@@ -12,4 +12,10 @@ external_url: "https://apps.mhs.manchester.ac.uk/surveys/TakeSurvey.aspx?SurveyI
 gtn: false
 contact: "info @ esciencelab . org . uk"
 subsites: [global, us]
+tags: [fair, workflow, workflowhub, covid-19]
+contributions:
+  funding:
+    - elixir-europe
+    - workflowhub
+
 ---

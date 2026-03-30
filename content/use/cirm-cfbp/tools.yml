@@ -1,0 +1,63 @@
+tools:
+    - name: Upload File
+      version: 1.1.7
+      link: /galaxypub-cfbp/tool_runner?tool_id=upload1
+      description: from your computer
+    - name: KI-S
+      version: "1.0"
+      link: /galaxypub-cfbp/tool_runner?tool_id=KI-S
+      description: Computes ANIs and/or shared K-mers
+    - name: KI-S Circle Packing
+      version: "1.0"
+      link: /galaxypub-cfbp/tool_runner?tool_id=petridish
+      description: View a similarity matrix with circle packing (thresholds)
+    - name: SPri
+      version: "1.0"
+      link: /galaxypub-cfbp/tool_runner?tool_id=SPri
+      description: Specific Primers design
+    - name: SkIf
+      version: "1.2"
+      link: /galaxypub-cfbp/tool_runner?tool_id=SkIf
+      description: SkIf identify specific k-mers of groups of genomes
+    - name: Extract_genes_genomes
+      version: "1.0"
+      link: /galaxypub-cfbp/tool_runner?tool_id=Extract_genes_genomes
+      description: Extract best hit of genes in genomes -> mafft alignement -> NJtree
+    - name: Extract_genes_ncbi_genomes
+      version: "1.0"
+      link: /galaxypub-cfbp/tool_runner?tool_id=Extract_genes_ncbi_genomes
+      description: Extract best hit of genes in NCBI genomes
+    - name: Extract_infos_first_hit
+      version: "1.0"
+      link: /galaxypub-cfbp/tool_runner?tool_id=Extract_infos_first_hit
+      description: Extract best hit infos for multi sequences fasta on a genome
+    - name: primerSearchGalaxy
+      version: "1.0"
+      link: /galaxypub-cfbp/tool_runner?tool_id=primerSearchGalaxy
+      description: Search primers in fasta sequences files (in zip file)
+    - name: Amplify4
+      version: "1.0"
+      link: /galaxypub-cfbp/tool_runner?tool_id=Amplipy
+      description: ""
+    - name: primerSearchGalaxyNcbiGenomes
+      version: "1.0"
+      link: /galaxypub-cfbp/tool_runner?tool_id=primerSearchGalaxyNcbiGenomes
+      description: Search primers in NCBI fasta sequences files (genomes already downloaded,
+          just provide target NCBI genome list)
+    - name: detectPlasmidInMyGenome
+      version: "1.0"
+      link: /galaxypub-cfbp/tool_runner?tool_id=detectPlasmidInMyGenome
+      description: Search plasmids in nucleotidic genome sequence
+    - name: SkIf2
+      version: "1.0"
+      link: /galaxypub-cfbp/tool_runner?tool_id=SkIf2
+      description: Specific k-mers Identification
+    - name: KISonWGS
+      version: "1.0"
+      link: /galaxypub-cfbp/tool_runner?tool_id=KISonWGS
+      description: ""
+    - name: visualiseSynthenies
+      version: "1.0"
+      link: /galaxypub-cfbp/tool_runner?tool_id=visualiseSynthenies
+      description: Visualise synthenies for a query input gene in genomes provided in
+          a zip

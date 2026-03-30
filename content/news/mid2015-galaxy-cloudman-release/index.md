@@ -13,6 +13,6 @@ This is the most complete update of the Galaxy on the Cloud platform to date wit
 * *Galaxy on the Cloud*: switched to a different Cloud Launch application, available at https://launch.usegalaxy.org/
 * *Galaxy on the Cloud*: Integrated Galaxy IPython Interactive Environments
 * CloudMan: Creating cluster shares is now fast (~30 seconds vs. hours)
-* Created a wealth of new documentation, including a description of the all new automated method for building private/custom instances https://wiki.galaxyproject.org[/CloudMan](/news/mid2015-galaxy-cloudman-release/CloudMan/)/Building
+* Created a wealth of new documentation, including a description of the all new automated method for building private/custom instances [/cloudman/building](/cloudman/building)
 
 See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGELOG.md) for a more complete set of changes or just give it a try: see the all new [Getting Started](https://wiki.galaxyproject.org/CloudMan/GettingStarted) documentation.

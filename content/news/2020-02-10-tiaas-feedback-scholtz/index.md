@@ -1,14 +1,15 @@
 ---
 title: Training Infrastructure Feedback from Beata Scholtz
 date: '2020-02-10'
-tags: [training, TIaaS]
-supporters:
-- galaxy-europe
-authors: Beata Scholtz
-authors_structured:
-- name: Beata Scholtz
+tags: [training, tiaas]
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatascholtz
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 

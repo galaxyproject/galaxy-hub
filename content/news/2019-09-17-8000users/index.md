@@ -2,14 +2,14 @@
 title: 8,000 users, 6,000,000 jobs and 11,000,000 datasets
 date: '2019-09-17'
 tags: [devops, data]
-supporters:
-- denbi
-- elixir
-authors: erxleben
-authors_structured:
-- github: erxleben
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - erxleben
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 

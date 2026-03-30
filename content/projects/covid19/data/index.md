@@ -1,7 +1,6 @@
 ---
 title: "Data"
 description: "Data produced by Galaxy COVID19 effort"
-components: true
 autotoc: false
 ---
 

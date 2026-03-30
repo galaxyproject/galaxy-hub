@@ -12,4 +12,8 @@ gtn: false
 contact: "Delphine Larivière"
 image: 
 subsites: [global, us]
+contributions:
+  organisers:
+    - delphine-l
+
 ---

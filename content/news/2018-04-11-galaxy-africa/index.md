@@ -11,7 +11,7 @@ components: true
 
 The first [Galaxy conference](https://galaxyafrica.sanbi.ac.za/) was held last week in Africa, organized by [SANBI](https://www.sanbi.ac.za/) at [University of Wester Cape](https://www.uwc.ac.za/Pages/default.aspx) in Cape Town. Björn and Bérénice participated:
 
-<twitter tweet="981073917187100672"></twitter>
+<Twitter tweet="981073917187100672"></Twitter>
 
 - On the 3rd, Björn gave the keynote talk ("Welcome to Galaxy") in the morning. During the afternoon, they gave a Galaxy introduction training
 - On the 4th, Bérénice started with the keynote talk (["Welcome to Galaxy"](http://bebatut.fr/talks/18/04_04_galaxy_africa/#/1))

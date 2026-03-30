@@ -1,0 +1,108 @@
+---
+/**
+ * ESG Layout
+ * Supports two modes:
+ * - solo: Standalone layout with ESG-branded header
+ * - integrated: Uses BaseLayout with ESG branding
+ */
+import BaseLayout from './BaseLayout.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+  solo?: boolean;
+}
+
+const { title, description, solo = false } = Astro.props;
+
+// Get current path for nav highlighting
+const currentPath = Astro.url.pathname;
+const isHome = currentPath === '/projects/esg/' || currentPath === '/projects/esg';
+const isNews = currentPath.includes('/projects/esg/news');
+const isEvents = currentPath.includes('/projects/esg/events');
+
+// Funding notice content
+const fundingNotice = `
+<img src="/images/projects/esg/images/EN-Funded by the EU-POS.png" class="h-16 w-auto" alt="Funded by the EU" />
+<p class="text-xs text-gray-600">
+  <strong>EuroScienceGateway</strong> was funded by the European Union programme Horizon Europe
+  (<strong>HORIZON-INFRA-2021-EOSC-01-04</strong>) under grant agreement number
+  <a href="https://cordis.europa.eu/project/id/101057388" class="text-blue-600 hover:underline">101057388</a>
+  and by UK Research and Innovation (UKRI) under the UK government's Horizon Europe funding guarantee grant number
+  <a href="https://gtr.ukri.org/projects?ref=10038963" class="text-blue-600 hover:underline">10038963</a>.
+</p>
+`;
+---
+
+{
+  solo ? (
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+          name="description"
+          content={description || 'EuroScienceGateway - Improving computational workflows in Galaxy'}
+        />
+        <title>{title} | EuroScienceGateway</title>
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+      </head>
+      <body class="min-h-screen bg-white">
+        <nav class="bg-gray-800 text-white">
+          <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+            <a href="/projects/esg/?solo=true" class="flex items-center">
+              <img
+                src="/images/projects/esg/eosc_euro_science_gateway_white.svg"
+                alt="EuroScienceGateway"
+                class="h-8"
+              />
+            </a>
+            <div class="flex gap-6">
+              <a
+                href="/projects/esg/?solo=true"
+                class:list={['hover:text-gray-300', { 'text-blue-300 font-semibold': isHome }]}
+              >
+                Home
+              </a>
+              <a
+                href="/projects/esg/news/?solo=true"
+                class:list={['hover:text-gray-300', { 'text-blue-300 font-semibold': isNews }]}
+              >
+                News
+              </a>
+              <a
+                href="/projects/esg/events/?solo=true"
+                class:list={['hover:text-gray-300', { 'text-blue-300 font-semibold': isEvents }]}
+              >
+                Events
+              </a>
+            </div>
+          </div>
+        </nav>
+
+        <main class="max-w-6xl mx-auto px-4 py-8">
+          <slot />
+
+          <div class="mt-12 pt-8 border-t border-gray-200 flex items-start gap-4 flex-wrap">
+            <Fragment set:html={fundingNotice} />
+          </div>
+        </main>
+
+        <footer class="max-w-6xl mx-auto px-4 py-6 text-center text-gray-600 text-sm">
+          Hosted on the{' '}
+          <a href="/" class="text-blue-600 hover:underline font-semibold">
+            Galaxy Community Hub
+          </a>
+        </footer>
+      </body>
+    </html>
+  ) : (
+    <BaseLayout title={`${title} | EuroScienceGateway`} description={description}>
+      <slot />
+
+      <div class="mt-12 pt-8 border-t border-gray-200 flex items-start gap-4 flex-wrap">
+        <Fragment set:html={fundingNotice} />
+      </div>
+    </BaseLayout>
+  )
+}

@@ -104,7 +104,7 @@ Critical to the success of this diverse community is creating and articulating i
 
 # Galaxy Community Conference
 
-<img class="float-right" style="max-width: 16rem;" src="/images/events/gcc2021/gcc2021-logo-wide-trans.png">
+<img class="float-right" style="max-width: 16rem;" src="/images/events/gcc2021/gcc2021-logo-wide-trans.png" />
 
 In 2010 the National Science Foundation initiated a yearly gathering of Galaxy users and developers by providing the project with a grant supplement. Since then this gathering has grown into an annual event known as the **[Galaxy Community Conference (GCC)](/gcc/)**. GCC alternates between North America and elsewhere, and provides a forum for sharing knowledge and building collaborations. There have been over 200 participants every year since 2012.
 
@@ -157,3 +157,14 @@ The mission of the [Bioconductor project](https://www.bioconductor.org/) is to d
 [F1000Research](https://f1000research.com/?utm_source=shared_link&utm_medium=post&utm_campaign=JRC27054) enables scientists and scholars to publish their research rapidly, openly, and transparently via an author-centric platform. We publish research across all academic disciplines and in multiple formats, including original articles, data notes, software tool articles and method articles.
 
 F1000Research operates a unique post-publication open peer review process, enabling authors to engage with their reviewers transparently, whilst also making the research available to a global audience as quickly as possible.
+
+# A few success stories
+
+Please read the success stories below! They are full of inspiring examples and solutions!
+
+| __Special Interest Group__ | __Here is how they did it__ |
+|---|---|
+| Biodiversity  |  [The Biodiversity success story from 2022-2025](/community/sig/successful-stories/biodiversity/) |
+| Climate Science | [The Climate Science  success story from 2022-2025](/community/sig/successful-stories/climate/) |
+| Materials Science | [The Materials Science success story from 2022-2025](/community/sig/successful-stories/materials-science/)|
+| Astrophysics | [The Astrophysics success story from 2022-2025](/community/sig/successful-stories/astrophysics/) |

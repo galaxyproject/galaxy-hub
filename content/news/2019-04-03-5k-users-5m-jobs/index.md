@@ -2,14 +2,14 @@
 title: We passed the 5,000,000th job and 5,000 users!
 date: '2019-04-03'
 tags: [devops]
-supporters:
-- denbi
-- elixir
-authors: bgruening
-authors_structured:
-- github: bgruening
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bgruening
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 This week [we](https://usegalaxy-eu.github.io/freiburg/people) are celebrating 5 million jobs and 5 thousand users.

@@ -1,0 +1,363 @@
+tools:
+    - name: Split file
+      version: 0.5.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fsplit_file_to_collection%2Fsplit_file_to_collection%2F0.5.2
+      description: to dataset collection
+    - name: Collapse Collection
+      version: 5.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fnml%2Fcollapse_collections%2Fcollapse_dataset%2F5.1.0
+      description: into single dataset in order of the collection
+    - name: Compose text parameter value
+      version: 0.1.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fcompose_text_param%2Fcompose_text_param%2F0.1.1
+      description: from parameters
+    - name: Compute
+      version: "2.1"
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fcolumn_maker%2FAdd_a_column1%2F2.1
+      description: on rows
+    - name: Replace column
+      version: "0.2"
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Freplace_column_by_key_value_file%2Freplace_column_with_key_value_file%2F0.2
+      description: by values which are defined in a convert file
+    - name: Sort a row
+      version: 9.5+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_sort_rows%2F9.5%2Bgalaxy2
+      description: according to their columns
+    - name: Replace
+      version: 9.5+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_find_and_replace%2F9.5%2Bgalaxy2
+      description: parts of text
+    - name: Concatenate datasets
+      version: 9.5+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_cat%2F9.5%2Bgalaxy2
+      description: tail-to-head (cat)
+    - name: Text reformatting
+      version: 9.5+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_awk_tool%2F9.5%2Bgalaxy2
+      description: with awk
+    - name: Select first
+      version: 9.5+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_head_tool%2F9.5%2Bgalaxy2
+      description: lines from a dataset (head)
+    - name: Replace Text
+      version: 9.5+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_replace_in_line%2F9.5%2Bgalaxy2
+      description: in entire line
+    - name: Unique lines
+      version: 9.5+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_uniq_tool%2F9.5%2Bgalaxy2
+      description: assuming sorted input file
+    - name: Multi-Join
+      version: 9.5+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_multijoin_tool%2F9.5%2Bgalaxy2
+      description: (combine multiple files)
+    - name: Select last
+      version: 9.5+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_tail_tool%2F9.5%2Bgalaxy2
+      description: lines from a dataset (tail)
+    - name: Join
+      version: 9.5+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_easyjoin_tool%2F9.5%2Bgalaxy2
+      description: two files
+    - name: Advanced Cut
+      version: 9.5+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_cut_tool%2F9.5%2Bgalaxy2
+      description: columns from a table (cut)
+    - name: Create text file
+      version: 9.5+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_text_file_with_recurring_lines%2F9.5%2Bgalaxy2
+      description: with recurring lines
+    - name: Unique
+      version: 9.5+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_sorted_uniq%2F9.5%2Bgalaxy2
+      description: occurrences of each record
+    - name: Sort
+      version: 9.5+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_sort_header_tool%2F9.5%2Bgalaxy2
+      description: data in ascending or descending order
+    - name: Unfold
+      version: 9.5+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_unfold_column_tool%2F9.5%2Bgalaxy2
+      description: columns from a table
+    - name: Replace Text
+      version: 9.5+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_replace_in_column%2F9.5%2Bgalaxy2
+      description: in a specific column
+    - name: Search in textfiles
+      version: 9.5+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_grep_tool%2F9.5%2Bgalaxy2
+      description: (grep)
+    - name: Text transformation
+      version: 9.5+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_sed_tool%2F9.5%2Bgalaxy2
+      description: with sed
+    - name: tac
+      version: 9.5+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_tac%2F9.5%2Bgalaxy2
+      description: reverse a file (reverse cat)
+    - name: Number lines
+      version: 9.5+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Fnl%2F9.5%2Bgalaxy2
+      description: ""
+    - name: Datamash
+      version: 1.9+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fdatamash_ops%2Fdatamash_ops%2F1.9%2Bgalaxy0
+      description: (operations on tabular data)
+    - name: fastp
+      version: 1.0.1+galaxy3
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Ffastp%2Ffastp%2F1.0.1%2Bgalaxy3
+      description: fast all-in-one preprocessing for FASTQ files
+    - name: MultiQC
+      version: 1.27+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fmultiqc%2Fmultiqc%2F1.27%2Bgalaxy1
+      description: aggregate results from bioinformatics analyses into a single report
+    - name: FastQC
+      version: 0.74+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Ffastqc%2Ffastqc%2F0.74%2Bgalaxy1
+      description: Read Quality reports
+    - name: Samtools view
+      version: 1.22+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fsamtools_view%2Fsamtools_view%2F1.22%2Bgalaxy1
+      description: "- reformat, filter, or subsample SAM, BAM or CRAM"
+    - name: Samtools stats
+      version: 2.0.8
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fsamtools_stats%2Fsamtools_stats%2F2.0.8
+      description: generate statistics for BAM dataset
+    - name: QualiMap BamQC
+      version: 2.3+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fqualimap_bamqc%2Fqualimap_bamqc%2F2.3%2Bgalaxy0
+      description: ""
+    - name: bcftools consensus
+      version: 1.15.1+galaxy4
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbcftools_consensus%2Fbcftools_consensus%2F1.15.1%2Bgalaxy4
+      description: Create consensus sequence by applying VCF variants to a reference fasta
+          file
+    - name: "VCF-VCFintersect:"
+      version: 1.0.0_rc3+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fvcfvcfintersect%2Fvcfvcfintersect%2F1.0.0_rc3%2Bgalaxy0
+      description: Intersect two VCF datasets
+    - name: medaka vcf tool
+      version: 2.1.1+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fmedaka_variant%2Fmedaka_variant%2F2.1.1%2Bgalaxy0
+      description: decodes variant calls from medaka consensus output
+    - name: medaka inference tool
+      version: 2.1.1+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fmedaka_consensus%2Fmedaka_consensus%2F2.1.1%2Bgalaxy0
+      description: inference from a trained model and alignments.
+    - name: Bowtie2
+      version: 2.5.4+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fbowtie2%2Fbowtie2%2F2.5.4%2Bgalaxy0
+      description: "- map reads against reference genome"
+    - name: Map with minimap2
+      version: 2.28+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fminimap2%2Fminimap2%2F2.28%2Bgalaxy2
+      description: A fast pairwise aligner for genomic and spliced nucleotide sequences
+    - name: Map with BWA
+      version: 0.7.19
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fbwa%2Fbwa%2F0.7.19
+      description: "- map short reads (< 100 bp) against reference genome"
+    - name: Map with BWA-MEM
+      version: 0.7.19
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fbwa%2Fbwa_mem%2F0.7.19
+      description: "- map medium and long reads (> 100 bp) against reference genome"
+    - name: BamLeftAlign
+      version: 1.3.10+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Ffreebayes%2Fbamleftalign%2F1.3.10%2Bgalaxy0
+      description: indels in BAM datasets
+    - name: FreeBayes
+      version: 1.3.10+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Ffreebayes%2Ffreebayes%2F1.3.10%2Bgalaxy1
+      description: bayesian genetic variant detector
+    - name: Variant Frequency Plot
+      version: 1.0+galaxy3
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fsnpfreqplot%2Fsnpfreqplot%2F1.0%2Bgalaxy3
+      description: Generates a heatmap of allele frequencies grouped by variant type for
+          SnpEff-annotated SARS-CoV-2 data
+    - name: "SnpEff eff:"
+      version: 4.5covid19
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fsnpeff_sars_cov_2%2Fsnpeff_sars_cov_2%2F4.5covid19
+      description: annotate variants for SARS-CoV-2
+    - name: Insert indel qualities
+      version: 2.1.5+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Flofreq_indelqual%2Flofreq_indelqual%2F2.1.5%2Bgalaxy1
+      description: into a BAM file
+    - name: Lofreq filter
+      version: 2.1.5+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Flofreq_filter%2Flofreq_filter%2F2.1.5%2Bgalaxy0
+      description: called variants posteriorly
+    - name: Call variants
+      version: 2.1.5+galaxy3
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Flofreq_call%2Flofreq_call%2F2.1.5%2Bgalaxy3
+      description: with LoFreq
+    - name: SnpSift Filter
+      version: 4.3+t.galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fsnpsift%2FsnpSift_filter%2F4.3%2Bt.galaxy1
+      description: Filter variants using arbitrary expressions
+    - name: Realign reads
+      version: 2.1.5+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Flofreq_viterbi%2Flofreq_viterbi%2F2.1.5%2Bgalaxy0
+      description: with LoFreq viterbi
+    - name: SnpSift Annotate
+      version: 4.3+t.galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fsnpsift%2FsnpSift_annotate%2F4.3%2Bt.galaxy1
+      description: SNPs from dbSnp
+    - name: SnpSift Intervals
+      version: 4.3+t.galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fsnpsift%2FsnpSift_int%2F4.3%2Bt.galaxy0
+      description: Filter variants using intervals
+    - name: SnpSift rmInfo
+      version: 4.3+t.galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fsnpsift%2FsnpSift_rmInfo%2F4.3%2Bt.galaxy0
+      description: remove INFO field annotations
+    - name: SnpSift Variant Type
+      version: 4.3+t.galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fsnpsift%2Fsnpsift_vartype%2F4.3%2Bt.galaxy0
+      description: Annotate with variant type
+    - name: SnpSift CaseControl
+      version: 4.3+t.galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fsnpsift%2FsnpSift_caseControl%2F4.3%2Bt.galaxy0
+      description: Count samples are in 'case' and 'control' groups.
+    - name: SnpSift Extract Fields
+      version: 4.3+t.galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fsnpsift%2FsnpSift_extractFields%2F4.3%2Bt.galaxy0
+      description: from a VCF file into a tabular file
+    - name: SnpSift vcfCheck
+      version: 4.3+t.galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fsnpsift%2FsnpSift_vcfCheck%2F4.3%2Bt.galaxy0
+      description: basic checks for VCF specification compliance
+    - name: SamToFastq
+      version: 3.1.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_SamToFastq%2F3.1.1.0
+      description: extract reads and qualities from SAM/BAM dataset and convert to fastq
+    - name: FastqToSam
+      version: 3.1.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_FastqToSam%2F3.1.1.0
+      description: convert Fastq data into unaligned BAM
+    - name: CollectBaseDistributionByCycle
+      version: 3.1.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_CollectBaseDistributionByCycle%2F3.1.1.0
+      description: charts the nucleotide distribution per cycle in a SAM or BAM dataset
+    - name: AddOrReplaceReadGroups
+      version: 3.1.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_AddOrReplaceReadGroups%2F3.1.1.0
+      description: add or replaces read group information
+    - name: MeanQualityByCycle
+      version: 3.1.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_MeanQualityByCycle%2F3.1.1.0
+      description: chart distribution of base qualities
+    - name: RevertOriginalBaseQualitiesAndAddMateCigar
+      version: 3.1.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_RevertOriginalBaseQualitiesAndAddMateCigar%2F3.1.1.0
+      description: revert the original base qualities and add the mate cigar tag
+    - name: CollectHsMetrics
+      version: 3.1.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_CollectHsMetrics%2F3.1.1
+      description: compute metrics about datasets generated through hybrid-selection (e.g.
+          exome)
+    - name: MarkDuplicates
+      version: 3.1.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_MarkDuplicates%2F3.1.1.0
+      description: examine aligned records in BAM datasets to locate duplicate molecules
+    - name: SortSam
+      version: 3.1.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_SortSam%2F3.1.1.0
+      description: sort SAM/BAM dataset
+    - name: RevertSam
+      version: 3.1.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_RevertSam%2F3.1.1.0
+      description: revert SAM/BAM datasets to a previous state
+    - name: Collect Alignment Summary Metrics
+      version: 3.1.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_CASM%2F3.1.1.0
+      description: writes a file containing summary alignment metrics
+    - name: CollectRnaSeqMetrics
+      version: 3.1.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_CollectRnaSeqMetrics%2F3.1.1.0
+      description: collect metrics about the alignment of RNA to various functional classes
+          of loci in the genome
+    - name: NormalizeFasta
+      version: 3.1.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_NormalizeFasta%2F3.1.1.0
+      description: normalize fasta datasets
+    - name: Downsample SAM/BAM
+      version: 3.1.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_DownsampleSam%2F3.1.1.0
+      description: Downsample a file to retain a subset of the reads
+    - name: MergeBamAlignment
+      version: 3.1.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_MergeBamAlignment%2F3.1.1.0
+      description: merge alignment data with additional info stored in an unmapped BAM
+          dataset
+    - name: MarkDuplicatesWithMateCigar
+      version: 3.1.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_MarkDuplicatesWithMateCigar%2F3.1.1.0
+      description: examine aligned records in BAM datasets to locate duplicate molecules
+    - name: CleanSam
+      version: 3.1.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_CleanSam%2F3.1.1.0
+      description: perform SAM/BAM grooming
+    - name: ReplaceSamHeader
+      version: 3.1.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_ReplaceSamHeader%2F3.1.1.0
+      description: replace header in a SAM/BAM dataset
+    - name: MergeSamFiles
+      version: 3.1.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_MergeSamFiles%2F3.1.1.0
+      description: merges multiple SAM/BAM datasets into one
+    - name: ValidateSamFile
+      version: 3.1.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_ValidateSamFile%2F3.1.1.0
+      description: assess validity of SAM/BAM dataset
+    - name: FixMateInformation
+      version: 3.1.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_FixMateInformation%2F3.1.1.0
+      description: ensure that all mate-pair information is in sync between each read
+          and it's mate pair
+    - name: QualityScoreDistribution
+      version: 3.1.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_QualityScoreDistribution%2F3.1.1.0
+      description: chart quality score distribution
+    - name: BedToIntervalList
+      version: 3.1.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_BedToIntervalList%2F3.1.1.0
+      description: convert coordinate data into picard interval list format
+    - name: CollectWgsMetrics
+      version: 3.1.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_CollectWgsMetrics%2F3.1.1.0
+      description: compute metrics for evaluating of whole genome sequencing experiments
+    - name: Picard Collect Sequencing Artifact Metrics
+      version: 3.1.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_artifact_metrics%2F3.1.1.0
+      description: Collect metrics to quantify single-base sequencing artifacts
+    - name: ReorderSam
+      version: 3.1.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_ReorderSam%2F3.1.1.0
+      description: reorder reads to match ordering in reference sequences
+    - name: CollectGcBiasMetrics
+      version: 3.1.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_CollectGcBiasMetrics%2F3.1.1.0
+      description: charts the GC bias metrics
+    - name: FilterSamReads
+      version: 3.1.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_FilterSamReads%2F3.1.1.0
+      description: include or exclude aligned and unaligned reads and read lists
+    - name: AddCommentsToBam
+      version: 3.1.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_AddCommentsToBam%2F3.1.1.0
+      description: add comments to BAM dataset
+    - name: EstimateLibraryComplexity
+      version: 3.1.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_EstimateLibraryComplexity%2F3.1.1.0
+      description: assess sequence library complexity from read sequences
+    - name: CollectInsertSizeMetrics
+      version: 3.1.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Fpicard%2Fpicard_CollectInsertSizeMetrics%2F3.1.1.0
+      description: plots distribution of insert sizes
+    - name: ivar trim
+      version: 1.4.4+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fivar_trim%2Fivar_trim%2F1.4.4%2Bgalaxy1
+      description: Trim reads in aligned BAM
+    - name: ivar removereads
+      version: 1.4.4+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fivar_removereads%2Fivar_removereads%2F1.4.4%2Bgalaxy1
+      description: Remove reads from trimmed BAM file

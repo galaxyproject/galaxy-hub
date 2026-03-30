@@ -11,11 +11,13 @@ location:
 contacts:
 - email: galaxy@informatik.uni-freiburg.de
   name: Freiburg Galaxy Team
-supporters:
-- denbi
 tags: [talk]
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+
 ---
 
 Björn will give two talks in Heidelberg about reproducible science.

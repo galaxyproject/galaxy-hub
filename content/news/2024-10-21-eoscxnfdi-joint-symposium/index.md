@@ -3,12 +3,14 @@ title: "EuroScienceGateway at the EOSCxNFDI joint symposium Berlin 2024"
 date: "2024-10-21"
 tease: "Presenting EuroScienceGateway, Galaxy, and GTN at the joint symposium of EOSC and NFDI 2024"
 hide_tease: false
-supporters:
-  - eurosciencegateway
-  - unifreiburg
-subsites: [freiburg, eu, esg]
-tags: [esg]
+subsites: [freiburg, eu, esg, global, all-eu]
+tags: [esg, esg-wp1]
 main_subsite: eu
+contributions:
+  funding:
+    - eu
+    - eurosciencegateway
+    - uni-freiburg
 ---
 
 The Galaxy Europe team, as a key partner in the EU-funded EOSC EuroScienceGateway project, attended the EOSC Symposium 2024 from October 21st to 23rd, 2024, in Berlin, Germany.

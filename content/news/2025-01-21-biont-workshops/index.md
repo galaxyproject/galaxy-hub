@@ -11,9 +11,11 @@ tags:
 - training
 title: BioNT basic curriculum Round Two - Starting in autumn 2024 with the RNA-Seq
   and Python Workshops
-authors: Teresa Müller
 external_url: https://training.galaxyproject.org/training-material/news/2025/01/21/biont-workshops.html
 tease: BioNT basic curriculum Round Two - Starting in autumn 2024 with the RNA-Seq
   and Python Workshops
+contributions:
+  authorship:
+    - teresa-m
 ---
 BioNT basic curriculum Round Two - Starting in autumn 2024 with the RNA-Seq and Python Workshops

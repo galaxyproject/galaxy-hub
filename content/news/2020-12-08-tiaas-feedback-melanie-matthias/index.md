@@ -2,15 +2,16 @@
 title: 'Training Infrastructure Feedback on the ELIXIR Belgium workshop “DDA and DIA
   proteomic analysis in Galaxy” '
 date: '2020-12-08'
-tags: [training, TIaaS]
-supporters:
-- galaxy-europe
-authors: Matthias313, foellmelanie
-authors_structured:
-- github: Matthias313
-- github: foellmelanie
+tags: [training, tiaas]
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - matthias313
+    - foellmelanie
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 On December 3 and 4, we ran a 2-day Galaxy Proteomics data analysis workshop organized by ELIXIR Belgium. Therefore, most of the 20 participants were from Belgium, but others were from all around Europe, the US and Australia. 

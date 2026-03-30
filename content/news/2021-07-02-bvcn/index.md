@@ -4,14 +4,14 @@ title: '"Galaxy for microbiome via ASaiM story - From a local project to a globa
   used in Microbiome Research'
 date: '2021-07-02'
 tags: [talk]
-supporters:
-- elixir
-- denbi
-authors: bebatut
-authors_structured:
-- github: bebatut
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - bebatut
+  funding:
+    - elixir-europe
+    - deNBI
 ---
 
 The [Bioinformatics Virtual Coordination Network (BVCN)](https://biovcnet.github.io/) is committed to reducing entry barriers into bioinformatics for researchers. For the first time in June 2021, this online conference brought together early career researchers (ECRs) from across the globe who are equally committed to reducing such entry barriers, and who would like to exchange and share their research and bioinformatics experiences in a step-by-step format with a global and interdisciplinary audience.
@@ -31,7 +31,6 @@ Galaxy for microbiome via ASaiM story - From a local project to a global effort 
 Metagenomic pathogen detection using MMseqs2, Plass, and Linclust | Martin Steinegger, Assistant Professor, Seoul National University
 **Day 4: Live Q&A** |
 **Day 5: Poster session** |
-{:.table.table-striped}
 
 Bérénice presented **Galaxy for microbiome via ASaiM story - From a local project to a global effort to support microbiome data analysis**:
 

@@ -77,9 +77,9 @@ Below is a list of CloudMan clusters that have been shared publicly. Feel free t
 
 
 <table>
-  <tr>
-    <td> <tablewidth="100%" rowclass="th">Cluster share string</td>
-    <td> Contact info (URL, email)</td>
+  <tr class="th">
+    <th>Cluster share string</th>
+    <th>Contact info (URL, email)</th>
   </tr>
   <tr>
     <td style=" width: 65%;"> cm-d276b27d9c82cfd56c5bf3cdead0fa0b/shared/2016-06-23--00-36/</td>
@@ -87,14 +87,14 @@ Below is a list of CloudMan clusters that have been shared publicly. Feel free t
   </tr>
   <tr>
     <td> </td>
-    <td> <rowstyle="background-color: #EEE; font-weight: bold;" style="text-align: left;">Description</td>
+    <td style="background-color: #EEE; font-weight: bold; text-align: left;">Description</td>
   </tr>
   <tr>
     <td> </td>
     <td style=" text-align: left;"> A 16.05 Galaxy CloudMan instances created as a demo for GCC2016. Sample data and sample workflow have been uploaded and published. </td>
   </tr>
   <tr>
-    <td colspan=3 style=" background-color: #eef;"> </td>
+    <td colspan="3" style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <td style=" width: 65%;"> cm-f166fb7533ab13b2df095e86d20c7ba1/shared/2016-07-07--19-03/</td>
@@ -102,14 +102,14 @@ Below is a list of CloudMan clusters that have been shared publicly. Feel free t
   </tr>
   <tr>
     <td> </td>
-    <td> <rowstyle="background-color: #EEE; font-weight: bold;" style="text-align: left;">Description</td>
+    <td style="background-color: #EEE; font-weight: bold; text-align: left;">Description</td>
   </tr>
   <tr>
     <td> </td>
     <td style=" text-align: left;"> This is a share of the GCC2016 Data Hack cluster (<a href='https://gcc16.sched.org/event/5YRH/data-hackathon), from after the conference. '>https://gcc16.sched.org/event/5YRH/data-hackathon), from after the conference. </a></td>
   </tr>
   <tr>
-    <td colspan=3 style=" background-color: #eef;"> </td>
+    <td colspan="3" style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <td style=" width: 65%;"> cm-[hash]</td>
@@ -117,13 +117,13 @@ Below is a list of CloudMan clusters that have been shared publicly. Feel free t
   </tr>
   <tr>
     <td> </td>
-    <td> <rowstyle="background-color: #EEE; font-weight: bold;" style="text-align: left;">Description</td>
+    <td style="background-color: #EEE; font-weight: bold; text-align: left;">Description</td>
   </tr>
   <tr>
     <td> </td>
     <td style=" text-align: left;"> Brief share description; usage instructions.</td>
   </tr>
   <tr>
-    <td colspan=3 style=" background-color: #eef;"> </td>
+    <td colspan="3" style=" background-color: #eef;"> </td>
   </tr>
 </table>

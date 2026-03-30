@@ -9,8 +9,12 @@ location:
   url: /community/community-calls/
 gtn: false
 contact: Eli Chadwick
-tags: [training, community-call]
+tags: [training, community-call, community]
 subsites: [all]
+contributions:
+  organisers:
+    - elichad
+
 ---
 
 We will have some community updates followed by a presentation on [**Muon Science community**]() by **Eli Chadwick**. If you'd like to discuss particular topics, please add them to the [agenda](https://docs.google.com/document/d/1PYUnO_td7f-l0fxRYDn8D6ER7W6eY-E9mUx8ErT8kJ4/edit?usp=sharing) or bring them to the call!

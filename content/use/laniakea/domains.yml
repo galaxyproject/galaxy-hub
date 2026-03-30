@@ -1,0 +1,24 @@
+domains:
+    - platform_url: https://laniakea-dashboard.cloud.ba.infn.it/login
+      ip: 212.189.202.32
+      version: IPv4
+      asn: AS137 Consortium GARR
+      org: Istituto Nazionale di Fisica Nucleare INFN
+      location:
+          city: Bologna
+          region: Emilia-Romagna
+          region_code: "45"
+          country: IT
+          country_name: Italy
+          country_code: IT
+          continent_code: EU
+          postal: "40127"
+          latitude: 44.5004
+          longitude: 11.3568
+          timezone: Europe/Rome
+          currency: EUR
+      response:
+          time: "2025-11-25T19:43:44Z"
+          status_code: 200
+          response_time_ms: 0
+          reason: OK

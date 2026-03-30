@@ -10,6 +10,14 @@ gtn: true
 contact: "Marie Josse"
 tags: [esg, esg-wp5, eosc, training]
 subsites: [all-eu, global, esg]
+contributions:
+  organisers:
+    - Marie59
+  funding:
+    - eu
+    - eurosciencegateway
+    - fairease
+
 ---
 
 First steps for the EOSC FAIR-Ease partners on Galaxy with a training session on both the user and the tool developpement side of the platform.

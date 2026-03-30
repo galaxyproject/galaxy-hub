@@ -2,7 +2,7 @@
 title: October 2020 Galactic News
 date: '2020-10-07'
 tease: Events & JTech, platforms, blog posts, tutorials, pubs, releases, ...
-tags: [newsletter, galaxy]
+tags: [newsletter]
 subsites: [all-eu, global, us]
 ---
 
@@ -137,7 +137,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 
 <img class="card-img-top" src="/use/bridge/bridge-slice-500.png" alt="BRIDGE" />
 
-[BRIDGE (Biomolecular Reaction and Interaction Dynamics Global Environment)](https://galaxy-compchem.ilifu.ac.za/) is a Computational Chemistry flavour of Galaxy - a webserver for preparing, simulating and analysing and visualising molecular simulations, especially molecular dynamics and free energies. Includes NAMD, GROMACS and CHARMM. Offers tutorials and a [Gitter support channel](https://gitter.im/galaxycomputationalchemistry/Lobby).
+[BRIDGE (Biomolecular Reaction and Interaction Dynamics Global Environment)](https://galaxy-compchem.ilifu.ac.za/) is a Computational Chemistry flavour of Galaxy - a webserver for preparing, simulating and analysing and visualising molecular simulations, especially molecular dynamics and free energies. Includes NAMD, GROMACS and CHARMM. Offers tutorials and a [Matrix support channel](https://matrix.to/#/#galaxycomputationalchemistry_Lobby:gitter.im).
 </div>
 
 
@@ -147,7 +147,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 
 <img class="card-img-top" src="/use/biocompute-object/biocompute-objects-logo-wide.png" alt="BioCompute Objects" />
 
-Implements the [BioCompute Objects](https://biocomputeobject.org/about.html) standard for communication of High-throughput Sequencing (HTS) analysis results, data set creation and curation, and bioinformatics verification protocols within a Galaxy server.  Extensive [documentation](https://github.com/biocompute-objects/BCO_Specification) and [chat support](https://gitter.im/biocompute-objects/community) are available.
+Implements the [BioCompute Objects](https://biocomputeobject.org/about.html) standard for communication of High-throughput Sequencing (HTS) analysis results, data set creation and curation, and bioinformatics verification protocols within a Galaxy server.  Extensive [documentation](https://github.com/biocompute-objects/BCO_Specification) and [chat support](https://matrix.to/#/#biocompute-objects_community:gitter.im) are available.
 </div>
 
 
@@ -239,7 +239,7 @@ How to use **[refgenie](http://refgenie.databio.org/)** with your local instance
 
 # Publications
 
-Pub curation activities [are on hiatus right now](/blog/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.
+Pub curation activities [are on hiatus right now](/news/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.
 
 <div class="card-deck">
 

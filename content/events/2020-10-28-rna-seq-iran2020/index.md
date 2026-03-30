@@ -8,12 +8,13 @@ contacts:
   name: Freiburg Galaxy Team
 location:
   name: online
-supporters:
-- unifreiburg
-- denbi
 hidefooter: true
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+
 ---
 
 

@@ -12,4 +12,8 @@ gtn: true
 contact: "James Taylor"
 image: 
 subsites: [global, us]
+contributions:
+  organisers:
+    - jxtx
+
 ---

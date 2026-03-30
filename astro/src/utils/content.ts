@@ -1,0 +1,295 @@
+/**
+ * Content utility functions for Galaxy Hub
+ * Helper functions to query and filter content collections
+ */
+
+import { getCollection, type CollectionEntry } from 'astro:content';
+import { isPublishedDate, formatDate as formatDateUtil, formatDateRange as formatDateRangeUtil } from './dateUtils';
+
+type ArticleEntry = CollectionEntry<'articles'>;
+export type NewsEntry = CollectionEntry<'news'>;
+type EventEntry = CollectionEntry<'events'>;
+type PlatformEntry = CollectionEntry<'platforms'>;
+type InsertEntry = CollectionEntry<'inserts'>;
+
+/**
+ * Get all articles, optionally filtered by subsite
+ */
+export async function getArticles(subsite?: string): Promise<ArticleEntry[]> {
+  const articles = await getCollection('articles');
+
+  if (!subsite || subsite === 'global') {
+    return articles;
+  }
+
+  return articles.filter((article) => {
+    const subsites = article.data.subsites || [];
+    return subsites.includes(subsite) || subsites.includes('all');
+  });
+}
+
+/**
+ * Get all events, optionally filtered by subsite
+ */
+export async function getEvents(subsite?: string): Promise<EventEntry[]> {
+  const events = await getCollection('events');
+
+  if (!subsite || subsite === 'global') {
+    return events;
+  }
+
+  return events.filter((event) => {
+    const subsites = event.data.subsites || [];
+    return subsites.includes(subsite) || subsites.includes('all');
+  });
+}
+
+/**
+ * Get upcoming events (events with date >= today)
+ */
+export async function getUpcomingEvents(subsite?: string): Promise<EventEntry[]> {
+  const events = await getEvents(subsite);
+  const now = new Date();
+  now.setHours(0, 0, 0, 0);
+
+  return events
+    .filter((event) => {
+      const eventDate = event.data.date;
+      if (!eventDate) return false;
+      return new Date(eventDate) >= now;
+    })
+    .sort((a, b) => {
+      const dateA = new Date(a.data.date || 0);
+      const dateB = new Date(b.data.date || 0);
+      return dateA.getTime() - dateB.getTime();
+    });
+}
+
+/**
+ * Get recent past events (within specified days)
+ */
+export async function getRecentEvents(subsite?: string, days = 365): Promise<EventEntry[]> {
+  const events = await getEvents(subsite);
+  const now = new Date();
+  now.setHours(0, 0, 0, 0);
+
+  const cutoff = new Date(now);
+  cutoff.setDate(cutoff.getDate() - days);
+
+  return events
+    .filter((event) => {
+      const eventDate = event.data.date;
+      if (!eventDate) return false;
+      const date = new Date(eventDate);
+      return date < now && date >= cutoff;
+    })
+    .sort((a, b) => {
+      const dateA = new Date(a.data.date || 0);
+      const dateB = new Date(b.data.date || 0);
+      return dateB.getTime() - dateA.getTime(); // Most recent first
+    });
+}
+
+/**
+ * Get events filtered by tag
+ */
+export async function getEventsByTag(tag: string, subsite?: string): Promise<EventEntry[]> {
+  const events = await getEvents(subsite);
+
+  return events.filter((event) => {
+    const tags = event.data.tags || [];
+    return tags.includes(tag);
+  });
+}
+
+/**
+ * Get articles filtered by tag
+ */
+export async function getArticlesByTag(tag: string, subsite?: string): Promise<ArticleEntry[]> {
+  const articles = await getArticles(subsite);
+  const normalizedTag = tag.toLowerCase().trim();
+
+  return articles.filter((article) => {
+    const tags = article.data.tags || [];
+    // Case-insensitive comparison
+    return tags.some((t) => t && t.toLowerCase().trim() === normalizedTag);
+  });
+}
+
+/**
+ * Check if a tag is valid (non-empty, no slashes, etc.)
+ */
+function isValidTag(tag: string): boolean {
+  if (!tag || typeof tag !== 'string') return false;
+  const trimmed = tag.trim();
+  // Reject empty tags, tags with slashes (which would break URLs), or very long tags
+  return trimmed.length > 0 && !trimmed.includes('/') && trimmed.length < 100;
+}
+
+/**
+ * Get all unique tags with counts from articles and events
+ */
+export async function getAllTags(): Promise<Map<string, number>> {
+  const [articles, news, events] = await Promise.all([
+    getCollection('articles'),
+    getCollection('news'),
+    getCollection('events'),
+  ]);
+
+  const tagCounts = new Map<string, number>();
+
+  for (const entry of [...articles, ...news]) {
+    const tags = entry.data.tags || [];
+    for (const tag of tags) {
+      if (!isValidTag(tag)) continue;
+      const normalizedTag = tag.toLowerCase().trim();
+      tagCounts.set(normalizedTag, (tagCounts.get(normalizedTag) || 0) + 1);
+    }
+  }
+
+  for (const event of events) {
+    const tags = event.data.tags || [];
+    for (const tag of tags) {
+      if (!isValidTag(tag)) continue;
+      const normalizedTag = tag.toLowerCase().trim();
+      tagCounts.set(normalizedTag, (tagCounts.get(normalizedTag) || 0) + 1);
+    }
+  }
+
+  return tagCounts;
+}
+
+/**
+ * Get all platforms (Galaxy servers)
+ */
+export async function getPlatforms(): Promise<PlatformEntry[]> {
+  return await getCollection('platforms');
+}
+
+/**
+ * Get platforms filtered by scope
+ */
+export async function getPlatformsByScope(scope: string): Promise<PlatformEntry[]> {
+  const platforms = await getPlatforms();
+  return platforms.filter((p) => p.data.scope === scope);
+}
+
+// Cache for insert lookups - loaded once per build
+let insertCache: Map<string, InsertEntry> | null = null;
+
+function normalizeSlug(slug: string): string {
+  return slug
+    .replace(/^\/insert:\//, '')
+    .replace(/^\//, '')
+    .replace(/\/$/, '');
+}
+
+/**
+ * Get an insert by its slug/path
+ * Uses caching to avoid repeated collection queries during build
+ */
+export async function getInsert(slug: string): Promise<InsertEntry | undefined> {
+  // Build cache on first call
+  if (!insertCache) {
+    const inserts = await getCollection('inserts');
+    insertCache = new Map();
+    for (const insert of inserts) {
+      const keys = new Set<string>();
+      const canonicalSlug = normalizeSlug(insert.data.slug);
+      keys.add(canonicalSlug);
+
+      // Preprocessed content can preserve original folder-based slugs (naturalSlug),
+      // e.g. events/gcc2026/header, while canonical slugs are normalized (gcc-2026).
+      const naturalSlug = (insert.data as Record<string, unknown>).naturalSlug;
+      if (typeof naturalSlug === 'string' && naturalSlug) {
+        keys.add(normalizeSlug(naturalSlug));
+      }
+
+      // Backward-compatible alias: remove letter-number separator dashes.
+      // Example: events/gcc-2026/header -> events/gcc2026/header.
+      keys.add(canonicalSlug.replace(/([a-z])-(\d)/gi, '$1$2'));
+
+      for (const key of keys) {
+        insertCache.set(key, insert);
+      }
+    }
+  }
+
+  return insertCache.get(normalizeSlug(slug));
+}
+
+/**
+ * Get news articles from the news collection
+ */
+export async function getNews(subsite?: string): Promise<NewsEntry[]> {
+  const news = await getCollection('news');
+
+  const filtered =
+    !subsite || subsite === 'global'
+      ? news
+      : news.filter((article) => {
+          const subsites = article.data.subsites || [];
+          return subsites.includes(subsite) || subsites.includes('all');
+        });
+
+  return filtered.sort((a, b) => {
+    const dateA = new Date(a.data.date || 0);
+    const dateB = new Date(b.data.date || 0);
+    return dateB.getTime() - dateA.getTime();
+  });
+}
+
+/**
+ * Get published news articles (excludes future-dated articles)
+ * Note: Filtering happens at build time. Future-dated articles will only
+ * appear after a site rebuild on or after their publication date.
+ */
+export async function getPublishedNews(subsite?: string): Promise<NewsEntry[]> {
+  const articles = await getNews(subsite);
+  const now = new Date();
+
+  return articles.filter((article) => isPublishedDate(article.data.date, now));
+}
+
+/**
+ * Get articles by category (path prefix)
+ */
+export async function getArticlesByCategory(category: string, subsite?: string): Promise<ArticleEntry[]> {
+  const articles = await getArticles(subsite);
+
+  return articles.filter((article) => article.data.slug?.startsWith(`${category}/`));
+}
+
+/**
+ * Get a single article by slug
+ */
+export async function getArticleBySlug(slug: string): Promise<ArticleEntry | undefined> {
+  const articles = await getCollection('articles');
+  return articles.find((a) => a.data.slug === slug);
+}
+
+/**
+ * Get a single event by slug
+ */
+export async function getEventBySlug(slug: string): Promise<EventEntry | undefined> {
+  const events = await getCollection('events');
+  return events.find((e) => e.data.slug === slug);
+}
+
+/**
+ * Format a date for display
+ * Re-exported from dateUtils for backward compatibility
+ * Uses long format (full month names) by default for content pages
+ */
+export function formatDate(date: Date | string | undefined): string {
+  return formatDateUtil(date, false);
+}
+
+/**
+ * Format a date range for events
+ * Re-exported from dateUtils for backward compatibility
+ * Uses long format (full month names) by default for content pages
+ */
+export function formatDateRange(start: Date | string | undefined, end: Date | string | undefined): string {
+  return formatDateRangeUtil(start, end, false);
+}

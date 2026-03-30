@@ -4,11 +4,11 @@ tease: "Apply by May 17"
 external_url: ""
 date: "2021-04-14"
 tags: 
-- galaxy
 - newsletter
-authors_structured:
-- github: tnabtaf
 subsites: [global, us, all-eu]
+contributions:
+  authorship:
+    - tnabtaf
 ---
 
 <small>Updated May 6th 2021</small>

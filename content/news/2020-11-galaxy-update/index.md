@@ -2,7 +2,7 @@
 title: November 2020 Galactic News
 date: '2020-11-03'
 tease: JXTX Foundation, Events, Platforms, Jobs, Pubs, ...
-tags: [newsletter, galaxy]
+tags: [newsletter]
 subsites: [all-eu, global, us]
 ---
 
@@ -209,7 +209,7 @@ Un Hackathon pour partager des compétences en terme du développement logiciel 
 
 </div>
 
-Galaxy Admin Training is coming in January.  It will be online and global, and registration will open this month.  Watch Twitter, this web site, and Galaxy Gitter channels for the announcement.
+Galaxy Admin Training is coming in January.  It will be online and global, and registration will open this month.  Watch Twitter, this web site, and Galaxy Matrix channels for the announcement.
 </div>
 
 
@@ -411,7 +411,7 @@ This tutorial got a thorough update from [Mallory Freeberg](https://training.gal
 
 # Publications
 
-Pub curation activities [are on hiatus right now](/blog/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
+Pub curation activities [are on hiatus right now](/news/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
 
 <div class="card-deck">
 

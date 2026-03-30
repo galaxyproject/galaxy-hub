@@ -4,7 +4,6 @@ date: '2024-06-24'
 skip_title_render: true
 autotoc: false
 hide_metadata: true
-components: true
 days: 6
 tease: "The annual gathering of the Galaxy Community with opportunities to hear latest developments, get training, and meet everyone involved."
 continent: EU
@@ -13,8 +12,14 @@ location:
   url: "/events/gcc2024/"
 gtn: true
 contact: "Organizing Committee"
-tags: ["cofest", "workshop", "training", "talk", "poster"]
-subsites: [all]
+tags: ["cofest", "workshop", "training", "talk", "poster", "esg", "esg-wp1"]
+subsites: [all, esg, all-eu]
+contributions:
+  funding:
+    - eu
+    - cesnet
+    - elixir-cz
+
 ---
 
 <slot name="/events/gcc2024/header" />
@@ -55,7 +60,7 @@ subsites: [all]
 <div class="card-deck lead">
 
   <!-- Call for participation -->
-  <div class="card" style="min-width: 30%; max-width: 30rem;">
+  <div class="card" style="min-width: 30%; max-width: 32.2%;">
     <img src="/images/events/gcc2024/participation.png" class="card-img-top" alt="World-class content" />
     <div class="card-header">World-class content</div>
 
@@ -69,7 +74,7 @@ for more details.
   </div>
 
 <!-- Keynotes -->
-  <div class="card" style="min-width: 30%; max-width: 30rem;">
+  <div class="card" style="min-width: 30%; max-width: 32.2%;">
     <img src="/images/events/gcc2024/gcc2024-keynotes.png" class="card-img-top" alt="Keynotes at GCC2024" />
     <div class="card-header">Keynote speakers</div>
 
@@ -102,7 +107,7 @@ website](https://jxtxfoundation.org/news/2024-2-19-gcc/).
 
 
   <!-- Training -->
-  <div class="card" style="min-width: 30%; max-width: 30rem;">
+  <div class="card" style="min-width: 30%; max-width: 32.2%;">
     <img src="/images/events/gcc2024/training.png" class="card-img-top" alt="Training" />
     <div class="card-header">Get hands-on training</div>
 
@@ -142,7 +147,7 @@ Brought to you by an anonymous donor.
 -->
 
   <!-- About GCC -->
-  <div class="card" style="min-width: 30%; max-width: 40rem;">
+  <div class="card" style="min-width: 30%; max-width: 32.2%;">
     <img src="/images/events/gcc2024/gcc2023-generic.png" class="card-img-top" alt="GCC2022 group photo" />
     <div class="card-header">About GCC conference series</div>
 

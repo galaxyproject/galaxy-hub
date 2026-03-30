@@ -3,9 +3,11 @@ title: 'Registration for the Galaxy Training Academy 2024'
 date: '2024-08-26'
 tease: "Join us at the Galaxy Training Academy 2024. Learn all about data analysis with Galaxy, for all levels. Registration is open now!"
 hide_tease: false
-authors: Teresa Müller
-tags: ["GTN", "Training",]
-subsites: [global,eu]
+tags: ["gtn", "training"]
+subsites: [global, eu]
+contributions:
+  authorship:
+    - teresa-m
 ---
 
 📢 **Registration for the Galaxy Training Academy is Open!** 📢

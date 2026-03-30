@@ -1,6 +1,6 @@
 # This Action will run in the following scenarios:
 # - on Pull Requests containing images (not including forks)
-# - on pushing of images to `master` (for forks)
+# - on pushing of images to `main` (for forks)
 # - on demand (https://github.blog/changelog/2020-07-06-github-actions-manual-triggers-with-workflow_dispatch/)
 # - at 11 PM every Sunday if anything gets missed with any of the above scenarios
 # For Pull Requests, the images are added to the PR.
@@ -14,7 +14,7 @@ on:
       - "**.png"
   push:
     branches:
-      - master
+      - main
     paths:
       - "**.jpg"
       - "**.jpeg"
@@ -43,9 +43,10 @@ jobs:
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
           # For non-Pull Requests, run in compressOnly mode and we'll PR after.
-          compressOnly: ${{ github.event_name != 'pull_request' }}
+          ## compressOnly: ${{ github.event_name != 'pull_request' }}
           # Attempt to prevent webp recompression by minimizing diff.
           webpQuality: '90'
+          minPctChange: '2.5'
       - name: Create Pull Request
         # If it's not a Pull Request then commit any changes as a new PR.
         if: |
@@ -54,6 +55,6 @@ jobs:
         uses: peter-evans/create-pull-request@v7
         with:
           title: Auto Compress Images
-          branch-suffix: timestamp
+          branch: action_compress_images
           commit-message: Compress Images
           body: ${{ steps.calibre.outputs.markdown }}

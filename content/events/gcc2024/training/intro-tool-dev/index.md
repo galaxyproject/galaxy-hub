@@ -1,5 +1,4 @@
 ---
-autotoc: true
 ---
 
 <slot name="/events/gcc2024/header" />
@@ -15,8 +14,8 @@ This tool wrapping training for the Galaxy Project is designed to equip research
 ## Meet the Instructors
 
 ### Tyler Collins
-Johns Hopkins University <br>
+Johns Hopkins University <br />
 Galaxy developer and enthusiast of tool integration and better understanding bioinformatic analyses. 
 
 ### Alex Ostrovsky
-Johns Hopkins University <br>
+Johns Hopkins University <br />

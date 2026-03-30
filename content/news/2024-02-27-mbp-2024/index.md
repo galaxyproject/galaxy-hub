@@ -1,7 +1,6 @@
 ---
 title: "Molecular Biology of Plants conference (MBP 2024)"
 date: "2024-02-26"
-authors: Deepti Varshney
 tease: "Poster Presentation entitled MAdLand Tools & Resources"
 subsites: [all-eu]
 supporters:
@@ -13,6 +12,9 @@ supporters:
   - madland
 subsites: [global, freiburg, eu, esg]
 tags: [esg,madland,de.nbi,nfdi4plants,dataplant]
+contributions:
+  authorship:
+    - deeptivarshney
 
 ---
 #### MBP2024 - Molecular Biology of Plants 2024

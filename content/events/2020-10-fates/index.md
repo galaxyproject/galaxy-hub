@@ -12,4 +12,11 @@ external_url: "https://nordicesmhub.github.io/2020-10-26-galaxy-fates/"
 gtn: True
 contact: "Anne Fouilloux"
 subsites: [global, us]
+contributions:
+  organisers:
+    - annefou
+  funding:
+    - eosc-life
+    - eu
+
 ---

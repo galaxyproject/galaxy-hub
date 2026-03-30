@@ -1,0 +1,115 @@
+---
+import { getCollection } from 'astro:content';
+import BareArticleLayout from '../../layouts/BareArticleLayout.astro';
+
+function normalizeRoute(path: string): string {
+  const trimmed = path.replace(/^\/+|\/+$/g, '');
+  return trimmed ? `/${trimmed}/` : '/';
+}
+
+function routeFromStaticPageFile(filePath: string): string | null {
+  const normalized = filePath.replace(/^\.\//, '');
+  const withoutExtension = normalized.replace(/\.(astro|md|mdx)$/, '');
+
+  if (!withoutExtension || withoutExtension === 'index') {
+    return null;
+  }
+
+  const segments = withoutExtension.split('/');
+  if (segments.some((segment) => segment.includes('['))) {
+    return null;
+  }
+
+  const withoutIndexSuffix = withoutExtension.endsWith('/index')
+    ? withoutExtension.slice(0, -'/index'.length)
+    : withoutExtension;
+
+  if (!withoutIndexSuffix) {
+    return null;
+  }
+
+  return normalizeRoute(`bare/${withoutIndexSuffix}`);
+}
+
+function routeFromBareSlug(slug: string): string | null {
+  const trimmed = slug.replace(/^\/+|\/+$/g, '');
+  if (!trimmed) {
+    return null;
+  }
+
+  const bareRelative = trimmed.startsWith('bare/') ? trimmed.slice('bare/'.length) : trimmed;
+  if (!bareRelative) {
+    return null;
+  }
+
+  return normalizeRoute(`bare/${bareRelative}`);
+}
+
+const staticPageModules = import.meta.glob('./**/*.{astro,md,mdx}');
+const staticRoutes = Object.keys(staticPageModules)
+  .map(routeFromStaticPageFile)
+  .filter((route): route is string => Boolean(route));
+
+const bareArticles = await getCollection('bare-articles');
+const dynamicRoutes = bareArticles
+  .map((article) => routeFromBareSlug(article.data.slug))
+  .filter((route): route is string => Boolean(route));
+
+const routes = Array.from(new Set([...staticRoutes, ...dynamicRoutes])).sort((a, b) =>
+  a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' })
+);
+---
+
+<BareArticleLayout title="Bare Site Index" description="List of bare sites available under /bare/.">
+  <h1>/bare/ Site Index</h1>
+  <p>
+    The Galaxy Hub serves some pages without Hub-specific decorations. We call them "bare" pages, and they are designed
+    to be embedded in external sites. These routes are discovered from <code>src/pages/bare</code> and from the <code
+      >bare-articles</code
+    > content collection.
+  </p>
+
+  {
+    routes.length > 0 ? (
+      <ul class="bare-sitemap">
+        {routes.map((route) => (
+          <li>
+            <a href={route}>{route}</a>
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p>No bare routes were found.</p>
+    )
+  }
+
+  <h2>Embed In An External Site</h2>
+  <p>
+    Example: embed <code>/bare/eu/usegalaxy/main/</code> in another site with an iframe. Use a fixed height first, then tune
+    it for your own layout.
+  </p>
+
+  <pre><code>{`<iframe
+  src="https://galaxyproject.org/bare/eu/usegalaxy/main/"
+  title="Galaxy Europe"
+  loading="lazy"
+  style="width: 100%; min-height: 900px; border: 0;"
+></iframe>`}</code></pre>
+
+  <p>
+    For a compact feed-style embed, you can also use pages like <code>/bare/eu/latest/news/</code> and <code
+      >/bare/eu/latest/events/</code
+    >.
+  </p>
+</BareArticleLayout>
+
+<style>
+  .bare-sitemap {
+    margin-top: 1rem;
+    padding-left: 1.25rem;
+  }
+
+  .bare-sitemap li {
+    margin: 0.25rem 0;
+  }
+</style>

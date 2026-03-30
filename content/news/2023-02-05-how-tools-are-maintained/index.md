@@ -3,8 +3,10 @@ title: 'How tools are created and maintained in Galaxy'
 tease: 'A short summary about Galaxy tools development, maintenance and deployment.'
 date: '2023-02-05'
 tags: [tools]
-authors: "Intergalactic Utilities Commission (IUC)"
 subsites: [global, all-eu]
+contributions:
+  authorship:
+    - intergalacticutilitiescommissioniuc
 ---
 
 

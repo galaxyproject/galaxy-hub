@@ -12,6 +12,10 @@ gtn: false
 contact: Beatriz Serrano-Solano
 tags: [training]
 subsites: [all-eu, global, us]
+contributions:
+  organisers:
+    - beatrizserrano
+
 ---
 
 Talk at the OME Community Meeting showcasing the image analysis capabilities of Galaxy.

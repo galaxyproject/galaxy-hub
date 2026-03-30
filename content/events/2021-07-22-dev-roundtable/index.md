@@ -16,6 +16,10 @@ links:
   url: "https://youtu.be/n2uwDaU-L8s"
 tags: [ "devroundtable" ]
 subsites: [global, us]
+contributions:
+  organisers:
+    - nekrut
+
 ---
 
 <div class="video-variable">

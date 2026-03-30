@@ -1,11 +1,19 @@
 ---
 title: "An update on Galaxy Genome Annotation"
 tease: "Galaxy as a platform for the annotation of genomes"
-authors: "Anthony Bretaudeau, Romane Libouban, Helena Rasche, Björn Gruening, and all other GGA contributors"
 date: "2023-10-30"
 hide_tease: false
 tags: [esg-wp5, esg]
 subsites: [all, all-eu, esg]
+contributions:
+  authorship:
+    - abretaud
+    - rlibouba
+    - hexylena
+    - bgruening
+  funding:
+    - eu
+    - eurosciencegateway
 ---
 
 ## Galaxy Genome Annotation

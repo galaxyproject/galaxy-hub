@@ -1,11 +1,13 @@
 ---
 title: "New Preprint: PathoGFAIR, a collection of FAIR and adaptable (meta)genomics workflows for (foodborne) pathogens detection and tracking"
 date: '2024-07-08'
-tags: [paper]
-supporters:
-- EOSC
+tags: [paper, workflow, workflowhub, fair, training]
 subsites: [eu, freiburg, global]
 main_subsite: eu
+contributions:
+  funding:
+    - eu
+    - eosc-life
 ---
 
 We are happy to share our new preprint bioRXiv: [**PathoGFAIR: a collection of FAIR and adaptable (meta)genomics workflows for (foodborne) pathogens detection and tracking**](https://www.biorxiv.org/content/10.1101/2024.06.26.600753v1).
@@ -53,5 +55,5 @@ This tutorial has been used as training support in multiple workshops and confer
 
 The PathoGFAIR project was funded via [EOSC life industry call 2021](https://www.eosc-life.eu/industrycall/) ([news about the award](/news/2021-12-08-pathogen-detection-eosc-life-grant/))
 
-<embed src="https://www.biorxiv.org/content/10.1101/2024.06.26.600753v1.full.pdf" width="100%" height="700" type='application/pdf'>
+<embed src="https://www.biorxiv.org/content/10.1101/2024.06.26.600753v1.full.pdf" width="100%" height="700" type='application/pdf' />
 

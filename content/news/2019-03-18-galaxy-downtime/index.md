@@ -4,11 +4,11 @@ date: '2019-03-18'
 tags: [devops, downtime]
 location:
   name: UseGalaxy.eu
-authors: hexylena
-authors_structured:
-- github: hexylena
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - hexylena
 ---
 
 A normal upgrade went awry and we had to restore some data from backup. We had a total downtime of around 20 hours.

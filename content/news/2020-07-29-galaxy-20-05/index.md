@@ -2,14 +2,14 @@
 title: UseGalaxy.eu update to 20.05
 date: '2020-07-29'
 tags: [release]
-supporters:
-- denbi
-- elixir
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 We've updated our Galaxy server to **version 20.05**. This version includes the **migration to Python 3** and improves usability in the aspects listed below.

@@ -17,7 +17,7 @@ comments:
 user_support:
   - "[Training](https://training.galaxyproject.org/search?query=covid19)"
   - "[Data Library](https://bit.ly/usegalaxy-eu-covid19-data)"
-  - "[UseGalaxy.eu Gitter Support Channel](https://gitter.im/galaxycomputationalchemistry/Lobby)"
+  - "[UseGalaxy.eu Matrix Support Channel](https://matrix.to/#/#galaxycomputationalchemistry_Lobby:gitter.im)"
   - "[Galaxy Help Forum](https://help.galaxyproject.org/)"
 quotas:
   - "Storage and computational quotas."

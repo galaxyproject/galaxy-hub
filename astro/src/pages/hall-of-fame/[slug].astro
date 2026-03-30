@@ -1,0 +1,625 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { marked } from 'marked';
+import {
+  buildGtnHallOfFameUrl,
+  communityHasGtnHallOfFame,
+  communitySlug,
+  findCommunityBySlug,
+  getGrantDisplay,
+  getCommunityGithubHandle,
+  getOrganisationDisplay,
+  getCommunityDisplay,
+  listContributors,
+  toArray,
+} from '../../utils/contributors';
+import { getContributionIndex } from '../../utils/hallOfFameIndex';
+import { socialIconMap, type SocialIconName } from '../../utils/socialIcons';
+const gtnIcon = '/images/logos/gtn_icon.svg';
+
+const slugify = communitySlug;
+
+export async function getStaticPaths() {
+  const index = await getContributionIndex();
+  return Array.from(index.entries()).map(([slug, profile]) => ({
+    params: { slug },
+    props: { displayName: profile.displayName },
+  }));
+}
+
+const { slug } = Astro.params;
+const targetSlug = (slug || '').toLowerCase();
+
+const index = await getContributionIndex();
+const profile = index.get(targetSlug);
+const contributions = profile?.contributions || [];
+
+const community = findCommunityBySlug(targetSlug);
+const allContributors = listContributors();
+
+let displayName: string | undefined =
+  community?.record?.name || community?.record?.short_name || profile?.displayName || (Astro.props as any).displayName;
+let matchedType = profile?.matchedType;
+
+const profileDescription =
+  (community as any)?.record?.bio ||
+  (community as any)?.record?.description ||
+  (community as any)?.record?.funding_statement;
+const profileDescriptionHtml = profileDescription ? marked.parse(profileDescription) : '';
+const githubHandle = community?.record ? getCommunityGithubHandle(community.record as any) : undefined;
+const githubAvatar = githubHandle ? `https://github.com/${githubHandle}.png` : undefined;
+const avatarUrl = githubAvatar || (community as any)?.record?.avatarUrl;
+
+type ContactLink = {
+  label: string;
+  href: string;
+  icon?: SocialIconName | 'gtn';
+};
+const contactLinks: ContactLink[] = [];
+
+function pushLink(label: string, href?: string, icon?: ContactLink['icon']) {
+  if (href) contactLinks.push({ label, href, icon });
+}
+
+if (community) {
+  const record: any = community.record;
+  if (record.fediverse) pushLink('Fediverse', record.fediverse, 'fediverse');
+  if (record.bluesky) pushLink('Bluesky', `https://bsky.app/profile/${record.bluesky}`, 'bluesky');
+  if (record.linkedin) pushLink('LinkedIn', `https://www.linkedin.com/in/${record.linkedin}`, 'linkedin');
+  if (record.matrix) pushLink('Matrix', `https://matrix.to/#/${record.matrix}`, 'matrix');
+  if (record.orcid) pushLink('ORCID', `https://orcid.org/${record.orcid}`, 'orcid');
+  if (githubHandle) pushLink('GitHub', `https://github.com/${githubHandle}`, 'github');
+  if (communityHasGtnHallOfFame(record)) {
+    const gtnUrl = buildGtnHallOfFameUrl(community.record.id || displayName || targetSlug);
+    pushLink('GTN Hall of Fame', gtnUrl, 'gtn');
+  }
+}
+
+const affiliationTags =
+  community?.type === 'contributor'
+    ? toArray((community.record as any).affiliations).map((id) => ({
+        id,
+        label: getOrganisationDisplay(id) || getGrantDisplay(id) || getCommunityDisplay(id) || id,
+        slug: `/hall-of-fame/${slugify(id)}/`,
+      }))
+    : [];
+
+const formerAffiliationTags =
+  community?.type === 'contributor'
+    ? toArray((community.record as any).former_affiliations).map((id) => ({
+        id,
+        label: getOrganisationDisplay(id) || getGrantDisplay(id) || getCommunityDisplay(id) || id,
+        slug: `/hall-of-fame/${slugify(id)}/`,
+      }))
+    : [];
+
+const associatedContributors =
+  community?.type === 'organisation' || community?.type === 'grant'
+    ? allContributors.filter((c) => {
+        const affiliations = [...toArray((c as any).affiliations), ...toArray((c as any).former_affiliations)];
+        return affiliations.some((id) => slugify(id) === targetSlug);
+      })
+    : [];
+
+const pageTitle = displayName ? `Hall of Fame – ${displayName}` : `Hall of Fame – ${targetSlug.replace(/-/g, ' ')}`;
+const pageDescription = profileDescription
+  ? profileDescription
+  : matchedType
+    ? `News and events attributed to this ${matchedType} across the Galaxy Community Hub.`
+    : 'News and events attributed to this contributor across the Galaxy Community Hub.';
+
+const newsItems = contributions.filter((item) => item.kind === 'news');
+const eventItems = contributions.filter((item) => item.kind === 'event');
+const totalItems = contributions.length;
+const hasBoth = newsItems.length > 0 && eventItems.length > 0;
+
+function formatDate(date: Date | string | undefined): string {
+  if (!date) return '';
+  const d = typeof date === 'string' ? new Date(date) : date;
+  return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+}
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <div class="max-w-6xl mx-auto">
+    <header class="page-header">
+      <div class="page-header-content">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-1 h-8 bg-galaxy-gold"></div>
+          <h1 class="text-3xl sm:text-4xl font-bold tracking-tight">
+            {
+              community?.record?.url ? (
+                <a href={community.record.url} class="hover:text-galaxy-gold transition-colors">
+                  {displayName || slug}
+                </a>
+              ) : (
+                displayName || slug
+              )
+            }
+          </h1>
+        </div>
+        {
+          profileDescription ? (
+            <div
+              class="profile-description text-lg max-w-3xl"
+              data-profile-description
+              set:html={profileDescriptionHtml}
+            />
+          ) : (
+            <p class="text-white/80 text-lg max-w-2xl">
+              {matchedType
+                ? `All news and events credited to this ${matchedType}.`
+                : 'All news and events credited to this profile.'}
+            </p>
+          )
+        }
+        <p class="text-white/70 mt-2 text-sm">{totalItems} contribution{totalItems === 1 ? '' : 's'}</p>
+        {
+          community && (
+            <div class="profile-header-block">
+              <a
+                href={community?.record?.url || '#'}
+                class:list={['profile-avatar', 'profile-avatar-sm', { 'pointer-events-none': !community?.record?.url }]}
+                target={community?.record?.url ? '_blank' : undefined}
+                rel={community?.record?.url ? 'noopener noreferrer' : undefined}
+                aria-label={community?.record?.url ? `Visit ${displayName || slug}` : undefined}
+              >
+                {avatarUrl ? (
+                  <img src={avatarUrl} alt={displayName || slug} class="profile-avatar-img" loading="lazy" />
+                ) : (
+                  <span class="profile-avatar-fallback">{(displayName || slug || '?').charAt(0).toUpperCase()}</span>
+                )}
+              </a>
+              <div class="flex-1 space-y-3 min-w-0">
+                {affiliationTags.length > 0 && (
+                  <div class="affiliation-group">
+                    <p class="affiliation-label">Affiliations</p>
+                    <div class="flex flex-wrap gap-2" aria-label="Affiliations">
+                      {affiliationTags.map((aff) => (
+                        <a href={aff.slug} class="chip chip-light">
+                          {aff.label}
+                        </a>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {formerAffiliationTags.length > 0 && (
+                  <div class="affiliation-group">
+                    <p class="affiliation-label affiliation-label-muted">Former Affiliations</p>
+                    <div class="flex flex-wrap gap-2" aria-label="Former affiliations">
+                      {formerAffiliationTags.map((aff) => (
+                        <a href={aff.slug} class="chip chip-muted chip-light">
+                          {aff.label}
+                        </a>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {contactLinks.length > 0 && (
+                  <div class="flex flex-wrap gap-2" aria-label="Links">
+                    {contactLinks.map((link) => (
+                      <a
+                        href={link.href}
+                        class="icon-button"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title={link.label}
+                        aria-label={link.label}
+                      >
+                        {link.icon === 'gtn' ? (
+                          <img src={gtnIcon} alt="" aria-hidden="true" class="icon-button-img" loading="lazy" />
+                        ) : link.icon && link.icon !== 'gtn' && socialIconMap[link.icon] ? (
+                          <svg
+                            class="icon-button-svg"
+                            viewBox={socialIconMap[link.icon].viewBox}
+                            preserveAspectRatio="xMidYMid meet"
+                            aria-hidden="true"
+                            focusable="false"
+                            role="img"
+                          >
+                            <path
+                              d={socialIconMap[link.icon].path}
+                              fill="currentColor"
+                              transform={socialIconMap[link.icon].transform}
+                            />
+                          </svg>
+                        ) : null}
+                      </a>
+                    ))}
+                  </div>
+                )}
+              </div>
+            </div>
+          )
+        }
+        <a
+          href="/hall-of-fame/"
+          class="inline-flex items-center gap-1.5 text-sm text-white/70 hover:text-galaxy-gold transition-colors mt-4"
+        >
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+          </svg>
+          Hall of Fame
+        </a>
+      </div>
+    </header>
+
+    <div class="bg-white rounded-b-lg shadow-sm px-6 sm:px-8 py-6">
+      {
+        associatedContributors.length > 0 && (
+          <section class="mb-8" aria-label="Associated contributors">
+            <details class="collapsible" open>
+              <summary>
+                Contributors <span class="count">({associatedContributors.length})</span>
+              </summary>
+              <div class="flex flex-wrap gap-2 mt-3">
+                {associatedContributors.map((c) => (
+                  <a href={`/hall-of-fame/${slugify(c.id)}/`} class="chip">
+                    {c.name || c.id}
+                  </a>
+                ))}
+              </div>
+            </details>
+          </section>
+        )
+      }
+
+      {
+        contributions.length > 0 ? (
+          <div class:list={['grid grid-cols-1 gap-8', { 'lg:grid-cols-2': hasBoth }]}>
+            {newsItems.length > 0 && (
+              <section>
+                <h2 class="flex items-center gap-2 text-lg font-semibold text-galaxy-dark mb-4 pb-2 border-b border-gray-200">
+                  <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"
+                    />
+                  </svg>
+                  News <span class="text-sm font-normal text-gray-400">({newsItems.length})</span>
+                </h2>
+                <div class="space-y-4" id="news-list">
+                  {newsItems.map((item, idx) => (
+                    <a href={item.url} class:list={['block group', { hidden: idx >= 20 }]} data-item>
+                      <h3 class="text-base font-medium text-gray-700 group-hover:text-galaxy-primary transition-colors">
+                        {item.title}
+                      </h3>
+                      {item.tease && <p class="text-sm text-gray-500 mt-1 line-clamp-2">{item.tease}</p>}
+                      <time class="text-sm text-gray-400">{formatDate(item.date)}</time>
+                    </a>
+                  ))}
+                </div>
+                {newsItems.length > 20 && (
+                  <button
+                    type="button"
+                    class="mt-4 text-sm text-galaxy-primary hover:text-galaxy-gold transition-colors"
+                    data-show-more="news-list"
+                    data-remaining={newsItems.length - 20}
+                  >
+                    Show {newsItems.length - 20} more
+                  </button>
+                )}
+              </section>
+            )}
+
+            {eventItems.length > 0 && (
+              <section>
+                <h2 class="flex items-center gap-2 text-lg font-semibold text-galaxy-dark mb-4 pb-2 border-b border-gray-200">
+                  <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                    />
+                  </svg>
+                  Events <span class="text-sm font-normal text-gray-400">({eventItems.length})</span>
+                </h2>
+                <div class="space-y-4" id="events-list">
+                  {eventItems.map((item, idx) => (
+                    <a href={item.url} class:list={['block group', { hidden: idx >= 20 }]} data-item>
+                      <h3 class="text-base font-medium text-gray-700 group-hover:text-galaxy-primary transition-colors">
+                        {item.title}
+                      </h3>
+                      {item.tease && <p class="text-sm text-gray-500 mt-1 line-clamp-2">{item.tease}</p>}
+                      <time class="text-sm text-gray-400">{formatDate(item.date)}</time>
+                    </a>
+                  ))}
+                </div>
+                {eventItems.length > 20 && (
+                  <button
+                    type="button"
+                    class="mt-4 text-sm text-galaxy-primary hover:text-galaxy-gold transition-colors"
+                    data-show-more="events-list"
+                    data-remaining={eventItems.length - 20}
+                  >
+                    Show {eventItems.length - 20} more
+                  </button>
+                )}
+              </section>
+            )}
+          </div>
+        ) : (
+          <p class="text-gray-500 text-center py-8">No news or events found for this contributor.</p>
+        )
+      }
+    </div>
+  </div>
+</BaseLayout>
+
+<script data-astro-rerun>
+  document.querySelectorAll('[data-show-more]').forEach((button) => {
+    button.addEventListener('click', () => {
+      const listId = button.getAttribute('data-show-more');
+      const list = document.getElementById(listId);
+      if (list) {
+        list.querySelectorAll('[data-item].hidden').forEach((item) => {
+          item.classList.remove('hidden');
+        });
+        button.remove();
+      }
+    });
+  });
+</script>
+
+<style>
+  .page-header {
+    position: relative;
+    padding: 2.5rem 2rem;
+    background: linear-gradient(135deg, var(--color-galaxy-dark) 0%, var(--color-galaxy-primary) 100%);
+    color: white;
+    border-radius: 0.5rem 0.5rem 0 0;
+    border-bottom: 4px solid var(--color-galaxy-gold);
+  }
+
+  /* Grid overlay */
+  .page-header::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    background-size: 24px 24px;
+    pointer-events: none;
+    border-radius: inherit;
+  }
+
+  .page-header-content {
+    position: relative;
+    z-index: 1;
+  }
+
+  .profile-description {
+    color: rgb(255 255 255 / 0.8);
+  }
+
+  .profile-description :global(p) {
+    margin: 0.5rem 0;
+  }
+
+  .profile-description :global(p:first-child) {
+    margin-top: 0;
+  }
+
+  .profile-description :global(p:last-child) {
+    margin-bottom: 0;
+  }
+
+  .profile-description :global(ul),
+  .profile-description :global(ol) {
+    margin: 0.5rem 0 0.5rem 1.2rem;
+  }
+
+  .profile-description :global(a) {
+    color: var(--color-galaxy-gold);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .profile-description :global(a:hover) {
+    color: #fff;
+  }
+
+  .profile-avatar {
+    width: 110px;
+    height: 110px;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    border: 2px solid #e5e7eb;
+    background: #fff;
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+  }
+
+  .profile-avatar-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 0.5rem;
+  }
+
+  .profile-avatar-fallback {
+    font-weight: 700;
+    color: #1f2937;
+    font-size: 1.5rem;
+  }
+
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.25rem 0.6rem;
+    border-radius: 999px;
+    background: #fef3c7;
+    color: #92400e;
+    font-size: 0.85rem;
+    border: 1px solid #fcd34d;
+    text-transform: capitalize;
+  }
+
+  .badge-muted {
+    background: #f3f4f6;
+    color: #4b5563;
+    border-color: #e5e7eb;
+    text-transform: none;
+  }
+
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.35rem 0.75rem;
+    border-radius: 999px;
+    background: #f3f4f6;
+    color: #374151;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition:
+      transform 120ms ease,
+      box-shadow 120ms ease,
+      background-color 120ms ease;
+  }
+
+  .chip:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(31, 41, 55, 0.12);
+    background: #e5e7eb;
+  }
+
+  .chip-muted {
+    background: #eef2f7;
+    color: #6b7280;
+  }
+
+  .chip-link {
+    background: #25537b;
+    color: #fff;
+  }
+
+  .chip-link:hover {
+    background: #1e4263;
+    box-shadow: 0 4px 12px rgba(37, 83, 123, 0.35);
+  }
+
+  .chip-icon {
+    display: inline-flex;
+    width: 16px;
+    height: 16px;
+  }
+
+  .icon-button {
+    width: 44px;
+    height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.75rem;
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    transition:
+      transform 120ms ease,
+      box-shadow 120ms ease,
+      background-color 120ms ease;
+  }
+
+  .icon-button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    background: rgba(255, 255, 255, 0.2);
+  }
+
+  .icon-button-svg {
+    width: 26px;
+    height: 26px;
+  }
+
+  .icon-button-img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    display: block;
+  }
+
+  .profile-header-block {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  .profile-avatar-sm {
+    width: 90px;
+    height: 90px;
+    border-width: 2px;
+  }
+
+  .chip-light {
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+  }
+
+  .chip-light.chip-muted {
+    color: rgba(255, 255, 255, 0.78);
+  }
+
+  .affiliation-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .affiliation-label {
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.55);
+    margin: 0;
+  }
+
+  .affiliation-label-muted {
+    color: rgba(255, 255, 255, 0.38);
+  }
+
+  .chip-light.chip-link {
+    background: #fcb900;
+    color: #1f2937;
+    border-color: transparent;
+  }
+
+  .collapsible summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: #1f2937;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+
+  .collapsible summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .collapsible summary::before {
+    content: '▾';
+    font-size: 0.85rem;
+    color: #6b7280;
+  }
+
+  .collapsible[open] summary::before {
+    content: '▾';
+  }
+
+  .collapsible .count {
+    color: #6b7280;
+    font-weight: 500;
+  }
+</style>

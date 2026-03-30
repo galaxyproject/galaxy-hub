@@ -2,11 +2,11 @@
 title: We are striking!
 date: '2019-09-19'
 tags: [s4f, society]
-authors: bgruening
-authors_structured:
-- github: bgruening
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bgruening
 ---
 
 The Freiburg Galaxy Team is striking tomorrow the [20th of September](https://globalclimatestrike.net).

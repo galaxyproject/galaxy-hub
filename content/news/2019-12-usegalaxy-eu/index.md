@@ -3,14 +3,14 @@ title: 10,000 users, 6,370,000 jobs and 11,900,000 datasets
 date: '2019-12-02'
 tease: A big thank you to all our users and people that have contributed to this project!
 tags: [devops, data]
-supporters:
-- denbi
-- elixir
-authors: erxleben
-authors_structured:
-- github: erxleben
 subsites: [global, all-eu, us]
 main_subsite: eu
+contributions:
+  authorship:
+    - erxleben
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 This week [we](https://usegalaxy-eu.github.io/freiburg/people) have reached a huge milestone! 

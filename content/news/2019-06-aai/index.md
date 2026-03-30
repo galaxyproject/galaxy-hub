@@ -4,14 +4,14 @@ date: '2019-06-13'
 tease: the European Galaxy Server hosted by Elixir Germany is now ready to accept
   logins from users using their Elixir AAI identity for authentication..
 tags: [release]
-supporters:
-- elixir
-- denbi
-authors: bgruening
-authors_structured:
-- github: bgruening
 subsites: [global, all-eu, us]
 main_subsite: eu
+contributions:
+  authorship:
+    - bgruening
+  funding:
+    - elixir-europe
+    - deNBI
 ---
 
 As of Galaxy version 19.05 released last month, Galaxy can easily be configured to use Elixir-AAI service for authenticating users! As the first publicly available Galaxy instance, the [European Galaxy Server](https://usegalaxy.eu/) hosted by Elixir Germany is now ready to accept logins from users using their Elixir AAI identity for authentication.

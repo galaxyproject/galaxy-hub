@@ -12,5 +12,9 @@ contact: 'Anton Nekrutenko'
 image: ""
 gtn: false
 subsites: [global, us]
+contributions:
+  organisers:
+    - nekrut
+
 ---
 

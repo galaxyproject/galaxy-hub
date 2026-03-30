@@ -6,11 +6,13 @@ tags: [training, talk, poster]
 location:
   city: Portland
   country: USA
-supporters:
-- elixir
-- denbi
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+
 ---
 
 This year, the Galaxy Community Conference and Bioinformatics Open Source Conference are joining together for a unified [event](https://gccbosc2018.sched.com/) to be held in Portland, Oregon, United States, June 25-30, 2018.  

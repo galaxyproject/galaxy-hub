@@ -3,11 +3,17 @@ title: "Traefik Reverse Proxy for High Availablilty"
 date: '2024-07-17'
 tease: "A reverse proxy and loadbalancer for two headnode setup at Galaxy Europe"
 hide_tease: false
-tags: [esg, admin, infrastructure]
-authors: "Mira Kuntz"
+tags: [esg, admin, infrastructure, esg-wp3, esg-wp4]
 contact: "kuntzm@informatik.uni-freiburg.de"
 subsites: [eu, esg, freiburg]
 main_subsite: eu
+contributions:
+  authorship:
+    - mira-miracoli
+  funding:
+    - eu
+    - eurosciencegateway
+    - uni-freiburg
 ---
 <img src=https://upload.wikimedia.org/wikipedia/commons/1/1b/Traefik.logo.png alt="Traefik Gopher Logo - a stylized gopher with glowsticks and safety vest acting as a pilot" height="200" style="float:right" />
 

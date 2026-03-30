@@ -20,7 +20,7 @@ comments:
 user_support:
   - "[Training materials](https://galaxyproject.github.io/training-material/topics/computational-chemistry)"
   - "Documentation for our most recent project using the ChemicalToolbox, [Virtual screening of the SARS-CoV-2 main protease](https://covid19.galaxyproject.org/cheminformatics)."
-  - "[UseGalaxy.eu Gitter Support Channel](https://gitter.im/galaxycomputationalchemistry/Lobby)"
+  - "[UseGalaxy.eu Matrix Support Channel](https://matrix.to/#/#galaxycomputationalchemistry_Lobby:gitter.im)"
   - "[Galaxy Help Forum](https://help.galaxyproject.org/)"
 quotas:
   - "Server: Storage and computational quotas."

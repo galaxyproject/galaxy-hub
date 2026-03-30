@@ -2,11 +2,12 @@
 title: UseGalaxy.eu Tool Updates for 2020-02-01
 date: '2020-02-01'
 tags: [tools]
-supporters:
-- denbi
-- elixir
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 On 2020-02-01, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in [Jenkins Build #178](https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#178/)

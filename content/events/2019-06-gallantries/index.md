@@ -10,10 +10,12 @@ external_url: https://galaxy-carpentries.github.io/gallantries/event/2019-03-25-
 contact: Berenice Batut
 gtn: true
 tags: [training]
-supporters:
-- elixir
-- denbi
 subsites: [eu, freiburg, global, us]
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+
 ---
 
 The Gallantries team is offering its first RNA-seq workshop for beginners on June, 11-12th. This workshop will be delivered simultaneously at two locations across Europe (Rotterdam, NL and Freiburg, DE). It will cover: Galaxy introduction, Introduction to High-Throughput Sequencing and Quality Control,     Reference-based RNA-seq data analysis.

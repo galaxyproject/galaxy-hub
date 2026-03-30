@@ -11,9 +11,11 @@ external_url: https://www.ebi.ac.uk/training/events/introduction-metabolomics-an
 gtn: false
 contact: Ajay Mishra, Claire O'Donovan, Thomas Payne, Pamela Pruski
 tags: [training]
-supporters:
-- elixir
 subsites: [all-eu, global, us]
+contributions:
+  funding:
+    - elixir-europe
+
 ---
 
 Applications close 18 February!

@@ -10,8 +10,12 @@ location_url: "https://monasterium.be"
 external_url:
 gtn: true
 contact: Instructors
-tags: [esg-wp1]
+tags: [esg, esg-wp1]
 subsites: [global, us, eu, esg]
+contributions:
+  funding:
+    - eu
+    - eurosciencegateway
 ---
 
 **[Galaxy Admin Training](https://github.com/orgs/galaxyproject/projects/28)** will be offered April 17 through April 21 at 

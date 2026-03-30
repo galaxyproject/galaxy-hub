@@ -4,11 +4,11 @@ date: '2019-10-18'
 tags: [devops, bug]
 location:
   name: Freiburg, Germany
-authors: gmauro
-authors_structured:
-- github: gmauro
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - gmauro
 ---
 
 UseGalaxy.eu is currently facing some issues with tools execution and it may take us a while to find a solution.  

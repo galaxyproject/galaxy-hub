@@ -3,19 +3,16 @@ title: 'Massive open online education party: The Galaxy Training Academy'
 date: '2024-11-18'
 tease: In October 2024, the Galaxy Training Network (GTN) was
   running a global Galaxy online course
-tags: [training]
+tags: [training, gtn-news]
 location:
   name: online
-authors: Delphine Lariviere, Natalie Whitaker-Allen and Teresa Müller
-authors_structured:
-- name: Delphine Lariviere
-  github: Delphine-L
-- name: Natalie Whitaker-Allen
-  github: natalie-wa
-- name: Teresa Müller
-  github: teresa-m
 subsites: [global, all-eu, us]
 main_subsite: eu
+contributions:
+  authorship:
+    - delphine-l
+    - natalie-wa
+    - teresa-m
 ---
 
 # The Galaxy Training Academy 2024 trained researchers in Galaxy data analysis world wide across a variety of scientific topics.

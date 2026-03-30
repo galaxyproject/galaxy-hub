@@ -1,7 +1,7 @@
 ---
 title: January 2014 Galaxy Update
 ---
-<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width="150" /></a></div>
 
 Welcome to the January 2014 *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
@@ -11,14 +11,14 @@ December saw the launch of two *[Galaxy community hubs](/community/)* - one to d
 
 ## Galaxy Community Log Board
 
-<div class='left'><a href='/blog/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" width="200" /></a></div>
+<div class='left'><a href='/news/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" width="200" /></a></div>
 
-The *[Galaxy Community Log Board](/blog/)* is a place to share how you addressed a particular task in your Galaxy deployment.  Log entries describe specific solutions to particular tasks, such as the [details of what steps were taken to deploy Galaxy on particular platforms](/blog/2013-04-urgi-virtualisation/), or specific stumbling blocks when configuring Galaxy.  Log entries are an easy way to help others (and learn from others) by sharing what you've already done.  If you have figured out or documented how to do something, then this is the ideal forum for sharing that information with the community.
+The *[Galaxy Community Log Board](/news/)* is a place to share how you addressed a particular task in your Galaxy deployment.  Log entries describe specific solutions to particular tasks, such as the [details of what steps were taken to deploy Galaxy on particular platforms](/news/2013-04-urgi-virtualisation/), or specific stumbling blocks when configuring Galaxy.  Log entries are an easy way to help others (and learn from others) by sharing what you've already done.  If you have figured out or documented how to do something, then this is the ideal forum for sharing that information with the community.
 
 <div class='left'>
 <table>
   <tr>
-    <th> &nbsp;&nbsp; <a href='/blog/'>Share your experience</a> <em><a href='/blog/'>now</a></em> &nbsp;&nbsp; </th>
+    <th> &nbsp;&nbsp; <a href='/news/'>Share your experience</a> <em><a href='/news/'>now</a></em> &nbsp;&nbsp; </th>
   </tr>
   <tr>
     <td style=" border: none; text-align: center;"> <span style="font-size: smaller;"> C'mon, it will make you feel good! </span> </td>
@@ -27,7 +27,7 @@ The *[Galaxy Community Log Board](/blog/)* is a place to share how you addressed
 
 </div>
 
-The [Galaxy Community Log Board](/blog/) describes how things can be done, and it complements the (also [recently announced](/news/galaxy-deployment-catalog/)) *Galaxy Deployments Catalog*, which describes different Galaxy installations.  Both the [Log Board](/blog/) and the Deployments Catalog came out of discussions at the [GCC2013 GalaxyAdmins Birds-of-a-Feather gathering](/events/gcc2013/bof/galaxy-admins/).  Thanks to everyone who attended that BoF and to everyone who taken the time to [log their experiences so far](/blog/).
+The [Galaxy Community Log Board](/news/) describes how things can be done, and it complements the (also [recently announced](/news/galaxy-deployment-catalog/)) *Galaxy Deployments Catalog*, which describes different Galaxy installations.  Both the [Log Board](/news/) and the Deployments Catalog came out of discussions at the [GCC2013 GalaxyAdmins Birds-of-a-Feather gathering](/events/gcc2013/bof/galaxy-admins/).  Thanks to everyone who attended that BoF and to everyone who taken the time to [log their experiences so far](/news/).
 
 ## Galaxy Deployment Catalog
 
@@ -56,7 +56,7 @@ If you have a Galaxy deployment then please take a few minutes to describe your 
 <div class='right'>
 <table>
   <tr>
-    <td colspan=2 style=" text-align: center; border: none;"> <span style="font-size: larger;"> <strong><a href='/events/archive/'>2013 Events</a></strong> </span> </td>
+    <td colspan="2" style=" text-align: center; border: none;"> <span style="font-size: larger;"> <strong><a href='/events/archive/'>2013 Events</a></strong> </span> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 200+ </th>
@@ -91,13 +91,13 @@ Many, many thanks to everyone who talked about Galaxy last year and for making t
   <tr>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=4 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="4" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
   </tr>
@@ -248,14 +248,14 @@ The [2013 Galaxy Day event](http://wiki.sb-roscoff.fr/ifb/index.php/Accueil) too
     <th> Contact </th>
   </tr>
   <tr>
-    <th rowspan=3> January 11-15 </th>
+    <th rowspan="3"> January 11-15 </th>
     <td> <em><a href='https://pag.confex.com/pag/xxii/webprogram/Session2298.html'>Galaxy for NGS Data Analysis: A Hands-on Computer Demo</a></em> </td>
-    <td rowspan=3> <strong><a href='/events/pag-gmod-2014/'>Plant and Animal Genome XXII (PAG 2014)</a></strong>, San Diego, California, United States </td>
-    <td rowspan=1> <a href='/people/dave-clements/'>Dave Clements</a>, <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a> </td>
+    <td rowspan="3"> <strong><a href='/events/pag-gmod-2014/'>Plant and Animal Genome XXII (PAG 2014)</a></strong>, San Diego, California, United States </td>
+    <td rowspan="1"> <a href='/people/dave-clements/'>Dave Clements</a>, <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a> </td>
   </tr>
   <tr>
     <td> <em><a href='https://pag.confex.com/pag/xxii/webprogram/Session2159.html'>Galaxy Cloudman: A Gentle Introduction to Data Analysis on the Cloud</a></em><div class='indent'>Part of the <a href='https://pag.confex.com/pag/xxii/webprogram/Session2159.html'>GMOD Workshop</a></div> </td>
-    <td rowspan=1> <a href='/people/dave-clements/'>Dave Clements</a>, <a href='http://gmod.org/wiki/User:Scott'>Scott Cain</a> </td>
+    <td rowspan="1"> <a href='/people/dave-clements/'>Dave Clements</a>, <a href='http://gmod.org/wiki/User:Scott'>Scott Cain</a> </td>
   </tr>
   <tr>
     <td> Plus <a href='/events/pag-gmod-2014/'>2 more talks and 4 posters</a> </td>
@@ -359,7 +359,7 @@ The latest version of [CloudMan](/cloudman/) was [released in July](/news/cloudm
 
 # ToolShed Contributions
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width="150" /></a></div>
 
 ## New Repositories in the Galaxy Project ToolShed
 

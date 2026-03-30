@@ -12,10 +12,12 @@ location:
   postal: 79104
   region: Baden-Württemberg
   street: Schaenzlestr.1
-supporters:
-- denbi
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+
 ---
 
 Galaxy workshop on HTS data analysis, February 2018, registration is open! For attendance, please apply [here](https://drive.google.com/open?id=1qnFUCHvyvBHt5OA97puq9sQ83yp8nKSg-EiUQznN4Jw).

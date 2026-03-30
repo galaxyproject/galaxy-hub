@@ -8,11 +8,12 @@ contacts:
   name: Freiburg Galaxy Team
 location:
   name: Online
-supporters:
-- unifreiburg
-- denbi
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  funding:
+    - deNBI
+
 ---
 
 We are offering a Galaxy workshop on **Processing of Single Cell RNA-Seq Data with Galaxy** at the [BCC2020 conference](https://bcc2020.github.io/).

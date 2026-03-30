@@ -4,11 +4,12 @@ date: "2022-04-24"
 tease: "On 2022-04-24, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in Jenkins Build #323"
 hide_tease: true
 tags: [tools]
-supporters:
-- denbi
-- elixir
 main_subsite: freiburg
 subsites: [eu, freiburg]
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 On 2022-04-24, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in [Jenkins Build #323](https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#323/)

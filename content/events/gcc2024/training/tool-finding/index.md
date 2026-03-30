@@ -1,5 +1,4 @@
 ---
-autotoc: true
 ---
 
 <slot name="/events/gcc2024/header" />
@@ -22,5 +21,5 @@ The workshop will give the opportunity to discuss potential improvements of the 
 ## Meet the Instructor
 
 ### Paul Zierep
-University of Freiburg, European Galaxy Team <br>
+University of Freiburg, European Galaxy Team <br />
 Enthusiast about workflow development and microbial research. Main focus on microbiome pipeline development and tool integration. Co-organiser of the microGalaxy community. 

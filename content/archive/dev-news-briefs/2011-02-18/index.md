@@ -3,14 +3,10 @@ title: Development News Brief
 date: 2011-02-18
 ---
 
-----
-[Get Galaxy!](http://bitbucket.org/galaxy/galaxy-central/wiki/GetGalaxy)
+**Get Galaxy!** [http://bitbucket.org/galaxy/galaxy-central/wiki/GetGalaxy](http://bitbucket.org/galaxy/galaxy-central/wiki/GetGalaxy)
 
-  new: `% hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist`
-
-  upgrade: `% hg pull -u -r ca0c4ad2bb39`
-
-----
+* new: `% hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist`
+* upgrade: `% hg pull -u -r ca0c4ad2bb39`
 
 ## What's New
 

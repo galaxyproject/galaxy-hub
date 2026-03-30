@@ -11,7 +11,6 @@ location:
   url: ''
 external_url: http://bioinfo.genotoul.fr/index.php/events/metagenomic-amplicons-and-stats-with-frogs/
 gtn: true
-contact: ''
 tags: [training]
 subsites: [all-eu, global, us]
 ---

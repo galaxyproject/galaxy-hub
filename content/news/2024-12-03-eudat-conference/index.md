@@ -3,12 +3,14 @@ title: "Galaxy participation at the EUDAT Conference 2024"
 date: "2024-12-03"
 tease: "Presenting Galaxy new features at the EUDAT Conference 2024"
 hide_tease: false
-supporters:
-- eurosciencegateway
-- unifreiburg
-subsites: [global, freiburg, eu, esg]
-tags: [esg]
+subsites: [global, freiburg, eu, esg, all-eu]
+tags: [esg, esg-wp1, esg-wp3, esg-wp4, esg-wp2]
 main_subsite: eu
+contributions:
+  funding:
+    - eu
+    - eurosciencegateway
+    - uni-freiburg
 ---
 
 The Freiburg Galaxy team attended the EUDAT Conference in Karlsruhe, Germany, from December 3rd to 5th, 2024. The conference focused on the most recent breakthroughs in research data management, as well as enabling technologies and solutions.

@@ -8,10 +8,12 @@ contacts:
   name: Freiburg Galaxy Team
 location:
   name: online
-supporters:
-- denbi
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+
 ---
 
 QIIME = quantitative Insights Into Microbial Ecology

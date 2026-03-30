@@ -3,16 +3,19 @@ title: "VirHunter: detection of novel RNA Viruses in Plant Sequencing Data"
 tease: "A Deep Learning-Based Method for the detection of novel RNA Viruses in Plant Sequencing Data"
 date: '2023-02-04'
 doi: 10.3389/fbinf.2022.867111
-authors: Benjamin Dartigues
-authors_structured:
-- github: bdartigues
 tags: [tools, esg, esg-wp5]
 subsites: [global, esg]
 main_subsite: eu
+contributions:
+  authorship:
+    - benjamindartigues
+  funding:
+    - eu
+    - eurosciencegateway
 ---
 
-Please welcome [VirHunter](<https://usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fvirhunter%2Fvirhunter%2F1.0.0%2Bgalaxy3>)
-and [Decontaminator](<https://usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fdecontaminator%2Fdecontaminator%2F1.0.0%2Bgalaxy0>) as new members 
+Please welcome [VirHunter]([https://usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fvirhunter%2Fvirhunter%2F1.0.0%2Bgalaxy3](https://usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fvirhunter%2Fvirhunter%2F1.0.0%2Bgalaxy3))
+and [Decontaminator]([https://usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fdecontaminator%2Fdecontaminator%2F1.0.0%2Bgalaxy0](https://usegalaxy.eu/tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fdecontaminator%2Fdecontaminator%2F1.0.0%2Bgalaxy0)) as new members 
 on the Galaxy bookshelf.
 These two tools were developed to streamline the detection of viruses in high-throuput sequencing data (HTS).
 In particular, they "catch" viruses in assembled virome RNAseq data provided as input.

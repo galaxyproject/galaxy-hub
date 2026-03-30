@@ -1,12 +1,12 @@
 ---
 title: European Galaxy Server part of CatRIS
 date: '2021-03-06'
-tags: [galaxy]
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
+tags: []
 subsites: [eu, freiburg]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
 ---
 
 

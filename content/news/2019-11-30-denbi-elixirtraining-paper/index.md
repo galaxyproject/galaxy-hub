@@ -3,15 +3,15 @@ title: The de.NBI / ELIXIR-DE training platform - Bioinformatics training in Ger
   and across Europe within ELIXIR
 date: '2019-11-30'
 doi: 10.12688/f1000research.20244.1
-tags: [paper, training]
-supporters:
-- denbi
-- elixir
-authors: erxleben
-authors_structured:
-- github: erxleben
+tags: [paper, training, tiaas]
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - erxleben
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 The Galaxy Team is part of the [German Network of Bioinformatics infrastructure](https://www.denbi.de) (de.NBI)

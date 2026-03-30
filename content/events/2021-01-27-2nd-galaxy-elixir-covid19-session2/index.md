@@ -2,21 +2,21 @@
 title: Importance of (open) infrastructures in responding to a pandemic
 date: '2021-01-27'
 end: '2021-01-27'
-tags: [training, COVID-19]
+tags: [training, covid-19]
 contacts:
 - name: Galaxy and ELIXIR
 location:
   name: online
-supporters:
-- galaxy
-- elixir
-- denbi
-- bmbf
-- elixir-belgium
-- biodaten
 hidefooter: true
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  funding:
+    - biodaten
+    - bmbf
+    - deNBI
+    - elixir-europe
+    - uni-freiburg
 ---
 
 The Galaxy Community and ELIXIR organise a second webinar series to demonstrate how open software and public research infrastructures can be used in analysing and publishing SARS-CoV2 data.
@@ -33,7 +33,7 @@ The second session will present some of the data resources used to deposit and a
 - Analysis resources
 - Interoperability
 
-[Registration](https://us02web.zoom.us/webinar/register/WN_RVlDaaZiTu-CPtiVxlmsCQ){:target="_blank"}
+<a href="https://us02web.zoom.us/webinar/register/WN_RVlDaaZiTu-CPtiVxlmsCQ" target="_blank">Registration</a>
 
 #### Speakers
 

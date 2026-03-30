@@ -2,7 +2,7 @@
 title: January 2020 Galactic News
 date: '2020-01-08'
 tease: Events, Pubs, Blogs, Platforms, Tutorials, Doc, and Happy New Year too
-tags: [newsletter, galaxy]
+tags: [newsletter]
 subsites: [all-eu, global, us]
 ---
 
@@ -237,7 +237,7 @@ Includes [genetic, methylome, and transcriptome data](https://usegalaxy.eu/libra
 <div class="card border-info" style="min-width: 8rem; max-width: 28rem;">
 <div class="card-header trim-p">
 
-[Crowdsourcing citizen science data on usegalaxy.eu](/blog/2020-01-galaxy-ecology-citizen-science/)
+[Crowdsourcing citizen science data on usegalaxy.eu](/news/2020-01-galaxy-ecology-citizen-science/)
 
 </div>
 
@@ -245,7 +245,7 @@ By Yvan Le Bras, Simon Bénateau.
 
 Galaxy for Ecology, mixing Ecology research, Citizen Science and Massively Multi Online Science.
 
-![Crowdsourcing citizen science data on usegalaxy.eu](/blog/2020-01-galaxy-ecology-citizen-science/sexing-marmalade-slice.png)
+![Crowdsourcing citizen science data on usegalaxy.eu](/news/2020-01-galaxy-ecology-citizen-science/sexing-marmalade-slice.png)
 
 </div>
 

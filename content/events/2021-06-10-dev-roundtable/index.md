@@ -16,6 +16,11 @@ links:
   url: "https://youtu.be/3e71DFg3gsw"
 tags: [ "devroundtable" ]
 subsites: [global, us]
+contributions:
+  organisers:
+    - almahmoud
+    - mvdbeek
+
 ---
 
 <div class="video-variable">

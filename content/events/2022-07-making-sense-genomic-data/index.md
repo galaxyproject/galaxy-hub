@@ -16,7 +16,7 @@ contacts:
 - name: Tanya Golubchik
 - name: Tracey Calvert-Joshua
 - name: Varun Shamanna
-tags: [training]
+tags: [training, workshop, talk, covid-19]
 subsites: [all-eu, global]
 ---
 

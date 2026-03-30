@@ -1,0 +1,12 @@
+---
+import MarkdownEmbedVue from '../embed/MarkdownEmbed.vue';
+
+interface Props {
+  url?: string;
+  src?: string;
+}
+
+const props = Astro.props;
+---
+
+<MarkdownEmbedVue client:load {...props} />

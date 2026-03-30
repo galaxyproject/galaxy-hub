@@ -1,9 +1,11 @@
 ---
 title: "Tracegroomer: a solution to format and normalise metabolomics data for DIMet tool"
 date: "2024-04-15"
-authors: Deisy Johanna Galvis Rodriguez
 tease: "Please welcome Tracegroomer - a new member of the Galaxy bookshelf"
 subsites: [eu]
+contributions:
+  authorship:
+    - deisyjohannagalvisrodriguez
 ---
 
 Please welcome [Tracegroomer](https://usegalaxy.eu/root?tool_id=tracegroomer) - a new member of the Galaxy bookshelf.

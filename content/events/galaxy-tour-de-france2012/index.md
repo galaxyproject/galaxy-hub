@@ -19,7 +19,7 @@ Galaxy went on tour in France during the last week of May.  Workshops were help 
   </tr>
   <tr>
     <td style=" text-align: center;"> <strong><a href='/events/galaxy-tour-de-france2012/#galaxy-for-biologists'>Galaxy for Biologists</a></strong><br /> 9:00 - 12:00<br />This session is now full </td>
-    <td rowspan=2 style=" text-align: center;"> <strong>Galaxy for Biologists<br />and Developers</strong><br />12:00 - 15:30<br /> Space available </td>
+    <td rowspan="2" style=" text-align: center;"> <strong>Galaxy for Biologists<br />and Developers</strong><br />12:00 - 15:30<br /> Space available </td>
     <td style=" text-align: center;"> <strong><a href='/events/galaxy-tour-de-france2012/#galaxy-for-biologists'>Galaxy for Biologists</a></strong><br />9:00 - 12:00<br />Space available </td>
     <td style=" text-align: center;"> <strong><a href='/events/galaxy-tour-de-france2012/#galaxy-for-biologists'>Galaxy for Biologists</a></strong><br />9:00 - 12:00<br />Space available </td>
   </tr>

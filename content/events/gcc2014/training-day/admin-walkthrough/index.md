@@ -219,7 +219,7 @@ Documentation for the features used in this section can be found at [usegalaxy.o
 
 ## Install and configure PostgreSQL
 
-```hightlight console
+```bash
 galaxy@gcc2014:~/galaxy-dist$ sudo apt-get install postgresql
 [sudo] password for galaxy:
 Reading package lists... Done

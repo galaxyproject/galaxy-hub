@@ -1,17 +1,16 @@
 ---
 title: Monitoring of raw open data for SARS-CoV-2 genome surveillance
 date: '2021-04-29'
-tease: UseGalaxy.eu is now automatically collecting, and analyzing raw sequencing
-  data published by the COVID-19 Genomics UK Consortium (COG-UK).
-tags: [COVID-19, data]
-supporters:
-- denbi
-- elixir
-authors: simonbray
-authors_structured:
-- github: simonbray
+tease: UseGalaxy.eu is now automatically collecting, and analyzing raw sequencing data published by the COVID-19 Genomics UK Consortium (COG-UK).
+tags: [covid-19, data, workflow]
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - simonbray
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 Recently, we started a large-scale project on the European Galaxy server for automatically collecting,

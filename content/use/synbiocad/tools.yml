@@ -1,0 +1,875 @@
+tools:
+    - name: Unzip collection
+      version: 1.0.0
+      link: /tool_runner?tool_id=__UNZIP_COLLECTION__
+      description: ""
+    - name: Zip collections
+      version: 1.0.0
+      link: /tool_runner?tool_id=__ZIP_COLLECTION__
+      description: ""
+    - name: Filter failed datasets
+      version: 1.0.0
+      link: /tool_runner?tool_id=__FILTER_FAILED_DATASETS__
+      description: ""
+    - name: Filter empty datasets
+      version: 1.0.0
+      link: /tool_runner?tool_id=__FILTER_EMPTY_DATASETS__
+      description: ""
+    - name: Flatten collection
+      version: 1.0.0
+      link: /tool_runner?tool_id=__FLATTEN__
+      description: ""
+    - name: Merge collections
+      version: 1.0.0
+      link: /tool_runner?tool_id=__MERGE_COLLECTION__
+      description: ""
+    - name: Relabel identifiers
+      version: 1.0.0
+      link: /tool_runner?tool_id=__RELABEL_FROM_FILE__
+      description: ""
+    - name: Filter collection
+      version: 1.0.0
+      link: /tool_runner?tool_id=__FILTER_FROM_FILE__
+      description: ""
+    - name: Sort collection
+      version: 1.0.0
+      link: /tool_runner?tool_id=__SORTLIST__
+      description: ""
+    - name: Tag elements
+      version: 1.0.0
+      link: /tool_runner?tool_id=__TAG_FROM_FILE__
+      description: ""
+    - name: Apply rules
+      version: 1.1.0
+      link: /tool_runner?tool_id=__APPLY_RULES__
+      description: ""
+    - name: Build list
+      version: 1.2.0
+      link: /tool_runner?tool_id=__BUILD_LIST__
+      description: ""
+    - name: Extract dataset
+      version: 1.0.1
+      link: /tool_runner?tool_id=__EXTRACT_DATASET__
+      description: ""
+    - name: Add column
+      version: 1.0.0
+      link: /tool_runner?tool_id=addValue
+      description: to an existing dataset
+    - name: Condense
+      version: 1.0.0
+      link: /tool_runner?tool_id=Condense+characters1
+      description: consecutive characters
+    - name: Convert
+      version: 1.0.0
+      link: /tool_runner?tool_id=Convert+characters1
+      description: delimiters to TAB
+    - name: Merge Columns
+      version: 1.0.1
+      link: /tool_runner?tool_id=mergeCols1
+      description: together
+    - name: Create single interval
+      version: 1.0.0
+      link: /tool_runner?tool_id=createInterval
+      description: as a new dataset
+    - name: Change Case
+      version: 1.0.0
+      link: /tool_runner?tool_id=ChangeCase
+      description: of selected columns
+    - name: Paste
+      version: 1.0.0
+      link: /tool_runner?tool_id=Paste1
+      description: two files side by side
+    - name: Remove beginning
+      version: 1.0.0
+      link: /tool_runner?tool_id=Remove+beginning1
+      description: of a file
+    - name: Select random lines
+      version: 2.0.2
+      link: /tool_runner?tool_id=random_lines1
+      description: from a file
+    - name: Select first
+      version: 1.0.1
+      link: /tool_runner?tool_id=Show+beginning1
+      description: lines from a dataset
+    - name: Select last
+      version: 1.0.1
+      link: /tool_runner?tool_id=Show+tail1
+      description: lines from a dataset
+    - name: Trim
+      version: 0.0.2
+      link: /tool_runner?tool_id=trimmer
+      description: leading or trailing characters
+    - name: Line/Word/Character count
+      version: 1.0.0
+      link: /tool_runner?tool_id=wc_gnu
+      description: of a dataset
+    - name: Secure Hash / Message Digest
+      version: 0.0.2
+      link: /tool_runner?tool_id=secure_hash_message_digest
+      description: on a dataset
+    - name: Filter
+      version: 1.1.1
+      link: /tool_runner?tool_id=Filter1
+      description: data on any column using simple expressions
+    - name: Sort
+      version: 1.2.0
+      link: /tool_runner?tool_id=sort1
+      description: data in ascending or descending order
+    - name: Select
+      version: 1.0.3
+      link: /tool_runner?tool_id=Grep1
+      description: lines that match an expression
+    - name: Extract features
+      version: 1.0.0
+      link: /tool_runner?tool_id=Extract_features1
+      description: from GFF data
+    - name: Filter GFF data by attribute
+      version: "0.2"
+      link: /tool_runner?tool_id=gff_filter_by_attribute
+      description: using simple expressions
+    - name: Filter GFF data by feature count
+      version: 0.1.1
+      link: /tool_runner?tool_id=gff_filter_by_feature_count
+      description: using simple expressions
+    - name: Filter GTF data by attribute values_list
+      version: "0.2"
+      link: /tool_runner?tool_id=gtf_filter_by_attribute_values_list
+      description: ""
+    - name: Join two Datasets
+      version: 2.1.3
+      link: /tool_runner?tool_id=join1
+      description: side by side on a specified field
+    - name: Compare two Datasets
+      version: 1.0.2
+      link: /tool_runner?tool_id=comp1
+      description: to find common or distinct rows
+    - name: Group
+      version: 2.1.4
+      link: /tool_runner?tool_id=Grouping1
+      description: data by a column and perform aggregate operation on other columns.
+    - name: Upload File
+      version: 1.1.7
+      link: /tool_runner?tool_id=upload1
+      description: from your computer
+    - name: UCSC Main
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=ucsc_table_direct1
+      description: table browser
+    - name: UCSC Archaea
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=ucsc_table_direct_archaea1
+      description: table browser
+    - name: NCBI Datasets Genomes
+      version: "1.0"
+      link: /tool_runner/data_source_redirect?tool_id=ncbi_datasets_source
+      description: import data from the NCBI Datasets Genomes page
+    - name: SRA
+      version: 1.0.1
+      link: /tool_runner/data_source_redirect?tool_id=sra_source
+      description: server
+    - name: EBI SRA
+      version: 1.0.1
+      link: /tool_runner/data_source_redirect?tool_id=ebi_sra_main
+      description: ENA SRA
+    - name: modENCODE fly
+      version: 1.0.1
+      link: /tool_runner/data_source_redirect?tool_id=modENCODEfly
+      description: server
+    - name: InterMine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=intermine
+      description: server
+    - name: Flymine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=flymine
+      description: server
+    - name: modENCODE modMine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=modmine
+      description: server
+    - name: MouseMine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=mousemine
+      description: server
+    - name: Ratmine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=ratmine
+      description: server
+    - name: YeastMine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=yeastmine
+      description: server
+    - name: modENCODE worm
+      version: 1.0.1
+      link: /tool_runner/data_source_redirect?tool_id=modENCODEworm
+      description: server
+    - name: WormBase
+      version: 1.0.1
+      link: /tool_runner/data_source_redirect?tool_id=wormbase
+      description: server
+    - name: ZebrafishMine
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=zebrafishmine
+      description: server
+    - name: EuPathDB
+      version: 1.0.0
+      link: /tool_runner/data_source_redirect?tool_id=eupathdb
+      description: server
+    - name: HbVar
+      version: 2.0.0
+      link: /tool_runner/data_source_redirect?tool_id=hbvar
+      description: Human Hemoglobin Variants and Thalassemias
+    - name: Send to cloud
+      version: 0.1.0
+      link: /tool_runner?tool_id=send_to_cloud
+      description: ""
+    - name: Export datasets
+      version: 0.1.0
+      link: /tool_runner?tool_id=export_remote
+      description: to remote files source
+    - name: Parse parameter value
+      version: 0.1.0
+      link: /tool_runner?tool_id=param_value_from_file
+      description: from dataset
+    - name: Convert genome coordinates
+      version: 1.0.6
+      link: /tool_runner?tool_id=liftOver1
+      description: between assemblies and genomes
+    - name: CSV to Tabular
+      version: "0.1"
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmnhn65mo%2Fcsv_to_tabular%2Fcsv2tab_R%2F0.1
+      description: ""
+    - name: BED-to-GFF
+      version: 2.0.0
+      link: /tool_runner?tool_id=bed2gff1
+      description: converter
+    - name: GFF-to-BED
+      version: 1.0.1
+      link: /tool_runner?tool_id=gff2bed1
+      description: converter
+    - name: MAF to BED
+      version: 1.0.0
+      link: /tool_runner?tool_id=MAF_To_BED1
+      description: Converts a MAF formatted file to the BED format
+    - name: MAF to Interval
+      version: 1.0.0
+      link: /tool_runner?tool_id=MAF_To_Interval1
+      description: Converts a MAF formatted file to the Interval format
+    - name: MAF to FASTA
+      version: 1.0.1
+      link: /tool_runner?tool_id=MAF_To_Fasta1
+      description: Converts a MAF formatted file to FASTA format
+    - name: SFF converter
+      version: 1.0.1
+      link: /tool_runner?tool_id=Sff_extractor
+      description: ""
+    - name: Wig/BedGraph-to-bigWig
+      version: 1.1.1
+      link: /tool_runner?tool_id=wig_to_bigWig
+      description: converter
+    - name: BED-to-bigBed
+      version: 1.0.1
+      link: /tool_runner?tool_id=bed_to_bigBed
+      description: converter
+    - name: Extract Pairwise MAF blocks
+      version: 1.0.1
+      link: /tool_runner?tool_id=Interval2Maf_pairwise1
+      description: given a set of genomic intervals
+    - name: Extract MAF blocks
+      version: 1.0.1
+      link: /tool_runner?tool_id=Interval2Maf1
+      description: given a set of genomic intervals
+    - name: Split MAF blocks
+      version: 1.0.0
+      link: /tool_runner?tool_id=MAF_split_blocks_by_species1
+      description: by Species
+    - name: Stitch MAF blocks
+      version: 1.0.1
+      link: /tool_runner?tool_id=Interval_Maf_Merged_Fasta2
+      description: given a set of genomic intervals
+    - name: Stitch Gene blocks
+      version: 1.0.1
+      link: /tool_runner?tool_id=GeneBed_Maf_Fasta2
+      description: given a set of coding exon intervals
+    - name: MAF Coverage Stats
+      version: 1.0.1
+      link: /tool_runner?tool_id=maf_stats1
+      description: Alignment coverage information
+    - name: Join MAF blocks
+      version: 1.0.0
+      link: /tool_runner?tool_id=MAF_Thread_For_Species1
+      description: by Species
+    - name: Filter MAF blocks
+      version: 1.0.0
+      link: /tool_runner?tool_id=MAF_Limit_To_Species1
+      description: by Species
+    - name: Filter MAF blocks
+      version: 1.0.1
+      link: /tool_runner?tool_id=maf_limit_size1
+      description: by Size
+    - name: Extract MAF by block number
+      version: 1.0.1
+      link: /tool_runner?tool_id=maf_by_block_number1
+      description: given a set of block numbers and a MAF file
+    - name: Reverse Complement
+      version: 1.0.1
+      link: /tool_runner?tool_id=MAF_Reverse_Complement_1
+      description: a MAF file
+    - name: Filter MAF
+      version: 1.0.1
+      link: /tool_runner?tool_id=MAF_filter
+      description: by specified attributes
+    - name: Wiggle-to-Interval
+      version: 1.0.1
+      link: /tool_runner?tool_id=wiggle2simple1
+      description: converter
+    - name: Aggregate datapoints
+      version: 1.1.4
+      link: /tool_runner?tool_id=aggregate_scores_in_intervals2
+      description: Appends the average, min, max of datapoints per interval
+    - name: Gene BED To Exon/Intron/Codon BED
+      version: 1.0.0
+      link: /tool_runner?tool_id=gene2exon1
+      description: expander
+    - name: Summary Statistics
+      version: 1.1.2
+      link: /tool_runner?tool_id=Summary_Statistics1
+      description: for any numerical column
+    - name: Count
+      version: 1.0.3
+      link: /tool_runner?tool_id=Count1
+      description: occurrences of each record
+    - name: VCF to MAF Custom Track
+      version: 1.0.1
+      link: /tool_runner?tool_id=vcf_to_maf_customtrack1
+      description: for display at UCSC
+    - name: g:Profiler
+      version: 1.0.0
+      link: /tool_runner?tool_id=hgv_linkToGProfile
+      description: tools for functional profiling of gene lists
+    - name: DAVID
+      version: 1.0.1
+      link: /tool_runner?tool_id=hgv_david
+      description: functional annotation for a list of genes
+    - name: LD
+      version: 1.0.0
+      link: /tool_runner?tool_id=hgv_ldtools
+      description: linkage disequilibrium and tag SNPs
+    - name: MasterVar to pgSnp
+      version: 1.0.0
+      link: /tool_runner?tool_id=master2pgSnp
+      description: Convert from MasterVar to pgSnp format
+    - name: DNA-Bot
+      version: 4.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Fdnabot%2Fdnabot%2F4.1.0
+      description: DNA assembly using BASIC on OpenTrons
+    - name: StrainDesign reduce-model
+      version: 3.2.2+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fstraindesign_reduce_model%2Fstraindesign_reduce_model%2F3.2.2%2Bgalaxy0
+      description: Delete gene in a biological model
+    - name: StrainDesign simulate-deletion
+      version: 3.2.2+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fstraindesign_simulate_deletion%2Fstraindesign_simulate_deletion%2F3.2.2%2Bgalaxy0
+      description: Search genes to delete in a biological model
+    - name: StrainDesign analyzing-model
+      version: 3.1.0+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fstraindesign_analyzing_model%2Fstraindesign_analyzing_model%2F3.1.0%2Bgalaxy1
+      description: Produce a pareto plot for a biological model
+    - name: DNA Weaver
+      version: 1.0.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Fdnaweaver%2Fdnaweaver%2F1.0.2
+      description: Given a SBOL input, calculate assembly parts for Gibson or Golden Gate
+    - name: LCR Genie
+      version: 1.0.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Flcrgenie%2FLCRGenie%2F1.0.2
+      description: Ligase Chain Reaction
+    - name: Design of Experiment
+      version: 2.0.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Foptdoe%2Foptdoe%2F2.0.2
+      description: An optimal design of experiments (DoE) base package for synthetic biology
+    - name: PartsGenie
+      version: 1.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Fpartsgenie%2FPartsGenie%2F1.0.1
+      description: An integrated tool for optimizing and sharing synthetic biology parts
+    - name: BasicDesign
+      version: 0.3.4
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Frpbasicdesign%2Frpbasicdesign%2F0.3.4
+      description: Build DNA-BOT input files from rpSBML
+    - name: Selenzyme
+      version: 0.2.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Fselenzy%2Fselenzy-wrapper%2F0.2.0
+      description: Performs enzyme selection from a reaction query
+    - name: SbmlToSbol
+      version: 0.1.13
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Fsbml2sbol%2Fsbml2sbol%2F0.1.13
+      description: Convert sbml to sbol format
+    - name: RP2paths
+      version: 2.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Frp2paths%2Frp2paths%2F2.1.0
+      description: Enumerate and seperate the different pathways generated by RetroPath2.0
+    - name: RRules Parser
+      version: 2.6.0+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Frrparser%2Frrparser%2F2.6.0%2Bgalaxy0
+      description: Retrieve the reaction rules from RetroRules
+    - name: Complete Reactions
+      version: 5.12.2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Frpcompletion%2Frpcompletion%2F5.12.2
+      description: From the output of RP2Paths and RetroPath2.0, generate SBML unique
+          and complete (with cofactors) pathways with mono-component reactions
+    - name: Inchi to sink
+      version: 1.0.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Finchi_to_sink%2Finchi_to_sink%2F1.0.0
+      description: Convert InChI input to CSV sink
+    - name: RetroPath2.0
+      version: 2.3.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Fretropath2%2Fretropath2%2F2.3.0
+      description: Build a reaction network from a set of source compounds to a set of
+          sink compounds
+    - name: Sink from SBML
+      version: 5.12.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Frpextractsink%2Frpextractsink%2F5.12.1
+      description: Generate the RetroPath2.0 sink file from an SBML input
+    - name: Visualize pathways
+      version: 6.5.0+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Frptools_rpviz%2Frptools_rpviz%2F6.5.0%2Bgalaxy0
+      description: Visualize pathways from the RetroPath Suite
+    - name: neo4jsbml
+      version: 0.12.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Fneo4jsbml%2Fneo4jsbml%2F0.12.0
+      description: Import SBML file into Neo4j
+    - name: Pick SBML Model
+      version: 0.0.3
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Fget_sbml_model%2Fget_sbml_model%2F0.0.3
+      description: Get an SBML model (BiGG)
+    - name: SBOL Converter
+      version: 1.0a16+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Fsbol_converter%2Fsbol_converter%2F1.0a16%2Bgalaxy0
+      description: Convert between SBOL3 and other genetic design formats
+    - name: rp2biosensor
+      version: 3.0.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Frp2biosensor%2Frp2biosensor%2F3.0.0
+      description: Build Sensing-Enabling Metabolic Pathways from RetroPath2.0 output
+    - name: Pathways HTML Report
+      version: 5.12.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Frpreport%2Frpreport%2F5.12.1
+      description: Generates HTML report to explore the main characteristics of pathwayspredicted
+          with RetroPath suite
+    - name: Visualize pathways
+      version: 5.10.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Frpviz%2Frpviz%2F5.10.0
+      description: Visualize pathways from the RetroPath Suite
+    - name: Rank Pathways
+      version: 6.5.0+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Frptools_rpranker%2Frptools_rpranker%2F6.5.0%2Bgalaxy0
+      description: Rank heterologous pathways according to their global score
+    - name: Score Pathway
+      version: 6.5.0+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Frptools_rpscore%2Frptools_rpscore%2F6.5.0%2Bgalaxy0
+      description: Computes a global score for a heterologous pathway
+    - name: Thermo
+      version: 6.5.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Frptools_rpthermo%2Frptools_rpthermo%2F6.5.0
+      description: Calculate the formation energy of chemical species and the Gibbs free
+          energy of their reactions and pathways in an SBML
+    - name: Flux balance analysis
+      version: 6.5.0+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Frptools_rpfba%2Frptools_rpfba%2F6.5.0%2Bgalaxy0
+      description: for the RetroPath2.0 heterologous pathways
+    - name: Thermo
+      version: 6.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Frpthermo%2Frpthermo%2F6.0.1
+      description: Calculate the formation energy of chemical species and the Gibbs free
+          energy of their reactions and pathways in an SBML
+    - name: Flux balance analysis
+      version: 5.12.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Frpfba%2Frpfba%2F5.12.1
+      description: for the RetroPath2.0 heterologous pathways
+    - name: Rank Pathways
+      version: 5.12.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Frpranker%2Frpranker%2F5.12.1
+      description: Rank heterologous pathways according to their global score
+    - name: Score Pathway
+      version: 5.12.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Frpscore%2Frpscore%2F5.12.1
+      description: Computes a global score for a heterologous pathway.
+    - name: StrainDesign analyzing-model
+      version: 3.2.2+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fstraindesign_analyzing_model%2Fstraindesign_analyzing_model%2F3.2.2%2Bgalaxy0
+      description: Produce a pareto plot for a biological model
+    - name: iCFree sampler
+      version: 2.9.0+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Fdoe_synbio_sampler%2Fdoe_synbio_sampler%2F2.9.0%2Bgalaxy0
+      description: Generate Latin Hypercube Samples for given components.
+    - name: iCFree plates designer
+      version: 2.7.1+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Ficfree_plates_designer%2Ficfree_plates_designer%2F2.7.1%2Bgalaxy0
+      description: Prepare source and destination well-plate mappings with advanced options.
+    - name: iCFree extractor
+      version: 2.9.0+galaxy9
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Ficfree_extractor%2Ficfree_extractor%2F2.9.0%2Bgalaxy9
+      description: Process fluorescence data
+    - name: iCFree calibrator
+      version: 2.9.0+galaxy9
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Ficfree_calibrator%2Ficfree_calibrator%2F2.9.0%2Bgalaxy9
+      description: Calculate yield based on fluorescence data and optionally apply calibration
+    - name: iCFree learner
+      version: 2.9.0+galaxy9
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Ficfree_learner%2Ficfree_learner%2F2.9.0%2Bgalaxy9
+      description: Active learning and model training
+    - name: iCFree plate designer
+      version: 2.9.0+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Ficfree_plate_designer%2Ficfree_plate_designer%2F2.9.0%2Bgalaxy0
+      description: Prepare source and destination well-plate mappings with advanced options.
+    - name: iCFree instructor
+      version: 2.9.0+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Ficfree_instructor%2Ficfree_instructor%2F2.9.0%2Bgalaxy0
+      description: Generates a list of Echo-compatible instructions to prepare samples
+    - name: iCFree converter
+      version: 2.1.2+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Ficfree_converter%2Ficfree_converter%2F2.1.2%2Bgalaxy0
+      description: Convert concentration values into volume values.
+    - name: ChemSimilarityWeighting
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_ChemSimilarityWeighting%2F2.0.1
+      description: Provides tabulated compound graph edge list, with one column with reactant
+          pair's chemical similarity.
+    - name: neo4jsbml
+      version: 1.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Fneo4jsbml%2Fneo4jsbml%2F1.0.1
+      description: Import SBML file into Neo4j
+    - name: ChokePoint
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_ChokePoint%2F2.0.1
+      description: Compute the Choke points of a metabolic network.
+    - name: TopologicalPathwayAnalysis
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_TopologicalPathwayAnalysis%2F2.0.1
+      description: Run a Topological Pathway Analysis (TPA) to identify key pathways based
+          on topological properties of its constituting compounds.
+    - name: BipartiteDistanceMatrix
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_BipartiteDistanceMatrix%2F2.0.1
+      description: Create a compound to reactions distance matrix.
+    - name: CreateMetaNetwork
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_CreateMetaNetwork%2F2.0.1
+      description: Create a Meta-Network from two sub-networks in SBML format.
+    - name: ScopeNetwork
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_ScopeNetwork%2F2.0.1
+      description: Perform a network expansion from a set of compound seeds to create
+          a scope network
+    - name: DistanceMatrix
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_DistanceMatrix%2F2.0.1
+      description: Create a compound to compound distance matrix.
+    - name: ExtractSubBipNetwork
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_ExtractSubBipNetwork%2F2.0.1
+      description: Create a subnetwork from a metabolic network in SBML format, and two
+          files containing lists of compounds and/or reactions of interests ids, one per
+          row, plus one file of the same format containing side compounds ids.
+    - name: DegreeWeighting
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_DegreeWeighting%2F2.0.1
+      description: Provides tabulated compound graph edge list, with one column with target's
+          degree.
+    - name: CarbonSkeletonNet
+      version: 1.5.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_CarbonSkeletonNet%2F1.5.0
+      description: Create a carbon skeleton graph representation of a SBML file content,
+          using GSAM atom-mapping file (see https://forgemia.inra.fr/metexplore/gsam)
+    - name: PathwayNet
+      version: 1.5.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_PathwayNet%2F1.5.0
+      description: Creation of a Pathway Network representation of a SBML file content
+    - name: ExtractPathways
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_ExtractPathways%2F2.0.1
+      description: Extract pathway(s) from a SBML file and create a sub-network SBML file
+    - name: ExtractAnnotations
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_ExtractAnnotations%2F2.0.1
+      description: Extract databases' references from SBML annotations or notes.
+    - name: MetaboRank
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_MetaboRank%2F2.0.1
+      description: Compute the MetaboRank, a custom personalized PageRank for metabolic
+          network.
+    - name: ExtractSubNetwork
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_ExtractSubNetwork%2F2.0.1
+      description: Create a subnetwork from a metabolic network in SBML format, and two
+          files containing lists of compounds of interests ids, one per row.
+    - name: SideCompoundsScan
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_SideCompoundsScan%2F2.0.1
+      description: Scan a network to identify side compounds.
+    - name: ExtractSubReactionNetwork
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_ExtractSubReactionNetwork%2F2.0.1
+      description: Create a subnetwork from a metabolic network in SBML format, and two
+          files containing lists of reactions of interests ids, one per row, plus one file
+          of the same format containing side compounds ids.
+    - name: NetworkSummary
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_NetworkSummary%2F2.0.1
+      description: Create a report summarizing several graph measures characterising the
+          structure of a metabolic network.
+    - name: GetEntities
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_GetEntities%2F2.0.1
+      description: "Parse a SBML file to return a list of entities composing the network:
+          metabolites, reactions, genes and others."
+    - name: CompoundNet
+      version: 1.5.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_CompoundNet%2F1.5.0
+      description: Advanced creation of a compound graph representation of a SBML file
+          content
+    - name: GetBiggModelProteome
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_GetBiggModelProteome%2F2.0.1
+      description: Get proteome in fasta format of a model present in the BIGG database
+    - name: ReactionDistanceMatrix
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_ReactionDistanceMatrix%2F2.0.1
+      description: Create a reaction to reaction distance matrix.
+    - name: GetMetaboliteAttributes
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_GetMetaboliteAttributes%2F2.0.1
+      description: Create a tabulated file with metabolite attributes from a SBML file
+    - name: FbcToNotes
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_FbcToNotes%2F2.0.1
+      description: Convert FBC package annotations to sbml html notes
+    - name: PrecursorNetwork
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_PrecursorNetwork%2F2.0.1
+      description: Perform a network expansion from a set of compound targets to create
+          a precursor network.
+    - name: GetReactantsFromReactions
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_GetReactantsFromReactions%2F2.0.1
+      description: Get reactant lists from a list of reactions and a SBML file.
+    - name: LoadPoint
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_LoadPoint%2F2.0.1
+      description: Compute the Load points of a metabolic network. Load points constitute
+          an indicator of lethality and can help identifying drug targets.
+    - name: SeedsAndTargets
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_SeedsAndTargets%2F2.0.1
+      description: Identify exogenously acquired compounds, exogenously available producible
+          compounds and/or dead ends metabolites from metabolic network topology
+    - name: GetGenesFromReactions
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_GetGenesFromReactions%2F2.0.1
+      description: Get gene lists from a list of reactions and a SBML file.
+    - name: ORApathwayEnrichment
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_ORApathwayEnrichment%2F2.0.1
+      description: Perform Over Representation Analysis for Pathway Enrichment, using
+          one-tailed exact Fisher Test.
+    - name: SbmlCheckBalance
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_SbmlCheckBalance%2F2.0.1
+      description: Check balance of all the reactions in a SBML.
+    - name: Sbml2CompoundGraph
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_Sbml2CompoundGraph%2F2.0.1
+      description: Advanced creation of a compound graph representation of a SBML file
+          content
+    - name: GetModelProteome
+      version: 1.5.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_GetModelProteome%2F1.5.0
+      description: Get proteome in fasta format of a model present in BIGG
+    - name: NameMatcher
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_NameMatcher%2F2.0.1
+      description: This tool runs edit-distance based fuzzy matching to perform near-similar
+          name matching between a metabolic model and a list of chemical names in a dataset.
+          A harmonization processing is performed on chemical names with substitutions of
+          common patterns among synonyms, in order to create aliases on which classical
+          fuzzy matching can be run efficiently.
+    - name: SbmlSetChargesFromFile
+      version: 1.5.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_SbmlSetChargesFromFile%2F1.5.0
+      description: Set charge to network metabolites from a tabulated file containing
+          the metabolite ids and the formulas
+    - name: DecomposeSBML
+      version: 1.5.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_DecomposeSBML%2F1.5.0
+      description: "Parse SBML to render list of composing entities: metabolites, reactions,
+          genes and others."
+    - name: SbmlSetRefsFromFile
+      version: 1.5.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_SbmlSetRefsFromFile%2F1.5.0
+      description: Add refs to network objects from a tabulated file containing the metabolite
+          ids and the formulas
+    - name: Sbml2CarbonSkeletonNet
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_Sbml2CarbonSkeletonNet%2F2.0.1
+      description: Create a carbon skeleton graph representation of a SBML file content,
+          using GSAM atom-mapping file (see https://forgemia.inra.fr/metexplore/gsam)
+    - name: SbmlSetNamesFromFile
+      version: 1.5.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_SbmlSetNamesFromFile%2F1.5.0
+      description: Set names to network objects from a tabulated file containing the object
+          ids and the names
+    - name: Kegg2Sbml
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_Kegg2Sbml%2F2.0.1
+      description: Build a SBML file from KEGG organism-specific pathways. Uses Kegg API.
+    - name: SbmlToMetaboliteTable
+      version: 1.5.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_SbmlToMetaboliteTable%2F1.5.0
+      description: Create a tabulated file with metabolite attributes from a SBML file
+    - name: Sbml2Tab
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_Sbml2Tab%2F2.0.1
+      description: Create a tabulated file listing reaction attributes from a SBML file
+    - name: SbmlSetGprsFromFile
+      version: 1.5.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_SbmlSetGprsFromFile%2F1.5.0
+      description: Create a new SBML file from an original sbml file and a tabulated file
+          containing reaction ids and Gene association written in a cobra way
+    - name: SbmlWizard
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_SbmlWizard%2F2.0.1
+      description: General SBML model processing
+    - name: ExtractSbmlAnnot
+      version: 1.5.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_ExtractSbmlAnnot%2F1.5.0
+      description: Extract databases' references from SBML annotations or notes.
+    - name: SetCharges
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_SetCharges%2F2.0.1
+      description: Set charge to metabolites in a SBML file from a tabulated file containing
+          the metabolite ids and the charges
+    - name: SbmlSetPathwaysFromFile
+      version: 1.5.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_SbmlSetPathwaysFromFile%2F1.5.0
+      description: Set pathway to reactions in a network from a tabulated file containing
+          the reaction ids and the pathways
+    - name: Sbml2PathwayNet
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_Sbml2PathwayNet%2F2.0.1
+      description: Creation of a Pathway Network representation of a SBML file content
+    - name: Sbml2Graph
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_Sbml2Graph%2F2.0.1
+      description: Create a graph representation of a SBML file content, and export it
+          in graph file format.
+    - name: SbmlSetEcsFromFile
+      version: 1.5.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_SbmlSetEcsFromFile%2F1.5.0
+      description: Set EC numbers to reactions from a tabulated file containing the reaction
+          ids and the EC
+    - name: SbmlSetIdsFromFile
+      version: 1.5.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_SbmlSetIdsFromFile%2F1.5.0
+      description: Set new ids to network objects from a tabulated file containing the
+          old ids and the new ids
+    - name: SetEcNumbers
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_SetEcNumbers%2F2.0.1
+      description: Set EC numbers to reactions in a SBML file from a tabulated file containing
+          the reaction ids and the EC numbers
+    - name: SetIds
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_SetIds%2F2.0.1
+      description: Set new ids to network objects in a SBML file from a tabulated file
+          containing the old ids and the new ids
+    - name: SbmlSetFormulasFromFile
+      version: 1.5.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_SbmlSetFormulasFromFile%2F1.5.0
+      description: Set Formula to network metabolites from a tabulated file containing
+          the metabolite ids and the formulas
+    - name: SetChemicalFormulas
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_SetChemicalFormulas%2F2.0.1
+      description: Set Formula to network metabolites from a tabulated file containing
+          the metabolite ids and the formulas
+    - name: SBMLwizard
+      version: 1.5.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_SBMLwizard%2F1.5.0
+      description: General SBML model processing
+    - name: SetNames
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_SetNames%2F2.0.1
+      description: Set names to network objects in a SBML file from a tabulated file containing
+          the object ids and the names
+    - name: SetGprs
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_SetGprs%2F2.0.1
+      description: Create a new SBML file from an original sbml file and a tabulated file
+          containing reaction ids and Gene association written in a cobra way
+    - name: SetPathways
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_SetPathways%2F2.0.1
+      description: Set pathway to reactions in a network from a tabulated file containing
+          the reaction ids and the pathways
+    - name: Tab2Sbml
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_Tab2Sbml%2F2.0.1
+      description: Create a Sbml File from a tabulated file that contains the reaction
+          ids and the formulas
+    - name: SetReferences
+      version: 2.0.1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fmetexplore%2Fmet4j%2Fmet4j_SetReferences%2F2.0.1
+      description: Add references to network objects in a SBML file from a tabulated file
+          containing the metabolite ids and the references
+    - name: RetroRules
+      version: 1.0+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Fretrorules%2Fretrorules%2F1.0%2Bgalaxy2
+      description: Querying the RetroRules REST API
+    - name: Molecule Signature Signature
+      version: 2.1.0+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Fmolecule_signature_signature%2Fmolecule_signature_signature%2F2.1.0%2Bgalaxy2
+      description: Create a molecule signature from a molecule
+    - name: Molecule Signature Enumerate
+      version: 2.1.0+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Fmolecule_signature_enumerate%2Fmolecule_signature_enumerate%2F2.1.0%2Bgalaxy2
+      description: Enumerate Molecules from a ECFP fingerprint
+    - name: Get sequences Data From DB
+      version: 0.3.0+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Fseq_from_db%2Fseq_form_db%2F0.3.0%2Bgalaxy2
+      description: Import fragment's data from an accessible DB and export it as .gb files
+    - name: Create Assembly Picklists
+      version: 0.1.0+galaxy0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Fcreate_assembly_picklists%2Fcreate_assembly_picklists%2F0.1.0%2Bgalaxy0
+      description: Provide a source plate map and an assembly plan, get a robotic picklist
+          spreadsheet for Tecan EVO or Labcyte Echo
+    - name: Save Sequence Data In DB
+      version: 0.3.0+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Fseq_to_db%2Fseq_to_db%2F0.3.0%2Bgalaxy2
+      description: Save fragment's sequence in an accessible database and import it from
+          .gb files
+    - name: Sculpt Sequences
+      version: 0.2.0+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Fsculpt_sequences%2Fsculpt_sequences%2F0.2.0%2Bgalaxy1
+      description: Optimize DNA sequences
+    - name: Workflow-2 Parameters Maystro
+      version: 0.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Fparameters_maystro_workflow_2%2Fparameters_maystro_workflow_2%2F0.1.0
+      description: Store parameters of workflow-2 to be used again
+    - name: Workflow-1 Parameters Maystro
+      version: 0.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Fparameters_maystro_workflow_1%2Fparameters_maystro_workflow_1%2F0.1.0
+      description: Store parameters of workflow-1 to be used again
+    - name: Workflow-0 Parameters Maystro
+      version: 0.1.0
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Fparameters_maystro_workflow_0%2Fparameters_maystro_workflow_0%2F0.1.0
+      description: Store parameters of workflow-0 to be used again
+    - name: Evaluate Manufacturability
+      version: 0.3.0+galaxy2
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Fevaluate_manufacturability%2Fevaluate_manufacturability%2F0.3.0%2Bgalaxy2
+      description: Evaluate DNA manufacturability with customizable constraints
+    - name: Domestication Of New Parts
+      version: 0.2.0+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Fdomestication_of_new_parts%2Fdomestication_of_new_parts%2F0.2.0%2Bgalaxy1
+      description: Adding the flanking enzyme sites to each DNA part
+    - name: Cloning Simulation
+      version: 0.2.0+galaxy1
+      link: /tool_runner?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Ftduigou%2Fcloning_simulation%2Fcloning_simulation%2F0.2.0%2Bgalaxy1
+      description: A cloning simulator for synthetic biology

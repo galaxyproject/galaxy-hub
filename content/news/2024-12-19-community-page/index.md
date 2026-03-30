@@ -1,0 +1,24 @@
+---
+subsites:
+- all
+main_subsite: global
+date: '2024-12-19'
+tags:
+- training
+- gtn-news
+- contributing
+- news
+- community
+- new tutorial
+- single-cell
+- new feature
+- gtn
+title: GTN’s Gift for 2024
+external_url: https://training.galaxyproject.org/training-material/news/2024/12/19/community_page.html
+tease: Community Pages
+contributions:
+  authorship:
+    - nomadscientist
+    - hexylena
+---
+Community Pages

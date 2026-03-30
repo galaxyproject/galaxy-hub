@@ -1,12 +1,12 @@
 ---
 title: European Galaxy Flavours
 date: '2020-12-28'
-tags: [FAQ]
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
+tags: [faq, community]
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - beatrizserrano
 ---
 
 [UseGalaxy.eu](https://usegalaxy.eu/) hosts several domain-specific versions of the usegalaxy.eu server. 
@@ -40,6 +40,5 @@ Single Cell Omics | [singlecell.usegalaxy.eu](https://singlecell.usegalaxy.eu)
 Street Science Community | [streetscience.usegalaxy.eu](https://streetscience.usegalaxy.eu)
 Virology | [virology.usegalaxy.eu](https://virology.usegalaxy.eu)
 {: .table.table-striped }
-
 
 

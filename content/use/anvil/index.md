@@ -20,7 +20,7 @@ comments:
 user_support:
 - "[What is AnVIL?](https://anvilproject.org/overview)"
 - "[Getting Started with AnVIL](https://anvilproject.org/learn)"
-- "[Getting Started with Galaxy (in AnVIL)](https://anvilproject.org/learn/getting-started/getting-started-with-galaxy)"
+- "[Getting Started with Galaxy (in AnVIL)](https://anvilproject.org/learn/run-interactive-analyses/getting-started-with-galaxy)"
 - "[Video: Galaxy on AnVIL Walkthrough](https://www.youtube.com/watch?v=-Q4SjLEd99s)"
 quotas:
 - "AnVIL is classified as both an *academic cloud* and a *commercial cloud* platform.  It is definitely a *research cloud* platform (funded [by NHGRI](https://www.genome.gov/Funded-Programs-Projects/Computational-Genomics-and-Data-Science-Program/Genomic-Analysis-Visualization-Informatics-Lab-space-AnVIL#awards)), but it is built on a *commercial cloud* platform and is a pay-per-use platform."

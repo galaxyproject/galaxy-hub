@@ -12,4 +12,9 @@ image:
 gtn: true
 contact: Saskia Hiltemann, Helena Rasche
 subsites: [global, us]
+contributions:
+  organisers:
+    - hexylena
+    - shiltemann
+
 ---

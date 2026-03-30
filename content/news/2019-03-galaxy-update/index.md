@@ -3,7 +3,7 @@ title: March 2019 Galactic News
 date: '2019-03-04'
 tease: GalaxyAdmins, GCC2019 Childcare sponsors, Platforms, Pubs, Jobs, Blog!, Training,
   Tools, Releases and more!
-tags: [newsletter, galaxy]
+tags: [newsletter]
 subsites: [all-eu, global, us]
 ---
 
@@ -64,7 +64,7 @@ We’re pleased to be running a call for papers for GCC2019 and **would like to 
 <img class="img-fluid mx-auto" src="/images/logos/kubernetes-logo-text-wide.png" alt="Kubernetes" style="max-width: 160px" />
 </div>
 
-After a two year hiatus, the [online GalaxyAdmins meetups](/community/galaxy-admins/meetups/) will return on [March 21](/community/galaxy-admins/meetups/2019-03-21/), with a community discussion, and a presentation from [Pablo Moreno](/blog/2018-08-cotm-pablo-moreno/) on *Running Galaxy on Kubernetes*, online at 15:00 GMT (see [your local time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=March+2019+GalaxyAdmins+Meetup&iso=20190321T15&p1=1234&ah=1)).  See the [meetup page for links](/community/galaxy-admins/meetups/)).
+After a two year hiatus, the [online GalaxyAdmins meetups](/community/galaxy-admins/meetups/) will return on [March 21](/community/galaxy-admins/meetups/2019-03-21/), with a community discussion, and a presentation from [Pablo Moreno](/news/2018-08-cotm-pablo-moreno/) on *Running Galaxy on Kubernetes*, online at 15:00 GMT (see [your local time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=March+2019+GalaxyAdmins+Meetup&iso=20190321T15&p1=1234&ah=1)).  See the [meetup page for links](/community/galaxy-admins/meetups/)).
 
 [GalaxyAdmins](/community/galaxy-admins/) is a discussion group for Galaxy community members who are responsible for Galaxy installations. Our online meetups are around an hour long and feature a presentation followed by an open discussion.  It's a great place to catch up on what your fellow admins are thinking about.
 
@@ -110,7 +110,7 @@ These and [other Galaxy related events](/events/) are coming up:
        <td><span class="text-nowrap">March 21st 2019</span></td>
        <td><a href="http://artbio.fr/?page_id=341">RNAseq analysis with Galaxy</a></td>
        <td><img style="float:right;" src="/images/icons/EU.png"/><a href="https://www.google.com/maps/d/viewer?mid=1hOogl-2tKCtwgsyf0v7ztigLBU0&amp;ll=48.847069261929576%2C2.3571523499999785&amp;z=17">Sorbonne Université, Paris, France</a></td>
-       <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>https://gitter.im/ARTbio/Hotline</td>
+       <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>https://matrix.to/#/#ARTbio_Hotline:gitter.im</td>
   </tr>
   <tr>
        <td><span class="text-nowrap">April 1st 2019</span></td>
@@ -265,11 +265,11 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 
 ----
 
-[<img class="float-right" src="/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" style="max-width: 220px" />](/blog/)
+[<img class="float-right" src="/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" style="max-width: 220px" />](/news/)
 
 # New Galactic Blog Post
 
-This month we have a *[Galactic Blog](/blog/)* post where [Nate Coraor was interviewed](https://galaxyproject.org/blog/2019-02-cvmfs/) about what CVMFS actually is and what it does for Galaxy.
+This month we have a *[Galactic Blog](/news/)* post where [Nate Coraor was interviewed](https://galaxyproject.org/blog/2019-02-cvmfs/) about what CVMFS actually is and what it does for Galaxy.
 
 ----
 

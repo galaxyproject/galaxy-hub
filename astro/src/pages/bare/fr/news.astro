@@ -1,0 +1,35 @@
+---
+/**
+ * Bare FR News Page
+ * Shows FR-filtered news articles in a table layout
+ * Embedded in Galaxy FR interface
+ */
+import { getCollection } from 'astro:content';
+import BareArticleLayout from '../../../layouts/BareArticleLayout.astro';
+import NewsTable from '../../../components/bare/NewsTable.astro';
+
+const allNews = await getCollection('news');
+const newsArticles = allNews
+  .filter((article) => {
+    const subsites = article.data.subsites || [];
+    const isFR =
+      subsites.includes('fr') ||
+      subsites.includes('all') ||
+      subsites.includes('all-fr') ||
+      subsites.includes('global') ||
+      subsites.length === 0;
+    return isFR && !article.data.draft;
+  })
+  .sort((a, b) => {
+    const dateA = a.data.date ? new Date(a.data.date) : new Date(0);
+    const dateB = b.data.date ? new Date(b.data.date) : new Date(0);
+    return dateB.getTime() - dateA.getTime();
+  })
+  .slice(0, 50);
+---
+
+<BareArticleLayout title="Galaxy France News">
+  <h2>Galaxy France News</h2>
+
+  {newsArticles.length > 0 ? <NewsTable articles={newsArticles} /> : <p>No news articles found.</p>}
+</BareArticleLayout>

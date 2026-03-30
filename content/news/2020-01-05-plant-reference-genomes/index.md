@@ -2,15 +2,15 @@
 title: 118 new plant reference genomes and transcriptomes added to Galaxy Europe!
 date: '2020-01-05'
 tags: [tools, data]
-supporters:
-- denbi
-- elixir
-- vib
-authors: erxleben
-authors_structured:
-- github: erxleben
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - erxleben
+  funding:
+    - deNBI
+    - elixir-europe
+    - vib
 ---
 
 In cooperation with our ELIXIR partner in Belgium, the VIB, we have recently added more than 100 new plant reference genomes and transcriptomes

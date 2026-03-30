@@ -1,11 +1,17 @@
 ---
 title: 'New Paper "Transformer-based tool recommendation system in Galaxy"'
 date: "2023-11-29"
-authors: 'Anup Kumar'
 tags:
 - paper
 subsites: [all-eu,esg]
 main_subsite: eu
+contributions:
+  authorship:
+    - anuprulez
+  funding:
+    - eu
+    - eurosciencegateway
+    - uni-freiburg
 ---
 
 **New *BMC Bioinformatics* Paper on "Transformer-based tool recommendation system in Galaxy"**

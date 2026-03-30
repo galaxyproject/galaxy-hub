@@ -1,0 +1,14 @@
+---
+import ContactsVue from '../embed/Contacts.vue';
+
+interface Props {
+  contacts?: any[];
+  title?: string;
+}
+
+const props = Astro.props;
+---
+
+<ContactsVue client:visible {...props}>
+  <slot />
+</ContactsVue>

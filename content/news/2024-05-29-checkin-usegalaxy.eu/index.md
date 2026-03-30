@@ -6,6 +6,11 @@ hide_tease: false
 tags: [esg-wp4, esg]
 subsites: [all-eu, esg, global]
 main_subsite: eu
+contributions:
+  funding:
+    - eu
+    - eurosciencegateway
+    - egi
 ---
 <img class="float-left" src="./user-preferences.png" style="max-width: 300px" alt="Manage Third-Party Identities in user preferences" />
 

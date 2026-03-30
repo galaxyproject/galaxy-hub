@@ -12,4 +12,8 @@ gtn: false
 contact: "Andrew Stubbs, Miaomiao Zhou"
 links:
 subsites: [global, erasmusmc]
+contributions:
+  organisers:
+    - miaomiaozhou88
+
 ---

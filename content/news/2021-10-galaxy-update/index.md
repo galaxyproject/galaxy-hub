@@ -3,6 +3,7 @@ title: 'October 2021 Galactic News'
 tease: "It's all good."
 date: "2021-10-11"
 subsites: [global, us]
+tags: [newsletter]
 ---
 
 <a href="/galaxy-updates/"><img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
@@ -211,7 +212,7 @@ Please join us for the [CoFest day](/events/2021-10-papercuts/) on October 21 to
 
 This month the Metabolomics community will meet to work on tools, get in touch with [Melanie Föll](https://training.galaxyproject.org/training-material/hall-of-fame/foellmelanie/) to participate.
 
-We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day long, please take advantage of both to communicate with your collaborators around the world.
+We will be on [Matrix](https://matrix.to/#/#galaxyproject_Lobby:gitter.im) for chat all day long, please take advantage of both to communicate with your collaborators around the world.
 
 </div>
 
@@ -350,7 +351,7 @@ The [VEuPathDB Galaxy instance](https://veupathdb.globusgenomics.org) has been u
 <div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
 <div class="trim-p">
 
-[![Blood, Mucus, Tears, and My Little Pony](/images/blog/2021-10-blood-mucus-tears/my-little-pony-tears.png)](https://galaxyproject.eu/posts/2021/10/01/tiaas-Tomas/)
+[![Blood, Mucus, Tears, and My Little Pony](/images/news/2021-10-blood-mucus-tears/my-little-pony-tears.png)](https://galaxyproject.eu/posts/2021/10/01/tiaas-Tomas/)
 
 </div>
 <div class="card-header trim-p">
@@ -374,7 +375,7 @@ Tomas has shared with us his hilarious experience when running a workshop from h
 
 <div class="card-header trim-p">
 
-[Human Genetics working group T2 update](/blog/2021-09-human-genetics-wg-update/)
+[Human Genetics working group T2 update](/news/2021-09-human-genetics-wg-update/)
 
 </div>
 
@@ -462,7 +463,7 @@ The [Galaxy Training Network](https://training.galaxyproject.org/) would like to
 
 # Publications
 
-Pub curation activities [are on a semi-hiatus right now](/blog/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
+Pub curation activities [are on a semi-hiatus right now](/news/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
 
 <div class="card-deck">
 

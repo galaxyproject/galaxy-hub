@@ -3,10 +3,12 @@ title: 'Introducing the Galaxy Global Hub'
 tease: Find all your Galaxy info in one website
 date: '2022-09-28'
 subsites: [all]
-authors: Nick Stoler
+contributions:
+  authorship:
+    - NickSto
 ---
 
-A year ago we [launched](/blog/2021-09-hub2/) the new version of the Community Hub. This change brought author-friendly features, a modern, Vue-based architecture, and a fast browsing experience.
+A year ago we [launched](/news/2021-09-hub2/) the new version of the Community Hub. This change brought author-friendly features, a modern, Vue-based architecture, and a fast browsing experience.
 
 But galaxyproject.org is not the only Galaxy community site out there. [Communities](https://galaxyproject.eu) [across](https://site.usegalaxy.org.au) the [world](https://www.galaxyproject.in) run websites with similar features and a similar purpose. This leads to duplication of effort in a few ways. We reimplement similar features and each have to maintain a separate hosting setup. Another duplication is in cross-posting of updates. The majority of [news](/news/) and [events](/events/) posts are pointers to posts on other sites, often to other community sites.
 
@@ -56,7 +58,7 @@ Communities retain full control over their subsites in the new system. They can 
 
 Today we're unveiling the new subsites, which you can find in the "Regions" dropdown menu in the navbar. Every community from galaxyproject.eu is there, but we're still working on migrating all the content from that domain. We currently have all events and news posts from the last 3 months, but older content still lives on the old domain.
 
-As always, please let us know if you have feedback or see anything amiss. You can file an issue on [Github](https://github.com/galaxyproject/galaxy-hub/issues), or contact us on [Gitter](https://gitter.im/galaxyproject/hub2), [Matrix](https://matrix.to/#/#galaxyproject_hub2:gitter.im), or [email](mailto:outreach@galaxyproject.org?subject=Global%20Hub%20issue).
+As always, please let us know if you have feedback or see anything amiss. You can file an issue on [Github](https://github.com/galaxyproject/galaxy-hub/issues), or contact us on [Matrix](https://matrix.to/#/#galaxyproject_hub2:gitter.im), [Matrix](https://matrix.to/#/#galaxyproject_hub2:gitter.im), or [email](mailto:outreach@galaxyproject.org?subject=Global%20Hub%20issue).
 
 ## Want your own subsite?
 

@@ -1,6 +1,9 @@
 ---
 title: 'Galaxy is part of NFDI4Bioimage'
 date: '2023-01-03'
+contributions:
+  funding:
+    - nfdi4bioimage
 subsites: [all-eu]
 ---
 

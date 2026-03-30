@@ -1,0 +1,74 @@
+---
+import { getCollection, render } from 'astro:content';
+import ArticleLayout from '../layouts/ArticleLayout.astro';
+
+// Import MDX components for embedded content
+import VegaEmbed from '../components/mdx/VegaEmbed.astro';
+import Twitter from '../components/mdx/Twitter.astro';
+import Mastodon from '../components/mdx/Mastodon.astro';
+import VideoPlayer from '../components/mdx/VideoPlayer.astro';
+import Carousel from '../components/mdx/Carousel.astro';
+import CalendarEmbed from '../components/mdx/CalendarEmbed.astro';
+import MarkdownEmbed from '../components/mdx/MarkdownEmbed.astro';
+import Flickr from '../components/mdx/Flickr.astro';
+import Supporters from '../components/mdx/Supporters.astro';
+import Contacts from '../components/mdx/Contacts.astro';
+import Icon from '../components/mdx/Icon.astro';
+import CopyButton from '../components/mdx/CopyButton.astro';
+import Insert from '../components/mdx/Insert.astro';
+
+export async function getStaticPaths() {
+  const articles = await getCollection('articles');
+
+  // Filter out events/ and use/ articles (they have their own routes)
+  // News is in its own collection so no need to filter it here
+  const genericArticles = articles.filter((article) => {
+    const slug = article.data.slug;
+    return !slug.startsWith('events/') && !slug.startsWith('use/');
+  });
+
+  return genericArticles.map((article) => ({
+    params: { slug: article.data.slug },
+    props: { article },
+  }));
+}
+
+const { article } = Astro.props;
+const { Content, headings } = await render(article);
+const sourceFile = article.data.sourceFile || `${article.data.slug}/index.md`;
+const fairSection =
+  article.data.slug === 'fair' || article.data.slug.startsWith('fair/') ? article.data.slug : undefined;
+
+const { title, date, tags = [], tease, image, autotoc } = article.data;
+
+// MDX components map - keys match PascalCase names used in preprocessed content
+const components = {
+  VegaEmbed,
+  Twitter,
+  Mastodon,
+  VideoPlayer,
+  Carousel,
+  CalendarEmbed,
+  MarkdownEmbed,
+  Flickr,
+  Supporters,
+  Contacts,
+  Icon,
+  CopyButton,
+  Insert,
+};
+---
+
+<ArticleLayout
+  title={title || 'Galaxy Hub'}
+  description={tease}
+  date={date}
+  tags={tags}
+  image={image}
+  headings={headings}
+  autotoc={autotoc}
+  sourceFile={sourceFile}
+  fairSection={fairSection}
+>
+  <Content components={components} />
+</ArticleLayout>

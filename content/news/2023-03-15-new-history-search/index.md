@@ -2,11 +2,13 @@
 title: 'Effortlessly navigate your Galaxy history with enhanced search options'
 tease: 'Data searchability in the Galaxy History panel has been taken to new levels with the advanced search options that allow users to not only find items with more ease, but also find relations within items in their history.'
 date: '2023-03-15'
-tags: [history, esg, "UI/UX"]
-authors: Ahmed Hamid Awan, Dannon Baker
-authors_structured:
-- github: ahmedhamidawan, dannon
+tags: [history, esg, "ui-ux"]
+components: true
 subsites: [global, all, esg]
+contributions:
+  authorship:
+    - ahmedhamidawan
+    - dannon
 ---
 
 In the previous [`release_22.05`](https://galaxyproject.org/news/2022-08-galaxy-release-22-05/) (_August 2022_), Galaxy's History Panel was updated to a fresh and enhanced interface that users have been getting used to since. For the latest `release_23.0`, Galaxy developers have worked hard on further perfecting and enhancing the user experience of the history:
@@ -78,7 +80,7 @@ Here are multiple ways users can apply this filter:
 | Button on Expanded Dataset | Add filter text manually |
 | -------------------------- | ------------------------ |
 | Click on the `sitemap` button on an expanded dataset to apply the filter. | Add the `related:item_index` filter to the search field or use the advanced panel.
-| <video-player src="23.0-history-related-filter-button.mp4" /> | <video-player src="23.0-history-related-filter-text.mp4" /> |
+| <VideoPlayer src="23.0-history-related-filter-button.mp4" /> | <VideoPlayer src="23.0-history-related-filter-text.mp4" /> |
 
 This work is a collective effort of the [Galaxy UI/UX working group](https://github.com/orgs/galaxyproject/teams/wg-uiux).
 Thanks to [Aysam Guerler](https://github.com/guerler), [David Lopez](https://github.com/davelopez), [Ahmed Awan](https://github.com/ahmedhamidawan), [Dannon Baker](https://github.com/dannon) and [Marius van den Beek](https://github.com/mvdbeek) for working on this project.

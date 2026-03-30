@@ -6,7 +6,7 @@ title: "Galaxy Project Code of Conduct"
 
 The Galaxy Community is dedicated to provide a harassment-free experience for everyone. We do not tolerate harassment in any form.
 
-This Code of Conduct outlines the behaviours deemed acceptable and unacceptable to the global Galaxy community and applies to all public Galaxy spaces, including but not limited to events, GitHub, Gitter, Matrix, Slack, Twitter and the Galaxy mailing lists, both online and off. 
+This Code of Conduct outlines the behaviours deemed acceptable and unacceptable to the global Galaxy community and applies to all public Galaxy spaces, including but not limited to events, GitHub, Matrix, Matrix, Slack, Twitter and the Galaxy mailing lists, both online and off. 
 
 Anyone who violates this code of conduct may be sanctioned or expelled from these spaces at the discretion of the [Galaxy CoC Committee](#the-galaxy-coc-committee).
 Some Galaxy Community spaces may have additional rules in place, which will be made clearly available to participants. Participants are responsible for knowing and abiding by these rules.
@@ -73,11 +73,8 @@ If a participant engages in harassing behavior, the [Galaxy CoC Committee](#the-
 
 | Member | Pronouns | Language | Location | Joined the project (year) | Relevant information |
 | --- | --- | --- | --- | --- | --- |
-| [Assunta DeSanto](mailto:assuntad23@gmail.com) | she/her | EN | US | 2020 | Member of the [Galaxy Working Groups](/community/wg/): Backend, User Interface / User Experience, GOATS |
-| [Michelle Savage](mailto:michellesavage.galaxy@gmail.com) | she/her | EN | US | 2022 | Ombudsperson in the Bioconductor Community CoC Committee, member of the GOATS [Galaxy Working Group](/community/wg/) |
 | [Frederik Coppens](mailto:frcop@psb.vib-ugent.be) | he/him | NL, EN, FR | BE | 2015 | Member of the [Galaxy Executive Board](/community/governance/geb/) |
-| [Helena Rasche](mailto:helena.rasche@gmail.com) | she/they | EN | NL | 2013 | LGBTQ+ 🏳️‍⚧️🏳️‍🌈, not funded by the Galaxy project, member of the GOATS [Galaxy Working Group](/community/wg/) |
-| [Ross Lazarus](mailto:ross.lazarus@gmail.com) | he/him | EN | AU | 2006 | Retired, not funded by the Galaxy project, member of the [Galaxy Executive Board](/community/governance/geb/) |
+| [Michelle Savage](mailto:michellesavage.galaxy@gmail.com) | she/her | EN | US | 2022 | Ombudsperson in the Bioconductor Community CoC Committee, member of the GOATS [Galaxy Working Group](/community/wg/) |
 
 The Galaxy Code of Conduct Committee has appointed an Ombudsperson from the Bioconductor community to provide independent and impartial oversight and to resolve conflicts. This person can be contacted in case you believe that other avenues of reporting may be biased.
 
@@ -103,5 +100,8 @@ The Galaxy Outreach, Training and Support [Working Group](/community/wg/) has wo
 
 | Member | Pronouns | Language | Location | Joined the project (year) | Relevant information |
 | --- | --- | --- | --- | --- | --- |
+| [Assunta DeSanto](mailto:assuntad23@gmail.com) | she/her | EN | US | 2020 | Member of the [Galaxy Working Groups](/community/wg/): Backend, User Interface / User Experience, GOATS |
+| [Ross Lazarus](mailto:ross.lazarus@gmail.com) | he/him | EN | AU | 2006 | Retired, not funded by the Galaxy project, member of the [Galaxy Executive Board](/community/governance/geb/) |
+| [Helena Rasche](mailto:helena.rasche@gmail.com) | she/they | EN | NL | 2013 | LGBTQ+ 🏳️‍⚧️🏳️‍🌈, not funded by the Galaxy project, member of the GOATS [Galaxy Working Group](/community/wg/) |
 | [Beatriz Serrano Solano](mailto:beatrizserrano.galaxy@gmail.com) | she/her | ES, EN | DE | 2020 | Ombudsperson in the Bioconductor Community CoC Committee, member of the GOATS [Galaxy Working Group](/community/wg/) |
 

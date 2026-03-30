@@ -3,13 +3,13 @@ title: Nora, the new visualisation in Galaxy
 date: '2021-01-18'
 tease: A new framework for medical imaging research
 tags: [tools]
-supporters:
-- unifreiburg
-authors: beatrizserrano
-authors_structured:
-- github: beatrizserrano
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - beatrizserrano
+  funding:
+    - uni-freiburg
 ---
 
 A new framework for medical imaging research, [Nora](https://www.nora-imaging.com/), has been added to the Galaxy visualisations. Nora has been developed by Dr. Marco Reisert and Dr. Elias Kellner at the

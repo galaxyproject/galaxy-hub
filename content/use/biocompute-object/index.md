@@ -13,7 +13,7 @@ comments:
   - "BioCompute is the [IEEE 2791-2020 standard](https://gitlab.com/IEEE-SA/2791/ieee-2791-schema) or bioinformatics pipelines/workflows in the High-Throughput Sequencing (HTS) space and other computational workflows. The BioCompute standard is supported by [Google Cloud](https://www.blog.google/products/google-cloud/building-a-global-biomedical-data-ecosystem-with-the-national-institutes-of-health/) for workflow sharing and [by the FDA](https://www.federalregister.gov/documents/2020/07/22/2020-15771/electronic-submissions-data-standards-support-for-the-international-institute-of-electrical-and) Centers, CDER, CBER, and CFSAN, for regulatory submissions on a voluntary submitter basis."
 user_support:
   - "Extensive [documentation](https://github.com/biocompute-objects/BCO_Specification)"
-  - "Chat support is available in the [BioCompute Objects Community Gitter channel](https://gitter.im/biocompute-objects/community)"
+  - "Chat support is available in the [BioCompute Objects Community Matrix channel](https://matrix.to/#/#biocompute-objects_community:gitter.im)"
   - "Report issues [via GitHub](https://github.com/biocompute-objects/galaxy/issues/new)"
   - "Email support is also available."
 quotas:

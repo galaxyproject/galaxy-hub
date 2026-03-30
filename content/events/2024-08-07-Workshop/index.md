@@ -8,6 +8,10 @@ location: "Online"
 contact: "Natalie Whitaker-Allen"
 tags: [workshop]
 subsites: [all]
+contributions:
+  organisers:
+    - natalie-wa
+
 ---
 
 # Get Started with Galaxy: A Beginner’s Workshop

@@ -13,11 +13,13 @@ location:
   postal: 79110
   region: Baden-Württemberg
   street: Georges-Köhler-Allee 101
-supporters:
-- elixir
-- denbi
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+
 ---
 
 In Freiburg, we will organize the "Swiss German Galaxy Tour/Day 2016". On the first day, the 3rd Swiss German Galaxy Workshop will take place, on the 2nd day, we will have the 2nd German Galaxy Developer workshop.

@@ -1,12 +1,12 @@
 ---
 title: 'UseGalaxy.eu Use Case: colorectal cancer research'
 date: '2021-07-05'
-tags: [UseCase]
-authors: Amir Sabbaghian
-authors_structured:
-- name: Amir Sabbaghian
+tags: [demo, community]
 subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
 main_subsite: eu
+contributions:
+  authorship:
+    - amirsabbaghian
 ---
 
 __Amir Sabbaghian__ is using Galaxy at the [Advance Technologies Faculty, Golestan University of Medical Sciences Campus (Iran)](https://goums.ac.ir/index.php?slc_lang=en&sid=100) for colorectal cancer research. Thank you Amir for sharing your work with us!

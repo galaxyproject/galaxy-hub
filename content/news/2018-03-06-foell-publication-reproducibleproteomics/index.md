@@ -16,5 +16,5 @@ main_subsite: freiburg
 
 >On average, the DTR protocol identified 1841 ± 22 proteins in a single, non-fractionated LC–MS/MS analysis, whereas these numbers were 1857 ± 120 and 1970 ± 28 proteins for the FASP 10 and 30 k protocol. The DTR protocol showed 15% more missed cleavages, which did not adversely affect quantitation and intersample comparability. Hematoxylin or hemalaun staining did not adversely impact the performance of the DTR protocol. A minor perturbation was observed for H&E staining, decreasing overall protein identification by 13%.
 
-<embed src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5838928/pdf/12014_2018_Article_9188.pdf" width="100%" height="700" type='application/pdf'>
+<embed src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5838928/pdf/12014_2018_Article_9188.pdf" width="100%" height="700" type='application/pdf' />
 

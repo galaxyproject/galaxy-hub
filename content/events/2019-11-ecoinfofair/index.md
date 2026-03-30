@@ -12,5 +12,9 @@ contact: 'Yvan Le Bras'
 image: ""
 gtn: true
 subsites: [global, us]
+contributions:
+  organisers:
+    - yvanlebras
+
 ---
 

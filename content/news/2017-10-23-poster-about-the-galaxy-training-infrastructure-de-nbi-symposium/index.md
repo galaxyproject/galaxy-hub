@@ -1,12 +1,13 @@
 ---
 title: Galaxy Training infrastructure @ de.NBI Symposium
 date: '2017-10-23'
-tags: [poster]
-supporters:
-- denbi
-- elixir
+tags: [poster, conference]
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 During the [de.NBI Symposium 2017](https://www.denbi.de/symposium2017), Bérénice presented the poster "Building an open, collaborative, online infrastructure for bioinformatics training".
@@ -15,7 +16,7 @@ During the [de.NBI Symposium 2017](https://www.denbi.de/symposium2017), Béréni
     <img src="/assets/media/2017-10-23_poster_presentation.jpg" height="200px" alt="Poster presentation @ de.NBI Symposium"/>
 </div>
 
-<embed src="https://d1hiluowqo0t4b.cloudfront.net/posters/compressed/f1000research-178036.pdf" width="100%" height="700" type='application/pdf'>
+<embed src="https://d1hiluowqo0t4b.cloudfront.net/posters/compressed/f1000research-178036.pdf" width="100%" height="700" type='application/pdf' />
 
 ## Abstract
 

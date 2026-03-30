@@ -2,12 +2,14 @@
 title: 12,000 users - 6,900,000 jobs - 13,300,000 datasets
 date: '2020-02-12'
 tags: [report, data]
-supporters:
-- denbi
-- elixir
-- eosc
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - eu
+    - deNBI
+    - elixir-europe
+    - eosc-life
 ---
 
 In the next days we will attend our yearly de.NBI SAB meeting. Time to look at some statistics.

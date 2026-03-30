@@ -1,0 +1,24 @@
+domains:
+    - platform_url: https://coralsnp.science.psu.edu/galaxy/
+      ip: 128.118.137.36
+      version: IPv4
+      asn: AS3999 The Pennsylvania State University
+      org: The Pennsylvania State University
+      location:
+          city: State College
+          region: Pennsylvania
+          region_code: PA
+          country: US
+          country_name: United States
+          country_code: US
+          continent_code: NA
+          postal: "16801"
+          latitude: 40.7911
+          longitude: -77.8592
+          timezone: America/New_York
+          currency: USD
+      response:
+          time: "2025-11-25T19:39:53Z"
+          status_code: 200
+          response_time_ms: 0
+          reason: OK

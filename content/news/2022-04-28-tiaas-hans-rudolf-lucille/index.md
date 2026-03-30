@@ -1,18 +1,17 @@
 ---
 title: 'Training Infrastructure Feedback from Hans-Rudolf Hotz and Lucille Delisle'
 date: "2022-04-28"
-tags: [training, TIaaS]
-supporters:
-- galaxy-europe
+tags: [training, tiaas]
 tease: 'After 2 years running the SIB "Galaxy Introduction for Life Scientists" course only online, we were super happy to stand in front of a crowd and meet again the students in person.'
 hide_tease: true
-authors: Hans-Rudolf Hotz and Lucille Delisle
-authors_structured:
-- name: Hans-Rudolf Hotz
-  github: hrhotz
-- name: Lucille Delisle
-  github: ldelisle
 subsites: [all-eu]
+contributions:
+  authorship:
+    - hrhotz
+    - lldelisle
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 After 2 years running the [SIB](https://www.sib.swiss/) "Galaxy Introduction for Life Scientists" course only online, we were super happy to stand in front of a crowd and meet again the students in person. Thanks to TIaaS, we could offer the students an easy to set up

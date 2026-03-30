@@ -5,4 +5,4 @@ This Galaxy is maintained by the Bioinformatics group of the department of Patho
 
 For any questions regarding this Galaxy server, please contact us.
 
-[Visit the team page](https://usegalaxy-eu.github.io/erasmusmc/people){: .btn .btn-secondary .trim-p}
+<a href="https://usegalaxy-eu.github.io/erasmusmc/people" class="btn btn-secondary trim-p">Visit the team page</a>

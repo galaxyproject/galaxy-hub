@@ -1,0 +1,27 @@
+domains:
+    - platform_url: http://dintor.eurac.edu/
+      ip: 193.106.181.38
+      version: IPv4
+      asn: AS50507 Accademia Europea di Bolzano
+      org: EURAC S1
+      release:
+          version_major: "17.05"
+          version_minor: null
+      location:
+          city: Bolzano
+          region: Trentino-Alto Adige
+          region_code: "32"
+          country: IT
+          country_name: Italy
+          country_code: IT
+          continent_code: EU
+          postal: "39100"
+          latitude: 46.4988
+          longitude: 11.3544
+          timezone: Europe/Rome
+          currency: EUR
+      response:
+          time: "2025-11-25T19:40:04Z"
+          status_code: 200
+          response_time_ms: 0
+          reason: OK

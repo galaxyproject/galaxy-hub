@@ -3,6 +3,7 @@ title: 'September 2017 Galaxy News'
 tease: 'New events, pubs, openings, tools, ...'
 date: '2017-09-06'
 subsites: [global, us]
+tags: [newsletter]
 ---
 <div class='right'>
 [<img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="170" />](/galaxy-updates/2017-09/)<br /><br />

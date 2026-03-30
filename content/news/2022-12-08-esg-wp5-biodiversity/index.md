@@ -6,6 +6,10 @@ hide_tease: false
 tags: [esg-wp5, esg]
 subsites: [all-eu, esg]
 main_subsite: eu
+contributions:
+  funding:
+    - eu
+    - eurosciencegateway
 ---
 
 Within the [WP5](https://galaxyproject.org/projects/esg/news/?tag=esg-wp5) of the EuroScienceGateway project, the Biodiversity community will be one of the demonstrators for the benefits of the EuroScienceGateway services.

@@ -3,6 +3,7 @@ title: 'February 2019 Galactic News'
 tease: 'Events (GCC Training, GalaxyAdmins), Platforms, Pubs, Jobs, COTM!, Doc, Training, Tools, Releases and more'
 date: "2019-02-01"
 subsites: [global, us]
+tags: [newsletter]
 ---
 
 [<img class="float-right" src="/news/2019-02-galaxy-update/2019-02-news-summary.png" alt="Galaxy News" width="350" />](/galaxy-updates/)
@@ -274,12 +275,12 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 # New Galactic Blog Posts
 
 <div class="float-right">
-[<img class="img-fluid mx-auto" style="max-width: 90px;" src="/news/2019-02-galaxy-update/marsupial.png" alt="Genome annotation with Prokka" />](/blog/2019-01-totm/)
+[<img class="img-fluid mx-auto" style="max-width: 90px;" src="/news/2019-02-galaxy-update/marsupial.png" alt="Genome annotation with Prokka" />](/news/2019-01-totm/)
 </div>
 
-There are two new *[Galactic Blog](/blog/)* entries:
+There are two new *[Galactic Blog](/news/)* entries:
 
-* **[Tutorial of the Month: Genome annotation with Prokka, selected by Simon Gladman](/blog/2019-01-totm/):**
+* **[Tutorial of the Month: Genome annotation with Prokka, selected by Simon Gladman](/news/2019-01-totm/):**
     * read about using Prokka for annotation of draft genome sequences
     * by Bérénice Batut
 * **[Hey Galaxy People! Want easy proteo-transcriptomics!??!](https://proteomicsnews.blogspot.com/2018/12/hey-galaxy-people-want-easy-proteo.html)**
@@ -329,7 +330,7 @@ Updates from the [Galaxy Training Materials](https://galaxyproject.github.io/tra
 
 * New [Age prediction using machine learning](https://galaxyproject.github.io/training-material/topics/statistics/tutorials/age-prediction-with-ml/tutorial.html), by [Anup Kumar](https://github.com/anuprulez).
 * New [GO enrichment analysis](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/goenrichment/tutorial.html), by [igcbioinformatics](https://github.com/igcbioinformatics), [Maria Doyle](https://github.com/mblue9), and [dsobral](https://github.com/dsobral).
-* Join the February 2019 GTN CoFest. Held on 21 February, the CoFest will be coordinated via [Hangout](https://hangouts.google.com/hangouts/_/calendar/Z2FsYXh5dW5pZnJlaWJ1cmdAZ21haWwuY29t.7q82sbcupg0j59li0fqo9pots6) (drop-in channel will be open the whole day) and [the GTN Gitter channel](https://gitter.im/Galaxy-Training-Network/Lobby).
+* Join the February 2019 GTN CoFest. Held on 21 February, the CoFest will be coordinated via [Hangout](https://hangouts.google.com/hangouts/_/calendar/Z2FsYXh5dW5pZnJlaWJ1cmdAZ21haWwuY29t.7q82sbcupg0j59li0fqo9pots6) (drop-in channel will be open the whole day) and [the GTN Matrix channel](https://matrix.to/#/#Galaxy-Training-Network_Lobby:gitter.im).
 
 
 ## Hub

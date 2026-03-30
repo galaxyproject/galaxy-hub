@@ -3,6 +3,7 @@ title: 'September 2018 Galactic News'
 tease: 'New events, pubs, blog post, jobs, ...'
 date: "2018-09-13"
 subsites: [global, us]
+tags: [newsletter]
 ---
 
 [<img class="float-right" src="/news/2018-09-galaxy-update/2018-09-news-summary.png" alt="Galaxy News" width="280" />](/galaxy-updates/)
@@ -233,12 +234,12 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 # Contributor of the Month: Carrie Ganote
 
 <div class="float-right" >
-[<img src="/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="150" />](/blog/)
+[<img src="/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="150" />](/news/)
 </div>
 
-There is one new *[Galactic Blog](/blog/)* entry:
+There is one new *[Galactic Blog](/news/)* entry:
 
-* [Contributor of the Month: Carrie Ganote](/blog/2018-09-cotm-carrie-ganote/), By Björn Grüning
+* [Contributor of the Month: Carrie Ganote](/news/2018-09-cotm-carrie-ganote/), By Björn Grüning
 
 ----
 

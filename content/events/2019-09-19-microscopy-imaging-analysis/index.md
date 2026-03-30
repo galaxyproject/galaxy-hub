@@ -13,10 +13,12 @@ location:
   postal: 69120
   region: Baden-Württemberg
   street: Im Neuenheimer Feld 364
-supporters:
-- denbi
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+
 ---
 
 

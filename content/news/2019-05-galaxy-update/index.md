@@ -3,7 +3,7 @@ title: May 2019 Galactic News
 date: '2019-05-06'
 tease: GCC2019 registration / Poster/Demo abstracts / sponsors, GTN CoFest, Platforms,
   Pubs, Jobs, Blog!, Training, Tools, Releases and more!
-tags: [newsletter, galaxy]
+tags: [newsletter]
 subsites: [all-eu, global, us]
 ---
 
@@ -79,11 +79,11 @@ The Galaxy Training Network is organizing regular online CoFests (Collaboration/
 
 **The next one will be on the 16th of May.** Anyone who would like to contribute on any other topics is very welcome to join.
 
-We will coordinate via [Hangout](https://hangouts.google.com/hangouts/_/calendar/Z2FsYXh5dW5pZnJlaWJ1cmdAZ21haWwuY29t.4k1elbsb4dutc8e1lu17030nqs) (drop-in channel we will keep open the whole day) and [the GTN Gitter channel](https://gitter.im/Galaxy-Training-Network/Lobby).
+We will coordinate via [Hangout](https://hangouts.google.com/hangouts/_/calendar/Z2FsYXh5dW5pZnJlaWJ1cmdAZ21haWwuY29t.4k1elbsb4dutc8e1lu17030nqs) (drop-in channel we will keep open the whole day) and [the GTN Matrix channel](https://matrix.to/#/#Galaxy-Training-Network_Lobby:gitter.im).
 
 During the day, we plan to have **GTN community calls** to discuss the recent changes and future directions. To accommodate different time zones and schedules, we will have 2 calls (with similar discussions) at [8am (UTC + 2)](http://arewemeetingyet.com/Berlin/2019-05-16/08:00/GTN%20meeting) and [4pm (UTC + 2)](http://arewemeetingyet.com/Berlin/2019-05-16/16:00/GTN%20meeting) via [Hangout](https://hangouts.google.com/hangouts/_/calendar/Z2FsYXh5dW5pZnJlaWJ1cmdAZ21haWwuY29t.4k1elbsb4dutc8e1lu17030nqs).
 
-*If you want to join to help or to talk and learn about the project, let us know on the [Gitter channel](https://gitter.im/Galaxy-Training-Network/Lobby) or by leaving a comment on the [issue on GitHub](https://github.com/galaxyproject/training-material/issues/1339)*
+*If you want to join to help or to talk and learn about the project, let us know on the [Matrix channel](https://matrix.to/#/#Galaxy-Training-Network_Lobby:gitter.im) or by leaving a comment on the [issue on GitHub](https://github.com/galaxyproject/training-material/issues/1339)*
 
 # Upcoming events
 
@@ -302,11 +302,11 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 | 2 | [>deepTools](https://www.zotero.org/groups/1732893/galaxy/tags/>deepTools) | | 2 | [>Pasteur](https://www.zotero.org/groups/1732893/galaxy/tags/>Pasteur) | | 2 | [>SymD](https://www.zotero.org/groups/1732893/galaxy/tags/>SymD) | | | | |
 ----
 
-[<img class="float-right" src="/blog/2019-04-gcp/ggcp.png" alt="ggcp" style="max-width: 120px" />](/blog/)
+[<img class="float-right" src="/news/2019-04-gcp/ggcp.png" alt="ggcp" style="max-width: 120px" />](/news/)
 
 # New Galactic Blog Post
 
-This month we have a *[Galactic Blog](/blog/)* post where [Enis Afgan](https://github.com/afgane) and [Vahid Jalili](https://github.com/VJalili) describe recent efforts to [Build up support for the Google Cloud Platform in Galaxy](/blog/2019-04-gcp/).
+This month we have a *[Galactic Blog](/news/)* post where [Enis Afgan](https://github.com/afgane) and [Vahid Jalili](https://github.com/VJalili) describe recent efforts to [Build up support for the Google Cloud Platform in Galaxy](/news/2019-04-gcp/).
 
 ----
 

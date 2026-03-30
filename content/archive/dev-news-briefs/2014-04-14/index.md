@@ -14,8 +14,8 @@ date: 2014-04-14
 
 <table>
   <tr>
-    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width=70 /></a> &nbsp;&nbsp; </td>
-    <td colspan=2 style=" border: none;"> <strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a></strong> </td>
+    <td rowspan="3" style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width="70" /></a> &nbsp;&nbsp; </td>
+    <td colspan="2" style=" border: none;"> <strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
     <td style=" border: none;"> <strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a></strong> </td>
@@ -200,7 +200,7 @@ Thanks to our Galaxy community contributors!
 **[Tool Shed](/toolshed/)**
 ## Documentation
 
-1. Reorganization of the Tool Shed wiki is underway! See current changes https://wiki.galaxyproject.org[/ToolShed](/archive/dev-news-briefs/2014-04-14/ToolShed/) and what is next up https://trello.com/c/Gg0jnll7
+1. Reorganization of the Tool Shed wiki is underway! See current changes https://wiki.galaxyproject.org/ToolShed and what is next up https://trello.com/c/Gg0jnll7
 1. Data Manager documentation specific to toolshed http://wiki.galaxyproject.org/Tool%20Shed#The_contents_of_your_tool_shed_repository https://trello.com/c/OPOakK4w
 
 ## Repositories

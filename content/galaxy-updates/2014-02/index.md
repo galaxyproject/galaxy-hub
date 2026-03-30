@@ -1,7 +1,7 @@
 ---
 title: February 2014 Galaxy Update
 ---
-<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width="150" /></a></div>
 
 Welcome to the February 2014 *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
@@ -20,13 +20,13 @@ How those papers were tagged:
   <tr>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="5" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=4 style=" border: none;"> &nbsp;&nbsp; </td>
+    <td rowspan="4" style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
   </tr>
@@ -121,7 +121,7 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/events/gcc2014/sponsor-
 
 The [Galaxy Australasia Workshop](http://australianbioinformatics.net/gaw-2014) is a great opportunity for you to participate in two full days of presentations, discussions, poster sessions, keynotes and lightning talks, all about ways of using Galaxy for high-throughput biology, imaging and other scientific applications. The workshop will also include Training Sessions taught by Galaxy developers and master users.  GAW 2014 will run 24 and 25th March, immediately preceding [Computational and Simulation Sciences and eResearch](http://wp.csiro.au/css/) in Melbourne.  GAW 2014 will also include poster session, keynote speakers.
 
-<div class='left'><a href='http://mcec.com.au/'><img src="/events/gaw2014/MCC.png" alt="Melbourne Convention Centre" width=200 /></a></div>
+<div class='left'><a href='http://mcec.com.au/'><img src="/events/gaw2014/MCC.png" alt="Melbourne Convention Centre" width="200" /></a></div>
 
 [Registration is open](http://australianbioinformatics.net/gaw-2014).  Registration is also *free, but space is limited.*
 
@@ -234,8 +234,8 @@ GMOD Malaysia 2014 is made possible by the generous support of the [National Evo
   <tr>
     <th> June 10 </th>
     <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2014/module17-10juin.pdf'>Initiation à l’utilisation de Galaxy</a></em> </td>
-    <td rowspan=2> <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2014</a>, <a href='http://migale.jouy.inra.fr/'>INRA Jouy-en-Josas</a>, France </td>
-    <td rowspan=2> <a href="mailto:veronique.martin AT jouy DOT inra DOT fr">Véronique Martin</a>, <a href='http://genome.jouy.inra.fr/~schbath/'>Sophie Schbath</a> </td>
+    <td rowspan="2"> <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2014</a>, <a href='http://migale.jouy.inra.fr/'>INRA Jouy-en-Josas</a>, France </td>
+    <td rowspan="2"> <a href="mailto:veronique.martin AT jouy DOT inra DOT fr">Véronique Martin</a>, <a href='http://genome.jouy.inra.fr/~schbath/'>Sophie Schbath</a> </td>
   </tr>
   <tr>
     <th> June 11 </th>
@@ -244,8 +244,8 @@ GMOD Malaysia 2014 is made possible by the generous support of the [National Evo
   <tr>
     <th> June 16 </th>
     <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2014/module17-16juin.pdf'>Initiation à l’utilisation de Galaxy</a></em> </td>
-    <td rowspan=2> <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2014</a>, <a href='http://migale.jouy.inra.fr/'>INRA Jouy-en-Josas</a>, France </td>
-    <td rowspan=2> <a href="mailto:veronique.martin AT jouy DOT inra DOT fr">Véronique Martin</a>, <a href='http://genome.jouy.inra.fr/~schbath/'>Sophie Schbath</a> </td>
+    <td rowspan="2"> <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2014</a>, <a href='http://migale.jouy.inra.fr/'>INRA Jouy-en-Josas</a>, France </td>
+    <td rowspan="2"> <a href="mailto:veronique.martin AT jouy DOT inra DOT fr">Véronique Martin</a>, <a href='http://genome.jouy.inra.fr/~schbath/'>Sophie Schbath</a> </td>
   </tr>
   <tr>
     <th> June 17 </th>
@@ -325,11 +325,11 @@ An update to Galaxy CloudMan was released in January. CloudMan offers an easy wa
 
 **This update brings a large number of updates and new features.**  See the [release announcement](/news/cloudman-release201401/) for the list.  For more details on the new features, see the the [CHANGELOG](https://bitbucket.org/galaxy/cloudman/src/tip/CHANGELOG.md?at=default) and for even more details see, *all [103 commit messages](https://bitbucket.org/galaxy/cloudman/commits/all?search=a6bf542%3Acc55ca9) from 4 contributors*.
 
-<div class='right'><br /><div class='right'><a href='/blog/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" width="180" /></a><br />
+<div class='right'><br /><div class='right'><a href='/news/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" width="180" /></a><br />
 <img src="/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" width="180" /><br /><br /></div>
 <table>
   <tr>
-    <td> &nbsp;&nbsp; <a href='/blog/'>Share your experience</a> <em><a href='/blog/'>now</a></em> &nbsp;&nbsp; </td>
+    <td> &nbsp;&nbsp; <a href='/news/'>Share your experience</a> <em><a href='/news/'>now</a></em> &nbsp;&nbsp; </td>
   </tr>
   <tr>
     <td> &nbsp;&nbsp;  &nbsp;&nbsp; </td>
@@ -343,7 +343,7 @@ An update to Galaxy CloudMan was released in January. CloudMan offers an easy wa
 
 # Galaxy Community Hubs
 
-The *[Community Log Board](/blog/)* and  *Deployment Catalog* *[Galaxy community hubs](/community/)* were launched in December.  January saw several additions:
+The *[Community Log Board](/news/)* and  *Deployment Catalog* *[Galaxy community hubs](/community/)* were launched in December.  January saw several additions:
 
 **New Galaxy Deployment Catalog entries:**
 
@@ -353,16 +353,16 @@ The *[Community Log Board](/blog/)* and  *Deployment Catalog* *[Galaxy community
 bringing the number of deployment descriptions to 10.
 
 
-**New [Community Log Board](/blog/) entries**
+**New [Community Log Board](/news/) entries**
 
-* [LDAP remoteUser Logout](/blog/2014-01-ldap-remote-user-logout/)
+* [LDAP remoteUser Logout](/news/2014-01-ldap-remote-user-logout/)
 
 bringing the number of log entries to 12.
 
 
 # ToolShed Contributions
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width="150" /></a></div>
 
 ## New Repositories in the Galaxy Project ToolShed
 

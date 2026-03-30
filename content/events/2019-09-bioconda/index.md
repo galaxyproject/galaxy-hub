@@ -18,14 +18,15 @@ location:
   postal: 79110
   region: Baden-Württemberg
   street: Georges-Köhler-Allee 79
-supporters:
-- unifreiburg
-- denbi
 hidefooter: true
 continent: EU
 gtn: false
 subsites: [eu, freiburg, global, us]
 main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
+
 ---
 
 We are organizing a new collaboration fest for [Bioconda](https://bioconda.github.io/) and its ecosystem. This time we would like to organise it globally and decentralised. Feel free to join us in Freiburg, join other events or organise your own local Bioconda Collaboration Fest.
@@ -48,7 +49,7 @@ You don't know what Bioconda is, read our [community manuscript](https://www.ncb
 
 ## Venue
 
-{% include map.html location=page.location showmap=true zoomlevel=15 hidepopup=true %}
+{% include map.html location=page.location showmap=true zoomlevel="15" hidepopup=true %}
 
 <!-- # Important notes -->
 
@@ -85,14 +86,12 @@ Intercity Hotel Freiburg                      | Bismarckallee 3    | [Website](h
 Stadthotel Freiburg Kolping Hotel & Gästehaus | Karlstr.7          | [Website](http://www.hotel-freiburg.de/)
 Ibis Freiburg Süd (bit more far away)         | Bötzinger Str.76   | [Website](http://www.accorhotels.com/de/hotel-2656-ibis-budget-freiburg-sued/index.shtml)
 StayInn Hostel und Gästehaus                  | Stühlinger Str.24a | [Website](http://www.stayinn-freiburg.de/hostel-und-gaestehaus/)
-{:.table.table-striped}
 
 <!-- TODO: map -->
 
 > Note:
 > In Freiburg you sometimes have to pay an additional accommodation tax. For business trips this tax does not
 > to be paid if your employer fills out [this form](http://www.freiburg.de/servicebw/UebernachtungSt_Arbeitgeberbescheinigung.pdf). You will need to show this form to the hotel.
-{:.alert.alert-warning}
 
 ## Organizers
 

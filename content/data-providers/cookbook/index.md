@@ -201,7 +201,7 @@ are two points in the visualizations execution where you might want to do this:
 
 You can bootstrap JSON data by using a combination of python and javascript:
 
-```mako
+```html
 <script type="text/javascript">
 <%
     # first 3000 only - we'll load the rest later

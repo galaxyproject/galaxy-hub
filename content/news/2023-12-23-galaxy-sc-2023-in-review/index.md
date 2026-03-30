@@ -2,13 +2,16 @@
 title: "Galaxy Single-cell Community: Year in Review"
 date: '2023-12-23'
 tease: 'The Galaxy Single-cell Community provides a 2023 review!'
-authors: Wendi Bacon, Pavankumar Videm, Mehmet Tekman
-authors_structured:
-- github: nomadscientist
-- github: pavanvidem
-- github: mtekman
-tags: [gtn, communications, single-cell]
+tags: [gtn, outreach, year-in-review, single-cell, esg-wp1, esg-wp5]
 subsites: [all-eu,global,esg]
+contributions:
+  authorship:
+    - nomadscientist
+    - pavanvidem
+    - mtekman
+  funding:
+    - eu
+    - eurosciencegateway
 ---
 
 <div class="float-right" style="max-width: 400px">

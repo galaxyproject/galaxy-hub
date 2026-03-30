@@ -1,0 +1,335 @@
+name: "Galaxy Application: Join Our Instance Network"
+description: "Apply for inclusion as an official usegalaxy.* instance."
+title: "Galaxy Application: Join Our Instance Network"
+labels:
+  - usegalaxy.*
+  - federation
+  - dot-star
+  - application
+assignees:
+  - bebatut
+  - bjoern.gruening
+  - blankenberg
+  - GarethPrice-Aus
+  - hujambo-dunia
+  - mschatz
+  - nekrut
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your interest in joining the **usegalaxy.*** federation!  
+        Please complete all required fields.
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Basic Information
+
+  - type: input
+    id: region_country
+    attributes:
+      label: Country or Region
+      description: Physical location of your target user base.
+      placeholder: "e.g., Belgium, ASEAN, Global"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: datacenter_in_region
+    attributes:
+      label: Is your primary data center in this region?
+      description: Important for jurisdiction and data compliance.
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: true
+
+  - type: input
+    id: primary_contact
+    attributes:
+      label: Primary Contact Full Name & GitHub Username
+      description: This person will have editing permission to this instance application and can provide additional editors at a later date.
+      placeholder: "e.g., Jane Doe (@jane.doe)"
+    validations:
+      required: true
+
+  - type: input
+    id: instance_url
+    attributes:
+      label: Instance URL
+      description: Public landing page of your Galaxy instance which will also serve as your Instance Name.
+      placeholder: "https://usegalaxy.example"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Accessibility
+        Please provide information about your Galaxy instance and access policies.
+
+  - type: dropdown
+    id: access_policy
+    attributes:
+      label: Access Policy
+      description: Registration must be freely available; anonymous jobs may be allowed but are not required per the updated criteria.
+      options:
+        - "Registration open; anonymous jobs fully allowed"
+        - "Registration open; anonymous jobs partially allowed (basic tools, data sources)"
+        - "Registration open; login required to run jobs (no anonymous jobs)"
+    validations:
+      required: true
+
+  - type: input
+    id: tos_link
+    attributes:
+      label: Terms of Service / Usage Policy URL(s)
+      description: Link to your ToS/usage policy.
+      placeholder: "https://usegalaxy.example/terms"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Transparency
+        Please provide information about your public information.
+
+  - type: input
+    id: org_repos
+    attributes:
+      label: Public code repositories (org or list)
+      description: Link to your org or public repos that host infra/config, playbooks, containers, Helm charts, etc.
+      placeholder: "https://github.com/orgs/your-org/repositories?q=visibility%3Apublic"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: infra_playbook_public
+    attributes:
+      label: Infrastructure playbook visibility
+      description: Indicate whether your infrastructure/configuration is public. If partially public or currently private, please explain below.
+      options:
+        - "Public (full)"
+        - "Partially public (explain below)"
+        - "Currently private (explain below)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: infra_notes
+    attributes:
+      label: Infrastructure notes (if not fully public)
+      description: Briefly describe what's public vs. private, security considerations, or plans to open more.
+      placeholder: "Summarize your infrastructure approach and any timelines for opening private components (code, data)."
+    validations:
+      required: false
+
+  # - type: input
+  #   id: metrics_dashboard
+  #   attributes:
+  #     label: Metrics dashboard (Key Usage Indicators or equivalent)
+  #     description: Link to metrics aligned with federation dashboards (e.g. https://github.com/galaxyproject/kui). If not yet operational, put "Request Galaxy core team assistance".
+  #     placeholder: "https://gxy.io/kui or 'Request Galaxy core team assistance'"
+  #   validations:
+  #     required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Reproducibility
+        Please provide information about your testing and tool configuration.
+
+  - type: dropdown
+    id: cross_testing
+    attributes:
+      label: Cross-usegalaxy testing participation
+      description: Indicate your participation status in cross-instance testing efforts.
+      options:
+        - "Participating"
+        - "Planned / in progress"
+        - "Not participating yet"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: data_compliance
+    attributes:
+      label: Data Compliance Standards
+      description: To what data compliance standards are you subject?
+      options:
+        - label: "GDPR"
+        - label: "HIPAA"
+        - label: "CCPA"
+        - label: "Other (please specify below)"
+    validations:
+      required: true
+
+  - type: input
+    id: data_compliance_other
+    attributes:
+      label: Other Data Compliance Standards
+      description: If you selected "Other" above, please specify the compliance standards.
+      placeholder: "e.g., ISO 27001, SOC 2, etc."
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ## User Resources & Quotas
+        Please provide information about user storage and resources.
+
+  - type: input
+    id: storage_default
+    attributes:
+      label: Default user storage quota (GB)
+      description: Typical per-user quota for registered users.
+      placeholder: "e.g., 50"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: scratch_space
+    attributes:
+      label: Short-term / scratch storage
+      options:
+        - "Provided (with auto-cleanup)"
+        - "Provided (manual cleanup)"
+        - "Not provided"
+    validations:
+      required: true
+
+  - type: input
+    id: data_policy_link
+    attributes:
+      label: Data / retention policy URL
+      description: Link to data retention or deletion policy (including inactive accounts handling).
+      placeholder: "https://usegalaxy.example/policies/data"
+    validations:
+      required: true
+
+  - type: textarea
+    id: quota_increase_process
+    attributes:
+      label: Increased Quota Process (or URL)
+      description: How can users request more storage? Describe the process and any requirements.
+      placeholder: "e.g., Users can request quota increases by emailing support@usegalaxy.example with justification. Increases are reviewed weekly."
+    validations:
+      required: false
+
+  - type: input
+    id: cvmfs_status
+    attributes:
+      label: CVMFS reference data availability
+      description: Provide a link or note confirming CVMFS reference data is provided.
+      placeholder: "e.g., https://usegalaxy.example/libraries or CVMFS mount details"
+    validations:
+      required: true
+
+  - type: input
+    id: tool_count
+    attributes:
+      label: Tool count (approx.)
+      description: Approximate number of tools currently available.
+      placeholder: "e.g., 1400+"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Operations & Reliability
+        Please provide information about uptime, monitoring, and upgrades.
+
+  - type: input
+    id: status_page
+    attributes:
+      label: Public uptime/status page
+      description: Link to your public uptime monitor (preferably the shared status page if applicable).
+      placeholder: "https://status.galaxyproject.org/<your-entry> or vendor page (e.g., UptimeRobot)"
+    validations:
+      required: true
+
+  - type: input
+    id: uptime_last_90d
+    attributes:
+      label: Uptime over last 90 days (%)
+      description: Provide your measured uptime (90-day window) and methodology.
+      placeholder: "e.g., 99.2% (from <status page link>)"
+    validations:
+      required: true
+
+  - type: input
+    id: upgrades_policy
+    attributes:
+      label: Upgrade policy & cadence
+      description: Confirm commitment to upgrading Galaxy within ~90 business days of releases. Link to RFC/change-management docs if applicable.
+      placeholder: "Link to process docs or recent upgrade PRs"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Community
+        Please provide information about your community engagement and commitments.
+
+  - type: input
+    id: coc_link
+    attributes:
+      label: Code of Conduct URL
+      description: Link to your Code of Conduct or confirm adherence to the Galaxy federation CoC (https://galaxyproject.org/community/coc/).
+      placeholder: "Link to your CoC or the federation CoC"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: commitments
+    attributes:
+      label: Community commitments
+      description: Please confirm the following federation expectations.
+      options:
+        - label: "We adhere to the Galaxy Code of Conduct (link provided above)."
+          required: true
+        - label: "We will participate in the Galaxy admin/community channels as appropriate (e.g., SIGs, meetings, mailing lists/Matrix)."
+          required: true
+        - label: "We will contribute back knowledge/issues/PRs where feasible."
+          required: true
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Contacts, Questions, and Additional Information
+        Please provide details about your operations team, funding, and supporting documentation.
+
+  - type: textarea
+    id: staffing
+    attributes:
+      label: Operations team and support
+      description: "Briefly list the team/organization lead running the service, on-call/incident process, and support channels. For example: Lead role, team/name, contact means (GitHub, public URL, public phone)"
+      placeholder: "Network Admin, Jane Doe, @jane.doe \nUser Support, on-call team, https://crm.example/open-a-ticket"
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: Evidence and references
+      description: Links to PRs/issues, monitoring panels, documentation, publications, or  ciations.
+      placeholder: "Add any supporting links here."
+    validations:
+      required: true
+
+  - type: textarea
+    id: open_questions
+    attributes:
+      label: Questions or points for discussion
+      description: Any questions about requirements or special circumstances we should consider during review?
+      placeholder: "List any questions for the reviewers."
+    validations:
+      required: false

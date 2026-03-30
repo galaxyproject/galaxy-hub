@@ -1,0 +1,90 @@
+---
+/**
+ * Bare FR Events Page
+ * Shows FR-filtered events in a table layout
+ * Embedded in Galaxy FR interface
+ */
+import { getCollection } from 'astro:content';
+import BareArticleLayout from '../../../layouts/BareArticleLayout.astro';
+import EventsTable from '../../../components/bare/EventsTable.astro';
+
+const now = new Date();
+const twelveMonthsAgo = new Date(now);
+twelveMonthsAgo.setFullYear(twelveMonthsAgo.getFullYear() - 1);
+
+const allEvents = await getCollection('events', (entry) => {
+  const subsites = entry.data.subsites || [];
+  return (
+    (subsites.includes('fr') ||
+      subsites.includes('all') ||
+      subsites.includes('all-fr') ||
+      subsites.includes('global') ||
+      subsites.length === 0) &&
+    !entry.data.draft
+  );
+});
+
+const upcomingEvents = allEvents
+  .filter((e) => {
+    const endDate = e.data.end ? new Date(e.data.end) : e.data.date ? new Date(e.data.date) : null;
+    return endDate && endDate >= now;
+  })
+  .sort((a, b) => {
+    const dateA = a.data.date ? new Date(a.data.date) : new Date(0);
+    const dateB = b.data.date ? new Date(b.data.date) : new Date(0);
+    return dateA.getTime() - dateB.getTime();
+  });
+
+const pastEvents = allEvents
+  .filter((e) => {
+    const endDate = e.data.end ? new Date(e.data.end) : e.data.date ? new Date(e.data.date) : null;
+    return endDate && endDate < now && endDate >= twelveMonthsAgo;
+  })
+  .sort((a, b) => {
+    const dateA = a.data.date ? new Date(a.data.date) : new Date(0);
+    const dateB = b.data.date ? new Date(b.data.date) : new Date(0);
+    return dateB.getTime() - dateA.getTime();
+  });
+---
+
+<BareArticleLayout title="Galaxy France Events">
+  <div class="events-subsite">
+    <h2>Galaxy France Events</h2>
+
+    {
+      upcomingEvents.length > 0 && (
+        <section>
+          <h3>Upcoming Events</h3>
+          <EventsTable events={upcomingEvents} />
+        </section>
+      )
+    }
+
+    {
+      pastEvents.length > 0 && (
+        <section>
+          <h3>Recent Events (past 12 months)</h3>
+          <EventsTable events={pastEvents} />
+        </section>
+      )
+    }
+  </div>
+</BareArticleLayout>
+
+<style>
+  .events-subsite {
+    h2 {
+      border: 0;
+    }
+
+    h3 {
+      color: #2c3143;
+      border-bottom: 0;
+      padding-bottom: 0.5rem;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+  }
+</style>

@@ -2,11 +2,17 @@
 title: "InvenioRDM and Zenodo integration in Galaxy"
 tease: "Discover a more streamlined approach to research data management with Galaxy's integration with InvenioRDM-compatible repositories."
 hide-tease: false
-authors: "David López"
 date: "2024-05-03"
-tags: ["UI/UX", "highlight"]
-subsites: [global,all]
+tags: ["ui-ux", "highlight"]
+subsites: [global, all]
+contributions:
+  authorship:
+    - davelopez
 ---
+
+> ⚠️ **Update Available:**  
+> There is a new and improved way to manage InvenioRDM and Zenodo integrations in Galaxy!  
+> Check out the latest guide: [Updates to your InvenioRDM and Zenodo integration in Galaxy](../2025-03-10-inveniordm-integration-update/) 🚀
 
 We're excited to announce a recent integration that aims to enhance research data management in Galaxy. Any InvenioRDM-compatible repository can now be connected to Galaxy, offering a streamlined experience in managing and analyzing your research data. With this integration, you can now export research results directly from Galaxy to your institution's InvenioRDM repository or Zenodo, and import files from these repositories into Galaxy for reproducible analysis workflows.
 
@@ -55,6 +61,8 @@ From the Upload tool, you can select `Choose remote files` and then search for t
 ![Choose Remote Files](./choose-remote-files.png)
 
 Once you have selected the Zenodo sandbox instance, you can browse public records and import them into your Galaxy history. You can choose to import the full record or individual files in the same way you would import files from any other remote source. However, please note that there are some **known limitations**. At the time of writing, only the top 100 records are retrievable for search or import. But fear not! We are actively working on addressing this limitation and improving the user experience.
+
+> **Update:** The limitation of 100 records has been addressed and you can now browse without restrictions 🚀
 
 ### Exporting your Galaxy history
 

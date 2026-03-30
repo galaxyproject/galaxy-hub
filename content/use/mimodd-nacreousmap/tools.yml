@@ -1,0 +1,25 @@
+tools:
+    - name: Upload File
+      version: 1.1.4
+      link: /tool_runner?tool_id=upload1
+      description: from your computer
+    - name: MiModD File Information
+      version: 0.1.8_0
+      link: /tool_runner?tool_id=mimodd_info
+      description: provides summary reports for supported sequence data formats.
+    - name: MiModD VCF Filter
+      version: 0.1.8_0
+      link: /tool_runner?tool_id=mimodd_vcf_filter
+      description: extracts lines from a vcf variant file based on field-specific filters
+    - name: MiModD Rebase Sites
+      version: 0.1.8_0
+      link: /tool_runner?tool_id=mimodd_rebase
+      description: from a VCF file
+    - name: MiModD Report Variants
+      version: 0.1.8_0
+      link: /tool_runner?tool_id=mimodd_varreport
+      description: in a human-friendly format that simplifies data exploration
+    - name: MiModD NacreousMap
+      version: 0.1.8_0
+      link: /tool_runner?tool_id=mimodd_map
+      description: maps phenotypically selected variants by multi-variant linkage analysis

@@ -52,7 +52,7 @@ partners:
       website: https://www.cnr.it/
 
     - name: cesnet
-      image: ./partner-logos/CESNET LOGO.png
+      image: ./partner-logos/CESNET_LOGO.png
       website: https://www.cesnet.cz/
 
     - name: Barcelona Supercomputing Center
@@ -70,3 +70,7 @@ partners:
     - name: ACK Cyfronet AGH
       image: ./partner-logos/CyfronetLogo.png
       website: https://www.cyfronet.pl/
+
+    - name: University of Freiburg
+      image: /images/logos/UFR-vorlage-designsystem-typo-farben-V1.94.png
+      website: https://www.uni-freiburg.de/

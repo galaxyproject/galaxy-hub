@@ -3,18 +3,11 @@ title: Galaxy bridge to Jupyter notebooks and RStudio
 date: '2021-03-17'
 end: '2021-03-17'
 tease: Jupyter Notebooks and RStudio in combination with Galaxy workflows
-tags: [COVID-19, training, webinar]
+tags: [covid-19, training, webinar, talk]
 contacts:
 - name: Galaxy and ELIXIR
 location:
   name: online
-supporters:
-- galaxy
-- elixir
-- denbi
-- bmbf
-- elixir-belgium
-- biodaten
 hidefooter: true
 continent: EU
 gtn: false
@@ -25,6 +18,13 @@ links:
   url: https://docs.google.com/presentation/d/18OXzLnbGBWHeoCCCCcyta_K4HjQQpSJcnDzVCH18UrM/edit#slide=id.gb34215f4b3_0_0
 subsites: [global, all-eu, us]
 main_subsite: eu
+contributions:
+  funding:
+    - biodaten
+    - bmbf
+    - deNBI
+    - elixir-europe
+    - uni-freiburg
 ---
 
 Galaxy is supported by a large and active community distributed across the globe, which leads to rapid developments in every release. However, many of this features remain unknown by most of the users.
@@ -51,7 +51,7 @@ Jupyter Notebooks and RStudio in combination with Galaxy workflows
 
 * Hans-Rudolf Hotz
 
-[Registration](https://us02web.zoom.us/webinar/register/WN_Okwj3OW1SVShXskpgqVUjQ){:target="_blank"}
+<a href="https://us02web.zoom.us/webinar/register/WN_Okwj3OW1SVShXskpgqVUjQ" target="_blank">Registration</a>
 
 
 

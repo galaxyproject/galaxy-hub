@@ -3,7 +3,7 @@ title: June 2019 Galactic News
 date: '2019-06-03'
 tease: GCC2019 registration / Poster/Demo abstracts / sponsors, GTN CoFest, Platforms,
   Pubs, Jobs, Blog!, Training, Tools, Releases and more!
-tags: [newsletter, galaxy]
+tags: [newsletter]
 subsites: [all-eu, global, us]
 ---
 
@@ -249,13 +249,13 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 
 ----
 
-[<img class="float-right" src="/blog/2019-05-gcr/gcr.png" alt="Galaxy Cloud Bursting" style="max-width: 120px" />](/blog/)
+[<img class="float-right" src="/news/2019-05-gcr/gcr.png" alt="Galaxy Cloud Bursting" style="max-width: 120px" />](/news/)
 
 # New Galactic Blog Post: Enabling Cloud Bursting for Galaxy
 
-For the second month in a row we have a new *[Galactic Blog](/blog/)* post from [Enis Afgan](https://github.com/afgane) and [Vahid Jalili](https://github.com/VJalili):
+For the second month in a row we have a new *[Galactic Blog](/news/)* post from [Enis Afgan](https://github.com/afgane) and [Vahid Jalili](https://github.com/VJalili):
 
-* [Enabling cloud bursting for Galaxy: Expand your compute horizons](/blog/2019-05-gcr/)
+* [Enabling cloud bursting for Galaxy: Expand your compute horizons](/news/2019-05-gcr/)
 
 ----
 

@@ -2,14 +2,14 @@
 title: 7,000 users and 10,000,000 datasets
 date: '2019-07-20'
 tags: [devops, data]
-supporters:
-- denbi
-- elixir
-authors: bgruening
-authors_structured:
-- github: bgruening
 subsites: [eu, freiburg]
 main_subsite: freiburg
+contributions:
+  authorship:
+    - bgruening
+  funding:
+    - deNBI
+    - elixir-europe
 ---
 
 

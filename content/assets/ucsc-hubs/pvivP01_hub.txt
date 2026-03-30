@@ -1,0 +1,90 @@
+hub VEuPathDB_mirror
+shortLabel Mirrored from VEuPathDB
+longLabel Mirrored from VEuPathDB, hosted by Galaxy for BRC Analytics
+useOneFile on
+email scott+ucschub@scottcain.net
+descriptionUrl https://galaxyproject.org/assets/ucsc_hubs/aboutBRCAnalticsHubs.html
+ 
+genome GCA_900093555.2
+
+track blat_ests
+shortLabel EST Alignments
+longLabel Transcriptomics__BLAT_and_Blast_Alignments__EST_Alignments.gff3.bed.bb
+visibility dense
+type bigBed 9
+maxWindowToDraw 200000
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135b2b0a43608d09c28/display?to_ext=bigbed
+descriptionUrl https://galaxyproject.org/assets/ucsc_hubs/blat_ests.html
+
+track annotated_transcripts
+shortLabel Curated transcript
+longLabel Gene_Models__Transcripts__Annotated_Transcripts.gff3.bed.bb
+type bigBed 12
+visibility pack
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135ea8ac73c0200efc6/display?to_ext=bigbed
+descriptionUrl https://galaxyproject.org/assets/ucsc_hubs/annotated_transcripts.html
+
+track Combined_RNA-Seq
+container multiWig
+shortLabel Combined RNA-Seq
+longLabel Combined RNA-Seq data mirrored from plasmodb.org
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+type bigWig 0 250
+descriptionUrl https://galaxyproject.org/assets/ucsc_hubs/Combined_RNA-Seq.html
+
+track PvivaxP01%2Fbigwig%2FpvivP01_Bhatia_Hynozoite_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FBhatia_Hynozoite_firststrand_merged
+longLabel Bhatia_Hynozoite_firststrand_merged
+shortLabel BhatiaHynozoite+
+color 110,110,110
+parent Combined_RNA-Seq
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135912d2aa5a27de7d2/display?to_ext=bigwig
+type bigWig 0 41 
+
+track PvivaxP01%2Fbigwig%2FpvivP01_Bhatia_Hynozoite_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FBhatia_Hynozoite_secondstrand_merged
+longLabel Bhatia_Hynozoite_secondstrand_merged
+shortLabel BhatiaHynozoite-
+color 130,130,110
+parent Combined_RNA-Seq
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135bff9268e17e744c9/display?to_ext=bigwig
+type bigWig 0 41 
+
+track PvivaxP01%2Fbigwig%2FpvivP01_Jiang_Microenvironment_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FJiang_Microenvironment_unstranded_merged
+longLabel Jiang_Microenvironment_ebi_rnaSeq_RSRC
+shortLabel Jiang_Microenv
+color 120,120,110
+parent Combined_RNA-Seq
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721359c86e76b4ddd3d50/display?to_ext=bigwig
+type bigWig 0 190
+
+track PvivaxP01%2Fbigwig%2FpvivP01_intraerythrocyticTimeSeries_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FintraerythrocyticTimeSeries_unstranded_merged
+longLabel intraerythrocyticTimeSeries_ebi_rnaSeq_RSRC
+shortLabel intraerythrocytic
+color 150,150,150
+parent Combined_RNA-Seq
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721357936aa398678063f/display?to_ext=bigwig
+type bigWig 0 250
+
+track PvivaxP01%2Fbigwig%2FpvivP01_pvivP01_patient_isolate_RNASeq_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FpvivP01_patient_isolate_RNASeq_firststrand_merged.bw
+longLabel patient_isolate_RNASeq_ebi_rnaSeq_RSRC_firststrand
+shortLabel patientIsolatePlus
+color 140,140,140
+parent Combined_RNA-Seq
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721352ac68cfbd1a85cfc/display?to_ext=bigwig
+type bigWig 0 237
+
+track PvivaxP01%2Fbigwig%2FpvivP01_pvivP01_patient_isolate_RNASeq_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FpvivP01_patient_isolate_RNASeq_secondstrand_merged
+longLabel patient_isolate_RNASeq_ebi_rnaSeq_RSRC_secondstrand
+shortLabel patientIsolateMin
+color 130,130,130
+parent Combined_RNA-Seq
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721357aa9f41f28c0c966/display?to_ext=bigwig
+type bigWig 0 237
+
+track PvivaxP01%2Fbigwig%2FpvivP01_Pvivax_3_patient_IDC_2020_ebi_rnaSeq_RSRC%2FmergedBigwigs%2FPvivax_3_patient_IDC_2020_unstranded_merged
+longLabel PvivaxP01%2Fbigwig%2FpvivP01_Pvivax_3_patient_IDC_2020_ebi_rnaSeq_RSRC
+shortLabel 3_patient_IDC_2020
+color 120,120,120
+parent Combined_RNA-Seq
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721358367e9d28beec512/display?to_ext=bigwig
+type bigWig 0 250 

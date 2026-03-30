@@ -1,0 +1,305 @@
+tools:
+    - name: coloc-stats
+      version: 1.0.0
+      link: /coloc-stats/tool_runner/data_source_redirect?tool_id=hb_conglo_proto_tool
+      description: ""
+    - name: Upload genome
+      version: 1.0.0
+      link: /coloc-stats/tool_runner/data_source_redirect?tool_id=hb_upload_genome
+      description: ""
+    - name: Install uploaded genome
+      version: 1.0.0
+      link: /coloc-stats/tool_runner/data_source_redirect?tool_id=hb_install_genome
+      description: ""
+    - name: Create a GSuite from an integrated catalog of genomic datasets
+      version: 1.0.0
+      link: /coloc-stats/tool_runner/data_source_redirect?tool_id=hb_track_global_search_tool
+      description: ""
+    - name: Create a remote GSuite from a public repository
+      version: 1.0.0
+      link: /coloc-stats/tool_runner/data_source_redirect?tool_id=hb_track_source_test_tool
+      description: ""
+    - name: Create a GSuite from datasets in your history
+      version: 1.0.0
+      link: /coloc-stats/tool_runner/data_source_redirect?tool_id=hb_create_g_suite_file_from_history_elements_tool
+      description: ""
+    - name: Create a GSuite from a single track based on a single column/attribute
+      version: 1.0.0
+      link: /coloc-stats/tool_runner/data_source_redirect?tool_id=hb_compile_gsuite_from_single_track_attribute_tool
+      description: ""
+    - name: Create a GSuite from an archive (Zip/tar) in history
+      version: 1.0.0
+      link: /coloc-stats/tool_runner/data_source_redirect?tool_id=hb_compile_g_suite_from_archive_tool
+      description: ""
+    - name: Create a GSuite from the HyperBrowser repository
+      version: 1.0.0
+      link: /coloc-stats/tool_runner/data_source_redirect?tool_id=hb_extract_subtracks_tool
+      description: ""
+    - name: Convert GSuite tracks from remote to primary (Download tracks)
+      version: 1.0.0
+      link: /coloc-stats/tool_runner/data_source_redirect?tool_id=hb_g_suite_download_files
+      description: ""
+    - name: Preprocess a GSuite for analysis
+      version: 1.0.0
+      link: /coloc-stats/tool_runner/data_source_redirect?tool_id=hb_preprocess_g_suite_tracks_tool
+      description: ""
+    - name: "Convert GSuite tracks from preprocessed to primary "
+      version: 1.0.0
+      link: /coloc-stats/tool_runner/data_source_redirect?tool_id=hb_g_suite_convert_from_preprocessed_to_primary_tool
+      description: ""
+    - name: Select a subset of tracks from a GSuite
+      version: 1.0.0
+      link: /coloc-stats/tool_runner/data_source_redirect?tool_id=hb_g_suite_select_rows
+      description: ""
+    - name: Select a subset of metadata columns in a GSuite
+      version: 1.0.0
+      link: /coloc-stats/tool_runner/data_source_redirect?tool_id=hb_g_suite_select_columns
+      description: ""
+    - name: Concatenate two or more GSuites
+      version: 1.0.0
+      link: /coloc-stats/tool_runner/data_source_redirect?tool_id=hb_concatenate_gsuites_tool
+      description: ""
+    - name: Edit a metadata column in a GSuite
+      version: 1.0.0
+      link: /coloc-stats/tool_runner/data_source_redirect?tool_id=hb_edit_gsuite_metadata_tool
+      description: ""
+    - name: Change file type of primary tracks in a GSuite
+      version: 1.0.0
+      link: /coloc-stats/tool_runner/data_source_redirect?tool_id=hb_g_suite_change_file_type_tool
+      description: ""
+    - name: Generate a union track from all the tracks in a GSuite
+      version: 1.0.0
+      link: /coloc-stats/tool_runner/data_source_redirect?tool_id=hb_union_of_g_suite_tracks_tool
+      description: ""
+    - name: Intersect preprocessed tracks in GSuite with a single track
+      version: 1.0.0
+      link: /coloc-stats/tool_runner/data_source_redirect?tool_id=hb_multi_track_intersect_tool
+      description: ""
+    - name: Modify primary tracks referred to in a GSuite
+      version: 1.0.0
+      link: /coloc-stats/tool_runner/data_source_redirect?tool_id=hb_g_suite_manipulate_text_files
+      description: ""
+    - name: Export primary tracks from a GSuite to your history
+      version: 1.0.0
+      link: /coloc-stats/tool_runner/data_source_redirect?tool_id=hb_g_suite_export_to_history_tool
+      description: ""
+    - name: Show GSuite specification
+      version: 1.0.0
+      link: /coloc-stats/tool_runner/data_source_redirect?tool_id=gsuite_spec
+      description: ""
+    - name: Expand or contract points/segments
+      version: 1.0.0
+      link: /coloc-stats/tool_runner/data_source_redirect?tool_id=hb_expandbed
+      description: ""
+    - name: Expand BED segments to cover whole genome
+      version: 1.0.0
+      link: /coloc-stats/tool_runner/data_source_redirect?tool_id=hb_make_genome_partion_according_to_segments
+      description: ""
+    - name: Combine two BED files into single case-control track
+      version: 1.0.0
+      link: /coloc-stats/tool_runner/data_source_redirect?tool_id=hb_create_case_control_track
+      description: ""
+    - name: Merge multiple BED files into single categorical track
+      version: 1.0.0
+      link: /coloc-stats/tool_runner/data_source_redirect?tool_id=hb_create_categorical_track_tool
+      description: ""
+    - name: Split BED segments into subsegments of equal size
+      version: 1.0.0
+      link: /coloc-stats/tool_runner/data_source_redirect?tool_id=hb_split_segments_tool
+      description: ""
+    - name: Create smoothing or density track
+      version: 1.0.0
+      link: /coloc-stats/tool_runner/data_source_redirect?tool_id=hb_create_smoothed_track
+      description: ""
+    - name: Extract segments where value is greater/less than threshold
+      version: 1.0.0
+      link: /coloc-stats/tool_runner/data_source_redirect?tool_id=hb_extract_segments_by_thresholding
+      description: ""
+    - name: Generate bp-level track from DNA sequence
+      version: 1.0.0
+      link: /coloc-stats/tool_runner/data_source_redirect?tool_id=hb_create_dna_based
+      description: ""
+    - name: Generate bp-level track of distance to nearest segment
+      version: 1.0.0
+      link: /coloc-stats/tool_runner/data_source_redirect?tool_id=hb_create_function_track_as_distance_to_nearest_segments
+      description: ""
+    - name: Generate intensity track for confounder handling
+      version: 1.0.0
+      link: /coloc-stats/tool_runner/data_source_redirect?tool_id=hb_intensity
+      description: ""
+    - name: Generate k-mer occurrence track
+      version: 1.0.0
+      link: /coloc-stats/tool_runner/data_source_redirect?tool_id=hb_nmer_extract
+      description: ""
+    - name: Generate segment track from gene IDs
+      version: 1.0.0
+      link: /coloc-stats/tool_runner/data_source_redirect?tool_id=hb_genelist
+      description: ""
+    - name: Create GTrack file from unstructured tabular data
+      version: 1.0.0
+      link: /coloc-stats/tool_runner/data_source_redirect?tool_id=hb_tabular_to_gtrack_tool
+      description: ""
+    - name: Convert between GTrack/BED/WIG/bedGraph/GFF/FASTA files
+      version: 1.0.0
+      link: /coloc-stats/tool_runner/data_source_redirect?tool_id=hb_universal_converter_tool
+      description: ""
+    - name: Add column
+      version: 1.0.0
+      link: /coloc-stats/tool_runner?tool_id=addValue
+      description: to an existing dataset
+    - name: Concatenate datasets
+      version: 1.0.0
+      link: /coloc-stats/tool_runner?tool_id=cat1
+      description: tail-to-head
+    - name: Cut
+      version: 1.0.2
+      link: /coloc-stats/tool_runner?tool_id=Cut1
+      description: columns from a table
+    - name: Merge Columns
+      version: 1.0.1
+      link: /coloc-stats/tool_runner?tool_id=mergeCols1
+      description: together
+    - name: Convert
+      version: 1.0.0
+      link: /coloc-stats/tool_runner?tool_id=Convert+characters1
+      description: delimiters to TAB
+    - name: Create single interval
+      version: 1.0.0
+      link: /coloc-stats/tool_runner?tool_id=createInterval
+      description: as a new dataset
+    - name: Change Case
+      version: 1.0.0
+      link: /coloc-stats/tool_runner?tool_id=ChangeCase
+      description: of selected columns
+    - name: Paste
+      version: 1.0.0
+      link: /coloc-stats/tool_runner?tool_id=Paste1
+      description: two files side by side
+    - name: Remove beginning
+      version: 1.0.0
+      link: /coloc-stats/tool_runner?tool_id=Remove+beginning1
+      description: of a file
+    - name: Select random lines
+      version: 2.0.1
+      link: /coloc-stats/tool_runner?tool_id=random_lines1
+      description: from a file
+    - name: Select first
+      version: 1.0.0
+      link: /coloc-stats/tool_runner?tool_id=Show+beginning1
+      description: lines from a dataset
+    - name: Select last
+      version: 1.0.0
+      link: /coloc-stats/tool_runner?tool_id=Show+tail1
+      description: lines from a dataset
+    - name: Trim
+      version: 0.0.1
+      link: /coloc-stats/tool_runner?tool_id=trimmer
+      description: leading or trailing characters
+    - name: Line/Word/Character count
+      version: 1.0.0
+      link: /coloc-stats/tool_runner?tool_id=wc_gnu
+      description: of a dataset
+    - name: Secure Hash / Message Digest
+      version: 0.0.1
+      link: /coloc-stats/tool_runner?tool_id=secure_hash_message_digest
+      description: on a dataset
+    - name: Filter
+      version: 1.1.0
+      link: /coloc-stats/tool_runner?tool_id=Filter1
+      description: data on any column using simple expressions
+    - name: Sort
+      version: 1.0.3
+      link: /coloc-stats/tool_runner?tool_id=sort1
+      description: data in ascending or descending order
+    - name: Select
+      version: 1.0.1
+      link: /coloc-stats/tool_runner?tool_id=Grep1
+      description: lines that match an expression
+    - name: Extract features
+      version: 1.0.0
+      link: /coloc-stats/tool_runner?tool_id=Extract_features1
+      description: from GFF data
+    - name: Filter GFF data by attribute
+      version: "0.1"
+      link: /coloc-stats/tool_runner?tool_id=gff_filter_by_attribute
+      description: using simple expressions
+    - name: Filter GFF data by feature count
+      version: "0.1"
+      link: /coloc-stats/tool_runner?tool_id=gff_filter_by_feature_count
+      description: using simple expressions
+    - name: Filter GTF data by attribute values_list
+      version: "0.1"
+      link: /coloc-stats/tool_runner?tool_id=gtf_filter_by_attribute_values_list
+      description: ""
+    - name: Join two Datasets
+      version: 2.0.2
+      link: /coloc-stats/tool_runner?tool_id=join1
+      description: side by side on a specified field
+    - name: Compare two Datasets
+      version: 1.0.2
+      link: /coloc-stats/tool_runner?tool_id=comp1
+      description: to find common or distinct rows
+    - name: Group
+      version: 2.1.0
+      link: /coloc-stats/tool_runner?tool_id=Grouping1
+      description: data by a column and perform aggregate operation on other columns.
+    - name: AXT to concatenated FASTA
+      version: 1.0.0
+      link: /coloc-stats/tool_runner?tool_id=axt_to_concat_fasta
+      description: Converts an AXT formatted file to a concatenated FASTA alignment
+    - name: AXT to FASTA
+      version: 1.0.0
+      link: /coloc-stats/tool_runner?tool_id=axt_to_fasta
+      description: Converts an AXT formatted file to FASTA format
+    - name: AXT to LAV
+      version: 1.0.0
+      link: /coloc-stats/tool_runner?tool_id=axt_to_lav_1
+      description: Converts an AXT formatted file to LAV format
+    - name: BED-to-GFF
+      version: 2.0.0
+      link: /coloc-stats/tool_runner?tool_id=bed2gff1
+      description: converter
+    - name: GFF-to-BED
+      version: 1.0.1
+      link: /coloc-stats/tool_runner?tool_id=gff2bed1
+      description: converter
+    - name: LAV to BED
+      version: 1.0.0
+      link: /coloc-stats/tool_runner?tool_id=lav_to_bed1
+      description: Converts a LAV formatted file to BED format
+    - name: MAF to BED
+      version: 1.0.0
+      link: /coloc-stats/tool_runner?tool_id=MAF_To_BED1
+      description: Converts a MAF formatted file to the BED format
+    - name: MAF to Interval
+      version: 1.0.0
+      link: /coloc-stats/tool_runner?tool_id=MAF_To_Interval1
+      description: Converts a MAF formatted file to the Interval format
+    - name: MAF to FASTA
+      version: 1.0.1
+      link: /coloc-stats/tool_runner?tool_id=MAF_To_Fasta1
+      description: Converts a MAF formatted file to FASTA format
+    - name: Wiggle-to-Interval
+      version: 1.0.0
+      link: /coloc-stats/tool_runner?tool_id=wiggle2simple1
+      description: converter
+    - name: SFF converter
+      version: 1.0.1
+      link: /coloc-stats/tool_runner?tool_id=Sff_extractor
+      description: ""
+    - name: GTF-to-BEDGraph
+      version: 1.0.0
+      link: /coloc-stats/tool_runner?tool_id=gtf2bedgraph
+      description: converter
+    - name: Wig/BedGraph-to-bigWig
+      version: 1.1.0
+      link: /coloc-stats/tool_runner?tool_id=wig_to_bigWig
+      description: converter
+    - name: BED-to-bigBed
+      version: 1.0.0
+      link: /coloc-stats/tool_runner?tool_id=bed_to_bigBed
+      description: converter
+    - name: Upload File
+      version: 1.1.4
+      link: /coloc-stats/tool_runner?tool_id=upload1
+      description: from your computer

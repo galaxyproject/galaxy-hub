@@ -9,10 +9,12 @@ location:
 contact: Saskia Hiltemann & Helena Rasche
 gtn: true
 tags: [cofest, training]
-supporters:
-- elixir
-- denbi
 subsites: [all-eu, global, us]
+contributions:
+  funding:
+    - deNBI
+    - elixir-europe
+
 ---
 
 <img class="float-right" style="max-width: 500px;" src="/images/galaxy-logos/gtn-cofests.png" alt="GTN cofest logo"/>
@@ -23,7 +25,7 @@ Every 3 months the Galaxy Training Network organises one day dedicated to the co
 
 Anyone who would like to contribute, learn how to contribute to the Galaxy Training Material or just catch up with the community is very welcome to join.
 
-We will coordinate via Zoom and the [GTN Gitter channel](https://gitter.im/Galaxy-Training-Network/Lobby).
+We will coordinate via Zoom and the [GTN Matrix channel](https://matrix.to/#/#Galaxy-Training-Network_Lobby:gitter.im).
 
 # GTN Call
 
@@ -39,4 +41,4 @@ To accommodate different time zones and schedules, there will be 2 calls (with s
 
 ---
 
-*If you want to join to help or to talk and learn about the project, let us know on the [Gitter channel](https://gitter.im/Galaxy-Training-Network/Lobby) or by leaving a comment on the [issue on GitHub](https://github.com/galaxyproject/training-material/issues/1631)*
+*If you want to join to help or to talk and learn about the project, let us know on the [Matrix channel](https://matrix.to/#/#Galaxy-Training-Network_Lobby:gitter.im) or by leaving a comment on the [issue on GitHub](https://github.com/galaxyproject/training-material/issues/1631)*

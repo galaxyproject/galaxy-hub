@@ -1,0 +1,24 @@
+domains:
+    - platform_url: https://www.seanoe.org/data/00406/51795/
+      ip: 134.246.232.82
+      version: IPv4
+      asn: AS2103 IFREMER Centre de Brest
+      org: Institut Francais de Recherche pour l'Exploitation de la Mer - IFREMER
+      location:
+          city: Brest
+          region: Brittany
+          region_code: BRE
+          country: FR
+          country_name: France
+          country_code: FR
+          continent_code: EU
+          postal: "29200"
+          latitude: 48.3877
+          longitude: -4.4839
+          timezone: Europe/Paris
+          currency: EUR
+      response:
+          time: "2025-11-25T19:56:44Z"
+          status_code: 200
+          response_time_ms: 0
+          reason: OK

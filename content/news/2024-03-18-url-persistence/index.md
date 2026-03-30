@@ -1,5 +1,4 @@
 ---
-authors: ''
 date: '2024-03-18'
 external_url: https://training.galaxyproject.org/training-material/news/2024/03/18/url-persistence.html
 main_subsite: global
@@ -9,7 +8,7 @@ tags:
 - training
 - gtn-news
 - news
-- gtn infrastructure
+- gtn
 - new feature
 tease: At the Galaxy Training Network we are really committed to ensuring our training
   materials are Findable, Accessible, Interoperable, and Reusable

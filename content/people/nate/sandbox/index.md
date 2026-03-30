@@ -46,13 +46,8 @@ The DRMAA runner takes four optional plugin parameters in addition to `drmaa_lib
 These parameters control the way in which a job will be considered terminal, since different DRMs behave in different ways.  For example, DRMAA specifies a "job finished normally" state, but not all DRMs will report this state, and instead, job completion can only determined by checking job state and encountering a drmaa `InvalidJobException` exception.  These parameters are explained below:
 
 <table>
-  <tr>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td> <rowclass="th"> <code>DRMAAJobRunner <param></code>s </td>
+  <tr class="th">
+    <th colspan="6"><code>DRMAAJobRunner &lt;param&gt;</code>s</th>
   </tr>
   <tr class="th" >
     <th> <code>id</code> </th>
