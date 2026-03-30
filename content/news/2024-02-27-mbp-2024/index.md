@@ -3,13 +3,20 @@ title: "Molecular Biology of Plants conference (MBP 2024)"
 date: "2024-02-26"
 tease: "Poster Presentation entitled MAdLand Tools & Resources"
 subsites: [all-eu]
-tags: [conference, talk, madland, community, nfdi]
+supporters:
+  - eurosciencegateway
+  - unifreiburg
+  - denbi
+  - dataplant
+  - galaxy-europe
+  - madland
+subsites: [global, freiburg, eu, esg]
+tags: [esg,madland,nfdi,talk]
 contributions:
   authorship:
     - deeptivarshney
+
 ---
-
-
 #### MBP2024 - Molecular Biology of Plants 2024
 
 The Conference [Molecular Biology of Plants (MBP)](https://www.pflanzen-molekularbiologie.de/conference-molecular-biology-of-plants) of the Section Plant Physiology and Molecular Biology of the DBG will take place at Hennef, North Rhine-Westphalia, Germany, from 4th to 7th March 2024. It will be organized by Prof. Dr. Christopher Grefen (Bochum), Prof. Dr. Ute Höcker (Cologne), and Prof. Dr. Andreas Meyer (Bonn). If interested, please visit [full program page](https://www.pflanzen-molekularbiologie.de/fileadmin/user_upload/SPPMB_Program/2024/MBP2024_program_v4_2_online.pdf).
