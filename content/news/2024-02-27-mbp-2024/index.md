@@ -11,7 +11,7 @@ supporters:
   - galaxy-europe
   - madland
 subsites: [global, freiburg, eu, esg]
-tags: [esg,madland,de.nbi,nfdi4plants,dataplant]
+tags: [esg,madland,nfdi,talk]
 contributions:
   authorship:
     - deeptivarshney
