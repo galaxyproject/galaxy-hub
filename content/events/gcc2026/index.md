@@ -62,22 +62,19 @@ community collectively decides what Galaxy becomes next.**
     <img src="/images/events/gcc2026/keynote.jpg" class="card-img-top" style="height: 280px; object-fit: cover;" alt="GCC2026 keynote presentation" />
     <div class="card-header">Highlighted Talks</div>
 
-GCC2026 brings a rich and varied program of talks spanning invited keynotes, community-submitted
-presentations, and open discussions. Whether you're curious about the latest Galaxy features,
-want to hear how researchers are applying Galaxy to real biological questions, or want to
-weigh in on where the platform is headed, the program has something for you.
-
-This year's highlights include:
+GCC2026 features a program of invited keynotes, community talks, and open discussions
+covering the latest in Galaxy development, real-world research applications, and the
+future of open data analysis. This year's highlights include:
 
   <ul>
-    <li><strong>Galaxy Live!</strong> — See Galaxy in action, live on stage, with real data and real science</li>
-    <li><strong>Rayan Chikhi</strong> — "Assembling and exploring the world's sequencing data for biological discovery," a keynote from one of the leading voices in computational genomics</li>
-    <li><strong>Galaxy Community Update</strong> — A look at what's new and what's next across the Galaxy ecosystem, straight from the people building it</li>
-    <li><strong>Panel Discussion</strong> — An open conversation on the topics the community cares about most, with room for the audience to participate</li>
-    <li><strong>Galaxy in Research</strong> — Talks showcasing how researchers around the world are using Galaxy to power cutting-edge science</li>
+    <li><strong>Galaxy Live!</strong> — A live, on-stage reveal of new Galaxy features</li>
+    <li><strong>Rayan Chikhi</strong> — Keynote on assembling and exploring petabyte-scale sequencing data</li>
+    <li><strong>Galaxy Community Update</strong> — The state of the ecosystem, from the people building it</li>
+    <li><strong>Panel Discussion</strong> — An open conversation on what matters most to the community</li>
+    <li><strong>Galaxy in Research</strong> — Cutting-edge science powered by Galaxy</li>
   </ul>
 
-**See the [highlighted talks page](/events/gcc2026/highlights/) for the full program.**
+**See the [highlighted talks page](/events/gcc2026/highlights/) for details.**
 
   </div>
 
