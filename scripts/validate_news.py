@@ -15,7 +15,7 @@ import logging
 from validate_common import (
     ROOT,
     aggregate_frontmatter,
-    check_recent_folder_names,
+    check_recent_news_folder_names,
     clean_schema,
     gather_ids,
     load_yaml,
@@ -38,7 +38,10 @@ def main():
     cleaned_schema = clean_schema(raw_schema, ids)
     aggregated_news, parse_errors = aggregate_frontmatter(os.path.join(ROOT, "content", "news"))
     code, errors = validate_data(aggregated_news, cleaned_schema)
-    folder_errors = check_recent_folder_names(aggregated_news, cutoff=args.cutoff)
+    folder_errors = check_recent_news_folder_names(
+        aggregated_news,
+        cutoff=args.cutoff,
+    )
     parse_error_count = len(parse_errors)
 
     if errors and not args.quiet:

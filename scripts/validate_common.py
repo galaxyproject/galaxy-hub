@@ -187,6 +187,48 @@ def check_recent_folder_names(aggregated, cutoff="2026-02-23", skip_folders=None
     return errors
 
 
+def check_recent_news_folder_names(aggregated, cutoff="2026-02-23", skip_folders=None):
+    """
+    For recent news entries, ensure the folder name follows YEAR/YYYY-MM-DD-suffix.
+    """
+    errors = []
+    cutoff_date = datetime.strptime(cutoff, "%Y-%m-%d").date()
+    pattern = re.compile(r"^(\d{4}-\d{2}-\d{2})-[a-z0-9_-]+$")
+    skip_folders = set(skip_folders or [])
+
+    for folder, data in aggregated.items():
+        if folder in skip_folders:
+            continue
+        if not isinstance(data, dict):
+            continue
+        fm_date = data.get("date")
+        if not isinstance(fm_date, str):
+            continue
+        try:
+            parsed_date = datetime.strptime(fm_date, "%Y-%m-%d").date()
+        except ValueError:
+            continue
+        if parsed_date <= cutoff_date:
+            continue
+
+        parts = folder.split(os.sep)
+        if len(parts) != 2:
+            errors.append(f"{folder}: folder name must follow YEAR/YYYY-MM-DD-suffix naming convention.")
+            continue
+
+        year_part, leaf = parts
+        if year_part != fm_date[:4]:
+            errors.append(f"{folder}: year bucket {year_part} does not match frontmatter date {fm_date}.")
+            continue
+
+        match = pattern.match(leaf)
+        if not match:
+            errors.append(f"{folder}: folder name must follow YEAR/YYYY-MM-DD-suffix naming convention.")
+            continue
+
+    return errors
+
+
 def log_validation_errors(errors, logger):
     for err in errors:
         logger.error(err)

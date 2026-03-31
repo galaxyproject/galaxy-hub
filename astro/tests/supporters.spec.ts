@@ -19,7 +19,7 @@ test.describe('Supporters rendering', () => {
 
     await expect(page.getByRole('link', { name: /edit on github/i })).toHaveAttribute(
       'href',
-      'https://github.com/galaxyproject/galaxy-hub/edit/main/content/news/2025-10-15-egd2025/index.md'
+      'https://github.com/galaxyproject/galaxy-hub/edit/main/content/news/2025/2025-10-15-egd2025/index.md'
     );
   });
 
