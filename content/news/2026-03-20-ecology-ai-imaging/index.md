@@ -10,6 +10,12 @@ contributions:
     - yvanlebras
     - TuturBaba
     - nadinelebris
+  funding:
+    - moorev         # grant
+    - fondfrance     # grant
+    - pndb # organisation
+    - mnhn # organisation
+    - sorbonneuniv # organisation
 ---
 
 Since 2025, Galaxy Ecology team is notably working on marine images annotation and analysis through the MOOREV citizen science project. Thanks to existing Galaxy materials (tools, workflows and training) created by communities as Imaging one and strong support of usegalaxy.eu team, we were able to not start from scratch to meet the MOOREV objectives through a dedicated funding who allows to produce new materials for Galaxy communities. 
@@ -52,7 +58,9 @@ We also tested on Yvan's aquarium ;) to identify fish, mullet species seems to b
 
 ![Yvan's mullet image](fish_smallest_fish.png)
 
-### References
+### Acknowledgement and references
+
+The MOOREV project is funded by the "Fondation de France" Fund under WB-2022-43290 id. Galaxy developments are coordinated by Galaxy Ecology, Biodiversity data hub frolm Data Terra infrastructure, French Museum of natural History, and usegalaxy.eu, Freiburg university.
 
 - MOOREV website: https://moorev.fr
 - Galaxy Ecology article: Royaux et al. (2025) Guidance framework to apply best practices in ecological data analysis: lessons learned from building Galaxy-Ecology. GigaScience, Volume 14, 2025, giae122, https://doi.org/10.1093/gigascience/giae122
