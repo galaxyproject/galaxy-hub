@@ -10,6 +10,12 @@ contributions:
     - yvanlebras
     - TuturBaba
     - nadinelebris
+  funding:
+    - moorev         # grant
+    - fondfrance     # grant
+    - pndb # organisation
+    - mnhn # organisation
+    - sorbonneuniv # organisation
 ---
 
 Since 2025, Galaxy Ecology team is notably working on marine images annotation and analysis through the MOOREV citizen science project. Thanks to existing Galaxy materials (tools, workflows and training) created by communities as Imaging one and strong support of usegalaxy.eu team, we were able to not start from scratch to meet the MOOREV objectives through a dedicated funding who allows to produce new materials for Galaxy communities. 
