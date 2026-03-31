@@ -2,6 +2,16 @@
 autotoc: false
 ---
 
+<style>
+.highlight-header { display: flex; flex-wrap: wrap; align-items: stretch; gap: 1.25rem; padding: 1.25rem 1.25rem 0; }
+.highlight-img-wrap { flex: 0 0 calc(35% - 0.75rem); min-height: 160px; overflow: hidden; border-radius: 0.375rem; }
+.highlight-img-wrap img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.highlight-title { flex: 1; min-width: 200px; display: flex; flex-direction: column; justify-content: center; }
+@media (max-width: 600px) {
+  .highlight-img-wrap { flex: 0 0 100%; min-height: 200px; border-radius: 0.375rem 0.375rem 0 0; }
+}
+</style>
+
 # GCC2026 Highlighted Talks
 
 The highlighted talks at GCC2026 bring together distinguished researchers and
@@ -10,14 +20,17 @@ Galaxy ecosystem. From live demonstrations of new platform capabilities to keyno
 science, community-wide updates, and open discussion, these sessions offer a
 compelling look at where Galaxy stands today and where it is going.
 
-
-<div style="display: flex; flex-wrap: wrap; gap: 1.5rem; align-items: flex-start; margin: 1.5rem 0;">
-  <img src="/images/events/gcc2026/galaxy-live.png" style="width: 200px; flex-shrink: 0; object-fit: cover; border-radius: 0.5rem;" alt="Galaxy Live!" />
-  <div style="flex: 1; min-width: 250px;" class="lead">
-    <strong>Galaxy Live!</strong><br/>
-    See Galaxy in action, on the stage!
-  </div>
+<div style="margin: 2rem 0; background: #f8f9fa; border-radius: 0.5rem; border-left: 4px solid #25537b; overflow: hidden;">
+<div class="highlight-header">
+<div class="highlight-img-wrap">
+<img src="/images/events/gcc2026/galaxy-live.png" style="width: 100%; height: 100%; object-fit: cover; display: block;" alt="Galaxy Live!" />
 </div>
+<div class="highlight-title">
+<div style="font-size: 1.25rem; font-weight: 700;">Galaxy Live!</div>
+<div style="color: #555; margin-top: 0.25rem;">See Galaxy in action, on the stage!</div>
+</div>
+</div>
+<div style="padding: 1rem 1.5rem 1.5rem;">
 
 Galaxy Live! is GCC's signature product demonstration — a live, on-stage reveal of
 what's new in Galaxy. Think less lecture, more launch event. The presenter works
@@ -30,16 +43,21 @@ curious about what's changed or someone evaluating Galaxy's capabilities for the
 first time, Galaxy Live! gives you an immediate, concrete sense of what the platform
 can do — no prior knowledge required.
 
-<hr/>
-
-<div style="display: flex; flex-wrap: wrap; gap: 1.5rem; align-items: flex-start; margin: 1.5rem 0;">
-  <img src="/images/events/gcc2026/rayan-chikhi.jpg" style="width: 200px; flex-shrink: 0; object-fit: cover; border-radius: 0.5rem;" alt="Rayan Chikhi" />
-  <div style="flex: 1; min-width: 250px;" class="lead">
-    <strong>Rayan Chikhi</strong><br/>
-    Talk title: <strong>Assembling and exploring the world's sequencing data for biological discovery</strong><br/>
-    Institut Pasteur, France
-  </div>
 </div>
+</div>
+
+<div style="margin: 2rem 0; background: #f8f9fa; border-radius: 0.5rem; border-left: 4px solid #25537b; overflow: hidden;">
+<div class="highlight-header">
+<div class="highlight-img-wrap">
+<img src="/images/events/gcc2026/rayan-chikhi.jpg" style="width: 100%; height: 100%; object-fit: cover; object-position: top; display: block;" alt="Rayan Chikhi" />
+</div>
+<div class="highlight-title">
+<div style="font-size: 1.25rem; font-weight: 700;">Rayan Chikhi</div>
+<div style="color: #555; margin-top: 0.25rem;"><em>Assembling and exploring the world's sequencing data for biological discovery</em></div>
+<div style="color: #777; font-size: 0.9rem; margin-top: 0.25rem;">Institut Pasteur, France</div>
+</div>
+</div>
+<div style="padding: 1rem 1.5rem 1.5rem;">
 
 Rayan Chikhi is a computer scientist and group leader at Institut Pasteur, where
 he heads the Sequence Bioinformatics research group in the Department of
@@ -54,15 +72,20 @@ initiated the Logan project, an assembly and index of petabase-scale public DNA
 and RNA sequencing data, then used it to search the data at scale to discover
 new viruses and plastic-degrading enzymes.
 
-<hr/>
-
-<div style="display: flex; flex-wrap: wrap; gap: 1.5rem; align-items: flex-start; margin: 1.5rem 0;">
-  <img src="/images/events/gcc2026/community-update.jpg" style="width: 200px; flex-shrink: 0; object-fit: cover; border-radius: 0.5rem;" alt="Galaxy Community Update" />
-  <div style="flex: 1; min-width: 250px;" class="lead">
-    <strong>Galaxy Community Update</strong><br/>
-    Highlights from the Galaxy community.
-  </div>
 </div>
+</div>
+
+<div style="margin: 2rem 0; background: #f8f9fa; border-radius: 0.5rem; border-left: 4px solid #25537b; overflow: hidden;">
+<div class="highlight-header">
+<div class="highlight-img-wrap">
+<img src="/images/events/gcc2026/community-update.jpg" style="width: 100%; height: 100%; object-fit: cover; display: block;" alt="Galaxy Community Update" />
+</div>
+<div class="highlight-title">
+<div style="font-size: 1.25rem; font-weight: 700;">Galaxy Community Update</div>
+<div style="color: #555; margin-top: 0.25rem;">Highlights from the Galaxy community.</div>
+</div>
+</div>
+<div style="padding: 1rem 1.5rem 1.5rem;">
 
 The Galaxy Community Update is the annual state-of-the-ecosystem address — a
 comprehensive look at everything that has happened in the Galaxy world over the past
@@ -76,15 +99,20 @@ direction. It is the single best place to get oriented on the full scope of the
 Galaxy project, whether you are deeply embedded in the community or just beginning
 to explore what Galaxy can offer your work.
 
-<hr/>
-
-<div style="display: flex; flex-wrap: wrap; gap: 1.5rem; align-items: flex-start; margin: 1.5rem 0;">
-  <img src="/images/events/gcc2026/cartoon-highlights.png" style="width: 200px; flex-shrink: 0; object-fit: cover; border-radius: 0.5rem;" alt="Panel Discussion" />
-  <div style="flex: 1; min-width: 250px;" class="lead">
-    <strong>Panel Discussion</strong><br/>
-    Engage with a group of panelists to discuss hot Galaxy topics.
-  </div>
 </div>
+</div>
+
+<div style="margin: 2rem 0; background: #f8f9fa; border-radius: 0.5rem; border-left: 4px solid #25537b; overflow: hidden;">
+<div class="highlight-header">
+<div class="highlight-img-wrap">
+<img src="/images/events/gcc2026/cartoon-highlights.png" style="width: 100%; height: 100%; object-fit: cover; display: block;" alt="Panel Discussion" />
+</div>
+<div class="highlight-title">
+<div style="font-size: 1.25rem; font-weight: 700;">Panel Discussion</div>
+<div style="color: #555; margin-top: 0.25rem;">Engage with a group of panelists to discuss hot Galaxy topics.</div>
+</div>
+</div>
+<div style="padding: 1rem 1.5rem 1.5rem;">
 
 The Panel Discussion is one of the most anticipated sessions at GCC — a structured
 but open conversation on the topics the community is wrestling with most. A group of
@@ -98,15 +126,20 @@ central to the session, not an afterthought. Topics shift from year to year base
 what the community brings, making this one of the most authentic and unpredictable
 sessions on the program.
 
-<hr/>
-
-<div style="display: flex; flex-wrap: wrap; gap: 1.5rem; align-items: flex-start; margin: 1.5rem 0;">
-  <img src="/images/events/gcc2026/galaxy-in-research.png" style="width: 200px; flex-shrink: 0; object-fit: cover; border-radius: 0.5rem;" alt="Galaxy in Research" />
-  <div style="flex: 1; min-width: 250px;" class="lead">
-    <strong>Galaxy in Research</strong><br/>
-    See how Galaxy is being used to help with some cutting-edge research.
-  </div>
 </div>
+</div>
+
+<div style="margin: 2rem 0; background: #f8f9fa; border-radius: 0.5rem; border-left: 4px solid #25537b; overflow: hidden;">
+<div class="highlight-header">
+<div class="highlight-img-wrap">
+<img src="/images/events/gcc2026/galaxy-in-research.png" style="width: 100%; height: 100%; object-fit: cover; display: block;" alt="Galaxy in Research" />
+</div>
+<div class="highlight-title">
+<div style="font-size: 1.25rem; font-weight: 700;">Galaxy in Research</div>
+<div style="color: #555; margin-top: 0.25rem;">See how Galaxy is being used to help with some cutting-edge research.</div>
+</div>
+</div>
+<div style="padding: 1rem 1.5rem 1.5rem;">
 
 Galaxy in Research showcases the science that Galaxy makes possible. These
 community-submitted talks feature researchers presenting work where Galaxy played
@@ -121,4 +154,5 @@ for serious, reproducible, large-scale science. If your group has done significa
 work using Galaxy, we encourage you to submit an abstract and share it with the
 community.
 
-<hr/>
+</div>
+</div>
