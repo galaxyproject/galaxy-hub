@@ -7,7 +7,7 @@ autotoc: false
 Keep the following important dates in mind for GCC2026! These dates can save you
 money and give you an opportunity to present your work.
 
-<div style="width: 60%; margin: 0 auto;">
+<div style="max-width: 60%; min-width: 300px; margin: 0 auto;">
 
 | Date   | What |
 | -----: | ---  |

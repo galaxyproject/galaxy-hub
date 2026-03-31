@@ -65,41 +65,41 @@ The registration cost is EUR50, added on top of the GCC2026 conference registrat
 
 <div class="card-deck lead">
 
-  <div class="card" style="min-width: 30%; max-width: 30rem;">
+  <div class="card" style="flex: 1 1 280px;">
     <div class="card-header">Deploying an R Shiny App on Galaxy</div>
 
 This project involved deploying custom Shiny apps on Galaxy by converting them into R packages and containerizing them with Docker for consistency and portability. Galaxy configuration files were implemented to enable seamless user access. Additionally, existing Shiny apps—such as the **[Pampa Performance Indicators of Marine Protected Areas](https://github.com/usegalaxy-eu/galaxy/blob/release_25.0_europe/tools/interactive/interactivetool_pampa.xml)**—were updated to enhance functionality, showcasing the integration of interactive tools for research and resource management.
 
   </div>
 
-  <div class="card" style="min-width: 30%; max-width: 30rem;">
+  <div class="card" style="flex: 1 1 280px;">
     <div class="card-header">Making Your First Contribution to the Galaxy Training Network</div>
 
 Two tutorials were created for the Galaxy Training Network (GTN): **"Best Practices for Citing Galaxy"**—guiding proper attribution in publications—and **"Hybrid Genome Assembly – Nanopore and Illumina"**—a workflow for combining sequencing data. Both tutorials followed GTN standards to improve accessibility for researchers.
 
   </div>
 
-  <div class="card" style="min-width: 30%; max-width: 30rem;">
+  <div class="card" style="flex: 1 1 280px;">
     <div class="card-header">Improve User Defined Tools</div>
 
 Planemo was improved to support user-defined tools in Galaxy, enabling direct uploads to the Test Tool Shed and allowing resource requirements (CPU, RAM, GPU) to be specified. Community feedback refined functionality, while support for R scripts and documentation were enhanced to simplify tool development and deployment.
 
   </div>
 
-  <div class="card" style="min-width: 30%; max-width: 30rem;">
+  <div class="card" style="flex: 1 1 280px;">
     <div class="card-header">Galaxy tours - fixing existing ones and add tours for popular tools. </div>
 
 This project focused on modernizing and enhancing the Galaxy interactive tours. Existing tours were thoroughly tested, and all HTML elements were replaced with standardized selectors as defined in the Galaxy navigation configuration. Every core tour was validated for functionality and accuracy, with detailed results documented. Additionally, help text from the deeptools Galaxy integration was converted into interactive tours, improving user guidance and accessibility. The updates ensured a more robust and user-friendly experience for navigating Galaxy’s features.
 
   </div>
-  <div class="card" style="min-width: 30%; max-width: 30rem;">
+  <div class="card" style="flex: 1 1 280px;">
     <div class="card-header">Biodiversity & Ecology Resources</div>
 
 This project curated Galaxy tools for biodiversity research, adding EDAM annotations and creating filtered collections for the **Ecology** and **Earth** SIGs. A wish list for new tools was developed, existing wrappers were reviewed and annotated, and contributions were made to **Bio.tools**—all to improve accessibility and support for researchers.
 
   </div>
 
-  <div class="card" style="min-width: 30%; max-width: 40rem;">
+  <div class="card" style="flex: 1 1 280px;">
     <div class="card-header">Galaxy ITs</div>
 
 Galaxy 24.0 introduced path-based ITs, removing the need for wildcard DNS/SSL and simplifying deployment. This project enabled direct URL path access for ITs, reducing technical barriers and improving flexibility, as outlined in the **[F1000 Research presentation](https://f1000research.com/slides/12-1163)**.

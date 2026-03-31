@@ -43,7 +43,7 @@ Clermont-Ferrand is **perfectly positioned** for those traveling by car, with **
 
 <div class="card-deck lead">
 
-  <div class="card" style="min-width: 40%; max-width: 50%;">
+  <div class="card" style="flex: 1 1 340px;">
     <img src="/images/events/gcc2026/clermont_ferrand.jpg" class="card-img-top" alt="Clermont-Ferrand, France" />
     <div class="card-header">Historic City Center</div>
     <div style="font-size: 0.9rem;">
@@ -58,7 +58,7 @@ For a breath of fresh air, the **Lecoq Garden** provides a serene 19th-century o
     </div>
   </div>
 
-  <div class="card" style="min-width: 40%; max-width: 50%;">
+  <div class="card" style="flex: 1 1 340px;">
     <img src="/images/events/gcc2026/michelin.jpg" class="card-img-top" alt="Clermont-Ferrand, France" />
     <div class="card-header">Aventure Michelin</div>
     <div style="font-size: 0.9rem;">
@@ -73,7 +73,7 @@ A must-visit for history buffs, car enthusiasts, and anyone curious about innova
     </div>
   </div>
 
-  <div class="card" style="min-width: 40%; max-width: 50%;">
+  <div class="card" style="flex: 1 1 340px;">
     <img src="/images/events/gcc2026/pariou.jpg" class="card-img-top" alt="Clermont-Ferrand, France" />
     <div class="card-header">The Puy de Dôme</div>
     <div style="font-size: 0.9rem;">
@@ -88,7 +88,7 @@ To reach the Puy de Dôme it's around 25min from the city center or there's shut
     </div>
   </div>
 
-  <div class="card" style="min-width: 40%; max-width: 50%;">
+  <div class="card" style="flex: 1 1 340px;">
     <img src="/images/events/gcc2026/lemptegy.jpg" class="card-img-top" alt="Clermont-Ferrand, France" />
     <div class="card-header">Vulcania & Volcan de Lemptegy</div>
     <div style="font-size: 0.9rem;">
@@ -121,7 +121,7 @@ Must-try specialties include:
 No visit is complete without sampling **Puy lentils**, a prized local delicacy renowned for their **nutty flavor and firm texture**. Whether you're indulging in a rustic meal or exploring gourmet creations, Auvergne's cuisine promises an unforgettable taste of its volcanic terroir.
 
 <div class="card-deck lead">
-  <div class="card" style="min-width: 30%; max-width: 32.2%;">
+  <div class="card" style="flex: 1 1 200px;">
     <img src="/images/events/gcc2026/saint_nectaire.jpg" class="card-img-top" alt="Saint-Nectaire" />
     <div style="font-size: 0.9rem;">
     
@@ -131,7 +131,7 @@ Saint-Nectaire
     </div>
   </div>
   
-  <div class="card" style="min-width: 30%; max-width: 32.2%;">
+  <div class="card" style="flex: 1 1 200px;">
     <img src="/images/events/gcc2026/aligot.jpg" class="card-img-top" alt="Saint-Nectaire" />
     <div style="font-size: 0.9rem;">
 
@@ -141,7 +141,7 @@ Aligot
     </div>
   </div>
   
-  <div class="card" style="min-width: 30%; max-width: 32.2%;">
+  <div class="card" style="flex: 1 1 200px;">
     <img src="/images/events/gcc2026/lentilles.jpg" class="card-img-top" alt="Saint-Nectaire" />
     <div style="font-size: 0.9rem;">
 
