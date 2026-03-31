@@ -42,7 +42,7 @@ contributions:
 
   <!-- About GCC -->
   <div class="card" style="flex: 1 1 280px;">
-    <img src="/images/events/gcc2026/cartoon-conference-v2.png" class="card-img-top" alt="GCC conference series" />
+    <img src="/images/events/gcc2026/group_photo.jpg" class="card-img-top" style="height: 280px; object-fit: cover;" alt="GCC conference attendees" />
     <div class="card-header">About GCC conference series</div>
 
 The [Galaxy Community Conference (GCC)](/gcc) has been the central gathering of the Galaxy
@@ -59,7 +59,7 @@ community collectively decides what Galaxy becomes next.**
 
   <!-- Highlights -->
   <div class="card" style="flex: 1 1 280px;">
-    <img src="/images/events/gcc2026/cartoon-highlights.png" class="card-img-top" alt="Highlighted Talks" />
+    <img src="/images/events/gcc2026/keynote.jpg" class="card-img-top" style="height: 280px; object-fit: cover;" alt="GCC2026 keynote presentation" />
     <div class="card-header">Highlighted Talks</div>
 
 GCC2026 brings a rich and varied program of talks spanning invited keynotes, community-submitted
@@ -83,7 +83,7 @@ This year's highlights include:
 
   <!-- Fellowships -->
   <div class="card" style="flex: 1 1 280px;">
-    <img src="/images/events/gcc2026/cartoon-fellowship.png" class="card-img-top" alt="GCC2026 Fellowships" />
+    <img src="/images/events/gcc2026/fellowship.jpg" class="card-img-top" style="height: 280px; object-fit: cover;" alt="GCC2026 fellowship recipients" />
     <div class="card-header">GCC2026 Fellowships</div>
 
 Financial support should not be a barrier to participating in the Galaxy community.
@@ -101,7 +101,7 @@ for full details on eligibility and application deadlines.
 
   <!-- Host -->
   <div class="card" style="flex: 1 1 280px;">
-    <img src="/images/events/gcc2026/cartoon-clermont-auvergne-v2.png" class="card-img-top" alt="GCC2026 host" />
+    <img src="/images/events/gcc2026/cartoon-clermont-auvergne-v2.png" class="card-img-top" style="height: 280px; object-fit: cover;" alt="GCC2026 host" />
     <div class="card-header">GCC2026 Host</div>
 
 **GCC2026 is hosted by the [Université Clermont Auvergne](https://www.uca.fr/)
@@ -122,7 +122,7 @@ The Galaxy project is thrilled to be hosted by UCA!
 
   <!-- Cofest -->
   <div class="card" style="flex: 1 1 280px;">
-    <img src="/images/events/gcc2026/cartoon-cofest.png" class="card-img-top" alt="GCC2026 cofest" />
+    <img src="/images/events/gcc2026/cofest.jpg" class="card-img-top" style="height: 280px; object-fit: cover;" alt="GCC2026 CoFest participants" />
     <div class="card-header">GCC2026 CoFest</div>
 
 CoFest is two days of hands-on, community-driven work immediately following the main
@@ -140,7 +140,7 @@ Join us at **[CoFest](/events/gcc2026/cofest/)**
 
   <!-- Destination -->
   <div class="card" style="flex: 1 1 280px;">
-    <img src="/images/events/gcc2026/cartoon-clermont-ferrand-v2.png" class="card-img-top" alt="Clermont-Ferrand, France" />
+    <img src="/images/events/gcc2026/clermont.jpg" class="card-img-top" style="height: 280px; object-fit: cover;" alt="Clermont-Ferrand, France" />
     <div class="card-header">Clermont-Ferrand, France</div>
 
 **Nestled in the heart of central France**, Clermont-Ferrand is a city framed by
