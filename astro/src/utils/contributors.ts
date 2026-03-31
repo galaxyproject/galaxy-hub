@@ -339,13 +339,11 @@ export function extractAuthors(data: Record<string, unknown>): string[] {
 
 /**
  * Extract funding/supporter identifiers from content entry data.
- * Uses explicit contribution metadata; ignores legacy supporters.
+ * Uses explicit contribution metadata only.
  */
 export function extractFunding(data: Record<string, unknown>): string[] {
   const contrib = (data.contributions as Record<string, unknown>) || {};
-  const funding = [...toArray(contrib.funding), ...toArray(contrib.infrastructure), ...toArray(data.data)].filter(
-    Boolean
-  );
+  const funding = [...toArray(contrib.funding), ...toArray(contrib.infrastructure)].filter(Boolean);
 
   return uniqueStrings(funding);
 }

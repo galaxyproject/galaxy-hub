@@ -6,7 +6,7 @@ test.describe('Contributions funding precedence', () => {
 
     const cards = page.locator('[data-supporter-card]');
     await expect(cards.filter({ hasText: 'NFDI4Bioimage' })).toBeVisible();
-    await expect(cards.filter({ hasText: 'University of Freiburg' })).toBeVisible();
+    await expect(cards.filter({ hasText: 'UFR' })).toBeVisible();
 
     // Funding list includes deNBI and it should be rendered from contributions.funding
     await expect(cards.filter({ hasText: /de\.?NBI/i })).toBeVisible();

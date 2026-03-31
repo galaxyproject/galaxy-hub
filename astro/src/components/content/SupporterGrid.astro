@@ -48,13 +48,13 @@ const { supporters = [], title = 'Supporters' } = Astro.props;
             </div>
             <div class="supporter-text">
               <p class="supporter-name">{supporter.name}</p>
-              {supporter.website && (
+              {supporter.url && (
                 <p class="supporter-url">
                   {(() => {
                     try {
-                      return new URL(supporter.website).hostname.replace(/^www\./, '');
+                      return new URL(supporter.url).hostname.replace(/^www\./, '');
                     } catch {
-                      return supporter.website;
+                      return supporter.url;
                     }
                   })()}
                 </p>
