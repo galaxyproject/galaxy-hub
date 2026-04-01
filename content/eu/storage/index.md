@@ -223,6 +223,7 @@ The automatic cleaning of this storage works like this:
 
 ⚠️ To enable collaborative exploratory data analysis we do allow sharing of data in this short-term storage, but please be aware that as old data is deleted,
 this might confuse your collaboration partner.
+⚠️ Currently, there is no way to move data from short term storage to long term storage. (If you really want to keep some of your data, you can use the cat tool and output the data to a different storage or download the history and then upload it again once you've changed your settings to long term storage.)
 
 <div align="center">
     <img src="/images/undraw-illustrations/throw-away.svg" alt="Icon that depicts a person that throws away some data." height="100"/>
