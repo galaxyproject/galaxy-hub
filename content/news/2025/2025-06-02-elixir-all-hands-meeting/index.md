@@ -12,6 +12,7 @@ contributions:
     - eurosciencegateway
     - uni-freiburg
     - elixir-europe
+    - elixir-steers
 ---
 
 The [11th ELIXIR All Hands meeting](https://elixir-events.eventscase.com/EN/ahm2025) was held in Thessaloniki, Greece, from June 02 to 05, 2025. The Europen Galaxy team members from University of Freiburg attended this meeting, which aimed to bring together members of the ELIXIR community from across the ELIXIR Nodes, as well as collaborators from partner organisations, to review ELIXIR's achievements and activities and discuss future plans.

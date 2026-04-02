@@ -21,7 +21,7 @@ contributions:
     - vib
     - deNBI
     - mwk
-    - elixir-europe
+    - elixir-steers
     - cesnet
     - elixir-cz
 ---

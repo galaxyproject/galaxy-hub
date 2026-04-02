@@ -9,7 +9,7 @@ contributions:
   funding:
     - eu
     - eurosciencegateway
-    - elixir-europe
+    - elixir-steers
     - AustralianBioCommons
 ---
 
