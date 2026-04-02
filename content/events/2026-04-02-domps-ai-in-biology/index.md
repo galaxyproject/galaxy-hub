@@ -14,6 +14,12 @@ subsites: [all]
 contributions:
   instructors:
     - anuprulez
+  funding:
+    - deNBI
+    - uni-freiburg
+    - elixir-europe
+    - nfdi4plants
+    - nfdi
 ---
 
 
