@@ -27,7 +27,7 @@ contributions:
 ### Held in the spectacular [Clermont-Ferrand, France](https://maps.app.goo.gl/g3g3MMivnyHMxVM16)
 
   <div class="lead">
-    The flagship Galaxy event of the year brings together research leaders, principal investigators, and decision-makers from leading institutions worldwide to shape the future of data-intensive science and drive strategic initiatives in computational biology.
+    The annual gathering of the Galaxy community — researchers, developers, educators, and users from around the world — to share science, build connections, and shape the future of open data analysis.
   </div>
   <div class="flex flex-wrap justify-center gap-3 my-5">
     <a target="_blank" href="https://gaggle.email/join/gcc2026-announce@gaggle.email" class="inline-flex items-center justify-center rounded px-8 py-2 text-sm font-semibold text-white bg-galaxy-primary hover:bg-galaxy-dark no-underline hover:no-underline">Sign up for email announcements</a>
@@ -41,57 +41,64 @@ contributions:
 <div class="card-deck lead">
 
   <!-- About GCC -->
-  <div class="card" style="min-width: 30%; max-width: 32.2%;">
-    <img src="/images/events/gcc2026/cartoon-conference-v2.png" class="card-img-top" alt="GCC conference series" />
+  <div class="card" style="flex: 1 1 280px;">
+    <img src="/images/events/gcc2026/group_photo.jpg" class="card-img-top" style="height: 280px; object-fit: cover;" alt="GCC conference attendees" />
     <div class="card-header">About GCC conference series</div>
 
-The [Galaxy Community Conference (GCC)](/gcc) is the premier annual gathering for
-research leaders, principal investigators, and institutional decision-makers advancing
-data-intensive science. **This conference provides a strategic forum for senior
-researchers to influence the direction of Galaxy development, establish collaborative
-partnerships, and explore how Galaxy can address institutional research priorities.**
+The [Galaxy Community Conference (GCC)](/gcc) has been the central gathering of the Galaxy
+community since 2010. GCC brings together everyone who uses, builds, or teaches Galaxy —
+from students running their first analyses to developers building the platform and
+researchers publishing high-impact results with it.
 
-GCC features keynote addresses from distinguished researchers, panel discussions on
-funding and strategic directions, and opportunities to shape Galaxy's roadmap. **Senior
-attendees gain insights into leveraging Galaxy for grant proposals, scaling institutional
-infrastructure, and building sustainable research programs while networking with leaders
-from top research institutions worldwide.**
+The conference spans invited keynotes, community-submitted talks, hands-on training, and
+the informal conversations that often turn out to be just as valuable as anything on the
+schedule. **It's where new collaborations begin, ideas get pressure-tested, and the
+community collectively decides what Galaxy becomes next.**
 
   </div>
 
   <!-- Highlights -->
-  <div class="card" style="min-width: 30%; max-width: 32.2%;">
-    <img src="/images/events/gcc2026/cartoon-highlights.png" class="card-img-top" alt="Highlighted Talks" />
+  <div class="card" style="flex: 1 1 280px;">
+    <img src="/images/events/gcc2026/keynote.jpg" class="card-img-top" style="height: 280px; object-fit: cover;" alt="GCC2026 keynote presentation" />
     <div class="card-header">Highlighted Talks</div>
 
-GCC2026 will feature keynote presentations from distinguished researchers and thought
-leaders addressing strategic challenges in data-intensive science, funding landscapes,
-and institutional infrastructure. These sessions will showcase high-impact research outcomes,
-discuss best practices for scaling Galaxy at the institutional level, and explore emerging
-opportunities for collaborative research initiatives. **Check out the [highlighted talks
-page](/events/gcc2026/highlights/) to learn more about these executive-level presentations.**
+GCC2026 features a program of invited keynotes, community talks, and open discussions
+covering the latest in Galaxy development, real-world research applications, and the
+future of open data analysis. This year's highlights include:
 
   <ul>
-    <li><strong>Galaxy Live!</strong> - See Galaxy in action, on the stage!</li>
-    <li><strong>Rayan Chikhi</strong> - "Assembling and exploring the world's sequencing data for biological discovery"</li>
-    <li><strong>Galaxy Community Update</strong> - Highlights from the Galaxy community</li>
-    <li><strong>Panel Discussion</strong> - Engage with a group of panelists to discuss hot Galaxy topics</li>
-    <li><strong>Galaxy in Research</strong> - See how Galaxy is being used to help with some cutting-edge research.</li>
+    <li><strong>Galaxy Live!</strong> — A live, on-stage reveal of new Galaxy features</li>
+    <li><strong>Rayan Chikhi</strong> — Keynote on assembling and exploring petabyte-scale sequencing data</li>
+    <li><strong>Galaxy Community Update</strong> — The state of the ecosystem, from the people building it</li>
+    <li><strong>Panel Discussion</strong> — An open conversation on what matters most to the community</li>
+    <li><strong>Galaxy in Research</strong> — Cutting-edge science powered by Galaxy</li>
   </ul>
+
+**See the [highlighted talks page](/events/gcc2026/highlights/) for details.**
 
   </div>
 
   <!-- Fellowships -->
-  <div class="card" style="min-width: 30%; max-width: 32.2%;">
-    <img src="/images/events/gcc2026/cartoon-fellowship.png" class="card-img-top" alt="GCC2026 Fellowships" />
+  <div class="card" style="flex: 1 1 280px;">
+    <img src="/images/events/gcc2026/fellowship.jpg" class="card-img-top" style="height: 280px; object-fit: cover;" alt="GCC2026 fellowship recipients" />
     <div class="card-header">GCC2026 Fellowships</div>
 
-We are pleased to offer several fellowship opportunities to support attendance at the Galaxy Community Conference 2026 in Clermont-Ferrand, France. These awards help build the next generation of Galaxy leaders by enabling early-career researchers to connect with senior investigators and participate in strategic discussions. **The fellowships are open to graduate students, postdoctoral researchers, and early-career scientists.** Senior researchers are encouraged to nominate exceptional candidates from their labs. Take a look at the [fellowships page](/events/gcc2026/fellowships/) for more details.
+Financial support should not be a barrier to participating in the Galaxy community.
+Several fellowship opportunities are available to assist attendees who need support
+to attend GCC2026.
+
+Awards from the **JXTX Foundation**, the **JJ Fund**, and the **Galaxy Community Fund**
+cover registration, travel, and accommodation for graduate students, postdoctoral
+researchers, and early-career scientists — with particular consideration for applicants
+from underrepresented backgrounds and lower-resourced institutions.
+
+**Eligible researchers are encouraged to apply.** See the [fellowships page](/events/gcc2026/fellowships/)
+for full details on eligibility and application deadlines.
   </div>
 
   <!-- Host -->
-  <div class="card" style="min-width: 30%; max-width: 32.2%">
-    <img src="/images/events/gcc2026/cartoon-clermont-auvergne-v2.png" class="card-img-top" alt="GCC2026 host" />
+  <div class="card" style="flex: 1 1 280px;">
+    <img src="/images/events/gcc2026/cartoon-clermont-auvergne-v2.png" class="card-img-top" style="height: 280px; object-fit: cover;" alt="GCC2026 host" />
     <div class="card-header">GCC2026 Host</div>
 
 **GCC2026 is hosted by the [Université Clermont Auvergne](https://www.uca.fr/)
@@ -111,21 +118,26 @@ The Galaxy project is thrilled to be hosted by UCA!
   </div>
 
   <!-- Cofest -->
-  <div class="card" style="min-width: 30%; max-width: 32.2%">
-    <img src="/images/events/gcc2026/cartoon-cofest.png" class="card-img-top" alt="GCC2026 cofest" />
+  <div class="card" style="flex: 1 1 280px;">
+    <img src="/images/events/gcc2026/cofest.jpg" class="card-img-top" style="height: 280px; object-fit: cover;" alt="GCC2026 CoFest participants" />
     <div class="card-header">GCC2026 CoFest</div>
 
-**CoFest provides a unique opportunity for strategic collaboration** where senior researchers and institutional leaders work alongside Galaxy developers to shape future priorities and capabilities. This interactive working session enables direct input into Galaxy's development roadmap and facilitates partnerships on institutional infrastructure challenges.
+CoFest is two days of hands-on, community-driven work immediately following the main
+conference. Participants self-organize into groups and spend the time contributing
+to whatever they care about most — new tools and workflows, platform improvements,
+documentation, training materials, or helping new contributors find their footing.
 
-CoFest participants engage in focused working groups addressing shared institutional needs and strategic priorities. It's an invaluable forum for PIs and research directors to influence Galaxy's evolution while building collaborative relationships with peers from leading research organizations.
+**Anyone is welcome, regardless of technical background.** Some groups write code;
+others work on tutorials, use cases, or community infrastructure. CoFest is one of
+the most direct ways to shape what Galaxy looks like next year.
 
 Join us at **[CoFest](/events/gcc2026/cofest/)**
 
   </div>
 
   <!-- Destination -->
-  <div class="card" style="min-width: 30%; max-width: 32.2%;">
-    <img src="/images/events/gcc2026/cartoon-clermont-ferrand-v2.png" class="card-img-top" alt="Clermont-Ferrand, France" />
+  <div class="card" style="flex: 1 1 280px;">
+    <img src="/images/events/gcc2026/clermont.jpg" class="card-img-top" style="height: 280px; object-fit: cover;" alt="Clermont-Ferrand, France" />
     <div class="card-header">Clermont-Ferrand, France</div>
 
 **Nestled in the heart of central France**, Clermont-Ferrand is a city framed by
@@ -147,11 +159,11 @@ The **[travel page](/events/gcc2026/travel/) has more details.**
 
 </div>
 
-# Join the GCC2026 Announce mailing list
+# Stay informed
 
-Want to stay in the loop about the conference? Sign up for the announcement
-mailing list and you'll be the first to know. And don't worry - no spamming here
-and no excessive emails.
+Sign up for the GCC2026 announcement list to receive updates on registration,
+abstract submission deadlines, program announcements, and fellowship opportunities.
+Low volume — only what matters.
 <div class="flex justify-center my-5">
   <a target="_blank" href="https://gaggle.email/join/gcc2026-announce@gaggle.email" class="inline-flex items-center justify-center rounded px-8 py-2 text-sm font-semibold text-white bg-galaxy-primary hover:bg-galaxy-dark no-underline hover:no-underline">Join GCC2026 Announce mailing list</a>
 </div>

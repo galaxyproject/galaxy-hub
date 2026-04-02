@@ -32,11 +32,11 @@ To contact the organizing committee, please send an email to
 GCC2026 is hosted by the [Université Clermont
 Auvergne](https://www.uca.fr/) and the [Institut Francais de Bioinformatique (ELIXIR-France)](https://www.ifb-elixir.fr/)
 
-<p align="center">
-    <img src="/images/events/gcc2026/logo_UCA.png" alt="Logo UCA" style="width:15%; margin-right:1.5em;" />
-    <img src="/images/logos/IFB.png" alt="Logo IFB" style="width:30%; margin-right:1.5em;" />
-    <img src="/images/logos/elixir_node_france.png" alt="Logo ELIXIR France" style="width:20%" />
-</p>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 2rem; margin: 1.5rem 0;">
+    <img src="/images/events/gcc2026/logo_UCA.png" alt="Logo UCA" style="height: 60px; width: auto;" />
+    <img src="/images/logos/IFB.png" alt="Logo IFB" style="height: 60px; width: auto;" />
+    <img src="/images/logos/elixir_node_france.png" alt="Logo ELIXIR France" style="height: 60px; width: auto;" />
+</div>
 
 
 # Scientific Program Committee

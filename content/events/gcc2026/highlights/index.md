@@ -2,56 +2,62 @@
 autotoc: false
 ---
 
+<style>
+.highlight-header { display: flex; flex-wrap: wrap; align-items: stretch; gap: 1.25rem; padding: 1.25rem 1.25rem 0; }
+.highlight-img-wrap { flex: 0 0 calc(35% - 0.75rem); min-height: 160px; overflow: hidden; border-radius: 0.375rem; }
+.highlight-img-wrap img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.highlight-title { flex: 1; min-width: 200px; display: flex; flex-direction: column; justify-content: center; }
+@media (max-width: 600px) {
+  .highlight-img-wrap { flex: 0 0 100%; min-height: 200px; border-radius: 0.375rem 0.375rem 0 0; }
+}
+</style>
+
 # GCC2026 Highlighted Talks
 
-Welcome to the highlighted talks for the 2026 Galaxy Community Conference. These
-keynote sessions bring together distinguished researchers, institutional leaders,
-and funding agency representatives to discuss strategic directions, large-scale
-infrastructure challenges, and opportunities for institutional collaboration.
-These presentations are designed for principal investigators, research directors,
-and senior scientists seeking to understand how Galaxy can advance institutional
-research priorities and support successful grant applications.
+The highlighted talks at GCC2026 bring together distinguished researchers and
+community leaders to share work, perspectives, and ideas that matter across the
+Galaxy ecosystem. From live demonstrations of new platform capabilities to keynote
+science, community-wide updates, and open discussion, these sessions offer a
+compelling look at where Galaxy stands today and where it is going.
 
+<div style="margin: 2rem 0; background: #f8f9fa; border-radius: 0.5rem; border-left: 4px solid #25537b; overflow: hidden;">
+<div class="highlight-header">
+<div class="highlight-img-wrap">
+<img src="/images/events/gcc2026/galaxy-live.png" style="width: 100%; height: 100%; object-fit: cover; display: block;" alt="Galaxy Live!" />
+</div>
+<div class="highlight-title">
+<div style="font-size: 1.25rem; font-weight: 700;">Galaxy Live!</div>
+<div style="color: #555; margin-top: 0.25rem;">See Galaxy in action, on the stage!</div>
+</div>
+</div>
+<div style="padding: 1rem 1.5rem 1.5rem;">
 
-<table style="width: 100%">
-  <tbody>
-    <tr class="lead text-left" style="background-color: white">
-      <td style="border: 0; width: 20%;">
-        <img src="/images/events/gcc2026/galaxy-live.png" style="max-height: 200px;" alt="Galaxy Live!" />
-      </td>
-      <td style="border: 0;">
-        <strong>Galaxy Live!</strong><br/>
-        See Galaxy in action, on the stage!<br/><br/>
-      </td>
-    </tr>
-  </tbody>
-</table>
+Galaxy Live! is GCC's signature product demonstration — a live, on-stage reveal of
+what's new in Galaxy. Think less lecture, more launch event. The presenter works
+directly in the platform, unveiling new features and capabilities in real time,
+showing how they work, and demonstrating what becomes possible with them.
 
-Galaxy Live! showcases Galaxy's enterprise-level capabilities and institutional
-scalability through a real-world demonstration. This session illustrates how
-Galaxy's infrastructure supports large-scale research programs, facilitates
-multi-investigator collaborations, and enables reproducible workflows that
-satisfy funding agency requirements. Senior researchers will gain insights into
-Galaxy's capacity to handle institutional data management challenges, support
-diverse research teams, and provide the robust infrastructure needed for
-sustainable, grant-funded research programs.
+This session is where the community gets its first look at the tools and workflows
+that will define the next year of Galaxy development. Whether you're a longtime user
+curious about what's changed or someone evaluating Galaxy's capabilities for the
+first time, Galaxy Live! gives you an immediate, concrete sense of what the platform
+can do — no prior knowledge required.
 
-<hr/>
+</div>
+</div>
 
-<table style="width: 100%">
-  <tbody>
-    <tr class="lead text-left" style="background-color: white">
-      <td style="border: 0; width: 20%;">
-        <img src="/images/events/gcc2026/rayan-chikhi.jpg" style="max-height: 200px;" alt="Rayan Chikhi" />
-      </td>
-      <td style="border: 0;">
-        <strong>Rayan Chikhi</strong><br/>
-        Talk title: <strong>Assembling and exploring the world's sequencing data for biological discovery</strong><br/><br/>
-        Institut Pasteur, France<br/>
-      </td>
-    </tr>
-  </tbody>
-</table>
+<div style="margin: 2rem 0; background: #f8f9fa; border-radius: 0.5rem; border-left: 4px solid #25537b; overflow: hidden;">
+<div class="highlight-header">
+<div class="highlight-img-wrap">
+<img src="/images/events/gcc2026/rayan-chikhi.jpg" style="width: 100%; height: 100%; object-fit: cover; object-position: top; display: block;" alt="Rayan Chikhi" />
+</div>
+<div class="highlight-title">
+<div style="font-size: 1.25rem; font-weight: 700;">Rayan Chikhi</div>
+<div style="color: #555; margin-top: 0.25rem;"><em>Assembling and exploring the world's sequencing data for biological discovery</em></div>
+<div style="color: #777; font-size: 0.9rem; margin-top: 0.25rem;">Institut Pasteur, France</div>
+</div>
+</div>
+<div style="padding: 1rem 1.5rem 1.5rem;">
 
 Rayan Chikhi is a computer scientist and group leader at Institut Pasteur, where
 he heads the Sequence Bioinformatics research group in the Department of
@@ -66,85 +72,87 @@ initiated the Logan project, an assembly and index of petabase-scale public DNA
 and RNA sequencing data, then used it to search the data at scale to discover
 new viruses and plastic-degrading enzymes.
 
-<hr/>
+</div>
+</div>
 
-<table style="width: 100%">
-  <tbody>
-    <tr class="lead text-left" style="background-color: white">
-      <td style="border: 0; width: 20%;">
-        <img src="/images/events/gcc2026/community-update.jpg" style="max-height: 200px;" alt="Galaxy Community Update" />
-      </td>
-      <td style="border: 0;">
-        <strong>Galaxy Community Update</strong><br/>
-        Highlights from the Galaxy community.<br/><br/>
-      </td>
-    </tr>
-  </tbody>
-</table>
+<div style="margin: 2rem 0; background: #f8f9fa; border-radius: 0.5rem; border-left: 4px solid #25537b; overflow: hidden;">
+<div class="highlight-header">
+<div class="highlight-img-wrap">
+<img src="/images/events/gcc2026/community-update.jpg" style="width: 100%; height: 100%; object-fit: cover; display: block;" alt="Galaxy Community Update" />
+</div>
+<div class="highlight-title">
+<div style="font-size: 1.25rem; font-weight: 700;">Galaxy Community Update</div>
+<div style="color: #555; margin-top: 0.25rem;">Highlights from the Galaxy community.</div>
+</div>
+</div>
+<div style="padding: 1rem 1.5rem 1.5rem;">
 
-The Galaxy Community Update provides strategic insights into Galaxy's governance,
-funding landscape, and institutional adoption trends. This session highlights major
-institutional deployments, successful grant outcomes leveraging Galaxy infrastructure,
-and strategic partnerships between leading research organizations. Senior attendees
-will learn about Galaxy's roadmap priorities, opportunities for institutional
-influence on development directions, and models for sustainable Galaxy infrastructure
-at the institutional level. The session includes case studies of how major research
-institutions have successfully integrated Galaxy into their research computing
-strategies and secured funding for Galaxy-based research programs.
+The Galaxy Community Update is the annual state-of-the-ecosystem address — a
+comprehensive look at everything that has happened in the Galaxy world over the past
+year and a forward-looking preview of what is coming next. The session covers major
+platform developments, new and evolving integrations, growth across the global
+community, and shifts in how Galaxy is being deployed and used at scale.
 
-<hr/>
+Beyond the technical, this session also touches on Galaxy's governance, key
+institutional partnerships, and the collaborative initiatives shaping the platform's
+direction. It is the single best place to get oriented on the full scope of the
+Galaxy project, whether you are deeply embedded in the community or just beginning
+to explore what Galaxy can offer your work.
 
-<table style="width: 100%">
-  <tbody>
-    <tr class="lead text-left" style="background-color: white">
-      <td style="border: 0; width: 20%;">
-        <img src="/images/events/gcc2026/cartoon-highlights.png" style="max-height: 200px;" alt="Panel Discussion" />
-      </td>
-      <td style="border: 0;">
-        <strong>Panel Discussion</strong><br/>
-        Engage with a group of panelists to discuss hot Galaxy topics.<br/><br/>
-      </td>
-    </tr>
-  </tbody>
-</table>
+</div>
+</div>
 
-The Panel Discussion convenes principal investigators, research directors, and
-institutional leaders to discuss strategic challenges in scaling data-intensive
-research infrastructure. Topics include funding strategies for computational
-biology infrastructure, institutional models for sustainable Galaxy deployments,
-approaches to multi-PI collaborative research, and navigating funding agency
-requirements for open science and reproducibility. This interactive session
-provides a forum for senior researchers to share experiences, discuss strategic
-approaches, and engage directly with Galaxy leadership on institutional priorities
-and development roadmap decisions.
+<div style="margin: 2rem 0; background: #f8f9fa; border-radius: 0.5rem; border-left: 4px solid #25537b; overflow: hidden;">
+<div class="highlight-header">
+<div class="highlight-img-wrap">
+<img src="/images/events/gcc2026/cartoon-highlights.png" style="width: 100%; height: 100%; object-fit: cover; display: block;" alt="Panel Discussion" />
+</div>
+<div class="highlight-title">
+<div style="font-size: 1.25rem; font-weight: 700;">Panel Discussion</div>
+<div style="color: #555; margin-top: 0.25rem;">Engage with a group of panelists to discuss hot Galaxy topics.</div>
+</div>
+</div>
+<div style="padding: 1rem 1.5rem 1.5rem;">
 
-<hr/>
+The Panel Discussion is one of the most anticipated sessions at GCC — a structured
+but open conversation on the topics the community is wrestling with most. A group of
+panelists drawn from research, development, and community leadership will engage with
+questions around the real challenges of data-intensive science: scaling analyses,
+sustaining infrastructure, enabling reproducibility, and building the collaborative
+frameworks that modern research demands.
 
-<table style="width: 100%">
-  <tbody>
-    <tr class="lead text-left" style="background-color: white">
-      <td style="border: 0; width: 20%;">
-        <img src="/images/events/gcc2026/galaxy-in-research.png" style="max-height: 200px;" alt="Galaxy in Research" />
-      </td>
-      <td style="border: 0;">
-        <strong>Galaxy in Research</strong><br/>
-        See how Galaxy is being used to help with some cutting-edge research.<br/><br/>
-      </td>
-    </tr>
-  </tbody>
-</table>
+The format is intentionally interactive. Audience questions and contributions are
+central to the session, not an afterthought. Topics shift from year to year based on
+what the community brings, making this one of the most authentic and unpredictable
+sessions on the program.
 
-This session showcases institutional success stories where Galaxy infrastructure
-has enabled major research breakthroughs, supported successful grant applications,
-and facilitated large-scale collaborative programs. Featured case studies highlight
-how principal investigators have leveraged Galaxy to secure funding, build
-sustainable research programs, meet funding agency requirements for reproducibility
-and data sharing, and establish productive multi-institutional collaborations.
+</div>
+</div>
 
-Senior researchers will gain practical insights into positioning Galaxy in grant
-proposals, building institutional Galaxy capabilities, and demonstrating research
-impact to stakeholders and funding agencies. If your institution has achieved
-significant research outcomes using Galaxy, we encourage you to share your
-success story!
+<div style="margin: 2rem 0; background: #f8f9fa; border-radius: 0.5rem; border-left: 4px solid #25537b; overflow: hidden;">
+<div class="highlight-header">
+<div class="highlight-img-wrap">
+<img src="/images/events/gcc2026/galaxy-in-research.png" style="width: 100%; height: 100%; object-fit: cover; display: block;" alt="Galaxy in Research" />
+</div>
+<div class="highlight-title">
+<div style="font-size: 1.25rem; font-weight: 700;">Galaxy in Research</div>
+<div style="color: #555; margin-top: 0.25rem;">See how Galaxy is being used to help with some cutting-edge research.</div>
+</div>
+</div>
+<div style="padding: 1rem 1.5rem 1.5rem;">
 
-<hr/>
+Galaxy in Research showcases the science that Galaxy makes possible. These
+community-submitted talks feature researchers presenting work where Galaxy played
+a central role — spanning genomics, proteomics, climate science, imaging, and
+beyond. The session is a testament to the breadth of what the platform supports
+and the caliber of research being done with it.
+
+Each talk offers a window into how a real research team approached a hard problem,
+which tools and workflows they built or relied on, and what they discovered as a
+result. Taken together, they paint a compelling picture of Galaxy as a platform
+for serious, reproducible, large-scale science. If your group has done significant
+work using Galaxy, we encourage you to submit an abstract and share it with the
+community.
+
+</div>
+</div>
