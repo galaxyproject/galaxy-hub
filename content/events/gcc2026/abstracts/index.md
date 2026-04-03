@@ -5,8 +5,15 @@ autotoc: false
 # GCC2026 abstracts
 
 <div class="flex justify-center my-5">
-  <a href="https://v4.event-vert.org/en/gcc2026?form=abstracts" class="inline-flex items-center justify-center rounded px-8 py-2 text-sm font-semibold text-white bg-galaxy-primary hover:bg-galaxy-dark no-underline hover:no-underline">Submit an abstract</a>
+  <a href="https://v4.event-vert.org/en/gcc2026/login.html" class="inline-flex items-center justify-center rounded px-8 py-2 text-sm font-semibold text-white bg-galaxy-primary hover:bg-galaxy-dark no-underline hover:no-underline">Submit an abstract</a>
 </div>
+
+**Note about submission**: You must <a href="https://v4.event-vert.org/en/gcc2026"
+class="underline hover:no-underline">register</a> before submitting an abstract.
+Once logged into the submission system, click "Edit my summary" to submit an
+abstract. Only one abstract can be submitted per registered user. If you have
+multiple abstracts to submit, please ask one of the co-authors to submit on your
+behalf.
 
 Presentations from the community are a core component of GCCs. These include
 oral, poster, and demo presentations. All the abstracts for presentations are
@@ -19,6 +26,16 @@ greatly. Topics of interest include but are not limited to the following areas:
 * New or improved features within the Galaxy framework
 * Outreach, training, and education in data science with Galaxy
 * Tools and data integrated with Galaxy
+
+Until all the submissions are in, we cannot determine the length of individual
+talks, but in all likelihood, each talk will be 10-15 minutes.
+
+If you select **Talk & poster** option during submission, then you will be
+expected to give a talk and also present a poster. If you select **Talk only**
+option during submission, then you will be expected to give a talk but not
+present a poster. If you select **Poster only** or **Demo only** option during
+submission, then you will only be expected to present a poster or demo. Posters
+and demos will be presented during dedicated poster/demo sessions.
 
 **For GCC2026, all presentations must be in-person** so if you cannot attend the
 conference in Clermont-Ferrand, please do not submit an abstract. By submitting an abstract,

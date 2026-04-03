@@ -32,7 +32,7 @@ contributions:
   <div class="flex flex-wrap justify-center gap-3 my-5">
     <a target="_blank" href="https://gaggle.email/join/gcc2026-announce@gaggle.email" class="inline-flex items-center justify-center rounded px-8 py-2 text-sm font-semibold text-white bg-galaxy-primary hover:bg-galaxy-dark no-underline hover:no-underline">Sign up for email announcements</a>
     <a href="https://v4.event-vert.org/en/gcc2026" class="inline-flex items-center justify-center rounded px-8 py-2 text-sm font-semibold text-white bg-galaxy-primary hover:bg-galaxy-dark no-underline hover:no-underline">Register now</a>
-    <a href="https://v4.event-vert.org/en/gcc2026?form=abstracts" class="inline-flex items-center justify-center rounded px-8 py-2 text-sm font-semibold text-white bg-galaxy-primary hover:bg-galaxy-dark no-underline hover:no-underline">Submit an abstract</a>
+    <a href="/events/gcc2026/abstracts" class="inline-flex items-center justify-center rounded px-8 py-2 text-sm font-semibold text-white bg-galaxy-primary hover:bg-galaxy-dark no-underline hover:no-underline">Submit an abstract</a>
   </div>
 </div>
 
