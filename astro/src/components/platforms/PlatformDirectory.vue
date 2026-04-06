@@ -248,7 +248,7 @@ function getHostname(url: string): string {
     <!-- Platform Grid -->
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       <a v-for="platform in filteredPlatforms" :key="platform.slug" :href="`/${platform.slug}/`" class="block group">
-        <Card class="h-full hover:shadow-lg transition-shadow border-t-4 border-t-galaxy-primary">
+        <Card class="h-full hover:shadow-md transition-shadow border-t-4 border-t-galaxy-primary">
           <CardHeader class="pb-2">
             <div class="flex items-start justify-between">
               <CardTitle class="text-lg text-gray-900 group-hover:text-galaxy-primary transition-colors">

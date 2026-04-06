@@ -23,7 +23,7 @@ const embedUrl = computed(() => {
 
 <template>
   <div class="calendar-embed my-6">
-    <div v-if="embedUrl" class="rounded-lg overflow-hidden shadow-lg">
+    <div v-if="embedUrl" class="rounded-lg overflow-hidden shadow-md">
       <iframe :src="embedUrl" class="w-full h-[600px] border-0" frameborder="0" scrolling="no"></iframe>
     </div>
     <div v-else class="p-4 bg-gray-100 rounded-lg text-center">

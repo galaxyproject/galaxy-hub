@@ -68,7 +68,7 @@ const videoInfo = computed(() => {
     <!-- YouTube/Vimeo iframe embed -->
     <div
       v-if="videoInfo.type === 'youtube' || videoInfo.type === 'vimeo'"
-      class="aspect-video w-full max-w-3xl mx-auto rounded-lg overflow-hidden shadow-lg"
+      class="aspect-video w-full max-w-3xl mx-auto rounded-lg overflow-hidden shadow-md"
     >
       <iframe
         :src="videoInfo.embedUrl"
@@ -85,7 +85,7 @@ const videoInfo = computed(() => {
       v-else-if="videoInfo.type === 'native'"
       :src="videoInfo.src"
       controls
-      class="w-full max-w-3xl mx-auto rounded-lg shadow-lg"
+      class="w-full max-w-3xl mx-auto rounded-lg shadow-md"
     >
       <p>Your browser does not support the video element.</p>
     </video>
