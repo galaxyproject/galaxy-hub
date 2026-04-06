@@ -157,7 +157,7 @@ function getCollectionFilterLabel(collection: string): string {
 
 function getCollectionColor(collection: string): string {
   const colors: Record<string, string> = {
-    articles: 'bg-blue-100 text-blue-800',
+    articles: 'bg-galaxy-primary/10 text-galaxy-primary',
     events: 'bg-green-100 text-green-800',
     platforms: 'bg-purple-100 text-purple-800',
     news: 'bg-cyan-100 text-cyan-800',

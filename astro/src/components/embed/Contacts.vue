@@ -67,7 +67,7 @@ defineProps<{
               :href="`https://twitter.com/${contact.twitter}`"
               target="_blank"
               rel="noopener noreferrer"
-              class="text-sm text-blue-500 hover:text-blue-600 flex items-center gap-1"
+              class="text-sm text-galaxy-primary hover:text-galaxy-gold flex items-center gap-1"
             >
               <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
                 <path

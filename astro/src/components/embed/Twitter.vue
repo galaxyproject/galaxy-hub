@@ -60,7 +60,7 @@ onMounted(async () => {
         :href="tweetUrl || `https://twitter.com/i/status/${id}`"
         target="_blank"
         rel="noopener noreferrer"
-        class="text-blue-600 hover:underline"
+        class="text-galaxy-primary hover:underline"
       >
         View on Twitter
       </a>

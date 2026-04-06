@@ -98,7 +98,7 @@ const videoInfo = computed(() => {
         :href="src || url"
         target="_blank"
         rel="noopener noreferrer"
-        class="text-blue-600 hover:underline"
+        class="text-galaxy-primary hover:underline"
       >
         Open video
       </a>

@@ -76,7 +76,7 @@ function esgUrl(path: string): string {
         exchange and integration of internationally distributed data. Exploiting this data is still a laborious and
         largely manual task, prone to losses and errors, and increasingly specialized beyond most users technical
         capabilities.
-        <a href="https://doi.org/10.1038/sdata.2016.18" class="text-blue-600 hover:underline">FAIR practices</a>
+        <a href="https://doi.org/10.1038/sdata.2016.18" class="text-galaxy-primary hover:underline">FAIR practices</a>
         are encouraged but their adoption curve is steep.
       </p>
 
@@ -95,14 +95,14 @@ function esgUrl(path: string): string {
     objectives && (
       <section class="mb-12">
         <h2 id="objectives" class="text-2xl font-light text-gray-700 mb-6">
-          <a href="#objectives" class="hover:text-blue-600">
+          <a href="#objectives" class="hover:text-galaxy-gold">
             {objectives.heading || 'Objectives'}
           </a>
         </h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {objectives.objectives?.map((obj: any) => (
-            <div class="border-2 border-blue-500 rounded-lg overflow-hidden">
-              <h3 class="bg-blue-500 text-white px-4 py-2 text-sm font-medium">{obj.title}</h3>
+            <div class="border-2 border-galaxy-primary rounded-lg overflow-hidden">
+              <h3 class="bg-galaxy-primary text-white px-4 py-2 text-sm font-medium">{obj.title}</h3>
               <p class="p-4 text-sm text-gray-700">{obj.content}</p>
             </div>
           ))}
@@ -116,7 +116,7 @@ function esgUrl(path: string): string {
     externalLinks && (
       <section class="mb-12">
         <h2 id="projects" class="text-2xl font-light text-gray-700 mb-6">
-          <a href="#projects" class="hover:text-blue-600">
+          <a href="#projects" class="hover:text-galaxy-gold">
             {externalLinks.heading || 'Projects Part of ESG'}
           </a>
         </h2>
@@ -149,14 +149,14 @@ function esgUrl(path: string): string {
     expectedResults && (
       <section class="mb-12">
         <h2 id="results" class="text-2xl font-light text-gray-700 mb-6">
-          <a href="#results" class="hover:text-blue-600">
+          <a href="#results" class="hover:text-galaxy-gold">
             {expectedResults.heading || 'Expected Results'}
           </a>
         </h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {expectedResults.expected_results?.map((result: any) => (
-            <div class="border-2 border-blue-500 rounded-lg overflow-hidden">
-              <h3 class="bg-blue-500 text-white px-4 py-2 text-sm font-medium">{result.title}</h3>
+            <div class="border-2 border-galaxy-primary rounded-lg overflow-hidden">
+              <h3 class="bg-galaxy-primary text-white px-4 py-2 text-sm font-medium">{result.title}</h3>
               <p class="p-4 text-sm text-gray-700">{result.content}</p>
             </div>
           ))}
@@ -169,8 +169,8 @@ function esgUrl(path: string): string {
   <section class="mb-12">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
       <!-- News -->
-      <div class="border-2 border-blue-500 rounded-lg overflow-hidden">
-        <h2 class="bg-blue-500 text-white px-4 py-3 flex items-center gap-2">
+      <div class="border-2 border-galaxy-primary rounded-lg overflow-hidden">
+        <h2 class="bg-galaxy-primary text-white px-4 py-3 flex items-center gap-2">
           <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path
               stroke-linecap="round"
@@ -187,7 +187,7 @@ function esgUrl(path: string): string {
               <ul class="space-y-3 mb-4">
                 {esgNews.map((item) => (
                   <li>
-                    <a href={`/${item.data.slug}/`} class="text-blue-600 hover:underline text-sm">
+                    <a href={`/${item.data.slug}/`} class="text-galaxy-primary hover:underline text-sm">
                       {item.data.title}
                     </a>
                   </li>
@@ -207,8 +207,8 @@ function esgUrl(path: string): string {
       </div>
 
       <!-- Events -->
-      <div class="border-2 border-blue-500 rounded-lg overflow-hidden">
-        <h2 class="bg-blue-500 text-white px-4 py-3 flex items-center gap-2">
+      <div class="border-2 border-galaxy-primary rounded-lg overflow-hidden">
+        <h2 class="bg-galaxy-primary text-white px-4 py-3 flex items-center gap-2">
           <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path
               stroke-linecap="round"
@@ -224,10 +224,10 @@ function esgUrl(path: string): string {
               <ul class="space-y-3 mb-4">
                 {esgEvents.map((event) => (
                   <li class="flex gap-2">
-                    <span class="text-blue-600 font-medium text-sm whitespace-nowrap">
+                    <span class="text-galaxy-primary font-medium text-sm whitespace-nowrap">
                       {formatDate(event.data.date)}
                     </span>
-                    <a href={`/${event.data.slug}/`} class="text-gray-700 hover:text-blue-600 text-sm">
+                    <a href={`/${event.data.slug}/`} class="text-gray-700 hover:text-galaxy-gold text-sm">
                       {event.data.title}
                     </a>
                   </li>
@@ -253,11 +253,11 @@ function esgUrl(path: string): string {
     partners && (
       <section class="mb-12">
         <h2 id="partners" class="text-2xl font-light text-gray-700 mb-6">
-          <a href="#partners" class="hover:text-blue-600">
+          <a href="#partners" class="hover:text-galaxy-gold">
             Project Partners
           </a>
         </h2>
-        <div class="border-2 border-blue-500 rounded-lg p-6">
+        <div class="border-2 border-galaxy-primary rounded-lg p-6">
           <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
             {partners.partners?.map((partner: any) => (
               <a
