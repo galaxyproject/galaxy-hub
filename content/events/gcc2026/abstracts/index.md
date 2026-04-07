@@ -5,7 +5,7 @@ autotoc: false
 # GCC2026 abstracts
 
 <div class="alert alert-info" role="alert">
-<strong>Update (April 6):</strong> Due to a technical issue, the abstract submission for talks has been extended to April 7 10:00 PM US EST.
+<strong>Update (April 6):</strong> Due to a technical issue, the abstract submission for talks has been extended to April 7, 11:29 PM US PT.
 </div>
 
 <div class="flex justify-center my-5">
