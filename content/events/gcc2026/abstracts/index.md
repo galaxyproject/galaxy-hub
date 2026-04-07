@@ -5,10 +5,7 @@ autotoc: false
 # GCC2026 abstracts
 
 <div class="alert alert-info" role="alert">
-<strong>Update (April 6):</strong> The abstract submission portal is currently
-experiencing issues. It will reopen tomorrow (April 7) with submissions accepted
-until at least 10:00 PM Eastern. We apologize for the inconvenience and
-appreciate your patience.
+<strong>Update (April 6):</strong> Due to a technical issue, the abstract submission for talks has been extended to April 7 10:00 PM US EST.
 </div>
 
 <div class="flex justify-center my-5">
@@ -17,10 +14,8 @@ appreciate your patience.
 
 **Note about submission**: You must <a href="https://v4.event-vert.org/en/gcc2026"
 class="underline hover:no-underline">register</a> before submitting an abstract.
-Once logged into the submission system, click "Edit my summary" to submit an
-abstract. Only one abstract can be submitted per registered user. If you have
-multiple abstracts to submit, please ask one of the co-authors to submit on your
-behalf.
+Once logged into the submission system, click "Edit my summaries" to submit an
+abstract.
 
 Presentations from the community are a core component of GCCs. These include
 oral, poster, and demo presentations. All the abstracts for presentations are
