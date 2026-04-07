@@ -4,6 +4,13 @@ autotoc: false
 
 # GCC2026 abstracts
 
+<div class="alert alert-info" role="alert">
+<strong>Update (April 6):</strong> The abstract submission portal is currently
+experiencing issues. It will reopen tomorrow (April 7) with submissions accepted
+until at least 10:00 PM Eastern. We apologize for the inconvenience and
+appreciate your patience.
+</div>
+
 <div class="flex justify-center my-5">
   <a href="https://v4.event-vert.org/en/gcc2026/login.html" class="inline-flex items-center justify-center rounded px-8 py-2 text-sm font-semibold text-white bg-galaxy-primary hover:bg-galaxy-dark no-underline hover:no-underline">Submit an abstract</a>
 </div>
@@ -45,7 +52,7 @@ you agree that at least one of the authors will register and present the work.
 
 | Date   | What |
 | -----: | ---  |
-| Apr 6 | Abstracts due for talks   |
+| Apr 7 | Abstracts due for talks   |
 | Apr 20  | Talk reviews returned     |
 | May 11 | Abstracts due for posters/demos |
 | May 18 | Poster/demo acceptance announcements |
