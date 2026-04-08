@@ -8,7 +8,7 @@ We are pleased to offer several fellowship opportunities to support attendance a
 
 ## JJ Fund Travel Fellowships
 
-We are please to annouced the 2 awardees of the JJ Fund Travel Fellowships
+We are please to annouced the awardee of the JJ Fund Travel Fellowships
 
 <table style="width: 100%">
   <tbody>
