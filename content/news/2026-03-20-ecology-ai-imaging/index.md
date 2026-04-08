@@ -11,8 +11,8 @@ contributions:
     - TuturBaba
     - nadinelebris
   funding:
-    - moorev         # grant
-    - fondfrance     # grant
+    - moorev       # grant
+    - fondfrance   # grant
     - pndb # organisation
     - mnhn # organisation
     - sorbonneuniv # organisation
