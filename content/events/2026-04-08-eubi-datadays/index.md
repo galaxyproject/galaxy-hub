@@ -1,6 +1,6 @@
 ---
 title: "Euro-BioImaging Image Data Community Days 2026"
-tease: "Join us at the Euro-BioImaging Image Data Community Days 2026 for a talk on image analysis in Galaxy."
+tease: "Join us at the Euro-BioImaging Image Data Community Days 2026 for a talk and workshop on image analysis in Galaxy."
 contact: "Beatriz Serrano-Solano, Diana Chiang Jurado"
 date: "2026-04-13"
 days: 5
