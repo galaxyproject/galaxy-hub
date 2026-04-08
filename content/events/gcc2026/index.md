@@ -24,7 +24,7 @@ contributions:
 
 ### June 22-24, 2026
 #### Plus [CoFest](/events/gcc2026/cofest/)! June 25-26, 2026
-### Held in the spectacular [Clermont-Ferrand, France](https://maps.app.goo.gl/g3g3MMivnyHMxVM16)
+### Held at IUT Clermont Auvergne University in the spectacular [Clermont-Ferrand, France](https://maps.app.goo.gl/g3g3MMivnyHMxVM16)
 
   <div class="lead">
     The annual gathering of the Galaxy community — researchers, developers, educators, and users from around the world — to share science, build connections, and shape the future of open data analysis.
