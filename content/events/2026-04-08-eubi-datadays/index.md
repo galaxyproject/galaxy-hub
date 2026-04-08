@@ -8,15 +8,16 @@ continent: "EU"
 location:
   name: Online, Global
 gtn: false
-tags: [talk, uni-freiburg, imaging, nfdi4bioimage, eubi]
+tags: [talk, uni-freiburg, imaging, bioimaging]
 subsites: [all-eu, global]
 autotoc: false
 contributions:
   organisers:
     - eubi
   funding:
-    - nfdi4bioimage
     - eubi
+  supporters:
+    - nfdi4bioimage
 ---
 
 [Euro-BioImaging](https://www.eurobioimaging.eu/) is hosting its annual **Image Data Community Days 2026**, a free 5-day online event bringing together imaging professionals, researchers, and students from around the globe for lectures, hands-on workshops, and networking sessions focused on bioimage data analysis, FAIR data, file formats, and community initiatives.
