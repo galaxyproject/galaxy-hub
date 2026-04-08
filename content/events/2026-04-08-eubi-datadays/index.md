@@ -8,7 +8,7 @@ continent: "EU"
 location:
   name: Online, Global
 gtn: false
-tags: [talk, uni-freiburg, imaging, eurobioimaging]
+tags: [talk, uni-freiburg, imaging, nfdi4bioimage, eubi]
 subsites: [all-eu, global]
 autotoc: false
 contributions:
