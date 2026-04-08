@@ -6,6 +6,32 @@ autotoc: false
 
 We are pleased to offer several fellowship opportunities to support attendance at the Galaxy Community Conference 2026 in Clermont-Ferrand, France. These awards will help early-career researchers and new Galaxy users participate in this premier event.
 
+## JJ Fund Travel Fellowships
+
+We are please to annouced the 2 awardees of the JJ Fund Travel Fellowships
+
+<table style="width: 100%">
+  <tbody>
+    <tr class="lead text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        <img src="/images/events/gcc2024/zarlish-attique.png" style="max-height: 200px;" alt="Zarlish Attique" />
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+Zarlish Attique is a Bioinformatics Analyst (Level III) at Ayass Bioscience, USA (remote from Pakistan), specializing in large-scale transcriptomic and functional genomics with an emphasis on reproducible, workflow-driven computational biology. Her work focuses on the development of end-to-end, scalable pipelines for total RNA-seq (bulk and single-cell), CRISPR pooled and perturbation screens, and multi-omics integration, leveraging Nextflow, Linux-based environments, and cloud computing frameworks. She has engineered FASTQ-to-gene-effect systems integrating differential expression, guide-level enrichment and dysregulation, dependency-informed gene essentiality, and drug perturbation modeling to enable causality-driven therapeutic prioritization. Zarlish holds an MPhil in Bioinformatics from Quaid-i-Azam University (Chancellor Fellowship recipient) and a BS in Bioinformatics (Gold Medalist), and her research spans cancer genomics, including pancreatic and metastatic breast cancer, where she applied integrative multi-omics and deep neural network models (PCP-DNN) to identify regulatory hubs and mutation-agnostic drivers of disease progression. She has contributed to multiple peer-reviewed publications in immunoinformatics, computational drug discovery, and machine learning-based disease modeling, and is currently advancing agentic AI-driven frameworks for biomarker discovery and clinical decision support.
+
+<hr/>
+
+
+
+
+
+
+
+
+
 ## Available Fellowships
 
 ### JXTX Foundation Scholarships
