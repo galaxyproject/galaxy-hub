@@ -14,7 +14,7 @@ We are please to annouced the 2 awardees of the JJ Fund Travel Fellowships
   <tbody>
     <tr class="lead text-left" style="background-color: white">
       <td style="border: 0; width: 20%;">
-        <img src="/images/events/gcc2024/zarlish-attique.png" style="max-height: 200px;" alt="Zarlish Attique" />
+        <img src="/images/events/gcc2026/zarlish-attique.png" style="max-height: 200px;" alt="Zarlish Attique" />
       </td>
     </tr>
   </tbody>
