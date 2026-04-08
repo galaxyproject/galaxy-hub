@@ -39,6 +39,18 @@ Upon arrival, **Clermont-Ferrand's centrally located train station** provides se
 
 Clermont-Ferrand is **perfectly positioned** for those traveling by car, with **direct access via the A71, A72, and A75 motorways**. The **A75** stands out as a **toll-free highway**, offering a **picturesque route** that stretches all the way to the **Mediterranean coast**. Whether you're arriving from cities across France or neighboring countries, these **well-maintained highways** make road trips a **convenient and scenic** choice, allowing you to enjoy the stunning landscapes of the Auvergne region along the way.
 
+# Lodging
+
+Attendees looking for accommodations in Clermont-Ferrand may wish to consider **Oceania Clermont-Ferrand**. 
+
+To reserve a room, please email cleocf.recep.1@oceaniahotels.com and mention the group code **Group CSAM AAFNO GCC2026**.
+
+Rates range from €111.20 to €131.20 per night, depending on the night of your stay.
+
+**As availability may be limited, we encourage attendees to book early**.
+
+If you are searching for accommodations independently, you may wish to look near the conference venue at **5 Av. Blaise Pascal, 63170 Aubière, France**.
+
 # Local Attractions
 
 <div class="card-deck lead">
