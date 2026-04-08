@@ -11,7 +11,7 @@ gtn: false
 tags: [talk, uni-freiburg, imaging, bioimaging]
 subsites: [all-eu, global]
 autotoc: false
-  contributions:
+contributions:
   organisers:
     - eubi
   funding:
