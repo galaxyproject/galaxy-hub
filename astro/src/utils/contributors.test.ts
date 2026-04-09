@@ -3,6 +3,7 @@ import {
   buildGtnHallOfFameUrl,
   extractAuthors,
   extractFunding,
+  getContributor,
   getCommunityGithubHandle,
   getGrant,
   getOrganisation,
@@ -58,6 +59,15 @@ describe('GTN Hall of Fame URLs', () => {
 });
 
 describe('avatar resolution', () => {
+  it('loads contributor metadata from the repo-level YAML files', () => {
+    expect(getContributor('bgruening')).toMatchObject({
+      id: 'bgruening',
+      name: 'Björn Grüning',
+      email: 'bjoern.gruening@gmail.com',
+    });
+    expect(getContributor('bgruening')?.affiliations).toContain('uni-freiburg');
+  });
+
   it('resolves training-material avatar paths to the remote training host', () => {
     expect(getOrganisation('deNBI')?.avatarUrl).toBe(
       'https://training.galaxyproject.org/training-material/shared/images/deNBI.png'
