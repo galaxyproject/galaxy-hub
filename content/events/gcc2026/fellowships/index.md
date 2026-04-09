@@ -201,6 +201,134 @@ Victor Lopez Rodriguez is a board-certified Medical Geneticist with a fellowship
 
 <hr/>
 
+<table style="width: 100%">
+  <tbody>
+    <tr class="lead text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        <img src="/images/events/gcc2026/omnia.jpg" style="max-height: 200px;" alt="Omnia A. Elnasser" />
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+Omnia A. Elnasser is a bioinformatics specialist, researcher, and teaching assistant with
+a strong focus on tissue bioengineering, regenerative medicine, and next-generation
+sequencing (NGS). She is currently working at the Tissue Bioengineering Department
+while also serving as a teaching assistant at the German University, where she mentors
+and trains students in bioinformatics and advanced molecular techniques.
+Omnia’s research bridges biotechnology and computational biology, with particular
+expertise in drug delivery systems, chronic wound healing, and microbiome-based
+therapies. She is a published author in Scientific Reports (Nature), contributing to
+innovative therapeutic formulations for antimicrobial and wound care applications. Her
+current work includes advanced studies in 3D bioprinting for facial muscle
+reconstruction and disease prediction using single-cell data through foundation models.
+Beyond academia, Omnia is the founder of Omnigenics, a biotechnology and
+bioinformatics initiative focused on education, research, and innovation. Through
+Omnigenics, she develops and delivers specialized training programs, including R
+programming and NGS analysis, empowering the next generation of scientists with
+practical, industry-relevant skills.
+She is also actively involved in science communication and digital health content
+creation. Omnia manages medical and aesthetic content for wellness platforms and is
+the creator of the upcoming LinkedIn newsletter “Daily of Scientist,” where she shares
+insights on bioinformatics, research, and career development in science.
+With a vision to build a leading biotechnology company, Omnia aims to integrate
+bioinformatics, regenerative medicine, and material-based innovation to create impactful
+healthcare solutions. She is passionate about education, entrepreneurship, and
+advancing personalized medicine, positioning herself as a rising voice in the future of
+biotechnology.
+
+<hr/>
+
+<table style="width: 100%">
+  <tbody>
+    <tr class="lead text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        <img src="/images/events/gcc2026/" style="max-height: 200px;" alt="Nadia Afandi" />
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+Nadia Afandi is a PhD candidate in biosciences and bioinformatics at the International Islamic University Malaysia. Specializing in bacterial diseases in aquaculture. Her research investigates the bacterial community in the Pahang River and their impact on aquaculture sustainability, specifically in pathogen identification with virulence factors, and antimicrobial resistance (AMR) genes using bioinformatics tools.
+
+She utilizes the Galaxy platform for bioinformatics analyses, supporting her study including data quality analysis, pathogen identification, and AMR profiling. As a recipient of the GCC scholarship award, Nadia is committed to apply bioinformatics for future aquaculture research and contributing to the global Galaxy community.
+
+<hr/>
+
+<table style="width: 100%">
+  <tbody>
+    <tr class="lead text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        <img src="/images/events/gcc2026/oluwapelumi.jpeg" style="max-height: 200px;" alt="Oluwapelumi Solagbade" />
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+Oluwapelumi Solagbade is a medical student and computational researcher at Obafemi Awolowo University in Nigeria, specializing in computational neuroscience and cognitive neurology. He is driven by a vision to build a multiscale understanding of the brain and its disease mechanisms, integrating spatial transcriptomics (omics) with macro-level neuroimaging. Deeply invested in global health equity, Oluwapelumi develops accessible, reproducible computational pipelines to empower researchers in resource-limited settings to analyze complex datasets. Beyond his technical research, he is the Co-founder and Director of the NeuroAspire Initiative, a youth-led organization democratizing neuroscience education in Nigeria.
+
+<hr/>
+
+<table style="width: 100%">
+  <tbody>
+    <tr class="lead text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        <img src="/images/events/gcc2026/rcaccia.jpeg" style="max-height: 200px;" alt="Riccardo Caccia" />
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+Riccardo Caccia is a Medical Biotechnologist currently completing a Joint Master’s degree in Bioinformatics between the University of Milan and Politecnico di Milano. Working at the intersection of life sciences and high-performance computing, he is contributing to the Laniakea project within the ELIXIR-Italy framework. His work focuses on cloud orchestration and infrastructure automation, specifically designed to make Galaxy deployments seamless and accessible for the international research community.
+
+<hr/>
+
+<table style="width: 100%">
+  <tbody>
+    <tr class="lead text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        <img src="/images/events/gcc2026/leman.png" style="max-height: 200px;" alt="Leman Nur Nehri" />
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+Leman Nur Nehri completed her BSc, MSc, and PhD degrees in Biological Sciences at Middle East Technical University (METU). During her PhD, she focused on mathematical and computational modeling of colon cancer metastasis.
+She is currently a postdoctoral researcher at the University of Applied Sciences and Arts Northwestern Switzerland (FHNW), working on pancreatic and ovarian cancer modeling and
+translational oncology.
+Her research focuses on how alternative splicing reshapes the tumor microenvironment and influences metastasis. She investigates these processes using simulation and analytical approaches based on Bayesian and Markov probabilistic frameworks integrated with multi-omics data.
+In addition to her academic work, she provides bioinformatics and biological modeling consultancy to European pharmaceutical companies, particularly in therapeutic target discovery in immune hot and cold tumors.
+
+<hr/>
+
+<table style="width: 100%">
+  <tbody>
+    <tr class="lead text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        <img src="/images/events/gcc2026/niklas.jpeg" style="max-height: 200px;" alt="Niklas" />
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+Niklas is studying molecular medicine and is currently pursuing his Master’s degree in the Galaxy Team at the Albert Ludwigs University in Freiburg, Germany. Within his studies, he now specializes in bioinformatics, with a particular passion for exploring pangenomes and their application in personalized medicine. In his free time, he enjoys cooking, hiking outdoors, and developing mobile apps. 
+
+<hr/>
+
+<table style="width: 100%">
+  <tbody>
+    <tr class="lead text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        <img src="/images/events/gcc2026/abel.jpeg" style="max-height: 200px;" alt="Abel Asghedom" />
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+Abel Asghedom is an MSc student in Plant Breeding at Makerere University, Uganda, with a background in plant protection and crop improvement. He previously worked at the National Agricultural Research Institute (NARI) in Eritrea from 2013 to 2022, where he gained extensive experience in agricultural research and field-based crop improvement. His current research focuses on identifying genomic regions associated with disease resistance using phenotypic and molecular data. He has strong experience in field experimentation, statistical analysis, and working with diverse germplasm. Abel is passionate about developing resilient crop varieties and applying modern breeding approaches to improve agricultural productivity and food security in sub-Saharan Africa.
+
+<hr/>
+
 <--
 ## Available Fellowships
 
