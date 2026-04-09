@@ -224,7 +224,7 @@ bioinformatics, regenerative medicine, and material-based innovation to create i
   <tbody>
     <tr class="lead text-left" style="background-color: white">
       <td style="border: 0; width: 20%;">
-        <img src="/images/events/gcc2026/" style="max-height: 200px;" alt="Nadia Afandi" />
+        <img src="/images/events/gcc2026/nadia.JPG" style="max-height: 200px;" alt="Nadia Afandi" />
       </td>
     </tr>
   </tbody>
