@@ -82,22 +82,46 @@ function normalizeAvatar(avatar?: string): string | undefined {
   return `${AVATAR_BASE}/${trimmed}`;
 }
 
-function loadYamlFile<T extends Record<string, any>>(relativePath: string): T {
+function findContentPathFrom(startDir: string, filename: string): string | undefined {
+  let currentDir = path.resolve(startDir);
+
+  while (currentDir) {
+    const candidate = path.resolve(currentDir, 'content', filename);
+    if (fs.existsSync(candidate)) return candidate;
+
+    const parentDir = path.dirname(currentDir);
+    if (parentDir === currentDir) return undefined;
+    currentDir = parentDir;
+  }
+}
+
+function resolveContentPath(filename: string): string {
+  const candidates = [process.cwd(), path.dirname(fileURLToPath(import.meta.url))];
+
+  for (const candidate of candidates) {
+    const resolved = findContentPathFrom(candidate, filename);
+    if (resolved) return resolved;
+  }
+
+  return path.resolve(process.cwd(), '../content', filename);
+}
+
+function loadYamlFile<T extends Record<string, any>>(filename: string): T {
   try {
-    const abs = path.resolve(fileURLToPath(new URL(relativePath, import.meta.url)));
+    const abs = resolveContentPath(filename);
     const raw = fs.readFileSync(abs, 'utf8');
     const parsed = parse(raw, { uniqueKeys: false });
     if (!parsed || typeof parsed !== 'object') return {} as T;
     return parsed as T;
   } catch (err) {
-    console.warn(`Failed to load ${relativePath}`, err);
+    console.warn(`Failed to load content/${filename}`, err);
     return {} as T;
   }
 }
 
 function loadContributors(): ContributorMap {
   if (contributorCache) return contributorCache;
-  const raw = loadYamlFile<Record<string, any>>('../../../content/CONTRIBUTORS.yaml');
+  const raw = loadYamlFile<Record<string, any>>('CONTRIBUTORS.yaml');
   contributorCache = Object.fromEntries(
     Object.entries(raw || {}).map(([id, value]) => {
       const data = typeof value === 'object' && value ? value : {};
@@ -117,7 +141,7 @@ function loadContributors(): ContributorMap {
 
 function loadOrganisations(): OrganisationMap {
   if (organisationCache) return organisationCache;
-  const raw = loadYamlFile<Record<string, any>>('../../../content/ORGANISATIONS.yaml');
+  const raw = loadYamlFile<Record<string, any>>('ORGANISATIONS.yaml');
   organisationCache = Object.fromEntries(
     Object.entries(raw || {}).map(([id, value]) => {
       const data = typeof value === 'object' && value ? value : {};
@@ -136,7 +160,7 @@ function loadOrganisations(): OrganisationMap {
 
 function loadGrants(): GrantMap {
   if (grantCache) return grantCache;
-  const raw = loadYamlFile<Record<string, any>>('../../../content/GRANTS.yaml');
+  const raw = loadYamlFile<Record<string, any>>('GRANTS.yaml');
   grantCache = Object.fromEntries(
     Object.entries(raw || {}).map(([id, value]) => {
       const data = typeof value === 'object' && value ? value : {};
