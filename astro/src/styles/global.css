@@ -253,6 +253,23 @@ body {
   margin-right: auto;
 }
 
+/* Inline image galleries (e.g. GCC logo grid) */
+.inline-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.inline-div img {
+  display: inline-block;
+  height: 100px;
+  width: auto;
+  border-radius: 0;
+  margin: 0;
+}
+
 /* Inline icon images in list items should flow with text, not center as block */
 .prose li img {
   display: inline;
