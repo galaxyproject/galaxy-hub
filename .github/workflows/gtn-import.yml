@@ -12,13 +12,17 @@ jobs:
   collect:
     name: Collect news/events from the Galaxy Training Network
     runs-on: ubuntu-latest
-    env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      REPO_NAME: ${{ github.repository }}
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 1
+
+      - name: Generate GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          app-id: ${{ secrets.GTN_IMPORT_APP_ID }}
+          private-key: ${{ secrets.GTN_IMPORT_APP_PRIVATE_KEY }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -34,6 +38,8 @@ jobs:
         env:
           FEED_URL: https://training.galaxyproject.org/training-material/feed.xml
           IMPORT_TYPE: news
+          GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
+          REPO_NAME: ${{ github.repository }}
         run: python utils/gtn-import.py
 
       - name: Parse GTN events RSS feed
@@ -41,4 +47,6 @@ jobs:
           FEED_URL: https://training.galaxyproject.org/training-material/events/feed.xml
           IMPORT_TYPE: events
           START_DATE: "2025-02-14"
+          GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
+          REPO_NAME: ${{ github.repository }}
         run: python utils/gtn-import.py
