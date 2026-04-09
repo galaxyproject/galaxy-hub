@@ -35,6 +35,8 @@ For **international travelers**, **Paris Charles de Gaulle (CDG)** and **Lyon–
 
 Upon arrival, **Clermont-Ferrand's centrally located train station** provides seamless access to the city's **public transportation network**, making it simple to start exploring right away. Whether for business or leisure, traveling by train is a **relaxing and scenic** way to experience the beauty of central France.
 
+We recommend to book your train ticket, to do it either through the [SNCF portal](https://www.sncf-connect.com/) or through [Trainline](https://www.thetrainline.com/en-us).
+
 ## By Car
 
 Clermont-Ferrand is **perfectly positioned** for those traveling by car, with **direct access via the A71, A72, and A75 motorways**. The **A75** stands out as a **toll-free highway**, offering a **picturesque route** that stretches all the way to the **Mediterranean coast**. Whether you're arriving from cities across France or neighboring countries, these **well-maintained highways** make road trips a **convenient and scenic** choice, allowing you to enjoy the stunning landscapes of the Auvergne region along the way.
