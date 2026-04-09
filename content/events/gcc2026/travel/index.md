@@ -1,7 +1,8 @@
 ---
 ---
 
-GCC 2026 is being held in the University of Clermont Auvergne, in Clermont-Ferrand, France. Precisely, we will meet at the **26 Avenue Léon Blum, 63000 Clermont-Ferrand**.
+GCC 2026 is being held in the University of Clermont Auvergne, in Clermont-Ferrand, France. Precisely, we will meet at the **IUT Campus des Cezeaux : 5 Av. Blaise Pascal, 63170 Aubière**.
+It's the **building number 2** on the map you can [access here](https://www.uca.fr/medias/fichier/plan-cezeaux-web-_1599219455320-pdf?ID_FICHE=2927&INLINE=FALSE)
 
 
 # About Clermont-Ferrand
