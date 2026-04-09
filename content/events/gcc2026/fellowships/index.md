@@ -8,7 +8,7 @@ We are pleased to offer several fellowship opportunities to support attendance a
 
 ## JJ Fund Travel Fellowships
 
-We are please to annouced the awardee of the JJ Fund Travel Fellowships
+We are please to annouce the two awardees of the [JJ Fund](https://jxtxfoundation.org/scholarships/jj-fund) !
 
 <table style="width: 100%">
   <tbody>
@@ -44,6 +44,8 @@ Priscilla plans to pursue a Ph.D. in microbiology or bioinformatics, with a focu
 
 ## JXTX Foundation Scholarships
 
+We are pleased to annouce the 3 awardees of the [JXTX Foundation](https://jxtxfoundation.org/) scholarships !
+
 <table style="width: 100%">
   <tbody>
     <tr class="lead text-left" style="background-color: white">
@@ -73,10 +75,48 @@ Finn Beruldsen is a Ph.D. candidate in Biochemistry at the University of Houston
 <hr/>
 
 
+<table style="width: 100%">
+  <tbody>
+    <tr class="lead text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        <img src="/images/events/gcc2026/olyad-erba.jpg" style="max-height: 200px;" alt="Olyad Erba Urgessa" />
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+Olyad Erba Urgessa is an Assistant Professor and Senior Lecturer at Haramaya University, Ethiopia, currently pursuing a PhD in Animal Biotechnology at Adama Science and Technology University (ASTU). With over 13 years of academic experience, Olyad specializes in biotechnology and sustainable animal production solutions. His current research focuses on the "Omics" revolution in animal biotechnology, specifically feed enzyme production. As a JXTX Scholar, Olyad is dedicated to leveraging computational biology and Galaxy-based workflows to advance genomic research and mentorship in East Africa.
+
+<hr/>
 
 
+## Galaxy Community Fund Scholarships
 
 
+<table style="width: 100%">
+  <tbody>
+    <tr class="lead text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        <img src="/images/events/gcc2026/betselot.jpeg" style="max-height: 200px;" alt="Betselot Zerihun Ayano" />
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+Betselot Zerihun Ayano is a Bioinformatician at the Ethiopian Public Health Institute (EPHI),
+specializing in pathogen genomics and bioinformatics. He has contributed to infectious disease
+research, including tuberculosis and emerging viral and bacterial pathogens, with experience
+supporting outbreak investigations such as Marburg virus disease through genomic analysis to
+inform public health response.
+
+His current work focuses on integrated bacterial genomics in Ethiopia by linking genomic and
+epidemiological data to strengthen antimicrobial resistance (AMR) surveillance and support public
+health decision-making. He is also committed to building bioinformatics capacity and advancing
+genomic epidemiology in Ethiopia.
+<hr/>
+
+
+<--
 ## Available Fellowships
 
 ### JXTX Foundation Scholarships
@@ -133,6 +173,7 @@ Your application will ask about:
 * **Application deadline**: March 15, 2026
 * **Winners announced**: March 31, 2026
 
+-->
 
 ## Questions?
 
