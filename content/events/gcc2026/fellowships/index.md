@@ -25,6 +25,23 @@ Zarlish Attique is a Bioinformatics Analyst (Level III) at Ayass Bioscience, USA
 <hr/>
 
 
+<table style="width: 100%">
+  <tbody>
+    <tr class="lead text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        <img src="/images/events/gcc2026/priscilla-garcia.jpg" style="max-height: 200px;" alt="Priscilla Garcia" />
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+Priscilla Garcia is a Master’s student in Biological Sciences at California State University, Stanislaus, where she conducts research under the supervision of Dr. Tricia Van Laar. Her work focuses on how land use and seasonal hydrology influence microbial community composition and antibiotic resistance genes in freshwater systems, using a combination of field sampling, quantitative PCR, and sequencing approaches. She is particularly interested in microbial ecology, water quality, and applying bioinformatics tools to environmental systems.
+
+In addition to her research, Priscilla is a Graduate Teaching Fellow, where she teaches biology laboratory courses and occasionally covers microbiology lectures. Through both teaching and research, she has developed a strong interest in connecting molecular tools with real-world environmental challenges.
+
+Priscilla plans to pursue a Ph.D. in microbiology or bioinformatics, with a focus on environmental systems and antibiotic resistance. Outside of research, she enjoys spending time with her Chihuahua.
+<hr/>
+
 
 
 
