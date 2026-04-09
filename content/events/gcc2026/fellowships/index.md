@@ -92,6 +92,7 @@ Olyad Erba Urgessa is an Assistant Professor and Senior Lecturer at Haramaya Uni
 
 ## Galaxy Community Fund Scholarships
 
+We are pleased to annouce the 18 awardees of the Galaxy Community Fund Scholarships (including 10 virtual 4 registration and 4 travel and registration) !
 
 <table style="width: 100%">
   <tbody>
