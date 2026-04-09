@@ -5,9 +5,11 @@
 The **Galaxy Community Conference (GCC)** is the flagship event for one of the most impactful open-source platforms in computational biology. By sponsoring GCC2026, you're investing in a global movement democratizing data-intensive research.
 
 ## Bronze sponsors
+<div class="flex justify-center my-5">
 <a href="https://galaxyworks.io/" target="_blank">
   <img src="/images/logos/galaxyworks-logo.png" alt="GalaxyWorks" style="max-width: 25%;" />
 </a>
+</div>div>
 
 <hr/>
 
