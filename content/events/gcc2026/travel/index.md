@@ -1,6 +1,9 @@
 ---
 ---
 
+GCC 2026 is being held in the University of Clermont Auvergne, in Clermont-Ferrand, France. Precisely, we will meet at the **26 Avenue Léon Blum, 63000 Clermont-Ferrand**.
+
+
 # About Clermont-Ferrand
 
 ## Clermont-Ferrand: A City of History, Innovation, and Vibrant Culture
