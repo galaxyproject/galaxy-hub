@@ -24,7 +24,6 @@ Zarlish Attique is a Bioinformatics Analyst (Level III) at Ayass Bioscience, USA
 
 <hr/>
 
-
 <table style="width: 100%">
   <tbody>
     <tr class="lead text-left" style="background-color: white">
@@ -40,9 +39,38 @@ Priscilla Garcia is a Master’s student in Biological Sciences at California St
 In addition to her research, Priscilla is a Graduate Teaching Fellow, where she teaches biology laboratory courses and occasionally covers microbiology lectures. Through both teaching and research, she has developed a strong interest in connecting molecular tools with real-world environmental challenges.
 
 Priscilla plans to pursue a Ph.D. in microbiology or bioinformatics, with a focus on environmental systems and antibiotic resistance. Outside of research, she enjoys spending time with her Chihuahua.
+
 <hr/>
 
+## JXTX Foundation Scholarships
 
+<table style="width: 100%">
+  <tbody>
+    <tr class="lead text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        <img src="/images/events/gcc2026/daniel-golparian.jpg" style="max-height: 200px;" alt="Daniel Golparian" />
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+Daniel Golparian is a Scientific Officer at the WHO Collaborating Centre for Gonorrhoea and Other STIs in Örebro, Sweden, and is affiliated with Örebro University Hospital, Örebro, Sweden. His research focuses on microbial genomics and antimicrobial resistance in Neisseria gonorrhoeae, with an emphasis on genomic surveillance, molecular epidemiology, and the evolution and spread of resistant lineages. He has contributed to international research on sexually transmitted infections and the application of genomics in public health microbiology.
+
+<hr/>
+
+<table style="width: 100%">
+  <tbody>
+    <tr class="lead text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        <img src="/images/events/gcc2026/finn-beruldsen.jpg" style="max-height: 200px;" alt="Finn Beruldsen" />
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+Finn Beruldsen is a Ph.D. candidate in Biochemistry at the University of Houston whose work sits at the interface of molecular dynamics, computational immunology, and software development. He builds computational tools that help researchers better understand T-cell systems and make sense of complex simulation data, with a particular focus on RMSX and Flipbook for high-resolution analysis and visualization of protein motion in time and space. His broader research interests focus on building scientific software that makes complex biological data easier to interpret and more useful.
+
+<hr/>
 
 
 
