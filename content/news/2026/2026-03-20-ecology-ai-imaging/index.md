@@ -52,13 +52,13 @@ We thus can identify crabs or winkles on picture coming from a MOOREV site on th
 
 We also can identify seagull from aerial drone pictures. It is interesting to see that searching for "bird" is identifying same features, but searching "swallow" or others bird species didn't work. Here it is illustrating the specificity and precision the model can have.
 
-![French bird survey aerial image](seagull.png). 
+![French bird survey aerial image](seagull.png) 
 
 We also test fish detection on some MOOREV underwater images. Playing with parameters allows us to have relevant results as shown below.
 
 ![MOOREV fish underwater image](poisson_moorev2.png)
 
-We also tested on Yvan's aquarium ;) to identify fish, mullet species seems to be unknown from SAM3 model, how can this be possible !!!. Here we see the interest of the concept-level understanding rerunning the tool with another prompt searching "smallest fish".
+We also tested on Yvan's aquarium ;) to identify fish, mullet species seems to be unknown from SAM3 model, how can this be possible !!! Here we see the interest of the concept-level understanding rerunning the tool with another prompt searching "smallest fish".
 
 ![Yvan's mullet image](fish_smallest_fish.png)
 
