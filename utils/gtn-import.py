@@ -23,6 +23,35 @@ with open(_SLUG_OVERRIDES_PATH) as f:
     _SLUG_OVERRIDES = json.load(f)
 
 
+_NEWS_CONTRIBUTION_KEYS = {"authorship", "funding"}
+_EVENTS_CONTRIBUTION_KEYS = {
+    "organisers", "instructors", "testing", "reviewing",
+    "infrastructure", "funding", "translation",
+}
+
+
+def parse_contributions_from_tags(entry_tags, allowed_keys):
+    """Extract contributions dict from feed category terms.
+
+    Parses terms like 'contributions:authorship:hvelab' into
+    {'authorship': ['hvelab']}, filtering by allowed role keys.
+    Returns a non-empty dict or None.
+    """
+    contributions = {}
+    for tag in entry_tags:
+        term = tag.get("term", "")
+        if not term.startswith("contributions:"):
+            continue
+        parts = term.split(":", 2)
+        if len(parts) != 3:
+            continue
+        _, role, contributor_id = parts
+        if role not in allowed_keys:
+            continue
+        contributions.setdefault(role, []).append(contributor_id)
+    return contributions or None
+
+
 def normalize_slug_segment(segment):
     """Mirror the normalizeSlugSegment rules from astro/src/build/slug-utils.mjs."""
     s = re.sub(r"([a-z])([A-Z])", r"\1-\2", segment)
@@ -74,14 +103,14 @@ for entry in feed.get("entries", []):
         logging.info(f"Skipping post {title} published on {date_ymd}")
         continue
 
+    entry_tags = entry.get("tags", [])
     tags = {"training", "gtn-news"} if import_type == "news" else set()
-    for tag in entry.get("tags", []):
+    for tag in entry_tags:
         if "term" in tag:
             tags.add(tag["term"])
     if "already-on-hub" in tags:
         continue
 
-    authors = ", ".join(tag.get("name", "") for tag in entry.get("authors", []))
     link = entry.get("link", "")
     summary = html.unescape(entry.get("summary", ""))
 
@@ -102,6 +131,9 @@ for entry in feed.get("entries", []):
         logging.info(f"Folder Already exists: {folder}")
         continue
 
+    allowed = _NEWS_CONTRIBUTION_KEYS if import_type == "news" else _EVENTS_CONTRIBUTION_KEYS
+    contributions = parse_contributions_from_tags(entry_tags, allowed)
+
     created_files.append(f"[{title}]({link})")
 
     logging.info(f"New {import_type}: {folder}")
@@ -113,11 +145,14 @@ for entry in feed.get("entries", []):
             "date": date_ymd,
             "tags": list(tags),
             "title": str(title),
-            "authors": authors,
             "external_url": link,
             "tease": str(summary.split(". ")[0]),
         }
+        if contributions:
+            meta["contributions"] = contributions
     elif import_type == "events":
+        rss_authors = entry.get("authors", [])
+        authors = ", ".join(a.get("name", "") for a in rss_authors)
         title = title.split("] ", 1)[-1]
         date, duration, gtn = date_ymd, 1, True
         for tag in tags:
@@ -164,6 +199,8 @@ for entry in feed.get("entries", []):
             "external_url": link,
             "tease": str(summary.split(". ")[0]),
         }
+        if contributions:
+            meta["contributions"] = contributions
     md_config = yaml.dump(
         meta, default_flow_style=False, sort_keys=False, allow_unicode=True
     )
