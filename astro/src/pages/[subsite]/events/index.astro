@@ -40,7 +40,7 @@ const eventData = events.map((e) => ({
     </header>
 
     <div class="px-6 sm:px-8 py-6">
-      <EventsList client:load events={eventData} initialSubsite={subsiteId} />
+      <EventsList client:only="vue" events={eventData} initialSubsite={subsiteId} />
     </div>
   </div>
 </BaseLayout>
