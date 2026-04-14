@@ -23,35 +23,6 @@ with open(_SLUG_OVERRIDES_PATH) as f:
     _SLUG_OVERRIDES = json.load(f)
 
 
-_NEWS_CONTRIBUTION_KEYS = {"authorship", "funding"}
-_EVENTS_CONTRIBUTION_KEYS = {
-    "organisers", "instructors", "testing", "reviewing",
-    "infrastructure", "funding", "translation",
-}
-
-
-def parse_contributions_from_tags(entry_tags, allowed_keys):
-    """Extract contributions dict from feed category terms.
-
-    Parses terms like 'contributions:authorship:hvelab' into
-    {'authorship': ['hvelab']}, filtering by allowed role keys.
-    Returns a non-empty dict or None.
-    """
-    contributions = {}
-    for tag in entry_tags:
-        term = tag.get("term", "")
-        if not term.startswith("contributions:"):
-            continue
-        parts = term.split(":", 2)
-        if len(parts) != 3:
-            continue
-        _, role, contributor_id = parts
-        if role not in allowed_keys:
-            continue
-        contributions.setdefault(role, []).append(contributor_id)
-    return contributions or None
-
-
 def normalize_slug_segment(segment):
     """Mirror the normalizeSlugSegment rules from astro/src/build/slug-utils.mjs."""
     s = re.sub(r"([a-z])([A-Z])", r"\1-\2", segment)
@@ -131,8 +102,16 @@ for entry in feed.get("entries", []):
         logging.info(f"Folder Already exists: {folder}")
         continue
 
-    allowed = _NEWS_CONTRIBUTION_KEYS if import_type == "news" else _EVENTS_CONTRIBUTION_KEYS
-    contributions = parse_contributions_from_tags(entry_tags, allowed)
+    allowed = (
+        {"authorship", "funding"} if import_type == "news"
+        else {"organisers", "instructors", "testing", "reviewing", "infrastructure", "funding", "translation"}
+    )
+    contributions = {}
+    for tag in entry_tags:
+        parts = tag.get("term", "").split(":", 2)
+        if len(parts) == 3 and parts[0] == "contributions" and parts[1] in allowed:
+            contributions.setdefault(parts[1], []).append(parts[2])
+    contributions = contributions or None
 
     created_files.append(f"[{title}]({link})")
 
@@ -151,8 +130,7 @@ for entry in feed.get("entries", []):
         if contributions:
             meta["contributions"] = contributions
     elif import_type == "events":
-        rss_authors = entry.get("authors", [])
-        authors = ", ".join(a.get("name", "") for a in rss_authors)
+        authors = ", ".join(a.get("name", "") for a in entry.get("authors", []))
         title = title.split("] ", 1)[-1]
         date, duration, gtn = date_ymd, 1, True
         for tag in tags:
