@@ -50,7 +50,7 @@ We are pleased to annouce the 3 awardees of the [JXTX Foundation](https://jxtxfo
   <tbody>
     <tr class="lead text-left" style="background-color: white">
       <td style="border: 0; width: 20%;">
-        <img src="/images/events/gcc2026/daniel-golparian.jpg" style="max-height: 200px;" alt="Daniel Golparian" />
+        <img src="/images/events/gcc2026/daniel-golparian.png" style="max-height: 200px;" alt="Daniel Golparian" />
       </td>
     </tr>
   </tbody>
@@ -144,26 +144,6 @@ A long-time contributor to the Bioconductor project and an active community lead
 </table>
 
 Dr. Walter Randazzo focused his career on understanding how to prevent and control foodborne pathogens with the final goal of protecting public health by developing and evaluating novel strategies, technologies and processes. W. Randazzo received his BSc, MSc degrees in Agricultural Science and Food Technology (2009; 2012), and an International PhD in Agricultural Microbiology from the University of Palermo (Italy) (2015). He developed his research portfolio at UCC (Ireland), UPV (Spain), University of Valencia (Spain), Centre for Disease Prevention and Control (GA, USA), and IATA-CSIC (Spain) focusing on foodborne bacterial and viral pathogens. He has greatly contributed to develop methods for enteric virus detection in food and environment During 2020-22, he supported the Spanish SARS-CoV-2 wastewater-based epidemiology program validating a standard operating procedure for SARS-CoV-2 RNA detection implemented nationwide. Since Dec 2023, he is Principal Investigator of SafEATS group at the Institute of Agrochemistry and Food Technology (IATA) center of the National Research Council (CSIC). Dr. Randazzo has published more than 67 (WoS) scientific papers in high-rated Journals, with an h-index of 31 (WoS) and more than 3700 citations (Scopus). He contributed to 3 book chapters and presented more than 74 communications at congresses. He regularly contributes to editorial activities as reviewer, as Associated Editor for the Food Science and Technology International and Food Humanity journals, and as an external project evaluator for multiple international agencies. He attracted >650k € in research founds as PI and participated as a team member in 18 competitively funded (3 EU, 4 US, 8 Spain, 3 Italy) and 24 projects with private companies. He supervised 3 PhD, 34 MSc or BSc, and more than 10 visiting students. Dr. Randazzo is a member of several scientific societies (e.g., World Society for Virology, International Society of Food and Environmental Virology, European Virus Bioinformatics Center, SEM, IAFP), and scientific national networks (Red OneHealth4Food, Red PLASpain). He is currently the Chair of the Food Safety working group of the Plataforma Tecnológica Food for Life-Spain (PTF4LS). His research focuses on microbiological food safety by integrating well-stablished laboratory methods with novel strategies to prevent foodborne illness.
-
-<hr/>
-
-<table style="width: 100%">
-  <tbody>
-    <tr class="lead text-left" style="background-color: white">
-      <td style="border: 0; width: 20%;">
-        <img src="/images/events/gcc2026/prabhat.jpg" style="max-height: 200px;" alt="Prabhat Tripathi" />
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-Prabhat Tripathi is an aspiring bioinformatician with a strong focus on computational biology, cancer research, and artificial intelligence. His work primarily revolves around the analysis of next-generation sequencing (NGS) data and the design of anti-cancer peptides, aiming to contribute to the development of novel therapeutic strategies for breast cancer.
-
-He has experience in building biological databases and developing web-based platforms using tools such as Flask and MySQL. His research integrates bioinformatics, machine learning, and cheminformatics, utilizing libraries like Biopython and RDKit to analyze peptide properties and predict drug potential.
-
-Prabhat is deeply interested in generative AI applications in bioinformatics, particularly in designing and optimizing peptide sequences with enhanced anti-cancer activity. He is also actively expanding his expertise in protein modeling, molecular docking, and molecular dynamics simulations.
-
-Through his work, he aims to bridge the gap between computational approaches and real-world biomedical challenges, contributing to precision medicine and next-generation drug discovery.
 
 <hr/>
 
