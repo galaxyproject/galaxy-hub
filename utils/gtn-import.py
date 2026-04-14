@@ -16,11 +16,36 @@ from github import Github, GithubException
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 
+_CONTENT_DIR = os.path.join(os.path.dirname(__file__), "..", "content")
+
 _SLUG_OVERRIDES_PATH = os.path.join(
     os.path.dirname(__file__), "..", "astro", "src", "build", "slug-overrides.json"
 )
 with open(_SLUG_OVERRIDES_PATH) as f:
     _SLUG_OVERRIDES = json.load(f)
+
+
+def _contribution_keys_from_schema(schema_path):
+    with open(schema_path) as f:
+        schema = yaml.safe_load(f)
+    def find(node):
+        if isinstance(node, dict):
+            if "contributions" in node:
+                return set(node["contributions"].get("mapping", {}).keys())
+            for v in node.values():
+                result = find(v)
+                if result:
+                    return result
+        return set()
+    return find(schema)
+
+
+_NEWS_CONTRIBUTION_KEYS = _contribution_keys_from_schema(
+    os.path.join(_CONTENT_DIR, "schema-news.yaml")
+)
+_EVENTS_CONTRIBUTION_KEYS = _contribution_keys_from_schema(
+    os.path.join(_CONTENT_DIR, "schema-events.yaml")
+)
 
 
 def normalize_slug_segment(segment):
@@ -102,10 +127,7 @@ for entry in feed.get("entries", []):
         logging.info(f"Folder Already exists: {folder}")
         continue
 
-    allowed = (
-        {"authorship", "funding"} if import_type == "news"
-        else {"organisers", "instructors", "testing", "reviewing", "infrastructure", "funding", "translation"}
-    )
+    allowed = _NEWS_CONTRIBUTION_KEYS if import_type == "news" else _EVENTS_CONTRIBUTION_KEYS
     contributions = {}
     for tag in entry_tags:
         parts = tag.get("term", "").split(":", 2)
