@@ -1,6 +1,10 @@
 ---
 ---
 
+GCC 2026 is being held in the University of Clermont Auvergne, in Clermont-Ferrand, France. Precisely, we will meet at the **IUT Campus des Cezeaux : 5 Av. Blaise Pascal, 63170 Aubière**.
+It's the **building number 2** on the map you can [access here](https://www.uca.fr/medias/fichier/plan-cezeaux-web-_1599219455320-pdf?ID_FICHE=2927&INLINE=FALSE)
+
+
 # About Clermont-Ferrand
 
 ## Clermont-Ferrand: A City of History, Innovation, and Vibrant Culture
@@ -34,6 +38,8 @@ For **international travelers**, **Paris Charles de Gaulle (CDG)** and **Lyon–
 **Intercités trains** whisk you from **Paris Gare de Bercy** to the heart of Auvergne in just **3.5 hours**, with multiple daily departures. For those coming from **Lyon**, direct trains take only **2 hours**, offering a quick and comfortable journey.
 
 Upon arrival, **Clermont-Ferrand's centrally located train station** provides seamless access to the city's **public transportation network**, making it simple to start exploring right away. Whether for business or leisure, traveling by train is a **relaxing and scenic** way to experience the beauty of central France.
+
+We recommend to book your train ticket, to do it either through the [SNCF portal](https://www.sncf-connect.com/) or through [Trainline](https://www.thetrainline.com/en-us).
 
 ## By Car
 
