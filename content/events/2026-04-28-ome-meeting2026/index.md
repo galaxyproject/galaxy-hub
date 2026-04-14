@@ -12,9 +12,6 @@ tags: [talk, workshop, uni-freiburg, tools, data, bioimaging]
 subsites: [all-eu, global]
 autotoc: false
 contributions:
-  organisers:
-    - nfdi4bioimage
-    - eubi
   funding:
     - nfdi4bioimage
     - eubi
@@ -40,7 +37,7 @@ The workshop will cover:
 - The **Galaxy OMERO-suite**: how to fetch images and metadata from OMERO into Galaxy, process them, and push results back
 - A live demo of a full round-trip pipeline — from OMERO to Galaxy and back
 
-Want to explore the Galaxy OMERO-suite ahead of the workshop? Check out the hands-on GTN tutorial:
+Want to explore the Galaxy OMERO-suite ahead of the workshop? Check out the hands-on GTN tutorial contributed by [Riccardo Massei](https://github.com/rmassei):
 👉 [Overview of the Galaxy OMERO-suite](https://training.galaxyproject.org/training-material/topics/imaging/tutorials/omero-suite/tutorial.html)
 
 More information about the event: [gerbi-gmb.de/event/ome-2026-community-meeting](https://gerbi-gmb.de/event/ome-2026-community-meeting/)
