@@ -20,7 +20,6 @@ contributions:
 
 Since 2025, Galaxy Ecology team is notably working on marine images annotation and analysis through the MOOREV citizen science project. Thanks to existing Galaxy materials (tools, workflows and training) created by communities as Imaging one and strong support of usegalaxy.eu team, we were able to not start from scratch to meet the MOOREV objectives through a dedicated funding who allows to produce new materials for Galaxy communities. 
 
-
 ## MOOREV: Observing marine species interactions in response to microclimatic gradients on the local foreshore
 
 The MOOREV project, led by Nadine Le Bris, Sorbonne Université, station marine de Concarneau, France, with the support of the Museum National d'Histoire Naturelle, CNRS and Fondation de France, was launched in 2022 to improve and promote understanding of the effects of climate disturbances on the seashore and its biodiversity. The citizen science approach involves local stakeholders across the education and research communities. It aims at acquiring and transmitting knowledge about the role of microclimates to which marine species are exposed. Developed in partnership between researchers and environmental education professionals, it is co-constructed with classes and teachers, using the shoreline as a natural laboratory.
