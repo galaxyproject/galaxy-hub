@@ -54,7 +54,7 @@ for issue in g.search_issues(query):
     for file in issue.as_pull_request().get_files():
         parts = file.filename.split("/")
         if len(parts) >= 3:
-            existing_folders.add(parts[2])
+            existing_folders.add(parts[-2])
 
 branch_name = f"{branch_prefix}{datetime.now().strftime('%Y%m%d%H%M%S')}"
 repo.create_git_ref(
@@ -93,7 +93,11 @@ for entry in feed.get("entries", []):
         logging.info(f"Skipping {folder}: already proposed in an existing PR")
         continue
 
-    folder_path = os.path.join("content", import_type, folder)
+    if import_type == "news":
+        year = date_ymd[:4]
+        folder_path = os.path.join("content", import_type, year, folder)
+    else:
+        folder_path = os.path.join("content", import_type, folder)
     if os.path.exists(folder_path):
         logging.info(f"Folder Already exists: {folder}")
         continue
