@@ -1,4 +1,6 @@
 ---
+autotoc: false
+---
 
 # GCC2026 Sponsors
 
