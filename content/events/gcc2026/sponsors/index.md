@@ -21,10 +21,7 @@ sponsor talks are generally scheduled immediately preceding or following a
 keynote talk to maximize their attendance.
 
 
-<div class="flex justify-center my-5">
-  <a href="https://drive.google.com/file/d/18rey6WCVtcutnnBbYLEUQVrdLohfup-3/view?usp=sharing" class="inline-flex items-center justify-center rounded px-8 py-2 text-sm font-semibold text-white bg-galaxy-primary hover:bg-galaxy-dark no-underline hover:no-underline">Download sponsorship prospectus</a>
-</div>
-
+<a href="https://drive.google.com/file/d/18rey6WCVtcutnnBbYLEUQVrdLohfup-3/view?usp=sharing" class="inline-flex items-center justify-center rounded px-8 py-2 text-sm font-semibold text-white bg-galaxy-primary hover:bg-galaxy-dark no-underline hover:no-underline">Download sponsorship prospectus</a>
 
 ## Benefits of GCC sponsorship
 
