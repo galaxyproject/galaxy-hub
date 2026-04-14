@@ -54,7 +54,7 @@ We also can identify seagull from aerial drone pictures. It is interesting to se
 
 ![French bird survey aerial image](seagull.png) 
 
-We also test fish detection on some MOOREV underwater images. Playing with parameters allows us to have relevant results as shown below.
+We also test fish detection on some MOOREV underwater images. Playing with parameters allows us to have relevant results as illustrated below.
 
 ![MOOREV fish underwater image](poisson_moorev2.png)
 
