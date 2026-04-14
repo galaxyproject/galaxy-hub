@@ -9,7 +9,7 @@ The **Galaxy Community Conference (GCC)** is the flagship event for one of the m
 <a href="https://galaxyworks.io/" target="_blank">
   <img src="/images/logos/galaxyworks-logo.png" alt="GalaxyWorks" style="max-width: 25%;" />
 </a>
-</div>div>
+</div>
 
 <hr/>
 
