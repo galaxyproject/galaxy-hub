@@ -1045,7 +1045,7 @@ async function watchContent() {
   // the kernel drops events or the watcher fails, the interval above takes over.
   try {
     const watcher = fs.watch(CONTENT_DIR, { recursive: true });
-    // eslint-disable-next-line no-unused-vars
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     for await (const _ of watcher) {
       scheduleScan();
     }
@@ -1056,12 +1056,8 @@ async function watchContent() {
   }
 
   // Keep the process alive indefinitely in poll-only mode.
-  // eslint-disable-next-line no-unused-vars
-  await new Promise((_resolve) => {
-    // pollInterval keeps the event loop alive; this promise never settles.
-    // Suppress the lint warning about the unused variable.
-    void pollInterval;
-  });
+  // pollInterval keeps the event loop alive; this promise never settles.
+  await new Promise(() => { void pollInterval; });
 }
 
 // CLI interface
