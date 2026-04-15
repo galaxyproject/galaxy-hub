@@ -353,6 +353,20 @@ In this context, he is developing a ChIP-seq analysis tool suite and associated 
 
 <hr/>
 
+<table style="width: 100%">
+  <tbody>
+    <tr class="lead text-left" style="background-color: white">
+      <td style="border: 0; width: 20%;">
+        <img src="/images/events/gcc2026/Shubham_headshot.png" style="max-height: 200px;" alt="Shubham Koirala" />
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+Shubham Koirala is a researcher in genetics and computational biology, currently pursuing a Ph.D. in Genetics and Genome Sciences Program at Michigan State University. His work focuses on applying machine learning and data-driven approaches to understand complex diseases with an emphasis on biomarker discovery and precision medicine.
+
+Originally from Nepal, Shubham completed his undergraduate studies in biotechnology at Kathmandu University, where he developed a strong foundation in molecular biology and bioinformatics. He later expanded his expertise by integrating computational techniques with biological research, enabling him to work at the intersection of data science and life sciences.  His research interests include transcriptomics, genomics, and the use of artificial intelligence to uncover patterns in large-scale biomedical data. Through his work, he aims to contribute to more accurate diagnostics and personalized treatment strategies.
+
 ## Questions?
 
 For questions about JXTX or JJ Fund fellowships, please visit the [JXTX Foundation website](https://jxtxfoundation.org/news/2025-12-15-gcc) or contact them directly.
