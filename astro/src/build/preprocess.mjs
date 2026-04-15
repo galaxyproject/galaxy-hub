@@ -1057,7 +1057,9 @@ async function watchContent() {
 
   // Keep the process alive indefinitely in poll-only mode.
   // pollInterval keeps the event loop alive; this promise never settles.
-  await new Promise(() => { void pollInterval; });
+  await new Promise(() => {
+    void pollInterval;
+  });
 }
 
 // CLI interface
