@@ -19,7 +19,7 @@ contributions:
 
 [German BioImaging (GerBI-GMB)](https://gerbi-gmb.de/) is hosting the **19th OME Community Meeting**, 
 a free 3-day in-person event bringing together the open microscopy community in Düsseldorf, Germany, 
-for talks, workshops, and discussions around OMERO, OME-ZARR, and the future of bioimaging infrastructure.
+for talks, workshops, and discussions around OMERO, OME-Zarr, and the future of bioimaging infrastructure.
 
 The [Galaxy Image Analysis Community](https://galaxyproject.org/community/sig/image-analysis/) will be 
 represented with a workshop this year:
