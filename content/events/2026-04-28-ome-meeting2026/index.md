@@ -27,9 +27,7 @@ represented with a workshop this year:
 **Workshop: From OMERO to Galaxy and Back: Workflows for BioImaging**
 📅 April 28–30, 2026 — 17:10–18:40 CEST
 
-[Beatriz Serrano-Solano](https://github.com/beatrizserrano) and 
-[Diana Chiang Jurado](https://github.com/dianichj) (University of Freiburg) will present an overview 
-of image analysis in Galaxy and demonstrate how Galaxy enables accessible, reproducible bioimaging 
+[Diana Chiang Jurado](https://github.com/dianichj) (University of Freiburg) and [Beatriz Serrano-Solano](https://github.com/beatrizserrano) will present an overview of image analysis in Galaxy and demonstrate how Galaxy enables accessible, reproducible bioimaging 
 workflows — with a focus on the **Galaxy OMERO-suite** and its integration with OMERO.
 
 The workshop will cover:
