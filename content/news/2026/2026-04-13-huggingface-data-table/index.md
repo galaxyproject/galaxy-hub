@@ -21,8 +21,7 @@ the Galaxy community is standardizing a [**shared Galaxy data table**](/admin/to
 **Key points:**
 
 - The table has **7 columns**: `value`, `name`, `pipeline_tag`, `domain`, `free_tag`, `version`, `path`
-- It is recommended to **filter by `free_tag` + `version`** so different tools' rows never interfere
-- New tools choose a **unique lowercase `free_tag`** as their namespace in the shared file
+- It is recommended to **filter primarily by `pipeline_tag` and/or `domain`**; use `free_tag` only as a fallback when those are not specific enough
 
 ## The data table
 
@@ -47,21 +46,26 @@ uses the same 7-column layout.
 | 1 | `name` | Human-readable label shown in the Galaxy select widget |
 | 2 | `pipeline_tag` | Model role — see controlled vocabulary below |
 | 3 | `domain` | Coarse data domain — see controlled vocabulary below |
-| 4 | `free_tag` | Per-tool-family tag; used as the primary XML filter |
-| 5 | `version` | Tool version the row belongs to |
+| 4 | `free_tag` | Optional narrowing tag; fallback filter when `pipeline_tag`/`domain` alone are not specific enough |
+| 5 | `version` | Model version |
 | 6 | `path` | Path to the model data, a directory or a specific file, depending on the model structure |
 
 ### `value` (column 0)
 
 Must be **globally unique** across every row in `huggingface.loc`,
-regardless of which tool added it.  Recommended pattern:
+regardless of which tool added it.  HuggingFace already assigns unique model
+IDs (in the form `<owner>/<model-name>`) — use those directly as the value
+wherever possible, since they are stable and unambiguous.  If the same
+underlying model is registered at more than one version, append the version:
 
 ```
-<free_tag>_<version>_<slug>
+<hf-model-id>
+<hf-model-id>_<version>
 ```
 
-Examples: `flux_1_dev`, `embedding_1.0_bge-small-en`,
-`mytool_2.1_base-model`.
+Examples: `black-forest-labs/FLUX.1-dev`,
+`sentence-transformers/all-MiniLM-L6-v2`,
+`openai/whisper-large-v3_3.0`.
 
 ### `pipeline_tag` (column 2)
 
@@ -91,21 +95,26 @@ A broad category for the type of data the model works with. For example:
 
 ### `free_tag` (column 4)
 
-A short, tool-family-specific identifier used as the primary filter in the
-tool XML.  Currently registered public values:
+An optional short identifier used as a **fallback narrowing filter** in the
+tool XML, for cases where `pipeline_tag` and `domain` alone are not specific
+enough.  Because a model can be consumed by multiple tools, the `free_tag`
+should not encode a specific tool name.  Currently registered public values:
 
-| Value | Tool |
-|-------|------|
-| `flux` | Flux image-generation tool |
+| Value | Scope |
+|-------|-------|
+| `flux` | Flux image-generation models |
 
-When adding a new HF-backed tool, choose a unique lowercase `free_tag` and
-add it to this table when the tool is ready to be documented publicly.
+Only add a `free_tag` when you genuinely need to narrow the selection beyond
+what `pipeline_tag`/`domain` provide.  Choose a short, lowercase, descriptive
+identifier and register it here when the tool is ready to be documented
+publicly.
 
 ### `version` (column 5)
 
-A version string used to filter rows in the tool XML.  Rows are only added
-to the table, never removed or edited, new tool versions get new rows with
-a different version value, while old rows stay in place.
+The **model version** string.  A tool declares in its XML which model version(s)
+it can consume, allowing multiple versions of the same model to coexist in the
+table.  Where possible, rows are only added, never removed or edited; when a new model version
+is deployed it gets a new row while old rows stay in place.
 
 ### `path` (column 6)
 
@@ -115,21 +124,25 @@ tool reads the whole HuggingFace cache layout) or a specific file (e.g. a
 
 ## XML filter convention
 
-It is recommended that tool XML filters by at least
-`free_tag` (column 4) and `version` (column 5), so rows belonging to other
-tools do not appear in the select:
+It is recommended that tool XML filters **primarily by `pipeline_tag` (column 2)
+and/or `domain` (column 3)**, so only relevant model types are presented to the
+user.  Add a `free_tag` or `version` filter only when you need to narrow the
+selection further:
 
 ```xml
 <param name="model" type="select" label="Model">
     <options from_data_table="huggingface">
-        <filter type="static_value" column="4" value="<free_tag>"/>
-        <filter type="static_value" column="5" value="<version>"/>
-        <!-- optional: also filter by pipeline_tag or domain -->
+        <filter type="static_value" column="2" value="<pipeline_tag>"/>
+        <filter type="static_value" column="3" value="<domain>"/>
+        <!-- optional: narrow further by version or free_tag -->
+        <!-- <filter type="static_value" column="5" value="<version>"/> -->
+        <!-- <filter type="static_value" column="4" value="<free_tag>"/> -->
     </options>
 </param>
 ```
 
-Example from the Flux tool:
+Example from the Flux tool (filters by `free_tag` to restrict to
+Flux-specific model variants):
 
 ```xml
 <options from_data_table="huggingface">
