@@ -49,7 +49,7 @@ uses the same 7-column layout.
 | 3 | `domain` | Coarse data domain — see controlled vocabulary below |
 | 4 | `free_tag` | Per-tool-family tag; used as the primary XML filter |
 | 5 | `version` | Tool version the row belongs to |
-| 6 | `path` | Path to the model data, a directory or a specific file |
+| 6 | `path` | Path to the model data, a directory or a specific file, depending on the model structure |
 
 ### `value` (column 0)
 
