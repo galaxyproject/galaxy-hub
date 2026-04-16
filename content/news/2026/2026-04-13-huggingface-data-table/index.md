@@ -1,7 +1,7 @@
 ---
-title: "The huggingface Galaxy data table: schema and ontology"
+title: "The Hugging Face Galaxy data table: schema and ontology"
 date: "2026-04-13"
-tease: "Galaxy is standardizing a shared data table for pre-downloaded HuggingFace models. This post is the reference for the 7-column schema, controlled vocabularies, and conventions."
+tease: "Galaxy is standardizing a shared data table for pre-downloaded Hugging Face models. This post is the reference for the 7-column schema, controlled vocabularies, and conventions."
 tags: [tools, admin, ai]
 subsites: [all]
 autotoc: true
@@ -53,7 +53,7 @@ uses the same 7-column layout.
 ### `value` (column 0)
 
 Must be **globally unique** across every row in `huggingface.loc`,
-regardless of which tool added it.  HuggingFace already assigns unique model
+regardless of which tool added it.  Hugging Face already assigns unique model
 IDs (in the form `<owner>/<model-name>`) — use those directly as the value
 wherever possible, since they are stable and unambiguous.  If the same
 underlying model is registered at more than one version, append the version:
@@ -69,7 +69,7 @@ Examples: `black-forest-labs/FLUX.1-dev`,
 
 ### `pipeline_tag` (column 2)
 
-Use the **official HuggingFace pipeline tag** whenever one exists — browse
+Use the **official Hugging Face pipeline tag** whenever one exists — browse
 the full list at https://huggingface.co/models?pipeline_tag=…
 
 Recommended values for this table include:
@@ -114,11 +114,11 @@ publicly.
 The **model version** string.  A tool declares in its XML which model version(s)
 it can consume, allowing multiple versions of the same model to coexist in the
 table.  Where possible, rows are only added, never removed or edited; when a new model version
-is deployed it gets a new row while old rows stay in place.
+is deployed it gets a new row while existing rows stay in place.
 
 ### `path` (column 6)
 
-The path to the model data on the server. It can be a directory (when the
+The path to the model data either on a local machine during tool development or on the Galaxy production server (maintained by admins). It can be a directory (when the
 tool reads the whole HuggingFace cache layout) or a specific file (e.g. a
 `.ckpt` checkpoint when the tool only needs that one file).
 
@@ -153,7 +153,7 @@ Flux-specific model variants):
 
 ## Complete example rows
 
-Each row in the `.loc` file is **TAB-separated** (7 fields). The comments show
+Each row in the `.loc` file is **TAB-separated** (7 columns). The comments show
 the column order.  The concrete example below reflects a published Flux entry;
 future adopters should follow the same 7-column pattern.
 
