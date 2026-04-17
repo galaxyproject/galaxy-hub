@@ -47,7 +47,7 @@ Bad QC result
 <br/>
 </div>
 
-As you can see, less than 30% of the reads were assigned to a gene, and a low **0.5%** actually aligned!
+As you can see, less than 30% of the reads were assigned to a gene, and as low as **0.5%** of reads actually aligned!
 
 I couldn't believe it. The quality and depth of the sequencing data had looked perfect. Did I accidentally align to the wrong genome? Mix up mouse and human? But even then, the alignment rate should have been higher than 0.5%.
 
