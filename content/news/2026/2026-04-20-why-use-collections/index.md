@@ -66,7 +66,7 @@ I *could* have just restarted the analysis and been super careful with the conca
 We pinged @gtn:wm75 for help creating a nested collection (a list within a list). As it turns out, the task is actually quite easy... well, if you know how the collection tools work! :P
 
 This is roughly what I did:
-1. Select all input fastq files.
+1. Select all input FASTQ files.
 2. Go to advanced Build list.
 3. Select `Rule Builder`.
 4. Using RegEx, create 3 columns: sample name, lane number, and for/rev.
