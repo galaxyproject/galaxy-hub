@@ -254,14 +254,14 @@ const jsonCount = feedEntries.filter((feed) => feed.formatExt === 'json').length
       </div>
     </PageHeader>
 
-    <section class="bg-white border border-gray-200 border-t-0 rounded-b-lg shadow-sm px-8 py-7 mb-8">
+    <section class="bg-white border border-ebony-clay-100 border-t-0 rounded-b-lg shadow-sm px-8 py-7 mb-8">
       <h2 class="text-2xl font-semibold text-galaxy-dark mb-3">Galaxy updates for your feedreader!</h2>
-      <p class="text-gray-700 leading-7 mb-4">
+      <p class="text-chicago-700 leading-7 mb-4">
         RSS (and related formats like Atom and JSON Feed) lets you subscribe to updates from a site without checking it
         manually. Your feed reader fetches new posts and events in one place, with no social-media algorithm in the
         middle.
       </p>
-      <p class="text-gray-700 leading-7 mb-6">
+      <p class="text-chicago-700 leading-7 mb-6">
         To subscribe, copy a feed URL below and add it to your reader. Popular readers include
         <a href="https://feedly.com/" target="_blank" rel="noopener noreferrer" class="reader-link">Feedly</a>,
         <a href="https://www.inoreader.com/" target="_blank" rel="noopener noreferrer" class="reader-link">
@@ -273,7 +273,7 @@ const jsonCount = feedEntries.filter((feed) => feed.formatExt === 'json').length
         </a>, and
         <a href="https://www.freshrss.org/" target="_blank" rel="noopener noreferrer" class="reader-link">FreshRSS</a>.
       </p>
-      <p class="text-sm text-gray-600 mb-6">
+      <p class="text-sm text-chicago-600 mb-6">
         Tip: click a feed format badge (RSS, Atom, or JSON) to copy that feed URL.
       </p>
     </section>
@@ -289,10 +289,10 @@ const jsonCount = feedEntries.filter((feed) => feed.formatExt === 'json').length
 
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
               {regionGroup.areas.map((group) => (
-                <article class="bg-white border border-gray-200 rounded-lg shadow-sm p-6">
+                <article class="bg-white border border-ebony-clay-100 rounded-lg shadow-sm p-6">
                   <header class="mb-4">
                     <h3 class="text-xl font-semibold text-galaxy-dark">{group.areaLabel}</h3>
-                    <p class="text-sm text-gray-600 mt-1">{group.areaDescription}</p>
+                    <p class="text-sm text-chicago-600 mt-1">{group.areaDescription}</p>
                   </header>
                   <ul class="space-y-3">
                     {group.feeds.map((feed) => (
@@ -301,7 +301,7 @@ const jsonCount = feedEntries.filter((feed) => feed.formatExt === 'json').length
                           <a href={feed.route} class="feed-link">
                             <code>{feed.route}</code>
                           </a>
-                          <p class="text-xs text-gray-500 mt-1">{feed.mimeType}</p>
+                          <p class="text-xs text-chicago-500 mt-1">{feed.mimeType}</p>
                         </div>
                         <div class="feed-actions">
                           <button
@@ -363,9 +363,9 @@ const jsonCount = feedEntries.filter((feed) => feed.formatExt === 'json').length
       }
     </section>
 
-    <section class="bg-white border border-gray-200 rounded-lg shadow-sm px-8 py-6 mt-8">
+    <section class="bg-white border border-ebony-clay-100 rounded-lg shadow-sm px-8 py-6 mt-8">
       <h2 class="text-xl font-semibold text-galaxy-dark mb-3">How This Page Stays Up To Date</h2>
-      <p class="text-gray-700 leading-7">
+      <p class="text-chicago-700 leading-7">
         This list is generated from feed route files under <code>src/pages/**/feed.*</code>. If a new feed endpoint is
         added there, it will automatically appear on this page. If you need more specialized feeds, please contact us.
       </p>

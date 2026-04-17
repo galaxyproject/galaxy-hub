@@ -53,8 +53,8 @@ onMounted(async () => {
 
 <template>
   <div class="twitter-embed my-4">
-    <div v-if="error" class="p-4 bg-gray-100 rounded-lg text-center">
-      <p class="text-gray-600">Unable to load tweet</p>
+    <div v-if="error" class="p-4 bg-ebony-clay-50 rounded-lg text-center">
+      <p class="text-chicago-600">Unable to load tweet</p>
       <a
         v-if="tweetUrl || id"
         :href="tweetUrl || `https://twitter.com/i/status/${id}`"

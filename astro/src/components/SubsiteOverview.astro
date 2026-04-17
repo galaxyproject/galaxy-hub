@@ -15,9 +15,9 @@ const { subsite, title, description, upcomingEvents, subsiteNews, hasMainContent
 ---
 
 <div class="max-w-5xl mx-auto">
-  <div class="mb-8 pb-6 border-b border-gray-200">
+  <div class="mb-8 pb-6 border-b border-ebony-clay-100">
     <h1 class="text-3xl font-bold text-galaxy-dark mb-2">{title}</h1>
-    {!hasMainContent && <p class="text-gray-600">{description}</p>}
+    {!hasMainContent && <p class="text-chicago-600">{description}</p>}
   </div>
 
   {
@@ -37,13 +37,13 @@ const { subsite, title, description, upcomingEvents, subsiteNews, hasMainContent
 
       {
         upcomingEvents.length === 0 ? (
-          <p class="text-gray-500 italic">No upcoming events.</p>
+          <p class="text-chicago-500 italic">No upcoming events.</p>
         ) : (
           <div class="space-y-3">
             {upcomingEvents.map((event) => (
               <a
                 href={`/${event.data.slug}/`}
-                class="block p-3 bg-white rounded-lg border border-gray-200 hover:border-galaxy-primary hover:shadow-sm transition-all"
+                class="block p-3 bg-white rounded-lg border border-ebony-clay-100 hover:border-galaxy-primary hover:shadow-sm transition-all"
               >
                 <div class="text-xs text-galaxy-primary font-medium mb-1">{formatDate(event.data.date)}</div>
                 <h3 class="font-medium text-galaxy-dark line-clamp-2">{event.data.title}</h3>
@@ -62,15 +62,15 @@ const { subsite, title, description, upcomingEvents, subsiteNews, hasMainContent
 
       {
         subsiteNews.length === 0 ? (
-          <p class="text-gray-500 italic">No recent news.</p>
+          <p class="text-chicago-500 italic">No recent news.</p>
         ) : (
           <div class="space-y-3">
             {subsiteNews.map((article) => (
               <a
                 href={`/${article.data.slug}/`}
-                class="block p-3 bg-white rounded-lg border border-gray-200 hover:border-galaxy-primary hover:shadow-sm transition-all"
+                class="block p-3 bg-white rounded-lg border border-ebony-clay-100 hover:border-galaxy-primary hover:shadow-sm transition-all"
               >
-                <div class="text-xs text-gray-500 mb-1">{formatDate(article.data.date)}</div>
+                <div class="text-xs text-chicago-500 mb-1">{formatDate(article.data.date)}</div>
                 <h3 class="font-medium text-galaxy-dark line-clamp-2">{article.data.title}</h3>
               </a>
             ))}
@@ -80,7 +80,7 @@ const { subsite, title, description, upcomingEvents, subsiteNews, hasMainContent
     </section>
   </div>
 
-  <section class="mt-12 pt-8 border-t border-gray-200">
+  <section class="mt-12 pt-8 border-t border-ebony-clay-100">
     <h2 class="text-xl font-bold text-galaxy-dark mb-4">Quick Links</h2>
     <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
       <a
@@ -88,22 +88,22 @@ const { subsite, title, description, upcomingEvents, subsiteNews, hasMainContent
         class="p-4 bg-galaxy-primary/5 rounded-lg hover:bg-galaxy-primary/10 transition-colors"
       >
         <h3 class="font-semibold text-galaxy-dark">Events</h3>
-        <p class="text-sm text-gray-600">Browse all events</p>
+        <p class="text-sm text-chicago-600">Browse all events</p>
       </a>
       <a
         href={`/${subsite}/news/`}
         class="p-4 bg-galaxy-primary/5 rounded-lg hover:bg-galaxy-primary/10 transition-colors"
       >
         <h3 class="font-semibold text-galaxy-dark">News</h3>
-        <p class="text-sm text-gray-600">Read latest news</p>
+        <p class="text-sm text-chicago-600">Read latest news</p>
       </a>
       <a href="/use/" class="p-4 bg-galaxy-primary/5 rounded-lg hover:bg-galaxy-primary/10 transition-colors">
         <h3 class="font-semibold text-galaxy-dark">Platforms</h3>
-        <p class="text-sm text-gray-600">Find Galaxy servers</p>
+        <p class="text-sm text-chicago-600">Find Galaxy servers</p>
       </a>
       <a href="/community/" class="p-4 bg-galaxy-primary/5 rounded-lg hover:bg-galaxy-primary/10 transition-colors">
         <h3 class="font-semibold text-galaxy-dark">Community</h3>
-        <p class="text-sm text-gray-600">Get involved</p>
+        <p class="text-sm text-chicago-600">Get involved</p>
       </a>
     </div>
   </section>

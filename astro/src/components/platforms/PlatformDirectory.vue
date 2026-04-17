@@ -186,17 +186,17 @@ function getHostname(url: string): string {
 <template>
   <div class="platform-directory">
     <!-- Search and Filters -->
-    <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6 mb-8">
+    <div class="bg-white rounded-lg shadow-sm border border-ebony-clay-100 p-6 mb-8">
       <div class="flex flex-col md:flex-row gap-4">
         <!-- Search -->
         <div class="flex-1">
-          <label class="block text-sm font-medium text-gray-700 mb-1">Search</label>
+          <label class="block text-sm font-medium text-chicago-700 mb-1">Search</label>
           <Input v-model="searchQuery" type="text" placeholder="Search servers..." class="w-full" />
         </div>
 
         <!-- Scope Filter -->
         <div class="w-full md:w-48">
-          <label class="block text-sm font-medium text-gray-700 mb-1">Type</label>
+          <label class="block text-sm font-medium text-chicago-700 mb-1">Type</label>
           <select
             v-model="selectedScope"
             class="w-full h-10 rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
@@ -209,7 +209,7 @@ function getHostname(url: string): string {
 
         <!-- Location Filter -->
         <div class="w-full md:w-48">
-          <label class="block text-sm font-medium text-gray-700 mb-1">Location</label>
+          <label class="block text-sm font-medium text-chicago-700 mb-1">Location</label>
           <select
             v-model="selectedLocation"
             class="w-full h-10 rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
@@ -222,7 +222,7 @@ function getHostname(url: string): string {
 
         <!-- Platform Group Filter -->
         <div class="w-full md:w-48">
-          <label class="block text-sm font-medium text-gray-700 mb-1">Platform</label>
+          <label class="block text-sm font-medium text-chicago-700 mb-1">Platform</label>
           <select
             v-model="selectedPlatformGroup"
             class="w-full h-10 rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
@@ -240,7 +240,7 @@ function getHostname(url: string): string {
       </div>
 
       <!-- Results count -->
-      <div class="mt-4 text-sm text-gray-600">
+      <div class="mt-4 text-sm text-chicago-600">
         Showing {{ filteredPlatforms.length }} of {{ platforms.length }} Galaxy servers
       </div>
     </div>
@@ -251,7 +251,7 @@ function getHostname(url: string): string {
         <Card class="h-full hover:shadow-md transition-shadow border-t-4 border-t-galaxy-primary">
           <CardHeader class="pb-2">
             <div class="flex items-start justify-between">
-              <CardTitle class="text-lg text-gray-900 group-hover:text-galaxy-primary transition-colors">
+              <CardTitle class="text-lg text-chicago-900 group-hover:text-galaxy-primary transition-colors">
                 {{ platform.title || 'Galaxy Server' }}
               </CardTitle>
               <span
@@ -265,10 +265,10 @@ function getHostname(url: string): string {
           <CardContent>
             <p
               v-if="platform.summary"
-              class="text-sm text-gray-600 line-clamp-3 mb-3 prose prose-sm max-w-none"
+              class="text-sm text-chicago-600 line-clamp-3 mb-3 prose prose-sm max-w-none"
               v-html="renderMarkdownInline(platform.summary)"
             ></p>
-            <div class="flex items-center justify-between text-xs text-gray-500">
+            <div class="flex items-center justify-between text-xs text-chicago-500">
               <span v-if="platform.url" class="truncate max-w-[60%]">
                 {{ getHostname(platform.url) }}
               </span>
@@ -297,7 +297,7 @@ function getHostname(url: string): string {
 
     <!-- No results message -->
     <div v-if="filteredPlatforms.length === 0" class="text-center py-12">
-      <p class="text-gray-500 mb-4">No Galaxy servers found matching your criteria.</p>
+      <p class="text-chicago-500 mb-4">No Galaxy servers found matching your criteria.</p>
       <Button variant="outline" @click="clearFilters">Clear Filters</Button>
     </div>
   </div>

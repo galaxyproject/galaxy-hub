@@ -53,7 +53,7 @@ watch(
 
 <template>
   <div>
-    <p class="text-sm text-gray-600 mb-4">
+    <p class="text-sm text-chicago-600 mb-4">
       Search the
       <a href="https://www.zotero.org/groups/1732893/galaxy" target="_blank" class="text-galaxy-primary hover:underline"
         >Galaxy publication library</a
@@ -66,31 +66,31 @@ watch(
     </div>
 
     <div v-else-if="isLoading" class="text-center py-12">
-      <svg class="w-8 h-8 mx-auto text-gray-400 animate-spin mb-4" fill="none" viewBox="0 0 24 24">
+      <svg class="w-8 h-8 mx-auto text-chicago-400 animate-spin mb-4" fill="none" viewBox="0 0 24 24">
         <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
         <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"></path>
       </svg>
-      <p class="text-gray-500">Searching publications...</p>
+      <p class="text-chicago-500">Searching publications...</p>
     </div>
 
     <div v-else-if="results && results.length > 0" class="space-y-4">
       <article
         v-for="item in results"
         :key="item.data.url || item.data.title"
-        class="bg-white rounded-lg border border-gray-200 p-5 hover:shadow-md transition-shadow"
+        class="bg-white rounded-lg border border-ebony-clay-100 p-5 hover:shadow-md transition-shadow"
       >
         <a v-if="item.data.url" :href="item.data.url" target="_blank" class="block">
-          <h2 class="text-lg font-semibold text-gray-900 hover:text-galaxy-primary transition-colors mb-1">
+          <h2 class="text-lg font-semibold text-chicago-900 hover:text-galaxy-primary transition-colors mb-1">
             {{ item.data.title }}
           </h2>
           <p class="text-xs text-green-700 mb-2">{{ item.data.url }}</p>
-          <p v-if="item.data.abstractNote" class="text-gray-600 text-sm">
+          <p v-if="item.data.abstractNote" class="text-chicago-600 text-sm">
             {{ item.data.abstractNote.slice(0, 450) }}{{ item.data.abstractNote.length > 450 ? '...' : '' }}
           </p>
         </a>
         <div v-else>
-          <h2 class="text-lg font-semibold text-gray-900 mb-1">{{ item.data.title }}</h2>
-          <p v-if="item.data.abstractNote" class="text-gray-600 text-sm">
+          <h2 class="text-lg font-semibold text-chicago-900 mb-1">{{ item.data.title }}</h2>
+          <p v-if="item.data.abstractNote" class="text-chicago-600 text-sm">
             {{ item.data.abstractNote.slice(0, 450) }}{{ item.data.abstractNote.length > 450 ? '...' : '' }}
           </p>
         </div>
@@ -98,12 +98,12 @@ watch(
     </div>
 
     <div v-else-if="results && results.length === 0" class="text-center py-12">
-      <p class="text-gray-500 mb-2">No publications found for "{{ query }}"</p>
-      <p class="text-sm text-gray-400">Try different keywords or check your spelling</p>
+      <p class="text-chicago-500 mb-2">No publications found for "{{ query }}"</p>
+      <p class="text-sm text-chicago-400">Try different keywords or check your spelling</p>
     </div>
 
     <div v-else-if="!query.trim()" class="text-center py-12">
-      <svg class="w-16 h-16 mx-auto text-gray-300 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg class="w-16 h-16 mx-auto text-chicago-300 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path
           stroke-linecap="round"
           stroke-linejoin="round"
@@ -111,7 +111,7 @@ watch(
           d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
         ></path>
       </svg>
-      <p class="text-gray-500">Enter a search term to search Galaxy publications</p>
+      <p class="text-chicago-500">Enter a search term to search Galaxy publications</p>
     </div>
   </div>
 </template>

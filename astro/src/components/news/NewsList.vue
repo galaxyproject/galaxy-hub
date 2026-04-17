@@ -171,7 +171,7 @@ function displaySubsite(subsite: string): string {
           @click="selectYear(null)"
           :class="[
             'px-3 py-1.5 text-sm font-medium rounded-md transition-colors',
-            selectedYear === null ? 'bg-galaxy-primary text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200',
+            selectedYear === null ? 'bg-galaxy-primary text-white' : 'bg-ebony-clay-50 text-chicago-700 hover:bg-ebony-clay-100',
           ]"
         >
           Recent
@@ -182,7 +182,7 @@ function displaySubsite(subsite: string): string {
           @click="selectYear(year)"
           :class="[
             'px-3 py-1.5 text-sm font-medium rounded-md transition-colors',
-            selectedYear === year ? 'bg-galaxy-primary text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200',
+            selectedYear === year ? 'bg-galaxy-primary text-white' : 'bg-ebony-clay-50 text-chicago-700 hover:bg-ebony-clay-100',
           ]"
         >
           {{ year }}
@@ -197,7 +197,7 @@ function displaySubsite(subsite: string): string {
             'px-3 py-1.5 text-sm font-medium rounded-md transition-colors border-0 cursor-pointer',
             olderYears.includes(selectedYear as number)
               ? 'bg-galaxy-primary text-white'
-              : 'bg-gray-100 text-gray-700 hover:bg-gray-200',
+              : 'bg-ebony-clay-50 text-chicago-700 hover:bg-ebony-clay-100',
           ]"
         >
           <option value="older" disabled selected>Older...</option>
@@ -207,7 +207,7 @@ function displaySubsite(subsite: string): string {
     </div>
 
     <!-- Results count -->
-    <p class="text-sm text-gray-500 mb-6">
+    <p class="text-sm text-chicago-500 mb-6">
       <template v-if="selectedYear">
         {{ filteredArticles.length }} article{{ filteredArticles.length !== 1 ? 's' : '' }} in {{ selectedYear }}
       </template>
@@ -219,22 +219,22 @@ function displaySubsite(subsite: string): string {
       <article
         v-for="article in filteredArticles.slice(0, displayCount)"
         :key="article.slug"
-        class="border-b border-gray-200 pb-8"
+        class="border-b border-ebony-clay-100 pb-8"
       >
         <a :href="buildUrl(article.slug)" class="group block">
-          <h2 class="text-xl font-semibold text-gray-900 group-hover:text-galaxy-primary transition-colors mb-2">
+          <h2 class="text-xl font-semibold text-chicago-900 group-hover:text-galaxy-primary transition-colors mb-2">
             {{ article.title || 'Untitled' }}
             <ExternalIcon v-if="article.externalUrl" :href="article.externalUrl" />
           </h2>
-          <time v-if="article.date" class="text-sm text-gray-500 mb-2 block">
+          <time v-if="article.date" class="text-sm text-chicago-500 mb-2 block">
             {{ formatDate(article.date) }}
           </time>
-          <p v-if="article.tease" class="text-gray-600" v-html="renderMarkdownInline(article.tease)"></p>
+          <p v-if="article.tease" class="text-chicago-600" v-html="renderMarkdownInline(article.tease)"></p>
           <div v-if="article.tags?.length" class="flex flex-wrap gap-2 mt-3">
             <span
               v-for="tag in article.tags.slice(0, 5)"
               :key="tag"
-              class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-600"
+              class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-ebony-clay-50 text-chicago-600"
             >
               {{ tag }}
             </span>
@@ -245,7 +245,7 @@ function displaySubsite(subsite: string): string {
 
     <!-- Load more -->
     <div v-if="filteredArticles.length > displayCount" class="mt-8 text-center">
-      <p class="text-gray-500 mb-4">
+      <p class="text-chicago-500 mb-4">
         Showing {{ displayCount }} of {{ filteredArticles.length }} articles<span v-if="selectedYear">
           in {{ selectedYear }}</span
         >
@@ -260,7 +260,7 @@ function displaySubsite(subsite: string): string {
 
     <!-- No results -->
     <div v-if="filteredArticles.length === 0" class="py-12 text-center">
-      <p class="text-gray-500">No news articles found.</p>
+      <p class="text-chicago-500">No news articles found.</p>
     </div>
   </div>
 </template>

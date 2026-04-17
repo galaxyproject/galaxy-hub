@@ -76,7 +76,7 @@ function isOpen(title: string): boolean {
         v-for="link in topLinks"
         :key="link.href"
         :href="link.href"
-        class="flex items-center px-3 py-2 text-sm font-medium text-gray-300 hover:bg-medium-bg hover:text-white rounded-md transition-colors"
+        class="flex items-center px-3 py-2 text-sm font-medium text-chicago-300 hover:bg-medium-bg hover:text-white rounded-md transition-colors"
       >
         {{ link.label }}
       </a>
@@ -86,7 +86,7 @@ function isOpen(title: string): boolean {
     <div v-for="section in navSections" :key="section.title">
       <Collapsible :open="isOpen(section.title)" @update:open="(open) => setSection(section.title, open)">
         <CollapsibleTrigger
-          class="flex w-full items-center justify-between px-3 py-2 text-sm font-medium text-gray-300 hover:bg-medium-bg hover:text-white rounded-md transition-colors"
+          class="flex w-full items-center justify-between px-3 py-2 text-sm font-medium text-chicago-300 hover:bg-medium-bg hover:text-white rounded-md transition-colors"
         >
           {{ section.title }}
           <ChevronDown
@@ -101,7 +101,7 @@ function isOpen(title: string): boolean {
             :href="item.href"
             :target="item.external ? '_blank' : undefined"
             :rel="item.external ? 'noopener noreferrer' : undefined"
-            class="flex items-center px-3 py-1.5 text-sm text-gray-400 hover:bg-medium-bg hover:text-white rounded-md transition-colors"
+            class="flex items-center px-3 py-1.5 text-sm text-chicago-400 hover:bg-medium-bg hover:text-white rounded-md transition-colors"
           >
             {{ item.label }}
             <svg
@@ -125,19 +125,19 @@ function isOpen(title: string): boolean {
     </div>
 
     <!-- Region Selector -->
-    <div class="pt-4 border-t border-gray-700">
+    <div class="pt-4 border-t border-ebony-clay-700">
       <SubsiteSwitcher />
     </div>
 
     <!-- Bottom links (@jxtx Foundation) -->
-    <div class="pt-4 border-t border-gray-700 space-y-1">
+    <div class="pt-4 border-t border-ebony-clay-700 space-y-1">
       <a
         v-for="link in bottomLinks"
         :key="link.href"
         :href="link.href"
         :target="link.external ? '_blank' : undefined"
         :rel="link.external ? 'noopener noreferrer' : undefined"
-        class="flex items-center px-3 py-2 text-sm text-gray-400 hover:bg-medium-bg hover:text-white rounded-md transition-colors"
+        class="flex items-center px-3 py-2 text-sm text-chicago-400 hover:bg-medium-bg hover:text-white rounded-md transition-colors"
       >
         {{ link.label }}
         <svg

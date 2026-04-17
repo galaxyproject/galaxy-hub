@@ -26,8 +26,8 @@ const embedUrl = computed(() => {
     <div v-if="embedUrl" class="rounded-lg overflow-hidden shadow-md">
       <iframe :src="embedUrl" class="w-full h-[600px] border-0" frameborder="0" scrolling="no"></iframe>
     </div>
-    <div v-else class="p-4 bg-gray-100 rounded-lg text-center">
-      <p class="text-gray-600">No calendar specified</p>
+    <div v-else class="p-4 bg-ebony-clay-50 rounded-lg text-center">
+      <p class="text-chicago-600">No calendar specified</p>
     </div>
   </div>
 </template>

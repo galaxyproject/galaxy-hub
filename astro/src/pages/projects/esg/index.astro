@@ -70,7 +70,7 @@ function esgUrl(path: string): string {
     <h1 class="sr-only">EuroScienceGateway</h1>
 
     <div class="prose prose-lg max-w-4xl mx-auto text-left">
-      <h2 class="text-2xl font-light text-gray-700">Project Summary</h2>
+      <h2 class="text-2xl font-light text-chicago-700">Project Summary</h2>
       <p>
         In the past decade, many scientific domains have been transformed into data-driven disciplines relying on the
         exchange and integration of internationally distributed data. Exploiting this data is still a laborious and
@@ -80,7 +80,7 @@ function esgUrl(path: string): string {
         are encouraged but their adoption curve is steep.
       </p>
 
-      <hr class="my-8 border-gray-300" />
+      <hr class="my-8 border-ebony-clay-200" />
 
       <p>
         <strong>EuroScienceGateway</strong> will leverage a distributed computing network across 13 European countries, accessible
@@ -94,7 +94,7 @@ function esgUrl(path: string): string {
   {
     objectives && (
       <section class="mb-12">
-        <h2 id="objectives" class="text-2xl font-light text-gray-700 mb-6">
+        <h2 id="objectives" class="text-2xl font-light text-chicago-700 mb-6">
           <a href="#objectives" class="hover:text-galaxy-gold">
             {objectives.heading || 'Objectives'}
           </a>
@@ -103,7 +103,7 @@ function esgUrl(path: string): string {
           {objectives.objectives?.map((obj: any) => (
             <div class="border-2 border-galaxy-primary rounded-lg overflow-hidden">
               <h3 class="bg-galaxy-primary text-white px-4 py-2 text-sm font-medium">{obj.title}</h3>
-              <p class="p-4 text-sm text-gray-700">{obj.content}</p>
+              <p class="p-4 text-sm text-chicago-700">{obj.content}</p>
             </div>
           ))}
         </div>
@@ -115,7 +115,7 @@ function esgUrl(path: string): string {
   {
     externalLinks && (
       <section class="mb-12">
-        <h2 id="projects" class="text-2xl font-light text-gray-700 mb-6">
+        <h2 id="projects" class="text-2xl font-light text-chicago-700 mb-6">
           <a href="#projects" class="hover:text-galaxy-gold">
             {externalLinks.heading || 'Projects Part of ESG'}
           </a>
@@ -126,7 +126,7 @@ function esgUrl(path: string): string {
               href={link.url}
               target="_blank"
               rel="noopener noreferrer"
-              class="block p-4 border border-gray-200 rounded-lg hover:shadow-md transition-shadow"
+              class="block p-4 border border-ebony-clay-100 rounded-lg hover:shadow-md transition-shadow"
               title={link.name}
             >
               <img
@@ -148,7 +148,7 @@ function esgUrl(path: string): string {
   {
     expectedResults && (
       <section class="mb-12">
-        <h2 id="results" class="text-2xl font-light text-gray-700 mb-6">
+        <h2 id="results" class="text-2xl font-light text-chicago-700 mb-6">
           <a href="#results" class="hover:text-galaxy-gold">
             {expectedResults.heading || 'Expected Results'}
           </a>
@@ -157,7 +157,7 @@ function esgUrl(path: string): string {
           {expectedResults.expected_results?.map((result: any) => (
             <div class="border-2 border-galaxy-primary rounded-lg overflow-hidden">
               <h3 class="bg-galaxy-primary text-white px-4 py-2 text-sm font-medium">{result.title}</h3>
-              <p class="p-4 text-sm text-gray-700">{result.content}</p>
+              <p class="p-4 text-sm text-chicago-700">{result.content}</p>
             </div>
           ))}
         </div>
@@ -194,12 +194,12 @@ function esgUrl(path: string): string {
                 ))}
               </ul>
             ) : (
-              <p class="text-gray-500 text-sm">No news articles yet.</p>
+              <p class="text-chicago-500 text-sm">No news articles yet.</p>
             )
           }
           <a
             href={esgUrl('/projects/esg/news/')}
-            class="inline-block px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded text-sm font-medium"
+            class="inline-block px-4 py-2 bg-ebony-clay-50 hover:bg-ebony-clay-100 rounded text-sm font-medium"
           >
             More News
           </a>
@@ -227,19 +227,19 @@ function esgUrl(path: string): string {
                     <span class="text-galaxy-primary font-medium text-sm whitespace-nowrap">
                       {formatDate(event.data.date)}
                     </span>
-                    <a href={`/${event.data.slug}/`} class="text-gray-700 hover:text-galaxy-gold text-sm">
+                    <a href={`/${event.data.slug}/`} class="text-chicago-700 hover:text-galaxy-gold text-sm">
                       {event.data.title}
                     </a>
                   </li>
                 ))}
               </ul>
             ) : (
-              <p class="text-gray-500 text-sm">No upcoming events.</p>
+              <p class="text-chicago-500 text-sm">No upcoming events.</p>
             )
           }
           <a
             href={esgUrl('/projects/esg/events/')}
-            class="inline-block px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded text-sm font-medium"
+            class="inline-block px-4 py-2 bg-ebony-clay-50 hover:bg-ebony-clay-100 rounded text-sm font-medium"
           >
             More Events
           </a>
@@ -252,7 +252,7 @@ function esgUrl(path: string): string {
   {
     partners && (
       <section class="mb-12">
-        <h2 id="partners" class="text-2xl font-light text-gray-700 mb-6">
+        <h2 id="partners" class="text-2xl font-light text-chicago-700 mb-6">
           <a href="#partners" class="hover:text-galaxy-gold">
             Project Partners
           </a>

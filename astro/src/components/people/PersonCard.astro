@@ -64,7 +64,7 @@ if (person.github && githubUrl) socialLinks.push({ label: 'GitHub', href: github
     )
   }
   <div
-    class="absolute -top-12 left-1/2 -translate-x-1/2 h-20 w-20 rounded-full ring-4 ring-white shadow-md overflow-hidden bg-gray-100"
+    class="absolute -top-12 left-1/2 -translate-x-1/2 h-20 w-20 rounded-full ring-4 ring-white shadow-md overflow-hidden bg-ebony-clay-50"
   >
     {
       avatar ? (
@@ -80,7 +80,7 @@ if (person.github && githubUrl) socialLinks.push({ label: 'GitHub', href: github
   <div class="space-y-2">
     <div class="space-y-1">
       <h3 class="text-lg font-semibold text-galaxy-dark mt-2">{person.name}</h3>
-      {person.title && <p class="text-sm text-gray-600">{person.title}</p>}
+      {person.title && <p class="text-sm text-chicago-600">{person.title}</p>}
     </div>
     {bioHtml && <div class="pt-1 prose prose-sm max-w-none text-left mx-auto" set:html={bioHtml} />}
   </div>
@@ -157,7 +157,7 @@ if (person.github && githubUrl) socialLinks.push({ label: 'GitHub', href: github
             <span class="break-words">{row.label}</span>
           </a>
         ) : (
-          <div class="flex items-center justify-center gap-2 text-sm text-gray-700">
+          <div class="flex items-center justify-center gap-2 text-sm text-chicago-700">
             {row.icon === 'email' ? (
               <svg class="h-4 w-4 text-galaxy-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor">
                 <path
@@ -230,7 +230,7 @@ if (person.github && githubUrl) socialLinks.push({ label: 'GitHub', href: github
         {socialLinks.map((link) => (
           <a
             href={link.href}
-            class="inline-flex items-center justify-center h-9 w-9 rounded-full border border-gray-200 text-galaxy-primary bg-white hover:bg-galaxy-primary/10 hover:border-galaxy-primary transition-colors shadow-sm"
+            class="inline-flex items-center justify-center h-9 w-9 rounded-full border border-ebony-clay-100 text-galaxy-primary bg-white hover:bg-galaxy-primary/10 hover:border-galaxy-primary transition-colors shadow-sm"
             target="_blank"
             rel="noopener noreferrer"
             title={link.label}

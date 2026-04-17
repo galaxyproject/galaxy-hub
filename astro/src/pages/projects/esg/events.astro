@@ -58,11 +58,11 @@ function esgUrl(path: string): string {
     <a href={esgUrl('/projects/esg/')} class="text-galaxy-primary hover:underline text-sm"> &larr; Back to ESG Home </a>
   </div>
 
-  <h1 class="text-3xl font-light text-gray-800 mb-8">EuroScienceGateway Events</h1>
+  <h1 class="text-3xl font-light text-chicago-800 mb-8">EuroScienceGateway Events</h1>
 
   <!-- Upcoming Events -->
   <section class="mb-12">
-    <h2 class="text-2xl font-light text-gray-700 mb-6 flex items-center gap-2">
+    <h2 class="text-2xl font-light text-chicago-700 mb-6 flex items-center gap-2">
       <svg class="w-6 h-6 text-galaxy-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path
           stroke-linecap="round"
@@ -77,24 +77,24 @@ function esgUrl(path: string): string {
       upcomingEvents.length > 0 ? (
         <div class="space-y-4">
           {upcomingEvents.map((event) => (
-            <div class="border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">
+            <div class="border border-ebony-clay-100 rounded-lg p-4 hover:shadow-md transition-shadow">
               <div class="flex flex-col md:flex-row md:items-start gap-4">
                 <div class="text-galaxy-primary font-medium whitespace-nowrap">
                   {formatDateRange(event.data.date, event.data.end)}
                 </div>
                 <div class="flex-1">
-                  <a href={`/${event.data.slug}/`} class="text-lg font-medium text-gray-800 hover:text-galaxy-gold">
+                  <a href={`/${event.data.slug}/`} class="text-lg font-medium text-chicago-800 hover:text-galaxy-gold">
                     {event.data.title}
                   </a>
-                  {event.data.location && <p class="text-sm text-gray-500 mt-1">{event.data.location}</p>}
-                  {event.data.tease && <p class="text-gray-600 mt-2 text-sm">{event.data.tease}</p>}
+                  {event.data.location && <p class="text-sm text-chicago-500 mt-1">{event.data.location}</p>}
+                  {event.data.tease && <p class="text-chicago-600 mt-2 text-sm">{event.data.tease}</p>}
                 </div>
               </div>
             </div>
           ))}
         </div>
       ) : (
-        <p class="text-gray-500">No upcoming events at this time.</p>
+        <p class="text-chicago-500">No upcoming events at this time.</p>
       )
     }
   </section>
@@ -103,13 +103,13 @@ function esgUrl(path: string): string {
   {
     pastEvents.length > 0 && (
       <section>
-        <h2 class="text-2xl font-light text-gray-700 mb-6">Past Events</h2>
+        <h2 class="text-2xl font-light text-chicago-700 mb-6">Past Events</h2>
         <div class="space-y-3">
           {pastEvents.map((event) => (
-            <div class="border-b border-gray-100 pb-3">
+            <div class="border-b border-ebony-clay-50 pb-3">
               <div class="flex flex-col md:flex-row md:items-center gap-2">
-                <span class="text-gray-500 text-sm whitespace-nowrap">{formatDate(event.data.date)}</span>
-                <a href={`/${event.data.slug}/`} class="text-gray-700 hover:text-galaxy-gold">
+                <span class="text-chicago-500 text-sm whitespace-nowrap">{formatDate(event.data.date)}</span>
+                <a href={`/${event.data.slug}/`} class="text-chicago-700 hover:text-galaxy-gold">
                   {event.data.title}
                 </a>
               </div>

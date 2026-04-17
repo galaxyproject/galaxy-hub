@@ -129,7 +129,7 @@ function filteredItems(section: NavSection) {
       <div class="flex flex-col flex-1 min-h-0 overflow-y-auto">
         <!-- Region Switcher -->
         <div class="px-4 py-4 border-b border-medium-bg">
-          <label class="text-xs font-medium text-gray-400 uppercase tracking-wider mb-2 block"> Region </label>
+          <label class="text-xs font-medium text-chicago-400 uppercase tracking-wider mb-2 block"> Region </label>
           <Select :model-value="subsite" @update:model-value="handleSubsiteChange">
             <SelectTrigger class="w-full bg-medium-bg border-0 text-white">
               <SelectValue placeholder="Select region" />
@@ -181,7 +181,7 @@ function filteredItems(section: NavSection) {
           <div v-for="section in navSections" :key="section.title">
             <Collapsible :open="isSectionOpen(section.title)" @update:open="toggleSection(section.title)">
               <CollapsibleTrigger
-                class="flex w-full items-center justify-between px-3 py-2 text-sm font-medium text-gray-300 hover:bg-medium-bg hover:text-white rounded-md transition-colors"
+                class="flex w-full items-center justify-between px-3 py-2 text-sm font-medium text-chicago-300 hover:bg-medium-bg hover:text-white rounded-md transition-colors"
               >
                 {{ section.title }}
                 <ChevronDown
@@ -196,7 +196,7 @@ function filteredItems(section: NavSection) {
                   :href="item.href"
                   :target="item.external ? '_blank' : undefined"
                   :rel="item.external ? 'noopener noreferrer' : undefined"
-                  class="flex items-center px-3 py-1.5 text-sm text-gray-400 hover:bg-medium-bg hover:text-white rounded-md transition-colors"
+                  class="flex items-center px-3 py-1.5 text-sm text-chicago-400 hover:bg-medium-bg hover:text-white rounded-md transition-colors"
                   @click="!item.external && handleNavClick()"
                 >
                   {{ item.label }}

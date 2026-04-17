@@ -21,7 +21,7 @@ defineProps<{
       <div
         v-for="contact in contacts"
         :key="contact.name"
-        class="flex items-start gap-4 p-4 bg-white rounded-lg shadow-sm border border-gray-200"
+        class="flex items-start gap-4 p-4 bg-white rounded-lg shadow-sm border border-ebony-clay-100"
       >
         <div v-if="contact.avatar" class="flex-shrink-0">
           <img :src="contact.avatar" :alt="contact.name" class="w-12 h-12 rounded-full object-cover" />
@@ -30,8 +30,8 @@ defineProps<{
           <span class="text-galaxy-primary font-semibold">{{ contact.name.charAt(0) }}</span>
         </div>
         <div class="flex-1 min-w-0">
-          <p class="font-medium text-gray-900">{{ contact.name }}</p>
-          <p v-if="contact.role" class="text-sm text-gray-600">{{ contact.role }}</p>
+          <p class="font-medium text-chicago-900">{{ contact.name }}</p>
+          <p v-if="contact.role" class="text-sm text-chicago-600">{{ contact.role }}</p>
           <div class="flex flex-wrap gap-3 mt-2">
             <a
               v-if="contact.email"
@@ -53,7 +53,7 @@ defineProps<{
               :href="`https://github.com/${contact.github}`"
               target="_blank"
               rel="noopener noreferrer"
-              class="text-sm text-gray-600 hover:text-gray-900 flex items-center gap-1"
+              class="text-sm text-chicago-600 hover:text-chicago-900 flex items-center gap-1"
             >
               <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
                 <path
@@ -80,7 +80,7 @@ defineProps<{
         </div>
       </div>
     </div>
-    <div v-else class="text-center text-gray-500 py-4">
+    <div v-else class="text-center text-chicago-500 py-4">
       <slot>No contacts listed</slot>
     </div>
   </div>
