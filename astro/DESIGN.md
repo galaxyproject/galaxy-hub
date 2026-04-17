@@ -649,6 +649,8 @@ The 24px grid pattern creates a "workflow editor mesh" effect that adds scientif
 
 ## Sister Documents
 
+> **Note:** this Sister Documents section is a transitional construct. The long-term direction is a single canonical Galaxy design system (a base `DESIGN.md` owned by something like `galaxyproject/design-system` or `galaxyproject/brand`) that the Hub, IWC, GTN, and future properties all build on top of. Each property would then keep only a short property-specific overrides doc covering what's unique to it (sidebar layout and bs-compat for the Hub, workflow-card patterns for IWC, etc.). When that canonical lands, this section collapses to a single "see the base Galaxy design system" link at the top of the file.
+
 - **IWC DESIGN.md**: [galaxyproject/iwc website/DESIGN.md](https://github.com/galaxyproject/iwc/blob/main/website/DESIGN.md) -- the closest sibling site. Concise, prescriptive, uses full 50-950 color scales under Pantone-style names.
 - **IWC component reference** (read these when building similar patterns here, paths relative to `website/` in the IWC repo):
   - [`src/components/WorkflowCard.vue`](https://github.com/galaxyproject/iwc/blob/main/website/src/components/WorkflowCard.vue) -- card with hover accent bar
