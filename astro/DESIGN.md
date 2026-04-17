@@ -8,6 +8,8 @@ The typography is built entirely on Atkinson Hyperlegible -- a font designed spe
 
 The Hub is part of a broader Galaxy ecosystem that includes IWC (Intergalactic Workflow Commission), GTN (Galaxy Training Network), and the usegalaxy.org servers. All share the same brand palette, gold accent patterns, dark/light contrast model, and card-based layouts. A researcher browsing workflows on IWC, reading news on the Hub, and taking a GTN tutorial should feel like they're navigating one cohesive platform.
 
+IWC is the closest sibling site in design terms and has its own `DESIGN.md` at `~/work/iwc/website/DESIGN.md`. The two docs should be read together -- where they differ, prefer IWC's approach for anything that appears on both sites (cards, tabs, hover accent bars, section backgrounds). §2 documents the shared Pantone-style color aliases so cross-property code can be written interchangeably.
+
 The site is light-mode only in practice -- dark-mode CSS custom properties exist in `global.css` under a `.dark` class, but nothing toggles that class. Treat the site as single-theme until that changes.
 
 The technical substrate is Astro with Tailwind CSS 4, Vue 3 components hydrated client-side via Reka UI primitives, and class-variance-authority for component variants. Content is Markdown/MDX preprocessed from a shared `/content/` directory, with Bootstrap compatibility classes scoped under `.bs-compat` for legacy content.
@@ -36,14 +38,27 @@ When composing a new Galaxy page, use brand tokens. When dropping in a form inpu
 
 ### Galaxy Brand Tokens
 
-| Token | Hex | Tailwind | Usage |
-|-------|-----|----------|-------|
-| Galaxy Dark | `#2c3143` | `galaxy-dark` | Sidebar, headers, dark backgrounds, heading text |
-| Galaxy Primary | `#25537b` | `galaxy-primary` | Links, interactive elements, table headers |
-| Galaxy Gold | `#ffd700` | `galaxy-gold` | Accents, active states, primary CTAs, border highlights |
-| Galaxy Gold Dark | `#d19e00` | `galaxy-gold-dark` | Hover state on gold-background buttons |
-| Accent Hover | `#ffe60d` | `accent-hover` | Hover state on gold-colored text links |
-| Chicago | `#58585a` | `galaxy-grey` | Body text, muted content |
+| Token | Hex | Tailwind | IWC alias | Usage |
+|-------|-----|----------|-----------|-------|
+| Galaxy Dark | `#2c3143` | `galaxy-dark` | `ebony-clay` | Sidebar, headers, dark backgrounds, heading text |
+| Galaxy Primary | `#25537b` | `galaxy-primary` | `bay-of-many` | Links, interactive elements, table headers |
+| Galaxy Gold | `#ffd700` | `galaxy-gold` | `gold-500` | Accents, active states, primary CTAs, border highlights |
+| Galaxy Gold Dark | `#d19e00` | `galaxy-gold-dark` | `gold-600` | Hover state on gold-background buttons |
+| Accent Hover | `#ffe60d` | `accent-hover` | `gold-400` | Hover state on gold-colored text links |
+| Chicago | `#58585a` | `galaxy-grey` | `chicago` | Body text, muted content |
+| Hokey-Pokey | `#d0bd2a` | (not yet) | `hokey-pokey-500` | IWC's softer gold for primary button backgrounds |
+
+### Ecosystem Palette Alignment (Cross-Property Note)
+
+The IWC site declares **full 50-950 Tailwind-standard scales** for each brand color (`bay-of-many-50` through `bay-of-many-950`, etc.), and uses Pantone-style names that match the hex values listed above. The Hub currently only declares single-value tokens, which is why we often reach for opacity modifiers (`border-galaxy-primary/10`, `bg-galaxy-gold/15`) to approximate the lighter shades.
+
+**Target state**: migrate the Hub's palette to the same 50-950 scales IWC uses, under the same Pantone names, so code is literally portable between the two sites. That's a separate migration; this document describes current reality. In the meantime, when you're replacing a generic gray:
+
+- `text-gray-600` / `text-gray-700` → `text-galaxy-grey` (single-value approximation of `text-chicago-700`)
+- `border-gray-200` → `border-galaxy-primary/10`
+- `bg-gray-50` / `bg-gray-100` → `bg-galaxy-dark/5` or a small `bg-light-bg` tint
+
+**Hokey-pokey (`#d0bd2a`)** is IWC's softer, more saturated gold used on primary button fills (`bg-hokey-pokey-600`). Hub currently uses pure `#ffd700` for the same role. They read slightly differently: `#ffd700` is brighter and more yellow; `#d0bd2a` is more olive. When we migrate to scales, we should decide whether to adopt hokey-pokey as our button-fill gold for ecosystem alignment, or keep pure gold and accept the small divergence.
 
 ### Background Surfaces
 
@@ -75,9 +90,9 @@ Gold (`#ffd700`) is Galaxy's visual signature. Use it for:
 - Gold-background buttons darken on hover: `hover:bg-galaxy-gold-dark` (`#d19e00`)
 - Gold-colored text links brighten on hover: `hover:text-accent-hover` (`#ffe60d`)
 
-### OKLch Semantic Tokens
+### OKLch Semantic Tokens (Transitional)
 
-These drive the generic UI components and resolve to achromatic (near-grayscale) values. They are **not** Galaxy-branded:
+Generic UI primitives (Input, Select, Sheet, Accordion, Tabs -- the shadcn/Reka-scaffolded components) use a second set of tokens inherited from shadcn: `primary`, `secondary`, `muted`, `accent`, `destructive`, `border`, `input`. These resolve to achromatic (near-grayscale) values in light mode:
 
 | Role | Light mode value | Where it shows up |
 |------|-----------------|-------------------|
@@ -87,6 +102,8 @@ These drive the generic UI components and resolve to achromatic (near-grayscale)
 | `border` / `input` | `oklch(0.922 0 0)` (light gray) | Input borders, separators |
 
 If a Galaxy page is reaching for `bg-primary` expecting Galaxy blue, that's a bug -- use `bg-galaxy-primary` instead.
+
+**Note:** IWC doesn't maintain this second system -- it uses brand tokens throughout. The OKLch layer exists on the Hub because our UI primitives were scaffolded from shadcn and we haven't fully migrated them. The long-term direction is IWC's: a single brand palette (with full scales) that both brand-facing pages and UI primitives can share. Until then, treat OKLch as what the generic components already use -- don't propagate it into new Galaxy page code.
 
 ### SIG/WG Category Colors
 
@@ -283,6 +300,45 @@ Signature pattern shared with IWC -- gold bar animates in from the left on hover
 </div>
 ```
 
+### View Toggle (Sliding Pill)
+
+Pattern from IWC for binary view switching (list ↔ grid, table ↔ cards). A container holds two buttons with a single sliding pill background that animates horizontally:
+
+```html
+<div class="relative inline-flex rounded-lg bg-galaxy-dark/10 p-1">
+  <!-- Sliding pill indicator -->
+  <div class="absolute top-1 bottom-1 w-[calc(50%-2px)] rounded-md
+              bg-galaxy-gold shadow-md transition-all duration-300 ease-out"
+       :class="isGrid ? 'left-[calc(50%+1px)]' : 'left-1'"></div>
+
+  <button class="relative z-10 inline-flex items-center gap-1.5 rounded-md
+                 px-3.5 py-1.5 text-sm font-medium transition-colors duration-300"
+          :class="!isGrid ? 'text-galaxy-dark' : 'text-galaxy-grey hover:text-galaxy-dark'">
+    <List :size="16" /> <span>List</span>
+  </button>
+  <!-- Grid button mirrors above -->
+</div>
+```
+
+The active icon also gets a subtle `scale-110` while the inactive stays at `scale-100`. Reference: `~/work/iwc/website/src/components/ViewToggle.vue`.
+
+### Mobile Bottom Sheet
+
+For mobile-only overflow (filter panels, settings, secondary navigation), prefer a **bottom sheet** over a side drawer. The pattern feels more native on touch devices. Uses Reka UI's Dialog primitive:
+
+```html
+<DialogContent class="fixed bottom-0 left-0 right-0 z-50 bg-white
+                     rounded-t-2xl shadow-lg max-h-[70vh] overflow-hidden">
+  <!-- Handle bar (visual affordance for dragging) -->
+  <div class="flex justify-center pt-3 pb-1">
+    <div class="w-10 h-1 bg-galaxy-grey/40 rounded-full"></div>
+  </div>
+  <!-- sheet content -->
+</DialogContent>
+```
+
+Key traits: `rounded-t-2xl` (only top corners), max-height so content scrolls, a visible "handle" bar for mobile UX. Reference: `~/work/iwc/website/src/components/MobileFilterSheet.vue`.
+
 ### Heading Anchors
 
 Anchor links appear on hover with gold color transition:
@@ -307,11 +363,82 @@ Float-right content sidebar used in articles:
 @media (max-width: 768px) { .linkbox { float: none; width: 100%; } }
 ```
 
+### List Row Alternation
+
+For long lists (events, news, workflows), use a subtle odd-row tint to create visual rhythm:
+
+```html
+<li class="odd:bg-galaxy-primary/5 hover:bg-galaxy-gold/5 transition-colors">
+  <!-- row content -->
+</li>
+```
+
+IWC uses `odd:bg-bay-of-many-50/30` on workflow list items. The effect should be barely perceptible -- users shouldn't notice the stripes, just feel the structure. Don't pair this with heavy borders.
+
 ### Bootstrap Compatibility
 
 Legacy content files (~125 Markdown files) use Bootstrap 4 classes (`btn-primary`, `card-deck`, `alert`, etc.). The preprocess step automatically adds a `.bs-compat` wrapper class to any file containing these patterns. Bootstrap CSS is scoped under `.bs-compat` in `astro/src/styles/bootstrap-compat.css` so it doesn't leak into modern components.
 
 **Contract**: never apply `.bs-compat` manually to new components, and never introduce new Bootstrap classes in new content. The compat layer is a migration affordance, not a sanctioned styling path.
+
+---
+
+## 4b. Animation & Motion
+
+Motion on the Hub is quiet and purposeful. Three patterns cover most cases:
+
+### Transition Defaults
+
+For hover and state changes, default to:
+
+```
+transition-colors duration-150    /* color shifts (links, buttons) */
+transition-all duration-200       /* general state changes (cards, inputs) */
+transition-transform duration-200 /* hover accent bars, scale effects */
+transition-all duration-300 ease-out /* sliding pills, layout shifts */
+```
+
+Avoid durations over 400ms for interaction feedback -- they start to feel sluggish. Reserve longer timing (300+ms) for layout-level transitions like view toggles and sheets.
+
+### Staggered List/Grid Entrance (IWC Pattern)
+
+When a collection first renders or re-renders after a filter change, stagger each item's entrance with a small per-item delay. This adds polish without heavy animation work:
+
+```html
+<!-- Vue transition-group example -->
+<TransitionGroup name="list-stagger" tag="ul">
+  <li v-for="(item, index) in items" :key="item.id"
+      :style="{ '--stagger-delay': `${Math.min(index * 30, 400)}ms` }">
+    <!-- item -->
+  </li>
+</TransitionGroup>
+
+<style>
+.list-stagger-enter-active {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition-delay: var(--stagger-delay, 0ms);
+}
+.list-stagger-enter-from { opacity: 0; transform: translateX(-12px); }
+</style>
+```
+
+Cap the cumulative delay (`Math.min(index * 30, 400)`) so a 500-item list doesn't take forever to finish animating. Reference: `~/work/iwc/website/src/components/WorkflowGrid.vue`.
+
+### View Mode Transitions
+
+When switching between list and grid views, fade + slide the container rather than hard-swapping:
+
+```css
+.view-fade-enter-active, .view-fade-leave-active {
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+.view-fade-enter-from { opacity: 0; transform: translateY(8px); }
+.view-fade-leave-to { opacity: 0; transform: translateY(-8px); }
+```
+
+### Astro View Transitions
+
+Astro's built-in View Transitions are enabled site-wide. The dev server is case-insensitive for URLs, but production is case-sensitive -- tests may pass in dev with wrong-case URLs and fail in prod. Use `clickAndWaitForNavigation()` from the Playwright helpers when testing navigation under view transitions.
 
 ---
 
@@ -510,9 +637,24 @@ The 24px grid pattern creates a "workflow editor mesh" effect that adds scientif
 ### Iteration Guide
 
 1. **Font**: Always Atkinson Hyperlegible. Already set on `body` -- don't override per-component.
-2. **Two palettes, one rule**: Galaxy tokens for brand surfaces, OKLch for generic UI. Don't mix. If `bg-primary` looks black, that's because it is -- use `bg-galaxy-primary` for brand blue.
+2. **Two palettes, one rule**: Galaxy tokens for brand surfaces, OKLch for generic UI (transitional -- see §2). Don't mix. If `bg-primary` looks black, that's because it is -- use `bg-galaxy-primary` for brand blue.
 3. **Gold is earned**: Only on CTAs, active states, accent borders, and hero highlights. More than ~3 gold elements per section is probably too many.
 4. **Cards are white, lg, sm**: `bg-white rounded-lg shadow-sm` on light backgrounds; `shadow-md` on dark backgrounds; skip the gold border on dark backgrounds.
 5. **Links follow the pattern**: `text-galaxy-primary` resting, `hover:text-galaxy-gold` with transition.
 6. **Grid overlay**: `bg-grid-dark` on dark sections. Use the `<PageHeader>` component to get the full gradient + grid + gold-bar treatment without reimplementing it.
 7. **Tokens over hex**: `bg-galaxy-dark` not `bg-[#2c3143]`. Tokens are in `global.css` under `@theme`.
+8. **Check IWC first**: For patterns that appear on both sites (cards, tabs, filter sidebars, hover accent bars), look at how IWC implements it (`~/work/iwc/website/`) before writing new code. Ecosystem consistency > local cleverness.
+
+---
+
+## Sister Documents
+
+- **IWC DESIGN.md**: `~/work/iwc/website/DESIGN.md` -- the closest sibling site. Concise, prescriptive, uses full 50-950 color scales under Pantone-style names.
+- **IWC component reference** (read these when building similar patterns here):
+  - `src/components/WorkflowCard.vue` -- card with hover accent bar
+  - `src/components/WorkflowListItem.vue` -- list row with odd-row tinting
+  - `src/components/FilterSidebar.vue` -- desktop filter nav with count badges
+  - `src/components/MobileFilterSheet.vue` -- bottom-sheet mobile dialog
+  - `src/components/ViewToggle.vue` -- sliding-pill toggle
+  - `src/components/WorkflowGrid.vue` -- staggered entrance animations
+  - `src/components/ui/button-variants.ts`, `badge-variants.ts` -- CVA definitions using brand scales
