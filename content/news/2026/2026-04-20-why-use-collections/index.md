@@ -51,7 +51,7 @@ As you can see, less than 30% of the reads were assigned to a gene, and as low a
 
 I couldn't believe it. The quality and depth of the sequencing data had looked perfect. Did I accidentally align to the wrong genome? Mix up mouse and human? But even then, the alignment rate should have been higher than 0.5%.
 
-Desperate, I reached out to the Galaxy experts. I asked [Pavan](https://training.galaxyproject.org/training-material/hall-of-fame/pavanvidem/) to help me play detective. He kindly agreed, and we started digging. Why was the alignment rate so low? Why did some samples have >90% alignment while others struggled to hit 1%? Did the [fastp](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Ffastp%2Ffastp%2F1.2.0%2Bgalaxy0&version=latest) tool somehow aggressively trim away all my reads? Was there a bug in the forward/reverse pair assignment during alignment? Did the facility send me garbage data?
+Desperate, I reached out to the Galaxy experts. I asked [Pavan](https://training.galaxyproject.org/training-material/hall-of-fame/pavanvidem/) to help me play detective. He kindly agreed, and we started digging. Why was the alignment rate so low? Why did some samples have >90% alignment while others struggled to hit 1%? Did the [fastp](https://usegalaxy.eu/?tool_id=fastp) tool somehow aggressively trim away all my reads? Was there a bug in the forward/reverse pair assignment during alignment? Did the facility send me garbage data?
 
 We went into full debugging mode. We ran mapping on the raw data, then on the fastp output, and even tried swapping the forward and reverse order. Nothing worked. Then Pavan suggested a wild idea: map the forward and reverse reads strictly separately.
 
