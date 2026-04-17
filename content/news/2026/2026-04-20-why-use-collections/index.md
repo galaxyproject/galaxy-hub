@@ -32,7 +32,7 @@ For example, here replicate 4 was sequenced on both lane 3 and 4.
 
 This meant I needed to concatenate those FASTQ files from multiple lanes into single forward and reverse fastq files for each sample.
 
-I used the [Concatenate datasets tail-to-head (cat)](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_cat%2F9.5%2Bgalaxy3&version=latest) tool to merge them. I simply dragged and dropped my fastq files, crossed my fingers, and clicked run. To be honest, it was pretty tedious. I had 188 fastq files to run through it, manually making sure I was selecting the correct replicates and conditions.
+I used the [Concatenate datasets tail-to-head (cat)](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ftext_processing%2Ftp_cat%2F9.5%2Bgalaxy3&version=latest) tool to merge them. I simply dragged and dropped my FASTQ files, crossed my fingers, and clicked run. To be honest, it was pretty tedious. I had 188 fastq files to run through it, manually making sure I was selecting the correct replicates and conditions.
 
 Next, I started the RNAseq IWC pipeline to analyze my data. Everything ran smoothly, but when I checked the QC plots... my heart stopped beating. Something was very wrong.
 
