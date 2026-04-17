@@ -42,7 +42,7 @@ Next, I started the RNAseq IWC pipeline to analyze my data. Everything ran smoot
 
 Bad QC result
 
-<img src="./image/bad_data.png" alt="fastq" width="800"/>
+<img src="./image/bad_data.png" alt="bad_data" width="800"/>
 
 <br/>
 </div>
@@ -74,6 +74,15 @@ This is roughly what I did:
 6. Assign sample name to the first layer, for/rev to the second layer, and lane number to the third layer.
 7. Click `Build`.
 
+<div align="center">
+
+<br/>
+
+<img src="./image/rule_builder.png" alt="rule_builder" width="800"/>
+
+<br/>
+</div>
+
 Boom! Now I had a nested collection where each sample was an element. Inside each sample, there were two elements (forward and reverse), and inside *those* were the multiple lane files.
 
 Next, I ran the concatenate tool again, but this time I just fed it the nested collection. It seamlessly generated a new collection containing my samples with perfectly concatenated forward and reverse files. A quick conversion to a paired collection, and I was back in business.
@@ -86,7 +95,7 @@ The result?
 
 Just look how beautifully this data is mapped to the genome!
 
-<img src="./image/good_data.png" alt="fastq" width="800"/>
+<img src="./image/good_data.png" alt="good_data" width="800"/>
 
 <br/>
 </div>
