@@ -85,6 +85,17 @@ This is roughly what I did:
 
 Boom! Now I had a nested collection where each sample was an element. Inside each sample, there were two elements (forward and reverse), and inside *those* were the multiple lane files.
 
+<div align="center">
+
+<br/>
+
+This is the schematic view of my nested collection.
+
+<img src="./image/collection.jpg" alt="collection" width="800"/>
+
+<br/>
+</div>
+
 Next, I ran the concatenate tool again, but this time I just fed it the nested collection. It seamlessly generated a new collection containing my samples with perfectly concatenated forward and reverse files. A quick conversion to a paired collection, and I was back in business.
 
 The result?
