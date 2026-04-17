@@ -90,7 +90,7 @@ If a Galaxy page is reaching for `bg-primary` expecting Galaxy blue, that's a bu
 
 ### SIG/WG Category Colors
 
-Special Interest Groups and Working Groups use dedicated category colors. Applied as `bg-*` classes with implicit white text for contrast (AA on a 16px weight 400 baseline).
+Special Interest Groups and Working Groups use dedicated category colors. Applied as `bg-*` classes with white text. These sit outside the main brand palette -- they're a categorical encoding, not part of the design language.
 
 | Category | Hex | Class |
 |----------|-----|-------|
@@ -171,12 +171,14 @@ Content rendered from Markdown uses custom prose styles (see `.prose` and `.pros
 
 ### Page Header
 
-Appears on all content pages -- gradient background with grid overlay and gold accent bar:
+Appears on all content pages -- gradient background with grid overlay and gold accent bar. **Use the `<PageHeader>` Astro component** (`astro/src/components/layout/PageHeader.astro`) rather than reimplementing this; it supports optional date, authors, and tags.
+
+The structure it produces (shown for reference):
 
 ```html
 <header class="relative p-10 rounded-t-lg text-white"
-        style="background: linear-gradient(135deg, #2c3143 0%, #25537b 100%);
-               border-bottom: 4px solid #ffd700;">
+        style="background: linear-gradient(135deg, var(--color-galaxy-dark) 0%, var(--color-galaxy-primary) 100%);
+               border-bottom: 4px solid var(--color-galaxy-gold);">
   <!-- ::before pseudo: 24px grid, white 3% opacity -->
   <div class="flex items-center gap-3 mb-4">
     <div class="w-1 h-8 bg-galaxy-gold"></div>  <!-- Gold accent bar -->
@@ -186,13 +188,11 @@ Appears on all content pages -- gradient background with grid overlay and gold a
 </header>
 ```
 
-Use the `<PageHeader>` Astro component (`astro/src/components/layout/PageHeader.astro`) -- it supports optional date, authors, and tags.
-
 ### Cards
 
 ```html
 <!-- Standard card (on light backgrounds) -->
-<div class="bg-white border border-gray-200 rounded-lg shadow-sm p-6">
+<div class="bg-white border border-galaxy-primary/10 rounded-lg shadow-sm p-6">
 
 <!-- Gold-accent card (featured content on light backgrounds) -->
 <div class="bg-white border-l-4 border-l-galaxy-gold rounded-lg shadow-sm p-6">
@@ -309,7 +309,7 @@ Float-right content sidebar used in articles:
 
 ### Bootstrap Compatibility
 
-Legacy content files (~125 Markdown files) use Bootstrap 4 classes (`btn-primary`, `card-deck`, `alert`, etc.). The preprocess step automatically adds a `.bs-compat` wrapper class to any file containing these patterns. Bootstrap CSS is scoped under `.bs-compat` in `bootstrap-compat.css` so it doesn't leak into modern components.
+Legacy content files (~125 Markdown files) use Bootstrap 4 classes (`btn-primary`, `card-deck`, `alert`, etc.). The preprocess step automatically adds a `.bs-compat` wrapper class to any file containing these patterns. Bootstrap CSS is scoped under `.bs-compat` in `astro/src/styles/bootstrap-compat.css` so it doesn't leak into modern components.
 
 **Contract**: never apply `.bs-compat` manually to new components, and never introduce new Bootstrap classes in new content. The compat layer is a migration affordance, not a sanctioned styling path.
 
@@ -394,7 +394,7 @@ The Hub uses a layered depth model rather than heavy shadow stacking:
 
 ### Borders
 
-- Light-context cards: `border border-gray-200` or `border border-galaxy-primary/10` (subtle edge)
+- Light-context cards: `border border-galaxy-primary/10` (subtle brand-tinted edge)
 - Dark-context elements: `border-medium-bg` (sidebar section dividers)
 - Gold accent borders: `border-l-4 border-l-galaxy-gold` (featured content)
 - Page header: `border-bottom: 4px solid #ffd700` (gold bottom bar)
