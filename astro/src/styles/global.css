@@ -8,14 +8,34 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-  /* Galaxy Brand Colors */
+  /*
+   * Galaxy Brand Palette
+   *
+   * Two naming systems exist in parallel, both resolving to the same colors:
+   *
+   * 1. Semantic aliases (galaxy-primary, galaxy-dark, galaxy-gold, ...) -- the
+   *    historical Hub naming. Single values, no scales.
+   * 2. Pantone-style scales (bay-of-many-50..950, ebony-clay-50..950, ...) --
+   *    the IWC naming. Full Tailwind-standard 50-950 ranges. Use these when
+   *    you need a shade between the base and white/black (e.g., subtle
+   *    borders, tinted backgrounds, hover states) or when writing code that
+   *    should be portable to IWC.
+   *
+   * Mapping: galaxy-primary == bay-of-many-900, galaxy-dark == ebony-clay-900,
+   * galaxy-gold == gold-500, galaxy-grey == chicago-600, light-bg ==
+   * bay-of-many-100, medium-bg == ebony-clay-800, card-bg == ebony-clay-600.
+   * hokey-pokey-500 (#d0bd2a) is IWC's softer gold for button fills; no
+   * galaxy-* alias yet.
+   */
+
+  /* Semantic aliases (Hub-historical) */
   --color-galaxy-primary: #25537b;
   --color-galaxy-dark: #2c3143;
   --color-galaxy-gold: #ffd700;
   --color-galaxy-gold-dark: #d19e00;
   --color-galaxy-grey: #58585a;
 
-  /* Background Colors */
+  /* Background aliases */
   --color-dark-bg: #2c3143;
   --color-medium-bg: #3c435c;
   --color-light-bg: #edf4fa;
@@ -24,6 +44,78 @@
   /* Accent/Highlight */
   --color-accent: #ffd700;
   --color-accent-hover: #ffe60d;
+
+  /* Pantone-style scales (shared with IWC) */
+
+  /* bay-of-many (== galaxy-primary at 900) */
+  --color-bay-of-many-50: #fdfdfe;
+  --color-bay-of-many-100: #edf4fa;
+  --color-bay-of-many-200: #cde0f0;
+  --color-bay-of-many-300: #aecce7;
+  --color-bay-of-many-400: #8fb9dd;
+  --color-bay-of-many-500: #6fa5d4;
+  --color-bay-of-many-600: #5091ca;
+  --color-bay-of-many-700: #387dba;
+  --color-bay-of-many-800: #2e689a;
+  --color-bay-of-many-900: #25537b;
+  --color-bay-of-many-950: #1f4465;
+  --color-bay-of-many: #25537b;
+
+  /* ebony-clay (== galaxy-dark at 900) */
+  --color-ebony-clay-50: #dfe2ea;
+  --color-ebony-clay-100: #d3d6e2;
+  --color-ebony-clay-200: #bbc0d2;
+  --color-ebony-clay-300: #a2a9c2;
+  --color-ebony-clay-400: #8992b2;
+  --color-ebony-clay-500: #717ba2;
+  --color-ebony-clay-600: #5d678d;
+  --color-ebony-clay-700: #4c5574;
+  --color-ebony-clay-800: #3c435c;
+  --color-ebony-clay-900: #2c3143;
+  --color-ebony-clay-950: #212532;
+  --color-ebony-clay: #2c3143;
+
+  /* gold (== galaxy-gold at 500) */
+  --color-gold-50: #ffffe7;
+  --color-gold-100: #feffc1;
+  --color-gold-200: #fffd86;
+  --color-gold-300: #fff441;
+  --color-gold-400: #ffe60d;
+  --color-gold-500: #ffd700;
+  --color-gold-600: #d19e00;
+  --color-gold-700: #a67102;
+  --color-gold-800: #89580a;
+  --color-gold-900: #74480f;
+  --color-gold-950: #442604;
+  --color-gold: #ffd700;
+
+  /* chicago (== galaxy-grey at 600) */
+  --color-chicago-50: #f5f5f6;
+  --color-chicago-100: #e6e6e7;
+  --color-chicago-200: #d0d0d1;
+  --color-chicago-300: #afafb1;
+  --color-chicago-400: #878789;
+  --color-chicago-500: #6c6c6e;
+  --color-chicago-600: #58585a;
+  --color-chicago-700: #4f4e50;
+  --color-chicago-800: #454446;
+  --color-chicago-900: #3c3c3d;
+  --color-chicago-950: #262626;
+  --color-chicago: #58585a;
+
+  /* hokey-pokey (IWC's softer gold for button fills) */
+  --color-hokey-pokey-50: #f2ecbf;
+  --color-hokey-pokey-100: #efe7ae;
+  --color-hokey-pokey-200: #e8dd8d;
+  --color-hokey-pokey-300: #e1d36b;
+  --color-hokey-pokey-400: #daca49;
+  --color-hokey-pokey-500: #d0bd2a;
+  --color-hokey-pokey-600: #a19321;
+  --color-hokey-pokey-700: #736817;
+  --color-hokey-pokey-800: #443e0e;
+  --color-hokey-pokey-900: #151304;
+  --color-hokey-pokey-950: #000000;
+  --color-hokey-pokey: #d0bd2a;
 
   /* Typography */
   --font-sans:

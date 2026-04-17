@@ -48,17 +48,25 @@ When composing a new Galaxy page, use brand tokens. When dropping in a form inpu
 | Chicago | `#58585a` | `galaxy-grey` | `chicago` | Body text, muted content |
 | Hokey-Pokey | `#d0bd2a` | (not yet) | `hokey-pokey-500` | IWC's softer gold for primary button backgrounds |
 
-### Ecosystem Palette Alignment (Cross-Property Note)
+### Ecosystem Palette Alignment (Cross-Property)
 
-The IWC site declares **full 50-950 Tailwind-standard scales** for each brand color (`bay-of-many-50` through `bay-of-many-950`, etc.), and uses Pantone-style names that match the hex values listed above. The Hub currently only declares single-value tokens, which is why we often reach for opacity modifiers (`border-galaxy-primary/10`, `bg-galaxy-gold/15`) to approximate the lighter shades.
+The Hub ships the same **full 50-950 Tailwind-standard scales** IWC uses, under the same Pantone-style names. Both sites can reference either the semantic aliases (`galaxy-primary`, `galaxy-dark`, `galaxy-grey`, `galaxy-gold`) or the Pantone scales (`bay-of-many-*`, `ebony-clay-*`, `chicago-*`, `gold-*`, `hokey-pokey-*`) interchangeably. Code written for IWC drops into the Hub without modification.
 
-**Target state**: migrate the Hub's palette to the same 50-950 scales IWC uses, under the same Pantone names, so code is literally portable between the two sites. That's a separate migration; this document describes current reality. In the meantime, when you're replacing a generic gray:
+When to reach for which:
 
-- `text-gray-600` / `text-gray-700` → `text-galaxy-grey` (single-value approximation of `text-chicago-700`)
-- `border-gray-200` → `border-galaxy-primary/10`
-- `bg-gray-50` / `bg-gray-100` → `bg-galaxy-dark/5` or a small `bg-light-bg` tint
+- **Semantic aliases** -- when the usage maps clearly to brand roles: "this is the primary link color", "this is the page dark", "this is the gold accent". Most hand-styled Galaxy pages stay here.
+- **Pantone scales** -- when you need a shade between the base and white/black: subtle borders (`border-ebony-clay-100`), tinted section backgrounds (`bg-bay-of-many-50`), hover states (`hover:bg-ebony-clay-50`), muted text (`text-chicago-500`). These unlock the migration away from generic Tailwind grays.
 
-**Hokey-pokey (`#d0bd2a`)** is IWC's softer, more saturated gold used on primary button fills (`bg-hokey-pokey-600`). Hub currently uses pure `#ffd700` for the same role. They read slightly differently: `#ffd700` is brighter and more yellow; `#d0bd2a` is more olive. When we migrate to scales, we should decide whether to adopt hokey-pokey as our button-fill gold for ecosystem alignment, or keep pure gold and accept the small divergence.
+Replacement patterns for generic grays (now directly supported):
+
+- `text-gray-600` → `text-chicago-600`
+- `text-gray-700` → `text-chicago-700`
+- `text-gray-500` → `text-chicago-500`
+- `border-gray-200` → `border-ebony-clay-100`
+- `bg-gray-50` / `bg-gray-100` → `bg-ebony-clay-50` or `bg-bay-of-many-50` (depending on tint intent)
+- `hover:bg-gray-100` → `hover:bg-ebony-clay-50`
+
+**Hokey-pokey (`#d0bd2a`)** is IWC's softer, more saturated gold used on primary button fills (`bg-hokey-pokey-600`). Hub currently uses pure `#ffd700` for the same role. They read slightly differently: `#ffd700` is brighter and more yellow; `#d0bd2a` is more olive. Both are declared here; the choice between them for button fills is a future brand-alignment decision, not a technical one.
 
 ### Background Surfaces
 
