@@ -98,3 +98,5 @@ The take-home message?
 4. **If anything feels tedious in Galaxy, please ask, there is a smarter way to do it.**
 
 Long live FAIR (Findable, Accessible, Interoperable, and Reusable) data analysis principles! 🚀
+
+P.S.: If you like to know more about Rule-based collection creation, please take a look at [Rule Based Uploader](https://galaxyproject.github.io/training-material/topics/galaxy-interface/tutorials/upload-rules/tutorial.html) and [Rule Based Uploader: Advanced](https://galaxyproject.github.io/training-material/topics/galaxy-interface/tutorials/upload-rules-advanced/tutorial.html) training materials.
