@@ -320,7 +320,7 @@ body:
     id: references
     attributes:
       label: Evidence and references
-      description: Links to PRs/issues, monitoring panels, documentation, publications, or  ciations.
+      description: Links to PRs/issues, monitoring panels, documentation, publications, or  citations.
       placeholder: "Add any supporting links here."
     validations:
       required: true
