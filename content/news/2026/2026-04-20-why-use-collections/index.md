@@ -95,5 +95,6 @@ The take-home message?
 1. **First, doing all that file wrangling by hand? Bad idea.** It’s way too easy to mess something up without noticing.
 2. **Use Collections!** They look a bit confusing at first, but they save so much time (and stress).
 3. **When in doubt, ask the Galaxy community.** They love a good mystery! and they’ve probably seen worse :P
+4. **If anything feels tedious in Galaxy, please ask, there is a smarter way to do it.**
 
 Long live FAIR (Findable, Accessible, Interoperable, and Reusable) data analysis principles! 🚀
