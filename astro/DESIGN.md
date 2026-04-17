@@ -8,7 +8,7 @@ The typography is built entirely on Atkinson Hyperlegible -- a font designed spe
 
 The Hub is part of a broader Galaxy ecosystem that includes IWC (Intergalactic Workflow Commission), GTN (Galaxy Training Network), and the usegalaxy.org servers. All share the same brand palette, gold accent patterns, dark/light contrast model, and card-based layouts. A researcher browsing workflows on IWC, reading news on the Hub, and taking a GTN tutorial should feel like they're navigating one cohesive platform.
 
-IWC is the closest sibling site in design terms and has its own `DESIGN.md` at `~/work/iwc/website/DESIGN.md`. The two docs should be read together -- where they differ, prefer IWC's approach for anything that appears on both sites (cards, tabs, hover accent bars, section backgrounds). §2 documents the shared Pantone-style color aliases so cross-property code can be written interchangeably.
+IWC is the closest sibling site in design terms and has its own [DESIGN.md](https://github.com/galaxyproject/iwc/blob/main/website/DESIGN.md) in the `galaxyproject/iwc` repository. The two docs should be read together -- where they differ, prefer IWC's approach for anything that appears on both sites (cards, tabs, hover accent bars, section backgrounds). §2 documents the shared Pantone-style color aliases so cross-property code can be written interchangeably.
 
 The site is light-mode only in practice -- dark-mode CSS custom properties exist in `global.css` under a `.dark` class, but nothing toggles that class. Treat the site as single-theme until that changes.
 
@@ -320,7 +320,7 @@ Pattern from IWC for binary view switching (list ↔ grid, table ↔ cards). A c
 </div>
 ```
 
-The active icon also gets a subtle `scale-110` while the inactive stays at `scale-100`. Reference: `~/work/iwc/website/src/components/ViewToggle.vue`.
+The active icon also gets a subtle `scale-110` while the inactive stays at `scale-100`. Reference: [`ViewToggle.vue`](https://github.com/galaxyproject/iwc/blob/main/website/src/components/ViewToggle.vue) in the IWC repo.
 
 ### Mobile Bottom Sheet
 
@@ -337,7 +337,7 @@ For mobile-only overflow (filter panels, settings, secondary navigation), prefer
 </DialogContent>
 ```
 
-Key traits: `rounded-t-2xl` (only top corners), max-height so content scrolls, a visible "handle" bar for mobile UX. Reference: `~/work/iwc/website/src/components/MobileFilterSheet.vue`.
+Key traits: `rounded-t-2xl` (only top corners), max-height so content scrolls, a visible "handle" bar for mobile UX. Reference: [`MobileFilterSheet.vue`](https://github.com/galaxyproject/iwc/blob/main/website/src/components/MobileFilterSheet.vue) in the IWC repo.
 
 ### Heading Anchors
 
@@ -422,7 +422,7 @@ When a collection first renders or re-renders after a filter change, stagger eac
 </style>
 ```
 
-Cap the cumulative delay (`Math.min(index * 30, 400)`) so a 500-item list doesn't take forever to finish animating. Reference: `~/work/iwc/website/src/components/WorkflowGrid.vue`.
+Cap the cumulative delay (`Math.min(index * 30, 400)`) so a 500-item list doesn't take forever to finish animating. Reference: [`WorkflowGrid.vue`](https://github.com/galaxyproject/iwc/blob/main/website/src/components/WorkflowGrid.vue) in the IWC repo.
 
 ### View Mode Transitions
 
@@ -643,18 +643,18 @@ The 24px grid pattern creates a "workflow editor mesh" effect that adds scientif
 5. **Links follow the pattern**: `text-galaxy-primary` resting, `hover:text-galaxy-gold` with transition.
 6. **Grid overlay**: `bg-grid-dark` on dark sections. Use the `<PageHeader>` component to get the full gradient + grid + gold-bar treatment without reimplementing it.
 7. **Tokens over hex**: `bg-galaxy-dark` not `bg-[#2c3143]`. Tokens are in `global.css` under `@theme`.
-8. **Check IWC first**: For patterns that appear on both sites (cards, tabs, filter sidebars, hover accent bars), look at how IWC implements it (`~/work/iwc/website/`) before writing new code. Ecosystem consistency > local cleverness.
+8. **Check IWC first**: For patterns that appear on both sites (cards, tabs, filter sidebars, hover accent bars), look at how IWC implements it ([galaxyproject/iwc website](https://github.com/galaxyproject/iwc/tree/main/website)) before writing new code. Ecosystem consistency > local cleverness.
 
 ---
 
 ## Sister Documents
 
-- **IWC DESIGN.md**: `~/work/iwc/website/DESIGN.md` -- the closest sibling site. Concise, prescriptive, uses full 50-950 color scales under Pantone-style names.
-- **IWC component reference** (read these when building similar patterns here):
-  - `src/components/WorkflowCard.vue` -- card with hover accent bar
-  - `src/components/WorkflowListItem.vue` -- list row with odd-row tinting
-  - `src/components/FilterSidebar.vue` -- desktop filter nav with count badges
-  - `src/components/MobileFilterSheet.vue` -- bottom-sheet mobile dialog
-  - `src/components/ViewToggle.vue` -- sliding-pill toggle
-  - `src/components/WorkflowGrid.vue` -- staggered entrance animations
-  - `src/components/ui/button-variants.ts`, `badge-variants.ts` -- CVA definitions using brand scales
+- **IWC DESIGN.md**: [galaxyproject/iwc website/DESIGN.md](https://github.com/galaxyproject/iwc/blob/main/website/DESIGN.md) -- the closest sibling site. Concise, prescriptive, uses full 50-950 color scales under Pantone-style names.
+- **IWC component reference** (read these when building similar patterns here, paths relative to `website/` in the IWC repo):
+  - [`src/components/WorkflowCard.vue`](https://github.com/galaxyproject/iwc/blob/main/website/src/components/WorkflowCard.vue) -- card with hover accent bar
+  - [`src/components/WorkflowListItem.vue`](https://github.com/galaxyproject/iwc/blob/main/website/src/components/WorkflowListItem.vue) -- list row with odd-row tinting
+  - [`src/components/FilterSidebar.vue`](https://github.com/galaxyproject/iwc/blob/main/website/src/components/FilterSidebar.vue) -- desktop filter nav with count badges
+  - [`src/components/MobileFilterSheet.vue`](https://github.com/galaxyproject/iwc/blob/main/website/src/components/MobileFilterSheet.vue) -- bottom-sheet mobile dialog
+  - [`src/components/ViewToggle.vue`](https://github.com/galaxyproject/iwc/blob/main/website/src/components/ViewToggle.vue) -- sliding-pill toggle
+  - [`src/components/WorkflowGrid.vue`](https://github.com/galaxyproject/iwc/blob/main/website/src/components/WorkflowGrid.vue) -- staggered entrance animations
+  - [`src/components/ui/button-variants.ts`](https://github.com/galaxyproject/iwc/blob/main/website/src/components/ui/button-variants.ts), [`badge-variants.ts`](https://github.com/galaxyproject/iwc/blob/main/website/src/components/ui/badge-variants.ts) -- CVA definitions using brand scales
