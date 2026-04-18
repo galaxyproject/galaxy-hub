@@ -9,11 +9,11 @@ components: true
 
 # Welcome to Galaxy for Plant Biology
 
-<br>
+<br />
 The __Plant Anaylsis Workbench__ is a comprehensive set of analysis tools and consolidated workflows. The workbench is based on the [Galaxy framework](https://galaxyproject.org),
 which guarantees simple access, easy extension, flexible adaption to personal and security needs, and sophisticated analyses independent of command-line knowledge.
 
-<br>
+<br />
 # Content
 
 
@@ -27,7 +27,7 @@ Are you new to Galaxy, or returning after a long time, and looking for help to g
 
 We are working in close collaboration with the [__Galaxy Training Network (GTN)__](https://training.galaxyproject.org) to develop training materials of data analyses based on Galaxy. If you want to know more about the GTN or how to become part of the Galaxy community, check the videos below!
 
-<br>
+<br />
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/lDqWxzWNk1k"
@@ -44,13 +44,13 @@ frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
-<br>
+<br />
 
 ## Workshops
 
 - [__Plant Transcriptome Analysis Workshop__](https://docs.google.com/document/d/1Y5MqYmMxFCy7PDImYYuHLhgCKVV7MjoGMr22G2U68Ec/preview#), April 19-23, 2021.
 
-<br>
+<br />
 
 ## Training material
 

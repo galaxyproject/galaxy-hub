@@ -1,6 +1,5 @@
 ---
 title: Galaxy Erasmus MC
-components: true
 ---
 
 <slot name="/bare/eu/usegalaxy/notices" />

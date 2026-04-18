@@ -1,6 +1,5 @@
 ---
 title: Galaxy Lite
-components: true
 ---
 
 <slot name="/bare/eu/usegalaxy/notices" />

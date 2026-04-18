@@ -1,6 +1,5 @@
 ---
 title: Galaxy Materials Science
-components: true
 ---
 
 <slot name="/bare/eu/usegalaxy/notices" />
@@ -12,11 +11,11 @@ components: true
 # Welcome to Materials Galaxy!
 
 
-<br>
+<br />
 The **Materials Galaxy** workbench is the place to go for anything materials science in Galaxy! The workbench is based on the [Galaxy framework](https://galaxyproject.org),
 which guarantees simple access, easy extension, flexible adaption to personal and security needs, and sophisticated analyses independent of command-line knowledge.
 
-<br>
+<br />
 # Content
 
 

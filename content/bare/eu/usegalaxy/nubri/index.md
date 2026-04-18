@@ -1,11 +1,10 @@
 ---
 title: Galaxy Nubri
-components: true
 ---
 
 <slot name="/bare/eu/usegalaxy/notices" />
 
-<img src="https://nubri.usegalaxy.eu/assets/media/nubri-galaxy-logo.png" width="180">
+<img src="https://nubri.usegalaxy.eu/assets/media/nubri-galaxy-logo.png" width="180" />
 
 # Welcome to Galaxy NUBRI
 
@@ -20,7 +19,7 @@ Galaxy NUBRI is a web-based, open platform of the National University Biomedical
 
 Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take [a guided tour](https://nubri.usegalaxy.eu/tours/core.galaxy_ui) through Galaxy's user interface.
 
-<br>
+<br />
 
 # Training
 
@@ -28,7 +27,7 @@ Are you new to Galaxy, or returning after a long time, and looking for help to g
 
 To know more about the GTN, check the video below!
 
-<br>
+<br />
 
 <iframe width="560" height="315"
     src="https://www.youtube.com/embed/lDqWxzWNk1k"
@@ -38,7 +37,7 @@ To know more about the GTN, check the video below!
     allowfullscreen>
 </iframe>
 
-<br>
+<br />
 
 # Sponsors and Partners
 
