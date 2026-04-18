@@ -1,6 +1,5 @@
 ---
 title: Galaxy Spatial Omics
-components: true
 ---
 
 <slot name="/bare/eu/usegalaxy/notices" />

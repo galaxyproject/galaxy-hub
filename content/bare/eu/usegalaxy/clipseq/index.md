@@ -1,6 +1,5 @@
 ---
 title: Galaxy CLIP-Seq
-components: true
 ---
 
 <slot name="/bare/eu/usegalaxy/notices" />
@@ -21,7 +20,7 @@ The underlying workflow of the tutorial can be found <a target="_parent" href="h
 
 We recommend to follow the tutorial on <a target="_parent" href="https://galaxyproject.github.io/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html">FastQC</a> for quality checks and the tutorial for <a target="_parent" href="https://galaxyproject.github.io/training-material/topics/introduction/tutorials/igv-introduction/tutorial.html">IGV</a> for data inspection.
 
-The Galaxy Training Network tutorial uses eCLIP data from human liver cancer cells (Hep G2) and is hosted on zenodo: <a target="_parent" href="https://zenodo.org/record/2579279#.XJEAyVNKhPM"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.2579279.svg" alt="DOI"></a>
+The Galaxy Training Network tutorial uses eCLIP data from human liver cancer cells (Hep G2) and is hosted on zenodo: <a target="_parent" href="https://zenodo.org/record/2579279#.XJEAyVNKhPM"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.2579279.svg" alt="DOI" /></a>
 
 Galaxy CLIP-Explorer can process large CLIP-Seq data of eCLIP, iCLIP, and with simple changes to the iCLIP workflows also FLASH, and uvCLAP. We processed eCLIP data with around 20 million reads from [Nostrand et al. (2016)](https://doi.org/10.1038/nmeth.3810). CLIP-Explorer can handle multiplexed and de-multiplexed CLIP-Seq data in FASTQ and FASTA format.
 
@@ -35,7 +34,7 @@ Galaxy CLIP-Explorer can process large CLIP-Seq data of eCLIP, iCLIP, and with s
 Use the following workflows for an automatized data analysis for iCLIP and eCLIP data. For FLASH and uvCLAP use the iCLIP workflows. The data needs to be in **FASTA or FASTQ format** and can be either **multiplexed or de-multiplexed**. All workflows, except the robust peak analysis, require the **data as a list of dataset pairs**. A tutorial to create a list of dataset pairs can be found in the CLIP-Seq data analysis <a target="_parent" href="https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html">tutorial</a> or [here](https://galaxyproject.github.io/training-material/topics/galaxy-data-manipulation/tutorials/collections/tutorial.html). Please have in mind that all workflows need additional input files from the user.
 
 ### 3.1 Quick Example Run
-If you want to make a quick run with example data, then download this example eCLIP data of RBFOX2 <a target="_parent" href="https://zenodo.org/record/2579279#.XJEAyVNKhPM"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.2579279.svg" alt="DOI"></a> and run the <a target="_parent" href="https://github.com/galaxyproject/training-material/tree/master/topics/transcriptomics/tutorials/clipseq/workflows/">workflow</a> of the CLIP-Seq training material mentioned on the <a target="_parent" href="https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html">Galaxy Training Network</a>. Or, use the <a href="https://clipseq.usegalaxy.eu/u/heylf/w/1clipseq-explorerdemultiplexedpeakachuecliphg19n5-1">workflow for the eCLIP data of Nostrand et al. (2016)</a>. Keep in mind, you have to provide the input data as a **list of dataset pairs**. A tutorial to create a list of dataset pairs can be found in the CLIP-Seq data analysis <a target="_parent" href="https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html">tutorial</a> or [here](https://galaxyproject.github.io/training-material/topics/galaxy-data-manipulation/tutorials/collections/tutorial.html).
+If you want to make a quick run with example data, then download this example eCLIP data of RBFOX2 <a target="_parent" href="https://zenodo.org/record/2579279#.XJEAyVNKhPM"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.2579279.svg" alt="DOI" /></a> and run the <a target="_parent" href="https://github.com/galaxyproject/training-material/tree/master/topics/transcriptomics/tutorials/clipseq/workflows/">workflow</a> of the CLIP-Seq training material mentioned on the <a target="_parent" href="https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html">Galaxy Training Network</a>. Or, use the <a href="https://clipseq.usegalaxy.eu/u/heylf/w/1clipseq-explorerdemultiplexedpeakachuecliphg19n5-1">workflow for the eCLIP data of Nostrand et al. (2016)</a>. Keep in mind, you have to provide the input data as a **list of dataset pairs**. A tutorial to create a list of dataset pairs can be found in the CLIP-Seq data analysis <a target="_parent" href="https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html">tutorial</a> or [here](https://galaxyproject.github.io/training-material/topics/galaxy-data-manipulation/tutorials/collections/tutorial.html).
 
 ### 3.2 From scratch to demultiplexed FASTQ files
 

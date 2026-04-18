@@ -1,6 +1,5 @@
 ---
 title: Galaxy Human Cell Atlas
-components: true
 ---
 
 <slot name="/bare/eu/usegalaxy/notices" />
