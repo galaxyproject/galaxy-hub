@@ -8,9 +8,9 @@ left:
       relativeTo: subsite
       target: events/
     - label: People
-      target: https://usegalaxy-eu.github.io/people
+      target: /eu/people/
     - label: Tools
-      target: https://usegalaxy-eu.github.io/tools
+      target: /eu/tools/
 right:
     - label: Help
       contents:
@@ -39,11 +39,11 @@ right:
     - label: About
       contents:
           - label: The European Server
-            target: https://usegalaxy-eu.github.io/about
+            target: /eu/about/
           - label: Publications
-            target: https://usegalaxy-eu.github.io/citations
+            target: /eu/citations/
           - label: Citing Galaxy
-            target: https://usegalaxy-eu.github.io/about#acknowledgement
+            target: /eu/about/#acknowledgement
           - label: Platforms
             target: "/use/"
           - label: Careers
