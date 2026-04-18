@@ -1,6 +1,5 @@
 ---
 title: Galaxy GraphClust
-components: true
 ---
 
 <slot name="/bare/eu/usegalaxy/notices" />
@@ -84,7 +83,7 @@ GraphClust pipeline overview
 
 The pipeline for clustering RNA sequences and structured motif discovery is a multi-step pipeline. Overall it consists of three major phases: a) sequence based pre-clustering b) encoding predicted RNA structures as graph features c) iterative fast candidate clustering then refinement
 
-<img src="https://raw.githubusercontent.com/BackofenLab/GraphClust-2/master/assets/img/workflow_early.png" width="600"> ![GraphClust-2 workflow overview](https://raw.githubusercontent.com/BackofenLab/GraphClust-2/master/assets/img/figure-pipeline_zigzag.png)
+<img src="https://raw.githubusercontent.com/BackofenLab/GraphClust-2/master/assets/img/workflow_early.png" width="600" /> ![GraphClust-2 workflow overview](https://raw.githubusercontent.com/BackofenLab/GraphClust-2/master/assets/img/figure-pipeline_zigzag.png)
 
 
 Below is a coarse-grained correspondence list of GraphClust2 tool names with each step:

@@ -1,6 +1,5 @@
 ---
 title: Galaxy Imaging
-components: true
 ---
 
 <slot name="/bare/eu/usegalaxy/notices" />
@@ -16,7 +15,7 @@ The imaging flavor of Galaxy offers a filtered set of tools that you can assembl
 
 Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take [a guided tour](https://imaging.usegalaxy.eu/tours/core.galaxy_ui) through Galaxy's user interface.
 
-<br>
+<br />
 # Training
 
 [Several image analysis tutorials](https://training.galaxyproject.org/training-material/topics/imaging/) avalable in the [__Galaxy Training Network (GTN)__](https://training.galaxyproject.org):
@@ -25,7 +24,7 @@ Are you new to Galaxy, or returning after a long time, and looking for help to g
 
 To know more about the GTN, check the video below!
 
-<br>
+<br />
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/lDqWxzWNk1k"
@@ -35,7 +34,7 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
 allowfullscreen>
 </iframe>
 
-<br>
+<br />
 
 # Partners
 
