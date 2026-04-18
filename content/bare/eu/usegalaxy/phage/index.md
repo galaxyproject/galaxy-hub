@@ -1,6 +1,5 @@
 ---
 title: Galaxy Phage
-components: true
 ---
 
 <slot name="/bare/eu/usegalaxy/notices" />

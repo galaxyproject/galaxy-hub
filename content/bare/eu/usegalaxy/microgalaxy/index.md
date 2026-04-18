@@ -10,11 +10,11 @@ components: true
 # Welcome to microGalaxy!
 
 
-<br>
+<br />
 Whether you are analysing microbiome samples or bacterial isolates, long reads or short, shotgun or 16S, genomics,  transcriptomics, proteomics or metabolomics, multiomics or integrative analysis **this is the place to be**!
 
 
-<br>
+<br />
 # Content
 
 
