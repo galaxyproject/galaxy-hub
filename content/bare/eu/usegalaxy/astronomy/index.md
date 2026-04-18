@@ -1,6 +1,5 @@
 ---
 title: Galaxy Astronomy
-components: true
 ---
 
 <slot name="/bare/eu/usegalaxy/notices" />
@@ -8,11 +7,11 @@ components: true
 # Welcome to Galaxy for Astronomy!
 
 
-<br>
+<br />
 The **Galaxy for Astronomy** workbench is the place to to do astronomy in Galaxy! The workbench is based on the [Galaxy framework](https://galaxyproject.org),
 which guarantees simple access, easy extension, flexible adaption to personal and security needs, and sophisticated analyses independent of command-line knowledge.
 
-<br>
+<br />
 # Content
 
 

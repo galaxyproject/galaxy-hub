@@ -1,6 +1,5 @@
 ---
 title: Galaxy Aqua
-components: true
 ---
 
 <slot name="/bare/eu/usegalaxy/notices" />

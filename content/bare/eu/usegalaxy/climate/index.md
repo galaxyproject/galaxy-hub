@@ -1,6 +1,5 @@
 ---
 title: Galaxy Climate
-components: true
 ---
 
 <slot name="/bare/eu/usegalaxy/notices" />
