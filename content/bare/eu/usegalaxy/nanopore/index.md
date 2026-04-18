@@ -1,6 +1,5 @@
 ---
 title: Galaxy Nanopore
-components: true
 ---
 
 <slot name="/bare/eu/usegalaxy/notices" />

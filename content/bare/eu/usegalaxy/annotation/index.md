@@ -1,6 +1,5 @@
 ---
 title: Galaxy Annotation
-components: true
 ---
 
 <slot name="/bare/eu/usegalaxy/notices" />

@@ -9,10 +9,10 @@ components: true
 
 # Welcome to Galaxy for Microbiome
 
-<br>
+<br />
 **Galaxy for Microbiome** ([ASaiM](https://asaim.readthedocs.io/en/latest/)) is a webserver to process, analyse and visualize microbiome data in general. It is based on the [Galaxy framework](https://galaxyproject.org), which guarantees simple access, easy extension, flexible adaption to personal and security needs, and sophisticated analyses independent of command-line knowledge.
 
-<br>
+<br />
 # Content
 
 
@@ -42,7 +42,7 @@ frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
-<br><br>
+<br /><br />
 
 **Training material**
 

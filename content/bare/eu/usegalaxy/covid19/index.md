@@ -1,6 +1,5 @@
 ---
 title: Galaxy COVID-19
-components: true
 ---
 
 <slot name="/bare/eu/usegalaxy/notices" />
