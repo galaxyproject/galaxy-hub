@@ -3,6 +3,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { parse } from 'yaml';
 import { communitySlug as baseCommunitySlug, toArray as baseToArray } from './community-base.mjs';
+import { resolveHubInlineMention as resolveHubInlineMentionData } from './hub-inline-mentions.mjs';
 
 const AVATAR_BASE = 'https://training.galaxyproject.org';
 
@@ -36,6 +37,15 @@ export interface GrantRecord {
   url?: string;
   'gtn-halloffame'?: string | boolean | number;
   [key: string]: any;
+}
+
+export interface HubInlineMentionRecord {
+  id: string;
+  slug: string;
+  href: string;
+  label: string;
+  avatarUrl?: string;
+  type: 'contributor' | 'organisation' | 'grant';
 }
 
 type ContributorMap = Record<string, ContributorRecord>;
@@ -249,12 +259,17 @@ export function buildGtnHallOfFameUrl(value: string): string {
 
 export function getOrganisationDisplay(id: string | undefined): string | undefined {
   const organisation = getOrganisation(id);
-  return organisation?.name || organisation?.short_name || organisation?.id;
+  return organisation?.short_name || organisation?.name || organisation?.id;
 }
 
 export function getGrantDisplay(id: string | undefined): string | undefined {
   const grant = getGrant(id);
-  return grant?.name || grant?.short_name || grant?.id;
+  return grant?.short_name || grant?.name || grant?.id;
+}
+
+export function resolveHubInlineMention(key: string | undefined): HubInlineMentionRecord | undefined {
+  if (!key) return undefined;
+  return resolveHubInlineMentionData(key) as HubInlineMentionRecord | undefined;
 }
 
 export function getCommunityDisplay(value: string | undefined): string | undefined {
