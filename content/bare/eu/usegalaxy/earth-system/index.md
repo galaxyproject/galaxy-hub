@@ -1,6 +1,5 @@
 ---
 title: Galaxy for Earth System Sciences
-components: true
 ---
 
 <slot name="/bare/eu/usegalaxy/notices" />
@@ -8,7 +7,7 @@ components: true
 # Welcome to **Galaxy for Earth System Sciences** -- a web platform to get, process, analyze and visualize environmental data
 
 <center><img src="https://earth-system.usegalaxy.eu/assets/media/welcome_page_logo.png" alt="Galaxy for earth system sciences"/></center>
-<br><br>
+<br /><br />
 
 <div style="display:flex; gap:1rem; flex-wrap:wrap; justify-content:center; align-items:stretch;">
 
@@ -68,7 +67,7 @@ components: true
 </div>
 
 
-<br><br>
+<br /><br />
 <iframe id="displayhere" frameborder="0" style="display:none;" width="100%" height="700"></iframe>
 
 
@@ -76,7 +75,7 @@ components: true
     <a href="https://galaxyproject.org/community/sig/earth/" class="show-iframe" data-target="displayhere3">Earth SIG</a>
 </div>
 
-<br><br>
+<br /><br />
 <iframe id="displayhere3" frameborder="0" style="display:none;" width="100%" height="700"></iframe>
 
 # Partnerships
@@ -269,15 +268,15 @@ components: true
     </div>
 </div>
 
-<br><br>
+<br /><br />
 <iframe id="displayhere2" frameborder="0" style="display:none;" width="100%" height="700"></iframe>
 
-<br><br>
+<br /><br />
 
 # Credits
 <center><img src="https://earth-system.usegalaxy.eu/assets/media/partenaire.png" height="225px" alt="Credits"/></center>
 
-<br><br>
+<br /><br />
 <center><img src="https://earth-system.usegalaxy.eu/assets/media/baniere.png" height="175px" alt="Galaxy for earth system sciences"/></center>
 
 <script>

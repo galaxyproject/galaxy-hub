@@ -1,6 +1,5 @@
 ---
 title: Galaxy Africa
-components: true
 ---
 
 <slot name="/bare/eu/usegalaxy/notices" />
