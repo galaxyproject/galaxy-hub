@@ -1,6 +1,5 @@
 ---
 title: Galaxy HiCExplorer
-components: true
 ---
 
 <slot name="/bare/eu/usegalaxy/notices" />
@@ -25,7 +24,7 @@ A more advanced tutorial is hosted on <a target="_parent" href="https://hicexplo
 We recommend to follow the tutorial on <a target="_parent" href="https://galaxyproject.github.io/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html">FASTQC<a/> for quality checks.
 ### Example data
 
-The Galaxy Training Network tutorial uses Hi-C data from Drosophila melanogaster and is hosted on zenodo: <a target="_parent" href="https://doi.org/10.5281/zenodo.1183661"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1183661.svg" alt="DOI"></a>
+The Galaxy Training Network tutorial uses Hi-C data from Drosophila melanogaster and is hosted on zenodo: <a target="_parent" href="https://doi.org/10.5281/zenodo.1183661"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1183661.svg" alt="DOI" /></a>
 
 Additional we provide the data in <a target="_parent" href="https://hicexplorer.usegalaxy.eu/library/list#folders/F8607ddb1c5387e36">the shared data library</a> of the Galaxy HiCExplorer. In comparison to the data hosted on zenodo it contains preprocessed intermediate files.
 
@@ -42,7 +41,7 @@ A preprocessed cHi-C history with data from [Andrey et al. 2017.](https://doi.or
  
  The newest members of the HiCExplorer tool suit are the schic*-modules to bring the latest single-cell Hi-C research to Galaxy. We recommend to follow the tutorial on <a target="_parent" href="https://schicexplorer.readthedocs.io/en/latest/content/Example_analysis.html">schicexplorer.readthedocs.io<a/> for an introduction to the analysis pipeline.
  
-The raw scool matrices for with the data from Nagano 2017 in 10 kb and 1 Mb resolution is hosted on zenodo: <a target="_parent" href="https://doi.org/10.5281/zenodo.3557682"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.3557682.svg" alt="DOI"></a>
+The raw scool matrices for with the data from Nagano 2017 in 10 kb and 1 Mb resolution is hosted on zenodo: <a target="_parent" href="https://doi.org/10.5281/zenodo.3557682"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.3557682.svg" alt="DOI" /></a>
 
 ## HiGlass
 

@@ -38,7 +38,7 @@ As a result of a collaboration with the VGP team, the Galaxy Training Network ha
 <a href="https://assembly.usegalaxy.eu/u/gallardoalba/h/vgp-example-history"><button type="button" class="btn btn-primary btn-lg">Open example history</button></a>
 </div>
 
-<br>
+<br />
 
 ## Additional training material
 
@@ -62,7 +62,7 @@ Unicycler Assembly | [<Icon name="laptop" />](https://training.galaxyproject.org
 SARS-CoV-2 assembly with removing human reads | [<Icon name="laptop" />](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/assembly-with-preprocessing/tutorial.html) | | | |
 
 
-<br>
+<br />
 
 If you want to know more about the GTN or how to become part of the Galaxy community, check the videos below!
 
@@ -82,7 +82,7 @@ frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
-<br>
+<br />
 
 # Partners
 This service is a joint project between different groups from the [Vertebrate Genomes Project (VGP)](https://vertebrategenomesproject.org), the [European Reference Genome Atlas project](https://vertebrategenomesproject.org/erga), the [Human Pangenome Reference Consortium (HPRC)](https://humanpangenome.org/), and the [Galaxy project](https://galaxyproject.org).
