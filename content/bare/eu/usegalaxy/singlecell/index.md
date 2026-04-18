@@ -20,9 +20,6 @@ The server is part if the European Galaxy server and is maintained by the [RNA B
 
 # Content
 
-
-
-
 # Get started with #single-cell
 
 Are you new to Galaxy, or returning after a long time, and looking for help to get started?
@@ -74,10 +71,9 @@ Want to talk with trainers and developers on how to improve single cell analysis
 
 <Icon name="hand-o-right" /> Go to our [Community of Practice site](https://galaxyproject.org/projects/singlecell/) to read more and join us!
 
+{/* # Events and Workshops */}
 
-<!-- # Events and Workshops -->
-
-<!-- We will be hosting a scRNA-seq workshop [this March](https://usegalaxy-eu.github.io/event/2020-01-20-GalaxyWS_scrna_FR/plain.html). Please register whilst spots are still open! -->
+{/* We will be hosting a scRNA-seq workshop [this March](https://usegalaxy-eu.github.io/event/2020-01-20-GalaxyWS_scrna_FR/plain.html). Please register whilst spots are still open! */}
 
 # Contributors
 
