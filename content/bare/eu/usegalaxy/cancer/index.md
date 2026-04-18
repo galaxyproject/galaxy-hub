@@ -18,8 +18,6 @@ The server is part if the European Galaxy server and is maintained by the [RNA B
 
 # Content
 
-
-
 # Get started
 
 Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take [a guided tour](https://cancer.usegalaxy.eu/tours/core.galaxy_ui) through Galaxy's user interface.
@@ -51,7 +49,7 @@ Want to learn more about cancer analysis in Galaxy? Look for a [training event](
 
 In this section we highlight some tools that have been integrated in the the cancer analysis workbench. The list is likely to grow as soon as further tools and workflows are contributed.
 
-<!-- TODO: split into useful categories? smallvarians / SV / Copynumber / data sources / .. -->
+{/* TODO: split into useful categories? smallvarians / SV / Copynumber / data sources / .. */}
 
 | Tool | Description | References |
 |------|-------------|----------- |
