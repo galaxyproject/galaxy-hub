@@ -3,6 +3,8 @@ import { ClientRouter } from 'astro:transitions';
 import '../styles/global.css';
 import Sidebar from '../components/layout/Sidebar.astro';
 import MobileMenu from '../components/layout/MobileMenu.vue';
+import { detectSubsiteFromPath } from '../utils/navbar';
+import { getSubsiteNavbar } from '../utils/navbar-content';
 
 interface Props {
   title: string;
@@ -10,6 +12,8 @@ interface Props {
 }
 
 const { title, description = 'Galaxy Community Hub' } = Astro.props;
+const currentSubsite = detectSubsiteFromPath(Astro.url.pathname);
+const navbar = await getSubsiteNavbar(currentSubsite);
 ---
 
 <!doctype html>
@@ -33,14 +37,14 @@ const { title, description = 'Galaxy Community Hub' } = Astro.props;
   <body class="min-h-screen bg-background text-foreground">
     <div class="flex min-h-screen overflow-hidden">
       <!-- Sidebar (desktop only) -->
-      <Sidebar transition:persist />
+      <Sidebar transition:persist navbar={navbar} />
 
       <!-- Mobile header with Vue-powered menu -->
       <div class="lg:hidden fixed top-0 left-0 right-0 z-50 bg-galaxy-dark p-4 flex items-center justify-between">
         <a href="/" class="block">
           <img src="/images/galaxy_logo_hub_white.svg" alt="Galaxy Community Hub" class="h-8 w-auto" />
         </a>
-        <MobileMenu client:load />
+        <MobileMenu client:load navbar={navbar} />
       </div>
 
       <!-- Main content area -->

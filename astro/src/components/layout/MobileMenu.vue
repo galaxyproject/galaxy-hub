@@ -6,6 +6,7 @@ import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/co
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible';
 import { ChevronDown, Menu } from 'lucide-vue-next';
+import { navbarToSidebarNavigation, type NavbarData, type SidebarNavigation } from '@/utils/navbar';
 
 interface NavItem {
   label: string;
@@ -19,45 +20,60 @@ interface NavSection {
   items: NavItem[];
 }
 
+const DEFAULT_MOBILE_NAV = {
+  topLinks: [],
+  sections: [
+    {
+      title: 'Use Galaxy',
+      items: [
+        { label: 'Get Started', href: '/get-started/' },
+        { label: 'Galaxy Servers', href: '/use/' },
+        { label: 'Training', href: 'https://training.galaxyproject.org', external: true },
+        { label: 'Documentation', href: 'https://docs.galaxyproject.org', external: true },
+      ],
+    },
+    {
+      title: 'Community',
+      items: [
+        { label: 'News', href: '/news/' },
+        { label: 'Events', href: '/events/' },
+        { label: 'People', href: '/people/', subsiteOnly: true },
+        { label: 'Blog', href: '/blog/' },
+        { label: 'Get Involved', href: '/community/' },
+        { label: 'Hall of Fame', href: '/hall-of-fame/' },
+        { label: 'Support', href: '/support/' },
+      ],
+    },
+    {
+      title: 'About',
+      items: [
+        { label: 'Galaxy Project', href: '/about/' },
+        { label: 'Team', href: '/community/team/' },
+        { label: 'Citing Galaxy', href: '/citing-galaxy/' },
+        { label: 'Statistics', href: '/galaxy-project/statistics/' },
+        { label: 'Careers', href: '/careers/' },
+      ],
+    },
+  ],
+  bottomLinks: [],
+} as const;
+
+const props = defineProps<{
+  navbar?: NavbarData | null;
+}>();
+
 const isOpen = ref(false);
 const subsite = useStore(currentSubsite);
 const showPeople = computed(() => !!subsite.value && subsite.value !== 'global');
 
-const navSections: NavSection[] = [
-  {
-    title: 'Use Galaxy',
-    items: [
-      { label: 'Get Started', href: '/get-started/' },
-      { label: 'Galaxy Servers', href: '/use/' },
-      { label: 'Training', href: 'https://training.galaxyproject.org', external: true },
-      { label: 'Documentation', href: 'https://docs.galaxyproject.org', external: true },
-    ],
-  },
-  {
-    title: 'Community',
-    items: [
-      { label: 'News', href: '/news/' },
-      { label: 'Events', href: '/events/' },
-      { label: 'People', href: '/people/', subsiteOnly: true },
-      { label: 'Blog', href: '/blog/' },
-      { label: 'Get Involved', href: '/community/' },
-      { label: 'Hall of Fame', href: '/hall-of-fame/' },
-      { label: 'Support', href: '/support/' },
-    ],
-  },
-  {
-    title: 'About',
-    items: [
-      { label: 'Galaxy Project', href: '/about/' },
-      { label: 'Team', href: '/community/team/' },
-      { label: 'Citing Galaxy', href: '/citing-galaxy/' },
-      { label: 'Statistics', href: '/galaxy-project/statistics/' },
-      { label: 'Careers', href: '/careers/' },
-    ],
-  },
-];
+const navModel = computed<SidebarNavigation>(
+  () => navbarToSidebarNavigation(props.navbar, subsite.value) || (DEFAULT_MOBILE_NAV as SidebarNavigation)
+);
+const navSections = computed<NavSection[]>(() => navModel.value.sections);
+const topLinks = computed<NavItem[]>(() => navModel.value.topLinks);
+const bottomLinks = computed<NavItem[]>(() => navModel.value.bottomLinks);
 
-const openSections = ref<Set<string>>(new Set(['Use Galaxy', 'Community']));
+const openSections = ref<Set<string>>(new Set(navModel.value.sections.slice(0, 2).map((section) => section.title)));
 
 function toggleSection(title: string) {
   if (openSections.value.has(title)) {
@@ -70,24 +86,6 @@ function toggleSection(title: string) {
 
 function isSectionOpen(title: string): boolean {
   return openSections.value.has(title);
-}
-
-function buildHref(href: string, external?: boolean): string {
-  if (external || href.startsWith('http')) {
-    return href;
-  }
-
-  const currentSub = subsite.value;
-  if (currentSub && currentSub !== 'global') {
-    const subsitePaths = ['/news/', '/events/', '/people/'];
-    for (const path of subsitePaths) {
-      if (href.startsWith(path)) {
-        return `/${currentSub}${href}`;
-      }
-    }
-  }
-
-  return href;
 }
 
 function handleSubsiteChange(value: string) {
@@ -168,6 +166,18 @@ function filteredItems(section: NavSection) {
 
         <!-- Navigation -->
         <nav class="flex-1 p-4 space-y-2">
+          <div class="space-y-1">
+            <a
+              v-for="link in topLinks"
+              :key="link.href"
+              :href="link.href"
+              class="flex items-center px-3 py-2 text-sm font-medium text-gray-300 hover:bg-medium-bg hover:text-white rounded-md transition-colors"
+              @click="!link.external && handleNavClick()"
+            >
+              {{ link.label }}
+            </a>
+          </div>
+
           <div v-for="section in navSections" :key="section.title">
             <Collapsible :open="isSectionOpen(section.title)" @update:open="toggleSection(section.title)">
               <CollapsibleTrigger
@@ -183,7 +193,7 @@ function filteredItems(section: NavSection) {
                 <a
                   v-for="item in filteredItems(section)"
                   :key="item.href"
-                  :href="buildHref(item.href, item.external)"
+                  :href="item.href"
                   :target="item.external ? '_blank' : undefined"
                   :rel="item.external ? 'noopener noreferrer' : undefined"
                   class="flex items-center px-3 py-1.5 text-sm text-gray-400 hover:bg-medium-bg hover:text-white rounded-md transition-colors"
@@ -208,6 +218,20 @@ function filteredItems(section: NavSection) {
                 </a>
               </CollapsibleContent>
             </Collapsible>
+          </div>
+
+          <div class="pt-4 border-t border-gray-700 space-y-1">
+            <a
+              v-for="link in bottomLinks"
+              :key="link.href"
+              :href="link.href"
+              :target="link.external ? '_blank' : undefined"
+              :rel="link.external ? 'noopener noreferrer' : undefined"
+              class="flex items-center px-3 py-2 text-sm text-gray-400 hover:bg-medium-bg hover:text-white rounded-md transition-colors"
+              @click="!link.external && handleNavClick()"
+            >
+              {{ link.label }}
+            </a>
           </div>
         </nav>
       </div>

@@ -3,6 +3,13 @@
 // Desktop: Fixed left sidebar with Vue-powered navigation
 // Mobile: Hidden (use MobileMenu.vue for mobile)
 import SidebarNav from './SidebarNav.vue';
+import type { NavbarData } from '@/utils/navbar';
+
+interface Props {
+  navbar?: NavbarData | null;
+}
+
+const { navbar } = Astro.props as Props;
 ---
 
 <aside class="hidden lg:flex flex-col w-64 bg-galaxy-dark text-white fixed left-0 top-0 h-screen overflow-y-auto z-40">
@@ -38,7 +45,7 @@ import SidebarNav from './SidebarNav.vue';
 
   <!-- Navigation (Vue component for collapsible sections) -->
   <div class="flex-1 p-4 overflow-y-auto">
-    <SidebarNav client:load />
+    <SidebarNav client:load navbar={navbar} />
   </div>
 
   <!-- Archive notice -->

@@ -15,7 +15,7 @@ With this server, we provide access to:
 
 When this effort is combined with our community-maintained workflows and our in-depth training material, it makes up for a truly productive work experience. We believe in enabling everyone to perform reproducible science.
 
-<br>
+<br />
 ### ACKNOWLEDGEMENT
 
   We are aiming to maintain high competency and provide high-quality data analysis services to all our Galaxy users.
