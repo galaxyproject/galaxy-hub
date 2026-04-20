@@ -46,7 +46,7 @@ const eventData = events.map((e) => ({
 
     <div class="px-6 sm:px-8 py-6">
       <EventsList
-        client:load
+        client:only="vue"
         events={eventData}
         initialSubsite={subsiteId}
         showUpcoming={false}

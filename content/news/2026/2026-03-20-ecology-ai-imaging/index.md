@@ -10,18 +10,23 @@ contributions:
     - yvanlebras
     - TuturBaba
     - nadinelebris
+  funding:
+    - moorev         # grant
+    - fondfrance     # grant
+    - pndb # organisation
+    - mnhn # organisation
+    - sorbonneuniv # organisation
 ---
 
 Since 2025, Galaxy Ecology team is notably working on marine images annotation and analysis through the MOOREV citizen science project. Thanks to existing Galaxy materials (tools, workflows and training) created by communities as Imaging one and strong support of usegalaxy.eu team, we were able to not start from scratch to meet the MOOREV objectives through a dedicated funding who allows to produce new materials for Galaxy communities. 
 
-
 ## MOOREV: Observing marine species interactions in response to microclimatic gradients on the local foreshore
 
-The MOOREV project, led by Nadine Le Bris, Sorbonne Université, station marine de Concarneau, France, with the support of the CNRS and Fondation de France, was launched in 2022 to improve and promote understanding of the effects of climate disturbances on the seashore and its biodiversity. The citizen science approach involves local stakeholders across the education and research communities. It aims at acquiring and transmitting knowledge about the role of microclimates to which marine species are exposed. Developed in partnership between researchers and environmental education professionals, it is co-constructed with classes and teachers, using the shoreline as a natural laboratory.
+The MOOREV project, led by Nadine Le Bris, Sorbonne Université, station marine de Concarneau, France, with the support of the Museum National d'Histoire Naturelle, CNRS and Fondation de France, was launched in 2022 to improve and promote understanding of the effects of climate disturbances on the seashore and its biodiversity. The citizen science approach involves local stakeholders across the education and research communities. It aims at acquiring and transmitting knowledge about the role of microclimates to which marine species are exposed. Developed in partnership between researchers and environmental education professionals, it is co-constructed with classes and teachers, using the shoreline as a natural laboratory.
 
 MOOREV's approach is based on the implementation of underwater imagery methods to study benthic species at the individual scale over the mosaics of the shore habitats. Transferring marine science tools and protocols, data acquisitions are repeated by groups of children on schools' field sites such as those labelled by the Marine Educative Areas program of the French Office of Biodiversity over tidal cycles, seasons and multiple years.
 
-Data sharing and processing further support student numerical trainings from a broad range of scientific cursus, on one side, and outreach activities, on the other side. The objective is to better understand and make people understand and concerned by the role of species interactions in assessing vulnerability to climatic threats at the local scale. Ultimately, it aims at supporting the implementation of protection and conservation measures by taking into account the interaction of climate change and the ocean socio-ecosystems.
+Data sharing and processing further support student numerical trainings from a broad range of scientific cursus, on one side, and outreach activities, on the other side. The objective is to better understand and make people understand and concerned about the role of species interactions in assessing vulnerability to climatic threats at the local scale. Ultimately, it aims at supporting the implementation of protection and conservation measures by taking into account the interaction of climate change and the ocean socio-ecosystems.
 
 ## And Galaxy on that?
 
@@ -40,15 +45,19 @@ Segment Anything Model 3, SAM3, is a model created by Meta and allowing to ident
 
 With [SAM3 Galaxy tool](https://ecology.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/ecology/sam3_semantic_segmentation/sam3_semantic_segmentation/1.0.0+galaxy0) user can provide pictures or video (even gif) and ask to identify / segment / track features described thanks to a prompt. As an example, we tested it on several biodiversity oriented images as shown below.
 
-We thus can identify crabs or winkles on picture coming from a MOOREV site on the shore at Concarneau, Brittany, France. Even if the picture is blurred, it is working quite well. Unfortunately, SAM3 doesn't seems to find the shrimp ;)
+We thus can identify crabs or winkles on picture coming from a MOOREV site on the shore at Concarneau, Brittany, France. Even if the picture is blurred, it is working quite well. Unfortunately, SAM3 doesn't seems to find the shrimp on this video, although it worked better on other environments.
 
 ![MOOREV underwater image](crab_winkle.png)
 
 We also can identify seagull from aerial drone pictures. It is interesting to see that searching for "bird" is identifying same features, but searching "swallow" or others bird species didn't work. Here it is illustrating the specificity and precision the model can have.
 
-![French bird survey aerial image](seagull.png). 
+![French bird survey aerial image](seagull.png) 
 
-We also tested on Yvan's aquarium ;) to identify fish, mullet species seems to be unknown from SAM3 model, how can this be possible !!!. Here we see the interest of the concept-level understanding rerunning the tool with another prompt searching "smallest fish".
+We also test fish detection on some MOOREV underwater images. Playing with parameters allows us to have relevant results as illustrated below.
+
+![MOOREV fish underwater image](poisson_moorev2.png)
+
+We also tested on Yvan's aquarium ;) to identify fish, mullet species seems to be unknown from SAM3 model, how can this be possible !!! Here we see the interest of the concept-level understanding rerunning the tool with another prompt searching "smallest fish".
 
 ![Yvan's mullet image](fish_smallest_fish.png)
 

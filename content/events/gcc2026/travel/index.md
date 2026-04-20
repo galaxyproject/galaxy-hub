@@ -1,6 +1,10 @@
 ---
 ---
 
+GCC 2026 is being held in the University of Clermont Auvergne, in Clermont-Ferrand, France. Precisely, we will meet at the **IUT Campus des Cezeaux : 5 Av. Blaise Pascal, 63170 Aubière**.
+It's the **building number 2** on the map you can [access here](https://www.uca.fr/medias/fichier/plan-cezeaux-web-_1599219455320-pdf?ID_FICHE=2927&INLINE=FALSE)
+
+
 # About Clermont-Ferrand
 
 ## Clermont-Ferrand: A City of History, Innovation, and Vibrant Culture
@@ -35,21 +39,29 @@ For **international travelers**, **Paris Charles de Gaulle (CDG)** and **Lyon–
 
 Upon arrival, **Clermont-Ferrand's centrally located train station** provides seamless access to the city's **public transportation network**, making it simple to start exploring right away. Whether for business or leisure, traveling by train is a **relaxing and scenic** way to experience the beauty of central France.
 
+We recommend to book your train ticket, to do it either through the [SNCF portal](https://www.sncf-connect.com/) or through [Trainline](https://www.thetrainline.com/en-us).
+
 ## By Car
 
 Clermont-Ferrand is **perfectly positioned** for those traveling by car, with **direct access via the A71, A72, and A75 motorways**. The **A75** stands out as a **toll-free highway**, offering a **picturesque route** that stretches all the way to the **Mediterranean coast**. Whether you're arriving from cities across France or neighboring countries, these **well-maintained highways** make road trips a **convenient and scenic** choice, allowing you to enjoy the stunning landscapes of the Auvergne region along the way.
 
 # Lodging
 
-Attendees looking for accommodations in Clermont-Ferrand may wish to consider **Oceania Clermont-Ferrand**. 
+Attendees looking for accommodations in Clermont-Ferrand may wish to consider the following options:
 
-To reserve a room, please email cleocf.recep.1@oceaniahotels.com and mention the group code **Group CSAM AAFNO GCC2026**.
+**Oceania Clermont-Ferrand**
 
-Rates range from €111.20 to €131.20 per night, depending on the night of your stay.
+To reserve a room, please email cleocf.recep.1@oceaniahotels.com
+ and mention the group code **Group CSAM AAFNO GCC2026**. Rates range from €111.20 to €131.20 per night, depending on the night of your stay.
 
-**As availability may be limited, we encourage attendees to book early**.
+**Holiday Inn Clermont Ferrand Centre**
 
-If you are searching for accommodations independently, you may wish to look near the conference venue at **5 Av. Blaise Pascal, 63170 Aubière, France**.
+To reserve a room, please email clermont@hiclermont.com
+ and mention the booking code **HICF-GCC2026** in the subject line or body of the email. The rate is €110 per night.
+
+**As availability may be limited, we encourage attendees to book early.**
+
+If you are searching for accommodations independently, you may wish to look near the conference venue at **5 Av. Blaise Pascal, 63170 Aubière, France.**
 
 # Local Attractions
 
