@@ -97,7 +97,7 @@ body:
         ## Transparency
         Please provide information about your public information.
 
-  - type: input
+  - type: textarea
     id: org_repos
     attributes:
       label: Public code repositories (org or list)
@@ -220,7 +220,7 @@ body:
     validations:
       required: false
 
-  - type: input
+  - type: textarea
     id: cvmfs_status
     attributes:
       label: CVMFS reference data availability
@@ -320,7 +320,7 @@ body:
     id: references
     attributes:
       label: Evidence and references
-      description: Links to PRs/issues, monitoring panels, documentation, publications, or  ciations.
+      description: Links to PRs/issues, monitoring panels, documentation, publications, or  citations.
       placeholder: "Add any supporting links here."
     validations:
       required: true

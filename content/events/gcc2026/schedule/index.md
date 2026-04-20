@@ -33,9 +33,8 @@ The schedule is where you can discover what’s happening when at GCC2026.
 |                   | 10:00 - 10:30 | Break                                                    |
 |                   | 10:00 - 12:00 | Talks 6                                                  |
 |                   | 12:00 - 13:00 | Lunch                                                    |
-|                   | 13:00 - 13:45 | Panel discussion                                         |
-|                   | 13:45 - 14:30 | Unconference session                                     |
-|                   | 14:30 - 15:00 | Break                                                    |
+|                   | 13:00 - 14:30 | Showcase panel & discussion                              |
+|                   | 14:30 - 15:00 | Group photo / break                                      |
 |                   | 15:00 - 16:15 | Talks 7                                                  |
 |                   | 16:15 - 16:45 | Galaxy in Research                                       |
 |                   | 16:45 - 17:00 | Closing                                                  |
