@@ -5,6 +5,7 @@ days: 1
 tease: ""
 continent: Online
 location: Online
+contributions:
 ---
 ![PMEX reginstration infographic](./PMEX_Galaxy_Flyer_Workshop.png)
 
