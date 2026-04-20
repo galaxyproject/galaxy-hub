@@ -21,4 +21,4 @@ A growing number of Galaxy tools need to present pre-downloaded Hugging Face-com
 - Rows are only added, never removed, so existing tool configurations stay stable as new models are registered
 - A single `huggingface.loc` file is shared across all tools and maintained by admins
 
-The full schema reference, column conventions, and XML filter examples are being added to the [Galaxy admin documentation](https://docs.galaxyproject.org/en/master/admin/data_tables.html).
+The full schema reference, column conventions, and XML filter examples are being added to the [Galaxy admin documentation](https://docs.galaxyproject.org/en/latest/admin/data_tables.html).
