@@ -4,6 +4,7 @@ import { marked } from 'marked';
 import {
   buildGtnHallOfFameUrl,
   communityHasGtnHallOfFame,
+  getCommunityImage,
   communitySlug,
   findCommunityBySlug,
   getGrantDisplay,
@@ -47,8 +48,7 @@ const profileDescription =
   (community as any)?.record?.funding_statement;
 const profileDescriptionHtml = profileDescription ? marked.parse(profileDescription) : '';
 const githubHandle = community?.record ? getCommunityGithubHandle(community.record as any) : undefined;
-const githubAvatar = githubHandle ? `https://github.com/${githubHandle}.png` : undefined;
-const avatarUrl = githubAvatar || (community as any)?.record?.avatarUrl;
+const avatarUrl = community?.record ? getCommunityImage(community.record as any) : undefined;
 
 type ContactLink = {
   label: string;
