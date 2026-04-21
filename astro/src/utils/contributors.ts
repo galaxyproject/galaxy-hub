@@ -278,6 +278,14 @@ export function getCommunityGithubHandle(record?: CommunityGithubRecord): string
   return undefined;
 }
 
+export function getCommunityImage(record?: (CommunityGithubRecord & { avatarUrl?: string }) | undefined): string | undefined {
+  if (!record) return undefined;
+  if (record.avatarUrl) return record.avatarUrl;
+
+  const githubHandle = getCommunityGithubHandle(record);
+  return githubHandle ? `https://github.com/${githubHandle}.png` : undefined;
+}
+
 export function listContributors(): ContributorRecord[] {
   return Object.values(loadContributors());
 }
