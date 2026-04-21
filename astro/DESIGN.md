@@ -36,14 +36,15 @@ The Hub runs two parallel color systems. **Don't mix them.**
 
 When composing a new Galaxy page, use brand tokens. When dropping in a form input or a modal, the generic components already use the OKLch tokens -- leave them alone.
 
-> **OPEN DECISION -- which gold is the Galaxy brand gold?**
+> **Palette decision -- Galaxy gold**
 >
-> Hub and IWC currently disagree on the primary gold (used for CTAs, active states, accent bars):
+> `#ffd700` is the Galaxy accent gold on the Hub. It is exposed as `galaxy-gold` and `gold-500`, and it is the gold to use for CTAs, active states, accent bars, highlighted hero text, and other high-attention moments.
 >
-> - **Hub** -- `#ffd700` (bright yellow), exposed as `galaxy-gold` and `gold-500`. This is the gold on the homepage "Your Data Analysis Platform" highlight and the pillar subtitles.
-> - **IWC** -- `#d0bd2a` (olive/mustard), exposed as `hokey-pokey-500`. See any workflow page on <https://iwc.galaxyproject.org/> for the active tab underlines, left-edge accent bars, and primary buttons.
+> `#d19e00` (`galaxy-gold-dark` / `gold-600`) is the darker hover/shadow companion for gold surfaces.
 >
-> These are **visibly different shades**, not a drop-in rename. The choice is a brand decision, not a technical one, and has to be made jointly with IWC. Until that happens: `#ffd700` is Hub's authoritative gold; `hokey-pokey-*` is declared in `global.css` only so code copy-pasted from IWC compiles, and should **not** be introduced into new Hub pages. Never mix both golds on the same surface.
+> `#d0bd2a` (`hokey-pokey-500`) remains available as a **support token** for cross-property compatibility. It is not the primary Galaxy accent and should not replace `galaxy-gold` in new Hub-facing work.
+>
+> Practical rule: if the UI element is meant to read as the site's signature accent, use `#ffd700`. If a broader filled surface needs a quieter yellow-olive tone, `hokey-pokey-*` can be used deliberately, but never as a second "primary gold" on the same surface.
 
 ### Galaxy Brand Tokens
 
@@ -55,7 +56,7 @@ When composing a new Galaxy page, use brand tokens. When dropping in a form inpu
 | Galaxy Gold Dark | `#d19e00` | `galaxy-gold-dark` | `gold-600` | Hover state on gold-background buttons |
 | Accent Hover | `#ffe60d` | `accent-hover` | `gold-400` | Hover state on gold-colored text links |
 | Chicago | `#58585a` | `galaxy-grey` | `chicago` | Body text, muted content |
-| Hokey-Pokey | `#d0bd2a` | (not yet) | `hokey-pokey-500` | IWC's softer gold for primary button backgrounds |
+| Hokey-Pokey | `#d0bd2a` | (not yet) | `hokey-pokey-500` | Support gold for cross-property compatibility; not the primary accent |
 
 ### Ecosystem Palette Alignment (Cross-Property)
 
@@ -75,7 +76,7 @@ Replacement patterns for generic grays (now directly supported):
 - `bg-gray-50` / `bg-gray-100` → `bg-ebony-clay-50` or `bg-bay-of-many-50` (depending on tint intent)
 - `hover:bg-gray-100` → `hover:bg-ebony-clay-50`
 
-See the **OPEN DECISION** callout at the top of this section for the hokey-pokey vs gold question.
+The palette contract is fixed: `galaxy-gold` / `gold-500` is the primary accent; `hokey-pokey-*` is optional support color only.
 
 ### Background Surfaces
 
@@ -103,9 +104,10 @@ Gold (`#ffd700`) is Galaxy's visual signature. Use it for:
 
 **When NOT to use gold borders**: On cards sitting on dark backgrounds (hero sections), the white card already provides contrast -- adding a gold border is redundant.
 
-**Gold has two hover tones**:
+**Gold palette roles**:
 - Gold-background buttons darken on hover: `hover:bg-galaxy-gold-dark` (`#d19e00`)
 - Gold-colored text links brighten on hover: `hover:text-accent-hover` (`#ffe60d`)
+- Softer olive-gold alternative for cross-property compatibility: `hokey-pokey-500` (`#d0bd2a`)
 
 ### OKLch Semantic Tokens (Transitional)
 
