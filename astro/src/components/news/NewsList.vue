@@ -171,7 +171,9 @@ function displaySubsite(subsite: string): string {
           @click="selectYear(null)"
           :class="[
             'px-3 py-1.5 text-sm font-medium rounded-md transition-colors',
-            selectedYear === null ? 'bg-galaxy-primary text-white' : 'bg-ebony-clay-50 text-chicago-700 hover:bg-ebony-clay-100',
+            selectedYear === null
+              ? 'bg-galaxy-primary text-white'
+              : 'bg-ebony-clay-50 text-chicago-700 hover:bg-ebony-clay-100',
           ]"
         >
           Recent
@@ -182,7 +184,9 @@ function displaySubsite(subsite: string): string {
           @click="selectYear(year)"
           :class="[
             'px-3 py-1.5 text-sm font-medium rounded-md transition-colors',
-            selectedYear === year ? 'bg-galaxy-primary text-white' : 'bg-ebony-clay-50 text-chicago-700 hover:bg-ebony-clay-100',
+            selectedYear === year
+              ? 'bg-galaxy-primary text-white'
+              : 'bg-ebony-clay-50 text-chicago-700 hover:bg-ebony-clay-100',
           ]"
         >
           {{ year }}

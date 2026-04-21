@@ -190,7 +190,9 @@ function getContinentLabel(continent: string | undefined): string {
           <div class="space-y-3">
             {closedPositions.map((career) => (
               <div class="flex flex-wrap items-center gap-3 p-3 bg-ebony-clay-50 rounded-lg border border-ebony-clay-100">
-                <span class="text-sm text-chicago-400 whitespace-nowrap min-w-20">{formatDate(career.data.closes)}</span>
+                <span class="text-sm text-chicago-400 whitespace-nowrap min-w-20">
+                  {formatDate(career.data.closes)}
+                </span>
                 <a
                   href={career.data.external_url || `/${career.data.slug}/`}
                   target={career.data.external_url ? '_blank' : undefined}
