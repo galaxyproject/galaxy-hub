@@ -1,7 +1,7 @@
 ---
 title: "Galaxy at the DARIAH Annual event"
-date: '2026-06-27'
-end: '2026-06-29'
+date: '2026-05-27'
+end: '2026-05-29'
 location:
   name: Rome, Italy
 tags: [humanities, conference, workflow, talk]
