@@ -36,6 +36,15 @@ The Hub runs two parallel color systems. **Don't mix them.**
 
 When composing a new Galaxy page, use brand tokens. When dropping in a form input or a modal, the generic components already use the OKLch tokens -- leave them alone.
 
+> **OPEN DECISION -- which gold is the Galaxy brand gold?**
+>
+> Hub and IWC currently disagree on the primary gold (used for CTAs, active states, accent bars):
+>
+> - **Hub** -- `#ffd700` (bright yellow), exposed as `galaxy-gold` and `gold-500`. This is the gold on the homepage "Your Data Analysis Platform" highlight and the pillar subtitles.
+> - **IWC** -- `#d0bd2a` (olive/mustard), exposed as `hokey-pokey-500`. See any workflow page on <https://iwc.galaxyproject.org/> for the active tab underlines, left-edge accent bars, and primary buttons.
+>
+> These are **visibly different shades**, not a drop-in rename. The choice is a brand decision, not a technical one, and has to be made jointly with IWC. Until that happens: `#ffd700` is Hub's authoritative gold; `hokey-pokey-*` is declared in `global.css` only so code copy-pasted from IWC compiles, and should **not** be introduced into new Hub pages. Never mix both golds on the same surface.
+
 ### Galaxy Brand Tokens
 
 | Token | Hex | Tailwind | IWC alias | Usage |
@@ -66,7 +75,7 @@ Replacement patterns for generic grays (now directly supported):
 - `bg-gray-50` / `bg-gray-100` → `bg-ebony-clay-50` or `bg-bay-of-many-50` (depending on tint intent)
 - `hover:bg-gray-100` → `hover:bg-ebony-clay-50`
 
-**Hokey-pokey (`#d0bd2a`)** is IWC's softer, more saturated gold used on primary button fills (`bg-hokey-pokey-600`). Hub currently uses pure `#ffd700` for the same role. They read slightly differently: `#ffd700` is brighter and more yellow; `#d0bd2a` is more olive. Both are declared here; the choice between them for button fills is a future brand-alignment decision, not a technical one.
+See the **OPEN DECISION** callout at the top of this section for the hokey-pokey vs gold question.
 
 ### Background Surfaces
 
