@@ -278,7 +278,9 @@ export function getCommunityGithubHandle(record?: CommunityGithubRecord): string
   return undefined;
 }
 
-export function getCommunityImage(record?: (CommunityGithubRecord & { avatarUrl?: string }) | undefined): string | undefined {
+export function getCommunityImage(
+  record?: (CommunityGithubRecord & { avatarUrl?: string }) | undefined
+): string | undefined {
   if (!record) return undefined;
   if (record.avatarUrl) return record.avatarUrl;
 
