@@ -16,6 +16,7 @@ import matter from 'gray-matter';
 import { glob } from 'glob';
 import { processMarkdown, processFrontmatter } from './markdown-processor.mjs';
 import { normalizeSlugSegment, normalizeSlug } from './slug-utils.mjs';
+import { resolveHubInlineMention } from '../utils/hub-inline-mentions.mjs';
 export { normalizeSlugSegment, normalizeSlug };
 
 const JSX_COMMENT_RE = /\{\/\*[\s\S]*?\*\/\}/g;
@@ -28,6 +29,7 @@ const ASTRO_CONTENT_DIR = path.join(ASTRO_ROOT, 'src/content');
 const PUBLIC_IMAGES_DIR = path.join(ASTRO_ROOT, 'public/images');
 const PUBLIC_ASSETS_DIR = path.join(ASTRO_ROOT, 'public/assets');
 const PUBLIC_MEDIA_DIR = path.join(ASTRO_ROOT, 'public/media');
+const HUB_INLINE_MENTION_RE = /(?<![\w/])@(?:hub|gtn):([A-Za-z0-9][A-Za-z0-9_-]*)/g;
 
 /**
  * Copy images and assets from a content directory
@@ -260,6 +262,24 @@ function processImagePaths(content, slug) {
   return processed;
 }
 
+function escapeHtml(value) {
+  return String(value).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+export function replaceHubInlineMentions(content) {
+  return content.replace(HUB_INLINE_MENTION_RE, (match, key) => {
+    const mention = resolveHubInlineMention(key);
+    if (!mention) return match;
+
+    const fallback = mention.label.charAt(0).toUpperCase() || '?';
+    const avatarHtml = mention.avatarUrl
+      ? `<img class="hub-inline-link-avatar" src="${escapeHtml(mention.avatarUrl)}" alt="" aria-hidden="true" loading="lazy" />`
+      : `<span class="hub-inline-link-avatar hub-inline-link-avatar-fallback" aria-hidden="true">${escapeHtml(fallback)}</span>`;
+
+    return `<a class="hub-inline-link" href="${escapeHtml(mention.href)}" data-hub-key="${escapeHtml(mention.id)}" data-hub-type="${escapeHtml(mention.type)}">${avatarHtml}<span class="hub-inline-link-label">${escapeHtml(mention.label)}</span></a>`;
+  });
+}
+
 /**
  * Add 'bs-compat' marker class to elements using Bootstrap patterns.
  * This allows bootstrap-compat.css to target only legacy Bootstrap content
@@ -401,6 +421,7 @@ function resolveInsertContent(slotName, depth = 0) {
   const { content: inlined, hasComponents: nestedComponents } = inlineInserts(processed, depth + 1);
   processed = inlined;
   processed = addBootstrapMarker(processed);
+  processed = replaceHubInlineMentions(processed);
   processed = processImagePaths(processed, insertSlug);
 
   const hasComponents = insertFrontmatter.components === true || nestedComponents;
@@ -513,6 +534,7 @@ async function processMarkdownFile(filePath) {
 
   // Process content
   processedContent = addBootstrapMarker(processedContent);
+  processedContent = replaceHubInlineMentions(processedContent);
   processedContent = processImagePaths(processedContent, slug);
 
   // Skip remark processing for files with HTML that remark would mangle

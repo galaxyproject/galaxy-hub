@@ -8,6 +8,7 @@ import {
   getCommunityGithubHandle,
   getGrant,
   getOrganisation,
+  resolveHubInlineMention,
 } from './contributors';
 
 describe('contribution extraction', () => {
@@ -98,5 +99,38 @@ describe('avatar resolution', () => {
     expect(getGrant('eurosciencegateway')?.avatarUrl).toBe(
       'https://training.galaxyproject.org/training-material/assets/images/eurosciencegateway.png'
     );
+  });
+});
+
+describe('hub inline mentions', () => {
+  it('uses contributor name and contributor slug', () => {
+    expect(resolveHubInlineMention('bgruening')).toMatchObject({
+      id: 'bgruening',
+      slug: 'bgruening',
+      href: '/hall-of-fame/bgruening/',
+      label: 'Björn Grüning',
+      avatarUrl: 'https://github.com/bgruening.png',
+      type: 'contributor',
+    });
+  });
+
+  it('prefers organisation short_name over name', () => {
+    expect(resolveHubInlineMention('deNBI')).toMatchObject({
+      id: 'deNBI',
+      label: 'de.NBI',
+      type: 'organisation',
+    });
+  });
+
+  it('prefers grant short_name over name', () => {
+    expect(resolveHubInlineMention('bge')).toMatchObject({
+      id: 'bge',
+      label: 'BGE',
+      type: 'grant',
+    });
+  });
+
+  it('returns undefined for unknown keys', () => {
+    expect(resolveHubInlineMention('not-a-real-community-key')).toBeUndefined();
   });
 });
