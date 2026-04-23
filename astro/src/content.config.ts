@@ -144,6 +144,12 @@ const datasets = defineCollection({
   schema: z.any(),
 });
 
+// Subsite navbars (YAML data files copied from content/<subsite>/navbar.yml)
+const navbars = defineCollection({
+  loader: glob({ pattern: '**/*.{yml,yaml}', base: './src/content/navbars' }),
+  schema: z.any(),
+});
+
 export const collections = {
   articles,
   news,
@@ -152,4 +158,5 @@ export const collections = {
   'bare-articles': bareArticles,
   inserts,
   datasets,
+  navbars,
 };

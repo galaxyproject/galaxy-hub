@@ -5,6 +5,12 @@ import { currentSubsite } from '@/stores/subsiteStore';
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible';
 import { ChevronDown } from 'lucide-vue-next';
 import SubsiteSwitcher from './SubsiteSwitcher.vue';
+import {
+  getDefaultSidebarNavigation,
+  navbarToSidebarNavigation,
+  type NavbarData,
+  type SidebarNavigation,
+} from '@/utils/navbar';
 
 interface NavItem {
   label: string;
@@ -18,64 +24,17 @@ interface NavSection {
 }
 
 const subsite = useStore(currentSubsite);
-const showPeople = computed(() => !!subsite.value && subsite.value !== 'global');
 
-// Top-level links (not in collapsible sections)
-const topLinks: NavItem[] = [
-  { label: 'News', href: '/news/' },
-  { label: 'Events', href: '/events/' },
-];
+const props = defineProps<{
+  navbar?: NavbarData | null;
+}>();
 
-// Navigation sections (matching galaxyproject.org structure)
-const navSections: NavSection[] = [
-  {
-    title: 'Help',
-    items: [
-      { label: 'Get Started', href: '/get-started/' },
-      { label: 'Training', href: '/learn/' },
-      { label: 'FAQ', href: '/support/' },
-      { label: 'Galaxy Help Forum', href: 'https://help.galaxyproject.org/', external: true },
-    ],
-  },
-  {
-    title: 'Community',
-    items: [
-      { label: 'The Galaxy Community', href: '/community/' },
-      { label: 'Governance', href: '/community/governance/' },
-      { label: 'Special Interest Groups', href: '/community/sig/' },
-      { label: 'Working Groups', href: '/community/wg/' },
-      { label: 'How to Contribute', href: '/community/contributing/' },
-      { label: 'Hall of Fame', href: '/hall-of-fame/' },
-      { label: 'Galaxy Mentor Network', href: 'https://galaxy-mentor-network.netlify.app/', external: true },
-      { label: 'Code of Conduct', href: '/community/coc/' },
-    ],
-  },
-  {
-    title: 'About',
-    items: [
-      { label: 'Platforms', href: '/use/' },
-      { label: 'Careers', href: '/careers/' },
-      { label: 'Statistics', href: '/galaxy-project/statistics/' },
-      { label: 'Mailing Lists', href: '/mailing-lists/' },
-      { label: 'Publications', href: '/publication-library/' },
-      { label: 'Citing Galaxy', href: '/citing-galaxy/' },
-      { label: 'Branding', href: '/images/galaxy-logos/' },
-      { label: 'Roadmap', href: '/roadmap/' },
-    ],
-  },
-  {
-    title: 'Applications',
-    items: [
-      { label: 'COVID-19', href: '/projects/covid19/' },
-      { label: 'Monkeypox', href: '/projects/mpxv/' },
-      { label: 'VGP', href: '/projects/vgp/' },
-      { label: 'BRC Analytics', href: 'https://brc-analytics.org/', external: true },
-    ],
-  },
-];
-
-// Bottom links
-const bottomLinks: NavItem[] = [{ label: '@jxtx Foundation', href: 'https://jxtxfoundation.org/', external: true }];
+const navModel = computed<SidebarNavigation>(
+  () => navbarToSidebarNavigation(props.navbar, subsite.value) || getDefaultSidebarNavigation()
+);
+const topLinks = computed<NavItem[]>(() => navModel.value.topLinks);
+const navSections = computed<NavSection[]>(() => navModel.value.sections);
+const bottomLinks = computed<NavItem[]>(() => navModel.value.bottomLinks);
 
 // Track which sections are open
 const openSections = ref<Set<string>>(new Set());
@@ -83,7 +42,7 @@ const openSections = ref<Set<string>>(new Set());
 // On mount, open the section containing the current page
 onMounted(() => {
   const currentPath = window.location.pathname;
-  for (const section of navSections) {
+  for (const section of navSections.value) {
     for (const item of section.items) {
       // Check if current path starts with this item's href (for nested pages)
       if (currentPath.startsWith(item.href) || currentPath === item.href) {
@@ -107,26 +66,6 @@ function setSection(title: string, open: boolean) {
 function isOpen(title: string): boolean {
   return openSections.value.has(title);
 }
-
-// Build href with subsite prefix if needed
-function buildHref(href: string, external?: boolean): string {
-  if (external || href.startsWith('http')) {
-    return href;
-  }
-
-  const currentSub = subsite.value;
-  if (currentSub && currentSub !== 'global') {
-    // Check if this path should be prefixed
-    const subsitePaths = ['/news/', '/events/', '/people/'];
-    for (const path of subsitePaths) {
-      if (href.startsWith(path)) {
-        return `/${currentSub}${href}`;
-      }
-    }
-  }
-
-  return href;
-}
 </script>
 
 <template>
@@ -136,17 +75,10 @@ function buildHref(href: string, external?: boolean): string {
       <a
         v-for="link in topLinks"
         :key="link.href"
-        :href="buildHref(link.href, link.external)"
+        :href="link.href"
         class="flex items-center px-3 py-2 text-sm font-medium text-gray-300 hover:bg-medium-bg hover:text-white rounded-md transition-colors"
       >
         {{ link.label }}
-      </a>
-      <a
-        v-if="showPeople"
-        :href="buildHref('/people/')"
-        class="flex items-center px-3 py-2 text-sm font-medium text-gray-300 hover:bg-medium-bg hover:text-white rounded-md transition-colors"
-      >
-        People
       </a>
     </div>
 
@@ -166,7 +98,7 @@ function buildHref(href: string, external?: boolean): string {
           <a
             v-for="item in section.items"
             :key="item.href"
-            :href="buildHref(item.href, item.external)"
+            :href="item.href"
             :target="item.external ? '_blank' : undefined"
             :rel="item.external ? 'noopener noreferrer' : undefined"
             class="flex items-center px-3 py-1.5 text-sm text-gray-400 hover:bg-medium-bg hover:text-white rounded-md transition-colors"
