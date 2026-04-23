@@ -1,4 +1,4 @@
-import { subsites, type SubsiteId } from '../stores/subsiteStore';
+import { type SubsiteId } from '../stores/subsiteStore';
 
 export interface NavbarItem {
   label: string;
@@ -168,14 +168,4 @@ export function getDefaultSidebarNavigation(): SidebarNavigation {
     sections: DEFAULT_SECTIONS,
     bottomLinks: DEFAULT_BOTTOM_LINKS,
   };
-}
-
-export function detectSubsiteFromPath(pathname: string): SubsiteId {
-  for (const subsite of subsites) {
-    if (subsite.path && subsite.path !== '/' && pathname.startsWith(subsite.path)) {
-      return subsite.id;
-    }
-  }
-
-  return 'global';
 }

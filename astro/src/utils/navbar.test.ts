@@ -1,5 +1,7 @@
 import { describe, expect, it } from 'vitest';
-import { detectSubsiteFromPath, navbarToSidebarNavigation } from './navbar';
+export { detectSubsiteFromPath } from '../stores/subsiteStore';
+import { detectSubsiteFromPath } from '../stores/subsiteStore';
+import { navbarToSidebarNavigation } from './navbar';
 
 describe('navbar utilities', () => {
   it('detects a subsite from the pathname', () => {
