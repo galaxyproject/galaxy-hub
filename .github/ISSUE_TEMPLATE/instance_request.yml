@@ -6,14 +6,6 @@ labels:
   - federation
   - dot-star
   - application
-assignees:
-  - bebatut
-  - bjoern.gruening
-  - blankenberg
-  - GarethPrice-Aus
-  - hujambo-dunia
-  - mschatz
-  - nekrut
 body:
   - type: markdown
     attributes:
