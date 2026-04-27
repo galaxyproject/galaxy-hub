@@ -372,6 +372,17 @@ body {
   text-decoration: none;
 }
 
+/* Tool list styling - renders Markdown links as badges */
+.tool-list a {
+  @apply inline-flex items-center rounded-full border border-galaxy-primary/30 px-2.5 py-0.5 text-xs font-medium text-galaxy-primary transition-colors m-0.5;
+  text-decoration: none !important;
+}
+
+.tool-list a:hover {
+  @apply bg-galaxy-primary text-white border-galaxy-primary;
+  text-decoration: none !important;
+}
+
 /* Show anchor on heading hover */
 h1:hover .heading-anchor,
 h2:hover .heading-anchor,
