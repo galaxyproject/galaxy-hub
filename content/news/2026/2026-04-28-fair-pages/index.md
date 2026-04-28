@@ -63,8 +63,10 @@ This initiative would not have been possible without the support and collaborati
 
 - **The Galaxy Community** for their **passion, contributions, and collaborative spirit**. The Galaxy Community’s dedication to open science, training, and tool development has been the driving force behind Galaxy’s success as a platform for **reproducible and accessible research**.
 
+<div class="float-left" style="max-width: 200px"><img src="/images/logos/gaia_data.png" alt="Gaia Data logo"/></div>
 - **[GAIA-Data](https://gaia-data.eu/)** for their contributions to the Galaxy platform and their work on these FAIR pages.
 
+<div class="float-left" style="max-width: 200px"><img src="/images/logos/ELIXIR_RIR_Logo.png" alt="ELIXIR RIR logo"/></div>
 - **[ELIXIR](https://elixir-europe.org/)** for their support in promoting **FAIR data practices** and **interoperability standards** across the life sciences. Galaxy is proud to be a **Recommended Interoperability Resource (RIR)** for ELIXIR.
 ---
 
