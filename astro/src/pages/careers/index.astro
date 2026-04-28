@@ -68,12 +68,12 @@ function getContinentLabel(continent: string | undefined): string {
       <div class="flex items-start gap-6">
         <div class="flex-1">
           <h1 class="text-3xl font-bold text-galaxy-dark mb-4">Galactic Career Center</h1>
-          <p class="text-gray-600">
+          <p class="text-chicago-600">
             The Galaxy community is continually searching for new developers, bioinformaticians, system administrators,
             and researchers. This page lists openings from around the world that use, deploy, enhance and administer
             Galaxy.
           </p>
-          <p class="text-gray-600 mt-2">
+          <p class="text-chicago-600 mt-2">
             If you have an opening you want to list here, please send it to
             <a href="mailto:outreach@galaxyproject.org" class="text-galaxy-primary hover:underline">
               outreach@galaxyproject.org
@@ -97,7 +97,7 @@ function getContinentLabel(continent: string | undefined): string {
 
       {
         openPositions.length === 0 ? (
-          <p class="text-gray-500 italic">No open positions at this time. Check back soon!</p>
+          <p class="text-chicago-500 italic">No open positions at this time. Check back soon!</p>
         ) : (
           <div class="space-y-4">
             {openPositions.map((career) => (
@@ -114,7 +114,7 @@ function getContinentLabel(continent: string | undefined): string {
                         {career.data.title}
                       </a>
                     </CardTitle>
-                    <span class="text-sm text-gray-500 whitespace-nowrap">
+                    <span class="text-sm text-chicago-500 whitespace-nowrap">
                       Closes: {formatDate(career.data.closes)}
                     </span>
                   </div>
@@ -150,14 +150,14 @@ function getContinentLabel(continent: string | undefined): string {
                       </span>
                     )}
                     {career.data.continent && (
-                      <span class="text-gray-400">({getContinentLabel(career.data.continent)})</span>
+                      <span class="text-chicago-400">({getContinentLabel(career.data.continent)})</span>
                     )}
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
-                  {career.data.summary && <p class="text-gray-600 text-sm line-clamp-3">{career.data.summary}</p>}
+                  {career.data.summary && <p class="text-chicago-600 text-sm line-clamp-3">{career.data.summary}</p>}
                   {career.data.contact && (
-                    <p class="text-sm text-gray-500 mt-2">
+                    <p class="text-sm text-chicago-500 mt-2">
                       Contact:{' '}
                       <a href={`mailto:${career.data.contact}`} class="text-galaxy-primary hover:underline">
                         {career.data.contact}
@@ -176,7 +176,7 @@ function getContinentLabel(continent: string | undefined): string {
     <section>
       <h2 class="text-2xl font-bold text-galaxy-dark mb-6 flex items-center gap-2">
         <span
-          class="inline-flex items-center justify-center w-8 h-8 bg-gray-100 text-gray-600 rounded-full text-sm font-semibold"
+          class="inline-flex items-center justify-center w-8 h-8 bg-ebony-clay-50 text-chicago-600 rounded-full text-sm font-semibold"
         >
           {closedPositions.length}
         </span>
@@ -185,22 +185,24 @@ function getContinentLabel(continent: string | undefined): string {
 
       {
         closedPositions.length === 0 ? (
-          <p class="text-gray-500 italic">No previous positions to display.</p>
+          <p class="text-chicago-500 italic">No previous positions to display.</p>
         ) : (
           <div class="space-y-3">
             {closedPositions.map((career) => (
-              <div class="flex flex-wrap items-center gap-3 p-3 bg-gray-50 rounded-lg border border-gray-200">
-                <span class="text-sm text-gray-400 whitespace-nowrap min-w-20">{formatDate(career.data.closes)}</span>
+              <div class="flex flex-wrap items-center gap-3 p-3 bg-ebony-clay-50 rounded-lg border border-ebony-clay-100">
+                <span class="text-sm text-chicago-400 whitespace-nowrap min-w-20">
+                  {formatDate(career.data.closes)}
+                </span>
                 <a
                   href={career.data.external_url || `/${career.data.slug}/`}
                   target={career.data.external_url ? '_blank' : undefined}
                   rel={career.data.external_url ? 'noopener noreferrer' : undefined}
-                  class="text-gray-600 hover:text-galaxy-primary hover:underline flex-1"
+                  class="text-chicago-600 hover:text-galaxy-primary hover:underline flex-1"
                 >
                   {career.data.title}
                 </a>
                 {getLocationName(career.data.location) && (
-                  <span class="text-sm text-gray-400 hidden sm:inline">{getLocationName(career.data.location)}</span>
+                  <span class="text-sm text-chicago-400 hidden sm:inline">{getLocationName(career.data.location)}</span>
                 )}
               </div>
             ))}

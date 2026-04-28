@@ -68,7 +68,7 @@ const videoInfo = computed(() => {
     <!-- YouTube/Vimeo iframe embed -->
     <div
       v-if="videoInfo.type === 'youtube' || videoInfo.type === 'vimeo'"
-      class="aspect-video w-full max-w-3xl mx-auto rounded-lg overflow-hidden shadow-lg"
+      class="aspect-video w-full max-w-3xl mx-auto rounded-lg overflow-hidden shadow-md"
     >
       <iframe
         :src="videoInfo.embedUrl"
@@ -85,26 +85,26 @@ const videoInfo = computed(() => {
       v-else-if="videoInfo.type === 'native'"
       :src="videoInfo.src"
       controls
-      class="w-full max-w-3xl mx-auto rounded-lg shadow-lg"
+      class="w-full max-w-3xl mx-auto rounded-lg shadow-md"
     >
       <p>Your browser does not support the video element.</p>
     </video>
 
     <!-- Unknown/unsupported -->
-    <div v-else class="p-4 bg-gray-100 rounded-lg text-center">
-      <p class="text-gray-600">Unable to embed video</p>
+    <div v-else class="p-4 bg-ebony-clay-50 rounded-lg text-center">
+      <p class="text-chicago-600">Unable to embed video</p>
       <a
         v-if="src || url"
         :href="src || url"
         target="_blank"
         rel="noopener noreferrer"
-        class="text-blue-600 hover:underline"
+        class="text-galaxy-primary hover:underline"
       >
         Open video
       </a>
     </div>
 
     <!-- Caption -->
-    <p v-if="title" class="text-center text-sm text-gray-600 mt-2">{{ title }}</p>
+    <p v-if="title" class="text-center text-sm text-chicago-600 mt-2">{{ title }}</p>
   </div>
 </template>

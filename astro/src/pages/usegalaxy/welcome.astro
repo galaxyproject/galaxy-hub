@@ -36,7 +36,7 @@ const carouselSlides = [
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to Galaxy</title>
   </head>
-  <body class="bg-white text-gray-700 leading-relaxed max-w-[900px] mx-auto p-5">
+  <body class="bg-white text-chicago-700 leading-relaxed max-w-[900px] mx-auto p-5">
     <!-- Hero Banner -->
     <section class="welcome-hero">
       <div class="relative z-1">
@@ -64,7 +64,7 @@ const carouselSlides = [
     <section class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
       <!-- Carousel -->
       <div>
-        <div class="rounded-lg overflow-hidden shadow-md bg-gray-200" id="welcome-carousel">
+        <div class="rounded-lg overflow-hidden shadow-md bg-ebony-clay-100" id="welcome-carousel">
           <div class="relative w-full" style="aspect-ratio: 13/9;">
             {
               carouselSlides.map((slide, index) => (
@@ -99,7 +99,7 @@ const carouselSlides = [
             {
               carouselSlides.map((_, index) => (
                 <button
-                  class={`carousel-indicator w-2.5 h-2.5 rounded-full transition-colors cursor-pointer border-0 ${index === 0 ? 'bg-galaxy-primary' : 'bg-gray-300 hover:bg-gray-400'}`}
+                  class={`carousel-indicator w-2.5 h-2.5 rounded-full transition-colors cursor-pointer border-0 ${index === 0 ? 'bg-galaxy-primary' : 'bg-ebony-clay-200 hover:bg-ebony-clay-300'}`}
                   data-index={index}
                   aria-label={`Go to slide ${index + 1}`}
                 />
@@ -180,7 +180,7 @@ const carouselSlides = [
     <!-- Cite Galaxy -->
     <section class="text-center mb-8">
       <p class="font-semibold text-galaxy-dark mb-2">Cite Galaxy</p>
-      <p class="text-xs text-gray-600 leading-relaxed max-w-2xl mx-auto mb-2">
+      <p class="text-xs text-chicago-600 leading-relaxed max-w-2xl mx-auto mb-2">
         The Galaxy Community. &ldquo;The Galaxy platform for accessible, reproducible, and collaborative data analyses:
         2024 update.&rdquo; <em>Nucleic Acids Res.</em> 2024, 52(W1):W83-W94.
         <a href="https://doi.org/10.1093/nar/gkae410" target="_blank" class="text-galaxy-primary hover:underline"
@@ -190,12 +190,12 @@ const carouselSlides = [
         <a
           href="https://galaxyproject.org/citing-galaxy/"
           target="_blank"
-          class="text-gray-400 hover:text-galaxy-primary transition-colors">full citation guide</a
+          class="text-chicago-400 hover:text-galaxy-primary transition-colors">full citation guide</a
         >
       </p>
     </section>
 
-    <hr class="border-gray-200 my-8" />
+    <hr class="border-ebony-clay-100 my-8" />
 
     <!-- Institutions & Infrastructure -->
     <section class="grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-8 mb-8">
@@ -208,7 +208,7 @@ const carouselSlides = [
             <img src="/images/usegalaxy-welcome/jhu_logo.png" alt="Johns Hopkins University" class="max-h-16" />
           </a>
         </div>
-        <p class="text-sm text-gray-600 leading-relaxed">
+        <p class="text-sm text-chicago-600 leading-relaxed">
           <a href="https://galaxyproject.org/galaxy-team/" class="text-galaxy-primary hover:underline"
             >The Galaxy Team</a
           > is a part of
@@ -232,7 +232,7 @@ const carouselSlides = [
             <img src="/images/usegalaxy-welcome/jetstream2_logo.png" alt="Jetstream2" class="max-h-16" />
           </a>
         </div>
-        <p class="text-sm text-gray-600 leading-relaxed">
+        <p class="text-sm text-chicago-600 leading-relaxed">
           This instance of Galaxy is utilizing infrastructure generously provided by the
           <a href="https://tacc.utexas.edu/" class="text-galaxy-primary hover:underline"
             >Texas Advanced Computing Center</a
@@ -245,7 +245,7 @@ const carouselSlides = [
     </section>
 
     <!-- Funding & Legal -->
-    <section class="mb-8 text-xs text-gray-500 leading-relaxed space-y-3 border-t border-gray-200 pt-4">
+    <section class="mb-8 text-xs text-chicago-500 leading-relaxed space-y-3 border-t border-ebony-clay-100 pt-4">
       <p>
         The development and maintenance of this site are supported by
         <a href="https://www.nih.gov/" class="text-galaxy-primary hover:underline">NIH</a>
@@ -355,12 +355,12 @@ const carouselSlides = [
           });
           indicators.forEach((ind) => {
             ind.classList.remove('bg-galaxy-primary');
-            ind.classList.add('bg-gray-300');
+            ind.classList.add('bg-ebony-clay-200');
           });
 
           slides[index].classList.remove('opacity-0', 'pointer-events-none');
           slides[index].classList.add('opacity-100');
-          indicators[index].classList.remove('bg-gray-300');
+          indicators[index].classList.remove('bg-ebony-clay-200');
           indicators[index].classList.add('bg-galaxy-primary');
           currentSlide = index;
         }
