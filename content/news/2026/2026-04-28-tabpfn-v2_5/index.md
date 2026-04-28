@@ -21,7 +21,7 @@ A newer version of [TabPFN](https://doi.org/10.1038/s41586-024-08328-6) tool (v7
 
 **Note**: The TabPFN models are under a non-commercial license and should be used for non-commercial purposes only. For commercial purposes, please contact sales@priorlabs.ai.
 
-The following two use-cases of classification on biomedical datasets showcase the usage of TabPFN on the European Galaxy server.
+The following two use-cases of classification on biomedical datasets showcase the usage of TabPFN on the European Galaxy server. The datasets have been collected from a recent [Tabular Learning for Biomedical Data](https://openreview.net/pdf?id=3Phk0nC9hK) publication.
 
 ### Splice-junction Gene Sequences
 
@@ -67,5 +67,5 @@ This [workflow](https://usegalaxy.eu/u/kumara/w/diabetes-detection-using-tabpfn)
 - [Publisehd workflow for DNA sequence classification on Galaxy](https://usegalaxy.eu/published/workflow?id=6b7ad97c010ca356)
 - [Workflow invocation for DNA sequence classification](https://usegalaxy.eu/workflows/invocations/d244771639421489)
 - [Diabetes datasets](https://www.kaggle.com/datasets/aravindpcoder/diabetes-dataset?resource=download)
-- [Publisehd workflow for Diabetes detection on Galaxy](https://usegalaxy.eu/u/kumara/w/diabetes-detection-using-tabpfn)
+- [Publisehd workflow for Diabetes detection on Galaxy](https://usegalaxy.eu/u/kumara/w/diabetes-detection-using-tabpfn-1)
 - [Workflow invocation for Diabetes detection](https://usegalaxy.eu/workflows/invocations/a2b636544c89e8e4)
