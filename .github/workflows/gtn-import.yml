@@ -13,7 +13,7 @@ jobs:
     name: Collect news/events from the Galaxy Training Network
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 1
 
@@ -21,11 +21,11 @@ jobs:
         id: app-token
         uses: actions/create-github-app-token@v3
         with:
-          app-id: ${{ secrets.GTN_IMPORT_APP_ID }}
-          private-key: ${{ secrets.GTN_IMPORT_APP_PRIVATE_KEY }}
+          client-id: ${{ secrets.HUB_BOT_APP_CLIENT_ID }}
+          private-key: ${{ secrets.HUB_BOT_APP_PRIVATE_KEY }}
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 

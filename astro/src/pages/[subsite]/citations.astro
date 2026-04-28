@@ -109,9 +109,9 @@ const emptyHint = `No citations found for ${subsite}. Add a BibTeX file at conte
   description={`Scientific research using & citing the ${subsite.toUpperCase()} Galaxy server.`}
 >
   <div class="max-w-5xl mx-auto space-y-6">
-    <header class="border-b border-gray-200 pb-4">
+    <header class="border-b border-ebony-clay-100 pb-4">
       <h1 class="text-3xl font-bold text-galaxy-dark">{subsite.toUpperCase()} Citations</h1>
-      <p class="text-gray-600">
+      <p class="text-chicago-600">
         This is the list of scientific publications that cited the {subsite.toUpperCase()} Galaxy instance. Please help us
         to support this project with your acknowledgement.
       </p>
@@ -119,13 +119,13 @@ const emptyHint = `No citations found for ${subsite}. Add a BibTeX file at conte
 
     {
       !exists || citations.length === 0 ? (
-        <div class="rounded-md border border-dashed border-gray-300 bg-gray-50 p-6 text-gray-700">
+        <div class="rounded-md border border-dashed border-ebony-clay-200 bg-ebony-clay-50 p-6 text-chicago-700">
           <p>{emptyHint}</p>
         </div>
       ) : (
         <div class="space-y-6">
-          <section class="rounded-md border border-gray-200 bg-gray-50 p-4 space-y-3">
-            <p class="text-sm text-gray-700 font-medium">Filter by year</p>
+          <section class="rounded-md border border-ebony-clay-100 bg-ebony-clay-50 p-4 space-y-3">
+            <p class="text-sm text-chicago-700 font-medium">Filter by year</p>
             <div class="flex flex-wrap items-center gap-2">
               <a
                 data-year-button
@@ -141,7 +141,7 @@ const emptyHint = `No citations found for ${subsite}. Add a BibTeX file at conte
                   data-year-button
                   data-year={year}
                   href={`?year=${encodeURIComponent(year)}`}
-                  class="px-3 py-1.5 text-sm font-medium rounded-md bg-gray-100 text-gray-700 hover:bg-gray-200"
+                  class="px-3 py-1.5 text-sm font-medium rounded-md bg-ebony-clay-50 text-chicago-700 hover:bg-ebony-clay-100"
                   aria-pressed="false"
                 >
                   {year === 'unknown' ? 'Unknown year' : year}
@@ -149,14 +149,14 @@ const emptyHint = `No citations found for ${subsite}. Add a BibTeX file at conte
                 </a>
               ))}
             </div>
-            <p class="text-sm text-gray-500" data-filter-count>
+            <p class="text-sm text-chicago-500" data-filter-count>
               Showing {citations.length} citation{citations.length === 1 ? '' : 's'}
             </p>
           </section>
 
           {citations.map((c, idx) => (
             <article
-              class="border border-gray-200 rounded-md p-4 shadow-sm"
+              class="border border-ebony-clay-100 rounded-md p-4 shadow-sm"
               key={`${c.title || 'citation'}-${idx}`}
               data-citation-year={c.year ? String(c.year) : 'unknown'}
             >
@@ -175,7 +175,7 @@ const emptyHint = `No citations found for ${subsite}. Add a BibTeX file at conte
                       <span set:html={c.title || 'Untitled'} />
                     )}
                   </h2>
-                  {c.authors && <p class="text-sm text-gray-600 mt-1">{c.authors}</p>}
+                  {c.authors && <p class="text-sm text-chicago-600 mt-1">{c.authors}</p>}
                 </div>
               </div>
             </article>
@@ -206,8 +206,8 @@ const emptyHint = `No citations found for ${subsite}. Add a BibTeX file at conte
           btn.setAttribute('aria-pressed', isActive ? 'true' : 'false');
           btn.classList.toggle('bg-galaxy-primary', isActive);
           btn.classList.toggle('text-white', isActive);
-          btn.classList.toggle('bg-gray-100', !isActive);
-          btn.classList.toggle('text-gray-700', !isActive);
+          btn.classList.toggle('bg-ebony-clay-50', !isActive);
+          btn.classList.toggle('text-chicago-700', !isActive);
         });
 
         if (countEl) {

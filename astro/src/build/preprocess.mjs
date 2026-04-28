@@ -28,6 +28,7 @@ const ASTRO_CONTENT_DIR = path.join(ASTRO_ROOT, 'src/content');
 const PUBLIC_IMAGES_DIR = path.join(ASTRO_ROOT, 'public/images');
 const PUBLIC_ASSETS_DIR = path.join(ASTRO_ROOT, 'public/assets');
 const PUBLIC_MEDIA_DIR = path.join(ASTRO_ROOT, 'public/media');
+const NAVBAR_DEST_DIR = path.join(ASTRO_CONTENT_DIR, 'navbars');
 
 /**
  * Copy images and assets from a content directory
@@ -588,6 +589,22 @@ async function processDataset(filePath) {
 }
 
 /**
+ * Process navbar YAML files from content/<subsite>/navbar.yml
+ */
+async function processNavbar(filePath) {
+  const relativePath = path.relative(CONTENT_DIR, filePath);
+  const relativeDir = path.dirname(relativePath);
+  const navName = relativeDir === '.' ? 'global' : relativeDir;
+  const destDir = path.join(NAVBAR_DEST_DIR, navName);
+  const destPath = path.join(destDir, path.basename(filePath));
+
+  await fs.promises.mkdir(destDir, { recursive: true });
+  await fs.promises.copyFile(filePath, destPath);
+
+  return { source: filePath, destination: destPath, collection: 'navbars', slug: `${navName}/navbar` };
+}
+
+/**
  * Process items in batches to avoid file table overflow
  */
 async function processBatch(items, processFn, batchSize = 50) {
@@ -656,15 +673,22 @@ export async function preprocessContent(options = {}) {
     absolute: true,
     ignore: [
       '**/node_modules/**',
-      '**/navbar.yml',
-      '**/navbar.yaml',
       '**/use/**/*.yml', // Exclude platform-specific YAML files (they have duplicate names)
       '**/use/**/*.yaml',
     ],
   });
 
+  const navbarFiles = await glob('**/navbar.{yml,yaml}', {
+    cwd: CONTENT_DIR,
+    absolute: true,
+    ignore: ['**/node_modules/**', '**/0examples/**'],
+  });
+  const navbarFileSet = new Set(navbarFiles);
+  const nonNavbarYamlFiles = yamlFiles.filter((file) => !navbarFileSet.has(file));
+
   console.log(`Found ${markdownFiles.length} markdown files`);
-  console.log(`Found ${yamlFiles.length} YAML files`);
+  console.log(`Found ${nonNavbarYamlFiles.length} YAML files`);
+  console.log(`Found ${navbarFiles.length} navbar files`);
   console.log('');
 
   // Process markdown files in batches
@@ -677,10 +701,13 @@ export async function preprocessContent(options = {}) {
 
   // Process YAML files in batches
   console.log('Processing YAML files...');
-  const { results: yamlResults, errors: yamlErrors } = await processBatch(yamlFiles, processDataset, 50);
+  const { results: yamlResults, errors: yamlErrors } = await processBatch(nonNavbarYamlFiles, processDataset, 50);
 
-  const results = [...mdResults, ...yamlResults];
-  const errors = mdErrors + yamlErrors;
+  console.log('Processing navbar files...');
+  const { results: navbarResults, errors: navbarErrors } = await processBatch(navbarFiles, processNavbar, 50);
+
+  const results = [...mdResults, ...yamlResults, ...navbarResults];
+  const errors = mdErrors + yamlErrors + navbarErrors;
 
   // Check for duplicate slugs within the same collection (skip datasets — they use filenames, not slugs)
   const slugMap = new Map();

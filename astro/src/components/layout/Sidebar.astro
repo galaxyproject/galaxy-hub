@@ -3,6 +3,13 @@
 // Desktop: Fixed left sidebar with Vue-powered navigation
 // Mobile: Hidden (use MobileMenu.vue for mobile)
 import SidebarNav from './SidebarNav.vue';
+import type { NavbarData } from '@/utils/navbar';
+
+interface Props {
+  navbar?: NavbarData | null;
+}
+
+const { navbar } = Astro.props as Props;
 ---
 
 <aside class="hidden lg:flex flex-col w-64 bg-galaxy-dark text-white fixed left-0 top-0 h-screen overflow-y-auto z-40">
@@ -21,9 +28,9 @@ import SidebarNav from './SidebarNav.vue';
           type="search"
           name="q"
           placeholder="Search..."
-          class="w-full bg-medium-bg text-white placeholder-gray-400 rounded-md py-2 px-3 pr-10 text-sm focus:outline-none focus:ring-2 focus:ring-galaxy-gold"
+          class="w-full bg-medium-bg text-white placeholder-chicago-400 rounded-md py-2 px-3 pr-10 text-sm focus:outline-none focus:ring-2 focus:ring-galaxy-gold"
         />
-        <button type="submit" class="absolute right-2 top-1/2 -translate-y-1/2 text-gray-400 hover:text-galaxy-gold">
+        <button type="submit" class="absolute right-2 top-1/2 -translate-y-1/2 text-chicago-400 hover:text-galaxy-gold">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path
               stroke-linecap="round"
@@ -38,11 +45,11 @@ import SidebarNav from './SidebarNav.vue';
 
   <!-- Navigation (Vue component for collapsible sections) -->
   <div class="flex-1 p-4 overflow-y-auto">
-    <SidebarNav client:load />
+    <SidebarNav client:load navbar={navbar} />
   </div>
 
   <!-- Archive notice -->
-  <div id="archive-notice" class="mx-3 mb-3 p-3 rounded-md bg-medium-bg text-xs text-gray-300 leading-relaxed">
+  <div id="archive-notice" class="mx-3 mb-3 p-3 rounded-md bg-medium-bg text-xs text-chicago-300 leading-relaxed">
     <div class="flex items-start justify-between gap-2">
       <p class="m-0">
         Missing something?<br />
@@ -56,7 +63,7 @@ import SidebarNav from './SidebarNav.vue';
       </p>
       <button
         id="archive-dismiss"
-        class="shrink-0 text-gray-500 hover:text-gray-300 transition-colors"
+        class="shrink-0 text-chicago-500 hover:text-chicago-300 transition-colors"
         aria-label="Dismiss"
       >
         <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -71,7 +78,7 @@ import SidebarNav from './SidebarNav.vue';
     <div class="flex justify-center gap-4">
       <a
         href="https://github.com/galaxyproject"
-        class="social-icon text-gray-400 hover:text-galaxy-gold"
+        class="social-icon text-chicago-400 hover:text-galaxy-gold"
         aria-label="GitHub"
         target="_blank"
         rel="noopener"
@@ -84,7 +91,7 @@ import SidebarNav from './SidebarNav.vue';
       </a>
       <a
         href="https://www.youtube.com/@galaxyproject"
-        class="social-icon text-gray-400 hover:text-galaxy-gold"
+        class="social-icon text-chicago-400 hover:text-galaxy-gold"
         aria-label="YouTube"
         target="_blank"
         rel="noopener"
@@ -97,7 +104,7 @@ import SidebarNav from './SidebarNav.vue';
       </a>
       <a
         href="https://mstdn.science/@galaxyproject"
-        class="social-icon text-gray-400 hover:text-galaxy-gold"
+        class="social-icon text-chicago-400 hover:text-galaxy-gold"
         aria-label="Mastodon"
         target="_blank"
         rel="noopener"
@@ -110,7 +117,7 @@ import SidebarNav from './SidebarNav.vue';
       </a>
       <a
         href="https://www.linkedin.com/company/galaxy-project"
-        class="social-icon text-gray-400 hover:text-galaxy-gold"
+        class="social-icon text-chicago-400 hover:text-galaxy-gold"
         aria-label="LinkedIn"
         target="_blank"
         rel="noopener"

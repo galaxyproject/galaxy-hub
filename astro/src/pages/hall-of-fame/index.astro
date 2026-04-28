@@ -86,17 +86,17 @@ const supporterGroups = groupContributors(supporters);
       </div>
     </PageHeader>
 
-    <nav class="bg-white border-b border-gray-200 px-8 py-3 sticky top-0 z-20 shadow-sm">
+    <nav class="bg-white border-b border-ebony-clay-100 px-8 py-3 sticky top-0 z-20 shadow-sm">
       <div class="flex flex-wrap gap-2">
         <a
           href="#authors"
-          class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-gray-200 text-sm font-medium text-galaxy-primary hover:border-galaxy-gold hover:bg-galaxy-gold/10 transition-colors"
+          class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-ebony-clay-100 text-sm font-medium text-galaxy-primary hover:border-galaxy-gold hover:bg-galaxy-gold/10 transition-colors"
         >
           Authors
         </a>
         <a
           href="#supporters"
-          class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-gray-200 text-sm font-medium text-galaxy-primary hover:border-galaxy-gold hover:bg-galaxy-gold/10 transition-colors"
+          class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-ebony-clay-100 text-sm font-medium text-galaxy-primary hover:border-galaxy-gold hover:bg-galaxy-gold/10 transition-colors"
         >
           Supporters
         </a>
@@ -107,7 +107,7 @@ const supporterGroups = groupContributors(supporters);
       <section id="authors" class="scroll-mt-24">
         <div class="flex items-center gap-4 mb-4">
           <h2 class="text-2xl font-semibold text-galaxy-dark">Authors</h2>
-          <span class="text-sm text-gray-500">{totalAuthors} contributors</span>
+          <span class="text-sm text-chicago-500">{totalAuthors} contributors</span>
         </div>
 
         {
@@ -125,22 +125,22 @@ const supporterGroups = groupContributors(supporters);
               </div>
 
               {authorGroups.letters.map((letter, idx) => (
-                <section id={`authors-${letter}`} class={idx > 0 ? 'mt-6 pt-6 border-t border-gray-100' : ''}>
+                <section id={`authors-${letter}`} class={idx > 0 ? 'mt-6 pt-6 border-t border-ebony-clay-50' : ''}>
                   <div class="flex items-center gap-4 mb-3">
                     <span class="text-3xl font-bold text-galaxy-primary/60">{letter}</span>
-                    <span class="text-xs text-gray-400">{authorGroups.groups[letter].length} names</span>
+                    <span class="text-xs text-chicago-400">{authorGroups.groups[letter].length} names</span>
                   </div>
                   <div class="flex flex-wrap gap-2">
                     {authorGroups.groups[letter].map((item) => (
                       <a
                         href={`/hall-of-fame/${item.slug}/`}
                         data-kind="author"
-                        class="group inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-gray-200 hover:border-galaxy-gold hover:bg-galaxy-gold/5 transition-all duration-200"
+                        class="group inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-ebony-clay-100 hover:border-galaxy-gold hover:bg-galaxy-gold/5 transition-all duration-200"
                       >
                         <span class="text-galaxy-dark group-hover:text-galaxy-primary transition-colors text-base font-medium">
                           {item.name}
                         </span>
-                        <span class="inline-flex items-center justify-center min-w-[1.5rem] h-5 px-1.5 rounded-full bg-gray-100 text-xs text-gray-600 group-hover:bg-galaxy-gold/20 group-hover:text-galaxy-dark transition-colors">
+                        <span class="inline-flex items-center justify-center min-w-[1.5rem] h-5 px-1.5 rounded-full bg-ebony-clay-50 text-xs text-chicago-600 group-hover:bg-galaxy-gold/20 group-hover:text-galaxy-dark transition-colors">
                           {item.count}
                         </span>
                       </a>
@@ -150,7 +150,7 @@ const supporterGroups = groupContributors(supporters);
               ))}
             </>
           ) : (
-            <p class="text-gray-500">No authors found.</p>
+            <p class="text-chicago-500">No authors found.</p>
           )
         }
       </section>
@@ -158,7 +158,7 @@ const supporterGroups = groupContributors(supporters);
       <section id="supporters" class="scroll-mt-24">
         <div class="flex items-center gap-4 mb-4">
           <h2 class="text-2xl font-semibold text-galaxy-dark">Supporters</h2>
-          <span class="text-sm text-gray-500">{totalSupporters} contributors</span>
+          <span class="text-sm text-chicago-500">{totalSupporters} contributors</span>
         </div>
 
         {
@@ -176,22 +176,22 @@ const supporterGroups = groupContributors(supporters);
               </div>
 
               {supporterGroups.letters.map((letter, idx) => (
-                <section id={`supporters-${letter}`} class={idx > 0 ? 'mt-6 pt-6 border-t border-gray-100' : ''}>
+                <section id={`supporters-${letter}`} class={idx > 0 ? 'mt-6 pt-6 border-t border-ebony-clay-50' : ''}>
                   <div class="flex items-center gap-4 mb-3">
                     <span class="text-3xl font-bold text-galaxy-primary/60">{letter}</span>
-                    <span class="text-xs text-gray-400">{supporterGroups.groups[letter].length} names</span>
+                    <span class="text-xs text-chicago-400">{supporterGroups.groups[letter].length} names</span>
                   </div>
                   <div class="flex flex-wrap gap-2">
                     {supporterGroups.groups[letter].map((item) => (
                       <a
                         href={`/hall-of-fame/${item.slug}/`}
                         data-kind="supporter"
-                        class="group inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-gray-200 hover:border-galaxy-gold hover:bg-galaxy-gold/5 transition-all duration-200"
+                        class="group inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-ebony-clay-100 hover:border-galaxy-gold hover:bg-galaxy-gold/5 transition-all duration-200"
                       >
                         <span class="text-galaxy-dark group-hover:text-galaxy-primary transition-colors text-base font-medium">
                           {item.name}
                         </span>
-                        <span class="inline-flex items-center justify-center min-w-[1.5rem] h-5 px-1.5 rounded-full bg-gray-100 text-xs text-gray-600 group-hover:bg-galaxy-gold/20 group-hover:text-galaxy-dark transition-colors">
+                        <span class="inline-flex items-center justify-center min-w-[1.5rem] h-5 px-1.5 rounded-full bg-ebony-clay-50 text-xs text-chicago-600 group-hover:bg-galaxy-gold/20 group-hover:text-galaxy-dark transition-colors">
                           {item.count}
                         </span>
                       </a>
@@ -201,7 +201,7 @@ const supporterGroups = groupContributors(supporters);
               ))}
             </>
           ) : (
-            <p class="text-gray-500">No supporters found.</p>
+            <p class="text-chicago-500">No supporters found.</p>
           )
         }
       </section>
