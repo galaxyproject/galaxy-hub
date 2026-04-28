@@ -6,8 +6,7 @@ tags: [fair]
 contributions:
   authorship:
     - Marie59
-  funding:
-    - gaiadata
+
 ---
 
 # Galaxy’s FAIR Pages: Empowering FAIR Research with Galaxy
