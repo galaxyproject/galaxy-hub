@@ -1034,7 +1034,7 @@ async function watchContent() {
 
   // Fallback interval poll — catches any events that fs.watch drops under heavy
   // inotify load (queue overflow with large directory trees is common on Linux).
-  const pollInterval = setInterval(scheduleScan, 3000);
+  const pollInterval = setInterval(scheduleScan, 10000);
 
   // Event-driven watch for fast (<200 ms) response. Best-effort on Linux — if
   // the kernel drops events or the watcher fails, the interval above takes over.
