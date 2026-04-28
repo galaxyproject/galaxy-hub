@@ -915,6 +915,9 @@ async function watchContent() {
     console.log(`[watch] Processing: ${relative}`);
     try {
       if (fullPath.endsWith('.md')) {
+        for (const dest of destPathsForMarkdown(fullPath)) {
+          await fs.promises.rm(dest, { force: true });
+        }
         await processMarkdownFile(fullPath);
         await updateInsertIndex(fullPath);
 
@@ -929,6 +932,9 @@ async function watchContent() {
               const parentRel = path.relative(CONTENT_DIR, parentPath);
               console.log(`[watch]   Re-processing parent: ${parentRel}`);
               try {
+                for (const dest of destPathsForMarkdown(parentPath)) {
+                  await fs.promises.rm(dest, { force: true });
+                }
                 await processMarkdownFile(parentPath);
               } catch (err) {
                 console.error(`[watch]   Error in parent ${parentRel}:`, err.message);
@@ -954,10 +960,28 @@ async function watchContent() {
         for (const dest of destPathsForMarkdown(fullPath)) {
           await fs.promises.rm(dest, { force: true });
         }
-        // Clean up insert index
-        for (const parents of insertIndex.values()) parents.delete(fullPath);
+        // If this was an insert, re-process parents before cleaning the index.
         const relNoExt = path.relative(CONTENT_DIR, fullPath).replace(/\.md$/, '').replace(/\\/g, '/');
-        insertIndex.delete('/' + relNoExt);
+        const slotName = '/' + relNoExt;
+        const parents = insertIndex.get(slotName);
+        if (parents && parents.size > 0) {
+          console.log(`[watch] Insert deleted — re-processing ${parents.size} parent(s)`);
+          for (const parentPath of [...parents]) {
+            const parentRel = path.relative(CONTENT_DIR, parentPath);
+            console.log(`[watch]   Re-processing parent: ${parentRel}`);
+            try {
+              for (const dest of destPathsForMarkdown(parentPath)) {
+                await fs.promises.rm(dest, { force: true });
+              }
+              await processMarkdownFile(parentPath);
+            } catch (err) {
+              console.error(`[watch]   Error in parent ${parentRel}:`, err.message);
+            }
+          }
+        }
+        // Clean up insert index
+        for (const ps of insertIndex.values()) ps.delete(fullPath);
+        insertIndex.delete(slotName);
       } else if (path.basename(fullPath) === 'navbar.yml' || path.basename(fullPath) === 'navbar.yaml') {
         const relativePath = path.relative(CONTENT_DIR, fullPath);
         const relativeDir = path.dirname(relativePath);
@@ -1092,4 +1116,6 @@ export {
   insertCache,
   generateTease,
   shiftHeadings,
+  processMarkdownFile,
+  destPathsForMarkdown,
 };
