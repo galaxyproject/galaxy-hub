@@ -10,13 +10,7 @@ import { describe, it, expect, beforeEach, afterEach } from 'vitest';
 import fs from 'fs';
 import os from 'os';
 import path from 'path';
-import { fileURLToPath } from 'url';
 import { processMarkdownFile, destPathsForMarkdown, insertCache } from './preprocess.mjs';
-
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const ASTRO_ROOT = path.resolve(__dirname, '../..');
-const PROJECT_ROOT = path.resolve(ASTRO_ROOT, '..');
-const CONTENT_DIR = path.join(PROJECT_ROOT, 'content');
 
 // ─── helpers ─────────────────────────────────────────────────────────────────
 
@@ -32,33 +26,25 @@ function exists(p) {
 // ─── P1: stale sibling cleanup ───────────────────────────────────────────────
 
 describe('P1 — stale sibling removal', () => {
-  // Use a real content file that exists so processMarkdownFile can resolve
-  // its inserts. We pick a simple article with no slots.
-  const testSourceDir = path.join(CONTENT_DIR, 'news', '2025');
+  let tmpDir;
   let testFile;
 
-  beforeEach(async () => {
+  beforeEach(() => {
     insertCache.clear();
-    testFile = null;
-    // Find any existing news article we can use as a template
-    const newsFiles = fs
-      .readdirSync(testSourceDir, { withFileTypes: true })
-      .filter((e) => e.isDirectory())
-      .slice(0, 1);
-    if (!newsFiles.length) return;
-    testFile = path.join(testSourceDir, newsFiles[0].name, 'index.md');
+    tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'preprocess-p1-test-'));
+    testFile = path.join(tmpDir, 'news', '2025', 'p1-fixture', 'index.md');
+    writeFile(
+      testFile,
+      '---\ntitle: P1 Fixture\ndate: 2025-01-01\ntease: Test fixture for stale sibling cleanup.\n---\n# P1 Fixture\n'
+    );
   });
 
   afterEach(() => {
-    if (!testFile) return;
-    for (const dest of destPathsForMarkdown(testFile)) {
-      fs.rmSync(dest, { force: true });
-    }
+    fs.rmSync(tmpDir, { recursive: true, force: true });
   });
 
   it('destPathsForMarkdown returns both .md and .mdx candidates', () => {
-    if (!testFile) return;
-    const [md, mdx] = destPathsForMarkdown(testFile);
+    const [md, mdx] = destPathsForMarkdown(testFile, tmpDir, tmpDir);
     expect(md.endsWith('.md')).toBe(true);
     expect(mdx.endsWith('.mdx')).toBe(true);
     expect(md).not.toBe(mdx);
@@ -69,13 +55,12 @@ describe('P1 — stale sibling removal', () => {
   });
 
   it('processMarkdownFile writes exactly one output file', async () => {
-    if (!testFile) return;
-    const [md, mdx] = destPathsForMarkdown(testFile);
+    const [md, mdx] = destPathsForMarkdown(testFile, tmpDir, tmpDir);
     // Clean up any pre-existing output so we get a clean read
     fs.rmSync(md, { force: true });
     fs.rmSync(mdx, { force: true });
 
-    await processMarkdownFile(testFile);
+    await processMarkdownFile(testFile, { contentDir: tmpDir, outputDir: tmpDir });
 
     const mdExists = exists(md);
     const mdxExists = exists(mdx);
@@ -85,9 +70,8 @@ describe('P1 — stale sibling removal', () => {
   });
 
   it('pre-deleting both siblings before reprocess leaves only one output', async () => {
-    if (!testFile) return;
     // Simulate the P1 fix: before reprocessing, remove both candidates
-    const [md, mdx] = destPathsForMarkdown(testFile);
+    const [md, mdx] = destPathsForMarkdown(testFile, tmpDir, tmpDir);
 
     // Plant a stale sibling manually to simulate the pre-fix state
     fs.mkdirSync(path.dirname(md), { recursive: true });
@@ -97,7 +81,7 @@ describe('P1 — stale sibling removal', () => {
     // Apply the fix: remove both, then reprocess
     fs.rmSync(md, { force: true });
     fs.rmSync(mdx, { force: true });
-    await processMarkdownFile(testFile);
+    await processMarkdownFile(testFile, { contentDir: tmpDir, outputDir: tmpDir });
 
     const mdExists = exists(md);
     const mdxExists = exists(mdx);
@@ -106,10 +90,9 @@ describe('P1 — stale sibling removal', () => {
   });
 
   it('without pre-delete, stale sibling can survive (demonstrates the original bug)', async () => {
-    if (!testFile) return;
     // This test documents the PRE-FIX behaviour — not a regression test.
     // It shows that calling processMarkdownFile alone does NOT clean up the sibling.
-    const [md, mdx] = destPathsForMarkdown(testFile);
+    const [md, mdx] = destPathsForMarkdown(testFile, tmpDir, tmpDir);
 
     // Plant both variants as if a previous run wrote the "other" extension
     fs.mkdirSync(path.dirname(md), { recursive: true });
@@ -117,7 +100,7 @@ describe('P1 — stale sibling removal', () => {
     fs.writeFileSync(mdx, '--- stale mdx ---');
 
     // Without pre-delete, processMarkdownFile overwrites one and leaves the other
-    await processMarkdownFile(testFile);
+    await processMarkdownFile(testFile, { contentDir: tmpDir, outputDir: tmpDir });
 
     // At least one stale file survives — the newly written one and the old sibling
     const mdExists = exists(md);
