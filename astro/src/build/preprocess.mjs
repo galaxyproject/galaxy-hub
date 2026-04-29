@@ -513,7 +513,11 @@ async function processMarkdownFile(filePath, { contentDir = CONTENT_DIR, outputD
   // If any inlined insert has components: true, the parent must become MDX too.
   let processedContent = body;
   processedContent = processedContent.replace(JSX_COMMENT_RE, '');
-  const { content: inlinedContent, hasComponents: insertsHaveComponents } = inlineInserts(processedContent, 0, contentDir);
+  const { content: inlinedContent, hasComponents: insertsHaveComponents } = inlineInserts(
+    processedContent,
+    0,
+    contentDir
+  );
   processedContent = inlinedContent;
 
   // Shift headings down if content has multiple h1s
