@@ -3,7 +3,7 @@ subsites:
 - all
 date: '2026-04-28'
 title: Accurate Biomedical Classification with TabPFN on Galaxy
-tags: [tools, workflows]
+tags: [tools, workflow]
 tease: "Leverage next-generation TabPFN models on the European Galaxy server to classify complex biomedical datasets with high accuracy."
 contributions:
   authorship:
