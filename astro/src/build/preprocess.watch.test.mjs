@@ -8,8 +8,8 @@
 
 import { describe, it, expect, beforeEach, afterEach } from 'vitest';
 import fs from 'fs';
-import path from 'path';
 import os from 'os';
+import path from 'path';
 import { fileURLToPath } from 'url';
 import { processMarkdownFile, destPathsForMarkdown, insertCache } from './preprocess.mjs';
 
@@ -39,15 +39,25 @@ describe('P1 — stale sibling removal', () => {
 
   beforeEach(async () => {
     insertCache.clear();
+    testFile = null;
     // Find any existing news article we can use as a template
     const newsFiles = fs
       .readdirSync(testSourceDir, { withFileTypes: true })
       .filter((e) => e.isDirectory())
       .slice(0, 1);
+    if (!newsFiles.length) return;
     testFile = path.join(testSourceDir, newsFiles[0].name, 'index.md');
   });
 
+  afterEach(() => {
+    if (!testFile) return;
+    for (const dest of destPathsForMarkdown(testFile)) {
+      fs.rmSync(dest, { force: true });
+    }
+  });
+
   it('destPathsForMarkdown returns both .md and .mdx candidates', () => {
+    if (!testFile) return;
     const [md, mdx] = destPathsForMarkdown(testFile);
     expect(md.endsWith('.md')).toBe(true);
     expect(mdx.endsWith('.mdx')).toBe(true);
@@ -59,6 +69,7 @@ describe('P1 — stale sibling removal', () => {
   });
 
   it('processMarkdownFile writes exactly one output file', async () => {
+    if (!testFile) return;
     const [md, mdx] = destPathsForMarkdown(testFile);
     // Clean up any pre-existing output so we get a clean read
     fs.rmSync(md, { force: true });
@@ -74,6 +85,7 @@ describe('P1 — stale sibling removal', () => {
   });
 
   it('pre-deleting both siblings before reprocess leaves only one output', async () => {
+    if (!testFile) return;
     // Simulate the P1 fix: before reprocessing, remove both candidates
     const [md, mdx] = destPathsForMarkdown(testFile);
 
@@ -94,6 +106,7 @@ describe('P1 — stale sibling removal', () => {
   });
 
   it('without pre-delete, stale sibling can survive (demonstrates the original bug)', async () => {
+    if (!testFile) return;
     // This test documents the PRE-FIX behaviour — not a regression test.
     // It shows that calling processMarkdownFile alone does NOT clean up the sibling.
     const [md, mdx] = destPathsForMarkdown(testFile);
@@ -129,35 +142,24 @@ describe('P2 — insert deletion propagates to parents', () => {
     insertCache.clear();
     tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'preprocess-test-'));
 
-    // Create a minimal insert: content/test-inserts/linkbox.md
-    insertFile = path.join(CONTENT_DIR, 'test-inserts', 'linkbox.md');
+    // All source and output files live entirely within tmpDir.
+    insertFile = path.join(tmpDir, 'test-inserts', 'linkbox.md');
     writeFile(insertFile, '---\ntitle: Test Linkbox\n---\nTest insert content here.\n');
 
-    // Create a parent that references it via <slot>
-    parentFile = path.join(CONTENT_DIR, 'test-insert-parent', 'index.md');
+    parentFile = path.join(tmpDir, 'test-insert-parent', 'index.md');
     writeFile(parentFile, '---\ntitle: Parent Page\n---\n<slot name="/test-inserts/linkbox" />\n');
   });
 
   afterEach(() => {
-    // Remove temp content files
-    fs.rmSync(path.join(CONTENT_DIR, 'test-inserts'), { recursive: true, force: true });
-    fs.rmSync(path.join(CONTENT_DIR, 'test-insert-parent'), { recursive: true, force: true });
-    // Remove generated outputs
-    const [md, mdx] = destPathsForMarkdown(parentFile);
-    fs.rmSync(md, { force: true });
-    fs.rmSync(mdx, { force: true });
-    const [imd, imdx] = destPathsForMarkdown(insertFile);
-    fs.rmSync(imd, { force: true });
-    fs.rmSync(imdx, { force: true });
     fs.rmSync(tmpDir, { recursive: true, force: true });
   });
 
   it('parent output contains inlined insert content after initial process', async () => {
     insertCache.clear();
-    await processMarkdownFile(insertFile);
-    await processMarkdownFile(parentFile);
+    await processMarkdownFile(insertFile, { contentDir: tmpDir, outputDir: tmpDir });
+    await processMarkdownFile(parentFile, { contentDir: tmpDir, outputDir: tmpDir });
 
-    const [md, mdx] = destPathsForMarkdown(parentFile);
+    const [md, mdx] = destPathsForMarkdown(parentFile, tmpDir, tmpDir);
     const outPath = exists(md) ? md : mdx;
     expect(exists(outPath)).toBe(true);
     const content = fs.readFileSync(outPath, 'utf-8');
@@ -168,11 +170,11 @@ describe('P2 — insert deletion propagates to parents', () => {
 
   it('re-processing parent after insert deletion removes inlined content', async () => {
     insertCache.clear();
-    await processMarkdownFile(insertFile);
-    await processMarkdownFile(parentFile);
+    await processMarkdownFile(insertFile, { contentDir: tmpDir, outputDir: tmpDir });
+    await processMarkdownFile(parentFile, { contentDir: tmpDir, outputDir: tmpDir });
 
     // Verify initial state: parent has insert content
-    const [md, mdx] = destPathsForMarkdown(parentFile);
+    const [md, mdx] = destPathsForMarkdown(parentFile, tmpDir, tmpDir);
     let outPath = exists(md) ? md : mdx;
     expect(fs.readFileSync(outPath, 'utf-8')).toContain('Test insert content here.');
 
@@ -181,10 +183,10 @@ describe('P2 — insert deletion propagates to parents', () => {
     insertCache.clear();
 
     // Re-process the parent (what the P2 fix triggers)
-    for (const dest of destPathsForMarkdown(parentFile)) {
+    for (const dest of destPathsForMarkdown(parentFile, tmpDir, tmpDir)) {
       fs.rmSync(dest, { force: true });
     }
-    await processMarkdownFile(parentFile);
+    await processMarkdownFile(parentFile, { contentDir: tmpDir, outputDir: tmpDir });
 
     outPath = exists(md) ? md : mdx;
     expect(exists(outPath)).toBe(true);
@@ -195,8 +197,8 @@ describe('P2 — insert deletion propagates to parents', () => {
   });
 
   it('destPathsForMarkdown paths are deterministic given the same source', () => {
-    const [md1, mdx1] = destPathsForMarkdown(insertFile);
-    const [md2, mdx2] = destPathsForMarkdown(insertFile);
+    const [md1, mdx1] = destPathsForMarkdown(insertFile, tmpDir, tmpDir);
+    const [md2, mdx2] = destPathsForMarkdown(insertFile, tmpDir, tmpDir);
     expect(md1).toBe(md2);
     expect(mdx1).toBe(mdx2);
   });

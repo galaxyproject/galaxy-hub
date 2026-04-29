@@ -94,8 +94,8 @@ async function copyDirWithNormalizedNames(srcDir, destDir) {
  * Determine which collection a file belongs to
  * Note: vue-articles merged into articles - all content can have components
  */
-function getContentCollection(filePath) {
-  const relativePath = path.relative(CONTENT_DIR, filePath);
+function getContentCollection(filePath, contentDir = CONTENT_DIR) {
+  const relativePath = path.relative(contentDir, filePath);
   const basename = path.basename(filePath);
 
   // Bare articles - must check early, before inserts check
@@ -360,7 +360,7 @@ const insertCache = new Map();
  * Resolve an insert file's content, applying the same transforms used for page content.
  * Returns { content, hasComponents } or null if the file doesn't exist.
  */
-function resolveInsertContent(slotName, depth = 0) {
+function resolveInsertContent(slotName, depth = 0, contentDir = CONTENT_DIR) {
   if (depth > 2) {
     console.warn(`  Warning: insert nesting too deep for ${slotName}, stopping at depth ${depth}`);
     return { content: `<!-- Insert nesting too deep: ${slotName} -->`, hasComponents: false };
@@ -373,7 +373,7 @@ function resolveInsertContent(slotName, depth = 0) {
 
   // Map slot name to file path: "/foo/bar" -> "content/foo/bar.md"
   const relativePath = slotName.replace(/^\//, '');
-  const filePath = path.join(CONTENT_DIR, relativePath + '.md');
+  const filePath = path.join(contentDir, relativePath + '.md');
 
   let rawContent;
   try {
@@ -384,7 +384,7 @@ function resolveInsertContent(slotName, depth = 0) {
     const lastSeg = segments[segments.length - 1];
     const denormalized = lastSeg.replace(/-/g, '');
     if (denormalized !== lastSeg) {
-      const fallbackPath = path.join(CONTENT_DIR, ...segments.slice(0, -1), denormalized + '.md');
+      const fallbackPath = path.join(contentDir, ...segments.slice(0, -1), denormalized + '.md');
       try {
         rawContent = fs.readFileSync(fallbackPath, 'utf-8');
       } catch {
@@ -406,7 +406,7 @@ function resolveInsertContent(slotName, depth = 0) {
   // Apply the same content transforms used in processMarkdownFile
   let processed = body;
   processed = processed.replace(JSX_COMMENT_RE, '');
-  const { content: inlined, hasComponents: nestedComponents } = inlineInserts(processed, depth + 1);
+  const { content: inlined, hasComponents: nestedComponents } = inlineInserts(processed, depth + 1, contentDir);
   processed = inlined;
   processed = addBootstrapMarker(processed);
   processed = processImagePaths(processed, insertSlug);
@@ -424,10 +424,10 @@ function resolveInsertContent(slotName, depth = 0) {
  * Returns { content, hasComponents } — hasComponents is true if any inlined
  * insert had components: true in its frontmatter.
  */
-function inlineInserts(content, depth = 0) {
+function inlineInserts(content, depth = 0, contentDir = CONTENT_DIR) {
   let hasComponents = false;
   const result = content.replace(/<slot\s+name=["']([^"']+)["']\s*\/?>/gi, (match, slotName) => {
-    const resolved = resolveInsertContent(slotName, depth);
+    const resolved = resolveInsertContent(slotName, depth, contentDir);
     if (resolved === null) {
       return `<!-- Insert not found: ${slotName} -->`;
     }
@@ -478,12 +478,12 @@ function generateTease(markdownBody) {
 /**
  * Process a single markdown file
  */
-async function processMarkdownFile(filePath) {
+async function processMarkdownFile(filePath, { contentDir = CONTENT_DIR, outputDir = ASTRO_CONTENT_DIR } = {}) {
   const rawContent = await fs.promises.readFile(filePath, 'utf-8');
   const { data: frontmatter, content: body } = matter(rawContent);
 
-  const collection = getContentCollection(filePath);
-  const relativePath = path.relative(CONTENT_DIR, filePath);
+  const collection = getContentCollection(filePath, contentDir);
+  const relativePath = path.relative(contentDir, filePath);
   const dirname = path.dirname(relativePath);
 
   // Create slug from path
@@ -513,7 +513,7 @@ async function processMarkdownFile(filePath) {
   // If any inlined insert has components: true, the parent must become MDX too.
   let processedContent = body;
   processedContent = processedContent.replace(JSX_COMMENT_RE, '');
-  const { content: inlinedContent, hasComponents: insertsHaveComponents } = inlineInserts(processedContent);
+  const { content: inlinedContent, hasComponents: insertsHaveComponents } = inlineInserts(processedContent, 0, contentDir);
   processedContent = inlinedContent;
 
   // Shift headings down if content has multiple h1s
@@ -571,7 +571,7 @@ async function processMarkdownFile(filePath) {
   }
 
   // Ensure collection directory exists
-  const collectionDir = path.join(ASTRO_CONTENT_DIR, collection);
+  const collectionDir = path.join(outputDir, collection);
   await fs.promises.mkdir(collectionDir, { recursive: true });
 
   const useMdx = frontmatter.components === true || insertsHaveComponents;
@@ -813,6 +813,8 @@ export async function preprocessContent(options = {}) {
   return results;
 }
 
+const SLOT_RE = /<slot\s+name=["']([^"']+)["']\s*\/?>/gi;
+
 /**
  * Build a reverse index from insert slot-name → Set<absoluteParentFilePath>.
  * Used during watch mode to propagate insert edits to the parent pages that
@@ -820,7 +822,6 @@ export async function preprocessContent(options = {}) {
  */
 async function buildInsertIndex(mdFiles) {
   const index = new Map();
-  const SLOT_RE = /<slot\s+name=["']([^"']+)["']\s*\/?>/gi;
   for (const fullPath of mdFiles) {
     const raw = await fs.promises.readFile(fullPath, 'utf-8').catch(() => null);
     if (!raw) continue;
@@ -840,10 +841,10 @@ async function buildInsertIndex(mdFiles) {
  * for a given source file. Returns both the .md and .mdx candidates so the
  * caller can remove whichever exists without knowing which variant was written.
  */
-function destPathsForMarkdown(fullPath) {
-  const relativePath = path.relative(CONTENT_DIR, fullPath);
+function destPathsForMarkdown(fullPath, contentDir = CONTENT_DIR, outputDir = ASTRO_CONTENT_DIR) {
+  const relativePath = path.relative(contentDir, fullPath);
   const dirname = path.dirname(relativePath).replace(/\\/g, '/');
-  const collection = getContentCollection(fullPath);
+  const collection = getContentCollection(fullPath, contentDir);
   let naturalSlug;
   if (path.basename(fullPath) === 'index.md') {
     naturalSlug = collection === 'news' ? deriveNewsNaturalSlug(dirname) : dirname === '.' ? 'home' : dirname;
@@ -852,7 +853,7 @@ function destPathsForMarkdown(fullPath) {
     naturalSlug = dirname === '.' ? filename : `${dirname}/${filename}`;
   }
   const slug = normalizeSlug(naturalSlug);
-  const collectionDir = path.join(ASTRO_CONTENT_DIR, collection);
+  const collectionDir = path.join(outputDir, collection);
   return [path.join(collectionDir, slugToFilename(slug, false)), path.join(collectionDir, slugToFilename(slug, true))];
 }
 
@@ -901,7 +902,7 @@ async function watchContent() {
     }
     const raw = await fs.promises.readFile(fullPath, 'utf-8').catch(() => null);
     if (!raw) return;
-    const SLOT_RE = /<slot\s+name=["']([^"']+)["']\s*\/?>/gi;
+    SLOT_RE.lastIndex = 0;
     let m;
     while ((m = SLOT_RE.exec(raw)) !== null) {
       const slotName = m[1];
@@ -923,6 +924,9 @@ async function watchContent() {
 
         // If this file is an insert, re-process every parent that inlines it.
         if (getContentCollection(fullPath) === 'inserts') {
+          // Index keys on the normalized path. resolveInsertContent also accepts
+          // denormalized slot names (e.g. <slot name="/ifb/lead-1" /> → lead1.md),
+          // but those aliases won't match here and inserts using them won't hot-reload.
           const relNoExt = path.relative(CONTENT_DIR, fullPath).replace(/\.md$/, '').replace(/\\/g, '/');
           const slotName = '/' + relNoExt;
           const parents = insertIndex.get(slotName);
