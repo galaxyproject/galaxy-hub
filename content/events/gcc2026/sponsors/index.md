@@ -13,6 +13,12 @@ The **Galaxy Community Conference (GCC)** is the flagship event for one of the m
 
 <hr/>
 
+<a href="https://www.denbi.de/" target="_blank">
+  <img src="/images/logos/deNBILogo.png" alt="de.NBI" style="max-width: 25%;" />
+</a>
+
+<hr/>
+
 # Why sponsor GCC2026 ?
 
 ## Our thank you to the sponsors
