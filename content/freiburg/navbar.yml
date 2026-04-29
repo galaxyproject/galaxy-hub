@@ -6,7 +6,7 @@ left:
       relativeTo: subsite
       target: events/
     - label: People
-      target: https://usegalaxy-eu.github.io/freiburg/people
+      target: /freiburg/people
     - label: Projects
       target: https://usegalaxy-eu.github.io/freiburg/projects
     - label: Services
