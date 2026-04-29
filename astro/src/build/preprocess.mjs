@@ -829,9 +829,7 @@ async function buildInsertIndex(mdFiles) {
   for (const fullPath of mdFiles) {
     const raw = await fs.promises.readFile(fullPath, 'utf-8').catch(() => null);
     if (!raw) continue;
-    SLOT_RE.lastIndex = 0;
-    let m;
-    while ((m = SLOT_RE.exec(raw)) !== null) {
+    for (const m of raw.matchAll(SLOT_RE)) {
       const slotName = m[1];
       if (!index.has(slotName)) index.set(slotName, new Set());
       index.get(slotName).add(fullPath);
@@ -906,9 +904,7 @@ async function watchContent() {
     }
     const raw = await fs.promises.readFile(fullPath, 'utf-8').catch(() => null);
     if (!raw) return;
-    SLOT_RE.lastIndex = 0;
-    let m;
-    while ((m = SLOT_RE.exec(raw)) !== null) {
+    for (const m of raw.matchAll(SLOT_RE)) {
       const slotName = m[1];
       if (!insertIndex.has(slotName)) insertIndex.set(slotName, new Set());
       insertIndex.get(slotName).add(fullPath);
