@@ -13,6 +13,11 @@ The **Galaxy Community Conference (GCC)** is the flagship event for one of the m
 
 <hr/>
 
+<a href="https://www.ifb-elixir.fr/en/" target="_blank">
+  <img src="https://www.ifb-elixir.fr/wp-content/uploads/2025/08/logo-ifb.svg" alt="IFB" style="max-width: 25%;" />
+</a>
+
+<hr/>
 <a href="https://www.denbi.de/" target="_blank">
   <img src="/images/logos/deNBILogo.png" alt="de.NBI" style="max-width: 25%;" />
 </a>
