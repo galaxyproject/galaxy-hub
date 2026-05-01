@@ -100,7 +100,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 
 {/*  Public Health  */}
 <div class="card" style="min-width: 12rem; max-width: 20rem">
-<a href="">
+<a href="/community/sig/public-health/">
 <div class="card-header bg-sig-field text-white text-center"><Icon name="external-link" />&nbsp;Public Health</div>
 </a>
 
