@@ -7,6 +7,8 @@ left:
     target: /eu/events/
   - label: People
     target: /eu/people/
+  - label: Tools
+    target: /eu/tools/
 right:
   - label: Help
     contents:
