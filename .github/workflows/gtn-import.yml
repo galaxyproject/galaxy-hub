@@ -12,6 +12,7 @@ jobs:
   collect:
     name: Collect news/events from the Galaxy Training Network
     runs-on: ubuntu-latest
+    if: github.repository_owner == 'galaxyproject'
     steps:
       - uses: actions/checkout@v5
         with:
