@@ -70,7 +70,7 @@ possible.
 If your poster was accepted, you will be expected to present it during one of
 the poster sessions; check the [schedule](/events/gcc2026/schedule/) for which
 session. The poster should be in English and should ideally be prepared using
-the standard A0 size: ~84cm tall by ~119cm wide.
+the standard A0 size: ~84cm wide by ~119cm tall (i.e., portrait orientation).
 
 **There will not be a poster printing service at the conference, so you will need
 to print your poster before your session and bring it with you.** If you would
