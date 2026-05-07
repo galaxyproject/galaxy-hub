@@ -9,7 +9,7 @@ contributions:
   authorship:
     - yvanlebras
     - TuturBaba
-    - nadinelebris
+    - NadineLeBris
   funding:
     - moorev         # grant
     - fondfrance     # grant
