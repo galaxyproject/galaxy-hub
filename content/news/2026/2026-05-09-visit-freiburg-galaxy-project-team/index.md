@@ -37,7 +37,7 @@ I walked a great deal; Freiburg and its surrounding area are so pleasant with so
 # Acknowledgements
 I would like to thank Prof. Graziano Pesole and my supervisor Prof. Bruno Fosso for giving me the opportunity to have this wonderful experience. I would also like to thank the ELIXIR staff exchange programme. Last but by no means least, I would like to thank Dr. Björn Grüning and Dr. Paul Zierep for opening the doors of their group without hesitation, and all the amazing people working at the Freiburg Galaxy Project for everything they did for me.
 
-![Fotos highlight](https://github.com/gdefazio/galaxy-hub/blob/create_visit_freiburg_galaxy_team_post/content/news/2026/2026-05-09-visit-freiburg-galaxy-project-team/foto/20260416_114002-COLLAGE-EDIT.jpg)
+![Fotos highlight](https://github.com/gdefazio/galaxy-hub/blob/create_visit_freiburg_galaxy_team_post/content/news/2026/2026-05-09-visit-freiburg-galaxy-project-team/foto/20260416_114002-COLLAGE.jpg)
 
 
 
