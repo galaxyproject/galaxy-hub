@@ -11,7 +11,7 @@ contributions:
 
 # Something about me
 My name is [Giuseppe Defazio](https://www.researchgate.net/profile/Giuseppe-Defazio?ev=hdr_xprf), I'm working as a post-doctoral researcher and assistant professor for the chair of molecular biology and bioinformatics led by [Prof. Graziano Pesole](https://www.researchgate.net/profile/Graziano-Pesole) of the [Biosciences, Biotechnology and Environment department at the University of Bari Aldo Moro (Italy)](https://www.uniba.it/it/ricerca/dipartimenti/dbba).
-During my PhD I did not have the opportunity to complete my abroad period because of the COVID-19 pandemic, so I decided to mind the gap by asking Paul Zierep to join his group in Freiburg and learn more about the Galaxy Project, including advanced use of Galaxy instances and the deployment of tools and workflows in Galaxy. I was a pure CLI user, so it was a good opportunity to broaden my view of bioinformatics. I joined the Freiburg Galaxy Project team from January 19th to April 17th with 3 main objectives:
+During my PhD I did not have the opportunity to have my abroad period due to the COVID-19 pandemic, so I decided to fill the gap by asking Paul Zierep to join his group in Freiburg and learn more about the Galaxy Project, including advanced use of Galaxy instances and the deployment of tools and workflows in Galaxy. I was a pure CLI user, so it was a good opportunity to broaden my view of bioinformatics. I joined the Freiburg Galaxy Project team from January 19th to April 17th with 3 main objectives:
 - learn as much as possible about Galaxy
 - wrap [kMetaShot](https://doi.org/10.1093/bib/bbae680), an alignment-free taxonomy classifier for Metagenome Assembled Genomes developed during my PhD, and integrate it into the [FAIRyMAGs](https://elixir-europe.org/how-we-work/scientific-programme/science/bfsp/fairymags) workflow
 - design a workflow that replicates one of [my works](https://doi.org/10.1186/s13040-026-00532-6), automatically managing everything from BioProject data/metadata fetching to machine learning model training
@@ -36,6 +36,7 @@ I walked a great deal; Freiburg and its surrounding area are so pleasant with so
 
 # Acknowledgements
 I would like to thank Prof. Graziano Pesole and my supervisor Prof. Bruno Fosso for giving me the opportunity to have this wonderful experience. I would also like to thank the ELIXIR staff exchange programme. Last but by no means least, I would like to thank Dr. Björn Grüning and Dr. Paul Zierep for opening the doors of their group without hesitation, and all the amazing people working at the Freiburg Galaxy Project for everything they did for me.
+
 
 ![Fotos highlight](https://github.com/gdefazio/galaxy-hub/blob/create_visit_freiburg_galaxy_team_post/content/news/2026/2026-05-09-visit-freiburg-galaxy-project-team/foto/20260416_114002-COLLAGE.jpg)
 
