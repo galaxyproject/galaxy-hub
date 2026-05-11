@@ -20,7 +20,7 @@ Galaxy ecosystem. From live demonstrations of new platform capabilities to keyno
 science, community-wide updates, and open discussion, these sessions offer a
 compelling look at where Galaxy stands today and where it is going.
 
-<div style="margin: 2rem 0; background: #f8f9fa; border-radius: 0.5rem; border-left: 4px solid #25537b; overflow: hidden;">
+<div id="galaxy-live" style="margin: 2rem 0; background: #f8f9fa; border-radius: 0.5rem; border-left: 4px solid #25537b; overflow: hidden;">
 <div class="highlight-header">
 <div class="highlight-img-wrap">
 <img src="/images/events/gcc2026/galaxy-live.png" style="width: 100%; height: 100%; object-fit: cover; display: block;" alt="Galaxy Live!" />
@@ -46,7 +46,7 @@ can do — no prior knowledge required.
 </div>
 </div>
 
-<div style="margin: 2rem 0; background: #f8f9fa; border-radius: 0.5rem; border-left: 4px solid #25537b; overflow: hidden;">
+<div id="rayan-chikhi" style="margin: 2rem 0; background: #f8f9fa; border-radius: 0.5rem; border-left: 4px solid #25537b; overflow: hidden;">
 <div class="highlight-header">
 <div class="highlight-img-wrap">
 <img src="/images/events/gcc2026/rayan-chikhi.jpg" style="width: 100%; height: 100%; object-fit: cover; object-position: top; display: block;" alt="Rayan Chikhi" />
@@ -75,7 +75,7 @@ new viruses and plastic-degrading enzymes.
 </div>
 </div>
 
-<div style="margin: 2rem 0; background: #f8f9fa; border-radius: 0.5rem; border-left: 4px solid #25537b; overflow: hidden;">
+<div id="community-update" style="margin: 2rem 0; background: #f8f9fa; border-radius: 0.5rem; border-left: 4px solid #25537b; overflow: hidden;">
 <div class="highlight-header">
 <div class="highlight-img-wrap">
 <img src="/images/events/gcc2026/community-update.jpg" style="width: 100%; height: 100%; object-fit: cover; display: block;" alt="Galaxy Community Update" />
@@ -102,7 +102,7 @@ to explore what Galaxy can offer your work.
 </div>
 </div>
 
-<div style="margin: 2rem 0; background: #f8f9fa; border-radius: 0.5rem; border-left: 4px solid #25537b; overflow: hidden;">
+<div id="panel-discussion" style="margin: 2rem 0; background: #f8f9fa; border-radius: 0.5rem; border-left: 4px solid #25537b; overflow: hidden;">
 <div class="highlight-header">
 <div class="highlight-img-wrap">
 <img src="/images/events/gcc2026/cartoon-highlights.png" style="width: 100%; height: 100%; object-fit: cover; display: block;" alt="Panel Discussion" />
@@ -129,7 +129,7 @@ sessions on the program.
 </div>
 </div>
 
-<div style="margin: 2rem 0; background: #f8f9fa; border-radius: 0.5rem; border-left: 4px solid #25537b; overflow: hidden;">
+<div id="galaxy-in-research" style="margin: 2rem 0; background: #f8f9fa; border-radius: 0.5rem; border-left: 4px solid #25537b; overflow: hidden;">
 <div class="highlight-header">
 <div class="highlight-img-wrap">
 <img src="/images/events/gcc2026/galaxy-in-research.png" style="width: 100%; height: 100%; object-fit: cover; display: block;" alt="Galaxy in Research" />
