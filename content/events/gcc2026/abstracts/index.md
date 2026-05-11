@@ -25,9 +25,6 @@ greatly. Topics of interest include but are not limited to the following areas:
 * Outreach, training, and education in data science with Galaxy
 * Tools and data integrated with Galaxy
 
-Until all the submissions are in, we cannot determine the length of individual
-talks, but in all likelihood, each talk will be 10-15 minutes.
-
 If you select **Talk & poster** option during submission, then you will be
 expected to give a talk and also present a poster. If you select **Talk only**
 option during submission, then you will be expected to give a talk but not
@@ -44,9 +41,56 @@ you agree that at least one of the authors will register and present the work.
 | Date   | What |
 | -----: | ---  |
 | ~~Apr 7~~ | Abstracts due for talks   |
-| Apr 20  | Talk reviews returned     |
+| ~~Apr 20~~  | Talk reviews returned     |
 | May 11 | Abstracts due for posters/demos |
 | May 18 | Poster/demo acceptance announcements |
+
+# Preparation information for presenters
+
+All presentation materials must be in English. The materials should be focused
+on your work described in the abstract and should be accessible to a broad
+audience of Galaxy users and developers. Please consider any comments you
+received from the reviewers when preparing your demo and try to incorporate them
+as much as possible.
+
+## Talks
+
+If your talk was accepted, you will have total 15 minutes for your presentation:
+12 minutes for presentation + 3 minutes for questions.
+
+The presentation should ideally be prepared using Google Slides so it can be
+easily shared with the conference organizers for the presentation. There will be
+a presentation laptop available at the conference, so you do not need to connect
+your own laptop. If you have any special requirements for your presentation,
+please reach out to the [organizers](/events/gcc2026/organizers/) as soon as
+possible.
+
+## Posters
+
+If your poster was accepted, you will be expected to present it during one of
+the poster sessions; check the [schedule](/events/gcc2026/schedule/) for which
+session. The poster should be in English and should ideally be prepared using
+the standard A0 size: ~84cm wide by ~119cm tall (i.e., portrait orientation).
+
+**There will not be a poster printing service at the conference, so you will need
+to print your poster before your session and bring it with you.** If you would
+like you print your poster in Clermont-Ferrand, the following two printing
+services are available:
+* Chaumeil: https://groupechaumeil.fr/
+* Print Conseil: https://www.printconseil.fr/
+
+## Demos
+
+If your demo was accepted, you will be expected to present it during one of the
+poster sessions; check the [schedule](/events/gcc2026/schedule/) for which
+session.
+
+For the demo, you will have a table available to you to place your own laptop
+and any other materials you would like to use for the demo. You will also have
+access to a Wi-Fi but not a power outlet. If you have any special requirements
+for your demo, please reach out to the [organizers](/events/gcc2026/organizers/)
+as soon as possible.
+
 
 # Abstract submission guidelines
 

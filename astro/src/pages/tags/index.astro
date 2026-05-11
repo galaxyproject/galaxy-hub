@@ -50,7 +50,7 @@ const letters = Object.keys(groupedTags).sort();
     </PageHeader>
 
     <!-- Letter navigation -->
-    <nav class="bg-white border-b border-gray-200 px-8 py-3 sticky top-0 z-20 shadow-sm">
+    <nav class="bg-white border-b border-ebony-clay-100 px-8 py-3 sticky top-0 z-20 shadow-sm">
       <div class="flex flex-wrap gap-1">
         {
           letters.map((letter) => (
@@ -69,22 +69,22 @@ const letters = Object.keys(groupedTags).sort();
     <div class="bg-white px-8 py-6 rounded-b-lg shadow-sm">
       {
         letters.map((letter, idx) => (
-          <section id={`section-${letter}`} class={idx > 0 ? 'mt-8 pt-8 border-t border-gray-100' : ''}>
+          <section id={`section-${letter}`} class={idx > 0 ? 'mt-8 pt-8 border-t border-ebony-clay-50' : ''}>
             <div class="flex items-center gap-4 mb-4">
               <span class="text-4xl font-bold text-galaxy-primary/50">{letter}</span>
-              <span class="text-sm text-gray-400">{groupedTags[letter].length} tags</span>
+              <span class="text-sm text-chicago-400">{groupedTags[letter].length} tags</span>
             </div>
 
             <div class="flex flex-wrap gap-2">
               {groupedTags[letter].map(({ tag, count }) => (
                 <a
                   href={`/tags/${tag}/`}
-                  class={`group inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-gray-200 hover:border-galaxy-gold hover:bg-galaxy-gold/5 transition-all duration-200 opacity-100`}
+                  class={`group inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-ebony-clay-100 hover:border-galaxy-gold hover:bg-galaxy-gold/5 transition-all duration-200 opacity-100`}
                 >
                   <span class={`text-galaxy-dark group-hover:text-galaxy-primary transition-colors text-base`}>
                     {tag}
                   </span>
-                  <span class="inline-flex items-center justify-center min-w-[1.5rem] h-5 px-1.5 rounded-full bg-gray-100 text-xs text-gray-600 group-hover:bg-galaxy-gold/20 group-hover:text-galaxy-dark transition-colors">
+                  <span class="inline-flex items-center justify-center min-w-[1.5rem] h-5 px-1.5 rounded-full bg-ebony-clay-50 text-xs text-chicago-600 group-hover:bg-galaxy-gold/20 group-hover:text-galaxy-dark transition-colors">
                     {count}
                   </span>
                 </a>
@@ -94,7 +94,7 @@ const letters = Object.keys(groupedTags).sort();
         ))
       }
 
-      {tags.length === 0 && <p class="text-gray-500 text-center py-12">No tags found.</p>}
+      {tags.length === 0 && <p class="text-chicago-500 text-center py-12">No tags found.</p>}
     </div>
   </div>
 </BaseLayout>

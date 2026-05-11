@@ -11,7 +11,7 @@
     "search-index": "node src/build/generate-search-index.mjs",
     "generate-redirects": "node src/build/generate-redirects.mjs",
     "generate-404-lookup": "node src/build/generate-404-lookup.mjs",
-    "dev": "npm run preprocess && npm run generate-redirects && npm run search-index && npm run generate-404-lookup && astro dev",
+    "dev": "npm run preprocess && npm run generate-redirects && npm run search-index && npm run generate-404-lookup && (trap 'kill 0' EXIT; node src/build/preprocess.mjs --watch-only & astro dev)",
     "build": "npm run preprocess && npm run generate-redirects && npm run search-index && npm run generate-404-lookup && astro build",
     "preview": "astro preview",
     "astro": "astro",

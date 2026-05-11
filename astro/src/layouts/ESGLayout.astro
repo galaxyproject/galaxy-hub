@@ -24,12 +24,12 @@ const isEvents = currentPath.includes('/projects/esg/events');
 // Funding notice content
 const fundingNotice = `
 <img src="/images/projects/esg/images/EN-Funded by the EU-POS.png" class="h-16 w-auto" alt="Funded by the EU" />
-<p class="text-xs text-gray-600">
+<p class="text-xs text-chicago-600">
   <strong>EuroScienceGateway</strong> was funded by the European Union programme Horizon Europe
   (<strong>HORIZON-INFRA-2021-EOSC-01-04</strong>) under grant agreement number
-  <a href="https://cordis.europa.eu/project/id/101057388" class="text-blue-600 hover:underline">101057388</a>
+  <a href="https://cordis.europa.eu/project/id/101057388" class="text-galaxy-primary hover:underline">101057388</a>
   and by UK Research and Innovation (UKRI) under the UK government's Horizon Europe funding guarantee grant number
-  <a href="https://gtr.ukri.org/projects?ref=10038963" class="text-blue-600 hover:underline">10038963</a>.
+  <a href="https://gtr.ukri.org/projects?ref=10038963" class="text-galaxy-primary hover:underline">10038963</a>.
 </p>
 `;
 ---
@@ -48,7 +48,7 @@ const fundingNotice = `
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
       </head>
       <body class="min-h-screen bg-white">
-        <nav class="bg-gray-800 text-white">
+        <nav class="bg-ebony-clay-800 text-white">
           <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
             <a href="/projects/esg/?solo=true" class="flex items-center">
               <img
@@ -60,19 +60,19 @@ const fundingNotice = `
             <div class="flex gap-6">
               <a
                 href="/projects/esg/?solo=true"
-                class:list={['hover:text-gray-300', { 'text-blue-300 font-semibold': isHome }]}
+                class:list={['hover:text-chicago-300', { 'text-white font-semibold': isHome }]}
               >
                 Home
               </a>
               <a
                 href="/projects/esg/news/?solo=true"
-                class:list={['hover:text-gray-300', { 'text-blue-300 font-semibold': isNews }]}
+                class:list={['hover:text-chicago-300', { 'text-white font-semibold': isNews }]}
               >
                 News
               </a>
               <a
                 href="/projects/esg/events/?solo=true"
-                class:list={['hover:text-gray-300', { 'text-blue-300 font-semibold': isEvents }]}
+                class:list={['hover:text-chicago-300', { 'text-white font-semibold': isEvents }]}
               >
                 Events
               </a>
@@ -83,14 +83,14 @@ const fundingNotice = `
         <main class="max-w-6xl mx-auto px-4 py-8">
           <slot />
 
-          <div class="mt-12 pt-8 border-t border-gray-200 flex items-start gap-4 flex-wrap">
+          <div class="mt-12 pt-8 border-t border-ebony-clay-100 flex items-start gap-4 flex-wrap">
             <Fragment set:html={fundingNotice} />
           </div>
         </main>
 
-        <footer class="max-w-6xl mx-auto px-4 py-6 text-center text-gray-600 text-sm">
+        <footer class="max-w-6xl mx-auto px-4 py-6 text-center text-chicago-600 text-sm">
           Hosted on the{' '}
-          <a href="/" class="text-blue-600 hover:underline font-semibold">
+          <a href="/" class="text-galaxy-primary hover:underline font-semibold">
             Galaxy Community Hub
           </a>
         </footer>
@@ -100,7 +100,7 @@ const fundingNotice = `
     <BaseLayout title={`${title} | EuroScienceGateway`} description={description}>
       <slot />
 
-      <div class="mt-12 pt-8 border-t border-gray-200 flex items-start gap-4 flex-wrap">
+      <div class="mt-12 pt-8 border-t border-ebony-clay-100 flex items-start gap-4 flex-wrap">
         <Fragment set:html={fundingNotice} />
       </div>
     </BaseLayout>

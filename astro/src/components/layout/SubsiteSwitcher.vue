@@ -12,7 +12,7 @@ function handleChange(value: string) {
 
 <template>
   <div class="px-3">
-    <label class="text-xs font-medium text-gray-400 uppercase tracking-wider mb-2 block"> Region </label>
+    <label class="text-xs font-medium text-chicago-400 uppercase tracking-wider mb-2 block"> Region </label>
     <Select :model-value="current" @update:model-value="handleChange">
       <SelectTrigger class="w-full bg-medium-bg border-0 text-white">
         <SelectValue placeholder="Global" />

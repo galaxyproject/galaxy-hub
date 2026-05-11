@@ -67,7 +67,7 @@ onUnmounted(stopTimer);
         :href="item.link"
         :class="
           cn(
-            'hero-carousel-slide block w-full rounded-xl overflow-hidden',
+            'hero-carousel-slide block w-full rounded-lg overflow-hidden',
             'shadow-[0_8px_32px_rgba(0,0,0,0.3)]',
             'transition-all duration-200 ease-in-out',
             'hover:-translate-y-0.5 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)]',

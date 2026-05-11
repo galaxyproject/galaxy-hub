@@ -64,7 +64,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 <div class="card-header bg-sig-field text-white text-center"><Icon name="external-link" />&nbsp;Ecology</div>
 </a>
 
-<p>A web platform to get, process, analyze and visualize ecological data.</p>
+<p>A web platform to get, process, analyze and visualize biodiversity data.</p>
 
 </div>
 

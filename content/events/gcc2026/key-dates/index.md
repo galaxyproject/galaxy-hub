@@ -11,11 +11,12 @@ money and give you an opportunity to present your work.
 
 | Date   | What |
 | -----: | ---  |
-| Week of Jan 19 | Early registration and abstract submission opens |
-| Feb 28 | Early registration closes and regular registration opens |
-| Apr 07 | Abstract submissions for talks close |
-| Apr 20 | Abstract notifications for talks sent |
-| May 14 | Regular registration closes and late registration opens |
+| Week of Jan 19 | ~~Early registration and abstract submission opens~~ |
+| Feb 28 | ~~Early registration closes and regular registration opens~~ |
+| Apr 07 | ~~Abstract submissions for talks close~~ |
+| Apr 20 | ~~Abstract notifications for talks sent~~ |
+| **May 11** | **Abstract submissions for poster & demo close** |
+| **May 14** | **Regular registration closes and late registration opens** |
 | Jun 22 | GCC2026 starts! |
 | Jun 25 | CoFest starts |
 

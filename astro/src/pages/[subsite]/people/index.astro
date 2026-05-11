@@ -79,7 +79,7 @@ const hallOfFameUrlFor = (groupId: string, personId: string) => {
         groups.map((group) => (
           <section id={group.id} class="space-y-4">
             {isAggregate && (
-              <div class="flex items-center justify-between gap-3 border-b border-gray-200 pb-3">
+              <div class="flex items-center justify-between gap-3 border-b border-ebony-clay-100 pb-3">
                 <div>
                   <h2 class="text-xl font-semibold text-galaxy-dark">{group.label}</h2>
                 </div>
@@ -92,7 +92,7 @@ const hallOfFameUrlFor = (groupId: string, personId: string) => {
 
               if (active.length === 0 && alumni.length === 0) {
                 return (
-                  <div class="rounded-lg border border-dashed border-gray-200 bg-gray-50 px-4 py-6 text-gray-600">
+                  <div class="rounded-lg border border-dashed border-ebony-clay-100 bg-ebony-clay-50 px-4 py-6 text-chicago-600">
                     No people listed yet for {group.label}. Reach out if you want to add contacts.
                   </div>
                 );
@@ -111,10 +111,10 @@ const hallOfFameUrlFor = (groupId: string, personId: string) => {
 
                   {alumni.length > 0 && (
                     <div class="space-y-3 pt-4">
-                      <div class="flex items-center justify-center gap-2 text-xs font-semibold text-gray-500 uppercase tracking-wide mb-12">
-                        <span class="flex-1 h-px bg-gray-200" />
+                      <div class="flex items-center justify-center gap-2 text-xs font-semibold text-chicago-500 uppercase tracking-wide mb-12">
+                        <span class="flex-1 h-px bg-ebony-clay-100" />
                         <span>Alumni</span>
-                        <span class="flex-1 h-px bg-gray-200" />
+                        <span class="flex-1 h-px bg-ebony-clay-100" />
                       </div>
                       <div class="grid gap-x-5 gap-y-12 sm:grid-cols-2">
                         {alumni.map((person) => {

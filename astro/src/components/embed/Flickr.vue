@@ -30,9 +30,9 @@ const embedUrl = computed(() => {
         :href="embedUrl"
         target="_blank"
         rel="noopener noreferrer"
-        class="inline-block p-4 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors"
+        class="inline-block p-4 bg-ebony-clay-50 rounded-lg hover:bg-ebony-clay-100 transition-colors"
       >
-        <div class="flex items-center gap-2 text-gray-700">
+        <div class="flex items-center gap-2 text-chicago-700">
           <svg class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
             <circle cx="7" cy="12" r="5" fill="#0063DC" />
             <circle cx="17" cy="12" r="5" fill="#FF0084" />
@@ -49,8 +49,8 @@ const embedUrl = computed(() => {
         </div>
       </a>
     </div>
-    <div v-else class="p-4 bg-gray-100 rounded-lg text-center">
-      <p class="text-gray-600">No Flickr content specified</p>
+    <div v-else class="p-4 bg-ebony-clay-50 rounded-lg text-center">
+      <p class="text-chicago-600">No Flickr content specified</p>
     </div>
   </div>
 </template>

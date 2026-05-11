@@ -116,8 +116,8 @@ function goTo(index: number) {
 
 <template>
   <div class="carousel my-6 relative max-w-4xl mx-auto">
-    <div v-if="normalizedImages.length === 0" class="p-4 bg-gray-100 rounded-lg text-center">
-      <p class="text-gray-600">No images available</p>
+    <div v-if="normalizedImages.length === 0" class="p-4 bg-ebony-clay-50 rounded-lg text-center">
+      <p class="text-chicago-600">No images available</p>
     </div>
 
     <template v-else>
@@ -165,7 +165,7 @@ function goTo(index: number) {
       </div>
 
       <!-- Caption -->
-      <p v-if="normalizedImages[currentIndex].caption" class="text-center text-sm text-gray-600 mt-2">
+      <p v-if="normalizedImages[currentIndex].caption" class="text-center text-sm text-chicago-600 mt-2">
         {{ normalizedImages[currentIndex].caption }}
       </p>
 
@@ -177,7 +177,7 @@ function goTo(index: number) {
           @click="goTo(index)"
           :class="[
             'carousel-indicators transition-colors',
-            index === currentIndex ? 'bg-galaxy-primary' : 'bg-gray-300 hover:bg-gray-400',
+            index === currentIndex ? 'bg-galaxy-primary' : 'bg-ebony-clay-200 hover:bg-ebony-clay-300',
           ]"
           :aria-label="`Go to image ${index + 1}`"
         ></button>
