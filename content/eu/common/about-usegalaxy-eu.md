@@ -7,7 +7,7 @@ subtitle: The homepage of the European Galaxy community
   <div class="grid gap-6 lg:grid-cols-[1fr_18rem] lg:items-start">
     <div>
       <h2 id="european-galaxy-server" class="text-2xl font-bold text-galaxy-dark">The European Galaxy server</h2>
-      <p class="mt-3 max-w-3xl text-chicago-700">
+      <p class="mt-3 text-chicago-700">
         The European Galaxy server <a class="text-galaxy-primary underline underline-offset-2 hover:text-galaxy-gold" href="https://usegalaxy.eu/">UseGalaxy.eu</a> is maintained primarily by the Freiburg Galaxy Team in collaboration with academic groups across Europe and the US Galaxy team. Please check our <a class="text-galaxy-primary underline underline-offset-2 hover:text-galaxy-gold" href="https://usegalaxy-eu.github.io/gdpr/tos.html">Terms of Service</a> and <a class="text-galaxy-primary underline underline-offset-2 hover:text-galaxy-gold" href="https://usegalaxy-eu.github.io/gdpr/">data retention policy</a> before using the server. We offer thousands of tools, temporary quota increases, and compute infrastructure for trainers through Training Infrastructure as a Service (TIaaS).
       </p>
     </div>
