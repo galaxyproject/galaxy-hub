@@ -9,6 +9,7 @@ contributions:
     - gdefazio
   funding:
     - elixir-europe
+    - deNBI
 ---
 
 # Something about me
