@@ -31,6 +31,13 @@ const PUBLIC_MEDIA_DIR = path.join(ASTRO_ROOT, 'public/media');
 const NAVBAR_DEST_DIR = path.join(ASTRO_CONTENT_DIR, 'navbars');
 
 /**
+ * Shared glob ignore patterns for content file discovery.
+ * Used by both preprocessContent and watchContent so they always operate on
+ * the same set of files.
+ */
+const CONTENT_IGNORE = ['**/node_modules/**', '0examples/**', '**/use/**/*.yml', '**/use/**/*.yaml'];
+
+/**
  * Copy images and assets from a content directory
  */
 async function copyAssets(sourceDir, slug) {
@@ -87,8 +94,8 @@ async function copyDirWithNormalizedNames(srcDir, destDir) {
  * Determine which collection a file belongs to
  * Note: vue-articles merged into articles - all content can have components
  */
-function getContentCollection(filePath) {
-  const relativePath = path.relative(CONTENT_DIR, filePath);
+function getContentCollection(filePath, contentDir = CONTENT_DIR) {
+  const relativePath = path.relative(contentDir, filePath);
   const basename = path.basename(filePath);
 
   // Bare articles - must check early, before inserts check
@@ -353,7 +360,7 @@ const insertCache = new Map();
  * Resolve an insert file's content, applying the same transforms used for page content.
  * Returns { content, hasComponents } or null if the file doesn't exist.
  */
-function resolveInsertContent(slotName, depth = 0) {
+function resolveInsertContent(slotName, depth = 0, contentDir = CONTENT_DIR) {
   if (depth > 2) {
     console.warn(`  Warning: insert nesting too deep for ${slotName}, stopping at depth ${depth}`);
     return { content: `<!-- Insert nesting too deep: ${slotName} -->`, hasComponents: false };
@@ -366,7 +373,7 @@ function resolveInsertContent(slotName, depth = 0) {
 
   // Map slot name to file path: "/foo/bar" -> "content/foo/bar.md"
   const relativePath = slotName.replace(/^\//, '');
-  const filePath = path.join(CONTENT_DIR, relativePath + '.md');
+  const filePath = path.join(contentDir, relativePath + '.md');
 
   let rawContent;
   try {
@@ -377,7 +384,7 @@ function resolveInsertContent(slotName, depth = 0) {
     const lastSeg = segments[segments.length - 1];
     const denormalized = lastSeg.replace(/-/g, '');
     if (denormalized !== lastSeg) {
-      const fallbackPath = path.join(CONTENT_DIR, ...segments.slice(0, -1), denormalized + '.md');
+      const fallbackPath = path.join(contentDir, ...segments.slice(0, -1), denormalized + '.md');
       try {
         rawContent = fs.readFileSync(fallbackPath, 'utf-8');
       } catch {
@@ -399,7 +406,7 @@ function resolveInsertContent(slotName, depth = 0) {
   // Apply the same content transforms used in processMarkdownFile
   let processed = body;
   processed = processed.replace(JSX_COMMENT_RE, '');
-  const { content: inlined, hasComponents: nestedComponents } = inlineInserts(processed, depth + 1);
+  const { content: inlined, hasComponents: nestedComponents } = inlineInserts(processed, depth + 1, contentDir);
   processed = inlined;
   processed = addBootstrapMarker(processed);
   processed = processImagePaths(processed, insertSlug);
@@ -417,10 +424,10 @@ function resolveInsertContent(slotName, depth = 0) {
  * Returns { content, hasComponents } — hasComponents is true if any inlined
  * insert had components: true in its frontmatter.
  */
-function inlineInserts(content, depth = 0) {
+function inlineInserts(content, depth = 0, contentDir = CONTENT_DIR) {
   let hasComponents = false;
   const result = content.replace(/<slot\s+name=["']([^"']+)["']\s*\/?>/gi, (match, slotName) => {
-    const resolved = resolveInsertContent(slotName, depth);
+    const resolved = resolveInsertContent(slotName, depth, contentDir);
     if (resolved === null) {
       return `<!-- Insert not found: ${slotName} -->`;
     }
@@ -471,12 +478,12 @@ function generateTease(markdownBody) {
 /**
  * Process a single markdown file
  */
-async function processMarkdownFile(filePath) {
+async function processMarkdownFile(filePath, { contentDir = CONTENT_DIR, outputDir = ASTRO_CONTENT_DIR } = {}) {
   const rawContent = await fs.promises.readFile(filePath, 'utf-8');
   const { data: frontmatter, content: body } = matter(rawContent);
 
-  const collection = getContentCollection(filePath);
-  const relativePath = path.relative(CONTENT_DIR, filePath);
+  const collection = getContentCollection(filePath, contentDir);
+  const relativePath = path.relative(contentDir, filePath);
   const dirname = path.dirname(relativePath);
 
   // Create slug from path
@@ -506,7 +513,11 @@ async function processMarkdownFile(filePath) {
   // If any inlined insert has components: true, the parent must become MDX too.
   let processedContent = body;
   processedContent = processedContent.replace(JSX_COMMENT_RE, '');
-  const { content: inlinedContent, hasComponents: insertsHaveComponents } = inlineInserts(processedContent);
+  const { content: inlinedContent, hasComponents: insertsHaveComponents } = inlineInserts(
+    processedContent,
+    0,
+    contentDir
+  );
   processedContent = inlinedContent;
 
   // Shift headings down if content has multiple h1s
@@ -564,7 +575,7 @@ async function processMarkdownFile(filePath) {
   }
 
   // Ensure collection directory exists
-  const collectionDir = path.join(ASTRO_CONTENT_DIR, collection);
+  const collectionDir = path.join(outputDir, collection);
   await fs.promises.mkdir(collectionDir, { recursive: true });
 
   const useMdx = frontmatter.components === true || insertsHaveComponents;
@@ -663,7 +674,7 @@ export async function preprocessContent(options = {}) {
   const markdownFiles = await glob('**/*.md', {
     cwd: CONTENT_DIR,
     absolute: true,
-    ignore: ['**/node_modules/**', '0examples/**'],
+    ignore: CONTENT_IGNORE,
   });
 
   // Only process YAML files that are true datasets, not platform-specific ones
@@ -671,11 +682,7 @@ export async function preprocessContent(options = {}) {
   const yamlFiles = await glob('**/*.{yml,yaml}', {
     cwd: CONTENT_DIR,
     absolute: true,
-    ignore: [
-      '**/node_modules/**',
-      '**/use/**/*.yml', // Exclude platform-specific YAML files (they have duplicate names)
-      '**/use/**/*.yaml',
-    ],
+    ignore: CONTENT_IGNORE,
   });
 
   const navbarFiles = await glob('**/navbar.{yml,yaml}', {
@@ -810,20 +817,297 @@ export async function preprocessContent(options = {}) {
   return results;
 }
 
+const SLOT_RE = /<slot\s+name=["']([^"']+)["']\s*\/?>/gi;
+
+/**
+ * Build a reverse index from insert slot-name → Set<absoluteParentFilePath>.
+ * Used during watch mode to propagate insert edits to the parent pages that
+ * inline them via <slot name="...">.
+ */
+async function buildInsertIndex(mdFiles) {
+  const index = new Map();
+  for (const fullPath of mdFiles) {
+    const raw = await fs.promises.readFile(fullPath, 'utf-8').catch(() => null);
+    if (!raw) continue;
+    for (const m of raw.matchAll(SLOT_RE)) {
+      const slotName = m[1];
+      if (!index.has(slotName)) index.set(slotName, new Set());
+      index.get(slotName).add(fullPath);
+    }
+  }
+  return index;
+}
+
+/**
+ * Compute the destination path(s) that processMarkdownFile would have written
+ * for a given source file. Returns both the .md and .mdx candidates so the
+ * caller can remove whichever exists without knowing which variant was written.
+ */
+function destPathsForMarkdown(fullPath, contentDir = CONTENT_DIR, outputDir = ASTRO_CONTENT_DIR) {
+  const relativePath = path.relative(contentDir, fullPath);
+  const dirname = path.dirname(relativePath).replace(/\\/g, '/');
+  const collection = getContentCollection(fullPath, contentDir);
+  let naturalSlug;
+  if (path.basename(fullPath) === 'index.md') {
+    naturalSlug = collection === 'news' ? deriveNewsNaturalSlug(dirname) : dirname === '.' ? 'home' : dirname;
+  } else {
+    const filename = path.basename(fullPath, '.md');
+    naturalSlug = dirname === '.' ? filename : `${dirname}/${filename}`;
+  }
+  const slug = normalizeSlug(naturalSlug);
+  const collectionDir = path.join(outputDir, collection);
+  return [path.join(collectionDir, slugToFilename(slug, false)), path.join(collectionDir, slugToFilename(slug, true))];
+}
+
+/**
+ * Watch content/ for changes and re-process only the affected file(s).
+ *
+ * Handles:
+ *   - Edits to existing pages and datasets.
+ *   - New file creation (previously silently ignored).
+ *   - Deletions — removes the corresponding generated file from src/content/.
+ *   - Insert edits — propagates to all parent pages that inline them via
+ *     <slot name="...">. The reverse index tracks direct references only;
+ *     deeply-nested chains (insert A → insert B → page C) will update when
+ *     any file in the chain is resaved.
+ *
+ * On Linux, fs.watch({ recursive }) sometimes reports only the basename instead
+ * of the full relative path. The watcher therefore treats every event as a hint
+ * that *something* changed, then finds files modified since the last scan via
+ * mtime comparison — reliable regardless of how the filename is reported.
+ */
+async function watchContent() {
+  console.log(`[watch] Watching for changes in: ${CONTENT_DIR}`);
+
+  const globOpts = { cwd: CONTENT_DIR, absolute: true, ignore: CONTENT_IGNORE };
+
+  // Snapshot of mtimes at startup so the first scan doesn't re-process everything.
+  const mtimes = new Map();
+  {
+    const initial = await glob('**/*.{md,yml,yaml}', globOpts);
+    for (const f of initial) {
+      const st = await fs.promises.stat(f).catch(() => null);
+      if (st) mtimes.set(f, st.mtimeMs);
+    }
+  }
+
+  // Reverse index: slot name → Set of parent file paths that reference it.
+  const insertIndex = await buildInsertIndex([...mtimes.keys()].filter((f) => f.endsWith('.md')));
+
+  /**
+   * Re-scan the slot references in a markdown file and update insertIndex.
+   */
+  const updateInsertIndex = async (fullPath) => {
+    // Remove this file as a parent from all existing entries
+    for (const parents of insertIndex.values()) {
+      parents.delete(fullPath);
+    }
+    const raw = await fs.promises.readFile(fullPath, 'utf-8').catch(() => null);
+    if (!raw) return;
+    for (const m of raw.matchAll(SLOT_RE)) {
+      const slotName = m[1];
+      if (!insertIndex.has(slotName)) insertIndex.set(slotName, new Set());
+      insertIndex.get(slotName).add(fullPath);
+    }
+  };
+
+  const processFile = async (fullPath) => {
+    const relative = path.relative(CONTENT_DIR, fullPath);
+    console.log(`[watch] Processing: ${relative}`);
+    try {
+      if (fullPath.endsWith('.md')) {
+        for (const dest of destPathsForMarkdown(fullPath)) {
+          await fs.promises.rm(dest, { force: true });
+        }
+        await processMarkdownFile(fullPath);
+        await updateInsertIndex(fullPath);
+
+        // If this file is an insert, re-process every parent that inlines it.
+        if (getContentCollection(fullPath) === 'inserts') {
+          // Index keys on the normalized path. resolveInsertContent also accepts
+          // denormalized slot names (e.g. <slot name="/ifb/lead-1" /> → lead1.md),
+          // but those aliases won't match here and inserts using them won't hot-reload.
+          const relNoExt = path.relative(CONTENT_DIR, fullPath).replace(/\.md$/, '').replace(/\\/g, '/');
+          const slotName = '/' + relNoExt;
+          const parents = insertIndex.get(slotName);
+          if (parents && parents.size > 0) {
+            console.log(`[watch] Insert changed — re-processing ${parents.size} parent(s)`);
+            for (const parentPath of parents) {
+              const parentRel = path.relative(CONTENT_DIR, parentPath);
+              console.log(`[watch]   Re-processing parent: ${parentRel}`);
+              try {
+                for (const dest of destPathsForMarkdown(parentPath)) {
+                  await fs.promises.rm(dest, { force: true });
+                }
+                await processMarkdownFile(parentPath);
+              } catch (err) {
+                console.error(`[watch]   Error in parent ${parentRel}:`, err.message);
+              }
+            }
+          }
+        }
+      } else if (path.basename(fullPath) === 'navbar.yml' || path.basename(fullPath) === 'navbar.yaml') {
+        await processNavbar(fullPath);
+      } else {
+        await processDataset(fullPath);
+      }
+      console.log(`[watch] Done: ${relative}`);
+    } catch (err) {
+      console.error(`[watch] Error: ${relative}:`, err.message);
+    }
+  };
+
+  const removeStale = async (fullPath) => {
+    const relative = path.relative(CONTENT_DIR, fullPath);
+    try {
+      if (fullPath.endsWith('.md')) {
+        for (const dest of destPathsForMarkdown(fullPath)) {
+          await fs.promises.rm(dest, { force: true });
+        }
+        // If this was an insert, re-process parents before cleaning the index.
+        const relNoExt = path.relative(CONTENT_DIR, fullPath).replace(/\.md$/, '').replace(/\\/g, '/');
+        const slotName = '/' + relNoExt;
+        const parents = insertIndex.get(slotName);
+        if (parents && parents.size > 0) {
+          console.log(`[watch] Insert deleted — re-processing ${parents.size} parent(s)`);
+          for (const parentPath of [...parents]) {
+            const parentRel = path.relative(CONTENT_DIR, parentPath);
+            console.log(`[watch]   Re-processing parent: ${parentRel}`);
+            try {
+              for (const dest of destPathsForMarkdown(parentPath)) {
+                await fs.promises.rm(dest, { force: true });
+              }
+              await processMarkdownFile(parentPath);
+            } catch (err) {
+              console.error(`[watch]   Error in parent ${parentRel}:`, err.message);
+            }
+          }
+        }
+        // Clean up insert index
+        for (const ps of insertIndex.values()) ps.delete(fullPath);
+        insertIndex.delete(slotName);
+      } else if (path.basename(fullPath) === 'navbar.yml' || path.basename(fullPath) === 'navbar.yaml') {
+        const relativePath = path.relative(CONTENT_DIR, fullPath);
+        const relativeDir = path.dirname(relativePath);
+        const navName = relativeDir === '.' ? 'global' : relativeDir;
+        const dest = path.join(NAVBAR_DEST_DIR, navName, path.basename(fullPath));
+        await fs.promises.rm(dest, { force: true });
+      } else {
+        const dest = path.join(ASTRO_CONTENT_DIR, 'datasets', path.basename(fullPath));
+        await fs.promises.rm(dest, { force: true });
+      }
+      console.log(`[watch] Removed: ${relative}`);
+    } catch (err) {
+      console.error(`[watch] Error removing ${relative}:`, err.message);
+    }
+    mtimes.delete(fullPath);
+  };
+
+  let scanTimer = null;
+  let scanning = false;
+  let pendingScan = false;
+
+  /**
+   * The actual scan: find changed/new/deleted files and process them.
+   * Protected by a scanning flag so concurrent executions never overlap.
+   */
+  const runScan = async () => {
+    if (scanning) {
+      // Another scan is running; remember to re-run once it finishes.
+      pendingScan = true;
+      return;
+    }
+    scanning = true;
+    pendingScan = false;
+    try {
+      // Clear insert cache once per scan batch (not per file) so a burst of
+      // changes from git-checkout or mass-edit resolves inserts fresh.
+      insertCache.clear();
+
+      const files = await glob('**/*.{md,yml,yaml}', globOpts);
+      const fileSet = new Set(files);
+
+      // Process new and modified files (prev === undefined → new file, always process)
+      for (const fullPath of files) {
+        const st = await fs.promises.stat(fullPath).catch(() => null);
+        if (!st) continue;
+        const prev = mtimes.get(fullPath);
+        if (prev === undefined || st.mtimeMs > prev) {
+          mtimes.set(fullPath, st.mtimeMs);
+          await processFile(fullPath);
+        }
+      }
+
+      // Remove output for files deleted since the last scan
+      for (const fullPath of [...mtimes.keys()]) {
+        if (!fileSet.has(fullPath)) {
+          await removeStale(fullPath);
+        }
+      }
+    } catch (err) {
+      console.error('[watch] Scan error:', err.message);
+    } finally {
+      scanning = false;
+      if (pendingScan) {
+        // A change arrived while we were scanning — run again after a short delay.
+        scanTimer = setTimeout(runScan, 200);
+      }
+    }
+  };
+
+  const scheduleScan = () => {
+    if (scanTimer) clearTimeout(scanTimer);
+    scanTimer = setTimeout(runScan, 200);
+  };
+
+  // Fallback interval poll — catches any events that fs.watch drops under heavy
+  // inotify load (queue overflow with large directory trees is common on Linux).
+  const pollInterval = setInterval(scheduleScan, 10000);
+
+  // Event-driven watch for fast (<200 ms) response. Best-effort on Linux — if
+  // the kernel drops events or the watcher fails, the interval above takes over.
+  try {
+    const watcher = fs.watch(CONTENT_DIR, { recursive: true });
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    for await (const _ of watcher) {
+      scheduleScan();
+    }
+    // The watcher closed cleanly (CONTENT_DIR was removed, etc.).
+    console.warn('[watch] fs.watch closed; continuing in poll-only mode');
+  } catch (err) {
+    console.warn(`[watch] fs.watch error (${err.message}); continuing in poll-only mode`);
+  }
+
+  // Keep the process alive indefinitely in poll-only mode.
+  // pollInterval keeps the event loop alive; this promise never settles.
+  await new Promise(() => {
+    void pollInterval;
+  });
+}
+
 // CLI interface
 if (import.meta.url === `file://${process.argv[1]}`) {
   const args = process.argv.slice(2);
-  const options = {
-    verbose: args.includes('--verbose') || args.includes('-v'),
-    clear: !args.includes('--no-clear'),
-  };
 
-  preprocessContent(options)
-    .then(() => process.exit(0))
-    .catch((error) => {
-      console.error('Fatal error:', error);
+  if (args.includes('--watch-only')) {
+    // Just watch — assumes a full preprocess already ran
+    watchContent().catch((error) => {
+      console.error('Watch error:', error);
       process.exit(1);
     });
+  } else {
+    const options = {
+      verbose: args.includes('--verbose') || args.includes('-v'),
+      clear: !args.includes('--no-clear'),
+    };
+
+    preprocessContent(options)
+      .then(() => process.exit(0))
+      .catch((error) => {
+        console.error('Fatal error:', error);
+        process.exit(1);
+      });
+  }
 }
 
 // Exports for testing
@@ -836,4 +1120,6 @@ export {
   insertCache,
   generateTease,
   shiftHeadings,
+  processMarkdownFile,
+  destPathsForMarkdown,
 };
