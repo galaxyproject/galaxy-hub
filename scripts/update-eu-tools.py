@@ -3,24 +3,29 @@
 
 import argparse
 import requests
+import html
+import urllib.parse
 
 
 def render_tool_link(elem: dict, server_url: str) -> str:
     try:
         elem_id = elem["id"]
-        # Escape quotes in name and description for Markdown compatibility
-        elem_name = (elem.get("name") or "").replace('"', '\\"')
-        elem_desc = (elem.get("description") or "").replace('"', '\\"')
+        # Escape HTML characters for MDX/HTML compatibility
+        elem_name = html.escape(elem.get("name") or "")
+        elem_desc = html.escape(elem.get("description") or "")
 
         if "toolshed" in elem_id:
             tool_id = elem_id.split("/")[-2]
         else:
             tool_id = elem_id
+
+        tool_id = urllib.parse.quote(tool_id)
+        # Escape quotes in description to not break Markdown link title
+        elem_desc = elem_desc.replace('"', "&quot;")
         tool_link = f"{server_url}/root?tool_id={tool_id}"
     except Exception:
         print("Skipping elem:", elem)
         return ""
-    # Use Markdown format for links with titles
     return f'[{elem_name}]({tool_link} "{elem_desc}")'
 
 
@@ -80,12 +85,12 @@ def main():
 # THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
 # To update, run: python3 scripts/update-eu-tools.py
 title: {args.name} Tools
+components: true
 ---
 
 # {args.name} tools ({tool_count} and counting)
 <hr/>
 """
-
 
     with open(args.output, "w") as f:
         f.write(header)
