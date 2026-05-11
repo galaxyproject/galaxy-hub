@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
+import PageHeader from '../../../components/layout/PageHeader.astro';
 import EventsList from '../../../components/events/EventsList.vue';
 import { subsites } from '../../../stores/subsiteStore';
 
@@ -15,6 +16,11 @@ export function getStaticPaths() {
 }
 
 const { subsiteName, subsiteId } = Astro.props;
+const isEurope = subsiteId === 'eu';
+const pageTitle = isEurope ? 'Galaxy Europe Events' : `${subsiteName} Events`;
+const headerTitle = isEurope ? 'Events' : `${subsiteName} Events`;
+const pageDescription = 'Workshops, conferences, and community gatherings';
+const eyebrow = isEurope ? { label: 'Galaxy Europe', href: '/eu/' } : undefined;
 
 // Get all events and prepare data for client component
 const events = await getCollection('events');
@@ -32,14 +38,20 @@ const eventData = events.map((e) => ({
 }));
 ---
 
-<BaseLayout title={`${subsiteName} Events`} description={`Galaxy Project events for ${subsiteName}`}>
-  <div class="max-w-6xl mx-auto bg-white">
-    <header class="px-6 sm:px-8 pt-6 pb-6 border-b-4 border-b-galaxy-gold">
-      <h1 class="text-3xl sm:text-4xl font-bold text-galaxy-dark mb-2">{subsiteName} Events</h1>
-      <p class="text-lg text-chicago-600">Workshops, conferences, and community gatherings</p>
-    </header>
+<BaseLayout title={pageTitle} description={`Galaxy Project events for ${subsiteName}`}>
+  <div class="max-w-6xl mx-auto">
+    <PageHeader title={headerTitle} description={pageDescription} {eyebrow}>
+      <div class="mt-6">
+        <a
+          href={`/${subsiteId}/events/archive/`}
+          class="inline-flex items-center rounded-lg border border-white/30 px-3 py-1.5 text-sm font-medium text-white hover:border-galaxy-gold hover:bg-white/10 transition-colors"
+        >
+          View events archive
+        </a>
+      </div>
+    </PageHeader>
 
-    <div class="px-6 sm:px-8 py-6">
+    <div class="bg-white rounded-b-lg shadow-sm px-6 sm:px-8 py-6">
       <EventsList client:only="vue" events={eventData} initialSubsite={subsiteId} />
     </div>
   </div>
