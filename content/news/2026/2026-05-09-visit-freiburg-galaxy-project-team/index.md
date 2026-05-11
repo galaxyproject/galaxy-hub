@@ -2,7 +2,8 @@
 title: "My visit to Freiburg Galaxy Project team"
 date: "2026-05-09"
 tease: "This is a small tale about my 3 months stay in Freiburg joining Galaxy Project team."
-tags: [elixir, staffexchange, fairymags, metagenomics]
+funding: elixir-europe
+tags: [elixir, fairymags, metagenomics]
 subsites: [all]
 contributions:
   authorship:
