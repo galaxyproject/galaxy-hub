@@ -1,0 +1,51 @@
+---
+import Icon from './Icon.astro';
+
+const links = [
+  { href: 'mailto:contact@usegalaxy.eu', icon: 'mail', label: 'contact@usegalaxy.eu' },
+  { href: 'https://github.com/usegalaxy-eu', icon: 'github', label: 'GitHub' },
+  { href: 'https://matrix.to/#/#usegalaxy.eu:matrix.org', icon: 'message-circle', label: 'Matrix' },
+  {
+    href: 'https://xn--baw-joa.social/@galaxyfreiburg',
+    icon: 'message-circle',
+    label: 'Mastodon',
+    rel: 'me noopener noreferrer',
+    target: '_blank',
+  },
+  { href: '/eu/feed.atom', icon: 'rss', label: 'Feed' },
+];
+---
+
+<section class="mt-12 rounded-lg border border-galaxy-primary/10 bg-white p-6 text-center shadow-sm">
+  <p class="mx-auto text-chicago-700">
+    UseGalaxy.eu is maintained largely by the <a
+      class="text-galaxy-primary underline underline-offset-2 hover:text-galaxy-gold"
+      href="https://usegalaxy-eu.github.io/freiburg/">Freiburg Galaxy Team</a
+    > and collectively by groups and individuals from across Europe. All member sites in this repository contribute to
+    the European Galaxy Project. For acknowledgement, please refer to the <a
+      class="text-galaxy-primary underline underline-offset-2 hover:text-galaxy-gold"
+      href="https://usegalaxy-eu.github.io/about">About section</a
+    >. All content on this site is available under <a
+      class="text-galaxy-primary underline underline-offset-2 hover:text-galaxy-gold"
+      href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0-1.0</a
+    > unless otherwise specified.
+  </p>
+
+  <ul class="mt-5 flex flex-wrap items-center justify-center gap-3 text-sm">
+    {
+      links.map((link) => (
+        <li>
+          <a
+            class="inline-flex items-center gap-1.5 rounded-md border border-galaxy-primary/15 px-3 py-1.5 text-galaxy-primary hover:border-galaxy-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-galaxy-primary"
+            href={link.href}
+            target={link.target}
+            rel={link.rel}
+          >
+            <Icon name={link.icon} size={16} />
+            {link.label}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</section>

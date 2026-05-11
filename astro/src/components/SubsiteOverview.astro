@@ -1,5 +1,6 @@
 ---
 import type { CollectionEntry } from 'astro:content';
+import PageHeader from './layout/PageHeader.astro';
 import { formatDate } from '../utils/dateUtils';
 
 interface Props {
@@ -14,15 +15,12 @@ interface Props {
 const { subsite, title, description, upcomingEvents, subsiteNews, hasMainContent = false } = Astro.props;
 ---
 
-<div class="max-w-5xl mx-auto">
-  <div class="mb-8 pb-6 border-b border-ebony-clay-100">
-    <h1 class="text-3xl font-bold text-galaxy-dark mb-2">{title}</h1>
-    {!hasMainContent && <p class="text-chicago-600">{description}</p>}
-  </div>
+<div class="max-w-6xl mx-auto">
+  <PageHeader {title} {description} />
 
   {
     hasMainContent && (
-      <div class="mb-10 max-w-none subsite-inserts">
+      <div class="my-10 max-w-none subsite-inserts">
         <slot name="main-content" />
       </div>
     )
@@ -32,7 +30,12 @@ const { subsite, title, description, upcomingEvents, subsiteNews, hasMainContent
     <section>
       <div class="flex items-center justify-between mb-4">
         <h2 class="text-xl font-bold text-galaxy-dark">Upcoming Events</h2>
-        <a href={`/${subsite}/events/`} class="text-sm text-galaxy-primary hover:underline"> View all → </a>
+        <a
+          href={`/${subsite}/events/`}
+          class="text-sm font-medium text-galaxy-primary hover:text-galaxy-gold transition-colors"
+        >
+          View all →
+        </a>
       </div>
 
       {
@@ -43,10 +46,13 @@ const { subsite, title, description, upcomingEvents, subsiteNews, hasMainContent
             {upcomingEvents.map((event) => (
               <a
                 href={`/${event.data.slug}/`}
-                class="block p-3 bg-white rounded-lg border border-ebony-clay-100 hover:border-galaxy-primary hover:shadow-sm transition-all"
+                class="group relative block overflow-hidden p-4 bg-white rounded-lg border border-galaxy-primary/10 shadow-sm hover:border-galaxy-primary/30 transition-all"
               >
+                <span class="absolute left-0 top-0 bottom-0 w-1 bg-galaxy-gold transform origin-left scale-y-0 group-hover:scale-y-100 transition-transform duration-200" />
                 <div class="text-xs text-galaxy-primary font-medium mb-1">{formatDate(event.data.date)}</div>
-                <h3 class="font-medium text-galaxy-dark line-clamp-2">{event.data.title}</h3>
+                <h3 class="font-medium text-galaxy-dark group-hover:text-galaxy-primary transition-colors line-clamp-2">
+                  {event.data.title}
+                </h3>
               </a>
             ))}
           </div>
@@ -57,7 +63,12 @@ const { subsite, title, description, upcomingEvents, subsiteNews, hasMainContent
     <section>
       <div class="flex items-center justify-between mb-4">
         <h2 class="text-xl font-bold text-galaxy-dark">Recent News</h2>
-        <a href={`/${subsite}/news/`} class="text-sm text-galaxy-primary hover:underline"> View all → </a>
+        <a
+          href={`/${subsite}/news/`}
+          class="text-sm font-medium text-galaxy-primary hover:text-galaxy-gold transition-colors"
+        >
+          View all →
+        </a>
       </div>
 
       {
@@ -68,10 +79,13 @@ const { subsite, title, description, upcomingEvents, subsiteNews, hasMainContent
             {subsiteNews.map((article) => (
               <a
                 href={`/${article.data.slug}/`}
-                class="block p-3 bg-white rounded-lg border border-ebony-clay-100 hover:border-galaxy-primary hover:shadow-sm transition-all"
+                class="group relative block overflow-hidden p-4 bg-white rounded-lg border border-galaxy-primary/10 shadow-sm hover:border-galaxy-primary/30 transition-all"
               >
+                <span class="absolute left-0 top-0 bottom-0 w-1 bg-galaxy-gold transform origin-left scale-y-0 group-hover:scale-y-100 transition-transform duration-200" />
                 <div class="text-xs text-chicago-500 mb-1">{formatDate(article.data.date)}</div>
-                <h3 class="font-medium text-galaxy-dark line-clamp-2">{article.data.title}</h3>
+                <h3 class="font-medium text-galaxy-dark group-hover:text-galaxy-primary transition-colors line-clamp-2">
+                  {article.data.title}
+                </h3>
               </a>
             ))}
           </div>
@@ -85,23 +99,41 @@ const { subsite, title, description, upcomingEvents, subsiteNews, hasMainContent
     <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
       <a
         href={`/${subsite}/events/`}
-        class="p-4 bg-galaxy-primary/5 rounded-lg hover:bg-galaxy-primary/10 transition-colors"
+        class="group relative overflow-hidden p-4 bg-white border border-galaxy-primary/10 rounded-lg shadow-sm hover:border-galaxy-primary/30 transition-colors"
       >
+        <span
+          class="absolute left-0 top-0 bottom-0 w-1 bg-galaxy-gold transform origin-left scale-y-0 group-hover:scale-y-100 transition-transform duration-200"
+        ></span>
         <h3 class="font-semibold text-galaxy-dark">Events</h3>
         <p class="text-sm text-chicago-600">Browse all events</p>
       </a>
       <a
         href={`/${subsite}/news/`}
-        class="p-4 bg-galaxy-primary/5 rounded-lg hover:bg-galaxy-primary/10 transition-colors"
+        class="group relative overflow-hidden p-4 bg-white border border-galaxy-primary/10 rounded-lg shadow-sm hover:border-galaxy-primary/30 transition-colors"
       >
+        <span
+          class="absolute left-0 top-0 bottom-0 w-1 bg-galaxy-gold transform origin-left scale-y-0 group-hover:scale-y-100 transition-transform duration-200"
+        ></span>
         <h3 class="font-semibold text-galaxy-dark">News</h3>
         <p class="text-sm text-chicago-600">Read latest news</p>
       </a>
-      <a href="/use/" class="p-4 bg-galaxy-primary/5 rounded-lg hover:bg-galaxy-primary/10 transition-colors">
+      <a
+        href="/use/"
+        class="group relative overflow-hidden p-4 bg-white border border-galaxy-primary/10 rounded-lg shadow-sm hover:border-galaxy-primary/30 transition-colors"
+      >
+        <span
+          class="absolute left-0 top-0 bottom-0 w-1 bg-galaxy-gold transform origin-left scale-y-0 group-hover:scale-y-100 transition-transform duration-200"
+        ></span>
         <h3 class="font-semibold text-galaxy-dark">Platforms</h3>
         <p class="text-sm text-chicago-600">Find Galaxy servers</p>
       </a>
-      <a href="/community/" class="p-4 bg-galaxy-primary/5 rounded-lg hover:bg-galaxy-primary/10 transition-colors">
+      <a
+        href="/community/"
+        class="group relative overflow-hidden p-4 bg-white border border-galaxy-primary/10 rounded-lg shadow-sm hover:border-galaxy-primary/30 transition-colors"
+      >
+        <span
+          class="absolute left-0 top-0 bottom-0 w-1 bg-galaxy-gold transform origin-left scale-y-0 group-hover:scale-y-100 transition-transform duration-200"
+        ></span>
         <h3 class="font-semibold text-galaxy-dark">Community</h3>
         <p class="text-sm text-chicago-600">Get involved</p>
       </a>
@@ -116,29 +148,29 @@ const { subsite, title, description, upcomingEvents, subsiteNews, hasMainContent
     margin-bottom: 1.5rem;
   }
 
-  .subsite-inserts :global(p),
-  .subsite-inserts :global(ul),
-  .subsite-inserts :global(ol) {
+  .subsite-inserts :global(p:not([class])),
+  .subsite-inserts :global(ul:not([class])),
+  .subsite-inserts :global(ol:not([class])) {
     max-width: 65ch;
     line-height: 1.7;
   }
 
-  .subsite-inserts :global(ul) {
+  .subsite-inserts :global(ul:not([class])) {
     list-style-type: disc;
     padding-left: 1.5rem;
   }
 
-  .subsite-inserts :global(li) {
+  .subsite-inserts :global(li:not([class])) {
     margin-bottom: 0.25rem;
   }
 
-  .subsite-inserts :global(a) {
+  .subsite-inserts :global(a:not([class])) {
     color: var(--color-galaxy-primary);
     text-decoration: underline;
     text-underline-offset: 2px;
   }
 
-  .subsite-inserts :global(a:hover) {
+  .subsite-inserts :global(a:not([class]):hover) {
     color: var(--color-galaxy-dark);
   }
 
