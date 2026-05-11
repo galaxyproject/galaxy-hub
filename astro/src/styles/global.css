@@ -466,12 +466,12 @@ body {
 
 /* Tool list styling - renders Markdown links as badges */
 .tool-list a {
-  @apply inline-flex items-center rounded-full border border-galaxy-primary/30 px-2.5 py-0.5 text-xs font-medium text-galaxy-primary transition-colors m-0.5;
+  @apply inline-flex items-center rounded-md border border-galaxy-primary/30 px-2.5 py-1 text-sm font-medium text-galaxy-dark transition-colors m-0.5;
   text-decoration: none !important;
 }
 
 .tool-list a:hover {
-  @apply bg-galaxy-primary text-white border-galaxy-primary;
+  @apply border-galaxy-gold text-galaxy-dark bg-galaxy-gold/20;
   text-decoration: none !important;
 }
 

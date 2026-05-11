@@ -96,11 +96,10 @@ def main():
 # THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
 # To update, run: python3 scripts/update-tools.py --server {args.server} --name "{args.name}" --output {args.output}
 title: {args.name} Tools
+description: "{tool_count} tools and counting"
 components: true
 ---
 
-# {args.name} tools ({tool_count} and counting)
-<hr/>
 """
 
     with open(args.output, "w") as f:
