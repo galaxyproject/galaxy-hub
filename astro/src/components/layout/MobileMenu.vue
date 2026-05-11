@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed } from 'vue';
+import { ref, computed, onMounted } from 'vue';
 import { useStore } from '@nanostores/vue';
 import { currentSubsite, navigateToSubsiteMain, subsites, type SubsiteId } from '@/stores/subsiteStore';
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet';
@@ -60,20 +60,32 @@ const DEFAULT_MOBILE_NAV = {
 
 const props = defineProps<{
   navbar?: NavbarData | null;
+  initialSubsite?: SubsiteId;
 }>();
 
 const isOpen = ref(false);
 const subsite = useStore(currentSubsite);
-const showPeople = computed(() => !!subsite.value && subsite.value !== 'global');
+const hasMounted = ref(false);
+const effectiveSubsite = computed(() =>
+  !hasMounted.value && props.initialSubsite ? props.initialSubsite : subsite.value
+);
+const showPeople = computed(() => !!effectiveSubsite.value && effectiveSubsite.value !== 'global');
 
 const navModel = computed<SidebarNavigation>(
-  () => navbarToSidebarNavigation(props.navbar, subsite.value) || (DEFAULT_MOBILE_NAV as SidebarNavigation)
+  () => navbarToSidebarNavigation(props.navbar, effectiveSubsite.value) || (DEFAULT_MOBILE_NAV as SidebarNavigation)
 );
 const navSections = computed<NavSection[]>(() => navModel.value.sections);
 const topLinks = computed<NavItem[]>(() => navModel.value.topLinks);
 const bottomLinks = computed<NavItem[]>(() => navModel.value.bottomLinks);
 
 const openSections = ref<Set<string>>(new Set(navModel.value.sections.slice(0, 2).map((section) => section.title)));
+
+onMounted(() => {
+  if (props.initialSubsite) {
+    currentSubsite.set(props.initialSubsite);
+  }
+  hasMounted.value = true;
+});
 
 function toggleSection(title: string) {
   if (openSections.value.has(title)) {
@@ -130,7 +142,7 @@ function filteredItems(section: NavSection) {
         <!-- Region Switcher -->
         <div class="px-4 py-4 border-b border-medium-bg">
           <label class="text-xs font-medium text-chicago-400 uppercase tracking-wider mb-2 block"> Region </label>
-          <Select :model-value="subsite" @update:model-value="handleSubsiteChange">
+          <Select :model-value="effectiveSubsite" @update:model-value="handleSubsiteChange">
             <SelectTrigger class="w-full bg-medium-bg border-0 text-white">
               <SelectValue placeholder="Select region" />
             </SelectTrigger>

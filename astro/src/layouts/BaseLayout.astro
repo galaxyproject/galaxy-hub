@@ -37,14 +37,14 @@ const navbar = await getSubsiteNavbar(currentSubsite);
   <body class="min-h-screen bg-background text-foreground">
     <div class="flex min-h-screen overflow-hidden">
       <!-- Sidebar (desktop only) -->
-      <Sidebar transition:persist navbar={navbar} />
+      <Sidebar transition:persist navbar={navbar} initialSubsite={currentSubsite} />
 
       <!-- Mobile header with Vue-powered menu -->
       <div class="lg:hidden fixed top-0 left-0 right-0 z-50 bg-galaxy-dark p-4 flex items-center justify-between">
         <a href="/" class="block">
           <img src="/images/galaxy_logo_hub_white.svg" alt="Galaxy Community Hub" class="h-8 w-auto" />
         </a>
-        <MobileMenu client:load navbar={navbar} />
+        <MobileMenu client:load navbar={navbar} initialSubsite={currentSubsite} />
       </div>
 
       <!-- Main content area -->

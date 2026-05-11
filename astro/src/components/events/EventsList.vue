@@ -36,6 +36,10 @@ const props = withDefaults(
 );
 
 const $subsite = useStore(currentSubsite);
+const hasMounted = ref(false);
+const effectiveSubsite = computed(() =>
+  !hasMounted.value && props.initialSubsite ? props.initialSubsite : $subsite.value
+);
 const isBrowser = typeof window !== 'undefined';
 
 function getYearFromQuery(): number | null {
@@ -56,6 +60,7 @@ onMounted(() => {
   if (props.initialSubsite && props.initialSubsite !== 'global') {
     currentSubsite.set(props.initialSubsite);
   }
+  hasMounted.value = true;
 });
 
 function loadMorePast() {
@@ -78,7 +83,7 @@ function getSubsites(event: EventData): string[] {
 
 // Filter events based on current subsite
 const filteredEvents = computed(() => {
-  const subsite = $subsite.value;
+  const subsite = effectiveSubsite.value;
 
   // Global shows all events
   if (subsite === 'global') {
@@ -161,7 +166,7 @@ watch(availablePastYears, (years) => {
 });
 
 // Reset pagination when year or subsite changes
-watch([selectedPastYear, $subsite], () => {
+watch([selectedPastYear, effectiveSubsite], () => {
   pastDisplayCount.value = pageSize;
 });
 
@@ -217,9 +222,9 @@ function displaySubsite(subsite: string): string {
 <template>
   <div class="events-list">
     <!-- Subsite indicator -->
-    <div v-if="$subsite !== 'global'" class="mb-6 p-4 bg-galaxy-primary/10 rounded-lg">
+    <div v-if="effectiveSubsite !== 'global'" class="mb-6 p-4 bg-galaxy-primary/10 rounded-lg">
       <p class="text-sm text-galaxy-dark">
-        Showing events for <strong>{{ displaySubsite($subsite) }}</strong> subsite.
+        Showing events for <strong>{{ displaySubsite(effectiveSubsite) }}</strong> subsite.
         <button @click="() => currentSubsite.set('global')" class="ml-2 text-galaxy-primary hover:underline">
           Show all events
         </button>
