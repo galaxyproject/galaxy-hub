@@ -24,7 +24,7 @@ jobs:
         run: pip install requests
 
       - name: Run update script
-        run: python scripts/update-eu-tools.py
+        run: python scripts/update-tools.py --server https://usegalaxy.eu --name "European Galaxy" --output content/eu/tools/index.md
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7

@@ -35,18 +35,18 @@ def main():
     )
     parser.add_argument(
         "--server",
-        default="https://usegalaxy.eu",
-        help="Galaxy server URL (default: https://usegalaxy.eu)",
+        required=True,
+        help="Galaxy server URL (e.g. https://usegalaxy.eu)",
     )
     parser.add_argument(
         "--name",
-        default="European Galaxy",
-        help="Instance name for the title (default: European Galaxy)",
+        required=True,
+        help="Instance name for the title (e.g. European Galaxy)",
     )
     parser.add_argument(
         "--output",
-        default="content/eu/tools/index.md",
-        help="Output file path (default: content/eu/tools/index.md)",
+        required=True,
+        help="Output file path (e.g. content/eu/tools/index.md)",
     )
     args = parser.parse_args()
 
@@ -83,7 +83,7 @@ def main():
 
     header = f"""---
 # THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
-# To update, run: python3 scripts/update-eu-tools.py
+# To update, run: python3 scripts/update-tools.py --server {args.server} --name "{args.name}" --output {args.output}
 title: {args.name} Tools
 components: true
 ---

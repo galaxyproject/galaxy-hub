@@ -1,6 +1,6 @@
 ---
 # THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
-# To update, run: python3 scripts/update-eu-tools.py
+# To update, run: python3 scripts/update-tools.py --server https://usegalaxy.eu --name "European Galaxy" --output content/eu/tools/index.md
 title: European Galaxy Tools
 components: true
 ---
