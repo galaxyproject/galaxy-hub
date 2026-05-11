@@ -60,10 +60,7 @@ def main():
     tool_count = 0
     out = ""
 
-    # Sort sections to ensure deterministic output
-    sections = sorted(r.json(), key=lambda x: str(x.get("name", x.get("text", ""))))
-
-    for section in sections:
+    for section in r.json():
         model = section.get("model_class", "")
         if model == "ToolSection":
             # Add extra newline before headers to ensure they are parsed as block elements
