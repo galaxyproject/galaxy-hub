@@ -59,13 +59,24 @@ def main():
 
     tool_count = 0
     out = ""
-    for section in r.json():
+
+    # Sort sections to ensure deterministic output
+    sections = sorted(r.json(), key=lambda x: str(x.get("name", x.get("text", ""))))
+
+    for section in sections:
         model = section.get("model_class", "")
         if model == "ToolSection":
             # Add extra newline before headers to ensure they are parsed as block elements
             out += f'\n### {section["name"]}\n\n'
             out += '<div class="tool-list">\n\n'
-            for elem in section.get("elems", []):
+
+            # Sort tools within the section deterministically
+            elems = sorted(
+                section.get("elems", []),
+                key=lambda x: str(x.get("name", x.get("text", ""))),
+            )
+
+            for elem in elems:
                 if elem["model_class"] == "ToolSectionLabel":
                     continue
                 tool_count += 1
