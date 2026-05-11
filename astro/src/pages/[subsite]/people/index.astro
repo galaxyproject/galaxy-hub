@@ -46,7 +46,8 @@ const groups = sectionOrder.map((id) => ({
   people: peopleData[id] || [],
 }));
 
-const pageTitle = `${labelForSite(subsite)} People`;
+const pageTitle = subsite === 'eu' ? 'Galaxy Europe People' : `${labelForSite(subsite)} People`;
+const headerTitle = subsite === 'eu' ? 'People' : `${labelForSite(subsite)} People`;
 const pageDescription =
   subsite === 'eu'
     ? 'Contributors across the European Galaxy Project, grouped by their home site.'
@@ -64,12 +65,13 @@ const hallOfFameUrlFor = (groupId: string, personId: string) => {
   const url = hallUrl((peopleData[groupId] || []).find((p) => p.id === personId)?.hallOfFameSlug || '');
   return url;
 };
+const eyebrow = subsite === 'eu' ? { label: 'Galaxy Europe', href: '/eu/' } : undefined;
 ---
 
 <BaseLayout title={pageTitle} description={pageDescription}>
   <div class="max-w-6xl mx-auto">
     <SubsiteSetter client:load subsiteId={subsite} />
-    <PageHeader title={pageTitle} description={pageDescription}>
+    <PageHeader title={headerTitle} description={pageDescription} {eyebrow}>
       {subsite === 'eu' && <SiteNavigation client:load sites={europeSites} />}
       {subsite === 'us' && <SiteNavigation client:load sites={usSites} />}
     </PageHeader>

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, onMounted, computed } from 'vue';
 import { useStore } from '@nanostores/vue';
-import { currentSubsite } from '@/stores/subsiteStore';
+import { currentSubsite, type SubsiteId } from '@/stores/subsiteStore';
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible';
 import { ChevronDown } from 'lucide-vue-next';
 import SubsiteSwitcher from './SubsiteSwitcher.vue';
@@ -27,10 +27,15 @@ const subsite = useStore(currentSubsite);
 
 const props = defineProps<{
   navbar?: NavbarData | null;
+  initialSubsite?: SubsiteId;
 }>();
 
+const hasMounted = ref(false);
+const effectiveSubsite = computed(() =>
+  !hasMounted.value && props.initialSubsite ? props.initialSubsite : subsite.value
+);
 const navModel = computed<SidebarNavigation>(
-  () => navbarToSidebarNavigation(props.navbar, subsite.value) || getDefaultSidebarNavigation()
+  () => navbarToSidebarNavigation(props.navbar, effectiveSubsite.value) || getDefaultSidebarNavigation()
 );
 const topLinks = computed<NavItem[]>(() => navModel.value.topLinks);
 const navSections = computed<NavSection[]>(() => navModel.value.sections);
@@ -41,6 +46,11 @@ const openSections = ref<Set<string>>(new Set());
 
 // On mount, open the section containing the current page
 onMounted(() => {
+  if (props.initialSubsite) {
+    currentSubsite.set(props.initialSubsite);
+  }
+  hasMounted.value = true;
+
   const currentPath = window.location.pathname;
   for (const section of navSections.value) {
     for (const item of section.items) {
@@ -126,7 +136,7 @@ function isOpen(title: string): boolean {
 
     <!-- Region Selector -->
     <div class="pt-4 border-t border-ebony-clay-700">
-      <SubsiteSwitcher />
+      <SubsiteSwitcher :initial-subsite="effectiveSubsite" />
     </div>
 
     <!-- Bottom links (@jxtx Foundation) -->

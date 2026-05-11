@@ -40,6 +40,7 @@ const fairSection =
   article.data.slug === 'fair' || article.data.slug.startsWith('fair/') ? article.data.slug : undefined;
 
 const { title, date, tags = [], tease, image, autotoc } = article.data;
+const eyebrow = article.data.slug.startsWith('eu/') ? { label: 'Galaxy Europe', href: '/eu/' } : undefined;
 
 // MDX components map - keys match PascalCase names used in preprocessed content
 const components = {
@@ -65,6 +66,7 @@ const components = {
   date={date}
   tags={tags}
   image={image}
+  eyebrow={eyebrow}
   headings={headings}
   autotoc={autotoc}
   sourceFile={sourceFile}

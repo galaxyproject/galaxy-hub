@@ -10,12 +10,14 @@ import { formatDate } from '../../utils/dateUtils';
 interface Props {
   title: string;
   description?: string;
+  eyebrow?: string | { label: string; href?: string };
   date?: Date | string;
   authors?: Array<string | { id?: string; name: string }>;
   tags?: string[];
 }
 
-const { title, description, date, authors: authorsRaw = [], tags: tagsRaw = [] } = Astro.props;
+const { title, description, eyebrow, date, authors: authorsRaw = [], tags: tagsRaw = [] } = Astro.props;
+const eyebrowData = typeof eyebrow === 'string' ? { label: eyebrow } : eyebrow;
 
 // Helpers
 function slugify(value: string): string {
@@ -59,6 +61,19 @@ const formattedDate = formatDate(date, false);
 
 <header class="page-header">
   <div class="page-header-content">
+    {
+      eyebrowData &&
+        (eyebrowData.href ? (
+          <a
+            href={eyebrowData.href}
+            class="mb-3 inline-flex text-sm font-semibold text-galaxy-gold underline-offset-4 hover:text-accent-hover hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-galaxy-gold"
+          >
+            {eyebrowData.label}
+          </a>
+        ) : (
+          <div class="mb-3 text-sm font-semibold text-galaxy-gold">{eyebrowData.label}</div>
+        ))
+    }
     <div class="flex items-center gap-3 mb-4">
       <div class="w-1 h-8 bg-galaxy-gold"></div>
       <h1 class="text-3xl sm:text-4xl font-bold tracking-tight">{title}</h1>

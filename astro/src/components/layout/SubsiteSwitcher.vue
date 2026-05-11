@@ -1,9 +1,25 @@
 <script setup lang="ts">
+import { computed, onMounted, ref } from 'vue';
 import { useStore } from '@nanostores/vue';
 import { currentSubsite, navigateToSubsiteMain, subsites, type SubsiteId } from '@/stores/subsiteStore';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 
+const props = defineProps<{
+  initialSubsite?: SubsiteId;
+}>();
+
 const current = useStore(currentSubsite);
+const hasMounted = ref(false);
+const effectiveCurrent = computed(() =>
+  !hasMounted.value && props.initialSubsite ? props.initialSubsite : current.value
+);
+
+onMounted(() => {
+  if (props.initialSubsite) {
+    currentSubsite.set(props.initialSubsite);
+  }
+  hasMounted.value = true;
+});
 
 function handleChange(value: string) {
   navigateToSubsiteMain(value as SubsiteId);
@@ -13,7 +29,7 @@ function handleChange(value: string) {
 <template>
   <div class="px-3">
     <label class="text-xs font-medium text-chicago-400 uppercase tracking-wider mb-2 block"> Region </label>
-    <Select :model-value="current" @update:model-value="handleChange">
+    <Select :model-value="effectiveCurrent" @update:model-value="handleChange">
       <SelectTrigger class="w-full bg-medium-bg border-0 text-white">
         <SelectValue placeholder="Global" />
       </SelectTrigger>

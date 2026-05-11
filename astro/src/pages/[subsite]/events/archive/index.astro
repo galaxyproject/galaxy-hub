@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import PageHeader from '../../../../components/layout/PageHeader.astro';
 import EventsList from '../../../../components/events/EventsList.vue';
 import { subsites } from '../../../../stores/subsiteStore';
 
@@ -14,6 +15,11 @@ export function getStaticPaths() {
 }
 
 const { subsiteName, subsiteId } = Astro.props;
+const isEurope = subsiteId === 'eu';
+const pageTitle = isEurope ? 'Galaxy Europe Events Archive' : `${subsiteName} Events Archive`;
+const headerTitle = isEurope ? 'Events Archive' : `${subsiteName} Events Archive`;
+const pageDescription = `Past events for the ${subsiteName} Galaxy community.`;
+const eyebrow = isEurope ? { label: 'Galaxy Europe', href: '/eu/' } : undefined;
 
 const events = await getCollection('events');
 
@@ -29,22 +35,20 @@ const eventData = events.map((e) => ({
 }));
 ---
 
-<BaseLayout
-  title={`${subsiteName} Events Archive`}
-  description={`Past events for the ${subsiteName} Galaxy community.`}
->
-  <div class="max-w-6xl mx-auto bg-white">
-    <header class="px-6 sm:px-8 pt-6 pb-6 border-b-4 border-b-galaxy-gold">
-      <h1 class="text-3xl sm:text-4xl font-bold text-galaxy-dark mb-2">{subsiteName} Events Archive</h1>
-      <p class="text-lg text-chicago-600">
-        Past events for the {subsiteName} Galaxy community.
-        <a class="text-sm text-galaxy-primary hover:underline ml-2" href={`/${subsiteId}/events/`}>
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <div class="max-w-6xl mx-auto">
+    <PageHeader title={headerTitle} description={pageDescription} {eyebrow}>
+      <div class="mt-6">
+        <a
+          class="inline-flex items-center rounded-lg border border-white/30 px-3 py-1.5 text-sm font-medium text-white hover:border-galaxy-gold hover:bg-white/10 transition-colors"
+          href={`/${subsiteId}/events/`}
+        >
           View upcoming events
         </a>
-      </p>
-    </header>
+      </div>
+    </PageHeader>
 
-    <div class="px-6 sm:px-8 py-6">
+    <div class="bg-white rounded-b-lg shadow-sm px-6 sm:px-8 py-6">
       <EventsList
         client:only="vue"
         events={eventData}

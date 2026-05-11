@@ -3,19 +3,22 @@ title: Galaxy Europe
 subtitle: The homepage of the European Galaxy community
 ---
 
-{/*  Color palette: https://www.color-hex.com/color-palette/9983  */}
-{/*  "The European Galaxy server" info box  */}
-
-<div class="card border-secondary bg-secondary" style="width: 100%;">
-  <div class="card-body">
-    <h2 class="card-title text-dark">The European Galaxy server</h2>
-    <p class="card-text">The European Galaxy server <a href="https://usegalaxy.eu/">UseGalaxy.eu</a> is maintained primarily by the Freiburg Galaxy Team in collaboration with other academic groups across Europe and with the US Galaxy team. Please check our <a href="https://usegalaxy-eu.github.io/gdpr/tos.html">Terms of Service</a> and <a href="">data retention policy</a> before using the server. We offer thousands of tools, increased quota on temporary basis, and compute infrastructure for trainers through Training Infrastructure as a Service (TIaaS).</p>
-    <div class="text-center">
-        <a href="https://usegalaxy-eu.github.io/tools" class="btn btn-light btn-outline-dark mx-3">Browse installed tools</a>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSf9w2MOS6KOlu9XdhRSDqWnCDkzoVBqHJ3zH_My4p8D8ZgkIQ/viewform" class="btn btn-light btn-outline-dark mx-3">Request temporary increase of quota</a>
-        <a href="https://usegalaxy-eu.github.io/tiaas" class="btn btn-light btn-outline-dark mx-3">Request TIaaS</a>
-        <a href="https://status.galaxyproject.org/" class="btn btn-light btn-outline-dark mx-3">Check the status of the server</a>
-        <a href="https://stats.galaxyproject.eu/" class="btn btn-light btn-outline-dark mx-3">See the statistics</a>
-      </div>
+<section class="rounded-lg border border-galaxy-primary/10 bg-white p-6 shadow-sm sm:p-8" aria-labelledby="european-galaxy-server">
+  <div class="grid gap-6 lg:grid-cols-[1fr_18rem] lg:items-start">
+    <div>
+      <h2 id="european-galaxy-server" class="text-2xl font-bold text-galaxy-dark">The European Galaxy server</h2>
+      <p class="mt-3 text-chicago-700">
+        The European Galaxy server <a class="text-galaxy-primary underline underline-offset-2 hover:text-galaxy-gold" href="https://usegalaxy.eu/">UseGalaxy.eu</a> is maintained primarily by the Freiburg Galaxy Team in collaboration with academic groups across Europe and the US Galaxy team. Please check our <a class="text-galaxy-primary underline underline-offset-2 hover:text-galaxy-gold" href="https://usegalaxy-eu.github.io/gdpr/tos.html">Terms of Service</a> and <a class="text-galaxy-primary underline underline-offset-2 hover:text-galaxy-gold" href="https://usegalaxy-eu.github.io/gdpr/">data retention policy</a> before using the server. We offer thousands of tools, temporary quota increases, and compute infrastructure for trainers through Training Infrastructure as a Service (TIaaS).
+      </p>
+    </div>
+  <a href="https://usegalaxy.eu/" class="inline-flex min-h-12 items-center justify-center rounded-lg bg-galaxy-gold px-5 py-3 text-center font-semibold text-galaxy-dark transition-colors hover:bg-galaxy-gold-dark focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-galaxy-primary">Open UseGalaxy.eu</a>
   </div>
-</div>
+
+  <div class="mt-6 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
+    <a href="https://usegalaxy-eu.github.io/tools" class="rounded-lg border border-galaxy-primary/15 bg-bay-of-many-50 px-4 py-3 text-sm font-semibold text-galaxy-primary transition-colors hover:border-galaxy-primary hover:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-galaxy-primary">Browse installed tools</a>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSf9w2MOS6KOlu9XdhRSDqWnCDkzoVBqHJ3zH_My4p8D8ZgkIQ/viewform" class="rounded-lg border border-galaxy-primary/15 bg-bay-of-many-50 px-4 py-3 text-sm font-semibold text-galaxy-primary transition-colors hover:border-galaxy-primary hover:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-galaxy-primary">Request quota increase</a>
+    <a href="https://usegalaxy-eu.github.io/tiaas" class="rounded-lg border border-galaxy-primary/15 bg-bay-of-many-50 px-4 py-3 text-sm font-semibold text-galaxy-primary transition-colors hover:border-galaxy-primary hover:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-galaxy-primary">Request TIaaS</a>
+    <a href="https://status.galaxyproject.org/" class="rounded-lg border border-galaxy-primary/15 bg-bay-of-many-50 px-4 py-3 text-sm font-semibold text-galaxy-primary transition-colors hover:border-galaxy-primary hover:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-galaxy-primary">Server status</a>
+    <a href="https://stats.galaxyproject.eu/" class="rounded-lg border border-galaxy-primary/15 bg-bay-of-many-50 px-4 py-3 text-sm font-semibold text-galaxy-primary transition-colors hover:border-galaxy-primary hover:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-galaxy-primary sm:col-span-2 xl:col-span-4">See usage statistics</a>
+  </div>
+</section>

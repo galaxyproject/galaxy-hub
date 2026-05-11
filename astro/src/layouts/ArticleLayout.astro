@@ -22,6 +22,7 @@ interface Props {
   autotoc?: boolean;
   headings?: Heading[];
   image?: string;
+  eyebrow?: string | { label: string; href?: string };
   backLink?: {
     href: string;
     label: string;
@@ -38,6 +39,7 @@ const {
   authors: authorsRaw = [],
   tags: tagsRaw = [],
   image,
+  eyebrow,
   backLink,
   autotoc = true,
   headings = [],
@@ -62,7 +64,7 @@ const hasMetadata =
   <article class="max-w-6xl mx-auto bg-white relative">
     {
       hasMetadata && (
-        <PageHeader title={title} description={description} date={date} authors={authors} tags={tags}>
+        <PageHeader title={title} description={description} eyebrow={eyebrow} date={date} authors={authors} tags={tags}>
           {fairSection && <FairSectionHero sectionSlug={fairSection} />}
         </PageHeader>
       )

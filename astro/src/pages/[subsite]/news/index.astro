@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
+import PageHeader from '../../../components/layout/PageHeader.astro';
 import NewsList from '../../../components/news/NewsList.vue';
 import { subsites } from '../../../stores/subsiteStore';
 import { getPublishedNews } from '../../../utils/content';
@@ -15,6 +16,11 @@ export function getStaticPaths() {
 }
 
 const { subsiteName, subsiteId } = Astro.props;
+const isEurope = subsiteId === 'eu';
+const pageTitle = isEurope ? 'Galaxy Europe News' : `${subsiteName} News`;
+const headerTitle = isEurope ? 'News' : `${subsiteName} News`;
+const pageDescription = `Latest updates from the Galaxy ${subsiteName} community`;
+const eyebrow = isEurope ? { label: 'Galaxy Europe', href: '/eu/' } : undefined;
 
 // Get published news articles (excludes future-dated articles)
 const newsArticles = await getPublishedNews();
@@ -31,14 +37,11 @@ const articleData = newsArticles.map((a) => ({
 }));
 ---
 
-<BaseLayout title={`${subsiteName} News`} description={`Latest news from Galaxy ${subsiteName}`}>
-  <div class="max-w-6xl mx-auto bg-white">
-    <header class="px-6 sm:px-8 pt-6 pb-6 border-b-4 border-b-galaxy-gold">
-      <h1 class="text-3xl sm:text-4xl font-bold text-galaxy-dark mb-2">{subsiteName} News</h1>
-      <p class="text-lg text-chicago-600">Latest updates from the Galaxy {subsiteName} community</p>
-    </header>
+<BaseLayout title={pageTitle} description={`Latest news from Galaxy ${subsiteName}`}>
+  <div class="max-w-6xl mx-auto">
+    <PageHeader title={headerTitle} description={pageDescription} {eyebrow} />
 
-    <div class="px-6 sm:px-8 py-6">
+    <div class="bg-white rounded-b-lg shadow-sm px-6 sm:px-8 py-6">
       <NewsList client:load articles={articleData} initialSubsite={subsiteId} />
     </div>
   </div>

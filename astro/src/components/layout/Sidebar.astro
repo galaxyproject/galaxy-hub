@@ -4,12 +4,14 @@
 // Mobile: Hidden (use MobileMenu.vue for mobile)
 import SidebarNav from './SidebarNav.vue';
 import type { NavbarData } from '@/utils/navbar';
+import type { SubsiteId } from '@/stores/subsiteStore';
 
 interface Props {
   navbar?: NavbarData | null;
+  initialSubsite?: SubsiteId;
 }
 
-const { navbar } = Astro.props as Props;
+const { navbar, initialSubsite } = Astro.props as Props;
 ---
 
 <aside class="hidden lg:flex flex-col w-64 bg-galaxy-dark text-white fixed left-0 top-0 h-screen overflow-y-auto z-40">
@@ -45,7 +47,7 @@ const { navbar } = Astro.props as Props;
 
   <!-- Navigation (Vue component for collapsible sections) -->
   <div class="flex-1 p-4 overflow-y-auto">
-    <SidebarNav client:load navbar={navbar} />
+    <SidebarNav client:load navbar={navbar} initialSubsite={initialSubsite} />
   </div>
 
   <!-- Archive notice -->

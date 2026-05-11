@@ -22,6 +22,10 @@ const props = defineProps<{
 }>();
 
 const $subsite = useStore(currentSubsite);
+const hasMounted = ref(false);
+const effectiveSubsite = computed(() =>
+  !hasMounted.value && props.initialSubsite ? props.initialSubsite : $subsite.value
+);
 
 // Year-based navigation - null means "show recent" (no year filter)
 const isBrowser = typeof window !== 'undefined';
@@ -43,6 +47,7 @@ onMounted(() => {
   if (props.initialSubsite && props.initialSubsite !== 'global') {
     currentSubsite.set(props.initialSubsite);
   }
+  hasMounted.value = true;
 });
 
 // Helper to normalize subsites to array
@@ -54,7 +59,7 @@ function getSubsites(article: NewsArticle): string[] {
 
 // Filter articles based on current subsite
 const filteredBySubsite = computed(() => {
-  const subsite = $subsite.value;
+  const subsite = effectiveSubsite.value;
   if (subsite === 'global') {
     return props.articles;
   }
@@ -97,7 +102,7 @@ const recentYears = computed(() => availableYears.value.slice(0, 5));
 const olderYears = computed(() => availableYears.value.slice(5));
 
 // Reset pagination when year or subsite changes
-watch([selectedYear, $subsite], () => {
+watch([selectedYear, effectiveSubsite], () => {
   displayCount.value = pageSize;
 });
 
@@ -155,9 +160,9 @@ function displaySubsite(subsite: string): string {
 <template>
   <div class="news-list">
     <!-- Subsite indicator -->
-    <div v-if="$subsite !== 'global'" class="mb-6 p-4 bg-galaxy-primary/10 rounded-lg">
+    <div v-if="effectiveSubsite !== 'global'" class="mb-6 p-4 bg-galaxy-primary/10 rounded-lg">
       <p class="text-sm text-galaxy-dark">
-        Showing news for <strong>{{ displaySubsite($subsite) }}</strong> subsite.
+        Showing news for <strong>{{ displaySubsite(effectiveSubsite) }}</strong> subsite.
         <button @click="() => currentSubsite.set('global')" class="ml-2 text-galaxy-primary hover:underline">
           Show all news
         </button>
