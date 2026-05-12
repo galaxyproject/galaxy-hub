@@ -5,7 +5,7 @@ components: true
 
 <slot name="/bare/eu/usegalaxy/notices" />
 
-![Anna's hummingbird photo courtesy of [VJAnderson](https://commons.wikimedia.org/wiki/File:Anna%27s_Hummingbird,_Washington_State_03.jpg)](https://assembly.usegalaxy.eu/assets/media/logo_assembly.png)
+![Anna's hummingbird photo courtesy of [VJAnderson](https://commons.wikimedia.org/wiki/File:Anna%27s_Hummingbird,_Washington_State_03.jpg)](/assets/media/usegalaxy/assembly/logo_assembly.png)
 
 # Welcome to Galaxy for Genome Assembly
 
@@ -93,15 +93,15 @@ The service is part of the European Galaxy server and is maintained by the [RNA 
 <tr>
 <td with="10%"></td>
     <td width="20%">
-        <img alt="VGP" src="https://assembly.usegalaxy.eu/assets/media/vgp_logo.png" />
+        <img alt="VGP" src="/assets/media/usegalaxy/assembly/vgp_logo.png" />
     </td>
 <td with="40%"></td>
     <td width="16%">
-        <img alt="ERGA" src="https://assembly.usegalaxy.eu/assets/media/erga_logo.png" />
+        <img alt="ERGA" src="/assets/media/usegalaxy/assembly/erga_logo.png" />
     </td>
 <td with="40%"></td>
     <td width="20%">
-        <img alt="HPRC" src="https://assembly.usegalaxy.eu/assets/media/hprc_logo.png" />
+        <img alt="HPRC" src="/assets/media/usegalaxy/assembly/hprc_logo.png" />
     </td>
 <td with="10%"></td>
 </tr>

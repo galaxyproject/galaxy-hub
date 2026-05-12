@@ -8,7 +8,7 @@ components: true
 # Welcome to the Galaxy Machine Learning workbench
 
 
-![ML Galaxy](https://ml.usegalaxy.eu/assets/media/machine_learning_logo.png)
+![ML Galaxy](/assets/media/usegalaxy/ml/machine_learning_logo.png)
 
 The Galaxy Machine Learning workbench is a comprehensive set of data preprocessing, machine learning, deep learning and visualisation tools, consolidated workflows for end-to-end machine learning analysis and training materials to showcase the usage of these tools.
 The workbench is available on the [Galaxy framework](https://galaxyproject.org), which guarantees simple access, easy extension, flexible adaption to personal and security needs, and sophisticated machine learning analyses independent of command-line knowledge.

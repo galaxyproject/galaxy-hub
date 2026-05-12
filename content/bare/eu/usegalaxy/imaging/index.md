@@ -44,31 +44,31 @@ The service is part of the European Galaxy server and is maintained by the [RNA 
 
 <table border="0"><tr>
 <td width="8%">
-<img alt="EOSC-Life" src="https://imaging.usegalaxy.eu/assets/media/EOSC_logo.png" />
+<img alt="EOSC-Life" src="/assets/media/usegalaxy/imaging/EOSC_logo.png" />
 </td>
 <td width="9%">
-<img alt="Galaxy Freiburg" src="https://imaging.usegalaxy.eu/assets/media/freiburg-galaxy.svg" />
+<img alt="Galaxy Freiburg" src="/assets/media/usegalaxy/imaging/freiburg-galaxy.svg" />
 </td>
 <td width="10%">
-<img alt="BMCV" src="https://imaging.usegalaxy.eu/assets/media/logo_BMCV.png" />
+<img alt="BMCV" src="/assets/media/usegalaxy/imaging/logo_BMCV.png" />
 </td>
 <td width="11%">
-<img alt="NFDI4BIOIMAGE" src="https://imaging.usegalaxy.eu/assets/media/NFDI4BIOIMAGE_logo.png" />
+<img alt="NFDI4BIOIMAGE" src="/assets/media/usegalaxy/imaging/NFDI4BIOIMAGE_logo.png" />
 </td>
 <td width="12%">
-<img alt="UHD" src="https://imaging.usegalaxy.eu/assets/media/Logo_UHD.png" />
+<img alt="UHD" src="/assets/media/usegalaxy/imaging/Logo_UHD.png" />
 </td>
 <td width="24%">
-<img alt="Euro-Bioimaging" src="https://imaging.usegalaxy.eu/assets/media/eubi_logo.png" />
+<img alt="Euro-Bioimaging" src="/assets/media/usegalaxy/imaging/eubi_logo.png" />
 </td>
 <td width="8%">
-<img alt="ELIXIR" src="https://imaging.usegalaxy.eu/assets/media/elixir_logo.png" />
+<img alt="ELIXIR" src="/assets/media/usegalaxy/imaging/elixir_logo.png" />
 </td>
 <td width="11%">
-<img alt="EMBL" src="https://imaging.usegalaxy.eu/assets/media/logo_EMBL.png" />
+<img alt="EMBL" src="/assets/media/usegalaxy/imaging/logo_EMBL.png" />
 </td>
 <td width="8%">
-<img alt="IDR" src="https://imaging.usegalaxy.eu/assets/media/idr_logo.png" />
+<img alt="IDR" src="/assets/media/usegalaxy/imaging/idr_logo.png" />
 </td>
 </tr>
 </table>

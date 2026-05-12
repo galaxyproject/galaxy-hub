@@ -7,7 +7,7 @@ title: Galaxy Cheminformatics
 # Computational chemistry with Galaxy
 
 <br/>
-<img src="https://cheminformatics.usegalaxy.eu/assets/media/cheminformatics.png" height="300px" alt="Cheminformatics" align="right"/>
+<img src="/assets/media/usegalaxy/cheminformatics/cheminformatics.png" height="300px" alt="Cheminformatics" align="right"/>
 
 Welcome to the **ChemicalToolbox** -- a webserver for processing, analysing and visualising chemical data, and performing molecular simulations. This server is a flavor of the European Galaxy instance, usegalaxy.eu.
 
