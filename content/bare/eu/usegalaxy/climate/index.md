@@ -6,7 +6,7 @@ title: Galaxy Climate
 
 # Welcome to the climate science community
 
-<img src="https://climate.usegalaxy.eu/assets/media/Galaxy-climate-logo.png" height="100px" alt="Galaxy Climate"/>
+<img src="/assets/media/usegalaxy/climate/Galaxy-climate-logo.png" height="100px" alt="Galaxy Climate"/>
 
 
 

@@ -5,8 +5,8 @@ components: true
 
 <slot name="/bare/eu/usegalaxy/notices" />
 
-![single cell Galaxy](https://ghana.usegalaxy.eu/assets/media/logo_single_cell.svg)
-![Human Cell Atlas](https://ghana.usegalaxy.eu/assets/media/hca.png)
+![single cell Galaxy](/assets/media/usegalaxy/ghana/logo_single_cell.svg)
+![Human Cell Atlas](/assets/media/usegalaxy/ghana/hca.png)
 
 # Welcome to the Ghana Galaxy Instance!
 
