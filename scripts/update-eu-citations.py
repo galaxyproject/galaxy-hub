@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Sync Hub-owned EU citation bibliographies from primary sources."""
+"""Sync EU and subsite citation bibliographies from Zotero."""
 
 import argparse
 import re
