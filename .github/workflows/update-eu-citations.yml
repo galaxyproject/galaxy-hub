@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Sync citation bibliographies
+      - name: Sync Hub citation bibliographies
         run: python scripts/update-eu-citations.py
 
       - name: Create Pull Request
@@ -28,6 +28,6 @@ jobs:
         with:
           commit-message: 'chore(eu): update citations'
           title: 'Update EU citation bibliographies'
-          body: 'Auto-generated PR with updated citation bibliographies for Galaxy Europe and its subsites.'
+          body: 'Auto-generated PR with updated Hub-owned citation bibliographies for Galaxy Europe.'
           branch: update-eu-citations
           delete-branch: true

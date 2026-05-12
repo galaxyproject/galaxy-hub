@@ -42,7 +42,7 @@ right:
           - label: The European Server
             target: https://usegalaxy-eu.github.io/about
           - label: Publications
-            target: https://usegalaxy-eu.github.io/citations
+            target: /eu/citations/
           - label: Citing Galaxy
             target: https://usegalaxy-eu.github.io/about#acknowledgement
           - label: Platforms

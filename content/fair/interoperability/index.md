@@ -54,7 +54,7 @@ Measuring impact is hard. In the following we will state a few resources and num
 
 #### Citations
 
-[To our knowledge](https://galaxyproject.org/#publications--citations), the Galaxy platform is cited more than 11,000 times ([Zotero](https://www.zotero.org/groups/1732893/galaxy/)). Publications that explicitly mention usegalaxy.eu as a resource can be accessed at https://usegalaxy-eu.github.io/citations. A means to assess the impact of Galaxy on training are shown in the [TIaaS](https://usegalaxy.eu/tiaas/) statistics that we gather at https://usegalaxy.eu/tiaas/stats. 14,000 trainees is the lower bound, since we can only track the officially registered training events.
+[To our knowledge](https://galaxyproject.org/#publications--citations), the Galaxy platform is cited more than 11,000 times ([Zotero](https://www.zotero.org/groups/1732893/galaxy/)). Publications that explicitly mention usegalaxy.eu as a resource can be accessed at [/eu/citations/](/eu/citations/). A means to assess the impact of Galaxy on training are shown in the [TIaaS](https://usegalaxy.eu/tiaas/) statistics that we gather at https://usegalaxy.eu/tiaas/stats. 14,000 trainees is the lower bound, since we can only track the officially registered training events.
 
 #### Potential usage
 
