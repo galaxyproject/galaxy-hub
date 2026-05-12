@@ -168,8 +168,4 @@ The combination of metagenomics, -transcriptomics and -proteomics can provide a 
 
 - Integration of omics data using R
 
-This pipeline has been applied to [deconvolute a highly efficient cellulose-degrading minimal consortium isolated and enriched from a biogas reactor in Fredrikstad, Norway]({% link _posts/2020-04-14-integrative-meta-omics.md %})
-
-# References
-
-{% bibliography --cited --prefix index-metagenomics --group_by none %}
+This pipeline has been applied to [deconvolute a highly efficient cellulose-degrading minimal consortium isolated and enriched from a biogas reactor in Fredrikstad, Norway](/news/2020-04-14-integrative-meta-omics/).

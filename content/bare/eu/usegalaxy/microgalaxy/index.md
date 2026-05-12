@@ -40,7 +40,6 @@ Want to learn even more about microbial analysis? You can check out our various 
 
 ## Galaxy Training Network Tutorials tagged with **#microGalaxy**
 
-<!-- tag all trainings with microGalaxy and update the link -->
 <iframe src="https://training.galaxyproject.org/training-material/tags/microgalaxy/embed.html" height="600px" width="100%" class="gtn-embed" frameborder="0"></iframe>
 
 # Workflows
@@ -126,12 +125,3 @@ If you would like to know more about any of these projects or get involved, plea
 Resource | Description | Links
 --- | --- | ---
 ![](https://www.jpiamr.eu/app/uploads/2021/09/JPIAMR-logo-no-tagline.png) | JPIAMR: Global Coordination of Antimicrobial Resistance Research | [Website](https://www.jpiamr.eu/)
-
-
-<!--
-# Acknowledgements
-
-# References
-
-{% bibliography --cited --prefix index-metagenomics --group_by none %}
--->
