@@ -18,7 +18,7 @@ Essential Biodiversity Variables (EBVs) represent a relevant framework for ident
 
 From Kissling *et al.* 2018 (https://doi.org/10.1111/brv.12359) to Royaux *et. al* 2025 (https://doi.org/10.1093/gigascience/giae122):
 
-
+![EBV on Galaxy](kissling_royaux.png "from EBV to Galaxy Ecology")
 
 “Galaxy-Ecology allows us to demonstrate a way to reach higher levels of reproducibility in ecological sciences by increasing the accessibility and reusability of analytical workflows once atomized and generalized” 
 Royaux et al., 2025 https://doi.org/10.1093/gigascience/giae122 
