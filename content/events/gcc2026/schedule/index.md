@@ -417,7 +417,7 @@ presentation.
   <summary>
     <span class="gcc-talk-time">13:15 - 13:30</span>
     <span class="gcc-talk-main">
-      <span class="gcc-talk-title">UseGalaxy Canada joining the UseGalaxy.* federation</span>
+      <span class="gcc-talk-title">A New Star in the Galaxy: Canada is Joining the UseGalaxy.* International Federation</span>
       <span class="gcc-talk-authors"><strong>Jacques Pierre-Étienne</strong>, Davis John, Gauthier Carol, Fortin Jérôme, Barrette Michel</span>
     </span>
     <span class="gcc-talk-poster">Also Poster</span>
@@ -452,7 +452,7 @@ presentation.
     <span class="gcc-talk-time">13:45 - 14:00</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">Evolving TPV: recent advances in resource-aware scheduling for Galaxy</span>
-      <span class="gcc-talk-authors"><strong>Van Den Beek Marius</strong>, Bromhead Catherine, Bernt Matthias, Chilton John, Grüning Björn</span>
+      <span class="gcc-talk-authors">Goonasekera Nuwan, <strong>Van Den Beek Marius</strong>, Bromhead Catherine, Bernt Matthias, Chilton John, Grüning Björn</span>
     </span>
     <span class="gcc-talk-poster gcc-talk-poster-empty">-</span>
   </summary>
@@ -734,7 +734,7 @@ presentation.
     <span class="gcc-talk-time">13:30 - 13:45</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">Launching the Scop3P Toolkit Starship into Galaxy: From Earth-Bound Services to Galactic Interactive Tools</span>
-      <span class="gcc-talk-authors"><strong>Ramasamy Pathmanaban</strong>, Tichshenko Natalia, De Geest Paul, Depoortere Boris, Andrade Buono Rafael, Martens Lennart, Vranken Wim</span>
+      <span class="gcc-talk-authors"><strong>Adrián Díaz</strong>, Tichshenko Natalia, De Geest Paul, Depoortere Boris, Andrade Buono Rafael, Martens Lennart, Vranken Wim, Ramasamy Pathmanaban</span>
     </span>
     <span class="gcc-talk-poster gcc-talk-poster-empty">-</span>
   </summary>
