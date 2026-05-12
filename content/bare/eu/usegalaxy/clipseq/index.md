@@ -8,7 +8,7 @@ title: Galaxy CLIP-Seq
 
 Welcome to the Galaxy CLIP-Explorer -- a webserver to process, analyse and visualise CLIP-Seq data.
 
-![](https://clipseq.usegalaxy.eu/assets/media/cover_design_clipseq.png)
+![](/assets/media/usegalaxy/clipseq/cover_design_clipseq.png)
 
 ## 1. Getting Started with Galaxy CLIP-Explorer
 
@@ -26,7 +26,7 @@ Galaxy CLIP-Explorer can process large CLIP-Seq data of eCLIP, iCLIP, and with s
 
 ## 2. Galaxy CLIP-Explorer -- Many Possibilities
 
-![](https://clipseq.usegalaxy.eu/assets/media/content_design_clipseq.jpg)
+![](/assets/media/usegalaxy/clipseq/content_design_clipseq.jpg)
   <b> Galaxy CLIP-Explorer workflow and tools; </b> CLIP-Explorer has three major steps. Firstly, CLIP-Explorer demultiplexes, and if necessary, removes adapter sequences as well as in-line barcodes and UMIs in the preprocessing. CLIP-Explorer checks the quality of the preprocessing and assess the raw data quality. Secondly, CLIP-Explorer aligns the reads to the reference genome or transcriptome, filters for uniquely mapped, correctly paired, and matching quality reads, and deduplicates the read library to remove PCR duplicates. Another quality controls follows that checks the batch, mapping and experimental setup. Thirdly, CLIP-Explorer predicts differentially enriched regions with a peakcaller such as `Piranha`. The binding regions are then analyzed with `RCAS` and `MEME-Chip`. `MEME-Chip` (DREME and MEME) predicts binding sequence motifs, whereas `RCAS` ascertains the binding coverage profile of the proteins, performs a GO-term analysis, and outputs a plot of the target distribution, which states what kind of RNAs the protein of interest prevalently bind.
 
 ## 3. Workflows

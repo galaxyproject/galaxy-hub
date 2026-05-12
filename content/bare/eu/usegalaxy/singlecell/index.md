@@ -5,8 +5,8 @@ components: true
 
 <slot name="/bare/eu/usegalaxy/notices" />
 
-![single cell Galaxy](https://singlecell.usegalaxy.eu/assets/media/logo_single_cell.svg)
-![Human Cell Atlas](https://singlecell.usegalaxy.eu/assets/media/hca.png)
+![single cell Galaxy](/assets/media/usegalaxy/singlecell/logo_single_cell.svg)
+![Human Cell Atlas](/assets/media/usegalaxy/singlecell/hca.png)
 
 # Welcome to the Single Cell Omics Lab!
 

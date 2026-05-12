@@ -6,7 +6,7 @@ title: Galaxy EIRENE
 
 <br/>
 
-<img src="https://eirene.usegalaxy.eu/assets/media/logo_eirene_black_200.png" height="83px" width="200px" alt="EIRENE-RI logo"/>
+<img src="/assets/media/usegalaxy/eirene/logo_eirene_black_200.png" height="83px" width="200px" alt="EIRENE-RI logo"/>
 
 # Welcome to **UseGalaxy.EU EIRENE**
 
@@ -50,8 +50,14 @@ Other national EIRENE Galaxy servers:
 --------------------------------------------------------------------
 
 # News and Events
-{% include home_carousel.html %}
-{% include home_news_events.html %}
+<iframe title="Recent Galaxy Europe news" height="450"
+ class="resize-y" src="/bare/eu/latest/news/" scrolling="no"
+ style="width: 50%; border: none; vertical-align: top">
+</iframe>
+<iframe title="Recent Galaxy Europe events" height="450"
+ class="resize-y" src="/bare/eu/latest/events/" scrolling="no"
+ style="width: 50%; border: none; vertical-align: top">
+</iframe>
 
 --------------------------------------------------------------------
 
@@ -59,6 +65,6 @@ Other national EIRENE Galaxy servers:
 
 - [Helge Hecht](https://github.com/hechth)
 
-[<img src="https://eirene.usegalaxy.eu/assets/media/logo_eirene_black_200.png" alt="EIRENE logo"/>](https://eirene-ri.eu)
+[<img src="/assets/media/usegalaxy/eirene/logo_eirene_black_200.png" alt="EIRENE logo"/>](https://eirene-ri.eu)
 
 --------------------------------------------------------------------

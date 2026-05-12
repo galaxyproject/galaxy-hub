@@ -5,7 +5,7 @@ components: true
 
 <slot name="/bare/eu/usegalaxy/notices" />
 
-![Graphic showing the to hallmarks of cancer as a circular ring with different colored segments with different icons](https://cancer.usegalaxy.eu/assets/media/logo_cancer.png)
+![Graphic showing the to hallmarks of cancer as a circular ring with different colored segments with different icons](/assets/media/usegalaxy/cancer/logo_cancer.png)
 
 # Welcome to the Cancer Galaxy Workbench!
 
