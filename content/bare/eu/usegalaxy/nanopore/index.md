@@ -37,8 +37,8 @@ A collection of best practice and popular tools are integrated (and are expandin
     <div align="center">
         <b>Polishing, QC and preprocessing</b><br/>
         <br/>
-        {% include tool.html id="Porechop" %}, {% include tool.html id="Filtlong" %}, {% include tool.html id="Nanopolish" %},  {% include tool.html id="Poretools" %},
-        {% include tool.html id="Medaka" %}, {% include tool.html id="MultiQC" %}
+        <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fporechop%2Fporechop" target="_top" title="Porechop">Porechop</a>, <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Ffiltlong%2Ffiltlong" target="_top" title="Filtlong">Filtlong</a>, <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fnanopolish_variants%2Fnanopolish_variants" target="_top" title="Nanopolish">Nanopolish</a>,  <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fporetools_qualdist%2Fporetools_qualdist" target="_top" title="Poretools">Poretools</a>,
+        <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/medaka_consensus/medaka_consensus/" target="_top" title="Medaka">Medaka</a>, <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fmultiqc%2Fmultiqc%2F" target="_top" title="MultiQC">MultiQC</a>
     </div>
     </th>
     <th class="tg-0lax" rowspan="4" align="center">
@@ -51,9 +51,9 @@ A collection of best practice and popular tools are integrated (and are expandin
     <td class="tg-0lax">
         <div align="center"><b>Genome assembly</b><br/>
         <br/>
-        {% include tool.html id="Minimap2" %}, {% include tool.html id="Miniasm" %}, {% include tool.html id="Racon" %}
+        <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fminimap2%2Fminimap2" target="_top" title="Minimap2">Minimap2</a>, <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fminiasm" target="_top" title="Miniasm">Miniasm</a>, <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fracon%2Fracon" target="_top" title="Racon">Racon</a>
         <br/>
-        {% include tool.html id="Racon" %}, {% include tool.html id="Flye" %}, {% include tool.html id="Unicycler" %}, {% include tool.html id="Wtdbg2" %}, {% include tool.html id="Canu" %}
+        <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fracon%2Fracon" target="_top" title="Racon">Racon</a>, <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fflye%2Fflye" target="_top" title="Flye">Flye</a>, <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Funicycler%2Funicycler" target="_top" title="Unicycler">Unicycler</a>, <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fwtdbg%2Fwtdbg%2F" target="_top" title="Wtdbg2">Wtdbg2</a>, <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fcanu%2Fcanu" target="_top" title="Canu">Canu</a>
         </div>
     </td>
   </tr>
@@ -63,7 +63,7 @@ A collection of best practice and popular tools are integrated (and are expandin
         <div align="center"><b>Visualisation</b><br/>
         <br/>
 
-        {% include tool.html id="Nanoplot" %},  {% include tool.html id="Bandage" %}
+        <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fnanoplot%2Fnanoplot" target="_top" title="Nanoplot">Nanoplot</a>,  <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbandage%2Fbandage_image" target="_top" title="Bandage">Bandage</a>
         </div>
     </td>
   </tr>
@@ -71,7 +71,7 @@ A collection of best practice and popular tools are integrated (and are expandin
     <td class="tg-0lax">
         <div align="center"><b>Taxonomy and metagenomics</b><br/>
         <br/>
-        {% include tool.html id="PlasFlow" %},  {% include tool.html id="Staramr" %},  {% include tool.html id="Kraken2" %}
+        <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fplasflow%2FPlasFlow" target="_top" title="PlasFlow">PlasFlow</a>,  <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fnml%2Fstaramr%2Fstaramr_search" target="_top" title="Staramr">Staramr</a>,  <a href="https://nanopore.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fkraken2%2Fkraken2" target="_top" title="Kraken2">Kraken2</a>
 
         </div>
     </td>
@@ -84,7 +84,7 @@ A collection of best practice and popular tools are integrated (and are expandin
 
 # Tutorials
 
-We are passionate about training. So we are working in close collaboration with the [Galaxy Training Network (GTN)](https://galaxyproject.org/teach/gtn/) to develop training materials of data analyses based on Galaxy {% cite batut2017community %}. These materials hosted on the GTN GitHub repository are available online at [https://training.galaxyproject.org](https://training.galaxyproject.org).
+We are passionate about training. So we are working in close collaboration with the [Galaxy Training Network (GTN)](https://galaxyproject.org/teach/gtn/) to develop training materials of data analyses based on Galaxy (Batut et al. 2017). These materials hosted on the GTN GitHub repository are available online at [https://training.galaxyproject.org](https://training.galaxyproject.org).
 
 # Workflows
 

@@ -117,11 +117,11 @@ To help in this task, two workflows have been developed using two different well
 
 - [MEGAHIT](https://metagenomics.usegalaxy.eu/u/berenice/w/asaim-metagenomic-assembly-with-megahit)
 
-    It is currently the most efficent computationally assembler: it has the lowest memory and time consumption {% cite van2017assembling awad2017evaluating sczyrba2017critical %}. It produced some of the best assemblies (irrespective of sequencing coverage) with the fewest structural errors {% cite olson2017metagenomic %} and outperforms in recovering the genomes of closely related strains {% cite awad2017evaluating %}, but has a bias towards relatively low coverage genomes leading to a suboptimal assembly of high abundant community member genomes in very large datasets {% cite vollmers2017comparing %}
+    It is currently the most efficent computationally assembler: it has the lowest memory and time consumption (van der Walt et al. 2017; Awad et al. 2017; Sczyrba et al. 2017). It produced some of the best assemblies (irrespective of sequencing coverage) with the fewest structural errors (Olson et al. 2017) and outperforms in recovering the genomes of closely related strains (Awad et al. 2017), but has a bias towards relatively low coverage genomes leading to a suboptimal assembly of high abundant community member genomes in very large datasets (Vollmers et al. 2017)
 
 - [MetaSPAdes](https://metagenomics.usegalaxy.eu/u/berenice/w/asaim-metagenomic-assembly-with-metaspades)
 
-    It is particularly optimal for high-coverage metagenomes {% cite van2017assembling %} with the best contig metrics {% cite greenwald2017utilization %} and produces few under-collapsed/over-collapsed repeats {% cite olson2017metagenomic %}
+    It is particularly optimal for high-coverage metagenomes (van der Walt et al. 2017) with the best contig metrics (Greenwald et al. 2017) and produces few under-collapsed/over-collapsed repeats (Olson et al. 2017)
 
 Both workflows consists of
 
