@@ -29,22 +29,22 @@ Almost a hundred different tools for cheminformatics and molecular dynamics have
 
 Tool | Description | Reference
 --- | --- | ---
-{% include tool.html id="pubchem" %} | Download all compounds from PubChem | [Kim et al., 2016](https://dx.doi.org/10.1093%2Fnar%2Fgkv951)
-{% include tool.html id="chembl" %} | Download molecules from ChEMBL | [Davies et al, 2015](https://doi.org/10.1093/nar/gkv352)
-{% include tool.html id="pdb" %} | Download a file from the Protein Data Bank | [Berman, 2000](http://dx.doi.org/10.1093/nar/28.1.235)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fget_pubchem%2Fctb_pubchem_download_as_smiles" target="_top" title="pubchem">pubchem</a> | Download all compounds from PubChem | [Kim et al., 2016](https://dx.doi.org/10.1093%2Fnar%2Fgkv951)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fchembl%2Fchembl" target="_top" title="chembl">chembl</a> | Download molecules from ChEMBL | [Davies et al, 2015](https://doi.org/10.1093/nar/gkv352)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fget_pdb%2Fget_pdb" target="_top" title="pdb">pdb</a> | Download a file from the Protein Data Bank | [Berman, 2000](http://dx.doi.org/10.1093/nar/28.1.235)
 
 
 ## Chemical structure conversion and manipulation tools
 
 Tool | Description | Reference
 --- | --- | ---
-{% include tool.html id="remSmallMol" %} | Remove small molecules | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33)
-{% include tool.html id="AddH" %}  | Add hydrogen atoms at a certain pH value | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33)
-{% include tool.html id="RemDupMol" %}  | Remove duplicated molecules  | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33)
-{% include tool.html id="remProtState" %}  | Remove protonation state of every atom | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33)
-{% include tool.html id="comConvert" %}  | Compound Convert Converts various chemistry and molecular modeling data files | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33)
-{% include tool.html id="remConterIons" %}  | Remove counterions and fragments | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33)
-{% include tool.html id="changTitle" %}  | Change Title to meta-data value | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fopenbabel_remsmall%2Fopenbabel_remSmall" target="_top" title="remSmallMol">remSmallMol</a> | Remove small molecules | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fopenbabel_addh%2Fopenbabel_addh" target="_top" title="AddH">AddH</a>  | Add hydrogen atoms at a certain pH value | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fopenbabel_remduplicates%2Fopenbabel_remDuplicates" target="_top" title="RemDupMol">RemDupMol</a>  | Remove duplicated molecules  | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fopenbabel_remove_protonation_state%2Fopenbabel_remove_protonation_state" target="_top" title="remProtState">remProtState</a>  | Remove protonation state of every atom | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fopenbabel_compound_convert%2Fopenbabel_compound_convert" target="_top" title="comConvert">comConvert</a>  | Compound Convert Converts various chemistry and molecular modeling data files | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fopenbabel_remions%2Fopenbabel_remIons" target="_top" title="remConterIons">remConterIons</a>  | Remove counterions and fragments | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fopenbabel_change_title%2Fopenbabel_change_title" target="_top" title="changTitle">changTitle</a>  | Change Title to meta-data value | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33)
 
 
 
@@ -52,13 +52,13 @@ Tool | Description | Reference
 
 Tool | Description | Reference
 --- | --- | ---
-{% include tool.html id="genProp" %} | Compute physico-chemical properties for a set of molecules  | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33)
-{% include tool.html id="NPL" %} | Natural product likeness calculator  | [Jayaseelan, Kalai Vanii, 2012](http://dx.doi.org/10.1186/1471-2105-13-106)
-{% include tool.html id="QED" %} | Drug-likeness quantitative estimation (QED) | [Bickerton et al., 2012](https://doi.org/10.1038/nchem.1243)
-{% include tool.html id="mordred" %} | Molecular descriptor calculator  | [Moriwaki et al., 2018](https://doi.org/10.1186/s13321-018-0258-y)
-{% include tool.html id="chemfp" %} | Fingerprints with chemfp  | [Dalke, 2013](https://doi.org/10.1186/1758-2946-5-s1-p36)
-{% include tool.html id="tbClust" %} | Taylor-Butina clustering | [Dalke, 2013](https://doi.org/10.1186/1758-2946-5-s1-p36)
-{% include tool.html id="nxnClust" %} | NXN clustering | [Dalke, 2013](https://doi.org/10.1186/1758-2946-5-s1-p36)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fopenbabel_genprop%2Fopenbabel_genProp%2F" target="_top" title="genProp">genProp</a> | Compute physico-chemical properties for a set of molecules  | [N M O'Boyle,2011](https://doi.org/10.1186/1758-2946-3-33)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fnatural_product_likeness%2Fctb_np-likeness-calculator" target="_top" title="NPL">NPL</a> | Natural product likeness calculator  | [Jayaseelan, Kalai Vanii, 2012](http://dx.doi.org/10.1186/1471-2105-13-106)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fsilicos_it%2Fctb_silicos_qed" target="_top" title="QED">QED</a> | Drug-likeness quantitative estimation (QED) | [Bickerton et al., 2012](https://doi.org/10.1038/nchem.1243)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fmordred%2Fctb_mordred_descriptors" target="_top" title="mordred">mordred</a> | Molecular descriptor calculator  | [Moriwaki et al., 2018](https://doi.org/10.1186/s13321-018-0258-y)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fchemfp%2Fctb_sdf2fps" target="_top" title="chemfp">chemfp</a> | Fingerprints with chemfp  | [Dalke, 2013](https://doi.org/10.1186/1758-2946-5-s1-p36)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fchemfp%2Fctb_chemfp_butina_clustering" target="_top" title="tbClust">tbClust</a> | Taylor-Butina clustering | [Dalke, 2013](https://doi.org/10.1186/1758-2946-5-s1-p36)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fchemfp%2Fctb_chemfp_nxn_clustering" target="_top" title="nxnClust">nxnClust</a> | NXN clustering | [Dalke, 2013](https://doi.org/10.1186/1758-2946-5-s1-p36)
 
 
 
@@ -66,19 +66,19 @@ Tool | Description | Reference
 
 Tool | Description | Reference
 --- | --- | ---
-{% include tool.html id="vina" %} | Docking with AutoDock Vina | [Trott et al., 2009](https://doi.org/10.1002/jcc.21334)
-{% include tool.html id="rbdock" %} | Docking with rDock | [Ruiz-Carmona et al., 2014](https://doi.org/10.1371/journal.pcbi.1003571)
-{% include tool.html id="sucos" %} | Score docked poses using SuCOS | [Leung et al., 2019](https://doi.org/10.26434/chemrxiv.8100203.v1)
-{% include tool.html id="fpocket" %} | Search a protein for potential binding sites | [Schmitdke et al., 2010](https://doi.org/10.1093/nar/gkq383)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fautodock_vina%2Fdocking" target="_top" title="vina">vina</a> | Docking with AutoDock Vina | [Trott et al., 2009](https://doi.org/10.1002/jcc.21334)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Frdock_rbdock%2Frdock_rbdock" target="_top" title="rbdock">rbdock</a> | Docking with rDock | [Ruiz-Carmona et al., 2014](https://doi.org/10.1371/journal.pcbi.1003571)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fsucos_docking_scoring%2Fsucos_docking_scoring" target="_top" title="sucos">sucos</a> | Score docked poses using SuCOS | [Leung et al., 2019](https://doi.org/10.26434/chemrxiv.8100203.v1)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Ffpocket%2Ffpocket" target="_top" title="fpocket">fpocket</a> | Search a protein for potential binding sites | [Schmitdke et al., 2010](https://doi.org/10.1093/nar/gkq383)
 
 
 ## Pharmacophore alignment
 
 Tool | Description | Reference
 --- | --- | ---
-{% include tool.html id="alignit" %} | Feature alignment using Align-it | [Taminau et al., 2008](https://doi.org/10.1016/j.jmgm.2008.04.003)
-{% include tool.html id="sucos_clustering" %} | Feature clustering using SuCOS | [Leung et al., 2019](https://doi.org/10.26434/chemrxiv.8100203.v1)
-{% include tool.html id="Open3DALIGN" %} | Unsupervised molecular alignment using RDKit | [Tosco et al., 2011](https://doi.org/10.1007/s10822-011-9462-9)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Falign_it%2Fctb_alignit" target="_top" title="alignit">alignit</a> | Feature alignment using Align-it | [Taminau et al., 2008](https://doi.org/10.1016/j.jmgm.2008.04.003)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fsucos_clustering%2Fsucos_clustering" target="_top" title="sucos_clustering">sucos_clustering</a> | Feature clustering using SuCOS | [Leung et al., 2019](https://doi.org/10.26434/chemrxiv.8100203.v1)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fctb_im_o3dalign%2Fctb_im_o3dalign" target="_top" title="Open3DALIGN">Open3DALIGN</a> | Unsupervised molecular alignment using RDKit | [Tosco et al., 2011](https://doi.org/10.1007/s10822-011-9462-9)
 
 
 
@@ -86,18 +86,18 @@ Tool | Description | Reference
 
 Tool | Description | Reference
 --- | --- | ---
-{% include tool.html id="gmxSetup" %} | Produce a topology using GROMACS for a given protein structure  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001)
-{% include tool.html id="gmxSolvate" %} | Solvate a system using GROMACS | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001)
-{% include tool.html id="gmxEM" %} | Energy minimization using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001)
-{% include tool.html id="gmxSim" %} | MD simulation using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001)
-{% include tool.html id="gmxRestraints" %} | Calculate position restraints using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001)
-{% include tool.html id="gmxMakeNDX" %} | Create an index file using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001)
-{% include tool.html id="gmxEnergy" %} | Extract energy components using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001)
-{% include tool.html id="gmxTrj" %} | Process MD trajectories using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001)
-{% include tool.html id="gmxEditconf" %} | Structure configuration using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001)
-{% include tool.html id="gmxFEP" %} | Alchemical free energy simulations using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001)
-{% include tool.html id="antechamber" %} | Process input files with AmberTools  | [Case et al., 2005](https://doi.org/10.1002/jcc.20290)
-{% include tool.html id="acpype" %} | Produce GROMACS topologies with acpype  | [Sousa da Silva et al., 2012](https://doi.org/10.1186/1756-0500-5-367)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fchemteam%2Fgmx_setup%2Fgmx_setup%2F" target="_top" title="gmxSetup">gmxSetup</a> | Produce a topology using GROMACS for a given protein structure  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fchemteam%2Fgmx_solvate%2Fgmx_solvate%2F" target="_top" title="gmxSolvate">gmxSolvate</a> | Solvate a system using GROMACS | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fchemteam%2Fgmx_em%2Fgmx_em%2F" target="_top" title="gmxEM">gmxEM</a> | Energy minimization using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fchemteam%2Fgmx_sim%2Fgmx_sim%2F" target="_top" title="gmxSim">gmxSim</a> | MD simulation using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fchemteam%2Fgmx_restraints%2Fgmx_restraints%2F" target="_top" title="gmxRestraints">gmxRestraints</a> | Calculate position restraints using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fchemteam%2Fgmx_makendx%2Fgmx_makendx%2F" target="_top" title="gmxMakeNDX">gmxMakeNDX</a> | Create an index file using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fchemteam%2Fgmx_energy%2Fgmx_energy%2F" target="_top" title="gmxEnergy">gmxEnergy</a> | Extract energy components using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fchemteam%2Fgmx_trj%2Fgmx_trj%2F" target="_top" title="gmxTrj">gmxTrj</a> | Process MD trajectories using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fchemteam%2Fgmx_editconf%2Fgmx_editconf%2F" target="_top" title="gmxEditconf">gmxEditconf</a> | Structure configuration using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fchemteam%2Fgmx_fep%2Fgmx_fep%2F" target="_top" title="gmxFEP">gmxFEP</a> | Alchemical free energy simulations using GROMACS  | [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fchemteam%2Fambertools_antechamber%2Fambertools_antechamber" target="_top" title="antechamber">antechamber</a> | Process input files with AmberTools  | [Case et al., 2005](https://doi.org/10.1002/jcc.20290)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fchemteam%2Fambertools_acpype%2Fambertools_acpype" target="_top" title="acpype">acpype</a> | Produce GROMACS topologies with acpype  | [Sousa da Silva et al., 2012](https://doi.org/10.1186/1756-0500-5-367)
 
 
 
@@ -105,15 +105,15 @@ Tool | Description | Reference
 
 Tool | Description | Reference
 --- | --- | ---
-{% include tool.html id="mdaDistance" %} | Distance analysis using MDAnalysis  | [Agrawal et al., 2011](https://doi.org/10.1002/jcc.21787)
-{% include tool.html id="mdaDihedral" %} | Dihedral analysis using MDAnalysis  | [Agrawal et al., 2011](https://doi.org/10.1002/jcc.21787)
-{% include tool.html id="mdaRDF" %} | Radial distribution function between two atoms  | [Agrawal et al., 2011](https://doi.org/10.1002/jcc.21787)
-{% include tool.html id="mdaAngle" %} | Angle analysis using MDAnalysis | [Agrawal et al., 2011](https://doi.org/10.1002/jcc.21787)
-{% include tool.html id="mdConverter" %} | Interconvert between MD file formats | [McGibbon et al., 2015](https://doi.org/10.1016/j.bpj.2015.08.015) [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001)
-{% include tool.html id="packmol" %} | Create initial MD configurations | [Martinez et al., 2009](https://doi.org/10.1002/jcc.21224)
-{% include tool.html id="bio3dPCA" %} | Apply PCA to an MD trajectory | [Grant et al., 2006](https://doi.org/10.1093/bioinformatics/btl461)
-{% include tool.html id="bio3dRMSD" %} | Calculate RMSD for an MD trajectory | [Grant et al., 2006](https://doi.org/10.1093/bioinformatics/btl461)
-{% include tool.html id="bio3dRMSF" %} | Calculate RMSF for an MD trajectory | [Grant et al., 2006](https://doi.org/10.1093/bioinformatics/btl461)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fchemteam%2Fmdanalysis_distance%2Fmdanalysis_distance%2F" target="_top" title="mdaDistance">mdaDistance</a> | Distance analysis using MDAnalysis  | [Agrawal et al., 2011](https://doi.org/10.1002/jcc.21787)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fchemteam%2Fmdanalysis_dihedral%2Fmdanalysis_dihedral%2F" target="_top" title="mdaDihedral">mdaDihedral</a> | Dihedral analysis using MDAnalysis  | [Agrawal et al., 2011](https://doi.org/10.1002/jcc.21787)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fchemteam%2Fmdanalysis_rdf%2Fmdanalysis_rdf%2F" target="_top" title="mdaRDF">mdaRDF</a> | Radial distribution function between two atoms  | [Agrawal et al., 2011](https://doi.org/10.1002/jcc.21787)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fchemteam%2Fmdanalysis_angle%2Fmdanalysis_angle%2F" target="_top" title="mdaAngle">mdaAngle</a> | Angle analysis using MDAnalysis | [Agrawal et al., 2011](https://doi.org/10.1002/jcc.21787)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fchemteam%2Fmd_converter%2Fmd_converter%2F" target="_top" title="mdConverter">mdConverter</a> | Interconvert between MD file formats | [McGibbon et al., 2015](https://doi.org/10.1016/j.bpj.2015.08.015) [Abraham et al., 2015](https://doi.org/10.1016/j.softx.2015.06.001)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fchemteam%2Fpackmol%2Fpackmol%2F" target="_top" title="packmol">packmol</a> | Create initial MD configurations | [Martinez et al., 2009](https://doi.org/10.1002/jcc.21224)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fchemteam%2Fbio3d_pca%2Fbio3d_pca%2F" target="_top" title="bio3dPCA">bio3dPCA</a> | Apply PCA to an MD trajectory | [Grant et al., 2006](https://doi.org/10.1093/bioinformatics/btl461)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fchemteam%2Fbio3d_rmsd%2Fbio3d_rmsd%2F" target="_top" title="bio3dRMSD">bio3dRMSD</a> | Calculate RMSD for an MD trajectory | [Grant et al., 2006](https://doi.org/10.1093/bioinformatics/btl461)
+<a href="https://cheminformatics.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fchemteam%2Fbio3d_rmsf%2Fbio3d_rmsf%2F" target="_top" title="bio3dRMSF">bio3dRMSF</a> | Calculate RMSF for an MD trajectory | [Grant et al., 2006](https://doi.org/10.1093/bioinformatics/btl461)
 
 
 

@@ -15,7 +15,7 @@ To know more about the [events](https://www.galaxyproject.in/#h.7esz0ao5afce), t
 
 
 # Training
-For knowledge and about practical implementation about Galaxy framework there is a wide variety of collectiion of tutorials available. We strongly recommend to use the resources provided by [Galaxy Training Network (GTN)](https://training.galaxyproject.org). Also we endorse to contribute and develop training materials of data analysis based on Galaxy {% cite batut2017community %}.
+For knowledge and about practical implementation about Galaxy framework there is a wide variety of collectiion of tutorials available. We strongly recommend to use the resources provided by [Galaxy Training Network (GTN)](https://training.galaxyproject.org). Also we endorse to contribute and develop training materials of data analysis based on Galaxy (Batut et al. 2017).
   
 # Appreciation
 We sincerely appreciate the efforts of all individuals and their organizations ([Bioclues](http://bioclues.org/), [TMS Foundation](https://indiayouth.info/index.php/our-programs/life-sciences-wing)) for supporting the Indian Galaxy Instance. 

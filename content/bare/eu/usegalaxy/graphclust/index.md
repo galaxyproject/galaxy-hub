@@ -91,14 +91,14 @@ Below is a coarse-grained correspondence list of GraphClust2 tool names with eac
 
 |   Stage  | Galaxy Tool Name | Description|
 | :--------------------: | :--------------- | :----------------|
-|1 | {% include tool.html id="graphclust_preprocessing" label="Graphclust Preprocessing" %} | Input preprocessing (fragmentation)|
-|2 | {% include tool.html id="fasta_to_gspan" %} | Generation of structures via RNAshapes and conversion into graphs|
-|3 | {% include tool.html id="NSPDK_sparseVect" %} | Generation of graph features via NSPDK |
-|4| {% include tool.html id="NSPDK_candidateClusters" %} | min-hash based clustering of all feature vectors, output top dense candidate clusters|
-|5| {% include tool.html id="PGMA_locarna" %} | Locarna based clustering of each candidate cluster, all-vs-all pairwise alignments, create multiple alignments along guide tree, select best subtree, and refine alignment.|
-|6| {% include tool.html id="infernal_cmbuild" label="Build covariance models" %} |  create candidate model |
-|7| {% include tool.html id="infernal_cmsearch" label="Search covariance models" %} | Scan full input sequences with Infernal's cmsearch to find missing cluster members |
-|8,9| {% include tool.html id="graphclust_postprocessing" label="Report Results" %} and {% include tool.html id="graphclust_aggregate_alignments" label="conservation evaluations" %} | Collect final clusters and create example alignments of top cluster members|
+|1 | <a href="https://graphclust.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frnateam%2Fgraphclust_preprocessing%2Fpreproc%2F" target="_top" title="Graphclust Preprocessing">Graphclust Preprocessing</a> | Input preprocessing (fragmentation)|
+|2 | <a href="https://graphclust.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frnateam%2Fgraphclust_fasta_to_gspan%2Fgspan%2F" target="_top" title="fasta_to_gspan">fasta_to_gspan</a> | Generation of structures via RNAshapes and conversion into graphs|
+|3 | <a href="https://graphclust.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frnateam%2Fgraphclust_nspdk%2Fnspdk_sparse" target="_top" title="NSPDK_sparseVect">NSPDK_sparseVect</a> | Generation of graph features via NSPDK |
+|4| <a href="https://graphclust.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frnateam%2Fgraphclust_nspdk%2FNSPDK_candidateClust" target="_top" title="NSPDK_candidateClusters">NSPDK_candidateClusters</a> | min-hash based clustering of all feature vectors, output top dense candidate clusters|
+|5| <a href="https://graphclust.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frnateam%2Fgraphclust_cmfinder%2FcmFinder" target="_top" title="PGMA_locarna">PGMA_locarna</a> | Locarna based clustering of each candidate cluster, all-vs-all pairwise alignments, create multiple alignments along guide tree, select best subtree, and refine alignment.|
+|6| <a href="https://graphclust.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Finfernal%2Finfernal_cmbuild%2F" target="_top" title="Build covariance models">Build covariance models</a> |  create candidate model |
+|7| <a href="https://graphclust.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Finfernal%2Finfernal_cmsearch%2F" target="_top" title="Search covariance models">Search covariance models</a> | Scan full input sequences with Infernal's cmsearch to find missing cluster members |
+|8,9| <a href="https://graphclust.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frnateam%2Fgraphclust_postprocessing%2Fglob_report%2F" target="_top" title="Report Results">Report Results</a> and <a href="https://graphclust.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Frnateam%2Fgraphclust_aggregate_alignments%2Fgraphclust_aggregate_alignments%2F" target="_top" title="conservation evaluations">conservation evaluations</a> | Collect final clusters and create example alignments of top cluster members|
 
 
 ### Input
