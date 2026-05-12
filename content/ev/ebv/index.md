@@ -16,12 +16,11 @@ Essential Biodiversity Variables (EBVs) represent a relevant framework for ident
 
 # Use Galaxy for operationalizing EBV workflows
 
-From Kissling *et al.* 2018 (https://doi.org/10.1111/brv.12359) to Royaux *et. al* 2025 (https://doi.org/10.1093/gigascience/giae122):
+From Kissling *et al.* 2018 (https://doi.org/10.1111/brv.12359) to Royaux *et. al* 2025 (https://doi.org/10.1093/gigascience/giae122) or how to go from EBV operationalization concept to a concrete way to operationalize it through Galaxy Ecology:
 
 ![EBV on Galaxy](kissling_royaux.png "from EBV to Galaxy Ecology")
 
-“Galaxy-Ecology allows us to demonstrate a way to reach higher levels of reproducibility in ecological sciences by increasing the accessibility and reusability of analytical workflows once atomized and generalized” 
-Royaux et al., 2025 https://doi.org/10.1093/gigascience/giae122 
+“Galaxy-Ecology allows us to demonstrate a way to reach higher levels of reproducibility in ecological sciences by increasing the accessibility and reusability of analytical workflows once atomized and generalized” (Royaux *et al.*, 2025 https://doi.org/10.1093/gigascience/giae122). Based on this first FAIR platform layer, creating EBV computational workflows allowing the production of EBV data products, and thus biodiversity indicators, from raw biodiversity datasets, rely "just" on adressing use cases, EBV class by EBV class.
 
 # FAIR and reproducible EBV workflows
 
