@@ -18,7 +18,7 @@ The current implementation comprises more than 2000 bioinformatics tools dedicat
 Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take [a guided tour](https://africa.usegalaxy.eu/tours/core.galaxy_ui) through Galaxy's user interface.
 
 # Training
-From theoretical understanding to practical implementation on this workbench, we are passionate about training. So we work in close collaboration with the [Galaxy Training Network (GTN)](https://galaxyproject.org/teach/gtn/) to develop training materials of data analyses based on Galaxy {% cite batut2017community %}. These materials hosted on the GTN GitHub repository are available online at [https://training.galaxyproject.org](https://training.galaxyproject.org).
+From theoretical understanding to practical implementation on this workbench, we are passionate about training. So we work in close collaboration with the [Galaxy Training Network (GTN)](https://galaxyproject.org/teach/gtn/) to develop training materials of data analyses based on Galaxy (Batut et al. 2017). These materials hosted on the GTN GitHub repository are available online at [https://training.galaxyproject.org](https://training.galaxyproject.org).
 
 # Tool Categories
 * NGS Data QC and Preprocessing
