@@ -14,6 +14,17 @@ Data integration in biodiversity science is complex, essentially because the fra
 
 Essential Biodiversity Variables (EBVs) represent a relevant framework for identifying appropriate data to be collated and for creating and implementing analytical workflows, from raw data to EBV data products.
 
+## Some definitions
+
+Biodiversity Data : artifacts and symbols collected, stored, and disseminated in order to document the constituent elements of life, extant or extinct, at any scale of time and space. These elements are biological and encompass anything that contributes to the structure and function of life at any scale, from the microscopic to the level of the planet, and to the continuation of life, i.e. its ability to persist and evolve over time.
+Garnier et al., 2025 0.1016/j.tree.2025.06.004
+
+Essential biodiversity variable (EBV) : measurable and scalable biological information selected as key to assessing biodiversity status and trends.
+Garnier et al., 2025 0.1016/j.tree.2025.06.004
+
+Computational workflows describe the complex multi-step methods that are used for data collection, data preparation, analytics, predictive modelling, and simulation that lead to new data products
+Goble et al., 2020 https://doi.org/10.1162/dint_a_00033
+
 # EBV
 
 EBVs have been settled by experts from the GEO BON in the purpose of defining a conceptual frame globally shared to assess the state of biodiversity, reflect in an integrative way the different facets of biodiversity and enhance its management. EBVs are divided in classes, each one representing one organization level of biodiversity and containing several EBV types standing for the different facets of the class.
