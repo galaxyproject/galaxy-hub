@@ -4,6 +4,7 @@ import { useStore } from '@nanostores/vue';
 import { currentSubsite, subsites, type SubsiteId } from '@/stores/subsiteStore';
 import { renderMarkdownInline } from '@/utils/markdown';
 import { formatDate, getUTCYear } from '@/utils/dateUtils';
+import { contentMatchesSubsite, normalizeSubsites } from '@/utils/subsites';
 import ExternalIcon from '../common/ExternalIcon.vue';
 
 interface NewsArticle {
@@ -45,13 +46,6 @@ onMounted(() => {
   }
 });
 
-// Helper to normalize subsites to array
-function getSubsites(article: NewsArticle): string[] {
-  if (!article.subsites) return ['all'];
-  if (Array.isArray(article.subsites)) return article.subsites;
-  return [article.subsites];
-}
-
 // Filter articles based on current subsite
 const filteredBySubsite = computed(() => {
   const subsite = $subsite.value;
@@ -59,12 +53,7 @@ const filteredBySubsite = computed(() => {
     return props.articles;
   }
   return props.articles.filter((article) => {
-    const articleSubsites = getSubsites(article);
-    return (
-      articleSubsites.includes('all') ||
-      articleSubsites.includes(subsite) ||
-      articleSubsites.some((s) => s.toLowerCase() === subsite.toLowerCase())
-    );
+    return contentMatchesSubsite(normalizeSubsites(article.subsites), subsite);
   });
 });
 
