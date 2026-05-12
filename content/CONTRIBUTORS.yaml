@@ -1076,6 +1076,14 @@ kostaskarasavvas:
     github: false
     joined: 2026-01
 
+kpayet26:
+    name: Kevin Payet
+    joined: 2026-05
+    affiliations:
+      - mnhn
+      - sorbonneuniv
+      - ISYEB
+
 krantikonganti:
     gtn-halloffame: "no"
     name: Kranti Konganti
@@ -2076,10 +2084,6 @@ jfallmann:
     name: Joerg Fallmann
     joined: 2017-09
 
-nadinelebris:
-    name: Nadine Le Bras
-    joined: 2026-03
-
 scottedmunds:
     gtn-halloffame: "no"
     name: Scott Edmunds
@@ -2905,10 +2909,12 @@ millen2223:
     matrix: 'millen2223:matrix.org'
     joined: 2021-10
 
-Minamehr:
+minamehr:
     name: Mina Hojat Ansari
-    email: mina.hojat.ansari@biologie.uni-freiburg.de
-    joined: 2025-03
+    email: mina.ansari82@gmail.com
+    joined: 2024-03
+    orcid: 0000-0002-3602-7884
+    matrix: 'mina24:matrix.org'
     elixir_node: de
     affiliations:
       - uni-freiburg
@@ -3043,6 +3049,17 @@ myles-bilong:
     name: Myles Bilong
     twitter: myles_bilong
     joined: 2021-10
+
+NadineLeBris:
+  name: Nadine Le Bris
+  orcid: 0000-0002-0142-4847
+  email: nadine.le_bris@sorbonne-universite.fr
+  joined: 2026-05
+  affiliations:
+      - moorev
+      - sorbonneuniv
+      - ISYEB
+      - mnhn
 
 nagoue:
     name: Nadia Goué
@@ -4042,6 +4059,9 @@ TuturBaba:
     joined: 2026-03
     affiliations:
       - pndb
+      - ISYEB
+      - moorev
+      - mnhn
       - sorbonneuniv
 
 tvedtees:
@@ -4353,17 +4373,6 @@ sfragkoul:
     joined: 2025-03
     elixir_node: gr
     affiliations:
-      - elixir-europe
-
-minamehr:
-    name: Mina Hojat Ansari
-    email: mina.ansari82@gmail.com
-    orcid: 0000-0002-3602-7884
-    matrix: 'mina24:matrix.org'
-    joined: 2024-03
-    elixir_node: de
-    affiliations:
-      - uni-freiburg
       - elixir-europe
 
 gdefazio:
