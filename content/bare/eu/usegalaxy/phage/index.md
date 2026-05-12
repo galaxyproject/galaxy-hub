@@ -4,7 +4,7 @@ title: Galaxy Phage
 
 <slot name="/bare/eu/usegalaxy/notices" />
 
-<img src="https://phage.usegalaxy.eu/assets/media//phage_usegalaxy_banner_1.png" alt="phage galaxy banner"/>
+<img src="/assets/media/usegalaxy/phage/phage_usegalaxy_banner_1.png" alt="phage galaxy banner"/>
 
 # Welcome to the Phage Galaxy!
 

@@ -5,7 +5,7 @@ components: true
 
 <slot name="/bare/eu/usegalaxy/notices" />
 
-![Plant Analysis on Galaxy](https://metagenomics.usegalaxy.eu/assets/media/asaim_logo.png)
+![Plant Analysis on Galaxy](/assets/media/usegalaxy/metagenomics/asaim_logo.png)
 
 # Welcome to Galaxy for Microbiome
 
@@ -95,7 +95,7 @@ The workflows are available in the [Shared Workflows](https://metagenomics.usega
 
 The workflow quickly produces, from raw metagenomic shotgun data, accurate and precise taxonomic assignations, wide extended functional results and taxonomically related metabolism information
 
-![ASaiM main workflow](https://metagenomics.usegalaxy.eu/assets/media/2018-01-17-asaim_main_workflow.png)
+![ASaiM main workflow](/assets/media/usegalaxy/metagenomics/2018-01-17-asaim_main_workflow.png)
 
 This workflow consists of
 
@@ -131,7 +131,7 @@ Both workflows consists of
 4. Identification of potential assembly error signature with **VALET**
 5. Determination of percentage of unmapped reads with **Bowtie2** combined with **MultiQC** to aggregate the results.
 
-![ASaiM assembly workflows](https://metagenomics.usegalaxy.eu/assets/media/microbiome_assembly_wf.png)
+![ASaiM assembly workflows](/assets/media/usegalaxy/metagenomics/microbiome_assembly_wf.png)
 
 ## Analysis of metataxonomic data
 
@@ -141,7 +141,7 @@ To analyze amplicon data, the **Mothur** and **QIIME** tool suites are available
 
 While the shotgun workflow is suitable for both metagenomics and metatranscriptomics datasets, we also offer an enhanced workflow aimed specifically at metatranscriptomics data.
 
-![ASaiM-MT workflow](https://metagenomics.usegalaxy.eu/assets/media/asaim/asaim-mt_workflow.png)
+![ASaiM-MT workflow](/assets/media/usegalaxy/metagenomics/asaim/asaim-mt_workflow.png)
 
 The workflow is divided into 4 parts:
 
@@ -156,15 +156,15 @@ The combination of metagenomics, -transcriptomics and -proteomics can provide a 
 
 - **Metagenomics**
 
-    ![Magnus metagenomics workflow](https://metagenomics.usegalaxy.eu/assets/media/magnus/metagenomics.png)
+    ![Magnus metagenomics workflow](/assets/media/usegalaxy/metagenomics/magnus/metagenomics.png)
 
 - **Metatranscriptomics**
 
-    ![Magnus metatranscriptomics workflow](https://metagenomics.usegalaxy.eu/assets/media/magnus/metatranscriptomics.png)
+    ![Magnus metatranscriptomics workflow](/assets/media/usegalaxy/metagenomics/magnus/metatranscriptomics.png)
 
 - **Metaproteomics**
 
-    ![Magnus metaproteomics workflow](https://metagenomics.usegalaxy.eu/assets/media/magnus/metaproteomics.png)
+    ![Magnus metaproteomics workflow](/assets/media/usegalaxy/metagenomics/magnus/metaproteomics.png)
 
 - Integration of omics data using R
 

@@ -5,7 +5,7 @@ title: Galaxy Nanopore
 <slot name="/bare/eu/usegalaxy/notices" />
 
 <br/>
-<img src="https://nanopore.usegalaxy.eu/assets/media/nanogalaxy_logo.png" height="100px" alt="NanoGalaxy logo"/>
+<img src="/assets/media/usegalaxy/nanopore/nanogalaxy_logo.png" height="100px" alt="NanoGalaxy logo"/>
 
 Welcome to **NanoGalaxy**  -- a webserver to process, analyse and visualize Oxford Nanopore Technologies (ONT) data and similar long-reads technologies.
 
@@ -43,7 +43,7 @@ A collection of best practice and popular tools are integrated (and are expandin
     </th>
     <th class="tg-0lax" rowspan="4" align="center">
     
-        <img src="https://nanopore.usegalaxy.eu/assets/media/nanogalaxy_toolkit.png" height="400px" alt="NanoGalaxy toolkit"/>
+        <img src="/assets/media/usegalaxy/nanopore/nanogalaxy_toolkit.png" height="400px" alt="NanoGalaxy toolkit"/>
     
     </th>
   </tr>
@@ -96,7 +96,7 @@ The workflows are available in the [Shared Workflows View](https://nanopore.useg
 
 |:-----------------:|:----------------------------:|:-------------------:|:------------------:|
 |                   |                              |                     |                    |
-|  [![Nanopolish workflow](https://nanopore.usegalaxy.eu/assets/media/nanogalaxy-nanopolish.png)](https://nanopore.usegalaxy.eu/u/milad/w/nanopolish-variants-tutorial)                  | [![Ahrens et. al workflow](https://nanopore.usegalaxy.eu/assets/media/nanogalaxy-ahrens.png)](https://nanopore.usegalaxy.eu/u/milad/w/ont-assembly-flye-ahrens)                                 |  [![Wick et. al workflow ](https://nanopore.usegalaxy.eu/assets/media/nanogalaxy-wick.png)](https://usegalaxy.eu/u/milad/w/workflow-wick-etal-ont) | [![Metagenomics workflow](https://nanopore.usegalaxy.eu/assets/media/nanogalaxy-kraken.png)](https://nanopore.usegalaxy.eu/u/milad/w/metagenomics-krakan2) |
+|  [![Nanopolish workflow](/assets/media/usegalaxy/nanopore/nanogalaxy-nanopolish.png)](https://nanopore.usegalaxy.eu/u/milad/w/nanopolish-variants-tutorial)                  | [![Ahrens et. al workflow](/assets/media/usegalaxy/nanopore/nanogalaxy-ahrens.png)](https://nanopore.usegalaxy.eu/u/milad/w/ont-assembly-flye-ahrens)                                 |  [![Wick et. al workflow ](/assets/media/usegalaxy/nanopore/nanogalaxy-wick.png)](https://usegalaxy.eu/u/milad/w/workflow-wick-etal-ont) | [![Metagenomics workflow](/assets/media/usegalaxy/nanopore/nanogalaxy-kraken.png)](https://nanopore.usegalaxy.eu/u/milad/w/metagenomics-krakan2) |
 |  Basic workflows inspired by the Nanopolish tutorials | Genome assembly: Flye-based WF for highly repetitive genomes [Schmid et al. NAR 2018] | Genome assembly: Unicycler-based WF for Klebsiella pneumoniae [Wick et al.  Microbial genomics 2017]  | Metagenomics: taxa classification|
 | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/milad/h/nanopolish-tutorial) [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://nanopore.usegalaxy.eu/u/milad/w/nanopolish-variants-tutorial)  |  [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/milad/h/ahrens-nanopore-gmmap) [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://nanopore.usegalaxy.eu/u/milad/w/ont-assembly-flye-ahrens)                            |   [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/milad/h/wick-etal-nanopore) [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://usegalaxy.eu/u/milad/h/wick-etal-nanopore)  | [![Galaxy history](https://img.shields.io/static/v1?label=history&message=view&color=blue)](https://usegalaxy.eu/u/milad/h/nanoporebeerdecodechimaytriple) [![Galaxy workflow](https://img.shields.io/static/v1?label=workflow&message=run&color=blue)](https://nanopore.usegalaxy.eu/u/milad/w/metagenomics-krakan2)           |
 

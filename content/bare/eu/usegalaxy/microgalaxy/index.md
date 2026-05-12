@@ -5,7 +5,7 @@ components: true
 
 <slot name="/bare/eu/usegalaxy/notices" />
 
-![microGalaxy logo](https://microgalaxy.usegalaxy.eu/assets/media/microgalaxy-logo.png)
+![microGalaxy logo](/assets/media/usegalaxy/microgalaxy/microgalaxy-logo.png)
 
 # Welcome to microGalaxy!
 

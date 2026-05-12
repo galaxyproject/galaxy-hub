@@ -5,7 +5,7 @@ components: true
 
 <slot name="/bare/eu/usegalaxy/notices" />
 
-![Galaxy for Virology](https://virology.usegalaxy.eu/assets/media/virologyeu_banner.png)
+![Galaxy for Virology](/assets/media/usegalaxy/virology/virologyeu_banner.png)
 
 # Galaxy Europe for Virology
 
@@ -47,11 +47,11 @@ The [Galaxy Project](https://usegalaxy.org) virology community has prepared full
 
 # Vetlab support
 
-![Galaxy Vetlab support](https://virology.usegalaxy.eu/assets/media/vetlab/vetlab_logo.jpg)
+![Galaxy Vetlab support](/assets/media/usegalaxy/virology/vetlab/vetlab_logo.jpg)
 
 Galaxy Europe is offering ready to use workflows for veterinary laboratories under the IAEA Coordinated Research Project D32036: “Application of Advanced Molecular Characterization Technologies Through the Veterinary Diagnostic Laboratory Network (VETLAB Network)”.
 
-![Joint FAO/IAEA Centre logo](https://virology.usegalaxy.eu/assets/media/vetlab/joint_fao_iaea_logo.png)
+![Joint FAO/IAEA Centre logo](/assets/media/usegalaxy/virology/vetlab/joint_fao_iaea_logo.png)
 
 If you are a [VETLAB network](https://www.iaea.org/services/networks/vetlab) member, you can jump directly to your workflow of interest.
 
@@ -69,7 +69,7 @@ If you are a [VETLAB network](https://www.iaea.org/services/networks/vetlab) mem
 
 # Primer and primer scheme design
 
-![varVAMP](https://virology.usegalaxy.eu/assets/media/virologyeu_varvamp_logo.png)
+![varVAMP](/assets/media/usegalaxy/virology/virologyeu_varvamp_logo.png)
 
 Need to design primers for a simple diagnostic PCR, primers and probe for qPCR, or an entire primer scheme for tiled-amplicon sequencing? We are offering access to [varVAMP](https://virology.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fvarvamp%2Fvarvamp%2F1.2.0%2Bgalaxy0&version=latest) to cover your primer design needs.
 
@@ -79,7 +79,7 @@ A dedicated tutorial about varVAMP and using it together with MAFF-T is coming s
 
 # Tools, tools, tools
 
-![Word cloud of important virology tools](https://virology.usegalaxy.eu/assets/media/virologyeu_wordcloud_on_background.png)
+![Word cloud of important virology tools](/assets/media/usegalaxy/virology/virologyeu_wordcloud_on_background.png)
 
 Whether you want to do quality control of your sequencing data, map reads to a reference genome, perform de-novo assembly of sequenced reads or lineage-assignment of your viral isolate, we strive to have the best tools available for you through convenient, but full-featured graphical user interfaces, and we offer enough computational resources for these tools to run properly.
 
@@ -98,7 +98,7 @@ We also provide reference data for different viral pathogens to help you get you
 
 ----
 
-![Galaxy for Virology](https://virology.usegalaxy.eu/assets/media/virologyeu_logo.png)
+![Galaxy for Virology](/assets/media/usegalaxy/virology/virologyeu_logo.png)
 
 # Content
 
