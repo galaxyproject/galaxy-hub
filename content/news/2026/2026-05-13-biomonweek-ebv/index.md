@@ -2,7 +2,9 @@
 date: '2026-05-13'
 title: "Galaxy for Biodiversity monitoring: fedback from BioMonWeek 2026 "Galaxy Ecology" participation"
 tease: "Did you know you can use Galaxy to produce Biodiversity metrics and indicators?"
-tags: [Biodiversity,Ecology]
+tags:
+- biodiversity
+- ecology
 contributions:
   authorship:
     - yvanlebras
