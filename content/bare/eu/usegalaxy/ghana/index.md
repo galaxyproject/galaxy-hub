@@ -77,11 +77,6 @@ Want to talk with trainers and developers on how to improve single cell analysis
 
 <Icon name="hand-o-right" /> Go to our [Community of Practice site](https://galaxyproject.org/projects/singlecell/) to read more and join us!
 
-
-<!-- # Events and Workshops -->
-
-<!-- We will be hosting a scRNA-seq workshop [this March](https://usegalaxy-eu.github.io/event/2020-01-20-GalaxyWS_scrna_FR/plain.html). Please register whilst spots are still open! -->
-
 # Contributors
 
 - [Pavankumar Videm](https://github.com/pavanvidem)
