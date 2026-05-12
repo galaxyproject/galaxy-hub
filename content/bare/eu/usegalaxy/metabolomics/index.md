@@ -96,11 +96,11 @@ Other metabolomics specialized Galaxy servers:
 {/* TODO: carousel content */}
 
 <iframe title="Recent Galaxy Europe news"
- class="resize-y" src="/bare/eu/latest/news/" scrolling="no"
+ class="js-resize-iframe" src="/bare/eu/latest/news/" scrolling="no"
  style="width: 50%; border: none; vertical-align: top">
 </iframe>
 <iframe title="Recent Galaxy Europe events"
- class="resize-y" src="/bare/eu/latest/events/" scrolling="no"
+ class="js-resize-iframe" src="/bare/eu/latest/events/" scrolling="no"
  style="width: 50%; border: none; vertical-align: top">
 </iframe>
 
@@ -126,4 +126,3 @@ Other metabolomics specialized Galaxy servers:
 <footer>
 <slot name="/eu/site-footer" />
 </footer>
-

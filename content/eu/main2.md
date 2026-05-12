@@ -20,9 +20,7 @@ subtitle: The homepage of the European Galaxy community
         Customized Galaxy front pages support scientific and local communities across Europe.
       </p>
       <img src="/images/undraw-illustrations/communities.svg" alt="" class="mx-auto my-6 h-36 w-full max-w-52 object-contain" loading="lazy" />
-      <a href="/eu/subdomains/" class="mt-auto inline-flex min-h-11 items-center justify-center rounded-lg bg-galaxy-primary px-4 py-2 text-center font-semibold text-white transition-colors hover:bg-bay-of-many-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-galaxy-primary">
-        Browse subdomains
-      </a>
+      <a href="/eu/subdomains/" class="mt-auto inline-flex min-h-11 items-center justify-center rounded-lg bg-galaxy-primary px-4 py-2 text-center font-semibold text-white transition-colors hover:bg-bay-of-many-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-galaxy-primary">Browse subdomains</a>
     </article>
     <article class="flex min-h-full flex-col rounded-lg border border-galaxy-primary/10 bg-white p-4 shadow-sm">
       <h3 class="text-xl font-bold text-galaxy-dark">Citation</h3>
@@ -30,9 +28,7 @@ subtitle: The homepage of the European Galaxy community
         Used the European Galaxy server for data analysis? Cite the service in your publication.
       </p>
       <img src="/images/undraw-illustrations/citations.svg" alt="" class="mx-auto my-6 h-36 w-full max-w-52 object-contain" loading="lazy" />
-      <a href="/eu/citations/" class="mt-auto inline-flex min-h-11 items-center justify-center rounded-lg bg-galaxy-primary px-4 py-2 text-center font-semibold text-white transition-colors hover:bg-bay-of-many-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-galaxy-primary">
-        Learn how to cite
-      </a>
+      <a href="/eu/citations/" class="mt-auto inline-flex min-h-11 items-center justify-center rounded-lg bg-galaxy-primary px-4 py-2 text-center font-semibold text-white transition-colors hover:bg-bay-of-many-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-galaxy-primary">Learn how to cite</a>
     </article>
     <article class="flex min-h-full flex-col rounded-lg border border-galaxy-primary/10 bg-white p-4 shadow-sm">
       <h3 class="text-xl font-bold text-galaxy-dark">Team</h3>
@@ -40,9 +36,7 @@ subtitle: The homepage of the European Galaxy community
         The European Galaxy team is distributed across countries, institutes, and community sites.
       </p>
       <img src="/images/undraw-illustrations/team.svg" alt="" class="mx-auto my-6 h-36 w-full max-w-52 object-contain" loading="lazy" />
-      <a href="/eu/people/" class="mt-auto inline-flex min-h-11 items-center justify-center rounded-lg bg-galaxy-primary px-4 py-2 text-center font-semibold text-white transition-colors hover:bg-bay-of-many-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-galaxy-primary">
-        Meet the team
-      </a>
+      <a href="/eu/people/" class="mt-auto inline-flex min-h-11 items-center justify-center rounded-lg bg-galaxy-primary px-4 py-2 text-center font-semibold text-white transition-colors hover:bg-bay-of-many-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-galaxy-primary">Meet the team</a>
     </article>
   </div>
 </section>

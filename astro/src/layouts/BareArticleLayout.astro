@@ -149,6 +149,19 @@ const { title, description } = Astro.props;
     }
   }
 
+  .prose-galaxy [data-name='/eu/main1'] .usegalaxy-launch-link {
+    display: none !important;
+  }
+
+  .prose-galaxy [data-name='/eu/main1'] section > .mt-6 a {
+    text-decoration: none;
+
+    &:hover {
+      color: var(--color-galaxy-primary);
+      text-decoration: none;
+    }
+  }
+
   [data-name='/eu/main2'] {
     margin: 3rem 0;
 
@@ -195,13 +208,6 @@ const { title, description } = Astro.props;
       gap: 0;
     }
 
-    img {
-      margin: 0 auto;
-      display: block;
-      height: 100px;
-      width: auto;
-    }
-
     .btn {
       margin-top: 0.5rem;
       font-size: 1rem;
@@ -209,6 +215,34 @@ const { title, description } = Astro.props;
 
       &:hover {
         text-decoration: underline;
+      }
+    }
+
+    article h3 {
+      margin: 0;
+    }
+
+    article p {
+      margin: 0.75rem 0 0;
+      line-height: inherit;
+    }
+
+    article img {
+      display: block;
+      width: 100%;
+      max-width: 13rem;
+      height: 9rem;
+      margin: 1.5rem auto;
+      border-radius: 0;
+      object-fit: contain;
+    }
+
+    article a {
+      text-decoration: none;
+
+      &:hover {
+        color: #fff;
+        text-decoration: none;
       }
     }
   }
@@ -356,17 +390,31 @@ const { title, description } = Astro.props;
   .prose-galaxy {
     iframe[title='Recent Galaxy France news'],
     iframe[title='Recent Galaxy Europe news'] {
-      margin-right: 16px;
-      float: left;
+      display: inline-block;
+      width: calc(50% - 20px) !important;
+      margin: 0 16px 3rem 0;
+      vertical-align: top;
     }
 
     iframe[title*='Recent Galaxy France events'],
     iframe[title*='Recent Galaxy Europe events'] {
-      margin-bottom: 3rem;
       width: calc(50% - 20px) !important;
       display: inline-block;
       vertical-align: top;
-      float: right;
+      margin: 0 0 3rem;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .prose-galaxy {
+      iframe[title='Recent Galaxy France news'],
+      iframe[title='Recent Galaxy Europe news'],
+      iframe[title*='Recent Galaxy France events'],
+      iframe[title*='Recent Galaxy Europe events'] {
+        display: block;
+        width: 100% !important;
+        margin: 0 0 1rem;
+      }
     }
   }
 
