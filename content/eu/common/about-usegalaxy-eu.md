@@ -11,7 +11,7 @@ subtitle: The homepage of the European Galaxy community
         The European Galaxy server <a class="text-galaxy-primary underline underline-offset-2 hover:text-galaxy-gold" href="https://usegalaxy.eu/">UseGalaxy.eu</a> is maintained primarily by the Freiburg Galaxy Team in collaboration with academic groups across Europe and the US Galaxy team. Please check our <a class="text-galaxy-primary underline underline-offset-2 hover:text-galaxy-gold" href="https://usegalaxy-eu.github.io/gdpr/tos.html">Terms of Service</a> and <a class="text-galaxy-primary underline underline-offset-2 hover:text-galaxy-gold" href="https://usegalaxy-eu.github.io/gdpr/">data retention policy</a> before using the server. We offer thousands of tools, temporary quota increases, and compute infrastructure for trainers through Training Infrastructure as a Service (TIaaS).
       </p>
     </div>
-  <a href="https://usegalaxy.eu/" class="inline-flex min-h-12 items-center justify-center rounded-lg bg-galaxy-gold px-5 py-3 text-center font-semibold text-galaxy-dark transition-colors hover:bg-galaxy-gold-dark focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-galaxy-primary">Open UseGalaxy.eu</a>
+  <a href="https://usegalaxy.eu/" class="usegalaxy-launch-link inline-flex min-h-12 items-center justify-center rounded-lg bg-galaxy-gold px-5 py-3 text-center font-semibold text-galaxy-dark transition-colors hover:bg-galaxy-gold-dark focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-galaxy-primary">Open UseGalaxy.eu</a>
   </div>
 
   <div class="mt-6 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">

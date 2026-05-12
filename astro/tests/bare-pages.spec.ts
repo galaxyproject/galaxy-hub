@@ -199,9 +199,65 @@ test.describe('Bare Pages', () => {
       await expect(dataPolicy).toBeVisible();
 
       // Iframes for latest news/events feeds should be present
-      const iframes = page.locator('iframe.resize-y');
+      const iframes = page.locator('iframe.js-resize-iframe');
       const iframeCount = await iframes.count();
       expect(iframeCount).toBe(2);
+    });
+
+    test('/bare/eu/usegalaxy/main/ does not expose native iframe resize handles', async ({ page }) => {
+      await page.goto('/bare/eu/usegalaxy/main/');
+
+      const iframes = page.locator('iframe.js-resize-iframe');
+      await expect(iframes).toHaveCount(2);
+      await expect(iframes.first()).toHaveCSS('resize', 'none');
+      await expect(iframes.nth(1)).toHaveCSS('resize', 'none');
+    });
+
+    test('/bare/eu/usegalaxy/main/ keeps lead content below latest feeds', async ({ page }) => {
+      await page.goto('/bare/eu/usegalaxy/main/');
+
+      const latestFeeds = page.locator('iframe.js-resize-iframe');
+      await expect(latestFeeds).toHaveCount(2);
+
+      const lastFeedBox = await latestFeeds.nth(1).boundingBox();
+      const leadBox = await page.locator('[data-name="/eu/main1"]').boundingBox();
+
+      expect(lastFeedBox).not.toBeNull();
+      expect(leadBox).not.toBeNull();
+      expect(leadBox!.y).toBeGreaterThanOrEqual(lastFeedBox!.y + lastFeedBox!.height - 1);
+    });
+
+    test('/bare/eu/usegalaxy/main/ hides UseGalaxy.eu launch button', async ({ page }) => {
+      await page.goto('/bare/eu/usegalaxy/main/');
+
+      await expect(page.getByRole('link', { name: 'Open UseGalaxy.eu' })).toBeHidden();
+    });
+
+    test('/bare/eu/usegalaxy/main/ keeps section buttons compact', async ({ page }) => {
+      await page.goto('/bare/eu/usegalaxy/main/');
+
+      for (const label of ['See all projects', 'Browse subdomains', 'Learn how to cite', 'Meet the team']) {
+        const button = page.getByRole('link', { name: label });
+        await expect(button).toBeVisible();
+        await expect(button.locator('p')).toHaveCount(0);
+
+        const box = await button.boundingBox();
+        expect(box).not.toBeNull();
+        expect(box!.height).toBeLessThanOrEqual(52);
+      }
+    });
+
+    test('/bare/eu/usegalaxy/main/ keeps space between section images and buttons', async ({ page }) => {
+      await page.goto('/bare/eu/usegalaxy/main/');
+
+      for (const card of await page.locator('[data-name="/eu/main2"] article').all()) {
+        const imageBox = await card.locator('img').boundingBox();
+        const buttonBox = await card.getByRole('link').boundingBox();
+
+        expect(imageBox).not.toBeNull();
+        expect(buttonBox).not.toBeNull();
+        expect(buttonBox!.y - (imageBox!.y + imageBox!.height)).toBeGreaterThanOrEqual(12);
+      }
     });
 
     test('/bare/eu/usegalaxy/main/ has no bare layout chrome', async ({ page }) => {
