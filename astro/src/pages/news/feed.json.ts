@@ -6,6 +6,7 @@
 import { getCollection } from 'astro:content';
 import { marked } from 'marked';
 import { extractAuthors } from '../../utils/contributors';
+import { expandSubsites, normalizeSubsites } from '../../utils/subsites';
 
 const JSONFEED_DAYS_AGO_LIMIT = 30;
 
@@ -34,28 +35,6 @@ function generateShortId(str: string): string {
   return Math.abs(hash).toString(16).slice(0, 8);
 }
 
-// Expand "all" subsite to full list of regional subsites
-const ALL_SUBSITES = [
-  'freiburg',
-  'pasteur',
-  'belgium',
-  'ifb',
-  'genouest',
-  'erasmusmc',
-  'elixir-it',
-  'au',
-  'eu',
-  'us',
-  'global',
-];
-
-function expandSubsites(subsites: string[]): string[] {
-  if (subsites.includes('all')) {
-    return ALL_SUBSITES;
-  }
-  return subsites;
-}
-
 export async function GET() {
   const allNews = await getCollection('news');
 
@@ -80,9 +59,7 @@ export async function GET() {
       const daysAgo = getDaysAgo(date);
       const slug = (data.slug || article.id).replace(/\/$/, '');
 
-      // Normalize arrays and expand "all" subsites
-      let subsites = data.subsites ? (Array.isArray(data.subsites) ? data.subsites : [data.subsites]) : [];
-      subsites = expandSubsites(subsites);
+      const subsites = expandSubsites(normalizeSubsites(data.subsites));
 
       const tags = data.tags ? (Array.isArray(data.tags) ? data.tags : [data.tags]) : [];
       const authors = extractAuthors(data as Record<string, unknown>).join(', ');
