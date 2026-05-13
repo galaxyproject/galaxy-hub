@@ -42,7 +42,7 @@ you agree that at least one of the authors will register and present the work.
 | -----: | ---  |
 | ~~Apr 7~~ | Abstracts due for talks   |
 | ~~Apr 20~~  | Talk reviews returned     |
-| May 11 | Abstracts due for posters/demos |
+| ~~May 11~~ | Abstracts due for posters/demos |
 | May 18 | Poster/demo acceptance announcements |
 
 # Preparation information for presenters
