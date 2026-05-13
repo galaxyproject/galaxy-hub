@@ -28,7 +28,7 @@ The assembly is open to the scientists of all nations. During this conference th
 This poster provides an overview of Galaxy for Earth System Sciences. It presents the platform, its representative tools and workflows, and the associated training ecosystem. 
 Finally, it shows some lessons learned from deploying GESS, and perspectives for further development to support Earth system science.
 
-![Galaxy For Earth System Science (GESS): An open platform for analysis, sharing, and training !](gess_posters.png)
+![Galaxy For Earth System Science (GESS): An open platform for analysis, sharing, and training !](gess_poster.png)
 
 ## Operationalising essential ocean variables through robust and trusted QCV Workflows
 This poster introduces the biogeochemical Argo data, before providing a concrete illustration of a complete nitrate QCV workflow.
