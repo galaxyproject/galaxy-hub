@@ -5,18 +5,12 @@
  * Embedded in Galaxy EU interface - high visibility feed
  */
 import { getCollection } from 'astro:content';
+import { contentMatchesSubsite, normalizeSubsites } from '../../../../utils/subsites';
 
 const allNews = await getCollection('news');
 const newsArticles = allNews
   .filter((article) => {
-    const subsites = article.data.subsites || [];
-    const isEU =
-      subsites.includes('eu') ||
-      subsites.includes('all') ||
-      subsites.includes('all-eu') ||
-      subsites.includes('global') ||
-      subsites.length === 0;
-    return isEU && !article.data.draft;
+    return contentMatchesSubsite(normalizeSubsites(article.data.subsites), 'eu') && !article.data.draft;
   })
   .sort((a, b) => {
     const dateA = a.data.date ? new Date(a.data.date) : new Date(0);
