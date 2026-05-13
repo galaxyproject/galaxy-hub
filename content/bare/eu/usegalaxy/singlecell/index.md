@@ -5,12 +5,12 @@ components: true
 
 <slot name="/bare/eu/usegalaxy/notices" />
 
-![single cell Galaxy](/assets/media/usegalaxy/singlecell/logo_single_cell.svg)
-![Human Cell Atlas](/assets/media/usegalaxy/singlecell/hca.png)
+<div style="display: flex; align-items: center; gap: 2rem; margin: 1rem 0 2rem;">
+  <img src="/assets/media/usegalaxy/singlecell/logo_single_cell.svg" alt="single cell Galaxy" style="max-width: 360px; width: min(50%, 360px); flex: 1 1 280px;" />
+  <img src="/assets/media/usegalaxy/singlecell/hca.png" alt="Human Cell Atlas" style="max-width: 420px; width: min(50%, 420px); flex: 1 1 300px;" />
+</div>
 
 # Welcome to the Single Cell Omics Lab!
-
-
 
 The Single Cell Omics and [The Human Cell Atlas](https://www.humancellatlas.org) Galaxy enthusiasts have combined forces to bring you a single cell focused Galaxy Lab to make your analysis even easier. This resource is based on the Galaxy framework, which guarantees simple access, easy extension, flexible adaption to personal and security needs, and sophisticated analyses independent of command-line knowledge.
 
@@ -31,7 +31,6 @@ You may be interested in the following resources:
 <Icon name="question-circle-o" /> [Single cell help forum](https://help.galaxyproject.org/tag/scrna)\
 <Icon name="comments-o" /> [Single cell Galaxy user community chat room](https://matrix.to/#/#Galaxy-Training-Network_galaxy-single-cell:gitter.im)
 
-
 # Training
 
 Want to learn even more about #single-cell analyses? You can check out our single cell training page within the wider Galaxy Training Network.
@@ -46,27 +45,29 @@ Want to learn even more about #single-cell analyses? You can check out our singl
 In addition to our fantastic training materials, we encourage users to share their workflows!
 
 [Tag your workflows](https://training.galaxyproject.org/training-material/faqs/galaxy/workflows_annotate.html) with **#single-cell** and share publicly with other users!
-   
 
 You can see shared workflows below.
 
 <iframe src="https://training.galaxyproject.org/training-material/workflows/embed.html?query=single-cell" height="600px" width="100%" class="gtn-embed" frameborder="0"></iframe>
 
-
 # Asking for help
+
 Are you stuck? Galaxy is community driven, so we have a lot of resources to try and help you. In order, we suggest trying the following to get help!
+
 1. [General help forum](https://help.galaxyproject.org/c/usegalaxy-eu-support/6) or for single-cell specific questions, [Single cell help forum](scrna)
 2. [Single cell Galaxy user community chat room](https://matrix.to/#/#Galaxy-Training-Network_galaxy-single-cell:gitter.im)
 3. [Galaxy Training Community chat](https://matrix.to/#/#Galaxy-Training-Network_Lobby:gitter.im)
-4. [Usegalaxy.eu chat](https://matrix.to/#/#usegalaxy-eu_Lobby:gitter.im )
-5. [Usegalaxy.org chat](https://matrix.to/#/#galaxyproject_Lobby:gitter.im )
+4. [Usegalaxy.eu chat](https://matrix.to/#/#usegalaxy-eu_Lobby:gitter.im)
+5. [Usegalaxy.org chat](https://matrix.to/#/#galaxyproject_Lobby:gitter.im)
 
 # Asking for tools
+
 Our Single Cell Community of Practice welcomes tool requests. We’re an open source, community-driven group, so we can’t guarantee everything, but we can certainly try to get the tools users need most into Galaxy! You can request tools at the following link:
 
 [<Icon name="wrench" /> Tool Requests from Users](https://docs.google.com/spreadsheets/d/15hqgqA-RMDhXR-ylKhRF-Dab9Ij2arYSKiEVoPl2df4/edit?usp=sharing)
 
 # Join the Single Cell Community of Practice
+
 Want to talk with trainers and developers on how to improve single cell analysis in Galaxy? Join the Community of Practice - we’re a nice bunch!
 
 <Icon name="hand-o-right" /> Go to our [Community of Practice site](https://galaxyproject.org/projects/singlecell/) to read more and join us!
