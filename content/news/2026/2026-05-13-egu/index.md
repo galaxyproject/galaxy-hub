@@ -11,7 +11,7 @@ gtn: true
 contact: "Marie Josse: marie.josse@ifremer.fr"
 tags: [conference, earth-system, collaboration, talk, outreach, dataterra]
 contributions:
-  autorship:
+  authorship:
     -Marie59
 ---
 
