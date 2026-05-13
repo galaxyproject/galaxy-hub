@@ -43,6 +43,6 @@ During this really fruitful conference, we were able to get in touch with multip
 
 # Some photos of the event 
 
-![Marie poster presentation](marie.png)
+![Marie poster presentation](marie.jpg)
 ![Kilian talk](kilian.png)
 ![Data Terra's team](data_terra.png
