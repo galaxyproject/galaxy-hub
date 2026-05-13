@@ -3,7 +3,7 @@
 
 # GCC2026 Daily Schedule
 
-The schedule is where you can discover what’s happening when at GCC2026. Full details on each talk, including abstracts and speaker information, are available below.
+The schedule is where you can discover what’s happening when at GCC2026. Full details on each talk, including abstracts and speaker information, are available below. You may also download the GCC2026 abstract book as a PDF [here](https://galaxy-community-conference.s3.us-east-1.amazonaws.com/GCC2026-abstract-book.pdf).
 
 <details class="gcc-schedule-day" open>
 <summary class="gcc-schedule-summary">Monday, Jun 22</summary>
