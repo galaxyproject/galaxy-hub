@@ -1,19 +1,5 @@
 import { getCollection } from 'astro:content';
-
-function normalizeSubsites(value: unknown): string[] {
-  if (!value) return [];
-  return Array.isArray(value) ? value.map((item) => String(item)) : [String(value)];
-}
-
-function isEuSubsite(subsites: string[]): boolean {
-  return (
-    subsites.includes('eu') ||
-    subsites.includes('all') ||
-    subsites.includes('all-eu') ||
-    subsites.includes('global') ||
-    subsites.length === 0
-  );
-}
+import { contentMatchesSubsite, normalizeSubsites } from '../../../utils/subsites';
 
 function escapeXML(text: string): string {
   return text
@@ -43,8 +29,7 @@ export async function GET() {
   const euEvents = events
     .filter((event) => {
       if (event.data.draft) return false;
-      const subsites = normalizeSubsites(event.data.subsites);
-      return isEuSubsite(subsites);
+      return contentMatchesSubsite(normalizeSubsites(event.data.subsites), 'eu');
     })
     .sort((a, b) => {
       const dateA = a.data.date instanceof Date ? a.data.date : new Date(a.data.date || 0);

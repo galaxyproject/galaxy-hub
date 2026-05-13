@@ -1,20 +1,6 @@
 import { getCollection } from 'astro:content';
 import { isPublishedDate } from '../../../utils/dateUtils';
-
-function normalizeSubsites(value: unknown): string[] {
-  if (!value) return [];
-  return Array.isArray(value) ? value.map((item) => String(item)) : [String(value)];
-}
-
-function isEuSubsite(subsites: string[]): boolean {
-  return (
-    subsites.includes('eu') ||
-    subsites.includes('all') ||
-    subsites.includes('all-eu') ||
-    subsites.includes('global') ||
-    subsites.length === 0
-  );
-}
+import { contentMatchesSubsite, normalizeSubsites } from '../../../utils/subsites';
 
 function escapeXML(text: string): string {
   return text
@@ -40,8 +26,7 @@ export async function GET() {
     .filter((article) => {
       if (article.data.draft) return false;
       if (!isPublishedDate(article.data.date, now)) return false;
-      const subsites = normalizeSubsites(article.data.subsites);
-      return isEuSubsite(subsites);
+      return contentMatchesSubsite(normalizeSubsites(article.data.subsites), 'eu');
     })
     .sort((a, b) => {
       const dateA = a.data.date instanceof Date ? a.data.date : new Date(a.data.date || 0);
