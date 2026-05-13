@@ -74,11 +74,13 @@ const formattedDate = formatDate(date, false);
           <div class="mb-3 text-sm font-semibold text-galaxy-gold">{eyebrowData.label}</div>
         ))
     }
+
     <div class="flex items-center gap-3 mb-4">
       <div class="w-1 h-8 bg-galaxy-gold"></div>
       <h1 class="text-3xl sm:text-4xl font-bold tracking-tight">{title}</h1>
     </div>
-    {description && <p class="text-white/80 text-lg max-w-2xl">{description}</p>}
+
+    {description && <p class="text-white/80 text-lg">{description}</p>}
 
     {/* Article metadata row */}
     {
