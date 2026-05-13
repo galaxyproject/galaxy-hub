@@ -6,6 +6,7 @@ tags: [fair]
 contributions:
   authorship:
     - Marie59
+    - yvanlebras
 
 ---
 
@@ -35,6 +36,7 @@ Galaxy ensures that research objects are **easily discoverable** through:
 - Persistent and unique identifiers for tools, workflows, and datasets.
 - Rich, structured metadata (e.g., EDAM ontology annotations).
 - Integration with external registries (like WorkflowHub, Dockstore, and ELIXIR’s bio.tools).
+- Providing tools and workflows facilitating the production of rich metadata
 
 ### 🔓 **Accessibility**
 Galaxy lowers barriers to access by supporting:
@@ -62,17 +64,15 @@ This initiative would not have been possible without the support and collaborati
 
 - **The Galaxy Community** for their **passion, contributions, and collaborative spirit**. The Galaxy Community’s dedication to open science, training, and tool development has been the driving force behind Galaxy’s success as a platform for **reproducible and accessible research**.
 
-<div class="float-left" style="max-width: 200px"><img src="/images/logos/gaia_data.png" alt="Gaia Data logo"/></div>
-- **[GAIA-Data](https://gaia-data.eu/)** for their contributions to the Galaxy platform and their work on these FAIR pages.
+- <img src="/images/logos/gaia_data.png" alt="GAIA Data logo" width="100"/> **[GAIA-Data](https://gaia-data.eu/)** for their contributions to the Galaxy platform and their work on these FAIR pages.
 
-<div class="float-left" style="max-width: 200px"><img src="/images/logos/ELIXIR_RIR_Logo.png" alt="ELIXIR RIR logo"/></div>
-- **[ELIXIR](https://elixir-europe.org/)** for their support in promoting **FAIR data practices** and **interoperability standards** across the life sciences. Galaxy is proud to be a **Recommended Interoperability Resource (RIR)** for ELIXIR.
+- <img src="/images/logos/ELIXIR_RIR_Logo.png" alt="ELIXIR RIR logo" width="100"/> **[ELIXIR](https://elixir-europe.org/)** for their support in promoting **FAIR data practices** and **interoperability standards** across the life sciences. Galaxy is proud to be a **Recommended Interoperability Resource (RIR)** for ELIXIR.
 ---
 
 ## How to Use These Pages
 
 Whether you’re a **researcher, educator, or data steward**, these pages will help you:
-- Understand how Galaxy implements the **FAIR principles**.
+- Understand how Galaxy implements and supports the **FAIR principles**.
 - Learn best practices for **making your research FAIR-compliant**.
 - Discover tools and features to **enhance the reproducibility and reusability** of your work.
 
