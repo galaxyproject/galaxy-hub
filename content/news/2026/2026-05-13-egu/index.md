@@ -45,4 +45,4 @@ During this really fruitful conference, we were able to get in touch with multip
 
 ![Marie poster presentation](marie.jpg)
 ![Kilian talk](kilian.png)
-![Data Terra's team](data_terra.png
+![Data Terra's team](dataterra.jpg)
