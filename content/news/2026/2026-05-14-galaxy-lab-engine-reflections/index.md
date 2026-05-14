@@ -2,7 +2,7 @@
 title: "Reflections on the journey behind the Galaxy Lab Engine paper"
 date: "2026-05-14"
 tease: "Dr Gareth Price reflects on the Galaxy Lab Engine paper, recently published in GigaScience, and the GCC conversations and BioHackathons that grew it from an idea into a globally deployed tool."
-tags: [paper, labs, community, conference, ui-ux, australia]
+tags: [paper, community, conference, ui-ux, australia, gcc]
 subsites: [all, global]
 contributions:
   authorship:
@@ -33,10 +33,10 @@ The Galaxy Lab Engine and the wonderful support documentation at [labs.usegalaxy
 
 So, on reflection, did we end at the place we envisaged at the start? I'm not sure and that's OK. We did learn, we built, we tested and we persisted. We got to that end. I hope in this ramble a truth of the Galaxy community comes out, that is that *we do not work in isolation, we collaborate, we learn from each other, we inspire each other*. Also, we have a whole heap of fun when we are together, be it GCCs, Hackathons, Galaxy Days, conferences -- I love that Galaxy people love to get together and work together. This paper, this functionality in Galaxy, would not have been possible without it.
 
-I want to thank all my co-authors for their contributions to make the Lab Engine and realise the publication. I also want to thank Nate at Galaxy Main for ever so casually dropping the Single Cell Lab onto Galaxy Main, after a conversation at (*you guessed it*) GCC2025. This allowed us to say with confidence that Labs could truly be deployed globally. Or, the n=2 of AU and EU didn't meet the scientific minimum of 3 and with ORG we got to n=3!
+I want to thank all my co-authors for their contributions to make the Lab Engine and realise the publication. I also want to thank Nate at Galaxy Main for ever so casually dropping the Single Cell Lab onto Galaxy Main, after a conversation at (*you guessed it*) GCC2025. This allowed us to say with confidence that Labs could truly be deployed globally. Or, AU and EU together gave us only two sites -- short of the scientific minimum of three -- and with ORG we made it!
 
 Well, actually it isn't the end! We always saw this paper as a launching point for future Labs. So maybe I should say this is the End of the Beginning and not the Beginning of the End.
 
 With this publication I sincerely hope we have described constructing a Lab as an easy and accessible process. We know of two Labs in active development in Australia, one for global science and one as a landing portal connecting Australian genomic services. Even now, we are not staying still -- Cam is in the final stages of deploying an AI assisted Lab builder, with the aim to further reduce the technical barriers for researchers to start on the Lab journey.
 
-The paper is available at <https://doi.org/10.1093/gigascience/giag041> and the Australian BioCommons news story at <https://www.biocommons.org.au/news/galaxy-lab-engine>.
+The paper is available at [https://doi.org/10.1093/gigascience/giag041](https://doi.org/10.1093/gigascience/giag041) and the Australian BioCommons news story at [https://www.biocommons.org.au/news/galaxy-lab-engine](https://www.biocommons.org.au/news/galaxy-lab-engine).
