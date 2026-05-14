@@ -418,7 +418,7 @@ presentation.
     <span class="gcc-talk-time">13:15 - 13:30</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">A New Star in the Galaxy: Canada is Joining the UseGalaxy.* International Federation</span>
-      <span class="gcc-talk-authors"><strong>Jacques Pierre-Étienne</strong>, Davis John, Gauthier Carol, Fortin Jérôme, Barrette Michel</span>
+      <span class="gcc-talk-authors">Coulombe Charles, Davis John, Gauthier Carol, Fortin Jérôme, Barrette Michel, <strong>Jacques Pierre-Étienne</strong></span>
     </span>
     <span class="gcc-talk-poster">Also Poster</span>
   </summary>
@@ -1111,7 +1111,7 @@ presentation.
     <span class="gcc-talk-time">6</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">A New Star in the Galaxy: Canada is Joining the UseGalaxy.* International Federation</span>
-      <span class="gcc-talk-authors"><strong>Jacques Pierre-Étienne</strong>, Davis John, Gauthier Carol, Fortin Jérôme, Barrette Michel</span>
+      <span class="gcc-talk-authors">Coulombe Charles, Davis John, Gauthier Carol, Fortin Jérôme, Barrette Michel, <strong>Jacques Pierre-Étienne</strong></span>
     </span>
     <span class="gcc-talk-poster">Also Talk</span>
   </summary>
