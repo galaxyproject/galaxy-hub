@@ -60,7 +60,7 @@ title: Galaxy Ecology
       <div class="card-body" style="display:flex; flex-direction:column; flex:1;">
         <h2 class="card-title text-dark" style="margin-top: 0;">Guide tour</h2>
         <p class="card-text">Are you new to Galaxy, or returning after a long time, and looking for help to get started?</p>
-        <img src="/assets/media/usegalaxy/ecology/galaxy-eu.svg" style="max-width:100%; height:auto; margin:2rem 0;" />
+        <img src="/images/logos/galaxy-eu.png" style="max-width:100%; height:auto; margin:2rem 0;" />
         <div class="text-center" style="margin-top:auto;">
           <a href="https://ecology.usegalaxy.eu/tours/core.galaxy_ui" target="_blank">
             <button type="button" class="btn btn-primary btn-lg" style="white-space:normal; max-width:100%; display:inline-block;">Take a guide tour through Galaxy’s user interface.</button>
@@ -76,7 +76,7 @@ title: Galaxy Ecology
       <div class="card-body" style="display:flex; flex-direction:column; flex:1;">
         <h2 class="card-title text-dark" style="margin-top: 0;">Tutorials</h2>
         <p class="card-text">Want to learn about ecology analyses?</p>
-        <img src="/assets/media/usegalaxy/ecology/gtn_logo.png" style="max-width:100%; height:auto; margin:2rem 0;" />
+        <img src="/images/logos/GTNLogo600.png" style="max-width:100%; height:auto; margin:2rem 0;" />
         <div class="text-center" style="margin-top:auto;">
           <a href="https://training.galaxyproject.org/training-material/topics/ecology/" class="show-iframe" data-target="displayhere">
             <button type="button" class="btn btn-primary btn-lg" style="white-space:normal; max-width:100%; display:inline-block;">Check our tutorials</button>
@@ -213,7 +213,7 @@ title: Galaxy Ecology
     <div class="card border-secondary bg-light mb-1 mx-1" style="display: flex; flex-direction: column; height: 100%;">
         <div class="card-body" style="display: flex; flex-direction: column; flex: 1;">
             <h2 class="card-title text-dark" style="margin-top: 0;">GAIA DATA</h2>
-            <center><img src="/assets/media/usegalaxy/ecology/logo-data-gaia_default.png" style="width: 140px; height:auto;"/></center>
+            <center><img src="/assets/media/usegalaxy/earth-system/logo-data-gaia_default.png" style="width: 140px; height:auto;"/></center>
             <div style="margin-top: 1rem;">
                 <p class="card-text" style="font-weight: bold;">TUTORIALS</p>
                 <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.5rem;">

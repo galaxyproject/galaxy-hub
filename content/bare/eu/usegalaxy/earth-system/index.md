@@ -60,7 +60,7 @@ title: Galaxy for Earth System Sciences
       <div class="card-body" style="display:flex; flex-direction:column; flex:1;">
         <h2 class="card-title text-dark" style="margin-top: 0;">Guide tour</h2>
         <p class="card-text">Are you new to Galaxy, or returning after a long time, and looking for help to get started?</p>
-        <img src="/assets/media/usegalaxy/earth-system/galaxy-eu.svg" style="max-width:100%; height:auto; margin:2rem 0;" />
+        <img src="/images/logos/galaxy-eu.png" style="max-width:100%; height:auto; margin:2rem 0;" />
         <div class="text-center" style="margin-top:auto;">
           <a href="https://earth-system.usegalaxy.eu/tours/core.galaxy_ui" target="_blank">
             <button type="button" class="btn btn-primary btn-lg" style="white-space:normal; max-width:100%; display:inline-block;">Take a guide tour through Galaxy’s user interface.</button>
@@ -76,7 +76,7 @@ title: Galaxy for Earth System Sciences
       <div class="card-body" style="display:flex; flex-direction:column; flex:1;">
         <h2 class="card-title text-dark" style="margin-top: 0;">Tutorials</h2>
         <p class="card-text">Want to learn about earth science analyses?</p>
-        <img src="/assets/media/usegalaxy/earth-system/gtn_logo.png" style="max-width:100%; height:auto; margin:2rem 0;" />
+        <img src="/images/logos/GTNLogo600.png" style="max-width:100%; height:auto; margin:2rem 0;" />
         <div class="text-center" style="margin-top:auto;">
 		  <a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/earth_system/tutorial.html" class="show-iframe" data-target="displayhere">
 			<button type="button" class="btn btn-primary">Discover Earth data</button>
