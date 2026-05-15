@@ -7,7 +7,7 @@ components: true
 
 <div style="display: flex; align-items: center; gap: 2rem; margin: 1rem 0 2rem;">
   <img src="/assets/media/usegalaxy/singlecell/logo_single_cell.svg" alt="single cell Galaxy" style="max-width: 360px; width: min(50%, 360px); flex: 1 1 280px;" />
-  <img src="/assets/media/usegalaxy/singlecell/hca.png" alt="Human Cell Atlas" style="max-width: 420px; width: min(50%, 420px); flex: 1 1 300px;" />
+  <img src="/assets/media/usegalaxy/humancellatlas/hca.png" alt="Human Cell Atlas" style="max-width: 420px; width: min(50%, 420px); flex: 1 1 300px;" />
 </div>
 
 # Welcome to the Single Cell Omics Lab!
