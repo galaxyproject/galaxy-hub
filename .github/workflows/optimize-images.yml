@@ -51,6 +51,8 @@ jobs:
           # Attempt to prevent webp recompression by minimizing diff.
           webpQuality: '90'
           minPctChange: '2.5'
+          # Non-PR events need compress-only mode so create-pull-request can publish the result.
+          compressOnly: ${{ github.event_name != 'pull_request' }}
       - name: Create Pull Request
         # If it's not a Pull Request then commit any changes as a new PR.
         if: |
