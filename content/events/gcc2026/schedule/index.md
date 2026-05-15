@@ -260,6 +260,8 @@ presentation.
 
 ## Talks 1: Galaxy framework and platform direction
 
+Moderator: TBD
+
 <div class="gcc-talk-list">
   <div class="gcc-talk-list-header" aria-hidden="true">
     <span></span>
@@ -389,6 +391,8 @@ presentation.
 
 ## Talks 2: Infrastructure, federation, and service operations
 
+Moderator: Martin Čech
+
 <div class="gcc-talk-list">
   <div class="gcc-talk-list-header" aria-hidden="true">
     <span></span>
@@ -500,6 +504,8 @@ presentation.
 
 ## Talks 3: Communities, provenance, and cross-domain expansion
 
+Moderator: Pierre-Étienne Jacques
+
 <div class="gcc-talk-list">
   <div class="gcc-talk-list-header" aria-hidden="true">
     <span></span>
@@ -578,6 +584,8 @@ presentation.
 </div>
 
 ## Talks 4: FAIR data analysis workflows and public health applications
+
+Moderator: TBD
 
 <div class="gcc-talk-list">
   <div class="gcc-talk-list-header" aria-hidden="true">
@@ -687,6 +695,8 @@ presentation.
 
 ## Talks 5: Tool integration and method development
 
+Moderator: Yvan Le Bras
+
 <div class="gcc-talk-list">
   <div class="gcc-talk-list-header" aria-hidden="true">
     <span></span>
@@ -749,6 +759,8 @@ presentation.
 </div>
 
 ## Talks 6: AI, workflows, and guided analysis
+
+Moderator: TBD
 
 <div class="gcc-talk-list">
   <div class="gcc-talk-list-header" aria-hidden="true">
@@ -863,6 +875,8 @@ presentation.
 </div>
 
 ## Talks 7: Community platforms, mature ecosystems, and field reports
+
+Moderator: Yvan Le Bras
 
 <div class="gcc-talk-list">
   <div class="gcc-talk-list-header" aria-hidden="true">
