@@ -14,8 +14,6 @@ This server currently features the individual components of the [MCMICRO](https:
 
 Several spatial transcriptomics data formats and analysis tools have been integrated into Galaxy as part of the [Spatial2Galaxy ELIXIR Commissioned Service](https://elixir-europe.org/how-we-work/scientific-programme/science/cmr/spatial2).
 
-# Content
-
 # Get started
 
 Are you new to Galaxy, or returning after a long time, and looking for help to get started?
