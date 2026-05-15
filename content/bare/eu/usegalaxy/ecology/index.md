@@ -4,12 +4,55 @@ title: Galaxy Ecology
 
 <slot name="/bare/eu/usegalaxy/notices" />
 
+<style>
+  .usegalaxy-feature-grid,
+  .usegalaxy-card-grid {
+    display: grid !important;
+    gap: 1rem;
+    align-items: stretch;
+    justify-content: stretch !important;
+  }
+
+  .usegalaxy-feature-grid {
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
+  }
+
+  .usegalaxy-card-grid {
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 24rem), 1fr));
+  }
+
+  @media (min-width: 900px) {
+    .usegalaxy-feature-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+
+  .usegalaxy-feature-grid > div,
+  .usegalaxy-card-grid > div {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+  }
+
+  .usegalaxy-feature-grid .bs-compat.card,
+  .usegalaxy-card-grid .bs-compat.card {
+    border: 0 !important;
+    background: transparent !important;
+    margin: 0 !important;
+  }
+
+  .usegalaxy-feature-grid .bs-compat.card-body,
+  .usegalaxy-card-grid .bs-compat.card-body {
+    padding: 0 !important;
+  }
+</style>
+
 # Welcome to **Galaxy for Ecology** -- a web platform to get, process, analyze and visualize ecological data
 
 <center><img src="/assets/media/usegalaxy/ecology/Galaxy-E-concarneau-team-2018-logo.gif" height="225px" alt="PNDB french Biodiversity e-infrastructure"/></center>
 <br /><br />
 
-<div style="display:flex; gap:1rem; flex-wrap:wrap; justify-content:center; align-items:stretch;">
+<div class="usegalaxy-feature-grid" style="display:flex; gap:1rem; flex-wrap:wrap; justify-content:center; align-items:stretch;">
 
   <!-- CARD 1 -->
   <div style="flex:1 1 24rem; max-width:26rem; border:1px solid #6c757d; background:#f8f9fa; padding:1rem; border-radius:6px; box-sizing:border-box; display:flex; flex-direction:column;">
@@ -66,7 +109,7 @@ title: Galaxy Ecology
 
 # Projects
 
-<div style="display:flex; gap:1rem; flex-wrap:wrap; margin-bottom:1rem; align-items:stretch;">
+<div class="usegalaxy-card-grid" style="display:flex; gap:1rem; flex-wrap:wrap; margin-bottom:1rem; align-items:stretch;">
   <!-- CARD 1 -->
   <div style="flex:1 1 26rem; max-width:28rem; border:1px solid #6c757d; background:#f8f9fa; padding:1rem; border-radius:6px; box-sizing:border-box; display:flex; flex-direction:column;">
     <div class="card border-secondary bg-light mb-1 mx-1" style="display:flex; flex-direction:column; height:100%;">

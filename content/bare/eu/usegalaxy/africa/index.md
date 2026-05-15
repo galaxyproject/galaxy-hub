@@ -4,7 +4,10 @@ title: Galaxy Africa
 
 <slot name="/bare/eu/usegalaxy/notices" />
 
-![African Galaxy](68950141.png)
+<p style="text-align:center;">
+  <img src="/images/galaxy-logos/galaxy-africa-logo-big.png" alt="African Galaxy" style="width:min(18rem, 80vw); height:auto;" />
+</p>
+
 # This is the African galaxy server, Welcome Home!
 
 
@@ -31,14 +34,14 @@ From theoretical understanding to practical implementation on this workbench, we
 * Transcriptomics
   * Bulk RNA Sequencing
   * Single RNA Sequencing
-Epigenetics
+* Epigenetics
   * Chip-Seq
   * ATAC-Seq
   * Bisulfite Sequencing
-Metagenomics
+* Metagenomics
   * 16S metagenomics
   * Metatranscriptomics
-Machine learning
+* Machine learning
   * Classification & Regression
   * Clustering
   * Regression
@@ -47,4 +50,4 @@ Machine learning
 # Appreciation
 We sincerely appreciate the efforts of all individuals and their organizations for supporting the African Galaxy Instance. Join the community [here](https://gitter.im/GalaxyAfrica/community)
 
-{% bibliography --cited --prefix index-africa --group_by none %}
+For citation guidance, see [Citing Galaxy](https://galaxyproject.org/citing-galaxy/).

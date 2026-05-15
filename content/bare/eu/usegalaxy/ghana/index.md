@@ -5,8 +5,10 @@ components: true
 
 <slot name="/bare/eu/usegalaxy/notices" />
 
-![single cell Galaxy](/assets/media/usegalaxy/ghana/logo_single_cell.svg)
-![Human Cell Atlas](/assets/media/usegalaxy/ghana/hca.png)
+<div style="display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:2rem; margin:1rem 0 2rem;">
+  <img src="/assets/media/usegalaxy/ghana/logo_single_cell.svg" alt="single cell Galaxy" style="max-width:min(18rem, 100%); height:auto; margin:0;" />
+  <img src="/assets/media/usegalaxy/ghana/hca.png" alt="Human Cell Atlas" style="max-width:min(18rem, 100%); height:auto; margin:0;" />
+</div>
 
 # Welcome to the Ghana Galaxy Instance!
 
