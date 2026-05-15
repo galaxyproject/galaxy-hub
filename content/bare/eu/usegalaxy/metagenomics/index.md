@@ -1,6 +1,5 @@
 ---
 title: Galaxy Metagenomics
-components: true
 ---
 
 <slot name="/bare/eu/usegalaxy/notices" />
@@ -9,24 +8,17 @@ components: true
 
 # Welcome to Galaxy for Microbiome
 
-<br />
 **Galaxy for Microbiome** ([ASaiM](https://asaim.readthedocs.io/en/latest/)) is a webserver to process, analyse and visualize microbiome data in general. It is based on the [Galaxy framework](https://galaxyproject.org), which guarantees simple access, easy extension, flexible adaption to personal and security needs, and sophisticated analyses independent of command-line knowledge.
-
-<br />
-# Content
-
-
-
 
 # Get started
 
-Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take a [__guided tour__](https://metagenomics.usegalaxy.eu/tours/core.galaxy_ui) through Galaxy's user interface.
-
+Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take a [**guided tour**](https://metagenomics.usegalaxy.eu/tours/core.galaxy_ui) through Galaxy's user interface.
 
 # Training
 
-We are working in close collaboration with the [__Galaxy Training Network (GTN)__](https://training.galaxyproject.org) to develop training materials of data analyses based on Galaxy. If you want to know more about the GTN or how to become part of the Galaxy community, check the videos below!
+We are working in close collaboration with the [**Galaxy Training Network (GTN)**](https://training.galaxyproject.org) to develop training materials of data analyses based on Galaxy. If you want to know more about the GTN or how to become part of the Galaxy community, check the videos below!
 
+<div class="usegalaxy-video-row">
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/lDqWxzWNk1k"
 title="YouTube video player"
@@ -41,55 +33,53 @@ title="YouTube video player"
 frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
+</div>
 
-<br /><br />
-
-**Training material**
+## Training material
 
 All relevant materials for [microbiome data analysis](https://training.galaxyproject.org/topics/metagenomics) can also be found within the GTN.
 
-Lesson | Slides | Hands-on | Input dataset | Workflows | Galaxy History
---- | --- | --- | --- | --- | ---
-Welcome and introduction to Galaxy | [<Icon name="slideshare" />](https://training.galaxyproject.org/topics/introduction/tutorials/galaxy-intro-short/slides.html) / [<Icon name="video-camera" />](https://training.galaxyproject.org/videos/watch.html?v=introduction/tutorials/galaxy-intro-short/slides) | [<Icon name="laptop" />](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html) | [<Icon name="files-o" />](https://doi.org/10.5281/zenodo.582600) | [<Icon name="share-2" />](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/workflows/) |
-An Introduction to Metagenomics | [<Icon name="slideshare" />](https://training.galaxyproject.org/topics/metagenomics/slides/introduction.html#1) | | | |
-Quality Control | [<Icon name="slideshare" />](https://training.galaxyproject.org/topics/sequence-analysis/tutorials/quality-control/slides.html) / [<Icon name="video-camera" />](https://youtu.be/BWonTPS4zB8) | [<Icon name="laptop" />](https://training.galaxyproject.org/topics/sequence-analysis/tutorials/quality-control/tutorial.html) / [<Icon name="video-camera" />](https://youtu.be/QJRlX2hWDKM) | [<Icon name="files-o" />](https://doi.org/10.5281/zenodo.61771) | [<Icon name="share-2" />](https://training.galaxyproject.org/topics/sequence-analysis/tutorials/quality-control/workflows/) | [<Icon name="list-ul" />](https://metagenomics.usegalaxy.eu/u/gallardoalba/h/quality-control)
-16S Microbial Analysis with mothur | [<Icon name="video-camera" />](https://www.youtube.com/watch?v=9OY1mklWuK0) | [<Icon name="laptop" />Short](https://training.galaxyproject.org/topics/metagenomics/tutorials/mothur-miseq-sop-short/tutorial.html) / [<Icon name="laptop" />Extended](https://training.galaxyproject.org/topics/metagenomics/tutorials/mothur-miseq-sop/tutorial.html) / [<Icon name="video-camera" />](https://youtu.be//mto4Nl-q7Kk) | [<Icon name="files-o" />](https://doi.org/10.5281/zenodo.800651) | [<Icon name="share-2" />](https://training.galaxyproject.org/topics/metagenomics/tutorials/mothur-miseq-sop-short/workflows/) |
-16S Microbial analysis with Nanopore data | | [<Icon name="laptop" />](https://training.galaxyproject.org/topics/metagenomics/tutorials/nanopore-16S-metagenomics/tutorial.html) | [<Icon name="files-o" />](https://zenodo.org/record/4274812) | [<Icon name="share-2" />](https://training.galaxyproject.org/topics/metagenomics/tutorials/nanopore-16S-metagenomics/workflows/) |
-Analyses of metagenomics data - The global picture  | | [<Icon name="laptop" />](https://training.galaxyproject.org/topics/metagenomics/tutorials/general-tutorial/tutorial.html) | [<Icon name="files-o" />](https://doi.org/10.5281/zenodo.815875) | [<Icon name="share-2" />](https://training.galaxyproject.org/topics/metagenomics/tutorials/general-tutorial/workflows/) |
-Metatranscriptomics analysis using microbiome RNA-seq data | [<Icon name="slideshare" />](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/metatranscriptomics/slides.html) | [<Icon name="laptop" />Short](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/metatranscriptomics-short/tutorial.html) / [<Icon name="laptop" />Extended](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/metatranscriptomics/tutorial.html) | [<Icon name="files-o" />](https://zenodo.org/record/4776250) | [<Icon name="share-2" />](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/metatranscriptomics-short/workflows/) |
-Metaproteomics introduction | | [<Icon name="laptop" />](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/metaproteomics/tutorial.html) / [<Icon name="video-camera" />](https://youtu.be//3_yaPp-RCFw) | [<Icon name="files-o" />](https://doi.org/10.5281/zenodo.839701) | [<Icon name="share-2" />](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/metaproteomics/workflows/) |
-
+| Lesson                                                     | Slides                                                                                                                                                                                                                                                                  | Hands-on                                                                                                                                                                                                                                                                                                                                 | Input dataset                                                    | Workflows                                                                                                                                          | Galaxy History                                                                                |
+| ---------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| Welcome and introduction to Galaxy                         | [<Icon name="slideshare" />](https://training.galaxyproject.org/topics/introduction/tutorials/galaxy-intro-short/slides.html) / [<Icon name="video-camera" />](https://training.galaxyproject.org/videos/watch.html?v=introduction/tutorials/galaxy-intro-short/slides) | [<Icon name="laptop" />](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html)                                                                                                                                                                                            | [<Icon name="files-o" />](https://doi.org/10.5281/zenodo.582600) | [<Icon name="share-2" />](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/workflows/)        |
+| An Introduction to Metagenomics                            | [<Icon name="slideshare" />](https://training.galaxyproject.org/topics/metagenomics/slides/introduction.html#1)                                                                                                                                                         |                                                                                                                                                                                                                                                                                                                                          |                                                                  |                                                                                                                                                    |
+| Quality Control                                            | [<Icon name="slideshare" />](https://training.galaxyproject.org/topics/sequence-analysis/tutorials/quality-control/slides.html) / [<Icon name="video-camera" />](https://youtu.be/BWonTPS4zB8)                                                                          | [<Icon name="laptop" />](https://training.galaxyproject.org/topics/sequence-analysis/tutorials/quality-control/tutorial.html) / [<Icon name="video-camera" />](https://youtu.be/QJRlX2hWDKM)                                                                                                                                             | [<Icon name="files-o" />](https://doi.org/10.5281/zenodo.61771)  | [<Icon name="share-2" />](https://training.galaxyproject.org/topics/sequence-analysis/tutorials/quality-control/workflows/)                        | [<Icon name="list-ul" />](https://metagenomics.usegalaxy.eu/u/gallardoalba/h/quality-control) |
+| 16S Microbial Analysis with mothur                         | [<Icon name="video-camera" />](https://www.youtube.com/watch?v=9OY1mklWuK0)                                                                                                                                                                                             | [<Icon name="laptop" />Short](https://training.galaxyproject.org/topics/metagenomics/tutorials/mothur-miseq-sop-short/tutorial.html) / [<Icon name="laptop" />Extended](https://training.galaxyproject.org/topics/metagenomics/tutorials/mothur-miseq-sop/tutorial.html) / [<Icon name="video-camera" />](https://youtu.be//mto4Nl-q7Kk) | [<Icon name="files-o" />](https://doi.org/10.5281/zenodo.800651) | [<Icon name="share-2" />](https://training.galaxyproject.org/topics/metagenomics/tutorials/mothur-miseq-sop-short/workflows/)                      |
+| 16S Microbial analysis with Nanopore data                  |                                                                                                                                                                                                                                                                         | [<Icon name="laptop" />](https://training.galaxyproject.org/topics/metagenomics/tutorials/nanopore-16S-metagenomics/tutorial.html)                                                                                                                                                                                                       | [<Icon name="files-o" />](https://zenodo.org/record/4274812)     | [<Icon name="share-2" />](https://training.galaxyproject.org/topics/metagenomics/tutorials/nanopore-16S-metagenomics/workflows/)                   |
+| Analyses of metagenomics data - The global picture         |                                                                                                                                                                                                                                                                         | [<Icon name="laptop" />](https://training.galaxyproject.org/topics/metagenomics/tutorials/general-tutorial/tutorial.html)                                                                                                                                                                                                                | [<Icon name="files-o" />](https://doi.org/10.5281/zenodo.815875) | [<Icon name="share-2" />](https://training.galaxyproject.org/topics/metagenomics/tutorials/general-tutorial/workflows/)                            |
+| Metatranscriptomics analysis using microbiome RNA-seq data | [<Icon name="slideshare" />](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/metatranscriptomics/slides.html)                                                                                                                        | [<Icon name="laptop" />Short](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/metatranscriptomics-short/tutorial.html) / [<Icon name="laptop" />Extended](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/metatranscriptomics/tutorial.html)                       | [<Icon name="files-o" />](https://zenodo.org/record/4776250)     | [<Icon name="share-2" />](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/metatranscriptomics-short/workflows/) |
+| Metaproteomics introduction                                |                                                                                                                                                                                                                                                                         | [<Icon name="laptop" />](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/metaproteomics/tutorial.html) / [<Icon name="video-camera" />](https://youtu.be//3_yaPp-RCFw)                                                                                                                                  | [<Icon name="files-o" />](https://doi.org/10.5281/zenodo.839701) | [<Icon name="share-2" />](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/metaproteomics/workflows/)              |
 
 # Tools
 
 More than **200 tools** are avalaible for microbiome data analysis in this custom Galaxy instance:
 
 - **General tools**
-    - **Data retrieval**: EBISearch, ENASearch, SRA Tools
-    - **BAM/SAM file manipulation**: SAM tools
-    - **BIOM file manipulation**: BIOM-Format tools
+  - **Data retrieval**: EBISearch, ENASearch, SRA Tools
+  - **BAM/SAM file manipulation**: SAM tools
+  - **BIOM file manipulation**: BIOM-Format tools
 - **Genomics tools**
-    - **Quality control**: FastQC, PRINSEQ, Cutadapt, fastp, Trimmomatic, MultiQC
-    - **Clustering**: CD-Hit
-    - **Sorting and prediction**: SortMeRNA, FragGeneScan
-    - **Mapping**: BWA, Bowtie
-    - **Similarity search**: NCBI Blast+, Diamond
-    - **Alignment**: HMMER3
+  - **Quality control**: FastQC, PRINSEQ, Cutadapt, fastp, Trimmomatic, MultiQC
+  - **Clustering**: CD-Hit
+  - **Sorting and prediction**: SortMeRNA, FragGeneScan
+  - **Mapping**: BWA, Bowtie
+  - **Similarity search**: NCBI Blast+, Diamond
+  - **Alignment**: HMMER3
 - **Microbiota dedicated tools**
-    - **Microbial**: Scoary, Prokka, Roary
-    - **Metagenomics data manipulation**: VSearch, Nonpareil, DADA2
-    - **Assembly**: MEGAHIT, metaSPAdes, metaQUAST, VALET, Bandage, MaxBin2
-    - **Metataxonomic sequence analysis**: Mothur, QIIME, Vegan
-    - **Taxonomy assignation**: MetaPhlAn, Kraken, CAT/BAT
-    - **Metabolism assignation**: HUMAnN, PICRUST, InterProScan
-    - **Visualization**: Export2graphlan, GraPhlAn, KRONA
-    - **Metaproteomics**: MaxQuant, SearchGUI, PeptideShaker, Unipept
+  - **Microbial**: Scoary, Prokka, Roary
+  - **Metagenomics data manipulation**: VSearch, Nonpareil, DADA2
+  - **Assembly**: MEGAHIT, metaSPAdes, metaQUAST, VALET, Bandage, MaxBin2
+  - **Metataxonomic sequence analysis**: Mothur, QIIME, Vegan
+  - **Taxonomy assignation**: MetaPhlAn, Kraken, CAT/BAT
+  - **Metabolism assignation**: HUMAnN, PICRUST, InterProScan
+  - **Visualization**: Export2graphlan, GraPhlAn, KRONA
+  - **Metaproteomics**: MaxQuant, SearchGUI, PeptideShaker, Unipept
 
 # Workflows
 
 To orchestrate tools and help users with their analyses, several [workflows](https://asaim.readthedocs.io/en/latest/workflows.html) are available. They formally orchestrate tools in a defined order and with defined parameters, but they are customizable (tools, order, parameters).
 
-The workflows are available in the [Shared Workflows](https://metagenomics.usegalaxy.eu/workflows/list_published), with the label "***asaim***".
+The workflows are available in the [Shared Workflows](https://metagenomics.usegalaxy.eu/workflows/list_published), with the label "**_asaim_**".
 
 ## Taxonomic and functional community profiling of raw metagenomic shotgun data
 
@@ -117,11 +107,11 @@ To help in this task, two workflows have been developed using two different well
 
 - [MEGAHIT](https://metagenomics.usegalaxy.eu/u/berenice/w/asaim-metagenomic-assembly-with-megahit)
 
-    It is currently the most efficent computationally assembler: it has the lowest memory and time consumption (van der Walt et al. 2017; Awad et al. 2017; Sczyrba et al. 2017). It produced some of the best assemblies (irrespective of sequencing coverage) with the fewest structural errors (Olson et al. 2017) and outperforms in recovering the genomes of closely related strains (Awad et al. 2017), but has a bias towards relatively low coverage genomes leading to a suboptimal assembly of high abundant community member genomes in very large datasets (Vollmers et al. 2017)
+  It is currently the most efficent computationally assembler: it has the lowest memory and time consumption (van der Walt et al. 2017; Awad et al. 2017; Sczyrba et al. 2017). It produced some of the best assemblies (irrespective of sequencing coverage) with the fewest structural errors (Olson et al. 2017) and outperforms in recovering the genomes of closely related strains (Awad et al. 2017), but has a bias towards relatively low coverage genomes leading to a suboptimal assembly of high abundant community member genomes in very large datasets (Vollmers et al. 2017)
 
 - [MetaSPAdes](https://metagenomics.usegalaxy.eu/u/berenice/w/asaim-metagenomic-assembly-with-metaspades)
 
-    It is particularly optimal for high-coverage metagenomes (van der Walt et al. 2017) with the best contig metrics (Greenwald et al. 2017) and produces few under-collapsed/over-collapsed repeats (Olson et al. 2017)
+  It is particularly optimal for high-coverage metagenomes (van der Walt et al. 2017) with the best contig metrics (Greenwald et al. 2017) and produces few under-collapsed/over-collapsed repeats (Olson et al. 2017)
 
 Both workflows consists of
 
@@ -156,15 +146,15 @@ The combination of metagenomics, -transcriptomics and -proteomics can provide a 
 
 - **Metagenomics**
 
-    ![Magnus metagenomics workflow](/assets/media/usegalaxy/metagenomics/magnus/metagenomics.png)
+  ![Magnus metagenomics workflow](/assets/media/usegalaxy/metagenomics/magnus/metagenomics.png)
 
 - **Metatranscriptomics**
 
-    ![Magnus metatranscriptomics workflow](/assets/media/usegalaxy/metagenomics/magnus/metatranscriptomics.png)
+  ![Magnus metatranscriptomics workflow](/assets/media/usegalaxy/metagenomics/magnus/metatranscriptomics.png)
 
 - **Metaproteomics**
 
-    ![Magnus metaproteomics workflow](/assets/media/usegalaxy/metagenomics/magnus/metaproteomics.png)
+  ![Magnus metaproteomics workflow](/assets/media/usegalaxy/metagenomics/magnus/metaproteomics.png)
 
 - Integration of omics data using R
 
