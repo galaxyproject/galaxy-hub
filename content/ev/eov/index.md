@@ -11,6 +11,15 @@ From 2019 to 2022, EOSC-Nordic project was creating and developping Galaxy Clima
 
 # EOV
 
+[Essential Ocean Variables](https://goosocean.org/what-we-do/framework/essential-ocean-variables/) are defined by the [GOOS](https://goosocean.org/) (Global Ocean Observing System) as the minimum set of ocean variables that are needed to assess ocean state and variability for important global ocean phenomena, and to provide essential data for applications that support societal benefit.
+
+EOVs are identified regarding both **impact** (from climate, operational ocean services and ocean health perspective and for science and application) & **feasibility** (technically, politically and economically).
+
+ ![GOOS Essential Ocean Variables presentation from Martín Miguez & Heslop et al. 2026](https://goosocean.org/wp-content/uploads/2026/04/Graphical-abstract-updated-1024x410.png)
+ 
+ To look at a summary presentation of Essential Ocean Variables, one can rely on materials produced by the Marco Bolo project
+
+ ![Marco Bolo EOVs summary](https://marcobolo-project.eu/wp-content/uploads/2025/05/MARCO-BOLO_EOV-Infographic_May2025_DIGITAL_page-0001-674x1024.jpg)
 
 
 # Use Galaxy for operationalizing EOV
