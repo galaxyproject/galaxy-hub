@@ -11,6 +11,7 @@ permissions:
 jobs:
   update-citations:
     runs-on: ubuntu-latest
+    if: github.repository_owner == 'galaxyproject'
     steps:
       - name: Checkout
         uses: actions/checkout@v4
