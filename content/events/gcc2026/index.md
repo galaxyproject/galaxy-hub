@@ -174,7 +174,7 @@ Low volume — only what matters.
   <tbody>
     <tr class="lead text-left" style="background-color: white">
       <td style="border: 0; width: 20%;">
-        <img src="/images/events/gcc2026/GCC2026-logo.png" style="max-height: 200px;" alt="Conference Logo" />
+        <img src="/images/events/gcc2026/gcc2026-logo.png" style="max-height: 200px;" alt="Conference Logo" />
       </td>
     </tr>
   </tbody>
