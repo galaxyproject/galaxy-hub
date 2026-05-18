@@ -3,7 +3,6 @@
 # To update, run: python3 scripts/update-tools.py --server https://usegalaxy.eu --name "European Galaxy" --output content/eu/tools/index.md
 title: European Galaxy Tools
 description: "4264 tools and counting"
-components: true
 ---
 
 
