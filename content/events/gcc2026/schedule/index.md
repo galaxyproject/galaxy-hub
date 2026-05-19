@@ -585,7 +585,7 @@ Moderator: Pierre-Étienne Jacques
 
 ## Talks 4: FAIR data analysis workflows and public health applications
 
-Moderator: TBD
+Moderator: Solenne Coreard
 
 <div class="gcc-talk-list">
   <div class="gcc-talk-list-header" aria-hidden="true">
