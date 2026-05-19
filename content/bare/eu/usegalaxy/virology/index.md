@@ -35,19 +35,13 @@ components: true
 
 # Galaxy Europe for Virology
 
-
 Accessible and scalable viral data analysis for everyone
 
-----
-
 # What's this?
-
 
 The Virology Galaxy workbench is a comprehensive set of analysis tools and consolidated workflows.
 The workbench is based on the Galaxy framework, which guarantees simple access, easy extension, flexible adaption to personal and security needs,
 and sophisticated analyses independent of command-line knowledge.
-
-----
 
 # Full analysis solutions by viral pathogen
 
@@ -69,8 +63,6 @@ The [Galaxy Project](https://usegalaxy.org) virology community has prepared full
     <p>Work supported by the <a href="https://gdi.onemilliongenomes.eu/" title="GDI project" target="_blank">Genomic Data Infrastructure (GDI)</a> project.</p>
 </div>
 
-----
-
 # Vetlab support
 
 ![Galaxy Vetlab support](/assets/media/usegalaxy/virology/vetlab/vetlab_logo.jpg)
@@ -90,8 +82,6 @@ If you are a [VETLAB network](https://www.iaea.org/services/networks/vetlab) mem
     </a>
 </div>
 
-----
-
 # Primer and primer scheme design
 
 ![varVAMP](/assets/media/usegalaxy/virology/virologyeu_varvamp_logo.png)
@@ -99,8 +89,6 @@ If you are a [VETLAB network](https://www.iaea.org/services/networks/vetlab) mem
 Need to design primers for a simple diagnostic PCR, primers and probe for qPCR, or an entire primer scheme for tiled-amplicon sequencing? We are offering access to [varVAMP](https://virology.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fvarvamp%2Fvarvamp%2F1.2.0%2Bgalaxy0&version=latest) to cover your primer design needs.
 
 A dedicated tutorial about varVAMP and using it together with MAFF-T is coming soon. In the meantime please refer to the excellent [documentation of the tool](https://github.com/jonas-fuchs/varVAMP). You can safely skip the installation instructions because we have taken care of that for you :-)
-
-----
 
 # Tools, tools, tools
 
@@ -114,21 +102,18 @@ Explore the tool panel on the left hand side to learn what's there.
 
 We also provide reference data for different viral pathogens to help you get your analyses running faster. These include collections of reference sequences, published primer schemes, different versions of pangolin-data for SARS-CoV-2 lineage assignment, etc., which are listed on the pathogen-specific pages above (see Full analysis solutions).
 
-----
-
 **Something missing or not working?**
 
 <p>To discuss what others think about the scientific value of including specific new tools, reference data or workflows join the Galaxy Project's Public-Health <a href="https://matrix.to/#/%23galaxyproject_Public-Health%3Agitter.im?via=matrix.org&via=gitter.im" title="Public-Health matrix room" target="_blank"><b>[m]</b> matrix room</a>, or <a href="https://lists.galaxyproject.org/lists/public-health@lists.galaxyproject.org" title="Public-Health mailing list" target="_blank"><Icon name="mail" /> mailing list</a></p>
 <p>To report server-related issues join the <a href="https://matrix.to/#/#usegalaxy-eu_Lobby:gitter.im" title="usegalaxy-eu/Lobby" target="_blank">Galaxy Europe Lobby on <b>[m]</b> matrix</a> or submit a bug report directly from any failed dataset in your history.</p>
 
-----
-
 ![Galaxy for Virology](/assets/media/usegalaxy/virology/virologyeu_logo.png)
 
 # Content
 
-
-* TOC
-
-
-----
+- [What's this?](#whats-this)
+- [Full analysis solutions by viral pathogen](#full-analysis-solutions-by-viral-pathogen)
+- [Vetlab support](#vetlab-support)
+- [Primer and primer scheme design](#primer-and-primer-scheme-design)
+- [Tools, tools, tools](#tools-tools-tools)
+- [... and reference data](#and-reference-data)
