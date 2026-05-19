@@ -1,16 +1,17 @@
 ---
 title: MicroGalaxy
+components: true
 ---
 
 <slot name="/bare/eu/usegalaxy/notices" />
 
-<style>
+<style>{`
   .microgalaxy-resource-logo {
     width: min(100%, 16.25rem);
     max-width: 16.25rem;
     margin: 0;
   }
-</style>
+`}</style>
 
 ![microGalaxy logo](/assets/media/usegalaxy/microgalaxy/microgalaxy-logo.png)
 
@@ -29,7 +30,7 @@ Anybody interested in microbiology in Galaxy is welcome to join our microGalaxy 
 
 Want to learn even more about microbial analysis? You can check out our various microbial dedicated training page within the wider Galaxy Training Network.
 
-- <Icon name="book-open" /> [Metagenomic learning paths](https://training.galaxyproject.org/training-material/learning-pathways/metagenomics.html\)
+- <Icon name="book-open" /> [Metagenomic learning paths](https://training.galaxyproject.org/training-material/learning-pathways/metagenomics.html)
 - <Icon name="book-open" /> [Metabolomics](https://training.galaxyproject.org/training-material/topics/metabolomics/)
 - <Icon name="book-open" /> [Genome Annotation](https://training.galaxyproject.org/training-material/topics/genome-annotation/)
 - <Icon name="book-open" /> [Tuberculosis evolution](https://training.galaxyproject.org/training-material/topics/evolution/)
@@ -118,6 +119,6 @@ If you would like to know more about any of these projects or get involved, plea
 
 # Resources
 
-| Resource                                                                                                         | Description                                                      | Links                             |
-| ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | --------------------------------- |
+| Resource                                                                                                                                           | Description                                                      | Links                             |
+| -------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | --------------------------------- |
 | <img class="microgalaxy-resource-logo" src="https://www.jpiamr.eu/app/uploads/2021/09/JPIAMR-logo-no-tagline.png" alt="JPIAMR logo" width="260" /> | JPIAMR: Global Coordination of Antimicrobial Resistance Research | [Website](https://www.jpiamr.eu/) |
