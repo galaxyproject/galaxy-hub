@@ -1,5 +1,6 @@
 ---
 ---
+<!-- spellcheck-off -->
 
 # GCC2026 Daily Schedule
 
@@ -1428,21 +1429,8 @@ presentation.
   <summary>
     <span class="gcc-talk-time">28</span>
     <span class="gcc-talk-main">
-      <span class="gcc-talk-title">SPOC: Galaxy Single-cell & sPatial Omics Community of practice</span>
-      <span class="gcc-talk-authors"><strong>Videm Pavankumar</strong>, SPOC</span>
-    </span>
-    <span class="gcc-talk-poster gcc-talk-poster-empty">-</span>
-  </summary>
-  <div class="gcc-talk-abstract">
-    <p>Single-cell and spatial omics technologies have revolutionized biological research, yet their rapid development has created severe computational bottlenecks, including fragmented tools and incompatible data formats. The computational complexity and steep learning curve associated with different single-cell analysis environments often pose a significant hurdle for experimental biologists, making a user-friendly platform like Galaxy essential for data analysis. To address these challenges, the Galaxy Single-cell &amp; sPatial Omics Community of Practice (SPOC) was established in 2022 as a global, community-driven network of users, developers, and trainers collaborating to advance Galaxy’s single-cell and spatial omics tools, workflows, and training resources while promoting scalable and FAIR analysis.&nbsp;</p><p>A 2025 community update publication highlights the ecosystem’s massive growth, now featuring over 175 SPO tools from the Python and R ecosystems, such as Scanpy and Seurat, as well as 120 training resources provided through the Galaxy Training Network (GTN). These resources collectively guide users through the entire data lifecycle, from planning and data collection to processing and analysis, and ultimately to preservation, sharing, and reuse. SPOC has introduced new analysis methods for single-cell and spatial omics, including support for multimodal data integration, image-based and sequence-based spatial transcriptomics approaches, and advanced tasks such as automated cell type annotation, trajectory inference, and cell–cell interaction analysis. The Galaxy SPO tools support a broad range of standard formats used in single-cell and spatial omics. For single-cell data, these include AnnData, MuData for multimodal data, Loom, Seurat for data from the R ecosystem, and SingleCellExperiment from the Bioconductor community. For spatial data, they support structured formats such as SpatialData and Seurat objects along with imaging formats like OME-TIFF. Dedicated conversion tools further allow seamless transformation between these formats, enabling interoperability across Galaxy single-cell tools and workflows, while  simplifying data preprocessing and reuse.</p><p>SPOC is also closely aligned with European infrastructure efforts through active engagement with the ELIXIR Single-Cell Omics community. As part of the ELIXIR Spatial2Galaxy project, SPOC is developing a scalable, reproducible, and self-contained Galaxy-based platform specifically for spatial transcriptomics. This platform will feature benchmark-validated tools and workflows, along with associated training materials that incorporate best practices. In addition, SPOC contributes to the BioFAIR Pathfinder initiative through a project focused on developing FAIR and AI-ready single-cell workflows and training resources while strengthening interoperability between Galaxy and the Bioconductor ecosystem.</p><p><br /></p><p><br /></p>
-  </div>
-</details>
-<details class="gcc-talk">
-  <summary>
-    <span class="gcc-talk-time">29</span>
-    <span class="gcc-talk-main">
       <span class="gcc-talk-title">First-time Galaxy tool integration: feedback about challenges faced, from two trainees with different academic backgrounds</span>
-      <span class="gcc-talk-authors"><strong>Ka Abdou Lahat</strong>, Ruin Quentin, Cladiere Mathieu, Workflow4metabolomics Coreteam, Petera Mélanie</span>
+      <span class="gcc-talk-authors"><strong>Anthony Sleiman</strong>, Ka Abdou LahatRuin Quentin, Cladiere Mathieu, Workflow4metabolomics Coreteam, Petera Mélanie</span>
     </span>
     <span class="gcc-talk-poster gcc-talk-poster-empty">-</span>
   </summary>
@@ -1452,7 +1440,7 @@ presentation.
 </details>
 <details class="gcc-talk">
   <summary>
-    <span class="gcc-talk-time">30</span>
+    <span class="gcc-talk-time">29</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">Small Scale Admins</span>
       <span class="gcc-talk-authors"><strong>Hotz Hans-rudolf</strong>, Lopez-delisle Lucille, Goué Nadia, Bernt Matthias, Čech Martin, Davis John, Visan Vlad</span>
@@ -1465,10 +1453,10 @@ presentation.
 </details>
 <details class="gcc-talk">
   <summary>
-    <span class="gcc-talk-time">31</span>
+    <span class="gcc-talk-time">30</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">Repository-Coupled scRNA-seq Analysis with Galaxy</span>
-      <span class="gcc-talk-authors"><strong>Olha Jaroslav</strong>, Valkovský Viktor, Juráček Jaroslav, Křenek Aleš</span>
+      <span class="gcc-talk-authors">Olha Jaroslav, <strong>Valkovský Viktor</strong>, Juráček Jaroslav, Křenek Aleš</span>
     </span>
     <span class="gcc-talk-poster gcc-talk-poster-empty">-</span>
   </summary>
@@ -1478,7 +1466,7 @@ presentation.
 </details>
 <details class="gcc-talk">
   <summary>
-    <span class="gcc-talk-time">32</span>
+    <span class="gcc-talk-time">31</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">The Galaxy community in Switzerland</span>
       <span class="gcc-talk-authors"><strong>Lopez-delisle Lucille</strong>, Hotz Hans-rudolf, Thankam Sreedharan Vipin</span>
@@ -1491,7 +1479,7 @@ presentation.
 </details>
 <details class="gcc-talk">
   <summary>
-    <span class="gcc-talk-time">33</span>
+    <span class="gcc-talk-time">32</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">Galaxy-BioProd: An Integrated FAIR Platform for Synthetic Biology, Biotechnology and Life Cycle Analysis</span>
       <span class="gcc-talk-authors"><strong>Pragassam Anthony</strong>, Chaussepied Thomas, Bretaudeau Anthony, Le Corguillé Gildas, Faulon Jean-loup, Loux Valentin</span>
@@ -1509,7 +1497,7 @@ To address these issues, the Galaxy-BioProd project aims to develop a centralise
 </details>
 <details class="gcc-talk">
   <summary>
-    <span class="gcc-talk-time">34</span>
+    <span class="gcc-talk-time">33</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">Three Galaxies, One Grid, One Foundation: Building National Bioinformatics Infrastructure in Czechia</span>
       <span class="gcc-talk-authors"><strong>Cech Martin</strong>, Demko Martin</span>
@@ -1522,15 +1510,41 @@ To address these issues, the Galaxy-BioProd project aims to develop a centralise
 </details>
 <details class="gcc-talk">
   <summary>
-    <span class="gcc-talk-time">35</span>
+    <span class="gcc-talk-time">34</span>
     <span class="gcc-talk-main">
-      <span class="gcc-talk-title">SemSec: Using Crypt4GH Recryption to Secure and Orchestrate Analysis of Encrypted Datasets from EGA/FEGA in Galaxy</span>
-      <span class="gcc-talk-authors"><strong>Gundersen Sveinung</strong>, Chavero Díez María, De Geest Paul, De La Torre Pernas Sabela, Maier Wolfgang, Repchevsky Dmitry, Mokhtar Farag Yehia, López Tabernero David, Niederlöhner Ralph, Vázquez Pável, Aasland Rein, Coppens Frederik,  Grüning Björn, Hovig Eivind, Rambla Jordi, Capella-gutierrez Salvador</span>
+      <span class="gcc-talk-title">SPOC: Galaxy Single-cell & sPatial Omics Community of practice</span>
+      <span class="gcc-talk-authors"><strong>Videm Pavankumar</strong>, SPOC</span>
     </span>
-    <span class="gcc-talk-poster">Also Demo</span>
+    <span class="gcc-talk-poster gcc-talk-poster-empty">-</span>
   </summary>
   <div class="gcc-talk-abstract">
-    <p>The growing use of controlled-access human data and encryption‑at‑rest policies in biomedical research creates tension between strong security and interactive, workflow‑based analysis. Virtual Research Environments (VREs) such as Galaxy are widely adopted for reproducible, user‑friendly data analysis, but their traditional execution model assumes that data can be decrypted within the platform or its attached compute resources. For sensitive data, this assumption is no longer acceptable: private keys must remain under user control, and decryption should be confined to Trusted or Secure Processing Environments (TREs/SPEs).</p><p>Within the ELIXIR Commissioned Service “Empowering Users: Orchestrating Sensitive Data Access for Interactive Federated Analysis in VREs”, we are developing a solution to allow Galaxy to securely analyse datasets encrypted according to the GA4GH Crypt4GH standard. At its core is a Crypt4GH‑based Recryptor architecture that allows Galaxy to orchestrate analysis of encrypted data without ever handling user private keys or plaintext. With direct support for importing encrypted datasets from the European Genome-phenome Archive (EGA, including Federated EGA), EGA/FEGA serves as the primary use case. Our approach is, however, generalisable not only to other sources of encrypted data, but also to other VREs.</p><p>We treat encrypted files as first‑class objects in Galaxy via Crypt4GH‑aware datatypes that maintain the specificity needed to link tools and workflows. We take advantage of a powerful feature of Crypt4GH to re-encrypt (or “recrypt”) small headers without touching the encrypted data itself. In Galaxy, we store recrypted headers in the metadata of the datasets, allowing the dataset to remain untouched wherever it is located. A user‑side Recryptor service runs locally, exposing a REST API that the Galaxy web client contacts from the browser. This service stores the user’s Crypt4GH private key locally and performs header‑only “recryption” to short‑lived public keys of compute‑side Recryptor services deployed in TRE/SPE backends. Galaxy’s existing remote file source and job scheduling mechanisms then stream encrypted payloads directly to secure compute nodes, where decryption, analysis, and re‑encryption of outputs for the authorised user are performed.</p><p>By GCC 2026, we plan to demonstrate this pattern end‑to‑end on synthetic, human‑data‑like datasets, including an EGA integration, subject to the progress of ongoing development. The result is a reusable design that preserves Galaxy’s interactive strengths while aligning with modern requirements for encrypted, federated analysis of sensitive data.</p>
+    <p>Single-cell and spatial omics technologies have revolutionized biological research, yet their rapid development has created severe computational bottlenecks, including fragmented tools and incompatible data formats. The computational complexity and steep learning curve associated with different single-cell analysis environments often pose a significant hurdle for experimental biologists, making a user-friendly platform like Galaxy essential for data analysis. To address these challenges, the Galaxy Single-cell &amp; sPatial Omics Community of Practice (SPOC) was established in 2022 as a global, community-driven network of users, developers, and trainers collaborating to advance Galaxy’s single-cell and spatial omics tools, workflows, and training resources while promoting scalable and FAIR analysis.&nbsp;</p><p>A 2025 community update publication highlights the ecosystem’s massive growth, now featuring over 175 SPO tools from the Python and R ecosystems, such as Scanpy and Seurat, as well as 120 training resources provided through the Galaxy Training Network (GTN). These resources collectively guide users through the entire data lifecycle, from planning and data collection to processing and analysis, and ultimately to preservation, sharing, and reuse. SPOC has introduced new analysis methods for single-cell and spatial omics, including support for multimodal data integration, image-based and sequence-based spatial transcriptomics approaches, and advanced tasks such as automated cell type annotation, trajectory inference, and cell–cell interaction analysis. The Galaxy SPO tools support a broad range of standard formats used in single-cell and spatial omics. For single-cell data, these include AnnData, MuData for multimodal data, Loom, Seurat for data from the R ecosystem, and SingleCellExperiment from the Bioconductor community. For spatial data, they support structured formats such as SpatialData and Seurat objects along with imaging formats like OME-TIFF. Dedicated conversion tools further allow seamless transformation between these formats, enabling interoperability across Galaxy single-cell tools and workflows, while  simplifying data preprocessing and reuse.</p><p>SPOC is also closely aligned with European infrastructure efforts through active engagement with the ELIXIR Single-Cell Omics community. As part of the ELIXIR Spatial2Galaxy project, SPOC is developing a scalable, reproducible, and self-contained Galaxy-based platform specifically for spatial transcriptomics. This platform will feature benchmark-validated tools and workflows, along with associated training materials that incorporate best practices. In addition, SPOC contributes to the BioFAIR Pathfinder initiative through a project focused on developing FAIR and AI-ready single-cell workflows and training resources while strengthening interoperability between Galaxy and the Bioconductor ecosystem.</p><p><br /></p><p><br /></p>
+  </div>
+</details>
+<details class="gcc-talk">
+  <summary>
+    <span class="gcc-talk-time">35</span>
+    <span class="gcc-talk-main">
+      <span class="gcc-talk-title">Towards an ODATIS Galaxy Environment for Reproducible Cross-Domain Marine Data Analysis</span>
+      <span class="gcc-talk-authors"><strong>Leroi Laura</strong>, Jossé Marie, Caer Gwenaël, Detoc Jérôme</span>
+    </span>
+    <span class="gcc-talk-poster gcc-talk-poster-empty">-</span>
+  </summary>
+  <div class="gcc-talk-abstract">
+    <p>Towards an ODATIS Galaxy Environment for Reproducible Cross-Domain Marine Data Analysis<br /><br />As a national ocean data and services hub, ODATIS is exploring how Galaxy could be integrated into its service catalog as an open solution for reproducible marine data analysis, workflow sharing, and training activities. This initiative builds upon the work carried out within the FAIR-EASE project in collaboration with the Galaxy Europe team, including the development of Galaxy for Earth System Science as a key outcome, which contributed to extending Galaxy capabilities toward marine and environmental sciences. This work explores a Galaxy-based environment for reproducible marine data analysis, integrating multi-source data, scalable workflows, and High Performance Computing (HPC) access at the institutional level.<br /><br />Within FAIR-EASE and the Galaxy for Earth System Science initiative, several new functionalities were developed to support ocean-related scientific workflows, including simplified access to oceanographic and satellite datasets, integration of interactive visualization environments, harmonization of heterogeneous observations, spatial interpolation and mapping of ocean variables, estimation of biogeochemical parameters using machine learning, detection of biosynthetic gene clusters from marine omics data, and the extension of workflows toward AI-based analysis, including YOLO-based models applied to marine imagery for species detection.<br /><br />ODATIS aims to capitalize on these developments and continue deploying operational Galaxy-based services for reproducible and accessible marine data analysis, facilitating the transition from isolated notebook-based developments toward reusable, reproducible, and scalable Galaxy workflows accessible to scientists with limited IT expertise, while enabling the integration and cross-analysis of oceanographic, satellite, biological, omics, and bioinformatics data within shared analytical pipelines. This cross-domain capability is particularly relevant for marine science, where understanding ecosystem functioning increasingly requires connecting physical and biogeochemical observations with biodiversity, microbiome, genomic, and functional data. In this context, ODATIS also aims to simplify access to the HPC infrastructure of Ifremer’s Marine Data and Computing Center through Galaxy-based interfaces and workflows, enabling scalable processing of large marine datasets.<br /><br />This initiative continues FAIR-EASE and Galaxy for Earth System Science efforts, while contributing to the Galaxy community through shared tools, workflows, and training materials via the Galaxy Training Network (GTN), and by promoting interoperability with larger-scale platforms and distributed infrastructures, notably through Pulsar.<br /><br />The poster will present several representative applications, including:<br /><br /></p><ul><li>satellite and in situ data colocalization workflows;</li><li>coastal and ocean biogeochemical data analysis workflows;</li><li>marine biodiversity and metabarcoding analysis workflows;</li><li>marine metagenomics and microbiome analysis workflows;</li><li>integration with the HPC infrastructure of Ifremer’s Marine Data and Computing Center;</li><li>as well as an overview of marine science tools integrated into the Galaxy ecosystem.</li></ul>
+  </div>
+</details>
+<details class="gcc-talk">
+  <summary>
+    <span class="gcc-talk-time">36</span>
+    <span class="gcc-talk-main">
+      <span class="gcc-talk-title">Launching the Galaxy UK Special Interest Group: National ecosystem coordination supported by the BioFAIR Fellowship</span>
+      <span class="gcc-talk-authors"><strong>Soranzo Nicola</strong>, Loach Marisa</span>
+    </span>
+    <span class="gcc-talk-poster gcc-talk-poster-empty">-</span>
+  </summary>
+  <div class="gcc-talk-abstract">
+    <p>The UK bioscience community features a highly active and diverse ecosystem of Galaxy users, tool and workflow developers, trainers, and service providers. To coordinate these efforts, we are establishing a Galaxy UK Special Interest Group (SIG) under the official Galaxy community governance, with support from the BioFAIR Fellowship programme. BioFAIR is a £34 million UKRI-funded digital research infrastructure designed to connect existing services, communities, and expertise into a cohesive national landscape for FAIR (Findable, Accessible, Interoperable, Reusable) data management and analysis for the UK life sciences. Within this framework, the BioFAIR Fellowship provides dedicated specialist time to engage with the UK-wide community and build a national "People Commons", with the first cohort focused on workflow development and management. Here we present how this collaborative approach is driving community-led governance and promoting practical workflow FAIRification both domestically and internationally.</p><p><br />We began by engaging researchers and technical staff at key UK research organisations actively involved in Galaxy use, development, or training. Convened for its inaugural meeting in May 2026, the SIG has successfully brought regional stakeholders together to establish the group's web presence, launch a public Matrix chat channel, and discuss formal representation on the global Galaxy Community Board. The SIG serves as an open, welcoming forum to discuss national training and infrastructure needs, helping to shape the services being built by BioFAIR, in particular its Methods Commons. This integrated digital platform is designed to provide life scientists with access to national-scale capabilities for the discovery, execution, sharing and reuse of computational workflows, tools and notebooks.</p><p><br />Alongside national governance and requirements gathering, the Fellows support the community in adopting reproducible, open science practices by assisting researchers in aligning their Galaxy workflows with FAIR standards and publishing them via registries like the Intergalactic Workflow Commission (IWC) and WorkflowHub. These dissemination efforts have been promoted internationally, such as through the talk "FAIR computational workflows and Galaxy" delivered at the March 2026 online meeting of the Euro-BioImaging FAIR Image Data Workflows Expert Group, and contributing to the online Galaxy Training Academy (18-22 May 2026). Domestically, these practical concepts are being advanced through dedicated community events, including a breakout session at the BioFAIR Showcase in Cambridge (14-15 May 2026). This continuous engagement through the SIG and practical workshops ensures that the development of BioFAIR’s national infrastructure remains rooted in the real-world requirements of the UK research community.</p>
   </div>
 </details>
 </div>
@@ -2036,31 +2050,18 @@ To address these issues, the Galaxy-BioProd project aims to develop a centralise
   <summary>
     <span class="gcc-talk-time">34</span>
     <span class="gcc-talk-main">
-      <span class="gcc-talk-title">Towards an ODATIS Galaxy Environment for Reproducible Cross-Domain Marine Data Analysis</span>
-      <span class="gcc-talk-authors"><strong>Leroi Laura</strong>, Jossé Marie, Caer Gwenaël, Detoc Jérôme</span>
+      <span class="gcc-talk-title">SemSec: Using Crypt4GH Recryption to Secure and Orchestrate Analysis of Encrypted Datasets from EGA/FEGA in Galaxy</span>
+      <span class="gcc-talk-authors"><strong>Gundersen Sveinung</strong>, Chavero Díez María, De Geest Paul, De La Torre Pernas Sabela, Maier Wolfgang, Repchevsky Dmitry, Mokhtar Farag Yehia, López Tabernero David, Niederlöhner Ralph, Vázquez Pável, Aasland Rein, Coppens Frederik,  Grüning Björn, Hovig Eivind, Rambla Jordi, Capella-gutierrez Salvador</span>
     </span>
-    <span class="gcc-talk-poster gcc-talk-poster-empty">-</span>
+    <span class="gcc-talk-poster">Also Demo</span>
   </summary>
   <div class="gcc-talk-abstract">
-    <p>Towards an ODATIS Galaxy Environment for Reproducible Cross-Domain Marine Data Analysis<br /><br />As a national ocean data and services hub, ODATIS is exploring how Galaxy could be integrated into its service catalog as an open solution for reproducible marine data analysis, workflow sharing, and training activities. This initiative builds upon the work carried out within the FAIR-EASE project in collaboration with the Galaxy Europe team, including the development of Galaxy for Earth System Science as a key outcome, which contributed to extending Galaxy capabilities toward marine and environmental sciences. This work explores a Galaxy-based environment for reproducible marine data analysis, integrating multi-source data, scalable workflows, and High Performance Computing (HPC) access at the institutional level.<br /><br />Within FAIR-EASE and the Galaxy for Earth System Science initiative, several new functionalities were developed to support ocean-related scientific workflows, including simplified access to oceanographic and satellite datasets, integration of interactive visualization environments, harmonization of heterogeneous observations, spatial interpolation and mapping of ocean variables, estimation of biogeochemical parameters using machine learning, detection of biosynthetic gene clusters from marine omics data, and the extension of workflows toward AI-based analysis, including YOLO-based models applied to marine imagery for species detection.<br /><br />ODATIS aims to capitalize on these developments and continue deploying operational Galaxy-based services for reproducible and accessible marine data analysis, facilitating the transition from isolated notebook-based developments toward reusable, reproducible, and scalable Galaxy workflows accessible to scientists with limited IT expertise, while enabling the integration and cross-analysis of oceanographic, satellite, biological, omics, and bioinformatics data within shared analytical pipelines. This cross-domain capability is particularly relevant for marine science, where understanding ecosystem functioning increasingly requires connecting physical and biogeochemical observations with biodiversity, microbiome, genomic, and functional data. In this context, ODATIS also aims to simplify access to the HPC infrastructure of Ifremer’s Marine Data and Computing Center through Galaxy-based interfaces and workflows, enabling scalable processing of large marine datasets.<br /><br />This initiative continues FAIR-EASE and Galaxy for Earth System Science efforts, while contributing to the Galaxy community through shared tools, workflows, and training materials via the Galaxy Training Network (GTN), and by promoting interoperability with larger-scale platforms and distributed infrastructures, notably through Pulsar.<br /><br />The poster will present several representative applications, including:<br /><br /></p><ul><li>satellite and in situ data colocalization workflows;</li><li>coastal and ocean biogeochemical data analysis workflows;</li><li>marine biodiversity and metabarcoding analysis workflows;</li><li>marine metagenomics and microbiome analysis workflows;</li><li>integration with the HPC infrastructure of Ifremer’s Marine Data and Computing Center;</li><li>as well as an overview of marine science tools integrated into the Galaxy ecosystem.</li></ul>
+    <p>The growing use of controlled-access human data and encryption‑at‑rest policies in biomedical research creates tension between strong security and interactive, workflow‑based analysis. Virtual Research Environments (VREs) such as Galaxy are widely adopted for reproducible, user‑friendly data analysis, but their traditional execution model assumes that data can be decrypted within the platform or its attached compute resources. For sensitive data, this assumption is no longer acceptable: private keys must remain under user control, and decryption should be confined to Trusted or Secure Processing Environments (TREs/SPEs).</p><p>Within the ELIXIR Commissioned Service “Empowering Users: Orchestrating Sensitive Data Access for Interactive Federated Analysis in VREs”, we are developing a solution to allow Galaxy to securely analyse datasets encrypted according to the GA4GH Crypt4GH standard. At its core is a Crypt4GH‑based Recryptor architecture that allows Galaxy to orchestrate analysis of encrypted data without ever handling user private keys or plaintext. With direct support for importing encrypted datasets from the European Genome-phenome Archive (EGA, including Federated EGA), EGA/FEGA serves as the primary use case. Our approach is, however, generalisable not only to other sources of encrypted data, but also to other VREs.</p><p>We treat encrypted files as first‑class objects in Galaxy via Crypt4GH‑aware datatypes that maintain the specificity needed to link tools and workflows. We take advantage of a powerful feature of Crypt4GH to re-encrypt (or “recrypt”) small headers without touching the encrypted data itself. In Galaxy, we store recrypted headers in the metadata of the datasets, allowing the dataset to remain untouched wherever it is located. A user‑side Recryptor service runs locally, exposing a REST API that the Galaxy web client contacts from the browser. This service stores the user’s Crypt4GH private key locally and performs header‑only “recryption” to short‑lived public keys of compute‑side Recryptor services deployed in TRE/SPE backends. Galaxy’s existing remote file source and job scheduling mechanisms then stream encrypted payloads directly to secure compute nodes, where decryption, analysis, and re‑encryption of outputs for the authorised user are performed.</p><p>By GCC 2026, we plan to demonstrate this pattern end‑to‑end on synthetic, human‑data‑like datasets, including an EGA integration, subject to the progress of ongoing development. The result is a reusable design that preserves Galaxy’s interactive strengths while aligning with modern requirements for encrypted, federated analysis of sensitive data.</p>
   </div>
 </details>
 <details class="gcc-talk">
   <summary>
     <span class="gcc-talk-time">35</span>
-    <span class="gcc-talk-main">
-      <span class="gcc-talk-title">Launching the Galaxy UK Special Interest Group: National ecosystem coordination supported by the BioFAIR Fellowship</span>
-      <span class="gcc-talk-authors"><strong>Soranzo Nicola</strong>, Loach Marisa</span>
-    </span>
-    <span class="gcc-talk-poster gcc-talk-poster-empty">-</span>
-  </summary>
-  <div class="gcc-talk-abstract">
-    <p>The UK bioscience community features a highly active and diverse ecosystem of Galaxy users, tool and workflow developers, trainers, and service providers. To coordinate these efforts, we are establishing a Galaxy UK Special Interest Group (SIG) under the official Galaxy community governance, with support from the BioFAIR Fellowship programme. BioFAIR is a £34 million UKRI-funded digital research infrastructure designed to connect existing services, communities, and expertise into a cohesive national landscape for FAIR (Findable, Accessible, Interoperable, Reusable) data management and analysis for the UK life sciences. Within this framework, the BioFAIR Fellowship provides dedicated specialist time to engage with the UK-wide community and build a national "People Commons", with the first cohort focused on workflow development and management. Here we present how this collaborative approach is driving community-led governance and promoting practical workflow FAIRification both domestically and internationally.</p><p><br />We began by engaging researchers and technical staff at key UK research organisations actively involved in Galaxy use, development, or training. Convened for its inaugural meeting in May 2026, the SIG has successfully brought regional stakeholders together to establish the group's web presence, launch a public Matrix chat channel, and discuss formal representation on the global Galaxy Community Board. The SIG serves as an open, welcoming forum to discuss national training and infrastructure needs, helping to shape the services being built by BioFAIR, in particular its Methods Commons. This integrated digital platform is designed to provide life scientists with access to national-scale capabilities for the discovery, execution, sharing and reuse of computational workflows, tools and notebooks.</p><p><br />Alongside national governance and requirements gathering, the Fellows support the community in adopting reproducible, open science practices by assisting researchers in aligning their Galaxy workflows with FAIR standards and publishing them via registries like the Intergalactic Workflow Commission (IWC) and WorkflowHub. These dissemination efforts have been promoted internationally, such as through the talk "FAIR computational workflows and Galaxy" delivered at the March 2026 online meeting of the Euro-BioImaging FAIR Image Data Workflows Expert Group, and contributing to the online Galaxy Training Academy (18-22 May 2026). Domestically, these practical concepts are being advanced through dedicated community events, including a breakout session at the BioFAIR Showcase in Cambridge (14-15 May 2026). This continuous engagement through the SIG and practical workshops ensures that the development of BioFAIR’s national infrastructure remains rooted in the real-world requirements of the UK research community.</p>
-  </div>
-</details>
-<details class="gcc-talk">
-  <summary>
-    <span class="gcc-talk-time">36</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">ProMaya: a hierarchical universal Deep Learning framework for accurate and interpretable Protein-Protein interaction identification</span>
       <span class="gcc-talk-authors"><strong>Bhati Umesh</strong>, Shankar Ravi</span>
