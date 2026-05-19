@@ -4,6 +4,23 @@ title: Galaxy Metagenomics
 
 <slot name="/bare/eu/usegalaxy/notices" />
 
+<style>
+  .usegalaxy-video-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 24rem), 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0 2rem;
+  }
+
+  .usegalaxy-video-row iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    border: 0;
+    border-radius: 0.5rem;
+  }
+</style>
+
 ![Plant Analysis on Galaxy](/assets/media/usegalaxy/metagenomics/asaim_logo.png)
 
 # Welcome to Galaxy for Microbiome

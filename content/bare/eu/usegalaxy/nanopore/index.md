@@ -4,6 +4,66 @@ title: Galaxy Nanopore
 
 <slot name="/bare/eu/usegalaxy/notices" />
 
+<style>
+  .nanogalaxy-toolkit {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(16rem, 0.8fr);
+    gap: 1rem;
+    align-items: stretch;
+    margin: 1.5rem 0 2rem;
+  }
+
+  .nanogalaxy-tool-list {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .nanogalaxy-tool-list section,
+  .nanogalaxy-workflows article {
+    background: #fff;
+    border: 1px solid rgba(37, 83, 123, 0.14);
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px rgba(44, 49, 67, 0.08);
+    padding: 1rem;
+  }
+
+  .nanogalaxy-tool-list h3 {
+    font-size: 1rem;
+    margin: 0 0 0.5rem;
+  }
+
+  .nanogalaxy-tool-list p,
+  .nanogalaxy-workflows p {
+    margin: 0.5rem 0 0;
+  }
+
+  .nanogalaxy-toolkit > img {
+    align-self: center;
+    width: min(100%, 26rem);
+    margin: 0 auto;
+  }
+
+  .nanogalaxy-workflows {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0 2rem;
+  }
+
+  .nanogalaxy-workflows img {
+    width: 100%;
+    max-height: 16rem;
+    object-fit: contain;
+    margin: 0 auto 1rem;
+  }
+
+  @media (max-width: 767px) {
+    .nanogalaxy-toolkit {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
 ![NanoGalaxy logo](/assets/media/usegalaxy/nanopore/nanogalaxy_logo.png)
 
 Welcome to **NanoGalaxy** -- a webserver to process, analyse and visualize Oxford Nanopore Technologies (ONT) data and similar long-reads technologies.

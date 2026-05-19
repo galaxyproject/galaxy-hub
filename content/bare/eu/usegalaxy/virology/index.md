@@ -5,6 +5,32 @@ components: true
 
 <slot name="/bare/eu/usegalaxy/notices" />
 
+<style>{`
+  .virology-button-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .virology-button-group a {
+    display: inline-flex;
+    text-decoration: none;
+  }
+
+  .virology-button-group .btn {
+    max-width: 100%;
+    white-space: normal;
+  }
+
+  .virology-button-group p {
+    flex-basis: 100%;
+    margin-top: 1.5rem;
+  }
+`}</style>
+
 ![Galaxy for Virology](/assets/media/usegalaxy/virology/virologyeu_banner.png)
 
 # Galaxy Europe for Virology
@@ -27,7 +53,7 @@ and sophisticated analyses independent of command-line knowledge.
 
 The [Galaxy Project](https://usegalaxy.org) virology community has prepared full analysis solutions to support genome sequencing questions around several important human and animal viral pathogens. These solutions come as bundles of analysis workflows, data resources and accompanying training material that will allow researchers to get state-of-the-art and scalable sequencing data analysis for their virus of interest running in the shortest possible amount of time with zero installation effort.
 
-<div align="center">
+<div class="virology-button-group">
     <a href="https://virology.usegalaxy.eu/published/page?id=97bff2c5f4556a3c" target="_top">
         <button type="button" class="btn btn-primary btn-lg">SARS-CoV-2</button>
     </a>
@@ -55,11 +81,10 @@ Galaxy Europe is offering ready to use workflows for veterinary laboratories und
 
 If you are a [VETLAB network](https://www.iaea.org/services/networks/vetlab) member, you can jump directly to your workflow of interest.
 
-<div align="center" style="padding-bottom: 10px;">
+<div class="virology-button-group">
     <a href="https://virology.usegalaxy.eu/published/workflow?id=bc5ced57e711acf9" target="_top">
         <button type="button" class="btn btn-primary btn-lg"><span>AIV subtyping and consensus genome construction</span><br/><span>from short-reads sequencing data</span></button>
     </a>
-    <p></p>
     <a href="https://virology.usegalaxy.eu/published/workflow?id=629e57958afed44c" target="_top">
         <button type="button" class="btn btn-primary btn-lg"><span>LSDV consensus genome construction</span><br/><span>from short-reads sequencing data</span></button>
     </a>
@@ -107,4 +132,3 @@ We also provide reference data for different viral pathogens to help you get you
 
 
 ----
-

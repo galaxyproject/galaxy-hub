@@ -4,6 +4,14 @@ title: MicroGalaxy
 
 <slot name="/bare/eu/usegalaxy/notices" />
 
+<style>
+  .microgalaxy-resource-logo {
+    width: min(100%, 16.25rem);
+    max-width: 16.25rem;
+    margin: 0;
+  }
+</style>
+
 ![microGalaxy logo](/assets/media/usegalaxy/microgalaxy/microgalaxy-logo.png)
 
 # Welcome to microGalaxy!
@@ -112,4 +120,4 @@ If you would like to know more about any of these projects or get involved, plea
 
 | Resource                                                                                                         | Description                                                      | Links                             |
 | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | --------------------------------- |
-| <img src="https://www.jpiamr.eu/app/uploads/2021/09/JPIAMR-logo-no-tagline.png" alt="JPIAMR logo" width="260" /> | JPIAMR: Global Coordination of Antimicrobial Resistance Research | [Website](https://www.jpiamr.eu/) |
+| <img class="microgalaxy-resource-logo" src="https://www.jpiamr.eu/app/uploads/2021/09/JPIAMR-logo-no-tagline.png" alt="JPIAMR logo" width="260" /> | JPIAMR: Global Coordination of Antimicrobial Resistance Research | [Website](https://www.jpiamr.eu/) |
