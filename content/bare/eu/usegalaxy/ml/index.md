@@ -8,7 +8,7 @@ components: true
 # Welcome to the Galaxy Machine Learning workbench
 
 
-![ML Galaxy](/assets/media/usegalaxy/ml/machine_learning_logo.png)
+<img src="/assets/media/usegalaxy/ml/machine_learning_logo.png" alt="ML Galaxy" style="float: right; width: min(35vw, 15rem); height: auto; margin: 0 0 1rem 1.5rem;" />
 
 The Galaxy Machine Learning workbench is a comprehensive set of data preprocessing, machine learning, deep learning and visualisation tools, consolidated workflows for end-to-end machine learning analysis and training materials to showcase the usage of these tools.
 The workbench is available on the [Galaxy framework](https://galaxyproject.org), which guarantees simple access, easy extension, flexible adaption to personal and security needs, and sophisticated machine learning analyses independent of command-line knowledge.
@@ -24,7 +24,20 @@ The project is a community effort, please jump in, ask questions, and contribute
 
 # Content
 
-
+- [Get started](#get-started)
+- [Training](#training)
+- [Available tools](#available-tools)
+  - [Classification](#classification)
+  - [Regression](#regression)
+  - [Clustering](#clustering)
+  - [Model building](#model-building)
+  - [Model evaluation](#model-evaluation)
+  - [Preprocessing and feature selection](#preprocessing-and-feature-selection)
+  - [Deep learning](#deep-learning)
+  - [Visualization](#visualization)
+  - [Utilities](#utilities)
+  - [Interactive Environments](#interactive-environments)
+- [Contributors](#contributors)
 
 # Get started
 
@@ -42,12 +55,12 @@ Want to learn more about machine learning? Take one of our guided tours or check
 
 Lesson | Slides | Hands-on | Input dataset | Workflows | Galaxy tour | Galaxy History
 --- | --- | --- | --- | --- | --- | ---
-Basics of machine learning |  | [<Icon name="laptop" />](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/machinelearning/tutorial.html) | [<Icon name="files-o" />](https://zenodo.org/record/1468039#.W8zyxBRoSAo) | [<Icon name="share-2" />](https://ml.usegalaxy.eu/workflows/run?id=17e99647745eb150) | [<Icon name="magic" />](https://github.com/galaxyproject/training-material/tree/master/topics/statistics/tutorials/machinelearning/tours/) | [<Icon name="list-ul" />](https://ml.usegalaxy.eu/u/sbray/h/basics-of-machine-learning) |
-Classification |  | [<Icon name="laptop" />](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/classification_machinelearning/tutorial.html) | [<Icon name="files-o" />](https://zenodo.org/record/3738729#.XsjpbHUzY5k) | [<Icon name="share-2" />](https://ml.usegalaxy.eu/workflows/run?id=1d55d5d20c581b16) | | |
-Regression |  | [<Icon name="laptop" />](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/regression_machinelearning/tutorial.html) | [<Icon name="files-o" />](https://zenodo.org/record/2579649#.XHep39F7mL4) | [<Icon name="share-2" />](https://ml.usegalaxy.eu/workflows/run?id=138d4893a1d6228e)  | | |
-Age prediction using machine learning |  | [<Icon name="laptop" />](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/age-prediction-with-ml/tutorial.html) | [<Icon name="files-o" />](https://zenodo.org/record/2545213#.XEWTJ9-YVa0) | [<Icon name="share-2" />](https://ml.usegalaxy.eu/workflows/run?id=83fe480cdbb70099) [<Icon name="share-2" />](https://ml.usegalaxy.eu/workflows/run?id=a669986e1a5cee31) |  | [<Icon name="list-ul" />](https://ml.usegalaxy.eu/u/sbray/h/age-prediction-using-machine-learning---rnaseq) [<Icon name="list-ul" />](https://ml.usegalaxy.eu/u/sbray/h/age-prediction-using-machine-learning---dna-methylation) |
-Clustering |  | [<Icon name="laptop" />](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/clustering_machinelearning/tutorial.html) | [<Icon name="files-o" />](https://zenodo.org/record/3813447#.Xsjsy3UzY5k) | [<Icon name="share-2" />](https://ml.usegalaxy.eu/workflows/run?id=848389c45cebe34f) | | |
-Introduction to deep learning |  | [<Icon name="laptop" />](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/intro_deep_learning/tutorial.html) | [<Icon name="files-o" />](https://zenodo.org/record/3706539#.XsjteHUzY5l) | | | |
+Basics of machine learning |  | [<Icon name="laptop" />](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/machinelearning/tutorial.html) | [<Icon name="files" />](https://zenodo.org/record/1468039#.W8zyxBRoSAo) | [<Icon name="share-2" />](https://ml.usegalaxy.eu/workflows/run?id=17e99647745eb150) | [<Icon name="wand-2" />](https://github.com/galaxyproject/training-material/tree/master/topics/statistics/tutorials/machinelearning/tours/) | [<Icon name="list" />](https://ml.usegalaxy.eu/u/sbray/h/basics-of-machine-learning) |
+Classification |  | [<Icon name="laptop" />](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/classification_machinelearning/tutorial.html) | [<Icon name="files" />](https://zenodo.org/record/3738729#.XsjpbHUzY5k) | [<Icon name="share-2" />](https://ml.usegalaxy.eu/workflows/run?id=1d55d5d20c581b16) | | |
+Regression |  | [<Icon name="laptop" />](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/regression_machinelearning/tutorial.html) | [<Icon name="files" />](https://zenodo.org/record/2579649#.XHep39F7mL4) | [<Icon name="share-2" />](https://ml.usegalaxy.eu/workflows/run?id=138d4893a1d6228e)  | | |
+Age prediction using machine learning |  | [<Icon name="laptop" />](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/age-prediction-with-ml/tutorial.html) | [<Icon name="files" />](https://zenodo.org/record/2545213#.XEWTJ9-YVa0) | [<Icon name="share-2" />](https://ml.usegalaxy.eu/workflows/run?id=83fe480cdbb70099) [<Icon name="share-2" />](https://ml.usegalaxy.eu/workflows/run?id=a669986e1a5cee31) |  | [<Icon name="list" />](https://ml.usegalaxy.eu/u/sbray/h/age-prediction-using-machine-learning---rnaseq) [<Icon name="list" />](https://ml.usegalaxy.eu/u/sbray/h/age-prediction-using-machine-learning---dna-methylation) |
+Clustering |  | [<Icon name="laptop" />](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/clustering_machinelearning/tutorial.html) | [<Icon name="files" />](https://zenodo.org/record/3813447#.Xsjsy3UzY5k) | [<Icon name="share-2" />](https://ml.usegalaxy.eu/workflows/run?id=848389c45cebe34f) | | |
+Introduction to deep learning |  | [<Icon name="laptop" />](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/intro_deep_learning/tutorial.html) | [<Icon name="files" />](https://zenodo.org/record/3706539#.XsjteHUzY5l) | | | |
 
 
 
@@ -184,3 +197,7 @@ Tool | Description | Reference
 - [Alireza Khanteymoori](https://github.com/khanteymoori)
 - [Simon Bray](https://github.com/simonbray)
 - [Vahid Jalili](https://github.com/VJalili)
+
+<slot name="/eu/common/data-policy" />
+
+<slot name="/bare/eu/usegalaxy/jobs" />
