@@ -8,50 +8,65 @@ title: Galaxy HiCExplorer
 
 Welcome to the Galaxy HiCExplorer -- a webserver to process, analyse and visualize Hi-C, capture Hi-C, HiChIP and single-cell Hi-C data.
 
-![](https://raw.githubusercontent.com/deeptools/HiCExplorer/master/docs/images/hicex3.png)
+<img src="/assets/media/usegalaxy/hicexplorer/hicex3.png" alt="HiCExplorer" style="max-width: min(100%, 34rem); height: auto;" />
+
+# Content
+
+- [Get started with Galaxy HiCExplorer](#get-started-with-galaxy-hicexplorer)
+  - [Example data](#example-data)
+  - [Capture Hi-C and HiChIP](#capture-hi-c-and-hichip)
+  - [Single-cell Hi-C](#single-cell-hi-c)
+- [HiGlass](#higlass)
+- [Galaxy HiCExplorer -- many possibilities](#galaxy-hicexplorer--many-possibilities)
+- [Workflows](#workflows)
+  - [From scratch (FASTQ files) individual](#from-scratch-fastq-files-individual)
+  - [From scratch (FASTQ files) and summing up replicates](#from-scratch-fastq-files-and-summing-up-replicates)
+  - [Contact matrix as a basis](#contact-matrix-as-a-basis)
+  - [Single-cell Hi-C](#single-cell-hi-c-1)
+- [Python API access](#python-api-access)
+- [Known pitfalls](#known-pitfalls)
+- [Citation](#citation)
 
 ## Get started with Galaxy HiCExplorer
 
 Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take <a target="_parent" href="https://hicexplorer.usegalaxy.eu/tours/core.galaxy_ui">a guided tour</a> through Galaxy's user interface.
 
-Take <a target="_parent" href="https://hicexplorer.usegalaxy.eu/tours/hixexplorer">a guided tour</a> for an introduction to Galaxy HiCExplorer and Hi-C data analysis. This tour is guides you through the Hi-C tutorial on the <a target="_parent" href="https://galaxyproject.github.io/training-material/topics/epigenetics/tutorials/hicexplorer/tutorial.html">Galaxy Training Network</a>  where you can analyse Hi-C data of Drosophila melanogaster. Follow the tutorial to understand the analysis steps better or as a help which parameters are useful.
+Take <a target="_parent" href="https://hicexplorer.usegalaxy.eu/tours/hixexplorer">a guided tour</a> for an introduction to Galaxy HiCExplorer and Hi-C data analysis. This tour is guides you through the Hi-C tutorial on the <a target="_parent" href="https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/hicexplorer/tutorial.html">Galaxy Training Network</a> where you can analyse Hi-C data of Drosophila melanogaster. Follow the tutorial to understand the analysis steps better or as a help which parameters are useful.
 
 A precomputed history of the tutorial can be viewed <a target="_parent" href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/h/drosophila-melanogaster-hi-c-training">here</a>.
 
-
 A more advanced tutorial is hosted on <a target="_parent" href="https://hicexplorer.readthedocs.io/en/latest/content/mES-HiC_analysis.html">readthedocs.io</a>. It is designed for the shell based version of the HiCExplorer but can be easily adapted to Galaxy HiCExplorer. In this tutorial mouse stems cells from <a target="_parent" href="https://www.genomebiology.com/2015/16/1/149">Marks et al. (2015)</a> are analysed. We provided the input fastq files in our <a target="_parent" href="https://hicexplorer.usegalaxy.eu/library/list#folders/F49c63be29eb6cbc1">data library</a>.
 
-We recommend to follow the tutorial on <a target="_parent" href="https://galaxyproject.github.io/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html">FASTQC<a/> for quality checks.
+We recommend to follow the tutorial on <a target="_parent" href="https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html">FASTQC</a> for quality checks.
+
 ### Example data
 
-The Galaxy Training Network tutorial uses Hi-C data from Drosophila melanogaster and is hosted on zenodo: <a target="_parent" href="https://doi.org/10.5281/zenodo.1183661"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1183661.svg" alt="DOI" /></a>
+The Galaxy Training Network tutorial uses Hi-C data from Drosophila melanogaster and is hosted on zenodo: <a target="_parent" href="https://doi.org/10.5281/zenodo.1183661"><img src="/assets/media/usegalaxy/hicexplorer/zenodo-1183661.svg" alt="DOI: 10.5281/zenodo.1183661" /></a>
 
 Additional we provide the data in <a target="_parent" href="https://hicexplorer.usegalaxy.eu/library/list#folders/F8607ddb1c5387e36">the shared data library</a> of the Galaxy HiCExplorer. In comparison to the data hosted on zenodo it contains preprocessed intermediate files.
-
 
 Galaxy HiCExplorer can process large Hi-C data. We processed Hi-C data with around 750 million reads from [Rosa-Garrido et al.](http://circ.ahajournals.org/content/136/17/1613.long). Have a look at the preprocessed <a target="_parent" href='https://hicexplorer.usegalaxy.eu/u/joachim-wolff/h/nar-publication-750-million-reads'>files</a>.
 
 ### Capture Hi-C and HiChIP
 
-The new chic*-modules of HiCExplorer provide powerful tools to analyse capture Hi-C and HiChIP data. 
-We recommend to follow the tutorial on <a target="_parent" href="https://hicexplorer.readthedocs.io/en/latest/content/capture-Hi-C.html">hicexplorer.readthedocs.io<a/> for an introduction to the analysis pipeline.
+The new chic\*-modules of HiCExplorer provide powerful tools to analyse capture Hi-C and HiChIP data.
+We recommend to follow the tutorial on <a target="_parent" href="https://hicexplorer.readthedocs.io/en/latest/content/capture-Hi-C.html">hicexplorer.readthedocs.io</a> for an introduction to the analysis pipeline.
 A preprocessed cHi-C history with data from [Andrey et al. 2017.](https://doi.org/10.1101/gr.213066.116) is provided <a target="_parent" href='https://usegalaxy.eu/u/joachim-wolff/h/debug-history'> here</a>.
 
 ### Single-cell Hi-C
- 
- The newest members of the HiCExplorer tool suit are the schic*-modules to bring the latest single-cell Hi-C research to Galaxy. We recommend to follow the tutorial on <a target="_parent" href="https://schicexplorer.readthedocs.io/en/latest/content/Example_analysis.html">schicexplorer.readthedocs.io<a/> for an introduction to the analysis pipeline.
- 
-The raw scool matrices for with the data from Nagano 2017 in 10 kb and 1 Mb resolution is hosted on zenodo: <a target="_parent" href="https://doi.org/10.5281/zenodo.3557682"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.3557682.svg" alt="DOI" /></a>
+
+The newest members of the HiCExplorer tool suit are the schic\*-modules to bring the latest single-cell Hi-C research to Galaxy. We recommend to follow the tutorial on <a target="_parent" href="https://schicexplorer.readthedocs.io/en/latest/content/Example_analysis.html">schicexplorer.readthedocs.io</a> for an introduction to the analysis pipeline.
+
+The raw scool matrices for with the data from Nagano 2017 in 10 kb and 1 Mb resolution is hosted on zenodo: <a target="_parent" href="https://doi.org/10.5281/zenodo.3557682"><img src="/assets/media/usegalaxy/hicexplorer/zenodo-3557682.svg" alt="DOI: 10.5281/zenodo.3557682" /></a>
 
 ## HiGlass
 
-The interactive Hi-C data exploration with HiGlass is accessible via the interactive <a href="https://live.usegalaxy.eu/?tool_id=interactive_tool_higlass">live.usegalaxy.eu</a> platform. 
-
+The interactive Hi-C data exploration with HiGlass is accessible via the interactive <a href="https://live.usegalaxy.eu/?tool_id=interactive_tool_higlass">live.usegalaxy.eu</a> platform.
 
 ## Galaxy HiCExplorer -- many possibilities
 
 ![](/assets/media/usegalaxy/hicexplorer/publication_plots.png)
- <b>(A)</b> Galaxy HiCExplorer workflows and tools. Quality control tools: <b>(B)</b> Output of hicCorrelate comparing two wild types and one knockdown samples. <b>(C)</b> Output of hicPlotDistVsCounts that shows changes of the number of contacts for different conditions. Analysis tools: <b>(D)</b> hicPlotMatrix of the Pearson correlation matrix derived from a contact matrix for chromosome 6 in mouse computed with hicTransform. The optional data track at the bottom shows the first eigenvector for A/B compartment obtained using hicPCA. <b>(E)</b> The pixel difference between a Hi-C corrected matrix for wild type condition and a knock down was computed using hicCompareMatrices and a 7Mb region is visualized using hicPlotMatrix. Visualization tools: <b>(F)</b> Contact matrix plot of a 80 to 105 Mb region of chromosome 2 in log scale. <b>(G)</b> Example output of hicPlotViewpoint showing the corrected number of Hi-C contacts for a single bin in chromosome 5 (output similar to 4C-seq) (<a target="_parent" href="https://doi.org/10.1101/gr.213066.116">Andrey 2017</a>). <b>(H)</b> A Hi-C matrix was converted into an observed vs. expected matrix using hicTransform and this matrix, together with the location of high-affinity sites from (<a target="_parent" href="https://doi.org/10.1016/j.molcel.2015.08.024">Ramirez 2015</a>) were used to run hicAggregateContacts. <b>(I)</b> 85 Mb to 110 Mb region from human chromosome 2 visualized using hicPlotTADs. TADs were computed by hicFindTADs. The additional tracks added correspond to: TAD- separation score (as reported by hicFindTADs), chromatin state , principal component 1 (A/B compartment) computed using hicPCA, ChIP-seq coverage for the H3K27ac mark, DNA methylation, and a gene track. Hi-C data for <b>B</b>, <b>C</b>, <b>E</b> and <b>H</b> from Drosophila melanogaster S2 cells from (<a target="_parent" href="https://doi.org/10.1038/s41467-017-02525-w">Ramirez 2018</a>). Hi-C data for <b>D</b>, <b>F</b> and <b>I</b> from mouse cardiac myocytes(<a target="_parent" href="https://doi.org/10.1038/s41467-017-01724-9 ">Nothjunge 2017</a>). Additional tracks in <b>I</b> from (<a target="_parent" href="https://doi.org/10.1038/s41467-017-01724-9 ">Nothjunge 2017</a>).
+<b>(A)</b> Galaxy HiCExplorer workflows and tools. Quality control tools: <b>(B)</b> Output of hicCorrelate comparing two wild types and one knockdown samples. <b>(C)</b> Output of hicPlotDistVsCounts that shows changes of the number of contacts for different conditions. Analysis tools: <b>(D)</b> hicPlotMatrix of the Pearson correlation matrix derived from a contact matrix for chromosome 6 in mouse computed with hicTransform. The optional data track at the bottom shows the first eigenvector for A/B compartment obtained using hicPCA. <b>(E)</b> The pixel difference between a Hi-C corrected matrix for wild type condition and a knock down was computed using hicCompareMatrices and a 7Mb region is visualized using hicPlotMatrix. Visualization tools: <b>(F)</b> Contact matrix plot of a 80 to 105 Mb region of chromosome 2 in log scale. <b>(G)</b> Example output of hicPlotViewpoint showing the corrected number of Hi-C contacts for a single bin in chromosome 5 (output similar to 4C-seq) (<a target="_parent" href="https://doi.org/10.1101/gr.213066.116">Andrey 2017</a>). <b>(H)</b> A Hi-C matrix was converted into an observed vs. expected matrix using hicTransform and this matrix, together with the location of high-affinity sites from (<a target="_parent" href="https://doi.org/10.1016/j.molcel.2015.08.024">Ramirez 2015</a>) were used to run hicAggregateContacts. <b>(I)</b> 85 Mb to 110 Mb region from human chromosome 2 visualized using hicPlotTADs. TADs were computed by hicFindTADs. The additional tracks added correspond to: TAD- separation score (as reported by hicFindTADs), chromatin state , principal component 1 (A/B compartment) computed using hicPCA, ChIP-seq coverage for the H3K27ac mark, DNA methylation, and a gene track. Hi-C data for <b>B</b>, <b>C</b>, <b>E</b> and <b>H</b> from Drosophila melanogaster S2 cells from (<a target="_parent" href="https://doi.org/10.1038/s41467-017-02525-w">Ramirez 2018</a>). Hi-C data for <b>D</b>, <b>F</b> and <b>I</b> from mouse cardiac myocytes(<a target="_parent" href="https://doi.org/10.1038/s41467-017-01724-9 ">Nothjunge 2017</a>). Additional tracks in <b>I</b> from (<a target="_parent" href="https://doi.org/10.1038/s41467-017-01724-9 ">Nothjunge 2017</a>).
 
 ![](/assets/media/usegalaxy/hicexplorer/image_compilation.png)
 
@@ -60,7 +75,6 @@ The new tools in Galaxy HiCExplorer 3 to make even better Hi-C data analyses: <b
 ![](/assets/media/usegalaxy/hicexplorer/full_nar2020.png)
 
 The different tools of Galaxy HiCExplorer in a workflow context: Analysis workflow for Hi-C <b>(A)</b>, cHi-C / HiChIP <b>(B)</b> and scHi-C <b>(C)</b>. All share the usage of hicBuildMatrix to create the individual contact matrices. Hi-C and cHi-C/HiChIP do support HiCExplorer's h5 and cool interaction matrix file format, scHi-C data creates for each cell one cool interaction matrix file and with scHicMergeToSCool all single-cell matrices are merged to one single-cell cool (scool) matrix.
-
 
 ## Workflows
 
@@ -81,7 +95,6 @@ The following workflows are provided:
 - <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/from-scratch-to-pca-and-plotting">From scratch to PCA and plotting</a>
 - <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/from-scratch-to-tad-and-plotting">From scratch to TAD and plotting</a>
 
-
 ### From scratch (FASTQ files) and summing up replicates
 
 These workflows takes collections of FASTQ files for forward and reverse strand as an input, for each pair a contact matrix is build and all created contact matrices are summed up to one contact matrix. Use this workflow if you want to use replicates to increase statistical power of your contact matrix and the replicates are checked to be correct.
@@ -93,20 +106,19 @@ These workflows takes collections of FASTQ files for forward and reverse strand 
 - <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/from-scratch-to-tads-and-plot-summing-up-replicates">From scratch to TAD and plot (summing up replicates)</a>
 - <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/from-scratch-to-tads-pca-and-plot-summing-up-replicates">From scratch to TADs, PCA and plot (summing up replicates)</a>
 
-
 ### Contact matrix as a basis
 
 Use the following workflows if you have already created a contact matrix.
 
- - <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/a--b-comparments">Plot Pearson matrix and PC1 / PC2</a>
- - <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/plot-tads">Plot TADs</a>
- - <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/plot-tads-and-pc">Plot TADs and PC</a>
+- <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/a--b-comparments">Plot Pearson matrix and PC1 / PC2</a>
+- <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/plot-tads">Plot TADs</a>
+- <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/plot-tads-and-pc">Plot TADs and PC</a>
 
 ### Single-cell Hi-C
 
 Use the following workflow for an existing scool matrix with QC and normalization:
 
- - <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/single-cell-hi-c">SVL dimension reduction</a>
+- <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/single-cell-hi-c">SVL dimension reduction</a>
 
 ## Python API access
 
@@ -123,3 +135,7 @@ We recommend to use BWA-MEM with the Hi-C specific parameters, as shown in our t
 
 Joachim Wolff, Vivek Bhardwaj, Stephan Nothjunge, Gautier Richard, Gina Renschler, Ralf Gilsbach, Thomas Manke, Rolf Backofen, Fidel Ramírez, Björn A Grüning.
 **"Galaxy HiCExplorer: a web server for reproducible Hi-C data analysis, quality control and visualization", Nucleic Acids Research**, Volume 46, Issue W1, 2 July 2018, Pages W11–W16, doi: [10.1093/nar/gky504](https://doi.org/10.1093/nar/gky504)
+
+<slot name="/eu/common/data-policy" />
+
+<slot name="/bare/eu/usegalaxy/jobs" />
