@@ -7,11 +7,26 @@ title: Galaxy Cheminformatics
 # Computational chemistry with Galaxy
 
 <br/>
-<img src="/assets/media/usegalaxy/cheminformatics/cheminformatics.png" height="300px" alt="Cheminformatics" align="right"/>
+<img src="/assets/media/usegalaxy/cheminformatics/cheminformatics.png" alt="Cheminformatics" style="float: right; width: min(35vw, 11rem); height: auto; margin: 0 0 1rem 1.5rem;" />
 
 Welcome to the **ChemicalToolbox** -- a webserver for processing, analysing and visualising chemical data, and performing molecular simulations. This server is a flavor of the European Galaxy instance, usegalaxy.eu.
 
+# Content
 
+- [Computational chemistry with Galaxy](#computational-chemistry-with-galaxy)
+- [Get started](#get-started)
+- [Tools](#tools)
+  - [Get data](#get-data)
+  - [Chemical structure conversion and manipulation tools](#chemical-structure-conversion-and-manipulation-tools)
+  - [Compute chemical properties](#compute-chemical-properties)
+  - [Molecular docking](#molecular-docking)
+  - [Pharmacophore alignment](#pharmacophore-alignment)
+  - [Molecular dynamics simulation](#molecular-dynamics-simulation)
+  - [Molecular dynamics analysis](#molecular-dynamics-analysis)
+- [Tutorials](#tutorials)
+- [Workflows](#workflows)
+- [Contributors](#contributors)
+- [Citation](#citation)
 
 # Get started
 
@@ -118,7 +133,7 @@ Tool | Description | Reference
 
 
 # Tutorials
-- Visit [the Galaxy training website](https://galaxyproject.github.io/training-material/topics/computational-chemistry/) for tutorials on using the Galaxy tools for molecular dynamics.
+- Visit [the Galaxy training website](https://training.galaxyproject.org/training-material/topics/computational-chemistry/) for tutorials on using the Galaxy tools for molecular dynamics.
 
 🙋 Are additional tutorials needed? [Please make a request.](https://github.com/galaxycomputationalchemistry/galaxy-tools-compchem/issues)
 
@@ -155,3 +170,7 @@ Workflow | Description
   * Simon Bray, Xavier Lucas, Anup Kumar and Björn Grüning. **"The ChemicalToolbox: reproducible, user-friendly cheminformatics analysis on the Galaxy platform"**, Journal of Cheminformatics, doi: [10.1186/s13321-020-00442-7](https://doi.org/10.1186/s13321-020-00442-7)
   * Tharindu Senapathi, Simon Bray, Christopher B Barnett, Björn Grüning, Kevin J Naidoo.
 **"Biomolecular Reaction and Interaction Dynamics Global Environment (BRIDGE)"**, Bioinformatics, Volume 35, Issue 18, 15 September 2019, Pages 3508–3509, doi: [10.1093/bioinformatics/btz107](https://doi.org/10.1093/bioinformatics/btz107)
+
+<slot name="/eu/common/data-policy" />
+
+<slot name="/bare/eu/usegalaxy/jobs" />
