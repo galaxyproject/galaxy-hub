@@ -5,7 +5,24 @@ components: true
 
 <slot name="/bare/eu/usegalaxy/notices" />
 
-![Anna's hummingbird photo courtesy of [VJAnderson](https://commons.wikimedia.org/wiki/File:Anna%27s_Hummingbird,_Washington_State_03.jpg)](/assets/media/usegalaxy/assembly/logo_assembly.png)
+<style>{`
+  .usegalaxy-video-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 24rem), 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0 2rem;
+  }
+
+  .usegalaxy-video-row iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    border: 0;
+    border-radius: 0.5rem;
+  }
+`}</style>
+
+<img src="/assets/media/usegalaxy/assembly/logo_assembly.png" alt="Anna's hummingbird photo courtesy of VJAnderson" style="float: left; width: 7rem; height: auto; margin: 0 2rem 1rem 0;" />
 
 # Welcome to Galaxy for Genome Assembly
 
@@ -21,7 +38,12 @@ The workbench has partnered with the __[Human Pangenome Reference Consortium (HP
 
 # Content
 
-
+- [Vertebrate Genomes Project](#vertebrate-genomes-project)
+- [Human Pangenome Reference Project](#human-pangenome-reference-project)
+- [Get started](#get-started)
+- [VGP assembly training](#vgp-assembly-training)
+  - [Additional training material](#additional-training-material)
+- [Partners](#partners)
 
 # Get started
 
@@ -46,13 +68,13 @@ All relevant materials for [assembly-related data analysis](https://training.gal
 
 Lesson | Slides | Hands-on | Input dataset | Workflows | Galaxy History
 --- | --- | --- | --- | --- | ---
-Welcome and introduction to Galaxy | [<Icon name="slideshare" />](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/slides.html) / [<Icon name="video-camera" />](https://training.galaxyproject.org/training-material/videos/watch.html?v=introduction/tutorials/galaxy-intro-short/slides) | | | |
-An Introduction to Genome Assembly | [<Icon name="slideshare" />](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/general-introduction/tutorial.html) | | | |
-A deeper look into Genome Assembly algorithms | [<Icon name="slideshare" />](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/algorithms-introduction/slides.html) | | | |
-Quality Control | [<Icon name="slideshare" />](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/slides.html) / [<Icon name="video-camera" />](https://youtu.be/BWonTPS4zB8) | [<Icon name="laptop" />](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html) / [<Icon name="video-camera" />](https://youtu.be/QJRlX2hWDKM) | [<Icon name="files-o" />](https://doi.org/10.5281/zenodo.61771) | [<Icon name="share-2" />](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/workflows/) | [<Icon name="list-ul" />](https://assembly.usegalaxy.eu/u/gallardoalba/h/quality-control)
-Mapping | [<Icon name="slideshare" />](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/slides.html) / [<Icon name="video-camera" />](https://youtu.be/7FhHb8EV3EU) | [<Icon name="laptop" />](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/tutorial.html) / [<Icon name="video-camera" />](https://youtu.be/1wm-62E2NkY) | [<Icon name="files-o" />](https://doi.org/10.5281/zenodo.1324070) | [<Icon name="share-2" />](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/workflows/) | [<Icon name="list-ul" />](https://assembly.usegalaxy.eu/u/gallardoalba/h/mapping)
-K-mer coverage | | | | [<Icon name="share-2" />](https://assembly.usegalaxy.eu/u/delphine-l/w/kcov) | [<Icon name="list-ul" />](https://assembly.usegalaxy.eu/u/delphine-l/h/kcov-1)
-Salsa Scaffolding | | | | [<Icon name="share-2" />](https://assembly.usegalaxy.eu/u/delphine-l/w/salsa-scaffolding) | [<Icon name="list-ul" />](https://assembly.usegalaxy.eu/u/delphine-l/h/salsa-scaffolding)
+Welcome and introduction to Galaxy | [<Icon name="presentation" />](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/slides.html) / [<Icon name="video" />](https://training.galaxyproject.org/training-material/videos/watch.html?v=introduction/tutorials/galaxy-intro-short/slides) | | | |
+An Introduction to Genome Assembly | [<Icon name="presentation" />](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/general-introduction/tutorial.html) | | | |
+A deeper look into Genome Assembly algorithms | [<Icon name="presentation" />](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/algorithms-introduction/slides.html) | | | |
+Quality Control | [<Icon name="presentation" />](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/slides.html) / [<Icon name="video" />](https://youtu.be/BWonTPS4zB8) | [<Icon name="laptop" />](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html) / [<Icon name="video" />](https://youtu.be/QJRlX2hWDKM) | [<Icon name="files" />](https://doi.org/10.5281/zenodo.61771) | [<Icon name="share-2" />](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/workflows/) | [<Icon name="list" />](https://assembly.usegalaxy.eu/u/gallardoalba/h/quality-control)
+Mapping | [<Icon name="presentation" />](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/slides.html) / [<Icon name="video" />](https://youtu.be/7FhHb8EV3EU) | [<Icon name="laptop" />](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/tutorial.html) / [<Icon name="video" />](https://youtu.be/1wm-62E2NkY) | [<Icon name="files" />](https://doi.org/10.5281/zenodo.1324070) | [<Icon name="share-2" />](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/workflows/) | [<Icon name="list" />](https://assembly.usegalaxy.eu/u/gallardoalba/h/mapping)
+K-mer coverage | | | | [<Icon name="share-2" />](https://assembly.usegalaxy.eu/u/delphine-l/w/kcov) | [<Icon name="list" />](https://assembly.usegalaxy.eu/u/delphine-l/h/kcov-1)
+Salsa Scaffolding | | | | [<Icon name="share-2" />](https://assembly.usegalaxy.eu/u/delphine-l/w/salsa-scaffolding) | [<Icon name="list" />](https://assembly.usegalaxy.eu/u/delphine-l/h/salsa-scaffolding)
 Chloroplast genome assembly | [<Icon name="laptop" />](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/chloroplast-assembly/tutorial.html) | | | |
 De Bruijn Graph Assembly | [<Icon name="laptop" />](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/debruijn-graph-assembly/tutorial.html) | | | |
 Genome Assembly of MRSA using Illumina MiSeq Data | [<Icon name="laptop" />](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/mrsa-illumina/tutorial.html) | | | |
@@ -66,7 +88,7 @@ SARS-CoV-2 assembly with removing human reads | [<Icon name="laptop" />](https:/
 
 If you want to know more about the GTN or how to become part of the Galaxy community, check the videos below!
 
-
+<div class="usegalaxy-video-row">
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/lDqWxzWNk1k"
 title="YouTube video player"
@@ -81,6 +103,7 @@ title="YouTube video player"
 frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
+</div>
 
 <br />
 
@@ -108,3 +131,6 @@ The service is part of the European Galaxy server and is maintained by the [RNA 
 </table>
 </div>
 
+<slot name="/eu/common/data-policy" />
+
+<slot name="/bare/eu/usegalaxy/jobs" />
