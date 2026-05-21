@@ -20,6 +20,13 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Generate GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: ${{ secrets.HUB_BOT_APP_CLIENT_ID }}
+          private-key: ${{ secrets.HUB_BOT_APP_PRIVATE_KEY }}
+
       - name: Download files from training-material
         run: |
           # Download the YAML files directly from GitHub's raw content
@@ -45,7 +52,7 @@ jobs:
         if: steps.check-changes.outputs.changed == 'true'
         uses: peter-evans/create-pull-request@v6
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ steps.app-token.outputs.token }}
           commit-message: |
             Sync files from galaxyproject/training-material
             
