@@ -5,22 +5,21 @@ title: Galaxy Live
 <slot name="/bare/eu/usegalaxy/notices" />
 
 <style type="text/css">
-#maincontainer {
-width: 100% !important;
-padding-left: 0px !important;
-padding-right: 0px !important;
-}
-
 .mcard {
-  box-shadow: 0px 0px 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
   display: flex;
-  width: 21%;
   flex-direction: column;
-  margin: 2em;
+  justify-content: space-between;
   padding: 1em;
+  min-height: 12rem;
+  border-radius: 0.5rem;
+  color: #333;
+  text-decoration: none;
 }
 .mcard .card-img-top {
   width: 100%;
+  max-height: 7rem;
+  object-fit: contain;
 }
 .mcard h2{
   text-align: center;
@@ -28,23 +27,17 @@ padding-right: 0px !important;
   padding: 0.5em;
 }
 .mcard:hover {
-  box-shadow: 0px 0px 10px black;
+  box-shadow: 0 0 10px black;
 }
 
 .flex-container {
   padding: 0;
   margin: 0;
   list-style: none;
-
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-
-  -webkit-flex-flow: row wrap;
-  justify-content: flex-start;
-  margin-top: 7%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
 }
 
 .mcard img {
@@ -56,7 +49,8 @@ margin: auto;
   overflow: hidden;
   padding: 1em;
   background-color: #f8f8f8;
-  box-shadow: 0px 0px 10px black;
+  box-shadow: 0 0 10px black;
+  border-radius: 0.5rem;
 }
 
 .textcard {
@@ -136,17 +130,6 @@ margin: auto;
       <p class="textcard">Genome-scale dataset visualistion</p>
     </a>
 
-    <!--a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_paraview" target="_top">
-      <img class="card-img-top" src="https://live.usegalaxy.eu/assets/media/interactive/paraview.svg" title="ParaView is an open-source, multi-platform data analysis and visualization application." />
-      <h2>Paraview</h2>
-      <p class="textcard">Multi-platform data analysis and visualization</p>
-    </a-->
-
-    <!--a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_neo4j" target="_top">
-      <img class="card-img-top" src="https://live.usegalaxy.eu/assets/media/interactive/neo4j.png" title="Neo4j is a graph database management system storing and processing data as graphs." />
-      <p class="textcard">Graph database management system</p>
-    </a-->
-
     <a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_phinch" target="_top">
       <img class="card-img-top" src="https://live.usegalaxy.eu/assets/media/interactive/phinch.svg" title="Phinch is a data visualization framework aimed at promoting novel explorations of large biological datasets (microbiomes, metagenomes, etc.)" />
       <p class="textcard">Visualise large biological datasets (microbiomes, metagenomes, etc.)</p>
@@ -198,10 +181,5 @@ margin: auto;
       <img class="card-img-top" src="https://live.usegalaxy.eu/assets/media/interactive/higlass.jpg" title="HiGlass for visualise and interactivly explorer Hi-C  data" />
       <p class="textcard">HiGlass</p>
     </a>
-
-    <!--a class="mcard" href="https://live.usegalaxy.eu/?tool_id=interactive_tool_openrefine" target="_top">
-      <img class="card-img-top" src="https://live.usegalaxy.eu/assets/media/interactive/openrefine.png" title="OpenRefine is a powerful tool for working with messy data" />
-      <p class="textcard">OpenRefine</p>
-    </a-->
 
 </div>
