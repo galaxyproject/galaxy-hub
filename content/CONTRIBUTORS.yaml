@@ -2666,6 +2666,13 @@ manabuishii:
     name: Manabu ISHII
     joined: 2017-09
 
+Maed0x:
+    name: Niklas Mayle
+    joined: 2026-05
+    email: niklas.mayle@email.uni-freiburg.de
+    matrix: 'maed0x:matrix.org'
+    orcid: 0009-0009-0059-1887
+
 mjostaszewski:
     name: Marek Ostaszewski
     joined: 2023-12
@@ -4392,9 +4399,3 @@ gdefazio:
         lat: 41.11029383404589
         lon: 16.881129820971942
 
-Maed0x:
-    name: Niklas Mayle
-    joined: 2026-05
-    email: niklas.mayle@email.uni-freiburg.de
-    matrix: 'maed0x:matrix.org'
-    orcid: 0009-0009-0059-1887
