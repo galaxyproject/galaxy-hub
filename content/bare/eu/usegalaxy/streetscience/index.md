@@ -16,7 +16,7 @@ Are you new to Galaxy, or returning after a long time, and looking for help to g
 
 ## What is the Street Science community?
 
-In the Street Science community, we want to make science tangible & accessible by bringing it to the "street" via open science workshops. Our first project is [BeerDEcoded](https://streetscience.community/projects/beerdecoded/), sequencing the DNA of beer. 
+In the Street Science community, we want to make science tangible & accessible by bringing it to the "street" via open science workshops. Our first project is [BeerDEcoded](https://streetscience.community/projects/beerdecoded/), sequencing the DNA of beer.
 
 Beer is alive! It contains DNA that comes from its ingredients (hops, malts, yeast) and some hundred microbes. There are 1,000+ yeasts used for brewing and 200+ hop varieties, each one bearing a different DNA and contributing to differentiate its properties.
 
