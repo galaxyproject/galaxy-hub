@@ -8,7 +8,8 @@ title: Galaxy Nubri
 
 # Welcome to Galaxy NUBRI
 
-
+- [Get started](#get-started)
+- [Training](#training)
 
 Galaxy NUBRI is a web-based, open platform of the National University Biomedical Research Institute (NUBRI), National University-Sudan, operated with support from usegalaxy.eu. It provides cloud-hosted bioinformatics and genomics tools and workflows that make computational research accessible, reproducible, and transparent for researchers, students, and partner institutions.
 
@@ -59,3 +60,7 @@ To know more about the GTN, check the video below!
     object-fit: contain;
   }
 </style>
+
+<slot name="/eu/common/data-policy" />
+
+<slot name="/bare/eu/usegalaxy/jobs" />
