@@ -43,13 +43,12 @@ jobs:
     if: |
       github.repository == 'galaxyproject/galaxy-hub' &&
       (github.event_name != 'pull_request' ||
-       (github.event.pull_request.head.repo.full_name == github.repository &&
-        github.actor != 'galaxy-hub-bot' &&
-        github.actor != 'galaxy-hub-bot[bot]'))
+       github.event.pull_request.head.repo.full_name == github.repository)
     steps:
       - name: Checkout Branch
         uses: actions/checkout@v6
       - name: Generate GitHub App token
+        if: github.event_name != 'pull_request'
         id: app-token
         uses: actions/create-github-app-token@v3
         with:
@@ -59,7 +58,9 @@ jobs:
         id: calibre
         uses: calibreapp/image-actions@1.5.0
         with:
-          GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
+          # PR runs use GITHUB_TOKEN to avoid recursively triggering this workflow.
+          # Non-PR runs use the App token so create-pull-request can publish updates.
+          GITHUB_TOKEN: ${{ github.event_name == 'pull_request' && github.token || steps.app-token.outputs.token }}
           webpQuality: '90'
           # Non-PR events need compress-only mode so create-pull-request can publish the result.
           compressOnly: ${{ github.event_name != 'pull_request' }}
