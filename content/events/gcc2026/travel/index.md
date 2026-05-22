@@ -45,6 +45,10 @@ We recommend to book your train ticket, to do it either through the [SNCF portal
 
 Clermont-Ferrand is **perfectly positioned** for those traveling by car, with **direct access via the A71, A72, and A75 motorways**. The **A75** stands out as a **toll-free highway**, offering a **picturesque route** that stretches all the way to the **Mediterranean coast**. Whether you're arriving from cities across France or neighboring countries, these **well-maintained highways** make road trips a **convenient and scenic** choice, allowing you to enjoy the stunning landscapes of the Auvergne region along the way.
 
+# Public transportations in Clermont
+
+In Clermont you can travel by trams or buses. Here are somme good plans for [transportation tickets](https://www.clermontauvergnevolcans.com/en/8-good-reasons-buy-clermontpass/) and you can also find what you can visit in Clermont with [the public transportations map and details](https://www.clermontauvergnevolcans.com/en/getting-here-and-around/getting-around/tram-and-bus/)
+
 # Lodging
 
 Attendees looking for accommodations in Clermont-Ferrand may wish to consider the following options:
