@@ -5,8 +5,8 @@ title: Galaxy Street Science
 <slot name="/bare/eu/usegalaxy/notices" />
 
 # Street Science Community
-### Bring science to the "street"
 
+## Bring science to the "street"
 
 Welcome to a **Galaxy dedicated for the [Street Science Community](https://streetscience.community/)**.
 
@@ -21,3 +21,7 @@ In the Street Science community, we want to make science tangible & accessible b
 Beer is alive! It contains DNA that comes from its ingredients (hops, malts, yeast) and some hundred microbes. There are 1,000+ yeasts used for brewing and 200+ hop varieties, each one bearing a different DNA and contributing to differentiate its properties.
 
 We use the beer to sensibilize the public to molecular biology and genomic related research, DNA sequencing and data analysis and the challenges and possibilities that genomics brings to our society.
+
+<slot name="/eu/common/data-policy" />
+
+<slot name="/bare/eu/usegalaxy/jobs" />
