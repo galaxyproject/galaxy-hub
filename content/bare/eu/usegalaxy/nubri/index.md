@@ -4,7 +4,7 @@ title: Galaxy Nubri
 
 <slot name="/bare/eu/usegalaxy/notices" />
 
-<img src="https://nubri.usegalaxy.eu/assets/media/nubri-galaxy-logo.png" class="nubri-logo" alt="Galaxy NUBRI logo" />
+<img src="/assets/media/usegalaxy/nubri/nubri-galaxy-logo.png" class="nubri-logo" alt="Galaxy NUBRI logo" />
 
 # Welcome to Galaxy NUBRI
 
@@ -32,8 +32,8 @@ To know more about the GTN, check the video below!
 # Sponsors and Partners
 
 <div class="partner-logos">
-  <img alt="National University Biomedical Research Institute (NUBRI) Logo" src="https://nubri.usegalaxy.eu/assets/media/nubri-logo.jpg" />
-  <img alt="National University-Sudan Logo" src="https://nubri.usegalaxy.eu/assets/media/nubri-nusu-logo.png" />
+  <img alt="National University Biomedical Research Institute (NUBRI) Logo" src="/assets/media/usegalaxy/nubri/nubri-logo.jpg" />
+  <img alt="National University-Sudan Logo" src="/assets/media/usegalaxy/nubri/nubri-nusu-logo.png" />
 </div>
 
 <style>
