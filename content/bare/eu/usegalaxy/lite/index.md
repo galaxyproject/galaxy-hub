@@ -6,3 +6,4 @@ title: Galaxy Lite
 
 # Welcome to UseGalaxy.eu lite version.
 
+<slot name="/eu/common/data-policy" />
