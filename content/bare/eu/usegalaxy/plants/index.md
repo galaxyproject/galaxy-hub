@@ -5,7 +5,7 @@ components: true
 
 <slot name="/bare/eu/usegalaxy/notices" />
 
-<img src="https://plants.usegalaxy.eu/assets/media/logo_plants.png" class="plants-logo" alt="Plant Analysis on Galaxy" />
+<img src="/use/plants/logo_plants.png" class="plants-logo" alt="Plant Analysis on Galaxy" />
 
 # Welcome to Galaxy for Plant Biology
 
@@ -57,12 +57,12 @@ The service is part of the European Galaxy server and is maintained by the [RNA 
 
 
 <div class="partner-logos">
-  <img alt="DataPLANT" src="https://plants.usegalaxy.eu/assets/media/DataPLANT_logo_colour.svg" />
-  <img alt="BioDATEN" src="https://plants.usegalaxy.eu/assets/media/biodaten_logo.png" />
-  <img alt="VIB" src="https://plants.usegalaxy.eu/assets/media/vib_rf_plant_systems_biology_rgb_pos.png" />
-  <img alt="Technische Universitaet Kaiserslautern" src="https://plants.usegalaxy.eu/assets/media/tu_kaiserslautern.svg" />
-  <img alt="Forschungszentrum Juelich" src="https://plants.usegalaxy.eu/assets/media/juelich_logo.svg" />
-  <img alt="IPK" src="https://plants.usegalaxy.eu/assets/media/ipklogo.png" />
+  <img alt="DataPLANT" src="/images/logos/DataPLANT_logo_colour.svg" />
+  <img alt="BioDATEN" src="/assets/media/usegalaxy/plants/biodaten_logo.png" />
+  <img alt="VIB" src="/images/logos/vib_rf_plant_systems_biology_rgb_pos.png" />
+  <img alt="Technische Universitaet Kaiserslautern" src="/assets/media/usegalaxy/plants/tu_kaiserslautern.svg" />
+  <img alt="Forschungszentrum Juelich" src="/assets/media/usegalaxy/plants/juelich_logo.svg" />
+  <img alt="IPK" src="/assets/media/usegalaxy/plants/ipklogo.png" />
 </div>
 
 <style>{`
