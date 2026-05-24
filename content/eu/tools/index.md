@@ -2,7 +2,8 @@
 # THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
 # To update, run: python3 scripts/update-tools.py --server https://usegalaxy.eu --name "European Galaxy" --output content/eu/tools/index.md
 title: European Galaxy Tools
-description: "4264 tools and counting"
+description: "4267 tools and counting"
+components: true
 ---
 
 
@@ -57,7 +58,7 @@ description: "4264 tools and counting"
 [NFDI4Earth OneStop4All Importer](https://usegalaxy.eu/root?tool_id=nfdi4earth_os4a "downloads content via NFDI4Earth&#x27;s OneStop4All search user interface")
 [OBIS occurences](https://usegalaxy.eu/root?tool_id=obis_data "retrieve data")
 [OmicsDI](https://usegalaxy.eu/root?tool_id=omicsdi "Sync dataset&#x27;s files from OmicsDI")
-[OpenAlex explorer](https://usegalaxy.eu/root?tool_id=openalex_explorer "Fetch citing papers, references, related works, authors, and concepts from OpenAlex")
+[OpenAlex explorer](https://usegalaxy.eu/root?tool_id=openalex_explorer "Fetch works, citations, authors, concepts, and publications from OpenAlex")
 [Protein Database Downloader](https://usegalaxy.eu/root?tool_id=dbbuilder "")
 [Ratmine](https://usegalaxy.eu/root?tool_id=ratmine "server")
 [Retrieve ENA data](https://usegalaxy.eu/root?tool_id=enasearch_retrieve_data "(other than taxon and project)")
@@ -3246,6 +3247,7 @@ description: "4264 tools and counting"
 [Proteinortho clustering](https://usegalaxy.eu/root?tool_id=proteinortho_clustering "Spectral partitioning algorithm")
 [Proteinortho grab proteins](https://usegalaxy.eu/root?tool_id=proteinortho_grab_proteins "finds genes/proteins in a given fasta file")
 [Proteinortho summary](https://usegalaxy.eu/root?tool_id=proteinortho_summary "summaries the orthology-pairs/RBH files")
+[Proteins Mosaic Q](https://usegalaxy.eu/root?tool_id=protein_mosaic_q "Calculate Mosaic Q descriptors and visualise amino acid clustering")
 [ProteomIQon MzMLToMzLite](https://usegalaxy.eu/root?tool_id=proteomiqon_mzmltomzlite "converts mzML files to mzLite files.")
 [ProteomIQon PSMStatistics](https://usegalaxy.eu/root?tool_id=proteomiqon_psmstatistics "utilizes semi supervised machine learning techniques to integrate search engine scores as well as the mentioned quality scores into one single consensus score.")
 [ProteomIQon PeptideDB](https://usegalaxy.eu/root?tool_id=proteomiqon_peptidedb "creates a peptide database in the SQLite format.")
@@ -4337,6 +4339,8 @@ description: "4264 tools and counting"
 [Find datasets with similar ISCC-CODEs](https://usegalaxy.eu/root?tool_id=iscc_sum_similarity "with ISCC-SUM")
 [Find edges](https://usegalaxy.eu/root?tool_id=imagej2_find_edges "with ImageJ2")
 [Find maxima](https://usegalaxy.eu/root?tool_id=imagej2_find_maxima "with ImageJ2")
+[GROBID](https://usegalaxy.eu/root?tool_id=grobid_grobid "extract structured TEI XML from scholarly documents and patents")
+[GROBID DataStet](https://usegalaxy.eu/root?tool_id=grobid_dataset_annotate "identify dataset mentions in scientific articles")
 [Generate ISCC-CODE](https://usegalaxy.eu/root?tool_id=iscc_sum "with ISCC-SUM")
 [GrayToColor](https://usegalaxy.eu/root?tool_id=cp_gray_to_color "with CellProfiler")
 [IdentifyPrimaryObjects](https://usegalaxy.eu/root?tool_id=cp_identify_primary_objects "with CellProfiler")
