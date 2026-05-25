@@ -131,10 +131,6 @@ async function fetchPrs(config) {
         .sort((a, b) => (a.updatedAt < b.updatedAt ? 1 : -1));
 }
 
-function formatDate(iso) {
-    return new Date(iso).toISOString().slice(0, 10);
-}
-
 const HTML_ESCAPES = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
 function escapeHtml(s) {
     return String(s).replace(/[&<>"']/g, (c) => HTML_ESCAPES[c]);
@@ -225,27 +221,30 @@ function extractPlainTease(body) {
  *  points inside. The card itself is a <div>, not a giant <a>, because the
  *  rendered tease contains its own <a> tags (issue refs, body links) and
  *  nested <a>s are invalid HTML — browsers auto-close the outer one. */
-function renderPrCard(pr) {
+function renderPrCard(pr, excludedLabels) {
     const avatar = pr.author?.avatarUrl
         ? `<img src="${escapeHtml(pr.author.avatarUrl)}" alt="" loading="lazy" width="32" height="32" class="w-8 h-8 rounded-full mt-1 flex-shrink-0" />`
         : '<div class="w-8 h-8 rounded-full mt-1 flex-shrink-0 bg-ebony-clay-100"></div>';
-    const authorLine = pr.author
-        ? `<a href="${escapeHtml(pr.author.url)}" target="_blank" rel="noopener noreferrer" class="text-chicago-700 hover:text-galaxy-primary">@${escapeHtml(pr.author.login)}</a>`
-        : '<span class="text-chicago-500">anonymous</span>';
+    // Drop lifecycle labels (testing/in-progress/complete) — the section the
+    // card sits in already conveys that state, so showing them is redundant.
+    const visibleLabels = pr.labels.filter((l) => !excludedLabels.has(l));
+    const labelsHtml = visibleLabels.length
+        ? `<div class="flex flex-wrap gap-1 mt-2">${visibleLabels.map((l) => `<span class="inline-flex items-center px-2 py-0.5 text-xs rounded-full bg-ebony-clay-50 text-chicago-700 border border-ebony-clay-100">${escapeHtml(l)}</span>`).join('')}</div>`
+        : '';
     const tease = extractPlainTease(pr.body);
     const teaseHtml = tease
         ? `<div class="text-sm text-chicago-700 mt-2 leading-snug">${escapeHtml(tease)}&hellip; <a href="${escapeHtml(pr.url)}" target="_blank" rel="noopener noreferrer" class="text-galaxy-primary hover:underline whitespace-nowrap">more</a></div>`
         : '';
-    return `<div class="p-4 bg-white rounded-lg border border-ebony-clay-100 hover:border-galaxy-primary hover:shadow-md transition-all"><div class="flex items-start gap-3">${avatar}<div class="min-w-0 flex-1"><div class="font-semibold"><a href="${escapeHtml(pr.url)}" target="_blank" rel="noopener noreferrer" class="text-galaxy-dark hover:text-galaxy-primary">#${pr.number} — ${escapeHtml(pr.title)}</a></div><div class="text-sm text-chicago-500 mt-1">${authorLine} · updated ${formatDate(pr.updatedAt)}</div>${teaseHtml}</div></div></div>`;
+    return `<div class="p-4 bg-white rounded-lg border border-ebony-clay-100 hover:border-galaxy-primary hover:shadow-md transition-all"><div class="flex items-start gap-3">${avatar}<div class="min-w-0 flex-1"><div class="font-semibold"><a href="${escapeHtml(pr.url)}" target="_blank" rel="noopener noreferrer" class="text-galaxy-dark hover:text-galaxy-primary">#${pr.number} — ${escapeHtml(pr.title)}</a></div>${labelsHtml}${teaseHtml}</div></div></div>`;
 }
 
-function renderSection(prs, emptyMessage) {
+function renderSection(prs, emptyMessage, excludedLabels) {
     if (prs.length === 0) {
         return `<div class="not-prose my-4 p-6 bg-light-bg bg-grid rounded-lg border border-ebony-clay-100 text-center text-chicago-500 italic">${escapeHtml(emptyMessage)}</div>`;
     }
     // No blank lines between cards — keeps the whole section as one HTML
     // block from the markdown parser's perspective.
-    const cards = prs.map((pr) => `  ${renderPrCard(pr)}`).join('\n');
+    const cards = prs.map((pr) => `  ${renderPrCard(pr, excludedLabels)}`).join('\n');
     return `<div class="not-prose my-4 p-4 bg-light-bg bg-grid rounded-lg border border-ebony-clay-100"><div class="space-y-3">\n${cards}\n  </div></div>`;
 }
 
@@ -270,6 +269,9 @@ async function main() {
     const inProgress = prs ? prs.filter((p) => p.labels.includes(config.inProgressLabel) && !p.labels.includes(config.completeLabel)) : [];
     const needsValidation = prs ? prs.filter((p) => !p.labels.includes(config.inProgressLabel) && !p.labels.includes(config.completeLabel)) : [];
 
+    // Lifecycle labels are conveyed by the section itself — don't repeat as chips.
+    const excludedLabels = new Set([config.testingLabel, config.inProgressLabel, config.completeLabel]);
+
     const template = fs.readFileSync(TEMPLATE_PATH, 'utf8');
     const organisersYaml = config.organisers.map((o) => `    - ${o}`).join('\n');
     const rendered = renderTemplate(template, {
@@ -281,9 +283,9 @@ async function main() {
         testingLabel: config.testingLabel,
         inProgressLabel: config.inProgressLabel,
         completeLabel: config.completeLabel,
-        needsValidationList: renderSection(needsValidation, 'No PRs currently waiting for validation. Check back soon!'),
-        inProgressList: renderSection(inProgress, 'No PRs currently being tested.'),
-        completeList: renderSection(complete, 'No PRs marked complete yet.'),
+        needsValidationList: renderSection(needsValidation, 'No PRs currently waiting for validation. Check back soon!', excludedLabels),
+        inProgressList: renderSection(inProgress, 'No PRs currently being tested.', excludedLabels),
+        completeList: renderSection(complete, 'No PRs marked complete yet.', excludedLabels),
         generatedAt: new Date().toISOString(),
         unavailableNote: prs === null
             ? `\n> _Live PR data was unavailable when this event was last generated; counts above may be stale. See the [label-filtered GitHub view](https://github.com/${config.repo}/pulls?q=is%3Apr+label%3A%22${config.testingLabel}%22) for the current list._\n`
