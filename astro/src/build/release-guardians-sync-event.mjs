@@ -160,7 +160,10 @@ async function fetchPrs(config) {
 
 async function main() {
   const config = readConfig();
-  const slug = `${config.testingStart}-release-guardians-${config.releaseVersion}`;
+  // Slug must match the events validator regex `^\d{4}-\d{2}-\d{2}-[a-z0-9_-]+$`,
+  // so dots in the release version (`26.1`) become dashes (`26-1`) here.
+  const versionSlug = config.releaseVersion.replace(/\./g, '-');
+  const slug = `${config.testingStart}-release-guardians-${versionSlug}`;
   const targetDir = path.join(EVENTS_DIR, slug);
   const targetPath = path.join(targetDir, 'index.md');
   const dataPath = path.join(DATA_DIR, `${config.releaseVersion}.json`);

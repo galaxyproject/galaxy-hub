@@ -8,8 +8,7 @@ tease: >-
   browsers before publication.
 tags:
   - release-guardians
-  - release-testing
-  - '26.1'
+  - release
 subsites: [all]
 contributions:
   organisers:
