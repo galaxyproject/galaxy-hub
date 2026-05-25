@@ -3,7 +3,7 @@
  * a new release cycle starts — the page URL and code stay stable.
  *
  * The hub page (`/community/release-guardians/`) reads `testingLabel` /
- * `validatedLabel` to build its live PR list. The sync-event script reads
+ * `completeLabel` to build its live PR list. The sync-event script reads
  * `releaseVersion` / `testingStart` / `testingEnd` / `organisers` / `matrixLink`
  * to generate a matching event file in `src/content/events/` if missing.
  *
@@ -14,7 +14,8 @@ export const RELEASE_GUARDIANS_CONFIG = {
     repo: "galaxyproject/galaxy",
     releaseVersion: "26.1",
     testingLabel: "release-testing-26.1",
-    validatedLabel: "release-testing-validated",
+    inProgressLabel: "release-testing-in-progress",
+    completeLabel: "release-testing-complete",
     /** Testing window opens (ISO date, YYYY-MM-DD). */
     testingStart: "2026-06-01",
     /** Testing window closes (ISO date, YYYY-MM-DD). */

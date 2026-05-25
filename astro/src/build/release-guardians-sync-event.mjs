@@ -55,7 +55,8 @@ function readConfig() {
         repo: pick('repo'),
         releaseVersion: pick('releaseVersion'),
         testingLabel: pick('testingLabel'),
-        validatedLabel: pick('validatedLabel'),
+        inProgressLabel: pick('inProgressLabel'),
+        completeLabel: pick('completeLabel'),
         testingStart: pick('testingStart'),
         testingEnd: pick('testingEnd'),
         organisers: pickArray('organisers'),
@@ -211,8 +212,10 @@ async function main() {
     const targetPath = path.join(targetDir, 'index.md');
 
     const prs = await fetchPrs(config);
-    const needsValidation = prs ? prs.filter((p) => !p.labels.includes(config.validatedLabel)) : [];
-    const validated = prs ? prs.filter((p) => p.labels.includes(config.validatedLabel)) : [];
+    // Complete wins over in-progress (the lifecycle moves forward, not back).
+    const complete = prs ? prs.filter((p) => p.labels.includes(config.completeLabel)) : [];
+    const inProgress = prs ? prs.filter((p) => p.labels.includes(config.inProgressLabel) && !p.labels.includes(config.completeLabel)) : [];
+    const needsValidation = prs ? prs.filter((p) => !p.labels.includes(config.inProgressLabel) && !p.labels.includes(config.completeLabel)) : [];
 
     const template = fs.readFileSync(TEMPLATE_PATH, 'utf8');
     const organisersYaml = config.organisers.map((o) => `    - ${o}`).join('\n');
@@ -223,9 +226,11 @@ async function main() {
         organisersYaml,
         matrixLink: config.matrixLink,
         testingLabel: config.testingLabel,
-        validatedLabel: config.validatedLabel,
+        inProgressLabel: config.inProgressLabel,
+        completeLabel: config.completeLabel,
         needsValidationList: renderSection(needsValidation, 'No PRs currently waiting for validation. Check back soon!'),
-        validatedList: renderSection(validated, 'No PRs validated yet.'),
+        inProgressList: renderSection(inProgress, 'No PRs currently being tested.'),
+        completeList: renderSection(complete, 'No PRs marked complete yet.'),
         generatedAt: new Date().toISOString(),
         unavailableNote: prs === null
             ? `\n> _Live PR data was unavailable when this event was last generated; counts above may be stale. See the [label-filtered GitHub view](https://github.com/${config.repo}/pulls?q=is%3Apr+label%3A%22${config.testingLabel}%22) for the current list._\n`
@@ -240,7 +245,7 @@ async function main() {
 
     console.log(`✓ Synced event: ${path.relative(REPO_ROOT, targetPath)}`);
     console.log(`  Cycle: ${config.releaseVersion} (${config.testingStart} → ${config.testingEnd})`);
-    console.log(`  PRs: ${needsValidation.length} need validation, ${validated.length} validated${prs === null ? ' (data unavailable)' : ''}`);
+    console.log(`  PRs: ${needsValidation.length} need validation, ${inProgress.length} in progress, ${complete.length} complete${prs === null ? ' (data unavailable)' : ''}`);
     console.log(`✓ Redirect: ${redirect.from} → ${redirect.to}`);
 }
 

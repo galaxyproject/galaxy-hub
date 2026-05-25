@@ -16,14 +16,15 @@ contributions:
 {{organisersYaml}}
 ---
 
-The Galaxy **{{version}}** release is in its community-validation window. We're recruiting **Release Guardians** to help exercise user-facing changes before publication. No signup, no separate coordination layer — pick a PR below, test it, comment your results.
+The Galaxy **{{version}}** release is in its community-validation window. We're recruiting **Release Guardians** to help exercise user-facing changes before publication. No signup, no separate coordination layer — labels on the PRs are the entire workflow.
 
 ## How to participate
 
 1. Pick a PR from the **Needs Validation** list below.
-2. Read the description and review history; reproduce the user-facing change.
-3. Report what you observed in a comment on the PR — screenshots, regressions, deployment notes all welcome.
-4. If everything works, ask a maintainer to add the `{{validatedLabel}}` label, or add it yourself if you have triage rights.
+2. Claim it by adding the `{{inProgressLabel}}` label — this moves it into **In Progress** so others know it's being tested.
+3. Read the description and review history; reproduce the user-facing change.
+4. Report what you observed in a comment on the PR — screenshots, regressions, deployment notes all welcome.
+5. When done, replace `{{inProgressLabel}}` with `{{completeLabel}}` to move it into **Complete**.
 
 Join the **[Matrix room]({{matrixLink}})** for real-time chatter, pairing on PRs, and asking the organisers questions.
 
@@ -31,10 +32,14 @@ Join the **[Matrix room]({{matrixLink}})** for real-time chatter, pairing on PRs
 
 {{needsValidationList}}
 
-## Validated
+## In Progress
 
-{{validatedList}}
+{{inProgressList}}
+
+## Complete
+
+{{completeList}}
 {{unavailableNote}}
 ---
 
-GitHub labels are the source of truth (`{{testingLabel}}` for in-scope, `{{validatedLabel}}` for done). This page is regenerated every 12 hours from the live labels — _last refreshed {{generatedAt}}_.
+GitHub labels are the source of truth (`{{testingLabel}}` for in-scope, `{{inProgressLabel}}` while being tested, `{{completeLabel}}` for done). This page is regenerated every 12 hours from the live labels — _last refreshed {{generatedAt}}_.
