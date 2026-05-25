@@ -9,6 +9,6 @@
   "organisers": ["guerler", "mvdbeek"],
   "matrixLink": "https://matrix.to/#/%23galaxyproject_release-testing:gitter.im",
   "testServer": "https://test.galaxyproject.org/",
-  "meetingLink": "https://meet.google.com/your-meeting-id",
-  "meetingSchedule": "Mon Jun 1, 16:00 UTC"
+  "meetingName": "Testing and Hardening Working Group Meeting",
+  "meetingLink": "https://meet.google.com/ios-kygq-hfw"
 }

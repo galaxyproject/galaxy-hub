@@ -1,8 +1,10 @@
 ---
 # Refresh the Release Guardians event for the current cycle. Reads
-# astro/src/utils/release-guardians-config.ts, queries GitHub for PRs carrying
-# the testing label, and rewrites the matching event file in content/events/.
-# If anything changed, commits + pushes — which triggers publish.yml to deploy.
+# astro/src/data/release-guardians-config.json, queries GitHub for PRs carrying
+# the testing label, and rewrites the matching event file in content/events/
+# plus the per-cycle snapshot under astro/src/data/release-guardians/.
+# If anything changed, opens (or updates) a PR — matching the pattern used by
+# update-eu-tools, update-eu-citations, sync-training-material-metadata, etc.
 
 name: Release Guardians refresh
 
@@ -15,12 +17,14 @@ concurrency:
   group: release-guardians-refresh
   cancel-in-progress: false
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
     if: github.repository_owner == 'galaxyproject'
-    permissions:
-      contents: write
     steps:
       - name: Generate GitHub App token
         id: app-token
@@ -47,16 +51,19 @@ jobs:
           GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
         run: cd astro && npm run release-guardians:sync-event
 
-      - name: Commit + push if changed
-        env:
-          GH_APP_SLUG: ${{ steps.app-token.outputs.app-slug }}
-        run: |
-          git config user.name "${GH_APP_SLUG}[bot]"
-          git config user.email "${GH_APP_SLUG}[bot]@users.noreply.github.com"
-          git add -A
-          if git diff --staged --quiet; then
-            echo "No changes — release-guardians event already up to date."
-            exit 0
-          fi
-          git commit -m "Refresh Release Guardians event (auto)"
-          git push
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ steps.app-token.outputs.token }}
+          commit-message: 'chore(release-guardians): refresh event (auto)'
+          title: 'Refresh Release Guardians event'
+          body: |
+            Auto-generated PR with refreshed Release Guardians data.
+
+            Synced from `galaxyproject/galaxy` using the labels configured in
+            `astro/src/data/release-guardians-config.json`.
+
+            Merging publishes the updated event page; closing without merging
+            simply waits for the next 12-hour refresh.
+          branch: release-guardians-refresh
+          delete-branch: true

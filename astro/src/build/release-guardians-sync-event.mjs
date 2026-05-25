@@ -71,6 +71,23 @@ function readConfig() {
   return JSON.parse(fs.readFileSync(CONFIG_PATH, 'utf8'));
 }
 
+function readJsonOrNull(filePath) {
+  if (!fs.existsSync(filePath)) return null;
+  try {
+    return JSON.parse(fs.readFileSync(filePath, 'utf8'));
+  } catch {
+    return null;
+  }
+}
+
+/** True when the two snapshots differ only by `fetchedAt`. */
+function snapshotContentUnchanged(a, b) {
+  if (!a || !b) return false;
+  const { fetchedAt: _ignoredA, ...restA } = a;
+  const { fetchedAt: _ignoredB, ...restB } = b;
+  return JSON.stringify(restA) === JSON.stringify(restB);
+}
+
 function renderTemplate(template, vars) {
   return template.replace(/\{\{(\w+)\}\}/g, (_, key) => {
     if (!(key in vars)) {
@@ -108,7 +125,7 @@ function projectPr(pr, excludedLabels, guardianLabel) {
 async function fetchPrs(config) {
   const token = process.env.GITHUB_TOKEN;
   if (!token) {
-    console.warn('[release-guardians] GITHUB_TOKEN not set — event will have empty PR sections.');
+    console.warn('[release-guardians] GITHUB_TOKEN not set.');
     return null;
   }
   const searchQuery = `repo:${config.repo} is:pr label:"${config.testingLabel}"`;
@@ -169,19 +186,28 @@ async function main() {
   const dataPath = path.join(DATA_DIR, `${config.releaseVersion}.json`);
 
   const prs = await fetchPrs(config);
-  const complete = prs ? prs.filter((p) => p.labels.includes(config.completeLabel)) : [];
-  const inProgress = prs
-    ? prs.filter((p) => p.labels.includes(config.inProgressLabel) && !p.labels.includes(config.completeLabel))
-    : [];
-  const needsValidation = prs
-    ? prs.filter((p) => !p.labels.includes(config.inProgressLabel) && !p.labels.includes(config.completeLabel))
-    : [];
+  // Treat a failed/blocked upstream fetch as a no-op: leave every existing
+  // file intact and exit non-zero so the workflow run is visibly red. The
+  // alternative (writing an empty snapshot) would wipe the live page on any
+  // transient GitHub API hiccup.
+  if (prs === null) {
+    console.error('[release-guardians] Upstream fetch failed — existing snapshot, event, and redirect left untouched.');
+    process.exit(2);
+  }
+
+  const complete = prs.filter((p) => p.labels.includes(config.completeLabel));
+  const inProgress = prs.filter(
+    (p) => p.labels.includes(config.inProgressLabel) && !p.labels.includes(config.completeLabel)
+  );
+  const needsValidation = prs.filter(
+    (p) => !p.labels.includes(config.inProgressLabel) && !p.labels.includes(config.completeLabel)
+  );
 
   const excludedLabels = new Set([config.testingLabel, config.inProgressLabel, config.completeLabel]);
 
   // Render-ready snapshot. Components are pure presentation; everything they
   // need is pre-projected here.
-  const snapshot = {
+  const newSnapshot = {
     version: config.releaseVersion,
     fetchedAt: new Date().toISOString(),
     needsValidation: needsValidation.map((p) => projectPr(p, excludedLabels, null)),
@@ -189,8 +215,15 @@ async function main() {
     complete: complete.map((p) => projectPr(p, excludedLabels, config.completeLabel)),
   };
 
-  fs.mkdirSync(DATA_DIR, { recursive: true });
-  fs.writeFileSync(dataPath, JSON.stringify(snapshot, null, 2) + '\n');
+  // Skip the snapshot write when the only thing that changed is `fetchedAt`
+  // — otherwise the cron would open a noise PR every 12 hours even when no
+  // PR labels moved.
+  const existingSnapshot = readJsonOrNull(dataPath);
+  const snapshotChanged = !snapshotContentUnchanged(newSnapshot, existingSnapshot);
+  if (snapshotChanged) {
+    fs.mkdirSync(DATA_DIR, { recursive: true });
+    fs.writeFileSync(dataPath, JSON.stringify(newSnapshot, null, 2) + '\n');
+  }
 
   const template = fs.readFileSync(TEMPLATE_PATH, 'utf8');
   const organisersYaml = config.organisers.map((o) => `    - ${o}`).join('\n');
@@ -201,8 +234,8 @@ async function main() {
     organisersYaml,
     matrixLink: config.matrixLink,
     testServer: config.testServer,
+    meetingName: config.meetingName,
     meetingLink: config.meetingLink,
-    meetingSchedule: config.meetingSchedule,
     testingLabel: config.testingLabel,
     inProgressLabel: config.inProgressLabel,
     completeLabel: config.completeLabel,
@@ -215,10 +248,14 @@ async function main() {
   fs.writeFileSync(REDIRECT_PATH, JSON.stringify(redirect, null, 2) + '\n');
 
   console.log(`✓ Synced event:    ${path.relative(REPO_ROOT, targetPath)}`);
-  console.log(`✓ Synced data:     ${path.relative(REPO_ROOT, dataPath)}`);
+  console.log(
+    snapshotChanged
+      ? `✓ Synced data:     ${path.relative(REPO_ROOT, dataPath)}`
+      : `· Snapshot unchanged — keeping fetchedAt ${existingSnapshot.fetchedAt}`
+  );
   console.log(`  Cycle: ${config.releaseVersion} (${config.testingStart} → ${config.testingEnd})`);
   console.log(
-    `  PRs: ${needsValidation.length} need validation, ${inProgress.length} in progress, ${complete.length} complete${prs === null ? ' (data unavailable)' : ''}`
+    `  PRs: ${needsValidation.length} need validation, ${inProgress.length} in progress, ${complete.length} complete`
   );
   console.log(`✓ Redirect:        ${redirect.from} → ${redirect.to}`);
 }

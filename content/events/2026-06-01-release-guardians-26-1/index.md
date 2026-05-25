@@ -31,7 +31,7 @@ Pick a pull request from the list below, test the change on the [**Galaxy Test S
 4. Report your findings directly on the PR. Screenshots, regressions, deployment notes, and edge cases are all useful.
 5. When validation is complete, replace `release-testing-in-progress` with `release-testing-complete`.
 6. Join the [**Matrix room**](https://matrix.to/#/%23galaxyproject_release-testing:gitter.im) for async coordination with other Release Guardians and organisers.
-7. Join the [**Kickoff Meeting on Mon Jun 1, 16:00 UTC**](https://meet.google.com/your-meeting-id) to get started and ask questions live.
+7. Join the [**Testing and Hardening Working Group Meeting**](https://meet.google.com/ios-kygq-hfw) for live Q&A and coordination with organisers.
 
 <ReleaseGuardiansSummary version="26.1" />
 

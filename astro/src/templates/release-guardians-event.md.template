@@ -30,7 +30,7 @@ Pick a pull request from the list below, test the change on the [**Galaxy Test S
 4. Report your findings directly on the PR. Screenshots, regressions, deployment notes, and edge cases are all useful.
 5. When validation is complete, replace `{{inProgressLabel}}` with `{{completeLabel}}`.
 6. Join the [**Matrix room**]({{matrixLink}}) for async coordination with other Release Guardians and organisers.
-7. Join the [**Kickoff Meeting on {{meetingSchedule}}**]({{meetingLink}}) to get started and ask questions live.
+7. Join the [**{{meetingName}}**]({{meetingLink}}) for live Q&A and coordination with organisers.
 
 <ReleaseGuardiansSummary version="{{version}}" />
 
