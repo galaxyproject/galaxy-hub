@@ -80,12 +80,11 @@ function readJsonOrNull(filePath) {
   }
 }
 
-/** True when the two snapshots differ only by `fetchedAt`. */
-function snapshotContentUnchanged(a, b) {
-  if (!a || !b) return false;
-  const { fetchedAt: _ignoredA, ...restA } = a;
-  const { fetchedAt: _ignoredB, ...restB } = b;
-  return JSON.stringify(restA) === JSON.stringify(restB);
+/** Snapshot fingerprint excluding `fetchedAt` — used to skip noise writes. */
+function snapshotFingerprint(snapshot) {
+  if (!snapshot) return null;
+  const { needsValidation, inProgress, complete, version } = snapshot;
+  return JSON.stringify({ version, needsValidation, inProgress, complete });
 }
 
 function renderTemplate(template, vars) {
@@ -219,7 +218,7 @@ async function main() {
   // — otherwise the cron would open a noise PR every 12 hours even when no
   // PR labels moved.
   const existingSnapshot = readJsonOrNull(dataPath);
-  const snapshotChanged = !snapshotContentUnchanged(newSnapshot, existingSnapshot);
+  const snapshotChanged = snapshotFingerprint(newSnapshot) !== snapshotFingerprint(existingSnapshot);
   if (snapshotChanged) {
     fs.mkdirSync(DATA_DIR, { recursive: true });
     fs.writeFileSync(dataPath, JSON.stringify(newSnapshot, null, 2) + '\n');
