@@ -26,4 +26,8 @@ export const RELEASE_GUARDIANS_CONFIG = {
     matrixLink: "https://matrix.to/#/%23galaxyproject_release-testing:gitter.im",
     /** Galaxy instance the cycle's validation should be performed against. */
     testServer: "https://test.galaxyproject.org/",
+    /** Kickoff video meeting link (Google Meet, Zoom, etc). */
+    meetingLink: "https://meet.google.com/your-meeting-id",
+    /** When the kickoff meeting happens — free-text, e.g. "Mon Jun 1, 16:00 UTC". */
+    meetingSchedule: "Mon Jun 1, 16:00 UTC",
 } as const;
