@@ -33,7 +33,7 @@ const EVENTS_DIR = path.join(REPO_ROOT, 'content/events');
 const REDIRECT_PATH = path.join(ASTRO_ROOT, 'src/build/release-guardians-redirect.json');
 
 const GITHUB_GRAPHQL = 'https://api.github.com/graphql';
-const TEASE_MAX_CHARS = 280;
+const TEASE_MAX_WORDS = 50;
 
 function readConfig() {
     const src = fs.readFileSync(CONFIG_PATH, 'utf8');
@@ -140,31 +140,84 @@ function escapeHtml(s) {
     return String(s).replace(/[&<>"']/g, (c) => HTML_ESCAPES[c]);
 }
 
-// Any one of these characters/patterns in the first TEASE_MAX_CHARS means the
-// description is "rich" — has markdown, HTML, links, refs, or images.
-// We show no tease in that case rather than render or strip ambiguously.
-const RICH_MARKERS = /[<>[\]`*_#~]|https?:\/\/|^\s*[-+]\s|^\s*\d+\.\s/m;
+// Per-sentence markers — anything that signals markdown/HTML/link/image/ref
+// inline. A sentence containing any of these is "dirty" and unprintable as
+// plain text. Backticks (inline code like `data_collection`) are deliberately
+// allowed through — they render as literal characters and remain readable.
+const SENTENCE_DIRTY = /<[^>]+>|\[[^\]]*\]\(|!\[|\*\*|__|~~|#\d|(^|\s)@\w|https?:\/\//;
+
+// A line that looks like a markdown block element (header / blockquote /
+// list). Whole paragraphs containing any such line are skipped entirely.
+const STRUCTURAL_LINE = /^(#{1,6}\s|>\s|[-*+]\s|\d+\.\s)/;
 
 /**
- * Show a tease only if the first chunk of the PR description is plain text.
- * If the first TEASE_MAX_CHARS contain any markdown, HTML, links, or images,
- * we render no tease — keeping the card uniform and predictable.
+ * Walk the PR description for the first **clean** sentence — no markdown,
+ * HTML, links, refs, or images. Use that as the starting point and keep
+ * accumulating subsequent clean sentences until either:
+ *   - a dirty sentence is hit, or
+ *   - the word count reaches TEASE_MAX_WORDS.
+ *
+ * Skips paragraphs that look like markdown structure (headers, blockquotes,
+ * lists) so a PR that opens with `## Summary` followed by `Addresses #123`
+ * followed by plain prose lands on the prose.
+ *
+ * Returns '' if no clean starting sentence exists in any paragraph.
  */
 function extractPlainTease(body) {
     if (!body) return '';
-    // Drop PR-template HTML comments — they're scaffolding, not content.
-    const stripped = body.replace(/<!--[\s\S]*?-->/g, '').trim();
+    // Normalise CRLF / lone CR — GitHub returns mixed line endings and the
+    // paragraph split below requires consecutive '\n's to detect boundaries.
+    let stripped = body
+        .replace(/\r\n/g, '\n')
+        .replace(/\r/g, '\n')
+        .replace(/<!--[\s\S]*?-->/g, '')
+        .replace(/```[\s\S]*?```/g, '');
+
+    // Strip structural lines (headings, blockquotes, lists, table rows,
+    // setext underlines) by replacing them with blank lines. This breaks the
+    // heading off from any directly-following prose so the prose becomes its
+    // own paragraph instead of being rejected with the heading.
+    stripped = stripped
+        .split('\n')
+        .map((line) => {
+            const t = line.trim();
+            if (STRUCTURAL_LINE.test(t)) return '';
+            if (/^\|.*\|$/.test(t)) return '';        // markdown table row
+            if (/^={3,}$|^-{3,}$/.test(t)) return ''; // setext header underline
+            return line;
+        })
+        .join('\n')
+        .trim();
     if (!stripped) return '';
 
-    const head = stripped.slice(0, TEASE_MAX_CHARS);
-    if (RICH_MARKERS.test(head)) return '';
+    const paragraphs = stripped.split(/\n{2,}/).map((p) => p.trim()).filter(Boolean);
+    for (const paragraph of paragraphs) {
+        const flat = paragraph.replace(/\s+/g, ' ').trim();
+        // Sentence split on terminator + space. Conservative — won't over-split
+        // on "v1.0" or "Mr." but may under-split on missing terminators (fine).
+        const sentences = flat.split(/(?<=[.!?])\s+/);
+        const startIdx = sentences.findIndex((s) => !SENTENCE_DIRTY.test(s));
+        if (startIdx === -1) continue;
 
-    // Word-boundary truncate at the limit if the body extends beyond it.
-    if (stripped.length > TEASE_MAX_CHARS) {
-        const lastSpace = head.lastIndexOf(' ');
-        return head.slice(0, lastSpace > 0 ? lastSpace : head.length).trimEnd().replace(/\s+/g, ' ');
+        const out = [];
+        let wordCount = 0;
+        for (let i = startIdx; i < sentences.length; i++) {
+            if (SENTENCE_DIRTY.test(sentences[i])) break;
+            const words = sentences[i].split(/\s+/).filter(Boolean);
+            const remaining = TEASE_MAX_WORDS - wordCount;
+            if (words.length > remaining) {
+                out.push(...words.slice(0, remaining));
+                wordCount = TEASE_MAX_WORDS;
+                break;
+            }
+            out.push(...words);
+            wordCount += words.length;
+            if (wordCount >= TEASE_MAX_WORDS) break;
+        }
+        if (out.length === 0) continue;
+        return out.join(' ');
     }
-    return head.replace(/\s+/g, ' ').trim();
+    return '';
 }
 
 /** Each card is emitted as a single line of HTML — markdown parsers treat
