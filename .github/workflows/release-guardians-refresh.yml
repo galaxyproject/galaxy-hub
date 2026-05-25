@@ -1,0 +1,62 @@
+---
+# Refresh the Release Guardians event for the current cycle. Reads
+# astro/src/utils/release-guardians-config.ts, queries GitHub for PRs carrying
+# the testing label, and rewrites the matching event file in content/events/.
+# If anything changed, commits + pushes — which triggers publish.yml to deploy.
+
+name: Release Guardians refresh
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */12 * * *"
+
+concurrency:
+  group: release-guardians-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    if: github.repository_owner == 'galaxyproject'
+    permissions:
+      contents: write
+    steps:
+      - name: Generate GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: ${{ secrets.HUB_BOT_APP_CLIENT_ID }}
+          private-key: ${{ secrets.HUB_BOT_APP_PRIVATE_KEY }}
+
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          token: ${{ steps.app-token.outputs.token }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: cd astro && npm ci
+
+      - name: Sync event
+        env:
+          GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
+        run: cd astro && npm run release-guardians:sync-event
+
+      - name: Commit + push if changed
+        env:
+          GH_APP_SLUG: ${{ steps.app-token.outputs.app-slug }}
+        run: |
+          git config user.name "${GH_APP_SLUG}[bot]"
+          git config user.email "${GH_APP_SLUG}[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No changes — release-guardians event already up to date."
+            exit 0
+          fi
+          git commit -m "Refresh Release Guardians event (auto)"
+          git push

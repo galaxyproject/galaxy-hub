@@ -1,0 +1,40 @@
+---
+title: 'Galaxy {{version}} Release Guardians — Testing Window Open'
+date: '{{startDate}}'
+end: '{{endDate}}'
+tease: >-
+  Help validate user-facing changes before Galaxy {{version}} ships. Pick a
+  pull request from the list, exercise it on a Galaxy server, and report
+  what you observed directly on the PR.
+tags:
+  - release-guardians
+  - release-testing
+  - '{{version}}'
+subsites: [all]
+contributions:
+  organisers:
+{{organisersYaml}}
+---
+
+The Galaxy **{{version}}** release is in its community-validation window. We're recruiting **Release Guardians** to help exercise user-facing changes before publication. No signup, no separate coordination layer — pick a PR below, test it, comment your results.
+
+## How to participate
+
+1. Pick a PR from the **Needs Validation** list below.
+2. Read the description and review history; reproduce the user-facing change.
+3. Report what you observed in a comment on the PR — screenshots, regressions, deployment notes all welcome.
+4. If everything works, ask a maintainer to add the `{{validatedLabel}}` label, or add it yourself if you have triage rights.
+
+Join the **[Matrix room]({{matrixLink}})** for real-time chatter, pairing on PRs, and asking the organisers questions.
+
+## Needs Validation
+
+{{needsValidationList}}
+
+## Validated
+
+{{validatedList}}
+{{unavailableNote}}
+---
+
+GitHub labels are the source of truth (`{{testingLabel}}` for in-scope, `{{validatedLabel}}` for done). This page is regenerated every 12 hours from the live labels — _last refreshed {{generatedAt}}_.

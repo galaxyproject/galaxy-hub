@@ -7,6 +7,7 @@ import sitemap from '@astrojs/sitemap';
 import rehypeSlug from 'rehype-slug';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import generatedRedirects from './src/build/generated-redirects.json' with { type: 'json' };
+import releaseGuardiansRedirect from './src/build/release-guardians-redirect.json' with { type: 'json' };
 
 const autolinkConfig = {
   behavior: 'append',
@@ -35,6 +36,7 @@ export default defineConfig({
   redirects: {
     ...simpleRedirects,
     ...patternRedirects,
+    [releaseGuardiansRedirect.from]: { destination: releaseGuardiansRedirect.to, status: 301 },
   },
   integrations: [
     vue(),
