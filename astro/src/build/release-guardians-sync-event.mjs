@@ -139,58 +139,50 @@ function escapeHtml(s) {
     return String(s).replace(/[&<>"']/g, (c) => HTML_ESCAPES[c]);
 }
 
-/** Cheap markdown-strip + first-meaningful-paragraph extraction + word-boundary truncate. */
-function extractTease(body) {
-    if (!body) return '';
-    let t = body
-        // HTML comments (common in PR templates)
-        .replace(/<!--[\s\S]*?-->/g, '')
-        // Raw HTML tags (e.g. <img>, <details>, <br>) — strip the tag, keep any text
-        .replace(/<[^>]+>/g, '')
-        // Fenced code blocks
-        .replace(/```[\s\S]*?```/g, '')
-        // Inline code
-        .replace(/`([^`]+)`/g, '$1')
-        // Headers
-        .replace(/^#{1,6}\s+/gm, '')
-        // Bold / italic / strike markers
-        .replace(/(\*\*|__|~~|\*|_)/g, '')
-        // Inline images / links — keep link text only
-        .replace(/!?\[([^\]]+)\]\([^)]*\)/g, '$1')
-        // Blockquotes
-        .replace(/^>\s*/gm, '')
-        // List markers
-        .replace(/^\s*[-*+]\s+/gm, '')
-        .replace(/^\s*\d+\.\s+/gm, '');
+// Any one of these characters/patterns in the first TEASE_MAX_CHARS means the
+// description is "rich" — has markdown, HTML, links, refs, or images.
+// We show no tease in that case rather than render or strip ambiguously.
+const RICH_MARKERS = /[<>[\]`*_#~]|https?:\/\/|^\s*[-+]\s|^\s*\d+\.\s/m;
 
-    // Walk paragraphs until we find one with enough substance. Skips bare
-    // section labels ("Summary", "Description") that PR templates leave behind.
-    const paragraphs = t.split(/\n{2,}/).map((s) => s.replace(/\s+/g, ' ').trim()).filter(Boolean);
-    const firstPara = paragraphs.find((p) => p.length >= 30) || paragraphs[0] || '';
-    if (firstPara.length <= TEASE_MAX_CHARS) {
-        return firstPara;
+/**
+ * Show a tease only if the first chunk of the PR description is plain text.
+ * If the first TEASE_MAX_CHARS contain any markdown, HTML, links, or images,
+ * we render no tease — keeping the card uniform and predictable.
+ */
+function extractPlainTease(body) {
+    if (!body) return '';
+    // Drop PR-template HTML comments — they're scaffolding, not content.
+    const stripped = body.replace(/<!--[\s\S]*?-->/g, '').trim();
+    if (!stripped) return '';
+
+    const head = stripped.slice(0, TEASE_MAX_CHARS);
+    if (RICH_MARKERS.test(head)) return '';
+
+    // Word-boundary truncate at the limit if the body extends beyond it.
+    if (stripped.length > TEASE_MAX_CHARS) {
+        const lastSpace = head.lastIndexOf(' ');
+        return head.slice(0, lastSpace > 0 ? lastSpace : head.length).trimEnd().replace(/\s+/g, ' ');
     }
-    const cut = firstPara.slice(0, TEASE_MAX_CHARS);
-    const lastSpace = cut.lastIndexOf(' ');
-    return cut.slice(0, lastSpace > 0 ? lastSpace : cut.length).trimEnd();
+    return head.replace(/\s+/g, ' ').trim();
 }
 
 /** Each card is emitted as a single line of HTML — markdown parsers treat
  *  an HTML block as opaque only while there are no blank lines / re-entry
- *  points inside. Internal whitespace breaks the block and re-parses the
- *  body as markdown, which mangles the layout. */
+ *  points inside. The card itself is a <div>, not a giant <a>, because the
+ *  rendered tease contains its own <a> tags (issue refs, body links) and
+ *  nested <a>s are invalid HTML — browsers auto-close the outer one. */
 function renderPrCard(pr) {
     const avatar = pr.author?.avatarUrl
         ? `<img src="${escapeHtml(pr.author.avatarUrl)}" alt="" loading="lazy" width="32" height="32" class="w-8 h-8 rounded-full mt-1 flex-shrink-0" />`
         : '<div class="w-8 h-8 rounded-full mt-1 flex-shrink-0 bg-ebony-clay-100"></div>';
     const authorLine = pr.author
-        ? `<span class="text-chicago-700">@${escapeHtml(pr.author.login)}</span>`
+        ? `<a href="${escapeHtml(pr.author.url)}" target="_blank" rel="noopener noreferrer" class="text-chicago-700 hover:text-galaxy-primary">@${escapeHtml(pr.author.login)}</a>`
         : '<span class="text-chicago-500">anonymous</span>';
-    const tease = extractTease(pr.body);
+    const tease = extractPlainTease(pr.body);
     const teaseHtml = tease
-        ? `<div class="text-sm text-chicago-700 mt-2 leading-snug">${escapeHtml(tease)}&hellip; <span class="text-galaxy-primary whitespace-nowrap">more</span></div>`
+        ? `<div class="text-sm text-chicago-700 mt-2 leading-snug">${escapeHtml(tease)}&hellip; <a href="${escapeHtml(pr.url)}" target="_blank" rel="noopener noreferrer" class="text-galaxy-primary hover:underline whitespace-nowrap">more</a></div>`
         : '';
-    return `<a href="${escapeHtml(pr.url)}" class="block p-4 bg-white rounded-lg border border-ebony-clay-100 hover:border-galaxy-primary hover:shadow-md transition-all no-underline"><div class="flex items-start gap-3">${avatar}<div class="min-w-0 flex-1"><div class="font-semibold text-galaxy-dark">#${pr.number} — ${escapeHtml(pr.title)}</div><div class="text-sm text-chicago-500 mt-1">${authorLine} · updated ${formatDate(pr.updatedAt)}</div>${teaseHtml}</div></div></a>`;
+    return `<div class="p-4 bg-white rounded-lg border border-ebony-clay-100 hover:border-galaxy-primary hover:shadow-md transition-all"><div class="flex items-start gap-3">${avatar}<div class="min-w-0 flex-1"><div class="font-semibold"><a href="${escapeHtml(pr.url)}" target="_blank" rel="noopener noreferrer" class="text-galaxy-dark hover:text-galaxy-primary">#${pr.number} — ${escapeHtml(pr.title)}</a></div><div class="text-sm text-chicago-500 mt-1">${authorLine} · updated ${formatDate(pr.updatedAt)}</div>${teaseHtml}</div></div></div>`;
 }
 
 function renderSection(prs, emptyMessage) {
