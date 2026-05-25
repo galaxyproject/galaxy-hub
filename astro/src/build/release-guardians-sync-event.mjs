@@ -61,6 +61,7 @@ function readConfig() {
         testingEnd: pick('testingEnd'),
         organisers: pickArray('organisers'),
         matrixLink: pick('matrixLink'),
+        testServer: pick('testServer'),
     };
 }
 
@@ -308,6 +309,7 @@ async function main() {
         endDate: config.testingEnd,
         organisersYaml,
         matrixLink: config.matrixLink,
+        testServer: config.testServer,
         testingLabel: config.testingLabel,
         inProgressLabel: config.inProgressLabel,
         completeLabel: config.completeLabel,

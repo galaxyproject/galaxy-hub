@@ -1,11 +1,11 @@
 ---
-title: 'Galaxy {{version}} Release Guardians — Testing Window Open'
+title: 'Galaxy {{version}} Release Guardians — Validation Window Open'
 date: '{{startDate}}'
 end: '{{endDate}}'
 tease: >-
-  Help validate user-facing changes before Galaxy {{version}} ships. Pick a
-  pull request from the list, exercise it on a Galaxy server, and report
-  what you observed directly on the PR.
+  The Galaxy {{version}} release is entering community validation. Help
+  exercise user-facing changes across real deployments, workflows, and
+  browsers before publication.
 tags:
   - release-guardians
   - release-testing
@@ -16,17 +16,18 @@ contributions:
 {{organisersYaml}}
 ---
 
-The Galaxy **{{version}}** release is in its community-validation window. We're recruiting **Release Guardians** to help exercise user-facing changes before publication. No signup, no separate coordination layer — labels on the PRs are the entire workflow.
+The Galaxy **{{version}}** release is entering community validation. Become a **Galaxy Release Guardian** and help exercise user-facing changes across real deployments, workflows, and browsers before publication.
+
+Pick a pull request from the list below, test the change on the **[Galaxy Test Server]({{testServer}})**, and report your findings directly on the PR. No signup, no separate coordination system. The PR labels are the workflow.
 
 ## How to participate
 
-1. Pick a PR from the **Needs Validation** list below.
-2. Claim it by adding the `{{inProgressLabel}}` label — this moves it into **In Progress** so others know it's being tested.
-3. Read the description and review history; reproduce the user-facing change.
-4. Report what you observed in a comment on the PR — screenshots, regressions, deployment notes all welcome.
-5. When done, replace `{{inProgressLabel}}` with `{{completeLabel}}` to move it into **Complete**.
-
-Join the **[Matrix room]({{matrixLink}})** for real-time chatter, pairing on PRs, and asking the organisers questions.
+1. Pick a PR from the **Needs Validation** section below.
+2. Add the `{{inProgressLabel}}` label to indicate that validation is underway.
+3. Review the PR description and exercise the user-facing change on the **[Galaxy Test Server]({{testServer}})**.
+4. Report your findings directly on the PR. Screenshots, regressions, deployment notes, and edge cases are all useful.
+5. When validation is complete, replace `{{inProgressLabel}}` with `{{completeLabel}}`.
+6. Join the **[Matrix room]({{matrixLink}})** for real-time coordination, troubleshooting, and discussion with other Release Guardians and organisers.
 
 {{summaryHtml}}
 
@@ -44,4 +45,4 @@ Join the **[Matrix room]({{matrixLink}})** for real-time chatter, pairing on PRs
 {{unavailableNote}}
 ---
 
-GitHub labels are the source of truth (`{{testingLabel}}` for in-scope, `{{inProgressLabel}}` while being tested, `{{completeLabel}}` for done). This page is regenerated every 12 hours from the live labels — _last refreshed {{generatedAt}}_.
+GitHub labels are the source of truth (`{{testingLabel}}` for in-scope, `{{inProgressLabel}}` while being tested, `{{completeLabel}}` for done). This page is regenerated every 12 hours from the live labels. _Last refreshed {{generatedAt}}._

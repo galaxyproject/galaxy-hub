@@ -24,4 +24,6 @@ export const RELEASE_GUARDIANS_CONFIG = {
     organisers: ["guerler", "mvdbeek"],
     /** Matrix room for coordination chatter. */
     matrixLink: "https://matrix.to/#/%23galaxyproject_release-testing:gitter.im",
+    /** Galaxy instance the cycle's validation should be performed against. */
+    testServer: "https://test.galaxyproject.org/",
 } as const;
