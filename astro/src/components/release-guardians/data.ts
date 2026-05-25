@@ -7,38 +7,38 @@
  */
 
 export interface Actor {
-    login: string;
-    url: string;
-    avatarUrl: string;
+  login: string;
+  url: string;
+  avatarUrl: string;
 }
 
 export interface GuardianPr {
-    number: number;
-    title: string;
-    url: string;
-    author: Actor | null;
-    labels: string[];
-    tease: string;
-    guardian?: Actor | null;
+  number: number;
+  title: string;
+  url: string;
+  author: Actor | null;
+  labels: string[];
+  tease: string;
+  guardian?: Actor | null;
 }
 
 export interface Snapshot {
-    version: string;
-    fetchedAt: string;
-    needsValidation: GuardianPr[];
-    inProgress: GuardianPr[];
-    complete: GuardianPr[];
+  version: string;
+  fetchedAt: string;
+  needsValidation: GuardianPr[];
+  inProgress: GuardianPr[];
+  complete: GuardianPr[];
 }
 
-export type SnapshotKind = "needsValidation" | "inProgress" | "complete";
+export type SnapshotKind = 'needsValidation' | 'inProgress' | 'complete';
 
 // `eager: true` bundles all snapshots into the build graph so lookup is sync.
-const snapshots = import.meta.glob<{ default: Snapshot }>("@/data/release-guardians/*.json", {
-    eager: true,
+const snapshots = import.meta.glob<{ default: Snapshot }>('@/data/release-guardians/*.json', {
+  eager: true,
 });
 
 /** Return the snapshot for the given release version, or null if missing. */
 export function loadSnapshot(version: string): Snapshot | null {
-    const key = `/src/data/release-guardians/${version}.json`;
-    return snapshots[key]?.default ?? null;
+  const key = `/src/data/release-guardians/${version}.json`;
+  return snapshots[key]?.default ?? null;
 }

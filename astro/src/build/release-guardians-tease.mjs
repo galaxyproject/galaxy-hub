@@ -26,49 +26,52 @@ export const STRUCTURAL_LINE = /^(#{1,6}\s|>\s|[-*+]\s|\d+\.\s|\|.*\||={3,}$|-{3
  * count reaches TEASE_MAX_WORDS. Returns '' if no clean starting sentence.
  */
 export function extractPlainTease(body) {
-    if (!body) return '';
+  if (!body) return '';
 
-    const stripped = body
-        // Normalise CRLF / lone CR — GitHub returns mixed line endings.
-        .replace(/\r\n?/g, '\n')
-        // PR-template scaffolding is never user content.
-        .replace(/<!--[\s\S]*?-->/g, '')
-        // Multi-line code is too large + the wrong shape for a tease.
-        .replace(/```[\s\S]*?```/g, '')
-        // Replace structural lines with blanks so the prose around them
-        // becomes its own paragraph after the `\n{2,}` paragraph split.
-        .split('\n')
-        .map((line) => (STRUCTURAL_LINE.test(line.trim()) ? '' : line))
-        .join('\n')
-        .trim();
-    if (!stripped) return '';
+  const stripped = body
+    // Normalise CRLF / lone CR — GitHub returns mixed line endings.
+    .replace(/\r\n?/g, '\n')
+    // PR-template scaffolding is never user content.
+    .replace(/<!--[\s\S]*?-->/g, '')
+    // Multi-line code is too large + the wrong shape for a tease.
+    .replace(/```[\s\S]*?```/g, '')
+    // Replace structural lines with blanks so the prose around them
+    // becomes its own paragraph after the `\n{2,}` paragraph split.
+    .split('\n')
+    .map((line) => (STRUCTURAL_LINE.test(line.trim()) ? '' : line))
+    .join('\n')
+    .trim();
+  if (!stripped) return '';
 
-    const paragraphs = stripped.split(/\n{2,}/).map((p) => p.trim()).filter(Boolean);
-    for (const paragraph of paragraphs) {
-        const flat = paragraph.replace(/\s+/g, ' ').trim();
-        // Sentence split on terminator + space. Conservative — won't over-split
-        // on "v1.0" or "Mr." but may under-split on missing terminators (fine).
-        const sentences = flat.split(/(?<=[.!?])\s+/);
-        const startIdx = sentences.findIndex((s) => !SENTENCE_DIRTY.test(s));
-        if (startIdx === -1) continue;
+  const paragraphs = stripped
+    .split(/\n{2,}/)
+    .map((p) => p.trim())
+    .filter(Boolean);
+  for (const paragraph of paragraphs) {
+    const flat = paragraph.replace(/\s+/g, ' ').trim();
+    // Sentence split on terminator + space. Conservative — won't over-split
+    // on "v1.0" or "Mr." but may under-split on missing terminators (fine).
+    const sentences = flat.split(/(?<=[.!?])\s+/);
+    const startIdx = sentences.findIndex((s) => !SENTENCE_DIRTY.test(s));
+    if (startIdx === -1) continue;
 
-        const out = [];
-        let wordCount = 0;
-        for (let i = startIdx; i < sentences.length; i++) {
-            if (SENTENCE_DIRTY.test(sentences[i])) break;
-            const words = sentences[i].split(/\s+/).filter(Boolean);
-            const remaining = TEASE_MAX_WORDS - wordCount;
-            if (words.length > remaining) {
-                out.push(...words.slice(0, remaining));
-                wordCount = TEASE_MAX_WORDS;
-                break;
-            }
-            out.push(...words);
-            wordCount += words.length;
-            if (wordCount >= TEASE_MAX_WORDS) break;
-        }
-        if (out.length === 0) continue;
-        return out.join(' ');
+    const out = [];
+    let wordCount = 0;
+    for (let i = startIdx; i < sentences.length; i++) {
+      if (SENTENCE_DIRTY.test(sentences[i])) break;
+      const words = sentences[i].split(/\s+/).filter(Boolean);
+      const remaining = TEASE_MAX_WORDS - wordCount;
+      if (words.length > remaining) {
+        out.push(...words.slice(0, remaining));
+        wordCount = TEASE_MAX_WORDS;
+        break;
+      }
+      out.push(...words);
+      wordCount += words.length;
+      if (wordCount >= TEASE_MAX_WORDS) break;
     }
-    return '';
+    if (out.length === 0) continue;
+    return out.join(' ');
+  }
+  return '';
 }
