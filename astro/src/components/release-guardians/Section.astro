@@ -1,0 +1,25 @@
+---
+import Card from './Card.astro';
+import { loadSnapshot, type GuardianPr, type SnapshotKind } from './data';
+
+interface Props {
+  version: string;
+  kind: SnapshotKind;
+  emptyMessage: string;
+}
+const { version, kind, emptyMessage } = Astro.props;
+const data = loadSnapshot(version);
+const prs: GuardianPr[] = data ? data[kind] : [];
+---
+
+{prs.length === 0 ? (
+  <div class="not-prose my-4 p-6 bg-light-bg bg-grid rounded-lg border border-ebony-clay-100 text-center text-chicago-500 italic">
+    {emptyMessage}
+  </div>
+) : (
+  <div class="not-prose my-4 p-4 bg-light-bg bg-grid rounded-lg border border-ebony-clay-100">
+    <div class="space-y-3">
+      {prs.map((pr) => <Card pr={pr} />)}
+    </div>
+  </div>
+)}

@@ -4,19 +4,19 @@
  * `src/utils/release-guardians-config.ts`.
  *
  * Single point of GitHub interaction for the initiative. Fetches the labeled
- * PRs via GraphQL, renders them inline as HTML cards in an event file, and
- * writes the redirect mapping for `/community/release-guardians/` →
- * `/events/<currentCycleSlug>/`.
+ * PRs via GraphQL, computes ready-to-render data for each PR (filtered
+ * labels, extracted tease, resolved Guardian), writes a per-cycle JSON
+ * snapshot, writes the event MDX file that imports the snapshot + components,
+ * and writes the stable redirect mapping.
  *
  *   Usage: GITHUB_TOKEN=<token> npm run release-guardians:sync-event
  *
  * Behaviour:
- *   - ALWAYS overwrites the event file for the cycle named in config.
- *     Event files are derived artifacts; users only ever edit the config.
- *   - NEVER touches event files for any other cycle. Past releases stay
- *     frozen exactly as their last sync left them.
- *   - Without GITHUB_TOKEN: writes the event with empty PR sections and a
- *     "data unavailable" note. Still safe to run for local prose previews.
+ *   - ALWAYS overwrites the JSON + event file for the cycle named in config.
+ *     Both are derived artifacts; users only ever edit the config.
+ *   - NEVER touches files for any other cycle. Past releases stay frozen
+ *     exactly as their last sync left them.
+ *   - Without GITHUB_TOKEN: writes the event with empty PR sections.
  */
 
 import fs from 'fs';
@@ -30,6 +30,7 @@ const REPO_ROOT = path.resolve(ASTRO_ROOT, '..');
 const CONFIG_PATH = path.join(ASTRO_ROOT, 'src/utils/release-guardians-config.ts');
 const TEMPLATE_PATH = path.join(ASTRO_ROOT, 'src/templates/release-guardians-event.md.template');
 const EVENTS_DIR = path.join(REPO_ROOT, 'content/events');
+const DATA_DIR = path.join(ASTRO_ROOT, 'src/data/release-guardians');
 const REDIRECT_PATH = path.join(ASTRO_ROOT, 'src/build/release-guardians-redirect.json');
 
 const GITHUB_GRAPHQL = 'https://api.github.com/graphql';
@@ -66,7 +67,6 @@ function readConfig() {
         meetingSchedule: pick('meetingSchedule'),
     };
 }
-
 
 const QUERY = `
 query ($searchQuery: String!, $after: String) {
@@ -147,23 +147,6 @@ async function fetchPrs(config) {
         .sort((a, b) => (a.updatedAt < b.updatedAt ? 1 : -1));
 }
 
-/** The actor who most recently applied the given label on this PR. */
-function findGuardian(pr, label) {
-    const events = pr.labelingEvents.filter((e) => e.label === label);
-    if (events.length === 0) return null;
-    events.sort((a, b) => (a.createdAt < b.createdAt ? 1 : -1));
-    return events[0].actor;
-}
-
-const HTML_ESCAPES = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
-function escapeHtml(s) {
-    return String(s).replace(/[&<>"']/g, (c) => HTML_ESCAPES[c]);
-}
-
-function renderLabelPill(name) {
-    return `<span class="inline-flex items-center px-2 py-0.5 text-xs rounded-full bg-ebony-clay-50 text-chicago-700 border border-ebony-clay-100">${escapeHtml(name)}</span>`;
-}
-
 // Per-sentence markers — anything that signals markdown/HTML/link/image/ref
 // inline. A sentence containing any of these is "dirty" and unprintable as
 // plain text. Backticks (inline code like `data_collection`) are deliberately
@@ -175,39 +158,25 @@ const SENTENCE_DIRTY = /<[^>]+>|\[[^\]]*\]\(|!\[|\*\*|__|~~|#\d|(^|\s)@\w|https?
 const STRUCTURAL_LINE = /^(#{1,6}\s|>\s|[-*+]\s|\d+\.\s)/;
 
 /**
- * Walk the PR description for the first **clean** sentence — no markdown,
- * HTML, links, refs, or images. Use that as the starting point and keep
- * accumulating subsequent clean sentences until either:
- *   - a dirty sentence is hit, or
- *   - the word count reaches TEASE_MAX_WORDS.
- *
- * Skips paragraphs that look like markdown structure (headers, blockquotes,
- * lists) so a PR that opens with `## Summary` followed by `Addresses #123`
- * followed by plain prose lands on the prose.
- *
- * Returns '' if no clean starting sentence exists in any paragraph.
+ * Walk the PR description for the first clean sentence (no markdown, HTML,
+ * links, refs, or images) and use it as the starting point. Keep accumulating
+ * subsequent clean sentences until either a dirty sentence is hit or word
+ * count reaches TEASE_MAX_WORDS. Returns '' if no clean starting sentence.
  */
 function extractPlainTease(body) {
     if (!body) return '';
-    // Normalise CRLF / lone CR — GitHub returns mixed line endings and the
-    // paragraph split below requires consecutive '\n's to detect boundaries.
     let stripped = body
         .replace(/\r\n/g, '\n')
         .replace(/\r/g, '\n')
         .replace(/<!--[\s\S]*?-->/g, '')
         .replace(/```[\s\S]*?```/g, '');
-
-    // Strip structural lines (headings, blockquotes, lists, table rows,
-    // setext underlines) by replacing them with blank lines. This breaks the
-    // heading off from any directly-following prose so the prose becomes its
-    // own paragraph instead of being rejected with the heading.
     stripped = stripped
         .split('\n')
         .map((line) => {
             const t = line.trim();
             if (STRUCTURAL_LINE.test(t)) return '';
-            if (/^\|.*\|$/.test(t)) return '';        // markdown table row
-            if (/^={3,}$|^-{3,}$/.test(t)) return ''; // setext header underline
+            if (/^\|.*\|$/.test(t)) return '';
+            if (/^={3,}$|^-{3,}$/.test(t)) return '';
             return line;
         })
         .join('\n')
@@ -217,8 +186,6 @@ function extractPlainTease(body) {
     const paragraphs = stripped.split(/\n{2,}/).map((p) => p.trim()).filter(Boolean);
     for (const paragraph of paragraphs) {
         const flat = paragraph.replace(/\s+/g, ' ').trim();
-        // Sentence split on terminator + space. Conservative — won't over-split
-        // on "v1.0" or "Mr." but may under-split on missing terminators (fine).
         const sentences = flat.split(/(?<=[.!?])\s+/);
         const startIdx = sentences.findIndex((s) => !SENTENCE_DIRTY.test(s));
         if (startIdx === -1) continue;
@@ -244,42 +211,27 @@ function extractPlainTease(body) {
     return '';
 }
 
-/** Each card is emitted as a single line of HTML — markdown parsers treat
- *  an HTML block as opaque only while there are no blank lines / re-entry
- *  points inside. The card itself is a <div>, not a giant <a>, because the
- *  rendered tease contains its own <a> tags (issue refs, body links) and
- *  nested <a>s are invalid HTML — browsers auto-close the outer one. */
-function renderPrCard(pr, excludedLabels, guardian) {
-    const avatar = pr.author?.avatarUrl
-        ? `<img src="${escapeHtml(pr.author.avatarUrl)}" alt="" loading="lazy" width="32" height="32" class="w-8 h-8 rounded-full mt-1 flex-shrink-0" />`
-        : '<div class="w-8 h-8 rounded-full mt-1 flex-shrink-0 bg-ebony-clay-100"></div>';
-    // Drop lifecycle labels (testing/in-progress/complete) — the section the
-    // card sits in already conveys that state, so showing them is redundant.
-    const visibleLabels = pr.labels.filter((l) => !excludedLabels.has(l));
-    const labelsHtml = visibleLabels.length
-        ? `<div class="flex flex-wrap gap-1 mt-2">${visibleLabels.map((l) => renderLabelPill(l)).join('')}</div>`
-        : '';
-    const guardianHtml = guardian
-        ? `<div class="flex justify-end mt-2"><span class="inline-flex items-center gap-1 px-2 py-0.5 text-xs rounded-full bg-amber-50 text-amber-700 border border-amber-200">Guardian: <a href="${escapeHtml(guardian.url)}" target="_blank" rel="noopener noreferrer" class="font-medium hover:underline">@${escapeHtml(guardian.login)}</a></span></div>`
-        : '';
-    const tease = extractPlainTease(pr.body);
-    const teaseHtml = tease
-        ? `<div class="text-sm text-chicago-700 mt-2 leading-snug">${escapeHtml(tease)}&hellip; <a href="${escapeHtml(pr.url)}" target="_blank" rel="noopener noreferrer" class="text-galaxy-primary hover:underline whitespace-nowrap">more</a></div>`
-        : '';
-    return `<div class="p-4 bg-white rounded-lg border border-ebony-clay-100 hover:border-galaxy-primary hover:shadow-md transition-all"><div class="flex items-start gap-3">${avatar}<div class="min-w-0 flex-1"><div class="font-semibold"><a href="${escapeHtml(pr.url)}" target="_blank" rel="noopener noreferrer" class="text-galaxy-dark hover:text-galaxy-primary">#${pr.number} — ${escapeHtml(pr.title)}</a></div>${labelsHtml}${teaseHtml}${guardianHtml}</div></div></div>`;
+/** The actor who most recently applied the given label on this PR. */
+function findGuardian(pr, label) {
+    const events = pr.labelingEvents.filter((e) => e.label === label);
+    if (events.length === 0) return null;
+    events.sort((a, b) => (a.createdAt < b.createdAt ? 1 : -1));
+    return events[0].actor;
 }
 
-function renderSection(prs, emptyMessage, excludedLabels, guardianLabel) {
-    if (prs.length === 0) {
-        return `<div class="not-prose my-4 p-6 bg-light-bg bg-grid rounded-lg border border-ebony-clay-100 text-center text-chicago-500 italic">${escapeHtml(emptyMessage)}</div>`;
-    }
-    // No blank lines between cards — keeps the whole section as one HTML
-    // block from the markdown parser's perspective.
-    const cards = prs.map((pr) => {
-        const guardian = guardianLabel ? findGuardian(pr, guardianLabel) : null;
-        return `  ${renderPrCard(pr, excludedLabels, guardian)}`;
-    }).join('\n');
-    return `<div class="not-prose my-4 p-4 bg-light-bg bg-grid rounded-lg border border-ebony-clay-100"><div class="space-y-3">\n${cards}\n  </div></div>`;
+/** Project a raw PR (from GraphQL) into the render-ready shape the component
+ *  consumes. Drops labelingEvents from the output — they're machinery, not
+ *  display data. */
+function projectPr(pr, excludedLabels, guardianLabel) {
+    return {
+        number: pr.number,
+        title: pr.title,
+        url: pr.url,
+        author: pr.author,
+        labels: pr.labels.filter((l) => !excludedLabels.has(l)),
+        tease: extractPlainTease(pr.body),
+        guardian: guardianLabel ? findGuardian(pr, guardianLabel) : null,
+    };
 }
 
 function renderTemplate(template, vars) {
@@ -296,19 +248,37 @@ async function main() {
     const slug = `${config.testingStart}-release-guardians-${config.releaseVersion}`;
     const targetDir = path.join(EVENTS_DIR, slug);
     const targetPath = path.join(targetDir, 'index.md');
+    const dataPath = path.join(DATA_DIR, `${config.releaseVersion}.json`);
 
     const prs = await fetchPrs(config);
-    // Complete wins over in-progress (the lifecycle moves forward, not back).
     const complete = prs ? prs.filter((p) => p.labels.includes(config.completeLabel)) : [];
     const inProgress = prs ? prs.filter((p) => p.labels.includes(config.inProgressLabel) && !p.labels.includes(config.completeLabel)) : [];
     const needsValidation = prs ? prs.filter((p) => !p.labels.includes(config.inProgressLabel) && !p.labels.includes(config.completeLabel)) : [];
 
-    // Lifecycle labels are conveyed by the section itself — don't repeat as chips.
     const excludedLabels = new Set([config.testingLabel, config.inProgressLabel, config.completeLabel]);
 
-    // Anchor slugs are auto-generated by rehypeSlug from the H2 headings below.
-    const tileClass = 'block p-4 rounded-lg border border-ebony-clay-100 bg-white text-center hover:border-galaxy-primary hover:shadow-md transition-all no-underline';
-    const summaryHtml = `<div class="not-prose my-6 grid grid-cols-1 sm:grid-cols-3 gap-3"><a href="#needs-validation" class="${tileClass}"><div class="text-3xl font-bold text-chicago-700">${needsValidation.length}</div><div class="text-xs text-chicago-500 mt-1 uppercase tracking-wide">Needs Validation</div></a><a href="#in-progress" class="${tileClass}"><div class="text-3xl font-bold text-amber-600">${inProgress.length}</div><div class="text-xs text-chicago-500 mt-1 uppercase tracking-wide">In Progress</div></a><a href="#complete" class="${tileClass}"><div class="text-3xl font-bold text-emerald-600">${complete.length}</div><div class="text-xs text-chicago-500 mt-1 uppercase tracking-wide">Complete</div></a></div>`;
+    // Pre-projected, render-ready snapshot. Component is pure presentation.
+    const snapshot = {
+        version: config.releaseVersion,
+        fetchedAt: new Date().toISOString(),
+        dataUnavailable: prs === null,
+        config: {
+            repo: config.repo,
+            testServer: config.testServer,
+            matrixLink: config.matrixLink,
+            meetingLink: config.meetingLink,
+            meetingSchedule: config.meetingSchedule,
+            testingLabel: config.testingLabel,
+            inProgressLabel: config.inProgressLabel,
+            completeLabel: config.completeLabel,
+        },
+        needsValidation: needsValidation.map((p) => projectPr(p, excludedLabels, null)),
+        inProgress: inProgress.map((p) => projectPr(p, excludedLabels, config.inProgressLabel)),
+        complete: complete.map((p) => projectPr(p, excludedLabels, config.completeLabel)),
+    };
+
+    fs.mkdirSync(DATA_DIR, { recursive: true });
+    fs.writeFileSync(dataPath, JSON.stringify(snapshot, null, 2) + '\n');
 
     const template = fs.readFileSync(TEMPLATE_PATH, 'utf8');
     const organisersYaml = config.organisers.map((o) => `    - ${o}`).join('\n');
@@ -324,14 +294,6 @@ async function main() {
         testingLabel: config.testingLabel,
         inProgressLabel: config.inProgressLabel,
         completeLabel: config.completeLabel,
-        summaryHtml,
-        needsValidationList: renderSection(needsValidation, 'No PRs currently waiting for validation. Check back soon!', excludedLabels, null),
-        inProgressList: renderSection(inProgress, 'No PRs currently being tested.', excludedLabels, config.inProgressLabel),
-        completeList: renderSection(complete, 'No PRs marked complete yet.', excludedLabels, config.completeLabel),
-        generatedAt: new Date().toISOString(),
-        unavailableNote: prs === null
-            ? `\n> _Live PR data was unavailable when this event was last generated; counts above may be stale. See the [label-filtered GitHub view](https://github.com/${config.repo}/pulls?q=is%3Apr+label%3A%22${config.testingLabel}%22) for the current list._\n`
-            : '',
     });
 
     fs.mkdirSync(targetDir, { recursive: true });
@@ -340,10 +302,11 @@ async function main() {
     const redirect = { from: '/community/release-guardians/', to: `/events/${slug}/` };
     fs.writeFileSync(REDIRECT_PATH, JSON.stringify(redirect, null, 2) + '\n');
 
-    console.log(`✓ Synced event: ${path.relative(REPO_ROOT, targetPath)}`);
+    console.log(`✓ Synced event:    ${path.relative(REPO_ROOT, targetPath)}`);
+    console.log(`✓ Synced data:     ${path.relative(REPO_ROOT, dataPath)}`);
     console.log(`  Cycle: ${config.releaseVersion} (${config.testingStart} → ${config.testingEnd})`);
     console.log(`  PRs: ${needsValidation.length} need validation, ${inProgress.length} in progress, ${complete.length} complete${prs === null ? ' (data unavailable)' : ''}`);
-    console.log(`✓ Redirect: ${redirect.from} → ${redirect.to}`);
+    console.log(`✓ Redirect:        ${redirect.from} → ${redirect.to}`);
 }
 
 main().catch((e) => {

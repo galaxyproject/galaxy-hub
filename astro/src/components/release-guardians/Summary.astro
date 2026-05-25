@@ -1,0 +1,27 @@
+---
+import { loadSnapshot } from './data';
+
+interface Props {
+  version: string;
+}
+const { version } = Astro.props;
+const data = loadSnapshot(version);
+
+const tileClass =
+  'block p-4 rounded-lg border border-ebony-clay-100 bg-white text-center hover:border-galaxy-primary hover:shadow-md transition-all no-underline';
+---
+
+<div class="not-prose my-6 grid grid-cols-1 sm:grid-cols-3 gap-3">
+  <a href="#needs-validation" class={tileClass}>
+    <div class="text-3xl font-bold text-chicago-700">{data?.needsValidation.length ?? 0}</div>
+    <div class="text-xs text-chicago-500 mt-1 uppercase tracking-wide">Needs Validation</div>
+  </a>
+  <a href="#in-progress" class={tileClass}>
+    <div class="text-3xl font-bold text-amber-600">{data?.inProgress.length ?? 0}</div>
+    <div class="text-xs text-chicago-500 mt-1 uppercase tracking-wide">In Progress</div>
+  </a>
+  <a href="#complete" class={tileClass}>
+    <div class="text-3xl font-bold text-emerald-600">{data?.complete.length ?? 0}</div>
+    <div class="text-xs text-chicago-500 mt-1 uppercase tracking-wide">Complete</div>
+  </a>
+</div>

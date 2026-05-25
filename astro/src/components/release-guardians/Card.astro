@@ -1,0 +1,68 @@
+---
+import type { GuardianPr } from './data';
+
+interface Props {
+  pr: GuardianPr;
+}
+const { pr } = Astro.props;
+---
+
+<div class="p-4 bg-white rounded-lg border border-ebony-clay-100 hover:border-galaxy-primary hover:shadow-md transition-all">
+  <div class="flex items-start gap-3">
+    {pr.author?.avatarUrl ? (
+      <img
+        src={pr.author.avatarUrl}
+        alt=""
+        loading="lazy"
+        width="32"
+        height="32"
+        class="w-8 h-8 rounded-full mt-1 flex-shrink-0"
+      />
+    ) : (
+      <div class="w-8 h-8 rounded-full mt-1 flex-shrink-0 bg-ebony-clay-100"></div>
+    )}
+    <div class="min-w-0 flex-1">
+      <div class="font-semibold">
+        <a
+          href={pr.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-galaxy-dark hover:text-galaxy-primary"
+        >#{pr.number} — {pr.title}</a>
+      </div>
+      {pr.labels.length > 0 && (
+        <div class="flex flex-wrap gap-1 mt-2">
+          {pr.labels.map((l) => (
+            <span class="inline-flex items-center px-2 py-0.5 text-xs rounded-full bg-ebony-clay-50 text-chicago-700 border border-ebony-clay-100">
+              {l}
+            </span>
+          ))}
+        </div>
+      )}
+      {pr.tease && (
+        <div class="text-sm text-chicago-700 mt-2 leading-snug">
+          {pr.tease}&hellip;{' '}
+          <a
+            href={pr.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-galaxy-primary hover:underline whitespace-nowrap"
+          >more</a>
+        </div>
+      )}
+      {pr.guardian && (
+        <div class="flex justify-end mt-2">
+          <span class="inline-flex items-center gap-1 px-2 py-0.5 text-xs rounded-full bg-amber-50 text-amber-700 border border-amber-200">
+            Guardian:{' '}
+            <a
+              href={pr.guardian.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="font-medium hover:underline"
+            >@{pr.guardian.login}</a>
+          </span>
+        </div>
+      )}
+    </div>
+  </div>
+</div>

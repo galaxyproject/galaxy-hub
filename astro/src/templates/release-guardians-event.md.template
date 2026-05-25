@@ -14,6 +14,7 @@ subsites: [all]
 contributions:
   organisers:
 {{organisersYaml}}
+components: true
 ---
 
 The Galaxy **{{version}}** release is entering community validation. Become a **Galaxy Release Guardian** and help exercise user-facing changes across real deployments, workflows, and browsers before publication.
@@ -32,20 +33,20 @@ Pick a pull request from the list below, test the change on the [**Galaxy Test S
 6. Join the [**Matrix room**]({{matrixLink}}) for async coordination with other Release Guardians and organisers.
 7. Join the [**Kickoff Meeting on {{meetingSchedule}}**]({{meetingLink}}) to get started and ask questions live.
 
-{{summaryHtml}}
+<ReleaseGuardiansSummary version="{{version}}" />
 
 ## Needs Validation
 
-{{needsValidationList}}
+<ReleaseGuardiansSection version="{{version}}" kind="needsValidation" emptyMessage="No PRs currently waiting for validation. Check back soon!" />
 
 ## In Progress
 
-{{inProgressList}}
+<ReleaseGuardiansSection version="{{version}}" kind="inProgress" emptyMessage="No PRs currently being tested." />
 
 ## Complete
 
-{{completeList}}
-{{unavailableNote}}
+<ReleaseGuardiansSection version="{{version}}" kind="complete" emptyMessage="No PRs marked complete yet." />
+
 ---
 
-GitHub labels are the source of truth (`{{testingLabel}}` for in-scope, `{{inProgressLabel}}` while being tested, `{{completeLabel}}` for done). This page is regenerated every 12 hours from the live labels. _Last refreshed {{generatedAt}}._
+GitHub labels are the source of truth (`{{testingLabel}}` for in-scope, `{{inProgressLabel}}` while being tested, `{{completeLabel}}` for done). This page is regenerated every 12 hours from the live labels.
