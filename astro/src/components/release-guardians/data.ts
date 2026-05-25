@@ -25,17 +25,6 @@ export interface GuardianPr {
 export interface Snapshot {
     version: string;
     fetchedAt: string;
-    dataUnavailable: boolean;
-    config: {
-        repo: string;
-        testServer: string;
-        matrixLink: string;
-        meetingLink: string;
-        meetingSchedule: string;
-        testingLabel: string;
-        inProgressLabel: string;
-        completeLabel: string;
-    };
     needsValidation: GuardianPr[];
     inProgress: GuardianPr[];
     complete: GuardianPr[];

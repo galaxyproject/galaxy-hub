@@ -1,0 +1,443 @@
+{
+  "version": "26.1",
+  "fetchedAt": "2026-05-25T17:43:26.034Z",
+  "needsValidation": [
+    {
+      "number": 22716,
+      "title": "Unifies remove button icons across upload methods",
+      "url": "https://github.com/galaxyproject/galaxy/pull/22716",
+      "author": {
+        "login": "davelopez",
+        "url": "https://github.com/davelopez",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46503462?u=aa55aa7b371c66271de04ff49ee646b49d87af51&v=4"
+      },
+      "labels": [
+        "kind/enhancement",
+        "area/UI-UX"
+      ],
+      "tease": "Replaced the red cross icon that could be confused with an error with the widely used \"trash\" icon for clarity.",
+      "guardian": null
+    },
+    {
+      "number": 22625,
+      "title": "Add user-defined-tool operations to the agent-operations layer",
+      "url": "https://github.com/galaxyproject/galaxy/pull/22625",
+      "author": {
+        "login": "dannon",
+        "url": "https://github.com/dannon",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/155398?u=5437aa75643b20989548e955e1c77cb44b860956&v=4"
+      },
+      "labels": [
+        "kind/enhancement",
+        "area/testing",
+        "area/API",
+        "area/testing/integration"
+      ],
+      "tease": "The standalone galaxy-mcp server has grown four user-defined-tool (UDT) tools -- create, list, delete, run -- that the in-process MCP server exposed at /api/mcp didn't have. This adds them, so an agent talking to the built-in MCP can manage UDTs through the same surface as the external server.",
+      "guardian": null
+    },
+    {
+      "number": 22640,
+      "title": "Replace QuotaUsageProvider with Pinia store + enhancements",
+      "url": "https://github.com/galaxyproject/galaxy/pull/22640",
+      "author": {
+        "login": "davelopez",
+        "url": "https://github.com/davelopez",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46503462?u=aa55aa7b371c66271de04ff49ee646b49d87af51&v=4"
+      },
+      "labels": [
+        "kind/enhancement",
+        "area/UI-UX",
+        "kind/refactoring"
+      ],
+      "tease": "Removes the old provider pattern and uses a new `quotaUsageStore` to ensure quotas are properly reactive across the app. Also ensures the quota values are updated when a \"likely quota change\" event happens, such as when a history is updated (*), a cleanup operation is complete, or a quota refresh",
+      "guardian": null
+    },
+    {
+      "number": 22639,
+      "title": "Minor styling fixes for invocation view header and history list cards",
+      "url": "https://github.com/galaxyproject/galaxy/pull/22639",
+      "author": {
+        "login": "ahmedhamidawan",
+        "url": "https://github.com/ahmedhamidawan",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78516064?u=dbda0776992d90966f23b0672420b7d7d69a2f38&v=4"
+      },
+      "labels": [
+        "kind/bug",
+        "area/UI-UX"
+      ],
+      "tease": "(Select all options that apply)",
+      "guardian": null
+    },
+    {
+      "number": 22643,
+      "title": "Paginate /api/tools/{tool_id}/build history options",
+      "url": "https://github.com/galaxyproject/galaxy/pull/22643",
+      "author": {
+        "login": "mvdbeek",
+        "url": "https://github.com/mvdbeek",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6804901?v=4"
+      },
+      "labels": [
+        "kind/enhancement",
+        "area/UI-UX",
+        "area/testing",
+        "area/API",
+        "area/performance",
+        "area/database",
+        "area/tool-framework",
+        "area/testing/api",
+        "area/testing/selenium"
+      ],
+      "tease": "The endpoint embedded the entire active history in `data` and `data_collection` parameter options, producing multi-megabyte payloads and slow tool-form rendering for histories with thousands of items.",
+      "guardian": null
+    },
+    {
+      "number": 22606,
+      "title": "Add bulk dataset storage migration",
+      "url": "https://github.com/galaxyproject/galaxy/pull/22606",
+      "author": {
+        "login": "davelopez",
+        "url": "https://github.com/davelopez",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46503462?u=aa55aa7b371c66271de04ff49ee646b49d87af51&v=4"
+      },
+      "labels": [
+        "kind/enhancement",
+        "area/UI-UX",
+        "area/API",
+        "area/objectstore",
+        "highlight"
+      ],
+      "tease": "This branch introduces end-to-end bulk storage migration for history items.",
+      "guardian": null
+    },
+    {
+      "number": 22361,
+      "title": "Galaxy Notebooks: Persistent Narrative for Human-AI Collaborative Science in Galaxy",
+      "url": "https://github.com/galaxyproject/galaxy/pull/22361",
+      "author": {
+        "login": "jmchilton",
+        "url": "https://github.com/jmchilton",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/216771?u=a2bedb0fcfd048223691150f695bf7623bb96322&v=4"
+      },
+      "labels": [
+        "area/documentation",
+        "area/testing",
+        "kind/feature",
+        "area/API",
+        "area/admin",
+        "area/database",
+        "area/testing/api",
+        "area/testing/selenium",
+        "area/client",
+        "highlight"
+      ],
+      "tease": "Galaxy histories capture computation but not understanding. A history shows datasets and tool runs -- the *what* happened. It doesn't capture *why* one approach was chosen over another, which results matter, or the iterative reasoning that led to insights.",
+      "guardian": null
+    },
+    {
+      "number": 21932,
+      "title": "History Graph API",
+      "url": "https://github.com/galaxyproject/galaxy/pull/21932",
+      "author": {
+        "login": "guerler",
+        "url": "https://github.com/guerler",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2105447?u=659006539a3e1c6baf324c55982c8f8018e5945a&v=4"
+      },
+      "labels": [
+        "kind/enhancement",
+        "area/UI-UX",
+        "area/API",
+        "area/backend"
+      ],
+      "tease": "The Galaxy History Graph provides a history-scoped, queryable representation of analysis structure by constructing a directed graph over top-level history items and their associated tool executions. The implementation models datasets, dataset collections, and tool requests as nodes, and derives edges directly from persisted job input and output associations, including implicit",
+      "guardian": null
+    },
+    {
+      "number": 22513,
+      "title": "Server-Sent Events for history + notification updates",
+      "url": "https://github.com/galaxyproject/galaxy/pull/22513",
+      "author": {
+        "login": "mvdbeek",
+        "url": "https://github.com/mvdbeek",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6804901?v=4"
+      },
+      "labels": [
+        "area/documentation",
+        "area/testing",
+        "kind/feature",
+        "area/API",
+        "area/admin",
+        "area/database",
+        "area/testing/integration",
+        "area/client",
+        "highlight"
+      ],
+      "tease": "Replace Galaxy's 3-second history polling and 30-second notification polling with a push-based Server-Sent Events (SSE) pipeline driven by PostgreSQL `LISTEN`/`NOTIFY` and Kombu control tasks. The new path delivers events to the browser within milliseconds of the DB change while keeping polling available as a per-feature fallback for deployments that don't",
+      "guardian": null
+    },
+    {
+      "number": 22500,
+      "title": "Workflow editor activity bar enhancements",
+      "url": "https://github.com/galaxyproject/galaxy/pull/22500",
+      "author": {
+        "login": "ahmedhamidawan",
+        "url": "https://github.com/ahmedhamidawan",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78516064?u=dbda0776992d90966f23b0672420b7d7d69a2f38&v=4"
+      },
+      "labels": [
+        "kind/enhancement",
+        "area/UI-UX"
+      ],
+      "tease": "A badge at the top indicates the context of what type of activity bar is currently active. We've found it to be potentially confusing for users to understand that the main activity bar (outside the editor) works differently from the one within the workflow editor.",
+      "guardian": null
+    },
+    {
+      "number": 21338,
+      "title": "Add Beta Upload Activity - User Interface Redesign",
+      "url": "https://github.com/galaxyproject/galaxy/pull/21338",
+      "author": {
+        "login": "davelopez",
+        "url": "https://github.com/davelopez",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46503462?u=aa55aa7b371c66271de04ff49ee646b49d87af51&v=4"
+      },
+      "labels": [
+        "kind/enhancement",
+        "area/UI-UX",
+        "kind/refactoring",
+        "highlight"
+      ],
+      "tease": "The new interface moves from a modal-based approach to a dedicated activity panel with a method-first workflow and clearer separation between different import mechanisms.",
+      "guardian": null
+    },
+    {
+      "number": 22144,
+      "title": "Show step/tool form for currently active step in invocation view",
+      "url": "https://github.com/galaxyproject/galaxy/pull/22144",
+      "author": {
+        "login": "ahmedhamidawan",
+        "url": "https://github.com/ahmedhamidawan",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78516064?u=dbda0776992d90966f23b0672420b7d7d69a2f38&v=4"
+      },
+      "labels": [
+        "area/UI-UX",
+        "kind/feature",
+        "highlight"
+      ],
+      "tease": "When viewing an active step in the invocation graph, we see an additional `Step Config` tab next to the `Jobs` and `Outputs` tabs.",
+      "guardian": null
+    },
+    {
+      "number": 22091,
+      "title": "Modernize the ConfirmDialog composable to use GModal",
+      "url": "https://github.com/galaxyproject/galaxy/pull/22091",
+      "author": {
+        "login": "ahmedhamidawan",
+        "url": "https://github.com/ahmedhamidawan",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78516064?u=dbda0776992d90966f23b0672420b7d7d69a2f38&v=4"
+      },
+      "labels": [
+        "kind/enhancement",
+        "area/UI-UX",
+        "kind/refactoring"
+      ],
+      "tease": "ConfirmDialog is now a modern vue component, instead of a legacy, options API, programmatically mounted component.",
+      "guardian": null
+    },
+    {
+      "number": 22159,
+      "title": "Add toggle to invocation graph for viewing step inputs/outputs like in the editor",
+      "url": "https://github.com/galaxyproject/galaxy/pull/22159",
+      "author": {
+        "login": "ahmedhamidawan",
+        "url": "https://github.com/ahmedhamidawan",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78516064?u=dbda0776992d90966f23b0672420b7d7d69a2f38&v=4"
+      },
+      "labels": [
+        "area/UI-UX",
+        "kind/feature"
+      ],
+      "tease": "When this is toggled, we see the step just like it would appear in the editor.",
+      "guardian": null
+    },
+    {
+      "number": 22107,
+      "title": "Skip X-Frame-Options header for published embed views",
+      "url": "https://github.com/galaxyproject/galaxy/pull/22107",
+      "author": {
+        "login": "dannon",
+        "url": "https://github.com/dannon",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/155398?u=5437aa75643b20989548e955e1c77cb44b860956&v=4"
+      },
+      "labels": [
+        "kind/bug",
+        "area/testing",
+        "area/testing/api"
+      ],
+      "tease": "I added a shared `_is_embed_request()` helper that checks for the `/published/` path prefix combined with `embed=true`, and use it to conditionally skip the header in both the FastAPI middleware (`fast_app.py`) and the WSGI transaction init (`webapp.py`).",
+      "guardian": null
+    },
+    {
+      "number": 22065,
+      "title": "Treat SVG datasets as images in dataset preview",
+      "url": "https://github.com/galaxyproject/galaxy/pull/22065",
+      "author": {
+        "login": "dannon",
+        "url": "https://github.com/dannon",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/155398?u=5437aa75643b20989548e955e1c77cb44b860956&v=4"
+      },
+      "labels": [
+        "kind/enhancement",
+        "area/UI-UX"
+      ],
+      "tease": "",
+      "guardian": null
+    },
+    {
+      "number": 21935,
+      "title": "Convert workflow extraction interface to Vue",
+      "url": "https://github.com/galaxyproject/galaxy/pull/21935",
+      "author": {
+        "login": "ahmedhamidawan",
+        "url": "https://github.com/ahmedhamidawan",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78516064?u=dbda0776992d90966f23b0672420b7d7d69a2f38&v=4"
+      },
+      "labels": [
+        "area/UI-UX",
+        "kind/feature",
+        "highlight"
+      ],
+      "tease": "Removes the mako based legacy history -> workflow extraction interface and replaces it with a vue-ified modernized version.",
+      "guardian": null
+    },
+    {
+      "number": 21775,
+      "title": "Convert FormDisplay to Composition API",
+      "url": "https://github.com/galaxyproject/galaxy/pull/21775",
+      "author": {
+        "login": "guerler",
+        "url": "https://github.com/guerler",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2105447?u=659006539a3e1c6baf324c55982c8f8018e5945a&v=4"
+      },
+      "labels": [
+        "kind/enhancement",
+        "area/UI-UX",
+        "kind/refactoring"
+      ],
+      "tease": "Adds visitAllInputs, a traversal utility that walks all conditional cases, not just the active one, fixing stale data_column attributes when switching conditionals after dataset selection.",
+      "guardian": null
+    },
+    {
+      "number": 21822,
+      "title": "Switch Storage Dashboard Bar Chart from D3 chart to Vega",
+      "url": "https://github.com/galaxyproject/galaxy/pull/21822",
+      "author": {
+        "login": "guerler",
+        "url": "https://github.com/guerler",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2105447?u=659006539a3e1c6baf324c55982c8f8018e5945a&v=4"
+      },
+      "labels": [
+        "kind/enhancement",
+        "area/UI-UX",
+        "kind/refactoring"
+      ],
+      "tease": "This branch transitions the storage dashboard bar charts from a D3 based implementation to declarative Vega Lite specifications rendered through the shared VegaWrapper component, aligning the dashboard with the broader visualization stack and improving consistency across the UI.",
+      "guardian": null
+    },
+    {
+      "number": 21766,
+      "title": "Migrate Toolshed Components from Bootstrap Components to GComponents and add Local Filter to GTable",
+      "url": "https://github.com/galaxyproject/galaxy/pull/21766",
+      "author": {
+        "login": "itisAliRH",
+        "url": "https://github.com/itisAliRH",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8046843?u=18df84bfa4052aed11d80f6944065ee8ed86ed4f&v=4"
+      },
+      "labels": [
+        "kind/enhancement",
+        "area/UI-UX",
+        "kind/refactoring"
+      ],
+      "tease": "(Select all options that apply)",
+      "guardian": null
+    },
+    {
+      "number": 21635,
+      "title": "Introduce reusable GTable component",
+      "url": "https://github.com/galaxyproject/galaxy/pull/21635",
+      "author": {
+        "login": "itisAliRH",
+        "url": "https://github.com/itisAliRH",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8046843?u=18df84bfa4052aed11d80f6944065ee8ed86ed4f&v=4"
+      },
+      "labels": [
+        "kind/enhancement",
+        "area/UI-UX"
+      ],
+      "tease": "This PR introduces the first iteration of `GTable` component as the first step toward replacing Bootstrap Vue's `BTable` across the UI. The `Dataset List` serves as the first migration target, demonstrating the component's capabilities.",
+      "guardian": null
+    },
+    {
+      "number": 21600,
+      "title": "Introducing a new favorite tool panel + most-recent tools",
+      "url": "https://github.com/galaxyproject/galaxy/pull/21600",
+      "author": {
+        "login": "bgruening",
+        "url": "https://github.com/bgruening",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/469983?v=4"
+      },
+      "labels": [
+        "area/UI-UX",
+        "area/testing",
+        "kind/feature",
+        "area/testing/selenium",
+        "highlight"
+      ],
+      "tease": "This PR gives maybe an idea how a new tool panel could feel like. It is not the default tool panel, its just an additional option.",
+      "guardian": null
+    },
+    {
+      "number": 21516,
+      "title": "Workflow import UI improvements",
+      "url": "https://github.com/galaxyproject/galaxy/pull/21516",
+      "author": {
+        "login": "neoformit",
+        "url": "https://github.com/neoformit",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42562517?u=b188520d716bb1aef0ceb77a4ff14f0d6788caef&v=4"
+      },
+      "labels": [
+        "kind/enhancement",
+        "area/UI-UX"
+      ],
+      "tease": "(FYI opening a draft so people can see this while we (Galaxy AU) are reviewing)",
+      "guardian": null
+    }
+  ],
+  "inProgress": [
+    {
+      "number": 22095,
+      "title": "Replace WinBox with native Vue scratchbook component",
+      "url": "https://github.com/galaxyproject/galaxy/pull/22095",
+      "author": {
+        "login": "dannon",
+        "url": "https://github.com/dannon",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/155398?u=5437aa75643b20989548e955e1c77cb44b860956&v=4"
+      },
+      "labels": [
+        "area/UI-UX",
+        "area/testing",
+        "kind/feature",
+        "area/testing/selenium",
+        "area/client",
+        "highlight"
+      ],
+      "tease": "Replaces the third-party WinBox dependency with a native Vue `WindowManagerWindow` component backed by a Pinia store. Styling follows Galaxy's GModal aesthetic -- rounded corners, white header, layered shadow, clean typography -- and the window manager supports minimize with taskbar-style stacking at the bottom of the viewport, clamps drag/resize to viewport",
+      "guardian": {
+        "login": "guerler",
+        "url": "https://github.com/guerler",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2105447?u=659006539a3e1c6baf324c55982c8f8018e5945a&v=4"
+      }
+    }
+  ],
+  "complete": []
+}

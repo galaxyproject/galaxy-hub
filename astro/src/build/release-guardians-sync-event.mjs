@@ -1,13 +1,12 @@
 #!/usr/bin/env node
 /**
- * Refresh the Release Guardians event for the cycle named in
- * `src/utils/release-guardians-config.ts`.
+ * Refresh the Release Guardians event for the cycle named in the config.
  *
  * Single point of GitHub interaction for the initiative. Fetches the labeled
- * PRs via GraphQL, computes ready-to-render data for each PR (filtered
- * labels, extracted tease, resolved Guardian), writes a per-cycle JSON
- * snapshot, writes the event MDX file that imports the snapshot + components,
- * and writes the stable redirect mapping.
+ * PRs via GraphQL, projects each into render-ready data, writes a per-cycle
+ * JSON snapshot for the components to consume, writes the event markdown
+ * file (preprocess will convert to .mdx via the `components: true`
+ * frontmatter), and writes the stable redirect mapping.
  *
  *   Usage: GITHUB_TOKEN=<token> npm run release-guardians:sync-event
  *
@@ -22,51 +21,21 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { extractPlainTease } from './release-guardians-tease.mjs';
+
+// ── Paths and constants ───────────────────────────────────────────────────
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ASTRO_ROOT = path.resolve(__dirname, '../..');
 const REPO_ROOT = path.resolve(ASTRO_ROOT, '..');
 
-const CONFIG_PATH = path.join(ASTRO_ROOT, 'src/utils/release-guardians-config.ts');
+const CONFIG_PATH = path.join(ASTRO_ROOT, 'src/data/release-guardians-config.json');
 const TEMPLATE_PATH = path.join(ASTRO_ROOT, 'src/templates/release-guardians-event.md.template');
 const EVENTS_DIR = path.join(REPO_ROOT, 'content/events');
 const DATA_DIR = path.join(ASTRO_ROOT, 'src/data/release-guardians');
 const REDIRECT_PATH = path.join(ASTRO_ROOT, 'src/build/release-guardians-redirect.json');
 
 const GITHUB_GRAPHQL = 'https://api.github.com/graphql';
-const TEASE_MAX_WORDS = 50;
-
-function readConfig() {
-    const src = fs.readFileSync(CONFIG_PATH, 'utf8');
-    const pick = (key) => {
-        const m = src.match(new RegExp(`${key}:\\s*"([^"]+)"`));
-        if (!m) {
-            throw new Error(`release-guardians-config: missing string field "${key}"`);
-        }
-        return m[1];
-    };
-    const pickArray = (key) => {
-        const m = src.match(new RegExp(`${key}:\\s*\\[([^\\]]+)\\]`));
-        if (!m) {
-            throw new Error(`release-guardians-config: missing array field "${key}"`);
-        }
-        return [...m[1].matchAll(/"([^"]+)"/g)].map((x) => x[1]);
-    };
-    return {
-        repo: pick('repo'),
-        releaseVersion: pick('releaseVersion'),
-        testingLabel: pick('testingLabel'),
-        inProgressLabel: pick('inProgressLabel'),
-        completeLabel: pick('completeLabel'),
-        testingStart: pick('testingStart'),
-        testingEnd: pick('testingEnd'),
-        organisers: pickArray('organisers'),
-        matrixLink: pick('matrixLink'),
-        testServer: pick('testServer'),
-        meetingLink: pick('meetingLink'),
-        meetingSchedule: pick('meetingSchedule'),
-    };
-}
 
 const QUERY = `
 query ($searchQuery: String!, $after: String) {
@@ -95,6 +64,46 @@ query ($searchQuery: String!, $after: String) {
         pageInfo { hasNextPage endCursor }
     }
 }`;
+
+// ── Pure helpers ──────────────────────────────────────────────────────────
+
+function readConfig() {
+    return JSON.parse(fs.readFileSync(CONFIG_PATH, 'utf8'));
+}
+
+function renderTemplate(template, vars) {
+    return template.replace(/\{\{(\w+)\}\}/g, (_, key) => {
+        if (!(key in vars)) {
+            throw new Error(`template references unknown placeholder "${key}"`);
+        }
+        return vars[key];
+    });
+}
+
+/** The actor who most recently applied the given label on this PR. */
+function findGuardian(pr, label) {
+    const events = pr.labelingEvents.filter((e) => e.label === label);
+    if (events.length === 0) return null;
+    events.sort((a, b) => (a.createdAt < b.createdAt ? 1 : -1));
+    return events[0].actor;
+}
+
+/** Project a raw PR (from GraphQL) into the render-ready shape the components
+ *  consume. Drops `body` and `labelingEvents` — they're machinery, not
+ *  display data. */
+function projectPr(pr, excludedLabels, guardianLabel) {
+    return {
+        number: pr.number,
+        title: pr.title,
+        url: pr.url,
+        author: pr.author,
+        labels: pr.labels.filter((l) => !excludedLabels.has(l)),
+        tease: extractPlainTease(pr.body),
+        guardian: guardianLabel ? findGuardian(pr, guardianLabel) : null,
+    };
+}
+
+// ── GitHub ────────────────────────────────────────────────────────────────
 
 async function fetchPrs(config) {
     const token = process.env.GITHUB_TOKEN;
@@ -147,101 +156,7 @@ async function fetchPrs(config) {
         .sort((a, b) => (a.updatedAt < b.updatedAt ? 1 : -1));
 }
 
-// Per-sentence markers — anything that signals markdown/HTML/link/image/ref
-// inline. A sentence containing any of these is "dirty" and unprintable as
-// plain text. Backticks (inline code like `data_collection`) are deliberately
-// allowed through — they render as literal characters and remain readable.
-const SENTENCE_DIRTY = /<[^>]+>|\[[^\]]*\]\(|!\[|\*\*|__|~~|#\d|(^|\s)@\w|https?:\/\//;
-
-// A line that looks like a markdown block element (header / blockquote /
-// list). Whole paragraphs containing any such line are skipped entirely.
-const STRUCTURAL_LINE = /^(#{1,6}\s|>\s|[-*+]\s|\d+\.\s)/;
-
-/**
- * Walk the PR description for the first clean sentence (no markdown, HTML,
- * links, refs, or images) and use it as the starting point. Keep accumulating
- * subsequent clean sentences until either a dirty sentence is hit or word
- * count reaches TEASE_MAX_WORDS. Returns '' if no clean starting sentence.
- */
-function extractPlainTease(body) {
-    if (!body) return '';
-    let stripped = body
-        .replace(/\r\n/g, '\n')
-        .replace(/\r/g, '\n')
-        .replace(/<!--[\s\S]*?-->/g, '')
-        .replace(/```[\s\S]*?```/g, '');
-    stripped = stripped
-        .split('\n')
-        .map((line) => {
-            const t = line.trim();
-            if (STRUCTURAL_LINE.test(t)) return '';
-            if (/^\|.*\|$/.test(t)) return '';
-            if (/^={3,}$|^-{3,}$/.test(t)) return '';
-            return line;
-        })
-        .join('\n')
-        .trim();
-    if (!stripped) return '';
-
-    const paragraphs = stripped.split(/\n{2,}/).map((p) => p.trim()).filter(Boolean);
-    for (const paragraph of paragraphs) {
-        const flat = paragraph.replace(/\s+/g, ' ').trim();
-        const sentences = flat.split(/(?<=[.!?])\s+/);
-        const startIdx = sentences.findIndex((s) => !SENTENCE_DIRTY.test(s));
-        if (startIdx === -1) continue;
-
-        const out = [];
-        let wordCount = 0;
-        for (let i = startIdx; i < sentences.length; i++) {
-            if (SENTENCE_DIRTY.test(sentences[i])) break;
-            const words = sentences[i].split(/\s+/).filter(Boolean);
-            const remaining = TEASE_MAX_WORDS - wordCount;
-            if (words.length > remaining) {
-                out.push(...words.slice(0, remaining));
-                wordCount = TEASE_MAX_WORDS;
-                break;
-            }
-            out.push(...words);
-            wordCount += words.length;
-            if (wordCount >= TEASE_MAX_WORDS) break;
-        }
-        if (out.length === 0) continue;
-        return out.join(' ');
-    }
-    return '';
-}
-
-/** The actor who most recently applied the given label on this PR. */
-function findGuardian(pr, label) {
-    const events = pr.labelingEvents.filter((e) => e.label === label);
-    if (events.length === 0) return null;
-    events.sort((a, b) => (a.createdAt < b.createdAt ? 1 : -1));
-    return events[0].actor;
-}
-
-/** Project a raw PR (from GraphQL) into the render-ready shape the component
- *  consumes. Drops labelingEvents from the output — they're machinery, not
- *  display data. */
-function projectPr(pr, excludedLabels, guardianLabel) {
-    return {
-        number: pr.number,
-        title: pr.title,
-        url: pr.url,
-        author: pr.author,
-        labels: pr.labels.filter((l) => !excludedLabels.has(l)),
-        tease: extractPlainTease(pr.body),
-        guardian: guardianLabel ? findGuardian(pr, guardianLabel) : null,
-    };
-}
-
-function renderTemplate(template, vars) {
-    return template.replace(/\{\{(\w+)\}\}/g, (_, key) => {
-        if (!(key in vars)) {
-            throw new Error(`template references unknown placeholder "${key}"`);
-        }
-        return vars[key];
-    });
-}
+// ── Main ──────────────────────────────────────────────────────────────────
 
 async function main() {
     const config = readConfig();
@@ -257,21 +172,11 @@ async function main() {
 
     const excludedLabels = new Set([config.testingLabel, config.inProgressLabel, config.completeLabel]);
 
-    // Pre-projected, render-ready snapshot. Component is pure presentation.
+    // Render-ready snapshot. Components are pure presentation; everything they
+    // need is pre-projected here.
     const snapshot = {
         version: config.releaseVersion,
         fetchedAt: new Date().toISOString(),
-        dataUnavailable: prs === null,
-        config: {
-            repo: config.repo,
-            testServer: config.testServer,
-            matrixLink: config.matrixLink,
-            meetingLink: config.meetingLink,
-            meetingSchedule: config.meetingSchedule,
-            testingLabel: config.testingLabel,
-            inProgressLabel: config.inProgressLabel,
-            completeLabel: config.completeLabel,
-        },
         needsValidation: needsValidation.map((p) => projectPr(p, excludedLabels, null)),
         inProgress: inProgress.map((p) => projectPr(p, excludedLabels, config.inProgressLabel)),
         complete: complete.map((p) => projectPr(p, excludedLabels, config.completeLabel)),
