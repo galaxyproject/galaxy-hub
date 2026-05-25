@@ -77,7 +77,7 @@ query ($searchQuery: String!, $after: String) {
                 updatedAt
                 body
                 author { login url avatarUrl }
-                labels(first: 20) { nodes { name color } }
+                labels(first: 20) { nodes { name } }
                 timelineItems(itemTypes: [LABELED_EVENT], last: 100) {
                     nodes {
                         ... on LabeledEvent {
@@ -136,7 +136,7 @@ async function fetchPrs(config) {
             updatedAt: n.updatedAt,
             body: n.body || '',
             author: n.author,
-            labels: n.labels.nodes.map((l) => ({ name: l.name, color: l.color })),
+            labels: n.labels.nodes.map((l) => l.name),
             labelingEvents: (n.timelineItems?.nodes ?? [])
                 .filter((e) => e && e.label && e.actor)
                 .map((e) => ({ createdAt: e.createdAt, actor: e.actor, label: e.label.name })),
@@ -157,16 +157,8 @@ function escapeHtml(s) {
     return String(s).replace(/[&<>"']/g, (c) => HTML_ESCAPES[c]);
 }
 
-/** GitHub-classic label pill: hex bg, text color picked by luminance. */
-function renderLabelPill(label) {
-    const hex = (label.color || '').replace(/[^0-9a-f]/gi, '').padEnd(6, '0').slice(0, 6) || 'cccccc';
-    const r = parseInt(hex.slice(0, 2), 16);
-    const g = parseInt(hex.slice(2, 4), 16);
-    const b = parseInt(hex.slice(4, 6), 16);
-    // sRGB relative luminance approximation (perceptual).
-    const luminance = (0.2126 * r + 0.7152 * g + 0.0722 * b) / 255;
-    const textColor = luminance > 0.6 ? '#1f2937' : '#ffffff';
-    return `<span class="inline-flex items-center px-2 py-0.5 text-xs font-medium rounded-full" style="background-color:#${hex};color:${textColor}">${escapeHtml(label.name)}</span>`;
+function renderLabelPill(name) {
+    return `<span class="inline-flex items-center px-2 py-0.5 text-xs rounded-full bg-ebony-clay-50 text-chicago-700 border border-ebony-clay-100">${escapeHtml(name)}</span>`;
 }
 
 // Per-sentence markers — anything that signals markdown/HTML/link/image/ref
@@ -260,7 +252,7 @@ function renderPrCard(pr, excludedLabels, guardian) {
         : '<div class="w-8 h-8 rounded-full mt-1 flex-shrink-0 bg-ebony-clay-100"></div>';
     // Drop lifecycle labels (testing/in-progress/complete) — the section the
     // card sits in already conveys that state, so showing them is redundant.
-    const visibleLabels = pr.labels.filter((l) => !excludedLabels.has(l.name));
+    const visibleLabels = pr.labels.filter((l) => !excludedLabels.has(l));
     const labelsHtml = visibleLabels.length
         ? `<div class="flex flex-wrap gap-1 mt-2">${visibleLabels.map((l) => renderLabelPill(l)).join('')}</div>`
         : '';
@@ -303,11 +295,10 @@ async function main() {
     const targetPath = path.join(targetDir, 'index.md');
 
     const prs = await fetchPrs(config);
-    const hasLabel = (p, name) => p.labels.some((l) => l.name === name);
     // Complete wins over in-progress (the lifecycle moves forward, not back).
-    const complete = prs ? prs.filter((p) => hasLabel(p, config.completeLabel)) : [];
-    const inProgress = prs ? prs.filter((p) => hasLabel(p, config.inProgressLabel) && !hasLabel(p, config.completeLabel)) : [];
-    const needsValidation = prs ? prs.filter((p) => !hasLabel(p, config.inProgressLabel) && !hasLabel(p, config.completeLabel)) : [];
+    const complete = prs ? prs.filter((p) => p.labels.includes(config.completeLabel)) : [];
+    const inProgress = prs ? prs.filter((p) => p.labels.includes(config.inProgressLabel) && !p.labels.includes(config.completeLabel)) : [];
+    const needsValidation = prs ? prs.filter((p) => !p.labels.includes(config.inProgressLabel) && !p.labels.includes(config.completeLabel)) : [];
 
     // Lifecycle labels are conveyed by the section itself — don't repeat as chips.
     const excludedLabels = new Set([config.testingLabel, config.inProgressLabel, config.completeLabel]);
