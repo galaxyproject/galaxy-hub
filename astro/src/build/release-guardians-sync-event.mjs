@@ -77,6 +77,15 @@ query ($searchQuery: String!, $after: String) {
                 body
                 author { login url avatarUrl }
                 labels(first: 20) { nodes { name } }
+                timelineItems(itemTypes: [LABELED_EVENT], last: 100) {
+                    nodes {
+                        ... on LabeledEvent {
+                            createdAt
+                            actor { login url avatarUrl }
+                            label { name }
+                        }
+                    }
+                }
             }
         }
         pageInfo { hasNextPage endCursor }
@@ -127,8 +136,19 @@ async function fetchPrs(config) {
             body: n.body || '',
             author: n.author,
             labels: n.labels.nodes.map((l) => l.name),
+            labelingEvents: (n.timelineItems?.nodes ?? [])
+                .filter((e) => e && e.label && e.actor)
+                .map((e) => ({ createdAt: e.createdAt, actor: e.actor, label: e.label.name })),
         }))
         .sort((a, b) => (a.updatedAt < b.updatedAt ? 1 : -1));
+}
+
+/** The actor who most recently applied the given label on this PR. */
+function findGuardian(pr, label) {
+    const events = pr.labelingEvents.filter((e) => e.label === label);
+    if (events.length === 0) return null;
+    events.sort((a, b) => (a.createdAt < b.createdAt ? 1 : -1));
+    return events[0].actor;
 }
 
 const HTML_ESCAPES = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
@@ -221,7 +241,7 @@ function extractPlainTease(body) {
  *  points inside. The card itself is a <div>, not a giant <a>, because the
  *  rendered tease contains its own <a> tags (issue refs, body links) and
  *  nested <a>s are invalid HTML — browsers auto-close the outer one. */
-function renderPrCard(pr, excludedLabels) {
+function renderPrCard(pr, excludedLabels, guardian) {
     const avatar = pr.author?.avatarUrl
         ? `<img src="${escapeHtml(pr.author.avatarUrl)}" alt="" loading="lazy" width="32" height="32" class="w-8 h-8 rounded-full mt-1 flex-shrink-0" />`
         : '<div class="w-8 h-8 rounded-full mt-1 flex-shrink-0 bg-ebony-clay-100"></div>';
@@ -231,20 +251,26 @@ function renderPrCard(pr, excludedLabels) {
     const labelsHtml = visibleLabels.length
         ? `<div class="flex flex-wrap gap-1 mt-2">${visibleLabels.map((l) => `<span class="inline-flex items-center px-2 py-0.5 text-xs rounded-full bg-ebony-clay-50 text-chicago-700 border border-ebony-clay-100">${escapeHtml(l)}</span>`).join('')}</div>`
         : '';
+    const guardianHtml = guardian
+        ? `<div class="flex justify-end mt-2"><span class="inline-flex items-center gap-1 px-2 py-0.5 text-xs rounded-full bg-amber-50 text-amber-700 border border-amber-200">Guardian: <a href="${escapeHtml(guardian.url)}" target="_blank" rel="noopener noreferrer" class="font-medium hover:underline">@${escapeHtml(guardian.login)}</a></span></div>`
+        : '';
     const tease = extractPlainTease(pr.body);
     const teaseHtml = tease
         ? `<div class="text-sm text-chicago-700 mt-2 leading-snug">${escapeHtml(tease)}&hellip; <a href="${escapeHtml(pr.url)}" target="_blank" rel="noopener noreferrer" class="text-galaxy-primary hover:underline whitespace-nowrap">more</a></div>`
         : '';
-    return `<div class="p-4 bg-white rounded-lg border border-ebony-clay-100 hover:border-galaxy-primary hover:shadow-md transition-all"><div class="flex items-start gap-3">${avatar}<div class="min-w-0 flex-1"><div class="font-semibold"><a href="${escapeHtml(pr.url)}" target="_blank" rel="noopener noreferrer" class="text-galaxy-dark hover:text-galaxy-primary">#${pr.number} — ${escapeHtml(pr.title)}</a></div>${labelsHtml}${teaseHtml}</div></div></div>`;
+    return `<div class="p-4 bg-white rounded-lg border border-ebony-clay-100 hover:border-galaxy-primary hover:shadow-md transition-all"><div class="flex items-start gap-3">${avatar}<div class="min-w-0 flex-1"><div class="font-semibold"><a href="${escapeHtml(pr.url)}" target="_blank" rel="noopener noreferrer" class="text-galaxy-dark hover:text-galaxy-primary">#${pr.number} — ${escapeHtml(pr.title)}</a></div>${labelsHtml}${teaseHtml}${guardianHtml}</div></div></div>`;
 }
 
-function renderSection(prs, emptyMessage, excludedLabels) {
+function renderSection(prs, emptyMessage, excludedLabels, guardianLabel) {
     if (prs.length === 0) {
         return `<div class="not-prose my-4 p-6 bg-light-bg bg-grid rounded-lg border border-ebony-clay-100 text-center text-chicago-500 italic">${escapeHtml(emptyMessage)}</div>`;
     }
     // No blank lines between cards — keeps the whole section as one HTML
     // block from the markdown parser's perspective.
-    const cards = prs.map((pr) => `  ${renderPrCard(pr, excludedLabels)}`).join('\n');
+    const cards = prs.map((pr) => {
+        const guardian = guardianLabel ? findGuardian(pr, guardianLabel) : null;
+        return `  ${renderPrCard(pr, excludedLabels, guardian)}`;
+    }).join('\n');
     return `<div class="not-prose my-4 p-4 bg-light-bg bg-grid rounded-lg border border-ebony-clay-100"><div class="space-y-3">\n${cards}\n  </div></div>`;
 }
 
@@ -272,6 +298,8 @@ async function main() {
     // Lifecycle labels are conveyed by the section itself — don't repeat as chips.
     const excludedLabels = new Set([config.testingLabel, config.inProgressLabel, config.completeLabel]);
 
+    const summaryHtml = `<div class="not-prose my-6 grid grid-cols-1 sm:grid-cols-3 gap-3"><div class="p-4 rounded-lg border border-ebony-clay-100 bg-white text-center"><div class="text-3xl font-bold text-chicago-700">${needsValidation.length}</div><div class="text-xs text-chicago-500 mt-1 uppercase tracking-wide">Needs Validation</div></div><div class="p-4 rounded-lg border border-ebony-clay-100 bg-white text-center"><div class="text-3xl font-bold text-amber-600">${inProgress.length}</div><div class="text-xs text-chicago-500 mt-1 uppercase tracking-wide">In Progress</div></div><div class="p-4 rounded-lg border border-ebony-clay-100 bg-white text-center"><div class="text-3xl font-bold text-emerald-600">${complete.length}</div><div class="text-xs text-chicago-500 mt-1 uppercase tracking-wide">Complete</div></div></div>`;
+
     const template = fs.readFileSync(TEMPLATE_PATH, 'utf8');
     const organisersYaml = config.organisers.map((o) => `    - ${o}`).join('\n');
     const rendered = renderTemplate(template, {
@@ -283,9 +311,10 @@ async function main() {
         testingLabel: config.testingLabel,
         inProgressLabel: config.inProgressLabel,
         completeLabel: config.completeLabel,
-        needsValidationList: renderSection(needsValidation, 'No PRs currently waiting for validation. Check back soon!', excludedLabels),
-        inProgressList: renderSection(inProgress, 'No PRs currently being tested.', excludedLabels),
-        completeList: renderSection(complete, 'No PRs marked complete yet.', excludedLabels),
+        summaryHtml,
+        needsValidationList: renderSection(needsValidation, 'No PRs currently waiting for validation. Check back soon!', excludedLabels, null),
+        inProgressList: renderSection(inProgress, 'No PRs currently being tested.', excludedLabels, config.inProgressLabel),
+        completeList: renderSection(complete, 'No PRs marked complete yet.', excludedLabels, config.completeLabel),
         generatedAt: new Date().toISOString(),
         unavailableNote: prs === null
             ? `\n> _Live PR data was unavailable when this event was last generated; counts above may be stale. See the [label-filtered GitHub view](https://github.com/${config.repo}/pulls?q=is%3Apr+label%3A%22${config.testingLabel}%22) for the current list._\n`

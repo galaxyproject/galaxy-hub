@@ -28,6 +28,8 @@ The Galaxy **{{version}}** release is in its community-validation window. We're 
 
 Join the **[Matrix room]({{matrixLink}})** for real-time chatter, pairing on PRs, and asking the organisers questions.
 
+{{summaryHtml}}
+
 ## Needs Validation
 
 {{needsValidationList}}
