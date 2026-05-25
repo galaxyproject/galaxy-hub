@@ -4,8 +4,8 @@
  * `src/utils/release-guardians-config.ts`.
  *
  * Single point of GitHub interaction for the initiative. Fetches the labeled
- * PRs via GraphQL, renders them inline as static markdown in an event file,
- * and writes the redirect mapping for `/community/release-guardians/` →
+ * PRs via GraphQL, renders them inline as HTML cards in an event file, and
+ * writes the redirect mapping for `/community/release-guardians/` →
  * `/events/<currentCycleSlug>/`.
  *
  *   Usage: GITHUB_TOKEN=<token> npm run release-guardians:sync-event
@@ -33,6 +33,7 @@ const EVENTS_DIR = path.join(REPO_ROOT, 'content/events');
 const REDIRECT_PATH = path.join(ASTRO_ROOT, 'src/build/release-guardians-redirect.json');
 
 const GITHUB_GRAPHQL = 'https://api.github.com/graphql';
+const TEASE_MAX_CHARS = 280;
 
 function readConfig() {
     const src = fs.readFileSync(CONFIG_PATH, 'utf8');
@@ -72,7 +73,8 @@ query ($searchQuery: String!, $after: String) {
                 url
                 state
                 updatedAt
-                author { login url }
+                body
+                author { login url avatarUrl }
                 labels(first: 20) { nodes { name } }
             }
         }
@@ -114,7 +116,6 @@ async function fetchPrs(config) {
         if (!search.pageInfo.hasNextPage) break;
         after = search.pageInfo.endCursor;
     }
-    // Newest first; same ordering the rendered sections use.
     return all
         .filter((n) => n && typeof n.number === 'number')
         .map((n) => ({
@@ -122,6 +123,7 @@ async function fetchPrs(config) {
             title: n.title,
             url: n.url,
             updatedAt: n.updatedAt,
+            body: n.body || '',
             author: n.author,
             labels: n.labels.nodes.map((l) => l.name),
         }))
@@ -132,19 +134,73 @@ function formatDate(iso) {
     return new Date(iso).toISOString().slice(0, 10);
 }
 
-/** One PR → one markdown list line. Author handle linked; falls back to "anonymous". */
-function renderPrLine(pr) {
-    const author = pr.author
-        ? `[@${pr.author.login}](${pr.author.url})`
-        : '_anonymous_';
-    return `- [#${pr.number} — ${pr.title}](${pr.url}) — ${author} · updated ${formatDate(pr.updatedAt)}`;
+const HTML_ESCAPES = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
+function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, (c) => HTML_ESCAPES[c]);
+}
+
+/** Cheap markdown-strip + first-meaningful-paragraph extraction + word-boundary truncate. */
+function extractTease(body) {
+    if (!body) return '';
+    let t = body
+        // HTML comments (common in PR templates)
+        .replace(/<!--[\s\S]*?-->/g, '')
+        // Raw HTML tags (e.g. <img>, <details>, <br>) — strip the tag, keep any text
+        .replace(/<[^>]+>/g, '')
+        // Fenced code blocks
+        .replace(/```[\s\S]*?```/g, '')
+        // Inline code
+        .replace(/`([^`]+)`/g, '$1')
+        // Headers
+        .replace(/^#{1,6}\s+/gm, '')
+        // Bold / italic / strike markers
+        .replace(/(\*\*|__|~~|\*|_)/g, '')
+        // Inline images / links — keep link text only
+        .replace(/!?\[([^\]]+)\]\([^)]*\)/g, '$1')
+        // Blockquotes
+        .replace(/^>\s*/gm, '')
+        // List markers
+        .replace(/^\s*[-*+]\s+/gm, '')
+        .replace(/^\s*\d+\.\s+/gm, '');
+
+    // Walk paragraphs until we find one with enough substance. Skips bare
+    // section labels ("Summary", "Description") that PR templates leave behind.
+    const paragraphs = t.split(/\n{2,}/).map((s) => s.replace(/\s+/g, ' ').trim()).filter(Boolean);
+    const firstPara = paragraphs.find((p) => p.length >= 30) || paragraphs[0] || '';
+    if (firstPara.length <= TEASE_MAX_CHARS) {
+        return firstPara;
+    }
+    const cut = firstPara.slice(0, TEASE_MAX_CHARS);
+    const lastSpace = cut.lastIndexOf(' ');
+    return cut.slice(0, lastSpace > 0 ? lastSpace : cut.length).trimEnd();
+}
+
+/** Each card is emitted as a single line of HTML — markdown parsers treat
+ *  an HTML block as opaque only while there are no blank lines / re-entry
+ *  points inside. Internal whitespace breaks the block and re-parses the
+ *  body as markdown, which mangles the layout. */
+function renderPrCard(pr) {
+    const avatar = pr.author?.avatarUrl
+        ? `<img src="${escapeHtml(pr.author.avatarUrl)}" alt="" loading="lazy" width="32" height="32" class="w-8 h-8 rounded-full mt-1 flex-shrink-0" />`
+        : '<div class="w-8 h-8 rounded-full mt-1 flex-shrink-0 bg-ebony-clay-100"></div>';
+    const authorLine = pr.author
+        ? `<span class="text-chicago-700">@${escapeHtml(pr.author.login)}</span>`
+        : '<span class="text-chicago-500">anonymous</span>';
+    const tease = extractTease(pr.body);
+    const teaseHtml = tease
+        ? `<div class="text-sm text-chicago-700 mt-2 leading-snug">${escapeHtml(tease)}&hellip; <span class="text-galaxy-primary whitespace-nowrap">more</span></div>`
+        : '';
+    return `<a href="${escapeHtml(pr.url)}" class="block p-4 bg-white rounded-lg border border-ebony-clay-100 hover:border-galaxy-primary hover:shadow-md transition-all no-underline"><div class="flex items-start gap-3">${avatar}<div class="min-w-0 flex-1"><div class="font-semibold text-galaxy-dark">#${pr.number} — ${escapeHtml(pr.title)}</div><div class="text-sm text-chicago-500 mt-1">${authorLine} · updated ${formatDate(pr.updatedAt)}</div>${teaseHtml}</div></div></a>`;
 }
 
 function renderSection(prs, emptyMessage) {
     if (prs.length === 0) {
-        return `_${emptyMessage}_`;
+        return `<div class="not-prose my-4 p-6 bg-light-bg bg-grid rounded-lg border border-ebony-clay-100 text-center text-chicago-500 italic">${escapeHtml(emptyMessage)}</div>`;
     }
-    return prs.map(renderPrLine).join('\n');
+    // No blank lines between cards — keeps the whole section as one HTML
+    // block from the markdown parser's perspective.
+    const cards = prs.map((pr) => `  ${renderPrCard(pr)}`).join('\n');
+    return `<div class="not-prose my-4 p-4 bg-light-bg bg-grid rounded-lg border border-ebony-clay-100"><div class="space-y-3">\n${cards}\n  </div></div>`;
 }
 
 function renderTemplate(template, vars) {
@@ -180,14 +236,13 @@ async function main() {
         validatedList: renderSection(validated, 'No PRs validated yet.'),
         generatedAt: new Date().toISOString(),
         unavailableNote: prs === null
-            ? '\n> _Live PR data was unavailable when this event was last generated; counts above may be stale. See the [label-filtered GitHub view](https://github.com/' + config.repo + '/pulls?q=is%3Apr+label%3A%22' + config.testingLabel + '%22) for the current list._\n'
+            ? `\n> _Live PR data was unavailable when this event was last generated; counts above may be stale. See the [label-filtered GitHub view](https://github.com/${config.repo}/pulls?q=is%3Apr+label%3A%22${config.testingLabel}%22) for the current list._\n`
             : '',
     });
 
     fs.mkdirSync(targetDir, { recursive: true });
     fs.writeFileSync(targetPath, rendered);
 
-    // Stable URL → current cycle's event. Read by astro.config.mjs.
     const redirect = { from: '/community/release-guardians/', to: `/events/${slug}/` };
     fs.writeFileSync(REDIRECT_PATH, JSON.stringify(redirect, null, 2) + '\n');
 
