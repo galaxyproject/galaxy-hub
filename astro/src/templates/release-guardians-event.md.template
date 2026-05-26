@@ -25,10 +25,10 @@ Pick a pull request from the list below, test the change on the [**Galaxy Test S
 ## Become a Guardian
 
 1. Pick a PR from the **Needs Validation** section below.
-2. Add the `{{inProgressLabel}}` label to indicate that validation is underway.
+2. Add the <ReleaseGuardiansLabelPill label="{{inProgressLabel}}" kind="in-progress" /> label to indicate that validation is underway.
 3. Review the PR description and exercise the user-facing change on the [**Galaxy Test Server**]({{testServer}}).
 4. Report your findings directly on the PR. Screenshots, regressions, deployment notes, and edge cases are all useful.
-5. When validation is complete, replace `{{inProgressLabel}}` with `{{completeLabel}}`.
+5. When validation is complete, replace <ReleaseGuardiansLabelPill label="{{inProgressLabel}}" kind="in-progress" /> with <ReleaseGuardiansLabelPill label="{{completeLabel}}" kind="complete" />.
 6. Join the [**Matrix room**]({{matrixLink}}) for async coordination with other Release Guardians and organisers.
 7. Join the [**{{meetingName}}**]({{meetingLink}}) for live Q&A and coordination with organisers.
 

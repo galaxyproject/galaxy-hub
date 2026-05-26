@@ -453,6 +453,7 @@ const KNOWN_COMPONENTS = [
   'CopyButton',
   'ReleaseGuardiansSummary',
   'ReleaseGuardiansSection',
+  'ReleaseGuardiansLabelPill',
 ];
 
 function bodyHasComponents(body) {
