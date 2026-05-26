@@ -246,6 +246,7 @@ async function main() {
     testingLabel: config.testingLabel,
     inProgressLabel: config.inProgressLabel,
     completeLabel: config.completeLabel,
+    issueLink: `https://github.com/${config.repo}/issues/new`,
   });
 
   fs.mkdirSync(targetDir, { recursive: true });
