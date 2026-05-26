@@ -37,9 +37,17 @@ const REDIRECT_PATH = path.join(ASTRO_ROOT, 'src/build/release-guardians-redirec
 
 const GITHUB_GRAPHQL = 'https://api.github.com/graphql';
 
+// GitHub fetch limits. The two `100`s are GraphQL hard maxes per `first`/`last`;
+// MAX_PAGES * PRS_PER_PAGE caps total PRs we'll walk in one sync. LABELS_PER_PR
+// is conservative — release-testing PRs rarely have more than a few labels.
+const PRS_PER_PAGE = 100;
+const MAX_PAGES = 10;
+const LABELS_PER_PR = 20;
+const LABELING_EVENTS_PER_PR = 100;
+
 const QUERY = `
 query ($searchQuery: String!, $after: String) {
-    search(query: $searchQuery, type: ISSUE, first: 100, after: $after) {
+    search(query: $searchQuery, type: ISSUE, first: ${PRS_PER_PAGE}, after: $after) {
         nodes {
             ... on PullRequest {
                 number
@@ -49,8 +57,8 @@ query ($searchQuery: String!, $after: String) {
                 updatedAt
                 body
                 author { login url avatarUrl }
-                labels(first: 20) { nodes { name } }
-                timelineItems(itemTypes: [LABELED_EVENT], last: 100) {
+                labels(first: ${LABELS_PER_PR}) { nodes { name } }
+                timelineItems(itemTypes: [LABELED_EVENT], last: ${LABELING_EVENTS_PER_PR}) {
                     nodes {
                         ... on LabeledEvent {
                             createdAt
@@ -130,7 +138,7 @@ async function fetchPrs(config) {
   const searchQuery = `repo:${config.repo} is:pr label:"${config.testingLabel}"`;
   const all = [];
   let after = null;
-  for (let page = 0; page < 10; page++) {
+  for (let page = 0; page < MAX_PAGES; page++) {
     const resp = await fetch(GITHUB_GRAPHQL, {
       method: 'POST',
       headers: {

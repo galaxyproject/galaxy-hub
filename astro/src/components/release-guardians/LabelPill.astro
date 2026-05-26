@@ -9,6 +9,7 @@ interface Props {
 const { label, kind = 'inProgress' } = Astro.props;
 ---
 
-<span class={`inline-flex items-center px-2 py-0.5 text-xs rounded-full border font-mono align-middle ${TONES[kind].pill}`}
+<span
+  class={`inline-flex items-center px-2 py-0.5 text-xs rounded-full border font-mono align-middle ${TONES[kind].pill}`}
   >{label}</span
 >
