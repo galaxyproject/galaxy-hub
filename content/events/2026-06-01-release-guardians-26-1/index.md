@@ -19,16 +19,16 @@ components: true
 
 The Galaxy **26.1** release is entering community validation. Become a **Galaxy Release Guardian** and help exercise user-facing changes across real deployments, workflows, and browsers before publication.
 
-Pick a pull request from the list below, test the change on the [**Galaxy Test Server**](https://test.galaxyproject.org/), and capture your findings by [**opening a new issue**](https://github.com/galaxyproject/galaxy/issues/new) that references the PR number. Keeping the feedback in a dedicated issue keeps the PR conversation focused on code review. The PR labels are the workflow.
+Pick a pull request from the list below, test the change on the [**Galaxy Test Server**](https://test.galaxyproject.org/), and capture your findings by [**opening a new issue**](https://github.com/galaxyproject/galaxy/issues/new?template=bug_report.md) that references the PR number. Keeping the feedback in a dedicated issue keeps the PR conversation focused on code review. The PR labels are the workflow.
 
-**New to release testing?** That's exactly who we're looking for. Walk through the change as a regular user would, note anything that breaks or feels off, and [**file a new issue**](https://github.com/galaxyproject/galaxy/issues/new) describing what you observed (with the PR number for context). No prior experience needed. If you get stuck, ask in chat or join the kickoff meeting.
+**New to release testing?** That's exactly who we're looking for. Walk through the change as a regular user would, note anything that breaks or feels off, and [**file a new issue**](https://github.com/galaxyproject/galaxy/issues/new?template=bug_report.md) describing what you observed (with the PR number for context). No prior experience needed. If you get stuck, ask in chat or join the kickoff meeting.
 
 ## Become a Guardian
 
 1. Pick a PR from the **Needs Validation** section below.
 2. Add the <ReleaseGuardiansLabelPill label="release-testing-in-progress" kind="inProgress" /> label to indicate that validation is underway.
 3. Review the PR description and exercise the user-facing change on the [**Galaxy Test Server**](https://test.galaxyproject.org/).
-4. [**Open a new issue**](https://github.com/galaxyproject/galaxy/issues/new) describing your findings — reference the PR number, and include screenshots, regressions, deployment notes, and any edge cases you hit.
+4. [**Open a new issue**](https://github.com/galaxyproject/galaxy/issues/new?template=bug_report.md) describing your findings — reference the PR number, and include screenshots, regressions, deployment notes, and any edge cases you hit.
 5. When validation is complete, replace <ReleaseGuardiansLabelPill label="release-testing-in-progress" kind="inProgress" /> with <ReleaseGuardiansLabelPill label="release-testing-complete" kind="complete" />.
 6. Join the [**Matrix room**](https://matrix.to/#/%23galaxyproject_release-testing:gitter.im) for async coordination with other Release Guardians and organisers.
 7. Join the [**Testing and Hardening Working Group Meeting**](https://meet.google.com/ios-kygq-hfw) for live Q&A and coordination with organisers.
