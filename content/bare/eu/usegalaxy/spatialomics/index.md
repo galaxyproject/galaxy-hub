@@ -97,6 +97,9 @@ Tool | Description | Reference
 
 # Workflows available
 
+The end-to-end spatial transcriptomics workflow that supports both image-based and sequence-based protocols:
+[Spatial Transcriptomics Analysis in Galaxy](https://workflowhub.eu/workflows/2174)
+
 Two workflows are currently available to process your samples using the MCMICRO Galaxy pipeline:
 
 [MCMICRO Tissue Microarray Workflow](https://github.com/ohsu-comp-bio/cycIF-galaxy/blob/master/workflows/Galaxy-Workflow-MCMICRO_TMA_v1.0.0.ga)
