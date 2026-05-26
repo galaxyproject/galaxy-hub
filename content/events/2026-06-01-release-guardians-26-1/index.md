@@ -26,10 +26,10 @@ Pick a pull request from the list below, test the change on the [**Galaxy Test S
 ## Become a Guardian
 
 1. Pick a PR from the **Needs Validation** section below.
-2. Add the <ReleaseGuardiansLabelPill label="release-testing-in-progress" kind="in-progress" /> label to indicate that validation is underway.
+2. Add the <ReleaseGuardiansLabelPill label="release-testing-in-progress" kind="inProgress" /> label to indicate that validation is underway.
 3. Review the PR description and exercise the user-facing change on the [**Galaxy Test Server**](https://test.galaxyproject.org/).
 4. Report your findings directly on the PR. Screenshots, regressions, deployment notes, and edge cases are all useful.
-5. When validation is complete, replace <ReleaseGuardiansLabelPill label="release-testing-in-progress" kind="in-progress" /> with <ReleaseGuardiansLabelPill label="release-testing-complete" kind="complete" />.
+5. When validation is complete, replace <ReleaseGuardiansLabelPill label="release-testing-in-progress" kind="inProgress" /> with <ReleaseGuardiansLabelPill label="release-testing-complete" kind="complete" />.
 6. Join the [**Matrix room**](https://matrix.to/#/%23galaxyproject_release-testing:gitter.im) for async coordination with other Release Guardians and organisers.
 7. Join the [**Testing and Hardening Working Group Meeting**](https://meet.google.com/ios-kygq-hfw) for live Q&A and coordination with organisers.
 

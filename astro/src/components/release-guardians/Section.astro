@@ -21,7 +21,7 @@ const prs: GuardianPr[] = data ? data[kind] : [];
     <div class="not-prose my-4 p-4 bg-light-bg bg-grid rounded-lg border border-ebony-clay-100">
       <div class="space-y-3">
         {prs.map((pr) => (
-          <Card pr={pr} />
+          <Card pr={pr} kind={kind} />
         ))}
       </div>
     </div>
