@@ -1,14 +1,14 @@
 ---
-title: Galaxy Spatial Omics
+title: Spatial Omics Galaxy
 ---
 
 <slot name="/bare/eu/usegalaxy/notices" />
 
-# Welcome to the Spatial OMICS Galaxy Portal
+# Welcome to the Spatial Omics Galaxy
 
 ![](/assets/media/usegalaxy/spatialomics/spatial_omics_banner.jpg)
 
-The Spatial Omics Galaxy Portal is a hub for all tools related to the analysis of highly multiplexed image-based spatial analysis. This is a collaborative effort by the Spatial2Galaxy project and the Goecks Laboratory members. We welcome any suggestions or requests for making tools related to Spatial Omics analysis available on this Galaxy instance. We also welcome contributions to the development of new tools, workflows or trainings!
+The Spatial Omics Galaxy is a hub for all tools related to the analysis of highly multiplexed image-based spatial analysis. This is a combined effort by the Spatial2Galaxy project and the Goecks Laboratory members. We welcome any suggestions or requests for making tools related to Spatial Omics analysis available on this Galaxy instance. We also welcome contributions to the development of new tools, workflows or trainings!
 
 This server currently features the individual components of the [MCMICRO](https://mcmicro.org/) pipeline, including [BaSiC](https://github.com/ohsu-comp-bio/basic-illumination) for illumination correction, [ASHLAR](https://github.com/ohsu-comp-bio/ashlar) for stitching and registration, [Coreograph](https://github.com/ohsu-comp-bio/UNetCoreograph) to dearray tissue microarrays (TMAs), [UnMICST](https://github.com/ohsu-comp-bio/UnMicst) to create cell or nucleai probability maps, [S3segmenter](https://github.com/ohsu-comp-bio/S3segmenter) for nucleai and cell segmentation and [MCQuant](https://github.com/ohsu-comp-bio/quantification) for feature quantification. More tools for image analysis outside the MCMICRO ecosystem will be added in the future.
 
