@@ -33,7 +33,7 @@ const CONFIG_PATH = path.join(ASTRO_ROOT, 'src/data/release-guardians-config.jso
 const TEMPLATE_PATH = path.join(ASTRO_ROOT, 'src/templates/release-guardians-event.md.template');
 const EVENTS_DIR = path.join(REPO_ROOT, 'content/events');
 const DATA_DIR = path.join(ASTRO_ROOT, 'src/data/release-guardians');
-const REDIRECT_PATH = path.join(ASTRO_ROOT, 'src/build/release-guardians-redirect.json');
+const REDIRECT_PATH = path.join(DATA_DIR, 'redirect.json');
 
 const GITHUB_GRAPHQL = 'https://api.github.com/graphql';
 
@@ -85,6 +85,15 @@ function readJsonOrNull(filePath) {
   } catch {
     return null;
   }
+}
+
+/** Write to a sibling `.tmp` file then rename — atomic on the same
+ *  filesystem, so a process kill mid-write can never leave a half-written
+ *  file at `filePath`. */
+function writeAtomic(filePath, content) {
+  const tmpPath = `${filePath}.tmp`;
+  fs.writeFileSync(tmpPath, content);
+  fs.renameSync(tmpPath, filePath);
 }
 
 function renderTemplate(template, vars) {
@@ -171,17 +180,13 @@ async function main() {
     process.exit(2);
   }
 
+  // Build every artifact in memory first so the final write block has no
+  // I/O risk between files. Skip the snapshot write when only `fetchedAt`
+  // would change (would otherwise produce a noise refresh PR every 12 hours).
   const newSnapshot = buildSnapshot(prs, config, new Date().toISOString());
-
-  // Skip the snapshot write when the only thing that changed is `fetchedAt`
-  // — otherwise the cron would open a noise PR every 12 hours even when no
-  // PR labels moved.
   const existingSnapshot = readJsonOrNull(dataPath);
   const snapshotChanged = snapshotFingerprint(newSnapshot) !== snapshotFingerprint(existingSnapshot);
-  if (snapshotChanged) {
-    fs.mkdirSync(DATA_DIR, { recursive: true });
-    fs.writeFileSync(dataPath, JSON.stringify(newSnapshot, null, 2) + '\n');
-  }
+  const snapshotJson = JSON.stringify(newSnapshot, null, 2) + '\n';
 
   const template = fs.readFileSync(TEMPLATE_PATH, 'utf8');
   const organisersYaml = config.organisers.map((o) => `    - ${o}`).join('\n');
@@ -200,11 +205,19 @@ async function main() {
     issueLink: `https://github.com/${config.repo}/issues/new?template=bug_report.md`,
   });
 
-  fs.mkdirSync(targetDir, { recursive: true });
-  fs.writeFileSync(targetPath, rendered);
-
   const redirect = { from: '/community/release-guardians/', to: `/events/${slug}/` };
-  fs.writeFileSync(REDIRECT_PATH, JSON.stringify(redirect, null, 2) + '\n');
+  const redirectJson = JSON.stringify(redirect, null, 2) + '\n';
+
+  // Atomic commit: each file is written via a sibling `.tmp` + rename. A
+  // process kill mid-write can leave behind a `.tmp` but never a half-written
+  // final file.
+  fs.mkdirSync(targetDir, { recursive: true });
+  fs.mkdirSync(DATA_DIR, { recursive: true });
+  writeAtomic(targetPath, rendered);
+  if (snapshotChanged) {
+    writeAtomic(dataPath, snapshotJson);
+  }
+  writeAtomic(REDIRECT_PATH, redirectJson);
 
   console.log(`✓ Synced event:    ${path.relative(REPO_ROOT, targetPath)}`);
   console.log(

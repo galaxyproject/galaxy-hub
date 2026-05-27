@@ -7,7 +7,7 @@ import sitemap from '@astrojs/sitemap';
 import rehypeSlug from 'rehype-slug';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import generatedRedirects from './src/build/generated-redirects.json' with { type: 'json' };
-import releaseGuardiansRedirect from './src/build/release-guardians-redirect.json' with { type: 'json' };
+import releaseGuardiansRedirect from './src/data/release-guardians/redirect.json' with { type: 'json' };
 
 const autolinkConfig = {
   behavior: 'append',
