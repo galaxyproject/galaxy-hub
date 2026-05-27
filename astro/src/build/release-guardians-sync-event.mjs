@@ -21,7 +21,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { extractPlainTease } from './release-guardians-tease.mjs';
+import { buildSnapshot, snapshotFingerprint } from './release-guardians-projection.mjs';
 
 // ── Paths and constants ───────────────────────────────────────────────────
 
@@ -87,13 +87,6 @@ function readJsonOrNull(filePath) {
   }
 }
 
-/** Snapshot fingerprint excluding `fetchedAt` — used to skip noise writes. */
-function snapshotFingerprint(snapshot) {
-  if (!snapshot) return null;
-  const { needsValidation, inProgress, complete, version } = snapshot;
-  return JSON.stringify({ version, needsValidation, inProgress, complete });
-}
-
 function renderTemplate(template, vars) {
   return template.replace(/\{\{(\w+)\}\}/g, (_, key) => {
     if (!(key in vars)) {
@@ -101,39 +94,6 @@ function renderTemplate(template, vars) {
     }
     return vars[key];
   });
-}
-
-/** The actor who most recently applied the given label on this PR. */
-function findGuardian(pr, label) {
-  const events = pr.labelingEvents.filter((e) => e.label === label);
-  if (events.length === 0) return null;
-  events.sort((a, b) => (a.createdAt < b.createdAt ? 1 : -1));
-  return events[0].actor;
-}
-
-/** Attach the stable `github.com/<login>.png` avatar URL — bypasses GitHub's
- *  hash-suffixed `avatarUrl` which changes on every re-upload and would
- *  otherwise trigger a noise refresh PR every cycle. */
-function withStableAvatar(actor) {
-  if (!actor) {
-    return actor;
-  }
-  return { login: actor.login, url: actor.url, avatarUrl: `https://github.com/${actor.login}.png` };
-}
-
-/** Project a raw PR (from GraphQL) into the render-ready shape the components
- *  consume. Drops `body` and `labelingEvents` — they're machinery, not
- *  display data. */
-function projectPr(pr, excludedLabels, guardianLabel) {
-  return {
-    number: pr.number,
-    title: pr.title,
-    url: pr.url,
-    author: withStableAvatar(pr.author),
-    labels: pr.labels.filter((l) => !excludedLabels.has(l)),
-    tease: extractPlainTease(pr.body),
-    guardian: guardianLabel ? withStableAvatar(findGuardian(pr, guardianLabel)) : null,
-  };
 }
 
 // ── GitHub ────────────────────────────────────────────────────────────────
@@ -211,25 +171,7 @@ async function main() {
     process.exit(2);
   }
 
-  const complete = prs.filter((p) => p.labels.includes(config.completeLabel));
-  const inProgress = prs.filter(
-    (p) => p.labels.includes(config.inProgressLabel) && !p.labels.includes(config.completeLabel)
-  );
-  const needsValidation = prs.filter(
-    (p) => !p.labels.includes(config.inProgressLabel) && !p.labels.includes(config.completeLabel)
-  );
-
-  const excludedLabels = new Set([config.testingLabel, config.inProgressLabel, config.completeLabel]);
-
-  // Render-ready snapshot. Components are pure presentation; everything they
-  // need is pre-projected here.
-  const newSnapshot = {
-    version: config.releaseVersion,
-    fetchedAt: new Date().toISOString(),
-    needsValidation: needsValidation.map((p) => projectPr(p, excludedLabels, null)),
-    inProgress: inProgress.map((p) => projectPr(p, excludedLabels, config.inProgressLabel)),
-    complete: complete.map((p) => projectPr(p, excludedLabels, config.completeLabel)),
-  };
+  const newSnapshot = buildSnapshot(prs, config, new Date().toISOString());
 
   // Skip the snapshot write when the only thing that changed is `fetchedAt`
   // — otherwise the cron would open a noise PR every 12 hours even when no
@@ -272,7 +214,7 @@ async function main() {
   );
   console.log(`  Cycle: ${config.releaseVersion} (${config.testingStart} → ${config.testingEnd})`);
   console.log(
-    `  PRs: ${needsValidation.length} need validation, ${inProgress.length} in progress, ${complete.length} complete`
+    `  PRs: ${newSnapshot.needsValidation.length} need validation, ${newSnapshot.inProgress.length} in progress, ${newSnapshot.complete.length} complete`
   );
   console.log(`✓ Redirect:        ${redirect.from} → ${redirect.to}`);
 }
