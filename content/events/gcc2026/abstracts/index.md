@@ -4,14 +4,10 @@ autotoc: false
 
 # GCC2026 abstracts
 
-<div class="flex justify-center my-5">
-  <a href="https://v4.event-vert.org/en/gcc2026/login.html" class="inline-flex items-center justify-center rounded px-8 py-2 text-sm font-semibold text-white bg-galaxy-primary hover:bg-galaxy-dark no-underline hover:no-underline">Submit an abstract for a poster or demo</a>
-</div>
-
-**Note about submission**: You must <a href="https://v4.event-vert.org/en/gcc2026"
-class="underline hover:no-underline">register</a> before submitting an abstract.
-Once logged into the submission system, click "Edit my summaries" to submit an
-abstract.
+**Abstract submission for GCC2026 is now closed.** You can view the program on
+the [schedule page](/events/gcc2026/schedule/). If you have any questions about
+the abstract submission process, please reach out to the
+[organizers](/events/gcc2026/organizers/).
 
 Presentations from the community are a core component of GCCs. These include
 oral, poster, and demo presentations. All the abstracts for presentations are
