@@ -20,8 +20,8 @@ export const TONES: Record<SnapshotKind, Tone> = {
     pill: 'bg-ebony-clay-50 text-chicago-700 border-ebony-clay-100',
   },
   inProgress: {
-    text: 'text-yellow-400',
-    pill: 'bg-yellow-400 text-gray-900 border-yellow-400',
+    text: 'text-gold-500',
+    pill: 'bg-gold-500 text-gray-900 border-gold-500',
   },
   complete: {
     text: 'text-green-700',
