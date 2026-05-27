@@ -24,7 +24,7 @@ Pick a pull request from the list below, test the change on the [**Galaxy Test S
 
 <ReleaseGuardiansCoordination matrixLink="{{matrixLink}}" meetingName="{{meetingName}}" meetingLink="{{meetingLink}}" startDate="{{startDate}}" meetingTime="{{meetingTime}}" />
 
-## Become a Guardian
+## <Icon name="shield-check" /> Become a Guardian
 
 1. Pick a PR from the **Needs Validation** section below.
 2. Add the <ReleaseGuardiansLabelPill label="{{inProgressLabel}}" kind="inProgress" /> label to indicate that validation is underway.
@@ -34,15 +34,15 @@ Pick a pull request from the list below, test the change on the [**Galaxy Test S
 
 <ReleaseGuardiansSummary version="{{version}}" />
 
-## Needs Validation
+## <Icon name="circle-dashed" /> Needs Validation
 
 <ReleaseGuardiansSection version="{{version}}" kind="needsValidation" emptyMessage="No PRs currently waiting for validation. Check back soon!" />
 
-## In Progress
+## <Icon name="loader" /> In Progress
 
 <ReleaseGuardiansSection version="{{version}}" kind="inProgress" emptyMessage="No PRs currently being tested." />
 
-## Complete
+## <Icon name="circle-check" /> Complete
 
 <ReleaseGuardiansSection version="{{version}}" kind="complete" emptyMessage="No PRs marked complete yet." />
 
