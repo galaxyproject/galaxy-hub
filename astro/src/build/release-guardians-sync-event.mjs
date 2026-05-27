@@ -53,7 +53,6 @@ query ($searchQuery: String!, $after: String) {
                 number
                 title
                 url
-                state
                 updatedAt
                 body
                 author { login url avatarUrl }
@@ -135,7 +134,7 @@ async function fetchPrs(config) {
     console.warn('[release-guardians] GITHUB_TOKEN not set.');
     return null;
   }
-  const searchQuery = `repo:${config.repo} is:pr label:"${config.testingLabel}"`;
+  const searchQuery = `repo:${config.repo} is:pr is:merged label:"${config.testingLabel}"`;
   const all = [];
   let after = null;
   for (let page = 0; page < MAX_PAGES; page++) {
