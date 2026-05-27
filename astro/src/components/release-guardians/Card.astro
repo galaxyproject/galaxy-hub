@@ -1,6 +1,7 @@
 ---
 import type { GuardianPr, SnapshotKind } from './data';
 import { TONES } from './tones';
+import Icon from '../mdx/Icon.astro';
 
 interface Props {
   pr: GuardianPr;
@@ -64,7 +65,7 @@ const { pr, kind = 'needsValidation' } = Astro.props;
         pr.guardian && (
           <div class="flex justify-end mt-2">
             <span class={`inline-flex items-center gap-1 px-2 py-0.5 text-xs rounded-full border ${TONES[kind].pill}`}>
-              Guardian:{' '}
+              <Icon name="shield-check" size={14} />
               <a
                 href={pr.guardian.url}
                 target="_blank"
