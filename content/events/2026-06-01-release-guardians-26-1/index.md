@@ -25,7 +25,7 @@ Pick a pull request from the list below, test the change on the [**Galaxy Test S
 
 <ReleaseGuardiansCoordination matrixLink="https://matrix.to/#/%23galaxyproject_release-testing:gitter.im" meetingName="Testing and Hardening Working Group Meeting" meetingLink="https://meet.google.com/ios-kygq-hfw" startDate="2026-06-01" meetingTime="16:00" />
 
-## <Icon name="shield-check" /> Become a Guardian
+<h2 id="become-a-guardian"><Icon name="shield-check" /> Become a Guardian</h2>
 
 1. Pick a PR from the **Needs Validation** section below.
 2. Add the <ReleaseGuardiansLabelPill label="release-testing-in-progress" kind="inProgress" /> label to indicate that validation is underway.
@@ -35,15 +35,15 @@ Pick a pull request from the list below, test the change on the [**Galaxy Test S
 
 <ReleaseGuardiansSummary version="26.1" />
 
-## <Icon name="circle-dashed" /> Needs Validation
+<h2 id="needs-validation"><Icon name="circle-dashed" /> Needs Validation</h2>
 
 <ReleaseGuardiansSection version="26.1" kind="needsValidation" emptyMessage="No PRs currently waiting for validation. Check back soon!" />
 
-## <Icon name="loader" /> In Progress
+<h2 id="in-progress"><Icon name="loader" /> In Progress</h2>
 
 <ReleaseGuardiansSection version="26.1" kind="inProgress" emptyMessage="No PRs currently being tested." />
 
-## <Icon name="circle-check" /> Complete
+<h2 id="complete"><Icon name="circle-check" /> Complete</h2>
 
 <ReleaseGuardiansSection version="26.1" kind="complete" emptyMessage="No PRs marked complete yet." />
 
