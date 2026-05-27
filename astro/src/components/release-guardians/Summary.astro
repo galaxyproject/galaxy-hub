@@ -10,7 +10,7 @@ const { version } = Astro.props;
 const data = loadSnapshot(version);
 
 const tileClass =
-  'block p-4 rounded-lg border border-ebony-clay-100 bg-white text-center hover:border-galaxy-primary hover:shadow-md transition-all no-underline';
+  'block p-4 rounded-lg border border-galaxy-primary/10 bg-white text-center shadow-sm hover:border-galaxy-primary/30 transition-all no-underline';
 const labelClass = 'flex items-center justify-center gap-1 text-xs text-chicago-500 mt-1 uppercase tracking-wide';
 ---
 

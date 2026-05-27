@@ -19,7 +19,7 @@ export interface GuardianPr {
   author: Actor | null;
   labels: string[];
   tease: string;
-  guardian?: Actor | null;
+  guardian: Actor | null;
 }
 
 export interface Snapshot {

@@ -37,11 +37,11 @@ Pick a pull request from the list below, test the change on the [**Galaxy Test S
 
 <h2 id="needs-validation"><Icon name="circle-dashed" /> Needs Validation</h2>
 
-<ReleaseGuardiansSection version="26.1" kind="needsValidation" emptyMessage="No PRs currently waiting for validation. Check back soon!" />
+<ReleaseGuardiansSection version="26.1" kind="needsValidation" emptyMessage="No PRs currently need validation." />
 
 <h2 id="in-progress"><Icon name="loader" /> In Progress</h2>
 
-<ReleaseGuardiansSection version="26.1" kind="inProgress" emptyMessage="No PRs currently being tested." />
+<ReleaseGuardiansSection version="26.1" kind="inProgress" emptyMessage="No PRs currently in progress." />
 
 <h2 id="complete"><Icon name="circle-check" /> Complete</h2>
 

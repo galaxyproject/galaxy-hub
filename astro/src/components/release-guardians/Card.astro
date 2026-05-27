@@ -47,14 +47,15 @@ const { pr, kind = 'needsValidation' } = Astro.props;
       {
         pr.tease && (
           <div class="text-sm text-chicago-700 mt-2 leading-snug">
-            {pr.tease}&hellip;{' '}
+            {pr.tease}
             <a
               href={pr.url}
               target="_blank"
               rel="noopener noreferrer"
               class="text-galaxy-primary hover:underline whitespace-nowrap"
             >
-              more
+              {' '}
+              ...more
             </a>
           </div>
         )

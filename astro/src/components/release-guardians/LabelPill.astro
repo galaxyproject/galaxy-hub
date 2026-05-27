@@ -4,9 +4,9 @@ import { TONES } from './tones';
 
 interface Props {
   label: string;
-  kind?: SnapshotKind;
+  kind: SnapshotKind;
 }
-const { label, kind = 'inProgress' } = Astro.props;
+const { label, kind } = Astro.props;
 ---
 
 <span
