@@ -1,4 +1,6 @@
 ---
+import Icon from '../mdx/Icon.astro';
+
 interface Props {
   matrixLink: string;
   meetingName: string;
@@ -31,12 +33,18 @@ const boxClass =
 
 <div class="not-prose my-6 grid grid-cols-1 sm:grid-cols-2 gap-3">
   <a href={meetingLink} target="_blank" rel="noopener noreferrer" class={boxClass}>
-    <div class="text-xs text-chicago-500 uppercase tracking-wide">Live meeting</div>
+    <div class="flex items-center gap-1 text-xs text-chicago-500 uppercase tracking-wide">
+      <Icon name="calendar-clock" size={14} />
+      Live meeting
+    </div>
     <div class="text-base font-semibold text-galaxy-dark mt-1">{meetingName}</div>
     <div class="text-sm text-chicago-700 mt-1">{dateLabel}, {timeLabel} UTC</div>
   </a>
   <a href={matrixLink} target="_blank" rel="noopener noreferrer" class={boxClass}>
-    <div class="text-xs text-chicago-500 uppercase tracking-wide">Async Chat</div>
+    <div class="flex items-center gap-1 text-xs text-chicago-500 uppercase tracking-wide">
+      <Icon name="message-square" size={14} />
+      Async Chat
+    </div>
     <div class="text-base font-semibold text-galaxy-dark mt-1">Release Testing Matrix Room</div>
     <div class="text-sm text-chicago-700 mt-1">galaxyproject/release-testing</div>
   </a>
