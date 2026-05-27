@@ -1,0 +1,43 @@
+---
+interface Props {
+  matrixLink: string;
+  meetingName: string;
+  meetingLink: string;
+  /** ISO date (YYYY-MM-DD), assumed to be the start of the testing window. */
+  startDate: string;
+  /** UTC time as HH:MM (24-hour). */
+  meetingTime: string;
+}
+const { matrixLink, meetingName, meetingLink, startDate, meetingTime } = Astro.props;
+
+const meetingDateTime = new Date(`${startDate}T${meetingTime}:00Z`);
+const dateLabel = new Intl.DateTimeFormat('en-US', {
+  weekday: 'long',
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+  timeZone: 'UTC',
+}).format(meetingDateTime);
+const timeLabel = new Intl.DateTimeFormat('en-US', {
+  hour: '2-digit',
+  minute: '2-digit',
+  hour12: false,
+  timeZone: 'UTC',
+}).format(meetingDateTime);
+
+const boxClass =
+  'block p-4 rounded-lg border border-galaxy-primary/10 bg-white shadow-sm hover:border-galaxy-primary/30 transition-all no-underline';
+---
+
+<div class="not-prose my-6 grid grid-cols-1 sm:grid-cols-2 gap-3">
+  <a href={meetingLink} target="_blank" rel="noopener noreferrer" class={boxClass}>
+    <div class="text-xs text-chicago-500 uppercase tracking-wide">Live meeting</div>
+    <div class="text-base font-semibold text-galaxy-dark mt-1">{meetingName}</div>
+    <div class="text-sm text-chicago-700 mt-1">{dateLabel}, {timeLabel} UTC</div>
+  </a>
+  <a href={matrixLink} target="_blank" rel="noopener noreferrer" class={boxClass}>
+    <div class="text-xs text-chicago-500 uppercase tracking-wide">Async Chat</div>
+    <div class="text-base font-semibold text-galaxy-dark mt-1">Release Testing Matrix Room</div>
+    <div class="text-sm text-chicago-700 mt-1">galaxyproject/release-testing</div>
+  </a>
+</div>

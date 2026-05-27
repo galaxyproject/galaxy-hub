@@ -199,6 +199,7 @@ async function main() {
     testServer: config.testServer,
     meetingName: config.meetingName,
     meetingLink: config.meetingLink,
+    meetingTime: config.meetingTime,
     testingLabel: config.testingLabel,
     inProgressLabel: config.inProgressLabel,
     completeLabel: config.completeLabel,

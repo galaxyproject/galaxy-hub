@@ -10,5 +10,6 @@
   "matrixLink": "https://matrix.to/#/%23galaxyproject_release-testing:gitter.im",
   "testServer": "https://test.galaxyproject.org/",
   "meetingName": "Testing and Hardening Working Group Meeting",
-  "meetingLink": "https://meet.google.com/ios-kygq-hfw"
+  "meetingLink": "https://meet.google.com/ios-kygq-hfw",
+  "meetingTime": "16:00"
 }

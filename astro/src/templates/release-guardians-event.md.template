@@ -20,17 +20,17 @@ The Galaxy **{{version}}** release is entering community validation. Become a **
 
 Pick a pull request from the list below, test the change on the [**Galaxy Test Server**]({{testServer}}), and capture your findings by [**opening a new issue**]({{issueLink}}) that references the PR number. Keeping the feedback in a dedicated issue keeps the PR conversation focused on code review. The PR labels are the workflow.
 
-**New to release testing?** That's exactly who we're looking for. Walk through the change as a regular user would, note anything that breaks or feels off, and [**file a new issue**]({{issueLink}}) describing what you observed (with the PR number for context). No prior experience needed. If you get stuck, ask in chat or join the kickoff meeting.
+**New to release testing?** That's exactly who we're looking for. Walk through the change as a regular user would, note anything that breaks or feels off, and [**file a new issue**]({{issueLink}}) describing what you observed (with the PR number for context). No prior experience needed. If you get stuck, ask in the Matrix room or join the kickoff meeting below.
+
+<ReleaseGuardiansCoordination matrixLink="{{matrixLink}}" meetingName="{{meetingName}}" meetingLink="{{meetingLink}}" startDate="{{startDate}}" meetingTime="{{meetingTime}}" />
 
 ## Become a Guardian
 
 1. Pick a PR from the **Needs Validation** section below.
 2. Add the <ReleaseGuardiansLabelPill label="{{inProgressLabel}}" kind="inProgress" /> label to indicate that validation is underway.
 3. Review the PR description and exercise the user-facing change on the [**Galaxy Test Server**]({{testServer}}).
-4. [**Open a new issue**]({{issueLink}}) describing your findings — reference the PR number, and include screenshots, regressions, deployment notes, and any edge cases you hit.
+4. [**Open a new issue**]({{issueLink}}) describing your findings, reference the PR number, and include screenshots, regressions, deployment notes, and any edge cases you hit.
 5. When validation is complete, replace <ReleaseGuardiansLabelPill label="{{inProgressLabel}}" kind="inProgress" /> with <ReleaseGuardiansLabelPill label="{{completeLabel}}" kind="complete" />.
-6. Join the [**Matrix room**]({{matrixLink}}) for async coordination with other Release Guardians and organisers.
-7. Join the [**{{meetingName}}**]({{meetingLink}}) for live Q&A and coordination with organisers.
 
 <ReleaseGuardiansSummary version="{{version}}" />
 
