@@ -55,13 +55,13 @@ query ($searchQuery: String!, $after: String) {
                 url
                 updatedAt
                 body
-                author { login url avatarUrl }
+                author { login url }
                 labels(first: ${LABELS_PER_PR}) { nodes { name } }
                 timelineItems(itemTypes: [LABELED_EVENT], last: ${LABELING_EVENTS_PER_PR}) {
                     nodes {
                         ... on LabeledEvent {
                             createdAt
-                            actor { login url avatarUrl }
+                            actor { login url }
                             label { name }
                         }
                     }
@@ -111,6 +111,16 @@ function findGuardian(pr, label) {
   return events[0].actor;
 }
 
+/** Attach the stable `github.com/<login>.png` avatar URL — bypasses GitHub's
+ *  hash-suffixed `avatarUrl` which changes on every re-upload and would
+ *  otherwise trigger a noise refresh PR every cycle. */
+function withStableAvatar(actor) {
+  if (!actor) {
+    return actor;
+  }
+  return { login: actor.login, url: actor.url, avatarUrl: `https://github.com/${actor.login}.png` };
+}
+
 /** Project a raw PR (from GraphQL) into the render-ready shape the components
  *  consume. Drops `body` and `labelingEvents` — they're machinery, not
  *  display data. */
@@ -119,10 +129,10 @@ function projectPr(pr, excludedLabels, guardianLabel) {
     number: pr.number,
     title: pr.title,
     url: pr.url,
-    author: pr.author,
+    author: withStableAvatar(pr.author),
     labels: pr.labels.filter((l) => !excludedLabels.has(l)),
     tease: extractPlainTease(pr.body),
-    guardian: guardianLabel ? findGuardian(pr, guardianLabel) : null,
+    guardian: guardianLabel ? withStableAvatar(findGuardian(pr, guardianLabel)) : null,
   };
 }
 

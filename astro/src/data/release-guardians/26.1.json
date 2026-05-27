@@ -1,6 +1,6 @@
 {
   "version": "26.1",
-  "fetchedAt": "2026-05-26T06:50:47.107Z",
+  "fetchedAt": "2026-05-27T04:39:39.045Z",
   "needsValidation": [
     {
       "number": 22716,
@@ -9,7 +9,7 @@
       "author": {
         "login": "davelopez",
         "url": "https://github.com/davelopez",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/46503462?u=aa55aa7b371c66271de04ff49ee646b49d87af51&v=4"
+        "avatarUrl": "https://github.com/davelopez.png"
       },
       "labels": [
         "kind/enhancement",
@@ -25,7 +25,7 @@
       "author": {
         "login": "dannon",
         "url": "https://github.com/dannon",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/155398?u=5437aa75643b20989548e955e1c77cb44b860956&v=4"
+        "avatarUrl": "https://github.com/dannon.png"
       },
       "labels": [
         "kind/enhancement",
@@ -43,7 +43,7 @@
       "author": {
         "login": "davelopez",
         "url": "https://github.com/davelopez",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/46503462?u=aa55aa7b371c66271de04ff49ee646b49d87af51&v=4"
+        "avatarUrl": "https://github.com/davelopez.png"
       },
       "labels": [
         "kind/enhancement",
@@ -60,7 +60,7 @@
       "author": {
         "login": "ahmedhamidawan",
         "url": "https://github.com/ahmedhamidawan",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/78516064?u=dbda0776992d90966f23b0672420b7d7d69a2f38&v=4"
+        "avatarUrl": "https://github.com/ahmedhamidawan.png"
       },
       "labels": [
         "kind/bug",
@@ -76,7 +76,7 @@
       "author": {
         "login": "mvdbeek",
         "url": "https://github.com/mvdbeek",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/6804901?v=4"
+        "avatarUrl": "https://github.com/mvdbeek.png"
       },
       "labels": [
         "kind/enhancement",
@@ -99,7 +99,7 @@
       "author": {
         "login": "davelopez",
         "url": "https://github.com/davelopez",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/46503462?u=aa55aa7b371c66271de04ff49ee646b49d87af51&v=4"
+        "avatarUrl": "https://github.com/davelopez.png"
       },
       "labels": [
         "kind/enhancement",
@@ -118,7 +118,7 @@
       "author": {
         "login": "jmchilton",
         "url": "https://github.com/jmchilton",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/216771?u=a2bedb0fcfd048223691150f695bf7623bb96322&v=4"
+        "avatarUrl": "https://github.com/jmchilton.png"
       },
       "labels": [
         "area/documentation",
@@ -142,7 +142,7 @@
       "author": {
         "login": "guerler",
         "url": "https://github.com/guerler",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/2105447?u=659006539a3e1c6baf324c55982c8f8018e5945a&v=4"
+        "avatarUrl": "https://github.com/guerler.png"
       },
       "labels": [
         "kind/enhancement",
@@ -160,7 +160,7 @@
       "author": {
         "login": "mvdbeek",
         "url": "https://github.com/mvdbeek",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/6804901?v=4"
+        "avatarUrl": "https://github.com/mvdbeek.png"
       },
       "labels": [
         "area/documentation",
@@ -183,7 +183,7 @@
       "author": {
         "login": "ahmedhamidawan",
         "url": "https://github.com/ahmedhamidawan",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/78516064?u=dbda0776992d90966f23b0672420b7d7d69a2f38&v=4"
+        "avatarUrl": "https://github.com/ahmedhamidawan.png"
       },
       "labels": [
         "kind/enhancement",
@@ -199,7 +199,7 @@
       "author": {
         "login": "davelopez",
         "url": "https://github.com/davelopez",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/46503462?u=aa55aa7b371c66271de04ff49ee646b49d87af51&v=4"
+        "avatarUrl": "https://github.com/davelopez.png"
       },
       "labels": [
         "kind/enhancement",
@@ -217,7 +217,7 @@
       "author": {
         "login": "ahmedhamidawan",
         "url": "https://github.com/ahmedhamidawan",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/78516064?u=dbda0776992d90966f23b0672420b7d7d69a2f38&v=4"
+        "avatarUrl": "https://github.com/ahmedhamidawan.png"
       },
       "labels": [
         "area/UI-UX",
@@ -234,7 +234,7 @@
       "author": {
         "login": "ahmedhamidawan",
         "url": "https://github.com/ahmedhamidawan",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/78516064?u=dbda0776992d90966f23b0672420b7d7d69a2f38&v=4"
+        "avatarUrl": "https://github.com/ahmedhamidawan.png"
       },
       "labels": [
         "kind/enhancement",
@@ -251,7 +251,7 @@
       "author": {
         "login": "ahmedhamidawan",
         "url": "https://github.com/ahmedhamidawan",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/78516064?u=dbda0776992d90966f23b0672420b7d7d69a2f38&v=4"
+        "avatarUrl": "https://github.com/ahmedhamidawan.png"
       },
       "labels": [
         "area/UI-UX",
@@ -267,7 +267,7 @@
       "author": {
         "login": "dannon",
         "url": "https://github.com/dannon",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/155398?u=5437aa75643b20989548e955e1c77cb44b860956&v=4"
+        "avatarUrl": "https://github.com/dannon.png"
       },
       "labels": [
         "kind/bug",
@@ -284,7 +284,7 @@
       "author": {
         "login": "dannon",
         "url": "https://github.com/dannon",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/155398?u=5437aa75643b20989548e955e1c77cb44b860956&v=4"
+        "avatarUrl": "https://github.com/dannon.png"
       },
       "labels": [
         "kind/enhancement",
@@ -300,7 +300,7 @@
       "author": {
         "login": "ahmedhamidawan",
         "url": "https://github.com/ahmedhamidawan",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/78516064?u=dbda0776992d90966f23b0672420b7d7d69a2f38&v=4"
+        "avatarUrl": "https://github.com/ahmedhamidawan.png"
       },
       "labels": [
         "area/UI-UX",
@@ -317,7 +317,7 @@
       "author": {
         "login": "guerler",
         "url": "https://github.com/guerler",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/2105447?u=659006539a3e1c6baf324c55982c8f8018e5945a&v=4"
+        "avatarUrl": "https://github.com/guerler.png"
       },
       "labels": [
         "kind/enhancement",
@@ -334,7 +334,7 @@
       "author": {
         "login": "guerler",
         "url": "https://github.com/guerler",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/2105447?u=659006539a3e1c6baf324c55982c8f8018e5945a&v=4"
+        "avatarUrl": "https://github.com/guerler.png"
       },
       "labels": [
         "kind/enhancement",
@@ -351,7 +351,7 @@
       "author": {
         "login": "itisAliRH",
         "url": "https://github.com/itisAliRH",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/8046843?u=18df84bfa4052aed11d80f6944065ee8ed86ed4f&v=4"
+        "avatarUrl": "https://github.com/itisAliRH.png"
       },
       "labels": [
         "kind/enhancement",
@@ -368,7 +368,7 @@
       "author": {
         "login": "itisAliRH",
         "url": "https://github.com/itisAliRH",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/8046843?u=18df84bfa4052aed11d80f6944065ee8ed86ed4f&v=4"
+        "avatarUrl": "https://github.com/itisAliRH.png"
       },
       "labels": [
         "kind/enhancement",
@@ -384,7 +384,7 @@
       "author": {
         "login": "bgruening",
         "url": "https://github.com/bgruening",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/469983?v=4"
+        "avatarUrl": "https://github.com/bgruening.png"
       },
       "labels": [
         "area/UI-UX",
@@ -403,7 +403,7 @@
       "author": {
         "login": "neoformit",
         "url": "https://github.com/neoformit",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/42562517?u=b188520d716bb1aef0ceb77a4ff14f0d6788caef&v=4"
+        "avatarUrl": "https://github.com/neoformit.png"
       },
       "labels": [
         "kind/enhancement",
@@ -421,7 +421,7 @@
       "author": {
         "login": "dannon",
         "url": "https://github.com/dannon",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/155398?u=5437aa75643b20989548e955e1c77cb44b860956&v=4"
+        "avatarUrl": "https://github.com/dannon.png"
       },
       "labels": [
         "area/UI-UX",
@@ -435,7 +435,7 @@
       "guardian": {
         "login": "guerler",
         "url": "https://github.com/guerler",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/2105447?u=659006539a3e1c6baf324c55982c8f8018e5945a&v=4"
+        "avatarUrl": "https://github.com/guerler.png"
       }
     }
   ],
