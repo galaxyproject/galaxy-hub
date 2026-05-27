@@ -53,7 +53,6 @@ query ($searchQuery: String!, $after: String) {
                 number
                 title
                 url
-                updatedAt
                 body
                 author { login url }
                 labels(first: ${LABELS_PER_PR}) { nodes { name } }
@@ -147,7 +146,6 @@ async function fetchPrs(config) {
       number: n.number,
       title: n.title,
       url: n.url,
-      updatedAt: n.updatedAt,
       body: n.body || '',
       author: n.author,
       labels: n.labels.nodes.map((l) => l.name),
@@ -155,7 +153,7 @@ async function fetchPrs(config) {
         .filter((e) => e && e.label && e.actor)
         .map((e) => ({ createdAt: e.createdAt, actor: e.actor, label: e.label.name })),
     }))
-    .sort((a, b) => (a.updatedAt < b.updatedAt ? 1 : -1));
+    .sort((a, b) => b.number - a.number);
 }
 
 // ── Main ──────────────────────────────────────────────────────────────────

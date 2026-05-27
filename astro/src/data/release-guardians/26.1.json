@@ -1,25 +1,7 @@
 {
   "version": "26.1",
-  "fetchedAt": "2026-05-27T05:30:14.708Z",
+  "fetchedAt": "2026-05-27T08:50:15.726Z",
   "needsValidation": [
-    {
-      "number": 21932,
-      "title": "History Graph API",
-      "url": "https://github.com/galaxyproject/galaxy/pull/21932",
-      "author": {
-        "login": "guerler",
-        "url": "https://github.com/guerler",
-        "avatarUrl": "https://github.com/guerler.png"
-      },
-      "labels": [
-        "kind/enhancement",
-        "area/UI-UX",
-        "area/API",
-        "area/backend"
-      ],
-      "tease": "The Galaxy History Graph provides a history-scoped, queryable representation of analysis structure by constructing a directed graph over top-level history items and their associated tool executions. The implementation models datasets, dataset collections, and tool requests as nodes, and derives edges directly from persisted job input and output associations, including implicit",
-      "guardian": null
-    },
     {
       "number": 22716,
       "title": "Unifies remove button icons across upload methods",
@@ -37,21 +19,26 @@
       "guardian": null
     },
     {
-      "number": 22625,
-      "title": "Add user-defined-tool operations to the agent-operations layer",
-      "url": "https://github.com/galaxyproject/galaxy/pull/22625",
+      "number": 22643,
+      "title": "Paginate /api/tools/{tool_id}/build history options",
+      "url": "https://github.com/galaxyproject/galaxy/pull/22643",
       "author": {
-        "login": "dannon",
-        "url": "https://github.com/dannon",
-        "avatarUrl": "https://github.com/dannon.png"
+        "login": "mvdbeek",
+        "url": "https://github.com/mvdbeek",
+        "avatarUrl": "https://github.com/mvdbeek.png"
       },
       "labels": [
         "kind/enhancement",
+        "area/UI-UX",
         "area/testing",
         "area/API",
-        "area/testing/integration"
+        "area/performance",
+        "area/database",
+        "area/tool-framework",
+        "area/testing/api",
+        "area/testing/selenium"
       ],
-      "tease": "The standalone galaxy-mcp server has grown four user-defined-tool (UDT) tools -- create, list, delete, run -- that the in-process MCP server exposed at /api/mcp didn't have. This adds them, so an agent talking to the built-in MCP can manage UDTs through the same surface as the external server.",
+      "tease": "The endpoint embedded the entire active history in `data` and `data_collection` parameter options, producing multi-megabyte payloads and slow tool-form rendering for histories with thousands of items.",
       "guardian": null
     },
     {
@@ -88,26 +75,21 @@
       "guardian": null
     },
     {
-      "number": 22643,
-      "title": "Paginate /api/tools/{tool_id}/build history options",
-      "url": "https://github.com/galaxyproject/galaxy/pull/22643",
+      "number": 22625,
+      "title": "Add user-defined-tool operations to the agent-operations layer",
+      "url": "https://github.com/galaxyproject/galaxy/pull/22625",
       "author": {
-        "login": "mvdbeek",
-        "url": "https://github.com/mvdbeek",
-        "avatarUrl": "https://github.com/mvdbeek.png"
+        "login": "dannon",
+        "url": "https://github.com/dannon",
+        "avatarUrl": "https://github.com/dannon.png"
       },
       "labels": [
         "kind/enhancement",
-        "area/UI-UX",
         "area/testing",
         "area/API",
-        "area/performance",
-        "area/database",
-        "area/tool-framework",
-        "area/testing/api",
-        "area/testing/selenium"
+        "area/testing/integration"
       ],
-      "tease": "The endpoint embedded the entire active history in `data` and `data_collection` parameter options, producing multi-megabyte payloads and slow tool-form rendering for histories with thousands of items.",
+      "tease": "The standalone galaxy-mcp server has grown four user-defined-tool (UDT) tools -- create, list, delete, run -- that the in-process MCP server exposed at /api/mcp didn't have. This adds them, so an agent talking to the built-in MCP can manage UDTs through the same surface as the external server.",
       "guardian": null
     },
     {
@@ -127,30 +109,6 @@
         "highlight"
       ],
       "tease": "This branch introduces end-to-end bulk storage migration for history items.",
-      "guardian": null
-    },
-    {
-      "number": 22361,
-      "title": "Galaxy Notebooks: Persistent Narrative for Human-AI Collaborative Science in Galaxy",
-      "url": "https://github.com/galaxyproject/galaxy/pull/22361",
-      "author": {
-        "login": "jmchilton",
-        "url": "https://github.com/jmchilton",
-        "avatarUrl": "https://github.com/jmchilton.png"
-      },
-      "labels": [
-        "area/documentation",
-        "area/testing",
-        "kind/feature",
-        "area/API",
-        "area/admin",
-        "area/database",
-        "area/testing/api",
-        "area/testing/selenium",
-        "area/client",
-        "highlight"
-      ],
-      "tease": "Galaxy histories capture computation but not understanding. A history shows datasets and tool runs -- the *what* happened. It doesn't capture *why* one approach was chosen over another, which results matter, or the iterative reasoning that led to insights.",
       "guardian": null
     },
     {
@@ -193,21 +151,43 @@
       "guardian": null
     },
     {
-      "number": 21338,
-      "title": "Add Beta Upload Activity - User Interface Redesign",
-      "url": "https://github.com/galaxyproject/galaxy/pull/21338",
+      "number": 22361,
+      "title": "Galaxy Notebooks: Persistent Narrative for Human-AI Collaborative Science in Galaxy",
+      "url": "https://github.com/galaxyproject/galaxy/pull/22361",
       "author": {
-        "login": "davelopez",
-        "url": "https://github.com/davelopez",
-        "avatarUrl": "https://github.com/davelopez.png"
+        "login": "jmchilton",
+        "url": "https://github.com/jmchilton",
+        "avatarUrl": "https://github.com/jmchilton.png"
       },
       "labels": [
-        "kind/enhancement",
-        "area/UI-UX",
-        "kind/refactoring",
+        "area/documentation",
+        "area/testing",
+        "kind/feature",
+        "area/API",
+        "area/admin",
+        "area/database",
+        "area/testing/api",
+        "area/testing/selenium",
+        "area/client",
         "highlight"
       ],
-      "tease": "The new interface moves from a modal-based approach to a dedicated activity panel with a method-first workflow and clearer separation between different import mechanisms.",
+      "tease": "Galaxy histories capture computation but not understanding. A history shows datasets and tool runs -- the *what* happened. It doesn't capture *why* one approach was chosen over another, which results matter, or the iterative reasoning that led to insights.",
+      "guardian": null
+    },
+    {
+      "number": 22159,
+      "title": "Add toggle to invocation graph for viewing step inputs/outputs like in the editor",
+      "url": "https://github.com/galaxyproject/galaxy/pull/22159",
+      "author": {
+        "login": "ahmedhamidawan",
+        "url": "https://github.com/ahmedhamidawan",
+        "avatarUrl": "https://github.com/ahmedhamidawan.png"
+      },
+      "labels": [
+        "area/UI-UX",
+        "kind/feature"
+      ],
+      "tease": "When this is toggled, we see the step just like it would appear in the editor.",
       "guardian": null
     },
     {
@@ -228,39 +208,6 @@
       "guardian": null
     },
     {
-      "number": 22091,
-      "title": "Modernize the ConfirmDialog composable to use GModal",
-      "url": "https://github.com/galaxyproject/galaxy/pull/22091",
-      "author": {
-        "login": "ahmedhamidawan",
-        "url": "https://github.com/ahmedhamidawan",
-        "avatarUrl": "https://github.com/ahmedhamidawan.png"
-      },
-      "labels": [
-        "kind/enhancement",
-        "area/UI-UX",
-        "kind/refactoring"
-      ],
-      "tease": "ConfirmDialog is now a modern vue component, instead of a legacy, options API, programmatically mounted component.",
-      "guardian": null
-    },
-    {
-      "number": 22159,
-      "title": "Add toggle to invocation graph for viewing step inputs/outputs like in the editor",
-      "url": "https://github.com/galaxyproject/galaxy/pull/22159",
-      "author": {
-        "login": "ahmedhamidawan",
-        "url": "https://github.com/ahmedhamidawan",
-        "avatarUrl": "https://github.com/ahmedhamidawan.png"
-      },
-      "labels": [
-        "area/UI-UX",
-        "kind/feature"
-      ],
-      "tease": "When this is toggled, we see the step just like it would appear in the editor.",
-      "guardian": null
-    },
-    {
       "number": 22107,
       "title": "Skip X-Frame-Options header for published embed views",
       "url": "https://github.com/galaxyproject/galaxy/pull/22107",
@@ -275,6 +222,23 @@
         "area/testing/api"
       ],
       "tease": "I added a shared `_is_embed_request()` helper that checks for the `/published/` path prefix combined with `embed=true`, and use it to conditionally skip the header in both the FastAPI middleware (`fast_app.py`) and the WSGI transaction init (`webapp.py`).",
+      "guardian": null
+    },
+    {
+      "number": 22091,
+      "title": "Modernize the ConfirmDialog composable to use GModal",
+      "url": "https://github.com/galaxyproject/galaxy/pull/22091",
+      "author": {
+        "login": "ahmedhamidawan",
+        "url": "https://github.com/ahmedhamidawan",
+        "avatarUrl": "https://github.com/ahmedhamidawan.png"
+      },
+      "labels": [
+        "kind/enhancement",
+        "area/UI-UX",
+        "kind/refactoring"
+      ],
+      "tease": "ConfirmDialog is now a modern vue component, instead of a legacy, options API, programmatically mounted component.",
       "guardian": null
     },
     {
@@ -311,9 +275,9 @@
       "guardian": null
     },
     {
-      "number": 21775,
-      "title": "Convert FormDisplay to Composition API",
-      "url": "https://github.com/galaxyproject/galaxy/pull/21775",
+      "number": 21932,
+      "title": "History Graph API",
+      "url": "https://github.com/galaxyproject/galaxy/pull/21932",
       "author": {
         "login": "guerler",
         "url": "https://github.com/guerler",
@@ -322,9 +286,10 @@
       "labels": [
         "kind/enhancement",
         "area/UI-UX",
-        "kind/refactoring"
+        "area/API",
+        "area/backend"
       ],
-      "tease": "Adds visitAllInputs, a traversal utility that walks all conditional cases, not just the active one, fixing stale data_column attributes when switching conditionals after dataset selection.",
+      "tease": "The Galaxy History Graph provides a history-scoped, queryable representation of analysis structure by constructing a directed graph over top-level history items and their associated tool executions. The implementation models datasets, dataset collections, and tool requests as nodes, and derives edges directly from persisted job input and output associations, including implicit",
       "guardian": null
     },
     {
@@ -342,6 +307,23 @@
         "kind/refactoring"
       ],
       "tease": "This branch transitions the storage dashboard bar charts from a D3 based implementation to declarative Vega Lite specifications rendered through the shared VegaWrapper component, aligning the dashboard with the broader visualization stack and improving consistency across the UI.",
+      "guardian": null
+    },
+    {
+      "number": 21775,
+      "title": "Convert FormDisplay to Composition API",
+      "url": "https://github.com/galaxyproject/galaxy/pull/21775",
+      "author": {
+        "login": "guerler",
+        "url": "https://github.com/guerler",
+        "avatarUrl": "https://github.com/guerler.png"
+      },
+      "labels": [
+        "kind/enhancement",
+        "area/UI-UX",
+        "kind/refactoring"
+      ],
+      "tease": "Adds visitAllInputs, a traversal utility that walks all conditional cases, not just the active one, fixing stale data_column attributes when switching conditionals after dataset selection.",
       "guardian": null
     },
     {
@@ -410,6 +392,24 @@
         "area/UI-UX"
       ],
       "tease": "(FYI opening a draft so people can see this while we (Galaxy AU) are reviewing)",
+      "guardian": null
+    },
+    {
+      "number": 21338,
+      "title": "Add Beta Upload Activity - User Interface Redesign",
+      "url": "https://github.com/galaxyproject/galaxy/pull/21338",
+      "author": {
+        "login": "davelopez",
+        "url": "https://github.com/davelopez",
+        "avatarUrl": "https://github.com/davelopez.png"
+      },
+      "labels": [
+        "kind/enhancement",
+        "area/UI-UX",
+        "kind/refactoring",
+        "highlight"
+      ],
+      "tease": "The new interface moves from a modal-based approach to a dedicated activity panel with a method-first workflow and clearer separation between different import mechanisms.",
       "guardian": null
     }
   ],
