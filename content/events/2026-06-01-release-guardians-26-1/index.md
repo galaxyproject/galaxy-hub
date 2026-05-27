@@ -5,7 +5,7 @@ end: '2026-06-05'
 tease: >-
   The Galaxy 26.1 release is entering community validation. Help
   exercise user-facing changes across real deployments, workflows, and
-  browsers before publication.
+  user environments before publication.
 tags:
   - release-guardians
   - release
@@ -17,7 +17,7 @@ contributions:
 components: true
 ---
 
-The Galaxy **26.1** release is entering community validation. Become a **Galaxy Release Guardian** and help exercise user-facing changes across real deployments, workflows, and browsers before publication.
+The Galaxy **26.1** release is entering community validation. Become a **Galaxy Release Guardian** and help exercise user-facing changes across real deployments, workflows, and user environments before publication.
 
 Pick a pull request from the list below, test the change on the [**Galaxy Test Server**](https://test.galaxyproject.org/), and capture your findings by [**opening a new issue**](https://github.com/galaxyproject/galaxy/issues/new?template=bug_report.md) that references the PR number. Keeping the feedback in a dedicated issue keeps the PR conversation focused on code review. The PR labels are the workflow.
 
