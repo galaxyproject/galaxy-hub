@@ -1,0 +1,39 @@
+---
+import { loadSnapshot } from './data';
+import { TONES } from './tones';
+import Icon from '../mdx/Icon.astro';
+
+interface Props {
+  version: string;
+}
+const { version } = Astro.props;
+const data = loadSnapshot(version);
+
+const tileClass =
+  'block p-4 rounded-lg border border-galaxy-primary/10 bg-white text-center shadow-sm hover:border-galaxy-primary/30 transition-all no-underline';
+const labelClass = 'flex items-center justify-center gap-1 text-xs text-chicago-500 mt-1 uppercase tracking-wide';
+---
+
+<div class="not-prose my-6 grid grid-cols-1 sm:grid-cols-3 gap-3">
+  <a href="#needs-validation" class={tileClass}>
+    <div class={`text-3xl font-bold ${TONES.needsValidation.text}`}>{data?.needsValidation.length ?? 0}</div>
+    <div class={labelClass}>
+      <Icon name="circle-dashed" size={14} />
+      Needs Validation
+    </div>
+  </a>
+  <a href="#in-progress" class={tileClass}>
+    <div class={`text-3xl font-bold ${TONES.inProgress.text}`}>{data?.inProgress.length ?? 0}</div>
+    <div class={labelClass}>
+      <Icon name="loader" size={14} />
+      In Progress
+    </div>
+  </a>
+  <a href="#complete" class={tileClass}>
+    <div class={`text-3xl font-bold ${TONES.complete.text}`}>{data?.complete.length ?? 0}</div>
+    <div class={labelClass}>
+      <Icon name="circle-check" size={14} />
+      Complete
+    </div>
+  </a>
+</div>

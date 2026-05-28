@@ -22,6 +22,10 @@ import SupporterGrid from '../../components/content/SupporterGrid.astro';
 import { resolveSupporters } from '../../utils/supporters';
 import { extractFunding, extractAuthors, resolveAuthor } from '../../utils/contributors';
 import Icon from '../../components/ui/Icon.astro';
+import ReleaseGuardiansSummary from '../../components/release-guardians/Summary.astro';
+import ReleaseGuardiansSection from '../../components/release-guardians/Section.astro';
+import ReleaseGuardiansLabelPill from '../../components/release-guardians/LabelPill.astro';
+import ReleaseGuardiansCoordination from '../../components/release-guardians/Coordination.astro';
 
 interface ConferenceNavItem {
   slug: string;
@@ -224,6 +228,10 @@ const components = {
   Contacts,
   Icon: MdxIcon,
   Insert,
+  ReleaseGuardiansSummary,
+  ReleaseGuardiansSection,
+  ReleaseGuardiansLabelPill,
+  ReleaseGuardiansCoordination,
 };
 
 function toDate(d: Date | string | undefined): Date | null {
