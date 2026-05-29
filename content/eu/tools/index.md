@@ -2,7 +2,7 @@
 # THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
 # To update, run: python3 scripts/update-tools.py --server https://usegalaxy.eu --name "European Galaxy" --output content/eu/tools/index.md
 title: European Galaxy Tools
-description: "4240 tools and counting"
+description: "4267 tools and counting"
 ---
 
 
@@ -57,7 +57,7 @@ description: "4240 tools and counting"
 [NFDI4Earth OneStop4All Importer](https://usegalaxy.eu/root?tool_id=nfdi4earth_os4a "downloads content via NFDI4Earth&#x27;s OneStop4All search user interface")
 [OBIS occurences](https://usegalaxy.eu/root?tool_id=obis_data "retrieve data")
 [OmicsDI](https://usegalaxy.eu/root?tool_id=omicsdi "Sync dataset&#x27;s files from OmicsDI")
-[OpenAlex explorer](https://usegalaxy.eu/root?tool_id=openalex_explorer "Fetch citing papers from OpenAlex using DOI, openAlex ID, or title")
+[OpenAlex explorer](https://usegalaxy.eu/root?tool_id=openalex_explorer "Fetch works, citations, authors, concepts, and publications from OpenAlex")
 [Protein Database Downloader](https://usegalaxy.eu/root?tool_id=dbbuilder "")
 [Ratmine](https://usegalaxy.eu/root?tool_id=ratmine "server")
 [Retrieve ENA data](https://usegalaxy.eu/root?tool_id=enasearch_retrieve_data "(other than taxon and project)")
@@ -974,6 +974,7 @@ description: "4240 tools and counting"
 [SNAP](https://usegalaxy.eu/root?tool_id=snap "gene prediction")
 [STR to bed](https://usegalaxy.eu/root?tool_id=microsatbed "Short Tandem Repeats to bed features from fasta")
 [Sanntis biosynthetic gene clusters](https://usegalaxy.eu/root?tool_id=sanntis_marine "in genomic and metagenomic data")
+[Search Protein Database](https://usegalaxy.eu/root?tool_id=logan_protein_search_database "Search FAISS database with embedded queries and align with MMseqs2")
 [Sex.DetERRmine](https://usegalaxy.eu/root?tool_id=sexdeterrmine "Calculate relative coverage")
 [Shine Find](https://usegalaxy.eu/root?tool_id=edu.tamu.cpt.genbank.shinefind "Identify shine-dalgarno sequences")
 [SignalP 3.0](https://usegalaxy.eu/root?tool_id=signalp3 "Find signal peptides in protein sequences")
@@ -1132,6 +1133,13 @@ description: "4240 tools and counting"
 [SINA](https://usegalaxy.eu/root?tool_id=sina "reference based multiple sequence alignment")
 [Select Sequences](https://usegalaxy.eu/root?tool_id=selectsequencesfrommsa "Tool to select representative sequences from a multiple sequence alignment.")
 [Show-Coords](https://usegalaxy.eu/root?tool_id=mummer_show_coords "Parse delta file and report coordinates and other information")
+[Taffy add gap bases](https://usegalaxy.eu/root?tool_id=taffy_add_gap_bases "fills interstitial gaps in a TAF file")
+[Taffy annotate](https://usegalaxy.eu/root?tool_id=taffy_annotate "adds annotations from a Wiggle file to a TAF file")
+[Taffy coverage](https://usegalaxy.eu/root?tool_id=taffy_coverage "computes basic pairwise coverage stats for a TAF file")
+[Taffy norm](https://usegalaxy.eu/root?tool_id=taffy_norm "normalizes blocks in a TAF file")
+[Taffy sort](https://usegalaxy.eu/root?tool_id=taffy_sort "orders rows of TAF file")
+[Taffy stats](https://usegalaxy.eu/root?tool_id=taffy_stats "prints statistics from a TAF or MAF file")
+[Taffy view](https://usegalaxy.eu/root?tool_id=taffy_view "converts between TAF and MAF formats")
 [cawlign](https://usegalaxy.eu/root?tool_id=cawlign "Codon-aware (pairwise) alignment")
 [cd-hit](https://usegalaxy.eu/root?tool_id=cd_hit "Cluster or compare biological sequence datasets")
 [chainPreNet](https://usegalaxy.eu/root?tool_id=ucsc_chainprenet "Remove chains that don&#x27;t have a chance of being netted")
@@ -1311,6 +1319,7 @@ description: "4240 tools and counting"
 
 <div class="tool-list">
 
+[ALNchain](https://usegalaxy.eu/root?tool_id=alnchain "filter .1aln alignments into one-to-one global alignment")
 [Align sequences](https://usegalaxy.eu/root?tool_id=bioext_bealign "to a reference using a codon alignment algorithm")
 [BBTools: BBMap](https://usegalaxy.eu/root?tool_id=bbtools_bbmap "short-read aligner")
 [BWA-MEM2](https://usegalaxy.eu/root?tool_id=bwa_mem2 "- map medium and long reads (&gt; 100 bp) against reference genome")
@@ -2096,6 +2105,12 @@ description: "4240 tools and counting"
 [SpatialData Plot](https://usegalaxy.eu/root?tool_id=spatialdata_plot "rich static plotting from SpatialData objects")
 [UNetCoreograph](https://usegalaxy.eu/root?tool_id=unet_coreograph "TMA core detection and dearraying")
 [UnMicst](https://usegalaxy.eu/root?tool_id=unmicst "Image segmentation - probability map generation")
+[WebAtlas Build Vitessce Config](https://usegalaxy.eu/root?tool_id=webatlas_build_config "from AnnData and image Zarr inputs")
+[WebAtlas Consolidate Metadata](https://usegalaxy.eu/root?tool_id=webatlas_consolidate_md "Converts an image to Zarr and consolidates metadata")
+[WebAtlas Generate Image](https://usegalaxy.eu/root?tool_id=webatlas_generate_image "Generate label/raw TIFF image from spatial metadata")
+[WebAtlas OME Zarr Metadata](https://usegalaxy.eu/root?tool_id=webatlas_ome_zarr_metadata "extraction as JSON")
+[WebAtlas Process Spatial datasets](https://usegalaxy.eu/root?tool_id=webatlas_router "into AnnData-Zarr")
+[WebAtlas Write](https://usegalaxy.eu/root?tool_id=webatlas_write_spatialdata "AnnData and images into SpatialData Zarr")
 [s3segmenter](https://usegalaxy.eu/root?tool_id=s3segmenter "single cell (nuclei and cytoplasm) label masks.")
 
 </div>
@@ -3231,6 +3246,7 @@ description: "4240 tools and counting"
 [Proteinortho clustering](https://usegalaxy.eu/root?tool_id=proteinortho_clustering "Spectral partitioning algorithm")
 [Proteinortho grab proteins](https://usegalaxy.eu/root?tool_id=proteinortho_grab_proteins "finds genes/proteins in a given fasta file")
 [Proteinortho summary](https://usegalaxy.eu/root?tool_id=proteinortho_summary "summaries the orthology-pairs/RBH files")
+[Proteins Mosaic Q](https://usegalaxy.eu/root?tool_id=protein_mosaic_q "Calculate Mosaic Q descriptors and visualise amino acid clustering")
 [ProteomIQon MzMLToMzLite](https://usegalaxy.eu/root?tool_id=proteomiqon_mzmltomzlite "converts mzML files to mzLite files.")
 [ProteomIQon PSMStatistics](https://usegalaxy.eu/root?tool_id=proteomiqon_psmstatistics "utilizes semi supervised machine learning techniques to integrate search engine scores as well as the mentioned quality scores into one single consensus score.")
 [ProteomIQon PeptideDB](https://usegalaxy.eu/root?tool_id=proteomiqon_peptidedb "creates a peptide database in the SQLite format.")
@@ -3314,6 +3330,7 @@ description: "4240 tools and counting"
 [eggNOG Mapper](https://usegalaxy.eu/root?tool_id=eggnog_mapper "functional sequence annotation by orthology")
 [eggNOG Mapper](https://usegalaxy.eu/root?tool_id=eggnog_mapper_annotate "annotation phase")
 [eggNOG Mapper](https://usegalaxy.eu/root?tool_id=eggnog_mapper_search "search phase")
+[freqSAP](https://usegalaxy.eu/root?tool_id=freqsap "Get frequencies of single amino-acid polymorphisms based on nucleid-acid polymorphism for different populations from UniProt and DbSNP")
 [idpAssemble](https://usegalaxy.eu/root?tool_id=idpassemble "Merge IDPicker databases from single files into a merged database, and filters the result at PSM/spectrum/peptide/protein/gene levels.")
 [idpEmbedder](https://usegalaxy.eu/root?tool_id=idpqonvertEmbedder "Embed human/mouse gene metadata into IDPicker files")
 [idpQonvert](https://usegalaxy.eu/root?tool_id=idpqonvert "Prepare identification results for IDPicker")
@@ -3326,6 +3343,9 @@ description: "4240 tools and counting"
 [metaQuantome: stat](https://usegalaxy.eu/root?tool_id=metaquantome_stat "differential analysis of functional expression and taxonomic abundance")
 [metaQuantome: visualize](https://usegalaxy.eu/root?tool_id=metaquantome_viz "taxonomic analysis, functional analysis, and function-taxonomy analysis results")
 [moFF](https://usegalaxy.eu/root?tool_id=proteomics_moff "extracts MS1 intensities from spectrum files")
+[mzspeclib convert](https://usegalaxy.eu/root?tool_id=mzspeclib_convert "Convert mass spectra files to mzspeclib format using mzspeclib.")
+[mzspeclib describe](https://usegalaxy.eu/root?tool_id=mzspeclib_describe "Summarize and describe mzspeclib files using mzspeclib.")
+[mzspeclib validate](https://usegalaxy.eu/root?tool_id=mzspeclib_validate "Validate mzspeclib files for format and content correctness using mzspeclib.")
 [pVACbind](https://usegalaxy.eu/root?tool_id=pvacbind "The pVACbind tool of the pVACtools suite.")
 [prot-scriber](https://usegalaxy.eu/root?tool_id=prot_scriber "Protein annotation of short human readable descriptions")
 [pyteomics](https://usegalaxy.eu/root?tool_id=mztab2tsv "convert mztab to tabular")
@@ -3423,6 +3443,7 @@ description: "4240 tools and counting"
 [bioconductor-msnbase centroid](https://usegalaxy.eu/root?tool_id=bioconductor_msnbase_centroid "centroid raw profile-mode MS data")
 [bioconductor-msnbase smooth chromatogram](https://usegalaxy.eu/root?tool_id=bioconductor_msnbase_smooth_chromatogram "smooth consecutive spectra using a moving window filter (combineSpectraMovingWindow)")
 [bioconductor-msnbase smooth mz](https://usegalaxy.eu/root?tool_id=bioconductor_msnbase_smooth_mz "smooth raw MS data in mass-to-charge ratio domain")
+[bioconductor-mzR convert](https://usegalaxy.eu/root?tool_id=bioconductor_mzr_convert "mass spectrometry data conversion")
 [dimet abundance plot](https://usegalaxy.eu/root?tool_id=dimet_abundance_plot "Figures of metabolites total abundance as barplots (by DIMet)")
 [dimet bivariate analysis](https://usegalaxy.eu/root?tool_id=dimet_bivariate_analysis "Computation of the correlation of MDV profiles, or the metabolite time course profiles (by DIMet)")
 [dimet differential analysis](https://usegalaxy.eu/root?tool_id=dimet_differential_analysis "Differential analysis of tracer metabolomics data comparing two groups (by DIMet)")
@@ -3463,6 +3484,7 @@ description: "4240 tools and counting"
 [msPurity.purityA](https://usegalaxy.eu/root?tool_id=mspurity_puritya "Assess acquired precursor ion purity of MS/MS spectra")
 [msPurity.purityX](https://usegalaxy.eu/root?tool_id=mspurity_purityx "Calculate the anticipated precursor ion purity from a LC-MS XCMS dataset.")
 [msPurity.spectralMatching](https://usegalaxy.eu/root?tool_id=mspurity_spectralmatching "Perform spectral matching to MS/MS spectral libraries")
+[mztab-m validate](https://usegalaxy.eu/root?tool_id=mztabm_validate "validate mztab-m files")
 [proFIA](https://usegalaxy.eu/root?tool_id=profia "Preprocessing of FIA-HRMS data")
 [rcx-tk](https://usegalaxy.eu/root?tool_id=rcx-tk "Processes and standardizes sequence, alkane or MSDial output files for downstream analysis.")
 [recetox-aplcms - align features](https://usegalaxy.eu/root?tool_id=recetox_aplcms_align_features "align peaks across samples")
@@ -3724,6 +3746,7 @@ description: "4240 tools and counting"
 [Generalized linear models](https://usegalaxy.eu/root?tool_id=sklearn_generalized_linear "for classification and regression")
 [Generate](https://usegalaxy.eu/root?tool_id=sklearn_sample_generator "random samples with controlled size and complexity")
 [Hyperparameter Search](https://usegalaxy.eu/root?tool_id=sklearn_searchcv "performs hyperparameter optimization using various SearchCVs")
+[Image Learner](https://usegalaxy.eu/root?tool_id=image_learner "trains and evaluates an image classification/regression model")
 [LLM Hub](https://usegalaxy.eu/root?tool_id=llm_hub "Call any LLM")
 [Label encoder](https://usegalaxy.eu/root?tool_id=sklearn_label_encoder "Encode target labels with value between 0 and n_classes-1")
 [LightGBM](https://usegalaxy.eu/root?tool_id=sklearn_lightgbm "- train and apply LightGBM models")
@@ -3731,6 +3754,7 @@ description: "4240 tools and counting"
 [Machine Learning Visualization Extension](https://usegalaxy.eu/root?tool_id=ml_visualization_ex "includes several types of plotting for machine learning")
 [Model Prediction](https://usegalaxy.eu/root?tool_id=model_prediction "predicts on new data using a preffited model")
 [Model Validation](https://usegalaxy.eu/root?tool_id=sklearn_model_validation "includes cross_validate, cross_val_predict, learning_curve, and more")
+[Multimodal Learner](https://usegalaxy.eu/root?tool_id=multimodal_learner "Train and evaluate an AutoGluon Multimodal model (tabular + image + text)")
 [Nearest Neighbors Classification](https://usegalaxy.eu/root?tool_id=sklearn_nn_classifier "")
 [Numeric Clustering](https://usegalaxy.eu/root?tool_id=sklearn_numeric_clustering "")
 [Pipeline Builder](https://usegalaxy.eu/root?tool_id=sklearn_build_pipeline "an all-in-one platform to build pipeline, single estimator, preprocessor and custom wrappers")
@@ -3745,6 +3769,7 @@ description: "4240 tools and counting"
 [Split Dataset](https://usegalaxy.eu/root?tool_id=sklearn_train_test_split "into training and test subsets")
 [Stacking Ensembles](https://usegalaxy.eu/root?tool_id=sklearn_stacking_ensemble_models "builds stacking, voting ensemble models with numerous base options")
 [Support vector machines (SVMs)](https://usegalaxy.eu/root?tool_id=sklearn_svm_classifier "for classification")
+[Tabular Learner](https://usegalaxy.eu/root?tool_id=tabular_learner "applies and evaluates multiple machine learning models on a tabular dataset")
 [Tabular data prediction using TabPFN](https://usegalaxy.eu/root?tool_id=tabpfn "with PyTorch")
 [To categorical](https://usegalaxy.eu/root?tool_id=sklearn_to_categorical "Encodes labels to a one-hot encoded matrix and DNA sequences to one-hot and k-mer representations")
 [Train, Test and Evaluation](https://usegalaxy.eu/root?tool_id=sklearn_train_test_eval "fit a model using part of dataset and evaluate using the rest")
@@ -4313,6 +4338,8 @@ description: "4240 tools and counting"
 [Find datasets with similar ISCC-CODEs](https://usegalaxy.eu/root?tool_id=iscc_sum_similarity "with ISCC-SUM")
 [Find edges](https://usegalaxy.eu/root?tool_id=imagej2_find_edges "with ImageJ2")
 [Find maxima](https://usegalaxy.eu/root?tool_id=imagej2_find_maxima "with ImageJ2")
+[GROBID](https://usegalaxy.eu/root?tool_id=grobid_grobid "extract structured TEI XML from scholarly documents and patents")
+[GROBID DataStet](https://usegalaxy.eu/root?tool_id=grobid_dataset_annotate "identify dataset mentions in scientific articles")
 [Generate ISCC-CODE](https://usegalaxy.eu/root?tool_id=iscc_sum "with ISCC-SUM")
 [GrayToColor](https://usegalaxy.eu/root?tool_id=cp_gray_to_color "with CellProfiler")
 [IdentifyPrimaryObjects](https://usegalaxy.eu/root?tool_id=cp_identify_primary_objects "with CellProfiler")

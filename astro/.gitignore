@@ -6,6 +6,10 @@ dist/
 # dependencies
 node_modules/
 
+# lock files
+pnpm-lock.yaml
+yarn.lock
+
 # logs
 npm-debug.log*
 yarn-debug.log*
