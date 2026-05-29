@@ -21,7 +21,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { buildSnapshot, snapshotFingerprint } from './release-guardians-projection.mjs';
+import { buildSnapshot, commentToLabel, snapshotFingerprint } from './release-guardians-projection.mjs';
 
 // ── Paths and constants ───────────────────────────────────────────────────
 
@@ -44,6 +44,7 @@ const PRS_PER_PAGE = 100;
 const MAX_PAGES = 10;
 const LABELS_PER_PR = 20;
 const LABELING_EVENTS_PER_PR = 100;
+const COMMENTS_PER_PR = 100;
 
 const QUERY = `
 query ($searchQuery: String!, $after: String) {
@@ -63,6 +64,13 @@ query ($searchQuery: String!, $after: String) {
                             actor { login url }
                             label { name }
                         }
+                    }
+                }
+                comments(last: ${COMMENTS_PER_PR}) {
+                    nodes {
+                        author { login url }
+                        createdAt
+                        body
                     }
                 }
             }
@@ -142,17 +150,30 @@ async function fetchPrs(config) {
   }
   return all
     .filter((n) => n && typeof n.number === 'number')
-    .map((n) => ({
-      number: n.number,
-      title: n.title,
-      url: n.url,
-      body: n.body || '',
-      author: n.author,
-      labels: n.labels.nodes.map((l) => l.name),
-      labelingEvents: (n.timelineItems?.nodes ?? [])
+    .map((n) => {
+      const labels = n.labels.nodes.map((l) => l.name);
+      const labelingEvents = (n.timelineItems?.nodes ?? [])
         .filter((e) => e && e.label && e.actor)
-        .map((e) => ({ createdAt: e.createdAt, actor: e.actor, label: e.label.name })),
-    }))
+        .map((e) => ({ createdAt: e.createdAt, actor: e.actor, label: e.label.name }));
+      // Treat matching comments as equivalent label applications for users
+      // who lack permission to add labels themselves.
+      for (const c of n.comments?.nodes ?? []) {
+        if (!c || !c.author) continue;
+        const label = commentToLabel(c.body, config);
+        if (!label) continue;
+        if (!labels.includes(label)) labels.push(label);
+        labelingEvents.push({ createdAt: c.createdAt, actor: c.author, label });
+      }
+      return {
+        number: n.number,
+        title: n.title,
+        url: n.url,
+        body: n.body || '',
+        author: n.author,
+        labels,
+        labelingEvents,
+      };
+    })
     .sort((a, b) => b.number - a.number);
 }
 

@@ -32,6 +32,8 @@ Pick a pull request from the list below, test the change on the [**Galaxy Test S
 4. [**Open a new issue**]({{issueLink}}) describing your findings, reference the PR number, and include screenshots, regressions, deployment notes, and any edge cases you hit.
 5. When validation is complete, replace <ReleaseGuardiansLabelPill label="{{inProgressLabel}}" kind="inProgress" /> with <ReleaseGuardiansLabelPill label="{{completeLabel}}" kind="complete" />.
 
+> <small>If you do not have permission to apply labels, post `Release testing in progress` or `Release testing complete` as a PR comment instead.</small>
+
 <ReleaseGuardiansSummary version="{{version}}" />
 
 <h2 id="needs-validation"><Icon name="circle-dashed" /> Needs Validation</h2>
@@ -45,7 +47,3 @@ Pick a pull request from the list below, test the change on the [**Galaxy Test S
 <h2 id="complete"><Icon name="circle-check" /> Complete</h2>
 
 <ReleaseGuardiansSection version="{{version}}" kind="complete" emptyMessage="No PRs marked complete yet." />
-
----
-
-GitHub labels are the source of truth (`{{testingLabel}}` for in-scope, `{{inProgressLabel}}` while being tested, `{{completeLabel}}` for done). This page is regenerated every 12 hours from the live labels.

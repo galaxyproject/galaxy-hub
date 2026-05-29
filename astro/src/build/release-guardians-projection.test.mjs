@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 
 import {
   buildSnapshot,
+  commentToLabel,
   findGuardian,
   partitionPrs,
   projectPr,
@@ -37,6 +38,54 @@ describe('withStableAvatar', () => {
       avatarUrl: 'https://avatars.githubusercontent.com/u/1?v=4',
     });
     expect(result.avatarUrl).toBe('https://github.com/alice.png');
+  });
+});
+
+describe('commentToLabel', () => {
+  it('returns null for empty / null / undefined body', () => {
+    expect(commentToLabel('', CONFIG)).toBeNull();
+    expect(commentToLabel(null, CONFIG)).toBeNull();
+    expect(commentToLabel(undefined, CONFIG)).toBeNull();
+  });
+
+  it('matches the canonical in-progress phrase', () => {
+    expect(commentToLabel('Release testing in progress', CONFIG)).toBe(CONFIG.inProgressLabel);
+  });
+
+  it('matches the canonical complete phrase', () => {
+    expect(commentToLabel('Release testing complete', CONFIG)).toBe(CONFIG.completeLabel);
+  });
+
+  it('is case-insensitive', () => {
+    expect(commentToLabel('RELEASE TESTING IN PROGRESS', CONFIG)).toBe(CONFIG.inProgressLabel);
+    expect(commentToLabel('release testing complete', CONFIG)).toBe(CONFIG.completeLabel);
+    expect(commentToLabel('Release Testing Complete', CONFIG)).toBe(CONFIG.completeLabel);
+  });
+
+  it('trims surrounding whitespace', () => {
+    expect(commentToLabel('  Release testing in progress  ', CONFIG)).toBe(CONFIG.inProgressLabel);
+    expect(commentToLabel('\nRelease testing complete\n', CONFIG)).toBe(CONFIG.completeLabel);
+  });
+
+  it('rejects dashes between words', () => {
+    expect(commentToLabel('release-testing-in-progress', CONFIG)).toBeNull();
+    expect(commentToLabel('release-testing-complete', CONFIG)).toBeNull();
+    expect(commentToLabel('Release-testing in progress', CONFIG)).toBeNull();
+  });
+
+  it('rejects any additional characters in the body', () => {
+    expect(commentToLabel('Release testing in progress!', CONFIG)).toBeNull();
+    expect(commentToLabel('Release testing in progress for this PR', CONFIG)).toBeNull();
+    expect(commentToLabel('FYI: Release testing in progress', CONFIG)).toBeNull();
+    expect(commentToLabel('**Release testing in progress**', CONFIG)).toBeNull();
+    expect(commentToLabel('Release  testing  in  progress', CONFIG)).toBeNull();
+    expect(commentToLabel('Release_testing_in_progress', CONFIG)).toBeNull();
+  });
+
+  it('returns null for unrelated comments', () => {
+    expect(commentToLabel('LGTM', CONFIG)).toBeNull();
+    expect(commentToLabel('release testing pending', CONFIG)).toBeNull();
+    expect(commentToLabel('testing in progress', CONFIG)).toBeNull();
   });
 });
 

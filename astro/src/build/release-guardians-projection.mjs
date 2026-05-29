@@ -8,6 +8,19 @@
 
 import { extractPlainTease } from './release-guardians-tease.mjs';
 
+/* Exact PR comments equivalent to applying workflow labels, for users who
+ * lack label permissions. Case-insensitive; surrounding whitespace is ignored. */
+const RX_IN_PROGRESS_COMMENT = /^release testing in progress$/i;
+const RX_COMPLETE_COMMENT = /^release testing complete$/i;
+
+/** Map a comment body to its equivalent workflow label, or null if no match. */
+export function commentToLabel(body, config) {
+  const trimmed = (body || '').trim();
+  if (RX_IN_PROGRESS_COMMENT.test(trimmed)) return config.inProgressLabel;
+  if (RX_COMPLETE_COMMENT.test(trimmed)) return config.completeLabel;
+  return null;
+}
+
 /** The actor who most recently applied the given label on this PR. */
 export function findGuardian(pr, label) {
   const events = pr.labelingEvents.filter((e) => e.label === label);
