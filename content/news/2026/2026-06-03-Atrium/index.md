@@ -4,10 +4,10 @@ date: "2026-06-03"
 tease: "A short teaser here"
 subsites: [global,eu,us]
 main_subsite: freiburg
-tags: [workflow, humanities, oscars]
+tags: [workflow, humanities, oscars, nlp]
 contributions:
   authorship:
-    - eamonnbell
+    - eamonnbell-dur
   funding:
     - deNBI
     - mwk
