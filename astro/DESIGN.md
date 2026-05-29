@@ -159,6 +159,7 @@ Special Interest Groups and Working Groups use dedicated category colors. Applie
 | Card Title (H3) | `text-xl font-semibold text-galaxy-dark` | Card headers, subsections |
 | Subheading (H4) | `text-lg font-semibold text-galaxy-dark` | Minor sections |
 | Body | `text-base text-galaxy-grey` | Paragraph text |
+| Lead / intro | `text-lg text-galaxy-grey` | Intro paragraph under a title (replaces Bootstrap `lead`) |
 | Muted | `text-sm text-galaxy-grey/70` | Metadata, help text, timestamps |
 | Links | `text-galaxy-primary hover:text-galaxy-gold` | All interactive links |
 
@@ -244,6 +245,59 @@ When placing prose inside cards, trim default margins:
   <!-- markdown content -->
 </div>
 ```
+
+### Tile Grid / Content Cards
+
+The `gx-tile` system is the content-authored counterpart to the card pattern above -- reusable CSS classes (defined in `global.css`) for cards written in Markdown/MDX content, used across the conference pages. Reach for these when authoring content; use the Tailwind utilities above when building Astro/Vue components.
+
+> **Why `tile`, not `card`:** the content preprocessor marks any class attribute containing the token `card` (or `alert`, `lead`, `table`) as legacy `.bs-compat`. The `gx-` names sidestep that, so new content stays out of the compat layer.
+
+```html
+<div class="gx-tile-grid">                              <!-- responsive grid: auto-fit, minmax(260px, 1fr) -->
+  <a class="gx-tile gx-tile--link" href="/somewhere">   <!-- whole-tile link + gold hover bar -->
+    <img class="gx-tile__media" src="..." alt="..." />  <!-- 160px cover image -->
+    <div class="gx-tile__title">Title</div>             <!-- galaxy-dark, semibold -->
+    <p class="gx-tile__teaser">A one- or two-line hook.</p>
+    <span class="gx-tile__more">Learn more →</span>     <!-- galaxy-primary, gold on hover -->
+  </a>
+</div>
+```
+
+Variants and elements:
+
+- `gx-tile` -- base tile: white, `border-galaxy-primary/10`, `rounded-lg`, `shadow-sm`.
+- `gx-tile--link` -- the whole tile is an `<a>`; adds the signature gold hover bar (left edge, `scaleX`) and lifts to `shadow-md`. Keep contents plain (no nested links/markdown).
+- `gx-tile--feature` -- galaxy-primary left border for emphasized tiles.
+- `gx-tile__media` (160px cover image), `gx-tile__title`, `gx-tile__body` (richer markdown bodies -- separate inner content with blank lines so Markdown renders), `gx-tile__teaser` (short plain text), `gx-tile__credit` (small chicago-500 caption, e.g. photo credits), `gx-tile__more` (link affordance).
+
+### Callout / Note
+
+Brand-tinted note box for asides and "good to know" content. Replaces Bootstrap `alert-*`. Intentionally blue (not gold), so gold stays reserved for high-impact moments.
+
+```html
+<div class="callout">
+  Training on June 25-26 is separate from the main conference.
+</div>
+```
+
+`.callout`: `bg-bay-of-many-100`, `border-l-4 border-l-galaxy-primary`, rounded right corners, galaxy-dark text.
+
+### Profile Row
+
+Photo + bio row for people (fellowship awardees, organizers, etc.). Photo left / bio right on desktop; stacks (photo on top) below 768px.
+
+```html
+<div class="profile-row">
+  <img class="profile-row__photo" src="..." alt="Jane Doe" />
+  <div class="profile-row__bio">
+
+Jane Doe is ... (markdown bio)
+
+  </div>
+</div>
+```
+
+`.profile-row`: flex row, 200px photo column with a `rounded-lg` photo.
 
 ### Buttons
 
