@@ -6,7 +6,7 @@ left:
       relativeTo: subsite
       target: events/
     - label: Orbit
-      target: /orbit/
+      target: /tools/orbit/
 right:
     - label: Help
       contents:
