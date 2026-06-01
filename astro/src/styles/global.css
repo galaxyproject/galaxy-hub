@@ -487,6 +487,11 @@ body {
 .gx-tile__body > :last-child {
   margin-bottom: 0;
 }
+/* Title-less tile: the body normally sits under a title that supplies the top
+   padding, so restore it when the body is the tile's first child. */
+.gx-tile > .gx-tile__body:first-child {
+  padding-top: 1rem;
+}
 
 .gx-tile__teaser {
   margin: 0;
