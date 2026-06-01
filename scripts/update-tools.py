@@ -94,7 +94,6 @@ def main():
 # To update, run: python3 scripts/update-tools.py --server {args.server} --name "{args.name}" --output {args.output}
 title: {args.name} Tools
 description: "{tool_count} tools and counting"
-components: true
 ---
 
 """
