@@ -47,7 +47,7 @@ All installers are on the [Releases page](https://github.com/galaxyproject/loom/
 
 - **macOS Apple Silicon** (M1/M2/M3/M4) — `Orbit-<version>-arm64.dmg`
 - **Linux Debian / Ubuntu / Mint / Pop!\_OS** — `orbit_<version>_amd64.deb`
-- **Linux Fedora / RHEL / CentOS / openSUSE** — `orbit-<version>.x86_64.rpm`
+- **Linux Fedora / RHEL / CentOS / openSUSE** — `orbit-<version>-1.x86_64.rpm`
 - **Linux any distro** — `Orbit-linux-x64-<version>.zip` (extract and run `orbit`)
 - **Windows** — WSL2 + Ubuntu, then use the `.deb` (see below)
 
@@ -61,11 +61,11 @@ Download `Orbit-<version>-arm64.dmg` from the [Releases page](https://github.com
 <div class="alert alert-info">
 <strong>Intel Mac users:</strong> No pre-built installer is available for Intel Macs yet. Run Orbit from Terminal using either method below. Node.js 22.19+ is required (<a href="https://nodejs.org">nodejs.org</a>).<br /><br />
 <strong>Option A — Git:</strong>
-<pre>git clone --branch v0.1.0-alpha.5 --depth 1 https://github.com/galaxyproject/loom
+<pre>git clone --branch v0.1.1 --depth 1 https://github.com/galaxyproject/loom
 cd loom/app && npm install && npm start</pre>
 <strong>Option B — Tarball (no Git required):</strong>
-<pre>curl -L https://github.com/galaxyproject/loom/archive/refs/tags/v0.1.0-alpha.5.tar.gz | tar xz
-cd loom-0.1.0-alpha.5/app && npm install && npm start</pre>
+<pre>curl -L https://github.com/galaxyproject/loom/archive/refs/tags/v0.1.1.tar.gz | tar xz
+cd loom-0.1.1/app && npm install && npm start</pre>
 </div>
 
 ### Linux
@@ -73,7 +73,7 @@ cd loom-0.1.0-alpha.5/app && npm install && npm start</pre>
 | File | Distribution |
 |------|-------------|
 | `orbit_<version>_amd64.deb` | Debian, Ubuntu, Mint, Pop!\_OS |
-| `orbit-<version>.x86_64.rpm` | Fedora, RHEL, CentOS, openSUSE |
+| `orbit-<version>-1.x86_64.rpm` | Fedora, RHEL, CentOS, openSUSE |
 | `Orbit-linux-x64-<version>.zip` | Any distro (extract and run `orbit`) |
 
 ```bash
@@ -83,7 +83,7 @@ sudo apt-get install -f
 orbit
 
 # Fedora/RHEL
-sudo rpm -i orbit-<version>.x86_64.rpm
+sudo rpm -i orbit-<version>-1.x86_64.rpm
 orbit
 ```
 
@@ -190,7 +190,7 @@ If you are using Anthropic API keys, we recommend starting with **Claude Sonnet 
 
 | Model | Best for | Price (in/out per 1M tokens) |
 |-------|----------|------------------------------|
-| `gemini-3.1-pro` | Complex reasoning, agentic tasks | $2–$4 / $12–$18 |
+| `gemini-3.1-pro-preview` | Complex reasoning, agentic tasks | $2–$4 / $12–$18 |
 | `gemini-3.5-flash` | Production workloads, sustained performance | $1.50 / $9 |
 | `gemini-3.1-flash-lite` | High-volume, cost-efficient execution | $0.25 / $1.50 |
 | `gemini-2.5-flash-lite` | Fastest, cheapest option | $0.10 / $0.40 |
@@ -281,10 +281,10 @@ Step status: `- [ ]` pending, `- [x]` verified complete, `- [!]` failed.
 Come back the next day in the same directory and the session resumes automatically:
 
 ```
-Pi:  Loaded notebook: HeLa Drug Treatment RNA-seq DE
-     Plan A is in progress (1 of 4 steps complete).
-     The fastp invocation finished successfully. HISAT2 alignment is queued.
-     Should I check_all to advance, or do you want to review the QC report first?
+Orbit: Loaded notebook: HeLa Drug Treatment RNA-seq DE
+       Plan A is in progress (1 of 4 steps complete).
+       The fastp invocation finished successfully. HISAT2 alignment is queued.
+       Should I check_all to advance, or do you want to review the QC report first?
 ```
 
 ## Slash commands
