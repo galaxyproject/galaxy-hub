@@ -1,0 +1,125 @@
+---
+import { getCollection } from 'astro:content';
+import PlatformMap from './PlatformMap.vue';
+import '../../../styles/global.css';
+import fs from 'fs';
+import path from 'path';
+import { parse as parseYaml } from 'yaml';
+import { fileURLToPath } from 'url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const PROJECT_ROOT = path.resolve(__dirname, '../../../../..');
+const CONTENT_DIR = path.join(PROJECT_ROOT, 'content');
+
+// Load and parse designations.csv
+function loadDesignations() {
+  const designationsPath = path.join(CONTENT_DIR, 'usegalaxy', 'designations.csv');
+  const designationsMap = new Map();
+  
+  if (fs.existsSync(designationsPath)) {
+    const csvContent = fs.readFileSync(designationsPath, 'utf-8');
+    const lines = csvContent.split('\n').slice(1); // Skip header
+    
+    for (const line of lines) {
+      if (!line.trim()) continue;
+      const [operative, tier, url] = line.split(',');
+      if (url) {
+        const normalizedUrl = normalizeUrl(url.trim());
+        designationsMap.set(normalizedUrl, {
+          operative: operative.trim(),
+          tier: tier.trim(),
+          url: url.trim()
+        });
+      }
+    }
+  }
+  
+  return designationsMap;
+}
+
+// Normalize URL for matching (remove protocol, port, trailing slash)
+function normalizeUrl(url) {
+  return url
+    .replace(/^https?:\/\//, '') // Remove protocol
+    .replace(/:\d+/, '')          // Remove port number
+    .replace(/\/$/, '')           // Remove trailing slash
+    .toLowerCase();
+}
+
+const designations = loadDesignations();
+
+// Get all platforms
+const platforms = await getCollection('platforms');
+
+// Load domains.yml for each platform
+function loadDomains(platformSlug) {
+  try {
+    const domainsPath = path.join(CONTENT_DIR, platformSlug, 'domains.yml');
+    if (fs.existsSync(domainsPath)) {
+      const domainsYaml = fs.readFileSync(domainsPath, 'utf-8');
+      const data = parseYaml(domainsYaml);
+      return data.domains || [];
+    }
+  } catch (e) {
+    console.debug(`No domains.yml for ${platformSlug}`);
+  }
+  return [];
+}
+
+// Filter platforms based on designations.csv operative status
+const operativePlatforms = platforms.filter((platform) => {
+  const platformUrl = platform.data.url;
+  if (!platformUrl) return false;
+  
+  const normalizedUrl = normalizeUrl(platformUrl);
+  const designation = designations.get(normalizedUrl);
+  
+  // Broadly match where Operative not listed or Operative=1
+  return  !designation ||
+                    designation.operative === null ||
+                    designation.operative === undefined ||
+                    String(designation.operative) !== "0";
+});
+
+// Transform platforms to the format expected by the Vue component
+const platformData = operativePlatforms.map((p) => {
+  const domains = loadDomains(p.data.slug);
+  return {
+    slug: p.data.slug,
+    title: p.data.title || 'Galaxy Server',
+    url: p.data.url,
+    scope: p.data.scope,
+    summary: p.data.summary,
+    platforms: p.data.platforms,
+    image: p.data.image,
+    domains: domains,
+    path: `/use/${p.data.slug.replace(/^use\//, '')}`,
+    images: {},
+  };
+});
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galaxy Platform Map</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      }
+      #map-container {
+        width: 100%;
+        height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map-container">
+      <PlatformMap client:only="vue" platforms={platformData} />
+    </div>
+  </body>
+</html>

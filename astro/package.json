@@ -51,6 +51,7 @@
     "lucide-vue-next": "^0.555.0",
     "marked": "^17.0.1",
     "nanostores": "^1.1.0",
+    "ol": "^10.7.0",
     "rehype-autolink-headings": "^7.1.0",
     "rehype-slug": "^6.0.0",
     "reka-ui": "^2.6.1",
