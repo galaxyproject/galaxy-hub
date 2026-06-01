@@ -7,38 +7,44 @@ autotoc: true
 
 **Orbit** is an AI agent for biological (and not only) data analytics. It lets you have a conversation about your data, draft and approve analysis plans, route steps to Galaxy or run them locally, and watch everything accumulate in a *notebook* — the durable project record that persists across sessions.
 
-<div class="alert alert-warning">
+<div class="callout">
 Loom/Orbit is in <strong>early alpha</strong>. Expect rough edges and breaking changes between releases. File bugs at <a href="https://github.com/galaxyproject/loom/issues">github.com/galaxyproject/loom/issues</a>. Your reports help us make it better!
 </div>
 
-<div class="table-responsive">
-<table class="table" style="border: 1px solid var(--bs-border-color, #dee2e6); border-radius: 6px; overflow: hidden;">
-  <thead>
-    <tr style="background-color: #2c3143; color: #f0f2f8;">
-      <th style="padding: 10px 16px; font-size: 1rem; letter-spacing: 0.02em; color: #f0f2f8;">What can it do? Here's a few examples...</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="padding: 14px 16px; border-top: 1px solid #dee2e6;">
-        <div style="font-style: italic; color: #444; margin-bottom: 6px;">"PIR genes are central to <em>P. vivax</em> immune evasion and we still don't understand their subfamily structure. Find the latest long-read assemblies, extract all PIR sequences, cluster them de novo, and show me how the subfamilies are distributed across strains from different continents and genomic locations."</div>
-        <div style="font-size: 0.8rem; color: #888;">→ Literature survey, SRA discovery, sequence extraction, clustering, comparative analysis — all in one session</div>
-      </td>
-    </tr>
-    <tr>
-      <td style="padding: 14px 16px; border-top: 1px solid #dee2e6;">
-        <div style="font-style: italic; color: #444; margin-bottom: 6px;">"This paper used an outdated <em>C. auris</em> reference: <a href="https://pubmed.ncbi.nlm.nih.gov/37769084/">PMID 37769084</a>. Pull every SRA dataset they deposited, rerun the analysis against the current genome, and tell me what changes — I want to know if their conclusions still hold."</div>
-        <div style="font-size: 0.8rem; color: #888;">→ Paper parsing, SRA bulk download, Galaxy workflow execution, differential comparison</div>
-      </td>
-    </tr>
-    <tr>
-      <td style="padding: 14px 16px; border-top: 1px solid #dee2e6;">
-        <div style="font-style: italic; color: #444; margin-bottom: 6px;">"I just did Cut&amp;Run for H3K27ac in treated vs. control. FASTQs are in my Downloads folder. Walk me through the analysis, call the peaks, and overlay them with the RNA-seq differential expression I ran last month — I want to know which DEGs have changed chromatin accessibility."</div>
-        <div style="font-size: 0.8rem; color: #888;">→ Local file discovery, Galaxy tool routing, peak calling, cross-experiment integration</div>
-      </td>
-    </tr>
-  </tbody>
-</table>
+**What can it do? Here's a few examples...**
+
+<div class="gx-tile-grid">
+
+  <div class="gx-tile">
+    <div class="gx-tile__body">
+
+*"PIR genes are central to P. vivax immune evasion and we still don't understand their subfamily structure. Find the latest long-read assemblies, extract all PIR sequences, cluster them de novo, and show me how the subfamilies are distributed across strains from different continents and genomic locations."*
+
+→ Literature survey, SRA discovery, sequence extraction, clustering, comparative analysis — all in one session
+
+  </div>
+  </div>
+
+  <div class="gx-tile">
+    <div class="gx-tile__body">
+
+*"This paper used an outdated C. auris reference: [PMID 37769084](https://pubmed.ncbi.nlm.nih.gov/37769084/). Pull every SRA dataset they deposited, rerun the analysis against the current genome, and tell me what changes — I want to know if their conclusions still hold."*
+
+→ Paper parsing, SRA bulk download, Galaxy workflow execution, differential comparison
+
+  </div>
+  </div>
+
+  <div class="gx-tile">
+    <div class="gx-tile__body">
+
+*"I just did Cut&Run for H3K27ac in treated vs. control. FASTQs are in my Downloads folder. Walk me through the analysis, call the peaks, and overlay them with the RNA-seq differential expression I ran last month — I want to know which DEGs have changed chromatin accessibility."*
+
+→ Local file discovery, Galaxy tool routing, peak calling, cross-experiment integration
+
+  </div>
+  </div>
+
 </div>
 
 ## Installation
@@ -58,7 +64,7 @@ Download `Orbit-<version>-arm64.dmg` from the [Releases page](https://github.com
 1. Double-click the DMG and drag **Orbit** to **Applications**.
 2. Eject the DMG.
 
-<div class="alert alert-info">
+<div class="callout">
 <strong>Intel Mac users:</strong> No pre-built installer is available for Intel Macs yet. Run Orbit from Terminal using either method below. Node.js 22.19+ is required (<a href="https://nodejs.org">nodejs.org</a>).<br /><br />
 <strong>Option A — Git:</strong>
 <pre>git clone --branch v0.1.1 --depth 1 https://github.com/galaxyproject/loom
@@ -105,7 +111,7 @@ sudo apt-get install -f
 orbit
 ```
 
-<div class="alert alert-warning">
+<div class="callout">
 Keep analysis data inside <code>~/</code> (the Linux filesystem) — <code>/mnt/c/</code> paths are significantly slower across the filesystem boundary. API key encryption via <code>safeStorage</code> is not available in WSL2; keys are stored in plaintext in <code>~/.loom/config.json</code>. Restrict access with <code>chmod 600 ~/.loom/config.json</code>.
 </div>
 
