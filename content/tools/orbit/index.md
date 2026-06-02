@@ -161,7 +161,11 @@ Open Preferences with `Cmd/Ctrl+,` or by clicking the Galaxy connection indicato
 
 In the **Provider** section, select your LLM provider (Anthropic, OpenAI, Google, DeepSeek, or other providers), paste the API key, and choose a default model.
 
+![Orbit Preferences — LLM Providers panel showing the provider dropdown, model selector, and OpenAI subscription sign-in](/tools/orbit/orbit-preferences-llm.png)
+
 In the **Galaxy** section, enter your Galaxy server URL and API key. The footer indicator turns green when the connection is confirmed.
+
+![Orbit Preferences — Galaxy section showing the server URL and API key fields](/tools/orbit/orbit-preferences-galaxy.png)
 
 Click **Save**. The agent restarts with the new configuration.
 
@@ -222,6 +226,8 @@ You can switch models at any point during a session in three ways:
 
 **3. Slash command in chat** — type `/model <name>` and press Enter. Orbit restarts the agent with the new model immediately. Use the exact model ID (e.g. `/model claude-sonnet-4-6`, not `/model sonnet`).
 
+![Switching models mid-session by typing /model in the Orbit chat input](/tools/orbit/orbit-model-command.png)
+
 Switching mid-session is intentional — start on a capable model to design the analysis, then drop to a cheaper one.
 
 ### API keys vs. subscription
@@ -233,6 +239,8 @@ For **OpenAI**, Orbit also supports signing in with your existing ChatGPT subscr
 Direct subscription auth currently works only for OpenAI. We are exploring whether similar flows can be added for Anthropic (Claude.ai) and Google (Gemini Advanced) in a future release.
 
 ## Interface overview
+
+![Orbit's three-pane layout: the Files panel on the left, Chat in the center with a plan draft card awaiting approval, and a phylogenetic tree PDF open in the File tab on the right](/tools/orbit/orbit-interface-overview.png)
 
 Orbit presents a three-pane layout:
 
@@ -247,6 +255,8 @@ Orbit presents a three-pane layout:
 - **File** — appears when you open a file from the left tree. Previews text (Markdown, code, JSON/YAML, FASTA/FASTQ/VCF/BED/GFF/SAM/Newick and more), images, and PDFs. Dismiss with `×`.
 
 Toggle the artifact pane with `Cmd/Ctrl+\`. The **footer** shows the Galaxy connection indicator (green = connected, red = no key) and live session cost/token totals.
+
+![Orbit footer bar showing the Galaxy connection, routing mode, model name, and live token count and cost](/tools/orbit/orbit-footer-model.png)
 
 ## Starting an analysis
 
