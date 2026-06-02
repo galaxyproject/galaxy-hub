@@ -16,6 +16,11 @@ The server is part if the European Galaxy server and is maintained by the [RNA B
 
 # Content
 
+- [Get started](#get-started)
+- [Training and Workshops](#training-and-workshops)
+- [Available Tools](#available-tools)
+- [Workflows](#workflows)
+
 # Get started
 
 Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take [a guided tour](https://cancer.usegalaxy.eu/tours/core.galaxy_ui) through Galaxy's user interface.
