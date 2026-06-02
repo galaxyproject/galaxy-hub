@@ -1,5 +1,6 @@
 ---
 title: Galaxy EIRENE
+components: true
 ---
 
 <slot name="/bare/eu/usegalaxy/notices" />
@@ -38,6 +39,8 @@ Other national EIRENE Galaxy servers:
 | [EIRENE-CZ](https://umsa.cerit-sc.cz) |
 
 # News and Events
+
+<Carousel />
 
 <iframe title="Recent Galaxy Europe news" height="450"
  class="resize-y" src="/bare/eu/latest/news/" scrolling="no"
