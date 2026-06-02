@@ -344,7 +344,7 @@ export default {
 
         if (feature) {
           const platform = feature.get('platform');
-          self.showPopup(event.coordinate, platform);
+          this.showPopup(event.coordinate, platform);
         }
       });
 
