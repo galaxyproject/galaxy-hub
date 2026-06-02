@@ -209,3 +209,7 @@ In this section we list all tools that have been integrated in the RNA workbench
 - [Markus Wolfien](https://github.com/mwolfien)
 - [Dilmurat Yusuf](https://github.com/dyusuf)
 - [Pavankumar Videm](https://github.com/pavanvidem)
+
+<slot name="/eu/common/data-policy" />
+
+<slot name="/bare/eu/usegalaxy/jobs" />
