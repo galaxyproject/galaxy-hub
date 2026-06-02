@@ -1,21 +1,22 @@
 {
   "version": "26.1",
-  "fetchedAt": "2026-05-27T08:50:15.726Z",
+  "fetchedAt": "2026-06-02T00:26:21.176Z",
   "needsValidation": [
     {
-      "number": 22716,
-      "title": "Unifies remove button icons across upload methods",
-      "url": "https://github.com/galaxyproject/galaxy/pull/22716",
+      "number": 22682,
+      "title": "Migrate Dropbox file source to fsspec",
+      "url": "https://github.com/galaxyproject/galaxy/pull/22682",
       "author": {
-        "login": "davelopez",
-        "url": "https://github.com/davelopez",
-        "avatarUrl": "https://github.com/davelopez.png"
+        "login": "PlushZ",
+        "url": "https://github.com/PlushZ",
+        "avatarUrl": "https://github.com/PlushZ.png"
       },
       "labels": [
-        "kind/enhancement",
-        "area/UI-UX"
+        "kind/refactoring",
+        "area/testing",
+        "area/dependencies"
       ],
-      "tease": "Replaced the red cross icon that could be confused with an error with the widely used \"trash\" icon for clarity.",
+      "tease": "Migrates the Galaxy Dropbox file source from the deprecated PyFilesystem2 fs.dropboxfs backend to the fsspec-based dropboxdrivefs.DropboxDriveFileSystem.",
       "guardian": null
     },
     {
@@ -151,27 +152,22 @@
       "guardian": null
     },
     {
-      "number": 22361,
-      "title": "Galaxy Notebooks: Persistent Narrative for Human-AI Collaborative Science in Galaxy",
-      "url": "https://github.com/galaxyproject/galaxy/pull/22361",
+      "number": 22477,
+      "title": "Migrate WebDAV file source to fsspec/webdav4",
+      "url": "https://github.com/galaxyproject/galaxy/pull/22477",
       "author": {
-        "login": "jmchilton",
-        "url": "https://github.com/jmchilton",
-        "avatarUrl": "https://github.com/jmchilton.png"
+        "login": "PlushZ",
+        "url": "https://github.com/PlushZ",
+        "avatarUrl": "https://github.com/PlushZ.png"
       },
       "labels": [
-        "area/documentation",
+        "kind/enhancement",
+        "kind/refactoring",
         "area/testing",
-        "kind/feature",
-        "area/API",
-        "area/admin",
-        "area/database",
-        "area/testing/api",
-        "area/testing/selenium",
-        "area/client",
-        "highlight"
+        "area/dependencies",
+        "area/testing/integration"
       ],
-      "tease": "Galaxy histories capture computation but not understanding. A history shows datasets and tool runs -- the *what* happened. It doesn't capture *why* one approach was chosen over another, which results matter, or the iterative reasoning that led to insights.",
+      "tease": "Replace the WebDAV file source backend from fs.webdavfs to webdav4 via Galaxy’s FsspecFilesSource,",
       "guardian": null
     },
     {
@@ -188,23 +184,6 @@
         "kind/feature"
       ],
       "tease": "When this is toggled, we see the step just like it would appear in the editor.",
-      "guardian": null
-    },
-    {
-      "number": 22144,
-      "title": "Show step/tool form for currently active step in invocation view",
-      "url": "https://github.com/galaxyproject/galaxy/pull/22144",
-      "author": {
-        "login": "ahmedhamidawan",
-        "url": "https://github.com/ahmedhamidawan",
-        "avatarUrl": "https://github.com/ahmedhamidawan.png"
-      },
-      "labels": [
-        "area/UI-UX",
-        "kind/feature",
-        "highlight"
-      ],
-      "tease": "When viewing an active step in the invocation graph, we see an additional `Step Config` tab next to the `Jobs` and `Outputs` tabs.",
       "guardian": null
     },
     {
@@ -239,39 +218,6 @@
         "kind/refactoring"
       ],
       "tease": "ConfirmDialog is now a modern vue component, instead of a legacy, options API, programmatically mounted component.",
-      "guardian": null
-    },
-    {
-      "number": 22065,
-      "title": "Treat SVG datasets as images in dataset preview",
-      "url": "https://github.com/galaxyproject/galaxy/pull/22065",
-      "author": {
-        "login": "dannon",
-        "url": "https://github.com/dannon",
-        "avatarUrl": "https://github.com/dannon.png"
-      },
-      "labels": [
-        "kind/enhancement",
-        "area/UI-UX"
-      ],
-      "tease": "",
-      "guardian": null
-    },
-    {
-      "number": 21935,
-      "title": "Convert workflow extraction interface to Vue",
-      "url": "https://github.com/galaxyproject/galaxy/pull/21935",
-      "author": {
-        "login": "ahmedhamidawan",
-        "url": "https://github.com/ahmedhamidawan",
-        "avatarUrl": "https://github.com/ahmedhamidawan.png"
-      },
-      "labels": [
-        "area/UI-UX",
-        "kind/feature",
-        "highlight"
-      ],
-      "tease": "Removes the mako based legacy history -> workflow extraction interface and replaces it with a vue-ified modernized version.",
       "guardian": null
     },
     {
@@ -344,57 +290,6 @@
       "guardian": null
     },
     {
-      "number": 21635,
-      "title": "Introduce reusable GTable component",
-      "url": "https://github.com/galaxyproject/galaxy/pull/21635",
-      "author": {
-        "login": "itisAliRH",
-        "url": "https://github.com/itisAliRH",
-        "avatarUrl": "https://github.com/itisAliRH.png"
-      },
-      "labels": [
-        "kind/enhancement",
-        "area/UI-UX"
-      ],
-      "tease": "This PR introduces the first iteration of `GTable` component as the first step toward replacing Bootstrap Vue's `BTable` across the UI. The `Dataset List` serves as the first migration target, demonstrating the component's capabilities.",
-      "guardian": null
-    },
-    {
-      "number": 21600,
-      "title": "Introducing a new favorite tool panel + most-recent tools",
-      "url": "https://github.com/galaxyproject/galaxy/pull/21600",
-      "author": {
-        "login": "bgruening",
-        "url": "https://github.com/bgruening",
-        "avatarUrl": "https://github.com/bgruening.png"
-      },
-      "labels": [
-        "area/UI-UX",
-        "area/testing",
-        "kind/feature",
-        "area/testing/selenium",
-        "highlight"
-      ],
-      "tease": "This PR gives maybe an idea how a new tool panel could feel like. It is not the default tool panel, its just an additional option.",
-      "guardian": null
-    },
-    {
-      "number": 21516,
-      "title": "Workflow import UI improvements",
-      "url": "https://github.com/galaxyproject/galaxy/pull/21516",
-      "author": {
-        "login": "neoformit",
-        "url": "https://github.com/neoformit",
-        "avatarUrl": "https://github.com/neoformit.png"
-      },
-      "labels": [
-        "kind/enhancement",
-        "area/UI-UX"
-      ],
-      "tease": "(FYI opening a draft so people can see this while we (Galaxy AU) are reviewing)",
-      "guardian": null
-    },
-    {
       "number": 21338,
       "title": "Add Beta Upload Activity - User Interface Redesign",
       "url": "https://github.com/galaxyproject/galaxy/pull/21338",
@@ -414,6 +309,55 @@
     }
   ],
   "inProgress": [
+    {
+      "number": 22361,
+      "title": "Galaxy Notebooks: Persistent Narrative for Human-AI Collaborative Science in Galaxy",
+      "url": "https://github.com/galaxyproject/galaxy/pull/22361",
+      "author": {
+        "login": "jmchilton",
+        "url": "https://github.com/jmchilton",
+        "avatarUrl": "https://github.com/jmchilton.png"
+      },
+      "labels": [
+        "area/documentation",
+        "area/testing",
+        "kind/feature",
+        "area/API",
+        "area/admin",
+        "area/database",
+        "area/testing/api",
+        "area/testing/selenium",
+        "area/client",
+        "highlight"
+      ],
+      "tease": "Galaxy histories capture computation but not understanding. A history shows datasets and tool runs -- the *what* happened. It doesn't capture *why* one approach was chosen over another, which results matter, or the iterative reasoning that led to insights.",
+      "guardian": {
+        "login": "guerler",
+        "url": "https://github.com/guerler",
+        "avatarUrl": "https://github.com/guerler.png"
+      }
+    },
+    {
+      "number": 22144,
+      "title": "Show step/tool form for currently active step in invocation view",
+      "url": "https://github.com/galaxyproject/galaxy/pull/22144",
+      "author": {
+        "login": "ahmedhamidawan",
+        "url": "https://github.com/ahmedhamidawan",
+        "avatarUrl": "https://github.com/ahmedhamidawan.png"
+      },
+      "labels": [
+        "area/UI-UX",
+        "kind/feature",
+        "highlight"
+      ],
+      "tease": "When viewing an active step in the invocation graph, we see an additional `Step Config` tab next to the `Jobs` and `Outputs` tabs.",
+      "guardian": {
+        "login": "mvdbeek",
+        "url": "https://github.com/mvdbeek",
+        "avatarUrl": "https://github.com/mvdbeek.png"
+      }
+    },
     {
       "number": 22095,
       "title": "Replace WinBox with native Vue scratchbook component",
@@ -437,7 +381,152 @@
         "url": "https://github.com/guerler",
         "avatarUrl": "https://github.com/guerler.png"
       }
+    },
+    {
+      "number": 22065,
+      "title": "Treat SVG datasets as images in dataset preview",
+      "url": "https://github.com/galaxyproject/galaxy/pull/22065",
+      "author": {
+        "login": "dannon",
+        "url": "https://github.com/dannon",
+        "avatarUrl": "https://github.com/dannon.png"
+      },
+      "labels": [
+        "kind/enhancement",
+        "area/UI-UX"
+      ],
+      "tease": "",
+      "guardian": {
+        "login": "nilchia",
+        "url": "https://github.com/nilchia",
+        "avatarUrl": "https://github.com/nilchia.png"
+      }
+    },
+    {
+      "number": 21935,
+      "title": "Convert workflow extraction interface to Vue",
+      "url": "https://github.com/galaxyproject/galaxy/pull/21935",
+      "author": {
+        "login": "ahmedhamidawan",
+        "url": "https://github.com/ahmedhamidawan",
+        "avatarUrl": "https://github.com/ahmedhamidawan.png"
+      },
+      "labels": [
+        "area/UI-UX",
+        "kind/feature",
+        "highlight"
+      ],
+      "tease": "Removes the mako based legacy history -> workflow extraction interface and replaces it with a vue-ified modernized version.",
+      "guardian": {
+        "login": "mvdbeek",
+        "url": "https://github.com/mvdbeek",
+        "avatarUrl": "https://github.com/mvdbeek.png"
+      }
+    },
+    {
+      "number": 21516,
+      "title": "Workflow import UI improvements",
+      "url": "https://github.com/galaxyproject/galaxy/pull/21516",
+      "author": {
+        "login": "neoformit",
+        "url": "https://github.com/neoformit",
+        "avatarUrl": "https://github.com/neoformit.png"
+      },
+      "labels": [
+        "kind/enhancement",
+        "area/UI-UX"
+      ],
+      "tease": "(FYI opening a draft so people can see this while we (Galaxy AU) are reviewing)",
+      "guardian": {
+        "login": "nilchia",
+        "url": "https://github.com/nilchia",
+        "avatarUrl": "https://github.com/nilchia.png"
+      }
     }
   ],
-  "complete": []
+  "complete": [
+    {
+      "number": 22769,
+      "title": "[26.1] Prevent vertical scrolling in invocation graph",
+      "url": "https://github.com/galaxyproject/galaxy/pull/22769",
+      "author": {
+        "login": "guerler",
+        "url": "https://github.com/guerler",
+        "avatarUrl": "https://github.com/guerler.png"
+      },
+      "labels": [
+        "kind/bug",
+        "area/UI-UX"
+      ],
+      "tease": "(Select all options that apply)",
+      "guardian": {
+        "login": "mvdbeek",
+        "url": "https://github.com/mvdbeek",
+        "avatarUrl": "https://github.com/mvdbeek.png"
+      }
+    },
+    {
+      "number": 22716,
+      "title": "Unifies remove button icons across upload methods",
+      "url": "https://github.com/galaxyproject/galaxy/pull/22716",
+      "author": {
+        "login": "davelopez",
+        "url": "https://github.com/davelopez",
+        "avatarUrl": "https://github.com/davelopez.png"
+      },
+      "labels": [
+        "kind/enhancement",
+        "area/UI-UX"
+      ],
+      "tease": "Replaced the red cross icon that could be confused with an error with the widely used \"trash\" icon for clarity.",
+      "guardian": {
+        "login": "nilchia",
+        "url": "https://github.com/nilchia",
+        "avatarUrl": "https://github.com/nilchia.png"
+      }
+    },
+    {
+      "number": 21635,
+      "title": "Introduce reusable GTable component",
+      "url": "https://github.com/galaxyproject/galaxy/pull/21635",
+      "author": {
+        "login": "itisAliRH",
+        "url": "https://github.com/itisAliRH",
+        "avatarUrl": "https://github.com/itisAliRH.png"
+      },
+      "labels": [
+        "kind/enhancement",
+        "area/UI-UX"
+      ],
+      "tease": "This PR introduces the first iteration of `GTable` component as the first step toward replacing Bootstrap Vue's `BTable` across the UI. The `Dataset List` serves as the first migration target, demonstrating the component's capabilities.",
+      "guardian": {
+        "login": "nilchia",
+        "url": "https://github.com/nilchia",
+        "avatarUrl": "https://github.com/nilchia.png"
+      }
+    },
+    {
+      "number": 21600,
+      "title": "Introducing a new favorite tool panel + most-recent tools",
+      "url": "https://github.com/galaxyproject/galaxy/pull/21600",
+      "author": {
+        "login": "bgruening",
+        "url": "https://github.com/bgruening",
+        "avatarUrl": "https://github.com/bgruening.png"
+      },
+      "labels": [
+        "area/UI-UX",
+        "area/testing",
+        "kind/feature",
+        "area/testing/selenium",
+        "highlight"
+      ],
+      "tease": "This PR gives maybe an idea how a new tool panel could feel like. It is not the default tool panel, its just an additional option.",
+      "guardian": {
+        "login": "nilchia",
+        "url": "https://github.com/nilchia",
+        "avatarUrl": "https://github.com/nilchia.png"
+      }
+    }
+  ]
 }
