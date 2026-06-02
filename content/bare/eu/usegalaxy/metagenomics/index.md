@@ -52,20 +52,22 @@ Are you new to Galaxy, or returning after a long time, and looking for help to g
 We are working in close collaboration with the [**Galaxy Training Network (GTN)**](https://training.galaxyproject.org) to develop training materials of data analyses based on Galaxy. If you want to know more about the GTN or how to become part of the Galaxy community, check the videos below!
 
 <div class="usegalaxy-video-row">
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/lDqWxzWNk1k"
-title="YouTube video player"
-frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen>
-</iframe>
 
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/-1MPdxmRs8U"
-title="YouTube video player"
-frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe>
+  <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/lDqWxzWNk1k"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
+
+  <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/-1MPdxmRs8U"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
 </div>
 
 ## Training material
@@ -178,15 +180,12 @@ The workflow is divided into 4 parts:
 The combination of metagenomics, -transcriptomics and -proteomics can provide a detailed understanding of which organisms occupy specific metabolic niches, how they interact, and how they utilize environmental nutrients. Commonly used omics tools spanning metagenomics, -transcriptomics and -proteomics has been adapted into an integrated meta-omics analysis pipeline:
 
 - **Metagenomics**
-
   ![Magnus metagenomics workflow](/assets/media/usegalaxy/metagenomics/magnus/metagenomics.png)
 
 - **Metatranscriptomics**
-
   ![Magnus metatranscriptomics workflow](/assets/media/usegalaxy/metagenomics/magnus/metatranscriptomics.png)
 
 - **Metaproteomics**
-
   ![Magnus metaproteomics workflow](/assets/media/usegalaxy/metagenomics/magnus/metaproteomics.png)
 
 - Integration of omics data using R
