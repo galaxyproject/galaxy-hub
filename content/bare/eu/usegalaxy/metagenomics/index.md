@@ -30,6 +30,19 @@ components: true
 
 **Galaxy for Microbiome** ([ASaiM](https://asaim.readthedocs.io/en/latest/)) is a webserver to process, analyse and visualize microbiome data in general. It is based on the [Galaxy framework](https://galaxyproject.org), which guarantees simple access, easy extension, flexible adaption to personal and security needs, and sophisticated analyses independent of command-line knowledge.
 
+# Content
+
+- [Get started](#get-started)
+- [Training](#training)
+- [Tools](#tools)
+- [Workflows](#workflows)
+  - [Taxonomic and functional community profiling of raw metagenomic shotgun data](#taxonomic-and-functional-community-profiling-of-raw-metagenomic-shotgun-data)
+  - [Assembly of metagenomic data](#assembly-of-metagenomic-data)
+  - [Analysis of metataxonomic data](#analysis-of-metataxonomic-data)
+  - [ASaiM-MT: Optimized workflow for metatranscriptomics data analysis](#asaim-mt-optimized-workflow-for-metatranscriptomics-data-analysis)
+  - [Integrative meta-omics analysis - Metagenomics, Metatranscriptomics, Metaproteomics](#integrative-meta-omics-analysis---metagenomics-metatranscriptomics-metaproteomics)
+- [References](#references)
+
 # Get started
 
 Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take a [**guided tour**](https://metagenomics.usegalaxy.eu/tours/core.galaxy_ui) through Galaxy's user interface.
