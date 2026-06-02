@@ -144,3 +144,7 @@ Further important parameters are **Indicates that input is raw reads and should 
 ### 4.6 Extension of the binding regions
 
 CLIP-Explorer uses `SlopBED` to extend the peaks a few basepairs to the left and right in order to correct for an underestimation of the binding regions of the peak calling algorithms. For more information follow the CLIP-Seq data analysis <a target="_parent" href="https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html">tutorial</a>. Remove the tool or change the parameter of `SlopBED` to change this behavior.
+
+<slot name="/eu/common/data-policy" />
+
+<slot name="/bare/eu/usegalaxy/jobs" />
