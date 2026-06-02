@@ -5,10 +5,9 @@
 /**
  * Get image source URL for a platform
  * @param {string} image - The image path from platform data
- * @param {Object} images - Optional images object (for future use)
  * @returns {string} The image URL
  */
-export function getImage(image, images) {
+export function getImage(image) {
   if (!image) return '';
 
   // Handle absolute URLs
