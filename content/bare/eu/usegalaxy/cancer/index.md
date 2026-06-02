@@ -74,3 +74,7 @@ In this section we highlight some tools that have been integrated in the the can
 # Workflows
 
 Coming Soon!
+
+<slot name="/eu/common/data-policy" />
+
+<slot name="/bare/eu/usegalaxy/jobs" />
