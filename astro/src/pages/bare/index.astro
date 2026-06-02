@@ -7,6 +7,13 @@ function normalizeRoute(path: string): string {
   return trimmed ? `/${trimmed}/` : '/';
 }
 
+function routeHasIndexPrefix(route: string): boolean {
+  return route
+    .replace(/^\/+|\/+$/g, '')
+    .split('/')
+    .some((segment) => segment.startsWith('index-'));
+}
+
 function routeFromStaticPageFile(filePath: string): string | null {
   const normalized = filePath.replace(/^\.\//, '');
   const withoutExtension = normalized.replace(/\.(astro|md|mdx)$/, '');
@@ -48,12 +55,14 @@ function routeFromBareSlug(slug: string): string | null {
 const staticPageModules = import.meta.glob('./**/*.{astro,md,mdx}');
 const staticRoutes = Object.keys(staticPageModules)
   .map(routeFromStaticPageFile)
-  .filter((route): route is string => Boolean(route));
+  .filter((route): route is string => Boolean(route))
+  .filter((route) => !routeHasIndexPrefix(route));
 
 const bareArticles = await getCollection('bare-articles');
 const dynamicRoutes = bareArticles
   .map((article) => routeFromBareSlug(article.data.slug))
-  .filter((route): route is string => Boolean(route));
+  .filter((route): route is string => Boolean(route))
+  .filter((route) => !routeHasIndexPrefix(route));
 
 const routes = Array.from(new Set([...staticRoutes, ...dynamicRoutes])).sort((a, b) =>
   a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' })
