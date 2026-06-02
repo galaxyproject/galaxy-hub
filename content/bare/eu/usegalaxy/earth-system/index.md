@@ -49,8 +49,9 @@ title: Galaxy for Earth System Sciences
 
 # Welcome to **Galaxy for Earth System Sciences** -- a web platform to get, process, analyze and visualize environmental data
 
-<center><img src="/assets/media/usegalaxy/earth-system/welcome_page_logo.png" alt="Galaxy for earth system sciences"/></center>
-<br /><br />
+<center>
+    <img src="/assets/media/usegalaxy/earth-system/welcome_page_logo.png" alt="Galaxy for earth system sciences"/>
+</center>
 
 <div class="usegalaxy-feature-grid" style="display:flex; gap:1rem; flex-wrap:wrap; justify-content:center; align-items:stretch;">
 
@@ -77,7 +78,7 @@ title: Galaxy for Earth System Sciences
         <h2 class="card-title text-dark" style="margin-top: 0;">Tutorials</h2>
         <p class="card-text">Want to learn about earth science analyses?</p>
         <img src="/images/logos/GTNLogo600.png" style="max-width:100%; height:auto; margin:2rem 0;" />
-        <div class="text-center" style="margin-top:auto;">
+        <div class="text-center mb-1" style="margin-top:auto;">
 		  <a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/earth_system/tutorial.html" class="show-iframe" data-target="displayhere">
 			<button type="button" class="btn btn-primary">Discover Earth data</button>
 		  </a>
@@ -109,16 +110,16 @@ title: Galaxy for Earth System Sciences
 
 </div>
 
+<br />
 
-<br /><br />
 <iframe id="displayhere" frameborder="0" style="display:none;" width="100%" height="700"></iframe>
-
 
 <div style="display:flex; gap:1rem; flex-wrap:wrap; justify-content:center; align-items:stretch;">
     <a href="https://galaxyproject.org/community/sig/earth/" class="show-iframe" data-target="displayhere3">Earth SIG</a>
 </div>
 
 <br /><br />
+
 <iframe id="displayhere3" frameborder="0" style="display:none;" width="100%" height="700"></iframe>
 
 # Partnerships
@@ -133,7 +134,9 @@ title: Galaxy for Earth System Sciences
                 <span class="badge" style="background-color:#047263; color:white; font-size:0.95rem; padding:0.4em 0.6em;">Equipex+ PIA3</span>
             </div>
             <a href="https://www.gaia-data.org/" target="_blank">
-                <center><img src="/assets/media/usegalaxy/earth-system/logo-data-gaia_default.png" style="width: 140px; height:auto;"/></center>
+                <center>
+                    <img src="/assets/media/usegalaxy/earth-system/logo-data-gaia_default.png" style="width: 140px; height:auto;"/>
+                </center>
             </a>
             <div style="margin-top: 1rem;">
                 <p class="card-text" style="font-weight: bold;">TUTORIALS</p>
@@ -240,6 +243,7 @@ title: Galaxy for Earth System Sciences
       </div>  
     </div>
   </div>
+
   <!-- CARD 4 -->
   <div style="flex:1 1 26rem; max-width:28rem; border:1px solid #6c757d; background:#f8f9fa; padding:1rem; border-radius:6px; box-sizing:border-box; display:flex; flex-direction:column;">
     <div class="card border-secondary bg-light mb-1 mx-1" style="display: flex; flex-direction: column; height: 100%;">
@@ -312,15 +316,22 @@ title: Galaxy for Earth System Sciences
 </div>
 
 <br /><br />
+
 <iframe id="displayhere2" frameborder="0" style="display:none;" width="100%" height="700"></iframe>
 
 <br /><br />
 
 # Credits
-<center><img src="/assets/media/usegalaxy/earth-system/partenaire.png" height="225px" alt="Credits"/></center>
+
+<center>
+    <img src="/assets/media/usegalaxy/earth-system/partenaire.png" height="225px" alt="Credits"/>
+</center>
 
 <br /><br />
-<center><img src="/assets/media/usegalaxy/earth-system/baniere.png" height="175px" alt="Galaxy for earth system sciences"/></center>
+
+<center>
+    <img src="/assets/media/usegalaxy/earth-system/baniere.png" height="175px" alt="Galaxy for earth system sciences"/>
+</center>
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
