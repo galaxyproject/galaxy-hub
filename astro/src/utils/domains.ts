@@ -2,10 +2,11 @@ import { parse as parseYaml } from 'yaml';
 
 // Import all domains.yml files using Vite's glob import
 // This loads them at build time, not runtime
-const domainsFiles = import.meta.glob<string>(
-  '../../../content/use/*/domains.yml',
-  { query: '?raw', import: 'default', eager: true }
-);
+const domainsFiles = import.meta.glob<string>('../../../content/use/*/domains.yml', {
+  query: '?raw',
+  import: 'default',
+  eager: true,
+});
 
 interface DomainsCache {
   [platformSlug: string]: any[];

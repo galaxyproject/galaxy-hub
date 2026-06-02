@@ -13,24 +13,24 @@ export interface Designation {
 function parseSimpleCsv(csvContent: string): Array<Record<string, string>> {
   const lines = csvContent.trim().split('\n');
   if (lines.length === 0) return [];
-  
-  const headers = lines[0].split(',').map(h => h.trim());
+
+  const headers = lines[0].split(',').map((h) => h.trim());
   const rows: Array<Record<string, string>> = [];
-  
+
   for (let i = 1; i < lines.length; i++) {
     const line = lines[i].trim();
     if (!line) continue;
-    
-    const values = line.split(',').map(v => v.trim());
+
+    const values = line.split(',').map((v) => v.trim());
     const row: Record<string, string> = {};
-    
+
     headers.forEach((header, index) => {
       row[header] = values[index] || '';
     });
-    
+
     rows.push(row);
   }
-  
+
   return rows;
 }
 
@@ -39,9 +39,9 @@ function parseSimpleCsv(csvContent: string): Array<Record<string, string>> {
  */
 export function normalizeUrl(url: string): string {
   return url
-    .replace(/^https?:\/\//, '')  // Remove protocol
-    .replace(/:\d+/, '')          // Remove port number
-    .replace(/\/$/, '')           // Remove trailing slash
+    .replace(/^https?:\/\//, '') // Remove protocol
+    .replace(/:\d+/, '') // Remove port number
+    .replace(/\/$/, '') // Remove trailing slash
     .toLowerCase();
 }
 
@@ -50,10 +50,10 @@ export function normalizeUrl(url: string): string {
  */
 export function loadDesignations(): Map<string, Designation> {
   const designationsMap = new Map<string, Designation>();
-  
+
   // Parse CSV
   const rows = parseSimpleCsv(designationsCsv);
-  
+
   for (const row of rows) {
     const url = row.URL;
     if (url) {
@@ -61,10 +61,10 @@ export function loadDesignations(): Map<string, Designation> {
       designationsMap.set(normalizedUrl, {
         operative: row.Operative?.trim() || '',
         tier: row.Tier?.trim() || '',
-        url: url.trim()
+        url: url.trim(),
       });
     }
   }
-  
+
   return designationsMap;
 }

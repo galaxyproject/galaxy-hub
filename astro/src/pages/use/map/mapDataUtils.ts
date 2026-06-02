@@ -18,34 +18,32 @@ export interface MapPlatform {
 /**
  * Filter platforms to only operative ones based on designations.csv
  */
-export function filterOperativePlatforms(
-  platforms: CollectionEntry<'platforms'>[]
-): CollectionEntry<'platforms'>[] {
+export function filterOperativePlatforms(platforms: CollectionEntry<'platforms'>[]): CollectionEntry<'platforms'>[] {
   const designations = loadDesignations();
-  
+
   return platforms.filter((platform) => {
     const platformUrl = platform.data.url;
     if (!platformUrl) return false;
-    
+
     const normalizedUrl = normalizeUrl(platformUrl);
     const designation = designations.get(normalizedUrl);
-    
+
     // Broadly match where Operative not listed or Operative=1
-    return !designation ||
+    return (
+      !designation ||
       designation.operative === null ||
       designation.operative === undefined ||
-      String(designation.operative) !== "0";
+      String(designation.operative) !== '0'
+    );
   });
 }
 
 /**
  * Transform platforms to the format expected by map components
  */
-export function prepareMapPlatformData(
-  platforms: CollectionEntry<'platforms'>[]
-): MapPlatform[] {
+export function prepareMapPlatformData(platforms: CollectionEntry<'platforms'>[]): MapPlatform[] {
   const operativePlatforms = filterOperativePlatforms(platforms);
-  
+
   return operativePlatforms.map((p) => {
     const domains = loadDomains(p.data.slug);
     return {
