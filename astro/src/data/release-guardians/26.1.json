@@ -1,6 +1,6 @@
 {
   "version": "26.1",
-  "fetchedAt": "2026-06-02T00:26:21.176Z",
+  "fetchedAt": "2026-06-02T13:05:24.705Z",
   "needsValidation": [
     {
       "number": 22682,
@@ -57,22 +57,6 @@
         "kind/refactoring"
       ],
       "tease": "Removes the old provider pattern and uses a new `quotaUsageStore` to ensure quotas are properly reactive across the app. Also ensures the quota values are updated when a \"likely quota change\" event happens, such as when a history is updated (*), a cleanup operation is complete, or a quota refresh",
-      "guardian": null
-    },
-    {
-      "number": 22639,
-      "title": "Minor styling fixes for invocation view header and history list cards",
-      "url": "https://github.com/galaxyproject/galaxy/pull/22639",
-      "author": {
-        "login": "ahmedhamidawan",
-        "url": "https://github.com/ahmedhamidawan",
-        "avatarUrl": "https://github.com/ahmedhamidawan.png"
-      },
-      "labels": [
-        "kind/bug",
-        "area/UI-UX"
-      ],
-      "tease": "(Select all options that apply)",
       "guardian": null
     },
     {
@@ -133,22 +117,6 @@
         "highlight"
       ],
       "tease": "Replace Galaxy's 3-second history polling and 30-second notification polling with a push-based Server-Sent Events (SSE) pipeline driven by PostgreSQL `LISTEN`/`NOTIFY` and Kombu control tasks. The new path delivers events to the browser within milliseconds of the DB change while keeping polling available as a per-feature fallback for deployments that don't",
-      "guardian": null
-    },
-    {
-      "number": 22500,
-      "title": "Workflow editor activity bar enhancements",
-      "url": "https://github.com/galaxyproject/galaxy/pull/22500",
-      "author": {
-        "login": "ahmedhamidawan",
-        "url": "https://github.com/ahmedhamidawan",
-        "avatarUrl": "https://github.com/ahmedhamidawan.png"
-      },
-      "labels": [
-        "kind/enhancement",
-        "area/UI-UX"
-      ],
-      "tease": "A badge at the top indicates the context of what type of activity bar is currently active. We've found it to be potentially confusing for users to understand that the main activity bar (outside the editor) works differently from the one within the workflow editor.",
       "guardian": null
     },
     {
@@ -288,24 +256,6 @@
       ],
       "tease": "(Select all options that apply)",
       "guardian": null
-    },
-    {
-      "number": 21338,
-      "title": "Add Beta Upload Activity - User Interface Redesign",
-      "url": "https://github.com/galaxyproject/galaxy/pull/21338",
-      "author": {
-        "login": "davelopez",
-        "url": "https://github.com/davelopez",
-        "avatarUrl": "https://github.com/davelopez.png"
-      },
-      "labels": [
-        "kind/enhancement",
-        "area/UI-UX",
-        "kind/refactoring",
-        "highlight"
-      ],
-      "tease": "The new interface moves from a modal-based approach to a dedicated activity panel with a method-first workflow and clearer separation between different import mechanisms.",
-      "guardian": null
     }
   ],
   "inProgress": [
@@ -424,23 +374,25 @@
       }
     },
     {
-      "number": 21516,
-      "title": "Workflow import UI improvements",
-      "url": "https://github.com/galaxyproject/galaxy/pull/21516",
+      "number": 21338,
+      "title": "Add Beta Upload Activity - User Interface Redesign",
+      "url": "https://github.com/galaxyproject/galaxy/pull/21338",
       "author": {
-        "login": "neoformit",
-        "url": "https://github.com/neoformit",
-        "avatarUrl": "https://github.com/neoformit.png"
+        "login": "davelopez",
+        "url": "https://github.com/davelopez",
+        "avatarUrl": "https://github.com/davelopez.png"
       },
       "labels": [
         "kind/enhancement",
-        "area/UI-UX"
+        "area/UI-UX",
+        "kind/refactoring",
+        "highlight"
       ],
-      "tease": "(FYI opening a draft so people can see this while we (Galaxy AU) are reviewing)",
+      "tease": "The new interface moves from a modal-based approach to a dedicated activity panel with a method-first workflow and clearer separation between different import mechanisms.",
       "guardian": {
-        "login": "nilchia",
-        "url": "https://github.com/nilchia",
-        "avatarUrl": "https://github.com/nilchia.png"
+        "login": "qchiujunhao",
+        "url": "https://github.com/qchiujunhao",
+        "avatarUrl": "https://github.com/qchiujunhao.png"
       }
     }
   ],
@@ -486,6 +438,46 @@
       }
     },
     {
+      "number": 22639,
+      "title": "Minor styling fixes for invocation view header and history list cards",
+      "url": "https://github.com/galaxyproject/galaxy/pull/22639",
+      "author": {
+        "login": "ahmedhamidawan",
+        "url": "https://github.com/ahmedhamidawan",
+        "avatarUrl": "https://github.com/ahmedhamidawan.png"
+      },
+      "labels": [
+        "kind/bug",
+        "area/UI-UX"
+      ],
+      "tease": "(Select all options that apply)",
+      "guardian": {
+        "login": "nilchia",
+        "url": "https://github.com/nilchia",
+        "avatarUrl": "https://github.com/nilchia.png"
+      }
+    },
+    {
+      "number": 22500,
+      "title": "Workflow editor activity bar enhancements",
+      "url": "https://github.com/galaxyproject/galaxy/pull/22500",
+      "author": {
+        "login": "ahmedhamidawan",
+        "url": "https://github.com/ahmedhamidawan",
+        "avatarUrl": "https://github.com/ahmedhamidawan.png"
+      },
+      "labels": [
+        "kind/enhancement",
+        "area/UI-UX"
+      ],
+      "tease": "A badge at the top indicates the context of what type of activity bar is currently active. We've found it to be potentially confusing for users to understand that the main activity bar (outside the editor) works differently from the one within the workflow editor.",
+      "guardian": {
+        "login": "nilchia",
+        "url": "https://github.com/nilchia",
+        "avatarUrl": "https://github.com/nilchia.png"
+      }
+    },
+    {
       "number": 21635,
       "title": "Introduce reusable GTable component",
       "url": "https://github.com/galaxyproject/galaxy/pull/21635",
@@ -522,6 +514,26 @@
         "highlight"
       ],
       "tease": "This PR gives maybe an idea how a new tool panel could feel like. It is not the default tool panel, its just an additional option.",
+      "guardian": {
+        "login": "nilchia",
+        "url": "https://github.com/nilchia",
+        "avatarUrl": "https://github.com/nilchia.png"
+      }
+    },
+    {
+      "number": 21516,
+      "title": "Workflow import UI improvements",
+      "url": "https://github.com/galaxyproject/galaxy/pull/21516",
+      "author": {
+        "login": "neoformit",
+        "url": "https://github.com/neoformit",
+        "avatarUrl": "https://github.com/neoformit.png"
+      },
+      "labels": [
+        "kind/enhancement",
+        "area/UI-UX"
+      ],
+      "tease": "(FYI opening a draft so people can see this while we (Galaxy AU) are reviewing)",
       "guardian": {
         "login": "nilchia",
         "url": "https://github.com/nilchia",
