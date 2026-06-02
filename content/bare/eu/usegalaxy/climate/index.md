@@ -19,6 +19,16 @@ The list of tools is maintained by [Anne](https://github.com/annefou)!!!
 
 # Content
 
+- [Get started](#get-started)
+- [Training](#training)
+- [Available tools](#available-tools)
+  - [Interactive tools](#interactive-tools)
+  - [Climate Analysis](#climate-analysis)
+  - [GIS data handling](#gis-data-handling)
+- [Machine Learning Workbench](#machine-learning-workbench)
+- [Acknowledgments](#acknowledgments)
+- [Citation](#citation)
+
 # Get started
 
 Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take [a guided tour](https://climate.usegalaxy.eu/tours/core.galaxy_ui) through Galaxy's user interface.
