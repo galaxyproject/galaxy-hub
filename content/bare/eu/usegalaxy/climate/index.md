@@ -90,3 +90,7 @@ _The Galaxy server that was used for some calculations is in part funded by Coll
 German Federal Ministry of Education and Research (BMBF grants 031 A538A/A538C RBC, 031L0101B/031L0101C de.NBI-epi, 031L0106 de.STAIR (de.NBI))._
 
 More information on [how to cite Galaxy](https://galaxyproject.org/citing-galaxy/).
+
+<slot name="/eu/common/data-policy" />
+
+<slot name="/bare/eu/usegalaxy/jobs" />
