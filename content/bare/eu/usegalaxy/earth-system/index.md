@@ -333,6 +333,10 @@ title: Galaxy for Earth System Sciences
     <img src="/assets/media/usegalaxy/earth-system/baniere.png" height="175px" alt="Galaxy for earth system sciences"/>
 </center>
 
+<slot name="/eu/common/data-policy" />
+
+<slot name="/bare/eu/usegalaxy/jobs" />
+
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         // Retrieve all links that trigger the display of the iframe
