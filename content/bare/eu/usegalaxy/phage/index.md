@@ -59,3 +59,7 @@ Individual tools may also have additional citations listed.
 # Contact
 
 This phage tools and workflows on Phage Galaxy are maintained by the <a href="https://cpt.tamu.edu">Center for Phage Technology</a>. For more information contact jason.gill@tamu.edu.
+
+<slot name="/eu/common/data-policy" />
+
+<slot name="/bare/eu/usegalaxy/jobs" />
