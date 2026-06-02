@@ -135,4 +135,6 @@ The workflows are available in the [Shared Workflows View](https://nanopore.useg
 </article>
 </div>
 
----
+<slot name="/eu/common/data-policy" />
+
+<slot name="/bare/eu/usegalaxy/jobs" />
