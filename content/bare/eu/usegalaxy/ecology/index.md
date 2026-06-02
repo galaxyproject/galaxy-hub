@@ -305,6 +305,10 @@ Galaxy Ecology offers an extensive suite of tools designed for biodiversity data
 
 Explore the full range of tools by using the Tools Panel on the left side of the interface. There, you’ll find an organized list of categories to help you find exactly what you need for your ecological research.
 
+<slot name="/eu/common/data-policy" />
+
+<slot name="/bare/eu/usegalaxy/jobs" />
+
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         // Retrieve all links that trigger the display of the iframe
