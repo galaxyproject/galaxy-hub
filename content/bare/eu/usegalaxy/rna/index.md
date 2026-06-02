@@ -21,7 +21,18 @@ If you find this resource useful, please cite [The RNA workbench 2.0: next gener
 
 # Content
 
-
+- [Get started](#get-started)
+- [Training](#training)
+- [Available tools](#available-tools)
+  - [RNA structure prediction and analysis](#rna-structure-prediction-and-analysis)
+  - [RNA alignment](#rna-alignment)
+  - [RNA annotation](#rna-annotation)
+  - [RNA-protein interaction](#rna-protein-interaction)
+  - [RNA-RNA interaction](#rna-rna-interaction)
+  - [RNA target prediction](#rna-target-prediction)
+  - [RNA Seq and HTS analysis](#rna-seq-and-hts-analysis)
+  - [Ribosome profiling](#ribosome-profiling)
+- [Contributing](#contributing)
 
 # Get started
 
