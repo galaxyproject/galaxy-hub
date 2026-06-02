@@ -201,3 +201,7 @@ This pipeline has been applied to [deconvolute a highly efficient cellulose-degr
 - Sczyrba, A., Hofmann, P., Belmann, P., Koslicki, D., Janssen, S., Droege, J., Gregor, I., Majda, S., Fiedler, J., Dahms, E., et al. (2017). Critical Assessment of Metagenome Interpretation - a benchmark of computational metagenomics software. _bioRxiv_, 099127.
 - van der Walt, A. J., Van Goethem, M. W., Ramond, J.-B., Makhalanyane, T. P., Reva, O., & Cowan, D. A. (2017). Assembling metagenomes, one community at a time. _bioRxiv_, 120154.
 - Vollmers, J., Wiegand, S., & Kaster, A.-K. (2017). Comparing and Evaluating Metagenome Assembly Tools from a Microbiologist's Perspective - Not Only Size Matters! _PLOS ONE_, 12(1), e0169662.
+
+<slot name="/eu/common/data-policy" />
+
+<slot name="/bare/eu/usegalaxy/jobs" />
