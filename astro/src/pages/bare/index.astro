@@ -73,9 +73,8 @@ const routes = Array.from(new Set([...staticRoutes, ...dynamicRoutes])).sort((a,
   <h1>/bare/ Site Index</h1>
   <p>
     The Galaxy Hub serves some pages without Hub-specific decorations. We call them "bare" pages, and they are designed
-    to be embedded in external sites. These routes are discovered from <code>src/pages/bare</code> and from the <code
-      >bare-articles</code
-    > content collection.
+    to be embedded in external sites. These routes are discovered from <code>src/pages/bare</code> and from the
+    <code> bare-articles</code> content collection.
   </p>
 
   {
@@ -98,17 +97,18 @@ const routes = Array.from(new Set([...staticRoutes, ...dynamicRoutes])).sort((a,
     it for your own layout.
   </p>
 
-  <pre><code>{`<iframe
-  src="https://galaxyproject.org/bare/eu/usegalaxy/main/"
-  title="Galaxy Europe"
-  loading="lazy"
-  style="width: 100%; min-height: 900px; border: 0;"
-></iframe>`}</code></pre>
+  <pre>
+    <code>{`<iframe
+      src="https://galaxyproject.org/bare/eu/usegalaxy/main/"
+      title="Galaxy Europe"
+      loading="lazy"
+      style="width: 100%; min-height: 900px; border: 0;">
+    </iframe>`}</code>
+  </pre>
 
   <p>
-    For a compact feed-style embed, you can also use pages like <code>/bare/eu/latest/news/</code> and <code
-      >/bare/eu/latest/events/</code
-    >.
+    For a compact feed-style embed, you can also use pages like <code>/bare/eu/latest/news/</code> and
+    <code> /bare/eu/latest/events/</code>.
   </p>
 </BareArticleLayout>
 
