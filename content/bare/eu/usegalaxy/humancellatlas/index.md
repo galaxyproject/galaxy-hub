@@ -26,6 +26,12 @@ at [EMBL-EBI](https://www.ebi.ac.uk) and the [Teichmann Team](https://www.sanger
 
 # Content
 
+- [Get started](#get-started)
+- [Available Workflows](#available-workflows)
+- [Available tools](#available-tools)
+  - [Single Cell Galaxy Tools developed for the Human Cell Atlas](#single-cell-galaxy-tools-developed-for-the-human-cell-atlas)
+- [Contributors](#contributors)
+
 # Get started
 
 Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take [a guided tour](https://humancellatlas.usegalaxy.eu/tours/core.galaxy_ui) through Galaxy's user interface.
