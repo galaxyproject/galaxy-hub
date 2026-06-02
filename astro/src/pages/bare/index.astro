@@ -2,9 +2,24 @@
 import { getCollection } from 'astro:content';
 import BareArticleLayout from '../../layouts/BareArticleLayout.astro';
 
+/**
+ * Trim leading and trailing slashes from a path-like string.
+ */
+function stripSlashes(s: string): string {
+  return s.replace(/^\/+|\/+$/g, '');
+}
+
+/** Normalize a route to a leading+trailing-slashed form ("/foo/bar/"). */
 function normalizeRoute(path: string): string {
-  const trimmed = path.replace(/^\/+|\/+$/g, '');
+  const trimmed = stripSlashes(path);
   return trimmed ? `/${trimmed}/` : '/';
+}
+
+/** Return true when any segment in `route` begins with "index-". */
+function routeHasIndexPrefix(route: string): boolean {
+  return stripSlashes(route)
+    .split('/')
+    .some((segment) => segment.startsWith('index-'));
 }
 
 function routeFromStaticPageFile(filePath: string): string | null {
@@ -31,8 +46,9 @@ function routeFromStaticPageFile(filePath: string): string | null {
   return normalizeRoute(`bare/${withoutIndexSuffix}`);
 }
 
+/** Convert a content slug into a `/bare/.../` route, or null for empty values. */
 function routeFromBareSlug(slug: string): string | null {
-  const trimmed = slug.replace(/^\/+|\/+$/g, '');
+  const trimmed = stripSlashes(slug);
   if (!trimmed) {
     return null;
   }
@@ -48,14 +64,16 @@ function routeFromBareSlug(slug: string): string | null {
 const staticPageModules = import.meta.glob('./**/*.{astro,md,mdx}');
 const staticRoutes = Object.keys(staticPageModules)
   .map(routeFromStaticPageFile)
-  .filter((route): route is string => Boolean(route));
+  .filter((route): route is string => Boolean(route))
+  .filter((route) => !routeHasIndexPrefix(route));
 
 const bareArticles = await getCollection('bare-articles');
 const dynamicRoutes = bareArticles
   .map((article) => routeFromBareSlug(article.data.slug))
-  .filter((route): route is string => Boolean(route));
+  .filter((route): route is string => Boolean(route))
+  .filter((route) => !routeHasIndexPrefix(route));
 
-const routes = Array.from(new Set([...staticRoutes, ...dynamicRoutes])).sort((a, b) =>
+const routes: string[] = Array.from(new Set([...staticRoutes, ...dynamicRoutes])).sort((a, b) =>
   a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' })
 );
 ---
@@ -64,9 +82,8 @@ const routes = Array.from(new Set([...staticRoutes, ...dynamicRoutes])).sort((a,
   <h1>/bare/ Site Index</h1>
   <p>
     The Galaxy Hub serves some pages without Hub-specific decorations. We call them "bare" pages, and they are designed
-    to be embedded in external sites. These routes are discovered from <code>src/pages/bare</code> and from the <code
-      >bare-articles</code
-    > content collection.
+    to be embedded in external sites. These routes are discovered from <code>src/pages/bare</code> and from the
+    <code> bare-articles</code> content collection.
   </p>
 
   {
@@ -89,17 +106,19 @@ const routes = Array.from(new Set([...staticRoutes, ...dynamicRoutes])).sort((a,
     it for your own layout.
   </p>
 
-  <pre><code>{`<iframe
+  <pre>
+<code>{`<iframe
   src="https://galaxyproject.org/bare/eu/usegalaxy/main/"
   title="Galaxy Europe"
   loading="lazy"
-  style="width: 100%; min-height: 900px; border: 0;"
-></iframe>`}</code></pre>
+  referrerpolicy="no-referrer"
+  style="width: 100%; min-height: 900px; border: 0;">
+</iframe>`}</code>
+</pre>
 
   <p>
-    For a compact feed-style embed, you can also use pages like <code>/bare/eu/latest/news/</code> and <code
-      >/bare/eu/latest/events/</code
-    >.
+    For a compact feed-style embed, you can also use pages like <code>/bare/eu/latest/news/</code> and
+    <code> /bare/eu/latest/events/</code>.
   </p>
 </BareArticleLayout>
 
