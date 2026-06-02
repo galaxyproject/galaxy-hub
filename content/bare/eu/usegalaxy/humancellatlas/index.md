@@ -147,3 +147,7 @@ Granular tools for accessing the main SC3 functionalities. Normally used in comb
 - [Björn Gruening](https://github.com/bgruening/)
 - [Krzysztof Polanski](https://github.com/ktpolanski)
 - [Maria Doyle](https://github.com/mblue9/)
+
+<slot name="/eu/common/data-policy" />
+
+<slot name="/bare/eu/usegalaxy/jobs" />
