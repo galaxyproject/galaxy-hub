@@ -54,3 +54,7 @@ Other national EIRENE Galaxy servers:
 - [Helge Hecht](https://github.com/hechth)
 
 [<img src="/assets/media/usegalaxy/eirene/logo_eirene_black_200.png" height="83px" width="200px" alt="EIRENE-RI logo"/>](https://eirene-ri.eu)
+
+<slot name="/eu/common/data-policy" />
+
+<slot name="/bare/eu/usegalaxy/jobs" />
