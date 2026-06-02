@@ -50,4 +50,8 @@ From theoretical understanding to practical implementation on this workbench, we
 
 We sincerely appreciate the efforts of all individuals and their organizations for supporting the African Galaxy Instance. Join the community [here](https://gitter.im/GalaxyAfrica/community)
 
-For citation guidance, see [Citing Galaxy](https://galaxyproject.org/citing-galaxy/).
+# Citation
+
+- Batut, B. et al. (2017). **"Community-driven data analysis training for biology."** bioRxiv, 225680. doi: [10.1101/225680](https://doi.org/10.1101/225680)
+
+More information on [how to cite Galaxy](https://galaxyproject.org/citing-galaxy/).
