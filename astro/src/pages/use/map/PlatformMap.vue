@@ -110,7 +110,7 @@ export default {
             });
         }
     },
-    beforeDestroy() {
+    beforeUnmount() {
         if (this.map) {
             this.map.setTarget(null);
         }
@@ -317,9 +317,8 @@ export default {
         },
 
         addClickInteraction() {
-            const self = this;
-            this.map.on("click", function (event) {
-                const feature = self.map.forEachFeatureAtPixel(event.pixel, function (feature) {
+            this.map.on("click", (event) => {
+                const feature = this.map.forEachFeatureAtPixel(event.pixel, (feature) => {
                     return feature;
                 });
 
@@ -330,9 +329,9 @@ export default {
             });
 
             // Change cursor on hover
-            this.map.on("pointermove", function (event) {
-                const hit = self.map.hasFeatureAtPixel(event.pixel);
-                self.map.getTargetElement().style.cursor = hit ? "pointer" : "";
+            this.map.on("pointermove", (event) => {
+                const hit = this.map.hasFeatureAtPixel(event.pixel);
+                this.map.getTargetElement().style.cursor = hit ? "pointer" : "";
             });
         },
 
@@ -369,11 +368,10 @@ export default {
                 autoPanMargin: 50, // Keep 50px margin from viewport edges
             });
 
-            const self = this;
             const closeBtn = popupElement.querySelector(".popup-close");
-            closeBtn.addEventListener("click", function () {
-                self.map.removeOverlay(self.popup);
-                self.popup = null;
+            closeBtn.addEventListener("click", () => {
+                this.map.removeOverlay(this.popup);
+                this.popup = null;
             });
 
             this.map.addOverlay(this.popup);
