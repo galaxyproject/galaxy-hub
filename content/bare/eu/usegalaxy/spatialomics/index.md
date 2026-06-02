@@ -128,3 +128,7 @@ Two workflows are currently available to process your samples using the MCMICRO 
 | [University of Bradford](https://www.bradford.ac.uk)                                           | Develop Spatial2Galaxy tutorial suite and deliver training | Krzysztof Poterlowicz, Khaled Jum'ah                       |
 | [University of Freiburg](https://galaxyproject.org/freiburg/people/)                           | Development of Spatial2Galaxy portal, tools and workflows  | Björn Grüning, Amirhossein Naghsh Nilchi, Pavankumar Videm |
 | [Earlham Institute](https://www.earlham.ac.uk/scientific-group/papatheodorou-group)            | Develop Galaxy Demonstrator user case                      | Irene Papatheodorou, Nicola Soranzo                        |
+
+<slot name="/eu/common/data-policy" />
+
+<slot name="/bare/eu/usegalaxy/jobs" />
