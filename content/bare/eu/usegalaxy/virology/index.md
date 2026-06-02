@@ -119,3 +119,7 @@ We also provide reference data for different viral pathogens to help you get you
 <p>To report server-related issues join the <a href="https://matrix.to/#/#usegalaxy-eu_Lobby:gitter.im" title="usegalaxy-eu/Lobby" target="_blank">Galaxy Europe Lobby on <b>[m]</b> matrix</a> or submit a bug report directly from any failed dataset in your history.</p>
 
 ![Galaxy for Virology](/assets/media/usegalaxy/virology/virologyeu_logo.png)
+
+<slot name="/eu/common/data-policy" />
+
+<slot name="/bare/eu/usegalaxy/jobs" />
