@@ -5,7 +5,8 @@ components: true
 
 <slot name="/bare/eu/usegalaxy/notices" />
 
-<style>{`
+<style>
+{`
   .virology-button-group {
     display: flex;
     flex-wrap: wrap;
@@ -29,13 +30,23 @@ components: true
     flex-basis: 100%;
     margin-top: 1.5rem;
   }
-`}</style>
+`}
+</style>
 
 ![Galaxy for Virology](/assets/media/usegalaxy/virology/virologyeu_banner.png)
 
 # Galaxy Europe for Virology
 
 Accessible and scalable viral data analysis for everyone
+
+# Content
+
+- [What's this?](#whats-this)
+- [Full analysis solutions by viral pathogen](#full-analysis-solutions-by-viral-pathogen)
+- [Vetlab support](#vetlab-support)
+- [Primer and primer scheme design](#primer-and-primer-scheme-design)
+- [Tools, tools, tools](#tools-tools-tools)
+- [... and reference data](#and-reference-data)
 
 # What's this?
 
@@ -108,12 +119,3 @@ We also provide reference data for different viral pathogens to help you get you
 <p>To report server-related issues join the <a href="https://matrix.to/#/#usegalaxy-eu_Lobby:gitter.im" title="usegalaxy-eu/Lobby" target="_blank">Galaxy Europe Lobby on <b>[m]</b> matrix</a> or submit a bug report directly from any failed dataset in your history.</p>
 
 ![Galaxy for Virology](/assets/media/usegalaxy/virology/virologyeu_logo.png)
-
-# Content
-
-- [What's this?](#whats-this)
-- [Full analysis solutions by viral pathogen](#full-analysis-solutions-by-viral-pathogen)
-- [Vetlab support](#vetlab-support)
-- [Primer and primer scheme design](#primer-and-primer-scheme-design)
-- [Tools, tools, tools](#tools-tools-tools)
-- [... and reference data](#and-reference-data)
