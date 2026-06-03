@@ -11,6 +11,20 @@ components: true
 
 Whether you are analyzing microbiome samples or bacterial isolates, long reads or short, shotgun or 16S, genomics, transcriptomics, proteomics or metabolomics, multiomics or integrative analysis **this is the place to be**!
 
+# Content
+
+- [Join the μGalaxy Community](#join-the-μgalaxy-community)
+- [Training](#training)
+  - [Galaxy Training Network Tutorials tagged with **#microGalaxy**](#galaxy-training-network-tutorials-tagged-with-**#microGalaxy**)
+- [Workflows](#workflows)
+  - [MicroGalaxy Workflows](#microgalaxy-workflows)
+- [Tools](#tools)
+  - [Curated community tool list](#curated-community-tool-list)
+- [Projects](#projects)
+  - [Projects / Showcases](#projects--showcases)
+  - [Partners](#partners)
+- [Resources](#resources)
+
 # Join the μGalaxy Community
 
 Anybody interested in microbiology in Galaxy is welcome to join our microGalaxy interest group! <strong>Everybody is Welcome!</strong>
