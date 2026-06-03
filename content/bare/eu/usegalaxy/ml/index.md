@@ -67,7 +67,7 @@ Fine tune biological foundation model (protein language models) | [<Icon name="p
 
 # Available tools
 
-In this section we list the most important tools that have been integrated into the Machine Learning workbench.
+In this section we list the most important tools that have been integrated into the machine learning hub.
 There are many more tools available so please have a more detailed look at the tool panel.
 For better readability, we have divided them into categories.
 
