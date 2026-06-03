@@ -1,24 +1,7 @@
 {
   "version": "26.1",
-  "fetchedAt": "2026-06-02T13:05:24.705Z",
+  "fetchedAt": "2026-06-03T00:30:50.835Z",
   "needsValidation": [
-    {
-      "number": 22682,
-      "title": "Migrate Dropbox file source to fsspec",
-      "url": "https://github.com/galaxyproject/galaxy/pull/22682",
-      "author": {
-        "login": "PlushZ",
-        "url": "https://github.com/PlushZ",
-        "avatarUrl": "https://github.com/PlushZ.png"
-      },
-      "labels": [
-        "kind/refactoring",
-        "area/testing",
-        "area/dependencies"
-      ],
-      "tease": "Migrates the Galaxy Dropbox file source from the deprecated PyFilesystem2 fs.dropboxfs backend to the fsspec-based dropboxdrivefs.DropboxDriveFileSystem.",
-      "guardian": null
-    },
     {
       "number": 22643,
       "title": "Paginate /api/tools/{tool_id}/build history options",
@@ -43,23 +26,6 @@
       "guardian": null
     },
     {
-      "number": 22640,
-      "title": "Replace QuotaUsageProvider with Pinia store + enhancements",
-      "url": "https://github.com/galaxyproject/galaxy/pull/22640",
-      "author": {
-        "login": "davelopez",
-        "url": "https://github.com/davelopez",
-        "avatarUrl": "https://github.com/davelopez.png"
-      },
-      "labels": [
-        "kind/enhancement",
-        "area/UI-UX",
-        "kind/refactoring"
-      ],
-      "tease": "Removes the old provider pattern and uses a new `quotaUsageStore` to ensure quotas are properly reactive across the app. Also ensures the quota values are updated when a \"likely quota change\" event happens, such as when a history is updated (*), a cleanup operation is complete, or a quota refresh",
-      "guardian": null
-    },
-    {
       "number": 22625,
       "title": "Add user-defined-tool operations to the agent-operations layer",
       "url": "https://github.com/galaxyproject/galaxy/pull/22625",
@@ -75,25 +41,6 @@
         "area/testing/integration"
       ],
       "tease": "The standalone galaxy-mcp server has grown four user-defined-tool (UDT) tools -- create, list, delete, run -- that the in-process MCP server exposed at /api/mcp didn't have. This adds them, so an agent talking to the built-in MCP can manage UDTs through the same surface as the external server.",
-      "guardian": null
-    },
-    {
-      "number": 22606,
-      "title": "Add bulk dataset storage migration",
-      "url": "https://github.com/galaxyproject/galaxy/pull/22606",
-      "author": {
-        "login": "davelopez",
-        "url": "https://github.com/davelopez",
-        "avatarUrl": "https://github.com/davelopez.png"
-      },
-      "labels": [
-        "kind/enhancement",
-        "area/UI-UX",
-        "area/API",
-        "area/objectstore",
-        "highlight"
-      ],
-      "tease": "This branch introduces end-to-end bulk storage migration for history items.",
       "guardian": null
     },
     {
@@ -139,22 +86,6 @@
       "guardian": null
     },
     {
-      "number": 22159,
-      "title": "Add toggle to invocation graph for viewing step inputs/outputs like in the editor",
-      "url": "https://github.com/galaxyproject/galaxy/pull/22159",
-      "author": {
-        "login": "ahmedhamidawan",
-        "url": "https://github.com/ahmedhamidawan",
-        "avatarUrl": "https://github.com/ahmedhamidawan.png"
-      },
-      "labels": [
-        "area/UI-UX",
-        "kind/feature"
-      ],
-      "tease": "When this is toggled, we see the step just like it would appear in the editor.",
-      "guardian": null
-    },
-    {
       "number": 22107,
       "title": "Skip X-Frame-Options header for published embed views",
       "url": "https://github.com/galaxyproject/galaxy/pull/22107",
@@ -169,23 +100,6 @@
         "area/testing/api"
       ],
       "tease": "I added a shared `_is_embed_request()` helper that checks for the `/published/` path prefix combined with `embed=true`, and use it to conditionally skip the header in both the FastAPI middleware (`fast_app.py`) and the WSGI transaction init (`webapp.py`).",
-      "guardian": null
-    },
-    {
-      "number": 22091,
-      "title": "Modernize the ConfirmDialog composable to use GModal",
-      "url": "https://github.com/galaxyproject/galaxy/pull/22091",
-      "author": {
-        "login": "ahmedhamidawan",
-        "url": "https://github.com/ahmedhamidawan",
-        "avatarUrl": "https://github.com/ahmedhamidawan.png"
-      },
-      "labels": [
-        "kind/enhancement",
-        "area/UI-UX",
-        "kind/refactoring"
-      ],
-      "tease": "ConfirmDialog is now a modern vue component, instead of a legacy, options API, programmatically mounted component.",
       "guardian": null
     },
     {
@@ -259,6 +173,71 @@
     }
   ],
   "inProgress": [
+    {
+      "number": 22682,
+      "title": "Migrate Dropbox file source to fsspec",
+      "url": "https://github.com/galaxyproject/galaxy/pull/22682",
+      "author": {
+        "login": "PlushZ",
+        "url": "https://github.com/PlushZ",
+        "avatarUrl": "https://github.com/PlushZ.png"
+      },
+      "labels": [
+        "kind/refactoring",
+        "area/testing",
+        "area/dependencies"
+      ],
+      "tease": "Migrates the Galaxy Dropbox file source from the deprecated PyFilesystem2 fs.dropboxfs backend to the fsspec-based dropboxdrivefs.DropboxDriveFileSystem.",
+      "guardian": {
+        "login": "tcollins2011",
+        "url": "https://github.com/tcollins2011",
+        "avatarUrl": "https://github.com/tcollins2011.png"
+      }
+    },
+    {
+      "number": 22640,
+      "title": "Replace QuotaUsageProvider with Pinia store + enhancements",
+      "url": "https://github.com/galaxyproject/galaxy/pull/22640",
+      "author": {
+        "login": "davelopez",
+        "url": "https://github.com/davelopez",
+        "avatarUrl": "https://github.com/davelopez.png"
+      },
+      "labels": [
+        "kind/enhancement",
+        "area/UI-UX",
+        "kind/refactoring"
+      ],
+      "tease": "Removes the old provider pattern and uses a new `quotaUsageStore` to ensure quotas are properly reactive across the app. Also ensures the quota values are updated when a \"likely quota change\" event happens, such as when a history is updated (*), a cleanup operation is complete, or a quota refresh",
+      "guardian": {
+        "login": "ksuderman",
+        "url": "https://github.com/ksuderman",
+        "avatarUrl": "https://github.com/ksuderman.png"
+      }
+    },
+    {
+      "number": 22606,
+      "title": "Add bulk dataset storage migration",
+      "url": "https://github.com/galaxyproject/galaxy/pull/22606",
+      "author": {
+        "login": "davelopez",
+        "url": "https://github.com/davelopez",
+        "avatarUrl": "https://github.com/davelopez.png"
+      },
+      "labels": [
+        "kind/enhancement",
+        "area/UI-UX",
+        "area/API",
+        "area/objectstore",
+        "highlight"
+      ],
+      "tease": "This branch introduces end-to-end bulk storage migration for history items.",
+      "guardian": {
+        "login": "tcollins2011",
+        "url": "https://github.com/tcollins2011",
+        "avatarUrl": "https://github.com/tcollins2011.png"
+      }
+    },
     {
       "number": 22361,
       "title": "Galaxy Notebooks: Persistent Narrative for Human-AI Collaborative Science in Galaxy",
@@ -372,28 +351,6 @@
         "url": "https://github.com/mvdbeek",
         "avatarUrl": "https://github.com/mvdbeek.png"
       }
-    },
-    {
-      "number": 21338,
-      "title": "Add Beta Upload Activity - User Interface Redesign",
-      "url": "https://github.com/galaxyproject/galaxy/pull/21338",
-      "author": {
-        "login": "davelopez",
-        "url": "https://github.com/davelopez",
-        "avatarUrl": "https://github.com/davelopez.png"
-      },
-      "labels": [
-        "kind/enhancement",
-        "area/UI-UX",
-        "kind/refactoring",
-        "highlight"
-      ],
-      "tease": "The new interface moves from a modal-based approach to a dedicated activity panel with a method-first workflow and clearer separation between different import mechanisms.",
-      "guardian": {
-        "login": "qchiujunhao",
-        "url": "https://github.com/qchiujunhao",
-        "avatarUrl": "https://github.com/qchiujunhao.png"
-      }
     }
   ],
   "complete": [
@@ -478,6 +435,47 @@
       }
     },
     {
+      "number": 22159,
+      "title": "Add toggle to invocation graph for viewing step inputs/outputs like in the editor",
+      "url": "https://github.com/galaxyproject/galaxy/pull/22159",
+      "author": {
+        "login": "ahmedhamidawan",
+        "url": "https://github.com/ahmedhamidawan",
+        "avatarUrl": "https://github.com/ahmedhamidawan.png"
+      },
+      "labels": [
+        "area/UI-UX",
+        "kind/feature"
+      ],
+      "tease": "When this is toggled, we see the step just like it would appear in the editor.",
+      "guardian": {
+        "login": "qchiujunhao",
+        "url": "https://github.com/qchiujunhao",
+        "avatarUrl": "https://github.com/qchiujunhao.png"
+      }
+    },
+    {
+      "number": 22091,
+      "title": "Modernize the ConfirmDialog composable to use GModal",
+      "url": "https://github.com/galaxyproject/galaxy/pull/22091",
+      "author": {
+        "login": "ahmedhamidawan",
+        "url": "https://github.com/ahmedhamidawan",
+        "avatarUrl": "https://github.com/ahmedhamidawan.png"
+      },
+      "labels": [
+        "kind/enhancement",
+        "area/UI-UX",
+        "kind/refactoring"
+      ],
+      "tease": "ConfirmDialog is now a modern vue component, instead of a legacy, options API, programmatically mounted component.",
+      "guardian": {
+        "login": "qchiujunhao",
+        "url": "https://github.com/qchiujunhao",
+        "avatarUrl": "https://github.com/qchiujunhao.png"
+      }
+    },
+    {
       "number": 21635,
       "title": "Introduce reusable GTable component",
       "url": "https://github.com/galaxyproject/galaxy/pull/21635",
@@ -538,6 +536,28 @@
         "login": "nilchia",
         "url": "https://github.com/nilchia",
         "avatarUrl": "https://github.com/nilchia.png"
+      }
+    },
+    {
+      "number": 21338,
+      "title": "Add Beta Upload Activity - User Interface Redesign",
+      "url": "https://github.com/galaxyproject/galaxy/pull/21338",
+      "author": {
+        "login": "davelopez",
+        "url": "https://github.com/davelopez",
+        "avatarUrl": "https://github.com/davelopez.png"
+      },
+      "labels": [
+        "kind/enhancement",
+        "area/UI-UX",
+        "kind/refactoring",
+        "highlight"
+      ],
+      "tease": "The new interface moves from a modal-based approach to a dedicated activity panel with a method-first workflow and clearer separation between different import mechanisms.",
+      "guardian": {
+        "login": "qchiujunhao",
+        "url": "https://github.com/qchiujunhao",
+        "avatarUrl": "https://github.com/qchiujunhao.png"
       }
     }
   ]
