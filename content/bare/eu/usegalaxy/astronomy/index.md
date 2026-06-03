@@ -9,10 +9,17 @@ title: Galaxy Astronomy
 The **Galaxy for Astronomy** workbench is the place to to do astronomy in Galaxy! The workbench is based on the [Galaxy framework](https://galaxyproject.org),
 which guarantees simple access, easy extension, flexible adaption to personal and security needs, and sophisticated analyses independent of command-line knowledge.
 
+# Content
+
+- [Getting started](#getting-started)
+- [Join the Astronomical Galaxy Community](#join-the-astronomical-galaxy-community)
+- [Tools](#tools)
+- [Workflows](#workflows)
+- [Tutorials](#tutorials)
+
 ## Getting started
 
 Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take [a guided tour](https://materials.usegalaxy.eu/tours/core.galaxy_ui) through Galaxy's user interface.
-
 
 ## Join the Astronomical Galaxy Community
 
@@ -22,7 +29,6 @@ Please contact [Volodymyr Savchenko](mailto:Volodymyr.Savchenko@epfl.ch?subject=
 
 The tools for astronomy include general-purpose tools to work with the FITS format, an interface to query archives via TAP protocol, tools for the reduction of the data from different observatories, and observation modelling tools.
 For our observatory-specific tools we use [the automated procedure](https://odahub.io/docs/guide-galaxy) to produce [Galaxy tools](https://github.com/esg-epfl-apc/tools-astro) from notebooks.
- 
 
 ## Workflows
 
