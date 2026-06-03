@@ -369,6 +369,23 @@ Loom can fetch operational know-how from curated GitHub repos. The default repo 
 
 Add additional skill repos in **Preferences → Skills**. Each entry is a URL under `github.com/galaxyproject/` (arbitrary repos are restricted in alpha to prevent prompt-injection). Fetched skills cache locally for 24 hours to cover offline use.
 
+## Known issues
+
+### Large sessions can exceed a model's context window
+
+Every model has a fixed **context window** — the maximum amount of conversation, tool output, and notebook content it can hold at once. Long analyses, especially those that pull large outputs into the chat (for example, a Galaxy history listing with many full dataset records), can grow past this limit. When that happens the model's provider rejects the request with an error such as:
+
+> `context_length_exceeded` — "Your input exceeds the context window of this model."
+
+This is most noticeable on the OpenAI GPT-5.x models (including the ChatGPT-subscription **OpenAI (Codex)** sign-in), which have a roughly 272K-token window. It is not a Galaxy error and does not mean your data is malformed — it is purely a request-size limit. Orbit recovers automatically by compacting the conversation into a summary and continuing, so the compacted summary you see in the chat is that recovery in action. Your work is never lost: `notebook.md` lives on disk as the durable record.
+
+**What to do for now:**
+
+- **Start a fresh chat without losing your work.** Type `/new` and choose **Keep notebook** — this clears the accumulated conversation (what fills the window) while preserving `notebook.md` and the activity log. The agent re-reads the notebook to pick up where you left off. This is the quickest way to reclaim context.
+- **Switch to a larger-context model.** DeepSeek V4 (`deepseek-v4-pro` / `deepseek-v4-flash`) offers a 1M-token window — type `/model deepseek-v4-pro` or pick it from the footer. The GPT-5.x and Claude models have smaller windows, so staying within those families adds little room.
+- **Avoid pulling large outputs into the chat.** When inspecting Galaxy histories or datasets, ask for targeted fields or a small preview rather than full records for every dataset.
+- **Watch the footer.** The session token counter climbs as context grows; if it approaches the model's limit, start a fresh chat (`/new` → Keep notebook) before kicking off a large new step.
+
 ## Getting help
 
 Questions, bug reports, and feature requests are welcome on the **Galaxy Help forum**:
