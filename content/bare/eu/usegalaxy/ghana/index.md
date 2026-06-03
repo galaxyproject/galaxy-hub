@@ -39,18 +39,18 @@ You may be interested in the following resources:
 
 <Icon name="map" /> [Guided tour](https://ghana.usegalaxy.eu/tours/core.galaxy_ui) through Galaxy's user interface.
 
-<Icon name="road" /> [Learning pathway for getting to grips with Galaxy and single cell](https://training.galaxyproject.org/training-material/learning-pathways/intro_single_cell.html)
+<Icon name="route" /> [Learning pathway for getting to grips with Galaxy and single cell](https://training.galaxyproject.org/training-material/learning-pathways/intro_single_cell.html)
 
-<Icon name="question-circle-o" /> [Single cell help forum](https://help.galaxyproject.org/tag/scrna)
+<Icon name="help-circle" /> [Single cell help forum](https://help.galaxyproject.org/tag/scrna)
 
-<Icon name="comments-o" /> [Single cell Galaxy user community chat room](https://matrix.to/#/#Galaxy-Training-Network_galaxy-single-cell:gitter.im)
+<Icon name="message-square" /> [Single cell Galaxy user community chat room](https://matrix.to/#/#Galaxy-Training-Network_galaxy-single-cell:gitter.im)
 
 # Training
 
 Want to learn even more about #single-cell analyses? You can check out our single cell training page within the wider Galaxy Training Network.
 
 <Icon name="book-open" /> [Single cell training material](https://training.galaxyproject.org/training-material/topics/single-cell/)\
-<Icon name="mortar-board" /> [the Galaxy Training Network](https://galaxyproject.github.io/training-material/)
+<Icon name="graduation-cap" /> [the Galaxy Training Network](https://galaxyproject.github.io/training-material/)
 
 <iframe src="https://training.galaxyproject.org/training-material/tags/single-cell/embed.html" height="600px" width="100%" class="gtn-embed" frameborder="0"></iframe>
 
@@ -84,7 +84,7 @@ Our Single Cell Community of Practice welcomes tool requests. We’re an open so
 
 Want to talk with trainers and developers on how to improve single cell analysis in Galaxy? Join the Community of Practice - we’re a nice bunch!
 
-<Icon name="hand-o-right" /> Go to our [Community of Practice site](https://galaxyproject.org/projects/singlecell/) to read more and join us!
+<Icon name="arrow-right" /> Go to our [Community of Practice site](https://galaxyproject.org/projects/singlecell/) to read more and join us!
 
 # Contributors
 
