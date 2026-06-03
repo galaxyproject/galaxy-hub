@@ -8,7 +8,7 @@ title: Galaxy HiCExplorer
 
 Welcome to the Galaxy HiCExplorer -- a webserver to process, analyse and visualize Hi-C, capture Hi-C, HiChIP and single-cell Hi-C data.
 
-<img src="/assets/media/usegalaxy/hicexplorer/hicex3.png" alt="HiCExplorer" style="max-width: min(100%, 34rem); height: auto;" />
+<img src="/assets/media/usegalaxy/hicexplorer/hicex3.png" alt="HiCExplorer" style="width: 100%; height: auto;" />
 
 # Content
 
@@ -65,14 +65,14 @@ The interactive Hi-C data exploration with HiGlass is accessible via the interac
 
 ## Galaxy HiCExplorer -- many possibilities
 
-![](/assets/media/usegalaxy/hicexplorer/publication_plots.png)
+![Publication Plots](/assets/media/usegalaxy/hicexplorer/publication_plots.png)
 <b>(A)</b> Galaxy HiCExplorer workflows and tools. Quality control tools: <b>(B)</b> Output of hicCorrelate comparing two wild types and one knockdown samples. <b>(C)</b> Output of hicPlotDistVsCounts that shows changes of the number of contacts for different conditions. Analysis tools: <b>(D)</b> hicPlotMatrix of the Pearson correlation matrix derived from a contact matrix for chromosome 6 in mouse computed with hicTransform. The optional data track at the bottom shows the first eigenvector for A/B compartment obtained using hicPCA. <b>(E)</b> The pixel difference between a Hi-C corrected matrix for wild type condition and a knock down was computed using hicCompareMatrices and a 7Mb region is visualized using hicPlotMatrix. Visualization tools: <b>(F)</b> Contact matrix plot of a 80 to 105 Mb region of chromosome 2 in log scale. <b>(G)</b> Example output of hicPlotViewpoint showing the corrected number of Hi-C contacts for a single bin in chromosome 5 (output similar to 4C-seq) (<a target="_parent" href="https://doi.org/10.1101/gr.213066.116">Andrey 2017</a>). <b>(H)</b> A Hi-C matrix was converted into an observed vs. expected matrix using hicTransform and this matrix, together with the location of high-affinity sites from (<a target="_parent" href="https://doi.org/10.1016/j.molcel.2015.08.024">Ramirez 2015</a>) were used to run hicAggregateContacts. <b>(I)</b> 85 Mb to 110 Mb region from human chromosome 2 visualized using hicPlotTADs. TADs were computed by hicFindTADs. The additional tracks added correspond to: TAD- separation score (as reported by hicFindTADs), chromatin state , principal component 1 (A/B compartment) computed using hicPCA, ChIP-seq coverage for the H3K27ac mark, DNA methylation, and a gene track. Hi-C data for <b>B</b>, <b>C</b>, <b>E</b> and <b>H</b> from Drosophila melanogaster S2 cells from (<a target="_parent" href="https://doi.org/10.1038/s41467-017-02525-w">Ramirez 2018</a>). Hi-C data for <b>D</b>, <b>F</b> and <b>I</b> from mouse cardiac myocytes(<a target="_parent" href="https://doi.org/10.1038/s41467-017-01724-9 ">Nothjunge 2017</a>). Additional tracks in <b>I</b> from (<a target="_parent" href="https://doi.org/10.1038/s41467-017-01724-9 ">Nothjunge 2017</a>).
 
-![](/assets/media/usegalaxy/hicexplorer/image_compilation.png)
+![Image Compilation](/assets/media/usegalaxy/hicexplorer/image_compilation.png)
 
 The new tools in Galaxy HiCExplorer 3 to make even better Hi-C data analyses: <b>(A)</b>Detect loops computed by <i>hicDetectLoops</i> and plotted with <i>hicPlotMatrix</i> on <i>GM12878 primary</i> data from Rao 2014. <b>(B)</b> Short to long range contact ratios created by <i>hicPlotSVL</i> on <i>GM12878 primary</i>, <i>IMR90</i> and <i>HMEC</i> data from Rao 2014. <b>(C)</b> Average regions of detected TADs from <i>hicFindTADs</i> on <i>GM12878 primary</i>, chromosome 1; data from Rao 2014. <b>(D)</b> Compartmentalization of <i>GM12878 primary</i> data from Rao 2014. Computed with <i>hicCompartmentalization</i>. <b>(E)</b> Viewpoint of the gene <i>MSTN</i> on <i>FL-E13-5</i> and <i>MB-E10-5</i> with mean background and p-values per relative distance via continuous negative binomial distributions. Data from Andrey 2017. <b>(F)</b> Quality control plot for <i>FL-E13-5</i>and <i>MB-E10-5</i> showing the sparisity distribution. Data from Andrey 2017. <b>(G)</b> Single-cell Hi-C cluster profile. Created by dimension reduction with <i>scHicClusterMinHash</i> and spectral clustering on 1 MB single-cell Hi-C data by Nagano 2017. <b>(H)</b> Quality control plot for single-cell Hi-C data by Nagano 2017. Shows the read coverage per cell, cells with less than 100,000 reads are discarded. <b>(I)</b> Consensus matrix plot for single-cell Hi-C data on 1 MB resolution. Cells are dimension reduced by computing A/B compartments per cell and clustered with k-means. The consensus matrix of a cluster is the average of all interaction matrices of the cluster memebers. Data from Nagano 2017.
 
-![](/assets/media/usegalaxy/hicexplorer/full_nar2020.png)
+![Full Nar 2020](/assets/media/usegalaxy/hicexplorer/full_nar2020.png)
 
 The different tools of Galaxy HiCExplorer in a workflow context: Analysis workflow for Hi-C <b>(A)</b>, cHi-C / HiChIP <b>(B)</b> and scHi-C <b>(C)</b>. All share the usage of hicBuildMatrix to create the individual contact matrices. Hi-C and cHi-C/HiChIP do support HiCExplorer's h5 and cool interaction matrix file format, scHi-C data creates for each cell one cool interaction matrix file and with scHicMergeToSCool all single-cell matrices are merged to one single-cell cool (scool) matrix.
 
@@ -89,36 +89,36 @@ These workflows expect collections of FASTQ files as an input. The first collect
 
 The following workflows are provided:
 
-- <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/from-scratch-to-a-contact-matrix">From scratch to a contact matrix</a>
-- <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/from-scratch-to-pca">From scratch to PCA</a>
-- <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/from-scratch-to-tad">From scratch to TAD</a>
-- <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/from-scratch-to-pca-and-plotting">From scratch to PCA and plotting</a>
-- <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/from-scratch-to-tad-and-plotting">From scratch to TAD and plotting</a>
+- [From scratch to a contact matrix](https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/from-scratch-to-a-contact-matrix)
+- [From scratch to PCA](https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/from-scratch-to-pca)
+- [From scratch to TAD](https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/from-scratch-to-tad)
+- [From scratch to PCA and plotting](https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/from-scratch-to-pca-and-plotting)
+- [From scratch to TAD and plotting](https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/from-scratch-to-tad-and-plotting)
 
 ### From scratch (FASTQ files) and summing up replicates
 
 These workflows takes collections of FASTQ files for forward and reverse strand as an input, for each pair a contact matrix is build and all created contact matrices are summed up to one contact matrix. Use this workflow if you want to use replicates to increase statistical power of your contact matrix and the replicates are checked to be correct.
 
-- <a href="https://usegalaxy.eu/u/joachim-wolff/w/workflow-hicexplorer-hicsummatrix">From scratch to a contact matrix (summing up replicates)</a>
-- <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/from-scratch-to-pca-summing-up-replicates">From scratch to PCA (summing up replicates)</a>
-- <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/from-scratch-to-tads-summing-up-replicates">From scratch to TAD (summing up replicates)</a>
-- <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/from-scratch-to-pca-and-plot-summing-up-replicates">From scratch to PCA and plot (summing up replicates)</a>
-- <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/from-scratch-to-tads-and-plot-summing-up-replicates">From scratch to TAD and plot (summing up replicates)</a>
-- <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/from-scratch-to-tads-pca-and-plot-summing-up-replicates">From scratch to TADs, PCA and plot (summing up replicates)</a>
+- [From scratch to a contact matrix (summing up replicates)](https://usegalaxy.eu/u/joachim-wolff/w/workflow-hicexplorer-hicsummatrix)
+- [From scratch to PCA (summing up replicates)](https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/from-scratch-to-pca-summing-up-replicates)
+- [From scratch to TAD (summing up replicates)](https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/from-scratch-to-tads-summing-up-replicates)
+- [From scratch to PCA and plot (summing up replicates)](https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/from-scratch-to-pca-and-plot-summing-up-replicates)
+- [From scratch to TAD and plot (summing up replicates)](https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/from-scratch-to-tads-and-plot-summing-up-replicates)
+- [From scratch to TADs, PCA and plot (summing up replicates)](https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/from-scratch-to-tads-pca-and-plot-summing-up-replicates)
 
 ### Contact matrix as a basis
 
 Use the following workflows if you have already created a contact matrix.
 
-- <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/a--b-comparments">Plot Pearson matrix and PC1 / PC2</a>
-- <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/plot-tads">Plot TADs</a>
-- <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/plot-tads-and-pc">Plot TADs and PC</a>
+- [Plot Pearson matrix and PC1 / PC2](https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/a--b-comparments)
+- [Plot TADs](https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/plot-tads)
+- [Plot TADs and PC](https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/plot-tads-and-pc)
 
 ### Single-cell Hi-C
 
 Use the following workflow for an existing scool matrix with QC and normalization:
 
-- <a href="https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/single-cell-hi-c">SVL dimension reduction</a>
+- [SVL dimension reduction](https://hicexplorer.usegalaxy.eu/u/joachim-wolff/w/single-cell-hi-c)
 
 ## Python API access
 
