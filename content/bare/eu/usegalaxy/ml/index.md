@@ -11,7 +11,7 @@ components: true
 <img src="/assets/media/usegalaxy/ml/grasp-logo.png" alt="Galaxy for research in AI, statistics and prediction" style="float:right; width: 20em; height: auto; margin: 0 0 1rem 1.5rem;" />
 
 The Galaxy for research in AI, statistics and prediction is a hub of tools, workflows and training materials for dedicated machine learning tasks such as data preprocessing, classification, regression, clustering, fine-tuning biological foundation models and visualisation to achieve end-to-end varied machine learning analyses.
-The complete set of resources are available on the [Galaxy platform](https://galaxyproject.org), which guarantees simple access, easy extension, flexible adaptation to personal needs, accelerated model training, and sophisticated and reproducible machine learning analyses independent of command-line knowledge.
+The complete set of resources are available on the [Galaxy platform](https://galaxyproject.org), which guarantees simple access, easy extension, flexible adaption to personal needs, accelerated model training, and sophisticated and reproducible machine learning analyses independent of command-line knowledge.
 
 The hub provides you with a Swiss Army knife of [Scikit-learn](https://scikit-learn.org),
 [Keras](https://keras.io) (a deep learning library based on [TensorFlow](https://www.tensorflow.org)), [PyTorch](https://pytorch.org/) and various other tools to transform, learn and predict and plot your data.
@@ -85,6 +85,10 @@ Tool | Description | Reference
 <a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fsklearn_discriminant_classifier%2Fsklearn_discriminant_classifier" target="_top" title="sklearn_discriminant_classifier">sklearn_discriminant_classifier</a> | Linear and Quadratic Discriminant Analysis| [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
 <a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fsklearn_generalized_linear%2Fsklearn_generalized_linear" target="_top" title="sklearn_generalized_linear">sklearn_generalized_linear</a> | Generalized linear models for classification and regression | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
 <a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fsklearn_clf_metrics%2Fsklearn_clf_metrics" target="_top" title="sklearn_clf_metrics">sklearn_clf_metrics</a> | Calculate metrics for classification performance  | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
+<<<<<<< HEAD
+=======
+
+>>>>>>> e38897c79 (add bare page for ml)
 
 ## Regression
 
@@ -97,6 +101,10 @@ Tool | Description | Reference
 <a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fsklearn_generalized_linear%2Fsklearn_generalized_linear" target="_top" title="sklearn_generalized_linear">sklearn_generalized_linear</a> | Generalized linear models for classification and regression | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
 <a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fsklearn_regression_metrics%2Fsklearn_regression_metrics" target="_top" title="sklearn_regression_metrics">sklearn_regression_metrics</a> | Calculate metrics for regression performance | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> e38897c79 (add bare page for ml)
 ## Unsupervised/Clustering
 
 Automatic grouping of similar objects into sets.
@@ -142,6 +150,10 @@ Tool | Description | Reference
 <a href="https://ml.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fcleanlab%2Fcleanlab_issue_handler%2F2.7.1%2Bgalaxy1.0&version=latest" target="_top" title="cleanlab">cleanlab</a> | Detect and optionally clean data issues using Cleanlab | [Northcutt et al. 2021](https://arxiv.org/pdf/1911.00068)
 <a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fsklearn_data_preprocess%2Fsklearn_data_preprocess" target="_top" title="sklearn_data_preprocess">sklearn_data_preprocess</a> | Preprocess raw feature vectors into standardized datasets  | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
 <a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fsklearn_feature_selection%2Fsklearn_feature_selection" target="_top" title="sklearn_feature_selection">sklearn_feature_selection</a> | Feature Selection module, including univariate filter selection methods and recursive feature elimination algorithm | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
+<<<<<<< HEAD
+=======
+
+>>>>>>> e38897c79 (add bare page for ml)
 
 ## Deep learning
 
