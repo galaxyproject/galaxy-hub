@@ -34,7 +34,7 @@ These resources have been produced by GGA community who works on a group of proj
 - Python libraries to interact with GMOD applications
 - Apollo tooling and service
 
-## Community 
+## Community
 
 Checkout the [GGA website](https://galaxy-genome-annotation.github.io/) for more details, and feel free to chat with us on our [Matrix channel](https://matrix.to/#/#galaxy-genome-annotation_Lobby:gitter.im).
 
