@@ -5,19 +5,11 @@ components: true
 
 <slot name="/bare/eu/usegalaxy/notices" />
 
-<style>{`
-  .microgalaxy-resource-logo {
-    width: min(100%, 16.25rem);
-    max-width: 16.25rem;
-    margin: 0;
-  }
-`}</style>
-
 ![microGalaxy logo](/assets/media/usegalaxy/microgalaxy/microgalaxy-logo.png)
 
 # Welcome to microGalaxy!
 
-Whether you are analysing microbiome samples or bacterial isolates, long reads or short, shotgun or 16S, genomics, transcriptomics, proteomics or metabolomics, multiomics or integrative analysis **this is the place to be**!
+Whether you are analyzing microbiome samples or bacterial isolates, long reads or short, shotgun or 16S, genomics, transcriptomics, proteomics or metabolomics, multiomics or integrative analysis **this is the place to be**!
 
 # Join the μGalaxy Community
 
@@ -38,7 +30,13 @@ Want to learn even more about microbial analysis? You can check out our various 
 
 ## Galaxy Training Network Tutorials tagged with **#microGalaxy**
 
-<iframe src="https://training.galaxyproject.org/training-material/tags/microgalaxy/embed.html" height="600px" width="100%" class="gtn-embed" frameborder="0"></iframe>
+<iframe 
+  src="https://training.galaxyproject.org/training-material/tags/microgalaxy/embed.html" 
+  height="600px" 
+  width="100%"
+  class="gtn-embed"
+  frameborder="0">
+</iframe>
 
 # Workflows
 
@@ -47,7 +45,13 @@ Want to include your workflow here? All you need to do is to make your workflow 
 
 ## MicroGalaxy Workflows
 
-<iframe src="https://training.galaxyproject.org/training-material/workflows/embed.html?query=microgalaxy" height="600px" width="100%" class="gtn-embed" frameborder="0"></iframe>
+<iframe 
+  src="https://training.galaxyproject.org/training-material/workflows/embed.html?query=microgalaxy" 
+  height="600px" 
+  width="100%" 
+  class="gtn-embed" 
+  frameborder="0">
+</iframe>
 
 # Tools
 
@@ -122,3 +126,17 @@ If you would like to know more about any of these projects or get involved, plea
 | Resource                                                                                                                                           | Description                                                      | Links                             |
 | -------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | --------------------------------- |
 | <img class="microgalaxy-resource-logo" src="https://www.jpiamr.eu/app/uploads/2021/09/JPIAMR-logo-no-tagline.png" alt="JPIAMR logo" width="260" /> | JPIAMR: Global Coordination of Antimicrobial Resistance Research | [Website](https://www.jpiamr.eu/) |
+
+<slot name="/eu/common/data-policy" />
+
+<slot name="/bare/eu/usegalaxy/jobs" />
+
+<style>
+{`
+  .microgalaxy-resource-logo {
+    width: min(100%, 16.25rem);
+    max-width: 16.25rem;
+    margin: 0;
+  }
+`}
+</style>
