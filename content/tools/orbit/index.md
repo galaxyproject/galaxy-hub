@@ -386,6 +386,20 @@ This is most noticeable on the OpenAI GPT-5.x models (including the ChatGPT-subs
 - **Avoid pulling large outputs into the chat.** When inspecting Galaxy histories or datasets, ask for targeted fields or a small preview rather than full records for every dataset.
 - **Watch the footer.** The session token counter climbs as context grows; if it approaches the model's limit, start a fresh chat (`/new` → Keep notebook) before kicking off a large new step.
 
+### Gemini may return rate-limit (429) errors during busy periods
+
+Our Gemini (Google) API access is currently on an early **spending tier** with a per-minute token cap. When usage is heavy — across many testers or within a single large request — Gemini may temporarily reject calls with a quota error such as:
+
+> `429 RESOURCE_EXHAUSTED` — "You exceeded your current quota … Please retry in 30s."
+
+This is a transient **rate limit**, not a billing failure or a problem with your key. The response carries a retry delay (for example, *"Please retry in ~30s"*), and the cap resets automatically as the per-minute window rolls over. It will ease as the project's Gemini usage tier increases.
+
+**What to do for now:**
+
+- **Wait and retry.** Pause for the suggested delay and resend — the request typically succeeds on the next attempt.
+- **Switch providers to keep working.** Type `/model` and pick an OpenAI, Claude, or DeepSeek model to continue without interruption.
+- **No need to report it.** This is a known capacity limit on our side, not an Orbit bug.
+
 ## Getting help
 
 Questions, bug reports, and feature requests are welcome on the **Galaxy Help forum**:
