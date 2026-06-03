@@ -85,7 +85,10 @@ Tool | Description | Reference
 <a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fsklearn_discriminant_classifier%2Fsklearn_discriminant_classifier" target="_top" title="sklearn_discriminant_classifier">sklearn_discriminant_classifier</a> | Linear and Quadratic Discriminant Analysis| [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
 <a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fsklearn_generalized_linear%2Fsklearn_generalized_linear" target="_top" title="sklearn_generalized_linear">sklearn_generalized_linear</a> | Generalized linear models for classification and regression | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
 <a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fsklearn_clf_metrics%2Fsklearn_clf_metrics" target="_top" title="sklearn_clf_metrics">sklearn_clf_metrics</a> | Calculate metrics for classification performance  | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
+<<<<<<< HEAD
 
+=======
+>>>>>>> 77b51f1eb (add bare page for ml)
 
 ## Regression
 
@@ -97,7 +100,6 @@ Tool | Description | Reference
 <a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fsklearn_ensemble%2Fsklearn_ensemble" target="_top" title="sklearn_ensemble">sklearn_ensemble</a> | Ensemble methods for classification and regression | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
 <a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fsklearn_generalized_linear%2Fsklearn_generalized_linear" target="_top" title="sklearn_generalized_linear">sklearn_generalized_linear</a> | Generalized linear models for classification and regression | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
 <a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fsklearn_regression_metrics%2Fsklearn_regression_metrics" target="_top" title="sklearn_regression_metrics">sklearn_regression_metrics</a> | Calculate metrics for regression performance | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
-
 
 ## Unsupervised/Clustering
 
@@ -145,7 +147,6 @@ Tool | Description | Reference
 <a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fsklearn_data_preprocess%2Fsklearn_data_preprocess" target="_top" title="sklearn_data_preprocess">sklearn_data_preprocess</a> | Preprocess raw feature vectors into standardized datasets  | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
 <a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fsklearn_feature_selection%2Fsklearn_feature_selection" target="_top" title="sklearn_feature_selection">sklearn_feature_selection</a> | Feature Selection module, including univariate filter selection methods and recursive feature elimination algorithm | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
 
-
 ## Deep learning
 
 Build and use deep neural networks.
@@ -189,8 +190,6 @@ Tool | Description | Reference
 [GPU-enabled JupyterLab](https://usegalaxy.eu/?tool_id=interactive_tool_ml_jupyter_notebook&version=latest) | GPU-enabled JupyterLab | 
 [Jupyter](https://live.usegalaxy.eu/?tool_id=interactive_tool_jupyter_notebook) | Jupyter lab | 
 [RStudio](https://live.usegalaxy.eu/?tool_id=interactive_tool_rstudio_notebook) | RStudio | 
-
-
 
 # Contributors
 
