@@ -37,3 +37,7 @@ The workflows are being published [on workflowhub](https://workflowhub.eu/tags/4
 ## Tutorials
 
 Coming soon!
+
+<slot name="/eu/common/data-policy" />
+
+<slot name="/bare/eu/usegalaxy/jobs" />
