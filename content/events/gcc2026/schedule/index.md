@@ -35,7 +35,7 @@ The schedule is where you can discover what’s happening when at GCC2026. Full 
 | 12:00 - 13:00 | Lunch                                                                                            |
 | 13:00 - 13:45 | [Talks 5](#talks-5-tool-integration-and-method-development)                                      |
 | 13:45 - 14:30 | Lightning talks                                                                                  |
-| 14:30 - 16:00 | [Posters 2](#posters-2--tuesday-jun-23-14301600)                                                 |
+| 14:30 - 16:00 | [Posters 2](#posters-2--tuesday-jun-23-14301600) + ELIXIR virtual posters                        |
 | 16:00 - 18:00 | ELIXIR F2F                                                                                       |
 | 19:00 - 21:00 | Conference dinner                                                                                |
 
@@ -261,7 +261,7 @@ presentation.
 
 ## Talks 1: Galaxy framework and platform direction
 
-Moderator: TBD
+Moderator: Marisa Loach
 
 <div class="gcc-talk-list">
   <div class="gcc-talk-list-header" aria-hidden="true">
@@ -761,7 +761,7 @@ Moderator: Yvan Le Bras
 
 ## Talks 6: AI, workflows, and guided analysis
 
-Moderator: TBD
+Moderator: Enis Afgan
 
 <div class="gcc-talk-list">
   <div class="gcc-talk-list-header" aria-hidden="true">
