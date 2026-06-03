@@ -11,7 +11,7 @@ components: true
 <img src="/assets/media/usegalaxy/ml/grasp-logo.png" alt="Galaxy for research in AI, statistics and prediction" style="float:right; width: 20em; height: auto; margin: 0 0 1rem 1.5rem;" />
 
 The Galaxy for research in AI, statistics and prediction is a hub of tools, workflows and training materials for dedicated machine learning tasks such as data preprocessing, classification, regression, clustering, fine-tuning biological foundation models and visualisation to achieve end-to-end varied machine learning analyses.
-The complete set of resources are available on the [Galaxy platform](https://galaxyproject.org), which guarantees simple access, easy extension, flexible adaption to personal needs, accelerated model training, and sophisticated and reproducible machine learning analyses independent of command-line knowledge.
+The complete set of resources are available on the [Galaxy platform](https://galaxyproject.org), which guarantees simple access, easy extension, flexible adaptation to personal needs, accelerated model training, and sophisticated and reproducible machine learning analyses independent of command-line knowledge.
 
 The hub provides you with a Swiss Army knife of [Scikit-learn](https://scikit-learn.org),
 [Keras](https://keras.io) (a deep learning library based on [TensorFlow](https://www.tensorflow.org)), [PyTorch](https://pytorch.org/) and various other tools to transform, learn and predict and plot your data.
