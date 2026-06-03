@@ -23,15 +23,26 @@ The server is part if the European Galaxy server and is maintained by the [RNA B
 
 # Content
 
+- [Get started with #single-cell](#get-started-with-single-cell)
+- [Training](#training)
+- [Workflows](#workflows)
+- [Asking for help](#asking-for-help)
+- [Asking for tools](#asking-for-tools)
+- [Join the Single Cell Community of Practice](#join-the-single-cell-community-of-practice)
+- [Contributors](#contributors)
+
 # Get started with #single-cell
 
 Are you new to Galaxy, or returning after a long time, and looking for help to get started?
 
 You may be interested in the following resources:
 
-<Icon name="map" /> [Guided tour](https://ghana.usegalaxy.eu/tours/core.galaxy_ui) through Galaxy's user interface.\
-<Icon name="road" /> [Learning pathway for getting to grips with Galaxy and single cell](https://training.galaxyproject.org/training-material/learning-pathways/intro_single_cell.html)\
-<Icon name="question-circle-o" /> [Single cell help forum](https://help.galaxyproject.org/tag/scrna)\
+<Icon name="map" /> [Guided tour](https://ghana.usegalaxy.eu/tours/core.galaxy_ui) through Galaxy's user interface.
+
+<Icon name="road" /> [Learning pathway for getting to grips with Galaxy and single cell](https://training.galaxyproject.org/training-material/learning-pathways/intro_single_cell.html)
+
+<Icon name="question-circle-o" /> [Single cell help forum](https://help.galaxyproject.org/tag/scrna)
+
 <Icon name="comments-o" /> [Single cell Galaxy user community chat room](https://matrix.to/#/#Galaxy-Training-Network_galaxy-single-cell:gitter.im)
 
 # Training
