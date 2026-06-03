@@ -5,25 +5,6 @@ components: true
 
 <slot name="/bare/eu/usegalaxy/notices" />
 
-<style>
-{`
-  .usegalaxy-video-row {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 24rem), 1fr));
-    gap: 1rem;
-    margin: 1.5rem 0 2rem;
-  }
-
-  .usegalaxy-video-row iframe {
-    width: 100%;
-    height: auto;
-    aspect-ratio: 16 / 9;
-    border: 0;
-    border-radius: 0.5rem;
-  }
-`}
-</style>
-
 <img src="/assets/media/usegalaxy/assembly/logo_assembly.png" alt="Anna's hummingbird photo courtesy of VJAnderson" style="float: left; width: 7rem; height: auto; margin: 0 2rem 1rem 0;" />
 
 # Welcome to Galaxy for Genome Assembly
@@ -58,11 +39,17 @@ Are you new to Galaxy, or returning after a long time, and looking for help to g
 
 As a result of a collaboration with the VGP team, the Galaxy Training Network has made available two trainings which goal is to describe the VGP pipeline through two complementary approaches: a step-by-step version, and a workflow-focused short version. In the extended version, each of the steps required to run the VGP pipeline is descussed in detail, with particular attention to the algorithms and parameters. On the other hand, the short version provides a quick walkthrough on how the workflows can be used to rapidly assemble a genome using the VGP pipeline with the Galaxy Workflow System.
 
-<div align="center">
-<a href="https://training.galaxyproject.org/training-material/topics/assembly/tutorials/vgp_genome_assembly/tutorial.html" target="_blank"><button type="button" class="btn btn-primary btn-lg">VGP Step-by-Step Training</button></a>&nbsp;&nbsp;&nbsp;
-<a href="https://training.galaxyproject.org/training-material/topics/assembly/tutorials/vgp_workflow_training/tutorial.html" target="_blank"><button type="button" class="btn btn-primary btn-lg">VGP Workflow-Focused Training</button></a>&nbsp;&nbsp;&nbsp;
-<a href="https://assembly.usegalaxy.eu/u/gallardoalba/h/vgp-example-history"><button type="button" class="btn btn-primary btn-lg">Open example history</button></a>
-</div>
+<center class="d-flex gap-2 flex-wrap justify-center">
+  <a href="https://training.galaxyproject.org/training-material/topics/assembly/tutorials/vgp_genome_assembly/tutorial.html" target="_blank">
+    <button type="button" class="btn btn-primary btn-lg">VGP Step-by-Step Training</button>
+  </a>
+  <a href="https://training.galaxyproject.org/training-material/topics/assembly/tutorials/vgp_workflow_training/tutorial.html" target="_blank">
+    <button type="button" class="btn btn-primary btn-lg">VGP Workflow-Focused Training</button>
+  </a>
+  <a href="https://assembly.usegalaxy.eu/u/gallardoalba/h/vgp-example-history">
+    <button type="button" class="btn btn-primary btn-lg">Open example history</button>
+  </a>
+</center>
 
 <br />
 
@@ -91,22 +78,23 @@ All relevant materials for [assembly-related data analysis](https://training.gal
 
 If you want to know more about the GTN or how to become part of the Galaxy community, check the videos below!
 
-<div class="usegalaxy-video-row">
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/lDqWxzWNk1k"
-title="YouTube video player"
-frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen>
-</iframe>
+<center class="d-flex gap-2 flex-wrap justify-center">
+  <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/lDqWxzWNk1k"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
 
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/-1MPdxmRs8U"
-title="YouTube video player"
-frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe>
-</div>
+  <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/-1MPdxmRs8U"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
+</center>
 
 <br />
 
@@ -115,24 +103,10 @@ allowfullscreen></iframe>
 This service is a joint project between different groups from the [Vertebrate Genomes Project (VGP)](https://vertebrategenomesproject.org), the [European Reference Genome Atlas project](https://vertebrategenomesproject.org/erga), the [Human Pangenome Reference Consortium (HPRC)](https://humanpangenome.org/), and the [Galaxy project](https://galaxyproject.org).
 The service is part of the European Galaxy server and is maintained by the [RNA Bioinformatics Center (RBC)](https://www.denbi.de/network/rna-bioinformatics-center-rbc) as part of [de.NBI](https://www.denbi.de) and [ELIXIR](http://elixir-europe.org).
 
-<div align="center">
-<table border="0">
-<tr>
-<td with="10%"></td>
-    <td width="20%">
-        <img alt="VGP" src="/assets/media/usegalaxy/assembly/vgp_logo.png" />
-    </td>
-<td with="40%"></td>
-    <td width="16%">
-        <img alt="ERGA" src="/assets/media/usegalaxy/assembly/erga_logo.png" />
-    </td>
-<td with="40%"></td>
-    <td width="20%">
-        <img alt="HPRC" src="/assets/media/usegalaxy/assembly/hprc_logo.png" />
-    </td>
-<td with="10%"></td>
-</tr>
-</table>
+<div aria-label="Imaging partners" style="display: flex; flex-wrap: wrap; align-items: center; gap: 1.25rem 1.5rem; margin: 1.5rem 0;">
+  <img alt="VGP" src="/assets/media/usegalaxy/assembly/vgp_logo.png" style="max-height: 3rem; width: auto; max-width: 11rem; object-fit: contain;" />
+  <img alt="ERGA" src="/assets/media/usegalaxy/assembly/erga_logo.png" style="max-height: 3rem; width: auto; max-width: 11rem; object-fit: contain;" />
+  <img alt="HPRC" src="/assets/media/usegalaxy/assembly/hprc_logo.png" style="max-height: 3rem; width: auto; max-width: 11rem; object-fit: contain;" />
 </div>
 
 <slot name="/eu/common/data-policy" />
