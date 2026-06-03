@@ -11,7 +11,16 @@ components: true
 
 During the [2019 Galaxy Community Conference](/events/gcc2019/) (GCC2019) metabolomics users and developers are invited to meet during a Birds of a Feather (BoF) event to plan the aims of this service.
 
-# Table of contents
+# Content
+
+- [Getting started](#getting-started)
+- [Training](#training)
+- [Available tools](#available-tools)
+  - [Workflow4Metabolomics tools](#workflow4metabolomics-tools)
+  - [Workflow4Metabolomics related tools](#workflow4metabolomics-related-tools)
+- [Gateways](#gateways)
+- [News and events](#news-and-events)
+- [Contributors](#contributors)
 
 # Get started
 
@@ -83,7 +92,7 @@ Other metabolomics specialized Galaxy servers:
 
 # News and Events
 
-{/_ TODO: carousel content _/}
+<Carousel />
 
 <iframe 
     title="Recent Galaxy Europe news"
