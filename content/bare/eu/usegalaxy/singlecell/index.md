@@ -20,6 +20,14 @@ The server is part if the European Galaxy server and is maintained by the [RNA B
 
 # Content
 
+- [Get started with #single-cell](#get-started-with-single-cell)
+- [Training](#training)
+- [Workflows](#workflows)
+- [Asking for help](#asking-for-help)
+- [Asking for tools](#asking-for-tools)
+- [Join the Single Cell Community of Practice](#join-the-single-cell-community-of-practice)
+- [Contributors](#contributors)
+
 # Get started with #single-cell
 
 Are you new to Galaxy, or returning after a long time, and looking for help to get started?
