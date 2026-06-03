@@ -1,6 +1,6 @@
 {
   "version": "26.1",
-  "fetchedAt": "2026-06-03T00:30:50.835Z",
+  "fetchedAt": "2026-06-03T13:26:53.327Z",
   "needsValidation": [
     {
       "number": 22643,
@@ -288,30 +288,6 @@
       }
     },
     {
-      "number": 22095,
-      "title": "Replace WinBox with native Vue scratchbook component",
-      "url": "https://github.com/galaxyproject/galaxy/pull/22095",
-      "author": {
-        "login": "dannon",
-        "url": "https://github.com/dannon",
-        "avatarUrl": "https://github.com/dannon.png"
-      },
-      "labels": [
-        "area/UI-UX",
-        "area/testing",
-        "kind/feature",
-        "area/testing/selenium",
-        "area/client",
-        "highlight"
-      ],
-      "tease": "Replaces the third-party WinBox dependency with a native Vue `WindowManagerWindow` component backed by a Pinia store. Styling follows Galaxy's GModal aesthetic -- rounded corners, white header, layered shadow, clean typography -- and the window manager supports minimize with taskbar-style stacking at the bottom of the viewport, clamps drag/resize to viewport",
-      "guardian": {
-        "login": "guerler",
-        "url": "https://github.com/guerler",
-        "avatarUrl": "https://github.com/guerler.png"
-      }
-    },
-    {
       "number": 22065,
       "title": "Treat SVG datasets as images in dataset preview",
       "url": "https://github.com/galaxyproject/galaxy/pull/22065",
@@ -452,6 +428,30 @@
         "login": "qchiujunhao",
         "url": "https://github.com/qchiujunhao",
         "avatarUrl": "https://github.com/qchiujunhao.png"
+      }
+    },
+    {
+      "number": 22095,
+      "title": "Replace WinBox with native Vue scratchbook component",
+      "url": "https://github.com/galaxyproject/galaxy/pull/22095",
+      "author": {
+        "login": "dannon",
+        "url": "https://github.com/dannon",
+        "avatarUrl": "https://github.com/dannon.png"
+      },
+      "labels": [
+        "area/UI-UX",
+        "area/testing",
+        "kind/feature",
+        "area/testing/selenium",
+        "area/client",
+        "highlight"
+      ],
+      "tease": "Replaces the third-party WinBox dependency with a native Vue `WindowManagerWindow` component backed by a Pinia store. Styling follows Galaxy's GModal aesthetic -- rounded corners, white header, layered shadow, clean typography -- and the window manager supports minimize with taskbar-style stacking at the bottom of the viewport, clamps drag/resize to viewport",
+      "guardian": {
+        "login": "guerler",
+        "url": "https://github.com/guerler",
+        "avatarUrl": "https://github.com/guerler.png"
       }
     },
     {
