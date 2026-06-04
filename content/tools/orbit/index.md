@@ -49,13 +49,25 @@ Loom/Orbit is in <strong>early alpha</strong>. Expect rough edges and breaking c
 
 ## Installation
 
-All installers are on the [Releases page](https://github.com/galaxyproject/loom/releases).
+All installers are on the [Releases page](https://github.com/galaxyproject/loom/releases). Pick the
+file that matches your computer:
 
-- **macOS Apple Silicon** (M1/M2/M3/M4) — `Orbit-<version>-arm64.dmg`
-- **Linux Debian / Ubuntu / Mint / Pop!\_OS** — `orbit_<version>_amd64.deb`
-- **Linux Fedora / RHEL / CentOS / openSUSE** — `orbit-<version>-1.x86_64.rpm`
-- **Linux any distro** — `Orbit-linux-x64-<version>.zip` (extract and run `orbit`)
-- **Windows** — WSL2 + Ubuntu, then use the `.deb` (see below)
+| Your system | Download | Notes |
+|---|---|---|
+| **macOS — Apple Silicon** (M1/M2/M3/M4) | `Orbit-<version>-arm64.dmg` | Recommended installer |
+| **macOS — Intel** | `Orbit-<version>-x64.dmg` | Recommended installer (v0.3.1+) |
+| **Linux — Debian / Ubuntu / Mint / Pop!\_OS** | `orbit_<version>_amd64.deb` | `sudo dpkg -i <file>` |
+| **Linux — Fedora / RHEL / CentOS / openSUSE** | `orbit-<version>-1.x86_64.rpm` | `sudo rpm -i <file>` |
+| **Linux — any distro** | `Orbit-linux-x64-<version>.zip` | Extract and run `orbit` (no system install) |
+| **Windows** | — | WSL2 + Ubuntu, then use the `.deb` (see below) |
+
+Not sure which Mac chip you have? Apple menu → **About This Mac**: **"Chip: Apple M…"** is Apple
+Silicon (use **arm64**); **"Processor: Intel…"** is Intel (use **x64**).
+
+The `*.zip` "portable" builds — `Orbit-darwin-arm64-<version>.zip` (macOS Apple Silicon),
+`Orbit-darwin-x64-<version>.zip` (macOS Intel), and `Orbit-linux-x64-<version>.zip` (Linux) — are
+unpacked-app alternatives to the installers above: no system install, just extract and run. The
+**Source code** archives are only for building Orbit yourself.
 
 ### macOS
 
@@ -148,7 +160,7 @@ DeepSeek V4 Pro and Flash are very cost-effective — roughly 10–20× cheaper 
 
 1. Log in to your Galaxy server (e.g., [usegalaxy.org](https://usegalaxy.org)).
 2. Open **User → Preferences → Manage API Key**.
-3. Click **Create a new key** and copy the key.
+3. If you already have a key, copy it; otherwise click **Create a new key**, then copy it.
 
 ## Entering credentials in Orbit
 
