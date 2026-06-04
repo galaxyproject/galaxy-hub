@@ -10,7 +10,7 @@ These servers have significant computational resources behind them and are capab
 
 # Servers
 
-There are currently four UseGalaxy servers:
+There are currently five UseGalaxy servers:
 
 ## UseGalaxy.org
 
@@ -27,6 +27,10 @@ There are currently four UseGalaxy servers:
 ## UseGalaxy.fr
 
 [UseGalaxy.fr](https://usegalaxy.fr) is a publicly accessible server aiming to support the French research community. [Playbooks](https://gitlab.com/ifb-elixirfr/usegalaxy-fr/infrastructure)
+
+## UseGalaxy.ca
+
+[UseGalaxy.ca](https://usegalaxy.ca) is a publicly accessible server supporting the Canadian research community. It is operated by the [Digital Research Alliance of Canada](https://alliancecan.ca), Calcul Québec and Université de Sherbrooke, and offers a bilingual English/French interface.
 
 (See the [UseGalaxy server directory](/use/) for more information on each.)
 
@@ -59,7 +63,6 @@ We're excited to see new services join us!
 These servers might not meet all of the requirements but are aiming to one day!
 
 - [UseGalaxy.be](https://usegalaxy.be) - working towards public playbooks, anonymous access.
-- [UseGalaxy.ca](https://usegalaxy.ca) - working towards public playbooks, anonymous access.
 - [UseGalaxy.no](https://usegalaxy.no) - restricted to norwegian.
 - [UseGalaxy.es](https://usegalaxy.es) - working on it.
 - [UseGalaxy.it](https://usegalaxy.it) - working on it.
