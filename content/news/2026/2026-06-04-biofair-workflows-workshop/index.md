@@ -10,7 +10,6 @@ contributions:
 tease: "Insights from a workshop on workflow FAIRification"
 tags: 
   - fair
-  - uk
   - workflow
 ---
 Galaxy’s magic wand for workflow FAIRification was one of the points of discussion during the workshop we recently ran at the [BioFAIR Showcase 2026](https://biofair.uk/biofair-annual-showcase-2026/) in Cambridge, UK. [BioFAIR](https://biofair.uk) is a UK-wide initiative to build a FAIR (Findable, Accessible, Interoperable, and Reusable) digital research infrastructure for the life sciences. The Showcase was a celebration of the last year of activity, including our own efforts as [BioFAIR Fellows](https://biofair.uk/fellows/), and a look at what to expect in the next twelve months.
