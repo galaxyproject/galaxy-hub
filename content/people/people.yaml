@@ -325,6 +325,17 @@ freiburg:
         orcid: 0009-0000-5458-1144
         galaxyadmin: true
 
+    IvoLeist:
+        name: Ivo Christopher Leist
+        title: Ph.D., Researcher
+        email: leist@informatik.uni-freiburg.de
+        location: "Build.: 079, Room: -1005"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@ivo-leist:matrix.org"
+        orcid: 0000-0002-9772-443X
+        twitter: IvoLeist
+        linkedin: ivo-leist
+        bio: Doing now what (life) scientists need next. 
 
 erasmusmc:
     andrew-emc:
