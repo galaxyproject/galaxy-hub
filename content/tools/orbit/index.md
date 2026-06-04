@@ -8,7 +8,7 @@ autotoc: true
 **Orbit** is an AI agent for biological (and not only) data analytics. It lets you have a conversation about your data, draft and approve analysis plans, route steps to Galaxy or run them locally, and watch everything accumulate in a *notebook* — the durable project record that persists across sessions.
 
 <div class="callout">
-Loom/Orbit is in <strong>early alpha</strong>. Expect rough edges and breaking changes between releases. File bugs at <a href="https://github.com/galaxyproject/loom/issues">github.com/galaxyproject/loom/issues</a>. Your reports help us make it better!
+Loom/Orbit is in <strong>beta</strong>. Expect rough edges and breaking changes between releases. The quickest way to report a bug is the in-app <strong>Feedback button</strong> (or the <code>/feedback</code> command); you can also file issues at <a href="https://github.com/galaxyproject/loom/issues">github.com/galaxyproject/loom/issues</a>. Your reports help us make it better!
 </div>
 
 **What can it do? Here's a few examples...**
@@ -49,30 +49,33 @@ Loom/Orbit is in <strong>early alpha</strong>. Expect rough edges and breaking c
 
 ## Installation
 
-All installers are on the [Releases page](https://github.com/galaxyproject/loom/releases).
+All installers are on the [Releases page](https://github.com/galaxyproject/loom/releases). Pick the
+file that matches your computer:
 
-- **macOS Apple Silicon** (M1/M2/M3/M4) — `Orbit-<version>-arm64.dmg`
-- **Linux Debian / Ubuntu / Mint / Pop!\_OS** — `orbit_<version>_amd64.deb`
-- **Linux Fedora / RHEL / CentOS / openSUSE** — `orbit-<version>-1.x86_64.rpm`
-- **Linux any distro** — `Orbit-linux-x64-<version>.zip` (extract and run `orbit`)
-- **Windows** — WSL2 + Ubuntu, then use the `.deb` (see below)
+| Your system | Download | Notes |
+|---|---|---|
+| **macOS — Apple Silicon** (M1/M2/M3/M4) | `Orbit-<version>-arm64.dmg` | Recommended installer |
+| **macOS — Intel** | `Orbit-<version>-x64.dmg` | Recommended installer (v0.3.1+) |
+| **Linux — Debian / Ubuntu / Mint / Pop!\_OS** | `orbit_<version>_amd64.deb` | `sudo dpkg -i <file>` |
+| **Linux — Fedora / RHEL / CentOS / openSUSE** | `orbit-<version>-1.x86_64.rpm` | `sudo rpm -i <file>` |
+| **Linux — any distro** | `Orbit-linux-x64-<version>.zip` | Extract and run `orbit` (no system install) |
+| **Windows** | — | WSL2 + Ubuntu, then use the `.deb` (see below) |
+
+Not sure which Mac chip you have? Apple menu → **About This Mac**: **"Chip: Apple M…"** is Apple
+Silicon (use **arm64**); **"Processor: Intel…"** is Intel (use **x64**).
+
+The `*.zip` "portable" builds — `Orbit-darwin-arm64-<version>.zip` (macOS Apple Silicon),
+`Orbit-darwin-x64-<version>.zip` (macOS Intel), and `Orbit-linux-x64-<version>.zip` (Linux) — are
+unpacked-app alternatives to the installers above: no system install, just extract and run. The
+**Source code** archives are only for building Orbit yourself.
 
 ### macOS
 
-Download `Orbit-<version>-arm64.dmg` from the [Releases page](https://github.com/galaxyproject/loom/releases).
+Download the `.dmg` for your chip (`arm64` for Apple Silicon, `x64` for Intel — see the table above
+if you're unsure which you have):
 
 1. Double-click the DMG and drag **Orbit** to **Applications**.
-2. Eject the DMG.
-
-<div class="callout">
-<strong>Intel Mac users:</strong> No pre-built installer is available for Intel Macs yet. Run Orbit from Terminal using either method below. Node.js 22.19+ is required (<a href="https://nodejs.org">nodejs.org</a>).<br /><br />
-<strong>Option A — Git:</strong>
-<pre>git clone --branch v0.1.1 --depth 1 https://github.com/galaxyproject/loom
-cd loom/app && npm install && npm start</pre>
-<strong>Option B — Tarball (no Git required):</strong>
-<pre>curl -L https://github.com/galaxyproject/loom/archive/refs/tags/v0.1.1.tar.gz | tar xz
-cd loom-0.1.1/app && npm install && npm start</pre>
-</div>
+2. Eject the DMG. The app is Developer-ID signed + notarized, so it opens with a normal double-click.
 
 ### Linux
 
@@ -153,7 +156,7 @@ DeepSeek V4 Pro and Flash are very cost-effective — roughly 10–20× cheaper 
 
 1. Log in to your Galaxy server (e.g., [usegalaxy.org](https://usegalaxy.org)).
 2. Open **User → Preferences → Manage API Key**.
-3. Click **Create a new key** and copy the key.
+3. If you already have a key, copy it; otherwise click **Create a new key**, then copy it.
 
 ## Entering credentials in Orbit
 
@@ -196,6 +199,8 @@ If you are using Anthropic API keys, we recommend starting with **Claude Sonnet 
 | `gpt-4o` | General reasoning, plan drafting | $2.50 / $10 |
 | `gpt-4o-mini` | Fast execution, cost-sensitive sessions | $0.15 / $0.60 |
 
+_`—` = list price not yet published; check the [OpenAI pricing page](https://openai.com/api/pricing/) for current rates._
+
 **Google Gemini**
 
 | Model | Best for | Price (in/out per 1M tokens) |
@@ -234,7 +239,7 @@ Switching mid-session is intentional — start on a capable model to design the 
 
 For most providers — Anthropic, Google, DeepSeek, Mistral, and others — Orbit connects through the provider's API. You pay per token, directly to the provider. Rates are shown in the tables above.
 
-For **OpenAI**, Orbit also supports signing in with your existing ChatGPT subscription. Instead of an API key, you authenticate through a browser sign-in flow (OAuth), and the models run against your subscription rather than the pay-per-token API. This is generally cheaper if you already pay for ChatGPT Plus or Pro. The OpenAI subscription provider is listed as **OpenAI (Codex)** in Preferences; click **Sign in with OpenAI** to authenticate.
+For **OpenAI**, Orbit also supports signing in with your existing ChatGPT subscription. Instead of an API key, you authenticate through a browser sign-in flow (OAuth), and the models run against your subscription rather than the pay-per-token API. This is generally cheaper if you already pay for ChatGPT Plus or Pro. The OpenAI subscription provider is listed as **OpenAI Codex (ChatGPT subscription)** in Preferences; click **Sign in with ChatGPT** to authenticate.
 
 Direct subscription auth currently works only for OpenAI. We are exploring whether similar flows can be added for Anthropic (Claude.ai) and Google (Gemini Advanced) in a future release.
 
@@ -320,6 +325,8 @@ Type `/` to open the autocomplete popup. Tab to complete; Enter submits.
 | `/cost` | Append the session token/cost breakdown to the notebook |
 | `/decisions` | Show the decision log |
 | `/connect` | Open Galaxy connection settings or switch to an existing profile |
+| `/execute` (`/run`) | Advance the next pending plan step (polls Galaxy, updates status in place) |
+| `/feedback` | Send a bug report / feedback (with optional diagnostics) to the Orbit team |
 | `/help` | Show the full command list |
 
 ## The notebook
@@ -367,7 +374,7 @@ The `/execute` command (also `/run`) tells the agent to advance the next pending
 
 Loom can fetch operational know-how from curated GitHub repos. The default repo is [`galaxyproject/galaxy-skills`](https://github.com/galaxyproject/galaxy-skills), seeded automatically on first use. It covers collection manipulation, Galaxy MCP usage, workflow report templates, Nextflow-to-Galaxy conversion, and tool development.
 
-Add additional skill repos in **Preferences → Skills**. Each entry is a URL under `github.com/galaxyproject/` (arbitrary repos are restricted in alpha to prevent prompt-injection). Fetched skills cache locally for 24 hours to cover offline use.
+Add additional skill repos in **Preferences → Skills**. Each entry is a URL under `github.com/galaxyproject/` (arbitrary repos are restricted during the beta to prevent prompt-injection). Fetched skills cache locally for 24 hours to cover offline use.
 
 ## Known issues
 
@@ -402,11 +409,15 @@ This is a transient **rate limit**, not a billing failure or a problem with your
 
 ## Getting help
 
-Questions, bug reports, and feature requests are welcome on the **Galaxy Help forum**:
+**Report a bug — easiest:** use the **Feedback button** inside Orbit, or the `/feedback` command in
+the CLI. It sends your report (with optional diagnostics) straight to the team. **Beta testers: this
+is your primary channel** — we count on a few reports per week.
 
-**[help.galaxyproject.org/c/orbit-support/16](https://help.galaxyproject.org/c/orbit-support/16)**
+**Questions, discussion, and feature requests:** the **Galaxy Help forum** —
+**[help.galaxyproject.org/c/orbit-support/16](https://help.galaxyproject.org/c/orbit-support/16)**.
 
-For bugs and crash reports, use the [GitHub issue tracker](https://github.com/galaxyproject/loom/issues).
+**Detailed bugs or crash reports** can also go to the
+[GitHub issue tracker](https://github.com/galaxyproject/loom/issues).
 
 ## Related resources
 
