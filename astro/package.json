@@ -37,6 +37,7 @@
     "@citation-js/core": "^0.6.9",
     "@citation-js/plugin-bibtex": "^0.6.9",
     "@fontsource/atkinson-hyperlegible": "^5.2.8",
+    "@galaxyproject/brand-tokens": "^0.1.0",
     "@nanostores/vue": "^1.0.1",
     "@sindresorhus/slugify": "^2.2.1",
     "@tailwindcss/typography": "^0.5.19",
