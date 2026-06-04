@@ -7,7 +7,7 @@ subsites: [all]
 main_subsite: eu
 contributions:
   authorship:
-    - reytakop
+    - reyhaneh-tavakoli
   funding:
     - uni-freiburg
     - uniisfahan
