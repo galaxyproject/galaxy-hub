@@ -59,20 +59,15 @@ All installers are on the [Releases page](https://github.com/galaxyproject/loom/
 
 ### macOS
 
-Download `Orbit-<version>-arm64.dmg` from the [Releases page](https://github.com/galaxyproject/loom/releases).
+From the [Releases page](https://github.com/galaxyproject/loom/releases), download the `.dmg` for your chip:
+
+- **Apple Silicon** (M1/M2/M3/M4): `Orbit-<version>-arm64.dmg`
+- **Intel**: `Orbit-<version>-x64.dmg` — supported from **v0.3.1** onward
+
+Not sure which you have? Apple menu → **About This Mac**: a line reading **"Chip: Apple M…"** is Apple Silicon (use **arm64**); **"Processor: Intel…"** is Intel (use **x64**).
 
 1. Double-click the DMG and drag **Orbit** to **Applications**.
-2. Eject the DMG.
-
-<div class="callout">
-<strong>Intel Mac users:</strong> No pre-built installer is available for Intel Macs yet. Run Orbit from Terminal using either method below. Node.js 22.19+ is required (<a href="https://nodejs.org">nodejs.org</a>).<br /><br />
-<strong>Option A — Git:</strong>
-<pre>git clone --branch v0.1.1 --depth 1 https://github.com/galaxyproject/loom
-cd loom/app && npm install && npm start</pre>
-<strong>Option B — Tarball (no Git required):</strong>
-<pre>curl -L https://github.com/galaxyproject/loom/archive/refs/tags/v0.1.1.tar.gz | tar xz
-cd loom-0.1.1/app && npm install && npm start</pre>
-</div>
+2. Eject the DMG. The app is Developer-ID signed + notarized, so it opens with a normal double-click.
 
 ### Linux
 
