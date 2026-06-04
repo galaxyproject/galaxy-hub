@@ -71,12 +71,8 @@ unpacked-app alternatives to the installers above: no system install, just extra
 
 ### macOS
 
-From the [Releases page](https://github.com/galaxyproject/loom/releases), download the `.dmg` for your chip:
-
-- **Apple Silicon** (M1/M2/M3/M4): `Orbit-<version>-arm64.dmg`
-- **Intel**: `Orbit-<version>-x64.dmg` — supported from **v0.3.1** onward
-
-Not sure which you have? Apple menu → **About This Mac**: a line reading **"Chip: Apple M…"** is Apple Silicon (use **arm64**); **"Processor: Intel…"** is Intel (use **x64**).
+Download the `.dmg` for your chip (`arm64` for Apple Silicon, `x64` for Intel — see the table above
+if you're unsure which you have):
 
 1. Double-click the DMG and drag **Orbit** to **Applications**.
 2. Eject the DMG. The app is Developer-ID signed + notarized, so it opens with a normal double-click.
