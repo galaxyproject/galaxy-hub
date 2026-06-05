@@ -1,7 +1,7 @@
 ---
 title: "BRC-Analytics at ASM-Microbe 2026"
 date: '2026-06-05'
-tease: "The annual gathering of the Galaxy Community with opportunities to hear latest developments, get training, and meet everyone involved."
+tease: "Open Community Forum to discuss activities at the NIAID BRCs."
 continent: NA
 location:
   name: "Courtyard by Marriott, Washington Downtown/Convention Center, 2nd floor, room Shaw A"
