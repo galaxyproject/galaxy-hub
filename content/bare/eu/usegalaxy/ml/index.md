@@ -85,10 +85,6 @@ Tool | Description | Reference
 <a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fsklearn_discriminant_classifier%2Fsklearn_discriminant_classifier" target="_top" title="sklearn_discriminant_classifier">sklearn_discriminant_classifier</a> | Linear and Quadratic Discriminant Analysis| [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
 <a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fsklearn_generalized_linear%2Fsklearn_generalized_linear" target="_top" title="sklearn_generalized_linear">sklearn_generalized_linear</a> | Generalized linear models for classification and regression | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
 <a href="https://ml.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fsklearn_clf_metrics%2Fsklearn_clf_metrics" target="_top" title="sklearn_clf_metrics">sklearn_clf_metrics</a> | Calculate metrics for classification performance  | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
-<<<<<<< HEAD
-
-=======
->>>>>>> 77b51f1eb (add bare page for ml)
 
 ## Regression
 
@@ -196,6 +192,7 @@ Tool | Description | Reference
 - [Qiang Gu](https://github.com/qiagu)
 - [Jeremy Goecks](https://github.com/jgoecks)
 - [Amirhossein Naghsh Nilchi](https://github.com/nilchia)
+- [Paulo Cilas Morais Lyra Junior](https://github.com/paulocilasjr)
 - [Anup Kumar](https://github.com/anuprulez)
 - [Bjoern Gruening](https://github.com/bgruening)
 - [Alireza Khanteymoori](https://github.com/khanteymoori)
