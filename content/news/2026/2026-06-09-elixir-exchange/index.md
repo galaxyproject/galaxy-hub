@@ -10,10 +10,6 @@ From March to May 2026, I had the opportunity to participate in the **ELIXIR Sta
 
 The exchange was hosted through collaborations with the **Collaborative Centre for Genomic Cancer Medicine** at the University of Melbourne and **Australian BioCommons**, with scientific supervision from Alan Rubin and close interaction with Gareth Price and the Galaxy Australia team.
 
-<p align="center">
-  <img src="./AlansGroupPhoto.jpeg" alt="Members of the Collaborative Centre for Genomic Cancer Medicine and collaborators during the ELIXIR Staff Exchange in Melbourne." width="300"/>
-</p>
-
 ## Why Deep Mutational Scanning?
 
 Deep mutational scanning (DMS) has become an important experimental technology for studying the effects of genetic variants at scale. Applications range from clinical variant interpretation and protein engineering to understanding viral evolution and fundamental questions in molecular biology.
@@ -32,10 +28,10 @@ The work explores how machine learning models can be used to study evolutionary 
 <table align="center" width="80%">
 <tr>
 <td width="50%">
-<img src="./mss26_talk1.jpeg" alt="Mutational Scanning Symposium talk" width="100%" />
+<img src="./mss26_talk1.jpg" alt="Mutational Scanning Symposium talk" width="100%" />
 </td>
 <td width="50%">
-<img src="./mss26_talk2.jpeg" alt="MSS26 talk title slide" width="100%" />
+<img src="./mss26_talk2.jpg" alt="MSS26 talk title slide" width="100%" />
 </td>
 </tr>
 </table>
@@ -69,17 +65,6 @@ During my stay, I delivered additional talks at:
 These presentations led to valuable discussions around variant interpretation, machine learning, FAIR data management, and the future of computational approaches for studying protein function.
 
 Presenting to international, institutional, and national audiences also gave me valuable experience in adapting scientific communication to different communities and levels of expertise.
-
-<table align="center" width="80%">
-<tr>
-<td width="50%">
-<img src="./MelbBio_talk1.jpg" alt="Melbourne bioinformatics group meeting talk" width="100%" />
-</td>
-<td width="50%">
-<img src="./MelbBio_talk2.jpg" alt="Melbourne bioinformatics group meeting discussion after the talk" width="100%" />
-</td>
-</tr>
-</table>
 
 ## Bringing DMS Infrastructure Closer to Galaxy
 
