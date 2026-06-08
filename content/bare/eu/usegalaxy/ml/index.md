@@ -7,7 +7,7 @@ components: true
 
 # Welcome to the Galaxy for research in AI, statistics and prediction hub
 
-<img src="/assets/media/usegalaxy/ml/machine_learning_logo.png" alt="ML Galaxy" style="float: right; width: min(35vw, 15rem); height: auto; margin: 0 0 1rem 1.5rem;" />
+<img src="/assets/media/usegalaxy/ml/grasp-logo.png" alt="Galaxy for research in AI, statistics and prediction" style="float:right; width: 20em; height: auto; margin: 0 0 1rem 1.5rem;" />
 
 The Galaxy for research in AI, statistics and prediction is a hub of tools, workflows and training materials for dedicated machine learning tasks such as data preprocessing, classification, regression, clustering, fine-tuning biological foundation models and visualisation to achieve end-to-end varied machine learning analyses.
 The complete set of resources are available on the [Galaxy platform](https://galaxyproject.org), which guarantees simple access, easy extension, flexible adaptation to personal needs, accelerated model training, and sophisticated and reproducible machine learning analyses independent of command-line knowledge.
