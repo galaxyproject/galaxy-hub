@@ -37,7 +37,7 @@ The schedule is where you can discover what’s happening when at GCC2026. Full 
 | 13:45 - 14:30 | Lightning talks                                                                                  |
 | 14:30 - 16:00 | [Posters 2](#posters-2--tuesday-jun-23-14301600) + ELIXIR virtual posters                        |
 | 16:00 - 18:00 | ELIXIR F2F                                                                                       |
-| 19:00 - 21:00 | Conference dinner                                                                                |
+| 19:00 - 21:00 | [Conference dinner](https://www.roofevents.fr/)                                                                                |
 
 </details>
 
