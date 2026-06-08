@@ -19,7 +19,7 @@ The hub provides you with a Swiss Army knife of [Scikit-learn](https://scikit-le
 The hub is mainly developed by the [Goecks Lab](https://goeckslab.org) and the [European Galaxy project](https://galaxyproject.eu/). The [German Network for Bioinformatics Infrastructure (de.NBI)](http://www.denbi.de),
 which runs the German [ELIXIR Node](https://www.elixir-europe.org/), provides the necessary compute clusters with CPUs and GPU resources.
 
-The project is a community effort, please jump in, ask questions, contribute to the development of new tools, workflows or trainings and research and learn along the way!
+This project is a community effort, so feel free to jump in, ask questions, and contribute to the development of new tools, workflows, training materials, and research. Learn, share ideas, and grow with the community along the way!
 
 # Content
 
