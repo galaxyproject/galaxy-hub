@@ -1417,6 +1417,19 @@ Moderator: Yvan Le Bras
   <summary>
     <span class="gcc-talk-time">26</span>
     <span class="gcc-talk-main">
+      <span class="gcc-talk-title">Deployment and Applications of Galaxy in Research Activities at Limagrain</span>
+      <span class="gcc-talk-authors"><strong>Chaouchi Malek</strong>, Duge De Bernonville Thomas, Faubladier Michael, Floreau Julian, Giannone Gaetan, Joynson Ryan, Roziere Julien</span>
+    </span>
+    <span class="gcc-talk-poster"></span>
+  </summary>
+  <div class="gcc-talk-abstract">
+    <p>Limagrain is an international agricultural cooperative group specializing in field crop and vegetable seeds, as well as cereal products and bakery, with research activities heavily relying on genomic data. In this context, we have deployed an internal instance of the Galaxy platform to facilitate access to bioinformatics analyses for a broad range of users. Today, more than 150 users across multiple research teams rely on this infrastructure to run both community-provided Galaxy tools and internally developed tools. These internal developments span multiple programming languages and include Nextflow pipelines integrated into Galaxy through dedicated interfaces. Galaxy has become a central component of our analytical ecosystem, enabling reproducible, traceable, and user-friendly analyses. The implemented workflows support a variety of applications, including molecular marker development for breeding programs, candidate gene discovery, sequencing project management and analysis, as well as large-scale genotyping activities. This poster will present the architecture of our Galaxy instances and the types of tools and workflows deployed.</p>
+  </div>
+</details>
+<details class="gcc-talk">
+  <summary>
+    <span class="gcc-talk-time">27</span>
+    <span class="gcc-talk-main">
       <span class="gcc-talk-title">Galaxy Ecology: 2026 update</span>
       <span class="gcc-talk-authors"><strong>Le Bras Yvan</strong>, Seguineau Pauline, Galaxy Ecology Community</span>
     </span>
@@ -1430,7 +1443,7 @@ Moderator: Yvan Le Bras
 </details>
 <details class="gcc-talk">
   <summary>
-    <span class="gcc-talk-time">27</span>
+    <span class="gcc-talk-time">28</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">Natural Language Processing in Galaxy: Integrating Stanford CoreNLP and spaCy for the Digital Humanities</span>
       <span class="gcc-talk-authors"><strong>Schneider Daniela</strong>, Suderman Keith</span>
@@ -1447,7 +1460,7 @@ Moderator: Yvan Le Bras
 </details>
 <details class="gcc-talk">
   <summary>
-    <span class="gcc-talk-time">28</span>
+    <span class="gcc-talk-time">29</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">Advancing Earth System Research Through Galaxy, Data Terra, and EOSC Collaboration</span>
       <span class="gcc-talk-authors"><strong>Jossé Marie</strong>, Seguineau Pauline, Le Bras Yvan, Detoc Jérôme, Norvez Olivier, Grellet Sylvain, Rizzo Alessandro, Keuchkerian Samuel, Delaporte Pascal, Bodéré Erwan, Sarramia David, Guimont Mathieu</span>
@@ -1464,7 +1477,7 @@ Moderator: Yvan Le Bras
 </details>
 <details class="gcc-talk">
   <summary>
-    <span class="gcc-talk-time">29</span>
+    <span class="gcc-talk-time">30</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">Small Scale Admins</span>
       <span class="gcc-talk-authors"><strong>Hotz Hans-rudolf</strong>, Lopez-delisle Lucille, Goué Nadia, Bernt Matthias, Čech Martin, Davis John, Visan Vlad</span>
@@ -1477,7 +1490,7 @@ Moderator: Yvan Le Bras
 </details>
 <details class="gcc-talk">
   <summary>
-    <span class="gcc-talk-time">30</span>
+    <span class="gcc-talk-time">31</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">Microbiology Galaxy Lab: The first community-driven gateway for reproducible and FAIR analysis of microbiological data</span>
       <span class="gcc-talk-authors"><strong>Batut Bérénice</strong>, Nasr Engy, Pechlivanis Nikos, Strepis Nikolaos, Zierep Paul</span>
@@ -1490,7 +1503,7 @@ Moderator: Yvan Le Bras
 </details>
 <details class="gcc-talk">
   <summary>
-    <span class="gcc-talk-time">31</span>
+    <span class="gcc-talk-time">32</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">The Galaxy community in Switzerland</span>
       <span class="gcc-talk-authors"><strong>Lopez-delisle Lucille</strong>, Hotz Hans-rudolf, Thankam Sreedharan Vipin</span>
@@ -1503,7 +1516,7 @@ Moderator: Yvan Le Bras
 </details>
 <details class="gcc-talk">
   <summary>
-    <span class="gcc-talk-time">32</span>
+    <span class="gcc-talk-time">33</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">Navigating Galaxy’s Growth: How CoDex Lower Barriers to Access</span>
       <span class="gcc-talk-authors"><strong>Correard Solenne</strong>, Bretaudeau Anthony, Zierep Paul, Batut Bérénice</span>
@@ -1518,7 +1531,7 @@ Moderator: Yvan Le Bras
 </details>
 <details class="gcc-talk">
   <summary>
-    <span class="gcc-talk-time">33</span>
+    <span class="gcc-talk-time">34</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">The Biodiversity Genomics Galaxy Lab: A Collaborative Hub with curated tools, workflows and training</span>
       <span class="gcc-talk-authors"><strong>Correard Solenne</strong>, Batut Bérénice, ELIXIR Biodiversity Community, Waterhouse Robert M., Bretaudeau Anthony</span>
@@ -1531,7 +1544,7 @@ Moderator: Yvan Le Bras
 </details>
 <details class="gcc-talk">
   <summary>
-    <span class="gcc-talk-time">34</span>
+    <span class="gcc-talk-time">35</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">SPOC: Galaxy Single-cell & sPatial Omics Community of practice</span>
       <span class="gcc-talk-authors"><strong>Videm Pavankumar</strong>, SPOC</span>
@@ -1544,7 +1557,7 @@ Moderator: Yvan Le Bras
 </details>
 <details class="gcc-talk">
   <summary>
-    <span class="gcc-talk-time">35</span>
+    <span class="gcc-talk-time">36</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">Towards an ODATIS Galaxy Environment for Reproducible Cross-Domain Marine Data Analysis</span>
       <span class="gcc-talk-authors"><strong>Leroi Laura</strong>, Jossé Marie, Caer Gwenaël, Detoc Jérôme</span>
@@ -1557,7 +1570,7 @@ Moderator: Yvan Le Bras
 </details>
 <details class="gcc-talk">
   <summary>
-    <span class="gcc-talk-time">36</span>
+    <span class="gcc-talk-time">37</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">Launching the Galaxy UK Special Interest Group: National ecosystem coordination supported by the BioFAIR Fellowship</span>
       <span class="gcc-talk-authors"><strong>Soranzo Nicola</strong>, Loach Marisa</span>
@@ -2098,6 +2111,19 @@ Moderator: Yvan Le Bras
   <div class="gcc-talk-abstract">
     <p>At Oak Ridge National Laboratory (ORNL), we operate the Neutrons Data Interpretation
     Platform (NDIP). This is an instance of Galaxy that manages software tools and workflows used by scientists performing neutron scattering experiments at the Spallation Neutron Source (SNS) and High Flux Isotope Reactor (HFIR) facilities. The software needed to analyze the data produced at these facilities is a combination of both in-house and oL-the- shelf software. Making oL-the-shelf software available to our users through Galaxy has proven to be a significant barrier to adoption of NDIP. This software is typically specific to neutron scattering techniques, such as single-crystal diLraction versus powder diLraction, and is sometimes specific to a single instrument at the SNS or HFIR. Additionally, the software can be packaged as desktop applications, which can be diLicult to integrate into Galaxy as interactive tools. Due to the large volume and high scientific complexity of desktop applications we need to support, it is impractical for us to implement the functionality they provide in software tools built natively for Galaxy. Instead, we require an approach for integrating this software as is in an eLicient manner, while still presenting a comparable user experience to that of the original application.</p><p>Our approach bundles the target desktop application, tigerVNC, openbox, and noVNC together into Docker images that are run as Docker containers through Galaxy’s interactive tool functionality. tigerVNC allows us to connect the desktop application to a remote desktop server that supports scaling to the window size of the user’s browser. Openbox provides the ability for users to eLectively manage desktop windows, which is necessary for multi-window applications. noVNC provides a browser-based client capable of connecting to the tigerVNC server that can also be easily exposed to the user through the Galaxy interactive tool proxy. We have additionally created a template for building Docker images with these technologies that has significantly reduced the turnaround time for releasing new Galaxy tools requiring this functionality.</p><p>We have successfully applied this approach to a suite of software tools in use at the TOPAZ instrument at the SNS. Notably, this suite includes Jana2020, a Windows-only desktop application developed outside of ORNL for solving crystal structures. Through NDIP, we can present not only an equivalent user experience, but an enhanced one for scientists as we remove the need to maintain access to a Windows computer to leverage its capabilities and augment its capabilities through Galaxy.</p><p>In this talk, we detail our approach for integrating interactive desktop applications into NDIP. We additionally present examples of how we use it in tools to enable eLective, eLicient science to be performed at the SNS and HFIR.</p>
+  </div>
+</details>
+<details class="gcc-talk">
+  <summary>
+    <span class="gcc-talk-time">37</span>
+    <span class="gcc-talk-main">
+      <span class="gcc-talk-title"></span>
+      <span class="gcc-talk-authors"></span>
+    </span>
+    <span class="gcc-talk-poster gcc-talk-poster-empty">-</span>
+  </summary>
+  <div class="gcc-talk-abstract">
+    <p>TBD</p>
   </div>
 </details>
 </div>

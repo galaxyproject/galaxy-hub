@@ -23,6 +23,11 @@ The **Galaxy Community Conference (GCC)** is the flagship event for one of the m
 </a>
 
 <hr/>
+<a href="https://www.limagrain.com/en" target="_blank">
+  <img src="/images/logos/limagrain-logo-text.png" alt="Limagrain" style="max-width: 25%;" />
+</a>
+
+<hr/>
 
 # Why sponsor GCC2026 ?
 
