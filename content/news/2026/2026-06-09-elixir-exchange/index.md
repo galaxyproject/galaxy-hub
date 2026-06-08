@@ -5,6 +5,10 @@ tease: "How an ELIXIR Staff Exchange connected the mutational scanning community
 contributions:
   authorship:
     - plushz
+  funding:
+    - elixir-europe
+    - uni-freiburg
+    
 ---
 From March to May 2026, I had the opportunity to participate in the **ELIXIR Staff Exchange Programme**, spending just over two months in Melbourne, Australia. The exchange brought together researchers and infrastructure developers from **Galaxy Europe**, **Australian BioCommons**, **Galaxy Australia**, and the **University of Melbourne** around a shared goal: making deep mutational scanning (DMS) data and analysis more FAIR, accessible, and reproducible.
 
@@ -36,7 +40,7 @@ The work explores how machine learning models can be used to study evolutionary 
 </tr>
 </table>
 
-I also presented a poster **ELIXIR Activities Supporting a FAIR Future for Life Science**
+I also presented a poster, [*ELIXIR Activities Supporting a FAIR Future for Life Science*](https://doi.org/10.5281/zenodo.20599058).
 
 The poster introduced ELIXIR's role in building sustainable, interoperable, and FAIR life science infrastructure, creating opportunities to discuss how DMS resources and workflows could further benefit from integration with ELIXIR services.
 
