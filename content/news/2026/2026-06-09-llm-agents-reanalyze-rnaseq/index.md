@@ -1,5 +1,5 @@
 ---
-title: "Eight AI agents, one RNA-seq dataset: what we learned running LLMs on Galaxy"
+title: "Eight LLMs, one RNA-seq dataset: what we learned controlling Galaxy from Orbit"
 date: "2026-06-09"
 tease: "We pointed eight frontier LLMs at the same Candida auris RNA-seq study and asked each to reanalyze it on Galaxy through Orbit. Six reproduced the headline result — and the failures taught us more than the successes."
 tags: [ai, llm, rna, reproducibility]
@@ -17,7 +17,7 @@ We took the bulk RNA-seq data from [Santana et al. 2023, *Science*](https://pmc.
 
 The task was identical for every model: build a paired-end collection from the six samples (BioProject `PRJNA904261`), run the IWC `rnaseq-pe` and `rnaseq-de` workflows on the current *C. auris* B8441 v3 assembly, reproduce the two key `DESeq2` contrasts from the paper, and recreate a labeled volcano plot highlighting *SCF1*. The lineup: Claude Opus, Sonnet, and Haiku; OpenAI GPT-5.5 (two attempts); Google Gemini 2.5 Pro and Gemini 3.5 Flash; and DeepSeek.
 
-## The good news: the science reproduces
+## All successful analyses reproduce published result
 
 Six of the eight runs completed the full analysis, and all six independently reproduced the paper's central finding — *SCF1* is dramatically down-regulated both in the *tnSWI1* mutant and in the poorly-adhesive AR0387 isolate (log2 fold-change ≈ −6.8 to −7.4, adjusted *p* ≈ 0).
 
