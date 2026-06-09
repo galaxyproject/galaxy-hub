@@ -59,5 +59,3 @@ The core message of our presentation was that DARIAH is uniquely positioned to b
 By testing and guiding the adoption of actionable workflows, we can transform infrastructures from mere collections of services into truly collaborative research platforms. When we make research reproducible and transparent, we increase the social value of our work and empower scholars across the globe to build upon each other's discoveries.
 
 We left Rome feeling energised and inspired. A huge thank you to our collaborators and the DARIAH community for a warm welcome and the many fruitful discussions. Here's to a future of open, reproducible, and collaborative research in the arts and humanities!
-
-#DigitalHumanities #GalaxyProject #DARIAH #OpenScience #ReproducibleResearch #Rome2024
