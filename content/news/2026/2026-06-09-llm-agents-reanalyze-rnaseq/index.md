@@ -13,7 +13,7 @@ What happens when you hand a published bioinformatics analysis to an AI agent an
 
 ## The setup
 
-We took the bulk RNA-seq data from [Santana et al. 2023, *Science*](https://pmc.ncbi.nlm.nih.gov/articles/PMC11235122/)—the study that identified **Scf1** as a *Candida auris*-specific adhesin—and asked eight large language models to reanalyze it independently. Each model drove an [Orbit](https://github.com/galaxyproject/loom) session (the agentic interface to Galaxy built on the Loom harness), connected to [usegalaxy.org](https://usegalaxy.org) through the Galaxy MCP server[ADD LINK], with reference data from [BRC-analytics](https://github.com/galaxyproject/brc-analytics).
+We took the bulk RNA-seq data from [Santana et al. 2023, *Science*](https://pmc.ncbi.nlm.nih.gov/articles/PMC11235122/)—the study that identified **Scf1** as a *Candida auris*-specific adhesin—and asked eight large language models to reanalyze it independently. Each model drove an [Orbit](https://github.com/galaxyproject/loom) session (the agentic interface to Galaxy built on the Loom harness), connected to [usegalaxy.org](https://usegalaxy.org) through the [Galaxy MCP server](https://github.com/galaxyproject/galaxy-mcp), with reference data from [BRC-analytics](https://github.com/galaxyproject/brc-analytics).
 
 The task was identical for every model: build a paired-end collection from the six samples (BioProject `PRJNA904261`), run the IWC `rnaseq-pe` and `rnaseq-de` workflows on the current *C. auris* B8441 v3 assembly, reproduce the two key `DESeq2` contrasts from the paper, and recreate a labeled volcano plot highlighting *SCF1*. The lineup: Claude Opus, Sonnet, and Haiku; OpenAI GPT-5.5 (two attempts); Google Gemini 2.5 Pro and Gemini 3.5 Flash; and DeepSeek.
 
@@ -23,15 +23,15 @@ Six of the eight runs completed the full analysis, and all six independently rep
 
 ![SCF1 expression across the eight reanalysis attempts](./scf1-across-attempts.png)
 
-**Panel B** shows how tightly the completing runs agree on the *SCF1* fold-change—every model lands in a narrow band, with only Opus mildly attenuated because it reported raw, unshrunken `DESeq2` estimates. The underlying signal is dramatic: *SCF1* falls from ~46,000 normalized counts in the adhesive wild type to a few hundred in the mutant and the poorly-adhesive isolate. The result is robust across models, and robust to a newer genome annotation than the original authors used.
+**Panel A** shows how tightly the completing runs agree on the *SCF1* fold-change—every model lands in a narrow band, with only Opus mildly attenuated because it reported raw, unshrunken `DESeq2` estimates. The underlying signal is dramatic: *SCF1* falls from ~46,000 normalized counts in the adhesive wild type to a few hundred in the mutant and the poorly-adhesive isolate. The result is robust across models, and robust to a newer genome annotation than the original authors used.
 
 ## Gene names if a %^&$-ing nightmare
 
-The paper used the B8441 *v2* assembly, whose locus tags read like `B9J08_001458` (SCF1). The current *v3* assembly re-numbered those tags—and not by a simple zero-strip. The naive guess `B9J08_001458` → `B9J08_01458` resolves to a *different* gene, one with no differential expression at all. Two models initially followed that mapping and reported *SCF1* as not differentially expressed—a false negative—before recovering. The correct way to fix this poroblem is protein-level reciprocal-best-hit matching with DIAMOND[ADD REFERENCE], which maps `B9J08_001458` to v3 `B9J08_03708`. 
+The paper used the B8441 *v2* assembly, whose locus tags read like `B9J08_001458` (SCF1). The current *v3* assembly re-numbered those tags—and not by a simple zero-strip. The naive guess `B9J08_001458` → `B9J08_01458` resolves to a *different* gene, one with no differential expression at all. Two models initially followed that mapping and reported *SCF1* as not differentially expressed—a false negative—before recovering. The correct way to fix this poroblem is protein-level reciprocal-best-hit matching with [DIAMOND](https://doi.org/10.1038/s41592-021-01101-x), which maps `B9J08_001458` to v3 `B9J08_03708`. 
 
 ## Cost spanned ~47× for the same answer
 
-Because Galaxy compute is free on usegalaxy.org, the only cost was the LLM API spend, which makes the figures directly comparable (**Panel A**). They ranged ~47×, from $131.83 for the most thorough run—fully labeled figures and a polished report—down to $2.82 for a run that reached the same scientific conclusion. 
+Because Galaxy compute is free on usegalaxy.org, the only cost was the LLM API spend, which makes the figures directly comparable (**Panel B**). They ranged ~47×, from $131.83 for the most thorough run—fully labeled figures and a polished report—down to $2.82 for a run that reached the same scientific conclusion. 
 
 We also observed a clean demonstration of Galaxy's reproducibility: two runs that used the unmodified IWC workflows with identical parameters produced **bit-identical** `DESeq2` tables, matching to twelve figures after the decimal divider. 
 
