@@ -28,7 +28,7 @@ Its mission is to develop and operate the infrastructure necessary to help schol
 Once a year, they host an annual meeting, this time in Rome, focusing on the topic: "Digital Arts and Humanities With and For Society: Building Infrastructures of Engagement".
 
 <p align="center">
-  <img src="/2026-06-02-dariah/dariah2026.jpeg" alt="DARIAH Logos" width="300"/>
+  <img src="./dariah2026.jpeg" alt="DARIAH Logos" width="300"/>
 </p>
 
 # Infrastructures of Engagement
