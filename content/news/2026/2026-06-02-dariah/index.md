@@ -27,7 +27,9 @@ More than just a technical resource, DARIAH is a vast network of expertise, tool
 Its mission is to develop and operate the infrastructure necessary to help scholars build, analyse, and interpret digital resources. 
 Once a year, they host an annual meeting, this time in Rome, focusing on the topic: "Digital Arts and Humanities With and For Society: Building Infrastructures of Engagement".
 
-![DARIAH Logos](/2026-06-02-dariahdariah2026.jpeg)
+<p align="center">
+  <img src="./2026-06-02-dariah/dariah2026.jpeg" alt="DARIAH Logos" width="300"/>
+</p>
 
 # Infrastructures of Engagement
 
