@@ -26,15 +26,9 @@ Here are some examples:
 
 ### Blog posts concerning the Humanities and Social Sciences
 
-- We explored Instagram posts from the Bavarian State elections provided by the [BERD Data Portal](https://www.berd-nfdi.de/data-portal/). [Read more](https://galaxyproject.org/news/2025-05-20-berd-wf/) to see how the dataset was cleaned and mined to visualise not only the most frequent words in the post to get an idea of its contents, but also extracted and mapped where most of those posts originated in just a couple of steps in Galaxy.
+Looking for more inspiration and use-cases for Galaxy in the arts, Humanities and Social Sciences?
 
-- Galaxy Europe joined the DARIAH annual event 2026. Read more on executable workflows in the DARIAH context [in this blogpost](https://galaxyproject.org/news/2026-06-02-dariah/).
-
-- Data and Data analysis go hand in hand - also in the arts and humanities. Read [the blogpost](https://galaxyproject.org/news/2026-02-03-da-sch/) on how the Swiss data repository DaSCH and Galaxy create synergies in the Humanities.
-
-- Check out [this article](https://galaxyproject.org/news/2024-09-02-chat-gpt/) to get an example workflow of how you can automatically transcribe and translate an audio file using Galaxy.
-
-- [Explore](https://galaxyproject.org/news/2025-11-21-eosc-symposium-berd/) the use case that the team from the [BERD Data Portal](https://www.berd-nfdi.de/data-portal/) presented at the European Open Science Cloud (EOSC) Symposium 2025 using Galaxy. It highlights how the platform can help unlock data from large volumes of unstructured, non-machine-readable B-Plans.
+Find a list of our blogposts [on the Galaxy Hub](https://galaxyproject.org/tags/humanities/)!
 
 # What is available
 
