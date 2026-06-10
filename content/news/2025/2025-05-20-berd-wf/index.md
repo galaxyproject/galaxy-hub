@@ -5,7 +5,7 @@ tease: "Find out how to explore your Data from the NFDI BERD Data Portal directl
 continent: EU
 contact: Daniela Schneider
 gtn: false
-tags: [news]
+tags: [news, humanities, berd, nfdi, repository, workflows]
 subsites: [all]
 ---
 In April, we included the [Berd4NFDI](https://www.berd-nfdi.de/about/) data portal in [Galaxy](https://galaxyproject.org/news/2025-04-09-berd-integration/). 
