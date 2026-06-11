@@ -1375,16 +1375,16 @@ Moderator: Yvan Le Bras
     <span class="gcc-talk-time">23</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">A Reproducible Galaxy Workflow for Genome Assembly and SNP Analysis of Hibiscus Chlorotic Ringspot Virus (HRS2 Isolate)</span>
-      <span class="gcc-talk-authors"><strong>Nikita Nikita</strong>, Dhir Sunny</span>
+      <span class="gcc-talk-authors"><strong>Nikita Nikita</strong>, Dhir Sunny, Md Salik Noorani</span>
     </span>
     <span class="gcc-talk-poster gcc-talk-poster-empty">-</span>
   </summary>
   <div class="gcc-talk-abstract">
     <p>Reproducible and accessible workflows are essential for reliable analysis of high-throughput sequencing (HTS) data in virology. The Galaxy platform provides a user-friendly environment to address this need. Here, we present a Galaxy-based workflow for genome assembly and SNP analysis of Hibiscus chlorotic ringspot virus (HCRSV; species <em>Betacarmovirus hibisci</em>) from <em>Hibiscus rosa-sinensis</em>.
-</p><p>Raw HTS data were processed on Galaxy Europe. Read quality was assessed using FastQC, followed by trimming and filtering with Trimmomatic. High-quality reads were assembled de novo using Trinity, and contigs were screened against viral databases using NCBI BLAST+ (megaBLAST), leading to the identification of HCRSV with a genome size of 3.913 kb.
-</p><p>For downstream analysis, reads were aligned to the reference genome using Bowtie2, and variant calling was performed using DeepVariant. A total of 233 SNPs were identified, including 217 in coding regions (146 transitions and 71 transversions) and 16 in non-coding regions, with a transition/transversion ratio of 2.056. Among the total 293 protein-coding mutations, 207 were synonymous and 86 non-synonymous substitutions, with 39 conservative and 47 non-conservative changes, suggesting potential functional impacts.
-</p><p>The HRS2 isolate showed 92.63% nucleotide identity with the reference genome of HCRSV. This study demonstrates how Galaxy enables integrated, reproducible analysis of viral genomes from raw data to variant interpretation. The workflow can be readily adapted for similar studies in plant virus research and genomics.
-</p><p><br /></p>
+    </p><p>Raw HTS data were processed on Galaxy Europe. Read quality was assessed using FastQC, followed by trimming and filtering with Trimmomatic. High-quality reads were assembled de novo using Trinity, and contigs were screened against viral databases using NCBI BLAST+ (megaBLAST), leading to the identification of HCRSV with a genome size of 3.913 kb.
+    </p><p>For downstream analysis, reads were aligned to the reference genome using Bowtie2, and variant calling was performed using DeepVariant. A total of 233 SNPs were identified, including 217 in coding regions (146 transitions and 71 transversions) and 16 in non-coding regions, with a transition/transversion ratio of 2.056. Among the total 293 protein-coding mutations, 207 were synonymous and 86 non-synonymous substitutions, with 39 conservative and 47 non-conservative changes, suggesting potential functional impacts.
+    </p><p>The HRS2 isolate showed 92.63% nucleotide identity with the reference genome of HCRSV. This study demonstrates how Galaxy enables integrated, reproducible analysis of viral genomes from raw data to variant interpretation. The workflow can be readily adapted for similar studies in plant virus research and genomics.
+    </p><p><br /></p>
   </div>
 </details>
 <details class="gcc-talk">
