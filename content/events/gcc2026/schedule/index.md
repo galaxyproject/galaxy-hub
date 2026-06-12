@@ -50,7 +50,7 @@ The schedule is where you can discover what’s happening when at GCC2026. Full 
 | 10:00 - 10:30 | Break                                                                                            |
 | 10:30 - 12:00 | [Talks 6](#talks-6-ai-workflows-and-guided-analysis)                                             |
 | 12:00 - 13:00 | Lunch                                                                                            |
-| 13:00 - 14:30 | [Showcase panel & discussion](/events/gcc2026/highlights#panel-discussion)                       |
+| 13:00 - 14:30 | [Fishbowl & discussion](/events/gcc2026/highlights#panel-discussion)                       |
 | 14:30 - 15:00 | Group photo / break                                                                              |
 | 15:00 - 16:30 | [Talks 7](#talks-7-community-platforms-mature-ecosystems-and-field-reports)                      |
 | 16:30 - 17:00 | [Galaxy in Research](/events/gcc2026/highlights#galaxy-in-research)                              |
@@ -2117,13 +2117,13 @@ Moderator: Yvan Le Bras
   <summary>
     <span class="gcc-talk-time">37</span>
     <span class="gcc-talk-main">
-      <span class="gcc-talk-title"></span>
-      <span class="gcc-talk-authors"></span>
+      <span class="gcc-talk-title">Vizly: a reusable visualisation library for proteomics and beyond: towards Galaxy integration</span>
+      <span class="gcc-talk-authors"><strong>Tichshenko Natalia</strong>, Diaz Adriàn, Martens Lennart, Vranken Wim, Ramasamy Pathmanaban</span>
     </span>
     <span class="gcc-talk-poster gcc-talk-poster-empty">-</span>
   </summary>
   <div class="gcc-talk-abstract">
-    <p>TBD</p>
+    <p>Proteins perform diverse cellular functions that depend not only on their sequence and structure, but also on dynamic biophysical properties and post-translational modifications (PTMs). Recent advances in proteomics technologies have generated an unprecedented volume of data related to protein identification, characterization, and function. Communicating this complexity to research communities requires visualization tools that are both scientifically accurate and accessible.</p><p>Effective data visualisation is essential for the interpretation of complex biological datasets, yet many tools implement their own visualisation logic independently, leading to duplicated effort and inconsistent user experiences. Here we present a modular, open-source visualisation library designed to address this gap, initially developed to serve proteomics applications but built from the ground up to be reusable across different scientific domains.</p><p>The library provides a diverse set of visualisation components including network representations, positional annotations, and peptide mapping, and is already being used across three tools developed within our group. Scop3P (published) and Scop3PTM (submitting in progress), leverage the library to visualise post-translational modification data on protein structures and sequences. Protean, currently in development, further demonstrates the library's flexibility by applying it to a distinct but related use case. The consistent reuse of the library across these tools validates its design as a shared foundation rather than a tool-specific solution.</p><p>Beyond our own applications, we believe this library has the potential to benefit a wider audience. Researchers and developers building data-rich applications, whether in proteomics or other omics domains, could adopt the library directly rather than implementing visualisation components from scratch. This is particularly relevant in the context of Galaxy, where a growing number of tools could benefit from standardised, high-quality visualisation capabilities.</p><p>This work presents the library's architecture, its current visualisation components, and the use cases it supports. Crucially, we are at an early stage of considering Galaxy integration, and this conference represents an opportunity to engage with the community, gather feedback, and better understand where such a library could be most valuable within the Galaxy ecosystem.</p>
   </div>
 </details>
 </div>
