@@ -4,7 +4,7 @@ date: "2026-06-11"
 tease: "usegalaxy.eu can now dispatch jobs to the bwForCluster NEMO over Pulsar's relay transport, no inbound ports and no message broker on the cluster."
 subsites: [global, eu]
 main_subsite: eu
-tags: [pulsar, hpc, usegalaxy.eu, infrastructure]
+tags: [pulsar, infrastructure, devops, eu]
 contributions:
   authorship:
     - dSizovs
