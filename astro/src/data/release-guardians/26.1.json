@@ -1,6 +1,6 @@
 {
   "version": "26.1",
-  "fetchedAt": "2026-06-03T13:26:53.327Z",
+  "fetchedAt": "2026-06-12T00:27:09.878Z",
   "needsValidation": [
     {
       "number": 22643,
@@ -195,27 +195,6 @@
       }
     },
     {
-      "number": 22640,
-      "title": "Replace QuotaUsageProvider with Pinia store + enhancements",
-      "url": "https://github.com/galaxyproject/galaxy/pull/22640",
-      "author": {
-        "login": "davelopez",
-        "url": "https://github.com/davelopez",
-        "avatarUrl": "https://github.com/davelopez.png"
-      },
-      "labels": [
-        "kind/enhancement",
-        "area/UI-UX",
-        "kind/refactoring"
-      ],
-      "tease": "Removes the old provider pattern and uses a new `quotaUsageStore` to ensure quotas are properly reactive across the app. Also ensures the quota values are updated when a \"likely quota change\" event happens, such as when a history is updated (*), a cleanup operation is complete, or a quota refresh",
-      "guardian": {
-        "login": "ksuderman",
-        "url": "https://github.com/ksuderman",
-        "avatarUrl": "https://github.com/ksuderman.png"
-      }
-    },
-    {
       "number": 22606,
       "title": "Add bulk dataset storage migration",
       "url": "https://github.com/galaxyproject/galaxy/pull/22606",
@@ -368,6 +347,27 @@
         "login": "nilchia",
         "url": "https://github.com/nilchia",
         "avatarUrl": "https://github.com/nilchia.png"
+      }
+    },
+    {
+      "number": 22640,
+      "title": "Replace QuotaUsageProvider with Pinia store + enhancements",
+      "url": "https://github.com/galaxyproject/galaxy/pull/22640",
+      "author": {
+        "login": "davelopez",
+        "url": "https://github.com/davelopez",
+        "avatarUrl": "https://github.com/davelopez.png"
+      },
+      "labels": [
+        "kind/enhancement",
+        "area/UI-UX",
+        "kind/refactoring"
+      ],
+      "tease": "Removes the old provider pattern and uses a new `quotaUsageStore` to ensure quotas are properly reactive across the app. Also ensures the quota values are updated when a \"likely quota change\" event happens, such as when a history is updated (*), a cleanup operation is complete, or a quota refresh",
+      "guardian": {
+        "login": "ksuderman",
+        "url": "https://github.com/ksuderman",
+        "avatarUrl": "https://github.com/ksuderman.png"
       }
     },
     {
