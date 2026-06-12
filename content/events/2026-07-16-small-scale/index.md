@@ -1,4 +1,3 @@
-
 ---
 title: Small Scale Galaxy Admins Meeting
 date: '2026-07-16'
