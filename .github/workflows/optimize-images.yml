@@ -8,10 +8,15 @@
 name: Compress images
 on:
   pull_request:
+    types:
+      - opened
+      - synchronize
     paths:
       - "**.jpg"
       - "**.jpeg"
       - "**.png"
+      - "**.webp"
+      - "**.avif"
   push:
     branches:
       - main
@@ -19,9 +24,14 @@ on:
       - "**.jpg"
       - "**.jpeg"
       - "**.png"
+      - "**.webp"
+      - "**.avif"
   workflow_dispatch:
   schedule:
     - cron: "00 23 * * 0"
+concurrency:
+  group: compress-images-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
 jobs:
   build:
     name: calibreapp/image-actions
@@ -38,6 +48,7 @@ jobs:
       - name: Checkout Branch
         uses: actions/checkout@v6
       - name: Generate GitHub App token
+        if: github.event_name != 'pull_request'
         id: app-token
         uses: actions/create-github-app-token@v3
         with:
@@ -45,12 +56,12 @@ jobs:
           private-key: ${{ secrets.HUB_BOT_APP_PRIVATE_KEY }}
       - name: Compress Images
         id: calibre
-        uses: calibreapp/image-actions@1.4.1
+        uses: calibreapp/image-actions@1.5.0
         with:
-          GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
-          # Attempt to prevent webp recompression by minimizing diff.
+          # PR runs use GITHUB_TOKEN to avoid recursively triggering this workflow.
+          # Non-PR runs use the App token so create-pull-request can publish updates.
+          GITHUB_TOKEN: ${{ github.event_name == 'pull_request' && github.token || steps.app-token.outputs.token }}
           webpQuality: '90'
-          minPctChange: '2.5'
           # Non-PR events need compress-only mode so create-pull-request can publish the result.
           compressOnly: ${{ github.event_name != 'pull_request' }}
       - name: Create Pull Request
