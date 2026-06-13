@@ -4431,6 +4431,10 @@ kevinrue:
         lat: 51.764301
         lon: -1.2178922
 
-richard-burhans:
-  name: Richard Burhans
-  joined: 2026-06
+dSizovs:
+    name: Dmitrijs Sizovs
+    email: dmitrijs.sizovs@gmail.com
+    matrix: 'dmitrijs.sizovs:matrix.org'
+    joined: 2026-06
+    bio: Master's student at the University of Freiburg
+    linkedin: dmitrijssizovs
