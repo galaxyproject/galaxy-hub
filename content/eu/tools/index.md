@@ -2,7 +2,7 @@
 # THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
 # To update, run: python3 scripts/update-tools.py --server https://usegalaxy.eu --name "European Galaxy" --output content/eu/tools/index.md
 title: European Galaxy Tools
-description: "4282 tools and counting"
+description: "4286 tools and counting"
 ---
 
 
@@ -1457,9 +1457,11 @@ description: "4282 tools and counting"
 [LUMPY preprocessing](https://usegalaxy.eu/root?tool_id=lumpy_prep "extracts discordant read pairs and split-read alignments from a BAM dataset")
 [Lofreq filter](https://usegalaxy.eu/root?tool_id=lofreq_filter "called variants posteriorly")
 [Manta](https://usegalaxy.eu/root?tool_id=manta "Manta calls structural variants (SVs) and indels from mapped paired-end sequencing reads.")
+[Merge PCR duplicates](https://usegalaxy.eu/root?tool_id=bctools_merge_pcr_duplicates "according to UMIs")
 [Naive Variant Caller (NVC)](https://usegalaxy.eu/root?tool_id=naive_variant_caller "- tabulate variable sites from BAM datasets")
 [Predict variant effects](https://usegalaxy.eu/root?tool_id=ensembl_vep "with VEP")
 [Realign reads](https://usegalaxy.eu/root?tool_id=lofreq_viterbi "with LoFreq viterbi")
+[Remove spurious](https://usegalaxy.eu/root?tool_id=bctools_remove_spurious_events "crosslinking events")
 [SNP distance matrix](https://usegalaxy.eu/root?tool_id=snp_dists "Compute distance in SNPs between all sequences in a FASTA file")
 [SnpEff Ensembl CDS](https://usegalaxy.eu/root?tool_id=SnpEff-cds-report "Report Variant coding sequence changes for SnpEffects")
 [SnpEff build:](https://usegalaxy.eu/root?tool_id=snpEff_build_gb "database from Genbank or GFF record")
@@ -3512,6 +3514,7 @@ description: "4282 tools and counting"
 [spec2vec similarity](https://usegalaxy.eu/root?tool_id=spec2vec_similarity "")
 [table arithmetics](https://usegalaxy.eu/root?tool_id=table_pandas_arithmetics "perform arithmetic operations on a dataframe column")
 [table column transformations](https://usegalaxy.eu/root?tool_id=table_pandas_transform "apply transformations on multiple columns")
+[table dropna](https://usegalaxy.eu/root?tool_id=table_pandas_dropna "drop rows or columns with NA values")
 [table rename column](https://usegalaxy.eu/root?tool_id=table_pandas_rename_column "of a table")
 [table rename columns via regex](https://usegalaxy.eu/root?tool_id=table_pandas_rename_columns_regex "rename columns in a table using regex")
 [table scipy interpolate](https://usegalaxy.eu/root?tool_id=table_scipy_interpolate "interpolate data using the scipy.interpolate library")
@@ -4510,6 +4513,7 @@ description: "4282 tools and counting"
 [Run Napari](https://usegalaxy.eu/root?tool_id=interactive_tool_napari "interactive tool")
 [STAC catalog](https://usegalaxy.eu/root?tool_id=interactive_tool_stac "for searching, aggregating and downloading data")
 [Scoop3-Argo](https://usegalaxy.eu/root?tool_id=interactive_tool_scoop3_argo "Interactive visual quality control of Argo netCDF files")
+[Scop3P Toolkit](https://usegalaxy.eu/root?tool_id=interactive_tool_scop3p_toolkit "an interactive framework for exploring and extending Scop3P across sequence, structure, proteomics and variant evidence.")
 [SimText](https://usegalaxy.eu/root?tool_id=interactive_tool_simtext_app "Interactive shiny app to explore SimText output data")
 [Terriamap](https://usegalaxy.eu/root?tool_id=interactive_tool_terriamap "Geospatial visualisation")
 [VCF (iobio) Visualisation](https://usegalaxy.eu/root?tool_id=interactive_tool_vcf_iobio "")
