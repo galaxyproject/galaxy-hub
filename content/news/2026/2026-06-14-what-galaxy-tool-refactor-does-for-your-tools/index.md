@@ -1,7 +1,7 @@
 ---
 title: "What galaxy-tool-refactor can do for your Galaxy tools"
 date: '2026-06-14'
-tease: "It is now pip-installable. Here is what it does for a tool author: format, a behavior-preserving upgrade, faithful Planemo-parity checks, and a handful of opt-in fixers, all deterministic and safe to run on your tools. Plus a few open conventions questions we are bringing to GCC."
+tease: "It is now pip-installable. Here is what it does for a tool author: format, a behavior-preserving upgrade, faithful Planemo-parity checks, cross-file parameter renames that understand Cheetah, and a handful of opt-in fixers, all deterministic and safe to run on your tools. Plus a few open conventions questions we are bringing to GCC."
 tags: [tools, community, development]
 subsites: [all, global]
 contributions:
@@ -53,6 +53,33 @@ There are also opt-in power tools for the bigger one-time changes: `convert-help
 `tokenize-version` (factor a literal version into `@TOOL_VERSION@`/`@VERSION_SUFFIX@`
 macros), `normalize-macros`, and `lint-skip` (clean up planemo `.lint_skip` files,
 removing only the suppressions it can prove are resolved).
+
+## Refactors that understand the templating
+
+A Galaxy `<command>` block is a Cheetah template, and a parameter can be referenced
+far from where it is defined, including inside an imported `macros.xml` shared with
+other tools. Two commands work at that level rather than on raw text:
+
+- **`find-references NAME`** lists every place a parameter is used as a Cheetah
+  `$NAME`, across the tool and the macro files it imports, so you can see the full
+  blast radius before you touch anything.
+- **`rename-param OLD NEW`** then renames it everywhere at once, in one atomic pass:
+  every Cheetah reference, the by-name cross-reference attributes, the `<tests>` that
+  mirror it, and the definition itself, across the tool and its imported macros. A
+  hand rename quietly misses references that live only in a shared macro file; this
+  does not. When the rename would touch a macro file that other tools also import, it
+  refuses to edit that file unless you point it at the repository and it can prove the
+  file is yours alone, or you ask it to rename across every importer in lockstep.
+
+```console
+$ galaxy-tool-refactor find-references input_fasta my_tool.xml
+$ galaxy-tool-refactor rename-param input_fasta input_sequences my_tool.xml --repo-root .
+```
+
+This works because the tool parses `<command>` with a faithful Cheetah lexer, not a
+regular expression, so it can tell a real `$input` reference from one sitting inside
+a comment or a literal string. The same parsing underpins the provable single-quoting
+that `format` applies to command-line variables.
 
 ## Why it is safe to run on your tools
 
@@ -133,7 +160,13 @@ If you have views on any of these, we would love to talk at GCC.
 $ pip install galaxy-tool-refactor
 $ galaxy-tool-refactor check path/to/tool.xml
 $ galaxy-tool-refactor format path/to/tool.xml
+$ galaxy-tool-refactor upgrade --modernize --check path/to/tool.xml   # preview only
 ```
+
+The rewriting commands take `--check` (report what would change without writing) and
+`--diff` (print the rewrite as a unified diff), so you can always look before you
+leap, and `galaxy-tool-refactor rules` lists every rule with the documentation it
+points at.
 
 Run it on your own tools and tell us what breaks or surprises you: issues and ideas
 are very welcome on the [repository][repo], from people and agents alike. There is
