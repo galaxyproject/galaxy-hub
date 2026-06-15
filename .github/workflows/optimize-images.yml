@@ -39,28 +39,35 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
-    # Only run on main repo on and PRs that match the main repo.
+    # Only run on main repo and on PRs that match the main repo.
+    # Skip when the bot's own compression commit re-triggers this workflow
+    # (synchronize + bot actor) to break the infinite loop. Safe for
+    # bot-authored PRs (e.g. GTN imports) because those trigger as
+    # 'opened', not 'synchronize'.
     if: |
       github.repository == 'galaxyproject/galaxy-hub' &&
       (github.event_name != 'pull_request' ||
-       github.event.pull_request.head.repo.full_name == github.repository)
+       github.event.pull_request.head.repo.full_name == github.repository) &&
+      !(github.event_name == 'pull_request' && github.event.action == 'synchronize' && startsWith(github.actor, 'galaxy-hub-bot'))
     steps:
       - name: Checkout Branch
         uses: actions/checkout@v6
+        with:
+          persist-credentials: false
       - name: Generate GitHub App token
-        if: github.event_name != 'pull_request'
         id: app-token
         uses: actions/create-github-app-token@v3
         with:
           client-id: ${{ secrets.HUB_BOT_APP_CLIENT_ID }}
           private-key: ${{ secrets.HUB_BOT_APP_PRIVATE_KEY }}
+          permission-contents: write
+          permission-pull-requests: write
+          permission-metadata: read
       - name: Compress Images
         id: calibre
         uses: calibreapp/image-actions@1.5.0
         with:
-          # PR runs use GITHUB_TOKEN to avoid recursively triggering this workflow.
-          # Non-PR runs use the App token so create-pull-request can publish updates.
-          GITHUB_TOKEN: ${{ github.event_name == 'pull_request' && github.token || steps.app-token.outputs.token }}
+          GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
           webpQuality: '90'
           # Non-PR events need compress-only mode so create-pull-request can publish the result.
           compressOnly: ${{ github.event_name != 'pull_request' }}
