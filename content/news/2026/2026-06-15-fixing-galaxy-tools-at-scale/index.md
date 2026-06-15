@@ -69,8 +69,9 @@ Clearing the backlog is only half the job. To keep coverage from eroding back to
 that 27% line, the same rules run as a pre-merge check on each incoming pull request,
 over **only the tools that pull request already touches**. It never issues
 unsolicited mass changes, and it never reformats files a contributor did not open.
-Both halves read the same single classification of which rules are safe to apply, so
-the gate and the bulk pass cannot drift apart on what "canonical" means.
+Both halves draw their rule set from the same single classification of which rules are
+safe to apply, so they can never disagree on whether a given fix belongs in the
+automated set, and a tool the bulk pass has already cleaned passes the gate.
 
 In the spirit of the [Carta type-annotation rollout][carta] that inspired this
 project, the picture to keep in mind is a coverage line. A one-time pass lifts it to
@@ -144,8 +145,9 @@ an uncontroversial canonical form. Anything that could change behavior, or that
 encodes a convention the community has not blessed, stays out of the gate by design.
 
 And none of this is a language model. Every fix is a deterministic codemod with a
-written behavior-preservation argument, gated on validity and idempotence across the
-whole public corpus on every release. The same input always produces the same
+written behavior-preservation argument, and we sweep the whole public corpus
+(thousands of GitHub and ToolShed tools) to confirm the fixers stay valid and
+idempotent. The same input always produces the same
 output. We automate the mechanical toil and leave the judgment to people.
 
 ## What we would like to ask the community
