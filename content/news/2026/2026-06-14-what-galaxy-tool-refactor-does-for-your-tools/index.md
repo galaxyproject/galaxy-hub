@@ -125,9 +125,10 @@ are out of the documented order (illustrative, not a real tool):
 </tool>
 ```
 
-`check` would then note, for example, that the tool ships no `<tests>` and that its
-package requirement is unpinned: real best-practice gaps it cannot fix for you, handed
-back so you can act on them.
+Run with the advisory checks (`check --ruleset strict`) and it would also note, for
+example, that the tool ships no `<tests>` and that its package requirement is
+unpinned: real best-practice gaps it cannot fix for you, handed back so you can act
+on them.
 
 ## A few questions we are bringing to GCC
 
@@ -149,8 +150,9 @@ across the corpus and would like the community to settle:
 - **One-line attributes.** We put every element's attributes on one line, which is
   *stricter* than the IUC guidance (it explicitly allows `label` and `help` to wrap).
   About one tool in five uses that wrap; should we keep collapsing it?
-- **Empty-element shorthand** (`<foo></foo>` becomes `<foo/>`). Near-universal, but
-  still our own choice, so worth confirming.
+- **Empty-element shorthand** (`<foo></foo>` becomes `<foo/>`). Already near-universal
+  (the change would touch only about 17% of tools), but still our own choice, so worth
+  confirming.
 
 If you have views on any of these, we would love to talk at GCC.
 
@@ -170,9 +172,10 @@ points at.
 
 Run it on your own tools and tell us what breaks or surprises you: issues and ideas
 are very welcome on the [repository][repo], from people and agents alike. There is
-also an MCP server, so an AI agent can use the exact same checks and fixes you do, and
-the individual tiers are installable as libraries if you want to build on the parser,
-the formatter, or the rule set directly.
+also an MCP server, so an AI agent can run the core operations (`format`, `upgrade`,
+and `check`, plus the help and version conversions) through the same engine you do,
+and the individual tiers are installable as libraries if you want to build on the
+parser, the formatter, or the rule set directly.
 
 See you at GCC.
 
