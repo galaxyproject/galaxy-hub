@@ -242,7 +242,7 @@ Originally from Nepal, Shubham completed his undergraduate studies in biotechnol
 We are pleased to announce the 17 awardees of the GTA2026 Scholarship, which supports virtual participation in GCC2026 for participants from the Galaxy Training Academy 2026 community.
 
 <div class="profile-row">
-  <img class="profile-row__photo" src="/images/events/gcc2026/gta2026-ariel-moura-maia.jpg" alt="Ariel Moura Maia" />
+  <img class="profile-row__photo" src="/images/events/gcc2026/Ariel_photo.HEIC" alt="Ariel Moura Maia" />
   <div class="profile-row__bio">
 
 Ariel Moura Maia is a postdoctoral researcher in computational proteomics at the Center for Research in Molecular and Functional Biology (CPBMF) and the National Institute of Science and Technology in Tuberculosis (INCT-TB) in Porto Alegre, Brazil. He holds a Pharmacy/Pharmacology degree and a PhD in Cellular and Molecular Biology, where he developed a high-resolution proteomic map of 3D lung cancer models and built a data-processing pipeline to computationally deconvolve the confounding biochemical signals of Matrigel. During his PhD he published the human-matrigel database builder, a Galaxy workflow on usegalaxy.eu now integrated into his group's standard proteomics protocol. His current postdoctoral project aims to build a model for peptide rescoring to enable systematic microprotein discovery by LC-MS/MS, with the goal of deploying the workflow as an open tool for the community.
@@ -251,7 +251,7 @@ Ariel Moura Maia is a postdoctoral researcher in computational proteomics at the
 </div>
 
 <div class="profile-row">
-  <img class="profile-row__photo" src="/images/events/gcc2026/gta2026-yasser-m-al-shawki.jpg" alt="Yasser M. Al-Shawki" />
+  <img class="profile-row__photo" src="/images/events/gcc2026/Al-Shawki_photo.jpg" alt="Yasser M. Al-Shawki" />
   <div class="profile-row__bio">
 
 Yasser M. Al-Shawki is a Medical Scholar and MBBS candidate at Amran University in Yemen. His academic interests focus on clinical cardiology, global health metrics, and evidence synthesis applied to understanding disease burden in resource-limited healthcare systems. He has engaged in collaborative Global Burden of Disease (GBD)-related research activities coordinated by the Institute for Health Metrics and Evaluation (IHME), University of Washington, contributing to the interpretation and analysis of large-scale epidemiological data. His scholarly work includes a peer-reviewed publication on the global burden of undiagnosed congenital heart disease in Research Reports in Clinical Cardiology. His professional development includes 12 CPD-accredited activities recognized by the British Association of Dermatologists, spanning genetic, infectious, surgical, pediatric, and teledermatology domains, alongside rare autoimmune dermatological disorders. This clinical training supports his role as an academic peer reviewer for Forum Dermatologicum. His methodological interests include bioinformatics, microbiome research, and biomedical data analysis, with an emphasis on applying computational approaches to clinical and population health questions.
@@ -260,7 +260,7 @@ Yasser M. Al-Shawki is a Medical Scholar and MBBS candidate at Amran University 
 </div>
 
 <div class="profile-row">
-  <img class="profile-row__photo" src="/images/events/gcc2026/gta2026-arnab-bala.jpg" alt="Arnab Bala" />
+  <img class="profile-row__photo" src="/images/events/gcc2026/Arnab_photo.jpg" alt="Arnab Bala" />
   <div class="profile-row__bio">
 
 Arnab Bala is a veterinarian who completed his Master's in Microbiology and is currently working with Dr. Himel Barua at the Department of Microbiology and Veterinary Public Health, Chattogram Veterinary and Animal Sciences University, Bangladesh. His research focuses on the molecular epidemiology of multidrug-resistant *Escherichia coli*, *Salmonella enterica*, and *Campylobacter* spp. in the poultry industry and its supply chain. Besides academia, he works part-time as a pet-animal medicine practitioner. Arnab's future goal is to pursue a PhD in Microbiology or Bioinformatics related to the population genomics of zoonotic bacteria and antimicrobial resistance.
@@ -269,7 +269,7 @@ Arnab Bala is a veterinarian who completed his Master's in Microbiology and is c
 </div>
 
 <div class="profile-row">
-  <img class="profile-row__photo" src="/images/events/gcc2026/gta2026-comfort-danchal-vandu.jpg" alt="Comfort Danchal Vandu" />
+  <img class="profile-row__photo" src="/images/events/gcc2026/Comfort_photo.jpg" alt="Comfort Danchal Vandu" />
   <div class="profile-row__bio">
 
 Comfort Danchal Vandu is a Medical Laboratory Scientist, Biomedical Educator, and Ph.D. student in Microbiology at Kampala International University-Western Campus, Uganda. She has over 29 years of experience in clinical diagnostics, laboratory management, teaching, research, and biomedical capacity building. Her research interests include antimicrobial resistance, ESKAPE pathogens, zoonoses, gut microbiota, bile acid transformation, global health, One Health approaches, and the application of bioinformatics in microbial genomics and infectious disease research. Her growing interest in bioinformatics, particularly for genomic analysis and antimicrobial resistance research, led her to participate in Galaxy Training Academy, where she continues to strengthen her skills in data-driven biomedical research. She is a Fellow of the West African Postgraduate College of Medical Laboratory Scientists, a 2025 ASM Future Leaders Mentorship Fellowship fellow, and founder/coordinator of the ASM Student Chapter at KIU-WC, where she supports scientific mentoring, student engagement, and academic development.
@@ -278,10 +278,10 @@ Comfort Danchal Vandu is a Medical Laboratory Scientist, Biomedical Educator, an
 </div>
 
 <div class="profile-row">
-  <img class="profile-row__photo" src="/images/events/gcc2026/gta2026-harouna-diete-souleymane.jpg" alt="Dr. HAROUNA DIETE Souleymane" />
+  <img class="profile-row__photo" src="/images/events/gcc2026/Diete_photo.jpg" alt="Dr. HAROUNA DIETE Souleymane" />
   <div class="profile-row__bio">
 
-I am Dr. Harounda Diete Souleymane, Specialist in Biochemistry of Natural Substances, Quality Manager, and Lecturer-Researcher (assistant) at the Laboratory of Nutrition and Valorization of Agro-resources (LNVA) at Abdou Moumouni University in Niamey, Niger.
+I am Dr. HAROUNA DIETE Souleymane, Specialist in Biochemistry of Natural Substances, Quality Manager, and Lecturer-Researcher (assistant) at the Laboratory of Nutrition and Valorization of Agro-resources (LNVA) at Abdou Moumouni University in Niamey, Niger.
 
 My responsibilities primarily include teaching, laboratory management, supervising Master's students during their internships and research.
 
@@ -295,7 +295,7 @@ In terms of research, I focus on the use of local African plants in phytomedicin
 </div>
 
 <div class="profile-row">
-  <img class="profile-row__photo" src="/images/events/gcc2026/gta2026-elsayed-hussien.jpg" alt="Elsayed Hussien" />
+  <img class="profile-row__photo" src="/images/events/gcc2026/Elsayed_photo.jpg" alt="Elsayed Hussien" />
   <div class="profile-row__bio">
 
 Elsayed Hussien is a junior researcher in biochemistry and molecular biology. His research interests lie in plant molecular biology, genetics, and biotechnology. Elsayed is particularly passionate about leveraging bioinformatics and multi-omics data analysis to interpret biological datasets and contribute to sustainable agricultural development.
@@ -304,7 +304,7 @@ Elsayed Hussien is a junior researcher in biochemistry and molecular biology. Hi
 </div>
 
 <div class="profile-row">
-  <img class="profile-row__photo" src="/images/events/gcc2026/gta2026-hussein.jpg" alt="Mohamed H. Hussein" />
+  <img class="profile-row__photo" src="/images/events/gcc2026/Hussein_photo.jpg" alt="Mohamed H. Hussein" />
   <div class="profile-row__bio">
 
 Mohamed H. Hussein is a Master’s student in Biochemistry and Molecular Biology at Ain Shams University, Egypt, specializing in molecular cancer biology, RNA biology, and bioinformatics. He is currently focused on integrating computational and experimental approaches to study gene regulation and cancer biomarkers. His interests include genomic, transcriptomic, and single-cell data analysis, with a growing focus on multi-omics approaches in translational cancer research.
@@ -313,7 +313,7 @@ Mohamed H. Hussein is a Master’s student in Biochemistry and Molecular Biology
 </div>
 
 <div class="profile-row">
-  <img class="profile-row__photo" src="/images/events/gcc2026/gta2026-isabela-nunes.jpg" alt="Isabela Nunes" />
+  <img class="profile-row__photo" src="/images/events/gcc2026/Isabela_photo.jpeg" alt="Isabela Nunes" />
   <div class="profile-row__bio">
 
 Isabela Nunes is a Direct PhD candidate in Genetics at the Federal University of São Paulo (UNIFESP), Brazil. Her research focuses on the discovery of pre-surgical molecular markers for thyroid cancer diagnosis, applying genomic and transcriptomic approaches to improve the molecular characterization of thyroid tumors and support precision medicine strategies. She holds a B.Sc. in Biomedicine from UNIFESP and has over five years of experience in thyroid cancer research. Her expertise includes NGS data analysis, including targeted gene panels, WES and RNA-seq, as well as bioinformatics workflow development using R and Bash, and wet lab experience in molecular biology techniques, including nucleic acid extraction, PCR, Sanger sequencing, and NGS library preparation.
@@ -322,7 +322,7 @@ Isabela Nunes is a Direct PhD candidate in Genetics at the Federal University of
 </div>
 
 <div class="profile-row">
-  <img class="profile-row__photo" src="/images/events/gcc2026/gta2026-loai-a-siddig.jpg" alt="Dr. Loai A. Siddig" />
+  <img class="profile-row__photo" src="/images/events/gcc2026/Loai_photo.jpeg" alt="Dr. Loai A. Siddig" />
   <div class="profile-row__bio">
 
 Dr. Loai A. Siddig is a molecular biologist from Sudan with interests in molecular diagnostics, genomics, bioinformatics, and next-generation sequencing (NGS). He is committed to advancing molecular biology research through the application of computational and bioinformatics tools. His professional interests include genomic data analysis, molecular diagnostics, and bioinformatics education. Through continuous training and engagement with international scientific communities, he seeks to strengthen research capacity and promote accessible bioinformatics education for scientists and students.
@@ -331,7 +331,7 @@ Dr. Loai A. Siddig is a molecular biologist from Sudan with interests in molecul
 </div>
 
 <div class="profile-row">
-  <img class="profile-row__photo" src="/images/events/gcc2026/gta2026-milena-bonilla-jimenez.jpg" alt="Milena Bonilla-Jiménez" />
+  <img class="profile-row__photo" src="/images/events/gcc2026/Milena_photo.png" alt="Milena Bonilla-Jiménez" />
   <div class="profile-row__bio">
 
 Milena Bonilla-Jiménez is a Biology undergraduate student at the Central University of Ecuador with a strong interest in amphibian biology and conservation. Her current research focuses on visual gene expression in Amazonian frogs using transcriptomic tools. She is passionate about biodiversity research and hopes to contribute to the conservation of Ecuador's unique ecosystems through science.
@@ -353,7 +353,7 @@ As a recipient of the GCC2026 + GTA2026 Virtual Scholarship Award, Asma looks fo
 </div>
 
 <div class="profile-row">
-  <img class="profile-row__photo" src="/images/events/gcc2026/gta2026-ruicen-li.jpg" alt="Ruicen Li" />
+  <img class="profile-row__photo" src="/images/events/gcc2026/Ruicen_photo.jpg" alt="Ruicen Li" />
   <div class="profile-row__bio">
 
 Ruicen Li is a PhD student in Digital Humanities at the University of Cambridge. Her research focuses on digital media cultures and online communities in contemporary East Asia, using a mixed-methods approach that combines computational tools with cultural studies. By participating in the Galaxy Training Academy 2026, she has explored how Galaxy’s open-source workflows and modules can optimise multimodal data analysis and visualisation in humanities research. She hopes to further bridge advanced computational pipelines with digital humanities studies.
@@ -362,7 +362,7 @@ Ruicen Li is a PhD student in Digital Humanities at the University of Cambridge.
 </div>
 
 <div class="profile-row">
-  <img class="profile-row__photo" src="/images/events/gcc2026/gta2026-katia-sawalha.jpg" alt="Katia Sawalha" />
+  <img class="profile-row__photo" src="/images/events/gcc2026/Sawalha_photo.jpg" alt="Katia Sawalha" />
   <div class="profile-row__bio">
 
 Katia Sawalha holds a Bachelor's degree in Medical Laboratory Sciences and has experience in biomedical research, scientific writing, data analysis, and global health initiatives. She has contributed to international research projects and scientific education programs while serving in leadership, mentorship, and community engagement roles, including mentoring young researchers through the New York Academy of Sciences (NYAS) and Jordan Young Scientists (JOYS), supporting youth health initiatives through the Royal Health Awareness Society (RHAS), leading international collaborations at Universal Medicine Initiative (UMI), contributing to educational programs through iLearn, and advancing community outreach and communication with Pro Terra Sancta (PTS). Katia has also served as an invited peer reviewer for the Electronic Journal of the International Federation of Clinical Chemistry and Laboratory Medicine (eJIFCC), Molecular and Cellular Biology (Taylor & Francis), and the American Society of Clinical Oncology (ASCO), reflecting her commitment to scientific excellence, youth empowerment, and global health impact.
@@ -371,7 +371,7 @@ Katia Sawalha holds a Bachelor's degree in Medical Laboratory Sciences and has e
 </div>
 
 <div class="profile-row">
-  <img class="profile-row__photo" src="/images/events/gcc2026/gta2026-sudheer.jpg" alt="Sudheer Salana" />
+  <img class="profile-row__photo" src="/images/events/gcc2026/Sudheer_photo.JPG" alt="Sudheer Salana" />
   <div class="profile-row__bio">
 
 Sudheer Salana is a postdoctoral associate in the Department of Chemical, Environmental, and Materials Engineering at the University of Miami, where his work integrates environmental engineering, microbiology, public health, and exposure science. He received his Ph.D. in Environmental Engineering from the University of Illinois Urbana-Champaign, where he developed expertise in assessing the toxicity of airborne particulate matter using a combination of chemical and biological approaches. His research focuses on understanding how chemical and biological contaminants, both individually and in combination, influence human and ecosystem health, with particular emphasis on urban environments. His academic and research experience spans multiple institutions in India and the US, where he has contributed to internationally collaborative projects on sustainable environmental technologies, ambient air quality, and indoor air emissions. Across these efforts, he has applied an engineering-driven approach to generate data that informs strategies to reduce disease transmission through bioaerosol source control and to improve the assessment of health risks associated with both indoor and outdoor air pollution.
@@ -380,7 +380,7 @@ Sudheer Salana is a postdoctoral associate in the Department of Chemical, Enviro
 </div>
 
 <div class="profile-row">
-  <img class="profile-row__photo" src="/images/events/gcc2026/gta2026-tawanda-proceed-makopa.jpg" alt="Tawanda Proceed Makopa" />
+  <img class="profile-row__photo" src="/images/events/gcc2026/Tawanda_photo.jpeg" alt="Tawanda Proceed Makopa" />
   <div class="profile-row__bio">
 
 Tawanda Proceed Makopa is a PhD researcher investigating the biodiversity, genomics, and biotechnological potential of environmental yeasts from the Okavango Delta, Botswana. His research integrates microbial ecology, genome sequencing, bioinformatics, and fermentation technology to explore yeast evolution, adaptation, and functional traits, including the discovery and characterization of potentially novel species. He is also a lecturer in Bioinformatics at the National University of Science and Technology (NUST), Zimbabwe, where he teaches and mentors students in genomics, bioinformatics, and related life science disciplines. Through collaborative research with the Botswana International University of Science and Technology (BIUST) and the Institute of Agrochemistry and Food Technology (IATA-CSIC, Spain), he has developed expertise in genome assembly, comparative genomics, and reproducible bioinformatics workflows using the Galaxy platform. He is passionate about capacity building in bioinformatics across Africa and applying genomic technologies to address challenges in agricultural biotechnology and sustainable development. His long-term goal is to contribute to the growth of genomics research, bioinformatics training, and innovation-driven solutions that support Africa's emerging bioeconomy.
@@ -389,7 +389,7 @@ Tawanda Proceed Makopa is a PhD researcher investigating the biodiversity, genom
 </div>
 
 <div class="profile-row">
-  <img class="profile-row__photo" src="/images/events/gcc2026/gta2026-usman-yalwa-ibrahim.jpg" alt="Usman Yalwa Ibrahim" />
+  <img class="profile-row__photo" src="/images/events/gcc2026/Usman_photo.jpg" alt="Usman Yalwa Ibrahim" />
   <div class="profile-row__bio">
 
 Usman Yalwa Ibrahim is an MSc Bioinformatics candidate at Kalinga University, India, where he is studying under a merit-based fully funded government scholarship. He holds a BSc in Zoology from Bayero University Kano, Nigeria.
@@ -404,7 +404,7 @@ Through his academic and professional journey, he aims to contribute to the grow
 </div>
 
 <div class="profile-row">
-  <img class="profile-row__photo" src="/images/events/gcc2026/gta2026-vhulenda-ramothibedi.jpg" alt="Vhulenda Ramothibedi" />
+  <img class="profile-row__photo" src="/images/events/gcc2026/Vhulenda_photo.jpeg" alt="Vhulenda Ramothibedi" />
   <div class="profile-row__bio">
 
 Vhulenda Ramothibedi is a Master of Science (Animal Genomics) candidate based in South Africa, with a BSc in Agriculture (Animal Production). Her research focuses on de novo genome assembly and whole-genome characterization of indigenous poultry genetic resources, including the Venda chicken, one of South Africa’s indigenous chicken breeds. Her current research involves advanced bioinformatics pipelines including Galaxy workflows, high-throughput data analysis, comparative genomics, and phylogenetics to decode the genomic architecture of climate resilience and disease resistance in locally adapted livestock.
