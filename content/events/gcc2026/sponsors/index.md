@@ -41,6 +41,12 @@ The **Galaxy Community Conference (GCC)** is the flagship event for one of the m
   <img src="/images/logos/limagrain-logo-text.png" alt="Limagrain" style="max-width: 25%;" />
 </a>
 
+## Friends of GCC
+
+<a href="https://www.sfbi.fr/" target="_blank">
+  <img src="/images/logos/SFBI-logo.png" alt="SFBI" style="max-width: 25%;" />
+</a>
+
 <hr/>
 
 # Why sponsor GCC2026 ?
