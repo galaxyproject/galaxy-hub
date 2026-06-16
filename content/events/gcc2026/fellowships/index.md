@@ -242,7 +242,7 @@ Originally from Nepal, Shubham completed his undergraduate studies in biotechnol
 We are pleased to announce the 17 awardees of the GTA2026 Scholarship, which supports virtual participation in GCC2026 for participants from the Galaxy Training Academy 2026 community.
 
 <div class="profile-row">
-  <img class="profile-row__photo" src="/images/events/gcc2026/Ariel_photo.jpg" alt="Ariel Moura Maia" style="transform: rotate(90deg); object-fit: contain;" />
+  <img class="profile-row__photo" src="/images/events/gcc2026/Ariel_photo.png" alt="Ariel Moura Maia" />
   <div class="profile-row__bio">
 
 Ariel Moura Maia is a postdoctoral researcher in computational proteomics at the Center for Research in Molecular and Functional Biology (CPBMF) and the National Institute of Science and Technology in Tuberculosis (INCT-TB) in Porto Alegre, Brazil. He holds a Pharmacy/Pharmacology degree and a PhD in Cellular and Molecular Biology, where he developed a high-resolution proteomic map of 3D lung cancer models and built a data-processing pipeline to computationally deconvolve the confounding biochemical signals of Matrigel. During his PhD he published the human-matrigel database builder, a Galaxy workflow on usegalaxy.eu now integrated into his group's standard proteomics protocol. His current postdoctoral project aims to build a model for peptide rescoring to enable systematic microprotein discovery by LC-MS/MS, with the goal of deploying the workflow as an open tool for the community.
