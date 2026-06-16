@@ -9,53 +9,53 @@ The schedule is where you can discover what’s happening when at GCC2026. Full 
 <details class="gcc-schedule-day" open>
 <summary class="gcc-schedule-summary">Monday, Jun 22</summary>
 
-| **Time**      | **Event**                                                                                        |
-|---------------|--------------------------------------------------------------------------------------------------|
-| 9:00 - 9:20   | Open and welcome                                                                                 |
-| 9:20 - 10:00  | [Galaxy Live!](/events/gcc2026/highlights#galaxy-live)                                           |
-| 10:00 - 10:30 | Break                                                                                            |
-| 10:30 - 10:50 | Overview of Galaxy SiGs                                                                          |
-| 10:50 - 12:05 | [Talks 1](#talks-1-galaxy-framework-and-platform-direction)                                      |
-| 12:05 - 13:00 | Lunch                                                                                            |
-| 13:00 - 14:30 | [Talks 2](#talks-2-infrastructure-federation-and-service-operations)                             |
-| 14:30 - 16:00 | [Posters 1](#posters-1--monday-jun-22-14301600)                                                  |
-| 16:00 - 17:00 | [Talks 3](#talks-3-communities-provenance-and-cross-domain-expansion)                            |
-| 17:00 - 18:00 | BoFs                                                                                             |
+| **Time**      | **Event**                                                                                        | **Location** |
+|---------------|--------------------------------------------------------------------------------------------------|--------------|
+| 9:00 - 9:20   | Open and welcome                                                                                 | Amphitheater A (in person), B (streaming) |
+| 9:20 - 10:00  | [Galaxy Live!](/events/gcc2026/highlights#galaxy-live)                                           | Amphitheater A (in person), B (streaming) |
+| 10:00 - 10:30 | Break                                                                                            | Corridor |
+| 10:30 - 10:50 | Overview of Galaxy SiGs                                                                          | Amphitheater A (in person), B (streaming) |
+| 10:50 - 12:05 | [Talks 1](#talks-1-galaxy-framework-and-platform-direction)                                      | Amphitheater A (in person), B (streaming) |
+| 12:05 - 13:00 | Lunch                                                                                            | Salle |
+| 13:00 - 14:30 | [Talks 2](#talks-2-infrastructure-federation-and-service-operations)                             | Amphitheater A (in person), B (streaming) |
+| 14:30 - 16:00 | [Posters 1](#posters-1--monday-jun-22-14301600)                                                  | Corridor |
+| 16:00 - 17:00 | [Talks 3](#talks-3-communities-provenance-and-cross-domain-expansion)                            | Amphitheater A (in person), B (streaming) |
+| 17:00 - 18:00 | [BoFs](/events/gcc2026/bofs)                                                                     | Breakout Spaces |
 
 </details>
 
 <details class="gcc-schedule-day" open>
 <summary class="gcc-schedule-summary">Tuesday, Jun 23</summary>
 
-| **Time**      | **Event**                                                                                        |
-|---------------|--------------------------------------------------------------------------------------------------|
-| 9:00 - 10:00  | [Keynote: Rayan Chikhi](/events/gcc2026/highlights#rayan-chikhi)                                 |
-| 10:00 - 10:30 | Break                                                                                            |
-| 10:30 - 12:00 | [Talks 4](#talks-4-fair-data-analysis-workflows-and-public-health-applications)                  |
-| 12:00 - 13:00 | Lunch                                                                                            |
-| 13:00 - 13:45 | [Talks 5](#talks-5-tool-integration-and-method-development)                                      |
-| 13:45 - 14:30 | Lightning talks                                                                                  |
-| 14:30 - 16:00 | [Posters 2](#posters-2--tuesday-jun-23-14301600) + ELIXIR virtual posters                        |
-| 16:00 - 18:00 | ELIXIR F2F                                                                                       |
-| 19:00 - 21:00 | [Conference dinner](https://www.roofevents.fr/)                                                                                |
+| **Time**      | **Event**                                                                                        | **Location** |
+|---------------|--------------------------------------------------------------------------------------------------|--------------|
+| 9:00 - 10:00  | [Keynote: Rayan Chikhi](/events/gcc2026/highlights#rayan-chikhi)                                 | Amphitheater A (in person), B (streaming)|
+| 10:00 - 10:30 | Break                                                                                            | Corridor |
+| 10:30 - 12:00 | [Talks 4](#talks-4-fair-data-analysis-workflows-and-public-health-applications)                  | Amphitheater A (in person), B (streaming)|
+| 12:00 - 13:00 | Lunch                                                                                            | Salle |
+| 13:00 - 13:45 | [Talks 5](#talks-5-tool-integration-and-method-development)                                      | Amphitheater A (in person), B (streaming)|
+| 13:45 - 14:30 | Lightning talks                                                                                  | Amphitheater A (in person), B (streaming)|
+| 14:30 - 16:00 | [Posters 2](#posters-2--tuesday-jun-23-14301600) + ELIXIR virtual posters                        | Corridor |
+| 16:00 - 18:00 | ELIXIR F2F                                                                                       | TBD |
+| 19:00 - 21:00 | [Conference dinner](https://www.roofevents.fr/)                                                  | [Roof Events](https://www.roofevents.fr/), Clermont-Ferrand |
 
 </details>
 
 <details class="gcc-schedule-day" open>
 <summary class="gcc-schedule-summary">Wednesday, Jun 24</summary>
 
-| **Time**      | **Event**                                                                                        |
-|---------------|--------------------------------------------------------------------------------------------------|
-| 9:00 - 10:00  | [Galaxy Community Update](/events/gcc2026/highlights#community-update)                           |
-| 10:00 - 10:30 | Break                                                                                            |
-| 10:30 - 12:00 | [Talks 6](#talks-6-ai-workflows-and-guided-analysis)                                             |
-| 12:00 - 13:00 | Lunch                                                                                            |
-| 13:00 - 14:30 | [Fishbowl & discussion](/events/gcc2026/highlights#panel-discussion)                       |
-| 14:30 - 15:00 | Group photo / break                                                                              |
-| 15:00 - 16:30 | [Talks 7](#talks-7-community-platforms-mature-ecosystems-and-field-reports)                      |
-| 16:30 - 17:00 | [Galaxy in Research](/events/gcc2026/highlights#galaxy-in-research)                              |
-| 17:00 - 17:15 | Closing                                                                                          |
-| 17:15 - 18:30 | BoFs                                                                                             |
+| **Time**      | **Event**                                                                                        | **Location** |
+|---------------|--------------------------------------------------------------------------------------------------|--------------|
+| 9:00 - 10:00  | [Galaxy Community Update](/events/gcc2026/highlights#community-update)                           | Amphitheater A (in person), B (streaming) |
+| 10:00 - 10:30 | Break                                                                                            | Corridor |
+| 10:30 - 12:00 | [Talks 6](#talks-6-ai-workflows-and-guided-analysis)                                             | Amphitheater A (in person), B (streaming) |
+| 12:00 - 13:00 | Lunch                                                                                            | Salle |
+| 13:00 - 14:30 | [Fishbowl & discussion](/events/gcc2026/highlights#panel-discussion)                             | Amphitheater A |
+| 14:30 - 15:00 | Group photo / break                                                                              | TBD |
+| 15:00 - 16:30 | [Talks 7](#talks-7-community-platforms-mature-ecosystems-and-field-reports)                      | Amphitheater A (in person), B (streaming) |
+| 16:30 - 17:00 | [Galaxy in Research](/events/gcc2026/highlights#galaxy-in-research)                              | Amphitheater A (in person), B (streaming) |
+| 17:00 - 17:15 | Closing                                                                                          | Amphitheater A (in person), B (streaming) |
+| 17:15 - 18:30 | [BoFs](/events/gcc2026/bofs)                                                                     | Breakout Spaces |
 
 </details>
 
@@ -64,7 +64,7 @@ The schedule is where you can discover what’s happening when at GCC2026. Full 
 
 | **Time**      | **Event**                                                                                        |
 |---------------|--------------------------------------------------------------------------------------------------|
-| 9:00 - 12:00  | Training 1                                                                                       |
+| 9:00 - 12:00  | [Training 1](/events/gcc2026/training)                                                            |
 | 12:00 - 13:00 | Lunch                                                                                            |
 | 13:00 - 18:00 | [CoFest 1](/events/gcc2026/cofest)                                                               |
 
@@ -75,7 +75,7 @@ The schedule is where you can discover what’s happening when at GCC2026. Full 
 
 | **Time**      | **Event**                                                                                        |
 |---------------|--------------------------------------------------------------------------------------------------|
-| 9:00 - 12:00  | Training 2                                                                                       |
+| 9:00 - 12:00  | [Training 2](/events/gcc2026/training)                                                             |
 | 12:00 - 13:00 | Lunch                                                                                            |
 | 13:00 - 18:00 | [CoFest 2](/events/gcc2026/cofest)                                                               |
 
