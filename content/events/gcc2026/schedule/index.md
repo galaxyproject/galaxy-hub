@@ -568,7 +568,7 @@ Moderator: Pierre-Étienne Jacques
     <span class="gcc-talk-time">16:45 - 17:00</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">LabID Meets Galaxy: Continuous Provenance from Samples to Results</span>
-      <span class="gcc-talk-authors"><strong>Thomas Laurent</strong>, Girardot Charles, Scholtalbers Jelle, Monfort Matthias, Reza Nayeem</span>
+      <span class="gcc-talk-authors">Thomas Laurent, Girardot Charles, <strong>Scholtalbers Jelle</strong>, Monfort Matthias, Reza Nayeem</span>
     </span>
     <span class="gcc-talk-poster">Also Poster</span>
   </summary>

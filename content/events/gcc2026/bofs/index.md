@@ -49,7 +49,11 @@ Extending HPC integration options could lead to more users, e.g. those with larg
 
 **Organizers:** Kevin Rue-Albrecht, Marisa Loach
 
-This BoF will bring together Galaxy users, developers, trainers, and infrastructure contributors interested in how Galaxy can keep pace with evolving best practices in data-intensive analysis workflows. Inspired by the BioFAIR Pathfinder project, the discussion will initially focus on single-cell and spatial omics as a current use case, while welcoming perspectives from other domains facing similar challenges around interoperability, tool maintenance, workflow design, and community guidance. We will use examples from ecosystems such as Seurat, Bioconductor, and Scanpy to discuss where Galaxy support works well, where gaps or friction points remain, and how the community might prioritise future improvements.
+This BoF will bring together Galaxy users, developers, trainers, and infrastructure contributors interested in how Galaxy can keep pace with evolving best practices in data-intensive analysis workflows.
+
+Inspired by the BioFAIR Pathfinder project led by Kevin Rue-Albrecht (poster #15 in Posters 2 session), the discussion will initially focus on single-cell and spatial omics as a current use case, while welcoming perspectives from other domains facing similar challenges around interoperability, tool maintenance, workflow design, and community guidance. We will use examples from ecosystems such as Seurat, Bioconductor, and Scanpy to discuss where Galaxy support works well, where gaps or friction points remain, and how the community might prioritise future improvements.
+
+We’re keen to hear from you if your community has faced challenges keeping Galaxy tools up to date, or if you have experience addressing such challenges and can share practical insights, lessons learned, or examples of what has worked.
 
 We're keen to hear from you if your community has faced challenges keeping Galaxy tools up to date, or if you have experience addressing such challenges and can share practical insights, lessons learned, or examples of what has worked.
 
