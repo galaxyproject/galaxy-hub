@@ -955,7 +955,7 @@ Moderator: Yvan Le Bras
     <span class="gcc-talk-time">16:00 - 16:15</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">Rewriting the Galaxy Hub -- Migrating 4,300 Pages from Gridsome to Astro</span>
-      <span class="gcc-talk-authors"><strong>Baker Dannon</strong>, Grüning Björn</span>
+      <span class="gcc-talk-authors"><strong>Baker Dannon</strong>, Alireza Heidari, Grüning Björn</span>
     </span>
     <span class="gcc-talk-poster gcc-talk-poster-empty">-</span>
   </summary>
