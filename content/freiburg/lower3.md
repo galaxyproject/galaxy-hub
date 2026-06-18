@@ -1,5 +1,4 @@
-Acknowledgements
-----------------
+## Acknowledgements
 
 We are aiming to maintain high competency and provide high-quality data analysis services to all our Galaxy users.
 

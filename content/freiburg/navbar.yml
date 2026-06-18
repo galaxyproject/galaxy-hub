@@ -6,11 +6,11 @@ left:
       relativeTo: subsite
       target: events/
     - label: People
-      target: /freiburg/people
+      target: /freiburg/people/
     - label: Projects
-      target: https://usegalaxy-eu.github.io/freiburg/projects
+      target: /freiburg/projects/
     - label: Services
-      target: https://usegalaxy-eu.github.io/freiburg/services
+      target: /freiburg/services/
 right:
     - label: Help
       contents:
@@ -39,11 +39,11 @@ right:
     - label: About
       contents:
           - label: Jobs
-            target: https://usegalaxy-eu.github.io/freiburg/jobs
+            target: /careers/
           - label: Publications
-            target: https://usegalaxy-eu.github.io/freiburg/publications
+            target: /freiburg/citations/
           - label: Citing Galaxy
-            target: https://usegalaxy-eu.github.io/about#acknowledgement
+            target: /eu/about/#acknowledgement
           - label: Platforms
             target: "/use/"
           - label: Stats
