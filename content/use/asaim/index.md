@@ -22,5 +22,5 @@ citations:
 pub_libraries:
   - "ASaiM"
 sponsors:
-  - "The [Freiburg Galaxy Team](https://usegalaxy-eu.github.io/freiburg/) but also collectively by groups and individuals from across Europe"
+  - "The [Freiburg Galaxy Team](/freiburg/) but also collectively by groups and individuals from across Europe"
 ---
