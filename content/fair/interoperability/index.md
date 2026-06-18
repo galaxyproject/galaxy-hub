@@ -48,7 +48,7 @@ Analogously, the team behind usegalaxy.eu builds from a number of groups and ind
 
 ### Documented evidence of **community impact**
 
-Galaxy serves many different communities (not only in life science), by providing the computational infrastructure, Galaxy training courses, and training material. For many communities we offer [specific Galaxy sub-domains](https://usegalaxy-eu.github.io/posts/2020/12/28/subdomains) with individual entry pages and dedicated tools for community-specific research. Community members are using the Galaxy servers for their data analysis and report their application to other Galaxy users (“use cases”). These use cases are [published on our homepage](https://usegalaxy-eu.github.io/news?tag=usecase) to support visibility of their work.
+Galaxy serves many different communities (not only in life science), by providing the computational infrastructure, Galaxy training courses, and training material. For many communities we offer [specific Galaxy sub-domains](/use/) with individual entry pages and dedicated tools for community-specific research. Community members are using the Galaxy servers for their data analysis and report their application to other Galaxy users (“use cases”). These use cases are [published on our homepage](/news/?tag=usecase) to support visibility of their work.
 
 Measuring impact is hard. In the following we will state a few resources and numbers that we have been able to track semi-automatically over time.
 
@@ -60,7 +60,7 @@ Measuring impact is hard. In the following we will state a few resources and num
 
 Compared to several other ELIXIR (but also EOSC) resources, Galaxy servers are to be considered as downstream resources. Researchers are directly interfacing with Galaxy in various ways. Galaxy integrated community standards and adopts useful protocols and services ([GA4GH](/ga4gh/), [EDAM](https://edamontology.org/page), S3, [WebDAV](/news/2021-07-04-nextcloud-support/), [bio.tools](https://bio.tools), [OpenEBench](https://openebench.bsc.es), SPDX, OCI, [TeSS](https://tess.elixir-europe.org), [Beacon](/news/2023-01-beacon-integration/), [WorkflowHub](https://workflowhub.eu), [Identifiers.org](https://identifiers.org), [RO-Crate](https://www.researchobject.org/ro-crate/), [BCO](/news/2023-02-23-structured-data-exports-ro-bco/#export-invocation-to-biocompute-object), [RDMkit](https://rdmkit.elixir-europe.org), ...) to make data analysis more efficient.
 
-Systems that interface with Galaxy, such as [Intermine](https://galaxyproject.org/news/2019-09-intermine/), are using [Galaxy’s powerful API (OpenAPI)](https://usegalaxy-eu.github.io/posts/2022/08/05/galaxy-open-api/) to integrate various functionality and taking advantage from its strengths in workflow application, resource aggregation and reproducibility. That means that all systems that are able to interface with an OpenAPI-based system to run tools (for example the tools in [Expasy](https://www.expasy.org)), workflows, retrieving and publishing data, could use Galaxy.
+Systems that interface with Galaxy, such as [Intermine](https://galaxyproject.org/news/2019-09-intermine/), are using [Galaxy’s powerful API (OpenAPI)](/news/2022-08-05-galaxy-open-api/) to integrate various functionality and taking advantage from its strengths in workflow application, resource aggregation and reproducibility. That means that all systems that are able to interface with an OpenAPI-based system to run tools (for example the tools in [Expasy](https://www.expasy.org)), workflows, retrieving and publishing data, could use Galaxy.
 
 #### Outreach & support
 
@@ -132,7 +132,7 @@ Notably, the Galaxy Community is dedicated to provide a harassment-free experien
 
 ### Funding & sustainability plan
 
-The Galaxy Project is embedded in national and international funding streams. Notably, these include NIH and NSF (US), ELIXIR, EOSC and BMBF (EU), Bioplatforms and Research Data Commons (AUS). More information on the continental usegalaxy.\* instances you find on the bottom of the Galaxy Hub pages, and e.g. [here](https://usegalaxy-eu.github.io/freiburg/projects). However, the Galaxy project is built by many contributors from all over the world, so that the underlying funding is much more diverse and is subject to constant change in detail. This global community is well connected and capable of bridging funding gaps and re-allocating resources by strong vice-versa support.
+The Galaxy Project is embedded in national and international funding streams. Notably, these include NIH and NSF (US), ELIXIR, EOSC and BMBF (EU), Bioplatforms and Research Data Commons (AUS). More information on the continental usegalaxy.\* instances you find on the bottom of the Galaxy Hub pages, and e.g. [here](/freiburg/projects/). However, the Galaxy project is built by many contributors from all over the world, so that the underlying funding is much more diverse and is subject to constant change in detail. This global community is well connected and capable of bridging funding gaps and re-allocating resources by strong vice-versa support.
 
 ### Governance
 
