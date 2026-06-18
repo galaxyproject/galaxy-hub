@@ -223,7 +223,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 We've got two new *[Galactic Blog](/news/)* entries, both related to [Galaksio](https://galaksio.readthedocs.io/en/latest/):
 
 - [Galaksio: a Galaxy user interface focused on running prepared workflows](/news/2017-12-galaksio/), by Tomas Klingström
-- [Bioinformatic training with the B3Africa project](https://usegalaxy-eu.github.io/galaxy-freiburg/2017/12/10/b3africa.html), by Tomas Klingström
+- [Bioinformatic training with the B3Africa project](/news/2017-12-b3africa-training/), by Tomas Klingström
 
 The *Galactic Blog* is a place for longer-form posts that are relevant to Galaxy. (See [Galaxy News](/news/) for shorter-form items.)
 
