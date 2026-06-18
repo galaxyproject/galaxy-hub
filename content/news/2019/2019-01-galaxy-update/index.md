@@ -166,8 +166,8 @@ These and [other Galaxy related events](/events/) are coming up in the next few 
 </tr>
 <tr>
   <td><span class="text-nowrap">February 25th 2019</span></td>
-  <td><a href="https://usegalaxy-eu.github.io/event/2018-11-22-Galaxy-workshop-February2019/">Galaxy HTS data analysis workshop</a></td>
-  <td><img style="float:right;" src="/images/icons/EU.png"/><a href="https://usegalaxy-eu.github.io/event/2018-11-22-Galaxy-workshop-February2019/#venue">University of Freiburg, Freiburg, Germany</a></td>
+  <td>Galaxy HTS data analysis workshop</td>
+  <td><img style="float:right;" src="/images/icons/EU.png"/>University of Freiburg, Freiburg, Germany</td>
   <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>contact at usegalaxy.eu</td>
 </tr>
 <tr>
@@ -317,7 +317,7 @@ The dark energy<sup>*</sup> of irreproducible research is threatening the scienc
 * [2-year IR/postdoc position (Analysis of Genomic Variants in Children and Young Adults with Acute Myeloid Leukemia)](https://www.sfbi.fr/content/analysis-genomic-variants-children-and-young-adults-acute-myeloid-leukemia),  Analyse Bioinformatique ARTbio, Paris, France
 * [Bioinformatics Scientist](https://www.indeed.com/viewjob?jk=5288546935e35605), ResearchDx, Irvine, California, United States
 * [NGS Scientific Applications Specialist](https://careers-idtdna.icims.com/jobs/4112/ngs-scientific-applications-specialist/job), Integrated DNA technologies, Iowa City, Iowa, United States
-* [Freiburg Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2018/01/18/openpositions/), Freiburg, Germany
+* [Freiburg Galaxy Team has open positions](/news/2018-01-18-openpositions/), Freiburg, Germany
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring two software engineers at Johns Hopkins University](/news/2017-08-hiring-at-hopkins/), Baltimore, Maryland, United States).
 
