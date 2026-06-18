@@ -1,0 +1,49 @@
+name: Update EU Genome Count
+on:
+  workflow_dispatch:
+  schedule:
+    # Every Sunday at 23:00 UTC (same cadence as update-eu-tools)
+    - cron: "00 23 * * 0"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-genome-count:
+    runs-on: ubuntu-latest
+    if: github.repository_owner == 'galaxyproject'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: ${{ secrets.HUB_BOT_APP_CLIENT_ID }}
+          private-key: ${{ secrets.HUB_BOT_APP_PRIVATE_KEY }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install pandas
+
+      - name: Run update script
+        run: python scripts/update-eu-genome-count.py
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ steps.app-token.outputs.token }}
+          commit-message: "chore(eu/assembly): update VGP/ERGA genome count"
+          title: "Update VGP/ERGA Genome Count"
+          body: |
+            Auto-generated PR with the updated genome count from the
+            [VGP/ERGA Google Sheet](https://docs.google.com/spreadsheets/d/1Kya38LUDom4u7osTTY3uYyNor7AMpyLYxz5MaulciZc/)
+            for the [Galaxy Assembly](https://assembly.usegalaxy.eu) bare page.
+          branch: update-eu-genome-count
+          delete-branch: true
