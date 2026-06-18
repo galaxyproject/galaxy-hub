@@ -28,7 +28,7 @@ PathoGFAIR detects the pathogens or the subspecies of the pathogens in any sampl
 
 Importantly, PathoGFAIR is **easy to use** and can be **straightforwardly adapted and extended** for other types of analysis and sequencing techniques, making it usable in various pathogen detection scenarios.
 
-[PathoGFAIR Webpage](https://usegalaxy-eu.github.io/PathoGFAIR/)
+PathoGFAIR Webpage
 
 ## Workflows
 

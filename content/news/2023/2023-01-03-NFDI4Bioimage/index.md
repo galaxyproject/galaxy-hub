@@ -26,6 +26,6 @@ NFDI4BIOIMAGE will strive to provide scientists from all natural science and bio
 
 </div>
 
-The [Galaxy Team Freiburg](https://usegalaxy-eu.github.io/people) is taking part in Task Area (TA) 2 and provide Galaxy and remote access to powerful compute resources via virtual workstations for analysis, visualization, and training (e.g. [TIaaS](https://usegalaxy-eu.github.io/tiaas)) to all members of the consortium and the imaging community. Specifically, we will create robust OMERO deployments, either public or private depending on the community needs.
+The [Galaxy Team Freiburg](/freiburg/people/) is taking part in Task Area (TA) 2 and provide Galaxy and remote access to powerful compute resources via virtual workstations for analysis, visualization, and training (e.g. [TIaaS](/eu/tiaas/)) to all members of the consortium and the imaging community. Specifically, we will create robust OMERO deployments, either public or private depending on the community needs.
 To support the community training needs, we are running TIaaS and will offer admin and developer training to onboard the community to new concepts of cloud computing and containers.
 
