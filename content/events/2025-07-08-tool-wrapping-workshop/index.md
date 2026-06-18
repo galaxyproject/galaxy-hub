@@ -41,7 +41,7 @@ Number of Participants: 12
 - [Galaxy SDK (Planemo Documentation)](https://planemo.readthedocs.io/): Comprehensive resource for tool development, testing, and deployment.
 - [Complete 4-hour Tool Development Tutorial](https://planemo.readthedocs.io/en/latest/writing.html): Highly recommended for all participants. Walks you through building and testing a Galaxy tool step by step.
 - [Planemo in Scientific Literature](https://doi.org/10.1101/gr.276963.122): Learn about the motivations and impact of Planemo in tool development
-- [Quick Blog Post: 3 Steps to Galaxify Your Tool](https://usegalaxy-eu.github.io/posts/2020/08/22/three-steps-to-galaxify-your-tool/): A concise summary of the process to publish your tool to the European Galaxy serve.
+- Quick Blog Post: 3 Steps to Galaxify Your Tool: A concise summary of the process to publish your tool to the European Galaxy serve.
 - Important Repos for Galaxy tools
     - [tools-IUC](https://github.com/galaxyproject/tools-iuc)
     - [bgruening’s Galaxy Tools](https://github.com/bgruening/galaxytools)

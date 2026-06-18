@@ -32,5 +32,5 @@ The second session will present the [initial analysis of the SARS-CoV-2 genome, 
 ### Speakers
 
 * Anton Nekrutenko, Professor of [Biochemistry and Molecular Biology](http://bmb.psu.edu/) at [Penn State University](http://psu.edu/) (USA) and co-founder of the [Galaxy Project](http://galaxyproject.org/).
-* Wolfgang Maier, PostDoc at the University of Freiburg and member of the [European Galaxy team](https://usegalaxy-eu.github.io/freiburg/people).
+* Wolfgang Maier, PostDoc at the University of Freiburg and member of the [European Galaxy team](/freiburg/people/).
 
