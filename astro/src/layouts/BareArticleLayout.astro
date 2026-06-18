@@ -47,11 +47,21 @@ const { title, description } = Astro.props;
     --tw-prose-headings: #2c3143;
   }
 
+  .prose-galaxy table {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
   .prose-galaxy a {
     color: var(--tw-prose-links);
     text-decoration: underline;
     text-decoration-color: color-mix(in srgb, var(--tw-prose-links) 40%, transparent);
     text-underline-offset: 2px;
+    overflow-wrap: anywhere;
   }
 
   .prose-galaxy a:hover {
