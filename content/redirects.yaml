@@ -19,6 +19,10 @@ patterns:
 
 # Simple redirects — exact path mappings (from → to).
 redirects:
+  /event/2020-11-24-metabolomics/: /events/2020-12-10-metabolomics/
+  /event/2020-11-24-metabolomics/plain.html: /events/2020-12-10-metabolomics/
+  /event/2020-11-24-metabolomics/event.ics: /events/2020-12-10-metabolomics/
+  /event/2020-11-24-metabolomics/event.ics.html: /events/2020-12-10-metabolomics/
   /admin/authentication/config/: /authnz/config/
   /admin/authentication/: /authnz/
   /events/gtn.html: /events/gtn/
@@ -89,6 +93,23 @@ redirects:
 
   # Misc
   /FTPUpload/: /ftp-upload/
+  /ftp/: /ftp-upload/
+  /galaxy/: /eu/
+  /galaxy/data-policy.html: /eu/storage/
+  /galaxy/events.html: /eu/events/
+  /galaxy/news.html: /eu/news/
+  /events-ical.html: /eu/events/calendar.ics
+  /events.html: /eu/events/
+  /gga.html: /use/gga/
+  /index-microbiome.html: /bare/eu/usegalaxy/metagenomics/
+  /news.html: /eu/news/
+  /people.html: /eu/people/
+  /tiaas.html: /eu/tiaas/
+  /widgets/: /eu/widgets/
+  /widgets/events.html: /bare/eu/latest/events/
+  /widgets/news.html: /bare/eu/latest/news/
+  /freiburg/projects.html: /freiburg/projects/
+  /freiburg/services.html: /freiburg/services/
   /news/2020-04-james-taylor/: /jxtx/
   /automated-tool-tests/: /archive/
   /install-and-test-certification/: /archive/
@@ -268,3 +289,4 @@ redirects:
   /events/gcc-2026/travel/: /events/gcc2026/travel/
   /news/2025-10-15-egd-2025/: /news/2025-10-15-egd2025/
   /news/2026-03-02-MVD-workshop/: /news/2026-03-02-mvd-workshop/
+  /bare/eu/usegalaxy/microgalaxy/: /bare/eu/usegalaxy/microbiology/
