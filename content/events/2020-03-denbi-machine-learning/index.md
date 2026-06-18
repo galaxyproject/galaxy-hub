@@ -1,14 +1,22 @@
 ---
-title: "Introduction to Machine Learning using Galaxy - POSTPONED"
+title: "Introduction to Machine Learning using Galaxy"
 date: "2020-03-30"
+end: "2020-04-01"
 days: 3
-tease: "in Freiburg"
+tease: "Introduction to Machine Learning using Galaxy (Postponed)"
 continent: EU
 location:
-  name: "University of Freiburg, Freiburg, Germany"
-location_url:
+  name: "PC Pool 3, Freiburg, Germany"
+  street: "Werthmannstraße 4"
+  postal: "79098"
+  city: "Freiburg im Breisgau"
+  region: "Baden-Württemberg"
+  country: "Germany"
+  geo:
+    lat: 47.993469
+    lon: 7.845275
+location_url: "#venue"
 image: /images/logos/deNBILogo.png
-external_url: "https://usegalaxy-eu.github.io/event/2020-01-21-MachineLearning/plain.html"
 contact: "Alireza Khanteymoori, Anup Kumar"
 gtn: true
 subsites: [global, us]
@@ -16,5 +24,71 @@ contributions:
   organisers:
     - anuprulez
     - khanteymoori
-
 ---
+
+> [!WARNING]
+> **Archival Note:** This event was postponed due to the COVID-19 pandemic and did not take place as originally scheduled.
+
+We apologize for any inconvenience, and will update this event page as soon as we are able to resume the workshop. All currently allocated places will be saved and we will email you to reconfirm your participation in the next introduction to machine learning workshop. In two weeks, we will send you links of all the materials for the workshop. Please stay healthy!
+
+## Venue
+
+PC Pool 3<br />
+Werthmannstraße 4<br />
+79098 Freiburg im Breisgau, Baden-Württemberg, Germany
+
+# Important notes
+
+1. If you are registered but **cannot attend** our workshop, please [contact us by email](mailto:galaxy@informatik.uni-freiburg.de) immediately. We have a long waiting list and can give your place to others, even on short notice.
+2. Please register to our [European Galaxy server](https://usegalaxy.eu) to perform the analysis.
+3. You can bring your *own notebook* or desktop computers will be available. Eduroam is available, ask your institute for how to login.
+4. The workshop is free of charge. Unfortunately, no stipends for travel or accommodation are available.
+
+## Program
+
+Usually the workshop will run from 9:00-17:00 (give or take, depending on questions at the end). If the times will change, it will be announced during the workshop.
+
+Preliminary schedule. Topics may be adjusted according to the participants demand
+
+| Day | Topics |
+| --- | --- |
+| Mon | **Starts at 10:00 am**, Introduction to Galaxy, machine learning basics and classification techniques. |
+| Tue | Regression models, unsupervised learning (clustering and dimension reduction) and feature selection methods. |
+| Wed | Hyperparameter optimization techniques, questions and discussions. **Ends at 2:00 pm** |
+
+## Links
+
+* [Galaxy tips and tricks](https://github.com/bgruening/galaxy-tricks)
+* [Galaxy training network](http://training.galaxyproject.org)
+
+## Lunch Options
+
+<iframe src="https://www.google.com/maps/d/embed?mid=13xIYbHTYlxxu-oopBTsSJHqK42M8lO6C" width="100%" height="480"></iframe>
+
+## Travel Options
+
+From Basel airport to Freiburg you have two options:
+
+1. Take the train to Freiburg Hauptbahnhof (ICE or EC takes 30 min; Regio 60 min)
+2. Take the airport shuttle bus to Freiburg Hauptbahnhof ([Timetable](https://www.freiburger-reisedienst.de/en/airportbus/timetable.php))
+
+From Freiburg Hauptbahnhof to Venue you can walk or use local public transport (VAG):
+
+- [Tram line map](http://www.vag-freiburg.de/fahrplan-linien/netzplaene/liniennetzplan.html)
+- Tram line: 5
+- Tram stop: "Erbprinzenstraße"
+
+## Accommodations
+
+Some suggestions for hotels (please check portals such as HRS, booking, etc.)
+
+| Hotel | Location | Website |
+| --- | --- | --- |
+| Hotel am Rathaus | Rathausgasse 4-8 | [Website](http://www.am-rathaus.de/) |
+| Hotel Barbara | Poststrasse 4 | [Website](http://www.hotel-barbara.de/) |
+| Intercity Hotel Freiburg | Bismarckallee 3 | [Website](http://de.intercityhotel.com/Freiburg/InterCityHotel-Freiburg) |
+| Stadthotel Freiburg Kolping Hotel & Gästehaus | Karlstr.7 | [Website](http://www.hotel-freiburg.de/) |
+| Ibis Freiburg Süd (bit more far away) | Bötzinger Str.76 | [Website](http://www.accorhotels.com/de/hotel-2656-ibis-budget-freiburg-sued/index.shtml) |
+| StayInn Hostel und Gästehaus | Stühlinger Str.24a | [Website](http://www.stayinn-freiburg.de/hostel-und-gaestehaus/) |
+
+> In Freiburg you sometimes have to pay an additional accommodation tax. For business trips this tax does not to be paid if your employer fills out [this form](http://www.freiburg.de/servicebw/UebernachtungSt_Arbeitgeberbescheinigung.pdf). You will need to show this form to the hotel.
