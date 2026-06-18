@@ -33,7 +33,7 @@ Over the past five years, TIaaS has consistently provided several advantages tha
 The private job queue offered by TIaaS ensures that my students' analysis jobs run preferentially during our training sessions. This eliminates the frustration of long waiting times that can derail a workshop's flow and timing. Even with up to 20 students simultaneously running resource-intensive NGS analyses, the workshops progress smoothly without technical delays.
 
 ### Focus on content, not infrastructure
-With TIaaS, I can concentrate entirely on teaching analytical concepts and workflow design rather than worrying about server maintenance or job scheduling. There's no need to set up, configure, or maintain a Galaxy instance – [the European Galaxy team](https://usegalaxy-eu.github.io/people) handles all infrastructure concerns. This has allowed me to continuously refine my teaching materials and methods instead of troubleshooting technical issues.
+With TIaaS, I can concentrate entirely on teaching analytical concepts and workflow design rather than worrying about server maintenance or job scheduling. There's no need to set up, configure, or maintain a Galaxy instance – [the European Galaxy team](/freiburg/people/) handles all infrastructure concerns. This has allowed me to continuously refine my teaching materials and methods instead of troubleshooting technical issues.
 
 ### Real-time monitoring of course progress
 The [TIaaS dashboard](https://usegalaxy.eu/tiaas/dashboard-example/) has been particularly useful for tracking student progress during workshops. I can see which steps students are executing in real-time, allowing me to identify when someone is falling behind or encountering difficulties.
@@ -47,4 +47,4 @@ I've witnessed remarkable transformations in my students over five years of teac
 ## A community resource worth supporting
 TIaaS exemplifies how thoughtfully designed infrastructure can dramatically lower barriers to computational biology education. The reliable platform has allowed me to focus on what matters most – helping scientists gain the analytical skills they need for modern research.
 
-To instructors considering using TIaaS for their own training, I can only offer my strongest recommendation based on five years of consistently positive experiences. The [European Galaxy team](https://usegalaxy-eu.github.io/people) has created an invaluable resource for the scientific community that deserves continued support and recognition.
+To instructors considering using TIaaS for their own training, I can only offer my strongest recommendation based on five years of consistently positive experiences. The [European Galaxy team](/freiburg/people/) has created an invaluable resource for the scientific community that deserves continued support and recognition.

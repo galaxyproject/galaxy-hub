@@ -60,7 +60,7 @@ science researcher.
 The enthusiasm of the students is evident—they consistently request more practical sessions and deeply
 appreciate the opportunity to apply theoretical knowledge to real-world problems.
 
-None of this would be possible without the support of [the European Galaxy team](https://usegalaxy-eu.github.io/people) and the [TIaaS service](https://usegalaxy.eu/tiaas/).
+None of this would be possible without the support of [the European Galaxy team](/freiburg/people/) and the [TIaaS service](https://usegalaxy.eu/tiaas/).
 Their contribution is essential to making hands-on genomics education accessible and effective. A
 sincere thank to them for helping us train the next generation of biotechnology and biomedical
 professionals.
