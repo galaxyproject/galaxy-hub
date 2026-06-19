@@ -290,3 +290,7 @@ redirects:
   /news/2025-10-15-egd-2025/: /news/2025-10-15-egd2025/
   /news/2026-03-02-MVD-workshop/: /news/2026-03-02-mvd-workshop/
   /bare/eu/usegalaxy/microgalaxy/: /bare/eu/usegalaxy/microbiology/
+  /bare/eu/usegalaxy/index-materials/: /bare/eu/usegalaxy/materials/
+  /bare/eu/usegalaxy/index-nubri/: /bare/eu/usegalaxy/nubri/
+  /bare/eu/usegalaxy/index-plants/: /bare/eu/usegalaxy/plants/
+  /bare/eu/usegalaxy/index-streetscience/: /bare/eu/usegalaxy/streetscience/
