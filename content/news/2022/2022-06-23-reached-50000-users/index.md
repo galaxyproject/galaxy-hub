@@ -39,7 +39,7 @@ contributions:
 </div>
 <br />
 
-The [European Galaxy server](https://usegalaxy.eu/) was [officially launched on __March 15, 2018__](/news/2018-03-15-usegalaxy-eu/) during the first [Galaxy User Conference](/news/2018-03-15-y-galaxy-user-conference-a-successful-first-day/) in Freiburg. Despite the short timespan, many things have changed since then: __from 800 users at that time till the 50,000 that we've reached this year!__ 
+The [European Galaxy server](https://usegalaxy.eu/) was [officially launched on __March 15, 2018__](/news/2018-03-15-usegalaxy-eu/) during the first [Galaxy User Conference](/news/2018-03-15-y-galaxy-user-conference-a-successful-first-day/) in Freiburg. Despite the short timespan, many things have changed since then: __from 800 users at that time till the 50,000 that we've reached this year!__
 
 The European Galaxy server provides __free computing resources to scientist all over the world__ (more than 100 countries!). The aim is to __support scientists__ at all career stages and __regardless of their socioeconomic background__, so that everybody gets the same chances to perform data analysis. Some of our users have shared with us some [interesting scientific uses cases](/tags/usecase/) and [publications in scientific journals](/eu/citations/) that show the importance of the use of the services in the scientific progress.
 
@@ -66,4 +66,3 @@ __Big thanks__ to everybody that has contributed to the success of UseGalaxy.eu 
 <div class="center">
   <Flickr title="50k user workshop" link="https://www.flickr.com/photos/134305289@N03/52168204601/in/shares-eLN9iG/" coverWidth="640" coverHeight="427" cover="https://live.staticflickr.com/65535/52168204601_12fc4c1f4a.jpg"></Flickr>
 </div>
-

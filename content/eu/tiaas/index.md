@@ -5,7 +5,7 @@ tease: Dedicated free compute capacity for Galaxy training events on the Europea
 
 The European Galaxy server provides **Training Infrastructure as a Service (TIaaS)** for Galaxy training events. Trainers bring the course and materials; Galaxy Europe provides dedicated infrastructure at no cost so workshop jobs can run on capacity reserved for the training.
 
-![TIaaS logo](/images/logos/tiaas-logo.png)
+<img src="/images/logos/tiaas-logo.png" alt="TIaaS logo" width="480" />
 
 ## Why Use TIaaS?
 

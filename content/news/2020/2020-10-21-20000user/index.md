@@ -15,7 +15,7 @@ contributions:
     - uni-freiburg
 ---
 
-[We](/freiburg/people/) have exciting news to share! The [European Galaxy Server](https://www.usegalaxy.eu) surpassed the **20,000 registered users** last week! 
+[We](/freiburg/people/) have exciting news to share! The [European Galaxy Server](https://www.usegalaxy.eu) surpassed the **20,000 registered users** last week!
 
 5 continents, 100 countries and more than 100 industry companies using Galaxy... 4000 users trained using TIaaS and growing...!
 
@@ -30,4 +30,3 @@ Special thanks to our partner sites [Erasmus MC](https://galaxyproject.eu/erasmu
 
 
 [^footnote]: Users that have run at least one job.
-
