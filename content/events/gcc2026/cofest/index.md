@@ -34,8 +34,8 @@ components: true
       channel on the GCC2026 Slack and we'll place you accordingly.
     </p>
     <p>
-      Haven't filled out the form yet? Use
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfVznubQqoEZYHT0IFoG5zumoXI0oyaBxcNEgOUFnWzVLChkw/viewform?usp=sharing&ouid=117702235489827456804" target="_blank">the Find Your Track</a>
+      Haven't filled out the form yet? Use the
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfVznubQqoEZYHT0IFoG5zumoXI0oyaBxcNEgOUFnWzVLChkw/viewform?usp=sharing&ouid=117702235489827456804" target="_blank">Find Your Track</a>
       form and you'll be able to pick your project directly or be matched with one based on your interests and skills.
     </p>
 </div>
