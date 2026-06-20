@@ -28,11 +28,25 @@ const currentSlide = ref(0);
 const paused = ref(false);
 let slideTimer: ReturnType<typeof setInterval> | null = null;
 
-const totalSlides = computed(() => Math.max(1, Math.ceil(props.projects.length / props.cardsPerSlide)));
+const localCardsPerSlide = ref(props.cardsPerSlide);
+function decreaseCards() {
+  if (localCardsPerSlide.value > 4) {
+    localCardsPerSlide.value--;
+    currentSlide.value = 0;
+  }
+}
+function increaseCards() {
+  if (localCardsPerSlide.value < 8) {
+    localCardsPerSlide.value++;
+    currentSlide.value = 0;
+  }
+}
+
+const totalSlides = computed(() => Math.max(1, Math.ceil(props.projects.length / localCardsPerSlide.value)));
 
 const visibleProjects = computed(() => {
-  const start = currentSlide.value * props.cardsPerSlide;
-  return props.projects.slice(start, start + props.cardsPerSlide);
+  const start = currentSlide.value * localCardsPerSlide.value;
+  return props.projects.slice(start, start + localCardsPerSlide.value);
 });
 
 function advance() {
@@ -78,10 +92,35 @@ const formattedTime = computed(() => (props.lastUpdated ? props.lastUpdated.toLo
           <p class="presenter-subtitle">{{ props.dateString }} &middot; {{ props.locationString }}</p>
         </div>
         <div class="presenter-meta">
-          <span v-if="props.projects.length > 0" class="presenter-counter">
-            Slide {{ currentSlide + 1 }} / {{ totalSlides }}
-          </span>
-          <span v-if="props.lastUpdated" class="presenter-updated">Updated {{ formattedTime }}</span>
+          <div class="presenter-meta-row">
+            <div class="cards-control">
+              <Button
+                variant="outline"
+                size="icon-sm"
+                class="presenter-nav-btn"
+                :disabled="localCardsPerSlide <= 4"
+                aria-label="Fewer cards"
+                @click="decreaseCards"
+              >
+                −
+              </Button>
+              <span class="cards-label">{{ localCardsPerSlide }} / slide</span>
+              <Button
+                variant="outline"
+                size="icon-sm"
+                class="presenter-nav-btn"
+                :disabled="localCardsPerSlide >= 8"
+                aria-label="More cards"
+                @click="increaseCards"
+              >
+                +
+              </Button>
+            </div>
+            <span v-if="props.projects.length > 0" class="presenter-counter"
+              >Slide {{ currentSlide + 1 }} / {{ totalSlides }}</span
+            >
+            <span v-if="props.lastUpdated" class="presenter-updated">Updated {{ formattedTime }}</span>
+          </div>
         </div>
       </div>
     </header>
@@ -91,7 +130,11 @@ const formattedTime = computed(() => (props.lastUpdated ? props.lastUpdated.toLo
       <div v-else-if="props.error" class="presenter-status">Could not load projects: {{ props.error }}</div>
       <div v-else-if="props.projects.length === 0" class="presenter-status">No projects found yet.</div>
       <Transition v-else name="slide-fade" mode="out-in">
-        <div :key="currentSlide" class="presenter-grid">
+        <div
+          :key="currentSlide"
+          class="presenter-grid"
+          :style="{ gridTemplateColumns: `repeat(${Math.ceil(localCardsPerSlide / 2)}, 1fr)` }"
+        >
           <div v-for="p in visibleProjects" :key="p.project" class="presenter-card">
             <div class="presenter-card-title">{{ p.project }}</div>
             <div v-if="p.description" class="presenter-card-desc">{{ p.description }}</div>
@@ -177,11 +220,31 @@ const formattedTime = computed(() => (props.lastUpdated ? props.lastUpdated.toLo
 }
 
 .presenter-meta {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 0.25rem;
   flex-shrink: 0;
+}
+
+.presenter-meta-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.cards-control {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 0.5rem;
+  padding: 0.2rem 0.4rem;
+}
+
+.cards-label {
+  font-size: 0.75rem;
+  color: #94a3b8;
+  font-variant-numeric: tabular-nums;
+  min-width: 3.5rem;
+  text-align: center;
 }
 
 .presenter-counter {
@@ -212,7 +275,6 @@ const formattedTime = computed(() => (props.lastUpdated ? props.lastUpdated.toLo
 
 .presenter-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
   gap: 1.25rem;
   width: 100%;
   max-width: 1600px;
