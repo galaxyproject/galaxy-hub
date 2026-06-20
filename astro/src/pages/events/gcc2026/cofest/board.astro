@@ -1,0 +1,31 @@
+---
+import '../../../../styles/global.css';
+import CofestBoard from '../../../../components/CofestBoard.vue';
+
+const CSV_URL =
+  'https://docs.google.com/spreadsheets/d/e/2PACX-1vQLur85FWBMU7Kq9hAnH5sbNJOZ51LlUrYKDatOtSsugu0F-k9w-uqD0Lh15QJR9IhJA8_Wx9IMByIC/pub?gid=1847317213&single=true&output=csv';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <title>GCC2026 CoFest Projects | Live Board</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body>
+    <CofestBoard
+      client:load
+      csvUrl={CSV_URL}
+      presenterView={true}
+      cardsPerSlide={6}
+      slideIntervalMs={12000}
+      refreshIntervalMs={30000}
+      dateString="June 25–26, 2026"
+      locationString="Clermont-Ferrand, France"
+      eventName="GCC 2026"
+    />
+  </body>
+</html>
