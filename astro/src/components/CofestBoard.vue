@@ -26,6 +26,7 @@ const props = withDefaults(
     cardsPerSlide: 6,
     eventName: 'GCC',
     slideIntervalMs: 12000,
+    refreshIntervalMs: 30000,
   }
 );
 
