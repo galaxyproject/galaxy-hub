@@ -30,13 +30,14 @@ defineProps<{
             <span class="text-galaxy-grey">Lead: </span>
             <span class="font-semibold text-galaxy-primary">{{ p.lead }}</span>
           </div>
-          <div v-if="p.assignees.length > 0" class="team-section">
+          <div class="team-section">
             <span class="team-label">TEAM</span>
-            <div class="flex flex-wrap gap-1.5">
+            <div v-if="p.assignees.length > 0" class="flex flex-wrap gap-1.5">
               <Badge v-for="name in p.assignees" :key="name" variant="default" class="text-xs font-normal">
                 {{ name }}
               </Badge>
             </div>
+            <p v-else class="text-xs text-galaxy-primary italic">✨ Open spot — come join this project!</p>
           </div>
         </CardContent>
       </Card>

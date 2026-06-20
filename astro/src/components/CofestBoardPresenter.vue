@@ -181,8 +181,14 @@ const formattedTime = computed(() => (props.lastUpdated ? props.lastUpdated.toLo
             <div v-if="p.lead" class="presenter-card-lead">
               <span class="presenter-card-lead-label">Lead: </span>{{ p.lead }}
             </div>
-            <div v-if="p.assignees.length > 0" class="presenter-card-assignees">
-              <Badge v-for="name in p.assignees" :key="name" variant="outline" class="presenter-tag">{{ name }}</Badge>
+            <div class="presenter-card-assignees">
+              <span class="presenter-team-label">TEAM</span>
+              <div v-if="p.assignees.length > 0" class="presenter-tags">
+                <Badge v-for="name in p.assignees" :key="name" variant="outline" class="presenter-tag">
+                  {{ name }}
+                </Badge>
+              </div>
+              <div v-else class="presenter-join">✨ Open spot — come join this project!</div>
             </div>
           </div>
         </div>
@@ -362,9 +368,43 @@ const formattedTime = computed(() => (props.lastUpdated ? props.lastUpdated.toLo
 }
 
 .presenter-card-assignees {
+  margin-top: auto;
+  padding-top: 0.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.presenter-team-label {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #64748b;
+}
+
+.presenter-tags {
   display: flex;
   flex-wrap: wrap;
   gap: 0.3rem;
+}
+
+.presenter-light .presenter-card-assignees {
+  border-top-color: color-mix(in srgb, #25537b 15%, transparent);
+}
+
+.presenter-join {
+  font-size: 0.8rem;
+  color: #ffd700;
+  font-style: italic;
+}
+
+.presenter-light .presenter-join {
+  color: #25537b;
+}
+
+.presenter-light .presenter-team-label {
+  color: #94a3b8;
 }
 
 /* Badge override for dark background */
