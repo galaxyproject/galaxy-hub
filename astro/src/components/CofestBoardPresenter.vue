@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted } from 'vue';
 import type { Project } from './CofestBoard.vue';
+import { Button } from '@/components/ui/button';
+import { Badge } from '@/components/ui/badge';
 
 const props = withDefaults(
   defineProps<{
@@ -23,27 +25,45 @@ const props = withDefaults(
 );
 
 const currentSlide = ref(0);
+const paused = ref(false);
 let slideTimer: ReturnType<typeof setInterval> | null = null;
 
 const totalSlides = computed(() => Math.max(1, Math.ceil(props.projects.length / props.cardsPerSlide)));
 
 const visibleProjects = computed(() => {
-  const perSlide = props.cardsPerSlide;
-  const start = currentSlide.value * perSlide;
-  return props.projects.slice(start, start + perSlide);
+  const start = currentSlide.value * props.cardsPerSlide;
+  return props.projects.slice(start, start + props.cardsPerSlide);
 });
 
 function advance() {
   currentSlide.value = (currentSlide.value + 1) % totalSlides.value;
 }
 
-onMounted(() => {
-  slideTimer = setInterval(advance, props.slideIntervalMs);
-});
+function prev() {
+  currentSlide.value = (currentSlide.value - 1 + totalSlides.value) % totalSlides.value;
+}
 
-onUnmounted(() => {
+function next() {
+  currentSlide.value = (currentSlide.value + 1) % totalSlides.value;
+}
+
+function togglePause() {
+  paused.value = !paused.value;
+}
+
+function startTimer() {
+  stopTimer();
+  slideTimer = setInterval(() => {
+    if (!paused.value) advance();
+  }, props.slideIntervalMs);
+}
+
+function stopTimer() {
   if (slideTimer) clearInterval(slideTimer);
-});
+}
+
+onMounted(startTimer);
+onUnmounted(stopTimer);
 
 const formattedTime = computed(() => (props.lastUpdated ? props.lastUpdated.toLocaleTimeString() : ''));
 </script>
@@ -79,7 +99,7 @@ const formattedTime = computed(() => (props.lastUpdated ? props.lastUpdated.toLo
               <span class="presenter-card-lead-label">Lead: </span>{{ p.lead }}
             </div>
             <div v-if="p.assignees.length > 0" class="presenter-card-assignees">
-              <span v-for="name in p.assignees" :key="name" class="presenter-tag">{{ name }}</span>
+              <Badge v-for="name in p.assignees" :key="name" variant="outline" class="presenter-tag">{{ name }}</Badge>
             </div>
           </div>
         </div>
@@ -87,8 +107,25 @@ const formattedTime = computed(() => (props.lastUpdated ? props.lastUpdated.toLo
     </main>
 
     <footer class="presenter-footer">
-      <span v-if="props.footerText">{{ props.footerText }}</span>
-      <span v-else>Served at Galaxy Project (<a href="/">galaxyproject.org</a>)</span>
+      <Button variant="outline" size="icon-sm" class="presenter-nav-btn" aria-label="Previous slide" @click="prev">
+        &#8592;
+      </Button>
+      <Button
+        variant="outline"
+        size="icon-sm"
+        class="presenter-nav-btn"
+        :aria-label="paused ? 'Resume' : 'Pause'"
+        @click="togglePause"
+      >
+        {{ paused ? '▶' : '⏸' }}
+      </Button>
+      <Button variant="outline" size="icon-sm" class="presenter-nav-btn" aria-label="Next slide" @click="next">
+        &#8594;
+      </Button>
+      <span class="footer-text">
+        <span v-if="props.footerText">{{ props.footerText }}</span>
+        <a v-else href="/">galaxyproject.org</a>
+      </span>
     </footer>
   </div>
 </template>
@@ -228,23 +265,49 @@ const formattedTime = computed(() => (props.lastUpdated ? props.lastUpdated.toLo
   gap: 0.3rem;
 }
 
+/* Badge override for dark background */
 .presenter-tag {
-  background: rgba(255, 215, 0, 0.1);
-  color: #cbd5e1;
-  border-radius: 9999px;
-  padding: 0.15rem 0.6rem;
-  font-size: 0.75rem;
-  white-space: nowrap;
-  border: 1px solid rgba(255, 215, 0, 0.2);
+  background: rgba(255, 215, 0, 0.08) !important;
+  color: #cbd5e1 !important;
+  border-color: rgba(255, 215, 0, 0.2) !important;
 }
 
+/* ── Footer ── */
 .presenter-footer {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
   padding: 0.5rem 1rem;
-  font-size: 0.75rem;
-  color: #475569;
   border-top: 1px solid #1e2d42;
   flex-shrink: 0;
+}
+
+.presenter-nav-btn {
+  background: rgba(255, 255, 255, 0.06) !important;
+  border-color: rgba(255, 255, 255, 0.15) !important;
+  color: #94a3b8 !important;
+}
+
+.presenter-nav-btn:hover {
+  background: rgba(255, 215, 0, 0.15) !important;
+  border-color: #ffd700 !important;
+  color: #ffd700 !important;
+}
+
+.footer-text {
+  font-size: 0.75rem;
+  color: #475569;
+  margin-left: 0.5rem;
+}
+
+.footer-text a {
+  color: #475569;
+  text-decoration: none;
+}
+
+.footer-text a:hover {
+  color: #94a3b8;
 }
 
 /* Slide transition */
