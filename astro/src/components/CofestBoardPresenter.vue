@@ -26,6 +26,7 @@ const props = withDefaults(
 
 const currentSlide = ref(0);
 const paused = ref(false);
+const isLight = ref(false);
 let slideTimer: ReturnType<typeof setInterval> | null = null;
 
 const localCardsPerSlide = ref(props.cardsPerSlide);
@@ -83,7 +84,7 @@ const formattedTime = computed(() => (props.lastUpdated ? props.lastUpdated.toLo
 </script>
 
 <template>
-  <div class="presenter-body">
+  <div class="presenter-body" :class="{ 'presenter-light': isLight }">
     <header class="presenter-header">
       <div class="presenter-header-inner">
         <img src="/images/galaxy_logo_hub_white.svg" alt="Galaxy" class="presenter-logo" />
@@ -93,6 +94,45 @@ const formattedTime = computed(() => (props.lastUpdated ? props.lastUpdated.toLo
         </div>
         <div class="presenter-meta">
           <div class="presenter-meta-row">
+            <Button
+              variant="outline"
+              size="icon-sm"
+              class="presenter-nav-btn"
+              :aria-label="isLight ? 'Switch to dark mode' : 'Switch to light mode'"
+              @click="isLight = !isLight"
+            >
+              <svg
+                v-if="isLight"
+                xmlns="http://www.w3.org/2000/svg"
+                class="size-4"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707M17.657 17.657l-.707-.707M6.343 6.343l-.707-.707M12 5a7 7 0 100 14A7 7 0 0012 5z"
+                />
+              </svg>
+
+              <svg
+                v-else
+                xmlns="http://www.w3.org/2000/svg"
+                class="size-4"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
+                />
+              </svg>
+            </Button>
             <div class="cards-control">
               <Button
                 variant="outline"
@@ -370,6 +410,80 @@ const formattedTime = computed(() => (props.lastUpdated ? props.lastUpdated.toLo
 
 .footer-text a:hover {
   color: #94a3b8;
+}
+
+/* ── Light mode overrides ── */
+.presenter-light {
+  background: #f8fafc;
+  color: #1e293b;
+}
+
+.presenter-light .presenter-header {
+  background: linear-gradient(135deg, #25537b 0%, #1a3a54 100%);
+}
+
+.presenter-light .presenter-card {
+  background: #ffffff;
+  border-color: color-mix(in srgb, #25537b 15%, transparent);
+}
+
+.presenter-light .presenter-card:hover {
+  border-color: #25537b;
+}
+
+.presenter-light .presenter-card-title {
+  color: #1e293b;
+}
+
+.presenter-light .presenter-card-desc {
+  color: #475569;
+}
+
+.presenter-light .presenter-footer {
+  border-top-color: #e2e8f0;
+  background: #f1f5f9;
+}
+
+.presenter-light .presenter-tag {
+  background: color-mix(in srgb, #25537b 8%, transparent) !important;
+  color: #25537b !important;
+  border-color: color-mix(in srgb, #25537b 25%, transparent) !important;
+}
+
+.presenter-light .presenter-card-lead {
+  color: #25537b;
+}
+
+.presenter-light .presenter-card-lead-label {
+  color: #94a3b8;
+}
+
+.presenter-light .presenter-footer .presenter-nav-btn {
+  background: rgba(0, 0, 0, 0.04) !important;
+  border-color: rgba(0, 0, 0, 0.15) !important;
+  color: #475569 !important;
+}
+
+.presenter-light .presenter-footer .presenter-nav-btn:hover {
+  background: color-mix(in srgb, #25537b 10%, transparent) !important;
+  border-color: #25537b !important;
+  color: #25537b !important;
+}
+
+.presenter-light .cards-control {
+  background: rgba(0, 0, 0, 0.04);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.presenter-light .presenter-counter,
+.presenter-light .cards-label {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.presenter-light .presenter-updated,
+.presenter-light .footer-text,
+.presenter-light .footer-text a {
+  color: rgba(255, 255, 255, 0.5);
 }
 
 /* Slide transition */
