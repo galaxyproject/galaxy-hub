@@ -1,21 +1,14 @@
 ---
 /**
- * CofestBoard — Live project board for GCC2026 CoFest.
+ * CofestBoard — Live project board for GCC2026 CoFest (inline view).
  *
  * Data is fetched client-side from a published Google Sheet CSV so organizers
- * can edit the sheet live during the event without a redeploy.
- *
- * HOW TO GET THE CSV URL:
- *   1. Open your Google Sheet
- *   2. File > Share > Publish to web
- *   3. Choose the sheet tab, select "Comma-separated values (.csv)"
- *   4. Click "Publish" and copy the URL
- *   5. Paste it below as CSV_URL (also update the kiosk page board.astro)
+ * can edit the sheet live during the event without a redeploy. The sheet URL
+ * and event details live in src/data/cofest.ts, shared with the kiosk page
+ * (pages/events/gcc2026/cofest/board.astro).
  */
 import CofestBoardVue from './CofestBoard.vue';
-
-const CSV_URL =
-  'https://docs.google.com/spreadsheets/d/e/2PACX-1vQLur85FWBMU7Kq9hAnH5sbNJOZ51LlUrYKDatOtSsugu0F-k9w-uqD0Lh15QJR9IhJA8_Wx9IMByIC/pub?gid=1847317213&single=true&output=csv';
+import { COFEST_CSV_URL, COFEST_DATE, COFEST_LOCATION } from '@/data/cofest';
 ---
 
-<CofestBoardVue client:load csvUrl={CSV_URL} dateString="June 25–26, 2026" locationString="Clermont-Ferrand, France" />
+<CofestBoardVue client:load csvUrl={COFEST_CSV_URL} dateString={COFEST_DATE} locationString={COFEST_LOCATION} />

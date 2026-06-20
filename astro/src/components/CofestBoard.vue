@@ -2,13 +2,7 @@
 import { ref, onMounted, onUnmounted } from 'vue';
 import CofestBoardInline from './CofestBoardInline.vue';
 import CofestBoardPresenter from './CofestBoardPresenter.vue';
-
-export interface Project {
-  project: string;
-  description: string;
-  lead: string;
-  assignees: string[];
-}
+import { parseCsv, type Project } from '@/utils/cofest-csv';
 
 const props = withDefaults(
   defineProps<{
@@ -36,47 +30,6 @@ const error = ref<string | null>(null);
 const lastUpdated = ref<Date | null>(null);
 
 let refreshTimer: ReturnType<typeof setInterval> | null = null;
-
-function parseCsvRow(line: string): string[] {
-  const cols: string[] = [];
-  let current = '';
-  let inQuotes = false;
-  for (let i = 0; i < line.length; i++) {
-    const ch = line[i];
-    if (ch === '"') {
-      if (inQuotes && line[i + 1] === '"') {
-        current += '"';
-        i++;
-      } else inQuotes = !inQuotes;
-    } else if (ch === ',' && !inQuotes) {
-      cols.push(current.trim());
-      current = '';
-    } else {
-      current += ch;
-    }
-  }
-  cols.push(current.trim());
-  return cols;
-}
-
-function parseCsv(text: string): Project[] {
-  const rows = text.trim().split('\n');
-  return rows
-    .slice(1)
-    .map((line) => {
-      const cols = parseCsvRow(line);
-      return {
-        project: cols[0] || '',
-        description: cols[1] || '',
-        lead: cols[2] || '',
-        assignees: (cols[3] || '')
-          .split(',')
-          .map((s) => s.trim())
-          .filter(Boolean),
-      };
-    })
-    .filter((p) => p.project);
-}
 
 async function loadProjects() {
   try {

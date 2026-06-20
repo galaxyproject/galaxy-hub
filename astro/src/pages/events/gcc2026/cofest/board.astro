@@ -1,9 +1,7 @@
 ---
 import '../../../../styles/global.css';
 import CofestBoard from '../../../../components/CofestBoard.vue';
-
-const CSV_URL =
-  'https://docs.google.com/spreadsheets/d/e/2PACX-1vQLur85FWBMU7Kq9hAnH5sbNJOZ51LlUrYKDatOtSsugu0F-k9w-uqD0Lh15QJR9IhJA8_Wx9IMByIC/pub?gid=1847317213&single=true&output=csv';
+import { COFEST_CSV_URL, COFEST_DATE, COFEST_LOCATION, COFEST_EVENT_NAME } from '@/data/cofest';
 ---
 
 <!doctype html>
@@ -18,14 +16,14 @@ const CSV_URL =
   <body>
     <CofestBoard
       client:load
-      csvUrl={CSV_URL}
+      csvUrl={COFEST_CSV_URL}
       presenterView={true}
       cardsPerSlide={6}
       slideIntervalMs={12000}
       refreshIntervalMs={30000}
-      dateString="June 25–26, 2026"
-      locationString="Clermont-Ferrand, France"
-      eventName="GCC 2026"
+      dateString={COFEST_DATE}
+      locationString={COFEST_LOCATION}
+      eventName={COFEST_EVENT_NAME}
     />
   </body>
 </html>

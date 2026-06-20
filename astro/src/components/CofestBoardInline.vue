@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Project } from './CofestBoard.vue';
+import type { Project } from '@/utils/cofest-csv';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 

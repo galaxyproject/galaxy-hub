@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted } from 'vue';
-import type { Project } from './CofestBoard.vue';
+import type { Project } from '@/utils/cofest-csv';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 
