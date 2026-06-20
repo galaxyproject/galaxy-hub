@@ -22,6 +22,17 @@ components: true
 
 </div>
 
+## CoFest 2026 Projects
+
+Below are the live projects for CoFest 2026, each with a lead and an assigned team.
+
+<div class="callout text-center">
+    <strong>Note:</strong> If you wish to join a project or if you want to change your assigned project, you can do so by filling out
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfVznubQqoEZYHT0IFoG5zumoXI0oyaBxcNEgOUFnWzVLChkw/viewform?usp=sharing&ouid=117702235489827456804" target="_blank">this form</a>. <i>(same form as the one for finding your track)</i>
+</div>
+
+<CofestBoard />
+
 ## What to Expect at CoFest
 
 <div class="callout text-center">
@@ -36,17 +47,6 @@ CoFest participants will collaborate around **project tracks**, each with real, 
 - **Strengthen the platform** – Dig into the core codebase and help make Galaxy more robust.
 - **Grow the training ecosystem** – Update, improve, and create GTN tutorials that help researchers worldwide.
 - **Build community** – Contribute to governance, outreach, and the things that keep Galaxy's community thriving.
-
-## CoFest 2026 Projects
-
-Below are the live projects for CoFest 2026, each with a lead and an assigned team.
-
-<div class="callout text-center">
-    <strong>Note:</strong> If you wish to join a project or if you want to change your assigned project, you can do so by filling out
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfVznubQqoEZYHT0IFoG5zumoXI0oyaBxcNEgOUFnWzVLChkw/viewform?usp=sharing&ouid=117702235489827456804" target="_blank">this form</a>. <i>(same form as the one for finding your track)</i>
-</div>
-
-<CofestBoard />
 
 ## How It Works
 
