@@ -27,6 +27,8 @@ Please note that BoFs are intended for in-person participation and unfortunately
 
 ### Galaxy as the Substrate for Agent-driven Science
 
+Location: Amphitheater A
+
 **Organizers:** Dannon Baker, Anton Nekrutenko
 
 Some of us are starting to put agents to work driving Galaxy purely agentically — this BoF is to figure out what's working, what we should improve, and what we still need to build. What workloads are folks experimenting with? Where is Galaxy already a solid substrate, and where are we hitting walls? Come compare notes, whether you're driving Galaxy from a coding harness like Claude Code or Codex (with or without galaxy-mcp), running Loom/Orbit, or something else entirely.
@@ -34,6 +36,8 @@ Some of us are starting to put agents to work driving Galaxy purely agentically 
 ---
 
 ### Federation of instances: atypical multi-HPC integration. Is Pulsar the solution?
+
+Location: Amphitheater B
 
 **Organizers:** Vlad Visan, Marie Jossé, Yvan Le Bras, Samuel Keuchkerian, Martin Carrère, Sanjay Srikakulam
 
@@ -49,6 +53,8 @@ Extending HPC integration options could lead to more users, e.g. those with larg
 
 ### Keeping pace with best practices in single-cell and spatial omics in Galaxy
 
+Location: Espace doc
+
 **Organizers:** Kevin Rue-Albrecht, Marisa Loach
 
 This BoF will bring together Galaxy users, developers, trainers, and infrastructure contributors interested in how Galaxy can keep pace with evolving best practices in data-intensive analysis workflows.
@@ -63,6 +69,8 @@ We're keen to hear from you if your community has faced challenges keeping Galax
 
 ### How to build and structure one's community: the quid of overlapping communities
 
+Location: Caffetaria
+
 **Organizers:** Marie Jossé, Beatriz Serrano-Solano, Yvan Le Bras, Jérôme Detoc, Samuel Keuchkerian
 
 How do we design overlapping communities? This BoF shares experiences from the Earth, climate and Ecology communities stumbling to try to build a coherent community. This BoF aims at exploring governance and collaboration, and hearing from the feedback of other Galaxy SIGs. Join us to exchange insights on balancing autonomy and cohesion in distributed communities!
@@ -70,6 +78,8 @@ How do we design overlapping communities? This BoF shares experiences from the E
 ---
 
 ### Access and Identity — Now that I know who you are, what do I do?
+
+Location: Entrance hall
 
 **Organizers:** Galaxy Australia team
 

@@ -20,7 +20,7 @@ The schedule is where you can discover what’s happening when at GCC2026. Full 
 | 13:00 - 14:30 | [Talks 2](#talks-2-infrastructure-federation-and-service-operations)                             | Amphitheater A (in person), B (streaming) |
 | 14:30 - 16:00 | [Posters 1](#posters-1--monday-jun-22-14301600)                                                  | Corridor |
 | 16:00 - 17:00 | [Talks 3](#talks-3-communities-provenance-and-cross-domain-expansion)                            | Amphitheater A (in person), B (streaming) |
-| 17:00 - 18:00 | [BoFs](/events/gcc2026/bofs)                                                                     | Breakout Spaces |
+| 17:00 - 18:00 | [BoFs](/events/gcc2026/bofs)                                                                     | See [BoF](/events/gcc2026/bofs) descriptions |
 
 </details>
 
