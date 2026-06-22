@@ -33,9 +33,11 @@ Some of us are starting to put agents to work driving Galaxy purely agentically 
 
 ---
 
-### Atypical multi-HPC integration
+### Federation of instances: atypical multi-HPC integration. Is Pulsar the solution?
 
-**Organizers:** Vlad Visan, Marie Jossé, Yvan Le Bras
+**Organizers:** Vlad Visan, Marie Jossé, Yvan Le Bras, Samuel Keuchkerian, Martin Carrère, Sanjay Srikakulam
+
+How can we interconnect decentralized instances? Is Pulsar the solution for scalable, secure, and low-latency federation? Share your challenges, use cases, and ideas for building resilient, interconnected systems.
 
 Our Galaxy connects to multiple HPC clusters, with the following cluster-level constraints: no SSH access, no software installation, no admin-access and no object store. This required some Galaxy customisations to work.
 
@@ -96,14 +98,6 @@ In this BoF, we would like to collect such issues and, more importantly, bring G
 **Organizers:** Daniel Blankenberg
 
 Galaxy tool development still requires substantial manual effort to create XML tool definitions and wrapper scripts, which can slow the integration of new software into the ecosystem. This Birds of a Feather session will bring together community members interested in open source approaches for automating Galaxy tool generation, including existing wrapper-generation frameworks, fine-tuned open-source language models, and emerging agent-based workflows. We will discuss practical use cases, current limitations, training and evaluation resources, and opportunities for shared community infrastructure. The goal is to identify how the Galaxy community can collaborate on reusable datasets, benchmarks, and best practices to make tool development more scalable, reliable, and accessible.
-
----
-
-### Federation of instances: How to interconnect them. Is Pulsar the solution?
-
-**Organizers:** Marie Jossé, Samuel Keuchkerian, Yvan Le Bras, Martin Carrère, Sanjay Srikakulam
-
-How can we interconnect decentralized instances? Is Pulsar the solution for scalable, secure, and low-latency federation? Share your challenges, use cases, and ideas for building resilient, interconnected systems.
 
 ---
 
