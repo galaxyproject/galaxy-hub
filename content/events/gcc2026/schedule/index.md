@@ -634,19 +634,6 @@ Moderator: Solenne Coreard
   <summary>
     <span class="gcc-talk-time">11:00 - 11:15</span>
     <span class="gcc-talk-main">
-      <span class="gcc-talk-title">Phylogenomic and Functional Analysis of Ethiopia’s First Marburg Virus Outbreak Highlights a Single Spillover Event and Preserved Vaccine Targets</span>
-      <span class="gcc-talk-authors"><strong>Bashea Chala</strong>, Getu Melak, Gebremicael Gebremedhin, Ali Abraham, Marburg Virus Outbreak Task Force, Tadese Gemechu, Tollera Getachew</span>
-    </span>
-    <span class="gcc-talk-poster">Also Poster</span>
-  </summary>
-  <div class="gcc-talk-abstract">
-    <p>In November 2025, Ethiopia reported its first Marburg virus disease outbreak with a 64% case fatality rate. Genomic epidemiology was applied to characterize transmission dynamics, phylogeny, and mutations relevant to vaccine and monoclonal antibody efficacy. Samples were processed at the Ethiopian Public Health Institute (EPHI). RNA was extracted after ethanol inactivation and screened by PCR for viral hemorrhagic fevers and arboviruses. Marburg virus-positive samples were sequenced using the Illumina Viral Surveillance Panel 2 on the NovaSeq X plus and MiSeq platforms. Analyses were performed on the European Galaxy server, including quality filtering (fastp), host depletion (Bowtie2), reference mapping (BWA-MEM2), variant calling and consensus generation (iVar), and lineage assignment (Nextclade). Phylogenetic and temporal analyses were performed using 103 global genomes in BEAST with a Skygrid model. MVD diagnosis was confirmed by RT-PCR, and positive samples underwent full‑genome sequencing. Seven high‑quality genomes (genome coverage &gt;70%) from the Ethiopian outbreak were successfully sequenced and analyzed alongside 103 global genomes derived from humans and the natural bat host, Rousettus aegyptiacus. The Ethiopian sequences showed &gt;99.9% nucleotide identity, indicating low viral diversity. Maximum-likelihood phylogenetic analysis demonstrated that all sequences clustered within the MARV.A.1 clade. They were closely related to historical isolates from the Netherlands (the Leiden strain) and Uganda. The Ethiopian lineage and its closest human isolate (JN408064) diverged from a common ancestor circulating in 1994, whereas the Ethiopian lineage and its closest bat isolates (JX458853 and JX458858) diverged from a common ancestor circulating around 1989. Genomic and epidemiological evidence supported a single zoonotic spillover followed by localized human-to-human transmission. Seventy lineage-defining substitutions were identified, including 10 non-synonymous mutations primarily in the glycoprotein gene, with strong purifying selection (dN/dS &lt; 1). The outbreak strain showed high similarity to the reference strain, with conserved monoclonal antibody binding sites and no escape mutations. Overall, the outbreak resulted from a single spillover event with limited viral diversification, supporting the continued efficacy of existing vaccines and monoclonal antibody therapies.</p>
-  </div>
-</details>
-<details class="gcc-talk">
-  <summary>
-    <span class="gcc-talk-time">11:15 - 11:30</span>
-    <span class="gcc-talk-main">
       <span class="gcc-talk-title">From legacy pipelines to reusable Galaxy workflows for national bacterial WGS surveillance at Statens Serum Institut</span>
       <span class="gcc-talk-authors"><strong>Matusevicius Povilas</strong></span>
     </span>
@@ -658,7 +645,7 @@ Moderator: Solenne Coreard
 </details>
 <details class="gcc-talk">
   <summary>
-    <span class="gcc-talk-time">11:30 - 11:45</span>
+    <span class="gcc-talk-time">11:15 - 11:30</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">Leveraging Galaxy’s Superpowers to Enhance Fermentation Innovation through the Siduri portal</span>
       <span class="gcc-talk-authors"><strong>Barnabé Agnès</strong>, Fernandez Emilie, Le Floch Erwan, Lacroix Thomas, Schbath Sophie, Loux Valentin</span>
@@ -678,7 +665,7 @@ Moderator: Solenne Coreard
 </details>
 <details class="gcc-talk">
   <summary>
-    <span class="gcc-talk-time">11:45 - 12:00</span>
+    <span class="gcc-talk-time">11:30 - 11:45</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">Galaxy-based workflows for genome-resolved and multi-kingdom microbiome analysis: application to the nasal microbiome in Alzheimer’s disease</span>
       <span class="gcc-talk-authors"><strong>Hojat Ansari Mina</strong></span>
@@ -1683,19 +1670,6 @@ Moderator: Yvan Le Bras
     <p>Connecting the fragmented landscape of single-cell tools across these three platforms will make it easier for users to Find and Access the tools they need. Developing consistent workflows and training materials will make analyses more Interoperable and enable users to move more easily between platforms. Alongside efforts to align single-cell metadata across platforms, a BioFAIR Pathfinder project is using exemplar single-cell workflows to demonstrate how Bioconductor tools can be adapted into Galaxy wrappers and nf-core modules. New workflows will demonstrate the improved interoperability between Galaxy and Bioconductor single-cell tools.</p>
     <p>The final component in FAIR is Reusability. Making tools and workflows available isn’t enough to ensure that researchers will actually reuse them, particularly in a field such as single-cell that can be intimidating for life scientists with limited computational experience. Annotated Galaxy workflows coupled with hands-on Galaxy Training Network (GTN) tutorials can introduce these users to single-cell analysis. However, taking the next step and applying these workflows to new research questions can still be challenging. A series of online workshops, targeted at students and Early Career Researchers (ECRs) from institutions with limited bioinformatics support, is guiding users through this transition. Feedback from these workshops will be used to improve the GTN tutorials to better enable future users to adapt and reuse Galaxy workflows for their own purposes.</p>
     <p>Both BioFAIR single-cell projects will unite in September for a Galaxy-Bioconductor Cofest and Bring Your Own Data event at The Open University. Participants of the single-cell workshops will be supported through their first independent analysis and encouraged to make their own contributions to the GTN. Meanwhile, Galaxy and Bioconductor contributors will collaborate to ensure these users have the tools and workflows they need, whether they use Galaxy, Bioconductor, or move between platforms.</p>
-  </div>
-</details>
-<details class="gcc-talk">
-  <summary>
-    <span class="gcc-talk-time">7</span>
-    <span class="gcc-talk-main">
-      <span class="gcc-talk-title">Phylogenomic and Functional Analysis of Ethiopia’s First Marburg Virus Outbreak Highlights a Single Spillover Event and Preserved Vaccine Targets</span>
-      <span class="gcc-talk-authors"><strong>Bashea Chala</strong>, Getu Melak, Gebremicael Gebremedhin, Ali Abraham, Marburg Virus Outbreak Task Force, Tadese Gemechu, Tollera Getachew</span>
-    </span>
-    <span class="gcc-talk-poster">Also Talk</span>
-  </summary>
-  <div class="gcc-talk-abstract">
-    <p>In November 2025, Ethiopia reported its first Marburg virus disease outbreak with a 64% case fatality rate. Genomic epidemiology was applied to characterize transmission dynamics, phylogeny, and mutations relevant to vaccine and monoclonal antibody efficacy. Samples were processed at the Ethiopian Public Health Institute (EPHI). RNA was extracted after ethanol inactivation and screened by PCR for viral hemorrhagic fevers and arboviruses. Marburg virus-positive samples were sequenced using the Illumina Viral Surveillance Panel 2 on the NovaSeq X plus and MiSeq platforms. Analyses were performed on the European Galaxy server, including quality filtering (fastp), host depletion (Bowtie2), reference mapping (BWA-MEM2), variant calling and consensus generation (iVar), and lineage assignment (Nextclade). Phylogenetic and temporal analyses were performed using 103 global genomes in BEAST with a Skygrid model. MVD diagnosis was confirmed by RT-PCR, and positive samples underwent full‑genome sequencing. Seven high‑quality genomes (genome coverage &gt;70%) from the Ethiopian outbreak were successfully sequenced and analyzed alongside 103 global genomes derived from humans and the natural bat host, Rousettus aegyptiacus. The Ethiopian sequences showed &gt;99.9% nucleotide identity, indicating low viral diversity. Maximum-likelihood phylogenetic analysis demonstrated that all sequences clustered within the MARV.A.1 clade. They were closely related to historical isolates from the Netherlands (the Leiden strain) and Uganda. The Ethiopian lineage and its closest human isolate (JN408064) diverged from a common ancestor circulating in 1994, whereas the Ethiopian lineage and its closest bat isolates (JX458853 and JX458858) diverged from a common ancestor circulating around 1989. Genomic and epidemiological evidence supported a single zoonotic spillover followed by localized human-to-human transmission. Seventy lineage-defining substitutions were identified, including 10 non-synonymous mutations primarily in the glycoprotein gene, with strong purifying selection (dN/dS &lt; 1). The outbreak strain showed high similarity to the reference strain, with conserved monoclonal antibody binding sites and no escape mutations. Overall, the outbreak resulted from a single spillover event with limited viral diversification, supporting the continued efficacy of existing vaccines and monoclonal antibody therapies.</p>
   </div>
 </details>
 <details class="gcc-talk">

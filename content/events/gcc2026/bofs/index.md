@@ -69,7 +69,7 @@ We're keen to hear from you if your community has faced challenges keeping Galax
 
 ### How to build and structure one's community: the quid of overlapping communities
 
-Location: Caffetaria
+Location: Cafeteria
 
 **Organizers:** Marie Jossé, Beatriz Serrano-Solano, Yvan Le Bras, Jérôme Detoc, Samuel Keuchkerian
 
@@ -95,6 +95,8 @@ Can we do more for our users if we know more about who they are? Galaxy Australi
 
 ### At the edge of the Galaxy, the lonely life of a (small scale) local Galaxy server admin
 
+Location: Amphitheater A
+
 **Organizers:** Hans-Rudolf Hotz, Lucille Delisle
 
 Running a local Galaxy server within your institute or offering Galaxy just for your lab is different from managing a big public server (like usegalaxy.*). Very often, you do this as a side-job or even in your free time and you encounter site-specific issues, like disagreements with your IT department or challenges making local data available in your Galaxy server.
@@ -105,6 +107,8 @@ In this BoF, we would like to collect such issues and, more importantly, bring G
 
 ### Community Discussion on Open Source Approaches for Automated Galaxy Tool Generation
 
+Location: Amphitheater B
+
 **Organizers:** Daniel Blankenberg
 
 Galaxy tool development still requires substantial manual effort to create XML tool definitions and wrapper scripts, which can slow the integration of new software into the ecosystem. This Birds of a Feather session will bring together community members interested in open source approaches for automating Galaxy tool generation, including existing wrapper-generation frameworks, fine-tuned open-source language models, and emerging agent-based workflows. We will discuss practical use cases, current limitations, training and evaluation resources, and opportunities for shared community infrastructure. The goal is to identify how the Galaxy community can collaborate on reusable datasets, benchmarks, and best practices to make tool development more scalable, reliable, and accessible.
@@ -112,6 +116,8 @@ Galaxy tool development still requires substantial manual effort to create XML t
 ---
 
 ### Where does Galaxy's security responsibility end and yours begin?
+
+Location: Cafeteria
 
 **Organizers:** Martin Carrère, Nate Coraor
 
@@ -124,6 +130,8 @@ If you run an instance and have ever had to explain its security, bring that sto
 ---
 
 ### IDC
+
+Location: Salle doc
 
 **Organizers:** Matthias Bernt
 
