@@ -15,6 +15,8 @@ const props = withDefaults(
     eventName?: string;
     footerText?: string;
     slideIntervalMs?: number;
+    qrImagePath?: string;
+    qrUrl?: string;
   }>(),
   {
     cardsPerSlide: 6,
@@ -72,6 +74,8 @@ onUnmounted(() => {
     :last-updated="lastUpdated"
     :location-string="props.locationString"
     :slide-interval-ms="props.slideIntervalMs"
+    :qr-image-path="props.qrImagePath"
+    :qr-url="props.qrUrl"
   />
 
   <CofestBoardInline v-else :projects="projects" :is-loading="isLoading" :error="error" />

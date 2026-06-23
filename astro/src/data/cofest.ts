@@ -19,3 +19,5 @@ export const COFEST_CSV_URL =
 export const COFEST_DATE = 'June 25–26, 2026';
 export const COFEST_LOCATION = 'Clermont-Ferrand, France';
 export const COFEST_EVENT_NAME = 'GCC 2026';
+export const COFEST_PROJECT_QR_PATH = '/images/events/gcc2026/cofest-projects-qr-code.png';
+export const COFEST_PROJECT_QR_URL = 'https://galaxyproject.org/events/gcc2026/cofest/#cofest-2026-projects';

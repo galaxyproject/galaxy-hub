@@ -1,7 +1,14 @@
 ---
 import '../../../../styles/global.css';
 import CofestBoard from '../../../../components/CofestBoard.vue';
-import { COFEST_CSV_URL, COFEST_DATE, COFEST_LOCATION, COFEST_EVENT_NAME } from '@/data/cofest';
+import {
+  COFEST_CSV_URL,
+  COFEST_DATE,
+  COFEST_LOCATION,
+  COFEST_PROJECT_QR_PATH,
+  COFEST_PROJECT_QR_URL,
+  COFEST_EVENT_NAME,
+} from '@/data/cofest';
 ---
 
 <!doctype html>
@@ -24,6 +31,8 @@ import { COFEST_CSV_URL, COFEST_DATE, COFEST_LOCATION, COFEST_EVENT_NAME } from 
       dateString={COFEST_DATE}
       locationString={COFEST_LOCATION}
       eventName={COFEST_EVENT_NAME}
+      qrImagePath={COFEST_PROJECT_QR_PATH}
+      qrUrl={COFEST_PROJECT_QR_URL}
     />
   </body>
 </html>
