@@ -20,7 +20,16 @@ The European Geosciences Union (EGU) was held at the Austria Center Vienna (ACV)
 The assembly is open to the scientists of all nations. During this conference the Galaxy for Earth System Science (GESS) was there and presented the community and its works through talks and posters.
 
 # An inspiring talk
+## 3Dtrees.earth: bringing forest LiDAR point clouds into Galaxy
 
+Finally, the 3Dtrees team from the University of Freiburg, Germany, had the chance to present what they have been working on over the past months: [3Dtrees.earth](https://3dtrees.earth/). The platform aims to make forest LiDAR point clouds easier to access, visualize, process, and share. Built on the expertise and computational resources of the Galaxy project, 3Dtrees.earth connects research data management with scalable, reproducible workflows for forest structure analysis.
+
+During the presentation, we showed the latest developments of the platform were shown, including in-browser 3D visualization, dataset access, and automated processing workflows. We also shared some of our future plans for building a more open and collaborative community around close-range forest LiDAR data. 
+
+We hope that our own excitement for 3Dtrees.earth came across and that other scientists could also get inspired by the platform’s potential for open, collaborative forest LiDAR research.
+
+Thanks a lot for all the inspiring discussions, helpful feedback, and great meetings during EGU 2026!
+_Kilian Gerberding_
 
 # Multiple beautiful posters
 
