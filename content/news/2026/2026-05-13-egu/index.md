@@ -54,5 +54,5 @@ During this really fruitful conference, we were able to get in touch with multip
 # Some photos of the event 
 
 ![Marie poster presentation](marie.jpg)
-![Kilian talk](kilian.png)
+![Kilians talk on the new 3Dtrees.earth platform](kilian.png)
 ![Data Terra's team](dataterra.jpg)
