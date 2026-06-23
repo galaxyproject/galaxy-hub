@@ -79,8 +79,25 @@ function stopTimer() {
   if (slideTimer) clearInterval(slideTimer);
 }
 
-onMounted(startTimer);
-onUnmounted(stopTimer);
+function onKeyDown(e: KeyboardEvent) {
+  if (e.key === 'ArrowLeft') {
+    prev();
+  } else if (e.key === 'ArrowRight') {
+    next();
+  } else if (e.key === ' ') {
+    e.preventDefault();
+    togglePause();
+  }
+}
+
+onMounted(() => {
+  startTimer();
+  window.addEventListener('keydown', onKeyDown);
+});
+onUnmounted(() => {
+  stopTimer();
+  window.removeEventListener('keydown', onKeyDown);
+});
 
 const formattedTime = computed(() => (props.lastUpdated ? props.lastUpdated.toLocaleTimeString() : ''));
 </script>
