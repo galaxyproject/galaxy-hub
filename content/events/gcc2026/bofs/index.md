@@ -142,4 +142,18 @@ Make IDC more a community effort: Currently the workload lies on too few people.
 Which steps can be more of a community effort?
 Which (manual) steps need help (e.g. actually moving data to CVMFS)?
 
+---
+
+### Galaxy Release Process and Test Coverage Gaps
+
+**Organizer:** Aysam Guerler
+
+Every Galaxy release eventually encounters the same question: what was actually tested before it shipped?
+
+CI catches many problems, but production deployments exercise workflows, tools, configurations, and usage patterns that are difficult to cover through automated testing alone. As a result, important regressions are sometimes discovered only after release.
+
+This BoF will bring together release managers, developers, tool maintainers, testers, and downstream operators to discuss where Galaxy's current validation process is working, where the largest coverage gaps remain, and how we can improve release confidence as a community.
+
+If you have helped ship a release, tested release candidates, maintained a Galaxy deployment, or encountered a post-release regression, bring your experiences. Together we will identify the highest-value gaps and discuss practical ways to improve release validation across the Galaxy ecosystem.
+
 </details>
