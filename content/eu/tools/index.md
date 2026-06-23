@@ -2,7 +2,7 @@
 # THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
 # To update, run: python3 scripts/update-tools.py --server https://usegalaxy.eu --name "European Galaxy" --output content/eu/tools/index.md
 title: European Galaxy Tools
-description: "4286 tools and counting"
+description: "4299 tools and counting"
 ---
 
 
@@ -862,6 +862,7 @@ description: "4286 tools and counting"
 [Fasta Translate](https://usegalaxy.eu/root?tool_id=edu.tamu.cpt.fasta.seq_trans "Translate fasta file")
 [Filter with SortMeRNA](https://usegalaxy.eu/root?tool_id=bg_sortmerna "of ribosomal RNAs in metatranscriptomic data")
 [Find Nested Alternate ORFs (nAlt-ORFs)](https://usegalaxy.eu/root?tool_id=find_nested_alt_orfs "from BED and 2bit/FASTA")
+[FlavoTyper](https://usegalaxy.eu/root?tool_id=flavotyper "in silico serotyping of Flavobacterium psychrophilum")
 [Format](https://usegalaxy.eu/root?tool_id=picrust_format_tree_and_trait_table "tree and trait tables")
 [Funannotate assembly clean](https://usegalaxy.eu/root?tool_id=funannotate_clean "")
 [Funannotate compare](https://usegalaxy.eu/root?tool_id=funannotate_compare "annotations")
@@ -902,6 +903,10 @@ description: "4286 tools and counting"
 [InterProScan](https://usegalaxy.eu/root?tool_id=interproscan "functional annotation")
 [Interrupted gene detection tool](https://usegalaxy.eu/root?tool_id=edu.tamu.cpt2.phage.intron_detection "based on nearby protein blast results")
 [Intersect and Adjacent](https://usegalaxy.eu/root?tool_id=edu.tamu.cpt.gff3.intersect_and_adjacent "Outputs nearby top-level GFF features from two GFF3 files")
+[KAT Cold](https://usegalaxy.eu/root?tool_id=kat_cold "Contig length and duplication analysis")
+[KAT Filter Kmer](https://usegalaxy.eu/root?tool_id=kat_filter_kmer "filters k-mers to those within and outside defined bounds")
+[KAT Filter Seq](https://usegalaxy.eu/root?tool_id=kat_filter_seq "filters sequences based on k-mer content")
+[KAT Sect](https://usegalaxy.eu/root?tool_id=kat_sect "estimates k-mer coverage across sequences")
 [KOBAS Annotate](https://usegalaxy.eu/root?tool_id=kobas_annotate "KEGG Orthology Based Annotation System")
 [KOBAS Identify](https://usegalaxy.eu/root?tool_id=kobas_identify "KEGG Orthology Based Annotation System")
 [KisSplice](https://usegalaxy.eu/root?tool_id=kissplice "is a local transcriptome assembler for SNPs, indels and AS events")
@@ -1907,7 +1912,9 @@ description: "4286 tools and counting"
 
 <div class="tool-list">
 
+[Discriminant analysis of principal components (DAPC) to genotype data](https://usegalaxy.eu/root?tool_id=dapc_kmeans "using Kmeans or a k-fixed (SNPs and SSRs).")
 [Filtering SSR](https://usegalaxy.eu/root?tool_id=ssrfilter "for missing data (individuals and loci), and null alleles.")
+[Genetic Clustering](https://usegalaxy.eu/root?tool_id=LEA_snmf_application "with LEA (sNMF) for VCF or SSR data")
 [Genetic format conversion](https://usegalaxy.eu/root?tool_id=genetic_format_conversion "using PGDSpider and additional conversion modules.")
 [Keep or remove selected individuals](https://usegalaxy.eu/root?tool_id=population_genomics_vcf_keep_remove_individuals "from a VCF")
 [LDNe estimation](https://usegalaxy.eu/root?tool_id=effective_population_size_ld_method "using RLDNe package and NeEstimator.")
@@ -2112,6 +2119,8 @@ description: "4286 tools and counting"
 [SpatialData IO](https://usegalaxy.eu/root?tool_id=spatialdata_io "load common spatial omics formats into SpatialData")
 [SpatialData Operations](https://usegalaxy.eu/root?tool_id=spatialdata_operation "perform operations on SpatialData objects")
 [SpatialData Plot](https://usegalaxy.eu/root?tool_id=spatialdata_plot "rich static plotting from SpatialData objects")
+[Squidpy](https://usegalaxy.eu/root?tool_id=squidpy_graph "perform graph-based spatial analysis on SpatialData and AnnData objects")
+[Squidpy Plot](https://usegalaxy.eu/root?tool_id=squidpy_plot "plot spatial graph analysis results")
 [UNetCoreograph](https://usegalaxy.eu/root?tool_id=unet_coreograph "TMA core detection and dearraying")
 [UnMicst](https://usegalaxy.eu/root?tool_id=unmicst "Image segmentation - probability map generation")
 [WebAtlas Build Vitessce Config](https://usegalaxy.eu/root?tool_id=webatlas_build_config "from AnnData and image Zarr inputs")
@@ -4172,6 +4181,7 @@ description: "4286 tools and counting"
 [MFA Align](https://usegalaxy.eu/root?tool_id=mfa_align "align a corpus using an acoustic model and dictionary")
 [MFA Find OOVs](https://usegalaxy.eu/root?tool_id=mfa_find_oovs "find words in a corpus that are missing from the dictionary")
 [MFA G2P](https://usegalaxy.eu/root?tool_id=mfa_g2p "generate a pronunciation dictionary from a word list or corpus")
+[MFA Merge](https://usegalaxy.eu/root?tool_id=mfa_merge "dictionaries")
 [MFA Remap Alignments](https://usegalaxy.eu/root?tool_id=mfa_remap_alignments "convert TextGrid transcriptions to a new phone set")
 [MFA Tokenize](https://usegalaxy.eu/root?tool_id=mfa_tokenize "split text into words using a tokenizer model (e.g., for Japanese/Chinese)")
 [MFA Train](https://usegalaxy.eu/root?tool_id=mfa_train "train a new acoustic model from a corpus")
@@ -4301,6 +4311,7 @@ description: "4286 tools and counting"
 [Apply ridge filter](https://usegalaxy.eu/root?tool_id=ridge_filter_skimage "with scikit-image")
 [Apply standard image filter](https://usegalaxy.eu/root?tool_id=ip_filter_standard "with scipy")
 [Build a workflow with BiaPy](https://usegalaxy.eu/root?tool_id=biapy "Accessible deep learning on bioimages")
+[COCO Annotation Visualizer](https://usegalaxy.eu/root?tool_id=coco_annotation_visualizer "Draw COCO bounding boxes, segmentation masks, and labels.")
 [COCO to LabelMe JSON Converter](https://usegalaxy.eu/root?tool_id=coco2labelme "Convert COCO annotation files into LabelMe-compatible JSON format")
 [Clip image intensities](https://usegalaxy.eu/root?tool_id=clip_image "with giatools")
 [Colocalization](https://usegalaxy.eu/root?tool_id=ip_colocalization "of two segmentation maps")
@@ -4340,6 +4351,7 @@ description: "4286 tools and counting"
 [DisplayDataOnImage](https://usegalaxy.eu/root?tool_id=cp_display_data_on_image "with CellProfiler")
 [DocLayout-YOLO](https://usegalaxy.eu/root?tool_id=doclayoutyolo "Enhancing document layout analysis")
 [Download IDR/OMERO](https://usegalaxy.eu/root?tool_id=idr_download_by_ids "")
+[Edit COCO Annotation](https://usegalaxy.eu/root?tool_id=edit_coco_annotation "Filter and rename tracks in a COCO annotation file")
 [Enhance contrast](https://usegalaxy.eu/root?tool_id=imagej2_enhance_contrast "with ImageJ2")
 [EnhanceOrSuppressFeatures](https://usegalaxy.eu/root?tool_id=cp_enhance_or_suppress_features "with CellProfiler")
 [Evaluate segmentation](https://usegalaxy.eu/root?tool_id=ip_visceral_evaluatesegmentation "with EvaluateSegmentation")
@@ -4492,6 +4504,7 @@ description: "4286 tools and counting"
 [Interactive Pangeo Notebook](https://usegalaxy.eu/root?tool_id=interactive_tool_pangeo_notebook "")
 [Interactive Source Notebooks](https://usegalaxy.eu/root?tool_id=interactive_tool_source "Sea Observations Utility for Reprocessing, Calibration and Evaluation")
 [LiberTEM](https://usegalaxy.eu/root?tool_id=interactive_tool_libertem "Open Pixelated STEM platform")
+[Loom](https://usegalaxy.eu/root?tool_id=interactive_tool_loom "conversational AI analysis workbench")
 [NEAL](https://usegalaxy.eu/root?tool_id=interactive_tool_audiolabeler "Nature+Energy Audio Labeller audio data annotation tool")
 [Neo4j (Graph Database)](https://usegalaxy.eu/root?tool_id=interactive_tool_neo4j "")
 [ODV](https://usegalaxy.eu/root?tool_id=interactive_tool_odv "interactive plotting tool for geo-referenced data")

@@ -13,14 +13,14 @@ The schedule is where you can discover what’s happening when at GCC2026. Full 
 |---------------|--------------------------------------------------------------------------------------------------|--------------|
 | 9:00 - 9:20   | Open and welcome                                                                                 | Amphitheater A (in person), B (streaming) |
 | 9:20 - 10:00  | [Galaxy Live!](/events/gcc2026/highlights#galaxy-live)                                           | Amphitheater A (in person), B (streaming) |
-| 10:00 - 10:30 | Break                                                                                            | Corridor |
+| 10:00 - 10:30 | Break                                                                                            | Espace doc |
 | 10:30 - 10:50 | Overview of Galaxy SiGs                                                                          | Amphitheater A (in person), B (streaming) |
 | 10:50 - 12:05 | [Talks 1](#talks-1-galaxy-framework-and-platform-direction)                                      | Amphitheater A (in person), B (streaming) |
-| 12:05 - 13:00 | Lunch                                                                                            | Salle |
+| 12:05 - 13:00 | Lunch                                                                                            | Espace doc |
 | 13:00 - 14:30 | [Talks 2](#talks-2-infrastructure-federation-and-service-operations)                             | Amphitheater A (in person), B (streaming) |
 | 14:30 - 16:00 | [Posters 1](#posters-1--monday-jun-22-14301600)                                                  | Corridor |
 | 16:00 - 17:00 | [Talks 3](#talks-3-communities-provenance-and-cross-domain-expansion)                            | Amphitheater A (in person), B (streaming) |
-| 17:00 - 18:00 | [BoFs](/events/gcc2026/bofs)                                                                     | Breakout Spaces |
+| 17:00 - 18:00 | [BoFs](/events/gcc2026/bofs)                                                                     | See [BoF](/events/gcc2026/bofs) descriptions |
 
 </details>
 
@@ -30,13 +30,13 @@ The schedule is where you can discover what’s happening when at GCC2026. Full 
 | **Time**      | **Event**                                                                                        | **Location** |
 |---------------|--------------------------------------------------------------------------------------------------|--------------|
 | 9:00 - 10:00  | [Keynote: Rayan Chikhi](/events/gcc2026/highlights#rayan-chikhi)                                 | Amphitheater A (in person), B (streaming)|
-| 10:00 - 10:30 | Break                                                                                            | Corridor |
+| 10:00 - 10:30 | Break                                                                                            | Espace doc |
 | 10:30 - 12:00 | [Talks 4](#talks-4-fair-data-analysis-workflows-and-public-health-applications)                  | Amphitheater A (in person), B (streaming)|
-| 12:00 - 13:00 | Lunch                                                                                            | Salle |
+| 12:00 - 13:00 | Lunch                                                                                            | Espace doc |
 | 13:00 - 13:45 | [Talks 5](#talks-5-tool-integration-and-method-development)                                      | Amphitheater A (in person), B (streaming)|
 | 13:45 - 14:30 | Lightning talks                                                                                  | Amphitheater A (in person), B (streaming)|
 | 14:30 - 16:00 | [Posters 2](#posters-2--tuesday-jun-23-14301600) + ELIXIR virtual posters                        | Corridor |
-| 16:00 - 18:00 | ELIXIR F2F                                                                                       | TBD |
+| 16:00 - 18:00 | ELIXIR F2F                                                                                       | Amphitheater A |
 | 19:00 - 21:00 | [Conference dinner](https://www.roofevents.fr/)                                                  | [Roof Events](https://www.roofevents.fr/), Clermont-Ferrand |
 
 </details>
@@ -47,11 +47,11 @@ The schedule is where you can discover what’s happening when at GCC2026. Full 
 | **Time**      | **Event**                                                                                        | **Location** |
 |---------------|--------------------------------------------------------------------------------------------------|--------------|
 | 9:00 - 10:00  | [Galaxy Community Update](/events/gcc2026/highlights#community-update)                           | Amphitheater A (in person), B (streaming) |
-| 10:00 - 10:30 | Break                                                                                            | Corridor |
+| 10:00 - 10:30 | Break                                                                                            | Espace doc |
 | 10:30 - 12:00 | [Talks 6](#talks-6-ai-workflows-and-guided-analysis)                                             | Amphitheater A (in person), B (streaming) |
-| 12:00 - 13:00 | Lunch                                                                                            | Salle |
+| 12:00 - 13:00 | Lunch                                                                                            | Espace doc |
 | 13:00 - 14:30 | [Fishbowl & discussion](/events/gcc2026/highlights#panel-discussion)                             | Amphitheater A |
-| 14:30 - 15:00 | Group photo / break                                                                              | TBD |
+| 14:30 - 15:00 | Group photo / break                                                                              | Espace doc |
 | 15:00 - 16:30 | [Talks 7](#talks-7-community-platforms-mature-ecosystems-and-field-reports)                      | Amphitheater A (in person), B (streaming) |
 | 16:30 - 17:00 | [Galaxy in Research](/events/gcc2026/highlights#galaxy-in-research)                              | Amphitheater A (in person), B (streaming) |
 | 17:00 - 17:15 | Closing                                                                                          | Amphitheater A (in person), B (streaming) |
@@ -62,22 +62,22 @@ The schedule is where you can discover what’s happening when at GCC2026. Full 
 <details class="gcc-schedule-day" open>
 <summary class="gcc-schedule-summary">Thursday, Jun 25</summary>
 
-| **Time**      | **Event**                                                                                        |
-|---------------|--------------------------------------------------------------------------------------------------|
-| 9:00 - 12:00  | [Training 1](/events/gcc2026/training)                                                            |
-| 12:00 - 13:00 | Lunch                                                                                            |
-| 13:00 - 18:00 | [CoFest 1](/events/gcc2026/cofest)                                                               |
+| **Time**      | **Event**                                                                                        | **Location** |
+|---------------|--------------------------------------------------------------------------------------------------|--------------|
+| 9:00 - 12:00  | [Training 1](/events/gcc2026/training)                                                           | Amphitheater A, B, Rooms A128-131 |
+| 12:00 - 13:00 | Lunch                                                                                            | Espace doc |
+| 13:00 - 18:00 | [CoFest 1](/events/gcc2026/cofest)                                                               | Amphitheater A, B, Rooms A128-131 |
 
 </details>
 
 <details class="gcc-schedule-day" open>
 <summary class="gcc-schedule-summary">Friday, Jun 26</summary>
 
-| **Time**      | **Event**                                                                                        |
-|---------------|--------------------------------------------------------------------------------------------------|
-| 9:00 - 12:00  | [Training 2](/events/gcc2026/training)                                                             |
-| 12:00 - 13:00 | Lunch                                                                                            |
-| 13:00 - 18:00 | [CoFest 2](/events/gcc2026/cofest)                                                               |
+| **Time**      | **Event**                                                                                        | **Location** |
+|---------------|--------------------------------------------------------------------------------------------------|--------------|
+| 9:00 - 12:00  | [Training 2](/events/gcc2026/training)                                                           | Amphitheater A, B, Rooms A128-131 |
+| 12:00 - 13:00 | Lunch                                                                                            | Espace doc |
+| 13:00 - 18:00 | [CoFest 2](/events/gcc2026/cofest)                                                               | Amphitheater A, B, Rooms A128-131 |
 
 </details>
 
@@ -568,7 +568,7 @@ Moderator: Pierre-Étienne Jacques
     <span class="gcc-talk-time">16:45 - 17:00</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">LabID Meets Galaxy: Continuous Provenance from Samples to Results</span>
-      <span class="gcc-talk-authors"><strong>Thomas Laurent</strong>, Girardot Charles, Scholtalbers Jelle, Monfort Matthias, Reza Nayeem</span>
+      <span class="gcc-talk-authors">Thomas Laurent, Girardot Charles, <strong>Scholtalbers Jelle</strong>, Monfort Matthias, Reza Nayeem</span>
     </span>
     <span class="gcc-talk-poster">Also Poster</span>
   </summary>
@@ -634,19 +634,6 @@ Moderator: Solenne Coreard
   <summary>
     <span class="gcc-talk-time">11:00 - 11:15</span>
     <span class="gcc-talk-main">
-      <span class="gcc-talk-title">Phylogenomic and Functional Analysis of Ethiopia’s First Marburg Virus Outbreak Highlights a Single Spillover Event and Preserved Vaccine Targets</span>
-      <span class="gcc-talk-authors"><strong>Bashea Chala</strong>, Getu Melak, Gebremicael Gebremedhin, Ali Abraham, Marburg Virus Outbreak Task Force, Tadese Gemechu, Tollera Getachew</span>
-    </span>
-    <span class="gcc-talk-poster">Also Poster</span>
-  </summary>
-  <div class="gcc-talk-abstract">
-    <p>In November 2025, Ethiopia reported its first Marburg virus disease outbreak with a 64% case fatality rate. Genomic epidemiology was applied to characterize transmission dynamics, phylogeny, and mutations relevant to vaccine and monoclonal antibody efficacy. Samples were processed at the Ethiopian Public Health Institute (EPHI). RNA was extracted after ethanol inactivation and screened by PCR for viral hemorrhagic fevers and arboviruses. Marburg virus-positive samples were sequenced using the Illumina Viral Surveillance Panel 2 on the NovaSeq X plus and MiSeq platforms. Analyses were performed on the European Galaxy server, including quality filtering (fastp), host depletion (Bowtie2), reference mapping (BWA-MEM2), variant calling and consensus generation (iVar), and lineage assignment (Nextclade). Phylogenetic and temporal analyses were performed using 103 global genomes in BEAST with a Skygrid model. MVD diagnosis was confirmed by RT-PCR, and positive samples underwent full‑genome sequencing. Seven high‑quality genomes (genome coverage &gt;70%) from the Ethiopian outbreak were successfully sequenced and analyzed alongside 103 global genomes derived from humans and the natural bat host, Rousettus aegyptiacus. The Ethiopian sequences showed &gt;99.9% nucleotide identity, indicating low viral diversity. Maximum-likelihood phylogenetic analysis demonstrated that all sequences clustered within the MARV.A.1 clade. They were closely related to historical isolates from the Netherlands (the Leiden strain) and Uganda. The Ethiopian lineage and its closest human isolate (JN408064) diverged from a common ancestor circulating in 1994, whereas the Ethiopian lineage and its closest bat isolates (JX458853 and JX458858) diverged from a common ancestor circulating around 1989. Genomic and epidemiological evidence supported a single zoonotic spillover followed by localized human-to-human transmission. Seventy lineage-defining substitutions were identified, including 10 non-synonymous mutations primarily in the glycoprotein gene, with strong purifying selection (dN/dS &lt; 1). The outbreak strain showed high similarity to the reference strain, with conserved monoclonal antibody binding sites and no escape mutations. Overall, the outbreak resulted from a single spillover event with limited viral diversification, supporting the continued efficacy of existing vaccines and monoclonal antibody therapies.</p>
-  </div>
-</details>
-<details class="gcc-talk">
-  <summary>
-    <span class="gcc-talk-time">11:15 - 11:30</span>
-    <span class="gcc-talk-main">
       <span class="gcc-talk-title">From legacy pipelines to reusable Galaxy workflows for national bacterial WGS surveillance at Statens Serum Institut</span>
       <span class="gcc-talk-authors"><strong>Matusevicius Povilas</strong></span>
     </span>
@@ -658,7 +645,7 @@ Moderator: Solenne Coreard
 </details>
 <details class="gcc-talk">
   <summary>
-    <span class="gcc-talk-time">11:30 - 11:45</span>
+    <span class="gcc-talk-time">11:15 - 11:30</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">Leveraging Galaxy’s Superpowers to Enhance Fermentation Innovation through the Siduri portal</span>
       <span class="gcc-talk-authors"><strong>Barnabé Agnès</strong>, Fernandez Emilie, Le Floch Erwan, Lacroix Thomas, Schbath Sophie, Loux Valentin</span>
@@ -678,7 +665,7 @@ Moderator: Solenne Coreard
 </details>
 <details class="gcc-talk">
   <summary>
-    <span class="gcc-talk-time">11:45 - 12:00</span>
+    <span class="gcc-talk-time">11:30 - 11:45</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">Galaxy-based workflows for genome-resolved and multi-kingdom microbiome analysis: application to the nasal microbiome in Alzheimer’s disease</span>
       <span class="gcc-talk-authors"><strong>Hojat Ansari Mina</strong></span>
@@ -955,7 +942,7 @@ Moderator: Yvan Le Bras
     <span class="gcc-talk-time">16:00 - 16:15</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">Rewriting the Galaxy Hub -- Migrating 4,300 Pages from Gridsome to Astro</span>
-      <span class="gcc-talk-authors"><strong>Baker Dannon</strong>, Grüning Björn</span>
+      <span class="gcc-talk-authors"><strong>Baker Dannon</strong>, Alireza Heidari, Grüning Björn</span>
     </span>
     <span class="gcc-talk-poster gcc-talk-poster-empty">-</span>
   </summary>
@@ -1683,19 +1670,6 @@ Moderator: Yvan Le Bras
     <p>Connecting the fragmented landscape of single-cell tools across these three platforms will make it easier for users to Find and Access the tools they need. Developing consistent workflows and training materials will make analyses more Interoperable and enable users to move more easily between platforms. Alongside efforts to align single-cell metadata across platforms, a BioFAIR Pathfinder project is using exemplar single-cell workflows to demonstrate how Bioconductor tools can be adapted into Galaxy wrappers and nf-core modules. New workflows will demonstrate the improved interoperability between Galaxy and Bioconductor single-cell tools.</p>
     <p>The final component in FAIR is Reusability. Making tools and workflows available isn’t enough to ensure that researchers will actually reuse them, particularly in a field such as single-cell that can be intimidating for life scientists with limited computational experience. Annotated Galaxy workflows coupled with hands-on Galaxy Training Network (GTN) tutorials can introduce these users to single-cell analysis. However, taking the next step and applying these workflows to new research questions can still be challenging. A series of online workshops, targeted at students and Early Career Researchers (ECRs) from institutions with limited bioinformatics support, is guiding users through this transition. Feedback from these workshops will be used to improve the GTN tutorials to better enable future users to adapt and reuse Galaxy workflows for their own purposes.</p>
     <p>Both BioFAIR single-cell projects will unite in September for a Galaxy-Bioconductor Cofest and Bring Your Own Data event at The Open University. Participants of the single-cell workshops will be supported through their first independent analysis and encouraged to make their own contributions to the GTN. Meanwhile, Galaxy and Bioconductor contributors will collaborate to ensure these users have the tools and workflows they need, whether they use Galaxy, Bioconductor, or move between platforms.</p>
-  </div>
-</details>
-<details class="gcc-talk">
-  <summary>
-    <span class="gcc-talk-time">7</span>
-    <span class="gcc-talk-main">
-      <span class="gcc-talk-title">Phylogenomic and Functional Analysis of Ethiopia’s First Marburg Virus Outbreak Highlights a Single Spillover Event and Preserved Vaccine Targets</span>
-      <span class="gcc-talk-authors"><strong>Bashea Chala</strong>, Getu Melak, Gebremicael Gebremedhin, Ali Abraham, Marburg Virus Outbreak Task Force, Tadese Gemechu, Tollera Getachew</span>
-    </span>
-    <span class="gcc-talk-poster">Also Talk</span>
-  </summary>
-  <div class="gcc-talk-abstract">
-    <p>In November 2025, Ethiopia reported its first Marburg virus disease outbreak with a 64% case fatality rate. Genomic epidemiology was applied to characterize transmission dynamics, phylogeny, and mutations relevant to vaccine and monoclonal antibody efficacy. Samples were processed at the Ethiopian Public Health Institute (EPHI). RNA was extracted after ethanol inactivation and screened by PCR for viral hemorrhagic fevers and arboviruses. Marburg virus-positive samples were sequenced using the Illumina Viral Surveillance Panel 2 on the NovaSeq X plus and MiSeq platforms. Analyses were performed on the European Galaxy server, including quality filtering (fastp), host depletion (Bowtie2), reference mapping (BWA-MEM2), variant calling and consensus generation (iVar), and lineage assignment (Nextclade). Phylogenetic and temporal analyses were performed using 103 global genomes in BEAST with a Skygrid model. MVD diagnosis was confirmed by RT-PCR, and positive samples underwent full‑genome sequencing. Seven high‑quality genomes (genome coverage &gt;70%) from the Ethiopian outbreak were successfully sequenced and analyzed alongside 103 global genomes derived from humans and the natural bat host, Rousettus aegyptiacus. The Ethiopian sequences showed &gt;99.9% nucleotide identity, indicating low viral diversity. Maximum-likelihood phylogenetic analysis demonstrated that all sequences clustered within the MARV.A.1 clade. They were closely related to historical isolates from the Netherlands (the Leiden strain) and Uganda. The Ethiopian lineage and its closest human isolate (JN408064) diverged from a common ancestor circulating in 1994, whereas the Ethiopian lineage and its closest bat isolates (JX458853 and JX458858) diverged from a common ancestor circulating around 1989. Genomic and epidemiological evidence supported a single zoonotic spillover followed by localized human-to-human transmission. Seventy lineage-defining substitutions were identified, including 10 non-synonymous mutations primarily in the glycoprotein gene, with strong purifying selection (dN/dS &lt; 1). The outbreak strain showed high similarity to the reference strain, with conserved monoclonal antibody binding sites and no escape mutations. Overall, the outbreak resulted from a single spillover event with limited viral diversification, supporting the continued efficacy of existing vaccines and monoclonal antibody therapies.</p>
   </div>
 </details>
 <details class="gcc-talk">
