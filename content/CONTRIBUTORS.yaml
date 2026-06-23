@@ -1,4 +1,4 @@
-# List of contributors
+Fkil# List of contributors
 #
 # - This information will be used on your contributor page in our hall of fame, where we will also list your contributions
 # - your UserID should be your github username, if you don't have github, add github: false tag
@@ -1057,12 +1057,6 @@ kevinvanneste:
     name: Kevin Vanneste
     github: false
     joined: 2026-01
-
-kgerb:
-    gtn-halloffame: "no"
-    name: Kilian Gerberding
-    joined: 2026-06
-    email: kilian.gerberding@geosense.uni-freiburg.de
 
 khaivandangusf2210:
     name: Khai Van Dang
