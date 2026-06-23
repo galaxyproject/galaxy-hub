@@ -1045,7 +1045,7 @@ jyotiprakashmohanty:
     name: Jyoti Prakash Mohanty
     github: false
     joined: 2026-01
-
+    
 kellishute:
     gtn-halloffame: "no"
     name: Kelli Shute
@@ -1057,6 +1057,12 @@ kevinvanneste:
     name: Kevin Vanneste
     github: false
     joined: 2026-01
+
+kgerb:
+    gtn-halloffame: "no"
+    name: Kilian Gerberding
+    joined: 2026-06
+    email: kilian.gerberding@geosense.uni-freiburg.de
 
 khaivandangusf2210:
     name: Khai Van Dang
