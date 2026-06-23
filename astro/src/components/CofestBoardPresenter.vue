@@ -16,6 +16,8 @@ const props = withDefaults(
     eventName?: string;
     slideIntervalMs?: number;
     footerText?: string;
+    qrImagePath?: string;
+    qrUrl?: string;
   }>(),
   {
     cardsPerSlide: 6,
@@ -215,6 +217,14 @@ const formattedTime = computed(() => (props.lastUpdated ? props.lastUpdated.toLo
         <span v-if="props.footerText">{{ props.footerText }}</span>
         <a v-else href="/">galaxyproject.org</a>
       </span>
+      <a v-if="props.qrImagePath" :href="props.qrUrl ?? '#'" class="footer-qr" target="_blank" rel="noopener">
+        <img
+          :src="props.qrImagePath"
+          :alt="props.qrUrl ? `QR code for ${props.qrUrl}` : 'QR code'"
+          class="footer-qr-img"
+        />
+        <span v-if="props.qrUrl" class="footer-qr-label">View project list</span>
+      </a>
     </footer>
   </div>
 </template>
@@ -452,6 +462,31 @@ const formattedTime = computed(() => (props.lastUpdated ? props.lastUpdated.toLo
   color: #94a3b8;
 }
 
+.footer-qr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+  margin-left: 0.75rem;
+  text-decoration: none;
+}
+
+.footer-qr-img {
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: #fff;
+  display: block;
+}
+
+.footer-qr-label {
+  font-size: 0.6rem;
+  color: #64748b;
+  text-align: center;
+  white-space: nowrap;
+}
+
 /* ── Light mode overrides ── */
 .presenter-light {
   background: #f8fafc;
@@ -520,10 +555,17 @@ const formattedTime = computed(() => (props.lastUpdated ? props.lastUpdated.toLo
   color: rgba(255, 255, 255, 0.8);
 }
 
-.presenter-light .presenter-updated,
+.presenter-light .presenter-updated {
+  color: rgba(255, 255, 255, 0.5);
+}
+
 .presenter-light .footer-text,
 .presenter-light .footer-text a {
-  color: rgba(255, 255, 255, 0.5);
+  color: #475569;
+}
+
+.presenter-light .footer-text a:hover {
+  color: #1e293b;
 }
 
 /* Slide transition */
