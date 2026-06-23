@@ -14,11 +14,15 @@ This subdomain contains the exact versions of all software used.
 
 Our analysis was divided into six parts listed below. Each part has a dedicated page that provides links to input datasets, intermediate and final results, workflows, and Galaxy histories that list all details for each analysis. These workflows can be re-run on this subdomain.
 
-  1. [Pre-processing of raw read data](1-PreProcessing)
-  2. [Assembly of SARS-CoV-2 genome](2-Assembly)
-  3. [Estimation of timing for most recent common ancestor (MRCA)](3-MRCA)
-  4. [Analysis of variation within individual isolates](4-Variation)
-  5. [Analysis of Spike protein substitutions](5-S-analysis)
-  6. [Analysis of recombination and selection](6-RecombinationSelection)
+1. [Pre-processing of raw read data](1-PreProcessing)
+2. [Assembly of SARS-CoV-2 genome](2-Assembly)
+3. [Estimation of timing for most recent common ancestor (MRCA)](3-MRCA)
+4. [Analysis of variation within individual isolates](4-Variation)
+5. [Analysis of Spike protein substitutions](5-S-analysis)
+6. [Analysis of recombination and selection](6-RecombinationSelection)
 
 In addition we will be looking at newly released data here &#8594; [Updates: Analysis of additional data](updates)
+
+<slot name="/eu/common/data-policy" />
+
+<slot name="/bare/eu/usegalaxy/jobs" />

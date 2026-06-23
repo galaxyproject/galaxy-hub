@@ -455,6 +455,7 @@ const KNOWN_COMPONENTS = [
   'ReleaseGuardiansSection',
   'ReleaseGuardiansLabelPill',
   'ReleaseGuardiansCoordination',
+  'CofestBoard',
 ];
 
 function bodyHasComponents(body) {

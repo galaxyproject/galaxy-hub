@@ -26,139 +26,64 @@ contributions:
 #### Plus [CoFest](/events/gcc2026/cofest/)! June 25-26, 2026
 ### Held at IUT Clermont Auvergne University in the spectacular [Clermont-Ferrand, France](https://maps.app.goo.gl/g3g3MMivnyHMxVM16)
 
-  <div class="lead">
+  <div class="text-lg text-galaxy-grey max-w-3xl mx-auto">
     The annual gathering of the Galaxy community — researchers, developers, educators, and users from around the world — to share science, build connections, and shape the future of open data analysis.
   </div>
   <div class="flex flex-wrap justify-center gap-3 my-5">
-    <a href="https://v4.event-vert.org/en/gcc2026" class="inline-flex items-center justify-center rounded px-8 py-2 text-sm font-semibold text-white bg-galaxy-primary hover:bg-galaxy-dark no-underline hover:no-underline">Register now</a>
     <a href="/events/gcc2026/schedule" class="inline-flex items-center justify-center rounded px-8 py-2 text-sm font-semibold text-white bg-galaxy-primary hover:bg-galaxy-dark no-underline hover:no-underline">View schedule</a>
+    <a href="/events/gcc2026/bofs/" class="inline-flex items-center justify-center rounded px-8 py-2 text-sm font-semibold text-white bg-galaxy-primary hover:bg-galaxy-dark no-underline hover:no-underline">View BoFs</a>
   </div>
 </div>
 
 ## Event highlights
 
-<div class="card-deck lead">
+<div class="gx-tile-grid">
 
-  <!-- About GCC -->
-  <div class="card" style="flex: 1 1 280px;">
-    <img src="/images/events/gcc2026/group_photo.jpg" class="card-img-top" style="height: 280px; object-fit: cover;" alt="GCC conference attendees" />
-    <div class="card-header">About GCC conference series</div>
+<a class="gx-tile gx-tile--link" href="/gcc">
+  <img class="gx-tile__media" src="/images/events/gcc2026/group_photo.jpg" alt="GCC conference attendees" />
+  <div class="gx-tile__title">About the GCC conference series</div>
+  <p class="gx-tile__teaser">The Galaxy Community Conference has been the community's central gathering since 2010 — where the people who use, build, and teach Galaxy come together to share work and shape what comes next.</p>
+  <span class="gx-tile__more">Learn more →</span>
+</a>
 
-The [Galaxy Community Conference (GCC)](/gcc) has been the central gathering of the Galaxy
-community since 2010. GCC brings together everyone who uses, builds, or teaches Galaxy —
-from students running their first analyses to developers building the platform and
-researchers publishing high-impact results with it.
+<a class="gx-tile gx-tile--link" href="/events/gcc2026/highlights/">
+  <img class="gx-tile__media" src="/images/events/gcc2026/keynote.jpg" alt="GCC2026 keynote presentation" />
+  <div class="gx-tile__title">Highlighted talks</div>
+  <p class="gx-tile__teaser">Invited keynotes, community talks, and open discussion — including Galaxy Live!, a keynote from Rayan Chikhi on petabyte-scale sequencing, and the Galaxy Community Update.</p>
+  <span class="gx-tile__more">See the talks →</span>
+</a>
 
-The conference spans invited keynotes, community-submitted talks, hands-on training, and
-the informal conversations that often turn out to be just as valuable as anything on the
-schedule. **It's where new collaborations begin, ideas get pressure-tested, and the
-community collectively decides what Galaxy becomes next.**
+<a class="gx-tile gx-tile--link" href="/events/gcc2026/fellowships/">
+  <img class="gx-tile__media" src="/images/events/gcc2026/fellowship.jpg" alt="GCC2026 fellowship recipients" />
+  <div class="gx-tile__title">GCC2026 fellowships</div>
+  <p class="gx-tile__teaser">Financial support shouldn't be a barrier. Awards from the JXTX Foundation, the JJ Fund, and the Galaxy Community Fund help cover registration, travel, and accommodation.</p>
+  <span class="gx-tile__more">See fellowship details →</span>
+</a>
 
-  </div>
+<a class="gx-tile gx-tile--link" href="https://www.uca.fr/" target="_blank" rel="noopener noreferrer">
+  <img class="gx-tile__media" src="/images/events/gcc2026/cartoon-clermont-auvergne-v2.png" alt="GCC2026 host: Université Clermont Auvergne" />
+  <div class="gx-tile__title">GCC2026 host</div>
+  <p class="gx-tile__teaser">GCC2026 is hosted by the Université Clermont Auvergne — a dynamic research university of 35,000+ students and 40+ research units, and home to the AuBi bioinformatics platform.</p>
+  <span class="gx-tile__more">Visit UCA →</span>
+</a>
 
-  <!-- Highlights -->
-  <div class="card" style="flex: 1 1 280px;">
-    <img src="/images/events/gcc2026/keynote.jpg" class="card-img-top" style="height: 280px; object-fit: cover;" alt="GCC2026 keynote presentation" />
-    <div class="card-header">Highlighted Talks</div>
+<a class="gx-tile gx-tile--link" href="/events/gcc2026/cofest/">
+  <img class="gx-tile__media" src="/images/events/gcc2026/cofest.jpg" alt="GCC2026 CoFest participants" />
+  <div class="gx-tile__title">GCC2026 CoFest</div>
+  <p class="gx-tile__teaser">Two days of hands-on, community-driven work right after the conference. Contribute to tools, workflows, docs, or training — everyone's welcome, whatever your background.</p>
+  <span class="gx-tile__more">Join CoFest →</span>
+</a>
 
-GCC2026 features a program of invited keynotes, community talks, and open discussions
-covering the latest in Galaxy development, real-world research applications, and the
-future of open data analysis. This year's highlights include:
-
-  <ul>
-    <li><strong>Galaxy Live!</strong> — A live, on-stage reveal of new Galaxy features</li>
-    <li><strong>Rayan Chikhi</strong> — Keynote on assembling and exploring petabyte-scale sequencing data</li>
-    <li><strong>Galaxy Community Update</strong> — The state of the ecosystem, from the people building it</li>
-    <li><strong>Panel Discussion</strong> — An open conversation on what matters most to the community</li>
-    <li><strong>Galaxy in Research</strong> — Cutting-edge science powered by Galaxy</li>
-  </ul>
-
-**See the [highlighted talks page](/events/gcc2026/highlights/) for details.**
-
-  </div>
-
-  <!-- Fellowships -->
-  <div class="card" style="flex: 1 1 280px;">
-    <img src="/images/events/gcc2026/fellowship.jpg" class="card-img-top" style="height: 280px; object-fit: cover;" alt="GCC2026 fellowship recipients" />
-    <div class="card-header">GCC2026 Fellowships</div>
-
-Financial support should not be a barrier to participating in the Galaxy community.
-Several fellowship opportunities are available to assist attendees who need support
-to attend GCC2026.
-
-Awards from the **JXTX Foundation**, the **JJ Fund**, and the **Galaxy Community Fund**
-cover registration, travel, and accommodation for graduate students, postdoctoral
-researchers, and early-career scientists — with particular consideration for applicants
-from underrepresented backgrounds and lower-resourced institutions.
-
-**Eligible researchers are encouraged to apply.** See the [fellowships page](/events/gcc2026/fellowships/)
-for full details on eligibility and application deadlines.
-  </div>
-
-  <!-- Host -->
-  <div class="card" style="flex: 1 1 280px;">
-    <img src="/images/events/gcc2026/cartoon-clermont-auvergne-v2.png" class="card-img-top" style="height: 280px; object-fit: cover;" alt="GCC2026 host" />
-    <div class="card-header">GCC2026 Host</div>
-
-**GCC2026 is hosted by the [Université Clermont Auvergne](https://www.uca.fr/)
-(UCA)**. UCA is a modern, dynamic research university born from the merger of two
-prominent institutions in 2017, now unifying diverse strengths across science,
-engineering, health, and humanities. With over 35,000 students and more than 40
-research units, UCA is deeply integrated into local and international research
-networks, committed to fostering interdisciplinary exchange and scientific
-excellence.
-
-Among other initiatives, UCA also supports the [AuBi bioinformatics
-platform](https://www.france-genomique.org/platforms-and-equipments/plateforme-de-bio-informatique-de-clermont-ferrand-aubi/?lang=en),
-which administers a local Galaxy instance.
-
-The Galaxy project is thrilled to be hosted by UCA!
-
-  </div>
-
-  <!-- Cofest -->
-  <div class="card" style="flex: 1 1 280px;">
-    <img src="/images/events/gcc2026/cofest.jpg" class="card-img-top" style="height: 280px; object-fit: cover;" alt="GCC2026 CoFest participants" />
-    <div class="card-header">GCC2026 CoFest</div>
-
-CoFest is two days of hands-on, community-driven work immediately following the main
-conference. Participants self-organize into groups and spend the time contributing
-to whatever they care about most — new tools and workflows, platform improvements,
-documentation, training materials, or helping new contributors find their footing.
-
-**Anyone is welcome, regardless of technical background.** Some groups write code;
-others work on tutorials, use cases, or community infrastructure. CoFest is one of
-the most direct ways to shape what Galaxy looks like next year.
-
-Join us at **[CoFest](/events/gcc2026/cofest/)**
-
-  </div>
-
-  <!-- Destination -->
-  <div class="card" style="flex: 1 1 280px;">
-    <img src="/images/events/gcc2026/clermont.jpg" class="card-img-top" style="height: 280px; object-fit: cover;" alt="Clermont-Ferrand, France" />
-    <div class="card-header">Clermont-Ferrand, France</div>
-
-**Nestled in the heart of central France**, Clermont-Ferrand is a city framed by
-dramatic volcanic landscapes and rich history. Dominated by the striking black
-lava-stone cathedral and surrounded by the [Chaîne des
-Puys](https://volcan.puy-de-dome.fr/volcans/chaine-des-puys.html) — a UNESCO
-World Heritage site of ancient volcanoes — the city offers an inspiring mix of
-natural beauty and architectural wonder.
-
-Conference participants can look forward to vibrant cultural experiences, from
-strolling through charming medieval streets to enjoying lively cafés and local
-gastronomy. With its dynamic university atmosphere and welcoming spirit,
-Clermont-Ferrand provides the perfect setting for stimulating academic exchange
-and memorable discoveries.
-
-The **[travel page](/events/gcc2026/travel/) has more details.**
-
-  </div>
+<a class="gx-tile gx-tile--link" href="/events/gcc2026/travel/">
+  <img class="gx-tile__media" src="/images/events/gcc2026/clermont.jpg" alt="Clermont-Ferrand, France" />
+  <div class="gx-tile__title">Clermont-Ferrand, France</div>
+  <p class="gx-tile__teaser">A walkable medieval city framed by the volcanic Chaîne des Puys, a UNESCO World Heritage site — an inspiring setting for the conference.</p>
+  <span class="gx-tile__more">Plan your trip →</span>
+</a>
 
 </div>
 
-# Stay informed
+## Stay informed
 
 Sign up for the GCC2026 announcement list to receive updates on registration,
 abstract submission deadlines, program announcements, and fellowship opportunities.
@@ -167,14 +92,6 @@ Low volume — only what matters.
   <a target="_blank" href="https://gaggle.email/join/gcc2026-announce@gaggle.email" class="inline-flex items-center justify-center rounded px-8 py-2 text-sm font-semibold text-white bg-galaxy-primary hover:bg-galaxy-dark no-underline hover:no-underline">Join GCC2026 Announce mailing list</a>
 </div>
 
-# Conference logo
+## Conference logo
 
-<table style="width: 100%">
-  <tbody>
-    <tr class="lead text-left" style="background-color: white">
-      <td style="border: 0; width: 20%;">
-        <img src="/images/events/gcc2026/gcc2026-logo.png" style="max-height: 200px;" alt="Conference Logo" />
-      </td>
-    </tr>
-  </tbody>
-</table>
+<img src="/images/events/gcc2026/gcc2026-logo.png" alt="GCC2026 Conference Logo" style="max-height: 200px;" />

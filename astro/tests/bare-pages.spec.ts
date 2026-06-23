@@ -117,7 +117,7 @@ test.describe('Bare Pages', () => {
       const response = await page.goto('/bare/fr/news/');
       expect(response?.status()).toBe(200);
 
-      await expect(page.locator('h2')).toContainText('Galaxy France News');
+      await expect(page.getByRole('heading', { name: 'Galaxy France News' })).toBeVisible();
 
       const table = page.locator('table.news-table');
       await expect(table).toBeVisible();

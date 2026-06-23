@@ -6,6 +6,20 @@ autotoc: false
 
 The **Galaxy Community Conference (GCC)** is the flagship event for one of the most impactful open-source platforms in computational biology. By sponsoring GCC2026, you're investing in a global movement democratizing data-intensive research.
 
+## Silver sponsors
+
+<a href="https://www.data-terra.org/" target="_blank">
+  <img src="/images/logos/data-terra.png" alt="Data Terra" style="max-width: 30%;" />
+</a>
+
+<hr/>
+
+<a href="https://www.pndb.fr/pages/accueil/" target="_blank">
+  <img src="/images/logos/pndb.png" alt="PNDB - Pôle National de Données de Biodiversité" style="max-width: 30%;" />
+</a>
+
+<hr/>
+
 ## Bronze sponsors
 <a href="https://galaxyworks.io/" target="_blank">
   <img src="/images/logos/galaxyworks-logo.png" alt="GalaxyWorks" style="max-width: 25%;" />
@@ -20,6 +34,17 @@ The **Galaxy Community Conference (GCC)** is the flagship event for one of the m
 <hr/>
 <a href="https://www.denbi.de/" target="_blank">
   <img src="/images/logos/deNBILogo.png" alt="de.NBI" style="max-width: 25%;" />
+</a>
+
+<hr/>
+<a href="https://www.limagrain.com/en" target="_blank">
+  <img src="/images/logos/limagrain-logo-text.png" alt="Limagrain" style="max-width: 25%;" />
+</a>
+
+## Friends of GCC
+
+<a href="https://www.sfbi.fr/" target="_blank">
+  <img src="/images/logos/SFBI-logo.png" alt="SFBI" style="max-width: 25%;" />
 </a>
 
 <hr/>

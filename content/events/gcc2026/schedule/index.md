@@ -9,75 +9,75 @@ The schedule is where you can discover what’s happening when at GCC2026. Full 
 <details class="gcc-schedule-day" open>
 <summary class="gcc-schedule-summary">Monday, Jun 22</summary>
 
-| **Time**      | **Event**                                                                                        |
-|---------------|--------------------------------------------------------------------------------------------------|
-| 9:00 - 9:20   | Open and welcome                                                                                 |
-| 9:20 - 10:00  | [Galaxy Live!](/events/gcc2026/highlights#galaxy-live)                                           |
-| 10:00 - 10:30 | Break                                                                                            |
-| 10:30 - 10:50 | Overview of Galaxy SiGs                                                                          |
-| 10:50 - 12:05 | [Talks 1](#talks-1-galaxy-framework-and-platform-direction)                                      |
-| 12:05 - 13:00 | Lunch                                                                                            |
-| 13:00 - 14:30 | [Talks 2](#talks-2-infrastructure-federation-and-service-operations)                             |
-| 14:30 - 16:00 | [Posters 1](#posters-1--monday-jun-22-14301600)                                                  |
-| 16:00 - 17:00 | [Talks 3](#talks-3-communities-provenance-and-cross-domain-expansion)                            |
-| 17:00 - 18:00 | BoFs                                                                                             |
+| **Time**      | **Event**                                                                                        | **Location** |
+|---------------|--------------------------------------------------------------------------------------------------|--------------|
+| 9:00 - 9:20   | Open and welcome                                                                                 | Amphitheater A (in person), B (streaming) |
+| 9:20 - 10:00  | [Galaxy Live!](/events/gcc2026/highlights#galaxy-live)                                           | Amphitheater A (in person), B (streaming) |
+| 10:00 - 10:30 | Break                                                                                            | Espace doc |
+| 10:30 - 10:50 | Overview of Galaxy SiGs                                                                          | Amphitheater A (in person), B (streaming) |
+| 10:50 - 12:05 | [Talks 1](#talks-1-galaxy-framework-and-platform-direction)                                      | Amphitheater A (in person), B (streaming) |
+| 12:05 - 13:00 | Lunch                                                                                            | Espace doc |
+| 13:00 - 14:30 | [Talks 2](#talks-2-infrastructure-federation-and-service-operations)                             | Amphitheater A (in person), B (streaming) |
+| 14:30 - 16:00 | [Posters 1](#posters-1--monday-jun-22-14301600)                                                  | Corridor |
+| 16:00 - 17:00 | [Talks 3](#talks-3-communities-provenance-and-cross-domain-expansion)                            | Amphitheater A (in person), B (streaming) |
+| 17:00 - 18:00 | [BoFs](/events/gcc2026/bofs)                                                                     | See [BoF](/events/gcc2026/bofs) descriptions |
 
 </details>
 
 <details class="gcc-schedule-day" open>
 <summary class="gcc-schedule-summary">Tuesday, Jun 23</summary>
 
-| **Time**      | **Event**                                                                                        |
-|---------------|--------------------------------------------------------------------------------------------------|
-| 9:00 - 10:00  | [Keynote: Rayan Chikhi](/events/gcc2026/highlights#rayan-chikhi)                                 |
-| 10:00 - 10:30 | Break                                                                                            |
-| 10:30 - 12:00 | [Talks 4](#talks-4-fair-data-analysis-workflows-and-public-health-applications)                  |
-| 12:00 - 13:00 | Lunch                                                                                            |
-| 13:00 - 13:45 | [Talks 5](#talks-5-tool-integration-and-method-development)                                      |
-| 13:45 - 14:30 | Lightning talks                                                                                  |
-| 14:30 - 16:00 | [Posters 2](#posters-2--tuesday-jun-23-14301600)                                                 |
-| 16:00 - 18:00 | ELIXIR F2F                                                                                       |
-| 19:00 - 21:00 | Conference dinner                                                                                |
+| **Time**      | **Event**                                                                                        | **Location** |
+|---------------|--------------------------------------------------------------------------------------------------|--------------|
+| 9:00 - 10:00  | [Keynote: Rayan Chikhi](/events/gcc2026/highlights#rayan-chikhi)                                 | Amphitheater A (in person), B (streaming)|
+| 10:00 - 10:30 | Break                                                                                            | Espace doc |
+| 10:30 - 12:00 | [Talks 4](#talks-4-fair-data-analysis-workflows-and-public-health-applications)                  | Amphitheater A (in person), B (streaming)|
+| 12:00 - 13:00 | Lunch                                                                                            | Espace doc |
+| 13:00 - 13:45 | [Talks 5](#talks-5-tool-integration-and-method-development)                                      | Amphitheater A (in person), B (streaming)|
+| 13:45 - 14:30 | Lightning talks                                                                                  | Amphitheater A (in person), B (streaming)|
+| 14:30 - 16:00 | [Posters 2](#posters-2--tuesday-jun-23-14301600) + ELIXIR virtual posters                        | Corridor |
+| 16:00 - 18:00 | ELIXIR F2F                                                                                       | Amphitheater A |
+| 19:00 - 21:00 | [Conference dinner](https://www.roofevents.fr/)                                                  | [Roof Events](https://www.roofevents.fr/), Clermont-Ferrand |
 
 </details>
 
 <details class="gcc-schedule-day" open>
 <summary class="gcc-schedule-summary">Wednesday, Jun 24</summary>
 
-| **Time**      | **Event**                                                                                        |
-|---------------|--------------------------------------------------------------------------------------------------|
-| 9:00 - 10:00  | [Galaxy Community Update](/events/gcc2026/highlights#community-update)                           |
-| 10:00 - 10:30 | Break                                                                                            |
-| 10:30 - 12:00 | [Talks 6](#talks-6-ai-workflows-and-guided-analysis)                                             |
-| 12:00 - 13:00 | Lunch                                                                                            |
-| 13:00 - 14:30 | [Showcase panel & discussion](/events/gcc2026/highlights#panel-discussion)                       |
-| 14:30 - 15:00 | Group photo / break                                                                              |
-| 15:00 - 16:30 | [Talks 7](#talks-7-community-platforms-mature-ecosystems-and-field-reports)                      |
-| 16:30 - 17:00 | [Galaxy in Research](/events/gcc2026/highlights#galaxy-in-research)                              |
-| 17:00 - 17:15 | Closing                                                                                          |
-| 17:15 - 18:30 | BoFs                                                                                             |
+| **Time**      | **Event**                                                                                        | **Location** |
+|---------------|--------------------------------------------------------------------------------------------------|--------------|
+| 9:00 - 10:00  | [Galaxy Community Update](/events/gcc2026/highlights#community-update)                           | Amphitheater A (in person), B (streaming) |
+| 10:00 - 10:30 | Break                                                                                            | Espace doc |
+| 10:30 - 12:00 | [Talks 6](#talks-6-ai-workflows-and-guided-analysis)                                             | Amphitheater A (in person), B (streaming) |
+| 12:00 - 13:00 | Lunch                                                                                            | Espace doc |
+| 13:00 - 14:30 | [Fishbowl & discussion](/events/gcc2026/highlights#panel-discussion)                             | Amphitheater A |
+| 14:30 - 15:00 | Group photo / break                                                                              | Espace doc |
+| 15:00 - 16:30 | [Talks 7](#talks-7-community-platforms-mature-ecosystems-and-field-reports)                      | Amphitheater A (in person), B (streaming) |
+| 16:30 - 17:00 | [Galaxy in Research](/events/gcc2026/highlights#galaxy-in-research)                              | Amphitheater A (in person), B (streaming) |
+| 17:00 - 17:15 | Closing                                                                                          | Amphitheater A (in person), B (streaming) |
+| 17:15 - 18:30 | [BoFs](/events/gcc2026/bofs)                                                                     | Breakout Spaces |
 
 </details>
 
 <details class="gcc-schedule-day" open>
 <summary class="gcc-schedule-summary">Thursday, Jun 25</summary>
 
-| **Time**      | **Event**                                                                                        |
-|---------------|--------------------------------------------------------------------------------------------------|
-| 9:00 - 12:00  | Training 1                                                                                       |
-| 12:00 - 13:00 | Lunch                                                                                            |
-| 13:00 - 18:00 | [CoFest 1](/events/gcc2026/cofest)                                                               |
+| **Time**      | **Event**                                                                                        | **Location** |
+|---------------|--------------------------------------------------------------------------------------------------|--------------|
+| 9:00 - 12:00  | [Training 1](/events/gcc2026/training)                                                           | Amphitheater A, B, Rooms A128-131 |
+| 12:00 - 13:00 | Lunch                                                                                            | Espace doc |
+| 13:00 - 18:00 | [CoFest 1](/events/gcc2026/cofest)                                                               | Amphitheater A, B, Rooms A128-131 |
 
 </details>
 
 <details class="gcc-schedule-day" open>
 <summary class="gcc-schedule-summary">Friday, Jun 26</summary>
 
-| **Time**      | **Event**                                                                                        |
-|---------------|--------------------------------------------------------------------------------------------------|
-| 9:00 - 12:00  | Training 2                                                                                       |
-| 12:00 - 13:00 | Lunch                                                                                            |
-| 13:00 - 18:00 | [CoFest 2](/events/gcc2026/cofest)                                                               |
+| **Time**      | **Event**                                                                                        | **Location** |
+|---------------|--------------------------------------------------------------------------------------------------|--------------|
+| 9:00 - 12:00  | [Training 2](/events/gcc2026/training)                                                           | Amphitheater A, B, Rooms A128-131 |
+| 12:00 - 13:00 | Lunch                                                                                            | Espace doc |
+| 13:00 - 18:00 | [CoFest 2](/events/gcc2026/cofest)                                                               | Amphitheater A, B, Rooms A128-131 |
 
 </details>
 
@@ -261,7 +261,7 @@ presentation.
 
 ## Talks 1: Galaxy framework and platform direction
 
-Moderator: TBD
+Moderator: Marisa Loach
 
 <div class="gcc-talk-list">
   <div class="gcc-talk-list-header" aria-hidden="true">
@@ -568,7 +568,7 @@ Moderator: Pierre-Étienne Jacques
     <span class="gcc-talk-time">16:45 - 17:00</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">LabID Meets Galaxy: Continuous Provenance from Samples to Results</span>
-      <span class="gcc-talk-authors"><strong>Thomas Laurent</strong>, Girardot Charles, Scholtalbers Jelle, Monfort Matthias, Reza Nayeem</span>
+      <span class="gcc-talk-authors">Thomas Laurent, Girardot Charles, <strong>Scholtalbers Jelle</strong>, Monfort Matthias, Reza Nayeem</span>
     </span>
     <span class="gcc-talk-poster">Also Poster</span>
   </summary>
@@ -634,19 +634,6 @@ Moderator: Solenne Coreard
   <summary>
     <span class="gcc-talk-time">11:00 - 11:15</span>
     <span class="gcc-talk-main">
-      <span class="gcc-talk-title">Phylogenomic and Functional Analysis of Ethiopia’s First Marburg Virus Outbreak Highlights a Single Spillover Event and Preserved Vaccine Targets</span>
-      <span class="gcc-talk-authors"><strong>Bashea Chala</strong>, Getu Melak, Gebremicael Gebremedhin, Ali Abraham, Marburg Virus Outbreak Task Force, Tadese Gemechu, Tollera Getachew</span>
-    </span>
-    <span class="gcc-talk-poster">Also Poster</span>
-  </summary>
-  <div class="gcc-talk-abstract">
-    <p>In November 2025, Ethiopia reported its first Marburg virus disease outbreak with a 64% case fatality rate. Genomic epidemiology was applied to characterize transmission dynamics, phylogeny, and mutations relevant to vaccine and monoclonal antibody efficacy. Samples were processed at the Ethiopian Public Health Institute (EPHI). RNA was extracted after ethanol inactivation and screened by PCR for viral hemorrhagic fevers and arboviruses. Marburg virus-positive samples were sequenced using the Illumina Viral Surveillance Panel 2 on the NovaSeq X plus and MiSeq platforms. Analyses were performed on the European Galaxy server, including quality filtering (fastp), host depletion (Bowtie2), reference mapping (BWA-MEM2), variant calling and consensus generation (iVar), and lineage assignment (Nextclade). Phylogenetic and temporal analyses were performed using 103 global genomes in BEAST with a Skygrid model. MVD diagnosis was confirmed by RT-PCR, and positive samples underwent full‑genome sequencing. Seven high‑quality genomes (genome coverage &gt;70%) from the Ethiopian outbreak were successfully sequenced and analyzed alongside 103 global genomes derived from humans and the natural bat host, Rousettus aegyptiacus. The Ethiopian sequences showed &gt;99.9% nucleotide identity, indicating low viral diversity. Maximum-likelihood phylogenetic analysis demonstrated that all sequences clustered within the MARV.A.1 clade. They were closely related to historical isolates from the Netherlands (the Leiden strain) and Uganda. The Ethiopian lineage and its closest human isolate (JN408064) diverged from a common ancestor circulating in 1994, whereas the Ethiopian lineage and its closest bat isolates (JX458853 and JX458858) diverged from a common ancestor circulating around 1989. Genomic and epidemiological evidence supported a single zoonotic spillover followed by localized human-to-human transmission. Seventy lineage-defining substitutions were identified, including 10 non-synonymous mutations primarily in the glycoprotein gene, with strong purifying selection (dN/dS &lt; 1). The outbreak strain showed high similarity to the reference strain, with conserved monoclonal antibody binding sites and no escape mutations. Overall, the outbreak resulted from a single spillover event with limited viral diversification, supporting the continued efficacy of existing vaccines and monoclonal antibody therapies.</p>
-  </div>
-</details>
-<details class="gcc-talk">
-  <summary>
-    <span class="gcc-talk-time">11:15 - 11:30</span>
-    <span class="gcc-talk-main">
       <span class="gcc-talk-title">From legacy pipelines to reusable Galaxy workflows for national bacterial WGS surveillance at Statens Serum Institut</span>
       <span class="gcc-talk-authors"><strong>Matusevicius Povilas</strong></span>
     </span>
@@ -658,7 +645,7 @@ Moderator: Solenne Coreard
 </details>
 <details class="gcc-talk">
   <summary>
-    <span class="gcc-talk-time">11:30 - 11:45</span>
+    <span class="gcc-talk-time">11:15 - 11:30</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">Leveraging Galaxy’s Superpowers to Enhance Fermentation Innovation through the Siduri portal</span>
       <span class="gcc-talk-authors"><strong>Barnabé Agnès</strong>, Fernandez Emilie, Le Floch Erwan, Lacroix Thomas, Schbath Sophie, Loux Valentin</span>
@@ -678,7 +665,7 @@ Moderator: Solenne Coreard
 </details>
 <details class="gcc-talk">
   <summary>
-    <span class="gcc-talk-time">11:45 - 12:00</span>
+    <span class="gcc-talk-time">11:30 - 11:45</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">Galaxy-based workflows for genome-resolved and multi-kingdom microbiome analysis: application to the nasal microbiome in Alzheimer’s disease</span>
       <span class="gcc-talk-authors"><strong>Hojat Ansari Mina</strong></span>
@@ -761,7 +748,7 @@ Moderator: Yvan Le Bras
 
 ## Talks 6: AI, workflows, and guided analysis
 
-Moderator: TBD
+Moderator: Jeremy Goecks
 
 <div class="gcc-talk-list">
   <div class="gcc-talk-list-header" aria-hidden="true">
@@ -955,7 +942,7 @@ Moderator: Yvan Le Bras
     <span class="gcc-talk-time">16:00 - 16:15</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">Rewriting the Galaxy Hub -- Migrating 4,300 Pages from Gridsome to Astro</span>
-      <span class="gcc-talk-authors"><strong>Baker Dannon</strong>, Grüning Björn</span>
+      <span class="gcc-talk-authors"><strong>Baker Dannon</strong>, Alireza Heidari, Grüning Björn</span>
     </span>
     <span class="gcc-talk-poster gcc-talk-poster-empty">-</span>
   </summary>
@@ -1375,16 +1362,16 @@ Moderator: Yvan Le Bras
     <span class="gcc-talk-time">23</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">A Reproducible Galaxy Workflow for Genome Assembly and SNP Analysis of Hibiscus Chlorotic Ringspot Virus (HRS2 Isolate)</span>
-      <span class="gcc-talk-authors"><strong>Nikita Nikita</strong>, Dhir Sunny</span>
+      <span class="gcc-talk-authors"><strong>Nikita Nikita</strong>, Dhir Sunny, Md Salik Noorani</span>
     </span>
     <span class="gcc-talk-poster gcc-talk-poster-empty">-</span>
   </summary>
   <div class="gcc-talk-abstract">
     <p>Reproducible and accessible workflows are essential for reliable analysis of high-throughput sequencing (HTS) data in virology. The Galaxy platform provides a user-friendly environment to address this need. Here, we present a Galaxy-based workflow for genome assembly and SNP analysis of Hibiscus chlorotic ringspot virus (HCRSV; species <em>Betacarmovirus hibisci</em>) from <em>Hibiscus rosa-sinensis</em>.
-</p><p>Raw HTS data were processed on Galaxy Europe. Read quality was assessed using FastQC, followed by trimming and filtering with Trimmomatic. High-quality reads were assembled de novo using Trinity, and contigs were screened against viral databases using NCBI BLAST+ (megaBLAST), leading to the identification of HCRSV with a genome size of 3.913 kb.
-</p><p>For downstream analysis, reads were aligned to the reference genome using Bowtie2, and variant calling was performed using DeepVariant. A total of 233 SNPs were identified, including 217 in coding regions (146 transitions and 71 transversions) and 16 in non-coding regions, with a transition/transversion ratio of 2.056. Among the total 293 protein-coding mutations, 207 were synonymous and 86 non-synonymous substitutions, with 39 conservative and 47 non-conservative changes, suggesting potential functional impacts.
-</p><p>The HRS2 isolate showed 92.63% nucleotide identity with the reference genome of HCRSV. This study demonstrates how Galaxy enables integrated, reproducible analysis of viral genomes from raw data to variant interpretation. The workflow can be readily adapted for similar studies in plant virus research and genomics.
-</p><p><br /></p>
+    </p><p>Raw HTS data were processed on Galaxy Europe. Read quality was assessed using FastQC, followed by trimming and filtering with Trimmomatic. High-quality reads were assembled de novo using Trinity, and contigs were screened against viral databases using NCBI BLAST+ (megaBLAST), leading to the identification of HCRSV with a genome size of 3.913 kb.
+    </p><p>For downstream analysis, reads were aligned to the reference genome using Bowtie2, and variant calling was performed using DeepVariant. A total of 233 SNPs were identified, including 217 in coding regions (146 transitions and 71 transversions) and 16 in non-coding regions, with a transition/transversion ratio of 2.056. Among the total 293 protein-coding mutations, 207 were synonymous and 86 non-synonymous substitutions, with 39 conservative and 47 non-conservative changes, suggesting potential functional impacts.
+    </p><p>The HRS2 isolate showed 92.63% nucleotide identity with the reference genome of HCRSV. This study demonstrates how Galaxy enables integrated, reproducible analysis of viral genomes from raw data to variant interpretation. The workflow can be readily adapted for similar studies in plant virus research and genomics.
+    </p><p><br /></p>
   </div>
 </details>
 <details class="gcc-talk">
@@ -1417,31 +1404,50 @@ Moderator: Yvan Le Bras
   <summary>
     <span class="gcc-talk-time">26</span>
     <span class="gcc-talk-main">
-      <span class="gcc-talk-title">Genetic structure of Aedes albopictus in the Democratic Republic of the Congo</span>
-      <span class="gcc-talk-authors"><strong>Vulu Fabien</strong>, Bobanga Thierry, Mampuya Pitshou</span>
+      <span class="gcc-talk-title">Deployment and Applications of Galaxy in Research Activities at Limagrain</span>
+      <span class="gcc-talk-authors"><strong>Chaouchi Malek</strong>, Duge De Bernonville Thomas, Faubladier Michael, Floreau Julian, Giannone Gaetan, Joynson Ryan, Roziere Julien</span>
     </span>
-    <span class="gcc-talk-poster gcc-talk-poster-empty">-</span>
+    <span class="gcc-talk-poster"></span>
   </summary>
   <div class="gcc-talk-abstract">
-    <p>Aedes albopictus, a major vector of dengue, Zika, and chikungunya viruses, has recently invaded the Democratic Republic of the Congo (DRC). Our previous analyses based on the mitochondrial COI gene revealed moderate haplotype diversity but low nucleotide diversity among populations from multiple regions, suggesting a recent introduction. To further investigate the population genomics of this invasive vector, we are conducting genome-wide analyses using targeted sequencing. Three Ae. albopictus specimens from each of 16 sites across the DRC were collected and processed for Illumina sequencing. Genomic DNA was fragmented, indexed, and enriched for approximately 200 genomic loci using a capture-probe approach developed by the Japanese National Institute of Infectious Diseases before sequencing on an Illumina NextSeq platform. Current analyses are being conducted using the Galaxy platform to perform quality control, read mapping, variant detection, and population genomic analyses. These results will provide the first genome-scale insights into the introduction history, genetic structure, and spread of Ae. albopictus in the DRC.</p>
+    <p>Limagrain is an international agricultural cooperative group specializing in field crop and vegetable seeds, as well as cereal products and bakery, with research activities heavily relying on genomic data. In this context, we have deployed an internal instance of the Galaxy platform to facilitate access to bioinformatics analyses for a broad range of users. Today, more than 150 users across multiple research teams rely on this infrastructure to run both community-provided Galaxy tools and internally developed tools. These internal developments span multiple programming languages and include Nextflow pipelines integrated into Galaxy through dedicated interfaces. Galaxy has become a central component of our analytical ecosystem, enabling reproducible, traceable, and user-friendly analyses. The implemented workflows support a variety of applications, including molecular marker development for breeding programs, candidate gene discovery, sequencing project management and analysis, as well as large-scale genotyping activities. This poster will present the architecture of our Galaxy instances and the types of tools and workflows deployed.</p>
   </div>
 </details>
 <details class="gcc-talk">
   <summary>
     <span class="gcc-talk-time">27</span>
     <span class="gcc-talk-main">
-      <span class="gcc-talk-title">Making a non-filesystem scientific resource browsable in Galaxy: the MaveDB example</span>
-      <span class="gcc-talk-authors"><strong>Polunina Polina</strong></span>
+      <span class="gcc-talk-title">Galaxy Ecology: 2026 update</span>
+      <span class="gcc-talk-authors"><strong>Le Bras Yvan</strong>, Seguineau Pauline, Galaxy Ecology Community</span>
     </span>
-    <span class="gcc-talk-poster gcc-talk-poster-empty">-</span>
+    <span class="gcc-talk-poster">Also Talk</span>
   </summary>
   <div class="gcc-talk-abstract">
-    <p>Researchers often require their data to be analysed in the context of external data sources, or simply want to re-analyse public data. To be most effective, scientific analysis platforms need to support data stored outside traditional filesystems. These external resources may be local or remote filesystems, require different network protocols, cloud object stores, repository platforms, or domain-specific scientific databases. Python’s fsspec library addresses this diversity by providing a common filesystem-like interface over many storage and data access systems. The backend does not need to be a real filesystem; it only needs to expose useful filesystem-like operations such as listing resources, opening and reading file-like objects, and creating directories or writing files.</p><p>MaveDB is an open repository for Multiplexed Assays of Variant Effect datasets. It stores data sets containing processed scores, count data, variant tables, metadata, and mapped variant annotations. These data products are naturally useful as files, but MaveDB itself is organized around API concepts such as score set searches, public datasets, and authenticated user-associated datasets. Accessing many files across many score sets can require manual browsing, repeated downloads, uploads into Galaxy, or custom scripts.</p><p>We developed mavedb-fsspec, a fsspec adapter that exposes MaveDB through the mavedb:// protocol. Public score sets are available under mavedb://score-sets/, authenticated user-associated score sets under mavedb://my-score-sets/, and each score set appears as a directory containing files such as scores.csv, counts.csv, variants.csv, metadata.json, and mapped-variants.json when available. This mapping turns MaveDB’s domain model into a stable virtual path hierarchy that can be used by Python tools expecting an fsspec-compatible filesystem.</p><p>We then integrated this adapter into Galaxy using Galaxy’s Files Source framework. Files Sources provide a common way to expose external repositories in Galaxy, supporting repository browsing, user or administrator configuration, credentials, imports into histories, and exports for writable sources. The MaveDB Files Source subclasses Galaxy’s shared fsspec-based implementation and opens the mavedb-fsspec filesystem, making MaveDB score set files available through Galaxy’s repository browser and upload interface.&nbsp;</p><p>This approach improves on manual web or API-based access by allowing users to select one, several, or many MaveDB files directly inside Galaxy. Bulk import can support machine learning training datasets, benchmarking variant effect prediction tools, meta-analysis across assays, batch quality control, teaching datasets, and reproducible workflows that run across many score sets. The MaveDB example shows that even a domain-specific repository that is not inherently filesystem-shaped can become a practical, browseable Galaxy files source. More broadly, this work demonstrates a reusable pattern for connecting scientific repositories to Galaxy: represent the resource with an fsspec filesystem, then expose it through Galaxy’s Files Source layer.</p>
+    <p>Since 2018, the Galaxy Ecology initiative has allowed Biodiversity data related research fields to rely on an accessible, reproducible and transparent solution to share analytical processes.</p>
+    <p>For more than 6 years, Galaxy Ecology initiative has been devoted to integrating into the Galaxy ecosystem a minimal basis of tools, workflows and tutorials to deal with Biodiversity data. In 2025, we finally published our founding article as a guidance framework to apply best practices in ecological data analysis, demonstrating the relevance of the atomization-generalization framework developed. Last year was also an amazing year for Galaxy-E as several projects joined our effort and we accompanied the growth of the Galaxy Earth System Science sister community at both national and European levels. Finally, within a year, important work was initiated on several topics, such as interoperability with the Jupyter Notebook ecosystem or facilitating AI-based scientific methods used by citizen science projects.</p>
+    <p>We propose here to look back on the richness of the past year and present ongoing Galaxy Ecology activities so we can showcase all the benefits we are gaining thanks to Galaxy Communities and how we are trying to also make others benefit from our work.</p>
   </div>
 </details>
 <details class="gcc-talk">
   <summary>
     <span class="gcc-talk-time">28</span>
+    <span class="gcc-talk-main">
+      <span class="gcc-talk-title">Natural Language Processing in Galaxy: Integrating Stanford CoreNLP and spaCy for the Digital Humanities</span>
+      <span class="gcc-talk-authors"><strong>Schneider Daniela</strong>, Suderman Keith</span>
+    </span>
+    <span class="gcc-talk-poster">Also Talk</span>
+  </summary>
+  <div class="gcc-talk-abstract">
+    <p>Galaxy has a long and successful history in bioinformatics and the natural sciences. Its domain-agnostic platform design, however, extends well beyond these fields. One of the latest Special Interest Groups (SIGs) has emerged from the Digital Humanities (DH) and Social Sciences, where researchers increasingly require computational tools for analyzing large text corpora but often lack programming expertise. In this talk, we present the integration of two leading Natural Language Processing (NLP) frameworks into Galaxy: Stanford CoreNLP and spaCy.</p>
+    <p>Stanford CoreNLP is a Java‑based NLP toolkit with a unified annotation pipeline; our Galaxy wrapper exposes its full pipeline in eight languages. spaCy is a Python library that delivers fast, accurate processing using pretrained models for more than 25 languages. By supporting multiple languages, both tools help overcome the English‑centric bias of many Digital‑Humanities applications, enabling a more inclusive, multilingual research environment.</p>
+    <p>Both tools run in Docker containers for consistent execution across deployment environments and produce output in common NLP standards like JSON, CoNLL, CONLL-U, and plain text. Language models are managed through Galaxy's data manager framework and presented as selectable options in the tool interface. This design means researchers can perform sophisticated NLP tasks—analyzing sentiment in historical documents, extracting named entities from literary corpora, or parsing syntactic structure across multilingual text collections—without writing a single line of code. Introducing those two tools, which normally run in separate environments, allows users to quickly compare which tool is most accurate for their analysis without downloading anything or learning to code.</p>
+    <p>Moreover, integrating Stanford CoreNLP and spaCy into Galaxy connects those tools to the full Galaxy ecosystem.  Researchers can leverage them within fully reproducible, shareable workflows that interoperate with thousands of existing Galaxy tools. <br />A typical workflow might involve (i) bulk upload of images, (ii) optical character recognition (OCR) to plain text, (iii) token‑level processing with spaCy or CoreNLP, (iv) sentiment analysis,  (v) extraction of persons, places, and organisations via named entity recognition (NER), and (vi) visualisation or statistical modelling with Galaxy’s various visualisation tools.<br />Researchers could upload archival material, use Tesseract to extract text from the images, and then clean the text with regular expression tools. The NLP tools allow for extracting locations from administrative files and visualising, for example, how the focus of foreign policy shifted. Instead of doing this manually, Galaxy enables “distant reading” to generate insights for hypothesis testing or large-scale information extraction.<br />Sharing workflows is easy, allowing domain experts to incorporate best practices for users less familiar with the tools. Each workflow can be executed on high‑performance compute clusters, version‑controlled, and exported with a single click—fulfilling FAIR data‑management principles and facilitating transparent peer review.</p>
+    <p>By unifying OCR and advanced NLP within a single, reproducible environment, the new Galaxy tools lower technical barriers, accelerate hypothesis testing, and open up vast corpora of previously inaccessible material to quantitative inquiry. This is a foundational step for the DH SIG, and we welcome collaboration with the Galaxy community to expand the range of NLP capabilities available on the platform.</p>
+  </div>
+</details>
+<details class="gcc-talk">
+  <summary>
+    <span class="gcc-talk-time">29</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">Advancing Earth System Research Through Galaxy, Data Terra, and EOSC Collaboration</span>
       <span class="gcc-talk-authors"><strong>Jossé Marie</strong>, Seguineau Pauline, Le Bras Yvan, Detoc Jérôme, Norvez Olivier, Grellet Sylvain, Rizzo Alessandro, Keuchkerian Samuel, Delaporte Pascal, Bodéré Erwan, Sarramia David, Guimont Mathieu</span>
@@ -1458,7 +1464,7 @@ Moderator: Yvan Le Bras
 </details>
 <details class="gcc-talk">
   <summary>
-    <span class="gcc-talk-time">29</span>
+    <span class="gcc-talk-time">30</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">Small Scale Admins</span>
       <span class="gcc-talk-authors"><strong>Hotz Hans-rudolf</strong>, Lopez-delisle Lucille, Goué Nadia, Bernt Matthias, Čech Martin, Davis John, Visan Vlad</span>
@@ -1471,7 +1477,7 @@ Moderator: Yvan Le Bras
 </details>
 <details class="gcc-talk">
   <summary>
-    <span class="gcc-talk-time">30</span>
+    <span class="gcc-talk-time">31</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">Microbiology Galaxy Lab: The first community-driven gateway for reproducible and FAIR analysis of microbiological data</span>
       <span class="gcc-talk-authors"><strong>Batut Bérénice</strong>, Nasr Engy, Pechlivanis Nikos, Strepis Nikolaos, Zierep Paul</span>
@@ -1484,7 +1490,7 @@ Moderator: Yvan Le Bras
 </details>
 <details class="gcc-talk">
   <summary>
-    <span class="gcc-talk-time">31</span>
+    <span class="gcc-talk-time">32</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">The Galaxy community in Switzerland</span>
       <span class="gcc-talk-authors"><strong>Lopez-delisle Lucille</strong>, Hotz Hans-rudolf, Thankam Sreedharan Vipin</span>
@@ -1497,7 +1503,7 @@ Moderator: Yvan Le Bras
 </details>
 <details class="gcc-talk">
   <summary>
-    <span class="gcc-talk-time">32</span>
+    <span class="gcc-talk-time">33</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">Navigating Galaxy’s Growth: How CoDex Lower Barriers to Access</span>
       <span class="gcc-talk-authors"><strong>Correard Solenne</strong>, Bretaudeau Anthony, Zierep Paul, Batut Bérénice</span>
@@ -1512,7 +1518,7 @@ Moderator: Yvan Le Bras
 </details>
 <details class="gcc-talk">
   <summary>
-    <span class="gcc-talk-time">33</span>
+    <span class="gcc-talk-time">34</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">The Biodiversity Genomics Galaxy Lab: A Collaborative Hub with curated tools, workflows and training</span>
       <span class="gcc-talk-authors"><strong>Correard Solenne</strong>, Batut Bérénice, ELIXIR Biodiversity Community, Waterhouse Robert M., Bretaudeau Anthony</span>
@@ -1525,7 +1531,7 @@ Moderator: Yvan Le Bras
 </details>
 <details class="gcc-talk">
   <summary>
-    <span class="gcc-talk-time">34</span>
+    <span class="gcc-talk-time">35</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">SPOC: Galaxy Single-cell & sPatial Omics Community of practice</span>
       <span class="gcc-talk-authors"><strong>Videm Pavankumar</strong>, SPOC</span>
@@ -1538,7 +1544,7 @@ Moderator: Yvan Le Bras
 </details>
 <details class="gcc-talk">
   <summary>
-    <span class="gcc-talk-time">35</span>
+    <span class="gcc-talk-time">36</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">Towards an ODATIS Galaxy Environment for Reproducible Cross-Domain Marine Data Analysis</span>
       <span class="gcc-talk-authors"><strong>Leroi Laura</strong>, Jossé Marie, Caer Gwenaël, Detoc Jérôme</span>
@@ -1551,7 +1557,7 @@ Moderator: Yvan Le Bras
 </details>
 <details class="gcc-talk">
   <summary>
-    <span class="gcc-talk-time">36</span>
+    <span class="gcc-talk-time">37</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">Launching the Galaxy UK Special Interest Group: National ecosystem coordination supported by the BioFAIR Fellowship</span>
       <span class="gcc-talk-authors"><strong>Soranzo Nicola</strong>, Loach Marisa</span>
@@ -1577,15 +1583,13 @@ Moderator: Yvan Le Bras
   <summary>
     <span class="gcc-talk-time">1</span>
     <span class="gcc-talk-main">
-      <span class="gcc-talk-title">Galaxy Ecology: 2026 update</span>
-      <span class="gcc-talk-authors"><strong>Le Bras Yvan</strong>, Seguineau Pauline, Galaxy Ecology Community</span>
+      <span class="gcc-talk-title">Genetic structure of Aedes albopictus in the Democratic Republic of the Congo</span>
+      <span class="gcc-talk-authors"><strong>Vulu Fabien</strong>, Bobanga Thierry, Mampuya Pitshou</span>
     </span>
-    <span class="gcc-talk-poster">Also Talk</span>
+    <span class="gcc-talk-poster gcc-talk-poster-empty">-</span>
   </summary>
   <div class="gcc-talk-abstract">
-    <p>Since 2018, the Galaxy Ecology initiative has allowed Biodiversity data related research fields to rely on an accessible, reproducible and transparent solution to share analytical processes.</p>
-    <p>For more than 6 years, Galaxy Ecology initiative has been devoted to integrating into the Galaxy ecosystem a minimal basis of tools, workflows and tutorials to deal with Biodiversity data. In 2025, we finally published our founding article as a guidance framework to apply best practices in ecological data analysis, demonstrating the relevance of the atomization-generalization framework developed. Last year was also an amazing year for Galaxy-E as several projects joined our effort and we accompanied the growth of the Galaxy Earth System Science sister community at both national and European levels. Finally, within a year, important work was initiated on several topics, such as interoperability with the Jupyter Notebook ecosystem or facilitating AI-based scientific methods used by citizen science projects.</p>
-    <p>We propose here to look back on the richness of the past year and present ongoing Galaxy Ecology activities so we can showcase all the benefits we are gaining thanks to Galaxy Communities and how we are trying to also make others benefit from our work.</p>
+    <p>Aedes albopictus, a major vector of dengue, Zika, and chikungunya viruses, has recently invaded the Democratic Republic of the Congo (DRC). Our previous analyses based on the mitochondrial COI gene revealed moderate haplotype diversity but low nucleotide diversity among populations from multiple regions, suggesting a recent introduction. To further investigate the population genomics of this invasive vector, we are conducting genome-wide analyses using targeted sequencing. Three Ae. albopictus specimens from each of 16 sites across the DRC were collected and processed for Illumina sequencing. Genomic DNA was fragmented, indexed, and enriched for approximately 200 genomic loci using a capture-probe approach developed by the Japanese National Institute of Infectious Diseases before sequencing on an Illumina NextSeq platform. Current analyses are being conducted using the Galaxy platform to perform quality control, read mapping, variant detection, and population genomic analyses. These results will provide the first genome-scale insights into the introduction history, genetic structure, and spread of Ae. albopictus in the DRC.</p>
   </div>
 </details>
 <details class="gcc-talk">
@@ -1605,17 +1609,13 @@ Moderator: Yvan Le Bras
   <summary>
     <span class="gcc-talk-time">3</span>
     <span class="gcc-talk-main">
-      <span class="gcc-talk-title">Natural Language Processing in Galaxy: Integrating Stanford CoreNLP and spaCy for the Digital Humanities</span>
-      <span class="gcc-talk-authors"><strong>Schneider Daniela</strong>, Suderman Keith</span>
+      <span class="gcc-talk-title">Making a non-filesystem scientific resource browsable in Galaxy: the MaveDB example</span>
+      <span class="gcc-talk-authors"><strong>Polunina Polina</strong></span>
     </span>
-    <span class="gcc-talk-poster">Also Talk</span>
+    <span class="gcc-talk-poster gcc-talk-poster-empty">-</span>
   </summary>
   <div class="gcc-talk-abstract">
-    <p>Galaxy has a long and successful history in bioinformatics and the natural sciences. Its domain-agnostic platform design, however, extends well beyond these fields. One of the latest Special Interest Groups (SIGs) has emerged from the Digital Humanities (DH) and Social Sciences, where researchers increasingly require computational tools for analyzing large text corpora but often lack programming expertise. In this talk, we present the integration of two leading Natural Language Processing (NLP) frameworks into Galaxy: Stanford CoreNLP and spaCy.</p>
-    <p>Stanford CoreNLP is a Java‑based NLP toolkit with a unified annotation pipeline; our Galaxy wrapper exposes its full pipeline in eight languages. spaCy is a Python library that delivers fast, accurate processing using pretrained models for more than 25 languages. By supporting multiple languages, both tools help overcome the English‑centric bias of many Digital‑Humanities applications, enabling a more inclusive, multilingual research environment.</p>
-    <p>Both tools run in Docker containers for consistent execution across deployment environments and produce output in common NLP standards like JSON, CoNLL, CONLL-U, and plain text. Language models are managed through Galaxy's data manager framework and presented as selectable options in the tool interface. This design means researchers can perform sophisticated NLP tasks—analyzing sentiment in historical documents, extracting named entities from literary corpora, or parsing syntactic structure across multilingual text collections—without writing a single line of code. Introducing those two tools, which normally run in separate environments, allows users to quickly compare which tool is most accurate for their analysis without downloading anything or learning to code.</p>
-    <p>Moreover, integrating Stanford CoreNLP and spaCy into Galaxy connects those tools to the full Galaxy ecosystem.  Researchers can leverage them within fully reproducible, shareable workflows that interoperate with thousands of existing Galaxy tools. <br />A typical workflow might involve (i) bulk upload of images, (ii) optical character recognition (OCR) to plain text, (iii) token‑level processing with spaCy or CoreNLP, (iv) sentiment analysis,  (v) extraction of persons, places, and organisations via named entity recognition (NER), and (vi) visualisation or statistical modelling with Galaxy’s various visualisation tools.<br />Researchers could upload archival material, use Tesseract to extract text from the images, and then clean the text with regular expression tools. The NLP tools allow for extracting locations from administrative files and visualising, for example, how the focus of foreign policy shifted. Instead of doing this manually, Galaxy enables “distant reading” to generate insights for hypothesis testing or large-scale information extraction.<br />Sharing workflows is easy, allowing domain experts to incorporate best practices for users less familiar with the tools. Each workflow can be executed on high‑performance compute clusters, version‑controlled, and exported with a single click—fulfilling FAIR data‑management principles and facilitating transparent peer review.</p>
-    <p>By unifying OCR and advanced NLP within a single, reproducible environment, the new Galaxy tools lower technical barriers, accelerate hypothesis testing, and open up vast corpora of previously inaccessible material to quantitative inquiry. This is a foundational step for the DH SIG, and we welcome collaboration with the Galaxy community to expand the range of NLP capabilities available on the platform.</p>
+    <p>Researchers often require their data to be analysed in the context of external data sources, or simply want to re-analyse public data. To be most effective, scientific analysis platforms need to support data stored outside traditional filesystems. These external resources may be local or remote filesystems, require different network protocols, cloud object stores, repository platforms, or domain-specific scientific databases. Python’s fsspec library addresses this diversity by providing a common filesystem-like interface over many storage and data access systems. The backend does not need to be a real filesystem; it only needs to expose useful filesystem-like operations such as listing resources, opening and reading file-like objects, and creating directories or writing files.</p><p>MaveDB is an open repository for Multiplexed Assays of Variant Effect datasets. It stores data sets containing processed scores, count data, variant tables, metadata, and mapped variant annotations. These data products are naturally useful as files, but MaveDB itself is organized around API concepts such as score set searches, public datasets, and authenticated user-associated datasets. Accessing many files across many score sets can require manual browsing, repeated downloads, uploads into Galaxy, or custom scripts.</p><p>We developed mavedb-fsspec, a fsspec adapter that exposes MaveDB through the mavedb:// protocol. Public score sets are available under mavedb://score-sets/, authenticated user-associated score sets under mavedb://my-score-sets/, and each score set appears as a directory containing files such as scores.csv, counts.csv, variants.csv, metadata.json, and mapped-variants.json when available. This mapping turns MaveDB’s domain model into a stable virtual path hierarchy that can be used by Python tools expecting an fsspec-compatible filesystem.</p><p>We then integrated this adapter into Galaxy using Galaxy’s Files Source framework. Files Sources provide a common way to expose external repositories in Galaxy, supporting repository browsing, user or administrator configuration, credentials, imports into histories, and exports for writable sources. The MaveDB Files Source subclasses Galaxy’s shared fsspec-based implementation and opens the mavedb-fsspec filesystem, making MaveDB score set files available through Galaxy’s repository browser and upload interface.&nbsp;</p><p>This approach improves on manual web or API-based access by allowing users to select one, several, or many MaveDB files directly inside Galaxy. Bulk import can support machine learning training datasets, benchmarking variant effect prediction tools, meta-analysis across assays, batch quality control, teaching datasets, and reproducible workflows that run across many score sets. The MaveDB example shows that even a domain-specific repository that is not inherently filesystem-shaped can become a practical, browseable Galaxy files source. More broadly, this work demonstrates a reusable pattern for connecting scientific repositories to Galaxy: represent the resource with an fsspec filesystem, then expose it through Galaxy’s Files Source layer.</p>
   </div>
 </details>
 <details class="gcc-talk">
@@ -1670,19 +1670,6 @@ Moderator: Yvan Le Bras
     <p>Connecting the fragmented landscape of single-cell tools across these three platforms will make it easier for users to Find and Access the tools they need. Developing consistent workflows and training materials will make analyses more Interoperable and enable users to move more easily between platforms. Alongside efforts to align single-cell metadata across platforms, a BioFAIR Pathfinder project is using exemplar single-cell workflows to demonstrate how Bioconductor tools can be adapted into Galaxy wrappers and nf-core modules. New workflows will demonstrate the improved interoperability between Galaxy and Bioconductor single-cell tools.</p>
     <p>The final component in FAIR is Reusability. Making tools and workflows available isn’t enough to ensure that researchers will actually reuse them, particularly in a field such as single-cell that can be intimidating for life scientists with limited computational experience. Annotated Galaxy workflows coupled with hands-on Galaxy Training Network (GTN) tutorials can introduce these users to single-cell analysis. However, taking the next step and applying these workflows to new research questions can still be challenging. A series of online workshops, targeted at students and Early Career Researchers (ECRs) from institutions with limited bioinformatics support, is guiding users through this transition. Feedback from these workshops will be used to improve the GTN tutorials to better enable future users to adapt and reuse Galaxy workflows for their own purposes.</p>
     <p>Both BioFAIR single-cell projects will unite in September for a Galaxy-Bioconductor Cofest and Bring Your Own Data event at The Open University. Participants of the single-cell workshops will be supported through their first independent analysis and encouraged to make their own contributions to the GTN. Meanwhile, Galaxy and Bioconductor contributors will collaborate to ensure these users have the tools and workflows they need, whether they use Galaxy, Bioconductor, or move between platforms.</p>
-  </div>
-</details>
-<details class="gcc-talk">
-  <summary>
-    <span class="gcc-talk-time">7</span>
-    <span class="gcc-talk-main">
-      <span class="gcc-talk-title">Phylogenomic and Functional Analysis of Ethiopia’s First Marburg Virus Outbreak Highlights a Single Spillover Event and Preserved Vaccine Targets</span>
-      <span class="gcc-talk-authors"><strong>Bashea Chala</strong>, Getu Melak, Gebremicael Gebremedhin, Ali Abraham, Marburg Virus Outbreak Task Force, Tadese Gemechu, Tollera Getachew</span>
-    </span>
-    <span class="gcc-talk-poster">Also Talk</span>
-  </summary>
-  <div class="gcc-talk-abstract">
-    <p>In November 2025, Ethiopia reported its first Marburg virus disease outbreak with a 64% case fatality rate. Genomic epidemiology was applied to characterize transmission dynamics, phylogeny, and mutations relevant to vaccine and monoclonal antibody efficacy. Samples were processed at the Ethiopian Public Health Institute (EPHI). RNA was extracted after ethanol inactivation and screened by PCR for viral hemorrhagic fevers and arboviruses. Marburg virus-positive samples were sequenced using the Illumina Viral Surveillance Panel 2 on the NovaSeq X plus and MiSeq platforms. Analyses were performed on the European Galaxy server, including quality filtering (fastp), host depletion (Bowtie2), reference mapping (BWA-MEM2), variant calling and consensus generation (iVar), and lineage assignment (Nextclade). Phylogenetic and temporal analyses were performed using 103 global genomes in BEAST with a Skygrid model. MVD diagnosis was confirmed by RT-PCR, and positive samples underwent full‑genome sequencing. Seven high‑quality genomes (genome coverage &gt;70%) from the Ethiopian outbreak were successfully sequenced and analyzed alongside 103 global genomes derived from humans and the natural bat host, Rousettus aegyptiacus. The Ethiopian sequences showed &gt;99.9% nucleotide identity, indicating low viral diversity. Maximum-likelihood phylogenetic analysis demonstrated that all sequences clustered within the MARV.A.1 clade. They were closely related to historical isolates from the Netherlands (the Leiden strain) and Uganda. The Ethiopian lineage and its closest human isolate (JN408064) diverged from a common ancestor circulating in 1994, whereas the Ethiopian lineage and its closest bat isolates (JX458853 and JX458858) diverged from a common ancestor circulating around 1989. Genomic and epidemiological evidence supported a single zoonotic spillover followed by localized human-to-human transmission. Seventy lineage-defining substitutions were identified, including 10 non-synonymous mutations primarily in the glycoprotein gene, with strong purifying selection (dN/dS &lt; 1). The outbreak strain showed high similarity to the reference strain, with conserved monoclonal antibody binding sites and no escape mutations. Overall, the outbreak resulted from a single spillover event with limited viral diversification, supporting the continued efficacy of existing vaccines and monoclonal antibody therapies.</p>
   </div>
 </details>
 <details class="gcc-talk">
@@ -2078,12 +2065,39 @@ Moderator: Yvan Le Bras
     <span class="gcc-talk-time">35</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">An Automated Refactoring Framework for the Galaxy Tool Ecosystem</span>
-      <span class="gcc-talk-authors"><strong>Richard C. Burhans</strong></span>
+      <span class="gcc-talk-authors"><strong>Burhans Richard</strong></span>
     </span>
     <span class="gcc-talk-poster gcc-talk-poster-empty">-</span>
   </summary>
   <div class="gcc-talk-abstract">
     <p>The Galaxy bioinformatics platform depends on community-maintained XML tool definitions that follow a schema which has evolved across many Galaxy releases and that interoperate with a Galaxy-specific macro system requiring expansion before validation.  Existing Python tooling, including Planemo's linter and parsers internal to Galaxy itself, treats the schema as a single moving target, lacks a stable library surface for programmatic refactoring, and offers no autoformatter. Schema-conformance work, profile upgrades, ecosystem-wide renames, and consistent formatting therefore remain largely manual.</p><p>We present an open-source, three-tier framework for automated refactoring of Galaxy tool XML. The first tier, galaxy-tool-xml, is a Python foundation library that parses tool XML into a mutable lxml tree faithfully preserving CDATA, comments, and attribute order; performs profile-aware XSD validation by selecting an appropriate vendored per-release schema; handles Galaxy macros with configurable semantics (off, skip, strip, and expand); exposes per-profile typed views generated via xsdata; and suggests near-miss spellings against the schema vocabulary. The second tier, galaxy-tool-xml-codemod (in design), is a codemod framework inspired by LibCST's visitor model but adapted to lxml's mutation semantics. It will enable structural refactors such as attribute renames, profile bumps, and Cheetah-aware reference updates across the tool's command body. The third tier, galaxy-tool-xml-fmt (planned), is a black-like autoformatter that will own all serialization, so that the lower tiers can focus on structural correctness rather than trivia preservation. The foundation library is released under the MIT license.</p><p>To validate the foundation against real-world tools and inform downstream design, we built a corpus quality-assurance system that sweeps public Galaxy tool repositories through the library's API, checks invariants (idempotent serialization, tree immutability under typed-view access, and agreement between strict and lenient parse modes), retains violating tools as permanent regression fixtures, and produces statistical artifacts. An initial sweep of 21 community repositories totalling 4,190 tools finds that 95.8% validate against the latest schema, 78.3% use Galaxy macros, and 28% encode their profile as a macro placeholder (e.g., @PROFILE@), so accurate profile counts require expanding macros first. Integration with the Galaxy ToolShed for cross-source deduplicated statistics is in progress.</p><p>Although the first version targets tool XML specifically, the three-tier architecture generalizes to other Galaxy textual artifacts such as workflow definitions, embedded Cheetah templates, and Galaxy's own Python codebase. The same primitives also support automated quality gating for new tool submissions and exposure as discrete operations, including via the Model Context Protocol, for AI-assisted authoring agents. By shipping the foundation tier first with strong invariants and a profile-aware contract, validating it against the existing corpus, and keeping the architecture open to broader scope, we aim to make Galaxy tool maintenance as ergonomic as modern Python tooling and to lower the barrier for community contributions to the Galaxy ecosystem.</p>
+  </div>
+</details>
+<details class="gcc-talk">
+  <summary>
+    <span class="gcc-talk-time">36</span>
+    <span class="gcc-talk-main">
+      <span class="gcc-talk-title">Integrating Off-the-shelf Desktop Applications into Galaxy</span>
+      <span class="gcc-talk-authors"><strong>Duggan John</strong>, Watson Gregory, Ayres Andrew, Yakubov Sergey</span>
+    </span>
+    <span class="gcc-talk-poster gcc-talk-poster-empty">-</span>
+  </summary>
+  <div class="gcc-talk-abstract">
+    <p>At Oak Ridge National Laboratory (ORNL), we operate the Neutrons Data Interpretation
+    Platform (NDIP). This is an instance of Galaxy that manages software tools and workflows used by scientists performing neutron scattering experiments at the Spallation Neutron Source (SNS) and High Flux Isotope Reactor (HFIR) facilities. The software needed to analyze the data produced at these facilities is a combination of both in-house and oL-the- shelf software. Making oL-the-shelf software available to our users through Galaxy has proven to be a significant barrier to adoption of NDIP. This software is typically specific to neutron scattering techniques, such as single-crystal diLraction versus powder diLraction, and is sometimes specific to a single instrument at the SNS or HFIR. Additionally, the software can be packaged as desktop applications, which can be diLicult to integrate into Galaxy as interactive tools. Due to the large volume and high scientific complexity of desktop applications we need to support, it is impractical for us to implement the functionality they provide in software tools built natively for Galaxy. Instead, we require an approach for integrating this software as is in an eLicient manner, while still presenting a comparable user experience to that of the original application.</p><p>Our approach bundles the target desktop application, tigerVNC, openbox, and noVNC together into Docker images that are run as Docker containers through Galaxy’s interactive tool functionality. tigerVNC allows us to connect the desktop application to a remote desktop server that supports scaling to the window size of the user’s browser. Openbox provides the ability for users to eLectively manage desktop windows, which is necessary for multi-window applications. noVNC provides a browser-based client capable of connecting to the tigerVNC server that can also be easily exposed to the user through the Galaxy interactive tool proxy. We have additionally created a template for building Docker images with these technologies that has significantly reduced the turnaround time for releasing new Galaxy tools requiring this functionality.</p><p>We have successfully applied this approach to a suite of software tools in use at the TOPAZ instrument at the SNS. Notably, this suite includes Jana2020, a Windows-only desktop application developed outside of ORNL for solving crystal structures. Through NDIP, we can present not only an equivalent user experience, but an enhanced one for scientists as we remove the need to maintain access to a Windows computer to leverage its capabilities and augment its capabilities through Galaxy.</p><p>In this talk, we detail our approach for integrating interactive desktop applications into NDIP. We additionally present examples of how we use it in tools to enable eLective, eLicient science to be performed at the SNS and HFIR.</p>
+  </div>
+</details>
+<details class="gcc-talk">
+  <summary>
+    <span class="gcc-talk-time">37</span>
+    <span class="gcc-talk-main">
+      <span class="gcc-talk-title">Vizly: a reusable visualisation library for proteomics and beyond: towards Galaxy integration</span>
+      <span class="gcc-talk-authors"><strong>Tichshenko Natalia</strong>, Diaz Adriàn, Martens Lennart, Vranken Wim, Ramasamy Pathmanaban</span>
+    </span>
+    <span class="gcc-talk-poster gcc-talk-poster-empty">-</span>
+  </summary>
+  <div class="gcc-talk-abstract">
+    <p>Proteins perform diverse cellular functions that depend not only on their sequence and structure, but also on dynamic biophysical properties and post-translational modifications (PTMs). Recent advances in proteomics technologies have generated an unprecedented volume of data related to protein identification, characterization, and function. Communicating this complexity to research communities requires visualization tools that are both scientifically accurate and accessible.</p><p>Effective data visualisation is essential for the interpretation of complex biological datasets, yet many tools implement their own visualisation logic independently, leading to duplicated effort and inconsistent user experiences. Here we present a modular, open-source visualisation library designed to address this gap, initially developed to serve proteomics applications but built from the ground up to be reusable across different scientific domains.</p><p>The library provides a diverse set of visualisation components including network representations, positional annotations, and peptide mapping, and is already being used across three tools developed within our group. Scop3P (published) and Scop3PTM (submitting in progress), leverage the library to visualise post-translational modification data on protein structures and sequences. Protean, currently in development, further demonstrates the library's flexibility by applying it to a distinct but related use case. The consistent reuse of the library across these tools validates its design as a shared foundation rather than a tool-specific solution.</p><p>Beyond our own applications, we believe this library has the potential to benefit a wider audience. Researchers and developers building data-rich applications, whether in proteomics or other omics domains, could adopt the library directly rather than implementing visualisation components from scratch. This is particularly relevant in the context of Galaxy, where a growing number of tools could benefit from standardised, high-quality visualisation capabilities.</p><p>This work presents the library's architecture, its current visualisation components, and the use cases it supports. Crucially, we are at an early stage of considering Galaxy integration, and this conference represents an opportunity to engage with the community, gather feedback, and better understand where such a library could be most valuable within the Galaxy ecosystem.</p>
   </div>
 </details>
 </div>

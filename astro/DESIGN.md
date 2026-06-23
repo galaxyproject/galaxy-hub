@@ -1,5 +1,12 @@
 # Design System: Galaxy Community Hub
 
+> **Base design system:** the Galaxy brand palette, color roles, and typography
+> now live in the canonical base design system at
+> [galaxyproject/galaxy-brand-tokens `DESIGN.md`](https://github.com/galaxyproject/galaxy-brand-tokens/blob/main/DESIGN.md),
+> shipped as `@galaxyproject/brand-tokens`. This document covers only what's
+> specific to the Hub (component stylings, layout, animation, the OKLch UI-primitive
+> layer, SIG/WG category colors, responsive behavior).
+
 ## 1. Visual Theme & Atmosphere
 
 The Galaxy Community Hub is the public face of a research platform used by hundreds of thousands of scientists worldwide. The design communicates scientific credibility, openness, and accessibility -- professional without being cold, structured without being sterile. The overall impression is one of depth and contrast: dark mastheads and sidebars (`#2c3143`) frame light content areas (`#edf4fa`) where white cards surface information cleanly. A signature gold accent (`#ffd700`) ties the visual identity together, appearing sparingly on CTAs, active states, and border accents.
@@ -31,83 +38,10 @@ The technical substrate is Astro with Tailwind CSS 4, Vue 3 components hydrated 
 
 The Hub runs two parallel color systems. **Don't mix them.**
 
-- **Galaxy brand tokens** (`galaxy-*`, `light-bg`, `medium-bg`, etc.) are for brand-facing surfaces: hero sections, page headers, cards, prose content, navigation. This is the palette you reach for when building Galaxy pages.
+- **Galaxy brand tokens** (`galaxy-*`, `light-bg`, `medium-bg`, etc.) are for brand-facing surfaces: hero sections, page headers, cards, prose content, navigation. The palette contract is defined in the [base design system](https://github.com/galaxyproject/galaxy-brand-tokens/blob/main/DESIGN.md).
 - **OKLch semantic tokens** (`primary`, `secondary`, `muted`, `accent`, `destructive`, `border`, etc.) power the generic UI component layer (Reka UI / shadcn-style components -- Input, Select, Sheet, Accordion, Tabs). These resolve to near-achromatic values, *not* Galaxy blues. `bg-primary` is near-black; it is **not** `galaxy-primary`.
 
 When composing a new Galaxy page, use brand tokens. When dropping in a form input or a modal, the generic components already use the OKLch tokens -- leave them alone.
-
-> **Palette decision -- Galaxy gold**
->
-> `#ffd700` is the Galaxy accent gold on the Hub. It is exposed as `galaxy-gold` and `gold-500`, and it is the gold to use for CTAs, active states, accent bars, highlighted hero text, and other high-attention moments.
->
-> `#d19e00` (`galaxy-gold-dark` / `gold-600`) is the darker hover/shadow companion for gold surfaces.
->
-> `#d0bd2a` (`hokey-pokey-500`) remains available as a **support token** for cross-property compatibility. It is not the primary Galaxy accent and should not replace `galaxy-gold` in new Hub-facing work.
->
-> Practical rule: if the UI element is meant to read as the site's signature accent, use `#ffd700`. If a broader filled surface needs a quieter yellow-olive tone, `hokey-pokey-*` can be used deliberately, but never as a second "primary gold" on the same surface.
-
-### Galaxy Brand Tokens
-
-| Token | Hex | Tailwind | IWC alias | Usage |
-|-------|-----|----------|-----------|-------|
-| Galaxy Dark | `#2c3143` | `galaxy-dark` | `ebony-clay` | Sidebar, headers, dark backgrounds, heading text |
-| Galaxy Primary | `#25537b` | `galaxy-primary` | `bay-of-many` | Links, interactive elements, table headers |
-| Galaxy Gold | `#ffd700` | `galaxy-gold` | `gold-500` | Accents, active states, primary CTAs, border highlights |
-| Galaxy Gold Dark | `#d19e00` | `galaxy-gold-dark` | `gold-600` | Hover state on gold-background buttons |
-| Accent Hover | `#ffe60d` | `accent-hover` | `gold-400` | Hover state on gold-colored text links |
-| Chicago | `#58585a` | `galaxy-grey` | `chicago` | Body text, muted content |
-| Hokey-Pokey | `#d0bd2a` | (not yet) | `hokey-pokey-500` | Support gold for cross-property compatibility; not the primary accent |
-
-### Ecosystem Palette Alignment (Cross-Property)
-
-The Hub ships the same **full 50-950 Tailwind-standard scales** IWC uses, under the same Pantone-style names. Both sites can reference either the semantic aliases (`galaxy-primary`, `galaxy-dark`, `galaxy-grey`, `galaxy-gold`) or the Pantone scales (`bay-of-many-*`, `ebony-clay-*`, `chicago-*`, `gold-*`, `hokey-pokey-*`) interchangeably. Code written for IWC drops into the Hub without modification.
-
-When to reach for which:
-
-- **Semantic aliases** -- when the usage maps clearly to brand roles: "this is the primary link color", "this is the page dark", "this is the gold accent". Most hand-styled Galaxy pages stay here.
-- **Pantone scales** -- when you need a shade between the base and white/black: subtle borders (`border-ebony-clay-100`), tinted section backgrounds (`bg-bay-of-many-50`), hover states (`hover:bg-ebony-clay-50`), muted text (`text-chicago-500`). These unlock the migration away from generic Tailwind grays.
-
-Replacement patterns for generic grays (now directly supported):
-
-- `text-gray-600` → `text-chicago-600`
-- `text-gray-700` → `text-chicago-700`
-- `text-gray-500` → `text-chicago-500`
-- `border-gray-200` → `border-ebony-clay-100`
-- `bg-gray-50` / `bg-gray-100` → `bg-ebony-clay-50` or `bg-bay-of-many-50` (depending on tint intent)
-- `hover:bg-gray-100` → `hover:bg-ebony-clay-50`
-
-The palette contract is fixed: `galaxy-gold` / `gold-500` is the primary accent; `hokey-pokey-*` is optional support color only.
-
-### Background Surfaces
-
-| Token | Hex | Tailwind | Usage |
-|-------|-----|----------|-------|
-| Dark BG | `#2c3143` | `dark-bg` | Sidebar, hero sections, dark panels |
-| Medium BG | `#3c435c` | `medium-bg` | Sidebar borders, search inputs, dark-section alternation |
-| Deep BG | `#1a1f2e` | (inline) | Homepage footer -- deepest dark tone; not yet a named token |
-| Light BG | `#edf4fa` | `light-bg` | Page backgrounds (subtle blue-gray tint) |
-| Card BG | `#5d678d` | `card-bg` | Muted card surfaces on dark backgrounds |
-
-### The Gold Accent
-
-Gold (`#ffd700`) is Galaxy's visual signature. Use it for:
-
-- **Primary CTAs**: Gold buttons with dark text
-- **Active states**: Tab underlines, selected filter items, current page indicators
-- **Left border accents**: Page header title bars, blockquotes, featured content
-- **Title underlines**: Section headers where a left bar feels too heavy (`border-b-2 border-galaxy-gold`)
-- **Hero text**: Key headlines on dark backgrounds
-- **Hover reveals**: Animated gold bars on interactive items, link hover states
-- **Stats/numbers**: Gold numerals in hero stats for emphasis
-
-**Rule**: Gold should feel special. If everything is gold, nothing is gold.
-
-**When NOT to use gold borders**: On cards sitting on dark backgrounds (hero sections), the white card already provides contrast -- adding a gold border is redundant.
-
-**Gold palette roles**:
-- Gold-background buttons darken on hover: `hover:bg-galaxy-gold-dark` (`#d19e00`)
-- Gold-colored text links brighten on hover: `hover:text-accent-hover` (`#ffe60d`)
-- Softer olive-gold alternative for cross-property compatibility: `hokey-pokey-500` (`#d0bd2a`)
 
 ### OKLch Semantic Tokens (Transitional)
 
@@ -144,11 +78,7 @@ Special Interest Groups and Working Groups use dedicated category colors. Applie
 
 ## 3. Typography Rules
 
-### Font Family
-
-- **Primary**: Atkinson Hyperlegible (400, 700)
-- **Stack**: `'Atkinson Hyperlegible', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif`
-- **Why**: Designed by the Braille Institute specifically for character distinction and readability. Characters like `Il1` and `O0` are visually distinct, benefiting researchers scanning data-heavy content.
+Atkinson Hyperlegible is the canonical Galaxy brand typeface. The stack and accessibility rationale are detailed in the [base design system](https://github.com/galaxyproject/galaxy-brand-tokens/blob/main/DESIGN.md#5-typography).
 
 ### Hierarchy
 
@@ -159,6 +89,7 @@ Special Interest Groups and Working Groups use dedicated category colors. Applie
 | Card Title (H3) | `text-xl font-semibold text-galaxy-dark` | Card headers, subsections |
 | Subheading (H4) | `text-lg font-semibold text-galaxy-dark` | Minor sections |
 | Body | `text-base text-galaxy-grey` | Paragraph text |
+| Lead / intro | `text-lg text-galaxy-grey` | Intro paragraph under a title (replaces Bootstrap `lead`) |
 | Muted | `text-sm text-galaxy-grey/70` | Metadata, help text, timestamps |
 | Links | `text-galaxy-primary hover:text-galaxy-gold` | All interactive links |
 
@@ -244,6 +175,59 @@ When placing prose inside cards, trim default margins:
   <!-- markdown content -->
 </div>
 ```
+
+### Tile Grid / Content Cards
+
+The `gx-tile` system is the content-authored counterpart to the card pattern above -- reusable CSS classes (defined in `global.css`) for cards written in Markdown/MDX content, used across the conference pages. Reach for these when authoring content; use the Tailwind utilities above when building Astro/Vue components.
+
+> **Why `tile`, not `card`:** the content preprocessor marks any class attribute containing the token `card` (or `alert`, `lead`, `table`) as legacy `.bs-compat`. The `gx-` names sidestep that, so new content stays out of the compat layer.
+
+```html
+<div class="gx-tile-grid">                              <!-- responsive grid: auto-fit, minmax(260px, 1fr) -->
+  <a class="gx-tile gx-tile--link" href="/somewhere">   <!-- whole-tile link + gold hover bar -->
+    <img class="gx-tile__media" src="..." alt="..." />  <!-- 160px cover image -->
+    <div class="gx-tile__title">Title</div>             <!-- galaxy-dark, semibold -->
+    <p class="gx-tile__teaser">A one- or two-line hook.</p>
+    <span class="gx-tile__more">Learn more →</span>     <!-- galaxy-primary, gold on hover -->
+  </a>
+</div>
+```
+
+Variants and elements:
+
+- `gx-tile` -- base tile: white, `border-galaxy-primary/10`, `rounded-lg`, `shadow-sm`.
+- `gx-tile--link` -- the whole tile is an `<a>`; adds the signature gold hover bar (left edge, `scaleX`) and lifts to `shadow-md`. Keep contents plain (no nested links/markdown).
+- `gx-tile--feature` -- galaxy-primary left border for emphasized tiles.
+- `gx-tile__media` (160px cover image), `gx-tile__title`, `gx-tile__body` (richer markdown bodies -- separate inner content with blank lines so Markdown renders), `gx-tile__teaser` (short plain text), `gx-tile__credit` (small chicago-500 caption, e.g. photo credits), `gx-tile__more` (link affordance).
+
+### Callout / Note
+
+Brand-tinted note box for asides and "good to know" content. Replaces Bootstrap `alert-*`. Intentionally blue (not gold), so gold stays reserved for high-impact moments.
+
+```html
+<div class="callout">
+  Training on June 25-26 is separate from the main conference.
+</div>
+```
+
+`.callout`: `bg-bay-of-many-100`, `border-l-4 border-l-galaxy-primary`, rounded right corners, galaxy-dark text.
+
+### Profile Row
+
+Photo + bio row for people (fellowship awardees, organizers, etc.). Photo left / bio right on desktop; stacks (photo on top) below 768px.
+
+```html
+<div class="profile-row">
+  <img class="profile-row__photo" src="..." alt="Jane Doe" />
+  <div class="profile-row__bio">
+
+Jane Doe is ... (markdown bio)
+
+  </div>
+</div>
+```
+
+`.profile-row`: flex row, 200px photo column with a `rounded-lg` photo.
 
 ### Buttons
 
@@ -627,19 +611,7 @@ The 24px grid pattern creates a "workflow editor mesh" effect that adds scientif
 
 ## 9. Agent Prompt Guide
 
-### Quick Color Reference
-
-| Token | Hex | When to Use |
-|-------|-----|-------------|
-| `galaxy-dark` | `#2c3143` | Sidebar bg, header bg, heading text |
-| `galaxy-primary` | `#25537b` | Links, table headers, interactive elements |
-| `galaxy-gold` | `#ffd700` | CTAs, active states, accent borders, hero highlights |
-| `galaxy-gold-dark` | `#d19e00` | Hover on gold-bg buttons |
-| `accent-hover` | `#ffe60d` | Hover on gold-colored text links |
-| `galaxy-grey` | `#58585a` | Body text, muted content |
-| `light-bg` | `#edf4fa` | Page background |
-| `medium-bg` | `#3c435c` | Sidebar borders, dark-section alternation |
-| White | `#ffffff` | Content cards, reading surfaces |
+Refer to the [base design system Quick Color Reference](https://github.com/galaxyproject/galaxy-brand-tokens/blob/main/DESIGN.md#6-quick-color-reference) for the primary brand palette values.
 
 ### Example Component Prompts
 
@@ -668,14 +640,5 @@ The 24px grid pattern creates a "workflow editor mesh" effect that adds scientif
 
 ## Sister Documents
 
-> **Note:** this Sister Documents section is a transitional construct. The long-term direction is a single canonical Galaxy design system (a base `DESIGN.md` owned by something like `galaxyproject/design-system` or `galaxyproject/brand`) that the Hub, IWC, GTN, and future properties all build on top of. Each property would then keep only a short property-specific overrides doc covering what's unique to it (sidebar layout and bs-compat for the Hub, workflow-card patterns for IWC, etc.). When that canonical lands, this section collapses to a single "see the base Galaxy design system" link at the top of the file.
-
-- **IWC DESIGN.md**: [galaxyproject/iwc website/DESIGN.md](https://github.com/galaxyproject/iwc/blob/main/website/DESIGN.md) -- the closest sibling site. Concise, prescriptive, uses full 50-950 color scales under Pantone-style names.
-- **IWC component reference** (read these when building similar patterns here, paths relative to `website/` in the IWC repo):
-  - [`src/components/WorkflowCard.vue`](https://github.com/galaxyproject/iwc/blob/main/website/src/components/WorkflowCard.vue) -- card with hover accent bar
-  - [`src/components/WorkflowListItem.vue`](https://github.com/galaxyproject/iwc/blob/main/website/src/components/WorkflowListItem.vue) -- list row with odd-row tinting
-  - [`src/components/FilterSidebar.vue`](https://github.com/galaxyproject/iwc/blob/main/website/src/components/FilterSidebar.vue) -- desktop filter nav with count badges
-  - [`src/components/MobileFilterSheet.vue`](https://github.com/galaxyproject/iwc/blob/main/website/src/components/MobileFilterSheet.vue) -- bottom-sheet mobile dialog
-  - [`src/components/ViewToggle.vue`](https://github.com/galaxyproject/iwc/blob/main/website/src/components/ViewToggle.vue) -- sliding-pill toggle
-  - [`src/components/WorkflowGrid.vue`](https://github.com/galaxyproject/iwc/blob/main/website/src/components/WorkflowGrid.vue) -- staggered entrance animations
-  - [`src/components/ui/button-variants.ts`](https://github.com/galaxyproject/iwc/blob/main/website/src/components/ui/button-variants.ts), [`badge-variants.ts`](https://github.com/galaxyproject/iwc/blob/main/website/src/components/ui/badge-variants.ts) -- CVA definitions using brand scales
+- **IWC DESIGN.md**: [galaxyproject/iwc website/DESIGN.md](https://github.com/galaxyproject/iwc/blob/main/website/DESIGN.md) -- the closest sibling site.
+- **Base design system**: [galaxyproject/galaxy-brand-tokens DESIGN.md](https://github.com/galaxyproject/galaxy-brand-tokens/blob/main/DESIGN.md) -- the canonical base Galaxy design system.

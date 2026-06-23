@@ -4,8 +4,6 @@ title: Galaxy GraphClust
 
 <slot name="/bare/eu/usegalaxy/notices" />
 
-<br/>
-
 Welcome to **GraphClust2** Galaxy server for clustering of RNAs according to sequence and secondary structures similarities.
 
 GraphClust2 is a workflow for scalable clustering of RNAs based on sequence and secondary structures feature. GraphClust2 is implemented within the Galaxy framework and consists a set of integrated Galaxy tools and flavors of the linear-time clustering workflow.
@@ -22,12 +20,12 @@ GraphClust2 is a workflow for scalable clustering of RNAs based on sequence and 
 
 ## Interactive tours
 
-**GraphClust2 rapid start**
+### GraphClust2 rapid start
 
 Interactive tours are available for Galaxy and GraphClust2. To run the tours please on top panel go to **Help→Interactive Tours** and click on one of the tours prefixed **GraphClust workflow** (direct link to the [basic tour](https://graphclust.usegalaxy.eu/tours/graphclust_tutorial)). Please use your personal user-password for logging in.
 You can check the other tours for a more general introduction to the Galaxy interface.
 
-**Galaxy interface**
+### Galaxy interface
 
 Are you new to Galaxy, or returning after a long time, and looking for help to get started? Take [a guided tour](https://graphclust.usegalaxy.eu/tours/core.galaxy_ui) through Galaxy's user interface.
 

@@ -69,12 +69,12 @@ If you are searching for accommodations independently, you may wish to look near
 
 # Local Attractions
 
-<div class="card-deck lead">
+<div class="gx-tile-grid">
 
-  <div class="card" style="flex: 1 1 340px;">
-    <img src="/images/events/gcc2026/clermont_ferrand.jpg" class="card-img-top" alt="Clermont-Ferrand, France" />
-    <div class="card-header">Historic City Center</div>
-    <div style="font-size: 0.9rem;">
+  <div class="gx-tile">
+    <img src="/images/events/gcc2026/clermont_ferrand.jpg" class="gx-tile__media" alt="Clermont-Ferrand, France" />
+    <div class="gx-tile__title">Historic City Center</div>
+    <div class="gx-tile__body">
 
 Clermont-Ferrand blends **medieval charm, volcanic stone architecture, and lush green spaces**. The city's skyline is dominated by the **Cathedral of Our Lady of the Assumption**, an extraordinary Gothic masterpiece built entirely from dark volcanic lava, its lace-like spires rising above the rooftops. Not far away, the **Romanesque Basilica of Notre-Dame du Port** showcases warm blond arkose stone, intricate carved capitals, and its famous Black Madonna.
 
@@ -82,14 +82,14 @@ The city is home to two medieval hearts — **Clermont and Montferrand** — eac
 
 For a breath of fresh air, the **Lecoq Garden** provides a serene 19th-century oasis in the city center, while the nearby **Henri Lecoq Museum** houses vast natural science collections. For sweeping views of the city and the surrounding volcanoes, the hilltop **Montjuzet Park** offers cypress-lined paths, wide lawns, and a perfect picnic spot overlooking the **Auvergne landscape**.
 
-<small>[Photo Flickr](https://flic.kr/p/2o9YVCc) by [Bérénice Batut](https://www.flickr.com/photos/134305289@N03) (CC BY SA 2.0)</small>
+<small class="gx-tile__credit">[Photo Flickr](https://flic.kr/p/2o9YVCc) by [Bérénice Batut](https://www.flickr.com/photos/134305289@N03) (CC BY SA 2.0)</small>
     </div>
   </div>
 
-  <div class="card" style="flex: 1 1 340px;">
-    <img src="/images/events/gcc2026/michelin.jpg" class="card-img-top" alt="Clermont-Ferrand, France" />
-    <div class="card-header">Aventure Michelin</div>
-    <div style="font-size: 0.9rem;">
+  <div class="gx-tile">
+    <img src="/images/events/gcc2026/michelin.jpg" class="gx-tile__media" alt="Clermont-Ferrand, France" />
+    <div class="gx-tile__title">Aventure Michelin</div>
+    <div class="gx-tile__body">
 
 Founded in **1889** in Clermont-Ferrand by Édouard and André Michelin, the company revolutionized mobility with inventions like the **detachable bicycle tire** and the **radial tire**, reshaping the automotive industry.
 
@@ -97,14 +97,14 @@ At **[L'Aventure Michelin](https://laventure.michelin.com/en/)**, discover the b
 
 A must-visit for history buffs, car enthusiasts, and anyone curious about innovation, **L'Aventure Michelin** brings to life the story of a brand that keeps the world moving forward.
 
-<small>[Photo Wikimedia](https://commons.wikimedia.org/wiki/File:Fourgonnette_Citro%C3%ABn_type_H_Michelin.jpg) (CC0 1.0)</small>
+<small class="gx-tile__credit">[Photo Wikimedia](https://commons.wikimedia.org/wiki/File:Fourgonnette_Citro%C3%ABn_type_H_Michelin.jpg) (CC0 1.0)</small>
     </div>
   </div>
 
-  <div class="card" style="flex: 1 1 340px;">
-    <img src="/images/events/gcc2026/pariou.jpg" class="card-img-top" alt="Clermont-Ferrand, France" />
-    <div class="card-header">The Puy de Dôme</div>
-    <div style="font-size: 0.9rem;">
+  <div class="gx-tile">
+    <img src="/images/events/gcc2026/pariou.jpg" class="gx-tile__media" alt="Clermont-Ferrand, France" />
+    <div class="gx-tile__title">The Puy de Dôme</div>
+    <div class="gx-tile__body">
 
 The iconic **Puy de Dôme** volcano dominates the skyline **just 15 km west of the city** and is an absolute must-see. At **1,465 meters**, this dormant volcano offers **spectacular panoramic views** of the entire **Chaîne des Puys volcanic range** and the surrounding countryside. You can reach the summit effortlessly aboard the **Panoramique des Dômes train** — a scenic **15-minute ride** — or hike up one of several trails.
 
@@ -112,14 +112,14 @@ The Puy de Dôme is a **UNESCO World Heritage site** and home to ancient **Roman
 
 To reach the Puy de Dôme it's around 25min from the city center or there's shuttle bus called ["La navette du Panoramique des Dômes"](https://www.panoramiquedesdomes.fr/comment-venir/) (free on weekends) for a convenient and eco-friendly option.
 
-<small>[Photo Flickr](https://flic.kr/p/KkbRKp) by [Bérénice Batut](https://www.flickr.com/photos/134305289@N03) (CC BY SA 2.0)</small>
+<small class="gx-tile__credit">[Photo Flickr](https://flic.kr/p/KkbRKp) by [Bérénice Batut](https://www.flickr.com/photos/134305289@N03) (CC BY SA 2.0)</small>
     </div>
   </div>
 
-  <div class="card" style="flex: 1 1 340px;">
-    <img src="/images/events/gcc2026/lemptegy.jpg" class="card-img-top" alt="Clermont-Ferrand, France" />
-    <div class="card-header">Vulcania & Volcan de Lemptegy</div>
-    <div style="font-size: 0.9rem;">
+  <div class="gx-tile">
+    <img src="/images/events/gcc2026/lemptegy.jpg" class="gx-tile__media" alt="Clermont-Ferrand, France" />
+    <div class="gx-tile__title">Vulcania & Volcan de Lemptegy</div>
+    <div class="gx-tile__body">
 
 Just **15 kilometers from Clermont-Ferrand**, the Auvergne region unveils two of its most captivating volcanic treasures, offering a blend of education, adventure, and natural wonder.
 
@@ -129,7 +129,7 @@ For those seeking a more **hands-on encounter** with Auvergne's volcanic legacy,
 
 Together, these two sites provide a **fascinating exploration** of the Auvergne's volcanic landscape, where the Earth's power and beauty are on full display.
 
-<small>[Photo Flickr](https://flic.kr/p/2oXM342) by [Bérénice Batut](https://www.flickr.com/photos/134305289@N03) (CC BY SA 2.0)</small>
+<small class="gx-tile__credit">[Photo Flickr](https://flic.kr/p/2oXM342) by [Bérénice Batut](https://www.flickr.com/photos/134305289@N03) (CC BY SA 2.0)</small>
     </div>
   </div>
 </div>
@@ -148,34 +148,34 @@ Must-try specialties include:
 
 No visit is complete without sampling **Puy lentils**, a prized local delicacy renowned for their **nutty flavor and firm texture**. Whether you're indulging in a rustic meal or exploring gourmet creations, Auvergne's cuisine promises an unforgettable taste of its volcanic terroir.
 
-<div class="card-deck lead">
-  <div class="card" style="flex: 1 1 200px;">
-    <img src="/images/events/gcc2026/saint_nectaire.jpg" class="card-img-top" alt="Saint-Nectaire" />
-    <div style="font-size: 0.9rem;">
+<div class="gx-tile-grid">
+  <div class="gx-tile">
+    <img src="/images/events/gcc2026/saint_nectaire.jpg" class="gx-tile__media" alt="Saint-Nectaire" />
+    <div class="gx-tile__body">
     
 Saint-Nectaire
 
-<small>[Photo Flickr](https://flic.kr/p/KdVUDV) by [Julien Four](https://www.flickr.com/photos/julienfour/)</small>
+<small class="gx-tile__credit">[Photo Flickr](https://flic.kr/p/KdVUDV) by [Julien Four](https://www.flickr.com/photos/julienfour/)</small>
     </div>
   </div>
   
-  <div class="card" style="flex: 1 1 200px;">
-    <img src="/images/events/gcc2026/aligot.jpg" class="card-img-top" alt="Saint-Nectaire" />
-    <div style="font-size: 0.9rem;">
+  <div class="gx-tile">
+    <img src="/images/events/gcc2026/aligot.jpg" class="gx-tile__media" alt="Saint-Nectaire" />
+    <div class="gx-tile__body">
 
 Aligot
 
-<small>Photo by Bérénice Batut</small>
+<small class="gx-tile__credit">Photo by Bérénice Batut</small>
     </div>
   </div>
   
-  <div class="card" style="flex: 1 1 200px;">
-    <img src="/images/events/gcc2026/lentilles.jpg" class="card-img-top" alt="Saint-Nectaire" />
-    <div style="font-size: 0.9rem;">
+  <div class="gx-tile">
+    <img src="/images/events/gcc2026/lentilles.jpg" class="gx-tile__media" alt="Saint-Nectaire" />
+    <div class="gx-tile__body">
 
 Lentilles verte du Puy
 
-<small>[Photo Wikimedia](https://commons.wikimedia.org/wiki/File:Lentille_verte_du_Puy.jpg)</small>
+<small class="gx-tile__credit">[Photo Wikimedia](https://commons.wikimedia.org/wiki/File:Lentille_verte_du_Puy.jpg)</small>
     </div>
   </div>
 </div>

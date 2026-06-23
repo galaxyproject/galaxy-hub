@@ -904,6 +904,11 @@ diegodepanis:
     github: false
     joined: 2026-01
 
+eamonnbell-dur:
+    gtn-halloffame: "no"
+    name: Eamonn Bell
+    joined: 2026-05
+
 emilylescak:
     gtn-halloffame: "no"
     name: Emily Lescak
@@ -1368,6 +1373,12 @@ ricardogonzalosanz:
     name: Ricardo Gonzalo Sanz
     github: false
     joined: 2026-01
+
+richard-burhans:
+    gtn-halloffame: "no"
+    name: Richard Burhans
+    orcid: 0009-0006-5949-0958
+    joined: 2026-06
 
 rodrigoortegapolo:
     gtn-halloffame: "no"
@@ -1944,15 +1955,15 @@ hexylena:
     joined: 2017-09
     elixir_node: nl
     affiliations:
-      - erasmusmc
-      - gallantries
-      - by-covid
       - elixir-europe
-      - elixir-converge
     former_affiliations:
       - deNBI
       - avans-atgm
       - uni-freiburg
+      - erasmusmc
+      - gallantries
+      - by-covid
+      - elixir-converge
     contact_for_training: false
     location:
       country: NL
@@ -3512,8 +3523,15 @@ reid-wagner:
     email: wagnerr@umn.edu
     joined: 2024-11
 
-reytakop:
-    name: Reyhaneh Tavakoli
+reyhaneh-tavakoli:
+    name: Reyhaneh Tavakoli-Koopaei
+    email: rey.ta.kop.biochem@gmail.com
+    affiliations:
+      - uni-freiburg
+    orcid: 0000-0002-8964-3023
+    linkedin: reyhaneh-tavakoli-koopaei
+    matrix: 'reytakop:matrix.org'
+    
     joined: 2025-05
 
 rikeshi:
@@ -4418,3 +4436,11 @@ kevinrue:
         country: UK
         lat: 51.764301
         lon: -1.2178922
+
+dSizovs:
+    name: Dmitrijs Sizovs
+    email: dmitrijs.sizovs@gmail.com
+    matrix: 'dmitrijs.sizovs:matrix.org'
+    joined: 2026-06
+    bio: Master's student at the University of Freiburg
+    linkedin: dmitrijssizovs

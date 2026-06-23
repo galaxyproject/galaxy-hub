@@ -13,7 +13,6 @@ The imaging flavor of Galaxy offers a filtered set of tools that you can assembl
 - [Get started](#get-started)
 - [Training](#training)
 - [Partners](#partners)
-- [Our Data Policy](#our-data-policy)
 
 # Get started
 
@@ -21,23 +20,27 @@ Are you new to Galaxy, or returning after a long time, and looking for help to g
 
 # Training
 
-[Several image analysis tutorials](https://training.galaxyproject.org/training-material/topics/imaging/) avalable in the [**Galaxy Training Network (GTN)**](https://training.galaxyproject.org):
+[Several image analysis tutorials](https://training.galaxyproject.org/training-material/topics/imaging/) available in the [**Galaxy Training Network (GTN)**](https://training.galaxyproject.org):
 
-<iframe src="https://training.galaxyproject.org/training-material/tags/imaging/embed.html" height="600px" width="100%" class="gtn-embed" frameborder="0"></iframe>
+<iframe 
+  src="https://training.galaxyproject.org/training-material/tags/imaging/embed.html" 
+  height="600px" 
+  width="100%" 
+  class="gtn-embed" 
+  frameborder="0">
+</iframe>
 
 To know more about the GTN, check the video below!
 
-<br />
-
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/lDqWxzWNk1k"
-title="YouTube video player"
-frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen>
-</iframe>
-
-<br />
+<center>
+  <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/lDqWxzWNk1k"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
+</center>
 
 # Partners
 

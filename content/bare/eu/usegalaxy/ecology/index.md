@@ -50,7 +50,6 @@ title: Galaxy Ecology
 # Welcome to **Galaxy for Ecology** -- a web platform to get, process, analyze and visualize biodiversity data
 
 <center><img src="/assets/media/usegalaxy/ecology/Galaxy-E-concarneau-team-2018-logo.gif" height="225px" alt="PNDB french Biodiversity e-infrastructure"/></center>
-<br /><br />
 
 <div class="usegalaxy-feature-grid" style="display:flex; gap:1rem; flex-wrap:wrap; justify-content:center; align-items:stretch;">
 
@@ -103,8 +102,6 @@ title: Galaxy Ecology
 
 </div>
 
-
-<br /><br />
 <iframe id="displayhere" frameborder="0" style="display:none;" width="100%" height="700"></iframe>
 
 # Projects
@@ -132,6 +129,7 @@ title: Galaxy Ecology
       </div>
     </div>
   </div>
+
   <!-- CARD 2 -->
   <div style="flex:1 1 26rem; max-width:28rem; border:1px solid #6c757d; background:#f8f9fa; padding:1rem; border-radius:6px; box-sizing:border-box; display:flex; flex-direction:column;">
     <div class="card border-secondary bg-light mb-1 mx-1" style="display: flex; flex-direction: column; height: 100%;">
@@ -169,6 +167,7 @@ title: Galaxy Ecology
         </div>
     </div>
   </div>
+
   <!-- CARD 3 -->
   <div style="flex:1 1 26rem; max-width:28rem; border:1px solid #6c757d; background:#f8f9fa; padding:1rem; border-radius:6px; box-sizing:border-box; display:flex; flex-direction:column;">
     <div class="card border-secondary bg-light mb-1 mx-1" style="display: flex; flex-direction: column; height: 100%;">
@@ -208,6 +207,7 @@ title: Galaxy Ecology
         </div>
     </div>
   </div>
+
   <!-- CARD 4 -->
   <div style="flex:1 1 26rem; max-width:28rem; border:1px solid #6c757d; background:#f8f9fa; padding:1rem; border-radius:6px; box-sizing:border-box; display:flex; flex-direction:column;">
     <div class="card border-secondary bg-light mb-1 mx-1" style="display: flex; flex-direction: column; height: 100%;">
@@ -248,6 +248,7 @@ title: Galaxy Ecology
         </div>
     </div>
   </div>
+
   <!-- CARD 5 -->
   <div style="flex:1 1 26rem; max-width:28rem; border:1px solid #6c757d; background:#f8f9fa; padding:1rem; border-radius:6px; box-sizing:border-box; display:flex; flex-direction:column;">
     <div class="card border-secondary bg-light mb-1 mx-1" style="display: flex; flex-direction: column; height: 100%;">
@@ -287,26 +288,26 @@ title: Galaxy Ecology
   </div>
 </div>
 
-<br /><br />
 <iframe id="displayhere2" frameborder="0" style="display:none;" width="100%" height="700"></iframe>
-
 
 # Tools
 
 Galaxy Ecology offers an extensive suite of tools designed for biodiversity data analysis. With hundreds of tools at your disposal, you can explore and perform a wide variety of tasks, including data manipulation, statistical analysis, biodiversity and environmental data retrieval, and visualization.
 
-- **General Tools**   
-These tools cover data manipulation, text processing, file conversion, sorting, filtering, and a wide range of data visualization options, including bar charts, scatterplots, heatmaps, and more.
+- **General Tools**  
+  These tools cover data manipulation, text processing, file conversion, sorting, filtering, and a wide range of data visualization options, including bar charts, scatterplots, heatmaps, and more.
 
 - **Statistical Tools**  
-A comprehensive set of statistical methods for data preprocessing, hypothesis testing, classification, multivariate analysis, and model-based techniques like regression and machine learning.
+  A comprehensive set of statistical methods for data preprocessing, hypothesis testing, classification, multivariate analysis, and model-based techniques like regression and machine learning.
 
 - **Biodiversity data oriented Tools**  
-Galaxy Ecology provides specialized tools for biodiversity data, including species occurrence data retrieval, phenology analysis, acoustic monitoring, and GIS data handling.
+  Galaxy Ecology provides specialized tools for biodiversity data, including species occurrence data retrieval, phenology analysis, acoustic monitoring, and GIS data handling.
 
 Explore the full range of tools by using the Tools Panel on the left side of the interface. There, you’ll find an organized list of categories to help you find exactly what you need for your ecological research.
 
----
+<slot name="/eu/common/data-policy" />
+
+<slot name="/bare/eu/usegalaxy/jobs" />
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
