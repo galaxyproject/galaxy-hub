@@ -13,6 +13,7 @@ tags: [conference, earth-system, collaboration, talk, outreach, dataterra]
 contributions:
   authorship:
     -Marie59
+    -kgerb
 ---
 
 The European Geosciences Union (EGU) was held at the Austria Center Vienna (ACV) and online, from the 4th-8th May 2026.
