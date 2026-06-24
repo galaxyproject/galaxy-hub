@@ -796,6 +796,24 @@ Moderator: Jeremy Goecks
   <summary>
     <span class="gcc-talk-time">11:00 - 11:15</span>
     <span class="gcc-talk-main">
+      <span class="gcc-talk-title">Starting from Data: Connecting External Resources and Analysis in Galaxy</span>
+      <span class="gcc-talk-authors"><strong>Callan Danielle</strong>, Van Den Beek Marius, Baker Dannon, Rogers David, Cain Scott, Smeds Patrik, Clawson Hiram, Coraor Nate, Beavers Kelsey, Haeussler Maximilian, Schatz Michael, Pond Sergei, Nekrutenko Anton</span>
+    </span>
+    <span class="gcc-talk-poster gcc-talk-poster-empty">-</span>
+  </summary>
+  <div class="gcc-talk-abstract">
+    <p>Galaxy provides a flexible environment for running bioinformatics tools and composing analyses, supporting a range of usage patterns from exploratory work to more structured pipelines. In practice, many users approach problems starting from specific datasets or biological questions, then navigate tools and workflows to get analyses done.</p>
+    <p>We present a shared framework underlying BRC Analytics (brc-analytics.org) and GenomeArk2 (genomeark2.org) that builds on Galaxy by improving how users discover, configure, and launch analyses in data-driven contexts. BRC Analytics focuses on pathogen genomics, while GenomeArk2 targets vertebrate genome analysis, illustrating how the same approach can be adapted to different communities with distinct analytical needs.</p>
+    <p>A central idea is to start from data rather than tools—shifting the entry point to analysis without changing the underlying execution model. The framework integrates access to external resources (e.g., UCSC tracks, public read datasets via ENA), along with sequence-based search capabilities (via LexicMap and Logan) that allow users to identify relevant SRA data directly from sequence queries. Selected data can be passed into Galaxy with minimal manual handling, reducing friction around data acquisition and simplifying workflow configuration.</p>
+    <p>Workflows are drawn from the Intergalactic Workflow Commission (IWC), enabling reuse of community-maintained analyses. We introduce lightweight structure by associating workflows with relevant organisms and use cases, improving discoverability and providing a more guided entry point without restricting flexibility. Users can launch analyses with preconfigured inputs while continuing to rely on the full Galaxy interface for execution and iteration.</p>
+    <p>We are also exploring LLM-assisted interfaces to support data selection, workflow discovery, and parameter configuration; see the companion talk by Dannon Baker for a detailed discussion of this component.</p>
+    <p>This approach complements Galaxy’s interface, adding a structured layer that better connects data and analysis. We will describe the design decisions, integration patterns, and trade-offs behind this approach, and discuss how it can improve usability, increase workflow reuse, and broaden accessibility for data-oriented users.</p>
+  </div>
+</details>
+<details class="gcc-talk">
+  <summary>
+    <span class="gcc-talk-time">11:15 - 11:30</span>
+    <span class="gcc-talk-main">
       <span class="gcc-talk-title">From Research Question to Running Workflow: AI-Guided Analysis in BRC Analytics</span>
       <span class="gcc-talk-authors"><strong>Baker Dannon</strong>, Van Den Beek Marius, Callan Danielle, Rogers Dave, Nekrutenko Anton</span>
     </span>
@@ -811,7 +829,7 @@ Moderator: Jeremy Goecks
 </details>
 <details class="gcc-talk">
   <summary>
-    <span class="gcc-talk-time">11:15 - 11:30</span>
+    <span class="gcc-talk-time">11:30 - 11:45</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">The Galaxy History Graph: From State to Structure</span>
       <span class="gcc-talk-authors"><strong>Guerler Aysam</strong>, Chilton John, Awan Ahmed, Baker Dannon, Van Den Beek Marius, Heidari Alireza, Lopez David, Savage Michelle, Gruening Bjoern, Nekrutenko Anton, Schatz Michael C.</span>
@@ -828,7 +846,7 @@ Moderator: Jeremy Goecks
 </details>
 <details class="gcc-talk">
   <summary>
-    <span class="gcc-talk-time">11:30 - 11:45</span>
+    <span class="gcc-talk-time">11:45 - 12:00</span>
     <span class="gcc-talk-main">
       <span class="gcc-talk-title">AOP‑toolkit: Galaxy‑enabled LLM pipelines for large‑scale toxicological literature mining with secure credential management</span>
       <span class="gcc-talk-authors"><strong>Durník Robin</strong>, Hecht Helge, Babica Pavel, Sovadinová Iva, Bajard Lola</span>
@@ -840,24 +858,6 @@ Moderator: Jeremy Goecks
     <p>A set of Galaxy tools wrapping core aoptk capabilities exposes these methods to non‑programming users in a reproducible, workflow‑driven environment. These tools support literature retrieval, preprocessing, LLM‑assisted extraction, and evidence aggregation. To enable secure use of commercial and customizable LLM APIs within Galaxy, the aoptk tools adopt the new Galaxy Credentials system, allowing users to store OpenAI API keys, endpoint parameters, and authentication data required for literature access directly within their Galaxy account. This eliminates the need to embed secrets into histories or workflows and enables site administrators to offer model‑specific configurations while maintaining strict credential isolation.</p>
     <p>As a validation case, we applied the system to identify chemicals that inhibit gap junction intercellular communication (GJIC), a mechanism of direct cell-cell communication that is discussed as a candidate non genotoxic key event in AOP development for carcinogenesis. When applied to the publication subset used to construct an expert‑curated list of 328 chemicals, the automated workflow recovered more than 250 direct matches, demonstrating that LLM‑assisted extraction can reproduce substantial portions of expert manual curation at scale. This approach enables systematic evidence aggregation across studies and chemicals, providing mechanistically relevant information directly usable for AOP development and refinement through support for key events and key event relationships. Systematic mapping of chemical effects on AOP relevant key events further enables chemical prioritization for hazard and risk assessment, facilitates identification of reference chemicals for AOP informed NAM development and validation, and supports evidence based identification of assays suitable for key event evaluation based on their differential performance in detecting chemicals with established effects.</p>
     <p>Overall, the AOP‑toolkit and its Galaxy integration constitute a FAIR, extensible, and secure ecosystem for automated toxicological evidence mining. By combining modern LLM technology with Galaxy’s credential management and workflow reproducibility, the system lowers barriers for large‑scale literature analysis and enables future extensions toward authenticated, cross‑source toxicology knowledge extraction.</p>
-  </div>
-</details>
-<details class="gcc-talk">
-  <summary>
-    <span class="gcc-talk-time">11:45 - 12:00</span>
-    <span class="gcc-talk-main">
-      <span class="gcc-talk-title">Starting from Data: Connecting External Resources and Analysis in Galaxy</span>
-      <span class="gcc-talk-authors"><strong>Callan Danielle</strong>, Van Den Beek Marius, Baker Dannon, Rogers David, Cain Scott, Smeds Patrik, Clawson Hiram, Coraor Nate, Beavers Kelsey, Haeussler Maximilian, Schatz Michael, Pond Sergei, Nekrutenko Anton</span>
-    </span>
-    <span class="gcc-talk-poster gcc-talk-poster-empty">-</span>
-  </summary>
-  <div class="gcc-talk-abstract">
-    <p>Galaxy provides a flexible environment for running bioinformatics tools and composing analyses, supporting a range of usage patterns from exploratory work to more structured pipelines. In practice, many users approach problems starting from specific datasets or biological questions, then navigate tools and workflows to get analyses done.</p>
-    <p>We present a shared framework underlying BRC Analytics (brc-analytics.org) and GenomeArk2 (genomeark2.org) that builds on Galaxy by improving how users discover, configure, and launch analyses in data-driven contexts. BRC Analytics focuses on pathogen genomics, while GenomeArk2 targets vertebrate genome analysis, illustrating how the same approach can be adapted to different communities with distinct analytical needs.</p>
-    <p>A central idea is to start from data rather than tools—shifting the entry point to analysis without changing the underlying execution model. The framework integrates access to external resources (e.g., UCSC tracks, public read datasets via ENA), along with sequence-based search capabilities (via LexicMap and Logan) that allow users to identify relevant SRA data directly from sequence queries. Selected data can be passed into Galaxy with minimal manual handling, reducing friction around data acquisition and simplifying workflow configuration.</p>
-    <p>Workflows are drawn from the Intergalactic Workflow Commission (IWC), enabling reuse of community-maintained analyses. We introduce lightweight structure by associating workflows with relevant organisms and use cases, improving discoverability and providing a more guided entry point without restricting flexibility. Users can launch analyses with preconfigured inputs while continuing to rely on the full Galaxy interface for execution and iteration.</p>
-    <p>We are also exploring LLM-assisted interfaces to support data selection, workflow discovery, and parameter configuration; see the companion talk by Dannon Baker for a detailed discussion of this component.</p>
-    <p>This approach complements Galaxy’s interface, adding a structured layer that better connects data and analysis. We will describe the design decisions, integration patterns, and trade-offs behind this approach, and discuss how it can improve usability, increase workflow reuse, and broaden accessibility for data-oriented users.</p>
   </div>
 </details>
 </div>
