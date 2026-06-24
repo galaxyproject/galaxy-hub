@@ -95,7 +95,7 @@ Can we do more for our users if we know more about who they are? Galaxy Australi
 
 ### At the edge of the Galaxy, the lonely life of a (small scale) local Galaxy server admin
 
-Location: Amphitheater A
+Location: meet outside of Amphitheater A and we will go together to a colder place on campus 
 
 **Organizers:** Hans-Rudolf Hotz, Lucille Delisle
 
