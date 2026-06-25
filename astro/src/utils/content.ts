@@ -5,6 +5,7 @@
 
 import { getCollection, type CollectionEntry } from 'astro:content';
 import { isPublishedDate, formatDate as formatDateUtil, formatDateRange as formatDateRangeUtil } from './dateUtils';
+import { contentMatchesSubsite, normalizeSubsites } from './subsites';
 
 type ArticleEntry = CollectionEntry<'articles'>;
 export type NewsEntry = CollectionEntry<'news'>;
@@ -18,13 +19,12 @@ type InsertEntry = CollectionEntry<'inserts'>;
 export async function getArticles(subsite?: string): Promise<ArticleEntry[]> {
   const articles = await getCollection('articles');
 
-  if (!subsite || subsite === 'global') {
+  if (!subsite) {
     return articles;
   }
 
   return articles.filter((article) => {
-    const subsites = article.data.subsites || [];
-    return subsites.includes(subsite) || subsites.includes('all');
+    return contentMatchesSubsite(normalizeSubsites(article.data.subsites), subsite);
   });
 }
 
@@ -34,13 +34,12 @@ export async function getArticles(subsite?: string): Promise<ArticleEntry[]> {
 export async function getEvents(subsite?: string): Promise<EventEntry[]> {
   const events = await getCollection('events');
 
-  if (!subsite || subsite === 'global') {
+  if (!subsite) {
     return events;
   }
 
   return events.filter((event) => {
-    const subsites = event.data.subsites || [];
-    return subsites.includes(subsite) || subsites.includes('all');
+    return contentMatchesSubsite(normalizeSubsites(event.data.subsites), subsite);
   });
 }
 
@@ -224,13 +223,11 @@ export async function getInsert(slug: string): Promise<InsertEntry | undefined> 
 export async function getNews(subsite?: string): Promise<NewsEntry[]> {
   const news = await getCollection('news');
 
-  const filtered =
-    !subsite || subsite === 'global'
-      ? news
-      : news.filter((article) => {
-          const subsites = article.data.subsites || [];
-          return subsites.includes(subsite) || subsites.includes('all');
-        });
+  const filtered = !subsite
+    ? news
+    : news.filter((article) => {
+        return contentMatchesSubsite(normalizeSubsites(article.data.subsites), subsite);
+      });
 
   return filtered.sort((a, b) => {
     const dateA = new Date(a.data.date || 0);

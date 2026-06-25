@@ -4,6 +4,7 @@ import { useStore } from '@nanostores/vue';
 import { currentSubsite, subsites, type SubsiteId } from '@/stores/subsiteStore';
 import { renderMarkdownInline } from '@/utils/markdown';
 import { formatDateRange, getUTCYear } from '@/utils/dateUtils';
+import { contentMatchesSubsite, normalizeSubsites } from '@/utils/subsites';
 import ExternalIcon from '../common/ExternalIcon.vue';
 
 interface EventData {
@@ -74,13 +75,6 @@ function getYear(event: EventData): number | null {
   return isNaN(date.getTime()) ? null : getUTCYear(date);
 }
 
-// Helper to normalize subsites to array
-function getSubsites(event: EventData): string[] {
-  if (!event.subsites) return ['all'];
-  if (Array.isArray(event.subsites)) return event.subsites;
-  return [event.subsites];
-}
-
 // Filter events based on current subsite
 const filteredEvents = computed(() => {
   const subsite = effectiveSubsite.value;
@@ -90,14 +84,8 @@ const filteredEvents = computed(() => {
     return props.events;
   }
 
-  // Filter by subsite - include events tagged with this subsite or 'all'
   return props.events.filter((event) => {
-    const eventSubsites = getSubsites(event);
-    return (
-      eventSubsites.includes('all') ||
-      eventSubsites.includes(subsite) ||
-      eventSubsites.some((s) => s.toLowerCase() === subsite.toLowerCase())
-    );
+    return contentMatchesSubsite(normalizeSubsites(event.subsites), subsite);
   });
 });
 
