@@ -1,4 +1,5 @@
 Operative,Tier,URL,Referenced_Directory
+1,1,usegalaxy.ca,https://github.com/galaxyproject/galaxy-hub/blob/main/content/use/usegalaxy-ca/index.md?plain=1
 1,1,usegalaxy.eu,https://github.com/galaxyproject/galaxy-hub/blob/main/content/use/usegalaxy-eu/index.md?plain=1
 1,1,usegalaxy.fr,https://github.com/galaxyproject/galaxy-hub/blob/main/content/use/usegalaxy-fr/index.md?plain=1
 1,1,usegalaxy.org,https://github.com/galaxyproject/galaxy-hub/blob/main/content/use/usegalaxy-org/index.md?plain=1
@@ -6,7 +7,6 @@ Operative,Tier,URL,Referenced_Directory
 1,2,africa.usegalaxy.eu,https://github.com/galaxyproject/galaxy-hub/blob/main/content/use/galaxy-africa/index.md?plain=1
 1,2,india.usegalaxy.eu,https://github.com/galaxyproject/galaxy-hub/blob/main/content/use/galaxy-india/index.md?plain=1
 1,2,usegalaxy.be,https://github.com/galaxyproject/galaxy-hub/blob/main/content/use/usegalaxy-be/index.md?plain=1
-1,2,usegalaxy.ca,
 1,2,usegalaxy.cz,https://github.com/galaxyproject/galaxy-hub/blob/main/content/use/usegalaxy-cz/index.md?plain=1
 1,2,usegalaxy.es,
 1,2,usegalaxy.it,
