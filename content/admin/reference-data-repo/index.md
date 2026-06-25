@@ -1,6 +1,6 @@
 # usegalaxy.org Reference Data
 
-[usegalaxy.org](http://usegalaxy.org) ([Main](/main/) is home to over 4 TB of reference data. This is
+[usegalaxy.org](http://usegalaxy.org) ([Main](/main/) is home to over 8 TB of reference data. This is
 comprised mainly of genome sequence builds and associated prebuilt indexes for the tools installed on usegalaxy.org, as
 well as the Galaxy-specific configuration files that make the data known to those tools. Because preparing this data for
 your own **[local](/admin/get-galaxy/)** Galaxy server or an external application can be a laborious
@@ -40,15 +40,21 @@ Examples of data include:
 You can either use the data and Data Table Configuration / location files as-is (with path editing to fit your
 environment), or use these as models, or simply move the data into your own custom hierarchy.
 
+In addition to the standard reference data, we also host a repository of sequences and indexes for pathogens available
+in Galaxy for [BRC Analytics][brc-analytics], and assemblies and indexes from the [Vertebrate Genomes Project][vgp]
+
 [data-managed]: http://datacache.galaxyproject.org/managed/
 [data-indexes]: http://datacache.galaxyproject.org/indexes/
 [data-managers]: https://galaxyproject.org/admin/tools/data-managers/
+[brc-analytics]: https://brc-analytics.org/
+[vgp]: https://vertebrategenomesproject.org/
 
 ## Converting Formats
 
-Most genome sequences in Galaxy are in [twoBit][twobit] format. To convert these to FASTA, use the `twoBitToFa` tool
-available from UCSC. There are many common bioinformatics tools to that can be used for file manipulations, but this and
-other related tools are in the [UCSC Genome Browser][ucsc] source code [downloads][ucsc-downloads] section.
+Most genome sequences in Galaxy are in both [twoBit][twobit] and FASTA formats. twoBit files are smaller and can be
+converted to FASTA using the `twoBitToFa` tool available from UCSC. There are many common bioinformatics tools to that
+can be used for file manipulations, but this and other related tools are in the [UCSC Genome Browser][ucsc] source code
+[downloads][ucsc-downloads] section.
 
 [twobit]: https://genome.ucsc.edu/goldenpath/help/twoBit.html
 [bowtie2]: http://bowtie-bio.sourceforge.net/bowtie2/
@@ -67,20 +73,17 @@ other related tools are in the [UCSC Genome Browser][ucsc] source code [download
 The usegalaxy.org reference data is housed in a [CernVM-FS (CVMFS)][cvmfs] repository that distributes the data in
 multiple replicas across the United States and Europe. Because of this, it is possible to directly mount the data
 directly on your Galaxy server. CVMFS is a caching, HTTP-based filesystem with a [Linux Filesystem in Userspace
-(FUSE)][fuse] (mount) client. FUSE has been a part of Linux since kernel version 2.6.14, so it should already be
-available on all modern Linux systems.
+(FUSE)][fuse] (mount) client.
 
 When initially mounted, CVMFS does not consume any local disk space on the client (in this case, your Galaxy server).
 Instead, as files are accessed, they are pulled from one of the replica (*Stratum 1*) servers to a local disk-based
 cache of a configurable size.
 
-Currently, the [Galaxy Docker Image][docker-galaxy-stable] image and [CloudMan][cloudman] images are preconfigured to
-mount this data.
+Currently, the [Galaxy Docker Image][docker-galaxy-stable] image is preconfigured to mount this data.
 
 [fuse]: https://github.com/libfuse/libfuse
 [cvmfs]: http://cvmfs.readthedocs.io
 [docker-galaxy-stable]: https://github.com/bgruening/docker-galaxy-stable
-[cloudman]: https://galaxyproject.org/cloudman/
 
 ### CVMFS Considerations
 
@@ -103,6 +106,7 @@ Started][cvmfs-getting-started] and [Client Configuration][cvmfs-client-config] 
 [cvmfs-overview]: http://cvmfs.readthedocs.io/en/stable/cpt-overview.html
 [cvmfs-getting-started]: http://cvmfs.readthedocs.io/en/stable/cpt-quickstart.html
 [cvmfs-client-config]: http://cvmfs.readthedocs.io/en/stable/cpt-quickstart.html
+[ansible-cvmfs]: https://galaxy.ansible.com/galaxyproject/cvmfs
 
 ### CVMFS Client Configuration
 
@@ -111,59 +115,8 @@ this can be performed simply by following the [Getting Started][cvmfs-getting-st
 Configuration][cvmfs-client-config] documentation. Alternatively, the [galaxyproject.cvmfs Ansible role][ansible-cvmfs]
 can be used to quickly set up the client configuration.
 
-If configuring by hand, once installed, you should be able to run `cvmfs_config` to perform the basic CVMFS setup.
-
-#### Dynamic
-
-The preferred configuration method is to use the `cvmfs-config.galaxyproject.org` [CVMFS Config
-Repository][cvmfs-config-repo], which will provide automatic configuration for all galaxyproject.org CVMFS repositories
-(including `data.galaxyproject.org`) and keep them up to date.
-
-To configure, add the Galaxy-specific configuration files:
-
-**/etc/cvmfs/default.local**
-
-```bash
-CVMFS_HTTP_PROXY="DIRECT"
-CVMFS_QUOTA_LIMIT="4000"    # the cache size in MB
-CVMFS_USE_GEOAPI=yes        # sort server list by geographic distance from client
-```
-
-**/etc/cvmfs/config.d/cvmfs-config.galaxyproject.org.conf**
-
-```bash
-CVMFS_SERVER_URL="http://cvmfs1-psu0.galaxyproject.org/cvmfs/@fqrn@;http://cvmfs1-iu0.galaxyproject.org/cvmfs/@fqrn@;http://cvmfs1-tacc0.galaxyproject.org/cvmfs/@fqrn@"
-CVMFS_PUBLIC_KEY="/etc/cvmfs/keys/galaxyproject.org/cvmfs-config.galaxyproject.org.pub"
-```
-
-**/etc/cvmfs/default.d/80-galaxyproject-cvmfs.conf**
-
-```bash
-CVMFS_CONFIG_REPOSITORY="cvmfs-config.galaxyproject.org"
-CVMFS_DEFAULT_DOMAIN="galaxyproject.org"
-```
-
-**/etc/cvmfs/keys/galaxyproject.org/cvmfs-config.galaxyproject.org.pub**
-
-```text
------BEGIN PUBLIC KEY-----
-MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuJZTWTY3/dBfspFKifv8
-TWuuT2Zzoo1cAskKpKu5gsUAyDFbZfYBEy91qbLPC3TuUm2zdPNsjCQbbq1Liufk
-uNPZJ8Ubn5PR6kndwrdD13NVHZpXVml1+ooTSF5CL3x/KUkYiyRz94sAr9trVoSx
-THW2buV7ADUYivX7ofCvBu5T6YngbPZNIxDB4mh7cEal/UDtxV683A/5RL4wIYvt
-S5SVemmu6Yb8GkGwLGmMVLYXutuaHdMFyKzWm+qFlG5JRz4okUWERvtJ2QAJPOzL
-mAG1ceyBFowj/r3iJTa+Jcif2uAmZxg+cHkZG5KzATykF82UH1ojUzREMMDcPJi2
-dQIDAQAB
------END PUBLIC KEY-----
-```
-
-[ansible-cvmfs]: https://galaxy.ansible.com/galaxyproject/cvmfs
-[cvmfs-config-repo]: https://cvmfs.readthedocs.io/en/stable/cpt-configure.html#the-config-repository
-
-#### Static
-
-If not using the dynamic config repository method in the previous section, you can statically configure the
-`data.galaxyproject.org` CVMFS repository. To do so, add the Galaxy-specific configuration files:
+If configuring by hand, once installed, you should be able to run `cvmfs_config` to perform the basic CVMFS setup, then
+add the Galaxy-specific configuration files:
 
 **/etc/cvmfs/default.local**
 
@@ -172,6 +125,12 @@ CVMFS_REPOSITORIES="data.galaxyproject.org"
 CVMFS_HTTP_PROXY="DIRECT"
 CVMFS_QUOTA_LIMIT="4000"    # the cache size in MB
 CVMFS_USE_GEOAPI=yes        # sort server list by geographic distance from client
+```
+
+If you'd also like to access the BRC Analytics and/or VGP data, you can add them to `CVMFS_REPOSITORIES`:
+
+```bash
+CVMFS_REPOSITORIES="data.galaxyproject.org,brc.galaxyproject.org,vgp.galaxyproject.org"
 ```
 
 **/etc/cvmfs/domain.d/galaxyproject.org.conf**
@@ -195,6 +154,29 @@ owIDAQAB
 -----END PUBLIC KEY-----
 ```
 
+**/etc/cvmfs/keys/galaxyproject.org/galaxyproject.org.pub**
+
+The BRC and VGP repositories use a different (common) key. The `singularity.galaxyproject.org`
+([Singularity/Apptainer][[apptainer] [BioContainers][biocontainers]) repository also uses this
+key and the data repository will eventually transition to this key as well, so it's not a bad idea to install it even if
+you only intend to use the data repository:
+
+[apptainer]: https://apptainer.org/
+[biocontainers]: https://biocontainers.pro/
+
+```text
+-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuJZTWTY3/dBfspFKifv8
+TWuuT2Zzoo1cAskKpKu5gsUAyDFbZfYBEy91qbLPC3TuUm2zdPNsjCQbbq1Liufk
+uNPZJ8Ubn5PR6kndwrdD13NVHZpXVml1+ooTSF5CL3x/KUkYiyRz94sAr9trVoSx
+THW2buV7ADUYivX7ofCvBu5T6YngbPZNIxDB4mh7cEal/UDtxV683A/5RL4wIYvt
+S5SVemmu6Yb8GkGwLGmMVLYXutuaHdMFyKzWm+qFlG5JRz4okUWERvtJ2QAJPOzL
+mAG1ceyBFowj/r3iJTa+Jcif2uAmZxg+cHkZG5KzATykF82UH1ojUzREMMDcPJi2
+dQIDAQAB
+-----END PUBLIC KEY-----
+```
+
+
 #### Test the Client
 
 Once configured, you should be able to access the data with `cd /cvmfs/data.galaxyproject.org`. You may need to restart
@@ -205,12 +187,19 @@ The configuration given above is a minimum, please consult the CVMFS documentati
 
 ### Galaxy Configuration
 
-In `galaxy.yml` (`galaxy.ini` in older Galaxy Releases), configure the paths to the `tool_data_table_conf.xml` files
-with the `tool_data_table_config_path` option in the `galaxy:` (`[app:main]` if using the ini file) section:
+In `galaxy.yml`, configure the paths to the `tool_data_table_conf.xml` files with the `tool_data_table_config_path`
+option in the `galaxy:` section:
 
 ```yaml
 galaxy:
-    tool_data_table_config_path: /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml,/cvmfs/data.galaxyproject.org/managed/location/tool_data_table_conf.xml,config/tool_data_table_conf.xml
+    tool_data_table_config_path:
+      - /cvmfs/data.galaxyproject.org/byhand/location/tool_data_table_conf.xml
+      - /cvmfs/data.galaxyproject.org/managed/location/tool_data_table_conf.xml
+      # BRC Analytics sequences
+      - /cvmfs/brc.galaxyproject.org/config/tool_data_table_conf.xml
+      # VGP sequences
+      - /cvmfs/vgp.galaxyproject.org/config/tool_data_table_conf.xml
+      - config/tool_data_table_conf.xml
 ```
 
 Once your Galaxy server has been restarted, you should see the reference data in the tools that use them.
@@ -222,11 +211,10 @@ The list of Stratum 1 servers for the `data.galaxyproject.org` CVMFS repository 
 | Server | Host | Location |
 | --- | --- | --- |
 | `cvmfs1-psu0.galaxyproject.org` | [Galaxy Project][galaxyproject] | [Penn State University][psu], Pennsylvania, USA |
-| `cvmfs1-iu0.galaxyproject.org` | [Galaxy Project][galaxyproject] via [XSEDE][xsede] | [Jetstream Cloud][jetstream] at [Indiana University][iu], Indiana, USA |
-| `cvmfs1-tacc0.galaxyproject.org` | [Galaxy Project][galaxyproject] via [XSEDE][xsede] | [Jetstream Cloud][jetstream] at the [Texas Advanced Computing Center][tacc], [University of Texas at Austin][utexas], Texas, USA |
-| `cvmfs1-mel0.gvl.org.au` | [GVL Project][gvlproject] | Melbourne, Australia |
-| `galaxy.jrc.ec.europa.eu:8008` | [European Commission Joint Research Centre][jrc] | Ispra, Italy |
-| `cvmfs1-ufr0.galaxyproject.eu` | [Galaxy Project Europe/UseGalaxy.eu][jrc] | Freiburg, Germany |
+| `cvmfs1-iu0.galaxyproject.org` | [Galaxy Project][galaxyproject] via [ACCESS][access] | [Jetstream Cloud][jetstream] at [Indiana University][iu], Indiana, USA |
+| `cvmfs1-tacc0.galaxyproject.org` | [Galaxy Project][galaxyproject] | [Texas Advanced Computing Center][tacc], [University of Texas at Austin][utexas], Texas, USA |
+| `cvmfs1-mel0.gvl.org.au` | [Galaxy Australia][usegalaxy-au] | Melbourne, Australia |
+| `cvmfs1-ufr0.galaxyproject.eu` | [Galaxy Europe][usegalaxy-eu] | Freiburg, Germany |
 
 The full path to the repository, e.g. for use in the `CVMFS_SERVER_URL` configuration parameter, where `<SERVER:[PORT]>`
 is one of the servers above and `<REPO>` is the CVMFS repo name, is:
@@ -240,13 +228,13 @@ CVMFS templates the repository name in to the URL for you.
 
 [galaxyproject]: http://galaxyproject.org
 [psu]: http://www.psu.edu/
-[xsede]: https://www.xsede.org/
+[access]: https://access-ci.org/
 [jetstream]: http://jetstream-cloud.org/
 [iu]: http://www.indiana.edu/
 [tacc]: http://www.tacc.utexas.edu/
 [utexas]: http://www.utexas.edu/
-[jrc]: https://ec.europa.eu/jrc
-[gvlproject]: https://gvl.org.au
+[usegalaxy-au]: https://usegalaxy.org.au/
+[usegalaxy-eu]: https://usegalaxy.eu/
 
 ## Obtaining Reference Data with Rsync or HTTP
 
@@ -268,12 +256,6 @@ documentation for help.
 ```
 datacache.galaxyproject.org
 ```
-
-The server was also formerly referred to as `datacache.g2.bx.psu.edu`, which remains an alias to
-`datacache.galaxyproject.org`.
-
-The datacache server also performs a double duty as the `cvmfs1-psu0` CVMFS Stratum 1 server referenced in the previous
-section.
 
 ### Example Data Retrieval
 
