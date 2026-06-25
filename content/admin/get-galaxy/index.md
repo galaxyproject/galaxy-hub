@@ -27,7 +27,7 @@ $ git clone -b release_26.0 https://github.com/galaxyproject/galaxy.git
 If you have an existing Galaxy repository and want to update it, run:
 
 ```
-$ git fetch origin && git checkout release_26.0 && git pull --ff-only origin release_26.0
+$ git fetch origin && git checkout release_26.1 && git pull --ff-only origin release_26.1
 ```
 
 
