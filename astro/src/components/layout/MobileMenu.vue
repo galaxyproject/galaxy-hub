@@ -37,6 +37,7 @@ const DEFAULT_MOBILE_NAV = {
       items: [
         { label: 'News', href: '/news/' },
         { label: 'Events', href: '/events/' },
+        { label: 'Search', href: '/search/' },
         { label: 'People', href: '/people/', subsiteOnly: true },
         { label: 'Blog', href: '/blog/' },
         { label: 'Get Involved', href: '/community/' },
