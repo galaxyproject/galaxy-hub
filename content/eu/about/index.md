@@ -28,7 +28,7 @@ Individuals who have contributed to the project, but whose contributions do not 
 > The authors acknowledge the support of the Freiburg Galaxy Team: Person _X_ and Björn Grüning, Bioinformatics, University of Freiburg (Germany), funded by the German Federal Ministry of Education and Research [BMFTR](https://www.bmftr.bund.de) grant 031 A538A [de.NBI](https://www.denbi.de)-RBC and the Ministry of Science, Research and the Arts Baden-Württemberg (MWK) within the framework of LIBIS/de.NBI Freiburg.
 
 Additional funding of projects as well as the provision of material expenses, is welcome to support our growing Galaxy community in Freiburg and Europe.
-Please also cite the [main Galaxy publication](https://doi.org/10.1093/nar/gkae410).
+Please also cite the [main Galaxy publication](https://doi.org/10.1093/nar/gkag469).
 
 ---
 

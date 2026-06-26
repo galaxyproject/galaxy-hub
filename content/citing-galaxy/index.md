@@ -9,7 +9,7 @@ components: true
 
 When you use Galaxy and want to publish your work, please cite this paper:
 
-* The Galaxy Community. [The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update](https://doi.org/10.1093/nar/gkae410), *Nucleic Acids Research*, 2024, 52(W1):W83-W94. doi:10.1093/nar/gkae410 <CopyButton text='The Galaxy Community. "The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update." Nucleic Acids Research, 2024, 52(W1):W83-W94. doi:10.1093/nar/gkae410' />
+* The Galaxy Community. [Galaxy for accessible, reproducible, and collaborative data analyses: 2026 update](https://doi.org/10.1093/nar/gkag469), *Nucleic Acids Research*, 2026; doi:10.1093/nar/gkag469 <CopyButton text='The Galaxy Community. "Galaxy for accessible, reproducible, and collaborative data analyses: 2026 update." Nucleic Acids Research, 2026; doi:10.1093/nar/gkag469' />
 
 This and other references are also [available in GitHub](https://github.com/galaxyproject/galaxy/blob/dev/CITATION) as a [CITATION file](http://software-carpentry.org/blog/2013/09/introducing-citation-files.html).
 
