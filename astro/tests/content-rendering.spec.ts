@@ -94,7 +94,10 @@ test.describe('Content Rendering', () => {
     });
 
     test('SIG microbial page renders inlined linkbox sidebar', async ({ page }) => {
-      await page.goto('/community/sig/microbial/');
+      // waitUntil: 'domcontentloaded' -- this page embeds several external iframes
+      // (GTN, galaxy_codex, Google Calendar) and the default 'load' blocks on them,
+      // flaking in CI. We only assert on the server-rendered inlined linkbox.
+      await page.goto('/community/sig/microbial/', { waitUntil: 'domcontentloaded' });
       await expect(page.getByText('Galaxy Community Board')).toBeVisible();
     });
 
