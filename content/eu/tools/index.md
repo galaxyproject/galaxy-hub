@@ -2,7 +2,7 @@
 # THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
 # To update, run: python3 scripts/update-tools.py --server https://usegalaxy.eu --name "European Galaxy" --output content/eu/tools/index.md
 title: European Galaxy Tools
-description: "4299 tools and counting"
+description: "4309 tools and counting"
 ---
 
 
@@ -1030,6 +1030,9 @@ description: "4299 tools and counting"
 [chewBBACA NSStats](https://usegalaxy.eu/root?tool_id=chewbbaca_nsstats "Retrieve basic information about the species and schemas in Chewie-NS")
 [chewBBACA PrepExternalSchema](https://usegalaxy.eu/root?tool_id=chewbbaca_prepexternalschema "Adapt an external schema to be used with chewBBACA")
 [compleasm](https://usegalaxy.eu/root?tool_id=compleasm "completeness of genome assemblies")
+[dashing2 dist](https://usegalaxy.eu/root?tool_id=dashing2_dist "compare sketches or sequences into a distance/similarity matrix")
+[dashing2 sketch](https://usegalaxy.eu/root?tool_id=dashing2_sketch "summarize sequence or feature collections and optionally compare them")
+[dashing2 wsketch](https://usegalaxy.eu/root?tool_id=dashing2_wsketch "sketch weighted sets of integral identifiers")
 [ectyper](https://usegalaxy.eu/root?tool_id=ectyper "ectyper is a standalone serotyping module for Escherichia coli. It supports fasta and fastq file formats.")
 [edta](https://usegalaxy.eu/root?tool_id=edta "Whole-genome de-novo TE annotation")
 [estimate-energy](https://usegalaxy.eu/root?tool_id=smf_utils_estimate-energy "Estimates whether a certain Segment(Loop) is present and for which delta-G this transistion takes place")
@@ -1075,6 +1078,7 @@ description: "4299 tools and counting"
 [phmmer](https://usegalaxy.eu/root?tool_id=hmmer_phmmer "search a protein sequence against a protein database (BLASTP-like)")
 [progressiveMauve](https://usegalaxy.eu/root?tool_id=progressivemauve "constructs multiple genome alignments")
 [psortb](https://usegalaxy.eu/root?tool_id=Psortb "Determines sub-cellular localisation of bacterial/archaeal protein sequences")
+[rMLST](https://usegalaxy.eu/root?tool_id=rmlst_cli "Identify species using the rMLST API")
 [scanMotifGenomeWide](https://usegalaxy.eu/root?tool_id=homer_scanMotifGenomeWide "")
 [segmentation-fold](https://usegalaxy.eu/root?tool_id=segmentation_fold "RNA-Folding including predefined segments including K-turns")
 [seq2HLA](https://usegalaxy.eu/root?tool_id=seq2hla "HLA genotype and expression from RNA-seq")
@@ -3509,7 +3513,7 @@ description: "4299 tools and counting"
 [msPurity.spectralMatching](https://usegalaxy.eu/root?tool_id=mspurity_spectralmatching "Perform spectral matching to MS/MS spectral libraries")
 [mztab-m validate](https://usegalaxy.eu/root?tool_id=mztabm_validate "validate mztab-m files")
 [proFIA](https://usegalaxy.eu/root?tool_id=profia "Preprocessing of FIA-HRMS data")
-[rcx-tk](https://usegalaxy.eu/root?tool_id=rcx-tk "Processes and standardizes sequence, alkane or MSDial output files for downstream analysis.")
+[rcx-tk](https://usegalaxy.eu/root?tool_id=rcx-tk "Processes and standardizes sequence, alkane, or MSDial output files for downstream analysis.")
 [recetox-aplcms - align features](https://usegalaxy.eu/root?tool_id=recetox_aplcms_align_features "align peaks across samples")
 [recetox-aplcms - compute clusters](https://usegalaxy.eu/root?tool_id=recetox_aplcms_compute_clusters "compute clusters of mz and rt across samples and assign cluster IDs to individual features")
 [recetox-aplcms - compute template](https://usegalaxy.eu/root?tool_id=recetox_aplcms_compute_template "compute retention time correction template feature table")
@@ -3798,7 +3802,13 @@ description: "4299 tools and counting"
 [To categorical](https://usegalaxy.eu/root?tool_id=sklearn_to_categorical "Encodes labels to a one-hot encoded matrix and DNA sequences to one-hot and k-mer representations")
 [Train, Test and Evaluation](https://usegalaxy.eu/root?tool_id=sklearn_train_test_eval "fit a model using part of dataset and evaluate using the rest")
 [aoptk chemical identifier](https://usegalaxy.eu/root?tool_id=aoptk_chemical_identifier "Detect chemicals in scientific literature and filter based on a screening list.")
+[aoptk download publication data](https://usegalaxy.eu/root?tool_id=aoptk_download_publication_data "Download publication data - full text publications and figures, abstracts, or PDFs.")
+[aoptk final modification](https://usegalaxy.eu/root?tool_id=aoptk_final_modification "Finalize the output of relationship identification.")
+[aoptk find relationships chemicals](https://usegalaxy.eu/root?tool_id=aoptk_find_relationships_chemicals "Identify relationships between chemicals and effects.")
+[aoptk normalize chemicals](https://usegalaxy.eu/root?tool_id=aoptk_normalize_chemicals "Normalize chemical entities using LLMs.")
+[aoptk parse PDF](https://usegalaxy.eu/root?tool_id=aoptk_parse_pdf "Parse PDF files.")
 [aoptk publication tracker](https://usegalaxy.eu/root?tool_id=aoptk_publication_tracker "Tool to track publications.")
+[aoptk query literature](https://usegalaxy.eu/root?tool_id=aoptk_query_literature "Query literature for a list of publication IDs.")
 [chatGPT](https://usegalaxy.eu/root?tool_id=chatgpt_openai_api "Integrating OpenAI&#x27;s ChatGPT into Galaxy")
 [chopin2](https://usegalaxy.eu/root?tool_id=chopin2 "Domain-Agnostic Supervised Learning with Hyperdimensional Computing")
 [decontaminator](https://usegalaxy.eu/root?tool_id=decontaminator "Decontaminator is a deep learning helping tool that filters out phage or fungi contigs from plant virome RNAseq assemblies")
