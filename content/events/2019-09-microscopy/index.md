@@ -1,7 +1,7 @@
 ---
 title: "Microscopy Image Analysis Course"
-date: '2019-09-19'
-end: '2019-09-20'
+date: "2019-09-19"
+end: "2019-09-20"
 days: 2
 tease: "microscopy image analysis for cell biology"
 continent: EU
@@ -15,7 +15,14 @@ location:
 location_url: "https://www.ipmb.uni-heidelberg.de/index_en.html"
 gtn: true
 contact: "Karl Rohr"
-subsites: [global, us]
+contacts:
+  - name: "Heidelberg Center for Human Bioinformatics (HD-HuB)"
+    email: k.rohr@dkfz-heidelberg.de
+subsites: [eu, freiburg]
+main_subsite: freiburg
+contributions:
+  funding:
+    - deNBI
 ---
 
 We would like to draw your attention to the upcoming course “Microscopy Image Analysis” organized by the Heidelberg Center for Human Bioinformatics (HD-HuB).
@@ -48,3 +55,9 @@ In the "Comments" section of the registration form, please provide some informat
 Registration closes on August 11, 2019.
 
 The capacity is limited to 20 participants and applicants will be selected after registration closed. You will be notified of the outcome by e-mail on August 23, 2019.
+
+## Organizers
+
+Heidelberg Center for Human Bioinformatics (HD-HuB).
+
+For questions, contact Karl Rohr at [k.rohr@dkfz-heidelberg.de](mailto:k.rohr@dkfz-heidelberg.de).
