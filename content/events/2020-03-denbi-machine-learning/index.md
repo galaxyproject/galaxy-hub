@@ -19,14 +19,18 @@ location_url: "#venue"
 image: /images/logos/deNBILogo.png
 contact: "Alireza Khanteymoori, Anup Kumar"
 gtn: true
-subsites: [global, us]
+subsites: [eu, freiburg]
+main_subsite: freiburg
 contributions:
   organisers:
     - anuprulez
     - khanteymoori
+  funding:
+    - uni-freiburg
+    - deNBI
+    - elixir-europe
 ---
 
-> [!WARNING]
 > **Archival Note:** This event was postponed due to the COVID-19 pandemic and did not take place as originally scheduled.
 
 We apologize for any inconvenience, and will update this event page as soon as we are able to resume the workshop. All currently allocated places will be saved and we will email you to reconfirm your participation in the next introduction to machine learning workshop. In two weeks, we will send you links of all the materials for the workshop. Please stay healthy!
@@ -37,11 +41,13 @@ PC Pool 3<br />
 Werthmannstraße 4<br />
 79098 Freiburg im Breisgau, Baden-Württemberg, Germany
 
+<iframe title="Machine learning workshop venue map" src="https://maps.google.com/maps?q=47.993469,7.845275&z=15&output=embed" width="100%" height="360" loading="lazy"></iframe>
+
 # Important notes
 
 1. If you are registered but **cannot attend** our workshop, please [contact us by email](mailto:galaxy@informatik.uni-freiburg.de) immediately. We have a long waiting list and can give your place to others, even on short notice.
 2. Please register to our [European Galaxy server](https://usegalaxy.eu) to perform the analysis.
-3. You can bring your *own notebook* or desktop computers will be available. Eduroam is available, ask your institute for how to login.
+3. You can bring your _own notebook_ or desktop computers will be available. Eduroam is available, ask your institute for how to login.
 4. The workshop is free of charge. Unfortunately, no stipends for travel or accommodation are available.
 
 ## Program
@@ -50,20 +56,20 @@ Usually the workshop will run from 9:00-17:00 (give or take, depending on questi
 
 Preliminary schedule. Topics may be adjusted according to the participants demand
 
-| Day | Topics |
-| --- | --- |
-| Mon | **Starts at 10:00 am**, Introduction to Galaxy, machine learning basics and classification techniques. |
+| Day | Topics                                                                                                       |
+| --- | ------------------------------------------------------------------------------------------------------------ |
+| Mon | **Starts at 10:00 am**, Introduction to Galaxy, machine learning basics and classification techniques.       |
 | Tue | Regression models, unsupervised learning (clustering and dimension reduction) and feature selection methods. |
-| Wed | Hyperparameter optimization techniques, questions and discussions. **Ends at 2:00 pm** |
+| Wed | Hyperparameter optimization techniques, questions and discussions. **Ends at 2:00 pm**                       |
 
 ## Links
 
-* [Galaxy tips and tricks](https://github.com/bgruening/galaxy-tricks)
-* [Galaxy training network](http://training.galaxyproject.org)
+- [Galaxy tips and tricks](https://github.com/bgruening/galaxy-tricks)
+- [Galaxy training network](http://training.galaxyproject.org)
 
 ## Lunch Options
 
-<iframe src="https://www.google.com/maps/d/embed?mid=13xIYbHTYlxxu-oopBTsSJHqK42M8lO6C" width="100%" height="480"></iframe>
+<iframe title="Lunch options near the workshop venue" src="https://www.google.com/maps/d/embed?mid=1Brpw-UguRNDISn4_bVk8ifRkTRG8JIWR" width="100%" height="480" loading="lazy"></iframe>
 
 ## Travel Options
 
@@ -82,13 +88,17 @@ From Freiburg Hauptbahnhof to Venue you can walk or use local public transport (
 
 Some suggestions for hotels (please check portals such as HRS, booking, etc.)
 
-| Hotel | Location | Website |
-| --- | --- | --- |
-| Hotel am Rathaus | Rathausgasse 4-8 | [Website](http://www.am-rathaus.de/) |
-| Hotel Barbara | Poststrasse 4 | [Website](http://www.hotel-barbara.de/) |
-| Intercity Hotel Freiburg | Bismarckallee 3 | [Website](http://de.intercityhotel.com/Freiburg/InterCityHotel-Freiburg) |
-| Stadthotel Freiburg Kolping Hotel & Gästehaus | Karlstr.7 | [Website](http://www.hotel-freiburg.de/) |
-| Ibis Freiburg Süd (bit more far away) | Bötzinger Str.76 | [Website](http://www.accorhotels.com/de/hotel-2656-ibis-budget-freiburg-sued/index.shtml) |
-| StayInn Hostel und Gästehaus | Stühlinger Str.24a | [Website](http://www.stayinn-freiburg.de/hostel-und-gaestehaus/) |
+| Hotel                                         | Location           | Website                                                                                   |
+| --------------------------------------------- | ------------------ | ----------------------------------------------------------------------------------------- |
+| Hotel am Rathaus                              | Rathausgasse 4-8   | [Website](http://www.am-rathaus.de/)                                                      |
+| Hotel Barbara                                 | Poststrasse 4      | [Website](http://www.hotel-barbara.de/)                                                   |
+| Intercity Hotel Freiburg                      | Bismarckallee 3    | [Website](http://de.intercityhotel.com/Freiburg/InterCityHotel-Freiburg)                  |
+| Stadthotel Freiburg Kolping Hotel & Gästehaus | Karlstr.7          | [Website](http://www.hotel-freiburg.de/)                                                  |
+| Ibis Freiburg Süd (bit more far away)         | Bötzinger Str.76   | [Website](http://www.accorhotels.com/de/hotel-2656-ibis-budget-freiburg-sued/index.shtml) |
+| StayInn Hostel und Gästehaus                  | Stühlinger Str.24a | [Website](http://www.stayinn-freiburg.de/hostel-und-gaestehaus/)                          |
 
 > In Freiburg you sometimes have to pay an additional accommodation tax. For business trips this tax does not to be paid if your employer fills out [this form](http://www.freiburg.de/servicebw/UebernachtungSt_Arbeitgeberbescheinigung.pdf). You will need to show this form to the hotel.
+
+## Organizers
+
+This workshop was organized by the Freiburg Galaxy Team and Galaxy Europe.
