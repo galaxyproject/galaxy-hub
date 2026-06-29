@@ -1,7 +1,7 @@
 ---
 title: "Galaxy HTS data analysis workshop"
-date: '2019-02-25'
-end: '2019-03-01'
+date: "2019-02-25"
+end: "2019-03-01"
 days: 5
 tease: "Galaxy beginner workshop on High-Throughput data analysis"
 continent: EU
@@ -18,7 +18,15 @@ location:
 location_url: "#venue"
 gtn: true
 contact: "contact at usegalaxy.eu"
-subsites: [global, us]
+subsites: [eu, freiburg]
+main_subsite: freiburg
+contributions:
+  organisers:
+    - freiburggalaxyteam
+  funding:
+    - uni-freiburg
+    - deNBI
+    - MPIIE
 ---
 
 Galaxy beginner workshop on High-Throughput data analysis, February 2019, registration is closed.
@@ -30,11 +38,13 @@ Institute for Biology II/III<br />
 Schaenzlestr.1<br />
 79104 Freiburg im Breisgau, Baden-Württemberg, Germany
 
+<iframe title="Galaxy HTS data analysis workshop venue map" src="https://maps.google.com/maps?q=48.009973,7.857396&z=15&output=embed" width="100%" height="360" loading="lazy"></iframe>
+
 # Important notes
 
 1. If you are registered but **cannot attend** our workshop, please [contact us by email](mailto:galaxy@informatik.uni-freiburg.de) immediately. We have a long waiting list and can give your place to others, even on short notice.
 2. Please register to our [European Galaxy server](https://usegalaxy.eu) to perform the analysis. Participants from the MPI Freiburg, please note that the European Galaxy server is different from the MPI Galaxy server. You will need to have an account on [https://usegalaxy.eu](https://usegalaxy.eu) as well.
-3. You can bring your *own notebook* or desktop computers will be available. Eduroam is available, ask your institute for how to login.
+3. You can bring your _own notebook_ or desktop computers will be available. Eduroam is available, ask your institute for how to login.
 4. The workshop is free of charge. Unfortunately no stipends for travel or accommodation are available.
 
 ## Program
@@ -43,12 +53,12 @@ Every day the workshop will run from 9:00-17:00 (give or take, depending on ques
 
 Preliminary schedule. Topics may be adjusted according to the participants demand
 
-| Day | Topics |
-| --- | --- |
-| Mon | **Starts at 10:00 am**, HTS and Galaxy presentations and introduction |
-| Tue | ChIPseq data analysis |
-| Wed | RNA-seq data analysis |
-| Thu | HiC data analysis |
+| Day | Topics                                                                   |
+| --- | ------------------------------------------------------------------------ |
+| Mon | **Starts at 10:00 am**, HTS and Galaxy presentations and introduction    |
+| Tue | ChIPseq data analysis                                                    |
+| Wed | RNA-seq data analysis                                                    |
+| Thu | HiC data analysis                                                        |
 | Fri | exercises, questions, discussions, bring your own data ... (until 14:00) |
 
 ## Lunch Options
@@ -83,13 +93,17 @@ You are looking for building 1 (Institute of Biology II/III) on the [university 
 
 Some suggestions for hotels (please check portals such as HRS, booking, etc.)
 
-| Hotel | Location | Website |
-| --- | --- | --- |
-| Hotel am Rathaus | Rathausgasse 4-8 | [Website](http://www.am-rathaus.de/) |
-| Hotel Barbara | Poststrasse 4 | [Website](http://www.hotel-barbara.de/) |
-| Intercity Hotel Freiburg | Bismarckallee 3 | [Website](http://de.intercityhotel.com/Freiburg/InterCityHotel-Freiburg) |
-| Stadthotel Freiburg Kolping Hotel & Gästehaus | Karlstr.7 | [Website](http://www.hotel-freiburg.de/) |
-| Ibis Freiburg Süd (bit more far away) | Bötzinger Str.76 | [Website](http://www.accorhotels.com/de/hotel-2656-ibis-budget-freiburg-sued/index.shtml) |
-| StayInn Hostel und Gästehaus | Stühlinger Str.24a | [Website](http://www.stayinn-freiburg.de/hostel-und-gaestehaus/) |
+| Hotel                                         | Location           | Website                                                                                   |
+| --------------------------------------------- | ------------------ | ----------------------------------------------------------------------------------------- |
+| Hotel am Rathaus                              | Rathausgasse 4-8   | [Website](http://www.am-rathaus.de/)                                                      |
+| Hotel Barbara                                 | Poststrasse 4      | [Website](http://www.hotel-barbara.de/)                                                   |
+| Intercity Hotel Freiburg                      | Bismarckallee 3    | [Website](http://de.intercityhotel.com/Freiburg/InterCityHotel-Freiburg)                  |
+| Stadthotel Freiburg Kolping Hotel & Gästehaus | Karlstr.7          | [Website](http://www.hotel-freiburg.de/)                                                  |
+| Ibis Freiburg Süd (bit more far away)         | Bötzinger Str.76   | [Website](http://www.accorhotels.com/de/hotel-2656-ibis-budget-freiburg-sued/index.shtml) |
+| StayInn Hostel und Gästehaus                  | Stühlinger Str.24a | [Website](http://www.stayinn-freiburg.de/hostel-und-gaestehaus/)                          |
 
 > In Freiburg you sometimes have to pay an additional accommodation tax. For business trips this tax does not to be paid if your employer fills out [this form](http://www.freiburg.de/servicebw/UebernachtungSt_Arbeitgeberbescheinigung.pdf). You will need to show this form to the hotel.
+
+## Organizers
+
+This workshop was organized by the Freiburg Galaxy Team, Galaxy Europe, and MPI Freiburg.
