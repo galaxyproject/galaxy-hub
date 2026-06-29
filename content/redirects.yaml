@@ -102,15 +102,29 @@ redirects:
   /events.html: /eu/events/
   /gga.html: /use/gga/
   /index-microbiome.html: /bare/eu/usegalaxy/metagenomics/
-  /news.html: /eu/news/
-  /people.html: /eu/people/
+  /news.html: /news/
   /tiaas.html: /eu/tiaas/
   /widgets/: /eu/widgets/
   /widgets/events.html: /bare/eu/latest/events/
   /widgets/news.html: /bare/eu/latest/news/
   /freiburg/projects.html: /freiburg/projects/
   /freiburg/services.html: /freiburg/services/
+  /freiburg/publications: /freiburg/citations/
+  /freiburg/jobs: /careers/
+  /freiburg/lower1/: /freiburg/services/
+  /freiburg/lower3/: /freiburg/services/#acknowledgements
+  /event/2018-11-22-Galaxy-workshop-February2019/: /events/2019-02-25-galaxy-workshop-february2019/
+  /event/2019-08-08-microscopy-imaging-analysis/: /events/2019-09-microscopy/
+  /event/2020-01-20-GalaxyWS_scrna_FR/: /events/2020-03-denbi-single-cell/
+  /event/2020-01-21-MachineLearning/: /events/2020-03-denbi-machine-learning/
+  /posts/2019/05/20/tiaas-feedback/: /news/2019-05-20-tiaas-feedback/
+  /posts/2020/02/12/sab2020-stats/: /news/2020-02-12-sab2020-stats/
+  /posts/2020/02/12/sab2020-stats/plain.html: /news/2020-02-12-sab2020-stats/
+  /posts/2022/06/23/reached-50000-users/: /news/2022-06-23-reached-50000-users/
+  /posts/2022/08/05/galaxy-open-api/: /news/2022-08-05-galaxy-open-api/
   /news/2020-04-james-taylor/: /jxtx/
+  # Historical Galaxy Project support pages that have no migrated standalone
+  # content in this repository. Keep them discoverable through the archive.
   /automated-tool-tests/: /archive/
   /install-and-test-certification/: /archive/
 
