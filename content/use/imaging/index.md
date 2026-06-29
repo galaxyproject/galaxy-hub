@@ -27,5 +27,5 @@ pub_libraries:
   - "Imaging EU"
 sponsors:
   - "[Greg von Kuster](/people/greg-vonkuster/), [Björn Grüning](/people/bjoern-gruening/) and Thomas Wollmann"
-  - "The [Freiburg Galaxy Team](https://usegalaxy-eu.github.io/freiburg/) but also collectively by groups and individuals from across Europe"
+  - "The [Freiburg Galaxy Team](/freiburg/) but also collectively by groups and individuals from across Europe"
 ---

@@ -19,6 +19,10 @@ patterns:
 
 # Simple redirects — exact path mappings (from → to).
 redirects:
+  /event/2020-11-24-metabolomics/: /events/2020-12-10-metabolomics/
+  /event/2020-11-24-metabolomics/plain.html: /events/2020-12-10-metabolomics/
+  /event/2020-11-24-metabolomics/event.ics: /events/2020-12-10-metabolomics/
+  /event/2020-11-24-metabolomics/event.ics.html: /events/2020-12-10-metabolomics/
   /admin/authentication/config/: /authnz/config/
   /admin/authentication/: /authnz/
   /events/gtn.html: /events/gtn/
@@ -89,7 +93,38 @@ redirects:
 
   # Misc
   /FTPUpload/: /ftp-upload/
+  /ftp/: /ftp-upload/
+  /galaxy/: /eu/
+  /galaxy/data-policy.html: /eu/storage/
+  /galaxy/events.html: /eu/events/
+  /galaxy/news.html: /eu/news/
+  /events-ical.html: /eu/events/calendar.ics
+  /events.html: /eu/events/
+  /gga.html: /use/gga/
+  /index-microbiome.html: /bare/eu/usegalaxy/metagenomics/
+  /news.html: /news/
+  /tiaas.html: /eu/tiaas/
+  /widgets/: /eu/widgets/
+  /widgets/events.html: /bare/eu/latest/events/
+  /widgets/news.html: /bare/eu/latest/news/
+  /freiburg/projects.html: /freiburg/projects/
+  /freiburg/services.html: /freiburg/services/
+  /freiburg/publications: /freiburg/citations/
+  /freiburg/jobs: /careers/
+  /freiburg/lower1/: /freiburg/services/
+  /freiburg/lower3/: /freiburg/services/#acknowledgements
+  /event/2018-11-22-Galaxy-workshop-February2019/: /events/2019-02-25-galaxy-workshop-february2019/
+  /event/2019-08-08-microscopy-imaging-analysis/: /events/2019-09-microscopy/
+  /event/2020-01-20-GalaxyWS_scrna_FR/: /events/2020-03-denbi-single-cell/
+  /event/2020-01-21-MachineLearning/: /events/2020-03-denbi-machine-learning/
+  /posts/2019/05/20/tiaas-feedback/: /news/2019-05-20-tiaas-feedback/
+  /posts/2020/02/12/sab2020-stats/: /news/2020-02-12-sab2020-stats/
+  /posts/2020/02/12/sab2020-stats/plain.html: /news/2020-02-12-sab2020-stats/
+  /posts/2022/06/23/reached-50000-users/: /news/2022-06-23-reached-50000-users/
+  /posts/2022/08/05/galaxy-open-api/: /news/2022-08-05-galaxy-open-api/
   /news/2020-04-james-taylor/: /jxtx/
+  # Historical Galaxy Project support pages that have no migrated standalone
+  # content in this repository. Keep them discoverable through the archive.
   /automated-tool-tests/: /archive/
   /install-and-test-certification/: /archive/
 
@@ -268,3 +303,9 @@ redirects:
   /events/gcc-2026/travel/: /events/gcc2026/travel/
   /news/2025-10-15-egd-2025/: /news/2025-10-15-egd2025/
   /news/2026-03-02-MVD-workshop/: /news/2026-03-02-mvd-workshop/
+  /bare/eu/usegalaxy/microgalaxy/: /bare/eu/usegalaxy/microbiology/
+  /bare/eu/usegalaxy/index-materials/: /bare/eu/usegalaxy/materials/
+  /bare/eu/usegalaxy/index-nubri/: /bare/eu/usegalaxy/nubri/
+  /bare/eu/usegalaxy/index-plants/: /bare/eu/usegalaxy/plants/
+  /bare/eu/usegalaxy/index-streetscience/: /bare/eu/usegalaxy/streetscience/
+  /news/2021-11-ghelp-stats/: /news/2021-11-25-ghelp-stats/

@@ -39,7 +39,7 @@ Introduction to Galaxy or equivalent experience
 ### Speakers
 
 * Shahryar Alavi, Research Assistant, Department of Cell and Molecular Biology & Microbiology, University of Isfahan.
-* Alireza Khanteymoori, Postdoc Researcher at the University of Freiburg and member of the [European Galaxy team](https://usegalaxy-eu.github.io/freiburg/people).
+* Alireza Khanteymoori, Postdoc Researcher at the University of Freiburg and member of the [European Galaxy team](/freiburg/people/).
 
 ### Organizers
 

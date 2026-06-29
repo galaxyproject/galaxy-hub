@@ -27,5 +27,5 @@ citations:
   - "Batut, B. et al. (2017) [Community-driven data analysis training for biology](https://doi.org/10.1016/j.cels.2018.05.012). *Cell Systems*,  Volume 6, Issue 6, P752-758.e1, June 27, 2018"
 pub_libraries:
 sponsors:
-  - "[Freiburg Galaxy Project](https://usegalaxy-eu.github.io/freiburg/)"
+  - "[Freiburg Galaxy Project](/freiburg/)"
 ---
