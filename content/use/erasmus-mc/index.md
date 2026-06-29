@@ -12,7 +12,7 @@ image: "erasmus-mc-bioinf-300.png"
 comments:
   - "This server supports a wealth of RNA-Seq tasks, including: quantify gene expression (featureCounts, edgeR, experimental design module) determine and prioritize fusion genes (star-fusion, Fuma, ifuse) determine variants and annotate small variants (BAM to varscan2, Annovar) detect small ncRNA derived RNAs in small RNA-seq alignments (Flaimapper) Generate html user defined workflow (iReport) All tools are also available in the Tool Shed."
 user_support:
-  - "To inquire about this Galaxy server, increasing your disk quotum, or possibilities for collaborative projects, please contact one of our team."
+  - "To inquire about this Galaxy server, increasing your disk quotum, or possibilities for collaborative projects, please contact one of our [team](/erasmusmc/people)."
   - "[UseGalaxy.eu Matrix Support Channel](https://matrix.to/#/#galaxycomputationalchemistry_Lobby:gitter.im)"
   - "[Galaxy Help Forum](https://help.galaxyproject.org/)"
 quotas:
