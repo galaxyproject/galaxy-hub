@@ -2,17 +2,18 @@
 title: OpenAPI support in Galaxy and Interactive API Documentation
 tease: "Since Galaxy release 22.05 it's much easier to discover, explore, learn and experiment with the Galaxy Rest API."
 hide_tease: true
-date: '2022-08-05'
+date: "2022-08-05"
 tags: []
 subsites: [eu, freiburg]
 main_subsite: freiburg
 contributions:
+  authorship:
+    - davelopez
   funding:
-    - deNBI
-    - elixir-europe
+    - usegalaxy-eu
 ---
 
-Since Galaxy release 22.05 it's much easier to **discover**, **explore**, **learn** and **experiment** with the *Galaxy Rest API*.
+Since Galaxy release 22.05 it's much easier to **discover**, **explore**, **learn** and **experiment** with the _Galaxy Rest API_.
 
 Thanks to the recent development efforts in modernizing the Galaxy backend by migrating our custom API framework to [FastAPI](https://fastapi.tiangolo.com/) and moving from a Synchronous (WSGI) to an Asynchronous Server Gateway Interface ([ASGI](https://asgi.readthedocs.io/en/latest/specs/main.html)), the Galaxy API is now [OpenAPI](https://github.com/OAI/OpenAPI-Specification) compliant. This enables many new features that were not possible with the previous framework.
 
@@ -22,14 +23,13 @@ One of those new features is that we now have interactive API documentation usin
 
 ![Galaxy OpenAPI Demo](./2022-08-05-galaxy-open-api.gif)
 
-
 ### Let's have a look at how we are migrating our existing API routes
 
-As an example, we can see how the *show quota details* route was migrated in the [*Quotas* API](https://github.com/galaxyproject/galaxy/blob/dev/lib/galaxy/webapps/galaxy/api/quotas.py).
+As an example, we can see how the _show quota details_ route was migrated in the [_Quotas_ API](https://github.com/galaxyproject/galaxy/blob/dev/lib/galaxy/webapps/galaxy/api/quotas.py).
 
-Usually, the first step is moving the existing API logic to a *service layer*. Then, in the API module, we can focus on documenting each endpoint and keep the logic in a different class [QuotasService](https://github.com/galaxyproject/galaxy/blob/dev/lib/galaxy/webapps/galaxy/services/quotas.py) that has extensive [Python type hints](https://docs.python.org/3/library/typing.html) and returns [Pydantic](https://pydantic-docs.helpmanual.io/) models. These *Pydantic models* annotate each field with additional information used by FastAPI to generate the interactive documentation.
+Usually, the first step is moving the existing API logic to a _service layer_. Then, in the API module, we can focus on documenting each endpoint and keep the logic in a different class [QuotasService](https://github.com/galaxyproject/galaxy/blob/dev/lib/galaxy/webapps/galaxy/services/quotas.py) that has extensive [Python type hints](https://docs.python.org/3/library/typing.html) and returns [Pydantic](https://pydantic-docs.helpmanual.io/) models. These _Pydantic models_ annotate each field with additional information used by FastAPI to generate the interactive documentation.
 
-Here's an example of the *QuotaDetails* Pydantic model. It provides type hints for each field, default values, title and description:
+Here's an example of the _QuotaDetails_ Pydantic model. It provides type hints for each field, default values, title and description:
 
 ```python
 class QuotaDetails(QuotaBase):
@@ -62,7 +62,6 @@ class QuotaDetails(QuotaBase):
     )
 ```
 
-
 Then, the `api/quotas/{id}` route in our [Quotas API module](https://github.com/galaxyproject/galaxy/blob/c975fbc538bdd600d91116c82e7536cd4828714e/lib/galaxy/webapps/galaxy/api/quotas.py#L65) will be something like this:
 
 ```python
@@ -84,7 +83,7 @@ class FastAPIQuota:
         return self.service.show(trans, id)
 ```
 
-While the `show` function in the [*QuotasService* class](https://github.com/galaxyproject/galaxy/blob/c975fbc538bdd600d91116c82e7536cd4828714e/lib/galaxy/webapps/galaxy/services/quotas.py#L56) is the same that we had in the previous API framework, now, it uses Pydantic models and type annotations to document the parameters and return models.
+While the `show` function in the [_QuotasService_ class](https://github.com/galaxyproject/galaxy/blob/c975fbc538bdd600d91116c82e7536cd4828714e/lib/galaxy/webapps/galaxy/services/quotas.py#L56) is the same that we had in the previous API framework, now, it uses Pydantic models and type annotations to document the parameters and return models.
 
 ```python
 class QuotasService(ServiceBase):
@@ -100,4 +99,3 @@ class QuotasService(ServiceBase):
 ```
 
 Galaxy is a complex application and its API is considerable large! So there are still some undocumented routes out there. If you are familiar with Galaxy and want to help migrate more API routes or improve the existing documented ones, you are very welcome! Please look at this [GitHub issue](https://github.com/galaxyproject/galaxy/issues/10889) to track which APIs still need documentation.
-
