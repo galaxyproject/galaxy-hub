@@ -27,10 +27,6 @@ contributions:
     - bmbf
     - dfg
     - uni-freiburg
-    - pari
-    - neic
-    - galaxy-freiburg
-    - usegalaxy-eu
 ---
 
 ![50,000 users](./reached_50000_users.png)
