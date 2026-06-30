@@ -9,8 +9,6 @@ main_subsite: freiburg
 contributions:
   authorship:
     - davelopez
-  funding:
-    - usegalaxy-eu
 ---
 
 Since Galaxy release 22.05 it's much easier to **discover**, **explore**, **learn** and **experiment** with the _Galaxy Rest API_.
