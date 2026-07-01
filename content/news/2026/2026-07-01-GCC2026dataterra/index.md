@@ -1,7 +1,7 @@
 ---
-title: "From Concarneau to Clermont, a GCC2026 roadtrip"
+title: "Our journey in GCC2026 Clermont-Ferrand"
 date: "2026-07-01"
-tease: "This is a small overview about our journey in GCC2026 Clermont-Ferrand"
+tease: "A GCC2026 roadtrip, from Concarneau to Clermont"
 tags: [ecology, earth system, gcc2026]
 subsites: [all]
 contributions:
@@ -18,11 +18,35 @@ contributions:
     - ISYEB     # organisation
     - gaiadata     # grant
 ---
+# Earth System Sciences and Ecology hand in hand to GCC2026
 
-# Why Concarneau
+## Who are we ?
+A quite new community (3 years old) coming for the 1st time with multiple people to GCC, we're talking of course about GESS (Galaxy for Earth System Sciences System) accompanied by it's older sister Ecology (we'll come back to her jsut below).
+
+## GESS
+Coming from accross france and with participation of our felow european GESS people we reached Clermont under a lightly warm weather;)
+
+### Our participation to GCC2026
+TO DO
+#### Talks & posters & BOFS
+- GESS a sig presentation and global talk + poster of our community (Aquainfra NFDI4Earth, Data Terra and EOSC node data terra)
+- Odatis poster
+- UGA POster
+- BRGM talk & poster
+- ALL the eoclogy presentations (described below)
+- Vlad bof
+- Martin Bof
+- Marie BOf
+
+#### Data Terra x PNDB sponsorships
+TO DO
+  
+
+## Ecology
+### Why Concarneau
 We are 6 young, sorry, 5 ;) young talented ecoinformaticians and an older one ;), coming from Rennes, Paris, Toulouse, Clermont-Ferrand (yes, there is people coming from Clermont bioinformatics school ;) ) and linked by the amazing Concarneau marine station where we are working as engineer or student as internship!
 
-# Our particiaption to GCC2026
+### Our participation to GCC2026
 We were going to Clermont-Ferrand to present our work as posters and/or talks (you can have more info on the [GCC2026 schedule](https://galaxyproject.org/events/gcc2026/schedule/) dedicated page):
 - Kevin Payet: Updating a ten years old metabarcoding Galaxy toolsuite for Galaxy Ecology and applying to Antarctic conservation needs
 - Emilie-Jeanne: Reusing 15 years old scientific work to guide Galaxy Ecology tools creation for marine spatial planning
@@ -37,7 +61,7 @@ We also were working on Galaxy Ecology things during CoFest
 <img width="598" height="327" alt="image" src="https://github.com/user-attachments/assets/9786f159-aa52-4056-9299-d86f1ca0ce85" />
 
 
-# Something about reaching Clermont-Ferrand with an eletric car
+### Something about reaching Clermont-Ferrand with an eletric car
 
 <img width="499" height="319" alt="image" src="https://github.com/user-attachments/assets/74c6ae85-1fc6-44ad-805a-f695a1c92d54" />
 
