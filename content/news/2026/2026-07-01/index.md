@@ -9,10 +9,14 @@ contributions:
     - yvanlebras
     - PaulineSGN
   funding:
-    - mnhn
-    - isyeb
-    - dataterra
-    - gaiadata
+    - pndb # organisation
+    - mnhn # organisation
+    - dataterra # organisation
+    - moorev         # grant
+    - fondfrance     # grant
+    - sorbonneuniv # organisation
+    - ISYEB     # organisation
+    - gaiadata     # grant
 ---
 
 # Why Concarneau
