@@ -2,7 +2,7 @@
 title: "From Concarneau to Clermont, a GCC2026 roadtrip"
 date: "2026-07-01"
 tease: "This is a small overview about our journey in GCC2026 Clermont-Ferrand"
-tags: [fairymags, metagenomics, staffexchange]
+tags: [ecology, earth system, gcc2026]
 subsites: [all]
 contributions:
   authorship:
