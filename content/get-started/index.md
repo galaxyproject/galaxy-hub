@@ -24,6 +24,7 @@ The easiest way to be able to follow our tutorials and learn first-hand about Ga
 - [**US Server**](https://usegalaxy.org)
 - [**EU Server**](https://usegalaxy.eu)
 - [**AU Server**](https://usegalaxy.org.au)
+- [**CA Server**](https://usegalaxy.ca)
 
 We also encourage you to create an account for the server you'll be using to keep track of your histories and workflows.
 
