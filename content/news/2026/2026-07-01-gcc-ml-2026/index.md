@@ -39,9 +39,9 @@ training or fine-tuning models in Galaxy, evaluating them on unseen data, and sh
 bio.tools, Zenodo and Dataverse. Some of the research data repositories have already been integrated with Galaxy, 
 and the talk highlighted the potential work to integrate BioAIrepo and others with Galaxy.
 
-<img src="./images/elixir-talk-BioHackathon-2026-1.png" alt="GCC 2026 ELIXIR BioHackathon talk" width="800"/>
+<img src="./images/elixir-talk-biohackathon-2026-1.png" alt="GCC 2026 ELIXIR BioHackathon talk" width="800"/>
 
-<img src="./images/elixir-talk-BioHackathon-2026-2.png" alt="GCC 2026 ELIXIR BioHackathon talk" width="800"/>
+<img src="./images/elixir-talk-biohackathon-2026-2.png" alt="GCC 2026 ELIXIR BioHackathon talk" width="800"/>
 
 
 ### ML training: Image classification with GLEAM Image Learner
