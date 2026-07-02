@@ -11,7 +11,8 @@ contributions:
   funding:
     - uni-freiburg
     - deNBI
-    - elixir
+    - elixir-de
+    - elixir-europe
 ---
 
 ## Machine learning SIG at the Galaxy Community Conference 2026
