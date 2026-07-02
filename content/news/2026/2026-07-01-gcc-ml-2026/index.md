@@ -2,25 +2,26 @@
 subsites:
 - all
 date: '2026-07-01'
-title: Machine learning at Galaxy Community Conference 2026
+title: Machine learning SIG at the Galaxy Community Conference 2026
 tags: [tools, workflow, training]
-tease: "Machine learning at Galaxy Community Conference 2026"
+tease: "Machine learning at Galaxy Community Conference 2026, Clermont-Ferrand, France"
 contributions:
   authorship:
     - anuprulez
   funding:
     - uni-freiburg
     - deNBI
+    - elixir
 ---
 
-## Machine learning at Galaxy Community Conference 2026
+## Machine learning SIG at the Galaxy Community Conference 2026
 
 At the Galaxy Community Conference 2026 in Clermont-Ferrand, France, 22–26 June, the Galaxy Machine Learning community showcased a strong and connected vision for 
 making AI/ML more usable, reproducible, and FAIR in life-science data analysis. The following sections highlight multiple contributions from the Galaxy ML community, including a poster, an ELIXIR BioHackathon talk, a training session, and CoFest work.
 
 ### Poster
 
-The [ML poster](https://docs.google.com/presentation/d/1CRaXPXWu_ZO67V02vtp0kOMqsTCuFZ2w/edit?usp=sharing&ouid=113741045749084750249&rtpof=true&sd=true) highlighted the expanding Galaxy AI/ML ecosystem, including RAG workflows, 
+The [ML poster](https://doi.org/10.5281/zenodo.21133087) highlighted the expanding Galaxy AI/ML ecosystem, including RAG workflows, 
 [Flexynesis](https://usegalaxy.eu/?tool_id=flexynesis) for AI-powered multi-omics integration, [TabPFN](https://usegalaxy.eu/?tool_id=tabpfn) for fast tabular prediction, 
 [GPU-enabled JupyterLab](https://usegalaxy.eu/?tool_id=interactive_tool_ml_jupyter_notebook&version=latest) for scalable model development, [Galaxy-ML tools powered by Scikit-learn](https://ml.usegalaxy.eu/), 
 XGBoost and TensorFlow, text-segmentation workflows using [DocLayout-YOLO](https://usegalaxy.eu/?tool_id=doclayoutyolo) and Hugging Face's Galaxy integration, 
@@ -36,7 +37,7 @@ The project [Project 13: ELIXIR AI Ecosystem Integration: Bridging DOME, BioAIre
 upcoming BioHackathon 2026. I presented the project (from Galaxy side) in the ELIXIR BioHackathon talk at GCC 2026. The talk highlighted the need for a more connected ecosystem of AI/ML tools and resources in life sciences,
 The ELIXIR talk presented potential ideas for bridging DOME, BioAIrepo, and Galaxy to support the full ML/AI project lifecycle: discovering models and metadata, 
 training or fine-tuning models in Galaxy, evaluating them on unseen data, and sharing trained models and metadata back to public repositories such as BioAIrepo, BioModels, Europe PMC, 
-bio.tools, Zenodo and Dataverse. Some of the research data repositories have already been integrated with Galaxy, 
+bio.tools, [Zenodo](https://archive.galaxyproject.org/news/2025-03-10-inveniordm-integration-update/) and [Dataverse](https://galaxyproject.org/news/2026-01-15-dataverse/). Some of the research data repositories have already been integrated with Galaxy, 
 and the talk highlighted the potential work to integrate BioAIrepo and others with Galaxy.
 
 <img src="./images/elixir-talk-biohackathon-2026-1.png" alt="GCC 2026 ELIXIR BioHackathon talk" width="800"/>
@@ -46,13 +47,11 @@ and the talk highlighted the potential work to integrate BioAIrepo and others wi
 
 ### ML training: Image classification with GLEAM Image Learner
 
-Michelle and I conducted the ML training session using “GLEAM Image Learner – Validating Skin Lesion Classification on HAM10000” tutorial, 
+Michelle and I conducted the ML training session using [GLEAM Image Learner](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/image_learner/tutorial.html) tutorial, 
 demonstrating practical image-learning tools in Galaxy for biomedical applications including balanced train/validation/test splitting, use of a pretrained CaFormer S18 384 backbone, and evaluation 
-with accuracy, weighted precision, recall and F1 for imbalanced medical imaging datasets. 
+with accuracy, weighted precision, recall and F1 for imbalanced medical imaging datasets.
 
 <img src="./images/gcc-ml-training-gleam.png" alt="GCC 2026 ML training" width="800"/>
-
-[GLEAM Image learner](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/image_learner/tutorial.html)
 
 ### CoFest
 
@@ -65,7 +64,7 @@ and trust for the LLM generated responses.
 
 ### Acknowledgements
 
-I would like to thank the Galaxy ML community (Michelle, Paulo, Dannon, Jeremy and others) for their contributions to the poster, ELIXIR BioHackathon talk, training session, and CoFest work. Special thanks to the organizers of GCC 2026 for providing a platform to showcase our work and foster collaboration within the Galaxy community.
+I would like to thank the [Galaxy ML community](https://galaxyproject.org/community/sig/ml-ai-across-galaxy/) (Michelle, Paulo, Dannon, Jeremy and others) for their contributions to the poster, ELIXIR BioHackathon talk, training session, and CoFest work. Special thanks to the organizers of GCC 2026 for providing a platform to showcase our work and foster collaboration within the Galaxy community.
 I would also like to thank the ELIXIR BioHackathon organizers for accepting our project and Gavin and Eliot for their work on the proposal. 
 Additionally, I would like to acknowledge the support from the University of Freiburg for funding my participation in the conference.
 
