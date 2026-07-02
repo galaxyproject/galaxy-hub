@@ -64,8 +64,8 @@ and trust for the LLM generated responses.
 <img src="./images/galaxy_ai_ref_urls.png" alt="GalaxyAI reference URLs" width="800"/>
 
 ### Acknowledgements
-
-I would like to thank the [Galaxy ML community](https://galaxyproject.org/community/sig/ml-ai-across-galaxy/) (Michelle, Paulo, Dannon, Jeremy and others) for their contributions to the poster, ELIXIR BioHackathon talk, training session, and CoFest work. Special thanks to the organizers of GCC 2026 for providing a platform to showcase our work and foster collaboration within the Galaxy community.
+Special thanks to the organizers of GCC 2026 in Clermont-Ferrand, France for providing a platform to showcase our work and foster collaboration within the Galaxy community.
+I would like to thank the [Galaxy ML community](https://galaxyproject.org/community/sig/ml-ai-across-galaxy/) (Michelle, Paulo, Dannon, Jeremy and others) for their contributions to the poster, ELIXIR BioHackathon talk, training session, and CoFest work. 
 I would also like to thank the ELIXIR BioHackathon organizers for accepting our project and Gavin and Eliot for their work on the proposal. 
 Additionally, I would like to acknowledge the support from the University of Freiburg for funding my participation in the conference.
 
