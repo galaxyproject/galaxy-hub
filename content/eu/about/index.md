@@ -8,11 +8,11 @@ Our Galaxy server ([https://usegalaxy.eu](https://usegalaxy.eu)) is the **bigges
 With this server, we provide access to:
 
 - a huge compute and storage resource free of charge,
-- more than 3900 different, well-documented and constantly maintained scientific tools,
+- more than 4000 different, well-documented and constantly maintained scientific tools,
 - 250+ GB per user (500 GB for ELIXIR members).
-- We also support numerous additional storage options and you can learn about them [here](/eu/storage/).
+- We also support numerous additional storage options, and you can learn about them [here](/eu/storage/).
 
-When this effort is combined with our community-maintained workflows and our in-depth training material, it makes up for a truly productive work experience. We believe in enabling everyone to perform reproducible science.
+When this effort is combined with our community-maintained workflows and our in-depth training materials, it makes up for a truly productive work experience. We believe in enabling everyone to perform reproducible science.
 
 ### ACKNOWLEDGEMENT
 
@@ -24,8 +24,8 @@ Individuals who have contributed to the project, but whose contributions do not 
 
 > The authors acknowledge the support of the Freiburg Galaxy Team: Person _X_ and Björn Grüning, Bioinformatics, University of Freiburg (Germany), funded by the German Federal Ministry of Education and Research [BMFTR](https://www.bmftr.bund.de) grant 031 A538A [de.NBI](https://www.denbi.de)-RBC and the Ministry of Science, Research and the Arts Baden-Württemberg (MWK) within the framework of LIBIS/de.NBI Freiburg.
 
-Additional funding of projects as well as the provision of material expenses, is welcome to support our growing Galaxy community in Freiburg and Europe.
-Please also cite the [main Galaxy publication](https://doi.org/10.1093/nar/gkae410).
+Additional funding for projects, as well as the provision of material expenses, is welcome to support our growing Galaxy community in Freiburg and Europe.
+Please also cite the [main Galaxy publication](https://doi.org/10.1093/nar/gkag469).
 
 ## <Icon name="table-2" /> Data Analysis for any Scientist
 
@@ -90,3 +90,4 @@ Thousands of tools are available with fixed versions and are managed by [Biocond
 - [africa.usegalaxy.eu](https://africa.usegalaxy.eu)
 - [microbiome.usegalaxy.eu](https://microbiome.usegalaxy.eu)
 - [cancer.usegalaxy.eu](https://cancer.usegalaxy.eu)
+- [ssh.usegalaxy.eu](https://ssh.usegalaxy.eu/)
