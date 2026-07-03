@@ -7,6 +7,9 @@ subsites: [global, freiburg, eu, esg]
 tags: [esg,elixir,esg-wp1,esg-wp3, esg-wp4, esg-wp2, esg-wp5, meeting, outreach, talk, workshop, training, eosc]
 main_subsite: eu
 contributions:
+  authorship:
+    - pavanvidem
+    - wm75
   funding:
     - eu
     - uni-freiburg
