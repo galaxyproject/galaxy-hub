@@ -236,7 +236,7 @@ test.describe('Bare Pages', () => {
     test('/bare/eu/usegalaxy/main/ keeps section buttons compact', async ({ page }) => {
       await page.goto('/bare/eu/usegalaxy/main/');
 
-      for (const label of ['See all projects', 'Browse subdomains', 'Learn how to cite', 'Meet the team']) {
+      for (const label of ['See all projects', 'Browse subdomains', 'View publications', 'Meet the team']) {
         const button = page.getByRole('link', { name: label });
         await expect(button).toBeVisible();
         await expect(button.locator('p')).toHaveCount(0);
