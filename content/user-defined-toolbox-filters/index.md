@@ -5,9 +5,23 @@ highlight: true
 
 ToolBox filters can be applied by an admin and/or by a user dynamically to filter the large list of tools.
 
+<div class="alert alert-warning" role="alert">
+Toolbox filters are deprecated as of Galaxy 26.1 and are scheduled for removal after the Galaxy 26.1 release series.
+</div>
+
 <div class="alert alert-info" role="alert">
 Filters will only hide Tools from the User Interface, they are still available and can be made visible by means of HTML manipulation. That said this is not a security feature, it is intended to separate multiple groups of Tools and simplify the ToolBox.
 </div>
+
+Toolbox filters only ever affected toolbox display. They did not restrict tool execution through the API, workflows, direct URLs, reruns, or other execution paths. Sites that used toolbox filters as a policy mechanism also needed a separate hard restriction layer, such as [TPV](https://total-perspective-vortex.readthedocs.io/) rules or dynamic job destinations, to prevent restricted tools from running.
+
+For replacement approaches:
+
+- Use [tool panel views](https://docs.galaxyproject.org/en/latest/admin/tool_panel_views.html) to provide alternate toolbox layouts or simplified tool panels.
+- Use [TPV](https://total-perspective-vortex.readthedocs.io/) or other dynamic job destination configuration to enforce hard execution policy.
+- Use Galaxy's built-in tool visibility and access controls for behavior that should remain server-side, such as hidden tools, login-required tools, and admin-only tools.
+
+The rest of this page documents the legacy toolbox filter mechanism for older Galaxy releases and for administrators migrating existing configurations.
 
 ## For Users
 
