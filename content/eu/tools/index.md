@@ -2,7 +2,7 @@
 # THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
 # To update, run: python3 scripts/update-tools.py --server https://usegalaxy.eu --name "European Galaxy" --output content/eu/tools/index.md
 title: European Galaxy Tools
-description: "4309 tools and counting"
+description: "4327 tools and counting"
 ---
 
 
@@ -587,6 +587,7 @@ description: "4309 tools and counting"
 [Samtools consensus](https://usegalaxy.eu/root?tool_id=samtools_consensus "generate consensus from a SAM, BAM or CRAM file")
 [Samtools coverage](https://usegalaxy.eu/root?tool_id=samtools_coverage "Produces a histogram or table of coverage per chromosome")
 [Samtools depth](https://usegalaxy.eu/root?tool_id=samtools_depth "compute the depth at each position or region")
+[Samtools faidx](https://usegalaxy.eu/root?tool_id=samtools_faidx "Index a FASTA file")
 [Samtools fastx](https://usegalaxy.eu/root?tool_id=samtools_fastx "extract FASTA or FASTQ from alignment files")
 [Samtools fixmate](https://usegalaxy.eu/root?tool_id=samtools_fixmate "fill mate coordinates, ISIZE and mate related flags")
 [Samtools flagstat](https://usegalaxy.eu/root?tool_id=samtools_flagstat "tabulate descriptive stats for BAM datset")
@@ -904,8 +905,11 @@ description: "4309 tools and counting"
 [Interrupted gene detection tool](https://usegalaxy.eu/root?tool_id=edu.tamu.cpt2.phage.intron_detection "based on nearby protein blast results")
 [Intersect and Adjacent](https://usegalaxy.eu/root?tool_id=edu.tamu.cpt.gff3.intersect_and_adjacent "Outputs nearby top-level GFF features from two GFF3 files")
 [KAT Cold](https://usegalaxy.eu/root?tool_id=kat_cold "Contig length and duplication analysis")
+[KAT Comp](https://usegalaxy.eu/root?tool_id=kat_comp "compares k-mer count hashes")
 [KAT Filter Kmer](https://usegalaxy.eu/root?tool_id=kat_filter_kmer "filters k-mers to those within and outside defined bounds")
 [KAT Filter Seq](https://usegalaxy.eu/root?tool_id=kat_filter_seq "filters sequences based on k-mer content")
+[KAT GCP](https://usegalaxy.eu/root?tool_id=kat_gcp "GC vs Coverage analysis of k-mers")
+[KAT Histogram](https://usegalaxy.eu/root?tool_id=kat_hist "creates a histogram of k-mer occurrences")
 [KAT Sect](https://usegalaxy.eu/root?tool_id=kat_sect "estimates k-mer coverage across sequences")
 [KOBAS Annotate](https://usegalaxy.eu/root?tool_id=kobas_annotate "KEGG Orthology Based Annotation System")
 [KOBAS Identify](https://usegalaxy.eu/root?tool_id=kobas_identify "KEGG Orthology Based Annotation System")
@@ -1583,6 +1587,7 @@ description: "4309 tools and counting"
 [snippy-clean_full_aln](https://usegalaxy.eu/root?tool_id=snippy_clean_full_aln "Replace any non-standard sequence characters in snippy &#x27;core.full.aln&#x27; file.")
 [snippy-core](https://usegalaxy.eu/root?tool_id=snippy_core "Combine multiple Snippy outputs into a core SNP alignment")
 [som.py and hap.py](https://usegalaxy.eu/root?tool_id=som.py "Comparison of somatic callsets based only on chromosome, position, and allele identity")
+[ssiamb](https://usegalaxy.eu/root?tool_id=ssiamb_self "ambiguous SNV counter from reads mapped to a supplied assembly")
 [structureHarvester](https://usegalaxy.eu/root?tool_id=structureharvester "for parsing STRUCTURE outputs and for performing the Evanno method")
 [vcfanno](https://usegalaxy.eu/root?tool_id=vcfanno "VCF annotation")
 [vg convert](https://usegalaxy.eu/root?tool_id=vg_convert "")
@@ -1662,6 +1667,7 @@ description: "4309 tools and counting"
 [Dr. Disco (detect)](https://usegalaxy.eu/root?tool_id=dr_disco_detect "Detects break-points in RNA-seq")
 [Dr. Disco (fix)](https://usegalaxy.eu/root?tool_id=dr_disco_fix "Fixes chimeric alignments from STAR")
 [Dr. Disco (integrate)](https://usegalaxy.eu/root?tool_id=dr_disco_integrate "Merges corresponding genomic breaks and exon-to-exon junctions")
+[EASTR](https://usegalaxy.eu/root?tool_id=eastr "emend alignments of spliced transcript reads by removing spurious splice junctions")
 [EGSEA](https://usegalaxy.eu/root?tool_id=egsea "easy and efficient ensemble gene set testing")
 [Evaluation of RRIs using CheRRI](https://usegalaxy.eu/root?tool_id=cherri_eval "")
 [Extract CuffDiff](https://usegalaxy.eu/root?tool_id=cummerbund_to_cuffdiff "tabular files from a cummeRbund database")
@@ -2075,6 +2081,11 @@ description: "4309 tools and counting"
 [MuSiC Deconvolution](https://usegalaxy.eu/root?tool_id=music_deconvolution "estimate cell type proportions in bulk RNA-seq data")
 [RCTD](https://usegalaxy.eu/root?tool_id=spacexr_rctd "Cell type identification with RCTD")
 [SCEasy Converter](https://usegalaxy.eu/root?tool_id=sceasy_convert "Convert between common single cell formats")
+[SOPA Aggregate](https://usegalaxy.eu/root?tool_id=sopa_aggregate "transcripts and/or channel intensities per cell")
+[SOPA Patchify](https://usegalaxy.eu/root?tool_id=sopa_patchify "generate patches for cell segmentation")
+[SOPA Report](https://usegalaxy.eu/root?tool_id=sopa_report "Generate HTML quality control report")
+[SOPA Resolve](https://usegalaxy.eu/root?tool_id=sopa_resolve "patch conflicts in segmented data")
+[SOPA Segmentation](https://usegalaxy.eu/root?tool_id=sopa_segmentation "Perform cell segmentation on patches")
 [Scanpy Inspect and manipulate](https://usegalaxy.eu/root?tool_id=scanpy_inspect "")
 [Scanpy cluster, embed](https://usegalaxy.eu/root?tool_id=scanpy_cluster_reduce_dimension "and infer trajectories")
 [Scanpy filter](https://usegalaxy.eu/root?tool_id=scanpy_filter "mark and subsample")
@@ -2649,6 +2660,12 @@ description: "4309 tools and counting"
 [LASTdb](https://usegalaxy.eu/root?tool_id=last_db "prepares sequences for subsequent comparison and alignment using lastal.")
 [LotuS2](https://usegalaxy.eu/root?tool_id=lotus2 "fast OTU processing pipeline")
 [MAF-convert](https://usegalaxy.eu/root?tool_id=last_maf_convert "read MAF-format alignments and write them in another format.")
+[MAGs-visualization comp-conta](https://usegalaxy.eu/root?tool_id=mags_visualization_comp_conta "Create completeness/contamination plots")
+[MAGs-visualization drep-cluster-annot](https://usegalaxy.eu/root?tool_id=mags_visualization_drep_cluster_annot "Create a bar chart of dRep clusters with optional annotation")
+[MAGs-visualization drep-cluster-func](https://usegalaxy.eu/root?tool_id=mags_visualization_drep_cluster_func "Create a dRep cluster plot with functional annotation")
+[MAGs-visualization pathway-module-heatmap](https://usegalaxy.eu/root?tool_id=mags_visualization_pathway_module_heatmap "Create a MAG vs pathway-module heatmap")
+[MAGs-visualization sample-heatmap](https://usegalaxy.eu/root?tool_id=mags_visualization_sample_heatmap "Create a sample heatmap plot")
+[MAGs-visualization taxa-sankey](https://usegalaxy.eu/root?tool_id=mags_visualization_taxa_sankey "Create GTDB taxonomy Sankey plots")
 [MALT analyzer](https://usegalaxy.eu/root?tool_id=malt_run "")
 [MAPseq](https://usegalaxy.eu/root?tool_id=mapseq "sequence read classification designed to assign taxonomy and OTU classifications")
 [MEGAN Blast2LCA: apply LCA alignment](https://usegalaxy.eu/root?tool_id=megan_blast2lca "to produce a taxonomic classification")
@@ -4041,6 +4058,7 @@ description: "4309 tools and counting"
 [3DTrees: LAS/LAZ Standardization](https://usegalaxy.eu/root?tool_id=3dtrees_standardization "Standardize LAS/LAZ files or validate collections for consistency")
 [3DTrees: SmartTile](https://usegalaxy.eu/root?tool_id=3dtrees_smart_tile "Create COPC tiles, subsample outputs, filter border overlap, and remap prediction dimensions")
 [3Dtrees: DetailView](https://usegalaxy.eu/root?tool_id=3dtrees_detailview "species prediction on segmented point cloud.")
+[3Dtrees: ForestMamba](https://usegalaxy.eu/root?tool_id=3dtrees_forestmamba "Forest instance and semantic segmentation of point clouds using the ForestMamba model.")
 [3Dtrees: Overviews](https://usegalaxy.eu/root?tool_id=3dtrees_overviews "Generate 3D point cloud overview images from LAZ/LAS datasets")
 [3Dtrees: Potree Converter](https://usegalaxy.eu/root?tool_id=3dtrees_potree "Convert LAS/LAZ point clouds to Potree octree format for web visualization")
 [3Dtrees: Py3DTiles Converter](https://usegalaxy.eu/root?tool_id=3dtrees_py3dtiles "Convert LAS/LAZ collection to Cesium 3D points_tiles")
