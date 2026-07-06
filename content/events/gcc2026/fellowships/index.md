@@ -242,6 +242,15 @@ Originally from Nepal, Shubham completed his undergraduate studies in biotechnol
 We are pleased to announce the 17 awardees of the GTA2026 Scholarship, which supports virtual participation in GCC2026 for participants from the Galaxy Training Academy 2026 community.
 
 <div class="profile-row">
+  <img class="profile-row__photo" src="/images/events/gcc2026/parul-bhayana.jpg" alt="Parul Bhayana" />
+  <div class="profile-row__bio">
+
+Parul Bhayana is a B.Sc. Biotechnology student from India with a strong interest in bioinformatics, genomics, and computational biology. Through participation in Galaxy Training Academy 2026, Parul has been gaining hands-on experience with Galaxy workflows, next-generation sequencing data analysis, and introductory transcriptomics. Parul is interested in pursuing advanced studies and research in bioinformatics and is excited to engage with and learn from the global Galaxy community through GCC2026.
+
+  </div>
+</div>
+
+<div class="profile-row">
   <img class="profile-row__photo" src="/images/events/gcc2026/Ariel_photo.png" alt="Ariel Moura Maia" />
   <div class="profile-row__bio">
 
