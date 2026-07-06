@@ -22,7 +22,7 @@ making AI/ML more usable, reproducible, and FAIR in life-science data analysis. 
 
 ### Poster
 
-The [ML poster](https://doi.org/10.5281/zenodo.21133087) highlighted the expanding Galaxy AI/ML ecosystem, including RAG workflows, 
+The [ML in Galaxy poster](https://doi.org/10.5281/zenodo.21133087) highlighted the expanding Galaxy AI/ML ecosystem, including RAG workflows, 
 [Flexynesis](https://usegalaxy.eu/?tool_id=flexynesis) for AI-powered multi-omics integration, [TabPFN](https://usegalaxy.eu/?tool_id=tabpfn) for fast tabular prediction, 
 [GPU-enabled JupyterLab](https://usegalaxy.eu/?tool_id=interactive_tool_ml_jupyter_notebook&version=latest) for scalable model development, [Galaxy-ML tools powered by Scikit-learn](https://ml.usegalaxy.eu/), 
 XGBoost and TensorFlow, text-segmentation workflows using [DocLayout-YOLO](https://usegalaxy.eu/?tool_id=doclayoutyolo) and Hugging Face's Galaxy integration, 
@@ -71,7 +71,7 @@ Additionally, I would like to acknowledge the support from the University of Fre
 
 ### References
 
-- [GCC 2026 ML Poster](https://docs.google.com/presentation/d/1CRaXPXWu_ZO67V02vtp0kOMqsTCuFZ2w/edit?usp=sharing&ouid=113741045749084750249&rtpof=true&sd=true)
+- [GCC 2026 ML Poster](https://doi.org/10.5281/zenodo.21133087)
 - [GCC ELIXIR BioHackathon talk](https://docs.google.com/presentation/d/1iDJHLkS-2kpeKLkkIYVxAqR0KmPRLFhiZMUK_jBQlHY/edit?usp=sharing)
 - [ML training: GLEAM Image Learner training](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/image_learner/tutorial.html)
 - [CoFest PR](https://github.com/galaxyproject/galaxy/pull/23027)
