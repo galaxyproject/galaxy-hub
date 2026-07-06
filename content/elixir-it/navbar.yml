@@ -42,7 +42,7 @@ right:
     - label: About
       contents:
           - label: Publications
-            target: https://usegalaxy-eu.github.io/elixir-it/publications
+            target: /elixir-it/cite/
           - label: Platforms
             target: "/use/"
           - label: Careers

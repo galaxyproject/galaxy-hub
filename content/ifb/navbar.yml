@@ -6,7 +6,8 @@ left:
       relativeTo: subsite
       target: news/
     - label: People
-      target: https://usegalaxy-eu.github.io/ifb/people
+      relativeTo: subsite
+      target: people/
 right:
     - label: Help
       contents:

@@ -18,13 +18,13 @@ contributions:
 
 We thank everyone for their support during the [__Plant Transcriptome Analysis using Galaxy__](https://docs.google.com/document/d/1Y5MqYmMxFCy7PDImYYuHLhgCKVV7MjoGMr22G2U68Ec/preview) workshop that took place online in the week of the 19th of April. The workshop offered a complete crash course in Galaxy and built towards __miRNA and single-cell RNA topics__ that were tailored for _Arabidopsis_ genomes.
 
-![Flyer](/assets/media/plant_workshop/plants_workshop_flyer.png)
+![Flyer](/assets/media/plant-workshop/plants_workshop_flyer.png)
 
 # Plants flavour: [plants.usegalaxy.eu](https://plants.usegalaxy.eu/)
 
 A [__special flavour of the European Galaxy Server__](https://galaxyproject.eu/posts/2020/12/28/subdomains/) was set up for this workshop, filtering the tools by their relevance to the plant research field.
 
-![Plants subdomain](/assets/media/plant_workshop/plants_subdomain.png)
+![Plants subdomain](/assets/media/plant-workshop/plants_subdomain.png)
 
 # Format
 
@@ -38,11 +38,11 @@ During the training week, __24 experts from different time zones were available 
 
 Participants attended from __all over the globe__, enabled by the flexible learning resources provided, with a particular interest in the RNA-based tutorials available in the [Galaxy Training Network (GTN)](https://training.galaxyproject.org/). 
 
-![Participation by country](/assets/media/plant_workshop/worldstats.png)
+![Participation by country](/assets/media/plant-workshop/worldstats.png)
 
 The registration was over 460 participants and close to 200 join the chat platform. The __career stage__ by country indicates enrichment in postgraduates, master and PhD students.
 
-![Career stage by country](/assets/media/plant_workshop/career_stage.png)
+![Career stage by country](/assets/media/plant-workshop/career_stage.png)
 
 
 # Feedback

@@ -20,4 +20,4 @@ With this article we would like to share Mona's experience with usegalaxy.eu and
 >
 >Hu & Malek Mohammadi - Right ventricular cardiomyocyte expansion accompanies cardiac regeneration in newborn mice after large left ventricular infarcts ([JCI Insight](https://insight.jci.org/articles/view/176281). 2024 Feb 6;9(5):e176281. [doi: 10.1172/jci.insight.176281](https://doi.org/10.1172/jci.insight.176281) [PMID: 38319719](https://pubmed.ncbi.nlm.nih.gov/38319719/))
 >
->Galaxy is a very helpful tool for our research and we are highly grateful for the opportunity to use it and appreciate the [support team](https://usegalaxy-eu.github.io/people) for their help.
+>Galaxy is a very helpful tool for our research and we are highly grateful for the opportunity to use it and appreciate the [support team](/freiburg/people/) for their help.
