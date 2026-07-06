@@ -2,8 +2,7 @@
 title: "GCC2026 Recap: Science, Collaboration, and Community in Clermont-Ferrand"
 date: "2026-07-06"
 tease: "A look back at the 2026 Galaxy Community Conference in Clermont-Ferrand, France."
-authors: "Natalie Whitaker-Allen"
-tags: [conference, community, galaxy]
+tags: [conference, community, gcc]
 subsites: [global]
 main_subsite: global
 ---
