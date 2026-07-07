@@ -241,3 +241,7 @@ Thank you to everyone who joined us in Clermont-Ferrand and online. We are grate
 Next year, we look forward to gathering again for GCC2027 in Montréal, Canada!
 
 See you in Montréal!
+
+## Photo Credit
+
+Thank you to Bérénice Batut for capturing and sharing photos from GCC2026. Photos in this post are by Bérénice Batut and are shared under a [CC BY-SA license](https://creativecommons.org/licenses/by-sa/4.0/).
