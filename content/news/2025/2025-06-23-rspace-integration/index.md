@@ -4,7 +4,7 @@ date: "2025-06-23"
 tease: "Analyze data with Galaxy, keep it under control on RSpace"
 hide_tease: false
 subsites: [all,esg]
-tags: [esg, esg-wp2, "new feature", rdm]
+tags: [esg, esg-wp2, "new feature", rdm, nfdi]
 contributions:
   authorship:
     - kysrpex
@@ -13,7 +13,6 @@ contributions:
     - eurosciencegateway
     - uni-freiburg
     - elixir-europe
-    - nfdi
 ---
 
 [RSpace](https://www.researchspace.com/) is an open-source research data management system (RDM) and electronic lab
