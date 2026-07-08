@@ -1,6 +1,6 @@
 ---
 title: Small Scale Galaxy Admins Meeting
-date: '2026-09-19'
+date: '2026-09-17'
 days: 1
 continent: GL
 location:
