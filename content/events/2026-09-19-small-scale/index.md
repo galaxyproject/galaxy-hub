@@ -19,7 +19,7 @@ contributions:
 
 
 Please <a href="https://unige.zoom.us/j/67916443799?pwd=ade4kVZgKinYAafDZnGKwomJM0ub0Q.1">join us</a> at 3 PM CEST 
-(<a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Small+Scale+Galaxy+Admins+Meeting&iso=20260919T15&p1=87&ah=1">see in your timezone</a>) 
+(<a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Small+Scale+Galaxy+Admins+Meeting&iso=20260917T15&p1=87&ah=1">see in your timezone</a>) 
 for a discussion about general and current problems you encounter as a maintainer of a Galaxy server.
 
 
