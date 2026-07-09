@@ -15,7 +15,7 @@ contributions:
 
 [This recent news article](https://www.theregister.com/2024/08/08/anaconda_puts_the_squeeze_on/) describes efforts by Anaconda to ensure that certain users pay to use products and infrastructure Anaconda has developed and maintains. __This has no effect on Galaxy, conda-forge, Bioconda or BioContainers__, but it raises questions about the future of “free” access to the critical infrastructure that the open science research community depends on.  
 
-Disclaimer: I (Björn Grüning) am personally involved in Bioconda, BioContainers as well as a bit in conda-forge. These are my personal views and opinions, not those of the Galaxy community (even though it's published on their blog) or my employer.
+Disclaimer: I (@hub:bgruening) am personally involved in Bioconda, BioContainers as well as a bit in conda-forge. These are my personal views and opinions, not those of the Galaxy community (even though it's published on their blog) or my employer.
 
 
 ## Background
