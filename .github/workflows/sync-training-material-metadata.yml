@@ -27,15 +27,30 @@ jobs:
           client-id: ${{ secrets.HUB_BOT_APP_CLIENT_ID }}
           private-key: ${{ secrets.HUB_BOT_APP_PRIVATE_KEY }}
 
-      - name: Download files from training-material
+      - name: Checkout training-material repository
+        uses: actions/checkout@v4
+        with:
+          repository: galaxyproject/training-material
+          path: training-material
+          token: ${{ steps.app-token.outputs.token }}
+          fetch-depth: 1
+          sparse-checkout: |
+            CONTRIBUTORS.yaml
+            ORGANISATIONS.yaml
+            GRANTS.yaml
+            bin/schema-contributors.yaml
+            bin/schema-grants.yaml
+            bin/schema-organisations.yaml
+          sparse-checkout-cone-mode: false
+
+      - name: Copy files from training-material
         run: |
-          # Download the YAML files directly from GitHub's raw content
-          curl -o content/CONTRIBUTORS.yaml https://raw.githubusercontent.com/galaxyproject/training-material/main/CONTRIBUTORS.yaml
-          curl -o content/ORGANISATIONS.yaml https://raw.githubusercontent.com/galaxyproject/training-material/main/ORGANISATIONS.yaml
-          curl -o content/GRANTS.yaml https://raw.githubusercontent.com/galaxyproject/training-material/main/GRANTS.yaml
-          curl -o content/schema-contributors.yaml https://raw.githubusercontent.com/galaxyproject/training-material/main/bin/schema-contributors.yaml
-          curl -o content/schema-grants.yaml https://raw.githubusercontent.com/galaxyproject/training-material/main/bin/schema-grants.yaml
-          curl -o content/schema-organisations.yaml https://raw.githubusercontent.com/galaxyproject/training-material/main/bin/schema-organisations.yaml
+          cp training-material/CONTRIBUTORS.yaml content/CONTRIBUTORS.yaml
+          cp training-material/ORGANISATIONS.yaml content/ORGANISATIONS.yaml
+          cp training-material/GRANTS.yaml content/GRANTS.yaml
+          cp training-material/bin/schema-contributors.yaml content/schema-contributors.yaml
+          cp training-material/bin/schema-grants.yaml content/schema-grants.yaml
+          cp training-material/bin/schema-organisations.yaml content/schema-organisations.yaml
 
       - name: Check for changes
         id: check-changes
