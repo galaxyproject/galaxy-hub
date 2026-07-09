@@ -9,11 +9,13 @@ main_subsite: global
 
 # GCC2026 Fishbowl Discussion Notes: AI, Galaxy, and the Future of Trustworthy Scientific Software
 
+The Galaxy Community Conference 2026, held in Clermont-Ferrand, France, hosted a fishbowl-style discussion that brought the Galaxy community together to explore how artificial intelligence (AI) can support scientific discovery while preserving the trust, transparency, reproducibility, and human-centered values that have defined Galaxy for over 20 years.
+
 ## Session framing
 
 The fishbowl discussion centered on one of the most urgent questions facing the Galaxy community:
 
-**How should Galaxy adopt artificial intelligence in ways that expand access and capability while protecting the values that have defined the project for 20 years: reproducibility, transparency, accessibility, openness, and trust?**
+**How should Galaxy adopt AI in ways that expand access and capability while protecting the values that have defined the project for 20 years: reproducibility, transparency, accessibility, openness, and trust?**
 
 The discussion followed a series of talks on AI-enabled Galaxy features, including agents, workflow support, notebooks, BRC Analytics, AI-assisted workflow creation, and AI-supported literature mining. The fishbowl format invited participants to move into the discussion circle, share concerns, respond to one another, and collectively explore where Galaxy should go next.
 
