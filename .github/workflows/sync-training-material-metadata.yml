@@ -16,7 +16,7 @@ jobs:
       pull-requests: write
     steps:
       - name: Checkout current repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
 
@@ -28,7 +28,7 @@ jobs:
           private-key: ${{ secrets.HUB_BOT_APP_PRIVATE_KEY }}
 
       - name: Checkout training-material repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           repository: galaxyproject/training-material
           path: training-material
@@ -65,7 +65,7 @@ jobs:
 
       - name: Create Pull Request
         if: steps.check-changes.outputs.changed == 'true'
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v8
         with:
           token: ${{ steps.app-token.outputs.token }}
           commit-message: |

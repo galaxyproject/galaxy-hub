@@ -14,9 +14,9 @@ jobs:
         working-directory: astro
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
       - name: Setup node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: "22"
           cache: npm
@@ -28,7 +28,7 @@ jobs:
       - name: Serve and Check Links
         run: npx astro preview & (sleep 5 && npm run links:internal)
       - name: Create Issue From File
-        uses: peter-evans/create-issue-from-file@v5
+        uses: peter-evans/create-issue-from-file@v6
         with:
           issue-number: 860
           title: Internal Link Checker Report (updated daily)
