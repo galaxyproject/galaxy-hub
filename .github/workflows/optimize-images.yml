@@ -51,7 +51,7 @@ jobs:
       !(github.event_name == 'pull_request' && github.event.action == 'synchronize' && startsWith(github.actor, 'galaxy-hub-bot'))
     steps:
       - name: Checkout Branch
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           persist-credentials: false
       - name: Generate GitHub App token
