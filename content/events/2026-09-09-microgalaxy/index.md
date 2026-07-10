@@ -16,7 +16,13 @@ subsites: [all-eu, global, us]
 contributions:
   organisers:
     - bebatut
-    - lldelisle
+    - paulzierep
+    - deNBI
+    - ifb
+  funding:
+    - elixir-europe
+    - deNBI
+    - ifb
 ---
 
 ***The [microGalaxy community](https://galaxyproject.org/community/sig/small-scale-admins/) is a [Galaxy community of practice / Special Interest Group (SIG)](https://galaxyproject.org/community/sig/#communities-of-practice) focusing on microbial analysis with Galaxy.***
