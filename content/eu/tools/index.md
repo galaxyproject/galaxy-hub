@@ -4056,7 +4056,7 @@ description: "4327 tools and counting"
 <div class="tool-list">
 
 [3DTrees: LAS/LAZ Standardization](https://usegalaxy.eu/root?tool_id=3dtrees_standardization "Standardize LAS/LAZ files or validate collections for consistency")
-[3DTrees: SmartTile](https://usegalaxy.eu/root?tool_id=3dtrees_smart_tile "Create COPC tiles, subsample outputs, filter border overlap, and remap prediction dimensions")
+[3DTrees: SmartTile](https://usegalaxy.eu/root?tool_id=3dtrees_smart_tile "Tile, merge and remap point clouds")
 [3Dtrees: DetailView](https://usegalaxy.eu/root?tool_id=3dtrees_detailview "species prediction on segmented point cloud.")
 [3Dtrees: ForestMamba](https://usegalaxy.eu/root?tool_id=3dtrees_forestmamba "Forest instance and semantic segmentation of point clouds using the ForestMamba model.")
 [3Dtrees: Overviews](https://usegalaxy.eu/root?tool_id=3dtrees_overviews "Generate 3D point cloud overview images from LAZ/LAS datasets")
