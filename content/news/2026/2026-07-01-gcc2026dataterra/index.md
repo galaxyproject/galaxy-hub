@@ -27,20 +27,24 @@ A quite new community (3 years old) coming for the 1st time with multiple people
 Coming from accross france and with participation of our felow european GESS people we reached Clermont under a lightly warm weather;)
 
 ### Our participation to GCC2026
-TO DO
+
 #### Talks & posters & BOFS
-- GESS a sig presentation and global talk + poster of our community (Aquainfra NFDI4Earth, Data Terra and EOSC node data terra)
-- Odatis poster
-- UGA POster
-- BRGM talk & poster
-- ALL the eoclogy presentations (described below)
-- Vlad bof
-- Martin Bof
-- Marie BOf
+- Marie Jossé, Mathieu Guimont, Jérôme Detoc & GESS community: Advancing Earth System Research Through Galaxy, Data Terra, and EOSC Collaboration
+- Delaporte Pascal, Keuchkerian Samuel: Galaxy at BRGM: From Strategic Integration to Operational Challenges in a National Research Infrastructure
+- Grelet Sylvain, Delaporte Pascal, Keuchkerian Samuel: When Galaxy Meets FAIR Standards: Building Interoperable Virtual Research Environments Across Disciplines
+- Leroi Laura, Jossé Marie, Caer Gwenaël, Detoc Jérôme: Towards an ODATIS Galaxy Environment for Reproducible Cross-Domain Marine Data Analysis
+- Visan Vlad, Bourdon Vincent, Cailletaud Rémi, Roch Françoise, Rogez Yves, Thollard Franck: Galaxy customisation at OSUG: flexible HPC integration & easier workflow migration
+- All the ecology presentations (described below)
+
+#### BoFs
+- Vlad Visan, Marie Jossé, Yvan Le Bras, Samuel Keuchkerian, Martin Carrère, Sanjay Srikakulam: Federation of instances: atypical multi-HPC integration. Is Pulsar the solution?
+- Marie Jossé, Beatriz Serrano-Solano, Yvan Le Bras, Jérôme Detoc, Samuel Keuchkerian: How to build and structure one’s community: the quid of overlapping communities
+- Martin Carrère, Nate Coraor: Where does Galaxy’s security responsibility end and yours begin?
 
 #### Data Terra x PNDB sponsorships
-TO DO
-  
+Data Terra and the PNDB where present at GCC2026 to support Galaxy and its community !
+
+![Photo of the stand](../stand.jpg)
 
 ## Ecology
 ### Why Concarneau
