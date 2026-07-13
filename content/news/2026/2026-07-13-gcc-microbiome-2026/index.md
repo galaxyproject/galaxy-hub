@@ -37,11 +37,11 @@ Mina Hojat Ansari presented **Galaxy-based workflows for genome-resolved and mul
 
 A poster introduced the **Galaxy Communities Dock (CoDex)** ([GitHub](https://github.com/galaxyproject/galaxy_codex), [F1000Research](https://f1000research.com/posters/15-1115)), a centralized, manually curated repository that aggregates community-specific tools, workflows, and tutorials with automatic weekly updates. By combining technical infrastructure with human curation, CoDex supports communities in surfacing their most relevant resources and serves as a key element for **Labs** — user-friendly interfaces enabling communities to rapidly identify and launch resources without programming expertise.
 
-<p align="center"><img src="images/mgl-f1000-poster-2.png" alt="CoDex poster on F1000Research" width="50%"/></p>
+<p align="center"><img src="images/mgl-f1000-poster-2.jpg" alt="CoDex poster on F1000Research" width="50%"/></p>
 
 Bérénice Batut, Engy Nasr, Nikos Pechlivanis, Nikolaos Strepis, and Paul Zierep presented **Microbiology Galaxy Lab: The first community-driven gateway for reproducible and FAIR analysis of microbiological data** ([F1000Research](https://f1000research.com/posters/15-1114)). Built on the Galaxy framework, the Microbiology Galaxy Lab (MGL) provides a comprehensive environment for analyzing (meta)genomic, (meta)transcriptomic, and (meta)proteomic data, offering over 315 specialized tools and 115 curated workflows alongside 35+ tutorials and learning paths. Available on multiple Galaxy servers ([microbiology.usegalaxy.org](https://microbiology.usegalaxy.org), [.eu](https://microbiology.usegalaxy.eu), [.org.au](https://microbiology.usegalaxy.org.au), [.fr](https://microbiology.usegalaxy.fr)), MGL democratizes access to powerful bioinformatics tools for the microbiology community.
 
-<p align="center"><img src="images/mgl-f1000-poster.png" alt="MGL poster on F1000Research" width="50%"/></p>
+<p align="center"><img src="images/mgl-f1000-poster.jpg" alt="MGL poster on F1000Research" width="50%"/></p>
 
 
 
