@@ -5,7 +5,7 @@ import { currentSubsite, navigateToSubsiteMain, subsites, type SubsiteId } from 
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible';
-import { ChevronDown, Menu } from 'lucide-vue-next';
+import { ChevronDown, Menu } from '@lucide/vue';
 import { navbarToSidebarNavigation, type NavbarData, type SidebarNavigation } from '@/utils/navbar';
 
 interface NavItem {

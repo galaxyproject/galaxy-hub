@@ -3,7 +3,7 @@ import { ref, onMounted, computed } from 'vue';
 import { useStore } from '@nanostores/vue';
 import { currentSubsite, type SubsiteId } from '@/stores/subsiteStore';
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible';
-import { ChevronDown } from 'lucide-vue-next';
+import { ChevronDown } from '@lucide/vue';
 import SubsiteSwitcher from './SubsiteSwitcher.vue';
 import {
   getDefaultSidebarNavigation,
