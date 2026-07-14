@@ -40,7 +40,7 @@
     "@fontsource/atkinson-hyperlegible": "^5.2.8",
     "@galaxyproject/brand-tokens": "^0.1.0",
     "@nanostores/vue": "^1.0.1",
-    "@sindresorhus/slugify": "^2.2.1",
+    "@sindresorhus/slugify": "^3.0.0",
     "@tailwindcss/typography": "^0.5.19",
     "@tailwindcss/vite": "^4.3.2",
     "@vueuse/core": "^14.1.0",
