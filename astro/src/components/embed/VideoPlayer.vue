@@ -22,7 +22,7 @@ const videoInfo = computed(() => {
   }
 
   if (url.includes('youtube.com') || url.includes('youtu.be')) {
-    let videoId = '';
+    let videoId: string;
     if (url.includes('youtu.be/')) {
       videoId = url.split('youtu.be/')[1]?.split('?')[0] || '';
     } else {

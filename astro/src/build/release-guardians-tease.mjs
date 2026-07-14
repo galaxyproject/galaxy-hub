@@ -63,7 +63,6 @@ export function extractPlainTease(body) {
       const remaining = TEASE_MAX_WORDS - wordCount;
       if (words.length > remaining) {
         out.push(...words.slice(0, remaining));
-        wordCount = TEASE_MAX_WORDS;
         break;
       }
       out.push(...words);
