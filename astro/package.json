@@ -51,7 +51,7 @@
     "gray-matter": "^4.0.3",
     "lucide-static": "^0.575.0",
     "lucide-vue-next": "^0.555.0",
-    "marked": "^17.0.1",
+    "marked": "^18.0.6",
     "nanostores": "^1.1.0",
     "ol": "^10.7.0",
     "rehype-autolink-headings": "^7.1.0",
