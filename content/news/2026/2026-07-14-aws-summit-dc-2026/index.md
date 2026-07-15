@@ -6,10 +6,9 @@ subsites: [all]
 
 contributions:
   authorship:
-    - REPLACE-michelle-savage
-    - REPLACE-tyler-collins
-
-
+    - hujambo-dunia
+  organisers:
+    - AWS
 ---
 
 ## Why attend? Relationships, collaborations, and sustainability
@@ -20,11 +19,7 @@ The through-line of the trip was opportunity mapping. Several kinds of collabora
 
 ## Why sustaining open source matters even for commercial services
 
-Underlying the "sustainable open-source projects" goal is a point that is easy to overlook: open source constitutes vast economic infrastructure — one whose costs are real, even when they remain invisible. A widely cited [Harvard Business School study](https://www.library.hbs.edu/working-knowledge/open-source-software-the-nine-trillion-resource-companies-take-for-granted) estimates that firms would need to spend on the order of **$8.8 trillion** to recreate the open source software they depend on — roughly 3.5× the cost of using what already exists — and that some 96% of commercial software includes open source code. A few voices frame the stakes well:
-
-> "open-source development is important in the private sector, but vital to academia."
->
-> — Fei-Fei Li, often called the "Godmother of AI"
+Underlying the "sustainable open-source projects" goal is a point that is easy to overlook: open source constitutes vast economic infrastructure — one whose costs are real, even when they remain invisible. A widely cited [Harvard Business School study](https://www.library.hbs.edu/working-knowledge/open-source-software-the-nine-trillion-resource-companies-take-for-granted) estimates that firms would need to spend on the order of **$8.8 trillion** to recreate the open source software they depend on — roughly 3.5× the cost of using what already exists — and that some 96% of commercial software includes open source code. Framed a similar way:
 
 > "We find a robustly positive relationship between OSS contributions and entrepreneurial growth."
 >
@@ -33,12 +28,6 @@ Underlying the "sustainable open-source projects" goal is a point that is easy t
 Open source and proprietary software are often cast as rivals, but many industry leaders treat them as complementary — a point that resonates on a trip built around an open-source project serviced by a proprietary cloud provider. NVIDIA's Jensen Huang, whose company builds proprietary platforms while also ranking among the largest contributors to open-source AI, has put it succiently:
 
 > "Proprietary versus open is not a thing. It's proprietary and open."
->
-> — Jensen Huang, NVIDIA
-
-He has also been direct about what open source specifically unlocks for the researchers and startups Galaxy exists to serve:
-
-> "without open source, startups can't thrive, university researchers can't do research."
 >
 > — Jensen Huang, NVIDIA
 
@@ -69,7 +58,7 @@ A memorable fact from the expo floor: AWS reports that it has been the **largest
 
 ## AWS Session spotlight: _"Building Self-Healing Platforms to Eliminate Bioinformatic Failures"_
 
-The session most relevant to our community described a **third-party AI agent for Galaxy administration**, presented as a set of agile user stories and built around a GalaxyTrakr-style deployment. (For context, GalaxyTrakr is the US FDA's public Galaxy instance for food-safety pathogen genomics.)
+[The session](https://govciomedia.com/ai-cuts-troubleshooting-time-for-fdas-food-safety-platform/) most relevant to our community described a **third-party AI agent for Galaxy administration**, presented as a set of agile user stories and built around a GalaxyTrakr-style deployment. (For context, GalaxyTrakr is the US FDA's public Galaxy instance for food-safety pathogen genomics.)
 
 The challenge it set out to address: administering a Galaxy instance in a **high-accuracy, high-throughput** setting — food-safety surveillance running **at least 2,000 jobs per day** — while keeping costs down and making custom tool building and running easier.
 
