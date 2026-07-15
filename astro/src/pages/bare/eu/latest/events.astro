@@ -5,20 +5,12 @@
  * Embedded in Galaxy EU interface - high visibility feed
  */
 import { getCollection } from 'astro:content';
+import { contentMatchesSubsite, normalizeSubsites } from '../../../../utils/subsites';
 
 const now = new Date();
 
 const allEvents = await getCollection('events', (entry) => {
-  const subsites = entry.data.subsites || [];
-  // Filter for EU subsite
-  return (
-    (subsites.includes('eu') ||
-      subsites.includes('all') ||
-      subsites.includes('all-eu') ||
-      subsites.includes('global') ||
-      subsites.length === 0) &&
-    !entry.data.draft
-  );
+  return contentMatchesSubsite(normalizeSubsites(entry.data.subsites), 'eu') && !entry.data.draft;
 });
 
 // Get upcoming events

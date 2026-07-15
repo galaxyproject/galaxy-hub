@@ -13,6 +13,7 @@ const solo = Astro.url.searchParams.get('solo') === 'true';
 const events = await getCollection('events');
 const now = new Date();
 
+// ESG is a project surface, so it intentionally uses narrow project tags rather than subsite-wide matching.
 const allEsgEvents = events
   .filter((e) => {
     const subsites = e.data.subsites || [];
