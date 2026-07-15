@@ -3,12 +3,9 @@ title: "Debrief: AWS Summit D.C. 2026 — a session on an AI agent for Galaxy ad
 date: "2026-07-14"
 tease: "Members of the US Galaxy Project team attended the AWS Summit in Washington, D.C. to build relationships that can grow into scientific collaborations and more sustainable open-source infrastructure. A conference session on a third-party AI agent for Galaxy administration was a highlight."
 subsites: [all]
-
 contributions:
   authorship:
     - hujambo-dunia
-  organisers:
-    - AWS
 ---
 
 ## Why attend? Relationships, collaborations, and sustainability
