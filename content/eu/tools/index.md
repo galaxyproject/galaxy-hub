@@ -2,7 +2,7 @@
 # THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
 # To update, run: python3 scripts/update-tools.py --server https://usegalaxy.eu --name "European Galaxy" --output content/eu/tools/index.md
 title: European Galaxy Tools
-description: "4327 tools and counting"
+description: "4329 tools and counting"
 ---
 
 
@@ -187,6 +187,7 @@ description: "4327 tools and counting"
 [Merge](https://usegalaxy.eu/root?tool_id=gops_merge_1 "the overlapping intervals of a dataset")
 [Merge Columns](https://usegalaxy.eu/root?tool_id=mergeCols1 "together")
 [Multi-Join](https://usegalaxy.eu/root?tool_id=tp_multijoin_tool "(combine multiple files)")
+[NLP Geocode Named Entities](https://usegalaxy.eu/root?tool_id=nlp_geocode_entities "")
 [Number lines](https://usegalaxy.eu/root?tool_id=nl "")
 [Paste](https://usegalaxy.eu/root?tool_id=Paste1 "two files side by side")
 [Query Tabular](https://usegalaxy.eu/root?tool_id=query_tabular "using sqlite sql")
@@ -2786,6 +2787,7 @@ description: "4327 tools and counting"
 [dada2: learnErrors](https://usegalaxy.eu/root?tool_id=dada2_learnErrors "Learn Error rates")
 [dada2: makeSequenceTable](https://usegalaxy.eu/root?tool_id=dada2_makeSequenceTable "construct a sequence table (analogous to OTU table)")
 [dada2: mergePairs](https://usegalaxy.eu/root?tool_id=dada2_mergePairs "Merge denoised forward and reverse reads")
+[dada2: mergeSequenceTables](https://usegalaxy.eu/root?tool_id=dada2_mergeSequenceTables "merge 2 or more sequence tables together")
 [dada2: plotComplexity](https://usegalaxy.eu/root?tool_id=dada2_plotComplexity "Plot sequence complexity profile")
 [dada2: plotQualityProfile](https://usegalaxy.eu/root?tool_id=dada2_plotQualityProfile "plot a visual summary of the quality scores")
 [dada2: primer check](https://usegalaxy.eu/root?tool_id=dada2_primerCheck "")
