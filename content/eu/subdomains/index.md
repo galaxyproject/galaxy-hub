@@ -32,5 +32,6 @@ title: Supported communities with their own subdomain
 | RNA Galaxy workbench 2.0                       | [rna.usegalaxy.eu](https://rna.usegalaxy.eu)                         |
 | SARS-CoV-2 Data Analysis                       | [covid19.usegalaxy.eu](https://covid19.usegalaxy.eu)                 |
 | Single Cell Omics workbench                    | [singlecell.usegalaxy.eu](https://singlecell.usegalaxy.eu)           |
+| Social Sciences and Humanities                 | [ssh.usegalaxy.eu](https://ssh.usegalaxy.eu)                         |
 | Street Science Community                       | [streetscience.usegalaxy.eu](https://streetscience.usegalaxy.eu)     |
 | Virology                                       | [virology.usegalaxy.eu](https://virology.usegalaxy.eu)               |
