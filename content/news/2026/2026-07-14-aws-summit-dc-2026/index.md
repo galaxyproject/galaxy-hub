@@ -2,7 +2,7 @@
 title: "Debrief: AWS Summit D.C. 2026 — a session on an AI agent for Galaxy administration"
 date: "2026-07-14"
 tease: "Members of the US Galaxy Project team attended the AWS Summit in Washington, D.C. to build relationships that can grow into scientific collaborations and more sustainable open-source infrastructure. A conference session on a third-party AI agent for Galaxy administration was a highlight."
-subsites: [all]
+subsites: [us]
 contributions:
   authorship:
     - hujambo-dunia
@@ -51,7 +51,7 @@ That global spread matters because Galaxy is itself a globally distributed proje
 
 Held at the Washington Convention Center, the D.C. Summit drew an expected **10,000 attendees**, with **100+ exhibitor booths** and **350+ sessions**. Content ranged from hands-on, bring-your-own-laptop labs — the most useful for practitioners — to more promotional vendor talks, alongside invite-only meetings and networking.
 
-A memorable fact from the expo floor: AWS reports that it has been the **largest corporate buyer of renewable energy in the world** for six years running. Of AWS's 200+ services, roughly 16 featured across the GalaxyTrakr summit presentations — spanning compute (EC2, Batch), storage (S3, EFS, ECR), databases (Aurora, RDS), workflow and operations (Step Functions, Systems Manager, CloudWatch), search (OpenSearch), and AI (Bedrock, Nova).
+Of AWS's 200+ services, roughly 16 featured across the GalaxyTrakr summit presentations — spanning compute (EC2, Batch), storage (S3, EFS, ECR), databases (Aurora, RDS), workflow and operations (Step Functions, Systems Manager, CloudWatch), search (OpenSearch), and AI (Bedrock, Nova).
 
 ## AWS Session spotlight: _"Building Self-Healing Platforms to Eliminate Bioinformatic Failures"_
 
@@ -74,7 +74,6 @@ The summit was primarily relationship-building groundwork, but a few threads are
 ## Resources
 
 - AWS events overview — [aws.amazon.com/events](https://aws.amazon.com/events)
-- AWS renewable energy updates — [aboutamazon.com](https://www.aboutamazon.com/news/sustainability/amazon-renewable-energy-updates)
 - On the value of open source: *The $9 Trillion Resource Companies Take for Granted* (Harvard Business School) — [library.hbs.edu](https://www.library.hbs.edu/working-knowledge/open-source-software-the-nine-trillion-resource-companies-take-for-granted)
 - On open source and competitiveness: *Asserting American Leadership in Open Source AI* (a16z) — [a16z.com](https://a16z.com/asserting-american-leadership-in-open-source-ai/)
 - Jensen Huang on open and proprietary AI: *The Future of AI Is Open and Proprietary* (NVIDIA) — [blogs.nvidia.com](https://blogs.nvidia.com/blog/ai-future-open-and-proprietary/)
