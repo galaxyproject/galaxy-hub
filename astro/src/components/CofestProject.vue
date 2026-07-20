@@ -5,11 +5,14 @@ import { Badge } from '@/components/ui/badge';
 
 defineProps<{
   project: Project;
+  standalone?: boolean;
+  postEvent?: boolean;
+  hasOutcomes?: boolean;
 }>();
 </script>
 
 <template>
-  <Card class="gx-tile h-full border-galaxy-primary/10 py-0 gap-0">
+  <Card :class="['gx-tile border-galaxy-primary/10 py-0 gap-0', { 'h-full': !standalone }]">
     <CardHeader class="pt-4 pb-1">
       <CardTitle class="m-0 text-galaxy-dark text-base leading-tight">{{ project.project }}</CardTitle>
     </CardHeader>
@@ -19,14 +22,18 @@ defineProps<{
         <span class="text-galaxy-grey">Lead: </span>
         <span class="font-semibold text-galaxy-primary">{{ project.lead }}</span>
       </div>
-      <div class="team-section">
-        <span class="team-label">TEAM</span>
+      <div v-if="project.assignees.length > 0 || !postEvent" class="team-section">
+        <span class="section-label">TEAM</span>
         <div v-if="project.assignees.length > 0" class="flex flex-wrap gap-1.5">
           <Badge v-for="name in project.assignees" :key="name" variant="default" class="text-xs font-normal">
             {{ name }}
           </Badge>
         </div>
         <p v-else class="text-xs text-galaxy-primary italic">✨ Open spot — come join this project!</p>
+      </div>
+      <div v-if="postEvent && hasOutcomes" class="outcomes-section">
+        <span class="section-label">OUTCOMES</span>
+        <slot />
       </div>
     </CardContent>
   </Card>
@@ -42,10 +49,20 @@ defineProps<{
   gap: 0.35rem;
 }
 
-.team-label {
+.section-label {
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   color: var(--color-galaxy-grey, #6b7280);
+}
+
+.outcomes-section {
+  padding-top: 0.45rem;
+  border-top: 1px solid color-mix(in srgb, var(--color-galaxy-primary, #25537b) 12%, transparent);
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.875rem;
+  line-height: 1.6;
 }
 </style>
