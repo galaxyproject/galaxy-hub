@@ -44,7 +44,7 @@ async function copyAssets(sourceDir, slug) {
   const assetExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.svg', '.webp', '.pdf', '.mp4', '.webm'];
 
   async function walk(current, relative = '') {
-    let entries = [];
+    let entries;
     try {
       entries = await fs.promises.readdir(current, { withFileTypes: true });
     } catch {

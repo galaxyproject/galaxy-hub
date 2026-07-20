@@ -1,13 +1,5 @@
 export type SocialIconName =
-  | 'github'
-  | 'fediverse'
-  | 'linkedin'
-  | 'matrix'
-  | 'orcid'
-  | 'bluesky'
-  | 'gtn'
-  | 'google-scholar'
-  | 'researchgate';
+  'github' | 'fediverse' | 'linkedin' | 'matrix' | 'orcid' | 'bluesky' | 'gtn' | 'google-scholar' | 'researchgate';
 
 export const socialIconMap: Record<
   SocialIconName,

@@ -78,7 +78,7 @@ export async function GET() {
     const description = data.tease || '';
 
     // Render markdown body to HTML
-    let content = '';
+    let content: string;
     try {
       if (article.body) {
         content = await marked.parse(article.body);

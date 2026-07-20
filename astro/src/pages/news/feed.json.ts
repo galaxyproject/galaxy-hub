@@ -88,7 +88,7 @@ export async function GET() {
       const authors = extractAuthors(data as Record<string, unknown>).join(', ');
 
       // Render markdown body to HTML
-      let content = '';
+      let content: string;
       try {
         if (article.body) {
           content = await marked.parse(article.body);

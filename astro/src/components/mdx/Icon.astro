@@ -1,6 +1,8 @@
 ---
 import * as icons from 'lucide-static';
 
+import { brandIcons } from './brand-icons';
+
 interface Props {
   name: string;
   class?: string;
@@ -11,7 +13,7 @@ const { name, class: className, size = 16 } = Astro.props;
 
 // Convert kebab-case to PascalCase for lucide-static lookup
 const pascalName = name.replace(/(^|-)([a-z0-9])/g, (_, _sep, c) => c.toUpperCase());
-const svg = (icons as Record<string, string>)[pascalName];
+const svg = (icons as Record<string, string>)[pascalName] ?? brandIcons[pascalName];
 
 // Apply size and optional class overrides to the SVG string
 function applySvgProps(svgStr: string, sizeVal: number, cls?: string): string {
