@@ -32,7 +32,7 @@ defineProps<{
         <p v-else class="text-xs text-galaxy-primary italic">✨ Open spot — come join this project!</p>
       </div>
       <div v-if="postEvent && hasOutcomes" class="outcomes-section">
-        <span class="section-label">OUTCOMES</span>
+        <span class="section-label">HIGHLIGHTS</span>
         <slot />
       </div>
     </CardContent>
