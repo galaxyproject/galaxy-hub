@@ -8,6 +8,7 @@ contributions:
 tags: [conference, community, gcc, cofest]
 subsites: [global]
 main_subsite: global
+autotoc: false
 components: true
 ---
 
@@ -54,8 +55,8 @@ LLM strategy and settled on open-source, CPU-first: RAG now (BGE-M3/multilingual
 </p>
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; margin-top: 0.75rem;">
-  <img src="/images/events/gcc2026/cofest/driving_galaxy_with_agents.jpg" alt="CoFest participants working on the Driving Galaxy with Agents project." style="width: 100%; height: 220px; object-fit: cover; object-position: top; border-radius: 10px;" />
-  <img src="/images/events/gcc2026/cofest/driving_galaxy_with_agents_2.jpg" alt="CoFest participants collaborating on agentic Galaxy interactions." style="width: 100%; height: 220px; object-fit: cover; object-position: top; border-radius: 10px;" />
+  <img src="/images/events/gcc2026/cofest/driving_galaxy_with_agents.jpg" alt="CoFest participants working on the Driving Galaxy with Agents project." style="width: 100%; height: 260px; object-fit: cover; object-position: top; border-radius: 10px;" />
+  <img src="/images/events/gcc2026/cofest/driving_galaxy_with_agents_2.jpg" alt="CoFest participants collaborating on agentic Galaxy interactions." style="width: 100%; height: 260px; object-fit: cover; object-position: top; border-radius: 10px;" />
 </div>
 
 </CofestProject>
@@ -75,8 +76,8 @@ Solenne provided a useful explanation of the CoDex and I was then able to create
 </p>
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; margin-top: 0.75rem;">
-  <img src="/images/events/gcc2026/cofest/codex.jpg" alt="CoFest participants working on the Galaxy CoDex project." style="width: 100%; height: 220px; object-fit: cover; object-position: top; border-radius: 10px;" />
-  <img src="/images/events/gcc2026/cofest/codex_2.jpg" alt="Galaxy CoDex team collaborating during CoFest." style="width: 100%; height: 220px; object-fit: cover; object-position: top; border-radius: 10px;" />
+  <img src="/images/events/gcc2026/cofest/codex.jpg" alt="CoFest participants working on the Galaxy CoDex project." style="width: 100%; height: 260px; object-fit: cover; object-position: top; border-radius: 10px;" />
+  <img src="/images/events/gcc2026/cofest/codex_2.jpg" alt="Galaxy CoDex team collaborating during CoFest." style="width: 100%; height: 260px; object-fit: cover; object-position: top; border-radius: 10px;" />
 </div>
 
 </CofestProject>
@@ -106,8 +107,8 @@ I don't know if that count as an achievement for the community as large but with
 </p>
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; margin-top: 0.75rem;">
-  <img src="/images/events/gcc2026/cofest/gtn_admin_training.jpg" alt="CoFest participants working on GTN admin training." style="width: 100%; height: 220px; object-fit: cover; object-position: top; border-radius: 10px;" />
-  <img src="/images/events/gcc2026/cofest/gtn_admin_training_2.jpg" alt="GTN admin training and TPV debugging session during CoFest." style="width: 100%; height: 220px; object-fit: cover; object-position: top; border-radius: 10px;" />
+  <img src="/images/events/gcc2026/cofest/gtn_admin_training.jpg" alt="CoFest participants working on GTN admin training." style="width: 100%; height: 260px; object-fit: cover; object-position: top; border-radius: 10px;" />
+  <img src="/images/events/gcc2026/cofest/gtn_admin_training_2.jpg" alt="GTN admin training and TPV debugging session during CoFest." style="width: 100%; height: 260px; object-fit: cover; object-position: top; border-radius: 10px;" />
 </div>
 
 </CofestProject>
@@ -138,18 +139,12 @@ At present, this project is still under development, and OpenSILEX still needs t
 
 <CofestProject name="Arts & humanities tools in Galaxy" description="Improving support for arts and humanities tools in Galaxy." lead="Eamonn Bell" assignees="Johannes Nussbaum, Aysam Guerler" />
 
-<CofestProject name="AI agent to auto-wrap Bioconda/Bioconductor tools" description="A persistent AI agent set up to auto-wrap any new tools added to Bioconda/Bioconductor or similar repos." lead="Enis Afgan" assignees="Daniel Golparian">
-
-<div style="margin-top: 0.75rem;">
-  <img src="/images/events/gcc2026/cofest/ai_agent_to_wrap.jpg" alt="CoFest participants working on the AI agent to auto-wrap Bioconda/Bioconductor tools project." style="width: 100%; height: 220px; object-fit: cover; object-position: top; border-radius: 10px;" />
-</div>
-
-</CofestProject>
+<CofestProject name="AI agent to auto-wrap Bioconda/Bioconductor tools" description="A persistent AI agent set up to auto-wrap any new tools added to Bioconda/Bioconductor or similar repos." lead="Enis Afgan" assignees="Daniel Golparian" />
 
 <CofestProject name="Modernizing Pulsar DRMAA manager" description="Modernize the Pulsar DRMAA job manager." lead="Matthias Bernt" assignees="Anthony Bretaudeau, Reid Wagner, Nicola Soranzo">
 
 <div style="margin-top: 0.75rem;">
-  <img src="/images/events/gcc2026/cofest/modernizing_pulsar.jpg" alt="CoFest participants working on modernizing the Pulsar DRMAA manager." style="width: 100%; height: 220px; object-fit: cover; border-radius: 10px;" />
+  <img src="/images/events/gcc2026/cofest/modernizing_pulsar.jpg" alt="CoFest participants working on modernizing the Pulsar DRMAA manager." style="width: 100%; height: 260px; object-fit: cover; border-radius: 10px;" />
 </div>
 
 </CofestProject>
@@ -157,7 +152,7 @@ At present, this project is still under development, and OpenSILEX still needs t
 <CofestProject name="Time-based quotas & pgcleanup emails" description="Two related backend papercuts: (a) quotas with a start/end date that auto-lift after the end date — useful for workshops; (b) pgcleanup emails to users prior to dataset deletion." lead="Charles Coulombe" assignees="John Davis, Boris Depoortere, Gareth Price, Nate Coraor">
 
 <div style="margin-top: 0.75rem;">
-  <img src="/images/events/gcc2026/cofest/time_based_quotas.jpg" alt="CoFest participants working on time-based quotas and pgcleanup emails." style="width: 100%; height: 220px; object-fit: cover; border-radius: 10px;" />
+  <img src="/images/events/gcc2026/cofest/time_based_quotas.jpg" alt="CoFest participants working on time-based quotas and pgcleanup emails." style="width: 100%; height: 260px; object-fit: cover; border-radius: 10px;" />
 </div>
 
 </CofestProject>
@@ -169,7 +164,7 @@ At present, this project is still under development, and OpenSILEX still needs t
 <CofestProject name="Tool wrapping & QC subworkflow for public health pathogen genomics" description="Wrap and extend bactscout towards a QC subworkflow for public health pathogen genomics." lead="Peter van Heusden" assignees="Kobika Thillainathan, Povilas Matusevicius, Buhle Ntozini">
 
 <div style="margin-top: 0.75rem;">
-  <img src="/images/events/gcc2026/cofest/tool_wrapping.jpg" alt="CoFest participants working on tool wrapping for public health pathogen genomics." style="width: 100%; height: 220px; object-fit: cover; object-position: top; border-radius: 10px;" />
+  <img src="/images/events/gcc2026/cofest/tool_wrapping.jpg" alt="CoFest participants working on tool wrapping for public health pathogen genomics." style="width: 100%; height: 260px; object-fit: cover; object-position: top; border-radius: 10px;" />
 </div>
 
 </CofestProject>
@@ -179,7 +174,7 @@ At present, this project is still under development, and OpenSILEX still needs t
 <CofestProject name="Galaxy Ecology tools and tutorials development" lead="Yvan Le Bras" assignees="Samuel le Goff, Joe Ueda, Pauline Seguineau, Barreau Arthur, Kevin Payet">
 
 <div style="margin-top: 0.75rem;">
-  <img src="/images/events/gcc2026/cofest/ecology_tools.jpg" alt="CoFest participants working on Galaxy Ecology tools and tutorials." style="width: 100%; height: 220px; object-fit: cover; border-radius: 10px;" />
+  <img src="/images/events/gcc2026/cofest/ecology_tools.jpg" alt="CoFest participants working on Galaxy Ecology tools and tutorials." style="width: 100%; height: 260px; object-fit: cover; border-radius: 10px;" />
 </div>
 
 </CofestProject>
