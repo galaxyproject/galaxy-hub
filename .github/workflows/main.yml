@@ -62,6 +62,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v7
+        with:
+          # Full history so the filename-case lint can diff added files
+          # against the PR base ref.
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v6
@@ -71,6 +75,8 @@ jobs:
           cache-dependency-path: astro/package-lock.json
 
       - name: Lint content
+        env:
+          LINT_BASE_REF: ${{ github.event.pull_request.base.sha }}
         run: cd astro && npm ci && npm run content:lint
 
   unit-tests:
