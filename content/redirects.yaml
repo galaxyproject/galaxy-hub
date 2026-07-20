@@ -102,7 +102,8 @@ redirects:
   /events.html: /eu/events/
   /gga.html: /use/gga/
   /index-microbiome.html: /bare/eu/usegalaxy/metagenomics/
-  /news.html: /news/
+  /news.html: /eu/news/
+  /people.html: /eu/people/
   /tiaas.html: /eu/tiaas/
   /widgets/: /eu/widgets/
   /widgets/events.html: /bare/eu/latest/events/
