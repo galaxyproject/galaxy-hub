@@ -72,7 +72,7 @@ The talk focused on the challenge of working with massive public sequencing data
 The keynote was a powerful example of the kind of ambitious, data-intensive science that Galaxy helps make more accessible, reproducible, and collaborative.
 
 <figure style="margin: 1.5rem 0;">
-  <img src="/images/events/gcc2026/Keynote.jpg" alt="Rayan Chikhi presenting the GCC2026 keynote." style="width: 100%; border-radius: 12px;" />
+  <img src="/images/events/gcc2026/keynote-recap.jpg" alt="Rayan Chikhi presenting the GCC2026 keynote." style="width: 100%; border-radius: 12px;" />
 </figure>
 
 ## Posters, Demos, and Lightning Talks
