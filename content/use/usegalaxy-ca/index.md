@@ -19,7 +19,7 @@ quotas:
 citations:
   - ""
 sponsors:
-  - "[Université de Sherbrooke](https://www.usherbrooke.ca/)"
   - "[Calcul Québec](https://calculquebec.ca/)"
+  - "[Université de Sherbrooke](https://www.usherbrooke.ca/)"
   - "[Digital Research Alliance of Canada](https://alliancecan.ca/)"
 ---
