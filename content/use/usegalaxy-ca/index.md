@@ -8,7 +8,6 @@ platforms:
     platform_text: "UseGalaxy.ca Server"
     platform_location: CA
 summary: "The Canadian Galaxy server for general purpose analysis"
-#image: "/images/logos/UseGalaxy.orgLogo600.png"
 comments:
   - "A public Galaxy instance for the Canadian research community"
 user_support:
