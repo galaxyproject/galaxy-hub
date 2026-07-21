@@ -32,7 +32,7 @@ There are currently five UseGalaxy servers:
 
 ## UseGalaxy.ca
 
-[UseGalaxy.ca](https://usegalaxy.ca/) is a publicly accessible server that aims to support the analysis and sharing needs of the Canadian research community.  It was launched in 2025 and made public in 2026 at Galaxy Community Conference in Clermont-Ferrand. It is operated by the Université de Sherbrooke. [Playbooks](https://github.com/usegalaxy-ca)
+[UseGalaxy.ca](https://usegalaxy.ca/) is a publicly accessible server that aims to support the analysis and sharing needs of the Canadian research community.  It was launched in 2025 and made public in 2026 at Galaxy Community Conference in Clermont-Ferrand. It is operated by Calcul Québec and the Université de Sherbrooke with resources from the Digital Research Alliance of Canada. [Playbooks](https://github.com/usegalaxy-ca)
 
 # Status
 
