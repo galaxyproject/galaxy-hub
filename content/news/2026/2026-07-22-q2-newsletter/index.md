@@ -36,7 +36,7 @@ GCC2026 was also a celebration of the people behind Galaxy. Across formal sessio
 
 A special thank-you goes to the **Galaxy France team** for welcoming the global community to Clermont-Ferrand and for the tremendous work required to host GCC2026. Their planning, coordination, and hospitality created an environment where participants could exchange ideas, build new collaborations, and reconnect as a community.
 
-> **Missed a session or want to revisit a favorite talk?** All GCC2026 recordings are now available in the [GCC2026 YouTube playlist](https://youtube.com/playlist?list=PLB4YWcG-HSbw&si=1n7bm-lCEUjxULsR), including the keynote, scientific sessions, community updates, Fishbowl discussion, and Galaxy in Research.
+**Missed a session or want to revisit a favorite talk?** All GCC2026 recordings are now available in the [GCC2026 YouTube playlist](https://youtube.com/playlist?list=PLB4YWcG-HSbw&si=1n7bm-lCEUjxULsR), including the keynote, scientific sessions, community updates, Fishbowl discussion, and Galaxy in Research.
 
 [**Read the full GCC2026 recap**](https://galaxyproject.org/news/2026-07-06-gcc2026-recap/)
 
@@ -82,6 +82,7 @@ Ultimately, the presentation argued that Galaxy’s legacy exists at multiple sc
 From May 18–22, the Galaxy Training Academy 2026 welcomed over 2,000 learners from around the world for a free, virtual week of hands-on training.
 
 ![GTA2026 registration map](GTA-map-2026.jpeg)
+*Map of registered GTA2026 participants*
 
 GTA combines self-paced Galaxy Training Network tutorials with live support from trainers and community members across time zones. This flexible model allows participants to learn at their own pace while still benefiting from real-time guidance, discussion, and connection with the broader Galaxy community.
 
