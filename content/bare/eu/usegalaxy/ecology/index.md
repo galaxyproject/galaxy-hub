@@ -49,7 +49,7 @@ title: Galaxy Ecology
 
 # Welcome to **Galaxy for Ecology** -- a web platform to get, process, analyze and visualize biodiversity data
 
-<center><img src="./assets/media/infographie_PNDB.png" style="max-width:95%; height:auto;" alt="PNDB french Biodiversity e-infrastructure"/></center>
+<center><img src="/content/assets/media/usegalaxy/ecologyinfographie_PNDB.png" style="max-width:95%; height:auto;" alt="PNDB french Biodiversity e-infrastructure"/></center>
 <br><br>
 
 <div style="display:flex; gap:1rem; flex-wrap:wrap; justify-content:center; align-items:stretch;">
