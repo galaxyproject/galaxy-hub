@@ -265,6 +265,9 @@ title: Galaxy Ecology
             <div style="margin-top: 1rem;">
                 <p class="card-text" style="font-weight: bold;">TUTORIALS</p>
                 <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.5rem;">
+                    <a href="https://training.galaxyproject.org/training-material/topics/imaging/tutorials/Annotation_AI_Pipeline/tutorial.html" class="show-iframe" data-target="displayhere2">
+                        <button type="button" class="btn btn-primary">AI pipeline for annotating marine species</button>
+                    </a>
                     <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/yolo_predict_deepsea/tutorial.html" class="show-iframe" data-target="displayhere2">
                         <button type="button" class="btn btn-primary">Object detection with YOLO</button>
                     </a>
