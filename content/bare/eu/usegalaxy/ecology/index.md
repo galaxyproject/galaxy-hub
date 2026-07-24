@@ -60,7 +60,7 @@ title: Galaxy Ecology
       <div class="card-body" style="display:flex; flex-direction:column; flex:1;">
         <h2 class="card-title text-dark" style="margin-top: 0;">Guide tour</h2>
         <p class="card-text">Are you new to Galaxy, or returning after a long time, and looking for help to get started?</p>
-        <img src="./assets/media/galaxy-eu.svg" style="max-width:100%; height:auto; margin:2rem 0;" />
+        <img src="/content/assets/media/usegalaxy/galaxy-eu.svg" style="max-width:100%; height:auto; margin:2rem 0;" />
         <div class="text-center" style="margin-top:auto;">
           <a href="https://ecology.usegalaxy.eu/tours/core.galaxy_ui" target="_blank">
             <button type="button" class="btn btn-primary btn-lg" style="white-space:normal; max-width:100%; display:inline-block;">Take a guide tour through Galaxy’s user interface.</button>
@@ -76,7 +76,7 @@ title: Galaxy Ecology
       <div class="card-body" style="display:flex; flex-direction:column; flex:1;">
         <h2 class="card-title text-dark" style="margin-top: 0;">Tutorials</h2>
         <p class="card-text">Want to learn about ecology analyses?</p>
-        <img src="./assets/media/gtn_logo.png" style="max-width:100%; height:auto; margin:2rem 0;" />
+        <img src="/content/assets/media/usegalaxy/gtn_logo.png" style="max-width:100%; height:auto; margin:2rem 0;" />
         <div class="text-center" style="margin-top:auto;">
           <a href="https://training.galaxyproject.org/training-material/topics/ecology/" class="show-iframe" data-target="displayhere">
             <button type="button" class="btn btn-primary btn-lg" style="white-space:normal; max-width:100%; display:inline-block;">Check our tutorials</button>
@@ -91,7 +91,7 @@ title: Galaxy Ecology
     <div class="card border-secondary bg-light mb-1 mx-1" style="display:flex; flex-direction:column; height:100%;">
       <div class="card-body" style="display:flex; flex-direction:column; flex:1;">
         <h2 class="card-title text-dark" style="margin-top: 0;">Workflows</h2>
-        <img src="./assets/media/workflow3.png" style="max-width:100%; height:auto; margin:2rem 0;" />
+        <img src="/content/assets/media/usegalaxy/workflow3.png" style="max-width:100%; height:auto; margin:2rem 0;" />
         <div class="text-center" style="margin-top:auto;">
           <a href="https://ecology.usegalaxy.eu/workflows/list_published" target="_blank">
             <button type="button" class="btn btn-primary btn-lg" style="white-space:normal; max-width:100%; display:inline-block;">Access public workflows</button>
@@ -122,7 +122,7 @@ title: Galaxy Ecology
         <div style="margin-top: 1rem;">
           <p class="card-text">Want to classify hoverflies pictures?</p>
         </div>
-        <img src="./assets/media/Example_image_task.jpg" style="max-width:100%; height:auto; margin:2rem 0;" />
+        <img src="/content/assets/media/usegalaxy/Example_image_task.jpg" style="max-width:100%; height:auto; margin:2rem 0;" />
         <p class="card-text"> The aim of the task is to classify ~5000 hoverfly images collected by the SPIPOLL citizen science project and identify the sex by looking at their relative eyes position.</p>
         <div class="text-center" style="margin-top:auto;">
           <a href="https://usegalaxy.eu/gapars-experiment/" class="show-iframe" data-target="displayhere2">
@@ -177,7 +177,7 @@ title: Galaxy Ecology
             <div style="margin:0.5rem 0;">
                 <span class="badge" style="background-color:#C87967; color:white; font-size:0.95rem; padding:0.4em 0.6em;">French BON EBV Operationalization pilot</span>
             </div>
-            <img src="./assets/media/PAMPA.jpg" style="max-width:100%; height:auto;" />
+            <img src="/content/assets/media/usegalaxy/PAMPA.jpg" style="max-width:100%; height:auto;" />
             <p class="card-text" style="font-weight: bold;">TUTORIALS</p>
             <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.5rem;">
                 <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/PAMPA-toolsuite-tutorial/tutorial.html" class="show-iframe" data-target="displayhere2">
@@ -214,7 +214,7 @@ title: Galaxy Ecology
         <div class="card-body" style="display: flex; flex-direction: column; flex: 1;">
             <h2 class="card-title text-dark" style="margin-top: 0;">GAIA DATA</h2>
             <a href="https://www.gaia-data.org/" target="_blank">
-                <center><img src="./assets/media/logo-data-gaia_default.png" style="width: 140px; height:auto;"/></center>
+                <center><img src="/content/assets/media/usegalaxy/logo-data-gaia_default.png" style="width: 140px; height:auto;"/></center>
             </a>
             <div style="margin-top: 1rem;">
                 <p class="card-text" style="font-weight: bold;">TUTORIALS</p>
@@ -260,7 +260,7 @@ title: Galaxy Ecology
                 <span class="badge" style="background-color:#B0AC43; color:white; font-size:0.95rem; padding:0.4em 0.6em;">Annotation</span>
             </div>
             <a href="https://moorev.fr/" target="_blank">
-                <center><img src="./assets/media/moorev.png" style="max-width:100%; height:auto; margin-top:1rem;" /></center>
+                <center><img src="/content/assets/media/usegalaxy/moorev.png" style="max-width:100%; height:auto; margin-top:1rem;" /></center>
             </a>
             <div style="margin-top: 1rem;">
                 <p class="card-text" style="font-weight: bold;">TUTORIALS</p>
@@ -317,7 +317,7 @@ title: Galaxy Ecology
                 <span class="badge" style="background-color:#2f8e83; color:white; font-size:0.95rem; padding:0.4em 0.6em;margin-top:0.5em;">Genetic composition</span>
             </div>
             <a href="https://www.biodiversa.eu/2024/04/15/ginamo/" target="_blank">
-                <center><img src="./assets/media//GINAMO.webp" style="width: 200px; height:auto;margin-top:1rem;" /></center>
+                <center><img src="/content/assets/media/usegalaxy/GINAMO.webp" style="width: 200px; height:auto;margin-top:1rem;" /></center>
             </a>
             <div style="margin-top: 1rem;">
                 <p class="card-text" style="font-weight: bold;">WORKFLOWS</p>
@@ -384,7 +384,7 @@ title: Galaxy Ecology
                 <span class="badge" style="background-color:#B0AC43; color:white; font-size:0.95rem; padding:0.4em 0.6em;">Annotation</span>
             </div>
             <a href="https://www.oneforestvision.org/" target="_blank">
-                <center><img src="./assets/media/OFV.png" style="width: 200px; height:auto; margin-top:1rem;" /></center>
+                <center><img src="/content/assets/media/usegalaxy/OFV.png" style="width: 200px; height:auto; margin-top:1rem;" /></center>
             </a>
             <div style="margin-top: 1rem;">
                 <p class="card-text" style="font-weight: bold;">TOOLS</p>
@@ -398,7 +398,7 @@ title: Galaxy Ecology
                 <p class="card-text" style="font-weight: bold;">RELATED PROJECT</p>
                 <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.5rem;  justify-content: center;">
                     <a href="https://www.pepr-forestt.org/" target="_blank" style="text-align: center; text-decoration: none; color: inherit;">
-                        <img src="./assets/media/pepr_forestt.jpg" style="width: 200px; height:auto;"/>
+                        <img src="/content/assets/media/usegalaxy/pepr_forestt.jpg" style="width: 200px; height:auto;"/>
                         <p class="card-text">PEPR FORESTT</p>
                     </a>
                 </div>
