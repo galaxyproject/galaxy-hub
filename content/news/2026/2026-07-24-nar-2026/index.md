@@ -3,7 +3,6 @@ title: "Galaxy for Accessible, Reproducible, and Collaborative Data Analyses: 20
 date: "2026-07-24"
 tease: "The latest Galaxy update in Nucleic Acids Research highlights major advances in the platform’s interface, workflows, data management, visualizations, infrastructure, and global community."
 hide_tease: false
-tags: [publication]
 subsites: [global, all]
 contributions:
   authorship:
