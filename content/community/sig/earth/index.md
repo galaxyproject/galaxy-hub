@@ -15,7 +15,7 @@ Whether you are analysing geosphere, biosphere, cryosphere, hydrosphere, and atm
 
 **Tools for earth data analysis are freely available** in the ToolShed which can be installed on any Galaxy server.
 
-If tools are missing or information is not up-to-date in the list, please help us! Contact [Marie](mailto:marie14.josse@gmail.fr) or [Jérôme](mailto:jerome.detoc@ifremer.fr) about it.
+If tools are missing or information is not up-to-date in the list, please help us! Contact us on Matrix channel **[Earth Climate Ecology Sciences](https://matrix.to/#/#galaxyproject_earth-climate-ecology-sciences:matrix.org)** or reach out by mail to one of us [Marie](mailto:marie14.josse@gmail.fr), [Yvan](mailto:yvan.le-bras@mnhn.fr) or [Jérôme](mailto:jerome.detoc@ifremer.fr) about it.
 
 ## Workflows and tutorials
 
@@ -29,12 +29,16 @@ Several curated Galaxy workflows are publicly available for different kinds of e
 |--------|----------|--------------|----------|
 | Coastal water dynamics | Oceanographic study | <a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/ocean-variables/tutorial.html" aria-hidden="true"><Icon name="graduation-cap" /></a> | <a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/ocean-variables/workflows/" aria-hidden="true"><Icon name="share-2" /></a> |
 | Biogeochemical and physical ocean study | Oceanographic study  | <a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/argo_pangeo/tutorial.html" aria-hidden="true"><Icon name="graduation-cap" /></a> | <a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/argo_pangeo/workflows/" aria-hidden="true"><Icon name="share-2" /></a> |
+| Argo-Glider Nitrate QCV | Oceanographic study  | <a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/ocean_qcv_analysis/tutorial.html" aria-hidden="true"><Icon name="graduation-cap" /></a> | <a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/ocean_qcv_analysis/workflows/" aria-hidden="true"><Icon name="share-2" /></a> |
 
 ### Land
 
 | Target | Analysis | GTN Tutorial | Workflow |
 |--------|----------|--------------|----------|
 | Land degradation | Land study | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/ndvi_openeo/tutorial.html" aria-hidden="true"><Icon name="graduation-cap" /></a> | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/ndvi_openeo/workflows/" aria-hidden="true"><Icon name="share-2" /></a> |
+| Collaboration with JupyterGIS | Land study  | <a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/jupytergis_collaboration/tutorial.html" aria-hidden="true"></a> | None |
+| QGIS Web Feature Services | Land study | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/QGIS_Web_Feature_Services/tutorial.html" aria-hidden="true"></a> | None |
+| 3Dtrees: Point cloud processing | Land study | TBD| TBD |
 
 ### Biodiversity
 
@@ -42,11 +46,14 @@ Several curated Galaxy workflows are publicly available for different kinds of e
 |--------|----------|--------------|----------|
 | Marine omics | Marine biodiversity study | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/obisindicators/tutorial.html" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/obisindicators/workflows/" aria-hidden="true"><Icon name="share-2" /></a> |
 | Biodiversity data exploration | Biodiversity state of the art | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/biodiversity-data-exploration/tutorial.html" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/biodiversity-data-exploration/workflows/" aria-hidden="true"><Icon name="share-2" /></a> |
+
 ### Atmosphere
 
 | Target | Analysis | GTN Tutorial | Workflow |
 |--------|----------|--------------|----------|
-| Volcano | Volcanic eruption atmosphere study | <a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/sentinel5_data/tutorial.html" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/sentinel5_data/workflows/" aria-hidden="true"><Icon name="share-2" /></a> |
+| Getting your hands on climate data | Atmospheric study | <a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/climate-101/tutorial.html" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/climate-101/workflows/" aria-hidden="true"><Icon name="share-2" /></a> |
+| Volcanic eruption atmosphere study | Atmospheric study | <a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/sentinel5_data/tutorial.html" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/sentinel5_data/workflows/" aria-hidden="true"><Icon name="share-2" /></a> |
+| Pangeo ecosystem 101 for everyone - Introduction to Xarray Galaxy Tools | Atmospheric study | <a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/pangeo/tutorial.html" aria-hidden="true"></a> | <a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/sentinel5_data/workflows/" aria-hidden="true"><Icon name="share-2" /></a> |
 
 Want to include your workflow here? Let us know!
 
@@ -62,15 +69,23 @@ The Galaxy community organizes regularly training events. You can check the [eve
 
 # How is Galaxy used for earth data analysis?
 
-## Projects / Showcases
+## Institutes / Projects 
 
 Below is a list of projects involving members of this community:
 
 | Project | Description | 
 |---------|-------------|
+| [Data Terra EOSC node](https://www.data-terra.org/eosc/) | The EOSC Node for the Earth system and environmental sciences |
+| [GAIA Data](https://www.gaia-data.org/) | Aims at operating a distributed and integrated infrastructure of data and services for observing and modeling the Earth system, biodiversity, and the environment |
 | [EOSC FAIR-EASE](https://fairease.eu/) | A new approach to observation and modelling of the Earth System, Environment and Biodiversity |
 | [EOSC AquaINFRA](https://aquainfra.eu/) | Develops data and services to support marine and freshwater scientists and stakeholders |
 
+Below is a list of institutes supporting this work:
+
+| Project | Description | 
+|---------|-------------|
+| [Data Terra](https://www.data-terra.org/) | research infrastructure — works on earth system data, open science, and has dynamic communities across it's five thematic hubs (AERIS, FORMATER, ODATIS, PNDB, and THEIA). |
+| [LifeWatch ERIC](https://www.lifewatch.eu/) | a European e-Science infrastructure for biodiversity and ecosystem research, providing virtual labs, services, and a thriving community across the biodiversity domain. |
 
 ## Join us
 
