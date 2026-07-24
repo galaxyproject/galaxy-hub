@@ -30,6 +30,7 @@ Apart from strong AI/ML focused developments in the Galaxy Ecosystem, the Microb
 Paul Zierep and Bérénice Batut presented **FAIRyMAGs: A Modular, FAIR-Compliant Galaxy Workflow Suite for Flexible and Scalable Metagenome-Assembled Genome Reconstruction** ([Zenodo](https://zenodo.org/records/21128145)), a FAIR-compliant modular workflow suite for generating and analyzing MAGs, supported by the ELIXIR BFSP programme.
 
 <p align="center"><img src="images/paul-zierep-fairymags-talk.jpg" alt="Paul Zierep presenting FAIRyMAGs at GCC2026" width="50%"/></p>
+<p align="center"><small>Photo by Bérénice Batut, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></small></p>
 
 <p align="center"><img src="images/fairymags-poster.jpg" alt="FAIRyMAGs poster at GCC2026" width="50%"/></p>
 
