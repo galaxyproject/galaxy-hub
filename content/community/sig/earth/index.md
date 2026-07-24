@@ -36,9 +36,9 @@ Several curated Galaxy workflows are publicly available for different kinds of e
 | Target | Analysis | GTN Tutorial | Workflow |
 |--------|----------|--------------|----------|
 | Land degradation | Land study | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/ndvi_openeo/tutorial.html" aria-hidden="true"><Icon name="graduation-cap" /></a> | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/ndvi_openeo/workflows/" aria-hidden="true"><Icon name="share-2" /></a> |
-| Collaboration with JupyterGIS | Land study  | <a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/jupytergis_collaboration/tutorial.html" aria-hidden="true"></a> | <a None aria-hidden="true"><Icon name="share-2" /></a> |
-| QGIS Web Feature Services | Land study | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/QGIS_Web_Feature_Services/tutorial.html" aria-hidden="true"></a> | <a None aria-hidden="true"><Icon name="share-2" /></a> |
-| 3Dtrees: Point cloud processing | Land study | <a TBD" aria-hidden="true"><Icon name="graduation-cap" /></a> | TBD aria-hidden="true"><Icon name="share-2" /></a> |
+| Collaboration with JupyterGIS | Land study  | <a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/jupytergis_collaboration/tutorial.html" aria-hidden="true"></a> | None |
+| QGIS Web Feature Services | Land study | <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/QGIS_Web_Feature_Services/tutorial.html" aria-hidden="true"></a> | None |
+| 3Dtrees: Point cloud processing | Land study | TBD| TBD |
 
 ### Biodiversity
 
