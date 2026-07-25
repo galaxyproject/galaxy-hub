@@ -60,7 +60,7 @@ subtitle: The homepage of the French Galaxy community
       <div class="text-center">
         <img src="/images/undraw-illustrations/team.svg" alt="team" height="100" />
         <br /><br />
-        <a href="https://usegalaxy-eu.github.io/ifb/people" class="btn btn-primary">Meet the team</a>
+        <a href="/ifb/people/" class="btn btn-primary">Meet the team</a>
       </div>
     </div>
   </div>

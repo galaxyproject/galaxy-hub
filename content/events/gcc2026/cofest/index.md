@@ -1,5 +1,6 @@
 ---
 autotoc: false
+components: true
 ---
 
 <div class="text-center my-5">
@@ -21,6 +22,28 @@ autotoc: false
 
 </div>
 
+## CoFest 2026 Projects
+
+<div class="callout text-center">
+    <p>
+      <strong>Note:</strong> Already filled out the
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfVznubQqoEZYHT0IFoG5zumoXI0oyaBxcNEgOUFnWzVLChkw/viewform?usp=sharing&ouid=117702235489827456804" target="_blank">Find Your Track</a>
+      form? If you'd like to change
+      your assigned project, just reach out in the
+      <a class="font-bold" href="https://gcc2026.slack.com/archives/C0B8L47SQ3A" target="_blank">#cofest</a>
+      channel on the GCC2026 Slack and we'll place you accordingly.
+    </p>
+    <p>
+      Haven't filled out the form yet? Use the
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfVznubQqoEZYHT0IFoG5zumoXI0oyaBxcNEgOUFnWzVLChkw/viewform?usp=sharing&ouid=117702235489827456804" target="_blank">Find Your Track</a>
+      form and you'll be able to pick your project directly or be matched with one based on your interests and skills.
+    </p>
+</div>
+
+Below are the live projects for CoFest 2026, each with a lead and an assigned team.
+
+<CofestBoard />
+
 ## What to Expect at CoFest
 
 <div class="callout text-center">
@@ -41,14 +64,6 @@ CoFest participants will collaborate around **project tracks**, each with real, 
 CoFest is intentionally informal. We will have two days of collaborative work/brainstorming with people who care about the same things you do. There's no rigid agenda. You'll be matched with a track based on your interests and skills, and each track will have experienced contributors ready to help orient you and keep things moving.
 
 **You don't need to know anyone ahead of time**, and you don't need to come with a finished plan. Just show up, find your people, and leave having developed/planned something real together.
-
-## Find Your Track
-
-To put together the best possible teams, we would like to know your interests. Fill out the form below to share your background, the kind of work you enjoy, and what you're hoping to get out of CoFest.
-
-<div class="flex justify-center my-5">
-  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfVznubQqoEZYHT0IFoG5zumoXI0oyaBxcNEgOUFnWzVLChkw/viewform?usp=sharing&ouid=117702235489827456804" class="inline-flex items-center justify-center rounded px-8 py-2 text-sm font-semibold text-white bg-galaxy-primary hover:bg-galaxy-dark no-underline hover:no-underline" target="_blank">Fill out this form!</a>
-</div>
 
 ## Registration
 

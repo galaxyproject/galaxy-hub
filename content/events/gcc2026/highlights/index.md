@@ -105,26 +105,30 @@ to explore what Galaxy can offer your work.
 <div id="panel-discussion" style="margin: 2rem 0; background: #f8f9fa; border-radius: 0.5rem; border-left: 4px solid #25537b; overflow: hidden;">
 <div class="highlight-header">
 <div class="highlight-img-wrap">
-<img src="/images/events/gcc2026/cartoon-highlights.png" style="width: 100%; height: 100%; object-fit: cover; display: block;" alt="Panel Discussion" />
+<img src="/images/events/gcc2026/cartoon-highlights.png" style="width: 100%; height: 100%; object-fit: cover; display: block;" alt="Fishbowl Discussion" />
 </div>
 <div class="highlight-title">
-<div style="font-size: 1.25rem; font-weight: 700;">Panel Discussion</div>
-<div style="color: #555; margin-top: 0.25rem;">Engage with a group of panelists to discuss hot Galaxy topics.</div>
+<div style="font-size: 1.25rem; font-weight: 700;">Fishbowl & Discussion</div>
+<div style="color: #555; margin-top: 0.25rem;">Engage with the community members to discuss hot Galaxy topics.</div>
 </div>
 </div>
 <div style="padding: 1rem 1.5rem 1.5rem;">
 
-The Panel Discussion is one of the most anticipated sessions at GCC — a structured
-but open conversation on the topics the community is wrestling with most. A group of
-panelists drawn from research, development, and community leadership will engage with
-questions around the real challenges of data-intensive science: scaling analyses,
-sustaining infrastructure, enabling reproducibility, and building the collaborative
-frameworks that modern research demands.
+The fishbowl is a discussion format where a small group of participants sit in an
+inner circle and lead the conversation, while the rest of the audience listens from
+an outer ring. The key feature: any audience member can step into the fishbowl at
+any time to join the discussion, making the boundary between speakers and listeners
+fluid and open.
 
-The format is intentionally interactive. Audience questions and contributions are
-central to the session, not an afterthought. Topics shift from year to year based on
-what the community brings, making this one of the most authentic and unpredictable
-sessions on the program.
+This format is a new type of session at GCC2026. A starting group of
+participants drawn from users, developers, and community leadership will kick
+off the conversation around the topics the community is wrestling with most:
+scaling analyses, sustaining infrastructure, enabling reproducibility, and
+building the collaborative frameworks that modern research demands, and AI.
+
+After the joint fishbowl discussion, we'll break into smaller groups to explore
+specific topics in more depth, then reconvene as a fishbowl to share insights and
+continue the broader conversation.
 
 </div>
 </div>

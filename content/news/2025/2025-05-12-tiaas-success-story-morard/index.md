@@ -17,6 +17,7 @@ contributions:
     - elixir-europe
     - eurosciencegateway
 ---
+
 As part of the [Master's program in R&D in Biotechnology and Biomedicine at the University of
 Valencia (Spain)](https://www.uv.es/uvweb/college/en/postgraduate-courses/official-master-s-degrees/official-master-s-degrees-offered/master-s-degree-research-development-biotechnology-biomedicine-1285848941532/Titulacio.html?id=1285956361839), I ([Miguel Morard](https://scholar.google.es/citations?user=_j3v1hMAAAAJ&hl=en)) teach a practical course on [Bioinformatic techniques](https://www.uv.es/uvweb/undergraduate-degree-human-nutrition-dietetics/en/after-degree/official-master-s-degree/uv-master-s-degrees-catalogue-1285933577299.html?idA=44696&idT=2224;2025), with a strong focus on
 genomics. The course runs for one month, with two-hour sessions held twice a week. It brings together
@@ -60,7 +61,7 @@ science researcher.
 The enthusiasm of the students is evident—they consistently request more practical sessions and deeply
 appreciate the opportunity to apply theoretical knowledge to real-world problems.
 
-None of this would be possible without the support of [the European Galaxy team](https://usegalaxy-eu.github.io/people) and the [TIaaS service](https://usegalaxy.eu/tiaas/).
+None of this would be possible without the support of [the European Galaxy team](/eu/people/) and the [TIaaS service](https://usegalaxy.eu/tiaas/).
 Their contribution is essential to making hands-on genomics education accessible and effective. A
 sincere thank to them for helping us train the next generation of biotechnology and biomedical
 professionals.

@@ -105,7 +105,7 @@ export async function GET() {
         const pathSlug = slug.startsWith('events/') ? slug.slice(7) : slug;
 
         // Render markdown body to HTML
-        let content = '';
+        let content: string;
         try {
           if (event.body) {
             content = await marked.parse(event.body);

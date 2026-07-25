@@ -4,6 +4,7 @@ import vue from '@astrojs/vue';
 import tailwindcss from '@tailwindcss/vite';
 import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
+import { unified } from '@astrojs/markdown-remark';
 import rehypeSlug from 'rehype-slug';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import generatedRedirects from './src/build/generated-redirects.json' with { type: 'json' };
@@ -30,6 +31,9 @@ const patternRedirects = Object.fromEntries(
 // https://astro.build/config
 export default defineConfig({
   site: 'https://galaxyproject.org',
+  // Astro 7 changed the default to 'jsx', which strips whitespace between inline
+  // elements; keep v6 HTML-aware compression so legacy content spacing is preserved.
+  compressHTML: true,
   prefetch: {
     defaultStrategy: 'hover',
   },
@@ -40,13 +44,17 @@ export default defineConfig({
   },
   integrations: [
     vue(),
-    mdx({
-      rehypePlugins: [rehypeSlug, [rehypeAutolinkHeadings, autolinkConfig]],
-    }),
+    // MDX inherits the base `markdown` config (extendMarkdownConfig defaults to true),
+    // so the unified() processor below applies to .mdx as well as .md.
+    mdx(),
     sitemap(),
   ],
   markdown: {
-    rehypePlugins: [rehypeSlug, [rehypeAutolinkHeadings, autolinkConfig]],
+    // Astro 7 defaults to the Sätteri pipeline, which does not run remark/rehype
+    // plugins. Opt back into unified() so rehype-slug + autolink headings keep working.
+    processor: unified({
+      rehypePlugins: [rehypeSlug, [rehypeAutolinkHeadings, autolinkConfig]],
+    }),
   },
   vite: {
     define: {

@@ -26,7 +26,7 @@ Bjoern will give a talk about Bioconda and BioContainers and how both technologi
 
 ### Speakers
 
-* Björn Grüning, Postdoc Researcher at the University of Freiburg and member of the [European Galaxy team](https://usegalaxy-eu.github.io/freiburg/people).
+* Björn Grüning, Postdoc Researcher at the University of Freiburg and member of the [European Galaxy team](/freiburg/people/).
 
 ### Organizers
 

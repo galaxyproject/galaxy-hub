@@ -15,7 +15,7 @@ contributions:
 
 > Below you can see some human embryo brain tissue infected with the virus from our upcoming paper, which will of course acknowledge the valuable help of usegalaxy.eu.
 
-![harry-bulstrode-use-case](/assets/media/use_cases/harry-bulstrode.png)
+![harry-bulstrode-use-case](/assets/media/use-cases/harry-bulstrode.png)
 
 
 Thanks for using Galaxy, Harry, and for sharing your research with us!

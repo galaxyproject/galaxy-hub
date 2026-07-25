@@ -31,7 +31,7 @@ This workshop is an introduction to Galaxy at the beginner level (in Persian) fo
 
 ### Speakers
 
-* Alireza Khanteymoori, Postdoc Researcher at the University of Freiburg and member of the [European Galaxy team](https://usegalaxy-eu.github.io/freiburg/people).
+* Alireza Khanteymoori, Postdoc Researcher at the University of Freiburg and member of the [European Galaxy team](/freiburg/people/).
 * Fariba Dehghanian,  Assistant Professor, Department of Cell and Molecular Biology & Microbiology, University of Isfahan
 
 ### Organizers

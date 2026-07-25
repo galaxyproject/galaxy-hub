@@ -27,5 +27,9 @@ export default defineConfig({
     url: baseURL,
     reuseExistingServer: !process.env.CI,
     timeout: 120000,
+    // Astro 7 auto-detaches `astro dev` into a background daemon when it detects an AI
+    // coding agent. That makes Playwright's webServer look like it exited early and
+    // leaves a server Playwright can't manage. Force foreground so Playwright owns it.
+    env: { ASTRO_DEV_BACKGROUND: '0' },
   },
 });

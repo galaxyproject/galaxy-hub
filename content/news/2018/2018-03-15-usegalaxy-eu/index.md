@@ -45,7 +45,7 @@ Here are some of our repositories and how they can be useful to you:
 
 Repository                                                                         | About
 ---                                                                                | ---
-[website](https://github.com/usegalaxy-eu/website)                                 | Our website, https://usegalaxy-eu.github.io
+[website](https://github.com/usegalaxy-eu/website)                                 | Our website, /eu/
 [vgcn](https://github.com/usegalaxy-eu/vgcn)                                       | The compute images we use for our cloud condor cluster
 [vgcn-infrastructure](https://github.com/usegalaxy-eu/vgcn-infrastructure)         | The yaml description of our cloud cluster. Make a PR here if you think the queue is too slow and that we should add more compute resources.
 [usegalaxy-eu-tools](https://github.com/usegalaxy-eu/usegalaxy-eu-tools)           | The tools installed in our Galaxy instance. Any changes made here are automatically reflected in useGalaxy.eu every saturday morning.

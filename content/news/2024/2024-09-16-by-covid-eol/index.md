@@ -32,7 +32,7 @@ Among other things, we have:
 
 # Looking ahead
 
-<a href="https://virology.usegalaxy.eu" target="_blank"><img style="float: right; width: 200px; margin-left: 1rem;" alt="Virology subdomain logo" src="https://usegalaxy-eu.github.io/assets/media/virologyeu_logo.png" /></a>
+<a href="https://virology.usegalaxy.eu" target="_blank"><img style="float: right; width: 200px; margin-left: 1rem;" alt="Virology subdomain logo" src="/assets/media/usegalaxy/virology/virologyeu_logo.png" /></a>
 
 
 BeYond-COVID will reach the end of its funding period in October, but keeping with the project's full name, members of the Galaxy Project and the Galaxy Europe Team will continue their efforts to support high-quality viral pathogen data analysis on the Galaxy platform through the development of tools, workflows, training material and through maintenance of data resources.

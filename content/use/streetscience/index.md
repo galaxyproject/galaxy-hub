@@ -22,5 +22,5 @@ pub_libraries:
   - "Street Science"
 sponsors:
   - "[Street Science community](https://streetscience.community/)"
-  - "The [Freiburg Galaxy Team](https://usegalaxy-eu.github.io/freiburg/) but also collectively by groups and individuals from across Europe"
+  - "The [Freiburg Galaxy Team](/freiburg/) but also collectively by groups and individuals from across Europe"
 ---

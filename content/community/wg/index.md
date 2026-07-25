@@ -84,7 +84,7 @@ This group builds the standards and ecosystem for execution, testing, publishing
 * [GitHub](https://github.com/galaxyproject/iwc)
 * [Google Drive](https://drive.google.com/drive/folders/1E8xG5u8mInGr5-GgfpKVTQYeo5xkRkAx?usp=sharing)
 * [Matrix Channel](https://matrix.to/#/#galaxyproject_iwc:gitter.im)
-* Organizers: Marius van den Beek, Alex Ostrovsky
+* Organizers: Marius van den Beek
 
 </div>
 
@@ -100,7 +100,7 @@ Galaxy Outreach And Training (And) Support = GOATS!
 * [Google Drive](https://drive.google.com/drive/folders/1KIircdXhvS7-00XZy1uIs6Dmja29yjAW)
 * [Matrix Channel](https://matrix.to/#/#galaxyproject_wg-goat:gitter.im)
 * [Support Charter and Priorities](https://docs.google.com/document/d/1YsTnGUAbh1g3z2WSmR7TKGhSPUTWCsQrz5hcCgbsTKY/edit#heading=h.9cp679lig0rf)
-* Organizer: Delphine Lariviere
+* Organizer: Delphine Larivière, Natalie Whitaker-Allen
 
 </div>
 

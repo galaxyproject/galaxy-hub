@@ -43,7 +43,7 @@ For those that couldn't make it on that week, all the __tutorials will stay avai
 
 Researchers in all career stages (PhD students, senior researchers...) and different roles (clinicians, laboratory manager, technicians...) have joined the workshop. In total, the registration surpassed the __750 participants__ from __82 countries__!
 
-![Participation by country](/assets/media/covid_workshop/worldstats.png)
+![Participation by country](/assets/media/covid-workshop/worldstats.png)
 
 To welcome the arabic-speaking community, Engy Nasr and Abdulrahman Yahia Azab recorded a great video introducing Galaxy, thank you both!
 

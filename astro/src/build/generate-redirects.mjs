@@ -54,6 +54,16 @@ function legacyNormalize(slug) {
     .join('/');
 }
 
+function hasFileExtension(urlPath) {
+  const pathname = urlPath.split(/[?#]/, 1)[0];
+  return /\.[^/.]+$/.test(pathname);
+}
+
+function normalizeRedirectTarget(toPath) {
+  if (toPath.includes('://') || toPath.endsWith('/') || hasFileExtension(toPath)) return toPath;
+  return `${toPath}/`;
+}
+
 /**
  * Extract a frontmatter field value, handling single-line and multi-line YAML
  */
@@ -110,8 +120,7 @@ async function getContentData() {
           if (redirect && !redirect.includes('://')) {
             const fromPath = `/${slug}/`.replace(/\/+/g, '/');
             const toPath = redirect.startsWith('/') ? redirect : `/${redirect}`;
-            const normalizedTo = toPath.endsWith('/') ? toPath : `${toPath}/`;
-            contentRedirects[fromPath] = normalizedTo;
+            contentRedirects[fromPath] = normalizeRedirectTarget(toPath);
           }
         }
       }
@@ -225,8 +234,7 @@ async function generateRedirects() {
 
   for (const [from, to] of Object.entries(yamlData.redirects)) {
     const fromPath = from.endsWith('/') ? from : `${from}/`;
-    const isExternal = to.includes('://');
-    const toPath = isExternal || to.endsWith('/') ? to : `${to}/`;
+    const toPath = normalizeRedirectTarget(to);
     redirects[fromPath] = toPath;
   }
 
@@ -275,4 +283,4 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     });
 }
 
-export { generateRedirects, legacyNormalize, legacyNormalizeSegment };
+export { generateRedirects, legacyNormalize, legacyNormalizeSegment, normalizeRedirectTarget, hasFileExtension };
