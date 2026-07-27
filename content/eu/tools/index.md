@@ -2,7 +2,7 @@
 # THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
 # To update, run: python3 scripts/update-tools.py --server https://usegalaxy.eu --name "European Galaxy" --output content/eu/tools/index.md
 title: European Galaxy Tools
-description: "4329 tools and counting"
+description: "4356 tools and counting"
 ---
 
 
@@ -597,7 +597,7 @@ description: "4329 tools and counting"
 [Samtools merge](https://usegalaxy.eu/root?tool_id=samtools_merge "merge multiple sorted alignment files")
 [Samtools mpileup](https://usegalaxy.eu/root?tool_id=samtools_mpileup "multi-way pileup of variants")
 [Samtools phase](https://usegalaxy.eu/root?tool_id=samtools_phase "call and phase heterozygous SNPs")
-[Samtools reheader](https://usegalaxy.eu/root?tool_id=samtools_reheader "copy SAM/BAM header between datasets")
+[Samtools reheader](https://usegalaxy.eu/root?tool_id=samtools_reheader "copy SAM/BAM header between datasets or edit read groups")
 [Samtools sort](https://usegalaxy.eu/root?tool_id=samtools_sort "order of storing aligned sequences")
 [Samtools split](https://usegalaxy.eu/root?tool_id=samtools_split "BAM dataset on readgroups")
 [Samtools stats](https://usegalaxy.eu/root?tool_id=samtools_stats "generate statistics for BAM dataset")
@@ -834,6 +834,7 @@ description: "4329 tools and counting"
 [Categorize](https://usegalaxy.eu/root?tool_id=picrust_categorize "by collapsing hierarchical data to a specified functional level")
 [ChIPseeker](https://usegalaxy.eu/root?tool_id=chipseeker "for ChIP peak annotation and visualization")
 [ChewBBACA AlleleCall](https://usegalaxy.eu/root?tool_id=chewbbaca_allelecall "Determine the allelic profiles of a set of genomes")
+[ClipKIT](https://usegalaxy.eu/root?tool_id=clipkit "trim multiple sequence alignments while retaining phylogenetically informative sites")
 [Commet](https://usegalaxy.eu/root?tool_id=commet "COmpare Multiple METagenomes")
 [Compare BIOM tables](https://usegalaxy.eu/root?tool_id=picrust_compare_biom "Compare the accuracy of biom files (expected and observed) either by observations (default) or by samples.")
 [Compute](https://usegalaxy.eu/root?tool_id=Add_a_column1 "an expression on every row")
@@ -1055,6 +1056,7 @@ description: "4329 tools and counting"
 [gProfiler Orth](https://usegalaxy.eu/root?tool_id=gprofiler_orth "translates gene identifiers between organisms")
 [gProfiler Random](https://usegalaxy.eu/root?tool_id=gprofiler_random "generates a gene list")
 [gProfiler SNPense](https://usegalaxy.eu/root?tool_id=gprofiler_snpense "maps SNP rs-codes to gene names, chromosomal coordinates and variant effects")
+[getITD](https://usegalaxy.eu/root?tool_id=getitd "detect FLT3-ITDs from amplicon NGS data")
 [goseq](https://usegalaxy.eu/root?tool_id=goseq "tests for overrepresented gene categories")
 [hAMRonize](https://usegalaxy.eu/root?tool_id=hamronize_tool "Antimicrobial Resistance Analysis Reports into a common data structure")
 [hamronize summarize:](https://usegalaxy.eu/root?tool_id=hamronize_summarize "Concatenate and summarize AMR detection reports")
@@ -1099,6 +1101,8 @@ description: "4329 tools and counting"
 [vSNP: determine reference](https://usegalaxy.eu/root?tool_id=vsnp_determine_ref_from_data "from input data")
 [vSNP: get SNPs](https://usegalaxy.eu/root?tool_id=vsnp_get_snps "")
 [vSNP: statistics](https://usegalaxy.eu/root?tool_id=vsnp_statistics "")
+[vg giraffe](https://usegalaxy.eu/root?tool_id=vg_giraffe "is a fast haplotype-aware read mapper")
+[vg paths](https://usegalaxy.eu/root?tool_id=vg_paths "extracts and analyzes paths in a variation graph")
 
 </div>
 
@@ -1442,6 +1446,7 @@ description: "4329 tools and counting"
 [Call variants](https://usegalaxy.eu/root?tool_id=lofreq_call "with LoFreq")
 [Control-FREEC](https://usegalaxy.eu/root?tool_id=control_freec "detects copy-number changes and allelic imbalances")
 [Convert VCF to MAF](https://usegalaxy.eu/root?tool_id=vcf2maf "with vcf2maf")
+[CountESS](https://usegalaxy.eu/root?tool_id=countess "run a saved CountESS workflow configuration")
 [DCS mutations to SSCS stats:](https://usegalaxy.eu/root?tool_id=mut2sscs "Extracts all tags from the single stranded consensus sequence (SSCS) bam file that carry a mutation at the same position a mutation is called in the duplex consensus sequence (DCS) and calculates their frequencies")
 [DCS mutations to tags/reads:](https://usegalaxy.eu/root?tool_id=mut2read "Extracts all tags that carry a mutation in the duplex consensus sequence (DCS)")
 [DeepVariant](https://usegalaxy.eu/root?tool_id=deepvariant "deep learning-based variant caller")
@@ -1591,9 +1596,9 @@ description: "4329 tools and counting"
 [ssiamb](https://usegalaxy.eu/root?tool_id=ssiamb_self "ambiguous SNV counter from reads mapped to a supplied assembly")
 [structureHarvester](https://usegalaxy.eu/root?tool_id=structureharvester "for parsing STRUCTURE outputs and for performing the Evanno method")
 [vcfanno](https://usegalaxy.eu/root?tool_id=vcfanno "VCF annotation")
-[vg convert](https://usegalaxy.eu/root?tool_id=vg_convert "")
-[vg deconstruct](https://usegalaxy.eu/root?tool_id=vg_deconstruct "construct a dynamic succinct variation graph")
-[vg view](https://usegalaxy.eu/root?tool_id=vg_view "")
+[vg convert](https://usegalaxy.eu/root?tool_id=vg_convert "convert variation graphs between formats")
+[vg deconstruct](https://usegalaxy.eu/root?tool_id=vg_deconstruct "VCF projection of a variation graph against a reference path")
+[vg view](https://usegalaxy.eu/root?tool_id=vg_view "inspect and convert variation graph formats")
 
 </div>
 
@@ -1797,6 +1802,8 @@ description: "4329 tools and counting"
 [Trinity Stats](https://usegalaxy.eu/root?tool_id=trinity_stats "")
 [Trinotate](https://usegalaxy.eu/root?tool_id=trinotate "functional transcript annotation")
 [Visualize](https://usegalaxy.eu/root?tool_id=heinz_visualization "the optimal scoring subnetwork")
+[WGCNA](https://usegalaxy.eu/root?tool_id=wgcna_network "Weighted Gene Co-expression Network Analysis")
+[WGCNA: Soft-Thresholding Power](https://usegalaxy.eu/root?tool_id=wgcna_softpower "Estimate the soft-thresholding power for WGCNA network construction")
 [antaRNA](https://usegalaxy.eu/root?tool_id=antarna "Ant Colony Optimized RNA Sequence Design")
 [barrnap](https://usegalaxy.eu/root?tool_id=barrnap "Locate ribosomal RNA&#x27;s in a fasta file. (GFF output)")
 [blockbuster](https://usegalaxy.eu/root?tool_id=blockbuster "detects blocks of overlapping reads using a gaussian-distribution approach")
@@ -1943,6 +1950,8 @@ description: "4329 tools and counting"
 [ASTRAL-III](https://usegalaxy.eu/root?tool_id=astral "Estimating an unrooted species tree given a set of unrooted gene trees")
 [Annotate](https://usegalaxy.eu/root?tool_id=iframe "opens an IFrame to Apollo")
 [Annotate](https://usegalaxy.eu/root?tool_id=hyphy_annotate "a newick tree with HyPhy")
+[BEAST2](https://usegalaxy.eu/root?tool_id=beast2_beast "Bayesian Evolutionary Analysis Sampling Trees (MCMC)")
+[BEAST2 LogCombiner](https://usegalaxy.eu/root?tool_id=beast2_logcombiner "Combine multiple trace or tree log files into a single log file")
 [BLAST parser](https://usegalaxy.eu/root?tool_id=blast_parser "Convert 12- or 24-column BLAST output into 3-column hcluster_sg input")
 [Convert XMFA to percent identity table](https://usegalaxy.eu/root?tool_id=xmfa2tbl "")
 [DIST2TREE](https://usegalaxy.eu/root?tool_id=fastreer_dist2tree "Newick tree from distance matrix")
@@ -2003,6 +2012,7 @@ description: "4329 tools and counting"
 [Squirrel Phylo](https://usegalaxy.eu/root?tool_id=squirrel_phylo "Phylogenetic and APOBEC3 analysis of MPXV (Mpox virus)")
 [Squirrel QC](https://usegalaxy.eu/root?tool_id=squirrel_qc "QC of MPXV (Mpox virus) sequences")
 [T-Coffee](https://usegalaxy.eu/root?tool_id=t_coffee "multiple sequence alignment")
+[TreeAnnotator](https://usegalaxy.eu/root?tool_id=beast2_treeannotator "Summarize a sample of trees with annotations")
 [TreeBeST best](https://usegalaxy.eu/root?tool_id=treebest_best "Generate a phylogenetic tree using CDS alignment and species tree")
 [TreeBeST best](https://usegalaxy.eu/root?tool_id=treebest_best_wrapper "Generate a phylogenetic tree using CDS alignment and species tree")
 [UShER](https://usegalaxy.eu/root?tool_id=usher "ultrafast sample placement on existing trees")
@@ -2502,6 +2512,9 @@ description: "4329 tools and counting"
 
 <div class="tool-list">
 
+[Kraken Binarize](https://usegalaxy.eu/root?tool_id=kraken_binarize "binarise document images")
+[Kraken OCR](https://usegalaxy.eu/root?tool_id=kraken_ocr "extract text from segmented or line document images")
+[Kraken Segment](https://usegalaxy.eu/root?tool_id=kraken_segment "segment text regions and lines in document images")
 [Stanford CoreNLP Annotators (Multi-language)](https://usegalaxy.eu/root?tool_id=stanford_corenlp "")
 [spaCy NLP Annotators](https://usegalaxy.eu/root?tool_id=spacy_nlp "")
 
@@ -2831,6 +2844,20 @@ description: "4329 tools and counting"
 [sixgill filter](https://usegalaxy.eu/root?tool_id=sixgill_filter "a metapeptide database")
 [sixgill makefasta](https://usegalaxy.eu/root?tool_id=sixgill_makefasta "from a metapeptide database")
 [sixgill merge](https://usegalaxy.eu/root?tool_id=sixgill_merge "metapeptide databases")
+[sourmash compare](https://usegalaxy.eu/root?tool_id=sourmash_compare "one or more signature files")
+[sourmash index](https://usegalaxy.eu/root?tool_id=sourmash_index "signatures for rapid search")
+[sourmash multigather](https://usegalaxy.eu/root?tool_id=sourmash_multigather "search query signatures against signature collections")
+[sourmash plot](https://usegalaxy.eu/root?tool_id=sourmash_plot "comparison matrix")
+[sourmash prefetch](https://usegalaxy.eu/root?tool_id=sourmash_prefetch "search a scaled signature for matches in a large database of genomes, using containment")
+[sourmash search](https://usegalaxy.eu/root?tool_id=sourmash_search "a collection of signatures for matches to a single query signature")
+[sourmash signature](https://usegalaxy.eu/root?tool_id=sourmash_signature "manipulate signatures")
+[sourmash sketch](https://usegalaxy.eu/root?tool_id=sourmash_sketch "create sourmash signature")
+[sourmash tax annotate](https://usegalaxy.eu/root?tool_id=sourmash_tax_annotate "gather results with lineage inforamtion")
+[sourmash tax genome](https://usegalaxy.eu/root?tool_id=sourmash_tax_genome "taxonomic classification for gather results")
+[sourmash tax grep](https://usegalaxy.eu/root?tool_id=sourmash_tax_grep "searches taxonomies for matching strings")
+[sourmash tax metagenome](https://usegalaxy.eu/root?tool_id=sourmash_tax_metagenome "summarizes gather results for metagenomes by taxonomic lineage")
+[sourmash tax prepare](https://usegalaxy.eu/root?tool_id=sourmash_tax_prepare "convert csv taxonomy files into sqlite")
+[sourmash tax summarize](https://usegalaxy.eu/root?tool_id=sourmash_tax_summarize "stats from taxonomy files")
 [staramr](https://usegalaxy.eu/root?tool_id=staramr_search "Scans genome assemblies against the ResFinder, PlasmidFinder, and PointFinder databases searching for AMR genes.")
 [sylph profile](https://usegalaxy.eu/root?tool_id=sylph_profile "Profile a metagenome including taxonomic and sequence abundances")
 [sylph query](https://usegalaxy.eu/root?tool_id=sylph_query "compare metagenome similarity to a reference genome")
