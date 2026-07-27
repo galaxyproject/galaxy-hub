@@ -4,6 +4,7 @@
 @import '@fontsource/atkinson-hyperlegible/400.css';
 @import '@fontsource/atkinson-hyperlegible/700.css';
 @import '@galaxyproject/brand-tokens/theme.css';
+@import './print.css';
 @plugin "@tailwindcss/typography";
 
 @custom-variant dark (&:is(.dark *));
