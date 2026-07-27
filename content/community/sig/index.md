@@ -60,7 +60,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 
 {/*  Ecology  */}
 <div class="card" style="min-width: 12rem; max-width: 20rem">
-<a href="https://ecology.usegalaxy.eu">
+<a href="/community/sig/ecology/">
 <div class="card-header bg-sig-field text-white text-center"><Icon name="external-link" />&nbsp;Ecology</div>
 </a>
 
