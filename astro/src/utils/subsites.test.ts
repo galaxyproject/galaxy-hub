@@ -15,9 +15,9 @@ describe('normalizeSubsites', () => {
 });
 
 describe('contentMatchesSubsite', () => {
-  it('treats missing or empty subsites as visible everywhere', () => {
-    expect(contentMatchesSubsite([], 'eu')).toBe(true);
-    expect(contentMatchesSubsite([], 'global')).toBe(true);
+  it('keeps untagged content off every subsite', () => {
+    expect(contentMatchesSubsite([], 'eu')).toBe(false);
+    expect(contentMatchesSubsite([], 'global')).toBe(false);
   });
 
   it('treats all as visible on every subsite', () => {

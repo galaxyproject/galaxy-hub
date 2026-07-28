@@ -23,7 +23,8 @@ export function contentMatchesSubsite(contentSubsites: string[], targetSubsite: 
   const normalizedSubsites = normalizeSubsites(contentSubsites);
   const target = normalizeSubsiteId(targetSubsite);
 
-  if (normalizedSubsites.length === 0) return true;
+  // Untagged content belongs to the root site only, so it never matches a subsite.
+  if (normalizedSubsites.length === 0) return false;
   if (normalizedSubsites.includes('all')) return true;
   if (normalizedSubsites.includes(target)) return true;
 
