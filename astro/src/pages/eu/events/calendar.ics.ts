@@ -1,5 +1,6 @@
 import { getCollection } from 'astro:content';
 import type { APIContext } from 'astro';
+import { contentMatchesSubsite } from '../../../utils/subsites';
 
 // Format date for iCalendar (YYYYMMDDTHHMMSSZ)
 function formatICSDate(date: Date): string {
@@ -40,9 +41,8 @@ export async function GET(context: APIContext) {
   // Get events from the past year and all future events, filtered to subsite 'eu'
   const relevantEvents = events
     .filter((event) => {
-      const subsites = event.data.subsites;
-      const subsiteList = Array.isArray(subsites) ? subsites : subsites ? [subsites] : [];
-      if (!subsiteList.includes('eu')) return false;
+      if (event.data.draft) return false;
+      if (!contentMatchesSubsite(event.data.subsites, 'eu')) return false;
 
       const eventDate = event.data.date instanceof Date ? event.data.date : new Date(event.data.date || '');
       return eventDate >= oneYearAgo;
