@@ -4,7 +4,7 @@ import { useStore } from '@nanostores/vue';
 import { currentSubsite, subsites, type SubsiteId } from '@/stores/subsiteStore';
 import { renderMarkdownInline } from '@/utils/markdown';
 import { formatDateRange, getUTCYear } from '@/utils/dateUtils';
-import { contentMatchesSubsite, normalizeSubsites } from '@/utils/subsites';
+import { contentMatchesSubsite } from '@/utils/subsites';
 import ExternalIcon from '../common/ExternalIcon.vue';
 
 interface EventData {
@@ -85,7 +85,7 @@ const filteredEvents = computed(() => {
   }
 
   return props.events.filter((event) => {
-    return contentMatchesSubsite(normalizeSubsites(event.subsites), subsite);
+    return contentMatchesSubsite(event.subsites, subsite);
   });
 });
 

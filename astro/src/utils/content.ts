@@ -5,7 +5,7 @@
 
 import { getCollection, type CollectionEntry } from 'astro:content';
 import { isPublishedDate, formatDate as formatDateUtil, formatDateRange as formatDateRangeUtil } from './dateUtils';
-import { contentMatchesSubsite, normalizeSubsites } from './subsites';
+import { contentMatchesSubsite } from './subsites';
 
 type ArticleEntry = CollectionEntry<'articles'>;
 export type NewsEntry = CollectionEntry<'news'>;
@@ -24,7 +24,7 @@ export async function getArticles(subsite?: string): Promise<ArticleEntry[]> {
   }
 
   return articles.filter((article) => {
-    return contentMatchesSubsite(normalizeSubsites(article.data.subsites), subsite);
+    return contentMatchesSubsite(article.data.subsites, subsite);
   });
 }
 
@@ -39,7 +39,7 @@ export async function getEvents(subsite?: string): Promise<EventEntry[]> {
   }
 
   return events.filter((event) => {
-    return contentMatchesSubsite(normalizeSubsites(event.data.subsites), subsite);
+    return contentMatchesSubsite(event.data.subsites, subsite);
   });
 }
 
@@ -226,7 +226,7 @@ export async function getNews(subsite?: string): Promise<NewsEntry[]> {
   const filtered = !subsite
     ? news
     : news.filter((article) => {
-        return contentMatchesSubsite(normalizeSubsites(article.data.subsites), subsite);
+        return contentMatchesSubsite(article.data.subsites, subsite);
       });
 
   return filtered.sort((a, b) => {

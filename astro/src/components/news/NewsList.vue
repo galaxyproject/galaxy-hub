@@ -4,7 +4,7 @@ import { useStore } from '@nanostores/vue';
 import { currentSubsite, subsites, type SubsiteId } from '@/stores/subsiteStore';
 import { renderMarkdownInline } from '@/utils/markdown';
 import { formatDate, getUTCYear } from '@/utils/dateUtils';
-import { contentMatchesSubsite, normalizeSubsites } from '@/utils/subsites';
+import { contentMatchesSubsite } from '@/utils/subsites';
 import ExternalIcon from '../common/ExternalIcon.vue';
 
 interface NewsArticle {
@@ -58,7 +58,7 @@ const filteredBySubsite = computed(() => {
     return props.articles;
   }
   return props.articles.filter((article) => {
-    return contentMatchesSubsite(normalizeSubsites(article.subsites), subsite);
+    return contentMatchesSubsite(article.subsites, subsite);
   });
 });
 

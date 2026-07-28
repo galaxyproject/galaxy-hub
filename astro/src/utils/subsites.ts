@@ -19,7 +19,7 @@ export function normalizeSubsites(value: unknown): string[] {
   return values.map(normalizeSubsiteId).filter(Boolean);
 }
 
-export function contentMatchesSubsite(contentSubsites: string[], targetSubsite: string): boolean {
+export function contentMatchesSubsite(contentSubsites: unknown, targetSubsite: string): boolean {
   const normalizedSubsites = normalizeSubsites(contentSubsites);
   const target = normalizeSubsiteId(targetSubsite);
 
@@ -33,7 +33,7 @@ export function contentMatchesSubsite(contentSubsites: string[], targetSubsite: 
   });
 }
 
-export function expandSubsites(contentSubsites: string[]): string[] {
+export function expandSubsites(contentSubsites: unknown): string[] {
   const normalizedSubsites = normalizeSubsites(contentSubsites);
   return normalizedSubsites.includes('all') ? [...ALL_SUBSITE_IDS] : normalizedSubsites;
 }

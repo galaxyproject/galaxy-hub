@@ -6,7 +6,7 @@
 import { getCollection } from 'astro:content';
 import { marked } from 'marked';
 import { extractAuthors } from '../../utils/contributors';
-import { expandSubsites, normalizeSubsites } from '../../utils/subsites';
+import { expandSubsites } from '../../utils/subsites';
 
 const JSONFEED_DAYS_AGO_LIMIT = 30;
 
@@ -59,7 +59,7 @@ export async function GET() {
       const daysAgo = getDaysAgo(date);
       const slug = (data.slug || article.id).replace(/\/$/, '');
 
-      const subsites = expandSubsites(normalizeSubsites(data.subsites));
+      const subsites = expandSubsites(data.subsites);
 
       const tags = data.tags ? (Array.isArray(data.tags) ? data.tags : [data.tags]) : [];
       const authors = extractAuthors(data as Record<string, unknown>).join(', ');

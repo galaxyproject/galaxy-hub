@@ -1,5 +1,5 @@
 import { getCollection } from 'astro:content';
-import { contentMatchesSubsite, normalizeSubsites } from '../../../utils/subsites';
+import { contentMatchesSubsite } from '../../../utils/subsites';
 
 function escapeXML(text: string): string {
   return text
@@ -29,7 +29,7 @@ export async function GET() {
   const euEvents = events
     .filter((event) => {
       if (event.data.draft) return false;
-      return contentMatchesSubsite(normalizeSubsites(event.data.subsites), 'eu');
+      return contentMatchesSubsite(event.data.subsites, 'eu');
     })
     .sort((a, b) => {
       const dateA = a.data.date instanceof Date ? a.data.date : new Date(a.data.date || 0);

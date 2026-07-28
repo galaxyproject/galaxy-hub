@@ -7,14 +7,14 @@
 import { getCollection } from 'astro:content';
 import BareArticleLayout from '../../../layouts/BareArticleLayout.astro';
 import EventsTable from '../../../components/bare/EventsTable.astro';
-import { contentMatchesSubsite, normalizeSubsites } from '../../../utils/subsites';
+import { contentMatchesSubsite } from '../../../utils/subsites';
 
 const now = new Date();
 const twelveMonthsAgo = new Date(now);
 twelveMonthsAgo.setFullYear(twelveMonthsAgo.getFullYear() - 1);
 
 const allEvents = await getCollection('events', (entry) => {
-  return contentMatchesSubsite(normalizeSubsites(entry.data.subsites), 'fr') && !entry.data.draft;
+  return contentMatchesSubsite(entry.data.subsites, 'fr') && !entry.data.draft;
 });
 
 const upcomingEvents = allEvents

@@ -18,6 +18,8 @@ describe('contentMatchesSubsite', () => {
   it('keeps untagged content off every subsite', () => {
     expect(contentMatchesSubsite([], 'eu')).toBe(false);
     expect(contentMatchesSubsite([], 'global')).toBe(false);
+    expect(contentMatchesSubsite(undefined, 'eu')).toBe(false);
+    expect(contentMatchesSubsite(null, 'eu')).toBe(false);
   });
 
   it('treats all as visible on every subsite', () => {
@@ -69,5 +71,14 @@ describe('expandSubsites', () => {
 
   it('normalizes and returns non-all values unchanged', () => {
     expect(expandSubsites(['Global', ' US '])).toEqual(['global', 'us']);
+  });
+
+  it('expands a case-normalized all and discards accompanying tags', () => {
+    expect(expandSubsites(['ALL', 'esg'])).toEqual(ALL_SUBSITE_IDS);
+  });
+
+  it('returns an empty list for untagged content', () => {
+    expect(expandSubsites(undefined)).toEqual([]);
+    expect(expandSubsites([])).toEqual([]);
   });
 });

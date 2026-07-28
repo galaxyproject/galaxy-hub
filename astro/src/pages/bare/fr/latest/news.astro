@@ -5,12 +5,12 @@
  * Embedded in Galaxy FR interface - high visibility feed
  */
 import { getCollection } from 'astro:content';
-import { contentMatchesSubsite, normalizeSubsites } from '../../../../utils/subsites';
+import { contentMatchesSubsite } from '../../../../utils/subsites';
 
 const allNews = await getCollection('news');
 const newsArticles = allNews
   .filter((article) => {
-    return contentMatchesSubsite(normalizeSubsites(article.data.subsites), 'fr') && !article.data.draft;
+    return contentMatchesSubsite(article.data.subsites, 'fr') && !article.data.draft;
   })
   .sort((a, b) => {
     const dateA = a.data.date ? new Date(a.data.date) : new Date(0);

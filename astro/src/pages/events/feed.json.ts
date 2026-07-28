@@ -5,7 +5,7 @@
  */
 import { getCollection } from 'astro:content';
 import { marked } from 'marked';
-import { expandSubsites, normalizeSubsites } from '../../utils/subsites';
+import { expandSubsites } from '../../utils/subsites';
 
 const JSONFEED_DAYS_AGO_LIMIT = 30;
 
@@ -63,7 +63,7 @@ export async function GET() {
           }
         }
 
-        const subsites = expandSubsites(normalizeSubsites(data.subsites));
+        const subsites = expandSubsites(data.subsites);
 
         // Get contact info - can be string or array
         let contact = '';

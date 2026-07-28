@@ -5,12 +5,12 @@
  * Embedded in Galaxy FR interface - high visibility feed
  */
 import { getCollection } from 'astro:content';
-import { contentMatchesSubsite, normalizeSubsites } from '../../../../utils/subsites';
+import { contentMatchesSubsite } from '../../../../utils/subsites';
 
 const now = new Date();
 
 const allEvents = await getCollection('events', (entry) => {
-  return contentMatchesSubsite(normalizeSubsites(entry.data.subsites), 'fr') && !entry.data.draft;
+  return contentMatchesSubsite(entry.data.subsites, 'fr') && !entry.data.draft;
 });
 
 // Get upcoming events

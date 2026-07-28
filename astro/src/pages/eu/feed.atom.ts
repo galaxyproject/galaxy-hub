@@ -5,7 +5,7 @@
  */
 import { getCollection } from 'astro:content';
 import { marked } from 'marked';
-import { contentMatchesSubsite, normalizeSubsites } from '../../utils/subsites';
+import { contentMatchesSubsite } from '../../utils/subsites';
 
 const SITE_URL = 'https://galaxyproject.org';
 const FEED_TITLE = 'Galaxy Europe';
@@ -33,7 +33,7 @@ export async function GET() {
     .filter((article) => {
       // Must have a date
       if (!article.data.date) return false;
-      return contentMatchesSubsite(normalizeSubsites(article.data.subsites), 'eu');
+      return contentMatchesSubsite(article.data.subsites, 'eu');
     })
     .sort((a, b) => {
       const dateA = a.data.date instanceof Date ? a.data.date : new Date(a.data.date || 0);

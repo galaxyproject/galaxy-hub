@@ -1,6 +1,6 @@
 import { getCollection } from 'astro:content';
 import { isPublishedDate } from '../../../utils/dateUtils';
-import { contentMatchesSubsite, normalizeSubsites } from '../../../utils/subsites';
+import { contentMatchesSubsite } from '../../../utils/subsites';
 
 function escapeXML(text: string): string {
   return text
@@ -26,7 +26,7 @@ export async function GET() {
     .filter((article) => {
       if (article.data.draft) return false;
       if (!isPublishedDate(article.data.date, now)) return false;
-      return contentMatchesSubsite(normalizeSubsites(article.data.subsites), 'eu');
+      return contentMatchesSubsite(article.data.subsites, 'eu');
     })
     .sort((a, b) => {
       const dateA = a.data.date instanceof Date ? a.data.date : new Date(a.data.date || 0);
