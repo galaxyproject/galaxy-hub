@@ -38,20 +38,22 @@ describe('contentMatchesSubsite', () => {
     expect(contentMatchesSubsite(['freiburg'], 'eu')).toBe(false);
   });
 
-  it('matches all-eu only for EU-affiliated subsites', () => {
-    expect(contentMatchesSubsite(['all-eu'], 'eu')).toBe(true);
-    expect(contentMatchesSubsite(['all-eu'], 'freiburg')).toBe(true);
-    expect(contentMatchesSubsite(['all-eu'], 'ifb')).toBe(true);
-    expect(contentMatchesSubsite(['all-eu'], 'global')).toBe(false);
-    expect(contentMatchesSubsite(['all-eu'], 'us')).toBe(false);
+  it('matches all-eu for every EU-affiliated subsite', () => {
+    for (const subsite of ['eu', 'freiburg', 'erasmusmc', 'belgium', 'pasteur', 'elixir-it', 'ifb']) {
+      expect(contentMatchesSubsite(['all-eu'], subsite)).toBe(true);
+    }
   });
 
-  it('matches all-fr only for FR-affiliated subsites', () => {
-    expect(contentMatchesSubsite(['all-fr'], 'fr')).toBe(true);
-    expect(contentMatchesSubsite(['all-fr'], 'ifb')).toBe(true);
-    expect(contentMatchesSubsite(['all-fr'], 'genouest')).toBe(true);
-    expect(contentMatchesSubsite(['all-fr'], 'global')).toBe(false);
-    expect(contentMatchesSubsite(['all-fr'], 'eu')).toBe(false);
+  it('does not match all-eu outside the EU group', () => {
+    expect(contentMatchesSubsite(['all-eu'], 'global')).toBe(false);
+    expect(contentMatchesSubsite(['all-eu'], 'us')).toBe(false);
+    expect(contentMatchesSubsite(['all-eu'], 'genouest')).toBe(false);
+  });
+
+  it('treats all-fr as an ordinary tag, not a group', () => {
+    expect(contentMatchesSubsite(['all-fr'], 'fr')).toBe(false);
+    expect(contentMatchesSubsite(['all-fr'], 'ifb')).toBe(false);
+    expect(contentMatchesSubsite(['all-fr'], 'genouest')).toBe(false);
   });
 
   it('keeps arbitrary tags as direct matches only', () => {
