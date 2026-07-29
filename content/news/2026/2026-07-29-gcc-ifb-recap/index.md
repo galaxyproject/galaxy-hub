@@ -32,7 +32,7 @@ The conference featured **three days of talks and discussions**, followed by **t
 
 ### Relive GCC2026
 
-A **comprehensive recap** of the conference is available on the [Galaxy Project website](https://galaxyproject.org/news/2026-07-06-gcc2026-recap/), and all presentation videos are accessible on the **[GCC2026 YouTube playlist](https://www.youtube.com/playlist?list=PLB4YWcG-HSbw)**. This year's event placed a special emphasis on **AI-driven developments and applications within Galaxy**, with a dedicated session summary available [here](https://galaxyproject.org/news/2026-07-09-gcc2026-fishbowl-summary/).
+A **comprehensive recap** of the conference is available on the [Galaxy Project website](https://galaxyproject.org/news/2026-07-06-gcc2026-recap/), and all presentation videos are accessible on the **[GCC2026 YouTube playlist](https://www.youtube.com/playlist?list=PLB4YWcG-HSbw)**. This year's event placed a special emphasis on **AI-driven developments and applications within Galaxy**, with a dedicated fishbowl session, find the summary [here](https://galaxyproject.org/news/2026-07-09-gcc2026-fishbowl-summary/).
 
 ## The French Bioinformatics Community at GCC2026
 
