@@ -1,6 +1,6 @@
 ---
 title: "The French Bioinformatics Community at GCC2026 in Clermont-Ferrand"
-date: "2026-07-16"
+date: "2026-07-29"
 tease: "A look back at the 2026 Galaxy Community Conference in Clermont-Ferrand, France."
 tags: [conference, community, gcc]
 subsites: [global]
