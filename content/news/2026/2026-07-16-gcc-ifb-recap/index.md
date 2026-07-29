@@ -82,6 +82,10 @@ As local organizers, Bérénice Batut, Gildas Le Corguillé, and Anthony Bretaud
   **Presenters**: Solenne Correard, Bérénice Batut, Anthony Bretaudeau, ELIXIR Biodiversity Community, Robert M. Waterhouse
   **Summary**: A **thematic Galaxy subdomain** designed to make Galaxy’s bioinformatics resources **accessible and relevant** for **biodiversity genomics researchers**, featuring **curated tools, workflows, and tutorials**.
 
+- **Talk & Poster**: *Leveraging Galaxy’s Superpowers to Enhance Fermentation Innovation through the Siduri portal*
+  **Presenters**: Agnès Barnabé Agnès, Emilie Fernandez, Erwan Le Floch, Thomas Lacroix, Sophie Schbath, Valentin Loux
+  **Summary**: A **user-friendly web portal Siduri** to store and managed **massive and heterogeneous data** generated through the French Grand Challenge “Ferments du Futur” (FdF) public-private partnership that has been ongoing since 2022 and which aims to promote innovation in fermentation using a data-driven strategy to design **new fermented products**.
+
 ### 🛠️ Tools & Infrastructure
 
 - **Poster**: [*Navigating Galaxy's Growth: How CoDex Lowers Barriers to Access*](https://f1000research.com/posters/15-1115) ([HAL](https://hal.science/hal-05693206))
@@ -92,6 +96,22 @@ As local organizers, Bérénice Batut, Gildas Le Corguillé, and Anthony Bretaud
   **Presenters**: Anthony Pragassam, Thomas Chaussepied, Anthony Bretaudeau, Gildas Le Corguillé, Jean-Loup Faulon, Valentin Loux
   **Summary**: A collaboration with **[UseGalaxy.fr](https://usegalaxy.fr/)** to support **[Galaxy-BioProd](https://galaxy-bioprod.github.io/)**, a **FAIR-compliant platform** for **synthetic biology, biotechnology, and life cycle analysis**.
 
+- **Talk**: *A journey around Galaxy on the W4M boat: a feedback from someone caught in the middle*
+  **Presenters**: Mélanie Petera, Workflow4metabolomics Coreteam
+  **Summary**: Workflow4Metabolomics (W4M), a diverse and Galaxy-powered initiative, overcame data analysis challenges in **metabolomics** to create a thriving **ecosystem benefiting hundreds of users annually**.
+
+- **Poster**: *First-time Galaxy tool integration: feedback about challenges faced, from two trainees with different academic backgrounds*
+  **Presenters**: Anthony Sleiman, Ka Abdou Lahat, Quentin Ruin, Mathieu Cladiere , Workflow4metabolomics Coreteam, Mélanie Petera 
+  **Summary**: Two internship students with different backgrounds successfully integrated metabolomics tools into Galaxy, addressing common challenges like input/output formatting and dependencies, and proposed **strategies to streamline the process for first-time developers**.
+
+- **Talk**: *Integration of experimental protocols into the Galaxy platform to support FAIR experimental workflows*
+  **Presenters**: Fanny Demange, Yassin Refahi, Valentin Loux, Gabriel Paës
+  **Summary**: Integration of experimental protocols into Galaxy, applying FAIR principles to standardize, execute, and trace biomass transformation protocols, ensuring reproducibility and reuse, with potential for broader domain adoption.
+
+- **Poster**: *Galaxy@Pasteur: A Centralized Execution Engine for Bioinformatics Services*
+  **Presenters**: Fabien Mareuil, Rémi Planel
+  **Summary**: Galaxy@Pasteur, a high-usage platform with 3,200+ users and 100K+ monthly jobs, serves as both an interactive tool and a centralized backend for bioinformatics web services, enabled by infrastructure from Institut Pasteur and tools like django-to-galaxy and Galaxy-as-a-Service (GaaS), supporting reproducibility, scalability, and integration across projects like ABRomics and DefenseFinder.
+  
 ### Beyond the Conference: The Galaxy Summit
 
 In addition to the main event, **Anthony Bretaudeau and Gildas Le Corguillé** represented the French community at the **Galaxy Summit**, an annual coordination meeting where international Galaxy leaders discussed **funding, UseGalaxy.* platforms, and the organization of future GCC events**.
