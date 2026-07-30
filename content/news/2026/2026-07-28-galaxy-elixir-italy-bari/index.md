@@ -3,14 +3,17 @@ subsites:
 - all
 date: '2026-07-28'
 title: Galaxy at the ELIXIR-Italy Microbiome Summer School in Bari
-tags: [training, workflow, microbiome, metagenomics]
+tags: [training, workshop, workflow, metagenomics]
 tease: "Galaxy and FAIRyMAGs training at the ELIXIR-Italy summer school on targeted and shotgun metagenomics in Bari, Italy"
 contributions:
   authorship:
     - minamehr
   funding:
-    - uni-freiburg
+    - uniba
     - elixir-it
+    - bits
+    - fem
+    - uni-freiburg
     - elixir-europe
 ---
 
