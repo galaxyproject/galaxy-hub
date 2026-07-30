@@ -743,3 +743,21 @@ workflowhub:
     github: false
     gtn-halloffame: "no"
 
+elixir-it:
+    name: ELIXIR Italy
+    url: https://www.elixir-italy.org/
+    github: false
+    gtn-halloffame: "no"
+
+bits:
+    name: Bioinformatics Italian Society
+    url: https://bioinformatics.it/
+    github: false
+    gtn-halloffame: "no"
+
+fem:
+    name: Edmund Mach foundation
+    url: https://fmach.it/en/
+    github: false
+    gtn-halloffame: "no"
+
