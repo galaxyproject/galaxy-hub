@@ -1,5 +1,6 @@
 ---
-title: ESG4Stars kickoff meeting
+title: ESG4Stars kick-off meeting
+tease: "Our new EU-funded research infrastructure project to reduce the environmental footprint of scientific computing on platforms like Galaxy will begin in October."
 date: '2026-10-05'
 days: 5
 continent: EU
@@ -12,13 +13,14 @@ location:
   street: Georges-Köhler-Allee 101
 gtn: false
 contact: Björn Grüning, Wolfgang Maier
-tags: [conference, environmental, esg4stars]
+tags: [conference, environmental, esg4stars, esg4stars-s1, esg4stars-s2, esg4stars-s3]
 subsites: [all-eu]
 contributions:
   organisers:
     - freiburggalaxyteam
   funding:
     - eu
+    - esg4stars
 
 ---
 
@@ -29,9 +31,9 @@ The [EU-funded project](https://cordis.europa.eu/project/id/101290798) brings to
 
 # Meeting and Satellite Events
 
-The kickoff meeting will take place at the University of Freiburg, Germany, that also acts as the coordinator of the project.
+The kick-off meeting will take place at the University of Freiburg, Germany, that also acts as the coordinator of the project.
 
-The meeting itself will be running for two full days on 5 and 6 October 2026 and will comprise:
+The meeting itself will be running for **two full days on 5 and 6 October 2026** and will comprise:
 
 - an overview of the project structure and goals
 - presentations of the different work packages by their leads
@@ -49,9 +51,9 @@ The meeting will take place at the [Department of Computer Science](https://uni-
 
 The address is:
 
-Albert-Ludwigs-University Freiburg<br />
-Institute for Informatics<br />
-Georges-Köhler-Allee, 101<br />
+Albert Ludwig University Freiburg<br />
+Department of Computer Science<br />
+Georges-Köhler-Allee 101<br />
 79110 Freiburg<br />
 Germany
 
@@ -92,7 +94,7 @@ To reach the meeting venue from the main train station, you have these two publi
 The trams are also the easiest way to get around in Freiburg during the week.
 
 [Here](https://www.vag-freiburg.de/tickets) you can find the types of tram tickets that VAG offers (in German only, unfortunately).
-The [2x4 rides ticket](https://www.vag-freiburg.de/tickets/einzel-und-tageskarten/2x4-fahrtenkarte) is often a good option for several days and/or passengers. You're getting two printed tickets, each for 4 rides on any date you like. You can use multiple trams/buses on one ride in a given direction and you need to stamp your ticket after boarding the first tram/bus of the ride. Within the city limits of Freiburg you only need the 1-zone (Preisstufe 1) version of the ticket.
+The [2x4 rides ticket](https://www.vag-freiburg.de/tickets/einzel-und-tageskarten/2x4-fahrtenkarte) is often a good option for several days and/or passengers. You're getting two printed tickets, each for 4 rides on any dates you like. You can use multiple trams/buses on one ride in a given direction and you need to stamp your ticket after boarding the first tram/bus of the ride. Within the city limits of Freiburg you only need the 1-zone (Preisstufe 1) version of the ticket.
 
 Freiburg is also a great city to get around by bicycle. Take a look at the city's [Frelo bike sharing system](https://www.frelo.de/en/) if you're interested.
 
