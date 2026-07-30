@@ -6,7 +6,7 @@ contributions:
   authorship:
     - ahmedhamidawan
 tags: [conference, community, gcc, cofest]
-subsites: [global]
+subsites: [all]
 main_subsite: global
 autotoc: false
 components: true

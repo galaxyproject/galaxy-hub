@@ -3,7 +3,7 @@ title: "GCC2026 Recap: Science, Collaboration, and Community in Clermont-Ferrand
 date: "2026-07-06"
 tease: "A look back at the 2026 Galaxy Community Conference in Clermont-Ferrand, France."
 tags: [conference, community, gcc]
-subsites: [global]
+subsites: [all]
 main_subsite: global
 ---
 

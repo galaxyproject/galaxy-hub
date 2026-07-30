@@ -11,6 +11,7 @@ const solo = Astro.url.searchParams.get('solo') === 'true';
 
 // Load ESG news
 const allNews = await getCollection('news');
+// ESG is a project surface, so it intentionally uses narrow project tags rather than subsite-wide matching.
 const esgNews = allNews
   .filter((a) => a.data.subsites?.includes('esg'))
   .sort((a, b) => {
