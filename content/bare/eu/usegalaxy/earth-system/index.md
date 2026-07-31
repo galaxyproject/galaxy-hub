@@ -124,14 +124,14 @@ title: Galaxy for Earth System Sciences
 
 # Partnerships
 
-<div style="display:flex; gap:1rem; flex-wrap:wrap; margin-bottom:1rem; align-items:stretch;">
+<div class="usegalaxy-card-grid" style="display:flex; gap:1rem; flex-wrap:wrap; margin-bottom:1rem; align-items:stretch;">
   <!-- CARD 1 -->
   <div style="flex:1 1 26rem; max-width:28rem; border:1px solid #6c757d; background:#f8f9fa; padding:1rem; border-radius:6px; box-sizing:border-box; display:flex; flex-direction:column;">
     <div class="card border-secondary bg-light mb-1 mx-1" style="display: flex; flex-direction: column; height: 100%;">
         <div class="card-body" style="display: flex; flex-direction: column; flex: 1;">
             <h2 class="card-title text-dark" style="margin-top: 0;">Climate use cases</h2>
             <a href="https://www.gaia-data.org/" target="_blank">
-                <center><img src="./assets/media/Galaxy-climate-logo.png" style="width: 140px; height:auto;"/></center>
+                <center><img src="/assets/media/usegalaxy/climate/Galaxy-climate-logo.png" style="width: 140px; height:auto;"/></center>
             </a>
             <div style="margin-top: 1rem;">
                 <p class="card-text" style="font-weight: bold;">TUTORIALS</p>
@@ -179,7 +179,9 @@ title: Galaxy for Earth System Sciences
                 <span class="badge" style="background-color:#047263; color:white; font-size:0.95rem; padding:0.4em 0.6em;">Equipex+ PIA3</span>
             </div>
             <a href="https://www.gaia-data.org/" target="_blank">
-                <center><img src="./assets/media/logo-data-gaia_default.png" style="width: 140px; height:auto;"/></center>
+                <center>
+                    <img src="/assets/media/usegalaxy/earth-system/logo-data-gaia_default.png" style="width: 140px; height:auto;"/>
+                </center>
             </a>
             <div style="margin-top: 1rem;">
                 <p class="card-text" style="font-weight: bold;">TUTORIALS</p>
@@ -228,7 +230,7 @@ title: Galaxy for Earth System Sciences
           <span class="badge" style="background-color:#1f204d; color:white; font-size:0.95rem; padding:0.4em 0.6em;">European commission</span>
         </div>
         <a href="https://www.data-terra.org/noeud-eosc/" target="_blank">
-            <img src="./assets/media/EOSCNodeDataTerra_ColourPos.png" style="max-width:100%; height:auto; margin:2rem 0;" />
+            <img src="/assets/media/usegalaxy/earth-system/EOSCNodeDataTerra_ColourPos.png" style="max-width:100%; height:auto; margin:2rem 0;" />
         </a>
         <div style="margin-top: 1rem;">
             <p class="card-text" style="font-weight: bold;">TUTORIALS</p>
@@ -260,7 +262,7 @@ title: Galaxy for Earth System Sciences
         <div style="margin:0.5rem 0;">
           <span class="badge" style="background-color:#008791; color:white; font-size:0.95rem; padding:0.4em 0.6em;">EOSC</span>
         </div>
-        <img src="./assets/media/hunga_tonga.png" style="max-width:100%; height:auto; margin:2rem 0;" />
+       <img src="/assets/media/usegalaxy/earth-system/hunga_tonga.png" style="max-width:100%; height:auto; margin:2rem 0;" />
         <div style="margin-top: 1rem;">
             <p class="card-text" style="font-weight: bold;">Hackathon, where it all began</p>
             <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.5rem;">
@@ -299,7 +301,7 @@ title: Galaxy for Earth System Sciences
                 <span class="badge" style="background-color:#1f204d; color:white; font-size:0.95rem; padding:0.4em 0.6em;">European commission</span>
             </div>
             <a href="https://fairease.eu/" target="_blank">
-                <img src="./assets/media/fair_ease_colour.png" style="max-width:100%; height:auto;" />
+                <img src="/assets/media/usegalaxy/earth-system/fair_ease_colour.png" style="max-width:100%; height:auto;" />
             </a>
             <p class="card-text" style="font-weight: bold;">Use cases</p>
             <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.5rem;">
