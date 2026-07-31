@@ -1,13 +1,14 @@
 ---
 title: ESG4Stars kick-off meeting
 tease: "Our new EU-funded research infrastructure project to reduce the environmental footprint of scientific computing on platforms like Galaxy will begin in October."
-date: '2026-10-05'
-days: 5
+date: 2026-10-05
+end: 2026-10-06
+days: 2
 continent: EU
 location:
   city: Freiburg im Breisgau
   country: Germany
-  name: Institute for Informatics, Albert-Ludwigs-University Freiburg
+  name: Department of Computer Science, University of Freiburg
   postal: 79110
   region: Baden-Württemberg
   street: Georges-Köhler-Allee 101
@@ -42,8 +43,11 @@ The meeting itself will be running for **two full days on 5 and 6 October 2026**
 
 It will be followed by **satellite activities** (hackathons, trainings and workshops) on the subsequent three days until the early afternoon of Friday, 9 October, to let you maximize the value of your travel to Freiburg and to get work on the project going immediately.
 
-*A detailed agenda of the kickoff meetings and a list of satellite events will be published here closer to the event date.*
+----
 
+<mark>A detailed agenda of the kick-off meeting and a list of satellite events will be published here closer to the event date.</mark>
+
+----
 
 # Venue
 
@@ -71,7 +75,7 @@ For detailed connection information and booking you can check out one of these s
 
 - [Deutsche Bahn](https://www.bahn.com/en)
 - [Trainline](https://www.thetrainline.com/)
-- [Railfinder](https://www.railfinder.eu/) *beta version*
+- [Railfinder](https://www.railfinder.eu/) *(beta version)*
 
 or the website of your national railways operator(s).
 
