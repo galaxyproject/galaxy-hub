@@ -28,7 +28,10 @@ const { title, description } = Astro.props;
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   </head>
   <body class="min-h-screen bg-white text-chicago-900">
-    <main class="p-4 sm:p-6 lg:p-8">
+    <!-- Tight top padding: these pages are iframed into a host that supplies its own
+         chrome, so vertical space above the content is wasted. Sides and bottom keep
+         their breathing room. -->
+    <main class="px-4 pt-2 pb-6 sm:px-6 sm:pb-8 lg:px-8 lg:pb-10">
       <article class="prose prose-lg prose-galaxy max-w-none">
         <slot />
       </article>
@@ -105,6 +108,28 @@ const { title, description } = Astro.props;
   article.prose.prose-lg.prose-galaxy.max-w-none {
     max-width: 1200px;
     margin: 0 auto !important;
+  }
+
+  /* Typography's `.prose > :first-child { margin-top: 0 }` misses the mark when a
+     page opens with a non-rendering node -- several bare articles start with a raw
+     <style> block. That node takes :first-child, so the real leading heading keeps
+     its full top margin and the page opens with a dead band of white space.
+     Reset the first *rendered* child instead: an element that no rendered sibling
+     precedes. */
+  article.prose > :not(style, script, meta, link):not(:where(:not(style, script, meta, link) ~ *)) {
+    margin-top: 0;
+  }
+
+  /* Same idea one level in: many pages open with a logo wrapped in a <p>/<center>,
+     and prose gives images their own top margin. */
+  article.prose > :not(style, script, meta, link):not(:where(:not(style, script, meta, link) ~ *)) > :first-child {
+    margin-top: 0;
+  }
+
+  /* A leading logo is usually floated or centred, so the heading that follows it
+     sits at the top of the page too -- its top margin is pure dead space. */
+  article.prose > img:not(:where(:not(style, script, meta, link) ~ *)) + * {
+    margin-top: 0;
   }
 
   /* Styling for EU lead sections */
