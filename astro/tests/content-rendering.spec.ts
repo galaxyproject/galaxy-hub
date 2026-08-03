@@ -43,6 +43,16 @@ test.describe('Content Rendering', () => {
       await expect(content.locator('p').first()).toBeVisible();
     });
 
+    test('news article renders @hub inline mentions as linked inline content', async ({ page }) => {
+      await page.goto('/news/2024-08-20-opinion-conda/');
+
+      const mention = page.locator('article a.hub-inline-link[href="/hall-of-fame/bgruening/"]').first();
+      await expect(mention).toBeVisible();
+      await expect(mention).toContainText('Björn Grüning');
+      await expect(mention.locator('img.hub-inline-link-avatar, .hub-inline-link-avatar-fallback')).toHaveCount(1);
+      await expect(page.locator('article')).not.toContainText('@hub:bgruening');
+    });
+
     test('article with images renders correctly', async ({ page }) => {
       // Find a page that likely has images
       await page.goto('/');
