@@ -102,7 +102,5 @@ export function aggregateGuardians(snapshot) {
       });
     }
   }
-  return [...counts.values()].sort(
-    (a, b) => b.validatedCount - a.validatedCount || a.login.localeCompare(b.login)
-  );
+  return [...counts.values()].sort((a, b) => b.validatedCount - a.validatedCount || a.login.localeCompare(b.login));
 }
