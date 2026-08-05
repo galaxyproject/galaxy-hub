@@ -46,6 +46,8 @@ The Hub is a static website served from a CDN, so it is fast, and that makes it 
 
 You can see all available bare pages at [galaxyproject.org/bare/](https://galaxyproject.org/bare/). Want to surface the European events feed, a people list, or a tools overview inside your own UI? Grab the bare version and drop it into an iframe.
 
+The same static-first approach powers the Hub's [built-in search](https://galaxyproject.org/search/). There's no server behind it — the whole Hub is indexed into a single static file at build time, and search happens entirely in your browser. Search across news, events, people, tags, organisations, and grants from anywhere on the site, including within a single subsite.
+
 ## Stay up to date: RSS feeds
 
 Every news feed and events feed on the Hub has an RSS feed you can subscribe to, so you can follow what's happening across the community without checking the website. See the full list at [galaxyproject.org/feeds/](https://galaxyproject.org/feeds/).
