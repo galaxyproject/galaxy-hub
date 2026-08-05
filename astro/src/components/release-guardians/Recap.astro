@@ -31,6 +31,7 @@ const coverage = total > 0 ? Math.round((validated / total) * 100) : 0;
 const guardians = data ? aggregateGuardians(data) : [];
 
 const windowLabel = formatDate(endDate, false);
+const detail = `(${validated} validated, ${attempted} attempted, ${notTested} not tested).`;
 ---
 
 <div class="not-prose my-6 p-5 rounded-lg border border-galaxy-primary/10 bg-white shadow-sm">
@@ -40,8 +41,7 @@ const windowLabel = formatDate(endDate, false);
   {
     total > 0 && (
       <p class="text-sm text-chicago-700 mt-1">
-        <span class={`font-bold ${TONES.complete.text}`}>{coverage}%</span> of {total} in-scope PRs validated (
-        {validated} validated, {attempted} attempted, {notTested} not tested).
+        <span class={`font-bold ${TONES.complete.text}`}>{coverage}%</span> of {total} in-scope PRs validated {detail}
       </p>
     )
   }
