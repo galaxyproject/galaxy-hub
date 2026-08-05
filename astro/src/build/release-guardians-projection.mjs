@@ -76,3 +76,33 @@ export function snapshotFingerprint(snapshot) {
   const { needsValidation, inProgress, complete, version } = snapshot;
   return JSON.stringify({ version, needsValidation, inProgress, complete });
 }
+
+/** Aggregate the `guardian` actors on a snapshot's `complete` PRs into a
+ *  tester-recognition leaderboard. Each entry counts how many PRs that
+ *  actor marked complete (validated). PRs without a guardian are skipped.
+ *  Sorted by count descending, then login for a stable tiebreak.
+ *
+ *  Pure over the snapshot so it can be unit-tested without a DOM. The
+ *  closed-view `Recap` component is a thin render wrapper over this. */
+export function aggregateGuardians(snapshot) {
+  if (!snapshot?.complete?.length) return [];
+  const counts = new Map();
+  for (const pr of snapshot.complete) {
+    const g = pr.guardian;
+    if (!g?.login) continue;
+    const entry = counts.get(g.login);
+    if (entry) {
+      entry.validatedCount += 1;
+    } else {
+      counts.set(g.login, {
+        login: g.login,
+        url: g.url,
+        avatarUrl: g.avatarUrl,
+        validatedCount: 1,
+      });
+    }
+  }
+  return [...counts.values()].sort(
+    (a, b) => b.validatedCount - a.validatedCount || a.login.localeCompare(b.login)
+  );
+}

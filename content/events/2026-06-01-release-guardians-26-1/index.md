@@ -17,6 +17,9 @@ contributions:
 components: true
 ---
 
+<ReleaseGuardiansPhase endDate="2026-06-05">
+  <div slot="active">
+
 The Galaxy **26.1** release is entering community validation. Become a **Galaxy Release Guardian** and help exercise user-facing changes across real deployments, workflows, and user environments before publication.
 
 Pick a pull request from the list below, test the change on the [**Galaxy Test Server**](https://test.galaxyproject.org/), and capture your findings by [**opening a new issue**](https://github.com/galaxyproject/galaxy/issues/new?template=bug_report.md) that references the PR number. Keeping the feedback in a dedicated issue keeps the PR conversation focused on code review. The PR labels are the workflow.
@@ -33,19 +36,36 @@ Pick a pull request from the list below, test the change on the [**Galaxy Test S
 4. [**Open a new issue**](https://github.com/galaxyproject/galaxy/issues/new?template=bug_report.md) describing your findings, reference the PR number, and include screenshots, regressions, deployment notes, and any edge cases you hit.
 5. When validation is complete, replace <ReleaseGuardiansLabelPill label="release-testing-in-progress" kind="inProgress" /> with <ReleaseGuardiansLabelPill label="release-testing-complete" kind="complete" />.
 
-<ReleaseGuardiansSummary version="26.1" />
+  </div>
+  <div slot="closed">
 
-<h2 id="needs-validation"><Icon name="circle-dashed" /> Needs Validation</h2>
+<ReleaseGuardiansRecap version="26.1" endDate="2026-06-05" />
 
-<ReleaseGuardiansSection version="26.1" kind="needsValidation" emptyMessage="No PRs currently need validation." />
+  </div>
+</ReleaseGuardiansPhase>
 
-<h2 id="in-progress"><Icon name="loader" /> In Progress</h2>
+<ReleaseGuardiansSummary version="26.1" endDate="2026-06-05" />
 
-<ReleaseGuardiansSection version="26.1" kind="inProgress" emptyMessage="No PRs currently in progress." />
+<ReleaseGuardiansPhase endDate="2026-06-05">
+  <h2 id="needs-validation" slot="active"><Icon name="circle-dashed" /> Needs Validation</h2>
+  <h2 id="needs-validation" slot="closed"><Icon name="circle-dashed" /> Not tested</h2>
+</ReleaseGuardiansPhase>
 
-<h2 id="complete"><Icon name="circle-check" /> Complete</h2>
+<ReleaseGuardiansSection version="26.1" kind="needsValidation" endDate="2026-06-05" />
 
-<ReleaseGuardiansSection version="26.1" kind="complete" emptyMessage="No PRs marked complete yet." />
+<ReleaseGuardiansPhase endDate="2026-06-05">
+  <h2 id="in-progress" slot="active"><Icon name="loader" /> In Progress</h2>
+  <h2 id="in-progress" slot="closed"><Icon name="loader" /> Attempted, not finished</h2>
+</ReleaseGuardiansPhase>
+
+<ReleaseGuardiansSection version="26.1" kind="inProgress" endDate="2026-06-05" />
+
+<ReleaseGuardiansPhase endDate="2026-06-05">
+  <h2 id="complete" slot="active"><Icon name="circle-check" /> Complete</h2>
+  <h2 id="complete" slot="closed"><Icon name="circle-check" /> Validated</h2>
+</ReleaseGuardiansPhase>
+
+<ReleaseGuardiansSection version="26.1" kind="complete" endDate="2026-06-05" />
 
 ---
 

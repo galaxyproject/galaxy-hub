@@ -1,0 +1,25 @@
+---
+/**
+ * Phase gate for a Release Guardians event page. Compares the testing
+ * window's `endDate` to the build date and renders one of two branches:
+ *
+ *  - active (endDate in the future): the recruitment boilerplate — intro
+ *    paragraphs, the live coordination card, and the "Become a Guardian"
+ *    steps — via the `active` slot.
+ *  - closed (endDate passed): a short recap line, via the `closed` slot.
+ *
+ * Both branches are static markdown handed in as named slots, so the event
+ * template reads top-to-bottom and the date logic lives in one place.
+ */
+import { phaseFor } from './labels';
+
+interface Props {
+  /** ISO date (YYYY-MM-DD), the testing window's end. Missing/invalid falls back to 'active' (phaseFor). */
+  endDate?: string;
+}
+const { endDate } = Astro.props;
+
+const closed = phaseFor(endDate) === 'closed';
+---
+
+{closed ? <slot name="closed" /> : <slot name="active" />}
