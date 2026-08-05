@@ -169,6 +169,7 @@ freiburg:
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         matrix: "@engynasr:matrix.org"
         orcid: 0000-0001-9047-4215
+        alumni: true
 
     pavanvidem:
         name: Pavankumar Videm
@@ -300,7 +301,7 @@ freiburg:
         orcid: 0000-0001-7649-2388
         google-scholar: c3RUlDoAAAAJ
         researchgate: Armin-Dadras
-        bio:
+        alumni: true
 
     Deeptivarshney:
         name: Deepti Varshney
