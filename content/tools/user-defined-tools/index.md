@@ -3,9 +3,11 @@ title: User-Defined Tools
 tease: "Write and run your own simple tools from the Galaxy interface — no server access, no admin installation, no Tool Shed."
 ---
 
-*Beta feature, available starting with Galaxy 25.0*
+*Beta feature*
 
-User-Defined Tools (UDTs) let regular Galaxy users write and run their own simple tools directly from the Galaxy interface — no server access, no admin installation, and no waiting for a tool to be added to a Tool Shed. If you've ever needed a quick script to concatenate files, reformat a table, or glue together a couple of steps in a workflow, and didn't want to file a request with your Galaxy admin, UDTs are for you.
+User-Defined Tools (UDTs) let regular Galaxy users write and run their own simple tools directly from the Galaxy interface — no server access, no admin installation, and no waiting for a tool to be added to a Tool Shed. If you've ever needed a quick one-off script, a table-reformatting step, or wanted to glue together a couple of shell commands in a workflow, and didn't want to file a request with your Galaxy admin, UDTs are for you.
+
+UDTs are meant to fill that gap, not to replace published tools. Galaxy's goals of reproducibility and collaboration still matter — whenever a "real" Tool Shed tool already does what you need, prefer it, since workflows and analyses built on published tools are easier for others to share, rerun, and publish. Reach for a UDT when no existing tool fits and the job is too small to justify a full tool submission.
 
 ## What is a User-Defined Tool?
 
@@ -71,6 +73,8 @@ An administrator can also export a UDT to disk and install it like a regular too
 ## Security considerations
 
 UDTs carry similar risks to [Interactive Tools](https://training.galaxyproject.org/training-material/topics/admin/tutorials/interactive-tools/tutorial.html) — both let users run their own code inside containers on your infrastructure. If you're an admin enabling this feature, we strongly recommend reading the [guidance on securing Interactive Tools](https://training.galaxyproject.org/training-material/topics/admin/tutorials/interactive-tools/tutorial.html#securing-interactive-tools) and configuring your job runner to isolate mounts and restrict network access for these jobs, as shown in this [example Pulsar configuration](https://github.com/galaxyproject/galaxy/blob/dev/test/integration/embedded_pulsar_job_conf.yml).
+
+For destination isolation, you can map UDTs directly in the Total Perspective Vantage (TPV) job-routing rules: every UDT is automatically tagged with the `accept` tag `tool_type_user_defined`, and every destination is automatically tagged with a matching `reject` tag — so a destination won't run UDTs until you explicitly override that with an `accept` or `require` tag of the same name. We strongly recommend routing UDTs through Pulsar to compute that is logically isolated from the rest of Galaxy and its data.
 
 ## Current limitations
 
