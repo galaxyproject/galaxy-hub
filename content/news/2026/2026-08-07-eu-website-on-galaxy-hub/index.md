@@ -1,6 +1,6 @@
 ---
 title: "The European Galaxy Project Website Is Now Fully Served by the Galaxy Hub"
-date: "2026-07-30"
+date: "2026-08-07"
 tease: "After ten years on a Jekyll-on-GitHub setup, galaxyproject.eu is now completely powered by the Galaxy Hub — a fast, metadata-driven home that any Galaxy community can reuse."
 subsites: [global, eu, freiburg]
 main_subsite: eu
@@ -46,7 +46,7 @@ The Hub is a static website served from a CDN, so it is fast, and that makes it 
 
 You can see all available bare pages at [galaxyproject.org/bare/](https://galaxyproject.org/bare/). Want to surface the European events feed, a people list, or a tools overview inside your own UI? Grab the bare version and drop it into an iframe.
 
-The same static-first approach powers the Hub's [built-in search](https://galaxyproject.org/search/). There's no server behind it — the whole Hub is indexed into a single static file at build time, and search happens entirely in your browser. Search across news, events, people, tags, organisations, and grants from anywhere on the site, including within a single subsite.
+The same static-first approach powers the Hub's [built-in search](https://galaxyproject.org/search/). There's no server behind it, the whole Hub is indexed into a single static file at build time, and search happens entirely in your browser. Search across news, events, people, tags, organisations, and grants from anywhere on the site.
 
 ## Stay up to date: RSS feeds
 
