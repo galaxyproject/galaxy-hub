@@ -2,7 +2,7 @@
 # THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
 # To update, run: python3 scripts/update-tools.py --server https://usegalaxy.eu --name "European Galaxy" --output content/eu/tools/index.md
 title: European Galaxy Tools
-description: "4356 tools and counting"
+description: "4376 tools and counting"
 ---
 
 
@@ -79,6 +79,7 @@ description: "4356 tools and counting"
 [YeastMine](https://usegalaxy.eu/root?tool_id=yeastmine "server")
 [ZebrafishMine](https://usegalaxy.eu/root?tool_id=zebrafishmine "server")
 [downloads](https://usegalaxy.eu/root?tool_id=lftp "via lftps")
+[earthdata API](https://usegalaxy.eu/root?tool_id=earthdata_api "Fetching EarthData (NASA environment database)")
 [fastq-dl](https://usegalaxy.eu/root?tool_id=fastq_dl "Download FASTQ files from ENA")
 [metabolicMine](https://usegalaxy.eu/root?tool_id=metabolicmine "server")
 [modENCODE fly](https://usegalaxy.eu/root?tool_id=modENCODEfly "server")
@@ -823,9 +824,13 @@ description: "4356 tools and counting"
 [Annotation Table](https://usegalaxy.eu/root?tool_id=edu.tamu.cpt2.phage.annotation_table "from gff3 formatted datasets")
 [Antismash](https://usegalaxy.eu/root?tool_id=antismash "allows the genome-wide identification, annotation and analysis of secondary metabolite biosynthesis gene clusters")
 [Augustus](https://usegalaxy.eu/root?tool_id=augustus "gene prediction for prokaryotic and eukaryotic genomes")
+[BAM Readcount](https://usegalaxy.eu/root?tool_id=bam_readcount "Generate metrics at single nucleotide positions")
 [BRAKER3](https://usegalaxy.eu/root?tool_id=braker3 "genome annotation")
 [Bakta](https://usegalaxy.eu/root?tool_id=bakta "Rapid and standardized annotation of bacterial genomes, MAGs and plasmids")
 [Beta Diversity](https://usegalaxy.eu/root?tool_id=scikit_bio_diversity_beta_diversity "using scikit-bio")
+[Bio-TraDis Essentiality Predictions](https://usegalaxy.eu/root?tool_id=tradis_essentiality "")
+[Bio-TraDis counts to gene insertion data](https://usegalaxy.eu/root?tool_id=tradis_gene_insert_sites "")
+[Bio-TraDis reads to counts](https://usegalaxy.eu/root?tool_id=bacteria_tradis "")
 [BlastXML to gapped GFF3](https://usegalaxy.eu/root?tool_id=blastxml_to_gapped_gff3 "")
 [Braker genome annotation](https://usegalaxy.eu/root?tool_id=braker "")
 [Build a GeneNoteBook](https://usegalaxy.eu/root?tool_id=genenotebook_build "")
@@ -838,6 +843,7 @@ description: "4356 tools and counting"
 [Commet](https://usegalaxy.eu/root?tool_id=commet "COmpare Multiple METagenomes")
 [Compare BIOM tables](https://usegalaxy.eu/root?tool_id=picrust_compare_biom "Compare the accuracy of biom files (expected and observed) either by observations (default) or by samples.")
 [Compute](https://usegalaxy.eu/root?tool_id=Add_a_column1 "an expression on every row")
+[ConFindr](https://usegalaxy.eu/root?tool_id=confindr "Detects sequence contamination using rMLST")
 [Convert GFF3](https://usegalaxy.eu/root?tool_id=gff_to_prot "to prot_table for TRANSIT")
 [Convert XMFA to gapped GFF3](https://usegalaxy.eu/root?tool_id=xmfa2gff3 "")
 [Converts GTF to Annotations file for Homer](https://usegalaxy.eu/root?tool_id=homer_gtf_to_annotations "")
@@ -919,6 +925,7 @@ description: "4356 tools and counting"
 [KofamScan](https://usegalaxy.eu/root?tool_id=kofamscan "gene function annotation based on KEGG orthology and HMM")
 [LC/MS matching](https://usegalaxy.eu/root?tool_id=lcmsmatching "Annotation of MS peaks using matching on a spectra database.")
 [Liftoff](https://usegalaxy.eu/root?tool_id=liftoff "Lift gene annotations between genome assemblies")
+[LisSero](https://usegalaxy.eu/root?tool_id=lissero "In silico serogroup typing prediction for Listeria monocytogenes")
 [List spaln parameter tables](https://usegalaxy.eu/root?tool_id=list_spaln_tables "Given a query species, list the spaln settings tables that exist, from closest related species to most different")
 [MITOS](https://usegalaxy.eu/root?tool_id=mitos "de-novo annotation of metazoan mitochondrial genomes")
 [MITOS2](https://usegalaxy.eu/root?tool_id=mitos2 "de-novo annotation of metazoan mitochondrial genomes")
@@ -1378,7 +1385,9 @@ description: "4356 tools and counting"
 [TopHat](https://usegalaxy.eu/root?tool_id=tophat2 "Gapped-read mapper for RNA-seq data")
 [Winnowmap](https://usegalaxy.eu/root?tool_id=winnowmap "a mapping tool optimized for repetitive sequences")
 [bwameth](https://usegalaxy.eu/root?tool_id=bwameth "Fast and accurate aligner of BS-Seq reads")
+[fgbio FindSwitchbackReads](https://usegalaxy.eu/root?tool_id=fgbio_findswitchbackreads "identifies reads derived from a template switch during library construction")
 [pbmm2](https://usegalaxy.eu/root?tool_id=pbmm2 "map PacBio reads to a reference genome.")
+[samtools CRAM to BAM](https://usegalaxy.eu/root?tool_id=samtools_cram_to_bam "convert CRAM alignments to BAM format")
 [segemehl](https://usegalaxy.eu/root?tool_id=segemehl "short read mapping with gaps")
 [wfmash](https://usegalaxy.eu/root?tool_id=wfmash "pangenome-scale aligner")
 
@@ -1963,6 +1972,7 @@ description: "4356 tools and counting"
 [ETE tree viewer](https://usegalaxy.eu/root?tool_id=ete_treeviewer "visualize a phylogenetic tree")
 [FASTA header converter](https://usegalaxy.eu/root?tool_id=fasta_header_converter "to append species information")
 [FASTA2DIST](https://usegalaxy.eu/root?tool_id=fastreer_fasta2dist "Compute D2S distance matrix from FASTA file(s)")
+[Foldtree](https://usegalaxy.eu/root?tool_id=foldtree "Infer a phylogenetic tree from protein structures")
 [Gene Align and Family Aggregator](https://usegalaxy.eu/root?tool_id=gafa "generates an SQLite database that can be visualised with Aequatus")
 [Gene Copy Number Finder](https://usegalaxy.eu/root?tool_id=ete_gene_csv_finder "from a genetree using the ETE Toolkit")
 [GeneSeqToFamily preparation](https://usegalaxy.eu/root?tool_id=gstf_preparation "converts data for the workflow")
@@ -2625,6 +2635,12 @@ description: "4356 tools and counting"
 [DRAM find neighborhoods](https://usegalaxy.eu/root?tool_id=dram_neighborhoods "around genes of interest")
 [DRAM merge multiple annotations](https://usegalaxy.eu/root?tool_id=dram_merge_annotations "into a single set")
 [DRAM strain annotations](https://usegalaxy.eu/root?tool_id=dram_strainer "down to genes of interest")
+[Deacon Filter](https://usegalaxy.eu/root?tool_id=deacon_filter "Filter reads and sequences to remove contaminants or retain only matching sequences")
+[Deacon Index Build](https://usegalaxy.eu/root?tool_id=deacon_index_build "Build deacon index file from sequences in FASTA or FASTQ format")
+[Deacon Index Diff](https://usegalaxy.eu/root?tool_id=deacon_index_diff "Check difference between deacon index files")
+[Deacon Index Dump](https://usegalaxy.eu/root?tool_id=deacon_index_dump "Write deacon index file to FASTA file")
+[Deacon Index Intersect](https://usegalaxy.eu/root?tool_id=deacon_index_intersect "Intersect two or more deacon index files")
+[Deacon Index Union](https://usegalaxy.eu/root?tool_id=deacon_index_union "Compute the union of two or more deacon index files")
 [Decontam](https://usegalaxy.eu/root?tool_id=decontam "Identification and removal of contaminants")
 [DefenseFinder](https://usegalaxy.eu/root?tool_id=defense_finder "systematically detect known anti-phage systems")
 [EukRep](https://usegalaxy.eu/root?tool_id=eukrep "Classification of Eukaryotic and Prokaryotic sequences from metagenomic datasets")
@@ -3440,6 +3456,10 @@ description: "4356 tools and counting"
 [Blank Filter](https://usegalaxy.eu/root?tool_id=dimspy_blank_filter "- Remove &#x27;blank&#x27; peaks from the biological mass spectra")
 [CAMERA.annotate](https://usegalaxy.eu/root?tool_id=abims_CAMERA_annotateDiffreport "CAMERA annotate function. Returns annotation results (isotope peaks, adducts and fragments) and a diffreport if more than one condition.")
 [CAMERA.combinexsAnnos](https://usegalaxy.eu/root?tool_id=abims_CAMERA_combinexsAnnos "Wrapper function for the combinexsAnnos CAMERA function. Returns a dataframe with recalculated annotations.")
+[CAMERA.findAdducts](https://usegalaxy.eu/root?tool_id=CAMERA_findAdducts "Annotate adducts")
+[CAMERA.findIsotopes](https://usegalaxy.eu/root?tool_id=CAMERA_findIsotopes "Annotate isotope peaks")
+[CAMERA.groupCorr](https://usegalaxy.eu/root?tool_id=CAMERA_groupCorr "EIC correlation grouping of LC/ESI-MS data")
+[CAMERA.groupFWHM](https://usegalaxy.eu/root?tool_id=CAMERA_groupFWHM "Group peaks into pseudospectra-groups")
 [Calculate flux distribution](https://usegalaxy.eu/root?tool_id=gem_flux_distribution "of a GEM")
 [Check Format](https://usegalaxy.eu/root?tool_id=checkFormat "Checking/formatting the sample and variable names of the dataMatrix, sampleMetadata, and variableMetadata files")
 [Convert DIMSpy-based HDF5 to tsv](https://usegalaxy.eu/root?tool_id=dimspy_hdf5_to_txt "")
