@@ -38,7 +38,9 @@ const { title, description } = Astro.props;
     </main>
     <script>
       import { setupIframeResize } from '../utils/iframe';
+      import { setupBareLinkTargets } from '../utils/bare-links';
       setupIframeResize();
+      setupBareLinkTargets();
     </script>
   </body>
 </html>
