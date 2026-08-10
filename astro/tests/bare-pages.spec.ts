@@ -208,6 +208,7 @@ test.describe('Bare Pages', () => {
     const pagesWithLatestFeeds = [
       '/bare/eu/usegalaxy/main/',
       '/bare/fr/usegalaxy/main/',
+      '/bare/eu/usegalaxy/metabolomics/',
     ];
 
     for (const path of pagesWithLatestFeeds) {
