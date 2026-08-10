@@ -424,37 +424,6 @@ const { title, description } = Astro.props;
     }
   }
 
-  .prose-galaxy {
-    iframe[title='Recent Galaxy France news'],
-    iframe[title='Recent Galaxy Europe news'] {
-      display: inline-block;
-      width: calc(50% - 20px) !important;
-      margin: 0 16px 3rem 0;
-      vertical-align: top;
-    }
-
-    iframe[title*='Recent Galaxy France events'],
-    iframe[title*='Recent Galaxy Europe events'] {
-      width: calc(50% - 20px) !important;
-      display: inline-block;
-      vertical-align: top;
-      margin: 0 0 3rem;
-    }
-  }
-
-  @media (max-width: 767px) {
-    .prose-galaxy {
-      iframe[title='Recent Galaxy France news'],
-      iframe[title='Recent Galaxy Europe news'],
-      iframe[title*='Recent Galaxy France events'],
-      iframe[title*='Recent Galaxy Europe events'] {
-        display: block;
-        width: 100% !important;
-        margin: 0 0 1rem;
-      }
-    }
-  }
-
   [data-name='/ifb/main1'] {
     margin-bottom: 1.5rem;
     font-size: 0.875rem;
