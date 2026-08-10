@@ -198,33 +198,44 @@ test.describe('Bare Pages', () => {
       const dataPolicy = page.getByText('Our Data Policy');
       await expect(dataPolicy).toBeVisible();
 
-      // Iframes for latest news/events feeds should be present
-      const iframes = page.locator('iframe.js-resize-iframe');
-      const iframeCount = await iframes.count();
-      expect(iframeCount).toBe(2);
+      // Latest news/events feeds render inline, one card each
+      const feedCards = page.locator('.latest-feeds .home-card');
+      await expect(feedCards).toHaveCount(2);
     });
 
-    test('/bare/eu/usegalaxy/main/ does not expose native iframe resize handles', async ({ page }) => {
-      await page.goto('/bare/eu/usegalaxy/main/');
+    // Every bare page that carries the feeds used to pull them from
+    // /bare/<subsite>/latest/* through same-origin iframes.
+    const pagesWithLatestFeeds = [
+      '/bare/eu/usegalaxy/main/',
+    ];
 
-      const iframes = page.locator('iframe.js-resize-iframe');
-      await expect(iframes).toHaveCount(2);
-      await expect(iframes.first()).toHaveCSS('resize', 'none');
-      await expect(iframes.nth(1)).toHaveCSS('resize', 'none');
-    });
+    for (const path of pagesWithLatestFeeds) {
+      test(`${path} renders the latest feeds without nested iframes`, async ({ page }) => {
+        const response = await page.goto(path);
+        expect(response?.status()).toBe(200);
+
+        // Nothing should embed the site in itself.
+        await expect(page.locator('iframe[src^="/bare/"]')).toHaveCount(0);
+
+        const feeds = page.locator('.latest-feeds');
+        await expect(feeds.locator('.home-card')).toHaveCount(2);
+        await expect(feeds.locator('.news-item').first()).toBeVisible();
+        await expect(feeds.locator('.event-item').first()).toBeVisible();
+      });
+    }
 
     test('/bare/eu/usegalaxy/main/ keeps lead content below latest feeds', async ({ page }) => {
       await page.goto('/bare/eu/usegalaxy/main/');
 
-      const latestFeeds = page.locator('iframe.js-resize-iframe');
-      await expect(latestFeeds).toHaveCount(2);
+      const latestFeeds = page.locator('.latest-feeds');
+      await expect(latestFeeds.locator('.home-card')).toHaveCount(2);
 
-      const lastFeedBox = await latestFeeds.nth(1).boundingBox();
+      const feedsBox = await latestFeeds.boundingBox();
       const leadBox = await page.locator('[data-name="/eu/main1"]').boundingBox();
 
-      expect(lastFeedBox).not.toBeNull();
+      expect(feedsBox).not.toBeNull();
       expect(leadBox).not.toBeNull();
-      expect(leadBox!.y).toBeGreaterThanOrEqual(lastFeedBox!.y + lastFeedBox!.height - 1);
+      expect(leadBox!.y).toBeGreaterThanOrEqual(feedsBox!.y + feedsBox!.height - 1);
     });
 
     test('/bare/eu/usegalaxy/main/ hides UseGalaxy.eu launch button', async ({ page }) => {
