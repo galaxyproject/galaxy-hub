@@ -210,6 +210,7 @@ test.describe('Bare Pages', () => {
       '/bare/fr/usegalaxy/main/',
       '/bare/eu/usegalaxy/metabolomics/',
       '/bare/eu/usegalaxy/proteomics/',
+      '/bare/eu/usegalaxy/eirene/',
     ];
 
     for (const path of pagesWithLatestFeeds) {
