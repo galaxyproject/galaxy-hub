@@ -128,4 +128,4 @@ For your convenience, we have compiled a non-exhaustive list of hotels, grouped 
 
 # Event Rules and Regulations
 
-The European Galaxy Days will abide the [Galaxy Project Code of Conduct](https://galaxyproject.org/community/coc/). Please, make sure that you read it before the event.
+The ESG4Stars kick-off meeting will abide the [Galaxy Project Code of Conduct](https://galaxyproject.org/community/coc/). Please, make sure that you read it before the event.
