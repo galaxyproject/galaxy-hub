@@ -39,8 +39,10 @@ const { title, description } = Astro.props;
     <script>
       import { setupIframeResize } from '../utils/iframe';
       import { setupBareLinkTargets } from '../utils/bare-links';
+      import { setupGalaxyRouteLinks } from '../utils/galaxy-frame';
       setupIframeResize();
       setupBareLinkTargets();
+      setupGalaxyRouteLinks();
     </script>
   </body>
 </html>
