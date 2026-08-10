@@ -207,6 +207,7 @@ test.describe('Bare Pages', () => {
     // /bare/<subsite>/latest/* through same-origin iframes.
     const pagesWithLatestFeeds = [
       '/bare/eu/usegalaxy/main/',
+      '/bare/fr/usegalaxy/main/',
     ];
 
     for (const path of pagesWithLatestFeeds) {
