@@ -21,6 +21,10 @@ Tools are written in XML language following the **[Galaxy tool schema](https://d
 
 Please use [Planemo](http://planemo.readthedocs.io/) for both tool development ([see the documentation](http://planemo.readthedocs.io/en/latest/writing_standalone.html)) and [publishing](http://planemo.readthedocs.io/en/latest/publishing.html) to the Tool Shed. We **heartily recommend** you use it together with the [best practices](http://galaxy-iuc-standards.readthedocs.io/en/latest/best_practices.html) for Galaxy tool development by the [IUC](/iuc/). The IUC also provides tool developers with advice and guidance.
 
+## User-Defined Tools
+
+Don't want to write a full XML tool or wait for admin installation? [User-Defined Tools](/tools/user-defined-tools/) (beta, Galaxy 25.0+) let regular users write and run simple YAML tool definitions directly from the Galaxy interface.
+
 ## Need help?
 
 - Find [support](/support/)
