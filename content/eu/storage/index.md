@@ -8,12 +8,15 @@ is managing 4PB of data today (2025/01).
 Users access this storage for free; governments are paying for the freedom of science and against being locked into some commercial system.
 Everyone gets a fair share of the storage, on the [EU Galaxy server](https://usegalaxy.eu) those are 250 GB for every user, also called `quota`.
 
-This system has served us well for many years. However, different user groups have varying storage needs, and some also contribute
-financially to the global Galaxy infrastructure. Until now, we have addressed this by generously extending storage quotas upon request via our quota-request form.
-We remain committed to expanding our storage capacity through future grants and we will also keep the quota-request form.
+This system has served us well for many years. At the same time different user groups have varying storage needs, and some also contribute
+financially to the global Galaxy infrastructure. In the past, we have addressed this by generously extending storage quotas upon request via our quota-request form.
 
-That said, long-term sustainability is a growing challenge as the number of users increases. To address this, the Galaxy community
-has introduced advanced Research Data Management (RDM) features, including:
+Back then, however, features such as [short-term (scratch) storage](#short-term-storage) or the ability to [bring your own storage](#user-owned-storage),
+were not yet available. These features now provide alternative ways of handling data that requires more space or only needs to be stored temporarily.
+
+With the rapid growth in the number of users, storage resources have become increasingly scarce. To ensure the long-term sustainability of the service and to continue providing 250 GB of long-term storage to a growing number of users, we can no longer increase individual quotas through the quota-request form. The standard 250 GB quota therefore remains available to every user, but the quota-request form for additional storage has been discontinued.
+
+This change is part of a broader effort to use storage resources more sustainably. As the number of users continues to grow, simply providing more long-term storage is not a sustainable solution. Instead, the Galaxy community is developing and adopting advanced Research Data Management (RDM) features that help users make more efficient and responsible use of storage throughout the research lifecycle, including:
 
 * [More effective data cleaning tools](#manage-your-storage-and-quota)
 * [More efficient data import mechanisms](#smart-data-import)
@@ -294,6 +297,11 @@ Please get in contact with us if you want to learn more about [RDM](https://rdmk
 
 ----
 
+<!--
+NOTE: This section is commented out because quota increases are no longer handled via the
+quota-increase form. Storage resources are becoming scarce goods and the number of users is
+constantly increasing, so this approach has been discontinued.
+
 # Request larger Quotas for your project
 
 With our [quota-increase form](https://usegalaxy.eu/quota-increase), you can request a temporary extension of your user quota in UseGalaxy.eu.
@@ -309,6 +317,7 @@ Before you request an additional quota, please make sure that:
 Please bear in mind that the change will be effective only after being granted, which can take a few working days.
 After the requested extension period ends, your quota will be back to the standard 250 GB. Your data won't be removed, but you won't be able to launch any jobs
 in Galaxy until you free up space and are again under 250 GB.
+-->
 
 # Glossary
 
