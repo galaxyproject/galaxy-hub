@@ -65,30 +65,21 @@ export function prepareMapPlatformData(platforms: CollectionEntry<'platforms'>[]
  * Override platform owner changes where Domains location mapping is present
  */
 export function filterOverridePlatforms(platform: CollectionEntry<'platforms'>, domains: any[]): any[] {
-  if (!platform.data.platforms?.length) {
-    return domains;
-  }
-
   const overridesByUrl = new Map(
-    platform.data.platforms
+    (platform.data.platforms ?? [])
       .filter((entry) => entry.platform_url)
       .map((entry) => [normalizeUrl(entry.platform_url!), entry])
   );
 
   return domains.map((domain) => {
-    if (!domain.platform_url) {
-      return domain;
-    }
+    const override = domain.platform_url && overridesByUrl.get(normalizeUrl(domain.platform_url));
 
-    const override = overridesByUrl.get(normalizeUrl(domain.platform_url));
-    if (!override) {
-      return domain;
-    }
-
-    return {
-      ...domain,
-      ...(override.platform_location ? { platform_location: override.platform_location } : {}),
-      ...(override.location ? { location: { ...domain.location, ...override.location } } : {}),
-    };
+    return override
+      ? {
+          ...domain,
+          ...(override.platform_location ? { platform_location: override.platform_location } : {}),
+          ...(override.location ? { location: { ...domain.location, ...override.location } } : {}),
+        }
+      : domain;
   });
 }
