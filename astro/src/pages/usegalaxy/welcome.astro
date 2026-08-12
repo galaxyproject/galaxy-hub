@@ -119,7 +119,10 @@ const carouselSlides = [
 
       <!-- Bluesky Feed -->
       <div>
-        <div class="rounded-lg shadow-md bg-white border border-ebony-clay-100 p-4 h-full flex flex-col" id="bluesky-feed">
+        <div
+          class="rounded-lg shadow-md bg-white border border-ebony-clay-100 p-4 h-full flex flex-col"
+          id="bluesky-feed"
+        >
           <div class="flex items-center gap-1.5 mb-1.5">
             <Icon name="cloud" size={14} />
             <p class="font-semibold text-galaxy-dark text-xs m-0">Latest from Bluesky</p>
@@ -444,7 +447,7 @@ const carouselSlides = [
 
         try {
           const res = await fetch(
-            'https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=galaxyproject.bsky.social&filter=posts_no_replies&limit=10',
+            'https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=galaxyproject.bsky.social&filter=posts_no_replies&limit=10'
           );
           if (!res.ok) throw new Error(`Bluesky API error: ${res.status}`);
           const data = await res.json();
