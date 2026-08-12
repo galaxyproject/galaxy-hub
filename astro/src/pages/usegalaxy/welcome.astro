@@ -69,7 +69,7 @@ const carouselSlides = [
     </section>
 
     <!-- Media Row: Carousel + YouTube -->
-    <section class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8 items-center">
+    <section class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8 items-center">
       <!-- Carousel -->
       <div>
         <div class="rounded-lg overflow-hidden shadow-md bg-ebony-clay-100" id="welcome-carousel">
@@ -120,14 +120,14 @@ const carouselSlides = [
       <!-- Bluesky Feed -->
       <div>
         <div
-          class="rounded-lg shadow-md bg-white border border-ebony-clay-100 p-4 h-full flex flex-col"
+          class="rounded-lg shadow-md bg-white border border-ebony-clay-100 p-3 h-full flex flex-col"
           id="bluesky-feed"
         >
           <div class="flex items-center gap-1.5 mb-1.5">
             <Icon name="cloud" size={14} />
             <p class="font-semibold text-galaxy-dark text-xs m-0">Latest from Bluesky</p>
           </div>
-          <div id="bluesky-feed-posts" class="space-y-1.5 overflow-y-auto text-sm flex-1" style="max-height: 220px;">
+          <div id="bluesky-feed-posts" class="space-y-1.5 overflow-y-auto text-sm flex-1" style="max-height: 190px;">
             <p class="text-chicago-400 text-xs m-0">Loading posts&hellip;</p>
           </div>
           <a
