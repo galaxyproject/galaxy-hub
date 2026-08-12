@@ -45,7 +45,7 @@ export function prepareMapPlatformData(platforms: CollectionEntry<'platforms'>[]
   const operativePlatforms = filterOperativePlatforms(platforms);
 
   return operativePlatforms.map((p) => {
-    const domains = loadDomains(p.data.slug);
+    const domains = filterOverridePlatforms(p, loadDomains(p.data.slug));
     return {
       slug: p.data.slug,
       title: p.data.title || 'Galaxy Server',
@@ -57,6 +57,38 @@ export function prepareMapPlatformData(platforms: CollectionEntry<'platforms'>[]
       domains: domains,
       path: `/use/${p.data.slug.replace(/^use\//, '')}`,
       images: {},
+    };
+  });
+}
+
+/**
+ * Override platform owner changes where Domains location mapping is present
+ */
+export function filterOverridePlatforms(platform: CollectionEntry<'platforms'>, domains: any[]): any[] {
+  if (!platform.data.platforms?.length) {
+    return domains;
+  }
+
+  const overridesByUrl = new Map(
+    platform.data.platforms
+      .filter((entry) => entry.platform_url)
+      .map((entry) => [normalizeUrl(entry.platform_url!), entry])
+  );
+
+  return domains.map((domain) => {
+    if (!domain.platform_url) {
+      return domain;
+    }
+
+    const override = overridesByUrl.get(normalizeUrl(domain.platform_url));
+    if (!override) {
+      return domain;
+    }
+
+    return {
+      ...domain,
+      ...(override.platform_location ? { platform_location: override.platform_location } : {}),
+      ...(override.location ? { location: { ...domain.location, ...override.location } } : {}),
     };
   });
 }
