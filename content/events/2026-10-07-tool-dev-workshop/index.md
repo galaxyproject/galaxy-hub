@@ -17,7 +17,7 @@ tags: [workshop, tools, training, uni-freiburg, esg]
 subsites: [all]
 autotoc: false
 contributions:
-  authorship:
+  organisers:
     - intergalacticutilitiescommissioniuc
     - freiburggalaxyteam
 ---
