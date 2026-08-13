@@ -61,7 +61,7 @@ A detailed agenda of the workshop will be shared closer to the event.
 For further details, please reach out to:
 
 - Saim Momin ([momins@informatik.uni-freiburg.de](mailto:momins@informatik.uni-freiburg.de))
-- Matthias Bernt ([bernt@ufz.de](mailto:m.bernt@ufz.de))
+- Matthias Bernt ([m.bernt@ufz.de](mailto:m.bernt@ufz.de))
 
 
 📣 Know someone who'd benefit from this workshop? Please help us spread the word within your networks and communities. We look forward to seeing you there!
