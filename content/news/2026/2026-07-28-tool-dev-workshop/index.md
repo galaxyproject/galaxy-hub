@@ -1,6 +1,6 @@
 ---
-title: "The Second Galaxy Tool Development Workshop, Now Open to the Wider Community"
-tease: "Building on the success of our first session in Freiburg, we're expanding the Galaxy Tool Development Workshop to welcome scientists and developers from across the Galaxy community."
+title: "The 2nd Galaxy Tool Development Workshop - Now Open to the wider Community!"
+tease: "Join us in Freiburg to learn how to build, test, and publish your own tools for the Galaxy platform - hands-on, beginner-friendly, and led by experienced Galaxy developers"
 date: "2026-10-07"
 days: 3
 continent: "EU"
@@ -14,38 +14,48 @@ contributions:
   organisers:
     - intergalacticutilitiescommissioniuc
     - freiburggalaxyteam
-  funding:
-    - 
 ---
 
-Following the enthusiastic response to our first internal Galaxy Tool Development Workshop in Freiburg, we're excited to open the doors wider. The second Galaxy Tool Development workshop will taking place over three full days in Freiburg right after the ESG4Stars Kickoff meeting. This session is designed for researchers, bioinformaticians, and developers across the broader scientific community who want to learn how to build, test, and publish tools for the Galaxy platform.
+_Ever wanted your tools used by thousands of researchers around the world? Galaxy makes that possible - and this workshop shows you exactly how to get there!_
 
-Whether you're beginner to the Galaxy ecosystem or hoping to become a regular contributor to the [Intergalactic Utilities Commission (IUC)](https://galaxyproject.org/iuc/), this workshop offers hands-on guidance from experienced Galaxy developers and instructors.
+Following the enthusiastic response to our first internal Galaxy Tool Development Workshop in Freiburg, we're excited to open the doors wider. Organised by the [Intergalactic Utility Commission (IUC)](https://galaxyproject.org/iuc/) and the [Galaxy Tool Developer's SIG](https://galaxyproject.org/community/sig/tool-developers/), this second workshop will take place over three days (7-9 October), immediately following the ESG4Stars Kickoff meeting in Freiburg. The session is designed for researchers, bioinformaticians, and developers across the broader scientific community who want to learn how to build, test, and publish tools for the Galaxy platform.
+
+Whether you're new to the Galaxy ecosystem or hoping to become a regular contributor to the Intergalactic Utilities Commission (IUC), this workshop offers hands-on guidance from experienced Galaxy developers and instructors.
+
+# 🧬 What You'll Learn?
+
+- Get introduced to Galaxy tool wrapping and leave with your own Galaxy tool wrapped and ready to submit
+- Master the IUC's best-practice standards - so your future tools sail through review
+- Use datatables and data managers to supplement your tools with reference data
+- Get hands-on with Galaxy Interactive Tools
+- Work side-by-side with experienced Galaxy developers on your own tool for your use-case
+
+# 📝 How to Participate?
+
+Registration to this workshop is free. Whether you're a trainer or a trainee, our doors are open to everyone. If you're an experienced Galaxy tool developer and would like to lead a session, sign up as a trainer. If you're new to Galaxy tool development and want to start your journey, register as a trainee - either way, you'll leave with new skills and new connections in the Galaxy developer community.
+
+Please sign up using the registration link: [Register here](https://forms.gle/B8ELoqdPZnxiwtw57)
+
+A detailed agenda of the workshop will be shared closer to the event.
 
 
-# What You'll Learn
+# 💻 Prerequisites
 
-TODO: Agenda yet to be finalized
-- 
-
-# Prerequisites
-
+- A machine running Linux, or Linux via WSL (Windows Subsystem for Linux)
 - Basic knowledge of shell scripting and command-line tools
 - Familiarity with Python and/or R is helpful but not required
-- Please ensure that [VS Code](https://code.visualstudio.com/download) (with the [Galaxy extension](https://marketplace.visualstudio.com/items?itemName=davelopez.galaxy-tools)), [Docker](https://docs.docker.com/engine/install/ubuntu/), and [Conda](https://docs.conda.io/projects/conda/en/stable/user-guide/install/linux.html) are installed prior to the event
+- Please ensure that [VS Code](https://code.visualstudio.com/download) (with the [Galaxy extension](https://marketplace.visualstudio.com/items?itemName=davelopez.galaxy-tools)), [Docker](https://docs.docker.com/engine/install/ubuntu/), and [Miniforge](https://github.com/conda-forge/miniforge#unix-like-platforms-macos-linux--wsl?) are installed prior to the event
+- [Planemo](https://planemo.readthedocs.io/en/latest/installation.html) installed on your system
+
+ For your convenience, we'll share a detailed pre-requisites document closer to the event to help you get set up.
 
 
-# Recommended Resources
+# 📧 Contact
 
-- [Galaxy SDK (Planemo Documentation)](https://planemo.readthedocs.io/): Comprehensive resource for tool development, testing, and deployment.
-- [Complete 4-hour Tool Development Tutorial](https://planemo.readthedocs.io/en/latest/writing.html): Highly recommended for all participants. Walks you through building and testing a Galaxy tool step by step.
-- [Planemo in Scientific Literature](https://doi.org/10.1101/gr.276963.122): Learn about the motivations and impact of Planemo in tool development
-- [Quick Blog Post: 3 Steps to Galaxify Your Tool](/news/2020-08-22-three-steps-to-galaxify-your-tool): A concise summary of the process to publish your tool to the European Galaxy serve.
-- Important Repos for Galaxy tools
-  - [tools-IUC](https://github.com/galaxyproject/tools-iuc)
-  - [bgruening’s Galaxy Tools](https://github.com/bgruening/galaxytools)
+For further details, please reach out to:
+
+- Saim Momin ([momins@informatik.uni-freiburg.de](mailto:momins@informatik.uni-freiburg.de))
+- Matthias Bernt ([bernt@ufz.de](mailto:m.bernt@ufz.de))
 
 
-Registration details and a link to sign up will be shared soon. If you missed the first session in Freiburg, this is your chance to get hands-on with Galaxy tool development - we look forward to seeing you there!
- 
-
+📣 Know someone who'd benefit from this workshop? Please help us spread the word within your networks and communities. We look forward to seeing you there!
