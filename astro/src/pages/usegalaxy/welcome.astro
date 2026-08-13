@@ -482,8 +482,10 @@ const carouselSlides = [
 
             const item = document.createElement('div');
 
-            const textEl = document.createElement('p');
-            textEl.className = 'm-0 text-chicago-700 text-xs leading-snug';
+            const textEl = document.createElement('a');
+            textEl.href = postUrl;
+            textEl.target = '_blank';
+            textEl.className = 'block m-0 text-chicago-700 text-xs leading-snug hover:text-galaxy-primary no-underline';
             textEl.textContent = text;
             item.appendChild(textEl);
 
