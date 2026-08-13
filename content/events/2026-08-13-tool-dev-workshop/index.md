@@ -1,12 +1,18 @@
 ---
 title: "The 2nd Galaxy Tool Development Workshop - Now Open to the wider Community!"
 tease: "Join us in Freiburg to learn how to build, test, and publish your own tools for the Galaxy platform - hands-on, beginner-friendly, and led by experienced Galaxy developers"
-date: "2026-10-07"
+date: 2026-10-07
+end: 2026-10-09
 days: 3
 continent: "EU"
 location:
-  name: "Georges-Köhler-Allee 79, 79110 Freiburg im Breisgau"
+  name: Department of Computer Science, University of Freiburg
+  street: Georges-Köhler-Allee 79
+  city: Freiburg im Breisgau
+  postal: 79110
+  country: Germany
 gtn: false
+contact: Saim Momin, Matthias Bernt
 tags: [workshop, tools, training, uni-freiburg, esg]
 subsites: [all]
 autotoc: false
