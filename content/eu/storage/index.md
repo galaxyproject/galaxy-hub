@@ -14,7 +14,7 @@ financially to the global Galaxy infrastructure. In the past, we have addressed 
 Back then, however, features such as [short-term (scratch) storage](#short-term-storage) or the ability to [bring your own storage](#user-owned-storage),
 were not yet available. These features now provide alternative ways of handling data that requires more space or only needs to be stored temporarily.
 
-With the rapid growth in the number of users, storage resources have become increasingly scarce. To ensure the long-term sustainability of the service and to continue providing 250 GB of long-term storage to a growing number of users, we can no longer increase individual quotas through the quota-request form. The standard 250 GB quota therefore remains available to every user, but the quota-request form for additional storage has been discontinued.
+With the rapid growth in the number of users and the problematic hardware situation, storage resources have become increasingly scarce and expensive. To ensure the long-term sustainability of the service and to continue providing 250 GB of long-term storage to a growing number of users, we can no longer increase individual quotas through the quota-request form. The standard 250 GB quota therefore remains available to every user, but the quota-request form for additional storage has been discontinued.
 
 This change is part of a broader effort to use storage resources more sustainably. As the number of users continues to grow, simply providing more long-term storage is not a sustainable solution. Instead, the Galaxy community is developing and adopting advanced Research Data Management (RDM) features that help users make more efficient and responsible use of storage throughout the research lifecycle, including:
 
