@@ -2,7 +2,7 @@
 # THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
 # To update, run: python3 scripts/update-tools.py --server https://usegalaxy.eu --name "European Galaxy" --output content/eu/tools/index.md
 title: European Galaxy Tools
-description: "4376 tools and counting"
+description: "4400 tools and counting"
 ---
 
 
@@ -869,6 +869,7 @@ description: "4376 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=fastani" target="_top" title="fast alignment-free computation of whole-genome Average Nucleotide Identity">FastANI</a>
 <a href="https://usegalaxy.eu/root?tool_id=fastoma" target="_top" title="Infer orthology relationships">FastOMA</a>
 <a href="https://usegalaxy.eu/root?tool_id=edu.tamu.cpt.fasta.seq_trans" target="_top" title="Translate fasta file">Fasta Translate</a>
+<a href="https://usegalaxy.eu/root?tool_id=filt3r" target="_top" title="alignment-free detection of internal (tandem) duplications">FiLT3r</a>
 <a href="https://usegalaxy.eu/root?tool_id=bg_sortmerna" target="_top" title="of ribosomal RNAs in metatranscriptomic data">Filter with SortMeRNA</a>
 <a href="https://usegalaxy.eu/root?tool_id=find_nested_alt_orfs" target="_top" title="from BED and 2bit/FASTA">Find Nested Alternate ORFs (nAlt-ORFs)</a>
 <a href="https://usegalaxy.eu/root?tool_id=flavotyper" target="_top" title="in silico serotyping of Flavobacterium psychrophilum">FlavoTyper</a>
@@ -1088,6 +1089,7 @@ description: "4376 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=netboxr" target="_top" title="enables automated discovery of biological process modules by network analysis.">netboxr</a>
 <a href="https://usegalaxy.eu/root?tool_id=hmmer_nhmmer" target="_top" title="search a DNA model or alignment against a DNA database (BLASTN-like)">nhmmer</a>
 <a href="https://usegalaxy.eu/root?tool_id=hmmer_nhmmscan" target="_top" title="search DNA sequence(s) against a DNA profile database">nhmmscan</a>
+<a href="https://usegalaxy.eu/root?tool_id=oatk" target="_top" title="Organelle Genome Assembly Toolkit">oatk</a>
 <a href="https://usegalaxy.eu/root?tool_id=pharokka" target="_top" title="Rapid standardised annotation tool for bacteriophage genomes and metagenomes">pharokka</a>
 <a href="https://usegalaxy.eu/root?tool_id=hmmer_phmmer" target="_top" title="search a protein sequence against a protein database (BLASTP-like)">phmmer</a>
 <a href="https://usegalaxy.eu/root?tool_id=progressivemauve" target="_top" title="constructs multiple genome alignments">progressiveMauve</a>
@@ -1832,6 +1834,7 @@ description: "4376 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=limma_voom" target="_top" title="Perform differential expression with limma-voom or limma-trend">limma</a>
 <a href="https://usegalaxy.eu/root?tool_id=masigpro" target="_top" title="Significant Gene Expression Profile Differences in Time Course Gene Expression Data">maSigPro</a>
 <a href="https://usegalaxy.eu/root?tool_id=mirnature" target="_top" title="Computational detection of canonical microRNAs">miRNAture</a>
+<a href="https://usegalaxy.eu/root?tool_id=mirge3" target="_top" title="comprehensive small RNA-seq analysis">miRge3.0</a>
 <a href="https://usegalaxy.eu/root?tool_id=ngsderive_strandedness" target="_top" title="infers strandedness from RNA-seq BAM files">ngsderive strandedness</a>
 <a href="https://usegalaxy.eu/root?tool_id=presto_alignsets" target="_top" title="Multiple-align sequences with the same barcodes.">pRESTO AlignSets</a>
 <a href="https://usegalaxy.eu/root?tool_id=presto_assemblepairs" target="_top" title="Assembles paired-end reads into a single sequence.">pRESTO AssemblePairs</a>
@@ -1856,6 +1859,7 @@ description: "4376 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=scpipe" target="_top" title="- preprocessing pipeline for single cell RNA-seq">scPipe</a>
 <a href="https://usegalaxy.eu/root?tool_id=segemehl" target="_top" title="short read mapping with gaps">segemehl</a>
 <a href="https://usegalaxy.eu/root?tool_id=sshmm" target="_top" title="- RNA sequence-structure motif finder">ssHMM</a>
+<a href="https://usegalaxy.eu/root?tool_id=tdrmapper" target="_top" title="mapping, naming, and quantifying tDRs while annotating and quantifying mismatches and deletions">tDRmapper</a>
 <a href="https://usegalaxy.eu/root?tool_id=tximport" target="_top" title="Summarize transcript-level estimates for gene-level analysis">tximport</a>
 
 </div>
@@ -3134,6 +3138,7 @@ description: "4376 tools and counting"
 
 <div class="tool-list">
 
+<a href="https://usegalaxy.eu/root?tool_id=3dbeacons_api" target="_top" title="The 3D-Beacons Network provides unified programmatic access to        experimentally determined and predicted structure models">3D-Beacons API</a>
 <a href="https://usegalaxy.eu/root?tool_id=AccurateMassSearch" target="_top" title="Match MS signals to molecules from a database by mass">AccurateMassSearch</a>
 <a href="https://usegalaxy.eu/root?tool_id=AdditiveSeries" target="_top" title="Computes an additive series to quantify a peptide in a set of samples.">AdditiveSeries</a>
 <a href="https://usegalaxy.eu/root?tool_id=AssayGeneratorMetabo" target="_top" title="Assay library generation from DDA data (Metabolomics)">AssayGeneratorMetabo</a>
@@ -3656,6 +3661,23 @@ description: "4376 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=ctb_silicos_qed" target="_top" title="quantitative estimation (QED) with RDKit">Drug-likeness</a>
 <a href="https://usegalaxy.eu/root?tool_id=mdanalysis_endtoend" target="_top" title="- End-to-End distance timeseries and histogram for the given selections">End-to-End Analysis</a>
 <a href="https://usegalaxy.eu/root?tool_id=enumerate_charges" target="_top" title="calculated with Dimorphite DL and RDKit">Enumerate changes</a>
+<a href="https://usegalaxy.eu/root?tool_id=enzywizard_aaprops" target="_top" title="Calculate amino acid residue properties from a cleaned protein structure">EnzyWizard Aaprops</a>
+<a href="https://usegalaxy.eu/root?tool_id=enzywizard_batch" target="_top" title="Run a complete EnzyWizard analysis workflow">EnzyWizard Batch</a>
+<a href="https://usegalaxy.eu/root?tool_id=enzywizard_clean" target="_top" title="Clean a protein structure and generate multi-format files">EnzyWizard Clean</a>
+<a href="https://usegalaxy.eu/root?tool_id=enzywizard_conservation" target="_top" title="Calculate residue sequence conservation from a cleaned protein sequence and MSA">EnzyWizard Conservation</a>
+<a href="https://usegalaxy.eu/root?tool_id=enzywizard_disorder" target="_top" title="Predict intrinsically disordered regions from a cleaned protein structure">EnzyWizard Disorder</a>
+<a href="https://usegalaxy.eu/root?tool_id=enzywizard_dock" target="_top" title="Perform molecular docking of one or multiple substrates with a cleaned protein structure">EnzyWizard Dock</a>
+<a href="https://usegalaxy.eu/root?tool_id=enzywizard_embedding" target="_top" title="Generate protein sequence embeddings using ESM-2">EnzyWizard Embedding</a>
+<a href="https://usegalaxy.eu/root?tool_id=enzywizard_energy" target="_top" title="Calculate molecular energy terms from a cleaned protein structure">EnzyWizard Energy</a>
+<a href="https://usegalaxy.eu/root?tool_id=enzywizard_flexibility" target="_top" title="Estimate protein flexibility from a cleaned protein structure">EnzyWizard Flexibility</a>
+<a href="https://usegalaxy.eu/root?tool_id=enzywizard_hydrocluster" target="_top" title="Detect hydrophobic clusters from a cleaned protein structure">EnzyWizard Hydrocluster</a>
+<a href="https://usegalaxy.eu/root?tool_id=enzywizard_integrate" target="_top" title="Integrate multiple EnzyWizard JSON reports into a graph representation">EnzyWizard Integrate</a>
+<a href="https://usegalaxy.eu/root?tool_id=enzywizard_interaction" target="_top" title="Calculate protein/protein-substrate molecular interactions">EnzyWizard Interaction</a>
+<a href="https://usegalaxy.eu/root?tool_id=enzywizard_mut_batch" target="_top" title="Run paired EnzyWizard workflows for wild-type and mutant proteins">EnzyWizard Mut Batch</a>
+<a href="https://usegalaxy.eu/root?tool_id=enzywizard_mut_clean" target="_top" title="Clean paired wild-type and mutant protein structures">EnzyWizard Mut Clean</a>
+<a href="https://usegalaxy.eu/root?tool_id=enzywizard_mut_integrate" target="_top" title="Integrate wild-type and mutant EnzyWizard JSON report directories">EnzyWizard Mut Integrate</a>
+<a href="https://usegalaxy.eu/root?tool_id=enzywizard_pocket" target="_top" title="Detect and characterize binding pockets from a cleaned protein structure">EnzyWizard Pocket</a>
+<a href="https://usegalaxy.eu/root?tool_id=enzywizard_substrate" target="_top" title="Generate substrate structures from names or SMILES">EnzyWizard Substrate</a>
 <a href="https://usegalaxy.eu/root?tool_id=mdanalysis_extract_rmsd" target="_top" title="from MD ensemble with MDAnalysis">Extract RMSD distance matrix data</a>
 <a href="https://usegalaxy.eu/root?tool_id=biomd_extract_clusters" target="_top" title="from linkage matrix data">Extract clusters of MD trajectories</a>
 <a href="https://usegalaxy.eu/root?tool_id=gmx_energy" target="_top" title="">Extract energy components with GROMACS</a>
@@ -3780,6 +3802,7 @@ description: "4376 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=cor2" target="_top" title="for numeric columns">Correlation</a>
 <a href="https://usegalaxy.eu/root?tool_id=Count1" target="_top" title="occurrences of each record">Count</a>
 <a href="https://usegalaxy.eu/root?tool_id=count_gff_features" target="_top" title="">Count GFF Features</a>
+<a href="https://usegalaxy.eu/root?tool_id=coxph" target="_top" title="Multivariate survival regression and hazard ratio forest plot">Cox Proportional Hazards</a>
 <a href="https://usegalaxy.eu/root?tool_id=create_tool_recommendation_model" target="_top" title="using deep learning">Create a model to recommend tools</a>
 <a href="https://usegalaxy.eu/root?tool_id=clustering_from_distmat" target="_top" title="using Scipy">Distance matrix-based hierarchical clustering</a>
 <a href="https://usegalaxy.eu/root?tool_id=plot_for_lda_output1" target="_top" title="on &quot;Perform LDA&quot; output">Draw ROC plot</a>
@@ -3806,6 +3829,7 @@ description: "4376 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=scipy_sparse" target="_top" title="for manipulating 2-D Scipy sparse numeric data">Sparse Matrix Functions</a>
 <a href="https://usegalaxy.eu/root?tool_id=bg_statistical_hypothesis_testing" target="_top" title="computes several descriptive statistics">Statistical hypothesis testing</a>
 <a href="https://usegalaxy.eu/root?tool_id=Summary_Statistics1" target="_top" title="for any numerical column">Summary Statistics</a>
+<a href="https://usegalaxy.eu/root?tool_id=survminer" target="_top" title="Survival Analysis and Visualization">Survminer</a>
 <a href="https://usegalaxy.eu/root?tool_id=t_test_two_samples" target="_top" title="">T Test for Two Samples</a>
 <a href="https://usegalaxy.eu/root?tool_id=dwt_var1" target="_top" title="using Discrete Wavelet Transfoms">Wavelet variance</a>
 
