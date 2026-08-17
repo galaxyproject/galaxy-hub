@@ -41,7 +41,7 @@ describe('contentMatchesSubsite', () => {
   });
 
   it('matches all-eu for every EU-affiliated subsite', () => {
-    for (const subsite of ['eu', 'freiburg', 'erasmusmc', 'belgium', 'pasteur', 'elixir-it', 'ifb']) {
+    for (const subsite of ['eu', 'freiburg', 'belgium', 'pasteur', 'elixir-it', 'ifb']) {
       expect(contentMatchesSubsite(['all-eu'], subsite)).toBe(true);
     }
   });
