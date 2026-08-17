@@ -20,6 +20,8 @@ contributions:
   organisers:
     - intergalacticutilitiescommissioniuc
     - freiburggalaxyteam
+  funding:
+    - deNBI
 ---
 
 _Ever wanted your tools used by thousands of researchers around the world? Galaxy makes that possible - and this workshop shows you exactly how to get there!_
@@ -65,3 +67,14 @@ For further details, please reach out to:
 
 
 📣 Know someone who'd benefit from this workshop? Please help us spread the word within your networks and communities. We look forward to seeing you there!
+
+
+# Supporters
+
+This event is generously supported by [de.NBI (ELIXIR Germany)](https://www.denbi.de/).
+
+<div style="max-width: 300px">
+
+![logo deNBI](/images/logos/deNBILogo.png)
+
+</div
