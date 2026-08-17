@@ -11,7 +11,7 @@ location:
   name: Campus des berges de Seine
   postal: 77240
   street: Route de Beaulieu
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 ---
 

@@ -11,7 +11,7 @@ external_url: https://www.dtls.nl/courses/rna-seq-data-analysis-2022/
 gtn: false
 contact: "Andrew Stubbs, Miaomiao Zhou"
 links:
-subsites: [global, erasmusmc]
+subsites: [global]
 contributions:
   organisers:
     - miaomiaozhou88

@@ -2,7 +2,7 @@
 title: 'UseGalaxy.eu Use Case: Zika virus effects on brain and brain tumours'
 date: '2021-06-18'
 tags: [usecase]
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   authorship:

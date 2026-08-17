@@ -2,7 +2,7 @@
 title: European Galaxy Flavours
 date: "2020-12-28"
 tags: [faq, community]
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   authorship:
@@ -24,7 +24,6 @@ Any community is welcome to create and maintain their own sub-domain within [Use
 | CLIP-Explorer                |                 [clipseq.usegalaxy.eu](https://clipseq.usegalaxy.eu) |
 | COVID-19                     |                 [covid19.usegalaxy.eu](https://covid19.usegalaxy.eu) |
 | Ecology                      |                 [ecology.usegalaxy.eu](https://ecology.usegalaxy.eu) |
-| Erasmus MC                   |             [erasmusmc.usegalaxy.eu](https://erasmusmc.usegalaxy.eu) |
 | Clustering of RNA            |           [graphclust.usegalaxy.eu](https://graphclust.usegalaxy.eu) |
 | HiCExplorer                  |         [hicexplorer.usegalaxy.eu](https://hicexplorer.usegalaxy.eu) |
 | Human Cell Atlas             |   [humancellatlas.usegalaxy.eu](https://humancellatlas.usegalaxy.eu) |

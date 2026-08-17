@@ -3,7 +3,7 @@ title: 'Training Infrastructure Feedback on the ELIXIR Belgium workshop “DDA a
   proteomic analysis in Galaxy” '
 date: '2020-12-08'
 tags: [training, tiaas]
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   authorship:

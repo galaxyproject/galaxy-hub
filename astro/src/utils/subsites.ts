@@ -3,7 +3,7 @@ import { subsites } from '../stores/subsiteStore';
 // Group tags that fan out to a set of subsites. Keep in sync with content/SUBSITES.yaml,
 // which is the vocabulary content validation accepts.
 export const SUBSITE_GROUPS: Record<string, readonly string[]> = {
-  'all-eu': ['eu', 'freiburg', 'erasmusmc', 'belgium', 'pasteur', 'elixir-it', 'ifb'],
+  'all-eu': ['eu', 'freiburg', 'belgium', 'pasteur', 'elixir-it', 'ifb'],
 } as const;
 
 export const ALL_SUBSITE_IDS = subsites.map((subsite) => subsite.id);

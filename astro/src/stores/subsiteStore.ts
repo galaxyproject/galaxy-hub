@@ -7,7 +7,6 @@ export const subsites = [
   { id: 'eu', name: 'Europe', path: '/eu/' },
   { id: 'au', name: 'Australia', path: '', external: 'https://site.usegalaxy.org.au' },
   { id: 'freiburg', name: 'Freiburg', path: '/freiburg/' },
-  { id: 'erasmusmc', name: 'Erasmus MC', path: '/erasmusmc/' },
   { id: 'belgium', name: 'VIB (Belgium)', path: '/belgium/' },
   { id: 'pasteur', name: 'Pasteur', path: '/pasteur/' },
   { id: 'elixir-it', name: 'ELIXIR-IT', path: '/elixir-it/' },
@@ -74,10 +73,6 @@ export const subsiteLabels: Record<string, { title: string; description: string 
   freiburg: {
     title: 'Galaxy Freiburg',
     description: 'Galaxy resources and news from the University of Freiburg',
-  },
-  erasmusmc: {
-    title: 'Galaxy Erasmus MC',
-    description: 'Galaxy resources and news from Erasmus Medical Center',
   },
   belgium: {
     title: 'Galaxy Belgium (VIB)',

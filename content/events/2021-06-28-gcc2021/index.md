@@ -6,7 +6,7 @@ tags: [training, talk, poster]
 location:
   name: online
 external_url: https://www.vibconferences.be/events/gcc2021-virtual-edition
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 ---
 

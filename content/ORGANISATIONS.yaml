@@ -329,14 +329,6 @@ epfl:
     url: https://www.epfl.ch
     avatar: https://www.epfl.ch/about/overview/wp-content/themes/wp-theme-2018/assets/svg/epfl-logo.svg
 
-erasmusmc:
-    short_name: ErasmusMC
-    name: Erasmus Medical Center
-    url: https://www.erasmusmc.nl
-    avatar: "/training-material/shared/images/logo-erasmusmc.png"
-    github: false
-    ror: "018906e22"
-
 eu:
     short_name: EU
     name: The European Union

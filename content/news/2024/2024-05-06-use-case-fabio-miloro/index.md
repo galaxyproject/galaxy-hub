@@ -3,7 +3,7 @@ title: 'UseGalaxy.eu Use Case: RNA-directed DNA methylation (RdDM) in barley'
 date: '2024-05-13'
 tags: [usecase]
 tease: "A report out of Galaxy Europe's user space, by Fabio Miloro"
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   authorship:

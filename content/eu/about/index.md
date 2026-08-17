@@ -81,7 +81,6 @@ Thousands of tools are available with fixed versions and are managed by [Biocond
 - [metabolomics.usegalaxy.eu](https://metabolomics.usegalaxy.eu)
 - [humancellatlas.usegalaxy.eu](https://humancellatlas.usegalaxy.eu)
 - [annotation.usegalaxy.eu](https://annotation.usegalaxy.eu)
-- [erasmusmc.usegalaxy.eu](https://erasmusmc.usegalaxy.eu)
 - [live.usegalaxy.eu](https://live.usegalaxy.eu)
 - [plants.usegalaxy.eu](https://plants.usegalaxy.eu)
 - [ml.usegalaxy.eu](https://ml.usegalaxy.eu)

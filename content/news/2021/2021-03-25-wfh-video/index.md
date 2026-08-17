@@ -2,7 +2,7 @@
 title: How to import a workflow from the Workflow Hub and run it on remote COVID-19 data
 date: '2021-03-25'
 tags: [training, faq, covid-19, workflow, workflowhub, gtn]
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   authorship:

@@ -4,7 +4,7 @@ date: '2018-06-05'
 tags: [training]
 location:
   name: Norwich, UK
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 ---
 
