@@ -6,8 +6,8 @@ tags: [training]
 contacts:
 - email: galaxy-training@lists.galaxyproject.org
   name: Galaxy Training Network
-subsites: [eu, erasmusmc]
-main_subsite: erasmusmc
+subsites: [eu]
+main_subsite: eu
 contributions:
   funding:
     - deNBI

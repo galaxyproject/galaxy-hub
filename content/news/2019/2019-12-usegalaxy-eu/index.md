@@ -19,4 +19,4 @@ We are celebrating **10,000 Galaxy users** on https://usegalaxy.eu; 6,370,000 jo
 
 This success would not be possible without the support of [de.NBI](https://www.denbi.de/), [ELIXIR](http://elixir-europe.org/), [EOSC-life](https://www.eosc-portal.eu/eosc-life) and the Freiburg [Faculty of Medicine](http://www.med.uni-freiburg.de).
 
-A big thank you to all our users and people that have contributed to this project! Special thanks to our partner sites [Erasmus MC](https://galaxyproject.eu/erasmusmc/), [Belgium](https://galaxyproject.eu/vib/), and [Pasteur](https://galaxyproject.eu/pasteur/) and the whole [Galaxy community](https://galaxyproject.org/community/).
+A big thank you to all our users and people that have contributed to this project! Special thanks to our partner sites [Belgium](https://galaxyproject.eu/vib/), and [Pasteur](https://galaxyproject.eu/pasteur/) and the whole [Galaxy community](https://galaxyproject.org/community/).

@@ -12,7 +12,6 @@ title: Supported communities with their own subdomain
 | CLIP-Explorer                                  | [clipseq.usegalaxyeu](https://clipseq.usegalaxy.eu)                  |
 | Earth System Science                           | [earth-system.usegalaxy.eu](https://earth-system.usegalaxy.eu)       |
 | Ecology                                        | [ecology.usegalaxy.eu](https://ecology.usegalaxy.eu)                 |
-| Erasmus MC                                     | [erasmusmc.usegalaxy.eu](https://erasmusmc.usegalaxy.eu)             |
 | Genome Annotation                              | [annotation.usegalaxy.eu](https://annotation.usegalaxy.eu)           |
 | Genome Assembly                                | [assembly.usegalaxy.eu](https://assembly.usegalaxy.eu)               |
 | GraphClust2                                    | [graphclust.usegalaxy.eu](https://graphclust.usegalaxy.eu)           |

@@ -3,7 +3,7 @@ title: 'UseGalaxy.eu Use Case: cardiac regeneration in neonatal mice'
 tease: "A report out of Galaxy Europe's user space, by Mona Malek Mohammadi"
 date: '2024-05-15'
 tags: [usecase]
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   authorship:

@@ -5,7 +5,7 @@ end: '2021-12-01'
 tags: [training, covid-19, talk, workshop]
 location:
   name: online
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   funding:

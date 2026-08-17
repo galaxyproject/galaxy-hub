@@ -6,7 +6,7 @@ tags: [training, covid-19]
 contacts:
 - name: Galaxy and ELIXIR
 hidefooter: true
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   funding:
