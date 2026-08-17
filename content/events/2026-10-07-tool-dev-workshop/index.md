@@ -72,3 +72,9 @@ For further details, please reach out to:
 # Supporters
 
 This event is generously supported by [de.NBI (ELIXIR Germany)](https://www.denbi.de/).
+
+<div style="max-width: 300px">
+
+![logo deNBI](/images/logos/deNBILogo.png)
+
+</div
