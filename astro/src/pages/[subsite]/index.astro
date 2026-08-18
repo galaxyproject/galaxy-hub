@@ -7,6 +7,8 @@ import { render } from 'astro:content';
 import * as mdxComponents from '../../components/mdx/index.ts';
 import EuIntro from '../../components/mdx/EuIntro.astro';
 import EuSiteFooter from '../../components/mdx/EuSiteFooter.astro';
+import CzSiteFooter from '../../components/mdx/CzSiteFooter.astro';
+import CzIntro from '../../components/mdx/CzIntro.astro';
 
 export const getStaticPaths = getSubsiteStaticPaths;
 
@@ -22,6 +24,14 @@ const { title, description } = subsiteLabels[subsite] || {
   title: `Galaxy ${subsiteInfo.name}`,
   description: `Galaxy resources and news for ${subsiteInfo.name}`,
 };
+
+// Subsites with a dedicated intro component replace their 'lead' insert.
+const introComponents: Record<string, any> = {
+  eu: EuIntro,
+  cz: CzIntro,
+};
+const hasIntroComponent = subsite in introComponents;
+const IntroComponent = introComponents[subsite];
 
 // Conventional insert filenames used across subsite homepages, in display order.
 // Each subsite uses a subset; missing ones are silently skipped.
@@ -48,9 +58,8 @@ const footerEntries = (await Promise.all(FOOTER_INSERTS.map((name) => getInsert(
 
 const renderedBody = await Promise.all(bodyEntries.map((ins) => render(ins)));
 const renderedFooter = await Promise.all(footerEntries.map((ins) => render(ins)));
-const hasEuLead = subsite === 'eu' && bodyEntries.some((entry) => entry.data.slug === 'eu/lead');
 const renderedMarkdownBody = renderedBody.filter(
-  (_, index) => !(subsite === 'eu' && bodyEntries[index]?.data.slug === 'eu/lead')
+  (_, index) => !(hasIntroComponent && bodyEntries[index]?.data.slug === `${subsite}/lead`)
 );
 const hasEuSiteFooter = subsite === 'eu' && footerEntries.some((entry) => entry.data.slug === 'eu/site-footer');
 const renderedMarkdownFooter = renderedFooter.filter(
@@ -67,9 +76,10 @@ const renderedMarkdownFooter = renderedFooter.filter(
     {subsiteNews}
     hasMainContent={renderedBody.length > 0}
   >
-    {hasEuLead && <EuIntro slot="main-content" />}
+    {hasIntroComponent && <IntroComponent slot="main-content" />}
     {renderedMarkdownBody.map(({ Content }) => <Content slot="main-content" components={mdxComponents} />)}
     {hasEuSiteFooter && <EuSiteFooter slot="footer-content" />}
+    {subsite === 'cz' && <CzSiteFooter slot="footer-content" />}
     {renderedMarkdownFooter.map(({ Content }) => <Content slot="footer-content" components={mdxComponents} />)}
   </SubsiteOverview>
 </BaseLayout>

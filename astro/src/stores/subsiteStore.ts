@@ -12,6 +12,7 @@ export const subsites = [
   { id: 'elixir-it', name: 'ELIXIR-IT', path: '/elixir-it/' },
   { id: 'ifb', name: 'ELIXIR-FR/IFB', path: '/ifb/' },
   { id: 'genouest', name: 'GenOuest', path: '/genouest/' },
+  { id: 'cz', name: 'Czechia', path: '/cz/' },
 ] as const;
 
 export type SubsiteId = (typeof subsites)[number]['id'];
@@ -93,6 +94,10 @@ export const subsiteLabels: Record<string, { title: string; description: string 
   genouest: {
     title: 'Galaxy GenOuest',
     description: 'Galaxy resources and news from the GenOuest bioinformatics platform',
+  },
+  cz: {
+    title: 'Galaxy Czechia',
+    description: 'Galaxy resources, services, and news from the Czech Galaxy Community',
   },
 };
 
