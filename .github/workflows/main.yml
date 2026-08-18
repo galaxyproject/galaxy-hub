@@ -63,9 +63,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v7
         with:
-          # Full history so the filename-case lint can diff added files
-          # against the PR base ref.
-          fetch-depth: 0
+          # Depth 2 so the PR merge commit's parents are present: HEAD^1 is
+          # the current base branch tip, which the filename-case lint diffs
+          # added files against.
+          fetch-depth: 2
 
       - name: Setup Node.js
         uses: actions/setup-node@v6
@@ -76,7 +77,9 @@ jobs:
 
       - name: Lint content
         env:
-          LINT_BASE_REF: ${{ github.event.pull_request.base.sha }}
+          # pull_request checkouts are the PR merge commit, so HEAD^1 is the
+          # base branch tip (fresh, unlike event.pull_request.base.sha)
+          LINT_BASE_REF: ${{ github.event_name == 'pull_request' && 'HEAD^1' || '' }}
         run: cd astro && npm ci && npm run content:lint
 
   unit-tests:

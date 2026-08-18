@@ -20,10 +20,13 @@
  *    forward-only pressure toward lowercase asset names, which is what keeps
  *    collision #1 from recurring.
  *
- * The base ref comes from LINT_BASE_REF (set to the PR base SHA in CI) or, for
- * local runs, is auto-detected against upstream/origin `main`. If no base can
- * be found the new-asset check is skipped with a notice; the collision check
- * still runs.
+ * The base comes from LINT_BASE_REF (CI sets it to HEAD^1 -- the base branch
+ * tip, since pull_request checkouts are the PR merge commit) or, for local
+ * runs, is auto-detected against upstream/origin `main`. Either way the ref is
+ * resolved through merge-base so a stale or branch-tip ref can't blame files
+ * that landed on the base after this branch diverged. If no base can be found
+ * the new-asset check is skipped with a notice; the collision check still
+ * runs.
  *
  * Usage:
  *   node src/build/check-filename-case.mjs
@@ -32,7 +35,7 @@
 
 import { execFileSync } from 'child_process';
 import { join, basename } from 'path';
-import { fileURLToPath } from 'url';
+import { fileURLToPath, pathToFileURL } from 'url';
 
 const repoRoot = join(fileURLToPath(import.meta.url), '../../../..');
 
@@ -96,7 +99,8 @@ export function isAssetPath(p) {
 }
 
 export function basenameHasUppercase(p) {
-  return /[A-Z]/.test(basename(p));
+  // \p{Lu} rather than [A-Z] so accented capitals (Ä.jpg) are caught too
+  return /\p{Lu}/u.test(basename(p));
 }
 
 /** Added asset paths whose basename contains an uppercase letter. */
@@ -119,20 +123,14 @@ function listTrackedFiles() {
   return splitNul(git(['ls-files', '-z']));
 }
 
-/** Resolve a base ref to diff against, or null if none is available. */
+/** Resolve a base commit to diff against, or null if none is available. */
 function resolveBaseRef() {
   const explicit = process.env.LINT_BASE_REF;
-  if (explicit && explicit.trim()) {
+  const candidates = explicit && explicit.trim() ? [explicit.trim()] : ['upstream/main', 'origin/main', 'main'];
+  for (const ref of candidates) {
     try {
-      return git(['rev-parse', '--verify', '--quiet', `${explicit.trim()}^{commit}`])
-        .toString()
-        .trim();
-    } catch {
-      // fall through to auto-detection
-    }
-  }
-  for (const ref of ['upstream/main', 'origin/main', 'main']) {
-    try {
+      // merge-base, not the ref itself: a branch tip that moved after this
+      // branch diverged would otherwise blame its new files on this branch
       return git(['merge-base', 'HEAD', ref]).toString().trim();
     } catch {
       // try next candidate
@@ -143,7 +141,9 @@ function resolveBaseRef() {
 
 /** Files added between `base` and the working tree. */
 function listAddedFiles(base) {
-  return splitNul(git(['diff', '--diff-filter=A', '--name-only', '-z', base]));
+  // --no-renames so `git mv keynote.jpg Keynote.jpg` counts as an add of the
+  // new name instead of slipping through as a rename
+  return splitNul(git(['diff', '--no-renames', '--diff-filter=A', '--name-only', '-z', base]));
 }
 
 function main() {
@@ -180,6 +180,6 @@ New asset files must use lowercase names (e.g. keynote.jpg, not Keynote.jpg).`);
   process.exit(1);
 }
 
-if (import.meta.url === `file://${process.argv[1]}`) {
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   main();
 }

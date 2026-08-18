@@ -51,6 +51,11 @@ describe('filename-case lint helpers', () => {
       expect(basenameHasUppercase('content/Legacy/keynote.jpg')).toBe(false);
       expect(basenameHasUppercase('content/legacy/Keynote.jpg')).toBe(true);
     });
+
+    it('catches accented capitals, not just A-Z', () => {
+      expect(basenameHasUppercase('content/legacy/Ärger.jpg')).toBe(true);
+      expect(basenameHasUppercase('content/legacy/ärger.jpg')).toBe(false);
+    });
   });
 
   describe('uppercaseAssets', () => {
