@@ -30,9 +30,14 @@
     gap: 1rem;
     margin-bottom: 1.5rem;
 
+    /* `flex-basis: 0` let a four-card deck squeeze itself into the ~816px
+       article column at ~180px a card, which shredded the card text into one
+       or two words a line. Give each card a real basis so the deck wraps onto
+       a second row instead of crushing its cards, and cap the basis at the
+       deck width so a single narrow card still fits on a phone. */
     > .bs-compat.card {
-      flex: 1 1 0%;
-      min-width: 0;
+      flex: 1 1 16rem;
+      min-width: min(16rem, 100%);
       max-width: none;
     }
   }
