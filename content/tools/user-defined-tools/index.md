@@ -54,6 +54,18 @@ In short: a UDT can do most of what a simple "chain a couple of command-line too
 
 Once the feature is enabled on your Galaxy instance (see below), you can create a UDT from the **Tools** panel in the Galaxy interface, which opens an editor where you write the tool definition and save it. Saved tools appear in your own tool list and can be used in histories and workflows just like any other tool.
 
+## The Custom Tools activity
+
+Once User-Defined Tools are enabled for your account, a **Custom Tools** entry (wrench icon) appears in the Activities panel on the left side of the Galaxy interface. This is where you go both to write new UDTs and to find the ones you've already written.
+
+![The Custom Tools panel, opened from the Activities bar, listing a user's saved UDTs with edit and disable actions on each](/tools/user-defined-tools/custom_tools_screenshot.png)
+
+Clicking **Custom Tools** opens a panel listing every UDT you've created, each with its name, version, description, and when it was last edited. From here you can:
+
+- Click the **+** at the top of the panel to open the editor and write a new tool from scratch.
+- Click the edit (pencil) icon on any listed tool to open it in the editor and revise its definition.
+- Click the disable (circle-slash) icon to disable a tool without deleting it.
+
 ## More examples
 
 The concatenation tool above is about as simple as a UDT gets. The two examples below are closer to what a real analysis step looks like — several inputs, several outputs, and a heavier `shell_command`. Click a summary line to expand the full tool definition.
