@@ -7,12 +7,12 @@ export const subsites = [
   { id: 'eu', name: 'Europe', path: '/eu/' },
   { id: 'au', name: 'Australia', path: '', external: 'https://site.usegalaxy.org.au' },
   { id: 'freiburg', name: 'Freiburg', path: '/freiburg/' },
-  { id: 'erasmusmc', name: 'Erasmus MC', path: '/erasmusmc/' },
   { id: 'belgium', name: 'VIB (Belgium)', path: '/belgium/' },
   { id: 'pasteur', name: 'Pasteur', path: '/pasteur/' },
   { id: 'elixir-it', name: 'ELIXIR-IT', path: '/elixir-it/' },
   { id: 'ifb', name: 'ELIXIR-FR/IFB', path: '/ifb/' },
   { id: 'genouest', name: 'GenOuest', path: '/genouest/' },
+  { id: 'cz', name: 'Czechia', path: '/cz/' },
 ] as const;
 
 export type SubsiteId = (typeof subsites)[number]['id'];
@@ -75,10 +75,6 @@ export const subsiteLabels: Record<string, { title: string; description: string 
     title: 'Galaxy Freiburg',
     description: 'Galaxy resources and news from the University of Freiburg',
   },
-  erasmusmc: {
-    title: 'Galaxy Erasmus MC',
-    description: 'Galaxy resources and news from Erasmus Medical Center',
-  },
   belgium: {
     title: 'Galaxy Belgium (VIB)',
     description: 'Galaxy resources and news from VIB Belgium',
@@ -98,6 +94,10 @@ export const subsiteLabels: Record<string, { title: string; description: string 
   genouest: {
     title: 'Galaxy GenOuest',
     description: 'Galaxy resources and news from the GenOuest bioinformatics platform',
+  },
+  cz: {
+    title: 'Galaxy Czechia',
+    description: 'Galaxy resources, services, and news from the Czech Galaxy Community',
   },
 };
 

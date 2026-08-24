@@ -19,6 +19,7 @@ const externalLinks = datasets.find((d) => d.data.slug === 'projects/esg/externa
 
 // Load ESG news
 const allNews = await getCollection('news');
+// ESG is a project surface, so it intentionally uses narrow project tags rather than subsite-wide matching.
 const esgNews = allNews
   .filter((a) => a.data.subsites?.includes('esg'))
   .sort((a, b) => {
@@ -31,6 +32,7 @@ const esgNews = allNews
 // Load ESG events (upcoming)
 const events = await getCollection('events');
 const now = new Date();
+// EU-tagged events are included here only because they are relevant to this project page.
 const esgEvents = events
   .filter((e) => {
     const subsites = e.data.subsites || [];

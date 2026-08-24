@@ -6,7 +6,7 @@ tease: It seems the whole world is talking about AlphaFold,
   that achieves accuracy comparable with real-life experiments.
 hide_tease: true
 tags: [tools]
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   authorship:

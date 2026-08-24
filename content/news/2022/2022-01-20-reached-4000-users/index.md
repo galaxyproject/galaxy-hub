@@ -6,7 +6,7 @@ tease: We are celebrating that usegalaxy.eu reached 40,000 registered users last
   to more than 41,000 by January 2022.
 hide_tease: true
 tags: [support, society, report]
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   authorship:

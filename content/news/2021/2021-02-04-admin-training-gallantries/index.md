@@ -3,7 +3,7 @@ title: Galaxy Admin Training with the Gallantries
 date: '2021-02-04'
 tags: [training]
 external_url: https://gallantries.github.io/posts/2021/02/01/gat/
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   authorship:

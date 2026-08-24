@@ -434,6 +434,13 @@ function inlineInserts(content, depth = 0, contentDir = CONTENT_DIR) {
     if (resolved.hasComponents) {
       hasComponents = true;
     }
+    // Drop empty inserts entirely. An empty wrapper still counts as an element
+    // child, so it would steal `:first-child` from the real leading content and
+    // stop Tailwind Typography's `.prose > :first-child { margin-top: 0 }` from
+    // applying — leaving a phantom gap at the top of the page.
+    if (resolved.content.trim() === '') {
+      return '';
+    }
     // Wrap in a div with data-name so layout CSS selectors can target inserts
     return `<div class="insert" data-name="${slotName}">\n${resolved.content}\n</div>`;
   });

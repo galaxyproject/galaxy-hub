@@ -1,0 +1,75 @@
+---
+/**
+ * Closed-view recap for a Release Guardians cycle. Rendered once the testing
+ * window's `endDate` has passed: a one-line summary of when validation ran, a
+ * coverage stat (share of in-scope PRs validated), and a tester-recognition
+ * list aggregated from the `guardian` already recorded on each `complete` PR.
+ *
+ * Pure render over the committed snapshot — no new fetch. Recognition covers
+ * only `complete` guardians (who marked a PR validated); PRs without a
+ * guardian are skipped, and an all-empty cycle renders no recognition block.
+ */
+import { loadSnapshot, aggregateGuardians } from './data';
+import { TONES } from './tones';
+import Icon from '../mdx/Icon.astro';
+import { formatDate } from '@/utils/dateUtils';
+
+interface Props {
+  version: string;
+  /** ISO date (YYYY-MM-DD), the testing window's end. */
+  endDate: string;
+}
+const { version, endDate } = Astro.props;
+const data = loadSnapshot(version);
+
+const validated = data?.complete.length ?? 0;
+const attempted = data?.inProgress.length ?? 0;
+const notTested = data?.needsValidation.length ?? 0;
+const total = validated + attempted + notTested;
+const coverage = total > 0 ? Math.round((validated / total) * 100) : 0;
+
+const guardians = data ? aggregateGuardians(data) : [];
+
+const windowLabel = formatDate(endDate, false);
+const detail = `(${validated} validated, ${attempted} attempted, ${notTested} not tested).`;
+---
+
+<div class="not-prose my-6 p-5 rounded-lg border border-galaxy-primary/10 bg-white shadow-sm">
+  <p class="text-lg text-galaxy-dark font-semibold">
+    The Galaxy {version} release was validated through {windowLabel}.
+  </p>
+  {
+    total > 0 && (
+      <p class="text-sm text-chicago-700 mt-1">
+        <span class={`font-bold ${TONES.complete.text}`}>{coverage}%</span> of {total} in-scope PRs validated {detail}
+      </p>
+    )
+  }
+
+  {
+    guardians.length > 0 && (
+      <div class="mt-4">
+        <div class="flex items-center gap-1 text-xs text-chicago-500 uppercase tracking-wide">
+          <Icon name="shield-check" size={14} />
+          Testers
+        </div>
+        <ul class="mt-2 flex flex-wrap gap-3">
+          {guardians.map((g) => (
+            <li class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border bg-light-bg border-ebony-clay-100">
+              <img src={g.avatarUrl} alt="" loading="lazy" width="20" height="20" class="w-5 h-5 rounded-full" />
+              <a
+                href={g.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-sm font-medium text-galaxy-dark hover:text-galaxy-primary"
+              >
+                @{g.login}
+              </a>
+              <span class="text-xs text-chicago-500">validated {g.validatedCount}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )
+  }
+</div>

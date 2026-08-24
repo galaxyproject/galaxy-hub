@@ -3,7 +3,7 @@ title: February Galactic News!
 date: '2021-02-08'
 tags: [newsletter]
 external_url: https://galaxyproject.org/news/2021-02-galaxy-update/
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   authorship:

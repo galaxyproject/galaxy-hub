@@ -2,7 +2,7 @@
 title: 'UseGalaxy.eu Use Case: Genomics, evolution, and ecology of organohalide-respiring bacteria'
 date: '2021-07-02'
 tags: [usecase]
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   authorship:

@@ -3,7 +3,7 @@ title: "GCC2026 Fishbowl Discussion: AI, Galaxy, and Trustworthy Scientific Soft
 date: "2026-07-09"
 tease: "At GCC2026, the Galaxy community came together to ask how AI can support scientific discovery while preserving the trust, transparency, reproducibility, and human-centered values that define Galaxy."
 tags: [gcc, conference, ai]
-subsites: [global]
+subsites: [all]
 main_subsite: global
 ---
 

@@ -94,17 +94,7 @@ Other metabolomics specialized Galaxy servers:
 
 <Carousel />
 
-<iframe 
-    title="Recent Galaxy Europe news"
-    class="js-resize-iframe" src="/bare/eu/latest/news/" scrolling="no"
-    style="width: 50%; border: none; vertical-align: top">
-</iframe>
-
-<iframe 
-    title="Recent Galaxy Europe events"
-    class="js-resize-iframe" src="/bare/eu/latest/events/" scrolling="no"
-    style="width: 50%; border: none; vertical-align: top">
-</iframe>
+<LatestFeeds subsite="eu" />
 
 # Contributors
 

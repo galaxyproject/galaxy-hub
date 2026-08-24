@@ -27,7 +27,7 @@
     "format": "prettier --write 'src/**/*.{js,mjs,ts,vue,astro,css}'",
     "format:check": "prettier --check 'src/**/*.{js,mjs,ts,vue,astro,css}'",
     "normalize": "node src/build/normalize-content.mjs",
-    "content:lint": "node src/build/normalize-content.mjs --all --check && node src/build/check-dir-names.mjs"
+    "content:lint": "node src/build/normalize-content.mjs --all --check && node src/build/check-dir-names.mjs && node src/build/check-filename-case.mjs"
   },
   "dependencies": {
     "@astrojs/markdown-remark": "^7.2.1",

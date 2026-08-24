@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="328" viewBox="0 0 1120 328">
+<rect width="1120" height="328" fill="#ffffff"/>
+<text x="28" y="30" font-size="14.5" font-weight="bold" fill="#1a1c1f" font-family="DejaVu Sans, sans-serif">All 49 public <tspan font-style="italic">Cyclospora cayetanensis</tspan> genome assemblies</text>
+<text x="28" y="47" font-size="10" fill="#5b6470" font-family="DejaVu Sans, sans-serif">one dot per assembly, log scale &#183; red marks the reference genome of three other apicomplexan parasites</text>
+<text x="150" y="74" font-size="11" font-weight="600" fill="#1a1c1f" font-family="DejaVu Sans, sans-serif">Contig N50</text>
+<text x="150" y="88" font-size="9" fill="#5b6470" font-family="DejaVu Sans, sans-serif">half the assembly sits in pieces this long or longer</text>
+<line x1="195.1" y1="96" x2="195.1" y2="148.0" stroke="#e3e6ea" stroke-width="1"/>
+<text x="195.1" y="161.0" font-size="8.5" fill="#5b6470" text-anchor="middle" font-family="DejaVu Sans, sans-serif">10 kb</text>
+<line x1="559.1" y1="96" x2="559.1" y2="148.0" stroke="#e3e6ea" stroke-width="1"/>
+<text x="559.1" y="161.0" font-size="8.5" fill="#5b6470" text-anchor="middle" font-family="DejaVu Sans, sans-serif">100 kb</text>
+<line x1="923.0" y1="96" x2="923.0" y2="148.0" stroke="#e3e6ea" stroke-width="1"/>
+<text x="923.0" y="161.0" font-size="8.5" fill="#5b6470" text-anchor="middle" font-family="DejaVu Sans, sans-serif">1.00 Mb</text>
+<line x1="150" y1="136.0" x2="1080" y2="136.0" stroke="#e3e6ea" stroke-width="1.4"/>
+<line x1="925.3" y1="100.0" x2="925.3" y2="144.0" stroke="#c0392b" stroke-width="1.1" stroke-dasharray="4 3" opacity="0.9"/>
+<text x="920.3" y="96.0" font-size="9" fill="#c0392b" text-anchor="end" font-family="DejaVu Sans, sans-serif"><tspan font-style="italic">C. parvum</tspan> 1.01 Mb</text>
+<line x1="954.4" y1="114.0" x2="954.4" y2="144.0" stroke="#c0392b" stroke-width="1.1" stroke-dasharray="4 3" opacity="0.9"/>
+<text x="949.4" y="110.0" font-size="9" fill="#c0392b" text-anchor="end" font-family="DejaVu Sans, sans-serif"><tspan font-style="italic">T. gondii</tspan> 1.22 Mb</text>
+<line x1="1005.7" y1="128.0" x2="1005.7" y2="144.0" stroke="#c0392b" stroke-width="1.1" stroke-dasharray="4 3" opacity="0.9"/>
+<text x="1000.7" y="124.0" font-size="9" fill="#c0392b" text-anchor="end" font-family="DejaVu Sans, sans-serif"><tspan font-style="italic">P. falciparum</tspan> 1.69 Mb</text>
+<circle cx="820.8" cy="136.0" r="4.2" fill="#b8bec6" fill-opacity="0.75"/>
+<circle cx="658.6" cy="136.0" r="4.2" fill="#b8bec6" fill-opacity="0.75"/>
+<circle cx="632.6" cy="136.0" r="4.2" fill="#b8bec6" fill-opacity="0.75"/>
+<circle cx="626.1" cy="136.0" r="4.2" fill="#b8bec6" fill-opacity="0.75"/>
+<circle cx="623.4" cy="136.0" r="4.2" fill="#b8bec6" fill-opacity="0.75"/>
+<circle cx="621.6" cy="136.0" r="4.2" fill="#b8bec6" fill-opacity="0.75"/>
+<circle cx="620.4" cy="136.0" r="4.2" fill="#b8bec6" fill-opacity="0.75"/>
+<circle cx="587.9" cy="136.0" r="4.2" fill="#b8bec6" fill-opacity="0.75"/>
+<circle cx="586.1" cy="136.0" r="4.2" fill="#b8bec6" fill-opacity="0.75"/>
+<circle cx="583.3" cy="136.0" r="4.2" fill="#b8bec6" fill-opacity="0.75"/>
+<circle cx="569.8" cy="136.0" r="4.2" fill="#b8bec6" fill-opacity="0.75"/>
+<circle cx="563.9" cy="136.0" r="4.2" fill="#b8bec6" fill-opacity="0.75"/>
+<circle cx="553.5" cy="136.0" r="4.2" fill="#b8bec6" fill-opacity="0.75"/>
+<circle cx="537.0" cy="136.0" r="4.2" fill="#b8bec6" fill-opacity="0.75"/>
+<circle cx="523.2" cy="136.0" r="4.2" fill="#b8bec6" fill-opacity="0.75"/>
+<circle cx="429.0" cy="136.0" r="4.2" fill="#b8bec6" fill-opacity="0.75"/>
+<circle cx="419.4" cy="136.0" r="4.2" fill="#b8bec6" fill-opacity="0.75"/>
+<circle cx="306.7" cy="136.0" r="4.2" fill="#b8bec6" fill-opacity="0.75"/>
+<circle cx="754.1" cy="136.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="718.1" cy="136.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="697.9" cy="136.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="694.2" cy="136.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="682.6" cy="136.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="681.0" cy="136.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="662.6" cy="136.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="615.7" cy="136.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="612.1" cy="136.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="583.9" cy="136.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="576.7" cy="136.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="572.1" cy="136.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="566.7" cy="136.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="556.3" cy="136.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="550.3" cy="136.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="543.0" cy="136.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="534.5" cy="136.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="527.0" cy="136.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="526.7" cy="136.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="522.7" cy="136.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="521.2" cy="136.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="505.8" cy="136.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="494.3" cy="136.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="485.0" cy="136.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="483.0" cy="136.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="452.2" cy="136.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="428.6" cy="136.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="408.5" cy="136.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="404.8" cy="136.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="400.0" cy="136.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="224.3" cy="136.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="662.6" cy="136.0" r="7.2" fill="none" stroke="#b8860b" stroke-width="1.8"/>
+<text x="563.9" y="176.0" font-size="9" fill="#1a1c1f" text-anchor="middle" font-family="DejaVu Sans, sans-serif">49 assemblies, median 103 kb</text>
+<text x="150" y="190" font-size="11" font-weight="600" fill="#1a1c1f" font-family="DejaVu Sans, sans-serif">Number of contigs</text>
+<text x="150" y="204" font-size="9" fill="#5b6470" font-family="DejaVu Sans, sans-serif">pieces the genome is broken into</text>
+<line x1="167.1" y1="212" x2="167.1" y2="264.0" stroke="#e3e6ea" stroke-width="1"/>
+<text x="167.1" y="277.0" font-size="8.5" fill="#5b6470" text-anchor="middle" font-family="DejaVu Sans, sans-serif">10</text>
+<line x1="461.3" y1="212" x2="461.3" y2="264.0" stroke="#e3e6ea" stroke-width="1"/>
+<text x="461.3" y="277.0" font-size="8.5" fill="#5b6470" text-anchor="middle" font-family="DejaVu Sans, sans-serif">100</text>
+<line x1="755.6" y1="212" x2="755.6" y2="264.0" stroke="#e3e6ea" stroke-width="1"/>
+<text x="755.6" y="277.0" font-size="8.5" fill="#5b6470" text-anchor="middle" font-family="DejaVu Sans, sans-serif">1,000</text>
+<line x1="1049.9" y1="212" x2="1049.9" y2="264.0" stroke="#e3e6ea" stroke-width="1"/>
+<text x="1049.9" y="277.0" font-size="8.5" fill="#5b6470" text-anchor="middle" font-family="DejaVu Sans, sans-serif">10,000</text>
+<line x1="150" y1="252.0" x2="1080" y2="252.0" stroke="#e3e6ea" stroke-width="1.4"/>
+<line x1="210.1" y1="216.0" x2="210.1" y2="260.0" stroke="#c0392b" stroke-width="1.1" stroke-dasharray="4 3" opacity="0.9"/>
+<text x="215.1" y="212.0" font-size="9" fill="#c0392b" text-anchor="start" font-family="DejaVu Sans, sans-serif"><tspan font-style="italic">P. falciparum</tspan> 14</text>
+<line x1="242.2" y1="230.0" x2="242.2" y2="260.0" stroke="#c0392b" stroke-width="1.1" stroke-dasharray="4 3" opacity="0.9"/>
+<text x="247.2" y="226.0" font-size="9" fill="#c0392b" text-anchor="start" font-family="DejaVu Sans, sans-serif"><tspan font-style="italic">C. parvum</tspan> 18</text>
+<line x1="873.1" y1="216.0" x2="873.1" y2="260.0" stroke="#c0392b" stroke-width="1.1" stroke-dasharray="4 3" opacity="0.9"/>
+<text x="878.1" y="212.0" font-size="9" fill="#c0392b" text-anchor="start" font-family="DejaVu Sans, sans-serif"><tspan font-style="italic">T. gondii</tspan> 2,507</text>
+<circle cx="605.9" cy="252.0" r="4.2" fill="#b8bec6" fill-opacity="0.75"/>
+<circle cx="736.6" cy="252.0" r="4.2" fill="#b8bec6" fill-opacity="0.75"/>
+<circle cx="770.6" cy="252.0" r="4.2" fill="#b8bec6" fill-opacity="0.75"/>
+<circle cx="717.5" cy="252.0" r="4.2" fill="#b8bec6" fill-opacity="0.75"/>
+<circle cx="720.7" cy="252.0" r="4.2" fill="#b8bec6" fill-opacity="0.75"/>
+<circle cx="780.1" cy="252.0" r="4.2" fill="#b8bec6" fill-opacity="0.75"/>
+<circle cx="791.5" cy="252.0" r="4.2" fill="#b8bec6" fill-opacity="0.75"/>
+<circle cx="732.4" cy="252.0" r="4.2" fill="#b8bec6" fill-opacity="0.75"/>
+<circle cx="767.0" cy="252.0" r="4.2" fill="#b8bec6" fill-opacity="0.75"/>
+<circle cx="790.9" cy="252.0" r="4.2" fill="#b8bec6" fill-opacity="0.75"/>
+<circle cx="817.1" cy="252.0" r="4.2" fill="#b8bec6" fill-opacity="0.75"/>
+<circle cx="811.3" cy="252.0" r="4.2" fill="#b8bec6" fill-opacity="0.75"/>
+<circle cx="812.5" cy="252.0" r="4.2" fill="#b8bec6" fill-opacity="0.75"/>
+<circle cx="776.3" cy="252.0" r="4.2" fill="#b8bec6" fill-opacity="0.75"/>
+<circle cx="783.0" cy="252.0" r="4.2" fill="#b8bec6" fill-opacity="0.75"/>
+<circle cx="838.0" cy="252.0" r="4.2" fill="#b8bec6" fill-opacity="0.75"/>
+<circle cx="976.6" cy="252.0" r="4.2" fill="#b8bec6" fill-opacity="0.75"/>
+<circle cx="878.3" cy="252.0" r="4.2" fill="#b8bec6" fill-opacity="0.75"/>
+<circle cx="787.7" cy="252.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="708.0" cy="252.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="717.0" cy="252.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="705.8" cy="252.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="729.8" cy="252.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="1019.9" cy="252.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="716.8" cy="252.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="766.6" cy="252.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="771.8" cy="252.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="789.8" cy="252.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="789.3" cy="252.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="750.5" cy="252.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="793.6" cy="252.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="801.9" cy="252.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="805.6" cy="252.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="797.8" cy="252.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="820.2" cy="252.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="824.8" cy="252.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="819.7" cy="252.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="815.6" cy="252.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="830.7" cy="252.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="819.9" cy="252.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="808.2" cy="252.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="881.4" cy="252.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="823.9" cy="252.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="844.3" cy="252.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="918.4" cy="252.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="886.3" cy="252.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="887.6" cy="252.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="888.8" cy="252.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="902.0" cy="252.0" r="4.2" fill="#2c6fad" fill-opacity="0.75"/>
+<circle cx="716.8" cy="252.0" r="7.2" fill="none" stroke="#b8860b" stroke-width="1.8"/>
+<text x="797.8" y="292.0" font-size="9" fill="#1a1c1f" text-anchor="middle" font-family="DejaVu Sans, sans-serif">49 assemblies, median 1,391</text>
+<circle cx="33" cy="312" r="3.4" fill="#2c6fad"/>
+<text x="44" y="316" font-size="9.5" fill="#5b6470" font-family="DejaVu Sans, sans-serif">in BRC Analytics (31)</text>
+<circle cx="178.7" cy="312" r="3.4" fill="#b8bec6"/>
+<text x="189.7" y="316" font-size="9.5" fill="#5b6470" font-family="DejaVu Sans, sans-serif">NCBI only (18)</text>
+<circle cx="284.5" cy="312" r="5" fill="none" stroke="#b8860b" stroke-width="1.7"/>
+<text x="295.5" y="316" font-size="9.5" fill="#5b6470" font-family="DejaVu Sans, sans-serif">reference genome</text>
+<line x1="396.7" y1="312" x2="407.7" y2="312" stroke="#c0392b" stroke-width="1.4" stroke-dasharray="4 3"/>
+<text x="412.7" y="316" font-size="9.5" fill="#5b6470" font-family="DejaVu Sans, sans-serif">other apicomplexan reference</text>
+</svg>

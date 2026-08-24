@@ -2,7 +2,7 @@
 title: Training Infrastructure Feedback from Beata Scholtz
 date: '2020-02-10'
 tags: [training, tiaas]
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   authorship:

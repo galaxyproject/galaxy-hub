@@ -23,7 +23,7 @@ This means 8,300 jobs per day, 350 jobs per hour, 6 per minute. Or we can rephra
 
 This success would not be possible without the support of [de.NBI](https://www.denbi.de/), [ELIXIR](http://elixir-europe.org/), [EOSC-life](https://www.eosc-portal.eu/eosc-life) and the Freiburg [Faculty of Medicine](http://www.med.uni-freiburg.de).
 
-A big thank you to all our users and to everyone that has contributed to this project! Special thanks to our partner sites [Erasmus MC](/erasmusmc/), [Belgium](/belgium/), [GenOuest](/genouest/), [Pasteur](/pasteur/) and the whole [Galaxy community](/community/).
+A big thank you to all our users and to everyone that has contributed to this project! Special thanks to our partner sites [Belgium](/belgium/), [GenOuest](/genouest/), [Pasteur](/pasteur/) and the whole [Galaxy community](/community/).
 
 As usual, nearly realtime statistics can be found on our
 [stats-server](https://stats.galaxyproject.eu/d/000000012/galaxy-user-statistics).

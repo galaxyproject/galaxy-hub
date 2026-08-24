@@ -8,7 +8,7 @@ contacts:
   name: Freiburg Galaxy Team
 location:
   name: Online
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   funding:
