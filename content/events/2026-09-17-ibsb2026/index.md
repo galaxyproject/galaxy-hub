@@ -18,7 +18,6 @@ subsites: [all]
 autotoc: false
 contributions:
   organisers:
-    - Marc Thilo Figge
     - dianichj
   funding:
     - nfdi4bioimage
@@ -42,3 +41,5 @@ On Thursday, this session introduces FAIR bioimage analysis using Galaxy, a free
 Before attending, participants should create a free account at [usegalaxy.eu](https://usegalaxy.eu/). No software installation is required as all analysis runs in the browser.
 
 Diana Chiang Jurado is a member of the Galaxy [Image Analysis Community](https://galaxyproject.org/community/sig/image-analysis/) (SIG), which supports researchers using Galaxy for bioimage analysis. This community welcomes anyone working with image analysis, whether to contribute tools and expertise, share use cases and needs, or help shape the resources available for the image analysis community going forward!
+
+_**IBSB 2026 is organized by the Applied Systems Biology research group at Leibniz-HKI, Jena. This page covers Image Analysis in Galaxy related talk and workshop session as part of the symposium.**_
