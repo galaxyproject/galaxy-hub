@@ -3,7 +3,7 @@ title: Apply for a GCC2021 Conference Fellowship
 date: '2021-04-15'
 tags: [newsletter]
 external_url: https://galaxyproject.org/news/2021-04-gcc-fellowships
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   authorship:

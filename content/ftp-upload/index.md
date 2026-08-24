@@ -2,7 +2,58 @@
 title: Galaxy FTP Upload
 ---
 
-# File Upload via FTP
+# UseGalaxy.eu FTP Server
+
+> We integrated a new way to upload data into Galaxy based on [tus.io](https://tus.io/). This enables users to upload large amounts of data via the web interface in a more reliable way with resumable file upload support. This also means that the 1 GB limit for uploads via your browser does not exist anymore. Try out the new upload system and [let us know how it goes](mailto:contact@usegalaxy.eu?subject=Tus.io+feedback).
+
+| Server             | Port | Properties                     |
+| ------------------ | ---- | ------------------------------ |
+| `ftp.usegalaxy.eu` | 21   | Secure connections only (TLS). |
+
+## UseGalaxy.eu Credentials
+
+Use **the same email address and password** that you use to log in to [usegalaxy.eu](https://usegalaxy.eu/).
+
+## UseGalaxy.eu Service Policies
+
+Any user data uploaded to our FTP server should be imported into Galaxy as soon as possible. Data left in FTP folders for more than 3 months will be deleted.
+
+## Upload Multiple Files Using FileZilla
+
+This is intended for regular users who want to access the service through a desktop client.
+
+We suggest installing and trying a simple application like [FileZilla](https://filezilla-project.org/download.php?type=client), available for Windows, macOS, and Linux operating systems.
+
+All default settings should work:
+
+- Type in the `ftp.usegalaxy.eu` URL.
+- Type in your email and password, the same credentials used to log into Galaxy at that server.
+- Click the button for quick connect.
+- Review and accept the certificate pop-ups.
+
+Then it is as simple as navigating to the files on your computer on the left side and dragging them over to the server on the right side. The transfer status will be reported in the bottom tabs.
+
+**Don't quit out** of the application or let your computer **sleep** until the full data transfer is completed. Should a connection drop or a partial file transfer occur:
+
+- Click quick connect again.
+- Review and accept server certificate pop-ups, if requested.
+- Click "resume transfer".
+
+## Upload Multiple Files Via curl
+
+This is intended for expert users who want to access the service through a command line.
+
+```bash
+curl -T {"file1,file2"} --user user@name.de --ssl ftp://ftp.usegalaxy.eu
+```
+
+The comma-separated list of files needs to be quoted and must not contain spaces: `{"file1,file2"}`.
+
+## UseGalaxy.eu Troubleshooting
+
+If you are experiencing a **"Connection timed out after 20 seconds of inactivity"** error, try the suggestions shown on this [Galaxy Help thread](https://help.galaxyproject.org/t/error-while-connecting-to-usegalaxy-eu-server/6815).
+
+## Generic Galaxy FTP Upload
 
 Uploading data directly from the browser can be unreliable and cumbersome.
 Because of this some Galaxy instances allow you to upload data via FTP.
@@ -36,9 +87,10 @@ For more help ask at [Galaxy Help](https://help.galaxyproject.org/).
 ## Upload using command line
 
 ### lftp
+
 In this example, `lftp` for MacOS is used.
 
-First, check to see if `lftp` is installed. Type in the command and the prompt will result, as show below, *if installed*. Type `exit` at the prompt to back out of the session.
+First, check to see if `lftp` is installed. Type in the command and the prompt will result, as show below, _if installed_. Type `exit` at the prompt to back out of the session.
 
 ```
 $ lftp
@@ -65,12 +117,11 @@ On some Galaxy servers `FTPS` may or may not be enabled, or the server may only 
 
 ### ftp
 
-General `FTP` command for a Galaxy server *that has `FTP` enabled but not `FTPS`* is below. The `email` (aka `user@email.example`) and `password` is also server specific and the same as when logging in through a browser.
+General `FTP` command for a Galaxy server _that has `FTP` enabled but not `FTPS`_ is below. The `email` (aka `user@email.example`) and `password` is also server specific and the same as when logging in through a browser.
 
 ```
 $ ftp -u user@email.example ftp.usegalaxy.example
 ```
-
 
 ## Import to Galaxy
 

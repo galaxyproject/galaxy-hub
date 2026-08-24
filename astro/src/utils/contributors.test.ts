@@ -3,6 +3,8 @@ import {
   buildGtnHallOfFameUrl,
   extractAuthors,
   extractFunding,
+  getContributor,
+  getCommunityImage,
   getCommunityGithubHandle,
   getGrant,
   getOrganisation,
@@ -49,6 +51,22 @@ describe('community GitHub handles', () => {
   });
 });
 
+describe('community image resolution', () => {
+  it('prefers an explicit avatar over a GitHub fallback', () => {
+    expect(getCommunityImage(getOrganisation('deNBI'))).toBe(
+      'https://training.galaxyproject.org/training-material/shared/images/deNBI.png'
+    );
+  });
+
+  it('falls back to the GitHub avatar when no explicit avatar exists', () => {
+    expect(getCommunityImage(getOrganisation('deKCD'))).toBe('https://github.com/deKCD.png');
+  });
+
+  it('respects github false and returns no image without an avatar', () => {
+    expect(getCommunityImage({ id: 'example', github: false })).toBeUndefined();
+  });
+});
+
 describe('GTN Hall of Fame URLs', () => {
   it('preserves the original community id casing', () => {
     expect(buildGtnHallOfFameUrl('deKCD')).toBe(
@@ -58,6 +76,15 @@ describe('GTN Hall of Fame URLs', () => {
 });
 
 describe('avatar resolution', () => {
+  it('loads contributor metadata from the repo-level YAML files', () => {
+    expect(getContributor('bgruening')).toMatchObject({
+      id: 'bgruening',
+      name: 'Björn Grüning',
+      email: 'bjoern.gruening@gmail.com',
+    });
+    expect(getContributor('bgruening')?.affiliations).toContain('uni-freiburg');
+  });
+
   it('resolves training-material avatar paths to the remote training host', () => {
     expect(getOrganisation('deNBI')?.avatarUrl).toBe(
       'https://training.galaxyproject.org/training-material/shared/images/deNBI.png'

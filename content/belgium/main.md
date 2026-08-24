@@ -2,7 +2,6 @@
 title: The Belgian Galaxy instance
 ---
 
-
 <p class="text-center">
     <a href="https://usegalaxy.be/" rel="noopener" target="_blank"><img class="m-2" width="500px" src="/images/logos/usegalaxy.be.svg" alt="Main useGalaxy.be logo" /></a>
 </p>
@@ -16,11 +15,11 @@ title: The Belgian Galaxy instance
 - 50GB of storage for every registered user (More upon request)
 - Hundreds of reference datasets to be used in your workflow or tool
 - Thousands of tools ready to use
-- [Training Infrastructure as a Service (TIaaS)](https://usegalaxy-eu.github.io/tiaas.html)
+- [Training Infrastructure as a Service (TIaaS)](/eu/tiaas)
 
 ## Contact us
-For questions and general enquiries please fill in our [contact form](https://usegalaxy-be.github.io/request-support).
 
+For questions and general enquiries please fill in our [contact form](https://usegalaxy-be.github.io/request-support).
 
 ## Acknowledgements
 

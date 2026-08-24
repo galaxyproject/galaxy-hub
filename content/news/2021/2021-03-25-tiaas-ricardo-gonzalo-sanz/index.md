@@ -2,7 +2,7 @@
 title: Training Infrastructure Feedback from Dr. Ricardo Gonzalo Sanz
 date: '2021-03-25'
 tags: [training, tiaas]
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   authorship:

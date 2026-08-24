@@ -4,7 +4,7 @@ date: '2021-10-11'
 tease: Ileana Duran Fernandez from the School of Medicine of the Technical University of Munich works on heart disease.
 hide_tease: true
 tags: [usecase]
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   authorship:

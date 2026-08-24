@@ -19,10 +19,14 @@ test.describe('Subsite citations', () => {
     expect(year).toBeTruthy();
     await yearButton.click();
 
-    const visibleYears = await page.$$eval('article', (els) =>
-      els.filter((el) => !el.classList.contains('hidden')).map((el) => el.getAttribute('data-citation-year'))
-    );
-    expect(new Set(visibleYears)).toEqual(new Set([year]));
+    await expect
+      .poll(async () => {
+        const visibleYears = await page.$$eval('article', (els) =>
+          els.filter((el) => !el.classList.contains('hidden')).map((el) => el.getAttribute('data-citation-year'))
+        );
+        return [...new Set(visibleYears)].sort();
+      })
+      .toEqual([year]);
   });
 
   test('us citations show hint when missing', async ({ page }) => {

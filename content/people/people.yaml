@@ -86,8 +86,7 @@ freiburg:
         name: Anup Kumar
         title: Dr.rer.nat., Researcher
         email: kumara@informatik.uni-freiburg.de
-        phone: +49(0) 761 - 203 54127
-        location: "Build.: 106, Room: 02 005"
+        location: "Build.: 79, Room: 1005"
         location_link: "https://maps.app.goo.gl/g33Eivx3JdcBaTSV8"
         bio:
 
@@ -170,6 +169,7 @@ freiburg:
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         matrix: "@engynasr:matrix.org"
         orcid: 0000-0001-9047-4215
+        alumni: true
 
     pavanvidem:
         name: Pavankumar Videm
@@ -301,7 +301,7 @@ freiburg:
         orcid: 0000-0001-7649-2388
         google-scholar: c3RUlDoAAAAJ
         researchgate: Armin-Dadras
-        bio:
+        alumni: true
 
     Deeptivarshney:
         name: Deepti Varshney
@@ -326,56 +326,17 @@ freiburg:
         orcid: 0009-0000-5458-1144
         galaxyadmin: true
 
-
-erasmusmc:
-    andrew-emc:
-        name: Andrew Stubbs
-        title: Assistant Professor
-        email: a.stubbs@erasmusmc.nl
-        phone: +31(0) 10 70 44776
-        location: Ee-1579a
-    yl-emc:
-        name: Yunlei Li
-        title: Assistant Professor
-        email: y.li.1@erasmusmc.nl
-    shiltemann:
-        name: Saskia Hiltemann
-        title: Researcher
-        email: saskia.hiltemann@gmail.com
-        phone: +31(0) 10 70 43235
-        location: Ee-1579
-        matrix: "@shiltemann:matrix.org"
-        mastodon: "mstdn.science/@shiltemann"
-        linkedin: shiltemann
-        orcid: 0000-0003-3803-468X
-        galaxyadmin: true
-
-    yhoogstrate:
-        name: Youri Hoogstrate
-        title: Researcher
-        email: y.hoogstrate@erasmusmc.nl
-        phone: +31(0) 10 70 43235
-        location: Ee-1579
-        alumni: true
-
-    davidvanzessen:
-        name: David van Zessen
-        title: Developer
-        email: d.vanzessen@erasmusmc.nl
-        phone: +31(0) 10 70 44551
-        location: Ee-1579
-    rjansen1984:
-        name: Rick Jansen
-        title: Developer
-        email: r.jansen.1@erasmusmc.nl
-        phone: +31(0) 10 70 32460
-        location: Ee-1579
-    shorsman:
-        name: Bas Horsman
-        title: Developer
-        email: s.horsman@erasmusmc.nl
-        phone: +31(0) 70 32460
-        location: Ee-1579
+    IvoLeist:
+        name: Ivo Christopher Leist
+        title: Ph.D., Researcher
+        email: leist@informatik.uni-freiburg.de
+        location: "Build.: 079, Room: -1005"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@ivo-leist:matrix.org"
+        orcid: 0000-0002-9772-443X
+        twitter: IvoLeist
+        linkedin: ivo-leist
+        bio: Doing now what (life) scientists need next. 
 
 genouest:
     OlivierCollin:
@@ -757,7 +718,7 @@ cz:
           I'm software engineer with specialisation in compiler design and fundaments of computer science. 
           I work in [CESNET](https://www.cesnet.cz/en) located in Brno, Czech Republic.
 
-    demon:
+    martindemko:
         name: Martin Demko
         title: |
             Dr. rer. nat., Ph.D. in Computer Science &

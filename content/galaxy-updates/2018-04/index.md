@@ -314,7 +314,7 @@ The Galaxy is expanding! Please help it grow.
 * [PhD position](https://www.mol-med.uni-freiburg.de/mom-en/schilling/PhD2018.pdf ): Proteome Biology of Solid Tumors: Targeted, Spatially Resolved & Explorative Approaches, University of Freiburg, Germany
 * [Ingenieur Bioinformatique Evolutive](https://www.sfbi.fr/content/ingenieur-bioinformatique-evolutive-1) [LIRMM](http://www.lirmm.fr/), Montpellier, France
 * [Post-Doc / IR analyse de données miRNA](https://www.sfbi.fr/content/post-doc-ir-analyse-de-donn%C3%A9es-mirna), Unité de Nutrition Humaine, Clermont-Fd, France
-* [Freiburg Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2018/01/18/openpositions/), Freiburg, Germany
+* [Freiburg Galaxy Team has open positions](/news/2018-01-18-openpositions/), Freiburg, Germany
 * [Development of innovative algorithms to process real-time mass spectrometry data for the clinical analysis of exhaled breath](https://www.sfbi.fr/content/d%C3%A9veloppement-doutils-bioinformatiques-et-statistiques-pour-lanalyse-de-lair-expir%C3%A9-en-m%C3%A9dec), CEA, Saclay, France
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/news/2017-08-hiring-at-hopkins/), Baltimore, Maryland, United States

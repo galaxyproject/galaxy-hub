@@ -12,14 +12,7 @@ components: true
 
 <br/>
 
-<iframe title="Recent Galaxy France news" height="450"
- class="resize-y" src="/bare/fr/latest/news/" scrolling="no"
- style="width: 50%; border: none; vertical-align: top">
-</iframe>
-<iframe title="Recent Galaxy France events" height="450"
- class="resize-y" src="/bare/fr/latest/events/" scrolling="no"
- style="width: 50%; border: none; vertical-align: top">
-</iframe>
+<LatestFeeds subsite="fr" />
 
 <p></p>
 <slot name="/ifb/main1" />

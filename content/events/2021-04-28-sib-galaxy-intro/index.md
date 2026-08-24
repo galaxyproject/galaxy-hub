@@ -5,7 +5,7 @@ end: '2021-04-28'
 location:
   name: SIB Training, Lausanne, Switzerland
 external_url: https://www.sib.swiss/component/courses/661?view=courses_item
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 ---
 

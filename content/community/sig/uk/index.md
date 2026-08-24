@@ -18,7 +18,7 @@ We are a mix of users, developers, admins and trainers living in the United King
 
 ## ⚙️ How do we work?
 
-- 📅 **Virtual meetings**: To be decided, likely every 2 months.
+- 📅 **Virtual meetings**: Inaugural meeting Monday 11th May 2026 16:00-17:00 BST | [Agenda, meeting link and minutes](https://docs.google.com/document/d/1P1m839rKVvYuYMkYjd5AsK6XC-wn0sg5LSunbTMNBBM/edit?usp=sharing)
 - 💬 **Matrix Channel**: [galaxyproject/uk](https://matrix.to/#/#galaxyproject_uk:matrix.org)
 
 ## 👥 Leads and Contact

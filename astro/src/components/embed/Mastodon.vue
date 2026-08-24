@@ -25,8 +25,8 @@ const embedUrl = computed(() => {
 
 <template>
   <div class="mastodon-embed my-4">
-    <div v-if="!isValidUrl" class="p-4 bg-gray-100 rounded-lg text-center">
-      <p class="text-gray-600">Unable to load Mastodon post</p>
+    <div v-if="!isValidUrl" class="p-4 bg-ebony-clay-50 rounded-lg text-center">
+      <p class="text-chicago-600">Unable to load Mastodon post</p>
       <a :href="url" target="_blank" rel="noopener noreferrer" class="text-purple-600 hover:underline">
         View on Mastodon
       </a>
