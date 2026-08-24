@@ -49,7 +49,7 @@ title: Galaxy Ecology
 
 # Welcome to **Galaxy for Ecology** -- a web platform to get, process, analyze and visualize biodiversity data
 
-<center><img src="/assets/media/usegalaxy/ecology/infographie_PNDB.png" style="max-width:95%; height:auto;" alt="PNDB french Biodiversity e-infrastructure"/></center>
+<center><img src="/assets/media/usegalaxy/ecology/infographie_pndb.png" style="max-width:95%; height:auto;" alt="PNDB french Biodiversity e-infrastructure"/></center>
 <br /><br />
 
 <div style="display:flex; gap:1rem; flex-wrap:wrap; justify-content:center; align-items:stretch;">
@@ -320,7 +320,7 @@ title: Galaxy Ecology
                 <span class="badge" style="background-color:#2f8e83; color:white; font-size:0.95rem; padding:0.4em 0.6em;margin-top:0.5em;">Genetic composition</span>
             </div>
             <a href="https://www.biodiversa.eu/2024/04/15/ginamo/" target="_blank">
-                <center><img src="/assets/media/usegalaxy/ecology/GINAMO.webp" style="width: 200px; height:auto;margin-top:1rem;" /></center>
+                <center><img src="/assets/media/usegalaxy/ecology/ginamo.webp" style="width: 200px; height:auto;margin-top:1rem;" /></center>
             </a>
             <div style="margin-top: 1rem;">
                 <p class="card-text" style="font-weight: bold;">WORKFLOWS</p>
