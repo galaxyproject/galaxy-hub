@@ -22,9 +22,9 @@ Now use SameStr in Galaxy to detect shared microbial strains across your metagen
 
 Please follow these steps for application:
 
-a) Pre-process your metagenomic reads with KneadData and align them to species-specific marker genes with MetaPhlAn, both already available in Galaxy.
-b) Run the SameStr tools on the resulting alignments and taxonomic profiles, either tool by tool or as the complete workflow.
-c) Inspect the taxon count, co-occurrence, and strain events tables produced by SameStr Summarize to see which clades are shared between samples, and which of those are confirmed as the same strain rather than just the same species.
+- a) Pre-process your metagenomic reads with KneadData and align them to species-specific marker genes with MetaPhlAn, both already available in Galaxy.
+- b) Run the SameStr tools on the resulting alignments and taxonomic profiles, either tool by tool or as the complete workflow.
+- c) Inspect the taxon count, co-occurrence, and strain events tables produced by SameStr Summarize to see which clades are shared between samples, and which of those are confirmed as the same strain rather than just the same species.
 
 ## More details
 
