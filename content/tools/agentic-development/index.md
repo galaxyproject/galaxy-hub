@@ -70,20 +70,35 @@ need one registration step. In the next section, you will ask the agent to perfo
 
 ## Let the agent set itself up
 
-Before the MCP server is registered your agent cannot reach Galaxy — but it can still use
+<div class="callout">
+<strong>Using Orbit? Skip this section.</strong> Orbit has a settings screen for exactly
+this. Open Preferences (<code>Cmd/Ctrl+,</code>), enter your Galaxy server URL and API key
+in the <strong>Galaxy</strong> section, and click Save. Orbit stores the key in your
+operating system's keychain and registers the Galaxy MCP server itself — nothing to
+install, no configuration file to write, and no environment variable to export. The footer
+indicator turns green when the connection is confirmed. Carry on at
+<a href="#prototype-a-tool-by-describing-it">Prototype a tool by describing it</a>.
+<br><br>
+Orbit also has its own safeguard in place of the read-only mode described below: it drafts
+a plan in the chat and waits for your approval, then shows you every tool parameter and
+waits again, before anything runs in Galaxy.
+</div>
+
+The rest of this section is for the terminal agents — Claude Code, Codex CLI, Gemini CLI.
+Before the MCP server is registered your agent cannot reach Galaxy, but it can still use
 its shell, which is all the setup needs. So ask it.
 
-First, put your key in your environment rather than in the conversation:
+First, put your key in your shell environment:
 
 ```bash
 export GALAXY_API_KEY=your-key-here
 ```
 
 <div class="callout">
-<strong>Do not paste your API key into the chat.</strong> Anything you type to the agent
-goes to your model provider and stays in the transcript for the rest of the session. Export
-it in your own shell as above and tell the agent to reference the <em>variable</em>, never
-the value.
+<strong>Do not paste your API key into the chat.</strong> Anything you type to a terminal
+agent goes to your model provider and stays in the transcript for the rest of the session.
+Export it in your own shell as above and tell the agent to reference the
+<em>variable</em>, never the value.
 </div>
 
 Then give the agent this:
