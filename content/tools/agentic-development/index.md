@@ -78,7 +78,7 @@ operating system's keychain and registers the Galaxy MCP server itself — nothi
 install, no configuration file to write, and no environment variable to export. The footer
 indicator turns green when the connection is confirmed. Carry on at
 <a href="#prototype-a-tool-by-describing-it">Prototype a tool by describing it</a>.
-<br><br>
+<br /><br />
 Orbit also has its own safeguard in place of the read-only mode described below: it drafts
 a plan in the chat and waits for your approval, then shows you every tool parameter and
 waits again, before anything runs in Galaxy.
