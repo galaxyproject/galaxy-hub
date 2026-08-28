@@ -29,6 +29,7 @@ const PUBLIC_IMAGES_DIR = path.join(ASTRO_ROOT, 'public/images');
 const PUBLIC_ASSETS_DIR = path.join(ASTRO_ROOT, 'public/assets');
 const PUBLIC_MEDIA_DIR = path.join(ASTRO_ROOT, 'public/media');
 const NAVBAR_DEST_DIR = path.join(ASTRO_CONTENT_DIR, 'navbars');
+const DID_YOU_KNOW_DEST_DIR = path.join(ASTRO_CONTENT_DIR, 'did-you-know');
 
 /**
  * Shared glob ignore patterns for content file discovery.
@@ -623,6 +624,27 @@ async function processNavbar(filePath) {
 }
 
 /**
+ * Process "Did you know" item YAML files from content/did-you-know/**.
+ * Files are copied verbatim (preserving relative path) into src/content/did-you-know/.
+ */
+async function processDidYouKnow(filePath) {
+  const relativePath = path.relative(CONTENT_DIR, filePath);
+  const relativeWithin = relativePath.replace(/^did-you-know\//, '');
+  const destPath = path.join(DID_YOU_KNOW_DEST_DIR, relativeWithin);
+
+  await fs.promises.mkdir(path.dirname(destPath), { recursive: true });
+  await fs.promises.copyFile(filePath, destPath);
+
+  return { source: filePath, destination: destPath, collection: 'did-you-know' };
+}
+
+/** True when a content file lives under the did-you-know/ directory. */
+function isDidYouKnowFile(filePath) {
+  const relativePath = path.relative(CONTENT_DIR, filePath).replace(/\\/g, '/');
+  return relativePath.startsWith('did-you-know/');
+}
+
+/**
  * Process items in batches to avoid file table overflow
  */
 async function processBatch(items, processFn, batchSize = 50) {
@@ -686,10 +708,19 @@ export async function preprocessContent(options = {}) {
 
   // Only process YAML files that are true datasets, not platform-specific ones
   // Platform-specific files (in use/*/) would overwrite each other since they have same basenames
-  const yamlFiles = await glob('**/*.{yml,yaml}', {
+  // Exclude did-you-know/** — those are handled by a dedicated collection below.
+  const yamlFiles = (
+    await glob('**/*.{yml,yaml}', {
+      cwd: CONTENT_DIR,
+      absolute: true,
+      ignore: CONTENT_IGNORE,
+    })
+  ).filter((file) => !isDidYouKnowFile(file));
+
+  const didYouKnowFiles = await glob('did-you-know/**/*.{yml,yaml}', {
     cwd: CONTENT_DIR,
     absolute: true,
-    ignore: CONTENT_IGNORE,
+    ignore: ['**/node_modules/**'],
   });
 
   const navbarFiles = await glob('**/navbar.{yml,yaml}', {
@@ -703,6 +734,7 @@ export async function preprocessContent(options = {}) {
   console.log(`Found ${markdownFiles.length} markdown files`);
   console.log(`Found ${nonNavbarYamlFiles.length} YAML files`);
   console.log(`Found ${navbarFiles.length} navbar files`);
+  console.log(`Found ${didYouKnowFiles.length} did-you-know files`);
   console.log('');
 
   // Process markdown files in batches
@@ -720,8 +752,11 @@ export async function preprocessContent(options = {}) {
   console.log('Processing navbar files...');
   const { results: navbarResults, errors: navbarErrors } = await processBatch(navbarFiles, processNavbar, 50);
 
-  const results = [...mdResults, ...yamlResults, ...navbarResults];
-  const errors = mdErrors + yamlErrors + navbarErrors;
+  console.log('Processing did-you-know files...');
+  const { results: dykResults, errors: dykErrors } = await processBatch(didYouKnowFiles, processDidYouKnow, 50);
+
+  const results = [...mdResults, ...yamlResults, ...navbarResults, ...dykResults];
+  const errors = mdErrors + yamlErrors + navbarErrors + dykErrors;
 
   // Check for duplicate slugs within the same collection (skip datasets — they use filenames, not slugs)
   const slugMap = new Map();
@@ -955,6 +990,8 @@ async function watchContent() {
         }
       } else if (path.basename(fullPath) === 'navbar.yml' || path.basename(fullPath) === 'navbar.yaml') {
         await processNavbar(fullPath);
+      } else if (isDidYouKnowFile(fullPath)) {
+        await processDidYouKnow(fullPath);
       } else {
         await processDataset(fullPath);
       }
@@ -998,6 +1035,13 @@ async function watchContent() {
         const relativeDir = path.dirname(relativePath);
         const navName = relativeDir === '.' ? 'global' : relativeDir;
         const dest = path.join(NAVBAR_DEST_DIR, navName, path.basename(fullPath));
+        await fs.promises.rm(dest, { force: true });
+      } else if (isDidYouKnowFile(fullPath)) {
+        const relativeWithin = path
+          .relative(CONTENT_DIR, fullPath)
+          .replace(/\\/g, '/')
+          .replace(/^did-you-know\//, '');
+        const dest = path.join(DID_YOU_KNOW_DEST_DIR, relativeWithin);
         await fs.promises.rm(dest, { force: true });
       } else {
         const dest = path.join(ASTRO_CONTENT_DIR, 'datasets', path.basename(fullPath));

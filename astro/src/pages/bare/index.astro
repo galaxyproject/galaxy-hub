@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BareArticleLayout from '../../layouts/BareArticleLayout.astro';
+import { subsites } from '../../stores/subsiteStore';
 
 /**
  * Trim leading and trailing slashes from a path-like string.
@@ -31,7 +32,37 @@ function routeFromStaticPageFile(filePath: string): string | null {
   }
 
   const segments = withoutExtension.split('/');
-  if (segments.some((segment) => segment.includes('['))) {
+  const isDynamic = segments.some((segment) => segment.includes('['));
+
+  const withoutIndexSuffix = withoutExtension.endsWith('/index')
+    ? withoutExtension.slice(0, -'/index'.length)
+    : withoutExtension;
+
+  if (!withoutIndexSuffix) {
+    return null;
+  }
+
+  if (isDynamic) {
+    return null;
+  }
+
+  return normalizeRoute(`bare/${withoutIndexSuffix}`);
+}
+
+/**
+ * Expand a dynamic page file (containing [subsite]) into concrete routes, one
+ * per non-external subsite. Returns null for non-dynamic files.
+ */
+function routesFromDynamicPageFile(filePath: string): string[] | null {
+  const normalized = filePath.replace(/^\.\//, '');
+  const withoutExtension = normalized.replace(/\.(astro|md|mdx)$/, '');
+
+  if (!withoutExtension || withoutExtension === 'index') {
+    return null;
+  }
+
+  const segments = withoutExtension.split('/');
+  if (!segments.some((segment) => segment.includes('['))) {
     return null;
   }
 
@@ -43,7 +74,24 @@ function routeFromStaticPageFile(filePath: string): string | null {
     return null;
   }
 
-  return normalizeRoute(`bare/${withoutIndexSuffix}`);
+  const routeSegments = withoutIndexSuffix.split('/');
+  const subsiteIds = subsites.filter((s) => s.id !== 'global' && !('external' in s)).map((s) => s.id);
+
+  const expanded: string[] = [];
+  for (const segment of routeSegments) {
+    const paramMatch = segment.match(/^\[(\w+)\]$/);
+    if (paramMatch) {
+      if (paramMatch[1] === 'subsite') {
+        expanded.push(...subsiteIds);
+      }
+      continue;
+    }
+    for (let i = 0; i < (expanded.length || 1); i++) {
+      expanded[i] = (expanded[i] ? expanded[i] + '/' : '') + segment;
+    }
+  }
+
+  return expanded.map((p) => normalizeRoute(`bare/${p}`));
 }
 
 /** Convert a content slug into a `/bare/.../` route, or null for empty values. */
@@ -62,10 +110,20 @@ function routeFromBareSlug(slug: string): string | null {
 }
 
 const staticPageModules = import.meta.glob('./**/*.{astro,md,mdx}');
-const staticRoutes = Object.keys(staticPageModules)
-  .map(routeFromStaticPageFile)
-  .filter((route): route is string => Boolean(route))
-  .filter((route) => !routeHasIndexPrefix(route));
+
+const staticRoutes: string[] = [];
+const dynamicRoutesFromStatic: string[] = [];
+for (const filePath of Object.keys(staticPageModules)) {
+  const dynamic = routesFromDynamicPageFile(filePath);
+  if (dynamic) {
+    dynamicRoutesFromStatic.push(...dynamic);
+  } else {
+    const route = routeFromStaticPageFile(filePath);
+    if (route && !routeHasIndexPrefix(route)) {
+      staticRoutes.push(route);
+    }
+  }
+}
 
 const bareArticles = await getCollection('bare-articles');
 const dynamicRoutes = bareArticles
@@ -73,8 +131,8 @@ const dynamicRoutes = bareArticles
   .filter((route): route is string => Boolean(route))
   .filter((route) => !routeHasIndexPrefix(route));
 
-const routes: string[] = Array.from(new Set([...staticRoutes, ...dynamicRoutes])).sort((a, b) =>
-  a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' })
+const routes: string[] = Array.from(new Set([...staticRoutes, ...dynamicRoutesFromStatic, ...dynamicRoutes])).sort(
+  (a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' })
 );
 ---
 

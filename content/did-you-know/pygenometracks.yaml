@@ -1,0 +1,18 @@
+title: pyGenomeTracks in Galaxy
+tease: Plot entire genomes in a publication-ready way, right inside Galaxy.
+body: |
+  **pyGenomeTracks** lets you stack BED, bigWig, and Hi-C tracks into a single
+  publication-ready figure. You can run it on any Galaxy instance with no local
+  install, and tweak track order, colors, and scales interactively before
+  exporting a high-resolution image.
+subsites: [all]
+date: "2026-08-28"
+weight: 40
+images:
+  - url: https://raw.githubusercontent.com/deeptools/pyGenomeTracks/f25fcf1a48bb16a0afbd1cb95e9c5fed99d27fc7/examples/epilogos_track2.png
+    alt: Epilogos track showing chromatin state annotations across a genomic region
+  - url: https://raw.githubusercontent.com/deeptools/pyGenomeTracks/b8918d43b0bd1ca9dd2939fdd0d93a5a297d0453/docs/content/images/hic_example_nat_comm_small.png
+    alt: Published Hi-C example figure combining multiple genome tracks
+links:
+  - url: https://github.com/deeptools/pyGenomeTracks
+    text: pyGenomeTracks documentation
