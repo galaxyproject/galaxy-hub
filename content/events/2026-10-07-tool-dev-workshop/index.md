@@ -20,6 +20,7 @@ contributions:
   organisers:
     - intergalacticutilitiescommissioniuc
     - freiburggalaxyteam
+    - nfdi4bioimage
   funding:
     - deNBI
 ---
