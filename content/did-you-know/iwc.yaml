@@ -13,7 +13,7 @@ images:
   - url: https://raw.githubusercontent.com/galaxyproject/iwc/main/website/public/iwc_logo.png
     alt: Logo of the Intergalactic Workflow Commission
   - url: https://raw.githubusercontent.com/galaxyproject/iwc/main/workflows/transcriptomics/rnaseq-pe/rnaseq-pe-diagram.svg
-    alt: Diagram of the IWC paired-end RNA-seq differential expression workflow
+    alt: Diagram of the IWC paired-end RNA-seq analysis workflow
 links:
   - url: https://iwc.galaxyproject.org/
     text: Browse the workflow catalog
