@@ -13,6 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     if: github.repository_owner == 'galaxyproject'
     strategy:
+      fail-fast: false
       matrix:
         include:
           - id: eu
@@ -23,7 +24,7 @@ jobs:
           - id: us
             label: US
             server: https://usegalaxy.org
-            name: 'US Galaxy'
+            name: 'Galaxy US'
             output: content/us/tools/index.md
     steps:
       - name: Checkout
@@ -45,7 +46,7 @@ jobs:
         run: pip install requests
 
       - name: Run update script
-        run: python scripts/update-tools.py --server ${{ matrix.server }} --name "${{ matrix.name }}" --output ${{ matrix.output }}
+        run: python scripts/update-tools.py --server "${{ matrix.server }}" --name "${{ matrix.name }}" --output "${{ matrix.output }}"
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v8
