@@ -1,7 +1,7 @@
 ---
 # THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
-# To update, run: python3 scripts/update-tools.py --server https://usegalaxy.org --name "US Galaxy" --output content/us/tools/index.md
-title: US Galaxy Tools
+# To update, run: python3 scripts/update-tools.py --server https://usegalaxy.org --name "Galaxy US" --output content/us/tools/index.md
+title: Galaxy US Tools
 description: "2350 tools and counting"
 ---
 
