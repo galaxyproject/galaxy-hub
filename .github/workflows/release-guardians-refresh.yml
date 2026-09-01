@@ -4,7 +4,7 @@
 # the testing label, and rewrites the matching event file in content/events/
 # plus the per-cycle snapshot under astro/src/data/release-guardians/.
 # If anything changed, opens (or updates) a PR — matching the pattern used by
-# update-eu-tools, update-eu-citations, sync-training-material-metadata, etc.
+# update-tools, update-eu-citations, sync-training-material-metadata, etc.
 
 name: Release Guardians refresh
 
