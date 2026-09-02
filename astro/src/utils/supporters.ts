@@ -1,4 +1,4 @@
-import { getGrant, getOrganisation } from './contributors';
+import { getCommunityImage, getGrant, getOrganisation } from './contributors';
 import { communitySlug as baseCommunitySlug, toArray as baseToArray } from './community-base.mjs';
 
 export type SupporterProfile = {
@@ -30,7 +30,7 @@ export async function resolveSupporters(value: unknown): Promise<SupporterProfil
       resolved.push({
         slug,
         name: org.short_name || org.name || org.id,
-        image: org.avatarUrl,
+        image: getCommunityImage(org),
         url: org.url,
       });
       continue;
@@ -44,7 +44,7 @@ export async function resolveSupporters(value: unknown): Promise<SupporterProfil
       resolved.push({
         slug,
         name: grant.short_name || grant.name || grant.id,
-        image: grant.avatarUrl,
+        image: getCommunityImage(grant),
         url: grant.url,
       });
       continue;

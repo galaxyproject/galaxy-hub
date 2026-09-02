@@ -5,6 +5,10 @@ import { getSubsiteStaticPaths, subsiteLabels } from '../../stores/subsiteStore'
 import { getUpcomingEvents, getPublishedNews, getInsert } from '../../utils/content';
 import { render } from 'astro:content';
 import * as mdxComponents from '../../components/mdx/index.ts';
+import EuIntro from '../../components/mdx/EuIntro.astro';
+import EuSiteFooter from '../../components/mdx/EuSiteFooter.astro';
+import CzSiteFooter from '../../components/mdx/CzSiteFooter.astro';
+import CzIntro from '../../components/mdx/CzIntro.astro';
 
 export const getStaticPaths = getSubsiteStaticPaths;
 
@@ -20,6 +24,14 @@ const { title, description } = subsiteLabels[subsite] || {
   title: `Galaxy ${subsiteInfo.name}`,
   description: `Galaxy resources and news for ${subsiteInfo.name}`,
 };
+
+// Subsites with a dedicated intro component replace their 'lead' insert.
+const introComponents: Record<string, any> = {
+  eu: EuIntro,
+  cz: CzIntro,
+};
+const hasIntroComponent = subsite in introComponents;
+const IntroComponent = introComponents[subsite];
 
 // Conventional insert filenames used across subsite homepages, in display order.
 // Each subsite uses a subset; missing ones are silently skipped.
@@ -46,6 +58,13 @@ const footerEntries = (await Promise.all(FOOTER_INSERTS.map((name) => getInsert(
 
 const renderedBody = await Promise.all(bodyEntries.map((ins) => render(ins)));
 const renderedFooter = await Promise.all(footerEntries.map((ins) => render(ins)));
+const renderedMarkdownBody = renderedBody.filter(
+  (_, index) => !(hasIntroComponent && bodyEntries[index]?.data.slug === `${subsite}/lead`)
+);
+const hasEuSiteFooter = subsite === 'eu' && footerEntries.some((entry) => entry.data.slug === 'eu/site-footer');
+const renderedMarkdownFooter = renderedFooter.filter(
+  (_, index) => !(subsite === 'eu' && footerEntries[index]?.data.slug === 'eu/site-footer')
+);
 ---
 
 <BaseLayout title={title} description={description}>
@@ -57,7 +76,10 @@ const renderedFooter = await Promise.all(footerEntries.map((ins) => render(ins))
     {subsiteNews}
     hasMainContent={renderedBody.length > 0}
   >
-    {renderedBody.map(({ Content }) => <Content slot="main-content" components={mdxComponents} />)}
-    {renderedFooter.map(({ Content }) => <Content slot="footer-content" components={mdxComponents} />)}
+    {hasIntroComponent && <IntroComponent slot="main-content" />}
+    {renderedMarkdownBody.map(({ Content }) => <Content slot="main-content" components={mdxComponents} />)}
+    {hasEuSiteFooter && <EuSiteFooter slot="footer-content" />}
+    {subsite === 'cz' && <CzSiteFooter slot="footer-content" />}
+    {renderedMarkdownFooter.map(({ Content }) => <Content slot="footer-content" components={mdxComponents} />)}
   </SubsiteOverview>
 </BaseLayout>

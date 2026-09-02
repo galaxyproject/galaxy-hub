@@ -16,7 +16,7 @@ external_url: https://training.galaxyproject.org/training-material/news/2025/08/
 tease: Gel Electrophoresis is a staple of molecular biology, providing a way to separate DNA, RNA, or proteins by size and charge
 contributions:
   authorship:
-    - reytakop
+    - reyhaneh-tavakoli
     - dianichj
 ---
 Gel Electrophoresis is a staple of molecular biology, providing a way to separate DNA, RNA, or proteins by size and charge. While gels are usually interpreted visually, the ability to quantify band intensities offers much richer insights—allowing researchers to estimate product yields, verify PCR amplification, or assess protein purity.

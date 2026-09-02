@@ -22,6 +22,7 @@ interface Props {
   autotoc?: boolean;
   headings?: Heading[];
   image?: string;
+  eyebrow?: string | { label: string; href?: string };
   backLink?: {
     href: string;
     label: string;
@@ -38,6 +39,7 @@ const {
   authors: authorsRaw = [],
   tags: tagsRaw = [],
   image,
+  eyebrow,
   backLink,
   autotoc = true,
   headings = [],
@@ -62,7 +64,7 @@ const hasMetadata =
   <article class="max-w-6xl mx-auto bg-white relative">
     {
       hasMetadata && (
-        <PageHeader title={title} description={description} date={date} authors={authors} tags={tags}>
+        <PageHeader title={title} description={description} eyebrow={eyebrow} date={date} authors={authors} tags={tags}>
           {fairSection && <FairSectionHero sectionSlug={fairSection} />}
         </PageHeader>
       )
@@ -91,7 +93,7 @@ const hasMetadata =
       }
       {
         (backLink || editUrl) && (
-          <div class="flex justify-between items-center pt-4 border-t border-gray-200">
+          <div class="article-footer-actions flex justify-between items-center pt-4 border-t border-ebony-clay-100">
             {backLink ? (
               <a
                 href={backLink.href}
@@ -108,7 +110,7 @@ const hasMetadata =
                 href={editUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                class="text-gray-500 hover:text-galaxy-primary flex items-center gap-1.5 transition-colors"
+                class="text-chicago-500 hover:text-galaxy-primary flex items-center gap-1.5 transition-colors"
               >
                 <Icon name="edit" />
                 Edit on GitHub
@@ -125,7 +127,7 @@ const hasMetadata =
   /* Custom prose styles for Galaxy branding */
   .prose-galaxy {
     --tw-prose-links: #25537b;
-    --tw-prose-headings: #1f2937;
+    --tw-prose-headings: #2c3143;
   }
 
   .prose-galaxy :where(a):not(:where([class~='not-prose'] *)) {

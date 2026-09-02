@@ -40,9 +40,9 @@ watch(() => props.url || props.src, loadContent);
 
 <template>
   <div class="markdown-embed my-4">
-    <div v-if="loading" class="p-4 bg-gray-50 rounded animate-pulse">
-      <div class="h-4 bg-gray-200 rounded w-3/4 mb-2"></div>
-      <div class="h-4 bg-gray-200 rounded w-1/2"></div>
+    <div v-if="loading" class="p-4 bg-ebony-clay-50 rounded animate-pulse">
+      <div class="h-4 bg-ebony-clay-100 rounded w-3/4 mb-2"></div>
+      <div class="h-4 bg-ebony-clay-100 rounded w-1/2"></div>
     </div>
     <div v-else-if="error" class="p-4 bg-red-50 text-red-700 rounded-lg">
       <p class="font-medium">Failed to load embedded content</p>

@@ -4,6 +4,7 @@ import {
   extractAuthors,
   extractFunding,
   getContributor,
+  getCommunityImage,
   getCommunityGithubHandle,
   getGrant,
   getOrganisation,
@@ -47,6 +48,22 @@ describe('community GitHub handles', () => {
 
   it('honors github false as an opt-out', () => {
     expect(getCommunityGithubHandle({ id: 'deKCD', github: false })).toBeUndefined();
+  });
+});
+
+describe('community image resolution', () => {
+  it('prefers an explicit avatar over a GitHub fallback', () => {
+    expect(getCommunityImage(getOrganisation('deNBI'))).toBe(
+      'https://training.galaxyproject.org/training-material/shared/images/deNBI.png'
+    );
+  });
+
+  it('falls back to the GitHub avatar when no explicit avatar exists', () => {
+    expect(getCommunityImage(getOrganisation('deKCD'))).toBe('https://github.com/deKCD.png');
+  });
+
+  it('respects github false and returns no image without an avatar', () => {
+    expect(getCommunityImage({ id: 'example', github: false })).toBeUndefined();
   });
 });
 

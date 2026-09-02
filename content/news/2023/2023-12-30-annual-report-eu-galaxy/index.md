@@ -35,7 +35,7 @@ We presented Galaxy as a cutting-edge cloud and HPC gateway for computational re
 The event highlighted infrastructure projects, and platforms in the HPC 
 domain, providing an ideal platform to present Galaxy’s features, including Galaxy
 Training Network (GTN) and Training Infrastructure as a Service
-([TIaaS](https://usegalaxy-eu.github.io/tiaas.html)).
+([TIaaS](/eu/tiaas/)).
 The talk was well-received, sparking a discussion on Galaxy's innovative
 "Bring Your Own Compute" (BYOC) and "Bring Your Own Storage"
 ([BYOS](https://galaxyproject.org/news/2024-09-20-esg-byos-im/)) capabilities.

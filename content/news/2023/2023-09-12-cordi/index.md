@@ -12,7 +12,6 @@ contributions:
     - sanjaysrikakulam
   funding:
     - eu
-    - nfdi
     - nfdi4bioimage
     - nfdi4plants
     - elixir-europe

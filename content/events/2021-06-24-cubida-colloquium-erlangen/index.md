@@ -7,7 +7,7 @@ contacts:
 - name: Pilot Core Unit Bioinformatics, Data Integration and Analysis, Universitätklinikum Erlangen
 location:
   name: online (https://uk-erlangen.webex.com/uk-erlangen/j.php?MTID=mfa8088026974da77de04e981fb3b7abd)
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   funding:

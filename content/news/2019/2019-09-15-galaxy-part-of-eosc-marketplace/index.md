@@ -2,7 +2,7 @@
 title: The European Galaxy server is part of the EOSC marketplace
 date: '2019-09-15'
 tags: [tools]
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   authorship:

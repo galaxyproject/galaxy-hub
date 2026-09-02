@@ -1,0 +1,15 @@
+{
+  "repo": "galaxyproject/galaxy",
+  "releaseVersion": "26.1",
+  "testingLabel": "release-testing-26.1",
+  "inProgressLabel": "release-testing-in-progress",
+  "completeLabel": "release-testing-complete",
+  "testingStart": "2026-06-01",
+  "testingEnd": "2026-06-05",
+  "organisers": ["guerler", "mvdbeek"],
+  "matrixLink": "https://matrix.to/#/%23galaxyproject_release-testing:gitter.im",
+  "testServer": "https://test.galaxyproject.org/",
+  "meetingName": "Testing and Hardening Working Group Meeting",
+  "meetingLink": "https://meet.google.com/ios-kygq-hfw",
+  "meetingTime": "16:00"
+}

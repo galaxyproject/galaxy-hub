@@ -16,11 +16,36 @@ from github import Github, GithubException
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 
+_CONTENT_DIR = os.path.join(os.path.dirname(__file__), "..", "content")
+
 _SLUG_OVERRIDES_PATH = os.path.join(
     os.path.dirname(__file__), "..", "astro", "src", "build", "slug-overrides.json"
 )
 with open(_SLUG_OVERRIDES_PATH) as f:
     _SLUG_OVERRIDES = json.load(f)
+
+
+def _contribution_keys_from_schema(schema_path):
+    with open(schema_path) as f:
+        schema = yaml.safe_load(f)
+    def find(node):
+        if isinstance(node, dict):
+            if "contributions" in node:
+                return set(node["contributions"].get("mapping", {}).keys())
+            for v in node.values():
+                result = find(v)
+                if result:
+                    return result
+        return set()
+    return find(schema)
+
+
+_NEWS_CONTRIBUTION_KEYS = _contribution_keys_from_schema(
+    os.path.join(_CONTENT_DIR, "schema-news.yaml")
+)
+_EVENTS_CONTRIBUTION_KEYS = _contribution_keys_from_schema(
+    os.path.join(_CONTENT_DIR, "schema-events.yaml")
+)
 
 
 def normalize_slug_segment(segment):
@@ -74,14 +99,14 @@ for entry in feed.get("entries", []):
         logging.info(f"Skipping post {title} published on {date_ymd}")
         continue
 
+    entry_tags = entry.get("tags", [])
     tags = {"training", "gtn-news"} if import_type == "news" else set()
-    for tag in entry.get("tags", []):
+    for tag in entry_tags:
         if "term" in tag:
             tags.add(tag["term"])
     if "already-on-hub" in tags:
         continue
 
-    authors = ", ".join(tag.get("name", "") for tag in entry.get("authors", []))
     link = entry.get("link", "")
     summary = html.unescape(entry.get("summary", ""))
 
@@ -102,6 +127,14 @@ for entry in feed.get("entries", []):
         logging.info(f"Folder Already exists: {folder}")
         continue
 
+    allowed = _NEWS_CONTRIBUTION_KEYS if import_type == "news" else _EVENTS_CONTRIBUTION_KEYS
+    contributions = {}
+    for tag in entry_tags:
+        parts = tag.get("term", "").split(":", 2)
+        if len(parts) == 3 and parts[0] == "contributions" and parts[1] in allowed:
+            contributions.setdefault(parts[1], []).append(parts[2])
+    contributions = contributions or None
+
     created_files.append(f"[{title}]({link})")
 
     logging.info(f"New {import_type}: {folder}")
@@ -113,11 +146,13 @@ for entry in feed.get("entries", []):
             "date": date_ymd,
             "tags": list(tags),
             "title": str(title),
-            "authors": authors,
             "external_url": link,
             "tease": str(summary.split(". ")[0]),
         }
+        if contributions:
+            meta["contributions"] = contributions
     elif import_type == "events":
+        authors = ", ".join(a.get("name", "") for a in entry.get("authors", []))
         title = title.split("] ", 1)[-1]
         date, duration, gtn = date_ymd, 1, True
         for tag in tags:
@@ -164,6 +199,8 @@ for entry in feed.get("entries", []):
             "external_url": link,
             "tease": str(summary.split(". ")[0]),
         }
+        if contributions:
+            meta["contributions"] = contributions
     md_config = yaml.dump(
         meta, default_flow_style=False, sort_keys=False, allow_unicode=True
     )

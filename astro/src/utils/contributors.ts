@@ -78,6 +78,7 @@ function parseHallOfFameFlag(flag: unknown, defaultValue = true): boolean {
 function normalizeAvatar(avatar?: string): string | undefined {
   if (!avatar) return undefined;
   if (/^https?:\/\//i.test(avatar)) return avatar;
+  if (/^\/(?:images|assets)\//.test(avatar)) return avatar;
   const trimmed = avatar.replace(/^\/+/, '');
   return `${AVATAR_BASE}/${trimmed}`;
 }
@@ -276,6 +277,16 @@ export function getCommunityGithubHandle(record?: CommunityGithubRecord): string
   }
 
   return undefined;
+}
+
+export function getCommunityImage(
+  record?: (CommunityGithubRecord & { avatarUrl?: string }) | undefined
+): string | undefined {
+  if (!record) return undefined;
+  if (record.avatarUrl) return record.avatarUrl;
+
+  const githubHandle = getCommunityGithubHandle(record);
+  return githubHandle ? `https://github.com/${githubHandle}.png` : undefined;
 }
 
 export function listContributors(): ContributorRecord[] {

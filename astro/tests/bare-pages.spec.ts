@@ -117,7 +117,7 @@ test.describe('Bare Pages', () => {
       const response = await page.goto('/bare/fr/news/');
       expect(response?.status()).toBe(200);
 
-      await expect(page.locator('h2')).toContainText('Galaxy France News');
+      await expect(page.getByRole('heading', { name: 'Galaxy France News' })).toBeVisible();
 
       const table = page.locator('table.news-table');
       await expect(table).toBeVisible();
@@ -198,10 +198,81 @@ test.describe('Bare Pages', () => {
       const dataPolicy = page.getByText('Our Data Policy');
       await expect(dataPolicy).toBeVisible();
 
-      // Iframes for latest news/events feeds should be present
-      const iframes = page.locator('iframe.resize-y');
-      const iframeCount = await iframes.count();
-      expect(iframeCount).toBe(2);
+      // Latest news/events feeds render inline, one card each
+      const feedCards = page.locator('.latest-feeds .home-card');
+      await expect(feedCards).toHaveCount(2);
+    });
+
+    // Every bare page that carries the feeds used to pull them from
+    // /bare/<subsite>/latest/* through same-origin iframes.
+    const pagesWithLatestFeeds = [
+      '/bare/eu/usegalaxy/main/',
+      '/bare/fr/usegalaxy/main/',
+      '/bare/eu/usegalaxy/metabolomics/',
+      '/bare/eu/usegalaxy/proteomics/',
+      '/bare/eu/usegalaxy/eirene/',
+    ];
+
+    for (const path of pagesWithLatestFeeds) {
+      test(`${path} renders the latest feeds without nested iframes`, async ({ page }) => {
+        const response = await page.goto(path);
+        expect(response?.status()).toBe(200);
+
+        // Nothing should embed the site in itself.
+        await expect(page.locator('iframe[src^="/bare/"]')).toHaveCount(0);
+
+        const feeds = page.locator('.latest-feeds');
+        await expect(feeds.locator('.home-card')).toHaveCount(2);
+        await expect(feeds.locator('.news-item').first()).toBeVisible();
+        await expect(feeds.locator('.event-item').first()).toBeVisible();
+      });
+    }
+
+    test('/bare/eu/usegalaxy/main/ keeps lead content below latest feeds', async ({ page }) => {
+      await page.goto('/bare/eu/usegalaxy/main/');
+
+      const latestFeeds = page.locator('.latest-feeds');
+      await expect(latestFeeds.locator('.home-card')).toHaveCount(2);
+
+      const feedsBox = await latestFeeds.boundingBox();
+      const leadBox = await page.locator('[data-name="/eu/main1"]').boundingBox();
+
+      expect(feedsBox).not.toBeNull();
+      expect(leadBox).not.toBeNull();
+      expect(leadBox!.y).toBeGreaterThanOrEqual(feedsBox!.y + feedsBox!.height - 1);
+    });
+
+    test('/bare/eu/usegalaxy/main/ hides UseGalaxy.eu launch button', async ({ page }) => {
+      await page.goto('/bare/eu/usegalaxy/main/');
+
+      await expect(page.getByRole('link', { name: 'Open UseGalaxy.eu' })).toBeHidden();
+    });
+
+    test('/bare/eu/usegalaxy/main/ keeps section buttons compact', async ({ page }) => {
+      await page.goto('/bare/eu/usegalaxy/main/');
+
+      for (const label of ['See all projects', 'Browse subdomains', 'View publications', 'Meet the team']) {
+        const button = page.getByRole('link', { name: label });
+        await expect(button).toBeVisible();
+        await expect(button.locator('p')).toHaveCount(0);
+
+        const box = await button.boundingBox();
+        expect(box).not.toBeNull();
+        expect(box!.height).toBeLessThanOrEqual(52);
+      }
+    });
+
+    test('/bare/eu/usegalaxy/main/ keeps space between section images and buttons', async ({ page }) => {
+      await page.goto('/bare/eu/usegalaxy/main/');
+
+      for (const card of await page.locator('[data-name="/eu/main2"] article').all()) {
+        const imageBox = await card.locator('img').boundingBox();
+        const buttonBox = await card.getByRole('link').boundingBox();
+
+        expect(imageBox).not.toBeNull();
+        expect(buttonBox).not.toBeNull();
+        expect(buttonBox!.y - (imageBox!.y + imageBox!.height)).toBeGreaterThanOrEqual(12);
+      }
     });
 
     test('/bare/eu/usegalaxy/main/ has no bare layout chrome', async ({ page }) => {

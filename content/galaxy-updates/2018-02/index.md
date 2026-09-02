@@ -271,7 +271,7 @@ The *Galactic* and *Stellar* publications added in January were:
 
 The Galaxy is expanding! Please help it grow.
 
-* The [Freiburg Galaxy Team](https://usegalaxy-eu.github.io/galaxy-freiburg/people/) is [looking for 2 Postdoctoral researchers](https://usegalaxy-eu.github.io/galaxy-freiburg/2018/01/18/openpositions.html)
+* The [Freiburg Galaxy Team](/freiburg/people/) is [looking for 2 Postdoctoral researchers](/news/2018-01-18-openpositions/)
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/news/2017-08-hiring-at-hopkins/), Baltimore, Maryland, United States
 

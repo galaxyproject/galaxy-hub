@@ -28,16 +28,6 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 
 <div class="card-deck">
 
-{/*  Climate  */}
-<div class="card" style="min-width: 12rem; max-width: 20rem">
-<a href="https://climate.usegalaxy.eu">
-<div class="card-header bg-sig-field text-white text-center"><Icon name="external-link" />&nbsp;Climate</div>
-</a>
-
-<p>The Climate Science workbench is a comprehensive set of analysis tools and consolidated workflows.</p>
-
-</div>
-
 {/*  Computational Chemistry  */}
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/computationalchemistry/">
@@ -60,11 +50,11 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 
 {/*  Ecology  */}
 <div class="card" style="min-width: 12rem; max-width: 20rem">
-<a href="https://ecology.usegalaxy.eu">
+<a href="/community/sig/ecology/">
 <div class="card-header bg-sig-field text-white text-center"><Icon name="external-link" />&nbsp;Ecology</div>
 </a>
 
-<p>A web platform to get, process, analyze and visualize ecological data.</p>
+<p>A web platform to get, process, analyze and visualize biodiversity data.</p>
 
 </div>
 
@@ -100,7 +90,7 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 
 {/*  Public Health  */}
 <div class="card" style="min-width: 12rem; max-width: 20rem">
-<a href="">
+<a href="/community/sig/public-health/">
 <div class="card-header bg-sig-field text-white text-center"><Icon name="external-link" />&nbsp;Public Health</div>
 </a>
 

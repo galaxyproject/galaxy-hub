@@ -54,8 +54,8 @@ Each training is building on-top of each other and should be followed in order. 
 
 ### Speakers
 
-* Alireza Khanteymoori, Postdoc Researcher at the University of Freiburg and member of the [European Galaxy team](https://usegalaxy-eu.github.io/freiburg/people).
-* Anup Kumar,  PhD Student at the University of Freiburg and member of the [European Galaxy team](https://usegalaxy-eu.github.io/freiburg/people).
+* Alireza Khanteymoori, Postdoc Researcher at the University of Freiburg and member of the [European Galaxy team](/freiburg/people/).
+* Anup Kumar,  PhD Student at the University of Freiburg and member of the [European Galaxy team](/freiburg/people/).
 
  (this list will be updated)
 

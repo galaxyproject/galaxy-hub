@@ -157,13 +157,13 @@ function getCollectionFilterLabel(collection: string): string {
 
 function getCollectionColor(collection: string): string {
   const colors: Record<string, string> = {
-    articles: 'bg-blue-100 text-blue-800',
+    articles: 'bg-galaxy-primary/10 text-galaxy-primary',
     events: 'bg-green-100 text-green-800',
     platforms: 'bg-purple-100 text-purple-800',
     news: 'bg-cyan-100 text-cyan-800',
     'hall-of-fame': 'bg-amber-100 text-amber-900',
   };
-  return colors[collection] || 'bg-gray-100 text-gray-800';
+  return colors[collection] || 'bg-ebony-clay-50 text-chicago-800';
 }
 
 function highlightMatch(text: string, maxLength: number = 200): string {
@@ -200,7 +200,7 @@ function highlightMatch(text: string, maxLength: number = 200): string {
           </option>
         </select>
       </div>
-      <div class="text-sm text-gray-600">
+      <div class="text-sm text-chicago-600">
         <span v-if="isLoading">Loading search index...</span>
         <span v-else-if="!query.trim()"> {{ searchIndex.length.toLocaleString() }} pages indexed </span>
         <span v-else>
@@ -215,11 +215,11 @@ function highlightMatch(text: string, maxLength: number = 200): string {
       <article
         v-for="result in results"
         :key="result.slug"
-        class="bg-white rounded-lg border border-gray-200 p-5 hover:shadow-md transition-shadow"
+        class="bg-white rounded-lg border border-ebony-clay-100 p-5 hover:shadow-md transition-shadow"
       >
         <a :href="result.path" class="block">
           <div class="flex items-start justify-between gap-4 mb-2">
-            <h2 class="text-lg font-semibold text-gray-900 hover:text-galaxy-primary transition-colors">
+            <h2 class="text-lg font-semibold text-chicago-900 hover:text-galaxy-primary transition-colors">
               {{ result.title }}
               <ExternalIcon v-if="result.collection === 'events' && result.external_url" />
             </h2>
@@ -230,17 +230,17 @@ function highlightMatch(text: string, maxLength: number = 200): string {
 
           <p
             v-if="result.excerpt || result.tease"
-            class="text-gray-600 text-sm mb-3"
+            class="text-chicago-600 text-sm mb-3"
             v-html="highlightMatch(result.tease || result.excerpt)"
           ></p>
 
-          <div class="flex items-center gap-4 text-xs text-gray-500">
+          <div class="flex items-center gap-4 text-xs text-chicago-500">
             <time v-if="result.date">{{ formatDate(result.date) }}</time>
             <div v-if="result.tags?.length" class="flex gap-1 flex-wrap">
-              <span v-for="tag in result.tags.slice(0, 3)" :key="tag" class="px-2 py-0.5 bg-gray-100 rounded">
+              <span v-for="tag in result.tags.slice(0, 3)" :key="tag" class="px-2 py-0.5 bg-ebony-clay-50 rounded">
                 {{ tag }}
               </span>
-              <span v-if="result.tags.length > 3" class="text-gray-400"> +{{ result.tags.length - 3 }} more </span>
+              <span v-if="result.tags.length > 3" class="text-chicago-400"> +{{ result.tags.length - 3 }} more </span>
             </div>
           </div>
         </a>
@@ -249,7 +249,7 @@ function highlightMatch(text: string, maxLength: number = 200): string {
 
     <!-- No results -->
     <div v-else-if="query.trim() && !isLoading" class="text-center py-12">
-      <svg class="w-16 h-16 mx-auto text-gray-300 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg class="w-16 h-16 mx-auto text-chicago-300 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path
           stroke-linecap="round"
           stroke-linejoin="round"
@@ -257,13 +257,13 @@ function highlightMatch(text: string, maxLength: number = 200): string {
           d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
         ></path>
       </svg>
-      <p class="text-gray-500 mb-2">No results found for "{{ query }}"</p>
-      <p class="text-sm text-gray-400">Try different keywords or check your spelling</p>
+      <p class="text-chicago-500 mb-2">No results found for "{{ query }}"</p>
+      <p class="text-sm text-chicago-400">Try different keywords or check your spelling</p>
     </div>
 
     <!-- Empty state -->
     <div v-else-if="!isLoading" class="text-center py-12">
-      <svg class="w-16 h-16 mx-auto text-gray-300 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg class="w-16 h-16 mx-auto text-chicago-300 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path
           stroke-linecap="round"
           stroke-linejoin="round"
@@ -271,7 +271,7 @@ function highlightMatch(text: string, maxLength: number = 200): string {
           d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
         ></path>
       </svg>
-      <p class="text-gray-500">Enter a search term to search the Galaxy Community Hub</p>
+      <p class="text-chicago-500">Enter a search term to search the Galaxy Community Hub</p>
     </div>
   </div>
 </template>
