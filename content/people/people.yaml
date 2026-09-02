@@ -15,7 +15,18 @@ freiburg:
         bio: |
           I'm a bioinformatician and researcher with interested in everything
           related to reproducible research with Galaxy, Conda & Containers.
-
+          
+    HenrieBe:
+        name: Henriette Bertemes
+        title: Dr. rer. nat., Project manager
+        email: bertemes@informatik.uni-freiburg.de
+        phone: +49(0) 761 - 203 54130
+        location: "Build.: 079, Room: -1006"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@henriebe:matrix.org"
+        linkedin: henriette-bertemes-7a61422ab
+        orcid: 0009-0004-9063-6420
+          
     erxleben:
         name: Anika Erxleben-Eggenhofer
         orcid: 0000-0002-7427-6478
