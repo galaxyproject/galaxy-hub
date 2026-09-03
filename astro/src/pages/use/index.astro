@@ -4,6 +4,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import PlatformDirectory from '../../components/platforms/PlatformDirectory.vue';
 import MapToggle from './map/MapToggle.vue';
 import { prepareMapPlatformData } from './map/mapDataUtils';
+import { loadToolNames, loadReferenceNames } from '../../utils/platformDatasets';
 
 // Get all platforms
 const platforms = await getCollection('platforms');
@@ -28,6 +29,19 @@ const platformData = platforms
   });
 
 const mapPlatformData = prepareMapPlatformData(platforms);
+
+// Additive tool:/reference: search data: map each tool/reference (genome) name to
+// the platform slugs that provide it. Leaves platformData's shape untouched.
+const toolIndex: Record<string, string[]> = {};
+const referenceIndex: Record<string, string[]> = {};
+for (const p of platforms) {
+  for (const name of loadToolNames(p.data.slug)) {
+    (toolIndex[name] ??= []).push(p.data.slug);
+  }
+  for (const name of loadReferenceNames(p.data.slug)) {
+    (referenceIndex[name] ??= []).push(p.data.slug);
+  }
+}
 ---
 
 <BaseLayout title="Use Galaxy" description="Find a Galaxy server to analyze your data">
@@ -170,7 +184,12 @@ const mapPlatformData = prepareMapPlatformData(platforms);
         geographic regions, and research areas. Use the filters below to find the right one for your needs.
       </p>
 
-      <PlatformDirectory client:only="vue" platforms={platformData} />
+      <PlatformDirectory
+        client:only="vue"
+        platforms={platformData}
+        toolIndex={toolIndex}
+        referenceIndex={referenceIndex}
+      />
     </section>
 
     <!-- Additional Resources -->
