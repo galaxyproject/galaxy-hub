@@ -77,8 +77,8 @@ It is common for one person to contribute to multiple groups. The major groups i
 ### Admins: Sets up and maintains Galaxy server(s) for ongoing use
 
 * Galaxy-funded
-* usegalaxy.* (e.g. usegalaxy.org, usegalaxy.eu, usegalaxy.org.au)
-* National servers (e.g. usegalaxy.ca, usegalaxy.be)
+* usegalaxy.* (e.g. usegalaxy.org, usegalaxy.eu, usegalaxy.org.au, usegalaxy.ca)
+* National servers (e.g. usegalaxy.be)
 * Academic institutional servers (e.g. Rockefeller University)
 * Private servers (e.g. Astrazeneca)
 
