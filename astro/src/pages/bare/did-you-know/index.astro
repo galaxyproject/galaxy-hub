@@ -7,11 +7,10 @@
  */
 import BareArticleLayout from '../../../layouts/BareArticleLayout.astro';
 import DidYouKnowRandom, { type DykItem } from '../../../components/did-you-know/DidYouKnowRandom.vue';
-import { getCollection } from 'astro:content';
-import { sortItems, toSerializable } from '../../../utils/did-you-know';
+import { getDidYouKnow } from '../../../utils/did-you-know-server';
+import { toSerializable } from '../../../utils/did-you-know';
 
-const all = await getCollection('did-you-know');
-const items = sortItems(all);
+const items = await getDidYouKnow('global');
 const serialized: DykItem[] = items.map(toSerializable);
 ---
 
