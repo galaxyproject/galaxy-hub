@@ -15,8 +15,6 @@ user_support:
   - "[Visit the global Galaxy Help Forum](https://help.galaxyproject.org/)"
 quotas:
   - "Storage quotas and retention policies. See [Data Policies](https://starthere.usegalaxy.ca/data_policies.html) for details."
-citations:
-  - ""
 sponsors:
   - "[Calcul Québec](https://calculquebec.ca/)"
   - "[Université de Sherbrooke](https://www.usherbrooke.ca/)"
