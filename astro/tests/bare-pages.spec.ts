@@ -15,6 +15,9 @@ test.describe('Bare Pages', () => {
       // Dynamic bare-article route from src/content/bare-articles
       await expect(page.locator('a[href="/bare/eu/usegalaxy/main/"]')).toBeVisible();
 
+      // [subsite] page templates are expanded into one concrete route per subsite
+      await expect(page.locator('a[href="/bare/eu/did-you-know/"]')).toBeVisible();
+
       const hrefs = await sitemapLinks.evaluateAll((links) => links.map((link) => link.getAttribute('href') || ''));
       expect(hrefs.length).toBeGreaterThan(5);
       expect(new Set(hrefs).size).toBe(hrefs.length);

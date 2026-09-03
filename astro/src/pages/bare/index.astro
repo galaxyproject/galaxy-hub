@@ -50,8 +50,11 @@ function routeFromStaticPageFile(filePath: string): string | null {
 }
 
 /**
- * Expand a dynamic page file (containing [subsite]) into concrete routes, one
- * per non-external subsite. Returns null for non-dynamic files.
+ * Expand a dynamic page file into concrete routes, one per non-external
+ * subsite. Returns null for non-dynamic files, and for dynamic files whose
+ * parameters we cannot enumerate (rest params like [...slug], or any named
+ * param other than [subsite]) -- listing those would put the route template
+ * itself in the index.
  */
 function routesFromDynamicPageFile(filePath: string): string[] | null {
   const normalized = filePath.replace(/^\.\//, '');
@@ -77,21 +80,19 @@ function routesFromDynamicPageFile(filePath: string): string[] | null {
   const routeSegments = withoutIndexSuffix.split('/');
   const subsiteIds = subsites.filter((s) => s.id !== 'global' && !('external' in s)).map((s) => s.id);
 
-  const expanded: string[] = [];
+  let expanded: string[] = [''];
   for (const segment of routeSegments) {
-    const paramMatch = segment.match(/^\[(\w+)\]$/);
-    if (paramMatch) {
-      if (paramMatch[1] === 'subsite') {
-        expanded.push(...subsiteIds);
+    if (segment.includes('[')) {
+      if (segment !== '[subsite]') {
+        return null;
       }
+      expanded = expanded.flatMap((prefix) => subsiteIds.map((id) => (prefix ? `${prefix}/${id}` : id)));
       continue;
     }
-    for (let i = 0; i < (expanded.length || 1); i++) {
-      expanded[i] = (expanded[i] ? expanded[i] + '/' : '') + segment;
-    }
+    expanded = expanded.map((prefix) => (prefix ? `${prefix}/${segment}` : segment));
   }
 
-  return expanded.map((p) => normalizeRoute(`bare/${p}`));
+  return expanded.filter(Boolean).map((p) => normalizeRoute(`bare/${p}`));
 }
 
 /** Convert a content slug into a `/bare/.../` route, or null for empty values. */
