@@ -45,6 +45,14 @@ title: Galaxy Ecology
   .usegalaxy-card-grid .bs-compat.card-body {
     padding: 0 !important;
   }
+
+   .card.border-secondary {
+    border: 0 !important;
+  }
+   .prose h1,
+   .prose h2 {
+    border-bottom: 1px solid #dfdfdfff !important;
+}
 </style>
 
 # Welcome to **Galaxy for Ecology** -- a web platform to get, process, analyze and visualize biodiversity data

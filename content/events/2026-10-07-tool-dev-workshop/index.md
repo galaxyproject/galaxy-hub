@@ -20,9 +20,9 @@ contributions:
   organisers:
     - intergalacticutilitiescommissioniuc
     - freiburggalaxyteam
-    - nfdi4bioimage
   funding:
     - deNBI
+    - nfdi4bioimage
 ---
 
 _Ever wanted your tools used by thousands of researchers around the world? Galaxy makes that possible - and this workshop shows you exactly how to get there!_
