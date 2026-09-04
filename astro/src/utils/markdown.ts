@@ -12,3 +12,11 @@ import { marked } from 'marked';
 export function renderMarkdownInline(text?: string): string {
   return text ? (marked.parseInline(text) as string) : '';
 }
+
+/**
+ * Render markdown as block HTML (with <p> tags etc.)
+ * Use for longer body text that should be formatted as paragraphs.
+ */
+export function renderMarkdown(text?: string): string {
+  return text ? (marked.parse(text) as string) : '';
+}

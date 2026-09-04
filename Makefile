@@ -68,9 +68,10 @@ image-check: build ## Build site and check all images resolve
 	cd astro && PORT=9999 LINK_CHECK=1 LINK_CHECK_PREVIEW=1 npx playwright test link-check
 .PHONY: image-check
 
-validate-metadata: ## Validate news and events frontmatter schemas
+validate-metadata: ## Validate news, events, and did-you-know schemas
 	python scripts/validate_news.py --be-strict-from 2026-02-24
 	python scripts/validate_events.py --be-strict-from 2026-02-24
+	python scripts/validate_did_you_know.py
 .PHONY: validate-metadata
 
 help:

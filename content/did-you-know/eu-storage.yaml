@@ -1,0 +1,21 @@
+title: Storage Management on Galaxy Europe
+tease: 250 GB free quota, short-term scratch storage, and bring-your-own-storage options.
+body: |
+  Every user on the European Galaxy server gets **250 GB of free storage**. Need
+  more? You can use **2 TB of short-term scratch storage** for method
+  development, export results to public archives like ENA or Zenodo, or even
+  **bring your own storage** (S3, iRODS, OneData, and more). The storage
+  dashboard helps you clean up and stay within quota.
+subsites: [eu]
+date: "2026-08-28"
+weight: 35
+images:
+  - url: /images/undraw-illustrations/clean-up.svg
+    alt: Illustration of a person cleaning up data to free up storage space
+  - url: /images/undraw-illustrations/export-files.svg
+    alt: Illustration of a person exporting data to external repositories
+  - url: /images/undraw-illustrations/personal-data.svg
+    alt: Illustration representing user-owned storage integrated into Galaxy
+links:
+  - url: https://galaxyproject.org/eu/storage/
+    text: More information about storage management
