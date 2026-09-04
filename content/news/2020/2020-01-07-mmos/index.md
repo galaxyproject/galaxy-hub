@@ -8,7 +8,6 @@ main_subsite: freiburg
 contributions:
   authorship:
     - bgruening
-    - yvanlebras
 ---
 
 A few years back the "webhook" concept was contributed to the Galaxy codebase.
