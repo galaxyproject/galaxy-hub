@@ -2,7 +2,7 @@
 date: '2020-01-07'
 title: "Crowdsourcing citizen science data on usegalaxy.eu"
 tease: "Galaxy for Ecology, mixing Ecology research, Citizen Science and Massively Multi Online Science"
-tags: [society, data, community]
+tags: [society, data, community, citizen science]
 subsites: [global, eu, freiburg]
 main_subsite: eu
 contributions:
