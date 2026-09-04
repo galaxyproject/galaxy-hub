@@ -100,6 +100,16 @@ describe('filterBySubsite', () => {
     const items = [makeEntry({ id: 'eu-only', subsites: ['eu'] })];
     expect(filterBySubsite(items, 'us')).toHaveLength(0);
   });
+
+  it('treats missing subsites as [all] (shows up everywhere)', () => {
+    const items = [
+      makeEntry({ id: 'undef', subsites: undefined as unknown as string[] }),
+      makeEntry({ id: 'null', subsites: null as unknown as string[] }),
+      makeEntry({ id: 'empty', subsites: [] }),
+    ];
+    expect(filterBySubsite(items, 'eu').map((i) => i.id)).toEqual(['undef', 'null', 'empty']);
+    expect(filterBySubsite(items, 'us').map((i) => i.id)).toEqual(['undef', 'null', 'empty']);
+  });
 });
 
 describe('sortItems', () => {

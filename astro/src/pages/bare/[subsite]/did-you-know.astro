@@ -10,8 +10,7 @@ import BareArticleLayout from '../../../layouts/BareArticleLayout.astro';
 import DidYouKnowRandom, { type DykItem } from '../../../components/did-you-know/DidYouKnowRandom.vue';
 import { getCollection } from 'astro:content';
 import { subsites } from '../../../stores/subsiteStore';
-import { sortItems, toSerializable } from '../../../utils/did-you-know';
-import { contentMatchesSubsite } from '../../../utils/subsites';
+import { sortItems, toSerializable, filterBySubsite } from '../../../utils/did-you-know';
 
 export async function getStaticPaths() {
   const all = await getCollection('did-you-know');
@@ -19,7 +18,7 @@ export async function getStaticPaths() {
   return subsites
     .filter((s) => s.id !== 'global' && !('external' in s))
     .map((subsite) => {
-      const filtered = sortItems(all.filter((item) => contentMatchesSubsite(item.data.subsites, subsite.id)));
+      const filtered = sortItems(filterBySubsite(all, subsite.id));
       return {
         params: { subsite: subsite.id },
         props: {

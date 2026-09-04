@@ -69,10 +69,18 @@ function toSubsiteList(value: unknown): string[] {
   return Array.isArray(value) ? value.map(String) : [String(value)];
 }
 
-/** Filter items down to those visible on the given subsite. No subsite = all items. */
+/** Filter items down to those visible on the given subsite. No subsite = all items.
+ *  An item without a `subsites` list defaults to `[all]` (i.e. visible everywhere),
+ *  matching the schema's documented default — unlike news/events, where untagged
+ *  content is root-only.
+ */
 export function filterBySubsite(items: DidYouKnowEntry[], subsite?: string): DidYouKnowEntry[] {
   if (!subsite) return items;
-  return items.filter((item) => contentMatchesSubsite(item.data.subsites, subsite));
+  return items.filter((item) => {
+    const subsites = item.data.subsites;
+    const effective = subsites && subsites.length > 0 ? subsites : ['all'];
+    return contentMatchesSubsite(effective, subsite);
+  });
 }
 
 /**
