@@ -1,4 +1,3 @@
-<img width="4096" height="2304" alt="IMG20260622091636" src="https://github.com/user-attachments/assets/57405022-c49f-4d16-9616-4630f6f2873d" />
 ---
 title: "Our journey in GCC2026 Clermont-Ferrand"
 date: "2026-07-01"
