@@ -3,7 +3,7 @@ subsites:
 - all
 date: '2026-09-08'
 title: Galaxy at the International IUSSI Congress 2026 — Exploring termite gut microbiome recovery
-tags: [conference, microbiome, metagenomics, workflow]
+tags: [conference, metagenomics, workflow]
 tease: "At IUSSI 2026 in Freiburg, Mina Hojat Ansari presented how reproducible, multi-layer metagenomic analysis in Galaxy helps investigate termite gut microbiome recovery after molting."
 contributions:
   authorship:
