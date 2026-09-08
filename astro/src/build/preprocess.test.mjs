@@ -8,6 +8,7 @@ import {
   resolveInsertContent,
   insertCache,
   generateTease,
+  replaceHubInlineMentions,
   shiftHeadings,
   preprocessContent,
 } from './preprocess.mjs';
@@ -328,6 +329,27 @@ describe('generateTease', () => {
   it('returns short content as-is when under 200 chars', () => {
     const body = 'A short news item with no period';
     expect(generateTease(body)).toBe('A short news item with no period');
+  });
+});
+
+describe('replaceHubInlineMentions', () => {
+  it('replaces contributor mentions with inline hall-of-fame links', () => {
+    const result = replaceHubInlineMentions('Implemented by @hub:bgruening.');
+    expect(result).toContain('href="/hall-of-fame/bgruening/"');
+    expect(result).toContain('Björn Grüning');
+    expect(result).toContain('class="hub-inline-link"');
+    expect(result).not.toContain('@hub:bgruening');
+  });
+
+  it('accepts the @gtn alias', () => {
+    const result = replaceHubInlineMentions('Implemented by @gtn:bgruening.');
+    expect(result).toContain('href="/hall-of-fame/bgruening/"');
+    expect(result).toContain('Björn Grüning');
+    expect(result).not.toContain('@gtn:bgruening');
+  });
+
+  it('leaves unknown mentions unchanged', () => {
+    expect(replaceHubInlineMentions('Unknown @hub:not-real')).toContain('@hub:not-real');
   });
 });
 

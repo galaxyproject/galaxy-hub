@@ -31,5 +31,5 @@ Anyone who is maintaining a Galaxy server.
 
 # Contact people
 
-- SIG representative: [Hans-Rudolf Hotz](mailto:hansrudolf.hotz@fmi.ch) [@hrhotz](https://github.com/hrhotz)
-- Alternate: [Lucille Delisle](mailto:lucille.delisle@unige.ch) [@lldelisle](https://github.com/lldelisle)
+- SIG representative: @hub:hrhotz [✉️](mailto:hansrudolf.hotz@fmi.ch) [@hrhotz](https://github.com/hrhotz)
+- Alternate: @hub:lldelisle [✉️](mailto:lucille.delisle@unige.ch) [@lldelisle](https://github.com/lldelisle)
