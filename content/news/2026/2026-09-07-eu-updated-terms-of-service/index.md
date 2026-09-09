@@ -1,7 +1,7 @@
 ---
 title: "Updated the Terms of Service for the European Galaxy Server (2026)"
 date: "2026-09-07"
-tease: "We have published a comprehensively revised set of Terms of Service for usegalaxy.eu and all it's sub-sites. Please review the new Terms and agree to them to continue using the Service."
+tease: "We have published a comprehensively revised set of Terms of Service for usegalaxy.eu and all its sub-sites. Please review the new Terms and agree to them to continue using the Service."
 subsites: [eu, freiburg]
 main_subsite: eu
 tags: [eu, freiburg, policy, infrastructure]
