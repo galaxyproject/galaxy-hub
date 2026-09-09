@@ -1,5 +1,5 @@
 ---
-title: "Last Few Spots left - Galaxy Tool Development Workshop, Registration Closes 11 September"
+title: "Last Few Spots left - Galaxy Tool Development Workshop, Registration Closes 14 September"
 date: "2026-09-09"
 tease: "Only a handful of spots remain for the 2nd Galaxy Tool Development Workshop in Freiburg (7-9 October 2026). Registration closes on 11 September, and remote participation is available."
 tags: [workshop, tools, training, uni-freiburg, esg]
@@ -17,9 +17,9 @@ _Ever wanted your tools used by thousands of researchers around the world? There
 The [**2nd Galaxy Tool Development Workshop**](https://galaxyproject.org/events/2026-10-07-tool-dev-workshop/) takes place from **7 to 9 October 2026** at the Department of Computer Science, University of Freiburg, immediately following the ESG4Stars Kickoff meeting. Organised by the [Intergalactic Utilities Commission (IUC)](https://galaxyproject.org/iuc/) and the [Galaxy Tool Developer's SIG](https://galaxyproject.org/community/sig/tool-developers/), the workshop offers three days of hands-on guidance from experienced Galaxy developers.
 
 
-## ⏳ Registration closes 11 September
+## ⏳ Registration closes 14 September
 
-If you have been planning to sign up, now is the moment: **registration closes on Thursday, 11 September 2026**. Participation is free, and the workshop is open to everyone, whether you are completely new to Galaxy tool development or already contributing tools and looking to sharpen your skills.
+If you have been planning to sign up, now is the moment: **registration closes on Thursday, 14 September 2026**. Participation is free, and the workshop is open to everyone, whether you are completely new to Galaxy tool development or already contributing tools and looking to sharpen your skills.
 
 👉 [**Register here**](https://forms.gle/B8ELoqdPZnxiwtw57)
 
