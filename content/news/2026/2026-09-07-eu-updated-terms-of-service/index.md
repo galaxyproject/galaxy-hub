@@ -1,5 +1,5 @@
 ---
-title: "Updated the Terms of Service for the European Galaxy Server (2026)"
+title: "Updated Terms of Service for the European Galaxy Server (2026)"
 date: "2026-09-07"
 tease: "We have published a comprehensively revised set of Terms of Service for usegalaxy.eu and all its sub-sites. Please review the new Terms and agree to them to continue using the Service."
 subsites: [eu, freiburg]
@@ -14,6 +14,7 @@ contributions:
     - eu
     - deNBI
     - mwk
+    - deKCD
 ---
 
 # Terms of Service for the European Galaxy Server (2026 update)
@@ -43,8 +44,8 @@ and [GDPR rights](https://usegalaxy.eu/gdpr/gdpr-rights) page have taken effect 
 
 **Please read the new Terms of Service at
 [usegalaxy.eu/gdpr/tos](https://usegalaxy.eu/gdpr/tos).** By continuing to use
-the Service after the effective date, you agree to the revised Terms. If you do
-not agree, you may request deletion of your account and data as described on our [User Rights under the GDPR](https://usegalaxy.eu/gdpr/gdpr-rights)
+the Service after the effective date, you agree to the revised Terms. **If you do
+not agree, you may request deletion of your account and data** as described on our [User Rights under the GDPR](https://usegalaxy.eu/gdpr/gdpr-rights)
 page. Of course we always welcome feedback.
 
 ## What has changed
@@ -97,7 +98,7 @@ You will be informed by email and may **request human review** by contacting
 ## What you need to do
 
 1. **Read the new Terms of Service** at [usegalaxy.eu/gdpr/tos](https://usegalaxy.eu/gdpr/tos)
-2. **Agree to them** when you want to use the Service in the future.
+2. By using the Service, you agree to these Terms.
 3. **Check that your registered email address is current** under *User → User
    Preferences*, so you receive important notices including inactivity warnings.
 
