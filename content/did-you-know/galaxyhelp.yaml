@@ -3,12 +3,8 @@ tease: A community forum where Galaxy users can find answers, troubleshoot probl
 body: |
   **Galaxy Community Help** is the place to find answers to your Galaxy related questions and connect with other users.
   Search thousands of community discussions for answers to common questions, or
-  **ask a new question** when you cannot find what you need. You can get help with
+  ask a new question when you cannot find what you need. You can get help with
   tools, workflows, datasets, uploads, job failures, server issues, and more.
-
-  Access GalaxyHelp from your favourite Galaxy instance: click the
-  **?** (Help and Support) icon in the top navigation bar and select
-  **Ask Questions & Find Answers** under Support.
 
 subsites: [all]
 date: "2026-09-09"
