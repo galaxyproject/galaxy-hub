@@ -8,25 +8,51 @@ import { renderMarkdownInline } from '@/utils/markdown';
 interface Platform {
   slug: string;
   title: string;
-  url?: string;
-  scope?: string;
-  summary?: string;
-  platforms?: {
-    platform_group?: string;
-    platform_location?: string;
-    platform_text?: string;
-  }[];
-  image?: string;
+  url?: string | null;
+  scope?: string | null;
+  summary?: string | null;
+  platforms?:
+    | {
+        platform_group?: string | null;
+        platform_location?: string | null;
+        platform_text?: string | null;
+      }[]
+    | null;
+  image?: string | null;
 }
 
-const props = defineProps<{
-  platforms: Platform[];
-}>();
+interface SearchSuggestion {
+  name: string;
+  nameLower: string;
+  type: 'tool' | 'reference';
+  badge: string;
+}
+
+const props = withDefaults(
+  defineProps<{
+    platforms: Platform[];
+    // name -> platform slugs that provide that tool / reference (genome)
+    toolIndex?: Record<string, string[]>;
+    referenceIndex?: Record<string, string[]>;
+  }>(),
+  {
+    toolIndex: () => ({}),
+    referenceIndex: () => ({}),
+  }
+);
+
+const MIN_SUGGEST_LENGTH = 3;
+const MAX_SUGGESTIONS = 15;
 
 const searchQuery = ref('');
 const selectedScope = ref<string>('all');
 const selectedLocation = ref<string>('all');
 const selectedPlatformGroup = ref<string>('all');
+
+// Autocomplete state (mirrors legacy Use.vue behavior)
+const showAutocomplete = ref(false);
+const selectedSuggestionIndex = ref(-1);
+const suppressAutocomplete = ref(false);
 
 // Maps URL slugs (plural, matching old Gridsome site) to data values (singular)
 const urlSlugToGroup: Record<string, string> = {
@@ -87,18 +113,87 @@ const platformGroups = computed(() => {
   return ['all', ...Array.from(uniqueGroups).sort()];
 });
 
+// Lowercased name -> set of platform slugs, for tool:/reference: filtering
+const toolLookup = computed(() => buildLookup(props.toolIndex));
+const referenceLookup = computed(() => buildLookup(props.referenceIndex));
+
+function buildLookup(index: Record<string, string[]>): Map<string, Set<string>> {
+  const lookup = new Map<string, Set<string>>();
+  for (const [name, slugs] of Object.entries(index)) {
+    lookup.set(name.toLowerCase(), new Set(slugs));
+  }
+  return lookup;
+}
+
+function matchSlugs(lookup: Map<string, Set<string>>, query: string): Set<string> {
+  const exact = lookup.get(query);
+  if (exact) return exact;
+  const result = new Set<string>();
+  for (const [name, slugs] of lookup) {
+    if (name.includes(query)) slugs.forEach((slug) => result.add(slug));
+  }
+  return result;
+}
+
+// Combined tool + reference names that power the dropdown suggestions
+const allSuggestions = computed<SearchSuggestion[]>(() => {
+  const suggestions: SearchSuggestion[] = [];
+  for (const name of Object.keys(props.toolIndex)) {
+    suggestions.push({ name, nameLower: name.toLowerCase(), type: 'tool', badge: 'tool' });
+  }
+  for (const name of Object.keys(props.referenceIndex)) {
+    suggestions.push({ name, nameLower: name.toLowerCase(), type: 'reference', badge: 'genome' });
+  }
+  return suggestions;
+});
+
+const filteredSuggestions = computed<SearchSuggestion[]>(() => {
+  const input = searchQuery.value.toLowerCase().trim();
+  if (input.length < MIN_SUGGEST_LENGTH || input.startsWith('tool:') || input.startsWith('reference:')) {
+    return [];
+  }
+
+  const matches = allSuggestions.value.filter((s) => s.nameLower.includes(input));
+  matches.sort((a, b) => {
+    const aStarts = a.nameLower.startsWith(input);
+    const bStarts = b.nameLower.startsWith(input);
+    if (aStarts && !bStarts) return -1;
+    if (!aStarts && bStarts) return 1;
+    return a.nameLower.localeCompare(b.nameLower);
+  });
+  return matches.slice(0, MAX_SUGGESTIONS);
+});
+
+const isToolSearch = computed(() => searchQuery.value.trim().toLowerCase().startsWith('tool:'));
+const isReferenceSearch = computed(() => searchQuery.value.trim().toLowerCase().startsWith('reference:'));
+
 // Filter platforms based on search and filters
 const filteredPlatforms = computed(() => {
   let result = [...props.platforms];
 
   // Search filter
-  if (searchQuery.value) {
-    const query = searchQuery.value.toLowerCase();
+  const rawQuery = searchQuery.value.trim();
+  const lowerQuery = rawQuery.toLowerCase();
+  if (lowerQuery.startsWith('tool:')) {
+    // tool:name -> keep instances offering that tool
+    const toolQuery = lowerQuery.slice('tool:'.length).trim();
+    if (toolQuery) {
+      const slugs = matchSlugs(toolLookup.value, toolQuery);
+      result = result.filter((p) => slugs.has(p.slug));
+    }
+  } else if (lowerQuery.startsWith('reference:')) {
+    // reference:genome -> keep instances offering that reference genome
+    const referenceQuery = lowerQuery.slice('reference:'.length).trim();
+    if (referenceQuery) {
+      const slugs = matchSlugs(referenceLookup.value, referenceQuery);
+      result = result.filter((p) => slugs.has(p.slug));
+    }
+  } else if (rawQuery) {
     result = result.filter(
       (p) =>
-        p.title?.toLowerCase().includes(query) ||
-        p.summary?.toLowerCase().includes(query) ||
-        p.url?.toLowerCase().includes(query)
+        p.title?.toLowerCase().includes(lowerQuery) ||
+        p.summary?.toLowerCase().includes(lowerQuery) ||
+        p.url?.toLowerCase().includes(lowerQuery)
     );
   }
 
@@ -130,9 +225,53 @@ const filteredPlatforms = computed(() => {
 
 function clearFilters() {
   searchQuery.value = '';
+  showAutocomplete.value = false;
+  selectedSuggestionIndex.value = -1;
   selectedScope.value = 'all';
   selectedLocation.value = 'all';
   selectedPlatformGroup.value = 'all';
+}
+
+function selectSuggestion(suggestion: SearchSuggestion) {
+  suppressAutocomplete.value = true;
+  searchQuery.value = `${suggestion.type === 'tool' ? 'tool:' : 'reference:'}${suggestion.name}`;
+  showAutocomplete.value = false;
+  selectedSuggestionIndex.value = -1;
+}
+
+function onSearchKeydown(event: KeyboardEvent) {
+  if (event.key === 'Escape') {
+    showAutocomplete.value = false;
+    selectedSuggestionIndex.value = -1;
+    return;
+  }
+  if (!showAutocomplete.value || filteredSuggestions.value.length === 0) return;
+
+  switch (event.key) {
+    case 'ArrowDown':
+      event.preventDefault();
+      selectedSuggestionIndex.value = Math.min(selectedSuggestionIndex.value + 1, filteredSuggestions.value.length - 1);
+      break;
+    case 'ArrowUp':
+      event.preventDefault();
+      selectedSuggestionIndex.value = Math.max(selectedSuggestionIndex.value - 1, 0);
+      break;
+    case 'Enter':
+    case 'Tab':
+      if (selectedSuggestionIndex.value >= 0) {
+        event.preventDefault();
+        selectSuggestion(filteredSuggestions.value[selectedSuggestionIndex.value]);
+      }
+      break;
+  }
+}
+
+function closeAutocomplete() {
+  // Delay so a mouse selection registers before the list closes
+  setTimeout(() => {
+    showAutocomplete.value = false;
+    selectedSuggestionIndex.value = -1;
+  }, 150);
 }
 
 function updateUrl(group: string) {
@@ -160,6 +299,18 @@ watch(selectedPlatformGroup, (group) => {
   updateUrl(group);
 });
 
+watch(searchQuery, () => {
+  // Runs after v-model updates, so filteredSuggestions is current here.
+  if (suppressAutocomplete.value) {
+    suppressAutocomplete.value = false;
+    showAutocomplete.value = false;
+    selectedSuggestionIndex.value = -1;
+    return;
+  }
+  selectedSuggestionIndex.value = -1;
+  showAutocomplete.value = filteredSuggestions.value.length > 0;
+});
+
 function getScopeLabel(scope: string): string {
   const labels: Record<string, string> = {
     usegalaxy: 'UseGalaxy',
@@ -170,7 +321,7 @@ function getScopeLabel(scope: string): string {
   return labels[scope] || scope;
 }
 
-function getLocationFromPlatform(platform: Platform): string | undefined {
+function getLocationFromPlatform(platform: Platform): string | null | undefined {
   return platform.platforms?.[0]?.platform_location;
 }
 
@@ -188,10 +339,61 @@ function getHostname(url: string): string {
     <!-- Search and Filters -->
     <div class="bg-white rounded-lg shadow-sm border border-ebony-clay-100 p-6 mb-8">
       <div class="flex flex-col md:flex-row gap-4">
-        <!-- Search -->
-        <div class="flex-1">
+        <!-- Search with tool: / reference: autocomplete -->
+        <div class="flex-1 relative">
           <label class="block text-sm font-medium text-chicago-700 mb-1">Search</label>
-          <Input v-model="searchQuery" type="text" placeholder="Search servers..." class="w-full" />
+          <Input
+            v-model="searchQuery"
+            type="search"
+            placeholder="Search, tool:name, or reference:genome"
+            class="w-full"
+            autocomplete="off"
+            role="combobox"
+            aria-autocomplete="list"
+            aria-controls="platform-search-suggestions"
+            :aria-expanded="showAutocomplete"
+            @keydown="onSearchKeydown"
+            @blur="closeAutocomplete"
+          />
+
+          <!-- Autocomplete dropdown -->
+          <ul
+            v-if="showAutocomplete && filteredSuggestions.length > 0"
+            id="platform-search-suggestions"
+            role="listbox"
+            class="absolute z-30 mt-1 max-h-72 w-full overflow-y-auto rounded-md border border-ebony-clay-200 bg-white py-1 shadow-lg"
+          >
+            <li
+              v-for="(suggestion, index) in filteredSuggestions"
+              :key="`${suggestion.type}-${suggestion.name}`"
+              role="option"
+              :aria-selected="index === selectedSuggestionIndex"
+              class="flex cursor-pointer items-center justify-between gap-3 px-3 py-2 text-sm hover:bg-ebony-clay-50"
+              :class="{ 'bg-ebony-clay-100': index === selectedSuggestionIndex }"
+              @mouseenter="selectedSuggestionIndex = index"
+              @mousedown.prevent="selectSuggestion(suggestion)"
+            >
+              <span class="min-w-0 truncate text-chicago-800">{{ suggestion.name }}</span>
+              <span
+                class="shrink-0 rounded-full px-2 py-0.5 text-xs"
+                :class="
+                  suggestion.type === 'tool'
+                    ? 'bg-galaxy-primary/10 text-galaxy-primary'
+                    : 'bg-green-100 text-green-800'
+                "
+              >
+                {{ suggestion.badge }}
+              </span>
+            </li>
+          </ul>
+
+          <!-- Active tool/reference search indicator -->
+          <p v-if="isToolSearch" class="mt-1 text-xs text-galaxy-primary">
+            Tool search: “{{ searchQuery.trim().slice(5).trim() }}”
+          </p>
+          <p v-else-if="isReferenceSearch" class="mt-1 text-xs text-green-700">
+            Reference search: “{{ searchQuery.trim().slice(10).trim() }}”
+          </p>
         </div>
 
         <!-- Scope Filter -->
