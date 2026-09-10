@@ -1,7 +1,7 @@
 ---
 title: "Last Few Spots left - Galaxy Tool Development Workshop, Registration Closes 14 September"
 date: "2026-09-09"
-tease: "Only a handful of spots remain for the 2nd Galaxy Tool Development Workshop in Freiburg (7-9 October 2026). Registration closes on 11 September, and remote participation is available."
+tease: "Only a handful of spots remain for the 2nd Galaxy Tool Development Workshop in Freiburg (7-9 October 2026). Registration closes on 14 September, and remote participation is available."
 tags: [workshop, tools, training, uni-freiburg, esg]
 subsites: [all]
 contributions:
@@ -10,6 +10,7 @@ contributions:
     - bernt-matthias
   funding:
     - deNBI
+    - mwk
 ---
 
 _Ever wanted your tools used by thousands of researchers around the world? There is still time to join us and find out how._
