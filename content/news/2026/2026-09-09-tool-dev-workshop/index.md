@@ -10,6 +10,7 @@ contributions:
     - bernt-matthias
   funding:
     - deNBI
+    - mwk
 ---
 
 _Ever wanted your tools used by thousands of researchers around the world? There is still time to join us and find out how._
