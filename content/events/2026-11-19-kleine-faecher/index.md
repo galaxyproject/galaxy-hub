@@ -1,7 +1,7 @@
 ---
 title: "Galaxy and AI in small subjects"
-date: '2026-10-19'
-end: '2026-10-20'
+date: '2026-11-19'
+end: '2026-11-20'
 location:
   name: Mainz
 tags: [humanities, conference, ai, nfdi]
