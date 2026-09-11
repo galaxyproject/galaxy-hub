@@ -4,7 +4,7 @@ date: "2026-09-11"
 tease: "Browse openBIS files in Galaxy, analyse them, and return results to your lab notebook."
 components: true
 hide_tease: false
-tags: [integrations]
+tags: [interoperability]
 contributions:
   authorship:
     - plushz
