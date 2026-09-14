@@ -10,6 +10,7 @@ contributions:
     - plushz
   funding:
     - datacommons
+    - materialvitaldigital
 ---
 
 Lab data and analysis often live in different places. An experiment is documented in
