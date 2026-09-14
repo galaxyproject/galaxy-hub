@@ -1,13 +1,15 @@
 ---
 title: "Connecting openBIS and Galaxy: from lab data to analysis and back"
 date: "2026-09-11"
-tease: "Browse openBIS files in Galaxy, analyse them, and return results to your lab notebook."
+tease: "Browse openBIS files in Galaxy, analyse them, and return results to your lab notebook"
 components: true
 hide_tease: false
 tags: [interoperability]
 contributions:
   authorship:
     - plushz
+  funding:
+    - datacommons
 ---
 
 Lab data and analysis often live in different places. An experiment is documented in
@@ -15,7 +17,7 @@ openBIS, while its data are analysed in Galaxy. Moving files between them manual
 extra downloads and uploads to the workflow.
 
 [openBIS](https://openbis.ch/) combines an electronic lab notebook, inventory management,
-and research data management. A new openBIS file source in Galaxy connects these two environments. It lets you browse files
+and research data management. A new repository plugin for openBIS in Galaxy connects these two environments. It lets you browse files
 from openBIS inside Galaxy, import them into a history, and send analysis results back
 to an existing Collection or Object in openBIS.
 
@@ -100,8 +102,8 @@ metadata; the analysis history remains in Galaxy.
   A shared Space such as `ELN_SETTINGS` may therefore also appear.
 - Create Spaces, Projects, Collections, and Objects in openBIS before using them
   from Galaxy. The integration can create AFS folders, but not openBIS entities.
-- This first implementation follows the Collection-based hierarchy. Objects outside
+- Curently we follow the Collection-based hierarchy in our openBIS implementation. Objects outside
   Collections, classic Attachments, and linked/container DataSets are not covered
   by this browsing workflow.
-- Renaming and deleting AFS files are not exposed by this file source; manage those
+- Renaming and deleting AFS files are not possible; manage those
   operations in openBIS.
