@@ -2,7 +2,7 @@
 # THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
 # To update, run: python3 scripts/update-tools.py --server https://usegalaxy.eu --name "European Galaxy" --output content/eu/tools/index.md
 title: European Galaxy Tools
-description: "4432 tools and counting"
+description: "4438 tools and counting"
 ---
 
 
@@ -2441,7 +2441,6 @@ description: "4432 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=ncbi_tblastx_wrapper" target="_top" title="Search translated nucleotide database with translated nucleotide query sequence(s)">NCBI BLAST+ tblastx</a>
 <a href="https://usegalaxy.eu/root?tool_id=get_species_taxids" target="_top" title="">NCBI get species taxids</a>
 <a href="https://usegalaxy.eu/root?tool_id=logan_protein_search_database" target="_top" title="Search FAISS database with embedded queries and align with MMseqs2">Search Protein Database</a>
-<a href="https://usegalaxy.eu/root?tool_id=search_protein_search_database" target="_top" title="Search FAISS database with embedded queries and align with MMseqs2">Search Protein Database</a>
 
 </div>
 
@@ -3228,6 +3227,7 @@ description: "4432 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=fragpipe_manifest_generator" target="_top" title="Generate a FragPipe Manifest File (Experimental Design File)">FragPipe Manifest Generator</a>
 <a href="https://usegalaxy.eu/root?tool_id=FuzzyDiff" target="_top" title="Compares two files, tolerating numeric differences">FuzzyDiff</a>
 <a href="https://usegalaxy.eu/root?tool_id=GNPSExport" target="_top" title="Tool to export representative consensus MS/MS scan per consensusElement into a .MGF file format">GNPSExport</a>
+<a href="https://usegalaxy.eu/root?tool_id=glycombo" target="_top" title="Identify glycan and polysaccharide compositions from mass spectrometry files">GlyCombo</a>
 <a href="https://usegalaxy.eu/root?tool_id=hardklor" target="_top" title="identification of features from mass spectra">Hardklor</a>
 <a href="https://usegalaxy.eu/root?tool_id=HighResPrecursorMassCorrector" target="_top" title="Corrects the precursor mass and charge determined by the instrument software">HighResPrecursorMassCorrector</a>
 <a href="https://usegalaxy.eu/root?tool_id=IDConflictResolver" target="_top" title="Resolves ambiguous annotations of features with peptide identifications">IDConflictResolver</a>
@@ -3905,6 +3905,7 @@ description: "4432 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=sklearn_pca" target="_top" title="with scikit-learn">Principal component analysis</a>
 <a href="https://usegalaxy.eu/root?tool_id=rag_retriever" target="_top" title="Retrieve relevant chunks from documents and output a context file">RAG Retriever</a>
 <a href="https://usegalaxy.eu/root?tool_id=biomodels_biomd0000001066" target="_top" title="to predict efficacy of immune checkpoint blockade across multiple cancer patient cohorts">Random Forest model</a>
+<a href="https://usegalaxy.eu/root?tool_id=simorgh" target="_top" title="Deep learning framework for apo-state and cryptic pocket prediction">SIMORGH</a>
 <a href="https://usegalaxy.eu/root?tool_id=scipy_sparse" target="_top" title="for manipulating 2-D Scipy sparse numeric data">Sparse Matrix Functions</a>
 <a href="https://usegalaxy.eu/root?tool_id=whisper" target="_top" title="Transcribe audio or video files to text using the OpenAI Whisper">Speech to Text</a>
 <a href="https://usegalaxy.eu/root?tool_id=whisperx" target="_top" title="Transcribe audio or video files to text using the OpenAI Whisper and speaker diarization (WhisperX)">Speech to Text with Diarization</a>
@@ -4124,8 +4125,8 @@ description: "4432 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=pampa_glmcomm" target="_top" title="Compute a GLM of your choice on community data">Compute GLM on community data</a>
 <a href="https://usegalaxy.eu/root?tool_id=pampa_glmsp" target="_top" title="Compute a GLM of your choice on population data">Compute GLM on population data</a>
 <a href="https://usegalaxy.eu/root?tool_id=pampa_plotglm" target="_top" title="as temporal trend">Create a plot from GLM data</a>
-<a href="https://usegalaxy.eu/root?tool_id=stoceps_glm_group" target="_top" title="by specialization group">Estimate temporal population variation</a>
 <a href="https://usegalaxy.eu/root?tool_id=stoceps_glm" target="_top" title="by species">Estimate temporal population variation</a>
+<a href="https://usegalaxy.eu/root?tool_id=stoceps_glm_group" target="_top" title="by specialization group">Estimate temporal population variation</a>
 <a href="https://usegalaxy.eu/root?tool_id=regionalgam_glmmpql" target="_top" title="of species abundance">Expected temporal trend</a>
 <a href="https://usegalaxy.eu/root?tool_id=stoceps_filteringsp" target="_top" title="with rare and low abundances">Filter species</a>
 <a href="https://usegalaxy.eu/root?tool_id=regionalgam_flight_curve" target="_top" title="compute the regional expected pattern of abundance">Flight curve</a>
@@ -4173,6 +4174,7 @@ description: "4432 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=gdal_gdalwarp" target="_top" title="image reprojection and warping utility">GDAL Warp</a>
 <a href="https://usegalaxy.eu/root?tool_id=gdal_gdaladdo" target="_top" title="builds or rebuilds overview images">GDAL addo</a>
 <a href="https://usegalaxy.eu/root?tool_id=hirondelle_crim" target="_top" title="executes remote processes.">Hirondelle CRIM OGC API Processes</a>
+<a href="https://usegalaxy.eu/root?tool_id=timeseries_extraction" target="_top" title="Extract and plot time series">NetCDF timeseries Extractor</a>
 <a href="https://usegalaxy.eu/root?tool_id=xarray_coords_info" target="_top" title="Get values for each coordinate of a Netcdf file">NetCDF xarray Coordinate Info</a>
 <a href="https://usegalaxy.eu/root?tool_id=xarray_metadata_info" target="_top" title="summarize content of a Netcdf file">NetCDF xarray Metadata Info</a>
 <a href="https://usegalaxy.eu/root?tool_id=xarray_select" target="_top" title="extracts variable values with custom conditions on dimensions">NetCDF xarray Selection</a>
@@ -4184,6 +4186,7 @@ description: "4432 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=otb_mean_shift_smoothing" target="_top" title="smooths an image using the MeanShift algorithm">OTB.MeanShiftSmoothing</a>
 <a href="https://usegalaxy.eu/root?tool_id=interpolation_run_idw_interpolation" target="_top" title="based on Inverse Distance Weighting (IDW)">Run interpolation</a>
 <a href="https://usegalaxy.eu/root?tool_id=terrabyte_ogc_api_processes" target="_top" title="Water quality EO Application Package">Terrabyte OGC API Processes</a>
+<a href="https://usegalaxy.eu/root?tool_id=srs_metadata" target="_top" title="metadata documents">Validate ISO 19139</a>
 <a href="https://usegalaxy.eu/root?tool_id=zoo_project_ogc_api_processes" target="_top" title="executes remote OTB processes">Zoo Project OGC API Processes</a>
 
 </div>
@@ -4201,6 +4204,7 @@ description: "4432 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=cads" target="_top" title="for retrieving data from the Atmosphere Monitoring Service">Copernicus Atmosphere Data Store</a>
 <a href="https://usegalaxy.eu/root?tool_id=c3s" target="_top" title="for retrieving climate data">Copernicus Climate Data Store</a>
 <a href="https://usegalaxy.eu/root?tool_id=cds_essential_variability" target="_top" title="for assessing climate variability">Copernicus Essential Climate Variables</a>
+<a href="https://usegalaxy.eu/root?tool_id=divand_full_analysis" target="_top" title="Data-Interpolating Variational Analysis in n dimensions">DIVAnd</a>
 <a href="https://usegalaxy.eu/root?tool_id=eodie" target="_top" title="converts simple features data between file formats">EODIE</a>
 <a href="https://usegalaxy.eu/root?tool_id=landcover_subindicator" target="_top" title="subindicator to track land changes">Land cover degradation</a>
 <a href="https://usegalaxy.eu/root?tool_id=timeseries_extraction" target="_top" title="Extract and plot time series">NetCDF timeseries Extractor</a>
@@ -4577,6 +4581,7 @@ description: "4432 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=vitessce_spatial" target="_top" title="Visual Integration Tool for the Exploration of Spatial Single-Cell Experiments">Vitessce</a>
 <a href="https://usegalaxy.eu/root?tool_id=woundhealing_scratch_assay" target="_top" title="image analysis">Wound healing scratch assay</a>
 <a href="https://usegalaxy.eu/root?tool_id=jdeskew" target="_top" title="document image deskewing">jdeskew</a>
+<a href="https://usegalaxy.eu/root?tool_id=microsim" target="_top" title="pore-scale pseudo-3D Stokes flow simulation from a PGM geometry">microsim</a>
 <a href="https://usegalaxy.eu/root?tool_id=pdfimages" target="_top" title="Extract images from a PDF file">pdfimages</a>
 
 </div>
@@ -4759,6 +4764,7 @@ description: "4432 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=straindesign_simulate_deletion" target="_top" title="Search genes to delete in a biological model">StrainDesign simulate-deletion</a>
 <a href="https://usegalaxy.eu/root?tool_id=td" target="_top" title="Tag distance analysis of duplex tags">TD:</a>
 <a href="https://usegalaxy.eu/root?tool_id=text_to_wordmatrix" target="_top" title="by extracting most frequent words">Text to wordmatrix</a>
+<a href="https://usegalaxy.eu/root?tool_id=new_fave_extract" target="_top" title="with new-fave">Vowel formant extraction</a>
 <a href="https://usegalaxy.eu/root?tool_id=pcdl_get_anndata" target="_top" title="">pcdl_get_anndata</a>
 <a href="https://usegalaxy.eu/root?tool_id=pcdl_get_cell_attribute" target="_top" title="">pcdl_get_cell_attribute</a>
 <a href="https://usegalaxy.eu/root?tool_id=pcdl_get_cell_attribute_list" target="_top" title="">pcdl_get_cell_attribute_list</a>
