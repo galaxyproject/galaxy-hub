@@ -21,8 +21,10 @@ and research data management. A new repository plugin for openBIS in Galaxy conn
 from openBIS inside Galaxy, import them into a history, and send analysis results back
 to an existing Collection or Object in openBIS.
 
-The implementation is described in [Galaxy pull request #23458](https://github.com/galaxyproject/galaxy/pull/23458).
-Availability depends on your Galaxy server: an administrator must install the integration.
+The integration supports importing existing openBIS DataSet files and importing or
+exporting files through AFS, the storage used by openBIS 7's **Files** tab. Access follows
+your openBIS account's permissions. If openBIS is not listed under **Manage Your Repositories**
+when creating a connection in Galaxy, ask your Galaxy administrator to enable the integration.
 
 ## Connect your openBIS account
 
@@ -40,10 +42,6 @@ In Galaxy, open your user preferences and select **Manage Your Repositories**, t
 - Your Personal Access Token.
 - **Writable** enabled if you want to export results; it is disabled by default.
 - **Verify TLS certificates** enabled to verify the server's identity.
-
-Only disable certificate verification for a trusted local test instance with an
-untrusted or self-signed certificate. Your Galaxy server must be able to reach the
-openBIS address; browser access alone is not enough.
 
 <VideoPlayer
   src="/images/news/2026-09-11-openbis-integration/openbis-connect.webm"
