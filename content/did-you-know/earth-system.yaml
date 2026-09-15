@@ -1,4 +1,4 @@
-title: Galaxy Earth System Sciences (GESS)
+title: Galaxy is cross-domain: Galaxy Earth System Sciences (GESS)
 tease: Open-source, reusable tutorials and tools for Earth system sciences and data-driven research
 body: |
    The Galaxy for Earth System Sciences (GESS) is a community-driven initiative offering free, FAIR, 
@@ -6,11 +6,6 @@ body: |
    Hosted on Galaxy Europe and supported by Data Terra, GESS provides tutorials and tools for climate modeling, 
    remote sensing, geospatial analysis, environmental data processing, and more.
    
-   Maintained and animated by a global community of researchers, engineer, and data practitioners, 
-   GESS ensures that its resources are accessible, up-to-date, and adaptable for workshops, classrooms, or collaborative research projects.
-
-   Our mission is to empower Earth system science researchers with reproducible, transparent, and collaborative data analysis tools, 
-   while leveraging the infrastructure and expertise of Data Terra to enhance data accessibility and interoperability.
    Come discuss with us here https://matrix.to/#/#galaxyproject_earth-climate-ecology-sciences:matrix.org
 
 
