@@ -1,0 +1,39 @@
+title: Galaxy is cross-domain, Galaxy Earth System Sciences (GESS)
+tease: Open-source, reusable tutorials and tools for Earth system sciences and data-driven research
+body: |
+   The Galaxy for Earth System Sciences (GESS) is a community-driven initiative offering free, FAIR, 
+   and open-source e-learning materials and computational workflows tailored for Earth system sciences. 
+   Hosted on Galaxy Europe and supported by Data Terra, GESS provides tutorials and tools for climate modeling, 
+   remote sensing, geospatial analysis, environmental data processing, and more.
+
+subsites: [all]
+date: "2026-09-15"
+weight: 30
+images:
+  - url: /images/communities/earth-system/gess_logo.png
+    alt: Screenshot of the GESS logo
+  - url: /images/communities/earth-system/gess_homepage.png
+    alt: Screenshot of the GESS subdomain
+  - url: /images/communities/earth-system/dataterra.png
+    alt: Screenshot of the Data Terra site 
+  - url: /images/communities/earth-system/eosc_dataterra.png
+    alt: Screenshot of the EOSC Data Terra page
+  - url: /images/communities/earth-system/gess_trainings.png
+    alt: Screenshot of the GESS trainings
+  - url: /images/communities/earth-system/gess_git.png
+    alt: Screenshot of the Earth data community git
+links:
+  - url: https://galaxyproject.org/community/sig/earth/
+    text: View the Special interest Group Earth
+  - url: https://earth-system.usegalaxy.eu/
+    text: View the GESS subdomain
+  - url: https://www.data-terra.org/
+    text: Explore the Data Terra website
+  - url: https://www.data-terra.org/eosc/
+    text: Read the EOSC Data Terra page
+  - url: https://training.galaxyproject.org/training-material/topics/climate/
+    text: View the GESS tutorials
+  - url: https://github.com/earth-data-community/galaxy-tools
+    text: Explore the Earth Data Community git
+  - url: https://matrix.to/#/#galaxyproject_earth-climate-ecology-sciences:matrix.org
+    text: Come discuss with us !
