@@ -5,9 +5,6 @@ body: |
    and open-source e-learning materials and computational workflows tailored for Earth system sciences. 
    Hosted on Galaxy Europe and supported by Data Terra, GESS provides tutorials and tools for climate modeling, 
    remote sensing, geospatial analysis, environmental data processing, and more.
-   
-   Come discuss with us here https://matrix.to/#/#galaxyproject_earth-climate-ecology-sciences:matrix.org
-
 
 subsites: [all]
 date: "2026-09-15"
@@ -38,3 +35,5 @@ links:
     text: View the GESS tutorials
   - url: https://github.com/earth-data-community/galaxy-tools
     text: Explore the Earth Data Community git
+  - url: https://matrix.to/#/#galaxyproject_earth-climate-ecology-sciences:matrix.org
+    text: Come discuss with us !
