@@ -57,6 +57,7 @@
 - covid-19
 - data
 - datacommons
+- dataterra
 - dataverse
 - deep-learning
 - demo
@@ -87,6 +88,10 @@
 - esg-wp3
 - esg-wp4
 - esg-wp5
+- esg4stars
+- esg4stars-s1
+- esg4stars-s2
+- esg4stars-s3
 - eu
 - event
 - fair
@@ -113,6 +118,7 @@
 - imaging
 - import
 - infrastructure
+- internship
 - interoperability
 - jobs
 - jupyter
@@ -169,6 +175,7 @@
 - pulsar
 - rdm
 - release
+- release-guardians
 - report
 - repository
 - reproducibility
@@ -184,6 +191,7 @@
 - society
 - spatial-omics
 - sra
+- staffexchange
 - standardization
 - statistics
 - storage
@@ -195,6 +203,7 @@
 - sysadmins
 - tags
 - talk
+- teaching
 - termite microbiome
 - text-mining
 - tiaas

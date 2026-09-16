@@ -8,7 +8,7 @@ contacts:
 location:
   name: online
 external_url: https://abrf.memberclicks.net/upcoming-workshops---webinars
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 ---
 Online video tutorials about the use of cloud computing resources for MS-based proteomics. 

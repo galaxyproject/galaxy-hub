@@ -4,7 +4,7 @@ autotoc: false
 
 # Code of Conduct
 
-<p class="lead">
+<p class="text-lg text-galaxy-grey">
 We are committed to providing a welcoming and inspiring community for all.
 If you participate in GCC2026, then you too are committed to this goal.
 </p>

@@ -350,7 +350,7 @@ Edvard Martins de Oliveira, Júlio Cézar Estrella, Alexandre Cláudio Botazzo D
 
 The Galaxy is expanding! Please help it grow.
 
-* [Freiburg Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2018/01/18/openpositions/), Freiburg, Germany
+* [Freiburg Galaxy Team has open positions](/news/2018-01-18-openpositions/), Freiburg, Germany
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/news/2017-08-hiring-at-hopkins/), Baltimore, Maryland, United States
 

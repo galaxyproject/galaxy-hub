@@ -6,10 +6,16 @@ const props = defineProps<{
   albumId?: string;
   userId?: string;
   url?: string;
+  link?: string;
+  title?: string;
+  cover?: string;
+  coverWidth?: string | number;
+  coverHeight?: string | number;
 }>();
 
 const embedUrl = computed(() => {
   if (props.url) return props.url;
+  if (props.link) return props.link;
 
   if (props.photoId) {
     return `https://www.flickr.com/photos/${props.userId || 'galaxyproject'}/${props.photoId}/`;
@@ -21,6 +27,9 @@ const embedUrl = computed(() => {
 
   return '';
 });
+
+const imageWidth = computed(() => (props.coverWidth ? String(props.coverWidth) : undefined));
+const imageHeight = computed(() => (props.coverHeight ? String(props.coverHeight) : undefined));
 </script>
 
 <template>
@@ -30,9 +39,18 @@ const embedUrl = computed(() => {
         :href="embedUrl"
         target="_blank"
         rel="noopener noreferrer"
-        class="inline-block p-4 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors"
+        class="inline-block p-4 bg-ebony-clay-50 rounded-lg hover:bg-ebony-clay-100 transition-colors"
       >
-        <div class="flex items-center gap-2 text-gray-700">
+        <img
+          v-if="cover"
+          :src="cover"
+          :alt="title || 'Flickr photo'"
+          :width="imageWidth"
+          :height="imageHeight"
+          class="mx-auto mb-3 rounded-lg"
+          loading="lazy"
+        />
+        <div class="flex items-center gap-2 text-chicago-700">
           <svg class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
             <circle cx="7" cy="12" r="5" fill="#0063DC" />
             <circle cx="17" cy="12" r="5" fill="#FF0084" />
@@ -49,8 +67,8 @@ const embedUrl = computed(() => {
         </div>
       </a>
     </div>
-    <div v-else class="p-4 bg-gray-100 rounded-lg text-center">
-      <p class="text-gray-600">No Flickr content specified</p>
+    <div v-else class="p-4 bg-ebony-clay-50 rounded-lg text-center">
+      <p class="text-chicago-600">No Flickr content specified</p>
     </div>
   </div>
 </template>

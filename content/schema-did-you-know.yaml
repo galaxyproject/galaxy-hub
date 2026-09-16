@@ -1,0 +1,95 @@
+---
+# Schema for "Did you know" item YAML files (content/did-you-know/).
+#
+# Each file is a single self-contained "Did you know" tip. The filename (sans
+# extension) is the item slug. Items appear on the browse page (/did-you-know/)
+# and on the bare embed (/bare/did-you-know/), where one item is sampled at
+# random per page load.
+#
+# Subsite semantics are a *whitelist*, identical to news/events: an item lists
+# the subsites it should appear on. Omitting a subsite means it won't show up
+# there. Use `all` to match every subsite, or `all-eu` for the EU group.
+#
+# NOTE: the shared validator strips a `description` key from schemas (it is used
+# only for inline documentation), so image/link "short description" fields are
+# named `alt` and `text` respectively — matching the events schema's `links`
+# convention (`text` + `url`).
+type: map
+_examples: |
+    pygenometracks:
+        title: pyGenomeTracks in Galaxy
+        tease: Plot entire genomes in a publication-ready way, right inside Galaxy.
+        body: |
+          pyGenomeTracks lets you stack BED, bigWig, and Hi-C tracks into a single
+          publication-ready figure. Run it on the Galaxy main instance with no install.
+        subsites: [all]
+        date: "2026-08-28"
+        images:
+          - url: https://example.com/img1.png
+            alt: Genome track plot with gene annotations and coverage
+        links:
+          - url: https://github.com/deeptools/pyGenomeTracks
+            text: pyGenomeTracks source & docs
+mapping:
+    "=":
+        type: map
+        mapping:
+            title:
+                type: str
+                required: true
+                description: Human-readable title of the tip
+            tease:
+                type: str
+                required: false
+                description: Short one-line summary shown in listings
+            body:
+                type: str
+                required: true
+                description: Body text (markdown allowed)
+            subsites:
+                type: seq
+                required: false
+                sequence:
+                    - type: str
+                      enum:
+                          - SUBSITES
+                description: Subsites this item belongs to (whitelist; defaults to [all])
+            date:
+                type: str
+                required: false
+                pattern: /[0-9]{4}-[0-9]{2}-[0-9]{2}/
+                description: Optional date for ordering (YYYY-MM-DD, quoted)
+            weight:
+                type: int
+                required: false
+                description: Sort weight — higher values rank higher in the browse grid; omit to sort last. Any integer allowed. Use multiples of 10 to leave room for new items.
+            images:
+                type: seq
+                required: false
+                sequence:
+                    - type: map
+                      mapping:
+                          url:
+                              type: str
+                              required: true
+                              description: Image URL (remote or local asset path)
+                          alt:
+                              type: str
+                              required: true
+                              description: Short description / alt text for the image
+                description: One or more images; one is sampled per render
+            links:
+                type: seq
+                required: false
+                sequence:
+                    - type: map
+                      mapping:
+                          url:
+                              type: str
+                              required: true
+                              description: URL for further reading
+                          text:
+                              type: str
+                              required: true
+                              description: Short description of the link destination
+                description: One or more links; one is sampled per render

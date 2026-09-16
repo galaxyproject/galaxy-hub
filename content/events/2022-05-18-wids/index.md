@@ -8,7 +8,7 @@ contacts:
 location:
   name: online
 external_url: https://www.denbi.de/women-in-data-science/women-in-data-sciences-2022
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   funding:

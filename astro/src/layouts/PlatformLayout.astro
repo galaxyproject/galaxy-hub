@@ -93,7 +93,7 @@ const sections = [
     <header class="mb-8">
       <div class="flex flex-col md:flex-row gap-6">
         <div class="flex-1">
-          <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">{title}</h1>
+          <h1 class="text-3xl sm:text-4xl font-bold text-chicago-900 mb-4">{title}</h1>
 
           {
             url && (
@@ -142,7 +142,7 @@ const sections = [
                 href={url}
                 target="_blank"
                 rel="noopener noreferrer"
-                class="block border border-gray-200 rounded-lg p-2 hover:border-galaxy-primary transition-colors"
+                class="block border border-ebony-clay-100 rounded-lg p-2 hover:border-galaxy-primary transition-colors"
               >
                 <img src={image} alt={title} class="max-w-48 h-auto" />
               </a>
@@ -157,10 +157,10 @@ const sections = [
       instances && instances.length > 0 && (
         <div class="mb-8 overflow-x-auto">
           <table class="w-full border-collapse">
-            <tbody class="divide-y divide-gray-200">
+            <tbody class="divide-y divide-ebony-clay-100">
               {instances.map((instance: PlatformInstance) => (
-                <tr class="bg-gray-50 even:bg-white">
-                  <th class="px-4 py-3 text-left text-sm font-medium text-gray-900 w-40">
+                <tr class="bg-ebony-clay-50 even:bg-white">
+                  <th class="px-4 py-3 text-left text-sm font-medium text-chicago-900 w-40">
                     {groupNames[instance.platform_group || ''] || instance.platform_group || 'Instance'}:
                   </th>
                   <td class="px-4 py-3 text-sm">
@@ -177,14 +177,14 @@ const sections = [
                       <span>{instance.platform_text}</span>
                     )}
                     {instance.platform_location && (
-                      <span class="text-gray-500 ml-2">({instance.platform_location})</span>
+                      <span class="text-chicago-500 ml-2">({instance.platform_location})</span>
                     )}
                   </td>
                 </tr>
               ))}
               {scope && (
-                <tr class="bg-gray-50 even:bg-white">
-                  <th class="px-4 py-3 text-left text-sm font-medium text-gray-900 w-40">Scope:</th>
+                <tr class="bg-ebony-clay-50 even:bg-white">
+                  <th class="px-4 py-3 text-left text-sm font-medium text-chicago-900 w-40">Scope:</th>
                   <td class="px-4 py-3 text-sm">
                     <a href={`/use/#${scope}`} class="text-galaxy-primary hover:underline">
                       {scopeNames[scope] || scope}
@@ -193,10 +193,10 @@ const sections = [
                 </tr>
               )}
               {summary && (
-                <tr class="bg-gray-50 even:bg-white">
-                  <th class="px-4 py-3 text-left text-sm font-medium text-gray-900 w-40 align-top">Summary:</th>
+                <tr class="bg-ebony-clay-50 even:bg-white">
+                  <th class="px-4 py-3 text-left text-sm font-medium text-chicago-900 w-40 align-top">Summary:</th>
                   <td
-                    class="px-4 py-3 text-sm text-gray-700 prose prose-sm max-w-none"
+                    class="px-4 py-3 text-sm text-chicago-700 prose prose-sm max-w-none"
                     set:html={renderMarkdownInline(summary)}
                   />
                 </tr>
@@ -216,8 +216,8 @@ const sections = [
     {
       sections.map((section) => (
         <div class="mb-6">
-          <h2 class="text-xl font-semibold text-gray-900 mb-3 capitalize">{section.name}</h2>
-          <ul class="list-disc list-inside space-y-1 text-gray-700">
+          <h2 class="text-xl font-semibold text-chicago-900 mb-3 capitalize">{section.name}</h2>
+          <ul class="list-disc list-inside space-y-1 text-chicago-700">
             {section.items.map((item: string) => (
               <li class="prose prose-sm max-w-none" set:html={renderMarkdownInline(item)} />
             ))}
@@ -247,7 +247,7 @@ const sections = [
     }
 
     <!-- Platform Footer -->
-    <footer class="mt-12 pt-8 border-t border-gray-200">
+    <footer class="mt-12 pt-8 border-t border-ebony-clay-100">
       <div class="flex justify-between items-center">
         <a href="/use/" class="text-galaxy-primary hover:underline flex items-center gap-1">
           <Icon name="chevron-left" />
@@ -260,7 +260,7 @@ const sections = [
                 href={editUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                class="text-gray-500 hover:text-galaxy-primary flex items-center gap-1.5 transition-colors"
+                class="text-chicago-500 hover:text-galaxy-primary flex items-center gap-1.5 transition-colors"
               >
                 <Icon name="edit" />
                 Edit on GitHub
@@ -289,7 +289,7 @@ const sections = [
 <style>
   .prose-galaxy {
     --tw-prose-links: #25537b;
-    --tw-prose-headings: #1f2937;
+    --tw-prose-headings: #2c3143;
   }
 
   .prose-galaxy :where(a):not(:where([class~='not-prose'] *)) {

@@ -318,9 +318,9 @@ Interested in an exciting new Galaxy-focused opportunity with core team members?
 </div>
 
 <div class="card border-info"  style="min-width: 12rem; max-width: 28rem;">
-<div class="card-header">[Software engineer, system analysts / administrators, data analyst, and a community and/or research manager](https://usegalaxy-eu.github.io/posts/2019/01/10/openpositions/)</div>
+<div class="card-header">[Software engineer, system analysts / administrators, data analyst, and a community and/or research manager](/news/2019-01-10-openpositions/)</div>
 
-The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2019/01/10/openpositions/) in Freiburg, Germany.
+The [The European Galaxy Team has open positions](/news/2019-01-10-openpositions/) in Freiburg, Germany.
 
 <img class="card-img-bottom" src="/images/galaxy-logos/galaxy-europe-white.png" alt="Galaxy Europe" />
 </div>

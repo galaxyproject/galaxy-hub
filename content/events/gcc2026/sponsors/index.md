@@ -1,11 +1,57 @@
 ---
+autotoc: false
 ---
 
-# Why Sponsor GCC2026?
+# GCC2026 Sponsors
 
 The **Galaxy Community Conference (GCC)** is the flagship event for one of the most impactful open-source platforms in computational biology. By sponsoring GCC2026, you're investing in a global movement democratizing data-intensive research.
 
-# Our thank you to the sponsors
+## Silver sponsors
+
+<a href="https://www.data-terra.org/" target="_blank">
+  <img src="/images/logos/data-terra.png" alt="Data Terra" style="max-width: 30%;" />
+</a>
+
+<hr/>
+
+<a href="https://www.pndb.fr/pages/accueil/" target="_blank">
+  <img src="/images/logos/pndb.png" alt="PNDB - Pôle National de Données de Biodiversité" style="max-width: 30%;" />
+</a>
+
+<hr/>
+
+## Bronze sponsors
+<a href="https://galaxyworks.io/" target="_blank">
+  <img src="/images/logos/galaxyworks-logo.png" alt="GalaxyWorks" style="max-width: 25%;" />
+</a>
+
+<hr/>
+
+<a href="https://www.ifb-elixir.fr/en/" target="_blank">
+  <img src="https://www.ifb-elixir.fr/wp-content/uploads/2025/08/logo-ifb.svg" alt="IFB" style="max-width: 25%;" />
+</a>
+
+<hr/>
+<a href="https://www.denbi.de/" target="_blank">
+  <img src="/images/logos/deNBILogo.png" alt="de.NBI" style="max-width: 25%;" />
+</a>
+
+<hr/>
+<a href="https://www.limagrain.com/en" target="_blank">
+  <img src="/images/logos/limagrain-logo-text.png" alt="Limagrain" style="max-width: 25%;" />
+</a>
+
+## Friends of GCC
+
+<a href="https://www.sfbi.fr/" target="_blank">
+  <img src="/images/logos/SFBI-logo.png" alt="SFBI" style="max-width: 25%;" />
+</a>
+
+<hr/>
+
+# Why sponsor GCC2026 ?
+
+## Our thank you to the sponsors
 
 We make a strong effort to seamlessly integrate sponsors and their events into
 the broader GCC program, as well as promote participant engagement. Furthermore,
@@ -13,12 +59,9 @@ sponsor talks are generally scheduled immediately preceding or following a
 keynote talk to maximize their attendance.
 
 
-<div class="flex justify-center my-5">
-  <a href="https://drive.google.com/file/d/18rey6WCVtcutnnBbYLEUQVrdLohfup-3/view?usp=sharing" class="inline-flex items-center justify-center rounded px-8 py-2 text-sm font-semibold text-white bg-galaxy-primary hover:bg-galaxy-dark no-underline hover:no-underline">Download sponsorship prospectus</a>
-</div>
+<a href="https://drive.google.com/file/d/18rey6WCVtcutnnBbYLEUQVrdLohfup-3/view?usp=sharing" class="inline-flex items-center justify-center rounded px-8 py-2 text-sm font-semibold text-white bg-galaxy-primary hover:bg-galaxy-dark no-underline hover:no-underline">Download sponsorship prospectus</a>
 
-
-# Benefits of GCC sponsorship
+## Benefits of GCC sponsorship
 
 - Engage with some of the most active members and advocates of Galaxy's worldwide community
 - Reach out to 100+ PIs, researchers, practitioners, and trainees in data intensive life sciences
@@ -26,7 +69,7 @@ keynote talk to maximize their attendance.
 - Learn about opportunities for placing your services and products in the expanding Galaxy ecosystem
 - Give back to a popular and growing open source community
 
-## Beyond Life Sciences
+### Beyond Life Sciences
 
 Galaxy's impact extends across:
 - **Climate Science**: Earth observation and climate modeling
@@ -35,7 +78,7 @@ Galaxy's impact extends across:
 - **Public Health**: Pathogen surveillance (critical COVID-19 response)
 - **Machine Learning**: Workflow-based ML pipelines
 
-## Your Investment
+### Your Investment
 
 Sponsoring GCC2026 means supporting:
 - **Democratization**: Making sophisticated analysis accessible to all researchers
@@ -44,7 +87,7 @@ Sponsoring GCC2026 means supporting:
 - **Innovation**: Accelerating new methods into production
 - **Global Impact**: Research addressing health, environmental, and scientific challenges
 
-## Host: Université Clermont Auvergne
+### Host: Université Clermont Auvergne
 
 GCC2026 will be hosted by **Université Clermont Auvergne (UCA)**, featuring:
 - 37,000+ students and vibrant international community
@@ -54,7 +97,7 @@ GCC2026 will be hosted by **Université Clermont Auvergne (UCA)**, featuring:
 
 ---
 
-## Ready to Partner with Us?
+### Ready to Partner with Us?
 
 **Contact the GCC2026 Organizing Committee:**
 Email:

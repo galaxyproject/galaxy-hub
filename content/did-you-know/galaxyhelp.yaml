@@ -1,0 +1,19 @@
+title: Galaxy Community Help
+tease: A community forum where Galaxy users can find answers, troubleshoot problems, and share solutions.
+body: |
+  **Galaxy Community Help** is the place to find answers to your Galaxy related questions and connect with other users.
+  Search thousands of community discussions for answers to common questions, or
+  ask a new question when you cannot find what you need. You can get help with
+  tools, workflows, datasets, uploads, job failures, server issues, and more.
+
+subsites: [all]
+date: "2026-09-09"
+weight: 25
+images:
+  - url: /images/screenshots/galaxyhelp-home.png
+    alt: Screenshot of the Galaxy Community Help forum
+links:
+  - url: https://help.galaxyproject.org/
+    text: Visit Galaxy Community Help
+  - url: https://help.galaxyproject.org/guidelines
+    text: Community guidelines

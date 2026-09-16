@@ -2,7 +2,7 @@
 title: UseGalaxy.eu update to 18.09
 date: '2018-12-11'
 tags: [release]
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 ---
 
@@ -23,7 +23,7 @@ A few highlights (in no particual order)!
 - Workflows saw many enhancements:
   - You can now run a workflow directly from the "Published Workflows" list
   - The workflow editor supports zooming
-  - You can download a workflow directly from the editor (Thanks [Anup!](https://usegalaxy-eu.github.io/freiburg/people))
+  - You can download a workflow directly from the editor (Thanks [Anup!](/freiburg/people/))
 - Subworkflows now allow for setting runtime parameters
 - When pasting data or URLs into the Galaxy upload screen, you can now supply a
   name for this dataset rather than always having to change it afterwards.

@@ -1,0 +1,396 @@
+/* ==========================================================================
+   Print stylesheet
+   ==========================================================================
+
+   Two jobs here, in order of importance:
+
+   1. Make articles print at all. The screen layout nests flex containers
+      (`.site-shell` > `.site-main` > `.site-content`) and clips them with
+      `overflow: hidden`. Chrome fragments flex containers across printed
+      pages very poorly -- paragraphs get truncated mid-sentence and headings
+      vanish leaving only their bottom border. On top of that the mobile
+      header is `position: fixed`, which Chrome repeats on *every* page,
+      painting over whatever content sits under it. Unwinding those three
+      things back to plain block flow is what actually fixes printing.
+
+   2. Survive "Background graphics: off", which is the browser default in the
+      print dialog. Anything that relies on a dark background for contrast --
+      the page header, table headers, code blocks -- renders as white-on-white
+      and disappears. Those all get borders and dark text instead of
+      backgrounds, so they read the same either way.
+
+   Kept in its own file rather than appended to global.css so the print rules
+   stay greppable; global.css imports it last. These rules live outside any
+   cascade layer, so they beat Tailwind's layered utilities.
+   ========================================================================== */
+
+@media print {
+  /* --------------------------------------------------------------------
+     Page setup
+     -------------------------------------------------------------------- */
+  @page {
+    margin: 0.6in 0.55in;
+  }
+
+  /* --------------------------------------------------------------------
+     Hide non-content chrome: navigation, search, interactive controls.
+     -------------------------------------------------------------------- */
+  .site-sidebar,
+  .site-mobile-header,
+  .site-footer,
+  .toc-mobile,
+  .toc-sidebar,
+  .article-footer-actions,
+  .heading-anchor,
+  astro-dev-toolbar,
+  [data-print='hide'] {
+    display: none !important;
+  }
+
+  /* Any stray interactive control that isn't inside the chrome above. */
+  button,
+  input[type='search'],
+  form[action='/search/'],
+  dialog,
+  [role='dialog'] {
+    display: none !important;
+  }
+
+  /* --------------------------------------------------------------------
+     Layout reset -- the actual bug fix.
+
+     `overflow-x: hidden` on the root computes `overflow-y` to `auto`
+     (per spec, a non-visible value on one axis forces the other off
+     `visible`), which makes the root a scroll container and clips printed
+     content past page one.
+     -------------------------------------------------------------------- */
+  html,
+  body {
+    overflow: visible !important;
+    width: auto !important;
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: none !important;
+  }
+
+  /* Unwind the nested flex shells to block flow so content fragments
+     across pages normally. `min-height: 0` drops the min-h-screen floor
+     that would otherwise pad out the last page. */
+  .site-shell,
+  .site-main,
+  .site-content,
+  .content-with-toc {
+    display: block !important;
+    overflow: visible !important;
+    min-height: 0 !important;
+    max-width: none !important;
+    width: auto !important;
+    /* The sidebar is fixed-position on screen, so `main` carries a 16rem
+       left margin to clear it, and top padding to clear the mobile bar.
+       Both leave dead space once the chrome is hidden. */
+    margin: 0 !important;
+    padding: 0 !important;
+    background: none !important;
+  }
+
+  /* Decorative page-background patterns waste ink and hurt text contrast. */
+  .bg-grid,
+  .bg-grid-dark {
+    background-image: none !important;
+  }
+
+  article {
+    display: block !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: none !important;
+    box-shadow: none !important;
+  }
+
+  /* Sticky positioning pins an element to the viewport; in print that
+     parks it on page one. */
+  .sticky,
+  [class*='sticky'] {
+    position: static !important;
+  }
+
+  /* --------------------------------------------------------------------
+     Typography
+     -------------------------------------------------------------------- */
+  body {
+    font-size: 10.5pt;
+    line-height: 1.45;
+    color: #000;
+  }
+
+  .prose,
+  .prose-lg,
+  .prose-galaxy {
+    max-width: none !important;
+    font-size: 10.5pt !important;
+    line-height: 1.45 !important;
+    color: #000 !important;
+  }
+
+  .prose p,
+  .prose li {
+    color: #000 !important;
+    orphans: 3;
+    widows: 3;
+  }
+
+  .prose h1,
+  .prose h2,
+  .prose h3,
+  .prose h4,
+  .prose h5,
+  .prose h6 {
+    color: #000 !important;
+    break-after: avoid;
+    break-inside: avoid;
+    page-break-after: avoid;
+  }
+
+  .prose h1 {
+    font-size: 18pt !important;
+  }
+  .prose h2 {
+    font-size: 14pt !important;
+    border-bottom: 1px solid #999 !important;
+  }
+  .prose h3 {
+    font-size: 12pt !important;
+    margin-top: 1.4em !important;
+  }
+  .prose h4 {
+    font-size: 11pt !important;
+  }
+
+  /* --------------------------------------------------------------------
+     Page header -- white text on a dark gradient on screen, which is
+     invisible when background graphics are disabled.
+     -------------------------------------------------------------------- */
+  .page-header {
+    background: none !important;
+    color: #000 !important;
+    padding: 0 0 0.6rem !important;
+    border-bottom: 2px solid #000 !important;
+    border-radius: 0 !important;
+    break-inside: avoid;
+  }
+
+  .page-header::before {
+    display: none !important;
+  }
+
+  .page-header *,
+  .page-header a {
+    color: #000 !important;
+    text-decoration: none !important;
+  }
+
+  /* The gold accent bar beside the title has no text to carry it. */
+  .page-header .bg-galaxy-gold {
+    display: none !important;
+  }
+
+  /* Tag pills: keep the outline readable without a background. */
+  .page-header [class*='border-white'] {
+    border-color: #666 !important;
+  }
+
+  /* --------------------------------------------------------------------
+     Links -- show the target, since a printed link is otherwise a dead end.
+     Scoped to article prose so navigation chrome and badges stay clean.
+     -------------------------------------------------------------------- */
+  .prose a {
+    color: #000 !important;
+    text-decoration: underline !important;
+  }
+
+  .prose a[href^='http']::after {
+    content: ' (' attr(href) ')';
+  }
+
+  /* Root-relative internal links: expand to an absolute URL a reader can type. */
+  .prose a[href^='/']::after {
+    content: ' (https://galaxyproject.org' attr(href) ')';
+  }
+
+  .prose a[href^='http']::after,
+  .prose a[href^='/']::after {
+    font-size: 0.8em;
+    font-weight: normal;
+    color: #444;
+    word-break: break-all;
+  }
+
+  /* Suppress the URL where it would be noise: in-page anchors, image links,
+     and link-styled badges. Table cells are excluded too -- the release notes
+     are full of link-dense tables, and an inline URL in every cell squeezes
+     the columns until ordinary content starts wrapping mid-word. */
+  .prose a[href^='#']::after,
+  .prose a[href^='mailto:']::after,
+  .prose a:has(> img)::after,
+  .prose table a::after,
+  .tool-list a::after,
+  .toc a::after,
+  .heading-anchor::after {
+    content: '' !important;
+  }
+
+  /* --------------------------------------------------------------------
+     Images and figures
+     -------------------------------------------------------------------- */
+  img,
+  figure,
+  svg {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  img {
+    max-width: 100% !important;
+    /* Cap height so a tall image can't push a mostly-blank page. */
+    max-height: 7in !important;
+    height: auto !important;
+    object-fit: contain;
+  }
+
+  figure {
+    margin: 0.8rem 0 !important;
+    padding: 0 !important;
+  }
+
+  .inline-div {
+    break-inside: avoid;
+  }
+
+  /* --------------------------------------------------------------------
+     Tables -- header cells are white-on-blue on screen, so they vanish
+     without background graphics. Give them a rule instead.
+     -------------------------------------------------------------------- */
+  .prose table {
+    width: 100% !important;
+    font-size: 9pt !important;
+    table-layout: auto;
+    break-inside: auto;
+  }
+
+  .prose th,
+  .prose td {
+    border: 1px solid #999 !important;
+    padding: 0.3rem 0.4rem !important;
+    /* break-word only splits a word that would otherwise overflow; `anywhere`
+       also feeds into min-content sizing and hyphenates ordinary words like
+       "October" in narrow columns. */
+    overflow-wrap: break-word;
+  }
+
+  .prose th {
+    background: none !important;
+    color: #000 !important;
+    border-bottom: 2px solid #000 !important;
+  }
+
+  /* Repeat header rows when a long table spans pages. */
+  thead {
+    display: table-header-group;
+  }
+
+  tr {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* Wrappers that scroll a wide table on screen must not clip it on paper. */
+  .table-wrapper,
+  .overflow-x-auto,
+  .overflow-auto {
+    overflow: visible !important;
+  }
+
+  /* --------------------------------------------------------------------
+     Code -- dark background with light text on screen; unreadable when
+     backgrounds are dropped, so invert to dark-on-light with a border.
+     -------------------------------------------------------------------- */
+  .prose pre {
+    background: none !important;
+    color: #000 !important;
+    border: 1px solid #999 !important;
+    border-radius: 3px !important;
+    padding: 0.5rem 0.65rem !important;
+    font-size: 9pt !important;
+    /* Long lines scroll on screen; on paper they must wrap or be lost. */
+    white-space: pre-wrap !important;
+    overflow-wrap: anywhere;
+    overflow: visible !important;
+    break-inside: avoid;
+  }
+
+  .prose pre code {
+    background: none !important;
+    color: #000 !important;
+  }
+
+  .prose code:not(pre code) {
+    background: none !important;
+    color: #000 !important;
+    border: 1px solid #bbb !important;
+    padding: 0 0.2em !important;
+    font-size: 0.9em !important;
+  }
+
+  /* --------------------------------------------------------------------
+     Content components
+     -------------------------------------------------------------------- */
+  .callout,
+  .gx-tile,
+  .linkbox,
+  .profile-row,
+  blockquote {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .gx-tile,
+  .callout,
+  .linkbox {
+    background: none !important;
+    border: 1px solid #999 !important;
+    box-shadow: none !important;
+  }
+
+  .gx-tile-grid {
+    display: block !important;
+  }
+
+  .gx-tile {
+    margin-bottom: 0.8rem;
+  }
+
+  a.gx-tile--link::before {
+    display: none !important;
+  }
+
+  .prose blockquote {
+    background: none !important;
+    border-left: 3px solid #666 !important;
+    color: #000 !important;
+  }
+
+  /* --------------------------------------------------------------------
+     Belt and braces: nothing should carry an animation or transition into
+     a static medium, and no element should stay transparent on paper.
+     -------------------------------------------------------------------- */
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    text-shadow: none !important;
+  }
+}

@@ -2,7 +2,7 @@
 title: The ELIXIR tools platform for COVID-19 research at the ECCB2020
 date: '2020-09-10'
 tags: [talk, covid-19, elixir]
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   authorship:

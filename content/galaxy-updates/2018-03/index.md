@@ -285,7 +285,7 @@ The Galaxy is expanding! Please help it grow.
 * [Software Engineer - 8 months contract](https://www.sfbi.fr/content/software-engineer-8-months-contract-institut-pasteur), Institut Pasteur, Paris, France
 * [Développement d'outils bioinformatiques et statistiques pour l'analyse de l'air expiré en médecine par spectrométrie de masse en temps-réel](https://www.sfbi.fr/content/d%C3%A9veloppement-doutils-bioinformatiques-et-statistiques-pour-lanalyse-de-lair-expir%C3%A9-en-m%C3%A9dec), CEA Saclay, France
 * [Ingénieur en développement de composants Galaxy pour la protéomique](https://www.sfbi.fr/content/ing%C3%A9nieur-en-d%C3%A9veloppement-de-composants-galaxy-pour-la-prot%C3%A9omique-0), MaIAGE , INRA, Jouy-en-Josas, France
-* The [Freiburg Galaxy Team](https://usegalaxy-eu.github.io/galaxy-freiburg/people/) is [looking for 2 Postdoctoral researchers](https://usegalaxy-eu.github.io/galaxy-freiburg/2018/01/18/openpositions.html)
+* The [Freiburg Galaxy Team](/freiburg/people/) is [looking for 2 Postdoctoral researchers](/news/2018-01-18-openpositions/)
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/news/2017-08-hiring-at-hopkins/), Baltimore, Maryland, United States
 
