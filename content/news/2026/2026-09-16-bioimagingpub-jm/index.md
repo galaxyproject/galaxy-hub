@@ -9,7 +9,7 @@ tags:
 - paper
 - imaging
 contributions:
-authorship:
+  authorship:
     - dianichj
     - beatrizserrano
 ---
