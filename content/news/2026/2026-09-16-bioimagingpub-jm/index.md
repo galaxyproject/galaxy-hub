@@ -17,7 +17,7 @@ We’re thrilled to share our new publication in *Cell Genomics*:
 **“Galaxy single-cell & spatial omics community update: Navigating new frontiers in 2025.”**  
 📘 [Read the full article here](https://www.cell.com/cell-genomics/fulltext/S2666-979X(25)00261-7)
 
-![Galaxy single-cell and spatial omics graphical abstract](/news/2026-09-16-bioimagingpub-jm/graphical_abstract.jpg)
+![Galaxy single-cell and spatial omics graphical abstract](graphical_abstract.jpg)
 
 ## Empowering Reproducible Single-Cell and Spatial Omics
 
