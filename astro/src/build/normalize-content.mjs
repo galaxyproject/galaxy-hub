@@ -451,6 +451,14 @@ const KNOWN_COMPONENTS = [
   'CalendarEmbed',
   'Insert',
   'CopyButton',
+  'ReleaseGuardiansSummary',
+  'ReleaseGuardiansSection',
+  'ReleaseGuardiansLabelPill',
+  'ReleaseGuardiansCoordination',
+  'ReleaseGuardiansPhase',
+  'ReleaseGuardiansRecap',
+  'CofestBoard',
+  'CofestProject',
 ];
 
 function bodyHasComponents(body) {

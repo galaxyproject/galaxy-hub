@@ -12,8 +12,8 @@ location:
   name: LUMC, Building 1, CZ-3 and computerrooms 1-82 and J1-83
   postal: 2333 ZA
   street: Albinusdreef 2
-subsites: [eu, erasmusmc]
-main_subsite: erasmusmc
+subsites: [eu]
+main_subsite: eu
 ---
 
 This course aims at PhD students, postdocs and senior researchers who are interested in planning, or already working with next-generation sequencing. We welcome researchers from both the genomics and bioinformatics fields. Currently available technologies as well as hardware solutions will be presented and discussed. The focus of the course will be on data and ways to analyse the data.

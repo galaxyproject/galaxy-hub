@@ -5,6 +5,8 @@ left:
     - label: Events
       relativeTo: subsite
       target: events/
+    - label: Orbit
+      target: /tools/orbit/
 right:
     - label: Help
       contents:
@@ -28,6 +30,8 @@ right:
             target: "/community/wg/"
           - label: How to contribute
             target: "/community/contributing/"
+          - label: Hall of Fame
+            target: "/hall-of-fame/"
           - label: Galaxy Mentor Network
             target: https://galaxy-mentor-network.netlify.app/
           - label: Code of Conduct

@@ -18,10 +18,17 @@ import Supporters from '../../components/mdx/Supporters.astro';
 import Contacts from '../../components/mdx/Contacts.astro';
 import MdxIcon from '../../components/mdx/Icon.astro';
 import Insert from '../../components/mdx/Insert.astro';
+import CofestBoard from '../../components/CofestBoard.astro';
 import SupporterGrid from '../../components/content/SupporterGrid.astro';
 import { resolveSupporters } from '../../utils/supporters';
 import { extractFunding, extractAuthors, resolveAuthor } from '../../utils/contributors';
 import Icon from '../../components/ui/Icon.astro';
+import ReleaseGuardiansSummary from '../../components/release-guardians/Summary.astro';
+import ReleaseGuardiansSection from '../../components/release-guardians/Section.astro';
+import ReleaseGuardiansLabelPill from '../../components/release-guardians/LabelPill.astro';
+import ReleaseGuardiansCoordination from '../../components/release-guardians/Coordination.astro';
+import ReleaseGuardiansPhase from '../../components/release-guardians/Phase.astro';
+import ReleaseGuardiansRecap from '../../components/release-guardians/Recap.astro';
 
 interface ConferenceNavItem {
   slug: string;
@@ -224,6 +231,13 @@ const components = {
   Contacts,
   Icon: MdxIcon,
   Insert,
+  ReleaseGuardiansSummary,
+  ReleaseGuardiansSection,
+  ReleaseGuardiansLabelPill,
+  ReleaseGuardiansCoordination,
+  ReleaseGuardiansPhase,
+  ReleaseGuardiansRecap,
+  CofestBoard,
 };
 
 function toDate(d: Date | string | undefined): Date | null {
@@ -473,7 +487,7 @@ const editUrl = `https://github.com/galaxyproject/galaxy-hub/edit/main/content/$
               <SupporterGrid supporters={supporters} title="Supporters" />
             </div>
           )}
-          <div class="flex justify-between items-center pt-4 border-t border-gray-200">
+          <div class="flex justify-between items-center pt-4 border-t border-ebony-clay-100">
             <a
               href="/events/"
               class="text-galaxy-primary hover:text-galaxy-gold flex items-center gap-1.5 font-medium transition-colors"
@@ -486,7 +500,7 @@ const editUrl = `https://github.com/galaxyproject/galaxy-hub/edit/main/content/$
                 href={editUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                class="text-gray-500 hover:text-galaxy-primary flex items-center gap-1.5 transition-colors"
+                class="text-chicago-500 hover:text-galaxy-primary flex items-center gap-1.5 transition-colors"
               >
                 <Icon name="edit" />
                 Edit on GitHub
@@ -515,7 +529,7 @@ const editUrl = `https://github.com/galaxyproject/galaxy-hub/edit/main/content/$
 <style>
   .prose-galaxy {
     --tw-prose-links: #25537b;
-    --tw-prose-headings: #1f2937;
+    --tw-prose-headings: #2c3143;
   }
 
   .prose-galaxy :where(a):not(:where([class~='not-prose'] *)) {

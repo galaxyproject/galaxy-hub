@@ -1,0 +1,81 @@
+---
+/**
+ * Subsite "Did you know" browse page (e.g. /eu/did-you-know/).
+ * Shows only items visible on the given subsite (whitelist semantics, identical
+ * to news/events), so subsite-specific tips surface here and global-only items
+ * are excluded unless they also tag the subsite or use `all`.
+ */
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import PageHeader from '../../../components/layout/PageHeader.astro';
+import DidYouKnowCard, { type DykItem } from '../../../components/did-you-know/DidYouKnowCard.vue';
+import { subsites } from '../../../stores/subsiteStore';
+import { getDidYouKnow } from '../../../utils/did-you-know-server';
+import { toSerializable } from '../../../utils/did-you-know';
+
+export async function getStaticPaths() {
+  return subsites
+    .filter((s) => s.id !== 'global' && !('external' in s))
+    .map((subsite) => ({
+      params: { subsite: subsite.id },
+      props: { subsiteName: subsite.name, subsiteId: subsite.id },
+    }));
+}
+
+const { subsiteName, subsiteId } = Astro.props;
+const isEurope = subsiteId === 'eu';
+const pageTitle = isEurope ? 'Galaxy Europe — Did You Know' : `${subsiteName} — Did You Know`;
+const headerTitle = isEurope ? 'Did You Know' : `${subsiteName} — Did You Know`;
+const pageDescription = `Tips and tricks for Galaxy ${subsiteName}.`;
+const eyebrow = isEurope ? { label: 'Galaxy Europe', href: '/eu/' } : undefined;
+
+const items = await getDidYouKnow(subsiteId);
+const serialized: DykItem[] = items.map(toSerializable);
+---
+
+<BaseLayout {pageTitle} description={pageDescription}>
+  <div class="max-w-6xl mx-auto">
+    <PageHeader title={headerTitle} description={pageDescription} {eyebrow} />
+
+    <div class="bg-white px-6 sm:px-8 py-6 rounded-b-lg shadow-sm">
+      {
+        serialized.length > 0 ? (
+          <div class="dyk-grid">
+            {serialized.map((item) => (
+              <DidYouKnowCard client:load item={item} />
+            ))}
+          </div>
+        ) : (
+          <p>No tips are available for Galaxy {subsiteName} yet.</p>
+        )
+      }
+
+      <p class="dyk-bare-note">
+        Looking for an embeddable version? See the
+        <a href={`/bare/${subsiteId}/did-you-know/`}>bare page</a>.
+      </p>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .dyk-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.25rem;
+  }
+
+  .dyk-bare-note {
+    margin-top: 1.5rem;
+    font-size: 0.875rem;
+    color: #64748b;
+  }
+
+  .dyk-bare-note a {
+    color: #25537b;
+    text-decoration: none;
+  }
+
+  .dyk-bare-note a:hover {
+    text-decoration: underline;
+  }
+</style>

@@ -6,7 +6,7 @@ tags: [training, talk]
 contacts:
 - name: GOBLET, ELIXIR
 external_url: https://ssl.eventilla.com/event/xP1QM
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 ---
 

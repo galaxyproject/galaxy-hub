@@ -3,7 +3,7 @@ title: 'Training Infrastructure feedback: FORCeS eScience course'
 date: '2021-11-13'
 tease: 'Tools in Climate Science: Linking Observations with Modelling'
 tags: [training, tiaas]
-subsites: [global, us, eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [global, us, eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   authorship:

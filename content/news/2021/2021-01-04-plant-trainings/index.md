@@ -2,7 +2,7 @@
 title: GTN Plant-related trainings
 date: '2021-01-04'
 tags: [training]
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   authorship:

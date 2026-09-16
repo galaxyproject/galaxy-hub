@@ -27,3 +27,5 @@ Our part in the workshop explained a text-mining tutorial for Chinese newspapers
 
 On Friday, Galaxy Freiburg presented a poster on how Galaxy can support open science in the Humanities. The poster and a related paper will be published online.
 We had many interesting discussions during the poster session and enjoyed the exchange with researchers and FDM experts. Thanks to the organisers in Heidelberg, who made the conference a great experience.
+
+PS: Our conference contributions are now published! [Check out the article](https://doi.org/10.11588/heibooks.1652.c23955) and [the poster](https://doi.org/10.11588/heidok.00036288) we presented.

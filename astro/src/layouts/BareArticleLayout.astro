@@ -27,15 +27,22 @@ const { title, description } = Astro.props;
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   </head>
-  <body class="min-h-screen bg-white text-gray-900">
-    <main class="p-4 sm:p-6 lg:p-8">
+  <body class="min-h-screen bg-white text-chicago-900">
+    <!-- Tight top padding: these pages are iframed into a host that supplies its own
+         chrome, so vertical space above the content is wasted. Sides and bottom keep
+         their breathing room. -->
+    <main class="px-4 pt-2 pb-6 sm:px-6 sm:pb-8 lg:px-8 lg:pb-10">
       <article class="prose prose-lg prose-galaxy max-w-none">
         <slot />
       </article>
     </main>
     <script>
       import { setupIframeResize } from '../utils/iframe';
+      import { setupBareLinkTargets } from '../utils/bare-links';
+      import { setupGalaxyRouteLinks } from '../utils/galaxy-frame';
       setupIframeResize();
+      setupBareLinkTargets();
+      setupGalaxyRouteLinks();
     </script>
   </body>
 </html>
@@ -44,7 +51,16 @@ const { title, description } = Astro.props;
   /* Prose styles for bare pages */
   .prose-galaxy {
     --tw-prose-links: #25537b;
-    --tw-prose-headings: #1f2937;
+    --tw-prose-headings: #2c3143;
+  }
+
+  .prose-galaxy table {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
   }
 
   .prose-galaxy a {
@@ -52,6 +68,7 @@ const { title, description } = Astro.props;
     text-decoration: underline;
     text-decoration-color: color-mix(in srgb, var(--tw-prose-links) 40%, transparent);
     text-underline-offset: 2px;
+    overflow-wrap: anywhere;
   }
 
   .prose-galaxy a:hover {
@@ -95,6 +112,28 @@ const { title, description } = Astro.props;
   article.prose.prose-lg.prose-galaxy.max-w-none {
     max-width: 1200px;
     margin: 0 auto !important;
+  }
+
+  /* Typography's `.prose > :first-child { margin-top: 0 }` misses the mark when a
+     page opens with a non-rendering node -- several bare articles start with a raw
+     <style> block. That node takes :first-child, so the real leading heading keeps
+     its full top margin and the page opens with a dead band of white space.
+     Reset the first *rendered* child instead: an element that no rendered sibling
+     precedes. */
+  article.prose > :not(style, script, meta, link):not(:where(:not(style, script, meta, link) ~ *)) {
+    margin-top: 0;
+  }
+
+  /* Same idea one level in: many pages open with a logo wrapped in a <p>/<center>,
+     and prose gives images their own top margin. */
+  article.prose > :not(style, script, meta, link):not(:where(:not(style, script, meta, link) ~ *)) > :first-child {
+    margin-top: 0;
+  }
+
+  /* A leading logo is usually floated or centred, so the heading that follows it
+     sits at the top of the page too -- its top margin is pure dead space. */
+  article.prose > img:not(:where(:not(style, script, meta, link) ~ *)) + * {
+    margin-top: 0;
   }
 
   /* Styling for EU lead sections */
@@ -149,6 +188,19 @@ const { title, description } = Astro.props;
     }
   }
 
+  .prose-galaxy [data-name='/eu/main1'] .usegalaxy-launch-link {
+    display: none !important;
+  }
+
+  .prose-galaxy [data-name='/eu/main1'] section > .mt-6 a {
+    text-decoration: none;
+
+    &:hover {
+      color: var(--color-galaxy-primary);
+      text-decoration: none;
+    }
+  }
+
   [data-name='/eu/main2'] {
     margin: 3rem 0;
 
@@ -195,13 +247,6 @@ const { title, description } = Astro.props;
       gap: 0;
     }
 
-    img {
-      margin: 0 auto;
-      display: block;
-      height: 100px;
-      width: auto;
-    }
-
     .btn {
       margin-top: 0.5rem;
       font-size: 1rem;
@@ -209,6 +254,34 @@ const { title, description } = Astro.props;
 
       &:hover {
         text-decoration: underline;
+      }
+    }
+
+    article h3 {
+      margin: 0;
+    }
+
+    article p {
+      margin: 0.75rem 0 0;
+      line-height: inherit;
+    }
+
+    article img {
+      display: block;
+      width: 100%;
+      max-width: 13rem;
+      height: 9rem;
+      margin: 1.5rem auto;
+      border-radius: 0;
+      object-fit: contain;
+    }
+
+    article a {
+      text-decoration: none;
+
+      &:hover {
+        color: #fff;
+        text-decoration: none;
       }
     }
   }
@@ -349,24 +422,7 @@ const { title, description } = Astro.props;
 
     strong {
       font-weight: 600;
-      color: #1f2937;
-    }
-  }
-
-  .prose-galaxy {
-    iframe[title='Recent Galaxy France news'],
-    iframe[title='Recent Galaxy Europe news'] {
-      margin-right: 16px;
-      float: left;
-    }
-
-    iframe[title*='Recent Galaxy France events'],
-    iframe[title*='Recent Galaxy Europe events'] {
-      margin-bottom: 3rem;
-      width: calc(50% - 20px) !important;
-      display: inline-block;
-      vertical-align: top;
-      float: right;
+      color: #2c3143;
     }
   }
 

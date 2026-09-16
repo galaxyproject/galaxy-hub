@@ -1,0 +1,62 @@
+---
+/**
+ * Bare per-subsite "Did you know" page.
+ * Generates one route per non-external subsite (e.g. /bare/eu/did-you-know/).
+ * Items are filtered to the subsite using the same whitelist semantics as news
+ * and events (contentMatchesSubsite). A single tip is sampled client-side on
+ * each load; refresh yields a different tip.
+ */
+import BareArticleLayout from '../../../layouts/BareArticleLayout.astro';
+import DidYouKnowRandom, { type DykItem } from '../../../components/did-you-know/DidYouKnowRandom.vue';
+import { getCollection } from 'astro:content';
+import { subsites } from '../../../stores/subsiteStore';
+import { sortItems, toSerializable, filterBySubsite } from '../../../utils/did-you-know';
+
+export async function getStaticPaths() {
+  const all = await getCollection('did-you-know');
+
+  return subsites
+    .filter((s) => s.id !== 'global' && !('external' in s))
+    .map((subsite) => {
+      const filtered = sortItems(filterBySubsite(all, subsite.id));
+      return {
+        params: { subsite: subsite.id },
+        props: {
+          subsiteName: subsite.name,
+          items: filtered.map(toSerializable) as DykItem[],
+        },
+      };
+    });
+}
+
+const { subsiteName, items } = Astro.props;
+const title = `Did You Know — Galaxy ${subsiteName}`;
+---
+
+<BareArticleLayout {title} description={`A random Galaxy tip for ${subsiteName}. Refresh for another.`}>
+  <div class="dyk-bare">
+    <h1>Did You Know</h1>
+    <p class="dyk-intro">A random tip for Galaxy {subsiteName}. Refresh the page for another.</p>
+    <DidYouKnowRandom client:load items={items} newTab showPermalink />
+  </div>
+</BareArticleLayout>
+
+<style>
+  .dyk-bare {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+
+  .dyk-bare h1 {
+    font-size: 1.5rem;
+    color: #25537b;
+    margin: 0 0 0.25rem;
+  }
+
+  .dyk-intro {
+    font-size: 0.9rem;
+    color: #64748b;
+    margin: 0 0 1rem;
+  }
+</style>

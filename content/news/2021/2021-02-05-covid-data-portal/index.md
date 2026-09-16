@@ -2,7 +2,7 @@
 title: The European Galaxy server listed as an official resource on the COVID-19 Data Portal
 date: '2021-02-05'
 tags: [covid-19, elixir]
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   authorship:

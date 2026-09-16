@@ -144,6 +144,39 @@ const datasets = defineCollection({
   schema: z.any(),
 });
 
+// Subsite navbars (YAML data files copied from content/<subsite>/navbar.yml)
+const navbars = defineCollection({
+  loader: glob({ pattern: '**/*.{yml,yaml}', base: './src/content/navbars' }),
+  schema: z.any(),
+});
+
+// "Did you know" tips (YAML data files, one item per file)
+const imageLinkSchema = z.object({
+  url: z.string(),
+  alt: z.string(),
+});
+const linkSchema = z.object({
+  url: z.string(),
+  text: z.string(),
+});
+const didYouKnowSchema = z
+  .object({
+    title: z.string(),
+    tease: z.string().optional().nullable(),
+    body: z.string(),
+    subsites: arrayOrString,
+    date: z.coerce.date().optional().nullable(),
+    weight: z.number().optional().nullable(),
+    images: z.array(imageLinkSchema).optional().nullable(),
+    links: z.array(linkSchema).optional().nullable(),
+  })
+  .passthrough();
+
+const didYouKnow = defineCollection({
+  loader: glob({ pattern: '**/*.{yml,yaml}', base: './src/content/did-you-know' }),
+  schema: didYouKnowSchema,
+});
+
 export const collections = {
   articles,
   news,
@@ -152,4 +185,6 @@ export const collections = {
   'bare-articles': bareArticles,
   inserts,
   datasets,
+  navbars,
+  'did-you-know': didYouKnow,
 };

@@ -8,7 +8,8 @@ left:
       relativeTo: subsite
       target: events/
     - label: People
-      target: https://usegalaxy-eu.github.io/pasteur/people
+      relativeTo: subsite
+      target: people/
 right:
     - label: Help
       contents:
@@ -36,8 +37,8 @@ right:
             target: "/community/coc/"
     - label: About
       contents:
-          - label: Publications
-            target: https://usegalaxy-eu.github.io/pasteur/publications
+          - label: Galaxy@Pasteur
+            target: /use/galaxy-pasteur/
           - label: Platforms
             target: "/use/"
           - label: Careers

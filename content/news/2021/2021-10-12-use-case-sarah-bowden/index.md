@@ -4,7 +4,7 @@ date: '2021-10-12'
 tease: Sarah Bowden from the Innere Medizin IV (Nephrologie und Allgemeinmedizin) and ZBSA - Center for Biological Systems Analysis in Freiburg (Germany) has shared with us the main area of research of her project.
 hide_tease: true
 tags: [usecase]
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   authorship:

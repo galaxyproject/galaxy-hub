@@ -2,7 +2,7 @@
 title: 'UseGalaxy.eu Use Case: Circadian research'
 date: '2021-07-30'
 tags: [usecase]
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   authorship:

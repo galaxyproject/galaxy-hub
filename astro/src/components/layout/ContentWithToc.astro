@@ -28,8 +28,8 @@ const showToc = autotoc && filteredHeadings.length >= 2;
 {/* Mobile TOC: collapsible details element */}
 {
   showToc && (
-    <details class="toc-mobile lg:hidden mx-6 sm:mx-8 mt-6 border border-gray-200 rounded-lg">
-      <summary class="px-4 py-3 cursor-pointer font-medium text-galaxy-primary hover:bg-gray-50 rounded-lg">
+    <details class="toc-mobile lg:hidden mx-6 sm:mx-8 mt-6 border border-ebony-clay-100 rounded-lg">
+      <summary class="px-4 py-3 cursor-pointer font-medium text-galaxy-primary hover:bg-ebony-clay-50 rounded-lg">
         On this page
       </summary>
       <div class="px-4 pb-4">
@@ -40,7 +40,7 @@ const showToc = autotoc && filteredHeadings.length >= 2;
 }
 
 {/* Content with optional TOC sidebar */}
-<div class:list={['px-6 sm:px-8 pt-6', showToc && 'lg:flex lg:gap-8']}>
+<div class:list={['content-with-toc px-6 sm:px-8 pt-6', showToc && 'lg:flex lg:gap-8']}>
   {/* Main Content */}
   <div class:list={['prose prose-lg prose-galaxy max-w-none', showToc && 'lg:flex-1 lg:min-w-0']}>
     <slot />

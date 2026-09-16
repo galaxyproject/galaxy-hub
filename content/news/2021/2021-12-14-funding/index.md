@@ -6,7 +6,7 @@ tease: The Galaxy Training Network will now support annotating Funding Agencies 
 hide_tease: true
 tags: [training, gtn-news]
 external_url: https://training.galaxyproject.org/training-material/news/2021/12/14/funding.html
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   funding:

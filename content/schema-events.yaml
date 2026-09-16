@@ -16,6 +16,9 @@ mapping:
             title:
                 type: str
                 description: Event title
+            nav_title:
+                type: str
+                description: Override label shown in conference sub-navigation
             date:
                 type: any
                 description: Start date (YYYY-MM-DD)

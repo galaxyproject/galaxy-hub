@@ -7,7 +7,7 @@ tease: 'It has been a long discussed feature within the GTN Tutorial Author Comm
 hide_tease: true
 tags: [training, gtn-news]
 external_url: https://training.galaxyproject.org/training-material/news/2022/04/12/cyot.html
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 contributions:
   funding:
     - deNBI

@@ -7,7 +7,7 @@ tease: 'Our work led by Omar Mossad and Thomas Blank (Institute of Neuropatholog
 hide_tease: true
 doi: 10.1038/s41593-022-01027-3
 tags: [paper, citations]
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 ---
 
