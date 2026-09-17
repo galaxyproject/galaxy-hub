@@ -2,7 +2,6 @@
 title: "Connecting CKAN and Galaxy: from data repositories to analysis and back"
 date: "2026-09-16"
 tease: "Browse CKAN datasets in Galaxy, analyse using tools and workflows, and export results to CKAN."
-components: true
 hide_tease: false
 tags: [interoperability]
 contributions:
