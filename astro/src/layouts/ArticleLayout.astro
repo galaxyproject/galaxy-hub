@@ -30,6 +30,10 @@ interface Props {
   supporters?: SupporterProfile[];
   sourceFile?: string;
   fairSection?: string;
+  /** Skip the PageHeader block (page supplies its own h1, e.g. via a hero component). */
+  hideHeader?: boolean;
+  /** Run the article edge to edge: no outer padding, no max width. */
+  fullBleed?: boolean;
 }
 
 const {
@@ -46,6 +50,8 @@ const {
   supporters: supportersRaw = [],
   sourceFile,
   fairSection,
+  hideHeader = false,
+  fullBleed = false,
 } = Astro.props;
 
 const editUrl = sourceFile ? `https://github.com/galaxyproject/galaxy-hub/edit/main/content/${sourceFile}` : undefined;
@@ -60,10 +66,10 @@ const hasMetadata =
   (title && title !== 'Galaxy Hub') || date || (authors?.length ?? 0) > 0 || tags.length > 0 || description;
 ---
 
-<BaseLayout title={title} description={description}>
-  <article class="max-w-6xl mx-auto bg-white relative">
+<BaseLayout title={title} description={description} fullBleed={fullBleed}>
+  <article class:list={['bg-white relative', fullBleed ? 'max-w-none' : 'max-w-6xl mx-auto']}>
     {
-      hasMetadata && (
+      hasMetadata && !hideHeader && (
         <PageHeader title={title} description={description} eyebrow={eyebrow} date={date} authors={authors} tags={tags}>
           {fairSection && <FairSectionHero sectionSlug={fairSection} />}
         </PageHeader>

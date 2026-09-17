@@ -9,9 +9,11 @@ import { getSubsiteNavbar } from '../utils/navbar-content';
 interface Props {
   title: string;
   description?: string;
+  /** Drop the padding around the content area so a page can run edge to edge. */
+  fullBleed?: boolean;
 }
 
-const { title, description = 'Galaxy Community Hub' } = Astro.props;
+const { title, description = 'Galaxy Community Hub', fullBleed = false } = Astro.props;
 const currentSubsite = detectSubsiteFromPath(Astro.url.pathname);
 const navbar = await getSubsiteNavbar(currentSubsite);
 ---
@@ -51,7 +53,7 @@ const navbar = await getSubsiteNavbar(currentSubsite);
 
       <!-- Main content area -->
       <main class="site-main flex-1 flex flex-col min-h-screen lg:ml-64 pt-22 lg:pt-0 min-w-0 overflow-x-hidden">
-        <div class="site-content flex-1 p-4 sm:p-6 lg:p-8 bg-light-bg bg-grid">
+        <div class:list={['site-content flex-1 bg-light-bg bg-grid', fullBleed ? 'p-0' : 'p-4 sm:p-6 lg:p-8']}>
           <slot />
         </div>
 

@@ -1,0 +1,350 @@
+---
+/**
+ * AgentShells: dark hero + live animated replay of installing the Galaxy
+ * plugins into the supported AI agent harnesses. Used from MDX as <AgentShells />.
+ * Scene data: ../agent-shells/scenes.ts; runtime: ../agent-shells/player.ts.
+ */
+import '../agent-shells/shells.css';
+import { scenes } from '../agent-shells/scenes';
+import { finalBodyHtml, sceneSummary } from '../agent-shells/render';
+
+const first = scenes[0];
+const initialBody = first ? finalBodyHtml(first) : '';
+const initialSummary = first ? sceneSummary(first) : '';
+
+const pillars = [
+  {
+    title: 'A Galaxy connection',
+    text: 'The galaxy-mcp server, authenticated with your API key: histories, datasets, tools and workflows on any Galaxy server you have an account on.',
+    href: 'https://github.com/galaxyproject/galaxy-mcp',
+    label: 'galaxy-mcp',
+    icon: '<path d="M12 22v-5"/><path d="M9 8V2"/><path d="M15 8V2"/><path d="M18 8v5a4 4 0 0 1-4 4h-4a4 4 0 0 1-4-4V8Z"/>',
+  },
+  {
+    title: 'Curated skills',
+    text: 'galaxy-skills for using Galaxy (collections, user-defined tools, workflow reports, reproducibility) and galaxy-dev-skills for building it (tool wrappers, Nextflow conversion, ToolShed).',
+    href: 'https://github.com/galaxyproject/galaxy-skills',
+    label: 'galaxy-skills',
+    icon: '<path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/><path d="M20 3v4"/><path d="M22 5h-4"/><path d="M4 17v2"/><path d="M5 18H3"/>',
+  },
+  {
+    title: 'Workflow Foundry',
+    text: 'Skills that turn papers, Nextflow pipelines and CWL workflows into validated Galaxy workflows, tested end to end.',
+    href: 'https://github.com/galaxyproject/foundry',
+    label: 'foundry',
+    icon: '<rect width="8" height="8" x="3" y="3" rx="2"/><path d="M7 11v4a2 2 0 0 0 2 2h4"/><rect width="8" height="8" x="13" y="13" rx="2"/>',
+  },
+];
+
+// Restrained "galaxy" of nodes + filaments for the hero background (viewBox 1000x600).
+const nodes: Array<[number, number, number, boolean?]> = [
+  [70, 80, 2.2],
+  [190, 50, 2.6, true],
+  [320, 130, 2],
+  [140, 220, 3],
+  [60, 340, 2, true],
+  [260, 300, 2.2],
+  [430, 60, 2.4],
+  [560, 120, 2],
+  [700, 70, 2.4],
+  [640, 240, 3.2, true],
+  [770, 190, 2],
+  [900, 120, 2.2, true],
+  [940, 280, 2],
+  [830, 330, 2.6],
+  [880, 470, 2.2],
+  [130, 480, 2, true],
+  [360, 520, 2.2],
+  [660, 520, 2.4],
+];
+const edges: Array<[number, number]> = [
+  [0, 1],
+  [1, 2],
+  [0, 3],
+  [3, 5],
+  [3, 4],
+  [2, 6],
+  [6, 7],
+  [7, 9],
+  [9, 5],
+  [7, 8],
+  [8, 10],
+  [10, 9],
+  [10, 11],
+  [11, 12],
+  [12, 13],
+  [13, 9],
+  [13, 14],
+  [4, 15],
+  [15, 16],
+  [16, 5],
+  [16, 17],
+  [17, 14],
+  [17, 9],
+];
+
+const icons = {
+  play: '<polygon points="6 3 20 12 6 21 6 3"/>',
+  pause: '<rect x="14" y="4" width="4" height="16" rx="1"/><rect x="6" y="4" width="4" height="16" rx="1"/>',
+  replay: '<path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/>',
+  copy: '<rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/>',
+  arrow: '<path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>',
+  github:
+    '<path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/>',
+  sliders:
+    '<line x1="4" x2="4" y1="21" y2="14"/><line x1="4" x2="4" y1="10" y2="3"/><line x1="12" x2="12" y1="21" y2="12"/><line x1="12" x2="12" y1="8" y2="3"/><line x1="20" x2="20" y1="21" y2="16"/><line x1="20" x2="20" y1="12" y2="3"/><line x1="2" x2="6" y1="14" y2="14"/><line x1="10" x2="14" y1="8" y2="8"/><line x1="18" x2="22" y1="16" y2="16"/>',
+  plug: '<path d="M12 22v-5"/><path d="M9 8V2"/><path d="M15 8V2"/><path d="M18 8v5a4 4 0 0 1-4 4h-4a4 4 0 0 1-4-4V8Z"/>',
+  sparkle:
+    '<path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/>',
+};
+
+const svgAttrs =
+  'viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"';
+const svg = (path: string) => `<svg ${svgAttrs}>${path}</svg>`;
+
+const sideItems = [
+  { key: 'Customize', icon: icons.sliders },
+  { key: 'MCP', icon: icons.plug },
+  { key: 'Skills', icon: icons.sparkle },
+];
+---
+
+<section class="agent-shells not-prose" data-agent-shells style={`--accent: ${first?.accent ?? '#ffd700'}`}>
+  <div class="ash-hero">
+    <div class="ash-hero__grid bg-grid-dark" aria-hidden="true"></div>
+    <svg class="ash-cosmos" viewBox="0 0 1000 600" preserveAspectRatio="xMidYMid slice" aria-hidden="true" fill="none">
+      <defs>
+        <radialGradient id="ash-glow" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stop-color="#ffd700" stop-opacity="0.85"></stop>
+          <stop offset="100%" stop-color="#ffd700" stop-opacity="0"></stop>
+        </radialGradient>
+      </defs>
+      <g stroke="#8fb8dd" stroke-opacity="0.08" stroke-width="1">
+        {edges.map(([a, b]) => <line x1={nodes[a][0]} y1={nodes[a][1]} x2={nodes[b][0]} y2={nodes[b][1]} />)}
+      </g>
+      <g>
+        {
+          nodes.map(([x, y, r, gold]) =>
+            gold ? (
+              <>
+                <circle class="glow" cx={x} cy={y} r={r * 4} fill="url(#ash-glow)" opacity="0.45" />
+                <circle cx={x} cy={y} r={r} fill="#ffd700" fill-opacity="0.75" />
+              </>
+            ) : (
+              <circle cx={x} cy={y} r={r} fill="#aecce7" fill-opacity="0.28" />
+            )
+          )
+        }
+      </g>
+    </svg>
+
+    <div class="ash-hero__inner">
+      <p class="ash-eyebrow">Galaxy MCP · galaxy-skills · Foundry</p>
+      <h1 class="ash-title">Galaxy for <em>AI coding agents</em></h1>
+      <p class="ash-lede">
+        Connect Claude Code, Codex, Antigravity, Pi or Claude Desktop to any Galaxy server, and give the agent curated
+        Galaxy skills. <strong>One install:</strong> a Galaxy connection, the skills, the Workflow Foundry.
+      </p>
+      <div class="ash-cta">
+        <a class="ash-btn ash-btn--gold" href="#pick-your-agent"
+          >Pick your agent <Fragment set:html={svg(icons.arrow)} /></a
+        >
+        <a
+          class="ash-btn ash-btn--ghost"
+          href="https://github.com/galaxyproject/agentic-plugins"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <Fragment set:html={svg(icons.github)} /> GitHub
+        </a>
+      </div>
+      <ul class="ash-chips" aria-label="Supported agents">
+        {
+          scenes.map((s) => (
+            <li>
+              <a class="ash-chip" href={s.href} style={`--accent: ${s.accent}`}>
+                <span class="ash-mono" aria-hidden="true">
+                  {s.monogram}
+                </span>
+                {s.name}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+
+    <div class="ash-demo">
+      <div class="ash-tabs" role="tablist" aria-label="Agent harness">
+        {
+          scenes.map((s, i) => (
+            <button
+              class:list={['ash-tab', i === 0 && 'is-active']}
+              type="button"
+              role="tab"
+              id={`ash-tab-${s.id}`}
+              aria-selected={i === 0 ? 'true' : 'false'}
+              aria-controls="ash-window"
+              tabindex={i === 0 ? 0 : -1}
+              data-tab={s.id}
+              style={`--accent: ${s.accent}`}
+            >
+              <span class="ash-mono" aria-hidden="true">
+                {s.monogram}
+              </span>
+              <span class="ash-tab__text">
+                <span class="ash-tab__name">{s.name}</span>
+                <span class="ash-tab__tag">{s.tagline}</span>
+              </span>
+            </button>
+          ))
+        }
+      </div>
+      <div class="ash-progress" aria-hidden="true"><span data-progress></span></div>
+
+      <div
+        class="ash-window"
+        id="ash-window"
+        role="tabpanel"
+        aria-labelledby={`ash-tab-${first?.id ?? ''}`}
+        aria-label={`${first?.name ?? 'Agent'} window`}
+        data-window
+        data-kind={first?.kind ?? 'terminal'}
+        style={`--accent: ${first?.accent ?? '#ffd700'}`}
+      >
+        <div class="ash-bar">
+          <span class="ash-dots" aria-hidden="true"><span></span><span></span><span></span></span>
+          <span class="ash-bar__title" data-title>{first?.title ?? ''}</span>
+          <span class="ash-bar__spacer" aria-hidden="true"></span>
+        </div>
+        <div class="ash-frame">
+          <aside class="ash-side" aria-hidden="true">
+            <div class="ash-side__hd">Settings</div>
+            {
+              sideItems.map((it) => (
+                <div class="ash-side__item" data-side-item={it.key}>
+                  <Fragment set:html={svg(it.icon)} />
+                  {it.key}
+                </div>
+              ))
+            }
+            <div class="ash-side__pane">Agent · chat</div>
+          </aside>
+          <div class="ash-body" data-body aria-live="off" aria-hidden="true" set:html={initialBody} />
+        </div>
+      </div>
+      <p class="sr-only" data-summary>{initialSummary}</p>
+
+      <div class="ash-controls">
+        <button class="ash-ctl" type="button" data-play data-state="playing" aria-pressed="false">
+          <span class="ic-pause"><Fragment set:html={svg(icons.pause)} /></span>
+          <span class="ic-play"><Fragment set:html={svg(icons.play)} /></span>
+          <span class="lbl">Pause</span>
+        </button>
+        <button class="ash-ctl" type="button" data-replay>
+          <Fragment set:html={svg(icons.replay)} />
+          <span class="lbl">Replay</span>
+        </button>
+        <div class="ash-controls__right">
+          <button class="ash-ctl" type="button" data-copy data-copy-text={first?.copy ?? ''}>
+            <Fragment set:html={svg(icons.copy)} />
+            <span class="lbl">Copy install commands</span>
+          </button>
+          <a class="ash-ctl ash-ctl--link" href={first?.href ?? '#pick-your-agent'} data-setup>
+            <span class="lbl">Set up {first?.name ?? 'your agent'}</span>
+            <Fragment set:html={svg(icons.arrow)} />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ash-section ash-pillars">
+    <div class="ash-section__inner">
+      <p class="text-xs font-bold uppercase tracking-[0.18em] text-galaxy-primary mb-4">One install gives the agent</p>
+      <div class="grid gap-4 md:grid-cols-3">
+        {
+          pillars.map((p) => (
+            <div class="bg-white border border-galaxy-primary/10 rounded-lg shadow-sm p-6 flex flex-col gap-3">
+              <span
+                class="inline-grid place-items-center w-10 h-10 rounded-md bg-galaxy-primary/10 text-galaxy-primary [&>svg]:w-5 [&>svg]:h-5"
+                set:html={svg(p.icon)}
+              />
+              <h3 class="text-lg font-semibold text-galaxy-dark leading-snug">{p.title}</h3>
+              <p class="text-sm text-galaxy-grey leading-relaxed flex-1">{p.text}</p>
+              <a
+                class="ash-link inline-flex items-center gap-1.5 text-sm font-semibold transition-colors [&>svg]:w-4 [&>svg]:h-4"
+                href={p.href}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                {p.label}
+                <Fragment set:html={svg(icons.arrow)} />
+              </a>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </div>
+
+  <div class="ash-section ash-pick bg-white" id="pick-your-agent">
+    <div class="ash-section__inner">
+      <div class="flex items-center gap-3 mb-2">
+        <span class="w-1 h-7 bg-galaxy-gold rounded-sm" aria-hidden="true"></span>
+        <h2 class="text-2xl font-bold text-galaxy-dark">Pick your agent</h2>
+      </div>
+      <p class="text-galaxy-grey mb-6 max-w-2xl">
+        Each guide walks through the install for that harness and starts with getting a Galaxy API key.
+      </p>
+      <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {
+          scenes.map((s) => (
+            <a
+              class="group relative block overflow-hidden bg-white border border-galaxy-primary/10 rounded-lg shadow-sm p-5 no-underline hover:shadow-md hover:-translate-y-0.5 transition-all duration-200"
+              href={s.href}
+              style={`--accent: ${s.accent}`}
+            >
+              <span class="ash-card-bar" aria-hidden="true" />
+              <span class="flex items-center gap-3 mb-2">
+                <span
+                  class="ash-mono !w-9 !h-9 !text-[0.8rem] !rounded-md"
+                  style="color: var(--accent); background: color-mix(in srgb, var(--accent) 14%, #fff); border-color: color-mix(in srgb, var(--accent) 40%, transparent)"
+                  aria-hidden="true"
+                >
+                  {s.monogram}
+                </span>
+                <span class="text-lg font-semibold text-galaxy-dark">{s.name}</span>
+              </span>
+              <span class="block text-sm text-galaxy-grey leading-relaxed mb-3">{s.tagline}</span>
+              <span class="ash-link inline-flex items-center gap-1.5 text-sm font-semibold transition-colors [&>svg]:w-4 [&>svg]:h-4">
+                Set up
+                <Fragment set:html={svg(icons.arrow)} />
+              </span>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  import { scenes } from '../agent-shells/scenes';
+  import { mountAgentShells } from '../agent-shells/player';
+
+  let teardown: (() => void) | null = null;
+
+  function init() {
+    teardown?.();
+    teardown = null;
+    const root = document.querySelector<HTMLElement>('[data-agent-shells]');
+    if (root) teardown = mountAgentShells(root, scenes);
+  }
+
+  document.addEventListener('astro:page-load', init);
+  document.addEventListener('astro:before-swap', () => {
+    teardown?.();
+    teardown = null;
+  });
+</script>

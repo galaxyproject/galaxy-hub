@@ -14,6 +14,7 @@ export { default as Contacts } from './Contacts.astro';
 export { default as Icon } from './Icon.astro';
 export { default as CopyButton } from './CopyButton.astro';
 export { default as EuIntro } from './EuIntro.astro';
+export { default as AgentShells } from './AgentShells.astro';
 
 // Component map using kebab-case keys for MDX
 // Note: When passing to MDX Content, use the PascalCase exports above

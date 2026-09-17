@@ -16,6 +16,7 @@ import Contacts from '../components/mdx/Contacts.astro';
 import Icon from '../components/mdx/Icon.astro';
 import CopyButton from '../components/mdx/CopyButton.astro';
 import Insert from '../components/mdx/Insert.astro';
+import AgentShells from '../components/mdx/AgentShells.astro';
 
 export async function getStaticPaths() {
   const articles = await getCollection('articles');
@@ -57,6 +58,7 @@ const components = {
   Icon,
   CopyButton,
   Insert,
+  AgentShells,
 };
 ---
 
@@ -71,6 +73,8 @@ const components = {
   autotoc={autotoc}
   sourceFile={sourceFile}
   fairSection={fairSection}
+  hideHeader={article.data.skip_title_render === true}
+  fullBleed={article.data.full_bleed === true}
 >
   <Content components={components} />
 </ArticleLayout>

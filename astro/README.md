@@ -51,7 +51,7 @@ Without this flag, component tags will not be rendered. The `npm run content:lin
 
 ### Available components
 
-Icon, VegaEmbed, Twitter, Mastodon, VideoPlayer, Carousel, Flickr, Supporters, Contacts, MarkdownEmbed, CalendarEmbed, Insert.
+Icon, VegaEmbed, Twitter, Mastodon, VideoPlayer, Carousel, Flickr, Supporters, Contacts, MarkdownEmbed, CalendarEmbed, Insert, AgentShells.
 
 ### MDX compatibility
 
@@ -75,6 +75,8 @@ authors: [alice, bob]
 tags: [tools, workflows]
 autotoc: false          # opt out of table of contents (default: true)
 components: true        # enable MDX component rendering
+skip_title_render: true # hide the page header; the content supplies its own h1
+full_bleed: true        # run the article edge to edge (no outer padding or max width)
 ---
 ```
 
