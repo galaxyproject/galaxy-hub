@@ -5,6 +5,7 @@ import FairSectionHero from '../components/content/FairSectionHero.astro';
 import SupporterGrid from '../components/content/SupporterGrid.astro';
 import type { SupporterProfile } from '../utils/supporters';
 import ContentWithToc from '../components/layout/ContentWithToc.astro';
+import CodeCopy from '../components/content/CodeCopy.astro';
 import Icon from '../components/ui/Icon.astro';
 
 interface Heading {
@@ -87,6 +88,7 @@ const hasMetadata =
     <ContentWithToc headings={headings} autotoc={autotoc}>
       <slot />
     </ContentWithToc>
+    <CodeCopy />
 
     <!-- Footer -->
     <footer class="px-6 sm:px-8 pb-6 sm:pb-8 mt-8">

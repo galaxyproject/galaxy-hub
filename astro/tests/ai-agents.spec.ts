@@ -91,6 +91,25 @@ test.describe('AI agents landing page', () => {
     await expect(shells.locator('[data-body]')).toContainText('get_user');
   });
 
+  test('guide code blocks get a copy button that copies the install commands', async ({ page, context }) => {
+    await context.grantPermissions(['clipboard-read', 'clipboard-write']);
+    await page.goto('/tools/ai-agents/claude-code/');
+    const blocks = page.locator('.prose .code-block');
+    expect(await blocks.count()).toBeGreaterThan(3);
+    await expect(page.locator('.prose pre')).toHaveCount(await blocks.count());
+
+    const first = blocks.first();
+    await expect(first.locator('pre')).toContainText('/plugin marketplace add galaxyproject/agentic-plugins');
+    const btn = first.locator('.code-copy');
+    await expect(btn).toBeVisible();
+    await btn.click();
+    await expect(btn).toContainText('Copied');
+    const clipboard = await page.evaluate(() => navigator.clipboard.readText());
+    expect(clipboard.split('\n')[0]).toBe('/plugin marketplace add galaxyproject/agentic-plugins');
+    expect(clipboard).toContain('/plugin install galaxy-mcp@galaxyproject');
+    expect(clipboard.endsWith('\n')).toBe(false);
+  });
+
   test('fits a phone viewport without horizontal scroll', async ({ page }) => {
     await page.setViewportSize({ width: 360, height: 780 });
     await page.goto('/tools/ai-agents/');

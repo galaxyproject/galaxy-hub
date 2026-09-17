@@ -1,0 +1,142 @@
+---
+/**
+ * CodeCopy: adds a "Copy" button to every fenced code block in article prose.
+ *
+ * Progressive enhancement: renders nothing server-side. On page load each
+ * `.prose pre` is wrapped in a positioned container and given a button that
+ * copies the block's text to the clipboard. Works across view transitions.
+ */
+---
+
+<style is:global>
+  .code-block {
+    position: relative;
+  }
+
+  .code-block > pre {
+    margin: 0;
+  }
+
+  /* Keep the prose's vertical rhythm on the wrapper instead of the pre. */
+  .prose .code-block {
+    margin-top: 1.7142857em;
+    margin-bottom: 1.7142857em;
+  }
+
+  .code-copy {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    z-index: 1;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.25rem 0.55rem;
+    font: 600 0.72rem/1 var(--font-sans, inherit);
+    letter-spacing: 0.01em;
+    color: #d5dbe5;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 0.375rem;
+    cursor: pointer;
+    transition:
+      background-color 0.15s ease,
+      border-color 0.15s ease,
+      color 0.15s ease;
+  }
+
+  .code-copy svg {
+    width: 0.85rem;
+    height: 0.85rem;
+  }
+
+  .code-copy:hover,
+  .code-copy:focus-visible {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.16);
+    border-color: rgba(255, 215, 0, 0.7);
+    outline: none;
+  }
+
+  .code-copy.is-copied {
+    color: #1f2937;
+    background: #ffd700;
+    border-color: #ffd700;
+  }
+
+  @media print {
+    .code-copy {
+      display: none;
+    }
+  }
+</style>
+
+<script>
+  const COPY_ICON =
+    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>';
+  const CHECK_ICON =
+    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>';
+
+  function blockText(pre: HTMLElement): string {
+    const code = pre.querySelector('code') ?? pre;
+    return (code.textContent ?? '').replace(/\n$/, '');
+  }
+
+  async function copyText(text: string): Promise<void> {
+    try {
+      await navigator.clipboard.writeText(text);
+    } catch {
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      ta.setAttribute('readonly', '');
+      ta.style.position = 'fixed';
+      ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand('copy');
+      ta.remove();
+    }
+  }
+
+  function enhance(): void {
+    document.querySelectorAll<HTMLElement>('.prose pre').forEach((pre) => {
+      if (pre.closest('.code-block') || pre.closest('.not-prose')) return;
+      if (!blockText(pre).trim()) return;
+
+      const wrap = document.createElement('div');
+      wrap.className = 'code-block';
+      pre.replaceWith(wrap);
+      wrap.appendChild(pre);
+
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'code-copy';
+      btn.setAttribute('aria-label', 'Copy code to clipboard');
+      btn.innerHTML = `${COPY_ICON}<span>Copy</span>`;
+      wrap.appendChild(btn);
+    });
+  }
+
+  let timer: ReturnType<typeof setTimeout> | undefined;
+
+  document.addEventListener('click', async (e) => {
+    const btn = (e.target as HTMLElement).closest<HTMLButtonElement>('.code-copy');
+    if (!btn) return;
+    const pre = btn.parentElement?.querySelector<HTMLElement>('pre');
+    if (!pre) return;
+    await copyText(blockText(pre));
+    document.querySelectorAll('.code-copy.is-copied').forEach((b) => {
+      b.classList.remove('is-copied');
+      b.innerHTML = `${COPY_ICON}<span>Copy</span>`;
+    });
+    btn.classList.add('is-copied');
+    btn.innerHTML = `${CHECK_ICON}<span>Copied</span>`;
+    clearTimeout(timer);
+    timer = setTimeout(() => {
+      btn.classList.remove('is-copied');
+      btn.innerHTML = `${COPY_ICON}<span>Copy</span>`;
+    }, 1600);
+  });
+
+  document.addEventListener('astro:page-load', enhance);
+</script>
