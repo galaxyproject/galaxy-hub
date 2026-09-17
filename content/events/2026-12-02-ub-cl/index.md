@@ -26,4 +26,4 @@ You only have a laptop but no programming skills or money for expensive programs
 Do you want to consider good research data management, but do not know how? 
 **Galaxy is here for you!**
 Our on-site coffee lecture on **02.12.2026, 13:00** at the Freiburg University Library gives you a quick overview of how you can use the open source platform Galaxy (usegalaxy.eu) for your research. 
-Are you already busy that day? Do not worry, there will be another coffee lecture introducing Galaxy on 20.01.2027 also at 13:00.
+Are you already busy that day? Do not worry, there will be another coffee lecture introducing Galaxy on 20.01.2027, also at 13:00.
