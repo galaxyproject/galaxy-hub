@@ -246,6 +246,16 @@ You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn 
 
 </div>
 
+{/*  Canada  */}
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<a href="https://starthere.usegalaxy.ca">
+<div class="card-header bg-sig-region text-white text-center"><Icon name="external-link" />&nbsp;Canada</div>
+</a>
+
+<p>Canadian Galaxy community.</p>
+
+</div>
+
 {/*  Czech  */}
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <a href="/community/sig/czech/">

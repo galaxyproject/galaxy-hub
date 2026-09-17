@@ -13,6 +13,7 @@ export const subsites = [
   { id: 'ifb', name: 'ELIXIR-FR/IFB', path: '/ifb/' },
   { id: 'genouest', name: 'GenOuest', path: '/genouest/' },
   { id: 'cz', name: 'Czechia', path: '/cz/' },
+  { id: 'ca', name: 'Canada', path: '', external: 'https://starthere.usegalaxy.ca' },
 ] as const;
 
 export type SubsiteId = (typeof subsites)[number]['id'];
