@@ -45,14 +45,19 @@ plugin directories you want:
 git clone https://github.com/galaxyproject/agentic-plugins.git ~/.galaxy-agentic-plugins
 agy plugin install ~/.galaxy-agentic-plugins/plugins/galaxy-mcp
 agy plugin install ~/.galaxy-agentic-plugins/plugins/galaxy-skills
+agy plugin install ~/.galaxy-agentic-plugins/plugins/galaxy-dev-skills
 agy plugin install ~/.galaxy-agentic-plugins/plugins/foundry-skills
 ```
 
 Each command copies the plugin into `~/.gemini/config/plugins/<name>/`, where
 both the CLI and the IDE discover it. Start a new session afterwards.
 
-Install only what you need. `foundry-skills` adds 59 skills; skip it unless
-you build Galaxy workflows.
+Install only what you need. `galaxy-skills` is the set for *using* Galaxy
+(MCP tool surface, collections, user-defined tools, workflow reports,
+reproducibility); `galaxy-dev-skills` is for *building* it (tool wrappers,
+Nextflow conversion, ToolShed revisions, track hubs, hub posts);
+`foundry-skills` adds 59 workflow-construction skills. Every installed skill
+costs context on every turn, so skip the sets you will not use.
 
 To scope a plugin to one workspace instead, copy its directory into
 `<workspace>/.agents/plugins/` rather than running `agy plugin install`.
@@ -70,9 +75,9 @@ diagnosing the connection.
 ## Use the skills
 
 Run `/skills` to list them, or type `/` followed by the skill name, for example
-`/tool-dev`, `/udt-authoring`, `/nf-to-galaxy`, `/galaxy-transform-collection`,
-`/galaxy-integration`, `/reproduciblify`, `/pipeline-nextflow-to-galaxy`,
-`/discover-shed-tool`. The agent also picks skills up on its own from your
+`/galaxy-integration`, `/galaxy-mcp-reference`, `/collection-manipulation`,
+`/udt-authoring`, `/reproduciblify`, `/tool-dev`, `/nf-to-galaxy`,
+`/pipeline-nextflow-to-galaxy`, `/discover-shed-tool`. The agent also picks skills up on its own from your
 request.
 
 Antigravity lists only top-level skills. The `nf-to-galaxy` and
@@ -85,6 +90,7 @@ agent reads them when needed even though they do not appear in `/skills`.
 ```bash
 git -C ~/.galaxy-agentic-plugins pull
 agy plugin install ~/.galaxy-agentic-plugins/plugins/galaxy-skills
+agy plugin install ~/.galaxy-agentic-plugins/plugins/galaxy-dev-skills
 agy plugin install ~/.galaxy-agentic-plugins/plugins/foundry-skills
 ```
 
@@ -102,7 +108,7 @@ agy mcp add --env GALAXY_URL=https://usegalaxy.org \
             galaxy uvx galaxy-mcp
 ```
 
-Then install only the two skills plugins, not `galaxy-mcp`, so the server is
+Then install only the skills plugins, not `galaxy-mcp`, so the server is
 not registered twice.
 
 **Skills straight from upstream.** Antigravity reads

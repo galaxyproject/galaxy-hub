@@ -13,9 +13,11 @@ One install gives an agent three things:
 
 1. **A Galaxy connection** through the [galaxy-mcp](https://github.com/galaxyproject/galaxy-mcp)
    server, authenticated with your Galaxy API key.
-2. **Curated Galaxy skills** from [galaxy-skills](https://github.com/galaxyproject/galaxy-skills):
-   tool development, user-defined tools, Nextflow conversion, dataset
-   collections, workflow reports, track hubs, hub posts and MCP usage.
+2. **Curated Galaxy skills** from [galaxy-skills](https://github.com/galaxyproject/galaxy-skills),
+   in two sets: skills for *using* Galaxy (the MCP tool surface, dataset
+   collections, user-defined tools, workflow reports, reproducibility) and,
+   separately, skills for *building* it (tool wrappers, Nextflow conversion,
+   ToolShed revisions, track hubs, hub posts).
 3. **Galaxy Workflow Foundry skills** from [foundry](https://github.com/galaxyproject/foundry):
    turning papers, Nextflow pipelines and CWL workflows into validated Galaxy
    workflows.
@@ -29,7 +31,7 @@ plugin for the agent you already use? See <a href="/tools/orbit/">Orbit</a>.
 
 | Agent | Guide | What you get |
 |-------|-------|--------------|
-| Claude Code | [Set up Claude Code](/tools/ai-agents/claude-code/) | MCP server (prompts for URL and key at install) + skills, via `/plugin` |
+| Claude Code | [Set up Claude Code](/tools/ai-agents/claude-code/) | MCP server (prompts for URL and key at install) + skill sets, via `/plugin` |
 | Claude Desktop | [Set up Claude Desktop](/tools/ai-agents/claude-desktop/) | One-click `.mcpb` bundle; MCP server only |
 | Codex CLI | [Set up Codex](/tools/ai-agents/codex/) | MCP server + skills via `codex plugin` |
 | Cursor | [Set up Cursor](/tools/ai-agents/cursor/) | MCP server + skills via Customize, or a one-click MCP link |
@@ -58,7 +60,7 @@ Ask in plain language; the agent picks the Galaxy tools:
 - *"Show my recent histories and what's in the latest one."*
 - *"Upload these FASTQ files to a new history called 'run 12' and run FastQC on them."*
 - *"Find an IWC workflow for variant calling on paired-end reads and run it on history X."*
-- *"Convert this Nextflow process into a Galaxy tool wrapper and test it with Planemo."* (uses the `nf-to-galaxy` and `tool-dev` skills)
+- *"Convert this Nextflow process into a Galaxy tool wrapper and test it with Planemo."* (uses the `nf-to-galaxy` and `tool-dev` skills from `galaxy-dev-skills`)
 - *"Build a Galaxy workflow from this paper's methods section."* (uses the Foundry skills)
 
 ## Get help

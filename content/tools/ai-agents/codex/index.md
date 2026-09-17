@@ -39,14 +39,19 @@ A `.env` file with the same two lines in your project directory also works.
 codex plugin marketplace add galaxyproject/agentic-plugins
 codex plugin add galaxy-mcp@galaxyproject
 codex plugin add galaxy-skills@galaxyproject
+codex plugin add galaxy-dev-skills@galaxyproject
 codex plugin add foundry-skills@galaxyproject
 ```
 
 Start a new Codex session afterwards. You can also browse and toggle the
 plugins with `codex /plugins`.
 
-Install only what you need. `foundry-skills` adds 59 skills; skip it unless you
-build Galaxy workflows.
+Install only what you need. `galaxy-skills` is the set for *using* Galaxy
+(MCP tool surface, collections, user-defined tools, workflow reports,
+reproducibility); `galaxy-dev-skills` is for *building* it (tool wrappers,
+Nextflow conversion, ToolShed revisions, track hubs, hub posts);
+`foundry-skills` adds 59 workflow-construction skills. Every installed skill
+costs context on every turn, so skip the sets you will not use.
 
 ## Verify
 
@@ -61,11 +66,10 @@ have Codex diagnose the connection.
 
 ## Use the skills
 
-Type `$` or run `/skills` to pick a skill, for example `$tool-dev`,
-`$udt-authoring`, `$nf-to-galaxy`, `$collection-manipulation`,
-`$galaxy-integration`, `$reproduciblify`, `$pipeline-nextflow-to-galaxy`,
-`$discover-shed-tool`. Codex also selects skills implicitly from their
-descriptions.
+Type `$` or run `/skills` to pick a skill, for example `$galaxy-integration`,
+`$galaxy-mcp-reference`, `$collection-manipulation`, `$udt-authoring`,
+`$reproduciblify`, and, if you installed `galaxy-dev-skills`, `$tool-dev` and
+`$nf-to-galaxy`. Codex also selects skills implicitly from their descriptions.
 
 Codex scans plugin skill directories recursively, so the sub-skills nested
 under `nf-to-galaxy` and `galaxy-integration` (for example
@@ -77,6 +81,7 @@ own names as well.
 ```bash
 codex plugin marketplace upgrade
 codex plugin add galaxy-skills@galaxyproject
+codex plugin add galaxy-dev-skills@galaxyproject
 codex plugin add foundry-skills@galaxyproject
 ```
 

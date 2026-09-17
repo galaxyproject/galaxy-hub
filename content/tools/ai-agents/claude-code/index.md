@@ -27,6 +27,7 @@ Inside Claude Code:
 /plugin marketplace add galaxyproject/agentic-plugins
 /plugin install galaxy-mcp@galaxyproject
 /plugin install galaxy-skills@galaxyproject
+/plugin install galaxy-dev-skills@galaxyproject
 /plugin install foundry-skills@galaxyproject
 ```
 
@@ -40,11 +41,16 @@ The same works from a terminal:
 claude plugin marketplace add galaxyproject/agentic-plugins
 claude plugin install galaxy-mcp@galaxyproject
 claude plugin install galaxy-skills@galaxyproject
+claude plugin install galaxy-dev-skills@galaxyproject
 claude plugin install foundry-skills@galaxyproject
 ```
 
-Install only what you need. `foundry-skills` adds 59 skills, which costs
-context on every turn; skip it unless you build Galaxy workflows.
+Install only what you need. `galaxy-skills` is the set for *using* Galaxy
+(MCP tool surface, collections, user-defined tools, workflow reports,
+reproducibility); `galaxy-dev-skills` is for *building* it (tool wrappers,
+Nextflow conversion, ToolShed revisions, track hubs, hub posts);
+`foundry-skills` adds 59 workflow-construction skills. Every installed skill
+costs context on every turn, so skip the sets you will not use.
 
 ## Verify
 
@@ -63,16 +69,17 @@ Type `/` to see them. Plugin skills are namespaced, for example:
 | Invocation | What it does |
 |------------|--------------|
 | `/galaxy-mcp:galaxy-connect` | Set up / verify / troubleshoot the Galaxy connection |
-| `/galaxy-skills:tool-dev` | Create, test and update Galaxy tool wrappers |
-| `/galaxy-skills:udt-authoring` | Author user-defined tools (`GalaxyUserTool` YAML) |
-| `/galaxy-skills:nf-to-galaxy` | Convert Nextflow processes and workflows |
+| `/galaxy-skills:galaxy-integration` | Connect to an instance and choose how to drive it |
+| `/galaxy-skills:galaxy-mcp-reference` | The Galaxy MCP tool surface and its pitfalls |
 | `/galaxy-skills:collection-manipulation` | Filter, sort and restructure dataset collections |
-| `/galaxy-skills:galaxy-integration` | Use the Galaxy MCP tools, JupyterLite and BioBlend well |
-| `/galaxy-skills:reproduciblify` | Rebuild a messy history as a clean, extractable analysis |
+| `/galaxy-skills:udt-authoring` | Author user-defined tools (`GalaxyUserTool` YAML) |
 | `/galaxy-skills:workflow-reports` | Draft workflow report templates |
-| `/galaxy-skills:trackhubs` | Publish UCSC track hubs and assembly hubs |
-| `/galaxy-skills:update-usegalaxy-tool` | Add or bump ToolShed revisions in usegalaxy-tools |
-| `/galaxy-skills:hub-news-posts` | Write Galaxy Hub news posts |
+| `/galaxy-skills:reproduciblify` | Rebuild a messy history as a clean, extractable analysis |
+| `/galaxy-dev-skills:tool-dev` | Create, test and update Galaxy tool wrappers |
+| `/galaxy-dev-skills:nf-to-galaxy` | Convert Nextflow processes and workflows |
+| `/galaxy-dev-skills:update-usegalaxy-tool` | Add or bump ToolShed revisions in usegalaxy-tools |
+| `/galaxy-dev-skills:trackhubs` | Publish UCSC track hubs and assembly hubs |
+| `/galaxy-dev-skills:hub-news-posts` | Write Galaxy Hub news posts |
 | `/foundry-skills:pipeline-nextflow-to-galaxy` | End-to-end Nextflow to Galaxy workflow conversion |
 | `/foundry-skills:discover-shed-tool` | Find and pin a Tool Shed wrapper |
 
@@ -84,6 +91,7 @@ invoke them by name.
 ```
 /plugin marketplace update galaxyproject
 /plugin update galaxy-skills@galaxyproject
+/plugin update galaxy-dev-skills@galaxyproject
 /plugin update foundry-skills@galaxyproject
 ```
 
