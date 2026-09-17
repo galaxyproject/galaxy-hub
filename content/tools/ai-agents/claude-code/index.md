@@ -100,8 +100,17 @@ The skills plugins are versioned by the date they were synced from upstream
 
 ## Change the Galaxy URL or key
 
-Open `/plugin manage`, select `galaxy-mcp` and edit its options, then start a
-new session. Uninstalling and reinstalling the plugin also prompts again:
+Run `/plugin configure galaxy-mcp@galaxyproject` and edit the options, then
+start a new session. From a terminal, the same values can be set
+non-interactively:
+
+```bash
+claude plugin install galaxy-mcp@galaxyproject \
+  --config galaxy_url=https://usegalaxy.org \
+  --config galaxy_api_key=paste-your-key-here
+```
+
+Uninstalling and reinstalling the plugin also prompts again:
 
 ```
 /plugin uninstall galaxy-mcp@galaxyproject
@@ -142,10 +151,10 @@ git clone https://github.com/galaxyproject/galaxy-skills ~/.claude/skills/galaxy
 - **Server fails to start**: run `uvx galaxy-mcp` in a terminal to see the
   error. A first run downloads the package and needs network access.
 - **"Plugin option galaxy_api_key isn't set"** (in `/mcp` or the debug log):
-  the install-time prompt was skipped; open `/plugin manage` and fill in the
-  options.
+  the install-time prompt was skipped; run
+  `/plugin configure galaxy-mcp@galaxyproject` and fill in the options.
 - **"Missing Galaxy URL and API key"**: the values did not reach the server;
-  check `/plugin manage`, or set `GALAXY_URL` / `GALAXY_API_KEY` in a project
-  `.env` file.
+  check `/plugin configure galaxy-mcp@galaxyproject`, or set `GALAXY_URL` /
+  `GALAXY_API_KEY` in a project `.env` file.
 - **"Provided API key is not valid"**: the key belongs to a different server or
   was revoked; create a new one and reinstall.
