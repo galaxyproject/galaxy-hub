@@ -6,7 +6,6 @@ hide_tease: false
 tags: [interoperability]
 contributions:
   authorship:
-    - AdrianJaeger
     - anuprulez
     - paulzierep
     - davelopez
@@ -151,3 +150,7 @@ used by a project while computational analysis takes place in Galaxy.
 Input data can move from CKAN into reproducible Galaxy workflows and resulting
 files can be returned to the same repository without the repeated manual
 download-and-upload cycle.
+
+## Acknowledgements
+
+We thank Adrian Jäger for his work on the CKAN integration into Galaxy.
