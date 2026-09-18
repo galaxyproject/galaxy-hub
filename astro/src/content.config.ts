@@ -2,6 +2,13 @@ import { defineCollection } from 'astro:content';
 import { z } from 'astro/zod';
 import { glob } from 'astro/loaders';
 
+/**
+ * Tags for which /tags/[tag]/feed.atom feeds are generated. Kept as a whitelist
+ * to avoid emitting near-empty feeds for one-off tags. Add a tag here to expose
+ * its feed.
+ */
+export const TAG_FEED_WHITELIST = ['esg4stars', 'esg'];
+
 // Shared schema for contact information (very permissive to handle legacy content)
 const contactSchema = z
   .object({

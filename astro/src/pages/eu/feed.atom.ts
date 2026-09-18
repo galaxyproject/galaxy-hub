@@ -6,24 +6,12 @@
 import { getCollection } from 'astro:content';
 import { marked } from 'marked';
 import { contentMatchesSubsite } from '../../utils/subsites';
+import { atomDate as formatAtomDate, escapeXML } from '../../utils/feed';
 
 const SITE_URL = 'https://galaxyproject.org';
 const FEED_TITLE = 'Galaxy Europe';
 const FEED_DESCRIPTION = 'The European Galaxy Instance';
 const MAX_ITEMS = 25;
-
-function escapeXML(text: string): string {
-  return text
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;')
-    .replace(/'/g, '&apos;');
-}
-
-function formatAtomDate(date: Date): string {
-  return date.toISOString();
-}
 
 export async function GET() {
   const allNews = await getCollection('news');

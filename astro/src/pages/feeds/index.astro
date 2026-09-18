@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHeader from '../../components/layout/PageHeader.astro';
+import { expandFeedRoutes } from '../../utils/feed';
 
 type FeedEntry = {
   route: string;
@@ -78,6 +79,11 @@ const REGION_META: Record<string, { label: string; description: string; order: n
     description: 'France-specific syndicated feeds.',
     order: 5,
   },
+  tags: {
+    label: 'Tag Feeds',
+    description: 'Combined news and event feeds scoped to specific tags.',
+    order: 6,
+  },
   other: {
     label: 'Other Feeds',
     description: 'Additional feeds outside the main regional groups.',
@@ -104,6 +110,7 @@ function getAreaPath(route: string): string {
 
 function getAreaLabel(areaPath: string): string {
   if (AREA_LABELS[areaPath]) return AREA_LABELS[areaPath];
+  if (areaPath.startsWith('/tags/')) return `Tag: ${areaPath.slice('/tags/'.length)}`;
   if (areaPath === '/') return 'Site';
   return areaPath
     .split('/')
@@ -114,6 +121,9 @@ function getAreaLabel(areaPath: string): string {
 
 function getAreaDescription(areaPath: string): string {
   if (AREA_DESCRIPTIONS[areaPath]) return AREA_DESCRIPTIONS[areaPath];
+  if (areaPath.startsWith('/tags/')) {
+    return `Combined news and events feed for content tagged "${areaPath.slice('/tags/'.length)}".`;
+  }
   return 'Syndicated updates for this section.';
 }
 
@@ -131,6 +141,7 @@ function getRegionKey(areaPath: string): string {
   if (areaPath === '/us' || areaPath.startsWith('/us/')) return 'us';
   if (areaPath === '/au' || areaPath.startsWith('/au/')) return 'au';
   if (areaPath === '/fr' || areaPath.startsWith('/fr/')) return 'fr';
+  if (areaPath.startsWith('/tags/')) return 'tags';
   if (areaPath.startsWith('/')) return 'global';
   return 'other';
 }
@@ -138,11 +149,13 @@ function getRegionKey(areaPath: string): string {
 const feedModules = import.meta.glob('../**/feed.*.{ts,js,mts,mjs}');
 const siteBase = (Astro.site?.toString() || 'https://galaxyproject.org').replace(/\/$/, '');
 
-const feedEntries = Object.keys(feedModules)
-  .map((modulePath): FeedEntry | null => {
-    const route = routeFromModulePath(modulePath);
-    if (!route) return null;
+// Dynamic feed endpoints (e.g. tags/[tag]) generate one feed per whitelisted
+// value. Expand them via their getStaticPaths so each feed is listed and
+// counted individually.
+const concreteFeedRoutes = await expandFeedRoutes(feedModules, routeFromModulePath);
 
+const feedEntries = concreteFeedRoutes
+  .map((route): FeedEntry => {
     const formatMatch = route.match(/\.([a-z0-9]+)$/i);
     const formatExt = formatMatch ? formatMatch[1].toLowerCase() : 'other';
     const formatMeta = FEED_FORMATS[formatExt] || {
@@ -165,7 +178,6 @@ const feedEntries = Object.keys(feedModules)
       formatOrder: formatMeta.order,
     };
   })
-  .filter((entry): entry is FeedEntry => Boolean(entry))
   .sort((a, b) => {
     if (a.areaLabel !== b.areaLabel) {
       return a.areaLabel.localeCompare(b.areaLabel);
