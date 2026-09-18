@@ -29,6 +29,10 @@ Don't want to write a full XML tool or wait for admin installation? [User-Define
 
 Use Claude Code, Claude Desktop, Codex, Antigravity or Pi with Galaxy: [Galaxy for AI Coding Agents](/tools/ai-agents/) installs the Galaxy MCP server and curated Galaxy skills (tool development, Nextflow conversion, workflow construction) into the agent you already use. For a complete AI research assistant built around Galaxy, see [Orbit](/tools/orbit/).
 
+## Agentic stack
+
+An agent, user-defined tools and Galaxy together: when the agent needs a step no installed tool covers, it writes a UDT and Galaxy runs it as a job with full provenance. [The Galaxy agentic stack](/tools/agentic-stack/) shows the run as it happens and lists the three things to set up.
+
 ## Need help?
 
 - Find [support](/support/)

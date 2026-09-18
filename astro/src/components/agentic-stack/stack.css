@@ -1,0 +1,1083 @@
+/*
+ * The Galaxy agentic stack: hero, the two-pane run window and the light
+ * sections of /tools/agentic-stack/. Global stylesheet, inlined only on that
+ * page (the player creates nodes at runtime, so Astro-scoped styles would not
+ * reach them). Everything is scoped under .agentic-stack or .stk-band.
+ */
+
+.agentic-stack {
+  /* Brand tokens (aliased, hex fallbacks in case Tailwind tree-shakes one). */
+  --as-dark: var(--color-galaxy-dark, #2c3143);
+  --as-gold: var(--color-galaxy-gold, #ffd700);
+  --as-gold-dark: var(--color-galaxy-gold-dark, #d19e00);
+  --as-primary: var(--color-galaxy-primary, #25537b);
+  /* The agent's accent inside the window, so gold is not spent on chrome. */
+  --as-accent: #8fb9dd;
+  --as-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  margin: -1.5rem -1.5rem 0;
+}
+
+@media (min-width: 640px) {
+  .agentic-stack {
+    margin: -1.5rem -2rem 0;
+  }
+}
+
+/*
+ * The global .prose heading/link rules are unlayered and outrank component
+ * classes, so neutralise them inside the hero.
+ */
+.prose .agentic-stack :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: var(--heading-color, var(--as-dark));
+}
+
+.prose .agentic-stack a,
+.prose .agentic-stack a:hover {
+  color: var(--link-color, inherit);
+  text-decoration: none;
+}
+
+/* ── Hero ──────────────────────────────────────────────────────────── */
+
+.stk-hero {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  color: #fff;
+  background: linear-gradient(170deg, var(--as-dark) 0%, #1e2231 100%);
+}
+
+.stk-hero__grid {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  mask-image: linear-gradient(to bottom, #000 0%, #000 55%, transparent 100%);
+}
+
+.stk-hero__inner {
+  position: relative;
+  z-index: 1;
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 3.5rem 1.25rem 0;
+  text-align: center;
+}
+
+@media (min-width: 640px) {
+  .stk-hero__inner {
+    padding: 4.5rem 2.5rem 0;
+  }
+}
+
+.stk-eyebrow {
+  margin: 0;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.62);
+}
+
+.stk-title {
+  --heading-color: #fff;
+  margin: 1rem 0 1rem;
+  font-size: clamp(2rem, 5.2vw, 3.4rem);
+  font-weight: 700;
+  line-height: 1.06;
+  letter-spacing: -0.02em;
+  color: #fff;
+  text-wrap: balance;
+}
+
+.stk-title em {
+  font-style: normal;
+  color: var(--as-gold);
+}
+
+.stk-lede {
+  max-width: 44rem;
+  margin: 0 auto 1.75rem;
+  font-size: 1.1rem;
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.78);
+  text-wrap: pretty;
+}
+
+.stk-cta {
+  display: flex;
+  justify-content: center;
+}
+
+.stk-btn {
+  --link-color: var(--as-dark);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1.4rem;
+  border-radius: 0.5rem;
+  background: var(--as-gold);
+  color: var(--as-dark);
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: background-color 0.15s ease;
+}
+
+.stk-btn:hover {
+  background: var(--as-gold-dark);
+}
+
+.stk-btn svg {
+  width: 1rem;
+  height: 1rem;
+}
+
+.stk-btn:focus-visible,
+.stk-chip:focus-visible,
+.stk-ctl:focus-visible {
+  outline: 2px solid var(--as-gold);
+  outline-offset: 2px;
+}
+
+/* The stack strip: Agent → User-defined tools → Galaxy. */
+.stk-strip {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem 0.55rem;
+  margin: 1.75rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.stk-strip li {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.stk-strip__arrow {
+  display: inline-flex;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.stk-strip__arrow svg {
+  width: 14px;
+  height: 14px;
+}
+
+.stk-chip {
+  --link-color: rgba(255, 255, 255, 0.88);
+  display: inline-flex;
+  align-items: center;
+  padding: 0.32rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 0.85rem;
+  text-decoration: none;
+  transition:
+    border-color 0.15s ease,
+    background-color 0.15s ease,
+    color 0.15s ease;
+}
+
+.stk-chip:hover {
+  --link-color: #fff;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.07);
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+/* ── The run window ────────────────────────────────────────────────── */
+
+.stk-demo {
+  position: relative;
+  z-index: 1;
+  max-width: 60rem;
+  margin: 2.5rem auto 0;
+  padding: 0 0.75rem 2.5rem;
+}
+
+@media (min-width: 640px) {
+  .stk-demo {
+    padding: 0 1.5rem 3rem;
+  }
+}
+
+.stk-progress {
+  height: 3px;
+  margin-bottom: 0.75rem;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 2px;
+}
+
+.stk-progress > span {
+  display: block;
+  width: 0;
+  height: 100%;
+  background: var(--as-accent);
+}
+
+.stk-run {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  background: #171a24;
+  color: #e6e9f2;
+  font-size: 12px;
+  line-height: 1.5;
+  box-shadow:
+    0 24px 60px -24px rgba(0, 0, 0, 0.7),
+    0 0 0 1px rgba(255, 255, 255, 0.09);
+}
+
+@media (min-width: 640px) {
+  .stk-run {
+    height: 520px;
+    font-size: 13px;
+  }
+}
+
+.stk-bar {
+  display: flex;
+  flex: none;
+  align-items: center;
+  gap: 0.5rem;
+  height: 2.3rem;
+  padding: 0 0.85rem;
+  background: #222634;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 0.78rem;
+}
+
+.stk-dots {
+  display: flex;
+  gap: 0.4rem;
+  width: 3.4rem;
+}
+
+.stk-dots span {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+}
+
+.stk-dots span:nth-child(1) {
+  background: #ff5f57;
+}
+.stk-dots span:nth-child(2) {
+  background: #febc2e;
+}
+.stk-dots span:nth-child(3) {
+  background: #28c840;
+}
+
+.stk-bar__title {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  color: rgba(230, 233, 242, 0.62);
+}
+
+.stk-bar__spacer {
+  width: 3.4rem;
+}
+
+.stk-panes {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  flex: 1;
+  min-height: 0;
+}
+
+@media (min-width: 640px) {
+  .stk-panes {
+    grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+  }
+}
+
+.stk-pane {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 0;
+}
+
+.stk-pane:focus-visible {
+  outline: 2px solid var(--as-gold);
+  outline-offset: -2px;
+}
+
+@media (max-width: 639.98px) {
+  .stk-pane {
+    height: 260px;
+  }
+}
+
+.stk-pane--agent {
+  --text: #e6e9f2;
+  --dim: rgba(230, 233, 242, 0.62);
+  --line: rgba(255, 255, 255, 0.1);
+  --surface: rgba(255, 255, 255, 0.05);
+  --ok: #4ade80;
+  background: #171a24;
+  color: var(--text);
+}
+
+.stk-pane--galaxy {
+  --text: #2c3143;
+  --dim: rgba(44, 49, 67, 0.78);
+  --line: rgba(44, 49, 67, 0.12);
+  background: #fbfaf8;
+  color: var(--text);
+  border-left: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+@media (max-width: 639.98px) {
+  .stk-pane--galaxy {
+    border-left: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+  }
+}
+
+.stk-pane__hd {
+  flex: none;
+  padding: 0.45rem 0.9rem;
+  border-bottom: 1px solid var(--line);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--dim);
+}
+
+/* Agent transcript. */
+.stk-agent {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 0.4rem;
+  min-height: 0;
+  padding: 0.85rem 0.9rem 1.1rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+  font-family: var(--as-mono);
+  scrollbar-width: thin;
+  scrollbar-color: rgba(230, 233, 242, 0.25) transparent;
+}
+
+@media (min-width: 640px) {
+  .stk-agent {
+    padding: 1rem 1.15rem 1.25rem;
+  }
+}
+
+/* Blinking prompt while the window waits to play. */
+.stk-agent .ln-prompt {
+  display: flex;
+  gap: 0.5rem;
+  color: var(--as-accent);
+  font-weight: 700;
+}
+
+.stk-agent .ln-prompt .caret {
+  display: inline-block;
+  width: 0.55em;
+  height: 1.05em;
+  align-self: center;
+  background: var(--text);
+  animation: stk-caret 1s steps(2, start) infinite;
+}
+
+.stk-agent .ln {
+  min-width: 0;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  animation: stk-in 0.22s ease-out both;
+}
+
+.stk-agent .is-typing .tx::after,
+.stk-agent .is-streaming .tx::after {
+  content: '';
+  display: inline-block;
+  width: 0.55em;
+  height: 1.05em;
+  margin-left: 2px;
+  vertical-align: text-bottom;
+  background: currentColor;
+  animation: stk-caret 1s steps(2, start) infinite;
+}
+
+.stk-agent .is-streaming .tx::after {
+  width: 0.4em;
+  opacity: 0.6;
+}
+
+.stk-agent .ln-out {
+  color: var(--text);
+}
+
+.stk-agent .tone-dim {
+  color: var(--dim);
+}
+
+.stk-agent .tone-ok {
+  color: var(--ok);
+}
+
+.stk-agent .bubble {
+  padding: 0.4rem 0.7rem;
+  border-radius: 0.3rem;
+  border-left: 2px solid var(--as-accent);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text);
+}
+
+.stk-agent .bubble::before {
+  content: '› ';
+  color: var(--as-accent);
+  font-weight: 700;
+}
+
+.stk-agent .ln-tool {
+  padding: 0.4rem 0.65rem;
+  border: 1px solid var(--line);
+  border-radius: 0.45rem;
+  background: var(--surface);
+  font-size: 0.94em;
+}
+
+.stk-agent .tool-hd {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  min-width: 0;
+}
+
+.stk-agent .tool-ic {
+  flex: none;
+  width: 13px;
+  height: 13px;
+  color: var(--as-accent);
+}
+
+.stk-agent .tool-ic svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.stk-agent .tool-name {
+  flex: none;
+  font-weight: 700;
+  color: var(--as-accent);
+}
+
+.stk-agent .tool-args {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--dim);
+}
+
+.stk-agent .tool-st {
+  display: grid;
+  flex: none;
+  place-items: center;
+  margin-left: auto;
+  width: 14px;
+  height: 14px;
+}
+
+.stk-agent .ring {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  border: 2px solid var(--line);
+  border-top-color: var(--as-accent);
+  animation: stk-spin 0.8s linear infinite;
+}
+
+.stk-agent .ok {
+  display: none;
+  font-weight: 700;
+  color: var(--ok);
+}
+
+.stk-agent .is-done .ring {
+  display: none;
+}
+
+.stk-agent .is-done .ok {
+  display: inline;
+}
+
+.stk-agent .tool-res {
+  display: none;
+  margin-top: 0.35rem;
+  padding-top: 0.35rem;
+  border-top: 1px dashed var(--line);
+  color: var(--dim);
+  font-size: 0.94em;
+}
+
+.stk-agent .is-done .tool-res {
+  display: block;
+  animation: stk-in 0.22s ease-out both;
+}
+
+.stk-agent .ln-assistant {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+}
+
+.stk-agent .av {
+  flex: none;
+  width: 0.55rem;
+  height: 0.55rem;
+  margin-top: 0.5em;
+  border-radius: 50%;
+  background: var(--as-accent);
+  box-shadow: 0 0 0 3px rgba(143, 185, 221, 0.22);
+}
+
+.stk-agent .ln-assistant .tx {
+  flex: 1;
+  min-width: 0;
+  line-height: 1.55;
+}
+
+/* The tool the agent writes, abbreviated. */
+.stk-agent .ln-yaml {
+  padding: 0.45rem 0.65rem 0.5rem;
+  border: 1px solid var(--line);
+  border-radius: 0.45rem;
+  background: var(--surface);
+  font-size: 0.94em;
+}
+
+.stk-agent .yaml-hd {
+  margin-bottom: 0.35rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px dashed var(--line);
+  color: var(--dim);
+}
+
+.stk-agent .yaml-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.05rem;
+}
+
+.stk-agent .yl {
+  min-width: 0;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  color: var(--text);
+}
+
+.stk-agent .yk {
+  color: var(--as-accent);
+}
+
+/* Galaxy history panel. */
+.stk-tools {
+  flex: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.35rem;
+  padding: 0.42rem 0.9rem;
+  border-bottom: 1px solid var(--line);
+  background: rgba(44, 49, 67, 0.035);
+  font-size: 0.8rem;
+  color: var(--dim);
+}
+
+.stk-tools .gx-strip__lbl {
+  font-weight: 700;
+}
+
+.stk-tools.is-set .gx-strip__val {
+  color: var(--text);
+}
+
+.stk-hist {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(44, 49, 67, 0.3) transparent;
+}
+
+.gx-row {
+  --row-bg: transparent;
+  --row-bar: transparent;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.1rem 0.45rem;
+  padding: 0.5rem 0.9rem 0.5rem 1rem;
+  border-bottom: 1px solid var(--line);
+  background: var(--row-bg);
+  font-size: 13px;
+  line-height: 1.4;
+  transition: background-color 0.3s ease;
+  animation: stk-in 0.22s ease-out both;
+}
+
+@media (max-width: 639.98px) {
+  .gx-row {
+    font-size: 12px;
+  }
+}
+
+/* Galaxy's own dataset states: a data encoding, always with a text label. */
+.gx-row[data-state='queued'] {
+  --row-bg: #f1f1f1;
+  --row-bar: #9a9a9a;
+}
+
+.gx-row[data-state='running'] {
+  --row-bg: #fbf5d5;
+  --row-bar: #d6a600;
+}
+
+.gx-row[data-state='ok'] {
+  --row-bg: #eef7ea;
+  --row-bar: #5cb85c;
+}
+
+.gx-bar {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 3px;
+  background: var(--row-bar);
+  transition: background-color 0.3s ease;
+}
+
+.gx-hid {
+  flex: none;
+  font-weight: 700;
+  color: var(--dim);
+}
+
+.gx-name {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  color: var(--text);
+}
+
+.gx-state {
+  flex: none;
+  margin-left: auto;
+  font-size: 0.86em;
+  color: var(--dim);
+  transition: color 0.3s ease;
+}
+
+.gx-meta {
+  flex-basis: 100%;
+  padding-left: 1.4rem;
+  font-size: 0.86em;
+  color: var(--dim);
+}
+
+.gx-info {
+  flex-basis: 100%;
+  margin: 0.4rem 0 0.15rem;
+  padding: 0.55rem 0.7rem 0.6rem;
+  border: 1px solid var(--line);
+  border-radius: 0.4rem;
+  background: #fff;
+}
+
+.gx-info__hd {
+  margin-bottom: 0.35rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--dim);
+}
+
+.gx-info dl {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  gap: 0.18rem 0.7rem;
+  margin: 0;
+}
+
+.gx-pair {
+  display: contents;
+}
+
+.gx-info dt {
+  font-size: 0.86em;
+  color: var(--dim);
+}
+
+.gx-info dd {
+  margin: 0;
+  font-family: var(--as-mono);
+  font-size: 0.88em;
+  overflow-wrap: anywhere;
+  color: var(--text);
+}
+
+.gx-info.is-pulse {
+  animation: stk-pulse 1.2s ease-out 1;
+}
+
+/* Footer actions: inert text, dim until the run is over. */
+.stk-foot {
+  flex: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem 0.5rem;
+  padding: 0.45rem 0.9rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.78rem;
+  color: rgba(44, 49, 67, 0.7);
+  transition: color 0.3s ease;
+}
+
+.stk-foot__sep {
+  color: rgba(44, 49, 67, 0.4);
+}
+
+.stk-foot.is-live {
+  color: var(--as-primary);
+  font-weight: 700;
+}
+
+/* ── Controls and caption ──────────────────────────────────────────── */
+
+.stk-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.9rem;
+}
+
+.stk-ctl {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-height: 2.25rem;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 0.375rem;
+  background: rgba(255, 255, 255, 0.04);
+  color: rgba(255, 255, 255, 0.85);
+  font: inherit;
+  font-size: 0.84rem;
+  cursor: pointer;
+  transition:
+    border-color 0.15s ease,
+    background-color 0.15s ease,
+    color 0.15s ease;
+}
+
+.stk-ctl:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.stk-ctl svg {
+  width: 14px;
+  height: 14px;
+  flex: none;
+}
+
+.stk-ctl[data-state='playing'] .ic-play,
+.stk-ctl[data-state='paused'] .ic-pause {
+  display: none;
+}
+
+.agentic-stack[data-state='done'] [data-play],
+.agentic-stack.is-static [data-play],
+.agentic-stack.is-static [data-replay] {
+  display: none;
+}
+
+.stk-caption {
+  margin: 0.9rem 0 0;
+  font-size: 0.78rem;
+  line-height: 1.5;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.58);
+}
+
+/* Static (reduced motion / no JS): show the whole run. */
+.agentic-stack.is-static .stk-run,
+.agentic-stack.is-static .stk-pane {
+  height: auto;
+}
+
+/* Paused: freeze the carets and rings too. */
+.agentic-stack.is-paused .stk-agent .ring,
+.agentic-stack.is-paused .stk-agent .is-typing .tx::after,
+.agentic-stack.is-paused .stk-agent .is-streaming .tx::after,
+.agentic-stack.is-paused .stk-agent .ln-prompt .caret {
+  animation-play-state: paused;
+}
+
+/* ── Light sections (MDX bands after the hero) ─────────────────────── */
+
+.prose .stk-band {
+  --as-primary: var(--color-galaxy-primary, #25537b);
+  --as-dark: var(--color-galaxy-dark, #2c3143);
+  --as-gold: var(--color-galaxy-gold, #ffd700);
+  margin: 0 -1.5rem;
+  padding: 3rem max(1.5rem, calc((100% + 3rem - 64rem) / 2));
+  background: var(--color-light-bg, #edf4fa);
+}
+
+@media (min-width: 640px) {
+  .prose .stk-band {
+    margin: 0 -2rem;
+    padding: 3rem max(2rem, calc((100% + 4rem - 64rem) / 2));
+  }
+}
+
+.prose .stk-band--white {
+  background: #fff;
+}
+
+.prose .stk-band + .stk-band {
+  border-top: 1px solid color-mix(in srgb, var(--as-primary) 12%, transparent);
+}
+
+.prose .stk-band > :first-child {
+  margin-top: 0;
+}
+
+.prose .stk-band > :last-child {
+  margin-bottom: 0;
+}
+
+.prose .stk-band h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0 0 1rem;
+  padding: 0;
+  border: 0;
+  font-size: 1.5rem;
+  line-height: 1.25;
+  scroll-margin-top: 6rem;
+}
+
+.prose .stk-band h2:not(:first-child) {
+  margin-top: 2.75rem;
+}
+
+.prose .stk-band h2::before {
+  content: '';
+  flex: none;
+  width: 4px;
+  height: 1.75rem;
+  border-radius: 2px;
+  background: var(--as-gold);
+}
+
+.prose .stk-band > p {
+  max-width: 46rem;
+}
+
+.prose .stk-band details {
+  margin: 0 0 2.5rem;
+  border: 1px solid color-mix(in srgb, var(--as-primary) 14%, transparent);
+  border-radius: 0.5rem;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.prose .stk-band summary {
+  padding: 0.85rem 1.15rem;
+  font-weight: 700;
+  color: var(--as-dark);
+  cursor: pointer;
+}
+
+.prose .stk-band summary::marker {
+  color: var(--as-primary);
+}
+
+.prose .stk-band details[open] summary {
+  border-bottom: 1px solid color-mix(in srgb, var(--as-primary) 12%, transparent);
+}
+
+.prose .stk-band details > :not(summary) {
+  margin-left: 1.15rem;
+  margin-right: 1.15rem;
+}
+
+.prose .stk-band details > p {
+  margin-top: 1rem;
+}
+
+.prose .stk-band details > .code-block,
+.prose .stk-band details > pre {
+  margin-bottom: 1.15rem;
+}
+
+/* Get started: three numbered cards in stack order. */
+.prose .stack-steps {
+  counter-reset: step;
+  margin: 1.5rem 0 0;
+}
+
+.prose .stack-steps .gx-tile {
+  counter-increment: step;
+}
+
+.prose .stack-steps .gx-tile__body {
+  padding: 1.25rem 1.25rem 1.35rem;
+  font-size: 0.95rem;
+}
+
+.prose .stack-steps h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0 0 0.7rem;
+  font-size: 1.25rem;
+  line-height: 1.3;
+  scroll-margin-top: 6rem;
+}
+
+.prose .stack-steps h3::before {
+  content: counter(step);
+  display: inline-grid;
+  flex: none;
+  place-items: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--as-primary) 10%, #fff);
+  color: var(--as-primary);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+/* The one-line prompt in "First run" wraps instead of scrolling under the Copy button. */
+.prose .stk-band pre[data-language='plaintext'] {
+  padding-right: 5.5rem;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+/* ── Motion ────────────────────────────────────────────────────────── */
+
+.stk-in {
+  animation: stk-in 0.22s ease-out both;
+}
+
+@keyframes stk-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes stk-caret {
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes stk-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes stk-pulse {
+  0% {
+    border-color: var(--line);
+    box-shadow: 0 0 0 0 rgba(255, 215, 0, 0);
+  }
+  30% {
+    border-color: var(--as-gold);
+    box-shadow: 0 0 0 3px rgba(255, 215, 0, 0.55);
+  }
+  100% {
+    border-color: var(--line);
+    box-shadow: 0 0 0 0 rgba(255, 215, 0, 0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stk-agent .ln,
+  .stk-agent .is-done .tool-res,
+  .stk-agent .ring,
+  .stk-agent .is-typing .tx::after,
+  .stk-agent .is-streaming .tx::after,
+  .stk-agent .ln-prompt .caret,
+  .gx-row,
+  .gx-info.is-pulse,
+  .stk-in {
+    animation: none;
+    transition: none;
+  }
+}
+
+@media print {
+  .stk-hero__grid,
+  .stk-progress,
+  .stk-controls {
+    display: none;
+  }
+
+  .stk-hero {
+    background: none;
+    color: #000;
+  }
+
+  .stk-title,
+  .stk-title em,
+  .stk-lede,
+  .stk-eyebrow,
+  .stk-chip,
+  .stk-btn,
+  .stk-caption {
+    color: #000;
+  }
+
+  .stk-btn,
+  .stk-chip {
+    background: none;
+    border: 1px solid #999;
+  }
+
+  .stk-run,
+  .stk-pane {
+    height: auto;
+  }
+}
