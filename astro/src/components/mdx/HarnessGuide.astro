@@ -1,0 +1,33 @@
+---
+/**
+ * HarnessGuide: one setup guide panel inside <HarnessGuides>. The markdown
+ * body comes from the MDX children (generated upstream from agentic-plugins
+ * docs); `source` links back to that file for edits.
+ */
+interface Props {
+  /** Harness id, matching the agent-shells scene id (e.g. "claude-code"). */
+  id: string;
+  /** Display name, e.g. "Claude Code". */
+  name: string;
+  /** URL of the upstream markdown this panel was generated from. */
+  source?: string;
+}
+
+const { id, name, source } = Astro.props;
+---
+
+<section class="hguide" id={`guide-${id}`} role="tabpanel" aria-labelledby={`guide-tab-${id}`} data-guide-panel={id}>
+  <h3 class="hguide__title">{name}</h3>
+  <slot />
+  {
+    source && (
+      <p class="hguide__source">
+        This guide is generated from{' '}
+        <a href={source} rel="noopener noreferrer" target="_blank">
+          the {name} guide in agentic-plugins
+        </a>
+        ; edit it there.
+      </p>
+    )
+  }
+</section>

@@ -14,6 +14,8 @@ const TOOL_MS = 900;
 const SPIN_FRAME_MS = 80;
 const COPY_LABEL_DEFAULT = 'Copy install commands';
 const COPY_FEEDBACK_MS = 1600;
+/** Fired on `document` when a harness is chosen here or in the guide tabs. */
+const SELECT_EVENT = 'agent-shells:select';
 
 /** Rough duration of a line, used to pace the progress bar. */
 function lineMs(line: Line): number {
@@ -384,11 +386,17 @@ export function mountAgentShells(root: HTMLElement, scenes: Scene[]): () => void
     showFinal(i);
   }
 
+  /** Show scene `i` the way a visitor would expect right now: static if paused or idle, else playing. */
+  function choose(i: number) {
+    if (userPaused || (!started && !inView)) select(i);
+    else start(i);
+  }
+
   // Tabs: click + roving arrow keys. Selecting a tab respects an explicit pause.
   tabs.forEach((t, i) => {
     t.addEventListener('click', () => {
-      if (userPaused) select(i);
-      else start(i);
+      choose(i);
+      document.dispatchEvent(new CustomEvent(SELECT_EVENT, { detail: { id: scenes[i].id, source: 'shells' } }));
     });
     t.addEventListener('keydown', (e) => {
       const n = tabs.length;
@@ -450,11 +458,19 @@ export function mountAgentShells(root: HTMLElement, scenes: Scene[]): () => void
   };
   document.addEventListener('visibilitychange', onVisibility);
 
+  const onExternalSelect = (e: Event) => {
+    const { id, source } = (e as CustomEvent<{ id: string; source: string }>).detail;
+    if (source === 'shells') return;
+    const i = scenes.findIndex((s) => s.id === id);
+    if (i >= 0 && i !== current) choose(i);
+  };
+  document.addEventListener(SELECT_EVENT, onExternalSelect);
+
   const io = new IntersectionObserver(
     (entries) => {
       entries.forEach((e) => {
         inView = e.isIntersecting;
-        if (inView && !started && !reduce && !userPaused) start(0);
+        if (inView && !started && !reduce && !userPaused) start(current);
         updatePaused();
       });
     },
@@ -475,6 +491,7 @@ export function mountAgentShells(root: HTMLElement, scenes: Scene[]): () => void
     wake();
     io.disconnect();
     document.removeEventListener('visibilitychange', onVisibility);
+    document.removeEventListener(SELECT_EVENT, onExternalSelect);
     tabList.removeEventListener('focusin', onTabFocusIn);
     tabList.removeEventListener('focusout', onTabFocusOut);
     clearTimeout(copyTimer);

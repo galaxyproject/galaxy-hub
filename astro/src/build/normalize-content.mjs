@@ -460,6 +460,8 @@ const KNOWN_COMPONENTS = [
   'CofestBoard',
   'CofestProject',
   'AgentShells',
+  'HarnessGuides',
+  'HarnessGuide',
 ];
 
 function bodyHasComponents(body) {

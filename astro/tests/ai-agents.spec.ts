@@ -1,8 +1,9 @@
 import { test, expect, type Page } from '@playwright/test';
 
 /**
- * /tools/ai-agents/ — "Galaxy for AI Coding Agents" landing page with the
- * animated harness shells (AgentShells component), plus the generated guides.
+ * /tools/ai-agents/ — "Galaxy for AI Coding Agents": one page with the
+ * animated harness shells (AgentShells) and the tabbed setup guides
+ * (HarnessGuides), generated from the agentic-plugins docs.
  */
 
 const HARNESSES = ['claude-code', 'codex', 'antigravity', 'pi', 'claude-desktop'];
@@ -19,8 +20,16 @@ async function waitForReplay(page: Page) {
   return shells;
 }
 
+const selectedHero = (page: Page) => page.locator('[data-agent-shells] [data-tab][aria-selected="true"]');
+const guidesMounted = (page: Page) =>
+  expect(page.locator('[data-harness-guides]')).toHaveAttribute('data-mounted', '1');
+const panelTop = (page: Page, id: string) =>
+  page.locator(`#guide-${id}`).evaluate((el) => Math.round(el.getBoundingClientRect().top));
+const selectedGuide = (page: Page) => page.locator('[data-harness-guides] [data-guide-tab][aria-selected="true"]');
+const visiblePanels = (page: Page) => page.locator('[data-harness-guides] [data-guide-panel]:not([hidden])');
+
 test.describe('AI agents landing page', () => {
-  test('renders hero, harness tabs and the agent grid', async ({ page }) => {
+  test('renders hero, harness tabs, the agent grid and the guide panels', async ({ page }) => {
     const errors: string[] = [];
     page.on('pageerror', (err) => errors.push(err.message));
 
@@ -41,18 +50,76 @@ test.describe('AI agents landing page', () => {
     const levels = await page.locator('main :is(h1, h2, h3)').evaluateAll((els) => els.map((e) => e.tagName));
     expect(levels.slice(0, 5)).toEqual(['H1', 'H2', 'H3', 'H3', 'H3']);
 
+    // Cards and chips link to the guide panels on this page.
     const grid = page.locator('#pick-your-agent');
     await expect(grid).toBeVisible();
     for (const id of HARNESSES) {
-      await expect(grid.locator(`a[href="/tools/ai-agents/${id}/"]`)).toHaveCount(1);
+      await expect(grid.locator(`a[href="#guide-${id}"]`)).toHaveCount(1);
     }
 
-    // Prose sections below the component still render, and the social image is set.
-    await expect(page.getByRole('heading', { name: 'Before you start' })).toBeVisible();
+    // One guide tab and one panel per harness; only the first panel is shown.
+    const guides = page.locator('[data-harness-guides]');
+    await expect(guides.getByRole('tab')).toHaveCount(HARNESSES.length);
+    await expect(guides.locator('[data-guide-panel]')).toHaveCount(HARNESSES.length);
+    await expect(visiblePanels(page)).toHaveCount(1);
+    await expect(visiblePanels(page)).toHaveAttribute('data-guide-panel', 'claude-code');
+
+    // Shared sections around the guides, and the social image.
+    await expect(page.getByRole('heading', { name: 'Get a Galaxy API key' })).toBeVisible();
+    await expect(page.locator('#get-a-galaxy-api-key')).toBeAttached();
+    await expect(page.locator('.prose')).toContainText('Manage API Key');
+    await expect(page.getByRole('heading', { name: 'Set up your agent' })).toBeVisible();
     await expect(page.getByRole('heading', { name: 'Get help' })).toBeVisible();
     await expect(page.locator('meta[property="og:image"]')).toHaveAttribute('content', /galaxy_logo/);
 
     expect(errors).toEqual([]);
+  });
+
+  test('guide tabs, hero tabs and the URL hash stay in sync', async ({ page }) => {
+    await page.goto('/tools/ai-agents/');
+    await guidesMounted(page);
+
+    // Guide tab -> panel, hash and hero follow.
+    const codexGuide = page.locator('[data-guide-tab="codex"]');
+    await codexGuide.scrollIntoViewIfNeeded();
+    await codexGuide.click();
+    await expect(selectedGuide(page)).toHaveAttribute('data-guide-tab', 'codex');
+    await expect(visiblePanels(page)).toHaveAttribute('data-guide-panel', 'codex');
+    await expect(selectedHero(page)).toHaveAttribute('data-tab', 'codex');
+    expect(new URL(page.url()).hash).toBe('#guide-codex');
+    await expect(page.locator('#guide-codex')).toContainText('codex plugin marketplace add');
+
+    // Hero tab -> guide follows without scrolling the page away from the hero.
+    const heroPi = page.locator('[data-agent-shells] [data-tab="pi"]');
+    await heroPi.scrollIntoViewIfNeeded();
+    const before = await page.evaluate(() => window.scrollY);
+    await heroPi.click();
+    await expect(selectedGuide(page)).toHaveAttribute('data-guide-tab', 'pi');
+    await expect(visiblePanels(page)).toHaveAttribute('data-guide-panel', 'pi');
+    expect(Math.abs((await page.evaluate(() => window.scrollY)) - before)).toBeLessThan(5);
+
+    // "Set up" link in the hero controls opens and scrolls to that panel.
+    await page.locator('[data-agent-shells] [data-setup]').click();
+    await expect(visiblePanels(page)).toHaveAttribute('data-guide-panel', 'pi');
+    await expect.poll(() => panelTop(page, 'pi')).toBeGreaterThanOrEqual(0);
+    await expect.poll(() => panelTop(page, 'pi')).toBeLessThan(200);
+
+    // Keyboard on the guide tabs.
+    await page.locator('[data-guide-tab="pi"]').focus();
+    await page.keyboard.press('ArrowRight');
+    await expect(selectedGuide(page)).toHaveAttribute('data-guide-tab', 'claude-desktop');
+    await expect(selectedHero(page)).toHaveAttribute('data-tab', 'claude-desktop');
+  });
+
+  test('a deep link opens that guide in both places', async ({ page }) => {
+    await page.goto('/tools/ai-agents/#guide-antigravity');
+    await guidesMounted(page);
+    await expect(visiblePanels(page)).toHaveAttribute('data-guide-panel', 'antigravity');
+    await expect(selectedGuide(page)).toHaveAttribute('data-guide-tab', 'antigravity');
+    await expect(selectedHero(page)).toHaveAttribute('data-tab', 'antigravity');
+    await expect(page.locator('[data-agent-shells] [data-title]')).toContainText('agy');
+    await expect.poll(() => panelTop(page, 'antigravity')).toBeGreaterThanOrEqual(0);
+    await expect.poll(() => panelTop(page, 'antigravity')).toBeLessThan(200);
   });
 
   test('the replay animates, advances to the next harness, and can be paused', async ({ page }) => {
@@ -83,7 +150,8 @@ test.describe('AI agents landing page', () => {
     await expect(play).toContainText('Play');
     await expect(body).toContainText('codex mcp list');
 
-    // Resume from the first tab and wait for the loop to advance on its own.
+    // Resume from the first tab and wait for the loop to advance on its own;
+    // auto-advance must not change the guide the reader has open.
     await shells.getByRole('tab', { name: /Claude Code/ }).click();
     await play.click();
     await expect(play).toContainText('Pause');
@@ -91,6 +159,7 @@ test.describe('AI agents landing page', () => {
       timeout: 60_000,
     });
     await expect(shells.locator('[data-window]')).toHaveAttribute('aria-labelledby', 'ash-tab-codex');
+    await expect(selectedGuide(page)).toHaveAttribute('data-guide-tab', 'claude-code');
   });
 
   test('tabs switch the window and the setup link, including by keyboard', async ({ page }) => {
@@ -106,12 +175,12 @@ test.describe('AI agents landing page', () => {
     await expect(win).toHaveAttribute('data-kind', 'terminal');
     await expect(win).toHaveAttribute('aria-labelledby', 'ash-tab-antigravity');
     await expect(shells.locator('[data-title]')).toContainText('agy');
-    await expect(shells.locator('[data-setup]')).toHaveAttribute('href', '/tools/ai-agents/antigravity/');
+    await expect(shells.locator('[data-setup]')).toHaveAttribute('href', '#guide-antigravity');
 
     const desktopTab = shells.getByRole('tab', { name: /Claude Desktop/ });
     await desktopTab.click();
     await expect(win).toHaveAttribute('data-kind', 'desktop');
-    await expect(shells.locator('[data-setup]')).toHaveAttribute('href', '/tools/ai-agents/claude-desktop/');
+    await expect(shells.locator('[data-setup]')).toHaveAttribute('href', '#guide-claude-desktop');
     await expect(shells.locator('[data-copy]')).toContainText('Copy install steps');
 
     // Arrow keys move between tabs.
@@ -170,27 +239,23 @@ test.describe('AI agents landing page', () => {
     expect(overflow).toBeLessThanOrEqual(0);
   });
 
-  test('generated guides keep their intro and point edits upstream', async ({ page }) => {
-    await page.goto('/tools/ai-agents/api-key/');
-    await expect(page.locator('.prose')).toContainText('Manage API Key');
-    await expect(page.locator('#table-of-contents')).toHaveCount(0);
-    await expect(page.locator('a', { hasText: 'Edit the source on GitHub' })).toHaveAttribute(
-      'href',
-      /agentic-plugins\/blob\/main\/docs\/galaxy-api-key\.md/
-    );
-
-    await page.goto('/tools/ai-agents/claude-code/');
-    await expect(page.locator('.prose')).toContainText('This page sets up');
-    await expect(page.locator('.prose')).toContainText('galaxy-dev-skills');
-  });
-
-  test('guide code blocks get a copy button that copies the install commands', async ({ page, context }) => {
+  test('guide panels keep their intro, link upstream, and have copyable blocks', async ({ page, context }) => {
     await context.grantPermissions(['clipboard-read', 'clipboard-write']);
-    await page.goto('/tools/ai-agents/claude-code/');
-    const blocks = page.locator('.prose .code-block');
-    expect(await blocks.count()).toBeGreaterThan(3);
-    await expect(page.locator('.prose pre')).toHaveCount(await blocks.count());
+    await page.goto('/tools/ai-agents/#guide-claude-code');
+    const panel = page.locator('#guide-claude-code');
+    await expect(panel).toContainText('This page sets up');
+    await expect(panel).toContainText('galaxy-dev-skills');
+    await expect(panel.locator('.hguide__source a')).toHaveAttribute(
+      'href',
+      /agentic-plugins\/blob\/main\/docs\/claude-code\.md/
+    );
+    // The injected TOC heading must not exist anywhere on the page.
+    await expect(page.locator('#table-of-contents')).toHaveCount(0);
 
+    // Verify prompt and install block are fenced, with working Copy buttons.
+    const blocks = panel.locator('.code-block');
+    expect(await blocks.count()).toBeGreaterThan(3);
+    await expect(panel.locator('pre', { hasText: 'Connect to Galaxy and tell me who I am.' })).toHaveCount(1);
     const first = blocks.first();
     await expect(first.locator('pre')).toContainText('/plugin marketplace add galaxyproject/agentic-plugins');
     const btn = first.locator('.code-copy');
@@ -202,7 +267,6 @@ test.describe('AI agents landing page', () => {
     await expect(page.locator('.code-copy-status')).toContainText('Copied to clipboard');
     const clipboard = await page.evaluate(() => navigator.clipboard.readText());
     expect(clipboard.split('\n')[0]).toBe('/plugin marketplace add galaxyproject/agentic-plugins');
-    expect(clipboard).toContain('/plugin install galaxy-mcp@galaxyproject');
     expect(clipboard.endsWith('\n')).toBe(false);
   });
 

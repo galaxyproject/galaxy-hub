@@ -17,6 +17,8 @@ import Icon from '../components/mdx/Icon.astro';
 import CopyButton from '../components/mdx/CopyButton.astro';
 import Insert from '../components/mdx/Insert.astro';
 import AgentShells from '../components/mdx/AgentShells.astro';
+import HarnessGuides from '../components/mdx/HarnessGuides.astro';
+import HarnessGuide from '../components/mdx/HarnessGuide.astro';
 
 export async function getStaticPaths() {
   const articles = await getCollection('articles');
@@ -59,6 +61,8 @@ const components = {
   CopyButton,
   Insert,
   AgentShells,
+  HarnessGuides,
+  HarnessGuide,
 };
 ---
 

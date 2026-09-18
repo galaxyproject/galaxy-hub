@@ -51,7 +51,7 @@ Without this flag, component tags will not be rendered. The `npm run content:lin
 
 ### Available components
 
-Icon, VegaEmbed, Twitter, Mastodon, VideoPlayer, Carousel, Flickr, Supporters, Contacts, MarkdownEmbed, CalendarEmbed, Insert, AgentShells.
+Icon, VegaEmbed, Twitter, Mastodon, VideoPlayer, Carousel, Flickr, Supporters, Contacts, MarkdownEmbed, CalendarEmbed, Insert, AgentShells, HarnessGuides, HarnessGuide.
 
 ### MDX compatibility
 

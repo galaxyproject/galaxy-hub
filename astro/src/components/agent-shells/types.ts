@@ -48,7 +48,7 @@ export interface Scene {
   name: string;
   /** One line under the tab, e.g. "Plugin marketplace, prompts for URL + key". */
   tagline: string;
-  /** Link to the setup guide, e.g. "/tools/ai-agents/claude-code/". */
+  /** Link to the setup guide panel on the page, e.g. "#guide-claude-code". */
   href: string;
   /** Accent colour (hex) used for the tab underline, prompt and tool cards. */
   accent: string;
