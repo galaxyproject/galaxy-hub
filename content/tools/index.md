@@ -27,7 +27,7 @@ Don't want to write a full XML tool or wait for admin installation? [User-Define
 
 ## AI coding agents
 
-Use Claude Code, Codex, Cursor, Antigravity or Pi with Galaxy: [Galaxy for AI Coding Agents](/tools/ai-agents/) installs the Galaxy MCP server and curated Galaxy skills (tool development, Nextflow conversion, workflow construction) into the agent you already use. For a complete AI research assistant built around Galaxy, see [Orbit](/tools/orbit/).
+Use Claude Code, Claude Desktop, Codex, Antigravity or Pi with Galaxy: [Galaxy for AI Coding Agents](/tools/ai-agents/) installs the Galaxy MCP server and curated Galaxy skills (tool development, Nextflow conversion, workflow construction) into the agent you already use. For a complete AI research assistant built around Galaxy, see [Orbit](/tools/orbit/).
 
 ## Need help?
 

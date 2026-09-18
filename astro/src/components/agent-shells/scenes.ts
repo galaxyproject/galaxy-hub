@@ -44,7 +44,7 @@ export const scenes: Scene[] = [
       {
         kind: 'spinner',
         text: 'Installing galaxy-mcp@galaxyproject…',
-        done: 'Installed galaxy-mcp 2026.9.16 · key saved to keychain',
+        done: 'Installed galaxy-mcp 0.1.0 · key saved to keychain',
         ms: 1400,
       },
       { kind: 'slash', text: 'plugin install galaxy-skills@galaxyproject' },
@@ -106,7 +106,7 @@ export const scenes: Scene[] = [
       {
         kind: 'spinner',
         text: 'Installing galaxy-mcp@galaxyproject…',
-        done: 'Installed galaxy-mcp 2026.9.16',
+        done: 'Installed galaxy-mcp 0.1.0',
         ms: 1200,
       },
       { kind: 'cmd', text: 'codex plugin add galaxy-skills@galaxyproject', prompt: '$' },
@@ -127,19 +127,26 @@ export const scenes: Scene[] = [
       { kind: 'user', text: "Find an IWC paired-end variant-calling workflow; run it on 'run 12'." },
       {
         kind: 'tool',
-        name: 'get_iwc_workflows',
-        args: 'variant calling, paired-end',
+        name: 'search_iwc_workflows',
+        args: 'variant calling paired-end',
         result: 'generic-variant-calling-wgs-pe · 1 match',
-        delay: 1200,
+        delay: 1000,
+      },
+      {
+        kind: 'tool',
+        name: 'import_workflow_from_iwc',
+        args: 'generic-variant-calling-wgs-pe',
+        result: 'imported · 15 steps',
+        delay: 900,
       },
       {
         kind: 'tool',
         name: 'invoke_workflow',
-        args: 'generic-variant-calling-wgs-pe → run 12',
-        result: 'invocation started · 9 steps',
-        delay: 1300,
+        args: 'Generic variant calling (WGS PE) → run 12',
+        result: 'invocation started',
+        delay: 1100,
       },
-      { kind: 'assistant', text: "Workflow running on 'run 12': 9 steps queued, the VCF lands there." },
+      { kind: 'assistant', text: "Workflow running on 'run 12': 15 steps queued, the VCF lands there." },
       { kind: 'pause', ms: 2500 },
     ],
   },
@@ -191,7 +198,7 @@ export const scenes: Scene[] = [
       { kind: 'user', text: "Rebuild history 'run 12 (scratch)' as a clean, extractable analysis." },
       {
         kind: 'tool',
-        name: 'get_histories',
+        name: 'get_history_details',
         args: 'run 12 (scratch)',
         result: '23 datasets · 9 tool runs',
         delay: 1000,
@@ -259,7 +266,7 @@ export const scenes: Scene[] = [
       },
       { kind: 'assistant', text: WHOAMI_REPLY },
       { kind: 'user', text: "Which datasets in 'run 12' are in error, and why?" },
-      { kind: 'tool', name: 'get_histories', args: 'run 12', result: '12 datasets · 2 in error', delay: 1100 },
+      { kind: 'tool', name: 'get_history_contents', args: 'run 12', result: '12 datasets · 2 in error', delay: 1100 },
       {
         kind: 'tool',
         name: 'get_job_details',
@@ -284,6 +291,7 @@ export const scenes: Scene[] = [
     title: 'Claude',
     promptSymbol: '',
     slashPrefix: '',
+    copyLabel: 'Copy install steps',
     copy: [
       '1. Download galaxy-mcp.mcpb from github.com/galaxyproject/agentic-plugins/releases/latest',
       '2. Open it with Claude Desktop (or Settings > Extensions > Advanced settings > Install Extension...)',
@@ -405,5 +413,3 @@ const cursor: Scene = {
 
 /** Harnesses held back from the page for now; kept so they can be re-added. */
 export const heldBack: Scene[] = [cursor];
-
-export default scenes;

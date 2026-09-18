@@ -5,7 +5,6 @@ import FairSectionHero from '../components/content/FairSectionHero.astro';
 import SupporterGrid from '../components/content/SupporterGrid.astro';
 import type { SupporterProfile } from '../utils/supporters';
 import ContentWithToc from '../components/layout/ContentWithToc.astro';
-import CodeCopy from '../components/content/CodeCopy.astro';
 import Icon from '../components/ui/Icon.astro';
 
 interface Heading {
@@ -35,6 +34,10 @@ interface Props {
   hideHeader?: boolean;
   /** Run the article edge to edge: no outer padding, no max width. */
   fullBleed?: boolean;
+  /** Upstream source of a generated page; "Edit on GitHub" points here instead of the hub. */
+  generatedFrom?: string;
+  /** Social preview image; defaults to `image`. */
+  ogImage?: string;
 }
 
 const {
@@ -53,9 +56,14 @@ const {
   fairSection,
   hideHeader = false,
   fullBleed = false,
+  generatedFrom,
+  ogImage,
 } = Astro.props;
 
-const editUrl = sourceFile ? `https://github.com/galaxyproject/galaxy-hub/edit/main/content/${sourceFile}` : undefined;
+const editUrl =
+  generatedFrom ||
+  (sourceFile ? `https://github.com/galaxyproject/galaxy-hub/edit/main/content/${sourceFile}` : undefined);
+const editLabel = generatedFrom ? 'Edit the source on GitHub' : 'Edit on GitHub';
 
 // Ensure arrays are never null
 const authors = authorsRaw || [];
@@ -67,7 +75,7 @@ const hasMetadata =
   (title && title !== 'Galaxy Hub') || date || (authors?.length ?? 0) > 0 || tags.length > 0 || description;
 ---
 
-<BaseLayout title={title} description={description} fullBleed={fullBleed}>
+<BaseLayout title={title} description={description} fullBleed={fullBleed} image={ogImage ?? image}>
   <article class:list={['bg-white relative', fullBleed ? 'max-w-none' : 'max-w-6xl mx-auto']}>
     {
       hasMetadata && !hideHeader && (
@@ -88,7 +96,6 @@ const hasMetadata =
     <ContentWithToc headings={headings} autotoc={autotoc}>
       <slot />
     </ContentWithToc>
-    <CodeCopy />
 
     <!-- Footer -->
     <footer class="px-6 sm:px-8 pb-6 sm:pb-8 mt-8">
@@ -121,7 +128,7 @@ const hasMetadata =
                 class="text-chicago-500 hover:text-galaxy-primary flex items-center gap-1.5 transition-colors"
               >
                 <Icon name="edit" />
-                Edit on GitHub
+                {editLabel}
               </a>
             )}
           </div>

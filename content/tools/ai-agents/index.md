@@ -1,14 +1,23 @@
 ---
 title: "Galaxy for AI Coding Agents"
-tease: "Connect Claude Code, Claude Desktop, Codex, Antigravity or Pi to your Galaxy server, and give the agent curated Galaxy skills."
+tease: "Connect Claude Code, Codex, Antigravity or Pi to your Galaxy server with curated Galaxy skills, or Claude Desktop with the Galaxy connection alone."
 subsites: [all]
 components: true
 autotoc: false
 skip_title_render: true
 full_bleed: true
+og_image: /images/galaxy-logos/galaxy_logo_25percent.png
+generated_from: https://github.com/galaxyproject/agentic-plugins/blob/main/scripts/export-hub.py
 ---
 
 <AgentShells />
+
+Galaxy for AI coding agents installs the galaxy-mcp server, the galaxy-skills
+and galaxy-dev-skills sets and the Workflow Foundry skills into Claude Code,
+Codex, Antigravity or Pi; Claude Desktop gets the galaxy-mcp server as a
+one-click bundle. Everything comes from the
+[galaxyproject/agentic-plugins](https://github.com/galaxyproject/agentic-plugins)
+repository.
 
 <div class="callout">
 Looking for a complete AI research assistant built around Galaxy rather than a
@@ -27,6 +36,8 @@ there and adding the MCP server by hand with `uvx galaxy-mcp`.
   or [usegalaxy.org.au](https://usegalaxy.org.au)) and its API key.
 - **[uv](https://docs.astral.sh/uv/)** on your `PATH` for every harness except
   Claude Desktop; the MCP server runs as `uvx galaxy-mcp`.
+- **`git`** for the Antigravity install and **Node.js** for Pi; each guide lists
+  its own prerequisites.
 - An API key gives full access to your account. Keep it in configuration or an
   environment variable, not in chat.
 

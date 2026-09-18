@@ -4,7 +4,9 @@
  *
  * Progressive enhancement: renders nothing server-side. On page load each
  * `.prose pre` is wrapped in a positioned container and given a button that
- * copies the block's text to the clipboard. Works across view transitions.
+ * copies the block's text to the clipboard. Included by BaseLayout so every
+ * route that renders prose ships both the script and the styles, and view
+ * transitions between routes cannot leave a page with one but not the other.
  */
 ---
 
@@ -13,14 +15,9 @@
     position: relative;
   }
 
+  /* Room for the button so it never covers the first line of code. */
   .code-block > pre {
-    margin: 0;
-  }
-
-  /* Keep the prose's vertical rhythm on the wrapper instead of the pre. */
-  .prose .code-block {
-    margin-top: 1.7142857em;
-    margin-bottom: 1.7142857em;
+    padding-right: 5.5rem;
   }
 
   .code-copy {
@@ -64,6 +61,21 @@
     border-color: #ffd700;
   }
 
+  .code-copy.is-failed {
+    color: #fff;
+    background: #b91c1c;
+    border-color: #b91c1c;
+  }
+
+  .code-copy-status {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+
   @media print {
     .code-copy {
       display: none;
@@ -72,30 +84,62 @@
 </style>
 
 <script>
-  const COPY_ICON =
-    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>';
-  const CHECK_ICON =
-    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>';
+  import { icons, svg } from '../../lib/icons';
+
+  const LABEL_IDLE = 'Copy';
+  const ARIA_IDLE = 'Copy code to clipboard';
+  const FEEDBACK_MS = 1600;
 
   function blockText(pre: HTMLElement): string {
     const code = pre.querySelector('code') ?? pre;
     return (code.textContent ?? '').replace(/\n$/, '');
   }
 
-  async function copyText(text: string): Promise<void> {
+  /** Copy text to the clipboard; resolves to whether it actually worked. */
+  async function copyText(text: string): Promise<boolean> {
     try {
       await navigator.clipboard.writeText(text);
+      return true;
     } catch {
-      const ta = document.createElement('textarea');
-      ta.value = text;
-      ta.setAttribute('readonly', '');
-      ta.style.position = 'fixed';
-      ta.style.opacity = '0';
-      document.body.appendChild(ta);
-      ta.select();
-      document.execCommand('copy');
-      ta.remove();
+      try {
+        const ta = document.createElement('textarea');
+        ta.value = text;
+        ta.setAttribute('readonly', '');
+        ta.style.position = 'fixed';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.select();
+        const ok = document.execCommand('copy');
+        ta.remove();
+        return ok;
+      } catch {
+        return false;
+      }
     }
+  }
+
+  function setState(btn: HTMLButtonElement, state: 'idle' | 'copied' | 'failed') {
+    btn.classList.toggle('is-copied', state === 'copied');
+    btn.classList.toggle('is-failed', state === 'failed');
+    const label = state === 'copied' ? 'Copied' : state === 'failed' ? 'Copy failed' : LABEL_IDLE;
+    btn.innerHTML = `${svg(state === 'copied' ? icons.check : icons.copy)}<span>${label}</span>`;
+    btn.setAttribute(
+      'aria-label',
+      state === 'copied' ? 'Copied code to clipboard' : state === 'failed' ? 'Copy failed' : ARIA_IDLE
+    );
+  }
+
+  /** One visually hidden live region per page, announcing copy results. */
+  function statusRegion(): HTMLElement {
+    let el = document.querySelector<HTMLElement>('.code-copy-status');
+    if (!el) {
+      el = document.createElement('div');
+      el.className = 'code-copy-status';
+      el.setAttribute('role', 'status');
+      el.setAttribute('aria-live', 'polite');
+      document.body.appendChild(el);
+    }
+    return el;
   }
 
   function enhance(): void {
@@ -103,16 +147,21 @@
       if (pre.closest('.code-block') || pre.closest('.not-prose')) return;
       if (!blockText(pre).trim()) return;
 
+      // Move the block's own margins to the wrapper so nothing shifts on load.
+      const cs = getComputedStyle(pre);
       const wrap = document.createElement('div');
       wrap.className = 'code-block';
+      wrap.style.marginTop = cs.marginTop;
+      wrap.style.marginBottom = cs.marginBottom;
+      pre.style.marginTop = '0';
+      pre.style.marginBottom = '0';
       pre.replaceWith(wrap);
       wrap.appendChild(pre);
 
       const btn = document.createElement('button');
       btn.type = 'button';
       btn.className = 'code-copy';
-      btn.setAttribute('aria-label', 'Copy code to clipboard');
-      btn.innerHTML = `${COPY_ICON}<span>Copy</span>`;
+      setState(btn, 'idle');
       wrap.appendChild(btn);
     });
   }
@@ -124,18 +173,14 @@
     if (!btn) return;
     const pre = btn.parentElement?.querySelector<HTMLElement>('pre');
     if (!pre) return;
-    await copyText(blockText(pre));
-    document.querySelectorAll('.code-copy.is-copied').forEach((b) => {
-      b.classList.remove('is-copied');
-      b.innerHTML = `${COPY_ICON}<span>Copy</span>`;
+    const ok = await copyText(blockText(pre));
+    document.querySelectorAll<HTMLButtonElement>('.code-copy.is-copied, .code-copy.is-failed').forEach((b) => {
+      if (b !== btn) setState(b, 'idle');
     });
-    btn.classList.add('is-copied');
-    btn.innerHTML = `${CHECK_ICON}<span>Copied</span>`;
+    setState(btn, ok ? 'copied' : 'failed');
+    statusRegion().textContent = ok ? 'Copied to clipboard' : 'Copy failed';
     clearTimeout(timer);
-    timer = setTimeout(() => {
-      btn.classList.remove('is-copied');
-      btn.innerHTML = `${COPY_ICON}<span>Copy</span>`;
-    }, 1600);
+    timer = setTimeout(() => setState(btn, 'idle'), FEEDBACK_MS);
   });
 
   document.addEventListener('astro:page-load', enhance);

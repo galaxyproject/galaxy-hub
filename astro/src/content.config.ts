@@ -59,6 +59,8 @@ const baseArticleSchema = z
     autotoc: z.boolean().optional().nullable(),
     skip_title_render: z.boolean().optional().nullable(),
     full_bleed: z.boolean().optional().nullable(),
+    generated_from: z.string().optional().nullable(),
+    og_image: z.string().optional().nullable(),
     image: z.string().optional().nullable(),
     components: z.boolean().optional().nullable(),
     hasComponents: z.boolean().optional().nullable(),

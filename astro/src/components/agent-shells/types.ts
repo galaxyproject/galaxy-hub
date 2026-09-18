@@ -63,6 +63,8 @@ export interface Scene {
   slashPrefix: string;
   /** The exact install block for the Copy button (plain text, newline separated). */
   copy: string;
+  /** Label for the copy button; defaults to "Copy install commands". */
+  copyLabel?: string;
   /** Total scripted lines; the player will loop to the next scene when done. */
   lines: Line[];
 }

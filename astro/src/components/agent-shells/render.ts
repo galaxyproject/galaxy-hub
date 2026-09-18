@@ -3,6 +3,7 @@
  * client player (animated replay). No DOM access here.
  */
 import type { Line, Scene } from './types';
+import { icons, svg } from '../../lib/icons';
 
 export const SPIN_FRAMES = ['⠋', '⠙', '⠹', '⠸', '⠼', '⠴', '⠦', '⠧', '⠇', '⠏'];
 
@@ -30,8 +31,7 @@ export function isDialogLine(line: Line): boolean {
   return line.kind === 'ui' || line.kind === 'field';
 }
 
-const TOOL_ICON =
-  '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>';
+const TOOL_ICON = svg(icons.wrench);
 
 /**
  * HTML for one line. With `final` the text is filled in and async states
@@ -115,5 +115,6 @@ export function sceneSummary(scene: Scene): string {
   const tools = scene.lines.filter((l) => l.kind === 'tool').length;
   const ask = firstUser && firstUser.kind === 'user' ? ` Then the person asks: "${firstUser.text}"` : '';
   const calls = tools ? ` The agent answers after ${tools} Galaxy tool call${tools === 1 ? '' : 's'}.` : '';
-  return `Replay of installing the Galaxy plugins into ${scene.name}.${ask}${calls}`;
+  const what = scene.kind === 'desktop' ? 'the Galaxy MCP bundle' : 'the Galaxy plugins';
+  return `Replay of installing ${what} into ${scene.name}.${ask}${calls}`;
 }

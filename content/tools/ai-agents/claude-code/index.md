@@ -2,14 +2,18 @@
 title: "Galaxy for Claude Code"
 tease: "Install the Galaxy MCP server and skills into Claude Code from the galaxyproject plugin marketplace."
 subsites: [all]
-autotoc: true
+autotoc: false
+generated_from: https://github.com/galaxyproject/agentic-plugins/blob/main/docs/claude-code.md
 ---
 
 This page sets up [Claude Code](https://code.claude.com) with:
 
 - the **galaxy-mcp** server, so Claude can list histories, run tools, upload
   data and invoke workflows on your Galaxy server;
-- **galaxy-skills**, curated Galaxy developer skills;
+- **galaxy-skills**, curated skills for *using* Galaxy (MCP tool surface,
+  collections, user-defined tools, workflow reports, reproducibility);
+- **galaxy-dev-skills**, skills for *building* Galaxy (tool wrappers,
+  Nextflow conversion, ToolShed revisions, track hubs, hub posts);
 - **foundry-skills**, the Galaxy Workflow Foundry's workflow-construction skills.
 
 ## Prerequisites
@@ -90,13 +94,16 @@ invoke them by name.
 
 ```
 /plugin marketplace update galaxyproject
+/plugin update galaxy-mcp@galaxyproject
 /plugin update galaxy-skills@galaxyproject
 /plugin update galaxy-dev-skills@galaxyproject
 /plugin update foundry-skills@galaxyproject
 ```
 
+Updating `galaxy-mcp` may prompt again for the Galaxy URL and API key.
+
 The skills plugins are versioned by the date they were synced from upstream
-(for example `2026.9.16`).
+(a date such as `2026.9.17`).
 
 ## Change the Galaxy URL or key
 
@@ -107,8 +114,12 @@ non-interactively:
 ```bash
 claude plugin install galaxy-mcp@galaxyproject \
   --config galaxy_url=https://usegalaxy.org \
-  --config galaxy_api_key=paste-your-key-here
+  --config galaxy_api_key="$GALAXY_API_KEY"
 ```
+
+Export `GALAXY_API_KEY` first (see
+[Getting a Galaxy API key](/tools/ai-agents/api-key/)); a key typed literally on the
+command line is stored in your shell history.
 
 Uninstalling and reinstalling the plugin also prompts again:
 
@@ -125,9 +136,13 @@ credentials yourself:
 ```bash
 claude mcp add --scope user galaxy \
   -e GALAXY_URL=https://usegalaxy.org \
-  -e GALAXY_API_KEY=paste-your-key-here \
+  -e GALAXY_API_KEY="$GALAXY_API_KEY" \
   -- uvx galaxy-mcp
 ```
+
+Again the key comes from the exported variable (see
+[Getting a Galaxy API key](/tools/ai-agents/api-key/)); typing it literally here stores
+it in your shell history.
 
 **Skills straight from upstream.** Foundry publishes its own marketplace:
 

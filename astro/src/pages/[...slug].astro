@@ -75,6 +75,8 @@ const components = {
   fairSection={fairSection}
   hideHeader={article.data.skip_title_render === true}
   fullBleed={article.data.full_bleed === true}
+  generatedFrom={article.data.generated_from ?? undefined}
+  ogImage={article.data.og_image ?? undefined}
 >
   <Content components={components} />
 </ArticleLayout>

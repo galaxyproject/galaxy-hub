@@ -2,7 +2,8 @@
 title: "Getting a Galaxy API key"
 tease: "Where to find the API key every agent needs, and the two ways to hand it to galaxy-mcp."
 subsites: [all]
-autotoc: true
+autotoc: false
+generated_from: https://github.com/galaxyproject/agentic-plugins/blob/main/docs/galaxy-api-key.md
 ---
 
 Every Galaxy server issues its own API keys, and a key gives full access to

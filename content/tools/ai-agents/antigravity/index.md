@@ -2,7 +2,8 @@
 title: "Galaxy for Antigravity"
 tease: "Install the Galaxy plugins into Google Antigravity (agy CLI and IDE)."
 subsites: [all]
-autotoc: true
+autotoc: false
+generated_from: https://github.com/galaxyproject/agentic-plugins/blob/main/docs/antigravity.md
 ---
 
 This page sets up Google [Antigravity](https://antigravity.google) (the `agy`
@@ -10,7 +11,10 @@ CLI and the IDE, which share `~/.gemini/config/`) with:
 
 - the **galaxy-mcp** server, so the agent can list histories, run tools, upload
   data and invoke workflows on your Galaxy server;
-- **galaxy-skills**, curated Galaxy developer skills;
+- **galaxy-skills**, curated skills for *using* Galaxy (MCP tool surface,
+  collections, user-defined tools, workflow reports, reproducibility);
+- **galaxy-dev-skills**, skills for *building* Galaxy (tool wrappers,
+  Nextflow conversion, ToolShed revisions, track hubs, hub posts);
 - **foundry-skills**, the Galaxy Workflow Foundry's workflow-construction skills.
 
 ## Prerequisites
@@ -89,13 +93,15 @@ agent reads them when needed even though they do not appear in `/skills`.
 
 ```bash
 git -C ~/.galaxy-agentic-plugins pull
+agy plugin install ~/.galaxy-agentic-plugins/plugins/galaxy-mcp
 agy plugin install ~/.galaxy-agentic-plugins/plugins/galaxy-skills
 agy plugin install ~/.galaxy-agentic-plugins/plugins/galaxy-dev-skills
 agy plugin install ~/.galaxy-agentic-plugins/plugins/foundry-skills
 ```
 
-Reinstalling overwrites the installed copy. `agy plugin list` shows what is
-installed; `agy plugin uninstall <name>` removes a plugin.
+Reinstalling overwrites the installed copy. `galaxy-mcp` reads the credentials
+from your environment, so no re-entry is needed. `agy plugin list` shows what
+is installed; `agy plugin uninstall <name>` removes a plugin.
 
 ## Alternatives
 
@@ -104,9 +110,12 @@ installed; `agy plugin uninstall <name>` removes a plugin.
 
 ```bash
 agy mcp add --env GALAXY_URL=https://usegalaxy.org \
-            --env GALAXY_API_KEY=paste-your-key-here \
+            --env GALAXY_API_KEY="$GALAXY_API_KEY" \
             galaxy uvx galaxy-mcp
 ```
+
+The key comes from the variable exported above; typing it literally here stores
+it in your shell history.
 
 Then install only the skills plugins, not `galaxy-mcp`, so the server is
 not registered twice.

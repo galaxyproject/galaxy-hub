@@ -2,14 +2,18 @@
 title: "Galaxy for Pi"
 tease: "Add the Galaxy MCP server and skills to the Pi coding agent."
 subsites: [all]
-autotoc: true
+autotoc: false
+generated_from: https://github.com/galaxyproject/agentic-plugins/blob/main/docs/pi.md
 ---
 
 This page sets up [Pi](https://pi.dev) (the `pi` coding agent) with:
 
 - the **galaxy-mcp** server, so the agent can list histories, run tools, upload
   data and invoke workflows on your Galaxy server;
-- **galaxy-skills**, curated Galaxy developer skills;
+- **galaxy-skills**, curated skills for *using* Galaxy (MCP tool surface,
+  collections, user-defined tools, workflow reports, reproducibility);
+- **galaxy-dev-skills**, skills for *building* Galaxy (tool wrappers,
+  Nextflow conversion, ToolShed revisions, track hubs, hub posts);
 - **foundry-skills**, the Galaxy Workflow Foundry's workflow-construction skills.
 
 Looking for a complete Galaxy research assistant built on Pi? See
@@ -99,7 +103,9 @@ pi update --extensions
 ```
 
 refreshes installed packages. To pin a release, install a tag:
-`pi install git:github.com/galaxyproject/agentic-plugins@v2026.9.16`.
+`pi install git:github.com/galaxyproject/agentic-plugins@<tag>`, where `<tag>`
+is a release from
+[the releases page](https://github.com/galaxyproject/agentic-plugins/releases).
 
 ## Alternatives
 

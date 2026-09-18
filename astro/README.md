@@ -77,6 +77,8 @@ autotoc: false          # opt out of table of contents (default: true)
 components: true        # enable MDX component rendering
 skip_title_render: true # hide the page header; the content supplies its own h1
 full_bleed: true        # run the article edge to edge (no outer padding or max width)
+generated_from: <url>   # page is generated upstream; "Edit on GitHub" links there
+og_image: /images/x.png # social preview image (defaults to `image`)
 ---
 ```
 

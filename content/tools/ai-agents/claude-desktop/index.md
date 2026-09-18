@@ -2,7 +2,8 @@
 title: "Galaxy for Claude Desktop"
 tease: "One-click Galaxy connection for Claude Desktop, no terminal required."
 subsites: [all]
-autotoc: true
+autotoc: false
+generated_from: https://github.com/galaxyproject/agentic-plugins/blob/main/docs/claude-desktop.md
 ---
 
 This page installs the **galaxy-mcp** server into
@@ -10,8 +11,8 @@ This page installs the **galaxy-mcp** server into
 can list your histories, upload and inspect datasets, search and run tools,
 and invoke workflows on your Galaxy server. No terminal needed.
 
-Skills (galaxy-skills, foundry-skills) are for coding agents and do not apply
-to Claude Desktop.
+Skills (galaxy-skills, galaxy-dev-skills, foundry-skills) are for coding
+agents and do not apply to Claude Desktop.
 
 ## Prerequisites
 
