@@ -50,6 +50,11 @@ test.describe('Agentic stack page', () => {
       await expect(galaxyPane(page)).toContainText(name);
     }
 
+    // The beta warning sits above the fold of the prose and links to the sign-up.
+    const warning = page.locator('.stk-warning');
+    await expect(warning).toContainText('UDTs are in early beta');
+    await expect(warning.locator('a')).toHaveAttribute('href', 'https://udt-signup.galaxyproject.org/');
+
     // Every destination the page promises, each linked at least once.
     for (const href of [
       '#get-started',
@@ -58,7 +63,6 @@ test.describe('Agentic stack page', () => {
       '/tools/ai-agents/',
       '/tools/orbit/',
       'https://galaxyproject.github.io/loom/',
-      'https://github.com/galaxyproject/galaxy/pull/23365',
     ]) {
       expect(await page.locator(`a[href="${href}"]`).count(), href).toBeGreaterThan(0);
     }

@@ -1081,3 +1081,9 @@
     height: auto;
   }
 }
+
+/* Beta warning under the hero: gold edge so it reads as a notice, not a card. */
+.prose .stk-warning {
+  border-left-color: var(--color-galaxy-gold, #ffd700);
+  background-color: color-mix(in srgb, var(--color-galaxy-gold, #ffd700) 12%, #fff);
+}

@@ -13,6 +13,10 @@ og_image: /images/galaxy-logos/galaxy_logo_25percent.png
 
 <div class="stk-band">
 
+<div class="callout stk-warning" role="note">
+<strong>UDTs are in early beta.</strong> Only registered users are allowed. To register, <a href="https://udt-signup.galaxyproject.org/">click here</a>.
+</div>
+
 <details>
 <summary>The tool the agent wrote</summary>
 
@@ -131,7 +135,7 @@ Nothing to install. Log in to [usegalaxy.org](https://usegalaxy.org), open **Use
 
 An agent working on a laptop leaves scratch scripts, renamed files and a chat transcript. On this stack each step it takes becomes three things in Galaxy: a tool, a job and a dataset. For every job, installed or user-defined, Galaxy records the tool and its version, the container, the exact command, the inputs and parameters, and stdout and stderr. You can watch this in the history panel while the agent works, or ask the agent to read it back with `get_job_details`.
 
-The history that results is ordinary Galaxy. Share it by link, extract it to a workflow, rerun it on new data. A UDT embedded in a shared workflow travels with it: whoever imports the workflow gets a copy of the tool. The tool itself lives under **Custom Tools** in your account, where you can read and revise what the agent wrote; Galaxy 26.1 is adding an authoring reference to that editor ([PR #23365](https://github.com/galaxyproject/galaxy/pull/23365)). A UDT fills a gap. When a published Tool Shed tool does the job, the agent should use it, as it used featureCounts above.
+The history that results is ordinary Galaxy. Share it by link, extract it to a workflow, rerun it on new data. A UDT embedded in a shared workflow travels with it: whoever imports the workflow gets a copy of the tool. The tool itself lives under **Custom Tools** in your account, where you can read and revise what the agent wrote. A UDT fills a gap. When a published Tool Shed tool does the job, the agent should use it, as it used featureCounts above.
 
 Orbit keeps a second record: the plan you approved, its parameters and the interpretation, in `notebook.md`. The analysis stays in Galaxy; the reasoning stays in the notebook.
 
