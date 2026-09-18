@@ -61,8 +61,14 @@ current project's `.pi/settings.json` instead of your user settings.
 1. Run `/mcp` inside Pi. A server named `galaxyproject_agentic_plugins__galaxy`
    should be listed (the adapter prefixes package-provided servers with the
    package name). It connects lazily on first use.
-2. Ask: *"Connect to Galaxy and tell me who I am."* The agent calls `get_user`
-   through the adapter's `mcp` tool and reports your username and server version.
+2. Ask:
+
+   ```
+   Connect to Galaxy and tell me who I am.
+   ```
+
+   The agent calls `get_user` through the adapter's `mcp` tool and reports your
+   username and server version.
 
 If something is off, run `/skill:galaxy-connect`; that skill walks the agent
 through diagnosing the connection.

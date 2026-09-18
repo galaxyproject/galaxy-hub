@@ -62,8 +62,13 @@ costs context on every turn, so skip the sets you will not use.
 1. In a terminal, `codex mcp list` shows a `galaxy` server with
    `GALAXY_URL` and `GALAXY_API_KEY` (masked) and status `enabled`. Inside
    Codex, `/mcp` lists it too.
-2. Ask: *"Connect to Galaxy and tell me who I am."* Codex calls `get_user` and
-   reports your username and the server version.
+2. Ask:
+
+   ```
+   Connect to Galaxy and tell me who I am.
+   ```
+
+   Codex calls `get_user` and reports your username and the server version.
 
 If something is off, type `$galaxy-connect` (or pick it from `/skills`) to
 have Codex diagnose the connection.

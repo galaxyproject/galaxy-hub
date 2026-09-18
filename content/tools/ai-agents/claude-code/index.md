@@ -60,8 +60,13 @@ costs context on every turn, so skip the sets you will not use.
 
 1. Run `/mcp`. A `galaxy` server should be listed under the `galaxy-mcp` plugin
    and connected.
-2. Ask: *"Connect to Galaxy and tell me who I am."* Claude calls `get_user` and
-   reports your username and the server version.
+2. Ask:
+
+   ```
+   Connect to Galaxy and tell me who I am.
+   ```
+
+   Claude calls `get_user` and reports your username and the server version.
 
 If something is off, run `/galaxy-mcp:galaxy-connect`; that skill walks Claude
 through diagnosing the connection.

@@ -39,9 +39,18 @@ start.
 
 ## Verify
 
-Start a new chat and ask: *"Connect to Galaxy and tell me who I am."* Claude
-calls `get_user` and reports your username and the server version. Then try
-*"Show my three most recent histories."*
+Start a new chat and ask:
+
+```
+Connect to Galaxy and tell me who I am.
+```
+
+Claude calls `get_user` and reports your username and the server version. Then
+try:
+
+```
+Show my three most recent histories.
+```
 
 ## Change the URL or key
 

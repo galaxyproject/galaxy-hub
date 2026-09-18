@@ -70,8 +70,13 @@ To scope a plugin to one workspace instead, copy its directory into
 
 1. Type `/mcp` in the prompt to open the MCP manager; `galaxy-mcp_galaxy`
    (plugin servers are prefixed with the plugin name) should be running.
-2. Ask: *"Connect to Galaxy and tell me who I am."* The agent calls `get_user`
-   and reports your username and the server version.
+2. Ask:
+
+   ```
+   Connect to Galaxy and tell me who I am.
+   ```
+
+   The agent calls `get_user` and reports your username and the server version.
 
 If something is off, run `/galaxy-connect`; that skill walks the agent through
 diagnosing the connection.
