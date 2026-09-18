@@ -1,24 +1,12 @@
 import { getCollection } from 'astro:content';
 import { isPublishedDate } from '../../../utils/dateUtils';
 import { contentMatchesSubsite } from '../../../utils/subsites';
+import { buildAtomFeed, type AtomEntry } from '../../../utils/feed';
 
-function escapeXML(text: string): string {
-  return text
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;')
-    .replace(/'/g, '&apos;');
-}
-
-function atomDate(value: Date | string | undefined): string {
-  if (!value) return new Date().toISOString();
-  const date = value instanceof Date ? value : new Date(value);
-  return date.toISOString();
-}
+const SITE_URL = 'https://galaxyproject.org';
+const MAX_ITEMS = 50;
 
 export async function GET() {
-  const siteUrl = 'https://galaxyproject.org';
   const newsArticles = await getCollection('news');
   const now = new Date();
 
@@ -33,40 +21,26 @@ export async function GET() {
       const dateB = b.data.date instanceof Date ? b.data.date : new Date(b.data.date || 0);
       return dateB.getTime() - dateA.getTime();
     })
-    .slice(0, 50);
+    .slice(0, MAX_ITEMS);
 
-  const lastUpdated = euNews.length > 0 ? atomDate(euNews[0].data.date) : new Date().toISOString();
-
-  let atom = `<?xml version="1.0" encoding="utf-8"?>\n`;
-  atom += `<feed xmlns="http://www.w3.org/2005/Atom">\n`;
-  atom += `  <id>${siteUrl}/eu/news/feed.atom</id>\n`;
-  atom += `  <title>${escapeXML('Galaxy Europe News')}</title>\n`;
-  atom += `  <updated>${lastUpdated}</updated>\n`;
-  atom += `  <generator>Galaxy Hub</generator>\n`;
-  atom += `  <author><name>Galaxy Project</name></author>\n`;
-  atom += `  <link rel="alternate" href="${siteUrl}/eu/news/"/>\n`;
-  atom += `  <link rel="self" href="${siteUrl}/eu/news/feed.atom"/>\n`;
-  atom += `  <subtitle>${escapeXML('News from the Galaxy Europe community')}</subtitle>\n`;
-
-  for (const article of euNews) {
+  const entries: AtomEntry[] = euNews.map((article) => {
     const slug = (article.data.slug || article.id).replace(/\/$/, '');
-    const url = `${siteUrl}/${slug}/`;
-    const title = article.data.title || 'Untitled';
-    const tease = article.data.tease || '';
-    const updated = atomDate(article.data.date);
+    return {
+      title: article.data.title || 'Untitled',
+      url: `${SITE_URL}/${slug}/`,
+      date: article.data.date,
+      summary: article.data.tease || undefined,
+    };
+  });
 
-    atom += `  <entry>\n`;
-    atom += `    <title>${escapeXML(title)}</title>\n`;
-    atom += `    <id>${url}</id>\n`;
-    atom += `    <link href="${url}"/>\n`;
-    atom += `    <updated>${updated}</updated>\n`;
-    if (tease) {
-      atom += `    <summary>${escapeXML(tease)}</summary>\n`;
-    }
-    atom += `  </entry>\n`;
-  }
-
-  atom += `</feed>`;
+  const atom = buildAtomFeed({
+    title: 'Galaxy Europe News',
+    alternateUrl: `${SITE_URL}/eu/news/`,
+    selfUrl: `${SITE_URL}/eu/news/feed.atom`,
+    subtitle: 'News from the Galaxy Europe community',
+    lastUpdated: entries[0]?.date,
+    entries,
+  });
 
   return new Response(atom, {
     headers: {
