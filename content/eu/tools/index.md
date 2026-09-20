@@ -2,7 +2,7 @@
 # THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
 # To update, run: python3 scripts/update-tools.py --server https://usegalaxy.eu --name "European Galaxy" --output content/eu/tools/index.md
 title: European Galaxy Tools
-description: "4438 tools and counting"
+description: "4454 tools and counting"
 ---
 
 
@@ -216,6 +216,7 @@ description: "4438 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=column_order_header_sort" target="_top" title="by heading">Sort Column Order</a>
 <a href="https://usegalaxy.eu/root?tool_id=tp_sort_rows" target="_top" title="according to their columns">Sort a row</a>
 <a href="https://usegalaxy.eu/root?tool_id=tp_split_on_column" target="_top" title="">Split by group</a>
+<a href="https://usegalaxy.eu/root?tool_id=stanza_nlp" target="_top" title="">Stanza NLP Annotators</a>
 <a href="https://usegalaxy.eu/root?tool_id=subtract_query1" target="_top" title="from another dataset">Subtract Whole Dataset</a>
 <a href="https://usegalaxy.eu/root?tool_id=imagecoordinates_flipaxis" target="_top" title="Switches the axes of an image and flips the y axis.">Switch axis coordinates</a>
 <a href="https://usegalaxy.eu/root?tool_id=table_compute" target="_top" title="computes operations on table data">Table Compute</a>
@@ -862,7 +863,7 @@ description: "4438 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=discosnp_rad" target="_top" title="discovering polymorphism from raw unassembled RADSeq NGS reads.">DiscoSnpRAD</a>
 <a href="https://usegalaxy.eu/root?tool_id=dotknot" target="_top" title="pseudoknot prediction in a given RNA sequence">DotKnot</a>
 <a href="https://usegalaxy.eu/root?tool_id=evidencemodeler" target="_top" title="combines ab intio gene predictions, protein and transcript alignments into gene structures">EVidenceModeler</a>
-<a href="https://usegalaxy.eu/root?tool_id=logan_protein_embed_query" target="_top" title="Convert protein sequences into embeddings using GLM2">Embed Query Sequences</a>
+<a href="https://usegalaxy.eu/root?tool_id=logan_protein_embed_query" target="_top" title="Convert protein sequences into embeddings using gLM2">Embed Proteins with gLM2</a>
 <a href="https://usegalaxy.eu/root?tool_id=endorspy" target="_top" title="Calculate endogenous DNA percentage, clonality, and duplicates from flagstats">EndorSpy</a>
 <a href="https://usegalaxy.eu/root?tool_id=exonerate" target="_top" title="pairwise sequence comparison">Exonerate</a>
 <a href="https://usegalaxy.eu/root?tool_id=glimmer_gbk_to_orf" target="_top" title="from a GenBank file">Extract ORF</a>
@@ -1040,6 +1041,7 @@ description: "4438 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=homer_annotatePeaks" target="_top" title="">annotatePeaks</a>
 <a href="https://usegalaxy.eu/root?tool_id=argnorm" target="_top" title="a tool to normalize antibiotic resistance genes (ARGs) by mapping them to the antibiotic resistance ontology (ARO)">argNorm</a>
 <a href="https://usegalaxy.eu/root?tool_id=autobigs-cli" target="_top" title="Automated MLST typing">autoBIGS.cli</a>
+<a href="https://usegalaxy.eu/root?tool_id=cgmlst_filtering_and_clustering" target="_top" title="filter ChewBBACA cgMLST allele profiles and generate clustering trees">cgMLST filtering and clustering</a>
 <a href="https://usegalaxy.eu/root?tool_id=chewbbaca_allelecallevaluator" target="_top" title="Build an interactive report for allele calling results evaluation">chewBBACA AlleleCallEvaluator</a>
 <a href="https://usegalaxy.eu/root?tool_id=chewbbaca_createschema" target="_top" title="Create a gene-by-gene schema">chewBBACA CreateSchema</a>
 <a href="https://usegalaxy.eu/root?tool_id=chewbbaca_downloadschema" target="_top" title="Download a schema from Chewie-NS">chewBBACA DownloadSchema</a>
@@ -1733,7 +1735,8 @@ description: "4438 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=rseqc_junction_saturation" target="_top" title="detects splice junctions from each subset and compares them to reference gene model">Junction Saturation</a>
 <a href="https://usegalaxy.eu/root?tool_id=kallisto_pseudo" target="_top" title="run pseudoalignment on RNA-Seq transcripts">Kallisto pseudo</a>
 <a href="https://usegalaxy.eu/root?tool_id=kallisto_quant" target="_top" title="quantify abundances of RNA-Seq transcripts">Kallisto quant</a>
-<a href="https://usegalaxy.eu/root?tool_id=viennarna_kinfold" target="_top" title="Simulates the stochastic folding kinetics of RNA sequences into secondary structures.">Kinfold</a>
+<a href="https://usegalaxy.eu/root?tool_id=viennarna_kinfold" target="_top" title="Simulate stochastic folding kinetics of RNA sequences">Kinfold</a>
+<a href="https://usegalaxy.eu/root?tool_id=viennarna_kinwalker" target="_top" title="Simulate cotranscriptional folding of RNAs">Kinwalker</a>
 <a href="https://usegalaxy.eu/root?tool_id=rbc_kinwalker" target="_top" title="cotranscriptional folding of RNAs">Kinwalker</a>
 <a href="https://usegalaxy.eu/root?tool_id=mlocarna" target="_top" title="Multiple Alignment and Folding of RNAs">LocARNA</a>
 <a href="https://usegalaxy.eu/root?tool_id=locarna_multiple" target="_top" title="Multiple Alignment and Folding of RNAs (mlocarna)">LocARNA Multiple Aligner</a>
@@ -1756,18 +1759,18 @@ description: "4438 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=rcas" target="_top" title="- RNA Centric Annotation System">RCAS</a>
 <a href="https://usegalaxy.eu/root?tool_id=predict_pipeline" target="_top" title="predict RNA structures with or without experimental constraints from the Reactivity Calculation module">RNA Structure Prediction</a>
 <a href="https://usegalaxy.eu/root?tool_id=rseqc_RNA_fragment_size" target="_top" title="calculates the fragment size for each gene/transcript">RNA fragment size</a>
-<a href="https://usegalaxy.eu/root?tool_id=viennarna_rna2dfold" target="_top" title="explore structure space between two reference structures">RNA2Dfold</a>
+<a href="https://usegalaxy.eu/root?tool_id=viennarna_rna2dfold" target="_top" title="Explore structure space between two reference structures">RNA2Dfold</a>
 <a href="https://usegalaxy.eu/root?tool_id=rbc_rnabob" target="_top" title="Fast Pattern searching for RNA secondary structures">RNABOB</a>
 <a href="https://usegalaxy.eu/root?tool_id=viennarna_rnalalifold" target="_top" title="Calculate locally stable secondary structures for a set of aligned RNAs">RNALalifold</a>
-<a href="https://usegalaxy.eu/root?tool_id=viennarna_rnalfold" target="_top" title="calculates locally stable secondary structures of RNA">RNALfold</a>
-<a href="https://usegalaxy.eu/root?tool_id=viennarna_rnapkplex" target="_top" title="predicts RNA secondary structures including pseudoknots">RNAPKplex</a>
+<a href="https://usegalaxy.eu/root?tool_id=viennarna_rnalfold" target="_top" title="Calculate locally stable secondary structures of RNA">RNALfold</a>
+<a href="https://usegalaxy.eu/root?tool_id=viennarna_rnapkplex" target="_top" title="Predict RNA secondary structures including pseudoknots">RNAPKplex</a>
 <a href="https://usegalaxy.eu/root?tool_id=trinity_samples_qccheck" target="_top" title="for transcript quantification">RNASeq samples quality check</a>
-<a href="https://usegalaxy.eu/root?tool_id=viennarna_rnaaliduplex" target="_top" title="find binding sites of two RNA alignments">RNAaliduplex</a>
+<a href="https://usegalaxy.eu/root?tool_id=viennarna_rnaaliduplex" target="_top" title="Find binding sites of two RNA alignments">RNAaliduplex</a>
 <a href="https://usegalaxy.eu/root?tool_id=viennarna_rnaalifold" target="_top" title="Calculate minimum free energy secondary structures and partition function on a multiple alignment file">RNAalifold</a>
 <a href="https://usegalaxy.eu/root?tool_id=rbc_rnacode" target="_top" title="Analyze the protein coding potential in MSA.">RNAcode</a>
 <a href="https://usegalaxy.eu/root?tool_id=viennarna_rnacofold" target="_top" title="Calculate secondary structures of two RNAs with dimerization">RNAcofold</a>
 <a href="https://usegalaxy.eu/root?tool_id=rbc_rnacommender" target="_top" title="genome-wide recommendation of RNA-protein interactions">RNAcommender</a>
-<a href="https://usegalaxy.eu/root?tool_id=viennarna_rnadistance" target="_top" title="Calculate distance between secondary structures of two RNAs">RNAdistance</a>
+<a href="https://usegalaxy.eu/root?tool_id=viennarna_rnadistance" target="_top" title="Calculate distances between secondary structures of RNAs">RNAdistance</a>
 <a href="https://usegalaxy.eu/root?tool_id=viennarna_rnaduplex" target="_top" title="Compute the structure upon hybridization of two RNA strands">RNAduplex</a>
 <a href="https://usegalaxy.eu/root?tool_id=viennarna_rnaeval" target="_top" title="Calculate energy of RNA sequences with given secondary structure">RNAeval</a>
 <a href="https://usegalaxy.eu/root?tool_id=viennarna_rnafold" target="_top" title="Calculate minimum free energy secondary structures and partition function of RNAs">RNAfold</a>
@@ -1778,11 +1781,12 @@ description: "4438 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=viennarna_rnapaln" target="_top" title="RNA alignment based on sequence base pairing propensities">RNApaln</a>
 <a href="https://usegalaxy.eu/root?tool_id=viennarna_rnadpdist" target="_top" title="Calculate distances between thermodynamic RNA secondary structure ensembles">RNApdist</a>
 <a href="https://usegalaxy.eu/root?tool_id=viennarna_rnaplex" target="_top" title="Find targets of a query RNA">RNAplex</a>
-<a href="https://usegalaxy.eu/root?tool_id=viennarna_rnaplot" target="_top" title="Draw RNA Secondary Structures">RNAplot</a>
+<a href="https://usegalaxy.eu/root?tool_id=viennarna_rnaplfold" target="_top" title="Calculate average pair probabilities over sliding windows">RNAplfold</a>
+<a href="https://usegalaxy.eu/root?tool_id=viennarna_rnaplot" target="_top" title="Draw RNA secondary structures">RNAplot</a>
 <a href="https://usegalaxy.eu/root?tool_id=RNAshapes" target="_top" title="RNA Secondary structure prediction">RNAshapes</a>
 <a href="https://usegalaxy.eu/root?tool_id=viennarna_rnasnoop" target="_top" title="Find targets of a query H/ACA snoRNA">RNAsnoop</a>
 <a href="https://usegalaxy.eu/root?tool_id=rnasnp" target="_top" title="Efficient detection of local RNA secondary structure changes induced by SNPs">RNAsnp</a>
-<a href="https://usegalaxy.eu/root?tool_id=viennarna_rnasubopt" target="_top" title="Calculates suboptimal secondary structures of RNAs">RNAsubopt</a>
+<a href="https://usegalaxy.eu/root?tool_id=viennarna_rnasubopt" target="_top" title="Calculate suboptimal secondary structures of RNAs">RNAsubopt</a>
 <a href="https://usegalaxy.eu/root?tool_id=viennarna_rnaup" target="_top" title="Calculate the thermodynamics of RNA-RNA interactions">RNAup</a>
 <a href="https://usegalaxy.eu/root?tool_id=rnaz" target="_top" title="predicting structurally conserved and thermodynamically stable RNA secondary structures">RNAz</a>
 <a href="https://usegalaxy.eu/root?tool_id=rnaz_cluster" target="_top" title="">RNAz Cluster</a>
@@ -2020,6 +2024,15 @@ description: "4438 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=hyphy_summary" target="_top" title="generate summary report of HyPhy analyses">HyPhy-Summary</a>
 <a href="https://usegalaxy.eu/root?tool_id=hyphy_absrel" target="_top" title="adaptive Branch Site Random Effects Likelihood">HyPhy-aBSREL</a>
 <a href="https://usegalaxy.eu/root?tool_id=hybpiper" target="_top" title="Analyse targeted sequence capture data">HybPiper</a>
+<a href="https://usegalaxy.eu/root?tool_id=hyphaeon_list_models" target="_top" title="List available HyphAeon model variants from Hugging Face Hub">HyphAeon List Models</a>
+<a href="https://usegalaxy.eu/root?tool_id=hyphaeon_dms" target="_top" title="In silico Selection Deep Mutational Scanning (Digital DMS / ESSM)">HyphAeon-DMS</a>
+<a href="https://usegalaxy.eu/root?tool_id=hyphaeon_disease" target="_top" title="Disease variant effect prediction and pathogenicity scoring">HyphAeon-Disease</a>
+<a href="https://usegalaxy.eu/root?tool_id=hyphaeon_epistasis" target="_top" title="Phylogenetic branch co-selection &amp; epistatic sector mining">HyphAeon-Epistasis</a>
+<a href="https://usegalaxy.eu/root?tool_id=hyphaeon_filter" target="_top" title="Automated alignment QC, spatial artifact detection, and surgical masking">HyphAeon-Filter</a>
+<a href="https://usegalaxy.eu/root?tool_id=hyphaeon_meme" target="_top" title="Episodic positive selection inference (HyphAeon Transformer)">HyphAeon-MEME</a>
+<a href="https://usegalaxy.eu/root?tool_id=hyphaeon_phenotype" target="_top" title="Directional phenotype-genotype association &amp; PARS signature extraction (PhyloWAS)">HyphAeon-Phenotype</a>
+<a href="https://usegalaxy.eu/root?tool_id=hyphaeon_splits" target="_top" title="Phylogenetic split inference via spectral graph bisection of cross-taxa attention">HyphAeon-Splits</a>
+<a href="https://usegalaxy.eu/root?tool_id=hyphaeon_temporal" target="_top" title="Continuous temporal selection regression, two-stage filtering, and dynamic wave decomposition">HyphAeon-Temporal</a>
 <a href="https://usegalaxy.eu/root?tool_id=list_organism" target="_top" title="in Apollo">List Organisms</a>
 <a href="https://usegalaxy.eu/root?tool_id=mrbayes" target="_top" title="with options and commands">MrBayes</a>
 <a href="https://usegalaxy.eu/root?tool_id=nextalign" target="_top" title="Viral genome sequence alignment">NextAlign</a>
@@ -2424,6 +2437,7 @@ description: "4438 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=bg_diamond_makedb" target="_top" title="build database from a FASTA file">Diamond makedb</a>
 <a href="https://usegalaxy.eu/root?tool_id=bg_diamond_view" target="_top" title="generate formatted output from DAA files">Diamond view</a>
 <a href="https://usegalaxy.eu/root?tool_id=search_protein_embed_query" target="_top" title="Convert protein sequences into embeddings using GLM2">Embed Query Sequences</a>
+<a href="https://usegalaxy.eu/root?tool_id=logan_protein_search_database" target="_top" title="Search a database using pre-computed embeddings">Logan Protein Search</a>
 <a href="https://usegalaxy.eu/root?tool_id=magicblast" target="_top" title="against a whole genome or transcriptome">Magic-BLAST: map large RNA or DNA sequences</a>
 <a href="https://usegalaxy.eu/root?tool_id=ncbi_blastdbcmd_wrapper" target="_top" title="Extract sequence(s) from BLAST database">NCBI BLAST+ blastdbcmd entry(s)</a>
 <a href="https://usegalaxy.eu/root?tool_id=ncbi_blastn_wrapper" target="_top" title="Search nucleotide database with nucleotide query sequence(s)">NCBI BLAST+ blastn</a>
@@ -2440,7 +2454,6 @@ description: "4438 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=ncbi_tblastn_wrapper" target="_top" title="Search translated nucleotide database with protein query sequence(s)">NCBI BLAST+ tblastn</a>
 <a href="https://usegalaxy.eu/root?tool_id=ncbi_tblastx_wrapper" target="_top" title="Search translated nucleotide database with translated nucleotide query sequence(s)">NCBI BLAST+ tblastx</a>
 <a href="https://usegalaxy.eu/root?tool_id=get_species_taxids" target="_top" title="">NCBI get species taxids</a>
-<a href="https://usegalaxy.eu/root?tool_id=logan_protein_search_database" target="_top" title="Search FAISS database with embedded queries and align with MMseqs2">Search Protein Database</a>
 
 </div>
 
@@ -2456,6 +2469,7 @@ description: "4438 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=hicexplorer_chicsignificantinteractions" target="_top" title="computes viewpoints with the given reference points and a background model">chicSignificantInteractions</a>
 <a href="https://usegalaxy.eu/root?tool_id=hicexplorer_chicviewpoint" target="_top" title="computes viewpoints with the given reference points and a background model.">chicViewpoint</a>
 <a href="https://usegalaxy.eu/root?tool_id=hicexplorer_chicviewpointbackgroundmodel" target="_top" title="compute a background model for cHi-C / HiChIP data">chicViewpointBackgroundModel</a>
+<a href="https://usegalaxy.eu/root?tool_id=chromap" target="_top" title="Fast alignment and preprocessing of chromatin profiles">chromap</a>
 <a href="https://usegalaxy.eu/root?tool_id=hicexplorer_hicadjustmatrix" target="_top" title="adjust the shape of a Hi-C matrix">hicAdjustMatrix</a>
 <a href="https://usegalaxy.eu/root?tool_id=hicexplorer_hicaggregatecontacts" target="_top" title="allow plotting of aggregated Hi-C contacts between regions specified in a file">hicAggregateContacts</a>
 <a href="https://usegalaxy.eu/root?tool_id=hicexplorer_hicaverageregions" target="_top" title="sums Hi-C contacts around given reference points and computes their average.">hicAverageRegions</a>
@@ -2551,6 +2565,7 @@ description: "4438 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=kraken_segment" target="_top" title="segment text regions and lines in document images">Kraken Segment</a>
 <a href="https://usegalaxy.eu/root?tool_id=langchain_text_splitters" target="_top" title="Split text into chunks for LLM and RAG workflows">LangChain Text Splitters</a>
 <a href="https://usegalaxy.eu/root?tool_id=stanford_corenlp" target="_top" title="">Stanford CoreNLP Annotators (Multi-language)</a>
+<a href="https://usegalaxy.eu/root?tool_id=new_fave_extract" target="_top" title="with new-fave">Vowel formant extraction</a>
 <a href="https://usegalaxy.eu/root?tool_id=spacy_nlp" target="_top" title="">spaCy NLP Annotators</a>
 
 </div>
@@ -3371,6 +3386,7 @@ description: "4438 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=proteomiqon_joinquantpepionswithproteins" target="_top" title="combines the results from ProteinInference and PSMBasedQuantification.">Proteomiqon JoinQuantPepIonsWithProteins</a>
 <a href="https://usegalaxy.eu/root?tool_id=proteomiqon_labelfreeproteinquantification" target="_top" title="estimates protein abundances using quantified peptide ions.">Proteomiqon LabelFreeProteinQuantification</a>
 <a href="https://usegalaxy.eu/root?tool_id=proteomiqon_labeledproteinquantification" target="_top" title="estimates protein abundances using quantified peptide ions.">Proteomiqon LabeledProteinQuantification</a>
+<a href="https://usegalaxy.eu/root?tool_id=proteomiqon_mzmltomzliteionmobility" target="_top" title="Convert mzML files to mzLite files, with respect to ion mobility">Proteomiqon MzMLToMzLiteIonMobility</a>
 <a href="https://usegalaxy.eu/root?tool_id=proteomiqon_psmbasedquantification" target="_top" title="allows label-free quantification as well as quantification of full metabolic labeled samples.">Proteomiqon PSMBasedQuantification</a>
 <a href="https://usegalaxy.eu/root?tool_id=proteomiqon_psmbasedquantificationtims" target="_top" title="allows label-free quantification as well as quantification of full metabolic labeled samples for TIMS data.">Proteomiqon PSMBasedQuantificationTIMs</a>
 <a href="https://usegalaxy.eu/root?tool_id=pyprophet_export" target="_top" title="Export tabular files, optional swath2stats export">PyProphet export</a>
@@ -3798,6 +3814,7 @@ description: "4438 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=openbabel_svg_depiction" target="_top" title="of compounds">Visualisation</a>
 <a href="https://usegalaxy.eu/root?tool_id=xchem_transfs_scoring" target="_top" title="using deep learning">XChem TransFS pose scoring</a>
 <a href="https://usegalaxy.eu/root?tool_id=ctb_im_xcos" target="_top" title="scoring">XCos</a>
+<a href="https://usegalaxy.eu/root?tool_id=pynxtools_peak_finding" target="_top" title="in a NeXus spectrum, written back as NXfit/NXpeak">XPS peak finding</a>
 <a href="https://usegalaxy.eu/root?tool_id=biomd_neqgamma" target="_top" title="for calculating friction and free energy profiles from TMD ensembles">dcTMD friction correction</a>
 <a href="https://usegalaxy.eu/root?tool_id=diffdock" target="_top" title="Predict ligand binding poses using DiffDock&#x27;s diffusion-based docking method">diffdock</a>
 <a href="https://usegalaxy.eu/root?tool_id=dpocket" target="_top" title="to calculate descriptors for protein pockets">dpocket</a>
@@ -4340,7 +4357,6 @@ description: "4438 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=tombo_plot_most_significant" target="_top" title="Plotting amperage signal at the locations deemed most significant by the tombo">Tombo plot most signficant</a>
 <a href="https://usegalaxy.eu/root?tool_id=translate_nucleotides" target="_top" title="to amino acids">Translate nucleotides</a>
 <a href="https://usegalaxy.eu/root?tool_id=visualize_icenet_forecast" target="_top" title="for visualizing and analyzing the Icenet forecast">Visualize Icenet Forecast</a>
-<a href="https://usegalaxy.eu/root?tool_id=new_fave_extract" target="_top" title="with new-fave">Vowel formant extraction</a>
 <a href="https://usegalaxy.eu/root?tool_id=bwtool-lift" target="_top" title="Project data base-by-base into a new assembly using a liftOver chain file from UCSC">bwtool-lift</a>
 <a href="https://usegalaxy.eu/root?tool_id=create_API_requests_for_icenet_data" target="_top" title="for creating request text files for downloading Icenet Data with the Copernicus Climate Data Store Tool">create API requests for Icenet Data</a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_zeppelin_notebook" target="_top" title="Zeppelin Notebook">zeppelin</a>
@@ -4428,6 +4444,7 @@ description: "4438 tools and counting"
 <div class="tool-list">
 
 <a href="https://usegalaxy.eu/root?tool_id=imagej2_bunwarpj_adapt_transform" target="_top" title="with ImageJ2">Adapt an elastic transformation</a>
+<a href="https://usegalaxy.eu/root?tool_id=2d_add_label" target="_top" title="">Add image label</a>
 <a href="https://usegalaxy.eu/root?tool_id=imagej2_noise" target="_top" title="with ImageJ2">Add or remove noise</a>
 <a href="https://usegalaxy.eu/root?tool_id=imagej2_shadows" target="_top" title="with ImageJ2">Add shadow effect</a>
 <a href="https://usegalaxy.eu/root?tool_id=imagej2_adjust_threshold_binary" target="_top" title="with ImageJ2">Adjust threshold</a>
@@ -4452,6 +4469,7 @@ description: "4438 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=colorize_labels" target="_top" title="with NetworkX">Colorize label map</a>
 <a href="https://usegalaxy.eu/root?tool_id=imagej2_bunwarpj_compare_elastic_raw" target="_top" title="with ImageJ2">Compare elastic and raw deformation</a>
 <a href="https://usegalaxy.eu/root?tool_id=imagej2_bunwarpj_compare_elastic" target="_top" title="with ImageJ2">Compare opposite elastic deformations</a>
+<a href="https://usegalaxy.eu/root?tool_id=imagemagick_image_compare" target="_top" title="with ImageMagick">Compare two images</a>
 <a href="https://usegalaxy.eu/root?tool_id=imagej2_bunwarpj_compare_raw" target="_top" title="with ImageJ2">Compare two raw deformations</a>
 <a href="https://usegalaxy.eu/root?tool_id=imagej2_bunwarpj_compose_raw_elastic" target="_top" title="into a raw transformation with bUnwarpJ">Compose a raw and an elastic transformation</a>
 <a href="https://usegalaxy.eu/root?tool_id=imagej2_bunwarpj_compose_elastic" target="_top" title="with ImageJ2">Compose two elastic transformations</a>
@@ -4472,6 +4490,7 @@ description: "4438 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=ip_points_to_label" target="_top" title="">Convert coordinates to label map</a>
 <a href="https://usegalaxy.eu/root?tool_id=imagej2_bunwarpj_convert_to_raw" target="_top" title="with ImageJ2">Convert elastic transformation to raw</a>
 <a href="https://usegalaxy.eu/root?tool_id=ip_convertimage" target="_top" title="with Bioformats">Convert image format</a>
+<a href="https://usegalaxy.eu/root?tool_id=imagemagick_image_convert" target="_top" title="with ImageMagick">Convert image format</a>
 <a href="https://usegalaxy.eu/root?tool_id=label_to_binary" target="_top" title="with NumPy">Convert label map to binary image</a>
 <a href="https://usegalaxy.eu/root?tool_id=ip_labelimage_to_points" target="_top" title="">Convert label map to points (center of masses)</a>
 <a href="https://usegalaxy.eu/root?tool_id=repeat_channels" target="_top" title="with NumPy">Convert single-channel to multi-channel image</a>
@@ -4641,6 +4660,7 @@ description: "4438 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_pangeo_ml_notebook" target="_top" title="">Interactive Pangeo Machine Learning Notebook</a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_pangeo_notebook" target="_top" title="">Interactive Pangeo Notebook</a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_source" target="_top" title="Sea Observations Utility for Reprocessing, Calibration and Evaluation">Interactive Source Notebooks</a>
+<a href="https://usegalaxy.eu/root?tool_id=interactive_tool_tensorboard" target="_top" title="An interactive environment for visualizing and exploring machine learning experiments with TensorBoard.">Interactive TensorBoard Environment</a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_libertem" target="_top" title="Open Pixelated STEM platform">LiberTEM</a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_loom" target="_top" title="conversational AI analysis workbench">Loom</a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_audiolabeler" target="_top" title="Nature+Energy Audio Labeller audio data annotation tool">NEAL</a>
@@ -4764,7 +4784,6 @@ description: "4438 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=straindesign_simulate_deletion" target="_top" title="Search genes to delete in a biological model">StrainDesign simulate-deletion</a>
 <a href="https://usegalaxy.eu/root?tool_id=td" target="_top" title="Tag distance analysis of duplex tags">TD:</a>
 <a href="https://usegalaxy.eu/root?tool_id=text_to_wordmatrix" target="_top" title="by extracting most frequent words">Text to wordmatrix</a>
-<a href="https://usegalaxy.eu/root?tool_id=new_fave_extract" target="_top" title="with new-fave">Vowel formant extraction</a>
 <a href="https://usegalaxy.eu/root?tool_id=pcdl_get_anndata" target="_top" title="">pcdl_get_anndata</a>
 <a href="https://usegalaxy.eu/root?tool_id=pcdl_get_cell_attribute" target="_top" title="">pcdl_get_cell_attribute</a>
 <a href="https://usegalaxy.eu/root?tool_id=pcdl_get_cell_attribute_list" target="_top" title="">pcdl_get_cell_attribute_list</a>
@@ -5010,7 +5029,7 @@ description: "4438 tools and counting"
 </div>
 <div class="tool-list">
 
-<a href="https://usegalaxy.eu/root?tool_id=hicexplorer_hiccorrectmatrix" target="_top" title="run a Hi-C matrix correction algorithm">hicCorrectMatrix</a>
+<a href="https://usegalaxy.eu/root?tool_id=hicexplorer_hiccorrectmatrix" target="_top" title="run Imakaev&#x27;s iterative correction over a Hi-C contact matrix.">hicCorrectMatrix</a>
 
 </div>
 <div class="tool-list">
@@ -5121,20 +5140,5 @@ description: "4438 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=CONVERTER_molecules" target="_top" title="">OpenBabel converter for molecular formats</a>
 <a href="https://usegalaxy.eu/root?tool_id=CONVERTER_smiles_to_smiles" target="_top" title="">SMILES to SMILES</a>
 <a href="https://usegalaxy.eu/root?tool_id=CONVERTER_archive_to_directory" target="_top" title="">Unpack archive to directory</a>
-
-</div>
-<div class="tool-list">
-
-<a href="https://usegalaxy.eu/root?tool_id=chromap" target="_top" title="Fast alignment and preprocessing of chromatin profiles">chromap</a>
-
-</div>
-<div class="tool-list">
-
-<a href="https://usegalaxy.eu/root?tool_id=hicexplorer_hicfindtads" target="_top" title="identify TAD boundaries by computing the degree of separation of each Hi-C matrix bin">hicFindTADs</a>
-
-</div>
-<div class="tool-list">
-
-<a href="https://usegalaxy.eu/root?tool_id=hicexplorer_hicplotmatrix" target="_top" title="plot a Hi-C contact matrix heatmap">hicPlotMatrix</a>
 
 </div>
