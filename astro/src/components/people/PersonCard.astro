@@ -1,6 +1,6 @@
 ---
 import type { PersonProfile } from '../../utils/people';
-import { socialIconMap, type SocialIconName } from '../../utils/socialIcons';
+import Icon from '../mdx/Icon.astro';
 import { marked } from 'marked';
 
 interface Props {
@@ -17,7 +17,14 @@ const websiteUrl = person.website;
 const gtnUrl = person.gtnProfile;
 const bioHtml = person.bio ? marked.parse(person.bio) : '';
 
-type Row = { icon: 'email' | 'phone' | 'location' | 'website'; label: string; href?: string };
+const rowIconNames = {
+  email: 'mail',
+  phone: 'phone',
+  location: 'map-pin',
+  website: 'globe',
+} as const;
+
+type Row = { icon: keyof typeof rowIconNames; label: string; href?: string };
 const rows: Row[] = [];
 if (person.email) rows.push({ icon: 'email', label: person.email, href: `mailto:${person.email}` });
 if (person.phone)
@@ -25,8 +32,8 @@ if (person.phone)
 if (person.location) rows.push({ icon: 'location', label: person.location, href: person.locationLink });
 if (websiteUrl) rows.push({ icon: 'website', label: 'Website', href: websiteUrl });
 
-const socialLinks: Array<{ label: string; href: string; icon: SocialIconName }> = [];
-if (person.mastodon) socialLinks.push({ label: 'Fediverse', href: person.mastodon, icon: 'fediverse' });
+const socialLinks: Array<{ label: string; href: string; icon: string }> = [];
+if (person.mastodon) socialLinks.push({ label: 'Mastodon', href: person.mastodon, icon: 'mastodon' });
 if (person.linkedin)
   socialLinks.push({ label: 'LinkedIn', href: `https://www.linkedin.com/in/${person.linkedin}`, icon: 'linkedin' });
 const matrixHandle = person.matrix?.replace(/^https?:\/\/matrix\.to\/#!?\//, '');
@@ -87,146 +94,33 @@ if (person.github && githubUrl) socialLinks.push({ label: 'GitHub', href: github
 
   <div class="mt-4 space-y-2">
     {
-      rows.map((row) =>
-        row.href ? (
+      rows.map((row) => {
+        const content = (
+          <>
+            <Icon name={rowIconNames[row.icon]} size={16} />
+            <span class="break-words">{row.label}</span>
+          </>
+        );
+        return row.href ? (
           <a
             href={row.href}
             class="flex items-center justify-center gap-2 text-sm text-galaxy-primary hover:text-galaxy-dark transition-colors"
             target={row.href.startsWith('http') ? '_blank' : undefined}
             rel={row.href.startsWith('http') ? 'noopener noreferrer' : undefined}
           >
-            {row.icon === 'email' ? (
-              <svg class="h-4 w-4 text-galaxy-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 4h16a2 2 0 012 2v12a2 2 0 01-2 2H4a2 2 0 01-2-2V6a2 2 0 012-2z"
-                />
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m22 6-10 7L2 6" />
-              </svg>
-            ) : row.icon === 'github' ? (
-              <svg class="h-4 w-4 text-galaxy-primary" viewBox={socialIconMap.github.viewBox}>
-                <path d={socialIconMap.github.path} fill="currentColor" transform={socialIconMap.github.transform} />
-              </svg>
-            ) : row.icon === 'phone' ? (
-              <svg class="h-4 w-4 text-galaxy-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M3 5a2 2 0 012-2h1.28a1 1 0 01.95.68l1.22 3.66a1 1 0 01-.27 1.05L7.1 9.9a11.05 11.05 0 005 5l1.51-1.53a1 1 0 011.05-.27l3.66 1.22a1 1 0 01.68.95V19a2 2 0 01-2 2h-1C9.163 21 3 14.837 3 7V5z"
-                />
-              </svg>
-            ) : row.icon === 'website' ? (
-              <svg class="h-4 w-4 text-galaxy-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M12 3a9 9 0 100 18 9 9 0 000-18z"
-                />
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12h18" />
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M12 3c2.5 2.3 3.9 5.6 4 9-.1 3.4-1.5 6.7-4 9-2.5-2.3-3.9-5.6-4-9 .1-3.4 1.5-6.7 4-9z"
-                />
-              </svg>
-            ) : row.icon === 'location' ? (
-              <svg class="h-4 w-4 text-galaxy-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M12 11c1.38 0 2.5-1.12 2.5-2.5S13.38 6 12 6s-2.5 1.12-2.5 2.5S10.62 11 12 11z"
-                />
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M19.5 9.5c0 7-7.5 11-7.5 11S4.5 16.5 4.5 9.5a7.5 7.5 0 1115 0z"
-                />
-              </svg>
-            ) : (
-              <svg class="h-4 w-4 text-galaxy-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
-              </svg>
-            )}
-            <span class="break-words">{row.label}</span>
+            {content}
           </a>
         ) : (
-          <div class="flex items-center justify-center gap-2 text-sm text-chicago-700">
-            {row.icon === 'email' ? (
-              <svg class="h-4 w-4 text-galaxy-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 4h16a2 2 0 012 2v12a2 2 0 01-2 2H4a2 2 0 01-2-2V6a2 2 0 012-2z"
-                />
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m22 6-10 7L2 6" />
-              </svg>
-            ) : row.icon === 'github' ? (
-              <svg class="h-4 w-4 text-galaxy-primary" viewBox={socialIconMap.github.viewBox}>
-                <path d={socialIconMap.github.path} fill="currentColor" transform={socialIconMap.github.transform} />
-              </svg>
-            ) : row.icon === 'phone' ? (
-              <svg class="h-4 w-4 text-galaxy-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M3 5a2 2 0 012-2h1.28a1 1 0 01.95.68l1.22 3.66a1 1 0 01-.27 1.05L7.1 9.9a11.05 11.05 0 005 5l1.51-1.53a1 1 0 011.05-.27l3.66 1.22a1 1 0 01.68.95V19a2 2 0 01-2 2h-1C9.163 21 3 14.837 3 7V5z"
-                />
-              </svg>
-            ) : row.icon === 'website' ? (
-              <svg class="h-4 w-4 text-galaxy-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M12 3a9 9 0 100 18 9 9 0 000-18z"
-                />
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12h18" />
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M12 3c2.5 2.3 3.9 5.6 4 9-.1 3.4-1.5 6.7-4 9-2.5-2.3-3.9-5.6-4-9 .1-3.4 1.5-6.7 4-9z"
-                />
-              </svg>
-            ) : row.icon === 'location' ? (
-              <svg class="h-4 w-4 text-galaxy-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M12 11c1.38 0 2.5-1.12 2.5-2.5S13.38 6 12 6s-2.5 1.12-2.5 2.5S10.62 11 12 11z"
-                />
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M19.5 9.5c0 7-7.5 11-7.5 11S4.5 16.5 4.5 9.5a7.5 7.5 0 1115 0z"
-                />
-              </svg>
-            ) : (
-              <svg class="h-4 w-4 text-galaxy-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
-              </svg>
-            )}
-            <span class="break-words">{row.label}</span>
-          </div>
-        )
-      )
+          <div class="flex items-center justify-center gap-2 text-sm text-chicago-700">{content}</div>
+        );
+      })
     }
   </div>
 
   {
     socialLinks.length > 0 && (
       <div class="mt-4 flex flex-wrap justify-center gap-2">
+        {/* Orcid's knocked-out "iD" lettering needs a touch more size to stay legible */}
         {socialLinks.map((link) => (
           <a
             href={link.href}
@@ -236,17 +130,11 @@ if (person.github && githubUrl) socialLinks.push({ label: 'GitHub', href: github
             title={link.label}
             aria-label={link.label}
           >
-            {socialIconMap[link.icon]?.path ? (
-              <svg class="h-4 w-4" viewBox={socialIconMap[link.icon].viewBox} aria-hidden="true" focusable="false">
-                <path
-                  d={socialIconMap[link.icon].path}
-                  fill="currentColor"
-                  transform={socialIconMap[link.icon].transform}
-                />
-              </svg>
-            ) : socialIconMap[link.icon]?.imgSrc ? (
-              <img src={socialIconMap[link.icon].imgSrc} alt="" class="h-4 w-4" loading="lazy" />
-            ) : null}
+            {link.icon === 'gtn' ? (
+              <img src="/images/logos/gtn_icon.svg" alt="" class="h-4 w-4" loading="lazy" />
+            ) : (
+              <Icon name={link.icon} size={link.icon === 'orcid' ? 18 : 16} />
+            )}
           </a>
         ))}
       </div>
