@@ -2,7 +2,7 @@
 # THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
 # To update, run: python3 scripts/update-tools.py --server https://usegalaxy.org --name "Galaxy US" --output content/us/tools/index.md
 title: Galaxy US Tools
-description: "2350 tools and counting"
+description: "2355 tools and counting"
 ---
 
 
@@ -675,6 +675,7 @@ description: "2350 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=blastxml_to_gapped_gff3" target="_top" title="">BlastXML to gapped GFF3</a>
 <a href="https://usegalaxy.org/root?tool_id=busco" target="_top" title="Assess genome assembly and annotation completeness">Busco</a>
 <a href="https://usegalaxy.org/root?tool_id=cpat" target="_top" title="coding potential assessment">CPAT</a>
+<a href="https://usegalaxy.org/root?tool_id=clipkit" target="_top" title="trim multiple sequence alignments while retaining phylogenetically informative sites">ClipKIT</a>
 <a href="https://usegalaxy.org/root?tool_id=cooc_mutbamscan" target="_top" title="scans an alignment file for mutation co-occurrences">Cojac: mutbamscan</a>
 <a href="https://usegalaxy.org/root?tool_id=cooc_tabmut" target="_top" title="exports co-occurrence results from mutbamscan as a table">Cojac: tabmut</a>
 <a href="https://usegalaxy.org/root?tool_id=xmfa2gff3" target="_top" title="">Convert XMFA to gapped GFF3</a>
@@ -772,6 +773,8 @@ description: "2350 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=socru" target="_top" title="Calculate the order and orientation of complete bacterial genomes">socru</a>
 <a href="https://usegalaxy.org/root?tool_id=staramr_search" target="_top" title="Scans genome assemblies against the ResFinder, PlasmidFinder, and PointFinder databases searching for AMR genes">staramr</a>
 <a href="https://usegalaxy.org/root?tool_id=aragorn_trna" target="_top" title="prediction (Aragorn)">tRNA and tmRNA</a>
+<a href="https://usegalaxy.org/root?tool_id=vg_giraffe" target="_top" title="is a fast haplotype-aware read mapper">vg giraffe</a>
+<a href="https://usegalaxy.org/root?tool_id=vg_paths" target="_top" title="extracts and analyzes paths in a variation graph">vg paths</a>
 
 </div>
 
@@ -784,7 +787,9 @@ description: "2350 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=bwa_mem2" target="_top" title="- map medium and long reads (&gt; 100 bp) against reference genome">BWA-MEM2</a>
 <a href="https://usegalaxy.org/root?tool_id=bwa_mem2_idx" target="_top" title="Build BWA-MEM2 reference index">BWA-MEM2 indexer</a>
 <a href="https://usegalaxy.org/root?tool_id=batched_lastz" target="_top" title=": align batches of sequences">Batched LASTZ</a>
+<a href="https://usegalaxy.org/root?tool_id=batched_lastz" target="_top" title=": align batches of sequences">Batched LASTZ</a>
 <a href="https://usegalaxy.org/root?tool_id=bowtie2" target="_top" title="- map reads against reference genome">Bowtie2</a>
+<a href="https://usegalaxy.org/root?tool_id=growler_lastz" target="_top" title=": gapped extension of one chromosome pair">Growler LASTZ</a>
 <a href="https://usegalaxy.org/root?tool_id=kegalign" target="_top" title="A Scalable GPU System for Pairwise Whole Genome Alignments based on LASTZ&#x27;s seed-filter-extend paradigm">KegAlign</a>
 <a href="https://usegalaxy.org/root?tool_id=lastz_wrapper_2" target="_top" title="align long sequences">LASTZ</a>
 <a href="https://usegalaxy.org/root?tool_id=lastz_d_wrapper" target="_top" title="estimate substitution scores matrix">LASTZ_D</a>
@@ -868,6 +873,7 @@ description: "2350 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=snippy" target="_top" title="Snippy finds SNPs between a haploid reference genome and your NGS sequence reads.">snippy</a>
 <a href="https://usegalaxy.org/root?tool_id=snippy_clean_full_aln" target="_top" title="Replace any non-standard sequence characters in snippy &#x27;core.full.aln&#x27; file.">snippy-clean_full_aln</a>
 <a href="https://usegalaxy.org/root?tool_id=snippy_core" target="_top" title="Combine multiple Snippy outputs into a core SNP alignment">snippy-core</a>
+<a href="https://usegalaxy.org/root?tool_id=som.py" target="_top" title="Comparison of somatic callsets based only on chromosome, position, and allele identity">som.py and hap.py</a>
 
 </div>
 
@@ -2687,7 +2693,6 @@ description: "2350 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=gromacs_modify_topology" target="_top" title="to a GROMACS topology file">Adding New Topology Information</a>
 <a href="https://usegalaxy.org/root?tool_id=alchemical_analysis" target="_top" title="Analysis of alchemical free energy calculations">Alchemical Analysis</a>
 <a href="https://usegalaxy.org/root?tool_id=biopdb_align_and_rmsd" target="_top" title="using Biopython">Align structures and compute relative RMSDs</a>
-<a href="https://usegalaxy.org/root?tool_id=alphafold" target="_top" title="- AI-guided 3D structural prediction of proteins">Alphafold 2</a>
 <a href="https://usegalaxy.org/root?tool_id=mdanalysis_angle" target="_top" title="- time series of Angles">Angle Analysis</a>
 <a href="https://usegalaxy.org/root?tool_id=ambertools_antechamber" target="_top" title="- Amber&#x27;s molecular input file processor">AnteChamber</a>
 <a href="https://usegalaxy.org/root?tool_id=tleap" target="_top" title="interactively build and run tLEaP files to set up systems with AmberTools">Build tLEaP</a>
