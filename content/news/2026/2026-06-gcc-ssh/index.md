@@ -42,7 +42,7 @@ We added 2 kinds of NLP tools: complete NLP engines and specialised analysis too
 
     [Stanford CoreNLP](): A robust toolkit featuring sentiment analysis and coreference resolution (supporting 8 languages).
     [spaCy](): High-speed, production-ready NLP with support for over 25 languages.
-    [Stanford Stanza](): A neural NLP pipeline that expands our reach to over 80 languages with CPU-optimised models.
+    [Stanford Stanza](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/stanza_nlp/stanza_nlp/1.12.0+galaxy0): A neural NLP pipeline that expands our reach to over 80 languages with CPU-optimised models.
 
 #### Specialised Analysis Tools
 
