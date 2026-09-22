@@ -1,0 +1,145 @@
+---
+/**
+ * AgenticStack: dark hero + the two-pane run window for /tools/agentic-stack/.
+ * Used from MDX as <AgenticStack />. The server renders the run in its final
+ * state (what a no-JS or reduced-motion visitor sees); the client player
+ * (../agentic-stack/player.ts) rewinds it and replays it once when the
+ * window scrolls into view. Scene data: ../agentic-stack/scene.ts.
+ */
+import stackCss from '../agentic-stack/stack.css?raw';
+import { scene } from '../agentic-stack/scene';
+import { finalHist, finalLeftHtml, rowsHtml, stripHtml } from '../agentic-stack/render';
+import { icons, svg } from '../../lib/icons';
+
+// The stylesheet is inlined as a raw string so it ships only on pages that
+// render this component (a CSS import would join every route's CSS chunk).
+const finalLeft = finalLeftHtml(scene);
+const hist = finalHist(scene);
+const finalRows = rowsHtml(hist);
+const finalStrip = stripHtml(hist.tool);
+
+const strip = [
+  { label: 'Agent', href: '#an-agent' },
+  { label: 'User-defined tools', href: '#user-defined-tools' },
+  { label: 'Galaxy', href: '#galaxy' },
+];
+---
+
+<style is:global set:html={stackCss}></style>
+<noscript
+  set:html={'<style>.agentic-stack .stk-run,.agentic-stack .stk-pane{height:auto}.agentic-stack [data-play],.agentic-stack [data-replay]{display:none}</style>'}
+/>
+
+<section class="agentic-stack not-prose" data-agentic-stack>
+  <div class="stk-hero">
+    <div class="stk-hero__grid bg-grid-dark" aria-hidden="true"></div>
+
+    <div class="stk-hero__inner">
+      <p class="stk-eyebrow">Any agent · Galaxy provenance</p>
+      <h1 class="stk-title">The Galaxy <em>agentic stack</em></h1>
+      <p class="stk-lede">
+        To use Galaxy agentically you need three things: an agent that decides what to run, user-defined tools that fill
+        any gap in the tool set, and Galaxy, which runs each step in a container and keeps the record.
+      </p>
+      <div class="stk-cta">
+        <a class="stk-btn" href="#get-started">Get started <Fragment set:html={svg(icons.arrow)} /></a>
+      </div>
+      <ul class="stk-strip" aria-label="The stack">
+        {
+          strip.map((s, i) => (
+            <li>
+              {i > 0 && (
+                <span class="stk-strip__arrow" aria-hidden="true">
+                  <Fragment set:html={svg(icons.arrow)} />
+                </span>
+              )}
+              <a class="stk-chip" href={s.href}>
+                {s.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+
+    <div class="stk-demo">
+      <div class="stk-progress" aria-hidden="true"><span data-progress></span></div>
+
+      <div class="stk-run" data-window>
+        <p class="sr-only">{scene.summary}</p>
+        <div class="stk-bar">
+          <span class="stk-dots" aria-hidden="true"><span></span><span></span><span></span></span>
+          <span class="stk-bar__title">{scene.title}</span>
+          <span class="stk-bar__spacer" aria-hidden="true"></span>
+        </div>
+        <div class="stk-panes">
+          <div
+            class="stk-pane stk-pane--agent"
+            data-pane="agent"
+            role="region"
+            aria-label="Agent transcript"
+            aria-live="off"
+            tabindex="0"
+          >
+            <div class="stk-pane__hd">Agent</div>
+            <div class="stk-agent" data-agent-body set:html={finalLeft} />
+          </div>
+          <div
+            class="stk-pane stk-pane--galaxy"
+            data-pane="galaxy"
+            role="region"
+            aria-label="Galaxy history"
+            aria-live="off"
+            tabindex="0"
+          >
+            <div class="stk-pane__hd">History · {scene.history}</div>
+            <div class:list={['stk-tools', hist.tool && 'is-set']} data-tools set:html={finalStrip} />
+            <div class="stk-hist" data-hist set:html={finalRows} />
+            <div class:list={['stk-foot', hist.actionsLive && 'is-live']} data-actions>
+              <span>Share</span>
+              <span class="stk-foot__sep" aria-hidden="true">·</span>
+              <span>Extract workflow</span>
+              <span class="stk-foot__sep" aria-hidden="true">·</span>
+              <span>Rerun</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="stk-controls">
+        <button class="stk-ctl" type="button" data-play data-state="playing">
+          <span class="ic-pause"><Fragment set:html={svg(icons.pause)} /></span>
+          <span class="ic-play"><Fragment set:html={svg(icons.play)} /></span>
+          <span class="lbl">Pause</span>
+        </button>
+        <button class="stk-ctl" type="button" data-replay>
+          <Fragment set:html={svg(icons.replay)} />
+          <span class="lbl">Replay</span>
+        </button>
+      </div>
+      <p class="stk-caption">
+        A representative run. The MCP calls and the tool YAML are real; names, sizes and timings are illustrative.
+      </p>
+    </div>
+  </div>
+</section>
+
+<script>
+  import { scene } from '../agentic-stack/scene';
+  import { mountAgenticStack } from '../agentic-stack/player';
+
+  let teardown: (() => void) | null = null;
+
+  function init() {
+    teardown?.();
+    teardown = null;
+    const root = document.querySelector<HTMLElement>('[data-agentic-stack]');
+    if (root) teardown = mountAgenticStack(root, scene);
+  }
+
+  document.addEventListener('astro:page-load', init);
+  document.addEventListener('astro:before-swap', () => {
+    teardown?.();
+    teardown = null;
+  });
+</script>

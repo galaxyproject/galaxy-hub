@@ -1,0 +1,1134 @@
+/*
+ * Agent shells: hero + animated harness windows for /tools/ai-agents/.
+ * Global stylesheet scoped under .agent-shells (the player creates nodes at
+ * runtime, so Astro-scoped styles would not reach them).
+ */
+
+.agent-shells {
+  /* Brand tokens (aliased, hex fallbacks in case Tailwind tree-shakes one). */
+  --ash-dark: var(--color-galaxy-dark, #2c3143);
+  --ash-gold: var(--color-galaxy-gold, #ffd700);
+  --ash-gold-dark: var(--color-galaxy-gold-dark, #d19e00);
+  --ash-primary: var(--color-galaxy-primary, #25537b);
+  --ash-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  /* Per-harness accent; namespaced so it never shadows the Hub's --accent token. */
+  --ash-accent: var(--ash-gold);
+  margin: -1.5rem -1.5rem 0;
+}
+
+@media (min-width: 640px) {
+  .agent-shells {
+    margin: -1.5rem -2rem 0;
+  }
+}
+
+/*
+ * The global .prose heading/link rules are unlayered and outrank component
+ * classes (including Tailwind utilities), so neutralise them here. Links take
+ * their colour from --link-color, headings from --heading-color.
+ */
+.prose .agent-shells :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: var(--heading-color, var(--ash-dark));
+}
+
+.ash-kicker {
+  --heading-color: var(--ash-primary);
+}
+
+.prose .agent-shells a,
+.prose .agent-shells a:hover {
+  color: var(--link-color, inherit);
+  text-decoration: none;
+}
+
+.ash-link {
+  --link-color: var(--ash-primary);
+  color: var(--link-color);
+}
+
+.ash-link:hover,
+.group:hover .ash-link {
+  --link-color: var(--ash-gold-dark);
+}
+
+/* ── Hero ──────────────────────────────────────────────────────────── */
+
+.ash-hero {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  color: #fff;
+  background:
+    radial-gradient(120% 90% at 85% -10%, color-mix(in srgb, var(--ash-primary) 55%, transparent), transparent 60%),
+    radial-gradient(
+      90% 80% at -10% 110%,
+      color-mix(in srgb, var(--color-bay-of-many-800, #2e689a) 32%, transparent),
+      transparent 62%
+    ),
+    linear-gradient(170deg, var(--ash-dark) 0%, #1e2231 100%);
+}
+
+.ash-hero__grid {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  mask-image: linear-gradient(to bottom, #000 0%, #000 55%, transparent 100%);
+}
+
+/* Fine film grain: one SVG turbulence tile, no per-frame work. */
+.ash-hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.055;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E");
+}
+
+.ash-cosmos {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 640px;
+  max-height: 100%;
+  pointer-events: none;
+  mask-image: linear-gradient(to bottom, #000 45%, transparent 100%);
+  animation: ash-drift 26s ease-in-out infinite alternate;
+}
+
+.ash-cosmos .glow {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: ash-pulse 5.5s ease-in-out infinite;
+}
+
+.ash-hero__inner {
+  position: relative;
+  z-index: 1;
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 3rem 1.25rem 0;
+  text-align: center;
+}
+
+@media (min-width: 640px) {
+  .ash-hero__inner {
+    padding: 4rem 2.5rem 0;
+  }
+}
+
+.ash-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ash-gold);
+}
+
+.ash-eyebrow::before,
+.ash-eyebrow::after {
+  content: '';
+  width: 1.5rem;
+  height: 2px;
+  background: var(--ash-gold);
+  opacity: 0.8;
+}
+
+.ash-title {
+  --heading-color: #fff;
+  margin: 1rem 0 1rem;
+  font-size: clamp(2rem, 5.2vw, 3.4rem);
+  font-weight: 700;
+  line-height: 1.06;
+  letter-spacing: -0.02em;
+  color: #fff;
+  text-wrap: balance;
+}
+
+.ash-title em {
+  font-style: normal;
+  color: var(--ash-gold);
+}
+
+.ash-lede {
+  max-width: 46rem;
+  margin: 0 auto 1.75rem;
+  font-size: clamp(1rem, 1.7vw, 1.2rem);
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.78);
+  text-wrap: pretty;
+}
+
+.ash-lede strong {
+  color: #fff;
+  font-weight: 700;
+}
+
+.ash-cta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.ash-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1.4rem;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition:
+    background-color 0.15s ease,
+    border-color 0.15s ease,
+    color 0.15s ease;
+}
+
+.ash-btn svg {
+  width: 1rem;
+  height: 1rem;
+}
+
+.ash-btn--gold {
+  --link-color: var(--ash-dark);
+  background: var(--ash-gold);
+  color: var(--ash-dark);
+}
+
+.ash-btn--gold:hover {
+  background: var(--ash-gold-dark);
+}
+
+.ash-btn--ghost {
+  --link-color: #fff;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+}
+
+.ash-btn--ghost:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.ash-btn:focus-visible,
+.ash-tab:focus-visible,
+.ash-ctl:focus-visible {
+  outline: 2px solid var(--ash-gold);
+  outline-offset: 2px;
+}
+
+.ash-chips {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1.6rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ash-chip {
+  --link-color: rgba(255, 255, 255, 0.85);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.3rem 0.8rem 0.3rem 0.35rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.05);
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 0.85rem;
+  text-decoration: none;
+  transition:
+    border-color 0.15s ease,
+    background-color 0.15s ease,
+    color 0.15s ease;
+}
+
+.ash-chip:hover {
+  --link-color: #fff;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  border-color: color-mix(in srgb, var(--ash-accent) 70%, transparent);
+}
+
+.ash-mono {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 1.55rem;
+  height: 1.55rem;
+  border-radius: 0.375rem;
+  font-size: 0.66rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  color: color-mix(in srgb, var(--ash-accent) 70%, #fff);
+  background: color-mix(in srgb, var(--ash-accent) 24%, transparent);
+  border: 1px solid color-mix(in srgb, var(--ash-accent) 50%, transparent);
+}
+
+/* ── Demo: tabs, progress, window, controls ────────────────────────── */
+
+.ash-demo {
+  position: relative;
+  z-index: 1;
+  max-width: 55rem;
+  margin: 2.25rem auto 0;
+  padding: 0 0.75rem 2.5rem;
+}
+
+@media (min-width: 640px) {
+  .ash-demo {
+    padding: 0 1.5rem 3rem;
+  }
+}
+
+.ash-tabs {
+  display: flex;
+  gap: 0.15rem;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.25) transparent;
+  -webkit-overflow-scrolling: touch;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ash-tab {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  min-width: 0;
+  margin-bottom: -1px;
+  padding: 0.6rem 0.75rem;
+  background: none;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  color: rgba(255, 255, 255, 0.62);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition:
+    color 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.ash-tab:hover {
+  color: #fff;
+}
+
+.ash-tab.is-active {
+  color: #fff;
+  border-bottom-color: var(--ash-accent);
+}
+
+.ash-tab.is-active .ash-mono {
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--ash-accent) 18%, transparent);
+}
+
+.ash-tab__text {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.ash-tab__name {
+  font-weight: 700;
+  font-size: 0.86rem;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.ash-tab__tag {
+  display: none;
+  max-width: 6.5rem;
+  overflow: hidden;
+  white-space: normal;
+  font-size: 0.66rem;
+  line-height: 1.3;
+  color: rgba(255, 255, 255, 0.5);
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+@media (min-width: 1024px) {
+  .ash-tab__tag {
+    display: -webkit-box;
+  }
+}
+
+.ash-progress {
+  height: 3px;
+  margin-bottom: 0.9rem;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 0 0 2px 2px;
+}
+
+.ash-progress > span {
+  display: block;
+  width: 0;
+  height: 100%;
+  background: var(--ash-accent);
+}
+
+.ash-window {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  background: var(--win);
+  color: var(--text);
+  font-size: 12px;
+  line-height: 1.5;
+  box-shadow:
+    0 24px 60px -24px rgba(0, 0, 0, 0.7),
+    0 0 0 1px rgba(255, 255, 255, 0.09);
+}
+
+@media (min-width: 640px) {
+  .ash-window {
+    height: 520px;
+    font-size: 13px;
+  }
+}
+
+.ash-window[data-kind='terminal'] {
+  --win: #171a24;
+  --bar: #222634;
+  --side: #1a1d29;
+  --surface: rgba(255, 255, 255, 0.05);
+  --line: rgba(255, 255, 255, 0.1);
+  --text: #e6e9f2;
+  --dim: rgba(230, 233, 242, 0.55);
+  --chip: rgba(255, 255, 255, 0.08);
+  --input-bg: rgba(0, 0, 0, 0.28);
+  --ok: #4ade80;
+  --warn: #fbbf24;
+  --accent-text: var(--ash-accent);
+}
+
+.ash-window[data-kind='ide'] {
+  --win: #21242f;
+  --bar: #191c26;
+  --side: #1b1e28;
+  --surface: rgba(255, 255, 255, 0.05);
+  --line: rgba(255, 255, 255, 0.1);
+  --text: #e2e5ee;
+  --dim: rgba(226, 229, 238, 0.55);
+  --chip: rgba(255, 255, 255, 0.08);
+  --input-bg: rgba(0, 0, 0, 0.25);
+  --ok: #4ade80;
+  --warn: #fbbf24;
+  --accent-text: var(--ash-accent);
+}
+
+.ash-window[data-kind='desktop'] {
+  --win: #fbfaf8;
+  --bar: #eeebe5;
+  --side: #f3f1ec;
+  --surface: #fff;
+  --line: rgba(44, 49, 67, 0.13);
+  --text: #2c3143;
+  --dim: rgba(44, 49, 67, 0.78);
+  --chip: rgba(44, 49, 67, 0.07);
+  --input-bg: #fff;
+  --ok: #15803d;
+  --warn: #b45309;
+  /* Darkened accent for 4.5:1 on the white surfaces. */
+  --accent-text: #a8452a;
+}
+
+.ash-bar {
+  display: flex;
+  flex: none;
+  align-items: center;
+  gap: 0.5rem;
+  height: 2.3rem;
+  padding: 0 0.85rem;
+  background: var(--bar);
+  border-bottom: 1px solid var(--line);
+  font-size: 0.78rem;
+}
+
+.ash-dots {
+  display: flex;
+  gap: 0.4rem;
+  width: 3.4rem;
+}
+
+.ash-dots span {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+}
+
+.ash-dots span:nth-child(1) {
+  background: #ff5f57;
+}
+.ash-dots span:nth-child(2) {
+  background: #febc2e;
+}
+.ash-dots span:nth-child(3) {
+  background: #28c840;
+}
+
+.ash-bar__title {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  color: var(--dim);
+}
+
+.ash-bar__spacer {
+  width: 3.4rem;
+}
+
+.ash-frame {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+}
+
+.ash-side {
+  display: none;
+  flex: none;
+  flex-direction: column;
+  gap: 0.15rem;
+  width: 9.5rem;
+  padding: 0.7rem 0.5rem;
+  background: var(--side);
+  border-right: 1px solid var(--line);
+  font-size: 0.78rem;
+}
+
+.ash-side__hd {
+  padding: 0.2rem 0.6rem 0.45rem;
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--dim);
+}
+
+.ash-side__item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 0.6rem;
+  border-radius: 0.375rem;
+  color: var(--dim);
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease;
+}
+
+.ash-side__item svg {
+  width: 13px;
+  height: 13px;
+  flex: none;
+}
+
+.ash-side__item.is-active {
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: inset 2px 0 0 var(--ash-accent);
+}
+
+.ash-side__pane {
+  margin-top: auto;
+  padding: 0.45rem 0.6rem 0.2rem;
+  border-top: 1px solid var(--line);
+  color: var(--dim);
+  font-size: 0.7rem;
+}
+
+@media (min-width: 560px) {
+  .ash-window[data-kind='ide'] .ash-side {
+    display: flex;
+  }
+}
+
+.ash-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 0.4rem;
+  min-width: 0;
+  padding: 0.85rem 0.9rem 1.1rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+  contain: layout paint;
+  scrollbar-width: thin;
+  scrollbar-color: color-mix(in srgb, var(--text) 25%, transparent) transparent;
+}
+
+@media (min-width: 640px) {
+  .ash-body {
+    padding: 1rem 1.15rem 1.25rem;
+  }
+}
+
+.ash-window[data-kind='terminal'] .ash-body {
+  font-family: var(--ash-mono);
+}
+
+.ash-window[data-kind='desktop'] .ash-body,
+.ash-window[data-kind='ide'] .ash-body {
+  gap: 0.6rem;
+}
+
+/* ── Lines ─────────────────────────────────────────────────────────── */
+
+.ash-body .ln {
+  min-width: 0;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  animation: ash-in 0.22s ease-out both;
+}
+
+.ash-body .ln-cmd,
+.ash-body .ln-slash,
+.ash-body .ln-out,
+.ash-body .inp,
+.ash-body .tool-name,
+.ash-body .tool-args,
+.ash-body .tool-res {
+  font-family: var(--ash-mono);
+}
+
+.ash-body .ln-cmd,
+.ash-body .ln-slash {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.ash-body .ln-slash {
+  gap: 0;
+}
+
+.ash-body .ps {
+  flex: none;
+  font-weight: 700;
+  color: var(--accent-text, var(--ash-accent));
+}
+
+.ash-body .ln-slash .tx {
+  color: var(--text);
+}
+
+.ash-body .is-typing .tx::after,
+.ash-body .is-streaming .tx::after {
+  content: '';
+  display: inline-block;
+  width: 0.55em;
+  height: 1.05em;
+  margin-left: 2px;
+  vertical-align: text-bottom;
+  background: currentColor;
+  animation: ash-caret 1s steps(2, start) infinite;
+}
+
+.ash-body .is-streaming .tx::after {
+  width: 0.4em;
+  opacity: 0.6;
+}
+
+.ash-body .ln-out {
+  color: var(--text);
+}
+
+.ash-body .tone-dim {
+  color: var(--dim);
+}
+.ash-body .tone-ok {
+  color: var(--ok);
+}
+.ash-body .tone-warn {
+  color: var(--warn);
+}
+.ash-body .tone-accent {
+  color: var(--accent-text, var(--ash-accent));
+}
+
+/* Dialog panel: adjacent ui/field lines. */
+.ash-body .dlg {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 0.15rem 0;
+  padding: 0.65rem 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+  background: var(--surface);
+  animation: ash-in 0.22s ease-out both;
+}
+
+.ash-window[data-kind='desktop'] .dlg {
+  box-shadow: 0 6px 20px -12px rgba(44, 49, 67, 0.35);
+}
+
+.ash-body .ln-ui {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.ash-body .crumb {
+  padding: 0.12rem 0.45rem;
+  border-radius: 0.25rem;
+  background: var(--chip);
+  font-size: 0.9em;
+}
+
+.ash-body .crumb:last-of-type {
+  color: var(--text);
+  font-weight: 700;
+}
+
+.ash-body .crumb-sep {
+  color: var(--dim);
+}
+
+.ash-body .ui-detail {
+  flex-basis: 100%;
+  font-size: 0.88em;
+  color: var(--dim);
+}
+
+.ash-body .ln-field {
+  display: grid;
+  grid-template-columns: minmax(4.5rem, 7.5rem) minmax(0, 1fr);
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.ash-body .lbl {
+  font-size: 0.88em;
+  color: var(--dim);
+}
+
+.ash-body .inp {
+  min-height: 1.9em;
+  padding: 0.2rem 0.5rem;
+  border: 1px solid var(--line);
+  border-radius: 0.3rem;
+  background: var(--input-bg);
+  font-size: 0.95em;
+}
+
+.ash-body .ln-field.is-typing .inp {
+  border-color: color-mix(in srgb, var(--ash-accent) 60%, transparent);
+}
+
+.ash-body .ln-user {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ash-body .bubble {
+  max-width: 88%;
+  padding: 0.45rem 0.8rem;
+  border-radius: 0.75rem 0.75rem 0.2rem 0.75rem;
+  background: color-mix(in srgb, var(--ash-accent) 16%, var(--surface));
+  color: var(--text);
+}
+
+.ash-window[data-kind='terminal'] .ln-user {
+  justify-content: flex-start;
+}
+
+.ash-window[data-kind='terminal'] .bubble {
+  max-width: 100%;
+  padding: 0.4rem 0.7rem;
+  border-radius: 0.3rem;
+  border-left: 2px solid var(--ash-accent);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.ash-window[data-kind='terminal'] .bubble::before {
+  content: '› ';
+  color: var(--ash-accent);
+  font-weight: 700;
+}
+
+.ash-body .ln-tool {
+  padding: 0.4rem 0.65rem;
+  border: 1px solid var(--line);
+  border-radius: 0.45rem;
+  background: var(--surface);
+  font-size: 0.94em;
+}
+
+.ash-body .tool-hd {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  min-width: 0;
+}
+
+.ash-body .tool-ic {
+  flex: none;
+  width: 13px;
+  height: 13px;
+  color: var(--accent-text, var(--ash-accent));
+}
+
+.ash-body .tool-ic svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.ash-body .tool-name {
+  flex: none;
+  font-weight: 700;
+  color: var(--accent-text, var(--ash-accent));
+}
+
+.ash-body .tool-args {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--dim);
+}
+
+.ash-body .tool-st {
+  display: grid;
+  flex: none;
+  place-items: center;
+  margin-left: auto;
+  width: 14px;
+  height: 14px;
+}
+
+.ash-body .ring {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  border: 2px solid var(--line);
+  border-top-color: var(--ash-accent);
+  animation: ash-spin 0.8s linear infinite;
+}
+
+.ash-body .ok {
+  display: none;
+  font-weight: 700;
+  color: var(--ok);
+}
+
+.ash-body .is-done .ring {
+  display: none;
+}
+
+.ash-body .is-done .ok {
+  display: inline;
+}
+
+.ash-body .tool-res {
+  display: none;
+  margin-top: 0.35rem;
+  padding-top: 0.35rem;
+  border-top: 1px dashed var(--line);
+  color: var(--dim);
+  font-size: 0.94em;
+}
+
+.ash-body .is-done .tool-res {
+  display: block;
+  animation: ash-in 0.22s ease-out both;
+}
+
+.ash-body .ln-assistant {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+}
+
+.ash-body .av {
+  flex: none;
+  width: 0.55rem;
+  height: 0.55rem;
+  margin-top: 0.5em;
+  border-radius: 50%;
+  background: var(--ash-accent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--ash-accent) 22%, transparent);
+}
+
+.ash-body .ln-assistant .tx {
+  flex: 1;
+  min-width: 0;
+  line-height: 1.55;
+}
+
+.ash-body .ln-spin {
+  display: flex;
+  gap: 0.5rem;
+  color: var(--dim);
+}
+
+.ash-body .spin {
+  flex: none;
+  width: 1ch;
+  color: var(--accent-text, var(--ash-accent));
+}
+
+.ash-body .ln-spin.is-done {
+  color: var(--text);
+}
+
+.ash-body .ln-spin.is-done .spin {
+  color: var(--ok);
+}
+
+/* ── Controls ──────────────────────────────────────────────────────── */
+
+.ash-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.9rem;
+}
+
+.ash-controls__right {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: auto;
+}
+
+.ash-ctl {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-height: 2.25rem;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 0.375rem;
+  background: rgba(255, 255, 255, 0.04);
+  color: rgba(255, 255, 255, 0.85);
+  font: inherit;
+  font-size: 0.84rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    border-color 0.15s ease,
+    background-color 0.15s ease,
+    color 0.15s ease;
+}
+
+.ash-ctl:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.ash-ctl svg {
+  width: 14px;
+  height: 14px;
+  flex: none;
+}
+
+.ash-ctl[data-state='playing'] .ic-play,
+.ash-ctl[data-state='paused'] .ic-pause {
+  display: none;
+}
+
+.ash-ctl.is-copied {
+  color: #4ade80;
+  border-color: rgba(74, 222, 128, 0.6);
+}
+
+.ash-ctl--link {
+  --link-color: var(--ash-gold);
+  color: var(--ash-gold);
+  border-color: color-mix(in srgb, var(--ash-gold) 45%, transparent);
+}
+
+.ash-ctl--link:hover {
+  --link-color: var(--ash-dark);
+  color: var(--ash-dark);
+  background: var(--ash-gold);
+  border-color: var(--ash-gold);
+}
+
+.agent-shells.is-static [data-play],
+.agent-shells.is-static [data-replay] {
+  display: none;
+}
+
+/* Static (reduced motion / no JS): show the whole final transcript. */
+.agent-shells.is-static .ash-window,
+.agent-shells.no-js .ash-window {
+  height: auto;
+}
+
+/* Paused: freeze the decorative animations too. */
+.agent-shells.is-paused .ash-cosmos,
+.agent-shells.is-paused .ash-cosmos .glow,
+.agent-shells.is-paused .ash-body .ring,
+.agent-shells.is-paused .ash-body .is-typing .tx::after,
+.agent-shells.is-paused .ash-body .is-streaming .tx::after {
+  animation-play-state: paused;
+}
+
+/* ── Light sections ────────────────────────────────────────────────── */
+
+.ash-section {
+  padding: 2.5rem 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .ash-section {
+    padding: 3rem 2rem;
+  }
+}
+
+.ash-section__inner {
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+.ash-pillars {
+  background: var(--color-light-bg, #edf4fa);
+  border-top: 1px solid color-mix(in srgb, var(--ash-primary) 12%, transparent);
+}
+
+.ash-pick {
+  scroll-margin-top: 6rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--ash-primary) 12%, transparent);
+}
+
+.ash-card-bar {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 4px;
+  background: var(--ash-gold);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.2s ease;
+}
+
+.group:hover .ash-card-bar {
+  transform: scaleX(1);
+}
+
+/* ── Motion ────────────────────────────────────────────────────────── */
+
+@keyframes ash-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes ash-caret {
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes ash-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes ash-drift {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(0, -10px, 0);
+  }
+}
+
+@keyframes ash-pulse {
+  0%,
+  100% {
+    opacity: 0.55;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.25);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ash-cosmos,
+  .ash-cosmos .glow,
+  .ash-body .ln,
+  .ash-body .dlg,
+  .ash-body .is-done .tool-res,
+  .ash-body .ring,
+  .ash-body .is-typing .tx::after,
+  .ash-body .is-streaming .tx::after,
+  .ash-card-bar {
+    animation: none;
+    transition: none;
+  }
+}
+
+@media print {
+  .ash-demo,
+  .ash-cosmos,
+  .ash-hero__grid,
+  .ash-hero::after {
+    display: none;
+  }
+
+  .ash-hero {
+    background: none;
+    color: #000;
+  }
+
+  .ash-title,
+  .ash-title em,
+  .ash-lede,
+  .ash-lede strong,
+  .ash-eyebrow,
+  .ash-chip,
+  .ash-btn {
+    color: #000;
+  }
+
+  .ash-btn--gold,
+  .ash-btn--ghost,
+  .ash-chip {
+    background: none;
+    border: 1px solid #999;
+  }
+
+  .ash-chip::after,
+  .ash-btn::after {
+    content: '' !important;
+  }
+}

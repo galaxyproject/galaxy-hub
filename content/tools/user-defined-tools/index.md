@@ -7,6 +7,8 @@ tease: "Write and run your own simple tools from the Galaxy interface — no ser
 
 User-Defined Tools (UDTs) let regular Galaxy users write and run their own simple tools directly from the Galaxy interface — no server access, no admin installation, and no waiting for a tool to be added to a Tool Shed. If you've ever needed a quick one-off script, a table-reformatting step, or wanted to glue together a couple of shell commands in a workflow, and didn't want to file a request with your Galaxy admin, UDTs are for you.
 
+Using an AI agent? See [the Galaxy agentic stack](/tools/agentic-stack/), where an agent writes and runs a UDT while Galaxy keeps the record.
+
 UDTs are meant to fill that gap, not to replace published tools. Galaxy's goals of reproducibility and collaboration still matter — whenever a "real" Tool Shed tool already does what you need, prefer it, since workflows and analyses built on published tools are easier for others to share, rerun, and publish. Reach for a UDT when no existing tool fits and the job is too small to justify a full tool submission.
 
 ## What is a User-Defined Tool?

@@ -61,6 +61,9 @@ function hasFileExtension(urlPath) {
 
 function normalizeRedirectTarget(toPath) {
   if (toPath.includes('://') || toPath.endsWith('/') || hasFileExtension(toPath)) return toPath;
+  // Keep fragments and query strings intact: "/page/#section" must not become "/page/#section/".
+  const m = toPath.match(/^([^#?]*)([#?].*)$/);
+  if (m) return `${normalizeRedirectTarget(m[1])}${m[2]}`;
   return `${toPath}/`;
 }
 
