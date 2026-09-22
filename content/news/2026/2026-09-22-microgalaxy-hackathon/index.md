@@ -44,9 +44,6 @@ We will coordinate on the microGalaxy Matrix channel: [https://matrix.to/#/#gala
 
 Join Zoom Meeting: [https://uni-freiburg.zoom-x.de/j/68485176238?pwd=s4CIihBXtXGuT5qOUIGioqVvA8JXtH.1](https://uni-freiburg.zoom-x.de/j/68485176238?pwd=s4CIihBXtXGuT5qOUIGioqVvA8JXtH.1)
 
-- **Meeting ID**: 684 8517 6238
-- **Passcode**: 7ibe8bLgj
-
 Registration is free. Everyone is welcome — tool wrapping expertise is required, but whether you are new to Galaxy tool development or already contributing tools, there are tasks suitable for all levels.
 
 **Contact**: Paul Zierep (via matrix)
