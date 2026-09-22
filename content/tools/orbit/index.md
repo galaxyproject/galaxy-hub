@@ -178,14 +178,14 @@ Orbit uses a large language model (LLM) as its reasoning engine — the model is
 
 Two phases of work call for different models. Designing an analysis — figuring out what to do with a dataset, surveying the literature, or constructing a multi-step plan — benefits from the most capable model you can afford. Actually running the plan — invoking Galaxy tools, polling job status, writing results to the notebook — is mostly repetitive and a cheaper model handles it just as well. When you run `/execute` on an expensive model, Orbit surfaces a one-time reminder suggesting a switch to save cost.
 
-If you are using Anthropic API keys, we recommend starting with **Claude Sonnet 4.6** for most sessions: capable enough for demanding work, fast, and roughly 5× cheaper than Opus.
+If you are using Anthropic API keys, we recommend starting with **Claude Sonnet 5** for most sessions: capable enough for demanding work, fast, and roughly 2.5× cheaper than Opus.
 
 **Anthropic (Claude)**
 
 | Model | Best for | Price (in/out per 1M tokens) |
 |-------|----------|------------------------------|
-| `claude-opus-4-7` | Complex planning, literature survey, novel analysis design | $15 / $75 |
-| `claude-sonnet-4-6` | General use — planning and execution (recommended) | $3 / $15 |
+| `claude-opus-5` | Complex planning, literature survey, novel analysis design | $5 / $25 |
+| `claude-sonnet-5` | General use — planning and execution (recommended) | $2 / $10 |
 | `claude-haiku-4-5` | Mechanical execution of explicit step-by-step plans | $1 / $5 |
 
 **OpenAI**
@@ -229,7 +229,7 @@ You can switch models at any point during a session in three ways:
 
 **2. Preferences** — open with `Cmd/Ctrl+,` and choose a different provider or model from the dropdowns, then click Save.
 
-**3. Slash command in chat** — type `/model <name>` and press Enter. Orbit restarts the agent with the new model immediately. Use the exact model ID (e.g. `/model claude-sonnet-4-6`, not `/model sonnet`).
+**3. Slash command in chat** — type `/model <name>` and press Enter. Orbit restarts the agent with the new model immediately. Use the exact model ID (e.g. `/model claude-sonnet-5`, not `/model sonnet`).
 
 ![Switching models mid-session by typing /model in the Orbit chat input](/tools/orbit/orbit-model-command.png)
 
@@ -314,7 +314,7 @@ Type `/` to open the autocomplete popup. Tab to complete; Enter submits.
 
 | Command | What it does |
 |---------|-------------|
-| `/model <name>` | Switch the LLM model — use the exact model ID (e.g. `/model claude-sonnet-4-6`, not `/model sonnet`) |
+| `/model <name>` | Switch the LLM model — use the exact model ID (e.g. `/model claude-sonnet-5`, not `/model sonnet`) |
 | `/new` | Start a fresh session. Confirms before clearing the existing notebook |
 | `/resume` | Restart the agent and replay the prior session's chat |
 | `/chat` | Restore the chat pane from the session transcript without restarting the agent |
