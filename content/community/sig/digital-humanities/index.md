@@ -10,7 +10,7 @@ Whether you are analysing texts, images, audio data or other media, **Galaxy is 
 
 # How can you use Galaxy for Digital Humanities analysis?
 
-Galaxy is a flexible platform that enables analysis in Digital Humanities (DH) and the Social Sciences in various ways. Due to the platform's flexibility, you can create an analysis that meets your research needs and provides tools for easier management of research data on the go. Simply visit the Galaxy instance of your choice, such as the [European Galaxy Server](https://usegalaxy.eu/), create an account, and get started.
+Galaxy is a flexible platform that enables analysis in Digital Humanities (DH) and the Social Sciences in various ways. Due to the platform's flexibility, you can create an analysis that meets your research needs and provides tools for easier management of research data on the go. Simply visit the Galaxy instance of your choice, such as the [European Galaxy Server](https://ssh.usegalaxy.eu/), create an account, and get started.
 
 Here are some examples:
 
@@ -48,13 +48,14 @@ Are you already familiar with Galaxy? Try one of our other tutorials or consider
   frameborder="0">
 </iframe>
 
+Scroll down to see all tutorials here.
 
 ## Tools
 
 To conduct your own analysis, start by exploring the tools (the term we use in Galaxy for programs) in your Galaxy instance, such as [Galaxy Europe](https://usegalaxy.eu/). On the website, you can access the tools by clicking on the bar on the left-hand side. The second icon there is **tools**. You can search there, or click the arrows to find more details in the help text.
 You can combine various Galaxy tools into [workflows](https://gxy.io/GTN:T00151) to automate and re-run the analysis or [export](https://galaxyproject.org/news/2024-05-03-inveniordm-integration/) the data you created to a repository.
 
-The following is a non-exhaustive overview of Galaxy tools applicable to Humanities and social sciences use cases. You can find the tools by going to a Galaxy instance, for example, the [European Galaxy Server](https://usegalaxy.eu/), and clicking "Tools" in the left-hand sidebar. There, you can search the tools by name or browse them by category. 
+The following is a non-exhaustive overview of Galaxy tools applicable to Humanities and social sciences use cases. You can find the tools by going to a Galaxy instance, for example, the [European Galaxy Server](https://ssh.usegalaxy.eu/), and clicking "Tools" in the left-hand sidebar. There, you can search the tools by name or browse them by category. 
 
 ### 📥 **Uploading/accessing data**
 You can upload your files in various ways in the upload section on the left sidebar of the Galaxy website.
@@ -76,8 +77,9 @@ You can upload your files in various ways in the upload section on the left side
 - GPT: Large language model - this is only accessible with the OpenAI credentials. Find more information on how to set this up [here](https://galaxyproject.org/news/2024-09-02-chat-gpt/).
 
 #### **Natural Language Processing (NLP) Tools**
-- Vader: Performs sentiment analysis using VADER (Valence Aware Dictionary and sEntiment Reasoner)in text.
+- Vader: Performs sentiment analysis using VADER (Valence Aware Dictionary and sEntiment Reasoner) in text.
 - Co-occurrence Analysis: Computes term co-occurrence from NLP-annotated JSON output produced by the spaCy or Stanza Galaxy tools.
+- NLP Geocode Named Entities: Extracts location-type named entities from NLP-annotated JSON (spaCy or Stanza) to map them.
 
 ### **Tools for working with tabular data**
 - **Text Manipulation for tabular data**: Replace Text, Replace text in a specific column, Replace parts of text, text reformatting, Text transformation, Sort a row, reverse a file, Compute an expression, Regex replace, Subtract Whole Dataset, Merge Columns, Unique occurences, Add column, Merge Columns together, Convert delimiters to TAB, Change Case, Trim characters, Secure Hash
@@ -89,7 +91,8 @@ You can upload your files in various ways in the upload section on the left side
 - Audio Player: Find the player to listen to audio files in Galaxy on the left-hand side panel under *Visualisations*.
 - [Whisper](https://galaxyproject.org/news/2024-04-25-whisper-tool/): Audio to text conversion
 - WhisperX: Audio conversion including speaker diarisation
-- FFmpeg Format Converter: Convert between video and audio formats   
+- FFmpeg Format Converter: Convert between video and audio formats
+- New Fave for forced alignment and vowel extraction   
 
 ### 🎞️ **Image  and video tools**
 - Tesseract: Optical Character Recognition (OCR). You can see an example workflow using Tesseract to transcribe a German newspaper in [this video](https://usegalaxy.eu/static/share/OCR.mp4)
@@ -106,6 +109,7 @@ You can upload your files in various ways in the upload section on the left side
 - Yolo DocLayout: Document layout analysis - click [here](https://galaxyproject.org/news/2026-01-07-hf-integration/) for an example workflow.
 - LLM Hub: Run various locally hosted LLMs within your workflows.
 - File Format Identification: Check multimedia files for corrupt or duplicated files
+- SAM 3: AI-based Semantic Segmentation of Videos and Images
     
 ### 🔃 **File or format conversion**
 - General tools: Tabular to CSV, CSV to Tabular, convert delimiter to TAB, 
@@ -114,7 +118,6 @@ You can upload your files in various ways in the upload section on the left side
 - PDFimages to extract images from PDFs
 - FFmpeg Format Converter: Convert between video and audio formats
 - Excel to Tabular: Extract a specific sheet (by name) or all sheets from XLS/XLSX file to a tabular file
-
 
 ### 👩‍💻 **Interactive tools**
 - OpenRefine: data cleaning and enrichment - for example, with the Gemeinsame Normdatei (translated as Integrated Authority File) or GND as explained [here](https://blog.lobid.org/2018/08/27/openrefine.html).
@@ -129,7 +132,7 @@ You can upload your files in various ways in the upload section on the left side
     
 ### 🔍 **Research tools**
 -  OpenAlex explorer: Research and fetch papers from OpenAlex using DOI or title
--   GROBID DataStet: Identify dataset mentions in scientific articles
+-  GROBID DataStet: Identify dataset mentions in scientific articles
 -  GROBID: Extract structured TEI XML from scholarly documents and patents
     
 ### 🤖 **AI and Machine Learning tools**
@@ -140,9 +143,12 @@ You can upload your files in various ways in the upload section on the left side
 - TabPFN: Tabular data prediction
 - [Cleanlab](https://galaxyproject.org/news/2025-06-13-cleanlab/): Identifies label issues in Machine Learning datasets
 - Yolo DocLayout: Document layout analysis - click [here](https://galaxyproject.org/news/2026-01-07-hf-integration/) for an example workflow.
+- SAM 3: AI-based Semantic Segmentation of Videos and Images
+- LangChain Splitter
 
 ### **Domain-specific tools**
 - [ONTO-ToolKit](https://doi.org/10.1186/1471-2105-11-S12-S8) working with OBO files for ontologies
+- 
 
 ### 📤 **Export your data**
 Galaxy lets you share your data in various ways if you prefer. Once you have set your credentials, the tool [Export datasets
@@ -150,8 +156,10 @@ to repositories](https://usegalaxy.eu/root?tool_id=export_remote) allows you to 
 
 ### 🏗️ **Work in progress**
 - E-Scriptorium: Handwritten text-recognition (HTR)
+- Kraken (HTR) 
 - Stanford Core NLP: Natural language processing tool
-- New Fave
+- Stanza
+- SpaCy
 - Montreal Forced Aligner (MFA)
 
 If tools are missing or the list is outdated, please let us know. We are available via this [Matrix Channel](https://matrix.to/#/#galaxyproject-digital-humanities:matrix.org)
