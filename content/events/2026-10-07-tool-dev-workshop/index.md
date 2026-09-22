@@ -57,7 +57,46 @@ A detailed agenda of the workshop will be shared closer to the event.
 - Please ensure that [VS Code](https://code.visualstudio.com/download) (with the [Galaxy extension](https://marketplace.visualstudio.com/items?itemName=davelopez.galaxy-tools)), [Docker](https://docs.docker.com/engine/install/ubuntu/), and [Miniforge](https://github.com/conda-forge/miniforge#unix-like-platforms-macos-linux--wsl?) are installed prior to the event
 - [Planemo](https://planemo.readthedocs.io/en/latest/installation.html) installed on your system
 
- For your convenience, we'll share a detailed pre-requisites document closer to the event to help you get set up.
+
+# 🗓️ Agenda
+
+## Day 1 - Wednesday, 7 October: From Zero to a Working tool
+
+| Time | Session | Trainer | Type |
+|------|:-------:|:---------:|:------:|
+| 09:30 - 09:45 | Welcome and round of introductions | Matthias Bernt | Talk |
+| 09:45 - 10:15 | Introduction to Galaxy tools and the tool ecosystem: tool XML → job script → Conda/container; ToolShed, IUC, GTN, Tool Developer's SIG | Matthias Bernt | Talk |
+| 10:15 - 10:45 | Setting up your dev environment: Introduction to Planemo, mamba, Docker, VS Code + Galaxy Language Server; WSL option | All | Talk |
+| 10:45 - 11:00 | ☕ Coffee break | | |
+| 11:00 - 12:15 | Tool XML I: skeleton, `<command>` + Cheetah, `<requirements>`, simple inputs/outputs, `<help>`, `<citations>`. Live-coded on `seqtk_seq` (`tool_init`, `lint`, `serve`) | Paul Zierep | Hands-on |
+| 12:15 - 13:15 | 🍽️ Lunch | | |
+| 13:15 - 15:00 | Testing: writing `<tests>`, small test data, assertion types, `planemo test`, what CI runs | Pavan Videm | Hands-on |
+| 15:00 - 15:15 | ☕ Coffee break | | |
+| 15:15 - 16:00 | Publishing a tool on usegalaxy.eu/.org/.org.au: repo layout, `.shed.yml`, `planemo shed_*`, tools-iuc fork → PR → CI → review, reading a failing CI run | Matthias Bernt | Hands-on |
+| 16:00 - 16:45 | IUC best practices: standards walkthrough, macros and `<import>`, versioning, profile, live review of a real PR | Rand Zoabi | Talk |
+| 16:45 - 17:00 | Wrap-up and Day 2 preview | Rand Zoabi | Talk |
+
+
+### Day 2 - Thursday, 8 October: Advanced tool XML, reference data, and interactive tools
+
+| Time | Session | Trainer | Type |
+|------|:-------:|:---------:|:------:|
+| 09:30 - 09:45 | Recap of Day 1 | Amirhossein Nilchi | Talk |
+| 09:45 - 10:45 | Tool XML II (part 1): conditionals, repeats, sections, parameter types, `format`/`change_format`, `filter`, output collections, `discover_datasets` | Amirhossein Nilchi, Pavan Videm | Talk + hands-on |
+| 10:45 - 11:00 | ☕ Coffee break | | |
+| 11:00 - 12:15 | Tool XML II (part 2): continued | Amirhossein Nilchi, Pavan Videm | Talk + hands-on |
+| 12:15 - 13:15 | 🍽️ Lunch | | |
+| 13:15 - 14:45 | Introduction to data tables: `.loc` files, `tool_data_table_conf.xml`, using reference data, and how to test data tables | Matthias Bernt | Hands-on |
+| 14:45 - 15:00 | ☕ Coffee break | | |
+| 15:00 - 16:30 | Introduction to Galaxy Interactive Tools: how GxITs work (proxy, entry points), anatomy of an IT wrapper, building one, deployment caveats | Paul Zierep | Talk |
+| 16:30 - 17:00 | Q&A and introduction to the Day 3 hackathon (bring your own tool) | Paul Zierep | Talk |
+
+
+### Day 3 - Friday, 9 October (half day): Hackathon
+
+| Time | Session | Trainer | Type |
+|------|:-------:|:---------:|:------:|
+| 09:30 - lunch | Wrap your own tool, or join the IUC hackathon (e.g. [tools-iuc#7890](https://github.com/galaxyproject/tools-iuc/issues/7890), [tools-iuc#7675](https://github.com/galaxyproject/tools-iuc/issues/7675)). Followed by 2-minute updates from participants, and ways to stay involved (Tool Developer's SIG, Matrix, IUC reviews) | All | Hands-on |
 
 
 # 📧 Contact
