@@ -18,6 +18,7 @@ contributions:
   funding:
     - elixir-europe
     - deNBI
+    - mwk
     - ifb
 organizers:
   - paulzierep
