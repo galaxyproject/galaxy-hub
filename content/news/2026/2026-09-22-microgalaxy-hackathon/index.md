@@ -15,12 +15,12 @@ contributions:
   authorship:
     - paulzierep
     - bebatut
-  organisers:
-    - paulzierep
   funding:
     - elixir-europe
     - deNBI
     - ifb
+organizers:
+  - paulzierep
 ---
 
 Now that our [microGalaxy community](https://galaxyproject.org/community/sig/microgalaxy/) paper is accepted, we can focus more on tool maintenance! As discussed in our last meeting, many — also highly used — microGalaxy tools are outdated, as tracked in this [IUC issue](https://github.com/galaxyproject/tools-iuc/issues/8301).
