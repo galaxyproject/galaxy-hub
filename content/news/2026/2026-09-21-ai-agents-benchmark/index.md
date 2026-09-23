@@ -8,9 +8,13 @@ subsites: [all]
 autotoc: false
 contributions:
   authorship:
+    - qchiujunhao
+    - paulocilasjr
     - jgoecks
 ---
 #### ***Across 160 bioinformatics tasks, agents using Galaxy achieved accuracy comparable to agents writing custom code.***
+
+**Authors: Junhao Qiu, Paulo Lyra, and Jeremy Goecks**
 
 Biomedical scientists are increasingly using AI agents such as [Claude Code](https://claude.com/product/claude-code) and [Codex](https://chatgpt.com/codex/) to perform bioinformatics data analyses, from differential gene expression to multi-omic profiling to single-cell analysis. [Galaxy](https://galaxyproject.org) brings thousands of software analysis tools and high-performance computing resources into one workbench, potentially offering agents a rich resource for doing bioinformatics analyses. However, until now it's been unclear how well agents can use Galaxy. **In this post, we share our findings from ~1,900 bioinformatics tasks that AI agents performed using Galaxy and show that agents can use Galaxy very effectively for bioinformatics.**
 
