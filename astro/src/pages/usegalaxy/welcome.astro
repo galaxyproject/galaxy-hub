@@ -74,6 +74,15 @@ const carouselSlides = [
       <div>
         <div class="rounded-lg overflow-hidden shadow-md bg-ebony-clay-100" id="welcome-carousel">
           <div class="relative w-full" style="aspect-ratio: 13/9;">
+            <button
+              id="carousel-toggle"
+              type="button"
+              aria-label="Pause slide show"
+              class="absolute top-2 right-2 z-10 bg-black/40 hover:bg-black/60 text-white rounded-full w-7 h-7 flex items-center justify-center transition-colors cursor-pointer border-0"
+            >
+              <span class="carousel-icon-pause"><Icon name="pause" size={14} /></span>
+              <span class="carousel-icon-play hidden"><Icon name="play" size={14} /></span>
+            </button>
             {
               carouselSlides.map((slide, index) => (
                 <div
@@ -86,15 +95,6 @@ const carouselSlides = [
                 </div>
               ))
             }
-            <button
-              id="carousel-toggle"
-              type="button"
-              aria-label="Pause slide show"
-              class="absolute top-2 right-2 z-10 bg-black/40 hover:bg-black/60 text-white rounded-full w-7 h-7 flex items-center justify-center transition-colors cursor-pointer border-0"
-            >
-              <span class="carousel-icon-pause"><Icon name="pause" size={14} /></span>
-              <span class="carousel-icon-play hidden"><Icon name="play" size={14} /></span>
-            </button>
             <div class="absolute inset-y-0 left-0 flex items-center pl-2">
               <button
                 id="prev-btn"
