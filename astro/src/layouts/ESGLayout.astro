@@ -6,6 +6,7 @@
  * - integrated: Uses BaseLayout with ESG branding
  */
 import BaseLayout from './BaseLayout.astro';
+import SkipLink from '../components/layout/SkipLink.astro';
 
 interface Props {
   title: string;
@@ -48,6 +49,7 @@ const fundingNotice = `
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
       </head>
       <body class="min-h-screen bg-white">
+        <SkipLink />
         <header class="bg-ebony-clay-800 text-white">
           <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
             <a href="/projects/esg/?solo=true" class="flex items-center">
@@ -80,7 +82,7 @@ const fundingNotice = `
           </div>
         </header>
 
-        <main class="max-w-6xl mx-auto px-4 py-8">
+        <main id="main-content" tabindex="-1" class="max-w-6xl mx-auto px-4 py-8">
           <slot />
 
           <div class="mt-12 pt-8 border-t border-ebony-clay-100 flex items-start gap-4 flex-wrap">

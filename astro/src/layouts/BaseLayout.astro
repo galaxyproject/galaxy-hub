@@ -3,6 +3,7 @@ import { ClientRouter } from 'astro:transitions';
 import '../styles/global.css';
 import Sidebar from '../components/layout/Sidebar.astro';
 import MobileMenu from '../components/layout/MobileMenu.vue';
+import SkipLink from '../components/layout/SkipLink.astro';
 import { detectSubsiteFromPath } from '../stores/subsiteStore';
 import { getSubsiteNavbar } from '../utils/navbar-content';
 import Icon from '../components/mdx/Icon.astro';
@@ -36,6 +37,7 @@ const navbar = await getSubsiteNavbar(currentSubsite);
     <ClientRouter />
   </head>
   <body class="min-h-screen bg-background text-foreground">
+    <SkipLink />
     <div class="site-shell flex min-h-screen overflow-hidden">
       <!-- Sidebar (desktop only) -->
       <Sidebar transition:persist navbar={navbar} initialSubsite={currentSubsite} />
@@ -52,7 +54,7 @@ const navbar = await getSubsiteNavbar(currentSubsite);
 
       <!-- Main content area -->
       <div class="site-main flex-1 flex flex-col min-h-screen lg:ml-64 pt-22 lg:pt-0 min-w-0 overflow-x-hidden">
-        <main class="site-content flex-1 p-4 sm:p-6 lg:p-8 bg-light-bg bg-grid">
+        <main id="main-content" tabindex="-1" class="site-content flex-1 p-4 sm:p-6 lg:p-8 bg-light-bg bg-grid">
           <slot />
         </main>
 
