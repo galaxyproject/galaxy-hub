@@ -3,6 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHeader from '../../components/layout/PageHeader.astro';
 import { getTagIndex } from '../../utils/tagIndex';
 import ExternalIcon from '../../components/common/ExternalIcon.vue';
+import { formatDate, formatDateRange } from '../../utils/dateUtils';
 
 export async function getStaticPaths() {
   const index = await getTagIndex();
@@ -25,17 +26,6 @@ const sortedEvents = profile?.events || [];
 
 const totalItems = newsArticles.length + sortedEvents.length;
 const hasBoth = newsArticles.length > 0 && sortedEvents.length > 0;
-
-// Format date for display
-function formatDate(date: Date | string | undefined): string {
-  if (!date) return '';
-  const d = typeof date === 'string' ? new Date(date) : date;
-  return d.toLocaleDateString('en-US', {
-    year: 'numeric',
-    month: 'short',
-    day: 'numeric',
-  });
-}
 ---
 
 <BaseLayout title={`Tagged: ${tag}`} description={`Content tagged with "${tag}"`}>
@@ -117,7 +107,7 @@ function formatDate(date: Date | string | undefined): string {
                   {event.data.external_url && <ExternalIcon href={event.data.external_url} />}
                 </h3>
                 {event.data.tease && <p class="text-sm text-chicago-500 mt-1 line-clamp-2">{event.data.tease}</p>}
-                <time class="text-sm text-chicago-400">{formatDate(event.data.date)}</time>
+                <time class="text-sm text-chicago-400">{formatDateRange(event.data.date, event.data.end)}</time>
               </a>)}
             </div>
             {sortedEvents.length > 20 && <button
