@@ -200,6 +200,39 @@ test.describe('Navigation', () => {
       expect(scrollInfo.maxHeight).not.toBe('none');
       expect(['auto', 'scroll']).toContain(scrollInfo.overflowY);
     });
+
+    test('homepage mobile menu is keyboard operable', async ({ page }) => {
+      await page.goto('/');
+      await page.waitForLoadState('networkidle');
+
+      const menuToggle = page.locator('#mobile-menu-toggle');
+      const mobileMenu = page.locator('#mobile-menu');
+      await expect(menuToggle).toHaveAttribute('aria-expanded', 'false');
+
+      await menuToggle.focus();
+      await page.keyboard.press('Enter');
+      await expect(mobileMenu).toBeVisible();
+      await expect(menuToggle).toHaveAttribute('aria-expanded', 'true');
+      await expect(mobileMenu.locator('a').first()).toBeFocused();
+
+      // Focus stays on the toggle or inside the menu, in both directions
+      for (const key of [...Array(30).fill('Tab'), ...Array(5).fill('Shift+Tab')]) {
+        await page.keyboard.press(key);
+        const contained = await page.evaluate(() => {
+          const active = document.activeElement;
+          return (
+            active === document.getElementById('mobile-menu-toggle') ||
+            !!document.getElementById('mobile-menu')?.contains(active)
+          );
+        });
+        expect(contained, `focus after ${key}`).toBe(true);
+      }
+
+      await page.keyboard.press('Escape');
+      await expect(mobileMenu).toBeHidden();
+      await expect(menuToggle).toHaveAttribute('aria-expanded', 'false');
+      await expect(menuToggle).toBeFocused();
+    });
   });
 
   test.describe('Footer Navigation', () => {
