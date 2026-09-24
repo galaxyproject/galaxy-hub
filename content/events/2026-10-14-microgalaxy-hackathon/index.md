@@ -1,6 +1,12 @@
 ---
 title: "microGalaxy Hackathon for Tool Development"
-date: '2026-09-22'
+date: '2026-10-14'
+days: 1
+continent: GL
+location:
+  name: Online
+gtn: false
+contact: Paul Zierep
 tease: "Join the microGalaxy community on October 14th to update outdated metagenomics tools in the IUC repository!"
 hide_tease: false
 tags:
@@ -12,18 +18,16 @@ tags:
 subsites: [all-eu, global, eu, all]
 main_subsite: eu
 contributions:
-  authorship:
+  organisers:
     - paulzierep
     - bebatut
   funding:
     - elixir-europe
     - deNBI
     - ifb
-organizers:
-  - paulzierep
 ---
 
-Now that our [microGalaxy community](https://galaxyproject.org/community/sig/microgalaxy/) paper is accepted, we can focus more on tool maintenance! As discussed in our last meeting, many — also highly used — microGalaxy tools are outdated, as tracked in this [IUC issue](https://github.com/galaxyproject/tools-iuc/issues/8301).
+Now that our [microGalaxy community](https://www.biorxiv.org/content/10.1101/2024.12.23.629682v3) paper is accepted, we can focus more on tool maintenance! As discussed in our last meeting, many — also highly used — microGalaxy tools are outdated, as tracked in this [IUC issue](https://github.com/galaxyproject/tools-iuc/issues/8301).
 
 We therefore plan a **hackathon for tool development** to update those tools:
 
