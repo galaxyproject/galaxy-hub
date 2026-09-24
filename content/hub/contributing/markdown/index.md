@@ -58,7 +58,7 @@ Then use component tags in your content:
 
 <VegaEmbed spec="chart.json" />
 
-<Twitter user="galaxyproject" />
+<Twitter tweet="1595105516749225984" />
 
 <VideoPlayer src="./demo.mp4" />
 ```
@@ -69,7 +69,7 @@ Then use component tags in your content:
 |:--|:--|:--|
 | `Icon` | Lucide icon | `<Icon name="laptop" />` |
 | `VegaEmbed` | Vega-Lite chart | `<VegaEmbed spec="chart.json" />` |
-| `Twitter` | Tweet embed | `<Twitter user="galaxyproject" />` |
+| `Twitter` | Tweet embed | `<Twitter tweet="1595105516749225984" />` |
 | `Mastodon` | Mastodon embed | `<Mastodon url="..." />` |
 | `VideoPlayer` | Video player | `<VideoPlayer src="./video.mp4" />` |
 | `Carousel` | Image carousel | `<Carousel />` |
