@@ -49,7 +49,7 @@ const navbar = await getSubsiteNavbar(currentSubsite);
         <a href="/" class="block">
           <img src="/images/galaxy_logo_hub_white.svg" alt="Galaxy Community Hub" class="h-8 w-auto" />
         </a>
-        <MobileMenu client:load navbar={navbar} initialSubsite={currentSubsite} />
+        <MobileMenu client:load navbar={navbar} initialSubsite={currentSubsite} currentPath={Astro.url.pathname} />
       </header>
 
       <!-- Main content area -->
