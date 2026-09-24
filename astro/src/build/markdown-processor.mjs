@@ -85,7 +85,7 @@ function addTocPlugin(options = {}) {
   };
 }
 
-const BARE_URL_RE = /(?:https?:\/\/|www\.)[^\s<>]+/g;
+const BARE_URL_RE = /(?<![a-z])(?:https?:\/\/|www\.)[^\s<>]+/gi;
 
 /**
  * Stringify text as usual but leave bare URLs unescaped. This parser has no GFM,
