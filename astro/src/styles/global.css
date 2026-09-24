@@ -165,6 +165,7 @@ body {
 .prose {
   --tw-prose-links: #25537b;
   --tw-prose-headings: #2c3143;
+  overflow-wrap: break-word;
 }
 
 .prose h1,
