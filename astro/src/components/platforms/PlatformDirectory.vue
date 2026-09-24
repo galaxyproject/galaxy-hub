@@ -398,8 +398,9 @@ function getHostname(url: string): string {
 
         <!-- Scope Filter -->
         <div class="w-full md:w-48">
-          <label class="block text-sm font-medium text-chicago-700 mb-1">Type</label>
+          <label for="platform-filter-type" class="block text-sm font-medium text-chicago-700 mb-1">Type</label>
           <select
+            id="platform-filter-type"
             v-model="selectedScope"
             class="w-full h-10 rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
           >
@@ -411,8 +412,9 @@ function getHostname(url: string): string {
 
         <!-- Location Filter -->
         <div class="w-full md:w-48">
-          <label class="block text-sm font-medium text-chicago-700 mb-1">Location</label>
+          <label for="platform-filter-location" class="block text-sm font-medium text-chicago-700 mb-1">Location</label>
           <select
+            id="platform-filter-location"
             v-model="selectedLocation"
             class="w-full h-10 rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
           >
@@ -424,8 +426,9 @@ function getHostname(url: string): string {
 
         <!-- Platform Group Filter -->
         <div class="w-full md:w-48">
-          <label class="block text-sm font-medium text-chicago-700 mb-1">Platform</label>
+          <label for="platform-filter-platform" class="block text-sm font-medium text-chicago-700 mb-1">Platform</label>
           <select
+            id="platform-filter-platform"
             v-model="selectedPlatformGroup"
             class="w-full h-10 rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
           >
