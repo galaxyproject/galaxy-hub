@@ -255,7 +255,8 @@ function headingLevels(lines) {
 }
 
 /**
- * Remove the first heading outside fenced code whose text is `text`.
+ * Remove the first heading outside fenced code whose text is `text`, and a
+ * thematic break that directly follows it as a title underline.
  */
 function removeHeading(content, text) {
   const lines = content.split('\n');
@@ -265,7 +266,11 @@ function removeHeading(content, text) {
     const heading = !inFence && line.match(ATX_HEADING_RE);
     return heading && headingText(heading[2]) === text;
   });
-  if (index !== -1) lines.splice(index, 1);
+  if (index === -1) return content;
+  let next = index + 1;
+  while (next < lines.length && lines[next].trim() === '') next++;
+  const end = THEMATIC_BREAK_RE.test(lines[next] ?? '') ? next + 1 : index + 1;
+  lines.splice(index, end - index);
   return lines.join('\n');
 }
 

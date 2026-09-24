@@ -365,10 +365,11 @@ describe('processMarkdownFile title fallback', () => {
   it('moves the leading heading of an untitled article into its title', async () => {
     const { data, content } = await processFixture(
       'title-test/index.md',
-      '# Page Title\n\nIntro\n\n## Section A\n\nText\n'
+      '# Page Title\n\n* * *\n\nIntro\n\n## Section A\n\n* * *\n\nText\n'
     );
     expect(data.title).toBe('Page Title');
     expect(content).not.toContain('Page Title');
+    expect(content.trim()).toMatch(/^Intro/);
     expect(content).toContain('## Section A');
     expect(content).toContain('Text');
   });
