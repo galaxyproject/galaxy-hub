@@ -301,7 +301,7 @@ The [2013 Galaxy Day event](http://wiki.sb-roscoff.fr/ifb/index.php/Accueil) too
     <th> March 24-25 </th>
     <td> <em><a href='https://wiki.galaxyproject.org/Events/GAW2014'>Galaxy Australasia Workshop</a></em> </td>
     <td> <a href='http://www.synchrotron.org.au/'>Australian Synchrotron</a> and <a href='http://mcec.com.au/'>Melbourne Convention Centre</a>, Melbourne, Australia </td>
-    <td> <a href='http://australianbioinformatics.net/gaw-2014#'>Registration</a> </td>
+    <td> <a href='https://web.archive.org/web/20140126051202/http://australianbioinformatics.net/gaw-2014/'>Registration</a> </td>
   </tr>
   <tr>
     <th> March 26-30 </th>
