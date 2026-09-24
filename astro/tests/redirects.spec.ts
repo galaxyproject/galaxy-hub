@@ -11,4 +11,11 @@ test.describe('External URL redirects', () => {
       'https://training.galaxyproject.org/training-material/news/2024/12/19/community_page.html'
     );
   });
+
+  test('page with external redirect frontmatter redirects to target', async ({ page }) => {
+    const response = await page.goto('/admin/training/', { waitUntil: 'commit' });
+    expect(response?.status()).toBe(200);
+
+    await expect(page).toHaveURL('https://training.galaxyproject.org/training-material/topics/admin/');
+  });
 });
