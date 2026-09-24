@@ -32,7 +32,9 @@ import LatestEventsCard from '@/components/bare/LatestEventsCard.astro';
     </style>
   </head>
   <body>
-    <LatestEventsCard subsite="eu" />
+    <main>
+      <LatestEventsCard subsite="eu" />
+    </main>
     <script>
       import { notifyParent } from '@/utils/iframe';
       notifyParent();
