@@ -142,9 +142,17 @@ function filteredItems(section: NavSection) {
       <div class="flex flex-col flex-1 min-h-0 overflow-y-auto">
         <!-- Region Switcher -->
         <div class="px-4 py-4 border-b border-medium-bg">
-          <label class="text-xs font-medium text-chicago-400 uppercase tracking-wider mb-2 block"> Region </label>
+          <label
+            id="mobile-region-switcher-label"
+            class="text-xs font-medium text-chicago-400 uppercase tracking-wider mb-2 block"
+          >
+            Region
+          </label>
           <Select :model-value="effectiveSubsite" @update:model-value="handleSubsiteChange">
-            <SelectTrigger class="w-full bg-medium-bg border-0 text-white">
+            <SelectTrigger
+              class="w-full bg-medium-bg border-0 text-white"
+              aria-labelledby="mobile-region-switcher-label"
+            >
               <SelectValue placeholder="Select region" />
             </SelectTrigger>
             <SelectContent class="bg-galaxy-dark border-medium-bg">
