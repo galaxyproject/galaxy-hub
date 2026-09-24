@@ -49,9 +49,73 @@ describe('rehypeScrollableTables', () => {
     expect(tree.children[0].value).toBe('<table><tr><td>a</td></tr>');
   });
 
+  it('leaves raw tables alone when there is a stray closing tag', () => {
+    const value = '</table><table><tr><td>a</td></tr></table>';
+    const tree = run(root({ type: 'raw', value }));
+
+    expect(tree.children[0].value).toBe(value);
+  });
+
   it('does not wrap a table twice', () => {
     const tree = run(run(root(table())));
 
     expect(tree.children[0].children[0].tagName).toBe('table');
+  });
+
+  it('wraps only the outer table when tables are nested', () => {
+    const outer = { ...table(), children: [{ type: 'element', tagName: 'tr', properties: {}, children: [table()] }] };
+    const tree = run(root(outer));
+
+    expect(tree.children[0].properties.ariaLabel).toBe('Table');
+    expect(tree.children[0].children[0].children[0].children[0].tagName).toBe('table');
+  });
+
+  it('wraps only the outer raw table when tables are nested', () => {
+    const tree = run(
+      root({ type: 'raw', value: '<table><tr><td><table><tr><td>a</td></tr></table></td></tr></table>' })
+    );
+
+    expect(tree.children[0].value).toBe(
+      '<div class="table-wrapper" role="region" tabindex="0" aria-label="Table"><table><tr><td><table><tr><td>a</td></tr></table></td></tr></table></div>'
+    );
+  });
+
+  it('does not open a region for a table the parser would move out of its parent', () => {
+    // A cell closed before a nested <table> (as on /events/gcc2013/program/): the
+    // nested table is still at depth 1 in the source, so it gets no wrapper of its own.
+    const value = '<table class="table"><tr><td>Day 2</td>\n<table><tr><td>Talk</td></tr></table>\n</tr></table>';
+    const tree = run(root({ type: 'raw', value }));
+
+    expect(tree.children[0].value.match(/class="table-wrapper"/g)).toHaveLength(1);
+    expect(tree.children[0].value.startsWith('<div class="table-wrapper"')).toBe(true);
+    expect(tree.children[0].value.endsWith('</table></div>')).toBe(true);
+  });
+
+  it('ignores tables inside HTML comments', () => {
+    const tree = run(
+      root(
+        { type: 'raw', value: '<!-- <table><tr><td>old</td></tr></table> -->' },
+        { type: 'raw', value: '<!--\n<table>' },
+        { type: 'raw', value: '-->' },
+        { type: 'raw', value: '<table><tr><td>a</td></tr></table>' }
+      )
+    );
+
+    expect(tree.children[0].value).toBe('<!-- <table><tr><td>old</td></tr></table> -->');
+    expect(tree.children[1].value).toBe('<!--\n<table>');
+    expect(tree.children[3].value).toBe(
+      '<div class="table-wrapper" role="region" tabindex="0" aria-label="Table"><table><tr><td>a</td></tr></table></div>'
+    );
+  });
+
+  it('does not wrap element tables inside a raw table', () => {
+    const tree = run(
+      root({ type: 'raw', value: '<table><tr><td>' }, table(), { type: 'raw', value: '</td></tr></table>' })
+    );
+
+    expect(tree.children[1].tagName).toBe('table');
+    expect(tree.children[0].value).toBe(
+      '<div class="table-wrapper" role="region" tabindex="0" aria-label="Table"><table><tr><td>'
+    );
   });
 });
