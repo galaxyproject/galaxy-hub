@@ -122,7 +122,7 @@ components: true
 
 Check out this tool: <Icon name="laptop" />
 
-<Twitter user="galaxyproject" />
+<Twitter tweet="1595105516749225984" />
 
 <VegaEmbed spec="chart.json" />
 ```
