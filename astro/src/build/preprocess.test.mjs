@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeEach, afterEach } from 'vitest';
+import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest';
 import fs from 'fs';
 import os from 'os';
 import path from 'path';
@@ -537,6 +537,18 @@ describe('processBatch', () => {
     const { results, errors } = await processBatch([1, 2, 3], async (n) => (n === 2 ? null : { n }));
     expect(results).toEqual([{ n: 1 }, { n: 3 }]);
     expect(errors).toBe(0);
+  });
+
+  it('counts items that fail', async () => {
+    const consoleError = vi.spyOn(console, 'error').mockImplementation(() => {});
+    const { results, errors } = await processBatch([1, 2], async (n) => {
+      if (n === 2) throw new Error('boom');
+      return { n };
+    });
+    expect(results).toEqual([{ n: 1 }]);
+    expect(errors).toBe(1);
+    expect(consoleError).toHaveBeenCalledWith(expect.stringContaining('2'), 'boom');
+    consoleError.mockRestore();
   });
 });
 
