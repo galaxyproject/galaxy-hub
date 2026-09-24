@@ -30,10 +30,10 @@ export function getEventEndFromDays(
   days: number | undefined | null
 ): Date | undefined {
   const startDate = toDate(start);
-  if (!startDate || isNaN(startDate.getTime()) || !days || days <= 1) return undefined;
+  if (!startDate || isNaN(startDate.getTime()) || !days || !Number.isInteger(days) || days <= 1) return undefined;
   const end = new Date(startDate);
   end.setUTCDate(end.getUTCDate() + days - 1);
-  return end;
+  return isNaN(end.getTime()) ? undefined : end;
 }
 
 /**

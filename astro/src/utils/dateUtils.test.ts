@@ -20,4 +20,10 @@ describe('getEventEndFromDays', () => {
     expect(getEventEndFromDays(undefined, 3)).toBeUndefined();
     expect(getEventEndFromDays('not a date', 3)).toBeUndefined();
   });
+
+  it('returns undefined for non-integer and out-of-range lengths', () => {
+    expect(getEventEndFromDays('2026-10-12', 2.5)).toBeUndefined();
+    expect(getEventEndFromDays('2026-10-12', Number.NaN)).toBeUndefined();
+    expect(getEventEndFromDays('2026-10-12', 1e9)).toBeUndefined();
+  });
 });
