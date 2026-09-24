@@ -285,6 +285,35 @@ describe('shiftHeadings', () => {
     const content = '# A\n\n# B\n\n~~~\n# code comment\n~~~\n\n## Real';
     expect(shiftHeadings(content)).toBe('## A\n\n## B\n\n~~~\n# code comment\n~~~\n\n### Real');
   });
+
+  it('does not count comment lines in fenced code as h1s', () => {
+    const backticks = '# Title\n\n```bash\n# comment\n```\n\n## Section';
+    expect(shiftHeadings(backticks)).toBe(backticks);
+    const tildes = '# Title\n\n~~~\n# comment\n~~~\n\n## Section';
+    expect(shiftHeadings(tildes)).toBe(tildes);
+  });
+
+  it('closes a fence only with the same marker at least as long', () => {
+    const mixed = '# Title\n\n~~~\n```\n# comment\n~~~\n\n## Section';
+    expect(shiftHeadings(mixed)).toBe(mixed);
+    const longer = '# Title\n\n````md\n```\n# comment\n```\n````\n\n## Section';
+    expect(shiftHeadings(longer)).toBe(longer);
+  });
+
+  it('does not treat inline triple-backtick code as a fence', () => {
+    const content = '# A\n\n```sh run.sh -w repos```\n\n# B\n\n```\n# comment\n```\n\n# C';
+    expect(shiftHeadings(content)).toBe('## A\n\n```sh run.sh -w repos```\n\n## B\n\n```\n# comment\n```\n\n## C');
+  });
+
+  it('treats fences indented up to three spaces as fences', () => {
+    const content = '# Title\n\n   ```\n# comment\n   ```\n\n## Section';
+    expect(shiftHeadings(content)).toBe(content);
+  });
+
+  it('does not count comment lines in indented code as h1s', () => {
+    const content = '# Title\n\n    # comment\n\n## Section';
+    expect(shiftHeadings(content)).toBe(content);
+  });
 });
 
 describe('generateTease', () => {
