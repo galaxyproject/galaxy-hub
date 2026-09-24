@@ -23,6 +23,27 @@ test.describe('Accessibility', () => {
         expect(focusedInMain).toBe(true);
       });
     }
+
+    test('keeps the page title clear of the fixed mobile header', async ({ page }) => {
+      await page.setViewportSize({ width: 390, height: 844 });
+      await page.goto('/community/');
+      await page.waitForLoadState('networkidle');
+      // Jump instantly so the positions measured below are final
+      await page.evaluate(() => (document.documentElement.style.scrollBehavior = 'auto'));
+
+      await page.keyboard.press('Tab');
+      await page.keyboard.press('Enter');
+      await expect(page.locator('#main-content')).toBeFocused();
+
+      const bottomOfHeader = await page
+        .locator('.site-mobile-header')
+        .evaluate((el) => el.getBoundingClientRect().bottom);
+      const topOfTitle = await page
+        .locator('h1')
+        .first()
+        .evaluate((el) => el.getBoundingClientRect().top);
+      expect(topOfTitle).toBeGreaterThanOrEqual(bottomOfHeader);
+    });
   });
 
   test.describe('Landmarks', () => {
@@ -132,6 +153,9 @@ test.describe('Accessibility', () => {
       await expect(page.getByRole('combobox', { name: 'Type' })).toBeVisible();
       await expect(page.getByRole('combobox', { name: 'Location' })).toBeVisible();
       await expect(page.getByRole('combobox', { name: 'Platform' })).toBeVisible();
+
+      await page.goto('/search/?q=galaxy');
+      await expect(page.getByRole('combobox', { name: 'Content type' })).toBeVisible();
     });
   });
 });
