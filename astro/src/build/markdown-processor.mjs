@@ -85,6 +85,29 @@ function addTocPlugin(options = {}) {
   };
 }
 
+const BARE_URL_RE = /(?:https?:\/\/|www\.)[^\s<>]+/g;
+
+/**
+ * Stringify text as usual but leave bare URLs unescaped. This parser has no GFM,
+ * so bare URLs are plain text here; Astro's GFM autolinker later takes them
+ * character for character, and an escape like `\_` would end up in the href.
+ */
+function textKeepingBareUrls(node, parent, state, info) {
+  const { value } = node;
+  if (parent?.type === 'link') return state.safe(value, info);
+
+  let result = '';
+  let start = 0;
+  for (const match of value.matchAll(BARE_URL_RE)) {
+    const before = start ? value[start - 1] : info.before;
+    result += state.safe(value.slice(start, match.index), { ...info, before, after: match[0][0] });
+    result += match[0];
+    start = match.index + match[0].length;
+  }
+  const before = start ? value[start - 1] : info.before;
+  return result + state.safe(value.slice(start), { ...info, before });
+}
+
 /**
  * Process markdown content with all transformations
  */
@@ -113,6 +136,7 @@ export async function processMarkdown(content, options = {}) {
     rule: '-',
     listItemIndent: 'one',
     resourceLink: true, // Prevent auto-link conversion for [url](url) patterns
+    handlers: { text: textKeepingBareUrls },
   });
 
   const result = await processor.process(content);
