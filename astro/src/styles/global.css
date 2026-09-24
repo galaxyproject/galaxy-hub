@@ -262,6 +262,32 @@ body {
   border-collapse: collapse;
 }
 
+/* Wide tables scroll inside the wrapper added by rehype-scrollable-tables. The wrapper
+   takes over the table's margins (Typography's 2em of the table's smaller font size, or
+   Bootstrap's 1rem bottom) and sits in a lower layer so Typography's adjacency rules
+   (h2 + *, first child) still zero it. */
+@layer components {
+  .prose :where(.table-wrapper) {
+    overflow-x: auto;
+    margin-top: 1.75em;
+    margin-bottom: 1.75em;
+  }
+
+  .prose-lg :where(.table-wrapper) {
+    margin-top: 1.7777778em;
+    margin-bottom: 1.7777778em;
+  }
+
+  .prose :where(.table-wrapper:has(> .bs-compat.table)) {
+    margin-bottom: 1rem;
+  }
+}
+
+.prose .table-wrapper > table {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .prose th,
 .prose td {
   border: 1px solid #e5e7eb;
