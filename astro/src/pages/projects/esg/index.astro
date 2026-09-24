@@ -4,6 +4,7 @@
  * EuroScienceGateway project page
  */
 import ESGLayout from '../../../layouts/ESGLayout.astro';
+import { isUpcomingEvent } from '../../../utils/dateUtils';
 import EsgInteractivePoster from '../../../components/EsgInteractivePoster.astro';
 import { getCollection } from 'astro:content';
 
@@ -31,12 +32,11 @@ const esgNews = allNews
 
 // Load ESG events (upcoming)
 const events = await getCollection('events');
-const now = new Date();
 // EU-tagged events are included here only because they are relevant to this project page.
 const esgEvents = events
   .filter((e) => {
     const subsites = e.data.subsites || [];
-    return (subsites.includes('esg') || subsites.includes('eu')) && new Date(e.data.date || 0) >= now;
+    return (subsites.includes('esg') || subsites.includes('eu')) && isUpcomingEvent(e.data.date, e.data.end);
   })
   .sort((a, b) => {
     const dateA = new Date(a.data.date || 0);
