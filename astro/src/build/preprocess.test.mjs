@@ -2,6 +2,7 @@ import { describe, it, expect, beforeEach, afterEach } from 'vitest';
 import fs from 'fs';
 import os from 'os';
 import path from 'path';
+import matter from 'gray-matter';
 import {
   addBootstrapMarker,
   deriveNewsNaturalSlug,
@@ -441,6 +442,42 @@ describe('processMarkdownFile publish date', () => {
     const filePath = writeFixture('events/2999-01-01-future/index.md', '2999-01-01');
     expect((await processFixture(filePath)).collection).toBe('events');
     expect(isWritten(filePath)).toBe(true);
+  });
+});
+
+describe('processMarkdownFile body', () => {
+  let tmpDir;
+  let contentDir;
+  let outputDir;
+
+  const processed = async (relPath, raw) => {
+    const filePath = path.join(contentDir, relPath);
+    fs.mkdirSync(path.dirname(filePath), { recursive: true });
+    fs.writeFileSync(filePath, raw);
+    await processMarkdownFile(filePath, { contentDir, outputDir });
+    const dest = destPathsForMarkdown(filePath, contentDir, outputDir).find((p) => fs.existsSync(p));
+    return matter(fs.readFileSync(dest, 'utf-8'));
+  };
+
+  beforeEach(() => {
+    insertCache.clear();
+    tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'preprocess-body-test-'));
+    contentDir = path.join(tmpDir, 'content');
+    outputDir = path.join(tmpDir, 'out');
+  });
+
+  afterEach(() => {
+    fs.rmSync(tmpDir, { recursive: true, force: true });
+  });
+
+  it('keeps a body that starts with a thematic break', async () => {
+    const single = await processed('rule-test/index.md', '---\ntitle: Rule\n---\n* * *\n\nText\n');
+    expect(single.data).toEqual(expect.objectContaining({ title: 'Rule', slug: 'rule-test' }));
+    expect(single.content).toContain('Text');
+
+    const repeated = await processed('rules-test/index.md', '---\ntitle: Rules\n---\n* * *\n\nText\n\n* * *\n\nMore\n');
+    expect(repeated.data.title).toBe('Rules');
+    expect(repeated.content).toContain('More');
   });
 });
 
