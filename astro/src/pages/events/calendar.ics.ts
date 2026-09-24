@@ -65,8 +65,8 @@ export async function GET(context: APIContext) {
     const startDate = event.data.date instanceof Date ? event.data.date : new Date(event.data.date || 0);
     const endDate = event.data.end instanceof Date ? event.data.end : event.data.end ? new Date(event.data.end) : null;
 
-    // Use end date or default to same day
-    const effectiveEnd = endDate || new Date(startDate.getTime() + 24 * 60 * 60 * 1000);
+    // DTEND is exclusive: the day after the last day (the start date for one-day events)
+    const effectiveEnd = new Date((endDate || startDate).getTime() + 24 * 60 * 60 * 1000);
 
     let location = '';
     if (event.data.location) {
