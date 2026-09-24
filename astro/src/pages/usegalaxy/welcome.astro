@@ -86,6 +86,15 @@ const carouselSlides = [
                 </div>
               ))
             }
+            <button
+              id="carousel-toggle"
+              type="button"
+              aria-label="Pause slide show"
+              class="absolute top-2 right-2 z-10 bg-black/40 hover:bg-black/60 text-white rounded-full w-7 h-7 flex items-center justify-center transition-colors cursor-pointer border-0"
+            >
+              <span class="carousel-icon-pause"><Icon name="pause" size={14} /></span>
+              <span class="carousel-icon-play hidden"><Icon name="play" size={14} /></span>
+            </button>
             <div class="absolute inset-y-0 left-0 flex items-center pl-2">
               <button
                 id="prev-btn"
@@ -372,8 +381,10 @@ const carouselSlides = [
         const indicators = /** @type {NodeListOf<HTMLElement>} */ (document.querySelectorAll('.carousel-indicator'));
         const prevBtn = document.getElementById('prev-btn');
         const nextBtn = document.getElementById('next-btn');
+        const toggleBtn = document.getElementById('carousel-toggle');
 
         let currentSlide = 0;
+        let playing = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
         function showSlide(index: number) {
           if (index >= slides.length) index = 0;
@@ -404,7 +415,10 @@ const carouselSlides = [
         }
 
         function startAutoPlay() {
-          welcomeCarouselInterval = setInterval(nextSlide, 3000);
+          stopAutoPlay();
+          if (playing) {
+            welcomeCarouselInterval = setInterval(nextSlide, 3000);
+          }
         }
 
         function stopAutoPlay() {
@@ -413,6 +427,18 @@ const carouselSlides = [
             welcomeCarouselInterval = undefined;
           }
         }
+
+        function updateToggle() {
+          toggleBtn?.setAttribute('aria-label', playing ? 'Pause slide show' : 'Play slide show');
+          toggleBtn?.querySelector('.carousel-icon-pause')?.classList.toggle('hidden', !playing);
+          toggleBtn?.querySelector('.carousel-icon-play')?.classList.toggle('hidden', playing);
+        }
+
+        toggleBtn?.addEventListener('click', () => {
+          playing = !playing;
+          updateToggle();
+          startAutoPlay();
+        });
 
         nextBtn?.addEventListener('click', () => {
           stopAutoPlay();
@@ -437,6 +463,7 @@ const carouselSlides = [
         carousel.addEventListener('mouseenter', stopAutoPlay);
         carousel.addEventListener('mouseleave', startAutoPlay);
 
+        updateToggle();
         startAutoPlay();
       }
 
