@@ -152,19 +152,21 @@ function goTo(index: number) {
             <path d="M8 5v14l11-7z" />
           </svg>
         </button>
-        <a v-if="normalizedImages[currentIndex].link" :href="normalizedImages[currentIndex].link" target="_blank">
+        <div class="w-full h-full" :aria-live="isPlaying ? 'off' : 'polite'">
+          <a v-if="normalizedImages[currentIndex].link" :href="normalizedImages[currentIndex].link" target="_blank">
+            <img
+              :src="normalizedImages[currentIndex].src"
+              :alt="normalizedImages[currentIndex].alt || ''"
+              class="w-full h-full object-contain"
+            />
+          </a>
           <img
+            v-else
             :src="normalizedImages[currentIndex].src"
             :alt="normalizedImages[currentIndex].alt || ''"
             class="w-full h-full object-contain"
           />
-        </a>
-        <img
-          v-else
-          :src="normalizedImages[currentIndex].src"
-          :alt="normalizedImages[currentIndex].alt || ''"
-          class="w-full h-full object-contain"
-        />
+        </div>
 
         <!-- Navigation arrows -->
         <template v-if="canNavigate">

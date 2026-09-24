@@ -83,18 +83,20 @@ const carouselSlides = [
               <span class="carousel-icon-pause"><Icon name="pause" size={14} /></span>
               <span class="carousel-icon-play hidden"><Icon name="play" size={14} /></span>
             </button>
-            {
-              carouselSlides.map((slide, index) => (
-                <div
-                  class={`carousel-slide absolute inset-0 transition-opacity duration-500 ${index === 0 ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
-                  data-index={index}
-                >
-                  <a href={slide.href} target="_blank" class="block w-full h-full">
-                    <img src={slide.img} alt={slide.alt} class="w-full h-full object-cover" />
-                  </a>
-                </div>
-              ))
-            }
+            <div id="welcome-carousel-slides" class="absolute inset-0" aria-live="off">
+              {
+                carouselSlides.map((slide, index) => (
+                  <div
+                    class={`carousel-slide absolute inset-0 transition-opacity duration-500 ${index === 0 ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
+                    data-index={index}
+                  >
+                    <a href={slide.href} target="_blank" class="block w-full h-full">
+                      <img src={slide.img} alt={slide.alt} class="w-full h-full object-cover" />
+                    </a>
+                  </div>
+                ))
+              }
+            </div>
             <div class="absolute inset-y-0 left-0 flex items-center pl-2">
               <button
                 id="prev-btn"
@@ -382,6 +384,7 @@ const carouselSlides = [
         const prevBtn = document.getElementById('prev-btn');
         const nextBtn = document.getElementById('next-btn');
         const toggleBtn = document.getElementById('carousel-toggle');
+        const slidesRegion = document.getElementById('welcome-carousel-slides');
 
         let currentSlide = 0;
         let playing = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -432,6 +435,7 @@ const carouselSlides = [
           toggleBtn?.setAttribute('aria-label', playing ? 'Pause slide show' : 'Play slide show');
           toggleBtn?.querySelector('.carousel-icon-pause')?.classList.toggle('hidden', !playing);
           toggleBtn?.querySelector('.carousel-icon-play')?.classList.toggle('hidden', playing);
+          slidesRegion?.setAttribute('aria-live', playing ? 'off' : 'polite');
         }
 
         toggleBtn?.addEventListener('click', () => {
