@@ -215,8 +215,16 @@ test.describe('Navigation', () => {
       await expect(menuToggle).toHaveAttribute('aria-expanded', 'true');
       await expect(mobileMenu.locator('a').first()).toBeFocused();
 
-      // Focus stays on the toggle or inside the menu, in both directions
-      for (const key of [...Array(30).fill('Tab'), ...Array(5).fill('Shift+Tab')]) {
+      // Shift+Tab wraps from the toggle to the last link, Tab wraps back
+      await page.keyboard.press('Shift+Tab');
+      await expect(menuToggle).toBeFocused();
+      await page.keyboard.press('Shift+Tab');
+      await expect(mobileMenu.locator('a').last()).toBeFocused();
+      await page.keyboard.press('Tab');
+      await expect(menuToggle).toBeFocused();
+
+      // Focus stays on the toggle or inside the menu
+      for (const key of [...Array(30).fill('Tab'), ...Array(20).fill('Shift+Tab')]) {
         await page.keyboard.press(key);
         const contained = await page.evaluate(() => {
           const active = document.activeElement;
@@ -232,6 +240,31 @@ test.describe('Navigation', () => {
       await expect(mobileMenu).toBeHidden();
       await expect(menuToggle).toHaveAttribute('aria-expanded', 'false');
       await expect(menuToggle).toBeFocused();
+    });
+
+    test('homepage mobile menu does not trap focus after widening the window', async ({ page }) => {
+      await page.goto('/');
+      await page.waitForLoadState('networkidle');
+
+      const mobileMenu = page.locator('#mobile-menu');
+      await page.locator('#mobile-menu-toggle').focus();
+      await page.keyboard.press('Enter');
+      await mobileMenu.locator('a').last().focus();
+
+      await page.setViewportSize({ width: 1280, height: 800 });
+      await expect(mobileMenu).toBeHidden();
+      await expect(mobileMenu.locator('a').last()).not.toBeFocused();
+
+      await page.keyboard.press('Tab');
+      const focus = await page.evaluate(() => {
+        const active = document.activeElement;
+        const menu = document.getElementById('mobile-menu');
+        return {
+          movedOn: !!active && active !== document.body && !menu?.contains(active),
+          visible: !!active?.checkVisibility(),
+        };
+      });
+      expect(focus).toEqual({ movedOn: true, visible: true });
     });
   });
 
