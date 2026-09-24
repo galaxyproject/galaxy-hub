@@ -37,6 +37,23 @@ export function getEventEndFromDays(
 }
 
 /**
+ * Check if an event has not finished yet: its last day (`end`, or `start` without one) is today
+ * or later. Compares calendar days, so an event stays upcoming until its last day is over.
+ */
+export function isUpcomingEvent(
+  start: Date | string | undefined | null,
+  end?: Date | string | undefined | null,
+  now: Date = new Date()
+): boolean {
+  const lastDay = toDate(end) || toDate(start);
+  if (!lastDay || isNaN(lastDay.getTime())) return false;
+  // Event dates are calendar dates stored as UTC midnight; `now` is the viewer's local day
+  const last = Date.UTC(lastDay.getUTCFullYear(), lastDay.getUTCMonth(), lastDay.getUTCDate());
+  const today = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
+  return last >= today;
+}
+
+/**
  * UTC date component helpers — use these instead of getFullYear()/getMonth()/getDate()
  * to avoid hydration mismatches between server (UTC) and client (local timezone).
  */
