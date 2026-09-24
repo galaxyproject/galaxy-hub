@@ -178,7 +178,7 @@ function filteredItems(section: NavSection) {
         </div>
 
         <!-- Navigation -->
-        <nav class="flex-1 p-4 space-y-2">
+        <nav class="flex-1 p-4 space-y-2" aria-label="Main">
           <div class="space-y-1">
             <a
               v-for="link in topLinks"
