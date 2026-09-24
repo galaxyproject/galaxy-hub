@@ -41,7 +41,7 @@ const { title, description = 'Galaxy Community Hub - Open source platform for da
     <!-- Masthead - always visible, transparent over hero -->
     <header id="masthead" class="masthead">
       <div class="masthead-inner">
-        <a href="/" class="masthead-logo">
+        <a href="/" class="masthead-logo" aria-current={Astro.url.pathname === '/' ? 'page' : undefined}>
           <img src="/images/galaxy_logo_hub_white.svg" alt="Galaxy" class="h-8" />
         </a>
 

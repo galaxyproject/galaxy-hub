@@ -7,6 +7,7 @@ import { ChevronDown } from '@lucide/vue';
 import SubsiteSwitcher from './SubsiteSwitcher.vue';
 import {
   getDefaultSidebarNavigation,
+  isCurrentPage,
   navbarToSidebarNavigation,
   type NavbarData,
   type SidebarNavigation,
@@ -28,6 +29,7 @@ const subsite = useStore(currentSubsite);
 const props = defineProps<{
   navbar?: NavbarData | null;
   initialSubsite?: SubsiteId;
+  currentPath?: string;
 }>();
 
 const hasMounted = ref(false);
@@ -86,6 +88,7 @@ function isOpen(title: string): boolean {
         v-for="link in topLinks"
         :key="link.href"
         :href="link.href"
+        :aria-current="isCurrentPage(link.href, currentPath) ? 'page' : undefined"
         class="flex items-center px-3 py-2 text-sm font-medium text-chicago-300 hover:bg-medium-bg hover:text-white rounded-md transition-colors"
       >
         {{ link.label }}
@@ -109,6 +112,7 @@ function isOpen(title: string): boolean {
             v-for="item in section.items"
             :key="item.href"
             :href="item.href"
+            :aria-current="isCurrentPage(item.href, currentPath) ? 'page' : undefined"
             :target="item.external ? '_blank' : undefined"
             :rel="item.external ? 'noopener noreferrer' : undefined"
             class="flex items-center px-3 py-1.5 text-sm text-chicago-400 hover:bg-medium-bg hover:text-white rounded-md transition-colors"
@@ -145,6 +149,7 @@ function isOpen(title: string): boolean {
         v-for="link in bottomLinks"
         :key="link.href"
         :href="link.href"
+        :aria-current="isCurrentPage(link.href, currentPath) ? 'page' : undefined"
         :target="link.external ? '_blank' : undefined"
         :rel="link.external ? 'noopener noreferrer' : undefined"
         class="flex items-center px-3 py-2 text-sm text-chicago-400 hover:bg-medium-bg hover:text-white rounded-md transition-colors"
