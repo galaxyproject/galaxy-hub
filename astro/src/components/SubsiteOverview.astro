@@ -1,7 +1,7 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import PageHeader from './layout/PageHeader.astro';
-import { formatDate } from '../utils/dateUtils';
+import { formatDate, formatDateRange } from '../utils/dateUtils';
 
 interface Props {
   subsite: string;
@@ -45,7 +45,9 @@ const { subsite, title, description, upcomingEvents, subsiteNews, hasMainContent
             <span
               class="absolute left-0 top-0 bottom-0 w-1 bg-galaxy-gold transform origin-left scale-y-0 group-hover:scale-y-100 transition-transform duration-200"
             />
-            <div class="text-xs text-galaxy-primary font-medium mb-1">{formatDate(event.data.date)}</div>
+            <div class="text-xs text-galaxy-primary font-medium mb-1">
+              {formatDateRange(event.data.date, event.data.end)}
+            </div>
             <h3 class="font-medium text-galaxy-dark group-hover:text-galaxy-primary transition-colors line-clamp-2">
               {event.data.title}
             </h3>
