@@ -21,4 +21,14 @@ describe('processMarkdown', () => {
     const source = '[https://example.org/a\\_b](https://example.org/a_b)\n';
     expect(await processMarkdown(source)).toBe(source);
   });
+
+  it('leaves emphasis inside link labels to the default escaping', async () => {
+    const source = '[*https://example.org/\\_a\\_/*](https://example.org/)\n';
+    expect(await processMarkdown(source)).toBe(source);
+  });
+
+  it('leaves reference link labels to the default escaping', async () => {
+    const source = '[https://example.org/a\\_b][ref]\n\n[ref]: https://example.org/a_b\n';
+    expect(await processMarkdown(source)).toBe(source);
+  });
 });
