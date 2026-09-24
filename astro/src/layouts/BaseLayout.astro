@@ -54,7 +54,11 @@ const navbar = await getSubsiteNavbar(currentSubsite);
 
       <!-- Main content area -->
       <div class="site-main flex-1 flex flex-col min-h-screen lg:ml-64 pt-22 lg:pt-0 min-w-0 overflow-x-hidden">
-        <main id="main-content" tabindex="-1" class="site-content flex-1 p-4 sm:p-6 lg:p-8 bg-light-bg bg-grid">
+        <main
+          id="main-content"
+          tabindex="-1"
+          class="site-content flex-1 p-4 sm:p-6 lg:p-8 bg-light-bg bg-grid scroll-mt-22 lg:scroll-mt-0"
+        >
           <slot />
         </main>
 
