@@ -19,4 +19,22 @@ test.describe('ESG project page', () => {
     await expect(page.locator('h2#partners')).toHaveText('Project Partners');
     await expect(page.locator('#partners + div a[href="https://vib.be/"]')).toBeVisible();
   });
+
+  test('/projects/esg/ loads the project link and partner logos', async ({ page }) => {
+    await page.goto('/projects/esg/');
+
+    for (const [selector, count] of [
+      ['#projects + div img', 3],
+      ['#partners + div img', 19],
+    ] as const) {
+      const images = page.locator(selector);
+      await expect(images).toHaveCount(count);
+      await images.last().scrollIntoViewIfNeeded();
+      await expect
+        .poll(() =>
+          images.evaluateAll((imgs: HTMLImageElement[]) => imgs.every((i) => i.complete && i.naturalWidth > 0))
+        )
+        .toBe(true);
+    }
+  });
 });
