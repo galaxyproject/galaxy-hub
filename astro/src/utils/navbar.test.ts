@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 export { detectSubsiteFromPath } from '../stores/subsiteStore';
 import { detectSubsiteFromPath } from '../stores/subsiteStore';
-import { navbarToSidebarNavigation } from './navbar';
+import { isCurrentPage, navbarToSidebarNavigation } from './navbar';
 
 describe('navbar utilities', () => {
   it('detects a subsite from the pathname', () => {
@@ -60,5 +60,16 @@ describe('navbar utilities', () => {
     );
 
     expect(nav?.topLinks).toEqual([{ label: 'About', href: '/about/', external: false }]);
+  });
+
+  it('marks only the exact page as current', () => {
+    expect(isCurrentPage('/news/', '/news/')).toBe(true);
+    expect(isCurrentPage('/news/', '/news')).toBe(true);
+    expect(isCurrentPage('/eu/news/', '/eu/news/')).toBe(true);
+    expect(isCurrentPage('/news/', '/news/2024-01-01-post/')).toBe(false);
+    expect(isCurrentPage('/', '/news/')).toBe(false);
+    expect(isCurrentPage('https://help.galaxyproject.org/', '/')).toBe(false);
+    expect(isCurrentPage('/community/#sigs', '/community/')).toBe(false);
+    expect(isCurrentPage('/news/', undefined)).toBe(false);
   });
 });
