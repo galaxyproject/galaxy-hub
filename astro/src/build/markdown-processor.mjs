@@ -92,9 +92,9 @@ const BARE_URL_RE = /(?:https?:\/\/|www\.)[^\s<>]+/g;
  * so bare URLs are plain text here; Astro's GFM autolinker later takes them
  * character for character, and an escape like `\_` would end up in the href.
  */
-function textKeepingBareUrls(node, parent, state, info) {
+function textKeepingBareUrls(node, _, state, info) {
   const { value } = node;
-  if (parent?.type === 'link') return state.safe(value, info);
+  if (state.stack.includes('label')) return state.safe(value, info);
 
   let result = '';
   let start = 0;
