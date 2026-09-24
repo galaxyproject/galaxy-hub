@@ -151,7 +151,7 @@ The [Gallantries](https://gallantries.github.io/) project aims to increase bioin
 
 ### StreetScience Project
 
-In the [Street Science community](https://streetscience.community/), we want to make science tangible and accessible by bringing it to the street via open science workshops. These workshops are an excuse to meet, discuss, educate, and develop ideas in a neutral, open, noncompetitive, and not-for-profit environment.
+In the [Street Science community](https://web.archive.org/web/20221203021954/https://streetscience.community/), we want to make science tangible and accessible by bringing it to the street via open science workshops. These workshops are an excuse to meet, discuss, educate, and develop ideas in a neutral, open, noncompetitive, and not-for-profit environment.
 
 ### BioNT
 
