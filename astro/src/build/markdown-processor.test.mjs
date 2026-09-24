@@ -11,6 +11,16 @@ describe('processMarkdown', () => {
     expect(out).toContain('www.example.org/snake_case');
   });
 
+  it('matches bare URLs like the GFM autolinker', async () => {
+    expect(await processMarkdown('(see https://x.org/a_b). _https://x.org/c_d_\n')).toBe(
+      '(see https://x.org/a_b). *https://x.org/c_d*\n'
+    );
+    expect(await processMarkdown('HTTPS://x.org/a_b and Www.x.org/c_d\n')).toBe(
+      'HTTPS://x.org/a_b and Www.x.org/c_d\n'
+    );
+    expect(await processMarkdown('foohttps://x.org/a_b\n')).toBe('foohttps://x.org/a\\_b\n');
+  });
+
   it('still escapes text outside bare URLs', async () => {
     expect(await processMarkdown('A \\_literal\\_ word before https://example.org/a_b\n')).toBe(
       'A \\_literal\\_ word before https://example.org/a_b\n'
