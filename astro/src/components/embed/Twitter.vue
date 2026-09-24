@@ -1,25 +1,26 @@
 <script setup lang="ts">
-import { ref, onMounted } from 'vue';
+import { computed, ref, onMounted } from 'vue';
 
 const props = defineProps<{
   tweetUrl?: string;
   id?: string;
+  tweet?: string;
 }>();
 
 const container = ref<HTMLElement | null>(null);
 const loaded = ref(false);
 const error = ref(false);
 
+const tweetId = computed(() => props.id || props.tweet || props.tweetUrl?.match(/\/status(?:es)?\/(\d+)/)?.[1]);
+
+const href = computed(
+  () => props.tweetUrl || (tweetId.value ? `https://twitter.com/i/status/${tweetId.value}` : undefined)
+);
+
 onMounted(async () => {
   if (!container.value) return;
 
-  // Get tweet URL from props or construct from ID
-  let url = props.tweetUrl;
-  if (!url && props.id) {
-    url = `https://twitter.com/i/status/${props.id}`;
-  }
-
-  if (!url) {
+  if (!tweetId.value) {
     error.value = true;
     return;
   }
@@ -38,7 +39,7 @@ onMounted(async () => {
     }
 
     // Create tweet embed
-    await (window as any).twttr.widgets.createTweet(props.id || url.split('/').pop(), container.value, {
+    await (window as any).twttr.widgets.createTweet(tweetId.value, container.value, {
       theme: 'light',
       dnt: true,
     });
@@ -55,13 +56,7 @@ onMounted(async () => {
   <div class="twitter-embed my-4">
     <div v-if="error" class="p-4 bg-ebony-clay-50 rounded-lg text-center">
       <p class="text-chicago-600">Unable to load tweet</p>
-      <a
-        v-if="tweetUrl || id"
-        :href="tweetUrl || `https://twitter.com/i/status/${id}`"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="text-galaxy-primary hover:underline"
-      >
+      <a v-if="href" :href="href" target="_blank" rel="noopener noreferrer" class="text-galaxy-primary hover:underline">
         View on Twitter
       </a>
     </div>
