@@ -121,7 +121,13 @@ const { title, description = 'Galaxy Community Hub - Open source platform for da
           </form>
         </div>
 
-        <button id="mobile-menu-toggle" class="mobile-menu-toggle" aria-label="Toggle menu">
+        <button
+          id="mobile-menu-toggle"
+          class="mobile-menu-toggle"
+          aria-label="Toggle menu"
+          aria-controls="mobile-menu"
+          aria-expanded="false"
+        >
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
           </svg>
@@ -476,8 +482,39 @@ const { title, description = 'Galaxy Community Hub - Open source platform for da
         const mobileToggle = document.getElementById('mobile-menu-toggle');
         const mobileMenu = document.getElementById('mobile-menu');
 
+        function setMobileMenu(open: boolean) {
+          mobileMenu?.classList.toggle('hidden', !open);
+          mobileToggle?.setAttribute('aria-expanded', String(open));
+          if (open) {
+            mobileMenu?.querySelector<HTMLElement>('a[href]')?.focus();
+          }
+        }
+
         mobileToggle?.addEventListener('click', () => {
-          mobileMenu?.classList.toggle('hidden');
+          setMobileMenu(!!mobileMenu?.classList.contains('hidden'));
+        });
+
+        // Keep keyboard focus in the open menu; Escape closes it
+        masthead?.addEventListener('keydown', (e) => {
+          if (!mobileMenu || !mobileToggle || mobileMenu.classList.contains('hidden')) return;
+
+          if (e.key === 'Escape') {
+            setMobileMenu(false);
+            mobileToggle.focus();
+            return;
+          }
+
+          if (e.key !== 'Tab') return;
+          const items = [mobileToggle, ...mobileMenu.querySelectorAll<HTMLElement>('a[href]')];
+          const first = items[0];
+          const last = items[items.length - 1];
+          if (e.shiftKey && document.activeElement === first) {
+            e.preventDefault();
+            last.focus();
+          } else if (!e.shiftKey && document.activeElement === last) {
+            e.preventDefault();
+            first.focus();
+          }
         });
 
         // Search toggle
@@ -503,7 +540,7 @@ const { title, description = 'Galaxy Community Hub - Open source platform for da
         });
 
         // Reset mobile menu state on navigation
-        mobileMenu?.classList.add('hidden');
+        setMobileMenu(false);
         searchOverlay?.classList.add('hidden');
 
         // Initial check
