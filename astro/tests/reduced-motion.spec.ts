@@ -34,12 +34,15 @@ test.describe('Reduced motion', () => {
       await page.goto('/usegalaxy/welcome/');
 
       const toggle = page.locator('#carousel-toggle');
+      const slides = page.locator('#welcome-carousel-slides');
       await expect(toggle).toHaveAttribute('aria-label', 'Play slide show');
+      await expect(slides).toHaveAttribute('aria-live', 'polite');
       await page.waitForTimeout(3500);
       expect(await activeSlide(page)).toBe('0');
 
       await toggle.click();
       await expect(toggle).toHaveAttribute('aria-label', 'Pause slide show');
+      await expect(slides).toHaveAttribute('aria-live', 'off');
       await page.mouse.move(0, 0);
       await expect.poll(() => activeSlide(page), { timeout: 5000 }).not.toBe('0');
     });
@@ -57,6 +60,11 @@ test.describe('Reduced motion', () => {
       const before = await activeSlide(page);
       await page.waitForTimeout(3500);
       expect(await activeSlide(page)).toBe(before);
+    });
+
+    test('pause button is the first control in tab order', async ({ page }) => {
+      await page.goto('/usegalaxy/welcome/');
+      await expect(page.locator('#welcome-carousel').locator('a[href], button').first()).toHaveId('carousel-toggle');
     });
   });
 
@@ -77,6 +85,8 @@ test.describe('Reduced motion', () => {
       const carousel = await hydratedCarousel(page);
 
       await expect(carousel.getByRole('button', { name: 'Play slide show' })).toBeVisible();
+      await expect(carousel.locator('a[href], button').first()).toHaveAccessibleName('Play slide show');
+      await expect(carousel.locator('[aria-live]')).toHaveAttribute('aria-live', 'polite');
       const src = await carousel.locator('img').first().getAttribute('src');
       await page.waitForTimeout(6000);
       expect(await carousel.locator('img').first().getAttribute('src')).toBe(src);
@@ -86,8 +96,10 @@ test.describe('Reduced motion', () => {
       await page.emulateMedia({ reducedMotion: 'no-preference' });
       const carousel = await hydratedCarousel(page);
 
+      await expect(carousel.locator('[aria-live]')).toHaveAttribute('aria-live', 'off');
       await carousel.getByRole('button', { name: 'Pause slide show' }).click();
       await expect(carousel.getByRole('button', { name: 'Play slide show' })).toBeVisible();
+      await expect(carousel.locator('[aria-live]')).toHaveAttribute('aria-live', 'polite');
     });
   });
 });
