@@ -122,7 +122,8 @@ presentation.
   transform: rotate(90deg);
 }
 
-.gcc-schedule-day table {
+.gcc-schedule-day table,
+.gcc-schedule-day .table-wrapper {
   margin: 0 !important;
   border: none !important;
 }
