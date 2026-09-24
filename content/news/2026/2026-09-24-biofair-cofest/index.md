@@ -25,9 +25,9 @@ The event brought together new Galaxy users, experienced bioinformaticians, and 
 
 ## Single-Cell Training
 
-The training side of the event was the final part of a series of single-cell workshops delivered by Marisa over the summer during her BioFAIR fellowship. The focus of her fellowship has been on ensuring that when workflows are created and shared according to the FAIR principles, users will actually apply them to their own data. On the first day of the event, she led a group of students through their first Galaxy tutorials, while Pavan from the Galaxy EU team in Freiburg supported one ambitious learner as he began his first independent spatial omics analysis on Galaxy.
+The training side of the event was the final part of [a series of single-cell workshops](https://training.galaxyproject.org/training-material//events/2026-07-06-biofair.html) delivered by Marisa over the summer during her BioFAIR fellowship. The focus of her fellowship has been on ensuring that when workflows are created and shared according to the FAIR principles, users will actually apply them to their own data. On the first day of the event, she led a group of students through their first Galaxy tutorials, while Pavan from the Galaxy EU team in Freiburg supported one ambitious learner as he began his first independent spatial omics analysis on Galaxy.
 
-![Learners working on their single-cell tutorials](biofair-learners.png)
+![Learners working on their single-cell tutorials](biofair-learners.jpg)
 
 ## FAIR Workflows across Platforms
 
