@@ -48,7 +48,7 @@ const fundingNotice = `
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
       </head>
       <body class="min-h-screen bg-white">
-        <nav class="bg-ebony-clay-800 text-white">
+        <header class="bg-ebony-clay-800 text-white">
           <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
             <a href="/projects/esg/?solo=true" class="flex items-center">
               <img
@@ -57,7 +57,7 @@ const fundingNotice = `
                 class="h-8"
               />
             </a>
-            <div class="flex gap-6">
+            <nav class="flex gap-6" aria-label="EuroScienceGateway">
               <a
                 href="/projects/esg/?solo=true"
                 class:list={['hover:text-chicago-300', { 'text-white font-semibold': isHome }]}
@@ -76,9 +76,9 @@ const fundingNotice = `
               >
                 Events
               </a>
-            </div>
+            </nav>
           </div>
-        </nav>
+        </header>
 
         <main class="max-w-6xl mx-auto px-4 py-8">
           <slot />
