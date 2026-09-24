@@ -197,6 +197,78 @@ function shiftHeadings(content) {
     .join('\n');
 }
 
+const ATX_HEADING_RE = /^ {0,3}#{1,6}[ \t]+(.*?)(?:[ \t]+#+)?[ \t]*$/;
+
+/**
+ * Derive a title for a page whose frontmatter has none: its leading heading
+ * when no text precedes it (images, HTML wrappers and slots may), otherwise a
+ * title built from the slug. `fromHeading` tells the caller to remove that
+ * heading, since the layout renders the title as the page h1.
+ */
+function deriveTitle(content, slug) {
+  for (const line of content.split('\n')) {
+    const heading = line.match(ATX_HEADING_RE);
+    if (heading) {
+      const title = headingText(heading[1]);
+      if (title) return { title, fromHeading: true };
+      break;
+    }
+    const text = line
+      .replace(/!\[[^\]]*\]\([^)]*\)/g, '')
+      .replace(/\[\s*\]\([^)]*\)/g, '')
+      .replace(/<[^>]*>/g, '')
+      .trim();
+    if (text) break;
+  }
+  return { title: titleFromSlug(slug), fromHeading: false };
+}
+
+/**
+ * Remove the first heading outside fenced code whose text is `text`.
+ */
+function removeHeading(content, text) {
+  const lines = content.split('\n');
+  let inFence = false;
+  const index = lines.findIndex((line) => {
+    if (/^(`{3,}|~{3,})/.test(line)) inFence = !inFence;
+    const heading = !inFence && line.match(ATX_HEADING_RE);
+    return heading && headingText(heading[1]) === text;
+  });
+  if (index !== -1) lines.splice(index, 1);
+  return lines.join('\n');
+}
+
+function headingText(raw) {
+  return raw
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, '')
+    .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1')
+    .replace(/<[^>]+>/g, '')
+    .replace(/(\*\*|\*|`)(.+?)\1/g, '$2')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+/**
+ * "admin/data-integration" → "Data Integration"; a segment without letters
+ * keeps its parent for context: "toolshed/contributions/2016-10" → "Contributions 2016-10".
+ */
+function titleFromSlug(slug) {
+  const segments = slug.split('/').filter(Boolean);
+  const hasLetters = (segment) => /[a-z]/i.test(segment);
+  const parts = hasLetters(segments.at(-1) || '') ? segments.slice(-1) : segments.slice(-2);
+  return parts
+    .map((part) =>
+      hasLetters(part)
+        ? part
+            .split('-')
+            .filter(Boolean)
+            .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+            .join(' ')
+        : part
+    )
+    .join(' ');
+}
+
 /**
  * Process asset paths in markdown content — images, videos, PDFs, and other
  * files that live alongside content and get copied to /images/{slug}/.
@@ -521,6 +593,13 @@ async function processMarkdownFile(filePath, { contentDir = CONTENT_DIR, outputD
   // If any inlined insert has components: true, the parent must become MDX too.
   let processedContent = body;
   processedContent = processedContent.replace(JSX_COMMENT_RE, '');
+
+  // Articles without a frontmatter title get one from their own content, not from inserts
+  const derivedTitle =
+    collection === 'articles' && !frontmatter.title && !frontmatter.redirect
+      ? deriveTitle(processedContent, slug)
+      : null;
+
   const { content: inlinedContent, hasComponents: insertsHaveComponents } = inlineInserts(
     processedContent,
     0,
@@ -530,6 +609,10 @@ async function processMarkdownFile(filePath, { contentDir = CONTENT_DIR, outputD
 
   // Shift headings down if content has multiple h1s
   processedContent = shiftHeadings(processedContent);
+
+  if (derivedTitle?.fromHeading) {
+    processedContent = removeHeading(processedContent, derivedTitle.title);
+  }
 
   // Process content
   processedContent = addBootstrapMarker(processedContent);
@@ -548,6 +631,9 @@ async function processMarkdownFile(filePath, { contentDir = CONTENT_DIR, outputD
   const processedFrontmatter = processFrontmatter({ ...frontmatter });
   processedFrontmatter.slug = slug;
   processedFrontmatter.sourceFile = relativePath.replace(/\\/g, '/');
+  if (derivedTitle) {
+    processedFrontmatter.title = derivedTitle.title;
+  }
 
   // Rewrite frontmatter image path the same way we rewrite body image paths
   if (processedFrontmatter.image && typeof processedFrontmatter.image === 'string') {
@@ -1171,6 +1257,7 @@ export {
   insertCache,
   generateTease,
   shiftHeadings,
+  deriveTitle,
   processMarkdownFile,
   destPathsForMarkdown,
 };

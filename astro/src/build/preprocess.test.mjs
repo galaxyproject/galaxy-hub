@@ -1,4 +1,8 @@
-import { describe, it, expect, beforeEach } from 'vitest';
+import { describe, it, expect, beforeEach, afterEach } from 'vitest';
+import fs from 'fs';
+import os from 'os';
+import path from 'path';
+import matter from 'gray-matter';
 import {
   addBootstrapMarker,
   deriveNewsNaturalSlug,
@@ -9,6 +13,8 @@ import {
   insertCache,
   generateTease,
   shiftHeadings,
+  deriveTitle,
+  processMarkdownFile,
   preprocessContent,
 } from './preprocess.mjs';
 
@@ -284,6 +290,80 @@ describe('shiftHeadings', () => {
   it('does not shift headings inside tilde fenced code blocks', () => {
     const content = '# A\n\n# B\n\n~~~\n# code comment\n~~~\n\n## Real';
     expect(shiftHeadings(content)).toBe('## A\n\n## B\n\n~~~\n# code comment\n~~~\n\n### Real');
+  });
+});
+
+describe('deriveTitle', () => {
+  it('uses the leading heading', () => {
+    expect(deriveTitle('# Access control\n\nSome text', 'admin/config/access-control')).toEqual({
+      title: 'Access control',
+      fromHeading: true,
+    });
+    expect(deriveTitle('\n## Adding MAFs to Galaxy\n\nText', 'admin/reference-mafs').title).toBe(
+      'Adding MAFs to Galaxy'
+    );
+  });
+
+  it('skips leading images, HTML wrappers and slots', () => {
+    const content =
+      '<div class=\'right\'>![](/images/people/anton.jpg)</div>\n<slot name="/admin/linkbox" />\n\n# Anton Nekrutenko\n';
+    expect(deriveTitle(content, 'people/anton')).toEqual({ title: 'Anton Nekrutenko', fromHeading: true });
+  });
+
+  it('strips inline markdown from the heading', () => {
+    expect(deriveTitle('# [Galaxy](https://galaxyproject.org) **Tools** `x`', 'a').title).toBe('Galaxy Tools x');
+    expect(deriveTitle('# GALAXY_SLOTS (for tool developers)', 'a').title).toBe('GALAXY_SLOTS (for tool developers)');
+  });
+
+  it('falls back to the slug when text comes before the first heading', () => {
+    expect(deriveTitle('Intro text\n\n# Section', 'admin/data-integration')).toEqual({
+      title: 'Data Integration',
+      fromHeading: false,
+    });
+    expect(deriveTitle('', 'cloudman/services')).toEqual({ title: 'Services', fromHeading: false });
+  });
+
+  it('keeps the parent segment when the last slug segment has no letters', () => {
+    expect(deriveTitle('Text', 'toolshed/contributions/2016-10').title).toBe('Contributions 2016-10');
+  });
+});
+
+describe('processMarkdownFile title fallback', () => {
+  let tmpDir;
+
+  beforeEach(() => {
+    tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'preprocess-title-test-'));
+  });
+
+  afterEach(() => {
+    fs.rmSync(tmpDir, { recursive: true, force: true });
+  });
+
+  async function processFixture(relativePath, source) {
+    const filePath = path.join(tmpDir, relativePath);
+    fs.mkdirSync(path.dirname(filePath), { recursive: true });
+    fs.writeFileSync(filePath, source);
+    const { destination } = await processMarkdownFile(filePath, { contentDir: tmpDir, outputDir: tmpDir });
+    return matter(fs.readFileSync(destination, 'utf-8'));
+  }
+
+  it('moves the leading heading of an untitled article into its title', async () => {
+    const { data, content } = await processFixture(
+      'title-test/index.md',
+      '# Page Title\n\n# Section A\n\n# Section B\n'
+    );
+    expect(data.title).toBe('Page Title');
+    expect(content).not.toContain('Page Title');
+    expect(content).toContain('## Section A');
+  });
+
+  it('leaves titled and redirect pages alone', async () => {
+    const titled = await processFixture('titled-test/index.md', '---\ntitle: Kept\n---\n# Heading\n');
+    expect(titled.data.title).toBe('Kept');
+    expect(titled.content).toContain('# Heading');
+
+    const redirect = await processFixture('redirect-test/index.md', '---\nredirect: /use/\n---\n');
+    expect(redirect.data.title).toBeUndefined();
   });
 });
 
