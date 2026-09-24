@@ -2,17 +2,17 @@
 title: Galaxy Australasia Workshop 2014 (GAW 2014)
 ---
 <div class='center'>
-<a href='http://australianbioinformatics.net/gaw-2014'><img src="/images/logos/GAW2014-400.png" alt="Galaxy Australasia Workshop 2014 (GAW2014)"  /></a>
+<a href='https://web.archive.org/web/20140126051202/http://australianbioinformatics.net/gaw-2014/'><img src="/images/logos/GAW2014-400.png" alt="Galaxy Australasia Workshop 2014 (GAW2014)"  /></a>
 
 <br />
-<span style="font-size: larger;"> **[24-25 March, Melbourne](http://australianbioinformatics.net/gaw-2014)** </span>
+<span style="font-size: larger;"> **[24-25 March, Melbourne](https://web.archive.org/web/20140126051202/http://australianbioinformatics.net/gaw-2014/)** </span>
 </div>
 <br />
 
 
-**The [1st Galaxy Australasia Workshop 2014 (GAW 2014)](http://australianbioinformatics.net/gaw-2014) was held in Melbourne, Australia on 24 and 25th March 2014.**
+**The [1st Galaxy Australasia Workshop 2014 (GAW 2014)](https://web.archive.org/web/20140126051202/http://australianbioinformatics.net/gaw-2014/) was held in Melbourne, Australia on 24 and 25th March 2014.**
 
-The [Galaxy Australasia Workshop](http://australianbioinformatics.net/gaw-2014) was a great opportunity to participate in two full days of presentations, discussions, poster sessions, keynotes and lightning talks, all about ways of using Galaxy for high-throughput biology, imaging and other scientific applications. The workshop will also include Training Sessions taught by Galaxy developers and master users.  GAW 2014 ran 24 and 25th March, immediately preceding [Computational and Simulation Sciences and eResearch](http://wp.csiro.au/css/) in Melbourne.
+The [Galaxy Australasia Workshop](https://web.archive.org/web/20140126051202/http://australianbioinformatics.net/gaw-2014/) was a great opportunity to participate in two full days of presentations, discussions, poster sessions, keynotes and lightning talks, all about ways of using Galaxy for high-throughput biology, imaging and other scientific applications. The workshop will also include Training Sessions taught by Galaxy developers and master users.  GAW 2014 ran 24 and 25th March, immediately preceding [Computational and Simulation Sciences and eResearch](http://wp.csiro.au/css/) in Melbourne.
 
 GAW 2014 also included poster session and keynote speakers.
 
@@ -307,9 +307,9 @@ The [GVL Project](https://genome.edu.au/wiki/GVL) and [CSIRO](http://csiro.au/) 
 
 Further interesting talks included *[Yousef Kowsar](http://www.vlsci.org.au/researcher/ykowsar)* ([VLSCI](http://www.vlsci.org.au/)/[GVL](https://genome.edu.au/wiki/GVL)) showing us progress with an [Australian Research Cloud](https://www.nectar.org.au/research-cloud) version of GenomeSpace integration with Galaxy, *[Clare Sloggett](http://www.vlsci.org.au/researcher/csloggett)* ([VLSCI](http://www.vlsci.org.au/)/[GVL](https://genome.edu.au/wiki/GVL)) demonstrating some utilities that enhance the GVL command line servers, *[Yulia Arzhaeva](http://au.linkedin.com/pub/yulia-arzhaeva/20/491/688)* ([CSIRO](http://csiro.au/)) showing a Galaxy implementation of Cellular Imaging tools rather than Bioinformatics Tools and *[Carsten Friedrich](http://www.ict.csiro.au/staff/carsten.friedrich/)* ([CSIRO](http://csiro.au/)) showing a Galaxy Tool interface to Secure Cloud Data Storage.
 
-<div class='float-left'><a href='http://australianbioinformatics.net/'><img src="/images/logos/ABNLogoOnlySmall.png" alt="Australian Bioinformatics Network" height="50" /></a></div>
+<div class='float-left'><a href='https://web.archive.org/web/20140407230429/http://australianbioinformatics.net/'><img src="/images/logos/ABNLogoOnlySmall.png" alt="Australian Bioinformatics Network" height="50" /></a></div>
 
-*[David Lovell](http://www.csiro.au/Organisation-Structure/Divisions/Computational-Informatics/CCI-People/DavidLovell.aspx)* ([CSIRO](http://csiro.au/)), as representative of the [Australian Bioinformatics Network](http://australianbioinformatics.net/), closed the conference by working with us to develop a worthwhile [mind map (pdf)](https://depot.galaxyproject.org/hub/attachments/events/gaw2014/GAW2014_Wrapup.pdf) of actions we would take as a result of attending the Conference.
+*[David Lovell](http://www.csiro.au/Organisation-Structure/Divisions/Computational-Informatics/CCI-People/DavidLovell.aspx)* ([CSIRO](http://csiro.au/)), as representative of the [Australian Bioinformatics Network](https://web.archive.org/web/20140407230429/http://australianbioinformatics.net/), closed the conference by working with us to develop a worthwhile [mind map (pdf)](https://depot.galaxyproject.org/hub/attachments/events/gaw2014/GAW2014_Wrapup.pdf) of actions we would take as a result of attending the Conference.
 
 
 Slide presentations appear on the [GAW2014 conference programme.](/events/gaw2014/#program)
