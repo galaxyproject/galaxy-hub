@@ -63,6 +63,15 @@ const { title, description } = Astro.props;
     -webkit-overflow-scrolling: touch;
   }
 
+  /* Tables wrapped by rehype-scrollable-tables scroll in the wrapper, which is the
+     focusable region; keep their content width as with display: block above. */
+  .prose-galaxy .table-wrapper > table {
+    display: table;
+    width: auto;
+    max-width: none;
+    overflow-x: visible;
+  }
+
   .prose-galaxy a {
     color: var(--tw-prose-links);
     text-decoration: underline;
@@ -287,11 +296,13 @@ const { title, description } = Astro.props;
   }
 
   [data-name='/eu/common/data-policy'] {
+    .table-wrapper {
+      margin: 24px 0 16px;
+    }
+
     table {
       padding: 0;
-      margin: 24px 0 16px;
       border-collapse: collapse;
-      width: 100%;
 
       thead th {
         color: rgb(33, 37, 41);
