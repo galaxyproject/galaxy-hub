@@ -206,7 +206,7 @@ function fencedCodeLines(lines) {
       if (close && close[1][0] === fence[0] && close[1].length >= fence.length) fence = null;
       return true;
     }
-    // Backticks can't appear after a backtick fence's opener, so ```x``` is inline code
+    // A backtick fence's info string can't contain backticks, so ```x``` is inline code
     const open = line.match(/^ {0,3}(?:(`{3,})[^`]*|(~{3,}).*)$/);
     if (open) fence = open[1] || open[2];
     return Boolean(open);
