@@ -1,6 +1,7 @@
 import { defineCollection } from 'astro:content';
 import { z } from 'astro/zod';
 import { glob } from 'astro/loaders';
+import { getEventEndFromDays } from './utils/dateUtils';
 
 /**
  * Tags for which /tags/[tag]/feed.atom feeds are generated. Kept as a whitelist
@@ -80,18 +81,21 @@ const articles = defineCollection({
 // Events collection (very permissive for legacy content)
 const events = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/events' }),
-  schema: baseArticleSchema.extend({
-    end: z.coerce.date().optional().nullable(),
-    location: z.union([z.string(), locationSchema]).optional().nullable(),
-    external_url: z.string().optional().nullable(),
-    gtn: z.boolean().optional().nullable(),
-    days: z.number().optional().nullable(),
-    continent: z.string().optional().nullable(),
-    supporters: z
-      .union([z.array(z.string()), z.string()])
-      .optional()
-      .nullable(),
-  }),
+  schema: baseArticleSchema
+    .extend({
+      end: z.coerce.date().optional().nullable(),
+      location: z.union([z.string(), locationSchema]).optional().nullable(),
+      external_url: z.string().optional().nullable(),
+      gtn: z.boolean().optional().nullable(),
+      days: z.number().optional().nullable(),
+      continent: z.string().optional().nullable(),
+      supporters: z
+        .union([z.array(z.string()), z.string()])
+        .optional()
+        .nullable(),
+    })
+    // Most events give their length as `days` rather than an `end` date
+    .transform((data) => ({ ...data, end: data.end ?? getEventEndFromDays(data.date, data.days) })),
 });
 
 // Platform schema for Galaxy servers (permissive)
