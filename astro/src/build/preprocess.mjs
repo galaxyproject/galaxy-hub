@@ -197,20 +197,28 @@ function shiftHeadings(content) {
     .join('\n');
 }
 
-const ATX_HEADING_RE = /^ {0,3}#{1,6}[ \t]+(.*?)(?:[ \t]+#+)?[ \t]*$/;
+const ATX_HEADING_RE = /^ {0,3}(#{1,6})[ \t]+(.*?)(?:[ \t]+#+)?[ \t]*$/;
+const SETEXT_UNDERLINE_RE = /^ {0,3}(=+|-+)[ \t]*$/;
+const HTML_HEADING_RE = /<h([1-6])[\s>]/gi;
+const THEMATIC_BREAK_RE = /^ {0,3}([-*_])(?:[ \t]*\1){2,}[ \t]*$/;
+const FENCE_RE = /^(`{3,}|~{3,})/;
 
 /**
  * Derive a title for a page whose frontmatter has none: its leading heading
- * when no text precedes it (images, HTML wrappers and slots may), otherwise a
- * title built from the slug. `fromHeading` tells the caller to remove that
- * heading, since the layout renders the title as the page h1.
+ * when no text precedes it (images, HTML wrappers and slots may) and no later
+ * heading is at the same or a higher level, otherwise a title built from the
+ * slug. `fromHeading` tells the caller to remove that heading, since the
+ * layout renders the title as the page h1.
  */
 function deriveTitle(content, slug) {
-  for (const line of content.split('\n')) {
+  const lines = content.split('\n');
+  for (const [index, line] of lines.entries()) {
     const heading = line.match(ATX_HEADING_RE);
     if (heading) {
-      const title = headingText(heading[1]);
-      if (title) return { title, fromHeading: true };
+      const title = headingText(heading[2]);
+      const level = heading[1].length;
+      const hasSibling = headingLevels(lines.slice(index + 1)).some((other) => other <= level);
+      if (title && !hasSibling) return { title, fromHeading: true };
       break;
     }
     const text = line
@@ -224,15 +232,38 @@ function deriveTitle(content, slug) {
 }
 
 /**
+ * Levels of the ATX, setext and HTML headings outside fenced code.
+ */
+function headingLevels(lines) {
+  const levels = [];
+  let inFence = false;
+  let afterText = false;
+  for (const line of lines) {
+    if (FENCE_RE.test(line)) inFence = !inFence;
+    if (inFence || FENCE_RE.test(line)) {
+      afterText = false;
+      continue;
+    }
+    const atx = line.match(ATX_HEADING_RE);
+    const setext = !atx && afterText && line.match(SETEXT_UNDERLINE_RE);
+    if (atx) levels.push(atx[1].length);
+    if (setext) levels.push(setext[1].startsWith('=') ? 1 : 2);
+    for (const [, level] of line.matchAll(HTML_HEADING_RE)) levels.push(Number(level));
+    afterText = !atx && !setext && !THEMATIC_BREAK_RE.test(line) && line.trim() !== '';
+  }
+  return levels;
+}
+
+/**
  * Remove the first heading outside fenced code whose text is `text`.
  */
 function removeHeading(content, text) {
   const lines = content.split('\n');
   let inFence = false;
   const index = lines.findIndex((line) => {
-    if (/^(`{3,}|~{3,})/.test(line)) inFence = !inFence;
+    if (FENCE_RE.test(line)) inFence = !inFence;
     const heading = !inFence && line.match(ATX_HEADING_RE);
-    return heading && headingText(heading[1]) === text;
+    return heading && headingText(heading[2]) === text;
   });
   if (index !== -1) lines.splice(index, 1);
   return lines.join('\n');

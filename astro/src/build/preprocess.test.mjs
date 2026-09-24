@@ -315,6 +315,21 @@ describe('deriveTitle', () => {
     expect(deriveTitle('# GALAXY_SLOTS (for tool developers)', 'a').title).toBe('GALAXY_SLOTS (for tool developers)');
   });
 
+  it('falls back to the slug when a later heading is at the same or a higher level', () => {
+    const slugTitle = { title: 'Galaxy Slots', fromHeading: false };
+    expect(deriveTitle('## For developers\n\n### Detail\n\n## For admins\n', 'admin/config/galaxy-slots')).toEqual(
+      slugTitle
+    );
+    expect(deriveTitle('## For developers\n\n# Other\n', 'admin/config/galaxy-slots')).toEqual(slugTitle);
+    expect(deriveTitle('# For developers\n\nFor admins\n==========\n', 'admin/config/galaxy-slots')).toEqual(slugTitle);
+    expect(deriveTitle('# For developers\n\n<h1>For admins</h1>\n', 'admin/config/galaxy-slots')).toEqual(slugTitle);
+  });
+
+  it('ignores lower headings, rules and fenced code when looking for later headings', () => {
+    const content = '# Title\n\n* * *\n\n## Section\n\nText\n\n---\n\n```\n# comment\n```\n';
+    expect(deriveTitle(content, 'a')).toEqual({ title: 'Title', fromHeading: true });
+  });
+
   it('falls back to the slug when text comes before the first heading', () => {
     expect(deriveTitle('Intro text\n\n# Section', 'admin/data-integration')).toEqual({
       title: 'Data Integration',
@@ -350,11 +365,19 @@ describe('processMarkdownFile title fallback', () => {
   it('moves the leading heading of an untitled article into its title', async () => {
     const { data, content } = await processFixture(
       'title-test/index.md',
-      '# Page Title\n\n# Section A\n\n# Section B\n'
+      '# Page Title\n\nIntro\n\n## Section A\n\nText\n'
     );
     expect(data.title).toBe('Page Title');
     expect(content).not.toContain('Page Title');
     expect(content).toContain('## Section A');
+    expect(content).toContain('Text');
+  });
+
+  it('keeps the leading heading when it is one of several sections', async () => {
+    const { data, content } = await processFixture('section-test/index.md', '# Section A\n\nA\n\n# Section B\n\nB\n');
+    expect(data.title).toBe('Section Test');
+    expect(content).toContain('## Section A');
+    expect(content).toContain('## Section B');
   });
 
   it('keeps a body that starts with a thematic break', async () => {
