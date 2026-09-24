@@ -65,7 +65,10 @@ const navbar = await getSubsiteNavbar(currentSubsite);
         <main
           id="main-content"
           tabindex="-1"
-          class:list={['site-content flex-1 bg-light-bg bg-grid', fullBleed ? 'p-0' : 'p-4 sm:p-6 lg:p-8']}
+          class:list={[
+            'site-content flex-1 bg-light-bg bg-grid scroll-mt-22 lg:scroll-mt-0',
+            fullBleed ? 'p-0' : 'p-4 sm:p-6 lg:p-8',
+          ]}
         >
           <slot />
         </main>
