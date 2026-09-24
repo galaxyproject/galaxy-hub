@@ -179,7 +179,7 @@ function rewriteSrc(src, slug) {
  */
 function shiftHeadings(content) {
   const lines = content.split('\n');
-  const inFence = fencedCodeLines(lines);
+  const inFence = fencedCodeLines(content.split(/\r?\n/));
   const h1Count = lines.filter((line, i) => !inFence[i] && /^# (?!#)/.test(line)).length;
   if (h1Count < 2) return content;
 

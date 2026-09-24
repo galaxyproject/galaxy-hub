@@ -310,6 +310,13 @@ describe('shiftHeadings', () => {
     expect(shiftHeadings(content)).toBe(content);
   });
 
+  it('tracks fences in CRLF content', () => {
+    const backticks = '# A\r\n\r\n```bash\r\n# c\r\n```\r\n\r\n# B';
+    expect(shiftHeadings(backticks)).toBe('## A\r\n\r\n```bash\r\n# c\r\n```\r\n\r\n## B');
+    const tildes = '# A\r\n\r\n# B\r\n\r\n~~~\r\n# c\r\n~~~';
+    expect(shiftHeadings(tildes)).toBe('## A\r\n\r\n## B\r\n\r\n~~~\r\n# c\r\n~~~');
+  });
+
   it('does not count comment lines in indented code as h1s', () => {
     const content = '# Title\n\n    # comment\n\n## Section';
     expect(shiftHeadings(content)).toBe(content);
