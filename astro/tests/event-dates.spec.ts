@@ -17,4 +17,13 @@ test.describe('Multi-day events', () => {
     const event = upcoming.locator('a[href="/events/2026-10-12-advanced-galaxy-training/"]');
     await expect(event).toContainText('Oct 12 - 16, 2026');
   });
+
+  test('/events/ keeps a multi-day event under Upcoming Events on its last day', async ({ page }) => {
+    // Last day of an event with date: 2026-10-12, days: 5
+    await page.clock.setFixedTime(new Date('2026-10-16T12:00:00'));
+    await page.goto('/events/');
+
+    const upcoming = page.locator('section', { has: page.getByRole('heading', { name: 'Upcoming Events' }) });
+    await expect(upcoming.locator('a[href="/events/2026-10-12-advanced-galaxy-training/"]')).toBeVisible();
+  });
 });
