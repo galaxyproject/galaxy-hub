@@ -298,6 +298,13 @@ describe('shiftHeadings', () => {
     expect(shiftHeadings(mixed)).toBe(mixed);
     const longer = '# Title\n\n````md\n```\n# comment\n```\n````\n\n## Section';
     expect(shiftHeadings(longer)).toBe(longer);
+    const infoCloser = '# Title\n\n```\n# comment\n```bash\n# still code\n```\n\n## Section';
+    expect(shiftHeadings(infoCloser)).toBe(infoCloser);
+  });
+
+  it('treats an unclosed fence as running to the end of the content', () => {
+    const content = '# A\n\n# B\n\n```\n# comment';
+    expect(shiftHeadings(content)).toBe('## A\n\n## B\n\n```\n# comment');
   });
 
   it('does not treat inline triple-backtick code as a fence', () => {
@@ -308,6 +315,11 @@ describe('shiftHeadings', () => {
   it('treats fences indented up to three spaces as fences', () => {
     const content = '# Title\n\n   ```\n# comment\n   ```\n\n## Section';
     expect(shiftHeadings(content)).toBe(content);
+  });
+
+  it('does not treat a fence indented four spaces as a fence', () => {
+    const content = '# A\n\n    ```\n\n# B';
+    expect(shiftHeadings(content)).toBe('## A\n\n    ```\n\n## B');
   });
 
   it('tracks fences in CRLF content', () => {
