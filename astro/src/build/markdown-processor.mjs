@@ -87,24 +87,21 @@ function addTocPlugin(options = {}) {
 
 const BARE_URL_RE = /(?<![a-z])(?:https?:\/\/|www\.)[^\s<>]+/gi;
 
-/**
- * Stringify text as usual but leave bare URLs unescaped. This parser has no GFM,
- * so bare URLs are plain text here; Astro's GFM autolinker later takes them
- * character for character, and an escape like `\_` would end up in the href.
- */
+/** Stringify text, leaving bare URLs unescaped for Astro's GFM autolinker. */
 function textKeepingBareUrls(node, _, state, info) {
   const { value } = node;
   if (state.stack.includes('label')) return state.safe(value, info);
 
   let result = '';
   let start = 0;
+  let before = info.before;
   for (const match of value.matchAll(BARE_URL_RE)) {
-    const before = start ? value[start - 1] : info.before;
-    result += state.safe(value.slice(start, match.index), { ...info, before, after: match[0][0] });
-    result += match[0];
-    start = match.index + match[0].length;
+    const url = match[0];
+    result += state.safe(value.slice(start, match.index), { ...info, before, after: url[0] });
+    result += url;
+    start = match.index + url.length;
+    before = url.at(-1);
   }
-  const before = start ? value[start - 1] : info.before;
   return result + state.safe(value.slice(start), { ...info, before });
 }
 
