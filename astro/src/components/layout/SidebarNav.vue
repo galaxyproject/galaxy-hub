@@ -79,7 +79,7 @@ function isOpen(title: string): boolean {
 </script>
 
 <template>
-  <nav class="space-y-2">
+  <nav class="space-y-2" aria-label="Main">
     <!-- Top-level links (News, Events) -->
     <div class="space-y-1">
       <a
