@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { getEventEndFromDays } from './dateUtils';
+import { getEventEndFromDays, isUpcomingEvent } from './dateUtils';
 
 describe('getEventEndFromDays', () => {
   it('returns the last day of a multi-day event', () => {
@@ -25,5 +25,28 @@ describe('getEventEndFromDays', () => {
     expect(getEventEndFromDays('2026-10-12', 2.5)).toBeUndefined();
     expect(getEventEndFromDays('2026-10-12', Number.NaN)).toBeUndefined();
     expect(getEventEndFromDays('2026-10-12', 1e9)).toBeUndefined();
+  });
+});
+
+describe('isUpcomingEvent', () => {
+  // Local noon on Oct 14, 2026, so the test does not depend on the machine's time zone
+  const now = new Date(2026, 9, 14, 12);
+
+  it('keeps a multi-day event upcoming until its last day is over', () => {
+    expect(isUpcomingEvent('2026-10-12', '2026-10-16', now)).toBe(true);
+    expect(isUpcomingEvent('2026-10-12', '2026-10-14', now)).toBe(true);
+    expect(isUpcomingEvent('2026-10-12', '2026-10-13', now)).toBe(false);
+  });
+
+  it('keeps a one-day event upcoming for the whole day', () => {
+    expect(isUpcomingEvent('2026-10-14', undefined, now)).toBe(true);
+    expect(isUpcomingEvent(new Date('2026-10-14'), null, now)).toBe(true);
+    expect(isUpcomingEvent('2026-10-13', undefined, now)).toBe(false);
+    expect(isUpcomingEvent('2026-11-01', undefined, now)).toBe(true);
+  });
+
+  it('treats events without a valid date as not upcoming', () => {
+    expect(isUpcomingEvent(undefined, undefined, now)).toBe(false);
+    expect(isUpcomingEvent('not a date', undefined, now)).toBe(false);
   });
 });
