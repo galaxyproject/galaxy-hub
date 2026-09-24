@@ -187,7 +187,7 @@ Over the rest of the few months there are many [Galaxy related events](/events/)
   </tr>
   <tr>
     <th> September 19 </th>
-    <td> <em><a href='http://australianbioinformatics.net/great-gigascience-galaxy-wkshp'>The Great GigaScience and Galaxy (G3) Workshop</a></em> </td>
+    <td> <em><a href='https://web.archive.org/web/20151110123936/http://australianbioinformatics.net/great-gigascience-galaxy-wkshp'>The Great GigaScience and Galaxy (G3) Workshop</a></em> </td>
     <td> The University of Melbourne, Melbourne, Australia </td>
     <td> <a href="mailto:nwon AT unimelb DOT edu.au">Nick Wong</a>, <a href='/people/fubar/'>Ross Lazarus</a> </td>
   </tr>
