@@ -127,6 +127,8 @@ function esgUrl(path: string): string {
           src={`/images/projects/esg/link-images/${link.image?.split('/').pop()}`}
           alt={link.name}
           class="h-16 w-auto object-contain"
+          loading="lazy"
+          decoding="async"
         />
       </a>)}
     </div>
@@ -250,6 +252,8 @@ function esgUrl(path: string): string {
             }
             alt={partner.name}
             class="max-h-12 w-auto object-contain"
+            loading="lazy"
+            decoding="async"
           />
         </a>)}
       </div>
