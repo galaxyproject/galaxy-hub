@@ -357,6 +357,19 @@ describe('processMarkdownFile title fallback', () => {
     expect(content).toContain('## Section A');
   });
 
+  it('keeps a body that starts with a thematic break', async () => {
+    const single = await processFixture('rule-test/index.md', '---\ntitle: Rule\n---\n* * *\n\nText\n');
+    expect(single.data).toEqual(expect.objectContaining({ title: 'Rule', slug: 'rule-test' }));
+    expect(single.content).toContain('Text');
+
+    const repeated = await processFixture(
+      'rules-test/index.md',
+      '---\ntitle: Rules\n---\n* * *\n\nText\n\n* * *\n\nMore\n'
+    );
+    expect(repeated.data.title).toBe('Rules');
+    expect(repeated.content).toContain('More');
+  });
+
   it('leaves titled and redirect pages alone', async () => {
     const titled = await processFixture('titled-test/index.md', '---\ntitle: Kept\n---\n# Heading\n');
     expect(titled.data.title).toBe('Kept');

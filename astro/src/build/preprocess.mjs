@@ -674,7 +674,7 @@ async function processMarkdownFile(filePath, { contentDir = CONTENT_DIR, outputD
 
   const useMdx = frontmatter.components === true || insertsHaveComponents;
   const destPath = path.join(collectionDir, slugToFilename(slug, useMdx));
-  const newContent = matter.stringify(processedContent, processedFrontmatter);
+  const newContent = matter.stringify({ content: processedContent }, processedFrontmatter);
   await fs.promises.writeFile(destPath, newContent);
 
   return { source: filePath, destination: destPath, collection, slug, naturalSlug };
