@@ -170,3 +170,13 @@ export function getDefaultSidebarNavigation(): SidebarNavigation {
     bottomLinks: DEFAULT_BOTTOM_LINKS,
   };
 }
+
+function withTrailingSlash(path: string): string {
+  return path.endsWith('/') ? path : `${path}/`;
+}
+
+/** True when an internal nav link points at exactly the page being viewed (not a parent section). */
+export function isCurrentPage(href: string, currentPath: string | undefined): boolean {
+  if (!currentPath || !href.startsWith('/') || href.includes('#')) return false;
+  return withTrailingSlash(href.split('?')[0]) === withTrailingSlash(currentPath);
+}
