@@ -313,6 +313,7 @@ describe('deriveTitle', () => {
   it('strips inline markdown from the heading', () => {
     expect(deriveTitle('# [Galaxy](https://galaxyproject.org) **Tools** `x`', 'a').title).toBe('Galaxy Tools x');
     expect(deriveTitle('# GALAXY_SLOTS (for tool developers)', 'a').title).toBe('GALAXY_SLOTS (for tool developers)');
+    expect(deriveTitle('# _Data_ __Model__ a\\_b \\| c', 'a').title).toBe('Data Model a_b | c');
   });
 
   it('falls back to the slug when a later heading is at the same or a higher level', () => {
