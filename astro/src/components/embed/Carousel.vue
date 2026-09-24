@@ -23,12 +23,13 @@ const props = withDefaults(
 
 const currentIndex = ref(0);
 const isPaused = ref(false);
-const isPlaying = ref(false);
+const isPlaying = ref(props.autoplay);
 let autoplayTimer: ReturnType<typeof setInterval> | null = null;
 
 onMounted(() => {
-  if (props.autoplay && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    isPlaying.value = true;
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    isPlaying.value = false;
+  } else {
     startAutoplay();
   }
 });
