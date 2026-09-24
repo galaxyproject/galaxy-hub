@@ -1,7 +1,7 @@
 ---
 title: "BioFAIR Data to Discovery Single-Cell Training and CoFest"
 date: '2026-09-24'
-tease: "............."
+tease: "Highlights from a single-cell event in the UK and future opportunities to get involved with SPOC and BioFAIR."
 hide_tease: false
 tags:
 - hackathon
