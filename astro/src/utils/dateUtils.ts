@@ -16,9 +16,24 @@ export function isPublishedDate(date: Date | string | undefined, now: Date = new
 /**
  * Convert a date value to a Date object
  */
-function toDate(d: Date | string | undefined): Date | null {
+function toDate(d: Date | string | undefined | null): Date | null {
   if (!d) return null;
   return d instanceof Date ? d : new Date(d);
+}
+
+/**
+ * Last day of an event given as a start date and a length in days (`days: 1` is a one-day event)
+ * Returns undefined for one-day events and invalid input
+ */
+export function getEventEndFromDays(
+  start: Date | string | undefined | null,
+  days: number | undefined | null
+): Date | undefined {
+  const startDate = toDate(start);
+  if (!startDate || isNaN(startDate.getTime()) || !days || days <= 1) return undefined;
+  const end = new Date(startDate);
+  end.setUTCDate(end.getUTCDate() + days - 1);
+  return end;
 }
 
 /**
