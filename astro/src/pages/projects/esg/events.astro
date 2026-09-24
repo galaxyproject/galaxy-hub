@@ -5,7 +5,7 @@
  */
 import ESGLayout from '../../../layouts/ESGLayout.astro';
 import { getCollection } from 'astro:content';
-import { isUpcomingEvent, isPastEvent } from '../../../utils/dateUtils';
+import { formatDateRange, isUpcomingEvent, isPastEvent } from '../../../utils/dateUtils';
 
 // Check for solo mode
 const solo = Astro.url.searchParams.get('solo') === 'true';
@@ -31,24 +31,6 @@ const pastEvents = allEsgEvents
   .filter((e) => isPastEvent(e.data.date, e.data.end, now))
   .reverse()
   .slice(0, 20);
-
-function formatDate(date: Date | string | undefined): string {
-  if (!date) return '';
-  const d = typeof date === 'string' ? new Date(date) : date;
-  return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
-}
-
-function formatDateRange(start: Date | string | undefined, end: Date | string | undefined): string {
-  if (!start) return '';
-  const startDate = typeof start === 'string' ? new Date(start) : start;
-  const endDate = end ? (typeof end === 'string' ? new Date(end) : end) : null;
-
-  if (!endDate || startDate.getTime() === endDate.getTime()) {
-    return formatDate(startDate);
-  }
-
-  return `${formatDate(startDate)} - ${formatDate(endDate)}`;
-}
 
 function esgUrl(path: string): string {
   return solo ? `${path}?solo=true` : path;
