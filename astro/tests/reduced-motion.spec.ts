@@ -60,18 +60,34 @@ test.describe('Reduced motion', () => {
     });
   });
 
-  test('content carousel starts paused under reduced motion', async ({ page }) => {
-    await page.emulateMedia({ reducedMotion: 'reduce' });
-    await page.goto('/bare/eu/usegalaxy/main/');
+  test.describe('content carousel', () => {
+    async function hydratedCarousel(page: Page) {
+      await page.goto('/bare/eu/usegalaxy/main/');
+      await expect(page.locator('astro-island:has(.carousel)')).not.toHaveAttribute('ssr');
+      return page.locator('.carousel').first();
+    }
 
-    await expect(page.getByRole('button', { name: 'Play slide show' })).toBeVisible();
-  });
+    test('is rendered as playing before hydration', async ({ request }) => {
+      const html = await (await request.get('/bare/eu/usegalaxy/main/')).text();
+      expect(html).toContain('aria-label="Pause slide show"');
+    });
 
-  test('content carousel can be paused', async ({ page }) => {
-    await page.emulateMedia({ reducedMotion: 'no-preference' });
-    await page.goto('/bare/eu/usegalaxy/main/');
+    test('stays paused under reduced motion', async ({ page }) => {
+      await page.emulateMedia({ reducedMotion: 'reduce' });
+      const carousel = await hydratedCarousel(page);
 
-    await page.getByRole('button', { name: 'Pause slide show' }).click();
-    await expect(page.getByRole('button', { name: 'Play slide show' })).toBeVisible();
+      await expect(carousel.getByRole('button', { name: 'Play slide show' })).toBeVisible();
+      const src = await carousel.locator('img').first().getAttribute('src');
+      await page.waitForTimeout(6000);
+      expect(await carousel.locator('img').first().getAttribute('src')).toBe(src);
+    });
+
+    test('can be paused', async ({ page }) => {
+      await page.emulateMedia({ reducedMotion: 'no-preference' });
+      const carousel = await hydratedCarousel(page);
+
+      await carousel.getByRole('button', { name: 'Pause slide show' }).click();
+      await expect(carousel.getByRole('button', { name: 'Play slide show' })).toBeVisible();
+    });
   });
 });
