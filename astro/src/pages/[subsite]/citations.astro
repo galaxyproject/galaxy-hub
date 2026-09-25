@@ -1,12 +1,11 @@
 ---
-import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHeader from '../../components/layout/PageHeader.astro';
 import { subsites } from '../../stores/subsiteStore';
-import { Cite } from '@citation-js/core';
-import '@citation-js/plugin-bibtex';
+import CitationList from '../../components/citations/CitationList.astro';
+import { loadCitations } from '../../utils/citations';
 
 // Generate paths for all non-external subsites
 export function getStaticPaths() {
@@ -32,84 +31,7 @@ const projectRoot = path.resolve(fileURLToPath(new URL('../../../../', import.me
 const contentRoot = path.join(projectRoot, 'content');
 const citationDir = path.join(contentRoot, subsite, 'citations');
 
-function toYear(item: any) {
-  const parts = item?.issued?.['date-parts']?.[0];
-  if (Array.isArray(parts) && parts[0]) return parts[0];
-  return undefined;
-}
-
-function toAuthors(item: any) {
-  const authors = item?.author;
-  if (!Array.isArray(authors)) return undefined;
-  return authors
-    .map((a) => {
-      const family = a.family || a.literal || '';
-      const given = a.given || '';
-      return [family, given].filter(Boolean).join(', ');
-    })
-    .filter(Boolean)
-    .join('; ');
-}
-
-function toUrl(item: any) {
-  const doi = item?.DOI || item?.doi;
-  if (doi) return `https://doi.org/${doi}`;
-  if (item?.URL) return item.URL;
-  if (item?.url) return item.url;
-  return undefined;
-}
-
-async function loadCitations() {
-  try {
-    await fs.promises.access(citationDir);
-  } catch {
-    return { exists: false, citations: [] };
-  }
-
-  const files = (await fs.promises.readdir(citationDir)).filter((f) => f.toLowerCase().endsWith('.bib'));
-  if (files.length === 0) {
-    return { exists: true, citations: [] };
-  }
-
-  const citations: Array<{
-    title?: string;
-    authors?: string;
-    year?: number;
-    url?: string;
-    raw: any;
-  }> = [];
-  for (const file of files) {
-    const text = await fs.promises.readFile(path.join(citationDir, file), 'utf8');
-    const cite = new Cite(text);
-    for (const item of cite.data) {
-      citations.push({
-        title: item.title,
-        authors: toAuthors(item),
-        year: toYear(item),
-        url: toUrl(item),
-        raw: item,
-      });
-    }
-  }
-
-  citations.sort((a, b) => (b.year || 0) - (a.year || 0));
-  return { exists: true, citations };
-}
-
-const { exists, citations } = await loadCitations();
-const yearCounts = citations.reduce(
-  (acc, citation) => {
-    const key = citation.year ? String(citation.year) : 'unknown';
-    acc[key] = (acc[key] || 0) + 1;
-    return acc;
-  },
-  {} as Record<string, number>
-);
-const years = Object.keys(yearCounts).sort((a, b) => {
-  if (a === 'unknown') return 1;
-  if (b === 'unknown') return -1;
-  return Number(b) - Number(a);
-});
+const { exists, citations } = await loadCitations(citationDir);
 const emptyHint = `No citations found for ${subsite}. Add a BibTeX file at content/${subsite}/citations/.`;
 ---
 
@@ -128,125 +50,9 @@ const emptyHint = `No citations found for ${subsite}. Add a BibTeX file at conte
             <p>{emptyHint}</p>
           </div>
         ) : (
-          <div class="space-y-6">
-            <section class="rounded-lg border border-galaxy-primary/10 bg-bay-of-many-50 p-4 space-y-3">
-              <p class="text-sm text-chicago-700 font-medium">Filter by year</p>
-              <div class="flex flex-wrap items-center gap-2">
-                <a
-                  data-year-button
-                  data-year="all"
-                  href="."
-                  class="px-3 py-1.5 text-sm font-medium rounded-md bg-galaxy-primary text-white"
-                  aria-pressed="true"
-                >
-                  All <span class="ml-1 text-xs opacity-80">({citations.length})</span>
-                </a>
-                {years.map((year) => (
-                  <a
-                    data-year-button
-                    data-year={year}
-                    href={`?year=${encodeURIComponent(year)}`}
-                    class="px-3 py-1.5 text-sm font-medium rounded-md bg-ebony-clay-50 text-chicago-700 hover:bg-ebony-clay-100"
-                    aria-pressed="false"
-                  >
-                    {year === 'unknown' ? 'Unknown year' : year}
-                    <span class="ml-1 text-xs opacity-80">({yearCounts[year]})</span>
-                  </a>
-                ))}
-              </div>
-              <p class="text-sm text-chicago-500" data-filter-count>
-                Showing {citations.length} citation{citations.length === 1 ? '' : 's'}
-              </p>
-            </section>
-
-            {citations.map((c, idx) => (
-              <article
-                class="rounded-lg border border-galaxy-primary/10 bg-white p-4 shadow-sm"
-                key={`${c.title || 'citation'}-${idx}`}
-                data-citation-year={c.year ? String(c.year) : 'unknown'}
-              >
-                <div class="flex items-start justify-between gap-4">
-                  <div>
-                    <h2 class="text-lg font-semibold text-galaxy-dark">
-                      {c.url ? (
-                        <a
-                          href={c.url}
-                          class="hover:text-galaxy-primary transition-colors"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          set:html={c.title || 'Untitled'}
-                        />
-                      ) : (
-                        <span set:html={c.title || 'Untitled'} />
-                      )}
-                    </h2>
-                    {c.authors && <p class="text-sm text-chicago-600 mt-1">{c.authors}</p>}
-                  </div>
-                </div>
-              </article>
-            ))}
-          </div>
+          <CitationList citations={citations} />
         )
       }
     </div>
   </div>
-
-  <script>
-    (() => {
-      const buttons = Array.from(document.querySelectorAll('[data-year-button]'));
-      const items = Array.from(document.querySelectorAll('[data-citation-year]'));
-      const countEl = document.querySelector('[data-filter-count]');
-
-      function applyFilter(year) {
-        let visible = 0;
-
-        items.forEach((item) => {
-          const itemYear = item.dataset.citationYear || 'unknown';
-          const matches = year === 'all' ? true : itemYear === year;
-          item.classList.toggle('hidden', !matches);
-          if (matches) visible += 1;
-        });
-
-        buttons.forEach((btn) => {
-          const isActive = (btn.dataset.year || 'all') === year;
-          btn.setAttribute('aria-pressed', isActive ? 'true' : 'false');
-          btn.classList.toggle('bg-galaxy-primary', isActive);
-          btn.classList.toggle('text-white', isActive);
-          btn.classList.toggle('bg-ebony-clay-50', !isActive);
-          btn.classList.toggle('text-chicago-700', !isActive);
-        });
-
-        if (countEl) {
-          const label = year === 'all' ? 'citations' : `citations for ${year === 'unknown' ? 'Unknown year' : year}`;
-          countEl.textContent = `Showing ${visible} ${label}`;
-        }
-
-        const params = new URLSearchParams(window.location.search);
-        if (year === 'all') {
-          params.delete('year');
-        } else {
-          params.set('year', year);
-        }
-        const newUrl = `${window.location.pathname}${params.toString() ? `?${params.toString()}` : ''}`;
-        window.history.pushState({}, '', newUrl);
-      }
-
-      const searchParams = new URLSearchParams(window.location.search);
-      const initialYear = (() => {
-        const fromQuery = searchParams.get('year');
-        if (!fromQuery) return 'all';
-        const normalized = fromQuery.toLowerCase() === 'unknown' ? 'unknown' : fromQuery;
-        return buttons.some((b) => (b.dataset.year || '') === normalized) ? normalized : 'all';
-      })();
-
-      buttons.forEach((btn) => {
-        btn.addEventListener('click', (event) => {
-          event.preventDefault();
-          applyFilter(btn.dataset.year || 'all');
-        });
-      });
-
-      applyFilter(initialYear);
-    })();
-  </script>
 </BaseLayout>
