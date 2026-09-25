@@ -310,3 +310,5 @@ redirects:
   /bare/eu/usegalaxy/index-plants/: /bare/eu/usegalaxy/plants/
   /bare/eu/usegalaxy/index-streetscience/: /bare/eu/usegalaxy/streetscience/
   /news/2021-11-ghelp-stats/: /news/2021-11-25-ghelp-stats/
+  # Orbit moved out of the tool-developer section when /agents/ was created
+  /tools/orbit/: /agents/orbit/
