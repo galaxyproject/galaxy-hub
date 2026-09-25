@@ -98,15 +98,20 @@ def write_bibliography(destination: Path, data: bytes, check: bool) -> bool:
     return True
 
 
-def sync_zotero_bibliographies(check: bool) -> bool:
+def sync_zotero_bibliographies(check: bool) -> tuple[bool, list[str]]:
     changed = False
+    errors: list[str] = []
     for source in ZOTERO_BIBLIOGRAPHIES:
-        data = normalize_bibliography(fetch_zotero_bibliography(source["group_id"], source["tag"]))
-        if not ENTRY_HEADER.search(data):
-            raise RuntimeError(f"Zotero returned no BibTeX entries for {source['destination']}")
+        try:
+            data = normalize_bibliography(fetch_zotero_bibliography(source["group_id"], source["tag"]))
+            if not ENTRY_HEADER.search(data):
+                raise RuntimeError(f"Zotero returned no BibTeX entries for {source['destination']}")
+        except Exception as error:
+            errors.append(f"{source['tag']}: {error}")
+            continue
 
         changed = write_bibliography(source["destination"], data, check) or changed
-    return changed
+    return changed, errors
 
 
 def normalize_local_bibliographies(check: bool) -> bool:
@@ -129,9 +134,11 @@ def main() -> None:
     parser.add_argument("--check", action="store_true", help="Report updates without writing files")
     args = parser.parse_args()
 
-    changed = sync_zotero_bibliographies(args.check)
+    changed, errors = sync_zotero_bibliographies(args.check)
     changed = normalize_local_bibliographies(args.check) or changed
 
+    if errors:
+        raise SystemExit("\n".join(errors))
     if args.check and changed:
         raise SystemExit(1)
 
