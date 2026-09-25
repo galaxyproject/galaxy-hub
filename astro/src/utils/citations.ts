@@ -69,6 +69,18 @@ export async function loadCitations(citationDir: string): Promise<{ exists: bool
   return { exists: true, citations };
 }
 
+export async function loadSubsiteCitations<T extends { id: string }>(
+  subsites: T[],
+  contentRoot: string
+): Promise<{ subsite: T; citations: Citation[] }[]> {
+  const withEntries: { subsite: T; citations: Citation[] }[] = [];
+  for (const subsite of subsites) {
+    const { citations } = await loadCitations(path.join(contentRoot, subsite.id, 'citations'));
+    if (citations.length > 0) withEntries.push({ subsite, citations });
+  }
+  return withEntries;
+}
+
 export function groupCitationsByYear(citations: Citation[]): { yearCounts: Record<string, number>; years: string[] } {
   const yearCounts = citations.reduce(
     (acc, citation) => {
