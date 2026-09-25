@@ -38,7 +38,7 @@ test.describe('Subsite citations', () => {
   });
 
   test('subsites without citations have no citations page', async ({ page }) => {
-    const response = await page.goto('/us/citations/');
+    const response = await page.goto('/ifb/citations/');
     expect(response?.status()).toBe(404);
   });
 
