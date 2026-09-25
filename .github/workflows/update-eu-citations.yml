@@ -1,4 +1,4 @@
-name: Update EU Citations
+name: Update Server Citations
 on:
   workflow_dispatch:
   schedule:
@@ -35,8 +35,8 @@ jobs:
         uses: peter-evans/create-pull-request@v8
         with:
           token: ${{ steps.app-token.outputs.token }}
-          commit-message: 'chore(eu): update citations'
-          title: 'Update EU citation bibliographies'
-          body: 'Auto-generated PR with updated citation bibliographies for Galaxy Europe and its subsites.'
+          commit-message: 'chore(citations): update server citations'
+          title: 'Update server citation bibliographies'
+          body: 'Auto-generated PR with updated citation bibliographies for Galaxy Europe and the subsite servers.'
           branch: update-eu-citations
           delete-branch: true
