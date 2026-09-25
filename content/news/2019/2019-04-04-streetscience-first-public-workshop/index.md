@@ -1,7 +1,7 @@
 ---
 title: 'BeerDEcoded: 1st public workshop'
 date: '2019-04-04'
-external_url: https://streetscience.community/events/2019-03-10-first_public_workshop/
+external_url: https://web.archive.org/web/20191120215821/https://streetscience.community/events/2019-03-10-first_public_workshop/
 tags: [streetscience, society]
 subsites: [eu, freiburg]
 main_subsite: freiburg
