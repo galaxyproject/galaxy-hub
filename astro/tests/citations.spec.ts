@@ -29,11 +29,17 @@ test.describe('Subsite citations', () => {
       .toEqual([year]);
   });
 
-  test('us citations show hint when missing', async ({ page }) => {
-    const response = await page.goto('/us/citations/');
+  test('elixir-it citations render entries', async ({ page }) => {
+    const response = await page.goto('/elixir-it/citations/');
     expect(response?.status()).toBe(200);
 
-    await expect(page.getByText(/No citations found for us/i)).toBeVisible();
+    await expect(page.locator('h1')).toHaveText('ELIXIR-IT Citations');
+    await expect(page.locator('article').first()).toBeVisible();
+  });
+
+  test('subsites without citations have no citations page', async ({ page }) => {
+    const response = await page.goto('/us/citations/');
+    expect(response?.status()).toBe(404);
   });
 
   test('eu citations keep the server citation title and description', async ({ page }) => {
