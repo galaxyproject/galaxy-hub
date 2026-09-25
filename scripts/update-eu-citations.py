@@ -14,12 +14,28 @@ USEGALAXY_EU_TAG = ">UseGalaxy.eu"
 TIMEOUT_SECONDS = 60
 PAGE_SIZE = 100
 
+SUBSITE_ZOTERO_TAGS = {
+    "belgium": ">UseGalaxy.be",
+    "cz": ">MetaCentrum",
+    "genouest": ">GenOuest",
+    "pasteur": ">Pasteur",
+    "us": ">UseGalaxy.org",
+}
+
 ZOTERO_BIBLIOGRAPHIES = [
     {
         "group_id": ZOTERO_GROUP_ID,
         "tag": USEGALAXY_EU_TAG,
         "destination": Path("content/eu/citations/citations-eu.bib"),
     },
+    *(
+        {
+            "group_id": ZOTERO_GROUP_ID,
+            "tag": tag,
+            "destination": Path(f"content/{subsite}/citations/citations-{subsite}.bib"),
+        }
+        for subsite, tag in SUBSITE_ZOTERO_TAGS.items()
+    ),
 ]
 
 LOCAL_BIBLIOGRAPHIES = [
