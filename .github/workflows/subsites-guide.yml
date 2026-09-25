@@ -1,0 +1,70 @@
+name: Subsites Guide
+
+# Posts a PR comment explaining what `subsites` and `main_subsite` mean for the
+# news/events items changed in the PR.
+#
+# pull_request_target is used so that PRs from forks get the comment too. The
+# guide script always runs from the base-branch checkout; the PR only
+# contributes the list of changed file names (read as data, never executed).
+#
+# No `paths:` filter: the script reports "nothing to explain" when the latest
+# revision no longer touches news/events, which keeps the comment from going
+# stale.
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+
+concurrency:
+  group: subsites-guide-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  comment:
+    name: Explain subsites & main_subsite
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout base branch
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v7.0.0
+        with:
+          python-version: '3.12'
+
+      - name: Generate guide
+        if: github.event_name == 'pull_request_target'
+        run: |
+          git fetch --no-tags origin "pull/${{ github.event.pull_request.number }}/head"
+          base="$(git merge-base HEAD FETCH_HEAD)"
+          git diff --name-only "$base" FETCH_HEAD > /tmp/changed-files.txt
+          python scripts/subsites_pr_guide.py \
+            --files-from /tmp/changed-files.txt \
+            --out subsites-guide.md
+
+      - name: Post or update PR comment
+        if: github.event_name == 'pull_request_target'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const body = fs.readFileSync('subsites-guide.md', 'utf8').trim();
+            const marker = '<!-- galaxy-hub:subsites-guide -->';
+            const opts = {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+            };
+            const { data: comments } = await github.rest.issues.listComments(opts);
+            const existing = comments.find((c) => c.body && c.body.includes(marker));
+            if (existing) {
+              await github.rest.issues.updateComment({ ...opts, comment_id: existing.id, body });
+            } else {
+              await github.rest.issues.createComment({ ...opts, body });
+            }
