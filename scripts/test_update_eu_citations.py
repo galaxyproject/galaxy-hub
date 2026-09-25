@@ -15,6 +15,38 @@ SPEC.loader.exec_module(MODULE)
 ENTRY = b"@article{key_1,\n  title = {A paper},\n  year = {2024}\n}\n"
 
 
+class ZoteroBibliographiesTests(unittest.TestCase):
+    def test_eu_source_is_unchanged(self):
+        self.assertEqual(
+            MODULE.ZOTERO_BIBLIOGRAPHIES[0],
+            {
+                "group_id": "1732893",
+                "tag": ">UseGalaxy.eu",
+                "destination": Path("content/eu/citations/citations-eu.bib"),
+            },
+        )
+
+    def test_subsite_sources_write_to_their_citations_directory(self):
+        destinations = {str(source["destination"]): source["tag"] for source in MODULE.ZOTERO_BIBLIOGRAPHIES[1:]}
+
+        self.assertEqual(
+            destinations,
+            {
+                "content/belgium/citations/citations-belgium.bib": ">UseGalaxy.be",
+                "content/cz/citations/citations-cz.bib": ">MetaCentrum",
+                "content/genouest/citations/citations-genouest.bib": ">GenOuest",
+                "content/pasteur/citations/citations-pasteur.bib": ">Pasteur",
+                "content/us/citations/citations-us.bib": ">UseGalaxy.org",
+            },
+        )
+
+    def test_zotero_destinations_do_not_overlap_local_bibliographies(self):
+        zotero = {source["destination"] for source in MODULE.ZOTERO_BIBLIOGRAPHIES}
+
+        self.assertEqual(len(zotero), len(MODULE.ZOTERO_BIBLIOGRAPHIES))
+        self.assertFalse(zotero & set(MODULE.LOCAL_BIBLIOGRAPHIES))
+
+
 class SyncZoteroBibliographiesTests(unittest.TestCase):
     def setUp(self):
         temporary_directory = tempfile.TemporaryDirectory()
