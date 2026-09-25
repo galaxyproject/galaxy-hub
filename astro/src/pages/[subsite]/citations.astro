@@ -7,10 +7,10 @@ import { subsites } from '../../stores/subsiteStore';
 import CitationList from '../../components/citations/CitationList.astro';
 import { loadCitations } from '../../utils/citations';
 
-// Generate paths for all non-external subsites
+// Generate paths for all non-external subsites; Freiburg lists its team's publications at /freiburg/publications/
 export function getStaticPaths() {
   return subsites
-    .filter((s) => s.id !== 'global' && !('external' in s && s.external))
+    .filter((s) => s.id !== 'global' && s.id !== 'freiburg' && !('external' in s && s.external))
     .map((s) => ({
       params: { subsite: s.id },
       props: { subsiteInfo: s },
