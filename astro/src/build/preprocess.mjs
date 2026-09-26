@@ -175,26 +175,42 @@ function rewriteSrc(src, slug) {
 /**
  * Shift heading levels down by one when content has multiple h1 headings.
  * h1→h2, h2→h3, …, h5→h6. Headings already at h6 stay at h6.
- * Skips headings inside fenced code blocks.
+ * Lines inside fenced code blocks are neither counted nor shifted.
  */
 function shiftHeadings(content) {
-  const h1Count = (content.match(/^# (?!#)/gm) || []).length;
+  const lines = content.split('\n');
+  const inFence = fencedCodeLines(content.split(/\r?\n/));
+  const h1Count = lines.filter((line, i) => !inFence[i] && /^# (?!#)/.test(line)).length;
   if (h1Count < 2) return content;
 
-  let inFence = false;
-  return content
-    .split('\n')
-    .map((line) => {
-      if (/^(`{3,}|~{3,})/.test(line)) {
-        inFence = !inFence;
-      }
-      if (inFence) return line;
+  return lines
+    .map((line, i) => {
+      if (inFence[i]) return line;
       return line.replace(/^(#{1,6})( )/, (match, hashes, space) => {
         if (hashes.length >= 6) return match;
         return '#' + hashes + space;
       });
     })
     .join('\n');
+}
+
+/**
+ * Flag each line that belongs to a fenced code block, fence lines included.
+ * A fence closes only on a line of the same character at least as long as its opener.
+ */
+function fencedCodeLines(lines) {
+  let fence = null;
+  return lines.map((line) => {
+    if (fence) {
+      const close = line.match(/^ {0,3}(`{3,}|~{3,})[ \t]*$/);
+      if (close && close[1][0] === fence[0] && close[1].length >= fence.length) fence = null;
+      return true;
+    }
+    // A backtick fence's info string can't contain backticks, so ```x``` is inline code
+    const open = line.match(/^ {0,3}(?:(`{3,})[^`]*|(~{3,}).*)$/);
+    if (open) fence = open[1] || open[2];
+    return Boolean(open);
+  });
 }
 
 /**
