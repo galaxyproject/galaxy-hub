@@ -85,6 +85,26 @@ function addTocPlugin(options = {}) {
   };
 }
 
+const BARE_URL_RE = /(?<![a-z])(?:https?:\/\/|www\.)[^\s<>]+/gi;
+
+/** Stringify text, leaving bare URLs unescaped for Astro's GFM autolinker. */
+function textKeepingBareUrls(node, _, state, info) {
+  const { value } = node;
+  if (state.stack.includes('label')) return state.safe(value, info);
+
+  let result = '';
+  let start = 0;
+  let before = info.before;
+  for (const match of value.matchAll(BARE_URL_RE)) {
+    const url = match[0];
+    result += state.safe(value.slice(start, match.index), { ...info, before, after: url[0] });
+    result += url;
+    start = match.index + url.length;
+    before = url.at(-1);
+  }
+  return result + state.safe(value.slice(start), { ...info, before });
+}
+
 /**
  * Process markdown content with all transformations
  */
@@ -113,6 +133,7 @@ export async function processMarkdown(content, options = {}) {
     rule: '-',
     listItemIndent: 'one',
     resourceLink: true, // Prevent auto-link conversion for [url](url) patterns
+    handlers: { text: textKeepingBareUrls },
   });
 
   const result = await processor.process(content);
