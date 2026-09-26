@@ -13,7 +13,7 @@ Content lives in the `/content/` directory. Most pages are an `index.md` file in
 
 ### Editing an existing page
 
-The easiest way is to use the edit link on any Hub page — click the GitHub icon in the upper right corner. This takes you to the source file in GitHub where you can edit it directly and submit a pull request.
+The easiest way is to use the "Edit on Github" link near the bottom of any Hub page. This takes you to the source file in GitHub where you can edit it directly and submit a pull request.
 
 ### Creating a new page
 
@@ -69,6 +69,35 @@ Events have additional fields:
 | `location`  | Object with `name:` and optional `url:`              |
 | `contact`   | Event contact information                            |
 | `subsites`  | Array of subsites to display on, e.g. `[global, eu]` |
+
+### Subsites and `main_subsite` in news and events
+
+These two fields are easy to copy from an older item without realizing what they do. `subsites` decides which **subsite listings** show your item — for example `galaxyproject.org/eu/news/` or `/freiburg/events/`. The main `/news/` and `/events/` pages list every published item, so `subsites` never hides anything from the main site.
+
+| `subsites`              | Item appears on                                                                                                        |
+| :---------------------- | :--------------------------------------------------------------------------------------------------------------------- |
+| *(omitted)*             | main `/news/` or `/events/` page only                                                                                  |
+| `[global]`              | same as omitting subsites, but handled differently by feed consumers (see below)                                       |
+| `[all]`                 | main news/events page and all subpages                                                                                 |
+| `[all-eu]`              | main news/events page and the EU group of subpages: Europe, Freiburg, VIB (Belgium), Pasteur, ELIXIR-IT, ELIXIR-FR/IFB |
+| `[eu, freiburg]`, etc.  | main news/events page and the specific news/events subpages                                                            |
+
+Valid ids are listed in [`content/SUBSITES.yaml`](content/SUBSITES.yaml) — pick the values that match where your item belongs instead of copying them from an older item.
+
+`main_subsite` does not affect where an item appears on the Hub, but is published to the Hub's news and events feeds.
+The behavior of consumers of these feeds — most notably the Galaxy Social Assistant (see Social media below) — can be influenced by setting `main_subsite`.
+
+**Social media**: the [galaxy-social-assistant](https://github.com/usegalaxy-eu/galaxy-social-assistant) reads the `/news/feed.json` and `/events/feed.json` feeds and posts news from the last 30 days and upcoming events to the project's social channels based on these fields.
+
+For the exact rules of dispatching to different social media channels, see the project's [config file](https://github.com/usegalaxy-eu/galaxy-social-assistant/blob/main/config.yml).
+
+As general rules, the Social Assistant will:
+
+- give precedence to `main_subsite`, if it knows how to handle its value, over `subsites`.
+- **ignore** items that specify neither `subsites` nor `main_subsite`.
+
+This makes it possible to fine-tune the reach of items on social media.
+One consequence of this behavior is that if you want your item to appear only on the main `/news/` and `/events/` pages on the Hub, but *also* on global social media channels, use `subsites: [global]` explicitly instead of omitting `subsites`.
 
 ### Markdown
 
