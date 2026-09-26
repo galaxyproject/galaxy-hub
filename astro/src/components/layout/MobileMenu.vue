@@ -6,7 +6,7 @@ import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/co
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible';
 import { ChevronDown, Menu } from '@lucide/vue';
-import { navbarToSidebarNavigation, type NavbarData, type SidebarNavigation } from '@/utils/navbar';
+import { isCurrentPage, navbarToSidebarNavigation, type NavbarData, type SidebarNavigation } from '@/utils/navbar';
 
 interface NavItem {
   label: string;
@@ -62,6 +62,7 @@ const DEFAULT_MOBILE_NAV = {
 const props = defineProps<{
   navbar?: NavbarData | null;
   initialSubsite?: SubsiteId;
+  currentPath?: string;
 }>();
 
 const isOpen = ref(false);
@@ -142,9 +143,17 @@ function filteredItems(section: NavSection) {
       <div class="flex flex-col flex-1 min-h-0 overflow-y-auto">
         <!-- Region Switcher -->
         <div class="px-4 py-4 border-b border-medium-bg">
-          <label class="text-xs font-medium text-chicago-400 uppercase tracking-wider mb-2 block"> Region </label>
+          <label
+            id="mobile-region-switcher-label"
+            class="text-xs font-medium text-chicago-400 uppercase tracking-wider mb-2 block"
+          >
+            Region
+          </label>
           <Select :model-value="effectiveSubsite" @update:model-value="handleSubsiteChange">
-            <SelectTrigger class="w-full bg-medium-bg border-0 text-white">
+            <SelectTrigger
+              class="w-full bg-medium-bg border-0 text-white"
+              aria-labelledby="mobile-region-switcher-label"
+            >
               <SelectValue placeholder="Select region" />
             </SelectTrigger>
             <SelectContent class="bg-galaxy-dark border-medium-bg">
@@ -178,12 +187,13 @@ function filteredItems(section: NavSection) {
         </div>
 
         <!-- Navigation -->
-        <nav class="flex-1 p-4 space-y-2">
+        <nav class="flex-1 p-4 space-y-2" aria-label="Main">
           <div class="space-y-1">
             <a
               v-for="link in topLinks"
               :key="link.href"
               :href="link.href"
+              :aria-current="isCurrentPage(link.href, currentPath) ? 'page' : undefined"
               class="flex items-center px-3 py-2 text-sm font-medium text-gray-300 hover:bg-medium-bg hover:text-white rounded-md transition-colors"
               @click="!link.external && handleNavClick()"
             >
@@ -207,6 +217,7 @@ function filteredItems(section: NavSection) {
                   v-for="item in filteredItems(section)"
                   :key="item.href"
                   :href="item.href"
+                  :aria-current="isCurrentPage(item.href, currentPath) ? 'page' : undefined"
                   :target="item.external ? '_blank' : undefined"
                   :rel="item.external ? 'noopener noreferrer' : undefined"
                   class="flex items-center px-3 py-1.5 text-sm text-chicago-400 hover:bg-medium-bg hover:text-white rounded-md transition-colors"
@@ -238,6 +249,7 @@ function filteredItems(section: NavSection) {
               v-for="link in bottomLinks"
               :key="link.href"
               :href="link.href"
+              :aria-current="isCurrentPage(link.href, currentPath) ? 'page' : undefined"
               :target="link.external ? '_blank' : undefined"
               :rel="link.external ? 'noopener noreferrer' : undefined"
               class="flex items-center px-3 py-2 text-sm text-gray-400 hover:bg-medium-bg hover:text-white rounded-md transition-colors"

@@ -9,6 +9,7 @@
  */
 import { ClientRouter } from 'astro:transitions';
 import '../styles/global.css';
+import SkipLink from '../components/layout/SkipLink.astro';
 
 interface Props {
   title: string;
@@ -36,14 +37,15 @@ const { title, description = 'Galaxy Community Hub - Open source platform for da
     <ClientRouter />
   </head>
   <body>
+    <SkipLink />
     <!-- Masthead - always visible, transparent over hero -->
     <header id="masthead" class="masthead">
       <div class="masthead-inner">
-        <a href="/" class="masthead-logo">
+        <a href="/" class="masthead-logo" aria-current={Astro.url.pathname === '/' ? 'page' : undefined}>
           <img src="/images/galaxy_logo_hub_white.svg" alt="Galaxy" class="h-8" />
         </a>
 
-        <nav class="masthead-nav">
+        <nav class="masthead-nav" aria-label="Main">
           <a href="/news/">News</a>
           <a href="/events/">Events</a>
 
@@ -158,9 +160,11 @@ const { title, description = 'Galaxy Community Hub - Open source platform for da
     </header>
 
     <!-- Main Content -->
-    <main>
+    <main id="main-content" tabindex="-1">
       <slot />
     </main>
+
+    <slot name="footer" />
 
     <style>
       body {

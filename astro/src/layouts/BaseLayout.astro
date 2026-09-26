@@ -3,6 +3,7 @@ import { ClientRouter } from 'astro:transitions';
 import '../styles/global.css';
 import Sidebar from '../components/layout/Sidebar.astro';
 import MobileMenu from '../components/layout/MobileMenu.vue';
+import SkipLink from '../components/layout/SkipLink.astro';
 import { detectSubsiteFromPath } from '../stores/subsiteStore';
 import { getSubsiteNavbar } from '../utils/navbar-content';
 import Icon from '../components/mdx/Icon.astro';
@@ -36,37 +37,42 @@ const navbar = await getSubsiteNavbar(currentSubsite);
     <ClientRouter />
   </head>
   <body class="min-h-screen bg-background text-foreground">
+    <SkipLink />
     <div class="site-shell flex min-h-screen overflow-hidden">
       <!-- Sidebar (desktop only) -->
       <Sidebar transition:persist navbar={navbar} initialSubsite={currentSubsite} />
 
       <!-- Mobile header with Vue-powered menu -->
-      <div
+      <header
         class="site-mobile-header lg:hidden fixed top-0 left-0 right-0 z-50 bg-galaxy-dark p-4 flex items-center justify-between"
       >
         <a href="/" class="block">
           <img src="/images/galaxy_logo_hub_white.svg" alt="Galaxy Community Hub" class="h-8 w-auto" />
         </a>
-        <MobileMenu client:load navbar={navbar} initialSubsite={currentSubsite} />
-      </div>
+        <MobileMenu client:load navbar={navbar} initialSubsite={currentSubsite} currentPath={Astro.url.pathname} />
+      </header>
 
       <!-- Main content area -->
-      <main class="site-main flex-1 flex flex-col min-h-screen lg:ml-64 pt-22 lg:pt-0 min-w-0 overflow-x-hidden">
-        <div class="site-content flex-1 p-4 sm:p-6 lg:p-8 bg-light-bg bg-grid">
+      <div class="site-main flex-1 flex flex-col min-h-screen lg:ml-64 pt-22 lg:pt-0 min-w-0 overflow-x-hidden">
+        <main
+          id="main-content"
+          tabindex="-1"
+          class="site-content flex-1 p-4 sm:p-6 lg:p-8 bg-light-bg bg-grid scroll-mt-22 lg:scroll-mt-0"
+        >
           <slot />
-        </div>
+        </main>
 
         <!-- Footer -->
         <footer class="site-footer bg-galaxy-dark text-white py-8 px-4 sm:px-6 lg:px-8">
           <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
-              <h3 class="text-lg font-semibold text-galaxy-gold mb-4">Galaxy Project</h3>
+              <h2 class="text-lg font-semibold text-galaxy-gold mb-4">Galaxy Project</h2>
               <p class="text-sm text-chicago-300">
                 Open source platform for accessible, reproducible, and transparent data analysis.
               </p>
             </div>
             <div>
-              <h4 class="font-semibold mb-3">Resources</h4>
+              <h2 class="font-semibold mb-3">Resources</h2>
               <ul class="space-y-2 text-sm text-chicago-300">
                 <li><a href="/use/" class="hover:text-galaxy-gold">Use Galaxy</a></li>
                 <li><a href="https://training.galaxyproject.org" class="hover:text-galaxy-gold">Training</a></li>
@@ -74,7 +80,7 @@ const navbar = await getSubsiteNavbar(currentSubsite);
               </ul>
             </div>
             <div>
-              <h4 class="font-semibold mb-3">Community</h4>
+              <h2 class="font-semibold mb-3">Community</h2>
               <ul class="space-y-2 text-sm text-chicago-300">
                 <li><a href="/news/" class="hover:text-galaxy-gold">News</a></li>
                 <li><a href="/events/" class="hover:text-galaxy-gold">Events</a></li>
@@ -82,7 +88,7 @@ const navbar = await getSubsiteNavbar(currentSubsite);
               </ul>
             </div>
             <div>
-              <h4 class="font-semibold mb-3">Connect</h4>
+              <h2 class="font-semibold mb-3">Connect</h2>
               <div class="flex gap-3">
                 <a
                   href="https://github.com/galaxyproject"
@@ -105,7 +111,7 @@ const navbar = await getSubsiteNavbar(currentSubsite);
             <p>&copy; {new Date().getFullYear()} Galaxy Project. All rights reserved.</p>
           </div>
         </footer>
-      </main>
+      </div>
     </div>
   </body>
 </html>

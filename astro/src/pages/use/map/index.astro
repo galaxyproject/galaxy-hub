@@ -30,8 +30,10 @@ const platformData = prepareMapPlatformData(platforms);
     </style>
   </head>
   <body>
-    <div id="map-container">
-      <PlatformMap client:only="vue" platforms={platformData} />
-    </div>
+    <main>
+      <div id="map-container">
+        <PlatformMap client:only="vue" platforms={platformData} />
+      </div>
+    </main>
   </body>
 </html>
