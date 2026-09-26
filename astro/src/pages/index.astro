@@ -984,6 +984,15 @@ const pillars = [
       color: var(--text-muted);
       margin: 0;
     }
+
+    @media (prefers-reduced-motion: reduce) {
+      .btn-primary,
+      .btn-primary::before,
+      .stat-item,
+      .pillar-card {
+        animation: none;
+      }
+    }
   </style>
 
   <div class="homepage-v2">

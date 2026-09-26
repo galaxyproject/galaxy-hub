@@ -23,10 +23,13 @@ const props = withDefaults(
 
 const currentIndex = ref(0);
 const isPaused = ref(false);
+const isPlaying = ref(props.autoplay);
 let autoplayTimer: ReturnType<typeof setInterval> | null = null;
 
 onMounted(() => {
-  if (props.autoplay) {
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    isPlaying.value = false;
+  } else {
     startAutoplay();
   }
 });
@@ -88,8 +91,17 @@ function resumeAutoplay() {
 }
 
 function resetAutoplay() {
-  if (props.autoplay) {
+  if (isPlaying.value) {
     startAutoplay();
+  }
+}
+
+function toggleAutoplay() {
+  isPlaying.value = !isPlaying.value;
+  if (isPlaying.value) {
+    startAutoplay();
+  } else {
+    stopAutoplay();
   }
 }
 
@@ -127,19 +139,34 @@ function goTo(index: number) {
         @mouseenter="props.autoplay ? pauseAutoplay() : null"
         @mouseleave="props.autoplay ? resumeAutoplay() : null"
       >
-        <a v-if="normalizedImages[currentIndex].link" :href="normalizedImages[currentIndex].link" target="_blank">
+        <button
+          v-if="props.autoplay && canNavigate"
+          @click="toggleAutoplay"
+          class="absolute right-2 top-2 w-8 h-8 bg-black/50 hover:bg-black/70 text-white rounded-full flex items-center justify-center transition-colors"
+          :aria-label="isPlaying ? 'Pause slide show' : 'Play slide show'"
+        >
+          <svg v-if="isPlaying" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M6 5h4v14H6zM14 5h4v14h-4z" />
+          </svg>
+          <svg v-else class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M8 5v14l11-7z" />
+          </svg>
+        </button>
+        <div class="w-full h-full" :aria-live="isPlaying ? 'off' : 'polite'">
+          <a v-if="normalizedImages[currentIndex].link" :href="normalizedImages[currentIndex].link" target="_blank">
+            <img
+              :src="normalizedImages[currentIndex].src"
+              :alt="normalizedImages[currentIndex].alt || ''"
+              class="w-full h-full object-contain"
+            />
+          </a>
           <img
+            v-else
             :src="normalizedImages[currentIndex].src"
             :alt="normalizedImages[currentIndex].alt || ''"
             class="w-full h-full object-contain"
           />
-        </a>
-        <img
-          v-else
-          :src="normalizedImages[currentIndex].src"
-          :alt="normalizedImages[currentIndex].alt || ''"
-          class="w-full h-full object-contain"
-        />
+        </div>
 
         <!-- Navigation arrows -->
         <template v-if="canNavigate">
