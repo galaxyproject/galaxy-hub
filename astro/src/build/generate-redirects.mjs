@@ -31,6 +31,7 @@ const ASTRO_ROOT = path.resolve(__dirname, '../..');
 const REDIRECTS_YAML_PATH = path.join(ASTRO_ROOT, '..', 'content', 'redirects.yaml');
 const OUTPUT_PATH = path.join(ASTRO_ROOT, 'src/build/generated-redirects.json');
 const CONTENT_DIR = path.join(ASTRO_ROOT, 'src/content');
+const SITE_HOSTNAME = 'galaxyproject.org';
 
 /**
  * Normalize a slug segment to match Gridsome's legacy URL style
@@ -62,6 +63,28 @@ function hasFileExtension(urlPath) {
 function normalizeRedirectTarget(toPath) {
   if (toPath.includes('://') || toPath.endsWith('/') || hasFileExtension(toPath)) return toPath;
   return `${toPath}/`;
+}
+
+/**
+ * Map a page's `redirect:` frontmatter to a { from, to } redirect.
+ * Absolute URLs on this site become paths. Returns null for a redirect to the page
+ * itself or for an absolute URL that is not a valid http(s) URL.
+ */
+function contentRedirect(slug, redirect) {
+  const from = `/${slug}/`.replace(/\/+/g, '/');
+  let to = redirect;
+  if (/^[a-z][a-z\d+.-]*:\/\//i.test(redirect)) {
+    if (!/^https?:\/\//i.test(redirect) || !URL.canParse(redirect)) {
+      console.warn(`Skipping invalid redirect URL for ${from}: ${redirect}`);
+      return null;
+    }
+    const url = new URL(redirect);
+    if (url.hostname === SITE_HOSTNAME) to = `${url.pathname}${url.search}${url.hash}`;
+  } else if (!redirect.startsWith('/')) {
+    to = `/${redirect}`;
+  }
+  to = normalizeRedirectTarget(to);
+  return to === from ? null : { from, to };
 }
 
 /**
@@ -114,13 +137,10 @@ async function getContentData() {
           // Always track for natural/legacy/case-insensitive redirect generation
           contentItems.push({ slug, naturalSlug });
 
-          // If this content has a local redirect, capture that mapping.
-          // External URLs (https://...) can't be handled by Astro's redirect config,
-          // so those are left for the page template to handle via meta refresh.
-          if (redirect && !redirect.includes('://')) {
-            const fromPath = `/${slug}/`.replace(/\/+/g, '/');
-            const toPath = redirect.startsWith('/') ? redirect : `/${redirect}`;
-            contentRedirects[fromPath] = normalizeRedirectTarget(toPath);
+          // If this content has a redirect (internal path or external URL), capture that mapping.
+          const mapping = redirect ? contentRedirect(slug, redirect) : null;
+          if (mapping) {
+            contentRedirects[mapping.from] = mapping.to;
           }
         }
       }
@@ -283,4 +303,11 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     });
 }
 
-export { generateRedirects, legacyNormalize, legacyNormalizeSegment, normalizeRedirectTarget, hasFileExtension };
+export {
+  generateRedirects,
+  legacyNormalize,
+  legacyNormalizeSegment,
+  normalizeRedirectTarget,
+  hasFileExtension,
+  contentRedirect,
+};
