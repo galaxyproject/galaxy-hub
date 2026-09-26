@@ -18,6 +18,21 @@ const autolinkConfig = {
   },
 };
 
+// github-dark renders comments in #6A737D, 3.05:1 on its #24292E background; use its
+// lighter grey (5.34:1) so comments meet WCAG AA.
+const readableCodeComments = {
+  name: 'readable-code-comments',
+  tokens(lines) {
+    for (const line of lines) {
+      for (const token of line) {
+        if (token.color?.toLowerCase() === '#6a737d') {
+          token.color = '#959da5';
+        }
+      }
+    }
+  },
+};
+
 // Build redirect config with 301 status for SEO
 // Simple redirects: exact path mappings
 const simpleRedirects = Object.fromEntries(
@@ -55,6 +70,9 @@ export default defineConfig({
     processor: unified({
       rehypePlugins: [rehypeSlug, [rehypeAutolinkHeadings, autolinkConfig]],
     }),
+    shikiConfig: {
+      transformers: [readableCodeComments],
+    },
   },
   vite: {
     define: {
