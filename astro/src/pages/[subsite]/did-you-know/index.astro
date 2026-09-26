@@ -32,7 +32,7 @@ const items = await getDidYouKnow(subsiteId);
 const serialized: DykItem[] = items.map(toSerializable);
 ---
 
-<BaseLayout {pageTitle} description={pageDescription}>
+<BaseLayout title={pageTitle} description={pageDescription}>
   <div class="max-w-6xl mx-auto">
     <PageHeader title={headerTitle} description={pageDescription} {eyebrow} />
 

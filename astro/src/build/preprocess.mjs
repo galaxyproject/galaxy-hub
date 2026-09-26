@@ -197,6 +197,116 @@ function shiftHeadings(content) {
     .join('\n');
 }
 
+const ATX_HEADING_RE = /^ {0,3}(#{1,6})[ \t]+(.*?)(?:[ \t]+#+)?[ \t]*$/;
+const SETEXT_UNDERLINE_RE = /^ {0,3}(=+|-+)[ \t]*$/;
+const HTML_HEADING_RE = /<h([1-6])[\s>]/gi;
+const THEMATIC_BREAK_RE = /^ {0,3}([-*_])(?:[ \t]*\1){2,}[ \t]*$/;
+const FENCE_RE = /^(`{3,}|~{3,})/;
+
+/**
+ * Derive a title for a page whose frontmatter has none: its leading heading
+ * when no text precedes it (images, HTML wrappers and slots may) and no later
+ * heading is at the same or a higher level, otherwise a title built from the
+ * slug. `fromHeading` tells the caller to remove that heading, since the
+ * layout renders the title as the page h1.
+ */
+function deriveTitle(content, slug) {
+  const lines = content.split('\n');
+  for (const [index, line] of lines.entries()) {
+    const heading = line.match(ATX_HEADING_RE);
+    if (heading) {
+      const title = headingText(heading[2]);
+      const level = heading[1].length;
+      const hasSibling = headingLevels(lines.slice(index + 1)).some((other) => other <= level);
+      if (title && !hasSibling) return { title, fromHeading: true };
+      break;
+    }
+    const text = line
+      .replace(/!\[[^\]]*\]\([^)]*\)/g, '')
+      .replace(/\[\s*\]\([^)]*\)/g, '')
+      .replace(/<[^>]*>/g, '')
+      .trim();
+    if (text) break;
+  }
+  return { title: titleFromSlug(slug), fromHeading: false };
+}
+
+/**
+ * Levels of the ATX, setext and HTML headings outside fenced code.
+ */
+function headingLevels(lines) {
+  const levels = [];
+  let inFence = false;
+  let afterText = false;
+  for (const line of lines) {
+    if (FENCE_RE.test(line)) inFence = !inFence;
+    if (inFence || FENCE_RE.test(line)) {
+      afterText = false;
+      continue;
+    }
+    const atx = line.match(ATX_HEADING_RE);
+    const setext = !atx && afterText && line.match(SETEXT_UNDERLINE_RE);
+    if (atx) levels.push(atx[1].length);
+    if (setext) levels.push(setext[1].startsWith('=') ? 1 : 2);
+    for (const [, level] of line.matchAll(HTML_HEADING_RE)) levels.push(Number(level));
+    afterText = !atx && !setext && !THEMATIC_BREAK_RE.test(line) && line.trim() !== '';
+  }
+  return levels;
+}
+
+/**
+ * Remove the first heading outside fenced code whose text is `text`, and a
+ * thematic break that directly follows it as a title underline.
+ */
+function removeHeading(content, text) {
+  const lines = content.split('\n');
+  let inFence = false;
+  const index = lines.findIndex((line) => {
+    if (FENCE_RE.test(line)) inFence = !inFence;
+    const heading = !inFence && line.match(ATX_HEADING_RE);
+    return heading && headingText(heading[2]) === text;
+  });
+  if (index === -1) return content;
+  let next = index + 1;
+  while (next < lines.length && lines[next].trim() === '') next++;
+  const end = THEMATIC_BREAK_RE.test(lines[next] ?? '') ? next + 1 : index + 1;
+  lines.splice(index, end - index);
+  return lines.join('\n');
+}
+
+function headingText(raw) {
+  return raw
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, '')
+    .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1')
+    .replace(/<[^>]+>/g, '')
+    .replace(/(\*\*|\*|`)(.+?)\1/g, '$2')
+    .replace(/(^|[^\w\\])(__|_)(?=\S)(.+?)(?<=[^\s\\])\2(?!\w)/g, '$1$3')
+    .replace(/\\([!-/:-@[-`{-~])/g, '$1')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+/**
+ * "admin/data-integration" → "Data Integration"; a segment without letters
+ * keeps its parent for context: "toolshed/contributions/2016-10" → "Contributions 2016-10".
+ */
+function titleFromSlug(slug) {
+  const segments = slug.split('/').filter(Boolean);
+  const hasLetters = (segment) => /[a-z]/i.test(segment);
+  const parts = hasLetters(segments.at(-1) || '') ? segments.slice(-1) : segments.slice(-2);
+  return parts
+    .map((part) =>
+      hasLetters(part)
+        ? part
+            .split('-')
+            .filter(Boolean)
+            .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+            .join(' ')
+        : part
+    )
+    .join(' ');
+}
+
 /**
  * Process asset paths in markdown content — images, videos, PDFs, and other
  * files that live alongside content and get copied to /images/{slug}/.
@@ -521,6 +631,13 @@ async function processMarkdownFile(filePath, { contentDir = CONTENT_DIR, outputD
   // If any inlined insert has components: true, the parent must become MDX too.
   let processedContent = body;
   processedContent = processedContent.replace(JSX_COMMENT_RE, '');
+
+  // Articles without a frontmatter title get one from their own content, not from inserts
+  const derivedTitle =
+    collection === 'articles' && !frontmatter.title && !frontmatter.redirect
+      ? deriveTitle(processedContent, slug)
+      : null;
+
   const { content: inlinedContent, hasComponents: insertsHaveComponents } = inlineInserts(
     processedContent,
     0,
@@ -530,6 +647,10 @@ async function processMarkdownFile(filePath, { contentDir = CONTENT_DIR, outputD
 
   // Shift headings down if content has multiple h1s
   processedContent = shiftHeadings(processedContent);
+
+  if (derivedTitle?.fromHeading) {
+    processedContent = removeHeading(processedContent, derivedTitle.title);
+  }
 
   // Process content
   processedContent = addBootstrapMarker(processedContent);
@@ -548,6 +669,9 @@ async function processMarkdownFile(filePath, { contentDir = CONTENT_DIR, outputD
   const processedFrontmatter = processFrontmatter({ ...frontmatter });
   processedFrontmatter.slug = slug;
   processedFrontmatter.sourceFile = relativePath.replace(/\\/g, '/');
+  if (derivedTitle) {
+    processedFrontmatter.title = derivedTitle.title;
+  }
 
   // Rewrite frontmatter image path the same way we rewrite body image paths
   if (processedFrontmatter.image && typeof processedFrontmatter.image === 'string') {
@@ -588,7 +712,7 @@ async function processMarkdownFile(filePath, { contentDir = CONTENT_DIR, outputD
 
   const useMdx = frontmatter.components === true || insertsHaveComponents;
   const destPath = path.join(collectionDir, slugToFilename(slug, useMdx));
-  const newContent = matter.stringify(processedContent, processedFrontmatter);
+  const newContent = matter.stringify({ content: processedContent }, processedFrontmatter);
   await fs.promises.writeFile(destPath, newContent);
 
   return { source: filePath, destination: destPath, collection, slug, naturalSlug };
@@ -656,15 +780,15 @@ async function processBatch(items, processFn, batchSize = 50) {
     const batch = items.slice(i, i + batchSize);
     const batchResults = await Promise.allSettled(batch.map((item) => processFn(item)));
 
-    for (const result of batchResults) {
+    batchResults.forEach((result, index) => {
       if (result.status === 'fulfilled') {
         results.push(result.value);
         processed++;
       } else {
         errors++;
-        console.error(`Error:`, result.reason?.message || result.reason);
+        console.error(`Error in ${path.relative(CONTENT_DIR, batch[index])}:`, result.reason?.message || result.reason);
       }
-    }
+    });
 
     if (processed % 500 === 0 || i + batchSize >= items.length) {
       console.log(`  Processed ${processed}/${items.length} files...`);
@@ -852,8 +976,7 @@ export async function preprocessContent(options = {}) {
   }
 
   if (errors > 0) {
-    console.log('');
-    console.log(`Errors: ${errors} files failed to process`);
+    throw new Error(`${errors} files failed to process`);
   }
 
   return results;
@@ -1171,6 +1294,7 @@ export {
   insertCache,
   generateTease,
   shiftHeadings,
+  deriveTitle,
   processMarkdownFile,
   destPathsForMarkdown,
 };
