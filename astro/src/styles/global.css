@@ -165,6 +165,7 @@ body {
 .prose {
   --tw-prose-links: #25537b;
   --tw-prose-headings: #2c3143;
+  overflow-wrap: break-word;
 }
 
 .prose h1,
@@ -261,6 +262,39 @@ body {
   border-collapse: collapse;
 }
 
+/* Wide tables scroll inside the wrapper added by rehype-scrollable-tables. The wrapper
+   takes over the table's margins (Typography's 2em of the table's smaller font size, or
+   Bootstrap's 1rem bottom) and sits in a lower layer so Typography's adjacency rules
+   (h2 + *, first child) still zero it. Its full width keeps it below a preceding float,
+   where the 100%-wide table used to go, instead of being squeezed beside it. */
+@layer components {
+  .prose :where(.table-wrapper) {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 1.75em;
+    margin-bottom: 1.75em;
+  }
+
+  .prose-lg :where(.table-wrapper) {
+    margin-top: 1.7777778em;
+    margin-bottom: 1.7777778em;
+  }
+
+  .prose :where(.table-wrapper:has(> .bs-compat.table)) {
+    margin-bottom: 1rem;
+  }
+}
+
+/* The browser can move a table that malformed markup nests in another table out
+   next to it, inside the same wrapper; only the wrapper's outer edges take over. */
+.prose .table-wrapper > table:first-of-type {
+  margin-top: 0;
+}
+
+.prose .table-wrapper > table:last-of-type {
+  margin-bottom: 0;
+}
+
 .prose th,
 .prose td {
   border: 1px solid #e5e7eb;
@@ -327,7 +361,7 @@ body {
    ========================================================================== */
 .gx-tile-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr));
   gap: 1.5rem;
   margin: 1.5rem 0;
 }
