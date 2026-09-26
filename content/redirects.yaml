@@ -110,7 +110,7 @@ redirects:
   /widgets/news.html: /bare/eu/latest/news/
   /freiburg/projects.html: /freiburg/projects/
   /freiburg/services.html: /freiburg/services/
-  /freiburg/publications: /freiburg/citations/
+  /freiburg/citations/: /freiburg/publications/
   /freiburg/jobs: /careers/
   /freiburg/lower1/: /freiburg/services/
   /freiburg/lower3/: /freiburg/services/#acknowledgements
