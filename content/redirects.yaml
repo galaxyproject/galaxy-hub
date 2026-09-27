@@ -310,13 +310,5 @@ redirects:
   /bare/eu/usegalaxy/index-plants/: /bare/eu/usegalaxy/plants/
   /bare/eu/usegalaxy/index-streetscience/: /bare/eu/usegalaxy/streetscience/
   /news/2021-11-ghelp-stats/: /news/2021-11-25-ghelp-stats/
-  # The agent pages moved out of the tool-developer section into /agents/
+  # Orbit lived under /tools/ from June 2026 until the /agents/ section was added
   /tools/orbit/: /agents/orbit/
-  /tools/ai-agents/: /agents/plugins/
-  /tools/ai-agents/api-key/: /agents/plugins/#get-a-galaxy-api-key
-  /tools/ai-agents/claude-code/: /agents/plugins/#guide-claude-code
-  /tools/ai-agents/codex/: /agents/plugins/#guide-codex
-  /tools/ai-agents/antigravity/: /agents/plugins/#guide-antigravity
-  /tools/ai-agents/pi/: /agents/plugins/#guide-pi
-  /tools/ai-agents/claude-desktop/: /agents/plugins/#guide-claude-desktop
-  /tools/agentic-stack/: /agents/stack/
