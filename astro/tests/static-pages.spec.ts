@@ -35,17 +35,19 @@ test.describe('Static Pages', () => {
       await expect(hero).toContainText('Galaxy');
     });
 
-    test('hero offers the agentic entry point alongside Use Galaxy and Learn More', async ({ page }) => {
+    test('hero offers the agents entry point under Use Galaxy and Learn More', async ({ page }) => {
       await page.goto('/');
 
       const actions = page.locator('.hero-actions');
       await expect(actions.locator('a.btn-primary')).toContainText('Use Galaxy');
       await expect(actions.locator('a.btn-secondary')).toContainText('Learn More');
+      // A link below the buttons, not a third button competing with Use Galaxy.
+      await expect(actions.locator('a')).toHaveCount(2);
 
-      const agentic = actions.locator('a.btn-agentic');
-      await expect(agentic).toBeVisible();
-      await expect(agentic).toContainText('Use Galaxy with Agents');
-      await expect(agentic).toHaveAttribute('href', '/tools/agentic-stack/');
+      const agents = page.locator('.hero-agents-link');
+      await expect(agents).toBeVisible();
+      await expect(agents).toContainText('Use Galaxy with an AI agent');
+      await expect(agents).toHaveAttribute('href', '/tools/ai-agents/');
     });
 
     test('hero highlight carousel offers the paper and the video', async ({ page }) => {

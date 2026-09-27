@@ -319,29 +319,31 @@ const pillars = [
       border-color: rgba(255, 255, 255, 0.4);
     }
 
-    /* Third hero CTA: gold outline so it reads as new without competing with
-       the solid-gold primary. */
-    .btn-agentic {
+    /* Agents entry under the hero buttons: a link rather than a third button, so
+       it flags something new without competing with Use Galaxy. */
+    .hero-agents-row {
+      display: flex;
+      margin-top: 1rem;
+      margin-bottom: 0.5rem;
+    }
+    @media (max-width: 900px) {
+      .hero-agents-row {
+        justify-content: center;
+      }
+    }
+    .hero-agents-link {
       display: inline-flex;
       align-items: center;
-      gap: 0.5rem;
-      padding: 0.875rem 1.75rem;
-      background: transparent;
-      border: 1px solid var(--galaxy-gold);
+      gap: 0.55rem;
       color: var(--galaxy-gold);
-      font-weight: 600;
       font-size: 0.95rem;
-      border-radius: 6px;
+      font-weight: 600;
       text-decoration: none;
-      transition: all 0.2s ease;
     }
-
-    .btn-agentic:hover {
-      background: rgba(255, 215, 0, 0.12);
-      border-color: var(--galaxy-gold-dark);
-      transform: translateY(-1px);
+    .hero-agents-link:hover {
+      text-decoration: underline;
+      text-underline-offset: 3px;
     }
-
     .btn-badge {
       padding: 0.1rem 0.4rem;
       border-radius: 999px;
@@ -1051,9 +1053,24 @@ const pillars = [
               </svg>
             </a>
             <a href="/get-started/" class="btn-secondary"> Learn More </a>
-            <a href="/tools/agentic-stack/" class="btn-agentic">
-              Use Galaxy with Agents
+          </div>
+          <div class="hero-agents-row">
+            <a href="/tools/ai-agents/" class="hero-agents-link">
               <span class="btn-badge">New</span>
+              Use Galaxy with an AI agent
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
             </a>
           </div>
           <div class="server-links">
