@@ -87,7 +87,7 @@ help:
 
 ## Get started
 
-Three parts, in the order of the stack. One install, one form, one API key.
+Three parts, in the order of the stack. An agent and Galaxy are enough to start; user-defined tools are what let the agent fill gaps, and they need a one-time access request.
 
 <div class="gx-tile-grid stack-steps">
 
@@ -96,9 +96,11 @@ Three parts, in the order of the stack. One install, one form, one API key.
 
 ### An agent
 
-Add Galaxy to the coding agent you already use (Claude Code, Codex, Antigravity or Pi; Claude Desktop takes the connection without the skills), or use [Orbit](https://galaxyproject.github.io/loom/), a desktop app built around Galaxy; the same agent runs in the terminal as the Loom CLI. A coding agent needs two plugins from one marketplace: the Galaxy connection (`galaxy-mcp`) and the Galaxy skills, including `udt-authoring`, the skill the agent follows when it writes a tool; the install takes your Galaxy URL and API key. Orbit registers the connection itself, fetches the same skills on first use, and takes the same URL and key in its preferences. It drafts a plan, waits for your approval, routes steps to Galaxy and keeps a git-tracked `notebook.md`.
+The quickest start is [Orbit](/tools/orbit/), a desktop app built around Galaxy. It registers the Galaxy connection itself, fetches the Galaxy skills on first use, and takes your Galaxy URL and API key in its preferences. It drafts a plan, waits for your approval, routes steps to Galaxy and keeps a git-tracked `notebook.md`. The same agent runs in the terminal as the Loom CLI, and [the Loom site](https://galaxyproject.github.io/loom/) covers how it works.
 
-**[Step-by-step install guides for every agent →](/tools/ai-agents/)** — Claude Code, Codex, Antigravity, Pi and Claude Desktop, plus how to get your API key. · [Orbit →](/tools/orbit/)
+If you already use a coding agent (Claude Code, Codex, Antigravity or Pi), add Galaxy to it instead: two plugins from one marketplace, the Galaxy connection (`galaxy-mcp`) and the Galaxy skills, including `udt-authoring`, the skill the agent follows when it writes a tool. The install takes your Galaxy URL and API key. Claude Desktop takes the connection without the skills.
+
+**[Install Orbit →](/tools/orbit/)** · [Install guides for every other agent →](/tools/ai-agents/)
 
 </div>
 </div>
@@ -108,7 +110,7 @@ Add Galaxy to the coding agent you already use (Claude Code, Codex, Antigravity 
 
 ### User-defined tools
 
-A user-defined tool (UDT) is a short YAML file: a container image, a shell command, and typed inputs and outputs. An enabled user can create one from the Galaxy interface or, as the agent does, through the API; no admin install, no Tool Shed. Every UDT runs in its container, and the `$(...)` expressions that build the command see only the declared inputs. Those limits are what make it safe for an agent to write tools in your account. UDTs are in beta on usegalaxy.org, enabled per account by an administrator. Request access on the sign-up page linked below; signing in with ORCID is optional but usually speeds review. Once enabled, **Custom Tools** appears in your Activity Bar. On any other Galaxy server, ask its administrators.
+A user-defined tool (UDT) is a short YAML file: a container image, a shell command, and typed inputs and outputs. An enabled user can create one from the Galaxy interface or, as the agent does, through the API; no admin install, no Tool Shed. Every UDT runs in its container, and the `$(...)` expressions that build the command see only the declared inputs. That keeps what an agent can write narrow; how isolated the running job is beyond that, such as its network access, depends on how the Galaxy server runs jobs. UDTs are in beta on usegalaxy.org, enabled per account by an administrator. Request access on the sign-up page linked below; signing in with ORCID is optional but usually speeds review. Once enabled, **Custom Tools** appears in your Activity Bar. On any other Galaxy server, ask its administrators.
 
 [Request access on usegalaxy.org →](https://udt-signup.galaxyproject.org/) · [UDT documentation](/tools/user-defined-tools/)
 

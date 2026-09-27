@@ -67,8 +67,10 @@ test.describe('Agentic stack page', () => {
       expect(await page.locator(`a[href="${href}"]`).count(), href).toBeGreaterThan(0);
     }
 
-    // The hero routes straight to the per-agent install guides.
-    await expect(stack.locator('.stk-cta a[href="/tools/ai-agents/"]')).toBeVisible();
+    // The hero routes straight to Orbit and to the per-agent install guides, Orbit first.
+    const ctas = stack.locator('.stk-cta a');
+    await expect(ctas.nth(1)).toHaveAttribute('href', '/tools/orbit/');
+    await expect(ctas.nth(2)).toHaveAttribute('href', '/tools/ai-agents/');
 
     // The stack strip points at the three cards, and those ids exist.
     const strip = stack.getByRole('list', { name: 'The stack' });

@@ -38,11 +38,14 @@ const strip = [
       <p class="stk-eyebrow">Any agent · Galaxy provenance</p>
       <h1 class="stk-title">The Galaxy <em>agentic stack</em></h1>
       <p class="stk-lede">
-        To use Galaxy agentically you need three things: an agent that decides what to run, user-defined tools that fill
-        any gap in the tool set, and Galaxy, which runs each step in a container and keeps the record.
+        An agent decides what to run and Galaxy runs each step in a container and keeps the record. When no installed
+        tool fits, the agent can write one as a user-defined tool, and Galaxy runs that too.
       </p>
       <div class="stk-cta">
         <a class="stk-btn" href="#get-started">Get started <Fragment set:html={svg(icons.arrow)} /></a>
+        <a class="stk-btn stk-btn--ghost" href="/tools/orbit/"
+          >Start with Orbit <Fragment set:html={svg(icons.arrow)} /></a
+        >
         <a class="stk-btn stk-btn--ghost" href="/tools/ai-agents/"
           >Install Galaxy in your agent <Fragment set:html={svg(icons.arrow)} /></a
         >
