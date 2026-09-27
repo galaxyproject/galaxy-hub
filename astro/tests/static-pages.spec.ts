@@ -48,6 +48,22 @@ test.describe('Static Pages', () => {
       await expect(agentic).toHaveAttribute('href', '/tools/agentic-stack/');
     });
 
+    test('hero highlight carousel offers the paper and the video', async ({ page }) => {
+      await page.goto('/');
+
+      const slides = page.locator('.hero-carousel-slide');
+      await expect(slides).toHaveCount(2);
+      await expect(page.locator('.hero-carousel-dot')).toHaveCount(2);
+
+      // The video slide carries a play badge and leaves the site in a new tab.
+      const video = slides.filter({ has: page.locator('.hero-carousel-play') });
+      await expect(video).toHaveCount(1);
+      await expect(video).toHaveAttribute('href', 'https://youtu.be/wT3iGaV1DdI');
+      await expect(video).toHaveAttribute('target', '_blank');
+      await expect(video).toHaveAttribute('rel', /noopener/);
+      await expect(video.locator('img')).toHaveAttribute('src', /galaxy-ai-agents-60-seconds/);
+    });
+
     test('shows upcoming events section', async ({ page }) => {
       await page.goto('/');
 

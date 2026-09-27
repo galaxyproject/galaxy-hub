@@ -3,7 +3,8 @@ import { normalizeSlug } from '../build/slug-utils.mjs';
 import HeroCarousel from './HeroCarousel.vue';
 
 // Edit these to change the homepage hero highlights.
-// Each entry needs { rawImage, link, alt }.
+// Each entry needs { rawImage, link, alt }; add `video: true` to draw a play
+// badge over the thumbnail and open the link in a new tab.
 // Set image to "" on an entry (or remove it) to skip that highlight.
 // If all images are empty, the Galaxy logo will be shown instead.
 // With multiple entries, they rotate as a carousel.
@@ -12,6 +13,12 @@ const highlights = [
     rawImage: '/images/NAR-2026-Update.png',
     link: 'https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkag469/8704296',
     alt: 'Galaxy update published in Nuclaic Acids Research',
+  },
+  {
+    rawImage: '/images/galaxy-ai-agents-60-seconds.jpg',
+    link: 'https://youtu.be/wT3iGaV1DdI',
+    alt: 'Watch: Galaxy + AI Agents in 60 Seconds',
+    video: true,
   },
 ];
 
@@ -26,7 +33,7 @@ function normalizeImagePath(src: string) {
 }
 
 const items = highlights
-  .map(({ rawImage, link, alt }) => ({ image: normalizeImagePath(rawImage), link, alt }))
+  .map(({ rawImage, link, alt, video }) => ({ image: normalizeImagePath(rawImage), link, alt, video: !!video }))
   .filter(({ image }) => image);
 ---
 
