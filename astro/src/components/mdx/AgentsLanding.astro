@@ -1,8 +1,8 @@
 ---
 /**
- * AgentsLanding: the /agents/ front door. Orbit is the default answer (one
- * large card with the real app), and bringing your own coding agent is the
- * secondary path, followed by pointers into the rest of the section. The
+ * AgentsLanding: the /agents/ front door. Two equal paths, each showing what
+ * you'd actually be using: Orbit (the desktop app) and your own coding agent
+ * with the Galaxy plugins. Then pointers into the rest of the section. The
  * page's own markdown renders below, as this component's children.
  */
 import { icons, svg } from '../../lib/icons';
@@ -37,42 +37,62 @@ const more = [
         history.
       </p>
 
-      <article class="agl-orbit" aria-labelledby="agl-orbit-title">
-        <figure class="agl-orbit__shot">
-          <img
-            src="/images/agents/orbit/orbit-interface-overview.png"
-            alt="Orbit with a plan the agent drafted, waiting for approval, next to the phylogenetic tree it produced"
-            width="2000"
-            height="1111"
-            decoding="async"
-          />
-        </figure>
-        <div class="agl-orbit__text">
-          <p class="agl-orbit__ask">Just want to get started?</p>
-          <h2 class="agl-orbit__title" id="agl-orbit-title">Use Orbit</h2>
-          <p class="agl-orbit__body">
-            Orbit is a desktop app with Galaxy already connected and the Galaxy skills built in. Tell it what you want
-            to find out; it drafts a plan, waits for your go-ahead, runs the steps on Galaxy and keeps a notebook of
-            what it did.
-          </p>
-          <p class="agl-orbit__meta">
-            For macOS, Linux and Windows. Orbit is in beta, and you bring the model: an API key, or a ChatGPT sign-in.
-          </p>
-          <div class="agl-orbit__actions">
-            <a class="agl-btn agl-btn--gold" href="/agents/orbit/"
-              >Install Orbit <Fragment set:html={svg(icons.arrow)} /></a
-            >
-            <a class="agl-link" href="https://galaxyproject.github.io/loom/">How Orbit works</a>
+      <div class="agl-paths">
+        <article class="agl-path" aria-labelledby="agl-path-orbit">
+          <figure class="agl-path__visual">
+            <img
+              src="/images/agents/orbit/orbit-interface-overview.png"
+              alt="Orbit with a plan the agent drafted, waiting for approval, next to the phylogenetic tree it produced"
+              width="2000"
+              height="1111"
+              decoding="async"
+            />
+          </figure>
+          <div class="agl-path__text">
+            <p class="agl-path__ask">Just want to get started?</p>
+            <h2 class="agl-path__title" id="agl-path-orbit">Use Orbit</h2>
+            <p class="agl-path__body">
+              A desktop app with Galaxy already connected and the Galaxy skills built in. Tell it what you want to find
+              out; it drafts a plan, waits for your go-ahead and runs the steps on Galaxy.
+            </p>
+            <p class="agl-path__meta">
+              macOS, Linux and Windows. In beta; bring a model API key or sign in with ChatGPT.
+            </p>
+            <div class="agl-path__actions">
+              <a class="agl-btn" href="/agents/orbit/">Install Orbit <Fragment set:html={svg(icons.arrow)} /></a>
+              <a class="agl-link" href="https://galaxyproject.github.io/loom/">How Orbit works</a>
+            </div>
           </div>
-        </div>
-      </article>
+        </article>
 
-      <div class="agl-own">
-        <p class="agl-own__text">
-          <strong>Already have a coding agent you like?</strong>
-          Add Galaxy to Claude Code, Codex, Antigravity, Pi or Claude Desktop with the Galaxy plugin set.
-        </p>
-        <a class="agl-btn agl-btn--outline" href="/agents/plugins/">Set up your agent</a>
+        <article class="agl-path" aria-labelledby="agl-path-plugins">
+          <figure class="agl-path__visual">
+            <div class="agl-term" aria-hidden="true">
+              <div class="agl-term__bar"><span></span><span></span><span></span><em>claude</em></div>
+              <pre
+                class="agl-term__body"><span class="p">$</span> claude
+<span class="p">&gt;</span> Upload both FASTQ files to a new history
+  'run 12' and run FastQC.
+  <span class="t">create_history</span> <span class="d">run 12 → history created</span>
+  <span class="t">upload_file</span> <span class="d">R1, R2 → 2 datasets</span>
+  <span class="t">search_tools_by_name</span> <span class="d">fastqc → FastQC 0.74</span>
+  <span class="t">run_tool</span> <span class="d">fastqc × 2 → 2 jobs queued</span></pre>
+            </div>
+          </figure>
+          <div class="agl-path__text">
+            <p class="agl-path__ask">Already have a coding agent you like?</p>
+            <h2 class="agl-path__title" id="agl-path-plugins">Add Galaxy to your agent</h2>
+            <p class="agl-path__body">
+              Keep Claude Code, Codex, Antigravity, Pi or Claude Desktop, and give it the Galaxy connection and curated
+              Galaxy skills with one install.
+            </p>
+            <p class="agl-path__meta">Setup guides for each agent, plus how to get your Galaxy API key.</p>
+            <div class="agl-path__actions">
+              <a class="agl-btn" href="/agents/plugins/">Set up your agent <Fragment set:html={svg(icons.arrow)} /></a>
+              <a class="agl-link" href="https://github.com/galaxyproject/agentic-plugins">Browse the plugins</a>
+            </div>
+          </div>
+        </article>
       </div>
     </div>
   </section>
@@ -182,11 +202,23 @@ const more = [
     text-wrap: pretty;
   }
 
-  /* ---- Orbit: the default path ---- */
+  /* ---- The two paths, on equal footing ---- */
 
-  .agl-orbit {
+  .agl-paths {
     display: grid;
     grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  @media (min-width: 880px) {
+    .agl-paths {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  .agl-path {
+    display: flex;
+    flex-direction: column;
     overflow: hidden;
     border-radius: 0.5rem;
     background: #fff;
@@ -196,75 +228,132 @@ const more = [
       0 2px 4px -2px rgb(0 0 0 / 0.1);
   }
 
-  @media (min-width: 880px) {
-    .agl-orbit {
-      grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr);
-    }
-  }
-
-  .agl-orbit__shot {
+  /* .agl-scoped so it outranks the reset on figure above. */
+  .agl .agl-path__visual {
     display: flex;
     align-items: center;
-    padding: 1rem 0.75rem;
+    justify-content: center;
+    aspect-ratio: 16 / 9;
+    /* Hold the ratio exactly so both panels match and the text below lines up. */
+    min-height: 0;
+    overflow: hidden;
+    container-type: inline-size;
+    padding: 0.9rem 1rem;
     background: var(--agl-light);
   }
 
-  .agl-orbit__shot img {
+  .agl-path__visual img {
     display: block;
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: contain;
   }
 
-  .agl-orbit__text {
+  .agl-path__text {
     display: flex;
+    flex: 1;
     flex-direction: column;
-    gap: 0.75rem;
-    padding: 1.75rem 1.5rem 1.75rem;
+    gap: 0.7rem;
+    padding: 1.6rem 1.6rem 1.75rem;
   }
 
-  @media (min-width: 880px) {
-    .agl-orbit__text {
-      justify-content: center;
-      padding: 2.25rem 2.25rem 2.25rem 2rem;
-    }
-  }
-
-  .agl .agl-orbit__ask {
+  .agl .agl-path__ask {
     font-size: 1rem;
     font-weight: 700;
     color: var(--agl-primary);
   }
 
-  .agl .agl-orbit__title {
-    margin-top: -0.35rem;
-    font-size: clamp(1.75rem, 3vw, 2.1rem);
+  .agl .agl-path__title {
+    margin-top: -0.3rem;
+    font-size: clamp(1.5rem, 2.6vw, 1.85rem);
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.12;
     letter-spacing: -0.01em;
     color: var(--agl-dark);
   }
 
-  .agl .agl-orbit__body {
+  .agl .agl-path__body {
     font-size: 1rem;
     line-height: 1.55;
     color: var(--agl-grey);
   }
 
-  .agl .agl-orbit__meta {
+  .agl .agl-path__meta {
     font-size: 0.875rem;
     line-height: 1.5;
     color: color-mix(in srgb, var(--agl-grey) 80%, transparent);
   }
 
-  .agl-orbit__actions {
+  /* Pushes the actions to the bottom so the two cards' buttons line up. */
+  .agl-path__actions {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 0.75rem 1.25rem;
-    margin-top: 0.5rem;
+    margin-top: auto;
+    padding-top: 0.5rem;
   }
 
-  /* ---- Buttons (DESIGN.md brand CTAs) ---- */
+  /* ---- The coding-agent visual: a static terminal matching the plugin page's shells ---- */
+
+  .agl-term {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    background: #1e2231;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 0.18);
+  }
+
+  .agl-term__bar {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.5rem 0.7rem;
+    background: var(--agl-dark);
+  }
+
+  .agl-term__bar span {
+    width: 0.55rem;
+    height: 0.55rem;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.22);
+  }
+
+  .agl-term__bar em {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 1.6rem;
+    font-size: 0.7rem;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.55);
+  }
+
+  .agl .agl-term__body {
+    margin: 0;
+    padding: 0.75rem 0.9rem 0.9rem;
+    overflow: hidden;
+    background: none;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    /* Sized off the panel, not the viewport, so it always fits the 16:9 frame. */
+    font-size: clamp(0.58rem, 2.9cqi, 0.78rem);
+    line-height: 1.55;
+    white-space: pre;
+    color: #d5dbe5;
+  }
+
+  .agl-term__body .p {
+    color: var(--agl-gold);
+  }
+
+  .agl-term__body .t {
+    color: #9cc3ff;
+  }
+
+  .agl-term__body .d {
+    color: rgba(213, 219, 229, 0.6);
+  }
+
+  /* ---- Buttons (DESIGN.md brand CTA) ---- */
 
   .agl-btn {
     display: inline-flex;
@@ -274,9 +363,7 @@ const more = [
     border-radius: 0.5rem;
     font-size: 1rem;
     font-weight: 700;
-    transition:
-      background-color 0.15s ease,
-      border-color 0.15s ease;
+    transition: background-color 0.15s ease;
   }
 
   .agl-btn :global(svg) {
@@ -284,24 +371,13 @@ const more = [
     height: 1rem;
   }
 
-  .agl a.agl-btn--gold {
+  .agl a.agl-btn {
     background: var(--agl-gold);
     color: var(--agl-dark);
   }
 
-  .agl a.agl-btn--gold:hover {
+  .agl a.agl-btn:hover {
     background: var(--agl-gold-dark);
-  }
-
-  .agl a.agl-btn--outline {
-    flex-shrink: 0;
-    border: 2px solid rgba(255, 255, 255, 0.3);
-    color: #fff;
-  }
-
-  .agl a.agl-btn--outline:hover {
-    background: rgba(255, 255, 255, 0.1);
-    border-color: rgba(255, 255, 255, 0.5);
   }
 
   .agl a.agl-link {
@@ -314,39 +390,6 @@ const more = [
 
   .agl a.agl-link:hover {
     text-decoration-color: var(--agl-gold-dark);
-  }
-
-  /* ---- Bring your own agent: the secondary path ---- */
-
-  .agl-own {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
-    margin-top: 1.25rem;
-    padding: 1.25rem 1.5rem;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 0.5rem;
-  }
-
-  @media (min-width: 720px) {
-    .agl-own {
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
-      gap: 2rem;
-    }
-  }
-
-  .agl .agl-own__text {
-    max-width: 44rem;
-    font-size: 1rem;
-    line-height: 1.55;
-    color: rgba(255, 255, 255, 0.82);
-  }
-
-  .agl-own__text strong {
-    color: #fff;
   }
 
   /* ---- Pointers into the rest of the section ---- */
@@ -455,18 +498,15 @@ const more = [
       color: #000;
     }
     .agl-hero__grid,
-    .agl-orbit__shot {
+    .agl-path__visual {
       display: none;
     }
     .agl-title,
     .agl-title em,
-    .agl-lede,
-    .agl-own__text,
-    .agl-own__text strong,
-    .agl a.agl-btn--outline {
+    .agl-lede {
       color: #000;
     }
-    .agl-orbit,
+    .agl-path,
     .agl-more {
       box-shadow: none;
       background: none;
