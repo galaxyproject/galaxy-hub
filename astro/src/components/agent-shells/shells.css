@@ -168,60 +168,101 @@
   text-wrap: pretty;
 }
 
-.ash-lede strong {
-  color: #fff;
-  font-weight: 700;
-}
-
-.ash-cta {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+/* Two doors: Orbit for people without a harness, the plugins for people with one.
+   Orbit takes the gold so the no-setup path reads as the default. */
+.ash-doors {
+  display: grid;
+  grid-template-columns: 1fr;
   gap: 0.75rem;
+  max-width: 44rem;
+  margin: 0 auto;
+  text-align: left;
 }
 
-.ash-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.7rem 1.4rem;
-  border-radius: 0.5rem;
-  font-weight: 700;
-  font-size: 0.95rem;
+@media (min-width: 640px) {
+  .ash-doors {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.ash-door {
+  --link-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 1rem 1.2rem;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 0.6rem;
+  color: #fff;
   text-decoration: none;
   transition:
     background-color 0.15s ease,
-    border-color 0.15s ease,
-    color 0.15s ease;
+    border-color 0.15s ease;
 }
 
-.ash-btn svg {
+.ash-door:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.ash-door--orbit {
+  --link-color: var(--ash-dark);
+  background: var(--ash-gold);
+  border-color: var(--ash-gold);
+  color: var(--ash-dark);
+}
+
+.ash-door--orbit:hover {
+  background: var(--ash-gold-dark);
+  border-color: var(--ash-gold-dark);
+}
+
+.ash-door__kicker {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.75;
+}
+
+.ash-door__title {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.ash-door__title svg,
+.ash-src svg {
   width: 1rem;
   height: 1rem;
 }
 
-.ash-btn--gold {
-  --link-color: var(--ash-dark);
-  background: var(--ash-gold);
-  color: var(--ash-dark);
+.ash-door__body {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  opacity: 0.85;
 }
 
-.ash-btn--gold:hover {
-  background: var(--ash-gold-dark);
+.ash-src {
+  --link-color: rgba(255, 255, 255, 0.7);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
 }
 
-.ash-btn--ghost {
+.ash-src:hover {
   --link-color: #fff;
-  border: 2px solid rgba(255, 255, 255, 0.3);
   color: #fff;
 }
 
-.ash-btn--ghost:hover {
-  background: rgba(255, 255, 255, 0.1);
-  border-color: rgba(255, 255, 255, 0.5);
-}
-
-.ash-btn:focus-visible,
+.ash-door:focus-visible,
+.ash-src:focus-visible,
 .ash-tab:focus-visible,
 .ash-ctl:focus-visible {
   outline: 2px solid var(--ash-gold);
@@ -1113,22 +1154,22 @@
   .ash-title,
   .ash-title em,
   .ash-lede,
-  .ash-lede strong,
   .ash-eyebrow,
   .ash-chip,
-  .ash-btn {
+  .ash-door,
+  .ash-src {
     color: #000;
   }
 
-  .ash-btn--gold,
-  .ash-btn--ghost,
+  .ash-door,
   .ash-chip {
     background: none;
     border: 1px solid #999;
   }
 
   .ash-chip::after,
-  .ash-btn::after {
+  .ash-door::after,
+  .ash-src::after {
     content: '' !important;
   }
 }

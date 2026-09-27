@@ -29,6 +29,15 @@ const selectedGuide = (page: Page) => page.locator('[data-harness-guides] [data-
 const visiblePanels = (page: Page) => page.locator('[data-harness-guides] [data-guide-panel]:not([hidden])');
 
 test.describe('AI agents landing page', () => {
+  test('hero offers Orbit first, then the plugins', async ({ page }) => {
+    await page.goto('/tools/ai-agents/');
+    const doors = page.locator('.ash-doors .ash-door');
+    await expect(doors).toHaveCount(2);
+    await expect(doors.first()).toHaveAttribute('href', '/tools/orbit/');
+    await expect(doors.first()).toContainText('Start with Orbit');
+    await expect(doors.nth(1)).toHaveAttribute('href', '#pick-your-agent');
+  });
+
   test('renders hero, harness tabs, the agent grid and the guide panels', async ({ page }) => {
     const errors: string[] = [];
     page.on('pageerror', (err) => errors.push(err.message));
