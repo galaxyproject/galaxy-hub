@@ -19,6 +19,7 @@ import Insert from '../components/mdx/Insert.astro';
 import AgentShells from '../components/mdx/AgentShells.astro';
 import HarnessGuides from '../components/mdx/HarnessGuides.astro';
 import HarnessGuide from '../components/mdx/HarnessGuide.astro';
+import AgenticStack from '../components/mdx/AgenticStack.astro';
 
 export async function getStaticPaths() {
   const articles = await getCollection('articles');
@@ -63,6 +64,7 @@ const components = {
   AgentShells,
   HarnessGuides,
   HarnessGuide,
+  AgenticStack,
 };
 ---
 

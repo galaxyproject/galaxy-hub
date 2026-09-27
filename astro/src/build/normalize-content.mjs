@@ -462,6 +462,7 @@ const KNOWN_COMPONENTS = [
   'AgentShells',
   'HarnessGuides',
   'HarnessGuide',
+  'AgenticStack',
 ];
 
 function bodyHasComponents(body) {
