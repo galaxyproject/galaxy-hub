@@ -17,7 +17,8 @@ const highlights = [
   {
     rawImage: '/images/galaxy-ai-agents-60-seconds.jpg',
     link: 'https://youtu.be/wT3iGaV1DdI',
-    alt: 'Watch: Galaxy + AI Agents in 60 Seconds',
+    alt: 'Galaxy + AI Agents in 60 Seconds',
+    title: 'Galaxy + AI Agents in 60 Seconds',
     video: true,
   },
 ];
@@ -33,7 +34,13 @@ function normalizeImagePath(src: string) {
 }
 
 const items = highlights
-  .map(({ rawImage, link, alt, video }) => ({ image: normalizeImagePath(rawImage), link, alt, video: !!video }))
+  .map(({ rawImage, link, alt, video, title }) => ({
+    image: normalizeImagePath(rawImage),
+    link,
+    alt,
+    video: !!video,
+    title,
+  }))
   .filter(({ image }) => image);
 ---
 

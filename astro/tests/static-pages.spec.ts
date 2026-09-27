@@ -61,7 +61,14 @@ test.describe('Static Pages', () => {
       await expect(video).toHaveAttribute('href', 'https://youtu.be/wT3iGaV1DdI');
       await expect(video).toHaveAttribute('target', '_blank');
       await expect(video).toHaveAttribute('rel', /noopener/);
-      await expect(video.locator('img')).toHaveAttribute('src', /galaxy-ai-agents-60-seconds/);
+      await expect(video.locator('.hero-video-card__thumb')).toHaveAttribute('src', /galaxy-ai-agents-60-seconds/);
+      await expect(video.locator('.hero-video-card__title')).toHaveText('Galaxy + AI Agents in 60 Seconds');
+
+      // The card matches the image slides' aspect ratio, so the box never resizes.
+      const heights = await page
+        .locator('.hero-carousel-slide')
+        .evaluateAll((els) => els.map((e) => Math.round(e.getBoundingClientRect().height)));
+      expect(new Set(heights).size).toBe(1);
     });
 
     test('shows upcoming events section', async ({ page }) => {
