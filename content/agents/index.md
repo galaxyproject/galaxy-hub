@@ -10,7 +10,7 @@ full_bleed: true
 
 <AgentsLanding>
 
-## Either way, it is still Galaxy
+## Either way, it's still Galaxy
 
 Both routes run the work as ordinary Galaxy jobs in your own account, which is the point of doing
 this on Galaxy at all: real histories, provenance, sharable links, and workflows you can rerun or

@@ -1,9 +1,9 @@
 ---
 /**
- * AgentsLanding: the /agents/ front door. A dark hero that routes people to
- * Orbit (no agent yet) or to the plugin guides (bringing their own agent),
- * then a row of pointers into the rest of the section. The page's own markdown
- * renders below, as this component's children.
+ * AgentsLanding: the /agents/ front door. Orbit is the default answer (one
+ * large card with the real app), and bringing your own coding agent is the
+ * secondary path, followed by pointers into the rest of the section. The
+ * page's own markdown renders below, as this component's children.
  */
 import { icons, svg } from '../../lib/icons';
 
@@ -11,12 +11,12 @@ const more = [
   {
     href: '/agents/stack/',
     title: 'The Galaxy agentic stack',
-    body: 'Watch an agent write its own tool when nothing installed fits, and see everything Galaxy records.',
+    body: 'See an agent write its own tool when nothing installed fits, and everything Galaxy records along the way.',
   },
   {
     href: '/tools/user-defined-tools/',
     title: 'User-defined tools',
-    body: 'The small YAML tools an agent writes and runs in your account. Beta, enabled per account.',
+    body: 'The small YAML tools an agent can write and run in your account. In beta, enabled per account.',
   },
   {
     href: 'https://github.com/galaxyproject/galaxy-mcp',
@@ -29,45 +29,50 @@ const more = [
 
 <div class="agl not-prose">
   <section class="agl-hero">
+    <div class="agl-hero__grid bg-grid-dark" aria-hidden="true"></div>
     <div class="agl-hero__inner">
-      <p class="agl-eyebrow">AI agents on Galaxy</p>
       <h1 class="agl-title">Put an <em>AI agent</em> to work on Galaxy</h1>
       <p class="agl-lede">
-        An agent can talk through your data, draft an analysis plan, run it on Galaxy and keep a record you can come
-        back to. Pick how you want to start.
+        Talk through your data, approve a plan, and let an agent run it on Galaxy, with every step recorded in your
+        history.
       </p>
 
-      <div class="agl-paths">
-        <div class="agl-path agl-path--orbit">
-          <p class="agl-path__kicker">Just getting started?</p>
-          <h2 class="agl-path__title">Use Orbit</h2>
-          <p class="agl-path__body">
-            A desktop app with the Galaxy connection and curated Galaxy skills already built in. Describe the analysis
-            you want; it drafts a plan, waits for your approval, and runs it on Galaxy.
+      <article class="agl-orbit" aria-labelledby="agl-orbit-title">
+        <figure class="agl-orbit__shot">
+          <img
+            src="/images/agents/orbit/orbit-interface-overview.png"
+            alt="Orbit with a plan the agent drafted, waiting for approval, next to the phylogenetic tree it produced"
+            width="2000"
+            height="1111"
+            decoding="async"
+          />
+        </figure>
+        <div class="agl-orbit__text">
+          <p class="agl-orbit__ask">Just want to get started?</p>
+          <h2 class="agl-orbit__title" id="agl-orbit-title">Use Orbit</h2>
+          <p class="agl-orbit__body">
+            Orbit is a desktop app with Galaxy already connected and the Galaxy skills built in. Tell it what you want
+            to find out; it drafts a plan, waits for your go-ahead, runs the steps on Galaxy and keeps a notebook of
+            what it did.
           </p>
-          <p class="agl-path__meta">macOS, Linux and Windows. Beta; bring your own model key.</p>
-          <div class="agl-path__actions">
-            <a class="agl-action agl-action--dark" href="/agents/orbit/"
+          <p class="agl-orbit__meta">
+            For macOS, Linux and Windows. Orbit is in beta, and you bring the model: an API key, or a ChatGPT sign-in.
+          </p>
+          <div class="agl-orbit__actions">
+            <a class="agl-btn agl-btn--gold" href="/agents/orbit/"
               >Install Orbit <Fragment set:html={svg(icons.arrow)} /></a
             >
-            <a class="agl-action agl-action--quiet" href="https://galaxyproject.github.io/loom/">How it works</a>
+            <a class="agl-link" href="https://galaxyproject.github.io/loom/">How Orbit works</a>
           </div>
         </div>
+      </article>
 
-        <div class="agl-path">
-          <p class="agl-path__kicker">Already use a coding agent?</p>
-          <h2 class="agl-path__title">Add Galaxy to it</h2>
-          <p class="agl-path__body">
-            Keep the harness you know. One install gives Claude Code, Codex, Antigravity or Pi the Galaxy connection and
-            curated skills; Claude Desktop gets the connection.
-          </p>
-          <p class="agl-path__meta">Step-by-step setup for each harness, plus your Galaxy API key.</p>
-          <div class="agl-path__actions">
-            <a class="agl-action agl-action--gold" href="/agents/plugins/"
-              >Set up your agent <Fragment set:html={svg(icons.arrow)} /></a
-            >
-          </div>
-        </div>
+      <div class="agl-own">
+        <p class="agl-own__text">
+          <strong>Already have a coding agent you like?</strong>
+          Add Galaxy to Claude Code, Codex, Antigravity, Pi or Claude Desktop with the Galaxy plugin set.
+        </p>
+        <a class="agl-btn agl-btn--outline" href="/agents/plugins/">Set up your agent</a>
       </div>
     </div>
   </section>
@@ -78,9 +83,8 @@ const more = [
         more.map((m) => (
           <li>
             <a class="agl-tile" href={m.href} {...(m.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}>
-              <span class="agl-tile__title">
-                {m.title} <Fragment set:html={svg(icons.arrow)} />
-              </span>
+              <span class="agl-tile__bar" aria-hidden="true" />
+              <span class="agl-tile__title">{m.title}</span>
               <span class="agl-tile__body">{m.body}</span>
             </a>
           </li>
@@ -97,9 +101,11 @@ const more = [
 <style>
   .agl {
     --agl-dark: var(--color-galaxy-dark, #2c3143);
+    --agl-primary: var(--color-galaxy-primary, #25537b);
     --agl-gold: var(--color-galaxy-gold, #ffd700);
     --agl-gold-dark: var(--color-galaxy-gold-dark, #d19e00);
-    --agl-primary: var(--color-galaxy-primary, #25537b);
+    --agl-grey: var(--color-galaxy-grey, #58585a);
+    --agl-light: var(--color-light-bg, #edf4fa);
     /* Cancel the article padding so the hero runs edge to edge, as on the other agent pages. */
     margin: -1.5rem -1.5rem 0;
   }
@@ -111,7 +117,7 @@ const more = [
   }
 
   /* The hub's unlayered .prose rules outrank component classes; reset them here. */
-  .agl :is(h1, h2, p) {
+  .agl :is(h1, h2, p, figure) {
     margin: 0;
     padding: 0;
     border: 0;
@@ -122,40 +128,41 @@ const more = [
     text-decoration: none;
   }
 
+  /* ---- Hero ---- */
+
   .agl-hero {
-    background:
-      radial-gradient(120% 90% at 85% -10%, color-mix(in srgb, var(--agl-primary) 55%, transparent), transparent 60%),
-      linear-gradient(170deg, var(--agl-dark) 0%, #1e2231 100%);
+    position: relative;
+    background: linear-gradient(135deg, var(--agl-dark) 0%, var(--agl-primary) 100%);
     color: #fff;
   }
 
+  .agl-hero__grid {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+  }
+
   .agl-hero__inner {
-    max-width: 64rem;
+    position: relative;
+    max-width: 68rem;
     margin: 0 auto;
-    padding: 3rem 1.25rem 3.25rem;
-    text-align: center;
+    padding: 3rem 1.25rem 3rem;
   }
 
   @media (min-width: 640px) {
     .agl-hero__inner {
-      padding: 4rem 2.5rem 4.25rem;
+      padding: 4rem 2.5rem 3.5rem;
     }
   }
 
-  .agl-eyebrow {
-    font-size: 0.72rem;
-    font-weight: 700;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: var(--agl-gold);
-  }
-
   .agl .agl-title {
-    margin: 0.9rem 0 1rem;
-    font-size: clamp(2rem, 5.2vw, 3.2rem);
+    max-width: 22ch;
+    margin: 0 auto;
+    font-size: clamp(2.1rem, 5vw, 3.25rem);
     font-weight: 700;
     line-height: 1.08;
     letter-spacing: -0.02em;
+    text-align: center;
     color: #fff;
     text-wrap: balance;
   }
@@ -166,193 +173,280 @@ const more = [
   }
 
   .agl .agl-lede {
-    max-width: 42rem;
-    margin: 0 auto 2.25rem;
-    font-size: clamp(1rem, 1.7vw, 1.15rem);
+    max-width: 40rem;
+    margin: 1.1rem auto 2.5rem;
+    font-size: clamp(1.02rem, 1.7vw, 1.18rem);
     line-height: 1.55;
-    color: rgba(255, 255, 255, 0.78);
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
     text-wrap: pretty;
   }
 
-  .agl-paths {
+  /* ---- Orbit: the default path ---- */
+
+  .agl-orbit {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1rem;
-    max-width: 52rem;
-    margin: 0 auto;
-    text-align: left;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    background: #fff;
+    color: var(--agl-dark);
+    box-shadow:
+      0 4px 6px -1px rgb(0 0 0 / 0.1),
+      0 2px 4px -2px rgb(0 0 0 / 0.1);
   }
 
-  @media (min-width: 720px) {
-    .agl-paths {
-      grid-template-columns: 1fr 1fr;
+  @media (min-width: 880px) {
+    .agl-orbit {
+      grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr);
     }
   }
 
-  .agl-path {
+  .agl-orbit__shot {
     display: flex;
-    flex-direction: column;
-    gap: 0.55rem;
-    padding: 1.5rem 1.5rem 1.4rem;
-    border: 2px solid rgba(255, 255, 255, 0.22);
-    border-radius: 0.75rem;
-    background: rgba(255, 255, 255, 0.04);
-    color: #fff;
+    align-items: center;
+    padding: 1rem 0.75rem;
+    background: var(--agl-light);
   }
 
-  .agl-path--orbit {
-    border-color: var(--agl-gold);
-    background: var(--agl-gold);
+  .agl-orbit__shot img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .agl-orbit__text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 1.75rem 1.5rem 1.75rem;
+  }
+
+  @media (min-width: 880px) {
+    .agl-orbit__text {
+      justify-content: center;
+      padding: 2.25rem 2.25rem 2.25rem 2rem;
+    }
+  }
+
+  .agl .agl-orbit__ask {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--agl-primary);
+  }
+
+  .agl .agl-orbit__title {
+    margin-top: -0.35rem;
+    font-size: clamp(1.75rem, 3vw, 2.1rem);
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -0.01em;
     color: var(--agl-dark);
   }
 
-  .agl-path__kicker {
-    font-size: 0.72rem;
-    font-weight: 700;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    opacity: 0.75;
+  .agl .agl-orbit__body {
+    font-size: 1rem;
+    line-height: 1.55;
+    color: var(--agl-grey);
   }
 
-  .agl .agl-path__title {
-    font-size: 1.5rem;
-    font-weight: 700;
-    line-height: 1.2;
-    color: inherit;
-  }
-
-  .agl-path__body {
-    font-size: 0.97rem;
+  .agl .agl-orbit__meta {
+    font-size: 0.875rem;
     line-height: 1.5;
-    opacity: 0.9;
+    color: color-mix(in srgb, var(--agl-grey) 80%, transparent);
   }
 
-  .agl-path__meta {
-    font-size: 0.85rem;
-    opacity: 0.7;
-  }
-
-  .agl-path__actions {
+  .agl-orbit__actions {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 0.5rem 1rem;
-    margin-top: auto;
-    padding-top: 0.6rem;
+    gap: 0.75rem 1.25rem;
+    margin-top: 0.5rem;
   }
 
-  .agl-action {
+  /* ---- Buttons (DESIGN.md brand CTAs) ---- */
+
+  .agl-btn {
     display: inline-flex;
     align-items: center;
-    gap: 0.45rem;
-    font-weight: 700;
-    font-size: 0.95rem;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
     border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 700;
     transition:
       background-color 0.15s ease,
-      color 0.15s ease;
+      border-color 0.15s ease;
   }
 
-  .agl-action :global(svg) {
+  .agl-btn :global(svg) {
     width: 1rem;
     height: 1rem;
   }
 
-  .agl a.agl-action--dark {
-    padding: 0.65rem 1.2rem;
-    background: var(--agl-dark);
-    color: #fff;
-  }
-
-  .agl a.agl-action--dark:hover {
-    background: #1e2231;
-  }
-
-  .agl a.agl-action--gold {
-    padding: 0.65rem 1.2rem;
+  .agl a.agl-btn--gold {
     background: var(--agl-gold);
     color: var(--agl-dark);
   }
 
-  .agl a.agl-action--gold:hover {
+  .agl a.agl-btn--gold:hover {
     background: var(--agl-gold-dark);
   }
 
-  .agl a.agl-action--quiet {
-    color: var(--agl-dark);
+  .agl a.agl-btn--outline {
+    flex-shrink: 0;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+  }
+
+  .agl a.agl-btn--outline:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .agl a.agl-link {
+    font-weight: 700;
+    color: var(--agl-primary);
     text-decoration: underline;
+    text-decoration-color: color-mix(in srgb, var(--agl-primary) 35%, transparent);
     text-underline-offset: 3px;
   }
 
-  .agl-action:focus-visible,
-  .agl-tile:focus-visible {
-    outline: 2px solid var(--agl-primary);
-    outline-offset: 2px;
+  .agl a.agl-link:hover {
+    text-decoration-color: var(--agl-gold-dark);
   }
 
+  /* ---- Bring your own agent: the secondary path ---- */
+
+  .agl-own {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-top: 1.25rem;
+    padding: 1.25rem 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0.5rem;
+  }
+
+  @media (min-width: 720px) {
+    .agl-own {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      gap: 2rem;
+    }
+  }
+
+  .agl .agl-own__text {
+    max-width: 44rem;
+    font-size: 1rem;
+    line-height: 1.55;
+    color: rgba(255, 255, 255, 0.82);
+  }
+
+  .agl-own__text strong {
+    color: #fff;
+  }
+
+  /* ---- Pointers into the rest of the section ---- */
+
   .agl-more {
-    max-width: 64rem;
-    margin: 0 auto;
-    padding: 2.5rem 1.25rem 0.5rem;
+    background: var(--agl-light);
   }
 
   .agl-more__list {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 0.9rem;
-    margin: 0;
-    padding: 0;
+    gap: 1rem;
+    max-width: 68rem;
+    margin: 0 auto;
+    padding: 2.5rem 1.25rem;
     list-style: none;
   }
 
-  @media (min-width: 720px) {
+  @media (min-width: 640px) {
     .agl-more__list {
-      grid-template-columns: repeat(3, 1fr);
+      padding: 2.5rem 2.5rem;
+    }
+  }
+
+  @media (min-width: 880px) {
+    .agl-more__list {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
     }
   }
 
   .agl-tile {
+    position: relative;
     display: flex;
     flex-direction: column;
-    gap: 0.35rem;
+    gap: 0.4rem;
     height: 100%;
-    padding: 1.1rem 1.2rem;
-    border: 1px solid color-mix(in srgb, var(--agl-primary) 18%, transparent);
-    border-radius: 0.6rem;
+    overflow: hidden;
+    padding: 1.25rem 1.4rem;
+    border: 1px solid color-mix(in srgb, var(--agl-primary) 10%, transparent);
+    border-radius: 0.5rem;
     background: #fff;
-    transition:
-      border-color 0.15s ease,
-      box-shadow 0.15s ease;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    transition: box-shadow 0.2s ease;
+  }
+
+  /* DESIGN.md's signature hover: a gold bar grows in from the left edge. */
+  .agl-tile__bar {
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 4px;
+    background: var(--agl-gold);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.2s ease;
   }
 
   .agl-tile:hover {
-    border-color: color-mix(in srgb, var(--agl-primary) 45%, transparent);
-    box-shadow: 0 2px 10px rgb(0 0 0 / 0.06);
+    box-shadow:
+      0 4px 6px -1px rgb(0 0 0 / 0.1),
+      0 2px 4px -2px rgb(0 0 0 / 0.1);
+  }
+
+  .agl-tile:hover .agl-tile__bar,
+  .agl-tile:focus-visible .agl-tile__bar {
+    transform: scaleX(1);
   }
 
   .agl-tile__title {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.4rem;
+    font-size: 1.1rem;
     font-weight: 700;
-    color: var(--agl-primary);
-  }
-
-  .agl-tile__title :global(svg) {
-    width: 0.9rem;
-    height: 0.9rem;
+    color: var(--agl-dark);
   }
 
   .agl-tile__body {
-    font-size: 0.92rem;
-    line-height: 1.45;
-    color: #4b5563;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: var(--agl-grey);
   }
+
+  .agl-btn:focus-visible,
+  .agl-link:focus-visible,
+  .agl-tile:focus-visible {
+    outline: 2px solid var(--agl-gold);
+    outline-offset: 3px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .agl-btn,
+    .agl-tile,
+    .agl-tile__bar {
+      transition: none;
+    }
+  }
+
+  /* ---- The page's own markdown ---- */
 
   .agl-prose {
     max-width: 48rem;
     margin: 0 auto;
-    padding: 1.5rem 1.25rem 3rem;
+    padding: 0.25rem 0.25rem 1rem;
   }
 
   @media print {
@@ -360,14 +454,21 @@ const more = [
       background: none;
       color: #000;
     }
+    .agl-hero__grid,
+    .agl-orbit__shot {
+      display: none;
+    }
     .agl-title,
     .agl-title em,
     .agl-lede,
-    .agl-eyebrow,
-    .agl-path,
-    .agl a.agl-action--dark,
-    .agl a.agl-action--gold {
+    .agl-own__text,
+    .agl-own__text strong,
+    .agl a.agl-btn--outline {
       color: #000;
+    }
+    .agl-orbit,
+    .agl-more {
+      box-shadow: none;
       background: none;
     }
   }
