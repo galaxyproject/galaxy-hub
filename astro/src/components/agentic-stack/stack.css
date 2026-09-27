@@ -1,6 +1,6 @@
 /*
  * The Galaxy agentic stack: hero, the two-pane run window and the light
- * sections of /tools/agentic-stack/. Global stylesheet, inlined only on that
+ * sections of /agents/stack/. Global stylesheet, inlined only on that
  * page (the player creates nodes at runtime, so Astro-scoped styles would not
  * reach them). Everything is scoped under .agentic-stack or .stk-band.
  */

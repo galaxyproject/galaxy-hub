@@ -47,7 +47,7 @@ test.describe('Static Pages', () => {
       const agents = page.locator('.hero-agents-link');
       await expect(agents).toBeVisible();
       await expect(agents).toContainText('Use Galaxy with an AI agent');
-      await expect(agents).toHaveAttribute('href', '/tools/ai-agents/');
+      await expect(agents).toHaveAttribute('href', '/agents/');
     });
 
     test('hero highlight carousel offers the paper and the video', async ({ page }) => {

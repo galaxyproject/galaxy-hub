@@ -96,11 +96,11 @@ Three parts, in the order of the stack. An agent and Galaxy are enough to start;
 
 ### An agent
 
-The quickest start is [Orbit](/tools/orbit/), a desktop app built around Galaxy. It registers the Galaxy connection itself, fetches the Galaxy skills on first use, and takes your Galaxy URL and API key in its preferences. It drafts a plan, waits for your approval, routes steps to Galaxy and keeps a git-tracked `notebook.md`. The same agent runs in the terminal as the Loom CLI, and [the Loom site](https://galaxyproject.github.io/loom/) covers how it works.
+The quickest start is [Orbit](/agents/orbit/), a desktop app built around Galaxy. It registers the Galaxy connection itself, fetches the Galaxy skills on first use, and takes your Galaxy URL and API key in its preferences. It drafts a plan, waits for your approval, routes steps to Galaxy and keeps a git-tracked `notebook.md`. The same agent runs in the terminal as the Loom CLI, and [the Loom site](https://galaxyproject.github.io/loom/) covers how it works.
 
 If you already use a coding agent (Claude Code, Codex, Antigravity or Pi), add Galaxy to it instead: two plugins from one marketplace, the Galaxy connection (`galaxy-mcp`) and the Galaxy skills, including `udt-authoring`, the skill the agent follows when it writes a tool. The install takes your Galaxy URL and API key. Claude Desktop takes the connection without the skills.
 
-**[Install Orbit →](/tools/orbit/)** · [Install guides for every other agent →](/tools/ai-agents/)
+**[Install Orbit →](/agents/orbit/)** · [Install guides for every other agent →](/agents/plugins/)
 
 </div>
 </div>
@@ -169,6 +169,6 @@ The agent calls `create_user_tool`, `run_user_tool` and `get_job_details`; the t
 
 ## Help
 
-Questions: the [Galaxy Help forum](https://help.galaxyproject.org/). Agent plugins: [galaxyproject/agentic-plugins](https://github.com/galaxyproject/agentic-plugins); the connection itself: [galaxy-mcp](https://github.com/galaxyproject/galaxy-mcp). Orbit: the in-app Feedback button or [its help section](/tools/orbit/#getting-help).
+Questions: the [Galaxy Help forum](https://help.galaxyproject.org/). Agent plugins: [galaxyproject/agentic-plugins](https://github.com/galaxyproject/agentic-plugins); the connection itself: [galaxy-mcp](https://github.com/galaxyproject/galaxy-mcp). Orbit: the in-app Feedback button or [its help section](/agents/orbit/#getting-help).
 
 </div>

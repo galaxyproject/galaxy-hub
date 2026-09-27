@@ -35,8 +35,8 @@ know and give it Galaxy. One install adds the Galaxy connection (`galaxy-mcp`) p
 for tool development, workflow construction and Nextflow conversion, so the agent can search the
 tool catalog, run workflows and manage histories in your account.
 
-- **[Galaxy plugins for coding agents](https://github.com/galaxyproject/agentic-plugins)** -- one
-  marketplace, with install instructions per harness.
+- **[Add Galaxy to your coding agent](/agents/plugins/)** -- step-by-step setup for each harness,
+  plus how to get your Galaxy API key.
 
 ## Either way, it is still Galaxy
 
@@ -46,7 +46,7 @@ rerun or hand to a colleague. The analysis does not live inside the chat.
 
 If the agent needs a step no installed tool covers, it can write a
 [user-defined tool](/tools/user-defined-tools/) and Galaxy runs that as a job too, with the same
-record.
+record. [The Galaxy agentic stack](/agents/stack/) shows that happening end to end.
 
 ## Need help?
 

@@ -1,12 +1,12 @@
 import { test, expect, type Page } from '@playwright/test';
 
 /**
- * /tools/agentic-stack/ — "The Galaxy agentic stack": a dark hero with the
+ * /agents/stack/ — "The Galaxy agentic stack": a dark hero with the
  * two-pane run window (AgenticStack) followed by the Get started cards and
  * the plain sections.
  */
 
-const URL = '/tools/agentic-stack/';
+const URL = '/agents/stack/';
 
 const root = (page: Page) => page.locator('[data-agentic-stack]');
 const agentPane = (page: Page) => page.locator('[data-pane="agent"]');
@@ -60,8 +60,8 @@ test.describe('Agentic stack page', () => {
       '#get-started',
       'https://udt-signup.galaxyproject.org/',
       '/tools/user-defined-tools/',
-      '/tools/ai-agents/',
-      '/tools/orbit/',
+      '/agents/plugins/',
+      '/agents/orbit/',
       'https://galaxyproject.github.io/loom/',
     ]) {
       expect(await page.locator(`a[href="${href}"]`).count(), href).toBeGreaterThan(0);
@@ -69,8 +69,8 @@ test.describe('Agentic stack page', () => {
 
     // The hero routes straight to Orbit and to the per-agent install guides, Orbit first.
     const ctas = stack.locator('.stk-cta a');
-    await expect(ctas.nth(1)).toHaveAttribute('href', '/tools/orbit/');
-    await expect(ctas.nth(2)).toHaveAttribute('href', '/tools/ai-agents/');
+    await expect(ctas.nth(1)).toHaveAttribute('href', '/agents/orbit/');
+    await expect(ctas.nth(2)).toHaveAttribute('href', '/agents/plugins/');
 
     // The stack strip points at the three cards, and those ids exist.
     const strip = stack.getByRole('list', { name: 'The stack' });
