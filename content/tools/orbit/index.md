@@ -59,14 +59,15 @@ file that matches your computer:
 | **Linux — Debian / Ubuntu / Mint / Pop!\_OS** | `orbit_<version>_amd64.deb` | `sudo dpkg -i <file>` |
 | **Linux — Fedora / RHEL / CentOS / openSUSE** | `orbit-<version>-1.x86_64.rpm` | `sudo rpm -i <file>` |
 | **Linux — any distro** | `Orbit-linux-x64-<version>.zip` | Extract and run `orbit` (no system install) |
-| **Windows** | — | WSL2 + Ubuntu, then use the `.deb` (see below) |
+| **Windows** | `Orbit-win32-x64-<version>.zip` | Portable, unsigned; remote-only (see below) |
 
 Not sure which Mac chip you have? Apple menu → **About This Mac**: **"Chip: Apple M…"** is Apple
 Silicon (use **arm64**); **"Processor: Intel…"** is Intel (use **x64**).
 
 The `*.zip` "portable" builds — `Orbit-darwin-arm64-<version>.zip` (macOS Apple Silicon),
-`Orbit-darwin-x64-<version>.zip` (macOS Intel), and `Orbit-linux-x64-<version>.zip` (Linux) — are
-unpacked-app alternatives to the installers above: no system install, just extract and run. The
+`Orbit-darwin-x64-<version>.zip` (macOS Intel), `Orbit-linux-x64-<version>.zip` (Linux) and
+`Orbit-win32-x64-<version>.zip` (Windows) — are unpacked-app alternatives to the installers above:
+no system install, just extract and run. On Windows the portable build is the only build. The
 **Source code** archives are only for building Orbit yourself.
 
 ### macOS
@@ -96,9 +97,27 @@ sudo rpm -i orbit-<version>-1.x86_64.rpm
 orbit
 ```
 
-### Windows (via WSL2)
+### Windows
 
-Native Windows builds are not yet available. Windows 11 users with WSL2 + WSLg can run the Linux `.deb` directly — WSLg provides native GUI support with no X server setup required.
+Windows builds are **remote-only**: the bash tool is removed from the agent entirely, so it works
+through your Galaxy server instead of running commands on your machine. Reading and writing files in
+the project directory still works, as does everything that routes to Galaxy -- which is most of what
+Orbit does. What you lose is local execution of the light steps a plan would otherwise run on your
+own machine.
+
+There is no Windows installer yet, so Orbit ships as a portable, unsigned `.zip`:
+
+1. Download `Orbit-win32-x64-<version>.zip` from the
+   [Releases page](https://github.com/galaxyproject/loom/releases).
+2. Extract it anywhere you have write access.
+3. Run **Orbit.exe**. Because the build is unsigned, Windows will likely show a SmartScreen
+   warning the first time -- choose **More info → Run anyway**.
+
+#### Windows with a local shell (via WSL2)
+
+If you want local execution as well, run the Linux build under WSL2 instead. Windows 11 users with
+WSL2 + WSLg can run the Linux `.deb` directly — WSLg provides native GUI support with no X server
+setup required.
 
 From an elevated PowerShell, install WSL2 if needed:
 
@@ -358,15 +377,25 @@ When Galaxy credentials are present, Loom registers the Galaxy MCP server automa
 - Queries Galaxy's tool catalog for available tool versions.
 - Tags each plan step with a routing decision: `[local]`, `[hybrid]`, or `[remote]`.
 
-A **remote** plan maps cleanly to a single Galaxy workflow invocation. A **hybrid** plan mixes local light steps with remote heavy compute. A **local** plan runs entirely on your machine. These are outcomes of the plan, not settings you configure.
+A **remote** plan maps cleanly to a single Galaxy workflow invocation. A **hybrid** plan mixes local light steps with remote heavy compute. A **local** plan runs entirely on your machine. These are outcomes of the plan, not settings you configure. On Windows there is no local shell, so every step routes to Galaxy.
 
-In-flight Galaxy invocations are tracked directly in `notebook.md` as fenced YAML blocks:
+In-flight Galaxy invocations are tracked directly in `notebook.md` as `loom-invocation` fenced blocks:
 
-```yaml
+```loom-invocation
 invocation_id: abc123
 galaxy_server_url: https://usegalaxy.org
+notebook_anchor: plan-1-step-3
+label: BWA alignment
+submitted_at: 2026-04-25T15:30:00Z
 status: in_progress
+summary: ""
 ```
+
+The fence language is what makes the block machine-readable -- a plain `yaml` fence is
+ignored. Every field above is required, and a block missing any of them is skipped rather
+than half-parsed. As the poller learns more it appends progress counters to the same block
+(`total_steps`, `completed_steps`, `total_jobs`, `completed_jobs`, `failed_jobs`,
+`last_polled_at`), which is what draws the progress bar in Orbit.
 
 The `/execute` command (also `/run`) tells the agent to advance the next pending step. The polling tool scans the notebook for in-flight blocks, queries Galaxy, and updates status in place.
 
