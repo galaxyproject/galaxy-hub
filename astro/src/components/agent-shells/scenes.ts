@@ -1,9 +1,9 @@
 /**
  * Hand-written screenplay data for the animated agent shells on
- * /tools/ai-agents/ ("Galaxy for AI Coding Agents").
+ * /agents/plugins/ ("Galaxy for AI Coding Agents").
  *
  * Every command, menu path, prompt syntax and verification step mirrors the
- * guide pages under content/tools/ai-agents/<harness>/index.md. When a guide
+ * guide pages under content/agents/plugins/<harness>/index.md. When a guide
  * changes (commands, plugin names, skill invocations), update the matching
  * scene here, including its `copy` block. Tool results (username, versions,
  * job counts) are illustrative; no real credentials appear anywhere.

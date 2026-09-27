@@ -22,7 +22,7 @@ your harness under [Set up your agent](#set-up-your-agent).
 
 <div class="callout">
 Looking for a complete AI research assistant built around Galaxy rather than a
-plugin for the agent you already use? See <a href="/tools/orbit/">Orbit</a>.
+plugin for the agent you already use? See <a href="/agents/orbit/">Orbit</a>.
 </div>
 
 ## Before you start

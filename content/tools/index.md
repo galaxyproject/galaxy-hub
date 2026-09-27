@@ -25,13 +25,9 @@ Please use [Planemo](http://planemo.readthedocs.io/) for both tool development (
 
 Don't want to write a full XML tool or wait for admin installation? [User-Defined Tools](/tools/user-defined-tools/) (beta, Galaxy 25.0+) let regular users write and run simple YAML tool definitions directly from the Galaxy interface.
 
-## AI coding agents
+## Working with an AI agent
 
-Use Claude Code, Claude Desktop, Codex, Antigravity or Pi with Galaxy: [Galaxy for AI Coding Agents](/tools/ai-agents/) installs the Galaxy MCP server and curated Galaxy skills (tool development, Nextflow conversion, workflow construction) into the agent you already use. For a complete AI research assistant built around Galaxy, see [Orbit](/tools/orbit/).
-
-## Agentic stack
-
-An agent, user-defined tools and Galaxy together: when the agent needs a step no installed tool covers, it writes a UDT and Galaxy runs it as a job with full provenance. [The Galaxy agentic stack](/tools/agentic-stack/) shows the run as it happens and lists the three things to set up.
+This section is for people building tools. If you want an AI agent to plan and run analyses on Galaxy for you, start at [AI Agents and Galaxy](/agents/) instead: [Orbit](/agents/orbit/) is a desktop app with Galaxy already wired up, or you can [add Galaxy to a coding agent you already use](/agents/plugins/). [The Galaxy agentic stack](/agents/stack/) shows an agent writing and running its own user-defined tool when no installed tool fits.
 
 ## Need help?
 

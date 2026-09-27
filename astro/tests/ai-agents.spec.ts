@@ -1,7 +1,7 @@
 import { test, expect, type Page } from '@playwright/test';
 
 /**
- * /tools/ai-agents/ — "Galaxy for AI Coding Agents": one page with the
+ * /agents/plugins/ — "Galaxy for AI Coding Agents": one page with the
  * animated harness shells (AgentShells) and the tabbed setup guides
  * (HarnessGuides), generated from the agentic-plugins docs.
  */
@@ -30,10 +30,10 @@ const visiblePanels = (page: Page) => page.locator('[data-harness-guides] [data-
 
 test.describe('AI agents landing page', () => {
   test('hero offers Orbit first, then the plugins', async ({ page }) => {
-    await page.goto('/tools/ai-agents/');
+    await page.goto('/agents/plugins/');
     const doors = page.locator('.ash-doors .ash-door');
     await expect(doors).toHaveCount(2);
-    await expect(doors.first()).toHaveAttribute('href', '/tools/orbit/');
+    await expect(doors.first()).toHaveAttribute('href', '/agents/orbit/');
     await expect(doors.first()).toContainText('Start with Orbit');
     await expect(doors.nth(1)).toHaveAttribute('href', '#pick-your-agent');
   });
@@ -42,7 +42,7 @@ test.describe('AI agents landing page', () => {
     const errors: string[] = [];
     page.on('pageerror', (err) => errors.push(err.message));
 
-    const response = await page.goto('/tools/ai-agents/');
+    const response = await page.goto('/agents/plugins/');
     expect(response?.status()).toBe(200);
 
     // The hero supplies the only h1; the layout PageHeader is suppressed.
@@ -85,7 +85,7 @@ test.describe('AI agents landing page', () => {
   });
 
   test('guide tabs, hero tabs and the URL hash stay in sync', async ({ page }) => {
-    await page.goto('/tools/ai-agents/');
+    await page.goto('/agents/plugins/');
     await guidesMounted(page);
 
     // Guide tab -> panel, hash and hero follow.
@@ -121,7 +121,7 @@ test.describe('AI agents landing page', () => {
   });
 
   test('a deep link opens that guide in both places', async ({ page }) => {
-    await page.goto('/tools/ai-agents/#guide-antigravity');
+    await page.goto('/agents/plugins/#guide-antigravity');
     await guidesMounted(page);
     await expect(visiblePanels(page)).toHaveAttribute('data-guide-panel', 'antigravity');
     await expect(selectedGuide(page)).toHaveAttribute('data-guide-tab', 'antigravity');
@@ -133,7 +133,7 @@ test.describe('AI agents landing page', () => {
 
   test('the replay animates, advances to the next harness, and can be paused', async ({ page }) => {
     test.slow();
-    await page.goto('/tools/ai-agents/');
+    await page.goto('/agents/plugins/');
     const shells = await waitForReplay(page);
     const body = shells.locator('[data-body]');
     const progress = shells.locator('[data-progress]');
@@ -172,7 +172,7 @@ test.describe('AI agents landing page', () => {
   });
 
   test('tabs switch the window and the setup link, including by keyboard', async ({ page }) => {
-    await page.goto('/tools/ai-agents/');
+    await page.goto('/agents/plugins/');
     const shells = page.locator('[data-agent-shells]');
     const win = shells.locator('[data-window]');
 
@@ -202,7 +202,7 @@ test.describe('AI agents landing page', () => {
 
   test('copy reports success, and reports failure when the clipboard is unavailable', async ({ page, context }) => {
     await context.grantPermissions(['clipboard-read', 'clipboard-write']);
-    await page.goto('/tools/ai-agents/');
+    await page.goto('/agents/plugins/');
     const shells = page.locator('[data-agent-shells]');
     await shells.locator('[data-window]').scrollIntoViewIfNeeded();
 
@@ -227,7 +227,7 @@ test.describe('AI agents landing page', () => {
 
   test('reduced motion renders the final state statically and never animates', async ({ page }) => {
     await page.emulateMedia({ reducedMotion: 'reduce' });
-    await page.goto('/tools/ai-agents/');
+    await page.goto('/agents/plugins/');
     const shells = page.locator('[data-agent-shells]');
     await expect(shells).toHaveClass(/is-static/);
     await shells.locator('[data-window]').scrollIntoViewIfNeeded();
@@ -242,7 +242,7 @@ test.describe('AI agents landing page', () => {
 
   test('fits a phone viewport without horizontal scroll', async ({ page }) => {
     await page.setViewportSize({ width: 360, height: 780 });
-    await page.goto('/tools/ai-agents/');
+    await page.goto('/agents/plugins/');
     await expect(page.locator('[data-agent-shells]')).toBeVisible();
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
     expect(overflow).toBeLessThanOrEqual(0);
@@ -250,7 +250,7 @@ test.describe('AI agents landing page', () => {
 
   test('guide panels keep their intro, link upstream, and have copyable blocks', async ({ page, context }) => {
     await context.grantPermissions(['clipboard-read', 'clipboard-write']);
-    await page.goto('/tools/ai-agents/#guide-claude-code');
+    await page.goto('/agents/plugins/#guide-claude-code');
     const panel = page.locator('#guide-claude-code');
     await expect(panel).toContainText('This page sets up');
     await expect(panel).toContainText('galaxy-dev-skills');

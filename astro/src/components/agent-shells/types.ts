@@ -1,5 +1,5 @@
 /**
- * Scene data schema for the animated "agent shells" on /tools/ai-agents/.
+ * Scene data schema for the animated "agent shells" on /agents/plugins/.
  *
  * A Scene is a scripted replay of installing the Galaxy plugins into one
  * harness and then talking to Galaxy through it. The player types `cmd`,

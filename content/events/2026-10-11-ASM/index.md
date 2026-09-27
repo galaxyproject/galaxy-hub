@@ -32,7 +32,7 @@ Galaxy is heading to [ASM BIG 2026](https://asm.org/events/asm-big/home) — the
 Members of the Galaxy team will be at the meeting for its full duration with a table where anyone can stop by to chat, ask questions, or just say hi. Topics we're happy to talk about include:
 
 - **[BRC-Analytics](/projects/brc/)** — analysis tools and genomic annotations for pathogen, host, and vector data, built on the legacy of VEuPathDb
-- **[Orbit](/tools/orbit/)** — Galaxy's AI research harness that lets you converse about your data, draft and run analysis plans, and route steps to Galaxy
+- **[Orbit](/agents/orbit/)** — Galaxy's AI research harness that lets you converse about your data, draft and run analysis plans, and route steps to Galaxy
 - **[User Defined Tools](https://docs.galaxyproject.org/en/master/admin/user_defined_tools.html)** (currently in beta) — write and run your own simple tools directly from the Galaxy interface, no server access or admin installation required. [Contact us for access](mailto:outreach@galaxyproject.org)
 - **[Workflows (IWC)](https://iwc.galaxyproject.org/)** — the Intergalactic Workflow Commission's library of open, peer-reviewed workflows for reproducible science
 - **High Performance Computing** — compute provided to [usegalaxy.org](https://usegalaxy.org) via [Jetstream2](/cloud/jetstream/) and [TACC](https://tacc.utexas.edu/)

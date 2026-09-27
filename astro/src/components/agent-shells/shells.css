@@ -1,5 +1,5 @@
 /*
- * Agent shells: hero + animated harness windows for /tools/ai-agents/.
+ * Agent shells: hero + animated harness windows for /agents/plugins/.
  * Global stylesheet scoped under .agent-shells (the player creates nodes at
  * runtime, so Astro-scoped styles would not reach them).
  */

@@ -1,5 +1,5 @@
 /**
- * Scene data schema for the run window on /tools/agentic-stack/.
+ * Scene data schema for the run window on /agents/stack/.
  *
  * One scene, two panes. Lines run strictly in order: `user`, `assistant`,
  * `tool`, `out` and `yaml` lines land in the agent transcript (left); `hist`

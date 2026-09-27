@@ -1,5 +1,5 @@
 /**
- * Screenplay for the run window on /tools/agentic-stack/ ("The Galaxy
+ * Screenplay for the run window on /agents/stack/ ("The Galaxy
  * agentic stack"): an agent that finds no installed tool for a step, writes a
  * user-defined tool, and runs it on Galaxy next to an installed tool.
  *
@@ -12,7 +12,7 @@ import type { Scene } from './types';
 
 /**
  * The complete tool the agent writes: the single source of truth for the
- * disclosure under the window (content/tools/agentic-stack/index.md carries
+ * disclosure under the window (content/agents/stack/index.md carries
  * the same text) and for the abbreviated card in the transcript. String.raw
  * keeps the script's '\n' and '\t' literal.
  */
