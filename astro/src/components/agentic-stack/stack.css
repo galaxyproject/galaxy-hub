@@ -109,6 +109,8 @@
 .stk-cta {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
 }
 
 .stk-btn {
@@ -128,6 +130,20 @@
 
 .stk-btn:hover {
   background: var(--as-gold-dark);
+}
+
+/* Secondary hero CTA: the per-agent install guides. Outlined so the gold
+   "Get started" stays the single primary action. */
+.stk-btn--ghost {
+  --link-color: #fff;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  color: #fff;
+}
+
+.stk-btn--ghost:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.6);
 }
 
 .stk-btn svg {

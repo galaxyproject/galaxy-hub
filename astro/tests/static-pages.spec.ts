@@ -35,6 +35,19 @@ test.describe('Static Pages', () => {
       await expect(hero).toContainText('Galaxy');
     });
 
+    test('hero offers the agentic entry point alongside Use Galaxy and Learn More', async ({ page }) => {
+      await page.goto('/');
+
+      const actions = page.locator('.hero-actions');
+      await expect(actions.locator('a.btn-primary')).toContainText('Use Galaxy');
+      await expect(actions.locator('a.btn-secondary')).toContainText('Learn More');
+
+      const agentic = actions.locator('a.btn-agentic');
+      await expect(agentic).toBeVisible();
+      await expect(agentic).toContainText('Use Galaxy with Agents');
+      await expect(agentic).toHaveAttribute('href', '/tools/agentic-stack/');
+    });
+
     test('shows upcoming events section', async ({ page }) => {
       await page.goto('/');
 

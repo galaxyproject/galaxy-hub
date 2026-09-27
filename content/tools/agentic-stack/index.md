@@ -98,7 +98,7 @@ Three parts, in the order of the stack. One install, one form, one API key.
 
 Add Galaxy to the coding agent you already use (Claude Code, Codex, Antigravity or Pi; Claude Desktop takes the connection without the skills), or use [Orbit](https://galaxyproject.github.io/loom/), a desktop app built around Galaxy; the same agent runs in the terminal as the Loom CLI. A coding agent needs two plugins from one marketplace: the Galaxy connection (`galaxy-mcp`) and the Galaxy skills, including `udt-authoring`, the skill the agent follows when it writes a tool; the install takes your Galaxy URL and API key. Orbit registers the connection itself, fetches the same skills on first use, and takes the same URL and key in its preferences. It drafts a plan, waits for your approval, routes steps to Galaxy and keeps a git-tracked `notebook.md`.
 
-[Agent guides →](/tools/ai-agents/) · [Orbit →](/tools/orbit/)
+**[Step-by-step install guides for every agent →](/tools/ai-agents/)** — Claude Code, Codex, Antigravity, Pi and Claude Desktop, plus how to get your API key. · [Orbit →](/tools/orbit/)
 
 </div>
 </div>

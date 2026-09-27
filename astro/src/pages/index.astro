@@ -319,6 +319,41 @@ const pillars = [
       border-color: rgba(255, 255, 255, 0.4);
     }
 
+    /* Third hero CTA: gold outline so it reads as new without competing with
+       the solid-gold primary. */
+    .btn-agentic {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.875rem 1.75rem;
+      background: transparent;
+      border: 1px solid var(--galaxy-gold);
+      color: var(--galaxy-gold);
+      font-weight: 600;
+      font-size: 0.95rem;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+
+    .btn-agentic:hover {
+      background: rgba(255, 215, 0, 0.12);
+      border-color: var(--galaxy-gold-dark);
+      transform: translateY(-1px);
+    }
+
+    .btn-badge {
+      padding: 0.1rem 0.4rem;
+      border-radius: 999px;
+      background: var(--galaxy-gold);
+      color: var(--galaxy-dark);
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      line-height: 1.4;
+    }
+
     /* Hero visual */
     .hero-visual {
       display: flex;
@@ -1016,6 +1051,10 @@ const pillars = [
               </svg>
             </a>
             <a href="/get-started/" class="btn-secondary"> Learn More </a>
+            <a href="/tools/agentic-stack/" class="btn-agentic">
+              Use Galaxy with Agents
+              <span class="btn-badge">New</span>
+            </a>
           </div>
           <div class="server-links">
             <div class="server-divider">
