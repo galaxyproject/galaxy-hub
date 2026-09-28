@@ -50,27 +50,16 @@ test.describe('Static Pages', () => {
       await expect(agents).toHaveAttribute('href', '/agents/');
     });
 
-    test('hero highlight carousel offers the paper and the video', async ({ page }) => {
+    test('hero highlight shows the paper, with no carousel chrome for a lone slide', async ({ page }) => {
       await page.goto('/');
 
       const slides = page.locator('.hero-carousel-slide');
-      await expect(slides).toHaveCount(2);
-      await expect(page.locator('.hero-carousel-dot')).toHaveCount(2);
+      await expect(slides).toHaveCount(1);
+      await expect(slides.locator('img')).toHaveAttribute('src', /NAR-2026-Update/);
 
-      // The video slide carries a play badge and leaves the site in a new tab.
-      const video = slides.filter({ has: page.locator('.hero-carousel-play') });
-      await expect(video).toHaveCount(1);
-      await expect(video).toHaveAttribute('href', 'https://youtu.be/wT3iGaV1DdI');
-      await expect(video).toHaveAttribute('target', '_blank');
-      await expect(video).toHaveAttribute('rel', /noopener/);
-      await expect(video.locator('.hero-video-card__thumb')).toHaveAttribute('src', /galaxy-ai-agents-60-seconds/);
-      await expect(video.locator('.hero-video-card__title')).toHaveText('Galaxy + AI Agents in 60 Seconds');
-
-      // The card matches the image slides' aspect ratio, so the box never resizes.
-      const heights = await page
-        .locator('.hero-carousel-slide')
-        .evaluateAll((els) => els.map((e) => Math.round(e.getBoundingClientRect().height)));
-      expect(new Set(heights).size).toBe(1);
+      // A single highlight does not rotate, so it gets no dots.
+      await expect(page.locator('.hero-carousel-dot')).toHaveCount(0);
+      await expect(page.locator('.hero-video-card')).toHaveCount(0);
     });
 
     test('shows upcoming events section', async ({ page }) => {
