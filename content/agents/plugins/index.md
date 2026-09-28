@@ -12,18 +12,7 @@ generated_from: https://github.com/galaxyproject/agentic-plugins/blob/main/scrip
 
 <AgentShells />
 
-Galaxy for AI coding agents installs the galaxy-mcp server, the galaxy-skills
-and galaxy-dev-skills sets and the Workflow Foundry skills into Claude Code,
-Codex, Antigravity or Pi; Claude Desktop gets the galaxy-mcp server as a
-one-click bundle. Everything comes from the
-[galaxyproject/agentic-plugins](https://github.com/galaxyproject/agentic-plugins)
-repository, and everything you need is on this page: get an API key, then pick
-your harness under [Set up your agent](#set-up-your-agent).
-
-<div class="callout">
-Looking for a complete AI research assistant built around Galaxy rather than a
-plugin for the agent you already use? See <a href="/agents/orbit/">Orbit</a>.
-</div>
+<div class="ag-band ag-band--white">
 
 ## Before you start
 
@@ -804,6 +793,10 @@ Config**). This requires [uv](https://docs.astral.sh/uv/) on your `PATH`:
 
 </HarnessGuides>
 
+</div>
+
+<div class="ag-band">
+
 ## What the agent can do once connected
 
 Ask in plain language; the agent picks the Galaxy tools:
@@ -823,3 +816,5 @@ Ask in plain language; the agent picks the Galaxy tools:
 - Skill content lives upstream in [galaxy-skills](https://github.com/galaxyproject/galaxy-skills)
   and [foundry](https://github.com/galaxyproject/foundry); the plugins mirror
   them weekly.
+
+</div>
