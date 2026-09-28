@@ -50,27 +50,41 @@ test.describe('Static Pages', () => {
       await expect(agents).toHaveAttribute('href', '/agents/');
     });
 
-    test('hero highlight carousel offers the paper and the video', async ({ page }) => {
+    // Structural only: the highlights list changes often, so nothing here names a specific slide.
+    test('hero highlight carousel renders whatever highlights are configured', async ({ page }) => {
       await page.goto('/');
 
       const slides = page.locator('.hero-carousel-slide');
-      await expect(slides).toHaveCount(2);
-      await expect(page.locator('.hero-carousel-dot')).toHaveCount(2);
+      const count = await slides.count();
+      if (count === 0) {
+        await expect(page.locator('.hero-logo')).toBeVisible();
+        return;
+      }
 
-      // The video slide carries a play badge and leaves the site in a new tab.
-      const video = slides.filter({ has: page.locator('.hero-carousel-play') });
-      await expect(video).toHaveCount(1);
-      await expect(video).toHaveAttribute('href', 'https://youtu.be/wT3iGaV1DdI');
-      await expect(video).toHaveAttribute('target', '_blank');
-      await expect(video).toHaveAttribute('rel', /noopener/);
-      await expect(video.locator('.hero-video-card__thumb')).toHaveAttribute('src', /galaxy-ai-agents-60-seconds/);
-      await expect(video.locator('.hero-video-card__title')).toHaveText('Galaxy + AI Agents in 60 Seconds');
+      // Only a rotating carousel gets dots.
+      await expect(page.locator('.hero-carousel-dot')).toHaveCount(count > 1 ? count : 0);
 
-      // The card matches the image slides' aspect ratio, so the box never resizes.
-      const heights = await page
-        .locator('.hero-carousel-slide')
-        .evaluateAll((els) => els.map((e) => Math.round(e.getBoundingClientRect().height)));
-      expect(new Set(heights).size).toBe(1);
+      for (const slide of await slides.all()) {
+        await expect(slide).toHaveAttribute('href', /.+/);
+        await expect(slide.locator('img').first()).toHaveAttribute('src', /.+/);
+      }
+
+      // Video slides leave the site in a new tab.
+      for (const video of await slides.filter({ has: page.locator('.hero-carousel-play') }).all()) {
+        await expect(video).toHaveAttribute('target', '_blank');
+        await expect(video).toHaveAttribute('rel', /noopener/);
+      }
+
+      // Content fills each bordered slide (no stray padding), and slides share one height.
+      const boxes = await slides.evaluateAll((els) =>
+        els.map((e) => ({
+          inner: e.clientWidth,
+          child: Math.round((e.firstElementChild as HTMLElement).getBoundingClientRect().width),
+          height: Math.round(e.getBoundingClientRect().height),
+        }))
+      );
+      for (const b of boxes) expect(Math.abs(b.child - b.inner)).toBeLessThanOrEqual(1);
+      expect(new Set(boxes.map((b) => b.height)).size).toBe(1);
     });
 
     test('shows upcoming events section', async ({ page }) => {
