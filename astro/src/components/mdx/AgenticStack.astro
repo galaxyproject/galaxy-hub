@@ -7,6 +7,7 @@
  * window scrolls into view. Scene data: ../agentic-stack/scene.ts.
  */
 import stackCss from '../agentic-stack/stack.css?raw';
+import bandsCss from '../agent-pages/bands.css?raw';
 import { scene } from '../agentic-stack/scene';
 import { finalHist, finalLeftHtml, rowsHtml, stripHtml } from '../agentic-stack/render';
 import { icons, svg } from '../../lib/icons';
@@ -17,15 +18,9 @@ const finalLeft = finalLeftHtml(scene);
 const hist = finalHist(scene);
 const finalRows = rowsHtml(hist);
 const finalStrip = stripHtml(hist.tool);
-
-const strip = [
-  { label: 'Agent', href: '#an-agent' },
-  { label: 'User-defined tools', href: '#user-defined-tools' },
-  { label: 'Galaxy', href: '#galaxy' },
-];
 ---
 
-<style is:global set:html={stackCss}></style>
+<style is:global set:html={stackCss + bandsCss}></style>
 <noscript
   set:html={'<style>.agentic-stack .stk-run,.agentic-stack .stk-pane{height:auto}.agentic-stack [data-play],.agentic-stack [data-replay]{display:none}</style>'}
 />
@@ -35,37 +30,15 @@ const strip = [
     <div class="stk-hero__grid bg-grid-dark" aria-hidden="true"></div>
 
     <div class="stk-hero__inner">
-      <p class="stk-eyebrow">Any agent · Galaxy provenance</p>
       <h1 class="stk-title">The Galaxy <em>agentic stack</em></h1>
       <p class="stk-lede">
-        An agent decides what to run and Galaxy runs each step in a container and keeps the record. When no installed
-        tool fits, the agent can write one as a user-defined tool, and Galaxy runs that too.
+        Your agent decides what to run. Galaxy runs every step in a container and records it in your history. When no
+        installed tool fits, the agent writes one, and Galaxy runs and records that too.
       </p>
       <div class="stk-cta">
         <a class="stk-btn" href="#get-started">Get started <Fragment set:html={svg(icons.arrow)} /></a>
-        <a class="stk-btn stk-btn--ghost" href="/agents/orbit/"
-          >Start with Orbit <Fragment set:html={svg(icons.arrow)} /></a
-        >
-        <a class="stk-btn stk-btn--ghost" href="/agents/plugins/"
-          >Install Galaxy in your agent <Fragment set:html={svg(icons.arrow)} /></a
-        >
+        <a class="stk-btn stk-btn--ghost" href="#the-tool-the-agent-wrote">See the tool it wrote</a>
       </div>
-      <ul class="stk-strip" aria-label="The stack">
-        {
-          strip.map((s, i) => (
-            <li>
-              {i > 0 && (
-                <span class="stk-strip__arrow" aria-hidden="true">
-                  <Fragment set:html={svg(icons.arrow)} />
-                </span>
-              )}
-              <a class="stk-chip" href={s.href}>
-                {s.label}
-              </a>
-            </li>
-          ))
-        }
-      </ul>
     </div>
 
     <div class="stk-demo">

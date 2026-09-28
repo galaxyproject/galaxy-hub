@@ -5,6 +5,7 @@
  * Scene data: ../agent-shells/scenes.ts; runtime: ../agent-shells/player.ts.
  */
 import shellsCss from '../agent-shells/shells.css?raw';
+import bandsCss from '../agent-pages/bands.css?raw';
 import { scenes } from '../agent-shells/scenes';
 import { finalBodyHtml, sceneSummary } from '../agent-shells/render';
 import { icons, svg } from '../../lib/icons';
@@ -41,53 +42,6 @@ const pillars = [
   },
 ];
 
-// Restrained "galaxy" of nodes + filaments for the hero background (viewBox 1000x600).
-const nodes: Array<[number, number, number, boolean?]> = [
-  [70, 80, 2.2],
-  [190, 50, 2.6, true],
-  [320, 130, 2],
-  [140, 220, 3],
-  [60, 340, 2, true],
-  [260, 300, 2.2],
-  [430, 60, 2.4],
-  [560, 120, 2],
-  [700, 70, 2.4],
-  [640, 240, 3.2, true],
-  [770, 190, 2],
-  [900, 120, 2.2, true],
-  [940, 280, 2],
-  [830, 330, 2.6],
-  [880, 470, 2.2],
-  [130, 480, 2, true],
-  [360, 520, 2.2],
-  [660, 520, 2.4],
-];
-const edges: Array<[number, number]> = [
-  [0, 1],
-  [1, 2],
-  [0, 3],
-  [3, 5],
-  [3, 4],
-  [2, 6],
-  [6, 7],
-  [7, 9],
-  [9, 5],
-  [7, 8],
-  [8, 10],
-  [10, 9],
-  [10, 11],
-  [11, 12],
-  [12, 13],
-  [13, 9],
-  [13, 14],
-  [4, 15],
-  [15, 16],
-  [16, 5],
-  [16, 17],
-  [17, 14],
-  [17, 9],
-];
-
 const sideItems = [
   { key: 'Customize', icon: icons.sliders },
   { key: 'MCP', icon: icons.plug },
@@ -96,87 +50,21 @@ const sideItems = [
 const hasIde = scenes.some((s) => s.kind === 'ide');
 ---
 
-<style is:global set:html={shellsCss}></style>
+<style is:global set:html={shellsCss + bandsCss}></style>
 <noscript set:html={'<style>.agent-shells .ash-window { height: auto; }</style>'} />
 
 <section class="agent-shells not-prose" data-agent-shells style={`--ash-accent: ${first?.accent ?? '#ffd700'}`}>
   <div class="ash-hero">
     <div class="ash-hero__grid bg-grid-dark" aria-hidden="true"></div>
-    <svg class="ash-cosmos" viewBox="0 0 1000 600" preserveAspectRatio="xMidYMid slice" aria-hidden="true" fill="none">
-      <defs>
-        <radialGradient id="ash-glow" cx="50%" cy="50%" r="50%">
-          <stop offset="0%" stop-color="#ffd700" stop-opacity="0.85"></stop>
-          <stop offset="100%" stop-color="#ffd700" stop-opacity="0"></stop>
-        </radialGradient>
-      </defs>
-      <g stroke="#8fb9dd" stroke-opacity="0.08" stroke-width="1">
-        {edges.map(([a, b]) => <line x1={nodes[a][0]} y1={nodes[a][1]} x2={nodes[b][0]} y2={nodes[b][1]} />)}
-      </g>
-      <g>
-        {
-          nodes.map(([x, y, r, gold], i) =>
-            gold ? (
-              <>
-                <circle
-                  class="glow"
-                  cx={x}
-                  cy={y}
-                  r={r * 4}
-                  fill="url(#ash-glow)"
-                  opacity="0.45"
-                  style={`animation-delay: ${-(i % 3) * 1.8}s`}
-                />
-                <circle cx={x} cy={y} r={r} fill="#ffd700" fill-opacity="0.75" />
-              </>
-            ) : (
-              <circle cx={x} cy={y} r={r} fill="#aecce7" fill-opacity="0.28" />
-            )
-          )
-        }
-      </g>
-    </svg>
-
     <div class="ash-hero__inner">
-      <p class="ash-eyebrow">Galaxy MCP · galaxy-skills · Foundry</p>
       <h1 class="ash-title">Galaxy for <em>AI coding agents</em></h1>
       <p class="ash-lede">
         Give the coding agent you already use a Galaxy connection and curated Galaxy skills, in one install.
       </p>
-      <div class="ash-doors">
-        <a class="ash-door ash-door--orbit" href="/agents/orbit/">
-          <span class="ash-door__kicker">New to agents?</span>
-          <span class="ash-door__title">Start with Orbit <Fragment set:html={svg(icons.arrow)} /></span>
-          <span class="ash-door__body">A desktop app with Galaxy already wired up. Beta; bring your own model key.</span
-          >
-        </a>
-        <a class="ash-door" href="#pick-your-agent">
-          <span class="ash-door__kicker">Already use a coding agent?</span>
-          <span class="ash-door__title">Add Galaxy to it <Fragment set:html={svg(icons.arrow)} /></span>
-          <span class="ash-door__body">Claude Code, Codex, Antigravity, Pi or Claude Desktop.</span>
-        </a>
+      <div class="ash-cta">
+        <a class="ash-btn" href="#set-up-your-agent">Set up your agent <Fragment set:html={svg(icons.arrow)} /></a>
+        <a class="ash-btn ash-btn--ghost" href="/agents/orbit/">Prefer a desktop app? Try Orbit</a>
       </div>
-      <a
-        class="ash-src"
-        href="https://github.com/galaxyproject/agentic-plugins"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        <Fragment set:html={svg(icons.github)} /> galaxyproject/agentic-plugins
-      </a>
-      <ul class="ash-chips" aria-label="Supported agents">
-        {
-          scenes.map((s) => (
-            <li>
-              <a class="ash-chip" href={s.href} style={`--ash-accent: ${s.accent}`}>
-                <span class="ash-mono" aria-hidden="true">
-                  {s.monogram}
-                </span>
-                {s.name}
-              </a>
-            </li>
-          ))
-        }
-      </ul>
     </div>
 
     <div class="ash-demo">
@@ -264,7 +152,7 @@ const hasIde = scenes.some((s) => s.kind === 'ide');
             <Fragment set:html={svg(icons.copy)} />
             <span class="lbl">{first?.copyLabel ?? COPY_LABEL_DEFAULT}</span>
           </button>
-          <a class="ash-ctl ash-ctl--link" href={first?.href ?? '#pick-your-agent'} data-setup>
+          <a class="ash-ctl ash-ctl--link" href={first?.href ?? '#set-up-your-agent'} data-setup>
             <span class="lbl">Set up {first?.name ?? 'your agent'}</span>
             <Fragment set:html={svg(icons.arrow)} />
           </a>
@@ -273,11 +161,9 @@ const hasIde = scenes.some((s) => s.kind === 'ide');
     </div>
   </div>
 
-  <div class="ash-section ash-pillars">
-    <div class="ash-section__inner">
-      <div class="mb-4">
-        <h2 class="ash-kicker text-xs font-bold uppercase tracking-[0.18em]">One install gives the agent</h2>
-      </div>
+  <div class="ash-pillars">
+    <div class="ash-pillars__inner">
+      <h2>What one install gives your agent</h2>
       <div class="grid gap-4 md:grid-cols-3">
         {
           pillars.map((p) => (
@@ -298,45 +184,6 @@ const hasIde = scenes.some((s) => s.kind === 'ide');
                 <Fragment set:html={svg(icons.arrow)} />
               </a>
             </div>
-          ))
-        }
-      </div>
-    </div>
-  </div>
-
-  <div class="ash-section ash-pick bg-white" id="pick-your-agent">
-    <div class="ash-section__inner">
-      <div class="flex items-center gap-3 mb-2">
-        <span class="w-1 h-7 bg-galaxy-gold rounded-sm" aria-hidden="true"></span>
-        <h2 class="text-2xl font-bold text-galaxy-dark">Pick your agent</h2>
-      </div>
-      <p class="text-galaxy-grey mb-6 max-w-2xl">
-        Each guide walks through the install for that harness and starts with getting a Galaxy API key.
-      </p>
-      <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {
-          scenes.map((s) => (
-            <a
-              class="group relative block overflow-hidden bg-white border border-galaxy-primary/10 rounded-lg shadow-sm p-5 no-underline hover:shadow-md hover:-translate-y-0.5 transition-all duration-200"
-              href={s.href}
-            >
-              <span class="ash-card-bar" aria-hidden="true" />
-              <span class="flex items-center gap-3 mb-2">
-                <span
-                  class="ash-mono !w-9 !h-9 !text-[0.8rem] !rounded-md"
-                  style="color: var(--ash-primary); background: color-mix(in srgb, var(--ash-primary) 10%, #fff); border-color: color-mix(in srgb, var(--ash-primary) 30%, transparent)"
-                  aria-hidden="true"
-                >
-                  {s.monogram}
-                </span>
-                <span class="text-lg font-semibold text-galaxy-dark">{s.name}</span>
-              </span>
-              <span class="block text-sm text-galaxy-grey leading-relaxed mb-3">{s.tagline}</span>
-              <span class="ash-link inline-flex items-center gap-1.5 text-sm font-semibold transition-colors [&>svg]:w-4 [&>svg]:h-4">
-                Set up
-                <Fragment set:html={svg(icons.arrow)} />
-              </span>
-            </a>
           ))
         }
       </div>

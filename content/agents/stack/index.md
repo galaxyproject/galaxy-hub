@@ -1,6 +1,6 @@
 ---
 title: "The Galaxy Agentic Stack"
-tease: "An agent, user-defined tools and Galaxy: watch an agent write the tool it lacks, run it in a container and leave a job with full provenance in your history."
+tease: "An agent that can write the Galaxy tool it's missing. The tool runs in a container, and every job lands in your history with its full record."
 subsites: [all]
 components: true
 autotoc: false
@@ -11,16 +11,57 @@ og_image: /images/galaxy-logos/galaxy_logo_25percent.png
 
 <AgenticStack />
 
-<div class="stk-band">
+<div class="ag-band">
 
-<div class="callout stk-warning" role="note">
-<strong>UDTs are in early beta.</strong> Only registered users are allowed. To register, <a href="https://udt-signup.galaxyproject.org/">click here</a>.
+## What Galaxy keeps
+
+<div class="ag-split">
+
+<div>
+
+An agent working on your laptop leaves behind scratch scripts, renamed files and a chat log. Here, every step it takes is a Galaxy job, and Galaxy records the same things for each one whether the tool was installed by an admin or written by the agent a minute ago.
+
+You can watch the history fill in while the agent works, or ask the agent to read a job back with `get_job_details`.
+
+The history that results is ordinary Galaxy: share it by link, extract it to a workflow, or rerun it on new data. If you use Orbit, it also keeps the plan you approved and its reasoning in `notebook.md`, so the analysis lives in Galaxy and the thinking lives next to it.
+
 </div>
 
-<details>
-<summary>The tool the agent wrote</summary>
+<div class="ag-record">
+<p class="ag-record__hd">Recorded for every job</p>
+<dl>
+<div><dt>Tool</dt><dd>Name and exact version, installed or user-defined</dd></div>
+<div><dt>Container</dt><dd>The image the job ran in</dd></div>
+<div><dt>Command</dt><dd>The full command line, as executed</dd></div>
+<div><dt>Inputs</dt><dd>Every dataset and parameter value</dd></div>
+<div><dt>Output</dt><dd>New datasets in your history, with formats and sizes</dd></div>
+<div><dt>Logs</dt><dd>stdout, stderr and the exit code</dd></div>
+</dl>
+</div>
 
-Under sixty lines: a container, a command, typed inputs and one output. Galaxy validates it on creation and runs it like any installed tool.
+</div>
+
+</div>
+
+<div class="ag-band ag-band--white">
+
+## The tool the agent wrote
+
+<div class="ag-split ag-split--code">
+
+<div>
+
+In the run above, no installed tool could rename GFF sequence names from a mapping file and fail on unknown ones, so the agent wrote one. That's a **user-defined tool** (UDT): a short YAML file with a container image, a shell command, and typed inputs and outputs. No admin install, no Tool Shed.
+
+Galaxy validates the tool when it's created and runs it like any other. The `$(...)` expressions that build the command can only see the declared inputs, which keeps what an agent can write narrow. Beyond that, how isolated the job is (network access, for example) depends on how the Galaxy server runs jobs.
+
+The tool is saved under **Custom Tools** in your account, where you can read and revise it. It's private unless you embed it in a workflow you share, and then it travels with the workflow.
+
+A UDT is for filling gaps. When a Tool Shed tool already does the job, the agent should use it, the way it used featureCounts for the counting.
+
+</div>
+
+<div class="ag-code">
 
 ```yaml
 class: GalaxyUserTool
@@ -83,92 +124,91 @@ help:
     missing from the mapping; stdout reports how many lines changed.
 ```
 
-</details>
+</div>
+
+</div>
+
+</div>
+
+<div class="ag-band">
 
 ## Get started
 
-Three parts, in the order of the stack. An agent and Galaxy are enough to start; user-defined tools are what let the agent fill gaps, and they need a one-time access request.
+<ol class="ag-steps">
+<li>
 
-<div class="gx-tile-grid stack-steps">
+### Request UDT access
 
-<div class="gx-tile">
-<div class="gx-tile__body">
+User-defined tools are in beta on usegalaxy.org and turned on per account by an administrator, so start here. Signing in with ORCID is optional but usually speeds review. Once you're enabled, **Custom Tools** shows up in your Activity Bar. On another Galaxy server, ask its administrators.
 
-### An agent
+The next two steps work without this; your agent just can't write tools until it's on.
 
-The quickest start is [Orbit](/agents/orbit/), a desktop app built around Galaxy. It registers the Galaxy connection itself, fetches the Galaxy skills on first use, and takes your Galaxy URL and API key in its preferences. It drafts a plan, waits for your approval, routes steps to Galaxy and keeps a git-tracked `notebook.md`. The same agent runs in the terminal as the Loom CLI, and [the Loom site](https://galaxyproject.github.io/loom/) covers how it works.
+<p class="ag-links"><a class="ag-go" href="https://udt-signup.galaxyproject.org/">Request access</a> <a href="/tools/user-defined-tools/">How UDTs work</a></p>
 
-If you already use a coding agent (Claude Code, Codex, Antigravity or Pi), add Galaxy to it instead: two plugins from one marketplace, the Galaxy connection (`galaxy-mcp`) and the Galaxy skills, including `udt-authoring`, the skill the agent follows when it writes a tool. The install takes your Galaxy URL and API key. Claude Desktop takes the connection without the skills.
+</li>
+<li>
 
-**[Install Orbit →](/agents/orbit/)** · [Install guides for every other agent →](/agents/plugins/)
+### Create a Galaxy API key
+
+Log in to [usegalaxy.org](https://usegalaxy.org) and open **User › Preferences › Manage API Key**. The key gives full access to your account, so put it in your agent's settings rather than pasting it into chat.
+
+</li>
+<li>
+
+### Connect an agent
+
+<div class="ag-choices">
+<div class="ag-choice">
+
+#### Orbit
+
+A desktop app with Galaxy already wired in. Paste your server URL and key into its preferences and it fetches the Galaxy skills on first use. It drafts a plan, waits for your approval and keeps a git-tracked notebook of the analysis.
+
+<p class="ag-links"><a class="ag-go" href="/agents/orbit/">Install Orbit</a> <a href="https://galaxyproject.github.io/loom/">How it works</a></p>
+
+</div>
+<div class="ag-choice">
+
+#### Your own coding agent
+
+Claude Code, Codex, Antigravity or Pi. Install two plugins: the Galaxy connection (`galaxy-mcp`) and the Galaxy skills, including `udt-authoring`, which the agent follows when it writes a tool. Claude Desktop gets the connection without the skills.
+
+<p class="ag-links"><a class="ag-go" href="/agents/plugins/">Set up your agent</a></p>
 
 </div>
 </div>
 
-<div class="gx-tile">
-<div class="gx-tile__body">
+</li>
+<li>
 
-### User-defined tools
+### Try it
 
-A user-defined tool (UDT) is a short YAML file: a container image, a shell command, and typed inputs and outputs. An enabled user can create one from the Galaxy interface or, as the agent does, through the API; no admin install, no Tool Shed. Every UDT runs in its container, and the `$(...)` expressions that build the command see only the declared inputs. That keeps what an agent can write narrow; how isolated the running job is beyond that, such as its network access, depends on how the Galaxy server runs jobs. UDTs are in beta on usegalaxy.org, enabled per account by an administrator. Request access on the sign-up page linked below; signing in with ORCID is optional but usually speeds review. Once enabled, **Custom Tools** appears in your Activity Bar. On any other Galaxy server, ask its administrators.
-
-[Request access on usegalaxy.org →](https://udt-signup.galaxyproject.org/) · [UDT documentation](/tools/user-defined-tools/)
-
-</div>
-</div>
-
-<div class="gx-tile">
-<div class="gx-tile__body">
-
-### Galaxy
-
-Nothing to install. Log in to [usegalaxy.org](https://usegalaxy.org), open **User › Preferences › Manage API Key**, create a key and give it to the agent. The key gives full access to your account, so keep it in configuration, not in chat. From then on every step the agent runs, installed tool or UDT, is a job in your history: same server, same browser, same sharing.
-
-</div>
-</div>
-
-</div>
-
-</div>
-
-<div class="stk-band stk-band--white">
-
-## What Galaxy kept
-
-An agent working on a laptop leaves scratch scripts, renamed files and a chat transcript. On this stack each step it takes becomes three things in Galaxy: a tool, a job and a dataset. For every job, installed or user-defined, Galaxy records the tool and its version, the container, the exact command, the inputs and parameters, and stdout and stderr. You can watch this in the history panel while the agent works, or ask the agent to read it back with `get_job_details`.
-
-The history that results is ordinary Galaxy. Share it by link, extract it to a workflow, rerun it on new data. A UDT embedded in a shared workflow travels with it: whoever imports the workflow gets a copy of the tool. The tool itself lives under **Custom Tools** in your account, where you can read and revise what the agent wrote. A UDT fills a gap. When a published Tool Shed tool does the job, the agent should use it, as it used featureCounts above.
-
-Orbit keeps a second record: the plan you approved, its parameters and the interpretation, in `notebook.md`. The analysis stays in Galaxy; the reasoning stays in the notebook.
-
-</div>
-
-<div class="stk-band">
-
-## First run
-
-With all three in place, paste this into the agent:
+Paste this into the agent:
 
 ```
 Write a user-defined tool that counts the lines in a dataset, run it on a dataset in my current history, and show me the job's command and container.
 ```
 
-The agent calls `create_user_tool`, `run_user_tool` and `get_job_details`; the tool and the job appear in Galaxy as they happen. If Galaxy refuses to create or run the tool, your account is not enabled for UDTs yet.
+It'll call `create_user_tool`, `run_user_tool` and `get_job_details`, and you'll see the tool and the job appear in Galaxy as it goes. If Galaxy refuses to create or run the tool, your account isn't enabled for UDTs yet.
 
-## Limits
-
-- UDTs are a beta feature, available on usegalaxy.org and enabled per account.
-- Every UDT runs in a container with no access to Galaxy reference data, dataset metadata files (such as BAM indexes) or a tool's `extra_files`; test cases are not supported yet.
-- Galaxy validates the YAML but cannot check that a container tag exists; a wrong tag fails at run time. The `udt-authoring` skill resolves images instead of guessing them.
-- A UDT is private to your account unless it is embedded in a workflow you share.
-- There is no in-place update through the API; each revision the agent makes is a new version of the tool, and superseded versions can be deactivated.
+</li>
+</ol>
 
 </div>
 
-<div class="stk-band stk-band--white">
+<div class="ag-band ag-band--white">
 
-## Help
+## Limits
 
-Questions: the [Galaxy Help forum](https://help.galaxyproject.org/). Agent plugins: [galaxyproject/agentic-plugins](https://github.com/galaxyproject/agentic-plugins); the connection itself: [galaxy-mcp](https://github.com/galaxyproject/galaxy-mcp). Orbit: the in-app Feedback button or [its help section](/agents/orbit/#getting-help).
+- UDTs are in beta, on usegalaxy.org, and enabled per account.
+- A UDT can't see Galaxy reference data, dataset metadata files (such as BAM indexes) or a tool's `extra_files`, and test cases aren't supported yet.
+- Galaxy checks the YAML but not whether the container tag exists, so a wrong tag only fails at run time. The `udt-authoring` skill looks images up instead of guessing.
+- There's no in-place update through the API. Each revision is a new version of the tool; you can deactivate the old ones.
+
+## Need help?
+
+- **Questions:** the [Galaxy Help forum](https://help.galaxyproject.org/)
+- **Agent plugins:** [galaxyproject/agentic-plugins](https://github.com/galaxyproject/agentic-plugins), and [galaxy-mcp](https://github.com/galaxyproject/galaxy-mcp) for the connection itself
+- **Orbit:** the in-app Feedback button, or [Orbit's help section](/agents/orbit/#getting-help)
 
 </div>

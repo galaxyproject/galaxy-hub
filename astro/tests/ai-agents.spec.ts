@@ -29,13 +29,13 @@ const selectedGuide = (page: Page) => page.locator('[data-harness-guides] [data-
 const visiblePanels = (page: Page) => page.locator('[data-harness-guides] [data-guide-panel]:not([hidden])');
 
 test.describe('AI agents landing page', () => {
-  test('hero offers Orbit first, then the plugins', async ({ page }) => {
+  test('hero leads to the setup guides, with Orbit as the alternative', async ({ page }) => {
     await page.goto('/agents/plugins/');
-    const doors = page.locator('.ash-doors .ash-door');
-    await expect(doors).toHaveCount(2);
-    await expect(doors.first()).toHaveAttribute('href', '/agents/orbit/');
-    await expect(doors.first()).toContainText('Start with Orbit');
-    await expect(doors.nth(1)).toHaveAttribute('href', '#pick-your-agent');
+    const ctas = page.locator('[data-agent-shells] .ash-cta a');
+    await expect(ctas).toHaveCount(2);
+    await expect(ctas.first()).toHaveAttribute('href', '#set-up-your-agent');
+    await expect(ctas.nth(1)).toHaveAttribute('href', '/agents/orbit/');
+    await expect(page.locator('#set-up-your-agent')).toBeAttached();
   });
 
   test('renders hero, harness tabs, the agent grid and the guide panels', async ({ page }) => {
@@ -55,16 +55,9 @@ test.describe('AI agents landing page', () => {
     await expect(shells.getByRole('tab')).toHaveCount(HARNESSES.length);
     await expect(shells.getByRole('tab', { name: /Cursor/ })).toHaveCount(0);
 
-    // Heading outline: h1, then the pillars kicker h2 before the card h3s.
+    // Heading outline: h1, then the pillars h2 before the card h3s.
     const levels = await page.locator('main :is(h1, h2, h3)').evaluateAll((els) => els.map((e) => e.tagName));
     expect(levels.slice(0, 5)).toEqual(['H1', 'H2', 'H3', 'H3', 'H3']);
-
-    // Cards and chips link to the guide panels on this page.
-    const grid = page.locator('#pick-your-agent');
-    await expect(grid).toBeVisible();
-    for (const id of HARNESSES) {
-      await expect(grid.locator(`a[href="#guide-${id}"]`)).toHaveCount(1);
-    }
 
     // One guide tab and one panel per harness; only the first panel is shown.
     const guides = page.locator('[data-harness-guides]');
