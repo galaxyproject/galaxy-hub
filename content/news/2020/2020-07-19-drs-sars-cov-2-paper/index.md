@@ -16,7 +16,7 @@ contributions:
 ---
 
 
-<a href="https://nanoporetech.com" target="_blank">Nanopores</a> are an awesome technology! We already gained experiences with it in our [StreetScience](https://streetscience.community) project,
+<a href="https://nanoporetech.com" target="_blank">Nanopores</a> are an awesome technology! We already gained experiences with it in our [StreetScience](https://web.archive.org/web/20200919053933/https://streetscience.community/) project,
 where we show citizens and school kids what DNA sequencing is, how they can sequence with a USB-like device (Minion) and how they
 can analyze the data with <a href="https://usegalaxy.eu" target="_blank">Galaxy</a>. But Nanopores can also sequence RNAs directly. Direct RNA Sequencing (DRS)
 can detect RNA modification in high-throughput! 

@@ -534,8 +534,10 @@
   margin-left: -0.75rem;
 }
 
+/* Tailwind's grid placement utilities (col-start-1, sm:col-span-2) also contain
+   "col-", and this unscoped rule was padding them. :where keeps specificity flat. */
 .col,
-[class*='col-'] {
+[class*='col-']:not(:where([class*='col-start-'], [class*='col-end-'], [class*='col-span-'])) {
   position: relative;
   width: 100%;
   padding-right: 0.75rem;

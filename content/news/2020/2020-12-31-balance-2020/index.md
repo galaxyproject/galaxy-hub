@@ -96,7 +96,7 @@ The training paradigm has changed this year too, with the replacement of the in-
 
 A crowdsourcing [citizen science project](https://galaxyproject.org/blog/2020-01-galaxy-ecology-citizen-science/) has been running since the beginning of the year to help ecologists with the classification of bees.
 
-The [streetscience community](https://streetscience.community/) has organised periodic calls all over the year. In February, [the BeerDEcoded project was introduced to scientists](https://streetscience.community/events/2020-02-19-introduction_StreetScienceCommunity/) at the beginning of a Galaxy workshop. Later in the year, [the community brewed 8.5 liters of beer!](https://streetscience.community/events/2020-09-27-BeerBrewing/)
+The [streetscience community](https://web.archive.org/web/20200919053933/https://streetscience.community/) has organised periodic calls all over the year. In February, [the BeerDEcoded project was introduced to scientists](https://web.archive.org/web/20200919065129/https://streetscience.community/events/2020-02-19-introduction_StreetScienceCommunity/) at the beginning of a Galaxy workshop. Later in the year, [the community brewed 8.5 liters of beer!](https://web.archive.org/web/20210122155024/https://streetscience.community/events/2020-09-27-BeerBrewing/)
 
 <br />
 

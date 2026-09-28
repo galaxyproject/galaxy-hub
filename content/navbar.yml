@@ -5,8 +5,8 @@ left:
     - label: Events
       relativeTo: subsite
       target: events/
-    - label: Orbit
-      target: /tools/orbit/
+    - label: Agents
+      target: /agents/
 right:
     - label: Help
       contents:

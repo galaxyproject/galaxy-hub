@@ -1,0 +1,484 @@
+/*
+ * Shared section styles for the /agents/ pages: light and white bands that
+ * run edge to edge under a full-bleed hero, plus the pieces that go in them
+ * (split layouts, numbered steps, choice panels, record lists). Global and
+ * inlined only by the components that render those pages, so the classes
+ * must stay prefixed. Content classes avoid Bootstrap tokens (card, alert,
+ * lead, table, btn) or the preprocessor marks them bs-compat.
+ */
+.prose .ag-band {
+  --ag-primary: var(--color-galaxy-primary, #25537b);
+  --ag-dark: var(--color-galaxy-dark, #2c3143);
+  --ag-gold: var(--color-galaxy-gold, #ffd700);
+  --ag-gold-dark: var(--color-galaxy-gold-dark, #d19e00);
+  --ag-line: color-mix(in srgb, var(--ag-primary) 14%, transparent);
+  margin: 0 -1.5rem;
+  padding: 3.5rem max(1.5rem, calc((100% + 3rem - 64rem) / 2));
+  background: var(--color-light-bg, #edf4fa);
+}
+
+@media (min-width: 640px) {
+  .prose .ag-band {
+    margin: 0 -2rem;
+    padding: 4rem max(2rem, calc((100% + 4rem - 64rem) / 2));
+  }
+}
+
+.prose .ag-band--white {
+  background: #fff;
+}
+
+.prose .ag-band > :first-child {
+  margin-top: 0;
+}
+
+.prose .ag-band > :last-child {
+  margin-bottom: 0;
+}
+
+.prose .ag-band h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0 0 1.5rem;
+  padding: 0;
+  border: 0;
+  font-size: 1.6rem;
+  line-height: 1.25;
+  scroll-margin-top: 6rem;
+}
+
+.prose .ag-band h2:not(:first-child) {
+  margin-top: 3.5rem;
+}
+
+.prose .ag-band h2::before {
+  content: '';
+  flex: none;
+  width: 4px;
+  height: 1.75rem;
+  border-radius: 2px;
+  background: var(--ag-gold);
+}
+
+.prose .ag-band > p,
+.prose .ag-band > ul {
+  max-width: 46rem;
+}
+
+/* Prose beside a panel: two columns once there is room for both. */
+.prose .ag-split {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 2rem;
+  align-items: start;
+}
+
+@media (min-width: 960px) {
+  .prose .ag-split {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 0.85fr);
+    gap: 3rem;
+  }
+
+  .prose .ag-split--code {
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  }
+}
+
+.prose .ag-split > div > :first-child {
+  margin-top: 0;
+}
+
+.prose .ag-split > div > :last-child {
+  margin-bottom: 0;
+}
+
+/* What Galaxy records: the same fields as the Job information card in the run window. */
+.prose .ag-record {
+  overflow: hidden;
+  border: 1px solid var(--ag-line);
+  border-radius: 0.5rem;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.prose .ag-record__hd {
+  margin: 0;
+  padding: 0.8rem 1.15rem;
+  border-bottom: 1px solid var(--ag-line);
+  font-weight: 700;
+  color: var(--ag-dark);
+}
+
+.prose .ag-record dl {
+  margin: 0;
+}
+
+.prose .ag-record dl > div {
+  display: grid;
+  grid-template-columns: 6.5rem minmax(0, 1fr);
+  gap: 1rem;
+  padding: 0.7rem 1.15rem;
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+.prose .ag-record dl > div + div {
+  border-top: 1px solid color-mix(in srgb, var(--ag-primary) 8%, transparent);
+}
+
+.prose .ag-record dt {
+  margin: 0;
+  font-weight: 700;
+  color: var(--ag-primary);
+}
+
+.prose .ag-record dd {
+  margin: 0;
+  padding: 0;
+  color: var(--ag-dark);
+}
+
+/* The tool YAML: full length, but capped so it doesn't swamp the section. */
+.prose .ag-code .code-block,
+.prose .ag-code pre {
+  margin: 0;
+}
+
+.prose .ag-code pre {
+  max-height: 34rem;
+  overflow: auto;
+}
+
+/* Get started: a real sequence, so numbered markers joined by a rail. */
+.prose .ag-steps {
+  counter-reset: step;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.prose .ag-steps > li {
+  counter-increment: step;
+  position: relative;
+  margin: 0;
+  padding: 0 0 2.75rem 3.25rem;
+}
+
+@media (max-width: 639.98px) {
+  .prose .ag-steps > li {
+    padding-left: 2.9rem;
+  }
+}
+
+.prose .ag-steps > li:last-child {
+  padding-bottom: 0;
+}
+
+.prose .ag-steps > li::before {
+  content: counter(step);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: grid;
+  place-items: center;
+  width: 2.1rem;
+  height: 2.1rem;
+  border-radius: 999px;
+  background: var(--ag-primary);
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.prose .ag-steps > li:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  top: 2.6rem;
+  bottom: 0.5rem;
+  left: calc(1.05rem - 1px);
+  width: 2px;
+  border-radius: 1px;
+  background: color-mix(in srgb, var(--ag-primary) 22%, transparent);
+}
+
+.prose .ag-steps > li > * {
+  max-width: 46rem;
+}
+
+.prose .ag-steps > li > :first-child {
+  margin-top: 0;
+}
+
+.prose .ag-steps > li > :last-child {
+  margin-bottom: 0;
+}
+
+.prose .ag-steps h3 {
+  margin: 0.2rem 0 0.6rem;
+  font-size: 1.25rem;
+  line-height: 1.3;
+  scroll-margin-top: 6rem;
+}
+
+.prose .ag-steps > li > .code-block,
+.prose .ag-steps > li > .ag-choices {
+  max-width: none;
+}
+
+/* Two ways to connect an agent, given the same weight. */
+.prose .ag-choices {
+  display: grid;
+  gap: 1rem;
+  margin: 1rem 0 0;
+}
+
+@media (min-width: 760px) {
+  .prose .ag-choices {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.prose .ag-choice {
+  display: flex;
+  flex-direction: column;
+  padding: 1.15rem 1.25rem 1.25rem;
+  border: 1px solid var(--ag-line);
+  border-radius: 0.5rem;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  font-size: 0.95rem;
+}
+
+.prose .ag-choice h4 {
+  margin: 0 0 0.4rem;
+  font-size: 1.1rem;
+}
+
+.prose .ag-choice p {
+  margin: 0 0 1rem;
+}
+
+.prose .ag-choice .ag-links {
+  margin: auto 0 0;
+}
+
+.prose .ag-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem 1.25rem;
+}
+
+.prose .ag-band a.ag-go {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1.1rem;
+  border-radius: 0.5rem;
+  background: var(--ag-gold);
+  color: var(--ag-dark);
+  font-weight: 700;
+  font-size: 0.92rem;
+  text-decoration: none;
+  transition: background-color 0.15s ease;
+}
+
+.prose .ag-band a.ag-go:hover {
+  background: var(--ag-gold-dark);
+  color: var(--ag-dark);
+  text-decoration: none;
+}
+
+.prose .ag-band a.ag-go:focus-visible {
+  outline: 2px solid var(--ag-primary);
+  outline-offset: 2px;
+}
+
+/* The one-line prompt in "Try it" wraps instead of scrolling under the Copy button. */
+.prose .ag-band pre[data-language='plaintext'] {
+  padding-right: 5.5rem;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.prose .ag-band h3 {
+  scroll-margin-top: 6rem;
+}
+
+.prose .ag-band > h3 {
+  margin: 2.5rem 0 0.75rem;
+  font-size: 1.25rem;
+}
+
+.prose .ag-band > h2 + h3 {
+  margin-top: 0;
+}
+
+.prose .ag-band > blockquote {
+  max-width: 46rem;
+}
+
+/* A collapsed aside inside a band, e.g. an alternative install path. */
+.prose .ag-band details {
+  max-width: 46rem;
+  margin: 1.5rem 0 0;
+  border: 1px solid var(--ag-line);
+  border-radius: 0.5rem;
+  background: #fff;
+}
+
+.prose .ag-band summary {
+  padding: 0.8rem 1.15rem;
+  font-weight: 700;
+  color: var(--ag-dark);
+  cursor: pointer;
+}
+
+.prose .ag-band summary::marker {
+  color: var(--ag-primary);
+}
+
+.prose .ag-band details[open] summary {
+  border-bottom: 1px solid var(--ag-line);
+}
+
+.prose .ag-band details > :not(summary) {
+  margin-left: 1.15rem;
+  margin-right: 1.15rem;
+}
+
+.prose .ag-band details > :last-child {
+  margin-bottom: 1.15rem;
+}
+
+/* Example requests: equal panels, the ask in the voice of the person asking. */
+.prose .ag-examples,
+.prose .ag-os,
+.prose .ag-panes {
+  display: grid;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+@media (min-width: 900px) {
+  .prose .ag-examples,
+  .prose .ag-os,
+  .prose .ag-panes {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.prose .ag-example,
+.prose .ag-os__item,
+.prose .ag-pane {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 1.15rem 1.25rem 1.25rem;
+  border: 1px solid var(--ag-line);
+  border-radius: 0.5rem;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  font-size: 0.95rem;
+}
+
+.prose .ag-band--white .ag-os__item {
+  background: color-mix(in srgb, var(--color-light-bg, #edf4fa) 55%, #fff);
+  box-shadow: none;
+}
+
+.prose :is(.ag-example, .ag-os__item, .ag-pane) > :first-child {
+  margin-top: 0;
+}
+
+.prose :is(.ag-example, .ag-os__item, .ag-pane) > :last-child {
+  margin-bottom: 0;
+}
+
+.prose .ag-example > p:first-child {
+  color: var(--ag-dark);
+  line-height: 1.6;
+}
+
+.prose .ag-example .ag-example__uses {
+  margin-top: auto;
+  padding-top: 0.9rem;
+  border-top: 1px solid color-mix(in srgb, var(--ag-primary) 10%, transparent);
+  font-size: 0.85rem;
+  color: var(--color-galaxy-grey, #58585a);
+}
+
+.prose :is(.ag-os__item, .ag-pane) :is(h3, h4) {
+  margin: 0 0 0.6rem;
+  font-size: 1.15rem;
+}
+
+.prose :is(.ag-os__item, .ag-pane) :is(p, ol, ul, .code-block, pre) {
+  margin: 0 0 0.8rem;
+}
+
+.prose .ag-os__item :is(ol, ul) {
+  padding-left: 1.25rem;
+}
+
+.prose .ag-os__item li {
+  margin: 0 0 0.4rem;
+}
+
+/* Narrow panels: wrap commands rather than hide them behind a scrollbar. */
+.prose .ag-os__item pre {
+  padding-right: 4.5rem;
+  font-size: 0.8rem;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+/* Paired screenshots, e.g. the two halves of Preferences. */
+.prose .ag-shots {
+  display: grid;
+  gap: 1rem;
+  margin: 1.25rem 0 0;
+}
+
+@media (min-width: 760px) {
+  .prose .ag-shots {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.prose .ag-shots p {
+  margin: 0;
+}
+
+.prose .ag-band img {
+  border-radius: 0.5rem;
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.06),
+    0 0 0 1px var(--ag-line);
+}
+
+.prose .ag-steps > li > .ag-shots {
+  max-width: none;
+}
+
+/* Short sequences inside a section: smaller markers, no headings. */
+.prose .ag-steps--compact {
+  margin: 1.25rem 0 1.5rem;
+}
+
+.prose .ag-steps--compact > li {
+  padding: 0 0 1rem 2.6rem;
+}
+
+.prose .ag-steps--compact > li::before {
+  top: 0.15rem;
+  width: 1.7rem;
+  height: 1.7rem;
+  font-size: 0.8rem;
+}
+
+.prose .ag-steps--compact > li:not(:last-child)::after {
+  top: 2.1rem;
+  bottom: 0.25rem;
+  left: calc(0.85rem - 1px);
+}

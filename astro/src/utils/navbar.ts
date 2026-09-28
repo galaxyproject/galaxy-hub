@@ -34,7 +34,7 @@ export interface SidebarNavigation {
 const DEFAULT_TOP_LINKS: SidebarLink[] = [
   { label: 'News', href: '/news/' },
   { label: 'Events', href: '/events/' },
-  { label: 'Orbit', href: '/tools/orbit/' },
+  { label: 'Agents', href: '/agents/' },
 ];
 
 const DEFAULT_SECTIONS: SidebarSection[] = [
