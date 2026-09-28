@@ -2,8 +2,8 @@ import { test, expect, type Page } from '@playwright/test';
 
 /**
  * /agents/stack/ — "The Galaxy agentic stack": a dark hero with the
- * two-pane run window (AgenticStack) followed by the Get started cards and
- * the plain sections.
+ * two-pane run window (AgenticStack) followed by the light sections: what
+ * Galaxy records, the tool YAML, the numbered Get started steps and limits.
  */
 
 const URL = '/agents/stack/';
@@ -50,10 +50,16 @@ test.describe('Agentic stack page', () => {
       await expect(galaxyPane(page)).toContainText(name);
     }
 
-    // The beta warning sits above the fold of the prose and links to the sign-up.
-    const warning = page.locator('.stk-warning');
-    await expect(warning).toContainText('UDTs are in early beta');
-    await expect(warning.locator('a')).toHaveAttribute('href', 'https://udt-signup.galaxyproject.org/');
+    // Get started is four numbered steps, and the first one is the UDT sign-up.
+    const steps = page.locator('.ag-steps > li');
+    await expect(steps).toHaveCount(4);
+    await expect(steps.first()).toContainText('Request UDT access');
+    await expect(steps.first().locator('a.ag-go')).toHaveAttribute('href', 'https://udt-signup.galaxyproject.org/');
+
+    // Orbit and your own agent get one choice each, Orbit first.
+    const choices = page.locator('.ag-choice a.ag-go');
+    await expect(choices.nth(0)).toHaveAttribute('href', '/agents/orbit/');
+    await expect(choices.nth(1)).toHaveAttribute('href', '/agents/plugins/');
 
     // Every destination the page promises, each linked at least once.
     for (const href of [
@@ -67,18 +73,13 @@ test.describe('Agentic stack page', () => {
       expect(await page.locator(`a[href="${href}"]`).count(), href).toBeGreaterThan(0);
     }
 
-    // The hero routes straight to Orbit and to the per-agent install guides, Orbit first.
+    // Both hero CTAs land on sections that exist.
     const ctas = stack.locator('.stk-cta a');
-    await expect(ctas.nth(1)).toHaveAttribute('href', '/agents/orbit/');
-    await expect(ctas.nth(2)).toHaveAttribute('href', '/agents/plugins/');
-
-    // The stack strip points at the three cards, and those ids exist.
-    const strip = stack.getByRole('list', { name: 'The stack' });
-    for (const id of ['an-agent', 'user-defined-tools', 'galaxy']) {
-      await expect(strip.locator(`a[href="#${id}"]`)).toHaveCount(1);
-      await expect(page.locator(`#${id}`)).toBeAttached();
+    await expect(ctas).toHaveCount(2);
+    for (const href of ['#get-started', '#the-tool-the-agent-wrote']) {
+      await expect(stack.locator(`.stk-cta a[href="${href}"]`)).toHaveCount(1);
+      await expect(page.locator(href)).toBeAttached();
     }
-    await expect(page.locator('#get-started')).toBeAttached();
 
     expect(errors).toEqual([]);
   });
@@ -194,18 +195,16 @@ test.describe('Agentic stack page', () => {
     }
   });
 
-  test('the disclosure holds the full tool and both fenced blocks get Copy buttons', async ({ page, context }) => {
+  test('the tool panel shows the full YAML and both fenced blocks get Copy buttons', async ({ page, context }) => {
     await context.grantPermissions(['clipboard-read', 'clipboard-write']);
     await page.goto(URL);
 
-    const details = page.locator('details', { hasText: 'The tool the agent wrote' });
-    await expect(details).toHaveCount(1);
-    await expect(details.locator('pre')).toBeHidden();
-    await details.locator('summary').click();
-    await expect(details.locator('pre')).toBeVisible();
-    await expect(details.locator('pre')).toContainText('class: GalaxyUserTool');
-    await expect(details.locator('pre')).toContainText('from_work_dir: renamed.gff3');
-    await expect(details.locator('.code-copy')).toBeVisible();
+    const tool = page.locator('.ag-code');
+    await expect(tool).toHaveCount(1);
+    await expect(tool.locator('pre')).toBeVisible();
+    await expect(tool.locator('pre')).toContainText('class: GalaxyUserTool');
+    await expect(tool.locator('pre')).toContainText('from_work_dir: renamed.gff3');
+    await expect(tool.locator('.code-copy')).toBeVisible();
 
     const first = page.locator('.code-block', { hasText: 'Write a user-defined tool' });
     await expect(first).toHaveCount(1);

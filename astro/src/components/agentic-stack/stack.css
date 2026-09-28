@@ -1,8 +1,9 @@
 /*
- * The Galaxy agentic stack: hero, the two-pane run window and the light
- * sections of /agents/stack/. Global stylesheet, inlined only on that
- * page (the player creates nodes at runtime, so Astro-scoped styles would not
- * reach them). Everything is scoped under .agentic-stack or .stk-band.
+ * The Galaxy agentic stack: hero and the two-pane run window of
+ * /agents/stack/. Global stylesheet, inlined only on that page (the player
+ * creates nodes at runtime, so Astro-scoped styles would not reach them).
+ * Everything is scoped under .agentic-stack; the sections below the hero use
+ * the shared ../agent-pages/bands.css.
  */
 
 .agentic-stack {
@@ -32,6 +33,10 @@
   padding: 0;
   border: 0;
   color: var(--heading-color, var(--as-dark));
+}
+
+.prose .agentic-stack .stk-title {
+  margin: 0 0 1.25rem;
 }
 
 .prose .agentic-stack a,
@@ -72,18 +77,8 @@
   }
 }
 
-.stk-eyebrow {
-  margin: 0;
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.62);
-}
-
 .stk-title {
   --heading-color: #fff;
-  margin: 1rem 0 1rem;
   font-size: clamp(2rem, 5.2vw, 3.4rem);
   font-weight: 700;
   line-height: 1.06;
@@ -132,8 +127,8 @@
   background: var(--as-gold-dark);
 }
 
-/* Secondary hero CTA: the per-agent install guides. Outlined so the gold
-   "Get started" stays the single primary action. */
+/* Secondary hero CTA, outlined so the gold "Get started" stays the single
+   primary action. */
 .stk-btn--ghost {
   --link-color: #fff;
   background: transparent;
@@ -152,61 +147,9 @@
 }
 
 .stk-btn:focus-visible,
-.stk-chip:focus-visible,
 .stk-ctl:focus-visible {
   outline: 2px solid var(--as-gold);
   outline-offset: 2px;
-}
-
-/* The stack strip: Agent → User-defined tools → Galaxy. */
-.stk-strip {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem 0.55rem;
-  margin: 1.75rem 0 0;
-  padding: 0;
-  list-style: none;
-}
-
-.stk-strip li {
-  display: flex;
-  align-items: center;
-  gap: 0.55rem;
-}
-
-.stk-strip__arrow {
-  display: inline-flex;
-  color: rgba(255, 255, 255, 0.4);
-}
-
-.stk-strip__arrow svg {
-  width: 14px;
-  height: 14px;
-}
-
-.stk-chip {
-  --link-color: rgba(255, 255, 255, 0.88);
-  display: inline-flex;
-  align-items: center;
-  padding: 0.32rem 0.9rem;
-  border-radius: 999px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  color: rgba(255, 255, 255, 0.88);
-  font-size: 0.85rem;
-  text-decoration: none;
-  transition:
-    border-color 0.15s ease,
-    background-color 0.15s ease,
-    color 0.15s ease;
-}
-
-.stk-chip:hover {
-  --link-color: #fff;
-  color: #fff;
-  background: rgba(255, 255, 255, 0.07);
-  border-color: rgba(255, 255, 255, 0.6);
 }
 
 /* ── The run window ────────────────────────────────────────────────── */
@@ -859,152 +802,6 @@
   animation-play-state: paused;
 }
 
-/* ── Light sections (MDX bands after the hero) ─────────────────────── */
-
-.prose .stk-band {
-  --as-primary: var(--color-galaxy-primary, #25537b);
-  --as-dark: var(--color-galaxy-dark, #2c3143);
-  --as-gold: var(--color-galaxy-gold, #ffd700);
-  margin: 0 -1.5rem;
-  padding: 3rem max(1.5rem, calc((100% + 3rem - 64rem) / 2));
-  background: var(--color-light-bg, #edf4fa);
-}
-
-@media (min-width: 640px) {
-  .prose .stk-band {
-    margin: 0 -2rem;
-    padding: 3rem max(2rem, calc((100% + 4rem - 64rem) / 2));
-  }
-}
-
-.prose .stk-band--white {
-  background: #fff;
-}
-
-.prose .stk-band + .stk-band {
-  border-top: 1px solid color-mix(in srgb, var(--as-primary) 12%, transparent);
-}
-
-.prose .stk-band > :first-child {
-  margin-top: 0;
-}
-
-.prose .stk-band > :last-child {
-  margin-bottom: 0;
-}
-
-.prose .stk-band h2 {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  margin: 0 0 1rem;
-  padding: 0;
-  border: 0;
-  font-size: 1.5rem;
-  line-height: 1.25;
-  scroll-margin-top: 6rem;
-}
-
-.prose .stk-band h2:not(:first-child) {
-  margin-top: 2.75rem;
-}
-
-.prose .stk-band h2::before {
-  content: '';
-  flex: none;
-  width: 4px;
-  height: 1.75rem;
-  border-radius: 2px;
-  background: var(--as-gold);
-}
-
-.prose .stk-band > p {
-  max-width: 46rem;
-}
-
-.prose .stk-band details {
-  margin: 0 0 2.5rem;
-  border: 1px solid color-mix(in srgb, var(--as-primary) 14%, transparent);
-  border-radius: 0.5rem;
-  background: #fff;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-}
-
-.prose .stk-band summary {
-  padding: 0.85rem 1.15rem;
-  font-weight: 700;
-  color: var(--as-dark);
-  cursor: pointer;
-}
-
-.prose .stk-band summary::marker {
-  color: var(--as-primary);
-}
-
-.prose .stk-band details[open] summary {
-  border-bottom: 1px solid color-mix(in srgb, var(--as-primary) 12%, transparent);
-}
-
-.prose .stk-band details > :not(summary) {
-  margin-left: 1.15rem;
-  margin-right: 1.15rem;
-}
-
-.prose .stk-band details > p {
-  margin-top: 1rem;
-}
-
-.prose .stk-band details > .code-block,
-.prose .stk-band details > pre {
-  margin-bottom: 1.15rem;
-}
-
-/* Get started: three numbered cards in stack order. */
-.prose .stack-steps {
-  counter-reset: step;
-  margin: 1.5rem 0 0;
-}
-
-.prose .stack-steps .gx-tile {
-  counter-increment: step;
-}
-
-.prose .stack-steps .gx-tile__body {
-  padding: 1.25rem 1.25rem 1.35rem;
-  font-size: 0.95rem;
-}
-
-.prose .stack-steps h3 {
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
-  margin: 0 0 0.7rem;
-  font-size: 1.25rem;
-  line-height: 1.3;
-  scroll-margin-top: 6rem;
-}
-
-.prose .stack-steps h3::before {
-  content: counter(step);
-  display: inline-grid;
-  flex: none;
-  place-items: center;
-  width: 1.6rem;
-  height: 1.6rem;
-  border-radius: 999px;
-  background: color-mix(in srgb, var(--as-primary) 10%, #fff);
-  color: var(--as-primary);
-  font-size: 0.8rem;
-  font-weight: 700;
-}
-
-/* The one-line prompt in "First run" wraps instead of scrolling under the Copy button. */
-.prose .stk-band pre[data-language='plaintext'] {
-  padding-right: 5.5rem;
-  white-space: pre-wrap;
-  overflow-wrap: anywhere;
-}
-
 /* ── Motion ────────────────────────────────────────────────────────── */
 
 .stk-in {
@@ -1079,15 +876,12 @@
   .stk-title,
   .stk-title em,
   .stk-lede,
-  .stk-eyebrow,
-  .stk-chip,
   .stk-btn,
   .stk-caption {
     color: #000;
   }
 
-  .stk-btn,
-  .stk-chip {
+  .stk-btn {
     background: none;
     border: 1px solid #999;
   }
@@ -1096,10 +890,4 @@
   .stk-pane {
     height: auto;
   }
-}
-
-/* Beta warning under the hero: gold edge so it reads as a notice, not a card. */
-.prose .stk-warning {
-  border-left-color: var(--color-galaxy-gold, #ffd700);
-  background-color: color-mix(in srgb, var(--color-galaxy-gold, #ffd700) 12%, #fff);
 }
