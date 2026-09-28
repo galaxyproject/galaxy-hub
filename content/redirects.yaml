@@ -110,7 +110,7 @@ redirects:
   /widgets/news.html: /bare/eu/latest/news/
   /freiburg/projects.html: /freiburg/projects/
   /freiburg/services.html: /freiburg/services/
-  /freiburg/publications: /freiburg/citations/
+  /freiburg/citations/: /freiburg/publications/
   /freiburg/jobs: /careers/
   /freiburg/lower1/: /freiburg/services/
   /freiburg/lower3/: /freiburg/services/#acknowledgements
@@ -310,3 +310,5 @@ redirects:
   /bare/eu/usegalaxy/index-plants/: /bare/eu/usegalaxy/plants/
   /bare/eu/usegalaxy/index-streetscience/: /bare/eu/usegalaxy/streetscience/
   /news/2021-11-ghelp-stats/: /news/2021-11-25-ghelp-stats/
+  # Orbit lived under /tools/ from June 2026 until the /agents/ section was added
+  /tools/orbit/: /agents/orbit/

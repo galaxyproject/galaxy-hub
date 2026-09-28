@@ -124,10 +124,10 @@ These events are a great way to meet other Galaxy users and developers and learn
 
 <div class='right'><a href='http://www.gigasciencejournal.com/'><img src="/images/logos/GigaScienceLogo.gif" alt="GigaScience Journal" width="200" /></a><br />
 <a href='http://www.vlsci.org.au/'><img src="/images/logos/VLSCILogo.png" alt="VLSCI" width="200" /></a><br />
-<a href='http://australianbioinformatics.net/'><img src="/images/logos/ABNLogoWText200.jpg" alt="Australian Bioinformatics Network" width="200" /></a>
+<a href='https://web.archive.org/web/20140407230429/http://australianbioinformatics.net/'><img src="/images/logos/ABNLogoWText200.jpg" alt="Australian Bioinformatics Network" width="200" /></a>
 </div>
 
-The [The Great GigaScience and Galaxy (G3) Workshop](http://australianbioinformatics.net/great-gigascience-galaxy-wkshp) will be held, Friday 19 September 2014 at The University of Melbourne from 8:45-5pm.
+The [The Great GigaScience and Galaxy (G3) Workshop](https://web.archive.org/web/20151110123936/http://australianbioinformatics.net/great-gigascience-galaxy-wkshp) will be held, Friday 19 September 2014 at The University of Melbourne from 8:45-5pm.
 
 The day's theme is *Turning data—big data—into research impact*
 
@@ -143,7 +143,7 @@ The day's theme is *Turning data—big data—into research impact*
 * Workshop Stream 2 - [B117, 207 Bouverie Street, Parkville](https://www.google.com.au/maps/preview?q=B118,+207+Bouverie+Street,+Parkville&ie=UTF-8&hq&hnear=0x6ad642d2c404d12d:0xde07ecf4a4d913ad,b118/207+Bouverie+St,+University+of+Melbourne,+Carlton+VIC+3053&gl=au&ei=HMjHU5OrB8H48QW8j4GgAQ&ved=0CB0Q8gEwAA)
     * [Authorea](http://www.authorea.com/) software carpentry workshop
 
-See the [event page](http://australianbioinformatics.net/great-gigascience-galaxy-wkshp) for registration and contact links, and additional information.
+See the [event page](https://web.archive.org/web/20151110123936/http://australianbioinformatics.net/great-gigascience-galaxy-wkshp) for registration and contact links, and additional information.
 
 
 ## Other Events

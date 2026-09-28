@@ -35,6 +35,44 @@ test.describe('Static Pages', () => {
       await expect(hero).toContainText('Galaxy');
     });
 
+    test('hero offers the agents entry point under Use Galaxy and Learn More', async ({ page }) => {
+      await page.goto('/');
+
+      const actions = page.locator('.hero-actions');
+      await expect(actions.locator('a.btn-primary')).toContainText('Use Galaxy');
+      await expect(actions.locator('a.btn-secondary')).toContainText('Learn More');
+      // A link below the buttons, not a third button competing with Use Galaxy.
+      await expect(actions.locator('a')).toHaveCount(2);
+
+      const agents = page.locator('.hero-agents-link');
+      await expect(agents).toBeVisible();
+      await expect(agents).toContainText('Use Galaxy with an AI agent');
+      await expect(agents).toHaveAttribute('href', '/agents/');
+    });
+
+    test('hero highlight carousel offers the paper and the video', async ({ page }) => {
+      await page.goto('/');
+
+      const slides = page.locator('.hero-carousel-slide');
+      await expect(slides).toHaveCount(2);
+      await expect(page.locator('.hero-carousel-dot')).toHaveCount(2);
+
+      // The video slide carries a play badge and leaves the site in a new tab.
+      const video = slides.filter({ has: page.locator('.hero-carousel-play') });
+      await expect(video).toHaveCount(1);
+      await expect(video).toHaveAttribute('href', 'https://youtu.be/wT3iGaV1DdI');
+      await expect(video).toHaveAttribute('target', '_blank');
+      await expect(video).toHaveAttribute('rel', /noopener/);
+      await expect(video.locator('.hero-video-card__thumb')).toHaveAttribute('src', /galaxy-ai-agents-60-seconds/);
+      await expect(video.locator('.hero-video-card__title')).toHaveText('Galaxy + AI Agents in 60 Seconds');
+
+      // The card matches the image slides' aspect ratio, so the box never resizes.
+      const heights = await page
+        .locator('.hero-carousel-slide')
+        .evaluateAll((els) => els.map((e) => Math.round(e.getBoundingClientRect().height)));
+      expect(new Set(heights).size).toBe(1);
+    });
+
     test('shows upcoming events section', async ({ page }) => {
       await page.goto('/');
 
