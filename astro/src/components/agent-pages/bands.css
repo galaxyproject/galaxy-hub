@@ -300,3 +300,185 @@
   white-space: pre-wrap;
   overflow-wrap: anywhere;
 }
+
+.prose .ag-band h3 {
+  scroll-margin-top: 6rem;
+}
+
+.prose .ag-band > h3 {
+  margin: 2.5rem 0 0.75rem;
+  font-size: 1.25rem;
+}
+
+.prose .ag-band > h2 + h3 {
+  margin-top: 0;
+}
+
+.prose .ag-band > blockquote {
+  max-width: 46rem;
+}
+
+/* A collapsed aside inside a band, e.g. an alternative install path. */
+.prose .ag-band details {
+  max-width: 46rem;
+  margin: 1.5rem 0 0;
+  border: 1px solid var(--ag-line);
+  border-radius: 0.5rem;
+  background: #fff;
+}
+
+.prose .ag-band summary {
+  padding: 0.8rem 1.15rem;
+  font-weight: 700;
+  color: var(--ag-dark);
+  cursor: pointer;
+}
+
+.prose .ag-band summary::marker {
+  color: var(--ag-primary);
+}
+
+.prose .ag-band details[open] summary {
+  border-bottom: 1px solid var(--ag-line);
+}
+
+.prose .ag-band details > :not(summary) {
+  margin-left: 1.15rem;
+  margin-right: 1.15rem;
+}
+
+.prose .ag-band details > :last-child {
+  margin-bottom: 1.15rem;
+}
+
+/* Example requests: equal panels, the ask in the voice of the person asking. */
+.prose .ag-examples,
+.prose .ag-os,
+.prose .ag-panes {
+  display: grid;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+@media (min-width: 900px) {
+  .prose .ag-examples,
+  .prose .ag-os,
+  .prose .ag-panes {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.prose .ag-example,
+.prose .ag-os__item,
+.prose .ag-pane {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 1.15rem 1.25rem 1.25rem;
+  border: 1px solid var(--ag-line);
+  border-radius: 0.5rem;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  font-size: 0.95rem;
+}
+
+.prose .ag-band--white .ag-os__item {
+  background: color-mix(in srgb, var(--color-light-bg, #edf4fa) 55%, #fff);
+  box-shadow: none;
+}
+
+.prose :is(.ag-example, .ag-os__item, .ag-pane) > :first-child {
+  margin-top: 0;
+}
+
+.prose :is(.ag-example, .ag-os__item, .ag-pane) > :last-child {
+  margin-bottom: 0;
+}
+
+.prose .ag-example > p:first-child {
+  color: var(--ag-dark);
+  line-height: 1.6;
+}
+
+.prose .ag-example .ag-example__uses {
+  margin-top: auto;
+  padding-top: 0.9rem;
+  border-top: 1px solid color-mix(in srgb, var(--ag-primary) 10%, transparent);
+  font-size: 0.85rem;
+  color: var(--color-galaxy-grey, #58585a);
+}
+
+.prose :is(.ag-os__item, .ag-pane) :is(h3, h4) {
+  margin: 0 0 0.6rem;
+  font-size: 1.15rem;
+}
+
+.prose :is(.ag-os__item, .ag-pane) :is(p, ol, ul, .code-block, pre) {
+  margin: 0 0 0.8rem;
+}
+
+.prose .ag-os__item :is(ol, ul) {
+  padding-left: 1.25rem;
+}
+
+.prose .ag-os__item li {
+  margin: 0 0 0.4rem;
+}
+
+/* Narrow panels: wrap commands rather than hide them behind a scrollbar. */
+.prose .ag-os__item pre {
+  padding-right: 4.5rem;
+  font-size: 0.8rem;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+/* Paired screenshots, e.g. the two halves of Preferences. */
+.prose .ag-shots {
+  display: grid;
+  gap: 1rem;
+  margin: 1.25rem 0 0;
+}
+
+@media (min-width: 760px) {
+  .prose .ag-shots {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.prose .ag-shots p {
+  margin: 0;
+}
+
+.prose .ag-band img {
+  border-radius: 0.5rem;
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.06),
+    0 0 0 1px var(--ag-line);
+}
+
+.prose .ag-steps > li > .ag-shots {
+  max-width: none;
+}
+
+/* Short sequences inside a section: smaller markers, no headings. */
+.prose .ag-steps--compact {
+  margin: 1.25rem 0 1.5rem;
+}
+
+.prose .ag-steps--compact > li {
+  padding: 0 0 1rem 2.6rem;
+}
+
+.prose .ag-steps--compact > li::before {
+  top: 0.15rem;
+  width: 1.7rem;
+  height: 1.7rem;
+  font-size: 0.8rem;
+}
+
+.prose .ag-steps--compact > li:not(:last-child)::after {
+  top: 2.1rem;
+  bottom: 0.25rem;
+  left: calc(0.85rem - 1px);
+}
