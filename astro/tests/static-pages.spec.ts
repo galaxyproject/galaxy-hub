@@ -35,19 +35,24 @@ test.describe('Static Pages', () => {
       await expect(hero).toContainText('Galaxy');
     });
 
-    test('hero offers the agents entry point under Use Galaxy and Learn More', async ({ page }) => {
+    test('hero offers Use Galaxy and Learn More, with no agents entry', async ({ page }) => {
       await page.goto('/');
 
       const actions = page.locator('.hero-actions');
       await expect(actions.locator('a.btn-primary')).toContainText('Use Galaxy');
       await expect(actions.locator('a.btn-secondary')).toContainText('Learn More');
-      // A link below the buttons, not a third button competing with Use Galaxy.
       await expect(actions.locator('a')).toHaveCount(2);
 
-      const agents = page.locator('.hero-agents-link');
+      // The agents entry lives on /us/ now, not in the hero.
+      await expect(page.locator('.hero-agents-link')).toHaveCount(0);
+    });
+
+    test('/us/ offers the agents entry alongside its own buttons', async ({ page }) => {
+      await page.goto('/us/');
+
+      const agents = page.locator('a[href^="/agents/"]').filter({ hasText: 'Use Galaxy with an AI agent' });
+      await expect(agents).toHaveCount(1);
       await expect(agents).toBeVisible();
-      await expect(agents).toContainText('Use Galaxy with an AI agent');
-      await expect(agents).toHaveAttribute('href', '/agents/');
     });
 
     // Structural only: the highlights list changes often, so nothing here names a specific slide.
