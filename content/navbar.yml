@@ -5,8 +5,6 @@ left:
     - label: Events
       relativeTo: subsite
       target: events/
-    - label: Agents
-      target: /agents/
 right:
     - label: Help
       contents:
@@ -64,5 +62,7 @@ right:
             target: "/projects/vgp/"
           - label: BRC Analytics
             target: "https://brc-analytics.org/"
+          - label: Agentic Galaxy
+            target: "/agents/"
     - label: "@jxtx"
       target: https://jxtxfoundation.org/

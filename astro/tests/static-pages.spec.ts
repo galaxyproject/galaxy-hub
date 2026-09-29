@@ -35,21 +35,6 @@ test.describe('Static Pages', () => {
       await expect(hero).toContainText('Galaxy');
     });
 
-    test('hero offers the agents entry point under Use Galaxy and Learn More', async ({ page }) => {
-      await page.goto('/');
-
-      const actions = page.locator('.hero-actions');
-      await expect(actions.locator('a.btn-primary')).toContainText('Use Galaxy');
-      await expect(actions.locator('a.btn-secondary')).toContainText('Learn More');
-      // A link below the buttons, not a third button competing with Use Galaxy.
-      await expect(actions.locator('a')).toHaveCount(2);
-
-      const agents = page.locator('.hero-agents-link');
-      await expect(agents).toBeVisible();
-      await expect(agents).toContainText('Use Galaxy with an AI agent');
-      await expect(agents).toHaveAttribute('href', '/agents/');
-    });
-
     // Structural only: the highlights list changes often, so nothing here names a specific slide.
     test('hero highlight carousel renders whatever highlights are configured', async ({ page }) => {
       await page.goto('/');

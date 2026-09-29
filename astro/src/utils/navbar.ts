@@ -34,7 +34,6 @@ export interface SidebarNavigation {
 const DEFAULT_TOP_LINKS: SidebarLink[] = [
   { label: 'News', href: '/news/' },
   { label: 'Events', href: '/events/' },
-  { label: 'Agents', href: '/agents/' },
 ];
 
 const DEFAULT_SECTIONS: SidebarSection[] = [
@@ -80,6 +79,7 @@ const DEFAULT_SECTIONS: SidebarSection[] = [
       { label: 'Monkeypox', href: '/projects/mpxv/' },
       { label: 'VGP', href: '/projects/vgp/' },
       { label: 'BRC Analytics', href: 'https://brc-analytics.org/', external: true },
+      { label: 'Agentic Galaxy', href: '/agents/' },
     ],
   },
 ];
