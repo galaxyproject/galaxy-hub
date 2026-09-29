@@ -18,7 +18,7 @@ The **Galaxy Community** is actively involved in helping the ecosystem improve a
 </div>
 
 <div class="row justify-content-center mt-3">
-  <a href="/agents/?utm_source=homepage" class="btn pr-4 pl-4 btn-warning btn-lg">
+  <a href="/agents/?utm_source=us" class="btn pr-4 pl-4 btn-warning btn-lg">
     Use Galaxy with an AI agent
   </a>
 </div>
