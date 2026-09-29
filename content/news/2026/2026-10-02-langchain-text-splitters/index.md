@@ -168,6 +168,7 @@ overlap which can be useful for tasks such as translation, summarization, or ret
 ## LangChain Text Splitters in Galaxy
 
 ![Demo of LangChain Text Splitters in Galaxy](./langchain-text-splitters-demo.gif)
+ <a href="https://usegalaxy.eu/?tool_id=langchain_text_splitters"><button type="button" class="btn btn-success">Click to try LangChain Text Splitters on Galaxy Europe!</button></a>
 
 
 ## A Galaxy Workflow Example:<br>Transcribing & Translating long Video Transcripts
