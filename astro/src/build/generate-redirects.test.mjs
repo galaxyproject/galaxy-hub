@@ -1,5 +1,5 @@
-import { describe, it, expect } from 'vitest';
-import { normalizeRedirectTarget, hasFileExtension } from './generate-redirects.mjs';
+import { describe, it, expect, vi } from 'vitest';
+import { normalizeRedirectTarget, hasFileExtension, contentRedirect } from './generate-redirects.mjs';
 
 describe('redirect normalization helpers', () => {
   describe('hasFileExtension', () => {
@@ -34,6 +34,54 @@ describe('redirect normalization helpers', () => {
     it('preserves file-extension targets', () => {
       expect(normalizeRedirectTarget('/eu/events/calendar.ics')).toBe('/eu/events/calendar.ics');
       expect(normalizeRedirectTarget('/events-ical.html')).toBe('/events-ical.html');
+    });
+  });
+
+  describe('contentRedirect', () => {
+    it('maps internal redirect paths', () => {
+      expect(contentRedirect('va/ash', '/use/')).toEqual({ from: '/va/ash/', to: '/use/' });
+      expect(contentRedirect('package-recipes', 'toolshed/package-recipes')).toEqual({
+        from: '/package-recipes/',
+        to: '/toolshed/package-recipes/',
+      });
+    });
+
+    it('keeps external redirect URLs', () => {
+      expect(
+        contentRedirect('admin/training', 'https://training.galaxyproject.org/training-material/topics/admin/')
+      ).toEqual({
+        from: '/admin/training/',
+        to: 'https://training.galaxyproject.org/training-material/topics/admin/',
+      });
+    });
+
+    it('turns same-site URLs into paths', () => {
+      expect(contentRedirect('old/page', 'https://galaxyproject.org/new/page/')).toEqual({
+        from: '/old/page/',
+        to: '/new/page/',
+      });
+    });
+
+    it('drops redirects that point back to the page itself', () => {
+      expect(
+        contentRedirect('events/gcc2021/training', 'https://galaxyproject.org/events/gcc2021/training/')
+      ).toBeNull();
+      expect(contentRedirect('use', '/use')).toBeNull();
+    });
+
+    it('treats a path with a url in its query as a path', () => {
+      expect(contentRedirect('login', '/auth?next=https://galaxyproject.org/')).toEqual({
+        from: '/login/',
+        to: '/auth?next=https://galaxyproject.org/',
+      });
+    });
+
+    it('skips invalid absolute urls instead of throwing', () => {
+      const warn = vi.spyOn(console, 'warn').mockImplementation(() => {});
+      expect(contentRedirect('old/page', 'https://')).toBeNull();
+      expect(contentRedirect('old/page', 'ftp://example.org/file')).toBeNull();
+      expect(warn).toHaveBeenCalledTimes(2);
+      warn.mockRestore();
     });
   });
 });

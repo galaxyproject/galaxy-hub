@@ -1,0 +1,33 @@
+---
+import path from 'path';
+import { fileURLToPath } from 'url';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHeader from '../../components/layout/PageHeader.astro';
+import CitationList from '../../components/citations/CitationList.astro';
+import { loadCitations } from '../../utils/citations';
+
+const pageTitle = 'Publications by the Freiburg Galaxy Team';
+const pageDescription = 'These are the publications by current or former members of the Freiburg Galaxy Team.';
+const eyebrow = { label: 'Galaxy Freiburg', href: '/freiburg/' };
+
+const projectRoot = path.resolve(fileURLToPath(new URL('../../../../', import.meta.url)));
+const citationDir = path.join(projectRoot, 'content', 'freiburg', 'citations');
+
+const { citations } = await loadCitations(citationDir);
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <div class="max-w-5xl mx-auto">
+    <PageHeader title={pageTitle} description={pageDescription} {eyebrow} />
+
+    <div class="bg-white rounded-b-lg shadow-sm px-6 sm:px-8 py-8">
+      {
+        citations.length === 0 ? (
+          <p class="text-chicago-700">No publications found.</p>
+        ) : (
+          <CitationList {citations} noun={{ singular: 'publication', plural: 'publications' }} />
+        )
+      }
+    </div>
+  </div>
+</BaseLayout>

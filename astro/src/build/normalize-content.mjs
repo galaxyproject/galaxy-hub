@@ -459,6 +459,12 @@ const KNOWN_COMPONENTS = [
   'ReleaseGuardiansRecap',
   'CofestBoard',
   'CofestProject',
+  'AgentShells',
+  'HarnessGuides',
+  'HarnessGuide',
+  'AgenticStack',
+  'AgentsLanding',
+  'OrbitHero',
 ];
 
 function bodyHasComponents(body) {

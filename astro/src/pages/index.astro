@@ -320,6 +320,43 @@ const pillars = [
       border-color: rgba(255, 255, 255, 0.4);
     }
 
+    /* Agents entry under the hero buttons: a link rather than a third button, so
+       it flags something new without competing with Use Galaxy. */
+    .hero-agents-row {
+      display: flex;
+      margin-top: 1rem;
+      margin-bottom: 0.5rem;
+    }
+    @media (max-width: 900px) {
+      .hero-agents-row {
+        justify-content: center;
+      }
+    }
+    .hero-agents-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.55rem;
+      color: var(--galaxy-gold);
+      font-size: 0.95rem;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .hero-agents-link:hover {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    .btn-badge {
+      padding: 0.1rem 0.4rem;
+      border-radius: 999px;
+      background: var(--galaxy-gold);
+      color: var(--galaxy-dark);
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      line-height: 1.4;
+    }
+
     /* Hero visual */
     .hero-visual {
       display: flex;
@@ -1017,6 +1054,25 @@ const pillars = [
               </svg>
             </a>
             <a href="/get-started/" class="btn-secondary"> Learn More </a>
+          </div>
+          <div class="hero-agents-row">
+            <a href="/agents/" class="hero-agents-link">
+              <span class="btn-badge">New</span>
+              Use Galaxy with an AI agent
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
           </div>
           <div class="server-links">
             <div class="server-divider">
