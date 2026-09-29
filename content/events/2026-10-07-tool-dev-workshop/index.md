@@ -6,8 +6,8 @@ end: 2026-10-09
 days: 3
 continent: "EU"
 location:
-  name: Department of Computer Science, University of Freiburg
-  street: Georges-Köhler-Allee 79
+  name: SR 00-007, Georges-Köhler-Allee 106, Department of Computer Science, University of Freiburg
+  street: Georges-Köhler-Allee 106
   city: Freiburg im Breisgau
   postal: 79110
   country: Germany
