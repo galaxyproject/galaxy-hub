@@ -5,8 +5,6 @@ left:
     - label: Events
       relativeTo: subsite
       target: events/
-    - label: Agents
-      target: /agents/
 right:
     - label: Help
       contents:
