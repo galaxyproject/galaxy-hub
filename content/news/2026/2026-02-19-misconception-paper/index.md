@@ -86,7 +86,7 @@ Let's dive into the myths and the reality:
 **Reality:** Galaxy prioritizes transparency. Every step of an analysis is documented, shareable, and reproducible. Users can inspect tools, workflows, and data provenance, ensuring full transparency and trust in the results.
 
 
-## Why This Matters for the Galaxy Community
+## Why this is important for the Galaxy Community
 
 This paper isn't just about correcting the record, it's about empowering users. By addressing these misconceptions, we hope to:
 
