@@ -1,4 +1,7 @@
-import { describe, it, expect, beforeEach } from 'vitest';
+import { describe, it, expect, beforeEach, afterEach } from 'vitest';
+import fs from 'fs';
+import os from 'os';
+import path from 'path';
 import {
   addBootstrapMarker,
   deriveNewsNaturalSlug,
@@ -10,6 +13,9 @@ import {
   generateTease,
   shiftHeadings,
   preprocessContent,
+  processMarkdownFile,
+  destPathsForMarkdown,
+  processBatch,
 } from './preprocess.mjs';
 
 describe('addBootstrapMarker', () => {
@@ -376,6 +382,73 @@ describe('generateTease', () => {
   it('returns short content as-is when under 200 chars', () => {
     const body = 'A short news item with no period';
     expect(generateTease(body)).toBe('A short news item with no period');
+  });
+});
+
+describe('processMarkdownFile publish date', () => {
+  let tmpDir;
+  let contentDir;
+  let outputDir;
+
+  const writeFixture = (relPath, date) => {
+    const filePath = path.join(contentDir, relPath);
+    const dateLine = date === undefined ? '' : `date: '${date}'\n`;
+    fs.mkdirSync(path.dirname(filePath), { recursive: true });
+    fs.writeFileSync(filePath, `---\ntitle: Fixture\n${dateLine}tease: Fixture tease.\n---\nBody\n`);
+    return filePath;
+  };
+
+  const processFixture = (filePath) => processMarkdownFile(filePath, { contentDir, outputDir });
+  const isWritten = (filePath) =>
+    destPathsForMarkdown(filePath, contentDir, outputDir).some((dest) => fs.existsSync(dest));
+
+  beforeEach(() => {
+    insertCache.clear();
+    tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'preprocess-publish-date-test-'));
+    contentDir = path.join(tmpDir, 'content');
+    outputDir = path.join(tmpDir, 'out');
+  });
+
+  afterEach(() => {
+    fs.rmSync(tmpDir, { recursive: true, force: true });
+  });
+
+  it('skips news dated in the future', async () => {
+    const filePath = writeFixture('news/2999/2999-01-01-future/index.md', '2999-01-01');
+    expect(await processFixture(filePath)).toBeNull();
+    expect(isWritten(filePath)).toBe(false);
+  });
+
+  it('keeps news dated in the past', async () => {
+    const filePath = writeFixture('news/2020/2020-01-01-past/index.md', '2020-01-01');
+    expect((await processFixture(filePath)).collection).toBe('news');
+    expect(isWritten(filePath)).toBe(true);
+  });
+
+  it('keeps news without a date', async () => {
+    const filePath = writeFixture('news/undated/index.md', undefined);
+    expect((await processFixture(filePath)).collection).toBe('news');
+    expect(isWritten(filePath)).toBe(true);
+  });
+
+  it('keeps news with an unparseable date so schema validation still rejects it', async () => {
+    const filePath = writeFixture('news/2026/2026-13-02-typo/index.md', '2026-13-02');
+    expect((await processFixture(filePath)).collection).toBe('news');
+    expect(isWritten(filePath)).toBe(true);
+  });
+
+  it('keeps events dated in the future', async () => {
+    const filePath = writeFixture('events/2999-01-01-future/index.md', '2999-01-01');
+    expect((await processFixture(filePath)).collection).toBe('events');
+    expect(isWritten(filePath)).toBe(true);
+  });
+});
+
+describe('processBatch', () => {
+  it('leaves out items that produce no result', async () => {
+    const { results, errors } = await processBatch([1, 2, 3], async (n) => (n === 2 ? null : { n }));
+    expect(results).toEqual([{ n: 1 }, { n: 3 }]);
+    expect(errors).toBe(0);
   });
 });
 

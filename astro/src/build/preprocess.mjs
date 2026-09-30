@@ -16,6 +16,7 @@ import matter from 'gray-matter';
 import { glob } from 'glob';
 import { processMarkdown, processFrontmatter } from './markdown-processor.mjs';
 import { normalizeSlugSegment, normalizeSlug } from './slug-utils.mjs';
+import { isFutureDate } from '../utils/publish-date.mjs';
 export { normalizeSlugSegment, normalizeSlug };
 
 const JSX_COMMENT_RE = /\{\/\*[\s\S]*?\*\/\}/g;
@@ -510,6 +511,13 @@ async function processMarkdownFile(filePath, { contentDir = CONTENT_DIR, outputD
   const relativePath = path.relative(contentDir, filePath);
   const dirname = path.dirname(relativePath);
 
+  // Hold back future-dated news (and its assets) until a build on or after its
+  // date, so no listing, feed or search entry links to a page that isn't built.
+  if (collection === 'news' && isFutureDate(frontmatter.date)) {
+    console.log(`  Skipping future-dated news: ${relativePath}`);
+    return null;
+  }
+
   // Create slug from path
   let naturalSlug;
   if (path.basename(filePath) === 'index.md') {
@@ -662,6 +670,7 @@ function isDidYouKnowFile(filePath) {
 
 /**
  * Process items in batches to avoid file table overflow
+ * Items whose processFn returns nothing (skipped files) are left out of results.
  */
 async function processBatch(items, processFn, batchSize = 50) {
   const results = [];
@@ -674,7 +683,7 @@ async function processBatch(items, processFn, batchSize = 50) {
 
     for (const result of batchResults) {
       if (result.status === 'fulfilled') {
-        results.push(result.value);
+        if (result.value) results.push(result.value);
         processed++;
       } else {
         errors++;
@@ -1189,4 +1198,5 @@ export {
   shiftHeadings,
   processMarkdownFile,
   destPathsForMarkdown,
+  processBatch,
 };
