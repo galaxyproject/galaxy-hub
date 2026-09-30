@@ -94,6 +94,15 @@ export function formatDateRange(
 }
 
 /**
+ * Check if a date falls on today or later, comparing whole UTC days.
+ * Dates are stored as UTC midnight, so a date counts until its day is over.
+ */
+export function isTodayOrLater(date: Date, now: Date = new Date()): boolean {
+  const today = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate());
+  return date.getTime() >= today;
+}
+
+/**
  * Get the last day of an event (end date, or start date for one-day events).
  * Returns null if the event has no valid date.
  */
@@ -104,7 +113,6 @@ function eventLastDay(date: Date | string | null | undefined, end: Date | string
 
 /**
  * Check if an event is upcoming or still running: its last day is today or later.
- * Compares whole UTC days, since event dates are stored as UTC midnight.
  */
 export function isUpcomingEvent(
   date: Date | string | null | undefined,
@@ -112,9 +120,7 @@ export function isUpcomingEvent(
   now: Date = new Date()
 ): boolean {
   const last = eventLastDay(date, end);
-  if (!last) return false;
-  const today = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate());
-  return last.getTime() >= today;
+  return last !== null && isTodayOrLater(last, now);
 }
 
 /**

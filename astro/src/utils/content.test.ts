@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { isPublishedDate, isUpcomingEvent, isPastEvent } from './dateUtils';
+import { isPublishedDate, isUpcomingEvent, isPastEvent, isTodayOrLater } from './dateUtils';
 
 describe('isPublishedDate', () => {
   const now = new Date('2025-06-15T12:00:00Z');
@@ -34,7 +34,7 @@ describe('isPublishedDate', () => {
 });
 
 describe('isUpcomingEvent and isPastEvent', () => {
-  // Event dates are stored as UTC midnight; the nightly build runs late in the UTC day.
+  // Event dates are stored as UTC midnight; a time late in the day checks the whole day counts.
   const now = new Date('2026-10-07T23:30:00Z');
 
   it('keeps a one-day event upcoming for the whole of its day', () => {
@@ -67,5 +67,17 @@ describe('isUpcomingEvent and isPastEvent', () => {
       expect(isUpcomingEvent(date, undefined, now)).toBe(false);
       expect(isPastEvent(date, undefined, now)).toBe(false);
     }
+  });
+});
+
+describe('isTodayOrLater', () => {
+  it('counts the whole of the given day', () => {
+    expect(isTodayOrLater(new Date('2026-09-22'), new Date('2026-09-22T00:30:00Z'))).toBe(true);
+    expect(isTodayOrLater(new Date('2026-09-22'), new Date('2026-09-22T23:59:59Z'))).toBe(true);
+  });
+
+  it('is true for later days and false once the day is over', () => {
+    expect(isTodayOrLater(new Date('2026-09-23'), new Date('2026-09-22T12:00:00Z'))).toBe(true);
+    expect(isTodayOrLater(new Date('2026-09-22'), new Date('2026-09-23T00:30:00Z'))).toBe(false);
   });
 });
