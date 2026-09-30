@@ -5,7 +5,8 @@ on:
     branches:
       - main
   schedule:
-    - cron: "30 23 * * *"
+    # Just after midnight UTC, so dated news and events change on their date.
+    - cron: "30 0 * * *"
 concurrency:
   group: publish-${{ github.ref_name }}
 jobs:
