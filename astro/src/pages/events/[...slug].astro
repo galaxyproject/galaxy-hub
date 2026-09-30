@@ -21,6 +21,7 @@ import Insert from '../../components/mdx/Insert.astro';
 import CofestBoard from '../../components/CofestBoard.astro';
 import SupporterGrid from '../../components/content/SupporterGrid.astro';
 import { resolveSupporters } from '../../utils/supporters';
+import { isPastEvent } from '../../utils/dateUtils';
 import { extractFunding, extractAuthors, resolveAuthor } from '../../utils/contributors';
 import Icon from '../../components/ui/Icon.astro';
 import ReleaseGuardiansSummary from '../../components/release-guardians/Summary.astro';
@@ -307,8 +308,7 @@ const imageUrl = event.data.image
     : `${site}${event.data.image}`
   : undefined;
 
-const eventEndDate = endDate || startDate;
-const isPast = eventEndDate ? eventEndDate < new Date() : false;
+const isPast = isPastEvent(date, end);
 const eventStatus = isPast ? 'https://schema.org/EventCompleted' : 'https://schema.org/EventScheduled';
 
 const schemaEvent = {

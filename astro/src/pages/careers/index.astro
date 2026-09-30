@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
+import { isTodayOrLater } from '../../utils/dateUtils';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/card';
 
 // Get all career listings
@@ -17,18 +18,18 @@ const careers = articles
 
 const now = new Date();
 
-// Open positions: closes date is in the future or not set
+// Open positions: open until the end of the closing day
 const openPositions = careers
-  .filter((c) => c.data.closes && c.data.closes > now)
+  .filter((c) => c.data.closes && isTodayOrLater(c.data.closes, now))
   .sort((a, b) => {
     const dateA = a.data.closes?.getTime() || 0;
     const dateB = b.data.closes?.getTime() || 0;
     return dateA - dateB; // Sort by closes date (soonest first)
   });
 
-// Closed positions: closes date is in the past
+// Closed positions: the closing day is over
 const closedPositions = careers
-  .filter((c) => c.data.closes && c.data.closes <= now)
+  .filter((c) => c.data.closes && !isTodayOrLater(c.data.closes, now))
   .sort((a, b) => {
     const dateA = a.data.closes?.getTime() || 0;
     const dateB = b.data.closes?.getTime() || 0;
