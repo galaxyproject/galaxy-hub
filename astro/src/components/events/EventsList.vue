@@ -3,7 +3,7 @@ import { ref, computed, onMounted, watch } from 'vue';
 import { useStore } from '@nanostores/vue';
 import { currentSubsite, subsites, type SubsiteId } from '@/stores/subsiteStore';
 import { renderMarkdownInline } from '@/utils/markdown';
-import { formatDateRange, getUTCYear } from '@/utils/dateUtils';
+import { formatDateRange, getUTCYear, isUpcomingEvent, isPastEvent } from '@/utils/dateUtils';
 import { contentMatchesSubsite } from '@/utils/subsites';
 import ExternalIcon from '../common/ExternalIcon.vue';
 
@@ -99,11 +99,7 @@ function toDate(d: string | undefined): Date | null {
 
 const upcomingEvents = computed(() => {
   return filteredEvents.value
-    .filter((event) => {
-      const eventDate = toDate(event.date);
-      const endDate = toDate(event.end) || eventDate;
-      return endDate && endDate >= now;
-    })
+    .filter((event) => isUpcomingEvent(event.date, event.end, now))
     .sort((a, b) => {
       const dateA = toDate(a.date)?.getTime() || 0;
       const dateB = toDate(b.date)?.getTime() || 0;
@@ -114,11 +110,7 @@ const upcomingEvents = computed(() => {
 // All past events (before year filtering)
 const allPastEvents = computed(() => {
   return filteredEvents.value
-    .filter((event) => {
-      const eventDate = toDate(event.date);
-      const endDate = toDate(event.end) || eventDate;
-      return endDate && endDate < now;
-    })
+    .filter((event) => isPastEvent(event.date, event.end, now))
     .sort((a, b) => {
       const dateA = toDate(a.date)?.getTime() || 0;
       const dateB = toDate(b.date)?.getTime() || 0;

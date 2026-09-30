@@ -92,3 +92,38 @@ export function formatDateRange(
   // Different months - show full dates
   return `${formatDate(startDate, short)} - ${formatDate(endDate, short)}`;
 }
+
+/**
+ * Get the last day of an event (end date, or start date for one-day events).
+ * Returns null if the event has no valid date.
+ */
+function eventLastDay(date: Date | string | null | undefined, end: Date | string | null | undefined): Date | null {
+  const last = toDate(end ?? undefined) || toDate(date ?? undefined);
+  return last && !isNaN(last.getTime()) ? last : null;
+}
+
+/**
+ * Check if an event is upcoming or still running: its last day is today or later.
+ * Compares whole UTC days, since event dates are stored as UTC midnight.
+ */
+export function isUpcomingEvent(
+  date: Date | string | null | undefined,
+  end: Date | string | null | undefined,
+  now: Date = new Date()
+): boolean {
+  const last = eventLastDay(date, end);
+  if (!last) return false;
+  const today = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate());
+  return last.getTime() >= today;
+}
+
+/**
+ * Check if an event is over: it has a valid date and its last day is before today.
+ */
+export function isPastEvent(
+  date: Date | string | null | undefined,
+  end: Date | string | null | undefined,
+  now: Date = new Date()
+): boolean {
+  return eventLastDay(date, end) !== null && !isUpcomingEvent(date, end, now);
+}

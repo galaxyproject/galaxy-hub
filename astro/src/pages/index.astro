@@ -3,6 +3,7 @@ import HomeLayout from '../layouts/HomeLayout.astro';
 import HeroHighlight from '../components/HeroHighlight.astro';
 import Icon from '../components/mdx/Icon.astro';
 import { getCollection } from 'astro:content';
+import { isUpcomingEvent } from '../utils/dateUtils';
 
 // Get recent news from the news collection
 const news = await getCollection('news');
@@ -18,10 +19,7 @@ const recentNews = news
 const events = await getCollection('events');
 const now = new Date();
 const upcomingEvents = events
-  .filter((e) => {
-    const eventDate = e.data.date instanceof Date ? e.data.date : new Date(e.data.date || '');
-    return eventDate >= now;
-  })
+  .filter((e) => isUpcomingEvent(e.data.date, e.data.end, now))
   .sort((a, b) => {
     const dateA = a.data.date instanceof Date ? a.data.date : new Date(a.data.date || '');
     const dateB = b.data.date instanceof Date ? b.data.date : new Date(b.data.date || '');

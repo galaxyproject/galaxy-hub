@@ -4,7 +4,13 @@
  */
 
 import { getCollection, type CollectionEntry } from 'astro:content';
-import { isPublishedDate, formatDate as formatDateUtil, formatDateRange as formatDateRangeUtil } from './dateUtils';
+import {
+  isPublishedDate,
+  isUpcomingEvent,
+  isPastEvent,
+  formatDate as formatDateUtil,
+  formatDateRange as formatDateRangeUtil,
+} from './dateUtils';
 import { contentMatchesSubsite } from './subsites';
 
 type ArticleEntry = CollectionEntry<'articles'>;
@@ -44,19 +50,14 @@ export async function getEvents(subsite?: string): Promise<EventEntry[]> {
 }
 
 /**
- * Get upcoming events (events with date >= today)
+ * Get upcoming events (events that end today or later)
  */
 export async function getUpcomingEvents(subsite?: string): Promise<EventEntry[]> {
   const events = await getEvents(subsite);
   const now = new Date();
-  now.setHours(0, 0, 0, 0);
 
   return events
-    .filter((event) => {
-      const eventDate = event.data.date;
-      if (!eventDate) return false;
-      return new Date(eventDate) >= now;
-    })
+    .filter((event) => isUpcomingEvent(event.data.date, event.data.end, now))
     .sort((a, b) => {
       const dateA = new Date(a.data.date || 0);
       const dateB = new Date(b.data.date || 0);
@@ -70,7 +71,6 @@ export async function getUpcomingEvents(subsite?: string): Promise<EventEntry[]>
 export async function getRecentEvents(subsite?: string, days = 365): Promise<EventEntry[]> {
   const events = await getEvents(subsite);
   const now = new Date();
-  now.setHours(0, 0, 0, 0);
 
   const cutoff = new Date(now);
   cutoff.setDate(cutoff.getDate() - days);
@@ -78,9 +78,8 @@ export async function getRecentEvents(subsite?: string, days = 365): Promise<Eve
   return events
     .filter((event) => {
       const eventDate = event.data.date;
-      if (!eventDate) return false;
-      const date = new Date(eventDate);
-      return date < now && date >= cutoff;
+      if (!eventDate || !isPastEvent(eventDate, event.data.end, now)) return false;
+      return new Date(eventDate) >= cutoff;
     })
     .sort((a, b) => {
       const dateA = new Date(a.data.date || 0);
