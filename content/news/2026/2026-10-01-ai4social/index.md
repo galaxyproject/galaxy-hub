@@ -28,8 +28,7 @@ Starting with the Social Sciences and Humanities, AI4SOCIAL+ will enable effecti
 
 # Who are the AI4SOCIAL+ partners?
 
-The project has partners all throughout Europe and the Barcelona Super Computing Center (BSC) will take over the coordination.
-Further partners come from France (COMITE DES DONNEES SCIENTIFIQUES ET TECHNOLOGIQUES ASSOCIATION), Norway (CESSDA ERIC), the UK (THE UNIVERSITY OF MANCHESTER, KING'S COLLEGE LONDON), the Netherlands (UNIVERSITEIT UTRECHT, ERASMUS UNIVERSITEIT ROTTERDAM) and Poland (AKADEMIA GORNICZO-HUTNICZA IM. STANISLAWA STASZICA W KRAKOWIE) and Germany (UNIVERSITÄT KONSTANZ).
+The project has partners all throughout Europe and the Barcelona Super Computing Center (BSC) will take over the coordination. For all partners, see the [project website](https://cordis.europa.eu/project/id/101292886).
 
 # How does Galaxy contribute?
 
