@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { parse } from 'yaml';
-import { communitySlug as baseCommunitySlug, toArray as baseToArray } from './community-base.mjs';
+import { communitySlug as baseCommunitySlug, parseHallOfFameFlag, toArray as baseToArray } from './community-base.mjs';
 
 const AVATAR_BASE = 'https://training.galaxyproject.org';
 
@@ -60,19 +60,6 @@ let grantCache: GrantMap | null = null;
 
 export function communitySlug(value: string): string {
   return baseCommunitySlug(value);
-}
-
-function parseHallOfFameFlag(flag: unknown, defaultValue = true): boolean {
-  if (flag === undefined || flag === null) return defaultValue;
-  if (typeof flag === 'boolean') return flag;
-  if (typeof flag === 'number') return flag !== 0;
-  if (typeof flag === 'string') {
-    const normalized = flag.trim().toLowerCase();
-    if (!normalized) return false;
-    if (['no', 'false', '0', 'off'].includes(normalized)) return false;
-    return true;
-  }
-  return Boolean(flag);
 }
 
 function normalizeAvatar(avatar?: string): string | undefined {

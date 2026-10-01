@@ -30,3 +30,19 @@ export function toArray(value) {
   }
   return [String(value)];
 }
+
+/**
+ * Parse a hall-of-fame opt-out flag such as `gtn-halloffame` or `hub-halloffame`.
+ */
+export function parseHallOfFameFlag(flag, defaultValue = true) {
+  if (flag === undefined || flag === null) return defaultValue;
+  if (typeof flag === 'boolean') return flag;
+  if (typeof flag === 'number') return flag !== 0;
+  if (typeof flag === 'string') {
+    const normalized = flag.trim().toLowerCase();
+    if (!normalized) return false;
+    if (['no', 'false', '0', 'off'].includes(normalized)) return false;
+    return true;
+  }
+  return Boolean(flag);
+}
