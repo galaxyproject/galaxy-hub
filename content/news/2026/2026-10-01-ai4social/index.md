@@ -4,7 +4,7 @@ date: "2026-10-01"
 tease: "AI4SOCIAL+ project kickoff meeting on 1st October 2026 online"
 subsites: [global,eu,us]
 main_subsite: freiburg
-tags: [conference, eosc, humanities, project]
+tags: [conference, eosc, humanities, project, ai]
 contributions:
   authorship:
     - Sch-Da
@@ -16,7 +16,7 @@ contributions:
 
 # What is AI4SOCIAL+?
 
-[AI Readiness for Social Impact](https://cordis.europa.eu/project/id/101292886) is a project funded by the European Commission under the Horizon Europe Programme to support the AI transformation in the Humanities and Social Sciences.
+[AI Readiness for Social Impact](https://cordis.europa.eu/project/id/101292886) - or short AI4SOCIAL+ is a project funded by the European Commission under the Horizon Europe Programme to support the AI transformation in the Humanities and Social Sciences.
 
 The AI4SOCIAL+ project advances AI readiness and machine actionability within the European Open Source Cloud ecosystem (EOSC) through three actions: 
 - building a common AI Readiness Framework to assess the adoption of AI across research lifecycles with best data practices and stewardship;
@@ -34,7 +34,8 @@ Further partners come from France (COMITE DES DONNEES SCIENTIFIQUES ET TECHNOLOG
 # How does Galaxy contribute?
 
 Galaxy, together with [COMPSs](https://compss-doc.readthedocs.io/en/stable/) and [Onedata](https://onedata.org/), will be the infrastructure backbone of the project. 
-In two Workpackages (WP 9 and WP 10), we will develop an AI-ready infrastructure platform that ensures the effective adoption of AI in science while incorporating the values of open science to support the 5 use-cases in the project.
+In two Workpackages (WP 9 and WP 10), we will develop an AI-ready infrastructure platform that ensures the effective adoption of AI in science while incorporating open science values to support the 5 use cases in the project. We will also feature more prominently in use case 2 on AI in Historical Archives, where we will support the digitisation of the medieval collection from the Arxiu Històric de Protocols de Barcelona (AHPB) through various tools, workflows and training.
+
 
 ## What's next?
 
