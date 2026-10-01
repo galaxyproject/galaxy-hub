@@ -3,7 +3,7 @@ subsites:
 - all
 gtn: true
 date: '2027-04-05'
-days: 26
+end: '2027-04-30'
 title: Workflow4Experimenters 2027
 contact: Workflow4Metabolomics core team, Binta Diémé, Céline Dalle, Cédric Delporte,
   Cécile Canlet, Delphine Centeno, Florence Souard, Helge Hecht, Isabelle Schmitz,
