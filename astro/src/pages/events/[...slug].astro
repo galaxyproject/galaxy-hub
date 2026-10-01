@@ -67,10 +67,10 @@ export async function getStaticPaths() {
     const tags = Array.isArray(data.tags) ? data.tags : [];
     const hasConferenceTag = tags.some((tag) => typeof tag === 'string' && tag.toLowerCase() === 'conference');
     const hasConferenceKeyword = /conference|summit|symposium/i.test(title);
-    const hasDays = data.days !== undefined && data.days !== null;
+    const hasEnd = data.end !== undefined && data.end !== null;
     const explicitFlag = data.conference === true;
 
-    return explicitFlag || hasConferenceTag || hasConferenceKeyword || hasDays;
+    return explicitFlag || hasConferenceTag || hasConferenceKeyword || hasEnd;
   }
 
   function toTitleCaseSegment(segment: string): string {

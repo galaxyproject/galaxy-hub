@@ -2,7 +2,6 @@ import { describe, it, expect, beforeEach, afterEach } from 'vitest';
 import fs from 'fs';
 import os from 'os';
 import path from 'path';
-import matter from 'gray-matter';
 import {
   addBootstrapMarker,
   deriveNewsNaturalSlug,
@@ -442,57 +441,6 @@ describe('processMarkdownFile publish date', () => {
     const filePath = writeFixture('events/2999-01-01-future/index.md', '2999-01-01');
     expect((await processFixture(filePath)).collection).toBe('events');
     expect(isWritten(filePath)).toBe(true);
-  });
-});
-
-describe('processMarkdownFile event end date', () => {
-  let tmpDir;
-  let contentDir;
-  let outputDir;
-
-  const writeFixture = (relPath, frontmatterLines) => {
-    const filePath = path.join(contentDir, relPath);
-    fs.mkdirSync(path.dirname(filePath), { recursive: true });
-    fs.writeFileSync(filePath, `---\ntitle: Fixture\ntease: Fixture tease.\n${frontmatterLines}\n---\nBody\n`);
-    return filePath;
-  };
-
-  const processedEnd = async (filePath) => {
-    await processMarkdownFile(filePath, { contentDir, outputDir });
-    const dest = destPathsForMarkdown(filePath, contentDir, outputDir).find((p) => fs.existsSync(p));
-    const { end } = matter(fs.readFileSync(dest, 'utf-8')).data;
-    return end ? new Date(end).toISOString() : undefined;
-  };
-
-  beforeEach(() => {
-    insertCache.clear();
-    tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'preprocess-event-end-test-'));
-    contentDir = path.join(tmpDir, 'content');
-    outputDir = path.join(tmpDir, 'out');
-  });
-
-  afterEach(() => {
-    fs.rmSync(tmpDir, { recursive: true, force: true });
-  });
-
-  it('derives the last day from days for multi-day events', async () => {
-    const filePath = writeFixture('events/2026-10-12-training/index.md', "date: '2026-10-12'\ndays: 5");
-    expect(await processedEnd(filePath)).toBe('2026-10-16T00:00:00.000Z');
-  });
-
-  it('keeps an explicit end', async () => {
-    const filePath = writeFixture('events/2026-10-11-asm/index.md', "date: '2026-10-11'\nend: '2026-10-14'\ndays: 6");
-    expect(await processedEnd(filePath)).toBe('2026-10-14T00:00:00.000Z');
-  });
-
-  it('adds no end for one-day events', async () => {
-    const filePath = writeFixture('events/2026-10-20-webinar/index.md', "date: '2026-10-20'\ndays: 1");
-    expect(await processedEnd(filePath)).toBeUndefined();
-  });
-
-  it('adds no end outside events', async () => {
-    const filePath = writeFixture('news/2024/2024-05-13-egu/index.md', "date: '2024-05-13'\ndays: 3");
-    expect(await processedEnd(filePath)).toBeUndefined();
   });
 });
 

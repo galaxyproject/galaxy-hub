@@ -18,18 +18,20 @@
  *   node src/build/normalize-content.mjs --fix-component-case
  *   node src/build/normalize-content.mjs --convert-fa-to-icon
  *   node src/build/normalize-content.mjs --sync-components-flag
+ *   node src/build/normalize-content.mjs --days-to-end
  *   node src/build/normalize-content.mjs --all
  *   node src/build/normalize-content.mjs --check  (dry-run, exits non-zero if changes needed)
  */
 
 import fs from 'fs';
 import path from 'path';
-import { fileURLToPath } from 'url';
+import { fileURLToPath, pathToFileURL } from 'url';
 import { glob } from 'glob';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const CONTENT_DIR = path.resolve(__dirname, '../../..', 'content');
 
+const isMain = process.argv[1] && import.meta.url === pathToFileURL(fs.realpathSync(process.argv[1])).href;
 const args = process.argv.slice(2);
 const dryRun = args.includes('--check');
 const runAll = args.includes('--all');
@@ -46,15 +48,16 @@ const transforms = {
   fixComponentCase: runAll || args.includes('--fix-component-case'),
   convertFaToIcon: runAll || args.includes('--convert-fa-to-icon'),
   syncComponentsFlag: runAll || args.includes('--sync-components-flag'),
+  daysToEnd: runAll || args.includes('--days-to-end'),
 };
 
-if (!Object.values(transforms).some(Boolean)) {
+if (isMain && !Object.values(transforms).some(Boolean)) {
   console.error('Usage: node src/build/normalize-content.mjs <transform> [--check]');
   console.error('Transforms: --strip-layout, --normalize-frontmatter-arrays,');
   console.error('  --strip-vue-artifacts, --convert-gridsome-syntax, --convert-kramdown,');
   console.error('  --fix-void-elements, --fix-unquoted-attrs, --fix-autolinks,');
   console.error('  --fix-component-case, --convert-fa-to-icon,');
-  console.error('  --sync-components-flag, --all');
+  console.error('  --sync-components-flag, --days-to-end, --all');
   process.exit(1);
 }
 
@@ -119,6 +122,29 @@ function normalizeFrontmatterArrays(fm) {
       new RegExp(`^(${field}:)[ \\t]+(?!\\[)(\\S.*)$`, 'gm'),
       (match, prefix, value) => `${prefix} [${value}]`
     );
+  }
+  return result;
+}
+
+/**
+ * Replace an event's `days:` with an `end:` date (its last day); one-day
+ * events just lose `days:`. Operates on raw YAML text to avoid reformatting.
+ * Leaves the frontmatter alone when there is no full `date:` to count from.
+ */
+export function daysToEnd(fm) {
+  const daysMatch = fm.match(/^days:[ \t]*(\d*)[ \t]*\r?\n/m);
+  if (!daysMatch) return fm;
+  const days = Number(daysMatch[1]);
+  let result = fm.slice(0, daysMatch.index) + fm.slice(daysMatch.index + daysMatch[0].length);
+  if (days > 1 && !/^end:/m.test(result)) {
+    const dateMatch = result.match(/^date:[ \t]*(['"]?)(\d{4}-\d{2}-\d{2})\1[ \t]*$/m);
+    if (!dateMatch) return fm;
+    const end = new Date(`${dateMatch[2]}T00:00:00Z`);
+    if (isNaN(end.getTime())) return fm;
+    end.setUTCDate(end.getUTCDate() + days - 1);
+    const quote = dateMatch[1];
+    const at = dateMatch.index + dateMatch[0].length;
+    result = `${result.slice(0, at)}\nend: ${quote}${end.toISOString().slice(0, 10)}${quote}${result.slice(at)}`;
   }
   return result;
 }
@@ -510,6 +536,13 @@ async function main() {
           changed = true;
         }
       }
+      if (transforms.daysToEnd && path.relative(CONTENT_DIR, filePath).startsWith('events/')) {
+        const newFm = daysToEnd(fm);
+        if (newFm !== fm) {
+          fm = newFm;
+          changed = true;
+        }
+      }
     }
 
     // Body transforms
@@ -622,7 +655,9 @@ async function main() {
   }
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+if (isMain) {
+  main().catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
+}

@@ -64,7 +64,7 @@ Events have additional fields:
 
 | Field       | Description                                          |
 | :---------- | :--------------------------------------------------- |
-| `days`      | Duration in days                                     |
+| `end`       | Last day of a multi-day event, in `'YYYY-MM-DD'` format |
 | `continent` | Two-letter code: AF, AS, AU, EU, GL, NA, SA          |
 | `location`  | Object with `name:` and optional `url:`              |
 | `contact`   | Event contact information                            |
