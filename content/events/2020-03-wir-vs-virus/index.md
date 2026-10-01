@@ -1,7 +1,7 @@
 ---
 title: "WirVsVirus Hackathon"
 date: '2020-03-20'
-days: 3
+end: '2020-03-22'
 tease: "Looking for bold and innovative ideas that will help society to show solidarity now and emerge stronger"
 continent: EU
 location:

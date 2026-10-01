@@ -1,7 +1,6 @@
 ---
 title: "Tools Platform and Single Cell Omics: 'Bring Your Workflow' to WorkflowHub"
 date: '2025-05-13'
-days: 1
 tease: "Discover how to make your workflows FAIR, citable, and shareable at this hands-on ELIXIR event with WorkflowHub and Single Cell Omics experts."
 continent: EU
 location:

@@ -1,7 +1,6 @@
 ---
 title: Introduction to Galaxy
 date: '2017-02-06'
-days: 1
 tease: Galaxy in Daejeon, South Korea
 continent: AS
 location:

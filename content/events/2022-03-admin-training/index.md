@@ -1,7 +1,7 @@
 ---
 title: "2022 Galaxy Admin Training"
 date: '2022-03-14'
-days: 5
+end: '2022-03-18'
 tease: "The ins and outs of setting up your own production quality Galaxy server."
 continent: GL
 location:

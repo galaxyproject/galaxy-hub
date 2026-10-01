@@ -1,7 +1,7 @@
 ---
 title: "Galaxy @ JOBIM 2017"
 date: '2017-07-03'
-days: 4
+end: '2017-07-06'
 tease: "l’occasion de découvrir les avancées scientifiques et techniques en analyse, comparaison et exploitation des données biologiques"
 continent: EU
 location:

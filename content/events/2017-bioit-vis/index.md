@@ -1,7 +1,6 @@
 ---
 title: "Galaxy as a Platform for Visual Analytics"
 date: '2017-05-24'
-days: 1
 tease: "Galaxy @ BioIT World"
 continent: NA
 location:

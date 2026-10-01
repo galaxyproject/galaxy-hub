@@ -1,7 +1,6 @@
 ---
 title: "Workshop - Introduction to Galaxy for Digital Humanities and Research Data Management"
 date: '2025-05-19'
-days: 1
 tease: "Join us for our workshop introducing Galaxy for Digital Humanities and Research Data Management in Freiburg"
 continent: EU
 location:

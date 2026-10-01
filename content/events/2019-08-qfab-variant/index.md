@@ -2,7 +2,6 @@
 title: "Variant detection using Galaxy" 
 tease: ""
 date: '2019-08-01'
-days: 1
 continent: AU
 location:
   name: QFAB, St Lucia, Queensland, Australia

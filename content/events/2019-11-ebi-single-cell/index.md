@@ -1,7 +1,7 @@
 ---
 title: "Single cell RNA-seq analysis: From questions to clusters"
 date: '2019-11-27'
-days: 5
+end: '2019-12-01'
 tease: "Application deadline:  Monday 29 July 2019"
 continent: EU
 location:

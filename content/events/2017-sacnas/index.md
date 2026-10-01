@@ -1,7 +1,6 @@
 ---
 title: SACNAS 2017 Pre-Conference Workshops 
 date: '2017-10-18'
-days: 1
 tease: Galaxy, CyVerse, Data abd Software Carpentry
 continent: NA
 location:

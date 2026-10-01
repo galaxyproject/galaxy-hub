@@ -1,7 +1,7 @@
 ---
 title: "Exploring Biodiversity through Bioinformatics"
 date: '2019-04-09'
-days: 4
+end: '2019-04-12'
 tease: "The Elixir Galaxy Community is organizing a workshop at Roscoff related to Galaxy tools and training."
 continent: "SA"
 location:

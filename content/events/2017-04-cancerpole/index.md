@@ -1,7 +1,7 @@
 ---
 title: 'NGS & Cancer : Analyses DNA-Seq'
 date: '2017-04-19'
-days: 3
+end: '2017-04-21'
 tease: Analyses DNA-Seq avec Galaxy
 continent: EU
 location:

@@ -1,7 +1,6 @@
 ---
 title: "Introduction to Galaxy Workshop"
 date: '2016-07-21'
-days: 1
 tease: ""
 continent: NA
 location:

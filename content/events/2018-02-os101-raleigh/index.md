@@ -1,7 +1,6 @@
 ---
 title: "Open Source Breakthroughs in Life Sciences and Precision Medicine"
 date: '2018-02-17'
-days: 1
 tease: "Paving the way to the standardization and integration of data"
 continent: NA
 location:

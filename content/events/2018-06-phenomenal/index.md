@@ -1,7 +1,7 @@
 ---
 title: "PhenoMeNal Gateway: Portal to metabolomics data analysis in the cloud"
 date: '2018-06-06'
-days: 3
+end: '2018-06-08'
 tease: "an introduction to metabolomics data analysis in a cloud computing environment"
 continent: EU
 location:

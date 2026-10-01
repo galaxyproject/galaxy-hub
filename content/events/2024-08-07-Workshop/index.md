@@ -1,7 +1,6 @@
 ---
 title: Get Started with Galaxy
 date: '2024-08-07'
-days: 1
 tease: "Join us for a hands-on virtual workshop designed to introduce you to essential bioinformatics skills using Galaxy—perfect for beginners and those looking to refresh their knowledge."
 continent: GL
 location: "Online"

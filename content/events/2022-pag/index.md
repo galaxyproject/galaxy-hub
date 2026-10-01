@@ -1,7 +1,7 @@
 ---
 title: "Galaxy @ Plant & Animal Genome XXIX (PAG 2022)"
 date: '2022-01-08'
-days: 5
+end: '2022-01-12'
 tease: "Galaxy is for Plants and Animals too..."
 continent: NA
 location:

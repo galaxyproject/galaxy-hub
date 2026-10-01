@@ -3,7 +3,6 @@ title: Analyse primaire de données issues de séquenceurs nouvelle génération
   Galaxy
 date: '2021-02-17'
 tease: Part of Cycle "Bioinformatique par la pratique" 2021
-days: 1
 continent: EU
 location:
   name: Cycle "Bioinformatique par la pratique" 2021, Online, INRAE, Jouy-en-Josas,

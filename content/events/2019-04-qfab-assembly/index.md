@@ -2,7 +2,6 @@
 title: "Genome assembly using Galaxy" 
 tease: ""
 date: '2019-04-02'
-days: 1
 continent: AU
 location:
   name: QFAB, St Lucia, Queensland, Australia

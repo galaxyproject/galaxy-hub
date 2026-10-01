@@ -1,7 +1,7 @@
 ---
 title: 2017 Galaxy Community Conference (GCC2017)
 date: '2017-06-26'
-days: 5
+end: '2017-06-30'
 tease: 5 days of Galaxy
 location:
   name: Montpellier, Fance

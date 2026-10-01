@@ -1,7 +1,6 @@
 ---
 title: "Structural Variant Detection using ONT Data"
 date: '2021-01-26'
-days: 1
 tease: "A GalaxyPro Webinar"
 continent: GL
 location:

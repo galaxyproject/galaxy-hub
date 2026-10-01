@@ -1,7 +1,6 @@
 ---
 title: "Introduction to Galaxy & Proteomics online workshop"
 date: '2021-03-22'
-days: 1
 tease: "Limited to 50 participants"
 continent: EU
 location:

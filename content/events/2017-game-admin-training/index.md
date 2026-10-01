@@ -2,7 +2,7 @@
 title: Galaxy Admin Training
 external_url: https://www.emblaustralia.org/events-speakers/public-events/game-2017-galaxy-australasia-meeting
 date: '2017-02-06'
-days: 4
+end: '2017-02-09'
 tease: at Galaxy Australasia Meeting Meeting
 continent: AU
 location:

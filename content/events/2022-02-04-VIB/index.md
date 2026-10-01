@@ -1,7 +1,6 @@
 ---
 title: "Bulk RNASeq: from counts to differential expression - online"
 date: '2022-02-04'
-days: 1
 tease: "Explore your transcriptomics experiments"
 continent: GL
 location:

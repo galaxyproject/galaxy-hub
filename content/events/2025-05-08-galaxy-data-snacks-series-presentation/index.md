@@ -1,7 +1,6 @@
 ---
 title: Galaxy Europe presents at the “Data Snacks” Series – Presentation by Dr. Sanjay Kumar Srikakulam
 date: '2025-05-08'
-days: 1
 tease: "Discover how Galaxy simplifies data analysis and management across scientific fields during the next Data Snacks session!"
 continent: EU
 location:

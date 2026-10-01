@@ -2,7 +2,6 @@
 title: 'Galaxy Community Call: Tool Search “Past, Present, and Future”'
 date: '2022-09-15'
 tease: A forum to share updates and discuss community-wide topics
-days: 1
 continent: GL
 location:
   name: "Galaxy Community Call, Online, Global"

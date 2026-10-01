@@ -1,7 +1,6 @@
 ---
 title: "Galaxy Australia – The Free Genetics and Genomics Analysis Platform"
 date: '2018-11-04'
-days: 1
 tease: "Practical strategies and tools you can use to investigate your NGS data"
 continent: AU
 location:

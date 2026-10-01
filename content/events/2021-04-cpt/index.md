@@ -1,7 +1,6 @@
 ---
 title: "Phage genome annotation pipelines in CPT Galaxy and WebApollo"
 date: '2021-04-07'
-days: 1
 tease: ""
 continent: GL
 location:

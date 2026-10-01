@@ -1,8 +1,8 @@
 ---
 title: Climate JupyterLab as an interactive tool in Galaxy
 date: '2020-10-12'
+end: '2020-10-16'
 tease: Bridging the gap between climate scientists and non-climate specialists
-days: 5
 continent: EU
 location:
   name: JupyterCon, Online, Europe

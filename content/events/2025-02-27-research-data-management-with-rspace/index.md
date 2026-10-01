@@ -1,7 +1,6 @@
 ---
 title: Research Data Management with RSpace and Galaxy - Talk and Q&A
 date: '2025-02-27'
-days: 1
 tease: "Discover how RSpace's open-source solutions promote innovation and collaboration in research data management (RDM)."
 continent: EU
 location:

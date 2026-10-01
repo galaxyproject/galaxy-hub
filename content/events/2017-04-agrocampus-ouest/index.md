@@ -1,7 +1,6 @@
 ---
 title: "Galaxy : Traitement de données de séquences par Galaxy"
 date: '2018-04-10'
-days: 1
 tease: "détection de SNP, analyse de données RNA-seq et ChIP-seq"
 continent: EU
 location:

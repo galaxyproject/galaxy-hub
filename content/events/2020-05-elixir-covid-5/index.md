@@ -1,7 +1,6 @@
 ---
 title: "Behind the scenes: Global Open Infrastructures at work"
 date: '2020-05-28'
-days: 1
 tease: "Part of the Galaxy-ELIXIR webinar series"
 continent: EU
 location:

@@ -1,7 +1,6 @@
 ---
 title: "Introduction to Galaxy Workshop - Genomics"
 date: '2018-07-02'
-days: 1
 tease: "Use Galaxy to perform your own analysis and generate reproducible and sharable workflows"
 continent: EU
 location:

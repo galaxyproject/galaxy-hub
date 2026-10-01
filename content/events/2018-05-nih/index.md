@@ -1,7 +1,7 @@
 ---
 title: "Bioinformatics Analysis of Next Generation Sequencing Data"
 date: '2018-05-08'
-days: 4
+end: '2018-05-11'
 tease: "Bioinformatic analysis of next generation sequencing data, particularly for DNA-seq, RNA-seq, CHIP-seq, and epigenomics"
 continent: NA
 location:

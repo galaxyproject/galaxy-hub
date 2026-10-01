@@ -1,8 +1,8 @@
 ---
 title: Summer School in Bioinformatics
 date: '2022-06-13'
+end: '2022-06-17'
 tease: Applications close 8 March
-days: 5
 continent: EU
 location:
   name: EMBL-EBI, Online, Hinxton, United Kingdom

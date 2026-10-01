@@ -2,7 +2,6 @@
 title: "Galaxy single cell RNA-seq data analysis workshop"
 date: "2020-03-23"
 end: "2020-03-27"
-days: 5
 tease: "Galaxy single cell RNA-seq data analysis workshop (Postponed)"
 continent: EU
 location:

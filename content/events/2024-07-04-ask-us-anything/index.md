@@ -1,7 +1,6 @@
 ---
 title: Ask Us Anything about Galaxy live webinar
 date: '2024-07-19'
-days: 1
 tease: "The European Galaxy Team offers a Q&A session for all users"
 continent: EU
 location:

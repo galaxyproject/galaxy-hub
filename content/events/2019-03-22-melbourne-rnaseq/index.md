@@ -2,7 +2,6 @@
 title: "RNA-Seq Differential Gene Expression Analysis using Galaxy and the GVL" 
 tease: ""
 date: '2019-03-22'
-days: 1
 continent: AU
 location:
   name: University of Melbourne, Melbourne, Australia

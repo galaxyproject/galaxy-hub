@@ -1,8 +1,8 @@
 ---
 title: 2021 Galaxy Admin Training
 date: '2021-01-25'
+end: '2021-01-29'
 tease: The ins and outs of setting up your own production quality Galaxy server.
-days: 5
 continent: GL
 location:
   name: Online, Global

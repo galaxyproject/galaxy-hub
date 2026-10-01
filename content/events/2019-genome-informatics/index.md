@@ -1,7 +1,7 @@
 ---
 title: 'Galaxy @ Genome Informatics 2019'
 date: '2019-11-06'
-days: 4
+end: '2019-11-09'
 tease: ''
 continent: 'NA'
 location:

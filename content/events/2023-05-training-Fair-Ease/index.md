@@ -2,7 +2,7 @@
 title: "Galaxy training: Fair-Ease feat EuroScienceGateway"
 tease: "FAIR-EASE and EuroScienceGateway join forces"
 date: '2023-05-16'
-days: 2
+end: '2023-05-17'
 continent: EU
 location:
   name: "Lille (France)"

@@ -1,7 +1,6 @@
 ---
 title: "Variant Detection using Galaxy Australia"
 date: '2018-09-12'
-days: 1
 tease: "introduce yourself to Galaxy Australia and its use it for variant detection"
 continent: AU
 location:

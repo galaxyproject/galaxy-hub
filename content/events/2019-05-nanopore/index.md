@@ -1,7 +1,7 @@
 ---
 title: "It is all about accessibility: Galaxy as a framework for democratizing Oxford Nanopore data analysis"
 date: '2019-05-22'
-days: 3
+end: '2019-05-24'
 tease: ''
 continent: EU
 location:

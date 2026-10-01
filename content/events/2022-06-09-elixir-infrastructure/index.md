@@ -1,7 +1,6 @@
 ---
 title: "Enabling Science at European Scale"
 date: '2022-06-09'
-days: 1
 tease: "Talk at the ELIXIR All Hands 2022"
 continent: EU
 location:

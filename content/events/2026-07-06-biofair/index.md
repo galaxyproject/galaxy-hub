@@ -3,7 +3,7 @@ subsites:
 - all
 gtn: true
 date: '2026-07-06'
-days: 74
+end: '2026-09-17'
 title: 'BioFAIR Data to Discovery: Single-Cell Analysis with Galaxy'
 contact: Marisa Loach
 location:

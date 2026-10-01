@@ -1,7 +1,7 @@
 ---
 title: "Gateways Focus Week"
 date: '2020-11-30'
-days: 11
+end: '2020-12-10'
 tease: "Make your gateway sustainable"
 continent: NA
 location:

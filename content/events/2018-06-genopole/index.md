@@ -1,7 +1,7 @@
 ---
 title: "Genopole Summer School"
 date: '2018-06-25'
-days: 5
+end: '2018-06-29'
 tease: "Bioinformatics and Biostatistical Tools in Medical Genomics"
 continent: EU
 location:

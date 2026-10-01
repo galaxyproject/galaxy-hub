@@ -2,7 +2,6 @@
 title: Galaxy Resources for Administrators & Infrastructure Providers
 date: '2021-05-26'
 tease: Part of the Galaxy Resources Webinar Series
-days: 1
 continent: GL
 location:
   name: Galaxy Resources Webinar Series, Online, Global

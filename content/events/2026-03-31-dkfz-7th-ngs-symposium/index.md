@@ -2,7 +2,7 @@
 subsites: [eu, freiburg]
 gtn: false
 date: '2026-04-14'
-days: 3
+end: '2026-04-16'
 tags:
 - new event-external
 title: NGS Symposium 2026

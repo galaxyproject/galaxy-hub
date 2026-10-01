@@ -3,7 +3,7 @@ subsites:
 - all
 gtn: false
 date: '2026-03-05'
-days: 2
+end: '2026-03-06'
 title: Galaxy Metagenome Training Course 2026
 contact: Paul Zierep
 location:

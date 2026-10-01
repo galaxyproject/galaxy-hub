@@ -2,7 +2,6 @@
 title: GalaxyNL Meeting 2021
 date: '2021-05-28'
 tease: Gathering the Dutch Galaxy Community
-days: 1
 continent: EU
 location:
   name: Online, The Netherlands

@@ -2,7 +2,6 @@
 title: "Introduction to Variant Calling with Galaxy & the GVL" 
 tease: ""
 date: '2019-03-26'
-days: 1
 continent: AU
 location:
   name: University of Melbourne, Melbourne, Australia

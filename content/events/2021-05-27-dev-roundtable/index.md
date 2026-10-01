@@ -2,7 +2,6 @@
 title: Release Testing
 date: '2021-05-27'
 tease: What's changed recently, and what's involved
-days: 1
 continent: GL
 location:
   name: Galaxy Developer Roundtable, Online, Global

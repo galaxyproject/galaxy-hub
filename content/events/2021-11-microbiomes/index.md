@@ -1,7 +1,7 @@
 ---
 title: "Analysis of Functions Expressed by Microbiomes"
 date: '2021-11-15'
-days: 10
+end: '2021-11-24'
 tease: "Microbiome experts and instructors from Galaxy community will teach online courses on microbiome analysis via interactive resources."
 continent: AS
 location:

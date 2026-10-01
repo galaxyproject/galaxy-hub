@@ -3,7 +3,6 @@ title: "The 2nd Galaxy Tool Development Workshop - Now Open to the wider Communi
 tease: "Join us in Freiburg to learn how to build, test, and publish your own tools for the Galaxy platform - hands-on, beginner-friendly, and led by experienced Galaxy developers"
 date: 2026-10-07
 end: 2026-10-09
-days: 3
 continent: "EU"
 location:
   name: SR 00-007, Georges-Köhler-Allee 106, Department of Computer Science, University of Freiburg

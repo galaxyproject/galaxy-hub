@@ -2,7 +2,6 @@
 title: "Introduction to Galaxy & the Genomics Virtual Laboratory" 
 tease: ""
 date: '2019-03-21'
-days: 1
 continent: AU
 location:
   name: University of Melbourne, Melbourne, Australia

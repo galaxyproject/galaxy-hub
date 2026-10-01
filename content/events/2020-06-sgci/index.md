@@ -1,7 +1,6 @@
 ---
 title: "Galaxy: Powering Science from the Desktop to Global Cyberinfrastructure"
 date: "2020-06-24"
-days: 1
 tease: "The ins and outs of the Galaxy platform"
 continent: NA
 location:

@@ -1,7 +1,7 @@
 ---
 title: "Galaxy Australia @ eResearch NZ 2021"
 date: '2021-02-10'
-days: 3
+end: '2021-02-12'
 tease: ""
 continent: AU
 location:

@@ -2,7 +2,6 @@
 title: Galaxy Working Groups Follow Up and Discussion
 date: '2021-01-07'
 tease: How are we doing after a month?
-days: 1
 continent: GL
 location:
   name: Galaxy Developer Roundtable, Online, Global

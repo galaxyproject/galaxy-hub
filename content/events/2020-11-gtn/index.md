@@ -2,7 +2,6 @@
 title: Galaxy Training Network day - (online) CoFest and community call
 date: '2020-11-19'
 tease: ''
-days: 1
 continent: GL
 location:
   name: Online, Global

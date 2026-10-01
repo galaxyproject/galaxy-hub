@@ -1,7 +1,6 @@
 ---
 title: "A comprehensive software package for analysis of multiplex tissue imaging datasets"
 date: '2021-04-10'
-days: 1
 tease: "end-to-end analysis of common MTI assays"
 continent: NA
 location:

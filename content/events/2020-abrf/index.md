@@ -1,8 +1,8 @@
 ---
 title: Galaxy @ ABRF 2020
 date: '2020-02-29'
+end: '2020-03-03'
 tease: Single Cell, and Functional Characteristics of Microbiomes
-days: 4
 continent: NA
 location:
   name: ABRF 2020, Palm Springs, California, United States

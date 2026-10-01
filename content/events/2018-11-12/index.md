@@ -1,7 +1,7 @@
 ---
 title: "Brno Bioinformatics Workshop"
 date: '2018-11-12'
-days: 2
+end: '2018-11-13'
 tease: "Next-Generation Sequencing data analysis using Galaxy"
 continent: EU
 location:

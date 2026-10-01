@@ -1,7 +1,7 @@
 ---
 title: 'RNA Bioinformatics and Galaxy'
 date: '2017-10-23'
-days: 3
+end: '2017-10-25'
 tease: 
 continent: EU
 location:

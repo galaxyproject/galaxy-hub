@@ -1,7 +1,6 @@
 ---
 title: "Machine learning tools in Galaxy, and enabling per-objectstore quotas in Galaxy"
 date: '2020-10-01'
-days: 1
 tease: ""
 continent: GL
 location:

@@ -1,7 +1,6 @@
 ---
 title: "25th Workflow Meetup"
 date: '2020-02-12'
-days: 1
 tease: ""
 continent: AS
 location:

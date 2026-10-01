@@ -1,7 +1,6 @@
 ---
 title: Single-cell and sPatial Omics | Collaboration Fest
 date: '2024-12-06'
-days: 1
 tease: "The Single-cell and sPatial Omics Community of Practice (SPOC) are hosting their first Collaboration Fest, welcoming new and experienced contributors to our training materials."
 continent: NA
 location:

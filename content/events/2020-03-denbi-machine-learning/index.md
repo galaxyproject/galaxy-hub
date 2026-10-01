@@ -2,7 +2,6 @@
 title: "Introduction to Machine Learning using Galaxy"
 date: "2020-03-30"
 end: "2020-04-01"
-days: 3
 tease: "Introduction to Machine Learning using Galaxy (Postponed)"
 continent: EU
 location:

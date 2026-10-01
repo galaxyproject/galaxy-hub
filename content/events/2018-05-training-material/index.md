@@ -1,7 +1,7 @@
 ---
 title: "ELIXIR Workshop for Galaxy training material and skills improvement"
 date: '2018-05-21'
-days: 3
+end: '2018-05-23'
 tease: "Build on an existing collection of Galaxy training materials "
 continent: EU
 location:
