@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, ref, onMounted } from 'vue';
+import { computed, ref, onMounted, onUnmounted } from 'vue';
 
 const props = defineProps<{
   tweetUrl?: string;
@@ -9,7 +9,6 @@ const props = defineProps<{
 
 const container = ref<HTMLElement | null>(null);
 const loaded = ref(false);
-const error = ref(false);
 
 const tweetId = computed(() => props.id || props.tweet || props.tweetUrl?.match(/\/status(?:es)?\/(\d+)/)?.[1]);
 
@@ -33,39 +32,46 @@ function loadWidgets(): Promise<any> {
   return new Promise((resolve) => w.twttr.ready(resolve));
 }
 
-onMounted(async () => {
-  if (!container.value) return;
+// createTweet never settles for deleted, private or non-embeddable tweets (the frame only
+// shows "Not found"), so clear the frame and fall back to the link if it has not rendered
+const RENDER_TIMEOUT_MS = 10000;
+let timer: ReturnType<typeof setTimeout> | undefined;
 
-  if (!tweetId.value) {
-    error.value = true;
-    return;
-  }
+onMounted(async () => {
+  const target = container.value;
+  const id = tweetId.value;
+  if (!target || !id) return;
+
+  const twttr = await loadWidgets();
+  timer = setTimeout(() => {
+    if (!loaded.value) target.replaceChildren();
+  }, RENDER_TIMEOUT_MS);
 
   try {
-    const twttr = await loadWidgets();
-
-    // Create tweet embed
-    await twttr.widgets.createTweet(tweetId.value, container.value, {
+    const element = await twttr.widgets.createTweet(id, target, {
       theme: 'light',
       dnt: true,
     });
-
-    loaded.value = true;
+    loaded.value = !!element && target.contains(element);
+    if (!loaded.value) target.replaceChildren();
   } catch (e) {
     console.error('Failed to load tweet:', e);
-    error.value = true;
+    target.replaceChildren();
+  } finally {
+    clearTimeout(timer);
   }
 });
+
+onUnmounted(() => clearTimeout(timer));
 </script>
 
 <template>
   <div class="twitter-embed my-4">
-    <div v-if="error" class="p-4 bg-ebony-clay-50 rounded-lg text-center">
-      <p class="text-chicago-600">Unable to load tweet</p>
-      <a v-if="href" :href="href" target="_blank" rel="noopener noreferrer" class="text-galaxy-primary hover:underline">
+    <div v-if="href && !loaded" class="p-4 bg-ebony-clay-50 rounded-lg text-center">
+      <a :href="href" target="_blank" rel="noopener noreferrer" class="text-galaxy-primary hover:underline">
         View on Twitter
       </a>
     </div>
-    <div v-show="!error" ref="container" class="flex justify-center"></div>
+    <div ref="container" class="flex justify-center"></div>
   </div>
 </template>
