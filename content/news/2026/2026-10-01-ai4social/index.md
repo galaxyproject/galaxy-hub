@@ -2,7 +2,7 @@
 title: "AI4SOCIAL+ Online Kickoff"
 date: "2026-10-01"
 tease: "AI4SOCIAL+ project kickoff meeting on 1st October 2026 online"
-subsites: [global,eu,us]
+subsites: [global,eu,freiburg]
 main_subsite: freiburg
 tags: [conference, eosc, humanities, project, ai]
 contributions:
@@ -12,6 +12,7 @@ contributions:
     - IvoLeist
   funding:
     - ai4social
+    - eu
 ---
 
 # What is AI4SOCIAL+?
@@ -32,8 +33,8 @@ The project has partners all throughout Europe and the Barcelona Super Computing
 
 # How does Galaxy contribute?
 
-(Galaxy)[https://galaxyproject.org/eu/], together with [COMPSs](https://compss-doc.readthedocs.io/en/stable/) and [Onedata](https://onedata.org/), will be the infrastructure backbone of the project. 
-In two Workpackages (WP 9 and WP 10), we will develop an AI-ready infrastructure platform that enables the effective adoption of AI in science while incorporating open science values to support the project's 5 use cases. Galaxy will also play a prominent role in Use Case 2, **AI in Historical Archives**, supporting the digitisation of the medieval collection of the Arxiu Històric de Protocols de Barcelona (AHPB) through the development of tools, workflows, and training materials. Additionally, we will support the dissemination of tools, analyses, workflows, and more generally, scientific artefacts developed via the [Galaxy Training Network](https://training.galaxyproject.org/) with Stream E for training and education.
+[Galaxy Europe](https://galaxyproject.org/eu/), together with [COMPSs](https://compss-doc.readthedocs.io/en/stable/) and [Onedata](https://onedata.org/), will be the infrastructure backbone of the project. 
+In two Work Packages (WP 9 and WP 10), we will develop an AI-ready infrastructure platform that enables the effective adoption of AI in science while incorporating open science values to support the project's 5 use cases. Galaxy will also play a prominent role in Use Case 2, **AI in Historical Archives**, supporting the digitisation of the medieval collection of the [Arxiu Històric de Protocols de Barcelona (AHPB)](https://www.colegionotarial.org/ca/ahpb/) through the development of tools, workflows, and training materials. Additionally, we will support the dissemination of tools, analyses, workflows, and more generally, scientific artefacts developed via the [Galaxy Training Network](https://training.galaxyproject.org/) with Stream E for training and education.
 
 
 ## What's next?
