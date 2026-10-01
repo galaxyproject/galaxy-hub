@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeEach, afterEach } from 'vitest';
+import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest';
 import fs from 'fs';
 import os from 'os';
 import path from 'path';
@@ -496,11 +496,59 @@ describe('processMarkdownFile event end date', () => {
   });
 });
 
+describe('processMarkdownFile body', () => {
+  let tmpDir;
+  let contentDir;
+  let outputDir;
+
+  const processed = async (relPath, raw) => {
+    const filePath = path.join(contentDir, relPath);
+    fs.mkdirSync(path.dirname(filePath), { recursive: true });
+    fs.writeFileSync(filePath, raw);
+    await processMarkdownFile(filePath, { contentDir, outputDir });
+    const dest = destPathsForMarkdown(filePath, contentDir, outputDir).find((p) => fs.existsSync(p));
+    return matter(fs.readFileSync(dest, 'utf-8'));
+  };
+
+  beforeEach(() => {
+    insertCache.clear();
+    tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'preprocess-body-test-'));
+    contentDir = path.join(tmpDir, 'content');
+    outputDir = path.join(tmpDir, 'out');
+  });
+
+  afterEach(() => {
+    fs.rmSync(tmpDir, { recursive: true, force: true });
+  });
+
+  it('keeps a body that starts with a thematic break', async () => {
+    const single = await processed('rule-test/index.md', '---\ntitle: Rule\n---\n* * *\n\nText\n');
+    expect(single.data).toEqual(expect.objectContaining({ title: 'Rule', slug: 'rule-test' }));
+    expect(single.content).toContain('Text');
+
+    const repeated = await processed('rules-test/index.md', '---\ntitle: Rules\n---\n* * *\n\nText\n\n* * *\n\nMore\n');
+    expect(repeated.data.title).toBe('Rules');
+    expect(repeated.content).toContain('More');
+  });
+});
+
 describe('processBatch', () => {
   it('leaves out items that produce no result', async () => {
     const { results, errors } = await processBatch([1, 2, 3], async (n) => (n === 2 ? null : { n }));
     expect(results).toEqual([{ n: 1 }, { n: 3 }]);
     expect(errors).toBe(0);
+  });
+
+  it('counts items that fail', async () => {
+    const consoleError = vi.spyOn(console, 'error').mockImplementation(() => {});
+    const { results, errors } = await processBatch([1, 2], async (n) => {
+      if (n === 2) throw new Error('boom');
+      return { n };
+    });
+    expect(results).toEqual([{ n: 1 }]);
+    expect(errors).toBe(1);
+    expect(consoleError).toHaveBeenCalledWith(expect.stringContaining('2'), 'boom');
+    consoleError.mockRestore();
   });
 });
 
