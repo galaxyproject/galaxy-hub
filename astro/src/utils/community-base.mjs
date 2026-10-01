@@ -46,3 +46,11 @@ export function parseHallOfFameFlag(flag, defaultValue = true) {
   }
   return Boolean(flag);
 }
+
+/**
+ * Whether a CONTRIBUTORS/ORGANISATIONS/GRANTS.yaml record is listed in the Hub hall of fame.
+ * Records opt out with `hub-halloffame: "no"`.
+ */
+export function inHubHallOfFame(record) {
+  return parseHallOfFameFlag(record?.['hub-halloffame'], true);
+}

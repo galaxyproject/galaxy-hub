@@ -2,7 +2,12 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { parse } from 'yaml';
-import { communitySlug as baseCommunitySlug, parseHallOfFameFlag, toArray as baseToArray } from './community-base.mjs';
+import {
+  communitySlug as baseCommunitySlug,
+  inHubHallOfFame as baseInHubHallOfFame,
+  parseHallOfFameFlag,
+  toArray as baseToArray,
+} from './community-base.mjs';
 
 const AVATAR_BASE = 'https://training.galaxyproject.org';
 
@@ -220,6 +225,14 @@ export function communityHasGtnHallOfFame(
 
 export function contributorHasHallOfFame(value?: string | ContributorRecord): boolean {
   return communityHasGtnHallOfFame(value);
+}
+
+/**
+ * Determine if a community record gets a Galaxy Hub Hall of Fame profile.
+ * Records opt out with `hub-halloffame: "no"`.
+ */
+export function communityInHubHallOfFame(record: ContributorRecord | OrganisationRecord | GrantRecord): boolean {
+  return baseInHubHallOfFame(record);
 }
 
 function normalizeGtnHallOfFameKey(value: string): string {
