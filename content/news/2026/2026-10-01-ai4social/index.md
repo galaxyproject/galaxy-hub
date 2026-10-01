@@ -33,7 +33,7 @@ Further partners come from France (COMITE DES DONNEES SCIENTIFIQUES ET TECHNOLOG
 
 # How does Galaxy contribute?
 
-Galaxy, together with [COMPSs](https://compss-doc.readthedocs.io/en/stable/) and [Onedata](https://onedata.org/), will be the infrastructure backbone of the project. 
+(Galaxy)[https://galaxyproject.org/eu/], together with [COMPSs](https://compss-doc.readthedocs.io/en/stable/) and [Onedata](https://onedata.org/), will be the infrastructure backbone of the project. 
 In two Workpackages (WP 9 and WP 10), we will develop an AI-ready infrastructure platform that ensures the effective adoption of AI in science while incorporating open science values to support the 5 use cases in the project. We will also feature more prominently in use case 2 on AI in Historical Archives, where we will support the digitisation of the medieval collection from the Arxiu Històric de Protocols de Barcelona (AHPB) through various tools, workflows and training.
 
 
