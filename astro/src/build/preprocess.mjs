@@ -37,7 +37,7 @@ const DID_YOU_KNOW_DEST_DIR = path.join(ASTRO_CONTENT_DIR, 'did-you-know');
  * Used by both preprocessContent and watchContent so they always operate on
  * the same set of files.
  */
-const CONTENT_IGNORE = ['**/node_modules/**', '0examples/**', '**/use/**/*.yml', '**/use/**/*.yaml'];
+export const CONTENT_IGNORE = ['**/node_modules/**', '0examples/**', '**/use/**/*.yml', '**/use/**/*.yaml'];
 
 /**
  * Copy images and assets from a content directory
