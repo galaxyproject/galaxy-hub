@@ -3,7 +3,7 @@ title: 'LangChain Text Splitters, the Missing Link when Processing Long Texts wi
 date: '2026-10-02'
 tease: "Circumvent context window limits of LLMs by splitting long texts into manageable chunks"
 hide_tease: false
-subsites: [global, eu, us, freiburg]
+subsites: [global, eu, freiburg]
 tags: [tools, ai, humanities, llm]
 contributions:
   authorship:
@@ -12,6 +12,7 @@ contributions:
     - Sch-Da
   funding:
     - ai4social
+    - eu
 ---
 
 Imagine you have a very long text that you want to process with a large language model (LLM). You might want to summarize it, extract information, or translate it into another language. However, LLMs have limits on how much text they can process in a single request in a so-called context window. If your text exceeds those limits, you need a way to split it into smaller pieces (chunks) that the model can handle.
