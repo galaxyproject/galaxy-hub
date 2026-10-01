@@ -2,6 +2,7 @@
 """Sync EU and subsite citation bibliographies from Zotero."""
 
 import argparse
+import os
 import re
 from pathlib import Path
 from urllib.parse import urlencode
@@ -145,12 +146,22 @@ def normalize_local_bibliographies(check: bool) -> bool:
     return changed
 
 
+def write_github_output(name: str, value: str) -> None:
+    output = os.environ.get("GITHUB_OUTPUT")
+    if not output:
+        return
+
+    with open(output, "a", encoding="utf-8") as handle:
+        handle.write(f"{name}={value}\n")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--check", action="store_true", help="Report updates without writing files")
     args = parser.parse_args()
 
     changed, errors = sync_zotero_bibliographies(args.check)
+    write_github_output("synced", "true" if len(errors) < len(ZOTERO_BIBLIOGRAPHIES) else "false")
     changed = normalize_local_bibliographies(args.check) or changed
 
     if errors:

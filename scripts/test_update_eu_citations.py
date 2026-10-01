@@ -108,6 +108,33 @@ class MainTests(unittest.TestCase):
 
         normalize.assert_called_once_with(False)
 
+    def synced_output(self, errors):
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory) / "github_output"
+            output.write_text("")
+            with (
+                mock.patch.object(MODULE, "ZOTERO_BIBLIOGRAPHIES", [{"tag": "a"}, {"tag": "b"}]),
+                mock.patch.object(MODULE, "sync_zotero_bibliographies", return_value=(False, errors)),
+                mock.patch.object(MODULE, "normalize_local_bibliographies", return_value=False),
+                mock.patch.dict("os.environ", {"GITHUB_OUTPUT": str(output)}),
+                mock.patch("sys.argv", ["update-eu-citations.py"]),
+                self.assertRaises(SystemExit),
+            ):
+                MODULE.main()
+            return output.read_text()
+
+    def test_reports_synced_when_some_sources_succeed(self):
+        self.assertEqual(self.synced_output(["b: Failed to fetch b"]), "synced=true\n")
+
+    def test_reports_not_synced_when_every_source_fails(self):
+        self.assertEqual(self.synced_output(["a: Failed to fetch a", "b: Failed to fetch b"]), "synced=false\n")
+
+    def test_writes_no_output_outside_github_actions(self):
+        with mock.patch.dict("os.environ", clear=True), mock.patch("builtins.open") as opened:
+            MODULE.write_github_output("synced", "true")
+
+        opened.assert_not_called()
+
 
 if __name__ == "__main__":
     unittest.main()
