@@ -29,9 +29,11 @@ jobs:
           python-version: '3.12'
 
       - name: Sync citation bibliographies
+        id: sync
         run: python scripts/update-eu-citations.py
 
       - name: Create Pull Request
+        if: ${{ success() || steps.sync.outputs.synced == 'true' }}
         uses: peter-evans/create-pull-request@v8
         with:
           token: ${{ steps.app-token.outputs.token }}
