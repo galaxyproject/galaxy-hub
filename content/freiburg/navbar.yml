@@ -41,7 +41,7 @@ right:
           - label: Jobs
             target: /careers/
           - label: Publications
-            target: /freiburg/citations/
+            target: /freiburg/publications/
           - label: Citing Galaxy
             target: /eu/about/#acknowledgement
           - label: Platforms

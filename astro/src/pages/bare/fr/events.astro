@@ -8,6 +8,7 @@ import { getCollection } from 'astro:content';
 import BareArticleLayout from '../../../layouts/BareArticleLayout.astro';
 import EventsTable from '../../../components/bare/EventsTable.astro';
 import { contentMatchesSubsite } from '../../../utils/subsites';
+import { isUpcomingEvent, isPastEvent } from '../../../utils/dateUtils';
 
 const now = new Date();
 const twelveMonthsAgo = new Date(now);
@@ -18,10 +19,7 @@ const allEvents = await getCollection('events', (entry) => {
 });
 
 const upcomingEvents = allEvents
-  .filter((e) => {
-    const endDate = e.data.end ? new Date(e.data.end) : e.data.date ? new Date(e.data.date) : null;
-    return endDate && endDate >= now;
-  })
+  .filter((e) => isUpcomingEvent(e.data.date, e.data.end, now))
   .sort((a, b) => {
     const dateA = a.data.date ? new Date(a.data.date) : new Date(0);
     const dateB = b.data.date ? new Date(b.data.date) : new Date(0);
@@ -31,7 +29,7 @@ const upcomingEvents = allEvents
 const pastEvents = allEvents
   .filter((e) => {
     const endDate = e.data.end ? new Date(e.data.end) : e.data.date ? new Date(e.data.date) : null;
-    return endDate && endDate < now && endDate >= twelveMonthsAgo;
+    return endDate && isPastEvent(e.data.date, e.data.end, now) && endDate >= twelveMonthsAgo;
   })
   .sort((a, b) => {
     const dateA = a.data.date ? new Date(a.data.date) : new Date(0);

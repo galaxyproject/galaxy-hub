@@ -74,18 +74,29 @@ const carouselSlides = [
       <div>
         <div class="rounded-lg overflow-hidden shadow-md bg-ebony-clay-100" id="welcome-carousel">
           <div class="relative w-full" style="aspect-ratio: 13/9;">
-            {
-              carouselSlides.map((slide, index) => (
-                <div
-                  class={`carousel-slide absolute inset-0 transition-opacity duration-500 ${index === 0 ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
-                  data-index={index}
-                >
-                  <a href={slide.href} target="_blank" class="block w-full h-full">
-                    <img src={slide.img} alt={slide.alt} class="w-full h-full object-cover" />
-                  </a>
-                </div>
-              ))
-            }
+            <button
+              id="carousel-toggle"
+              type="button"
+              aria-label="Pause slide show"
+              class="absolute top-2 right-2 z-10 bg-black/40 hover:bg-black/60 text-white rounded-full w-7 h-7 flex items-center justify-center transition-colors cursor-pointer border-0"
+            >
+              <span class="carousel-icon-pause"><Icon name="pause" size={14} /></span>
+              <span class="carousel-icon-play hidden"><Icon name="play" size={14} /></span>
+            </button>
+            <div id="welcome-carousel-slides" class="absolute inset-0" aria-live="off">
+              {
+                carouselSlides.map((slide, index) => (
+                  <div
+                    class={`carousel-slide absolute inset-0 transition-opacity duration-500 ${index === 0 ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
+                    data-index={index}
+                  >
+                    <a href={slide.href} target="_blank" class="block w-full h-full">
+                      <img src={slide.img} alt={slide.alt} class="w-full h-full object-cover" />
+                    </a>
+                  </div>
+                ))
+              }
+            </div>
             <div class="absolute inset-y-0 left-0 flex items-center pl-2">
               <button
                 id="prev-btn"
@@ -372,8 +383,11 @@ const carouselSlides = [
         const indicators = /** @type {NodeListOf<HTMLElement>} */ (document.querySelectorAll('.carousel-indicator'));
         const prevBtn = document.getElementById('prev-btn');
         const nextBtn = document.getElementById('next-btn');
+        const toggleBtn = document.getElementById('carousel-toggle');
+        const slidesRegion = document.getElementById('welcome-carousel-slides');
 
         let currentSlide = 0;
+        let playing = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
         function showSlide(index: number) {
           if (index >= slides.length) index = 0;
@@ -404,7 +418,10 @@ const carouselSlides = [
         }
 
         function startAutoPlay() {
-          welcomeCarouselInterval = setInterval(nextSlide, 3000);
+          stopAutoPlay();
+          if (playing) {
+            welcomeCarouselInterval = setInterval(nextSlide, 3000);
+          }
         }
 
         function stopAutoPlay() {
@@ -413,6 +430,19 @@ const carouselSlides = [
             welcomeCarouselInterval = undefined;
           }
         }
+
+        function updateToggle() {
+          toggleBtn?.setAttribute('aria-label', playing ? 'Pause slide show' : 'Play slide show');
+          toggleBtn?.querySelector('.carousel-icon-pause')?.classList.toggle('hidden', !playing);
+          toggleBtn?.querySelector('.carousel-icon-play')?.classList.toggle('hidden', playing);
+          slidesRegion?.setAttribute('aria-live', playing ? 'off' : 'polite');
+        }
+
+        toggleBtn?.addEventListener('click', () => {
+          playing = !playing;
+          updateToggle();
+          startAutoPlay();
+        });
 
         nextBtn?.addEventListener('click', () => {
           stopAutoPlay();
@@ -437,6 +467,7 @@ const carouselSlides = [
         carousel.addEventListener('mouseenter', stopAutoPlay);
         carousel.addEventListener('mouseleave', startAutoPlay);
 
+        updateToggle();
         startAutoPlay();
       }
 

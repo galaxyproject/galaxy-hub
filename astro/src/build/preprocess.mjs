@@ -16,6 +16,7 @@ import matter from 'gray-matter';
 import { glob } from 'glob';
 import { processMarkdown, processFrontmatter } from './markdown-processor.mjs';
 import { normalizeSlugSegment, normalizeSlug } from './slug-utils.mjs';
+import { isFutureDate } from '../utils/publish-date.mjs';
 export { normalizeSlugSegment, normalizeSlug };
 
 const JSX_COMMENT_RE = /\{\/\*[\s\S]*?\*\/\}/g;
@@ -175,26 +176,42 @@ function rewriteSrc(src, slug) {
 /**
  * Shift heading levels down by one when content has multiple h1 headings.
  * h1→h2, h2→h3, …, h5→h6. Headings already at h6 stay at h6.
- * Skips headings inside fenced code blocks.
+ * Lines inside fenced code blocks are neither counted nor shifted.
  */
 function shiftHeadings(content) {
-  const h1Count = (content.match(/^# (?!#)/gm) || []).length;
+  const lines = content.split('\n');
+  const inFence = fencedCodeLines(content.split(/\r?\n/));
+  const h1Count = lines.filter((line, i) => !inFence[i] && /^# (?!#)/.test(line)).length;
   if (h1Count < 2) return content;
 
-  let inFence = false;
-  return content
-    .split('\n')
-    .map((line) => {
-      if (/^(`{3,}|~{3,})/.test(line)) {
-        inFence = !inFence;
-      }
-      if (inFence) return line;
+  return lines
+    .map((line, i) => {
+      if (inFence[i]) return line;
       return line.replace(/^(#{1,6})( )/, (match, hashes, space) => {
         if (hashes.length >= 6) return match;
         return '#' + hashes + space;
       });
     })
     .join('\n');
+}
+
+/**
+ * Flag each line that belongs to a fenced code block, fence lines included.
+ * A fence closes only on a line of the same character at least as long as its opener.
+ */
+function fencedCodeLines(lines) {
+  let fence = null;
+  return lines.map((line) => {
+    if (fence) {
+      const close = line.match(/^ {0,3}(`{3,}|~{3,})[ \t]*$/);
+      if (close && close[1][0] === fence[0] && close[1].length >= fence.length) fence = null;
+      return true;
+    }
+    // A backtick fence's info string can't contain backticks, so ```x``` is inline code
+    const open = line.match(/^ {0,3}(?:(`{3,})[^`]*|(~{3,}).*)$/);
+    if (open) fence = open[1] || open[2];
+    return Boolean(open);
+  });
 }
 
 /**
@@ -494,6 +511,13 @@ async function processMarkdownFile(filePath, { contentDir = CONTENT_DIR, outputD
   const relativePath = path.relative(contentDir, filePath);
   const dirname = path.dirname(relativePath);
 
+  // Hold back future-dated news (and its assets) until a build on or after its
+  // date, so no listing, feed or search entry links to a page that isn't built.
+  if (collection === 'news' && isFutureDate(frontmatter.date)) {
+    console.log(`  Skipping future-dated news: ${relativePath}`);
+    return null;
+  }
+
   // Create slug from path
   let naturalSlug;
   if (path.basename(filePath) === 'index.md') {
@@ -548,6 +572,16 @@ async function processMarkdownFile(filePath, { contentDir = CONTENT_DIR, outputD
   const processedFrontmatter = processFrontmatter({ ...frontmatter });
   processedFrontmatter.slug = slug;
   processedFrontmatter.sourceFile = relativePath.replace(/\\/g, '/');
+
+  // GTN-imported events give their length in `days` instead of an `end` date.
+  // Derive the (inclusive) last day so every page sees the whole event.
+  if (collection === 'events' && !processedFrontmatter.end && Number(processedFrontmatter.days) > 1) {
+    const end = new Date(processedFrontmatter.date);
+    if (!isNaN(end.getTime())) {
+      end.setUTCDate(end.getUTCDate() + Number(processedFrontmatter.days) - 1);
+      processedFrontmatter.end = end.toISOString();
+    }
+  }
 
   // Rewrite frontmatter image path the same way we rewrite body image paths
   if (processedFrontmatter.image && typeof processedFrontmatter.image === 'string') {
@@ -646,6 +680,7 @@ function isDidYouKnowFile(filePath) {
 
 /**
  * Process items in batches to avoid file table overflow
+ * Items whose processFn returns nothing (skipped files) are left out of results.
  */
 async function processBatch(items, processFn, batchSize = 50) {
   const results = [];
@@ -658,7 +693,7 @@ async function processBatch(items, processFn, batchSize = 50) {
 
     for (const result of batchResults) {
       if (result.status === 'fulfilled') {
-        results.push(result.value);
+        if (result.value) results.push(result.value);
         processed++;
       } else {
         errors++;
@@ -1173,4 +1208,5 @@ export {
   shiftHeadings,
   processMarkdownFile,
   destPathsForMarkdown,
+  processBatch,
 };

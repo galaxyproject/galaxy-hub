@@ -9,6 +9,7 @@
  */
 import { getCollection } from 'astro:content';
 import { contentMatchesSubsite } from '@/utils/subsites';
+import { isUpcomingEvent } from '@/utils/dateUtils';
 
 interface Props {
   subsite: string;
@@ -26,10 +27,7 @@ const allEvents = await getCollection('events', (entry) => {
 
 // Get upcoming events
 const upcomingEvents = allEvents
-  .filter((e) => {
-    const endDate = e.data.end ? new Date(e.data.end) : e.data.date ? new Date(e.data.date) : null;
-    return endDate && endDate >= now;
-  })
+  .filter((e) => isUpcomingEvent(e.data.date, e.data.end, now))
   .sort((a, b) => {
     const dateA = a.data.date ? new Date(a.data.date) : new Date(0);
     const dateB = b.data.date ? new Date(b.data.date) : new Date(0);

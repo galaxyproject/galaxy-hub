@@ -6,6 +6,7 @@
 import ESGLayout from '../../../layouts/ESGLayout.astro';
 import EsgInteractivePoster from '../../../components/EsgInteractivePoster.astro';
 import { getCollection } from 'astro:content';
+import { isUpcomingEvent } from '../../../utils/dateUtils';
 
 // Check for solo mode
 const solo = Astro.url.searchParams.get('solo') === 'true';
@@ -36,7 +37,7 @@ const now = new Date();
 const esgEvents = events
   .filter((e) => {
     const subsites = e.data.subsites || [];
-    return (subsites.includes('esg') || subsites.includes('eu')) && new Date(e.data.date || 0) >= now;
+    return (subsites.includes('esg') || subsites.includes('eu')) && isUpcomingEvent(e.data.date, e.data.end, now);
   })
   .sort((a, b) => {
     const dateA = new Date(a.data.date || 0);
