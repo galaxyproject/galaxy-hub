@@ -87,7 +87,7 @@ test.describe('Accessibility', () => {
 
     test('table of contents is labelled "On this page"', async ({ page }) => {
       await page.setViewportSize({ width: 1280, height: 800 });
-      await page.goto('/tools/orbit/');
+      await page.goto('/community/governance/');
 
       await expect(page.getByRole('navigation', { name: 'On this page' })).toBeVisible();
     });
