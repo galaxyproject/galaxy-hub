@@ -8,6 +8,7 @@ import { unified } from '@astrojs/markdown-remark';
 import rehypeSlug from 'rehype-slug';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import rehypeScrollableTables from './src/build/rehype-scrollable-tables.mjs';
+import rehypeImageSize from './src/build/rehype-image-size.mjs';
 import generatedRedirects from './src/build/generated-redirects.json' with { type: 'json' };
 import releaseGuardiansRedirect from './src/data/release-guardians/redirect.json' with { type: 'json' };
 
@@ -69,7 +70,12 @@ export default defineConfig({
     // Astro 7 defaults to the Sätteri pipeline, which does not run remark/rehype
     // plugins. Opt back into unified() so rehype-slug + autolink headings keep working.
     processor: unified({
-      rehypePlugins: [rehypeSlug, [rehypeAutolinkHeadings, autolinkConfig], rehypeScrollableTables],
+      rehypePlugins: [
+        rehypeSlug,
+        [rehypeAutolinkHeadings, autolinkConfig],
+        rehypeScrollableTables,
+        rehypeImageSize,
+      ],
     }),
     shikiConfig: {
       transformers: [readableCodeComments],
