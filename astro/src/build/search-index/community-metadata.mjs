@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { parse } from 'yaml';
-import { communitySlug, toArray } from '../../utils/community-base.mjs';
+import { communitySlug, inHubHallOfFame, toArray } from '../../utils/community-base.mjs';
 export { communitySlug } from '../../utils/community-base.mjs';
 
 function uniqueStrings(values) {
@@ -295,6 +295,7 @@ export function buildHallOfFameEntries(communityData, extractText, truncate) {
   const bySlug = new Map();
 
   const addEntry = (type, id, record) => {
+    if (!inHubHallOfFame(record)) return;
     const entry = buildHallOfFameEntry(type, id, record, extractText, truncate, communityData);
     if (!entry) return;
     const existing = bySlug.get(entry.slug);
