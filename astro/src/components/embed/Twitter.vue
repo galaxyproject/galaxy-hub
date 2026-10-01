@@ -16,6 +16,11 @@ const href = computed(
   () => props.tweetUrl || (tweetId.value ? `https://twitter.com/i/status/${tweetId.value}` : undefined)
 );
 
+const user = computed(() => {
+  const name = props.tweetUrl?.match(/(?:twitter|x)\.com\/([^/?#]+)\/status/)?.[1];
+  return name && name !== 'i' ? name : undefined;
+});
+
 // Load the widget script once and queue callbacks until it is ready
 function loadWidgets(): Promise<any> {
   const w = window as any;
@@ -69,7 +74,8 @@ onUnmounted(() => clearTimeout(timer));
   <div class="twitter-embed my-4">
     <div v-if="href && !loaded" class="p-4 bg-ebony-clay-50 rounded-lg text-center">
       <a :href="href" target="_blank" rel="noopener noreferrer" class="text-galaxy-primary hover:underline">
-        View on Twitter
+        {{ user ? `View tweet by @${user} on X` : 'View tweet on X' }}
+        <span class="sr-only">(opens in a new tab)</span>
       </a>
     </div>
     <div ref="container" class="flex justify-center"></div>
