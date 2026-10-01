@@ -45,7 +45,7 @@ It will be followed by **satellite activities** (hackathons, trainings and works
 
 ----
 
-The **preliminary agenda** (last updated: 2026-09-11) of the meeting is available [here](https://gxy.io/esg4stars-kickoff-programme).
+The **final programme** (2026-10-01) of the meeting is available [here](https://gxy.io/esg4stars-kickoff-programme).
 
 ----
 
