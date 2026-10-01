@@ -17,6 +17,22 @@ const href = computed(
   () => props.tweetUrl || (tweetId.value ? `https://twitter.com/i/status/${tweetId.value}` : undefined)
 );
 
+// Load the widget script once and queue callbacks until it is ready
+function loadWidgets(): Promise<any> {
+  const w = window as any;
+  if (!w.twttr) {
+    const script = document.createElement('script');
+    script.src = 'https://platform.twitter.com/widgets.js';
+    script.async = true;
+    document.head.appendChild(script);
+
+    const twttr: any = { _e: [] };
+    twttr.ready = (f: (t: any) => void) => twttr._e.push(f);
+    w.twttr = twttr;
+  }
+  return new Promise((resolve) => w.twttr.ready(resolve));
+}
+
 onMounted(async () => {
   if (!container.value) return;
 
@@ -26,20 +42,10 @@ onMounted(async () => {
   }
 
   try {
-    // Load Twitter widget script
-    if (!(window as any).twttr) {
-      const script = document.createElement('script');
-      script.src = 'https://platform.twitter.com/widgets.js';
-      script.async = true;
-      document.head.appendChild(script);
-
-      await new Promise<void>((resolve) => {
-        script.onload = () => resolve();
-      });
-    }
+    const twttr = await loadWidgets();
 
     // Create tweet embed
-    await (window as any).twttr.widgets.createTweet(tweetId.value, container.value, {
+    await twttr.widgets.createTweet(tweetId.value, container.value, {
       theme: 'light',
       dnt: true,
     });
