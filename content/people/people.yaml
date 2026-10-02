@@ -440,9 +440,13 @@ ifb:
         email: seilerj@igbmc.fr
         twitter: julozi
         galaxyadmin: true
+    scorreard:
+        name: Solenne Correard
+        title: Molecular biologist, bioinformatician - INRAE / Genouest
+        galaxyadmin: true
     guillaume-kermorgant:
         name: Guillaume Kermorgant
-        title: Engineer, admin of UseGalaxy.fr - CNRS / IFB
+        title: Engineer, admin of UseGalaxy.fr - CNRS / IFB / Genouest
         matrix: "@guillaumekermorgant:matrix.org"
         galaxyadmin: true
     rlibouba:
