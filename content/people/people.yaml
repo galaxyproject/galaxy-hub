@@ -440,21 +440,16 @@ ifb:
         email: seilerj@igbmc.fr
         twitter: julozi
         galaxyadmin: true
-    tchaussepiedifb:
-        name: Thomas Chaussepied
-        title: Engineer, sysadmin of UseGalaxy.fr - CNRS / IFB
-        matrix: "@tchaussepied:matrix.org"
+    guillaume-kermorgant:
+        name: Guillaume Kermorgant
+        title: Engineer, admin of UseGalaxy.fr - CNRS / IFB
+        matrix: "@guillaumekermorgant:matrix.org"
         galaxyadmin: true
-    merciereva:
-        name: Eva Mercier
-        title: Engineer, EuroScienceGateway (WP3, Pulsar deployment) - CNRS / GenOuest
-        matrix: "@eva_mercier:matrix.org"
     rlibouba:
         name: Romane Libouban
         title: Engineer, EuroScienceGateway (WP5, Genome Annotation use case) - CNRS / GenOuest
         matrix: "@rlibouban:matrix.org"
         galaxyadmin: true
-
     bebatut:
         name: Bérénice Batut
         title: Research Engineer
@@ -466,13 +461,6 @@ ifb:
         google-scholar: q5GpTJYAAAAJ
         researchgate: Berenice_Batut
         galaxyadmin: true
-
-    clsiguret:
-        name: Cléa Siguret
-        title: Research Engineer - IFB / AuBi
-        matrix: "@clsiguret:matrix.org"
-        linkedin: cléa-siguret-58423b107
-        orcid: 0009-0005-6140-0379
 
 jhu:
     mschatz:
