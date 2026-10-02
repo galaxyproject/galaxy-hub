@@ -50,7 +50,10 @@ const letters = Object.keys(groupedTags).sort();
     </PageHeader>
 
     <!-- Letter navigation -->
-    <nav class="bg-white border-b border-ebony-clay-100 px-8 py-3 sticky top-0 z-20 shadow-sm">
+    <nav
+      class="bg-white border-b border-ebony-clay-100 px-8 py-3 sticky top-0 z-20 shadow-sm"
+      aria-label="Tags by letter"
+    >
       <div class="flex flex-wrap gap-1">
         {
           letters.map((letter) => (
