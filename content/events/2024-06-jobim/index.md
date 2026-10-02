@@ -1,7 +1,7 @@
 ---
 title: "Galaxy @ JOBIM 2024"
-date: '2024-06'
-days: 5
+date: '2024-06-24'
+end: '2024-06-28'
 tease: "l’occasion de découvrir les avancées scientifiques et techniques en analyse, comparaison et exploitation des données biologiques"
 continent: EU
 location:

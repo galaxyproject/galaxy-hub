@@ -2,7 +2,7 @@
 title: "GWAS Analysis with Galaxy on the Analysis Visualization Integrated Lab-space (AnVIL)" 
 tease: ""
 date: '2020-10-27'
-days: 5
+end: '2020-10-31'
 continent: NA
 location:
   name: "ASHG 2020, Online, San Diego, California, United States"

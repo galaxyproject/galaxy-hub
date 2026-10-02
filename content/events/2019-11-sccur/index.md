@@ -1,7 +1,6 @@
 ---
 title: "P 1-71: Sequencing and Hybrid Assembly of Antibiotic Resistant Bacteria from an Undergraduate Microbiology Course"
 date: '2019-11-23'
-days: 1
 tease: "Using Galaxy in undergraduate education @ CSU San Bernadino"
 continent: NA
 location:

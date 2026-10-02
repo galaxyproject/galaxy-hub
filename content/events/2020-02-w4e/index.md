@@ -1,7 +1,7 @@
 ---
 title: "W4E 2020"
 date: '2020-02-03'
-days: 5
+end: '2020-02-07'
 tease: "Data processing school for metabolism"
 continent: EU
 location:

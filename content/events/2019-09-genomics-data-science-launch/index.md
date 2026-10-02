@@ -1,7 +1,6 @@
 ---
 title: "The SFI Centre for Research Training in Genomics Data Science Launch Conference"
 date: '2019-09-03'
-days: 1
 tease: "Data driven biology: from medieval times to the renaissance"
 continent: EU
 location:

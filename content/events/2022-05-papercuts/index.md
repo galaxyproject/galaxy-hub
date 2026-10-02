@@ -2,7 +2,6 @@
 title: GTN CoFest & Galaxy Papercuts CoFest Day
 date: '2022-05-19'
 tease: A community contribution day
-days: 1
 continent: GL
 location:
   name: Online, Global

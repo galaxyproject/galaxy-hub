@@ -1,7 +1,6 @@
 ---
 title: "Open science in the COVID-19 pandemic"
 date: '2022-06-08'
-days: 1
 tease: "Workshop at the ELIXIR All Hands 2022"
 continent: EU
 location:

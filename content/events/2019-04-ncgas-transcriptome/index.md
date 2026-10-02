@@ -1,7 +1,7 @@
 ---
 title: "de novo assembly of transcriptomes using HPC resources"
 date: '2019-04-29'
-days: 3
+end: '2019-05-01'
 tease: "Part of Indiana University's Supercomputing for Everyone Series"
 continent: NA
 location:

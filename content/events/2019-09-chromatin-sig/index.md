@@ -1,7 +1,7 @@
 ---
 title: "Chromatin Signatures During Differentiation: Integrated Omics"
 date: '2019-09-02'
-days: 5
+end: '2019-09-06'
 tease: ""
 continent: EU
 location:

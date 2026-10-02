@@ -1,7 +1,7 @@
 ---
 title: "Gateways 2018"
 date: '2018-09-25'
-days: 3
+end: '2018-09-27'
 tease: "The 13th Gateway Computing Environments Conference (formerly GCE)"
 continent: NA
 location:

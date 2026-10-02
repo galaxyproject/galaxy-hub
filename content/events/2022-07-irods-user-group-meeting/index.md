@@ -1,7 +1,7 @@
 ---
 title: "iRODS as an Object Store for the Galaxy Platform "
 date: '2022-07-05'
-days: 3
+end: '2022-07-07'
 tease: "iRODS 2022 User Group Meeting"
 continent: EU
 location:

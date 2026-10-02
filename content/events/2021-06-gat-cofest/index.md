@@ -1,7 +1,7 @@
 ---
 title: "Pre-GCC2021 GAT CoFest"
 date: '2021-06-01'
-days: 4
+end: '2021-06-04'
 tease: "Galaxy Admin Training (GAT) curriculum and materials CollaborationFest."
 continent: GL
 location:

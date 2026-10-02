@@ -1,7 +1,7 @@
 ---
 title: 'Working with Protozoan Parasite Database Resources'
 date: '2019-11-10'
-days: 6
+end: '2019-11-15'
 tease: ''
 continent: SA
 location:

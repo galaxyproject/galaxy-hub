@@ -1,7 +1,7 @@
 ---
 title: "NGS data analysis with Galaxy for clinical applications"
 date: '2019-09-08'
-days: 4
+end: '2019-09-11'
 tease: "A joint GMDS and de.NBI tutorial"
 continent: EU
 location:

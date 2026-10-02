@@ -2,7 +2,6 @@
 title: Galaxy Initiation
 date: '2022-01-17'
 tease: Register by December 15
-days: 1
 continent: EU
 location:
   name: Station Biologique de Roscoff, France

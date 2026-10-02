@@ -1,7 +1,6 @@
 ---
 title: "MPDS and Open Source Tools for Computer Aided Drug Discovery"
 date: '2020-07-23'
-days: 1
 tease: ''
 continent: AS
 location:

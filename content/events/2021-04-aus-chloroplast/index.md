@@ -1,7 +1,6 @@
 ---
 title: "Plant genomics: chloroplast genome assembly using Galaxy Australia"
 date: '2021-04-21'
-days: 1
 tease: "An introduction to RNA-seq analysis using the Galaxy Australia web platform"
 continent: AU
 location:

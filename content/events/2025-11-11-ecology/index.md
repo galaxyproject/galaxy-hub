@@ -3,7 +3,7 @@ subsites:
 - all
 gtn: true
 date: '2025-11-25'
-days: 3
+end: '2025-11-27'
 title: Galaxy Ecology training and collabroation fest
 contact: Yvan Le Bras
 location:

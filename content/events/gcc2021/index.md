@@ -1,7 +1,7 @@
 ---
 title: "2021 Galaxy Community Conference (GCC2021)"
 date: "2021-06-28"
-days: 13
+end: "2021-07-10"
 tease: "Galaxy's annual community gathering"
 continent: GL
 location:

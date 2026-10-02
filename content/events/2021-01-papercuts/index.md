@@ -2,7 +2,6 @@
 title: 'Galaxy Papercuts CoFest Day: January 21'
 date: '2021-01-21'
 tease: A community contribution day
-days: 1
 continent: GL
 location:
   name: Online, Global

@@ -3,7 +3,6 @@ title: 'Separated data PVC: How it works and potential missed implications; and 
   Release Testing'
 date: '2021-11-11'
 tease: Join the discsussion
-days: 1
 continent: GL
 location:
   name: Galaxy Developer Roundtable, Online, Global

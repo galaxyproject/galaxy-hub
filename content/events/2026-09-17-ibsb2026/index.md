@@ -3,7 +3,6 @@ title: "IBSB 2026: Bioimage Analysis with Galaxy (Workshop + Symposium Talk)"
 tease: "Explore open-source bioimage analysis with Galaxy in this hands-on workshop and conference talk at IBSB 2026."
 date: 2026-09-16
 end: 2026-09-18
-days: 3
 continent: "EU"
 location:
   name: Leibniz-HKI

@@ -1,7 +1,6 @@
 ---
 title: "Analysis of Functions Expressed by Microbiomes Using Metaproteomics"
 date: '2021-08-16'
-days: 1
 tease: "...upload viral sequencing data, call all variants, create a variety of reports and create consensus alignments..."
 continent: GL
 location:

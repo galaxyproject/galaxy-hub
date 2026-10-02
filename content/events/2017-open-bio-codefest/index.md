@@ -1,7 +1,7 @@
 ---
 title: 'OpenBio Codefest 2017'
 date: '2017-07-20'
-days: 2
+end: '2017-07-21'
 tease: 
 continent: EU
 location:

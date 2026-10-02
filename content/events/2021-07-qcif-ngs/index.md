@@ -1,7 +1,6 @@
 ---
 title: "An Introduction to NGS Platforms and Bioinformatics Analysis"
 date: "2021-07-27"
-days: 1
 tease: "Hands-on practical workshop: an introduction to next generation sequencing technologies and how they work, providers, common bioinformatics workflows, standardised file types, quality control and an introduction to Galaxy Australia."
 continent: AU
 location:

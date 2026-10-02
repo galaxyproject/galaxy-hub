@@ -4,7 +4,6 @@ _examples: |
     2025-10-07-spoc_meet:
         title: Single-cell & sPatial Omics Community Meeting
         date: 2025-10-07
-        days: 1
         continent: GL
         subsites: [all-eu, global, us]
         location:
@@ -24,10 +23,7 @@ mapping:
                 description: Start date (YYYY-MM-DD)
             end:
                 type: any
-                description: End date (optional, YYYY-MM-DD)
-            days:
-                type: int
-                description: Number of days
+                description: Last day of a multi-day event (optional, YYYY-MM-DD)
             tease:
                 type: str
             hide_tease:

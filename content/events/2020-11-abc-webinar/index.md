@@ -1,7 +1,6 @@
 ---
 title: "Galaxy Australia: enabling online data analysis for the research community"
 date: '2020-11-04'
-days: 1
 tease: "Webinar: Data analysis without the need for programming experience"
 continent: GL
 location:

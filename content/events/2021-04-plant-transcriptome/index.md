@@ -1,8 +1,8 @@
 ---
 title: Plant Transcriptome Analysis using Galaxy
 date: '2021-04-19'
+end: '2021-04-23'
 tease: '...with a special focus on bulk and single-cell RNA-Seq data analysis...'
-days: 5
 continent: EU
 location:
   name: University of Freiburg, Online, Freiburg, Germany

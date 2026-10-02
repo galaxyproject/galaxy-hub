@@ -2,7 +2,7 @@
 title: "Strategic Partnership for Advanced Cyber Infrastructure
 @ Minority Serving Institutions (SPACI@MSIs)"
 date: '2018-06-07'
-days: 2
+end: '2018-06-08'
 tease: "building a regional community of practitioners that supports next-generation networking"
 continent: NA
 location:

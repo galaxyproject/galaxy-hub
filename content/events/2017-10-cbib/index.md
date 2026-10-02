@@ -1,7 +1,7 @@
 ---
 title: Analyse avancée de séquences
 date: '2017-10-23'
-days: 3
+end: '2017-10-25'
 continent: EU
 location:
   name: Carreire de l'Université Bordeaux Segalen, Bordeaux, France

@@ -1,7 +1,7 @@
 ---
 title: "Tools in Climate Science: Linking Observations with Modelling"
 date: '2021-11-01'
-days: 8
+end: '2021-11-08'
 tease: "The role of aerosols and clouds in Earth’s climate system along
 with observational techniques, Earth system models, climate forcing and climate model evaluation through a series of lectures and tutorials."
 continent: EU

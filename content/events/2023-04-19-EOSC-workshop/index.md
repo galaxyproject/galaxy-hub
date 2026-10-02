@@ -4,7 +4,7 @@ tags:
 - workshop
 title: "Imaging in Galaxy"
 date: 2023-04-19
-days: 2
+end: 2023-04-20
 external_url: https://www.eosc-life.eu/news/workshop-bioimaging-and-the-european-open-science-cloud/
 continent: EU
 location:

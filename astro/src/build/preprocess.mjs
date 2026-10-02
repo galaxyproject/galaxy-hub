@@ -573,16 +573,6 @@ async function processMarkdownFile(filePath, { contentDir = CONTENT_DIR, outputD
   processedFrontmatter.slug = slug;
   processedFrontmatter.sourceFile = relativePath.replace(/\\/g, '/');
 
-  // GTN-imported events give their length in `days` instead of an `end` date.
-  // Derive the (inclusive) last day so every page sees the whole event.
-  if (collection === 'events' && !processedFrontmatter.end && Number(processedFrontmatter.days) > 1) {
-    const end = new Date(processedFrontmatter.date);
-    if (!isNaN(end.getTime())) {
-      end.setUTCDate(end.getUTCDate() + Number(processedFrontmatter.days) - 1);
-      processedFrontmatter.end = end.toISOString();
-    }
-  }
-
   // Rewrite frontmatter image path the same way we rewrite body image paths
   if (processedFrontmatter.image && typeof processedFrontmatter.image === 'string') {
     processedFrontmatter.image = rewriteSrc(processedFrontmatter.image, slug);

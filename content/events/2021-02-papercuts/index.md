@@ -1,7 +1,6 @@
 ---
 title: "Galaxy Papercuts CoFest Day: February 25"
 date: '2021-02-25'
-days: 1
 tease: 'A community contribution day'
 continent: GL
 location:

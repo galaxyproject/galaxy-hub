@@ -1,7 +1,7 @@
 ---
 title: Bioinformatics for Cancer Genomics
 date: '2017-05-29'
-days: 5
+end: '2017-06-02'
 tease: bringing it all together with Galaxy.
 continent: NA
 location:

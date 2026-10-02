@@ -1,7 +1,6 @@
 ---
 title: "Genome Assembly Using Galaxy"
 date: "2020-06-09"
-days: 1
 tease: "de novo assembly and initial annotation of a genome from short-read NGS data"
 continent: AU
 location:

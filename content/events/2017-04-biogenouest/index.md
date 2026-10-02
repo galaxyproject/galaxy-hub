@@ -1,7 +1,6 @@
 ---
 title: Traitement de données de séquences par Galaxy
 date: '2017-04-07'
-days: 1
 tease: From Biogenouest in Rennes
 continent: EU
 location:

@@ -1,7 +1,7 @@
 ---
 title: Plant and Animal Genome Conference 
 date: '2025-01-10'
-days: 6
+end: '2025-01-15'
 tease: "Join us in San Diego to explore the latest in genomics, and don't miss the opportunity to attend a special workshop hosted by the Galaxy Project."
 continent: NA
 location:

@@ -1,7 +1,7 @@
 ---
 title: "de.NBI / RTG2355 Galaxy Training Course - RNAseq Analysis"
 date: '2024-03-18'
-days: 2
+end: '2024-03-19'
 tease: "Joint training event of de.NBI and RTG2355 about RNAseq Analysis"
 continent: EU
 location: "Giessen, Germany"

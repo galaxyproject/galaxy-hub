@@ -1,7 +1,7 @@
 ---
 title: "Elixir Galaxy Community - Workshop at Roscoff/France"
 date: '2019-04-23'
-days: 4
+end: '2019-04-26'
 tease: "The Elixir Galaxy Community is organizing a workshop at Roscoff related to Galaxy tools and training."
 continent: EU
 location:

@@ -3,7 +3,6 @@ title: ESG4Stars kick-off meeting
 tease: "Our new EU-funded research infrastructure project to reduce the environmental footprint of scientific computing on platforms like Galaxy will begin in October."
 date: 2026-10-05
 end: 2026-10-06
-days: 2
 continent: EU
 location:
   city: Freiburg im Breisgau

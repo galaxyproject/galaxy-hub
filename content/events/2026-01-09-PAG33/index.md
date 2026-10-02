@@ -3,7 +3,7 @@ subsites:
 - all
 gtn: false
 date: '2026-01-09'
-days: 6
+end: '2026-01-14'
 tags:
 - new event-external
 title: "PAG 33 Plant and Animal Genome Conference"

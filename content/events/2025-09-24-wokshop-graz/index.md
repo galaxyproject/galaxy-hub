@@ -3,7 +3,7 @@ subsites:
 - all
 gtn: true
 date: '2025-09-24'
-days: 3
+end: '2025-09-26'
 title: From data to discovery - Galaxy workshop at University of Graz
 contact: Amirhossein Naghsh Nilchi
 location:

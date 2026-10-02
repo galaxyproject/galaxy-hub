@@ -1,7 +1,7 @@
 ---
 title: "Galaxy Australia: an analytical service for Australian Life Scientists"
 date: '2021-11-24'
-days: 4
+end: '2021-11-27'
 tease: "Learn Galaxy via two hands-on tutorials on how to use the service to rapidly and reproducibly analyse your data."
 continent: AU
 location:

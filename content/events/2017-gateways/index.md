@@ -1,7 +1,7 @@
 ---
 title: 'Demo: CloudLaunch as a Gateway for Discovering and Launching Cloud Applications'
 date: '2017-10-23'
-days: 3
+end: '2017-10-25'
 tease: 'Early registration ends Sept 1'
 continent: NA
 location:

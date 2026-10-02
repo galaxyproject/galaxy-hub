@@ -2,7 +2,7 @@
 title: "ChIP-Seq with Galaxy" 
 tease: "EMBL Rome"
 date: '2019-09-30'
-days: 2
+end: '2019-10-01'
 continent: EU
 location:
   name: "EMBL Rome, Monterotondo, Italy" 

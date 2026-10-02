@@ -1,7 +1,7 @@
 ---
 title: "Microbiome Bioinformatics with QIIME2"
 date: '2022-01-31'
-days: 5
+end: '2022-02-04'
 tease: "We'll be teaching w/ our new Galaxy graphical interface - join us and learn to use QIIME 2 through a GUI! Register by January 7."
 continent: NA
 location:

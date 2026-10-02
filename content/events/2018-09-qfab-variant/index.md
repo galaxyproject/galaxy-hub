@@ -2,7 +2,7 @@
 title: "Variant detection using Galaxy"
 tease: "Planning to work with next-generation sequencing data for small variant detection? This is for you." 
 date: '2018-09-18'
-days: 2
+end: '2018-09-19'
 continent: AU
 location:
   name: QFAB, St Lucia, Queensland, Australia

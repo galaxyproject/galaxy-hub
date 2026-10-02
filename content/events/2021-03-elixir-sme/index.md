@@ -1,7 +1,6 @@
 ---
 title: "Workflow driven data integration for plant breeding"
 date: '2021-03-10'
-days: 1
 tease: "Integrating open data and Galaxy workflows into plant breeding and research strategy at KWS"
 continent: EU
 location:

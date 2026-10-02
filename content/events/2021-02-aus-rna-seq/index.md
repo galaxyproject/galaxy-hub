@@ -1,7 +1,7 @@
 ---
 title: "RNA-seq: from reads to differentially expressed genes"
 date: '2021-02-23'
-days: 2
+end: '2021-02-24'
 tease: "An introduction to RNA-seq analysis using the Galaxy Australia web platform. Apply by 5 February."
 continent: AU
 location:

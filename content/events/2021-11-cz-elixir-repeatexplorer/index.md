@@ -2,7 +2,6 @@
 title: Genome Annotation & Galaxy Large Data Handling workshop
 date: '2021-11-04'
 tease: Open to everybody interested in Genome Annotation or Galaxy
-days: 1
 continent: EU
 location:
   name: ELIXIR Czech Republic, Czechia

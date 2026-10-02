@@ -1,8 +1,8 @@
 ---
 title: Galaxy @ BioHackathon-Europe 2021
 date: '2021-11-08'
+end: '2021-11-12'
 tease: Advance the development of an open-source infrastructure for data integration
-days: 5
 continent: EU
 location:
   name: Barcelona + Online, Spain

@@ -1,7 +1,7 @@
 ---
 title:  The Galaxy platform for metaproteomic characterization of microbiomes
 date: '2017-03-25'
-days: 4
+end: '2017-03-28'
 tease: at ABRF 2017
 continent: NA
 location:

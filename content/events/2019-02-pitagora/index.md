@@ -1,7 +1,6 @@
 ---
 title: "Pitagora Meetup 2019-02"
 date: '2019-02-05'
-days: 1
 tease: ""
 continent: AS
 location:

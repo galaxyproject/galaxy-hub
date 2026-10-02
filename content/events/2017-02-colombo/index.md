@@ -1,7 +1,6 @@
 ---
 title: The Pulse of Cloud Computing with Bioinformatics as an example
 date: '2017-02-27'
-days: 1
 tease: Galaxy presentation at the University of Columbo
 continent: AS
 location:

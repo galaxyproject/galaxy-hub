@@ -1,7 +1,7 @@
 ---
 title: "Integrative Bioinformatics"
 date: '2018-06-13'
-days: 3
+end: '2018-06-15'
 tease: "key science and technology platforms to integrate, align and model heterogenous data types to generate meaningful insights from big data and from complex biological systems."
 continent: EU
 location:

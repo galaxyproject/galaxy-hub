@@ -1,7 +1,7 @@
 ---
 title: "Gatersleben Research Conference: Applied Bioinformatics for Crops"
 date: '2019-03-18'
-days: 3
+end: '2019-03-20'
 tease: "Methods, theoretical approaches, and their practical applications."
 continent: EU
 location:

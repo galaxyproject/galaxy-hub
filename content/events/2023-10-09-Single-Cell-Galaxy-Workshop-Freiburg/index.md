@@ -1,7 +1,7 @@
 ---
 title: Workshop on Single-cell Data Analysis with Galaxy
 date: '2023-10-09'
-days: 5
+end: '2023-10-13'
 tease: "In this workshop, scientists learn single-cell data analysis using Galaxy. There is no requirement of any programming skills."
 continent: EU
 location:

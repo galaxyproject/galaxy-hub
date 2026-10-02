@@ -1,7 +1,7 @@
 ---
 title: 'Galaxy Developer Conference 2010'
 date: '2010-05-15'
-days: 3
+end: '2010-05-17'
 tease: "The first GCC"
 continent: NA
 location:

@@ -1,7 +1,7 @@
 ---
 title: "Single-cell RNA-seq & network analysis using Galaxy and Cytoscape"
 date: '2021-04-26'
-days: 5
+end: '2021-04-30'
 tease: "Apply by 26 February."
 continent: EU
 location:

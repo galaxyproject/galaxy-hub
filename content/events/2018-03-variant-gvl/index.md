@@ -1,7 +1,6 @@
 ---
 title: "Variant Calling with Galaxy & the GVL for beginners"
 date: '2018-03-21'
-days: 1
 tease: "from Melbourne Bioinformatics"
 continent: AU
 location:

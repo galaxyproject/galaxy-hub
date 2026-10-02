@@ -1,7 +1,7 @@
 ---
 title:  "Tackling Analytical Challenges in Cancer Proteogenomics using Galaxy framework"
 date: '2018-12-12'
-days: 3
+end: '2018-12-14'
 tease: "" 
 continent: "AS"
 location:

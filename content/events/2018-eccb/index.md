@@ -1,7 +1,6 @@
 ---
 title: 'ELIXIR Galaxy workshop'
 date: '2018-09-10'
-days: 1
 tease: "The Galaxy user interface and how to analyze large datasets"
 continent: EU
 location:

@@ -1,7 +1,6 @@
 ---
 title: microGalaxy / Microbiology Community Meeting
 date: '2026-09-09'
-days: 1
 continent: GL
 location:
   name: online

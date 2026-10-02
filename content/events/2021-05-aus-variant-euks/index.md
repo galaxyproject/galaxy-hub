@@ -1,7 +1,6 @@
 ---
 title: "Variant calling in humans, animals and plants with Galaxy"
 date: '2021-05-25'
-days: 1
 tease: "Hands on guidance on performing variant calling in polyploid organisms including humans, plants and animals. Apply by 12 May."
 continent: AU
 location:

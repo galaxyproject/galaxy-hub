@@ -1,7 +1,7 @@
 ---
 title: "Galaxy: much more than a workflow management system"
 date: '2020-04-02'
-days: 2
+end: '2020-04-03'
 tease: ""
 continent: EU
 location:

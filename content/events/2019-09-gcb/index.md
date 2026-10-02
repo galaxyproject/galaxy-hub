@@ -1,7 +1,7 @@
 ---
 title: "Galaxy @ GCB 2019"
 date: '2019-09-16'
-days: 4
+end: '2019-09-19'
 continent: EU
 location:
   name: "German Conference on Bioinformatics (GCB), Heidelberg, Germany"

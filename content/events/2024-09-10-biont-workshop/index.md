@@ -1,7 +1,7 @@
 ---
 title: "A practical introduction to bioinformatics and RNA-seq using Galaxy"
 date: '2024-09-10'
-days: 4
+end: '2024-09-13'
 tease: "Ready to explore the fascinating world of RNA-seq data analysis using Galaxy? Don't miss out on this incredible opportunity! Visit our event webpage now to discover the program details, meet the organising team, and submit your application."
 continent: EU
 location: "Online, EU"

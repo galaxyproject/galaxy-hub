@@ -2,7 +2,6 @@
 title: 'Galaxy Community Call: Machine Learning Toolkit in Galaxy'
 date: '2022-08-04'
 tease: A forum to share updates and discuss community-wide topics
-days: 1
 continent: GL
 location:
   name: "Galaxy Community Call, Online, Global"

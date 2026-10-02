@@ -2,7 +2,6 @@
 title: "de.NBI: Galaxy Microbial Genomics Course - 2024"
 date: '2024-05-14'
 end: '2024-05-15'
-days: 2
 tease: "This course will provide an overview of the field of genomics and how to use the Galaxy platform for genome analysis, with the main focus on the assembly and annotation of bacterial genomes."
 location: "Online"
 contacts:

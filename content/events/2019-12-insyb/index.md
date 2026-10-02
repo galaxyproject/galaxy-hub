@@ -1,7 +1,7 @@
 ---
 title: "Galaxy @ International Symposium on Bioinformatics 2019 (InSyB 2019)"
 date: '2019-12-21'
-days: 2
+end: '2019-12-22'
 tease: "Supported by ApBioNet, BioClues, ISCB, and Galaxy Australia"
 continent: AS
 location:

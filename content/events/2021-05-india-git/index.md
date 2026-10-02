@@ -1,7 +1,6 @@
 ---
 title: "Git and Its Use in Galaxy"
 date: "2021-05-29"
-days: 1
 tease: "Sponsored by BioClues, TMS Foundation and Galaxy India"
 continent: AS
 location:

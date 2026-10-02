@@ -1,7 +1,7 @@
 ---
 title: "Galaxy Australia – a strengthened national life science service that engages globally"
 date: '2021-10-11'
-days: 5
+end: '2021-10-15'
 tease: "GA is planning on hosting both regional and global conferences to bring Galaxy practitioners from all around the globe to learn from our journey and inform the path forward."
 continent: AU
 location:

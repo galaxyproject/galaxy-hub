@@ -1,7 +1,6 @@
 ---
 title: 'A primer for RNA-Seq processing, interpreting and visualization'
 date: '2017-10-04'
-days: 1
 tease: learn the the Galaxy RNA-workbench 
 continent: EU
 location:

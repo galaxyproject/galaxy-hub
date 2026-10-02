@@ -1,7 +1,7 @@
 ---
 title: "Traitement bioinformatique et analyse différentielle de données d'expression RNA-seq sous Galaxy"
 date: '2018-06-19'
-days: 3
+end: '2018-06-21'
 tease: 'Part of Cycle "Bioinformatique par la pratique" 2018'
 continent: EU
 location:

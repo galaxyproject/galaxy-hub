@@ -1,7 +1,7 @@
 ---
 title: "Galaxy Training Workshop"
 date: '2021-06-21'
-days: 5
+end: '2021-06-25'
 tease: ""
 continent: EU
 location:

@@ -1,7 +1,6 @@
 ---
 title: 'Variant Calling with Galaxy & the GVL for beginners'
 date: '2017-10-05'
-days: 1
 tease: "it's free..."
 continent: AU
 location:

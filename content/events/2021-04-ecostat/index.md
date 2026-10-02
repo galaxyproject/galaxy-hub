@@ -1,7 +1,7 @@
 ---
 title: "Galaxy-E : une instance de Galaxy dédiée à l'analyse de données en Ecologie"
 date: '2021-04-08'
-days: 2
+end: '2021-04-09'
 tease: "Ecostat 2021: Réunion annuelle du GDR Ecologie Statistique"
 continent: EU
 location:

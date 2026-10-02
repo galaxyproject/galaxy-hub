@@ -1,7 +1,6 @@
 ---
 title: DOMPS SYMPOSIUM 2026
 date: '2026-03-26'
-days: 1
 tease: "The use of AI in biological research"
 continent: Europe
 location:

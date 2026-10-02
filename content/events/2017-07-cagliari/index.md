@@ -1,7 +1,7 @@
 ---
 title: Training Course on Galaxy for Bioinformatics tool developers
 date: '2017-07-03'
-days: 3
+end: '2017-07-05'
 tease: Workshop
 continent: EU
 location:

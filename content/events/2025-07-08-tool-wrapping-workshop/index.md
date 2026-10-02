@@ -3,7 +3,7 @@ title: "The first Galaxy Tool Development Workshop in Freiburg, Germany"
 tease: "Learn to build and publish Galaxy tools in our first hands-on workshop in Freiburg."
 contact: "Armin Dadras"
 date: "2025-07-08"
-days: 2
+end: "2025-07-09"
 continent: "EU"
 location:
   name: "Georges-Köhler-Allee 79, 79110 Freiburg im Breisgau (Seminar Room 079), Germany Time: 10:00 (CET) until 16:00 (CET)"

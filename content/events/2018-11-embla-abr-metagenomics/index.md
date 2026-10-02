@@ -1,7 +1,6 @@
 ---
 title: "Introduction to Galaxy Australia – Metagenomics"
 date: '2018-11-14'
-days: 1
 tease: "A hands-on tutorial for Metagenomics"
 continent: AU
 location:

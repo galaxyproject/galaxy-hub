@@ -3,7 +3,7 @@ subsites:
 - all
 gtn: false
 date: '2026-06-29'
-days: 5
+end: '2026-07-03'
 title: Profiling of microbial communities using targeted and shotgun metagenomics
 contact: Giuseppe Defazio
 location:

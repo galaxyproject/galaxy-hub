@@ -1,7 +1,6 @@
 ---
 title: Galaxy for Next Generation Sequencing at Inbix
 date: '2023-11-23'
-days: 1
 continent: AS
 location:
   name: Vellore, India

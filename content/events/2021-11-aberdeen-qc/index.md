@@ -1,7 +1,6 @@
 ---
 title: "Quality Control of Next Generation Sequencing Reads"
 date: '2021-11-29'
-days: 1
 tease: 'Assessing quality and filtering of FASTQ format data. Register by 22 November.'
 continent: EU
 location:

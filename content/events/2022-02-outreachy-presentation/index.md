@@ -1,7 +1,6 @@
 ---
 title: "Outreachy Interns Presentation"
 date: '2022-02-17'
-days: 
 tease: 'Join Rahmot, and Chinonye as they present their projects to the community!'
 continent: GL
 location:

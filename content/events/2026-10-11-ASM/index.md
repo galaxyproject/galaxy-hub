@@ -3,7 +3,6 @@ subsites: [global, us]
 gtn: false
 date: '2026-10-11'
 end: '2026-10-14'
-days: 4
 tags: [conference, talk]
 title: "Galaxy @ ASM BIG 2026"
 location:

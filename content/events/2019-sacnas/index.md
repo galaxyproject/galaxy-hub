@@ -1,7 +1,6 @@
 ---
 title: Genomic data science with the Galaxy workbench
 date: '2019-10-30'
-days: 1
 tease: "Learn to do data-intensive science with Galaxy"
 continent: NA
 location:

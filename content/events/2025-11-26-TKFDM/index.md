@@ -3,7 +3,6 @@ subsites:
 - all
 gtn: false
 date: '2025-11-26'
-days: 1
 title: How can I analyse my texts, media, and data in the humanities and social sciences?
 contact: Daniela Schneider
 location:

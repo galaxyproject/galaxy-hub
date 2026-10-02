@@ -2,7 +2,6 @@
 title: 'Webinar: Use Galaxy on the web, the cloud, and your laptop too'
 date: '2020-12-09'
 tease: 'Options for using Galaxy: everywhere and right now'
-days: 1
 continent: GL
 location:
   name: Online, Global

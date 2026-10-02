@@ -103,7 +103,7 @@ export async function GET() {
           links: [],
           date: formatDate(date),
           draft: data.draft || null,
-          days: data.days || null,
+          days: data.end ? Math.round((data.end.getTime() - date.getTime()) / (1000 * 60 * 60 * 24)) + 1 : 1,
           days_ago: daysAgo,
           path: `/events/${pathSlug}/`,
           content,
