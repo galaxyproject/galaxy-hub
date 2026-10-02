@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 500" width="920" height="500" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+  <rect width="920" height="500" fill="#ffffff"/>
+
+  <text x="460" y="30" text-anchor="middle" font-size="15" font-weight="600" fill="#2c3143">One screen, two halves</text>
+
+  <!-- LEFT: agent terminal -->
+  <text x="40" y="62" font-size="12" font-weight="600" fill="#3a6ea5">YOUR AGENT</text>
+  <text x="40" y="78" font-size="11" fill="#6b7280">Orbit · Claude Code · Codex · Gemini CLI</text>
+  <rect x="40" y="90" width="370" height="330" rx="8" fill="#1e2430"/>
+  <rect x="40" y="90" width="370" height="26" rx="8" fill="#2c3444"/>
+  <rect x="40" y="108" width="370" height="8" fill="#2c3444"/>
+  <circle cx="58" cy="103" r="4" fill="#e06c62"/><circle cx="72" cy="103" r="4" fill="#d99b3f"/><circle cx="86" cy="103" r="4" fill="#5a9367"/>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5">
+    <text x="58" y="142" fill="#8fb8e0">&gt; add a step that strips comment</text>
+    <text x="58" y="158" fill="#8fb8e0">  lines before the counter runs</text>
+    <text x="58" y="184" fill="#d0d5de">Drafting a user-defined tool…</text>
+    <text x="58" y="208" fill="#5a9367">●</text><text x="74" y="208" fill="#d0d5de">create_user_tool</text>
+    <text x="58" y="228" fill="#5a9367">●</text><text x="74" y="228" fill="#d0d5de">run_tool</text>
+    <text x="58" y="248" fill="#d99b3f">●</text><text x="74" y="248" fill="#d0d5de">get_job_details</text>
+    <text x="58" y="274" fill="#e06c62">job 4 failed: no output produced</text>
+    <text x="58" y="298" fill="#d0d5de">Revising `from_work_dir`…</text>
+    <text x="58" y="322" fill="#5a9367">●</text><text x="74" y="322" fill="#d0d5de">run_tool</text>
+    <text x="58" y="346" fill="#5a9367">✓ job 5 ok — 2 datasets</text>
+    <text x="58" y="382" fill="#8fb8e0">&gt; </text>
+    <rect x="72" y="372" width="7" height="14" fill="#8fb8e0"/>
+  </g>
+
+  <!-- RIGHT: Galaxy in a browser -->
+  <text x="510" y="62" font-size="12" font-weight="600" fill="#3a6ea5">GALAXY IN YOUR BROWSER</text>
+  <text x="510" y="78" font-size="11" fill="#6b7280">the same account, live</text>
+  <rect x="510" y="90" width="370" height="330" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="510" y="90" width="370" height="26" rx="8" fill="#eef2f6"/>
+  <rect x="510" y="108" width="370" height="8" fill="#eef2f6"/>
+  <rect x="556" y="97" width="150" height="12" rx="6" fill="#dbe3ec"/>
+  <!-- masthead -->
+  <rect x="510" y="116" width="370" height="22" fill="#2c3143"/>
+  <text x="522" y="131" font-size="10" font-weight="600" fill="#ffffff">Galaxy</text>
+  <!-- activity bar -->
+  <rect x="510" y="138" width="34" height="282" fill="#f4f6f9"/>
+  <rect x="518" y="150" width="18" height="4" rx="2" fill="#9aa5b4"/><rect x="518" y="158" width="18" height="4" rx="2" fill="#9aa5b4"/><rect x="518" y="166" width="18" height="4" rx="2" fill="#9aa5b4"/>
+  <circle cx="527" cy="192" r="9" fill="#e8f0f8" stroke="#3a6ea5" stroke-width="1.5"/>
+  <text x="527" y="196" text-anchor="middle" font-size="10" fill="#3a6ea5">✽</text>
+  <text x="527" y="216" text-anchor="middle" font-size="6.5" fill="#6b7280">Custom</text>
+  <text x="527" y="224" text-anchor="middle" font-size="6.5" fill="#6b7280">Tools</text>
+  <!-- center pane -->
+  <text x="558" y="158" font-size="10" font-weight="600" fill="#2c3143">Job 5 · remove_comments</text>
+  <rect x="558" y="166" width="180" height="52" rx="4" fill="#f7f9fb" stroke="#dbe3ec"/>
+  <text x="566" y="182" font-size="8" fill="#6b7280">Tool: remove_comments 0.1.0</text>
+  <text x="566" y="196" font-size="8" fill="#6b7280">State: ok</text>
+  <text x="566" y="210" font-size="8" fill="#6b7280">stderr: (empty)</text>
+  <!-- history panel -->
+  <rect x="748" y="138" width="132" height="282" fill="#f7f9fb"/>
+  <text x="758" y="158" font-size="9.5" font-weight="600" fill="#2c3143">History</text>
+  <rect x="756" y="168" width="116" height="26" rx="3" fill="#e4efe6" stroke="#5a9367"/>
+  <text x="763" y="185" font-size="8" fill="#33613e">5: no-comments.tab</text>
+  <rect x="756" y="200" width="116" height="26" rx="3" fill="#fae6e4" stroke="#e06c62"/>
+  <text x="763" y="217" font-size="8" fill="#8c3a33">4: (failed)</text>
+  <rect x="756" y="232" width="116" height="26" rx="3" fill="#e4efe6" stroke="#5a9367"/>
+  <text x="763" y="249" font-size="8" fill="#33613e">3: counts.tab</text>
+  <rect x="756" y="264" width="116" height="26" rx="3" fill="#e4efe6" stroke="#5a9367"/>
+  <text x="763" y="281" font-size="8" fill="#33613e">2: aligned.bam</text>
+  <rect x="756" y="296" width="116" height="26" rx="3" fill="#e4efe6" stroke="#5a9367"/>
+  <text x="763" y="313" font-size="8" fill="#33613e">1: reads.fastq.gz</text>
+
+  <!-- arrows between -->
+  <defs>
+    <marker id="ar" markerWidth="9" markerHeight="9" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#3a6ea5"/>
+    </marker>
+    <marker id="arg" markerWidth="9" markerHeight="9" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#6b7280"/>
+    </marker>
+  </defs>
+  <path d="M414,196 L506,196" stroke="#3a6ea5" stroke-width="2" marker-end="url(#ar)" fill="none"/>
+  <text x="460" y="188" text-anchor="middle" font-size="9" fill="#3a6ea5">MCP → API</text>
+  <path d="M506,286 L414,286" stroke="#6b7280" stroke-width="2" marker-end="url(#arg)" fill="none" stroke-dasharray="4 3"/>
+  <text x="460" y="278" text-anchor="middle" font-size="9" fill="#6b7280">state, errors</text>
+
+  <text x="225" y="452" text-anchor="middle" font-size="11" fill="#2c3143">The agent acts — fast, but blind to everything it did not ask about</text>
+  <text x="695" y="452" text-anchor="middle" font-size="11" fill="#2c3143">You watch — this is your ground truth and your debugger</text>
+  <text x="460" y="478" text-anchor="middle" font-size="10.5" fill="#6b7280">When the agent says a job failed, click it here and read the error yourself.</text>
+</svg>
