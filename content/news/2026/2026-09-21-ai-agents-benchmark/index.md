@@ -4,7 +4,7 @@ date: "2026-09-21"
 tease: "Across 160 bioinformatics tasks, agents using Galaxy achieved accuracy comparable to agents writing custom code."
 hide_tease: true
 tags: [ai, llm]
-subsites: [all]
+subsites: [global]
 autotoc: false
 contributions:
   authorship:
