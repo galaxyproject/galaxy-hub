@@ -89,6 +89,8 @@ test.describe('Platform scope filter', () => {
 
     const scopeSelect = await getScopeSelect(page);
     await expect(scopeSelect).toHaveValue('domain');
+    // The legacy anchor is dropped, so clearing the filter cannot revive it
+    await expect(page).toHaveURL(/\/use\/\?scope=domain$/);
   });
 
   test('scope and platform_group coexist and clear together', async ({ page }) => {

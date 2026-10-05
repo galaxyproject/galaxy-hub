@@ -305,17 +305,18 @@ onMounted(() => {
     }
   }
   const scopeParam = urlParams.get('scope');
+  const legacyScope = legacyHashToScope[window.location.hash.slice(1)];
+  if (legacyScope) {
+    // Drop the legacy anchor so it cannot re-apply later; ?scope= replaces it
+    window.history.replaceState(window.history.state, '', `${window.location.pathname}${window.location.search}`);
+  }
   if (scopeParam) {
     if (scopeParam !== 'all' && scopes.value.includes(scopeParam)) {
       selectedScope.value = scopeParam;
     }
-  } else {
-    const legacyScope = legacyHashToScope[window.location.hash.slice(1)];
-    if (legacyScope && scopes.value.includes(legacyScope)) {
-      // Drop the consumed hash; the scope watcher then writes ?scope=
-      window.history.replaceState(window.history.state, '', `${window.location.pathname}${window.location.search}`);
-      selectedScope.value = legacyScope;
-    }
+  } else if (legacyScope && scopes.value.includes(legacyScope)) {
+    // The scope watcher then writes ?scope=
+    selectedScope.value = legacyScope;
   }
 });
 
