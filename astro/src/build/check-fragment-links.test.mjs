@@ -10,7 +10,21 @@ import {
   escapeId,
   closestIds,
   checkPage,
+  checkFile,
+  mayHaveFragmentLinks,
+  markComponentTags,
+  loadBypass,
+  bypassKey,
 } from './check-fragment-links.mjs';
+
+function tempContentDir(files) {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'fragment-links-'));
+  for (const [rel, text] of Object.entries(files)) {
+    fs.mkdirSync(path.dirname(path.join(dir, rel)), { recursive: true });
+    fs.writeFileSync(path.join(dir, rel), text);
+  }
+  return dir;
+}
 
 describe('fragment-link lint helpers', () => {
   describe('findFragmentLinks', () => {
@@ -51,12 +65,48 @@ describe('fragment-link lint helpers', () => {
       expect(findFragmentLinks(body)).toEqual([]);
     });
 
+    it('finds unquoted, upper-case and spaced hrefs and angle-bracket definitions', () => {
+      const body = [
+        '<a href=#bare>x</a>',
+        '<A HREF="#upper">x</A>',
+        '<a href = "#spaced">x</a>',
+        '<a data-href="#data">x</a>',
+        '',
+        '[a]: <#angle>',
+      ].join('\n');
+      expect(findFragmentLinks(body)).toEqual([
+        { line: 1, fragment: 'bare' },
+        { line: 2, fragment: 'upper' },
+        { line: 3, fragment: 'spaced' },
+        { line: 6, fragment: 'angle' },
+      ]);
+    });
+
     it('ignores links inside JSX comments that preprocess strips', () => {
       expect(findFragmentLinks('{/* [x](#gone) */}\n\n[y](#kept)')).toEqual([{ line: 3, fragment: 'kept' }]);
     });
   });
 
+  describe('mayHaveFragmentLinks', () => {
+    it('lets through every link form the check reads', () => {
+      expect(mayHaveFragmentLinks('[x](#a)')).toBe(true);
+      expect(mayHaveFragmentLinks('<a href=#a>x</a>')).toBe(true);
+      expect(mayHaveFragmentLinks('<A HREF="#a">x</A>')).toBe(true);
+      expect(mayHaveFragmentLinks('<a href = "#a">x</a>')).toBe(true);
+      expect(mayHaveFragmentLinks('text\n[a]: <#a>')).toBe(true);
+    });
+
+    it('skips pages with only cross-page links', () => {
+      expect(mayHaveFragmentLinks('[x](https://example.org/#a) [y](/page/#b)')).toBe(false);
+    });
+  });
+
   describe('idsFromHtml', () => {
+    it('ignores data-id and data-name attributes', () => {
+      const html = '<div data-id="d1" id="real"></div><a data-name="d2" href="#x"></a>';
+      expect([...idsFromHtml(html)]).toEqual(['real']);
+    });
+
     it('collects id on any element and name only on anchors', () => {
       const html = '<h2 id="a&#x26;b">x</h2><a name="old"></a><input name="field"><div id="box"></div>';
       expect([...idsFromHtml(html)].sort()).toEqual(['a&b', 'box', 'old']);
@@ -65,15 +115,15 @@ describe('fragment-link lint helpers', () => {
 
   describe('pageIds', () => {
     it('keeps the invisible variation selector that emoji headings leave in the slug', async () => {
-      const ids = await pageIds('# 🛠️ Tools\n\n# 📅 Events\n', {});
-      expect(ids.has('️-tools')).toBe(true);
+      const ids = await pageIds('# 🛠\uFE0F Tools\n\n# 📅 Events\n', {});
+      expect(ids.has('\uFE0F-tools')).toBe(true);
       expect(ids.has('-tools')).toBe(false);
       expect(ids.has('-events')).toBe(true);
     });
 
     it('keeps a leading letter-class symbol in the slug', async () => {
-      const ids = await pageIds('# ᯓ➤ Join us\n', {});
-      expect(ids.has('ᯓ-join-us')).toBe(true);
+      const ids = await pageIds('# \u1BD3\u27A4 Join us\n', {});
+      expect(ids.has('\u1BD3-join-us')).toBe(true);
     });
 
     it('numbers duplicate headings and resets the slugger for each page', async () => {
@@ -98,6 +148,11 @@ describe('fragment-link lint helpers', () => {
       const body = '<HarnessGuide id="claude-code" name="x">\n\n#### Install\n\n</HarnessGuide>\n';
       expect([...(await pageIds(body, { components: true }))]).toEqual(['install']);
       expect((await pageIds(body, {})).has('claude-code')).toBe(true);
+    });
+
+    it('leaves component names in code untouched on components pages', async () => {
+      const ids = await pageIds('## The `<Button>` component\n', { components: true });
+      expect([...ids]).toEqual(['the-button-component']);
     });
 
     it('includes the heading that autotoc inserts', async () => {
@@ -136,8 +191,8 @@ describe('fragment-link lint helpers', () => {
 
   describe('escapeId', () => {
     it('shows non-ASCII code points as escapes', () => {
-      expect(escapeId('️-tools')).toBe('\\uFE0F-tools');
-      expect(escapeId('ᯓ-join')).toBe('\\u1BD3-join');
+      expect(escapeId('\uFE0F-tools')).toBe('\\uFE0F-tools');
+      expect(escapeId('\u1BD3-join')).toBe('\\u1BD3-join');
       expect(escapeId('\u{1F6E0}')).toBe('\\u{1F6E0}');
       expect(escapeId('plain-id')).toBe('plain-id');
     });
@@ -145,7 +200,7 @@ describe('fragment-link lint helpers', () => {
 
   describe('closestIds', () => {
     it('prefers ids that only differ by invisible characters', () => {
-      expect(closestIds('-tools', ['tutorials', '️-tools', 'tools-1'])).toEqual(['️-tools']);
+      expect(closestIds('-tools', ['tutorials', '\uFE0F-tools', 'tools-1'])).toEqual(['\uFE0F-tools']);
     });
 
     it('falls back to the two nearest ids by edit distance', () => {
@@ -169,12 +224,12 @@ describe('fragment-link lint helpers', () => {
         '- [Events](#-events)',
         '- [Filter](#scope=all)',
         '',
-        '# 🛠️ Tools',
+        '# 🛠\uFE0F Tools',
         '',
         '# 📅 Events',
       ].join('\n');
       const problems = await checkPage(raw);
-      expect(problems).toEqual([{ line: 5, fragment: '-tools', closest: ['️-tools'] }]);
+      expect(problems).toEqual([{ rel: 'index.md', line: 5, fragment: '-tools', closest: ['\uFE0F-tools'] }]);
     });
 
     it('skips pages that redirect instead of rendering', async () => {
@@ -183,6 +238,70 @@ describe('fragment-link lint helpers', () => {
 
     it('matches percent-encoded fragments against decoded ids', async () => {
       expect(await checkPage('[x](#caf%C3%A9)\n\n## Café\n')).toEqual([]);
+    });
+  });
+
+  describe('markComponentTags', () => {
+    it('renames component tags in HTML but not in code', () => {
+      const md = '<Tabs id="t">\n\n`<Tabs>` and\n\n```\n<Tabs>\n```\n\n</Tabs>\n';
+      expect(markComponentTags(md)).toBe(
+        '<x-component-Tabs id="t">\n\n`<Tabs>` and\n\n```\n<Tabs>\n```\n\n</x-component-Tabs>\n'
+      );
+    });
+  });
+
+  describe('loadBypass', () => {
+    it('returns an empty set when there is no bypass file', () => {
+      const dir = tempContentDir({});
+      expect(loadBypass(dir)).toEqual(new Set());
+      fs.rmSync(dir, { recursive: true, force: true });
+    });
+
+    it('reads a JSON array of keys', () => {
+      const dir = tempContentDir({ '.fragment-link-bypass': '["a/index.md#x"]' });
+      expect(loadBypass(dir)).toEqual(new Set(['a/index.md#x']));
+      fs.rmSync(dir, { recursive: true, force: true });
+    });
+
+    it('fails on malformed JSON or a non-array', () => {
+      const bad = tempContentDir({ '.fragment-link-bypass': '["a/index.md#x",' });
+      const obj = tempContentDir({ '.fragment-link-bypass': '{"a": 1}' });
+      expect(() => loadBypass(bad)).toThrow(/\.fragment-link-bypass/);
+      expect(() => loadBypass(obj)).toThrow(/array of strings/);
+      fs.rmSync(bad, { recursive: true, force: true });
+      fs.rmSync(obj, { recursive: true, force: true });
+    });
+  });
+
+  describe('bypassKey', () => {
+    it('is ASCII JSON that parses back to the exact key', () => {
+      const key = bypassKey('bare/eu/index.md', '\uFE0F-tools\u{1F6E0}');
+      expect(key).toMatch(/^[\x20-\x7e]+$/);
+      expect(JSON.parse(key)).toBe('bare/eu/index.md#\uFE0F-tools\u{1F6E0}');
+    });
+  });
+
+  describe('checkFile', () => {
+    let dir;
+    beforeAll(() => {
+      dir = tempContentDir({
+        'page/index.md': '---\ntitle: P\n---\n\n<slot name="/parts/links" />\n\n## Here\n',
+        'parts/links.md': '---\n---\n\n[ok](#here)\n[bad](#gone)\n',
+        'broken/index.md/keep': '',
+      });
+    });
+    afterAll(() => {
+      fs.rmSync(dir, { recursive: true, force: true });
+    });
+
+    it('checks links in inserts against the page that includes them', async () => {
+      expect(await checkFile('page/index.md', dir)).toEqual([
+        { rel: 'parts/links.md', page: 'page/index.md', line: 5, fragment: 'gone', closest: ['here'] },
+      ]);
+    });
+
+    it('names the page when it cannot be checked', async () => {
+      await expect(checkFile('broken/index.md', dir)).rejects.toThrow('content/broken/index.md');
     });
   });
 });

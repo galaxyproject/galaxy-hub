@@ -16,16 +16,16 @@
  * - Explicit `id="..."` on any element and `name="..."` on <a> in inline HTML
  *   count as ids too.
  *
- * Emoji headings are the usual trap: "# 🛠️ Tools" slugs to "️-tools"
+ * Emoji headings are the usual trap: "# 🛠\uFE0F Tools" slugs to "\uFE0F-tools"
  * (the invisible variation selector survives), so a hand-written TOC link to
  * "#-tools" goes nowhere. The error shows the closest real ids with non-ASCII
  * characters escaped so the difference is visible.
  *
  * Scope and limits:
  *
- * - Only page files (index.md) are checked. Other .md files are inserts; their
- *   links are rendered inside each parent page and none currently contain
- *   fragment links.
+ * - Pages are the index.md files. Links in the inserts a page pulls in with
+ *   <slot name="..."> are checked against that page and reported at the
+ *   insert's own file and line.
  * - Pages with `components: true` render as MDX. They are rendered with the
  *   markdown pipeline here; heading text slugs the same way because
  *   rehype-slug ignores raw HTML and JSX in headings. Props on component tags
@@ -36,9 +36,9 @@
  * - Fragments that are empty, "top", or contain "=" or "/" are skipped: they
  *   are page-top links or client-side state, not element ids.
  *
- * A link that cannot be fixed can be acknowledged by adding
- * "<content-relative path>#<fragment>" to content/.fragment-link-bypass
- * (a JSON array).
+ * A link that cannot be fixed can be acknowledged by adding the bypass key the
+ * error prints ("<content-relative path>#<fragment>") to
+ * content/.fragment-link-bypass, a JSON array of strings.
  *
  * Usage:
  *   node src/build/check-fragment-links.mjs
@@ -60,15 +60,19 @@ import { processMarkdown } from './markdown-processor.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DEFAULT_CONTENT_DIR = path.resolve(__dirname, '../../..', 'content');
+const BYPASS_FILE = '.fragment-link-bypass';
 
-// Same JSX-comment pattern preprocess.mjs strips before rendering
+// Same JSX-comment and slot patterns preprocess.mjs uses
 const JSX_COMMENT_RE = /\{\/\*[\s\S]*?\*\/\}/g;
+const SLOT_RE = /<slot\s+name=["']([^"']+)["']\s*\/?>/gi;
+const HAS_SLOT_RE = /<slot\s+name=/i;
+const MAX_INSERT_DEPTH = 2;
 const HTML_COMMENT_RE = /<!--[\s\S]*?-->/g;
-const HREF_FRAGMENT_RE = /\bhref\s*=\s*(["'])#([^"']*)\1/gi;
+const HREF_FRAGMENT_RE = /(?<![\w-])href\s*=\s*(?:(["'])#([^"']*)\1|#([^\s"'>]*))/gi;
 const TAG_RE = /<([a-zA-Z][\w-]*)\s([^>]*)>/g;
-const ATTR_RE = /\b(id|name)="([^"]*)"/g;
+const ATTR_RE = /(?<![\w-])(id|name)="([^"]*)"/g;
 // Cheap prefilter: only pages that could hold a same-page link get rendered
-const FRAGMENT_HINT_RE = /\]\(\s*<?#|href\s*=\s*["']#|^\s*\[[^\]]+\]:\s*<?#/m;
+const FRAGMENT_HINT_RE = /\]\(\s*<?#|href\s*=\s*["']?#|^\s*\[[^\]]+\]:\s*<?#/im;
 const INVISIBLE_RE = /[\p{M}\p{Cf}\p{Default_Ignorable_Code_Point}]/gu;
 // MDX component tags (<HarnessGuide id="...">) take props, not DOM attributes
 const COMPONENT_TAG_RE = /<(\/?)([A-Z][\w.]*)/g;
@@ -96,6 +100,11 @@ function decodeEntities(value) {
     .replace(/&amp;/g, '&');
 }
 
+/** Whether a source file could contain a same-page link (prefilter before rendering). */
+export function mayHaveFragmentLinks(raw) {
+  return FRAGMENT_HINT_RE.test(raw);
+}
+
 /** Same-page links in a markdown body, as { line, fragment } with 1-based body lines. */
 export function findFragmentLinks(body) {
   const tree = unified().use(remarkParse).parse(blank(body, JSX_COMMENT_RE));
@@ -105,13 +114,30 @@ export function findFragmentLinks(body) {
       const html = blank(node.value, HTML_COMMENT_RE);
       for (const match of html.matchAll(HREF_FRAGMENT_RE)) {
         const lineOffset = html.slice(0, match.index).split('\n').length - 1;
-        links.push({ line: node.position.start.line + lineOffset, fragment: decodeEntities(match[2]) });
+        const fragment = match[2] ?? match[3];
+        links.push({ line: node.position.start.line + lineOffset, fragment: decodeEntities(fragment) });
       }
     } else if (node.url.startsWith('#')) {
       links.push({ line: node.position.start.line, fragment: node.url.slice(1) });
     }
   });
   return links.sort((a, b) => a.line - b.line);
+}
+
+/** Prefix component tag names in HTML/JSX nodes so their props are not read as ids; code is left alone. */
+export function markComponentTags(markdown) {
+  const ranges = [];
+  visit(unified().use(remarkParse).parse(markdown), 'html', (node) => {
+    ranges.push([node.position.start.offset, node.position.end.offset]);
+  });
+  let out = '';
+  let last = 0;
+  for (const [start, end] of ranges) {
+    out +=
+      markdown.slice(last, start) + markdown.slice(start, end).replace(COMPONENT_TAG_RE, `<$1${COMPONENT_PREFIX}$2`);
+    last = end;
+  }
+  return out + markdown.slice(last);
 }
 
 /** Ids a fragment can target in rendered HTML: id on any element, name on <a>. */
@@ -127,17 +153,18 @@ export function idsFromHtml(html) {
 }
 
 /** Ids on the rendered page for a markdown body, following preprocess.mjs and astro.config.mjs. */
-export async function pageIds(body, frontmatter, contentDir = DEFAULT_CONTENT_DIR) {
+export async function pageIds(body, frontmatter, contentDir = DEFAULT_CONTENT_DIR, filePath = undefined) {
   let content = body.replace(JSX_COMMENT_RE, '');
   const inlined = inlineInserts(content, 0, contentDir);
   content = shiftHeadings(inlined.content);
   if (frontmatter.components === true || inlined.hasComponents) {
-    content = content.replace(COMPONENT_TAG_RE, `<$1${COMPONENT_PREFIX}$2`);
+    content = markComponentTags(content);
   }
   if (!/<(div|table|span)[\s>]/i.test(content)) {
     content = await processMarkdown(content, { addToc: frontmatter.autotoc === true, fixLinks: true });
   }
-  const { code } = await (await markdownProcessor()).render(content);
+  const fileURL = filePath ? pathToFileURL(filePath) : undefined;
+  const { code } = await (await markdownProcessor()).render(content, { fileURL });
   return idsFromHtml(code);
 }
 
@@ -155,6 +182,14 @@ export function escapeId(id) {
       return cp > 0xffff ? `\\u{${hex}}` : `\\u${hex.padStart(4, '0')}`;
     })
     .join('');
+}
+
+/** The bypass-file entry for a link, as an ASCII JSON string ready to paste. */
+export function bypassKey(rel, fragment) {
+  return JSON.stringify(`${rel}#${fragment}`).replace(
+    /[\u0080-￿]/g,
+    (ch) => `\\u${ch.charCodeAt(0).toString(16).padStart(4, '0')}`
+  );
 }
 
 function editDistance(a, b) {
@@ -196,25 +231,96 @@ function bodyLineOffset(raw, body) {
   return raw.endsWith(body) ? raw.slice(0, raw.length - body.length).split('\n').length - 1 : 0;
 }
 
-/** Broken same-page links in a page's raw source, as { line, fragment, closest } with file lines. */
-export async function checkPage(raw, contentDir = DEFAULT_CONTENT_DIR) {
-  const { data, content: body } = matter(raw);
-  if (data.redirect) return [];
-  const links = findFragmentLinks(body).filter(({ fragment }) => !shouldSkipFragment(fragment));
-  if (links.length === 0) return [];
-  const ids = await pageIds(body, data, contentDir);
+/** Same-page links of a source file, with file line numbers. */
+function sourceLinks(raw) {
+  const { content: body } = matter(raw);
   const offset = bodyLineOffset(raw, body);
-  return links
-    .filter(({ fragment }) => !ids.has(fragment) && !ids.has(decodeFragment(fragment)))
-    .map(({ line, fragment }) => ({ line: line + offset, fragment, closest: closestIds(fragment, [...ids]) }));
+  return findFragmentLinks(body)
+    .filter(({ fragment }) => !shouldSkipFragment(fragment))
+    .map(({ line, fragment }) => ({ line: line + offset, fragment }));
 }
 
-function loadBypass(contentDir) {
-  try {
-    return new Set(JSON.parse(fs.readFileSync(path.join(contentDir, '.fragment-link-bypass'), 'utf8')));
-  } catch {
-    return new Set();
+/** Insert file for a slot name, resolved like preprocess.mjs (incl. the un-normalized filename fallback). */
+function insertPath(slotName, contentDir) {
+  const relativePath = slotName.replace(/^\//, '');
+  const direct = path.join(contentDir, relativePath + '.md');
+  if (fs.existsSync(direct)) return direct;
+  const segments = relativePath.split('/');
+  const fallback = path.join(contentDir, ...segments.slice(0, -1), segments.at(-1).replace(/-/g, '') + '.md');
+  return fs.existsSync(fallback) ? fallback : null;
+}
+
+/** Inserts a body pulls in through <slot name="...">, nested as deep as preprocess.mjs inlines them. */
+function insertSources(body, contentDir, depth = 0, seen = new Set()) {
+  if (depth > MAX_INSERT_DEPTH) return [];
+  const sources = [];
+  for (const [, slotName] of body.replace(JSX_COMMENT_RE, '').matchAll(SLOT_RE)) {
+    const file = insertPath(slotName, contentDir);
+    if (!file || seen.has(file)) continue;
+    seen.add(file);
+    const raw = fs.readFileSync(file, 'utf8');
+    sources.push({ rel: path.relative(contentDir, file).split(path.sep).join('/'), raw });
+    sources.push(...insertSources(matter(raw).content, contentDir, depth + 1, seen));
   }
+  return sources;
+}
+
+function brokenLinks(links, ids, extra) {
+  return links
+    .filter(({ fragment }) => !ids.has(fragment) && !ids.has(decodeFragment(fragment)))
+    .map(({ line, fragment }) => ({ ...extra, line, fragment, closest: closestIds(fragment, [...ids]) }));
+}
+
+/**
+ * Broken same-page links for a page's raw source, as { rel, line, fragment, closest }.
+ * Links that live in an insert carry the insert's rel and line plus `page`.
+ */
+export async function checkPage(raw, contentDir = DEFAULT_CONTENT_DIR, rel = 'index.md') {
+  const { data, content: body } = matter(raw);
+  if (data.redirect) return [];
+  const inserts = insertSources(body, contentDir).filter((source) => mayHaveFragmentLinks(source.raw));
+  const pageLinks = sourceLinks(raw);
+  const insertLinks = inserts.map((source) => ({ rel: source.rel, links: sourceLinks(source.raw) }));
+  if (pageLinks.length === 0 && insertLinks.every(({ links }) => links.length === 0)) return [];
+
+  const ids = await pageIds(body, data, contentDir, path.join(contentDir, rel));
+  return [
+    ...brokenLinks(pageLinks, ids, { rel }),
+    ...insertLinks.flatMap((insert) => brokenLinks(insert.links, ids, { rel: insert.rel, page: rel })),
+  ];
+}
+
+/** Broken same-page links for one page file; errors name the page. */
+export async function checkFile(rel, contentDir = DEFAULT_CONTENT_DIR) {
+  try {
+    const raw = fs.readFileSync(path.join(contentDir, rel), 'utf8');
+    if (!mayHaveFragmentLinks(raw) && !HAS_SLOT_RE.test(raw)) return [];
+    return await checkPage(raw, contentDir, rel);
+  } catch (error) {
+    throw new Error(`content/${rel}: ${error.message}`, { cause: error });
+  }
+}
+
+/** Acknowledged links from content/.fragment-link-bypass; a missing file means none. */
+export function loadBypass(contentDir = DEFAULT_CONTENT_DIR) {
+  const file = path.join(contentDir, BYPASS_FILE);
+  let text;
+  try {
+    text = fs.readFileSync(file, 'utf8');
+  } catch (error) {
+    if (error.code === 'ENOENT') return new Set();
+    throw error;
+  }
+  let entries;
+  try {
+    entries = JSON.parse(text);
+  } catch (error) {
+    throw new Error(`content/${BYPASS_FILE}: invalid JSON (${error.message})`, { cause: error });
+  }
+  if (!Array.isArray(entries) || !entries.every((entry) => typeof entry === 'string')) {
+    throw new Error(`content/${BYPASS_FILE}: expected a JSON array of strings`);
+  }
+  return new Set(entries);
 }
 
 async function main() {
@@ -228,11 +334,14 @@ async function main() {
   });
 
   const problems = [];
+  const reported = new Set();
   for (const rel of pages.sort()) {
-    const raw = fs.readFileSync(path.join(contentDir, rel), 'utf8');
-    if (!FRAGMENT_HINT_RE.test(raw)) continue;
-    for (const problem of await checkPage(raw, contentDir)) {
-      if (!bypassed.has(`${rel}#${problem.fragment}`)) problems.push({ rel, ...problem });
+    for (const problem of await checkFile(rel, contentDir)) {
+      const key = `${problem.rel}#${problem.fragment}`;
+      const seenKey = `${key}@${problem.line}@${problem.page ?? ''}`;
+      if (bypassed.has(key) || reported.has(seenKey)) continue;
+      reported.add(seenKey);
+      problems.push(problem);
     }
   }
 
@@ -242,21 +351,26 @@ async function main() {
   }
 
   console.error(`Found ${problems.length} same-page link(s) with no matching id:\n`);
-  for (const { rel, line, fragment, closest } of problems) {
+  for (const { rel, page, line, fragment, closest } of problems) {
     const hint = closest.length
       ? `closest id: ${closest.map((id) => `#${escapeId(id)}`).join(', ')}`
       : 'page has no ids';
-    console.error(`  content/${rel}:${line}  #${escapeId(fragment)}  (${hint})`);
+    const via = page ? ` on content/${page}` : '';
+    console.error(`  content/${rel}:${line}  #${escapeId(fragment)}${via}  (${hint})`);
+    console.error(`    bypass key: ${bypassKey(rel, fragment)}`);
   }
   console.error(`
 Heading ids are github-slugger slugs of the heading text: lowercase, spaces to
 "-", punctuation dropped, and duplicates numbered -1, -2. Emoji keep invisible
 characters such as \\uFE0F in the id. Point the link at an existing id, or add
-an explicit id to the target. To keep a link as is, add
-"<content-relative path>#<fragment>" to content/.fragment-link-bypass.`);
+an explicit id to the target. To keep a link as is, add its bypass key to
+content/${BYPASS_FILE} (a JSON array).`);
   process.exit(1);
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(fs.realpathSync(process.argv[1])).href) {
-  main();
+  main().catch((error) => {
+    console.error(error);
+    process.exit(1);
+  });
 }
