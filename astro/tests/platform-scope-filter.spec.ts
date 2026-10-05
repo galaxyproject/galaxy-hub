@@ -71,4 +71,16 @@ test.describe('Platform scope filter', () => {
     await expect(page).not.toHaveURL(/scope=/);
     await expect(page).not.toHaveURL(/platform_group/);
   });
+
+  test('platform page scope link opens the directory filtered by that scope', async ({ page }) => {
+    await page.goto('/use/biodivine/');
+
+    const scopeLink = page.locator('th:text-is("Scope:") + td a');
+    await expect(scopeLink).toHaveAttribute('href', '/use/?scope=tool-publishing');
+
+    await scopeLink.click();
+    await expect(page).toHaveURL(/\/use\/\?scope=tool-publishing/);
+    const scopeSelect = await getScopeSelect(page);
+    await expect(scopeSelect).toHaveValue('tool-publishing');
+  });
 });

@@ -615,7 +615,7 @@ Using just formal references, we would miss out on the bulk of Galaxy papers.
 
 **The tools on many public Galaxy platforms are also available as command line tools**
 
-Many public Galaxy platforms are *[tool publishing](/use/#tool-publishing)* platforms.  These platforms make a lab's tools easily accessible to researchers via a web interface (Galaxy).  These labs often also make their tools available as command line tools that can be locally installed.  The challenge is that both the Galaxy platform with the tools, and the command line tools often have the same base citation.
+Many public Galaxy platforms are *[tool publishing](/use/?scope=tool-publishing)* platforms.  These platforms make a lab's tools easily accessible to researchers via a web interface (Galaxy).  These labs often also make their tools available as command line tools that can be locally installed.  The challenge is that both the Galaxy platform with the tools, and the command line tools often have the same base citation.
 
 Blindly counting any publication that references these papers would result in over-counting papers, and include a large number of irrelevant papers in the Galaxy pub library, thus greatly reducing the value of the library.
 
