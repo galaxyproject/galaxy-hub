@@ -2,7 +2,7 @@
 # THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
 # To update, run: python3 scripts/update-tools.py --server https://usegalaxy.eu --name "European Galaxy" --output content/eu/tools/index.md
 title: European Galaxy Tools
-description: "4467 tools and counting"
+description: "4472 tools and counting"
 ---
 
 
@@ -404,8 +404,8 @@ description: "4467 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=bbtools_bbnorm" target="_top" title="Normalise sequencing coverage">BBTools: BBNorm</a>
 <a href="https://usegalaxy.eu/root?tool_id=bbtools_bbduk" target="_top" title="kmer- and entropy-based decontamination">BBTools: BBduk</a>
 <a href="https://usegalaxy.eu/root?tool_id=bbtools_tadpole" target="_top" title="Kmer-based assembler">BBTools: Tadpole</a>
-<a href="https://usegalaxy.eu/root?tool_id=cshl_fastx_barcode_splitter" target="_top" title="">Barcode Splitter</a>
 <a href="https://usegalaxy.eu/root?tool_id=barcode_splitter" target="_top" title="Split sequence files using multiple sets of barcodes">Barcode Splitter</a>
+<a href="https://usegalaxy.eu/root?tool_id=cshl_fastx_barcode_splitter" target="_top" title="">Barcode Splitter</a>
 <a href="https://usegalaxy.eu/root?tool_id=berokka" target="_top" title="Trim, circularise, orient and filter long read bacterial genome assemblies">Berokka</a>
 <a href="https://usegalaxy.eu/root?tool_id=quality_score_distribution" target="_top" title="">Build base quality distribution</a>
 <a href="https://usegalaxy.eu/root?tool_id=cialign" target="_top" title="clean, visualise and analyse a multiple sequence alignment">CIAlign</a>
@@ -1111,6 +1111,8 @@ description: "4467 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=hmmer_nhmmer" target="_top" title="search a DNA model or alignment against a DNA database (BLASTN-like)">nhmmer</a>
 <a href="https://usegalaxy.eu/root?tool_id=hmmer_nhmmscan" target="_top" title="search DNA sequence(s) against a DNA profile database">nhmmscan</a>
 <a href="https://usegalaxy.eu/root?tool_id=oatk" target="_top" title="Organelle Genome Assembly Toolkit">oatk</a>
+<a href="https://usegalaxy.eu/root?tool_id=orthologer" target="_top" title="Compute orthology">orthologer</a>
+<a href="https://usegalaxy.eu/root?tool_id=odb_mapper" target="_top" title="Map FASTA to OrthoDB orthology">orthologer map</a>
 <a href="https://usegalaxy.eu/root?tool_id=pharokka" target="_top" title="Rapid standardised annotation tool for bacteriophage genomes and metagenomes">pharokka</a>
 <a href="https://usegalaxy.eu/root?tool_id=hmmer_phmmer" target="_top" title="search a protein sequence against a protein database (BLASTP-like)">phmmer</a>
 <a href="https://usegalaxy.eu/root?tool_id=progressivemauve" target="_top" title="constructs multiple genome alignments">progressiveMauve</a>
@@ -2772,6 +2774,7 @@ description: "4467 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=merge_metaphlan_tables" target="_top" title="MetaPhlAn abundance tables">Merge</a>
 <a href="https://usegalaxy.eu/root?tool_id=mereg_mOTUs_tables" target="_top" title="Merge mOTUs aboundance or count tables">Merge</a>
 <a href="https://usegalaxy.eu/root?tool_id=metabat2" target="_top" title="metagenome binning">MetaBAT2</a>
+<a href="https://usegalaxy.eu/root?tool_id=metacoag" target="_top" title="metagenomic contig binning via connectivity information">MetaCoAG</a>
 <a href="https://usegalaxy.eu/root?tool_id=metaeuk_easy_predict" target="_top" title="High-throughput gene discovery and annotation for large-scale eukaryotic metagenomics">MetaEuk Easy Predict</a>
 <a href="https://usegalaxy.eu/root?tool_id=metagene_annotator" target="_top" title="gene-finding program for prokaryote and phage (used by sixgill)">MetaGeneAnnotator</a>
 <a href="https://usegalaxy.eu/root?tool_id=metaphlan" target="_top" title="to profile the composition of microbial communities">MetaPhlAn</a>
@@ -3893,6 +3896,7 @@ description: "4467 tools and counting"
 
 <div class="tool-list">
 
+<a href="https://usegalaxy.eu/root?tool_id=tabicl" target="_top" title="classification and regression with TabICL">Accelerated tabular data prediction</a>
 <a href="https://usegalaxy.eu/root?tool_id=keras_batch_models" target="_top" title="with online data generator for Genomic/Protein sequences and images">Build Deep learning Batch Training Models</a>
 <a href="https://usegalaxy.eu/root?tool_id=sklearn_regression_metrics" target="_top" title="for regression performance">Calculate metrics</a>
 <a href="https://usegalaxy.eu/root?tool_id=sklearn_clf_metrics" target="_top" title="for classification performance">Calculate metrics</a>
@@ -4231,6 +4235,7 @@ description: "4467 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=cesm" target="_top" title="Community Earth System Model">CESM</a>
 <a href="https://usegalaxy.eu/root?tool_id=ctsm_fates" target="_top" title="Functionally Assembled Terrestrial Ecosystem Simulator">CTSM/FATES-EMERALD</a>
 <a href="https://usegalaxy.eu/root?tool_id=bgc_canyon_b" target="_top" title="estimation of ocean CO2 variables and nutrient concentrations">Canyon-B</a>
+<a href="https://usegalaxy.eu/root?tool_id=icclim_climate_indices" target="_top" title="from CF NetCDF files">Climate Indices Computation (icclim)</a>
 <a href="https://usegalaxy.eu/root?tool_id=cads" target="_top" title="for retrieving data from the Atmosphere Monitoring Service">Copernicus Atmosphere Data Store</a>
 <a href="https://usegalaxy.eu/root?tool_id=c3s" target="_top" title="for retrieving climate data">Copernicus Climate Data Store</a>
 <a href="https://usegalaxy.eu/root?tool_id=cds_essential_variability" target="_top" title="for assessing climate variability">Copernicus Essential Climate Variables</a>
@@ -4673,7 +4678,6 @@ description: "4467 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_pangeo_ml_notebook" target="_top" title="">Interactive Pangeo Machine Learning Notebook</a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_pangeo_notebook" target="_top" title="">Interactive Pangeo Notebook</a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_source" target="_top" title="Sea Observations Utility for Reprocessing, Calibration and Evaluation">Interactive Source Notebooks</a>
-<a href="https://usegalaxy.eu/root?tool_id=interactive_tool_tensorboard" target="_top" title="An interactive environment for visualizing and exploring machine learning experiments with TensorBoard.">Interactive TensorBoard Environment</a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_libertem" target="_top" title="Open Pixelated STEM platform">LiberTEM</a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_loom" target="_top" title="conversational AI analysis workbench">Loom</a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_audiolabeler" target="_top" title="Nature+Energy Audio Labeller audio data annotation tool">NEAL</a>
@@ -4699,6 +4703,7 @@ description: "4467 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_scoop3_argo" target="_top" title="Interactive visual quality control of Argo netCDF files">Scoop3-Argo</a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_scop3p_toolkit" target="_top" title="an interactive framework for exploring and extending Scop3P across sequence, structure, proteomics and variant evidence.">Scop3P Toolkit</a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_simtext_app" target="_top" title="Interactive shiny app to explore SimText output data">SimText</a>
+<a href="https://usegalaxy.eu/root?tool_id=interactive_tool_tensorboard" target="_top" title="Visualize and explore tensorboard logs from machine/deep learning experiments">TensorBoard</a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_terriamap" target="_top" title="Geospatial visualisation">Terriamap</a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_vcf_iobio" target="_top" title="">VCF (iobio) Visualisation</a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_vrm_editor" target="_top" title="interative tool for creating Variable Resolution Mesh for NorESM/CESM">VRM Editor</a>
