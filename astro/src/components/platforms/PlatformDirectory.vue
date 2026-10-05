@@ -281,8 +281,10 @@ function updateUrl(name: string, value: string | null) {
   } else {
     params.set(name, value);
   }
-  const newUrl = `${window.location.pathname}${params.toString() ? `?${params.toString()}` : ''}`;
-  window.history.replaceState({}, '', newUrl);
+  const query = params.toString();
+  const newUrl = `${window.location.pathname}${query ? `?${query}` : ''}${window.location.hash}`;
+  // Keep the existing state: Astro's ClientRouter stores its navigation index there
+  window.history.replaceState(window.history.state, '', newUrl);
 }
 
 onMounted(() => {

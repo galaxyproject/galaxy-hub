@@ -56,6 +56,21 @@ test.describe('Platform scope filter', () => {
     await expect(page).not.toHaveURL(/scope=/);
   });
 
+  test('URL sync keeps the router history state and an unrelated hash', async ({ page }) => {
+    await page.goto('/use/#not-a-scope');
+
+    const scopeSelect = await getScopeSelect(page);
+    await expect(scopeSelect).toHaveValue('all');
+    // Astro's ClientRouter keeps its navigation index in history.state
+    const indexBefore = await page.evaluate(() => window.history.state?.index);
+    expect(typeof indexBefore).toBe('number');
+
+    await scopeSelect.selectOption('domain');
+    await expect(page).toHaveURL(/\/use\/\?scope=domain#not-a-scope$/);
+    const indexAfter = await page.evaluate(() => window.history.state?.index);
+    expect(indexAfter).toBe(indexBefore);
+  });
+
   test('scope and platform_group coexist and clear together', async ({ page }) => {
     await page.goto('/use/?scope=domain&platform_group=public-servers');
 
