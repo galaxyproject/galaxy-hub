@@ -22,7 +22,9 @@ const finalStrip = stripHtml(hist.tool);
 
 <style is:global set:html={stackCss + bandsCss}></style>
 <noscript
-  set:html={'<style>.agentic-stack .stk-run,.agentic-stack .stk-pane{height:auto}.agentic-stack [data-play],.agentic-stack [data-replay]{display:none}</style>'}
+  set:html={
+    '<style>.agentic-stack .stk-run,.agentic-stack .stk-pane{height:auto}.agentic-stack [data-play],.agentic-stack [data-replay]{display:none}</style>'
+  }
 />
 
 <section class="agentic-stack not-prose" data-agentic-stack>

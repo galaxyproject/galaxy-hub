@@ -86,87 +86,72 @@ function esgUrl(path: string): string {
       <hr class="my-8 border-ebony-clay-200" />
 
       <p>
-        <strong>EuroScienceGateway</strong> will leverage a distributed computing network across 13 European countries, accessible
-        via 6 national, user-friendly web portals, facilitating access to compute and storage infrastructures across Europe
-        as well as to data, tools, workflows and services that can be customized to suit researchers' needs.
+        <strong>EuroScienceGateway</strong> will leverage a distributed computing network across 13 European countries,
+        accessible via 6 national, user-friendly web portals, facilitating access to compute and storage infrastructures
+        across Europe as well as to data, tools, workflows and services that can be customized to suit researchers'
+        needs.
       </p>
     </div>
   </div>
 
   <!-- Objectives -->
-  {
-    objectives && (
-      <section class="mb-12">
-        <h2 id="objectives" class="text-2xl font-light text-chicago-700 mb-6">
-          <a href="#objectives" class="hover:text-galaxy-gold">
-            {objectives.heading || 'Objectives'}
-          </a>
-        </h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {objectives.objectives?.map((obj: any) => (
-            <div class="border-2 border-galaxy-primary rounded-lg overflow-hidden">
-              <h3 class="bg-galaxy-primary text-white px-4 py-2 text-sm font-medium">{obj.title}</h3>
-              <p class="p-4 text-sm text-chicago-700">{obj.content}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-    )
-  }
+  {objectives && <section class="mb-12">
+    <h2 id="objectives" class="text-2xl font-light text-chicago-700 mb-6">
+      <a href="#objectives" class="hover:text-galaxy-gold">
+        {objectives.heading || 'Objectives'}
+      </a>
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      {objectives.objectives?.map((obj: any) => <div class="border-2 border-galaxy-primary rounded-lg overflow-hidden">
+        <h3 class="bg-galaxy-primary text-white px-4 py-2 text-sm font-medium">{obj.title}</h3>
+        <p class="p-4 text-sm text-chicago-700">{obj.content}</p>
+      </div>)}
+    </div>
+  </section>}
 
   <!-- External Links -->
-  {
-    externalLinks && (
-      <section class="mb-12">
-        <h2 id="projects" class="text-2xl font-light text-chicago-700 mb-6">
-          <a href="#projects" class="hover:text-galaxy-gold">
-            {externalLinks.heading || 'Projects Part of ESG'}
-          </a>
-        </h2>
-        <div class="flex flex-wrap justify-center gap-8">
-          {externalLinks.external_links?.map((link: any) => (
-            <a
-              href={link.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              class="block p-4 border border-ebony-clay-100 rounded-lg hover:shadow-md transition-shadow"
-              title={link.name}
-            >
-              <img
-                src={`/images/projects/esg/link-images/${link.image?.split('/').pop()}`}
-                alt={link.name}
-                class="h-16 w-auto object-contain"
-              />
-            </a>
-          ))}
-        </div>
-      </section>
-    )
-  }
+  {externalLinks && <section class="mb-12">
+    <h2 id="projects" class="text-2xl font-light text-chicago-700 mb-6">
+      <a href="#projects" class="hover:text-galaxy-gold">
+        {externalLinks.heading || 'Projects Part of ESG'}
+      </a>
+    </h2>
+    <div class="flex flex-wrap justify-center gap-8">
+      {externalLinks.external_links?.map((link: any) => <a
+        href={link.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="block p-4 border border-ebony-clay-100 rounded-lg hover:shadow-md transition-shadow"
+        title={link.name}
+      >
+        <img
+          src={`/images/projects/esg/link-images/${link.image?.split('/').pop()}`}
+          alt={link.name}
+          class="h-16 w-auto object-contain"
+        />
+      </a>)}
+    </div>
+  </section>}
 
   <!-- Interactive Work Packages Poster -->
   <EsgInteractivePoster />
 
   <!-- Expected Results -->
-  {
-    expectedResults && (
-      <section class="mb-12">
-        <h2 id="results" class="text-2xl font-light text-chicago-700 mb-6">
-          <a href="#results" class="hover:text-galaxy-gold">
-            {expectedResults.heading || 'Expected Results'}
-          </a>
-        </h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {expectedResults.expected_results?.map((result: any) => (
-            <div class="border-2 border-galaxy-primary rounded-lg overflow-hidden">
-              <h3 class="bg-galaxy-primary text-white px-4 py-2 text-sm font-medium">{result.title}</h3>
-              <p class="p-4 text-sm text-chicago-700">{result.content}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-    )
-  }
+  {expectedResults && <section class="mb-12">
+    <h2 id="results" class="text-2xl font-light text-chicago-700 mb-6">
+      <a href="#results" class="hover:text-galaxy-gold">
+        {expectedResults.heading || 'Expected Results'}
+      </a>
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      {expectedResults.expected_results?.map((result: any) => <div
+        class="border-2 border-galaxy-primary rounded-lg overflow-hidden"
+      >
+        <h3 class="bg-galaxy-primary text-white px-4 py-2 text-sm font-medium">{result.title}</h3>
+        <p class="p-4 text-sm text-chicago-700">{result.content}</p>
+      </div>)}
+    </div>
+  </section>}
 
   <!-- News and Events -->
   <section class="mb-12">
@@ -185,21 +170,17 @@ function esgUrl(path: string): string {
           <a href={esgUrl('/projects/esg/news/')} class="hover:underline">News</a>
         </h2>
         <div class="p-4">
-          {
-            esgNews.length > 0 ? (
-              <ul class="space-y-3 mb-4">
-                {esgNews.map((item) => (
-                  <li>
-                    <a href={`/${item.data.slug}/`} class="text-galaxy-primary hover:underline text-sm">
-                      {item.data.title}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            ) : (
-              <p class="text-chicago-500 text-sm">No news articles yet.</p>
-            )
-          }
+          {esgNews.length > 0 ? (
+            <ul class="space-y-3 mb-4">
+              {esgNews.map((item) => <li>
+                <a href={`/${item.data.slug}/`} class="text-galaxy-primary hover:underline text-sm">
+                  {item.data.title}
+                </a>
+              </li>)}
+            </ul>
+          ) : (
+            <p class="text-chicago-500 text-sm">No news articles yet.</p>
+          )}
           <a
             href={esgUrl('/projects/esg/news/')}
             class="inline-block px-4 py-2 bg-ebony-clay-50 hover:bg-ebony-clay-100 rounded text-sm font-medium"
@@ -217,29 +198,26 @@ function esgUrl(path: string): string {
               stroke-linecap="round"
               stroke-linejoin="round"
               stroke-width="2"
-              d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+              d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+            ></path>
           </svg>
           <a href={esgUrl('/projects/esg/events/')} class="hover:underline">Events</a>
         </h2>
         <div class="p-4">
-          {
-            esgEvents.length > 0 ? (
-              <ul class="space-y-3 mb-4">
-                {esgEvents.map((event) => (
-                  <li class="flex gap-2">
-                    <span class="text-galaxy-primary font-medium text-sm whitespace-nowrap">
-                      {formatDate(event.data.date)}
-                    </span>
-                    <a href={`/${event.data.slug}/`} class="text-chicago-700 hover:text-galaxy-gold text-sm">
-                      {event.data.title}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            ) : (
-              <p class="text-chicago-500 text-sm">No upcoming events.</p>
-            )
-          }
+          {esgEvents.length > 0 ? (
+            <ul class="space-y-3 mb-4">
+              {esgEvents.map((event) => <li class="flex gap-2">
+                <span class="text-galaxy-primary font-medium text-sm whitespace-nowrap">
+                  {formatDate(event.data.date)}
+                </span>
+                <a href={`/${event.data.slug}/`} class="text-chicago-700 hover:text-galaxy-gold text-sm">
+                  {event.data.title}
+                </a>
+              </li>)}
+            </ul>
+          ) : (
+            <p class="text-chicago-500 text-sm">No upcoming events.</p>
+          )}
           <a
             href={esgUrl('/projects/esg/events/')}
             class="inline-block px-4 py-2 bg-ebony-clay-50 hover:bg-ebony-clay-100 rounded text-sm font-medium"
@@ -252,38 +230,30 @@ function esgUrl(path: string): string {
   </section>
 
   <!-- Partners -->
-  {
-    partners && (
-      <section class="mb-12">
-        <h2 id="partners" class="text-2xl font-light text-chicago-700 mb-6">
-          <a href="#partners" class="hover:text-galaxy-gold">
-            Project Partners
-          </a>
-        </h2>
-        <div class="border-2 border-galaxy-primary rounded-lg p-6">
-          <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
-            {partners.partners?.map((partner: any) => (
-              <a
-                href={partner.website}
-                target="_blank"
-                rel="noopener noreferrer"
-                class="flex items-center justify-center p-2 hover:opacity-80 transition-opacity"
-                title={partner.name}
-              >
-                <img
-                  src={
-                    partner.image?.startsWith('/')
-                      ? partner.image
-                      : `/images/projects/esg/partner-logos/${partner.image?.split('/').pop()}`
-                  }
-                  alt={partner.name}
-                  class="max-h-12 w-auto object-contain"
-                />
-              </a>
-            ))}
-          </div>
-        </div>
-      </section>
-    )
-  }
+  {partners && <section class="mb-12">
+    <h2 id="partners" class="text-2xl font-light text-chicago-700 mb-6">
+      <a href="#partners" class="hover:text-galaxy-gold"> Project Partners </a>
+    </h2>
+    <div class="border-2 border-galaxy-primary rounded-lg p-6">
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
+        {partners.partners?.map((partner: any) => <a
+          href={partner.website}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="flex items-center justify-center p-2 hover:opacity-80 transition-opacity"
+          title={partner.name}
+        >
+          <img
+            src={
+              partner.image?.startsWith('/')
+                ? partner.image
+                : `/images/projects/esg/partner-logos/${partner.image?.split('/').pop()}`
+            }
+            alt={partner.name}
+            class="max-h-12 w-auto object-contain"
+          />
+        </a>)}
+      </div>
+    </div>
+  </section>}
 </ESGLayout>

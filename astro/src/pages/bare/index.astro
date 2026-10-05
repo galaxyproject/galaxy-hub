@@ -145,24 +145,20 @@ const routes: string[] = Array.from(new Set([...staticRoutes, ...dynamicRoutesFr
     <code> bare-articles</code> content collection.
   </p>
 
-  {
-    routes.length > 0 ? (
-      <ul class="bare-sitemap">
-        {routes.map((route) => (
-          <li>
-            <a href={route}>{route}</a>
-          </li>
-        ))}
-      </ul>
-    ) : (
-      <p>No bare routes were found.</p>
-    )
-  }
+  {routes.length > 0 ? (
+    <ul class="bare-sitemap">
+      {routes.map((route) => <li>
+        <a href={route}>{route}</a>
+      </li>)}
+    </ul>
+  ) : (
+    <p>No bare routes were found.</p>
+  )}
 
   <h2>Embed In An External Site</h2>
   <p>
-    Example: embed <code>/bare/eu/usegalaxy/main/</code> in another site with an iframe. Use a fixed height first, then tune
-    it for your own layout.
+    Example: embed <code>/bare/eu/usegalaxy/main/</code> in another site with an iframe. Use a fixed height first, then
+    tune it for your own layout.
   </p>
 
   <pre>

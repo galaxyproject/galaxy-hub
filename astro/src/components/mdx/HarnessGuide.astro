@@ -19,15 +19,9 @@ const { id, name, source } = Astro.props;
 <section class="hguide" id={`guide-${id}`} role="tabpanel" aria-labelledby={`guide-tab-${id}`} data-guide-panel={id}>
   <h3 class="hguide__title">{name}</h3>
   <slot />
-  {
-    source && (
-      <p class="hguide__source">
-        This guide is generated from{' '}
-        <a href={source} rel="noopener noreferrer" target="_blank">
-          the {name} guide in agentic-plugins
-        </a>
-        ; edit it there.
-      </p>
-    )
-  }
+  {source && <p class="hguide__source">
+    This guide is generated from{' '}
+    <a href={source} rel="noopener noreferrer" target="_blank"> the {name} guide in agentic-plugins </a>
+    ; edit it there.
+  </p>}
 </section>

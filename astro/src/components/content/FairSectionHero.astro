@@ -56,22 +56,18 @@ const backLink = sectionSlug !== 'fair' ? { href: overviewHref, label: 'FAIR ove
 <div class="fair-shell">
   <div class="fair-layout">
     <div id="fair-principles" class="fair-cards">
-      {
-        sections.map((section) => (
-          <a
-            href={section.href}
-            class:list={['fair-card', section.slug === sectionSlug && 'is-active']}
-            data-fair-card={section.key}
-            aria-current={section.slug === sectionSlug ? 'page' : undefined}
-          >
-            <span class="fair-card-title">
-              <span class="fair-letter">{section.letter}</span>
-              <span class="fair-word-fragment">{section.name.slice(1)}</span>
-            </span>
-            <span class="fair-card-text">{section.summary}</span>
-          </a>
-        ))
-      }
+      {sections.map((section) => <a
+        href={section.href}
+        class:list={['fair-card', section.slug === sectionSlug && 'is-active']}
+        data-fair-card={section.key}
+        aria-current={section.slug === sectionSlug ? 'page' : undefined}
+      >
+        <span class="fair-card-title">
+          <span class="fair-letter">{section.letter}</span>
+          <span class="fair-word-fragment">{section.name.slice(1)}</span>
+        </span>
+        <span class="fair-card-text">{section.summary}</span>
+      </a>)}
     </div>
     <div class="fair-copy">
       <div class="fair-actions">
@@ -87,20 +83,17 @@ const backLink = sectionSlug !== 'fair' ? { href: overviewHref, label: 'FAIR ove
               stroke-linecap="round"
               stroke-linejoin="round"
               stroke-width="2"
-              d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+              d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+            ></path>
           </svg>
         </a>
       </div>
-      {
-        backLink && (
-          <a href={backLink.href} class="fair-back-link">
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-            </svg>
-            {backLink.label}
-          </a>
-        )
-      }
+      {backLink && <a href={backLink.href} class="fair-back-link">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+        </svg>
+        {backLink.label}
+      </a>}
     </div>
   </div>
 </div>

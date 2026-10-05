@@ -46,29 +46,25 @@ const EXTERNAL_LINK_SVG = `<svg xmlns="http://www.w3.org/2000/svg" width="12" he
     </tr>
   </thead>
   <tbody>
-    {
-      articles.map((article) => {
-        const slug = articleSlug(article);
-        return (
-          <tr>
-            <td class="col-date">{formatDate(article.data.date)}</td>
-            <td class="col-title">
-              {article.data.external_url ? (
-                <span class="title-row">
-                  <a href={article.data.external_url} target="_blank" rel="noopener">
-                    {article.data.title}
-                  </a>
-                  <Fragment set:html={EXTERNAL_LINK_SVG} />
-                </span>
-              ) : (
-                <a href={`/news/${slug}/`}>{article.data.title}</a>
-              )}
-            </td>
-            <td class="col-tease">{article.data.tease}</td>
-          </tr>
-        );
-      })
-    }
+    {articles.map((article) => {
+      const slug = articleSlug(article);
+      return <tr>
+        <td class="col-date">{formatDate(article.data.date)}</td>
+        <td class="col-title">
+          {article.data.external_url ? (
+            <span class="title-row">
+              <a href={article.data.external_url} target="_blank" rel="noopener">
+                {article.data.title}
+              </a>
+              <Fragment set:html={EXTERNAL_LINK_SVG} />
+            </span>
+          ) : (
+            <a href={`/news/${slug}/`}>{article.data.title}</a>
+          )}
+        </td>
+        <td class="col-tease">{article.data.tease}</td>
+      </tr>;
+    })}
   </tbody>
 </table>
 

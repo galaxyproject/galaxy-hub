@@ -127,100 +127,80 @@ function formatDate(date: Date | string | undefined): string {
         <div class="flex items-center gap-3 mb-4">
           <div class="w-1 h-8 bg-galaxy-gold"></div>
           <h1 class="text-3xl sm:text-4xl font-bold tracking-tight">
-            {
-              community?.record?.url ? (
-                <a href={community.record.url} class="hover:text-galaxy-gold transition-colors">
-                  {displayName || slug}
-                </a>
-              ) : (
-                displayName || slug
-              )
-            }
+            {community?.record?.url ? (
+              <a href={community.record.url} class="hover:text-galaxy-gold transition-colors">
+                {displayName || slug}
+              </a>
+            ) : (
+              displayName || slug
+            )}
           </h1>
         </div>
-        {
-          profileDescription ? (
-            <div
-              class="profile-description text-lg max-w-3xl"
-              data-profile-description
-              set:html={profileDescriptionHtml}
-            />
-          ) : (
-            <p class="text-white/80 text-lg max-w-2xl">
-              {matchedType
-                ? `All news and events credited to this ${matchedType}.`
-                : 'All news and events credited to this profile.'}
-            </p>
-          )
-        }
+        {profileDescription ? (
+          <div
+            class="profile-description text-lg max-w-3xl"
+            data-profile-description
+            set:html={profileDescriptionHtml}
+          />
+        ) : (
+          <p class="text-white/80 text-lg max-w-2xl">
+            {matchedType
+              ? `All news and events credited to this ${matchedType}.`
+              : 'All news and events credited to this profile.'}
+          </p>
+        )}
         <p class="text-white/70 mt-2 text-sm">{totalItems} contribution{totalItems === 1 ? '' : 's'}</p>
-        {
-          community && (
-            <div class="profile-header-block">
-              <a
-                href={community?.record?.url || '#'}
-                class:list={['profile-avatar', 'profile-avatar-sm', { 'pointer-events-none': !community?.record?.url }]}
-                target={community?.record?.url ? '_blank' : undefined}
-                rel={community?.record?.url ? 'noopener noreferrer' : undefined}
-                aria-label={community?.record?.url ? `Visit ${displayName || slug}` : undefined}
-              >
-                {avatarUrl ? (
-                  <img src={avatarUrl} alt={displayName || slug} class="profile-avatar-img" loading="lazy" />
-                ) : (
-                  <span class="profile-avatar-fallback">{(displayName || slug || '?').charAt(0).toUpperCase()}</span>
-                )}
-              </a>
-              <div class="flex-1 space-y-3 min-w-0">
-                {affiliationTags.length > 0 && (
-                  <div class="affiliation-group">
-                    <p class="affiliation-label">Affiliations</p>
-                    <div class="flex flex-wrap gap-2" aria-label="Affiliations">
-                      {affiliationTags.map((aff) => (
-                        <a href={aff.slug} class="chip chip-light">
-                          {aff.label}
-                        </a>
-                      ))}
-                    </div>
-                  </div>
-                )}
-
-                {formerAffiliationTags.length > 0 && (
-                  <div class="affiliation-group">
-                    <p class="affiliation-label affiliation-label-muted">Former Affiliations</p>
-                    <div class="flex flex-wrap gap-2" aria-label="Former affiliations">
-                      {formerAffiliationTags.map((aff) => (
-                        <a href={aff.slug} class="chip chip-muted chip-light">
-                          {aff.label}
-                        </a>
-                      ))}
-                    </div>
-                  </div>
-                )}
-
-                {contactLinks.length > 0 && (
-                  <div class="flex flex-wrap gap-2" aria-label="Links">
-                    {contactLinks.map((link) => (
-                      <a
-                        href={link.href}
-                        class="icon-button"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        title={link.label}
-                        aria-label={link.label}
-                      >
-                        {link.icon === 'gtn' ? (
-                          <img src={gtnIcon} alt="" aria-hidden="true" class="icon-button-img" loading="lazy" />
-                        ) : link.icon ? (
-                          <Icon name={link.icon} size={26} />
-                        ) : null}
-                      </a>
-                    ))}
-                  </div>
-                )}
+        {community && <div class="profile-header-block">
+          <a
+            href={community?.record?.url || '#'}
+            class:list={['profile-avatar', 'profile-avatar-sm', { 'pointer-events-none': !community?.record?.url }]}
+            target={community?.record?.url ? '_blank' : undefined}
+            rel={community?.record?.url ? 'noopener noreferrer' : undefined}
+            aria-label={community?.record?.url ? `Visit ${displayName || slug}` : undefined}
+          >
+            {avatarUrl ? (
+              <img src={avatarUrl} alt={displayName || slug} class="profile-avatar-img" loading="lazy" />
+            ) : (
+              <span class="profile-avatar-fallback">{(displayName || slug || '?').charAt(0).toUpperCase()}</span>
+            )}
+          </a>
+          <div class="flex-1 space-y-3 min-w-0">
+            {affiliationTags.length > 0 && <div class="affiliation-group">
+              <p class="affiliation-label">Affiliations</p>
+              <div class="flex flex-wrap gap-2" aria-label="Affiliations">
+                {affiliationTags.map((aff) => <a href={aff.slug} class="chip chip-light">
+                  {aff.label}
+                </a>)}
               </div>
-            </div>
-          )
-        }
+            </div>}
+
+            {formerAffiliationTags.length > 0 && <div class="affiliation-group">
+              <p class="affiliation-label affiliation-label-muted">Former Affiliations</p>
+              <div class="flex flex-wrap gap-2" aria-label="Former affiliations">
+                {formerAffiliationTags.map((aff) => <a href={aff.slug} class="chip chip-muted chip-light">
+                  {aff.label}
+                </a>)}
+              </div>
+            </div>}
+
+            {contactLinks.length > 0 && <div class="flex flex-wrap gap-2" aria-label="Links">
+              {contactLinks.map((link) => <a
+                href={link.href}
+                class="icon-button"
+                target="_blank"
+                rel="noopener noreferrer"
+                title={link.label}
+                aria-label={link.label}
+              >
+                {link.icon === 'gtn' ? (
+                  <img src={gtnIcon} alt="" aria-hidden="true" class="icon-button-img" loading="lazy" />
+                ) : link.icon ? (
+                  <Icon name={link.icon} size={26} />
+                ) : null}
+              </a>)}
+            </div>}
+          </div>
+        </div>}
         <a
           href="/hall-of-fame/"
           class="inline-flex items-center gap-1.5 text-sm text-white/70 hover:text-galaxy-gold transition-colors mt-4"
@@ -234,106 +214,96 @@ function formatDate(date: Date | string | undefined): string {
     </header>
 
     <div class="bg-white rounded-b-lg shadow-sm px-6 sm:px-8 py-6">
-      {
-        associatedContributors.length > 0 && (
-          <section class="mb-8" aria-label="Associated contributors">
-            <details class="collapsible" open>
-              <summary>
-                Contributors <span class="count">({associatedContributors.length})</span>
-              </summary>
-              <div class="flex flex-wrap gap-2 mt-3">
-                {associatedContributors.map((c) => (
-                  <a href={`/hall-of-fame/${slugify(c.id)}/`} class="chip">
-                    {c.name || c.id}
-                  </a>
-                ))}
-              </div>
-            </details>
-          </section>
-        )
-      }
-
-      {
-        contributions.length > 0 ? (
-          <div class:list={['grid grid-cols-1 gap-8', { 'lg:grid-cols-2': hasBoth }]}>
-            {newsItems.length > 0 && (
-              <section>
-                <h2 class="flex items-center gap-2 text-lg font-semibold text-galaxy-dark mb-4 pb-2 border-b border-ebony-clay-100">
-                  <svg class="w-5 h-5 text-chicago-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"
-                    />
-                  </svg>
-                  News <span class="text-sm font-normal text-chicago-400">({newsItems.length})</span>
-                </h2>
-                <div class="space-y-4" id="news-list">
-                  {newsItems.map((item, idx) => (
-                    <a href={item.url} class:list={['block group', { hidden: idx >= 20 }]} data-item>
-                      <h3 class="text-base font-medium text-chicago-700 group-hover:text-galaxy-primary transition-colors">
-                        {item.title}
-                      </h3>
-                      {item.tease && <p class="text-sm text-chicago-500 mt-1 line-clamp-2">{item.tease}</p>}
-                      <time class="text-sm text-chicago-400">{formatDate(item.date)}</time>
-                    </a>
-                  ))}
-                </div>
-                {newsItems.length > 20 && (
-                  <button
-                    type="button"
-                    class="mt-4 text-sm text-galaxy-primary hover:text-galaxy-gold transition-colors"
-                    data-show-more="news-list"
-                    data-remaining={newsItems.length - 20}
-                  >
-                    Show {newsItems.length - 20} more
-                  </button>
-                )}
-              </section>
-            )}
-
-            {eventItems.length > 0 && (
-              <section>
-                <h2 class="flex items-center gap-2 text-lg font-semibold text-galaxy-dark mb-4 pb-2 border-b border-ebony-clay-100">
-                  <svg class="w-5 h-5 text-chicago-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-                    />
-                  </svg>
-                  Events <span class="text-sm font-normal text-chicago-400">({eventItems.length})</span>
-                </h2>
-                <div class="space-y-4" id="events-list">
-                  {eventItems.map((item, idx) => (
-                    <a href={item.url} class:list={['block group', { hidden: idx >= 20 }]} data-item>
-                      <h3 class="text-base font-medium text-chicago-700 group-hover:text-galaxy-primary transition-colors">
-                        {item.title}
-                      </h3>
-                      {item.tease && <p class="text-sm text-chicago-500 mt-1 line-clamp-2">{item.tease}</p>}
-                      <time class="text-sm text-chicago-400">{formatDate(item.date)}</time>
-                    </a>
-                  ))}
-                </div>
-                {eventItems.length > 20 && (
-                  <button
-                    type="button"
-                    class="mt-4 text-sm text-galaxy-primary hover:text-galaxy-gold transition-colors"
-                    data-show-more="events-list"
-                    data-remaining={eventItems.length - 20}
-                  >
-                    Show {eventItems.length - 20} more
-                  </button>
-                )}
-              </section>
-            )}
+      {associatedContributors.length > 0 && <section class="mb-8" aria-label="Associated contributors">
+        <details class="collapsible" open>
+          <summary>Contributors <span class="count">({associatedContributors.length})</span></summary>
+          <div class="flex flex-wrap gap-2 mt-3">
+            {associatedContributors.map((c) => <a href={`/hall-of-fame/${slugify(c.id)}/`} class="chip">
+              {c.name || c.id}
+            </a>)}
           </div>
-        ) : (
-          <p class="text-chicago-500 text-center py-8">No news or events found for this contributor.</p>
-        )
-      }
+        </details>
+      </section>}
+
+      {contributions.length > 0 ? (
+        <div class:list={['grid grid-cols-1 gap-8', { 'lg:grid-cols-2': hasBoth }]}>
+          {newsItems.length > 0 && <section>
+            <h2
+              class="flex items-center gap-2 text-lg font-semibold text-galaxy-dark mb-4 pb-2 border-b border-ebony-clay-100"
+            >
+              <svg class="w-5 h-5 text-chicago-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"
+                />
+              </svg>
+              News <span class="text-sm font-normal text-chicago-400">({newsItems.length})</span>
+            </h2>
+            <div class="space-y-4" id="news-list">
+              {newsItems.map((item, idx) => <a
+                href={item.url}
+                class:list={['block group', { hidden: idx >= 20 }]}
+                data-item
+              >
+                <h3 class="text-base font-medium text-chicago-700 group-hover:text-galaxy-primary transition-colors">
+                  {item.title}
+                </h3>
+                {item.tease && <p class="text-sm text-chicago-500 mt-1 line-clamp-2">{item.tease}</p>}
+                <time class="text-sm text-chicago-400">{formatDate(item.date)}</time>
+              </a>)}
+            </div>
+            {newsItems.length > 20 && <button
+              type="button"
+              class="mt-4 text-sm text-galaxy-primary hover:text-galaxy-gold transition-colors"
+              data-show-more="news-list"
+              data-remaining={newsItems.length - 20}
+            >
+              Show {newsItems.length - 20} more
+            </button>}
+          </section>}
+
+          {eventItems.length > 0 && <section>
+            <h2
+              class="flex items-center gap-2 text-lg font-semibold text-galaxy-dark mb-4 pb-2 border-b border-ebony-clay-100"
+            >
+              <svg class="w-5 h-5 text-chicago-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                />
+              </svg>
+              Events <span class="text-sm font-normal text-chicago-400">({eventItems.length})</span>
+            </h2>
+            <div class="space-y-4" id="events-list">
+              {eventItems.map((item, idx) => <a
+                href={item.url}
+                class:list={['block group', { hidden: idx >= 20 }]}
+                data-item
+              >
+                <h3 class="text-base font-medium text-chicago-700 group-hover:text-galaxy-primary transition-colors">
+                  {item.title}
+                </h3>
+                {item.tease && <p class="text-sm text-chicago-500 mt-1 line-clamp-2">{item.tease}</p>}
+                <time class="text-sm text-chicago-400">{formatDate(item.date)}</time>
+              </a>)}
+            </div>
+            {eventItems.length > 20 && <button
+              type="button"
+              class="mt-4 text-sm text-galaxy-primary hover:text-galaxy-gold transition-colors"
+              data-show-more="events-list"
+              data-remaining={eventItems.length - 20}
+            >
+              Show {eventItems.length - 20} more
+            </button>}
+          </section>}
+        </div>
+      ) : (
+        <p class="text-chicago-500 text-center py-8">No news or events found for this contributor.</p>
+      )}
     </div>
   </div>
 </BaseLayout>

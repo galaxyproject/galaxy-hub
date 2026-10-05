@@ -44,15 +44,13 @@ const emptyHint = `No citations found for ${subsite}. Add a BibTeX file at conte
         Please help us support this project by acknowledging the service in publications that use it.
       </p>
 
-      {
-        !exists || citations.length === 0 ? (
-          <div class="rounded-lg border border-dashed border-ebony-clay-200 bg-ebony-clay-50 p-6 text-chicago-700">
-            <p>{emptyHint}</p>
-          </div>
-        ) : (
-          <CitationList citations={citations} />
-        )
-      }
+      {!exists || citations.length === 0 ? (
+        <div class="rounded-lg border border-dashed border-ebony-clay-200 bg-ebony-clay-50 p-6 text-chicago-700">
+          <p>{emptyHint}</p>
+        </div>
+      ) : (
+        <CitationList citations={citations} />
+      )}
     </div>
   </div>
 </BaseLayout>

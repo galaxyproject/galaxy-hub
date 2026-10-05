@@ -1089,53 +1089,58 @@ const pillars = [
         </div>
 
         <div class="pillars-grid">
-          {
-            pillars.map((pillar) => (
-              <div class="pillar-card">
-                <div class="pillar-icon">
-                  {pillar.icon === 'accessible' && (
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"
-                      />
-                    </svg>
-                  )}
-                  {pillar.icon === 'workflow' && (
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
-                      />
-                    </svg>
-                  )}
-                  {pillar.icon === 'transparent' && (
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
-                      />
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
-                      />
-                    </svg>
-                  )}
-                </div>
-                <h3 class="pillar-title">{pillar.title}</h3>
-                <div class="pillar-subtitle">{pillar.subtitle}</div>
-                <p class="pillar-description">{pillar.description}</p>
-              </div>
-            ))
-          }
+          {pillars.map((pillar) => <div class="pillar-card">
+            <div class="pillar-icon">
+              {pillar.icon === 'accessible' && <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"
+                />
+              </svg>}
+              {pillar.icon === 'workflow' && <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
+                />
+              </svg>}
+              {pillar.icon === 'transparent' && <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+                />
+              </svg>}
+            </div>
+            <h3 class="pillar-title">{pillar.title}</h3>
+            <div class="pillar-subtitle">{pillar.subtitle}</div>
+            <p class="pillar-description">{pillar.description}</p>
+          </div>)}
         </div>
       </div>
     </section>
@@ -1199,7 +1204,11 @@ const pillars = [
                 stroke="currentColor"
                 class="impact-icon-svg"
               >
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z"
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 14l9-5-9-5-9 5 9 5z"
                 ></path>
                 <path
                   stroke-linecap="round"
@@ -1229,15 +1238,11 @@ const pillars = [
             <a href="/news/"> View all → </a>
           </div>
           <div class="news-list">
-            {
-              recentNews.map((item) => (
-                <a href={`/${item.data.slug}/`} class="news-card">
-                  <div class="news-date">{formatDate(item.data.date)}</div>
-                  <h3 class="news-title">{item.data.title}</h3>
-                  {item.data.tease && <p class="news-excerpt">{item.data.tease}</p>}
-                </a>
-              ))
-            }
+            {recentNews.map((item) => <a href={`/${item.data.slug}/`} class="news-card">
+              <div class="news-date">{formatDate(item.data.date)}</div>
+              <h3 class="news-title">{item.data.title}</h3>
+              {item.data.tease && <p class="news-excerpt">{item.data.tease}</p>}
+            </a>)}
           </div>
         </div>
 
@@ -1247,27 +1252,23 @@ const pillars = [
             <a href="/events/"> View all → </a>
           </div>
           <div class="events-list">
-            {
-              upcomingEvents.map((event) => {
-                const date = event.data.date instanceof Date ? event.data.date : new Date(event.data.date || '');
-                const day = date.getDate();
-                const month = date.toLocaleDateString('en-US', { month: 'short' });
-                return (
-                  <a href={`/${event.data.slug}/`} class="event-card">
-                    <div class="event-date-box">
-                      <span class="event-date-day">{day}</span>
-                      <span class="event-date-month">{month}</span>
-                    </div>
-                    <div class="event-info">
-                      <h3 class="event-title">{event.data.title}</h3>
-                      {event.data.location && typeof event.data.location === 'string' && (
-                        <div class="event-location">{event.data.location}</div>
-                      )}
-                    </div>
-                  </a>
-                );
-              })
-            }
+            {upcomingEvents.map((event) => {
+              const date = event.data.date instanceof Date ? event.data.date : new Date(event.data.date || '');
+              const day = date.getDate();
+              const month = date.toLocaleDateString('en-US', { month: 'short' });
+              return <a href={`/${event.data.slug}/`} class="event-card">
+                <div class="event-date-box">
+                  <span class="event-date-day">{day}</span>
+                  <span class="event-date-month">{month}</span>
+                </div>
+                <div class="event-info">
+                  <h3 class="event-title">{event.data.title}</h3>
+                  {event.data.location && typeof event.data.location === 'string' && <div class="event-location">
+                    {event.data.location}
+                  </div>}
+                </div>
+              </a>;
+            })}
           </div>
         </div>
       </div>
