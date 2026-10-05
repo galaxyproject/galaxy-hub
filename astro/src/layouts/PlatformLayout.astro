@@ -167,7 +167,7 @@ const sections = [
           {scope && <tr class="bg-ebony-clay-50 even:bg-white">
             <th class="px-4 py-3 text-left text-sm font-medium text-chicago-900 w-40">Scope:</th>
             <td class="px-4 py-3 text-sm">
-              <a href={`/use/?scope=${scope}`} class="text-galaxy-primary hover:underline">
+              <a href={`/use/?scope=${encodeURIComponent(scope)}`} class="text-galaxy-primary hover:underline">
                 {scopeNames[scope] || scope}
               </a>
             </td>
