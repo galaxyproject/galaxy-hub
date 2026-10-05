@@ -718,7 +718,7 @@ do that and try them out on some isolate data from a library. Also, it's best to
 much as possible so we'll convert this trial run (if it worked) into a workflow (AKA pipeline) that will reduce this
 process to a two click operation.
 
-Using the procedure in [Installing a tool from a Tool Shed](/events/gmod-summer-school2014/#installing-a-tool-from-a-toolshed), search for and install the following tools:
+Using the procedure in [Installing a tool from a Tool Shed](/events/gmod-summer-school2014/#installing-a-tool-from-a-tool-shed), search for and install the following tools:
 
 1. `fastq_paired_end_joiner`:
 

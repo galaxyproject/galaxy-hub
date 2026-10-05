@@ -16,7 +16,7 @@ The [March 2013 Galaxy Update is now available](/galaxy-updates/2013-03/).
 * [Open Positions](/galaxy-updates/2013-03/#whos-hiring) at four different institutions
 * [Other Upcoming Events and Deadlines](/galaxy-updates/2013-03/#other-upcoming-events-and-deadlines)
 * [Galaxy Distributions](/galaxy-updates/2013-03/#galaxy-distributions)
-* [Tool Shed Contributions](/galaxy-updates/2013-03/#toolshed-contributions)
+* [Tool Shed Contributions](/galaxy-updates/2013-03/#tool-shed-contributions)
 * [Other News](/galaxy-updates/2013-03/#other-news)
 
 If you have anything you would like to see in the April *[Galaxy Update](/galaxy-updates/)*, please let us know.

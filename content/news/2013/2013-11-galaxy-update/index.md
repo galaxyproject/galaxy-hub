@@ -17,7 +17,7 @@ The [November 2013 Galaxy Update is out](/galaxy-updates/2013-11/):
     * [Galaxy Day, December 4, Paris](/galaxy-updates/2013-11/#galaxy-day-december-4-paris)
     * [UC Davis Bioinformatics Boot Camps](/galaxy-updates/2013-11/#uc-davis-bioinformatics-boot-camps)
 * [Lifeportal launched at the University of Oslo](/galaxy-updates/2013-11/#lifeportal-at-the-university-of-oslo)
-* [Tool Shed contributions](/galaxy-updates/2013-11/#toolshed-contributions)
+* [Tool Shed contributions](/galaxy-updates/2013-11/#tool-shed-contributions)
 
 If you have anything you would like to see in the next *[Galaxy Update](/galaxy-updates/)*, please let us know.
 
