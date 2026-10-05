@@ -64,7 +64,7 @@ Or check out our [blog posts](/tags/humanities/) for more inspiration!
 
 # 🏛️ Upcoming events
 
-The Galaxy community organises regularly scheduled training events. You can check the [event page](/events/) for the latest events.
+The Galaxy community organises regularly scheduled training events. You can check the [event page](/events/) for all Galaxy-related events or see [all SSH-related events](/tags/humanities/) here.
 
 <slot name="/eu/common/data-policy" />
 
