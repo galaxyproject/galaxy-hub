@@ -57,7 +57,7 @@ The *Galactic* and *Stellar* publications added in September were:
 | 5 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 3 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) | | 1 | [+Other](https://www.zotero.org/groups/1732893/galaxy/tags/+Other) | | 1 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud) |
 | 1 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/tags/+Unknown) | | | | | | | | | | |
 
-We also added tags to papers that reference, use, or implement a Galaxy Public Server.  [See below](#public-servers-in-september-s-publications) for this list.
+We also added tags to papers that reference, use, or implement a Galaxy Public Server.  [See below](#public-servers-in-septembers-publications) for this list.
 
 ----
 

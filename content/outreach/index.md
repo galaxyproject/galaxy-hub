@@ -10,7 +10,7 @@ A number of resources are available to help connect researchers and developers w
 
 ## Citing Galaxy
 
-[Citing Galaxy](/citing-galaxy/) in publications and presentations is an easy way to increase Galaxy's visibility and helps enormously with grants. The Galaxy Project and Galaxy users have published numerous papers on Galaxy and analyses that use Galaxy. Check out this list of [Galaxy-related publications](/citing-galaxy/#galaxy-project-publications-by-year) and [guidelines for citing Galaxy](/citing-galaxy/#citing-specific-galaxy-components-features) in your own work.
+[Citing Galaxy](/citing-galaxy/) in publications and presentations is an easy way to increase Galaxy's visibility and helps enormously with grants. The Galaxy Project and Galaxy users have published numerous papers on Galaxy and analyses that use Galaxy. Check out this list of [Galaxy-related publications](/citing-galaxy/#galaxy-project-publications-by-year) and [guidelines for citing Galaxy](/citing-galaxy/#citing-specific-galaxy-components--features) in your own work.
 
 ### Powered by Galaxy
 

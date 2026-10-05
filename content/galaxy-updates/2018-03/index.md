@@ -53,7 +53,7 @@ We are pleased to announce two of our keynote speakers:
 
 [<img class="float-right" src="/images/people/perez.png" alt="Fernando Pérez"  width="110"  />](https://bids.berkeley.edu/people/fernando-perez)
 
-**BOSC / GCC Joint Keynote: [Fernando Pérez](/events/gccbosc2018/keynotes/#bosc-gcc-joint-keynote-fernando-perez)**
+**BOSC / GCC Joint Keynote: [Fernando Pérez](/events/gccbosc2018/keynotes/#bosc--gcc-joint-keynote-fernando-pérez)**
 
 * *[Berkeley Institute for Data Science](https://bids.berkeley.edu/), [University of California Berkeley](https://berkeley.edu/)*
 * *[Project Jupyter](http://jupyter.org/)*

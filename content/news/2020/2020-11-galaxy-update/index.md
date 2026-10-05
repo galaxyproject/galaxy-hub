@@ -10,7 +10,7 @@ subsites: [all-eu, global, us]
 
 [<img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)
 
-* **[JXTX: The James P. Taylor Foundation for Open Science](#jxtx-the-james-p.-taylor-foundation-for-open-science)**
+* **[JXTX: The James P. Taylor Foundation for Open Science](#jxtx-the-james-p-taylor-foundation-for-open-science)**
 * **[Event news](#event-news)**
 * **[Galaxy platform news](#galaxy-platforms-news):** GalaxyTrakr, Galaxy Africa, Australia, Europe, and UseGalaxy.*
 * **[Blog posts](#galactic-blog-activity):** Advanced Microbiology with Galaxy and TIaaS

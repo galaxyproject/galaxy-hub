@@ -290,7 +290,7 @@ The day closed amidst  the usual scrum of organising taxis and public transport 
 
 <div class='right'><a href='http://www.atmajaya.ac.id/'><img src="/images/logos/AtmaJayaSmall.gif" alt="Atma Jaya Catholic University of Indonesia" width="150" /></a></div>
 
-**[ Three posters](/events/gaw2014/#posters-)** were displayed, including "[Microbial Community Analysis of Indonesia Tempeh Employing Metagenome Galaxy](https://f1000research.com/posters/7-1411)"  which was brought to us by some enthusiasts all the way from Indonesia.
+**[ Three posters](/events/gaw2014/#posters)** were displayed, including "[Microbial Community Analysis of Indonesia Tempeh Employing Metagenome Galaxy](https://f1000research.com/posters/7-1411)"  which was brought to us by some enthusiasts all the way from Indonesia.
 
 **Day 2** was held in the [Melbourne Convention Centre](http://mcec.com.au/), alongside CSIRO’s [Computational and Simulation Sciences and eResearch conference.](http://wp.csiro.au/css/ )  
 

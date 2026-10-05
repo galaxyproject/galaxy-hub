@@ -108,7 +108,7 @@ A *toolbox* on the *workflow canvas* represents a *tool* action or *job* perform
 * **4: delete** - Click the "X" to remove (delete) the tool from your workflow.
 * **5: input connection(s)** - Where the input for the tool is supplied through a connecting *noodle* from an upstream *tool* output or *input* dataset.
 * **6: output connection(s)** - Where the output from a tool exists the tool and is sent through a connecting *noodle* to a downstream *tool* (unless this tool produces a final output dataset).
-* **7: noodle(s)** - How *input* datasets and *tool* boxes are connected. More about *noodle* connections is below in [Key Functions: Noodle-y Connections](/learn/advanced-workflow/basic-editing/#noodle-y_connections).
+* **7: noodle(s)** - How *input* datasets and *tool* boxes are connected. More about *noodle* connections is below in [Key Functions: Noodle-y Connections](/learn/advanced-workflow/basic-editing/#noodle-y-connections).
 * **8: hide toggle** - Datasets that result from tool execution can be displayed in a history or hidden. More about *hidden* datasets is below in [Most Useful Edits: Hidden Datasets](/learn/advanced-workflow/basic-editing/#hidden-datasets).
 
 <br />
@@ -121,7 +121,7 @@ The *details* panel is where tool settings are made and adjusted for the selecte
 * **tool: tool name** - The exact name of the *tool* being edited. Same as in the *toolbox*.
 * **1: version** - The Galaxy *wrapper version* for the tool. Note that this is __not__ the same as the underlying *tool executable* version (both are available on the ![](/images/icons/HistoryInfo.png) *info form* for a completed job).
 * **2: tool description** - Short portion of the tool description or actions. Same as in the *toolbox*.
-* **3: edit step actions** - Workflow-specific actions that can be applied when a *tool* is executed and are sometimes necessary to create appropriate *[noodle connections](/learn/advanced-workflow/basic-editing/#noodle-y_connections)* between tools (such as *[datatype](/learn/advanced-workflow/basic-editing/#assign-datatype)* assignments). All pull-down menu options are explained in: **[Advanced Editing](/learn/advanced-workflow/adv-editing/)** and **[Using Variables](/learn/advanced-workflow/variables/)**.
+* **3: edit step actions** - Workflow-specific actions that can be applied when a *tool* is executed and are sometimes necessary to create appropriate *[noodle connections](/learn/advanced-workflow/basic-editing/#noodle-y-connections)* between tools (such as *[datatype](/learn/advanced-workflow/basic-editing/#assign-datatype)* assignments). All pull-down menu options are explained in: **[Advanced Editing](/learn/advanced-workflow/adv-editing/)** and **[Using Variables](/learn/advanced-workflow/variables/)**.
 * **4: edit step attributes** - Workflow-specific annotation/info that can be provided to describe what a tool's purpose is, expected input content (if an *input* dataset box), and other communications directed to users of the workflow. This annotation is displayed when a workflow is *viewed* or when it is *run*.
 * **5: tool form info contents** - Exact contents displayed on a tool's *tool form* underneath the settings. This is provided in the *workflow editor* to assist with correct setting and connections for included *tools*.
 
