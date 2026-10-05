@@ -76,6 +76,14 @@ const groupToUrlSlug: Record<string, string> = {
   vm: 'vms',
 };
 
+// Scope anchors of the old Gridsome directory (/use/#genomics etc.), still linked from elsewhere
+const legacyHashToScope: Record<string, string> = {
+  'usegalaxy-dir': 'usegalaxy',
+  genomics: 'general',
+  domain: 'domain',
+  'tool-publishing': 'tool-publishing',
+};
+
 const groupLabels: Record<string, string> = {
   'public-server': 'Public Server',
   'academic-cloud': 'Academic Cloud',
@@ -297,8 +305,17 @@ onMounted(() => {
     }
   }
   const scopeParam = urlParams.get('scope');
-  if (scopeParam && scopeParam !== 'all' && scopes.value.includes(scopeParam)) {
-    selectedScope.value = scopeParam;
+  if (scopeParam) {
+    if (scopeParam !== 'all' && scopes.value.includes(scopeParam)) {
+      selectedScope.value = scopeParam;
+    }
+  } else {
+    const legacyScope = legacyHashToScope[window.location.hash.slice(1)];
+    if (legacyScope && scopes.value.includes(legacyScope)) {
+      // Drop the consumed hash; the scope watcher then writes ?scope=
+      window.history.replaceState(window.history.state, '', `${window.location.pathname}${window.location.search}`);
+      selectedScope.value = legacyScope;
+    }
   }
 });
 

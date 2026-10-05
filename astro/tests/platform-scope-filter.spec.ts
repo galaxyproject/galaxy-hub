@@ -71,6 +71,26 @@ test.describe('Platform scope filter', () => {
     expect(indexAfter).toBe(indexBefore);
   });
 
+  test('legacy /use/#<anchor> links select the matching scope', async ({ page }) => {
+    // Anchors from the old Gridsome directory; #genomics maps to the "general" scope
+    await page.goto('/use/#genomics');
+
+    const scopeSelect = await getScopeSelect(page);
+    await expect(scopeSelect).toHaveValue('general');
+    await expect(page).toHaveURL(/\/use\/\?scope=general$/);
+
+    await page.goto('/use/#tool-publishing');
+    await expect(scopeSelect).toHaveValue('tool-publishing');
+    await expect(page).toHaveURL(/\/use\/\?scope=tool-publishing$/);
+  });
+
+  test('?scope= wins over a legacy hash', async ({ page }) => {
+    await page.goto('/use/?scope=domain#genomics');
+
+    const scopeSelect = await getScopeSelect(page);
+    await expect(scopeSelect).toHaveValue('domain');
+  });
+
   test('scope and platform_group coexist and clear together', async ({ page }) => {
     await page.goto('/use/?scope=domain&platform_group=public-servers');
 
