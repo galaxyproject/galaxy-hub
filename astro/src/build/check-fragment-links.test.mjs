@@ -15,6 +15,8 @@ import {
   markComponentTags,
   loadBypass,
   bypassKey,
+  collectProblems,
+  formatReport,
 } from './check-fragment-links.mjs';
 
 function tempContentDir(files) {
@@ -115,7 +117,7 @@ describe('fragment-link lint helpers', () => {
 
   describe('pageIds', () => {
     it('keeps the invisible variation selector that emoji headings leave in the slug', async () => {
-      const ids = await pageIds('# 🛠\uFE0F Tools\n\n# 📅 Events\n', {});
+      const ids = await pageIds('# \u{1F6E0}\uFE0F Tools\n\n# \u{1F4C5} Events\n', {});
       expect(ids.has('\uFE0F-tools')).toBe(true);
       expect(ids.has('-tools')).toBe(false);
       expect(ids.has('-events')).toBe(true);
@@ -224,9 +226,9 @@ describe('fragment-link lint helpers', () => {
         '- [Events](#-events)',
         '- [Filter](#scope=all)',
         '',
-        '# 🛠\uFE0F Tools',
+        '# \u{1F6E0}\uFE0F Tools',
         '',
-        '# 📅 Events',
+        '# \u{1F4C5} Events',
       ].join('\n');
       const problems = await checkPage(raw);
       expect(problems).toEqual([{ rel: 'index.md', line: 5, fragment: '-tools', closest: ['\uFE0F-tools'] }]);
@@ -237,7 +239,7 @@ describe('fragment-link lint helpers', () => {
     });
 
     it('matches percent-encoded fragments against decoded ids', async () => {
-      expect(await checkPage('[x](#caf%C3%A9)\n\n## Café\n')).toEqual([]);
+      expect(await checkPage('[x](#caf%C3%A9)\n\n## Caf\u00E9\n')).toEqual([]);
     });
   });
 
@@ -302,6 +304,64 @@ describe('fragment-link lint helpers', () => {
 
     it('names the page when it cannot be checked', async () => {
       await expect(checkFile('broken/index.md', dir)).rejects.toThrow('content/broken/index.md');
+    });
+  });
+
+  describe('inserts nested along several paths', () => {
+    let dir;
+    beforeAll(() => {
+      dir = tempContentDir({
+        'page/index.md': '<slot name="/parts/a" />\n\n<slot name="/parts/b" />\n\n## Here\n',
+        'parts/a.md': '<slot name="/parts/b" />\n',
+        'parts/b.md': '<slot name="/parts/c" />\n',
+        'parts/c.md': '<slot name="/parts/d" />\n',
+        'parts/d.md': '[bad](#gone)\n',
+      });
+    });
+    afterAll(() => {
+      fs.rmSync(dir, { recursive: true, force: true });
+    });
+
+    it('follows an insert reached again at a shallower depth, as preprocess does', async () => {
+      expect(await checkFile('page/index.md', dir)).toEqual([
+        { rel: 'parts/d.md', page: 'page/index.md', line: 1, fragment: 'gone', closest: ['here'] },
+      ]);
+    });
+  });
+
+  describe('collectProblems and formatReport', () => {
+    let dir;
+    beforeAll(() => {
+      dir = tempContentDir({
+        'one/index.md': '<slot name="/parts/shared" />\n\n## One\n',
+        'two/index.md': '<slot name="/parts/shared" />\n\n## Two\n',
+        'parts/shared.md': '[bad](#gone)\n',
+        'ok/index.md': '[x](#fine)\n\n## Fine\n',
+      });
+    });
+    afterAll(() => {
+      fs.rmSync(dir, { recursive: true, force: true });
+    });
+
+    it('reports an insert once for each page that includes it', async () => {
+      const problems = await collectProblems(['two/index.md', 'one/index.md', 'ok/index.md'], dir, new Set());
+      expect(problems.map(({ rel, page }) => [rel, page])).toEqual([
+        ['parts/shared.md', 'one/index.md'],
+        ['parts/shared.md', 'two/index.md'],
+      ]);
+    });
+
+    it('drops links listed in the bypass set', async () => {
+      const bypassed = new Set(['parts/shared.md#gone']);
+      expect(await collectProblems(['one/index.md', 'two/index.md'], dir, bypassed)).toEqual([]);
+    });
+
+    it('exits 0 when every link resolves and 1 with a row per problem otherwise', async () => {
+      expect(formatReport([]).exitCode).toBe(0);
+      const report = formatReport(await collectProblems(['one/index.md'], dir, new Set()));
+      expect(report.exitCode).toBe(1);
+      expect(report.text).toContain('content/parts/shared.md:1  #gone on content/one/index.md');
+      expect(report.text).toContain('bypass key: "parts/shared.md#gone"');
     });
   });
 });

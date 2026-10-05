@@ -16,7 +16,7 @@
  * - Explicit `id="..."` on any element and `name="..."` on <a> in inline HTML
  *   count as ids too.
  *
- * Emoji headings are the usual trap: "# 🛠\uFE0F Tools" slugs to "\uFE0F-tools"
+ * Emoji headings are the usual trap: "# \u{1F6E0}\uFE0F Tools" slugs to "\uFE0F-tools"
  * (the invisible variation selector survives), so a hand-written TOC link to
  * "#-tools" goes nowhere. The error shows the closest real ids with non-ASCII
  * characters escaped so the difference is visible.
@@ -187,7 +187,7 @@ export function escapeId(id) {
 /** The bypass-file entry for a link, as an ASCII JSON string ready to paste. */
 export function bypassKey(rel, fragment) {
   return JSON.stringify(`${rel}#${fragment}`).replace(
-    /[\u0080-￿]/g,
+    /[\u0080-\uffff]/g,
     (ch) => `\\u${ch.charCodeAt(0).toString(16).padStart(4, '0')}`
   );
 }
@@ -250,19 +250,23 @@ function insertPath(slotName, contentDir) {
   return fs.existsSync(fallback) ? fallback : null;
 }
 
-/** Inserts a body pulls in through <slot name="...">, nested as deep as preprocess.mjs inlines them. */
-function insertSources(body, contentDir, depth = 0, seen = new Set()) {
-  if (depth > MAX_INSERT_DEPTH) return [];
-  const sources = [];
+/**
+ * Insert files a body pulls in through <slot name="...">. Mirrors preprocess.mjs:
+ * every slot is followed on every path until depth MAX_INSERT_DEPTH, so an insert
+ * reached deep on one path still has its own slots followed where it is shallow.
+ */
+function insertSources(body, contentDir, depth = 0, found = new Map()) {
+  if (depth > MAX_INSERT_DEPTH) return [...found.values()];
   for (const [, slotName] of body.replace(JSX_COMMENT_RE, '').matchAll(SLOT_RE)) {
     const file = insertPath(slotName, contentDir);
-    if (!file || seen.has(file)) continue;
-    seen.add(file);
-    const raw = fs.readFileSync(file, 'utf8');
-    sources.push({ rel: path.relative(contentDir, file).split(path.sep).join('/'), raw });
-    sources.push(...insertSources(matter(raw).content, contentDir, depth + 1, seen));
+    if (!file) continue;
+    if (!found.has(file)) {
+      const rel = path.relative(contentDir, file).split(path.sep).join('/');
+      found.set(file, { rel, raw: fs.readFileSync(file, 'utf8') });
+    }
+    insertSources(matter(found.get(file).raw).content, contentDir, depth + 1, found);
   }
-  return sources;
+  return [...found.values()];
 }
 
 function brokenLinks(links, ids, extra) {
@@ -323,49 +327,59 @@ export function loadBypass(contentDir = DEFAULT_CONTENT_DIR) {
   return new Set(entries);
 }
 
-async function main() {
-  const flag = process.argv.indexOf('--content');
-  const contentDir = flag > -1 ? path.resolve(process.argv[flag + 1]) : DEFAULT_CONTENT_DIR;
-  const bypassed = loadBypass(contentDir);
-
-  const pages = await glob('**/index.md', {
-    cwd: contentDir,
-    ignore: ['**/node_modules/**', '0examples/**'],
-  });
-
+/** Broken links over the given pages, minus bypassed ones; an insert yields one row per including page. */
+export async function collectProblems(pages, contentDir, bypassed) {
   const problems = [];
   const reported = new Set();
-  for (const rel of pages.sort()) {
+  for (const rel of [...pages].sort()) {
     for (const problem of await checkFile(rel, contentDir)) {
       const key = `${problem.rel}#${problem.fragment}`;
-      const seenKey = `${key}@${problem.line}@${problem.page ?? ''}`;
-      if (bypassed.has(key) || reported.has(seenKey)) continue;
-      reported.add(seenKey);
+      const rowKey = `${key}@${problem.line}@${problem.page ?? ''}`;
+      if (bypassed.has(key) || reported.has(rowKey)) continue;
+      reported.add(rowKey);
       problems.push(problem);
     }
   }
+  return problems;
+}
 
+/** Report text and exit code for a list of problems. */
+export function formatReport(problems) {
   if (problems.length === 0) {
-    console.log('All same-page fragment links resolve. ✓');
-    process.exit(0);
+    return { exitCode: 0, text: 'All same-page fragment links resolve. \u2713' };
   }
-
-  console.error(`Found ${problems.length} same-page link(s) with no matching id:\n`);
-  for (const { rel, page, line, fragment, closest } of problems) {
+  const rows = problems.flatMap(({ rel, page, line, fragment, closest }) => {
     const hint = closest.length
       ? `closest id: ${closest.map((id) => `#${escapeId(id)}`).join(', ')}`
       : 'page has no ids';
     const via = page ? ` on content/${page}` : '';
-    console.error(`  content/${rel}:${line}  #${escapeId(fragment)}${via}  (${hint})`);
-    console.error(`    bypass key: ${bypassKey(rel, fragment)}`);
-  }
-  console.error(`
+    return [
+      `  content/${rel}:${line}  #${escapeId(fragment)}${via}  (${hint})`,
+      `    bypass key: ${bypassKey(rel, fragment)}`,
+    ];
+  });
+  const text = `Found ${problems.length} same-page link(s) with no matching id:
+
+${rows.join('\n')}
+
 Heading ids are github-slugger slugs of the heading text: lowercase, spaces to
 "-", punctuation dropped, and duplicates numbered -1, -2. Emoji keep invisible
 characters such as \\uFE0F in the id. Point the link at an existing id, or add
 an explicit id to the target. To keep a link as is, add its bypass key to
-content/${BYPASS_FILE} (a JSON array).`);
-  process.exit(1);
+content/${BYPASS_FILE} (a JSON array).`;
+  return { exitCode: 1, text };
+}
+
+async function main() {
+  const flag = process.argv.indexOf('--content');
+  const contentDir = flag > -1 ? path.resolve(process.argv[flag + 1]) : DEFAULT_CONTENT_DIR;
+  const pages = await glob('**/index.md', {
+    cwd: contentDir,
+    ignore: ['**/node_modules/**', '0examples/**'],
+  });
+  const { exitCode, text } = formatReport(await collectProblems(pages, contentDir, loadBypass(contentDir)));
+  (exitCode === 0 ? console.log : console.error)(text);
+  process.exit(exitCode);
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(fs.realpathSync(process.argv[1])).href) {
