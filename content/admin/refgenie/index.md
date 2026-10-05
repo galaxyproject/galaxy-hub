@@ -89,7 +89,7 @@ This configuration will allow use of CVMFS-based refgenie assets, but not the re
 
 ## Local refgenie instance and CVMFS-based regenie
 
-First, follow the directions above for configuring a [local refgenie server in Galaxy](#refgenie-for-local-instances). The global refgenie_config_file will be configured to point to your local refgenie installation. This is required for proper usage of the Data Manager tool.
+First, follow the directions above for configuring a [local refgenie server in Galaxy](#refgenie-for-local-instances-with-local-refgenie). The global refgenie_config_file will be configured to point to your local refgenie installation. This is required for proper usage of the Data Manager tool.
 
 Next, follow directions on installing and configuring CVMFS available [here](../reference-data-repo/#mounting-reference-data-with-cernvm-fs-cvmfs).
 
