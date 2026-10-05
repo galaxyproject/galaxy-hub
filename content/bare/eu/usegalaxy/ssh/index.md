@@ -21,13 +21,13 @@ Whether you are analysing texts, images, audio data or other media, the **SSH** 
 
 Are you new to Galaxy or returning after a long time and looking for help getting started? Take <a href="https://ssh.usegalaxy.eu/tours/core.galaxy_ui" target="_top">a guided tour</a> through Galaxy's user interface.
 
-# ᯓ➤ Join the SSH Galaxy Community
+# 🤝 Join the SSH Galaxy Community
 
 Anybody interested in Arts, Humanities and Social Sciences in Galaxy is welcome to join our interest group!
 
 - Join the discussion and get the latest updates! [Matrix Chat](https://matrix.to/#/#galaxyproject-digital-humanities:matrix.org)
 
-# 🛠️ Tools
+# 🧰 Tools
 
 Galaxy Europe offers several thousand tools! To customise them to your needs, you can use the **My Tools** panel on the left-hand side. To see an overview of all tools installed on the platform, click on the button **Discover Tools**. A new page opens in the middle panel. There you can search for tool names, tags and much more.
 If you do not know where to start, you can click on <a href="https://ssh.usegalaxy.eu/tools/list?tag=Humanities" target="_blank">this link</a> to get an example of tools that are relevant in the SSH domain. You will see a list of tools, with the tag "Humanities" below. Click on the star to favourite this tag and see all tools tagged with "Humanities" in your own tool panel on the left.
@@ -62,7 +62,7 @@ Not sure where to start?
 
 Or check out our [blog posts](/tags/humanities/) for more inspiration!
 
-# 🏛️ Upcoming events
+# 📅 Upcoming events
 
 The Galaxy community organises regularly scheduled training events. You can check the [event page](/events/) for the latest events.
 
