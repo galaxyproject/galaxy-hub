@@ -20,7 +20,7 @@ This event will help you with integrating, analyzing, and sharing the diverse an
 
 [Registration](/events/gcc2012/register/) is very affordable this year, especially for post-docs and students. You can can save an additional 40% by registering on or before June 11.  
 
-Conference [lodging](/events/gcc2012/logistics/#lodging) can also be booked.  Low-cost rooms have been reserved [on the UIC campus](/events/gcc2012/logistics/#james-stuckel-towers).  You can also stay at the [official conference hotel](/events/gcc2012/logistics/#crowne-plaza-chicago-metro-downtown), at a substantial discount arranged for conference attendees.  There are a limited rooms available in both, and you are encouraged to [register early](/events/gcc2012/register/), if you would like to stay in either.
+Conference [lodging](/events/gcc2012/logistics/#lodging) can also be booked.  Low-cost rooms have been reserved [on the UIC campus](/events/gcc2012/logistics/#james-stukel-towers).  You can also stay at the [official conference hotel](/events/gcc2012/logistics/#crowne-plaza-chicago-metro-downtown), at a substantial discount arranged for conference attendees.  There are a limited rooms available in both, and you are encouraged to [register early](/events/gcc2012/register/), if you would like to stay in either.
 
 Finally, [abstract submission](/events/gcc2012/abstracts/) is also open, from now through April 16.  [Abstracts](/events/gcc2012/abstracts/) on any topic of interest to the Galaxy community are strongly encouraged.  See the [Abstracts](/events/gcc2012/abstracts/) page for details.
 

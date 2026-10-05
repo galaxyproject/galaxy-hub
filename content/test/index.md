@@ -246,4 +246,4 @@ New Admin features have been added and more are planned for in the near term. De
 
 ## Quotas at the Galaxy Main public instance
 
-See [Main](/main/#quotas).
+See [Main](/main/#user-data-and-job-quotas).

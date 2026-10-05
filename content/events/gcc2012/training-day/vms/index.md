@@ -4,13 +4,13 @@
 
 If you are planning on attending any of these [GCC2012](/events/gcc2012/) [Training Day](/events/gcc2012/training-day/) workshops, then you will need shell admin access to a system with Galaxy and/or a Galaxy Tool Shed already installed and running.
 
-* [WS1: Integrating Tools & Data Sources](/events/gcc2012/training-day/vms/#ws1)
-* [WS6: Galaxy API](/events/gcc2012/training-day/vms/#ws6)
-* [WS7: Galaxy Tool Shed](/events/gcc2012/training-day/vms/#ws7)
+* [WS1: Integrating Tools & Data Sources](/events/gcc2012/training-day/vms/#ws1-ws6-ws7-vm-only)
+* [WS6: Galaxy API](/events/gcc2012/training-day/vms/#ws1-ws6-ws7-vm-only)
+* [WS7: Galaxy Tool Shed](/events/gcc2012/training-day/vms/#ws1-ws6-ws7-vm-only)
 
 If you are attending this workshop
 
-* [WS5: Installing Your Own Galaxy](/events/gcc2012/training-day/vms/#ws5)
+* [WS5: Installing Your Own Galaxy](/events/gcc2012/training-day/vms/#ws5-vm-only)
 
 you will need shell admin access to a system that has Galaxy's prerequisites installed, but not Galaxy itself.
 
@@ -46,7 +46,7 @@ These VMs will be available for download in the days just before the conference.
 
 This VM is for:
 
-* [WS5: Installing Your Own Galaxy](/events/gcc2012/training-day/vms/#ws5)
+* [WS5: Installing Your Own Galaxy](/events/gcc2012/training-day/vms/#ws5-vm-only)
 
 This image will have all prerequisites for Galaxy, but not a running Galaxy instance.
 
@@ -56,9 +56,9 @@ This image will have all prerequisites for Galaxy, but not a running Galaxy inst
 
 This VM image is for these workshops
 
-* [WS1: Integrating Tools & Data Sources](/events/gcc2012/training-day/vms/#ws1)
-* [WS6: Galaxy API](/events/gcc2012/training-day/vms/#ws6)
-* [WS7: Galaxy Tool Shed](/events/gcc2012/training-day/vms/#ws7)
+* [WS1: Integrating Tools & Data Sources](/events/gcc2012/training-day/vms/#ws1-ws6-ws7-vm-only)
+* [WS6: Galaxy API](/events/gcc2012/training-day/vms/#ws1-ws6-ws7-vm-only)
+* [WS7: Galaxy Tool Shed](/events/gcc2012/training-day/vms/#ws1-ws6-ws7-vm-only)
 
 This image will have a configured and running Galaxy instance.
 

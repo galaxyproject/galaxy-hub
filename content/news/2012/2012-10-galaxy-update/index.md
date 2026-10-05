@@ -14,7 +14,7 @@ The [October 2012 Galaxy Update is now available](/galaxy-updates/2012-10/).
 * [CBIIT's new public Galaxy Server](/galaxy-updates/2012-10/#new-public-server-cbiit)
 * [Open Positions](/galaxy-updates/2012-10/#whos-hiring) at three different institutions
 * [Tool Shed Contributions](/galaxy-updates/2012-10/#tool-shed-contributions)
-* [New Distributions](/galaxy-updates/2012-10/#new-distributionss)
+* [New Distributions](/galaxy-updates/2012-10/#new-distributions)
 * [Other News](/galaxy-updates/2012-10/#other-news)
 
 If you have anything you would like to see in the November *[Galaxy Update](/galaxy-updates/)*, please let me know.
