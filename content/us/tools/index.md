@@ -2,7 +2,7 @@
 # THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
 # To update, run: python3 scripts/update-tools.py --server https://usegalaxy.org --name "Galaxy US" --output content/us/tools/index.md
 title: Galaxy US Tools
-description: "2366 tools and counting"
+description: "2370 tools and counting"
 ---
 
 
@@ -506,11 +506,13 @@ description: "2366 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=tooldistillator" target="_top" title="Extract information from output files of specific tools and expose it as JSON files">ToolDistillator</a>
 <a href="https://usegalaxy.org/root?tool_id=tooldistillator_summarize" target="_top" title="Aggregate several JSON reports from ToolDistillator">ToolDistillator Summarize</a>
 <a href="https://usegalaxy.org/root?tool_id=unzip" target="_top" title="Unzip a file">Unzip</a>
+<a href="https://usegalaxy.org/root?tool_id=ucsc_axtsort" target="_top" title=": sort AXT alignments by target position">axtSort</a>
 <a href="https://usegalaxy.org/root?tool_id=ucsc_axtomaf" target="_top" title="Convert dataset from axt to MAF format">axtToMaf</a>
 <a href="https://usegalaxy.org/root?tool_id=bax2bam" target="_top" title="converts PacBio basecall format (bax.h5) into BAM">bax2bam</a>
 <a href="https://usegalaxy.org/root?tool_id=bed_to_protein_map" target="_top" title="genomic location of proteins for MVP">bed to protein map</a>
 <a href="https://usegalaxy.org/root?tool_id=fatovcf" target="_top" title="Convert a FASTA alignment file to Variant Call Format (VCF) single-nucleotide diffs">faToVcf</a>
 <a href="https://usegalaxy.org/root?tool_id=gffread" target="_top" title="Filters and/or converts GFF3/GTF2 records">gffread</a>
+<a href="https://usegalaxy.org/root?tool_id=ucsc_lavtopsl" target="_top" title=": convert lastz LAV alignments to PSL">lavToPsl</a>
 <a href="https://usegalaxy.org/root?tool_id=maftoaxt" target="_top" title="Convert file from MAF to axt format">mafToAxt</a>
 <a href="https://usegalaxy.org/root?tool_id=msconvert" target="_top" title="Convert and/or filter mass spectrometry files">msconvert</a>
 <a href="https://usegalaxy.org/root?tool_id=mz_to_sqlite" target="_top" title="Extract mzIdentML and associated proteomics datasets into a SQLite DB">mz to sqlite</a>
@@ -791,6 +793,7 @@ description: "2366 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=batched_lastz" target="_top" title=": align batches of sequences">Batched LASTZ</a>
 <a href="https://usegalaxy.org/root?tool_id=bowtie2" target="_top" title="- map reads against reference genome">Bowtie2</a>
 <a href="https://usegalaxy.org/root?tool_id=growler_lastz" target="_top" title=": gapped extension of one chromosome pair">Growler LASTZ</a>
+<a href="https://usegalaxy.org/root?tool_id=growler_lastz_lav" target="_top" title="gapped extension of one KegAlign pair file, one target per lastz call, LAV out">Growler LASTZ (LAV)</a>
 <a href="https://usegalaxy.org/root?tool_id=kegalign" target="_top" title="A Scalable GPU System for Pairwise Whole Genome Alignments based on LASTZ&#x27;s seed-filter-extend paradigm">KegAlign</a>
 <a href="https://usegalaxy.org/root?tool_id=lastz_wrapper_2" target="_top" title="align long sequences">LASTZ</a>
 <a href="https://usegalaxy.org/root?tool_id=lastz_d_wrapper" target="_top" title="estimate substitution scores matrix">LASTZ_D</a>
@@ -1275,6 +1278,7 @@ description: "2366 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=ludwig_visualize" target="_top" title="analyzes results and shows in plots">Generic Learner Visualize</a>
 <a href="https://usegalaxy.org/root?tool_id=sklearn_searchcv" target="_top" title="performs hyperparameter optimization using various SearchCVs">Hyperparameter Search</a>
 <a href="https://usegalaxy.org/root?tool_id=image_learner" target="_top" title="trains and evaluates an image classification/regression model">Image Learner</a>
+<a href="https://usegalaxy.org/root?tool_id=sklearn_label_encoder" target="_top" title="Encode target labels with value between 0 and n_classes-1">Label encoder</a>
 <a href="https://usegalaxy.org/root?tool_id=sklearn_lightgbm" target="_top" title="- train and apply LightGBM models">LightGBM</a>
 <a href="https://usegalaxy.org/root?tool_id=model_prediction" target="_top" title="predicts on new data using a preffited model">Model Prediction</a>
 <a href="https://usegalaxy.org/root?tool_id=sklearn_model_validation" target="_top" title="includes cross_validate, cross_val_predict, learning_curve, and more">Model Validation</a>
