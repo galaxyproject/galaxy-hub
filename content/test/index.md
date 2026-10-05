@@ -18,7 +18,7 @@ See [Choices](/use/#which-platform-platform-type-to-choose) for more on other ch
 
 ## Job resubmission to Stampede
 
-Certain tools will be automatically "resubmitted" to Stampede (see [Job execution on Stampede](/test/#stampede) for more about Stampede) if they initially run on Galaxy's local cluster but exceed the walltime (run time limit). The walltime differs per tool and is calculated based on previous average runtimes of that tool:
+Certain tools will be automatically "resubmitted" to Stampede (see [Job execution on Stampede](/test/#Stampede) for more about Stampede) if they initially run on Galaxy's local cluster but exceed the walltime (run time limit). The walltime differs per tool and is calculated based on previous average runtimes of that tool:
 
 <table>
   <tr>
@@ -78,7 +78,7 @@ Certain tools will be automatically "resubmitted" to Stampede (see [Job executio
 
 When a job is resubmitted you will see its state turn from running (yellow) back to gray (queued) and a blue message box will appear when the dataset is expanded explaining that the job has been resubmitted.
 
-Our goal with the Stampede resubmission system is to provide a balance to Galaxy users: to allow those with relatively small jobs to run them quickly without a wait, but still be able to support larger scale analyses with a reasonable wait but higher job concurrency limits. See the [User data and job quotas](/test/#quotas) section below for more on concurrency limits.
+Our goal with the Stampede resubmission system is to provide a balance to Galaxy users: to allow those with relatively small jobs to run them quickly without a wait, but still be able to support larger scale analyses with a reasonable wait but higher job concurrency limits. See the [User data and job quotas](/test/#Quotas) section below for more on concurrency limits.
 
 If you know (due to previous runs of the tool using similar inputs and parameters) that your job will reach the walltime on the local cluster, you should directly submit it to Stampede to avoid the time wasted running to walltime on the Galaxy cluster.
 

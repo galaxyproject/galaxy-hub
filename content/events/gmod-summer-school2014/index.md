@@ -99,7 +99,7 @@ This is free software; see the source for copying conditions. There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE
 ```
 
-See also [Using APT to get Mercurial](/events/bio-it-world2014/w14/#clone_28download29_galaxy) for an example of
+See also [Using APT to get Mercurial](/events/bio-it-world2014/w14/#clone-download-galaxy) for an example of
 installing mercurial via APT (a unix package manager).
 
 1. **As the galaxy user**, create the directory where you'd want to install Galaxy on your server (in this example, a

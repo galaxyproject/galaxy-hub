@@ -202,7 +202,7 @@ Example:
 
 * calculations were performed on a [bed](/learn/datatypes/#bed) file adding extra fields
 * the result data was then processed by the *Cut* tool to create an [interval](/learn/datatypes/#interval) dataset for further analysis
-* however, the *Cut* tool always breaks metadata column assignments, resulting in a [tabular](/learn/datatypes/#tabular_28tab_delimited29) *datatype* assignment
+* however, the *Cut* tool always breaks metadata column assignments, resulting in a [tabular](/learn/datatypes/#tabular-tab-delimited) *datatype* assignment
 * the *output connector's noodle* from the *Cut* tool will not connect with a tool that requires *interval* format, such as a tool from the group *Operate on Genomic Intervals*
 * what to do? answer = *reassign the datatype* for the output from the *Cut* tool in your workflow
 
