@@ -274,29 +274,38 @@ function closeAutocomplete() {
   }, 150);
 }
 
-function updateUrl(group: string) {
+function updateUrl(name: string, value: string | null) {
   const params = new URLSearchParams(window.location.search);
-  if (group === 'all') {
-    params.delete('platform_group');
+  if (value === null) {
+    params.delete(name);
   } else {
-    params.set('platform_group', groupToUrlSlug[group] || group);
+    params.set(name, value);
   }
   const newUrl = `${window.location.pathname}${params.toString() ? `?${params.toString()}` : ''}`;
   window.history.replaceState({}, '', newUrl);
 }
 
 onMounted(() => {
-  const param = new URLSearchParams(window.location.search).get('platform_group');
+  const urlParams = new URLSearchParams(window.location.search);
+  const param = urlParams.get('platform_group');
   if (param) {
     const group = urlSlugToGroup[param];
     if (group) {
       selectedPlatformGroup.value = group;
     }
   }
+  const scopeParam = urlParams.get('scope');
+  if (scopeParam && scopeParam !== 'all' && scopes.value.includes(scopeParam)) {
+    selectedScope.value = scopeParam;
+  }
 });
 
 watch(selectedPlatformGroup, (group) => {
-  updateUrl(group);
+  updateUrl('platform_group', group === 'all' ? null : groupToUrlSlug[group] || group);
+});
+
+watch(selectedScope, (scope) => {
+  updateUrl('scope', scope === 'all' ? null : scope);
 });
 
 watch(searchQuery, () => {
