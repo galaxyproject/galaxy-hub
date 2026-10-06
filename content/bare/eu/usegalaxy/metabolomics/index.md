@@ -13,7 +13,7 @@ During the [2019 Galaxy Community Conference](/events/gcc2019/) (GCC2019) metabo
 
 # Content
 
-- [Getting started](#getting-started)
+- [Getting started](#get-started)
 - [Training](#training)
 - [Available tools](#available-tools)
   - [Workflow4Metabolomics tools](#workflow4metabolomics-tools)
