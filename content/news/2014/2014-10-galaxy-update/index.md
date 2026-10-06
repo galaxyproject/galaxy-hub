@@ -16,8 +16,8 @@ A lot is happening in in the Galaxy in October, and a lot of good stuff happened
 * [71 new papers](/galaxy-updates/2014-10/#new-papers), including 6 featured papers
 * [Who's Hiring?](/galaxy-updates/2014-10/#whos-hiring) Lots of places, that's who
 * [Two new public Galaxy Servers](/galaxy-updates/2014-10/#new-public-servers)
-* [New Deployment Catalog and Log Board entries](/galaxy-updates/2014-10/#community-galaxy-hubs)
-* [36 new ToolShed repos](/galaxy-updates/2014-10/#toolshed-contribution)
+* [New Deployment Catalog and Log Board entries](/galaxy-updates/2014-10/#galaxy-community-hubs)
+* [36 new ToolShed repos](/galaxy-updates/2014-10/#toolshed-contributions)
 * And a [smattering of other news](/galaxy-updates/2014-10/#other-news) too
 
 Happy October!

@@ -16,7 +16,7 @@ The [June 2012 Galaxy Update](/galaxy-updates/2012-06/) is now available.  *[Gal
 * [Open Positions](/galaxy-updates/2012-06/#whos-hiring) at six different institutions
 * [Upcoming Events and Deadlines](/galaxy-updates/2012-06/#upcoming-events-and-deadlines)
     * [Early registration for ISMB/BOSC/BSI-SIG ends today](/galaxy-updates/2012-06/#upcoming-events-and-deadlines)
-* [Tool Shed Contributions](/galaxy-updates/2012-06/#toolshed-contributions)
+* [Tool Shed Contributions](/galaxy-updates/2012-06/#tool-shed-contributions)
 * [A new distribution was released last month](/galaxy-updates/2012-06/#new-distribution)
 * [GalaxyCzars survey results are in](/galaxy-updates/2012-06/#other-news)
 

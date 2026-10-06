@@ -3,7 +3,7 @@ title: "Galaxy Public Servers Usage Quotas"
 date: "2011-08-22"
 subsites: [global, us]
 ---
-User data and job [quota limits](/test/#quotas) are now implemented at the public [Galaxy Test instance](http://test.g2.bx.psu.edu):
+User data and job [quota limits](/test/#Quotas) are now implemented at the public [Galaxy Test instance](http://test.g2.bx.psu.edu):
 
 <table>
   <tr>
@@ -20,9 +20,9 @@ User data and job [quota limits](/test/#quotas) are now implemented at the publi
 </table>
 
 <br />
-See the wiki [Test](/test/#quotas) page for full details.
+See the wiki [Test](/test/#Quotas) page for full details.
 
-While [no quotas](/main/#quotas) are currently implemented at the public Galaxy [Main](/main/) instance, http://usegalaxy.org, we do ask that users stay within [certain usage limits](/main/#quotas).
+While [no quotas](/main/#user-data-and-job-quotas) are currently implemented at the public Galaxy [Main](/main/) instance, http://usegalaxy.org, we do ask that users stay within [certain usage limits](/main/#user-data-and-job-quotas).
 
 <table>
   <tr>

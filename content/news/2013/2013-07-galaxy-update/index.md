@@ -16,7 +16,7 @@ The [July 2013 Galaxy Update is now available](/galaxy-updates/2013-07/).
 * [Galaxy @ ISMB](/galaxy-updates/2013-07/#ismb--eccb--bosc--ms-sig-2013)
 * [Other Upcoming Events](/galaxy-updates/2013-07/#other-upcoming-events)
 * [New distributions](/galaxy-updates/2013-07/#galaxy-distributions)
-* [Tool Shed Contributions](/galaxy-updates/2013-07/#toolshed-contributions)
+* [Tool Shed Contributions](/galaxy-updates/2013-07/#tool-shed-contributions)
 * [Other News](/galaxy-updates/2013-07/#other-news)
 
 If you have anything you would like to see in the August *[Galaxy Update](/galaxy-updates/)*, please let us know.

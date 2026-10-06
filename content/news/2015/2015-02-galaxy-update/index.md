@@ -24,7 +24,7 @@ tags: [newsletter]
 
 [New Releases](/galaxy-updates/2015-02/#new-releases) and [ToolShed Contributions](/galaxy-updates/2015-02/#toolshed-contributions):
 
-* [New Galaxy Distribution](/galaxy-updates/2015-02/#galaxy-20150113-distribution) *fixes security flaws and adds IPython integration*
+* [New Galaxy Distribution](/galaxy-updates/2015-02/#galaxy-2015-01-13-distribution) *fixes security flaws and adds IPython integration*
 * [Planemo 0.2.0 released](/galaxy-updates/2015-02/#planemo-020)
 * [Over 30 new and updated ToolShed repositories from 13 contributors](/galaxy-updates/2015-02/#toolshed-contributions)
 

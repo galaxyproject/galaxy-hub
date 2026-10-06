@@ -144,7 +144,7 @@ Galaxy makes it easy to perform analysis interactively through the web, on arbit
 
 <br />
 
-*Interested in being a prominent part of one of the fastest growing communities in bioinformatics?  Become a [meeting sponsor](/events/gcc2014/sponsor-exhibit/) or [exhibitor](/events/gcc2014/sponsor-exhibit/#exhibitor).*
+*Interested in being a prominent part of one of the fastest growing communities in bioinformatics?  Become a [meeting sponsor](/events/gcc2014/sponsor-exhibit/) or [exhibitor](/events/gcc2014/sponsor-exhibit/#exhibitors).*
 
 <br />
 
