@@ -8,7 +8,6 @@ export const europeSites = {
   freiburg: 'Freiburg',
   ifb: 'ELIXIR France/IFB',
   'elixir-it': 'ELIXIR Italy',
-  genouest: 'GenOuest',
   cz: 'Czech Republic',
 } as const;
 

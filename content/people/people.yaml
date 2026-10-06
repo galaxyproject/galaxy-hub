@@ -15,7 +15,7 @@ freiburg:
         bio: |
           I'm a bioinformatician and researcher with interested in everything
           related to reproducible research with Galaxy, Conda & Containers.
-          
+
     HenrieBe:
         name: Henriette Bertemes
         title: Dr. rer. nat., Project manager
@@ -26,7 +26,7 @@ freiburg:
         matrix: "@henriebe:matrix.org"
         linkedin: henriette-bertemes-7a61422ab
         orcid: 0009-0004-9063-6420
-          
+
     erxleben:
         name: Anika Erxleben-Eggenhofer
         orcid: 0000-0002-7427-6478
@@ -147,7 +147,7 @@ freiburg:
         name: Jan Leendertse
         title: M.A., Certification ISO 27001, Organisation
         email: jan.leendertse@rz.uni-freiburg.de
-        phone: +49(0) 761 - 203 4646    
+        phone: +49(0) 761 - 203 4646
         orcid: 0000-0001-5676-493X
         website: http://leendertse.eu
         linkedin: JanLeendertse
@@ -347,39 +347,7 @@ freiburg:
         orcid: 0000-0002-9772-443X
         twitter: IvoLeist
         linkedin: ivo-leist
-        bio: Doing now what (life) scientists need next. 
-
-genouest:
-    OlivierCollin:
-        name: Olivier Collin
-        title: GenOuest team leader
-        email: olivier.collin@irisa.fr
-        orcid: 0000-0002-8959-8402
-        alumni: true
-
-    osallou:
-        name: Olivier Sallou
-        title: Development engineer leader
-        orcid: 0000-0003-3561-5657
-        email: olivier.sallou@irisa.fr
-        alumni: true
-
-    abretaud:
-        name: Anthony Bretaudeau
-        title: CNRS Engineer, GenOuest team leader
-        email: anthony.bretaudeau@irisa.fr
-        mastodon: "genomic.social/@abretaud"
-        matrix: "@abretaud:matrix.org"
-        orcid: 0000-0003-0914-2470
-        galaxyadmin: true
-    stephanierobin:
-        name: Stéphanie Robin
-        title: INRAE Engineer, BIPAA team member
-        email: stephanie.robin@inrae.fr
-    mboudet:
-        name: Matéo Boudet
-        title: INRAE Engineer
-        email: mateo.boudet@inrae.fr
+        bio: Doing now what (life) scientists need next.
 
 elixir-it:
     Federico77z:
@@ -415,7 +383,7 @@ elixir-it:
 ifb:
     abretaud:
         name: Anthony Bretaudeau
-        title: CNRS Engineer, GenOuest team leader
+        title: CNRS Engineer, GenOuest team leader, UseGalaxy.fr co-lead
         email: anthony.bretaudeau@irisa.fr
         mastodon: "genomic.social/@abretaud"
         matrix: "@abretaud:matrix.org"
@@ -426,6 +394,7 @@ ifb:
         title: |
           Engineer in scientific computing - Sorbonne Université/CNRS / Station Biologique de Roscoff / ABiMS &
           Co-leader of the IFB NNCR Cluster
+          UseGalaxy.fr co-lead
         email: lecorguille@sb-roscoff.fr
         location_link: "https://goo.gl/maps/UxnJWUmf4hKpZ6ii8"
         twitter: glecorguille
@@ -465,6 +434,46 @@ ifb:
         google-scholar: q5GpTJYAAAAJ
         researchgate: Berenice_Batut
         galaxyadmin: true
+
+    stephanierobin:
+        name: Stéphanie Robin
+        title: INRAE Engineer, BIPAA team member, GenOuest team member
+        email: stephanie.robin@inrae.fr
+        orcid: 0000-0001-7379-9173
+
+    mboudet:
+        name: Matéo Boudet
+        title: INRAE Engineer, GenOuest team member
+        email: mateo.boudet@inrae.fr
+        orcid: 0000-0002-7028-7620
+
+    clsiguret:
+        name: Cléa Siguret
+        title: Research Engineer - IFB / AuBi
+        matrix: "@clsiguret:matrix.org"
+        linkedin: cléa-siguret-58423b107
+        orcid: 0009-0005-6140-0379
+        alumni: true
+
+    merciereva:
+        name: Eva Mercier
+        title: Engineer, EuroScienceGateway (WP3, Pulsar deployment) - CNRS / GenOuest
+        matrix: "@eva_mercier:matrix.org"
+        alumni: true
+
+    OlivierCollin:
+        name: Olivier Collin
+        title: GenOuest team leader
+        email: olivier.collin@irisa.fr
+        orcid: 0000-0002-8959-8402
+        alumni: true
+
+    osallou:
+        name: Olivier Sallou
+        title: Development engineer leader
+        orcid: 0000-0003-3561-5657
+        email: olivier.sallou@irisa.fr
+        alumni: true
 
 jhu:
     mschatz:
@@ -718,7 +727,7 @@ cz:
         location_link: "https://osm.org/go/0Jv185Y5r--"
         orcid: 0009-0004-9862-511X
         bio: |
-          I'm software engineer with specialisation in compiler design and fundaments of computer science. 
+          I'm software engineer with specialisation in compiler design and fundaments of computer science.
           I work in [CESNET](https://www.cesnet.cz/en) located in Brno, Czech Republic.
 
     martindemko:
@@ -734,7 +743,7 @@ cz:
         orcid: 0009-0000-3679-738X
         galaxyadmin: true
         bio: |
-            I'm a computer scientist with a special interest in biology. I work as a bioinformatician 
+            I'm a computer scientist with a special interest in biology. I work as a bioinformatician
             in [the Bioinformatics Core Facility](https://www.ceitec.eu/bioinformatics-core-facility/cf284)
             at the Central European Institute of Technology, Masaryk University, as well as a Galaxy and UNIX systems administrator
             at [CESNET](https://www.cesnet.cz/en), both located in Brno, Czech Republic. I studied the field of computer science
