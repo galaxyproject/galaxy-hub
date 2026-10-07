@@ -8,7 +8,7 @@ hide_tease: false
 tags: 
     - imaging
     - training
-    - NFDI4BIOIMAGE
+    - nfdi
 contributions:
   authorship:
     - rmassei
@@ -18,7 +18,7 @@ contributions:
 
 The NFDI4Microbiota's annual conference [Boosting Biodata Bootcamp (B3-Conference)](https://events.hifis.net/event/3702/overview) took place on  September 15–17, 2026, at RWTH Aachen University. The B3-Conference has been organized together with other consortia from the BioData Interest Group: FAIRagro, DataPLANT, NFDI4Biodiversity, and NFDI4BIOIMAGE. 
 
-![B3-logo](B3-banner.png)
+![B3-logo](b3-banner.png)
 
 Main goal of the conference was to bring together the biological research community's skills in research data management and data analysis while providing inspiring insights into how these contribute to high-quality scientific research.
 
