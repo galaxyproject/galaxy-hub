@@ -1,7 +1,7 @@
 ---
 title: "Galaxy @ BioHackathon-Europe 2022"
 date: '2022-11-07'
-days: 5
+end: '2022-11-11'
 tease: "BioHackathon activities are driven by practical sessions where people gather, discuss, and implement ideas and projects during intensive and productive coding sessions"
 continent: EU
 location:

@@ -41,7 +41,7 @@ function check(dir, depth = 0, violations = []) {
   for (const entry of entries) {
     if (entry.startsWith('.')) continue;
     const full = join(dir, entry);
-    let isDir = false;
+    let isDir;
     try {
       isDir = statSync(full).isDirectory();
     } catch {

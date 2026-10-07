@@ -1,7 +1,7 @@
 ---
 title: "Initiation aux gestionnaires de workflow South Green (Galaxy et TOGGLe) et à l’application Gigwa"
 date: '2019-04-15'
-days: 2
+end: '2019-04-16'
 tease: ""
 continent: EU
 location:

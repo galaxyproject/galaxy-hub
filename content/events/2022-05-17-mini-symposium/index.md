@@ -8,7 +8,7 @@ contacts:
 location:
   name: Montpellier, France
 external_url: https://nekrut.github.io/msmg
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 ---
 

@@ -34,7 +34,6 @@ export interface SidebarNavigation {
 const DEFAULT_TOP_LINKS: SidebarLink[] = [
   { label: 'News', href: '/news/' },
   { label: 'Events', href: '/events/' },
-  { label: 'Orbit', href: '/tools/orbit/' },
 ];
 
 const DEFAULT_SECTIONS: SidebarSection[] = [
@@ -80,6 +79,7 @@ const DEFAULT_SECTIONS: SidebarSection[] = [
       { label: 'Monkeypox', href: '/projects/mpxv/' },
       { label: 'VGP', href: '/projects/vgp/' },
       { label: 'BRC Analytics', href: 'https://brc-analytics.org/', external: true },
+      { label: 'Agentic Galaxy', href: '/agents/' },
     ],
   },
 ];
@@ -169,4 +169,14 @@ export function getDefaultSidebarNavigation(): SidebarNavigation {
     sections: DEFAULT_SECTIONS,
     bottomLinks: DEFAULT_BOTTOM_LINKS,
   };
+}
+
+function withTrailingSlash(path: string): string {
+  return path.endsWith('/') ? path : `${path}/`;
+}
+
+/** True when an internal nav link points at exactly the page being viewed (not a parent section). */
+export function isCurrentPage(href: string, currentPath: string | undefined): boolean {
+  if (!currentPath || !href.startsWith('/') || href.includes('#')) return false;
+  return withTrailingSlash(href.split('?')[0]) === withTrailingSlash(currentPath);
 }

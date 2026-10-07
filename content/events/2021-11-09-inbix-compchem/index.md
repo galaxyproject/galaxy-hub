@@ -6,7 +6,7 @@ tags: [talk]
 contacts:
 - name: CSIR-North East Institute of Science & Technology
 external_url: http://neist.res.in/inbix2021/workshop.html
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 ---
 

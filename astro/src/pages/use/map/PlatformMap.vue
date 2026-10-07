@@ -84,7 +84,6 @@ export default {
   props: {
     platforms: {
       type: Array,
-      required: true,
       default: () => [],
     },
   },

@@ -16,6 +16,7 @@ import matter from 'gray-matter';
 import { glob } from 'glob';
 import { processMarkdown, processFrontmatter } from './markdown-processor.mjs';
 import { normalizeSlugSegment, normalizeSlug } from './slug-utils.mjs';
+import { isFutureDate } from '../utils/publish-date.mjs';
 export { normalizeSlugSegment, normalizeSlug };
 
 const JSX_COMMENT_RE = /\{\/\*[\s\S]*?\*\/\}/g;
@@ -29,6 +30,7 @@ const PUBLIC_IMAGES_DIR = path.join(ASTRO_ROOT, 'public/images');
 const PUBLIC_ASSETS_DIR = path.join(ASTRO_ROOT, 'public/assets');
 const PUBLIC_MEDIA_DIR = path.join(ASTRO_ROOT, 'public/media');
 const NAVBAR_DEST_DIR = path.join(ASTRO_CONTENT_DIR, 'navbars');
+const DID_YOU_KNOW_DEST_DIR = path.join(ASTRO_CONTENT_DIR, 'did-you-know');
 
 /**
  * Shared glob ignore patterns for content file discovery.
@@ -44,7 +46,7 @@ async function copyAssets(sourceDir, slug) {
   const assetExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.svg', '.webp', '.pdf', '.mp4', '.webm'];
 
   async function walk(current, relative = '') {
-    let entries = [];
+    let entries;
     try {
       entries = await fs.promises.readdir(current, { withFileTypes: true });
     } catch {
@@ -174,26 +176,42 @@ function rewriteSrc(src, slug) {
 /**
  * Shift heading levels down by one when content has multiple h1 headings.
  * h1→h2, h2→h3, …, h5→h6. Headings already at h6 stay at h6.
- * Skips headings inside fenced code blocks.
+ * Lines inside fenced code blocks are neither counted nor shifted.
  */
 function shiftHeadings(content) {
-  const h1Count = (content.match(/^# (?!#)/gm) || []).length;
+  const lines = content.split('\n');
+  const inFence = fencedCodeLines(content.split(/\r?\n/));
+  const h1Count = lines.filter((line, i) => !inFence[i] && /^# (?!#)/.test(line)).length;
   if (h1Count < 2) return content;
 
-  let inFence = false;
-  return content
-    .split('\n')
-    .map((line) => {
-      if (/^(`{3,}|~{3,})/.test(line)) {
-        inFence = !inFence;
-      }
-      if (inFence) return line;
+  return lines
+    .map((line, i) => {
+      if (inFence[i]) return line;
       return line.replace(/^(#{1,6})( )/, (match, hashes, space) => {
         if (hashes.length >= 6) return match;
         return '#' + hashes + space;
       });
     })
     .join('\n');
+}
+
+/**
+ * Flag each line that belongs to a fenced code block, fence lines included.
+ * A fence closes only on a line of the same character at least as long as its opener.
+ */
+function fencedCodeLines(lines) {
+  let fence = null;
+  return lines.map((line) => {
+    if (fence) {
+      const close = line.match(/^ {0,3}(`{3,}|~{3,})[ \t]*$/);
+      if (close && close[1][0] === fence[0] && close[1].length >= fence.length) fence = null;
+      return true;
+    }
+    // A backtick fence's info string can't contain backticks, so ```x``` is inline code
+    const open = line.match(/^ {0,3}(?:(`{3,})[^`]*|(~{3,}).*)$/);
+    if (open) fence = open[1] || open[2];
+    return Boolean(open);
+  });
 }
 
 /**
@@ -434,6 +452,13 @@ function inlineInserts(content, depth = 0, contentDir = CONTENT_DIR) {
     if (resolved.hasComponents) {
       hasComponents = true;
     }
+    // Drop empty inserts entirely. An empty wrapper still counts as an element
+    // child, so it would steal `:first-child` from the real leading content and
+    // stop Tailwind Typography's `.prose > :first-child { margin-top: 0 }` from
+    // applying — leaving a phantom gap at the top of the page.
+    if (resolved.content.trim() === '') {
+      return '';
+    }
     // Wrap in a div with data-name so layout CSS selectors can target inserts
     return `<div class="insert" data-name="${slotName}">\n${resolved.content}\n</div>`;
   });
@@ -485,6 +510,13 @@ async function processMarkdownFile(filePath, { contentDir = CONTENT_DIR, outputD
   const collection = getContentCollection(filePath, contentDir);
   const relativePath = path.relative(contentDir, filePath);
   const dirname = path.dirname(relativePath);
+
+  // Hold back future-dated news (and its assets) until a build on or after its
+  // date, so no listing, feed or search entry links to a page that isn't built.
+  if (collection === 'news' && isFutureDate(frontmatter.date)) {
+    console.log(`  Skipping future-dated news: ${relativePath}`);
+    return null;
+  }
 
   // Create slug from path
   let naturalSlug;
@@ -616,7 +648,29 @@ async function processNavbar(filePath) {
 }
 
 /**
+ * Process "Did you know" item YAML files from content/did-you-know/**.
+ * Files are copied verbatim (preserving relative path) into src/content/did-you-know/.
+ */
+async function processDidYouKnow(filePath) {
+  const relativePath = path.relative(CONTENT_DIR, filePath);
+  const relativeWithin = relativePath.replace(/^did-you-know\//, '');
+  const destPath = path.join(DID_YOU_KNOW_DEST_DIR, relativeWithin);
+
+  await fs.promises.mkdir(path.dirname(destPath), { recursive: true });
+  await fs.promises.copyFile(filePath, destPath);
+
+  return { source: filePath, destination: destPath, collection: 'did-you-know' };
+}
+
+/** True when a content file lives under the did-you-know/ directory. */
+function isDidYouKnowFile(filePath) {
+  const relativePath = path.relative(CONTENT_DIR, filePath).replace(/\\/g, '/');
+  return relativePath.startsWith('did-you-know/');
+}
+
+/**
  * Process items in batches to avoid file table overflow
+ * Items whose processFn returns nothing (skipped files) are left out of results.
  */
 async function processBatch(items, processFn, batchSize = 50) {
   const results = [];
@@ -629,7 +683,7 @@ async function processBatch(items, processFn, batchSize = 50) {
 
     for (const result of batchResults) {
       if (result.status === 'fulfilled') {
-        results.push(result.value);
+        if (result.value) results.push(result.value);
         processed++;
       } else {
         errors++;
@@ -679,10 +733,19 @@ export async function preprocessContent(options = {}) {
 
   // Only process YAML files that are true datasets, not platform-specific ones
   // Platform-specific files (in use/*/) would overwrite each other since they have same basenames
-  const yamlFiles = await glob('**/*.{yml,yaml}', {
+  // Exclude did-you-know/** — those are handled by a dedicated collection below.
+  const yamlFiles = (
+    await glob('**/*.{yml,yaml}', {
+      cwd: CONTENT_DIR,
+      absolute: true,
+      ignore: CONTENT_IGNORE,
+    })
+  ).filter((file) => !isDidYouKnowFile(file));
+
+  const didYouKnowFiles = await glob('did-you-know/**/*.{yml,yaml}', {
     cwd: CONTENT_DIR,
     absolute: true,
-    ignore: CONTENT_IGNORE,
+    ignore: ['**/node_modules/**'],
   });
 
   const navbarFiles = await glob('**/navbar.{yml,yaml}', {
@@ -696,6 +759,7 @@ export async function preprocessContent(options = {}) {
   console.log(`Found ${markdownFiles.length} markdown files`);
   console.log(`Found ${nonNavbarYamlFiles.length} YAML files`);
   console.log(`Found ${navbarFiles.length} navbar files`);
+  console.log(`Found ${didYouKnowFiles.length} did-you-know files`);
   console.log('');
 
   // Process markdown files in batches
@@ -713,8 +777,11 @@ export async function preprocessContent(options = {}) {
   console.log('Processing navbar files...');
   const { results: navbarResults, errors: navbarErrors } = await processBatch(navbarFiles, processNavbar, 50);
 
-  const results = [...mdResults, ...yamlResults, ...navbarResults];
-  const errors = mdErrors + yamlErrors + navbarErrors;
+  console.log('Processing did-you-know files...');
+  const { results: dykResults, errors: dykErrors } = await processBatch(didYouKnowFiles, processDidYouKnow, 50);
+
+  const results = [...mdResults, ...yamlResults, ...navbarResults, ...dykResults];
+  const errors = mdErrors + yamlErrors + navbarErrors + dykErrors;
 
   // Check for duplicate slugs within the same collection (skip datasets — they use filenames, not slugs)
   const slugMap = new Map();
@@ -948,6 +1015,8 @@ async function watchContent() {
         }
       } else if (path.basename(fullPath) === 'navbar.yml' || path.basename(fullPath) === 'navbar.yaml') {
         await processNavbar(fullPath);
+      } else if (isDidYouKnowFile(fullPath)) {
+        await processDidYouKnow(fullPath);
       } else {
         await processDataset(fullPath);
       }
@@ -991,6 +1060,13 @@ async function watchContent() {
         const relativeDir = path.dirname(relativePath);
         const navName = relativeDir === '.' ? 'global' : relativeDir;
         const dest = path.join(NAVBAR_DEST_DIR, navName, path.basename(fullPath));
+        await fs.promises.rm(dest, { force: true });
+      } else if (isDidYouKnowFile(fullPath)) {
+        const relativeWithin = path
+          .relative(CONTENT_DIR, fullPath)
+          .replace(/\\/g, '/')
+          .replace(/^did-you-know\//, '');
+        const dest = path.join(DID_YOU_KNOW_DEST_DIR, relativeWithin);
         await fs.promises.rm(dest, { force: true });
       } else {
         const dest = path.join(ASTRO_CONTENT_DIR, 'datasets', path.basename(fullPath));
@@ -1122,4 +1198,5 @@ export {
   shiftHeadings,
   processMarkdownFile,
   destPathsForMarkdown,
+  processBatch,
 };

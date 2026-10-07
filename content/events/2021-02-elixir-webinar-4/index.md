@@ -1,7 +1,6 @@
 ---
 title: "Insights from selection analysis of complete genomes and read-level data"
 date: '2021-02-10'
-days: 1
 tease: "Open Data Infrastructures to tackle COVID-19 pandemic"
 continent: EU
 location:

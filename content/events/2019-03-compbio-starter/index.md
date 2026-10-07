@@ -1,7 +1,7 @@
 ---
 title: "Introduction into Galaxy and how to design your own analysis workflow"
 date: '2019-03-20'
-days: 3
+end: '2019-03-22'
 tease: 'A satellite event of the Gatersleben Research Conference.'
 continent: EU
 location:

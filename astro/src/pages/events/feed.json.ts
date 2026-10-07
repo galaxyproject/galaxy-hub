@@ -5,6 +5,7 @@
  */
 import { getCollection } from 'astro:content';
 import { marked } from 'marked';
+import { expandSubsites } from '../../utils/subsites';
 
 const JSONFEED_DAYS_AGO_LIMIT = 30;
 
@@ -25,28 +26,6 @@ function generateShortId(str: string): string {
     hash = hash & hash;
   }
   return Math.abs(hash).toString(16).slice(0, 8);
-}
-
-// Expand "all" subsite to full list of regional subsites
-const ALL_SUBSITES = [
-  'freiburg',
-  'pasteur',
-  'belgium',
-  'ifb',
-  'genouest',
-  'erasmusmc',
-  'elixir-it',
-  'au',
-  'eu',
-  'us',
-  'global',
-];
-
-function expandSubsites(subsites: string[]): string[] {
-  if (subsites.includes('all')) {
-    return ALL_SUBSITES;
-  }
-  return subsites;
 }
 
 function getDaysAgo(date: Date): number {
@@ -84,12 +63,7 @@ export async function GET() {
           }
         }
 
-        // Normalize subsites to array and expand "all"
-        let subsites: string[] = [];
-        if (data.subsites) {
-          subsites = Array.isArray(data.subsites) ? data.subsites : [data.subsites];
-        }
-        subsites = expandSubsites(subsites);
+        const subsites = expandSubsites(data.subsites);
 
         // Get contact info - can be string or array
         let contact = '';
@@ -105,7 +79,7 @@ export async function GET() {
         const pathSlug = slug.startsWith('events/') ? slug.slice(7) : slug;
 
         // Render markdown body to HTML
-        let content = '';
+        let content: string;
         try {
           if (event.body) {
             content = await marked.parse(event.body);
@@ -129,7 +103,7 @@ export async function GET() {
           links: [],
           date: formatDate(date),
           draft: data.draft || null,
-          days: data.days || null,
+          days: data.end ? Math.round((data.end.getTime() - date.getTime()) / (1000 * 60 * 60 * 24)) + 1 : 1,
           days_ago: daysAgo,
           path: `/events/${pathSlug}/`,
           content,

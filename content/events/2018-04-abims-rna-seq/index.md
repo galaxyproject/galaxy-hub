@@ -1,7 +1,7 @@
 ---
 title: 'Analyse RNAseq sous Galaxy'
 date: '2018-04-24'
-days: 2
+end: '2018-04-25'
 tease: "Utiliser les outils d’analyse de données RNASeq dans l’environnement Galaxy"
 continent: EU
 location:

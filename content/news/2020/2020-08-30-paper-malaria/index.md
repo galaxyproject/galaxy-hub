@@ -3,7 +3,7 @@ title: New Paper "An epigenetic map of malaria parasite development from host to
 date: '2020-08-30'
 doi: 10.1038/s41598-020-63121-5
 tags: [paper, citations]
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 ---
 

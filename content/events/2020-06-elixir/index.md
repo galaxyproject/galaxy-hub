@@ -1,7 +1,7 @@
 ---
 title: "ELIXIR Galaxy Community Meeting"
 date: '2020-06-08'
-days: 3
+end: '2020-06-10'
 tease: ""
 continent: EU
 location:

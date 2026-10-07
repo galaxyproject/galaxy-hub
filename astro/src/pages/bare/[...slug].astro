@@ -19,6 +19,7 @@ import Supporters from '../../components/mdx/Supporters.astro';
 import Contacts from '../../components/mdx/Contacts.astro';
 import Icon from '../../components/mdx/Icon.astro';
 import Insert from '../../components/mdx/Insert.astro';
+import LatestFeeds from '../../components/mdx/LatestFeeds.astro';
 
 export async function getStaticPaths() {
   const bareArticles = await getCollection('bare-articles');
@@ -52,6 +53,7 @@ const components = {
   Contacts,
   Icon,
   Insert,
+  LatestFeeds,
 };
 ---
 

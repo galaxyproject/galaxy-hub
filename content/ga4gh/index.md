@@ -13,6 +13,15 @@ The Galaxy Project implements the [GA4GH DRS API](https://www.ga4gh.org/news/drs
 
 Galaxy's DRS implementation was merged in December of 2022 as part of
 [Pull Request 13949](https://github.com/galaxyproject/galaxy/pull/13949).
+Information for administrators on configuring and verifying the DRS service (service info, organization name, and service id) can be found in the [GA4GH API Support](https://docs.galaxyproject.org/en/latest/admin/ga4gh.html) section of the Galaxy admin documentation.
+
+## Workflow Execution Service (WES) API
+
+The Galaxy Project implements the [GA4GH Workflow Execution Service (WES) API](https://ga4gh.github.io/workflow-execution-service-schemas/). WES defines a standardized, workflow-engine-agnostic protocol for submitting and monitoring workflow runs. External systems and clients can submit Galaxy workflows, poll their status, retrieve outputs and per-task logs, and cancel runs. All of this happens through the standard WES v1.0.0 wire protocol rather than Galaxy's native API. This makes Galaxy interoperable with the broader ecosystem of WES-aware workflow orchestration and analysis platforms.
+
+Galaxy's WES implementation is built on top of its existing workflow invocation machinery. A WES `run` corresponds to a Galaxy `WorkflowInvocation`, and run outputs are decorated with [DRS](#data-repository-service-drs-api) URIs so a client can hand them straight to the DRS API. The service exposes the standard endpoints under `/ga4gh/wes/v1/`: `service-info`, run submission and listing, run log and status, cancellation, and paginated task logs. A non-standard `gxworkflow://` URL scheme allows a run to reference a workflow already stored in Galaxy, instead of re-uploading the workflow body on every submission.
+
+The WES API was implemented in [Pull Request #21335](https://github.com/galaxyproject/galaxy/pull/21335) and first released with Galaxy 26.0. A client/developer walkthrough of submitting and monitoring runs over the WES API (including curl examples, state mapping, and engine parameters) is available in [Developing Against the GA4GH WES API](https://docs.galaxyproject.org/en/latest/dev/ga4gh_wes.html), and administrator configuration is covered in the [GA4GH API Support](https://docs.galaxyproject.org/en/latest/admin/ga4gh.html) section of the admin docs.
 
 ## Beacon API
 
@@ -25,8 +34,9 @@ More information about Beacon and Galaxy can be found in this
 
 Galaxy's [Pulsar project](https://pulsar.readthedocs.io/en/latest/) is a flexible service and library for executing Galaxy tools. It is capable of leveraging a [GA4GH Task Execution Service](https://www.ga4gh.org/news/ga4gh-tes-api-bringing-compatibility-to-task-execution-across-hpc-systems-the-cloud-and-beyond/) TES endpoint to efficiently execute large-scale genomic analyses. By integrating with a GA4GH TES service, Pulsar can take advantage of the standardized and interoperable APIs provided by GA4GH to execute tasks. The integration of Pulsar with GA4GH TES also helps to promote interoperability among genomics platforms and services, making it easier for researchers and clinicians to conduct comprehensive genomic analyses and advance medical research.
 
-More information about the running Galaxy jobs via TES using Pulsar can be found in [the Pulsar documentation](https://pulsar.readthedocs.io/en/latest/containers.html#ga4gh-tes). The implementation of this work was
-part of [Pull Request #302](https://github.com/galaxyproject/pulsar/pull/302).
+More information about running Galaxy jobs via TES using Pulsar can be found in [the Pulsar documentation](https://pulsar.readthedocs.io/en/latest/containers.html#ga4gh-tes). The client-side TES support in Pulsar was implemented as part of [Pull Request #302](https://github.com/galaxyproject/pulsar/pull/302).
+
+On the server side, the [TESP-API](https://github.com/CESNET/tesp-api) microservice implements the GA4GH TES standard and acts as a bridge between Galaxy, Pulsar, and the wider TES ecosystem, translating TES-compliant job submissions into Pulsar tasks. This allows Galaxy and other TES clients to submit jobs to remote compute resources in a standardized way. Read more about TESP-API in the [TESP-API announcement](/news/2025-10-06-tesp-api/).
 
 ## Tool Registry Service (TRS) API
 

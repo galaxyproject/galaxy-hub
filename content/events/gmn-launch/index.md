@@ -1,7 +1,6 @@
 ---
 title: "Launch of Galaxy Mentor Network Program"
 date: '2022-03-03'
-days: 1
 tease: 'Mentorship... for you!'
 continent: GL
 location:

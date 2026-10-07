@@ -193,6 +193,7 @@ function highlightMatch(text: string, maxLength: number = 200): string {
       <div class="w-full md:w-48">
         <select
           v-model="selectedCollection"
+          aria-label="Content type"
           class="w-full h-10 rounded-md border border-input bg-background px-3 py-2 text-sm"
         >
           <option v-for="col in collections" :key="col" :value="col">

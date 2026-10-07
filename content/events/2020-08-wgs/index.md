@@ -1,7 +1,7 @@
 ---
 title: "Whole Genome Sequencing, Bioinformatics​"
 date: "2020-08-10"
-days: 3
+end: "2020-08-12"
 tease: "Online, hands on workshop"
 continent: AS
 location:

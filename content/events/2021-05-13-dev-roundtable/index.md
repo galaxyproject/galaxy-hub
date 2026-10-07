@@ -2,7 +2,6 @@
 title: Customizeable welcome and introduction page for new Galaxy users
 date: '2021-05-13'
 tease: Giving new users some obvious guidance when they first arrive.
-days: 1
 continent: GL
 location:
   name: Galaxy Developer Roundtable, Online, Global

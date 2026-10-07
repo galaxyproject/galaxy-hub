@@ -78,6 +78,7 @@ function parseHallOfFameFlag(flag: unknown, defaultValue = true): boolean {
 function normalizeAvatar(avatar?: string): string | undefined {
   if (!avatar) return undefined;
   if (/^https?:\/\//i.test(avatar)) return avatar;
+  if (/^\/(?:images|assets)\//.test(avatar)) return avatar;
   const trimmed = avatar.replace(/^\/+/, '');
   return `${AVATAR_BASE}/${trimmed}`;
 }

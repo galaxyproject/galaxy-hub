@@ -1,7 +1,7 @@
 ---
 title: "CSIRO Galaxy Bioinformatics Portal: A user friendly GUI for bioinformatics on HPC infrasructure"
 date: "2018-05-28"
-days: 5
+end: "2018-06-01"
 tease: "Galaxy @ CSIRO"
 continent: AU
 location:

@@ -1,7 +1,6 @@
 ---
 title: "UseGalaxy.be: platform for data-intensive research"
 date: '2019-09-16'
-days: 1
 tease: "open to all scientists from academia, research institutes and industry in life-sciences"
 continent: EU
 location:

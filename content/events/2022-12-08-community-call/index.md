@@ -1,7 +1,6 @@
 ---
 title: "Galaxy Community Call: UseGalaxy Historic Usage Dashboard"
 date: '2022-12-08'
-days: 1
 tease: "A forum to share updates and discuss community-wide topics"
 continent: GL
 location:

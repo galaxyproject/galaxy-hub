@@ -1,7 +1,7 @@
 ---
 title: Introdution to Galaxy Workshops
 date: '2017-02-22'
-days: 2
+end: '2017-02-23'
 tease: at Mount Sinai School of Medicine
 continent: NA
 location:

@@ -3,7 +3,7 @@ title: 'GTN Smörgåsbord Report (Spoiler: it was awesome)'
 date: '2021-03-16'
 tags: [training]
 external_url: https://gallantries.github.io/posts/2021/03/01/sm%C3%B6rg%C3%A5sbord/
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   authorship:

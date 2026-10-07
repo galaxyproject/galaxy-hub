@@ -2,7 +2,6 @@
 subsites: [eu]
 gtn: true
 date: '2026-01-19'
-days: 1
 tags:
 - symposium
 title: Dutch Reproducibility Network Symposium 2026

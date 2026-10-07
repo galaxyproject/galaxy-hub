@@ -20,13 +20,17 @@ def render_tool_link(elem: dict, server_url: str) -> str:
             tool_id = elem_id
 
         tool_id = urllib.parse.quote(tool_id)
-        # Escape quotes in description to not break Markdown link title
+        # Escape quotes so they cannot break out of the title attribute
         elem_desc = elem_desc.replace('"', "&quot;")
         tool_link = f"{server_url}/root?tool_id={tool_id}"
     except Exception:
         print("Skipping elem:", elem)
         return ""
-    return f'[{elem_name}]({tool_link} "{elem_desc}")'
+    # target="_top" so a tool opens in the Galaxy instance itself. This page is
+    # linked from bare pages that Galaxy servers embed in an iframe; without it
+    # the tool loads inside that iframe and nests a whole Galaxy inside Galaxy.
+    # Unframed (the Hub's own /eu/tools/ page) _top behaves like a normal link.
+    return f'<a href="{tool_link}" target="_top" title="{elem_desc}">{elem_name}</a>'
 
 
 def main():

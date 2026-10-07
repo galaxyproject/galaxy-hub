@@ -1,7 +1,6 @@
 ---
 title: "Galaxy Papercuts CoFest Day: February 25"
 date: '2021-02-25'
-days: 1
 tease: 'A community contribution day'
 continent: GL
 location:
@@ -123,7 +122,7 @@ We will have video calls throughout the day and be on Matrix for chat all day lo
 
 ### Communication
 
-Communication will happen through GitHub, [Matrix channels](https://matrix.to/#/#galaxyproject_Lobby:gitter.im) and [Zoom](#join-us-in-our-regular-video-calls). Links will be posted here before the event.
+Communication will happen through GitHub, [Matrix channels](https://matrix.to/#/#galaxyproject_Lobby:gitter.im) and [Zoom](#join-us-in-our-regular-onboarding-video-calls). Links will be posted here before the event.
 
 ## Get the word out
 

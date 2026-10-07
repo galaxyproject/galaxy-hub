@@ -1,7 +1,6 @@
 ---
 title: "Quality Control of Next Generation Sequencing Reads"
 date: '2017-11-20'
-days: 1
 tease: "Half day workshop on assessing quality and filtering of FASTQ format data"
 continent: EU
 location:

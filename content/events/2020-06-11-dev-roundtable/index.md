@@ -1,7 +1,6 @@
 ---
 title: "The New History"
 date: '2020-06-11'
-days: 1
 tease: ""
 continent: GL
 location:

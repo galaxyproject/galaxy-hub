@@ -1,7 +1,7 @@
 ---
 title: 'Galaxy @ Drosophila Research Conference'
 date: '2021-03-23'
-days: 10
+end: '2021-04-01'
 tease: ""
 continent: NA
 location:

@@ -1,7 +1,7 @@
 ---
 title: "Reproducible Genomic Data Analysis with the Galaxy Workbench"
 date: '2019-10-10'
-days: 3
+end: '2019-10-12'
 tease: "Indigenizing the future of STEM"
 continent: NA
 location:

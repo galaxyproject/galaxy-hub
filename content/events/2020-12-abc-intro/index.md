@@ -1,7 +1,6 @@
 ---
 title: "Online data analysis for biologists"
 date: '2020-12-09'
-days: 1
 tease: "Get a hands-on introduction to Galaxy, an online platform for data analysis"
 continent: AU
 location:

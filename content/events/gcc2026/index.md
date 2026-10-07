@@ -1,10 +1,10 @@
 ---
 title: "2026 Galaxy Community Conference (GCC2026)"
 date: '2026-06-22'
+end: '2026-06-27'
 skip_title_render: true
 autotoc: false
 hide_metadata: true
-days: 6
 tease: "The annual gathering of the Galaxy Community with opportunities to hear latest developments, get training, and meet everyone involved."
 continent: EU
 location:
@@ -30,8 +30,8 @@ contributions:
     The annual gathering of the Galaxy community — researchers, developers, educators, and users from around the world — to share science, build connections, and shape the future of open data analysis.
   </div>
   <div class="flex flex-wrap justify-center gap-3 my-5">
-    <a href="https://v4.event-vert.org/en/gcc2026" class="inline-flex items-center justify-center rounded px-8 py-2 text-sm font-semibold text-white bg-galaxy-primary hover:bg-galaxy-dark no-underline hover:no-underline">Register now</a>
-    <a href="/events/gcc2026/schedule" class="inline-flex items-center justify-center rounded px-8 py-2 text-sm font-semibold text-white bg-galaxy-primary hover:bg-galaxy-dark no-underline hover:no-underline">View schedule</a>
+    <a href="/news/2026-07-06-gcc2026-recap/" class="inline-flex items-center justify-center rounded px-8 py-2 text-sm font-semibold text-white bg-galaxy-primary hover:bg-galaxy-dark no-underline hover:no-underline">GCC2026 recap</a>
+    <a href="https://www.flickr.com/photos/bebatut/albums/72177720334496016/" class="inline-flex items-center justify-center rounded px-8 py-2 text-sm font-semibold text-white bg-galaxy-primary hover:bg-galaxy-dark no-underline hover:no-underline">GCC2026 photos</a>
   </div>
 </div>
 

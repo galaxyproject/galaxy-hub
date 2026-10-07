@@ -6,7 +6,7 @@ tease: As part of our work under the Gallantries Grant we are establishing a new
 hide_tease: true
 tags: [training, gtn-news]
 external_url: https://training.galaxyproject.org/training-material/news/2021/10/12/data-science.html
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   funding:

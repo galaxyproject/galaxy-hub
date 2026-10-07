@@ -1,7 +1,6 @@
 ---
 title: "Webinar: Using the new Galaxy-SRA Connection"
 date: '2020-06-24'
-days: 1
 tease: ""
 continent: NA
 location:

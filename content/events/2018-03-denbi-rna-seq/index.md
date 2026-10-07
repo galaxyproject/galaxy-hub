@@ -1,7 +1,6 @@
 ---
 title: 'Introduction to RNA-Seq data analysis with Galaxy'
 date: '2018-03-07'
-days: 1
 tease: "RNA-Seq, quality control, assembly, quantification, visualization"
 continent: EU
 location:

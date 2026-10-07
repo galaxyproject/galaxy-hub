@@ -42,15 +42,7 @@ Other national EIRENE Galaxy servers:
 
 <Carousel />
 
-<iframe title="Recent Galaxy Europe news" height="450"
- class="resize-y" src="/bare/eu/latest/news/" scrolling="no"
- style="width: 50%; border: none; vertical-align: top">
-</iframe>
-
-<iframe title="Recent Galaxy Europe events" height="450"
- class="resize-y" src="/bare/eu/latest/events/" scrolling="no"
- style="width: 50%; border: none; vertical-align: top">
-</iframe>
+<LatestFeeds subsite="eu" />
 
 # Contributors
 

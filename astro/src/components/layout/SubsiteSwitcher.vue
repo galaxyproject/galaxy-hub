@@ -28,9 +28,11 @@ function handleChange(value: string) {
 
 <template>
   <div class="px-3">
-    <label class="text-xs font-medium text-chicago-400 uppercase tracking-wider mb-2 block"> Region </label>
+    <label id="region-switcher-label" class="text-xs font-medium text-chicago-400 uppercase tracking-wider mb-2 block">
+      Region
+    </label>
     <Select :model-value="effectiveCurrent" @update:model-value="handleChange">
-      <SelectTrigger class="w-full bg-medium-bg border-0 text-white">
+      <SelectTrigger class="w-full bg-medium-bg border-0 text-white" aria-labelledby="region-switcher-label">
         <SelectValue placeholder="Global" />
       </SelectTrigger>
       <SelectContent class="bg-galaxy-dark border-medium-bg">

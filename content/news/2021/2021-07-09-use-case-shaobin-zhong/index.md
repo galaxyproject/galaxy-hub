@@ -2,7 +2,7 @@
 title: 'UseGalaxy.eu Use Case: Plant genomics'
 date: '2021-07-09'
 tags: [usecase]
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   authorship:

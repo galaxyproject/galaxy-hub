@@ -1,7 +1,7 @@
 ---
 title: "Galaxy @ Cold Spring Harbor 2018 Biological Data Science meeting"
 date: '2018-11-07'
-days: 4
+end: '2018-11-10'
 tease: ""
 continent: NA
 location:

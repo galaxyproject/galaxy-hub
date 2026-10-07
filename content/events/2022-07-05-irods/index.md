@@ -7,7 +7,7 @@ contacts:
 location:
   name: KU Leuven, Belgium
 external_url: https://irods.org/ugm2022
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 ---
 

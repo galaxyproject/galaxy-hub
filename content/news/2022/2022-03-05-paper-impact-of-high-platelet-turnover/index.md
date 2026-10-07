@@ -7,7 +7,7 @@ tease: 'Thomas Nührenberg and team published a new paper in PLOS ONE about the 
 hide_tease: true
 doi: 10.1371/journal.pone.0260222
 tags: [paper, citations]
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   funding:

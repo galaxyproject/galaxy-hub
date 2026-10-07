@@ -1,7 +1,7 @@
 ---
 title: 'Galaxy @ ISMB/ECCB 2019'
 date: '2019-07-21'
-days: 5
+end: '2019-07-25'
 tease: ""
 continent: EU
 location:

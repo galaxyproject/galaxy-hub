@@ -1,7 +1,6 @@
 ---
 title: RNA-seq analysis using Galaxy
 date: '2017-03-06'
-days: 1
 tease: a US FDA-sponsored workshop
 continent: NA
 location:

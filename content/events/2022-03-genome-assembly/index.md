@@ -1,7 +1,6 @@
 ---
 title: "Genome Assembly"
 date: '2022-03-23'
-days: 1
 tease: "6-hour course on Genome Sequencing"
 continent: NA
 location:

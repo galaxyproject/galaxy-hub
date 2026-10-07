@@ -13,7 +13,7 @@ During the [2019 Galaxy Community Conference](/events/gcc2019/) (GCC2019) metabo
 
 # Content
 
-- [Getting started](#getting-started)
+- [Getting started](#get-started)
 - [Training](#training)
 - [Available tools](#available-tools)
   - [Workflow4Metabolomics tools](#workflow4metabolomics-tools)
@@ -94,17 +94,7 @@ Other metabolomics specialized Galaxy servers:
 
 <Carousel />
 
-<iframe 
-    title="Recent Galaxy Europe news"
-    class="js-resize-iframe" src="/bare/eu/latest/news/" scrolling="no"
-    style="width: 50%; border: none; vertical-align: top">
-</iframe>
-
-<iframe 
-    title="Recent Galaxy Europe events"
-    class="js-resize-iframe" src="/bare/eu/latest/events/" scrolling="no"
-    style="width: 50%; border: none; vertical-align: top">
-</iframe>
+<LatestFeeds subsite="eu" />
 
 # Contributors
 

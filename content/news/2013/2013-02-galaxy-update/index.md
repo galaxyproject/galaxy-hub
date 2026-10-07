@@ -16,7 +16,7 @@ The [February 2013 Galaxy Update is now available](/galaxy-updates/2013-02/).
 * [January GalaxyAdmins Web Meetup](/galaxy-updates/2013-02/#january-galaxyadmins-web-meetup) slides and screencast
 * [Other Upcoming Events and Deadlines](/galaxy-updates/2013-02/#other-upcoming-events-and-deadlines)
 * [Galaxy Distributions](/galaxy-updates/2013-02/#galaxy-distributions)
-* [Tool Shed Contributions](/galaxy-updates/2013-02/#toolshed-contributions)
+* [Tool Shed Contributions](/galaxy-updates/2013-02/#tool-shed-contributions)
 * [Other News](/galaxy-updates/2013-02/#other-news)
 
 If you have anything you would like to see in the March *[Galaxy Update](/galaxy-updates/)*, please let us know.

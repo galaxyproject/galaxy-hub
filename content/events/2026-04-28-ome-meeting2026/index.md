@@ -3,7 +3,7 @@ title: "19th OME Community Meeting 2026"
 tease: "Join us at the 19th OME Community Meeting for a workshop on image analysis in Galaxy and the OMERO integration."
 contact: "beatrizserrano, dianichj"
 date: "2026-04-28"
-days: 3
+end: "2026-04-30"
 continent: "EU"
 location:
   name: "Haus der Universität, Düsseldorf, Germany"

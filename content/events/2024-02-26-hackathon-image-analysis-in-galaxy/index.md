@@ -1,7 +1,7 @@
 ---
 title: Hackathon Image Analysis in Galaxy
 date: '2024-02-26'
-days: 5
+end: '2024-03-01'
 tease: "This hackathon addresses the improvement of Galaxy for image analysis"
 continent: EU
 location:

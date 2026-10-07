@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
+import { isUpcomingEvent, isPastEvent } from '../../utils/dateUtils';
 
 const tag = 'community-call';
 const pageTitle = 'Galaxy Community Calls';
@@ -19,10 +20,7 @@ const now = new Date();
 
 // Split into upcoming and past
 const upcomingEvents = taggedEvents
-  .filter((e) => {
-    const eventDate = e.data.date instanceof Date ? e.data.date : new Date(e.data.date || '');
-    return eventDate >= now;
-  })
+  .filter((e) => isUpcomingEvent(e.data.date, e.data.end, now))
   .sort((a, b) => {
     const dateA = a.data.date instanceof Date ? a.data.date : new Date(a.data.date || '');
     const dateB = b.data.date instanceof Date ? b.data.date : new Date(b.data.date || '');
@@ -30,10 +28,7 @@ const upcomingEvents = taggedEvents
   });
 
 const pastEvents = taggedEvents
-  .filter((e) => {
-    const eventDate = e.data.date instanceof Date ? e.data.date : new Date(e.data.date || '');
-    return eventDate < now;
-  })
+  .filter((e) => isPastEvent(e.data.date, e.data.end, now))
   .sort((a, b) => {
     const dateA = a.data.date instanceof Date ? a.data.date : new Date(a.data.date || '');
     const dateB = b.data.date instanceof Date ? b.data.date : new Date(b.data.date || '');

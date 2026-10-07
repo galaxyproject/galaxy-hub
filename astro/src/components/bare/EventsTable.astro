@@ -15,9 +15,7 @@ interface EventEntry {
     continent?: string | null;
     contact?: string | null;
     contacts?:
-      | Array<{ name?: string; email?: string; url?: string }>
-      | { name?: string; email?: string; url?: string }
-      | null;
+      Array<{ name?: string; email?: string; url?: string }> | { name?: string; email?: string; url?: string } | null;
     external_url?: string | null;
     gtn?: boolean | null;
     tease?: string | null;

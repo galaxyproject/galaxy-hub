@@ -1,7 +1,6 @@
 ---
 title: "Bioinformatics Analysis in Plant Biology"
 date: '2026-04-23'
-days: 1
 tease: ""
 continent: Online
 location: Online

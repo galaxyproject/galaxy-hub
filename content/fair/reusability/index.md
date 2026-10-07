@@ -105,7 +105,7 @@ Notably, the Galaxy Community is dedicated to provide a harassment-free experien
 
 ## Funding & sustainability plan
 
-The Galaxy Project is embedded in national and international funding streams. Notably, these include NIH and NSF (US), ELIXIR, EOSC and BMBF (EU), Bioplatforms and Research Data Commons (AUS). More information on the continental usegalaxy.* instances you find on the bottom of the Galaxy Hub pages, and e.g. [here](https://usegalaxy-eu.github.io/freiburg/projects). However, the Galaxy project is built by many contributors from all over the world, so that the underlying funding is much more diverse and is subject to constant change in detail. This global community is well connected and capable of bridging funding gaps and re-allocating resources by strong vice-versa support.
+The Galaxy Project is embedded in national and international funding streams. Notably, these include NIH and NSF (US), ELIXIR, EOSC and BMBF (EU), Bioplatforms and Research Data Commons (AUS). More information on the continental usegalaxy.* instances you find on the bottom of the Galaxy Hub pages, and e.g. [here](/freiburg/projects/). However, the Galaxy project is built by many contributors from all over the world, so that the underlying funding is much more diverse and is subject to constant change in detail. This global community is well connected and capable of bridging funding gaps and re-allocating resources by strong vice-versa support.
 
 ## Governance
 

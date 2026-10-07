@@ -1,7 +1,6 @@
 ---
 title: "FAIR data for Life Sciences Research"
 date: '2022-05-18'
-days: 1
 tease: "Third ELIXIR Belgium meeting"
 continent: EU
 location:

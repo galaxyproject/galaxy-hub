@@ -15,7 +15,7 @@ import {
   toArray,
 } from '../../utils/contributors';
 import { getContributionIndex } from '../../utils/hallOfFameIndex';
-import { socialIconMap, type SocialIconName } from '../../utils/socialIcons';
+import Icon from '../../components/mdx/Icon.astro';
 const gtnIcon = '/images/logos/gtn_icon.svg';
 
 const slugify = communitySlug;
@@ -53,7 +53,7 @@ const avatarUrl = community?.record ? getCommunityImage(community.record as any)
 type ContactLink = {
   label: string;
   href: string;
-  icon?: SocialIconName | 'gtn';
+  icon?: string;
 };
 const contactLinks: ContactLink[] = [];
 
@@ -63,7 +63,7 @@ function pushLink(label: string, href?: string, icon?: ContactLink['icon']) {
 
 if (community) {
   const record: any = community.record;
-  if (record.fediverse) pushLink('Fediverse', record.fediverse, 'fediverse');
+  if (record.fediverse) pushLink('Mastodon', record.fediverse, 'mastodon');
   if (record.bluesky) pushLink('Bluesky', `https://bsky.app/profile/${record.bluesky}`, 'bluesky');
   if (record.linkedin) pushLink('LinkedIn', `https://www.linkedin.com/in/${record.linkedin}`, 'linkedin');
   if (record.matrix) pushLink('Matrix', `https://matrix.to/#/${record.matrix}`, 'matrix');
@@ -210,21 +210,8 @@ function formatDate(date: Date | string | undefined): string {
                       >
                         {link.icon === 'gtn' ? (
                           <img src={gtnIcon} alt="" aria-hidden="true" class="icon-button-img" loading="lazy" />
-                        ) : link.icon && link.icon !== 'gtn' && socialIconMap[link.icon] ? (
-                          <svg
-                            class="icon-button-svg"
-                            viewBox={socialIconMap[link.icon].viewBox}
-                            preserveAspectRatio="xMidYMid meet"
-                            aria-hidden="true"
-                            focusable="false"
-                            role="img"
-                          >
-                            <path
-                              d={socialIconMap[link.icon].path}
-                              fill="currentColor"
-                              transform={socialIconMap[link.icon].transform}
-                            />
-                          </svg>
+                        ) : link.icon ? (
+                          <Icon name={link.icon} size={26} />
                         ) : null}
                       </a>
                     ))}

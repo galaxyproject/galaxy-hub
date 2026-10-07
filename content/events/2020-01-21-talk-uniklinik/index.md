@@ -23,6 +23,6 @@ Introduction to Galaxy and RNAseq data analysis to researchers of the Uniklinik 
 
 ### Speaker
 
-* Anika Erxleben, Postdoc Researcher at the University of Freiburg and member of the [European Galaxy team](https://usegalaxy-eu.github.io/freiburg/people).
+* Anika Erxleben, Postdoc Researcher at the University of Freiburg and member of the [European Galaxy team](/freiburg/people/).
 
 

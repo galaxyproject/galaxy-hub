@@ -1,7 +1,7 @@
 ---
 title: '2022 Galaxy Community Conference (GCC2022)'
 date: '2022-07-16'
-days: 8
+end: '2022-07-23'
 tease: "The annual gathering of the Galaxy Community"
 continent: NA
 location:

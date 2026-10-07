@@ -23,7 +23,7 @@ pub_libraries:
   - "ML Workbench"
 sponsors:
   - "[Goecks Lab](https://goeckslab.org/) at OHSU"
-  - "[Freiburg Galaxy Project](https://usegalaxy-eu.github.io/freiburg/)"
+  - "[Freiburg Galaxy Project](/freiburg/)"
   - "[Galaxy Training Network](https://training.galaxyproject.org/)"
   - "[DFG](http://www.dfg.de/)"
   - "[German Federal Ministry of Education and Research](https://www.bmbf.de/)"

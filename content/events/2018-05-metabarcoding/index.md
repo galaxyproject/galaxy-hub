@@ -1,7 +1,7 @@
 ---
 title: "Formation metabarcoding 2018"
 date: '2018-05-14'
-days: 5
+end: '2018-05-18'
 tease: "FROGS!"
 continent: EU
 location:

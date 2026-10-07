@@ -1,7 +1,6 @@
 ---
 title: "Viral Beacon and Galaxy variant workflows"
 date: '2021-02-17'
-days: 1
 tease: "Open Data Infrastructures to tackle COVID-19 pandemic"
 continent: EU
 location:

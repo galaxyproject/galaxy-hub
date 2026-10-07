@@ -1,7 +1,7 @@
 ---
 title: "Hackathon: Annotated Research Context (ARC) as a FAIR digital object"
 date: "2021-09-06"
-days: 3
+end: "2021-09-08"
 tease: "Build use and support ARCs with new tools, templates, and ideas."
 continent: EU
 location:

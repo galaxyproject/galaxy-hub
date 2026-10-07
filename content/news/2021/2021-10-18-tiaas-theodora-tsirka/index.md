@@ -4,7 +4,7 @@ date: '2021-10-18'
 tease: We have received feedback about TIaaS from Dr. Theodora Tsirka, during the Training School on Microbiome Sequencing and Data Analysis
 hide_tease: true
 tags: [training, tiaas]
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   authorship:

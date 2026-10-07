@@ -2,6 +2,13 @@ import { defineCollection } from 'astro:content';
 import { z } from 'astro/zod';
 import { glob } from 'astro/loaders';
 
+/**
+ * Tags for which /tags/[tag]/feed.atom feeds are generated. Kept as a whitelist
+ * to avoid emitting near-empty feeds for one-off tags. Add a tag here to expose
+ * its feed.
+ */
+export const TAG_FEED_WHITELIST = ['esg4stars', 'esg'];
+
 // Shared schema for contact information (very permissive to handle legacy content)
 const contactSchema = z
   .object({
@@ -58,6 +65,9 @@ const baseArticleSchema = z
     external_url: z.string().optional().nullable(),
     autotoc: z.boolean().optional().nullable(),
     skip_title_render: z.boolean().optional().nullable(),
+    full_bleed: z.boolean().optional().nullable(),
+    generated_from: z.string().optional().nullable(),
+    og_image: z.string().optional().nullable(),
     image: z.string().optional().nullable(),
     components: z.boolean().optional().nullable(),
     hasComponents: z.boolean().optional().nullable(),
@@ -150,6 +160,33 @@ const navbars = defineCollection({
   schema: z.any(),
 });
 
+// "Did you know" tips (YAML data files, one item per file)
+const imageLinkSchema = z.object({
+  url: z.string(),
+  alt: z.string(),
+});
+const linkSchema = z.object({
+  url: z.string(),
+  text: z.string(),
+});
+const didYouKnowSchema = z
+  .object({
+    title: z.string(),
+    tease: z.string().optional().nullable(),
+    body: z.string(),
+    subsites: arrayOrString,
+    date: z.coerce.date().optional().nullable(),
+    weight: z.number().optional().nullable(),
+    images: z.array(imageLinkSchema).optional().nullable(),
+    links: z.array(linkSchema).optional().nullable(),
+  })
+  .passthrough();
+
+const didYouKnow = defineCollection({
+  loader: glob({ pattern: '**/*.{yml,yaml}', base: './src/content/did-you-know' }),
+  schema: didYouKnowSchema,
+});
+
 export const collections = {
   articles,
   news,
@@ -159,4 +196,5 @@ export const collections = {
   inserts,
   datasets,
   navbars,
+  'did-you-know': didYouKnow,
 };

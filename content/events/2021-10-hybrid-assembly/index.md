@@ -1,7 +1,6 @@
 ---
 title: "Hybrid de novo genome assembly"
 date: "2021-10-07"
-days: 1
 tease: "Create and assess genome assemblies from Illumina and Nanopore reads. Applications due 29 September."
 continent: AU
 location:

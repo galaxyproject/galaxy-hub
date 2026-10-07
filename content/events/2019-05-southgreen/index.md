@@ -1,7 +1,6 @@
 ---
 title: "Initiation aux analyses de données transcriptomiques"
 date: '2019-05-17'
-days: 1
 tease: "Galaxy, kallisto, salmon, edgeR, Deseq2"
 continent: EU
 location:

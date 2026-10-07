@@ -1,7 +1,6 @@
 ---
 title: "Single-cell & sPatial Omics Community Meeting: 🖖🏾SPOC"
 date: '2025-07-01'
-days: 1
 continent: GL
 location:
   name: Online, Global

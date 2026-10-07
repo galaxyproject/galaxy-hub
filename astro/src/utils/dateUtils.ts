@@ -3,14 +3,14 @@
  * Pure functions that can be easily unit tested
  */
 
+import { isFutureDate } from './publish-date.mjs';
+
 /**
  * Check if a date is published (not in the future)
  * Returns true if the date is undefined, in the past, or today
  */
 export function isPublishedDate(date: Date | string | undefined, now: Date = new Date()): boolean {
-  if (!date) return true;
-  const d = date instanceof Date ? date : new Date(date);
-  return d <= now;
+  return !isFutureDate(date, now);
 }
 
 /**
@@ -91,4 +91,45 @@ export function formatDateRange(
 
   // Different months - show full dates
   return `${formatDate(startDate, short)} - ${formatDate(endDate, short)}`;
+}
+
+/**
+ * Check if a date falls on today or later, comparing whole UTC days.
+ * Dates are stored as UTC midnight, so a date counts until its day is over.
+ */
+export function isTodayOrLater(date: Date, now: Date = new Date()): boolean {
+  const today = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate());
+  return date.getTime() >= today;
+}
+
+/**
+ * Get the last day of an event (end date, or start date for one-day events).
+ * Returns null if the event has no valid date.
+ */
+function eventLastDay(date: Date | string | null | undefined, end: Date | string | null | undefined): Date | null {
+  const last = toDate(end ?? undefined) || toDate(date ?? undefined);
+  return last && !isNaN(last.getTime()) ? last : null;
+}
+
+/**
+ * Check if an event is upcoming or still running: its last day is today or later.
+ */
+export function isUpcomingEvent(
+  date: Date | string | null | undefined,
+  end: Date | string | null | undefined,
+  now: Date = new Date()
+): boolean {
+  const last = eventLastDay(date, end);
+  return last !== null && isTodayOrLater(last, now);
+}
+
+/**
+ * Check if an event is over: it has a valid date and its last day is before today.
+ */
+export function isPastEvent(
+  date: Date | string | null | undefined,
+  end: Date | string | null | undefined,
+  now: Date = new Date()
+): boolean {
+  return eventLastDay(date, end) !== null && !isUpcomingEvent(date, end, now);
 }

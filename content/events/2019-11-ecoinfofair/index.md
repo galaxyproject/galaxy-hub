@@ -2,7 +2,7 @@
 title: "ecoinfo-fair : écoinformatique FAIR par la pratique" 
 tease: "développement de package conda et d'outils Galaxy à partir de scripts et packages R"
 date: '2019-11-06'
-days: 3
+end: '2019-11-08'
 continent: EU
 location:
   name: "Concarneau, France" 

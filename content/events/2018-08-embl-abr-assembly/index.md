@@ -1,7 +1,6 @@
 ---
 title: "Genome Assembly using Galaxy Australia "
 date: '2018-08-22'
-days: 1
 tease: "introduce yourself to Galaxy Australia and its use in genome assembly"
 continent: AU
 location:

@@ -7,7 +7,7 @@ contacts:
   name: Melanie Foell
 location:
   name: online
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 ---
 

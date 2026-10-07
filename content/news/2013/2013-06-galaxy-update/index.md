@@ -15,7 +15,7 @@ The [June 2013 Galaxy Update is now available](/galaxy-updates/2013-06/).
 * [Open Positions](/galaxy-updates/2013-06/#whos-hiring) at four different institutions
 * [Other Upcoming Events](/galaxy-updates/2013-06/#other-upcoming-events)
 * [Duplicate Accounts on Main](/galaxy-updates/2013-06/#duplicate-accounts-on-main)
-* [Tool Shed Contributions](/galaxy-updates/2013-06/#toolshed-contributions)
+* [Tool Shed Contributions](/galaxy-updates/2013-06/#tool-shed-contributions)
 * [Other News](/galaxy-updates/2013-06/#other-news)
 
 If you have anything you would like to see in the July *[Galaxy Update](/galaxy-updates/)*, please let us know.

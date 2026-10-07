@@ -10,7 +10,7 @@ contributions:
     - elixir-europe
 ---
 
-We just updated our Galaxy server to version 17.09! Actually this was done by [H. Rasche](https://usegalaxy-eu.github.io/freiburg/people),
+We just updated our Galaxy server to version 17.09! Actually this was done by [H. Rasche](/freiburg/people/),
 our new team member! Welcome Helena!
 
 For a full list of the awesome new features

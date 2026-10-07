@@ -1,7 +1,7 @@
 ---
 title: Foundations of Computational Genomics Course
 date: '2017-11-29'
-days: 8
+end: '2017-12-06'
 tease: Overview of the theory and practice of computational methods for the identification and characterization of functional elements from DNA sequence data
 continent: NA
 location:

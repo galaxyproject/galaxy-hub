@@ -2,7 +2,7 @@
 title: UseGalaxy.eu as a cross-disciplinary platform for European researchers
 date: '2021-09-15'
 tags: [report, tiaas]
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   authorship:

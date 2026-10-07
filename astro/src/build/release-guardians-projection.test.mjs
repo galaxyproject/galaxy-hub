@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 
 import {
+  aggregateGuardians,
   buildSnapshot,
   findGuardian,
   partitionPrs,
@@ -8,6 +9,7 @@ import {
   snapshotFingerprint,
   withStableAvatar,
 } from './release-guardians-projection.mjs';
+import { phaseFor } from '../components/release-guardians/labels.ts';
 
 const CONFIG = {
   repo: 'galaxyproject/galaxy',
@@ -322,5 +324,75 @@ describe('buildSnapshot (end-to-end normalization)', () => {
     const a = buildSnapshot(fixturePrs, CONFIG, '2026-05-27T00:00:00Z');
     const b = buildSnapshot(fixturePrs, CONFIG, '2026-05-28T00:00:00Z');
     expect(snapshotFingerprint(a)).toBe(snapshotFingerprint(b));
+  });
+});
+
+describe('aggregateGuardians', () => {
+  const guardian = (login) => ({
+    login,
+    url: `https://github.com/${login}`,
+    avatarUrl: `https://github.com/${login}.png`,
+  });
+  const pr = (number, g) => ({ number, guardian: g });
+
+  it('returns an empty list when the snapshot is null or has no complete PRs', () => {
+    expect(aggregateGuardians(null)).toEqual([]);
+    expect(aggregateGuardians({ complete: [] })).toEqual([]);
+    expect(aggregateGuardians({ complete: [pr(1, null)] })).toEqual([]);
+  });
+
+  it('counts how many complete PRs each guardian validated', () => {
+    const snapshot = {
+      complete: [pr(1, guardian('alice')), pr(2, guardian('alice')), pr(3, guardian('bob'))],
+    };
+    expect(aggregateGuardians(snapshot)).toEqual([
+      { ...guardian('alice'), validatedCount: 2 },
+      { ...guardian('bob'), validatedCount: 1 },
+    ]);
+  });
+
+  it('sorts by count descending, then login for a stable tiebreak', () => {
+    const snapshot = {
+      complete: [pr(1, guardian('zoe')), pr(2, guardian('alice')), pr(3, guardian('alice')), pr(4, guardian('zoe'))],
+    };
+    const result = aggregateGuardians(snapshot);
+    expect(result.map((g) => g.login)).toEqual(['alice', 'zoe']);
+    expect(result.map((g) => g.validatedCount)).toEqual([2, 2]);
+  });
+
+  it('ignores guardians on in-progress PRs', () => {
+    const snapshot = {
+      needsValidation: [pr(1, guardian('alice'))],
+      inProgress: [pr(2, guardian('bob'))],
+      complete: [pr(3, guardian('carol'))],
+    };
+    const result = aggregateGuardians(snapshot);
+    expect(result.map((g) => g.login)).toEqual(['carol']);
+  });
+
+  it('skips complete PRs whose guardian is missing or has no login', () => {
+    const snapshot = {
+      complete: [pr(1, null), pr(2, { login: '', url: '', avatarUrl: '' }), pr(3, guardian('alice'))],
+    };
+    expect(aggregateGuardians(snapshot)).toEqual([{ ...guardian('alice'), validatedCount: 1 }]);
+  });
+});
+
+describe('phaseFor', () => {
+  it('stays active through the entire final day of the testing window', () => {
+    expect(phaseFor('2026-06-05', Date.parse('2026-06-05T10:00:00Z'))).toBe('active');
+    expect(phaseFor('2026-06-05', Date.parse('2026-06-05T23:59:58Z'))).toBe('active');
+  });
+
+  it('closes once the final day has fully elapsed', () => {
+    expect(phaseFor('2026-06-05', Date.parse('2026-06-06T00:00:00Z'))).toBe('closed');
+  });
+
+  it('defaults to active when endDate is missing', () => {
+    expect(phaseFor(undefined, Date.parse('2026-06-06T00:00:00Z'))).toBe('active');
+  });
+
+  it('defaults to active on an unparseable endDate', () => {
+    expect(phaseFor('not-a-date', Date.parse('2026-06-06T00:00:00Z'))).toBe('active');
   });
 });

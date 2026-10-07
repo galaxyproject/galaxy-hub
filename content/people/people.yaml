@@ -15,7 +15,18 @@ freiburg:
         bio: |
           I'm a bioinformatician and researcher with interested in everything
           related to reproducible research with Galaxy, Conda & Containers.
-
+          
+    HenrieBe:
+        name: Henriette Bertemes
+        title: Dr. rer. nat., Project manager
+        email: bertemes@informatik.uni-freiburg.de
+        phone: +49(0) 761 - 203 54130
+        location: "Build.: 079, Room: -1006"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@henriebe:matrix.org"
+        linkedin: henriette-bertemes-7a61422ab
+        orcid: 0009-0004-9063-6420
+          
     erxleben:
         name: Anika Erxleben-Eggenhofer
         orcid: 0000-0002-7427-6478
@@ -59,7 +70,7 @@ freiburg:
         bio:
         alumni: true
 
-    kysrpex:
+    domgz:
         name: José Manuel Domínguez
         title: M.Sc. Math., SysAdmin, DevOps
         email: dominguj@informatik.uni-freiburg.de
@@ -169,6 +180,7 @@ freiburg:
         location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
         matrix: "@engynasr:matrix.org"
         orcid: 0000-0001-9047-4215
+        alumni: true
 
     pavanvidem:
         name: Pavankumar Videm
@@ -300,7 +312,7 @@ freiburg:
         orcid: 0000-0001-7649-2388
         google-scholar: c3RUlDoAAAAJ
         researchgate: Armin-Dadras
-        bio:
+        alumni: true
 
     Deeptivarshney:
         name: Deepti Varshney
@@ -336,56 +348,6 @@ freiburg:
         twitter: IvoLeist
         linkedin: ivo-leist
         bio: Doing now what (life) scientists need next. 
-
-erasmusmc:
-    andrew-emc:
-        name: Andrew Stubbs
-        title: Assistant Professor
-        email: a.stubbs@erasmusmc.nl
-        phone: +31(0) 10 70 44776
-        location: Ee-1579a
-    yl-emc:
-        name: Yunlei Li
-        title: Assistant Professor
-        email: y.li.1@erasmusmc.nl
-    shiltemann:
-        name: Saskia Hiltemann
-        title: Researcher
-        email: saskia.hiltemann@gmail.com
-        phone: +31(0) 10 70 43235
-        location: Ee-1579
-        matrix: "@shiltemann:matrix.org"
-        mastodon: "mstdn.science/@shiltemann"
-        linkedin: shiltemann
-        orcid: 0000-0003-3803-468X
-        galaxyadmin: true
-
-    yhoogstrate:
-        name: Youri Hoogstrate
-        title: Researcher
-        email: y.hoogstrate@erasmusmc.nl
-        phone: +31(0) 10 70 43235
-        location: Ee-1579
-        alumni: true
-
-    davidvanzessen:
-        name: David van Zessen
-        title: Developer
-        email: d.vanzessen@erasmusmc.nl
-        phone: +31(0) 10 70 44551
-        location: Ee-1579
-    rjansen1984:
-        name: Rick Jansen
-        title: Developer
-        email: r.jansen.1@erasmusmc.nl
-        phone: +31(0) 10 70 32460
-        location: Ee-1579
-    shorsman:
-        name: Bas Horsman
-        title: Developer
-        email: s.horsman@erasmusmc.nl
-        phone: +31(0) 70 32460
-        location: Ee-1579
 
 genouest:
     OlivierCollin:
@@ -478,21 +440,20 @@ ifb:
         email: seilerj@igbmc.fr
         twitter: julozi
         galaxyadmin: true
-    tchaussepiedifb:
-        name: Thomas Chaussepied
-        title: Engineer, sysadmin of UseGalaxy.fr - CNRS / IFB
-        matrix: "@tchaussepied:matrix.org"
+    scorreard:
+        name: Solenne Correard
+        title: Molecular biologist, bioinformatician - INRAE / Genouest
         galaxyadmin: true
-    merciereva:
-        name: Eva Mercier
-        title: Engineer, EuroScienceGateway (WP3, Pulsar deployment) - CNRS / GenOuest
-        matrix: "@eva_mercier:matrix.org"
+    guillaume-kermorgant:
+        name: Guillaume Kermorgant
+        title: Engineer, admin of UseGalaxy.fr - CNRS / IFB / Genouest
+        matrix: "@guillaumekermorgant:matrix.org"
+        galaxyadmin: true
     rlibouba:
         name: Romane Libouban
         title: Engineer, EuroScienceGateway (WP5, Genome Annotation use case) - CNRS / GenOuest
         matrix: "@rlibouban:matrix.org"
         galaxyadmin: true
-
     bebatut:
         name: Bérénice Batut
         title: Research Engineer
@@ -504,13 +465,6 @@ ifb:
         google-scholar: q5GpTJYAAAAJ
         researchgate: Berenice_Batut
         galaxyadmin: true
-
-    clsiguret:
-        name: Cléa Siguret
-        title: Research Engineer - IFB / AuBi
-        matrix: "@clsiguret:matrix.org"
-        linkedin: cléa-siguret-58423b107
-        orcid: 0009-0005-6140-0379
 
 jhu:
     mschatz:
@@ -767,7 +721,7 @@ cz:
           I'm software engineer with specialisation in compiler design and fundaments of computer science. 
           I work in [CESNET](https://www.cesnet.cz/en) located in Brno, Czech Republic.
 
-    demon:
+    martindemko:
         name: Martin Demko
         title: |
             Dr. rer. nat., Ph.D. in Computer Science &

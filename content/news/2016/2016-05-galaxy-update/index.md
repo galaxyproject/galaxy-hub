@@ -27,7 +27,7 @@ Some highlights from the **[May Galaxy News](/galaxy-updates/2016-05/)**
 * [Open positions](/galaxy-updates/2016-05/#whos-hiring) (6 of them)
 * New [MGEScan](/galaxy-updates/2016-05/#mgescan) and [Koslicki Lab](/galaxy-updates/2016-05/#koslicki-lab) public Galaxy servers
 * A new [Galaxy Community Hub](/galaxy-updates/2016-05/#galaxy-community-hubs) training resource
-* New [Releases](/galaxy-updates/2016-05/#releases): [Planemo](/galaxy-updates/2016-05/#planemo-0242), and [galaxy-lib](/galaxy-updates/2016-05/#galaxy-lib-1670) and [Pulsar](/galaxy-updates/2016-05/#pulsar)
+* New [Releases](/galaxy-updates/2016-05/#releases): [Planemo](/galaxy-updates/2016-05/#planemo-0242), and [galaxy-lib](/galaxy-updates/2016-05/#galaxy-lib-1670) and [Pulsar](/galaxy-updates/2016-05/#pulsar-070)
 
 Don't miss those deadlines, and [see you in June](https://web.archive.org/web/http://gcc2016.iu.edu/),
 

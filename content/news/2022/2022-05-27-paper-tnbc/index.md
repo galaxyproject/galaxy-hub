@@ -7,7 +7,7 @@ tease: Amir Sabbaghian and colleagues have published a paper related to the resi
 hide_tease: true
 doi: 10.2174/1566524022666220517102423
 tags: [paper, citations]
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 ---
 
 Amir Sabbaghian and colleagues have published a paper related to the resistance to cisplatin in the treatment of triple negative breast cancer. Thanks for using the European Galaxy server and sharing your results with us!

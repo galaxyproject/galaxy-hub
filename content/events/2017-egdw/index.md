@@ -1,7 +1,7 @@
 ---
 title: European Galaxy Developer Workshop
 date: '2017-01-16'
-days: 4
+end: '2017-01-19'
 tease: in Strasbourg
 continent: EU
 location:

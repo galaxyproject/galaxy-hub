@@ -3,7 +3,6 @@ title: "Upcoming Online Talk at Imperial College London: Discover Galaxy – Fro
 tease: "Learn how Galaxy supports research data analysis and FAIR data management in this online talk hosted by Imperial College London."
 contact: "Armin Dadras"
 date: "2025-07-10"
-days: 1
 continent: "EU"
 location: 
   url: "https://myimperial.powerappsportals.com/events/event/?id=fc1d2204-b36e-41a5-9546-455748647388&readableEventId=Galaxy_the_research_data_powerhousefrom_analysis_to_FAIR_management3267684407"

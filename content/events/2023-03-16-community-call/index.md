@@ -1,7 +1,6 @@
 ---
 title: "Galaxy Community Call: Collections and assembly pipelines"
 date: '2023-03-16'
-days: 1
 tease: "A forum to share updates and discuss community-wide topics"
 continent: GL
 location:

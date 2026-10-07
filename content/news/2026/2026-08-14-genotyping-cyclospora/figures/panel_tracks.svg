@@ -1,0 +1,291 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="1131" viewBox="0 0 1180 1131">
+<rect width="1180" height="1131" fill="#ffffff"/>
+<text x="118" y="30" font-size="15" font-weight="bold" fill="#1b1f24" text-anchor="start" font-family="DejaVu Sans, sans-serif">The CDC Cyclospora 8-marker genotyping panel</text>
+<text x="118" y="46" font-size="10" fill="#6b7480" text-anchor="start" font-family="DejaVu Sans, sans-serif">amplicons to common scale &#183; primer footprints in red &#183; haplotype-calling PARTs in blue &#183; junction repeats in green</text>
+<text x="118" y="80" font-size="12.5" fill="#1b1f24" text-anchor="end" font-weight="bold" font-family="DejaVu Sans, sans-serif">Nu_CDS1</text>
+<text x="118" y="94" font-size="8.5" fill="#6b7480" text-anchor="end" font-family="DejaVu Sans, sans-serif">7 SNPs</text>
+<rect x="132" y="66" width="231.0" height="20" rx="2" fill="#e8ecf1"/>
+<rect x="158.4" y="66" width="88.4" height="20" fill="#3f6fa8" stroke="#ffffff" stroke-width="0.8"/>
+<text x="202.6" y="80" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans, sans-serif">A</text>
+<rect x="246.8" y="66" width="89.8" height="20" fill="#5a8bc4" stroke="#ffffff" stroke-width="0.8"/>
+<text x="291.7" y="80" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans, sans-serif">B</text>
+<polygon points="132.0,66 152.4,66 158.4,76.0 152.4,86 132.0,86" fill="#c8553d" opacity="0.92"/>
+<text x="132.0" y="100" font-size="8.5" fill="#c8553d" text-anchor="start" font-family="DejaVu Sans Mono, monospace">GT1-F &#183; 20 nt</text>
+<polygon points="363.0,66 342.6,66 336.6,76.0 342.6,86 363.0,86" fill="#c8553d" opacity="0.92"/>
+<text x="363.0" y="100" font-size="8.5" fill="#c8553d" text-anchor="end" font-family="DejaVu Sans Mono, monospace">GT1-R &#183; 20 nt</text>
+<line x1="132" y1="120" x2="363.0" y2="120" stroke="#aab3bd" stroke-width="1"/>
+<line x1="132.0" y1="120" x2="132.0" y2="125" stroke="#aab3bd" stroke-width="1"/>
+<text x="132.0" y="135" font-size="9" fill="#6b7480" text-anchor="middle" font-family="DejaVu Sans, sans-serif">0</text>
+<line x1="198.0" y1="120" x2="198.0" y2="123" stroke="#aab3bd" stroke-width="1"/>
+<line x1="264.0" y1="120" x2="264.0" y2="125" stroke="#aab3bd" stroke-width="1"/>
+<text x="264.0" y="135" font-size="9" fill="#6b7480" text-anchor="middle" font-family="DejaVu Sans, sans-serif">100</text>
+<line x1="330.0" y1="120" x2="330.0" y2="123" stroke="#aab3bd" stroke-width="1"/>
+<line x1="363.0" y1="120" x2="363.0" y2="125" stroke="#aab3bd" stroke-width="1"/>
+<text x="367.0" y="135" font-size="9" fill="#6b7480" text-anchor="start" font-family="DejaVu Sans, sans-serif">175 bp</text>
+<text x="373.0" y="80" font-size="9" fill="#6b7480" font-family="DejaVu Sans, sans-serif">2 PARTs</text>
+<text x="363.0" y="59" font-size="9" fill="#6b7480" text-anchor="end" font-style="italic" font-family="DejaVu Sans, sans-serif">ATP synthase</text>
+<text x="118" y="188" font-size="12.5" fill="#1b1f24" text-anchor="end" font-weight="bold" font-family="DejaVu Sans, sans-serif">Nu_CDS4</text>
+<text x="118" y="202" font-size="8.5" fill="#6b7480" text-anchor="end" font-family="DejaVu Sans, sans-serif">3 SNPs</text>
+<rect x="132" y="174" width="236.3" height="20" rx="2" fill="#e8ecf1"/>
+<rect x="159.7" y="174" width="91.1" height="20" fill="#3f6fa8" stroke="#ffffff" stroke-width="0.8"/>
+<text x="205.3" y="188" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans, sans-serif">A</text>
+<rect x="250.8" y="174" width="91.1" height="20" fill="#5a8bc4" stroke="#ffffff" stroke-width="0.8"/>
+<text x="296.3" y="188" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans, sans-serif">B</text>
+<polygon points="132.0,174 153.7,174 159.7,184.0 153.7,194 132.0,194" fill="#c8553d" opacity="0.92"/>
+<text x="132.0" y="208" font-size="8.5" fill="#c8553d" text-anchor="start" font-family="DejaVu Sans Mono, monospace">GT4-F &#183; 21 nt</text>
+<polygon points="368.3,174 347.9,174 341.9,184.0 347.9,194 368.3,194" fill="#c8553d" opacity="0.92"/>
+<text x="368.3" y="208" font-size="8.5" fill="#c8553d" text-anchor="end" font-family="DejaVu Sans Mono, monospace">GT4N-F &#183; 20 nt</text>
+<line x1="132" y1="228" x2="368.3" y2="228" stroke="#aab3bd" stroke-width="1"/>
+<line x1="132.0" y1="228" x2="132.0" y2="233" stroke="#aab3bd" stroke-width="1"/>
+<text x="132.0" y="243" font-size="9" fill="#6b7480" text-anchor="middle" font-family="DejaVu Sans, sans-serif">0</text>
+<line x1="198.0" y1="228" x2="198.0" y2="231" stroke="#aab3bd" stroke-width="1"/>
+<line x1="264.0" y1="228" x2="264.0" y2="233" stroke="#aab3bd" stroke-width="1"/>
+<text x="264.0" y="243" font-size="9" fill="#6b7480" text-anchor="middle" font-family="DejaVu Sans, sans-serif">100</text>
+<line x1="330.0" y1="228" x2="330.0" y2="231" stroke="#aab3bd" stroke-width="1"/>
+<line x1="368.3" y1="228" x2="368.3" y2="233" stroke="#aab3bd" stroke-width="1"/>
+<text x="372.3" y="243" font-size="9" fill="#6b7480" text-anchor="start" font-family="DejaVu Sans, sans-serif">179 bp</text>
+<text x="378.3" y="188" font-size="9" fill="#6b7480" font-family="DejaVu Sans, sans-serif">2 PARTs</text>
+<text x="368.3" y="167" font-size="9" fill="#6b7480" text-anchor="end" font-style="italic" font-family="DejaVu Sans, sans-serif">ATP-dependent RNA helicase rrp3 (LOC34619020)</text>
+<text x="118" y="296" font-size="12.5" fill="#1b1f24" text-anchor="end" font-weight="bold" font-family="DejaVu Sans, sans-serif">Nu_CDS3</text>
+<text x="118" y="310" font-size="8.5" fill="#6b7480" text-anchor="end" font-family="DejaVu Sans, sans-serif">2 SNPs</text>
+<rect x="132" y="282" width="290.4" height="20" rx="2" fill="#e8ecf1"/>
+<rect x="161.0" y="282" width="117.5" height="20" fill="#3f6fa8" stroke="#ffffff" stroke-width="0.8"/>
+<text x="219.8" y="296" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans, sans-serif">A</text>
+<rect x="278.5" y="282" width="117.5" height="20" fill="#5a8bc4" stroke="#ffffff" stroke-width="0.8"/>
+<text x="337.3" y="296" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans, sans-serif">B</text>
+<polygon points="132.0,282 155.0,282 161.0,292.0 155.0,302 132.0,302" fill="#c8553d" opacity="0.92"/>
+<text x="132.0" y="316" font-size="8.5" fill="#c8553d" text-anchor="start" font-family="DejaVu Sans Mono, monospace">GT3-F &#183; 22 nt</text>
+<polygon points="422.4,282 402.0,282 396.0,292.0 402.0,302 422.4,302" fill="#c8553d" opacity="0.92"/>
+<text x="422.4" y="316" font-size="8.5" fill="#c8553d" text-anchor="end" font-family="DejaVu Sans Mono, monospace">GT3N-R &#183; 20 nt</text>
+<line x1="132" y1="336" x2="422.4" y2="336" stroke="#aab3bd" stroke-width="1"/>
+<line x1="132.0" y1="336" x2="132.0" y2="341" stroke="#aab3bd" stroke-width="1"/>
+<text x="132.0" y="351" font-size="9" fill="#6b7480" text-anchor="middle" font-family="DejaVu Sans, sans-serif">0</text>
+<line x1="198.0" y1="336" x2="198.0" y2="339" stroke="#aab3bd" stroke-width="1"/>
+<line x1="264.0" y1="336" x2="264.0" y2="341" stroke="#aab3bd" stroke-width="1"/>
+<text x="264.0" y="351" font-size="9" fill="#6b7480" text-anchor="middle" font-family="DejaVu Sans, sans-serif">100</text>
+<line x1="330.0" y1="336" x2="330.0" y2="339" stroke="#aab3bd" stroke-width="1"/>
+<line x1="396.0" y1="336" x2="396.0" y2="341" stroke="#aab3bd" stroke-width="1"/>
+<text x="396.0" y="351" font-size="9" fill="#6b7480" text-anchor="middle" font-family="DejaVu Sans, sans-serif">200</text>
+<line x1="422.4" y1="336" x2="422.4" y2="341" stroke="#aab3bd" stroke-width="1"/>
+<text x="426.4" y="351" font-size="9" fill="#6b7480" text-anchor="start" font-family="DejaVu Sans, sans-serif">220 bp</text>
+<text x="432.4" y="296" font-size="9" fill="#6b7480" font-family="DejaVu Sans, sans-serif">2 PARTs</text>
+<text x="422.4" y="275" font-size="9" fill="#6b7480" text-anchor="end" font-style="italic" font-family="DejaVu Sans, sans-serif">uncharacterised (LOC34620832)</text>
+<text x="118" y="404" font-size="12.5" fill="#1b1f24" text-anchor="end" font-weight="bold" font-family="DejaVu Sans, sans-serif">Nu_CDS2</text>
+<text x="118" y="418" font-size="8.5" fill="#6b7480" text-anchor="end" font-family="DejaVu Sans, sans-serif">1 SNP</text>
+<rect x="132" y="390" width="324.7" height="20" rx="2" fill="#e8ecf1"/>
+<rect x="158.4" y="390" width="136.0" height="20" fill="#3f6fa8" stroke="#ffffff" stroke-width="0.8"/>
+<text x="226.4" y="404" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans, sans-serif">A</text>
+<rect x="294.4" y="390" width="136.0" height="20" fill="#5a8bc4" stroke="#ffffff" stroke-width="0.8"/>
+<text x="362.3" y="404" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans, sans-serif">B</text>
+<polygon points="132.0,390 152.4,390 158.4,400.0 152.4,410 132.0,410" fill="#c8553d" opacity="0.92"/>
+<text x="132.0" y="424" font-size="8.5" fill="#c8553d" text-anchor="start" font-family="DejaVu Sans Mono, monospace">GT2-F &#183; 20 nt</text>
+<polygon points="456.7,390 436.3,390 430.3,400.0 436.3,410 456.7,410" fill="#c8553d" opacity="0.92"/>
+<text x="456.7" y="424" font-size="8.5" fill="#c8553d" text-anchor="end" font-family="DejaVu Sans Mono, monospace">GT2N-R &#183; 20 nt</text>
+<line x1="132" y1="444" x2="456.7" y2="444" stroke="#aab3bd" stroke-width="1"/>
+<line x1="132.0" y1="444" x2="132.0" y2="449" stroke="#aab3bd" stroke-width="1"/>
+<text x="132.0" y="459" font-size="9" fill="#6b7480" text-anchor="middle" font-family="DejaVu Sans, sans-serif">0</text>
+<line x1="198.0" y1="444" x2="198.0" y2="447" stroke="#aab3bd" stroke-width="1"/>
+<line x1="264.0" y1="444" x2="264.0" y2="449" stroke="#aab3bd" stroke-width="1"/>
+<text x="264.0" y="459" font-size="9" fill="#6b7480" text-anchor="middle" font-family="DejaVu Sans, sans-serif">100</text>
+<line x1="330.0" y1="444" x2="330.0" y2="447" stroke="#aab3bd" stroke-width="1"/>
+<line x1="396.0" y1="444" x2="396.0" y2="449" stroke="#aab3bd" stroke-width="1"/>
+<text x="396.0" y="459" font-size="9" fill="#6b7480" text-anchor="middle" font-family="DejaVu Sans, sans-serif">200</text>
+<line x1="456.7" y1="444" x2="456.7" y2="449" stroke="#aab3bd" stroke-width="1"/>
+<text x="460.7" y="459" font-size="9" fill="#6b7480" text-anchor="start" font-family="DejaVu Sans, sans-serif">246 bp</text>
+<text x="466.7" y="404" font-size="9" fill="#6b7480" font-family="DejaVu Sans, sans-serif">2 PARTs</text>
+<text x="456.7" y="383" font-size="9" fill="#6b7480" text-anchor="end" font-style="italic" font-family="DejaVu Sans, sans-serif">U3 snoRNA-associated protein 11 (LOC34621252)</text>
+<text x="118" y="512" font-size="12.5" fill="#1b1f24" text-anchor="end" font-weight="bold" font-family="DejaVu Sans, sans-serif">Nu_378</text>
+<text x="118" y="526" font-size="8.5" fill="#6b7480" text-anchor="end" font-family="DejaVu Sans, sans-serif">15 SNPs</text>
+<rect x="132" y="498" width="619.1" height="20" rx="2" fill="#e8ecf1"/>
+<rect x="161.0" y="498" width="150.5" height="20" fill="#3f6fa8" stroke="#ffffff" stroke-width="0.8"/>
+<text x="236.3" y="512" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans, sans-serif">A</text>
+<rect x="311.5" y="498" width="132.0" height="20" fill="#5a8bc4" stroke="#ffffff" stroke-width="0.8"/>
+<text x="377.5" y="512" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans, sans-serif">B</text>
+<rect x="443.5" y="498" width="132.0" height="20" fill="#3f6fa8" stroke="#ffffff" stroke-width="0.8"/>
+<text x="509.5" y="512" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans, sans-serif">C</text>
+<rect x="575.5" y="498" width="150.5" height="20" fill="#5a8bc4" stroke="#ffffff" stroke-width="0.8"/>
+<text x="650.8" y="512" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans, sans-serif">D</text>
+<polygon points="132.0,498 155.0,498 161.0,508.0 155.0,518 132.0,518" fill="#c8553d" opacity="0.92"/>
+<text x="132.0" y="532" font-size="8.5" fill="#c8553d" text-anchor="start" font-family="DejaVu Sans Mono, monospace">HC378F &#183; 22 nt</text>
+<polygon points="751.1,498 732.0,498 726.0,508.0 732.0,518 751.1,518" fill="#c8553d" opacity="0.92"/>
+<text x="751.1" y="532" font-size="8.5" fill="#c8553d" text-anchor="end" font-family="DejaVu Sans Mono, monospace">HC378R &#183; 19 nt</text>
+<line x1="132" y1="552" x2="751.1" y2="552" stroke="#aab3bd" stroke-width="1"/>
+<line x1="132.0" y1="552" x2="132.0" y2="557" stroke="#aab3bd" stroke-width="1"/>
+<text x="132.0" y="567" font-size="9" fill="#6b7480" text-anchor="middle" font-family="DejaVu Sans, sans-serif">0</text>
+<line x1="198.0" y1="552" x2="198.0" y2="555" stroke="#aab3bd" stroke-width="1"/>
+<line x1="264.0" y1="552" x2="264.0" y2="557" stroke="#aab3bd" stroke-width="1"/>
+<text x="264.0" y="567" font-size="9" fill="#6b7480" text-anchor="middle" font-family="DejaVu Sans, sans-serif">100</text>
+<line x1="330.0" y1="552" x2="330.0" y2="555" stroke="#aab3bd" stroke-width="1"/>
+<line x1="396.0" y1="552" x2="396.0" y2="557" stroke="#aab3bd" stroke-width="1"/>
+<text x="396.0" y="567" font-size="9" fill="#6b7480" text-anchor="middle" font-family="DejaVu Sans, sans-serif">200</text>
+<line x1="462.0" y1="552" x2="462.0" y2="555" stroke="#aab3bd" stroke-width="1"/>
+<line x1="528.0" y1="552" x2="528.0" y2="557" stroke="#aab3bd" stroke-width="1"/>
+<text x="528.0" y="567" font-size="9" fill="#6b7480" text-anchor="middle" font-family="DejaVu Sans, sans-serif">300</text>
+<line x1="594.0" y1="552" x2="594.0" y2="555" stroke="#aab3bd" stroke-width="1"/>
+<line x1="660.0" y1="552" x2="660.0" y2="557" stroke="#aab3bd" stroke-width="1"/>
+<text x="660.0" y="567" font-size="9" fill="#6b7480" text-anchor="middle" font-family="DejaVu Sans, sans-serif">400</text>
+<line x1="726.0" y1="552" x2="726.0" y2="555" stroke="#aab3bd" stroke-width="1"/>
+<line x1="751.1" y1="552" x2="751.1" y2="557" stroke="#aab3bd" stroke-width="1"/>
+<text x="755.1" y="567" font-size="9" fill="#6b7480" text-anchor="start" font-family="DejaVu Sans, sans-serif">469 bp</text>
+<text x="761.1" y="512" font-size="9" fill="#6b7480" font-family="DejaVu Sans, sans-serif">4 PARTs</text>
+<text x="751.1" y="491" font-size="9" fill="#6b7480" text-anchor="end" font-style="italic" font-family="DejaVu Sans, sans-serif">Sec14 family protein</text>
+<text x="118" y="620" font-size="12.5" fill="#1b1f24" text-anchor="end" font-weight="bold" font-family="DejaVu Sans, sans-serif">Nu_360i2</text>
+<text x="118" y="634" font-size="8.5" fill="#6b7480" text-anchor="end" font-family="DejaVu Sans, sans-serif">20 SNPs</text>
+<rect x="132" y="606" width="858.0" height="20" rx="2" fill="#e8ecf1"/>
+<rect x="158.4" y="606" width="132.0" height="20" fill="#3f6fa8" stroke="#ffffff" stroke-width="0.8"/>
+<text x="224.4" y="620" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans, sans-serif">A</text>
+<rect x="290.4" y="606" width="132.0" height="20" fill="#5a8bc4" stroke="#ffffff" stroke-width="0.8"/>
+<text x="356.4" y="620" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans, sans-serif">B</text>
+<rect x="422.4" y="606" width="132.0" height="20" fill="#3f6fa8" stroke="#ffffff" stroke-width="0.8"/>
+<text x="488.4" y="620" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans, sans-serif">C</text>
+<rect x="554.4" y="606" width="132.0" height="20" fill="#5a8bc4" stroke="#ffffff" stroke-width="0.8"/>
+<text x="620.4" y="620" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans, sans-serif">D</text>
+<rect x="686.4" y="606" width="132.0" height="20" fill="#3f6fa8" stroke="#ffffff" stroke-width="0.8"/>
+<text x="752.4" y="620" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans, sans-serif">E</text>
+<rect x="818.4" y="606" width="145.2" height="20" fill="#5a8bc4" stroke="#ffffff" stroke-width="0.8"/>
+<text x="891.0" y="620" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans, sans-serif">F</text>
+<polygon points="132.0,606 152.4,606 158.4,616.0 152.4,626 132.0,626" fill="#c8553d" opacity="0.92"/>
+<text x="132.0" y="640" font-size="8.5" fill="#c8553d" text-anchor="start" font-family="DejaVu Sans Mono, monospace">HC360i2F &#183; 20 nt</text>
+<polygon points="990.0,606 969.6,606 963.6,616.0 969.6,626 990.0,626" fill="#c8553d" opacity="0.92"/>
+<text x="990.0" y="640" font-size="8.5" fill="#c8553d" text-anchor="end" font-family="DejaVu Sans Mono, monospace">HC360i2R &#183; 20 nt</text>
+<line x1="132" y1="660" x2="990.0" y2="660" stroke="#aab3bd" stroke-width="1"/>
+<line x1="132.0" y1="660" x2="132.0" y2="665" stroke="#aab3bd" stroke-width="1"/>
+<text x="132.0" y="675" font-size="9" fill="#6b7480" text-anchor="middle" font-family="DejaVu Sans, sans-serif">0</text>
+<line x1="198.0" y1="660" x2="198.0" y2="663" stroke="#aab3bd" stroke-width="1"/>
+<line x1="264.0" y1="660" x2="264.0" y2="665" stroke="#aab3bd" stroke-width="1"/>
+<text x="264.0" y="675" font-size="9" fill="#6b7480" text-anchor="middle" font-family="DejaVu Sans, sans-serif">100</text>
+<line x1="330.0" y1="660" x2="330.0" y2="663" stroke="#aab3bd" stroke-width="1"/>
+<line x1="396.0" y1="660" x2="396.0" y2="665" stroke="#aab3bd" stroke-width="1"/>
+<text x="396.0" y="675" font-size="9" fill="#6b7480" text-anchor="middle" font-family="DejaVu Sans, sans-serif">200</text>
+<line x1="462.0" y1="660" x2="462.0" y2="663" stroke="#aab3bd" stroke-width="1"/>
+<line x1="528.0" y1="660" x2="528.0" y2="665" stroke="#aab3bd" stroke-width="1"/>
+<text x="528.0" y="675" font-size="9" fill="#6b7480" text-anchor="middle" font-family="DejaVu Sans, sans-serif">300</text>
+<line x1="594.0" y1="660" x2="594.0" y2="663" stroke="#aab3bd" stroke-width="1"/>
+<line x1="660.0" y1="660" x2="660.0" y2="665" stroke="#aab3bd" stroke-width="1"/>
+<text x="660.0" y="675" font-size="9" fill="#6b7480" text-anchor="middle" font-family="DejaVu Sans, sans-serif">400</text>
+<line x1="726.0" y1="660" x2="726.0" y2="663" stroke="#aab3bd" stroke-width="1"/>
+<line x1="792.0" y1="660" x2="792.0" y2="665" stroke="#aab3bd" stroke-width="1"/>
+<text x="792.0" y="675" font-size="9" fill="#6b7480" text-anchor="middle" font-family="DejaVu Sans, sans-serif">500</text>
+<line x1="858.0" y1="660" x2="858.0" y2="663" stroke="#aab3bd" stroke-width="1"/>
+<line x1="924.0" y1="660" x2="924.0" y2="665" stroke="#aab3bd" stroke-width="1"/>
+<text x="924.0" y="675" font-size="9" fill="#6b7480" text-anchor="middle" font-family="DejaVu Sans, sans-serif">600</text>
+<line x1="990.0" y1="660" x2="990.0" y2="663" stroke="#aab3bd" stroke-width="1"/>
+<line x1="990.0" y1="660" x2="990.0" y2="665" stroke="#aab3bd" stroke-width="1"/>
+<text x="994.0" y="675" font-size="9" fill="#6b7480" text-anchor="start" font-family="DejaVu Sans, sans-serif">650 bp</text>
+<text x="1000.0" y="620" font-size="9" fill="#6b7480" font-family="DejaVu Sans, sans-serif">6 PARTs</text>
+<text x="990.0" y="599" font-size="9" fill="#6b7480" text-anchor="end" font-style="italic" font-family="DejaVu Sans, sans-serif">undefined</text>
+<text x="118" y="728" font-size="12.5" fill="#1b1f24" text-anchor="end" font-weight="bold" font-family="DejaVu Sans, sans-serif">Mt_MSR</text>
+<text x="118" y="742" font-size="8.5" fill="#6b7480" text-anchor="end" font-family="DejaVu Sans, sans-serif">4 SNPs</text>
+<rect x="132" y="714" width="905.5" height="20" rx="2" fill="#e8ecf1"/>
+<rect x="159.7" y="714" width="161.0" height="20" fill="#3f6fa8" stroke="#ffffff" stroke-width="0.8"/>
+<text x="240.2" y="728" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans, sans-serif">A</text>
+<rect x="320.8" y="714" width="132.0" height="20" fill="#5a8bc4" stroke="#ffffff" stroke-width="0.8"/>
+<text x="386.8" y="728" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans, sans-serif">B</text>
+<rect x="452.8" y="714" width="132.0" height="20" fill="#3f6fa8" stroke="#ffffff" stroke-width="0.8"/>
+<text x="518.8" y="728" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans, sans-serif">C</text>
+<rect x="584.8" y="714" width="132.0" height="20" fill="#5a8bc4" stroke="#ffffff" stroke-width="0.8"/>
+<text x="650.8" y="728" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans, sans-serif">D</text>
+<rect x="716.8" y="714" width="132.0" height="20" fill="#3f6fa8" stroke="#ffffff" stroke-width="0.8"/>
+<text x="782.8" y="728" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans, sans-serif">E</text>
+<rect x="848.8" y="714" width="161.0" height="20" fill="#5a8bc4" stroke="#ffffff" stroke-width="0.8"/>
+<text x="929.3" y="728" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans, sans-serif">F</text>
+<polygon points="132.0,714 153.7,714 159.7,724.0 153.7,734 132.0,734" fill="#c8553d" opacity="0.92"/>
+<text x="132.0" y="748" font-size="8.5" fill="#c8553d" text-anchor="start" font-family="DejaVu Sans Mono, monospace">15F &#183; 21 nt</text>
+<polygon points="1037.5,714 1015.8,714 1009.8,724.0 1015.8,734 1037.5,734" fill="#c8553d" opacity="0.92"/>
+<text x="1037.5" y="748" font-size="8.5" fill="#c8553d" text-anchor="end" font-family="DejaVu Sans Mono, monospace">688R &#183; 21 nt</text>
+<line x1="132" y1="768" x2="1037.5" y2="768" stroke="#aab3bd" stroke-width="1"/>
+<line x1="132.0" y1="768" x2="132.0" y2="773" stroke="#aab3bd" stroke-width="1"/>
+<text x="132.0" y="783" font-size="9" fill="#6b7480" text-anchor="middle" font-family="DejaVu Sans, sans-serif">0</text>
+<line x1="198.0" y1="768" x2="198.0" y2="771" stroke="#aab3bd" stroke-width="1"/>
+<line x1="264.0" y1="768" x2="264.0" y2="773" stroke="#aab3bd" stroke-width="1"/>
+<text x="264.0" y="783" font-size="9" fill="#6b7480" text-anchor="middle" font-family="DejaVu Sans, sans-serif">100</text>
+<line x1="330.0" y1="768" x2="330.0" y2="771" stroke="#aab3bd" stroke-width="1"/>
+<line x1="396.0" y1="768" x2="396.0" y2="773" stroke="#aab3bd" stroke-width="1"/>
+<text x="396.0" y="783" font-size="9" fill="#6b7480" text-anchor="middle" font-family="DejaVu Sans, sans-serif">200</text>
+<line x1="462.0" y1="768" x2="462.0" y2="771" stroke="#aab3bd" stroke-width="1"/>
+<line x1="528.0" y1="768" x2="528.0" y2="773" stroke="#aab3bd" stroke-width="1"/>
+<text x="528.0" y="783" font-size="9" fill="#6b7480" text-anchor="middle" font-family="DejaVu Sans, sans-serif">300</text>
+<line x1="594.0" y1="768" x2="594.0" y2="771" stroke="#aab3bd" stroke-width="1"/>
+<line x1="660.0" y1="768" x2="660.0" y2="773" stroke="#aab3bd" stroke-width="1"/>
+<text x="660.0" y="783" font-size="9" fill="#6b7480" text-anchor="middle" font-family="DejaVu Sans, sans-serif">400</text>
+<line x1="726.0" y1="768" x2="726.0" y2="771" stroke="#aab3bd" stroke-width="1"/>
+<line x1="792.0" y1="768" x2="792.0" y2="773" stroke="#aab3bd" stroke-width="1"/>
+<text x="792.0" y="783" font-size="9" fill="#6b7480" text-anchor="middle" font-family="DejaVu Sans, sans-serif">500</text>
+<line x1="858.0" y1="768" x2="858.0" y2="771" stroke="#aab3bd" stroke-width="1"/>
+<line x1="924.0" y1="768" x2="924.0" y2="773" stroke="#aab3bd" stroke-width="1"/>
+<text x="924.0" y="783" font-size="9" fill="#6b7480" text-anchor="middle" font-family="DejaVu Sans, sans-serif">600</text>
+<line x1="990.0" y1="768" x2="990.0" y2="771" stroke="#aab3bd" stroke-width="1"/>
+<line x1="1037.5" y1="768" x2="1037.5" y2="773" stroke="#aab3bd" stroke-width="1"/>
+<text x="1041.5" y="783" font-size="9" fill="#6b7480" text-anchor="start" font-family="DejaVu Sans, sans-serif">686 bp</text>
+<text x="1047.5" y="728" font-size="9" fill="#6b7480" font-family="DejaVu Sans, sans-serif">6 PARTs</text>
+<text x="1037.5" y="707" font-size="9" fill="#6b7480" text-anchor="end" font-style="italic" font-family="DejaVu Sans, sans-serif">mitochondrial rRNA</text>
+<text x="118" y="826" font-size="12.5" fill="#1b1f24" text-anchor="end" font-weight="bold" font-family="DejaVu Sans, sans-serif">Mt_Junction</text>
+<text x="118" y="839" font-size="8.5" fill="#6b7480" text-anchor="end" font-family="DejaVu Sans, sans-serif">no PARTs</text>
+<text x="132" y="839" font-size="9" fill="#6b7480" font-style="italic" font-family="DejaVu Sans, sans-serif">mitochondrial concatemer junction &#183; typed by repeat-length class, not by sub-interval</text>
+<rect x="132" y="852" width="143.9" height="16" rx="2" fill="#e8ecf1"/>
+<rect x="132" y="852" width="29.0" height="16" fill="#c8553d" opacity="0.92"/>
+<rect x="248.2" y="852" width="27.7" height="16" fill="#c8553d" opacity="0.92"/>
+<text x="118" y="864" font-size="9.5" fill="#1b1f24" text-anchor="end" font-family="DejaVu Sans Mono, monospace">Cmt109</text>
+<text x="285.9" y="864" font-size="9" fill="#6b7480" font-family="DejaVu Sans, sans-serif">109 bp &#183; 0 repeats</text>
+<rect x="132" y="875" width="178.2" height="16" rx="2" fill="#e8ecf1"/>
+<rect x="132" y="875" width="29.0" height="16" fill="#c8553d" opacity="0.92"/>
+<rect x="216.5" y="875" width="19.8" height="16" fill="#7a9a5b" stroke="#ffffff" stroke-width="0.8"/>
+<text x="118" y="887" font-size="9.5" fill="#1b1f24" text-anchor="end" font-family="DejaVu Sans Mono, monospace">Cmt127</text>
+<text x="320.2" y="887" font-size="9" fill="#6b7480" font-family="DejaVu Sans, sans-serif">135 bp &#183; 1 repeat</text>
+<rect x="132" y="898" width="203.3" height="16" rx="2" fill="#e8ecf1"/>
+<rect x="132" y="898" width="29.0" height="16" fill="#c8553d" opacity="0.92"/>
+<rect x="307.6" y="898" width="27.7" height="16" fill="#c8553d" opacity="0.92"/>
+<rect x="216.5" y="898" width="19.8" height="16" fill="#7a9a5b" stroke="#ffffff" stroke-width="0.8"/>
+<rect x="236.3" y="898" width="19.8" height="16" fill="#7a9a5b" stroke="#ffffff" stroke-width="0.8"/>
+<text x="118" y="910" font-size="9.5" fill="#1b1f24" text-anchor="end" font-family="DejaVu Sans Mono, monospace">Cmt154</text>
+<text x="345.3" y="910" font-size="9" fill="#6b7480" font-family="DejaVu Sans, sans-serif">154 bp &#183; 2 repeats</text>
+<rect x="132" y="921" width="223.1" height="16" rx="2" fill="#e8ecf1"/>
+<rect x="132" y="921" width="29.0" height="16" fill="#c8553d" opacity="0.92"/>
+<rect x="327.4" y="921" width="27.7" height="16" fill="#c8553d" opacity="0.92"/>
+<rect x="216.5" y="921" width="19.8" height="16" fill="#7a9a5b" stroke="#ffffff" stroke-width="0.8"/>
+<rect x="236.3" y="921" width="19.8" height="16" fill="#7a9a5b" stroke="#ffffff" stroke-width="0.8"/>
+<rect x="256.1" y="921" width="19.8" height="16" fill="#7a9a5b" stroke="#ffffff" stroke-width="0.8"/>
+<text x="118" y="933" font-size="9.5" fill="#1b1f24" text-anchor="end" font-family="DejaVu Sans Mono, monospace">Cmt169</text>
+<text x="365.1" y="933" font-size="9" fill="#6b7480" font-family="DejaVu Sans, sans-serif">169 bp &#183; 3 repeats</text>
+<rect x="132" y="944" width="242.9" height="16" rx="2" fill="#e8ecf1"/>
+<rect x="132" y="944" width="29.0" height="16" fill="#c8553d" opacity="0.92"/>
+<rect x="347.2" y="944" width="27.7" height="16" fill="#c8553d" opacity="0.92"/>
+<rect x="216.5" y="944" width="19.8" height="16" fill="#7a9a5b" stroke="#ffffff" stroke-width="0.8"/>
+<rect x="236.3" y="944" width="19.8" height="16" fill="#7a9a5b" stroke="#ffffff" stroke-width="0.8"/>
+<rect x="256.1" y="944" width="19.8" height="16" fill="#7a9a5b" stroke="#ffffff" stroke-width="0.8"/>
+<rect x="275.9" y="944" width="19.8" height="16" fill="#7a9a5b" stroke="#ffffff" stroke-width="0.8"/>
+<text x="118" y="956" font-size="9.5" fill="#1b1f24" text-anchor="end" font-family="DejaVu Sans Mono, monospace">Cmt184</text>
+<text x="384.9" y="956" font-size="9" fill="#6b7480" font-family="DejaVu Sans, sans-serif">184 bp &#183; 4 repeats</text>
+<rect x="132" y="967" width="262.7" height="16" rx="2" fill="#e8ecf1"/>
+<rect x="132" y="967" width="29.0" height="16" fill="#c8553d" opacity="0.92"/>
+<rect x="367.0" y="967" width="27.7" height="16" fill="#c8553d" opacity="0.92"/>
+<rect x="216.5" y="967" width="19.8" height="16" fill="#7a9a5b" stroke="#ffffff" stroke-width="0.8"/>
+<rect x="236.3" y="967" width="19.8" height="16" fill="#7a9a5b" stroke="#ffffff" stroke-width="0.8"/>
+<rect x="256.1" y="967" width="19.8" height="16" fill="#7a9a5b" stroke="#ffffff" stroke-width="0.8"/>
+<rect x="275.9" y="967" width="19.8" height="16" fill="#7a9a5b" stroke="#ffffff" stroke-width="0.8"/>
+<rect x="295.7" y="967" width="19.8" height="16" fill="#7a9a5b" stroke="#ffffff" stroke-width="0.8"/>
+<text x="118" y="979" font-size="9.5" fill="#1b1f24" text-anchor="end" font-family="DejaVu Sans Mono, monospace">Cmt199</text>
+<text x="404.7" y="979" font-size="9" fill="#6b7480" font-family="DejaVu Sans, sans-serif">199 bp &#183; 5 repeats</text>
+<rect x="132" y="990" width="282.5" height="16" rx="2" fill="#e8ecf1"/>
+<rect x="132" y="990" width="29.0" height="16" fill="#c8553d" opacity="0.92"/>
+<rect x="386.8" y="990" width="27.7" height="16" fill="#c8553d" opacity="0.92"/>
+<rect x="216.5" y="990" width="19.8" height="16" fill="#7a9a5b" stroke="#ffffff" stroke-width="0.8"/>
+<rect x="236.3" y="990" width="19.8" height="16" fill="#7a9a5b" stroke="#ffffff" stroke-width="0.8"/>
+<rect x="256.1" y="990" width="19.8" height="16" fill="#7a9a5b" stroke="#ffffff" stroke-width="0.8"/>
+<rect x="275.9" y="990" width="19.8" height="16" fill="#7a9a5b" stroke="#ffffff" stroke-width="0.8"/>
+<rect x="295.7" y="990" width="19.8" height="16" fill="#7a9a5b" stroke="#ffffff" stroke-width="0.8"/>
+<rect x="315.5" y="990" width="19.8" height="16" fill="#7a9a5b" stroke="#ffffff" stroke-width="0.8"/>
+<text x="118" y="1002" font-size="9.5" fill="#1b1f24" text-anchor="end" font-family="DejaVu Sans Mono, monospace">Cmt214</text>
+<text x="424.5" y="1002" font-size="9" fill="#6b7480" font-family="DejaVu Sans, sans-serif">214 bp &#183; 6 repeats</text>
+<text x="132" y="1027" font-size="9" fill="#6b7480" font-family="DejaVu Sans, sans-serif">cyclo_mit-100F / cyclo_mit-54R &#183; 15 nt motif in 3 variants, 2&#8211;6 copies &#8594; the 15 bp length ladder</text>
+<text x="132" y="1041" font-size="8.5" fill="#6b7480" font-family="DejaVu Sans, sans-serif">Naming caveat: the reference named Cmt127 is 135 bp, so the Cmt&lt;length&gt; label and the actual sequence length disagree for that class.</text>
+<text x="132" y="1054" font-size="8.5" fill="#6b7480" font-family="DejaVu Sans, sans-serif">Nu_CDS4&#8217;s reverse primer is named GT4N-F in the source table (Houghton et al. 2020, Table 1); reproduced here as published.</text>
+<rect x="132" y="1092" width="13" height="11" fill="#c8553d"/>
+<text x="150" y="1101" font-size="9.5" fill="#6b7480" font-family="DejaVu Sans, sans-serif">PCR primer</text>
+<rect x="234.0" y="1092" width="13" height="11" fill="#3f6fa8"/>
+<text x="252.0" y="1101" font-size="9.5" fill="#6b7480" font-family="DejaVu Sans, sans-serif">PART (haplotype interval)</text>
+<rect x="420.0" y="1092" width="13" height="11" fill="#7a9a5b"/>
+<text x="438.0" y="1101" font-size="9.5" fill="#6b7480" font-family="DejaVu Sans, sans-serif">15 nt junction repeat</text>
+<rect x="583.6" y="1092" width="13" height="11" fill="#e8ecf1"/>
+<text x="601.6" y="1101" font-size="9.5" fill="#6b7480" font-family="DejaVu Sans, sans-serif">amplicon, not called</text>
+</svg>

@@ -1,7 +1,6 @@
 ---
 title: "Galaxy Training Network CoFest"
 date: '2021-05-20'
-days: 1
 tease: "Connect with the Galaxy Training Community!"
 continent: GL
 location:

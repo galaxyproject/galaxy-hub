@@ -1,7 +1,7 @@
 ---
 title: "Galaxy @ Bio-IT World 2019"
 date: '2019-04-15'
-days: 4
+end: '2019-04-18'
 tease: ""
 continent: NA
 location:

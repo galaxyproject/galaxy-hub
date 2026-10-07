@@ -3,7 +3,7 @@ left:
       relativeTo: subsite
       target: news/
     - label: Tools
-      target: https://usegalaxy-eu.github.io/tools
+      target: /eu/tools/
     - label: Example Dropdown
       contents:
           - label: Local link
@@ -14,7 +14,7 @@ right:
     - label: FAQ
       target: /support/
     - label: People
-      target: https://usegalaxy-eu.github.io/people
+      target: /eu/people/
     - label: Help
       contents:
           - label: Get started

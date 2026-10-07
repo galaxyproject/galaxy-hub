@@ -26,7 +26,6 @@ LOCAL_BIBLIOGRAPHIES = [
     Path("content/eu/citations/citations-eu-manual.bib"),
     Path("content/belgium/citations/belgium.bib"),
     Path("content/elixir-it/citations/elixir-it.bib"),
-    Path("content/erasmusmc/citations/erasmusmc.bib"),
     Path("content/freiburg/citations/freiburg.bib"),
     Path("content/genouest/citations/genouest.bib"),
     Path("content/ifb/citations/ifb.bib"),

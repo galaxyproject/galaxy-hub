@@ -2,9 +2,9 @@
 title: 9th RepeatExplorer Workshop on the Application of Next Generation Sequencing
   to Repetitive DNA Analysis
 date: '2021-05-25'
+end: '2021-06-11'
 tease: Full. Theoretical and practical aspects of using next generation sequencing
   (NGS) data for analyzing repeat composition of plant genomes.
-days: 18
 continent: EU
 location:
   name: Institute of Plant Molecular Biology, Online, Ceske Budejovice, Czech Republic

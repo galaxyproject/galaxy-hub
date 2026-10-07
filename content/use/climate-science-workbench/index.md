@@ -21,7 +21,7 @@ citations:
   - " [Climate Analysis with Galaxy](https://gcc2019.sched.com/event/PSGY/climate-analysis-with-galaxy), by [Anne Fouilloux](https://www.mn.uio.no/geo/english/people/adm/annefou/), Kirstin Krüger, Jean Iaquinta, and presented at GCC2019."
 pub_libraries:
 sponsors:
-  - "[Freiburg Galaxy Project](https://usegalaxy-eu.github.io/freiburg/)"
+  - "[Freiburg Galaxy Project](/freiburg/)"
   - "[Galaxy Training Network](https://training.galaxyproject.org/)"
   - "[DFG](http://www.dfg.de/)"
   - "[German Federal Ministry of Education and Research](https://www.bmbf.de/)"

@@ -2,7 +2,6 @@
 title: 'Galaxy Community Call: Galaxy on AnVIL'
 date: '2022-05-26'
 tease: A forum to share updates and discuss community-wide topics
-days: 1
 continent: GL
 location:
   name: Galaxy Community Call, Online, Global

@@ -1,7 +1,6 @@
 ---
 title: "The Path from Galaxy Team to Galaxy Community"
 date: '2020-02-13'
-days: 1
 tease: "The shift in Galaxy"
 continent: GL
 location:

@@ -52,7 +52,7 @@ Conference housing is on campus in Reed College Dorms.  See the [venue informati
 
 GCCBOSC 2018 enthusiastically welcomes your kids (and offers childcare), *but the Reed College dorms do not.*  The dorms have a strict no minors policy, so if you are bringing your kids you'll need to stay off campus.
 
-See [Children at GCCBOSC 2018](/events/gccbosc2018/faq/#children-at-gccbosc2018) for lodging options, childcare and more.
+See [Children at GCCBOSC 2018](/events/gccbosc2018/faq/#children-at-gccbosc-2018) for lodging options, childcare and more.
 
 # Meals
 

@@ -1,7 +1,6 @@
 ---
 title:  "Epigenetics of Skin Workshop"
 date: '2019-04-01'
-days: 1
 tease: "Practical session for analysis of EWAS (Epigenome-Wide Association Studies) using DNA methylation profiles" 
 continent: "EU"
 location:

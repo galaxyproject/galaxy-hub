@@ -1,7 +1,7 @@
 ---
 title: "Galaxy Africa 2019"
 date: '2019-11-14'
-days: 2
+end: '2019-11-15'
 tease: "Galaxy related talks and training for researchers, and training for systems administrators who need to maintain a local installation."
 continent: AF
 location:

@@ -1,7 +1,6 @@
 ---
 title: "RNA Sequencing and Differential Expression"
 date: '2018-02-21'
-days: 1
 tease: Workshop
 continent: EU
 location:

@@ -6,7 +6,7 @@ tease: Matthias Fahrner from the University of Freiburg is defending his PhD tod
 hide_tease: true
 doi: 10.1093/gbe/evaa106
 tags: [paper, citations]
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 ---
 

@@ -18,14 +18,18 @@ import Supporters from '../../components/mdx/Supporters.astro';
 import Contacts from '../../components/mdx/Contacts.astro';
 import MdxIcon from '../../components/mdx/Icon.astro';
 import Insert from '../../components/mdx/Insert.astro';
+import CofestBoard from '../../components/CofestBoard.astro';
 import SupporterGrid from '../../components/content/SupporterGrid.astro';
 import { resolveSupporters } from '../../utils/supporters';
+import { isPastEvent } from '../../utils/dateUtils';
 import { extractFunding, extractAuthors, resolveAuthor } from '../../utils/contributors';
 import Icon from '../../components/ui/Icon.astro';
 import ReleaseGuardiansSummary from '../../components/release-guardians/Summary.astro';
 import ReleaseGuardiansSection from '../../components/release-guardians/Section.astro';
 import ReleaseGuardiansLabelPill from '../../components/release-guardians/LabelPill.astro';
 import ReleaseGuardiansCoordination from '../../components/release-guardians/Coordination.astro';
+import ReleaseGuardiansPhase from '../../components/release-guardians/Phase.astro';
+import ReleaseGuardiansRecap from '../../components/release-guardians/Recap.astro';
 
 interface ConferenceNavItem {
   slug: string;
@@ -63,10 +67,10 @@ export async function getStaticPaths() {
     const tags = Array.isArray(data.tags) ? data.tags : [];
     const hasConferenceTag = tags.some((tag) => typeof tag === 'string' && tag.toLowerCase() === 'conference');
     const hasConferenceKeyword = /conference|summit|symposium/i.test(title);
-    const hasDays = data.days !== undefined && data.days !== null;
+    const hasEnd = data.end !== undefined && data.end !== null;
     const explicitFlag = data.conference === true;
 
-    return explicitFlag || hasConferenceTag || hasConferenceKeyword || hasDays;
+    return explicitFlag || hasConferenceTag || hasConferenceKeyword || hasEnd;
   }
 
   function toTitleCaseSegment(segment: string): string {
@@ -232,6 +236,9 @@ const components = {
   ReleaseGuardiansSection,
   ReleaseGuardiansLabelPill,
   ReleaseGuardiansCoordination,
+  ReleaseGuardiansPhase,
+  ReleaseGuardiansRecap,
+  CofestBoard,
 };
 
 function toDate(d: Date | string | undefined): Date | null {
@@ -301,8 +308,7 @@ const imageUrl = event.data.image
     : `${site}${event.data.image}`
   : undefined;
 
-const eventEndDate = endDate || startDate;
-const isPast = eventEndDate ? eventEndDate < new Date() : false;
+const isPast = isPastEvent(date, end);
 const eventStatus = isPast ? 'https://schema.org/EventCompleted' : 'https://schema.org/EventScheduled';
 
 const schemaEvent = {

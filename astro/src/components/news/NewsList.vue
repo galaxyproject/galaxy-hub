@@ -4,6 +4,7 @@ import { useStore } from '@nanostores/vue';
 import { currentSubsite, subsites, type SubsiteId } from '@/stores/subsiteStore';
 import { renderMarkdownInline } from '@/utils/markdown';
 import { formatDate, getUTCYear } from '@/utils/dateUtils';
+import { contentMatchesSubsite } from '@/utils/subsites';
 import ExternalIcon from '../common/ExternalIcon.vue';
 
 interface NewsArticle {
@@ -50,13 +51,6 @@ onMounted(() => {
   hasMounted.value = true;
 });
 
-// Helper to normalize subsites to array
-function getSubsites(article: NewsArticle): string[] {
-  if (!article.subsites) return ['all'];
-  if (Array.isArray(article.subsites)) return article.subsites;
-  return [article.subsites];
-}
-
 // Filter articles based on current subsite
 const filteredBySubsite = computed(() => {
   const subsite = effectiveSubsite.value;
@@ -64,12 +58,7 @@ const filteredBySubsite = computed(() => {
     return props.articles;
   }
   return props.articles.filter((article) => {
-    const articleSubsites = getSubsites(article);
-    return (
-      articleSubsites.includes('all') ||
-      articleSubsites.includes(subsite) ||
-      articleSubsites.some((s) => s.toLowerCase() === subsite.toLowerCase())
-    );
+    return contentMatchesSubsite(article.subsites, subsite);
   });
 });
 
@@ -200,6 +189,7 @@ function displaySubsite(subsite: string): string {
         <!-- Older years dropdown -->
         <select
           v-if="olderYears.length > 0"
+          aria-label="Older years"
           :value="olderYears.includes(selectedYear as number) ? selectedYear : 'older'"
           @change="(e) => selectYear(Number((e.target as HTMLSelectElement).value))"
           :class="[

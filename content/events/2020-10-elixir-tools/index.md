@@ -1,7 +1,6 @@
 ---
 title: "Ask the ELIXIR-Tools Working Group - Anything!"
 date: '2020-10-15'
-days: 1
 tease: 'Answers to questions about Bio.tools, OpenEbench, BioContainers, and Galaxy workflows'
 continent: EU
 location:

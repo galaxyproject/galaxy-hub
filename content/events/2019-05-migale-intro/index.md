@@ -1,7 +1,6 @@
 ---
 title: "Initiation à l’utilisation de Galaxy"
 date: '2019-05-13'
-days: 1
 tease: 'Part of Cycle "Bioinformatique par la pratique" 2019'
 continent: EU
 location:

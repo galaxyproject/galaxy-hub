@@ -5,6 +5,7 @@
  */
 import ESGLayout from '../../../layouts/ESGLayout.astro';
 import { getCollection } from 'astro:content';
+import { isUpcomingEvent, isPastEvent } from '../../../utils/dateUtils';
 
 // Check for solo mode
 const solo = Astro.url.searchParams.get('solo') === 'true';
@@ -13,6 +14,7 @@ const solo = Astro.url.searchParams.get('solo') === 'true';
 const events = await getCollection('events');
 const now = new Date();
 
+// ESG is a project surface, so it intentionally uses narrow project tags rather than subsite-wide matching.
 const allEsgEvents = events
   .filter((e) => {
     const subsites = e.data.subsites || [];
@@ -24,9 +26,9 @@ const allEsgEvents = events
     return dateA.getTime() - dateB.getTime();
   });
 
-const upcomingEvents = allEsgEvents.filter((e) => new Date(e.data.date || 0) >= now);
+const upcomingEvents = allEsgEvents.filter((e) => isUpcomingEvent(e.data.date, e.data.end, now));
 const pastEvents = allEsgEvents
-  .filter((e) => new Date(e.data.date || 0) < now)
+  .filter((e) => isPastEvent(e.data.date, e.data.end, now))
   .reverse()
   .slice(0, 20);
 

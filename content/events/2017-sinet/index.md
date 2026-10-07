@@ -2,7 +2,7 @@
 title: '「Galaxy（ゲノムビッグデータ解析）におけるオンデマンド機能の活用」'
 tease: Utilization of On Demand Function in Galaxy (Genome Big Data Analysis)
 date: '2017-06-06'
-days: 3
+end: '2017-06-08'
 continent: AS
 location:
   name: SINET5, Tokyo, Japan

@@ -1,21 +1,29 @@
 ---
 import Card from './Card.astro';
 import { loadSnapshot, type GuardianPr, type SnapshotKind } from './data';
+import { LABELS, phaseFor, type Phase } from './labels';
 
 interface Props {
   version: string;
   kind: SnapshotKind;
-  emptyMessage: string;
+  /** Explicit override; otherwise derived from `phase`/`endDate`. */
+  emptyMessage?: string;
+  /** Explicit phase; otherwise derived from `endDate`. */
+  phase?: Phase;
+  /** Testing window end (YYYY-MM-DD); drives active vs. closed empty text. */
+  endDate?: string;
 }
-const { version, kind, emptyMessage } = Astro.props;
+const { version, kind, emptyMessage, phase, endDate } = Astro.props;
 const data = loadSnapshot(version);
 const prs: GuardianPr[] = data ? data[kind] : [];
+const resolvedPhase = phase ?? phaseFor(endDate);
+const resolvedEmpty = emptyMessage ?? LABELS[resolvedPhase][kind].empty;
 ---
 
 {
   prs.length === 0 ? (
     <div class="not-prose my-4 p-6 bg-light-bg bg-grid rounded-lg border border-ebony-clay-100 text-center text-chicago-500 italic">
-      {emptyMessage}
+      {resolvedEmpty}
     </div>
   ) : (
     <div class="not-prose my-4 p-4 bg-light-bg bg-grid rounded-lg border border-ebony-clay-100">

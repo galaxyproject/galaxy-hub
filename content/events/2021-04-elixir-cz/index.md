@@ -4,7 +4,6 @@ date: '2021-04-16'
 tease: a high level overview of the Galaxy Project - what it is, what it does and
   how to start using it. And the Elixir Galaxy and currently forming Galaxy Czech
   communities
-days: 1
 continent: EU
 location:
   name: ELIXIR CZ, Online, Czech Republic

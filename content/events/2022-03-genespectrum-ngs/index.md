@@ -1,7 +1,7 @@
 ---
 title: "NGS Data Analysis with Galaxy"
 date: "2022-03-01"
-days: 4
+end: "2022-03-04"
 tease: "A GeneSpectrum training offering"
 continent: AS
 location:

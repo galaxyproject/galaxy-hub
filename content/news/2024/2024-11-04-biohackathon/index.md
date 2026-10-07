@@ -57,7 +57,7 @@ Galaxy’s Total Perspective Vortex (TPV) plugin offers powerful scheduling capa
 ### Network Boot Skill Sharing
 Galaxy Europe's workload fluctuates, with idling servers during holidays and heavy job queues in peak seasons.
 We are currently using an OpenStack instance where we spin up our images, so-called 'Virtual Galaxy Compute Nodes' ([VGCN](https://github.com/usegalaxy-eu/vgcn)) which contain everything needed to pick up jobs from [HTCondor](https://htcondor.org/) and start crunching numbers.
-Although the cloud is convenient for splitting large machines into smaller units, such as dedicated training infrastructure ([TiaaS](https://usegalaxy-eu.github.io/tiaas.html)), it is challenging to maintain, complex, and inflexible for power-saving. While we can stop cloud VMs, the underlying hypervisor hardware cannot be powered off.
+Although the cloud is convenient for splitting large machines into smaller units, such as dedicated training infrastructure ([TiaaS](/eu/tiaas/)), it is challenging to maintain, complex, and inflexible for power-saving. While we can stop cloud VMs, the underlying hypervisor hardware cannot be powered off.
 Additionally, the hypervisor uses 5% of resources, and each VM uses another 5% for job management, leading to increased overhead, hardware wear, and energy use.
 Paradoxically, simplifying and saving power requires some initial added complexity.
 Moving away from the cloud should not require days in the data centre to install OSs on each node or address failed updates. So we need one OS image that is booted by all servers, just like in the cloud but on hardware.

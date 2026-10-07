@@ -1,7 +1,6 @@
 ---
 title: "Analyzing your own data in VectorBase"
 date: "2021-06-10"
-days: 1
 tease: "Analyze your own data in VectorBase"
 continent: NA
 location:

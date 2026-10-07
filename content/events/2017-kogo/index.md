@@ -1,7 +1,7 @@
 ---
 title: From Galaxy to Genomics using NGS Data
 date: '2017-02-08'
-days: 3
+end: '2017-02-10'
 tease: KOGO 2017
 continent: AS
 location:

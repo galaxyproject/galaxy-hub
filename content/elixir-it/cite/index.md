@@ -9,12 +9,17 @@ title: Cite us
 
 <div>
 
-<h2 class="bibliography">2024</h2>
-<ol class="bibliography">
+<h2 class=”bibliography”>2026</h2>
+<ol class=”bibliography”>
 
-<li><span id="laniakea_dashboard_2024">Tangaro,M.A. <i>et al.</i> (2024) Laniakea: an open solution to provide Galaxy “on-demand” instances over heterogeneous cloud infrastructures. <i>NAR Genomics and Bioinformatics, 2024, 6(4), lqae140</i>.</span><a href="https://doi.org/10.1093/nargab/lqae140"> DOI: 10.1093/nargab/lqae140</a>.</li>
-<br />
-<li><span id="galaxy_2024">The Galaxy Community (2024) The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update <i>Nucleic Acids Research, 2024, 52(W1), pp. W83–W94</i>.</span><a href="https://doi.org/10.1093/nar/gkae410"> DOI: 10.1093/nar/gkae410</a>.</li>
+<li><span id=”galaxy_2026”>The Galaxy Community (2026) Galaxy for accessible, reproducible, and collaborative data analyses: 2026 update <i>Nucleic Acids Research, 2026</i>.</span><a href=”https://doi.org/10.1093/nar/gkag469”> DOI: 10.1093/nar/gkag469</a>.</li>
+</ol>
+
+
+<h2 class=”bibliography”>2024</h2>
+<ol class=”bibliography”>
+
+<li><span id=”laniakea_dashboard_2024”>Tangaro,M.A. <i>et al.</i> (2024) Laniakea: an open solution to provide Galaxy “on-demand” instances over heterogeneous cloud infrastructures. <i>NAR Genomics and Bioinformatics, 2024, 6(4), lqae140</i>.</span><a href=”https://doi.org/10.1093/nargab/lqae140”> DOI: 10.1093/nargab/lqae140</a>.</li>
 </ol>
 
 
@@ -23,12 +28,6 @@ title: Cite us
 <li><span id="laniakea_dashboard_2023">Tangaro,M.A. <i>et al.</i> (2023) The Laniakea Dashboard and Storage Encryption Components: A Foundation for Developing On-Demand Cloud Services for Life Science. <i>Communications in Computer and Information Science, 2023, 1668 CCIS, pp. 179–191</i>.</span><a href="https://doi.org/10.1007/978-3-031-25380-5_14"> DOI: 10.1007/978-3-031-25380-5_14</a>.</li>
 <br />
 <li><span id="mandreoli_rcasc_2023">Mandreoli,P. <i>et al.</i> (2023) Using “Galaxy-rCASC”: A Public Galaxy Instance for Single-Cell RNA-Seq Data Analysis. <i>Methods in Molecular Biology, 2023, 2584, pp. 311–335</i>.</span><a href="https://doi.org/10.1007/978-1-0716-2756-3_16"> DOI: 10.1007/978-1-0716-2756-3_16</a>.</li>
-</ol>
-
-
-<h2 class="bibliography">2022</h2>
-<ol class="bibliography">
-<li><span id="galaxy_2022">The Galaxy Community (2024) The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2022 update <i>Nucleic Acids Research, 2022, 50(W1), pp. W345–W351</i>.</span><a href="https://doi.org/10.1093/nar/gkac247"> DOI: 10.1093/nar/gkac247</a>.</li>
 </ol>
 
 

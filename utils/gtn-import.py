@@ -154,12 +154,12 @@ for entry in feed.get("entries", []):
     elif import_type == "events":
         authors = ", ".join(a.get("name", "") for a in entry.get("authors", []))
         title = title.split("] ", 1)[-1]
-        date, duration, gtn = date_ymd, 1, True
+        date, end, gtn = date_ymd, None, True
         for tag in tags:
             if tag.startswith("starts:"):
                 date = isoparse(tag.split(":", 1)[1]).strftime("%Y-%m-%d")
-            elif tag.startswith("days:"):
-                duration = int(tag.split(":", 1)[1])
+            elif tag.startswith("ends:"):
+                end = isoparse(tag.split(":", 1)[1]).strftime("%Y-%m-%d")
             elif tag.startswith("new event-external"):
                 gtn = False
         if not gtn and link.startswith("https://galaxyproject.org/events/"):
@@ -191,7 +191,7 @@ for entry in feed.get("entries", []):
             "subsites": ["all"],
             "gtn": gtn,
             "date": date,
-            "days": duration,
+            **({"end": end} if end and end != date else {}),
             "title": str(title),
             "contact": authors,
             "location": {"name": location},

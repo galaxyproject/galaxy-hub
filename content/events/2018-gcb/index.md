@@ -1,7 +1,7 @@
 ---
 title: "Galaxy @ GCB 2018"
 date: '2018-09-25'
-days: 4
+end: '2018-09-28'
 continent: EU
 location:
   name: "German Conference on Bioinformatics (GCB), University of Vienna, Vienna, Austria"

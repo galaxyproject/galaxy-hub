@@ -1,7 +1,6 @@
 ---
 title: "RNA Sequencing (RNA-seq) and Differential Expression"
 date: '2021-12-06'
-days: 1
 tease: 'Using Galaxy and the command line. Register by 29 November.'
 continent: EU
 location:

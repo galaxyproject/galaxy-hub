@@ -1,7 +1,6 @@
 ---
 title: "An Introduction to NGS Platforms and Bioinformatics Analysis"
 date: '2021-05-10'
-days: 1
 tease: "Hands-on practical introduction to next generation sequencing technologies. No prior experience of using Galaxy is required."
 continent: AU
 location:

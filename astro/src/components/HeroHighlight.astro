@@ -3,16 +3,26 @@ import { normalizeSlug } from '../build/slug-utils.mjs';
 import HeroCarousel from './HeroCarousel.vue';
 
 // Edit these to change the homepage hero highlights.
-// Each entry needs { rawImage, link, alt }.
+// Each entry needs { rawImage, link, alt }; add `video: true` to draw a play
+// badge over the thumbnail and open the link in a new tab.
 // Set image to "" on an entry (or remove it) to skip that highlight.
 // If all images are empty, the Galaxy logo will be shown instead.
 // With multiple entries, they rotate as a carousel.
 const highlights = [
   {
-    rawImage: '/images/events/gcc2026/gcc2026-carousel.png',
-    link: '/events/gcc2026/',
-    alt: 'Galaxy Community Conference 2026',
+    rawImage: '/images/NAR-2026-Update.png',
+    link: 'https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkag469/8704296',
+    alt: 'Galaxy update published in Nucleic Acids Research',
   },
+  // A video highlight looks like this -- HeroCarousel renders it as a card with
+  // a play badge, and the link opens in a new tab:
+  // {
+  //   rawImage: '/images/some-thumbnail.jpg',
+  //   link: 'https://youtu.be/VIDEO_ID',
+  //   alt: 'Video title',
+  //   title: 'Video title',
+  //   video: true,
+  // },
 ];
 
 // Normalize directory segments to match preprocessing output.
@@ -26,7 +36,13 @@ function normalizeImagePath(src: string) {
 }
 
 const items = highlights
-  .map(({ rawImage, link, alt }) => ({ image: normalizeImagePath(rawImage), link, alt }))
+  .map(({ rawImage, link, alt, video, title }) => ({
+    image: normalizeImagePath(rawImage),
+    link,
+    alt,
+    video: !!video,
+    title,
+  }))
   .filter(({ image }) => image);
 ---
 

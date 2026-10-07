@@ -4,7 +4,6 @@ date: '2021-07-02'
 tease: Le module Galaxy vise à présenter l’environnement Galaxy, convivial d’utilisation
   pour celles et ceux qui seraient réfractaires à la programmation sous UNIX et R,
   et à vous accompagner dans sa prise en main.
-days: 1
 continent: EU
 location:
   name: Agrocampus Ouest, Rennes, France

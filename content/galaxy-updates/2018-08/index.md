@@ -306,7 +306,7 @@ A new paper to reference [when discussing Galaxy in the context of reproducibili
 
 * [**Practical Computational Reproducibility in the Life Sciences**](https://doi.org/10.1016/j.cels.2018.03.014), [Björn Grüning](/people/bjoern-gruening/), [John Chilton](/people/john-chilton/), Johannes Köster, Ryan Dale, Nicola Soranzo, [Marius van den Beek](https://github.com/mvdbeek), [Jeremy Goecks](/people/jeremy-goecks/), Rolf Backofen, [Anton Nekrutenko](/people/anton/), [James Taylor](/people/james-taylor/). *Cell Systems*, Volume 6, Issue 6, 27 June 2018, Pages 631-635, doi:10.1016/j.cels.2018.03.014
 
-And a new paper to reference [when discussing Galaxy training](/citing-galaxy/#training):
+And a new paper to reference [when discussing Galaxy training](/citing-galaxy/#training-and-education):
 
 * [**Community-Driven Data Analysis Training for Biology**](https://doi.org/10.1016/j.cels.2018.05.012), [Bérénice Batut](http://bebatut.fr/), Saskia Hiltemann, Andrea Bagnacani, [Dannon Baker](/people/dannon-baker/), Vivek Bhardwaj, Clemens Blank, Anthony Bretaudeau, Loraine Brillet-Guéguen, [Martin Čech](/people/marten/), [John Chilton](/people/john-chilton/), [Dave Clements](/people/dave-clements/), Olivia Doppelt-Azeroual, Anika Erxleben, Mallory Ann Freeberg, Simon Gladman, Youri Hoogstrate, Hans-Rudolf Hotz, Torsten Houwaart, Pratik Jagtap, Delphine Larivière, Gildas Le Corguillé, Thomas Manke, Fabien Mareuil, Fidel Ramírez, Devon, Ryan, Florian Christoph Sigloch, [Nicola Soranzo](https://www.earlham.ac.uk/nicola-soranzo), Joachim Wolff, Pavankumar Videm, Markus Wolfien, Aisanjiang Wubuli, Dilmurat Yusuf, Galaxy Training Network, [James Taylor](/people/james-taylor/), Rolf Backofen, [Anton Nekrutenko](/people/anton/), [Björn Grüning](/people/bjoern-gruening/). *Cell Systems*, Volume 6, Issue 6, 27 June 2018, Pages 752-758.e1
 
@@ -350,7 +350,7 @@ Edvard Martins de Oliveira, Júlio Cézar Estrella, Alexandre Cláudio Botazzo D
 
 The Galaxy is expanding! Please help it grow.
 
-* [Freiburg Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2018/01/18/openpositions/), Freiburg, Germany
+* [Freiburg Galaxy Team has open positions](/news/2018-01-18-openpositions/), Freiburg, Germany
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/news/2017-08-hiring-at-hopkins/), Baltimore, Maryland, United States
 

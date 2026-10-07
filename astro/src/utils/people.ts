@@ -7,7 +7,6 @@ import { buildGtnHallOfFameUrl, communitySlug } from './contributors';
 export const europeSites = {
   freiburg: 'Freiburg',
   ifb: 'ELIXIR France/IFB',
-  erasmusmc: 'Erasmus MC',
   'elixir-it': 'ELIXIR Italy',
   genouest: 'GenOuest',
   cz: 'Czech Republic',

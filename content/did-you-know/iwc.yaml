@@ -1,0 +1,19 @@
+title: Intergalactic Workflow Commission
+tease: A curated collection of high-quality, production-ready Galaxy workflows.
+body: |
+  The **Intergalactic Workflow Commission (IWC)** maintains a vetted library of
+  best-practice Galaxy workflows for common analyses. RNA-seq, variant calling,
+  metagenomics, and more. Each workflow is versioned, tested, and ready to import
+  directly into your Galaxy instance so you can run reproducible pipelines without
+  building them from scratch.
+subsites: [all]
+date: "2026-08-28"
+weight: 30
+images:
+  - url: https://raw.githubusercontent.com/galaxyproject/iwc/main/website/public/iwc_logo.png
+    alt: Logo of the Intergalactic Workflow Commission
+  - url: https://raw.githubusercontent.com/galaxyproject/iwc/main/workflows/transcriptomics/rnaseq-pe/rnaseq-pe-diagram.svg
+    alt: Diagram of the IWC paired-end RNA-seq analysis workflow
+links:
+  - url: https://iwc.galaxyproject.org/
+    text: Browse the workflow catalog

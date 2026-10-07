@@ -163,7 +163,7 @@ User support is provided through [a discourse-based forum](https://community.fra
 
 <img class="card-img-top" src="/use/ml-workbench/ml-workbench-logo.png" alt="ML Workbench" />
 
-A comprehensive set of data preprocessing, machine learning, deep learning and visualisation tools, consolidated workflows for end-to-end machine learning analysis and training materials to showcase the usage of these tools.  [This workbench](https://ml.usefalaxy.eu/) includes scikit-learn, Keras (a deep learning library based on TensorFlow) and various other tools to transform, learn and predict and plot your data.  The server is supported by the [Goecks Lab](https://goeckslab.org/) at OHSU and the [Freiburg Galaxy Project](https://usegalaxy-eu.github.io/freiburg/).
+A comprehensive set of data preprocessing, machine learning, deep learning and visualisation tools, consolidated workflows for end-to-end machine learning analysis and training materials to showcase the usage of these tools.  [This workbench](https://ml.usefalaxy.eu/) includes scikit-learn, Keras (a deep learning library based on TensorFlow) and various other tools to transform, learn and predict and plot your data.  The server is supported by the [Goecks Lab](https://goeckslab.org/) at OHSU and the [Freiburg Galaxy Project](/freiburg/).
 </div>
 
 

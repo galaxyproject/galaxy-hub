@@ -4,7 +4,7 @@ date: '2018-11-26'
 tags: [training]
 location:
   name: Freiburg, Germany
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 ---
 

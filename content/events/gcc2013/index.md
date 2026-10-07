@@ -1,7 +1,7 @@
 ---
 title: GCC2013
 date: '2013-06-30'
-days: 3
+end: '2013-07-02'
 tease: "The 2013 gathering of the global Galaxy community"
 continent: EU
 location:

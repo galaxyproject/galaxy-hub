@@ -35,6 +35,8 @@ A CI lint check enforces these rules on every PR. If your directory name doesn't
 
 **Date-prefixed directories** (like `2025-10-15-my-event`) keep the date prefix unchanged; only the part after the date is normalized.
 
+**Asset file naming**: Name new images and other asset files (`.png`, `.jpg`, `.pdf`, ...) in lowercase — `keynote.jpg`, not `Keynote.jpg`. Two files whose paths differ only in case (`Keynote.jpg` and `keynote.jpg`) collide on macOS and Windows, where only one lands in the working tree and git reports a phantom modification. The content lint fails on any such case-only collision, and on newly added asset files with uppercase names. Existing uppercase files are left alone.
+
 ## Writing content
 
 ### Frontmatter
@@ -62,7 +64,7 @@ Events have additional fields:
 
 | Field       | Description                                          |
 | :---------- | :--------------------------------------------------- |
-| `days`      | Duration in days                                     |
+| `end`       | Last day of a multi-day event, in `'YYYY-MM-DD'` format |
 | `continent` | Two-letter code: AF, AS, AU, EU, GL, NA, SA          |
 | `location`  | Object with `name:` and optional `url:`              |
 | `contact`   | Event contact information                            |

@@ -1,7 +1,7 @@
 ---
 title: GCC2012
 date: '2012-07-25'
-days: 3
+end: '2012-07-27'
 tease: "The 2014 gathering of the global Galaxy community"
 continent: NA
 location:

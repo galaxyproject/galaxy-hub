@@ -1,7 +1,6 @@
 ---
 title: "Galaxy Misconceptions Writeathon"
 date: '2022-04-06'
-days: 1
 tease: 
 continent: GL
 location:

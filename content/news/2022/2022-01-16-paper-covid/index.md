@@ -7,7 +7,7 @@ tease: 'Among the 30 non-synonymous nucleotide substitutions in the Omicron S-ge
 hide_tease: true
 doi: 10.1101/2022.01.14.476382
 tags: [paper, citations, covid-19, virology]
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   funding:

@@ -1,7 +1,7 @@
 ---
 title: "Pre-Conference Workshop on Galaxy Community, Tools and Workflows for Cheminformatics and NGS Data" 
 date: '2021-11-09'
-days: 2
+end: '2021-11-10'
 tease: "2 days of talks and hands-on learning"
 continent: AS
 location:

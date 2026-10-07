@@ -1,0 +1,43 @@
+---
+/**
+ * SkipLink - first focusable element of the shells with navigation before the content.
+ * Visually hidden until focused; targets <main id="main-content" tabindex="-1">.
+ */
+---
+
+<a href="#main-content" class="skip-link" data-print="hide">Skip to content</a>
+
+<style>
+  .skip-link {
+    position: fixed;
+    top: 0.75rem;
+    left: 0.75rem;
+    z-index: 10000;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    background: var(--color-galaxy-gold);
+    color: var(--color-galaxy-dark);
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .skip-link:focus {
+    outline: 2px solid var(--color-galaxy-dark);
+    outline-offset: 2px;
+  }
+
+  .skip-link:not(:focus) {
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+</style>
+
+<style is:global>
+  #main-content:focus {
+    outline: none;
+  }
+</style>

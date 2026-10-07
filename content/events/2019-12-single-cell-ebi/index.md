@@ -1,7 +1,6 @@
 ---
 title: "Single cell RNA-seq analysis using a Galaxy interface"
 date: '2019-12-11'
-days: 1
 tease: "Webinar, 15:30 UK time"
 continent: GL
 location:

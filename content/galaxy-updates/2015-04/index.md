@@ -414,7 +414,7 @@ One new [Community Log Board](/news/) entry was added in March:
 <br /><br />
 <span style="font-size: larger;"> Highlights </span>
 
- **[Release Versioning](/archive/dev-news-briefs/2015-03/#-versioning)**
+ **[Release Versioning](/archive/dev-news-briefs/2015-03/#release-versioning)**
 
   Starting with this distribution, an updated Galaxy release versioning system has been implemented. The versioning scheme is [Ubuntu-style](https://wiki.ubuntu.com/Releases).
 

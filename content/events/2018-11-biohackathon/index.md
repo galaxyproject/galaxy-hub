@@ -1,7 +1,7 @@
 ---
 title: "BioHackathon 2018 Paris"
 date: '2018-11-12'
-days: 5
+end: '2018-11-16'
 tease: "Advance the development of an open-source infrastructure for data integration"
 continent: EU
 location:

@@ -1,7 +1,7 @@
 ---
 title: "A primer for RNA-Seq processing, interpreting and visualization"
 date: '2018-06-27'
-days: 3
+end: '2018-06-29'
 tease: "Intended for MSc/PhD students, postdocs and researchers with background in life science research"
 continent: EU
 location:

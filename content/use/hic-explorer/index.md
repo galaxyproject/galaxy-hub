@@ -25,7 +25,7 @@ Hi-C data analysis, quality control and visualization](https://academic.oup.com/
 pub_libraries:
   - "HiCExplorer"
 sponsors:
-  - "[Freiburg Galaxy Project](https://usegalaxy-eu.github.io/freiburg/)"
+  - "[Freiburg Galaxy Project](/freiburg/)"
   - "[DFG](http://www.dfg.de/)"
   - "[German Federal Ministry of Education and Research](https://www.bmbf.de/)"
   - "[ELIXIR](https://www.elixir-europe.org/)"

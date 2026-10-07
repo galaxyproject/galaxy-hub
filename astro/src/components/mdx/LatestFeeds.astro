@@ -1,0 +1,49 @@
+---
+/**
+ * Side-by-side "latest news" / "upcoming events" feeds for bare landing pages.
+ *
+ * Replaces the pair of same-origin iframes these pages used to carry. The iframes
+ * were a Gridsome-era workaround: back then the feed lists needed a GraphQL
+ * page-query, which only ran in .vue page components, never in markdown. Astro
+ * queries the content collections at build time, so the cards render inline.
+ *
+ * The standalone /bare/<subsite>/latest/{news,events}/ routes stay put -- they are
+ * documented embed targets for external sites (see /eu/widgets/).
+ */
+import LatestNewsCard from '@/components/bare/LatestNewsCard.astro';
+import LatestEventsCard from '@/components/bare/LatestEventsCard.astro';
+
+interface Props {
+  subsite?: string;
+}
+
+const { subsite = 'eu' } = Astro.props;
+---
+
+<div class="latest-feeds not-prose">
+  <LatestNewsCard subsite={subsite} />
+  <LatestEventsCard subsite={subsite} />
+</div>
+
+<style>
+  /* Match the type scale the feeds had while they lived in their own document,
+     so the cards keep their compact look inside the surrounding prose. */
+  .latest-feeds {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin: 0 0 3rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+  }
+
+  @media (min-width: 768px) {
+    .latest-feeds {
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      align-items: start;
+    }
+  }
+</style>

@@ -25,5 +25,5 @@ citations:
   - "Baker, D., Beek, M. van den, Blankenberg, D., Bouvier, D., Chilton, J., Coraor, N., Coppens, F., Eguinoa, I., Gladman, S., Grüning, B., Keener, N., Larivière, D., Lonie, A., Pond, S. K., Maier, W., Nekrutenko, A., Taylor, J., & Weaver, S. (2020). [No more business as usual: Agile and effective responses to emerging pathogen threats require open data and open analytics](https://doi.org/10.1371/journal.ppat.1008643). *PLOS Pathogens*, 16(8), e1008643. DOI: 10.1371/journal.ppat.1008643"
 pub_libraries:
 sponsors:
-  - "The [Freiburg Galaxy Team](https://usegalaxy-eu.github.io/freiburg/) but also collectively by groups and individuals from across Europe"
+  - "The [Freiburg Galaxy Team](/freiburg/) but also collectively by groups and individuals from across Europe"
 ---

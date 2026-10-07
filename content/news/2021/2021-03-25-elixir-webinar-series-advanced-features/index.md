@@ -2,7 +2,7 @@
 title: 'Galaxy-ELIXIR webinars series: Advanced Features'
 date: '2021-03-25'
 tags: [talk, webinar, elixir]
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   authorship:

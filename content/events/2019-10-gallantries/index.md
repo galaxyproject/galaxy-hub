@@ -2,10 +2,10 @@
 title: 'RNA-seq workshop for beginners: from sequences to visualization using Galaxy
   and R'
 date: '2019-10-07'
+end: '2019-10-09'
 tease: The Gallantries team is offering its second RNA-seq workshop for beginners
   on October 7-9th. This workshop will be delivered simultaneously at 3 locations
   across Europe (Rotterdam, NL; Thessaloniki, GR; Tartu, EE).
-days: 3
 continent: EU
 location:
   name: Rotterdam, The Netherlands; Thessaloniki, Greece; Tartu, Estonia

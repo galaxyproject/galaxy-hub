@@ -1,7 +1,6 @@
 ---
 title: DOMPS SYMPOSIUM 2026
 date: '2026-03-26'
-days: 1
 tease: "The use of AI in biological research"
 continent: Europe
 location:
@@ -9,7 +8,7 @@ location:
   url: https://dompssymposium.wixsite.com/domps
 gtn: true
 contact: "Anup Kumar: kumara@informatik.uni-freiburg.de"
-tags: [conference, talk]
+tags: [conference, talk, nfdi]
 subsites: [all]
 contributions:
   instructors:
@@ -19,7 +18,7 @@ contributions:
     - uni-freiburg
     - elixir-europe
     - nfdi4plants
-    - nfdi
+    - nfdi4bioimage
 ---
 
 

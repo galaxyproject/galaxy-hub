@@ -1,7 +1,7 @@
 ---
 title: "Variant detection using Galaxy"
 date: '2018-05-15'
-days: 2
+end: '2018-05-16'
 tease: "No prior bioinformatics knowledge is required"
 continent: AU
 location:

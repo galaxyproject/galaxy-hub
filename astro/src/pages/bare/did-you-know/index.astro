@@ -1,0 +1,43 @@
+---
+/**
+ * Bare "Did you know" page (global).
+ * Shows a single randomly-sampled tip from the full collection; refreshing the
+ * page re-runs the client-side selection so a different tip (and a different
+ * sampled image/link) appears. Designed for iframe embedding — see /bare/.
+ */
+import BareArticleLayout from '../../../layouts/BareArticleLayout.astro';
+import DidYouKnowRandom, { type DykItem } from '../../../components/did-you-know/DidYouKnowRandom.vue';
+import { getDidYouKnow } from '../../../utils/did-you-know-server';
+import { toSerializable } from '../../../utils/did-you-know';
+
+const items = await getDidYouKnow('global');
+const serialized: DykItem[] = items.map(toSerializable);
+---
+
+<BareArticleLayout title="Did You Know" description="A random Galaxy tip. Refresh for another.">
+  <div class="dyk-bare">
+    <h1>Did You Know</h1>
+    <p class="dyk-intro">A random tip from the Galaxy community. Refresh the page for another.</p>
+    <DidYouKnowRandom client:load items={serialized} newTab showPermalink />
+  </div>
+</BareArticleLayout>
+
+<style>
+  .dyk-bare {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+
+  .dyk-bare h1 {
+    font-size: 1.5rem;
+    color: #25537b;
+    margin: 0 0 0.25rem;
+  }
+
+  .dyk-intro {
+    font-size: 0.9rem;
+    color: #64748b;
+    margin: 0 0 1rem;
+  }
+</style>

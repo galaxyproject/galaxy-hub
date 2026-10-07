@@ -5,7 +5,7 @@ end: '2020-10-15'
 location:
   name: online
 external_url: https://www.eventbrite.co.uk/e/elixir-tools-platform-ask-us-anything-registration-124523221307
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   funding:

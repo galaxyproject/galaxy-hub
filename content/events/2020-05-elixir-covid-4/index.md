@@ -1,7 +1,6 @@
 ---
 title: "Evolution of the Virus"
 date: '2020-05-20'
-days: 1
 tease: "Part of the Galaxy-ELIXIR webinar series"
 continent: EU
 location:

@@ -42,3 +42,18 @@ export function loadSnapshot(version: string): Snapshot | null {
   const key = `/src/data/release-guardians/${version}.json`;
   return snapshots[key]?.default ?? null;
 }
+
+/** A tester-recognition entry: a GitHub actor and how many PRs they validated. */
+export interface GuardianStat {
+  login: string;
+  url: string;
+  avatarUrl: string;
+  validatedCount: number;
+}
+
+/**
+ * Aggregate the `guardian` on each `complete` PR into a recognition list,
+ * sorted by validated count descending. Re-exports the pure helper from the
+ * build layer so components and tests share one implementation.
+ */
+export { aggregateGuardians } from '@/build/release-guardians-projection.mjs';

@@ -1,7 +1,7 @@
 ---
 title: "The European Galaxy server: A platform for accessible, reproducible and collaborative big data analyses"
 date: '2019-12-09'
-days: 3
+end: '2019-12-11'
 tease: ""
 continent: EU
 location:

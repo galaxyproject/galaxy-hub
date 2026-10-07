@@ -2,7 +2,6 @@
 title: GTN CoFest and call on Galaxy Training Material
 date: '2019-02-21'
 tease: ''
-days: 1
 continent: GL
 location:
   name: Online

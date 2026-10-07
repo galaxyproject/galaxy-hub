@@ -1,7 +1,7 @@
 ---
 title: 'RNA-seq data analysis (7th edition)'
 date: '2017-11-06'
-days: 3
+end: '2017-11-08'
 tease: 'A BioSB Specific Course'
 continent: 'EU'
 location:

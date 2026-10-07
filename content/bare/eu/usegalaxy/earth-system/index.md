@@ -129,6 +129,51 @@ title: Galaxy for Earth System Sciences
   <div style="flex:1 1 26rem; max-width:28rem; border:1px solid #6c757d; background:#f8f9fa; padding:1rem; border-radius:6px; box-sizing:border-box; display:flex; flex-direction:column;">
     <div class="card border-secondary bg-light mb-1 mx-1" style="display: flex; flex-direction: column; height: 100%;">
         <div class="card-body" style="display: flex; flex-direction: column; flex: 1;">
+            <h2 class="card-title text-dark" style="margin-top: 0;">Climate use cases</h2>
+            <a href="https://www.gaia-data.org/" target="_blank">
+                <center><img src="/assets/media/usegalaxy/climate/Galaxy-climate-logo.png" style="width: 140px; height:auto;"/></center>
+            </a>
+            <div style="margin-top: 1rem;">
+                <p class="card-text" style="font-weight: bold;">TUTORIALS</p>
+                <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.5rem;">                  
+                    <a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/climate-101/tutorial.html" class="show-iframe" data-target="displayhere2">
+                        <button type="button" class="btn btn-primary">Getting your hands-on climate data</button>
+                    </a>
+                    <a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/panoply/tutorial.html" class="show-iframe" data-target="displayhere2">
+                        <button type="button" class="btn btn-primary style="white-space:normal; max-width:100%; display:inline-block;">Visualize Climate data with Panoply netCDF viewer</button>
+                    </a>
+                	<a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/pangeo/tutorial.html" class="show-iframe" data-target="displayhere2">
+                    	<button type="button" class="btn btn-primary style="white-space:normal; max-width:100%; display:inline-block;">Pangeo ecosystem 101 for everyone - Introduction to Xarray Galaxy Tools</button>
+                	</a>
+                	<a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/jupytergis_collaboration/tutorial.html" class="show-iframe" data-target="displayhere2">
+                    	<button type="button" class="btn btn-primary">Collaboration with JupyterGIS</button>
+                	</a>
+                </div>
+            </div>
+            <div style="margin-top: 1rem;">
+                <p class="card-text" style="font-weight: bold;">TOOLS</p>
+                <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.5rem;">
+                    <a href="https://earth-system.usegalaxy.eu/root?tool_id=interactive_tool_jupytergis_notebook" target="_blank">
+                        <button type="button" class="btn btn-primary">JupyterGIS interactive tool</button>
+                    </a>
+                    <a href="https://earth-system.usegalaxy.eu/root?tool_id=interactive_tool_pangeo_notebook" target="_blank">
+                        <button type="button" class="btn btn-primary">Pangeo interactive tool</button>
+                    </a>
+                    <a href="https://earth-system.usegalaxy.eu/root?tool_id=interactive_tool_panoply" target="_blank">
+                        <button type="button" class="btn btn-primary">Panoply interactive tool</button>
+                    </a>
+                     <a href="https://earth-system.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/climate/c3s/c3s/0.3.1" target="_blank">
+                        <button type="button" class="btn btn-primary">Copernicus Climate Data Store</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!-- CARD 2 -->
+  <div style="flex:1 1 26rem; max-width:28rem; border:1px solid #6c757d; background:#f8f9fa; padding:1rem; border-radius:6px; box-sizing:border-box; display:flex; flex-direction:column;">
+    <div class="card border-secondary bg-light mb-1 mx-1" style="display: flex; flex-direction: column; height: 100%;">
+        <div class="card-body" style="display: flex; flex-direction: column; flex: 1;">
             <h2 class="card-title text-dark" style="margin-top: 0;">GAIA DATA</h2>
             <div style="margin:0.5rem 0;">
                 <span class="badge" style="background-color:#047263; color:white; font-size:0.95rem; padding:0.4em 0.6em;">Equipex+ PIA3</span>
@@ -141,30 +186,33 @@ title: Galaxy for Earth System Sciences
             <div style="margin-top: 1rem;">
                 <p class="card-text" style="font-weight: bold;">TUTORIALS</p>
                 <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.5rem;">                  
-                    <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/remote-sensing/tutorial.html" class="show-iframe" data-target="displayhere2">
-                        <button type="button" class="btn btn-primary">Sentinel 2 for biodiversity</button>
-                    </a>
                     <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/Ecoregionalization_tutorial/tutorial.html" class="show-iframe" data-target="displayhere2">
                         <button type="button" class="btn btn-primary">Ecoregionalization</button>
                     </a>
                 	<a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/QGIS_Web_Feature_Services/tutorial.html" class="show-iframe" data-target="displayhere2">
                     	<button type="button" class="btn btn-primary">QGIS Web Feature Services</button>
                 	</a>
+                	<a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/sentinel5_data/tutorial.html" class="show-iframe" data-target="displayhere2">
+                     	<button type="button" class="btn btn-primary">Sentinel 5P data visualisation</button>
+                	</a>
+                    <a href="https://training.galaxyproject.org/training-material/topics/ecology/tutorials/remote-sensing/tutorial.html" class="show-iframe" data-target="displayhere2">
+                        <button type="button" class="btn btn-primary">Sentinel 2 for biodiversity</button>
+                    </a>
                 </div>
+				<p class="card-text" style="font-weight: bold;">Learning Pathway</p>
+            	<div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.5rem;">
+                	<a href="https://training.galaxyproject.org/training-material/learning-pathways/dev_tools_training.html" class="show-iframe" data-target="displayhere2">
+                    	<button type="button" class="btn btn-primary" style="white-space:normal; max-width:100%; display:inline-block;">Tool development for a nice & shiny subdomain</button>
+                	</a>
+            	</div>
             </div>
             <div style="margin-top: 1rem;">
                 <p class="card-text" style="font-weight: bold;">TOOLS</p>
                 <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.5rem;">
-                    <a href="https://ecology.usegalaxy.eu/root?tool_id=interactive_tool_jupytergis_notebook" target="_blank">
-                        <button type="button" class="btn btn-primary">JupyterGIS interactive tool</button>
-                    </a>
-                    <a href="https://ecology.usegalaxy.eu/root?tool_id=interactive_tool_pangeo_notebook" target="_blank">
-                        <button type="button" class="btn btn-primary">Pangeo interactive tool</button>
-                    </a>
-                    <a href="https://ecology.usegalaxy.eu/root?tool_id=interactive_tool_qgis" target="_blank">
+                    <a href="https://earth-system.usegalaxy.eu/root?tool_id=interactive_tool_qgis" target="_blank">
                         <button type="button" class="btn btn-primary">QGIS interactive tool</button>
                     </a>
-                     <a href="https://ecology.usegalaxy.eu/root?tool_id=interactive_tool_stac" target="_blank">
+                     <a href="https://earth-system.usegalaxy.eu/root?tool_id=interactive_tool_stac" target="_blank">
                         <button type="button" class="btn btn-primary">STAC catalog</button>
                     </a>
                 </div>
@@ -172,7 +220,7 @@ title: Galaxy for Earth System Sciences
         </div>
     </div>
   </div>
-  <!-- CARD 2 -->
+  <!-- CARD 3 -->
   <div style="flex:1 1 26rem; max-width:28rem; border:1px solid #6c757d; background:#f8f9fa; padding:1rem; border-radius:6px; box-sizing:border-box; display:flex; flex-direction:column;">
     <div class="card border-secondary bg-light mb-1 mx-1" style="display:flex; flex-direction:column; height:100%;">
       <div class="card-body" style="display:flex; flex-direction:column; flex:1;">
@@ -206,7 +254,7 @@ title: Galaxy for Earth System Sciences
       </div>
     </div>
   </div>
-  <!-- CARD 3 -->
+  <!-- CARD 4 -->
   <div style="flex:1 1 26rem; max-width:28rem; border:1px solid #6c757d; background:#f8f9fa; padding:1rem; border-radius:6px; box-sizing:border-box; display:flex; flex-direction:column;">
     <div class="card border-secondary bg-light mb-1 mx-1" style="display:flex; flex-direction:column; height:100%;">
       <div class="card-body" style="display:flex; flex-direction:column; flex:1;">
@@ -214,7 +262,7 @@ title: Galaxy for Earth System Sciences
         <div style="margin:0.5rem 0;">
           <span class="badge" style="background-color:#008791; color:white; font-size:0.95rem; padding:0.4em 0.6em;">EOSC</span>
         </div>
-        <img src="/assets/media/usegalaxy/earth-system/hunga_tonga.png" style="max-width:100%; height:auto; margin:2rem 0;" />
+       <img src="/assets/media/usegalaxy/earth-system/hunga_tonga.png" style="max-width:100%; height:auto; margin:2rem 0;" />
         <div style="margin-top: 1rem;">
             <p class="card-text" style="font-weight: bold;">Hackathon, where it all began</p>
             <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.5rem;">
@@ -243,8 +291,7 @@ title: Galaxy for Earth System Sciences
       </div>  
     </div>
   </div>
-
-  <!-- CARD 4 -->
+  <!-- CARD 5 -->
   <div style="flex:1 1 26rem; max-width:28rem; border:1px solid #6c757d; background:#f8f9fa; padding:1rem; border-radius:6px; box-sizing:border-box; display:flex; flex-direction:column;">
     <div class="card border-secondary bg-light mb-1 mx-1" style="display: flex; flex-direction: column; height: 100%;">
         <div class="card-body" style="display: flex; flex-direction: column; flex: 1;">
@@ -281,11 +328,6 @@ title: Galaxy for Earth System Sciences
                 </a>
             </div>
             <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.5rem;">
-                <a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/sentinel5_data/tutorial.html" class="show-iframe" data-target="displayhere2">
-                     <button type="button" class="btn btn-primary">Sentinel 5P data visualisation</button>
-                </a>
-            </div>
-            <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.5rem;">
                 <a href="https://training.galaxyproject.org/training-material/topics/climate/tutorials/ocean_qcv_analysis/tutorial.html" class="show-iframe" data-target="displayhere2">
                      <button type="button" class="btn btn-primary" style="white-space:normal; max-width:100%; display:inline-block;">Nitrate DMQC for autonomous platforms such as Argo floats</button>
                 </a>
@@ -295,12 +337,7 @@ title: Galaxy for Earth System Sciences
                      <button type="button" class="btn btn-primary" style="white-space:normal; max-width:100%; display:inline-block;">Marine Omics identifying biosynthetic gene clusters</button>
                 </a>
             </div>
-            <p class="card-text" style="font-weight: bold;">Learning Pathway</p>
-            <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.5rem;">
-                <a href="https://training.galaxyproject.org/training-material/learning-pathways/dev_tools_training.html" class="show-iframe" data-target="displayhere2">
-                    <button type="button" class="btn btn-primary" style="white-space:normal; max-width:100%; display:inline-block;">Tool development for a nice & shiny subdomain</button>
-                </a>
-            </div>
+        </div>
             <p class="card-text" style="font-weight: bold;">Workflows</p>
             <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.5rem;">
                 <a href="https://earth-system.usegalaxy.eu/published/workflow?id=44827462c065bae3" target="_blank">
@@ -311,9 +348,9 @@ title: Galaxy for Earth System Sciences
                 </a>
             </div>
         </div>
-        </div>
     </div>
 </div>
+
 
 <br /><br />
 

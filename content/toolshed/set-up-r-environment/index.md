@@ -95,7 +95,7 @@ Start with your R script. Include sessioInfo() somewhere at the end.
 Prepare small test data
 Run script manually and note "other attached packages:" - these become ourpackages for the biocdepgen.
 
-In the admin panel of a disposable development only Galaxy, install biocdepgen for the target R (eg 3.1.2) package (see https://fubar@testtoolshed.g2.bx.psu.edu/repos/fubar/biocdepgen\_r\_3\_1\_2) from the Test toolshed
+In the admin panel of a disposable development only Galaxy, install biocdepgen for the target R (eg 3.1.2) package (see https://fubar@testtoolshed.g2.bx.psu.edu/repos/fubar/biocdepgen_r_3_1_2) from the Test toolshed
 (restart if you have more than one handler!)
 Start that tool.
 Set the parameters - ourpackages from sessionInfo, the tarpath to where Galaxy has permission to write all the packages and dependency tarballs, and the prefix you want for each ```<prefix>``` entry in the generated XML boilerplate for your tool\_dependencies.xml
@@ -110,7 +110,7 @@ Using the TF2 takes minutes and since it generates a tool archive, you can unpac
 
 Here's a version that can be cut/paste into the new tool factory 2 if you also define and populate 3 text input fields called tardir (local writeable directory target to save all the dependency tarballs), xmlprefix (xml biolerplate ```<package>``` stanza to point at your public tarball repository - eg I use github) and ourpackages (space delimited list of required package names - no version numbers - they will be found automagically for the version of R associated with the tool - 3.1.2) so they are passed in to this script.
 
-For package\_r\_3\_1\_2 you can install the tool I generated using the code shown below and for that specific R package https://testtoolshed.g2.bx.psu.edu/view/fubar/biocdepgen\_r\_3\_1\_2
+For package\_r\_3\_1\_2 you can install the tool I generated using the code shown below and for that specific R package https://testtoolshed.g2.bx.psu.edu/view/fubar/biocdepgen_r_3_1_2
 
     packageExpand = function(packagelist,fl) {
     # get packagelist name's (eg edgeR's) corresponding gz filename which includes version from filelist fl
@@ -207,7 +207,7 @@ For package\_r\_3\_1\_2 you can install the tool I generated using the code show
 
 ## Stand alone Rscript version - be sure to run this with the target R version!
 
-**The code below was a first stab at a re-usable stand alone Rscript to help developers. Code for the Tool Factory 2 to generate a new tool which does this is shown above. For package\_r\_3\_1\_2 https://testtoolshed.g2.bx.psu.edu/view/fubar/biocdepgen\_r\_3\_1\_2 can be installed from the test toolshed.**
+**The code below was a first stab at a re-usable stand alone Rscript to help developers. Code for the Tool Factory 2 to generate a new tool which does this is shown above. For package\_r\_3\_1\_2 https://testtoolshed.g2.bx.psu.edu/view/fubar/biocdepgen_r_3_1_2 can be installed from the test toolshed.**
 
 It is shown setup to prepare the tool\_dependencies.xml boiler plate for automated Galaxy tool shed installation of an R based tool using glmnet in R for penalised regression. The package list in "our\_packages" comes from sessionInfo() after running the tool R script. The code below will figure out all dependencies for your packages and the order they need to be installed. It will write a text file containing the package names as strings prefixed with ps and pe which will be in the correct order for R installation using setup\_r\_environment - the actual output appears below the code.
 

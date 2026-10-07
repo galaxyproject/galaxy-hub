@@ -1,7 +1,7 @@
 ---
 title: "International Congress of Genetics"
 date: '2023-07-14'
-days: 5
+end: '2023-07-18'
 tease: "Meeting once every 5 years, and right on the heels of GCC2023 in a nearby location, come and check out this year's conference theme: Genetics and Genomics - Linking Life and Society."
 continent: AU
 location:

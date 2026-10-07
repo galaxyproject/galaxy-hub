@@ -1,7 +1,7 @@
 ---
 title: "Strengthening the integration of Galaxy in the Tools Ecosystem"
 date: '2021-06-03'
-days: 11
+end: '2021-06-13'
 tease: "Latest developments and plans, and discussion of current and future collaborations within ELIXIR."
 continent: EU
 location:

@@ -9,7 +9,7 @@ contacts:
 location:
   name: online
 hidefooter: true
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   funding:
@@ -28,7 +28,7 @@ This workshop is an introduction to Galaxy at the beginner level (in Persian). T
 
 ### Speaker
 
-* Alireza Khanteymoori, Postdoc Researcher at the University of Freiburg and member of the [European Galaxy team](https://usegalaxy-eu.github.io/freiburg/people).
+* Alireza Khanteymoori, Postdoc Researcher at the University of Freiburg and member of the [European Galaxy team](/freiburg/people/).
 
 ### Organizers
 

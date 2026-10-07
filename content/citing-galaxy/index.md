@@ -9,9 +9,9 @@ components: true
 
 When you use Galaxy and want to publish your work, please cite this paper:
 
-* The Galaxy Community. [The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update](https://doi.org/10.1093/nar/gkae410), *Nucleic Acids Research*, 2024, 52(W1):W83-W94. doi:10.1093/nar/gkae410 <CopyButton text='The Galaxy Community. "The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update." Nucleic Acids Research, 2024, 52(W1):W83-W94. doi:10.1093/nar/gkae410' />
+* The Galaxy Community. Galaxy for accessible, reproducible, and collaborative data analyses: 2026 update. *Nucleic Acids Research*, 2026; gkag469, https://doi.org/10.1093/nar/gkag469 <CopyButton text='The Galaxy Community. Galaxy for accessible, reproducible, and collaborative data analyses: 2026 update. *Nucleic Acids Research*, 2026; gkag469, https://doi.org/10.1093/nar/gkag469' />
 
-This and other references are also [available in GitHub](https://github.com/galaxyproject/galaxy/blob/dev/CITATION) as a [CITATION file](http://software-carpentry.org/blog/2013/09/introducing-citation-files.html).
+This and other references are also [available in GitHub](https://github.com/galaxyproject/galaxy/blob/dev/CITATION.cff) as a [CITATION file](https://carpentries.org/blog/2013/09/introducing-citation-files/).
 
 
 Depending on the additional Galaxy services you used please refer to the following:
@@ -22,7 +22,7 @@ Depending on the additional Galaxy services you used please refer to the followi
 | **Referring to the Galaxy Project in general** | Cite the [primary publication](#primary-publication). |
 | **Referring to specific [public Galaxy platforms](/use/) or using them in your methods** | Cite [that platform's primary publication](#which-galaxy). |
 | **Using a local or temporary cloud instance** | Cite the [primary publication](#primary-publication) and mention that a local or cloud based Galaxy was used. If you are unsure how to cite your local Galaxy, contact your cloud provider or systems administrator. (Note: We suspect that this is the most under-reported use of Galaxy.) |
-| **Referencing a specific aspect of Galaxy** | Cite a [publication about that specific topic](#citing-specific-galaxy-components-features), if one is available. Topics with pubs include: <br />&bull; [Galaxy Application Programming Interface (API)](#application-programming-interface-api) <br />&bull; [Cloud](#cloud) <br />&bull; [Data Managers](#data-managers) <br />&bull; [DataSource Tools](#datasource-tools) <br />&bull; [External Display Applications](#external-display-applications) <br />&bull; [Interactive Environments](#interactive-environments) <br />&bull; [Reproducibility](#reproducibility) <br />&bull; [ToolShed](#toolshed) |
+| **Referencing a specific aspect of Galaxy** | Cite a [publication about that specific topic](#citing-specific-galaxy-components--features), if one is available. Topics with pubs include: <br />&bull; [Galaxy Application Programming Interface (API)](#application-programming-interface-api) <br />&bull; [Cloud](#cloud) <br />&bull; [Data Managers](#data-managers) <br />&bull; [DataSource Tools](#datasource-tools) <br />&bull; [External Display Applications](#external-display-applications) <br />&bull; [Interactive Environments](#interactive-environments) <br />&bull; [Reproducibility](#reproducibility) <br />&bull; [ToolShed](#toolshed) |
 | **Refencing the Galaxy Training Network and online educational services** | Cite [Training & Education](#training-and-education) if you have used the GTN and online educational services. Individual GTN tutorials also provide a citation block at the end that should be cited when applicable.  |
 | **Referencing a Galaxy web resource other than those above** | See [Citing Medicine: NLM Style Guide for Authors, Editors, and Publishers](http://www.ncbi.nlm.nih.gov/books/NBK7256/) for how to cite [web pages](http://www.ncbi.nlm.nih.gov/books/NBK7274/), [wikis](http://www.ncbi.nlm.nih.gov/books/NBK7266/#A61262), and just about everything else. |
 
