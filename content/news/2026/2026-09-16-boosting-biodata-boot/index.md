@@ -1,9 +1,9 @@
 ---
 subsites:
 - all-eu
-title: "Galaxy Imaging Training at the Boosting Biodata Boocamp 2026"
+title: "Galaxy Imaging Training at the Boosting Biodata Bootcamp 2026"
 date: "2026-09-16"
-tease: "A Galaxy Imaging Training took place at the Boosting Biodata Boocamp 2026 in Aachen"
+tease: "A Galaxy Imaging Training took place at the Boosting Biodata Bootcamp 2026 in Aachen"
 hide_tease: false
 tags: 
     - imaging
