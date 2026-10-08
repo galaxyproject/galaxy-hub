@@ -3,6 +3,49 @@ nav_order: 12
 autotoc: false
 ---
 
+<style>
+  .gcc-people {
+    grid-template-columns: repeat(auto-fill, minmax(min(240px, 100%), 1fr));
+    gap: 1rem;
+  }
+
+  .gcc-people .gcc-person__photo {
+    display: block;
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem auto 0;
+    border-radius: 9999px;
+    object-fit: cover;
+    background: var(--color-ebony-clay-50);
+  }
+
+  .gcc-people .gx-tile__title {
+    text-align: center;
+  }
+
+  .gcc-people .gcc-person__org {
+    padding-bottom: 1rem;
+    font-size: 0.875rem;
+    text-align: center;
+  }
+
+  .gcc-person__org > span {
+    display: block;
+  }
+
+  .gcc-person__org > span:first-child {
+    white-space: nowrap;
+  }
+
+  .gcc-people .gx-tile__title a {
+    color: var(--color-galaxy-dark);
+  }
+
+  .gcc-person__org a {
+    color: var(--color-galaxy-primary);
+  }
+</style>
+
 GCC2027 is a community effort from planning to post conference publishing and
 feedback. In addition to all the participants, presenters, and instructors,
 here are the people who make it happen.
@@ -14,25 +57,65 @@ GCC2027 runs smoothly.
 
 ## Organizing Committee Chair
 
-* **[Jennifer Michener](https://www.linkedin.com/in/jennifer-michener-a67522244/)**, [Johns Hopkins University](https://jhu.edu/), United States
+<div class="gx-tile-grid gcc-people not-prose">
+  <div class="gx-tile">
+    <img class="gcc-person__photo" src="/images/events/gcc2027/organizers/jenn.jpg" alt="Jennifer Michener" loading="lazy" />
+    <div class="gx-tile__title"><a href="https://www.linkedin.com/in/jennifer-michener-a67522244/">Jennifer Michener</a></div>
+    <p class="gx-tile__teaser gcc-person__org"><span><a href="https://jhu.edu/">Johns Hopkins University</a></span><span>United States</span></p>
+  </div>
+</div>
 
 ## Hosts
 
 GCC2027 is hosted by the [Université de Sherbrooke](https://www.usherbrooke.ca/).
 
-* **[Pierre-Étienne Jacques](https://bios2.usherbrooke.ca/people/academic-members/pierre-etienne-jacques/)**, [Université de Sherbrooke](https://www.usherbrooke.ca/), Canada
-* **[Charles Coulombe](/hall-of-fame/ccoulombe/)**, [Université de Sherbrooke](https://www.usherbrooke.ca/), Canada
-* **[Carol Gauthier](https://ca.linkedin.com/in/carolgauthier/)**, [Université de Sherbrooke](https://www.usherbrooke.ca/), Canada
+<div class="gx-tile-grid gcc-people not-prose">
+  <div class="gx-tile">
+    <img class="gcc-person__photo" src="/images/events/gcc2027/organizers/pierre.jpg" alt="Pierre-Étienne Jacques" loading="lazy" />
+    <div class="gx-tile__title"><a href="https://bios2.usherbrooke.ca/people/academic-members/pierre-etienne-jacques/">Pierre-Étienne Jacques</a></div>
+    <p class="gx-tile__teaser gcc-person__org"><span><a href="https://www.usherbrooke.ca/">Université de Sherbrooke</a></span><span>Canada</span></p>
+  </div>
+  <div class="gx-tile">
+    <img class="gcc-person__photo" src="/images/events/gcc2027/organizers/charles.png" alt="Charles Coulombe" loading="lazy" />
+    <div class="gx-tile__title"><a href="/hall-of-fame/ccoulombe/">Charles Coulombe</a></div>
+    <p class="gx-tile__teaser gcc-person__org"><span><a href="https://www.usherbrooke.ca/">Université de Sherbrooke</a></span><span>Canada</span></p>
+  </div>
+  <div class="gx-tile">
+    <img class="gcc-person__photo" src="/images/events/gcc2027/organizers/carol.jpg" alt="Carol Gauthier" loading="lazy" />
+    <div class="gx-tile__title"><a href="https://ca.linkedin.com/in/carolgauthier/">Carol Gauthier</a></div>
+    <p class="gx-tile__teaser gcc-person__org"><span><a href="https://www.usherbrooke.ca/">Université de Sherbrooke</a></span><span>Canada</span></p>
+  </div>
+</div>
 
 ## Training Chairs
 
-* **[Tyler Collins](/hall-of-fame/tcollins2011/)**, [Johns Hopkins University](https://jhu.edu/), United States
-* TBA
+<div class="gx-tile-grid gcc-people not-prose">
+  <div class="gx-tile">
+    <img class="gcc-person__photo" src="/images/events/gcc2027/organizers/tyler.png" alt="Tyler Collins" loading="lazy" />
+    <div class="gx-tile__title"><a href="/hall-of-fame/tcollins2011/">Tyler Collins</a></div>
+    <p class="gx-tile__teaser gcc-person__org"><span><a href="https://jhu.edu/">Johns Hopkins University</a></span><span>United States</span></p>
+  </div>
+  <div class="gx-tile">
+    <div class="gcc-person__photo"></div>
+    <div class="gx-tile__title">TBA</div>
+    <p class="gx-tile__teaser gcc-person__org">&nbsp;</p>
+  </div>
+</div>
 
 ## CoFest Chairs
 
-* **[Ahmed Awan](/hall-of-fame/ahmedhamidawan/)**, [Johns Hopkins University](https://jhu.edu/), United States
-* TBA
+<div class="gx-tile-grid gcc-people not-prose">
+  <div class="gx-tile">
+    <img class="gcc-person__photo" src="/images/events/gcc2027/organizers/ahmed.jpg" alt="Ahmed Awan" loading="lazy" />
+    <div class="gx-tile__title"><a href="/hall-of-fame/ahmedhamidawan/">Ahmed Awan</a></div>
+    <p class="gx-tile__teaser gcc-person__org"><span><a href="https://jhu.edu/">Johns Hopkins University</a></span><span>United States</span></p>
+  </div>
+  <div class="gx-tile">
+    <div class="gcc-person__photo"></div>
+    <div class="gx-tile__title">TBA</div>
+    <p class="gx-tile__teaser gcc-person__org">&nbsp;</p>
+  </div>
+</div>
 
 <!-- TODO: organizing committee contact email -->
 
@@ -42,12 +125,21 @@ The scientific program committee oversees the abstract review process and helps 
 
 ## Committee Chairs
 
-* **[Enis Afgan](/hall-of-fame/afgane/)**, [Johns Hopkins University](https://jhu.edu/), United States
-* **[Scott Cain](/hall-of-fame/scottcain/)**, [Penn State University](https://www.psu.edu/), United States
+<div class="gx-tile-grid gcc-people not-prose">
+  <div class="gx-tile">
+    <img class="gcc-person__photo" src="/images/people/EnisAfgan.jpg" alt="Enis Afgan" loading="lazy" />
+    <div class="gx-tile__title"><a href="/hall-of-fame/afgane/">Enis Afgan</a></div>
+    <p class="gx-tile__teaser gcc-person__org"><span><a href="https://jhu.edu/">Johns Hopkins University</a></span><span>United States</span></p>
+  </div>
+  <div class="gx-tile">
+    <img class="gcc-person__photo" src="/images/events/gcc2027/organizers/scott.jpg" alt="Scott Cain" loading="lazy" />
+    <div class="gx-tile__title"><a href="/hall-of-fame/scottcain/">Scott Cain</a></div>
+    <p class="gx-tile__teaser gcc-person__org"><span><a href="https://www.psu.edu/">Penn State University</a></span><span>United States</span></p>
+  </div>
+</div>
 
 ## Committee Members
 
-<!-- TODO: list members -->
-* TBA
-
-<!-- TODO: Add a link to origanizers email here. -->
+<div class="alert alert-info" role="alert">
+    Scientific Program Committee members will be announced soon.
+</div>
