@@ -1,6 +1,6 @@
 ---
 title: "Workshop: Sustainable research computing with Galaxy: Workflows, infrastructure and practice"
-tease: "First event of the new EU-funded project in Madrid"
+tease: "Two-day workshop in Madrid exploring how research workflows can be made more sustainable (19-20 November). Registration open now"
 date: 2026-11-19
 end: 2026-11-20
 continent: EU
@@ -23,7 +23,7 @@ contributions:
 Join us for a two-day workshop exploring how research workflows can be made more sustainable, with a focus on Galaxy, computational footprint, and research infrastructure.
 In the workshop, we will look at approaches for measuring and reducing the computational footprint of workflows, discuss how Galaxy workloads can run across distributed infrastructure, and explore practical examples from life science and other research domains.
 
-<img class="img-fluid float-right" src="/content/assets/media/2026-11-ESG4Stars-Madrid.png" style="width:220px;" alt="Madrid flyer" />
+<img class="img-fluid float-right" src="/content/assets/media/2026-11-ESG4Stars-Madrid.png" style="width:220px;" alt="" />
 
 **Day 1 – Thursday, 19 November** focuses on concepts, tools, and infrastructure, including sustainable research computing in Spain, Galaxy and FAIR workflows, ESG4Stars, computational footprint measurement, and distributed Galaxy infrastructure.
 
