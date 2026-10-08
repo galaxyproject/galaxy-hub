@@ -85,11 +85,11 @@ contributions:
   <span class="gx-tile__more">See fellowship details →</span>
 </a>
 
-<a class="gx-tile gx-tile--link" href="https://www.usherbrooke.ca/" target="_blank" rel="noopener noreferrer">
+<a class="gx-tile gx-tile--link" href="https://www.usherbrooke.ca/campus-longueuil/" target="_blank" rel="noopener noreferrer">
   <img class="gx-tile__media" src="/images/events/gcc2027/university_of_sherbrooke.jpg" alt="Université de Sherbrooke campus" />
   <div class="gx-tile__title">GCC2027 host</div>
-  <p class="gx-tile__teaser">GCC2027 is hosted by the Université de Sherbrooke – Campus Longueuil. TODO: host description.</p>
-  <span class="gx-tile__more">Visit Université de Sherbrooke →</span>
+  <p class="gx-tile__teaser">GCC2027 is hosted by the Université de Sherbrooke, a French-language research university of more than 30,000 students. Its Campus Longueuil, a 16-storey tower right next to the Longueuil metro station, was the first university campus on Montréal's South Shore and focuses on graduate education.</p>
+  <span class="gx-tile__more">Visit Campus Longueuil →</span>
 </a>
 
 <a class="gx-tile gx-tile--link" href="/events/gcc2027/cofest/">
