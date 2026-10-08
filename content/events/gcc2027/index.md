@@ -78,28 +78,28 @@ contributions:
 </a>
 
 <a class="gx-tile gx-tile--link" href="/events/gcc2027/fellowships/">
-  <!-- TODO: image -->
+  <img class="gx-tile__media" src="/images/events/gcc2026/Scholarships.jpg" alt="Scholarship recipients for GCC2026" />
   <div class="gx-tile__title">GCC2027 fellowships</div>
   <p class="gx-tile__teaser">TODO: fellowship details. Applications open in November 2026.</p>
   <span class="gx-tile__more">See fellowship details →</span>
 </a>
 
 <a class="gx-tile gx-tile--link" href="https://www.usherbrooke.ca/" target="_blank" rel="noopener noreferrer">
-  <!-- TODO: image -->
+  <img class="gx-tile__media" src="/images/events/gcc2027/university_of_sherbrooke.jpg" alt="Université de Sherbrooke campus" />
   <div class="gx-tile__title">GCC2027 host</div>
   <p class="gx-tile__teaser">GCC2027 is hosted by the Université de Sherbrooke – Campus Longueuil. TODO: host description.</p>
   <span class="gx-tile__more">Visit Université de Sherbrooke →</span>
 </a>
 
 <a class="gx-tile gx-tile--link" href="/events/gcc2027/cofest/">
-  <!-- TODO: image -->
+  <img class="gx-tile__media" src="/images/events/gcc2026/cofest/ecology_tools.jpg" alt="Still from a GCC2026 CoFest group" />
   <div class="gx-tile__title">GCC2027 CoFest</div>
   <p class="gx-tile__teaser">Hands-on, community-driven work right after the conference. Contribute to tools, workflows, docs, or training — everyone's welcome, whatever your background. TODO: dates.</p>
   <span class="gx-tile__more">Join CoFest →</span>
 </a>
 
 <a class="gx-tile gx-tile--link" href="/events/gcc2027/travel/">
-  <!-- TODO: image -->
+  <img class="gx-tile__media" src="/images/events/gcc2027/montreal_image.jpg" alt="Old town Montreal" />
   <div class="gx-tile__title">Montréal area, Québec, Canada</div>
   <p class="gx-tile__teaser">TODO: location description.</p>
   <span class="gx-tile__more">Plan your trip →</span>
