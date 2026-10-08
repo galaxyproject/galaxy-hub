@@ -88,7 +88,7 @@ contributions:
 <a class="gx-tile gx-tile--link" href="https://www.usherbrooke.ca/campus-longueuil/" target="_blank" rel="noopener noreferrer">
   <img class="gx-tile__media" src="/images/events/gcc2027/university_of_sherbrooke.jpg" alt="Université de Sherbrooke campus" />
   <div class="gx-tile__title">GCC2027 host</div>
-  <p class="gx-tile__teaser">GCC2027 is hosted by the Université de Sherbrooke, a French-language research university of more than 30,000 students. Its Campus Longueuil, a 16-storey tower right next to the Longueuil metro station, was the first university campus on Montréal's South Shore and focuses on graduate education.</p>
+  <p class="gx-tile__teaser">GCC2027 is hosted by the Université de Sherbrooke, home of UseGalaxy Canada, the newest member of the UseGalaxy.* federation. Its Campus Longueuil is a 16-storey tower right by the metro.</p>
   <span class="gx-tile__more">Visit Campus Longueuil →</span>
 </a>
 
@@ -102,7 +102,7 @@ contributions:
 <a class="gx-tile gx-tile--link" href="/events/gcc2027/travel/">
   <img class="gx-tile__media" src="/images/events/gcc2027/montreal_image.jpg" alt="Old town Montreal" />
   <div class="gx-tile__title">Montréal area, Québec, Canada</div>
-  <p class="gx-tile__teaser">TODO: location description.</p>
+  <p class="gx-tile__teaser">A vibrant, French-speaking city featuring the cobblestone streets of Old Montréal, scenic views from Mount Royal, and lively summer festivals. GCC2027 is just across the river in Longueuil, about 10 minutes from downtown by metro.</p>
   <span class="gx-tile__more">Plan your trip →</span>
 </a>
 
