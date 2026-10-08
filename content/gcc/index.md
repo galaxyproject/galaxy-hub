@@ -4,6 +4,7 @@ title: Galaxy Community Conferences (GCCs)
 
 <div class="text-center inline-div">
 
+<a href="/events/gcc2027/"><img src="/images/events/gcc2027/gcc2027-logo-transparent.png" alt="2027 Galaxy Community Conference logo" width="220" /></a> &nbsp;&nbsp;
 <a href="/events/gcc2026/"><img src="/images/events/gcc2026/gcc2026-logo.png" alt="2026 Galaxy Community Conference logo" width="220" /></a> &nbsp;&nbsp;
 <a href="https://gbcc2025.org/"><img src="/news/2026-01-31-GBCC-LOGO/gbcclogo.jpg" alt="2025 Galaxy and Bioconductor Community Conference logo" width="200" /></a> &nbsp;&nbsp;
 <a href="/events/gcc2024/"><img src="/images/events/gcc2024/gcc2024-banner-3.png" alt="2024 Galaxy Community Conference logo" width="220" /></a> &nbsp;&nbsp;
@@ -39,7 +40,8 @@ GCC has met annually since 2010 and the program has grown and transformed each y
 
 | Dates | Event | Where | Hosts | Participants |
 | ---- | ---- | ---- | ---- | ----: |
-| **June 22-24, 2026** | **[GCC2026](/events/gcc2026/)** | **Clermont-Ferrand, France** | **[Université Clermont Auvergne](https://www.uca.fr/)** | &#160; |
+| **June 26-July 1, 2027** | **[GCC2027](/events/gcc2027/)** | **Longueuil (Montréal area), Québec, Canada** | **[Université de Sherbrooke](https://www.usherbrooke.ca/)** | &#160; |
+| June 22-24, 2026 | [GCC2026](/events/gcc2026/) | Clermont-Ferrand, France | [Université Clermont Auvergne](https://www.uca.fr/) | &#160; |
 | June 23-28, 2025 | [GBCC2025](https://gbcc2025.org/) | Cold Spring Harbor, New York, United States | [CSHL](http://cshl.edu/) | &#160; |
 | June 24-29, 2024 | [GCC2024](/events/gcc2024/) | Brno, Czech Republic | [Masaryk University](https://www.muni.cz/), [ELIXIR Czech Republic](https://www.elixir-czech.cz/), and [the city of Brno](https://www.brno.cz/) | 151 |
 | July 10-16, 2023 | [GCC2023](/events/gcc2023/) | Brisbane, Queensland, Australia | [Galaxy Australia](http://usegalaxy.org.au/) | 131 |
