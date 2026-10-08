@@ -5,6 +5,7 @@ end: '2027-07-01'
 skip_title_render: true
 autotoc: false
 hide_metadata: true
+components: true
 tease: "The yearly conference of the Galaxy community, where researchers, developers, and educators from around the world meet to share science, learn, and shape the future of open data analysis."
 continent: NA
 location:
@@ -18,7 +19,7 @@ contributions:
   organisers: []
 ---
 
-<style>
+<style>{`
   .gcc-hero {
     container-type: inline-size;
   }
@@ -42,7 +43,7 @@ contributions:
       justify-content: flex-start;
     }
   }
-</style>
+`}</style>
 
 <div class="gcc-hero">
     <div class="gcc-hero__grid grid gap-6 items-center">
@@ -54,14 +55,14 @@ contributions:
                     <span class="px-4 py-1.5 text-center text-xl font-bold text-galaxy-dark whitespace-nowrap">June 26 – July 1, 2027</span>
                 </div>
                 <a class="inline-flex items-center gap-2 rounded-full border border-galaxy-primary px-4 py-1 text-sm font-semibold text-galaxy-primary no-underline whitespace-nowrap hover:bg-galaxy-primary hover:text-white" href="https://maps.app.goo.gl/fLKHeTxgrkXHvmXF6" target="_blank" rel="noopener noreferrer">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                    <Icon name="map-pin" />
                     <span>Longueuil<span class="gcc-hero__location-extra"> (Montréal area)</span>, Québec, Canada</span>
                 </a>
             </div>
-            <!-- TODO: split conference vs. CoFest dates once confirmed, e.g. add a "CoFest <dates>" pill linking to /events/gcc2027/cofest/ -->
+            {/* TODO: split conference vs. CoFest dates once confirmed, e.g. add a "CoFest <dates>" pill linking to /events/gcc2027/cofest/ */}
             <h3 style="margin-top: 1rem;">Held at Université de Sherbrooke, Campus Longueuil, in the lively riverside city of <a href="https://www.google.com/maps/search/?api=1&query=Longueuil%2C+Qu%C3%A9bec%2C+Canada" target="_blank" rel="noopener noreferrer">Longueuil, Québec</a></h3>
             <p class="text-lg text-galaxy-grey">Registration, abstract submission, and fellowship applications open in <strong>November 2026</strong>.</p>
-            <!-- TODO: add buttons once open, e.g. Register / Submit an abstract / Apply for a fellowship -->
+            {/* TODO: add buttons once open, e.g. Register / Submit an abstract / Apply for a fellowship */}
         </div>
     </div>
 </div>
@@ -112,7 +113,7 @@ contributions:
 Sign up for the GCC2027 announcement list to receive updates on registration,
 abstract submission deadlines, program announcements, and fellowship opportunities.
 Low volume — only what matters.
-<!-- TODO: confirm the gcc2027-announce list exists -->
+{/* TODO: confirm the gcc2027-announce list exists */}
 <div class="not-prose flex justify-center my-5">
   <a class="inline-block max-w-full rounded-md bg-galaxy-primary px-5 py-2.5 text-center text-sm font-semibold leading-tight text-white no-underline hover:bg-galaxy-dark" href="https://gaggle.email/join/gcc2027-announce@gaggle.email" target="_blank" rel="noopener noreferrer">Join the GCC2027 mailing list</a>
 </div>
