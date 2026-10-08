@@ -30,7 +30,7 @@ test.describe('Prose overflow at 320px', () => {
     '/toolshed/contributions/2018-01/',
     '/fair/reusability/',
     '/galaxy-updates/2012-02/',
-    '/tools/orbit/',
+    '/events/gcc2026/training/',
   ]) {
     test(`nothing is clipped at the prose edge on ${path}`, async ({ page }) => {
       await page.goto(path);
