@@ -89,6 +89,11 @@ export async function getStaticPaths() {
       .join(' ');
   }
 
+  function getNavOrder(entry: any): number {
+    const navOrder = ((entry.data || {}) as Record<string, unknown>).nav_order;
+    return typeof navOrder === 'number' && Number.isFinite(navOrder) ? navOrder : Infinity;
+  }
+
   function getNavLabel(entry: any, rootTitle?: string): string {
     const data = (entry.data || {}) as Record<string, unknown>;
     const navTitle = data.nav_title;
@@ -146,7 +151,13 @@ export async function getStaticPaths() {
     const navItems: ConferenceNavItem[] = [
       { slug: rootSlug, href: `/${rootSlug}/`, label: 'Home' },
       ...childPages
-        .sort((a, b) => (a.data.slug || '').localeCompare(b.data.slug || ''))
+        .sort((a, b) => {
+          // Pages with nav_order come first, in that order; the rest follow alphabetically.
+          const orderA = getNavOrder(a);
+          const orderB = getNavOrder(b);
+          if (orderA !== orderB) return orderA - orderB;
+          return (a.data.slug || '').localeCompare(b.data.slug || '');
+        })
         .map((entry) => ({
           slug: entry.data.slug,
           href: `/${entry.data.slug}/`,
