@@ -90,6 +90,7 @@ const events = defineCollection({
     gtn: z.boolean().optional().nullable(),
     days: z.number().optional().nullable(),
     continent: z.string().optional().nullable(),
+    nav_order: z.number().int().min(1).optional().nullable(),
     supporters: z
       .union([z.array(z.string()), z.string()])
       .optional()
