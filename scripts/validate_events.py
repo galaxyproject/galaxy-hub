@@ -11,6 +11,7 @@ Validate all events frontmatter against schema-events.yaml.
 import argparse
 import logging
 import os
+import re
 import sys
 from datetime import date, datetime
 from validate_common import (
@@ -27,13 +28,15 @@ from validate_common import (
 FOLDER_NAME_EXCEPTIONS = {
     "2026-10-12-Advanced-Galaxy-Training",
     "2026-04-small-scale",
-    "gcc2026",
     "2026-10-11-ASM",
     "2026-07-12-ISMB2026",
     "2026-05-05-BOG2026",
     "2026-03-small-scale",
     "2026-11-04-BDS2026",
 }
+
+# Galaxy Community Conference sites keep the /events/gccYYYY/ URL pattern.
+GCC_FOLDER_PATTERN = re.compile(r"^gcc\d{4}(/|$)")
 
 
 def _to_date(value):
@@ -93,10 +96,11 @@ def main():
     cleaned_schema = clean_schema(raw_schema, ids)
     aggregated_events, parse_errors = aggregate_frontmatter(os.path.join(ROOT, "content", "events"))
     code, errors = validate_data(aggregated_events, cleaned_schema)
+    gcc_folders = {f for f in aggregated_events if GCC_FOLDER_PATTERN.match(f)}
     folder_errors = check_recent_folder_names(
         aggregated_events,
         cutoff=args.cutoff,
-        skip_folders=FOLDER_NAME_EXCEPTIONS,
+        skip_folders=FOLDER_NAME_EXCEPTIONS | gcc_folders,
     )
     contribution_errors = check_recent_contributions_required(aggregated_events, cutoff=args.cutoff)
     parse_error_count = len(parse_errors)
