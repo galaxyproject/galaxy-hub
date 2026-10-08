@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed, ref, onMounted, onUnmounted } from 'vue';
+import { parseTweetUrl } from '@/utils/tweet-url';
 
 const props = defineProps<{
   tweetUrl?: string;
@@ -10,16 +11,15 @@ const props = defineProps<{
 const container = ref<HTMLElement | null>(null);
 const loaded = ref(false);
 
-const tweetId = computed(() => props.id || props.tweet || props.tweetUrl?.match(/\/status(?:es)?\/(\d+)/)?.[1]);
+const parsedUrl = computed(() => parseTweetUrl(props.tweetUrl));
+
+const tweetId = computed(() => props.id || props.tweet || parsedUrl.value?.id);
 
 const href = computed(
-  () => props.tweetUrl || (tweetId.value ? `https://twitter.com/i/status/${tweetId.value}` : undefined)
+  () => parsedUrl.value?.href || (tweetId.value ? `https://twitter.com/i/status/${tweetId.value}` : undefined)
 );
 
-const user = computed(() => {
-  const name = props.tweetUrl?.match(/(?:twitter|x)\.com\/([^/?#]+)\/status/)?.[1];
-  return name && name !== 'i' ? name : undefined;
-});
+const user = computed(() => parsedUrl.value?.user);
 
 // Load the widget script once and queue callbacks until it is ready
 function loadWidgets(): Promise<any> {
