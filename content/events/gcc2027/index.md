@@ -81,7 +81,7 @@ contributions:
 <a class="gx-tile gx-tile--link" href="/events/gcc2027/fellowships/">
   <img class="gx-tile__media" src="/images/events/gcc2026/Scholarships.jpg" alt="Scholarship recipients for GCC2026" />
   <div class="gx-tile__title">GCC2027 fellowships</div>
-  <p class="gx-tile__teaser">TODO: fellowship details. Applications open in November 2026.</p>
+  <p class="gx-tile__teaser">Financial support shouldn't be a barrier to joining us. Applications open in <strong class="text-galaxy-primary">November 2026</strong>, with full details on awards and eligibility to follow.</p>
   <span class="gx-tile__more">See fellowship details →</span>
 </a>
 
@@ -95,7 +95,7 @@ contributions:
 <a class="gx-tile gx-tile--link" href="/events/gcc2027/cofest/">
   <img class="gx-tile__media" src="/images/events/gcc2026/cofest/ecology_tools.jpg" alt="Still from a GCC2026 CoFest group" />
   <div class="gx-tile__title">GCC2027 CoFest</div>
-  <p class="gx-tile__teaser">Hands-on, community-driven work right after the conference. Contribute to tools, workflows, docs, or training — everyone's welcome, whatever your background. TODO: dates.</p>
+  <p class="gx-tile__teaser">Hands-on, community-driven work right after the conference. Contribute to tools, workflows, docs, or training — everyone's welcome, whatever your background. Exact dates are to be announced.</p>
   <span class="gx-tile__more">Join CoFest →</span>
 </a>
 
