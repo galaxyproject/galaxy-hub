@@ -37,8 +37,31 @@ test.describe('Subsite citations', () => {
     await expect(page.locator('article').first()).toBeVisible();
   });
 
+  const serverCitations = [
+    { subsite: 'us', title: 'US Citations', server: 'usegalaxy.org Galaxy server' },
+    { subsite: 'belgium', title: 'VIB (Belgium) Citations', server: 'usegalaxy.be Galaxy server' },
+    { subsite: 'pasteur', title: 'Pasteur Citations', server: 'galaxy.pasteur.fr Galaxy server' },
+    {
+      subsite: 'genouest',
+      title: 'GenOuest Citations',
+      server: 'galaxy.genouest.org Galaxy server, now replaced by usegalaxy.fr',
+    },
+    { subsite: 'cz', title: 'Czechia Citations', server: 'usegalaxy.cz Galaxy server' },
+  ];
+
+  for (const { subsite, title, server } of serverCitations) {
+    test(`${subsite} citations name the server and render entries`, async ({ page }) => {
+      const response = await page.goto(`/${subsite}/citations/`);
+      expect(response?.status()).toBe(200);
+
+      await expect(page.locator('h1')).toHaveText(title);
+      await expect(page.getByText(`Scientific publications that cited the ${server}.`).first()).toBeVisible();
+      await expect(page.locator('article').first()).toBeVisible();
+    });
+  }
+
   test('subsites without citations have no citations page', async ({ page }) => {
-    const response = await page.goto('/us/citations/');
+    const response = await page.goto('/ifb/citations/');
     expect(response?.status()).toBe(404);
   });
 

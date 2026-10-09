@@ -2,6 +2,7 @@
 """Sync EU and subsite citation bibliographies from Zotero."""
 
 import argparse
+import os
 import re
 from pathlib import Path
 from urllib.parse import urlencode
@@ -14,12 +15,28 @@ USEGALAXY_EU_TAG = ">UseGalaxy.eu"
 TIMEOUT_SECONDS = 60
 PAGE_SIZE = 100
 
+SUBSITE_ZOTERO_TAGS = {
+    "belgium": ">UseGalaxy.be",
+    "cz": ">MetaCentrum",
+    "genouest": ">GenOuest",
+    "pasteur": ">Pasteur",
+    "us": ">UseGalaxy.org",
+}
+
 ZOTERO_BIBLIOGRAPHIES = [
     {
         "group_id": ZOTERO_GROUP_ID,
         "tag": USEGALAXY_EU_TAG,
         "destination": Path("content/eu/citations/citations-eu.bib"),
     },
+    *(
+        {
+            "group_id": ZOTERO_GROUP_ID,
+            "tag": tag,
+            "destination": Path(f"content/{subsite}/citations/citations-{subsite}.bib"),
+        }
+        for subsite, tag in SUBSITE_ZOTERO_TAGS.items()
+    ),
 ]
 
 LOCAL_BIBLIOGRAPHIES = [
@@ -98,15 +115,20 @@ def write_bibliography(destination: Path, data: bytes, check: bool) -> bool:
     return True
 
 
-def sync_zotero_bibliographies(check: bool) -> bool:
+def sync_zotero_bibliographies(check: bool) -> tuple[bool, list[str]]:
     changed = False
+    errors: list[str] = []
     for source in ZOTERO_BIBLIOGRAPHIES:
-        data = normalize_bibliography(fetch_zotero_bibliography(source["group_id"], source["tag"]))
-        if not ENTRY_HEADER.search(data):
-            raise RuntimeError(f"Zotero returned no BibTeX entries for {source['destination']}")
+        try:
+            data = normalize_bibliography(fetch_zotero_bibliography(source["group_id"], source["tag"]))
+            if not ENTRY_HEADER.search(data):
+                raise RuntimeError(f"Zotero returned no BibTeX entries for {source['destination']}")
+        except Exception as error:
+            errors.append(f"{source['tag']}: {error}")
+            continue
 
         changed = write_bibliography(source["destination"], data, check) or changed
-    return changed
+    return changed, errors
 
 
 def normalize_local_bibliographies(check: bool) -> bool:
@@ -124,14 +146,26 @@ def normalize_local_bibliographies(check: bool) -> bool:
     return changed
 
 
+def write_github_output(name: str, value: str) -> None:
+    output = os.environ.get("GITHUB_OUTPUT")
+    if not output:
+        return
+
+    with open(output, "a", encoding="utf-8") as handle:
+        handle.write(f"{name}={value}\n")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--check", action="store_true", help="Report updates without writing files")
     args = parser.parse_args()
 
-    changed = sync_zotero_bibliographies(args.check)
+    changed, errors = sync_zotero_bibliographies(args.check)
+    write_github_output("synced", "true" if len(errors) < len(ZOTERO_BIBLIOGRAPHIES) else "false")
     changed = normalize_local_bibliographies(args.check) or changed
 
+    if errors:
+        raise SystemExit("\n".join(errors))
     if args.check and changed:
         raise SystemExit(1)
 
