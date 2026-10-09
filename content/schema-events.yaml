@@ -18,6 +18,11 @@ mapping:
             nav_title:
                 type: str
                 description: Override label shown in conference sub-navigation
+            nav_order:
+                type: int
+                range:
+                    min: 1
+                description: Position in conference sub-navigation. Lower numbers come first, pages sharing a number are sorted alphabetically, and pages without one follow alphabetically after all numbered pages
             date:
                 type: any
                 description: Start date (YYYY-MM-DD)
