@@ -273,6 +273,59 @@ test.describe('Content Rendering', () => {
       await expect(link).toHaveCount(0);
     });
 
+    // No content page carries hostile props, so mount the page's own Twitter component and
+    // Vue renderer again with the given props, next to the embed the page already has
+    async function mountTweet(page: Page, props: Record<string, string>) {
+      // createTweet never settles, so a valid tweet keeps its link while the test checks it
+      await stubWidgets(page, '() => new Promise(() => {})');
+      await page.goto(tweetPage);
+      const island = page.locator('astro-island[component-url*="Twitter"]').first();
+      const componentUrl = await island.getAttribute('component-url');
+      const rendererUrl = await island.getAttribute('renderer-url');
+      expect(componentUrl && rendererUrl).toBeTruthy();
+
+      await page.evaluate(
+        async ({ componentUrl, rendererUrl, props }) => {
+          const [{ default: Component }, { default: renderer }] = await Promise.all([
+            import(componentUrl),
+            import(rendererUrl),
+          ]);
+          const el = document.createElement('div');
+          el.id = 'tweet-under-test';
+          el.setAttribute('ssr', '');
+          document.body.prepend(el);
+          await renderer(el)(Component, props, {}, { client: 'only' });
+        },
+        { componentUrl: componentUrl!, rendererUrl: rendererUrl!, props }
+      );
+
+      const embed = page.locator('#tweet-under-test .twitter-embed');
+      await expect(embed).toHaveCount(1);
+      return embed;
+    }
+
+    test('Twitter embeds mounted with test props link and embed a valid tweet', async ({ page }) => {
+      const embed = await mountTweet(page, { tweet: ' 981073917187100672 ' });
+
+      await expect(embed.locator(`a[href="${tweetHref}"]`)).toHaveCount(1);
+      await expect(embed.locator('[data-requested="981073917187100672"]')).toHaveCount(1);
+    });
+
+    for (const props of [
+      { tweetUrl: 'javascript:alert(document.domain)' },
+      { tweetUrl: 'data:text/html,<script>alert(1)</script>' },
+      { tweetUrl: 'https://example.org/galaxyproject/status/981073917187100672' },
+      { tweet: '../../galaxyproject' },
+      { id: '981073917187100672/../../galaxyproject' },
+    ]) {
+      test(`Twitter embeds render no link or tweet for ${JSON.stringify(props)}`, async ({ page }) => {
+        const embed = await mountTweet(page, props);
+
+        await expect(embed.locator('[href]')).toHaveCount(0);
+        await expect(embed.locator('[data-requested]')).toHaveCount(0);
+      });
+    }
+
     test('Video embeds render', async ({ page }) => {
       // Similar - verify video component doesn't break
       await page.goto('/');
