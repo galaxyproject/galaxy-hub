@@ -1,5 +1,5 @@
 ---
-title: ""
+title: GVL 5.0 beta released
 date: "2020-01-21"
 ---
 

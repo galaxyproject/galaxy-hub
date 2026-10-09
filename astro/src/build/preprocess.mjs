@@ -37,7 +37,7 @@ const DID_YOU_KNOW_DEST_DIR = path.join(ASTRO_CONTENT_DIR, 'did-you-know');
  * Used by both preprocessContent and watchContent so they always operate on
  * the same set of files.
  */
-const CONTENT_IGNORE = ['**/node_modules/**', '0examples/**', '**/use/**/*.yml', '**/use/**/*.yaml'];
+export const CONTENT_IGNORE = ['**/node_modules/**', '0examples/**', '**/use/**/*.yml', '**/use/**/*.yaml'];
 
 /**
  * Copy images and assets from a content directory
@@ -612,7 +612,7 @@ async function processMarkdownFile(filePath, { contentDir = CONTENT_DIR, outputD
 
   const useMdx = frontmatter.components === true || insertsHaveComponents;
   const destPath = path.join(collectionDir, slugToFilename(slug, useMdx));
-  const newContent = matter.stringify(processedContent, processedFrontmatter);
+  const newContent = matter.stringify({ content: processedContent }, processedFrontmatter);
   await fs.promises.writeFile(destPath, newContent);
 
   return { source: filePath, destination: destPath, collection, slug, naturalSlug };
@@ -681,15 +681,18 @@ async function processBatch(items, processFn, batchSize = 50) {
     const batch = items.slice(i, i + batchSize);
     const batchResults = await Promise.allSettled(batch.map((item) => processFn(item)));
 
-    for (const result of batchResults) {
+    batchResults.forEach((result, index) => {
       if (result.status === 'fulfilled') {
         if (result.value) results.push(result.value);
         processed++;
       } else {
         errors++;
-        console.error(`Error:`, result.reason?.message || result.reason);
+        console.error(
+          `Error in ${path.relative(CONTENT_DIR, String(batch[index]))}:`,
+          result.reason?.message || result.reason
+        );
       }
-    }
+    });
 
     if (processed % 500 === 0 || i + batchSize >= items.length) {
       console.log(`  Processed ${processed}/${items.length} files...`);
@@ -877,8 +880,7 @@ export async function preprocessContent(options = {}) {
   }
 
   if (errors > 0) {
-    console.log('');
-    console.log(`Errors: ${errors} files failed to process`);
+    throw new Error(`${errors} files failed to process`);
   }
 
   return results;
