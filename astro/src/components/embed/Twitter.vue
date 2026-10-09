@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import { computed, ref, onMounted, onUnmounted } from 'vue';
-import { parseTweetUrl } from '@/utils/tweet-url';
+import { parseTweetId, parseTweetUrl } from '@/utils/tweet-url';
 
 const props = defineProps<{
   tweetUrl?: string;
-  id?: string;
-  tweet?: string;
+  id?: string | number;
+  tweet?: string | number;
 }>();
 
 const container = ref<HTMLElement | null>(null);
@@ -13,7 +13,7 @@ const loaded = ref(false);
 
 const parsedUrl = computed(() => parseTweetUrl(props.tweetUrl));
 
-const tweetId = computed(() => props.id || props.tweet || parsedUrl.value?.id);
+const tweetId = computed(() => parseTweetId(props.id) ?? parseTweetId(props.tweet) ?? parsedUrl.value?.id);
 
 const href = computed(
   () => parsedUrl.value?.href || (tweetId.value ? `https://twitter.com/i/status/${tweetId.value}` : undefined)

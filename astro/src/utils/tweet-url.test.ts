@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { parseTweetUrl } from './tweet-url';
+import { parseTweetId, parseTweetUrl } from './tweet-url';
 
 describe('parseTweetUrl', () => {
   it('rejects a javascript: URL', () => {
@@ -44,5 +44,35 @@ describe('parseTweetUrl', () => {
       id: undefined,
       user: undefined,
     });
+  });
+});
+
+describe('parseTweetId', () => {
+  it('accepts a numeric id, trimmed', () => {
+    expect(parseTweetId('981073917187100672')).toBe('981073917187100672');
+    expect(parseTweetId(' 981073917187100672\n')).toBe('981073917187100672');
+    expect(parseTweetId(1234567890)).toBe('1234567890');
+  });
+
+  it('rejects anything that is not only digits', () => {
+    expect(parseTweetId('../../galaxyproject')).toBeUndefined();
+    expect(parseTweetId('981073917187100672/../../galaxyproject')).toBeUndefined();
+    expect(parseTweetId('https://twitter.com/i/status/981073917187100672')).toBeUndefined();
+    expect(parseTweetId('javascript:alert(1)')).toBeUndefined();
+    expect(parseTweetId('galaxyproject')).toBeUndefined();
+    expect(parseTweetId('12a')).toBeUndefined();
+    expect(parseTweetId('-1')).toBeUndefined();
+    expect(parseTweetId('1e3')).toBeUndefined();
+    expect(parseTweetId('1 2')).toBeUndefined();
+    expect(parseTweetId('')).toBeUndefined();
+    expect(parseTweetId('   ')).toBeUndefined();
+    expect(parseTweetId(undefined)).toBeUndefined();
+  });
+
+  it('rejects numbers that cannot hold an exact tweet id', () => {
+    expect(parseTweetId(Number.MAX_SAFE_INTEGER + 1)).toBeUndefined();
+    expect(parseTweetId(1.5)).toBeUndefined();
+    expect(parseTweetId(-1)).toBeUndefined();
+    expect(parseTweetId(Number.NaN)).toBeUndefined();
   });
 });

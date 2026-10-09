@@ -3,8 +3,8 @@ import TwitterVue from '../embed/Twitter.vue';
 
 interface Props {
   tweetUrl?: string;
-  id?: string;
-  tweet?: string;
+  id?: string | number;
+  tweet?: string | number;
 }
 
 const props = Astro.props;

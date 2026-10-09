@@ -28,3 +28,10 @@ export function parseTweetUrl(input: string | undefined): TweetUrl | undefined {
   const user = match && match[1] !== 'i' ? match[1] : undefined;
   return { href: url.href, id: match?.[2], user };
 }
+
+// The id prop reaches the fallback href and createTweet, so only a plain run of digits is kept
+export function parseTweetId(input: string | number | undefined): string | undefined {
+  if (typeof input === 'number' && !(Number.isSafeInteger(input) && input >= 0)) return undefined;
+  const id = String(input ?? '').trim();
+  return /^\d+$/.test(id) ? id : undefined;
+}
