@@ -34,7 +34,7 @@ You can register for Day 1, Day 2, or both days. No previous Galaxy experience i
 Participation is free, but registration is required. Places are limited and will be allocated on a first-come, first-served basis.
 
 
-[Register now!](bit.ly/ESG4Stars-madrid-workshop/)
+[Register now!](https://bit.ly/ESG4Stars-madrid-workshop)
 
 
 
