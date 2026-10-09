@@ -1,7 +1,6 @@
 ---
 title: Bioinformatics Workshops on Galaxy and Metagenomics
 date: '2017-02-20'
-days: 1
 tease: Preceding the Global Biodiversity Genomics Conference
 continent: NA
 location:

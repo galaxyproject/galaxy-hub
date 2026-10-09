@@ -1,7 +1,6 @@
 ---
 title: Genome assembly using Galaxy
 date: '2017-02-28'
-days: 1
 tease: by QFAB, University of Queensland
 continent: AU
 location:

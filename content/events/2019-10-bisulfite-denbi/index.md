@@ -1,7 +1,7 @@
 ---
 title: 'Galaxy for linking bisulfite sequencing with RNA sequencing'
 date: '2019-10-09'
-days: 3
+end: '2019-10-11'
 tease: "Learn Galaxy and tools for data handling and preprocessing, differential gene expression analysis, bisulfite sequencing analysis, and Oxford Nanopore data exploration and usage"
 continent: EU
 location:

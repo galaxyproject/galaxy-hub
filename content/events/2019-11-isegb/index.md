@@ -2,7 +2,7 @@
 title: "International Symposium on Evolutionary Genomics and Bioinformatics 2019 (ISEGB 2019)" 
 tease: ""
 date: '2019-11-03'
-days: 2
+end: '2019-11-04'
 continent: AS
 location:
   name: "National Health Research Institutes - NHRI Zhunan Campus, Taiwan" 

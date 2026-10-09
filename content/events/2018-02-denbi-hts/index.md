@@ -1,7 +1,7 @@
 ---
 title: '5th Galaxy high-throughput sequencing (HTS) data analysis workshop'
 date: '2018-02-26'
-days: 5
+end: '2018-03-02'
 tease: "Data analysis of RNA-seq, ChIP-seq, Exome-seq, MethylC-seq data"
 continent: EU
 location:

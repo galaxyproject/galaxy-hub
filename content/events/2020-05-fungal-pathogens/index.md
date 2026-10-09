@@ -1,7 +1,7 @@
 ---
 title: 'Fungal Pathogen Genomics - POSTPONED'
 date: '2020-05-11'
-days: 6
+end: '2020-05-16'
 tease: 'Hands-on training in web-based data-mining resources for fungal genomes'
 continent: EU
 location:

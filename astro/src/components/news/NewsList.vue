@@ -189,6 +189,7 @@ function displaySubsite(subsite: string): string {
         <!-- Older years dropdown -->
         <select
           v-if="olderYears.length > 0"
+          aria-label="Older years"
           :value="olderYears.includes(selectedYear as number) ? selectedYear : 'older'"
           @change="(e) => selectYear(Number((e.target as HTMLSelectElement).value))"
           :class="[

@@ -4,7 +4,7 @@ tags:
 - training
 title: "GTN Smörgåsbord 2023"
 date: 2023-05-22
-days: 5
+end: 2023-05-26
 external_url: https://gallantries.github.io/video-library/events/smorgasbord3/
 continent: GL
 location:

@@ -1,7 +1,6 @@
 ---
 title: "Introduction to Galaxy Workshop"
 date: '2020-12-07'
-days: 1
 tease: "Open to everybody interested in Galaxy"
 continent: EU
 location:

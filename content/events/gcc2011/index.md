@@ -1,7 +1,7 @@
 ---
 title: '2011 Galaxy Community Conference (GCC2011)'
 date: '2011-05-25'
-days: 2
+end: '2011-05-26'
 tease: "GDC becomes GCC, and moves to Europe"
 continent: EU
 location:

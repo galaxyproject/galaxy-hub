@@ -3,7 +3,7 @@ subsites:
 - all
 gtn: true
 date: '2026-05-18'
-days: 5
+end: '2026-05-22'
 title: Galaxy Training Academy 2026
 contact: Delphine Lariviere, Teresa Müller, Scott Cain, Natalie Whitaker-Allen, Saskia
   Hiltemann, Diana Chiang Jurado, Armin Dadras

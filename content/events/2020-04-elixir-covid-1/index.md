@@ -1,7 +1,6 @@
 ---
 title: "Introduction to Galaxy and the Galaxy workflows for SARS-CoV-2 data analysis"
 date: '2020-04-30'
-days: 1
 tease: "Part of the Galaxy-ELIXIR webinar series"
 continent: EU
 location:

@@ -1,7 +1,7 @@
 ---
 title: "Computational Genomics"
 date: '2019-12-04'
-days: 8
+end: '2019-12-11'
 tease: "a comprehensive overview of the theory and practice"
 continent: NA
 location:

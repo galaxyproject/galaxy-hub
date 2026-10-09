@@ -2,7 +2,6 @@
 title: 'Galaxy Working Groups: Distributing project guidance to the community'
 date: '2020-12-10'
 tease: 'Distributing Galaxy Guidance: Working Groups'
-days: 1
 continent: GL
 location:
   name: Galaxy Developer Roundtable, Online, Global

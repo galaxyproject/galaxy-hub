@@ -18,7 +18,7 @@ The [August 2013 Galaxy Update is now available](/galaxy-updates/2013-08/).
 * [Galaxy @ ISMB](/galaxy-updates/2013-08/#ismb--eccb--bosc--ms-sig-2013): links to slides and posters
 * [Other Upcoming Events](/galaxy-updates/2013-08/#other-upcoming-events) including training in California, Sydney, Italy, Toulouse, and Boston.
 * [New CloudMan Release](/galaxy-updates/2013-08/#cloudman-release)
-* [Tool Shed Contributions](/galaxy-updates/2013-08/#toolshed-contributions)
+* [Tool Shed Contributions](/galaxy-updates/2013-08/#tool-shed-contributions)
 * [Other News](/galaxy-updates/2013-08/#other-news)
 
 If you have anything you would like to see in the next *[Galaxy Update](/galaxy-updates/)*, please let us know.

@@ -22,5 +22,5 @@ components: true
 <p></p>
 
 <footer>
-<slot name="/ifb/site-footer" />
+<slot name="/bare/fr/usegalaxy/footer" />
 </footer>

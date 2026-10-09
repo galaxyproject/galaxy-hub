@@ -46,7 +46,7 @@ Accessible and scalable viral data analysis for everyone
 - [Vetlab support](#vetlab-support)
 - [Primer and primer scheme design](#primer-and-primer-scheme-design)
 - [Tools, tools, tools](#tools-tools-tools)
-- [... and reference data](#and-reference-data)
+- [... and reference data](#-and-reference-data)
 
 # What's this?
 

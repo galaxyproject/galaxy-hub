@@ -1,7 +1,7 @@
 ---
 title: Galaxy Training Academy 2024
 date: '2024-10-07'
-days: 5
+end: '2024-10-11'
 tease: "Are you ready to enhance your data analysis skills? The Galaxy Training Academy is a five-day global online event designed for beginners and those looking to enhance their Galaxy expertise."
 continent: GL
 location:

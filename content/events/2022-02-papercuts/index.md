@@ -1,7 +1,6 @@
 ---
 title: "GTN CoFest and Galaxy Papercuts CoFest Day"
 date: '2022-02-17'
-days: 1
 tease: 'A community contribution day'
 continent: GL
 location:

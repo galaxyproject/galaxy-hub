@@ -1,7 +1,6 @@
 ---
 title: "16S Microbial Analysis with Mothur"
 date: '2018-06-07'
-days: 1
 tease: ""
 continent: AS
 location:

@@ -1,7 +1,6 @@
 ---
 title: "Variant Detection Using Galaxy"
 date: "2020-05-19"
-days: 1
 tease: "Detection of small variants, including SNPs and small indels, from next-generation sequencing data."
 continent: AU
 location:

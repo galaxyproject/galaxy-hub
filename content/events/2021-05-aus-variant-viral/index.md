@@ -1,7 +1,6 @@
 ---
 title: "Viral variant calling with Galaxy"
 date: '2021-05-26'
-days: 1
 tease: "Step through viral variant calling using tools in the Galaxy Australia web platform. Apply by 12 May."
 continent: AU
 location:

@@ -10,7 +10,7 @@ platforms:
 summary: " a Galaxy dedicated for the Street Science Community"
 image: "streetscience-logo.png"
 comments:
-  - 'In the [Street Science community](https://streetscience.community/), we want to make science tangible & accessible by bringing it to the “street” via open science workshops.'
+  - 'In the [Street Science community](https://web.archive.org/web/20221203021954/https://streetscience.community/), we want to make science tangible & accessible by bringing it to the “street” via open science workshops.'
   - "The public server is hosted by the UseGalaxy.eu team."
 user_support:
   - "[UseGalaxy.eu Matrix Support Channel](https://matrix.to/#/#galaxycomputationalchemistry_Lobby:gitter.im)"
@@ -21,6 +21,6 @@ citations:
 pub_libraries:
   - "Street Science"
 sponsors:
-  - "[Street Science community](https://streetscience.community/)"
+  - "[Street Science community](https://web.archive.org/web/20221203021954/https://streetscience.community/) (archived)"
   - "The [Freiburg Galaxy Team](/freiburg/) but also collectively by groups and individuals from across Europe"
 ---

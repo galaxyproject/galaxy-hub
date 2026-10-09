@@ -1,7 +1,7 @@
 ---
 title: "Packaging your bioinformatics tool with Bioconda and Galaxy"
 date: '2018-01-18'
-days: 2
+end: '2018-01-19'
 tease: "from Melbourne Bioinformatics"
 continent: AU
 location:

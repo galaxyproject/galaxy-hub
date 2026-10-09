@@ -1,7 +1,7 @@
 ---
 title: "Bioinformatic Analysis of Next Generation Sequencing Data"
 date: '2018-02-06'
-days: 4
+end: '2018-02-09'
 tease: "4-Day Hands On Workshop"
 continent: NA
 location:

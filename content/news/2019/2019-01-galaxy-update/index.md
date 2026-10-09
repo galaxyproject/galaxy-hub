@@ -13,7 +13,7 @@ The _January 2019 Galactic News_ is here! This is a summary of what is going on 
 - [Event News](/news/2019-01-galaxy-update/#event-news)
   - **[2019 Galaxy Admin Training: Registration is still open!](/news/2019-01-galaxy-update/#2019-galaxy-admin-training)**
   - **[Training topic nomination for GCC2019 Training extended through 15 January!](/news/2019-01-galaxy-update/#gcc2019-training-topic-nomination-extended-to-15-january)**
-  - [Galaxy will be at the 2019 Plant and Animal Genome (PAG) conference](/news/2019-01-galaxy-update/#galaxy-pag-2019)
+  - [Galaxy will be at the 2019 Plant and Animal Genome (PAG) conference](/news/2019-01-galaxy-update/#galaxy--pag-2019)
   - [Galaxy needs your Google Summer of Code Project suggestions](/news/2019-01-galaxy-update/#galaxy-needs-your-google-summer-of-code-project-suggestions)
   - And [GalaxyAdmins needs your topic suggestions](/news/2019-01-galaxy-update/#galaxyadmins-needs-your-topic-suggestions)
 - [80 new publications](/news/2019-01-galaxy-update/#publications), including several spectacular ones

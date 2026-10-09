@@ -1,7 +1,6 @@
 ---
 title: Materials Galaxy Community Meeting
 date: '2024-02-07'
-days: 1
 continent: GL
 location:
   name: Online, Global

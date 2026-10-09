@@ -1,7 +1,6 @@
 ---
 title: "GTN CoFest on Training Material"
 date: '2018-11-15'
-days: 1
 tease: ""
 continent: GL
 location:

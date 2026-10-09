@@ -3,7 +3,7 @@ subsites:
 - all
 gtn: false
 date: '2025-10-14'
-days: 5
+end: '2025-10-18'
 tags:
 - new event-external
 title: "ASHG 2025 Annual Meeting"

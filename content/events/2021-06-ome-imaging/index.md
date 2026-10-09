@@ -2,7 +2,6 @@
 title: Imaging in Galaxy
 date: '2021-06-11'
 tease: Showcasing the image analysis capabilities of Galaxy.
-days: 1
 continent: GL
 location:
   name: OME Community Meeting, Online, Global

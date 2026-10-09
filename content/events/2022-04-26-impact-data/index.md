@@ -1,7 +1,7 @@
 ---
 title: "Generating software containers"
 date: '2022-04-26'
-days: 5
+end: '2022-04-30'
 tease: "Workshop at IMPaCT-Data"
 continent: EU
 location:

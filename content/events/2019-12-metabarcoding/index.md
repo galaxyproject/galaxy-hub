@@ -1,7 +1,7 @@
 ---
 title: "Formation metabarcoding 2019"
 date: '2019-12-02'
-days: 5
+end: '2019-12-06'
 tease: "Date limite des inscriptions : lundi 15 juillet 2019."
 continent: EU
 location:

@@ -1,7 +1,7 @@
 ---
 title: "The Galaxy Platform as an Accessible, Core Laboratory Solution for Proteogenomic Analysis and Informatics"
 date: '2018-04-22'
-days: 4
+end: '2018-04-25'
 tease: "Presented by the Galaxy-P team"
 continent: NA
 location:

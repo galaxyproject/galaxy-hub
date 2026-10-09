@@ -1,7 +1,7 @@
 ---
 title: 'Clinical bioinformatics for microbial genomics and metagenomics'
 date: '2019-09-09'
-days: 4
+end: '2019-09-12'
 tease: ""
 continent: EU
 location:

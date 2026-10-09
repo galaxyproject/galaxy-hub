@@ -1,7 +1,6 @@
 ---
 title: "RNA-seq analysis in Galaxy"
 date: '2018-11-19'
-days: 1
 tease: "Hands-on analysis of de novo transcriptome reconstruction"
 continent: NA
 location:

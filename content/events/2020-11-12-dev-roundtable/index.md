@@ -2,7 +2,6 @@
 title: Working with the Galaxy Training Network
 date: '2020-11-12'
 tease: Galaxy Training Network
-days: 1
 continent: GL
 location:
   name: Galaxy Developer Roundtable, Online, Global

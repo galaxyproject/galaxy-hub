@@ -1,7 +1,7 @@
 ---
 title: "Computational Genomics"
 date: '2018-06-18'
-days: 6
+end: '2018-06-23'
 tease: "break away from the traditional conference experience ..."
 continent: NA
 location:

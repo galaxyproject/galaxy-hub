@@ -1,7 +1,6 @@
 ---
 title: "Initiation à Galaxy"
 date: '2018-05-14'
-days: 1
 tease: 'Part of Cycle "Bioinformatique par la pratique" 2018'
 continent: EU
 location:

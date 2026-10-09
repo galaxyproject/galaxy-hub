@@ -1,7 +1,7 @@
 ---
 title: "RNA-Seq data analysis with Galaxy for clinical applications"
 date: '2018-09-02'
-days: 5
+end: '2018-09-06'
 tease: ""
 continent: EU
 location:

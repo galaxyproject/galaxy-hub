@@ -1,7 +1,6 @@
 ---
 title: "Introduction to Genomics and its application in different medical specialties and  introduction to Galaxy project for analyzing genome sequences"
 date: '2019-03-27'
-days: 1
 tease: ""
 continent: "AF"
 location:

@@ -1,7 +1,7 @@
 ---
 title: "Single-Cell RNAseq Training Course 2020 - POSTPONED"
 date: '2020-04-20'
-days: 5
+end: '2020-04-24'
 tease: "For bench-based researchers planning a single-cell project."
 continent: EU
 location:

@@ -2,7 +2,7 @@
 # THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
 # To update, run: python3 scripts/update-tools.py --server https://usegalaxy.org --name "Galaxy US" --output content/us/tools/index.md
 title: Galaxy US Tools
-description: "2355 tools and counting"
+description: "2370 tools and counting"
 ---
 
 
@@ -506,11 +506,13 @@ description: "2355 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=tooldistillator" target="_top" title="Extract information from output files of specific tools and expose it as JSON files">ToolDistillator</a>
 <a href="https://usegalaxy.org/root?tool_id=tooldistillator_summarize" target="_top" title="Aggregate several JSON reports from ToolDistillator">ToolDistillator Summarize</a>
 <a href="https://usegalaxy.org/root?tool_id=unzip" target="_top" title="Unzip a file">Unzip</a>
+<a href="https://usegalaxy.org/root?tool_id=ucsc_axtsort" target="_top" title=": sort AXT alignments by target position">axtSort</a>
 <a href="https://usegalaxy.org/root?tool_id=ucsc_axtomaf" target="_top" title="Convert dataset from axt to MAF format">axtToMaf</a>
 <a href="https://usegalaxy.org/root?tool_id=bax2bam" target="_top" title="converts PacBio basecall format (bax.h5) into BAM">bax2bam</a>
 <a href="https://usegalaxy.org/root?tool_id=bed_to_protein_map" target="_top" title="genomic location of proteins for MVP">bed to protein map</a>
 <a href="https://usegalaxy.org/root?tool_id=fatovcf" target="_top" title="Convert a FASTA alignment file to Variant Call Format (VCF) single-nucleotide diffs">faToVcf</a>
 <a href="https://usegalaxy.org/root?tool_id=gffread" target="_top" title="Filters and/or converts GFF3/GTF2 records">gffread</a>
+<a href="https://usegalaxy.org/root?tool_id=ucsc_lavtopsl" target="_top" title=": convert lastz LAV alignments to PSL">lavToPsl</a>
 <a href="https://usegalaxy.org/root?tool_id=maftoaxt" target="_top" title="Convert file from MAF to axt format">mafToAxt</a>
 <a href="https://usegalaxy.org/root?tool_id=msconvert" target="_top" title="Convert and/or filter mass spectrometry files">msconvert</a>
 <a href="https://usegalaxy.org/root?tool_id=mz_to_sqlite" target="_top" title="Extract mzIdentML and associated proteomics datasets into a SQLite DB">mz to sqlite</a>
@@ -603,6 +605,7 @@ description: "2355 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=idba_ud" target="_top" title="Iterative de Bruijn Graph Assembler for data with highly uneven depth">IDBA-UD</a>
 <a href="https://usegalaxy.org/root?tool_id=lexicmap_index" target="_top" title="Builds LexicMap index">LexicMap Index</a>
 <a href="https://usegalaxy.org/root?tool_id=lexicmap_search" target="_top" title="nucleotide sequence tool for querying genomes">LexicMap Search</a>
+<a href="https://usegalaxy.org/root?tool_id=logan_protein_search_database" target="_top" title="Search a database using pre-computed embeddings">Logan Protein Search</a>
 <a href="https://usegalaxy.org/root?tool_id=megahit" target="_top" title="for metagenomics assembly">MEGAHIT</a>
 <a href="https://usegalaxy.org/root?tool_id=merqury" target="_top" title="evaluate the assembly quality">Merqury</a>
 <a href="https://usegalaxy.org/root?tool_id=merquryplot" target="_top" title="evaluate the assembly quality">Merqury histogram plot</a>
@@ -790,6 +793,7 @@ description: "2355 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=batched_lastz" target="_top" title=": align batches of sequences">Batched LASTZ</a>
 <a href="https://usegalaxy.org/root?tool_id=bowtie2" target="_top" title="- map reads against reference genome">Bowtie2</a>
 <a href="https://usegalaxy.org/root?tool_id=growler_lastz" target="_top" title=": gapped extension of one chromosome pair">Growler LASTZ</a>
+<a href="https://usegalaxy.org/root?tool_id=growler_lastz_lav" target="_top" title="gapped extension of one KegAlign pair file, one target per lastz call, LAV out">Growler LASTZ (LAV)</a>
 <a href="https://usegalaxy.org/root?tool_id=kegalign" target="_top" title="A Scalable GPU System for Pairwise Whole Genome Alignments based on LASTZ&#x27;s seed-filter-extend paradigm">KegAlign</a>
 <a href="https://usegalaxy.org/root?tool_id=lastz_wrapper_2" target="_top" title="align long sequences">LASTZ</a>
 <a href="https://usegalaxy.org/root?tool_id=lastz_d_wrapper" target="_top" title="estimate substitution scores matrix">LASTZ_D</a>
@@ -805,6 +809,7 @@ description: "2355 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=ucsc_axtchain" target="_top" title="chain together axt or psl alignments">axtChain</a>
 <a href="https://usegalaxy.org/root?tool_id=bwameth" target="_top" title="Fast and accurate aligner of BS-Seq reads">bwameth</a>
 <a href="https://usegalaxy.org/root?tool_id=ucsc_chainantirepeat" target="_top" title="Remove repeated chains">chainAntiRepeat</a>
+<a href="https://usegalaxy.org/root?tool_id=ucsc_chainmergesort" target="_top" title=": combine sorted chain files into one sorted chain file">chainMergeSort</a>
 <a href="https://usegalaxy.org/root?tool_id=ucsc_chainnet" target="_top" title="make alignment nets out of alignment chains">chainNet</a>
 <a href="https://usegalaxy.org/root?tool_id=ucsc_chainprenet" target="_top" title="Remove chains that don&#x27;t have a chance of being netted">chainPreNet</a>
 <a href="https://usegalaxy.org/root?tool_id=ucsc_chainsort" target="_top" title="Sort chains">chainSort</a>
@@ -1038,6 +1043,44 @@ description: "2355 tools and counting"
 
 </div>
 
+### Phylogenetics
+
+<div class="tool-list">
+
+<a href="https://usegalaxy.org/root?tool_id=hyphy_annotate" target="_top" title="a newick tree with HyPhy">Annotate</a>
+<a href="https://usegalaxy.org/root?tool_id=drhip" target="_top" title="Data Reduction for HyPhy with Inference Processing">DRHIP</a>
+<a href="https://usegalaxy.org/root?tool_id=hyphy_bgm" target="_top" title="- Detecting coevolving sites via Bayesian graphical models">HyPhy-BGM</a>
+<a href="https://usegalaxy.org/root?tool_id=hyphy_busted" target="_top" title="Branch-site Unrestricted Statistical Test for Episodic Diversification">HyPhy-BUSTED</a>
+<a href="https://usegalaxy.org/root?tool_id=hyphy_cfel" target="_top" title="Test for Differences in Selective Pressures at Individual Sites among Clades and Sets of Branches">HyPhy-CFEL</a>
+<a href="https://usegalaxy.org/root?tool_id=hyphy_cln" target="_top" title="Clean and normalize alignment">HyPhy-CLN</a>
+<a href="https://usegalaxy.org/root?tool_id=hyphy_conv" target="_top" title="translate an in-frame codon alignment to proteins">HyPhy-Conv</a>
+<a href="https://usegalaxy.org/root?tool_id=hyphy_fade" target="_top" title=": FUBAR* Approach to Directional Evolution (*Fast    Unconstrained Bayesian Approximation)">HyPhy-FADE</a>
+<a href="https://usegalaxy.org/root?tool_id=hyphy_fel" target="_top" title="Fixed Effects Likelihood">HyPhy-FEL</a>
+<a href="https://usegalaxy.org/root?tool_id=hyphy_fubar" target="_top" title="Fast Unconstrained Bayesian AppRoximation">HyPhy-FUBAR</a>
+<a href="https://usegalaxy.org/root?tool_id=hyphy_gard" target="_top" title="Genetic Algorithm for Recombination Detection">HyPhy-GARD</a>
+<a href="https://usegalaxy.org/root?tool_id=hyphy_meme" target="_top" title="Mixed Effects Model of Evolution">HyPhy-MEME</a>
+<a href="https://usegalaxy.org/root?tool_id=hyphy_prime" target="_top" title="Property Informed Models of Evolution">HyPhy-PRIME</a>
+<a href="https://usegalaxy.org/root?tool_id=hyphy_relax" target="_top" title="Detect relaxed selection in a codon-based    phylogenetic framework">HyPhy-RELAX</a>
+<a href="https://usegalaxy.org/root?tool_id=hyphy_slac" target="_top" title="Single Likelihood Ancestor Counting">HyPhy-SLAC</a>
+<a href="https://usegalaxy.org/root?tool_id=hyphy_sm19" target="_top" title="Partition Tree using Modified Slatkin-Maddison Test">HyPhy-SM2019</a>
+<a href="https://usegalaxy.org/root?tool_id=hyphy_summary" target="_top" title="generate summary report of HyPhy analyses">HyPhy-Summary</a>
+<a href="https://usegalaxy.org/root?tool_id=hyphy_absrel" target="_top" title="adaptive Branch Site Random Effects Likelihood">HyPhy-aBSREL</a>
+<a href="https://usegalaxy.org/root?tool_id=hyphaeon_list_models" target="_top" title="List available HyphAeon model variants from Hugging Face Hub">HyphAeon List Models</a>
+<a href="https://usegalaxy.org/root?tool_id=hyphaeon_dms" target="_top" title="In silico Selection Deep Mutational Scanning (Digital DMS / ESSM)">HyphAeon-DMS</a>
+<a href="https://usegalaxy.org/root?tool_id=hyphaeon_disease" target="_top" title="Disease variant effect prediction and pathogenicity scoring">HyphAeon-Disease</a>
+<a href="https://usegalaxy.org/root?tool_id=hyphaeon_epistasis" target="_top" title="Phylogenetic branch co-selection &amp; epistatic sector mining">HyphAeon-Epistasis</a>
+<a href="https://usegalaxy.org/root?tool_id=hyphaeon_filter" target="_top" title="Automated alignment QC, spatial artifact detection, and surgical masking">HyphAeon-Filter</a>
+<a href="https://usegalaxy.org/root?tool_id=hyphaeon_meme" target="_top" title="Episodic positive selection inference (HyphAeon Transformer)">HyphAeon-MEME</a>
+<a href="https://usegalaxy.org/root?tool_id=hyphaeon_phenotype" target="_top" title="Directional phenotype-genotype association &amp; PARS signature extraction (PhyloWAS)">HyphAeon-Phenotype</a>
+<a href="https://usegalaxy.org/root?tool_id=hyphaeon_splits" target="_top" title="Phylogenetic split inference via spectral graph bisection of cross-taxa attention">HyphAeon-Splits</a>
+<a href="https://usegalaxy.org/root?tool_id=hyphaeon_temporal" target="_top" title="Continuous temporal selection regression, two-stage filtering, and dynamic wave decomposition">HyphAeon-Temporal</a>
+<a href="https://usegalaxy.org/root?tool_id=remove_terminal_stop_codons" target="_top" title="from coding sequences">Remove terminal stop codons</a>
+<a href="https://usegalaxy.org/root?tool_id=hyphy_strike_ambigs" target="_top" title="in a multiple alignment using HyPhy">Replace ambiguous codons</a>
+<a href="https://usegalaxy.org/root?tool_id=sarscov2formatter" target="_top" title="">sarscov2formatter</a>
+<a href="https://usegalaxy.org/root?tool_id=sarscov2summary" target="_top" title="">sarscov2summary</a>
+
+</div>
+
 ### Evolution
 
 <div class="tool-list">
@@ -1235,6 +1278,7 @@ description: "2355 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=ludwig_visualize" target="_top" title="analyzes results and shows in plots">Generic Learner Visualize</a>
 <a href="https://usegalaxy.org/root?tool_id=sklearn_searchcv" target="_top" title="performs hyperparameter optimization using various SearchCVs">Hyperparameter Search</a>
 <a href="https://usegalaxy.org/root?tool_id=image_learner" target="_top" title="trains and evaluates an image classification/regression model">Image Learner</a>
+<a href="https://usegalaxy.org/root?tool_id=sklearn_label_encoder" target="_top" title="Encode target labels with value between 0 and n_classes-1">Label encoder</a>
 <a href="https://usegalaxy.org/root?tool_id=sklearn_lightgbm" target="_top" title="- train and apply LightGBM models">LightGBM</a>
 <a href="https://usegalaxy.org/root?tool_id=model_prediction" target="_top" title="predicts on new data using a preffited model">Model Prediction</a>
 <a href="https://usegalaxy.org/root?tool_id=sklearn_model_validation" target="_top" title="includes cross_validate, cross_val_predict, learning_curve, and more">Model Validation</a>
@@ -1855,35 +1899,6 @@ description: "2355 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=ncbi_tblastn_wrapper" target="_top" title="Search translated nucleotide database with protein query sequence(s)">NCBI BLAST+ tblastn</a>
 <a href="https://usegalaxy.org/root?tool_id=ncbi_tblastx_wrapper" target="_top" title="Search translated nucleotide database with translated nucleotide query sequence(s)">NCBI BLAST+ tblastx</a>
 <a href="https://usegalaxy.org/root?tool_id=get_species_taxids" target="_top" title="">NCBI get species taxids</a>
-
-</div>
-
-### HyPhy
-
-<div class="tool-list">
-
-<a href="https://usegalaxy.org/root?tool_id=hyphy_annotate" target="_top" title="a newick tree with HyPhy">Annotate</a>
-<a href="https://usegalaxy.org/root?tool_id=drhip" target="_top" title="Data Reduction for HyPhy with Inference Processing">DRHIP</a>
-<a href="https://usegalaxy.org/root?tool_id=hyphy_bgm" target="_top" title="- Detecting coevolving sites via Bayesian graphical models">HyPhy-BGM</a>
-<a href="https://usegalaxy.org/root?tool_id=hyphy_busted" target="_top" title="Branch-site Unrestricted Statistical Test for Episodic Diversification">HyPhy-BUSTED</a>
-<a href="https://usegalaxy.org/root?tool_id=hyphy_cfel" target="_top" title="Test for Differences in Selective Pressures at Individual Sites among Clades and Sets of Branches">HyPhy-CFEL</a>
-<a href="https://usegalaxy.org/root?tool_id=hyphy_cln" target="_top" title="Clean and normalize alignment">HyPhy-CLN</a>
-<a href="https://usegalaxy.org/root?tool_id=hyphy_conv" target="_top" title="translate an in-frame codon alignment to proteins">HyPhy-Conv</a>
-<a href="https://usegalaxy.org/root?tool_id=hyphy_fade" target="_top" title=": FUBAR* Approach to Directional Evolution (*Fast    Unconstrained Bayesian Approximation)">HyPhy-FADE</a>
-<a href="https://usegalaxy.org/root?tool_id=hyphy_fel" target="_top" title="Fixed Effects Likelihood">HyPhy-FEL</a>
-<a href="https://usegalaxy.org/root?tool_id=hyphy_fubar" target="_top" title="Fast Unconstrained Bayesian AppRoximation">HyPhy-FUBAR</a>
-<a href="https://usegalaxy.org/root?tool_id=hyphy_gard" target="_top" title="Genetic Algorithm for Recombination Detection">HyPhy-GARD</a>
-<a href="https://usegalaxy.org/root?tool_id=hyphy_meme" target="_top" title="Mixed Effects Model of Evolution">HyPhy-MEME</a>
-<a href="https://usegalaxy.org/root?tool_id=hyphy_prime" target="_top" title="Property Informed Models of Evolution">HyPhy-PRIME</a>
-<a href="https://usegalaxy.org/root?tool_id=hyphy_relax" target="_top" title="Detect relaxed selection in a codon-based    phylogenetic framework">HyPhy-RELAX</a>
-<a href="https://usegalaxy.org/root?tool_id=hyphy_slac" target="_top" title="Single Likelihood Ancestor Counting">HyPhy-SLAC</a>
-<a href="https://usegalaxy.org/root?tool_id=hyphy_sm19" target="_top" title="Partition Tree using Modified Slatkin-Maddison Test">HyPhy-SM2019</a>
-<a href="https://usegalaxy.org/root?tool_id=hyphy_summary" target="_top" title="generate summary report of HyPhy analyses">HyPhy-Summary</a>
-<a href="https://usegalaxy.org/root?tool_id=hyphy_absrel" target="_top" title="adaptive Branch Site Random Effects Likelihood">HyPhy-aBSREL</a>
-<a href="https://usegalaxy.org/root?tool_id=remove_terminal_stop_codons" target="_top" title="from coding sequences">Remove terminal stop codons</a>
-<a href="https://usegalaxy.org/root?tool_id=hyphy_strike_ambigs" target="_top" title="in a multiple alignment using HyPhy">Replace ambiguous codons</a>
-<a href="https://usegalaxy.org/root?tool_id=sarscov2formatter" target="_top" title="">sarscov2formatter</a>
-<a href="https://usegalaxy.org/root?tool_id=sarscov2summary" target="_top" title="">sarscov2summary</a>
 
 </div>
 

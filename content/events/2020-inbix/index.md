@@ -1,7 +1,7 @@
 ---
 title:  "Galaxy @ Inbix2020"
 date: '2020-12-01'
-days: 05
+end: '2020-12-05'
 tease: "Recent advances in computational biology for codifying Biodiversity into one health approach: Biodiversity, Climate change, One health and Zoonotic diseases"
 continent: AS
 location:

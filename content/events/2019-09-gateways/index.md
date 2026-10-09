@@ -1,7 +1,7 @@
 ---
 title: "Galaxy @ Gateways 2019"
 date: '2019-09-23'
-days: 3
+end: '2019-09-25'
 tease: "Co-located with eScience 2019"
 continent: NA
 location:

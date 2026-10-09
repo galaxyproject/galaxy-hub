@@ -24,10 +24,11 @@ contributions:
   funding:
     - elixir-europe
     - deNBI
+    - mwk
     - ifb
 ---
 
-Now that our [microGalaxy community](https://www.biorxiv.org/content/10.1101/2024.12.23.629682v3) paper is accepted, we can focus more on tool maintenance! As discussed in our last meeting, many — also highly used — microGalaxy tools are outdated, as tracked in this [IUC issue](https://github.com/galaxyproject/tools-iuc/issues/8301).
+Now that our [microGalaxy community](https://galaxyproject.org/community/sig/microbial/) paper is accepted, we can focus more on tool maintenance! As discussed in our last meeting, many — also highly used — microGalaxy tools are outdated, as tracked in this [IUC issue](https://github.com/galaxyproject/tools-iuc/issues/8301).
 
 We therefore plan a **hackathon for tool development** to update those tools:
 

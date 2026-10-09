@@ -7,6 +7,7 @@ import sitemap from '@astrojs/sitemap';
 import { unified } from '@astrojs/markdown-remark';
 import rehypeSlug from 'rehype-slug';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
+import rehypeScrollableTables from './src/build/rehype-scrollable-tables.mjs';
 import generatedRedirects from './src/build/generated-redirects.json' with { type: 'json' };
 import releaseGuardiansRedirect from './src/data/release-guardians/redirect.json' with { type: 'json' };
 
@@ -15,6 +16,21 @@ const autolinkConfig = {
   properties: {
     class: 'heading-anchor',
     ariaLabel: 'Link to this section',
+  },
+};
+
+// github-dark renders comments in #6A737D, 3.05:1 on its #24292E background; use its
+// lighter grey (5.34:1) so comments meet WCAG AA.
+const readableCodeComments = {
+  name: 'readable-code-comments',
+  tokens(lines) {
+    for (const line of lines) {
+      for (const token of line) {
+        if (token.color?.toLowerCase() === '#6a737d') {
+          token.color = '#959da5';
+        }
+      }
+    }
   },
 };
 
@@ -53,8 +69,11 @@ export default defineConfig({
     // Astro 7 defaults to the Sätteri pipeline, which does not run remark/rehype
     // plugins. Opt back into unified() so rehype-slug + autolink headings keep working.
     processor: unified({
-      rehypePlugins: [rehypeSlug, [rehypeAutolinkHeadings, autolinkConfig]],
+      rehypePlugins: [rehypeSlug, [rehypeAutolinkHeadings, autolinkConfig], rehypeScrollableTables],
     }),
+    shikiConfig: {
+      transformers: [readableCodeComments],
+    },
   },
   vite: {
     define: {

@@ -1,7 +1,6 @@
 ---
 title: "An introduction to the Galaxy platform for computational biology"
 date: '2018-11-05'
-days: 1
 tease: "A hands-on tutorial"
 continent: EU
 location:

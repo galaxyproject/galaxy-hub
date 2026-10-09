@@ -2,7 +2,6 @@
 subsites: [global, eu, freiburg]
 gtn: false
 date: '2026-03-03'
-days: 1
 tags:
 - new event-external
 title: Practical Variant Effect Prediction with Deep Mutational Scanning Data

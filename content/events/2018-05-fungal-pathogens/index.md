@@ -1,7 +1,7 @@
 ---
 title: 'Fungal Pathogen Genomics'
 date: '2018-05-13'
-days: 6
+end: '2018-05-18'
 tease: ''
 continent: EU
 location:

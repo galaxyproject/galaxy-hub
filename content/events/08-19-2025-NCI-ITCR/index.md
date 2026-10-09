@@ -3,7 +3,7 @@ subsites:
 - all
 gtn: false
 date: '2025-08-19'
-days: 3
+end: '2025-08-21'
 tags:
 - new event-external
 title: "2025 NCI Informatics Technology for Cancer Research Annual Meeting"

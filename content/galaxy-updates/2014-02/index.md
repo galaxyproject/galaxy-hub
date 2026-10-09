@@ -115,17 +115,17 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/events/gcc2014/sponsor-
 
 ## Galaxy Australasia Workshop 2014 (GAW 2014)
 
-**The [1st Galaxy Australasia Workshop 2014 (GAW 2014)](http://australianbioinformatics.net/gaw-2014) will be held in Melbourne, Australia on 24 and 25th March 2014.**
+**The [1st Galaxy Australasia Workshop 2014 (GAW 2014)](https://web.archive.org/web/20140126051202/http://australianbioinformatics.net/gaw-2014/) will be held in Melbourne, Australia on 24 and 25th March 2014.**
 
-<div class='right'><a href='http://australianbioinformatics.net/gaw-2014'><img src="/images/logos/GAW2014-200.png" alt="Galaxy Australasia Workshop 2014 (GAW2014)"  /></a></div>
+<div class='right'><a href='https://web.archive.org/web/20140126051202/http://australianbioinformatics.net/gaw-2014/'><img src="/images/logos/GAW2014-200.png" alt="Galaxy Australasia Workshop 2014 (GAW2014)"  /></a></div>
 
-The [Galaxy Australasia Workshop](http://australianbioinformatics.net/gaw-2014) is a great opportunity for you to participate in two full days of presentations, discussions, poster sessions, keynotes and lightning talks, all about ways of using Galaxy for high-throughput biology, imaging and other scientific applications. The workshop will also include Training Sessions taught by Galaxy developers and master users.  GAW 2014 will run 24 and 25th March, immediately preceding [Computational and Simulation Sciences and eResearch](http://wp.csiro.au/css/) in Melbourne.  GAW 2014 will also include poster session, keynote speakers.
+The [Galaxy Australasia Workshop](https://web.archive.org/web/20140126051202/http://australianbioinformatics.net/gaw-2014/) is a great opportunity for you to participate in two full days of presentations, discussions, poster sessions, keynotes and lightning talks, all about ways of using Galaxy for high-throughput biology, imaging and other scientific applications. The workshop will also include Training Sessions taught by Galaxy developers and master users.  GAW 2014 will run 24 and 25th March, immediately preceding [Computational and Simulation Sciences and eResearch](http://wp.csiro.au/css/) in Melbourne.  GAW 2014 will also include poster session, keynote speakers.
 
 <div class='left'><a href='http://mcec.com.au/'><img src="/events/gaw2014/MCC.png" alt="Melbourne Convention Centre" width="200" /></a></div>
 
-[Registration is open](http://australianbioinformatics.net/gaw-2014).  Registration is also *free, but space is limited.*
+[Registration is open](https://web.archive.org/web/20140126051202/http://australianbioinformatics.net/gaw-2014/).  Registration is also *free, but space is limited.*
 
-Participants who wish to give presentations or present posters (potentially with technical demonstrations) that showcase use of Galaxy should [submit an abstract and brief one-paragraph bio](http://australianbioinformatics.net/gaw-2014) **by February 15th, 2014**. Submitters will be notified by February 28th. Speakers, panelists, and poster presenters will be selected by the program committee based on relevance to symposium objectives and workshop balance.
+Participants who wish to give presentations or present posters (potentially with technical demonstrations) that showcase use of Galaxy should [submit an abstract and brief one-paragraph bio](https://web.archive.org/web/20140126051202/http://australianbioinformatics.net/gaw-2014/) **by February 15th, 2014**. Submitters will be notified by February 28th. Speakers, panelists, and poster presenters will be selected by the program committee based on relevance to symposium objectives and workshop balance.
 
 GAW 2014 will be held in Melbourne, Australia on 24 and 25th March 2014.  The first day (Monday) will be in Clayton, next to [the Australian Synchrotron](http://www.synchrotron.org.au/).  For the 2nd day (Tuesday) we will move downtown the [Melbourne Convention Centre](http://mcec.com.au/), the venue for the [Computational and Simulation Sciences and eResearch](http://wp.csiro.au/css/).
 

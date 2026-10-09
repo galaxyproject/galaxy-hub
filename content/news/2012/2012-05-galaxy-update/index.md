@@ -16,7 +16,7 @@ The [May 2012 Galaxy Update](/galaxy-updates/2012-05/) is now available.  *[Gala
 * [31 New Papers](/galaxy-updates/2012-05/#new-papers)
 * [Open Positions](/galaxy-updates/2012-05/#whos-hiring) at six different institutions
 * [Upcoming Events and Deadlines](/galaxy-updates/2012-05/#upcoming-events-and-deadlines)
-* [Tool Shed Contributions](/galaxy-updates/2012-05/#toolshed-contributions)
+* [Tool Shed Contributions](/galaxy-updates/2012-05/#tool-shed-contributions)
 
 If you have anything you would like to see in the June *[Galaxy Update](/galaxy-updates/)*, please let me know.
 

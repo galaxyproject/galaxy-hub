@@ -2,7 +2,6 @@
 title: 'Galaxy – a tool for analyzing NGS data: introduction'
 tease: 
 date: '2017-09-07'
-days: 1
 continent: AS
 location:
   name: 'Ben Gurion University of the Negev, Beer-Sheva, Israel'

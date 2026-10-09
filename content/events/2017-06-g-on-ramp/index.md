@@ -1,7 +1,7 @@
 ---
 title: G-OnRamp Beta Testers Workshop
 date: '2017-06-20'
-days: 3
+end: '2017-06-22'
 tease: create genome browsers for collaborative annotations of eukaryotic genomes
 continent: NA
 location:

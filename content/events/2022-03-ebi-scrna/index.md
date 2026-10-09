@@ -1,8 +1,8 @@
 ---
 title: Single-cell RNA-seq analysis using Galaxy
 date: '2022-03-07'
+end: '2022-03-11'
 tease: Applications close 31 December
-days: 5
 continent: EU
 location:
   name: EMBL-EBI, Online, Hinxton, United Kingdom

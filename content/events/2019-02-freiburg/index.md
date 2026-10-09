@@ -2,7 +2,6 @@
 title: "Galaxy HTS data analysis workshop"
 date: "2019-02-25"
 end: "2019-03-01"
-days: 5
 tease: "Galaxy beginner workshop on High-Throughput data analysis"
 continent: EU
 location:

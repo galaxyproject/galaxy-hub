@@ -2,7 +2,6 @@
 title: "Microscopy Image Analysis Course"
 date: "2019-09-19"
 end: "2019-09-20"
-days: 2
 tease: "microscopy image analysis for cell biology"
 continent: EU
 location:

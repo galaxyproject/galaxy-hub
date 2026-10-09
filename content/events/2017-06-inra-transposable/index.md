@@ -1,7 +1,7 @@
 ---
 title: Formation détection et annotation des éléments transposables dans les génomes eucaryote
 date: '2017-06-06'
-days: 4
+end: '2017-06-09'
 continent: EU
 location:
   name: INRA, Versailles, France

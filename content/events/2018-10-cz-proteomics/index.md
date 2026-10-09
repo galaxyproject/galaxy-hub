@@ -1,7 +1,7 @@
 ---
 title: 'ELIXIR CZ Proteomics Workshop 2018'
 date: '2018-10-04'
-days: 2
+end: '2018-10-05'
 tease: "focus on proteomics tools available for Galaxy and development of workflows to combine processing steps."
 continent: EU
 location:

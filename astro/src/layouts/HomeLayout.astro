@@ -9,6 +9,7 @@
  */
 import { ClientRouter } from 'astro:transitions';
 import '../styles/global.css';
+import SkipLink from '../components/layout/SkipLink.astro';
 
 interface Props {
   title: string;
@@ -36,16 +37,18 @@ const { title, description = 'Galaxy Community Hub - Open source platform for da
     <ClientRouter />
   </head>
   <body>
+    <SkipLink />
     <!-- Masthead - always visible, transparent over hero -->
     <header id="masthead" class="masthead">
       <div class="masthead-inner">
-        <a href="/" class="masthead-logo">
+        <a href="/" class="masthead-logo" aria-current={Astro.url.pathname === '/' ? 'page' : undefined}>
           <img src="/images/galaxy_logo_hub_white.svg" alt="Galaxy" class="h-8" />
         </a>
 
-        <nav class="masthead-nav">
+        <nav class="masthead-nav" aria-label="Main">
           <a href="/news/">News</a>
           <a href="/events/">Events</a>
+          <a href="/agents/">Agents</a>
 
           <!-- Help dropdown -->
           <div class="nav-dropdown">
@@ -121,7 +124,13 @@ const { title, description = 'Galaxy Community Hub - Open source platform for da
           </form>
         </div>
 
-        <button id="mobile-menu-toggle" class="mobile-menu-toggle" aria-label="Toggle menu">
+        <button
+          id="mobile-menu-toggle"
+          class="mobile-menu-toggle"
+          aria-label="Toggle menu"
+          aria-controls="mobile-menu"
+          aria-expanded="false"
+        >
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
           </svg>
@@ -132,6 +141,7 @@ const { title, description = 'Galaxy Community Hub - Open source platform for da
       <div id="mobile-menu" class="mobile-menu hidden">
         <a href="/news/">News</a>
         <a href="/events/">Events</a>
+        <a href="/agents/">Agents</a>
         <div class="mobile-section-label">Help</div>
         <a href="/get-started/">Get Started</a>
         <a href="/learn/">Training</a>
@@ -152,9 +162,11 @@ const { title, description = 'Galaxy Community Hub - Open source platform for da
     </header>
 
     <!-- Main Content -->
-    <main>
+    <main id="main-content" tabindex="-1">
       <slot />
     </main>
+
+    <slot name="footer" />
 
     <style>
       body {
@@ -385,7 +397,7 @@ const { title, description = 'Galaxy Community Hub - Open source platform for da
       .mobile-menu {
         background: #2c3143;
         padding: 1rem 1.5rem;
-        display: flex;
+        display: none;
         flex-direction: column;
         gap: 1rem;
         max-height: calc(100vh - 60px);
@@ -476,8 +488,45 @@ const { title, description = 'Galaxy Community Hub - Open source platform for da
         const mobileToggle = document.getElementById('mobile-menu-toggle');
         const mobileMenu = document.getElementById('mobile-menu');
 
+        function setMobileMenu(open: boolean) {
+          mobileMenu?.classList.toggle('hidden', !open);
+          mobileToggle?.setAttribute('aria-expanded', String(open));
+          if (open) {
+            mobileMenu?.querySelector<HTMLElement>('a[href]')?.focus();
+          }
+        }
+
         mobileToggle?.addEventListener('click', () => {
-          mobileMenu?.classList.toggle('hidden');
+          setMobileMenu(!!mobileMenu?.classList.contains('hidden'));
+        });
+
+        // Keep keyboard focus in the open menu; Escape closes it
+        masthead?.addEventListener('keydown', (e) => {
+          if (
+            !mobileMenu ||
+            !mobileToggle ||
+            mobileMenu.classList.contains('hidden') ||
+            !mobileMenu.getClientRects().length
+          )
+            return;
+
+          if (e.key === 'Escape') {
+            setMobileMenu(false);
+            mobileToggle.focus();
+            return;
+          }
+
+          if (e.key !== 'Tab') return;
+          const items = [mobileToggle, ...mobileMenu.querySelectorAll<HTMLElement>('a[href]')];
+          const first = items[0];
+          const last = items[items.length - 1];
+          if (e.shiftKey && document.activeElement === first) {
+            e.preventDefault();
+            last.focus();
+          } else if (!e.shiftKey && document.activeElement === last) {
+            e.preventDefault();
+            first.focus();
+          }
         });
 
         // Search toggle
@@ -503,7 +552,7 @@ const { title, description = 'Galaxy Community Hub - Open source platform for da
         });
 
         // Reset mobile menu state on navigation
-        mobileMenu?.classList.add('hidden');
+        setMobileMenu(false);
         searchOverlay?.classList.add('hidden');
 
         // Initial check

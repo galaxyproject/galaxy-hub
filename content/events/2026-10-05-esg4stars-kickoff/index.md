@@ -3,7 +3,6 @@ title: ESG4Stars kick-off meeting
 tease: "Our new EU-funded research infrastructure project to reduce the environmental footprint of scientific computing on platforms like Galaxy will begin in October."
 date: 2026-10-05
 end: 2026-10-06
-days: 2
 continent: EU
 location:
   city: Freiburg im Breisgau
@@ -45,7 +44,7 @@ It will be followed by **satellite activities** (hackathons, trainings and works
 
 ----
 
-The **preliminary agenda** (last updated: 2026-09-11) of the meeting is available [here](https://gxy.io/esg4stars-kickoff-programme).
+The **final programme** (2026-10-01) of the meeting is available [here](https://gxy.io/esg4stars-kickoff-programme).
 
 ----
 

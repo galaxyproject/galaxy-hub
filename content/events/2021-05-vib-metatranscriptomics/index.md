@@ -2,7 +2,6 @@
 title: Metatranscriptomics analysis using microbiome RNA-seq data in Galaxy
 date: '2021-05-25'
 tease: Introduction to basic concepts and tools from the ASaiM-MT workflow.
-days: 1
 continent: EU
 location:
   name: VIB, Online, Ghent, Belgium

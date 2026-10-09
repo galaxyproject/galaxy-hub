@@ -1,7 +1,6 @@
 ---
 title: "DRS, long-read-sequencing, proteomics and more - An update to recent COVID-19 workflow developments"
 date: '2021-02-24'
-days: 1
 tease: "Open Data Infrastructures to tackle COVID-19 pandemic"
 continent: EU
 location:

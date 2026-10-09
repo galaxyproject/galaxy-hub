@@ -1,8 +1,8 @@
 ---
 title: Galaxy @ ISMB/ECCB 2021 & BOSC 2021
 date: '2021-07-25'
+end: '2021-07-31'
 tease: ''
-days: 7
 continent: EU
 location:
   name: Lyon, Online, France

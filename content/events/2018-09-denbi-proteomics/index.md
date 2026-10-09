@@ -1,7 +1,6 @@
 ---
 title: 'Galaxy for Proteomics'
 date: '2018-09-05'
-days: 1
 tease: "How can I use Galaxy for Proteomics"
 continent: EU
 location:

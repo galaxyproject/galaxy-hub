@@ -1,7 +1,7 @@
 ---
 title: "Galaxy @ BioHackathon-Europe 2020"
 date: '2020-11-09'
-days: 5
+end: '2020-11-13'
 tease: "Advance the development of an open-source infrastructure for data integration"
 continent: GL
 location:

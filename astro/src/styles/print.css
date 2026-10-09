@@ -87,7 +87,7 @@
     min-height: 0 !important;
     max-width: none !important;
     width: auto !important;
-    /* The sidebar is fixed-position on screen, so `main` carries a 16rem
+    /* The sidebar is fixed-position on screen, so `.site-main` carries a 16rem
        left margin to clear it, and top padding to clear the mobile bar.
        Both leave dead space once the chrome is hidden. */
     margin: 0 !important;

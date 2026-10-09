@@ -1,7 +1,6 @@
 ---
 title: "Tools for Tomorrow: NIAID BRCs Webinar Series"
 date: '2026-04-10'
-days: 1
 tease: "A monthly webinar series from the NIAID BRCs showcasing tools, resources, and strategies that support infectious disease research."
 continent: Online
 location: Online

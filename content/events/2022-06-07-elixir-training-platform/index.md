@@ -1,7 +1,6 @@
 ---
 title: "Establishing a roadmap for the Communities towards a sustainable co-production model with the Training Platform"
 date: '2022-06-07'
-days: 1
 tease: "Workshop at the ELIXIR All Hands 2022"
 continent: EU
 location:

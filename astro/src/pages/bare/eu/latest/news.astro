@@ -32,7 +32,9 @@ import LatestNewsCard from '@/components/bare/LatestNewsCard.astro';
     </style>
   </head>
   <body>
-    <LatestNewsCard subsite="eu" />
+    <main>
+      <LatestNewsCard subsite="eu" />
+    </main>
     <script>
       import { notifyParent } from '@/utils/iframe';
       notifyParent();

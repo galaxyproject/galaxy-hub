@@ -3,7 +3,7 @@ subsites:
 - all
 gtn: false
 date: '2025-10-28'
-days: 3
+end: '2025-10-30'
 tags:
 - new event-external
 title: Science Gateways 2025

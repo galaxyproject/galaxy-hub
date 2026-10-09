@@ -1,7 +1,7 @@
 ---
 title: Analyse statistique de données RNA-Seq - Recherche des régions d'intérêt différentiellement exprimées (R, RStudio et Galaxy)
 date: '2017-03-16'
-days: 2
+end: '2017-03-17'
 tease: Part of Cycle "Bioinformatique par la pratique" 2017
 continent: EU
 location:

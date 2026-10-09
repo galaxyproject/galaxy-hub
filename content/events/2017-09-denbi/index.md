@@ -2,7 +2,7 @@
 title: Computational Genomics and RNA Biology
 external_url: http://compgen.mdc-berlin.de/
 date: '2017-09-25'
-days: 5
+end: '2017-09-29'
 tease: de.NBI Summer School, Appl deadline 1 July
 continent: EU
 location:

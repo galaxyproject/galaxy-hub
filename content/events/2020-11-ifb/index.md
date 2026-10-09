@@ -1,7 +1,6 @@
 ---
 title: "UseGalaxy.fr"
 date: '2020-11-26'
-days: 1
 tease: "La session du matin (9H30 à 12h30), ouverte à tous, sera consacrée à un focus sur une sélection de faits marquants."
 continent: EU
 location:

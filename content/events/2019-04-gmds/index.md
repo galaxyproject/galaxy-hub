@@ -1,7 +1,6 @@
 ---
 title: "Die offene GALAXY-Plattform für Bioinformatik-Anwendungen"
 date: '2019-04-08'
-days: 1
 tease: ""
 continent: EU
 location:

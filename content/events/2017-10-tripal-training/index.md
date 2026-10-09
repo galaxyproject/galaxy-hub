@@ -1,7 +1,6 @@
 ---
 title: 'Tripal Project Training: Integrating Tripal and Galaxy'
 date: '2017-10-27'
-days: 1
 tease: "... setup and usage of the new Tripal Galaxy module ..."
 continent: GL
 location:

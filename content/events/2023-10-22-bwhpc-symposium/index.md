@@ -1,7 +1,6 @@
 ---
 title: bwHPC Symposium
 date: '2023-10-22'
-days: 1
 continent: EU
 location:
   name: Mannheim, Germany

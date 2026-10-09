@@ -1,7 +1,6 @@
 ---
 title: "Reference-based RNA-Seq data analysis"
 date: '2018-10-01'
-days: 1
 tease: "Galaxy の公式トレーニング教材のうち、今回はReference-based RNA-Seq data analysis を日本語でセミナーします"
 continent: "AS"
 location:

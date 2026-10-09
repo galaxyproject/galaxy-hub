@@ -1,7 +1,6 @@
 ---
 title: "NGS Introduction using Galaxy"
 date: '2018-11-06'
-days: 1
 tease: "This training aims to familiarise you with the Galaxy user interface."
 continent: EU
 location:

@@ -1,7 +1,7 @@
 ---
 title: "Design Automation Workflows for Synthetic Biology and Metabolic Engineering: The Galaxy SynBioCAD portal"
 date: "2020-08-03"
-days: 3
+end: "2020-08-05"
 tease: ""
 continent: NA
 location:

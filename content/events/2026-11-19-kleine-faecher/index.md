@@ -11,7 +11,8 @@ contributions:
     - freiburggalaxyteam
   funding:
     - ai4social
-subsites: [all, eu]
+    - eu
+subsites: [eu, freiburg]
 ---
 
 # Galaxy to join World Café on AI in everyday research of "small subjects" (kleine Fächer)

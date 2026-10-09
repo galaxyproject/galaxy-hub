@@ -1,7 +1,6 @@
 ---
 title: 'RNA-Seq Differential Gene Expression Analysis using Galaxy & the GVL'
 date: '2017-10-04'
-days: 1
 tease: "it's free..."
 continent: AU
 location:

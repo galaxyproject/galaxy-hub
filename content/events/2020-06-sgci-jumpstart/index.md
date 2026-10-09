@@ -1,7 +1,7 @@
 ---
 title: "Jumpstart Your Sustainability Plan"
 date: '2020-06-16'
-days: 3
+end: '2020-06-18'
 tease: "Make your gateway sustainable"
 continent: NA
 location:
