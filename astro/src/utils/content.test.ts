@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { isPublishedDate, isUpcomingEvent, isPastEvent, isTodayOrLater } from './dateUtils';
+import { formatDateRange, isPublishedDate, isUpcomingEvent, isPastEvent, isTodayOrLater } from './dateUtils';
 
 describe('isPublishedDate', () => {
   const now = new Date('2025-06-15T12:00:00Z');
@@ -79,5 +79,31 @@ describe('isTodayOrLater', () => {
   it('is true for later days and false once the day is over', () => {
     expect(isTodayOrLater(new Date('2026-09-23'), new Date('2026-09-22T12:00:00Z'))).toBe(true);
     expect(isTodayOrLater(new Date('2026-09-22'), new Date('2026-09-23T00:30:00Z'))).toBe(false);
+  });
+});
+
+describe('formatDateRange', () => {
+  it('shows only the start date without an end date', () => {
+    expect(formatDateRange('2026-10-12')).toBe('Oct 12, 2026');
+    expect(formatDateRange('2026-10-12', undefined)).toBe('Oct 12, 2026');
+    expect(formatDateRange(new Date('2026-10-12'), null)).toBe('Oct 12, 2026');
+  });
+
+  it('shows only the start date when the event ends on the same day', () => {
+    expect(formatDateRange('2026-10-12', '2026-10-12')).toBe('Oct 12, 2026');
+  });
+
+  it('shortens ranges within one month', () => {
+    expect(formatDateRange(new Date('2026-10-12'), new Date('2026-10-16'))).toBe('Oct 12 - 16, 2026');
+  });
+
+  it('shows both full dates for ranges across months and years', () => {
+    expect(formatDateRange('2026-09-29', '2026-10-02')).toBe('Sep 29, 2026 - Oct 2, 2026');
+    expect(formatDateRange('2026-12-30', '2027-01-02')).toBe('Dec 30, 2026 - Jan 2, 2027');
+  });
+
+  it('returns an empty string without a start date', () => {
+    expect(formatDateRange(null, '2026-10-16')).toBe('');
+    expect(formatDateRange(undefined)).toBe('');
   });
 });

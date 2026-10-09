@@ -16,7 +16,7 @@ export function isPublishedDate(date: Date | string | undefined, now: Date = new
 /**
  * Convert a date value to a Date object
  */
-function toDate(d: Date | string | undefined): Date | null {
+function toDate(d: Date | string | undefined | null): Date | null {
   if (!d) return null;
   return d instanceof Date ? d : new Date(d);
 }
@@ -44,7 +44,7 @@ export function getUTCDate(date: Date | string): number {
  * @param short - If true, use short month names (Jan, Feb). Default true for lists.
  * @returns Formatted date string like "Jan 15, 2024" or "January 15, 2024"
  */
-export function formatDate(date: Date | string | undefined, short: boolean = true): string {
+export function formatDate(date: Date | string | undefined | null, short: boolean = true): string {
   const d = toDate(date);
   if (!d || isNaN(d.getTime())) return '';
   return d.toLocaleDateString('en-US', {
@@ -63,8 +63,8 @@ export function formatDate(date: Date | string | undefined, short: boolean = tru
  * @returns Formatted date range like "Jan 15 - 17, 2024" or "Jan 15 - Feb 2, 2024"
  */
 export function formatDateRange(
-  start: Date | string | undefined,
-  end?: Date | string | undefined,
+  start: Date | string | undefined | null,
+  end?: Date | string | undefined | null,
   short: boolean = true
 ): string {
   if (!start) return '';

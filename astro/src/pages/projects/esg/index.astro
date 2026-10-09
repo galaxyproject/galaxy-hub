@@ -49,7 +49,13 @@ const esgEvents = events
 function formatDate(date: Date | string | undefined): string {
   if (!date) return '';
   const d = typeof date === 'string' ? new Date(date) : date;
-  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+  return d.toLocaleDateString('en-US', { timeZone: 'UTC', month: 'short', day: 'numeric' });
+}
+
+function formatDateRange(start: Date | string | undefined, end: Date | string | undefined | null): string {
+  const startText = formatDate(start);
+  const endText = formatDate(end || undefined);
+  return endText && endText !== startText ? `${startText} - ${endText}` : startText;
 }
 
 function esgUrl(path: string): string {
@@ -208,7 +214,7 @@ function esgUrl(path: string): string {
             <ul class="space-y-3 mb-4">
               {esgEvents.map((event) => <li class="flex gap-2">
                 <span class="text-galaxy-primary font-medium text-sm whitespace-nowrap">
-                  {formatDate(event.data.date)}
+                  {formatDateRange(event.data.date, event.data.end)}
                 </span>
                 <a href={`/${event.data.slug}/`} class="text-chicago-700 hover:text-galaxy-gold text-sm">
                   {event.data.title}
