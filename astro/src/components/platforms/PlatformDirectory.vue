@@ -76,6 +76,14 @@ const groupToUrlSlug: Record<string, string> = {
   vm: 'vms',
 };
 
+// Scope anchors of the old Gridsome directory (/use/#genomics etc.), still linked from elsewhere
+const legacyHashToScope: Record<string, string> = {
+  'usegalaxy-dir': 'usegalaxy',
+  genomics: 'general',
+  domain: 'domain',
+  'tool-publishing': 'tool-publishing',
+};
+
 const groupLabels: Record<string, string> = {
   'public-server': 'Public Server',
   'academic-cloud': 'Academic Cloud',
@@ -274,29 +282,50 @@ function closeAutocomplete() {
   }, 150);
 }
 
-function updateUrl(group: string) {
+function updateUrl(name: string, value: string | null) {
   const params = new URLSearchParams(window.location.search);
-  if (group === 'all') {
-    params.delete('platform_group');
+  if (value === null) {
+    params.delete(name);
   } else {
-    params.set('platform_group', groupToUrlSlug[group] || group);
+    params.set(name, value);
   }
-  const newUrl = `${window.location.pathname}${params.toString() ? `?${params.toString()}` : ''}`;
-  window.history.replaceState({}, '', newUrl);
+  const query = params.toString();
+  const newUrl = `${window.location.pathname}${query ? `?${query}` : ''}${window.location.hash}`;
+  // Keep the existing state: Astro's ClientRouter stores its navigation index there
+  window.history.replaceState(window.history.state, '', newUrl);
 }
 
 onMounted(() => {
-  const param = new URLSearchParams(window.location.search).get('platform_group');
+  const urlParams = new URLSearchParams(window.location.search);
+  const param = urlParams.get('platform_group');
   if (param) {
     const group = urlSlugToGroup[param];
     if (group) {
       selectedPlatformGroup.value = group;
     }
   }
+  const scopeParam = urlParams.get('scope');
+  const legacyScope = legacyHashToScope[window.location.hash.slice(1)];
+  if (legacyScope) {
+    // Drop the legacy anchor so it cannot re-apply later; ?scope= replaces it
+    window.history.replaceState(window.history.state, '', `${window.location.pathname}${window.location.search}`);
+  }
+  if (scopeParam) {
+    if (scopeParam !== 'all' && scopes.value.includes(scopeParam)) {
+      selectedScope.value = scopeParam;
+    }
+  } else if (legacyScope && scopes.value.includes(legacyScope)) {
+    // The scope watcher then writes ?scope=
+    selectedScope.value = legacyScope;
+  }
 });
 
 watch(selectedPlatformGroup, (group) => {
-  updateUrl(group);
+  updateUrl('platform_group', group === 'all' ? null : groupToUrlSlug[group] || group);
+});
+
+watch(selectedScope, (scope) => {
+  updateUrl('scope', scope === 'all' ? null : scope);
 });
 
 watch(searchQuery, () => {
