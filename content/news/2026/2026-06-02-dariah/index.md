@@ -3,7 +3,6 @@ title: "Galaxy Europe at the DARIAH Annual Event"
 date: "2026-06-02"
 tease: "Explording Reproducible Workflows in the Arts and Humanities"
 subsites: [global,eu,us]
-main_subsite: freiburg
 tags: [conference, workflow, humanities, talk]
 contributions:
   authorship:

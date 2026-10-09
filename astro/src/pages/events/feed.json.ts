@@ -95,6 +95,7 @@ export async function GET() {
           title: data.title || null,
           tease: data.tease || null,
           subsites,
+          main_subsite: data.main_subsite || null,
           location: locationObj,
           continent: data.continent || null,
           contact,

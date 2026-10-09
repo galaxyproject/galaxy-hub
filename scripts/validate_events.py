@@ -16,6 +16,7 @@ from datetime import date, datetime
 from validate_common import (
     ROOT,
     aggregate_frontmatter,
+    check_main_subsite_consistency,
     check_recent_folder_names,
     clean_schema,
     gather_ids,
@@ -99,6 +100,7 @@ def main():
         skip_folders=FOLDER_NAME_EXCEPTIONS,
     )
     contribution_errors = check_recent_contributions_required(aggregated_events, cutoff=args.cutoff)
+    main_subsite_errors = check_main_subsite_consistency(aggregated_events, ids["subsites"])
     parse_error_count = len(parse_errors)
 
     if errors and not args.quiet:
@@ -112,8 +114,16 @@ def main():
     if contribution_errors and not args.quiet:
         for err in contribution_errors:
             logger.error(f"CONTRIBUTIONS - {err}")
+    if main_subsite_errors and not args.quiet:
+        log_validation_errors(main_subsite_errors, logger)
 
-    if code == 0 and not folder_errors and not contribution_errors and parse_error_count == 0:
+    if (
+        code == 0
+        and not folder_errors
+        and not contribution_errors
+        and not main_subsite_errors
+        and parse_error_count == 0
+    ):
         logger.info("OK: events frontmatter valid")
     else:
         logger.error("FAILED: events frontmatter has issues")
