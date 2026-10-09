@@ -299,6 +299,16 @@ freiburg:
         mastodon: "fedihum.org/@SchnDa"
         bio:
 
+    teresa-m:
+        name: Teresa Müller
+        title: M.Sc. Bioinformatics, Researcher
+        email: muellert@informatik.uni-freiburg.de
+        location: "Build.: 079"
+        location_link: "https://goo.gl/maps/zEL3g3KVE8Q2"
+        matrix: "@teresa-m:matrix.org"
+        linkedin: teresamueller87
+        orcid: 0000-0003-1252-9684
+
     dadrasarmin:
         name: Armin Dadras
         title: Dr. rer. nat., Researcher
