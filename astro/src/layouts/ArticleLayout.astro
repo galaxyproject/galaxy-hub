@@ -77,21 +77,20 @@ const hasMetadata =
 
 <BaseLayout title={title} description={description} fullBleed={fullBleed} image={ogImage ?? image}>
   <article class:list={['bg-white relative', fullBleed ? 'max-w-none' : 'max-w-6xl mx-auto']}>
-    {
-      hasMetadata && !hideHeader && (
-        <PageHeader title={title} description={description} eyebrow={eyebrow} date={date} authors={authors} tags={tags}>
-          {fairSection && <FairSectionHero sectionSlug={fairSection} />}
-        </PageHeader>
-      )
-    }
+    {hasMetadata && !hideHeader && <PageHeader
+      title={title}
+      description={description}
+      eyebrow={eyebrow}
+      date={date}
+      authors={authors}
+      tags={tags}
+    >
+      {fairSection && <FairSectionHero sectionSlug={fairSection} />}
+    </PageHeader>}
 
-    {
-      image && (
-        <figure class="px-6 sm:px-8 py-6">
-          <img src={image} alt={title} class="w-full" />
-        </figure>
-      )
-    }
+    {image && <figure class="px-6 sm:px-8 py-6">
+      <img src={image} alt={title} class="w-full" />
+    </figure>}
 
     <ContentWithToc headings={headings} autotoc={autotoc}>
       <slot />
@@ -99,41 +98,33 @@ const hasMetadata =
 
     <!-- Footer -->
     <footer class="px-6 sm:px-8 pb-6 sm:pb-8 mt-8">
-      {
-        supporters.length > 0 && (
-          <div class="mb-6">
-            <SupporterGrid supporters={supporters} />
-          </div>
-        )
-      }
-      {
-        (backLink || editUrl) && (
-          <div class="article-footer-actions flex justify-between items-center pt-4 border-t border-ebony-clay-100">
-            {backLink ? (
-              <a
-                href={backLink.href}
-                class="text-galaxy-primary hover:text-galaxy-gold flex items-center gap-1.5 font-medium transition-colors"
-              >
-                <Icon name="chevron-left" />
-                {backLink.label}
-              </a>
-            ) : (
-              <span />
-            )}
-            {editUrl && (
-              <a
-                href={editUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                class="text-chicago-500 hover:text-galaxy-primary flex items-center gap-1.5 transition-colors"
-              >
-                <Icon name="edit" />
-                {editLabel}
-              </a>
-            )}
-          </div>
-        )
-      }
+      {supporters.length > 0 && <div class="mb-6">
+        <SupporterGrid supporters={supporters} />
+      </div>}
+      {(backLink || editUrl) && <div
+        class="article-footer-actions flex justify-between items-center pt-4 border-t border-ebony-clay-100"
+      >
+        {backLink ? (
+          <a
+            href={backLink.href}
+            class="text-galaxy-primary hover:text-galaxy-gold flex items-center gap-1.5 font-medium transition-colors"
+          >
+            <Icon name="chevron-left" />
+            {backLink.label}
+          </a>
+        ) : (
+          <span />
+        )}
+        {editUrl && <a
+          href={editUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-chicago-500 hover:text-galaxy-primary flex items-center gap-1.5 transition-colors"
+        >
+          <Icon name="edit" />
+          {editLabel}
+        </a>}
+      </div>}
     </footer>
   </article>
 </BaseLayout>

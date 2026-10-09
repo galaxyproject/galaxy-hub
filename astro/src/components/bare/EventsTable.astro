@@ -79,61 +79,49 @@ const EXTERNAL_LINK_SVG = `<svg xmlns="http://www.w3.org/2000/svg" width="12" he
     </tr>
   </thead>
   <tbody>
-    {
-      events.map((event) => {
-        const slug = eventSlug(event);
-        const loc = event.data.location;
-        const locName = loc ? (typeof loc === 'string' ? loc : loc.name) : null;
-        const locUrl = loc && typeof loc !== 'string' ? loc.url : null;
-        const contactList = renderContacts(event.data.contact, event.data.contacts);
-        return (
-          <tr>
-            <td class="col-date">{formatDateRange(event.data.date, event.data.end)}</td>
-            <td class="col-topic">
-              {event.data.external_url ? (
-                <span class="title-row">
-                  <a href={event.data.external_url} target="_blank" rel="noopener">
-                    {event.data.title}
-                  </a>
-                  <Fragment set:html={EXTERNAL_LINK_SVG} />
-                </span>
-              ) : (
-                <a href={`/events/${slug}/`}>{event.data.title}</a>
-              )}
-              {event.data.tease && <p class="tease">{event.data.tease}</p>}
-            </td>
-            <td class="col-location">
-              {event.data.continent && (
-                <img
-                  class="continent-icon"
-                  src={`/images/icons/${event.data.continent}.png`}
-                  alt={event.data.continent}
-                />
-              )}
-              {locUrl ? <a href={locUrl}>{locName}</a> : locName ? <span>{locName}</span> : null}
-            </td>
-            <td class="col-contact">
-              {event.data.gtn && (
-                <a href="https://training.galaxyproject.org/" class="gtn-link">
-                  <img
-                    class="gtn-icon"
-                    src="/images/galaxy-logos/GTN16.png"
-                    alt="Training offered by GTN Member"
-                    title="Training offered by GTN Member"
-                  />
-                </a>
-              )}
-              {contactList.map((c, i) => (
-                <Fragment>
-                  {c.href ? <a href={c.href}>{c.name}</a> : <span>{c.name}</span>}
-                  {i < contactList.length - 1 && ', '}
-                </Fragment>
-              ))}
-            </td>
-          </tr>
-        );
-      })
-    }
+    {events.map((event) => {
+      const slug = eventSlug(event);
+      const loc = event.data.location;
+      const locName = loc ? (typeof loc === 'string' ? loc : loc.name) : null;
+      const locUrl = loc && typeof loc !== 'string' ? loc.url : null;
+      const contactList = renderContacts(event.data.contact, event.data.contacts);
+      return <tr>
+        <td class="col-date">{formatDateRange(event.data.date, event.data.end)}</td>
+        <td class="col-topic">
+          {event.data.external_url ? (
+            <span class="title-row">
+              <a href={event.data.external_url} target="_blank" rel="noopener">
+                {event.data.title}
+              </a>
+              <Fragment set:html={EXTERNAL_LINK_SVG} />
+            </span>
+          ) : (
+            <a href={`/events/${slug}/`}>{event.data.title}</a>
+          )}
+          {event.data.tease && <p class="tease">{event.data.tease}</p>}
+        </td>
+        <td class="col-location">
+          {event.data.continent && (
+            <img class="continent-icon" src={`/images/icons/${event.data.continent}.png`} alt={event.data.continent} />
+          )}
+          {locUrl ? <a href={locUrl}>{locName}</a> : locName ? <span>{locName}</span> : null}
+        </td>
+        <td class="col-contact">
+          {event.data.gtn && <a href="https://training.galaxyproject.org/" class="gtn-link">
+            <img
+              class="gtn-icon"
+              src="/images/galaxy-logos/GTN16.png"
+              alt="Training offered by GTN Member"
+              title="Training offered by GTN Member"
+            />
+          </a>}
+          {contactList.map((c, i) => <Fragment>
+            {c.href ? <a href={c.href}>{c.name}</a> : <span>{c.name}</span>}
+            {i < contactList.length - 1 && ', '}
+          </Fragment>)}
+        </td>
+      </tr>;
+    })}
   </tbody>
 </table>
 

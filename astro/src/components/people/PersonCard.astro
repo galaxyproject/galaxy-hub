@@ -59,29 +59,23 @@ if (person.github && githubUrl) socialLinks.push({ label: 'GitHub', href: github
 <article
   class="relative rounded-lg border border-galaxy-primary/10 bg-white shadow-sm transition-transform duration-200 hover:-translate-y-1 hover:shadow-md text-center p-6 pt-14 overflow-visible"
 >
-  {
-    hallOfFameUrl && (
-      <a
-        href={hallOfFameUrl}
-        class="absolute top-3 right-3 z-10 inline-flex items-center justify-center rounded-md border border-white/40 bg-gradient-to-r from-galaxy-dark to-galaxy-primary px-3 py-1 text-[11px] font-semibold text-white shadow-md -rotate-3"
-        aria-label="Hub Contributions profile"
-      >
-        Hub Contributions
-      </a>
-    )
-  }
+  {hallOfFameUrl && <a
+    href={hallOfFameUrl}
+    class="absolute top-3 right-3 z-10 inline-flex items-center justify-center rounded-md border border-white/40 bg-gradient-to-r from-galaxy-dark to-galaxy-primary px-3 py-1 text-[11px] font-semibold text-white shadow-md -rotate-3"
+    aria-label="Hub Contributions profile"
+  >
+    Hub Contributions
+  </a>}
   <div
     class="absolute -top-12 left-1/2 -translate-x-1/2 h-20 w-20 rounded-full ring-4 ring-white shadow-md overflow-hidden bg-ebony-clay-50"
   >
-    {
-      avatar ? (
-        <img src={avatar} alt={person.name} class="h-full w-full object-cover" loading="lazy" />
-      ) : (
-        <div class="h-full w-full flex items-center justify-center text-lg font-semibold text-galaxy-primary">
-          {(person.name || person.id || '?').slice(0, 2).toUpperCase()}
-        </div>
-      )
-    }
+    {avatar ? (
+      <img src={avatar} alt={person.name} class="h-full w-full object-cover" loading="lazy" />
+    ) : (
+      <div class="h-full w-full flex items-center justify-center text-lg font-semibold text-galaxy-primary">
+        {(person.name || person.id || '?').slice(0, 2).toUpperCase()}
+      </div>
+    )}
   </div>
 
   <div class="space-y-2">
@@ -93,51 +87,43 @@ if (person.github && githubUrl) socialLinks.push({ label: 'GitHub', href: github
   </div>
 
   <div class="mt-4 space-y-2">
-    {
-      rows.map((row) => {
-        const content = (
-          <>
-            <Icon name={rowIconNames[row.icon]} size={16} />
-            <span class="break-words">{row.label}</span>
-          </>
-        );
-        return row.href ? (
-          <a
-            href={row.href}
-            class="flex items-center justify-center gap-2 text-sm text-galaxy-primary hover:text-galaxy-dark transition-colors"
-            target={row.href.startsWith('http') ? '_blank' : undefined}
-            rel={row.href.startsWith('http') ? 'noopener noreferrer' : undefined}
-          >
-            {content}
-          </a>
-        ) : (
-          <div class="flex items-center justify-center gap-2 text-sm text-chicago-700">{content}</div>
-        );
-      })
-    }
+    {rows.map((row) => {
+      const content = (
+        <>
+          <Icon name={rowIconNames[row.icon]} size={16} />
+          <span class="break-words">{row.label}</span>
+        </>
+      );
+      return row.href ? (
+        <a
+          href={row.href}
+          class="flex items-center justify-center gap-2 text-sm text-galaxy-primary hover:text-galaxy-dark transition-colors"
+          target={row.href.startsWith('http') ? '_blank' : undefined}
+          rel={row.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+        >
+          {content}
+        </a>
+      ) : (
+        <div class="flex items-center justify-center gap-2 text-sm text-chicago-700">{content}</div>
+      );
+    })}
   </div>
 
-  {
-    socialLinks.length > 0 && (
-      <div class="mt-4 flex flex-wrap justify-center gap-2">
-        {/* Orcid's knocked-out "iD" lettering needs a touch more size to stay legible */}
-        {socialLinks.map((link) => (
-          <a
-            href={link.href}
-            class="inline-flex items-center justify-center h-9 w-9 rounded-full border border-ebony-clay-100 text-galaxy-primary bg-white hover:bg-galaxy-primary/10 hover:border-galaxy-primary transition-colors shadow-sm"
-            target="_blank"
-            rel="noopener noreferrer"
-            title={link.label}
-            aria-label={link.label}
-          >
-            {link.icon === 'gtn' ? (
-              <img src="/images/logos/gtn_icon.svg" alt="" class="h-4 w-4" loading="lazy" />
-            ) : (
-              <Icon name={link.icon} size={link.icon === 'orcid' ? 18 : 16} />
-            )}
-          </a>
-        ))}
-      </div>
-    )
-  }
+  {socialLinks.length > 0 && <div class="mt-4 flex flex-wrap justify-center gap-2">
+    {/* Orcid's knocked-out "iD" lettering needs a touch more size to stay legible */}
+    {socialLinks.map((link) => <a
+      href={link.href}
+      class="inline-flex items-center justify-center h-9 w-9 rounded-full border border-ebony-clay-100 text-galaxy-primary bg-white hover:bg-galaxy-primary/10 hover:border-galaxy-primary transition-colors shadow-sm"
+      target="_blank"
+      rel="noopener noreferrer"
+      title={link.label}
+      aria-label={link.label}
+    >
+      {link.icon === 'gtn' ? (
+        <img src="/images/logos/gtn_icon.svg" alt="" class="h-4 w-4" loading="lazy" />
+      ) : (
+        <Icon name={link.icon} size={link.icon === 'orcid' ? 18 : 16} />
+      )}
+    </a>)}
+  </div>}
 </article>

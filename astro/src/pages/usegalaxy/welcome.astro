@@ -46,11 +46,12 @@ const carouselSlides = [
     <section class="welcome-hero">
       <div class="relative z-1">
         <p class="text-base leading-relaxed m-0">
-          <strong class="text-lg">Galaxy</strong> is an open source, web-based platform for data intensive biomedical research.
-          If you are new to Galaxy
+          <strong class="text-lg">Galaxy</strong> is an open source, web-based platform for data intensive biomedical
+          research. If you are new to Galaxy
           <a
             href="https://usegalaxy.org/galaxy101"
-            class="text-galaxy-gold hover:text-accent-hover underline underline-offset-2">start here</a
+            class="text-galaxy-gold hover:text-accent-hover underline underline-offset-2"
+            >start here</a
           >
           or consult our help resources. You can install your own Galaxy by following the
           <a href="http://getgalaxy.org" class="text-galaxy-gold hover:text-accent-hover underline underline-offset-2"
@@ -59,11 +60,13 @@ const carouselSlides = [
           and choose from thousands of tools from the
           <a
             href="https://galaxyproject.org/admin/tools/add-tool-from-toolshed-tutorial"
-            class="text-galaxy-gold hover:text-accent-hover underline underline-offset-2">Tool Shed</a
+            class="text-galaxy-gold hover:text-accent-hover underline underline-offset-2"
+            >Tool Shed</a
           >. New to Galaxy? Watch
           <a href="#what-is-galaxy" class="text-galaxy-gold hover:text-accent-hover underline underline-offset-2"
             >"What is Galaxy?"</a
-          > below.
+          >
+          below.
         </p>
       </div>
     </section>
@@ -73,7 +76,7 @@ const carouselSlides = [
       <!-- Carousel -->
       <div>
         <div class="rounded-lg overflow-hidden shadow-md bg-ebony-clay-100" id="welcome-carousel">
-          <div class="relative w-full" style="aspect-ratio: 13/9;">
+          <div class="relative w-full" style="aspect-ratio: 13/9">
             <button
               id="carousel-toggle"
               type="button"
@@ -84,46 +87,42 @@ const carouselSlides = [
               <span class="carousel-icon-play hidden"><Icon name="play" size={14} /></span>
             </button>
             <div id="welcome-carousel-slides" class="absolute inset-0" aria-live="off">
-              {
-                carouselSlides.map((slide, index) => (
-                  <div
-                    class={`carousel-slide absolute inset-0 transition-opacity duration-500 ${index === 0 ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
-                    data-index={index}
-                  >
-                    <a href={slide.href} target="_blank" class="block w-full h-full">
-                      <img src={slide.img} alt={slide.alt} class="w-full h-full object-cover" />
-                    </a>
-                  </div>
-                ))
-              }
+              {carouselSlides.map((slide, index) => <div
+                class={`carousel-slide absolute inset-0 transition-opacity duration-500 ${index === 0 ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
+                data-index={index}
+              >
+                <a href={slide.href} target="_blank" class="block w-full h-full">
+                  <img src={slide.img} alt={slide.alt} class="w-full h-full object-cover" />
+                </a>
+              </div>)}
             </div>
             <div class="absolute inset-y-0 left-0 flex items-center pl-2">
               <button
                 id="prev-btn"
                 aria-label="Previous slide"
                 class="bg-black/40 hover:bg-black/60 text-white rounded-full w-8 h-8 flex items-center justify-center text-lg transition-colors cursor-pointer border-0"
-                >&#8249;</button
               >
+                &#8249;
+              </button>
             </div>
             <div class="absolute inset-y-0 right-0 flex items-center pr-2">
               <button
                 id="next-btn"
                 aria-label="Next slide"
                 class="bg-black/40 hover:bg-black/60 text-white rounded-full w-8 h-8 flex items-center justify-center text-lg transition-colors cursor-pointer border-0"
-                >&#8250;</button
               >
+                &#8250;
+              </button>
             </div>
           </div>
           <div class="flex justify-center gap-2 py-2 bg-white">
-            {
-              carouselSlides.map((_, index) => (
-                <button
-                  class={`carousel-indicator w-2.5 h-2.5 rounded-full transition-colors cursor-pointer border-0 ${index === 0 ? 'bg-galaxy-primary' : 'bg-ebony-clay-200 hover:bg-ebony-clay-300'}`}
-                  data-index={index}
-                  aria-label={`Go to slide ${index + 1}`}
-                />
-              ))
-            }
+            {carouselSlides.map((_, index) => (
+              <button
+                class={`carousel-indicator w-2.5 h-2.5 rounded-full transition-colors cursor-pointer border-0 ${index === 0 ? 'bg-galaxy-primary' : 'bg-ebony-clay-200 hover:bg-ebony-clay-300'}`}
+                data-index={index}
+                aria-label={`Go to slide ${index + 1}`}
+              />
+            ))}
           </div>
         </div>
       </div>
@@ -138,13 +137,14 @@ const carouselSlides = [
             <Icon name="bluesky" size={14} />
             <p class="font-semibold text-galaxy-dark text-xs m-0">Latest from Bluesky</p>
           </div>
-          <div id="bluesky-feed-posts" class="space-y-1.5 overflow-y-auto text-sm flex-1" style="max-height: 190px;">
+          <div id="bluesky-feed-posts" class="space-y-1.5 overflow-y-auto text-sm flex-1" style="max-height: 190px">
             <p class="text-chicago-400 text-xs m-0">Loading posts&hellip;</p>
           </div>
           <a
             href="https://bsky.app/profile/galaxyproject.bsky.social"
             target="_blank"
-            class="text-galaxy-primary hover:underline text-xs mt-1.5 inline-block">View more on Bluesky &rarr;</a
+            class="text-galaxy-primary hover:underline text-xs mt-1.5 inline-block"
+            >View more on Bluesky &rarr;</a
           >
         </div>
       </div>
@@ -183,7 +183,8 @@ const carouselSlides = [
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
           class="w-full border-0 block"
-          style="aspect-ratio: 400/277;"></iframe>
+          style="aspect-ratio: 400/277"
+        ></iframe>
       </div>
     </section>
 
@@ -231,7 +232,8 @@ const carouselSlides = [
         <a
           href="https://galaxyproject.org/citing-galaxy/"
           target="_blank"
-          class="text-chicago-400 hover:text-galaxy-primary transition-colors">full citation guide</a
+          class="text-chicago-400 hover:text-galaxy-primary transition-colors"
+          >full citation guide</a
         >
       </p>
     </section>
@@ -241,7 +243,7 @@ const carouselSlides = [
     <!-- Institutions & Infrastructure -->
     <section class="grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-8 mb-8">
       <div>
-        <div class="flex items-center justify-center gap-6 mb-4" style="min-height: 80px;">
+        <div class="flex items-center justify-center gap-6 mb-4" style="min-height: 80px">
           <a href="http://www.psu.edu/" target="_blank">
             <img src="/images/usegalaxy-welcome/psu_logo.png" alt="Penn State University" class="max-h-16" />
           </a>
@@ -252,17 +254,19 @@ const carouselSlides = [
         <p class="text-sm text-chicago-600 leading-relaxed">
           <a href="https://galaxyproject.org/galaxy-team/" class="text-galaxy-primary hover:underline"
             >The Galaxy Team</a
-          > is a part of
+          >
+          is a part of
           <a href="http://www.bx.psu.edu/" class="text-galaxy-primary hover:underline"
             >the Center for Comparative Genomics and Bioinformatics</a
-          > at <a href="http://www.psu.edu/" class="text-galaxy-primary hover:underline">Penn State</a> and the
+          >
+          at <a href="http://www.psu.edu/" class="text-galaxy-primary hover:underline">Penn State</a> and the
           <a href="http://www.bio.jhu.edu/" class="text-galaxy-primary hover:underline">Department of Biology</a> at
           <a href="http://www.jhu.edu/" class="text-galaxy-primary hover:underline">Johns Hopkins University</a>.
         </p>
       </div>
 
       <div>
-        <div class="flex items-center justify-center gap-6 mb-4" style="min-height: 80px;">
+        <div class="flex items-center justify-center gap-6 mb-4" style="min-height: 80px">
           <a href="https://www.tacc.utexas.edu/" target="_blank">
             <img src="/images/usegalaxy-welcome/tacc_logo.png" alt="Texas Advanced Computing Center" class="max-h-16" />
           </a>
@@ -297,26 +301,28 @@ const carouselSlides = [
         <a href="http://www.nsf.gov" class="text-galaxy-primary hover:underline">NSF</a> award 2419522.
       </p>
       <p>
-        This site uses
-        <a href="https://jetstream-cloud.org/" class="text-galaxy-primary hover:underline">Jetstream2</a> at the
+        This site uses <a href="https://jetstream-cloud.org/" class="text-galaxy-primary hover:underline">Jetstream2</a>
+        at the
         <a href="https://pti.iu.edu/" class="text-galaxy-primary hover:underline"
           >Indiana University Pervasive Technology Institute</a
-        >,
-        <a href="https://www.psc.edu/resources/bridges-2/" class="text-galaxy-primary hover:underline">Bridges-2</a> at the
+        >, <a href="https://www.psc.edu/resources/bridges-2/" class="text-galaxy-primary hover:underline">Bridges-2</a>
+        at the
         <a href="https://www.psc.edu/" class="text-galaxy-primary hover:underline">Pittsburgh Supercomputing Center</a>,
         <a href="https://www.arch.jhu.edu/about-arch/system-configuration/" class="text-galaxy-primary hover:underline"
           >Rockfish</a
-        > at
+        >
+        at
         <a href="https://www.arch.jhu.edu/" class="text-galaxy-primary hover:underline"
           >Johns Hopkins University Advanced Research Computing</a
         >,
         <a href="https://tacc.utexas.edu/systems/stampede3/" class="text-galaxy-primary hover:underline">Stampede3</a>
-        and
-        <a href="https://tacc.utexas.edu/systems/ranch/" class="text-galaxy-primary hover:underline">Ranch</a> at the
+        and <a href="https://tacc.utexas.edu/systems/ranch/" class="text-galaxy-primary hover:underline">Ranch</a> at
+        the
         <a href="https://tacc.utexas.edu/" class="text-galaxy-primary hover:underline"
           >Texas Advanced Computing Center</a
         >, and
-        <a href="https://www.sdsc.edu/services/hpc/expanse/" class="text-galaxy-primary hover:underline">Expanse</a> at the
+        <a href="https://www.sdsc.edu/services/hpc/expanse/" class="text-galaxy-primary hover:underline">Expanse</a> at
+        the
         <a href="https://www.sdsc.edu/" class="text-galaxy-primary hover:underline">San Diego Supercomputer Center</a>,
         through allocation MCB140147 from the
         <a href="https://access-ci.org/" class="text-galaxy-primary hover:underline"

@@ -20,22 +20,16 @@ const filteredHeadings = headings.filter((h) => h.depth >= minDepth && h.depth <
 const shouldRender = filteredHeadings.length >= 2;
 ---
 
-{
-  shouldRender && (
-    <nav class="toc" aria-label="On this page">
-      <h2 class="toc-title">On this page</h2>
-      <ul class="toc-list">
-        {filteredHeadings.map((heading) => (
-          <li class={`toc-item toc-depth-${heading.depth}`}>
-            <a href={`#${heading.slug}`} class="toc-link">
-              {heading.text}
-            </a>
-          </li>
-        ))}
-      </ul>
-    </nav>
-  )
-}
+{shouldRender && <nav class="toc" aria-label="On this page">
+  <h2 class="toc-title">On this page</h2>
+  <ul class="toc-list">
+    {filteredHeadings.map((heading) => <li class={`toc-item toc-depth-${heading.depth}`}>
+      <a href={`#${heading.slug}`} class="toc-link">
+        {heading.text}
+      </a>
+    </li>)}
+  </ul>
+</nav>}
 
 <style>
   .toc {

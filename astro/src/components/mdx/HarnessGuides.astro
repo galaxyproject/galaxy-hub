@@ -20,26 +20,22 @@ const tabs = scenes.map((s) => ({ id: s.id, name: s.name, monogram: s.monogram, 
 
 <div class="hguides" data-harness-guides>
   <div class="hguides__tabs" role="tablist" aria-label="Setup guide by harness">
-    {
-      tabs.map((t, i) => (
-        <a
-          class:list={['hguides__tab', i === 0 && 'is-active']}
-          role="tab"
-          id={`guide-tab-${t.id}`}
-          href={`#guide-${t.id}`}
-          aria-selected={i === 0 ? 'true' : 'false'}
-          aria-controls={`guide-${t.id}`}
-          tabindex={i === 0 ? 0 : -1}
-          data-guide-tab={t.id}
-          style={`--ash-accent: ${t.accent}`}
-        >
-          <span class="hguides__mono" aria-hidden="true">
-            {t.monogram}
-          </span>
-          {t.name}
-        </a>
-      ))
-    }
+    {tabs.map((t, i) => <a
+      class:list={['hguides__tab', i === 0 && 'is-active']}
+      role="tab"
+      id={`guide-tab-${t.id}`}
+      href={`#guide-${t.id}`}
+      aria-selected={i === 0 ? 'true' : 'false'}
+      aria-controls={`guide-${t.id}`}
+      tabindex={i === 0 ? 0 : -1}
+      data-guide-tab={t.id}
+      style={`--ash-accent: ${t.accent}`}
+    >
+      <span class="hguides__mono" aria-hidden="true">
+        {t.monogram}
+      </span>
+      {t.name}
+    </a>)}
   </div>
   <div class="hguides__panels">
     <slot />

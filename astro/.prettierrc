@@ -6,6 +6,7 @@
   "singleQuote": true,
   "trailingComma": "es5",
   "plugins": ["prettier-plugin-astro"],
+  "astroCompressHTML": true,
   "overrides": [
     {
       "files": "*.astro",

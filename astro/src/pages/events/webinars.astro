@@ -57,30 +57,26 @@ function formatDate(date: Date | string | undefined): string {
         <span class="text-sm font-normal text-chicago-500 ml-2">({upcomingEvents.length})</span>
       </h2>
 
-      {
-        upcomingEvents.length === 0 ? (
-          <p class="text-chicago-500 italic">No upcoming webinars scheduled. Check back soon!</p>
-        ) : (
-          <div class="space-y-4">
-            {upcomingEvents.map((event) => (
-              <a
-                href={`/${event.data.slug}/`}
-                class="block p-4 bg-white rounded-lg border border-ebony-clay-100 hover:border-galaxy-primary hover:shadow-md transition-all"
-              >
-                <div class="flex items-start justify-between gap-4">
-                  <div>
-                    <h3 class="font-semibold text-galaxy-dark hover:text-galaxy-primary">{event.data.title}</h3>
-                    {event.data.tease && <p class="text-chicago-600 text-sm mt-1 line-clamp-2">{event.data.tease}</p>}
-                  </div>
-                  <span class="text-sm text-galaxy-primary font-medium whitespace-nowrap">
-                    {formatDate(event.data.date)}
-                  </span>
-                </div>
-              </a>
-            ))}
-          </div>
-        )
-      }
+      {upcomingEvents.length === 0 ? (
+        <p class="text-chicago-500 italic">No upcoming webinars scheduled. Check back soon!</p>
+      ) : (
+        <div class="space-y-4">
+          {upcomingEvents.map((event) => <a
+            href={`/${event.data.slug}/`}
+            class="block p-4 bg-white rounded-lg border border-ebony-clay-100 hover:border-galaxy-primary hover:shadow-md transition-all"
+          >
+            <div class="flex items-start justify-between gap-4">
+              <div>
+                <h3 class="font-semibold text-galaxy-dark hover:text-galaxy-primary">{event.data.title}</h3>
+                {event.data.tease && <p class="text-chicago-600 text-sm mt-1 line-clamp-2">{event.data.tease}</p>}
+              </div>
+              <span class="text-sm text-galaxy-primary font-medium whitespace-nowrap">
+                {formatDate(event.data.date)}
+              </span>
+            </div>
+          </a>)}
+        </div>
+      )}
     </section>
 
     <!-- Past Webinars -->
@@ -90,23 +86,19 @@ function formatDate(date: Date | string | undefined): string {
         <span class="text-sm font-normal text-chicago-500 ml-2">(recent {pastEvents.length})</span>
       </h2>
 
-      {
-        pastEvents.length === 0 ? (
-          <p class="text-chicago-500 italic">No past webinars found.</p>
-        ) : (
-          <div class="space-y-2">
-            {pastEvents.map((event) => (
-              <a
-                href={`/${event.data.slug}/`}
-                class="flex items-center gap-3 p-3 bg-ebony-clay-50 rounded-lg hover:bg-ebony-clay-50 transition-colors"
-              >
-                <span class="text-sm text-chicago-500 min-w-24">{formatDate(event.data.date)}</span>
-                <span class="text-chicago-700 hover:text-galaxy-primary">{event.data.title}</span>
-              </a>
-            ))}
-          </div>
-        )
-      }
+      {pastEvents.length === 0 ? (
+        <p class="text-chicago-500 italic">No past webinars found.</p>
+      ) : (
+        <div class="space-y-2">
+          {pastEvents.map((event) => <a
+            href={`/${event.data.slug}/`}
+            class="flex items-center gap-3 p-3 bg-ebony-clay-50 rounded-lg hover:bg-ebony-clay-50 transition-colors"
+          >
+            <span class="text-sm text-chicago-500 min-w-24">{formatDate(event.data.date)}</span>
+            <span class="text-chicago-700 hover:text-galaxy-primary">{event.data.title}</span>
+          </a>)}
+        </div>
+      )}
     </section>
   </div>
 </BaseLayout>

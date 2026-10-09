@@ -95,117 +95,93 @@ const sections = [
         <div class="flex-1">
           <h1 class="text-3xl sm:text-4xl font-bold text-chicago-900 mb-4">{title}</h1>
 
-          {
-            url && (
-              <a
-                href={url}
-                target="_blank"
-                rel="noopener noreferrer"
-                class="inline-flex items-center gap-2 px-6 py-3 bg-galaxy-primary text-white rounded-md hover:bg-galaxy-primary/90 transition-colors text-lg font-medium mb-4"
-              >
-                Launch Galaxy
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                  />
-                </svg>
-              </a>
-            )
-          }
+          {url && <a
+            href={url}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-6 py-3 bg-galaxy-primary text-white rounded-md hover:bg-galaxy-primary/90 transition-colors text-lg font-medium mb-4"
+          >
+            Launch Galaxy
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+              />
+            </svg>
+          </a>}
 
-          {
-            tags && tags.length > 0 && (
-              <div class="flex flex-wrap gap-2">
-                {tags.map((tag: string) => (
-                  <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-galaxy-primary/10 text-galaxy-primary">
-                    {tag}
-                  </span>
-                ))}
-              </div>
-            )
-          }
+          {tags && tags.length > 0 && <div class="flex flex-wrap gap-2">
+            {tags.map((tag: string) => <span
+              class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-galaxy-primary/10 text-galaxy-primary"
+            >
+              {tag}
+            </span>)}
+          </div>}
         </div>
 
-        {
-          image && (
-            <div class="flex-shrink-0">
-              <a
-                href={url}
-                target="_blank"
-                rel="noopener noreferrer"
-                class="block border border-ebony-clay-100 rounded-lg p-2 hover:border-galaxy-primary transition-colors"
-              >
-                <img src={image} alt={title} class="max-w-48 h-auto" />
-              </a>
-            </div>
-          )
-        }
+        {image && <div class="flex-shrink-0">
+          <a
+            href={url}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="block border border-ebony-clay-100 rounded-lg p-2 hover:border-galaxy-primary transition-colors"
+          >
+            <img src={image} alt={title} class="max-w-48 h-auto" />
+          </a>
+        </div>}
       </div>
     </header>
 
     <!-- Platform Instances Table -->
-    {
-      instances && instances.length > 0 && (
-        <div class="mb-8 overflow-x-auto">
-          <table class="w-full border-collapse">
-            <tbody class="divide-y divide-ebony-clay-100">
-              {instances.map((instance: PlatformInstance) => (
-                <tr class="bg-ebony-clay-50 even:bg-white">
-                  <th class="px-4 py-3 text-left text-sm font-medium text-chicago-900 w-40">
-                    {groupNames[instance.platform_group || ''] || instance.platform_group || 'Instance'}:
-                  </th>
-                  <td class="px-4 py-3 text-sm">
-                    {instance.platform_url ? (
-                      <a
-                        href={instance.platform_url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="text-galaxy-primary hover:underline"
-                      >
-                        {instance.platform_text || instance.platform_url}
-                      </a>
-                    ) : (
-                      <span>{instance.platform_text}</span>
-                    )}
-                    {instance.platform_location && (
-                      <span class="text-chicago-500 ml-2">({instance.platform_location})</span>
-                    )}
-                  </td>
-                </tr>
-              ))}
-              {scope && (
-                <tr class="bg-ebony-clay-50 even:bg-white">
-                  <th class="px-4 py-3 text-left text-sm font-medium text-chicago-900 w-40">Scope:</th>
-                  <td class="px-4 py-3 text-sm">
-                    <a href={`/use/#${scope}`} class="text-galaxy-primary hover:underline">
-                      {scopeNames[scope] || scope}
-                    </a>
-                  </td>
-                </tr>
+    {instances && instances.length > 0 && <div class="mb-8 overflow-x-auto">
+      <table class="w-full border-collapse">
+        <tbody class="divide-y divide-ebony-clay-100">
+          {instances.map((instance: PlatformInstance) => <tr class="bg-ebony-clay-50 even:bg-white">
+            <th class="px-4 py-3 text-left text-sm font-medium text-chicago-900 w-40">
+              {groupNames[instance.platform_group || ''] || instance.platform_group || 'Instance'}:
+            </th>
+            <td class="px-4 py-3 text-sm">
+              {instance.platform_url ? (
+                <a
+                  href={instance.platform_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-galaxy-primary hover:underline"
+                >
+                  {instance.platform_text || instance.platform_url}
+                </a>
+              ) : (
+                <span>{instance.platform_text}</span>
               )}
-              {summary && (
-                <tr class="bg-ebony-clay-50 even:bg-white">
-                  <th class="px-4 py-3 text-left text-sm font-medium text-chicago-900 w-40 align-top">Summary:</th>
-                  <td
-                    class="px-4 py-3 text-sm text-chicago-700 prose prose-sm max-w-none"
-                    set:html={renderMarkdownInline(summary)}
-                  />
-                </tr>
-              )}
-            </tbody>
-          </table>
-        </div>
-      )
-    }
+              {instance.platform_location && <span class="text-chicago-500 ml-2">({instance.platform_location})</span>}
+            </td>
+          </tr>)}
+          {scope && <tr class="bg-ebony-clay-50 even:bg-white">
+            <th class="px-4 py-3 text-left text-sm font-medium text-chicago-900 w-40">Scope:</th>
+            <td class="px-4 py-3 text-sm">
+              <a href={`/use/#${scope}`} class="text-galaxy-primary hover:underline">
+                {scopeNames[scope] || scope}
+              </a>
+            </td>
+          </tr>}
+          {summary && <tr class="bg-ebony-clay-50 even:bg-white">
+            <th class="px-4 py-3 text-left text-sm font-medium text-chicago-900 w-40 align-top">Summary:</th>
+            <td
+              class="px-4 py-3 text-sm text-chicago-700 prose prose-sm max-w-none"
+              set:html={renderMarkdownInline(summary)}
+            />
+          </tr>}
+        </tbody>
+      </table>
+    </div>}
 
     <!-- Platform Content -->
     <div class="prose prose-lg prose-galaxy max-w-none mb-8">
@@ -213,38 +189,32 @@ const sections = [
     </div>
 
     <!-- Metadata Sections -->
-    {
-      sections.map((section) => (
-        <div class="mb-6">
-          <h2 class="text-xl font-semibold text-chicago-900 mb-3 capitalize">{section.name}</h2>
-          <ul class="list-disc list-inside space-y-1 text-chicago-700">
-            {section.items.map((item: string) => (
-              <li class="prose prose-sm max-w-none" set:html={renderMarkdownInline(item)} />
-            ))}
-            {section.key === 'citations' && pub_libraries && pub_libraries.length > 0 && (
-              <>
-                {pub_libraries.map((tag: string) => (
-                  <li>
-                    <a
-                      href={`https://www.zotero.org/groups/1732893/galaxy/tags/%3E${tag}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      class="text-galaxy-primary hover:underline"
-                    >
-                      {tag} tagged publications
-                    </a>{' '}
-                    in the{' '}
-                    <a href="/publication-library/" class="text-galaxy-primary hover:underline">
-                      Galaxy Publication Library
-                    </a>
-                  </li>
-                ))}
-              </>
-            )}
-          </ul>
-        </div>
-      ))
-    }
+    {sections.map((section) => <div class="mb-6">
+      <h2 class="text-xl font-semibold text-chicago-900 mb-3 capitalize">{section.name}</h2>
+      <ul class="list-disc list-inside space-y-1 text-chicago-700">
+        {section.items.map((item: string) => (
+          <li class="prose prose-sm max-w-none" set:html={renderMarkdownInline(item)} />
+        ))}
+        {section.key === 'citations' && pub_libraries && pub_libraries.length > 0 && (
+          <>
+            {pub_libraries.map((tag: string) => <li>
+              <a
+                href={`https://www.zotero.org/groups/1732893/galaxy/tags/%3E${tag}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-galaxy-primary hover:underline"
+              >
+                {tag} tagged publications
+              </a
+              >{' '} in the{' '}
+              <a href="/publication-library/" class="text-galaxy-primary hover:underline">
+                Galaxy Publication Library
+              </a>
+            </li>)}
+          </>
+        )}
+      </ul>
+    </div>)}
 
     <!-- Platform Footer -->
     <footer class="mt-12 pt-8 border-t border-ebony-clay-100">
@@ -254,32 +224,24 @@ const sections = [
           Back to Galaxy Servers
         </a>
         <div class="flex items-center gap-4">
-          {
-            editUrl && (
-              <a
-                href={editUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                class="text-chicago-500 hover:text-galaxy-primary flex items-center gap-1.5 transition-colors"
-              >
-                <Icon name="edit" />
-                Edit on GitHub
-              </a>
-            )
-          }
-          {
-            url && (
-              <a
-                href={url}
-                target="_blank"
-                rel="noopener noreferrer"
-                class="inline-flex items-center gap-2 px-4 py-2 bg-galaxy-primary text-white rounded-md hover:bg-galaxy-primary/90 transition-colors"
-              >
-                Launch Galaxy
-                <Icon name="external-link" />
-              </a>
-            )
-          }
+          {editUrl && <a
+            href={editUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-chicago-500 hover:text-galaxy-primary flex items-center gap-1.5 transition-colors"
+          >
+            <Icon name="edit" />
+            Edit on GitHub
+          </a>}
+          {url && <a
+            href={url}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-4 py-2 bg-galaxy-primary text-white rounded-md hover:bg-galaxy-primary/90 transition-colors"
+          >
+            Launch Galaxy
+            <Icon name="external-link" />
+          </a>}
         </div>
       </div>
     </footer>
