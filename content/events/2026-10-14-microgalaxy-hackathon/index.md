@@ -1,7 +1,6 @@
 ---
 title: "microGalaxy Hackathon for Tool Development"
 date: '2026-10-14'
-days: 1
 continent: GL
 location:
   name: Online
