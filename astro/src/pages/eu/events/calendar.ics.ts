@@ -1,6 +1,7 @@
 import { getCollection } from 'astro:content';
 import type { APIContext } from 'astro';
 import { contentMatchesSubsite } from '../../../utils/subsites';
+import { formatICSDateOnly, getICSEndDate } from '../../../utils/ics';
 
 // Format date for iCalendar (YYYYMMDDTHHMMSSZ)
 function formatICSDate(date: Date): string {
@@ -8,11 +9,6 @@ function formatICSDate(date: Date): string {
     .toISOString()
     .replace(/[-:]/g, '')
     .replace(/\.\d{3}/, '');
-}
-
-// Format date for all-day events (YYYYMMDD)
-function formatICSDateOnly(date: Date): string {
-  return date.toISOString().split('T')[0].replace(/-/g, '');
 }
 
 // Escape special characters for iCalendar
@@ -69,9 +65,6 @@ export async function GET(context: APIContext) {
     const startDate = event.data.date instanceof Date ? event.data.date : new Date(event.data.date || 0);
     const endDate = event.data.end instanceof Date ? event.data.end : event.data.end ? new Date(event.data.end) : null;
 
-    // Use end date or default to same day
-    const effectiveEnd = endDate || new Date(startDate.getTime() + 24 * 60 * 60 * 1000);
-
     let location = '';
     if (event.data.location) {
       if (typeof event.data.location === 'string') {
@@ -92,7 +85,7 @@ export async function GET(context: APIContext) {
     icsContent.push(foldLine(`UID:${uid}`));
     icsContent.push(foldLine(`DTSTAMP:${formatICSDate(now)}`));
     icsContent.push(foldLine(`DTSTART;VALUE=DATE:${formatICSDateOnly(startDate)}`));
-    icsContent.push(foldLine(`DTEND;VALUE=DATE:${formatICSDateOnly(effectiveEnd)}`));
+    icsContent.push(foldLine(`DTEND;VALUE=DATE:${formatICSDateOnly(getICSEndDate(startDate, endDate))}`));
     icsContent.push(foldLine(`SUMMARY:${escapeICS(title)}`));
     if (description) {
       icsContent.push(foldLine(`DESCRIPTION:${escapeICS(description)}`));
