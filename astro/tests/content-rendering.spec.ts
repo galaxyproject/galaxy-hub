@@ -168,12 +168,163 @@ test.describe('Content Rendering', () => {
   });
 
   test.describe('MDX Components', () => {
-    test('Twitter embeds render placeholder', async ({ page }) => {
-      // Find a page with Twitter embed if exists
-      // For now, just verify the component doesn't break pages
-      await page.goto('/');
-      await expect(page.locator('body')).toBeVisible();
+    const tweetPage = '/news/2018-04-11-galaxy-africa/';
+    const tweetHref = 'https://twitter.com/i/status/981073917187100672';
+
+    // Stand-in for widgets.js: runs the twttr.ready queue like the real script and marks
+    // the container once createTweet has been called
+    async function stubWidgets(page: Page, createTweet: string, onRequest?: () => void) {
+      const body = `(() => {
+        const twttr = window.twttr;
+        const create = ${createTweet};
+        const tweet = (el, id) => {
+          const t = document.createElement('div');
+          t.className = 'stub-tweet';
+          t.textContent = id;
+          el.append(t);
+          return t;
+        };
+        twttr.widgets = {
+          createTweet: (id, el) => {
+            el.dataset.requested = id;
+            return create(id, el, tweet);
+          },
+        };
+        twttr.ready = (f) => f(twttr);
+        twttr._e.forEach((f) => f(twttr));
+      })();`;
+      await page.route('https://platform.twitter.com/widgets.js', (route) => {
+        onRequest?.();
+        return route.fulfill({ contentType: 'text/javascript', body });
+      });
+    }
+
+    async function openTweetWithStub(page: Page, createTweet: string) {
+      await stubWidgets(page, createTweet);
+      await page.goto(tweetPage);
+      const embed = page.locator('.twitter-embed');
+      await embed.scrollIntoViewIfNeeded();
+      await expect(embed.locator('[data-requested]')).toHaveCount(1);
+      return { link: embed.locator(`a[href="${tweetHref}"]`), tweet: embed.locator('.stub-tweet') };
+    }
+
+    test('Twitter embeds fall back to a link to the tweet', async ({ page }) => {
+      // Block the widget script, as tracker blockers do, so only the fallback can render
+      const blocked = page.waitForEvent('requestfailed', (request) => request.url().endsWith('/widgets.js'));
+      await page.route('https://platform.twitter.com/**', (route) => route.abort());
+      await page.goto(tweetPage);
+
+      // The script is only requested once the embed hydrates, so the link must survive that
+      const embed = page.locator('.twitter-embed');
+      await embed.scrollIntoViewIfNeeded();
+      await blocked;
+      await expect(embed.locator(`a[href="${tweetHref}"]`)).toBeVisible();
     });
+
+    test('Twitter embeds load widgets.js once for all the embeds on a page', async ({ page }) => {
+      let requests = 0;
+      await stubWidgets(page, '(id, el, tweet) => Promise.resolve(tweet(el, id))', () => requests++);
+      await page.goto('/news/2022-06-21-elixirah22/');
+
+      const embeds = page.locator('.twitter-embed');
+      const count = await embeds.count();
+      expect(count).toBe(12);
+      for (let i = 0; i < count; i++) await embeds.nth(i).scrollIntoViewIfNeeded();
+
+      await expect(page.locator('.twitter-embed [data-requested]')).toHaveCount(count);
+      expect(requests).toBe(1);
+    });
+
+    test('Twitter embeds replace the link once the tweet renders', async ({ page }) => {
+      const { link, tweet } = await openTweetWithStub(page, '(id, el, tweet) => Promise.resolve(tweet(el, id))');
+
+      await expect(tweet).toBeVisible();
+      await expect(link).toHaveCount(0);
+    });
+
+    test('Twitter embeds keep the link when the tweet never renders', async ({ page }) => {
+      await page.clock.install();
+      const { link, tweet } = await openTweetWithStub(
+        page,
+        '(id, el, tweet) => (tweet(el, id), new Promise(() => {}))'
+      );
+      await expect(tweet).toBeVisible();
+
+      await page.clock.runFor(10_000);
+      await expect(tweet).toHaveCount(0);
+      await expect(link).toBeVisible();
+    });
+
+    // The real widgets.js inserts its frame when createTweet is called, so a tweet that is
+    // slower than the timeout stays a link. This stub only attaches the tweet once it resolves.
+    test('Twitter embeds replace the link with a stub tweet that attaches after the timeout', async ({ page }) => {
+      await page.clock.install();
+      const { link, tweet } = await openTweetWithStub(
+        page,
+        '(id, el, tweet) => new Promise((resolve) => setTimeout(() => resolve(tweet(el, id)), 20_000))'
+      );
+
+      await page.clock.runFor(10_000);
+      await expect(link).toBeVisible();
+      await expect(tweet).toHaveCount(0);
+
+      await page.clock.runFor(10_000);
+      await expect(tweet).toBeVisible();
+      await expect(link).toHaveCount(0);
+    });
+
+    // No content page carries hostile props, so mount the page's own Twitter component and
+    // Vue renderer again with the given props, next to the embed the page already has
+    async function mountTweet(page: Page, props: Record<string, string>) {
+      // createTweet never settles, so a valid tweet keeps its link while the test checks it
+      await stubWidgets(page, '() => new Promise(() => {})');
+      await page.goto(tweetPage);
+      const island = page.locator('astro-island[component-url*="Twitter"]').first();
+      const componentUrl = await island.getAttribute('component-url');
+      const rendererUrl = await island.getAttribute('renderer-url');
+      expect(componentUrl && rendererUrl).toBeTruthy();
+
+      await page.evaluate(
+        async ({ componentUrl, rendererUrl, props }) => {
+          const [{ default: Component }, { default: renderer }] = await Promise.all([
+            import(componentUrl),
+            import(rendererUrl),
+          ]);
+          const el = document.createElement('div');
+          el.id = 'tweet-under-test';
+          el.setAttribute('ssr', '');
+          document.body.prepend(el);
+          await renderer(el)(Component, props, {}, { client: 'only' });
+        },
+        { componentUrl: componentUrl!, rendererUrl: rendererUrl!, props }
+      );
+
+      const embed = page.locator('#tweet-under-test .twitter-embed');
+      await expect(embed).toHaveCount(1);
+      return embed;
+    }
+
+    test('Twitter embeds mounted with test props link and embed a valid tweet', async ({ page }) => {
+      const embed = await mountTweet(page, { tweet: ' 981073917187100672 ' });
+
+      await expect(embed.locator(`a[href="${tweetHref}"]`)).toHaveCount(1);
+      await expect(embed.locator('[data-requested="981073917187100672"]')).toHaveCount(1);
+    });
+
+    for (const props of [
+      { tweetUrl: 'javascript:alert(document.domain)' },
+      { tweetUrl: 'data:text/html,<script>alert(1)</script>' },
+      { tweetUrl: 'https://example.org/galaxyproject/status/981073917187100672' },
+      { tweet: '../../galaxyproject' },
+      { id: '981073917187100672/../../galaxyproject' },
+    ]) {
+      test(`Twitter embeds render no link or tweet for ${JSON.stringify(props)}`, async ({ page }) => {
+        const embed = await mountTweet(page, props);
+
+        await expect(embed.locator('[href]')).toHaveCount(0);
+        await expect(embed.locator('[data-requested]')).toHaveCount(0);
+      });
+    }
 
     test('Video embeds render', async ({ page }) => {
       // Similar - verify video component doesn't break

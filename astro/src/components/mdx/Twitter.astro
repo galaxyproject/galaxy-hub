@@ -3,10 +3,11 @@ import TwitterVue from '../embed/Twitter.vue';
 
 interface Props {
   tweetUrl?: string;
-  id?: string;
+  id?: string | number;
+  tweet?: string | number;
 }
 
 const props = Astro.props;
 ---
 
-<TwitterVue client:load {...props} />
+<TwitterVue client:visible {...props} />
