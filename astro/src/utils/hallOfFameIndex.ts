@@ -1,5 +1,6 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
 import {
+  communityInHubHallOfFame,
   communitySlug,
   extractAuthors,
   extractFunding,
@@ -131,9 +132,15 @@ export async function getContributionIndex(): Promise<Map<string, ContributionPr
     events.forEach((event) => addFromEntry(event, 'event'));
 
     // Ensure entries exist for all contributors/organisations/grants even if they have no contributions.
-    listContributors().forEach((c) => ensureProfile(index, communitySlug(c.id), c.name || c.id));
-    listOrganisations().forEach((o) => ensureProfile(index, communitySlug(o.id), o.name || o.short_name || o.id));
-    listGrants().forEach((g) => ensureProfile(index, communitySlug(g.id), g.name || g.short_name || g.id));
+    listContributors()
+      .filter(communityInHubHallOfFame)
+      .forEach((c) => ensureProfile(index, communitySlug(c.id), c.name || c.id));
+    listOrganisations()
+      .filter(communityInHubHallOfFame)
+      .forEach((o) => ensureProfile(index, communitySlug(o.id), o.name || o.short_name || o.id));
+    listGrants()
+      .filter(communityInHubHallOfFame)
+      .forEach((g) => ensureProfile(index, communitySlug(g.id), g.name || g.short_name || g.id));
 
     // Sort contributions for each profile once.
     index.forEach((profile) => {
