@@ -477,6 +477,7 @@ const KNOWN_COMPONENTS = [
   'CalendarEmbed',
   'Insert',
   'CopyButton',
+  'EuIntro',
   'ReleaseGuardiansSummary',
   'ReleaseGuardiansSection',
   'ReleaseGuardiansLabelPill',

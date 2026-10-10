@@ -1,1 +1,5 @@
+---
+components: true
+---
+
 <EuIntro />
