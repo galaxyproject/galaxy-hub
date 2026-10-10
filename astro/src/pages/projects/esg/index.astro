@@ -5,18 +5,17 @@
  */
 import ESGLayout from '../../../layouts/ESGLayout.astro';
 import EsgInteractivePoster from '../../../components/EsgInteractivePoster.astro';
-import { getCollection } from 'astro:content';
+import { getCollection, getEntry } from 'astro:content';
 import { isUpcomingEvent } from '../../../utils/dateUtils';
 
 // Check for solo mode
 const solo = Astro.url.searchParams.get('solo') === 'true';
 
-// Load ESG data from datasets collection
-const datasets = await getCollection('datasets');
-const objectives = datasets.find((d) => d.data.slug === 'projects/esg/objectives')?.data;
-const expectedResults = datasets.find((d) => d.data.slug === 'projects/esg/expected_results')?.data;
-const partners = datasets.find((d) => d.data.slug === 'projects/esg/partners')?.data;
-const externalLinks = datasets.find((d) => d.data.slug === 'projects/esg/external_links')?.data;
+// Load ESG data from datasets collection (content/projects/esg/*.yml, keyed by file name)
+const objectives = (await getEntry('datasets', 'objectives'))?.data;
+const expectedResults = (await getEntry('datasets', 'expected_results'))?.data;
+const partners = (await getEntry('datasets', 'partners'))?.data;
+const externalLinks = (await getEntry('datasets', 'external_links'))?.data;
 
 // Load ESG news
 const allNews = await getCollection('news');
@@ -134,6 +133,8 @@ function esgUrl(path: string): string {
           src={`/images/projects/esg/link-images/${link.image?.split('/').pop()}`}
           alt={link.name}
           class="h-16 w-auto object-contain"
+          loading="lazy"
+          decoding="async"
         />
       </a>)}
     </div>
@@ -257,6 +258,8 @@ function esgUrl(path: string): string {
             }
             alt={partner.name}
             class="max-h-12 w-auto object-contain"
+            loading="lazy"
+            decoding="async"
           />
         </a>)}
       </div>
