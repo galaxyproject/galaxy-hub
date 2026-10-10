@@ -113,49 +113,48 @@ const supporterGroups = groupContributors(supporters);
           <span class="text-sm text-chicago-500">{totalAuthors} contributors</span>
         </div>
 
-        {
-          authorGroups.letters.length > 0 ? (
-            <>
-              <div class="flex flex-wrap gap-1 mb-4">
-                {authorGroups.letters.map((letter) => (
-                  <a
-                    href={`#authors-${letter}`}
-                    class="w-8 h-8 flex items-center justify-center rounded text-sm font-medium text-galaxy-primary hover:bg-galaxy-gold hover:text-galaxy-dark transition-colors"
-                  >
-                    {letter}
-                  </a>
-                ))}
-              </div>
+        {authorGroups.letters.length > 0 ? (
+          <>
+            <div class="flex flex-wrap gap-1 mb-4">
+              {authorGroups.letters.map((letter) => <a
+                href={`#authors-${letter}`}
+                class="w-8 h-8 flex items-center justify-center rounded text-sm font-medium text-galaxy-primary hover:bg-galaxy-gold hover:text-galaxy-dark transition-colors"
+              >
+                {letter}
+              </a>)}
+            </div>
 
-              {authorGroups.letters.map((letter, idx) => (
-                <section id={`authors-${letter}`} class={idx > 0 ? 'mt-6 pt-6 border-t border-ebony-clay-50' : ''}>
-                  <div class="flex items-center gap-4 mb-3">
-                    <span class="text-3xl font-bold text-galaxy-primary/60">{letter}</span>
-                    <span class="text-xs text-chicago-400">{authorGroups.groups[letter].length} names</span>
-                  </div>
-                  <div class="flex flex-wrap gap-2">
-                    {authorGroups.groups[letter].map((item) => (
-                      <a
-                        href={`/hall-of-fame/${item.slug}/`}
-                        data-kind="author"
-                        class="group inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-ebony-clay-100 hover:border-galaxy-gold hover:bg-galaxy-gold/5 transition-all duration-200"
-                      >
-                        <span class="text-galaxy-dark group-hover:text-galaxy-primary transition-colors text-base font-medium">
-                          {item.name}
-                        </span>
-                        <span class="inline-flex items-center justify-center min-w-[1.5rem] h-5 px-1.5 rounded-full bg-ebony-clay-50 text-xs text-chicago-600 group-hover:bg-galaxy-gold/20 group-hover:text-galaxy-dark transition-colors">
-                          {item.count}
-                        </span>
-                      </a>
-                    ))}
-                  </div>
-                </section>
-              ))}
-            </>
-          ) : (
-            <p class="text-chicago-500">No authors found.</p>
-          )
-        }
+            {authorGroups.letters.map((letter, idx) => <section
+              id={`authors-${letter}`}
+              class={idx > 0 ? 'mt-6 pt-6 border-t border-ebony-clay-50' : ''}
+            >
+              <div class="flex items-center gap-4 mb-3">
+                <span class="text-3xl font-bold text-galaxy-primary/60">{letter}</span>
+                <span class="text-xs text-chicago-400">{authorGroups.groups[letter].length} names</span>
+              </div>
+              <div class="flex flex-wrap gap-2">
+                {authorGroups.groups[letter].map((item) => <a
+                  href={`/hall-of-fame/${item.slug}/`}
+                  data-kind="author"
+                  class="group inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-ebony-clay-100 hover:border-galaxy-gold hover:bg-galaxy-gold/5 transition-all duration-200"
+                >
+                  <span
+                    class="text-galaxy-dark group-hover:text-galaxy-primary transition-colors text-base font-medium"
+                  >
+                    {item.name}
+                  </span>
+                  <span
+                    class="inline-flex items-center justify-center min-w-[1.5rem] h-5 px-1.5 rounded-full bg-ebony-clay-50 text-xs text-chicago-600 group-hover:bg-galaxy-gold/20 group-hover:text-galaxy-dark transition-colors"
+                  >
+                    {item.count}
+                  </span>
+                </a>)}
+              </div>
+            </section>)}
+          </>
+        ) : (
+          <p class="text-chicago-500">No authors found.</p>
+        )}
       </section>
 
       <section id="supporters" class="scroll-mt-24">
@@ -164,49 +163,48 @@ const supporterGroups = groupContributors(supporters);
           <span class="text-sm text-chicago-500">{totalSupporters} contributors</span>
         </div>
 
-        {
-          supporterGroups.letters.length > 0 ? (
-            <>
-              <div class="flex flex-wrap gap-1 mb-4">
-                {supporterGroups.letters.map((letter) => (
-                  <a
-                    href={`#supporters-${letter}`}
-                    class="w-8 h-8 flex items-center justify-center rounded text-sm font-medium text-galaxy-primary hover:bg-galaxy-gold hover:text-galaxy-dark transition-colors"
-                  >
-                    {letter}
-                  </a>
-                ))}
-              </div>
+        {supporterGroups.letters.length > 0 ? (
+          <>
+            <div class="flex flex-wrap gap-1 mb-4">
+              {supporterGroups.letters.map((letter) => <a
+                href={`#supporters-${letter}`}
+                class="w-8 h-8 flex items-center justify-center rounded text-sm font-medium text-galaxy-primary hover:bg-galaxy-gold hover:text-galaxy-dark transition-colors"
+              >
+                {letter}
+              </a>)}
+            </div>
 
-              {supporterGroups.letters.map((letter, idx) => (
-                <section id={`supporters-${letter}`} class={idx > 0 ? 'mt-6 pt-6 border-t border-ebony-clay-50' : ''}>
-                  <div class="flex items-center gap-4 mb-3">
-                    <span class="text-3xl font-bold text-galaxy-primary/60">{letter}</span>
-                    <span class="text-xs text-chicago-400">{supporterGroups.groups[letter].length} names</span>
-                  </div>
-                  <div class="flex flex-wrap gap-2">
-                    {supporterGroups.groups[letter].map((item) => (
-                      <a
-                        href={`/hall-of-fame/${item.slug}/`}
-                        data-kind="supporter"
-                        class="group inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-ebony-clay-100 hover:border-galaxy-gold hover:bg-galaxy-gold/5 transition-all duration-200"
-                      >
-                        <span class="text-galaxy-dark group-hover:text-galaxy-primary transition-colors text-base font-medium">
-                          {item.name}
-                        </span>
-                        <span class="inline-flex items-center justify-center min-w-[1.5rem] h-5 px-1.5 rounded-full bg-ebony-clay-50 text-xs text-chicago-600 group-hover:bg-galaxy-gold/20 group-hover:text-galaxy-dark transition-colors">
-                          {item.count}
-                        </span>
-                      </a>
-                    ))}
-                  </div>
-                </section>
-              ))}
-            </>
-          ) : (
-            <p class="text-chicago-500">No supporters found.</p>
-          )
-        }
+            {supporterGroups.letters.map((letter, idx) => <section
+              id={`supporters-${letter}`}
+              class={idx > 0 ? 'mt-6 pt-6 border-t border-ebony-clay-50' : ''}
+            >
+              <div class="flex items-center gap-4 mb-3">
+                <span class="text-3xl font-bold text-galaxy-primary/60">{letter}</span>
+                <span class="text-xs text-chicago-400">{supporterGroups.groups[letter].length} names</span>
+              </div>
+              <div class="flex flex-wrap gap-2">
+                {supporterGroups.groups[letter].map((item) => <a
+                  href={`/hall-of-fame/${item.slug}/`}
+                  data-kind="supporter"
+                  class="group inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-ebony-clay-100 hover:border-galaxy-gold hover:bg-galaxy-gold/5 transition-all duration-200"
+                >
+                  <span
+                    class="text-galaxy-dark group-hover:text-galaxy-primary transition-colors text-base font-medium"
+                  >
+                    {item.name}
+                  </span>
+                  <span
+                    class="inline-flex items-center justify-center min-w-[1.5rem] h-5 px-1.5 rounded-full bg-ebony-clay-50 text-xs text-chicago-600 group-hover:bg-galaxy-gold/20 group-hover:text-galaxy-dark transition-colors"
+                  >
+                    {item.count}
+                  </span>
+                </a>)}
+              </div>
+            </section>)}
+          </>
+        ) : (
+          <p class="text-chicago-500">No supporters found.</p>
+        )}
       </section>
     </div>
   </div>

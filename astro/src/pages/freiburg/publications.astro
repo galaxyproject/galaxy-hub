@@ -21,13 +21,11 @@ const { citations } = await loadCitations(citationDir);
     <PageHeader title={pageTitle} description={pageDescription} {eyebrow} />
 
     <div class="bg-white rounded-b-lg shadow-sm px-6 sm:px-8 py-8">
-      {
-        citations.length === 0 ? (
-          <p class="text-chicago-700">No publications found.</p>
-        ) : (
-          <CitationList {citations} noun={{ singular: 'publication', plural: 'publications' }} />
-        )
-      }
+      {citations.length === 0 ? (
+        <p class="text-chicago-700">No publications found.</p>
+      ) : (
+        <CitationList {citations} noun={{ singular: 'publication', plural: 'publications' }} />
+      )}
     </div>
   </div>
 </BaseLayout>

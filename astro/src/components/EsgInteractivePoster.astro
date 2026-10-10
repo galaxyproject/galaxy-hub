@@ -75,22 +75,19 @@ const workPackages = [
       <button class="carousel-control prev" id="carousel-prev" aria-label="Previous">‹</button>
 
       <div class="carousel-content" id="carousel-content">
-        {
-          workPackages.map((wp, index) => (
-            <div class={`carousel-slide ${index === 0 ? 'active' : ''}`} data-index={index}>
-              <h3>{wp.title}</h3>
-              <p>
-                {wp.content}
-                {wp.news && (
-                  <span>
-                    {' '}
-                    - <a href={wp.news}>News</a>
-                  </span>
-                )}
-              </p>
-            </div>
-          ))
-        }
+        {workPackages.map((wp, index) => <div
+          class={`carousel-slide ${index === 0 ? 'active' : ''}`}
+          data-index={index}
+        >
+          <h3>{wp.title}</h3>
+          <p>
+            {wp.content}
+            {wp.news && <span>
+              {' '}
+              - <a href={wp.news}>News</a>
+            </span>}
+          </p>
+        </div>)}
       </div>
 
       <button class="carousel-control next" id="carousel-next" aria-label="Next">›</button>

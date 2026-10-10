@@ -12,7 +12,7 @@ subsites: [all-eu, global, us]
 The *April 2019 Galactic News* is here! This is a summary of what is going on in the Galaxy community.
 
 * Event News
-    * **[GCC2019 registration and abstract submission are open!](/news/2019-04-galaxy-update/#gcc2019-registration-abstract-submission)**
+    * **[GCC2019 registration and abstract submission are open!](/news/2019-04-galaxy-update/#gcc2019-registration--abstract-submission)**
 * [120 new publications](/news/2019-04-galaxy-update/#publications), great resources lead to great insight.
 * Some most excellent [Galaxy Platform News](/news/2019-04-galaxy-update/#galaxy-platforms-news), including ways to investigate unmapped RNA-seq reads, language analysis, and RNA structure tools!  
 * A new entry to [The Galactic Blog](/news/2019-04-galaxy-update/#new-galactic-blog-post), about the upcomming GCC.  
@@ -20,7 +20,7 @@ The *April 2019 Galactic News* is here! This is a summary of what is going on in
 * [Updates to training materials](/news/2019-04-galaxy-update/#doc-hub-and-training-updates).
 * [ToolShed contributions](/news/2019-04-galaxy-update/#toolshed-contributions).
 * [CloudBridge 2.0 released](/news/2019-04-galaxy-update/#releases).
-* [Galaxy status page](/news/2019-04-galaxy-update/##galaxy-status) is live!
+* [Galaxy status page](/news/2019-04-galaxy-update/#galaxy-status) is live!
 * And [a bunch of other news](/news/2019-04-galaxy-update/#other-news) too.
 
 If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.

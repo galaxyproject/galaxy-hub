@@ -5,7 +5,7 @@
  */
 import ESGLayout from '../../../layouts/ESGLayout.astro';
 import { getCollection } from 'astro:content';
-import { isUpcomingEvent, isPastEvent } from '../../../utils/dateUtils';
+import { formatDateRange, isUpcomingEvent, isPastEvent } from '../../../utils/dateUtils';
 
 // Check for solo mode
 const solo = Astro.url.searchParams.get('solo') === 'true';
@@ -32,24 +32,6 @@ const pastEvents = allEsgEvents
   .reverse()
   .slice(0, 20);
 
-function formatDate(date: Date | string | undefined): string {
-  if (!date) return '';
-  const d = typeof date === 'string' ? new Date(date) : date;
-  return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
-}
-
-function formatDateRange(start: Date | string | undefined, end: Date | string | undefined): string {
-  if (!start) return '';
-  const startDate = typeof start === 'string' ? new Date(start) : start;
-  const endDate = end ? (typeof end === 'string' ? new Date(end) : end) : null;
-
-  if (!endDate || startDate.getTime() === endDate.getTime()) {
-    return formatDate(startDate);
-  }
-
-  return `${formatDate(startDate)} - ${formatDate(endDate)}`;
-}
-
 function esgUrl(path: string): string {
   return solo ? `${path}?solo=true` : path;
 }
@@ -70,55 +52,50 @@ function esgUrl(path: string): string {
           stroke-linecap="round"
           stroke-linejoin="round"
           stroke-width="2"
-          d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+          d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+        ></path>
       </svg>
       Upcoming Events
     </h2>
 
-    {
-      upcomingEvents.length > 0 ? (
-        <div class="space-y-4">
-          {upcomingEvents.map((event) => (
-            <div class="border border-ebony-clay-100 rounded-lg p-4 hover:shadow-md transition-shadow">
-              <div class="flex flex-col md:flex-row md:items-start gap-4">
-                <div class="text-galaxy-primary font-medium whitespace-nowrap">
-                  {formatDateRange(event.data.date, event.data.end)}
-                </div>
-                <div class="flex-1">
-                  <a href={`/${event.data.slug}/`} class="text-lg font-medium text-chicago-800 hover:text-galaxy-gold">
-                    {event.data.title}
-                  </a>
-                  {event.data.location && <p class="text-sm text-chicago-500 mt-1">{event.data.location}</p>}
-                  {event.data.tease && <p class="text-chicago-600 mt-2 text-sm">{event.data.tease}</p>}
-                </div>
-              </div>
+    {upcomingEvents.length > 0 ? (
+      <div class="space-y-4">
+        {upcomingEvents.map((event) => <div
+          class="border border-ebony-clay-100 rounded-lg p-4 hover:shadow-md transition-shadow"
+        >
+          <div class="flex flex-col md:flex-row md:items-start gap-4">
+            <div class="text-galaxy-primary font-medium whitespace-nowrap">
+              {formatDateRange(event.data.date, event.data.end)}
             </div>
-          ))}
-        </div>
-      ) : (
-        <p class="text-chicago-500">No upcoming events at this time.</p>
-      )
-    }
+            <div class="flex-1">
+              <a href={`/${event.data.slug}/`} class="text-lg font-medium text-chicago-800 hover:text-galaxy-gold">
+                {event.data.title}
+              </a>
+              {event.data.location && <p class="text-sm text-chicago-500 mt-1">{event.data.location}</p>}
+              {event.data.tease && <p class="text-chicago-600 mt-2 text-sm">{event.data.tease}</p>}
+            </div>
+          </div>
+        </div>)}
+      </div>
+    ) : (
+      <p class="text-chicago-500">No upcoming events at this time.</p>
+    )}
   </section>
 
   <!-- Past Events -->
-  {
-    pastEvents.length > 0 && (
-      <section>
-        <h2 class="text-2xl font-light text-chicago-700 mb-6">Past Events</h2>
-        <div class="space-y-3">
-          {pastEvents.map((event) => (
-            <div class="border-b border-ebony-clay-50 pb-3">
-              <div class="flex flex-col md:flex-row md:items-center gap-2">
-                <span class="text-chicago-500 text-sm whitespace-nowrap">{formatDate(event.data.date)}</span>
-                <a href={`/${event.data.slug}/`} class="text-chicago-700 hover:text-galaxy-gold">
-                  {event.data.title}
-                </a>
-              </div>
-            </div>
-          ))}
+  {pastEvents.length > 0 && <section>
+    <h2 class="text-2xl font-light text-chicago-700 mb-6">Past Events</h2>
+    <div class="space-y-3">
+      {pastEvents.map((event) => <div class="border-b border-ebony-clay-50 pb-3">
+        <div class="flex flex-col md:flex-row md:items-center gap-2">
+          <span class="text-chicago-500 text-sm whitespace-nowrap">
+            {formatDateRange(event.data.date, event.data.end)}
+          </span>
+          <a href={`/${event.data.slug}/`} class="text-chicago-700 hover:text-galaxy-gold">
+            {event.data.title}
+          </a>
         </div>
-      </section>
-    )
-  }
+      </div>)}
+    </div>
+  </section>}
 </ESGLayout>

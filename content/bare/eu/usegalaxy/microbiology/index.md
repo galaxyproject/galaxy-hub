@@ -15,7 +15,7 @@ Whether you are analyzing microbiome samples or bacterial isolates, long reads o
 
 - [Join the μGalaxy Community](#join-the-μgalaxy-community)
 - [Training](#training)
-  - [Galaxy Training Network Tutorials tagged with **#microGalaxy**](#galaxy-training-network-tutorials-tagged-with-**#microGalaxy**)
+  - [Galaxy Training Network Tutorials tagged with **#microGalaxy**](#galaxy-training-network-tutorials-tagged-with-microgalaxy)
 - [Workflows](#workflows)
   - [MicroGalaxy Workflows](#microgalaxy-workflows)
 - [Tools](#tools)

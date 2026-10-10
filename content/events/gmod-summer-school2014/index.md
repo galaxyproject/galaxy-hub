@@ -99,7 +99,7 @@ This is free software; see the source for copying conditions. There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE
 ```
 
-See also [Using APT to get Mercurial](/events/bio-it-world2014/w14/#clone_28download29_galaxy) for an example of
+See also [Using APT to get Mercurial](/events/bio-it-world2014/w14/#clone-download-galaxy) for an example of
 installing mercurial via APT (a unix package manager).
 
 1. **As the galaxy user**, create the directory where you'd want to install Galaxy on your server (in this example, a
@@ -718,7 +718,7 @@ do that and try them out on some isolate data from a library. Also, it's best to
 much as possible so we'll convert this trial run (if it worked) into a workflow (AKA pipeline) that will reduce this
 process to a two click operation.
 
-Using the procedure in [Installing a tool from a Tool Shed](/events/gmod-summer-school2014/#installing-a-tool-from-a-toolshed), search for and install the following tools:
+Using the procedure in [Installing a tool from a Tool Shed](/events/gmod-summer-school2014/#installing-a-tool-from-a-tool-shed), search for and install the following tools:
 
 1. `fastq_paired_end_joiner`:
 

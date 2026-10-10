@@ -2,7 +2,7 @@ Training
 --------
 
 <div class="row">
-<div class="col-sm-6">
+<div class="col-md-6">
 
 We regularly provide workshops.
 
@@ -14,7 +14,7 @@ Topics include: variant analysis, transcriptomics, metagenomics, epigenetics, an
 <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6296361/" class="btn btn-secondary trim-p">View Publication</a>
 
 </div>
-<div class="col-sm-6 img-sizer" style="height: 270px">
+<div class="col-md-6">
 
 ![Galaxy training materials page](/images/screenshots/training-home.png)
 

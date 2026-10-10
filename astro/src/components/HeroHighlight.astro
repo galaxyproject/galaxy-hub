@@ -46,16 +46,14 @@ const items = highlights
   .filter(({ image }) => image);
 ---
 
-{
-  items.length > 0 ? (
-    <div class="hero-highlight-container">
-      <img src="/images/galaxy_logo_white.svg" alt="Galaxy" class="hero-logo" />
-      <HeroCarousel client:load items={items} class="hero-carousel-wrapper" />
-    </div>
-  ) : (
+{items.length > 0 ? (
+  <div class="hero-highlight-container">
     <img src="/images/galaxy_logo_white.svg" alt="Galaxy" class="hero-logo" />
-  )
-}
+    <HeroCarousel client:load items={items} class="hero-carousel-wrapper" />
+  </div>
+) : (
+  <img src="/images/galaxy_logo_white.svg" alt="Galaxy" class="hero-logo" />
+)}
 
 <style is:global>
   .hero-highlight-container {

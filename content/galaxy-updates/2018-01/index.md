@@ -44,7 +44,7 @@ The [26th Plant and Animal Genome Conference](http://intlpag.org/) will be held 
 - a Galaxy Community Update talk during the [GMOD session](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Session/4806)
 - 10 other Galaxy-related talks, and
 - 12 Galaxy-related posters.
-- 4 pre-conference [GMOD](#gmod-pag) and [Galaxy](#intro-to-galaxy-workshop-at-csusm) events
+- 4 pre-conference [GMOD](#gmod--pag) and [Galaxy](#intro-to-galaxy-workshop-at-csusm) events
 
 See the [Galaxy @ PAG page](/events/2018-pag/) for details.
 

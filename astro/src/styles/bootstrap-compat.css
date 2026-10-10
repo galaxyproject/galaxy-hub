@@ -30,8 +30,9 @@
     gap: 1rem;
     margin-bottom: 1.5rem;
 
+    /* A real flex-basis lets the deck wrap instead of squeezing every card into one row */
     > .bs-compat.card {
-      flex: 1 1 0%;
+      flex: 1 1 16rem;
       min-width: 0;
       max-width: none;
     }

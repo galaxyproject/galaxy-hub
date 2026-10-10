@@ -28,7 +28,7 @@ This project is a community effort, so feel free to jump in, ask questions, and 
 - [Available tools](#available-tools)
   - [Classification](#classification)
   - [Regression](#regression)
-  - [Unsupervised/Clustering](#clustering)
+  - [Unsupervised/Clustering](#unsupervisedclustering)
   - [Model building](#model-building)
   - [Model evaluation](#model-evaluation)
   - [Preprocessing and feature selection](#preprocessing-and-feature-selection)

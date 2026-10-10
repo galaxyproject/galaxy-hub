@@ -32,7 +32,7 @@ If you find this resource useful, please cite [The RNA workbench 2.0: next gener
   - [RNA target prediction](#rna-target-prediction)
   - [RNA Seq and HTS analysis](#rna-seq-and-hts-analysis)
   - [Ribosome profiling](#ribosome-profiling)
-- [Contributing](#contributing)
+- [Contributing](#contributors)
 
 # Get started
 

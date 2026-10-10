@@ -50,7 +50,7 @@ title: Galaxy Support
 
 ### Account
 
-* [My history is missing! Good news, it probably isn't.](/support/missing-history/#my-history-is-missing-)
+* [My history is missing! Good news, it probably isn't.](/support/missing-history/#my-history-is-missing)
 * [A history was shared with me, where can I find it?](/support/missing-history/)
 * [The account usage quota seems incorrect](/support/account-quotas/)
 * [Checking for active vs deleted vs permanently deleted (purged) datasets and histories](/learn/managing-datasets/#delete-vs-delete-permanently)

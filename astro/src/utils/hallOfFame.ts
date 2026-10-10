@@ -1,5 +1,6 @@
 import { getCollection } from 'astro:content';
 import {
+  communityInHubHallOfFame,
   communitySlug,
   extractAuthors,
   extractFunding,
@@ -30,9 +31,15 @@ export async function getHallOfFameSlugs(): Promise<Set<string>> {
     collect(extractFunding(event.data));
   });
 
-  listContributors().forEach((c) => add(c.id));
-  listOrganisations().forEach((o) => add(o.id));
-  listGrants().forEach((g) => add(g.id));
+  listContributors()
+    .filter(communityInHubHallOfFame)
+    .forEach((c) => add(c.id));
+  listOrganisations()
+    .filter(communityInHubHallOfFame)
+    .forEach((o) => add(o.id));
+  listGrants()
+    .filter(communityInHubHallOfFame)
+    .forEach((g) => add(g.id));
 
   return slugs;
 }

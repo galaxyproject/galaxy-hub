@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import {
   buildGtnHallOfFameUrl,
+  communityInHubHallOfFame,
   extractAuthors,
   extractFunding,
   getContributor,
@@ -9,6 +10,7 @@ import {
   getGrant,
   getOrganisation,
 } from './contributors';
+import { inHubHallOfFame } from './community-base.mjs';
 
 describe('contribution extraction', () => {
   it('includes extended contributions roles for authors', () => {
@@ -72,6 +74,37 @@ describe('GTN Hall of Fame URLs', () => {
     expect(buildGtnHallOfFameUrl('deKCD')).toBe(
       'https://training.galaxyproject.org/training-material/hall-of-fame/deKCD/'
     );
+  });
+});
+
+describe('Hub Hall of Fame opt-out', () => {
+  it('excludes the GTN build placeholders, which set hub-halloffame: no', () => {
+    for (const id of ['contributor1', 'contributor2', 'awspolly']) {
+      expect(communityInHubHallOfFame(getContributor(id)!)).toBe(false);
+    }
+    expect(communityInHubHallOfFame(getOrganisation('an-example')!)).toBe(false);
+  });
+
+  it('keeps records without the flag', () => {
+    expect(communityInHubHallOfFame(getContributor('bgruening')!)).toBe(true);
+    expect(communityInHubHallOfFame(getOrganisation('deNBI')!)).toBe(true);
+    expect(communityInHubHallOfFame(getGrant('eurosciencegateway')!)).toBe(true);
+  });
+
+  it.each([
+    ['no', false],
+    ['No', false],
+    ['false', false],
+    [false, false],
+    ['0', false],
+    [0, false],
+    ['off', false],
+    ['', false],
+    ['yes', true],
+    [undefined, true],
+    [null, true],
+  ])('reads hub-halloffame %j as %s', (flag, expected) => {
+    expect(inHubHallOfFame({ 'hub-halloffame': flag })).toBe(expected);
   });
 });
 

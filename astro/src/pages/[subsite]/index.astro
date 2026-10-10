@@ -49,6 +49,9 @@ const BODY_INSERTS = [
   'main4',
   'main5',
   'lower',
+  'lower1',
+  'lower2',
+  'lower3',
 ];
 const FOOTER_INSERTS = ['site-footer'];
 
@@ -85,9 +88,13 @@ const renderedMarkdownFooter = renderedFooter.filter(
     hasMainContent={renderedBody.length > 0}
   >
     {hasIntroComponent && <IntroComponent slot="main-content" />}
-    {renderedMarkdownBody.map(({ Content }) => <Content slot="main-content" components={mdxComponents} />)}
+    {renderedMarkdownBody.map(({ Content }) => (
+      <Content slot="main-content" components={mdxComponents} />
+    ))}
     {hasFooterComponent && <FooterComponent slot="footer-content" />}
     {subsite === 'cz' && <CzSiteFooter slot="footer-content" />}
-    {renderedMarkdownFooter.map(({ Content }) => <Content slot="footer-content" components={mdxComponents} />)}
+    {renderedMarkdownFooter.map(({ Content }) => (
+      <Content slot="footer-content" components={mdxComponents} />
+    ))}
   </SubsiteOverview>
 </BaseLayout>

@@ -50,7 +50,7 @@ content-lint: ## Lint content files for legacy syntax issues
 .PHONY: content-lint
 
 link-check: build ## Build site and check internal links with linkinator
-	cd astro && npx astro preview --port 9999 & sleep 5 && cd astro && PORT=9999 npm run links:internal; kill %1 2>/dev/null || true
+	(cd astro && ASTRO_PREVIEW_BACKGROUND=0 exec npx astro preview --port 9999) & sleep 5 && cd astro && PORT=9999 npm run links:internal; kill %1 2>/dev/null || true
 .PHONY: link-check
 
 feed-conformance: ## Validate RSS/Atom feeds with W3C feedvalidator

@@ -1,7 +1,7 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import PageHeader from './layout/PageHeader.astro';
-import { formatDate } from '../utils/dateUtils';
+import { formatDate, formatDateRange } from '../utils/dateUtils';
 
 interface Props {
   subsite: string;
@@ -18,13 +18,9 @@ const { subsite, title, description, upcomingEvents, subsiteNews, hasMainContent
 <div class="max-w-6xl mx-auto">
   <PageHeader {title} {description} />
 
-  {
-    hasMainContent && (
-      <div class="my-5 max-w-none subsite-inserts">
-        <slot name="main-content" />
-      </div>
-    )
-  }
+  {hasMainContent && <div class="my-5 max-w-none subsite-inserts">
+    <slot name="main-content" />
+  </div>}
 
   <div class="grid gap-8 lg:grid-cols-2">
     <section>
@@ -38,26 +34,26 @@ const { subsite, title, description, upcomingEvents, subsiteNews, hasMainContent
         </a>
       </div>
 
-      {
-        upcomingEvents.length === 0 ? (
-          <p class="text-chicago-500 italic">No upcoming events.</p>
-        ) : (
-          <div class="space-y-3">
-            {upcomingEvents.map((event) => (
-              <a
-                href={`/${event.data.slug}/`}
-                class="group relative block overflow-hidden p-4 bg-white rounded-lg border border-galaxy-primary/10 shadow-sm hover:border-galaxy-primary/30 transition-all"
-              >
-                <span class="absolute left-0 top-0 bottom-0 w-1 bg-galaxy-gold transform origin-left scale-y-0 group-hover:scale-y-100 transition-transform duration-200" />
-                <div class="text-xs text-galaxy-primary font-medium mb-1">{formatDate(event.data.date)}</div>
-                <h3 class="font-medium text-galaxy-dark group-hover:text-galaxy-primary transition-colors line-clamp-2">
-                  {event.data.title}
-                </h3>
-              </a>
-            ))}
-          </div>
-        )
-      }
+      {upcomingEvents.length === 0 ? (
+        <p class="text-chicago-500 italic">No upcoming events.</p>
+      ) : (
+        <div class="space-y-3">
+          {upcomingEvents.map((event) => <a
+            href={`/${event.data.slug}/`}
+            class="group relative block overflow-hidden p-4 bg-white rounded-lg border border-galaxy-primary/10 shadow-sm hover:border-galaxy-primary/30 transition-all"
+          >
+            <span
+              class="absolute left-0 top-0 bottom-0 w-1 bg-galaxy-gold transform origin-left scale-y-0 group-hover:scale-y-100 transition-transform duration-200"
+            />
+            <div class="text-xs text-galaxy-primary font-medium mb-1">
+              {formatDateRange(event.data.date, event.data.end)}
+            </div>
+            <h3 class="font-medium text-galaxy-dark group-hover:text-galaxy-primary transition-colors line-clamp-2">
+              {event.data.title}
+            </h3>
+          </a>)}
+        </div>
+      )}
     </section>
 
     <section>
@@ -71,26 +67,24 @@ const { subsite, title, description, upcomingEvents, subsiteNews, hasMainContent
         </a>
       </div>
 
-      {
-        subsiteNews.length === 0 ? (
-          <p class="text-chicago-500 italic">No recent news.</p>
-        ) : (
-          <div class="space-y-3">
-            {subsiteNews.map((article) => (
-              <a
-                href={`/${article.data.slug}/`}
-                class="group relative block overflow-hidden p-4 bg-white rounded-lg border border-galaxy-primary/10 shadow-sm hover:border-galaxy-primary/30 transition-all"
-              >
-                <span class="absolute left-0 top-0 bottom-0 w-1 bg-galaxy-gold transform origin-left scale-y-0 group-hover:scale-y-100 transition-transform duration-200" />
-                <div class="text-xs text-chicago-500 mb-1">{formatDate(article.data.date)}</div>
-                <h3 class="font-medium text-galaxy-dark group-hover:text-galaxy-primary transition-colors line-clamp-2">
-                  {article.data.title}
-                </h3>
-              </a>
-            ))}
-          </div>
-        )
-      }
+      {subsiteNews.length === 0 ? (
+        <p class="text-chicago-500 italic">No recent news.</p>
+      ) : (
+        <div class="space-y-3">
+          {subsiteNews.map((article) => <a
+            href={`/${article.data.slug}/`}
+            class="group relative block overflow-hidden p-4 bg-white rounded-lg border border-galaxy-primary/10 shadow-sm hover:border-galaxy-primary/30 transition-all"
+          >
+            <span
+              class="absolute left-0 top-0 bottom-0 w-1 bg-galaxy-gold transform origin-left scale-y-0 group-hover:scale-y-100 transition-transform duration-200"
+            />
+            <div class="text-xs text-chicago-500 mb-1">{formatDate(article.data.date)}</div>
+            <h3 class="font-medium text-galaxy-dark group-hover:text-galaxy-primary transition-colors line-clamp-2">
+              {article.data.title}
+            </h3>
+          </a>)}
+        </div>
+      )}
     </section>
   </div>
 

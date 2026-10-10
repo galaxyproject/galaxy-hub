@@ -278,11 +278,13 @@ const jsonCount = feedEntries.filter((feed) => feed.formatExt === 'json').length
         <a href="https://feedly.com/" target="_blank" rel="noopener noreferrer" class="reader-link">Feedly</a>,
         <a href="https://www.inoreader.com/" target="_blank" rel="noopener noreferrer" class="reader-link">
           Inoreader
-        </a>,
-        <a href="https://www.newsblur.com/" target="_blank" rel="noopener noreferrer" class="reader-link">NewsBlur</a>,
+        </a
+        >, <a href="https://www.newsblur.com/" target="_blank" rel="noopener noreferrer" class="reader-link">NewsBlur</a
+        >,
         <a href="https://netnewswire.com/" target="_blank" rel="noopener noreferrer" class="reader-link">
           NetNewsWire
-        </a>, and
+        </a
+        >, and
         <a href="https://www.freshrss.org/" target="_blank" rel="noopener noreferrer" class="reader-link">FreshRSS</a>.
       </p>
       <p class="text-sm text-chicago-600 mb-6">
@@ -291,88 +293,91 @@ const jsonCount = feedEntries.filter((feed) => feed.formatExt === 'json').length
     </section>
 
     <section class="space-y-8">
-      {
-        regionGroups.map((regionGroup) => (
-          <section class="region-group">
-            <header class="region-header">
-              <h2 class="region-title">{regionGroup.label}</h2>
-              <p class="region-description">{regionGroup.description}</p>
-            </header>
+      {regionGroups.map((regionGroup) => <section class="region-group">
+        <header class="region-header">
+          <h2 class="region-title">{regionGroup.label}</h2>
+          <p class="region-description">{regionGroup.description}</p>
+        </header>
 
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-              {regionGroup.areas.map((group) => (
-                <article class="bg-white border border-ebony-clay-100 rounded-lg shadow-sm p-6">
-                  <header class="mb-4">
-                    <h3 class="text-xl font-semibold text-galaxy-dark">{group.areaLabel}</h3>
-                    <p class="text-sm text-chicago-600 mt-1">{group.areaDescription}</p>
-                  </header>
-                  <ul class="space-y-3">
-                    {group.feeds.map((feed) => (
-                      <li class="feed-item">
-                        <div class="min-w-0">
-                          <a href={feed.route} class="feed-link">
-                            <code>{feed.route}</code>
-                          </a>
-                          <p class="text-xs text-chicago-500 mt-1">{feed.mimeType}</p>
-                        </div>
-                        <div class="feed-actions">
-                          <button
-                            type="button"
-                            class="format-badge format-copy-btn"
-                            data-copy-url={feed.absoluteUrl}
-                            data-copy-label={feed.formatLabel}
-                            aria-label={`Copy ${feed.route} URL`}
-                            title="Click to copy feed URL"
-                          >
-                            {feed.formatExt === 'xml' && (
-                              <svg class="format-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                                <circle cx="6" cy="18" r="2" fill="currentColor" />
-                                <path
-                                  d="M4 10a10 10 0 0 1 10 10M4 4a16 16 0 0 1 16 16"
-                                  stroke="currentColor"
-                                  stroke-width="2"
-                                  stroke-linecap="round"
-                                />
-                              </svg>
-                            )}
-                            {feed.formatExt === 'atom' && (
-                              <svg class="format-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                                <circle cx="12" cy="12" r="1.7" fill="currentColor" />
-                                <ellipse cx="12" cy="12" rx="9" ry="3.5" stroke="currentColor" stroke-width="1.7" />
-                                <ellipse
-                                  cx="12"
-                                  cy="12"
-                                  rx="3.5"
-                                  ry="9"
-                                  stroke="currentColor"
-                                  stroke-width="1.7"
-                                  transform="rotate(45 12 12)"
-                                />
-                              </svg>
-                            )}
-                            {feed.formatExt === 'json' && (
-                              <svg class="format-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                                <path
-                                  d="M9 4H7a2 2 0 0 0-2 2v3a2 2 0 0 1-2 2 2 2 0 0 1 2 2v3a2 2 0 0 0 2 2h2M15 4h2a2 2 0 0 1 2 2v3a2 2 0 0 0 2 2 2 2 0 0 0-2 2v3a2 2 0 0 1-2 2h-2M11 8v8M13 8v8"
-                                  stroke="currentColor"
-                                  stroke-width="1.8"
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
-                                />
-                              </svg>
-                            )}
-                            <span class="format-copy-label">{feed.formatLabel}</span>
-                          </button>
-                        </div>
-                      </li>
-                    ))}
-                  </ul>
-                </article>
-              ))}
-            </div>
-          </section>
-        ))
-      }
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          {regionGroup.areas.map((group) => <article
+            class="bg-white border border-ebony-clay-100 rounded-lg shadow-sm p-6"
+          >
+            <header class="mb-4">
+              <h3 class="text-xl font-semibold text-galaxy-dark">{group.areaLabel}</h3>
+              <p class="text-sm text-chicago-600 mt-1">{group.areaDescription}</p>
+            </header>
+            <ul class="space-y-3">
+              {group.feeds.map((feed) => <li class="feed-item">
+                <div class="min-w-0">
+                  <a href={feed.route} class="feed-link">
+                    <code>{feed.route}</code>
+                  </a>
+                  <p class="text-xs text-chicago-500 mt-1">{feed.mimeType}</p>
+                </div>
+                <div class="feed-actions">
+                  <button
+                    type="button"
+                    class="format-badge format-copy-btn"
+                    data-copy-url={feed.absoluteUrl}
+                    data-copy-label={feed.formatLabel}
+                    aria-label={`Copy ${feed.route} URL`}
+                    title="Click to copy feed URL"
+                  >
+                    {feed.formatExt === 'xml' && <svg
+                      class="format-icon"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      aria-hidden="true"
+                    >
+                      <circle cx="6" cy="18" r="2" fill="currentColor" />
+                      <path
+                        d="M4 10a10 10 0 0 1 10 10M4 4a16 16 0 0 1 16 16"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      />
+                    </svg>}
+                    {feed.formatExt === 'atom' && <svg
+                      class="format-icon"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      aria-hidden="true"
+                    >
+                      <circle cx="12" cy="12" r="1.7" fill="currentColor" />
+                      <ellipse cx="12" cy="12" rx="9" ry="3.5" stroke="currentColor" stroke-width="1.7" />
+                      <ellipse
+                        cx="12"
+                        cy="12"
+                        rx="3.5"
+                        ry="9"
+                        stroke="currentColor"
+                        stroke-width="1.7"
+                        transform="rotate(45 12 12)"
+                      />
+                    </svg>}
+                    {feed.formatExt === 'json' && <svg
+                      class="format-icon"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      aria-hidden="true"
+                    >
+                      <path
+                        d="M9 4H7a2 2 0 0 0-2 2v3a2 2 0 0 1-2 2 2 2 0 0 1 2 2v3a2 2 0 0 0 2 2h2M15 4h2a2 2 0 0 1 2 2v3a2 2 0 0 0 2 2 2 2 0 0 0-2 2v3a2 2 0 0 1-2 2h-2M11 8v8M13 8v8"
+                        stroke="currentColor"
+                        stroke-width="1.8"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>}
+                    <span class="format-copy-label">{feed.formatLabel}</span>
+                  </button>
+                </div>
+              </li>)}
+            </ul>
+          </article>)}
+        </div>
+      </section>)}
     </section>
 
     <section class="bg-white border border-ebony-clay-100 rounded-lg shadow-sm px-8 py-6 mt-8">

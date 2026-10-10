@@ -69,8 +69,7 @@ const more = [
           <figure class="agl-path__visual">
             <div class="agl-term" aria-hidden="true">
               <div class="agl-term__bar"><span></span><span></span><span></span><em>claude</em></div>
-              <pre
-                class="agl-term__body"><span class="p">$</span> claude
+              <pre class="agl-term__body"><span class="p">$</span> claude
 <span class="p">&gt;</span> Upload both FASTQ files to a new history
   'run 12' and run FastQC.
   <span class="t">create_history</span> <span class="d">run 12 → history created</span>
@@ -99,17 +98,13 @@ const more = [
 
   <section class="agl-more" aria-label="More in this section">
     <ul class="agl-more__list">
-      {
-        more.map((m) => (
-          <li>
-            <a class="agl-tile" href={m.href} {...(m.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}>
-              <span class="agl-tile__bar" aria-hidden="true" />
-              <span class="agl-tile__title">{m.title}</span>
-              <span class="agl-tile__body">{m.body}</span>
-            </a>
-          </li>
-        ))
-      }
+      {more.map((m) => <li>
+        <a class="agl-tile" href={m.href} {...(m.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}>
+          <span class="agl-tile__bar" aria-hidden="true" />
+          <span class="agl-tile__title">{m.title}</span>
+          <span class="agl-tile__body">{m.body}</span>
+        </a>
+      </li>)}
     </ul>
   </section>
 </div>

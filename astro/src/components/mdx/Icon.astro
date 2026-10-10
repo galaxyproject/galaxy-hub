@@ -25,13 +25,11 @@ function applySvgProps(svgStr: string, sizeVal: number, cls?: string): string {
 }
 ---
 
-{
-  svg ? (
-    <span class="inline-icon" set:html={applySvgProps(svg, size, className)} />
-  ) : (
-    <span title={`Unknown icon: ${name}`} />
-  )
-}
+{svg ? (
+  <span class="inline-icon" set:html={applySvgProps(svg, size, className)} />
+) : (
+  <span title={`Unknown icon: ${name}`} />
+)}
 
 <style>
   .inline-icon {

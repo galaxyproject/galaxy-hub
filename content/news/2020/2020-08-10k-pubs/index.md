@@ -486,7 +486,7 @@ This trend doesn't show any sign of slowing down.
 
 ## UsePublic and UseMain
 
-Not all *[Methods](https://www.zotero.org/groups/1732893/galaxy/tags/%2BMethods)* papers say which Galaxy instance(s) they used.  But starting in 2013, papers that do mention this are also tagged with *[UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/%2BUseMain)*, *[UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BUsePublic)*, *[UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/%2BUseLocal)*, and/or *[UseCloud](https://www.zotero.org/groups/1732893/galaxy/tags/%2BUseCloud)* tags (see [Tags](#tags) below for an explanation of all tags).
+Not all *[Methods](https://www.zotero.org/groups/1732893/galaxy/tags/%2BMethods)* papers say which Galaxy instance(s) they used.  But starting in 2013, papers that do mention this are also tagged with *[UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/%2BUseMain)*, *[UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BUsePublic)*, *[UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/%2BUseLocal)*, and/or *[UseCloud](https://www.zotero.org/groups/1732893/galaxy/tags/%2BUseCloud)* tags (see [Tags](#more-on-tags) below for an explanation of all tags).
 
 **The relative number of *UseMain* and *UsePublic* pubs highlights the increasing availability of publicly accessible Galaxy platforms.**
 

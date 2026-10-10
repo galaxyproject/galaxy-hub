@@ -12,8 +12,8 @@ subsites: [all-eu, global, us]
 The *June 2019 Galactic News* is here! This is a summary of what is going on in the Galaxy community.
 
 * **[GCC2019](/news/2019-06-galaxy-update/#gcc2019-1-8-july-freiburg-germany):**
-    * **[Advance registration ends 7 June](/news/2019-06-galaxy-update/#advance-registration-ends-7-june-this-friday)**
-    * **[Poster and Demo Abstract Submission deadline: 10 June](/news/2019-06-galaxy-update/#poster-demo-abstract-submission-deadline-10-june)**
+    * **[Advance registration ends 7 June](/news/2019-06-galaxy-update/#advance-registration-ends-7-june---this-friday)**
+    * **[Poster and Demo Abstract Submission deadline: 10 June](/news/2019-06-galaxy-update/#poster--demo-abstract-submission-deadline-10-june)**
     * [Conference schedule is online](/news/2019-06-galaxy-update/#conference-schedule-is-online)
 * Plus [13 other upcoming events](/news/2019-06-galaxy-update/#upcoming-events) in the next 90 days
 * [150 new publications](/news/2019-06-galaxy-update/#publications), great resources lead to great insight.
