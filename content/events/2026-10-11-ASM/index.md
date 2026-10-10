@@ -24,13 +24,13 @@ Galaxy is heading to [ASM BIG 2026](https://asm.org/events/asm-big/home) — the
 
 # Invited Talk
 
-[Mike Schatz](https://engineering.jhu.edu/faculty/michael-schatz/) (Johns Hopkins University) will give an invited talk on behalf of the Galaxy community.
+[Mike Schatz](https://engineering.jhu.edu/faculty/michael-schatz/) (Johns Hopkins University) from the Galaxy community will give an invited talk.
 
 # Find Galaxy All Week
 
 Members of the Galaxy team will be at the meeting for its full duration with a table where anyone can stop by to chat, ask questions, grab some candy, or just say hi. Topics we're happy to talk about include:
 
-- **[BRC-Analytics](/projects/brc/)** — analysis tools and genomic annotations for pathogen, host, and vector data, built on the legacy of VEuPathDb
+- **[BRC-Analytics](/projects/brc/)** — analysis tools and genomic annotations for pathogen, host, and vector data
 - **[Orbit](/agents/orbit/)** — Galaxy's AI research harness that lets you converse about your data, draft and run analysis plans, and route steps to Galaxy
 - **[User Defined Tools](https://docs.galaxyproject.org/en/master/admin/user_defined_tools.html)** (currently in beta) — write and run your own simple tools directly from the Galaxy interface, no server access or admin installation required. [Contact us for access](mailto:outreach@galaxyproject.org)
 - **[Workflows (IWC)](https://iwc.galaxyproject.org/)** — the Intergalactic Workflow Commission's library of open, peer-reviewed workflows for reproducible science
