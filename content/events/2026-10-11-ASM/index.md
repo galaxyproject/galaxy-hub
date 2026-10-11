@@ -35,10 +35,19 @@ Members of the Galaxy team will be at the meeting for its full duration with a t
 - **[User Defined Tools](https://docs.galaxyproject.org/en/master/admin/user_defined_tools.html)** (currently in beta) — write and run your own simple tools directly from the Galaxy interface, no server access or admin installation required. [Contact us for access](mailto:outreach@galaxyproject.org)
 - **[Workflows (IWC)](https://iwc.galaxyproject.org/)** — the Intergalactic Workflow Commission's library of open, peer-reviewed workflows for reproducible science
 - **High Performance Computing** — compute provided to [usegalaxy.org](https://usegalaxy.org) via [Jetstream2](/cloud/jetstream/) and [TACC](https://tacc.utexas.edu/)
+- **Petabase-scale sequence search** — Logan, kmindex, and LexicMap, all runnable in Galaxy (see below)
 - **Reproducible computational biology**
 - **Free access** — Galaxy is free to use for everyone
 
 Come find us to learn more about how Galaxy can support your microbial genomics and bioinformatics work.
+
+# Searching All of Public Sequencing Data
+
+Ask us about the new generation of tools that make the world's public sequencing data searchable — all three are available as tools on [usegalaxy.org](https://usegalaxy.org):
+
+- **[Logan](https://registry.opendata.aws/pasteur-logan/)** — a planetary-scale assembly of the entire NCBI Sequence Read Archive: 27 million accessions (44 petabases of raw reads) assembled into freely downloadable contigs and unitigs on AWS Open Data ([Chikhi *et al.*, bioRxiv](https://doi.org/10.1101/2024.07.30.605881)). Explore it with [Logan Search](https://logan-search.org), hear the story in our [GCC2026 keynote recap](/news/2026-07-06-gcc2026-recap/), or run the [Logan protein search](https://usegalaxy.org/root?tool_id=logan_protein_search_database) tool in Galaxy.
+- **[kmindex](https://github.com/tlemane/kmindex)** — k-mer indexing that answers "which samples contain my sequence?" across terabyte-scale collections in fractions of a second; it is the engine behind Logan Search ([Lemane *et al.*, Nature Computational Science 2024](https://www.nature.com/articles/s43588-024-00596-6)). In Galaxy: [kmindex build](https://usegalaxy.org/root?tool_id=kmindex_build) and [kmindex query](https://usegalaxy.org/root?tool_id=kmindex_query).
+- **[LexicMap](https://bioinf.shenwei.me/LexicMap/)** — efficient alignment of a gene, plasmid, or long read against millions of prokaryotic genomes, including all of [AllTheBacteria](https://allthebacteria.org/) ([Shen, Lees & Iqbal, Nature Biotechnology 2025](https://www.nature.com/articles/s41587-025-02812-8)). In Galaxy: [LexicMap index](https://usegalaxy.org/root?tool_id=lexicmap_index) and [LexicMap search](https://usegalaxy.org/root?tool_id=lexicmap_search) — with BRC-Analytics integration [in the works](https://github.com/galaxyproject/brc-analytics/issues/1151).
 
 # Flyer Resources
 
