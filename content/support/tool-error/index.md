@@ -9,7 +9,7 @@ Related topics
 * [Getting Inputs Right](/support/#getting-inputs-right)
 * [Extended Help for Differential Expression Analysis Tools](/support/diff-expression/)
 * [Reporting Usage Issues or Software bugs](/issues/)
-* [Choices](/use/#which-platform-platform-type-to-choose)
+* [Choices](/use/)
 * [Ecosystem](https://galaxyproject.github.io/)
 * [Galaxy Help](https://help.galaxyproject.org/)
 * [Search all Prior `Q&A` and Galaxy Resources](https://galaxyproject.org/search/)

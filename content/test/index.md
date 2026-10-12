@@ -14,7 +14,7 @@ The [Learn](/learn/) pages include information on how to use Test, Main, and mos
 * [Datasets](/learn/managing-datasets/)
 * [Disk Quotas](/admin/disk-quotas/)
 
-See [Choices](/use/#which-platform-platform-type-to-choose) for more on other choices for using and running Galaxy.
+See [Choices](/use/) for more on other choices for using and running Galaxy.
 
 ## Job resubmission to Stampede
 

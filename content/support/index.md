@@ -7,7 +7,7 @@ title: Galaxy Support
 ## Quick Start
 
 * [Learn & Teach with Galaxy](/learn/)
-* [Using Galaxy Choices](/use/#which-platform--platform-type-to-choose)
+* [Using Galaxy Choices](/use/)
 
 ## Help Resources
 
