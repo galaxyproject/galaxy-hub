@@ -32,8 +32,9 @@ This project was focused on the discussion with different communities and two ne
 
 In this project, some improvements on the RO-Crate-py [(Pull Request)](https://github.com/ResearchObject/ro-crate-py/pull/37) and gxformat2 libraries were made [(Pull Request)](https://github.com/galaxyproject/gxformat2/pull/50). In addition, two versions of ro-crate-py were released: [0.2.2](https://github.com/ResearchObject/ro-crate-py/releases/tag/0.2.2) and [0.2.3](https://github.com/ResearchObject/ro-crate-py/releases/tag/0.2.3).
 
- {% twitter https://twitter.com/lrodrin/status/1327928238308536320 %}
+<img src="./tweet-1327928238308536320.webp" alt="Post by Laura Rodríguez-Navas🎗🏳️‍🌈 (@lrodrin): &quot;Exporting rich metadata and provenance from #Galaxy using #ROCrate packaging&quot;" width="550" height="451" />
 
+*Post by @lrodrin on 15 November 2020*
 
 ### [Improve the support of Common Workflow Language in Galaxy](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/17)
 
@@ -57,5 +58,6 @@ All the information related to this project can be found in [this repository](ht
 
 Mutual metadata exchange among different bio.tools registries is the ultimate goal of this project. While a lot has been achieved, the development is still ongoing and will be continued. The corresponding GitHub repo: https://github.com/bio-tools/content
 
+<img src="./tweet-1327366734085582853.webp" alt="Post by Beatriz Serrano (@Birthae): End of the #BioHackEU20! Thanks #UseGalaxy community for your great contributions to many projects and thanks to the organisers! We had some fun recording our feedback video @NicolaSoranzo @tatieguinoa @mariusvdbeek @bjoerngruening" width="550" height="800" />
 
-{% twitter https://twitter.com/Birthae/status/1327366734085582853?s=20 %}
+*Post by @Birthae on 13 November 2020*

@@ -14,5 +14,3 @@ CLIP-Seq answers questions about the functional role of an RNA-binding protein a
 CLIP-Explorer is a flexible and reproducible data analysis pipeline for iCLIP data that supports for the first time eCLIP, FLASH, and uvCLAP data. Individual steps like peak calling can be changed to adapt to different experimental settings. We validate CLIP-Explorer on eCLIP data, finding similar or nearly identical motifs for various proteins in comparison with other databases. In addition, we detect new sequence motifs for PTBP1 and U2AF2. Finally, we optimize the peak calling with 3 different peak callers on RBFOX2 data, discuss the difficulty of the peak-calling step, and give advice for different experimental set-ups.
 
 CLIP-Explorer finally fills the demand for a flexible CLIP-Seq data analysis pipeline that is applicable to the up-to-date CLIP protocols. The article further shows the limitations of current peak-calling algorithms and the importance of a robust peak detection.
-
-{% twitter https://twitter.com/GigaScience/status/1339561427552534532 %}
