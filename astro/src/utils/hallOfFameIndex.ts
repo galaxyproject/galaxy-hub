@@ -1,6 +1,7 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
 import {
   communityInHubHallOfFame,
+  communityNameInHubHallOfFame,
   communitySlug,
   extractAuthors,
   extractFunding,
@@ -116,13 +117,13 @@ export async function getContributionIndex(): Promise<Map<string, ContributionPr
       const { authors, supporters } = normalizeCandidates(entry);
       authors.forEach((name) => {
         const slug = communitySlug(name);
-        if (slug) {
+        if (slug && communityNameInHubHallOfFame(name)) {
           addContribution(index, slug, kind, entry, getCommunityDisplay(name) || name, 'author');
         }
       });
       supporters.forEach((name) => {
         const slug = communitySlug(name);
-        if (slug) {
+        if (slug && communityNameInHubHallOfFame(name)) {
           addContribution(index, slug, kind, entry, getCommunityDisplay(name) || name, 'supporter');
         }
       });

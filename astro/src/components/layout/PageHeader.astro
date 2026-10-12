@@ -6,6 +6,7 @@
  */
 
 import { formatDate } from '../../utils/dateUtils';
+import { getHubHallOfFameUrl } from '../../utils/contributors';
 
 interface Props {
   title: string;
@@ -19,15 +20,6 @@ interface Props {
 const { title, description, eyebrow, date, authors: authorsRaw = [], tags: tagsRaw = [] } = Astro.props;
 const eyebrowData = typeof eyebrow === 'string' ? { label: eyebrow } : eyebrow;
 
-// Helpers
-function slugify(value: string): string {
-  const normalized = String(value).trim().replace(/^@/, '');
-  return normalized
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '');
-}
-
 // Ensure arrays are never null
 const authors = authorsRaw || [];
 const tags = tagsRaw || [];
@@ -36,13 +28,13 @@ const normalizedAuthors = authors
   .map((author) => {
     if (!author) return null;
     if (typeof author === 'string') {
-      return { label: author, slug: slugify(author) };
+      return { label: author, href: getHubHallOfFameUrl(author) };
     }
     const label = author.name || '';
-    const slug = author.id ? slugify(author.id) : slugify(label);
-    return { label, slug };
+    const href = getHubHallOfFameUrl(author.id || label);
+    return { label, href };
   })
-  .filter(Boolean) as Array<{ label: string; slug: string }>;
+  .filter(Boolean) as Array<{ label: string; href?: string }>;
 
 // Helper to ensure date is a Date object
 function toDate(d: Date | string | undefined): Date | null {
@@ -98,11 +90,12 @@ const formattedDate = formatDate(date, false);
         </svg>
         <span class="flex flex-wrap gap-1.5">
           {normalizedAuthors.map((author, idx) => {
-            const href = author.slug ? `/hall-of-fame/${author.slug}/` : '#';
-            return <a href={href} class="underline decoration-white/40 hover:decoration-galaxy-gold">
-              {author.label}
-              {idx < normalizedAuthors.length - 1 ? ',' : ''}
-            </a>;
+            const label = <>{author.label}{idx < normalizedAuthors.length - 1 ? ',' : ''}</>;
+            return author.href ? (
+              <a href={author.href} class="underline decoration-white/40 hover:decoration-galaxy-gold">{label}</a>
+            ) : (
+              <span>{label}</span>
+            );
           })}
         </span>
       </div>}

@@ -1,6 +1,7 @@
 import { getCollection } from 'astro:content';
 import {
   communityInHubHallOfFame,
+  communityNameInHubHallOfFame,
   communitySlug,
   extractAuthors,
   extractFunding,
@@ -16,7 +17,7 @@ export async function getHallOfFameSlugs(): Promise<Set<string>> {
   const add = (value: string | undefined) => {
     if (!value) return;
     const slug = communitySlug(value);
-    if (slug) slugs.add(slug);
+    if (slug && communityNameInHubHallOfFame(value)) slugs.add(slug);
   };
 
   const collect = (values: string[]) => values.forEach(add);
