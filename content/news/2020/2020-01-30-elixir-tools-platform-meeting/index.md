@@ -31,9 +31,11 @@ Thanks to Jen Harrow and Hervé Menager for organising this great productive eve
 
 If you are interested in any of the mentioned projects or if you would like to see your use-cases covered, please get in contact :)
 
+<img src="./tweet-1222114903172972544.webp" alt="Post by ELIXIR Europe (@ELIXIREurope): The #ELIXIR Tools Platform are meeting this week in Paris &amp; working hard to improve discoverability, quality &amp; sustainability of #bioinformatics tools - discussions on the future of the tools ecosystem, #softwaremgmt plan, @bio_dot_tools &amp; @OpenEBench!" width="550" height="720" />
 
-{% twitter https://twitter.com/ELIXIREurope/status/1222114903172972544 %}
+*Post by @ELIXIREurope on 28 January 2020*
 
-{% twitter https://twitter.com/rvmngr/status/1222979751503179776 %}
+<img src="./tweet-1222979751503179776.webp" alt="Post by Hervé Ménager (@rvmngr): Very productive hackathon today with many @ELIXIREurope members working on Tools metadata exchange. Thank you for coming D Repchevski, @JMFernand3z, J Ison, @alban_gaignard, @bjoerngruening, G Tartari, @HansIenasescu, @matuskalas !" width="550" height="665" />
 
+*Post by @rvmngr on 30 January 2020*
 

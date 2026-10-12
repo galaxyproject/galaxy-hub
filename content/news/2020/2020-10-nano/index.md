@@ -20,4 +20,7 @@ The Galaxy platform provides a user-friendly interface to computational command 
 A range of best-practice tools and workflows for long-read sequence genome assembly has been integrated into a NanoGalaxy platform to facilitate easy access and use of bioinformatics tools for researchers. NanoGalaxy is freely available at the European Galaxy server https://nanopore.usegalaxy.eu with supporting self-learning training material available at https://training.galaxyproject.org.
 
 <br />
-{% twitter https://twitter.com/MiladMiladi_/status/1318645556751859712 %}
+
+<img src="./tweet-1318645556751859712.webp" alt="Post by Milad Miladi (@MiladMiladi_): NanoGalaxy: Nanopore long-read sequencing data analysis in Galaxy. Our work on bridging @nanopore and @galaxyproject, the two accessibility heavens of sequencing &amp; data analysis, is now published: https://doi.org/10.1093/gigascience/giaa105 … @WanderingWim @shiltemann @bjoerngruening @mariusvdbeek" width="550" height="680" />
+
+*Post by @MiladMiladi_ on 20 October 2020*
