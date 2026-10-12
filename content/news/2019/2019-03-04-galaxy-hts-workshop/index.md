@@ -30,5 +30,3 @@ The feedback we received is good: all but one of the participants though it was 
 
 We also had during this week special guests, as part of cooperation with the [Center of Cognitive Science](https://portal.uni-freiburg.de/cognition) at the [University of Freiburg](http://www.uni-freiburg.de/?set_language=en). They are conducting an usability evaluation of Galaxy and used this workshop to evaluate how new users use Galaxy.
 
-{% twitter https://twitter.com/i/moments/1102590890902806529 %}
-
