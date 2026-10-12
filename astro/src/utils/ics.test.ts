@@ -32,6 +32,11 @@ describe('escapeICS', () => {
     expect(escapeICS('a\rb')).toBe('a\\nb');
     expect(escapeICS('a\r\n\r\nb')).toBe('a\\n\\nb');
   });
+
+  it('drops control characters but keeps tabs', () => {
+    expect(escapeICS('a\x00b\x07c\x0Bd\x0Ce\x1Ff\x7Fg')).toBe('abcdefg');
+    expect(escapeICS('a\tb')).toBe('a\tb');
+  });
 });
 
 describe('formatICSURI', () => {
@@ -44,6 +49,10 @@ describe('formatICSURI', () => {
   it('removes CR and LF so the URI cannot end the property', () => {
     expect(formatICSURI(`${base}a\r\nUID:x/`)).toBe(`${base}aUID:x/`);
     expect(formatICSURI(`${base}a\rb\nc/`)).toBe(`${base}abc/`);
+  });
+
+  it('drops other control characters', () => {
+    expect(formatICSURI(`${base}a\x00b\x0Bc\x7Fd/`)).toBe(`${base}abcd/`);
   });
 });
 

@@ -16,19 +16,24 @@ export function getICSEndDate(start: Date, end: Date | null): Date {
   return new Date((end || start).getTime() + 24 * 60 * 60 * 1000);
 }
 
+// C0 controls except HTAB and LF (RFC 5545 3.3.11 forbids them in values); run after CR normalisation
+// eslint-disable-next-line no-control-regex -- matching control characters is the point
+const CONTROL_CHARS = /[\x00-\x08\x0B-\x1F\x7F]/g;
+
 // Escape a TEXT value (RFC 5545 3.3.11); CRLF and bare CR become one escaped newline
 export function escapeICS(text: string): string {
   return text
     .replace(/\r\n?/g, '\n')
+    .replace(CONTROL_CHARS, '')
     .replace(/\\/g, '\\\\')
     .replace(/;/g, '\\;')
     .replace(/,/g, '\\,')
     .replace(/\n/g, '\\n');
 }
 
-// URI values (RFC 5545 3.3.13) take no backslash escaping; drop CR and LF so they cannot end the property
+// URI values (RFC 5545 3.3.13) take no backslash escaping; drop CR, LF and other control characters so they cannot end the property
 export function formatICSURI(uri: string): string {
-  return uri.replace(/[\r\n]/g, '');
+  return uri.replace(/[\r\n]/g, '').replace(CONTROL_CHARS, '');
 }
 
 const encoder = new TextEncoder();
