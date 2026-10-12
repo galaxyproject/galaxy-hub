@@ -74,7 +74,7 @@ export async function GET(context: APIContext) {
 
   icsContent.push('END:VCALENDAR');
 
-  return new Response(icsContent.join('\r\n'), {
+  return new Response(icsContent.join('\r\n') + '\r\n', {
     headers: {
       'Content-Type': 'text/calendar; charset=utf-8',
       'Content-Disposition': 'attachment; filename="galaxy-europe-events.ics"',
