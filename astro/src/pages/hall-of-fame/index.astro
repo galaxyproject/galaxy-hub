@@ -2,7 +2,8 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHeader from '../../components/layout/PageHeader.astro';
 import { getCollection, type CollectionEntry } from 'astro:content';
-import { communitySlug, extractAuthors, extractFunding, getCommunityDisplay } from '../../utils/contributors';
+import { extractAuthors, extractFunding } from '../../utils/contributors';
+import { addDirectoryContributor, type DirectoryContributor } from '../../utils/hallOfFameDirectory';
 
 type NewsEntry = CollectionEntry<'news'>;
 type EventEntry = CollectionEntry<'events'>;
@@ -14,27 +15,15 @@ function normalizeEntry(entry: NewsEntry | EventEntry): { authors: string[]; sup
   return { authors, supporters };
 }
 
-type Contributor = { slug: string; name: string; count: number };
-
-function addContributor(map: Map<string, Contributor>, id: string, label?: string) {
-  const slug = communitySlug(id);
-  if (!slug) return;
-  const name = label || id;
-  const existing = map.get(slug) || { slug, name, count: 0 };
-  if (!existing.name && name) existing.name = name;
-  existing.count += 1;
-  map.set(slug, existing);
-}
-
 const [newsArticles, events] = await Promise.all([getCollection('news'), getCollection('events')]);
 
-const authorMap = new Map<string, Contributor>();
-const supporterMap = new Map<string, Contributor>();
+const authorMap = new Map<string, DirectoryContributor>();
+const supporterMap = new Map<string, DirectoryContributor>();
 
 const collect = (entry: NewsEntry | EventEntry) => {
   const { authors, supporters } = normalizeEntry(entry);
-  authors.forEach((id) => addContributor(authorMap, id, getCommunityDisplay(id) || id));
-  supporters.forEach((id) => addContributor(supporterMap, id, getCommunityDisplay(id) || id));
+  authors.forEach((id) => addDirectoryContributor(authorMap, id));
+  supporters.forEach((id) => addDirectoryContributor(supporterMap, id));
 };
 
 newsArticles.forEach(collect);
@@ -48,8 +37,8 @@ const totalSupporters = supporters.length;
 const totalContributions =
   authors.reduce((sum, a) => sum + a.count, 0) + supporters.reduce((sum, s) => sum + s.count, 0);
 
-function groupContributors(items: Contributor[]) {
-  const groups: Record<string, Contributor[]> = {};
+function groupContributors(items: DirectoryContributor[]) {
+  const groups: Record<string, DirectoryContributor[]> = {};
   for (const item of items) {
     const firstChar = (item.name || '').charAt(0).toUpperCase();
     const letter = /^[A-Z]$/.test(firstChar) ? firstChar : 'Other';
