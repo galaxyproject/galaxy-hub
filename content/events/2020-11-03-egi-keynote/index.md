@@ -23,4 +23,6 @@ Björn Grüning will be a **keynote speaker at the [EGI Conference 2020](https:/
 
 <br />
 
-{% twitter https://twitter.com/EGI_eInfra/status/1318866981744005124 %}
+<img src="./tweet-1318866981744005124.webp" alt="Post by EGI (@EGI_eInfra): Björn Grüning, Head of Freiburg Galaxy Team at the University of Freiburg - will talk about the European Galaxy Server on 3 Nov during our #EGI2020 virtual event. More info on http://go.egi.eu/egi2020-speakers … The full programme will be announced shortly! @FutureTechEU" width="550" height="760" />
+
+*Post by @EGI_eInfra on 21 October 2020*

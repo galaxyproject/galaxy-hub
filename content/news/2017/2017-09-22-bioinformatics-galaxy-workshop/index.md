@@ -10,7 +10,9 @@ main_subsite: freiburg
 
 After 5 days, our HTS Galaxy workshop in Freiburg is over.
 
-{% twitter https://twitter.com/bjoerngruening/status/911155897824661505 %}
+<img src="./tweet-911155897824661505.webp" alt="Post by Björn Grüning (@bjoerngruening): Final day of our #usegalaxy workshop at @UniFreiburg." width="550" height="561" />
+
+*Post by @bjoerngruening on 22 September 2017*
 
 During this workshop, attendees learned:
 

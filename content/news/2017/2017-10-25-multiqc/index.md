@@ -8,7 +8,9 @@ main_subsite: freiburg
 
 [MultiQC](https://multiqc.info/) is a tool that aggregate results from bioinformatics analyses across many samples into a single report. It is really a great and useful tool!
 
-{% twitter https://twitter.com/bebatut/status/922774572923006977 %}
+<img src="./tweet-922774572923006977.webp" alt="Post by Bérénice Batut (@bebatut): MultiQC from @tallphil is available in #usegalaxy via IUC. Thanks to @Yvan2935 and EnginesOn!" width="550" height="226" />
+
+*Post by @bebatut on 24 October 2017*
 
 A first integration of this tools into Galaxy was available thanks to Yvan Le Bras and EnginesOn.
 However, since this first version of MultiQC support for more tools was added. 
