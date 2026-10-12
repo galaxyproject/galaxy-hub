@@ -19,8 +19,9 @@ You can choose between many different training sessions along the week ranging f
 
 A total of __1080 participants__ from all over the world will be following the course:
 
+<img src="./tweet-1360227461724835842.webp" alt="Post by Gallantries (@Gallantries_EU): Gallantries&#x27; &amp; @gxytraining&#x27;s #GTNSmörgåsbord has just reached 1000 participants We&#x27;re so excited to meet everyone Monday for a week of exploring the @galaxyproject of life-sciences training. Supported by #UseGalaxy #ErasmusPlus #internationality" width="550" height="725" />
 
-{%twitter https://twitter.com/Gallantries_EU/status/1360227461724835842?s=20%}
+*Post by @Gallantries_EU on 12 February 2021*
 
 <br />
 

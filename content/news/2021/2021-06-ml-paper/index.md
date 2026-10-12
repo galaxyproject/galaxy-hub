@@ -26,4 +26,6 @@ Deep learning workflows:
 
 All the machine learning and deep learning tools available in Galaxy-ML is available on https://usegalaxy.eu/ and there are several training materials on the GTN (https://training.galaxyproject.org/training-material/topics/statistics/) to start learning these tools. Happy using Machine Learning!
 
-{% twitter https://twitter.com/bjoerngruening/status/1400051388441403392 %}
+<img src="./tweet-1400051388441403392.webp" alt="Post by Björn Grüning (@bjoerngruening): Machine learning in #usegalaxy! Our new paper is out titled: &quot;An accessible, reproducible, and scalable machine learning toolkit for biomedicine&quot; Thanks to @qianggu99, @musafirtweetsz, and the team for spinning this up." width="550" height="427" />
+
+*Post by @bjoerngruening on 2 June 2021*

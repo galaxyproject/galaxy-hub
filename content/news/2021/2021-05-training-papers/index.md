@@ -16,14 +16,18 @@ Two hand-in-hand teaching papers have been published this week using Galaxy as a
 The [first manuscript](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008922), a review, sets the ground for bioinformatics teaching during the lockdown, proposing constructivism as an appropriate methodology for students to learn in an online context.
 <br />
 
-{% twitter https://twitter.com/gxytraining/status/1393101522704101377 %}
+<img src="./tweet-1393101522704101377.webp" alt="Post by Galaxy Training Network (@gxytraining): A constructivist-based proposal for bioinformatics teaching practices during lockdown, by @Parquedemalaga @bjoerngruening &amp; @Birthae in @PLOSCompBiol https://doi.org/10.1371/journal.pcbi.1008922 … #UseGalaxy" width="550" height="715" />
+
+*Post by @gxytraining on 14 May 2021*
 
 <br />
 The [second manuscript](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008923#sec003) describes how Galaxy can facilitate online teaching using the Galaxy Training Network materials, Training Infrastructure as a Service and many features such as data, history and workflow sharing, with a concrete proposed format to make the most of your training events.
 
 <br />
 
-{% twitter https://twitter.com/gxytraining/status/1393104039236317188 %}
+<img src="./tweet-1393104039236317188.webp" alt="Post by Galaxy Training Network (@gxytraining): Fostering accessible online education using Galaxy as an e-learning platform, by @birthae et al in @PLOSCompBiol https://doi.org/10.1371/journal.pcbi.1008923 … #UseGalaxy" width="550" height="634" />
+
+*Post by @gxytraining on 14 May 2021*
 
 <br />
 

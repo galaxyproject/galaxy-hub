@@ -20,5 +20,8 @@ __Conclusion__
 ChiRA tool suite provides a complete analysis and visualization framework along with ready-to-use Galaxy workflows and tutorials for RNA-RNA interactome and structurome datasets. Common read loci built by ChiRA can rescue multi-mapped reads on paralogous genes without requiring any information on gene relations. We showed that ChiRA is sensitive in detecting new RNA-RNA interactions from published RNA-RNA interactome datasets.
 
 <br />
-{% twitter https://twitter.com/GigaScience/status/1368137547788980224?s=20 %}
+
+<img src="./tweet-1368137547788980224.webp" alt="Post by GigaScience (@GigaScience): A new #usegalaxy tool suite from @BackofenLab for chimeric RNAs associated with specific cancer types. ChiRA: an integrated framework for chimeric read analysis from RNA-RNA interactome and RNA structurome data https://doi.org/10.1093/gigascience/giaa158 …" width="550" height="919" />
+
+*Post by @GigaScience on 6 March 2021*
 

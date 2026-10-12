@@ -22,4 +22,7 @@ To get the latest information, please [subscribe to the mailing list](https://li
 or join the [metabolomics Matrix channel](https://matrix.to/#/#usegalaxy-eu_metabolomics:gitter.im). 
 
 <br />
-{% twitter https://twitter.com/bjoerngruening/status/1355060367215489024%}
+
+<img src="./tweet-1355060367215489024.webp" alt="Post by Björn Grüning (@bjoerngruening): The #usegalaxy #metabolomics Mini-Symposium is ready to start. @MCFoell and @Birthae will kickoff the meeting in 10min!" width="550" height="537" />
+
+*Post by @bjoerngruening on 29 January 2021*

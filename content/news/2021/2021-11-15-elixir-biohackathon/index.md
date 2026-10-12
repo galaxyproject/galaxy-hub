@@ -7,7 +7,6 @@ hide_tease: true
 tags: [training, hackathon]
 subsites: [eu, freiburg]
 main_subsite: freiburg
-components: true
 contributions:
   authorship:
     - bgruening
@@ -32,10 +31,13 @@ The ELIXIR Research Data Management Kit ([RDMkit](https://rdmkit.elixir-europe.o
 
 The Galaxy Training Network had a project to work further on the GTN infrastructure and trainings. For example, the GTN got a cool [new API](https://training.galaxyproject.org/training-material/news/2021/11/10/api.html), the [Video Library](https://training.galaxyproject.org/training-material/news/2021/11/23/video-library.html) and the [GTN course builder](https://www.youtube.com/watch?v=a3FJiaCA8Kc) was developed.
 
-<Twitter tweet="1457730321940721671"></Twitter>
+<img src="./tweet-1457730321940721671.webp" alt="Post by Fotis E. Psomopoulos (@fopsom): Wanna know what comes out of merging @thecarpentries and @gxytraining? Join the @Gallantries_EU Project 10 at the @ELIXIREurope #BioHackEU21 and help us develop new modules! @bebatut @shiltemann @hexylena" width="550" height="718" />
 
-<Twitter tweet="1458844030616358918"></Twitter>
+*Post by @fopsom on 8 November 2021*
 
+<img src="./tweet-1458844030616358918.webp" alt="Post by Gallantries (@Gallantries_EU): Bringing the rerunable/reusable/reproducibility of @galaxyproject to @gxytraining! The Gallantries &amp; @hexylena built a brand new Course builder at @ELIXIREurope #BioHackEU21 to help make giving online workshops easier than ever! Select the content, we build the website!" width="550" height="744" />
+
+*Post by @Gallantries_EU on 11 November 2021*
 
 ### [Implementation, testing and training on reference genome assembly pipelines for the eukaryotic tree of life](https://github.com/elixir-europe/bioHackathon-projects-2021/tree/master/projects/33)
 
@@ -43,7 +45,9 @@ The [VGP](https://vertebrategenomesproject.org) an [ERGA](https://www.erga-biodi
 workflows, the Galaxy assembly and genome annotation tools and to start the [first documentation and training material](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/vgp_genome_assembly/tutorial.html).
 Please also check out [assembly.usegalaxy.eu](https://assembly.usegalaxy.eu) if you are interested in genome assembly.
 
-<Twitter tweet="1459142503848890373"></Twitter>
+<img src="./tweet-1459142503848890373.webp" alt="Post by Nadège Guiglielmoni (@NGuiglielmoni): Last day at #BioHackEU21 and final report for project 33. We spent an intense week with members of @erga_biodiv working on the VGP/ERGA genome assembly pipeline on Galaxy. Now let&#x27;s assemble! With @giulio_formenti @gargsh1 @mazzonijc @PalmadaMarc et al." width="550" height="708" />
+
+*Post by @NGuiglielmoni on 12 November 2021*
 
 ### [Galaxy training resources for CNVs detection software](https://github.com/elixir-europe/bioHackathon-projects-2021/tree/master/projects/34)
 
@@ -54,10 +58,7 @@ discussed extensively how to move forward and integate Beacon into the data flow
 
 This effort is a continuation of the work from the BioHackathon in 2018, 2019, 2020 and 2021. It is adding support for a large subset of CWL [v1.0.2](https://www.commonwl.org/v1.0/), [v1.1](https://www.commonwl.org/v1.1/) and [v1.2](https://www.commonwl.org/v1.2/). The results can be found in a [WIP-PR](https://github.com/galaxyproject/galaxy/pull/12909).
 
+<img src="./tweet-1459095073015144476.webp" alt="Post by Galaxy Project (@galaxyproject): The #BioHackEU21 is coming to an end and we had a great time collaborating together! Thanks to the #UseGalaxy community members that joined the event virtual and in-person" width="550" height="614" />
 
-<Twitter tweet="1459121222277554178"></Twitter>
-
-<Twitter tweet="1459095073015144476"></Twitter>
-
-
+*Post by @galaxyproject on 12 November 2021*
 

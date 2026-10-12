@@ -18,7 +18,7 @@ Galaxy is part of the ecosystem in this project and will contribute towards repr
 
 Check out the [press release](https://inbe-login.bsc.es/www/docs/20210309_HealthyCloud-PR.pdf) for more details.
 
+<img src="./tweet-1369249276941963269.webp" alt="Post by HealthyCloudEU (@HealthyCloudEU): #HealthyCloud will define the Strategic Agenda for the #European #Health #Research and #Innovation #Cloud More info in our press release: https://bit.ly/3bu1xuk @CRGenomica @CSCfi @denbiOffice @LUMC_Leiden @uni_lu @saludand @embl" width="550" height="745" />
 
-{% twitter https://twitter.com/HealthyCloudEU/status/1369249276941963269 %} 
-
+*Post by @HealthyCloudEU on 9 March 2021*
 

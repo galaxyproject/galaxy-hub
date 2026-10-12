@@ -13,7 +13,9 @@ contributions:
 <br />
 After two intense weeks of training, conference and collaboration fest, the [__Galaxy Community Conference 2021 (GCC2021)__](https://www.vibconferences.be/events/gcc2021-virtual-edition) has come to an end. This has been the second virtual GCC since the pandemic started and it has featured a week of training, a three-day conference and a two-day CoFest. In total, __399 participants from 55 countries__ attended any of these events.
 
-{% twitter https://twitter.com/tnabtaf/status/1413972089753673731 %}
+<img src="./tweet-1413972089753673731.webp" alt="Post by Dave Clements (@tnabtaf): Hi All, as the GCC2021 CoFest winds down, I would like to announce the audited participant counts for GCC2021: ⇨ 45 Training, Admin Track ⇨ 219 CoFest ⇨ 226 Training, Science/Dev tracks ⇨ 285 Meeting ⇨ 399 Total participants Pretty good. :-) #UseGalaxy" width="550" height="800" />
+
+*Post by @tnabtaf on 10 July 2021*
 
 <br />
 
@@ -58,7 +60,10 @@ All the recordings are available, with captions in the [Galaxy Project YouTube c
 
 Besides the talks and BoFs, we had the __poster/demo/sponsor sessions__ every day after the second session, with 44 posters presented over the 3 days in both time zones.
 
-{% twitter https://twitter.com/Birthae/status/1413145200495448077 %}
+<img src="./tweet-1413145200495448077.webp" alt="Post by Beatriz Serrano (@Birthae): So here&#x27;s a wordcloud with all the talk, poster and BoF titles at GCC2021 Thank all the speakers, chairs, sponsors, scientific and org committees for making it great! Looking forward to meeting the #UseGalaxy community in person!" width="550" height="778" />
+
+*Post by @Birthae on 8 July 2021*
+
 <br />
 
 ## CoFest
@@ -67,7 +72,10 @@ The three-day conference was followed by a __two-day collaborative work event__ 
 
 To celebrate the success of GCC2021, the Freiburg Galaxy team enjoyed an outdoor BBQ!
 
-{% twitter https://twitter.com/bjoerngruening/status/1413942191358160899 %}
+<img src="./tweet-1413942191358160899.webp" alt="Post by Björn Grüning (@bjoerngruening): The #UseGalaxy #cofest 2021 ends in @UniFreiburg. We celebrated it with the first BBQ since a year. Thanks @tatieguinoa and team for organising the cofest and thanks everyone for contributing to #OpenSource! See you next year at GCC 2022!" width="550" height="721" />
+
+*Post by @bjoerngruening on 10 July 2021*
+
 <br />
 
 ### Thank you to all the organizers, scientific program committee, sponsors and the Galaxy community for the engagement, enthusiasm and contributions!!
