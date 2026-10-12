@@ -16,9 +16,19 @@ export function getICSEndDate(start: Date, end: Date | null): Date {
   return new Date((end || start).getTime() + 24 * 60 * 60 * 1000);
 }
 
-// Escape special characters for iCalendar
+// Escape a TEXT value (RFC 5545 3.3.11); CRLF and bare CR become one escaped newline
 export function escapeICS(text: string): string {
-  return text.replace(/\\/g, '\\\\').replace(/;/g, '\\;').replace(/,/g, '\\,').replace(/\n/g, '\\n');
+  return text
+    .replace(/\r\n?/g, '\n')
+    .replace(/\\/g, '\\\\')
+    .replace(/;/g, '\\;')
+    .replace(/,/g, '\\,')
+    .replace(/\n/g, '\\n');
+}
+
+// URI values (RFC 5545 3.3.13) take no backslash escaping; drop CR and LF so they cannot end the property
+export function formatICSURI(uri: string): string {
+  return uri.replace(/[\r\n]/g, '');
 }
 
 // Fold long lines (iCal spec: max 75 octets per line)

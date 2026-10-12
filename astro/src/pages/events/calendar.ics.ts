@@ -1,6 +1,6 @@
 import { getCollection } from 'astro:content';
 import type { APIContext } from 'astro';
-import { escapeICS, foldLine, formatICSDate, formatICSDateOnly, getICSEndDate } from '../../utils/ics';
+import { escapeICS, foldLine, formatICSDate, formatICSDateOnly, formatICSURI, getICSEndDate } from '../../utils/ics';
 
 export async function GET(context: APIContext) {
   const events = await getCollection('events');
@@ -54,7 +54,7 @@ export async function GET(context: APIContext) {
     const description = event.data.tease || '';
 
     icsContent.push('BEGIN:VEVENT');
-    icsContent.push(foldLine(`UID:${uid}`));
+    icsContent.push(foldLine(`UID:${escapeICS(uid)}`));
     icsContent.push(foldLine(`DTSTAMP:${formatICSDate(now)}`));
     icsContent.push(foldLine(`DTSTART;VALUE=DATE:${formatICSDateOnly(startDate)}`));
     icsContent.push(foldLine(`DTEND;VALUE=DATE:${formatICSDateOnly(getICSEndDate(startDate, endDate))}`));
@@ -65,7 +65,7 @@ export async function GET(context: APIContext) {
     if (location) {
       icsContent.push(foldLine(`LOCATION:${escapeICS(location)}`));
     }
-    icsContent.push(foldLine(`URL:${url}`));
+    icsContent.push(foldLine(`URL:${formatICSURI(url)}`));
     icsContent.push('END:VEVENT');
   }
 
