@@ -20,4 +20,19 @@ for (const path of FEEDS) {
       expect(Number(end), `${uid} DTEND is exclusive`).toBeGreaterThan(Number(start));
     }
   });
+
+  test(`${path} has CRLF line endings and lines of at most 75 octets`, async ({ request }) => {
+    const response = await request.get(path);
+    expect(response.status()).toBe(200);
+
+    const body = await response.text();
+    expect(body.endsWith('\r\n'), 'ends with CRLF').toBe(true);
+    expect(body.replace(/\r\n/g, ''), 'no bare CR or LF').not.toMatch(/[\r\n]/);
+
+    const lines = body.split('\r\n').slice(0, -1);
+    expect(lines.length).toBeGreaterThan(0);
+    for (const line of lines) {
+      expect(Buffer.byteLength(line, 'utf8'), line).toBeLessThanOrEqual(75);
+    }
+  });
 }
