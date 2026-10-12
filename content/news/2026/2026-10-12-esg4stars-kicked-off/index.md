@@ -15,7 +15,8 @@ contributions:
 
 ---
 
-Last week saw the launch of the ESG4Stars project for reducing the environmental impact of research infrastructure - in the efficient manner that, we think, fits a project like this.
+Last week we launched the ESG4Stars project for reducing the environmental impact of research infrastructure - in the efficient manner that, we think, fits a project like this.
+
 We organized the kick-off meeting and the project's first General Assembly as a combined [event](/events/2026-10-05-esg4stars-kickoff/) on Monday/Tuesday,
 then used the remaining three days of the week to directly start working on the first project tasks.
 
@@ -25,8 +26,12 @@ This was a *very* busy week with too much going on for full coverage in this sho
 **Kick-off meeting**
 
 We were lucky to have in-person presentations for all work streams and packages within the project.
-These spawned immediate and productive discussions within and across work streams.
-It was great to see a lot of interaction between project participants from the first day!
+
+![Opening presentation of the kick-off meeting](welcome_presentation.jpg "Opening presentation of the kick-off meeting")
+
+These spawned immediate and productive discussions within and across work streams, and it was great to see a lot of interaction between project participants from the first day!
+
+![Group photo of participants taken in front of the main building of the Faculty of Engineering at the University of Freiburg on the very sunny October afternoon of day 1](group_photo.jpg "Day 1 group photo")
 
 Day 2 of the meeting brought invited guest presentations about topics adjacent to what this project is trying to do:
 
@@ -69,4 +74,7 @@ They turned out to be very intense and productive days that yielded progress acr
 - do some first outreach by advertising our upcoming [workshop on sustainable research computing with Galaxy](https://galaxyproject.org/events/2026-10-08-esg4stars-madrid/)
 
 At this impressive speed of progress, we are looking ahead with a lot of confidence to the coming 36 months of this project and to everything we can achieve together.
+
+![The five high-level objectives of ESG4Stars: track smarter, transfer less, store less, compute less and drive change printed in the style of an energy label together with short catch phrases - Make energy use visible, measurable and FAIR; Move only the necessary data; Optimise storage footprints with storage classes and modern file formats; Reduce redundant processing and allocate right-sized resources; Raise awareness and drive adoption into European research infrastructures - explaining each objective](esg4stars_objectives.png)
+
 A really big THANK YOU to all participants for making this possible!
