@@ -2,7 +2,6 @@
 // These components can be used in MDX files with kebab-case names
 
 export { default as VegaEmbed } from './VegaEmbed.vue';
-export { default as Twitter } from './Twitter.vue';
 export { default as Mastodon } from './Mastodon.vue';
 export { default as VideoPlayer } from './VideoPlayer.vue';
 export { default as Carousel } from './Carousel.vue';
@@ -15,7 +14,6 @@ export { default as Contacts } from './Contacts.vue';
 // Component map for MDX with kebab-case keys
 export const mdxComponents = {
   'vega-embed': () => import('./VegaEmbed.vue'),
-  twitter: () => import('./Twitter.vue'),
   mastodon: () => import('./Mastodon.vue'),
   'video-player': () => import('./VideoPlayer.vue'),
   carousel: () => import('./Carousel.vue'),
