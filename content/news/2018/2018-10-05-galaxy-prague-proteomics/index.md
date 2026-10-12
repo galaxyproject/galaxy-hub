@@ -15,5 +15,7 @@ Together with members from the ELIXIR Czechia node, we have carried out a 2-days
 
 Thanks to the local organizers and to our particpants!
 
-{% twitter https://twitter.com/bjoerngruening/status/1048148265357770752 %}
+<img src="./tweet-1048148265357770752.webp" alt="Post by Björn Grüning (@bjoerngruening): #usegalaxy #proteomics workshop organized by @ELIXIRCZ is running. @MCFoell is explaining SILAC with #openms. #denbi @ELIXIREurope" width="550" height="622" />
+
+*Post by @bjoerngruening on 5 October 2018*
 

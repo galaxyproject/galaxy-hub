@@ -24,5 +24,3 @@ During this week, the [Freiburg Galaxy Team](https://usegalaxy.eu/freiburg/) and
 
 2 Master students, 16 PhD students, 5 Post-docs and 2 PIs participated to this workshop. The feedback we received is good: 100% of the participants though it was good to excellent and will recommend it and 96% will use Galaxy for future projects. A sucessful week then!
 
-{% twitter https://twitter.com/i/moments/1042692497347145728 %}
-
