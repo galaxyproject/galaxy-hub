@@ -1,32 +1,7 @@
 import { getCollection } from 'astro:content';
 import type { APIContext } from 'astro';
 import { contentMatchesSubsite } from '../../../utils/subsites';
-import { formatICSDateOnly, getICSEndDate } from '../../../utils/ics';
-
-// Format date for iCalendar (YYYYMMDDTHHMMSSZ)
-function formatICSDate(date: Date): string {
-  return date
-    .toISOString()
-    .replace(/[-:]/g, '')
-    .replace(/\.\d{3}/, '');
-}
-
-// Escape special characters for iCalendar
-function escapeICS(text: string): string {
-  return text.replace(/\\/g, '\\\\').replace(/;/g, '\\;').replace(/,/g, '\\,').replace(/\n/g, '\\n');
-}
-
-// Fold long lines (iCal spec: max 75 octets per line)
-function foldLine(line: string): string {
-  const maxLength = 75;
-  let result = '';
-  while (line.length > maxLength) {
-    result += line.substring(0, maxLength) + '\r\n ';
-    line = line.substring(maxLength);
-  }
-  result += line;
-  return result;
-}
+import { escapeICS, foldLine, formatICSDate, formatICSDateOnly, formatICSURI, getICSEndDate } from '../../../utils/ics';
 
 export async function GET(context: APIContext) {
   const events = await getCollection('events');
@@ -82,7 +57,7 @@ export async function GET(context: APIContext) {
     const description = event.data.tease || '';
 
     icsContent.push('BEGIN:VEVENT');
-    icsContent.push(foldLine(`UID:${uid}`));
+    icsContent.push(foldLine(`UID:${escapeICS(uid)}`));
     icsContent.push(foldLine(`DTSTAMP:${formatICSDate(now)}`));
     icsContent.push(foldLine(`DTSTART;VALUE=DATE:${formatICSDateOnly(startDate)}`));
     icsContent.push(foldLine(`DTEND;VALUE=DATE:${formatICSDateOnly(getICSEndDate(startDate, endDate))}`));
@@ -93,13 +68,13 @@ export async function GET(context: APIContext) {
     if (location) {
       icsContent.push(foldLine(`LOCATION:${escapeICS(location)}`));
     }
-    icsContent.push(foldLine(`URL:${url}`));
+    icsContent.push(foldLine(`URL:${formatICSURI(url)}`));
     icsContent.push('END:VEVENT');
   }
 
   icsContent.push('END:VCALENDAR');
 
-  return new Response(icsContent.join('\r\n'), {
+  return new Response(icsContent.join('\r\n') + '\r\n', {
     headers: {
       'Content-Type': 'text/calendar; charset=utf-8',
       'Content-Disposition': 'attachment; filename="galaxy-europe-events.ics"',
