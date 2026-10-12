@@ -168,12 +168,25 @@ test.describe('Content Rendering', () => {
   });
 
   test.describe('MDX Components', () => {
-    test('Twitter embeds render placeholder', async ({ page }) => {
-      // Find a page with Twitter embed if exists
-      // For now, just verify the component doesn't break pages
-      await page.goto('/');
-      await expect(page.locator('body')).toBeVisible();
-    });
+    for (const { path, id, author } of [
+      { path: '/news/2018-04-11-galaxy-africa/', id: '981073917187100672', author: /Bérénice Batut/ },
+      { path: '/news/2018-12-25-merry-christmas/', id: '1077305473706217472', author: /Martenson/ },
+      { path: '/news/2017-09-22-bioinformatics-galaxy-workshop/', id: '911155897824661505', author: /Björn Grüning/ },
+    ]) {
+      test(`tweet image renders without contacting X: ${path}`, async ({ page }) => {
+        const xRequests: string[] = [];
+        page.on('request', (request) => {
+          const host = new URL(request.url()).hostname;
+          if (/(^|\.)(twitter\.com|x\.com|twimg\.com)$/.test(host)) xRequests.push(request.url());
+        });
+        await page.goto(path);
+        const tweet = page.locator(`img[src*="tweet-${id}"]`);
+        await expect(tweet).toBeVisible();
+        await expect(tweet).toHaveAttribute('alt', author);
+        await page.waitForLoadState('networkidle');
+        expect(xRequests).toEqual([]);
+      });
+    }
 
     test('Video embeds render', async ({ page }) => {
       // Similar - verify video component doesn't break
