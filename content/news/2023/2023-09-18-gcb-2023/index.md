@@ -5,7 +5,6 @@ tease: "From the 11th to the 14th of September, Engy Nasr and Paul Zierep from t
 location:
   name: Hamburg, Germany
 tags: [conference, talk, bioinformatics, poster, pathogen detection]
-components: true
 subsites: [all-eu]
 contributions:
   authorship:
@@ -17,8 +16,6 @@ contributions:
 ---
 
 From the 11th to the 14th of Semptember, Engy Nasr (I) and Paul Zierep from the Freiburg Galaxy team travelled to Hamburg to join and present our posters about 'Accessible and scalable Galaxy pipelines for fast and easy (foodborne) Pathogen detection and tracking' and 'Microbiome data analysis using the Galaxy platform' at the [**German Conference on Bioinformatics (GCB) 2023**](https://gcb2023.de/).
-
-<Twitter tweet="1702283085729996879"></Twitter> 
 
 <p align="center">
 <img src="engy_and_paul.png" width="350" height="auto" />
@@ -45,8 +42,6 @@ Paul has also presented his poster about **Microbiome data analysis using the Ga
 During the poster sessions, we also had the chance to meet Dr. Anne Hartebrodt and learn about Time shifting computation to reduce the carbon emissions of software. This technique is particular interesting for the galaxy project, in order to improve our environmental footprint. Thanks to the contact we made during GCB, Anne will preset her work during the European galaxy days [EGD](https://galaxyproject.org/events/2023-10-egd/egd/).
 
 On the third and last day; we had more keynotes and very interesting other talks sessions, as shown in the [programme](https://gcb2023.de/Programme/_/Programm_GCB_2023%20-%2007.09.2023.pdf). Before closing the conference they annonced the winning poster, and we made it again with the Foodborne project, we won the best poster award, where I got a free conference fee for GCB 2024 in Bielefeld.
-
-<Twitter tweet="1702282717381996985"></Twitter>
 
 <p align="center">
 <img src="best_poster_prize.png" width="300" height="auto" />
