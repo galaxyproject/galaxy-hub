@@ -27,7 +27,7 @@ The Galaxy Community has created Galaxy instances in many different forms and fo
 * cloud services that support Galaxy instances, and
 * virtual machines and containers that can be easily deployed for your own server.
 
-Which is **right** for you?  Explore the directory, especially the section on [Which Platform / Platform type to use](/use/#which-platform-platform-type-to-choose/).
+Which is **right** for you?  Explore the [Galaxy Platform Directory](/use/).
 
 Tools and workflows contributed by [community members](/community/) worldwide) are served through the **[Main ToolShed](/toolshed/)** and genome data/indexes through an **[rsync service](/admin/data-integration/)**.  
 
