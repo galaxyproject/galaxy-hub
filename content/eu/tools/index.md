@@ -2,7 +2,7 @@
 # THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
 # To update, run: python3 scripts/update-tools.py --server https://usegalaxy.eu --name "European Galaxy" --output content/eu/tools/index.md
 title: European Galaxy Tools
-description: "4472 tools and counting"
+description: "4483 tools and counting"
 ---
 
 
@@ -231,6 +231,7 @@ description: "4472 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=vader_sentiment" target="_top" title="">VADER Sentiment Analysis</a>
 <a href="https://usegalaxy.eu/root?tool_id=cast" target="_top" title="expand combinations of variables:values to columnar format">cast</a>
 <a href="https://usegalaxy.eu/root?tool_id=diff" target="_top" title="analyzes two files and generates an unidiff text file with information about the differences and an optional Html report">diff</a>
+<a href="https://usegalaxy.eu/root?tool_id=fixed2tab" target="_top" title="convert fixed-width text to tabular">fixed2tab</a>
 <a href="https://usegalaxy.eu/root?tool_id=jq" target="_top" title="query and transform JSON documents">jq</a>
 <a href="https://usegalaxy.eu/root?tool_id=melt" target="_top" title="collapse combinations of variables:values to single lines">melt</a>
 <a href="https://usegalaxy.eu/root?tool_id=tp_tac" target="_top" title="reverse a file (reverse cat)">tac</a>
@@ -1932,6 +1933,7 @@ description: "4472 tools and counting"
 
 <div class="tool-list">
 
+<a href="https://usegalaxy.eu/root?tool_id=atacseqqc_tsse" target="_top" title="Computes Transcription Start Site Enrichment Score">ATACseqQC TSSE</a>
 <a href="https://usegalaxy.eu/root?tool_id=cwpair2" target="_top" title="find matched pairs and unmatched orphans">CWPair2</a>
 <a href="https://usegalaxy.eu/root?tool_id=cooler_zoomify" target="_top" title="Generate a multi-resolution cooler file by coarsening">Cooler zoomify</a>
 <a href="https://usegalaxy.eu/root?tool_id=meme_dreme" target="_top" title="- Discriminative Regular Expression Motif Elicitation">DREME</a>
@@ -2000,6 +2002,13 @@ description: "4472 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=beast2_beast" target="_top" title="Bayesian Evolutionary Analysis Sampling Trees (MCMC)">BEAST2</a>
 <a href="https://usegalaxy.eu/root?tool_id=beast2_logcombiner" target="_top" title="Combine multiple trace or tree log files into a single log file">BEAST2 LogCombiner</a>
 <a href="https://usegalaxy.eu/root?tool_id=blast_parser" target="_top" title="Convert 12- or 24-column BLAST output into 3-column hcluster_sg input">BLAST parser</a>
+<a href="https://usegalaxy.eu/root?tool_id=chronaeon_align" target="_top" title="Reference-guided codon-aware alignment threading">ChronAeon Align</a>
+<a href="https://usegalaxy.eu/root?tool_id=chronaeon_autoclock" target="_top" title="Unsupervised multi-clock community deconvolution and outlier triage">ChronAeon AutoClock</a>
+<a href="https://usegalaxy.eu/root?tool_id=chronaeon_date" target="_top" title="Calibrate heterochronous molecular clocks and date MRCA">ChronAeon Date</a>
+<a href="https://usegalaxy.eu/root?tool_id=chronaeon_dynamics" target="_top" title="Estimate epidemic growth rate (r) and reproduction numbers (R0, Rt)">ChronAeon Dynamics</a>
+<a href="https://usegalaxy.eu/root?tool_id=chronaeon_phylogeo" target="_top" title="Discrete phylogeography and spatial transmission network inference">ChronAeon PhyloGeo</a>
+<a href="https://usegalaxy.eu/root?tool_id=chronaeon_sketch" target="_top" title="Alignment-free MinHash sketching and sequence binning">ChronAeon Sketch</a>
+<a href="https://usegalaxy.eu/root?tool_id=chronaeon_triage" target="_top" title="Streaming high-throughput QC and molecular clock outlier triage">ChronAeon Triage</a>
 <a href="https://usegalaxy.eu/root?tool_id=xmfa2tbl" target="_top" title="">Convert XMFA to percent identity table</a>
 <a href="https://usegalaxy.eu/root?tool_id=fastreer_dist2tree" target="_top" title="Newick tree from distance matrix">DIST2TREE</a>
 <a href="https://usegalaxy.eu/root?tool_id=ete_genetree_splitter" target="_top" title="from a genetree using the ETE Toolkit">ETE GeneTree splitter</a>
@@ -2045,6 +2054,7 @@ description: "4472 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=hyphaeon_splits" target="_top" title="Phylogenetic split inference via spectral graph bisection of cross-taxa attention">HyphAeon-Splits</a>
 <a href="https://usegalaxy.eu/root?tool_id=hyphaeon_temporal" target="_top" title="Continuous temporal selection regression, two-stage filtering, and dynamic wave decomposition">HyphAeon-Temporal</a>
 <a href="https://usegalaxy.eu/root?tool_id=list_organism" target="_top" title="in Apollo">List Organisms</a>
+<a href="https://usegalaxy.eu/root?tool_id=mashtree" target="_top" title="create a neighbor-joining tree from genome assemblies using Mash distances">Mashtree</a>
 <a href="https://usegalaxy.eu/root?tool_id=mrbayes" target="_top" title="with options and commands">MrBayes</a>
 <a href="https://usegalaxy.eu/root?tool_id=nextalign" target="_top" title="Viral genome sequence alignment">NextAlign</a>
 <a href="https://usegalaxy.eu/root?tool_id=nextclade" target="_top" title="Viral genome clade assignment, mutation calling, and sequence quality checks">Nextclade</a>
@@ -4275,6 +4285,7 @@ description: "4472 tools and counting"
 
 <a href="https://usegalaxy.eu/root?tool_id=eml2eal" target="_top" title="Create EAL templates from EML metadata">EML to EAL</a>
 <a href="https://usegalaxy.eu/root?tool_id=eml_validate" target="_top" title="check if your EML file is valid">Eml validate:</a>
+<a href="https://usegalaxy.eu/root?tool_id=generate_spinup_metadata" target="_top" title="Compute spin-up period dates for SOC model initialization from site metadata">Generate Spin-up Climate Metadata</a>
 <a href="https://usegalaxy.eu/root?tool_id=makeeml" target="_top" title="Create EML from EAL templates">Make EML</a>
 <a href="https://usegalaxy.eu/root?tool_id=annotations_template" target="_top" title="from scratch or from EML metadata file">Make annotations template</a>
 <a href="https://usegalaxy.eu/root?tool_id=data_paper_from_EML" target="_top" title="from EML">Make data paper sketches</a>
