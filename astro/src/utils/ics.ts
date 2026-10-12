@@ -31,14 +31,21 @@ export function formatICSURI(uri: string): string {
   return uri.replace(/[\r\n]/g, '');
 }
 
-// Fold long lines (iCal spec: max 75 octets per line)
+const encoder = new TextEncoder();
+
+// Fold long lines at 75 UTF-8 octets (RFC 5545 3.1); the continuation space counts, code points stay whole
 export function foldLine(line: string): string {
-  const maxLength = 75;
+  const maxOctets = 75;
   let result = '';
-  while (line.length > maxLength) {
-    result += line.substring(0, maxLength) + '\r\n ';
-    line = line.substring(maxLength);
+  let lineOctets = 0;
+  for (const char of line) {
+    const charOctets = encoder.encode(char).length;
+    if (lineOctets + charOctets > maxOctets) {
+      result += '\r\n ';
+      lineOctets = 1;
+    }
+    result += char;
+    lineOctets += charOctets;
   }
-  result += line;
   return result;
 }
