@@ -22,7 +22,9 @@ Thanks to this amazing team!
 
 We even made it on the Cover of the latest Nucleic Acids Research Webserver issue.
 
-{% twitter https://twitter.com/bjoerngruening/status/1015656020985688066 %}
+<img src="./tweet-1015656020985688066.webp" alt="Post by Björn Grüning (@bjoerngruening): The new NAR webserver issue is out! The cover image is generated with HiCExplorer on the new #usegalaxy #Europe server (https://hicexplorer.usegalaxy.eu ). Read more about HiC and our tool @ https://academic.oup.com/nar/article/46/W1/W11/5036837 … #denbi @ELIXIREurope" width="550" height="668" />
+
+*Post by @bjoerngruening on 7 July 2018*
 
 ## Abstract
 

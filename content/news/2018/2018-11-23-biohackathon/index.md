@@ -38,8 +38,3 @@ But the main projects we worked on were:
     - Add a Training Handbook and philosophies
 
     We also reviewed Pull Requests, update and create new materials, etc.
-
-### Check out more activity about this event on Twitter
-
-{% twitter https://twitter.com/i/moments/1065915790656978944 %}
-
