@@ -1,31 +1,6 @@
 import { getCollection } from 'astro:content';
 import type { APIContext } from 'astro';
-import { formatICSDateOnly, getICSEndDate } from '../../utils/ics';
-
-// Format date for iCalendar (YYYYMMDDTHHMMSSZ)
-function formatICSDate(date: Date): string {
-  return date
-    .toISOString()
-    .replace(/[-:]/g, '')
-    .replace(/\.\d{3}/, '');
-}
-
-// Escape special characters for iCalendar
-function escapeICS(text: string): string {
-  return text.replace(/\\/g, '\\\\').replace(/;/g, '\\;').replace(/,/g, '\\,').replace(/\n/g, '\\n');
-}
-
-// Fold long lines (iCal spec: max 75 octets per line)
-function foldLine(line: string): string {
-  const maxLength = 75;
-  let result = '';
-  while (line.length > maxLength) {
-    result += line.substring(0, maxLength) + '\r\n ';
-    line = line.substring(maxLength);
-  }
-  result += line;
-  return result;
-}
+import { escapeICS, foldLine, formatICSDate, formatICSDateOnly, getICSEndDate } from '../../utils/ics';
 
 export async function GET(context: APIContext) {
   const events = await getCollection('events');
