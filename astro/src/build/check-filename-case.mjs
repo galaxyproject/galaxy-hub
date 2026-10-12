@@ -108,8 +108,8 @@ export function uppercaseAssets(addedPaths) {
   return addedPaths.filter((p) => isAssetPath(p) && basenameHasUppercase(p)).sort();
 }
 
-function git(args) {
-  return execFileSync('git', args, { cwd: repoRoot, maxBuffer: 64 * 1024 * 1024 });
+function git(args, stdio) {
+  return execFileSync('git', args, { cwd: repoRoot, maxBuffer: 64 * 1024 * 1024, stdio });
 }
 
 function splitNul(buf) {
@@ -127,11 +127,14 @@ function listTrackedFiles() {
 function resolveBaseRef() {
   const explicit = process.env.LINT_BASE_REF;
   const candidates = explicit && explicit.trim() ? [explicit.trim()] : ['upstream/main', 'origin/main', 'main'];
+  // auto-detected candidates may be missing; only an explicit ref should report git's error
+  const stdio = explicit && explicit.trim() ? undefined : ['ignore', 'pipe', 'ignore'];
   for (const ref of candidates) {
     try {
+      if (stdio) git(['rev-parse', '--verify', '--quiet', `${ref}^{commit}`], stdio);
       // merge-base, not the ref itself: a branch tip that moved after this
       // branch diverged would otherwise blame its new files on this branch
-      return git(['merge-base', 'HEAD', ref]).toString().trim();
+      return git(['merge-base', 'HEAD', ref], stdio).toString().trim();
     } catch {
       // try next candidate
     }
