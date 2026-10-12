@@ -12,13 +12,13 @@ jobs:
     runs-on: ubuntu-latest
     if: github.repository_owner == 'galaxyproject'
     permissions:
-      contents: write
-      pull-requests: write
+      contents: read
     steps:
       - name: Checkout current repository
         uses: actions/checkout@v7
         with:
           fetch-depth: 0
+          persist-credentials: false
 
       - name: Generate GitHub App token
         id: app-token
@@ -34,6 +34,7 @@ jobs:
           path: training-material
           token: ${{ steps.app-token.outputs.token }}
           fetch-depth: 1
+          persist-credentials: false
           sparse-checkout: |
             CONTRIBUTORS.yaml
             ORGANISATIONS.yaml

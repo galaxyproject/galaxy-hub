@@ -5,8 +5,7 @@ on:
     - cron: '00 23 * * 0'
 
 permissions:
-  contents: write
-  pull-requests: write
+  contents: read
 
 jobs:
   update-citations:
@@ -15,6 +14,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v7
+        with:
+          persist-credentials: false
 
       - name: Generate GitHub App token
         id: app-token
