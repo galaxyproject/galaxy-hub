@@ -33,13 +33,13 @@ Day 2 of the meeting brought invited guest presentations about topics adjacent t
 - Dominik Schweisgut from the [Exascale Algorithm Engineering research group](https://eae.iti.kit.edu/english/index.php) at the Karlsruhe Institute of Technology (KIT)
   told us about "Carbon-Aware Mapping and Scheduling for Deadline-Constrained Workflows".
 
-- Philipp Thamm from the research group [Knowledge Management in Bioinformatics](https://www.informatik.hu-berlin.de/de/forschung/gebiete/wbi) at the Humboldt-Universität in Berlin
+- Philipp Thamm from the research group [Knowledge Management in Bioinformatics](https://www.informatik.hu-berlin.de/de/forschung/gebiete/wbi) at the Humboldt-Universität zu Berlin
   gave a talk about his work on "Nf-PEAK: Process-Based Energy Attribution for Nextflow Workflows on Kubernetes Clusters".
 
 - Joachim Wolff, bioinformatics researcher at Hannover Medical School, talked about his experience with "Agent-Driven Modernization of High-Throughput Genomic Tools".
 
 Both Dominik and Philipp are members of [FONDA](https://fonda.hu-berlin.de),
-a research programme for studying "Foundations of Workflows for Large-Scale Scientific Data Analysis" funded by the [Deutsche Forschungsgemeinschaft](https://galaxyproject.org/hall-of-fame/dfg/).
+a research programme (CRC 1404) for studying "Foundations of Workflows for Large-Scale Scientific Data Analysis" funded by the [Deutsche Forschungsgemeinschaft](https://galaxyproject.org/hall-of-fame/dfg/).
 [Wolfgang Maier](/hall-of-fame/wm75), Galaxy Europe and ESG4Stars member, had given a Galaxy workshop to FONDA members [three months ago](https://fonda.hu-berlin.de/?p=2516) and, on that occasion, got to talk with Dominik and Philipp about their research.
 It was a great pleasure to now have them visit Freiburg in return and further explore the overlap between our work.
 
