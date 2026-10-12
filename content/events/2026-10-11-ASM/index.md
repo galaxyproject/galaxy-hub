@@ -45,7 +45,7 @@ Come find us to learn more about how Galaxy can support your microbial genomics 
 
 Ask us about searching the world's public sequencing data. At the base is one database:
 
-**[Logan](https://registry.opendata.aws/pasteur-logan/)** — a planetary-scale assembly of the entire NCBI Sequence Read Archive: 27 million accessions (44 petabases of raw reads) assembled into freely downloadable contigs and unitigs, hosted on AWS Open Data ([Chikhi *et al.*, bioRxiv](https://doi.org/10.1101/2024.07.30.605881)). Hear the story in our [GCC2026 keynote recap](/news/2026-07-06-gcc2026-recap/).
+**[Logan](https://registry.opendata.aws/pasteur-logan/)** — a planetary-scale assembly of the entire NCBI Sequence Read Archive: 38 million accessions (87 petabases of raw reads, December 2025 freeze) assembled into freely downloadable contigs and unitigs, hosted on AWS Open Data ([Chikhi *et al.*, bioRxiv](https://doi.org/10.1101/2024.07.30.605881); [v1.2 release notes](https://github.com/IndexThePlanet/Logan/blob/main/Stats-v1.2.md)). Hear the story in our [GCC2026 keynote recap](/news/2026-07-06-gcc2026-recap/).
 
 Three tools sit on top of Logan to search it — all runnable in Galaxy on [usegalaxy.org](https://usegalaxy.org):
 
@@ -65,7 +65,7 @@ Picked up one of our flyers at the meeting (or scanned its QR code)? Here's wher
 
 ## Microbiology on Galaxy
 
-- [Microbiology Galaxy Lab](https://microbiology.usegalaxy.org) — a dedicated microbiology view of Galaxy with 290+ tool suites, 85+ workflows, and 35+ tutorials, curated by the microGalaxy [community](https://galaxyproject.org/community/)
+- [Microbiology Galaxy Lab](https://microbiology.usegalaxy.org) — a dedicated microbiology view of Galaxy with 315+ tool suites, 115+ workflows, and 40+ tutorials, curated by the microGalaxy [community](https://galaxyproject.org/community/)
 - [Microbiology Galaxy Lab paper](https://www.biorxiv.org/content/10.1101/2024.12.23.629682) (Nasr, Pechlivanis, *et al.*, F1000Research 2025)
 - [PathoGFAIR](https://doi.org/10.1093/gigascience/giaf017) (Nasr *et al.*, GigaScience 2025) — FAIR, adaptable Galaxy workflows for (foodborne) pathogen detection and tracking from Nanopore sequencing
 
