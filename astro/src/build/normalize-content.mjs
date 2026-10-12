@@ -276,7 +276,6 @@ function fixAutolinks(content) {
 function fixComponentCase(content) {
   const componentMap = {
     'vega-embed': 'VegaEmbed',
-    twitter: 'Twitter',
     mastodon: 'Mastodon',
     'video-player': 'VideoPlayer',
     carousel: 'Carousel',
@@ -466,7 +465,6 @@ function convertFaToIconFrontmatter(fm) {
 const KNOWN_COMPONENTS = [
   'Icon',
   'VegaEmbed',
-  'Twitter',
   'Mastodon',
   'VideoPlayer',
   'Carousel',
