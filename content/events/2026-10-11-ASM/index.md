@@ -35,10 +35,23 @@ Members of the Galaxy team will be at the meeting for its full duration with a t
 - **[User Defined Tools](https://docs.galaxyproject.org/en/master/admin/user_defined_tools.html)** (currently in beta) — write and run your own simple tools directly from the Galaxy interface, no server access or admin installation required. [Contact us for access](mailto:outreach@galaxyproject.org)
 - **[Workflows (IWC)](https://iwc.galaxyproject.org/)** — the Intergalactic Workflow Commission's library of open, peer-reviewed workflows for reproducible science
 - **High Performance Computing** — compute provided to [usegalaxy.org](https://usegalaxy.org) via [Jetstream2](/cloud/jetstream/) and [TACC](https://tacc.utexas.edu/)
+- **Petabase-scale sequence search** — the Logan database and the tools that search it (kmindex, Logan Protein, LexicMap), all runnable in Galaxy (see below)
 - **Reproducible computational biology**
 - **Free access** — Galaxy is free to use for everyone
 
 Come find us to learn more about how Galaxy can support your microbial genomics and bioinformatics work.
+
+# Searching All of Public Sequencing Data
+
+Ask us about searching the world's public sequencing data. At the base is one database:
+
+**[Logan](https://registry.opendata.aws/pasteur-logan/)** — a planetary-scale assembly of the entire NCBI Sequence Read Archive: 38 million accessions (87 petabases of raw reads, December 2025 freeze) assembled into freely downloadable contigs and unitigs, hosted on AWS Open Data ([Chikhi *et al.*, bioRxiv](https://doi.org/10.1101/2024.07.30.605881); [v1.2 release notes](https://github.com/IndexThePlanet/Logan/blob/main/Stats-v1.2.md)). Hear the story in our [GCC2026 keynote recap](/news/2026-07-06-gcc2026-recap/).
+
+Three tools sit on top of Logan to search it — all runnable in Galaxy on [usegalaxy.org](https://usegalaxy.org):
+
+- **[kmindex](https://github.com/tlemane/kmindex)** — k-mer search that answers "which samples contain my sequence?" in fractions of a second; it is the engine behind the [Logan Search](https://logan-search.org) web server ([Lemane *et al.*, Nature Computational Science 2024](https://www.nature.com/articles/s43588-024-00596-6)). In Galaxy: [kmindex build](https://usegalaxy.org/root?tool_id=kmindex_build) and [kmindex query](https://usegalaxy.org/root?tool_id=kmindex_query).
+- **[Logan Protein](https://usegalaxy.org/root?tool_id=logan_protein_search_database)** — protein-level search of Logan using pre-computed embeddings, newly available in Galaxy as the Logan protein search tool.
+- **[LexicMap](https://bioinf.shenwei.me/LexicMap/)** — "gold-standard" alignment of a gene, plasmid, or long read against millions of genomes at once ([Shen, Lees & Iqbal, Nature Biotechnology 2025](https://www.nature.com/articles/s41587-025-02812-8)). In Galaxy: [LexicMap index](https://usegalaxy.org/root?tool_id=lexicmap_index) and [LexicMap search](https://usegalaxy.org/root?tool_id=lexicmap_search) — with BRC-Analytics integration [in the works](https://github.com/galaxyproject/brc-analytics/issues/1151).
 
 # Flyer Resources
 
@@ -52,7 +65,7 @@ Picked up one of our flyers at the meeting (or scanned its QR code)? Here's wher
 
 ## Microbiology on Galaxy
 
-- [Microbiology Galaxy Lab](https://microbiology.usegalaxy.org) — a dedicated microbiology view of Galaxy with 290+ tool suites, 85+ workflows, and 35+ tutorials, curated by the microGalaxy [community](https://galaxyproject.org/community/)
+- [Microbiology Galaxy Lab](https://microbiology.usegalaxy.org) — a dedicated microbiology view of Galaxy with 315+ tool suites, 115+ workflows, and 40+ tutorials, curated by the microGalaxy [community](https://galaxyproject.org/community/)
 - [Microbiology Galaxy Lab paper](https://www.biorxiv.org/content/10.1101/2024.12.23.629682) (Nasr, Pechlivanis, *et al.*, F1000Research 2025)
 - [PathoGFAIR](https://doi.org/10.1093/gigascience/giaf017) (Nasr *et al.*, GigaScience 2025) — FAIR, adaptable Galaxy workflows for (foodborne) pathogen detection and tracking from Nanopore sequencing
 

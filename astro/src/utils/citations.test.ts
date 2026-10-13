@@ -2,7 +2,7 @@ import fs from 'fs';
 import os from 'os';
 import path from 'path';
 import { afterEach, describe, expect, it } from 'vitest';
-import { groupCitationsByYear, loadCitations } from './citations';
+import { groupCitationsByYear, loadCitations, loadSubsiteCitations } from './citations';
 
 const BIB = `@article{older,
   title = {Older paper},
@@ -59,6 +59,28 @@ describe('loadCitations', () => {
       ['Older paper', 2019, 'Doe, Jane; Roe, Richard', 'https://doi.org/10.1000/older'],
       ['Undated paper', undefined, undefined, undefined],
     ]);
+  });
+});
+
+describe('loadSubsiteCitations', () => {
+  it('keeps only subsites whose BibTeX files have entries', async () => {
+    const root = makeDir({});
+    const write = (id: string, files: Record<string, string>) => {
+      fs.mkdirSync(path.join(root, id, 'citations'), { recursive: true });
+      for (const [name, content] of Object.entries(files)) {
+        fs.writeFileSync(path.join(root, id, 'citations', name), content);
+      }
+    };
+    write('eu', { 'refs.bib': BIB });
+    write('empty-bib', { 'refs.bib': '' });
+    write('no-bib', { 'README.md': '# notes' });
+
+    const result = await loadSubsiteCitations(
+      [{ id: 'eu' }, { id: 'empty-bib' }, { id: 'no-bib' }, { id: 'no-dir' }],
+      root
+    );
+
+    expect(result.map(({ subsite, citations }) => [subsite.id, citations.length])).toEqual([['eu', 3]]);
   });
 });
 

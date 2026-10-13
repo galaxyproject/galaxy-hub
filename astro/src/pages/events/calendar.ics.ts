@@ -1,35 +1,6 @@
 import { getCollection } from 'astro:content';
 import type { APIContext } from 'astro';
-
-// Format date for iCalendar (YYYYMMDDTHHMMSSZ)
-function formatICSDate(date: Date): string {
-  return date
-    .toISOString()
-    .replace(/[-:]/g, '')
-    .replace(/\.\d{3}/, '');
-}
-
-// Format date for all-day events (YYYYMMDD)
-function formatICSDateOnly(date: Date): string {
-  return date.toISOString().split('T')[0].replace(/-/g, '');
-}
-
-// Escape special characters for iCalendar
-function escapeICS(text: string): string {
-  return text.replace(/\\/g, '\\\\').replace(/;/g, '\\;').replace(/,/g, '\\,').replace(/\n/g, '\\n');
-}
-
-// Fold long lines (iCal spec: max 75 octets per line)
-function foldLine(line: string): string {
-  const maxLength = 75;
-  let result = '';
-  while (line.length > maxLength) {
-    result += line.substring(0, maxLength) + '\r\n ';
-    line = line.substring(maxLength);
-  }
-  result += line;
-  return result;
-}
+import { escapeICS, foldLine, formatICSDate, formatICSDateOnly, formatICSURI, getICSEndDate } from '../../utils/ics';
 
 export async function GET(context: APIContext) {
   const events = await getCollection('events');
@@ -65,9 +36,6 @@ export async function GET(context: APIContext) {
     const startDate = event.data.date instanceof Date ? event.data.date : new Date(event.data.date || 0);
     const endDate = event.data.end instanceof Date ? event.data.end : event.data.end ? new Date(event.data.end) : null;
 
-    // Use end date or default to same day
-    const effectiveEnd = endDate || new Date(startDate.getTime() + 24 * 60 * 60 * 1000);
-
     let location = '';
     if (event.data.location) {
       if (typeof event.data.location === 'string') {
@@ -86,10 +54,10 @@ export async function GET(context: APIContext) {
     const description = event.data.tease || '';
 
     icsContent.push('BEGIN:VEVENT');
-    icsContent.push(foldLine(`UID:${uid}`));
+    icsContent.push(foldLine(`UID:${escapeICS(uid)}`));
     icsContent.push(foldLine(`DTSTAMP:${formatICSDate(now)}`));
     icsContent.push(foldLine(`DTSTART;VALUE=DATE:${formatICSDateOnly(startDate)}`));
-    icsContent.push(foldLine(`DTEND;VALUE=DATE:${formatICSDateOnly(effectiveEnd)}`));
+    icsContent.push(foldLine(`DTEND;VALUE=DATE:${formatICSDateOnly(getICSEndDate(startDate, endDate))}`));
     icsContent.push(foldLine(`SUMMARY:${escapeICS(title)}`));
     if (description) {
       icsContent.push(foldLine(`DESCRIPTION:${escapeICS(description)}`));
@@ -97,13 +65,13 @@ export async function GET(context: APIContext) {
     if (location) {
       icsContent.push(foldLine(`LOCATION:${escapeICS(location)}`));
     }
-    icsContent.push(foldLine(`URL:${url}`));
+    icsContent.push(foldLine(`URL:${formatICSURI(url)}`));
     icsContent.push('END:VEVENT');
   }
 
   icsContent.push('END:VCALENDAR');
 
-  return new Response(icsContent.join('\r\n'), {
+  return new Response(icsContent.join('\r\n') + '\r\n', {
     headers: {
       'Content-Type': 'text/calendar; charset=utf-8',
       'Content-Disposition': 'attachment; filename="galaxy-events.ics"',

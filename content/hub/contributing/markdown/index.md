@@ -26,6 +26,16 @@ For images shared across multiple pages, put them in `content/images/` and refer
 ![galaxy logo](/images/logos/galaxy.jpg)
 ```
 
+### Posts from X (Twitter)
+
+The Hub does not embed tweets. To show a post, save a screenshot of it next to your `index.md` and include it as an image. Put the author and the post text in the alt text, set `width` and `height` to half the image's pixel size so a high-resolution screenshot is not stretched, and add a short caption with the author and date:
+
+```markdown
+<img src="./tweet-1234567890.webp" alt="Post by Galaxy Project (@galaxyproject): Galaxy 25.0 is out!" width="550" height="560" />
+
+*Post by @galaxyproject on 12 May 2025*
+```
+
 ## Inserting HTML
 
 You can use HTML in your `.md` files, but keep it separate from Markdown — put a blank line between blocks of Markdown and blocks of HTML. Mixing them on the same line can produce unexpected results.
@@ -58,8 +68,6 @@ Then use component tags in your content:
 
 <VegaEmbed spec="chart.json" />
 
-<Twitter user="galaxyproject" />
-
 <VideoPlayer src="./demo.mp4" />
 ```
 
@@ -69,7 +77,6 @@ Then use component tags in your content:
 |:--|:--|:--|
 | `Icon` | Lucide icon | `<Icon name="laptop" />` |
 | `VegaEmbed` | Vega-Lite chart | `<VegaEmbed spec="chart.json" />` |
-| `Twitter` | Tweet embed | `<Twitter user="galaxyproject" />` |
 | `Mastodon` | Mastodon embed | `<Mastodon url="..." />` |
 | `VideoPlayer` | Video player | `<VideoPlayer src="./video.mp4" />` |
 | `Carousel` | Image carousel | `<Carousel />` |

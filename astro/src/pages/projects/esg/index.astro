@@ -6,7 +6,7 @@
 import ESGLayout from '../../../layouts/ESGLayout.astro';
 import EsgInteractivePoster from '../../../components/EsgInteractivePoster.astro';
 import { getCollection, getEntry } from 'astro:content';
-import { isUpcomingEvent } from '../../../utils/dateUtils';
+import { formatDateRange, isPastEvent } from '../../../utils/dateUtils';
 
 // Check for solo mode
 const solo = Astro.url.searchParams.get('solo') === 'true';
@@ -29,33 +29,20 @@ const esgNews = allNews
   })
   .slice(0, 6);
 
-// Load ESG events (upcoming)
+// Load ESG events (past only: the project is over)
 const events = await getCollection('events');
 const now = new Date();
-// EU-tagged events are included here only because they are relevant to this project page.
 const esgEvents = events
   .filter((e) => {
     const subsites = e.data.subsites || [];
-    return (subsites.includes('esg') || subsites.includes('eu')) && isUpcomingEvent(e.data.date, e.data.end, now);
+    return subsites.includes('esg') && isPastEvent(e.data.date, e.data.end, now);
   })
   .sort((a, b) => {
     const dateA = new Date(a.data.date || 0);
     const dateB = new Date(b.data.date || 0);
-    return dateA.getTime() - dateB.getTime();
+    return dateB.getTime() - dateA.getTime();
   })
   .slice(0, 5);
-
-function formatDate(date: Date | string | undefined): string {
-  if (!date) return '';
-  const d = typeof date === 'string' ? new Date(date) : date;
-  return d.toLocaleDateString('en-US', { timeZone: 'UTC', month: 'short', day: 'numeric' });
-}
-
-function formatDateRange(start: Date | string | undefined, end: Date | string | undefined | null): string {
-  const startText = formatDate(start);
-  const endText = formatDate(end || undefined);
-  return endText && endText !== startText ? `${startText} - ${endText}` : startText;
-}
 
 function esgUrl(path: string): string {
   return solo ? `${path}?solo=true` : path;
@@ -223,7 +210,7 @@ function esgUrl(path: string): string {
               </li>)}
             </ul>
           ) : (
-            <p class="text-chicago-500 text-sm">No upcoming events.</p>
+            <p class="text-chicago-500 text-sm">No past events.</p>
           )}
           <a
             href={esgUrl('/projects/esg/events/')}

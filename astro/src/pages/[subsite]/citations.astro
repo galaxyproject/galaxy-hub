@@ -5,20 +5,23 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHeader from '../../components/layout/PageHeader.astro';
 import { subsites } from '../../stores/subsiteStore';
 import CitationList from '../../components/citations/CitationList.astro';
-import { loadCitations } from '../../utils/citations';
+import { loadSubsiteCitations } from '../../utils/citations';
 
-// Generate paths for all non-external subsites; Freiburg lists its team's publications at /freiburg/publications/
-export function getStaticPaths() {
-  return subsites
-    .filter((s) => s.id !== 'global' && s.id !== 'freiburg' && !('external' in s && s.external))
-    .map((s) => ({
-      params: { subsite: s.id },
-      props: { subsiteInfo: s },
-    }));
+// Generate paths for subsites with BibTeX entries; Freiburg lists its team's publications at /freiburg/publications/
+export async function getStaticPaths() {
+  const contentRoot = path.join(path.resolve(fileURLToPath(new URL('../../../../', import.meta.url))), 'content');
+  const candidates = subsites.filter(
+    (s) => s.id !== 'global' && s.id !== 'freiburg' && !('external' in s && s.external)
+  );
+  const withEntries = await loadSubsiteCitations(candidates, contentRoot);
+  return withEntries.map(({ subsite, citations }) => ({
+    params: { subsite: subsite.id },
+    props: { subsiteInfo: subsite, citations },
+  }));
 }
 
 const { subsite } = Astro.params;
-const { subsiteInfo } = Astro.props;
+const { subsiteInfo, citations } = Astro.props;
 const subsiteName = subsiteInfo?.name || subsite.toUpperCase();
 const isEurope = subsite === 'eu';
 const pageTitle = isEurope ? 'Galaxy Europe Citations' : `${subsiteName} Citations`;
@@ -26,13 +29,6 @@ const headerTitle = isEurope ? 'Citations' : `${subsiteName} Citations`;
 const serverLabel = isEurope ? 'European Galaxy server' : `${subsiteName} Galaxy instance`;
 const pageDescription = `Scientific publications that cited the ${serverLabel}.`;
 const eyebrow = isEurope ? { label: 'Galaxy Europe', href: '/eu/' } : undefined;
-
-const projectRoot = path.resolve(fileURLToPath(new URL('../../../../', import.meta.url)));
-const contentRoot = path.join(projectRoot, 'content');
-const citationDir = path.join(contentRoot, subsite, 'citations');
-
-const { exists, citations } = await loadCitations(citationDir);
-const emptyHint = `No citations found for ${subsite}. Add a BibTeX file at content/${subsite}/citations/.`;
 ---
 
 <BaseLayout title={pageTitle} description={pageDescription}>
@@ -44,13 +40,7 @@ const emptyHint = `No citations found for ${subsite}. Add a BibTeX file at conte
         Please help us support this project by acknowledging the service in publications that use it.
       </p>
 
-      {!exists || citations.length === 0 ? (
-        <div class="rounded-lg border border-dashed border-ebony-clay-200 bg-ebony-clay-50 p-6 text-chicago-700">
-          <p>{emptyHint}</p>
-        </div>
-      ) : (
-        <CitationList citations={citations} />
-      )}
+      <CitationList {citations} />
     </div>
   </div>
 </BaseLayout>

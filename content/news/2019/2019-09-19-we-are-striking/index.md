@@ -24,6 +24,7 @@ join one of [the hundreds of strikes](https://globalclimatestrike.net/#map) worl
 
 Thanks Freiburg!
 
-{% twitter https://twitter.com/F4F_Freiburg/status/1174967296990666752 %}
+<img src="./tweet-1174967296990666752.webp" alt="Post by Fridays for Future Freiburg (@F4F_Freiburg): Like the sea we rise! Liebes Klimakabinett, ihr habt euch mit den falschen angelegt... #AlleFuersKlima #FridaysForFuture" width="550" height="261" />
 
+*Post by @F4F_Freiburg on 20 September 2019*
 

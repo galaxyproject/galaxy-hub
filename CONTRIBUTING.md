@@ -84,6 +84,8 @@ Place images in the same directory as your `index.md` and reference them with re
 
 For images shared across pages, use `/images/...` paths (these are served from `content/images/`). Example: `/images/logos/galaxy_project_logo.jpg`.
 
+Tweets are not embedded. To show a post from X (Twitter), add a screenshot of it as an image, with the author and post text as alt text (see [Markdown tips](https://galaxyproject.org/hub/contributing/markdown/)).
+
 ### Contributions metadata and Hall of Fame recognition
 
 For news and event posts, credit organisers and supporters in frontmatter using `contributions`:
@@ -122,12 +124,10 @@ components: true
 
 Check out this tool: <Icon name="laptop" />
 
-<Twitter user="galaxyproject" />
-
 <VegaEmbed spec="chart.json" />
 ```
 
-Available components: `Icon`, `VegaEmbed`, `Twitter`, `Mastodon`, `VideoPlayer`, `Carousel`, `Flickr`, `Supporters`, `Contacts`, `MarkdownEmbed`, `CalendarEmbed`, `Insert`.
+Available components: `Icon`, `VegaEmbed`, `Mastodon`, `VideoPlayer`, `Carousel`, `Flickr`, `Supporters`, `Contacts`, `MarkdownEmbed`, `CalendarEmbed`, `Insert`.
 
 **Important**: Files with `components: true` are processed as MDX, which means a few things that work in regular Markdown need different syntax:
 
