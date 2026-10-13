@@ -70,7 +70,7 @@ They turned out to be very intense and productive days that yielded progress acr
 - advance work on Galaxy's job cache
 - discuss some of the complexities around offering temporary storage classes on Galaxy instances that don't offer any yet
 - better define the needs of the bioimaging community, in particular, in terms of Galaxy's support for the Zarr data format
-- release a new [energy usage dashboard](https://stats.galaxyproject.eu/d/addlvrz/compute-cluster) for Galaxy Europe
+- release a first version of a new [energy usage dashboard](https://gxy.io/stats-eu-compute) for Galaxy Europe's compute
 - do some first outreach by advertising our upcoming [workshop on sustainable research computing with Galaxy](https://galaxyproject.org/events/2026-10-08-esg4stars-madrid/)
 
 At this impressive speed of progress, we are looking ahead with a lot of confidence to the coming 36 months of this project and to everything we can achieve together.
