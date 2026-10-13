@@ -28,3 +28,5 @@ See the [travel page](/events/gcc2027/travel/) for information about the area.
 ## Cancellation
 
 <!-- TODO: cancellation policy -->
+
+Details on the cancellation policy will be posted here when available.

@@ -16,5 +16,11 @@ dates are to be announced.
 
 ## What to Expect at CoFest
 
+<div class="callout text-center">
+    The goals of CoFest are to expand the Galaxy contributor community and its ecosystem.
+</div>
+
 Hands-on, community-driven work on tools, workflows, docs, or training. Everyone's
 welcome, whatever your background.
+
+_More details on our plans for this year's CoFest will be shared as they become available._
