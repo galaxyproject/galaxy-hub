@@ -14,5 +14,7 @@ _Abstract_
 
 The dynamics and phenotypes of intratumoral myeloid cells during tumor progression are poorly understood. Here we define myeloid cellular states in gliomas by longitudinal single-cell profiling and demonstrate their strict control by the tumor genotype: in isocitrate dehydrogenase (IDH)-mutant tumors, differentiation of infiltrating myeloid cells is blocked, resulting in an immature phenotype. In late-stage gliomas, monocyte-derived macrophages drive tolerogenic alignment of the microenvironment, thus preventing T cell response. We define the IDH-dependent tumor education of infiltrating macrophages to be causally related to a complex re-orchestration of tryptophan metabolism, resulting in activation of the aryl hydrocarbon receptor. We further show that the altered metabolism of IDH-mutant gliomas maintains this axis in bystander cells and that pharmacological inhibition of tryptophan metabolism can reverse immunosuppression. In conclusion, we provide evidence of a glioma genotype-dependent intratumoral network of resident and recruited myeloid cells and identify tryptophan metabolism as a target for immunotherapy of IDH-mutant tumors.
 
-{% twitter https://twitter.com/Platten_lab/status/1396881339425636352 %}
+<img src="./tweet-1396881339425636352.webp" alt="Post by The Platten Lab (@Platten_lab): Finally out! We are thrilled to share our new paper on education of immunosuppressive myeloid cells in IDH-mutant glioma which was published today in @NatureCancer A huge thank you to our fantastic collaborators Check it out https://rdcu.be/cldjv" width="550" height="711" />
+
+*Post by @Platten_lab on 24 May 2021*
 

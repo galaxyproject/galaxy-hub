@@ -15,6 +15,7 @@ Our thoughts are with his family and friends. We will miss Christophe...
 
 In commemorating and mourning,
 
-<blockquote class="twitter-tweet" data-lang="fr"><p lang="fr" dir="ltr">Un mot en mémoire de Christophe Caron, décédé brutalement ce vendredi d&#39;une crise cardiaquei. Je garde le souvenir d&#39;un collègue enthousiaste, promoteur de Galaxy en France et artisan de la nouvelle mouture de l&#39;IFB. Adieu Christophe. Je pense à tes proches en ce moment. <a href="https://t.co/POZvdpjEaG">pic.twitter.com/POZvdpjEaG</a></p>&mdash; Guy Perrière (@prabi_guy) <a href="https://twitter.com/prabi_guy/status/993183192705327105?ref_src=twsrc%5Etfw">6 mai 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<img src="./tweet-993183192705327105.webp" alt="Post by Guy Perrière (@prabi_guy): Un mot en mémoire de Christophe Caron, décédé brutalement ce vendredi d&#x27;une crise cardiaquei. Je garde le souvenir d&#x27;un collègue enthousiaste, promoteur de Galaxy en France et artisan de la nouvelle mouture de l&#x27;IFB. Adieu Christophe. Je pense à tes proches en ce moment." width="550" height="746" />
+
+*Post by @prabi_guy on 6 May 2018*
 

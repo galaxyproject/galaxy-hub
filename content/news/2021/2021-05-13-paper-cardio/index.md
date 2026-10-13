@@ -31,5 +31,7 @@ Translational Perspective
 
 Cardiac tissue contains resident macrophages (MΦ) which, beyond immunological and housekeeping roles, have been found to electrotonically couple via connexins to cardiomyocytes (CM), stabilising atrio-ventricular conduction at high excitation rates. Here, we characterise structure and electrophysiological function of murine cardiac MΦ and provide a computational model to quantitatively probe the potential relevance of MΦ-CM coupling for cardiac electrophysiology. We find that MΦ are unlikely to have major electrophysiological effects in normal tissue, where they would hasten early and slow late CM-repolarisation. Further work will address potential arrhythmogenicity of MΦ in patho-physiologically remodelled tissue containing elevated MΦ-numbers, incl. non-resident recruited cells.
 
-{% twitter https://twitter.com/ConnexinPapers/status/1379684100613808129 %}
+<img src="./tweet-1379684100613808129.webp" alt="Post by Connexin Papers (@ConnexinPapers): Novel insights into the electrophysiology of murine cardiac macrophages: relevance of voltage-gated potassium channels" width="550" height="270" />
+
+*Post by @ConnexinPapers on 7 April 2021*
 

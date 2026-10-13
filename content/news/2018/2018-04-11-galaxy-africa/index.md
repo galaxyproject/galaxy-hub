@@ -6,12 +6,13 @@ location:
   name: Cape Town, South Africa
 subsites: [eu, freiburg]
 main_subsite: freiburg
-components: true
 ---
 
 The first [Galaxy conference](https://galaxyafrica.sanbi.ac.za/) was held last week in Africa, organized by [SANBI](https://www.sanbi.ac.za/) at [University of Wester Cape](https://www.uwc.ac.za/Pages/default.aspx) in Cape Town. Björn and Bérénice participated:
 
-<Twitter tweet="981073917187100672"></Twitter>
+<img src="./tweet-981073917187100672.webp" alt="Post by Bérénice Batut (@bebatut): #usegalaxy Africa is starting!! #GalaxyAfrica" width="550" height="561" />
+
+*Post by @bebatut on 3 April 2018*
 
 - On the 3rd, Björn gave the keynote talk ("Welcome to Galaxy") in the morning. During the afternoon, they gave a Galaxy introduction training
 - On the 4th, Bérénice started with the keynote talk (["Welcome to Galaxy"](http://bebatut.fr/talks/18/04_04_galaxy_africa/#/1))

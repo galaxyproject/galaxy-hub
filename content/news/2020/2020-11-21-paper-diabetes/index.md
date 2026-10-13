@@ -22,5 +22,8 @@ In summary, cell type-specific analysis reveals differentially regulated gene pr
 
 
 <br />
-{% twitter https://twitter.com/Ralf_Gilsbach/status/1328312346415165440 %}
+
+<img src="./tweet-1328312346415165440.webp" alt="Post by Ralf Gilsbach (@Ralf_Gilsbach): Our new publication clearly underlines the need for cell type-specific analysis in cardiovascular research. Many thanks to @OBond10, @AchimLother, @JohannesBacks , Lutz Hein et al.!" width="550" height="329" />
+
+*Post by @Ralf_Gilsbach on 16 November 2020*
 

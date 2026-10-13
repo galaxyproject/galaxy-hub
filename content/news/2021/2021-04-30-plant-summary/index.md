@@ -32,7 +32,9 @@ To better empower those who require more flexible time schedules, the workshop w
 
 During the training week, __24 experts from different time zones were available in chat__ to answer the questions. A huge shout out to all of them for the support!
 
-{% twitter https://twitter.com/Birthae/status/1383759597526163463 %}
+<img src="./tweet-1383759597526163463.webp" alt="Post by Beatriz Serrano (@Birthae): We are all set for our #UseGalaxy plant-focused training event starting tomorrow with 400+ participants. Join us any time. All lectures are recorded, with captions, workflows &amp; histories. 24 experts will support you throughout the week. @nfdi4plants" width="550" height="684" />
+
+*Post by @Birthae on 18 April 2021*
 
 # Participation
 
