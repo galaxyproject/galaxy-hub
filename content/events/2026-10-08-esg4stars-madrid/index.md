@@ -17,7 +17,7 @@ contributions:
   funding:
     - eu
     - esg4stars
-    - euro-bioimaging
+    - Euro-BioImaging
     
 ---
 
