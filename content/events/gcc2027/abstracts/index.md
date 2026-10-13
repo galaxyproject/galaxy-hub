@@ -3,7 +3,7 @@ nav_order: 3
 autotoc: false
 ---
 
-# GCC2027 abstracts
+# GCC2027 Abstracts
 
 **Abstract submission for GCC2027 opens in November 2026.** If you have any
 questions about the abstract submission process, please reach out to the
@@ -31,12 +31,12 @@ greatly. Topics of interest include but are not limited to the following areas:
 | TBA | Abstracts due for talks |
 | TBA | Abstracts due for posters/demos |
 
-# Abstract submission guidelines
+## Abstract submission guidelines
 
 <!-- TODO: submission link and guidelines -->
 
 Submission guidelines will be posted here when abstract submission opens.
 
-# Questions?
+## Questions?
 
 Please reach out to the [organizers](/events/gcc2027/organizers/).

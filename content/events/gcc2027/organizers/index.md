@@ -46,16 +46,18 @@ autotoc: false
   }
 </style>
 
+# GCC2027 Organizers
+
 GCC2027 is a community effort from planning to post conference publishing and
 feedback. In addition to all the participants, presenters, and instructors,
 here are the people who make it happen.
 
-# GCC2027 Organizing Committee
+## GCC2027 Organizing Committee
 
 The organizing committee is the oversight and coordination group that makes sure
 GCC2027 runs smoothly.
 
-## Organizing Committee Chair
+### Organizing Committee Chair
 
 <div class="gx-tile-grid gcc-people not-prose">
   <div class="gx-tile">
@@ -65,7 +67,7 @@ GCC2027 runs smoothly.
   </div>
 </div>
 
-## Hosts
+### Hosts
 
 GCC2027 is hosted by the [Université de Sherbrooke](https://www.usherbrooke.ca/).
 
@@ -87,7 +89,7 @@ GCC2027 is hosted by the [Université de Sherbrooke](https://www.usherbrooke.ca/
   </div>
 </div>
 
-## Training Chairs
+### Training Chairs
 
 <div class="gx-tile-grid gcc-people not-prose">
   <div class="gx-tile">
@@ -102,7 +104,7 @@ GCC2027 is hosted by the [Université de Sherbrooke](https://www.usherbrooke.ca/
   </div>
 </div>
 
-## CoFest Chairs
+### CoFest Chairs
 
 <div class="gx-tile-grid gcc-people not-prose">
   <div class="gx-tile">
@@ -119,11 +121,11 @@ GCC2027 is hosted by the [Université de Sherbrooke](https://www.usherbrooke.ca/
 
 <!-- TODO: organizing committee contact email -->
 
-# Scientific Program Committee
+## Scientific Program Committee
 
 The scientific program committee oversees the abstract review process and helps shape the conference program.
 
-## Committee Chairs
+### Committee Chairs
 
 <div class="gx-tile-grid gcc-people not-prose">
   <div class="gx-tile">
@@ -138,7 +140,7 @@ The scientific program committee oversees the abstract review process and helps 
   </div>
 </div>
 
-## Committee Members
+### Committee Members
 
 <div class="alert alert-info" role="alert">
     Scientific Program Committee members will be announced soon.
