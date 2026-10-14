@@ -10,7 +10,9 @@ main_subsite: freiburg
 
 During the [German Conference on Bioinformatics](http://www.gcb2017.de/) in Tübingen, we presented (with [Milad Miladi](http://www.bioinf.uni-freiburg.de/~miladim/)) 3 posters related to Galaxy:
 
-{% twitter https://twitter.com/bebatut/status/910135440652500997 %}
+<img src="./tweet-910135440652500997.webp" alt="Post by Bérénice Batut (@bebatut): Presenting ASaiM during #GCB2017 #usegalaxy #metagenomics https://f1000research.com/posters/6-1695 ... Check out also our preprint http://www.biorxiv.org/content/early/2017/09/04/183970 …" width="550" height="865" />
+
+*Post by @bebatut on 19 September 2017*
 
 - [Building an open, collaborative, online infrastructure for bioinformatics training](https://f1000research.com/posters/6-1694)
 

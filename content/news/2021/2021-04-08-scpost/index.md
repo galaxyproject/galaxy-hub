@@ -17,5 +17,7 @@ The single-cell materials in the Galaxy Training Network (GTN) have [once again 
 
 The GTN materials paired with the continuously expanding Galaxy online computing platform, freely enable researchers and bio-enthusiasts to develop their understanding of various cutting-edge topics in single-cell. This, in conjunction with the [Single Cell interactive application](https://www.ebi.ac.uk/about/news/announcements/SCiAp) (SCiAp) computation interface, as well as the vast datasets from the [Human Cell Atlas](https://humancellatlas.usegalaxy.eu/) (HCA), provide users with a powerful playground of resources to explore at their hearts content.
 
-{% twitter https://twitter.com/emblebi/status/1377588856682393604 %}
+<img src="./tweet-1377588856682393604.webp" alt="Post by EMBL-EBI (@emblebi): #Singlecell data analysis doesn’t need to be difficult. SCiAp is a new computational interface by @ExpressionAtlas, based on #usegalaxy that facilitates analysis. @EBItraining tutorials available for help. Running on https://humancellatlas.usegalaxy.eu/ #denbi cloud." width="550" height="424" />
+
+*Post by @emblebi on 1 April 2021*
 

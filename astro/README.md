@@ -38,7 +38,7 @@ npm run test:unit:watch   # Vitest in watch mode
 
 ## Content and MDX
 
-Content files are plain markdown by default. Files that use interactive components (like `<Icon>`, `<VegaEmbed>`, `<Twitter>`, etc.) must opt in to MDX processing by adding `components: true` to their frontmatter:
+Content files are plain markdown by default. Files that use interactive components (like `<Icon>`, `<VegaEmbed>`, `<Mastodon>`, etc.) must opt in to MDX processing by adding `components: true` to their frontmatter:
 
 ```yaml
 ---
@@ -51,7 +51,7 @@ Without this flag, component tags will not be rendered. The `npm run content:lin
 
 ### Available components
 
-Icon, VegaEmbed, Twitter, Mastodon, VideoPlayer, Carousel, Flickr, Supporters, Contacts, MarkdownEmbed, CalendarEmbed, Insert, AgentShells, HarnessGuides, HarnessGuide, AgenticStack, AgentsLanding, OrbitHero.
+Icon, VegaEmbed, Mastodon, VideoPlayer, Carousel, Flickr, Supporters, Contacts, MarkdownEmbed, CalendarEmbed, Insert, AgentShells, HarnessGuides, HarnessGuide, AgenticStack, AgentsLanding, OrbitHero.
 
 ### MDX compatibility
 

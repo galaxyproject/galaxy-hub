@@ -2,7 +2,6 @@
 // Import these components to pass to MDX Content
 
 export { default as VegaEmbed } from './VegaEmbed.astro';
-export { default as Twitter } from './Twitter.astro';
 export { default as Mastodon } from './Mastodon.astro';
 export { default as VideoPlayer } from './VideoPlayer.astro';
 export { default as Carousel } from './Carousel.astro';
@@ -26,7 +25,6 @@ export { default as OrbitHero } from './OrbitHero.astro';
 // This map is for reference of kebab-case names used in content
 export const componentMapping = {
   'vega-embed': 'VegaEmbed',
-  twitter: 'Twitter',
   mastodon: 'Mastodon',
   'video-player': 'VideoPlayer',
   carousel: 'Carousel',

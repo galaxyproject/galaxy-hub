@@ -5,7 +5,6 @@ import { getPublishedNews } from '../../utils/content';
 
 // Import MDX components for embedded content
 import VegaEmbed from '../../components/mdx/VegaEmbed.astro';
-import Twitter from '../../components/mdx/Twitter.astro';
 import Mastodon from '../../components/mdx/Mastodon.astro';
 import VideoPlayer from '../../components/mdx/VideoPlayer.astro';
 import Carousel from '../../components/mdx/Carousel.astro';
@@ -52,7 +51,6 @@ const supporters = await resolveSupporters(fundingIds);
 // MDX components map
 const components = {
   VegaEmbed,
-  Twitter,
   Mastodon,
   VideoPlayer,
   Carousel,
