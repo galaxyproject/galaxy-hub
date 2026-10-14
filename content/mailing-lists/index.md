@@ -3,7 +3,7 @@ title: Galaxy Mailing Lists
 ---
 Mailing lists play a vital role in the Galaxy community:
 
-1. **They complement the [Galaxy Help Forum](https://help.galaxyproject.org/) and Galaxy Chat channels.** If you prefer a forum or chat interface, then use those instead.
+1. **They complement the [Galaxy Help Forum](https://help.galaxyproject.org/) and the [Galaxy Matrix chat channels](https://matrix.to/#/%23galaxyproject_Lobby:gitter.im).** If you prefer a forum or chat interface, then use those instead.
 1. They are a key part of [Galaxy's overall support efforts](/support/).
 1. They are a place where the community *[can ask and answer](/mailing-lists/#posting-a-question)* questions.
 1. They are a place for the discussion of open issues and best practices.
