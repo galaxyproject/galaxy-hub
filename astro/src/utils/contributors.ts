@@ -235,6 +235,17 @@ export function communityInHubHallOfFame(record: ContributorRecord | Organisatio
   return baseInHubHallOfFame(record);
 }
 
+/** Unknown credits have no opt-out record, so retain their existing profile links. */
+export function communityNameInHubHallOfFame(value: string): boolean {
+  const record = getContributor(value) || getOrganisation(value) || getGrant(value);
+  return !record || communityInHubHallOfFame(record);
+}
+
+export function getHubHallOfFameUrl(value: string): string | undefined {
+  const slug = communitySlug(value);
+  return slug && communityNameInHubHallOfFame(value) ? `/hall-of-fame/${slug}/` : undefined;
+}
+
 function normalizeGtnHallOfFameKey(value: string): string {
   return String(value || '')
     .trim()
