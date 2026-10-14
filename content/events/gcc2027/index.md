@@ -110,10 +110,6 @@ contributions:
 
 ## Stay informed
 
-Sign up for the GCC2027 announcement list to receive updates on registration,
-abstract submission deadlines, program announcements, and fellowship opportunities.
-Low volume — only what matters.
 {/* TODO: confirm the gcc2027-announce list exists */}
-<div class="not-prose flex justify-center my-5">
-  <a class="inline-block max-w-full rounded-md bg-galaxy-primary px-5 py-2.5 text-center text-sm font-semibold leading-tight text-white no-underline hover:bg-galaxy-dark" href="https://gaggle.email/join/gcc2027-announce@gaggle.email" target="_blank" rel="noopener noreferrer">Join the GCC2027 mailing list</a>
-</div>
+
+We will keep the community updated on all important GCC2027 announcements through our mailing list and other communication channels. More details are coming soon.
