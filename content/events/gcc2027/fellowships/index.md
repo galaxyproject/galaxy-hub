@@ -1,4 +1,6 @@
 ---
+title: "GCC2027 Fellowships"
+nav_title: Fellowships
 nav_order: 4
 autotoc: false
 ---

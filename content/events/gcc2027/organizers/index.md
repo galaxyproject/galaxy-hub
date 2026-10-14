@@ -1,4 +1,6 @@
 ---
+title: "GCC2027 Organizers"
+nav_title: Organizers
 nav_order: 12
 autotoc: false
 ---

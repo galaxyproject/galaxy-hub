@@ -1,4 +1,6 @@
 ---
+title: "Travel"
+nav_title: Travel
 nav_order: 9
 autotoc: false
 ---

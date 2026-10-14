@@ -1,4 +1,6 @@
 ---
+title: "Code of Conduct"
+nav_title: Conduct
 nav_order: 10
 autotoc: false
 ---

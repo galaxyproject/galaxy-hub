@@ -1,4 +1,6 @@
 ---
+title: "GCC2027 Key Dates"
+nav_title: Key Dates
 nav_order: 1
 autotoc: false
 ---

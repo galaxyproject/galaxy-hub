@@ -1,4 +1,6 @@
 ---
+title: "GCC2027 CollaborationFest (CoFest!)"
+nav_title: CoFest
 nav_order: 8
 autotoc: false
 ---

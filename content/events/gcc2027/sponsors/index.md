@@ -1,4 +1,6 @@
 ---
+title: "GCC2027 Sponsors"
+nav_title: Sponsors
 nav_order: 11
 autotoc: false
 ---

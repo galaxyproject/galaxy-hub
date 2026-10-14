@@ -1,4 +1,6 @@
 ---
+title: "Training opportunities at GCC2027"
+nav_title: Training
 nav_order: 6
 autotoc: false
 ---

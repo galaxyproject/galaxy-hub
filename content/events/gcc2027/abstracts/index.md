@@ -1,4 +1,6 @@
 ---
+title: "GCC2027 Abstracts"
+nav_title: Abstracts
 nav_order: 3
 autotoc: false
 ---

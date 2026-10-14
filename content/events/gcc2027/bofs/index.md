@@ -1,4 +1,5 @@
 ---
+title: "BoFs: Birds of a Feather"
 nav_order: 7
 autotoc: false
 nav_title: BoFs

@@ -1,4 +1,6 @@
 ---
+title: "GCC2027 Daily Schedule"
+nav_title: Schedule
 nav_order: 5
 autotoc: false
 ---
