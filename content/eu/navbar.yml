@@ -38,7 +38,7 @@ right:
     contents:
       - label: The European Server
         target: /eu/about/
-      - label: Publications
+      - label: Citations
         target: /eu/citations/
       - label: Citing Galaxy
         target: /eu/about/#acknowledgement
