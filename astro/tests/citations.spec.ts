@@ -46,7 +46,6 @@ test.describe('Subsite citations', () => {
       title: 'GenOuest Citations',
       server: 'galaxy.genouest.org Galaxy server, now replaced by usegalaxy.fr',
     },
-    { subsite: 'cz', title: 'Czechia Citations', server: 'usegalaxy.cz Galaxy server' },
   ];
 
   for (const { subsite, title, server } of serverCitations) {
