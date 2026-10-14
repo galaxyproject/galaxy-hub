@@ -4,10 +4,13 @@ date: '2026-10-13'
 tease: "48 hours, ocean data and fresh ideas! Galaxy Europe's Earth System Sciences platform joins the Ocean Hackathon adventure."
 hide_tease: false
 subsites: [global, eu]
-tags: [galaxy, ocean, hackathon, earth-system, data]
+tags: [event, marine biology, hackathon, earth-system, data]
 contributions:
   authorship:
     - detocjerome
+  funding:
+    - eurosciencegateway
+    - fairease
 ---
 
 # Galaxy Europe Goes Ocean!
