@@ -33,7 +33,6 @@ class ZoteroBibliographiesTests(unittest.TestCase):
             destinations,
             {
                 "content/belgium/citations/citations-belgium.bib": ">UseGalaxy.be",
-                "content/cz/citations/citations-cz.bib": ">MetaCentrum",
                 "content/genouest/citations/citations-genouest.bib": ">GenOuest",
                 "content/pasteur/citations/citations-pasteur.bib": ">Pasteur",
                 "content/us/citations/citations-us.bib": ">UseGalaxy.org",

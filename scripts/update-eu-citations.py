@@ -17,7 +17,6 @@ PAGE_SIZE = 100
 
 SUBSITE_ZOTERO_TAGS = {
     "belgium": ">UseGalaxy.be",
-    "cz": ">MetaCentrum",
     "genouest": ">GenOuest",
     "pasteur": ">Pasteur",
     "us": ">UseGalaxy.org",
