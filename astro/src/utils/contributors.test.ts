@@ -2,9 +2,11 @@ import { describe, expect, it } from 'vitest';
 import {
   buildGtnHallOfFameUrl,
   communityInHubHallOfFame,
+  communityNameInHubHallOfFame,
   extractAuthors,
   extractFunding,
   getContributor,
+  getHubHallOfFameUrl,
   getCommunityImage,
   getCommunityGithubHandle,
   getGrant,
@@ -78,6 +80,23 @@ describe('GTN Hall of Fame URLs', () => {
 });
 
 describe('Hub Hall of Fame opt-out', () => {
+  it('links eligible author chips but not opted-out credits', () => {
+    expect(getHubHallOfFameUrl('contributor1')).toBeUndefined();
+    expect(getHubHallOfFameUrl('an-example')).toBeUndefined();
+    expect(getHubHallOfFameUrl('Example organisation')).toBeUndefined();
+    expect(getHubHallOfFameUrl('bgruening')).toBe('/hall-of-fame/bgruening/');
+    expect(getHubHallOfFameUrl('Guest without a record')).toBe('/hall-of-fame/guest-without-a-record/');
+  });
+
+  it('rejects credited opt-outs by ID or display name while retaining unknown credits', () => {
+    expect(communityNameInHubHallOfFame('contributor1')).toBe(false);
+    expect(communityNameInHubHallOfFame('Contributor A')).toBe(true);
+    expect(communityNameInHubHallOfFame('an-example')).toBe(false);
+    expect(communityNameInHubHallOfFame('Example organisation')).toBe(false);
+    expect(communityNameInHubHallOfFame('bgruening')).toBe(true);
+    expect(communityNameInHubHallOfFame('Guest without a record')).toBe(true);
+  });
+
   it('excludes the GTN build placeholders, which set hub-halloffame: no', () => {
     for (const id of ['contributor1', 'contributor2', 'awspolly']) {
       expect(communityInHubHallOfFame(getContributor(id)!)).toBe(false);

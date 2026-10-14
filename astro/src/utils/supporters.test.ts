@@ -23,4 +23,17 @@ describe('resolveSupporters', () => {
       url: 'https://datenkompetenz.cloud',
     });
   });
+
+  it('does not link opted-out organisations or grants to unpublished profiles', async () => {
+    const [organisation, grant, eligible] = await resolveSupporters([
+      'an-example',
+      'an-example',
+      'eurosciencegateway',
+      'deNBI',
+    ]);
+    expect(organisation.name).toBeTruthy();
+    expect(organisation.profileUrl).toBeUndefined();
+    expect(grant.profileUrl).toBe('/hall-of-fame/eurosciencegateway/');
+    expect(eligible.profileUrl).toBe('/hall-of-fame/denbi/');
+  });
 });
