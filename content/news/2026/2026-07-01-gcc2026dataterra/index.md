@@ -41,10 +41,17 @@ Coming from accross france and with participation of our felow european GESS peo
 - Marie Jossé, Beatriz Serrano-Solano, Yvan Le Bras, Jérôme Detoc, Samuel Keuchkerian: How to build and structure one’s community: the quid of overlapping communities
 - Martin Carrère, Nate Coraor: Where does Galaxy’s security responsibility end and yours begin?
 
+<img width="4096" height="2304" alt="IMG20260622174417" src="https://github.com/user-attachments/assets/62ae7e3e-69ed-4eae-824d-af24c571afc2" />
+
+<img width="4096" height="2304" alt="IMG20260624180642" src="https://github.com/user-attachments/assets/2f26b7f2-1f82-46bc-80ba-51326c71b4d6" />
+<img width="4096" height="2304" alt="IMG20260624181849" src="https://github.com/user-attachments/assets/f49f3227-74ce-48ad-b4cc-8da2da1bf2f1" />
+
+
 #### Data Terra x PNDB sponsorships
 Data Terra and the PNDB where present at GCC2026 to support Galaxy and its community !
 
-![Photo of the stand](../stand.jpg)
+<img width="4096" height="2304" alt="IMG20260622091636" src="https://github.com/user-attachments/assets/ba468cdf-f28d-4472-a179-c4caa25dd35c" />
+
 
 ## Ecology
 ### Why Concarneau
