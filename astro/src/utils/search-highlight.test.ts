@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { escapeHtml, highlightMatch } from './search-highlight';
+import { decodeEntities, escapeHtml, highlightMatch } from './search-highlight';
 
 const MARK = '<mark class="bg-yellow-200">';
 
@@ -51,5 +51,31 @@ describe('highlightMatch', () => {
 
   it('returns an empty string for empty text', () => {
     expect(highlightMatch('', ['galaxy'])).toBe('');
+  });
+});
+
+describe('decodeEntities', () => {
+  it('decodes named and numeric entities', () => {
+    expect(decodeEntities('a&nbsp;b &amp; c &bull; &#65;&#x42; &rarr;')).toBe('a b & c • AB →');
+  });
+
+  it('leaves unknown or invalid entities as text', () => {
+    expect(decodeEntities('&bogus; &#xFFFFFFF; &#0;')).toBe('&bogus; &#xFFFFFFF; &#0;');
+  });
+});
+
+describe('highlightMatch with entities in the index', () => {
+  it('shows authored entities as their characters', () => {
+    expect(highlightMatch('a&nbsp;b &amp; c', [])).toBe('a b &amp; c');
+    expect(highlightMatch('&bogus;', [])).toBe('&amp;bogus;');
+  });
+
+  it('keeps encoded markup as text', () => {
+    expect(highlightMatch('&lt;img src=x onerror=alert(1)&gt;', [])).toBe('&lt;img src=x onerror=alert(1)&gt;');
+  });
+
+  it('does not match entity names', () => {
+    expect(highlightMatch('a&nbsp;b', ['nbsp'])).toBe('a b');
+    expect(highlightMatch('a &amp; b', ['amp'])).toBe('a &amp; b');
   });
 });
