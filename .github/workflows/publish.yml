@@ -7,6 +7,8 @@ on:
   schedule:
     # Just after midnight UTC, so dated news and events change on their date.
     - cron: "30 0 * * *"
+permissions:
+  contents: read
 concurrency:
   group: publish-${{ github.ref_name }}
 jobs:
@@ -16,6 +18,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v7
+        with:
+          persist-credentials: false
       - name: Setup Node.js
         uses: actions/setup-node@v7
         with:
