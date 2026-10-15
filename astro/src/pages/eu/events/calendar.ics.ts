@@ -12,7 +12,6 @@ export async function GET(context: APIContext) {
   // Get events from the past year and all future events, filtered to subsite 'eu'
   const relevantEvents = events
     .filter((event) => {
-      if (event.data.draft) return false;
       if (!contentMatchesSubsite(event.data.subsites, 'eu')) return false;
 
       const eventDate = event.data.date instanceof Date ? event.data.date : new Date(event.data.date || '');
