@@ -8,6 +8,9 @@ on:
   schedule:
     - cron: "0 0,8,16 * * *"
 
+permissions:
+  contents: read
+
 jobs:
   collect:
     name: Collect news/events from the Galaxy Training Network
@@ -17,6 +20,7 @@ jobs:
       - uses: actions/checkout@v7
         with:
           fetch-depth: 1
+          persist-credentials: false
 
       - name: Generate GitHub App token
         id: app-token
