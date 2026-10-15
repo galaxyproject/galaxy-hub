@@ -1,5 +1,5 @@
 ---
-import { groupCitationsByYear, type Citation } from '../../utils/citations';
+import { citationTitleHtml, groupCitationsByYear, type Citation } from '../../utils/citations';
 
 interface Props {
   citations: Citation[];
@@ -54,10 +54,10 @@ const { yearCounts, years } = groupCitationsByYear(citations);
               class="hover:text-galaxy-primary transition-colors"
               target="_blank"
               rel="noopener noreferrer"
-              set:html={c.title || 'Untitled'}
+              set:html={citationTitleHtml(c.title)}
             />
           ) : (
-            <span set:html={c.title || 'Untitled'} />
+            <span set:html={citationTitleHtml(c.title)} />
           )}
         </h2>
         {c.authors && <p class="text-sm text-chicago-600 mt-1">{c.authors}</p>}
