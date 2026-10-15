@@ -16,7 +16,7 @@ import matter from 'gray-matter';
 import { glob } from 'glob';
 import { processMarkdown, processFrontmatter } from './markdown-processor.mjs';
 import { normalizeSlugSegment, normalizeSlug } from './slug-utils.mjs';
-import { isFutureDate } from '../utils/publish-date.mjs';
+import { isDraft, isFutureDate } from '../utils/publish-date.mjs';
 export { normalizeSlugSegment, normalizeSlug };
 
 const JSX_COMMENT_RE = /\{\/\*[\s\S]*?\*\/\}/g;
@@ -515,6 +515,12 @@ async function processMarkdownFile(filePath, { contentDir = CONTENT_DIR, outputD
   // date, so no listing, feed or search entry links to a page that isn't built.
   if (collection === 'news' && isFutureDate(frontmatter.date)) {
     console.log(`  Skipping future-dated news: ${relativePath}`);
+    return null;
+  }
+
+  // Drafts are never built, so no listing, feed, tag page or search entry can show them.
+  if (isDraft(frontmatter)) {
+    console.log(`  Skipping draft: ${relativePath}`);
     return null;
   }
 
