@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { Cite } from '@citation-js/core';
 import '@citation-js/plugin-bibtex';
+import { safeUrl, sanitizeHtml } from './safe-html';
 
 export interface Citation {
   title?: string;
@@ -30,12 +31,18 @@ function toAuthors(item: any) {
     .join('; ');
 }
 
+/** Citation links: web pages and contact addresses only. */
+const URL_SCHEMES = ['http:', 'https:', 'mailto:'];
+
 function toUrl(item: any) {
   const doi = item?.DOI || item?.doi;
   if (doi) return `https://doi.org/${doi}`;
-  if (item?.URL) return item.URL;
-  if (item?.url) return item.url;
-  return undefined;
+  return safeUrl(item?.URL || item?.url, URL_SCHEMES);
+}
+
+/** Title HTML for `set:html`: BibTeX titles carry inline markup such as `<i>` or `<scp>`. */
+export function citationTitleHtml(title: string | undefined): string {
+  return sanitizeHtml(title || 'Untitled', 'inline');
 }
 
 export async function loadCitations(citationDir: string): Promise<{ exists: boolean; citations: Citation[] }> {

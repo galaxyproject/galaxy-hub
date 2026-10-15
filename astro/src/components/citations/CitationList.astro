@@ -1,5 +1,5 @@
 ---
-import type { Citation } from '../../utils/citations';
+import { citationTitleHtml, type Citation } from '../../utils/citations';
 import { countByYear } from '../../utils/listFilters';
 import CitationFilters from './CitationFilters.vue';
 
@@ -38,10 +38,10 @@ const unknownCount = citations.filter((c) => !c.year).length;
                 class="hover:text-galaxy-primary transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
-                set:html={c.title || 'Untitled'}
+                set:html={citationTitleHtml(c.title)}
               />
             ) : (
-              <span set:html={c.title || 'Untitled'} />
+              <span set:html={citationTitleHtml(c.title)} />
             )}
           </h2>
           {c.authors && <p class="text-sm text-chicago-600 mt-1">{c.authors}</p>}
