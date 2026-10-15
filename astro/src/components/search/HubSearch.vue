@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue';
 import { formatDate } from '@/utils/dateUtils';
+import { highlightMatch as highlightWords } from '@/utils/search-highlight';
 import ExternalIcon from '../common/ExternalIcon.vue';
 
 interface SearchEntry {
@@ -166,23 +167,13 @@ function getCollectionColor(collection: string): string {
   return colors[collection] || 'bg-ebony-clay-50 text-chicago-800';
 }
 
-function highlightMatch(text: string, maxLength: number = 200): string {
-  if (!text) return '';
-
+function highlightMatch(text: string): string {
   const words = props.query
     .toLowerCase()
     .split(/\s+/)
     .map((w) => normalizeQueryWord(w))
     .filter((w) => w.length > 2);
-
-  let result = text.length > maxLength ? text.slice(0, maxLength) + '...' : text;
-
-  words.forEach((word) => {
-    const regex = new RegExp(`(${word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
-    result = result.replace(regex, '<mark class="bg-yellow-200">$1</mark>');
-  });
-
-  return result;
+  return highlightWords(text, words);
 }
 </script>
 
