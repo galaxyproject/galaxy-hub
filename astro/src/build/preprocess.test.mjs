@@ -450,6 +450,15 @@ describe('processMarkdownFile publish date', () => {
     expect(isWritten(filePath)).toBe(false);
   });
 
+  it('keeps inserts marked draft: true so <slot> and <Insert> still resolve', async () => {
+    const filePath = path.join(contentDir, 'some/page/draft_insert.md');
+    fs.mkdirSync(path.dirname(filePath), { recursive: true });
+    fs.writeFileSync(filePath, `---\ndraft: true\n---\nInsert body\n`);
+    expect((await processFixture(filePath)).collection).toBe('inserts');
+    expect(isWritten(filePath)).toBe(true);
+    expect(resolveInsertContent('/some/page/draft_insert', 0, contentDir).content).toContain('Insert body');
+  });
+
   it('keeps news marked draft: false', async () => {
     const filePath = path.join(contentDir, 'news/2020/2020-01-01-ready/index.md');
     fs.mkdirSync(path.dirname(filePath), { recursive: true });
