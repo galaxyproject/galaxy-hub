@@ -61,6 +61,7 @@
     "remark-parse": "^11.0.0",
     "remark-stringify": "^11.0.0",
     "remark-toc": "^9.0.0",
+    "sanitize-html": "^2.18.1",
     "tailwind-merge": "^3.7.0",
     "tailwindcss": "^4.3.2",
     "unified": "^11.0.5",
@@ -74,6 +75,7 @@
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@playwright/test": "^1.63.0",
+    "@types/sanitize-html": "^2.16.2",
     "eslint": "^10.12.0",
     "eslint-plugin-astro": "^3.2.1",
     "eslint-plugin-vue": "^10.11.1",
