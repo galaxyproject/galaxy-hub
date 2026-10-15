@@ -4,6 +4,14 @@
  */
 
 /**
+ * Check if frontmatter marks content as a draft (`draft: true`).
+ * Only the boolean true counts, so a stray string never hides a page.
+ */
+export function isDraft(frontmatter) {
+  return frontmatter?.draft === true;
+}
+
+/**
  * Check if a date is after now.
  * Missing dates are not future (undated content is published). Unparseable
  * dates are not future either, so they reach the content schema and fail the
