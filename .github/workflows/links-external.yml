@@ -5,6 +5,9 @@ on:
   schedule:
     - cron: "30 23 * * *"
 
+permissions:
+  issues: write
+
 jobs:
   check_links:
     name: Check External Links
