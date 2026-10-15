@@ -21,7 +21,7 @@ const { subsite, siteUrl = 'https://galaxyproject.org', limit = 5 } = Astro.prop
 const allNews = await getCollection('news');
 const newsArticles = allNews
   .filter((article) => {
-    return contentMatchesSubsite(article.data.subsites, subsite) && !article.data.draft;
+    return contentMatchesSubsite(article.data.subsites, subsite);
   })
   .sort((a, b) => {
     const dateA = a.data.date ? new Date(a.data.date) : new Date(0);
