@@ -11,6 +11,7 @@ import {
   getCommunityGithubHandle,
   getGrant,
   getOrganisation,
+  profileBioHtml,
 } from './contributors';
 import { inHubHallOfFame } from './community-base.mjs';
 
@@ -150,5 +151,38 @@ describe('avatar resolution', () => {
     expect(getGrant('eurosciencegateway')?.avatarUrl).toBe(
       'https://training.galaxyproject.org/training-material/assets/images/eurosciencegateway.png'
     );
+  });
+});
+
+describe('profile bio HTML', () => {
+  it('renders Markdown bios with links, lists and images', () => {
+    const markdown = [
+      '[ELIXIR Germany](https://www.denbi.de/elixir-de/) is **funded**.',
+      '',
+      '- one',
+      '- two',
+      '',
+      '![logo](https://example.org/logo.png)',
+    ].join('\n');
+    const html = [
+      '<p><a href="https://www.denbi.de/elixir-de/">ELIXIR Germany</a> is <strong>funded</strong>.</p>',
+      '<ul>',
+      '<li>one</li>',
+      '<li>two</li>',
+      '</ul>',
+      '<p><img src="https://example.org/logo.png" alt="logo" /></p>',
+      '',
+    ].join('\n');
+    expect(profileBioHtml(markdown)).toBe(html);
+  });
+
+  it('removes raw HTML and script links that marked passes through', () => {
+    const markdown = 'Hi <script>alert(1)</script>[x](javascript:alert(1)) <img src=x onerror=alert(1)>';
+    expect(profileBioHtml(markdown)).toBe('<p>Hi x </p>\n');
+  });
+
+  it('keeps mailto links and drops relative or non-web images', () => {
+    const markdown = '[Mail](mailto:someone@example.org) ![a](/training-material/a.png) ![b](ftp://example.org/b.png)';
+    expect(profileBioHtml(markdown)).toBe('<p><a href="mailto:someone@example.org">Mail</a>  </p>\n');
   });
 });

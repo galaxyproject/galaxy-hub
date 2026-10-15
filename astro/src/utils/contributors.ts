@@ -1,7 +1,9 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { marked } from 'marked';
 import { parse } from 'yaml';
+import { sanitizeHtml } from './safe-html';
 import {
   communitySlug as baseCommunitySlug,
   inHubHallOfFame as baseInHubHallOfFame,
@@ -288,6 +290,11 @@ export function getCommunityGithubHandle(record?: CommunityGithubRecord): string
   }
 
   return undefined;
+}
+
+/** Hall-of-fame bio HTML for `set:html`: synced Markdown, rendered with marked, then allowlisted. */
+export function profileBioHtml(markdown: string): string {
+  return sanitizeHtml(marked.parse(markdown, { async: false }), 'bio');
 }
 
 export function getCommunityImage(
