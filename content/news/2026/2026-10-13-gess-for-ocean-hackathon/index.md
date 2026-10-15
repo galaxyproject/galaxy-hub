@@ -9,8 +9,10 @@ contributions:
   authorship:
     - detocjerome
   funding:
+    - dataterra
     - eurosciencegateway
     - fairease
+    - gaiadata
 ---
 
 # Galaxy Europe Goes Ocean!
