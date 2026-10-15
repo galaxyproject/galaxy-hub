@@ -4,11 +4,15 @@ import { test, expect, type Page } from '@playwright/test';
 const historyIndex = (page: Page) => page.evaluate(() => window.history.state?.index);
 
 test.describe('Filter URL sync keeps router history state and hash', () => {
+  // Serial: parallel cold page loads race Vite's dev dependency re-optimisation and fail hydration
+  test.describe.configure({ mode: 'serial' });
+  test.setTimeout(90_000);
+
   test('search query', async ({ page }) => {
     // Google CSE rewrites the URL and nulls history.state after load
     await page.route(/cse\.google\.com/, (route) => route.abort());
     await page.goto('/search/#keep-me');
-    await expect(page.locator('astro-island:has(.search-page)')).not.toHaveAttribute('ssr', { timeout: 20_000 });
+    await expect(page.locator('astro-island:has(.search-page)')).not.toHaveAttribute('ssr', { timeout: 60_000 });
     const input = page.getByPlaceholder('Search articles, events, platforms...');
     await expect(input).toBeVisible();
     const before = await historyIndex(page);
@@ -21,7 +25,7 @@ test.describe('Filter URL sync keeps router history state and hash', () => {
 
   test('news year', async ({ page }) => {
     await page.goto('/news/#keep-me');
-    await expect(page.locator('astro-island:has(.news-list)')).not.toHaveAttribute('ssr', { timeout: 20_000 });
+    await expect(page.locator('astro-island:has(.news-list)')).not.toHaveAttribute('ssr', { timeout: 60_000 });
     const before = await historyIndex(page);
     expect(typeof before).toBe('number');
 
@@ -51,8 +55,12 @@ test.describe('Filter URL sync keeps router history state and hash', () => {
     const before = await historyIndex(page);
     expect(typeof before).toBe('number');
 
-    await page.locator('[data-year-button]:not([data-year="all"])').first().click();
-    await expect(page).toHaveURL(/\/elixir-it\/citations\/\?year=\d{4}#keep-me$/);
+    const button = page
+      .locator('[data-year-button][data-year]:not([data-year="all"]):not([data-year="unknown"])')
+      .first();
+    const year = await button.getAttribute('data-year');
+    await button.click();
+    await expect(page).toHaveURL(new RegExp(`/elixir-it/citations/\\?year=${year}#keep-me$`));
     expect(await historyIndex(page)).toBe(before);
   });
 });
