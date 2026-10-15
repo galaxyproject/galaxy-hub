@@ -1,6 +1,5 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { marked } from 'marked';
 import {
   buildGtnHallOfFameUrl,
   communityHasGtnHallOfFame,
@@ -9,6 +8,7 @@ import {
   findCommunityBySlug,
   getCommunityGithubHandle,
   listContributors,
+  profileBioHtml,
   toArray,
 } from '../../utils/contributors';
 import { getContributionIndex } from '../../utils/hallOfFameIndex';
@@ -45,7 +45,7 @@ const profileDescription =
   (community as any)?.record?.bio ||
   (community as any)?.record?.description ||
   (community as any)?.record?.funding_statement;
-const profileDescriptionHtml = profileDescription ? marked.parse(profileDescription) : '';
+const profileDescriptionHtml = profileDescription ? profileBioHtml(String(profileDescription)) : '';
 const githubHandle = community?.record ? getCommunityGithubHandle(community.record as any) : undefined;
 const avatarUrl = community?.record ? getCommunityImage(community.record as any) : undefined;
 
