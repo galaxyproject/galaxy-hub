@@ -15,6 +15,7 @@ import logging
 from validate_common import (
     ROOT,
     aggregate_frontmatter,
+    check_main_subsite_consistency,
     check_recent_news_folder_names,
     clean_schema,
     gather_ids,
@@ -42,6 +43,10 @@ def main():
         aggregated_news,
         cutoff=args.cutoff,
     )
+    main_subsite_errors = check_main_subsite_consistency(
+        aggregated_news,
+        ids["subsites"],
+    )
     parse_error_count = len(parse_errors)
 
     if errors and not args.quiet:
@@ -52,8 +57,10 @@ def main():
     if folder_errors and not args.quiet:
         for err in folder_errors:
             logger.error(f"FOLDER - {err}")
+    if main_subsite_errors and not args.quiet:
+        log_validation_errors(main_subsite_errors, logger)
 
-    if code == 0 and not folder_errors and parse_error_count == 0:
+    if code == 0 and not folder_errors and not main_subsite_errors and parse_error_count == 0:
         logger.info("OK: news frontmatter valid")
     else:
         logger.error("FAILED: news frontmatter has issues")
