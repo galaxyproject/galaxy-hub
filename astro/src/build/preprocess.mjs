@@ -519,7 +519,8 @@ async function processMarkdownFile(filePath, { contentDir = CONTENT_DIR, outputD
   }
 
   // Drafts are never built, so no listing, feed, tag page or search entry can show them.
-  if (isDraft(frontmatter)) {
+  // Inserts are exempt: they are inlined by <slot> and rendered by <Insert>, never listed.
+  if (collection !== 'inserts' && isDraft(frontmatter)) {
     console.log(`  Skipping draft: ${relativePath}`);
     return null;
   }
