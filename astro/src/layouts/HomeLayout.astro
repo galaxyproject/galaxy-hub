@@ -101,7 +101,7 @@ const { title, description = 'Galaxy Community Hub - Open source platform for da
           </div>
 
           <!-- Search -->
-          <button class="search-toggle" id="search-toggle" aria-label="Search">
+          <button class="search-toggle" id="search-toggle" aria-label="Search" aria-keyshortcuts="Meta+K Control+K">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path
                 stroke-linecap="round"
@@ -116,7 +116,16 @@ const { title, description = 'Galaxy Community Hub - Open source platform for da
         <!-- Search overlay -->
         <div class="search-overlay hidden" id="search-overlay">
           <form action="/search/" method="get" class="search-form">
-            <input type="search" name="q" placeholder="Search Galaxy Hub..." class="search-input" id="search-input" />
+            <input
+              type="search"
+              name="q"
+              placeholder="Search Galaxy Hub..."
+              class="search-input"
+              id="search-input"
+              aria-keyshortcuts="Meta+K Control+K"
+              data-search-shortcut="overlay"
+              data-search-shortcut-opener="search-toggle"
+            />
             <button type="button" class="search-close" id="search-close" aria-label="Close search">
               <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
@@ -562,6 +571,10 @@ const { title, description = 'Galaxy Community Hub - Open source platform for da
 
       // Run on initial load and after view transitions
       document.addEventListener('astro:page-load', initHomeLayout);
+    </script>
+    <script>
+      import { initSearchShortcut } from '../utils/searchShortcut';
+      initSearchShortcut();
     </script>
   </body>
 </html>

@@ -51,6 +51,8 @@ watch(activeTab, (tab) => {
         type="text"
         placeholder="Search articles, events, platforms..."
         class="w-full text-lg"
+        aria-keyshortcuts="Meta+K Control+K"
+        data-search-shortcut="page"
         autofocus
       />
     </div>
