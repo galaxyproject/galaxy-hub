@@ -39,17 +39,48 @@ export function getUTCDate(date: Date | string): number {
 }
 
 /**
- * Format a date for display
+ * Display variants for formatDate and formatDateRange.
+ * Passing a boolean instead is shorthand for { short }.
+ */
+export interface DateFormatOptions {
+  /** Short month names (Jan) instead of long ones (January). Default true. */
+  short?: boolean;
+  /** Include the year. Default true. */
+  year?: boolean;
+  /** Start with the long weekday name, as on event pages ("Monday, January 15, 2024"). Default false. */
+  weekday?: boolean;
+  /** 'en-GB' puts the day first ("15 Jan 2024"), as the bare subsite tables do. Default 'en-US'. */
+  locale?: 'en-US' | 'en-GB';
+}
+
+function resolveFormat(format: boolean | DateFormatOptions): Required<DateFormatOptions> {
+  const options = typeof format === 'boolean' ? { short: format } : format;
+  return { short: true, year: true, weekday: false, locale: 'en-US', ...options };
+}
+
+function isValidDate(d: Date | null): d is Date {
+  return d !== null && !isNaN(d.getTime());
+}
+
+/** Whole days since the epoch for the UTC calendar day of a date, ignoring the time. */
+function utcDayNumber(d: Date): number {
+  return Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate()) / 86_400_000;
+}
+
+/**
+ * Format a date for display, always as its UTC calendar day
  * @param date - Date to format
- * @param short - If true, use short month names (Jan, Feb). Default true for lists.
+ * @param format - Format options, or a boolean for short month names (Jan, Feb). Default short.
  * @returns Formatted date string like "Jan 15, 2024" or "January 15, 2024"
  */
-export function formatDate(date: Date | string | undefined | null, short: boolean = true): string {
+export function formatDate(date: Date | string | undefined | null, format: boolean | DateFormatOptions = true): string {
   const d = toDate(date);
-  if (!d || isNaN(d.getTime())) return '';
-  return d.toLocaleDateString('en-US', {
+  if (!isValidDate(d)) return '';
+  const { short, year, weekday, locale } = resolveFormat(format);
+  return d.toLocaleDateString(locale, {
     timeZone: 'UTC',
-    year: 'numeric',
+    weekday: weekday ? 'long' : undefined,
+    year: year ? 'numeric' : undefined,
     month: short ? 'short' : 'long',
     day: 'numeric',
   });
@@ -58,39 +89,60 @@ export function formatDate(date: Date | string | undefined | null, short: boolea
 /**
  * Format a date range for events
  * @param start - Start date
- * @param end - End date (optional)
- * @param short - If true, use short month names. Default true for lists.
- * @returns Formatted date range like "Jan 15 - 17, 2024" or "Jan 15 - Feb 2, 2024"
+ * @param end - End date (optional; ignored when missing, invalid or on the start day)
+ * @param format - Format options, or a boolean for short month names. Default short.
+ * @returns Formatted date range like "Jan 15 - 17, 2024" or "Jan 15, 2024 - Feb 2, 2024".
+ *   Only the default US month-day-year form shortens ranges within one month; the
+ *   weekday, day-first and year-less forms always show both dates in full.
  */
 export function formatDateRange(
   start: Date | string | undefined | null,
   end?: Date | string | undefined | null,
-  short: boolean = true
+  format: boolean | DateFormatOptions = true
 ): string {
-  if (!start) return '';
-
   const startDate = toDate(start);
   const endDate = toDate(end);
 
-  if (!startDate || isNaN(startDate.getTime())) return '';
+  if (!isValidDate(startDate)) return '';
 
-  // No end date or same as start
-  if (!endDate || startDate.getTime() === endDate.getTime()) {
-    return formatDate(startDate, short);
+  // No end date, or ends on the start day
+  if (!isValidDate(endDate) || utcDayNumber(startDate) === utcDayNumber(endDate)) {
+    return formatDate(startDate, format);
   }
 
+  const { short, year, weekday, locale } = resolveFormat(format);
+  const canShorten = locale === 'en-US' && year && !weekday;
+
   // Same month and year - show "Jan 15 - 17, 2024"
-  if (startDate.getUTCMonth() === endDate.getUTCMonth() && startDate.getUTCFullYear() === endDate.getUTCFullYear()) {
-    const monthDay = startDate.toLocaleDateString('en-US', {
-      timeZone: 'UTC',
-      month: short ? 'short' : 'long',
-      day: 'numeric',
-    });
+  if (
+    canShorten &&
+    startDate.getUTCMonth() === endDate.getUTCMonth() &&
+    startDate.getUTCFullYear() === endDate.getUTCFullYear()
+  ) {
+    const monthDay = formatDate(startDate, { short, year: false });
     return `${monthDay} - ${endDate.getUTCDate()}, ${endDate.getUTCFullYear()}`;
   }
 
-  // Different months - show full dates
-  return `${formatDate(startDate, short)} - ${formatDate(endDate, short)}`;
+  // Otherwise show both dates in full
+  return `${formatDate(startDate, format)} - ${formatDate(endDate, format)}`;
+}
+
+/**
+ * Number of calendar days an event covers, counting its first and last day (UTC).
+ * Returns 1 for a one-day event (no end, or the end is on the start day), and null
+ * when the start is missing or invalid, the end is invalid, or the end is before the start.
+ */
+export function eventDurationDays(
+  start: Date | string | undefined | null,
+  end?: Date | string | undefined | null
+): number | null {
+  const startDate = toDate(start);
+  if (!isValidDate(startDate)) return null;
+  if (!end) return 1;
+  const endDate = toDate(end);
+  if (!isValidDate(endDate)) return null;
+  const days = utcDayNumber(endDate) - utcDayNumber(startDate) + 1;
+  return days >= 1 ? days : null;
 }
 
 /**
