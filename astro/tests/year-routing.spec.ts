@@ -50,7 +50,7 @@ test.describe('Year filters are routable', () => {
     await expect(island).not.toHaveAttribute('ssr', { timeout: 60_000 });
     const yearButton = page.getByRole('button', { name: /^\d{4}/ }).nth(1);
     const year = ((await yearButton.textContent()) || '').match(/\d{4}/)?.[0] as string;
-    const count = page.locator('.news-list > p').first();
+    const count = page.locator('.news-list [data-filter-count]');
 
     await yearButton.click();
     await expect(page).toHaveURL(new RegExp(`/news/\\?year=${year}$`));
