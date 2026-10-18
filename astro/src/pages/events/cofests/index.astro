@@ -90,9 +90,9 @@ const pastEvents = taggedEvents
         <div class="space-y-2">
           {pastEvents.map((event) => <a
             href={`/${event.data.slug}/`}
-            class="flex items-center gap-3 p-3 bg-ebony-clay-50 rounded-lg hover:bg-ebony-clay-50 transition-colors"
+            class="flex flex-col md:flex-row md:items-center gap-1 md:gap-3 p-3 bg-ebony-clay-50 rounded-lg hover:bg-ebony-clay-50 transition-colors"
           >
-            <span class="text-sm min-w-24">
+            <span class="text-sm min-w-24 shrink-0">
               <EventDate start={event.data.date} end={event.data.end} past />
             </span>
             <span class="text-chicago-700 hover:text-galaxy-primary">{event.data.title}</span>
