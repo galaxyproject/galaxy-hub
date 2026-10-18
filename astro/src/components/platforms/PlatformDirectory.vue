@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import { ref, computed, onMounted, watch } from 'vue';
+import { ref, computed, onMounted, onUnmounted, watch } from 'vue';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { renderMarkdownInline } from '@/utils/markdown';
+import { onPopState, readParams, writeParams } from '@/utils/urlFilters';
 
 interface Platform {
   slug: string;
@@ -274,40 +275,30 @@ function closeAutocomplete() {
   }, 150);
 }
 
-function updateUrl(name: string, value: string | null) {
-  const params = new URLSearchParams(window.location.search);
-  if (value === null) {
-    params.delete(name);
-  } else {
-    params.set(name, value);
-  }
-  const query = params.toString();
-  const newUrl = `${window.location.pathname}${query ? `?${query}` : ''}${window.location.hash}`;
-  // Keep the existing state: Astro's ClientRouter stores its navigation index there
-  window.history.replaceState(window.history.state, '', newUrl);
+// URL params: `scope` and `platform_group` (plural slug; singular slugs are accepted on read)
+const FILTER_PARAMS = { scope: 'all', platform_group: null };
+
+function applyUrlFilters() {
+  const { scope, platform_group: groupSlug } = readParams(FILTER_PARAMS);
+  selectedPlatformGroup.value = (groupSlug && urlSlugToGroup[groupSlug]) || 'all';
+  selectedScope.value = scope && scopes.value.includes(scope) ? scope : 'all';
 }
 
+let stopPopState = () => {};
+
 onMounted(() => {
-  const urlParams = new URLSearchParams(window.location.search);
-  const param = urlParams.get('platform_group');
-  if (param) {
-    const group = urlSlugToGroup[param];
-    if (group) {
-      selectedPlatformGroup.value = group;
-    }
-  }
-  const scopeParam = urlParams.get('scope');
-  if (scopeParam && scopeParam !== 'all' && scopes.value.includes(scopeParam)) {
-    selectedScope.value = scopeParam;
-  }
+  applyUrlFilters();
+  // Back/forward restores the filters from the URL
+  stopPopState = onPopState(applyUrlFilters);
 });
 
-watch(selectedPlatformGroup, (group) => {
-  updateUrl('platform_group', group === 'all' ? null : groupToUrlSlug[group] || group);
-});
+onUnmounted(() => stopPopState());
 
-watch(selectedScope, (scope) => {
-  updateUrl('scope', scope === 'all' ? null : scope);
+watch([selectedScope, selectedPlatformGroup], ([scope, group]) => {
+  writeParams(
+    { scope, platform_group: group === 'all' ? null : groupToUrlSlug[group] || group },
+    { defaults: FILTER_PARAMS }
+  );
 });
 
 watch(searchQuery, () => {
