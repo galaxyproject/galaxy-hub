@@ -202,7 +202,7 @@ function esgUrl(path: string): string {
           {esgEvents.length > 0 ? (
             <ul class="space-y-3 mb-4">
               {esgEvents.map((event) => <li class="flex gap-2">
-                <span class="text-sm">
+                <span class="text-sm shrink-0">
                   <EventDate start={event.data.date} end={event.data.end} past />
                 </span>
                 <a href={`/${event.data.slug}/`} class="text-chicago-700 hover:text-galaxy-gold text-sm">
