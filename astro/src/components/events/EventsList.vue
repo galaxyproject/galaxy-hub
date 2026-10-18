@@ -52,7 +52,8 @@ function getYearFromQuery(): number | null {
 }
 
 // Year-based navigation for past events
-const selectedPastYear = ref<number | null>(getYearFromQuery());
+// Read from the URL after mount: the server render has no query, and hydration must match it
+const selectedPastYear = ref<number | null>(null);
 const pageSize = 50;
 const pastDisplayCount = ref(pageSize);
 
@@ -61,6 +62,7 @@ onMounted(() => {
   if (props.initialSubsite && props.initialSubsite !== 'global') {
     currentSubsite.set(props.initialSubsite);
   }
+  selectedPastYear.value = getYearFromQuery();
   hasMounted.value = true;
 });
 
