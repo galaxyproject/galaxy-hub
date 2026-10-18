@@ -28,6 +28,38 @@ test.describe('Search keyboard shortcut', () => {
     await expect(page.locator('#search-input')).toBeFocused();
   });
 
+  test('closing the home search overlay returns focus to its toggle', async ({ page }) => {
+    await page.goto('/');
+    const toggle = page.locator('#search-toggle');
+    await expect(toggle).toHaveAttribute('aria-expanded', 'false');
+
+    await toggle.click();
+    await expect(toggle).toHaveAttribute('aria-expanded', 'true');
+    await expect(page.locator('#search-input')).toBeFocused();
+
+    await page.keyboard.press('Escape');
+    await expect(page.locator('#search-overlay')).toBeHidden();
+    await expect(toggle).toHaveAttribute('aria-expanded', 'false');
+    await expect(toggle).toBeFocused();
+
+    await toggle.click();
+    await page.locator('#search-close').click();
+    await expect(page.locator('#search-overlay')).toBeHidden();
+    await expect(toggle).toBeFocused();
+  });
+
+  test('the home search toggle closes an open overlay', async ({ page }) => {
+    await page.goto('/');
+    const toggle = page.locator('#search-toggle');
+    await toggle.click();
+    await expect(page.locator('#search-overlay')).toBeVisible();
+
+    await toggle.click();
+    await expect(page.locator('#search-overlay')).toBeHidden();
+    await expect(toggle).toHaveAttribute('aria-expanded', 'false');
+    await expect(toggle).toBeFocused();
+  });
+
   test('Ctrl+K focuses the search box on the search page', async ({ page }) => {
     await page.goto('/search/');
     const pageInput = page.locator('[data-search-shortcut="page"]');

@@ -101,7 +101,14 @@ const { title, description = 'Galaxy Community Hub - Open source platform for da
           </div>
 
           <!-- Search -->
-          <button class="search-toggle" id="search-toggle" aria-label="Search" aria-keyshortcuts="Meta+K Control+K">
+          <button
+            class="search-toggle"
+            id="search-toggle"
+            aria-label="Search"
+            aria-controls="search-overlay"
+            aria-expanded="false"
+            aria-keyshortcuts="Meta+K Control+K"
+          >
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path
                 stroke-linecap="round"
@@ -545,25 +552,38 @@ const { title, description = 'Galaxy Community Hub - Open source platform for da
         const searchInput = document.getElementById('search-input') as HTMLInputElement | null;
         const searchClose = document.getElementById('search-close');
 
+        function setSearchOpen(open: boolean) {
+          searchOverlay?.classList.toggle('hidden', !open);
+          searchToggle?.setAttribute('aria-expanded', String(open));
+        }
+
+        // Return focus to the toggle so it does not stay on the hidden input
+        function closeSearch() {
+          setSearchOpen(false);
+          searchToggle?.focus();
+        }
+
         searchToggle?.addEventListener('click', () => {
-          searchOverlay?.classList.remove('hidden');
+          if (searchOverlay && !searchOverlay.classList.contains('hidden')) {
+            closeSearch();
+            return;
+          }
+          setSearchOpen(true);
           searchInput?.focus();
         });
 
-        searchClose?.addEventListener('click', () => {
-          searchOverlay?.classList.add('hidden');
-        });
+        searchClose?.addEventListener('click', closeSearch);
 
         // Close search on Escape key
         document.addEventListener('keydown', (e) => {
           if (e.key === 'Escape' && !searchOverlay?.classList.contains('hidden')) {
-            searchOverlay?.classList.add('hidden');
+            closeSearch();
           }
         });
 
         // Reset mobile menu state on navigation
         setMobileMenu(false);
-        searchOverlay?.classList.add('hidden');
+        setSearchOpen(false);
 
         // Initial check
         updateMasthead();
