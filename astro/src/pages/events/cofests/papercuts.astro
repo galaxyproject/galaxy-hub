@@ -1,7 +1,8 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
-import { formatDateRange, isUpcomingEvent, isPastEvent } from '../../../utils/dateUtils';
+import EventDate from '@/components/events/EventDate.astro';
+import { isUpcomingEvent, isPastEvent } from '../../../utils/dateUtils';
 
 const tag = 'papercuts';
 const pageTitle = 'Galaxy Papercuts CoFests';
@@ -66,11 +67,11 @@ const pastEvents = taggedEvents
             <div class="flex items-start justify-between gap-4">
               <div>
                 <h3 class="font-semibold text-galaxy-dark hover:text-galaxy-primary">{event.data.title}</h3>
+                <p class="text-sm mt-1">
+                  <EventDate start={event.data.date} end={event.data.end} />
+                </p>
                 {event.data.tease && <p class="text-chicago-600 text-sm mt-1 line-clamp-2">{event.data.tease}</p>}
               </div>
-              <span class="text-sm text-galaxy-primary font-medium whitespace-nowrap">
-                {formatDateRange(event.data.date, event.data.end)}
-              </span>
             </div>
           </a>)}
         </div>
@@ -92,8 +93,8 @@ const pastEvents = taggedEvents
             href={`/${event.data.slug}/`}
             class="flex items-center gap-3 p-3 bg-ebony-clay-50 rounded-lg hover:bg-ebony-clay-50 transition-colors"
           >
-            <span class="text-sm text-chicago-500 min-w-24">
-              {formatDateRange(event.data.date, event.data.end)}
+            <span class="text-sm min-w-24">
+              <EventDate start={event.data.date} end={event.data.end} past />
             </span>
             <span class="text-chicago-700 hover:text-galaxy-primary">{event.data.title}</span>
           </a>)}

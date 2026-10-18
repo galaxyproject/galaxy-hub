@@ -6,7 +6,8 @@
 import ESGLayout from '../../../layouts/ESGLayout.astro';
 import EsgInteractivePoster from '../../../components/EsgInteractivePoster.astro';
 import { getCollection, getEntry } from 'astro:content';
-import { formatDateRange, isPastEvent } from '../../../utils/dateUtils';
+import EventDate from '../../../components/events/EventDate.astro';
+import { isPastEvent } from '../../../utils/dateUtils';
 
 // Check for solo mode
 const solo = Astro.url.searchParams.get('solo') === 'true';
@@ -201,8 +202,8 @@ function esgUrl(path: string): string {
           {esgEvents.length > 0 ? (
             <ul class="space-y-3 mb-4">
               {esgEvents.map((event) => <li class="flex gap-2">
-                <span class="text-galaxy-primary font-medium text-sm whitespace-nowrap">
-                  {formatDateRange(event.data.date, event.data.end)}
+                <span class="text-sm">
+                  <EventDate start={event.data.date} end={event.data.end} past />
                 </span>
                 <a href={`/${event.data.slug}/`} class="text-chicago-700 hover:text-galaxy-gold text-sm">
                   {event.data.title}
