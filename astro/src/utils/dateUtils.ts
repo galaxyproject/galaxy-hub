@@ -155,6 +155,14 @@ export function isTodayOrLater(date: Date, now: Date = new Date()): boolean {
 }
 
 /**
+ * UTC midnight of the same calendar day one year before now (29 February rolls over to 1 March).
+ * Use it as a one-year cutoff for dates stored as UTC midnight.
+ */
+export function utcDayOneYearAgo(now: Date = new Date()): Date {
+  return new Date(Date.UTC(now.getUTCFullYear() - 1, now.getUTCMonth(), now.getUTCDate()));
+}
+
+/**
  * Get the last day of an event (end date, or start date for one-day events).
  * Returns null if the event has no valid date.
  */
