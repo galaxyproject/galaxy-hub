@@ -39,7 +39,8 @@ function getYearFromQuery(): number | null {
   return Number.isFinite(parsed) ? parsed : null;
 }
 
-const selectedYear = ref<number | null>(getYearFromQuery());
+// Read from the URL after mount: the server render has no query, and hydration must match it
+const selectedYear = ref<number | null>(null);
 const pageSize = 20;
 const displayCount = ref(pageSize);
 
@@ -48,6 +49,7 @@ onMounted(() => {
   if (props.initialSubsite && props.initialSubsite !== 'global') {
     currentSubsite.set(props.initialSubsite);
   }
+  selectedYear.value = getYearFromQuery();
   hasMounted.value = true;
 });
 
