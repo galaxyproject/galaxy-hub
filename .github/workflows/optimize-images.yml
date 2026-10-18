@@ -44,11 +44,16 @@ jobs:
     # (synchronize + bot actor) to break the infinite loop. Safe for
     # bot-authored PRs (e.g. GTN imports) because those trigger as
     # 'opened', not 'synchronize'.
+    # Also skip the bot's own action_compress_images PR and the push its merge makes.
     if: |
       github.repository == 'galaxyproject/galaxy-hub' &&
       (github.event_name != 'pull_request' ||
        github.event.pull_request.head.repo.full_name == github.repository) &&
-      !(github.event_name == 'pull_request' && github.event.action == 'synchronize' && startsWith(github.actor, 'galaxy-hub-bot'))
+      !(github.event_name == 'pull_request' && github.event.action == 'synchronize' && startsWith(github.actor, 'galaxy-hub-bot')) &&
+      !(github.event_name == 'pull_request' && github.head_ref == 'action_compress_images') &&
+      !(github.event_name == 'push' &&
+        (contains(github.event.head_commit.message, 'action_compress_images') ||
+         startsWith(github.event.head_commit.message, 'Compress Images')))
     steps:
       - name: Checkout Branch
         uses: actions/checkout@v7
