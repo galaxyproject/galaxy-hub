@@ -2,12 +2,13 @@ import { getCollection } from 'astro:content';
 import type { APIContext } from 'astro';
 import { contentMatchesSubsite } from '../../../utils/subsites';
 import { escapeICS, foldLine, formatICSDate, formatICSDateOnly, formatICSURI, getICSEndDate } from '../../../utils/ics';
+import { utcDayOneYearAgo } from '../../../utils/dateUtils';
 
 export async function GET(context: APIContext) {
   const events = await getCollection('events');
 
   const now = new Date();
-  const oneYearAgo = new Date(now.getFullYear() - 1, now.getMonth(), now.getDate());
+  const oneYearAgo = utcDayOneYearAgo(now);
 
   // Get events from the past year and all future events, filtered to subsite 'eu'
   const relevantEvents = events

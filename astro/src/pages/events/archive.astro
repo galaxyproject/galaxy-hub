@@ -2,12 +2,12 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import ExternalIcon from '../../components/common/ExternalIcon.vue';
-import { formatDate, getUTCYear } from '../../utils/dateUtils';
+import { formatDate, getUTCYear, utcDayOneYearAgo } from '../../utils/dateUtils';
 
 // Get all events, sorted by date descending
 const events = await getCollection('events');
 const now = new Date();
-const oneYearAgo = new Date(now.getFullYear() - 1, now.getMonth(), now.getDate());
+const oneYearAgo = utcDayOneYearAgo(now);
 
 // Archive = events older than 1 year
 const archivedEvents = events
