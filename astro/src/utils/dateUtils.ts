@@ -101,13 +101,22 @@ export function formatDateRange(
   format: boolean | DateFormatOptions = true
 ): string {
   const startDate = toDate(start);
-  const endDate = toDate(end);
-
   if (!isValidDate(startDate)) return '';
+  return joinRange(rangeSegments(startDate, toDate(end), format));
+}
 
+/** Range text split at the separator; end is null for a one-day range. */
+interface RangeSegments {
+  start: string;
+  end: string | null;
+  /** The end date, when it falls on a later day than the start. */
+  endDate: Date | null;
+}
+
+function rangeSegments(startDate: Date, endDate: Date | null, format: boolean | DateFormatOptions): RangeSegments {
   // No end date, or ends on the start day
   if (!isValidDate(endDate) || utcDayNumber(startDate) === utcDayNumber(endDate)) {
-    return formatDate(startDate, format);
+    return { start: formatDate(startDate, format), end: null, endDate: null };
   }
 
   const { short, year, weekday, locale } = resolveFormat(format);
@@ -119,12 +128,69 @@ export function formatDateRange(
     startDate.getUTCMonth() === endDate.getUTCMonth() &&
     startDate.getUTCFullYear() === endDate.getUTCFullYear()
   ) {
-    const monthDay = formatDate(startDate, { short, year: false });
-    return `${monthDay} - ${endDate.getUTCDate()}, ${endDate.getUTCFullYear()}`;
+    return {
+      start: formatDate(startDate, { short, year: false }),
+      end: `${endDate.getUTCDate()}, ${endDate.getUTCFullYear()}`,
+      endDate,
+    };
   }
 
   // Otherwise show both dates in full
-  return `${formatDate(startDate, format)} - ${formatDate(endDate, format)}`;
+  return { start: formatDate(startDate, format), end: formatDate(endDate, format), endDate };
+}
+
+function joinRange({ start, end }: RangeSegments): string {
+  return end === null ? start : `${start} - ${end}`;
+}
+
+/** The UTC calendar day of a date as YYYY-MM-DD, for a <time datetime> attribute. */
+function toISODay(d: Date): string {
+  return d.toISOString().slice(0, 10);
+}
+
+/**
+ * Everything an event date line shows: the range text split into its start and end
+ * parts (one <time> each), their machine-readable days, and the duration.
+ */
+export interface EventDateParts {
+  /** Whole range, the same text formatDateRange returns. */
+  label: string;
+  /** Start part ("Oct 5" in "Oct 5 - 6, 2026"), or the whole date for one-day events. */
+  start: string;
+  /** End part ("6, 2026"), or null for one-day events. */
+  end: string | null;
+  /** Start day as YYYY-MM-DD (UTC). */
+  isoStart: string;
+  /** End day as YYYY-MM-DD (UTC), or null for one-day events. */
+  isoEnd: string | null;
+  /** Calendar days covered (see eventDurationDays); null when the end is before the start. */
+  days: number | null;
+  /** "2 days" for multi-day events, null otherwise. */
+  durationLabel: string | null;
+}
+
+/**
+ * Split an event's dates for display. Returns null when the start is missing or invalid;
+ * an invalid end is ignored, as in formatDateRange.
+ */
+export function eventDateParts(
+  start: Date | string | undefined | null,
+  end?: Date | string | undefined | null,
+  format: boolean | DateFormatOptions = true
+): EventDateParts | null {
+  const startDate = toDate(start);
+  if (!isValidDate(startDate)) return null;
+  const segments = rangeSegments(startDate, toDate(end), format);
+  const days = eventDurationDays(startDate, segments.endDate);
+  return {
+    label: joinRange(segments),
+    start: segments.start,
+    end: segments.end,
+    isoStart: toISODay(startDate),
+    isoEnd: segments.endDate ? toISODay(segments.endDate) : null,
+    days,
+    durationLabel: days !== null && days > 1 ? `${days} days` : null,
+  };
 }
 
 /**
