@@ -3,7 +3,7 @@ import HomeLayout from '../layouts/HomeLayout.astro';
 import HeroHighlight from '../components/HeroHighlight.astro';
 import Icon from '../components/mdx/Icon.astro';
 import { getCollection } from 'astro:content';
-import { isUpcomingEvent } from '../utils/dateUtils';
+import { formatDate, getUTCDate, isUpcomingEvent } from '../utils/dateUtils';
 
 // Get recent news from the news collection
 const news = await getCollection('news');
@@ -26,12 +26,6 @@ const upcomingEvents = events
     return dateA.getTime() - dateB.getTime();
   })
   .slice(0, 4);
-
-function formatDate(date: Date | string | undefined): string {
-  if (!date) return '';
-  const d = date instanceof Date ? date : new Date(date);
-  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
-}
 
 const currentYear = new Date().getFullYear();
 
@@ -1239,7 +1233,7 @@ const pillars = [
           </div>
           <div class="news-list">
             {recentNews.map((item) => <a href={`/${item.data.slug}/`} class="news-card">
-              <div class="news-date">{formatDate(item.data.date)}</div>
+              <div class="news-date">{formatDate(item.data.date, { year: false })}</div>
               <h3 class="news-title">{item.data.title}</h3>
               {item.data.tease && <p class="news-excerpt">{item.data.tease}</p>}
             </a>)}
@@ -1254,8 +1248,8 @@ const pillars = [
           <div class="events-list">
             {upcomingEvents.map((event) => {
               const date = event.data.date instanceof Date ? event.data.date : new Date(event.data.date || '');
-              const day = date.getDate();
-              const month = date.toLocaleDateString('en-US', { month: 'short' });
+              const day = getUTCDate(date);
+              const month = date.toLocaleDateString('en-US', { month: 'short', timeZone: 'UTC' });
               return <a href={`/${event.data.slug}/`} class="event-card">
                 <div class="event-date-box">
                   <span class="event-date-day">{day}</span>
