@@ -5,6 +5,7 @@ import ContentWithToc from '../components/layout/ContentWithToc.astro';
 import SupporterGrid from '../components/content/SupporterGrid.astro';
 import Icon from '../components/ui/Icon.astro';
 import type { SupporterProfile } from '../utils/supporters';
+import { formatDateRange } from '../utils/dateUtils';
 
 interface Heading {
   depth: number;
@@ -64,28 +65,6 @@ function toDate(d: Date | string | undefined): Date | null {
   return d instanceof Date ? d : new Date(d);
 }
 
-function formatDate(dateValue: Date | string | undefined): string {
-  const d = toDate(dateValue);
-  if (!d) return '';
-  return d.toLocaleDateString('en-US', {
-    weekday: 'long',
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-    timeZone: 'UTC',
-  });
-}
-
-function formatDateRange(start: Date | string | undefined, endDate?: Date | string): string {
-  const startD = toDate(start);
-  const endD = toDate(endDate);
-  if (!startD) return '';
-  if (!endD || startD.getTime() === endD.getTime()) {
-    return formatDate(startD);
-  }
-  return `${formatDate(startD)} - ${formatDate(endD)}`;
-}
-
 function toISOString(d: Date | string | undefined): string {
   const dateObj = toDate(d);
   return dateObj ? dateObj.toISOString() : '';
@@ -134,7 +113,7 @@ const hasMetadata =
             </svg>
             <div>
               <span class="block font-medium text-white">Date</span>
-              <time datetime={toISOString(date)}>{formatDateRange(date, end)}</time>
+              <time datetime={toISOString(date)}>{formatDateRange(date, end, { short: false, weekday: true })}</time>
             </div>
           </div>}
 

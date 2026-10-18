@@ -7,16 +7,9 @@ import { getCollection } from 'astro:content';
 import { marked } from 'marked';
 import { extractAuthors } from '../../utils/contributors';
 import { expandSubsites } from '../../utils/subsites';
+import { formatDate } from '../../utils/dateUtils';
 
 const JSONFEED_DAYS_AGO_LIMIT = 30;
-
-function formatDate(date: Date): string {
-  // Match Gridsome format: "22 December 2025"
-  const day = date.getUTCDate();
-  const month = date.toLocaleDateString('en-US', { timeZone: 'UTC', month: 'long' });
-  const year = date.getUTCFullYear();
-  return `${day} ${month} ${year}`;
-}
 
 function getDaysAgo(date: Date): number {
   const now = new Date();
@@ -81,7 +74,8 @@ export async function GET() {
         title: data.title || null,
         tease: data.tease || null,
         days_ago: daysAgo,
-        date: formatDate(date),
+        // Match Gridsome format: "22 December 2025"
+        date: formatDate(date, { short: false, locale: 'en-GB' }),
         subsites,
         main_subsite: data.main_subsite || null,
         tags,

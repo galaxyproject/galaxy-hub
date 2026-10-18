@@ -6,16 +6,9 @@
 import { getCollection } from 'astro:content';
 import { marked } from 'marked';
 import { expandSubsites } from '../../utils/subsites';
+import { formatDate } from '../../utils/dateUtils';
 
 const JSONFEED_DAYS_AGO_LIMIT = 30;
-
-function formatDate(date: Date): string {
-  // Match Gridsome format: "4 November 2026"
-  const day = date.getUTCDate();
-  const month = date.toLocaleDateString('en-US', { timeZone: 'UTC', month: 'long' });
-  const year = date.getUTCFullYear();
-  return `${day} ${month} ${year}`;
-}
 
 // Generate short hash ID like Gridsome does
 function generateShortId(str: string): string {
@@ -102,7 +95,8 @@ export async function GET() {
           external_url: data.external_url || null,
           gtn: data.gtn || null,
           links: [],
-          date: formatDate(date),
+          // Match Gridsome format: "4 November 2026"
+          date: formatDate(date, { short: false, locale: 'en-GB' }),
           draft: data.draft || null,
           days: data.end ? Math.round((data.end.getTime() - date.getTime()) / (1000 * 60 * 60 * 24)) + 1 : 1,
           days_ago: daysAgo,

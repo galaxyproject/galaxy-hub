@@ -5,6 +5,7 @@
  */
 import ESGLayout from '../../../layouts/ESGLayout.astro';
 import { getCollection } from 'astro:content';
+import { formatDate } from '../../../utils/dateUtils';
 
 // Check for solo mode
 const solo = Astro.url.searchParams.get('solo') === 'true';
@@ -19,12 +20,6 @@ const esgNews = allNews
     const dateB = new Date(b.data.date || 0);
     return dateB.getTime() - dateA.getTime();
   });
-
-function formatDate(date: Date | string | undefined): string {
-  if (!date) return '';
-  const d = typeof date === 'string' ? new Date(date) : date;
-  return d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
-}
 
 function esgUrl(path: string): string {
   return solo ? `${path}?solo=true` : path;
@@ -44,7 +39,7 @@ function esgUrl(path: string): string {
         <a href={`/${article.data.slug}/`} class="block group">
           <h2 class="text-xl font-medium text-galaxy-primary group-hover:underline mb-2">{article.data.title}</h2>
         </a>
-        <p class="text-sm text-chicago-500 mb-2">{formatDate(article.data.date)}</p>
+        <p class="text-sm text-chicago-500 mb-2">{formatDate(article.data.date, false)}</p>
         {article.data.tease && <p class="text-chicago-700">{article.data.tease}</p>}
       </article>)}
     </div>
