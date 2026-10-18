@@ -55,21 +55,36 @@ test.describe('Event date line', () => {
   test.describe('at 320px', () => {
     test.use({ viewport: { width: 320, height: 800 } });
 
-    for (const path of ['/events/cofests/', '/events/webinars/']) {
-      test(`${path} past rows keep long titles inside their card`, async ({ page }) => {
+    const pastLists = [
+      '/events/webinars/',
+      '/events/cofests/',
+      '/events/cofests/papercuts/',
+      '/community/community-calls/',
+      '/community/devroundtable/',
+    ];
+
+    for (const path of pastLists) {
+      test(`${path} past rows keep titles inside the card and clear of the date`, async ({ page }) => {
         await page.goto(path);
+        await page.evaluate(() => document.fonts.ready);
 
         const rows = page.locator('a:has(.gx-event-date)');
         expect(await rows.count()).toBeGreaterThan(0);
-        const overflowing = await rows.evaluateAll((els) =>
-          els
-            .filter((row) => {
-              const title = row.lastElementChild!.getBoundingClientRect();
-              return title.right > row.getBoundingClientRect().right + 0.5;
-            })
-            .map((row) => row.getAttribute('href')),
-        );
-        expect(overflowing).toEqual([]);
+        const problems = await rows.evaluateAll((els) => {
+          const meets = (a: DOMRect, b: DOMRect) =>
+            a.left < b.right - 0.5 && b.left < a.right - 0.5 && a.top < b.bottom - 0.5 && b.top < a.bottom - 0.5;
+          return els.flatMap((row) => {
+            const href = row.getAttribute('href');
+            const title = row.lastElementChild!.getBoundingClientRect();
+            const found: string[] = [];
+            if (title.right > row.getBoundingClientRect().right + 0.5) found.push(`${href} title overflows row`);
+            for (const part of row.querySelectorAll('.gx-event-date time, .gx-event-date__dur, .gx-event-date__icon')) {
+              if (meets(part.getBoundingClientRect(), title)) found.push(`${href} ${part.className || part.tagName} overlaps title`);
+            }
+            return found;
+          });
+        });
+        expect(problems).toEqual([]);
       });
     }
 
