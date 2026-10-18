@@ -9,7 +9,7 @@
  */
 import { getCollection } from 'astro:content';
 import { contentMatchesSubsite } from '@/utils/subsites';
-import { isUpcomingEvent } from '@/utils/dateUtils';
+import { formatDateRange, isUpcomingEvent } from '@/utils/dateUtils';
 
 interface Props {
   subsite: string;
@@ -34,22 +34,6 @@ const upcomingEvents = allEvents
     return dateA.getTime() - dateB.getTime();
   })
   .slice(0, limit);
-
-function formatDate(date: Date | string | undefined): string {
-  if (!date) return '';
-  const d = typeof date === 'string' ? new Date(date) : date;
-  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
-}
-
-function formatDateRange(start: Date | string | undefined, end: Date | string | undefined): string {
-  if (!start) return '';
-  const startStr = formatDate(start);
-  if (!end) return startStr;
-  const startD = typeof start === 'string' ? new Date(start) : start;
-  const endD = typeof end === 'string' ? new Date(end) : end;
-  if (startD.toDateString() === endD.toDateString()) return startStr;
-  return `${startStr} - ${formatDate(end)}`;
-}
 
 const moreUrl = `${siteUrl}/bare/${subsite}/events/`;
 ---
@@ -87,7 +71,7 @@ const moreUrl = `${siteUrl}/bare/${subsite}/events/`;
               {event.data.title}
             </a>
             <div class="event-details">
-              {formatDateRange(event.data.date, event.data.end)}
+              {formatDateRange(event.data.date, event.data.end, { year: false })}
               {locationStr && ` · ${locationStr}`}
             </div>
             {event.data.tease && <div class="event-tease">{event.data.tease}</div>}
