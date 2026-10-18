@@ -69,9 +69,13 @@ const { yearCounts, years } = groupCitationsByYear(citations);
 <script>
   import { onPopState, readParams, writeParams } from '@/utils/urlFilters';
 
-  (() => {
-    const FILTER_PARAMS = { year: 'all' };
+  const FILTER_PARAMS = { year: 'all' };
+
+  // The ClientRouter runs this module once, so set up again on every page load
+  function init() {
     const buttons = Array.from(document.querySelectorAll<HTMLElement>('[data-year-button]'));
+    // Not a citations page: leave its URL alone
+    if (buttons.length === 0) return;
     const items = Array.from(document.querySelectorAll<HTMLElement>('[data-citation-year]'));
     const countEl = document.querySelector<HTMLElement>('[data-filter-count]');
     const noun = countEl?.dataset.noun || 'citations';
@@ -121,5 +125,7 @@ const { yearCounts, years } = groupCitationsByYear(citations);
     document.addEventListener('astro:before-swap', stopPopState, { once: true });
 
     applyFilter(yearFromUrl());
-  })();
+  }
+
+  document.addEventListener('astro:page-load', init);
 </script>
