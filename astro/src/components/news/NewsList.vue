@@ -1,10 +1,11 @@
 <script setup lang="ts">
-import { ref, computed, onMounted, watch } from 'vue';
+import { ref, computed, onMounted, onUnmounted, watch } from 'vue';
 import { useStore } from '@nanostores/vue';
 import { currentSubsite, subsites, type SubsiteId } from '@/stores/subsiteStore';
 import { renderMarkdownInline } from '@/utils/markdown';
 import { formatDate, getUTCYear } from '@/utils/dateUtils';
 import { contentMatchesSubsite } from '@/utils/subsites';
+import { onPopState, readParams, writeParams } from '@/utils/urlFilters';
 import ExternalIcon from '../common/ExternalIcon.vue';
 
 interface NewsArticle {
@@ -29,11 +30,10 @@ const effectiveSubsite = computed(() =>
 );
 
 // Year-based navigation - null means "show recent" (no year filter)
-const isBrowser = typeof window !== 'undefined';
+const FILTER_PARAMS = { year: null };
 
 function getYearFromQuery(): number | null {
-  if (!isBrowser) return null;
-  const param = new URLSearchParams(window.location.search).get('year');
+  const param = readParams(FILTER_PARAMS).year;
   if (!param) return null;
   const parsed = Number(param);
   return Number.isFinite(parsed) ? parsed : null;
@@ -44,6 +44,8 @@ const selectedYear = ref<number | null>(null);
 const pageSize = 20;
 const displayCount = ref(pageSize);
 
+let stopPopState = () => {};
+
 // Set initial subsite from URL route if provided
 onMounted(() => {
   if (props.initialSubsite && props.initialSubsite !== 'global') {
@@ -51,7 +53,13 @@ onMounted(() => {
   }
   selectedYear.value = getYearFromQuery();
   hasMounted.value = true;
+  // Back/forward restores the year from the URL
+  stopPopState = onPopState(() => {
+    selectedYear.value = getYearFromQuery();
+  });
 });
+
+onUnmounted(() => stopPopState());
 
 // Filter articles based on current subsite
 const filteredBySubsite = computed(() => {
@@ -114,26 +122,9 @@ function selectYear(year: number | null) {
   selectedYear.value = year;
 }
 
-function updateUrl(year: number | null) {
-  if (!isBrowser) return;
-  const params = new URLSearchParams(window.location.search);
-  if (year === null) {
-    params.delete('year');
-  } else {
-    params.set('year', String(year));
-  }
-  const newUrl = `${window.location.pathname}${params.toString() ? `?${params.toString()}` : ''}${window.location.hash}`;
-  // Keep the existing state: Astro's ClientRouter stores its navigation index there
-  window.history.replaceState(window.history.state, '', newUrl);
-}
-
-watch(
-  selectedYear,
-  (year) => {
-    updateUrl(year);
-  },
-  { immediate: false }
-);
+watch(selectedYear, (year) => {
+  writeParams({ year });
+});
 
 function loadMore() {
   displayCount.value += pageSize;
