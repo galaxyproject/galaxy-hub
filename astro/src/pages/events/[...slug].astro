@@ -20,7 +20,7 @@ import Insert from '../../components/mdx/Insert.astro';
 import CofestBoard from '../../components/CofestBoard.astro';
 import SupporterGrid from '../../components/content/SupporterGrid.astro';
 import { resolveSupporters } from '../../utils/supporters';
-import { isPastEvent } from '../../utils/dateUtils';
+import { formatDateRange, isPastEvent } from '../../utils/dateUtils';
 import { extractFunding, extractAuthors, resolveAuthor } from '../../utils/contributors';
 import Icon from '../../components/ui/Icon.astro';
 import ReleaseGuardiansSummary from '../../components/release-guardians/Summary.astro';
@@ -255,28 +255,6 @@ function toDate(d: Date | string | undefined): Date | null {
   return d instanceof Date ? d : new Date(d);
 }
 
-function formatDate(date: Date | string | undefined): string {
-  const d = toDate(date);
-  if (!d) return '';
-  return d.toLocaleDateString('en-US', {
-    weekday: 'long',
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-    timeZone: 'UTC',
-  });
-}
-
-function formatDateRange(start: Date | string | undefined, endDate?: Date | string): string {
-  const startD = toDate(start);
-  const endD = toDate(endDate);
-  if (!startD) return '';
-  if (!endD || startD.getTime() === endD.getTime()) {
-    return formatDate(startD);
-  }
-  return `${formatDate(startD)} - ${formatDate(endD)}`;
-}
-
 function toISOString(d: Date | string | undefined): string {
   const dateObj = toDate(d);
   return dateObj ? dateObj.toISOString() : '';
@@ -393,7 +371,7 @@ const editUrl = `https://github.com/galaxyproject/galaxy-hub/edit/main/content/$
             </svg>
             <div>
               <span class="block font-medium text-white">Date</span>
-              <time datetime={toISOString(date)}>{formatDateRange(date, end)}</time>
+              <time datetime={toISOString(date)}>{formatDateRange(date, end, { short: false, weekday: true })}</time>
             </div>
           </div>}
 
