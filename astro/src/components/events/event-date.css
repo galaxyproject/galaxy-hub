@@ -1,0 +1,47 @@
+/*
+ * Event date line (DESIGN.md "Event Date"), shared by EventDate.astro and EventDate.vue.
+ * Plain CSS with token fallbacks so it also styles the bare iframe feeds, which load no global.css.
+ */
+.gx-event-date {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0.375rem;
+  color: var(--color-galaxy-dark, #2c3143);
+}
+
+.gx-event-date--past {
+  color: var(--color-chicago-600, #58585a);
+}
+
+.gx-event-date__icon {
+  display: inline-flex;
+  flex: none;
+}
+
+.gx-event-date__icon svg {
+  width: 16px;
+  height: 16px;
+}
+
+.gx-event-date__range {
+  font-weight: 700;
+}
+
+.gx-event-date__range time {
+  white-space: nowrap;
+}
+
+.gx-event-date__dur {
+  display: inline-flex;
+  align-items: center;
+  padding: 1px 8px;
+  border: 1px solid var(--color-bay-of-many-200, #cde0f0);
+  border-radius: 9999px;
+  background-color: var(--color-bay-of-many-100, #edf4fa);
+  color: var(--color-bay-of-many-950, #1f4465);
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1rem;
+  white-space: nowrap;
+}
