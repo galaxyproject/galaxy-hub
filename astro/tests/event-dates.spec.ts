@@ -30,4 +30,25 @@ test.describe('Event date line', () => {
     await expectMultiDay(page.locator(`a[href="/events/${multiDay}"]`));
     await expectSingleDay(page.locator(`a[href="/events/${singleDay}"]`));
   });
+
+  test('tag pages mute past events', async ({ page }) => {
+    await page.goto('/tags/conference/');
+
+    await expect(page.locator(`a[href="/events/${multiDay}"] .gx-event-date`)).toHaveClass(/gx-event-date--past/);
+  });
+
+  test('the Vue date line separates the range from the duration pill with a space', async ({ page }) => {
+    await page.goto('/events/');
+
+    const date = page.locator('.gx-event-date:has(.gx-event-date__dur)').first();
+    await expect(date).toBeVisible();
+    expect(await date.textContent()).toMatch(/\d{4} \d+ days/);
+  });
+
+  test('the events list shows the same date line for past events', async ({ page }) => {
+    await page.goto('/events/?year=2025');
+
+    await expectMultiDay(page.locator(`article:has(a[href$="/events/${multiDay}"])`));
+    await expectSingleDay(page.locator(`article:has(a[href$="/events/${singleDay}"])`));
+  });
 });
