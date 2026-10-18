@@ -29,7 +29,7 @@ const effectiveSubsite = computed(() =>
   !hasMounted.value && props.initialSubsite ? props.initialSubsite : $subsite.value
 );
 
-// Year-based navigation - null means "show recent" (no year filter)
+// Year-based navigation - null means all years, newest first (no year filter)
 const FILTER_PARAMS = { year: null };
 
 function getYearFromQuery(): number | null {
@@ -164,7 +164,7 @@ function displaySubsite(subsite: string): string {
               : 'bg-ebony-clay-50 text-chicago-700 hover:bg-ebony-clay-100',
           ]"
         >
-          Recent
+          All years
         </button>
         <button
           v-for="year in recentYears"
@@ -204,7 +204,7 @@ function displaySubsite(subsite: string): string {
       <template v-if="selectedYear">
         {{ filteredArticles.length }} article{{ filteredArticles.length !== 1 ? 's' : '' }} in {{ selectedYear }}
       </template>
-      <template v-else> Showing most recent articles </template>
+      <template v-else> {{ filteredArticles.length }} article{{ filteredArticles.length !== 1 ? 's' : '' }} </template>
     </p>
 
     <!-- Articles -->
