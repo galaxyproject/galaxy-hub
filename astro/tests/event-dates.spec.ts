@@ -51,4 +51,62 @@ test.describe('Event date line', () => {
     await expectMultiDay(page.locator(`article:has(a[href$="/events/${multiDay}"])`));
     await expectSingleDay(page.locator(`article:has(a[href$="/events/${singleDay}"])`));
   });
+
+  test.describe('at 320px', () => {
+    test.use({ viewport: { width: 320, height: 800 } });
+
+    for (const path of ['/events/cofests/', '/events/webinars/']) {
+      test(`${path} past rows keep long titles inside their card`, async ({ page }) => {
+        await page.goto(path);
+
+        const rows = page.locator('a:has(.gx-event-date)');
+        expect(await rows.count()).toBeGreaterThan(0);
+        const overflowing = await rows.evaluateAll((els) =>
+          els
+            .filter((row) => {
+              const title = row.lastElementChild!.getBoundingClientRect();
+              return title.right > row.getBoundingClientRect().right + 0.5;
+            })
+            .map((row) => row.getAttribute('href')),
+        );
+        expect(overflowing).toEqual([]);
+      });
+    }
+
+    for (const path of ['/events/', '/events/cofests/']) {
+      test(`${path} keeps the calendar icon beside the date range`, async ({ page }) => {
+        await page.goto(path);
+
+        await expect(page.locator('.gx-event-date').first()).toBeVisible();
+        const stacked = await page.locator('.gx-event-date').evaluateAll((els) =>
+          els
+            .filter((date) => {
+              const icon = date.querySelector('.gx-event-date__icon')!.getBoundingClientRect();
+              const range = date.querySelector('.gx-event-date__range')!.getBoundingClientRect();
+              return range.top >= icon.bottom;
+            })
+            .map((date) => date.textContent?.trim()),
+        );
+        expect(stacked).toEqual([]);
+      });
+    }
+
+    test('/projects/esg/ Events card lists each title before its date line', async ({ page }) => {
+      await page.goto('/projects/esg/');
+
+      const items = page.locator('li:has(.gx-event-date)');
+      expect(await items.count()).toBeGreaterThan(0);
+      const misordered = await items.evaluateAll((els) =>
+        els
+          .filter((li) => {
+            const title = li.querySelector('a')!;
+            const date = li.querySelector('.gx-event-date')!;
+            const follows = title.compareDocumentPosition(date) & Node.DOCUMENT_POSITION_FOLLOWING;
+            return !follows || date.getBoundingClientRect().top < title.getBoundingClientRect().top;
+          })
+          .map((li) => li.textContent?.trim()),
+      );
+      expect(misordered).toEqual([]);
+    });
+  });
 });
