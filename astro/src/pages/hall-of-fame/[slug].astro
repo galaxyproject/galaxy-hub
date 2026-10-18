@@ -15,6 +15,7 @@ import {
   toArray,
 } from '../../utils/contributors';
 import { getContributionIndex } from '../../utils/hallOfFameIndex';
+import { formatDate } from '../../utils/dateUtils';
 import Icon from '../../components/mdx/Icon.astro';
 const gtnIcon = '/images/logos/gtn_icon.svg';
 
@@ -112,12 +113,6 @@ const newsItems = contributions.filter((item) => item.kind === 'news');
 const eventItems = contributions.filter((item) => item.kind === 'event');
 const totalItems = contributions.length;
 const hasBoth = newsItems.length > 0 && eventItems.length > 0;
-
-function formatDate(date: Date | string | undefined): string {
-  if (!date) return '';
-  const d = typeof date === 'string' ? new Date(date) : date;
-  return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
-}
 ---
 
 <BaseLayout title={pageTitle} description={pageDescription}>
