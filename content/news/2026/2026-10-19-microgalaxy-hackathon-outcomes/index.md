@@ -9,7 +9,7 @@ tags:
 - microbiology
 - metagenomics
 - tools
-subsites: [all-eu, global, eu, all]
+subsites: [global, eu]
 main_subsite: eu
 contributions:
   authorship:
