@@ -23,7 +23,7 @@ organizers:
   - paulzierep
 ---
 
-On October 14th, we ran the [microGalaxy hackathon](/news/2026/2026-09-22-microgalaxy-hackathon/) we announced a few weeks ago — and it worked out even better than hoped! Eight of us from the [microGalaxy community](https://galaxyproject.org/community/sig/microbial/) blocked a day, picked a tool from our [outdated-tools list](https://github.com/galaxyproject/tools-iuc/issues/8301), and got to work. The format is simple but effective: no talks, no slides — just everyone updating the tools that our users rely on every day.
+On October 14th, we ran the [microGalaxy hackathon](/events/2026-10-14-microgalaxy-hackathon/) we announced a few weeks ago — and it worked out even better than hoped! Eight of us from the [microGalaxy community](https://galaxyproject.org/community/sig/microbial/) blocked a day, picked a tool from our [outdated-tools list](https://github.com/galaxyproject/tools-iuc/issues/8301), and got to work. The format is simple but effective: no talks, no slides — just everyone updating the tools that our users rely on every day.
 
 ## Already merged
 
