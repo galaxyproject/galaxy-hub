@@ -170,35 +170,20 @@ const hasMetadata =
             </div>
           </div>}
         </div>
-        {subnavItems.length > 0 && <nav class="conference-subnav" aria-label="Conference pages">
-          {subnavItems.map((item) => <a
-            href={item.href}
-            class:list={['conference-subnav-link', item.active && 'is-active']}
-            aria-current={item.active ? 'page' : undefined}
-          >
-            {item.label}
-          </a>)}
-        </nav>}
+        {subnavItems.length > 0 && <div class="conference-subnav-slot">
+          <span class="conference-subnav-sentinel" aria-hidden="true"></span>
+          <nav class="conference-subnav" aria-label="Conference pages">
+            {subnavItems.map((item) => <a
+              href={item.href}
+              class:list={['conference-subnav-link', item.active && 'is-active']}
+              aria-current={item.active ? 'page' : undefined}
+            >
+              {item.label}
+            </a>)}
+          </nav>
+        </div>}
       </PageHeader>
     </div>}
-
-    {/* Mobile only: compact bar that slides in under the site header once the hero nav scrolls away */}
-    {hasMetadata && subnavItems.length > 0 && <nav
-      class="conference-quicknav"
-      aria-label="Conference pages (quick access)"
-      inert
-    >
-      <span class="conference-quicknav-title">{title}</span>
-      <div class="conference-quicknav-track">
-        {subnavItems.map((item) => <a
-          href={item.href}
-          class:list={['conference-subnav-link', item.active && 'is-active']}
-          aria-current={item.active ? 'page' : undefined}
-        >
-          {item.label}
-        </a>)}
-      </div>
-    </nav>}
 
     <ContentWithToc headings={headings} autotoc={autotoc}>
       <slot />
@@ -283,18 +268,29 @@ const hasMetadata =
     font-weight: 600;
   }
 
-  .conference-quicknav {
-    display: none;
+  .conference-subnav-sentinel {
+    display: block;
   }
 
   /* Phones: one swipeable row of pills instead of five wrapped rows, a tighter hero on
-     subpages, and a quick-access bar pinned under the site header while scrolling. */
+     subpages, and the same row pinned under the site header once it scrolls up to it. */
   @media (max-width: 639.98px) {
-    .conference-subnav,
-    .conference-quicknav-track {
+    /* Fixed height so the slot reserves the row's space while it's pinned */
+    .conference-subnav-slot {
+      --conference-subnav-height: 3.25rem;
+      height: calc(1.25rem + var(--conference-subnav-height));
+      padding-top: 1.25rem;
+    }
+
+    .conference-subnav {
+      height: var(--conference-subnav-height);
       flex-wrap: nowrap;
       justify-content: flex-start;
+      align-items: center;
       gap: 0.5rem;
+      margin: 0 -1.25rem;
+      padding-top: 0;
+      padding-inline: 1rem;
       overflow-x: auto;
       overscroll-behavior-x: contain;
       scroll-snap-type: x proximity;
@@ -302,25 +298,31 @@ const hasMetadata =
       -webkit-overflow-scrolling: touch;
       /* Fade the edges so it's obvious the row scrolls sideways */
       mask-image: linear-gradient(to right, transparent 0, #000 1rem, #000 calc(100% - 1.5rem), transparent 100%);
-      padding-inline: 1rem;
     }
 
-    .conference-subnav {
-      margin-top: 1.25rem;
-      margin-inline: -1.25rem;
-    }
-
-    .conference-subnav::-webkit-scrollbar,
-    .conference-quicknav-track::-webkit-scrollbar {
+    .conference-subnav::-webkit-scrollbar {
       display: none;
     }
 
-    .conference-subnav .conference-subnav-link,
-    .conference-quicknav .conference-subnav-link {
+    .conference-subnav-link {
       flex: none;
       scroll-snap-align: start;
       white-space: nowrap;
       font-size: 0.875rem;
+    }
+
+    .conference-subnav.is-stuck {
+      position: fixed;
+      top: var(--site-header-height);
+      left: 0;
+      right: 0;
+      z-index: 40;
+      margin: 0;
+      border-top: 0;
+      border-bottom: 3px solid var(--color-galaxy-gold);
+      background: linear-gradient(135deg, var(--color-galaxy-dark) 0%, var(--color-galaxy-primary) 100%);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+      mask-image: none;
     }
 
     .conference-hero :global(.page-header) {
@@ -335,83 +337,29 @@ const hasMetadata =
     .conference-hero.is-subpage :global(.page-header-content > p) {
       display: none;
     }
-
-    .conference-quicknav {
-      display: block;
-      position: fixed;
-      top: 5.5rem;
-      left: 0;
-      right: 0;
-      z-index: 40;
-      padding: 0.4rem 0 0.55rem;
-      background: rgba(44, 49, 67, 0.97);
-      border-bottom: 3px solid var(--color-galaxy-gold);
-      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
-      transform: translateY(calc(-100% - 6rem));
-      transition: transform 0.25s ease;
-    }
-
-    .conference-quicknav.is-visible {
-      transform: translateY(0);
-    }
-
-    .conference-quicknav-title {
-      display: block;
-      padding: 0 1rem 0.35rem;
-      font-size: 0.7rem;
-      font-weight: 600;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-      color: var(--color-galaxy-gold);
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-
-    .conference-quicknav-track {
-      display: flex;
-    }
-
-    .conference-quicknav .conference-subnav-link {
-      padding: 0.25rem 0.7rem;
-    }
-  }
-
-  @media (max-width: 639.98px) and (prefers-reduced-motion: reduce) {
-    .conference-quicknav {
-      transition: none;
-    }
   }
 </style>
 
 <script>
-  // Mobile conference nav: center the active pill in each swipeable row, and show the
-  // quick-access bar only after the hero's own nav has scrolled out of view.
+  // Phones: start with the active pill in view, and pin the row (via CSS on `is-stuck`) once the
+  // sentinel above it passes under the fixed site header.
   let observer: IntersectionObserver | undefined;
 
-  function setupConferenceNav() {
+  document.addEventListener('astro:page-load', () => {
     observer?.disconnect();
-    const heroNav = document.querySelector<HTMLElement>('.conference-subnav');
-    const quickNav = document.querySelector<HTMLElement>('.conference-quicknav');
-    if (!heroNav || !quickNav) return;
+    const sentinel = document.querySelector('.conference-subnav-sentinel');
+    const nav = document.querySelector<HTMLElement>('.conference-subnav');
+    if (!sentinel || !nav) return;
 
-    for (const row of [heroNav, quickNav.querySelector<HTMLElement>('.conference-quicknav-track')]) {
-      const active = row?.querySelector<HTMLElement>('.is-active');
-      if (!row || !active || row.scrollWidth <= row.clientWidth) continue;
-      row.scrollLeft = active.offsetLeft - (row.clientWidth - active.offsetWidth) / 2;
-    }
+    const active = nav.querySelector<HTMLElement>('.is-active');
+    if (active) nav.scrollLeft = active.offsetLeft - (nav.clientWidth - active.offsetWidth) / 2;
 
+    const headerHeight = document.querySelector<HTMLElement>('.site-mobile-header')?.offsetHeight ?? 0;
+    nav.style.setProperty('--site-header-height', `${headerHeight}px`);
     observer = new IntersectionObserver(
-      ([entry]) => {
-        const show = !entry.isIntersecting && entry.boundingClientRect.top < 0;
-        quickNav.classList.toggle('is-visible', show);
-        quickNav.inert = !show;
-      },
-      // Account for the fixed site header (5.5rem) covering the top of the viewport
-      { rootMargin: '-88px 0px 0px 0px' }
+      ([entry]) => nav.classList.toggle('is-stuck', entry.boundingClientRect.top < headerHeight),
+      { rootMargin: `-${headerHeight}px 0px 0px 0px` }
     );
-    observer.observe(heroNav);
-  }
-
-  document.addEventListener('astro:page-load', setupConferenceNav);
+    observer.observe(sentinel);
+  });
 </script>
