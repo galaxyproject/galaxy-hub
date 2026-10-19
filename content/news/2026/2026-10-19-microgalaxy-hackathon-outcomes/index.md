@@ -49,7 +49,7 @@ Beyond plain version bumps, Paul started updating antiSMASH to v8.
 
 ## Automating the boring parts
 
-Not everything in tool maintenance is exciting, which is why Matthias spent part of the day testing our tool dev bot, [gxydevbot](https://github.com/gxydevbot). The bot watches the IUC repository, spots wrappers that lag behind their upstream releases, and opens pull requests with the updated requirements and version strings. On SemiBin it did exactly that, opening [a PR bumping the wrapper from 2.1.0 to 2.6.0](https://github.com/galaxyproject/tools-iuc/pull/8401). It will not replace a reviewer, but it takes a lot of the repetitive work off our hands — exactly the kind of infrastructure a hackathon day is perfect for putting to the test.
+Not everything in tool maintenance is exciting, which is why Matthias spent part of the day testing [gxy-tool-bot](https://github.com/d-callan/gxy-tool-bot) on Björn's [galaxytools repository](https://github.com/bgruening/galaxytools). The bot is an agentic assistant: you file a tool request or an update request as a GitHub issue, it researches the tool and posts a plan, and once a maintainer approves it, it writes the wrapper changes and opens a pull request. In Björn's repo it worked through a whole batch of wrapper updates — EDTA, fastq_info and CleanLab among them. It will not replace a reviewer, but it takes a lot of the repetitive work off our hands — exactly the kind of infrastructure a hackathon day is perfect for putting to the test.
 
 ## Some numbers
 
