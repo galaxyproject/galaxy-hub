@@ -49,7 +49,7 @@ Beyond plain version bumps, Paul started updating antiSMASH to v8.
 
 ## Automating the boring parts
 
-Not everything in tool maintenance is exciting, which is why Matthias spent part of the day testing [gxy-tool-bot](https://github.com/d-callan/gxy-tool-bot) on Björn's [galaxytools repository](https://github.com/bgruening/galaxytools). The bot is an agentic assistant: you file a tool request or an update request as a GitHub issue, it researches the tool and posts a plan, and once a maintainer approves it, it writes the wrapper changes and opens a pull request. In Björn's repo it worked through a whole batch of wrapper updates — EDTA, fastq_info and CleanLab among them. It will not replace a reviewer, but it takes a lot of the repetitive work off our hands — exactly the kind of infrastructure a hackathon day is perfect for putting to the test.
+Not everything in tool maintenance is exciting, which is why Matthias spent part of the day testing [gxy-tool-bot](https://github.com/d-callan/gxy-tool-bot) on Björn's [galaxytools repository](https://github.com/bgruening/galaxytools). The bot is an agentic assistant: you file a tool request or an update request as a GitHub issue, it researches the tool and posts a plan, and once a maintainer approves it, it writes the wrapper changes and opens a pull request. In Björn's repo it worked through a whole batch of wrapper updates — EDTA, fastq_info and CleanLab among them. It will not replace a reviewer, but it takes a lot of the repetitive work off our hands.
 
 ## Some numbers
 
