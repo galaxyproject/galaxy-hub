@@ -37,8 +37,7 @@ jobs:
     name: calibreapp/image-actions
     runs-on: ubuntu-latest
     permissions:
-      contents: write
-      pull-requests: write
+      contents: read
     # Only run on main repo and on PRs that match the main repo.
     # Skip when the bot's own compression commit re-triggers this workflow
     # (synchronize + bot actor) to break the infinite loop. Safe for
