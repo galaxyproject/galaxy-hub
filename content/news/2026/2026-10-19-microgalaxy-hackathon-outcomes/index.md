@@ -45,7 +45,11 @@ Several updates are finished or nearly finished and waiting for a review. If you
 - GTDB-Tk and argNorm, taken on by Hugo
 - [PhyloPhlAn](https://github.com/galaxyproject/tools-iuc/pull/7067), carefully reviewed by Mina
 
-Beyond plain version bumps, Paul started updating antiSMASH to v8, and we put the tool dev bot to the test on SemiBin — automating the boring parts of wrapper maintenance is exactly the kind of thing a hackathon day should explore.
+Beyond plain version bumps, Paul started updating antiSMASH to v8.
+
+## Automating the boring parts
+
+Not everything in tool maintenance is exciting, which is why Matthias spent part of the day testing our tool dev bot, [gxydevbot](https://github.com/gxydevbot). The bot watches the IUC repository, spots wrappers that lag behind their upstream releases, and opens pull requests with the updated requirements and version strings. On SemiBin it did exactly that, opening [a PR bumping the wrapper from 2.1.0 to 2.6.0](https://github.com/galaxyproject/tools-iuc/pull/8401). It will not replace a reviewer, but it takes a lot of the repetitive work off our hands — exactly the kind of infrastructure a hackathon day is perfect for putting to the test.
 
 ## Some numbers
 
