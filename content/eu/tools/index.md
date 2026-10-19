@@ -2,7 +2,7 @@
 # THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
 # To update, run: python3 scripts/update-tools.py --server https://usegalaxy.eu --name "European Galaxy" --output content/eu/tools/index.md
 title: European Galaxy Tools
-description: "4483 tools and counting"
+description: "4487 tools and counting"
 ---
 
 
@@ -937,6 +937,7 @@ description: "4483 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=liftoff" target="_top" title="Lift gene annotations between genome assemblies">Liftoff</a>
 <a href="https://usegalaxy.eu/root?tool_id=lissero" target="_top" title="In silico serogroup typing prediction for Listeria monocytogenes">LisSero</a>
 <a href="https://usegalaxy.eu/root?tool_id=list_spaln_tables" target="_top" title="Given a query species, list the spaln settings tables that exist, from closest related species to most different">List spaln parameter tables</a>
+<a href="https://usegalaxy.eu/root?tool_id=logan_protein_search_database" target="_top" title="Search a database using pre-computed embeddings">Logan Protein Search</a>
 <a href="https://usegalaxy.eu/root?tool_id=mitos" target="_top" title="de-novo annotation of metazoan mitochondrial genomes">MITOS</a>
 <a href="https://usegalaxy.eu/root?tool_id=mitos2" target="_top" title="de-novo annotation of metazoan mitochondrial genomes">MITOS2</a>
 <a href="https://usegalaxy.eu/root?tool_id=mlst" target="_top" title="Scans genomes against PubMLST schemes">MLST</a>
@@ -1010,7 +1011,6 @@ description: "4483 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=snap" target="_top" title="gene prediction">SNAP</a>
 <a href="https://usegalaxy.eu/root?tool_id=microsatbed" target="_top" title="Short Tandem Repeats to bed features from fasta">STR to bed</a>
 <a href="https://usegalaxy.eu/root?tool_id=sanntis_marine" target="_top" title="in genomic and metagenomic data">Sanntis biosynthetic gene clusters</a>
-<a href="https://usegalaxy.eu/root?tool_id=logan_protein_search_database" target="_top" title="Search FAISS database with embedded queries and align with MMseqs2">Search Protein Database</a>
 <a href="https://usegalaxy.eu/root?tool_id=sexdeterrmine" target="_top" title="Calculate relative coverage">Sex.DetERRmine</a>
 <a href="https://usegalaxy.eu/root?tool_id=edu.tamu.cpt.genbank.shinefind" target="_top" title="Identify shine-dalgarno sequences">Shine Find</a>
 <a href="https://usegalaxy.eu/root?tool_id=signalp3" target="_top" title="Find signal peptides in protein sequences">SignalP 3.0</a>
@@ -1051,6 +1051,7 @@ description: "4483 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=homer_annotatePeaks" target="_top" title="">annotatePeaks</a>
 <a href="https://usegalaxy.eu/root?tool_id=argnorm" target="_top" title="a tool to normalize antibiotic resistance genes (ARGs) by mapping them to the antibiotic resistance ontology (ARO)">argNorm</a>
 <a href="https://usegalaxy.eu/root?tool_id=autobigs-cli" target="_top" title="Automated MLST typing">autoBIGS.cli</a>
+<a href="https://usegalaxy.eu/root?tool_id=ucsc_bigwigaverageoverbed" target="_top" title="Compute average score of a bigWig over each BED region">bigWigAverageOverBed</a>
 <a href="https://usegalaxy.eu/root?tool_id=cgmlst_filtering_and_clustering" target="_top" title="filter ChewBBACA cgMLST allele profiles and generate clustering trees">cgMLST filtering and clustering</a>
 <a href="https://usegalaxy.eu/root?tool_id=chewbbaca_allelecallevaluator" target="_top" title="Build an interactive report for allele calling results evaluation">chewBBACA AlleleCallEvaluator</a>
 <a href="https://usegalaxy.eu/root?tool_id=chewbbaca_createschema" target="_top" title="Create a gene-by-gene schema">chewBBACA CreateSchema</a>
@@ -2918,6 +2919,7 @@ description: "4483 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=metagenomeseq_normalizaton" target="_top" title="Cumulative sum scaling">metagenomeSeq Normalization</a>
 <a href="https://usegalaxy.eu/root?tool_id=micro_decon" target="_top" title="removing contamination from metabarcoding">micro_decon</a>
 <a href="https://usegalaxy.eu/root?tool_id=mmuphin" target="_top" title="Performing meta-analyses of microbiome studies">mmuphin</a>
+<a href="https://usegalaxy.eu/root?tool_id=mumu" target="_top" title="post-clustering curation of OTU or ASV tables (LULU algorithm)">mumu</a>
 <a href="https://usegalaxy.eu/root?tool_id=metasbt_profile" target="_top" title="genomes with MetaSBT to infer their taxonomic">profile</a>
 <a href="https://usegalaxy.eu/root?tool_id=qiime2__dada2__denoise_ccs" target="_top" title="Denoise and dereplicate single-end Pacbio CCS">qiime2 dada2 denoise-ccs</a>
 <a href="https://usegalaxy.eu/root?tool_id=qiime2_dbotu_q2" target="_top" title="QIIME 2 plugin for distribution-based clustering">qiime2 dbOTU</a>
@@ -3914,6 +3916,7 @@ description: "4483 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=keras_model_config" target="_top" title="using Keras">Create a deep learning model architecture</a>
 <a href="https://usegalaxy.eu/root?tool_id=create_tool_recommendation_model" target="_top" title="using deep learning">Create a model to recommend tools</a>
 <a href="https://usegalaxy.eu/root?tool_id=keras_model_builder" target="_top" title="with an optimizer, loss function and fit parameters">Create deep learning model</a>
+<a href="https://usegalaxy.eu/root?tool_id=dna_foundation_models" target="_top" title="for generating embeddings or fine-tuning models on labeled datasets">DNA Foundation Models</a>
 <a href="https://usegalaxy.eu/root?tool_id=keras_train_and_eval" target="_top" title="conduct deep training and evaluation either implicitly or explicitly">Deep learning training and evaluation</a>
 <a href="https://usegalaxy.eu/root?tool_id=deepmicro" target="_top" title="Representation learning and classification framework">DeepMicro</a>
 <a href="https://usegalaxy.eu/root?tool_id=sklearn_discriminant_classifier" target="_top" title="">Discriminant Analysis</a>
@@ -4240,6 +4243,7 @@ description: "4483 tools and counting"
 <div class="tool-list">
 
 <a href="https://usegalaxy.eu/root?tool_id=tool_biogeochemical_calibration" target="_top" title="for sensors according to Argo recommendations">BioGeoChemical calibration</a>
+<a href="https://usegalaxy.eu/root?tool_id=build_heterofor_forcing" target="_top" title="from SAFRAN reanalysis data regridded onto RENECOFOR plots">Build HETEROFOR Forcing Files</a>
 <a href="https://usegalaxy.eu/root?tool_id=cdo_operations" target="_top" title="Climate Data Manipulation Operators operations for standard processing of climate and NWP model output.">CDO Operations</a>
 <a href="https://usegalaxy.eu/root?tool_id=cdo_info" target="_top" title="Climate Data Information Operators to get information on Climate and NWP model data">CDO get info</a>
 <a href="https://usegalaxy.eu/root?tool_id=cesm" target="_top" title="Community Earth System Model">CESM</a>
