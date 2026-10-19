@@ -2,7 +2,7 @@
 # THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
 # To update, run: python3 scripts/update-tools.py --server https://usegalaxy.org --name "Galaxy US" --output content/us/tools/index.md
 title: Galaxy US Tools
-description: "2370 tools and counting"
+description: "2377 tools and counting"
 ---
 
 
@@ -1048,6 +1048,13 @@ description: "2370 tools and counting"
 <div class="tool-list">
 
 <a href="https://usegalaxy.org/root?tool_id=hyphy_annotate" target="_top" title="a newick tree with HyPhy">Annotate</a>
+<a href="https://usegalaxy.org/root?tool_id=chronaeon_align" target="_top" title="Reference-guided codon-aware alignment threading">ChronAeon Align</a>
+<a href="https://usegalaxy.org/root?tool_id=chronaeon_autoclock" target="_top" title="Unsupervised multi-clock community deconvolution and outlier triage">ChronAeon AutoClock</a>
+<a href="https://usegalaxy.org/root?tool_id=chronaeon_date" target="_top" title="Calibrate heterochronous molecular clocks and date MRCA">ChronAeon Date</a>
+<a href="https://usegalaxy.org/root?tool_id=chronaeon_dynamics" target="_top" title="Estimate epidemic growth rate (r) and reproduction numbers (R0, Rt)">ChronAeon Dynamics</a>
+<a href="https://usegalaxy.org/root?tool_id=chronaeon_phylogeo" target="_top" title="Discrete phylogeography and spatial transmission network inference">ChronAeon PhyloGeo</a>
+<a href="https://usegalaxy.org/root?tool_id=chronaeon_sketch" target="_top" title="Alignment-free MinHash sketching and sequence binning">ChronAeon Sketch</a>
+<a href="https://usegalaxy.org/root?tool_id=chronaeon_triage" target="_top" title="Streaming high-throughput QC and molecular clock outlier triage">ChronAeon Triage</a>
 <a href="https://usegalaxy.org/root?tool_id=drhip" target="_top" title="Data Reduction for HyPhy with Inference Processing">DRHIP</a>
 <a href="https://usegalaxy.org/root?tool_id=hyphy_bgm" target="_top" title="- Detecting coevolving sites via Bayesian graphical models">HyPhy-BGM</a>
 <a href="https://usegalaxy.org/root?tool_id=hyphy_busted" target="_top" title="Branch-site Unrestricted Statistical Test for Episodic Diversification">HyPhy-BUSTED</a>
