@@ -45,7 +45,7 @@ Several updates are finished or nearly finished and waiting for a review. If you
 - GTDB-Tk and argNorm, taken on by Hugo
 - [PhyloPhlAn](https://github.com/galaxyproject/tools-iuc/pull/7067), carefully reviewed by Mina
 
-Beyond plain version bumps, I started updating antiSMASH to v8, and we put the tool dev bot to the test on SemiBin — automating the boring parts of wrapper maintenance is exactly the kind of thing a hackathon day should explore.
+Beyond plain version bumps, Paul started updating antiSMASH to v8, and we put the tool dev bot to the test on SemiBin — automating the boring parts of wrapper maintenance is exactly the kind of thing a hackathon day should explore.
 
 ## Some numbers
 
