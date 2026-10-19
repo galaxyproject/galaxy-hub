@@ -183,7 +183,7 @@ const tabs = scenes.map((s) => ({ id: s.id, name: s.name, monogram: s.monogram, 
       panels.forEach((p) => {
         p.hidden = p.dataset.guidePanel !== id;
       });
-      if (opts.hash) history.replaceState(null, '', `${HASH_PREFIX}${id}`);
+      if (opts.hash) history.replaceState(history.state, '', `${HASH_PREFIX}${id}`);
       if (opts.announce) document.dispatchEvent(new CustomEvent(EVENT, { detail: { id, source: 'guides' } }));
       return true;
     }

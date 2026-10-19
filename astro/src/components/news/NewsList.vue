@@ -120,8 +120,9 @@ function updateUrl(year: number | null) {
   } else {
     params.set('year', String(year));
   }
-  const newUrl = `${window.location.pathname}${params.toString() ? `?${params.toString()}` : ''}`;
-  window.history.replaceState({}, '', newUrl);
+  const newUrl = `${window.location.pathname}${params.toString() ? `?${params.toString()}` : ''}${window.location.hash}`;
+  // Keep the existing state: Astro's ClientRouter stores its navigation index there
+  window.history.replaceState(window.history.state, '', newUrl);
 }
 
 watch(

@@ -104,7 +104,7 @@ const { yearCounts, years } = groupCitationsByYear(citations);
         params.set('year', year);
       }
       const newUrl = `${window.location.pathname}${params.toString() ? `?${params.toString()}` : ''}`;
-      window.history.pushState({}, '', newUrl);
+      window.history.replaceState(window.history.state, '', newUrl + window.location.hash);
     }
 
     const searchParams = new URLSearchParams(window.location.search);
