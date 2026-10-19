@@ -115,9 +115,9 @@ GCC2027 is hosted by the [Université de Sherbrooke](https://www.usherbrooke.ca/
     <p class="gx-tile__teaser gcc-person__org"><span><a href="https://jhu.edu/">Johns Hopkins University</a></span><span>United States</span></p>
   </div>
   <div class="gx-tile">
-    <div class="gcc-person__photo"></div>
-    <div class="gx-tile__title">TBA</div>
-    <p class="gx-tile__teaser gcc-person__org">&nbsp;</p>
+    <img class="gcc-person__photo" src="/images/events/gcc2027/organizers/charles.png" alt="Charles Coulombe" loading="lazy" />
+    <div class="gx-tile__title"><a href="/hall-of-fame/ccoulombe/">Charles Coulombe</a></div>
+    <p class="gx-tile__teaser gcc-person__org"><span><a href="https://www.usherbrooke.ca/">Université de Sherbrooke</a></span><span>Canada</span></p>
   </div>
 </div>
 
