@@ -3,7 +3,8 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHeader from '../../components/layout/PageHeader.astro';
 import { getTagIndex } from '../../utils/tagIndex';
 import ExternalIcon from '../../components/common/ExternalIcon.vue';
-import { formatDate, formatDateRange } from '../../utils/dateUtils';
+import EventDate from '../../components/events/EventDate.astro';
+import { formatDate, isPastEvent } from '../../utils/dateUtils';
 
 export async function getStaticPaths() {
   const index = await getTagIndex();
@@ -106,8 +107,14 @@ const hasBoth = newsArticles.length > 0 && sortedEvents.length > 0;
                   {event.data.title}
                   {event.data.external_url && <ExternalIcon href={event.data.external_url} />}
                 </h3>
+                <p class="text-sm mt-1">
+                  <EventDate
+                    start={event.data.date}
+                    end={event.data.end}
+                    past={isPastEvent(event.data.date, event.data.end)}
+                  />
+                </p>
                 {event.data.tease && <p class="text-sm text-chicago-500 mt-1 line-clamp-2">{event.data.tease}</p>}
-                <time class="text-sm text-chicago-400">{formatDateRange(event.data.date, event.data.end)}</time>
               </a>)}
             </div>
             {sortedEvents.length > 20 && <button

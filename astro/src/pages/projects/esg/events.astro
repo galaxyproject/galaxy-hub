@@ -5,7 +5,8 @@
  */
 import ESGLayout from '../../../layouts/ESGLayout.astro';
 import { getCollection } from 'astro:content';
-import { formatDateRange, isPastEvent } from '../../../utils/dateUtils';
+import EventDate from '../../../components/events/EventDate.astro';
+import { isPastEvent } from '../../../utils/dateUtils';
 
 // Check for solo mode
 const solo = Astro.url.searchParams.get('solo') === 'true';
@@ -48,8 +49,8 @@ function esgUrl(path: string): string {
       <div class="space-y-3">
         {pastEvents.map((event) => <div class="border-b border-ebony-clay-50 pb-3">
           <div class="flex flex-col md:flex-row md:items-center gap-2">
-            <span class="text-chicago-500 text-sm whitespace-nowrap">
-              {formatDateRange(event.data.date, event.data.end)}
+            <span class="text-sm shrink-0">
+              <EventDate start={event.data.date} end={event.data.end} past />
             </span>
             <a href={`/${event.data.slug}/`} class="text-chicago-700 hover:text-galaxy-gold">
               {event.data.title}

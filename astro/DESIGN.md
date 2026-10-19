@@ -277,6 +277,21 @@ Don't wrap the `<Button>` component in overrides to try to make it Galaxy-brande
 
 The `<Badge>` component (`@/components/ui/badge`) is available with `default`, `secondary`, `destructive`, `outline` variants, but for Galaxy content tags the hand-styled patterns above are preferred.
 
+### Event Date
+
+Event dates in lists render as one inline line: a 16 px calendar icon, the date range in bold, and a duration pill ("2 days") for multi-day events only. The line sits in the row's meta area under the title, next to the location. There is no calendar block.
+
+```astro
+<EventDate start={event.data.date} end={event.data.end} />
+<EventDate start={event.data.date} end={event.data.end} past />  <!-- muted past rows -->
+<EventDate start={event.data.date} end={event.data.end} format={{ year: false }} />
+```
+
+- One component: `components/events/EventDate.astro` for server markup, `EventDate.vue` for Vue islands. Both read their text from `eventDateParts()` in `utils/dateUtils.ts` and share `event-date.css` (plain CSS with token fallbacks, so the bare iframe feeds without `global.css` get it too).
+- Markup: `<time datetime="YYYY-MM-DD">` for the start and, for ranges, the end; the duration is plain text so screen readers read "2 days"; the icon is `aria-hidden`.
+- Colours: range `galaxy-dark` (12.9:1 on white), past `chicago-600` (7.1:1 on white, 5.5:1 on `ebony-clay-50`), pill `bay-of-many-950` on `bay-of-many-100` with a `bay-of-many-200` border (9.1:1).
+- Date tables (bare `EventsTable`) and event page headers keep their own formats.
+
 ### Forms
 
 Reka UI / shadcn-style components are available for:

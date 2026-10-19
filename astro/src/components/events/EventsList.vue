@@ -3,9 +3,10 @@ import { ref, computed, onMounted, watch } from 'vue';
 import { useStore } from '@nanostores/vue';
 import { currentSubsite, subsites, type SubsiteId } from '@/stores/subsiteStore';
 import { renderMarkdownInline } from '@/utils/markdown';
-import { formatDateRange, getUTCYear, isUpcomingEvent, isPastEvent } from '@/utils/dateUtils';
+import { getUTCYear, isUpcomingEvent, isPastEvent } from '@/utils/dateUtils';
 import { contentMatchesSubsite } from '@/utils/subsites';
 import ExternalIcon from '../common/ExternalIcon.vue';
+import EventDate from './EventDate.vue';
 
 interface EventData {
   slug: string;
@@ -232,35 +233,36 @@ function displaySubsite(subsite: string): string {
                     {{ event.title || 'Untitled Event' }}
                     <ExternalIcon v-if="event.externalUrl" :href="event.externalUrl" />
                   </h3>
-                  <p v-if="event.tease" class="text-chicago-600 mt-1" v-html="renderMarkdownInline(event.tease)"></p>
-                  <p v-if="event.location" class="text-sm text-chicago-500 mt-2 flex items-center gap-1">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                      />
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                      />
-                    </svg>
-                    {{ getLocationText(event.location) }}
+                  <p
+                    v-if="event.date || event.location"
+                    class="text-sm text-chicago-500 mt-1 flex flex-wrap items-center gap-x-3 gap-y-1"
+                  >
+                    <EventDate v-if="event.date" :start="event.date" :end="event.end" />
+                    <span v-if="event.location" class="flex items-center gap-1">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-4 w-4"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                        />
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                        />
+                      </svg>
+                      {{ getLocationText(event.location) }}
+                    </span>
                   </p>
-                </div>
-                <div class="sm:text-right">
-                  <time v-if="event.date" class="text-sm font-medium text-galaxy-primary">
-                    {{ formatDateRange(event.date, event.end) }}
-                  </time>
+                  <p v-if="event.tease" class="text-chicago-600 mt-2" v-html="renderMarkdownInline(event.tease)"></p>
                 </div>
               </div>
             </a>
@@ -349,9 +351,7 @@ function displaySubsite(subsite: string): string {
                 {{ event.title || 'Untitled Event' }}
                 <ExternalIcon v-if="event.externalUrl" :href="event.externalUrl" />
               </h3>
-              <time v-if="event.date" class="text-sm text-chicago-500">
-                {{ formatDateRange(event.date, event.end) }}
-              </time>
+              <EventDate v-if="event.date" class="text-sm sm:shrink-0" :start="event.date" :end="event.end" past />
             </div>
           </a>
         </article>

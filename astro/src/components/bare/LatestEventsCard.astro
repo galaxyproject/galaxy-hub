@@ -9,7 +9,8 @@
  */
 import { getCollection } from 'astro:content';
 import { contentMatchesSubsite } from '@/utils/subsites';
-import { formatDateRange, isUpcomingEvent } from '@/utils/dateUtils';
+import EventDate from '@/components/events/EventDate.astro';
+import { isUpcomingEvent } from '@/utils/dateUtils';
 
 interface Props {
   subsite: string;
@@ -71,8 +72,8 @@ const moreUrl = `${siteUrl}/bare/${subsite}/events/`;
               {event.data.title}
             </a>
             <div class="event-details">
-              {formatDateRange(event.data.date, event.data.end, { year: false })}
-              {locationStr && ` · ${locationStr}`}
+              <EventDate start={event.data.date} end={event.data.end} format={{ year: false }} />
+              {locationStr && <span>{locationStr}</span>}
             </div>
             {event.data.tease && <div class="event-tease">{event.data.tease}</div>}
           </li>;
@@ -153,6 +154,10 @@ const moreUrl = `${siteUrl}/bare/${subsite}/events/`;
   }
 
   .event-details {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2px 8px;
     color: #666;
     font-size: 13px;
     margin-top: 4px;

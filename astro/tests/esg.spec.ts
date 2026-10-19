@@ -58,7 +58,7 @@ test.describe('ESG project page', () => {
     await expect(items.first()).toBeVisible();
 
     // date text is "Mon D, YYYY", "Mon D - D, YYYY" or "Mon D, YYYY - Mon D, YYYY": the start date is parsed
-    const texts = await items.locator('span').allTextContents();
+    const texts = await items.locator('.gx-event-date__range').allTextContents();
     const starts = texts.map((t) => {
       const m = t.trim().match(/^([A-Z][a-z]{2}) (\d{1,2}).*?(\d{4})/);
       return m ? Date.parse(`${m[1]} ${m[2]}, ${m[3]} UTC`) : NaN;
