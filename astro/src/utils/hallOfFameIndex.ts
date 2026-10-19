@@ -10,6 +10,7 @@ import {
   listGrants,
   listOrganisations,
 } from './contributors';
+import { formatDate } from './dateUtils';
 
 type NewsEntry = CollectionEntry<'news'>;
 type EventEntry = CollectionEntry<'events'>;
@@ -78,9 +79,7 @@ function addContribution(
     url: buildUrl(entry),
     date: dateObj?.toISOString() || entry.data.date?.toString(),
     dateValue: dateObj?.getTime() || 0,
-    displayDate: dateObj
-      ? dateObj.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })
-      : '',
+    displayDate: formatDate(dateObj),
     tease: (entry.data as Record<string, unknown>).tease as string | undefined,
     kind,
     displayMatch,

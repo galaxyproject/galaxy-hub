@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
-import { isTodayOrLater } from '../../utils/dateUtils';
+import { formatDate, isTodayOrLater } from '../../utils/dateUtils';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/card';
 
 // Get all career listings
@@ -36,11 +36,6 @@ const closedPositions = careers
     return dateB - dateA; // Sort by closes date (most recent first)
   })
   .slice(0, 50); // Limit to last 50 closed positions
-
-function formatDate(date: Date | null | undefined): string {
-  if (!date) return '';
-  return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
-}
 
 function getLocationName(location: any): string {
   if (!location) return '';
