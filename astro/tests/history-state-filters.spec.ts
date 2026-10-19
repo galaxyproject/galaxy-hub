@@ -83,9 +83,9 @@ test.describe('Filters follow popstate', () => {
     const year = ((await second.textContent()) || '').match(/\d{4}/)?.[0] as string;
 
     await popTo(page, `/news/?year=${year}`);
-    await expect(page.locator('.news-list > p').first()).toContainText(`in ${year}`);
+    await expect(page.locator('.news-list [data-filter-count]')).toContainText(`in ${year}`);
     await popTo(page, '/news/');
-    await expect(page.locator('.news-list > p').first()).not.toContainText(`in ${year}`);
+    await expect(page.locator('.news-list [data-filter-count]')).not.toContainText(`in ${year}`);
   });
 
   test('events past year', async ({ page }) => {
