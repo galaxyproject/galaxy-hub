@@ -29,6 +29,35 @@ test.describe('Subsite citations', () => {
       .toEqual([year]);
   });
 
+  test('year filter works after a client-side visit to another citations page', async ({ page }) => {
+    await page.goto('/eu/citations/');
+    // A real anchor click goes through the ClientRouter, which runs the page script only once
+    await page.evaluate(() => {
+      const link = document.createElement('a');
+      link.href = '/elixir-it/citations/';
+      link.textContent = 'ELIXIR-IT citations';
+      link.id = 'test-citations-link';
+      link.style.cssText = 'position:fixed;top:0;left:0;z-index:2147483647;background:#fff';
+      document.body.append(link);
+    });
+    await page.locator('#test-citations-link').click();
+    await expect(page.locator('h1')).toHaveText('ELIXIR-IT Citations');
+
+    const yearButton = page.locator('[data-year-button]').nth(1);
+    const year = await yearButton.getAttribute('data-year');
+    await yearButton.click();
+    await expect(page).toHaveURL(new RegExp(`/elixir-it/citations/\\?year=${year}$`));
+    await expect(yearButton).toHaveAttribute('aria-pressed', 'true');
+    await expect
+      .poll(async () => {
+        const visibleYears = await page.$$eval('article', (els) =>
+          els.filter((el) => !el.classList.contains('hidden')).map((el) => el.getAttribute('data-citation-year'))
+        );
+        return [...new Set(visibleYears)];
+      })
+      .toEqual([year]);
+  });
+
   test('elixir-it citations render entries', async ({ page }) => {
     const response = await page.goto('/elixir-it/citations/');
     expect(response?.status()).toBe(200);

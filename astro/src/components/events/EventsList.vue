@@ -1,10 +1,11 @@
 <script setup lang="ts">
-import { ref, computed, onMounted, watch } from 'vue';
+import { ref, computed, onMounted, onUnmounted, watch } from 'vue';
 import { useStore } from '@nanostores/vue';
 import { currentSubsite, subsites, type SubsiteId } from '@/stores/subsiteStore';
 import { renderMarkdownInline } from '@/utils/markdown';
 import { formatDateRange, getUTCYear, isUpcomingEvent, isPastEvent } from '@/utils/dateUtils';
 import { contentMatchesSubsite } from '@/utils/subsites';
+import { onPopState, readParams, writeParams } from '@/utils/urlFilters';
 import ExternalIcon from '../common/ExternalIcon.vue';
 
 interface EventData {
@@ -41,28 +42,37 @@ const hasMounted = ref(false);
 const effectiveSubsite = computed(() =>
   !hasMounted.value && props.initialSubsite ? props.initialSubsite : $subsite.value
 );
-const isBrowser = typeof window !== 'undefined';
+const FILTER_PARAMS = { year: null };
 
 function getYearFromQuery(): number | null {
-  if (!isBrowser) return null;
-  const param = new URLSearchParams(window.location.search).get('year');
+  const param = readParams(FILTER_PARAMS).year;
   if (!param) return null;
   const parsed = Number(param);
   return Number.isFinite(parsed) ? parsed : null;
 }
 
 // Year-based navigation for past events
-const selectedPastYear = ref<number | null>(getYearFromQuery());
+// Read from the URL after mount: the server render has no query, and hydration must match it
+const selectedPastYear = ref<number | null>(null);
 const pageSize = 50;
 const pastDisplayCount = ref(pageSize);
+
+let stopPopState = () => {};
 
 // Set initial subsite from URL route if provided
 onMounted(() => {
   if (props.initialSubsite && props.initialSubsite !== 'global') {
     currentSubsite.set(props.initialSubsite);
   }
+  selectedPastYear.value = getYearFromQuery();
   hasMounted.value = true;
+  // Back/forward restores the past-events year from the URL
+  stopPopState = onPopState(() => {
+    selectedPastYear.value = getYearFromQuery();
+  });
 });
+
+onUnmounted(() => stopPopState());
 
 function loadMorePast() {
   pastDisplayCount.value += pageSize;
@@ -167,21 +177,8 @@ function selectPastYear(year: number | null) {
   selectedPastYear.value = year;
 }
 
-function updateUrl(year: number | null) {
-  if (!isBrowser) return;
-  const params = new URLSearchParams(window.location.search);
-  if (year === null) {
-    params.delete('year');
-  } else {
-    params.set('year', String(year));
-  }
-  const newUrl = `${window.location.pathname}${params.toString() ? `?${params.toString()}` : ''}${window.location.hash}`;
-  // Keep the existing state: Astro's ClientRouter stores its navigation index there
-  window.history.replaceState(window.history.state, '', newUrl);
-}
-
 watch(selectedPastYear, (year) => {
-  updateUrl(year);
+  writeParams({ year });
 });
 
 function getLocationText(location: EventData['location']): string {
