@@ -6,12 +6,20 @@ import requests
 import html
 import urllib.parse
 
+# Numeric references are read as literal text, never as Markdown link syntax.
+_MARKDOWN_LINK_CHARS = str.maketrans({"[": "&#91;", "]": "&#93;", "\\": "&#92;"})
+
+
+def escape_text(value: str, quote: bool = False) -> str:
+    """HTML-escape `value` and encode the characters that open Markdown links."""
+    return html.escape(value, quote=quote).translate(_MARKDOWN_LINK_CHARS)
+
 
 def render_tool_link(elem: dict, server_url: str) -> str:
     try:
         elem_id = elem["id"]
         # Escape HTML characters for MDX/HTML compatibility
-        elem_name = html.escape(elem.get("name") or "")
+        elem_name = escape_text(elem.get("name") or "", quote=True)
         elem_desc = html.escape(elem.get("description") or "")
 
         if "toolshed" in elem_id:
@@ -42,7 +50,7 @@ def render_sections(sections: list, server_url: str) -> tuple[str, int]:
         model = section.get("model_class", "")
         if model == "ToolSection":
             # Add extra newline before headers to ensure they are parsed as block elements
-            out += f'\n### {html.escape(section["name"], quote=False)}\n\n'
+            out += f'\n### {escape_text(section["name"])}\n\n'
             out += '<div class="tool-list">\n\n'
 
             # Sort tools within the section deterministically
@@ -60,7 +68,7 @@ def render_sections(sections: list, server_url: str) -> tuple[str, int]:
             out += "\n</div>\n"
         elif model == "ToolSectionLabel":
             out += "\n---\n\n"
-            out += f'## {html.escape(section["text"], quote=False)}\n\n'
+            out += f'## {escape_text(section["text"])}\n\n'
         elif model == "Tool":
             tool_count += 1
             out += '<div class="tool-list">\n\n'
