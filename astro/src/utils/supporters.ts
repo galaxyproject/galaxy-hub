@@ -1,4 +1,10 @@
-import { getCommunityImage, getGrant, getHubHallOfFameUrl, getOrganisation } from './contributors';
+import {
+  getCommunityImage,
+  getCommunityProfileUrl,
+  getGrant,
+  getHubHallOfFameUrl,
+  getOrganisation,
+} from './contributors';
 import { communitySlug as baseCommunitySlug, toArray as baseToArray } from './community-base.mjs';
 
 export type SupporterProfile = {
@@ -32,7 +38,7 @@ export async function resolveSupporters(value: unknown): Promise<SupporterProfil
         slug,
         name: org.short_name || org.name || org.id,
         image: getCommunityImage(org),
-        url: org.url,
+        url: getCommunityProfileUrl(org),
         profileUrl: getHubHallOfFameUrl(org.id || name),
       });
       continue;
@@ -47,7 +53,7 @@ export async function resolveSupporters(value: unknown): Promise<SupporterProfil
         slug,
         name: grant.short_name || grant.name || grant.id,
         image: getCommunityImage(grant),
-        url: grant.url,
+        url: getCommunityProfileUrl(grant),
         profileUrl: getHubHallOfFameUrl(grant.id || name),
       });
       continue;
