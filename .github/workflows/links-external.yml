@@ -23,6 +23,8 @@ jobs:
             --verbose
             --exclude-all-private
             --exclude "localhost:8080"
+            --exclude '^https://academic\.oup\.com/'
+            --exclude '^https://doi\.org/10\.1093/'
             --
             "https://galaxyproject.org/"
             "https://galaxyproject.org/use/"
