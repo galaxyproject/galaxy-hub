@@ -54,6 +54,8 @@ function renderAndSearch() {
       div: containerRef.value,
       tag: 'searchresults-only',
       gname: 'galaxySearch',
+      // CSE history management calls replaceState(null), wiping Astro's ClientRouter state
+      attributes: { enableHistory: false },
     });
   }
 
