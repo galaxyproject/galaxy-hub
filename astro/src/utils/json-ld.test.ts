@@ -1,3 +1,6 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import { globSync } from 'glob';
 import { describe, expect, it } from 'vitest';
 import { safeJsonLd } from './json-ld';
 
@@ -23,5 +26,28 @@ describe('safeJsonLd', () => {
   it('matches JSON.stringify for data without those characters', () => {
     const plain = { '@context': 'https://schema.org', headline: 'Galaxy & friends', n: 1 };
     expect(safeJsonLd(plain)).toBe(JSON.stringify(plain));
+  });
+});
+
+describe('JSON-LD script elements', () => {
+  const src = path.resolve(import.meta.dirname, '..');
+  const scripts = globSync('**/*.{astro,vue}', { cwd: src }).flatMap((file) =>
+    [...fs.readFileSync(path.join(src, file), 'utf8').matchAll(/<script\b[^>]*application\/ld\+json[^>]*>/g)].map(
+      ([tag]) => ({ file, tag })
+    )
+  );
+
+  it('finds the news and event structured data', () => {
+    expect(scripts.map((s) => s.file).sort()).toEqual([
+      'pages/events/[...slug].astro',
+      'pages/events/[...slug].astro',
+      'pages/news/[...slug].astro',
+    ]);
+  });
+
+  it('serializes every one with safeJsonLd', () => {
+    for (const { file, tag } of scripts) {
+      expect(tag, file).toMatch(/set:html=\{safeJsonLd\(\w+\)\}/);
+    }
   });
 });
