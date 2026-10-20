@@ -1,19 +1,28 @@
 import { test, expect, type Page } from '@playwright/test';
 
 // Stand-in for cse.google.com/cse.js so the tests need no network. It models what the real
-// element script does on render (seen in cse_element__*.js): unless enableHistory is false it
-// calls history.replaceState(null, '', '#…&gsc.tab=0'), which wipes Astro's ClientRouter state.
+// element script does (seen in cse_element__*.js): unless enableHistory is false, render calls
+// history.replaceState(null, '', '#…&gsc.tab=0') and execute calls history.pushState(null, …),
+// both of which wipe Astro's ClientRouter state. Each render and execute is recorded.
 const FAKE_CSE = `
 (() => {
-  window.__cseRenderConfigs = [];
-  const elements = {};
+  window.__cseRenderConfigs ??= [];
+  window.__cseExecutes ??= [];
+  const elements = (window.__cseElements ??= {});
   window.google = { search: { cse: { element: {
     render(config) {
       window.__cseRenderConfigs.push(config);
-      if (config.attributes?.enableHistory !== false) {
+      const managesHistory = config.attributes?.enableHistory !== false;
+      if (managesHistory) {
         history.replaceState(null, '', (location.hash || '#') + '&gsc.tab=0');
       }
-      elements[config.gname] = { execute() {}, clearAllResults() {} };
+      elements[config.gname] = {
+        execute(q) {
+          window.__cseExecutes.push({ q, gname: config.gname, connected: config.div.isConnected });
+          if (managesHistory) history.pushState(null, '', (location.hash || '#') + '&gsc.q=' + q);
+        },
+        clearAllResults() {},
+      };
     },
     getElement(name) { return elements[name]; },
   } } } };
@@ -36,6 +45,21 @@ async function stubCse(page: Page) {
 async function waitForSearchPage(page: Page) {
   await expect(page.locator('astro-island:has(.search-page)')).not.toHaveAttribute('ssr', { timeout: 60_000 });
 }
+
+const renderCount = (page: Page) => page.evaluate(() => (window as any).__cseRenderConfigs?.length ?? 0);
+
+// The latest render targets a container that is still in the document
+const lastRenderConnected = (page: Page) =>
+  page.evaluate(() => (window as any).__cseRenderConfigs?.at(-1)?.div.isConnected ?? false);
+
+// The latest execute ran on the latest rendered element while its container was in the document
+const lastExecute = (page: Page) =>
+  page.evaluate(() => {
+    const w = window as any;
+    const last = w.__cseExecutes?.at(-1);
+    if (!last) return null;
+    return { q: last.q, connected: last.connected, latestRender: last.gname === w.__cseRenderConfigs.at(-1).gname };
+  });
 
 test.describe('Search page keeps router history state with Google CSE', () => {
   // Serial: parallel cold page loads race Vite's dev dependency re-optimisation and fail hydration
@@ -66,7 +90,7 @@ test.describe('Search page keeps router history state with Google CSE', () => {
 
     await page.getByRole('tab', { name: 'Pan-Galactic Search' }).click();
     await expect.poll(() => requests.length).toBe(1);
-    await expect.poll(() => page.evaluate(() => (window as any).__cseRenderConfigs?.length ?? 0)).toBe(1);
+    await expect.poll(() => renderCount(page)).toBe(1);
     await expect(page).toHaveURL(/\/search\/\?q=galaxy&tab=google#keep-me$/);
     expect(await historyIndex(page)).toBe(before);
   });
@@ -76,17 +100,17 @@ test.describe('Search page keeps router history state with Google CSE', () => {
     await page.goto('/search/?tab=google&q=galaxy#keep-me');
     await waitForSearchPage(page);
     await expect.poll(() => requests.length).toBeGreaterThan(0);
-    await expect.poll(() => page.evaluate(() => (window as any).__cseRenderConfigs?.length ?? 0)).toBe(1);
+    await expect.poll(() => renderCount(page)).toBe(1);
 
     expect(typeof (await historyIndex(page))).toBe('number');
     await expect(page).toHaveURL(/\/search\/\?tab=google&q=galaxy#keep-me$/);
   });
 
   test('back navigation restores the search page after the Google tab loaded', async ({ page }) => {
-    await stubCse(page);
+    const requests = await stubCse(page);
     await page.goto('/search/?tab=google&q=galaxy');
     await waitForSearchPage(page);
-    await expect.poll(() => page.evaluate(() => (window as any).__cseRenderConfigs?.length ?? 0)).toBe(1);
+    await expect.poll(() => renderCount(page)).toBe(1);
 
     await page.locator('a[href="/news/"]').first().click();
     await expect(page).toHaveURL(/\/news\/$/);
@@ -94,5 +118,30 @@ test.describe('Search page keeps router history state with Google CSE', () => {
 
     await expect(page.getByPlaceholder('Search articles, events, platforms...')).toHaveValue('galaxy');
     await expect(page).toHaveURL(/\/search\/\?tab=google&q=galaxy$/);
+    await expect.poll(() => renderCount(page)).toBe(2);
+    expect(await lastRenderConnected(page)).toBe(true);
+    await expect.poll(() => lastExecute(page)).toEqual({ q: 'galaxy', connected: true, latestRender: true });
+    expect(requests).toHaveLength(1);
+  });
+
+  test('Google tab renders again when reopened after back navigation', async ({ page }) => {
+    await stubCse(page);
+    await page.goto('/search/?q=galaxy');
+    await waitForSearchPage(page);
+    await page.getByRole('tab', { name: 'Pan-Galactic Search' }).click();
+    await expect.poll(() => renderCount(page)).toBe(1);
+    await page.getByRole('tab', { name: 'Hub Search' }).click();
+    await expect(page).toHaveURL(/\/search\/\?q=galaxy$/);
+
+    await page.locator('a[href="/news/"]').first().click();
+    await expect(page).toHaveURL(/\/news\/$/);
+    await page.goBack();
+    await expect(page.getByPlaceholder('Search articles, events, platforms...')).toHaveValue('galaxy');
+    expect(await renderCount(page)).toBe(1);
+
+    await page.getByRole('tab', { name: 'Pan-Galactic Search' }).click();
+    await expect.poll(() => renderCount(page)).toBe(2);
+    expect(await lastRenderConnected(page)).toBe(true);
+    await expect.poll(() => lastExecute(page)).toEqual({ q: 'galaxy', connected: true, latestRender: true });
   });
 });

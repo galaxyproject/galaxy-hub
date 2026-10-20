@@ -1,3 +1,14 @@
+<script lang="ts">
+// Shared by all instances; ClientRouter mounts a new one on each /search/ visit
+let instanceCount = 0;
+
+// CSE keeps elements by gname; a new name lets each instance render into its own container
+function nextElementName() {
+  instanceCount += 1;
+  return `galaxySearch${instanceCount}`;
+}
+</script>
+
 <script setup lang="ts">
 import { ref, watch, nextTick } from 'vue';
 
@@ -6,6 +17,7 @@ const props = defineProps<{ query: string; active: boolean }>();
 const cseLoaded = ref(false);
 const cseError = ref(false);
 const containerRef = ref<HTMLElement | null>(null);
+const gname = nextElementName();
 
 function loadCSEScript(): Promise<void> {
   return new Promise((resolve, reject) => {
@@ -34,7 +46,7 @@ function executeSearch(query: string) {
   const google = (window as any).google;
   if (!google?.search?.cse?.element) return;
 
-  const element = google.search.cse.element.getElement('galaxySearch');
+  const element = google.search.cse.element.getElement(gname);
   if (element) {
     if (query.trim()) {
       element.execute(query);
@@ -48,12 +60,12 @@ function renderAndSearch() {
   const google = (window as any).google;
   if (!google?.search?.cse?.element || !containerRef.value) return;
 
-  const existing = google.search.cse.element.getElement('galaxySearch');
+  const existing = google.search.cse.element.getElement(gname);
   if (!existing) {
     google.search.cse.element.render({
       div: containerRef.value,
       tag: 'searchresults-only',
-      gname: 'galaxySearch',
+      gname,
       // CSE history management calls replaceState(null), wiping Astro's ClientRouter state
       attributes: { enableHistory: false },
     });
