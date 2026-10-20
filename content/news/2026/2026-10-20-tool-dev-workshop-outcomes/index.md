@@ -39,11 +39,15 @@ The final half-day belonged to the participants: everyone was invited to wrap a 
 
 ## What participants told us
 
-We asked everyone to rate the workshop and share what they liked, what they would improve, and whether their expectations were met. The feedback was very encouraging: the practical, hands-on format and the direct access to experienced developers came up again and again.
+Fourteen participants filled in the feedback form, and the picture is very clear: **everyone would recommend the workshop**, and 13 of 14 rated it Good or better — with 11 saying Very Good or Excellent. What people singled out most was the support from the trainers ("very skilled instructors, loads of help when running into a problem"), the practical, hands-on approach, and the interaction with instructors and other participants.
 
-<!-- TODO: add 1-2 concrete quotes and the headline numbers from the feedback form
-     (e.g. overall satisfaction, would-recommend share) once exported from
-     https://docs.google.com/forms/d/1A4ktA6A5zvLxPqd1bKSBLCmjh4vFF9z2QQF73tgEdT4/edit#responses -->
+A few more numbers: all 14 agreed that the lecturers were open to questions, that the work climate was inspiring, and that they felt comfortable during the workshop. Most participants came in new to the tools we covered — only one used them frequently before, while eight had never used them at all — and 10 of 14 said they will definitely use what they learned again (the other four said maybe).
+
+> "I would like to understand how to create a tool in Galaxy — now I can."
+
+> "The workshop met my expectations and provided useful knowledge that I can apply in my research, teaching, and bioinformatics training activities."
+
+We also asked how to improve the next edition, and we are taking the suggestions seriously: more breaks and more time for the hands-on parts, written documentation to follow along during live coding, an explicit introduction for people completely new to Galaxy, and a more readable setup for hybrid participants. The full feedback is already shaping the plan for edition number three.
 
 <!-- TODO: add outcomes from the "wrap your own tool" document
      https://docs.google.com/document/d/1mn5nrFrTq996qM0WqmRAorYZKEpg7ASVTtcttmWpY-o/edit
