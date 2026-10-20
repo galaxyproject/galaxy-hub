@@ -49,6 +49,20 @@ Day 2 went deeper: conditionals, repeats, and sections; output collections with 
 
 The final half-day belonged to the participants: everyone was invited to wrap a tool of their own, or to join the IUC hackathon and work on one of the open tool requests. The round of two-minute updates at the end was one of the highlights of the week: it was great to see how much people had built in just three days, and where they want to take it next.
 
+Here is what people worked on:
+
+- **antiSMASH**: updating the wrapper to the latest upstream release (Paul)
+- **Proteomics tools**: a round of updates (Pauline)
+- **Interactive FlexDashboard**: a new interactive tool (Mercedes)
+- **bigWigAverageOverBed**: a new wrapper for the UCSC genome browser tool, useful for checking read-count evidence in samples (Aparamita)
+- **Materials science**: a demo tool for evaluating experiments, plus an extension with a user interface (Lukas)
+- **Digital Humanities tools**: moving tools into the Digital Humanities ToolShed category, with PRs to [galaxytools](https://github.com/bgruening/galaxytools/pull/2016) and [tools-iuc](https://github.com/galaxyproject/tools-iuc/pull/8508), plus an [FAQ update for interactive tools](https://github.com/galaxyproject/training-material/pull/7146) (Dani)
+- **Cytotable**: converting CellProfiler output into Pycytominer input, based on the [upstream project](https://github.com/cytomining/cytotable) (Huy)
+- **MUSCLE**: a wrapper for the [MUSCLE5](https://drive5.com/muscle5/) aligner (Juan)
+- **CleaveRNA**: updating the existing Galaxy tool (Reyhaneh)
+
+A few of these already produced pull requests during the workshop; others are the first step of contributions that will land in the coming weeks.
+
 ## What participants told us
 
 Fourteen participants filled in the feedback form, and the picture is very clear: **everyone would recommend the workshop**, and 13 of 14 rated it Good or better, with 11 saying Very Good or Excellent. What people singled out most was the support from the trainers ("very skilled instructors, loads of help when running into a problem"), the practical, hands-on approach, and the interaction with instructors and other participants.
@@ -60,10 +74,6 @@ A few more numbers: all 14 agreed that the lecturers were open to questions, tha
 > "The workshop met my expectations and provided useful knowledge that I can apply in my research, teaching, and bioinformatics training activities."
 
 We also asked how to improve the next edition, and we are taking the suggestions seriously: more breaks and more time for the hands-on parts, written documentation to follow along during live coding, an explicit introduction for people completely new to Galaxy, and a more readable setup for hybrid participants. The full feedback is already shaping the plan for edition number three.
-
-<!-- TODO: add outcomes from the "wrap your own tool" document
-     https://docs.google.com/document/d/1mn5nrFrTq996qM0WqmRAorYZKEpg7ASVTtcttmWpY-o/edit
-     e.g. how many tools were started/finished, which ones, and links to PRs -->
 
 ## Thank you!
 
