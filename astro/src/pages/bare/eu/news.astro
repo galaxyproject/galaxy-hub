@@ -4,13 +4,13 @@
  * Shows EU-filtered news articles in a table layout
  * Embedded in Galaxy EU interface
  */
-import { getCollection } from 'astro:content';
+import { getListedCollection } from '../../../utils/content';
 import BareArticleLayout from '../../../layouts/BareArticleLayout.astro';
 import NewsTable from '../../../components/bare/NewsTable.astro';
 import Insert from '../../../components/Insert.astro';
 import { contentMatchesSubsite } from '../../../utils/subsites';
 
-const allNews = await getCollection('news');
+const allNews = await getListedCollection('news');
 const newsArticles = allNews
   .filter((article) => {
     return contentMatchesSubsite(article.data.subsites, 'eu');

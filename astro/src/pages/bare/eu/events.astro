@@ -4,7 +4,7 @@
  * Shows EU-filtered events in a table layout
  * Embedded in Galaxy EU interface
  */
-import { getCollection } from 'astro:content';
+import { getListedCollection } from '../../../utils/content';
 import BareArticleLayout from '../../../layouts/BareArticleLayout.astro';
 import EventsTable from '../../../components/bare/EventsTable.astro';
 import Insert from '../../../components/Insert.astro';
@@ -15,7 +15,7 @@ const now = new Date();
 const twelveMonthsAgo = new Date(now);
 twelveMonthsAgo.setFullYear(twelveMonthsAgo.getFullYear() - 1);
 
-const allEvents = await getCollection('events', (entry) => {
+const allEvents = await getListedCollection('events', (entry) => {
   return contentMatchesSubsite(entry.data.subsites, 'eu');
 });
 

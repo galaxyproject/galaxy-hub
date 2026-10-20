@@ -21,6 +21,7 @@ import CofestBoard from '../../components/CofestBoard.astro';
 import SupporterGrid from '../../components/content/SupporterGrid.astro';
 import { resolveSupporters } from '../../utils/supporters';
 import { formatDateRange, isPastEvent } from '../../utils/dateUtils';
+import { isListed } from '../../utils/publish-date.mjs';
 import { extractFunding, extractAuthors, resolveAuthor } from '../../utils/contributors';
 import Icon from '../../components/ui/Icon.astro';
 import ReleaseGuardiansSummary from '../../components/release-guardians/Summary.astro';
@@ -150,6 +151,8 @@ export async function getStaticPaths() {
     const navItems: ConferenceNavItem[] = [
       { slug: rootSlug, href: `/${rootSlug}/`, label: 'Home' },
       ...childPages
+        // A draft sub-page is built but stays out of the conference navigation.
+        .filter((entry) => isListed(entry))
         .sort((a, b) => {
           // Pages with nav_order come first, in that order; the rest follow alphabetically.
           const orderA = getNavOrder(a);
