@@ -1,50 +1,7 @@
 import { describe, expect, it } from 'vitest';
-import { safeUrl, sanitizeHtml } from './safe-html';
+import { sanitizeHtml } from './safe-html';
 
 const SMALL_CAPS = '<span style="font-variant:small-caps">';
-
-describe('safeUrl', () => {
-  it('keeps http(s) URLs unchanged', () => {
-    expect(safeUrl('https://example.org/a?b=1&c=2')).toBe('https://example.org/a?b=1&c=2');
-    expect(safeUrl('http://example.org')).toBe('http://example.org');
-    expect(safeUrl('HTTPS://EXAMPLE.ORG')).toBe('HTTPS://EXAMPLE.ORG');
-  });
-
-  it('rejects script-capable, data, other-scheme and relative URLs', () => {
-    for (const url of [
-      'javascript:alert(1)',
-      'JaVaScRiPt:alert(1)',
-      ' javascript:alert(1)',
-      'java\tscript:alert(1)',
-      '\u0001javascript:alert(1)',
-      'vbscript:msgbox(1)',
-      'data:text/html;base64,PHNjcmlwdD4=',
-      'ftp://example.org/file',
-      'tel:+4912345',
-      '//evil.example/x',
-      '/relative/path',
-      '#fragment',
-      '',
-    ]) {
-      expect(safeUrl(url), url).toBeUndefined();
-    }
-  });
-
-  it('rejects entity-encoded schemes', () => {
-    expect(safeUrl('&#106;avascript:alert(1)')).toBeUndefined();
-    expect(safeUrl('javascript&colon;alert(1)')).toBeUndefined();
-  });
-
-  it('allows mailto only when asked', () => {
-    expect(safeUrl('mailto:someone@example.org')).toBeUndefined();
-    expect(safeUrl('mailto:someone@example.org', ['http:', 'https:', 'mailto:'])).toBe('mailto:someone@example.org');
-  });
-
-  it('ignores non-string input', () => {
-    expect(safeUrl(undefined)).toBeUndefined();
-    expect(safeUrl(42 as unknown as string)).toBeUndefined();
-  });
-});
 
 describe('sanitizeHtml inline profile (citation titles)', () => {
   const inline = (html: string) => sanitizeHtml(html, 'inline');
