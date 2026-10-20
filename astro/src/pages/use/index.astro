@@ -18,7 +18,7 @@ const platformData = platforms
     url: p.data.url,
     scope: p.data.scope,
     summary: p.data.summary,
-    summaryHtml: renderMarkdownInline(p.data.summary ?? undefined),
+    summaryHtml: renderMarkdownInline(p.data.summary),
     platforms: p.data.platforms,
     image: p.data.image,
   }))
