@@ -159,6 +159,7 @@ test.describe('Search page keeps router history state with Google CSE', () => {
     await waitForSearchPage(page);
     await page.getByRole('tab', { name: 'Pan-Galactic Search' }).click();
     await expect.poll(() => requests.length).toBe(1);
+    await expect(page.getByRole('status')).toHaveText('Loading Google Search...');
 
     await page.locator('a[href="/news/"]').first().click();
     await expect(page).toHaveURL(/\/news\/$/);
@@ -171,5 +172,12 @@ test.describe('Search page keeps router history state with Google CSE', () => {
     expect(await lastRenderConnected(page)).toBe(true);
     await page.waitForLoadState('networkidle');
     expect(await page.evaluate(() => (window as any).__cseLoads)).toBe(1);
+  });
+
+  test('a failed Google CSE load is announced', async ({ page }) => {
+    await page.route(/cse\.google\.com/, (route) => route.abort());
+    await page.goto('/search/?tab=google&q=galaxy');
+    await waitForSearchPage(page);
+    await expect(page.getByRole('alert')).toContainText('Could not load Google Search.');
   });
 });

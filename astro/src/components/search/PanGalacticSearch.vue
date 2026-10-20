@@ -108,14 +108,14 @@ watch(
       Search across the Galaxy ecosystem: Hub pages, codebase, mailing lists, help forum, and more.
     </p>
 
-    <div v-if="cseError" class="text-center py-12">
+    <div v-if="cseError" role="alert" class="text-center py-12">
       <p class="text-chicago-500 mb-2">Could not load Google Search.</p>
       <p class="text-sm text-chicago-400">
         This may be due to an ad blocker or network issue. Try the Hub Search tab instead.
       </p>
     </div>
 
-    <div v-else-if="!cseLoaded" class="text-center py-12">
+    <div v-else-if="!cseLoaded" role="status" class="text-center py-12">
       <p class="text-chicago-500">Loading Google Search...</p>
     </div>
 
