@@ -6,17 +6,20 @@ hide_tease: false
 subsites: [eu, all, global]
 ---
 
-## New Galaxy Workflow for Downstream Amplicon Analysis
-
 Amplicon sequencing is widely used to characterize microbial communities. After processing the sequencing reads, researchers typically obtain an abundance table of amplicon sequence variants (ASVs) or operational taxonomic units (OTUs), together with taxonomic assignments and sample metadata.
 
 Before testing associations between microbial features and sample characteristics, potential contamination and technical batch effects need to be considered, as they can influence the results.
 
 The new **[Multivariable Association Analysis of Amplicon Data](https://iwc.galaxyproject.org/workflow/multivariable-association-analysis-main/)** workflow from the Intergalactic Workflow Commission (IWC) brings these downstream processing steps together in a reproducible Galaxy workflow.
 
-## Workflow overview
+## Workflow inputs
 
-The workflow takes a **phyloseq object** containing the microbial abundance data and taxonomy together with a corresponding sample metadata table.
+The workflow takes a **phyloseq object** containing the microbial abundance data and taxonomy, together with a corresponding sample metadata table.
+
+The input data can be generated using existing Galaxy workflows and tools. For example, raw amplicon sequencing reads can 
+be processed using **DADA2** workflows or the **LotuS2** tool to obtain ASV/OTU abundance tables and taxonomic assignments. These can then be combined into a phyloseq object for downstream analysis.
+
+## Workflow overview
 
 Depending on the available metadata and controls, the workflow can:
 
@@ -28,15 +31,28 @@ Depending on the available metadata and controls, the workflow can:
 
 Sequencing controls and batch correction are optional, so the workflow can also be used when some of this information is unavailable.
 
-## Inputs
+### Quality control and decontamination
 
-The workflow starts from processed amplicon data and can therefore be combined with existing Galaxy tools and workflows for upstream sequence processing.
+The workflow generates quality-control plots that help assess the data before downstream analysis. For example, positive-control samples can be compared using a heatmap of their microbial composition.
 
-Raw amplicon sequencing reads can, for example, be processed using **DADA2** workflows or the **LotuS2** tool. The resulting abundance and taxonomy information can then be stored as a phyloseq object and used as input for the downstream workflow.
+![Heatmap showing microbial composition in positive-control samples](./positive-control-heatmap.png)
 
-This structure connects established upstream amplicon processing with quality control, technical correction, and statistical analysis in a fully reproducible Galaxy environment.
+*Example QC heatmap showing the relative abundance of microbial taxa across positive-control samples.*
 
-## Association analysis with MaAsLin3
+The workflow also uses negative controls for decontamination. The prevalence plot below illustrates how Decontam identifies potential contaminants based on their occurrence in negative controls and biological samples.
+
+![Decontam prevalence plot](./decontam_%20prevalence.png)
+
+*Example Decontam prevalence plot. Each point represents a microbial feature, with turquoise points indicating features classified as contaminants.*
+### Batch-effect correction
+
+For datasets containing batch information, the workflow uses **MMUPHin** to adjust for technical batch effects. Diagnostic plots allow users to inspect the estimated adjustments.
+
+![MMUPHin diagnostic plot showing batch-effect adjustments](./mmuphin-diagnostic.png)
+
+*Example MMUPHin diagnostic plot generated from a subset of the dataset. The left panel shows shrinkage of estimated batch parameters, while the right panel compares original and adjusted mean abundances.*
+
+### Association analysis with MaAsLin3
 
 The workflow uses **MaAsLin3 (Microbiome Multivariable Association with Linear Models)** to identify associations between microbial features and sample metadata. 
 MaAsLin3 models feature prevalence (whether a microbial feature is present or absent) and non-zero abundance (its abundance in samples where it is present) separately.
