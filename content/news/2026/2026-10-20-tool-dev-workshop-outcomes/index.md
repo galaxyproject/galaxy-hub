@@ -80,7 +80,3 @@ We also asked how to improve the next edition, and we are taking the suggestions
 A huge thank you to everyone who made these three days possible: our trainers Matthias Bernt, Pavan Videm, Rand Zoabi, Amirhossein Nilchi, and Paul Zierep, and the organisers Saim Momin, Matthias Bernt, and Paul Zierep. Thanks also to [de.NBI (ELIXIR Germany)](https://www.denbi.de/) for their generous support, and of course to all participants for their curiosity and energy.
 
 If you could not make it this time: the [Galaxy Tool Developer's SIG](https://galaxyproject.org/community/sig/tool-developers/) meets regularly, the community hangs out in the [Galaxy Matrix channels](https://matrix.to/#/#galaxyproject:matrix.org), and the [IUC repository](https://github.com/galaxyproject/tools-iuc) always has open tool requests waiting for a first contribution. We would love to see you at the next edition!
-
-**Contact**: Saim Momin ([momins@informatik.uni-freiburg.de](mailto:momins@informatik.uni-freiburg.de)) and Matthias Bernt ([m.bernt@ufz.de](mailto:m.bernt@ufz.de))
-
-The workshop abided by the [Galaxy Project Code of Conduct](/community/coc/).
