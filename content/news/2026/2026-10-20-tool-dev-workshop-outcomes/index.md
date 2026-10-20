@@ -21,7 +21,7 @@ And “hands-on” really meant hands-on: by the end of the first morning, every
 
 <div style="text-align: center;">
 
-<img src="20261007_093112.jpg" width="20%" alt="Participants at the start of the workshop on day 1" />
+<img src="20261007_093112.jpg" width="50%" alt="Participants at the start of the workshop on day 1" />
 
 </div>
 
@@ -35,13 +35,13 @@ Day 2 went deeper: conditionals, repeats, and sections; output collections with 
 
 <div style="text-align: center;">
 
-<img src="20261008_134304.jpg" width="20%" alt="Working through the advanced tool XML exercises on day 2" />
+<img src="20261008_134304.jpg" width="50%" alt="Working through the advanced tool XML exercises on day 2" />
 
 </div>
 
 <div style="text-align: center;">
 
-<img src="20261008_134317.jpg" width="20%" alt="A focused afternoon of hands-on exercises" />
+<img src="20261008_134317.jpg" width="50%" alt="A focused afternoon of hands-on exercises" />
 
 </div>
 
