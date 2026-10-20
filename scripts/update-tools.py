@@ -33,6 +33,42 @@ def render_tool_link(elem: dict, server_url: str) -> str:
     return f'<a href="{tool_link}" target="_top" title="{elem_desc}">{elem_name}</a>'
 
 
+def render_sections(sections: list, server_url: str) -> tuple[str, int]:
+    """Render the /api/tools sections as Markdown; returns the text and the tool count."""
+    tool_count = 0
+    out = ""
+
+    for section in sections:
+        model = section.get("model_class", "")
+        if model == "ToolSection":
+            # Add extra newline before headers to ensure they are parsed as block elements
+            out += f'\n### {html.escape(section["name"], quote=False)}\n\n'
+            out += '<div class="tool-list">\n\n'
+
+            # Sort tools within the section deterministically
+            elems = sorted(
+                section.get("elems", []),
+                key=lambda x: str(x.get("name", x.get("text", ""))),
+            )
+
+            for elem in elems:
+                if elem["model_class"] == "ToolSectionLabel":
+                    continue
+                tool_count += 1
+                # Each link on its own line helps Markdown parsing
+                out += render_tool_link(elem, server_url) + "\n"
+            out += "\n</div>\n"
+        elif model == "ToolSectionLabel":
+            out += "\n---\n\n"
+            out += f'## {html.escape(section["text"], quote=False)}\n\n'
+        elif model == "Tool":
+            tool_count += 1
+            out += '<div class="tool-list">\n\n'
+            out += render_tool_link(section, server_url) + "\n"
+            out += "\n</div>\n"
+    return out, tool_count
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Fetch tool list from a Galaxy instance and render a Hub tools page."
@@ -61,37 +97,7 @@ def main():
     r = requests.get(api_url)
     r.raise_for_status()
 
-    tool_count = 0
-    out = ""
-
-    for section in r.json():
-        model = section.get("model_class", "")
-        if model == "ToolSection":
-            # Add extra newline before headers to ensure they are parsed as block elements
-            out += f'\n### {section["name"]}\n\n'
-            out += '<div class="tool-list">\n\n'
-
-            # Sort tools within the section deterministically
-            elems = sorted(
-                section.get("elems", []),
-                key=lambda x: str(x.get("name", x.get("text", ""))),
-            )
-
-            for elem in elems:
-                if elem["model_class"] == "ToolSectionLabel":
-                    continue
-                tool_count += 1
-                # Each link on its own line helps Markdown parsing
-                out += render_tool_link(elem, server_url) + "\n"
-            out += "\n</div>\n"
-        elif model == "ToolSectionLabel":
-            out += "\n---\n\n"
-            out += f'## {section["text"]}\n\n'
-        elif model == "Tool":
-            tool_count += 1
-            out += '<div class="tool-list">\n\n'
-            out += render_tool_link(section, server_url) + "\n"
-            out += "\n</div>\n"
+    out, tool_count = render_sections(r.json(), server_url)
 
     header = f"""---
 # THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
