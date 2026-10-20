@@ -30,6 +30,7 @@ import ReleaseGuardiansLabelPill from '../../components/release-guardians/LabelP
 import ReleaseGuardiansCoordination from '../../components/release-guardians/Coordination.astro';
 import ReleaseGuardiansPhase from '../../components/release-guardians/Phase.astro';
 import ReleaseGuardiansRecap from '../../components/release-guardians/Recap.astro';
+import { safeJsonLd } from '../../utils/json-ld';
 
 interface ConferenceNavItem {
   slug: string;
@@ -346,12 +347,7 @@ const editUrl = `https://github.com/galaxyproject/galaxy-hub/edit/main/content/$
     showMetadata={showConferenceMetadata}
   >
     <Content components={components} />
-    <script
-      slot="extra"
-      type="application/ld+json"
-      is:inline
-      set:html={JSON.stringify(schemaEvent)}
-    /></ConferenceLayout>
+    <script slot="extra" type="application/ld+json" is:inline set:html={safeJsonLd(schemaEvent)} /></ConferenceLayout>
 ) : (
   <BaseLayout title={title || 'Event'} description={tease} noindex={isDraft(event.data)}>
     <article class="max-w-6xl mx-auto bg-white relative">
@@ -497,7 +493,7 @@ const editUrl = `https://github.com/galaxyproject/galaxy-hub/edit/main/content/$
         </div>
       </footer>
 
-      <script type="application/ld+json" is:inline set:html={JSON.stringify(schemaEvent)} />
+      <script type="application/ld+json" is:inline set:html={safeJsonLd(schemaEvent)} />
     </article>
   </BaseLayout>
 )}

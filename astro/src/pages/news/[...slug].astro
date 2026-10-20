@@ -19,6 +19,7 @@ import Insert from '../../components/mdx/Insert.astro';
 import CofestProject from '../../components/mdx/CofestProject.astro';
 import { resolveSupporters } from '../../utils/supporters';
 import { extractAuthors, extractFunding, resolveAuthor } from '../../utils/contributors';
+import { safeJsonLd } from '../../utils/json-ld';
 
 export async function getStaticPaths() {
   // Every published news page is built, drafts included, so a draft can be previewed by URL.
@@ -114,4 +115,4 @@ const schemaNews = {
   sourceFile={sourceFile}
 >
   <Content components={components} />
-  <script type="application/ld+json" is:inline set:html={JSON.stringify(schemaNews)} /></ArticleLayout>
+  <script type="application/ld+json" is:inline set:html={safeJsonLd(schemaNews)} /></ArticleLayout>
