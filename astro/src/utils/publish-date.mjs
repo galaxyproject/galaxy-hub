@@ -12,6 +12,14 @@ export function isDraft(frontmatter) {
 }
 
 /**
+ * Check if a collection entry may appear in listings, feeds and indexes.
+ * Drafts are still built at their URL; they are only left out of lists.
+ */
+export function isListed(entry) {
+  return !isDraft(entry?.data);
+}
+
+/**
  * Check if a date is after now.
  * Missing dates are not future (undated content is published). Unparseable
  * dates are not future either, so they reach the content schema and fail the
