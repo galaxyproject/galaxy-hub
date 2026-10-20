@@ -7,6 +7,25 @@ function nextElementName() {
   instanceCount += 1;
   return `galaxySearch${instanceCount}`;
 }
+
+// One load per page: a panel mounted while cse.js is still loading waits for the same script
+let cseLoad: Promise<void> | null = null;
+
+function loadCSEScript(): Promise<void> {
+  cseLoad ??= new Promise<void>((resolve, reject) => {
+    (window as any).__gcse = { parsetags: 'explicit', callback: resolve };
+
+    const script = document.createElement('script');
+    script.src = 'https://cse.google.com/cse.js?cx=007594916903876912968:w0nrox8rzzy';
+    script.async = true;
+    script.onerror = () => {
+      cseLoad = null;
+      reject(new Error('Failed to load Google CSE'));
+    };
+    document.head.appendChild(script);
+  });
+  return cseLoad;
+}
 </script>
 
 <script setup lang="ts">
@@ -18,29 +37,6 @@ const cseLoaded = ref(false);
 const cseError = ref(false);
 const containerRef = ref<HTMLElement | null>(null);
 const gname = nextElementName();
-
-function loadCSEScript(): Promise<void> {
-  return new Promise((resolve, reject) => {
-    if ((window as any).__gcse_loaded) {
-      resolve();
-      return;
-    }
-
-    (window as any).__gcse = {
-      parsetags: 'explicit',
-      callback: () => {
-        (window as any).__gcse_loaded = true;
-        resolve();
-      },
-    };
-
-    const script = document.createElement('script');
-    script.src = 'https://cse.google.com/cse.js?cx=007594916903876912968:w0nrox8rzzy';
-    script.async = true;
-    script.onerror = () => reject(new Error('Failed to load Google CSE'));
-    document.head.appendChild(script);
-  });
-}
 
 function executeSearch(query: string) {
   const google = (window as any).google;

@@ -3,9 +3,10 @@ import { test, expect, type Page } from '@playwright/test';
 // Stand-in for cse.google.com/cse.js so the tests need no network. It models what the real
 // element script does (seen in cse_element__*.js): unless enableHistory is false, render calls
 // history.replaceState(null, '', '#…&gsc.tab=0') and execute calls history.pushState(null, …),
-// both of which wipe Astro's ClientRouter state. Each render and execute is recorded.
+// both of which wipe Astro's ClientRouter state. Each script run, render and execute is recorded.
 const FAKE_CSE = `
 (() => {
+  window.__cseLoads = (window.__cseLoads ?? 0) + 1;
   window.__cseRenderConfigs ??= [];
   window.__cseExecutes ??= [];
   const elements = (window.__cseElements ??= {});
@@ -143,5 +144,32 @@ test.describe('Search page keeps router history state with Google CSE', () => {
     await expect.poll(() => renderCount(page)).toBe(2);
     expect(await lastRenderConnected(page)).toBe(true);
     await expect.poll(() => lastExecute(page)).toEqual({ q: 'galaxy', connected: true, latestRender: true });
+  });
+
+  test('a panel mounted during the Google CSE load reuses that load', async ({ page }) => {
+    let release!: () => void;
+    const held = new Promise<void>((resolve) => (release = resolve));
+    const requests: string[] = [];
+    await page.route(/cse\.google\.com/, async (route) => {
+      requests.push(route.request().url());
+      await held;
+      await route.fulfill({ contentType: 'text/javascript', body: FAKE_CSE });
+    });
+    await page.goto('/search/?q=galaxy');
+    await waitForSearchPage(page);
+    await page.getByRole('tab', { name: 'Pan-Galactic Search' }).click();
+    await expect.poll(() => requests.length).toBe(1);
+
+    await page.locator('a[href="/news/"]').first().click();
+    await expect(page).toHaveURL(/\/news\/$/);
+    await page.goBack();
+    await expect(page).toHaveURL(/\/search\/\?q=galaxy&tab=google$/);
+    await expect(page.getByPlaceholder('Search articles, events, platforms...')).toHaveValue('galaxy');
+
+    release();
+    await expect.poll(() => renderCount(page)).toBe(1);
+    expect(await lastRenderConnected(page)).toBe(true);
+    await page.waitForLoadState('networkidle');
+    expect(await page.evaluate(() => (window as any).__cseLoads)).toBe(1);
   });
 });
