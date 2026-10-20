@@ -51,15 +51,15 @@ The final half-day belonged to the participants: everyone was invited to wrap a 
 
 Here is what people worked on:
 
-- **antiSMASH**: updating the wrapper to the latest upstream release (Paul)
-- **Proteomics tools**: a round of updates (Pauline)
-- **Interactive FlexDashboard**: a new interactive tool (Mercedes)
-- **bigWigAverageOverBed**: a new wrapper for the UCSC genome browser tool, useful for checking read-count evidence in samples (Aparamita)
-- **Materials science**: a demo tool for evaluating experiments, plus an extension with a user interface (Lukas)
-- **Digital Humanities tools**: moving tools into the Digital Humanities ToolShed category, with PRs to [galaxytools](https://github.com/bgruening/galaxytools/pull/2016) and [tools-iuc](https://github.com/galaxyproject/tools-iuc/pull/8508), plus an [FAQ update for interactive tools](https://github.com/galaxyproject/training-material/pull/7146) (Dani)
-- **Cytotable**: converting CellProfiler output into Pycytominer input, based on the [upstream project](https://github.com/cytomining/cytotable) (Huy)
-- **MUSCLE**: a wrapper for the [MUSCLE5](https://drive5.com/muscle5/) aligner (Juan)
-- **CleaveRNA**: updating the existing Galaxy tool (Reyhaneh)
+- **antiSMASH**: updating the wrapper to the latest upstream release
+- **Proteomics tools**: a round of updates
+- **Interactive FlexDashboard**: a new interactive tool
+- **bigWigAverageOverBed**: a new wrapper for the UCSC genome browser tool, useful for checking read-count evidence in samples
+- **Materials science**: a demo tool for evaluating experiments, plus an extension with a user interface
+- **Digital Humanities tools**: moving tools into the Digital Humanities ToolShed category, with PRs to [galaxytools](https://github.com/bgruening/galaxytools/pull/2016) and [tools-iuc](https://github.com/galaxyproject/tools-iuc/pull/8508), plus an [FAQ update for interactive tools](https://github.com/galaxyproject/training-material/pull/7146)
+- **Cytotable**: converting CellProfiler output into Pycytominer input, based on the [upstream project](https://github.com/cytomining/cytotable)
+- **MUSCLE**: a wrapper for the [MUSCLE5](https://drive5.com/muscle5/) aligner
+- **CleaveRNA**: updating the existing Galaxy tool
 
 A few of these already produced pull requests during the workshop; others are the first step of contributions that will land in the coming weeks.
 
