@@ -2,7 +2,6 @@
 import { ref, computed, onMounted, onUnmounted, watch } from 'vue';
 import { useStore } from '@nanostores/vue';
 import { currentSubsite, subsites, type SubsiteId } from '@/stores/subsiteStore';
-import { renderMarkdownInline } from '@/utils/markdown';
 import { formatDate, getUTCYear } from '@/utils/dateUtils';
 import { contentMatchesSubsite } from '@/utils/subsites';
 import { onPopState, readParams, writeParams } from '@/utils/urlFilters';
@@ -15,7 +14,10 @@ interface NewsArticle {
   slug: string;
   title: string;
   date?: string;
+  /** Raw tease text, searched by the filter bar. */
   tease?: string;
+  /** Tease rendered to HTML at build time. */
+  teaseHtml?: string;
   tags?: string[];
   subsites?: string[] | string;
   externalUrl?: string;
@@ -268,9 +270,9 @@ function displaySubsite(subsite: string): string {
               {{ formatDate(article.date) }}
             </time>
             <p
-              v-if="article.tease"
+              v-if="article.teaseHtml"
               :class="['text-chicago-600', { 'line-clamp-3 text-sm': isTiles }]"
-              v-html="renderMarkdownInline(article.tease)"
+              v-html="article.teaseHtml"
             ></p>
             <div v-if="article.tags?.length" class="flex flex-wrap gap-2 mt-3">
               <span

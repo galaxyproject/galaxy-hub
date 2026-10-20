@@ -2,7 +2,6 @@
 import { ref, computed, onMounted, onUnmounted, watch } from 'vue';
 import { useStore } from '@nanostores/vue';
 import { currentSubsite, subsites, type SubsiteId } from '@/stores/subsiteStore';
-import { renderMarkdownInline } from '@/utils/markdown';
 import { getUTCYear, isUpcomingEvent, isPastEvent } from '@/utils/dateUtils';
 import { contentMatchesSubsite } from '@/utils/subsites';
 import { onPopState, readParams, writeParams } from '@/utils/urlFilters';
@@ -16,7 +15,8 @@ interface EventData {
   title: string;
   date?: string;
   end?: string;
-  tease?: string;
+  /** Tease rendered to HTML at build time. */
+  teaseHtml?: string;
   location?:
     | {
         city?: string;
@@ -282,9 +282,9 @@ function displaySubsite(subsite: string): string {
                     </span>
                   </p>
                   <p
-                    v-if="event.tease"
+                    v-if="event.teaseHtml"
                     :class="['text-chicago-600 mt-2', { 'line-clamp-3 text-sm': isTiles }]"
-                    v-html="renderMarkdownInline(event.tease)"
+                    v-html="event.teaseHtml"
                   ></p>
                 </div>
               </div>

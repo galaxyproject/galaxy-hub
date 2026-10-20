@@ -3,6 +3,7 @@ import { getListedCollection } from '../../utils/content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHeader from '../../components/layout/PageHeader.astro';
 import EventsList from '../../components/events/EventsList.vue';
+import { renderMarkdownInline } from '../../utils/markdown';
 
 // Get all events and prepare data for client component
 const events = await getListedCollection('events');
@@ -13,7 +14,7 @@ const eventData = events.map((e) => ({
   title: e.data.title || 'Untitled Event',
   date: e.data.date instanceof Date ? e.data.date.toISOString() : e.data.date,
   end: e.data.end instanceof Date ? e.data.end?.toISOString() : e.data.end,
-  tease: e.data.tease,
+  teaseHtml: renderMarkdownInline(e.data.tease),
   location: e.data.location,
   subsites: e.data.subsites,
   externalUrl: e.data.external_url,
