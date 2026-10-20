@@ -5,6 +5,7 @@ import os
 import re
 import sys
 from datetime import datetime
+from html.parser import HTMLParser
 
 import feedparser
 import yaml
@@ -61,6 +62,47 @@ def normalize_slug_segment(segment):
     return s
 
 
+_BLOCK_TAGS = {"p", "div", "li", "blockquote", "h1", "h2", "h3", "h4", "h5", "h6"}
+# Numeric references are read as literal text, never as Markdown link syntax.
+_MARKDOWN_LINK_CHARS = str.maketrans({"[": "&#91;", "]": "&#93;", "\\": "&#92;"})
+
+
+class _TextExtractor(HTMLParser):
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.parts = []
+
+    def handle_data(self, data):
+        self.parts.append(data)
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "br":
+            self.parts.append("\n\n")
+
+    def handle_endtag(self, tag):
+        if tag in _BLOCK_TAGS:
+            self.parts.append("\n\n")
+
+
+def summary_paragraphs(summary):
+    """Plain-text paragraphs of a feed summary (feedparser returns it as HTML)."""
+    parser = _TextExtractor()
+    parser.feed(summary)
+    parser.close()
+    paragraphs = re.split(r"\n\s*\n", "".join(parser.parts))
+    return [" ".join(p.split()) for p in paragraphs if p.strip()]
+
+
+def markdown_text(text):
+    """Escape plain text so Markdown renders it as text only."""
+    return html.escape(text, quote=False).translate(_MARKDOWN_LINK_CHARS)
+
+
+def safe_link(link):
+    """Return `link` when it is a plain http(s) URL, else an empty string."""
+    return link if re.fullmatch(r"https?://[^\s\x00-\x1f\x7f]+", link or "", re.IGNORECASE) else ""
+
+
 feed = feedparser.parse(os.getenv("FEED_URL"))
 
 g = Github(os.getenv("GITHUB_TOKEN") or sys.exit("GITHUB_TOKEN not set"))
@@ -107,8 +149,10 @@ for entry in feed.get("entries", []):
     if "already-on-hub" in tags:
         continue
 
-    link = entry.get("link", "")
-    summary = html.unescape(entry.get("summary", ""))
+    link = safe_link(entry.get("link", ""))
+    paragraphs = summary_paragraphs(entry.get("summary", ""))
+    summary = "\n\n".join(markdown_text(p) for p in paragraphs)
+    first_sentence = (paragraphs[0] if paragraphs else "").split(". ")[0]
 
     id = entry.get("id", "")
     slug = normalize_slug_segment(os.path.splitext(os.path.basename(id.rstrip("/")))[0])
@@ -147,7 +191,7 @@ for entry in feed.get("entries", []):
             "tags": list(tags),
             "title": str(title),
             "external_url": link,
-            "tease": str(summary.split(". ")[0]),
+            "tease": first_sentence,
         }
         if contributions:
             meta["contributions"] = contributions
@@ -197,7 +241,7 @@ for entry in feed.get("entries", []):
             "location": {"name": location},
             "continent": continent,
             "external_url": link,
-            "tease": str(summary.split(". ")[0]),
+            "tease": first_sentence,
         }
         if contributions:
             meta["contributions"] = contributions
