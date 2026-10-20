@@ -1,6 +1,7 @@
 import { defineCollection } from 'astro:content';
 import { z } from 'astro/zod';
 import { glob } from 'astro/loaders';
+import { safeHref } from './utils/url';
 
 /**
  * Tags for which /tags/[tag]/feed.atom feeds are generated. Kept as a whitelist
@@ -39,6 +40,13 @@ const locationSchema = z
   })
   .passthrough();
 
+// Feed imports fill external_url; values outside the link allowlist become null (no redirect, no link).
+const externalUrl = z
+  .string()
+  .optional()
+  .nullable()
+  .transform((url) => (url && !safeHref(url) ? null : url));
+
 // Helper for array or single value
 const arrayOrString = z
   .union([z.array(z.string()), z.string()])
@@ -62,7 +70,7 @@ const baseArticleSchema = z
     naturalSlug: z.string().optional().nullable(),
     sourceFile: z.string().optional().nullable(),
     redirect: z.string().optional().nullable(),
-    external_url: z.string().optional().nullable(),
+    external_url: externalUrl,
     autotoc: z.boolean().optional().nullable(),
     skip_title_render: z.boolean().optional().nullable(),
     full_bleed: z.boolean().optional().nullable(),
@@ -86,7 +94,7 @@ const events = defineCollection({
   schema: baseArticleSchema.extend({
     end: z.coerce.date().optional().nullable(),
     location: z.union([z.string(), locationSchema]).optional().nullable(),
-    external_url: z.string().optional().nullable(),
+    external_url: externalUrl,
     gtn: z.boolean().optional().nullable(),
     days: z.number().optional().nullable(),
     continent: z.string().optional().nullable(),
