@@ -9,8 +9,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 import PageHeader from '../../../components/layout/PageHeader.astro';
 import DidYouKnowCard, { type DykItem } from '../../../components/did-you-know/DidYouKnowCard.vue';
 import { subsites } from '../../../stores/subsiteStore';
-import { getDidYouKnow } from '../../../utils/did-you-know-server';
-import { toSerializable } from '../../../utils/did-you-know';
+import { getDidYouKnow, toCardItem } from '../../../utils/did-you-know-server';
 
 export async function getStaticPaths() {
   return subsites
@@ -29,7 +28,7 @@ const pageDescription = `Tips and tricks for Galaxy ${subsiteName}.`;
 const eyebrow = isEurope ? { label: 'Galaxy Europe', href: '/eu/' } : undefined;
 
 const items = await getDidYouKnow(subsiteId);
-const serialized: DykItem[] = items.map(toSerializable);
+const serialized: DykItem[] = items.map(toCardItem);
 ---
 
 <BaseLayout title={pageTitle} description={pageDescription}>

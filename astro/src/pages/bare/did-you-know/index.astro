@@ -7,11 +7,10 @@
  */
 import BareArticleLayout from '../../../layouts/BareArticleLayout.astro';
 import DidYouKnowRandom, { type DykItem } from '../../../components/did-you-know/DidYouKnowRandom.vue';
-import { getDidYouKnow } from '../../../utils/did-you-know-server';
-import { toSerializable } from '../../../utils/did-you-know';
+import { getDidYouKnow, toCardItem } from '../../../utils/did-you-know-server';
 
 const items = await getDidYouKnow('global');
-const serialized: DykItem[] = items.map(toSerializable);
+const serialized: DykItem[] = items.map(toCardItem);
 ---
 
 <BareArticleLayout title="Did You Know" description="A random Galaxy tip. Refresh for another.">

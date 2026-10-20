@@ -4,6 +4,7 @@ import PageHeader from '../../../components/layout/PageHeader.astro';
 import NewsList from '../../../components/news/NewsList.vue';
 import { subsites } from '../../../stores/subsiteStore';
 import { getPublishedNews } from '../../../utils/content';
+import { renderMarkdownInline } from '../../../utils/markdown';
 
 export function getStaticPaths() {
   // Generate paths for all non-external subsites (excluding global which uses /news/)
@@ -31,6 +32,7 @@ const articleData = newsArticles.map((a) => ({
   title: a.data.title || 'Untitled',
   date: a.data.date instanceof Date ? a.data.date.toISOString() : a.data.date,
   tease: a.data.tease,
+  teaseHtml: renderMarkdownInline(a.data.tease),
   tags: Array.isArray(a.data.tags) ? a.data.tags : a.data.tags ? [a.data.tags] : [],
   subsites: a.data.subsites,
   externalUrl: a.data.external_url,

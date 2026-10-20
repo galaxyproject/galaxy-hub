@@ -10,7 +10,8 @@ import BareArticleLayout from '../../../layouts/BareArticleLayout.astro';
 import DidYouKnowRandom, { type DykItem } from '../../../components/did-you-know/DidYouKnowRandom.vue';
 import { getCollection } from 'astro:content';
 import { subsites } from '../../../stores/subsiteStore';
-import { sortItems, toSerializable, filterBySubsite } from '../../../utils/did-you-know';
+import { sortItems, filterBySubsite } from '../../../utils/did-you-know';
+import { toCardItem } from '../../../utils/did-you-know-server';
 
 export async function getStaticPaths() {
   const all = await getCollection('did-you-know');
@@ -23,7 +24,7 @@ export async function getStaticPaths() {
         params: { subsite: subsite.id },
         props: {
           subsiteName: subsite.name,
-          items: filtered.map(toSerializable) as DykItem[],
+          items: filtered.map(toCardItem) as DykItem[],
         },
       };
     });
