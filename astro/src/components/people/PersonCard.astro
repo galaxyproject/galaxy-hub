@@ -1,7 +1,7 @@
 ---
 import type { PersonProfile } from '../../utils/people';
 import Icon from '../mdx/Icon.astro';
-import { marked } from 'marked';
+import { renderMarkdown } from '../../utils/markdown';
 
 interface Props {
   person: PersonProfile;
@@ -15,7 +15,7 @@ const avatar =
 const githubUrl = person.github ? `https://github.com/${person.github}` : undefined;
 const websiteUrl = person.website;
 const gtnUrl = person.gtnProfile;
-const bioHtml = person.bio ? marked.parse(person.bio) : '';
+const bioHtml = renderMarkdown(person.bio);
 
 const rowIconNames = {
   email: 'mail',

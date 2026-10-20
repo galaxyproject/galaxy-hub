@@ -1,26 +1,25 @@
 /**
  * Build-time allowlist sanitizing for HTML that comes from synced data (Zotero BibTeX titles,
- * GTN CONTRIBUTORS.yaml bios) and is rendered with `set:html`, built on the `sanitize-html` package.
+ * GTN CONTRIBUTORS.yaml bios) or from Markdown fields rendered with marked, built on the
+ * `sanitize-html` package.
  *
  * Every option is set explicitly so that none of the package defaults (its broad tag list, `ftp:`
  * and `tel:` links, protocol-relative URLs) applies.
  */
 import sanitize from 'sanitize-html';
-import { HTTP_SCHEMES, LINK_SCHEMES, safeUrl } from './url';
+import { HTTP_SCHEMES, LINK_SCHEMES, safeHref, safeUrl } from './url';
 
-export type SanitizeProfile = 'inline' | 'bio';
+export type SanitizeProfile = 'inline' | 'bio' | 'markdown';
 
 const SMALL_CAPS = 'font-variant: small-caps';
 
-/** Keeps `href`/`src` only when `safeUrl` accepts it; sanitize-html alone lets relative URLs through. */
-function urlAttrTransform(
-  attr: string,
-  schemes: readonly string[],
-  keep: readonly string[] = []
-): sanitize.Transformer {
+type UrlCheck = (url: unknown) => string | undefined;
+
+/** Keeps `href`/`src` only when `check` accepts it; sanitize-html alone lets relative URLs through. */
+function urlAttrTransform(attr: string, check: UrlCheck, keep: readonly string[] = []): sanitize.Transformer {
   return (tagName, attribs) => {
     const out: sanitize.Attributes = {};
-    const url = safeUrl(attribs[attr], schemes);
+    const url = check(attribs[attr]);
     if (url !== undefined) out[attr] = url;
     for (const name of keep) if (attribs[name] !== undefined) out[name] = attribs[name];
     return { tagName, attribs: out };
@@ -74,6 +73,16 @@ const NON_TEXT_TAGS = [
   'xmp',
 ];
 
+/** Authored Markdown (teasers, summaries, bodies): everything marked emits for CommonMark and GFM. */
+const MARKDOWN_TAGS = [...BIO_TAGS, 'h1', 'table', 'thead', 'tbody', 'tr', 'th', 'td'];
+
+/** A link without a safe href is unwrapped (text kept); an image without a safe src is removed. */
+const dropUnsafeLinks: sanitize.IOptions['exclusiveFilter'] = (frame) => {
+  if (frame.tag === 'a' && !frame.attribs.href) return 'excludeTag';
+  if (frame.tag === 'img' && !frame.attribs.src) return true;
+  return false;
+};
+
 const COMMON: sanitize.IOptions = {
   disallowedTagsMode: 'discard',
   nonTextTags: NON_TEXT_TAGS,
@@ -109,15 +118,30 @@ const OPTIONS: Record<SanitizeProfile, sanitize.IOptions> = {
     transformTags: {
       scp: () => ({ tagName: 'span', attribs: { style: SMALL_CAPS } }),
       span: smallCapsSpan,
-      a: urlAttrTransform('href', LINK_SCHEMES),
-      img: urlAttrTransform('src', HTTP_SCHEMES, ['alt']),
+      a: urlAttrTransform('href', (url) => safeUrl(url, LINK_SCHEMES)),
+      img: urlAttrTransform('src', (url) => safeUrl(url, HTTP_SCHEMES), ['alt']),
     },
-    // A link without a safe href is unwrapped (text kept); an image without a safe src is removed.
-    exclusiveFilter: (frame) => {
-      if (frame.tag === 'a' && !frame.attribs.href) return 'excludeTag';
-      if (frame.tag === 'img' && !frame.attribs.src) return true;
-      return false;
+    exclusiveFilter: dropUnsafeLinks,
+  },
+  markdown: {
+    ...COMMON,
+    allowedTags: MARKDOWN_TAGS,
+    allowedAttributes: {
+      a: ['href', 'title'],
+      img: ['src', 'alt', 'title'],
+      ol: ['start'],
+      span: ['style'],
+      td: ['align'],
+      th: ['align'],
     },
+    allowedClasses: { code: ['language-*'], img: ['img-fluid'] },
+    allowedSchemesByTag: { a: ['http', 'https', 'mailto'], img: ['http', 'https'] },
+    transformTags: {
+      span: smallCapsSpan,
+      a: urlAttrTransform('href', (url) => safeHref(url, LINK_SCHEMES), ['title']),
+      img: urlAttrTransform('src', (url) => safeHref(url, HTTP_SCHEMES), ['alt', 'title', 'class']),
+    },
+    exclusiveFilter: dropUnsafeLinks,
   },
 };
 
