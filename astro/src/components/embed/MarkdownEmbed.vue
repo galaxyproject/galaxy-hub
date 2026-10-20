@@ -1,9 +1,11 @@
 <script setup lang="ts">
 import { ref, onMounted, watch } from 'vue';
+import { loadEmbeddedMarkdown, resolveEmbedUrl } from '@/utils/markdown-embed';
 
 const props = defineProps<{
   url?: string;
   src?: string;
+  href?: string;
 }>();
 
 const content = ref('');
@@ -11,20 +13,16 @@ const loading = ref(true);
 const error = ref<string | null>(null);
 
 async function loadContent() {
-  const url = props.url || props.src;
+  const url = resolveEmbedUrl(props);
   if (!url) {
-    error.value = 'No URL provided';
+    error.value = props.url || props.src || props.href ? 'Only http(s) URLs can be embedded' : 'No URL provided';
     loading.value = false;
     return;
   }
 
   try {
     loading.value = true;
-    const response = await fetch(url);
-    if (!response.ok) {
-      throw new Error(`Failed to load: ${response.status}`);
-    }
-    content.value = await response.text();
+    content.value = await loadEmbeddedMarkdown(url);
     error.value = null;
   } catch (e) {
     console.error('Failed to load markdown:', e);
@@ -35,7 +33,7 @@ async function loadContent() {
 }
 
 onMounted(loadContent);
-watch(() => props.url || props.src, loadContent);
+watch(() => props.url || props.src || props.href, loadContent);
 </script>
 
 <template>
