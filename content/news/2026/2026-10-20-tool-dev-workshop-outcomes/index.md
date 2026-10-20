@@ -15,7 +15,7 @@ contributions:
     - mwk
 ---
 
-From October 7 to 9, we held the [2nd Galaxy Tool Development Workshop](/events/2026-10-07-tool-dev-workshop/) in Freiburg: three days of hands-on tool wrapping, immediately following the ESG4Stars kick-off. Organised by the [Intergalactic Utilities Commission (IUC)](https://galaxyproject.org/iuc/) and the [Galaxy Tool Developer's SIG](https://galaxyproject.org/community/sig/tool-developers/), the workshop welcomed researchers, bioinformaticians, and developers who wanted to learn how to build, test, and publish tools for Galaxy. In total, 28 people joined us: 14 on site in Freiburg and 14 online.
+From October 7 to 9, we organized the [2nd Galaxy Tool Development Workshop](/events/2026-10-07-tool-dev-workshop/) in Freiburg: three days of hands-on tool wrapping, immediately following the ESG4Stars kick-off. Organised by the [Intergalactic Utilities Commission (IUC)](https://galaxyproject.org/iuc/) and the [Galaxy Tool Developer's SIG](https://galaxyproject.org/community/sig/tool-developers/), the workshop welcomed researchers, bioinformaticians, and developers who wanted to learn how to build, test, and publish tools for Galaxy. In total, 28 people joined us: 14 on site in Freiburg and 14 online.
 
 And “hands-on” really meant hands-on: by the end of the first morning, everyone had a working tool on their laptops.
 
