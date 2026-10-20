@@ -29,6 +29,12 @@ And “hands-on” really meant hands-on: by the end of the first morning, every
 
 We started with the big picture: how a tool XML becomes a job, and how Conda and containers fit in. After setting up Planemo, mamba, Docker, and VS Code with the Galaxy Language Server, we live-coded a first wrapper for `seqtk_seq`, from `tool_init` to `lint` and `serve`. The afternoon was all about testing and publishing: writing focused test cases, keeping test data small, and understanding what CI does with a pull request. We closed the day with a walk through the IUC best practices and a live review of a real PR.
 
+<div style="text-align: center;">
+
+<img src="day1_screenshot.png" width="70%" alt="Screenshot from the first day of the workshop" />
+
+</div>
+
 ## Day 2: advanced XML, reference data, and interactive tools
 
 Day 2 went deeper: conditionals, repeats, and sections; output collections with `discover_datasets`; and data tables for reference data, including how to test them. The last session opened up the world of Galaxy Interactive Tools: how the proxy works, what an interactive tool wrapper looks like, and what to watch out for when deploying one.
