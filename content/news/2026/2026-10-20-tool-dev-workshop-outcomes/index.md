@@ -4,8 +4,8 @@ date: '2026-10-20'
 tease: "Three days, five trainers, and a room full of people building their first Galaxy tools. Here is how the 2nd Galaxy Tool Development Workshop in Freiburg went."
 hide_tease: false
 tags: [workshop, tools, training, uni-freiburg, esg]
-subsites: [global, eu, freiburg]
-main_subsite: eu
+subsites: [global, eu, freiburg, esg]
+main_subsite: global
 contributions:
   authorship:
     - paulzierep
