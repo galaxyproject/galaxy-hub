@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { ref, watch, onMounted, nextTick } from 'vue';
+import { ref, watch, nextTick } from 'vue';
 
-const props = defineProps<{ query: string }>();
+const props = defineProps<{ query: string; active: boolean }>();
 
 const cseLoaded = ref(false);
 const cseError = ref(false);
@@ -65,16 +65,24 @@ function renderAndSearch() {
   }
 }
 
-onMounted(async () => {
-  try {
-    await loadCSEScript();
-    cseLoaded.value = true;
-    await nextTick();
-    renderAndSearch();
-  } catch {
-    cseError.value = true;
-  }
-});
+// Load the third-party script only once the tab is opened, not on every /search/ visit
+let cseRequested = false;
+watch(
+  () => props.active,
+  async (active) => {
+    if (!active || cseRequested) return;
+    cseRequested = true;
+    try {
+      await loadCSEScript();
+      cseLoaded.value = true;
+      await nextTick();
+      renderAndSearch();
+    } catch {
+      cseError.value = true;
+    }
+  },
+  { immediate: true }
+);
 
 watch(
   () => props.query,

@@ -42,6 +42,35 @@ test.describe('Search page keeps router history state with Google CSE', () => {
   test.describe.configure({ mode: 'serial' });
   test.setTimeout(90_000);
 
+  test('default tab does not load Google CSE', async ({ page }) => {
+    const requests = await stubCse(page);
+    await page.goto('/search/#keep-me');
+    await waitForSearchPage(page);
+    const before = await historyIndex(page);
+    expect(typeof before).toBe('number');
+
+    await page.getByPlaceholder('Search articles, events, platforms...').fill('galaxy');
+    await expect(page).toHaveURL(/\/search\/\?q=galaxy#keep-me$/);
+    await page.waitForLoadState('networkidle');
+    expect(requests).toEqual([]);
+    expect(await historyIndex(page)).toBe(before);
+  });
+
+  test('opening the Google tab loads CSE and keeps history state', async ({ page }) => {
+    const requests = await stubCse(page);
+    await page.goto('/search/?q=galaxy#keep-me');
+    await waitForSearchPage(page);
+    const before = await historyIndex(page);
+    await page.waitForLoadState('networkidle');
+    expect(requests).toEqual([]);
+
+    await page.getByRole('tab', { name: 'Pan-Galactic Search' }).click();
+    await expect.poll(() => requests.length).toBe(1);
+    await expect.poll(() => page.evaluate(() => (window as any).__cseRenderConfigs?.length ?? 0)).toBe(1);
+    await expect(page).toHaveURL(/\/search\/\?q=galaxy&tab=google#keep-me$/);
+    expect(await historyIndex(page)).toBe(before);
+  });
+
   test('Google tab deep link keeps history state and hash', async ({ page }) => {
     const requests = await stubCse(page);
     await page.goto('/search/?tab=google&q=galaxy#keep-me');
