@@ -2,7 +2,8 @@ import fs from 'fs';
 import path from 'path';
 import { Cite } from '@citation-js/core';
 import '@citation-js/plugin-bibtex';
-import { safeUrl, sanitizeHtml } from './safe-html';
+import { sanitizeHtml } from './safe-html';
+import { safeUrl } from './url';
 
 export interface Citation {
   title?: string;

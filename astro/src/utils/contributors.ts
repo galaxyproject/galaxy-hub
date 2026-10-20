@@ -3,7 +3,8 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { marked } from 'marked';
 import { parse } from 'yaml';
-import { safeUrl, sanitizeHtml } from './safe-html';
+import { sanitizeHtml } from './safe-html';
+import { safeUrl } from './url';
 import {
   communitySlug as baseCommunitySlug,
   inHubHallOfFame as baseInHubHallOfFame,

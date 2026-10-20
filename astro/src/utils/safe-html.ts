@@ -6,22 +6,11 @@
  * and `tel:` links, protocol-relative URLs) applies.
  */
 import sanitize from 'sanitize-html';
+import { HTTP_SCHEMES, LINK_SCHEMES, safeUrl } from './url';
 
 export type SanitizeProfile = 'inline' | 'bio';
 
-const HTTP_SCHEMES = ['http:', 'https:'] as const;
-const LINK_SCHEMES = ['http:', 'https:', 'mailto:'] as const;
 const SMALL_CAPS = 'font-variant: small-caps';
-
-/**
- * Returns `url` unchanged when it is an absolute URL whose scheme is in `schemes`, else undefined.
- * Relative and protocol-relative URLs are rejected. The WHATWG URL parser strips the whitespace and
- * control characters browsers ignore, so `java\tscript:` is read as `javascript:`.
- */
-export function safeUrl(url: unknown, schemes: readonly string[] = HTTP_SCHEMES): string | undefined {
-  if (typeof url !== 'string' || !URL.canParse(url)) return undefined;
-  return schemes.includes(new URL(url).protocol) ? url : undefined;
-}
 
 /** Keeps `href`/`src` only when `safeUrl` accepts it; sanitize-html alone lets relative URLs through. */
 function urlAttrTransform(
