@@ -2,6 +2,7 @@
 import { getCollection, render } from 'astro:content';
 import ArticleLayout from '../../layouts/ArticleLayout.astro';
 import { isPublishedDate } from '../../utils/dateUtils';
+import { isDraft } from '../../utils/publish-date.mjs';
 
 // Import MDX components for embedded content
 import VegaEmbed from '../../components/mdx/VegaEmbed.astro';
@@ -99,6 +100,7 @@ const schemaNews = {
 ---
 
 <ArticleLayout
+  noindex={isDraft(article.data)}
   title={title || 'News'}
   description={tease}
   date={date}

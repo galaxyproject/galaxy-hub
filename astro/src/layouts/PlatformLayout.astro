@@ -31,6 +31,8 @@ interface Props {
   sponsors?: string[];
   tags?: string[];
   sourceFile?: string;
+  /** Ask search engines not to index the page (drafts). */
+  noindex?: boolean;
 }
 
 const {
@@ -48,6 +50,7 @@ const {
   sponsors = [],
   tags = [],
   sourceFile,
+  noindex = false,
 } = Astro.props;
 
 const editUrl = sourceFile ? `https://github.com/galaxyproject/galaxy-hub/edit/main/content/${sourceFile}` : undefined;
@@ -79,7 +82,7 @@ const sections = [
 ].filter((s) => s.items && s.items.length > 0);
 ---
 
-<BaseLayout title={title || 'Galaxy Server'} description={summary}>
+<BaseLayout title={title || 'Galaxy Server'} description={summary} noindex={noindex}>
   <article class="max-w-4xl mx-auto">
     <!-- Back Link -->
     <a href="/use/" class="inline-flex items-center gap-1 text-galaxy-primary hover:underline mb-6">
