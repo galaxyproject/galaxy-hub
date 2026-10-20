@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue';
 import { Button } from '@/components/ui/button';
+import { safeHref } from '@/utils/url';
 
 export interface DykImage {
   url: string;
@@ -76,7 +77,7 @@ const linkRel = props.newTab ? 'noopener noreferrer' : undefined;
     <footer v-if="sampledLink" class="dyk-footer">
       <Button
         as="a"
-        :href="sampledLink.url"
+        :href="safeHref(sampledLink.url)"
         :target="linkTarget"
         :rel="linkRel"
         variant="default"

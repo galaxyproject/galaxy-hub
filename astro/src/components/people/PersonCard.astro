@@ -2,6 +2,7 @@
 import type { PersonProfile } from '../../utils/people';
 import Icon from '../mdx/Icon.astro';
 import { renderMarkdown } from '../../utils/markdown';
+import { safeUrl } from '../../utils/url';
 
 interface Props {
   person: PersonProfile;
@@ -13,8 +14,9 @@ const { person, hallOfFameUrl } = Astro.props;
 const avatar =
   person.avatarUrl || (person.github ? `https://avatars.githubusercontent.com/${person.github}?s=240` : undefined);
 const githubUrl = person.github ? `https://github.com/${person.github}` : undefined;
-const websiteUrl = person.website;
-const gtnUrl = person.gtnProfile;
+const websiteUrl = safeUrl(person.website);
+const gtnUrl = safeUrl(person.gtnProfile);
+const mastodonUrl = safeUrl(person.mastodon);
 const bioHtml = renderMarkdown(person.bio);
 
 const rowIconNames = {
@@ -29,11 +31,11 @@ const rows: Row[] = [];
 if (person.email) rows.push({ icon: 'email', label: person.email, href: `mailto:${person.email}` });
 if (person.phone)
   rows.push({ icon: 'phone', label: person.phone, href: `tel:${person.phone.replace(/[^0-9+]/g, '')}` });
-if (person.location) rows.push({ icon: 'location', label: person.location, href: person.locationLink });
+if (person.location) rows.push({ icon: 'location', label: person.location, href: safeUrl(person.locationLink) });
 if (websiteUrl) rows.push({ icon: 'website', label: 'Website', href: websiteUrl });
 
 const socialLinks: Array<{ label: string; href: string; icon: string }> = [];
-if (person.mastodon) socialLinks.push({ label: 'Mastodon', href: person.mastodon, icon: 'mastodon' });
+if (mastodonUrl) socialLinks.push({ label: 'Mastodon', href: mastodonUrl, icon: 'mastodon' });
 if (person.linkedin)
   socialLinks.push({ label: 'LinkedIn', href: `https://www.linkedin.com/in/${person.linkedin}`, icon: 'linkedin' });
 const matrixHandle = person.matrix?.replace(/^https?:\/\/matrix\.to\/#!?\//, '');
