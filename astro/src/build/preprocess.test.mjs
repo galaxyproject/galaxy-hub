@@ -442,12 +442,14 @@ describe('processMarkdownFile publish date', () => {
     ['news', 'news/2020/2020-01-01-draft/index.md'],
     ['events', 'events/2020-01-01-draft/index.md'],
     ['articles', 'draft-page/index.md'],
-  ])('skips %s marked draft: true', async (_collection, relPath) => {
+  ])('builds %s marked draft: true and keeps the flag for listings to read', async (collection, relPath) => {
     const filePath = path.join(contentDir, relPath);
     fs.mkdirSync(path.dirname(filePath), { recursive: true });
     fs.writeFileSync(filePath, `---\ntitle: Fixture\ndate: '2020-01-01'\ndraft: true\n---\nBody\n`);
-    expect(await processFixture(filePath)).toBeNull();
-    expect(isWritten(filePath)).toBe(false);
+    expect((await processFixture(filePath)).collection).toBe(collection);
+    const written = destPathsForMarkdown(filePath, contentDir, outputDir).filter((dest) => fs.existsSync(dest));
+    expect(written).toHaveLength(1);
+    expect(matter(fs.readFileSync(written[0], 'utf-8')).data.draft).toBe(true);
   });
 
   it('keeps inserts marked draft: true so <slot> and <Insert> still resolve', async () => {
