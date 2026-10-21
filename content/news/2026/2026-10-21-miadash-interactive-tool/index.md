@@ -18,11 +18,17 @@ Microbiome data arrives in pieces: an abundance table, sample metadata, a taxono
 
 [miaDash](https://github.com/microbiome/miaDash) is now available as an [interactive tool on usegalaxy.eu](https://usegalaxy.eu/?tool_id=interactive_tool_miadash&version=latest). It is the Shiny application from the Bioconductor microbiome team, and it turns those tables into a dashboard you can explore in your browser, no code required.
 
+<div align="center">
+    <a href="https://usegalaxy.eu/?tool_id=interactive_tool_miadash&version=latest">
+      <button type="button" class="btn btn-primary btn-lg">Start miaDash now</button>
+    </a>
+</div>
+
 ## What is miaDash?
 
 miaDash is a graphical user interface for building and exploring TreeSummarizedExperiment objects, the standard data structure for microbiome data in the Bioconductor ecosystem. It is built on iSEE and the miaverse packages, and it covers the whole path from raw tables to interactive exploration:
 
-* **Import** raw tables, or R objects, into a TreeSummarizedExperiment
+* **Import** raw tables, an R object, or one of the built-in example datasets into a TreeSummarizedExperiment
 * **Manipulate** them: subset by prevalence, agglomerate by taxonomy rank, transform assays (including PhILR), with every step recorded as a reproducible R script
 * **Analyse**: quality control, alpha and beta diversity, clustering, ordination
 * **Visualise** the result in the interactive iSEE explorer, with a customisable set of panels, and export it as TreeSE, phyloseq, BIOM, Mothur or QIIME2 formats
@@ -36,7 +42,7 @@ Every input is optional, the tool starts with or without your data. You can pre-
 * **taxa data** (rowData) with taxonomy ranks or other taxon variables
 * a **taxa tree** in Newick format, for the analyses that need the phylogeny
 
-The tables you select are staged and handed to the application at launch, so the session starts from your data. Anything you leave out can still be added inside the app: the Import panel takes browser uploads, the Raw Data tab accepts the same table layouts, and example datasets ship with the application.
+The tables you select are staged and handed to the application at launch, so the session starts from your data. Anything you leave out can still be added inside the app: the Import panel takes browser uploads, either the same table layouts in its *Raw Data* tab, or an .rds file in TreeSE, phyloseq, BIOM or DADA2 format in its *R Object* tab, and the *Dataset* tab offers a set of built-in example datasets.
 
 Results travel back to your history. The export download in the app has a **Send to Galaxy** button, which saves the file into the *miaDash results* collection and starts a direct history upload in the background. The collection becomes available in your history when the interactive job ends, so nothing gets lost along the way.
 
