@@ -14,6 +14,12 @@ contributions:
     - mwk
 ---
 
+<div align="center">
+
+<img src="static/mia_logo.png" alt="The miaDash logo" width="120" />
+
+</div>
+
 Microbiome data arrives in pieces: an abundance table, sample metadata, a taxonomy, sometimes a phylogenetic tree. Stitching it together usually means an R session before you can even see what you have.
 
 [miaDash](https://github.com/microbiome/miaDash) is now available as an [interactive tool on usegalaxy.eu](https://usegalaxy.eu/?tool_id=interactive_tool_miadash&version=latest). It is the Shiny application from the Bioconductor microbiome team, and it turns those tables into a dashboard you can explore in your browser, no code required.
@@ -74,12 +80,6 @@ More microbiome tutorials are collected in the [microbiome topic of the GTN](htt
 The interactive plot types shown below miaDash are described in the [iSEEtree panel catalogue](https://microbiome.github.io/iSEEtree/articles/panels.html). Available panels depend on the data and analyses in your session.
 
 ## A look inside
-
-<div align="center">
-
-<img src="static/mia_logo.png" alt="The miaDash logo" width="120" />
-
-</div>
 
 <div align="center">
 
