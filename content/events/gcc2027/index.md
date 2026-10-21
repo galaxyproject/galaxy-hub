@@ -59,7 +59,6 @@ contributions:
                     <span>Longueuil<span class="gcc-hero__location-extra"> (Montréal area)</span>, Québec, Canada</span>
                 </a>
             </div>
-            {/* TODO: split conference vs. CoFest dates once confirmed, e.g. add a "CoFest <dates>" pill linking to /events/gcc2027/cofest/ */}
             <h3 style="margin-top: 1rem;">Held at Université de Sherbrooke - Campus Longueuil, in the riverside city of <a href="https://www.google.com/maps/search/?api=1&query=Longueuil%2C+Qu%C3%A9bec%2C+Canada" target="_blank" rel="noopener noreferrer">Longueuil, Québec</a></h3>
             <p class="text-lg text-galaxy-grey">Registration, abstract submission, and fellowship applications open in <strong>November 2026</strong>.</p>
             {/* TODO: add buttons once open, e.g. Register / Submit an abstract / Apply for a fellowship */}
@@ -76,6 +75,35 @@ contributions:
   <div class="gx-tile__title">About the GCC conference series</div>
   <p class="gx-tile__teaser">The Galaxy Community Conference has been the community's central gathering since 2010 — where the people who use, build, and teach Galaxy come together to share work and shape what comes next.</p>
   <span class="gx-tile__more">Learn more →</span>
+</a>
+
+<a class="gx-tile gx-tile--link" href="/events/gcc2027/schedule/">
+  <div class="gx-tile__media not-prose" style="display: flex; flex-direction: column; justify-content: center; gap: 0.4rem; padding: 0 1.15rem; background: var(--color-bay-of-many-100);">
+    <div style="display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; padding: 0.3rem 0.75rem; background: #fff; border-left: 4px solid var(--color-galaxy-gold); border-radius: 0.25rem;">
+      <span class="text-xs font-semibold uppercase tracking-wider text-galaxy-grey">Training</span>
+      <span class="text-right leading-tight whitespace-nowrap">
+        <span class="block text-xs text-galaxy-grey">Saturday</span>
+        <span class="block text-sm font-bold text-galaxy-dark">Jun 26</span>
+      </span>
+    </div>
+    <div style="display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; padding: 0.3rem 0.75rem; background: #fff; border-left: 4px solid var(--color-galaxy-primary); border-radius: 0.25rem;">
+      <span class="text-xs font-semibold uppercase tracking-wider text-galaxy-grey">Conference</span>
+      <span class="text-right leading-tight whitespace-nowrap">
+        <span class="block text-xs text-galaxy-grey">Sunday – Tuesday</span>
+        <span class="block text-sm font-bold text-galaxy-dark">Jun 27 – 29</span>
+      </span>
+    </div>
+    <div style="display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; padding: 0.3rem 0.75rem; background: #fff; border-left: 4px solid var(--color-galaxy-dark); border-radius: 0.25rem;">
+      <span class="text-xs font-semibold uppercase tracking-wider text-galaxy-grey">CoFest</span>
+      <span class="text-right leading-tight whitespace-nowrap">
+        <span class="block text-xs text-galaxy-grey">Wednesday – Thursday</span>
+        <span class="block text-sm font-bold text-galaxy-dark">Jun 30 – Jul 1</span>
+      </span>
+    </div>
+  </div>
+  <div class="gx-tile__title">GCC2027 week at a glance</div>
+  <p class="gx-tile__teaser">We're doing things a bit differently this year, by beginning with training, followed by the main conference, and concluding with the CoFest.</p>
+  <span class="gx-tile__more">See the schedule →</span>
 </a>
 
 <a class="gx-tile gx-tile--link" href="/events/gcc2027/fellowships/">
@@ -95,7 +123,7 @@ contributions:
 <a class="gx-tile gx-tile--link" href="/events/gcc2027/cofest/">
   <img class="gx-tile__media" src="/images/events/gcc2026/cofest/ecology_tools.jpg" alt="Still from a GCC2026 CoFest group" />
   <div class="gx-tile__title">GCC2027 CoFest</div>
-  <p class="gx-tile__teaser">Hands-on, community-driven work right after the conference. Contribute to tools, workflows, docs, or training — everyone's welcome, whatever your background. Exact dates are to be announced.</p>
+  <p class="gx-tile__teaser">Hands-on, community-driven work right after the conference. Contribute to tools, workflows, docs, or training — everyone's welcome, whatever your background. Join us June 30 – July 1.</p>
   <span class="gx-tile__more">Join CoFest →</span>
 </a>
 
