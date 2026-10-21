@@ -2,7 +2,6 @@
 
 title: "Galaxy for NGS Data Analysis at PAG30"
 date: '2023-01-17'
-days: 1
 tease: "Assemble and analyze a reference-quality genome in Galaxy"
 continent: NA
 location: 

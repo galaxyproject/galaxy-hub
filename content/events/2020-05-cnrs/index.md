@@ -1,7 +1,7 @@
 ---
 title: "Analyse avancée de séquences - CANCELLED"
 date: '2020-05-05'
-days: 3
+end: '2020-05-07'
 tease: "Savoir utiliser l'environnement Galaxy"
 continent: EU
 location:

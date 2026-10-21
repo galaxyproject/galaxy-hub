@@ -1,7 +1,7 @@
 ---
 title: 'GalaxyTrakr – Open Source Bioinformatics for GenomeTrakr Community using AWS HPC'
 date: '2019-09-09'
-days: 2
+end: '2019-09-10'
 tease: "Scientific Computing and Health Data Flows"
 continent: EU
 location:

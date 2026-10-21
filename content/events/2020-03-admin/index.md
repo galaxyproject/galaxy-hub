@@ -1,7 +1,7 @@
 ---
 title: "2020 Galaxy Admin Training"
 date: '2020-03-02'
-days: 5
+end: '2020-03-06'
 tease: "The ins and outs of setting up your own production quality Galaxy server. Plus, Barcelona!"
 continent: EU
 location:

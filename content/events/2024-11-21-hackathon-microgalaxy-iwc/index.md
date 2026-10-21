@@ -1,7 +1,6 @@
 ---
 title: microGalaxy Meets IWC - A Hackathon for microbial data analysis workflow FAIRification
 date: '2024-11-21'
-days: 1
 tease: "One-day hackathon focused on integrating, refining, and FAIRifying microbial data analysis Galaxy workflows within the Intergalactic Workflow Commission (IWC), enhancing their accessibility, reusability for the microbiology community"
 location: "Online"
 contact: "Bérénice Batut, Paul Zierep"

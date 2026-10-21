@@ -1,7 +1,7 @@
 ---
 title: "NCI Informatics Technology for Cancer Research (ITCR) Annual Meeting 2018"
 date: '2018-05-23'
-days: 2
+end: '2018-05-24'
 tease: ""
 continent: NA
 location:

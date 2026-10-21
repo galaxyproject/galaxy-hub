@@ -10,6 +10,16 @@ import Icon from '../../components/mdx/Icon.astro';
 
 const carouselSlides = [
   {
+    href: 'https://www.synapse.org/CM4AI_DREAM',
+    img: '/images/usegalaxy-welcome/dream-challenge.jpg',
+    alt: 'CM4AI-AnVIL Cell Map Prediction DREAM Challenge. Predict protein localization from microscopy images and sequence data. Opens October 19, 2026.',
+  },
+  {
+    href: 'https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkag469/8704296',
+    img: '/images/NAR-2026-Update.png',
+    alt: 'Galaxy update published in Nuclaic Acids Research',
+  },
+  {
     href: 'https://jxtxfoundation.org',
     img: '/images/usegalaxy-welcome/jxtx_carousel.svg',
     alt: 'Donate to the James P. Taylor Foundation for Open Science',
@@ -36,16 +46,17 @@ const carouselSlides = [
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to Galaxy</title>
   </head>
-  <body class="bg-white text-gray-700 leading-relaxed max-w-[900px] mx-auto p-5">
+  <body class="bg-white text-chicago-700 leading-relaxed max-w-[900px] mx-auto p-5">
     <!-- Hero Banner -->
     <section class="welcome-hero">
       <div class="relative z-1">
         <p class="text-base leading-relaxed m-0">
-          <strong class="text-lg">Galaxy</strong> is an open source, web-based platform for data intensive biomedical research.
-          If you are new to Galaxy
+          <strong class="text-lg">Galaxy</strong> is an open source, web-based platform for data intensive biomedical
+          research. If you are new to Galaxy
           <a
             href="https://usegalaxy.org/galaxy101"
-            class="text-galaxy-gold hover:text-accent-hover underline underline-offset-2">start here</a
+            class="text-galaxy-gold hover:text-accent-hover underline underline-offset-2"
+            >start here</a
           >
           or consult our help resources. You can install your own Galaxy by following the
           <a href="http://getgalaxy.org" class="text-galaxy-gold hover:text-accent-hover underline underline-offset-2"
@@ -54,71 +65,92 @@ const carouselSlides = [
           and choose from thousands of tools from the
           <a
             href="https://galaxyproject.org/admin/tools/add-tool-from-toolshed-tutorial"
-            class="text-galaxy-gold hover:text-accent-hover underline underline-offset-2">Tool Shed</a
-          >.
+            class="text-galaxy-gold hover:text-accent-hover underline underline-offset-2"
+            >Tool Shed</a
+          >. New to Galaxy? Watch
+          <a href="#what-is-galaxy" class="text-galaxy-gold hover:text-accent-hover underline underline-offset-2"
+            >"What is Galaxy?"</a
+          >
+          below.
         </p>
       </div>
     </section>
 
     <!-- Media Row: Carousel + YouTube -->
-    <section class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+    <section class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8 items-center">
       <!-- Carousel -->
       <div>
-        <div class="rounded-lg overflow-hidden shadow-md bg-gray-200" id="welcome-carousel">
-          <div class="relative w-full" style="aspect-ratio: 13/9;">
-            {
-              carouselSlides.map((slide, index) => (
-                <div
-                  class={`carousel-slide absolute inset-0 transition-opacity duration-500 ${index === 0 ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
-                  data-index={index}
-                >
-                  <a href={slide.href} target="_blank" class="block w-full h-full">
-                    <img src={slide.img} alt={slide.alt} class="w-full h-full object-cover" />
-                  </a>
-                </div>
-              ))
-            }
+        <div class="rounded-lg overflow-hidden shadow-md bg-ebony-clay-100" id="welcome-carousel">
+          <div class="relative w-full" style="aspect-ratio: 13/9">
+            <button
+              id="carousel-toggle"
+              type="button"
+              aria-label="Pause slide show"
+              class="absolute top-2 right-2 z-10 bg-black/40 hover:bg-black/60 text-white rounded-full w-7 h-7 flex items-center justify-center transition-colors cursor-pointer border-0"
+            >
+              <span class="carousel-icon-pause"><Icon name="pause" size={14} /></span>
+              <span class="carousel-icon-play hidden"><Icon name="play" size={14} /></span>
+            </button>
+            <div id="welcome-carousel-slides" class="absolute inset-0" aria-live="off">
+              {carouselSlides.map((slide, index) => <div
+                class={`carousel-slide absolute inset-0 transition-opacity duration-500 ${index === 0 ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
+                data-index={index}
+              >
+                <a href={slide.href} target="_blank" class="block w-full h-full">
+                  <img src={slide.img} alt={slide.alt} class="w-full h-full object-cover" />
+                </a>
+              </div>)}
+            </div>
             <div class="absolute inset-y-0 left-0 flex items-center pl-2">
               <button
                 id="prev-btn"
                 aria-label="Previous slide"
                 class="bg-black/40 hover:bg-black/60 text-white rounded-full w-8 h-8 flex items-center justify-center text-lg transition-colors cursor-pointer border-0"
-                >&#8249;</button
               >
+                &#8249;
+              </button>
             </div>
             <div class="absolute inset-y-0 right-0 flex items-center pr-2">
               <button
                 id="next-btn"
                 aria-label="Next slide"
                 class="bg-black/40 hover:bg-black/60 text-white rounded-full w-8 h-8 flex items-center justify-center text-lg transition-colors cursor-pointer border-0"
-                >&#8250;</button
               >
+                &#8250;
+              </button>
             </div>
           </div>
           <div class="flex justify-center gap-2 py-2 bg-white">
-            {
-              carouselSlides.map((_, index) => (
-                <button
-                  class={`carousel-indicator w-2.5 h-2.5 rounded-full transition-colors cursor-pointer border-0 ${index === 0 ? 'bg-galaxy-primary' : 'bg-gray-300 hover:bg-gray-400'}`}
-                  data-index={index}
-                  aria-label={`Go to slide ${index + 1}`}
-                />
-              ))
-            }
+            {carouselSlides.map((_, index) => (
+              <button
+                class={`carousel-indicator w-2.5 h-2.5 rounded-full transition-colors cursor-pointer border-0 ${index === 0 ? 'bg-galaxy-primary' : 'bg-ebony-clay-200 hover:bg-ebony-clay-300'}`}
+                data-index={index}
+                aria-label={`Go to slide ${index + 1}`}
+              />
+            ))}
           </div>
         </div>
       </div>
 
-      <!-- YouTube -->
+      <!-- Bluesky Feed -->
       <div>
-        <div class="rounded-lg overflow-hidden shadow-md">
-          <iframe
-            src="https://www.youtube-nocookie.com/embed/k6fTVIR4GME?mute=1&cc_load_policy=1&autoplay=0&loop=0&playlist=k6fTVIR4GME"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-            class="w-full border-0 block"
-            style="aspect-ratio: 400/277;"></iframe>
+        <div
+          class="rounded-lg shadow-md bg-white border border-ebony-clay-100 p-3 h-full flex flex-col"
+          id="bluesky-feed"
+        >
+          <div class="flex items-center gap-1.5 mb-1.5">
+            <Icon name="bluesky" size={14} />
+            <p class="font-semibold text-galaxy-dark text-xs m-0">Latest from Bluesky</p>
+          </div>
+          <div id="bluesky-feed-posts" class="space-y-1.5 overflow-y-auto text-sm flex-1" style="max-height: 190px">
+            <p class="text-chicago-400 text-xs m-0">Loading posts&hellip;</p>
+          </div>
+          <a
+            href="https://bsky.app/profile/galaxyproject.bsky.social"
+            target="_blank"
+            class="text-galaxy-primary hover:underline text-xs mt-1.5 inline-block"
+            >View more on Bluesky &rarr;</a
+          >
         </div>
       </div>
     </section>
@@ -146,6 +178,21 @@ const carouselSlides = [
       </a>
     </section>
 
+    <!-- What is Galaxy Video -->
+    <section id="what-is-galaxy" class="mb-8">
+      <p class="font-semibold text-galaxy-dark mb-3">What is Galaxy?</p>
+      <div class="rounded-lg overflow-hidden shadow-md max-w-xl mx-auto">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/k6fTVIR4GME?mute=1&cc_load_policy=1&autoplay=0&loop=0&playlist=k6fTVIR4GME"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          class="w-full border-0 block"
+          style="aspect-ratio: 400/277"
+        ></iframe>
+      </div>
+    </section>
+
     <!-- Social Media -->
     <section class="text-center mb-8">
       <p class="font-semibold text-galaxy-dark mb-3">Follow us on social media</p>
@@ -155,7 +202,7 @@ const carouselSlides = [
           target="_blank"
           class="inline-flex items-center gap-1.5 border border-galaxy-primary text-galaxy-primary hover:bg-galaxy-primary hover:text-white px-4 py-2 rounded-full transition-colors text-sm font-medium no-underline"
         >
-          <Icon name="message-circle" size={16} />
+          <Icon name="mastodon" size={16} />
           Mastodon
         </a>
         <a
@@ -163,7 +210,7 @@ const carouselSlides = [
           target="_blank"
           class="inline-flex items-center gap-1.5 border border-galaxy-primary text-galaxy-primary hover:bg-galaxy-primary hover:text-white px-4 py-2 rounded-full transition-colors text-sm font-medium no-underline"
         >
-          <Icon name="cloud" size={16} />
+          <Icon name="bluesky" size={16} />
           Bluesky
         </a>
         <a
@@ -180,27 +227,28 @@ const carouselSlides = [
     <!-- Cite Galaxy -->
     <section class="text-center mb-8">
       <p class="font-semibold text-galaxy-dark mb-2">Cite Galaxy</p>
-      <p class="text-xs text-gray-600 leading-relaxed max-w-2xl mx-auto mb-2">
-        The Galaxy Community. &ldquo;The Galaxy platform for accessible, reproducible, and collaborative data analyses:
-        2024 update.&rdquo; <em>Nucleic Acids Res.</em> 2024, 52(W1):W83-W94.
-        <a href="https://doi.org/10.1093/nar/gkae410" target="_blank" class="text-galaxy-primary hover:underline"
-          >doi:10.1093/nar/gkae410</a
+      <p class="text-xs text-chicago-600 leading-relaxed max-w-2xl mx-auto mb-2">
+        The Galaxy Community. &ldquo;Galaxy for accessible, reproducible, and collaborative data analyses: 2026
+        update.&rdquo; <em>Nucleic Acids Res.</em> 2026; gkag469.
+        <a href="https://doi.org/10.1093/nar/gkag469" target="_blank" class="text-galaxy-primary hover:underline"
+          >doi:10.1093/nar/gkag469</a
         >
         &middot;
         <a
           href="https://galaxyproject.org/citing-galaxy/"
           target="_blank"
-          class="text-gray-400 hover:text-galaxy-primary transition-colors">full citation guide</a
+          class="text-chicago-400 hover:text-galaxy-primary transition-colors"
+          >full citation guide</a
         >
       </p>
     </section>
 
-    <hr class="border-gray-200 my-8" />
+    <hr class="border-ebony-clay-100 my-8" />
 
     <!-- Institutions & Infrastructure -->
     <section class="grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-8 mb-8">
       <div>
-        <div class="flex items-center justify-center gap-6 mb-4" style="min-height: 80px;">
+        <div class="flex items-center justify-center gap-6 mb-4" style="min-height: 80px">
           <a href="http://www.psu.edu/" target="_blank">
             <img src="/images/usegalaxy-welcome/psu_logo.png" alt="Penn State University" class="max-h-16" />
           </a>
@@ -208,20 +256,22 @@ const carouselSlides = [
             <img src="/images/usegalaxy-welcome/jhu_logo.png" alt="Johns Hopkins University" class="max-h-16" />
           </a>
         </div>
-        <p class="text-sm text-gray-600 leading-relaxed">
+        <p class="text-sm text-chicago-600 leading-relaxed">
           <a href="https://galaxyproject.org/galaxy-team/" class="text-galaxy-primary hover:underline"
             >The Galaxy Team</a
-          > is a part of
+          >
+          is a part of
           <a href="http://www.bx.psu.edu/" class="text-galaxy-primary hover:underline"
             >the Center for Comparative Genomics and Bioinformatics</a
-          > at <a href="http://www.psu.edu/" class="text-galaxy-primary hover:underline">Penn State</a> and the
+          >
+          at <a href="http://www.psu.edu/" class="text-galaxy-primary hover:underline">Penn State</a> and the
           <a href="http://www.bio.jhu.edu/" class="text-galaxy-primary hover:underline">Department of Biology</a> at
           <a href="http://www.jhu.edu/" class="text-galaxy-primary hover:underline">Johns Hopkins University</a>.
         </p>
       </div>
 
       <div>
-        <div class="flex items-center justify-center gap-6 mb-4" style="min-height: 80px;">
+        <div class="flex items-center justify-center gap-6 mb-4" style="min-height: 80px">
           <a href="https://www.tacc.utexas.edu/" target="_blank">
             <img src="/images/usegalaxy-welcome/tacc_logo.png" alt="Texas Advanced Computing Center" class="max-h-16" />
           </a>
@@ -232,7 +282,7 @@ const carouselSlides = [
             <img src="/images/usegalaxy-welcome/jetstream2_logo.png" alt="Jetstream2" class="max-h-16" />
           </a>
         </div>
-        <p class="text-sm text-gray-600 leading-relaxed">
+        <p class="text-sm text-chicago-600 leading-relaxed">
           This instance of Galaxy is utilizing infrastructure generously provided by the
           <a href="https://tacc.utexas.edu/" class="text-galaxy-primary hover:underline"
             >Texas Advanced Computing Center</a
@@ -245,7 +295,7 @@ const carouselSlides = [
     </section>
 
     <!-- Funding & Legal -->
-    <section class="mb-8 text-xs text-gray-500 leading-relaxed space-y-3 border-t border-gray-200 pt-4">
+    <section class="mb-8 text-xs text-chicago-500 leading-relaxed space-y-3 border-t border-ebony-clay-100 pt-4">
       <p>
         The development and maintenance of this site are supported by
         <a href="https://www.nih.gov/" class="text-galaxy-primary hover:underline">NIH</a>
@@ -256,26 +306,28 @@ const carouselSlides = [
         <a href="http://www.nsf.gov" class="text-galaxy-primary hover:underline">NSF</a> award 2419522.
       </p>
       <p>
-        This site uses
-        <a href="https://jetstream-cloud.org/" class="text-galaxy-primary hover:underline">Jetstream2</a> at the
+        This site uses <a href="https://jetstream-cloud.org/" class="text-galaxy-primary hover:underline">Jetstream2</a>
+        at the
         <a href="https://pti.iu.edu/" class="text-galaxy-primary hover:underline"
           >Indiana University Pervasive Technology Institute</a
-        >,
-        <a href="https://www.psc.edu/resources/bridges-2/" class="text-galaxy-primary hover:underline">Bridges-2</a> at the
+        >, <a href="https://www.psc.edu/resources/bridges-2/" class="text-galaxy-primary hover:underline">Bridges-2</a>
+        at the
         <a href="https://www.psc.edu/" class="text-galaxy-primary hover:underline">Pittsburgh Supercomputing Center</a>,
         <a href="https://www.arch.jhu.edu/about-arch/system-configuration/" class="text-galaxy-primary hover:underline"
           >Rockfish</a
-        > at
+        >
+        at
         <a href="https://www.arch.jhu.edu/" class="text-galaxy-primary hover:underline"
           >Johns Hopkins University Advanced Research Computing</a
         >,
         <a href="https://tacc.utexas.edu/systems/stampede3/" class="text-galaxy-primary hover:underline">Stampede3</a>
-        and
-        <a href="https://tacc.utexas.edu/systems/ranch/" class="text-galaxy-primary hover:underline">Ranch</a> at the
+        and <a href="https://tacc.utexas.edu/systems/ranch/" class="text-galaxy-primary hover:underline">Ranch</a> at
+        the
         <a href="https://tacc.utexas.edu/" class="text-galaxy-primary hover:underline"
           >Texas Advanced Computing Center</a
         >, and
-        <a href="https://www.sdsc.edu/services/hpc/expanse/" class="text-galaxy-primary hover:underline">Expanse</a> at the
+        <a href="https://www.sdsc.edu/services/hpc/expanse/" class="text-galaxy-primary hover:underline">Expanse</a> at
+        the
         <a href="https://www.sdsc.edu/" class="text-galaxy-primary hover:underline">San Diego Supercomputer Center</a>,
         through allocation MCB140147 from the
         <a href="https://access-ci.org/" class="text-galaxy-primary hover:underline"
@@ -342,8 +394,11 @@ const carouselSlides = [
         const indicators = /** @type {NodeListOf<HTMLElement>} */ (document.querySelectorAll('.carousel-indicator'));
         const prevBtn = document.getElementById('prev-btn');
         const nextBtn = document.getElementById('next-btn');
+        const toggleBtn = document.getElementById('carousel-toggle');
+        const slidesRegion = document.getElementById('welcome-carousel-slides');
 
         let currentSlide = 0;
+        let playing = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
         function showSlide(index: number) {
           if (index >= slides.length) index = 0;
@@ -355,12 +410,12 @@ const carouselSlides = [
           });
           indicators.forEach((ind) => {
             ind.classList.remove('bg-galaxy-primary');
-            ind.classList.add('bg-gray-300');
+            ind.classList.add('bg-ebony-clay-200');
           });
 
           slides[index].classList.remove('opacity-0', 'pointer-events-none');
           slides[index].classList.add('opacity-100');
-          indicators[index].classList.remove('bg-gray-300');
+          indicators[index].classList.remove('bg-ebony-clay-200');
           indicators[index].classList.add('bg-galaxy-primary');
           currentSlide = index;
         }
@@ -374,7 +429,10 @@ const carouselSlides = [
         }
 
         function startAutoPlay() {
-          welcomeCarouselInterval = setInterval(nextSlide, 3000);
+          stopAutoPlay();
+          if (playing) {
+            welcomeCarouselInterval = setInterval(nextSlide, 3000);
+          }
         }
 
         function stopAutoPlay() {
@@ -383,6 +441,19 @@ const carouselSlides = [
             welcomeCarouselInterval = undefined;
           }
         }
+
+        function updateToggle() {
+          toggleBtn?.setAttribute('aria-label', playing ? 'Pause slide show' : 'Play slide show');
+          toggleBtn?.querySelector('.carousel-icon-pause')?.classList.toggle('hidden', !playing);
+          toggleBtn?.querySelector('.carousel-icon-play')?.classList.toggle('hidden', playing);
+          slidesRegion?.setAttribute('aria-live', playing ? 'off' : 'polite');
+        }
+
+        toggleBtn?.addEventListener('click', () => {
+          playing = !playing;
+          updateToggle();
+          startAutoPlay();
+        });
 
         nextBtn?.addEventListener('click', () => {
           stopAutoPlay();
@@ -407,12 +478,85 @@ const carouselSlides = [
         carousel.addEventListener('mouseenter', stopAutoPlay);
         carousel.addEventListener('mouseleave', startAutoPlay);
 
+        updateToggle();
         startAutoPlay();
+      }
+
+      async function initBlueskyFeed() {
+        const container = document.getElementById('bluesky-feed-posts');
+        if (!container || container.dataset.loaded === 'true') return;
+        container.dataset.loaded = 'true';
+
+        try {
+          const res = await fetch(
+            'https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=galaxyproject.bsky.social&filter=posts_no_replies&limit=10'
+          );
+          if (!res.ok) throw new Error(`Bluesky API error: ${res.status}`);
+          const data = await res.json();
+          const items: any[] = Array.isArray(data.feed) ? data.feed.slice(0, 10) : [];
+
+          container.textContent = '';
+
+          if (items.length === 0) {
+            const empty = document.createElement('p');
+            empty.className = 'text-chicago-400 text-xs m-0';
+            empty.textContent = 'No recent posts found.';
+            container.appendChild(empty);
+            return;
+          }
+
+          const truncate = (str: string, maxLen: number) => {
+            if (str.length <= maxLen) return str;
+            const cut = str.slice(0, maxLen);
+            const lastSpace = cut.lastIndexOf(' ');
+            return `${cut.slice(0, lastSpace > 0 ? lastSpace : maxLen)}…`;
+          };
+
+          items.forEach(({ post }: any) => {
+            const rkey = post?.uri?.split('/').pop();
+            const handle = post?.author?.handle;
+            const postUrl =
+              handle && rkey
+                ? `https://bsky.app/profile/${handle}/post/${rkey}`
+                : 'https://bsky.app/profile/galaxyproject.bsky.social';
+            const text = truncate(post?.record?.text ?? '', 100);
+            const date = post?.indexedAt ? new Date(post.indexedAt) : null;
+
+            const item = document.createElement('div');
+
+            const textEl = document.createElement('a');
+            textEl.href = postUrl;
+            textEl.target = '_blank';
+            textEl.className = 'block m-0 text-chicago-700 text-xs leading-snug hover:text-galaxy-primary no-underline';
+            textEl.textContent = text;
+            item.appendChild(textEl);
+
+            const link = document.createElement('a');
+            link.href = postUrl;
+            link.target = '_blank';
+            link.className = 'text-chicago-400 text-xs hover:text-galaxy-primary no-underline';
+            link.textContent = date
+              ? date.toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' })
+              : 'View post';
+            item.appendChild(link);
+
+            container.appendChild(item);
+          });
+        } catch (err) {
+          container.textContent = '';
+          const errEl = document.createElement('p');
+          errEl.className = 'text-chicago-400 text-xs m-0';
+          errEl.textContent = 'Unable to load Bluesky posts right now.';
+          container.appendChild(errEl);
+          console.error('Failed to load Bluesky feed', err);
+        }
       }
 
       // astro:page-load for ViewTransitions, DOMContentLoaded as fallback for standalone pages
       document.addEventListener('astro:page-load', initWelcomeCarousel);
       document.addEventListener('DOMContentLoaded', initWelcomeCarousel);
+      document.addEventListener('astro:page-load', initBlueskyFeed);
+      document.addEventListener('DOMContentLoaded', initBlueskyFeed);
 
       document.addEventListener('astro:before-swap', () => {
         if (welcomeCarouselInterval) {

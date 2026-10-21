@@ -1,7 +1,7 @@
 ---
 title: "Diving into the Galaxy: an accessible and reproducible workbench with an European-wide distributed compute network"
 date: '2020-11-02'
-days: 4
+end: '2020-11-05'
 tease: "Best-practices, tools, workflow development, transparent and reproducible research"
 continent: EU
 location:

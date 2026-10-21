@@ -2,7 +2,6 @@
 title: "RNA Seq analysis using Galaxy " 
 tease: ""
 date: '2019-07-31'
-days: 1
 continent: AU
 location:
   name: "Translational Research Institute (TRI), Woolloongabba, Queensland, Australia"

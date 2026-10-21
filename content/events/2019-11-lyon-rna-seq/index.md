@@ -2,7 +2,7 @@
 title: "Analyse des données RNA-Seq sous l'environnement Galaxy" 
 tease: "Pour les Biologistes (Chercheurs, ingénieurs, étudiants) ayant en projet ou en cours des expériences de RNA-seq"
 date: '2019-11-20'
-days: 3
+end: '2019-11-22'
 continent: EU
 location:
   name: "Lyon, France" 

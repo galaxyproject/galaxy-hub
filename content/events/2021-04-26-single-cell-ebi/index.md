@@ -6,7 +6,7 @@ tags: [training]
 location:
   name: online
 external_url: https://www.ebi.ac.uk/training/events/single-cell-rna-seq-network-analysis-using-galaxy-and-cytoscape/
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: "Practically FAIR"
 date: '2021-03-04'
-days: 1
 tease: "Practical applications of the FAIR data principles, particularly in the context of clinical bioinformatics"
 continent: EU
 location:

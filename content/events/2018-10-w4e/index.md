@@ -1,7 +1,7 @@
 ---
 title: "Workflow4Experimenters 2018 Course"
 date: '2018-10-08'
-days: 5
+end: '2018-10-12'
 tease: "Analyze your LCMS, GCMS and NMR data with Galaxy and the Workflow4Metabolomics online platform"
 continent: EU
 location:

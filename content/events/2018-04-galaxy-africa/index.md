@@ -1,7 +1,7 @@
 ---
 title: "Galaxy Africa"
 date: '2018-04-03'
-days: 3
+end: '2018-04-05'
 tease: "An opportunity to learn from leading bioinformaticists, systems administrators and engineers about Galaxy and accessible, reproducible analysis of biological data"
 continent: AF
 location:

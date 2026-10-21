@@ -3,7 +3,6 @@ subsites:
 - all
 gtn: true
 date: '2025-10-14'
-days: 1
 title: A practical workshop for (foodborne) pathogen detection from (direct Nanopore)
   sequencing data using Galaxy
 contact: Anna Henger, Abdullah Kahraman

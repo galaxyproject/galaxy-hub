@@ -1,7 +1,6 @@
 ---
 title: "Galaxy Discovery: do-it-yourself bioinformatics"
 date: '2017-03-03'
-days: 1
 tease: Learn from the best...
 continent: EU
 location:

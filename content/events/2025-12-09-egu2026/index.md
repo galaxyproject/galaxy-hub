@@ -1,7 +1,7 @@
 ---
 title: European Geosciences Union (EGU) 2026
 date: '2026-05-04'
-days: 5
+end: '2026-05-08'
 tease: "A Data Terra session to the European Geoscience Union"
 continent: NA
 location:

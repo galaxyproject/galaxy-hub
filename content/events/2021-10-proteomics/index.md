@@ -2,7 +2,6 @@
 title: Galaxy Australia for Proteomics & the MS imaging tool HiT-MAP
 date: '2021-10-20'
 tease: Organised by the Galaxy Proteomics communities in the US, Australia and Europe.
-days: 1
 continent: GL
 location:
   name: International Galaxy Proteomics Meeting Series, Online, Global

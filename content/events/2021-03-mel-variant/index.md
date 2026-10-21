@@ -1,7 +1,6 @@
 ---
 title: "Structural Variant Calling using Long Read Data"
 date: '2021-03-23'
-days: 1
 tease: "Learn how to identify structural variants in genomes using Galaxy"
 continent: AU
 location:

@@ -1,7 +1,6 @@
 ---
 title: "Galaxy For Mass Spectrometry-based Research Meetup"
 date: '2021-02-18'
-days: 1
 tease: "We meet every 6 weeks"
 continent: NA
 location:

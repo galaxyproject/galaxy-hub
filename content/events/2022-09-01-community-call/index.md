@@ -1,7 +1,6 @@
 ---
 title: "CANCELLED: Galaxy Community Call: Galaxy Release Process: Overview and Coming Changes"
 date: '2022-09-01'
-days: 1
 tease: "A forum to share updates and discuss community-wide topics"
 continent: GL
 location:

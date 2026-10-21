@@ -1,7 +1,7 @@
 ---
 title: G-OnRamp Workshop
 date: '2018-06-12'
-days: 3
+end: '2018-06-14'
 tease: create genome browsers for collaborative annotations of eukaryotic genomes
 continent: NA
 location:

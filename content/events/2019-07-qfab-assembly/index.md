@@ -2,7 +2,6 @@
 title: "Genome assembly using Galaxy" 
 tease: "de novo assembly and initial annotation of a genome from short-read NGS data"
 date: '2019-07-30'
-days: 1
 continent: AU
 location:
   name: "Translational Research Institute (TRI), Woolloongabba, Queensland, Australia"

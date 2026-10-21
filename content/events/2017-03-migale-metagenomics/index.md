@@ -1,7 +1,7 @@
 ---
 title: Analyse de données métagénomiques 16S
 date: '2017-03-27'
-days: 4
+end: '2017-03-30'
 tease: Part of Cycle "Bioinformatique par la pratique" 2017
 continent: EU
 location:

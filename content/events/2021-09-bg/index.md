@@ -1,7 +1,7 @@
 ---
 title: "Fast, scalable, free, & user-friendly Galaxy workflows for reference genome assembly"
 date: '2021-09-27'
-days: 5
+end: '2021-10-01'
 tease: "The latest version of VGP's pipeline has been ported to Galaxy."
 continent: GL
 location:

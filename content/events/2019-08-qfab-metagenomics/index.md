@@ -2,7 +2,6 @@
 title: "Metagenomics analysis using Galaxy " 
 tease: ""
 date: '2019-08-02'
-days: 1
 continent: AU
 location:
   name: "Translational Research Institute (TRI), Woolloongabba, Queensland, Australia"

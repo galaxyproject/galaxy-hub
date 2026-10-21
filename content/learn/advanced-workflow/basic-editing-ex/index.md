@@ -8,14 +8,14 @@ title: "Tutorial: Basic Editing"
 
 ## 3 Top Workflow Edits
 
-**[3 Most Useful Edits](/learn/advanced-workflow/basic-editing/#a3_most_useful_edits)** are:
+**[3 Most Useful Edits](/learn/advanced-workflow/basic-editing/#3-most-useful-edits)** are:
  *
  *
  *
 
 ## What you will learn
 
-Using an example where the **[3 Most Useful Edits](/learn/advanced-workflow/basic-editing/#a3_most_useful_edits)** are used to customize a workflow, and where one of them is required for correct execution, and existing Workflow will be edited.
+Using an example where the **[3 Most Useful Edits](/learn/advanced-workflow/basic-editing/#3-most-useful-edits)** are used to customize a workflow, and where one of them is required for correct execution, and existing Workflow will be edited.
 
 ## Why is this needed?
 

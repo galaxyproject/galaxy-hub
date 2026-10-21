@@ -1,7 +1,7 @@
 ---
 title: GCC2015
 date: '2015-07-06'
-days: 3
+end: '2015-07-08'
 tease: "The 2015 gathering of the global Galaxy community"
 continent: EU
 location:

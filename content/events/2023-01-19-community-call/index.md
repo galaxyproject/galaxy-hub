@@ -1,7 +1,6 @@
 ---
 title: "Galaxy Community Call: The Genomic Data Science Community Network"
 date: '2023-01-19'
-days: 1
 tease: "A forum to share updates and discuss community-wide topics"
 continent: GL
 location:

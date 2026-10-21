@@ -1,7 +1,7 @@
 ---
 title: "Automated Workflow Composition in the Life Sciences"
 date: '2020-03-09'
-days: 5
+end: '2020-03-13'
 tease: ""
 continent: EU
 location:

@@ -1,7 +1,7 @@
 ---
 title: "Statistical Design and Analysis of Quantitative Proteomics Experiments with TMT Labeling: Case Studies with MSstatsTMT"
 date: '2021-03-04'
-days: 2
+end: '2021-03-05'
 tease: "Statistical design and analysis of quantitative shotgun proteomic experiments with tandem mass tag (TMT) labeling"
 continent: NA
 location:

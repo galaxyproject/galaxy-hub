@@ -1,0 +1,23 @@
+title: Galaxy Training Network
+tease: Collection of 500+ tutorials developed and maintained by the worldwide Galaxy community
+body: |
+   The **Galaxy Training Network (GTN)** is a collection of free, FAIR, open-source, reusable e-learning materials for life sciences and beyond.
+
+   Here you will find hundreds of tutorials covering scientific topics such as life sciences, digital humanities, earth sciences, imaging, machine learning, and many more.
+   In addition, there are also tutorials for Galaxy tool developers, Galaxy administrators, and for educators looking to re-use the GTN tutorials in their classes or workshops.
+
+   Our mission is to provide a platform for accessible, interactive training materials for everyone.
+
+subsites: [all]
+date: "2026-09-07"
+weight: 30
+images:
+  - url: /images/screenshots/gtn-homepage.png
+    alt: Screenshot of the GTN homepage
+  - url: /images/screenshots/gtn-about.png
+    alt: Screenshot of the GTN about page
+links:
+  - url: https://training.galaxyproject.org
+    text: View the GTN tutorials
+  - url: https://training.galaxyproject.org/about
+    text: Read about the GTN's mission

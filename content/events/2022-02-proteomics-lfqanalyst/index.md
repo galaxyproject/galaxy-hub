@@ -1,7 +1,6 @@
 ---
 title: "International Galaxy Proteomics community - LFQanalyst"
 date: '2022-02-24'
-days: 1
 tease: "The Galaxy Proteomics communities in the US, Australia and Europe regularly come together online to talk about topics of shared interest."
 continent: AU
 location:

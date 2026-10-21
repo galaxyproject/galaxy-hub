@@ -1,7 +1,7 @@
 ---
 title: Workshop on high-throughput sequencing data analysis with Galaxy
 date: '2025-03-10'
-days: 5
+end: '2025-03-14'
 tease: "This course introduces scientists to the data analysis platform Galaxy. The course is a beginner course; there is no requirement of any programming skills."
 continent: EU
 location:

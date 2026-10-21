@@ -3,7 +3,7 @@ title: '[GTN news] Contributing to BioBlend as a developer'
 date: '2021-05-25'
 tags: [training, gtn-news]
 external_url: https://training.galaxyproject.org/training-material/news/2021/05/25/new-dev-tutorial.html
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   funding:

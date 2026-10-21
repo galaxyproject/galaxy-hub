@@ -1,7 +1,7 @@
 ---
 title: "Integration of the Galaxy platform into first year bioinformatics education to enhance teaching of data science skills"
 date: '2018-06-19'
-days: 3
+end: '2018-06-21'
 tease: "data science themed activities using the Galaxy platform and the integrated Jupiter notebooks"
 continent: NA
 location:

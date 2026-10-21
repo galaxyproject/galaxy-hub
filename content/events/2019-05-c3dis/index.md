@@ -1,7 +1,7 @@
 ---
 title: "Galaxy Australia: technologies for federated omic-based analyses and training using distributed compute and data infrastructure"
 date: "2019-05-06"
-days: 5
+end: "2019-05-10"
 tease: "Galaxy Australia"
 continent: AU
 location:

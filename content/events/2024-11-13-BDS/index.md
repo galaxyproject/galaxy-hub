@@ -1,7 +1,7 @@
 ---
 title: Biological Data Science
 date: '2024-11-13'
-days: 4
+end: '2024-11-16'
 tease: "The scope of this meeting will be the infrastructure, software, and algorithms needed to analyze large data sets in biological research."
 continent: NA
 location:

@@ -2,7 +2,6 @@
 title: Galaxy release testing and publishing workflows to Dockstore and Workflowhub
 date: '2020-10-15'
 tease: ''
-days: 1
 continent: GL
 location:
   name: Online, Global

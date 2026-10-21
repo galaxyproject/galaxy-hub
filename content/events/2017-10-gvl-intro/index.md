@@ -1,7 +1,6 @@
 ---
 title: 'Introduction to Galaxy & the Genomics Virtual Laboratory'
 date: '2017-10-03'
-days: 1
 tease: "it's full..."
 continent: AU
 location:

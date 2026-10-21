@@ -1,7 +1,7 @@
 ---
 title: "GMOD Codefest 2020"
 date: '2020-01-09'
-days: 2
+end: '2020-01-10'
 tease: "Two days of contributing to Galaxy and other GMOD Components, right before PAG"
 continent: NA
 location:

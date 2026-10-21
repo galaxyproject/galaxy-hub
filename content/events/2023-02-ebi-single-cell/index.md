@@ -1,7 +1,7 @@
 ---
 title: "Single-cell RNA-seq analysis using Galaxy"
 date: '2023-02-06'
-days: 5
+end: '2023-02-10'
 tease: "Participants will be guided through the droplet-based scRNA-seq analysis pipelines from raw reads to trajectories."
 continent: EU
 location:

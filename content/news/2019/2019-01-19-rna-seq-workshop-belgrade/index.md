@@ -29,5 +29,3 @@ Thanks Nevena and Vlada for the invitation and the sightseeing ❤️!
 <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </div>
 
-{% twitter https://twitter.com/i/moments/1086591402081964033 %}
-

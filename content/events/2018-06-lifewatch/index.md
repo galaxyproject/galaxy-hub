@@ -1,7 +1,7 @@
 ---
 title: "An innovative PaaS solution to support Big Data Analytics and Workflow management via Galaxy"
 date: '2018-06-25'
-days: 3
+end: '2018-06-27'
 tease: "ELIXIR-Italy in the framework of the INDIGO-DataCloud project has developed a cloud Galaxy instance
 provider"
 continent: EU

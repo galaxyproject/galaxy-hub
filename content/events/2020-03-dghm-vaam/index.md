@@ -1,7 +1,7 @@
 ---
 title: "High-Throughput Analysis with the European Galaxy Server"
 date: '2020-03-08'
-days: 4
+end: '2020-03-11'
 tease: ""
 continent: EU
 location:

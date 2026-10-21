@@ -1,0 +1,38 @@
+---
+import '../../../../styles/global.css';
+import CofestBoard from '../../../../components/CofestBoard.vue';
+import {
+  COFEST_CSV_URL,
+  COFEST_DATE,
+  COFEST_LOCATION,
+  COFEST_PROJECT_QR_PATH,
+  COFEST_PROJECT_QR_URL,
+  COFEST_EVENT_NAME,
+} from '@/data/cofest';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <title>GCC2026 CoFest Projects | Live Board</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body>
+    <CofestBoard
+      client:load
+      csvUrl={COFEST_CSV_URL}
+      presenterView={true}
+      cardsPerSlide={6}
+      slideIntervalMs={12000}
+      refreshIntervalMs={30000}
+      dateString={COFEST_DATE}
+      locationString={COFEST_LOCATION}
+      eventName={COFEST_EVENT_NAME}
+      qrImagePath={COFEST_PROJECT_QR_PATH}
+      qrUrl={COFEST_PROJECT_QR_URL}
+    />
+  </body>
+</html>

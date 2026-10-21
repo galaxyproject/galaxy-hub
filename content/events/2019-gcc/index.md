@@ -1,7 +1,7 @@
 ---
 title: '2019 Galaxy Community Conference (GCC2019)'
 date: '2019-07-01'
-days: 6
+end: '2019-07-06'
 tease: "The annual gathering of the Galaxy Community"
 continent: EU
 location:

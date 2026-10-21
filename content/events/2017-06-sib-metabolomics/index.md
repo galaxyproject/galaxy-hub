@@ -1,7 +1,6 @@
 ---
 title: 'Workflow4Metabolomics hands-on course'
 date: '2017-06-14'
-days: 1
 tease: 'LC-MS, metabolite identification, and more'
 continent: EU
 location:

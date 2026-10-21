@@ -1,7 +1,6 @@
 ---
 title: "Galaxy for Immunological and Infectious Disease Research"
 date: '2020-09-04'
-days: 1
 tease: ''
 continent: NA
 location:

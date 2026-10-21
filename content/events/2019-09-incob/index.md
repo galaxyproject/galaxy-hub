@@ -2,7 +2,7 @@
 title: "Galaxy @ INCOB 2019" 
 tease: "Workshop, talk, and a community launch"
 date: '2019-09-10'
-days: 3
+end: '2019-09-12'
 continent: AS
 location:
   name: "InCoB 2019, Jakarta, Indonesia"

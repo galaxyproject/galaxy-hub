@@ -1,8 +1,8 @@
 ---
 title: 'GTN Smörgåsbord: A Global Galaxy Course'
 date: '2021-02-15'
+end: '2021-02-19'
 tease: Get a taste of all the GTN has to offer!
-days: 5
 continent: GL
 location:
   name: Online, Global

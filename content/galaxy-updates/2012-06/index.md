@@ -37,7 +37,7 @@ Many thanks to the [LAboratory of Post-Transcriptional control and bioInformatic
 * The [GCC2012 Training Day](/events/gcc2012/training-day/)
   1. Has less capacity than the 2 days of the [main meeting](/events/gcc2012/program/), and
   2. So far, everyone who has [registered](/events/gcc2012/register/) for the main meeting has also registered for the Training Day.
-* Cheap rooms in the [James Stuckel Towers](/events/gcc2012/logistics/#james-stuckel-towers) on the UIC campus (and adjacent to the [conference venue](/events/gcc2012/logistics/#venue)) are going fast.
+* Cheap rooms in the [James Stuckel Towers](/events/gcc2012/logistics/#james-stukel-towers) on the UIC campus (and adjacent to the [conference venue](/events/gcc2012/logistics/#venue)) are going fast.
 * A [draft schedule](/events/gcc2012/program/) for all 3 days of the conference has been published. This includes [12 Training Day sessions](/events/gcc2012/training-day/) on [10 different topics](/events/gcc2012/training-day/#workshops), and over 25 presentations by Galaxy Community and Galaxy Team members.
 
 ## New Papers

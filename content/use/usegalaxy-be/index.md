@@ -7,6 +7,14 @@ platforms:
     platform_url: "https://usegalaxy.be/"
     platform_text: "ELIXIR Belgium Galaxy Server"
     platform_location: BE
+    location:
+      city: Ghent  
+      region: Flanders
+      continent_code: EU
+      postal: "9050"
+      latitude: 51.0113
+      longitude: 3.7099
+      timezone: Europe/Brussels
 summary: "General purpose genomics Galaxy server"
 image: "/use/usegalaxy-be/usegalaxy-be-logo.png"
 comments:

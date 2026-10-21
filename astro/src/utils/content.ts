@@ -4,7 +4,14 @@
  */
 
 import { getCollection, type CollectionEntry } from 'astro:content';
-import { isPublishedDate, formatDate as formatDateUtil, formatDateRange as formatDateRangeUtil } from './dateUtils';
+import {
+  isPublishedDate,
+  isUpcomingEvent,
+  isPastEvent,
+  formatDate as formatDateUtil,
+  formatDateRange as formatDateRangeUtil,
+} from './dateUtils';
+import { contentMatchesSubsite } from './subsites';
 
 type ArticleEntry = CollectionEntry<'articles'>;
 export type NewsEntry = CollectionEntry<'news'>;
@@ -18,13 +25,12 @@ type InsertEntry = CollectionEntry<'inserts'>;
 export async function getArticles(subsite?: string): Promise<ArticleEntry[]> {
   const articles = await getCollection('articles');
 
-  if (!subsite || subsite === 'global') {
+  if (!subsite) {
     return articles;
   }
 
   return articles.filter((article) => {
-    const subsites = article.data.subsites || [];
-    return subsites.includes(subsite) || subsites.includes('all');
+    return contentMatchesSubsite(article.data.subsites, subsite);
   });
 }
 
@@ -34,30 +40,24 @@ export async function getArticles(subsite?: string): Promise<ArticleEntry[]> {
 export async function getEvents(subsite?: string): Promise<EventEntry[]> {
   const events = await getCollection('events');
 
-  if (!subsite || subsite === 'global') {
+  if (!subsite) {
     return events;
   }
 
   return events.filter((event) => {
-    const subsites = event.data.subsites || [];
-    return subsites.includes(subsite) || subsites.includes('all');
+    return contentMatchesSubsite(event.data.subsites, subsite);
   });
 }
 
 /**
- * Get upcoming events (events with date >= today)
+ * Get upcoming events (events that end today or later)
  */
 export async function getUpcomingEvents(subsite?: string): Promise<EventEntry[]> {
   const events = await getEvents(subsite);
   const now = new Date();
-  now.setHours(0, 0, 0, 0);
 
   return events
-    .filter((event) => {
-      const eventDate = event.data.date;
-      if (!eventDate) return false;
-      return new Date(eventDate) >= now;
-    })
+    .filter((event) => isUpcomingEvent(event.data.date, event.data.end, now))
     .sort((a, b) => {
       const dateA = new Date(a.data.date || 0);
       const dateB = new Date(b.data.date || 0);
@@ -71,7 +71,6 @@ export async function getUpcomingEvents(subsite?: string): Promise<EventEntry[]>
 export async function getRecentEvents(subsite?: string, days = 365): Promise<EventEntry[]> {
   const events = await getEvents(subsite);
   const now = new Date();
-  now.setHours(0, 0, 0, 0);
 
   const cutoff = new Date(now);
   cutoff.setDate(cutoff.getDate() - days);
@@ -79,9 +78,8 @@ export async function getRecentEvents(subsite?: string, days = 365): Promise<Eve
   return events
     .filter((event) => {
       const eventDate = event.data.date;
-      if (!eventDate) return false;
-      const date = new Date(eventDate);
-      return date < now && date >= cutoff;
+      if (!eventDate || !isPastEvent(eventDate, event.data.end, now)) return false;
+      return new Date(eventDate) >= cutoff;
     })
     .sort((a, b) => {
       const dateA = new Date(a.data.date || 0);
@@ -224,13 +222,11 @@ export async function getInsert(slug: string): Promise<InsertEntry | undefined> 
 export async function getNews(subsite?: string): Promise<NewsEntry[]> {
   const news = await getCollection('news');
 
-  const filtered =
-    !subsite || subsite === 'global'
-      ? news
-      : news.filter((article) => {
-          const subsites = article.data.subsites || [];
-          return subsites.includes(subsite) || subsites.includes('all');
-        });
+  const filtered = !subsite
+    ? news
+    : news.filter((article) => {
+        return contentMatchesSubsite(article.data.subsites, subsite);
+      });
 
   return filtered.sort((a, b) => {
     const dateA = new Date(a.data.date || 0);

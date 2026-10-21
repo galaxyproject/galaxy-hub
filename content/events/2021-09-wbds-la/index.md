@@ -1,7 +1,7 @@
 ---
 title: "GTÑ: Introducing the Galaxy Training Ñetwork - Collaboration towards bioinformatics resources in Spanish"
 date: "2021-09-22"
-days: 3
+end: "2021-09-24"
 tease: ""
 continent: SA
 location:

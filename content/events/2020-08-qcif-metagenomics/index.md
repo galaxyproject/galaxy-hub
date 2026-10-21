@@ -1,7 +1,6 @@
 ---
 title: "Metagenomics Analysis Using Galaxy"
 date: "2020-08-11"
-days: 1
 tease: "16S bacterial metagenomics analysis."
 continent: AU
 location:

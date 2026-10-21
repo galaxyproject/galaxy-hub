@@ -1,8 +1,8 @@
 ---
 title: Analyse avancée de séquences
 date: '2021-10-19'
+end: '2021-10-21'
 tease: Savoir utiliser l'environnement Galaxy
-days: 3
 continent: EU
 location:
   name: Bordeaux, France

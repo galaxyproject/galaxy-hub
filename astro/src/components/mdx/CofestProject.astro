@@ -1,0 +1,28 @@
+---
+import CofestProject from '@/components/CofestProject.vue';
+
+interface Props {
+  name: string;
+  description?: string;
+  lead?: string;
+  assignees?: string;
+}
+
+const { name, description = '', lead = '', assignees = '' } = Astro.props;
+
+const project = {
+  project: name,
+  description,
+  lead,
+  assignees: assignees
+    ? assignees
+        .split(',')
+        .map((s) => s.trim())
+        .filter(Boolean)
+    : [],
+};
+---
+
+<CofestProject project={project} standalone postEvent hasOutcomes={Astro.slots.has('default')} client:load>
+  <slot />
+</CofestProject>

@@ -2,7 +2,6 @@
 title: GTN CoFest and community call
 date: '2019-05-16'
 tease: ''
-days: 1
 continent: GL
 location:
   name: Online

@@ -2,7 +2,7 @@
 title: "Reproducible and Transparent Genomic Analysis with Galaxy" 
 tease: ""
 date: '2019-10-14'
-days: 5
+end: '2019-10-18'
 continent: NA
 location:
   name: "ASHG 2019, Houston, Texas, United States"

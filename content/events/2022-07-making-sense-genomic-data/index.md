@@ -1,10 +1,10 @@
 ---
 title: 'Making sense of genomic data: COVID-19 web-based bioinformatics'
 date: '2022-07-25'
+end: '2022-08-14'
 tease: This course will introduce you to SARS-CoV-2 bioinformatics pipelines. Learn
   how to use the web-based tool Galaxy for bioinformatics analyses, including how
   to input and process data, build a pipeline, and use existing workflows.
-days: 21
 continent: GL
 location:
   name: Online, Mexico, South Africa, Sydney, UK, India

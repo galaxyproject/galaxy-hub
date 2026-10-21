@@ -1,8 +1,8 @@
 ---
 title: Analyse de données de métabarcoding
 date: '2021-04-06'
+end: '2021-04-09'
 tease: Full. Part of Cycle "Bioinformatique par la pratique" 2021
-days: 4
 continent: EU
 location:
   name: Cycle "Bioinformatique par la pratique" 2021, INRAE, Jouy-en-Josas, France

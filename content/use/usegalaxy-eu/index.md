@@ -19,7 +19,7 @@ user_support:
 quotas:
   - "Storage and computational quotas."
 citations:
-  - "The Galaxy Community, [The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkae410/7676834), Nucleic Acids Research, 2024; doi:10.1093/nar/gkae410"
+  - "The Galaxy Community, [Galaxy for accessible, reproducible, and collaborative data analyses: 2026 update](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkag469/8704296), Nucleic Acids Research, 2026; doi:10.1093/nar/gkag469"
   - "See UseGalaxy.eu [citations](https://galaxyproject.eu/citations)"
   - "How to cite the European Galaxy Server? See [Citing Galaxy](/citing-galaxy/)"
 

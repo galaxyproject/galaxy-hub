@@ -1,7 +1,7 @@
 ---
 title: 'Galaxy @ ISMB 2020'
 date: '2020-07-12'
-days: 5
+end: '2020-07-16'
 tease: ""
 continent: NA
 location:

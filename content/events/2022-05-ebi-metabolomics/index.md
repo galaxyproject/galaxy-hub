@@ -1,8 +1,8 @@
 ---
 title: Introduction to metabolomics analysis
 date: '2022-05-24'
+end: '2022-05-26'
 tease: Applications close 18 February
-days: 3
 continent: EU
 location:
   name: EMBL-EBI, Online, Hinxton, United Kingdom

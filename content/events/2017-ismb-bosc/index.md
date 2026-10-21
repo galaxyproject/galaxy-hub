@@ -1,7 +1,7 @@
 ---
 title: 'Galaxy @ ISMB/ECCB 2017 & BOSC 2017 '
 date: '2017-07-21'
-days: 5
+end: '2017-07-25'
 tease: "it's everywhere"
 continent: EU
 location:

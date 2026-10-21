@@ -1,7 +1,6 @@
 ---
 title: Traitement bioinformatique des données RNA-Seq sous Galaxy
 date: '2017-03-15'
-days: 1
 tease: Part of Cycle "Bioinformatique par la pratique" 2017
 continent: EU
 location:

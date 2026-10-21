@@ -1,7 +1,6 @@
 ---
 title: "Galaxy-based Multi-omic Informatics Hub for Cancer Researchers"
 date: '2020-01-15'
-days: 1
 tease: "multi-omic tools, validated workflows and applications for and access to these resources"
 continent: GL
 location:

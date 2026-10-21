@@ -21,7 +21,7 @@ See this email thread:
 
 ## Are there quotas on Main?
 
-Yes.  See [Quotas](/main/#quotas).
+Yes.  See [Quotas](/main/#user-data-and-job-quotas).
 
 ## Using Galaxy for Transcriptome Analysis
 

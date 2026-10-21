@@ -1,7 +1,7 @@
 ---
 title: PAG 2017
 date: '2017-01-14'
-days: 5
+end: '2017-01-18'
 tease: Galaxy is for Plants and Animals too...
 continent: NA
 location:

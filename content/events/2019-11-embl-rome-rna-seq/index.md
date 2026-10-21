@@ -2,7 +2,7 @@
 title: "RNA-Seq with Galaxy" 
 tease: "EMBL Rome"
 date: '2019-11-04'
-days: 2
+end: '2019-11-05'
 continent: EU
 location:
   name: "EMBL Rome, Monterotondo, Italy" 

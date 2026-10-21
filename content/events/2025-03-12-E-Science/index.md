@@ -1,7 +1,7 @@
 ---
 title: E-Science-Tage 2025
 date: '2025-03-12'
-days: 3
+end: '2025-03-14'
 tease: "The E-Science-Tage is an interdisciplinary conference series on research data management and open science. The Freiburg Galaxy team will present a poster on Galaxy's applicability in the humanities and offer a workshop."
 continent: EU
 location:

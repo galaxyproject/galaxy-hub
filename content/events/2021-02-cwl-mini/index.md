@@ -1,7 +1,7 @@
 ---
 title: "Building a Clinically Validated De-novo Assembly Workflow with CWL and Galaxy"
 date: '2021-02-08'
-days: 3
+end: '2021-02-10'
 tease: ""
 continent: GL
 location:

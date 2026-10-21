@@ -1,7 +1,6 @@
 ---
 title: CloudLaunch
 date: '2017-02-16'
-days: 1
 tease: Online
 continent: GL
 location:

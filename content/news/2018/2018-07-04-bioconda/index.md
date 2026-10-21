@@ -3,7 +3,7 @@ title: 'Bioconda: sustainable and comprehensive software distribution for the li
   sciences'
 date: '2018-07-04'
 tags: [paper, conda]
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   funding:

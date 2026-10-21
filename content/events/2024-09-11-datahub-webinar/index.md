@@ -1,7 +1,6 @@
 ---
 title: Webinar on data management with DataHub (Onedata)
 date: '2024-09-11'
-days: 1
 tease: "At 14:00 CEST, join this Webinar if you are interested in the recent Galaxy & Onedata integration (remote data source and Object Store)."
 continent: GL
 location:

@@ -2,7 +2,12 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { parse } from 'yaml';
-import { communitySlug as baseCommunitySlug, toArray as baseToArray } from './community-base.mjs';
+import {
+  communitySlug as baseCommunitySlug,
+  inHubHallOfFame as baseInHubHallOfFame,
+  parseHallOfFameFlag,
+  toArray as baseToArray,
+} from './community-base.mjs';
 
 const AVATAR_BASE = 'https://training.galaxyproject.org';
 
@@ -62,42 +67,54 @@ export function communitySlug(value: string): string {
   return baseCommunitySlug(value);
 }
 
-function parseHallOfFameFlag(flag: unknown, defaultValue = true): boolean {
-  if (flag === undefined || flag === null) return defaultValue;
-  if (typeof flag === 'boolean') return flag;
-  if (typeof flag === 'number') return flag !== 0;
-  if (typeof flag === 'string') {
-    const normalized = flag.trim().toLowerCase();
-    if (!normalized) return false;
-    if (['no', 'false', '0', 'off'].includes(normalized)) return false;
-    return true;
-  }
-  return Boolean(flag);
-}
-
 function normalizeAvatar(avatar?: string): string | undefined {
   if (!avatar) return undefined;
   if (/^https?:\/\//i.test(avatar)) return avatar;
+  if (/^\/(?:images|assets)\//.test(avatar)) return avatar;
   const trimmed = avatar.replace(/^\/+/, '');
   return `${AVATAR_BASE}/${trimmed}`;
 }
 
-function loadYamlFile<T extends Record<string, any>>(relativePath: string): T {
+function findContentPathFrom(startDir: string, filename: string): string | undefined {
+  let currentDir = path.resolve(startDir);
+
+  while (currentDir) {
+    const candidate = path.resolve(currentDir, 'content', filename);
+    if (fs.existsSync(candidate)) return candidate;
+
+    const parentDir = path.dirname(currentDir);
+    if (parentDir === currentDir) return undefined;
+    currentDir = parentDir;
+  }
+}
+
+function resolveContentPath(filename: string): string {
+  const candidates = [process.cwd(), path.dirname(fileURLToPath(import.meta.url))];
+
+  for (const candidate of candidates) {
+    const resolved = findContentPathFrom(candidate, filename);
+    if (resolved) return resolved;
+  }
+
+  return path.resolve(process.cwd(), '../content', filename);
+}
+
+function loadYamlFile<T extends Record<string, any>>(filename: string): T {
   try {
-    const abs = path.resolve(fileURLToPath(new URL(relativePath, import.meta.url)));
+    const abs = resolveContentPath(filename);
     const raw = fs.readFileSync(abs, 'utf8');
     const parsed = parse(raw, { uniqueKeys: false });
     if (!parsed || typeof parsed !== 'object') return {} as T;
     return parsed as T;
   } catch (err) {
-    console.warn(`Failed to load ${relativePath}`, err);
+    console.warn(`Failed to load content/${filename}`, err);
     return {} as T;
   }
 }
 
 function loadContributors(): ContributorMap {
   if (contributorCache) return contributorCache;
-  const raw = loadYamlFile<Record<string, any>>('../../../content/CONTRIBUTORS.yaml');
+  const raw = loadYamlFile<Record<string, any>>('CONTRIBUTORS.yaml');
   contributorCache = Object.fromEntries(
     Object.entries(raw || {}).map(([id, value]) => {
       const data = typeof value === 'object' && value ? value : {};
@@ -117,7 +134,7 @@ function loadContributors(): ContributorMap {
 
 function loadOrganisations(): OrganisationMap {
   if (organisationCache) return organisationCache;
-  const raw = loadYamlFile<Record<string, any>>('../../../content/ORGANISATIONS.yaml');
+  const raw = loadYamlFile<Record<string, any>>('ORGANISATIONS.yaml');
   organisationCache = Object.fromEntries(
     Object.entries(raw || {}).map(([id, value]) => {
       const data = typeof value === 'object' && value ? value : {};
@@ -136,7 +153,7 @@ function loadOrganisations(): OrganisationMap {
 
 function loadGrants(): GrantMap {
   if (grantCache) return grantCache;
-  const raw = loadYamlFile<Record<string, any>>('../../../content/GRANTS.yaml');
+  const raw = loadYamlFile<Record<string, any>>('GRANTS.yaml');
   grantCache = Object.fromEntries(
     Object.entries(raw || {}).map(([id, value]) => {
       const data = typeof value === 'object' && value ? value : {};
@@ -210,6 +227,25 @@ export function contributorHasHallOfFame(value?: string | ContributorRecord): bo
   return communityHasGtnHallOfFame(value);
 }
 
+/**
+ * Determine if a community record gets a Galaxy Hub Hall of Fame profile.
+ * Records opt out with `hub-halloffame: "no"`.
+ */
+export function communityInHubHallOfFame(record: ContributorRecord | OrganisationRecord | GrantRecord): boolean {
+  return baseInHubHallOfFame(record);
+}
+
+/** Unknown credits have no opt-out record, so retain their existing profile links. */
+export function communityNameInHubHallOfFame(value: string): boolean {
+  const record = getContributor(value) || getOrganisation(value) || getGrant(value);
+  return !record || communityInHubHallOfFame(record);
+}
+
+export function getHubHallOfFameUrl(value: string): string | undefined {
+  const slug = communitySlug(value);
+  return slug && communityNameInHubHallOfFame(value) ? `/hall-of-fame/${slug}/` : undefined;
+}
+
 function normalizeGtnHallOfFameKey(value: string): string {
   return String(value || '')
     .trim()
@@ -252,6 +288,16 @@ export function getCommunityGithubHandle(record?: CommunityGithubRecord): string
   }
 
   return undefined;
+}
+
+export function getCommunityImage(
+  record?: (CommunityGithubRecord & { avatarUrl?: string }) | undefined
+): string | undefined {
+  if (!record) return undefined;
+  if (record.avatarUrl) return record.avatarUrl;
+
+  const githubHandle = getCommunityGithubHandle(record);
+  return githubHandle ? `https://github.com/${githubHandle}.png` : undefined;
 }
 
 export function listContributors(): ContributorRecord[] {

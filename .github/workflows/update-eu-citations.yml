@@ -1,0 +1,45 @@
+name: Update Server Citations
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '00 23 * * 0'
+
+permissions:
+  contents: read
+
+jobs:
+  update-citations:
+    runs-on: ubuntu-latest
+    if: github.repository_owner == 'galaxyproject'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - name: Generate GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: ${{ secrets.HUB_BOT_APP_CLIENT_ID }}
+          private-key: ${{ secrets.HUB_BOT_APP_PRIVATE_KEY }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v7.0.0
+        with:
+          python-version: '3.12'
+
+      - name: Sync citation bibliographies
+        id: sync
+        run: python scripts/update-eu-citations.py
+
+      - name: Create Pull Request
+        if: ${{ success() || steps.sync.outputs.synced == 'true' }}
+        uses: peter-evans/create-pull-request@v8
+        with:
+          token: ${{ steps.app-token.outputs.token }}
+          commit-message: 'chore(citations): update server citations'
+          title: 'Update server citation bibliographies'
+          body: 'Auto-generated PR with updated citation bibliographies for Galaxy Europe and the subsite servers.'
+          branch: update-eu-citations
+          delete-branch: true

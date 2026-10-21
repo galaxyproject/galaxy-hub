@@ -1,7 +1,7 @@
 ---
 title: "Developing bioinformatics training materials"
 date: '2018-01-22'
-days: 2
+end: '2018-01-23'
 tease: "from Melbourne Bioinformatics"
 continent: AU
 location:

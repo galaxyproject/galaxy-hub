@@ -1,7 +1,7 @@
 ---
 title: "Data Science for Science Teachers Bootcamp"
 date: "2020-07-06"
-days: 5
+end: "2020-07-10"
 tease: "learn data science techniques and how to communicate this highly desired, cutting-edge skill set with your students’ coursework."
 continent: NA
 location:

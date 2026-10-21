@@ -1,7 +1,6 @@
 ---
 title: "GTN CoFest on Metagenomics Training Material"
 date: '2018-08-17'
-days: 1
 tease: ""
 continent: GL
 location:

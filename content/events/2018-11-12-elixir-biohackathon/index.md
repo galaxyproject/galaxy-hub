@@ -11,8 +11,8 @@ location:
   name: Campus des berges de Seine
   postal: 77240
   street: Route de Beaulieu
-subsites: [eu, erasmusmc]
-main_subsite: erasmusmc
+subsites: [eu]
+main_subsite: eu
 ---
 
 ELIXIR France with the support of the ELIXIR Hub and the ELIXIR interoperability platform and in collaboration with COST CHARME, the National Bioscience Database Center (NBDC) and the Database Center for Life Science (DBCLS), is organising a BioHackathon in November 2018 in Paris. This BioHackathon will complement and work in collaboration with the BioHackathon planned in Japan at the end of 2018.

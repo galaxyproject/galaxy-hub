@@ -47,7 +47,7 @@ If you are interested, please add your name below and/or send an email to the [I
 
 * "[Introduction to Tool and Data Source Configuration](/events/gcc2013/training-day/#introduction-to-tool-and-data-source-configuration)" [Training Day](/events/gcc2013/training-day/) session
 * "[Advanced Tool and Data Source Configuration"](/events/gcc2013/training-day/#advanced-tool-and-data-source-configuration) [Training Day](/events/gcc2013/training-day/) session
-* "[Galaxy Tool Shed](/events/gcc2013/training-day/#galaxy-toolshed)" [Training Day](/events/gcc2013/training-day/) session
+* "[Galaxy Tool Shed](/events/gcc2013/training-day/#galaxy-tool-shed)" [Training Day](/events/gcc2013/training-day/) session
 * "[Reproducible research and the 90/10 rule: Improving the ratio of light script to dark script matter in your Galaxy](/events/gcc2013/abstracts/#reproducible-research-and-the-9010-rule-improving-the-ratio-of-light-script-to-dark-script-matter-in-your-galaxy)" talk
 * "[Enhancing the Galaxy Tool Shed](/events/gcc2013/abstracts/#enhancing-the-galaxy-toolshed)" talk
 * "[A Galaxy of learning: Bioinformatics tutorials based on Galaxy](/events/gcc2013/abstracts/#a-galaxy-of-learning-bioinformatics-tutorials-based-on-galaxy)" talk

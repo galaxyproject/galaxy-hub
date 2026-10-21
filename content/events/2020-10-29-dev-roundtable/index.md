@@ -2,7 +2,6 @@
 title: Galaxy Developer Roundtable
 date: '2020-10-29'
 tease: Tool testing and tool deployment discussion
-days: 1
 continent: GL
 location:
   name: Online, Global

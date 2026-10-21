@@ -1,10 +1,10 @@
 ---
 title: Earth Biodiversity and Galaxy
 date: '2022-06-07'
+end: '2022-06-10'
 tease: Members of the ELIXIR Galaxy Community, Tools Platform and the Biodiversity
   Focus Group will introduce the Vertebrate Genomes Project (VGP) and European Reference
   Genome Atlas (ERGA) initiatives.
-days: 4
 continent: EU
 location:
   name: ELIXIR All Hands 2022, Amsterdam, Europe

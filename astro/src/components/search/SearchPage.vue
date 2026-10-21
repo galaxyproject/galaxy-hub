@@ -28,7 +28,8 @@ watch(searchQuery, (query) => {
   } else {
     url.searchParams.delete('q');
   }
-  window.history.replaceState({}, '', url.toString());
+  // Keep the existing state: Astro's ClientRouter stores its navigation index there
+  window.history.replaceState(window.history.state, '', url.toString());
 });
 
 watch(activeTab, (tab) => {
@@ -38,7 +39,8 @@ watch(activeTab, (tab) => {
   } else {
     url.searchParams.delete('tab');
   }
-  window.history.replaceState({}, '', url.toString());
+  // Keep the existing state: Astro's ClientRouter stores its navigation index there
+  window.history.replaceState(window.history.state, '', url.toString());
 });
 </script>
 
@@ -51,6 +53,8 @@ watch(activeTab, (tab) => {
         type="text"
         placeholder="Search articles, events, platforms..."
         class="w-full text-lg"
+        aria-keyshortcuts="Meta+K Control+K"
+        data-search-shortcut="page"
         autofocus
       />
     </div>

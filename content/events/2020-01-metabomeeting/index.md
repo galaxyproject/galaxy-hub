@@ -1,7 +1,7 @@
 ---
 title: "Galaxy @ European RFMF-Metabomeeting 2020"
 date: '2020-01-22'
-days: 3
+end: '2020-01-24'
 tease: 
 continent: EU
 location:

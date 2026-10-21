@@ -1,7 +1,7 @@
 ---
 title: "Delivering Data Analysis Environments on Multiple Clouds"
 date: '2018-02-12'
-days: 3
+end: '2018-02-14'
 tease: ""
 continent: NA
 location:

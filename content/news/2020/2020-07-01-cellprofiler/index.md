@@ -2,7 +2,7 @@
 title: CellProfiler now available in Galaxy
 date: '2020-07-01'
 tags: [tools, training]
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   authorship:

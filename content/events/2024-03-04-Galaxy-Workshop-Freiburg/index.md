@@ -1,7 +1,7 @@
 ---
 title: Workshop on High-Throughput Data Analysis with Galaxy
 date: '2024-03-04'
-days: 5
+end: '2024-03-08'
 tease: "This course introduces scientists to the data analysis platform Galaxy. The course is a beginner course; there is no requirement of any programming skills."
 continent: EU
 location:

@@ -1,7 +1,6 @@
 ---
 title: "How can GenAP help you for data analysis and sharing"
 date: "2021-06-22"
-days: 1
 tease: "The GenAP team invites you to a free webinar"
 continent: NA
 location:

@@ -28,7 +28,7 @@ function resizeIFrame(iframe: HTMLIFrameElement): void {
 
 function addResizeListeners(root: Document | EventTarget): void {
   const doc = root instanceof Document ? root : document;
-  for (const iframe of doc.querySelectorAll<HTMLIFrameElement>('iframe.resize-y')) {
+  for (const iframe of doc.querySelectorAll<HTMLIFrameElement>('iframe.js-resize-iframe')) {
     resizeIFrame(iframe);
     iframe.addEventListener('load', () => resizeIFrame(iframe));
     try {
@@ -40,7 +40,7 @@ function addResizeListeners(root: Document | EventTarget): void {
 }
 
 /**
- * Set up automatic resizing for iframes with class="resize-y".
+ * Set up automatic resizing for iframes with class="js-resize-iframe".
  * Call this from the parent page that contains the iframes (e.g. BareArticleLayout).
  */
 export function setupIframeResize(): void {

@@ -1,7 +1,6 @@
 ---
 title: "Introduction to Galaxy & Galaxy Workflows"
 date: "2020-09-23"
-days: 1
 tease: "Don't like the command line? Use Galaxy."
 continent: AU
 location:

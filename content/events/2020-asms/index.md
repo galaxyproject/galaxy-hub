@@ -1,7 +1,7 @@
 ---
 title:  "Galaxy @ ASMS 2020"
 date: '2020-06-01'
-days: 12
+end: '2020-06-12'
 tease: 
 continent: NA
 location:

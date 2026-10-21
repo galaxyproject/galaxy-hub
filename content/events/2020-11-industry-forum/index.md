@@ -1,7 +1,6 @@
 ---
 title: "Die Galaxy-Plattform zur Analyse lebenswissenschaftlicher Daten"
 date: '2020-11-26'
-days: 1
 tease: ""
 continent: EU
 location:

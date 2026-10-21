@@ -1,7 +1,6 @@
 ---
 title: Introduction to Galaxy Workshop
 date: '2017-07-27'
-days: 1
 tease: Learn what Galaxy is about 
 continent: EU
 location:

@@ -1,7 +1,6 @@
 ---
 title: "Traitement de données de séquences par Galaxy"
 date: '2019-02-04'
-days: 1
 tease: "convivial d'utilisation pour celles et ceux qui seraient réfractaires à la programmation sous UNIX et R"
 continent: EU
 location:

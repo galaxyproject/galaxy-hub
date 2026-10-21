@@ -1,7 +1,7 @@
 ---
 title: "An Introduction to Integrative Bioinformatics and Novel Tools in Multi-Omics"
 date: '2018-02-07'
-days: 2
+end: '2018-02-08'
 tease: "Galaxy  for Clinical & Pharmaceutical Analysis"
 continent: EU
 location:

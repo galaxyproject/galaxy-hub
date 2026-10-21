@@ -2,7 +2,7 @@
 title: RNA-Seq analysis using Galaxy 
 tease: 
 date: '2017-09-13'
-days: 2
+end: '2017-09-14'
 continent: AU
 location:
   name: QFAB, St Lucia, Queensland, Australia

@@ -1,7 +1,6 @@
 ---
 title: Introduction to Galaxy
 date: '2017-02-07'
-days: 1
 tease: at Catholic University of Korea
 continent: AS
 location:

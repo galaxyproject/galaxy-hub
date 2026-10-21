@@ -1,7 +1,6 @@
 ---
 title: "Galaxy Community Call: Using Galaxy to assemble dozens of high-quality vertebrate reference genomes"
 date: '2023-04-13'
-days: 1
 tease: "A forum to share updates and discuss community-wide topics"
 continent: GL
 location:

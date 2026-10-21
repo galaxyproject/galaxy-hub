@@ -1,7 +1,7 @@
 ---
 title: "Galaxy @ PASC23 Conference"
 date: '2023-06-26'
-days: 3
+end: '2023-06-28'
 continent: EU
 location:
   name: "Platform for Advanced Scientific Computing (PASC) Conference, Davos, Switzerland"

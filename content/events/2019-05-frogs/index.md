@@ -1,7 +1,7 @@
 ---
 title: "Initiation aux analyses de données metabarcoding"
 date: '2019-05-23'
-days: 2
+end: '2019-05-24'
 tease: "FROGS!"
 continent: EU
 location:

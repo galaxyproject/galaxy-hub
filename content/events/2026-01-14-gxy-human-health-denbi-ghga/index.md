@@ -2,7 +2,6 @@
 subsites: [global, eu, freiburg]
 gtn: false
 date: '2026-01-14'
-days: 1
 tags: [webinar, elixir]
 title: Galaxy for analysis of human health data
 location:

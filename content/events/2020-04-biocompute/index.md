@@ -2,7 +2,7 @@
 title: "Development of BioCompute Objects for Integration into
 Galaxy in a Cloud Computing Environment"
 date: '2020-04-01'
-days: 2
+end: '2020-04-02'
 tease: ""
 continent: NA
 location:

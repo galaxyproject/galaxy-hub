@@ -1,7 +1,7 @@
 ---
 title: "Workshop on Next Generation Sequencing Data Analysis"
 date: '2019-04-25'
-days: 3
+end: '2019-04-27'
 tease: ""
 continent: AS
 location:

@@ -7,11 +7,11 @@ partners:
       image: ./partner-logos/UNIMAN.svg
       website: https://www.manchester.ac.uk/
 
-    - name: University Paris
+    - name: Université Paris Cité
       image: ./partner-logos/UNIVERSITY PARIS.png
       website: https://u-paris.fr/
 
-    - name: Universita Degli Studi Frienze
+    - name: Università degli Studi di Firenze
       image: ./partner-logos/UNIFI.png
       website: https://www.bio.unifi.it/
 
@@ -43,7 +43,7 @@ partners:
       image: ./partner-logos/epfl-logo-new.svg
       website: https://www.epfl.ch/
 
-    - name: cnrs
+    - name: CNRS
       image: ./partner-logos/CNRS.svg.png
       website: https://www.cnrs.fr/
 
@@ -51,7 +51,7 @@ partners:
       image: ./partner-logos/CNR.png
       website: https://www.cnr.it/
 
-    - name: cesnet
+    - name: CESNET
       image: ./partner-logos/CESNET_LOGO.png
       website: https://www.cesnet.cz/
 
@@ -63,7 +63,7 @@ partners:
       image: ./partner-logos/uisav_logo_en.png
       website: https://www.sav.sk/?doc=ins-org-ins&institute_no=60
 
-    - name: Advanced computing for research
+    - name: EGI Foundation
       image: ./partner-logos/EGI_Logo_RGB.svg
       website: https://www.egi.eu/
 

@@ -3,7 +3,6 @@ title: 'Building a bioinformatics platform: Lessons learned from immuneML'
 date: '2021-04-22'
 tease: immuneML is a platform for the analysis of adaptive immune receptors through
   machine learning.
-days: 1
 continent: EU
 location:
   name: RSG-Norway, Online, Norway

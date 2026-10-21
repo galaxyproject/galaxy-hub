@@ -1,7 +1,7 @@
 ---
 title: Galaxy @ CoRDI 2025
 date: '2025-08-26'
-days: 3
+end: '2025-08-28'
 tease: "Do you want to learn how Galaxy can help you with your research and reproducible research data management? Join us at CoRDI!"
 continent: EU
 location:

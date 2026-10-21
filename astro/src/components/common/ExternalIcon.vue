@@ -13,7 +13,7 @@ const isGTN = computed(() => {
 
 <template>
   <span
-    class="inline-flex items-center text-xs font-medium text-gray-500 ml-2 align-middle"
+    class="inline-flex items-center text-xs font-medium text-chicago-500 ml-2 align-middle"
     title="Opens external site"
     data-external-icon
   >

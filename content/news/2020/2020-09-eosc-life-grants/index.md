@@ -39,5 +39,7 @@ Science project
 For more information, please contact the OLS team (​team@openlifesci.org​) or join their​ public
 mailing list to receive updates.
 
-{% twitter https://twitter.com/galaxyproject/status/1305412215667699713%}
+<img src="./tweet-1305412215667699713.webp" alt="Post by Galaxy Project (@galaxyproject): Two proposals for training funded thanks to @EoscLife! Congrats to @AnneFouilloux for the training on Climate research and to @bebatut for @openlifesci #UseGalaxy https://galaxyproject.eu/posts/2020/09/08/training-wp9-eosc-life/ …" width="550" height="640" />
+
+*Post by @galaxyproject on 14 September 2020*
 

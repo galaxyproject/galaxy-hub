@@ -4,7 +4,6 @@ date: '2022-04-27'
 tease: This course will give a general introduction on the galaxy web-page structure,
   how to import data, run tools, and share analyses. Participants will run a whole
   NGS analysis using an RNA-seq dataset as an example.
-days: 1
 continent: GL
 location:
   name: Lausanne (or online), Switzerland

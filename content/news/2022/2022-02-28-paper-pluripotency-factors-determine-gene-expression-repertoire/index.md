@@ -4,7 +4,7 @@ title: New Paper "Pluripotency factors determine gene expression repertoire at z
 date: '2022-02-28'
 doi: 10.1038/s41467-022-28434-1
 tags: [paper, citations]
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 ---
 

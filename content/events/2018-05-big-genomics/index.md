@@ -1,7 +1,7 @@
 ---
 title: "Big Genomics Data Skills Training course"
 date: '2018-05-21'
-days: 5
+end: '2018-05-25'
 tease: "for faculty who primarily teach undergraduate students"
 continent: NA
 location:

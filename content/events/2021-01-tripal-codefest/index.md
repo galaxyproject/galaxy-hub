@@ -1,7 +1,7 @@
 ---
 title: "Tripal Codefest 2021"
 date: '2021-01-11'
-days: 5
+end: '2021-01-15'
 tease: "Calling all Tripal Core, Extension Module and Tool Integration Developers!"
 continent: GL
 location:

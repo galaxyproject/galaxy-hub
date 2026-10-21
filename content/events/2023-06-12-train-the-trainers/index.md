@@ -1,7 +1,7 @@
 ---
 title: Gallantries & ELIXIR-GOBLET Train the Trainers
 date: '2023-06-12'
-days: 4
+end: '2023-06-15'
 tease: "This course introduces trainers to learning principles, training techniques, lesson, session, course, and material design as well as assessment and feedback. This course is has been developed for by trainers in the bioinformatics but is suitable for all trainers and educators in higher education."
 continent: GL
 location:

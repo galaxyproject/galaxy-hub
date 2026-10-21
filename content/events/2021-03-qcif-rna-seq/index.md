@@ -1,7 +1,6 @@
 ---
 title: "RNA-Seq Analysis Using Galaxy"
 date: '2021-03-31'
-days: 1
 tease: "from data preparation to statistical testing, visualization and functional analysis"
 continent: AU
 location:

@@ -1,7 +1,6 @@
 ---
 title: "Bacterial variant calling with Galaxy"
 date: '2021-05-27'
-days: 1
 tease: "Hands on workshop on variant calling and visualisation of variants for bacterial organisms. Apply by 12 May."
 continent: AU
 location:

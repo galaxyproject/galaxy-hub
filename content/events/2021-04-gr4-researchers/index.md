@@ -2,7 +2,6 @@
 title: Galaxy Resources for Researchers
 date: '2021-04-21'
 tease: Part of the Galaxy Resources Webinar Series
-days: 1
 continent: GL
 location:
   name: Galaxy Resources Webinar Series, Online, Global

@@ -9,7 +9,7 @@ contacts:
 location:
   name: Workshop at the ELIXIR All Hands 2022, Amsterdam, Netherlands
 external_url: https://docs.google.com/document/d/17IVSvLmnianF6VOLO7GQfwPFDTpm9DF95ShHXnaarNo/edit?usp=sharing
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   funding:

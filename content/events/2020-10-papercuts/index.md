@@ -2,7 +2,6 @@
 title: Galaxy Paper Cuts Day
 date: '2020-10-21'
 tease: A community contribution day
-days: 1
 continent: GL
 location:
   name: Online, Global

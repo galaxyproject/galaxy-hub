@@ -3,7 +3,6 @@ subsites:
 - all
 gtn: false
 date: '2025-09-17'
-days: 1
 title: 'Galaxy: The Open Source Platform as an entry point to Digital Humanities and
   Research Data Management'
 contact: Daniela Schneider

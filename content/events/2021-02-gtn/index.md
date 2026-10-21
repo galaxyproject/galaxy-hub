@@ -1,7 +1,6 @@
 ---
 title: "Galaxy Training Network day - (online) CoFest and community call"
 date: '2021-02-25'
-days: 1
 tease: "Connect with the Galaxy Training Community!"
 continent: GL
 location:

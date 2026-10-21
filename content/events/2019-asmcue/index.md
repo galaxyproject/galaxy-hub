@@ -2,7 +2,7 @@
 title: 'Galaxy @ ASM CUE'
 tease: "Teaching genomics to undergrads"
 date: '2019-08-01'
-days: 4
+end: '2019-08-04'
 continent: NA
 location:
   name: "ASMCUE 2019, Tyson, Virginia, United States"

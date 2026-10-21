@@ -2,7 +2,6 @@
 title: 'Galaxy Community Call: GCC Demo Coordination'
 date: '2022-05-12'
 tease: A forum to share updates and discuss community-wide topics
-days: 1
 continent: GL
 location:
   name: Galaxy Community Call, Online, Global

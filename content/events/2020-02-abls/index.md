@@ -1,7 +1,7 @@
 ---
 title: "Applied Bioinformatics in Life Sciences"
 date: '2020-02-13'
-days: 2
+end: '2020-02-14'
 tease: "See who wins the Galaxy Poster Prize..."
 continent: EU
 location:

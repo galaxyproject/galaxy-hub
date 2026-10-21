@@ -1,7 +1,6 @@
 ---
 title: "BioCommons and Galaxy Resources"
 date: '2021-10-28'
-days: 1
 tease: ""
 continent: AU
 location:

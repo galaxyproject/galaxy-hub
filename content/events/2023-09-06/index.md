@@ -1,7 +1,6 @@
 ---
 title: "Galaxy @ Swiss SKA days 2023"
 date: '2023-09-06'
-days: 1
 continent: EU
 location:
   name: "Swiss SKA Days 2023 in Zurich"

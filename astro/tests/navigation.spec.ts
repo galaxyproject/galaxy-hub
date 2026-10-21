@@ -200,6 +200,72 @@ test.describe('Navigation', () => {
       expect(scrollInfo.maxHeight).not.toBe('none');
       expect(['auto', 'scroll']).toContain(scrollInfo.overflowY);
     });
+
+    test('homepage mobile menu is keyboard operable', async ({ page }) => {
+      await page.goto('/');
+      await page.waitForLoadState('networkidle');
+
+      const menuToggle = page.locator('#mobile-menu-toggle');
+      const mobileMenu = page.locator('#mobile-menu');
+      await expect(menuToggle).toHaveAttribute('aria-expanded', 'false');
+
+      await menuToggle.focus();
+      await page.keyboard.press('Enter');
+      await expect(mobileMenu).toBeVisible();
+      await expect(menuToggle).toHaveAttribute('aria-expanded', 'true');
+      await expect(mobileMenu.locator('a').first()).toBeFocused();
+
+      // Shift+Tab wraps from the toggle to the last link, Tab wraps back
+      await page.keyboard.press('Shift+Tab');
+      await expect(menuToggle).toBeFocused();
+      await page.keyboard.press('Shift+Tab');
+      await expect(mobileMenu.locator('a').last()).toBeFocused();
+      await page.keyboard.press('Tab');
+      await expect(menuToggle).toBeFocused();
+
+      // Focus stays on the toggle or inside the menu
+      for (const key of [...Array(30).fill('Tab'), ...Array(20).fill('Shift+Tab')]) {
+        await page.keyboard.press(key);
+        const contained = await page.evaluate(() => {
+          const active = document.activeElement;
+          return (
+            active === document.getElementById('mobile-menu-toggle') ||
+            !!document.getElementById('mobile-menu')?.contains(active)
+          );
+        });
+        expect(contained, `focus after ${key}`).toBe(true);
+      }
+
+      await page.keyboard.press('Escape');
+      await expect(mobileMenu).toBeHidden();
+      await expect(menuToggle).toHaveAttribute('aria-expanded', 'false');
+      await expect(menuToggle).toBeFocused();
+    });
+
+    test('homepage mobile menu does not trap focus after widening the window', async ({ page }) => {
+      await page.goto('/');
+      await page.waitForLoadState('networkidle');
+
+      const mobileMenu = page.locator('#mobile-menu');
+      await page.locator('#mobile-menu-toggle').focus();
+      await page.keyboard.press('Enter');
+      await mobileMenu.locator('a').last().focus();
+
+      await page.setViewportSize({ width: 1280, height: 800 });
+      await expect(mobileMenu).toBeHidden();
+      await expect(mobileMenu.locator('a').last()).not.toBeFocused();
+
+      await page.keyboard.press('Tab');
+      const focus = await page.evaluate(() => {
+        const active = document.activeElement;
+        const menu = document.getElementById('mobile-menu');
+        return {
+          movedOn: !!active && active !== document.body && !menu?.contains(active),
+          visible: !!active?.checkVisibility(),
+        };
+      });
+      expect(focus).toEqual({ movedOn: true, visible: true });
+    });
   });
 
   test.describe('Footer Navigation', () => {

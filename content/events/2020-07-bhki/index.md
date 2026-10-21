@@ -1,7 +1,6 @@
 ---
 title: "End user open source bioinformatics tools"
 date: "2020-07-30"
-days: 1
 tease: "Get your hands dirty with the Galaxy workflow and tools"
 continent: AF
 location:

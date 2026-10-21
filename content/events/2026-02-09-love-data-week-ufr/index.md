@@ -3,7 +3,7 @@ subsites:
 - all
 gtn: false
 date: '2026-02-09'
-days: 5
+end: '2026-02-13'
 title: LOVE DATA week with intro to Galaxy & GTN
 contact: Anika Erxleben, Saskia Hiltemann, Daniela Schneider, Pavankumar Videm, Diana
   Chiang Jurado

@@ -1,7 +1,6 @@
 ---
 title: "Galaxy Community Call: Mapping User Journeys"
 date: '2023-09-07'
-days: 1
 tease: "A forum to share updates and discuss community-wide topics"
 continent: GL
 location:

@@ -3,7 +3,7 @@ subsites:
 - all
 gtn: false
 date: '2025-09-03'
-days: 3
+end: '2025-09-05'
 tags:
 - new event-external
 title: AnVIL Community Conference 2025

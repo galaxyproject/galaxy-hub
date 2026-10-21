@@ -1,7 +1,7 @@
 ---
 title: "Streamlining accessibility and computability of large-scale genomic datasets with the NHGRI Genomic Data Science Analysis, Visualization, and Informatics Lab-Space (AnVIL)"
 date: '2019-05-07'
-days: 5
+end: '2019-05-11'
 tease: ""
 continent: NA
 location:

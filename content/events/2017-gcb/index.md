@@ -2,7 +2,7 @@
 title: "Building an open, collaborative, online infrastructure
 for bioinformatics training"
 date: '2017-09-18'
-days: 4
+end: '2017-09-21'
 continent: EU
 location:
   name: GCB 2017, Hörsaalzentrum der Universität Tübingen, Tübingen, Germany

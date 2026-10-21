@@ -1,7 +1,7 @@
 ---
 title: "2nd BioHackathon Germany"
 date: '2023-12-11'
-days: 5
+end: '2023-12-15'
 tease: "The 2nd BioHackaton Germany will take palce in Bielefeld and has 11 exciting projects."
 continent: EU
 location: "Online, EU"

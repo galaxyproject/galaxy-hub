@@ -1,7 +1,6 @@
 ---
 title: Introduction to Galaxy and the European Galaxy Server - Talk
 date: '2024-04-15'
-days: 1
 tease: "We present the Galaxy project and the European Galaxy Server with its features and applications for scientists"
 continent: EU
 location:

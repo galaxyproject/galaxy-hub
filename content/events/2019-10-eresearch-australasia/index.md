@@ -1,7 +1,7 @@
 ---
 title: "eResearch Australasia 2019"
 date: '2019-10-21'
-days: 5
+end: '2019-10-25'
 tease: "Galaxy Australia and Galaxy ASEAN will be there"
 continent: AU
 location:

@@ -1,7 +1,6 @@
 ---
 title: "Galaxy Metabolomics Community Call"
 date: '2023-03-30'
-days: 1
 tease: "A forum to share updates and discuss community-wide topics."
 continent: EU
 location:

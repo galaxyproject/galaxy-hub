@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" font-family="-apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" role="img" aria-label="Human contributors and AI agents reach the same runnable scripts through different front doors">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+  <g stroke="#94a3b8" stroke-width="2" fill="none" marker-end="url(#arrow)">
+    <line x1="182" y1="72" x2="222" y2="72"/>
+    <line x1="182" y1="228" x2="222" y2="228"/>
+    <line x1="412" y1="72" x2="464" y2="138"/>
+    <line x1="412" y1="228" x2="464" y2="162"/>
+    <line x1="662" y1="150" x2="702" y2="150"/>
+  </g>
+  <rect x="22" y="44" width="160" height="56" rx="9" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="102" y="78" text-anchor="middle" font-size="15" font-weight="600" fill="#1e3a8a">Human contributors</text>
+  <rect x="22" y="200" width="160" height="56" rx="9" fill="#ccfbf1" stroke="#0d9488" stroke-width="2"/>
+  <text x="102" y="234" text-anchor="middle" font-size="15" font-weight="600" fill="#115e59">AI agents</text>
+  <rect x="222" y="44" width="190" height="56" rx="9" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="317" y="68" text-anchor="middle" font-size="13.5" fill="#1e3a8a">make · git hook · CI</text>
+  <text x="317" y="86" text-anchor="middle" font-size="11" fill="#3b6fb5">the human on-ramp</text>
+  <rect x="222" y="200" width="190" height="56" rx="9" fill="#f0fdfa" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="317" y="224" text-anchor="middle" font-size="13.5" fill="#115e59">Claude Code skills</text>
+  <text x="317" y="242" text-anchor="middle" font-size="11" fill="#2a8f86">the agent on-ramp</text>
+  <rect x="464" y="108" width="198" height="84" rx="10" fill="#1e293b"/>
+  <text x="563" y="140" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">scripts/</text>
+  <text x="563" y="162" text-anchor="middle" font-size="12" fill="#cbd5e1">one runnable</text>
+  <text x="563" y="178" text-anchor="middle" font-size="12" fill="#cbd5e1">source of truth</text>
+  <rect x="702" y="110" width="176" height="80" rx="9" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="790" y="138" text-anchor="middle" font-size="12.5" fill="#334155">lint · type-check · test</text>
+  <text x="790" y="158" text-anchor="middle" font-size="12.5" fill="#334155">merge · release</text>
+  <text x="790" y="178" text-anchor="middle" font-size="12.5" fill="#334155">scaffold · docs</text>
+</svg>

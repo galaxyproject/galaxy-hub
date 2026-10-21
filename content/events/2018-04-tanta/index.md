@@ -1,7 +1,6 @@
 ---
 title: 'Introduction to Genomic Medicine Using Galaxy  Platform'
 date: '2018-04-12'
-days: 1
 tease: "Workshop"
 continent: AF
 location:

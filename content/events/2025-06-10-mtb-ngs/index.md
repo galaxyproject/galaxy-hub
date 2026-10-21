@@ -3,7 +3,7 @@ subsites:
 - all
 gtn: true
 date: '2025-06-10'
-days: 7
+end: '2025-06-16'
 title: Mycobacterium tuberculosis complex NGS made easy
 contact: Daniela Brites, Christoph Stritt, Andrea Cabibbe, Arash Ghodousi, Peter van
   Heusden, Liliana Rutaihwa, Andrea Spitaleri, Galo A. Goig

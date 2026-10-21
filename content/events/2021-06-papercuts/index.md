@@ -2,7 +2,6 @@
 title: June GCC2021 CoFest Prep Day
 date: '2021-06-17'
 tease: GCC Cofest prep is pre-empting the June Papercuts day
-days: 1
 continent: GL
 location:
   name: Online, Global

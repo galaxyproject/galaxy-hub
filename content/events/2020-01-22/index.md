@@ -1,7 +1,6 @@
 ---
 title: 'Last Chance: GTN Survey!'
 date: '2020-01-22'
-days: 1
 tease: "The training community needs your feedback"
 continent: NA
 location:

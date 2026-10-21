@@ -2,7 +2,6 @@
 title: "GTN - Instructor community - first meeting (version 1)"
 tease: "start a group of instructors that are interested into supporting other instructors"
 date: '2018-09-27'
-days: 1
 continent: GL
 location:
   name: Online

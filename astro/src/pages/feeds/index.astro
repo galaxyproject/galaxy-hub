@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHeader from '../../components/layout/PageHeader.astro';
+import { expandFeedRoutes } from '../../utils/feed';
 
 type FeedEntry = {
   route: string;
@@ -78,6 +79,11 @@ const REGION_META: Record<string, { label: string; description: string; order: n
     description: 'France-specific syndicated feeds.',
     order: 5,
   },
+  tags: {
+    label: 'Tag Feeds',
+    description: 'Combined news and event feeds scoped to specific tags.',
+    order: 6,
+  },
   other: {
     label: 'Other Feeds',
     description: 'Additional feeds outside the main regional groups.',
@@ -104,6 +110,7 @@ function getAreaPath(route: string): string {
 
 function getAreaLabel(areaPath: string): string {
   if (AREA_LABELS[areaPath]) return AREA_LABELS[areaPath];
+  if (areaPath.startsWith('/tags/')) return `Tag: ${areaPath.slice('/tags/'.length)}`;
   if (areaPath === '/') return 'Site';
   return areaPath
     .split('/')
@@ -114,6 +121,9 @@ function getAreaLabel(areaPath: string): string {
 
 function getAreaDescription(areaPath: string): string {
   if (AREA_DESCRIPTIONS[areaPath]) return AREA_DESCRIPTIONS[areaPath];
+  if (areaPath.startsWith('/tags/')) {
+    return `Combined news and events feed for content tagged "${areaPath.slice('/tags/'.length)}".`;
+  }
   return 'Syndicated updates for this section.';
 }
 
@@ -131,6 +141,7 @@ function getRegionKey(areaPath: string): string {
   if (areaPath === '/us' || areaPath.startsWith('/us/')) return 'us';
   if (areaPath === '/au' || areaPath.startsWith('/au/')) return 'au';
   if (areaPath === '/fr' || areaPath.startsWith('/fr/')) return 'fr';
+  if (areaPath.startsWith('/tags/')) return 'tags';
   if (areaPath.startsWith('/')) return 'global';
   return 'other';
 }
@@ -138,11 +149,13 @@ function getRegionKey(areaPath: string): string {
 const feedModules = import.meta.glob('../**/feed.*.{ts,js,mts,mjs}');
 const siteBase = (Astro.site?.toString() || 'https://galaxyproject.org').replace(/\/$/, '');
 
-const feedEntries = Object.keys(feedModules)
-  .map((modulePath): FeedEntry | null => {
-    const route = routeFromModulePath(modulePath);
-    if (!route) return null;
+// Dynamic feed endpoints (e.g. tags/[tag]) generate one feed per whitelisted
+// value. Expand them via their getStaticPaths so each feed is listed and
+// counted individually.
+const concreteFeedRoutes = await expandFeedRoutes(feedModules, routeFromModulePath);
 
+const feedEntries = concreteFeedRoutes
+  .map((route): FeedEntry => {
     const formatMatch = route.match(/\.([a-z0-9]+)$/i);
     const formatExt = formatMatch ? formatMatch[1].toLowerCase() : 'other';
     const formatMeta = FEED_FORMATS[formatExt] || {
@@ -165,7 +178,6 @@ const feedEntries = Object.keys(feedModules)
       formatOrder: formatMeta.order,
     };
   })
-  .filter((entry): entry is FeedEntry => Boolean(entry))
   .sort((a, b) => {
     if (a.areaLabel !== b.areaLabel) {
       return a.areaLabel.localeCompare(b.areaLabel);
@@ -254,118 +266,123 @@ const jsonCount = feedEntries.filter((feed) => feed.formatExt === 'json').length
       </div>
     </PageHeader>
 
-    <section class="bg-white border border-gray-200 border-t-0 rounded-b-lg shadow-sm px-8 py-7 mb-8">
+    <section class="bg-white border border-ebony-clay-100 border-t-0 rounded-b-lg shadow-sm px-8 py-7 mb-8">
       <h2 class="text-2xl font-semibold text-galaxy-dark mb-3">Galaxy updates for your feedreader!</h2>
-      <p class="text-gray-700 leading-7 mb-4">
+      <p class="text-chicago-700 leading-7 mb-4">
         RSS (and related formats like Atom and JSON Feed) lets you subscribe to updates from a site without checking it
         manually. Your feed reader fetches new posts and events in one place, with no social-media algorithm in the
         middle.
       </p>
-      <p class="text-gray-700 leading-7 mb-6">
+      <p class="text-chicago-700 leading-7 mb-6">
         To subscribe, copy a feed URL below and add it to your reader. Popular readers include
         <a href="https://feedly.com/" target="_blank" rel="noopener noreferrer" class="reader-link">Feedly</a>,
         <a href="https://www.inoreader.com/" target="_blank" rel="noopener noreferrer" class="reader-link">
           Inoreader
-        </a>,
-        <a href="https://www.newsblur.com/" target="_blank" rel="noopener noreferrer" class="reader-link">NewsBlur</a>,
+        </a
+        >, <a href="https://www.newsblur.com/" target="_blank" rel="noopener noreferrer" class="reader-link">NewsBlur</a
+        >,
         <a href="https://netnewswire.com/" target="_blank" rel="noopener noreferrer" class="reader-link">
           NetNewsWire
-        </a>, and
+        </a
+        >, and
         <a href="https://www.freshrss.org/" target="_blank" rel="noopener noreferrer" class="reader-link">FreshRSS</a>.
       </p>
-      <p class="text-sm text-gray-600 mb-6">
+      <p class="text-sm text-chicago-600 mb-6">
         Tip: click a feed format badge (RSS, Atom, or JSON) to copy that feed URL.
       </p>
     </section>
 
     <section class="space-y-8">
-      {
-        regionGroups.map((regionGroup) => (
-          <section class="region-group">
-            <header class="region-header">
-              <h2 class="region-title">{regionGroup.label}</h2>
-              <p class="region-description">{regionGroup.description}</p>
-            </header>
+      {regionGroups.map((regionGroup) => <section class="region-group">
+        <header class="region-header">
+          <h2 class="region-title">{regionGroup.label}</h2>
+          <p class="region-description">{regionGroup.description}</p>
+        </header>
 
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-              {regionGroup.areas.map((group) => (
-                <article class="bg-white border border-gray-200 rounded-lg shadow-sm p-6">
-                  <header class="mb-4">
-                    <h3 class="text-xl font-semibold text-galaxy-dark">{group.areaLabel}</h3>
-                    <p class="text-sm text-gray-600 mt-1">{group.areaDescription}</p>
-                  </header>
-                  <ul class="space-y-3">
-                    {group.feeds.map((feed) => (
-                      <li class="feed-item">
-                        <div class="min-w-0">
-                          <a href={feed.route} class="feed-link">
-                            <code>{feed.route}</code>
-                          </a>
-                          <p class="text-xs text-gray-500 mt-1">{feed.mimeType}</p>
-                        </div>
-                        <div class="feed-actions">
-                          <button
-                            type="button"
-                            class="format-badge format-copy-btn"
-                            data-copy-url={feed.absoluteUrl}
-                            data-copy-label={feed.formatLabel}
-                            aria-label={`Copy ${feed.route} URL`}
-                            title="Click to copy feed URL"
-                          >
-                            {feed.formatExt === 'xml' && (
-                              <svg class="format-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                                <circle cx="6" cy="18" r="2" fill="currentColor" />
-                                <path
-                                  d="M4 10a10 10 0 0 1 10 10M4 4a16 16 0 0 1 16 16"
-                                  stroke="currentColor"
-                                  stroke-width="2"
-                                  stroke-linecap="round"
-                                />
-                              </svg>
-                            )}
-                            {feed.formatExt === 'atom' && (
-                              <svg class="format-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                                <circle cx="12" cy="12" r="1.7" fill="currentColor" />
-                                <ellipse cx="12" cy="12" rx="9" ry="3.5" stroke="currentColor" stroke-width="1.7" />
-                                <ellipse
-                                  cx="12"
-                                  cy="12"
-                                  rx="3.5"
-                                  ry="9"
-                                  stroke="currentColor"
-                                  stroke-width="1.7"
-                                  transform="rotate(45 12 12)"
-                                />
-                              </svg>
-                            )}
-                            {feed.formatExt === 'json' && (
-                              <svg class="format-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                                <path
-                                  d="M9 4H7a2 2 0 0 0-2 2v3a2 2 0 0 1-2 2 2 2 0 0 1 2 2v3a2 2 0 0 0 2 2h2M15 4h2a2 2 0 0 1 2 2v3a2 2 0 0 0 2 2 2 2 0 0 0-2 2v3a2 2 0 0 1-2 2h-2M11 8v8M13 8v8"
-                                  stroke="currentColor"
-                                  stroke-width="1.8"
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
-                                />
-                              </svg>
-                            )}
-                            <span class="format-copy-label">{feed.formatLabel}</span>
-                          </button>
-                        </div>
-                      </li>
-                    ))}
-                  </ul>
-                </article>
-              ))}
-            </div>
-          </section>
-        ))
-      }
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          {regionGroup.areas.map((group) => <article
+            class="bg-white border border-ebony-clay-100 rounded-lg shadow-sm p-6"
+          >
+            <header class="mb-4">
+              <h3 class="text-xl font-semibold text-galaxy-dark">{group.areaLabel}</h3>
+              <p class="text-sm text-chicago-600 mt-1">{group.areaDescription}</p>
+            </header>
+            <ul class="space-y-3">
+              {group.feeds.map((feed) => <li class="feed-item">
+                <div class="min-w-0">
+                  <a href={feed.route} class="feed-link">
+                    <code>{feed.route}</code>
+                  </a>
+                  <p class="text-xs text-chicago-500 mt-1">{feed.mimeType}</p>
+                </div>
+                <div class="feed-actions">
+                  <button
+                    type="button"
+                    class="format-badge format-copy-btn"
+                    data-copy-url={feed.absoluteUrl}
+                    data-copy-label={feed.formatLabel}
+                    aria-label={`Copy ${feed.route} URL`}
+                    title="Click to copy feed URL"
+                  >
+                    {feed.formatExt === 'xml' && <svg
+                      class="format-icon"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      aria-hidden="true"
+                    >
+                      <circle cx="6" cy="18" r="2" fill="currentColor" />
+                      <path
+                        d="M4 10a10 10 0 0 1 10 10M4 4a16 16 0 0 1 16 16"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      />
+                    </svg>}
+                    {feed.formatExt === 'atom' && <svg
+                      class="format-icon"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      aria-hidden="true"
+                    >
+                      <circle cx="12" cy="12" r="1.7" fill="currentColor" />
+                      <ellipse cx="12" cy="12" rx="9" ry="3.5" stroke="currentColor" stroke-width="1.7" />
+                      <ellipse
+                        cx="12"
+                        cy="12"
+                        rx="3.5"
+                        ry="9"
+                        stroke="currentColor"
+                        stroke-width="1.7"
+                        transform="rotate(45 12 12)"
+                      />
+                    </svg>}
+                    {feed.formatExt === 'json' && <svg
+                      class="format-icon"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      aria-hidden="true"
+                    >
+                      <path
+                        d="M9 4H7a2 2 0 0 0-2 2v3a2 2 0 0 1-2 2 2 2 0 0 1 2 2v3a2 2 0 0 0 2 2h2M15 4h2a2 2 0 0 1 2 2v3a2 2 0 0 0 2 2 2 2 0 0 0-2 2v3a2 2 0 0 1-2 2h-2M11 8v8M13 8v8"
+                        stroke="currentColor"
+                        stroke-width="1.8"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>}
+                    <span class="format-copy-label">{feed.formatLabel}</span>
+                  </button>
+                </div>
+              </li>)}
+            </ul>
+          </article>)}
+        </div>
+      </section>)}
     </section>
 
-    <section class="bg-white border border-gray-200 rounded-lg shadow-sm px-8 py-6 mt-8">
+    <section class="bg-white border border-ebony-clay-100 rounded-lg shadow-sm px-8 py-6 mt-8">
       <h2 class="text-xl font-semibold text-galaxy-dark mb-3">How This Page Stays Up To Date</h2>
-      <p class="text-gray-700 leading-7">
+      <p class="text-chicago-700 leading-7">
         This list is generated from feed route files under <code>src/pages/**/feed.*</code>. If a new feed endpoint is
         added there, it will automatically appear on this page. If you need more specialized feeds, please contact us.
       </p>
@@ -437,7 +454,7 @@ const jsonCount = feedEntries.filter((feed) => feed.formatExt === 'json').length
 
   .region-title {
     margin: 0;
-    color: #1f2937;
+    color: #2c3143;
     font-size: 1.35rem;
     font-weight: 700;
   }

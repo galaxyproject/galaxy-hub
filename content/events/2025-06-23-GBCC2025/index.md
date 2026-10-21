@@ -1,7 +1,7 @@
 ---
 title: Galaxy and Bioconductor Community Conference 
 date: '2025-06-23'
-days: 4
+end: '2025-06-26'
 tease: "Get ready for the first-ever Galaxy and Bioconductor Community Conference (GBCC 2025)! Join us in New York for an unforgettable event packed with cutting-edge bioinformatics workshops, inspiring keynotes, and amazing networking opportunities. "
 continent: NA
 location:

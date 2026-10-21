@@ -4,7 +4,7 @@ date: '2019-08-28'
 tags: [devops, tiaas]
 location:
   name: Freiburg, Germany
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   authorship:

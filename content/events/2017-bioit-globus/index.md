@@ -2,7 +2,6 @@
 title: "Creating and Executing Large-Scale, Reproducible Genomics
 Analysis Pipelines Using Globus Genomics"
 date: '2017-05-24'
-days: 1
 tease: "Globus Genomics @ BioIT World"
 continent: NA
 location:

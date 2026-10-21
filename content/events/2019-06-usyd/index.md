@@ -1,7 +1,6 @@
 ---
 title: "Introduction to RNA sequence analysis on Galaxy"
 date: '2019-06-28'
-days: 1
 tease: 'Bring a laptop - this is hands-on'
 continent: AU
 location:

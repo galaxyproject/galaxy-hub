@@ -1,7 +1,6 @@
 ---
 title: 'Statistical workflows in PhenoMeNal'
 date: '2018-04-18'
-days: 1
 tease: "Learn how to build a metabolomics workflow in the PhenoMeNal Galaxy in this webinar"
 continent: GL
 location:

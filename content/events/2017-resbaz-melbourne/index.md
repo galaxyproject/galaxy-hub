@@ -1,7 +1,6 @@
 ---
 title: RNA-Seq In Galaxy Workshop
 date: '2017-02-08'
-days: 1
 tease: Part of Research Bazaar Melbourne
 continent: AU
 location:

@@ -2,7 +2,7 @@
 title: "1st ELIXIR-UK Hackathon" 
 tease: "work on the integration of ELIXIR-supported resources, like Bioschemas, BridgeDb, CATH, CWL, FAIRDOM, FAIRsharing, Galaxy, InterMine, ISA tools..."
 date: '2019-09-11'
-days: 3
+end: '2019-09-13'
 continent: EU
 location:
   name: "University of Cambridge, Cambridge, United Kingdom"

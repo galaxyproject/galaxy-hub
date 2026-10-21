@@ -1,7 +1,6 @@
 ---
 title: "Importance of (open) infrastructures in responding to a pandemic"
 date: '2021-01-27'
-days: 1
 tease: "Open Data Infrastructures to tackle COVID-19 pandemic"
 continent: EU
 location:

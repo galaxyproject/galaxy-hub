@@ -1,7 +1,6 @@
 ---
 title: "Galaxy Project: Enabling an active global research community"
 date: "2020-05-13"
-days: 1
 tease: "Find out about Galaxy's community emphasis"
 continent: NA
 location:

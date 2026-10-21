@@ -1,0 +1,204 @@
+---
+/**
+ * OrbitHero: dark hero for /agents/orbit/. What Orbit is, where to download
+ * it, and the real app window. Used from MDX as <OrbitHero />; the page's
+ * sections follow as ag-band wrappers, so this also inlines the shared band
+ * styles.
+ */
+import bandsCss from '../agent-pages/bands.css?raw';
+import { icons, svg } from '../../lib/icons';
+
+const RELEASES = 'https://github.com/galaxyproject/loom/releases/latest';
+---
+
+<style is:global set:html={bandsCss}></style>
+
+<section class="orh not-prose">
+  <div class="orh__grid bg-grid-dark" aria-hidden="true"></div>
+  <div class="orh__inner">
+    <div class="orh__text">
+      <h1 class="orh__title">Orbit</h1>
+      <p class="orh__lede">
+        A desktop app for doing analysis with an AI agent. Talk through your data, approve a plan, and Orbit runs it on
+        Galaxy or on your own machine, keeping a notebook of every decision.
+      </p>
+      <div class="orh__cta">
+        <a class="orh__btn" href={RELEASES}>Download Orbit <Fragment set:html={svg(icons.arrow)} /></a>
+        <a class="orh__btn orh__btn--ghost" href="#installation">Installation guide</a>
+      </div>
+      <p class="orh__meta">
+        For macOS, Linux and Windows. Open source and in beta, so expect rough edges; the Feedback button in the app is
+        the fastest way to tell us about them.
+      </p>
+    </div>
+    <figure class="orh__shot">
+      <img
+        src="/images/agents/orbit/orbit-interface-overview.png"
+        alt="Orbit's window: files on the left, a chat with a drafted plan waiting for approval in the middle, and a phylogenetic tree open on the right"
+        width="2000"
+        height="1111"
+        decoding="async"
+      />
+    </figure>
+  </div>
+</section>
+
+<style>
+  .orh {
+    --orh-dark: var(--color-galaxy-dark, #2c3143);
+    --orh-gold: var(--color-galaxy-gold, #ffd700);
+    --orh-gold-dark: var(--color-galaxy-gold-dark, #d19e00);
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+    margin: -1.5rem -1.5rem 0;
+    color: #fff;
+    background: linear-gradient(170deg, var(--orh-dark) 0%, #1e2231 100%);
+  }
+
+  @media (min-width: 640px) {
+    .orh {
+      margin: -1.5rem -2rem 0;
+    }
+  }
+
+  .orh__grid {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    mask-image: linear-gradient(to bottom, #000 0%, #000 55%, transparent 100%);
+  }
+
+  .orh__inner {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    gap: 2.5rem;
+    align-items: center;
+    max-width: 72rem;
+    margin: 0 auto;
+    padding: 3.5rem 1.25rem 3rem;
+  }
+
+  @media (min-width: 640px) {
+    .orh__inner {
+      padding: 4.5rem 2.5rem 4rem;
+    }
+  }
+
+  @media (min-width: 1180px) {
+    .orh__inner {
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr);
+      gap: 3rem;
+    }
+  }
+
+  .orh__title {
+    margin: 0 0 1rem;
+    padding: 0;
+    border: 0;
+    font-size: clamp(2.6rem, 7vw, 4.25rem);
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.03em;
+    color: var(--orh-gold);
+  }
+
+  .orh__lede {
+    max-width: 34rem;
+    margin: 0 0 1.75rem;
+    font-size: 1.15rem;
+    line-height: 1.55;
+    color: rgba(255, 255, 255, 0.82);
+    text-wrap: pretty;
+  }
+
+  .orh__cta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  .orh__btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.7rem 1.4rem;
+    border-radius: 0.5rem;
+    background: var(--orh-gold);
+    color: var(--orh-dark);
+    font-weight: 700;
+    font-size: 0.95rem;
+    text-decoration: none;
+    transition: background-color 0.15s ease;
+  }
+
+  .orh__btn:hover {
+    background: var(--orh-gold-dark);
+    color: var(--orh-dark);
+  }
+
+  .orh__btn--ghost {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    color: #fff;
+  }
+
+  .orh__btn--ghost:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.6);
+    color: #fff;
+  }
+
+  .orh__btn:focus-visible {
+    outline: 2px solid var(--orh-gold);
+    outline-offset: 2px;
+  }
+
+  .orh__btn :global(svg) {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .orh__meta {
+    max-width: 34rem;
+    margin: 1.25rem 0 0;
+    font-size: 0.88rem;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .orh__shot {
+    margin: 0;
+    padding: 0;
+  }
+
+  .orh__shot img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    border-radius: 0.6rem;
+    box-shadow:
+      0 24px 60px -24px rgba(0, 0, 0, 0.75),
+      0 0 0 1px rgba(255, 255, 255, 0.1);
+  }
+
+  @media print {
+    .orh__grid,
+    .orh__cta {
+      display: none;
+    }
+
+    .orh {
+      background: none;
+      color: #000;
+    }
+
+    .orh__title,
+    .orh__lede,
+    .orh__meta {
+      color: #000;
+    }
+  }
+</style>

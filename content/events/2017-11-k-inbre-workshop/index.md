@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Galaxy: A Bioinformatics Platform for Research and Classroom Use, a K-INBRE Bioinformatics Workshop"
 date: '2017-11-04'
-days: 2
+end: '2017-11-05'
 tease: "Using Galaxy in undergraduate educaiton (and full)"
 continent: NA
 location:

@@ -1,7 +1,6 @@
 ---
 title: "Norwegian e-Infrastructure for Life Sciences (NeLS)"
 date: '2019-06-03'
-days: 1
 tease: 'Hnds-on-workshop'
 continent: EU
 location:

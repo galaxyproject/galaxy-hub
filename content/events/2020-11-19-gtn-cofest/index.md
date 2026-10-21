@@ -7,7 +7,7 @@ contacts:
 - email: galaxy-training@lists.galaxyproject.org
   name: Galaxy Training Network
 external_url: https://galaxyproject.org/events/2020-11-gtn/
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   funding:

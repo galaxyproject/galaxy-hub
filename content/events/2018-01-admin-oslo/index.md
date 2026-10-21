@@ -1,7 +1,7 @@
 ---
 title: European Galaxy Administrator Workshop
 date: '2018-01-08'
-days: 5
+end: '2018-01-12'
 tease: learn how to install, configure, customize, and extend their own Galaxy servers.
 continent: EU
 location:

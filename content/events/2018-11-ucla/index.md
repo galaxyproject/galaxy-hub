@@ -1,7 +1,7 @@
 ---
 title: "Galaxy for NGS Data Analysis"
 date: '2018-11-13'
-days: 2
+end: '2018-11-14'
 tease: "Galaxy for analysis of next-generation sequencing data"
 continent: NA
 location:

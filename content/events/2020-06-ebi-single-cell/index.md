@@ -1,7 +1,7 @@
 ---
 title: "Starting Single Cell RNA-Seq Analysis"
 date: '2020-06-01'
-days: 5
+end: '2020-06-05'
 tease: "Utilising Galaxy throughout."
 continent: EU
 location:

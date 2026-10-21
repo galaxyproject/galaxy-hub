@@ -1,7 +1,7 @@
 ---
 title: Data science for life scientists - hands-on machine learning for biological data
 date: '2026-06-15'
-days: 5
+end: '2026-06-19'
 tease: "Hands-on machine learning for biological data using Python in this 5-day course at EMBL-EBI, UK"
 continent: EU
 location:

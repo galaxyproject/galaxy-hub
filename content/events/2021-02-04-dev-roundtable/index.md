@@ -2,7 +2,6 @@
 title: Galaxy Developer Training & Onbarding; GTN Update
 date: '2021-02-04'
 tease: How to grow the Galaxy Developer community? Admin Training Update
-days: 1
 continent: GL
 location:
   name: Galaxy Developer Roundtable, Online, Global

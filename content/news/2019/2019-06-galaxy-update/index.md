@@ -12,8 +12,8 @@ subsites: [all-eu, global, us]
 The *June 2019 Galactic News* is here! This is a summary of what is going on in the Galaxy community.
 
 * **[GCC2019](/news/2019-06-galaxy-update/#gcc2019-1-8-july-freiburg-germany):**
-    * **[Advance registration ends 7 June](/news/2019-06-galaxy-update/#advance-registration-ends-7-june-this-friday)**
-    * **[Poster and Demo Abstract Submission deadline: 10 June](/news/2019-06-galaxy-update/#poster-demo-abstract-submission-deadline-10-june)**
+    * **[Advance registration ends 7 June](/news/2019-06-galaxy-update/#advance-registration-ends-7-june---this-friday)**
+    * **[Poster and Demo Abstract Submission deadline: 10 June](/news/2019-06-galaxy-update/#poster--demo-abstract-submission-deadline-10-june)**
     * [Conference schedule is online](/news/2019-06-galaxy-update/#conference-schedule-is-online)
 * Plus [13 other upcoming events](/news/2019-06-galaxy-update/#upcoming-events) in the next 90 days
 * [150 new publications](/news/2019-06-galaxy-update/#publications), great resources lead to great insight.
@@ -273,7 +273,7 @@ The *dark energy* of irreproducible research is threatening the science universe
     * [ELIXIR Software developer data management tools](https://vibvzw.jobsoid.com/jobs/35bba14f-79b7-4388-b015-a4fb9d97ee41/17168/software-developer-data-management-tools), VIB-UGent Center for Plant Systems Biology
     * [ELIXIR Scientific Cloud Coordinator](https://vibvzw.jobsoid.com/j/17165/elixir-scientific-cloud-coordinator), VIB-UGent Center for Plant Systems Biology
 * [Software Developer](https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25240&siteid=5341&PageType=JobDetails&jobid=1433370#jobDetails=1433370_5341), Harvard T.H. Chan School of Public Health, Boston, Massachusetts, United States. "Basic automated analysis workflows using Galaxy for 16S marker gene, metagenomic, and metatranscriptomic data leveraging existing software."
-* The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2019/01/10/openpositions/), Freiburg, Germany
+* The [The European Galaxy Team has open positions](/news/2019-01-10-openpositions/), Freiburg, Germany
     * Software engineer, system analysts/administrators, data analyst, and a community and/or research manager
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).

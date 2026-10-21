@@ -1,7 +1,7 @@
 ---
 title: "Galaxy initiation, RNAseq, SARTools"
 date: '2018-01-29'
-days: 3
+end: '2018-01-31'
 tease: "Training course for biologists aiming at learning RNAseq analysis on Galaxy environment"
 continent: EU
 location:

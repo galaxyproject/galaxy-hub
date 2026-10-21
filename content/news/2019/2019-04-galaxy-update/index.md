@@ -12,7 +12,7 @@ subsites: [all-eu, global, us]
 The *April 2019 Galactic News* is here! This is a summary of what is going on in the Galaxy community.
 
 * Event News
-    * **[GCC2019 registration and abstract submission are open!](/news/2019-04-galaxy-update/#gcc2019-registration-abstract-submission)**
+    * **[GCC2019 registration and abstract submission are open!](/news/2019-04-galaxy-update/#gcc2019-registration--abstract-submission)**
 * [120 new publications](/news/2019-04-galaxy-update/#publications), great resources lead to great insight.
 * Some most excellent [Galaxy Platform News](/news/2019-04-galaxy-update/#galaxy-platforms-news), including ways to investigate unmapped RNA-seq reads, language analysis, and RNA structure tools!  
 * A new entry to [The Galactic Blog](/news/2019-04-galaxy-update/#new-galactic-blog-post), about the upcomming GCC.  
@@ -20,7 +20,7 @@ The *April 2019 Galactic News* is here! This is a summary of what is going on in
 * [Updates to training materials](/news/2019-04-galaxy-update/#doc-hub-and-training-updates).
 * [ToolShed contributions](/news/2019-04-galaxy-update/#toolshed-contributions).
 * [CloudBridge 2.0 released](/news/2019-04-galaxy-update/#releases).
-* [Galaxy status page](/news/2019-04-galaxy-update/##galaxy-status) is live!
+* [Galaxy status page](/news/2019-04-galaxy-update/#galaxy-status) is live!
 * And [a bunch of other news](/news/2019-04-galaxy-update/#other-news) too.
 
 If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
@@ -245,7 +245,7 @@ The *dark energy* of irreproducible research is threatening the science universe
     * [ELIXIR Bioinformatics Trainer](https://vibvzw.jobsoid.com/j/17026/elixir-bioinformatics-trainer), VIB Bioinformatics Core
     * [ELIXIR Scientific Cloud Coordinator](https://vibvzw.jobsoid.com/j/17165/elixir-scientific-cloud-coordinator), VIB-UGent Center for Plant Systems Biology
 * [Software Developer](https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25240&siteid=5341&PageType=JobDetails&jobid=1433370#jobDetails=1433370_5341), Harvard T.H. Chan School of Public Health, Boston, Massachusetts, United States. "Basic automated analysis workflows using Galaxy for 16S marker gene, metagenomic, and metatranscriptomic data leveraging existing software."
-* The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2019/01/10/openpositions/), Freiburg, Germany
+* The [The European Galaxy Team has open positions](/news/2019-01-10-openpositions/), Freiburg, Germany
     * Software engineer, system analysts/administrators, data analyst, and a comnunity and/or research manager
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).

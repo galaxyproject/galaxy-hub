@@ -1,7 +1,7 @@
 ---
 title: 'Community-Driven Training for Biological Data Analysis with the Galaxy Training Network'
 date: '2018-05-30'
-days: 3
+end: '2018-06-01'
 tease: ""
 continent: EU
 location:

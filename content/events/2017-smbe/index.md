@@ -1,7 +1,7 @@
 ---
 title: Computation and reproducibility in molecular evolution
 date: '2017-07-02'
-days: 5
+end: '2017-07-06'
 tease: at SMB 2017
 continent: NA
 location:

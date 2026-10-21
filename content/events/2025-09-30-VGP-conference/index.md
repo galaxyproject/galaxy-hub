@@ -1,7 +1,7 @@
 ---
 title: Vertebrate Genomes Project (VGP) In-Person Conference
 date: '2025-09-30'
-days: 2
+end: '2025-10-01'
 tease: "Join us at the VGP In-Person Conference 2025 to dive deep into the world of vertebrate genomes with top researchers and experts!"
 continent: NA 
 location:

@@ -1,7 +1,7 @@
 ---
 title: International Plant and Animal Genome Conference
 date: '2024-01-12'
-days: 5
+end: '2024-01-16'
 tease: "The scientific program at PAG includes informative speakers, technial presentations, poster sessions, and workshops are all excellent forums for the exchange of ideas and applications on recent developments."
 continent: NA
 location:

@@ -1,7 +1,6 @@
 ---
 title: "Annotation automatique de génomes bactériens"
 date: '2020-09-10'
-days: 1
 tease: 'Part of Cycle "Bioinformatique par la pratique" 2020'
 continent: EU
 location:

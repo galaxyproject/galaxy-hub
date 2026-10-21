@@ -23,5 +23,5 @@ citations:
 pub_libraries:
   - "NanoGalaxy"
 sponsors:
-  - "UseGalaxy.eu is maintained largely by the [Freiburg Galaxy Team](https://usegalaxy-eu.github.io/freiburg/) but also collectively by groups and individuals from across Europe. All of the members sites in this repository contribute to the European Galaxy Project."
+  - "UseGalaxy.eu is maintained largely by the [Freiburg Galaxy Team](/freiburg/) but also collectively by groups and individuals from across Europe. All of the members sites in this repository contribute to the European Galaxy Project."
 ---

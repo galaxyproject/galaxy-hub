@@ -1,7 +1,7 @@
 ---
 title: "You wrote it, now get it used: Publishing your software with Galaxy and Bioconda"
 date: '2019-09-07'
-days: 4
+end: '2019-09-10'
 tease: "Software reuse, made easy"
 continent: NA
 location:

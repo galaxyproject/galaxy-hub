@@ -1,7 +1,7 @@
 ---
 title: "Analysis of biological data with Galaxy"
 date: '2022-10-31'
-days: 50
+end: '2022-12-19'
 tease: "Learn how to use Galaxy in YOUR research"
 continent: NA
 location:

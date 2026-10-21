@@ -1,7 +1,7 @@
 ---
 title: Hackathon - Improving the annotation of Galaxy resources for microbial data analysis and beyond
 date: '2024-03-11'
-days: 5
+end: '2024-03-15'
 tease: "This hackathon aims to improve the annotation of Galaxy resources for microbial data analysis and beyond"
 location: "Online"
 contact: "Bérénice Batut, Paul Zierep"

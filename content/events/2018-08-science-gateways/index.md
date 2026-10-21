@@ -1,7 +1,7 @@
 ---
 title: "Science Gateways Bootcamp"
 date: '2018-08-13'
-days: 5
+end: '2018-08-17'
 tease: "Developing a successful science gateway"
 continent: NA
 location:

@@ -1,7 +1,6 @@
 ---
 title: "GenAP for Single-Cell researchers"
 date: '2020-10-15'
-days: 1
 tease: "Webinar"
 continent: NA
 location:

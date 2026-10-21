@@ -1,7 +1,6 @@
 ---
 title: "Online data analysis for biologists"
 date: "2021-09-09"
-days: 1
 tease: "Get a hands-on introduction to Galaxy, an online platform for data analysis. Applications close at 5pm AEST Tuesday 31 August."
 continent: AU
 location:

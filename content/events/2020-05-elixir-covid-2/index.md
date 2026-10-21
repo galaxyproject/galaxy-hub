@@ -1,7 +1,6 @@
 ---
 title: "Genomics/Variant Calling"
 date: '2020-05-07'
-days: 1
 tease: "Part of the Galaxy-ELIXIR webinar series"
 continent: EU
 location:

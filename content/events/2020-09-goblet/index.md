@@ -2,7 +2,7 @@
 title: "Galaxy @ GOBLET 2020 AGM" 
 tease: "Galaxy for learning, education, and training"
 date: '2020-09-14'
-days: 3
+end: '2020-09-16'
 continent: EU
 location:
   name: "Online, Sweden"

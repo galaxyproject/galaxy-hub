@@ -1,7 +1,7 @@
 ---
 title: "An introduction to Galaxy with the NeCTAR Genomics Virtual Laboratory"
 date: '2018-07-02'
-days: 5
+end: '2018-07-06'
 tease: ""
 continent: AU
 location:

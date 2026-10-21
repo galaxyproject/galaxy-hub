@@ -1,8 +1,8 @@
 ---
 title: Galaxy-E at SORTEE 2021
 date: '2021-07-12'
+end: '2021-07-14'
 tease: Open, reliable, and transparent ecology research with Galaxy-E
-days: 3
 continent: GL
 location:
   name: SORTEE 2021, Online, Global

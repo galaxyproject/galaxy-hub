@@ -2,7 +2,7 @@
 title: Training Infrastructure Feedback from Charles Girardot
 date: '2019-10-15'
 tags: [training, tiaas]
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   authorship:

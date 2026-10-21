@@ -1,7 +1,7 @@
 ---
 title: QIIME Contribution Fest
 date: '2017-01-09'
-days: 2
+end: '2017-01-10'
 tease: Online...
 continent: GL
 location:

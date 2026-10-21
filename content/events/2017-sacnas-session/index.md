@@ -1,7 +1,6 @@
 ---
 title: 'Resources and Techniques for Training Students in Computational Skills'
 date: '2017-10-20'
-days: 1
 tease: 'Want to learn more about how to train students in computational methods?'
 continent: NA
 location:

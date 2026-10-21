@@ -6,7 +6,7 @@ tease: Congratulations Rutger Gjaltema and team for your latest findings about X
 hide_tease: true
 doi: 10.1016/j.molcel.2021.11.023
 tags: [paper, citations]
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 ---
 

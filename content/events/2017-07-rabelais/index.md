@@ -1,7 +1,7 @@
 ---
 title: Stratégies D'Analyse Données Omiques - Ateliers Introductifs Galaxy et Cytopscape
 date: '2017-07-06'
-days: 2
+end: '2017-07-07'
 continent: EU
 location:
   name: Université François-Rabelais, Tours, France

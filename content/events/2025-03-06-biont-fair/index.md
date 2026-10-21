@@ -3,7 +3,7 @@ subsites:
 - all
 gtn: false
 date: '2025-03-06'
-days: 2
+end: '2025-03-07'
 tags:
 - new event-external
 title: Awareness in Data Management and Analysis for Industry and Research

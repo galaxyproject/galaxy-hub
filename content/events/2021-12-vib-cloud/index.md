@@ -1,7 +1,6 @@
 ---
 title: "Migrating tools to the cloud - online"
 date: '2021-12-02'
-days: 1
 tease: "Galaxy on the Cloud "
 continent: EU
 location:

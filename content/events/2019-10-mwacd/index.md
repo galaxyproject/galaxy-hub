@@ -1,7 +1,7 @@
 ---
 title: "Beyond data generation: Developing a holistic biological mass spectrometry core facility"
 date: '2019-10-16'
-days: 3
+end: '2019-10-18'
 tease: "The 10th Annual Meeting of the Midwest Association of Core Directors"
 continent: NA
 location:

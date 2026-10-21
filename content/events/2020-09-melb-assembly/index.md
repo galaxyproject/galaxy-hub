@@ -1,7 +1,6 @@
 ---
 title: "Hybrid de novo genome assembly - Nanopore and Illumina"
 date: "2020-09-29"
-days: 1
 tease: "Learn how to create high-quality genome assemblies using the powerful combination of Nanopore and Illumina reads"
 continent: AU
 location:

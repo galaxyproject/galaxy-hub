@@ -32,5 +32,7 @@ This article is focused on the collaboration with the UK’s Diamond Light Sourc
 
 <br />
 
-{% twitter https://twitter.com/bjoerngruening/status/1356213940389343233 %}
+<img src="./tweet-1356213940389343233.webp" alt="Post by Björn Grüning (@bjoerngruening): Thanks #denbi for assembling all the work done by the German Network of Bioinformatics Infrastructure. Check it out, it contains a lot of #usegalaxy work as well. @ELIXIREurope #OpenData @UniFreiburg" width="550" height="569" />
+
+*Post by @bjoerngruening on 1 February 2021*
 

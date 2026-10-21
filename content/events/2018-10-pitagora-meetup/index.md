@@ -1,7 +1,6 @@
 ---
 title: "Pitagora Meetup"
 date: '2018-10-01'
-days: 1
 tease: "ツールやワークフローを持ち寄って仮想マシンに加える"
 continent: "AS"
 location:

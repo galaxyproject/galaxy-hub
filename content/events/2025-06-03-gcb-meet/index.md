@@ -1,7 +1,6 @@
 ---
 title: "Galaxy Community Board Meeting: 🪑GCB"
 date: '2025-06-03'
-days: 1
 continent: GL
 location:
   name: Online, Global

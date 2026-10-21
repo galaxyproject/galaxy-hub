@@ -1,7 +1,7 @@
 ---
 title: "Jumpstart Your Sustainability Plan"
 date: '2021-03-01'
-days: 3
+end: '2021-03-03'
 tease: "Make your gateway sustainable; register by February 24"
 continent: NA
 location:

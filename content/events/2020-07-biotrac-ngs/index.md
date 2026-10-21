@@ -1,7 +1,7 @@
 ---
 title: "Next Generation Sequencing (NGS) Introduction"
 date: '2020-07-22'
-days: 3
+end: '2020-07-24'
 tease: '3 day training workshop from BioTrac'
 continent: NA
 location:

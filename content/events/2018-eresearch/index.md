@@ -1,7 +1,7 @@
 ---
 title: "Galaxy @ eResearch Australasia"
 date: '2018-10-15'
-days: 5
+end: '2018-10-19'
 tease: ""
 continent: AU
 location:

@@ -1,7 +1,6 @@
 ---
 title: "Introduction to Sequencing, Assembly, and Galaxy on AnVIL"
 date: '2021-04-23'
-days: 1
 tease: "Part of Tools for Applied Data Science Using Cloud-Based Platform - Module 7"
 continent: NA
 location:

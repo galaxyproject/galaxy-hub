@@ -1,7 +1,7 @@
 ---
 title: Advances in Genome Biology and Technology (AGBT)
 date: '2024-02-05'
-days: 4
+end: '2024-02-08'
 tease: "The General Meeting is AGBT’s flagship event for bringing together global leaders, researchers, and innovators."
 continent: NA
 location:

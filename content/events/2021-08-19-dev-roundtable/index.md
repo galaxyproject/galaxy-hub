@@ -1,7 +1,6 @@
 ---
 title: "Galaxy for AnVIL Cloud Cost Analysis"
 date: '2021-08-19'
-days: 1
 tease: "Jetstream, AWS, GCP, and UseGalaxy.org"
 continent: GL
 location:

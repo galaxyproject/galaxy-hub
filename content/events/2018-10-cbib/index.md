@@ -1,7 +1,7 @@
 ---
 title: "Bioinformatique - Analyse avancée de séquences"
 date: '2018-10-16'
-days: 3
+end: '2018-10-18'
 tease: "Prendre en main l'outil Galaxy"
 continent: EU
 location:

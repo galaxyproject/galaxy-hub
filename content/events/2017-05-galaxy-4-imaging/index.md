@@ -1,7 +1,7 @@
 ---
 title: Formation Galaxy4Imaging
 date: '2017-05-16' 
-days: 2
+end: '2017-05-17'
 continent: EU
 location:
   name: Nantes, France

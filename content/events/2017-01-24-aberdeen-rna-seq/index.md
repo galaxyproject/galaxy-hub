@@ -1,7 +1,6 @@
 ---
 title: Advanced RNA Sequencing (RNA-seq) Analysis
 date: '2017-01-24'
-days: 1
 tease: Workshop
 continent: EU
 location:

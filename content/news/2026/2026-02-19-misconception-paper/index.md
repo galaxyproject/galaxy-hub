@@ -33,7 +33,7 @@ Every great idea starts with a spark. For this paper, that spark was a feeling, 
 
 It began with a group of nerds (affectionately referred to as such) gathering to vent their frustrations about the persistent myths surrounding Galaxy. Another group of nerds disagreed with their conclusions. Then, life got busy, and progress stalled. Later, a third group joined the fray, leading to a grand, collective whinge session in Australia. After countless hours in Google Docs, a write-a-thon, numerous online meetings, and moments of near-despair, something remarkable emerged: a [paper](https://doi.org/10.1371/journal.pcbi.1013869) that not only addresses misconceptions but does so with evidence, humor, and a touch of defiance.
 
-## Why This Paper Matters
+## Addressing the myths
 
 Galaxy is an open-source platform designed for accessible, reproducible, and scalable data analysis. It's used by researchers, educators, clinicians, and industry professionals worldwide. Yet, despite its success, misconceptions persist. Some believe Galaxy is only for genomics, lacks scalability, or is just a teaching tool. Others question its security, software quality, or relevance outside academia.
 
@@ -86,7 +86,7 @@ Let's dive into the myths and the reality:
 **Reality:** Galaxy prioritizes transparency. Every step of an analysis is documented, shareable, and reproducible. Users can inspect tools, workflows, and data provenance, ensuring full transparency and trust in the results.
 
 
-## Why This Matters for the Galaxy Community
+## Why this is important for the Galaxy Community
 
 This paper isn't just about correcting the record, it's about empowering users. By addressing these misconceptions, we hope to:
 

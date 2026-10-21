@@ -1,7 +1,7 @@
 ---
 title: 'Bioinformatics Community Conference 2020 (BCC2020)'
 date: '2020-07-18'
-days: 8
+end: '2020-07-25'
 tease: "Galaxy & BOSC join forces again for 8 days of training, meeting, networking and collaborative work"
 continent: GL
 location:

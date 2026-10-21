@@ -35,6 +35,43 @@ test.describe('Static Pages', () => {
       await expect(hero).toContainText('Galaxy');
     });
 
+    // Structural only: the highlights list changes often, so nothing here names a specific slide.
+    test('hero highlight carousel renders whatever highlights are configured', async ({ page }) => {
+      await page.goto('/');
+
+      const slides = page.locator('.hero-carousel-slide');
+      const count = await slides.count();
+      if (count === 0) {
+        await expect(page.locator('.hero-logo')).toBeVisible();
+        return;
+      }
+
+      // Only a rotating carousel gets dots.
+      await expect(page.locator('.hero-carousel-dot')).toHaveCount(count > 1 ? count : 0);
+
+      for (const slide of await slides.all()) {
+        await expect(slide).toHaveAttribute('href', /.+/);
+        await expect(slide.locator('img').first()).toHaveAttribute('src', /.+/);
+      }
+
+      // Video slides leave the site in a new tab.
+      for (const video of await slides.filter({ has: page.locator('.hero-carousel-play') }).all()) {
+        await expect(video).toHaveAttribute('target', '_blank');
+        await expect(video).toHaveAttribute('rel', /noopener/);
+      }
+
+      // Content fills each bordered slide (no stray padding), and slides share one height.
+      const boxes = await slides.evaluateAll((els) =>
+        els.map((e) => ({
+          inner: e.clientWidth,
+          child: Math.round((e.firstElementChild as HTMLElement).getBoundingClientRect().width),
+          height: Math.round(e.getBoundingClientRect().height),
+        }))
+      );
+      for (const b of boxes) expect(Math.abs(b.child - b.inner)).toBeLessThanOrEqual(1);
+      expect(new Set(boxes.map((b) => b.height)).size).toBe(1);
+    });
+
     test('shows upcoming events section', async ({ page }) => {
       await page.goto('/');
 

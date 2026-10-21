@@ -6,16 +6,10 @@
 import { getCollection } from 'astro:content';
 import { marked } from 'marked';
 import { extractAuthors } from '../../utils/contributors';
+import { expandSubsites } from '../../utils/subsites';
+import { formatDate } from '../../utils/dateUtils';
 
 const JSONFEED_DAYS_AGO_LIMIT = 30;
-
-function formatDate(date: Date): string {
-  // Match Gridsome format: "22 December 2025"
-  const day = date.getUTCDate();
-  const month = date.toLocaleDateString('en-US', { timeZone: 'UTC', month: 'long' });
-  const year = date.getUTCFullYear();
-  return `${day} ${month} ${year}`;
-}
 
 function getDaysAgo(date: Date): number {
   const now = new Date();
@@ -32,28 +26,6 @@ function generateShortId(str: string): string {
     hash = hash & hash;
   }
   return Math.abs(hash).toString(16).slice(0, 8);
-}
-
-// Expand "all" subsite to full list of regional subsites
-const ALL_SUBSITES = [
-  'freiburg',
-  'pasteur',
-  'belgium',
-  'ifb',
-  'genouest',
-  'erasmusmc',
-  'elixir-it',
-  'au',
-  'eu',
-  'us',
-  'global',
-];
-
-function expandSubsites(subsites: string[]): string[] {
-  if (subsites.includes('all')) {
-    return ALL_SUBSITES;
-  }
-  return subsites;
 }
 
 export async function GET() {
@@ -80,15 +52,13 @@ export async function GET() {
       const daysAgo = getDaysAgo(date);
       const slug = (data.slug || article.id).replace(/\/$/, '');
 
-      // Normalize arrays and expand "all" subsites
-      let subsites = data.subsites ? (Array.isArray(data.subsites) ? data.subsites : [data.subsites]) : [];
-      subsites = expandSubsites(subsites);
+      const subsites = expandSubsites(data.subsites);
 
       const tags = data.tags ? (Array.isArray(data.tags) ? data.tags : [data.tags]) : [];
       const authors = extractAuthors(data as Record<string, unknown>).join(', ');
 
       // Render markdown body to HTML
-      let content = '';
+      let content: string;
       try {
         if (article.body) {
           content = await marked.parse(article.body);
@@ -104,7 +74,8 @@ export async function GET() {
         title: data.title || null,
         tease: data.tease || null,
         days_ago: daysAgo,
-        date: formatDate(date),
+        // Match Gridsome format: "22 December 2025"
+        date: formatDate(date, { short: false, locale: 'en-GB' }),
         subsites,
         main_subsite: data.main_subsite || null,
         tags,

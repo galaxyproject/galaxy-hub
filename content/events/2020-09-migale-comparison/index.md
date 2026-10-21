@@ -1,7 +1,6 @@
 ---
 title: "Comparaison de génomes microbiens"
 date: '2020-09-11'
-days: 1
 tease: 'Part of Cycle "Bioinformatique par la pratique" 2020'
 continent: EU
 location:

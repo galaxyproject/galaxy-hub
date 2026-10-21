@@ -1,7 +1,6 @@
 ---
 title: "Introduction to Galaxy and the GVL"
 date: '2018-03-20'
-days: 1
 tease: "from Melbourne Bioinformatics"
 continent: AU
 location:

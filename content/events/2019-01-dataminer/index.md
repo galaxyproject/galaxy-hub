@@ -1,7 +1,6 @@
 ---
 title:  "Galaxy integration with the Data Miner Service"
 date: '2019-01-21'
-days: 1
 tease: "Webinar, 10:00 CET" 
 continent: GL
 location:

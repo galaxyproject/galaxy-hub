@@ -2,7 +2,7 @@
 title: 'UseGalaxy.eu Use Case: Antibody responses following vaccination'
 date: '2021-08-27'
 tags: [usecase]
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   authorship:

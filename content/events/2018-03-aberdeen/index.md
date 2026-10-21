@@ -1,7 +1,6 @@
 ---
 title: "Alignment, Visualisation and Variant Calling"
 date: '2018-03-21'
-days: 1
 tease: Workshop
 continent: EU
 location:

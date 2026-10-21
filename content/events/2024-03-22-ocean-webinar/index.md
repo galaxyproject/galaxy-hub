@@ -1,7 +1,6 @@
 ---
 title: Galaxy for Oceanographic Insights
 date: '2024-04-12'
-days: 1
 tease: "1H webinar on harnessing Galaxy for Oceanographic Insights with ODV and DIVAnd Interpolation"
 continent: NA
 location:

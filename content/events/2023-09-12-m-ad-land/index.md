@@ -1,7 +1,7 @@
 ---
 title: MAdLand Annual Meeting 2023
 date: '2023-09-12'
-days: 4
+end: '2023-09-15'
 continent: EU
 location:
   name: Herzogenhorn, Black Forest

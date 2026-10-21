@@ -5,7 +5,7 @@ end: '2025-04-24'
 location:
   name: "Freiburg, Germany"
 contact: "Beatriz Serrano-Solano, Diana Chiang Jurado"
-tags: [hackathon, imaging, bioimaging, esg, esg-wp1, esg-wp5]
+tags: [hackathon, imaging, bioimaging, esg, esg-wp1, esg-wp5, nfdi]
 subsites: [all, esg, eu]
 contributions:
   organisers:
@@ -15,7 +15,6 @@ contributions:
     - eubi
   funding:
     - eu
-    - nfdi
     - oscars
     - nfdi4bioimage
 ---

@@ -1,7 +1,6 @@
 ---
 title: "Galaxy Introduction for Life Scientists"
 date: '2020-06-17'
-days: 1
 tease: ""
 continent: GL
 location:

@@ -1,7 +1,7 @@
 ---
 title: From data to discovery - Galaxy workshop at University of Graz
 date: '2025-09-22'
-days: 3
+end: '2025-09-24'
 tease: "This course introduces scientists to the data analysis platform Galaxy. The course is an intermediate course; there is no requirement of any programming skills."
 continent: EU
 location:

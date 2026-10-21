@@ -2,7 +2,7 @@
 title: The European Galaxy server listed as an official resource on the COVID-19 Data Portal
 date: '2021-02-05'
 tags: [covid-19, elixir]
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   authorship:
@@ -21,5 +21,7 @@ The [__European Galaxy Server__](https://usegalaxy.eu/) is now listed as part of
 
 <br />
 
-{% twitter https://twitter.com/bjoerngruening/status/1356303544907927553?s=20%}
+<img src="./tweet-1356303544907927553.webp" alt="Post by Björn Grüning (@bjoerngruening): A few updates about our #COVID19 work in our new blog post: https://galaxyproject.eu/posts/2021/01/22/sars-cov-2-variant-analysis/ … New tools and new workflows included e.g. combine the ARTIC variant calling workflow with the consensus sequence building one and be ready to submit your data to public archives." width="550" height="498" />
+
+*Post by @bjoerngruening on 1 February 2021*
 

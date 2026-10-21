@@ -1,7 +1,6 @@
 ---
 title: "Galaxy for Genomics-enabled Breeding"
 date: '2019-12-16'
-days: 1
 tease: ""
 continent: GL
 location:

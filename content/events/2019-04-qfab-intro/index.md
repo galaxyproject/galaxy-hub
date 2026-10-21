@@ -2,7 +2,6 @@
 title: "Getting started with Galaxy and NGS Platforms" 
 tease: "how data generation impacts bioinformatics analysis"
 date: '2019-04-01'
-days: 1
 continent: AU
 location:
   name: QFAB, St Lucia, Queensland, Australia

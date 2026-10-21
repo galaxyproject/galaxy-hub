@@ -7,7 +7,7 @@ tease: We are proud to announce that, as result of the collaboration with the Ve
 hide_tease: true
 tags: [training, gtn-news]
 external_url: https://training.galaxyproject.org/training-material/news/2022/03/14/VGP-training.html
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   funding:

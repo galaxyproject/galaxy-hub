@@ -13,7 +13,7 @@ The [April 2012 Galaxy Update](/galaxy-updates/2012-04/) is now available.  *[Ga
 * [Open Positions](/galaxy-updates/2012-03/#whos-hiring) at six different institutions
 * [Upcoming Events and Deadlines](/galaxy-updates/2012-03/#upcoming-events-and-deadlines)
 * [GCC2012 Update](/galaxy-updates/2012-03/#gcc2012-update), including *early registration is open, and abstract submission closes April 16.*
-* [Tool Shed Contributions](/galaxy-updates/2012-03/#toolshed-contributions)
+* [Tool Shed Contributions](/galaxy-updates/2012-03/#tool-shed-contributions)
 
 If you have anything you would like to see in the May *[Galaxy Update](/galaxy-updates/)*, please let me know.
 

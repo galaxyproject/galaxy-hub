@@ -1,7 +1,7 @@
 ---
 title:  "ELIXIR TtR course: Basic genomics using advanced analysis tools: Genomic Data Science with Galaxy"
 date: '2018-12-20'
-days: 2
+end: '2018-12-21'
 tease: "" 
 continent: "EU"
 location:

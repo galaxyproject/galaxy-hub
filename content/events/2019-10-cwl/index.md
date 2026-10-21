@@ -1,7 +1,7 @@
 ---
 title: "CWL Miini-Conference"
 date: '2019-10-17'
-days: 2
+end: '2019-10-18'
 tease: ""
 continent: NA
 location:

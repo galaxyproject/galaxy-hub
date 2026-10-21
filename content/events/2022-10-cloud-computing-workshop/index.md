@@ -1,7 +1,7 @@
 ---
 title: "Cloud Computing Workshop"
 date: '2022-10-03'
-days: 5
+end: '2022-10-07'
 tease: "Online video tutorials about the use of cloud computing resources for MS-based proteomics."
 continent: GL
 location:

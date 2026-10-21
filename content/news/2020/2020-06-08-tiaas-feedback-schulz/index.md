@@ -2,7 +2,7 @@
 title: 'Training Infrastructure Feedback from Marcel Schulz '
 date: '2020-06-08'
 tags: [training, tiaas, outreach]
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   authorship:

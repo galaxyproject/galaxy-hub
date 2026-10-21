@@ -13,7 +13,7 @@ import { visit } from 'unist-util-visit';
 /**
  * Fix relative links in markdown content
  */
-function fixLinksPlugin() {
+function fixLinksPlugin(state = {}) {
   return (tree) => {
     visit(tree, ['link', 'image'], (node) => {
       if (!node.url) return;
@@ -33,6 +33,7 @@ function fixLinksPlugin() {
       if (node.type === 'image' && !node.url.startsWith('/')) {
         if (node.url.startsWith('images/')) {
           node.url = '/' + node.url;
+          state.changed = true;
         }
       }
     });
@@ -94,10 +95,11 @@ export async function processMarkdown(content, options = {}) {
     fixLinks = true,
   } = options;
 
+  const state = { changed: false };
   const processor = unified().use(remarkParse).use(remarkFrontmatter, ['yaml']);
 
   if (fixLinks) {
-    processor.use(fixLinksPlugin);
+    processor.use(fixLinksPlugin, state);
   }
 
   if (addToc) {
@@ -115,8 +117,11 @@ export async function processMarkdown(content, options = {}) {
     resourceLink: true, // Prevent auto-link conversion for [url](url) patterns
   });
 
-  const result = await processor.process(content);
-  return String(result);
+  const tree = await processor.run(processor.parse(content));
+  // remark-parse has no GFM, so stringifying escapes bare URLs, tables and
+  // footnotes. Only reserialize when a transform actually changed the tree.
+  if (!addToc && !state.changed) return content;
+  return processor.stringify(tree);
 }
 
 /**

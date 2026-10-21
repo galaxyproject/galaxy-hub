@@ -63,8 +63,8 @@ test.describe('Hall of Fame', () => {
     );
   });
 
-  test('/hall-of-fame/an-example/ hides the GTN Hall of Fame link when opted out', async ({ page }) => {
-    const response = await page.goto('/hall-of-fame/an-example/');
+  test('/hall-of-fame/aws/ hides the GTN Hall of Fame link when opted out', async ({ page }) => {
+    const response = await page.goto('/hall-of-fame/aws/');
     expect(response?.status()).toBe(200);
 
     await expect(page.getByRole('link', { name: 'GTN Hall of Fame' })).toHaveCount(0);
@@ -84,4 +84,11 @@ test.describe('Hall of Fame', () => {
     // News/Event teases are treated as plain text and should not render markdown links.
     await expect(page.locator('[data-item] p.line-clamp-2 a')).toHaveCount(0);
   });
+
+  for (const slug of ['contributor1', 'contributor2', 'awspolly', 'an-example']) {
+    test(`/hall-of-fame/${slug}/ is not published for a hub-halloffame: no placeholder`, async ({ page }) => {
+      const response = await page.goto(`/hall-of-fame/${slug}/`);
+      expect(response?.status()).toBe(404);
+    });
+  }
 });

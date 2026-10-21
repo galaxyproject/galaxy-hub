@@ -1,7 +1,7 @@
 ---
 title: "RNA-Seq analysis using Galaxy"
 date: '2018-05-01'
-days: 2
+end: '2018-05-02'
 tease: "Learn to work with NGS data for small variant detection."
 continent: AU
 location:

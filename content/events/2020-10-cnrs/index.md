@@ -1,7 +1,7 @@
 ---
 title: "Analyse avancée de séquences"
 date: '2020-10-13'
-days: 3
+end: '2020-10-15'
 tease: "Savoir utiliser l'environnement Galaxy"
 continent: EU
 location:

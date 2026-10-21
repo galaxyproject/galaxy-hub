@@ -1,0 +1,24 @@
+title: Updated Terms of Service for Galaxy Europe
+tease: New Terms of Service for usegalaxy.eu - please review and accept to keep using the service
+body: |
+  Usegalaxy.eu has published its updated **Terms of Service**. The new
+  Terms bring clearer rules on acceptable use, account maintenance, data
+  retention, and your rights under the GDPR.
+ 
+  - **Inactivity policy:** accounts with no login for 12 months are deactivated;
+    user-generated data is deleted after a further 6 months.
+  - **Automated protective measures:** abusive behaviour may trigger an automatic suspension,
+    with human review available on request.
+  - **Your responsibility:** you must keep your email address valid.
+
+subsites: [eu]
+date: "2026-09-07"
+weight: 40
+images:
+  - url: /images/undraw-illustrations/personal-data.svg
+    alt: Illustration representing personal data and user rights
+  - url: /images/undraw-illustrations/safe.svg
+    alt: Illustration of a safe, representing data protection and security
+links:
+  - url: https://usegalaxy.eu/gdpr/tos
+    text: Read the new Terms of Service

@@ -1,7 +1,7 @@
 ---
 title: "Genome Assembly and Annotation 2022"
 date: '2022-08-31'
-days: 3
+end: '2022-09-02'
 tease: 'A 3-day training course on bioinformatics methods for de novo assembly and structural and functional annotation of genomes using short (Illumina) and long reads (PacBio / Oxford Nanopore) sequencing technologies (will be run in French).'
 continent: AU
 location:

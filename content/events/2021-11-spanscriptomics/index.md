@@ -1,8 +1,8 @@
 ---
 title: 'Spanscriptomics: Análisis de células únicas usando Galaxy'
 date: '2021-11-29'
+end: '2021-11-30'
 tease: Curso de análisis de células únicas usando Galaxy en español.
-days: 2
 continent: GL
 location:
   name: Virtual y asincrónico, Global

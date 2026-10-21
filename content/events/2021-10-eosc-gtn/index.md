@@ -3,7 +3,6 @@ title: The evolution of a Galaxy project for running hybrid events
 date: '2021-10-22'
 tease: 'Gallantries Project: Delivering Galaxy hybrid events, and evolving with the
   pandemic'
-days: 1
 continent: EU
 location:
   name: EOSC-Life training series, Online, Europe

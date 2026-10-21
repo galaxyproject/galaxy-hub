@@ -1,7 +1,7 @@
 ---
 title: "Functionally Assembled Terrestrial Ecosystem Simulator (FATES)"
 date: '2020-10-26'
-days: 2
+end: '2020-10-27'
 tease: 'Learn to compose and execute repeatable and reproducible modelling workflow with FATES for improving climate models.'
 continent: EU
 location:

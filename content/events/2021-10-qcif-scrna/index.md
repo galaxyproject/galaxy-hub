@@ -1,7 +1,6 @@
 ---
 title: "Single-Cell RNA-Seq analysis"
 date: '2021-10-26'
-days: 1
 tease: "Discover and apply tools for scRNA-Seq analysis"
 continent: AU
 location:

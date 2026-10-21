@@ -1,7 +1,7 @@
 ---
 title: "A national service for the life sciences – Galaxy Australia"
 date: '2021-07-06'
-days: 3
+end: '2021-07-08'
 tease: "2 million jobs since 2019 and 13,000+ users"
 continent: AU
 location:

@@ -1,7 +1,7 @@
 ---
 title: "RNA-Seq analysis using Galaxy"
 date: '2017-11-15'
-days: 2
+end: '2017-11-16'
 tease: "No prior bioinformatics knowledge is required"
 continent: AU
 location:

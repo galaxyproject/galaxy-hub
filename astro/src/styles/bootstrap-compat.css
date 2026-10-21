@@ -30,8 +30,9 @@
     gap: 1rem;
     margin-bottom: 1.5rem;
 
+    /* A real flex-basis lets the deck wrap instead of squeezing every card into one row */
     > .bs-compat.card {
-      flex: 1 1 0%;
+      flex: 1 1 16rem;
       min-width: 0;
       max-width: none;
     }
@@ -534,8 +535,10 @@
   margin-left: -0.75rem;
 }
 
+/* Tailwind's grid placement utilities (col-start-1, sm:col-span-2) also contain
+   "col-", and this unscoped rule was padding them. :where keeps specificity flat. */
 .col,
-[class*='col-'] {
+[class*='col-']:not(:where([class*='col-start-'], [class*='col-end-'], [class*='col-span-'])) {
   position: relative;
   width: 100%;
   padding-right: 0.75rem;

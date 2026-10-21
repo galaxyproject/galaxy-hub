@@ -1,7 +1,7 @@
 ---
 title:  "Bioinformatics for Beginners"
 date: '2019-01-15'
-days: 4
+end: '2019-01-18'
 tease: "A 4-Day Hands On Workshop" 
 continent: NA
 location:

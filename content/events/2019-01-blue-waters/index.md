@@ -1,7 +1,6 @@
 ---
 title: "Cloud Resource Federation for Galaxy"
 date: '2019-01-23'
-days: 1
 tease: "bring together disparate data and compute resources to effectively handle large data and long computations"
 continent: GL
 location:

@@ -1,7 +1,7 @@
 ---
 title: "2019 Galaxy Admin Training"
 date: '2019-01-28'
-days: 5
+end: '2019-02-01'
 tease: "The ins and outs of setting up your own production quality Galaxy server"
 continent: NA
 location:

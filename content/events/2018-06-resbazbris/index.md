@@ -1,7 +1,7 @@
 ---
 title: "Galaxy @ Research Bazaar Brisbane (GVL & Alveo"
 date: '2018-06-06'
-days: 3
+end: '2018-06-08'
 tease: "RNA-Seq & Language Analysis"
 continent: AU
 location:

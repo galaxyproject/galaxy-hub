@@ -1,7 +1,6 @@
 ---
 title: "Radiometabolomics: Identification of Metabolic Predictors of Radiation Late Effects"
 date: '2021-05-06'
-days: 1
 tease: "Plus recent developments and future plans in the Galaxy Metabolomics community"
 continent: EU
 location:

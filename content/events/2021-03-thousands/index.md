@@ -1,7 +1,6 @@
 ---
 title: "Processing thousands of datasets simultaneously"
 date: '2021-03-10'
-days: 1
 tease: "Galaxy collections and advanced collections features"
 continent: EU
 location:

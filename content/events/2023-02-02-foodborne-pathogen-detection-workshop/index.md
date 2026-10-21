@@ -1,7 +1,6 @@
 ---
 title: A practical workshop for (foodborne) pathogen detection from (direct Nanopore) sequencing data using Galaxy
 date: '2023-02-02'
-days: 1
 tease: "The purpose of this workshop is to gain knowledge on detect (foodborne) pathogens from (direct Nanopore) sequencing data using Galaxy. The workshop will be on February 2nd 2023 as a 1-day hybrid (F2F at FHNW Muttenz, Switzerland and online), free and practical workshop."
 continent: EU
 location:

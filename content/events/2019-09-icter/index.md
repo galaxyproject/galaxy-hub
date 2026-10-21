@@ -1,7 +1,7 @@
 ---
 title: "Installing and configuring the Galaxy Platform for Bioinformatics data analysis"
 date: '2019-09-03'
-days: 3
+end: '2019-09-05'
 tease: ""
 continent: AS
 location:

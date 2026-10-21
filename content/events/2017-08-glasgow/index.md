@@ -1,7 +1,6 @@
 ---
 title: Introduction to Galaxy Workshop
 date: '2017-08-09'
-days: 1
 tease: at Glasgow Polyomics
 continent: EU
 location:

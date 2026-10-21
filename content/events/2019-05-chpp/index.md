@@ -2,7 +2,7 @@
 title: "How the ProteoRE platform can contribute to the
 exploration of the dark side of the Human proteome"
 date: '2019-05-12'
-days: 3
+end: '2019-05-14'
 tease: "ProteoRE"
 continent: EU
 location:

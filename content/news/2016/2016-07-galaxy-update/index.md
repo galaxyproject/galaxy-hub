@@ -24,7 +24,7 @@ Some highlights from the **[July Galaxy News](/galaxy-updates/2016-07/):**
     * [Other Upcoming Events](/galaxy-updates/2016-07/#upcoming-events)
 * [82 new Papers](/galaxy-updates/2016-07/#new-papers)
 * [Open positions](/galaxy-updates/2016-07/#whos-hiring)
-* New [public](/galaxy-updates/2016-07/#new-public-galaxy-servers) and [semi-public](/galaxy-updates/2016-07/#semi-public-galaxy-servers) Galaxy servers
+* New [public](/galaxy-updates/2016-07/#new-public-galaxy-servers) and [semi-public](/galaxy-updates/2016-07/#new-semi-public-galaxy-servers) Galaxy servers
 * A new [community log board entry](/galaxy-updates/2016-07/#galaxy-community-hubs)
 * New [Releases](/galaxy-updates/2016-07/#releases): [blend4php](/galaxy-updates/2016-07/#blend4php-01-alpha), [Planemo](/galaxy-updates/2016-07/#planemo-0270), and [galaxy-lib](/galaxy-updates/2016-07/#galaxy-lib-1678---1679)
 * And [other news](/galaxy-updates/2016-07/#other-news) too.

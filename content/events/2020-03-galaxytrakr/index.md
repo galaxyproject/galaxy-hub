@@ -1,7 +1,7 @@
 ---
 title: "DCLS Introductory Bioinformatics Training using GalaxyTrakr"
 date: '2020-03-02'
-days: 3
+end: '2020-03-04'
 tease: ""
 continent: NA
 location:

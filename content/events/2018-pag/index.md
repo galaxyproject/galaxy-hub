@@ -1,7 +1,7 @@
 ---
 title: Plant & Animal Genome XXVI (PAG 2018)
 date: '2018-01-13'
-days: 5
+end: '2018-01-17'
 tease: Galaxy is for Plants and Animals too...
 continent: NA
 location:

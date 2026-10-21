@@ -1,7 +1,7 @@
 ---
 title: "Analyse RNAseq sous Galaxy"
 date: '2018-10-15'
-days: 2
+end: '2018-10-16'
 tease: "bioinformatique"
 continent: EU
 location:

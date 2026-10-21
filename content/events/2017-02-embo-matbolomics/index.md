@@ -1,7 +1,7 @@
 ---
 title: Using Galaxy workflows for metabolomics
 date: '2017-02-13'
-days: 5
+end: '2017-02-17'
 tease: Part of EMBO practical course
 continent: EU
 location:

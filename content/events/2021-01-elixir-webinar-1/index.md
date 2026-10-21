@@ -1,7 +1,6 @@
 ---
 title: "COVID-19 analysis in Galaxy: Lessons learned and introduction to the series"
 date: '2021-01-20'
-days: 1
 tease: "Open Data Infrastructures to tackle COVID-19 pandemic"
 continent: EU
 location:

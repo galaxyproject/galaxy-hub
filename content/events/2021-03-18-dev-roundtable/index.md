@@ -2,7 +2,6 @@
 title: Bringing GPU support to Galaxy
 date: '2021-03-18'
 tease: Progress towards executing GPU applications in Galaxy
-days: 1
 continent: GL
 location:
   name: Galaxy Developer Roundtable, Online, Global

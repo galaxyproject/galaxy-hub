@@ -13,8 +13,8 @@ location:
   name: VU
   postal: 1082 MK
   street: O|2 Lab Building, Gustav Mahlerlaan 665
-subsites: [eu, erasmusmc]
-main_subsite: erasmusmc
+subsites: [eu]
+main_subsite: eu
 ---
 
 Analysing molecular data in translational medicine involves a multitude of computational steps. Here, we introduce the basics of how to design and run these steps within Galaxy, a free and easy-to-use web platform that enables users to connect bioinformatics tools into a workflow without any prior programming expertise.

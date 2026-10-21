@@ -5,9 +5,8 @@ tease: 'TÜV SÜD has awarded the University''s data centre
   the international certification for information security management systems ISO/IEC 27001.'
 hide_tease: true
 tags: [support]
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
-components: true
 contributions:
   authorship:
     - bgruening
@@ -31,5 +30,7 @@ especially Jan Leendertse, Dirk von Suchodoletz, Marc Herbstritt and the entire 
 
 For further information please visit the official [press release](https://www.pr.uni-freiburg.de/pm/2022/it-sicherheitsmanagement-der-universitaet-freiburg-durch-tuev-sued-zertifiziert).
 
-<Twitter tweet="1488482463248797701"></Twitter>
+<img src="./tweet-1488482463248797701.webp" alt="Post by Universität Freiburg (@UniFreiburg): IT-Sicherheitsmanagement der #UniFreiburg durch TÜV SÜD @tuevsued zertifiziert: ISO27001-Zertifizierung bescheinigt Vertraulichkeit, Integrität und Verfügbarkeit von Forschungsdaten für Maschinensaal II. @UniFreiburgVIVA @bjoerngruening @rzUniFR https://www.pr.uni-freiburg.de/pm/2022/it-sicherheitsmanagement-der-universitaet-freiburg-durch-tuev-sued-zertifiziert …" width="550" height="778" />
+
+*Post by @UniFreiburg on 1 February 2022*
 

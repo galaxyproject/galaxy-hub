@@ -1,7 +1,7 @@
 ---
 title: "Mass Spectrometry (MS)-based multi-omics analysis using the Galaxy-P bioinformatics platform: A case study in COVID19 data analysis"
 date: '2021-05-10'
-days: 4
+end: '2021-05-13'
 tease: "Hands-on: MS-based multi-omics informatics tools, using the investigation of COVID19 proteomics data as a case study."
 continent: NA
 location:

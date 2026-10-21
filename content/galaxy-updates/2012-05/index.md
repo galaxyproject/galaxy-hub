@@ -14,7 +14,7 @@ Welcome to the May 2012 edition of *[Galaxy Update](/galaxy-updates/)*, a monthl
 * The [GCC2012 Training Day](/events/gcc2012/training-day/)
   1. Has less capacity than the 2 days of the [main meeting](/events/gcc2012/program/), and
   2. So far, everyone who has [registered](/events/gcc2012/register/) for the main meeting has also registered for the Training Day.
-* Cheap, *non-shared* rooms in the [James Stuckel Towers](/events/gcc2012/logistics/#james-stuckel-towers) on the UIC campus (and adjacent to the [conference venue](/events/gcc2012/logistics/#venue)) are going fast.
+* Cheap, *non-shared* rooms in the [James Stuckel Towers](/events/gcc2012/logistics/#james-stukel-towers) on the UIC campus (and adjacent to the [conference venue](/events/gcc2012/logistics/#venue)) are going fast.
 * Did we mention that **[Early registration](/events/gcc2012/register/) is now open?**
 
 ### Training Day: We Need Your Help!

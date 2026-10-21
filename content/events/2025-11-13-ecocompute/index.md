@@ -2,7 +2,7 @@
 subsites: [global, eu, freiburg]
 gtn: false
 date: '2025-11-13'
-days: 2
+end: '2025-11-14'
 tags:
 - new event-external
 title: ecoCompute conference 2025

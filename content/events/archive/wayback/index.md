@@ -2106,7 +2106,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
 <a href='/events/sao-paulo2014/'><img src="/images/logos/USP.gif" alt="DNA Sequence Bioinformatics Analysis with the Galaxy Platform" height="80" /></a>
 <a href='/events/eccb2014/'><img src="/images/logos/ECCB2014Logo.png" alt="Galaxy at ECCB" height="80" /></a>
 <a href='http://www.biogenouest.org/agenda/evenement/groupe-de-travail-des-utilisateurs-galaxy-du-grand-ouest-guggo'><img src="/images/logos/eBiogenouestLogo.png" alt="Fourth GUGGO meeting" height="80" /></a> &nbsp;
-<a href='http://australianbioinformatics.net/great-gigascience-galaxy-wkshp'><img src="/images/logos/ABNLogoWText200.jpg" alt="Australian Bioinformatics Network" height="50" /></a> &nbsp;
+<a href='https://web.archive.org/web/20151110123936/http://australianbioinformatics.net/great-gigascience-galaxy-wkshp'><img src="/images/logos/ABNLogoWText200.jpg" alt="Australian Bioinformatics Network" height="50" /></a> &nbsp;
 <a href='http://www.bioinformatica.crs4.it/next_generation_sequencing_course_with_galaxy_september_2014'><img src="/images/logos/CRS4Logo.jpg" alt="Analisi dati Next Generation Sequencing in Galaxy" width="130" /></a> &nbsp;
 <a href='http://www.irb.hr/eng/Research/Divisions-and-Centers/Centre-for-Informatics-and-Computing/News/CIR-Interactive-Workshop-Introduction-to-bioinformatics-analysis-with-Galaxy-application'><img src="/images/logos/IRBLogo300.jpg" alt="CIR Interactive Workshop - Introduction to bioinformatics analysis with Galaxy application" height="70" /></a> &nbsp;
 <a href='/events/sg2014/'><img src="/images/logos/SG2014Logo400.png" alt="2014 Swiss German Galaxy Tour" height="90" /></a>
@@ -2505,7 +2505,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/e
   </tr>
   <tr>
     <th> September 19 </th>
-    <td> <em><a href='http://australianbioinformatics.net/great-gigascience-galaxy-wkshp'>The Great GigaScience and Galaxy (G3) Workshop</a></em> </td>
+    <td> <em><a href='https://web.archive.org/web/20151110123936/http://australianbioinformatics.net/great-gigascience-galaxy-wkshp'>The Great GigaScience and Galaxy (G3) Workshop</a></em> </td>
     <td> The University of Melbourne, Melbourne, Australia </td>
     <td> </td>
     <td> <a href="mailto:nwon AT unimelb DOT edu.au">Nick Wong</a> </td>

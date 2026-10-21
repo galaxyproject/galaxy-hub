@@ -1,7 +1,6 @@
 ---
 title: 'RNAseq analysis with Galaxy'
 date: '2019-03-21'
-days: 1
 tease: "IBPS Galaxy Spring Day 2019"
 continent: EU
 location:

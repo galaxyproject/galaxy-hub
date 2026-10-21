@@ -1,7 +1,6 @@
 ---
 title: "Small Scale Galaxy Admins Meeting"
 date: '2022-03-15'
-days: 1
 tease: 
 continent: GL
 location:

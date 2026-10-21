@@ -2,7 +2,7 @@
 title: "RNA-Seq analysis with Galaxy and R" 
 tease: "Experience with R is required"
 date: '2019-11-20'
-days: 2
+end: '2019-11-21'
 continent: AU
 location:
   name: "Translational Research Institute, Woolloongabba, Queensland, Australia"

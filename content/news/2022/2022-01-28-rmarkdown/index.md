@@ -6,7 +6,7 @@ tease: Further building on the work in the automatic Jupyter Notebook, we’ve n
 hide_tease: true
 tags: [training, gtn-news]
 external_url: https://training.galaxyproject.org/training-material/news/2022/01/28/rmarkdown.html
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   funding:

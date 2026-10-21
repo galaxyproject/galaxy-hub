@@ -1,7 +1,6 @@
 ---
 title: "Restricting the Galaxy Tool Panel"
 date: '2021-07-22'
-days: 1
 tease: "How can we make the tool panel more tractable?"
 continent: GL
 location:

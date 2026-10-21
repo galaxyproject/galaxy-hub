@@ -1,7 +1,7 @@
 ---
 title: "Transcriptomics Data Analysis with Galaxy"
 date: '2022-03-15'
-days: 2
+end: '2022-03-16'
 tease: "This course covers methods to process raw data from genome-wide mRNA expression studies including data normalization, differential expression, clustering, and pathway analysis."
 continent: AS
 location:

@@ -1,7 +1,6 @@
 ---
 title: 'Galaxy Initiation'
 date: '2018-04-23'
-days: 1
 tease: "Savoir analyser ses données sous l’environnement Galaxy"
 continent: EU
 location:

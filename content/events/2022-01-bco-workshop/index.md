@@ -1,7 +1,6 @@
 ---
 title: "BioCompute Database and Transfer Mechanism Development Workshop"
 date: '2022-01-12'
-days: 1
 tease: "This workshop will demonstrate tools available via BioCompute Portal and how they enable interoperability in research and regulatory spaces."
 continent: GL
 location:

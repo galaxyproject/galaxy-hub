@@ -1,7 +1,7 @@
 ---
 title: 'Science Gateways Bootcamp'
 date: '2019-05-13'
-days: 5
+end: '2019-05-17'
 tease: 'Apply by March 22'
 continent: NA
 location:

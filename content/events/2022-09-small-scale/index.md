@@ -1,7 +1,6 @@
 ---
 title: "Small Scale Galaxy Admins Meeting"
 date: '2022-09-20'
-days: 1
 continent: GL
 location: "Online, Global"
 gtn: false

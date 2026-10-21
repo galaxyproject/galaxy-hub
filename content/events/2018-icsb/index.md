@@ -1,7 +1,7 @@
 ---
 title: "Galaxy @ ICSB 2018"
 date: '2018-10-28'
-days: 5
+end: '2018-11-01'
 tease: ""
 continent: EU
 location:

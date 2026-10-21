@@ -3,7 +3,7 @@ subsites:
 - all
 gtn: false
 date: '2025-11-05'
-days: 4
+end: '2025-11-08'
 tags:
 - new event-external
 title: Genome Informatics

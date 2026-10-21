@@ -1,7 +1,7 @@
 ---
 title: 'New Trends in Bioinformatics'
 date: '2020-08-31'
-days: 5
+end: '2020-09-04'
 tease: "Machine Learning and FAIR Workflows"
 continent: EU
 location:

@@ -1,7 +1,6 @@
 ---
 title: "Big Data and Genomics - A Practical Workshop on Sequence Analysis in Parasitology "
 date: '2018-10-28'
-days: 1
 tease: "A Parasitology (ACMCIP) Pre-Meeting Course"
 continent: NA
 location:

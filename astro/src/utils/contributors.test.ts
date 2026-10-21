@@ -1,12 +1,18 @@
 import { describe, expect, it } from 'vitest';
 import {
   buildGtnHallOfFameUrl,
+  communityInHubHallOfFame,
+  communityNameInHubHallOfFame,
   extractAuthors,
   extractFunding,
+  getContributor,
+  getHubHallOfFameUrl,
+  getCommunityImage,
   getCommunityGithubHandle,
   getGrant,
   getOrganisation,
 } from './contributors';
+import { inHubHallOfFame } from './community-base.mjs';
 
 describe('contribution extraction', () => {
   it('includes extended contributions roles for authors', () => {
@@ -49,6 +55,22 @@ describe('community GitHub handles', () => {
   });
 });
 
+describe('community image resolution', () => {
+  it('prefers an explicit avatar over a GitHub fallback', () => {
+    expect(getCommunityImage(getOrganisation('deNBI'))).toBe(
+      'https://training.galaxyproject.org/training-material/shared/images/deNBI.png'
+    );
+  });
+
+  it('falls back to the GitHub avatar when no explicit avatar exists', () => {
+    expect(getCommunityImage(getOrganisation('deKCD'))).toBe('https://github.com/deKCD.png');
+  });
+
+  it('respects github false and returns no image without an avatar', () => {
+    expect(getCommunityImage({ id: 'example', github: false })).toBeUndefined();
+  });
+});
+
 describe('GTN Hall of Fame URLs', () => {
   it('preserves the original community id casing', () => {
     expect(buildGtnHallOfFameUrl('deKCD')).toBe(
@@ -57,7 +79,64 @@ describe('GTN Hall of Fame URLs', () => {
   });
 });
 
+describe('Hub Hall of Fame opt-out', () => {
+  it('links eligible author chips but not opted-out credits', () => {
+    expect(getHubHallOfFameUrl('contributor1')).toBeUndefined();
+    expect(getHubHallOfFameUrl('an-example')).toBeUndefined();
+    expect(getHubHallOfFameUrl('Example organisation')).toBeUndefined();
+    expect(getHubHallOfFameUrl('bgruening')).toBe('/hall-of-fame/bgruening/');
+    expect(getHubHallOfFameUrl('Guest without a record')).toBe('/hall-of-fame/guest-without-a-record/');
+  });
+
+  it('rejects credited opt-outs by ID or display name while retaining unknown credits', () => {
+    expect(communityNameInHubHallOfFame('contributor1')).toBe(false);
+    expect(communityNameInHubHallOfFame('Contributor A')).toBe(true);
+    expect(communityNameInHubHallOfFame('an-example')).toBe(false);
+    expect(communityNameInHubHallOfFame('Example organisation')).toBe(false);
+    expect(communityNameInHubHallOfFame('bgruening')).toBe(true);
+    expect(communityNameInHubHallOfFame('Guest without a record')).toBe(true);
+  });
+
+  it('excludes the GTN build placeholders, which set hub-halloffame: no', () => {
+    for (const id of ['contributor1', 'contributor2', 'awspolly']) {
+      expect(communityInHubHallOfFame(getContributor(id)!)).toBe(false);
+    }
+    expect(communityInHubHallOfFame(getOrganisation('an-example')!)).toBe(false);
+  });
+
+  it('keeps records without the flag', () => {
+    expect(communityInHubHallOfFame(getContributor('bgruening')!)).toBe(true);
+    expect(communityInHubHallOfFame(getOrganisation('deNBI')!)).toBe(true);
+    expect(communityInHubHallOfFame(getGrant('eurosciencegateway')!)).toBe(true);
+  });
+
+  it.each([
+    ['no', false],
+    ['No', false],
+    ['false', false],
+    [false, false],
+    ['0', false],
+    [0, false],
+    ['off', false],
+    ['', false],
+    ['yes', true],
+    [undefined, true],
+    [null, true],
+  ])('reads hub-halloffame %j as %s', (flag, expected) => {
+    expect(inHubHallOfFame({ 'hub-halloffame': flag })).toBe(expected);
+  });
+});
+
 describe('avatar resolution', () => {
+  it('loads contributor metadata from the repo-level YAML files', () => {
+    expect(getContributor('bgruening')).toMatchObject({
+      id: 'bgruening',
+      name: 'Björn Grüning',
+      email: 'bjoern.gruening@gmail.com',
+    });
+    expect(getContributor('bgruening')?.affiliations).toContain('uni-freiburg');
+  });
+
   it('resolves training-material avatar paths to the remote training host', () => {
     expect(getOrganisation('deNBI')?.avatarUrl).toBe(
       'https://training.galaxyproject.org/training-material/shared/images/deNBI.png'

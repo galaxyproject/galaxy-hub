@@ -24,7 +24,7 @@ quotas:
   - "Registered users get 100GB"
   - "Registered Australian users get 600GB"
 citations:
-  - "The Galaxy Community. [The Galaxy platform for accessible,reproducible, and collaborative data analyses: 2024 update](https://doi.org/10.1093/nar/gkae410), *Nucleic Acids Research*, Volume 52, Issue W1, 5 July 2024, Pages W83-W94"
+  - "The Galaxy Community. [Galaxy for accessible, reproducible, and collaborative data analyses: 2026 update](https://doi.org/10.1093/nar/gkag469), *Nucleic Acids Research*, 2026; doi:10.1093/nar/gkag469"
   - "List of [all publications supported by Australian BioCommons](https://www.biocommons.org.au/publications), including Galaxy Australia"
 sponsors:
  - "Galaxy Australia forms part of the national Australian BioCommons infrastructure and is managed by [QCIF](https://www.qcif.edu.au/), [the University of Melbourne](https://www.unimelb.edu.au/) and [AARNet](https://www.aarnet.edu.au/)"

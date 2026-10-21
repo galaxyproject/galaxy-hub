@@ -1,7 +1,6 @@
 ---
 title: Small Scale Galaxy Admins Meeting
 date: '2024-09-19'
-days: 1
 continent: GL
 location:
   name: Online, Global

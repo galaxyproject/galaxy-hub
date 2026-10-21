@@ -1,7 +1,6 @@
 ---
 title: "Genome assembly and annotation using Galaxy"
 date: '2019-04-15'
-days: 1
 tease: "Hands-on analysis of genome assembly and annotation"
 continent: NA
 location:

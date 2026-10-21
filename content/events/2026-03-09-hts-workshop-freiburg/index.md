@@ -3,7 +3,7 @@ subsites:
 - all
 gtn: true
 date: '2026-03-09'
-days: 5
+end: '2026-03-13'
 title: Workshop on high-throughput sequencing data analysis with Galaxy
 contact: Daniela Schneider
 location:

@@ -1,7 +1,7 @@
 ---
 title: "Galaxy-P: an accessible resource for multi-omics analysis"
 date: '2018-02-01'
-days: 4
+end: '2018-02-04'
 tease: "at Lorne Proteomics"
 continent: AU
 location:

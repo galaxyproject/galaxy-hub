@@ -1,7 +1,7 @@
 ---
 title: "Introduction to RNA-seq and functional interpretation"
 date: '2021-03-16'
-days: 4
+end: '2021-03-19'
 tease: "Applications close 22 January"
 continent: EU
 location:

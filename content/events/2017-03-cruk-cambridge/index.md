@@ -1,7 +1,6 @@
 ---
 title:  Introduction to Galaxy - Data Manipulation and Visualisation
 date: '2017-03-07'
-days: 1
 tease: Cambridge, UK, for first time users 
 continent: EU
 location:

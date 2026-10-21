@@ -1,7 +1,7 @@
 ---
 title: "PhagePro - prophage finding tool"
 date: '2021-05-05'
-days: 4
+end: '2021-05-08'
 tease: ""
 continent: EU
 location:

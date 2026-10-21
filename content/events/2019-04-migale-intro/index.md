@@ -1,7 +1,6 @@
 ---
 title: "Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy"
 date: '2019-05-14'
-days: 1
 tease: 'Part of Cycle "Bioinformatique par la pratique" 2019'
 continent: EU
 location:

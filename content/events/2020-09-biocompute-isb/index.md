@@ -1,7 +1,6 @@
 ---
 title: "Biocompute Objects: Methods for communicating provenance of data and analysis"
 date: "2020-09-24"
-days: 1
 tease: ""
 continent: GL
 location:

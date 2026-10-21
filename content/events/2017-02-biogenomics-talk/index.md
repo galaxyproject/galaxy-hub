@@ -1,7 +1,6 @@
 ---
 title: Supporting genomic analysis of diverse organisms using the Galaxy framework
 date: '2017-02-22'
-days: 1
 tease: at the Global Biodiversity Genomics Conference
 continent: NA
 location:

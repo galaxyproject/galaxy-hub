@@ -1,7 +1,7 @@
 ---
 title: "Curs de Bioinformàtica per a la Recerca Biomèdica"
 date: '2022-06-08'
-days: 14
+end: '2022-06-21'
 tease: "overview of the main bioinformatics resources useful in the day-to-day life of biomedical research or clinical practice"
 continent: EU
 location:

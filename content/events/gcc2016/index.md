@@ -1,7 +1,7 @@
 ---
 title: GCC2016
 date: '2016-06-25'
-days: 5
+end: '2016-06-29'
 tease: "The 2016 gathering of the global Galaxy community"
 continent: NA
 location:

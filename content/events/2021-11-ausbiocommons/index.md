@@ -1,7 +1,7 @@
 ---
 title: "Australian BioCommons 2021 Showcase"
 date: '2021-11-03'
-days: 3
+end: '2021-11-05'
 tease: "We’ll meet online over three afternoons to share achievements, challenges and future directions."
 continent: AU
 location:

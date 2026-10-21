@@ -1,7 +1,6 @@
 ---
 title: "Turning Bioconductor workflows into Galaxy tools"
 date: '2017-11-17'
-days: 1
 tease: "after ABACBS"
 continent: AU
 location:

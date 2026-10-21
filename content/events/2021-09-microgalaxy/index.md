@@ -2,7 +2,6 @@
 title: microGalaxy Community Call
 date: '2021-09-23'
 tease: microGalaxy is a new community focusing on microbial analysis with Galaxy
-days: 1
 continent: EU
 location:
   name: Online, Freiburg, Germany

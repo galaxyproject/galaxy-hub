@@ -1,7 +1,6 @@
 ---
 title: "Molecular Dynamics and Analysis using BRIDGE"
 date: '2018-12-06'
-days: 1
 tease: "CHPC workshop"
 continent: AF
 location:

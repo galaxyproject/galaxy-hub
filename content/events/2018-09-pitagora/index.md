@@ -1,7 +1,6 @@
 ---
 title: "Reference-based RNA-Seq data analysis"
 date: '2018-09-03'
-days: 1
 tease: ""
 continent: AS
 location:

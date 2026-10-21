@@ -1,7 +1,6 @@
 ---
 title: Introduction to Genomics in Medicine Using Galaxy  Platform
 date: '2017-05-04'
-days: 1
 tease: Galaxy workshop in Arabic
 continent: AF
 location:

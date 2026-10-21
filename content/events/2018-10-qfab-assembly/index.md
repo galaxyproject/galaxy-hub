@@ -2,7 +2,7 @@
 title: Genome assembly using Galaxy 
 tease: 
 date: '2018-10-02'
-days: 2
+end: '2018-10-03'
 continent: AU
 location:
   name: QFAB, St Lucia, Queensland, Australia

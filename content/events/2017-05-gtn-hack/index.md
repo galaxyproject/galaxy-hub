@@ -2,7 +2,7 @@
 title: ELIXIR/GOBLET/GTN hackathon for Galaxy training material re-use
 tease: Apply by 31 March
 date: '2017-05-22'
-days: 3
+end: '2017-05-24'
 continent: EU
 location:
   name: University of Cambridge, United Kingdom

@@ -1,7 +1,7 @@
 ---
 title: "Building an open, collaborative, online infrastructure for bioinformatics training"
 date: '2018-02-11'
-days: 8
+end: '2018-02-18'
 tease: ""
 continent: EU
 location:

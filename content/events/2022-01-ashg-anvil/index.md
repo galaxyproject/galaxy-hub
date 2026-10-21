@@ -1,7 +1,6 @@
 ---
 title: "Structural variant discovery from long-read sequencing data on the cloud with Galaxy in Terra"
 date: '2022-01-19'
-days: 1
 tease: "Galaxy in AnVIL for structural variants."
 continent: NA
 location:

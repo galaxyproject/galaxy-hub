@@ -1,7 +1,6 @@
 ---
 title: Galaxy workshop at the University of Padua
 date: '2023-07-27'
-days: 1
 tease: "Tips and tricks for using Galaxy"
 continent: EU
 location:

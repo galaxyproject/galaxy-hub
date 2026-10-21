@@ -1,7 +1,7 @@
 ---
 title: 'Human and Vertebrate Genomics: Bioinformatics Tools and Resources'
 date: '2017-08-10'
-days: 3
+end: '2017-08-12'
 tease: ''
 continent: AF
 location:

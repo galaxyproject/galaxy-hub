@@ -1,7 +1,6 @@
 ---
 title: "AI-powered data analysis within the European Galaxy"
 date: '2022-06-07'
-days: 1
 tease: "Workshop at the ELIXIR All Hands 2022"
 continent: EU
 location:

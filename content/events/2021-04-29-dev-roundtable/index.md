@@ -2,7 +2,6 @@
 title: Scalability and Challenges
 date: '2021-04-29'
 tease: ''
-days: 1
 continent: GL
 location:
   name: Galaxy Developer Roundtable, Online, Global

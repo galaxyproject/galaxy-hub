@@ -1,7 +1,7 @@
 ---
 title: 'Galaxy RNA-seq data analysis workshop'
 date: '2019-01-17'
-days: 2
+end: '2019-01-18'
 tease: "Želite li da naučite kako analizirati genomičke podatke?"
 continent: EU
 location:

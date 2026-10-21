@@ -1,7 +1,6 @@
 ---
 title:  "Utilising the genome analysis toolkit (GATK) to identify single nucleotide polymorphisms for use as genetic markers"
 date: '2018-12-11'
-days: 1
 tease: "Finding SNPs for genotyping red mite across Europe" 
 continent: EU
 location:

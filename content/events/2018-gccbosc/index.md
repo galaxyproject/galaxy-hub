@@ -1,7 +1,7 @@
 ---
 title: 'GCCBOSC 2018'
 date: '2018-06-25'
-days: 6
+end: '2018-06-30'
 tease: GCC2018 and BOSC 2018 are joining forces in 2018
 continent: NA
 location:

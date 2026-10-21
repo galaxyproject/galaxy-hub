@@ -1,7 +1,7 @@
 ---
 title: "Bioinformatics for Translational Medicine using Galaxy: see it, do it, teach it"
 date: '2018-10-17'
-days: 3
+end: '2018-10-19'
 tease: "Intro to using Galaxy for translational medicine and how Galaxy can be used in teaching"
 continent: EU
 location:

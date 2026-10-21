@@ -1,7 +1,6 @@
 ---
 title: "Cheminformatics: Screening of the main protease"
 date: '2020-05-14'
-days: 1
 tease: "Part of the Galaxy-ELIXIR webinar series"
 continent: EU
 location:

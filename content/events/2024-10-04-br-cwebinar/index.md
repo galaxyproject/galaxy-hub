@@ -1,7 +1,6 @@
 ---
 title: BRC Analytics Webinar
 date: '2024-10-04'
-days: 1
 tease: "Please join Anton Nekrutenko and the developer team for the first webinar with BRC Analytics!"
 continent: GL
 location:

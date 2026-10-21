@@ -1,7 +1,7 @@
 ---
 title: "Enabling widespread use of Vertebrate Genome Project assembly pipeline by integration into Galaxy"
 date: '2021-11-03'
-days: 3
+end: '2021-11-05'
 tease: ""
 continent: NA
 location:

@@ -1,7 +1,7 @@
 ---
 title: "Analyse fonctionnelle et interprétation de données de protéomique avec ProteoRE"
 date: '2019-03-14'
-days: 2
+end: '2019-03-15'
 tease: "Mis en oeuvre des outils de la plate-forme web ProteoRE pour l'annotation des protéomes"
 continent: EU
 location:

@@ -10,7 +10,7 @@ tags: [newsletter]
 The [March 2018 Galaxy News](/galaxy-updates/2018-03/) brings much news!
 
 * *Lots* of [GCCBOSC 2018 news](/galaxy-updates/2018-03/#gccbosc-2018):
-    * [Abstract submission, registration & housing are open](/galaxy-updates/2018-03/#abstract-submission-registration-and-housing-are-open)
+    * [Abstract submission, registration & housing are open](/galaxy-updates/2018-03/#abstract-submission-registration--housing-are-open)
         * **[Oral presentation abstracts due March 16](https://easychair.org/conferences/?conf=gccbosc2018)**
     * [Training Schedule set](/galaxy-updates/2018-03/#training-schedule-set)
         * 17 topics in 22 sessions over two days covering the full spectrum of open source bioinformatics

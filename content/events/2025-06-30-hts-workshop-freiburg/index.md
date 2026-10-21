@@ -3,7 +3,7 @@ subsites:
 - all
 gtn: true
 date: '2025-06-30'
-days: 5
+end: '2025-07-04'
 title: 'From Data to Discovery: Metagenomics, RNA-Seq - NGS Bioinformatics with Galaxy'
 contact: Daniela Schneider, Teresa Müller
 location:

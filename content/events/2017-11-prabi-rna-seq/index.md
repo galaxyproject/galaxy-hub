@@ -1,7 +1,7 @@
 ---
 title: "Analyse de données RNA-seq sous l’environnement Galaxy"
 date: '2017-11-15'
-days: 3
+end: '2017-11-17'
 tease: "La formation repose sur une riche iconographie"
 continent: EU
 location:

@@ -2,7 +2,7 @@
 title: The ELIXIR tools platform for COVID-19 research at the ECCB2020
 date: '2020-09-10'
 tags: [talk, covid-19, elixir]
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   authorship:
@@ -21,5 +21,7 @@ This global effort involves different ELIXIR nodes and communities starting from
 
 Thank you to all the contributors for this great community effort!
 
-{% twitter https://twitter.com/eccb2020/status/1303316983161782272?s=20%}
+<img src="./tweet-1303316983161782272.webp" alt="Post by ECCB2020 (@eccb2020): Today #ECCB2020 &quot;A glimpse into Global Bioinformatics Communities&quot; showcases 6 European collaborative projects in the context of @ELIXIREurope. Session chaired by #JenHarrow with talks by #SameerVelankar, @macias_jr, @CaucheteurD, @bjoerngruening, @AbdulrahmanAzab, #FloraDAnna." width="550" height="929" />
+
+*Post by @eccb2020 on 8 September 2020*
 

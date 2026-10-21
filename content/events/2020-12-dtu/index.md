@@ -1,7 +1,7 @@
 ---
 title: "Data-intensive science and need of web-based workflow systems for ease of sharing protocols and results: Examples from Galaxy"
 date: '2020-12-14'
-days: 5
+end: '2020-12-18'
 tease: ""
 continent: AS
 location:

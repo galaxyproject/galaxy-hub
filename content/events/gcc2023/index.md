@@ -1,10 +1,10 @@
 ---
 title: "2023 Galaxy Community Conference (GCC2023)"
 date: '2023-07-10'
+end: '2023-07-16'
 skip_title_render: true
 autotoc: false
 hide_metadata: true
-days: 7
 tease: "The annual gathering of the Galaxy Community with opportunities to hear latest developments, get training, and meet everyone involved."
 continent: AU
 location:

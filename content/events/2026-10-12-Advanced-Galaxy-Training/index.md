@@ -3,7 +3,7 @@ subsites:
 - all
 gtn: true
 date: '2026-10-12'
-days: 5
+end: '2026-10-16'
 title: 'Galaxy Beyond Basics: Mastering Workflows, Automation, and Scalability'
 contact: Anthony Bretaudeau, Bérénice Batut, Gildas Le Corguillé, Solenne Correard,
   Marie Josse, Laura Leroi, Loraine Guéguen, Clea Siguret, Romane LIBOUBAN, Fabien

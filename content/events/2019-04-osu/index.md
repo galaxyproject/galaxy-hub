@@ -2,7 +2,6 @@
 title: "Recent Developments in Galaxy" 
 tease: "in 5 minutes or less"
 date: '2019-04-19'
-days: 1
 continent: NA
 location:
   name: "CGRB Spring Conference 2019, Oregon State University, Corvallis, Oregon, United States"

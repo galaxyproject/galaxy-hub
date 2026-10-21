@@ -18,13 +18,13 @@ contributions:
 
 We thank everyone for their support during the [__Plant Transcriptome Analysis using Galaxy__](https://docs.google.com/document/d/1Y5MqYmMxFCy7PDImYYuHLhgCKVV7MjoGMr22G2U68Ec/preview) workshop that took place online in the week of the 19th of April. The workshop offered a complete crash course in Galaxy and built towards __miRNA and single-cell RNA topics__ that were tailored for _Arabidopsis_ genomes.
 
-![Flyer](/assets/media/plant_workshop/plants_workshop_flyer.png)
+![Flyer](/assets/media/plant-workshop/plants_workshop_flyer.png)
 
 # Plants flavour: [plants.usegalaxy.eu](https://plants.usegalaxy.eu/)
 
 A [__special flavour of the European Galaxy Server__](https://galaxyproject.eu/posts/2020/12/28/subdomains/) was set up for this workshop, filtering the tools by their relevance to the plant research field.
 
-![Plants subdomain](/assets/media/plant_workshop/plants_subdomain.png)
+![Plants subdomain](/assets/media/plant-workshop/plants_subdomain.png)
 
 # Format
 
@@ -32,17 +32,19 @@ To better empower those who require more flexible time schedules, the workshop w
 
 During the training week, __24 experts from different time zones were available in chat__ to answer the questions. A huge shout out to all of them for the support!
 
-{% twitter https://twitter.com/Birthae/status/1383759597526163463 %}
+<img src="./tweet-1383759597526163463.webp" alt="Post by Beatriz Serrano (@Birthae): We are all set for our #UseGalaxy plant-focused training event starting tomorrow with 400+ participants. Join us any time. All lectures are recorded, with captions, workflows &amp; histories. 24 experts will support you throughout the week. @nfdi4plants" width="550" height="684" />
+
+*Post by @Birthae on 18 April 2021*
 
 # Participation
 
 Participants attended from __all over the globe__, enabled by the flexible learning resources provided, with a particular interest in the RNA-based tutorials available in the [Galaxy Training Network (GTN)](https://training.galaxyproject.org/). 
 
-![Participation by country](/assets/media/plant_workshop/worldstats.png)
+![Participation by country](/assets/media/plant-workshop/worldstats.png)
 
 The registration was over 460 participants and close to 200 join the chat platform. The __career stage__ by country indicates enrichment in postgraduates, master and PhD students.
 
-![Career stage by country](/assets/media/plant_workshop/career_stage.png)
+![Career stage by country](/assets/media/plant-workshop/career_stage.png)
 
 
 # Feedback

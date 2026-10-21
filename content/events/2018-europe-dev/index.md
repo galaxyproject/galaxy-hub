@@ -1,7 +1,7 @@
 ---
 title: "European Galaxy Days"
 date: '2018-11-19'
-days: 2
+end: '2018-11-20'
 tease:
 continent: EU
 location:

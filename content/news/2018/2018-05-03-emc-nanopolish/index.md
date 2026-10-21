@@ -3,8 +3,8 @@ title: Nanopolish tools for signal-level analysis of Oxford Nanopore sequencing 
   is now available in Galaxy
 date: '2018-05-03'
 tags: [tools]
-subsites: [eu, erasmusmc]
-main_subsite: erasmusmc
+subsites: [eu]
+main_subsite: eu
 ---
 
 [Nanopolish](https://github.com/jts/nanopolish) is a popular tool suite for working with data produced by the Nanopore sequencing platform. We are pleased to announce that the demanding tools have been integrated into the Galaxy platform and are available on [our server]({{ site.team_sites[page.site].galaxy_server }}).

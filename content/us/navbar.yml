@@ -7,3 +7,6 @@ left:
     - label: Events
       relativeTo: subsite
       target: events/
+    - label: Tools
+      relativeTo: subsite
+      target: tools/

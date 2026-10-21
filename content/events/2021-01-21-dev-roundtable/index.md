@@ -2,7 +2,6 @@
 title: 'Galaxy Developer Roundtable: FastAPI'
 date: '2021-01-21'
 tease: ''
-days: 1
 continent: GL
 location:
   name: Online, Global

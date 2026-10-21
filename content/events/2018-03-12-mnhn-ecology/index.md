@@ -1,7 +1,6 @@
 ---
 title: "Galaxy : Traitement de données de macro-écologie par Galaxy-E"
 date: '2018-03-12'
-days: 1
 tease: "analyse de données de macroécologie via Galaxy-E"
 continent: EU
 location:

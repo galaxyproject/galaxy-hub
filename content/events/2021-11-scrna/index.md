@@ -1,8 +1,8 @@
 ---
 title: Single-Cell RNAseq Training Course 2021
 date: '2021-11-01'
+end: '2021-11-04'
 tease: Course is full
-days: 4
 continent: EU
 location:
   name: Earlham Institute, Virtual, United Kingdom

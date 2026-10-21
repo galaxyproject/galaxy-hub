@@ -99,4 +99,22 @@ describe('generate-search-index hall-of-fame entries', () => {
     expect(contributorEntry).toBeDefined();
     expect(contributorEntry.organisations).toContain('deNBI');
   });
+
+  it('skips records that opt out with hub-halloffame: no', () => {
+    const communityData = {
+      contributors: {
+        contributor1: { name: 'Contributor A', 'hub-halloffame': 'no' },
+        alice: { name: 'Alice Example' },
+      },
+      organisations: {
+        'an-example': { name: 'Example organisation', 'hub-halloffame': 'no' },
+      },
+      grants: {},
+      lookups: { contributors: new Set(), organisations: new Set(), grants: new Set() },
+    };
+
+    const slugs = buildHallOfFameEntries(communityData).map((entry) => entry.slug);
+
+    expect(slugs).toEqual(['hall-of-fame/alice']);
+  });
 });

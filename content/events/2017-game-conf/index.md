@@ -2,7 +2,7 @@
 title: GAMe 2017 Conference
 external_url: https://www.emblaustralia.org/events-speakers/public-events/game-2017-galaxy-australasia-meeting
 date: '2017-02-04'
-days: 2
+end: '2017-02-05'
 tease: Galaxy Australasia Meeting
 continent: AU
 location:

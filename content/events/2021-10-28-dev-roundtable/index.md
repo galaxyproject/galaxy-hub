@@ -2,7 +2,6 @@
 title: Image analysis in Galaxy - pain points and lessons learnt
 date: '2021-10-28'
 tease: Join the discussion.
-days: 1
 continent: GL
 location:
   name: Galaxy Developer Roundtable, Online, Global

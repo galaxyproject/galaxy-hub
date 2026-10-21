@@ -6,7 +6,7 @@ Operative,Tier,URL,Referenced_Directory
 1,2,africa.usegalaxy.eu,https://github.com/galaxyproject/galaxy-hub/blob/main/content/use/galaxy-africa/index.md?plain=1
 1,2,india.usegalaxy.eu,https://github.com/galaxyproject/galaxy-hub/blob/main/content/use/galaxy-india/index.md?plain=1
 1,2,usegalaxy.be,https://github.com/galaxyproject/galaxy-hub/blob/main/content/use/usegalaxy-be/index.md?plain=1
-1,2,usegalaxy.ca,
+1,2,usegalaxy.ca,https://github.com/galaxyproject/galaxy-hub/blob/main/content/use/usegalaxy-ca/index.md?plain=1
 1,2,usegalaxy.cz,https://github.com/galaxyproject/galaxy-hub/blob/main/content/use/usegalaxy-cz/index.md?plain=1
 1,2,usegalaxy.es,
 1,2,usegalaxy.it,
@@ -15,7 +15,6 @@ Operative,Tier,URL,Referenced_Directory
 1,3,assembly.usegalaxy.eu,
 1,3,astronomy.usegalaxy.eu,
 1,3,cancer.usegalaxy.eu,
-1,3,erasmusmc.usegalaxy.eu,https://github.com/galaxyproject/galaxy-hub/blob/main/content/use/erasmus-mc/index.md?plain=1
 1,3,https://annotation.usegalaxy.eu/,https://github.com/galaxyproject/galaxy-hub/blob/main/content/use/gga/index.md?plain=1
 1,3,https://cheminformatics.usegalaxy.eu/,https://github.com/galaxyproject/galaxy-hub/blob/main/content/use/chemicaltoolbox/index.md?plain=1
 1,3,https://climate.usegalaxy.eu/,https://github.com/galaxyproject/galaxy-hub/blob/main/content/use/climate-science-workbench/index.md?plain=1

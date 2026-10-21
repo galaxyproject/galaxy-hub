@@ -1,8 +1,8 @@
 ---
 title: Galaxy and Jupyter for RNA-Seq and complex data analyses
 date: '2021-04-12'
+end: '2021-04-16'
 tease: Next generation sequencing for RNA-Seq and Epigenetics
-days: 5
 continent: EU
 location:
   name: de.NBI / de.STAIR, Online, Germany

@@ -1,7 +1,6 @@
 ---
 title: "Custos in Galaxy - authentication and future directions"
 date: '2021-02-18'
-days: 1
 tease: "Security, security, security."
 continent: GL
 location:

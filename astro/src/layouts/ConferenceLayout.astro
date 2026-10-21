@@ -5,6 +5,7 @@ import ContentWithToc from '../components/layout/ContentWithToc.astro';
 import SupporterGrid from '../components/content/SupporterGrid.astro';
 import Icon from '../components/ui/Icon.astro';
 import type { SupporterProfile } from '../utils/supporters';
+import { formatDateRange } from '../utils/dateUtils';
 
 interface Heading {
   depth: number;
@@ -64,28 +65,6 @@ function toDate(d: Date | string | undefined): Date | null {
   return d instanceof Date ? d : new Date(d);
 }
 
-function formatDate(dateValue: Date | string | undefined): string {
-  const d = toDate(dateValue);
-  if (!d) return '';
-  return d.toLocaleDateString('en-US', {
-    weekday: 'long',
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-    timeZone: 'UTC',
-  });
-}
-
-function formatDateRange(start: Date | string | undefined, endDate?: Date | string): string {
-  const startD = toDate(start);
-  const endD = toDate(endDate);
-  if (!startD) return '';
-  if (!endD || startD.getTime() === endD.getTime()) {
-    return formatDate(startD);
-  }
-  return `${formatDate(startD)} - ${formatDate(endD)}`;
-}
-
 function toISOString(d: Date | string | undefined): string {
   const dateObj = toDate(d);
   return dateObj ? dateObj.toISOString() : '';
@@ -97,6 +76,9 @@ function getLocationText(loc: string | LocationData | null | undefined): string 
   const parts = [loc.name, loc.city, loc.country].filter(Boolean);
   return parts.join(', ');
 }
+
+// The first subnav item is the conference home page; anything else is a subpage.
+const isSubpage = subnavItems.length > 0 && !subnavItems[0].active;
 
 const hasMetadata =
   showMetadata &&
@@ -111,116 +93,107 @@ const hasMetadata =
 
 <BaseLayout title={title || 'Conference'} description={description}>
   <article class="max-w-6xl mx-auto bg-white relative">
-    {
-      hasMetadata && (
-        <PageHeader title={title || 'Conference'} description={description} tags={tags} authors={authors}>
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm mt-4">
-            {date && (
-              <div class="flex items-start gap-3 text-white/80">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5 text-galaxy-gold flex-shrink-0 mt-0.5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-                  />
-                </svg>
-                <div>
-                  <span class="block font-medium text-white">Date</span>
-                  <time datetime={toISOString(date)}>{formatDateRange(date, end)}</time>
-                </div>
-              </div>
-            )}
+    {hasMetadata && <div class:list={['conference-hero', isSubpage && 'is-subpage']}>
+      <PageHeader title={title || 'Conference'} description={description} tags={tags} authors={authors}>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm mt-4">
+          {date && <div class="flex items-start gap-3 text-white/80">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5 text-galaxy-gold flex-shrink-0 mt-0.5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+              />
+            </svg>
+            <div>
+              <span class="block font-medium text-white">Date</span>
+              <time datetime={toISOString(date)}>{formatDateRange(date, end, { short: false, weekday: true })}</time>
+            </div>
+          </div>}
 
-            {location && (
-              <div class="flex items-start gap-3 text-white/80">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5 text-galaxy-gold flex-shrink-0 mt-0.5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                  />
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                  />
-                </svg>
-                <div>
-                  <span class="block font-medium text-white">Location</span>
-                  <span>{getLocationText(location)}</span>
-                </div>
-              </div>
-            )}
+          {location && <div class="flex items-start gap-3 text-white/80">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5 text-galaxy-gold flex-shrink-0 mt-0.5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+              />
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+              />
+            </svg>
+            <div>
+              <span class="block font-medium text-white">Location</span>
+              <span>{getLocationText(location)}</span>
+            </div>
+          </div>}
 
-            {contacts.length > 0 && (
-              <div class="flex items-start gap-3 text-white/80">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5 text-galaxy-gold flex-shrink-0 mt-0.5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
-                  />
-                </svg>
-                <div>
-                  <span class="block font-medium text-white">Contact</span>
-                  <span>
-                    {contacts
-                      .map((c) => c.name || c.email)
-                      .filter(Boolean)
-                      .join(', ')}
-                  </span>
-                </div>
-              </div>
-            )}
-          </div>
-          {subnavItems.length > 0 && (
-            <nav class="conference-subnav" aria-label="Conference pages">
-              {subnavItems.map((item) => (
-                <a href={item.href} class:list={['conference-subnav-link', item.active && 'is-active']}>
-                  {item.label}
-                </a>
-              ))}
-            </nav>
-          )}
-        </PageHeader>
-      )
-    }
+          {contacts.length > 0 && <div class="flex items-start gap-3 text-white/80">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5 text-galaxy-gold flex-shrink-0 mt-0.5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+              />
+            </svg>
+            <div>
+              <span class="block font-medium text-white">Contact</span>
+              <span>
+                {contacts
+                  .map((c) => c.name || c.email)
+                  .filter(Boolean)
+                  .join(', ')}
+              </span>
+            </div>
+          </div>}
+        </div>
+        {subnavItems.length > 0 && <div class="conference-subnav-slot">
+          <span class="conference-subnav-sentinel" aria-hidden="true"></span>
+          <nav class="conference-subnav" aria-label="Conference pages">
+            {subnavItems.map((item) => <a
+              href={item.href}
+              class:list={['conference-subnav-link', item.active && 'is-active']}
+              aria-current={item.active ? 'page' : undefined}
+            >
+              {item.label}
+            </a>)}
+          </nav>
+        </div>}
+      </PageHeader>
+    </div>}
 
     <ContentWithToc headings={headings} autotoc={autotoc}>
       <slot />
     </ContentWithToc>
 
     <footer class="px-6 sm:px-8 pb-6 sm:pb-8 mt-8">
-      {
-        supporters.length > 0 && (
-          <div class="mb-6">
-            <SupporterGrid supporters={supporters} title="Supporters" />
-          </div>
-        )
-      }
-      <div class="flex justify-between items-center pt-4 border-t border-gray-200">
+      {supporters.length > 0 && <div class="mb-6">
+        <SupporterGrid supporters={supporters} title="Supporters" />
+      </div>}
+      <div class="flex justify-between items-center pt-4 border-t border-ebony-clay-100">
         <a
           href="/events/"
           class="text-galaxy-primary hover:text-galaxy-gold flex items-center gap-1.5 font-medium transition-colors"
@@ -233,24 +206,20 @@ const hasMetadata =
             href={editUrl}
             target="_blank"
             rel="noopener noreferrer"
-            class="text-gray-500 hover:text-galaxy-primary flex items-center gap-1.5 transition-colors"
+            class="text-chicago-500 hover:text-galaxy-primary flex items-center gap-1.5 transition-colors"
           >
             <Icon name="edit" />
             Edit on GitHub
           </a>
-          {
-            externalUrl && (
-              <a
-                href={externalUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                class="inline-flex items-center gap-2 px-4 py-2 bg-galaxy-primary text-white rounded-md hover:bg-galaxy-primary/90 transition-colors"
-              >
-                Visit Event Website
-                <Icon name="external-link" />
-              </a>
-            )
-          }
+          {externalUrl && <a
+            href={externalUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-4 py-2 bg-galaxy-primary text-white rounded-md hover:bg-galaxy-primary/90 transition-colors"
+          >
+            Visit Event Website
+            <Icon name="external-link" />
+          </a>}
         </div>
       </div>
     </footer>
@@ -298,4 +267,99 @@ const hasMetadata =
     color: #fff;
     font-weight: 600;
   }
+
+  .conference-subnav-sentinel {
+    display: block;
+  }
+
+  /* Phones: one swipeable row of pills instead of five wrapped rows, a tighter hero on
+     subpages, and the same row pinned under the site header once it scrolls up to it. */
+  @media (max-width: 639.98px) {
+    /* Fixed height so the slot reserves the row's space while it's pinned */
+    .conference-subnav-slot {
+      --conference-subnav-height: 3.25rem;
+      height: calc(1.25rem + var(--conference-subnav-height));
+      padding-top: 1.25rem;
+    }
+
+    .conference-subnav {
+      height: var(--conference-subnav-height);
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 0.5rem;
+      margin: 0 -1.25rem;
+      padding-top: 0;
+      padding-inline: 1rem;
+      overflow-x: auto;
+      overscroll-behavior-x: contain;
+      scroll-snap-type: x proximity;
+      scrollbar-width: none;
+      -webkit-overflow-scrolling: touch;
+      /* Fade the edges so it's obvious the row scrolls sideways */
+      mask-image: linear-gradient(to right, transparent 0, #000 1rem, #000 calc(100% - 1.5rem), transparent 100%);
+    }
+
+    .conference-subnav::-webkit-scrollbar {
+      display: none;
+    }
+
+    .conference-subnav-link {
+      flex: none;
+      scroll-snap-align: start;
+      white-space: nowrap;
+      font-size: 0.875rem;
+    }
+
+    .conference-subnav.is-stuck {
+      position: fixed;
+      top: var(--site-header-height);
+      left: 0;
+      right: 0;
+      z-index: 40;
+      margin: 0;
+      border-top: 0;
+      border-bottom: 3px solid var(--color-galaxy-gold);
+      background: linear-gradient(135deg, var(--color-galaxy-dark) 0%, var(--color-galaxy-primary) 100%);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+      mask-image: none;
+    }
+
+    .conference-hero :global(.page-header) {
+      padding: 1.75rem 1.25rem 1.25rem;
+    }
+
+    .conference-hero.is-subpage :global(.page-header h1) {
+      font-size: 1.5rem;
+      line-height: 2rem;
+    }
+
+    .conference-hero.is-subpage :global(.page-header-content > p) {
+      display: none;
+    }
+  }
 </style>
+
+<script>
+  // Phones: start with the active pill in view, and pin the row (via CSS on `is-stuck`) once the
+  // sentinel above it passes under the fixed site header.
+  let observer: IntersectionObserver | undefined;
+
+  document.addEventListener('astro:page-load', () => {
+    observer?.disconnect();
+    const sentinel = document.querySelector('.conference-subnav-sentinel');
+    const nav = document.querySelector<HTMLElement>('.conference-subnav');
+    if (!sentinel || !nav) return;
+
+    const active = nav.querySelector<HTMLElement>('.is-active');
+    if (active) nav.scrollLeft = active.offsetLeft - (nav.clientWidth - active.offsetWidth) / 2;
+
+    const headerHeight = document.querySelector<HTMLElement>('.site-mobile-header')?.offsetHeight ?? 0;
+    nav.style.setProperty('--site-header-height', `${headerHeight}px`);
+    observer = new IntersectionObserver(
+      ([entry]) => nav.classList.toggle('is-stuck', entry.boundingClientRect.top < headerHeight),
+      { rootMargin: `-${headerHeight}px 0px 0px 0px` }
+    );
+    observer.observe(sentinel);
+  });
+</script>

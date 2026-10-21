@@ -1,7 +1,6 @@
 ---
 title: "Galaxy Community Call: Galaxy Total Perspective Vortex"
 date: '2023-05-25'
-days: 1
 tease: "A forum to share updates and discuss community-wide topics"
 continent: GL
 location:

@@ -1,7 +1,6 @@
 ---
 title: "Genome Assembly and Annotation"
 date: '2021-12-02'
-days: 1
 tease: 'Using Galaxy and the command line. Register by 25 November.'
 continent: EU
 location:

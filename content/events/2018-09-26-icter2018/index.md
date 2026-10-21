@@ -1,7 +1,6 @@
 ---
 title: "An Introduction to the Galaxy Platform for Computational Biology"
 date: '2018-09-26'
-days: 1
 tease: ""
 continent: AS
 location:

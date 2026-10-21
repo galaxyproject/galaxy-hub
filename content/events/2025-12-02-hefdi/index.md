@@ -3,7 +3,6 @@ subsites:
 - all
 gtn: false
 date: '2025-12-03'
-days: 1
 title: Introduction to Galaxy, the Open-Source Platform for FAIR Data Analysis (in
   German)
 contact: Daniela Schneider

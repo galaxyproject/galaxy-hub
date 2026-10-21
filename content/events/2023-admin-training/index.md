@@ -1,7 +1,7 @@
 ---
 title: "2023 Galaxy Admin Training"
 date: '2023-04-17'
-days: 5
+end: '2023-04-21'
 tease: "The ins and outs of setting up your own production quality Galaxy server"
 continent: EU
 location:

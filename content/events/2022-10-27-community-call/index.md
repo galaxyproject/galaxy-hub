@@ -2,7 +2,6 @@
 title: 'Galaxy Community Call: Galaxy Release Process: Overview and Coming Changes'
 date: '2022-10-27'
 tease: A forum to share updates and discuss community-wide topics
-days: 1
 continent: GL
 location:
   name: Galaxy Community Call, Online, Global

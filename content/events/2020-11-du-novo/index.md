@@ -1,7 +1,6 @@
 ---
 title: "Ultra-Low Variant Detection: Du Novo Sequencing"
 date: '2020-11-10'
-days: 1
 tease: "A GalaxyPro Webinar"
 continent: NA
 location:

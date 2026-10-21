@@ -1,7 +1,6 @@
 ---
 title: "Galaxy Community Call: 2023 Galaxy Roadmap"
 date: '2023-03-02'
-days: 1
 tease: "A forum to share updates and discuss community-wide topics"
 continent: GL
 location:

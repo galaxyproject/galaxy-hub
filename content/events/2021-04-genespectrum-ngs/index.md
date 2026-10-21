@@ -1,7 +1,7 @@
 ---
 title: "NGS Data Analysis with Galaxy"
 date: '2021-04-19'
-days: 4
+end: '2021-04-22'
 tease: "NGS data analysis harnessing the power of Galaxy"
 continent: AS
 location:

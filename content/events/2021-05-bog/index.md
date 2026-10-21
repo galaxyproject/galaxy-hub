@@ -1,7 +1,7 @@
 ---
 title: "Galaxy @ 2021 Biology of Genomes"
 date: '2021-05-11'
-days: 5
+end: '2021-05-15'
 tease: ""
 continent: NA
 location:

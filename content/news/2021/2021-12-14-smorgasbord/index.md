@@ -3,7 +3,7 @@ title: '[GTN news] GTN Smörgåsbord 2: Tapas Edition'
 date: '2021-12-14'
 tags: [training, gtn-news]
 external_url: https://training.galaxyproject.org/training-material/news/2021/12/14/smorgasbord.html
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   funding:

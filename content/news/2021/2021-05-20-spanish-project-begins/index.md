@@ -3,7 +3,7 @@ title: '[GTN news] ¿Hablas español?: The first curated tutorial in Spanish!'
 date: '2021-05-20'
 tags: [training, gtn-news]
 external_url: https://training.galaxyproject.org/training-material/news/2021/05/20/spanish_project_begins.html
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   funding:

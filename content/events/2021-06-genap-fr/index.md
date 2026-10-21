@@ -1,7 +1,6 @@
 ---
 title: "Comment GenAP peut vous aider à analyser et partager vos données"
 date: "2021-06-17"
-days: 1
 tease: "L’équipe du projet GenAP vous propose un webinaire gratuit"
 continent: NA
 location:

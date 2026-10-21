@@ -1,7 +1,6 @@
 ---
 title: "Galaxy Australia COVID-19 Dedicated Pulsar"
 date: "2020-07-31"
-days: 1
 tease: ""
 continent: AU
 location:

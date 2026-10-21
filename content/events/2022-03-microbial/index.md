@@ -1,9 +1,9 @@
 ---
 title: Microbial Community Analysis Workshop 2022
 date: '2022-03-29'
+end: '2022-03-31'
 tease: Microbiome analysis going from samples, to sequencing, to numerical ecology
   analysis
-days: 3
 continent: EU
 location:
   name: Earlham Institute & Quadram Institute, Virtual, United Kingdom

@@ -201,13 +201,13 @@ Now the above entry still works, but the following entry is also ok (notice the 
 * ***Aug***
     * [GCC2012 & GCC2013](/galaxy-updates/2012-08/#gcc2012--gcc2013): slides and video
     * [29 new papers](/galaxy-updates/2012-08/#new-papers)
-    * [Tool Shed Contributions](/galaxy-updates/2012-08/#toolshed-contributions)
+    * [Tool Shed Contributions](/galaxy-updates/2012-08/#tool-shed-contributions)
 * ***Sept***
     * [41 new papers](/galaxy-updates/2012-09/#new-papers)
     * [3 new public Galaxy Servers](/galaxy-updates/2012-09/#new-public-servers)
     * [Upcoming Events and Deadlines](/galaxy-updates/2012-09/#upcoming-events-and-deadlines)
     * [New Galaxy-France mailing list](/galaxy-updates/2012-09/#new-galaxy-france-mailing-list)
-    * [Tool Shed Contributions](/galaxy-updates/2012-09/#toolshed-contributions)
+    * [Tool Shed Contributions](/galaxy-updates/2012-09/#tool-shed-contributions)
 
 ## Swiss Galaxy Day
 

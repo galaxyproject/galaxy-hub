@@ -1,7 +1,6 @@
 ---
 title: "Speed up your data analysis with Galaxy: Features no one knows about"
 date: '2021-03-24'
-days: 1
 tease: "Cool stuff like using your own reference genome, restarting tools & workflows, visualizations, ..."
 continent: EU
 location:

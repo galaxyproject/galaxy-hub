@@ -4,7 +4,6 @@ _examples: |
     2025-10-07-spoc_meet:
         title: Single-cell & sPatial Omics Community Meeting
         date: 2025-10-07
-        days: 1
         continent: GL
         subsites: [all-eu, global, us]
         location:
@@ -16,15 +15,20 @@ mapping:
             title:
                 type: str
                 description: Event title
+            nav_title:
+                type: str
+                description: Override label shown in conference sub-navigation
+            nav_order:
+                type: int
+                range:
+                    min: 1
+                description: Position in conference sub-navigation. Lower numbers come first, pages sharing a number are sorted alphabetically, and pages without one follow alphabetically after all numbered pages
             date:
                 type: any
                 description: Start date (YYYY-MM-DD)
             end:
                 type: any
-                description: End date (optional, YYYY-MM-DD)
-            days:
-                type: int
-                description: Number of days
+                description: Last day of a multi-day event (optional, YYYY-MM-DD)
             tease:
                 type: str
             hide_tease:

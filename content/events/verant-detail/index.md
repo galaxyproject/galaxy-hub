@@ -3,7 +3,6 @@ subsites:
 - all
 gtn: false
 date: '2025-05-26'
-days: 1
 title: 'Bioinformatics Made Easy: A Hands-On Galaxy Workshop for Biologists'
 contact: Sarah Büker
 location:

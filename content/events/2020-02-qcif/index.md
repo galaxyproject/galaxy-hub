@@ -1,7 +1,6 @@
 ---
 title: "NGS Platforms: how data generation impacts bioinformatics analysis"
 date: '2020-02-17'
-days: 1
 tease: "A hands-on introduction to NGS analysis, including common workflows, QC, and Galaxy Australia"
 continent: AU
 location:

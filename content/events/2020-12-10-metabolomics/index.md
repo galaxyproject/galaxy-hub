@@ -10,7 +10,7 @@ gtn: false
 continent: EU
 location:
   name: online
-subsites: [global, us, eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [global, us, eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 ---
 

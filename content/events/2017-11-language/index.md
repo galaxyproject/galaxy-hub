@@ -1,7 +1,6 @@
 ---
 title: "Adapting Galaxy for language processing"
 date: '2017-11-03'
-days: 1
 tease: 'Applying Galaxy outside life sciences'
 continent: GL
 location:

@@ -1,7 +1,6 @@
 ---
 title: Galaxy Course Brazil!
 date: '2024-11-19'
-days: 1
 continent: SA
 location:
   name: "Curitiba, Brazil"

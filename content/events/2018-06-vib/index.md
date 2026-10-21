@@ -1,7 +1,6 @@
 ---
 title: "Introduction to Galaxy"
 date: '2018-06-26'
-days: 1
 tease: "familiarise yourself with the Galaxy user interface"
 continent: EU
 location:

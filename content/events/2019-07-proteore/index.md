@@ -1,7 +1,7 @@
 ---
 title: "Analyse fonctionnelle et interprétation de données de protéomique avec la plate-forme ProteoRE"
 date: '2019-07-10'
-days: 2
+end: '2019-07-11'
 tease: "ProteoRE permet d'exécuter des outils d'annotation et de visualisation graphique, de construire et de partager des chaînes complètes d'analyse via des interfaces utilisateurs documentées"
 continent: EU
 location:

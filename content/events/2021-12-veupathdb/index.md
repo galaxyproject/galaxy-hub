@@ -1,7 +1,7 @@
 ---
 title: "VEuPathDB Workshop 2021"
 date: "2021-12-13"
-days: 4
+end: "2021-12-16"
 tease: "A free 4-day virtual workshop"
 continent: GL
 location:

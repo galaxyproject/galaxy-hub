@@ -1,3 +1,7 @@
+---
+title: Astrophysics success story
+---
+
 ## Our community onboarding
 
 ### How did we get to know about Galaxy project and framework and its potential

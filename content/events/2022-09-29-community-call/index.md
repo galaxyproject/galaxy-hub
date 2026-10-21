@@ -3,7 +3,6 @@ title: 'Galaxy Community Call: Workflows, Planemo, BioBlend and tags to automate
   genome surveillance'
 date: '2022-09-29'
 tease: A forum to share updates and discuss community-wide topics
-days: 1
 continent: GL
 location:
   name: Galaxy Community Call, Online, Global

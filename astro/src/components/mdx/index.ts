@@ -2,7 +2,6 @@
 // Import these components to pass to MDX Content
 
 export { default as VegaEmbed } from './VegaEmbed.astro';
-export { default as Twitter } from './Twitter.astro';
 export { default as Mastodon } from './Mastodon.astro';
 export { default as VideoPlayer } from './VideoPlayer.astro';
 export { default as Carousel } from './Carousel.astro';
@@ -13,13 +12,19 @@ export { default as Supporters } from './Supporters.astro';
 export { default as Contacts } from './Contacts.astro';
 export { default as Icon } from './Icon.astro';
 export { default as CopyButton } from './CopyButton.astro';
+export { default as EuIntro } from './EuIntro.astro';
+export { default as AgentShells } from './AgentShells.astro';
+export { default as HarnessGuides } from './HarnessGuides.astro';
+export { default as HarnessGuide } from './HarnessGuide.astro';
+export { default as AgenticStack } from './AgenticStack.astro';
+export { default as AgentsLanding } from './AgentsLanding.astro';
+export { default as OrbitHero } from './OrbitHero.astro';
 
 // Component map using kebab-case keys for MDX
 // Note: When passing to MDX Content, use the PascalCase exports above
 // This map is for reference of kebab-case names used in content
 export const componentMapping = {
   'vega-embed': 'VegaEmbed',
-  twitter: 'Twitter',
   mastodon: 'Mastodon',
   'video-player': 'VideoPlayer',
   carousel: 'Carousel',

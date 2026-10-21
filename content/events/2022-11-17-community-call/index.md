@@ -1,7 +1,6 @@
 ---
 title: "Galaxy Community Call: The new GTN course builder"
 date: '2022-11-17'
-days: 1
 tease: "A forum to share updates and discuss community-wide topics"
 continent: GL
 location:

@@ -1,7 +1,6 @@
 ---
 title: "Galaxy Browser Dev Environment Update; plus Gitpod"
 date: '2021-06-10'
-days: 1
 tease: "Environments for Galaxy Development"
 continent: GL
 location:

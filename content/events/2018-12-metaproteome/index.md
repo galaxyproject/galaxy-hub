@@ -1,7 +1,7 @@
 ---
 title:  "Galaxy-P @ Metaproteome Symposium 2018"
 date: '2018-12-03'
-days: 3
+end: '2018-12-05'
 tease: "4 talks using Galaxy for Metaproteomics" 
 continent: EU
 location:

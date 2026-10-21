@@ -1,7 +1,7 @@
 ---
 title: "RNA-Seq analysis using Galaxy"
 date: '2018-08-07'
-days: 2
+end: '2018-08-08'
 tease: "Planning to work with RNA-Seq data for differential gene expression? This is for you."
 continent: AU
 location:

@@ -1,7 +1,6 @@
 ---
 title: 5th NeLS hands-on workshop
 date: '2017-05-29'
-days: 1
 tease: Using the Norwegian e-Infrastructure for Life Sciences 
 continent: EU
 location:

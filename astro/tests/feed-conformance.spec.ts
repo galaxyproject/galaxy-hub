@@ -139,3 +139,28 @@ test.describe('Feed Conformance', () => {
     });
   }
 });
+
+const JSON_FEEDS: { path: string; listKey: string }[] = [
+  { path: '/news/feed.json', listKey: 'news' },
+  { path: '/events/feed.json', listKey: 'events' },
+];
+
+test.describe('JSON Feed Conformance', () => {
+  for (const feed of JSON_FEEDS) {
+    test(`${feed.path} publishes subsites and main_subsite on every item`, async ({ request }) => {
+      const response = await request.get(feed.path);
+      expect(response.status()).toBe(200);
+      expect(response.headers()['content-type']).toContain('json');
+
+      const data = await response.json();
+      const items = data[feed.listKey];
+      expect(Array.isArray(items), `${feed.path} should contain a "${feed.listKey}" array`).toBe(true);
+      expect(items.length, `${feed.path} should contain at least one item`).toBeGreaterThan(0);
+
+      for (const item of items) {
+        expect(item, `${feed.path} items should have a subsites field`).toHaveProperty('subsites');
+        expect(item, `${feed.path} items should have a main_subsite field`).toHaveProperty('main_subsite');
+      }
+    });
+  }
+});

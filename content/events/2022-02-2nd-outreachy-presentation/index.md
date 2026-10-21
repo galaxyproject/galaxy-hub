@@ -1,7 +1,6 @@
 ---
 title: " Outreachy Intern Presentation : Community Onboarding Project"
 date: '2022-03-03'
-days: 1
 tease: ''
 continent: GL
 location:

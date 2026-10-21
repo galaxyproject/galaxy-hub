@@ -1,7 +1,7 @@
 ---
 title: "データ解析ワークフローの共有に向けて"
 date: '2019-09-10'
-days: 5
+end: '2019-09-14'
 tease: "Toward sharing data analysis workflows"
 continent: AS
 location:

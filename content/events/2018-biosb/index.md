@@ -1,7 +1,7 @@
 ---
 title: "BioSB 2018"
 date: '2018-05-15'
-days: 2
+end: '2018-05-16'
 tease: ""
 continent: EU
 location:

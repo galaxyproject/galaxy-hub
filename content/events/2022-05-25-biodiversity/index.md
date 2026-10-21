@@ -1,7 +1,7 @@
 ---
 title: "usegalaxy.be"
 date: '2022-05-24'
-days: 2
+end: '2022-05-25'
 tease: "Empowering Biodiversity Research II"
 continent: EU
 location:

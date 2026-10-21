@@ -2,7 +2,7 @@
 title: UseGalaxy.eu update to 19.05
 date: '2019-06-06'
 tags: [release]
-subsites: [eu, pasteur, freiburg, erasmusmc, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
 main_subsite: eu
 contributions:
   authorship:

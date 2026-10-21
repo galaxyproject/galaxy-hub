@@ -2,7 +2,6 @@
 title: 'Galaxy Community Call: Release 22.05'
 date: '2022-06-23'
 tease: A forum to share updates and discuss community-wide topics
-days: 1
 continent: GL
 location:
   name: "Galaxy Community Call, Online, Global"

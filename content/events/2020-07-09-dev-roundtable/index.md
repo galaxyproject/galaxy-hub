@@ -1,7 +1,6 @@
 ---
 title: "COVID work"
 date: '2020-07-09'
-days: 1
 tease: ""
 continent: GL
 location:

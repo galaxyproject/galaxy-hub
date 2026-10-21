@@ -1,7 +1,6 @@
 ---
 title: "Running a Galaxy workflow and integrating data into VEuPathDB"
 date: "2020-05-14"
-days: 1
 tease: "Run a workflow in galaxy and exporting the results to your VEuPathDB workspace."
 continent: NA
 location:

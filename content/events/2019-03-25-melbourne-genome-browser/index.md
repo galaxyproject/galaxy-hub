@@ -2,7 +2,6 @@
 title: "Genome Browsers and using UCSC genome Browser tools" 
 tease: ""
 date: '2019-03-25'
-days: 1
 continent: AU
 location:
   name: University of Melbourne, Melbourne, Australia

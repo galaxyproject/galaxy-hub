@@ -2,7 +2,6 @@
 title: 'Galaxy Papercuts CoFest Day: December 17'
 date: '2020-12-17'
 tease: A community contribution day
-days: 1
 continent: GL
 location:
   name: Online, Global
@@ -100,4 +99,4 @@ We will have video calls throughout the day and be on Matrix for chat all day lo
 
 ### Communication
 
-Communication will happen through GitHub, [Matrix channels](https://matrix.to/#/#galaxyproject_Lobby:gitter.im) and [Zoom](#join-us-in-our-regular-video-calls). Links will be posted here before the event.  
+Communication will happen through GitHub, [Matrix channels](https://matrix.to/#/#galaxyproject_Lobby:gitter.im) and [Zoom](#join-us-in-our-regular-onboarding-video-calls). Links will be posted here before the event.  

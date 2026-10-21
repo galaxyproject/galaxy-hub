@@ -1,7 +1,7 @@
 ---
 title: '4th de.NBI Genomics training course'
 date: '2018-04-23'
-days: 3
+end: '2018-04-25'
 tease: "Microbial genomics: quality control, assembly, annotation & comparative genomics"
 continent: EU
 location:

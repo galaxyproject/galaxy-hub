@@ -1,7 +1,6 @@
 ---
 title: Globus Genomics and several other cloud-based solution in data storage and management
 date: '2017-02-06'
-days: 1
 tease: Globus Genomics and Galaxy
 continent: NA
 location:

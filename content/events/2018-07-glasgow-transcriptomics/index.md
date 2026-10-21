@@ -1,7 +1,6 @@
 ---
 title: "Introduction to Galaxy Workshop - Transcriptomics"
 date: '2018-07-03'
-days: 1
 tease: "This time focusing on transcriptomics"
 continent: EU
 location:

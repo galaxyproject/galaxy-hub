@@ -1,7 +1,7 @@
 ---
 title: "RNA-seq data analysis"
 date: '2022-05-09'
-days: 4
+end: '2022-05-12'
 tease: "This course covers the basic concepts and methods required for RNA-seq analysis"
 continent: EU
 location:
@@ -11,7 +11,7 @@ external_url: https://www.dtls.nl/courses/rna-seq-data-analysis-2022/
 gtn: false
 contact: "Andrew Stubbs, Miaomiao Zhou"
 links:
-subsites: [global, erasmusmc]
+subsites: [global]
 contributions:
   organisers:
     - miaomiaozhou88

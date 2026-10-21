@@ -14,7 +14,7 @@ The [August 2012 Galaxy Update is now available](/galaxy-updates/2012-08/).
     * [Swiss Galaxy Day](/galaxy-updates/2012-08/#swiss-galaxy-day)
 * [29 new papers](/galaxy-updates/2012-08/#new-papers)
 * [Open Positions](/galaxy-updates/2012-08/#whos-hiring) at four different institutions
-* [Tool Shed Contributions](/galaxy-updates/2012-08/#toolshed-contributions)
+* [Tool Shed Contributions](/galaxy-updates/2012-08/#tool-shed-contributions)
 * [New Distribution](/galaxy-updates/2012-08/#new-distributions)
 * [Other News](/galaxy-updates/2012-08/#other-news)
 

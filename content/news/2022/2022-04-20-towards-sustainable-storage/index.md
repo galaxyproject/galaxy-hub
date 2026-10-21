@@ -4,7 +4,7 @@ date: "2022-04-20"
 tease: "Research groups and networks can include their own storage into the European Galaxy server and decide about quota and data policies."
 hide_tease: true
 tags:
-- citations
+  - citations
 subsites: [global, all-eu]
 contributions:
   authorship:
@@ -38,4 +38,3 @@ An exemplary use case is the [DataPLANT](https://nfdi4plants.org) consortium, pa
 The system is very flexible and we could enable research networks, like the German CRCs, in the same way the participation in the European Galaxy project
 and offer sustainable storage solutions for their researchers. It is to be noted that this covers the technical aspect of storage infrastructure but
 is only a small aspect of RDM - for which NFDI and Galaxy provide additional solutions. Please [get in contact](mailto:contact@usegalaxy.eu) with us if you want to learn more about RDM.
-

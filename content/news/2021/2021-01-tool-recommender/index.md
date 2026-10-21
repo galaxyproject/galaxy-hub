@@ -40,4 +40,7 @@ __Workflow editor__
 ![workflow editor](https://github.com/anuprulez/issues/raw/master/wf-exe.gif)
 
 <br />
-{% twitter https://twitter.com/musafirtweetsz/status/1347103855247560704 %}
+
+<img src="./tweet-1347103855247560704.webp" alt="Post by Anup Kumar (@musafirtweetsz): The tool recommender paper is online! Thanks #usegalaxy @GigaScience" width="550" height="336" />
+
+*Post by @musafirtweetsz on 7 January 2021*

@@ -1,7 +1,6 @@
 ---
 title: 'Using Galaxy for RNA-seq analysis'
 date: '2017-06-29'
-days: 1
 continent: EU
 location:
   name: MDC, Berlin, Germany

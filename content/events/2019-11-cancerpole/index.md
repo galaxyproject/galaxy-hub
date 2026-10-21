@@ -1,7 +1,7 @@
 ---
 title: "NGS & Cancer : Analyses épigénomiques"
 date: '2019-11-20'
-days: 3
+end: '2019-11-22'
 tease: "Date limite d’inscription : lundi 8 juillet 2019, midi"
 continent: EU
 location:

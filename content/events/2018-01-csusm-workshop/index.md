@@ -1,7 +1,6 @@
 ---
 title: "Introduction to Galaxy Workshop"
 date: '2018-01-12'
-days: 1
 tease: "Do your own bioinformatics analysis"
 continent: NA
 location:
