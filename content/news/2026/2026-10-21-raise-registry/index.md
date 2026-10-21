@@ -19,7 +19,7 @@ We are delighted that **cross-disciplinary reuse of BioImage.IO AI models in Gal
 
 The case builds on the Galaxy integration of the [BioImage Model Zoo (BioImage.IO)](https://bioimage.io/), which lets researchers from any discipline run AI models for image analysis in Galaxy workflows, without needing local computational resources, and is supported by a dedicated tutorial in the [Galaxy Training Network (GTN)](https://training.galaxyproject.org/): [Using BioImage.IO models for image analysis in Galaxy](https://training.galaxyproject.org/training-material/topics/imaging/tutorials/process-image-bioimageio/tutorial.html).
 
-The Registry showcases effective uses of AI in scientific research and highlights practices that can provide valuable insights for other research communities. It looks at how AI is integrated into research, what enables good practice, and what scientific or organisational outcomes it can support.
+The Registry showcases effective usage of AI in scientific research and highlights practices providing valuable insights for other research communities. It delineates how AI is integrated into research, what enables good practice, and what scientific or organisational outcomes it can support.
 
 Being included in the Registry recognises the value of our work as a strong example of good practice in AI-enabled science, and helps make its experience visible to the wider European research community.
 
