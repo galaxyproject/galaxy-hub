@@ -99,7 +99,7 @@ Interactive tools need a login, so create an account on [usegalaxy.eu](https://u
 
 ## From app to interactive tool in a day
 
-With LLM-assisted development, we can now turn suitable existing applications into Galaxy interactive tools within a day. The assistance speeds up container setup, wrapper code and integration work; human review and testing still matter. miaDash is a nice example: its integration pull request was opened and merged on the same day. This is about making an existing app accessible in Galaxy, not developing or scientifically validating the underlying software in a day.
+With LLM-assisted development, we can now turn suitable existing applications into [Galaxy interactive tools](https://galaxyproject.org/news/2023-09-15-interactive-tools/) within a day. The assistance speeds up [container setup](https://quay.io/repository/galaxy/miadash-gxit), wrapper code and integration work; human review and testing still matter. miaDash is a nice example: its [integration pull request](https://github.com/usegalaxy-eu/galaxy/pull/417) was opened and merged on the same day. This is about making an existing app accessible in Galaxy, not developing or scientifically validating the underlying software in a day. For background on the integration approach, see our [guide to hosting Shiny apps on Galaxy Europe](https://galaxyproject.org/news/2024-08-21-hosting-shiny-apps-on-eu/).
 
 ## Acknowledgements
 
