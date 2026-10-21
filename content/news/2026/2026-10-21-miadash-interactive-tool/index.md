@@ -46,6 +46,23 @@ The tables you select are staged and handed to the application at launch, so the
 
 Results travel back to your history. The export download in the app has a **Send to Galaxy** button, which saves the file into the *miaDash results* collection and starts a direct history upload in the background. The collection becomes available in your history when the interactive job ends, so nothing gets lost along the way.
 
+## Get data to play with
+
+Most microbiome pipelines end exactly where miaDash starts, and the Galaxy Training Network has tutorials for a few of them:
+
+* [Building an amplicon sequence variant (ASV) table from 16S data using DADA2](https://training.galaxyproject.org/training-material/topics/microbiome/tutorials/dada-16S/tutorial.html) produces all three tables miaDash wants: the ASV table as the abundance table, the DADA2 taxonomy table as the taxa data, and the sample metadata table as the sample data.
+* [Taxonomic Profiling and Visualization of Metagenomic Data](https://training.galaxyproject.org/training-material/topics/microbiome/tutorials/taxonomic-profiling/tutorial.html) runs Kraken2 and Bracken, giving you species level abundance reports, one per sample.
+* [Calculating α and β diversity from microbiome taxonomic data](https://training.galaxyproject.org/training-material/topics/microbiome/tutorials/diversity/tutorial.html) works on Bracken species level abundance tables, the same layout miaDash expects for its abundance table.
+* [16S Microbial Analysis with mothur](https://training.galaxyproject.org/training-material/topics/microbiome/tutorials/mothur-miseq-sop/tutorial.html) ends with an OTU table that already carries the taxonomy of every OTU.
+
+More microbiome tutorials are collected in the [microbiome topic of the GTN](https://training.galaxyproject.org/training-material/topics/microbiome/).
+
+<div align="center">
+
+<img src="static/pipeline.png" alt="Flowchart: the DADA2, Kraken2 with Bracken and mothur tutorials produce abundance tables, taxa data and sample data, which feed into the miaDash interactive tool and end up as iSEE panels and results in the Galaxy history" width="800" />
+
+</div>
+
 ## A look inside
 
 <div align="center">
