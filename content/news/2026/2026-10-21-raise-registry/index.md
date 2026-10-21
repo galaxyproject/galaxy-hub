@@ -21,7 +21,7 @@ The case builds on the Galaxy integration of the [BioImage Model Zoo (BioImage.I
 
 The Registry showcases effective uses of AI in scientific research and highlights practices that can provide valuable insights for other research communities. It looks at how AI is integrated into research, what enables good practice, and what scientific or organisational outcomes it can support.
 
-Being included in the Registry recognises the value of our work as an example of good practice in AI-enabled science, and helps make its experience visible to the wider European research community.
+Being included in the Registry recognises the value of our work as a strong example of good practice in AI-enabled science, and helps make its experience visible to the wider European research community.
 
 ➡️ [Read more about the case on the RAISE Hub](https://raise4science.eu/practice/cross-disciplinary-reuse-of-bioimage-io-ai-models-in-galaxy/)
 
