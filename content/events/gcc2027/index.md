@@ -138,6 +138,13 @@ contributions:
 
 ## Stay informed
 
-{/* TODO: confirm the gcc2027-announce list exists */}
+We keep the Galaxy community updated on all important GCC announcements through our GCC mailing list.
 
-We will keep the community updated on all important GCC2027 announcements through our mailing list and other communication channels. More details are coming soon.
+Sign up here for the GCC mailing list to receive updates on registration, abstract submission deadlines, program announcements, and fellowship opportunities for GCC2027.
+
+<div class="not-prose flex justify-center my-5">
+  <a class="inline-flex items-center rounded-md bg-galaxy-primary px-5 py-2.5 text-center text-sm font-semibold text-white no-underline hover:bg-galaxy-dark" href="https://lists.galaxyproject.org/lists/gcc.lists.galaxyproject.org/" target="_blank" rel="noopener noreferrer">
+    <Icon name="mail" class="inline-block mr-2" />
+    Join the GCC mailing list
+  </a>
+</div>
