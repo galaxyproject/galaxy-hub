@@ -16,9 +16,6 @@ contributions:
   organisers:
     - mirelaminkova
     - surf
-  funding:
-    - nwo
-    - tdcc-lsh
 ---
 
 _Make your command-line tool usable by thousands of researchers - without them ever touching a terminal._
