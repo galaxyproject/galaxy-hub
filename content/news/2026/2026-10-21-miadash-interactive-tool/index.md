@@ -51,7 +51,8 @@ Results travel back to your history. The export download in the app has a **Send
 Most microbiome pipelines end exactly where miaDash starts, and the Galaxy Training Network has tutorials for a few of them:
 
 * [Building an amplicon sequence variant (ASV) table from 16S data using DADA2](https://training.galaxyproject.org/training-material/topics/microbiome/tutorials/dada-16S/tutorial.html) produces all three tables miaDash wants: the ASV table as the abundance table, the DADA2 taxonomy table as the taxa data, and the sample metadata table as the sample data.
-* [Taxonomic Profiling and Visualization of Metagenomic Data](https://training.galaxyproject.org/training-material/topics/microbiome/tutorials/taxonomic-profiling/tutorial.html) runs Kraken2 and Bracken, giving you species level abundance reports, one per sample.
+* [Taxonomic Profiling and Visualization of Metagenomic Data](https://training.galaxyproject.org/training-material/topics/microbiome/tutorials/taxonomic-profiling/tutorial.html) runs Kraken2 and Bracken and compares them with MetaPhlAn, giving you species level abundance reports, one per sample.
+* [Metatranscriptomics analysis using microbiome RNA-seq data](https://training.galaxyproject.org/training-material/topics/microbiome/tutorials/metatranscriptomics/tutorial.html) profiles the community with MetaPhlAn and the functions with HUMAnN, ending in a gene family and a pathway abundance table.
 * [Calculating α and β diversity from microbiome taxonomic data](https://training.galaxyproject.org/training-material/topics/microbiome/tutorials/diversity/tutorial.html) works on Bracken species level abundance tables, the same layout miaDash expects for its abundance table.
 * [16S Microbial Analysis with mothur](https://training.galaxyproject.org/training-material/topics/microbiome/tutorials/mothur-miseq-sop/tutorial.html) ends with an OTU table that already carries the taxonomy of every OTU.
 
@@ -59,7 +60,7 @@ More microbiome tutorials are collected in the [microbiome topic of the GTN](htt
 
 <div align="center">
 
-<img src="static/pipeline.png" alt="Flowchart: the DADA2, Kraken2 with Bracken and mothur tutorials produce abundance tables, taxa data and sample data, which feed into the miaDash interactive tool and end up as iSEE panels and results in the Galaxy history" width="800" />
+<img src="static/pipeline.png" alt="Flowchart: the DADA2, mothur, Kraken2 with Bracken, MetaPhlAn and HUMAnN workflows produce abundance tables, taxa data and sample data, which feed into the miaDash interactive tool and end up as iSEE panels and results in the Galaxy history" width="800" />
 
 </div>
 
