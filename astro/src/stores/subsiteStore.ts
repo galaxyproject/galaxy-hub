@@ -10,8 +10,7 @@ export const subsites = [
   { id: 'belgium', name: 'VIB (Belgium)', path: '/belgium/' },
   { id: 'pasteur', name: 'Pasteur', path: '/pasteur/' },
   { id: 'elixir-it', name: 'ELIXIR-IT', path: '/elixir-it/' },
-  { id: 'ifb', name: 'ELIXIR-FR/IFB', path: '/ifb/' },
-  { id: 'genouest', name: 'GenOuest', path: '/genouest/' },
+  { id: 'ifb', name: 'France', path: '/ifb/' },
   { id: 'cz', name: 'Czechia', path: '/cz/' },
   { id: 'ca', name: 'Canada', path: '', external: 'https://starthere.usegalaxy.ca' },
 ] as const;
@@ -89,12 +88,8 @@ export const subsiteLabels: Record<string, { title: string; description: string 
     description: 'Galaxy resources and news from ELIXIR Italy',
   },
   ifb: {
-    title: 'Galaxy ELIXIR-FR/IFB',
+    title: 'Galaxy France',
     description: 'Galaxy resources and news from ELIXIR France / IFB',
-  },
-  genouest: {
-    title: 'Galaxy GenOuest',
-    description: 'Galaxy resources and news from the GenOuest bioinformatics platform',
   },
   cz: {
     title: 'Galaxy Czechia',
