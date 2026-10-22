@@ -312,6 +312,17 @@ body {
   font-weight: 600;
 }
 
+/* Compact content tables (DESIGN.md "Tables"). Unclassed only: legacy .bs-compat
+   and component tables keep their own type and cell padding. */
+.prose table:not([class]) {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.prose table:not([class]) :is(th, td) {
+  padding: 0.625rem 0.75rem;
+}
+
 .prose blockquote {
   border-left: 4px solid #ffd700;
   padding-left: 1rem;

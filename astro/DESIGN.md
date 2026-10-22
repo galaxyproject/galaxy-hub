@@ -132,6 +132,17 @@ Content rendered from Markdown uses custom prose styles (see `.prose` and `.pros
 .prose img { border-radius: 0.5rem; margin-left: auto; margin-right: auto; }
 ```
 
+### Tables
+
+Content tables are compact and stay inside the prose column. Rules (`global.css`, `build/rehype-scrollable-tables.mjs`):
+
+- **Type and cells**: plain (unclassed) content tables use the `text-sm` scale, 14px on a 20px line, with `10px 12px` cell padding. The head keeps the galaxy-primary fill with white 600 text.
+- **No early wrap**: at build time, cells of Markdown tables that hold only short inline text (24 characters or fewer: dates, numbers, short labels) get `whitespace-nowrap`. Long text cells still wrap, so the browser narrows the text columns instead of breaking a date over two lines. No fixed column widths.
+- **Scroll fallback**: every content table sits in the focusable, labelled `.table-wrapper` region, which scrolls sideways when the table is still wider than the column. Tables never break out of the content column.
+- **Left alone**: raw HTML tables keep default wrapping; tables that bring a class (legacy `.bs-compat`, the bare `EventsTable` / `NewsTable` components) keep their own type and padding. In print, short cells wrap again, since paper cannot scroll.
+
+**galaxy-ui parity**: prose tables are the hub's counterpart of `GTable` with `compact` (`g-table-compact`). Same intent, different values: `GTable` cells are `0.75rem` and compact cells `0.3rem`; prose tables use `10px 12px` so running text in cells stays readable. The hub head mirrors `headVariant="dark"` (`g-header-dark`), not the light default.
+
 ---
 
 ## 4. Component Stylings

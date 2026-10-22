@@ -119,3 +119,79 @@ describe('rehypeScrollableTables', () => {
     );
   });
 });
+
+describe('rehypeScrollableTables short cells', () => {
+  const text = (value) => ({ type: 'text', value });
+  const el = (tagName, children = [], properties = {}) => ({ type: 'element', tagName, properties, children });
+  const cellsOf = (...cells) => el('table', [el('tbody', [el('tr', cells)])]);
+  const classOf = (cell) => cell.properties.className;
+
+  it('keeps cells with short inline text on one line', () => {
+    const date = el('td', [text('12 May 2025')]);
+    const link = el('td', [el('a', [el('strong', [text('Slides')])], { href: '/x/' })]);
+    run(root(cellsOf(date, link)));
+
+    expect(classOf(date)).toEqual(['whitespace-nowrap']);
+    expect(classOf(link)).toEqual(['whitespace-nowrap']);
+  });
+
+  it('marks short header cells and keeps their existing classes', () => {
+    const head = el('th', [text('Start date')], { className: ['text-left'] });
+    run(root(el('table', [el('thead', [el('tr', [head])])])));
+
+    expect(classOf(head)).toEqual(['text-left', 'whitespace-nowrap']);
+  });
+
+  it('lets long text, block content, raw HTML and empty cells wrap as before', () => {
+    const long = el('td', [text('A sentence that is clearly longer than a short label.')]);
+    const block = el('td', [el('p', [text('Short')])]);
+    const lineBreak = el('td', [text('a'), el('br'), text('b')]);
+    const raw = el('td', [text('a'), { type: 'raw', value: '<br>' }]);
+    const empty = el('td', [text('  ')]);
+    run(root(cellsOf(long, block, lineBreak, raw, empty)));
+
+    for (const cell of [long, block, lineBreak, raw, empty]) expect(cell.properties.className).toBeUndefined();
+  });
+
+  it('counts the visible text, not the markup, and allows inline icons', () => {
+    const icon = el('svg', [el('path', [], { d: 'M0 0h24v24H0z' })]);
+    const cell = el('td', [icon, text('  Hands-on  ')]);
+    run(root(cellsOf(cell)));
+
+    expect(classOf(cell)).toEqual(['whitespace-nowrap']);
+  });
+
+  it('leaves cells of nested and classed tables alone', () => {
+    const inner = el('td', [text('Talk')]);
+    const outer = el('td', [cellsOf(inner)]);
+    const legacy = el('td', [text('Day 1')]);
+    run(root(cellsOf(outer), el('table', [el('tr', [legacy])], { className: ['bs-compat', 'table'] })));
+
+    expect(outer.properties.className).toBeUndefined();
+    expect(inner.properties.className).toBeUndefined();
+    expect(legacy.properties.className).toBeUndefined();
+  });
+
+  it('skips a table that sits directly in a row group', () => {
+    const inner = el('td', [text('Talk')]);
+    run(root(el('table', [el('tbody', [cellsOf(inner)])])));
+
+    expect(inner.properties.className).toBeUndefined();
+  });
+
+  it('lets cells wrap when an inline tag holds block content', () => {
+    const imageLink = el('td', [el('a', [el('img', [], { src: '/x.png', alt: 'x' })], { href: '/x/' })]);
+    const emphasisBreak = el('td', [el('em', [text('a'), el('br')])]);
+    run(root(cellsOf(imageLink, emphasisBreak)));
+
+    expect(imageLink.properties.className).toBeUndefined();
+    expect(emphasisBreak.properties.className).toBeUndefined();
+  });
+
+  it('ignores comments when measuring a cell', () => {
+    const cell = el('td', [{ type: 'comment', value: ' note ' }, text('Day 1')]);
+    run(root(cellsOf(cell)));
+
+    expect(classOf(cell)).toEqual(['whitespace-nowrap']);
+  });
+});
