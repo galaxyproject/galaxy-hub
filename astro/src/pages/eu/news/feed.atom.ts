@@ -12,7 +12,6 @@ export async function GET() {
 
   const euNews = newsArticles
     .filter((article) => {
-      if (article.data.draft) return false;
       if (!isPublishedDate(article.data.date, now)) return false;
       return contentMatchesSubsite(article.data.subsites, 'eu');
     })

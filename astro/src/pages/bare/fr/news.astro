@@ -12,7 +12,7 @@ import { contentMatchesSubsite } from '../../../utils/subsites';
 const allNews = await getCollection('news');
 const newsArticles = allNews
   .filter((article) => {
-    return contentMatchesSubsite(article.data.subsites, 'fr') && !article.data.draft;
+    return contentMatchesSubsite(article.data.subsites, 'fr');
   })
   .sort((a, b) => {
     const dateA = a.data.date ? new Date(a.data.date) : new Date(0);

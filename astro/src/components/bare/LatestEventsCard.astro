@@ -23,7 +23,7 @@ const { subsite, siteUrl = 'https://galaxyproject.org', limit = 5 } = Astro.prop
 const now = new Date();
 
 const allEvents = await getCollection('events', (entry) => {
-  return contentMatchesSubsite(entry.data.subsites, subsite) && !entry.data.draft;
+  return contentMatchesSubsite(entry.data.subsites, subsite);
 });
 
 // Get upcoming events

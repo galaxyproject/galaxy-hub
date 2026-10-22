@@ -10,7 +10,6 @@ export async function GET() {
 
   const euEvents = events
     .filter((event) => {
-      if (event.data.draft) return false;
       return contentMatchesSubsite(event.data.subsites, 'eu');
     })
     .sort((a, b) => {

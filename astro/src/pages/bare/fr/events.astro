@@ -15,7 +15,7 @@ const twelveMonthsAgo = new Date(now);
 twelveMonthsAgo.setFullYear(twelveMonthsAgo.getFullYear() - 1);
 
 const allEvents = await getCollection('events', (entry) => {
-  return contentMatchesSubsite(entry.data.subsites, 'fr') && !entry.data.draft;
+  return contentMatchesSubsite(entry.data.subsites, 'fr');
 });
 
 const upcomingEvents = allEvents
