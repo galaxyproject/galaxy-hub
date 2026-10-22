@@ -1,0 +1,19 @@
+---
+title: "Galaxy at the EOSC Symposium 2026: federated workflows in practice"
+date: "2026-10-20"
+tease: "Galaxy Europe joined the EOSC Symposium to discuss the evolving EOSC Federation and showcase Galaxy's work across European research infrastructures."
+hide_tease: false
+subsites: [freiburg, eu, esg, global, all-eu]
+main_subsite: eu
+tags: [eosc, conference, workflow, nfdi, esg, elixir]
+---
+
+The Galaxy Europe team joined around 500 participants from 35 countries at the [EOSC Symposium 2026](https://eosc.eu/symposium-2026), held in Florence from 14 to 16 October. Organised by the EOSC Association with support from the EOSC Gravity project, the event focused on connecting users, data and services. It came just after the [EOSC Federation entered production](https://eosc.eu/news/eosc-federation-moves-into-production-beginning-a-new-phase-for-european-science), with 14 operational Nodes offering 124 scientific services.
+
+Across three days, the programme considered the Federation's strategic role in European research, how to make its services useful and sustainable, and how EOSC can support AI-ready science. The first day explored EOSC's political and scientific importance; the second focused on user experience, collaboration and sustainable operations; and the third looked at AI in research and the Federation's next phase. Sessions were organised around three themes: EOSC collaborations and future opportunities, best practices and user experience, and Federation operationalisation. See the [programme](https://indico.global/event/18268/timetable/#20261014) and the [EOSC post-event overview](https://eosc.eu/news/eosc-symposium-2026-the-federation-in-production-the-community-in-action-and-a-new-era-for-european-science), with recaps of [day one](https://mailchi.mp/eosc.eu/symposium-2026-day-1-recap?e=012c53b8fb), [day two](https://mailchi.mp/eosc.eu/symposium-2026-day-2-recap?e=012c53b8fb) and [day three](https://mailchi.mp/eosc.eu/symposium-2026-day-3-recap?e=012c53b8fb).
+
+## Galaxy in the programme and exhibition
+
+Galaxy was represented at the EOSC Node Germany (NFDI) booth and the EOSC Node Life Science Connect booth. Wolfgang Maier from the Freiburg Galaxy team presented federated workflows and demonstrated an end-to-end avian influenza virus surveillance analysis. He signed in using the EOSC-compatible Life Science Login (LS Login), imported data from [Zenodo](https://zenodo.org/), brought a workflow from [WorkflowHub](https://workflowhub.eu/) into Galaxy, and ran the analysis. The demonstration connected federated identity, repository data and a shared workflow in one practical analysis path.
+
+This work connects with Galaxy's wider contributions to European and German research infrastructures. In [EOSC-Mesh](https://eosc.eu/horizon-europe-projects/eosc-mesh), the Freiburg Galaxy team leads work on delivering and technically supporting generic and thematic federating capabilities, with Galaxy serving as an analysis capability in cross-node use cases. In [AI4Social+](https://cordis.europa.eu/project/id/101292886), Galaxy contributes alongside COMPSs and Onedata to an AI-ready infrastructure for the humanities and social sciences. Galaxy also supports German NFDI consortia, including [NFDI4BIOIMAGE](https://nfdi4bioimage.de/) and [DataPLANT](https://nfdi4plants.github.io/), bringing reusable analysis environments and domain-specific workflows to research communities. Together with work through [EuroScienceGateway](https://galaxyproject.org/projects/esg/), these collaborations show how Galaxy can help connect researchers with data, services and reproducible analyses across the EOSC ecosystem.
