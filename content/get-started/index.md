@@ -89,7 +89,7 @@ What if you can't find yourself in these lists of regional and/or community of p
 
 <img class="img-fluid float-right" src="/images/undraw-illustrations/collaborators.svg" style="width:200px;height:100px;" alt="community events" />
 
-Look at our guide on [**how to start contributing**](https://galaxyproject.org/community/contributing/) and there are many ways to do so: coding, writing and creating tutorials, and answering questions in Matrix or the Help Forum to mention some ways.
+Look at our guide on [**how to start contributing**](https://galaxyproject.org/community/contributing/) and there are many ways to do so: coding, writing and creating tutorials, and answering questions in [Matrix](https://matrix.to/#/%23galaxyproject_Lobby:gitter.im) or the [Help Forum](https://help.galaxyproject.org/) to mention some ways.
 
 ### Working Groups
 Interested in a particular area within Galaxy? Connect with a [**Working Group**](/community/wg/) and look into their Github Project, Matrix channel and Google Drive to look into what they have done, what they're currently working on and what the future holds for each one.
