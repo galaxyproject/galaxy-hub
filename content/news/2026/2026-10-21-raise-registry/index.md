@@ -11,6 +11,9 @@ contributions:
   funding:
     - nfdi4bioimage
     - ai4life
+    - oscars
+    - fiesta
+    - sciance
 ---
 
 # Selected for the Registry of Good Practices in AI-enabled Science
