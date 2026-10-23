@@ -6,6 +6,10 @@ hide_tease: false
 subsites: [global, all-eu]
 main_subsite: eu
 tags: [eosc, conference, workflow, nfdi, elixir]
+contributions:
+  authorship:
+    - pavanvidem
+    - wm75
 ---
 
 Around 500 people from 35 countries joined the [EOSC Symposium 2026](https://eosc.eu/symposium-2026) in Florence from 14 to 16 October.
