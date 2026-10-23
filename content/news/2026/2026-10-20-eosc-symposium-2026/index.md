@@ -24,8 +24,8 @@ You can learn more about this specific topic at our page: [Solutions for Virolog
 The Galaxy project in Europe, however, is more than just the parts of Galaxy Europe maintained in Freiburg - and has become an integral part of EOSC at several levels.
 EOSC nodes that presented Galaxy as part of their portfolio of services include the national node of [Czechia](https://eosc.eu/building-the-eosc-federation/eosc-node-czechia) and the thematic node [Data Terra](https://eosc.eu/building-the-eosc-federation/eosc-node-data-terra).
 
-Galaxy was also presented as a partner in the new EOSC project [AI4Social+](/contents/news/2026/2026-10-01-ai4social/).
-Our team in Freiburg is directly involved in this project - just as in the recently started [EOSC-MESH](/content/news/2026/2026-10-20-eosc-mesh-kickoff/) project.
+Galaxy was also presented as a partner in the new EOSC project [AI4Social+](/news/2026/2026-10-01-ai4social/).
+Our team in Freiburg is directly involved in this project - just as in the recently started [EOSC-MESH](/news/2026/2026-10-20-eosc-mesh-kickoff/) project.
 
 Last but not least, Anne, in her talk: "Give Us a Home: What Research Communities Need from EOSC"​mentioned Galaxy as a positive example of a project with a functioning community.
 To the extent that we have contributed to the growth of this community, we are especially proud of this. Thank you for being part of it!
