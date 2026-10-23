@@ -27,5 +27,5 @@ EOSC nodes that presented Galaxy as part of their portfolio of services include 
 Galaxy was also presented as a partner in the new EOSC project [AI4Social+](/news/2026/2026-10-01-ai4social/).
 Our team in Freiburg is directly involved in this project - just as in the recently started [EOSC-MESH](/news/2026/2026-10-20-eosc-mesh-kickoff/) project.
 
-Last but not least, Anne, in her talk: "Give Us a Home: What Research Communities Need from EOSC"​mentioned Galaxy as a positive example of a project with a functioning community.
+Last but not least, Anne, in her talk: "Give Us a Home: What Research Communities Need from EOSC", mentioned Galaxy as a positive example of a project with a functioning community.
 To the extent that we have contributed to the growth of this community, we are especially proud of this. Thank you for being part of it!
