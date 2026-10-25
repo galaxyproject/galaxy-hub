@@ -2,7 +2,7 @@
 # THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
 # To update, run: python3 scripts/update-tools.py --server https://usegalaxy.eu --name "European Galaxy" --output content/eu/tools/index.md
 title: European Galaxy Tools
-description: "4487 tools and counting"
+description: "4493 tools and counting"
 ---
 
 
@@ -836,6 +836,7 @@ description: "4487 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=tradis_essentiality" target="_top" title="">Bio-TraDis Essentiality Predictions</a>
 <a href="https://usegalaxy.eu/root?tool_id=tradis_gene_insert_sites" target="_top" title="">Bio-TraDis counts to gene insertion data</a>
 <a href="https://usegalaxy.eu/root?tool_id=bacteria_tradis" target="_top" title="">Bio-TraDis reads to counts</a>
+<a href="https://usegalaxy.eu/root?tool_id=bionym" target="_top" title="resolve a gene identifier into a confidence-scored knowledge graph">BioNym resolve</a>
 <a href="https://usegalaxy.eu/root?tool_id=blastxml_to_gapped_gff3" target="_top" title="">BlastXML to gapped GFF3</a>
 <a href="https://usegalaxy.eu/root?tool_id=braker" target="_top" title="">Braker genome annotation</a>
 <a href="https://usegalaxy.eu/root?tool_id=genenotebook_build" target="_top" title="">Build a GeneNoteBook</a>
@@ -868,6 +869,7 @@ description: "4487 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=discosnp_rad" target="_top" title="discovering polymorphism from raw unassembled RADSeq NGS reads.">DiscoSnpRAD</a>
 <a href="https://usegalaxy.eu/root?tool_id=dotknot" target="_top" title="pseudoknot prediction in a given RNA sequence">DotKnot</a>
 <a href="https://usegalaxy.eu/root?tool_id=evidencemodeler" target="_top" title="combines ab intio gene predictions, protein and transcript alignments into gene structures">EVidenceModeler</a>
+<a href="https://usegalaxy.eu/root?tool_id=eggsplorer" target="_top" title="interactive HTML report of eggNOG-mapper functional annotations">Eggsplorer</a>
 <a href="https://usegalaxy.eu/root?tool_id=logan_protein_embed_query" target="_top" title="Convert protein sequences into embeddings using gLM2">Embed Proteins with gLM2</a>
 <a href="https://usegalaxy.eu/root?tool_id=endorspy" target="_top" title="Calculate endogenous DNA percentage, clonality, and duplicates from flagstats">EndorSpy</a>
 <a href="https://usegalaxy.eu/root?tool_id=exonerate" target="_top" title="pairwise sequence comparison">Exonerate</a>
@@ -1106,6 +1108,7 @@ description: "4487 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=longdust" target="_top" title="Detect low-complexity regions in long sequences">longdust</a>
 <a href="https://usegalaxy.eu/root?tool_id=lorikeet_spoligotype" target="_top" title="M. tuberculosis DNA fingerprinting">lorikeet spoligotyping</a>
 <a href="https://usegalaxy.eu/root?tool_id=ucsc_mafFilter" target="_top" title="Filter MAF files based on various criteria">mafFilter</a>
+<a href="https://usegalaxy.eu/root?tool_id=mge_cluster_create" target="_top" title="cluster mobile genetic elements and build a reusable model">mge-cluster create</a>
 <a href="https://usegalaxy.eu/root?tool_id=miranda" target="_top" title="finds potential target sites for miRNAs in genomic sequences">miRanda</a>
 <a href="https://usegalaxy.eu/root?tool_id=mykrobe_predict" target="_top" title="Antibiotic resistance predictions">mkyrobe predict</a>
 <a href="https://usegalaxy.eu/root?tool_id=multigsea" target="_top" title="GSEA-based pathway enrichment analysis for multi-omics data">multiGSEA</a>
@@ -1807,6 +1810,7 @@ description: "4487 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=rnaz_select_seqs" target="_top" title="">RNAz Select Seqs</a>
 <a href="https://usegalaxy.eu/root?tool_id=rnaz_window" target="_top" title="">RNAz windows</a>
 <a href="https://usegalaxy.eu/root?tool_id=rseqc_RPKM_saturation" target="_top" title="calculates raw count and RPKM values for transcript at exon, intron, and mRNA level">RPKM Saturation</a>
+<a href="https://usegalaxy.eu/root?tool_id=rsem_calculate_expression" target="_top" title="from transcriptome alignments">RSEM calculate expression</a>
 <a href="https://usegalaxy.eu/root?tool_id=rsem_calculate_expression" target="_top" title="RNA-Seq by Expectation-Maximization">RSEM calculate expression</a>
 <a href="https://usegalaxy.eu/root?tool_id=rsem_prepare_reference" target="_top" title="">RSEM prepare reference</a>
 <a href="https://usegalaxy.eu/root?tool_id=extract_transcript_to_gene_map_from_trinity" target="_top" title="extract transcript to gene map from trinity">RSEM trinity fasta to gene map</a>
@@ -3201,6 +3205,7 @@ description: "4487 tools and counting"
 
 <div class="tool-list">
 
+<a href="https://usegalaxy.eu/root?tool_id=fragpipe" target="_top" title="Data analysis for mass spectrometry-based proteomics">(Development) FragPipe -  Academic Research and Education User License (Non-Commercial)</a>
 <a href="https://usegalaxy.eu/root?tool_id=3dbeacons_api" target="_top" title="The 3D-Beacons Network provides unified programmatic access to        experimentally determined and predicted structure models">3D-Beacons API</a>
 <a href="https://usegalaxy.eu/root?tool_id=AccurateMassSearch" target="_top" title="Match MS signals to molecules from a database by mass">AccurateMassSearch</a>
 <a href="https://usegalaxy.eu/root?tool_id=AdditiveSeries" target="_top" title="Computes an additive series to quantify a peptide in a set of samples.">AdditiveSeries</a>
@@ -3265,7 +3270,6 @@ description: "4487 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=FileInfo" target="_top" title="Shows basic information about the file, such as data ranges and file type">FileInfo</a>
 <a href="https://usegalaxy.eu/root?tool_id=FileMerger" target="_top" title="Merges several MS files into one file">FileMerger</a>
 <a href="https://usegalaxy.eu/root?tool_id=flashlfq" target="_top" title="ultrafast label-free quantification for mass-spectrometry proteomics">FlashLFQ</a>
-<a href="https://usegalaxy.eu/root?tool_id=fragpipe" target="_top" title="Data analysis for mass spectrometry-based proteomics">FragPipe -  Academic Research and Education User License (Non-Commercial)</a>
 <a href="https://usegalaxy.eu/root?tool_id=fragpipe_manifest_generator" target="_top" title="Generate a FragPipe Manifest File (Experimental Design File)">FragPipe Manifest Generator</a>
 <a href="https://usegalaxy.eu/root?tool_id=FuzzyDiff" target="_top" title="Compares two files, tolerating numeric differences">FuzzyDiff</a>
 <a href="https://usegalaxy.eu/root?tool_id=GNPSExport" target="_top" title="Tool to export representative consensus MS/MS scan per consensusElement into a .MGF file format">GNPSExport</a>
@@ -4202,7 +4206,7 @@ description: "4487 tools and counting"
 <div class="tool-list">
 
 <a href="https://usegalaxy.eu/root?tool_id=3dtrees_standardization" target="_top" title="Standardize LAS/LAZ files or validate collections for consistency">3DTrees: LAS/LAZ Standardization</a>
-<a href="https://usegalaxy.eu/root?tool_id=3dtrees_smart_tile" target="_top" title="Tile, merge and remap point clouds">3DTrees: SmartTile</a>
+<a href="https://usegalaxy.eu/root?tool_id=3dtrees_smart_tile" target="_top" title="Tile, filter, merge and remap point clouds">3DTrees: SmartTile</a>
 <a href="https://usegalaxy.eu/root?tool_id=3dtrees_detailview" target="_top" title="species prediction on segmented point cloud.">3Dtrees: DetailView</a>
 <a href="https://usegalaxy.eu/root?tool_id=3dtrees_forestmamba" target="_top" title="Forest instance and semantic segmentation of point clouds using the ForestMamba model.">3Dtrees: ForestMamba</a>
 <a href="https://usegalaxy.eu/root?tool_id=3dtrees_overviews" target="_top" title="Generate 3D point cloud overview images from LAZ/LAS datasets">3Dtrees: Overviews</a>
@@ -4477,7 +4481,6 @@ description: "4487 tools and counting"
 <div class="tool-list">
 
 <a href="https://usegalaxy.eu/root?tool_id=imagej2_bunwarpj_adapt_transform" target="_top" title="with ImageJ2">Adapt an elastic transformation</a>
-<a href="https://usegalaxy.eu/root?tool_id=2d_add_label" target="_top" title="">Add image label</a>
 <a href="https://usegalaxy.eu/root?tool_id=imagej2_noise" target="_top" title="with ImageJ2">Add or remove noise</a>
 <a href="https://usegalaxy.eu/root?tool_id=imagej2_shadows" target="_top" title="with ImageJ2">Add shadow effect</a>
 <a href="https://usegalaxy.eu/root?tool_id=imagej2_adjust_threshold_binary" target="_top" title="with ImageJ2">Adjust threshold</a>
@@ -4694,6 +4697,7 @@ description: "4487 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_pangeo_notebook" target="_top" title="">Interactive Pangeo Notebook</a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_source" target="_top" title="Sea Observations Utility for Reprocessing, Calibration and Evaluation">Interactive Source Notebooks</a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_libertem" target="_top" title="Open Pixelated STEM platform">LiberTEM</a>
+<a href="https://usegalaxy.eu/root?tool_id=interactive_tool_libreqda" target="_top" title="Qualitative data analysis: import documents, highlight and tag excerpts, export">LibreQDA</a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_loom" target="_top" title="conversational AI analysis workbench">Loom</a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_audiolabeler" target="_top" title="Nature+Energy Audio Labeller audio data annotation tool">NEAL</a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_neo4j" target="_top" title="">Neo4j (Graph Database)</a>
@@ -4729,6 +4733,7 @@ description: "4487 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_isee" target="_top" title="">iSEE</a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_metashark" target="_top" title="Metadata Shiny Automated Resource and Knowledge">metashark</a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_metashrimps" target="_top" title="Metadata Shiny for Retroactive Information Management and Production of data paper Sketches">metashrimps</a>
+<a href="https://usegalaxy.eu/root?tool_id=interactive_tool_miadash" target="_top" title="Interactive dashboard for the analysis and exploration of microbiome data">miaDash</a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_pampa" target="_top" title="Performance Indicators of Marine Protected Areas for the management of coastal ecosystems, resources and their uses">pampa</a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_radiant" target="_top" title="Data analytics using Radiant R Shiny app">radiant</a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_tadviewer" target="_top" title="interactive table viewer with SQL enginer for filtering">tadviewer</a>
@@ -4775,6 +4780,7 @@ description: "4487 tools and counting"
 <div class="tool-list">
 
 <a href="https://usegalaxy.eu/root?tool_id=3dtrees_metadata" target="_top" title="Extract administrative and ecoregion metadata for a point-cloud collection">3Dtrees: Metadata</a>
+<a href="https://usegalaxy.eu/root?tool_id=3dtrees_sidecar" target="_top" title="Store method results as sidecars and assemble point clouds">3Dtrees: Sidecar</a>
 <a href="https://usegalaxy.eu/root?tool_id=rpbasicdesign" target="_top" title="Build DNA-BOT input files from rpSBML">BasicDesign</a>
 <a href="https://usegalaxy.eu/root?tool_id=carveme" target="_top" title="reconstruct genome-scale metabolic models">CarveMe</a>
 <a href="https://usegalaxy.eu/root?tool_id=ffindex_dbkit_create" target="_top" title="database">DBKit Create</a>
