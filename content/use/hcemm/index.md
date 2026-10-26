@@ -10,7 +10,7 @@ platforms:
     platform_location: HU
 
 summary: "Biomedical bioinformatics platform supporting reproducible analysis on institutional HPC infrastructure."
-image: "/use/hcemm/HCEMM_Logo.png"
+image: "/use/hcemm/hcemm-logo.png"
 
 comments:
   - >-
