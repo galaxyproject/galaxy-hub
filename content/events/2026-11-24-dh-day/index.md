@@ -15,16 +15,16 @@ contributions:
 subsites: [eu, freiburg]
 ---
 
-# Galaxy joins the University of Freiburg's first Digital Humanities Day
+# The University of Freiburg's first Digital Humanities Day
 
-Digital Humanities are becoming more and more important within scientific practices.
-The DH lab of the university of Freiburg takes this as an opportunity to introduce the university's first DH day.
-The idea is to introduce students and staff to the opportunities that DH can offer them and what services the university provides.
+Digital Humanities (DH) are becoming more and more important within scientific practices.
+But where can researcher's start - where can students learn more about DH and what resources exist at the university of Freiburg?
+The DH lab of the university of Freiburg is organising the university's first DH Day on November 24 to answer all of those questions and give researchers and students better insights into DH.
+We from the European Galaxy day are glad to join!
 
+# Meet Galaxy at the DH Day
 
-# What the Day ha
+Galaxy is excited about the opportunity to join the university's first DH day! We will join with a booth (12:00-15:00) to introduce the analysis platform [Galaxy](https://usegalaxy.eu) and the EU project [AI4Social+](https://cordis.europa.eu/project/id/101292886), where Galaxy will support the AI readiness in the Social Sciences and Humanities. 
 
-There will be pitches and talks in the morning and a booth from 12:00 to 15:00.
-
-See the [full program and more info here](https://dhlab.uni-freiburg.de/dhday2026/), come by and talk to us. 
-We are looking forward to hearing from you.
+Join us for a full day of DH. 
+See the [program and more info here](https://dhlab.uni-freiburg.de/dhday2026/).
