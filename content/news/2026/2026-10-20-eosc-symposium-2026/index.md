@@ -10,6 +10,22 @@ contributions:
   authorship:
     - pavanvidem
     - wm75
+  funding:
+    - eu
+    - eosc-life
+    - uni-freiburg
+    - elixir-europe
+    - deNBI
+    - mwk
+    - egi
+    - fiesta
+    - workflowhub
+    - dataterra
+    - eubi
+    - nfdi4plants
+    - bmbf
+    - nfdi4bioimage
+    - ai4social
 ---
 
 Around 500 people from 35 countries joined the [EOSC Symposium 2026](https://eosc.eu/symposium-2026) in Florence from 14 to 16 October.
@@ -21,9 +37,14 @@ For a complete overview of the event we recommend you to study the event [progra
 Here we are taking a very Galaxy-centric look at the meeting.
 
 Throughout the meeting, Wolfgang and Pavan supported the teams at the EOSC Node Germany and EOSC Node Life Sciences Connect booths in answering Galaxy-specific questions.
+
+![Galaxy as a usecase at the NFDI Germany booth EOSC Symposium 2026](nfdi_booth_eosc_2026.jpg)
+
 On the second day, Wolfgang gave a short talk about Galaxy within Life Sciences Connect and how the connection of Galaxy to other EOSC services makes it possible to build ready-to-use applications of public interest.
 The specific example he showcased was Galaxy Europe's scalable offer of an Avian Influenza viral genome monitoring system that relies on [Zenodo](https://zenodo.org/)-hosted reference data and workflow-importing from [WorkflowHub](https://workflowhub.eu/) for getting anyone with a need for it started in minutes.
 You can learn more about this specific topic at our page: [Solutions for Virology - Avian influenza](https://usegalaxy.eu/published/page?id=a04ab8d6ecb698fa)
+
+![Wolfgang giving a talk at the EOSC Symposium 2026](wolfgang_talk_eosc_2026.jpg)
 
 The Galaxy project in Europe, however, is more than just the parts of Galaxy Europe maintained in Freiburg - and has become an integral part of EOSC at several levels.
 EOSC nodes that presented Galaxy as part of their portfolio of services include the national node of [Czechia](https://eosc.eu/building-the-eosc-federation/eosc-node-czechia) and the thematic node [Data Terra](https://eosc.eu/building-the-eosc-federation/eosc-node-data-terra).
