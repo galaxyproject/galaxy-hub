@@ -5,7 +5,7 @@ components: true
 
 <slot name="/bare/eu/usegalaxy/notices" />
 
-<img src="/assets/media/usegalaxy/riboseq/RiboGalaxy-Logo_nobg.png" height="300px" alt="EIRENE-RI logo"/>
+<img src="/assets/media/usegalaxy/riboseq/riboseq.png" height="300px" alt="RiboSeq logo"/>
 
 # Welcome to Galaxy for Ribo-Seq
 
