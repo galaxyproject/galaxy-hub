@@ -1,19 +1,35 @@
 ---
-title: "Galaxy at the EOSC Symposium 2026: federated workflows in practice"
+title: "Galaxy at the EOSC Symposium 2026: Federated Workflows in Practice"
 date: "2026-10-20"
-tease: "Galaxy Europe joined the EOSC Symposium to discuss the evolving EOSC Federation and showcase Galaxy's work across European research infrastructures."
+tease: "A Galaxy-centric report from the EOSC symposium in Florence."
 hide_tease: false
-subsites: [freiburg, eu, esg, global, all-eu]
+subsites: [global, all-eu]
 main_subsite: eu
-tags: [eosc, conference, workflow, nfdi, esg, elixir]
+tags: [eosc, conference, workflow, nfdi, elixir]
+contributions:
+  authorship:
+    - pavanvidem
+    - wm75
 ---
 
-The Galaxy Europe team joined around 500 participants from 35 countries at the [EOSC Symposium 2026](https://eosc.eu/symposium-2026), held in Florence from 14 to 16 October. Organised by the EOSC Association with support from the EOSC Gravity project, the event focused on connecting users, data and services. It came just after the [EOSC Federation entered production](https://eosc.eu/news/eosc-federation-moves-into-production-beginning-a-new-phase-for-european-science), with 14 operational Nodes offering 124 scientific services.
+Around 500 people from 35 countries joined the [EOSC Symposium 2026](https://eosc.eu/symposium-2026) in Florence from 14 to 16 October.
+The Freiburg Team of Galaxy Europe directly contributes to the (candidate, as of writing) EOSC Nodes [Germany](https://eosc.eu/building-the-eosc-federation/eosc-node-germany) and [Life Sciences Connect](https://eosc.eu/building-the-eosc-federation/eosc-node-life-sciences-connect), and was represented this time by [Pavan](/hall-of-fame/pavanvidem) and [Wolfgang](/hall-of-fame/wm75).
+Both were happy to meet Galaxy community members [Marie](/hall-of-fame/marie59), [Anne](/hall-of-fame/annefou) and [Sanjay](/hall-of-fame/sanjaysrikakulam) there.
 
-Across three days, the programme considered the Federation's strategic role in European research, how to make its services useful and sustainable, and how EOSC can support AI-ready science. The first day explored EOSC's political and scientific importance; the second focused on user experience, collaboration and sustainable operations; and the third looked at AI in research and the Federation's next phase. Sessions were organised around three themes: EOSC collaborations and future opportunities, best practices and user experience, and Federation operationalisation. See the [programme](https://indico.global/event/18268/timetable/#20261014) and the [EOSC post-event overview](https://eosc.eu/news/eosc-symposium-2026-the-federation-in-production-the-community-in-action-and-a-new-era-for-european-science), with recaps of [day one](https://mailchi.mp/eosc.eu/symposium-2026-day-1-recap?e=012c53b8fb), [day two](https://mailchi.mp/eosc.eu/symposium-2026-day-2-recap?e=012c53b8fb) and [day three](https://mailchi.mp/eosc.eu/symposium-2026-day-3-recap?e=012c53b8fb).
+For a complete overview of the event we recommend you to study the event [programme](https://indico.global/event/18268/timetable/) and the official post-event [summary](https://eosc.eu/news/eosc-symposium-2026-the-federation-in-production-the-community-in-action-and-a-new-era-for-european-science).
 
-## Galaxy in the programme and exhibition
+Here we are taking a very Galaxy-centric look at the meeting.
 
-Galaxy was represented at the EOSC Node Germany (NFDI) booth and the EOSC Node Life Science Connect booth. Wolfgang Maier from the Freiburg Galaxy team presented federated workflows and demonstrated an end-to-end avian influenza virus surveillance analysis. He signed in using the EOSC-compatible Life Science Login (LS Login), imported data from [Zenodo](https://zenodo.org/), brought a workflow from [WorkflowHub](https://workflowhub.eu/) into Galaxy, and ran the analysis. The demonstration connected federated identity, repository data and a shared workflow in one practical analysis path.
+Throughout the meeting, Wolfgang and Pavan supported the teams at the EOSC Node Germany and EOSC Node Life Sciences Connect booths in answering Galaxy-specific questions.
+On the second day, Wolfgang gave a short talk about Galaxy within Life Sciences Connect and how the connection of Galaxy to other EOSC services makes it possible to build ready-to-use applications of public interest.
+The specific example he showcased was Galaxy Europe's scalable offer of an Avian Influenza viral genome monitoring system that relies on [Zenodo](https://zenodo.org/)-hosted reference data and workflow-importing from [WorkflowHub](https://workflowhub.eu/) for getting anyone with a need for it started in minutes.
+You can learn more about this specific topic at our page: [Solutions for Virology - Avian influenza](https://usegalaxy.eu/published/page?id=a04ab8d6ecb698fa)
 
-This work connects with Galaxy's wider contributions to European and German research infrastructures. In [EOSC-Mesh](https://eosc.eu/horizon-europe-projects/eosc-mesh), the Freiburg Galaxy team leads work on delivering and technically supporting generic and thematic federating capabilities, with Galaxy serving as an analysis capability in cross-node use cases. In [AI4Social+](https://cordis.europa.eu/project/id/101292886), Galaxy contributes alongside COMPSs and Onedata to an AI-ready infrastructure for the humanities and social sciences. Galaxy also supports German NFDI consortia, including [NFDI4BIOIMAGE](https://nfdi4bioimage.de/) and [DataPLANT](https://nfdi4plants.github.io/), bringing reusable analysis environments and domain-specific workflows to research communities. Together with work through [EuroScienceGateway](https://galaxyproject.org/projects/esg/), these collaborations show how Galaxy can help connect researchers with data, services and reproducible analyses across the EOSC ecosystem.
+The Galaxy project in Europe, however, is more than just the parts of Galaxy Europe maintained in Freiburg - and has become an integral part of EOSC at several levels.
+EOSC nodes that presented Galaxy as part of their portfolio of services include the national node of [Czechia](https://eosc.eu/building-the-eosc-federation/eosc-node-czechia) and the thematic node [Data Terra](https://eosc.eu/building-the-eosc-federation/eosc-node-data-terra).
+
+Galaxy was also presented as a partner in the new EOSC project [AI4Social+](/news/2026-10-01-ai4social/).
+Our team in Freiburg is directly involved in this project - just as in the recently started [EOSC-MESH](/news/2026-10-20-eosc-mesh-kickoff/) project.
+
+Last but not least, Anne, in her talk: "Give Us a Home: What Research Communities Need from EOSC", mentioned Galaxy as a positive example of a project with a functioning community.
+To the extent that we have contributed to the growth of this community, we are especially proud of this. Thank you for being part of it!
