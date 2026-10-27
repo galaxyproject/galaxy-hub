@@ -474,6 +474,7 @@ const KNOWN_COMPONENTS = [
   'MarkdownEmbed',
   'CalendarEmbed',
   'Insert',
+  'LatestFeeds',
   'CopyButton',
   'EuIntro',
   'ReleaseGuardiansSummary',
