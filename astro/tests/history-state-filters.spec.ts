@@ -9,7 +9,7 @@ test.describe('Filter URL sync keeps router history state and hash', () => {
   test.setTimeout(90_000);
 
   test('search query', async ({ page }) => {
-    // Google CSE rewrites the URL and nulls history.state after load
+    // Keep this test offline; the Google tab is covered by search-cse-history.spec.ts
     await page.route(/cse\.google\.com/, (route) => route.abort());
     await page.goto('/search/#keep-me');
     await expect(page.locator('astro-island:has(.search-page)')).not.toHaveAttribute('ssr', { timeout: 60_000 });

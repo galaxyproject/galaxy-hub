@@ -77,7 +77,7 @@ watch([searchQuery, activeTab], ([q, tab]) => {
       </TabsContent>
 
       <TabsContent value="google" force-mount class="data-[state=inactive]:hidden">
-        <PanGalacticSearch :query="searchQuery" />
+        <PanGalacticSearch :query="searchQuery" :active="activeTab === 'google'" />
       </TabsContent>
 
       <TabsContent value="publications" force-mount class="data-[state=inactive]:hidden">
