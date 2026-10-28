@@ -1,46 +1,36 @@
 <script setup lang="ts">
-import { ref, onMounted, watch } from 'vue';
+import { ref, onMounted, onUnmounted, watch } from 'vue';
 import { Input } from '@/components/ui/input';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
+import { onPopState, readParams, writeParams } from '@/utils/urlFilters';
 import HubSearch from './HubSearch.vue';
 import PanGalacticSearch from './PanGalacticSearch.vue';
 import PublicationSearch from './PublicationSearch.vue';
 
+const FILTER_PARAMS = { q: null, tab: 'hub' };
+const TABS = ['hub', 'google', 'publications'];
+
 const searchQuery = ref('');
 const activeTab = ref('hub');
 
+function applyUrlParams() {
+  const { q, tab } = readParams(FILTER_PARAMS);
+  searchQuery.value = q ?? '';
+  activeTab.value = tab && TABS.includes(tab) ? tab : 'hub';
+}
+
+let stopPopState = () => {};
+
 onMounted(() => {
-  const params = new URLSearchParams(window.location.search);
-  const q = params.get('q');
-  if (q) {
-    searchQuery.value = q;
-  }
-  const tab = params.get('tab');
-  if (tab && ['hub', 'google', 'publications'].includes(tab)) {
-    activeTab.value = tab;
-  }
+  applyUrlParams();
+  // Back/forward restores the query and tab from the URL
+  stopPopState = onPopState(applyUrlParams);
 });
 
-watch(searchQuery, (query) => {
-  const url = new URL(window.location.href);
-  if (query) {
-    url.searchParams.set('q', query);
-  } else {
-    url.searchParams.delete('q');
-  }
-  // Keep the existing state: Astro's ClientRouter stores its navigation index there
-  window.history.replaceState(window.history.state, '', url.toString());
-});
+onUnmounted(() => stopPopState());
 
-watch(activeTab, (tab) => {
-  const url = new URL(window.location.href);
-  if (tab !== 'hub') {
-    url.searchParams.set('tab', tab);
-  } else {
-    url.searchParams.delete('tab');
-  }
-  // Keep the existing state: Astro's ClientRouter stores its navigation index there
-  window.history.replaceState(window.history.state, '', url.toString());
+watch([searchQuery, activeTab], ([q, tab]) => {
+  writeParams({ q, tab }, { defaults: FILTER_PARAMS });
 });
 </script>
 
