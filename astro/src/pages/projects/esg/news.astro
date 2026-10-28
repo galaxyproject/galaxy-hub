@@ -4,14 +4,14 @@
  * Lists news articles tagged with ESG subsite
  */
 import ESGLayout from '../../../layouts/ESGLayout.astro';
-import { getCollection } from 'astro:content';
+import { getListedCollection } from '../../../utils/content';
 import { formatDate } from '../../../utils/dateUtils';
 
 // Check for solo mode
 const solo = Astro.url.searchParams.get('solo') === 'true';
 
 // Load ESG news
-const allNews = await getCollection('news');
+const allNews = await getListedCollection('news');
 // ESG is a project surface, so it intentionally uses narrow project tags rather than subsite-wide matching.
 const esgNews = allNews
   .filter((a) => a.data.subsites?.includes('esg'))

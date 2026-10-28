@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import ArticleLayout from '../layouts/ArticleLayout.astro';
+import { isDraft } from '../utils/publish-date.mjs';
 
 // Import MDX components for embedded content
 import VegaEmbed from '../components/mdx/VegaEmbed.astro';
@@ -71,6 +72,7 @@ const components = {
 ---
 
 <ArticleLayout
+  noindex={isDraft(article.data)}
   title={title || 'Galaxy Hub'}
   description={tease}
   date={date}

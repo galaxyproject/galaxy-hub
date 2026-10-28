@@ -19,6 +19,7 @@ import {
   buildHallOfFameEntries as buildHallOfFameEntriesFromMetadata,
 } from './search-index/community-metadata.mjs';
 import { extractText, truncate } from './search-index/text-utils.mjs';
+import { isDraft } from '../utils/publish-date.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ASTRO_ROOT = path.resolve(__dirname, '../..');
@@ -35,7 +36,7 @@ export function buildHallOfFameEntries(communityData) {
 /**
  * Process a single content file for the search index
  */
-function processFile(filePath, collection, communityData) {
+export function processFile(filePath, collection, communityData) {
   const content = fs.readFileSync(filePath, 'utf-8');
   const { data: frontmatter, content: body } = matter(content);
 
@@ -44,6 +45,9 @@ function processFile(filePath, collection, communityData) {
 
   // Skip redirect-only pages
   if (frontmatter.redirect && !frontmatter.title) return null;
+
+  // Drafts are built but never searchable
+  if (isDraft(frontmatter)) return null;
 
   const plainText = extractText(body);
   const excerpt = truncate(plainText);

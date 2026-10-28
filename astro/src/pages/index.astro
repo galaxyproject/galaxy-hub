@@ -2,11 +2,11 @@
 import HomeLayout from '../layouts/HomeLayout.astro';
 import HeroHighlight from '../components/HeroHighlight.astro';
 import Icon from '../components/mdx/Icon.astro';
-import { getCollection } from 'astro:content';
+import { getListedCollection } from '../utils/content';
 import { formatDate, getUTCDate, isUpcomingEvent } from '../utils/dateUtils';
 
 // Get recent news from the news collection
-const news = await getCollection('news');
+const news = await getListedCollection('news');
 const recentNews = news
   .sort((a, b) => {
     const dateA = a.data.date instanceof Date ? a.data.date : new Date(a.data.date || '');
@@ -16,7 +16,7 @@ const recentNews = news
   .slice(0, 3);
 
 // Get upcoming events
-const events = await getCollection('events');
+const events = await getListedCollection('events');
 const now = new Date();
 const upcomingEvents = events
   .filter((e) => isUpcomingEvent(e.data.date, e.data.end, now))

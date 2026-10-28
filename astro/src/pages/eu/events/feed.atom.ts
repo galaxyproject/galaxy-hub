@@ -1,4 +1,4 @@
-import { getCollection } from 'astro:content';
+import { getListedCollection } from '../../../utils/content';
 import { contentMatchesSubsite } from '../../../utils/subsites';
 import { buildAtomFeed, eventLinkFromSlug, type AtomEntry } from '../../../utils/feed';
 
@@ -6,11 +6,10 @@ const SITE_URL = 'https://galaxyproject.org';
 const MAX_ITEMS = 50;
 
 export async function GET() {
-  const events = await getCollection('events');
+  const events = await getListedCollection('events');
 
   const euEvents = events
     .filter((event) => {
-      if (event.data.draft) return false;
       return contentMatchesSubsite(event.data.subsites, 'eu');
     })
     .sort((a, b) => {

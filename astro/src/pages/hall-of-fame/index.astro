@@ -1,7 +1,8 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHeader from '../../components/layout/PageHeader.astro';
-import { getCollection, type CollectionEntry } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+import { getListedCollection } from '../../utils/content';
 import { extractAuthors, extractFunding } from '../../utils/contributors';
 import { addDirectoryContributor, type DirectoryContributor } from '../../utils/hallOfFameDirectory';
 
@@ -15,7 +16,7 @@ function normalizeEntry(entry: NewsEntry | EventEntry): { authors: string[]; sup
   return { authors, supporters };
 }
 
-const [newsArticles, events] = await Promise.all([getCollection('news'), getCollection('events')]);
+const [newsArticles, events] = await Promise.all([getListedCollection('news'), getListedCollection('events')]);
 
 const authorMap = new Map<string, DirectoryContributor>();
 const supporterMap = new Map<string, DirectoryContributor>();

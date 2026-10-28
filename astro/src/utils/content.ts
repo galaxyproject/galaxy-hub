@@ -12,18 +12,31 @@ import {
   formatDateRange as formatDateRangeUtil,
 } from './dateUtils';
 import { contentMatchesSubsite } from './subsites';
+import { isListed } from './publish-date.mjs';
 
 type ArticleEntry = CollectionEntry<'articles'>;
 export type NewsEntry = CollectionEntry<'news'>;
 type EventEntry = CollectionEntry<'events'>;
 type PlatformEntry = CollectionEntry<'platforms'>;
 type InsertEntry = CollectionEntry<'inserts'>;
+type ListedCollection = 'articles' | 'news' | 'events' | 'platforms' | 'bare-articles';
+
+/**
+ * Get a collection without drafts, for every listing, feed and index.
+ * Page routes read getCollection directly, so drafts are still built at their URL.
+ */
+export async function getListedCollection<C extends ListedCollection>(
+  collection: C,
+  filter: (entry: CollectionEntry<C>) => boolean = () => true
+): Promise<CollectionEntry<C>[]> {
+  return getCollection(collection, (entry) => isListed(entry) && filter(entry));
+}
 
 /**
  * Get all articles, optionally filtered by subsite
  */
 export async function getArticles(subsite?: string): Promise<ArticleEntry[]> {
-  const articles = await getCollection('articles');
+  const articles = await getListedCollection('articles');
 
   if (!subsite) {
     return articles;
@@ -38,7 +51,7 @@ export async function getArticles(subsite?: string): Promise<ArticleEntry[]> {
  * Get all events, optionally filtered by subsite
  */
 export async function getEvents(subsite?: string): Promise<EventEntry[]> {
-  const events = await getCollection('events');
+  const events = await getListedCollection('events');
 
   if (!subsite) {
     return events;
@@ -129,9 +142,9 @@ function isValidTag(tag: string): boolean {
  */
 export async function getAllTags(): Promise<Map<string, number>> {
   const [articles, news, events] = await Promise.all([
-    getCollection('articles'),
-    getCollection('news'),
-    getCollection('events'),
+    getListedCollection('articles'),
+    getListedCollection('news'),
+    getListedCollection('events'),
   ]);
 
   const tagCounts = new Map<string, number>();
@@ -161,7 +174,7 @@ export async function getAllTags(): Promise<Map<string, number>> {
  * Get all platforms (Galaxy servers)
  */
 export async function getPlatforms(): Promise<PlatformEntry[]> {
-  return await getCollection('platforms');
+  return await getListedCollection('platforms');
 }
 
 /**
@@ -220,7 +233,7 @@ export async function getInsert(slug: string): Promise<InsertEntry | undefined> 
  * Get news articles from the news collection
  */
 export async function getNews(subsite?: string): Promise<NewsEntry[]> {
-  const news = await getCollection('news');
+  const news = await getListedCollection('news');
 
   const filtered = !subsite
     ? news

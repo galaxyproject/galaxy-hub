@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { getCollection } from 'astro:content';
+import { getListedCollection } from '../../utils/content';
 import EventDate from '@/components/events/EventDate.astro';
 import { isUpcomingEvent, isPastEvent } from '../../utils/dateUtils';
 
@@ -9,7 +9,7 @@ const pageTitle = 'Galaxy Community Calls';
 const pageDescription = 'Regular community calls for Galaxy users and developers';
 
 // Get events with this tag
-const allEvents = await getCollection('events');
+const allEvents = await getListedCollection('events');
 const taggedEvents = allEvents.filter((event) => {
   const tags = event.data.tags;
   if (!tags) return false;
