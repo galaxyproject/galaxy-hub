@@ -38,7 +38,7 @@ Here we are taking a very Galaxy-centric look at the meeting.
 
 Throughout the meeting, Wolfgang and Pavan supported the teams at the EOSC Node Germany and EOSC Node Life Sciences Connect booths in answering Galaxy-specific questions.
 
-![Galaxy as a usecase at the NFDI Germany booth EOSC Symposium 2026](nfdi_booth_eosc_2026.jpg)
+![Galaxy as a use case at the EOSC Node Germany booth: the booth's table features wooden toy train tracks in the "infinity" shape and colors of the EOSC logo. The train has come to a stop at the "Galaxy" station. There are also various Galaxy stickers and pins distributed on the table.](nfdi_booth_eosc_2026.jpg "Galaxy as a use case at the EOSC Node Germany booth")
 
 On the second day, Wolfgang gave a short talk about Galaxy within Life Sciences Connect and how the connection of Galaxy to other EOSC services makes it possible to build ready-to-use applications of public interest.
 The specific example he showcased was Galaxy Europe's scalable offer of an Avian Influenza viral genome monitoring system that relies on [Zenodo](https://zenodo.org/)-hosted reference data and workflow-importing from [WorkflowHub](https://workflowhub.eu/) for getting anyone with a need for it started in minutes.
