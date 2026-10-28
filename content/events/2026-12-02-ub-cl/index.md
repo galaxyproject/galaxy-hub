@@ -5,6 +5,7 @@ end: '2026-12-02'
 location:
   name: Freiburg, Germany
 tags: [talk, uni-freiburg]
+contact: Daniela Schneider
 contributions:
   organisers:
     - Sch-Da
