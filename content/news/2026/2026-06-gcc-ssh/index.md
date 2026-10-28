@@ -3,7 +3,7 @@ title: "Digital Humanities Special Interest Group at the Galaxy Community Confer
 date: "2026-06-22"
 tease: "The DH SIG presented new NLP tools and teased a new subdomain at the GCC."
 subsites: [global,eu,us]
-main_subsite: freiburg
+main_subsite: eu
 tags: [conference, poster, humanities, talk]
 contributions:
   authorship:
