@@ -92,9 +92,10 @@ jobs:
           }
           mkdir -p "$ORIGINALS"
           images '*.png' '*.jpg' '*.jpeg' | xargs -0 -r cp --parents -t "$ORIGINALS"
-          images '*.png' | xargs -0 -r optipng -quiet -o2 -preserve
-          images '*.jpg' '*.jpeg' | xargs -0 -r jpegoptim --quiet --strip-none --preserve
-          uv run --no-project --with pillow==13.0.0 python -I scripts/check_pixels_identical.py "$ORIGINALS" > "$REPORT"
+          # xargs exits 123 when the tool rejects a file (e.g. a WebP named .png); those stay untouched.
+          images '*.png' | xargs -0 -r optipng -quiet -o2 -preserve || [ $? -eq 123 ]
+          images '*.jpg' '*.jpeg' | xargs -0 -r jpegoptim --quiet --strip-none --preserve || [ $? -eq 123 ]
+          uv run --python 3.12 --no-project --with pillow==13.0.0 python -I scripts/check_pixels_identical.py "$ORIGINALS" > "$REPORT"
           cat "$REPORT" >> "$GITHUB_STEP_SUMMARY"
           if git diff --quiet; then echo "changed=false"; else echo "changed=true"; fi >> "$GITHUB_OUTPUT"
       - name: Generate GitHub App token
