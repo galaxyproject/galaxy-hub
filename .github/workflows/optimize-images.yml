@@ -3,8 +3,10 @@
 # - on pushing of images to `main` (for forks)
 # - on demand (https://github.blog/changelog/2020-07-06-github-actions-manual-triggers-with-workflow_dispatch/)
 # - at 11 PM every Sunday if anything gets missed with any of the above scenarios
-# For Pull Requests, the images are added to the PR.
-# For other scenarios, a new PR will be opened if any images are compressed.
+# PNG and JPEG images are optimized losslessly with optipng and jpegoptim (metadata is kept), and
+# scripts/check_pixels_identical.py restores any image that no longer decodes to the same pixels.
+# For Pull Requests, the images the PR adds or changes are optimized and committed to the PR.
+# For other scenarios, all images are optimized and a new PR will be opened if any changed.
 name: Compress images
 on:
   pull_request:
@@ -15,8 +17,6 @@ on:
       - "**.jpg"
       - "**.jpeg"
       - "**.png"
-      - "**.webp"
-      - "**.avif"
   push:
     branches:
       - main
@@ -24,8 +24,6 @@ on:
       - "**.jpg"
       - "**.jpeg"
       - "**.png"
-      - "**.webp"
-      - "**.avif"
   workflow_dispatch:
   schedule:
     - cron: "00 23 * * 0"
@@ -34,10 +32,14 @@ concurrency:
   cancel-in-progress: true
 jobs:
   build:
-    name: calibreapp/image-actions
+    name: Lossless image optimization
     runs-on: ubuntu-latest
     permissions:
       contents: read
+    # An explicit shell adds pipefail, so a failing git or base64 in a pipeline fails the step.
+    defaults:
+      run:
+        shell: bash
     # Only run on main repo and on PRs that match the main repo.
     # Skip when the bot's own compression commit re-triggers this workflow
     # (synchronize + bot actor) to break the infinite loop. Safe for
@@ -57,9 +59,48 @@ jobs:
       - name: Checkout Branch
         uses: actions/checkout@v7
         with:
+          # PRs check out the PR branch tip, which the commit step builds on.
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+          filter: blob:none
           persist-credentials: false
+      - name: Install optimizers
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends optipng jpegoptim
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v10.3.0
+        with:
+          python-version: "3.12"
+      - name: Compress Images
+        id: optimize
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          ORIGINALS: ${{ runner.temp }}/originals
+          REPORT: ${{ runner.temp }}/optimize-images.md
+        run: |
+          # PRs optimize the images they add or change; other events optimize every image.
+          images() {
+            if [ -n "$BASE_SHA" ]; then
+              git diff -z --name-only --diff-filter=AMR "${BASE_SHA}...HEAD" -- "$@"
+            else
+              git ls-files -z -- "$@"
+            fi | while IFS= read -r -d '' file; do
+              # Skip symlinks: optimizing one would replace the link with a copy of its target.
+              [ -L "$file" ] || printf '%s\0' "$file"
+            done
+          }
+          mkdir -p "$ORIGINALS"
+          images '*.png' '*.jpg' '*.jpeg' | xargs -0 -r cp --parents -t "$ORIGINALS"
+          images '*.png' | xargs -0 -r optipng -quiet -o2 -preserve
+          images '*.jpg' '*.jpeg' | xargs -0 -r jpegoptim --quiet --strip-none --preserve
+          uv run --no-project --with pillow==13.0.0 python -I scripts/check_pixels_identical.py "$ORIGINALS" > "$REPORT"
+          cat "$REPORT" >> "$GITHUB_STEP_SUMMARY"
+          if git diff --quiet; then echo "changed=false"; else echo "changed=true"; fi >> "$GITHUB_OUTPUT"
       - name: Generate GitHub App token
         id: app-token
+        # Minted only after the PR's own code has run, and only when there is something to commit.
+        if: steps.optimize.outputs.changed == 'true'
         uses: actions/create-github-app-token@v3
         with:
           client-id: ${{ secrets.HUB_BOT_APP_CLIENT_ID }}
@@ -67,23 +108,39 @@ jobs:
           permission-contents: write
           permission-pull-requests: write
           permission-metadata: read
-      - name: Compress Images
-        id: calibre
-        uses: calibreapp/image-actions@1.5.0
-        with:
-          GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
-          webpQuality: '90'
-          # Non-PR events need compress-only mode so create-pull-request can publish the result.
-          compressOnly: ${{ github.event_name != 'pull_request' }}
+      - name: Commit to Pull Request
+        if: |
+          github.event_name == 'pull_request' &&
+          steps.optimize.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          REPO: ${{ github.repository }}
+          BRANCH: ${{ github.head_ref }}
+        # createCommitOnBranch makes a Verified bot commit and only lands while the branch is still at HEAD.
+        run: |
+          git diff -z --name-only | while IFS= read -r -d '' file; do
+            base64 -w0 "$file" > "$RUNNER_TEMP/contents"
+            jq -n --arg path "$file" --rawfile contents "$RUNNER_TEMP/contents" '{$path, $contents}'
+          done | jq -s --arg repo "$REPO" --arg branch "$BRANCH" --arg head "$(git rev-parse HEAD)" '{
+            query: "mutation($input: CreateCommitOnBranchInput!) { createCommitOnBranch(input: $input) { commit { url } } }",
+            variables: {input: {
+              branch: {repositoryNameWithOwner: $repo, branchName: $branch},
+              expectedHeadOid: $head,
+              message: {headline: "Compress Images"},
+              fileChanges: {additions: .}
+            }}
+          }' > "$RUNNER_TEMP/commit.json"
+          gh api graphql --input "$RUNNER_TEMP/commit.json" --jq .data.createCommitOnBranch.commit.url
       - name: Create Pull Request
         # If it's not a Pull Request then commit any changes as a new PR.
         if: |
           github.event_name != 'pull_request' &&
-          steps.calibre.outputs.markdown != ''
+          steps.optimize.outputs.changed == 'true'
         uses: peter-evans/create-pull-request@v8
         with:
           token: ${{ steps.app-token.outputs.token }}
+          sign-commits: true
           title: Auto Compress Images
           branch: action_compress_images
           commit-message: Compress Images
-          body: ${{ steps.calibre.outputs.markdown }}
+          body-path: ${{ runner.temp }}/optimize-images.md
