@@ -47,6 +47,15 @@ async function waitForSearchPage(page: Page) {
   await expect(page.locator('astro-island:has(.search-page)')).not.toHaveAttribute('ssr', { timeout: 60_000 });
 }
 
+// Order-agnostic: the page rewrites q/tab in its own declared order, which is not part of the contract.
+const expectGoogleTabUrl = (page: Page, hash = '') =>
+  expect
+    .poll(() => {
+      const url = new URL(page.url());
+      return [url.pathname, url.searchParams.get('tab'), url.searchParams.get('q'), url.hash];
+    })
+    .toEqual(['/search/', 'google', 'galaxy', hash]);
+
 const renderCount = (page: Page) => page.evaluate(() => (window as any).__cseRenderConfigs?.length ?? 0);
 
 // The latest render targets a container that is still in the document
@@ -92,7 +101,7 @@ test.describe('Search page keeps router history state with Google CSE', () => {
     await page.getByRole('tab', { name: 'Pan-Galactic Search' }).click();
     await expect.poll(() => requests.length).toBe(1);
     await expect.poll(() => renderCount(page)).toBe(1);
-    await expect(page).toHaveURL(/\/search\/\?q=galaxy&tab=google#keep-me$/);
+    await expectGoogleTabUrl(page, '#keep-me');
     expect(await historyIndex(page)).toBe(before);
   });
 
@@ -104,7 +113,7 @@ test.describe('Search page keeps router history state with Google CSE', () => {
     await expect.poll(() => renderCount(page)).toBe(1);
 
     expect(typeof (await historyIndex(page))).toBe('number');
-    await expect(page).toHaveURL(/\/search\/\?tab=google&q=galaxy#keep-me$/);
+    await expectGoogleTabUrl(page, '#keep-me');
   });
 
   test('back navigation restores the search page after the Google tab loaded', async ({ page }) => {
@@ -118,7 +127,7 @@ test.describe('Search page keeps router history state with Google CSE', () => {
     await page.goBack();
 
     await expect(page.getByPlaceholder('Search articles, events, platforms...')).toHaveValue('galaxy');
-    await expect(page).toHaveURL(/\/search\/\?tab=google&q=galaxy$/);
+    await expectGoogleTabUrl(page);
     await expect.poll(() => renderCount(page)).toBe(2);
     expect(await lastRenderConnected(page)).toBe(true);
     await expect.poll(() => lastExecute(page)).toEqual({ q: 'galaxy', connected: true, latestRender: true });
@@ -164,7 +173,7 @@ test.describe('Search page keeps router history state with Google CSE', () => {
     await page.locator('a[href="/news/"]').first().click();
     await expect(page).toHaveURL(/\/news\/$/);
     await page.goBack();
-    await expect(page).toHaveURL(/\/search\/\?q=galaxy&tab=google$/);
+    await expectGoogleTabUrl(page);
     await expect(page.getByPlaceholder('Search articles, events, platforms...')).toHaveValue('galaxy');
 
     release();
