@@ -125,6 +125,7 @@ You can upload your files in various ways in the upload section on the left side
 - RStudio
 - QGIS
 - Jupyter Notebook
+- LibreQDA: An open source alternative for Qualitative Data Analysis
 
 ### 📊 **Visualisations**
 - General: Bar chart, Histogram, Scatterplot, Plotting tool for multiple series, Boxplot, etc.
