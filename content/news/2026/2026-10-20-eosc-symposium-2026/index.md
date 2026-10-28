@@ -44,7 +44,7 @@ On the second day, Wolfgang gave a short talk about Galaxy within Life Sciences 
 The specific example he showcased was Galaxy Europe's scalable offer of an Avian Influenza viral genome monitoring system that relies on [Zenodo](https://zenodo.org/)-hosted reference data and workflow-importing from [WorkflowHub](https://workflowhub.eu/) for getting anyone with a need for it started in minutes.
 You can learn more about this specific topic at our page: [Solutions for Virology - Avian influenza](https://usegalaxy.eu/published/page?id=a04ab8d6ecb698fa)
 
-![Wolfgang giving a talk at the EOSC Symposium 2026](wolfgang_talk_eosc_2026.jpg)
+![Wolfgang at the stage of the auditorium of the Palazzo dei Congressi presenting a slide showing a complex Galaxy workflow invocation titled: "Relax and let Galaxy's workflow engine do the hard work for you"](wolfgang_talk_eosc_2026.jpg "Wolfgang giving his talk at the EOSC Symposium 2026")
 
 The Galaxy project in Europe, however, is more than just the parts of Galaxy Europe maintained in Freiburg - and has become an integral part of EOSC at several levels.
 EOSC nodes that presented Galaxy as part of their portfolio of services include the national node of [Czechia](https://eosc.eu/building-the-eosc-federation/eosc-node-czechia) and the thematic node [Data Terra](https://eosc.eu/building-the-eosc-federation/eosc-node-data-terra).
