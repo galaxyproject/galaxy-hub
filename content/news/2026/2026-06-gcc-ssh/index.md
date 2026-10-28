@@ -27,7 +27,7 @@ The Digital Humanities Special Interest Group (DH SIG) presented a talk and a po
 
 We discussed the roadmap for the new Social Sciences and Humanities [Subdomain](https://ssh.usegalaxy.eu/), with specific adaptations to this user group. 
 It has its own landing page and, by default, uses the new "My Tools" Panel, which allows users to customise their tool selection.
-Additionally, we contributed to teaching and training efforts during the Co-Fest, worked on further tutorials and tools, so stay tuned!
+Additionally, we contributed to teaching and training efforts during the Co-Fest and worked on further tutorials and tools, so stay tuned!
 
 ## Natural Language Processing in Galaxy
 
@@ -42,7 +42,7 @@ We added 2 kinds of NLP tools: complete NLP engines and specialised analysis too
 
     [Stanford CoreNLP](): A robust toolkit featuring sentiment analysis and coreference resolution (supporting 8 languages).
     [spaCy](): High-speed, production-ready NLP with support for over 25 languages.
-    [Stanford Stanza](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/stanza_nlp/stanza_nlp/1.12.0+galaxy0): A neural NLP pipeline that expands our reach to over 80 languages with CPU-optimised models.
+    [Stanford Stanza](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fstanza_nlp%2Fstanza_nlp%2F1.14.0%2Bgalaxy0&version=latest): A neural NLP pipeline that expands our reach to over 80 languages with CPU-optimised models.
 
 #### Specialised Analysis Tools
 
