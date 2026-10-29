@@ -176,15 +176,15 @@ Reading layouts (`ContentWithToc`, `PlatformLayout`) render Markdown with `prose
 }
 
 /* Tables: galaxy-primary header */
-.prose th { background-color: #25537b; color: white; font-weight: 600; }
+.prose th { background-color: var(--gx-brand); color: var(--gx-on-brand); font-weight: 600; }
 
 /* Links: underlined; hover = darker blue text + 2px gold-600 underline (gold text on white is 1.40:1) */
 .prose a { text-decoration-color: var(--gx-link-line); }
 .prose a:hover { color: var(--gx-link-hover); text-decoration-color: var(--gx-link-hover-line); text-decoration-thickness: 2px; }
 
-/* Code blocks: dark background */
+/* Code blocks: dark background (no role yet: the block stays dark in both themes) */
 .prose pre { background-color: #1f2937; border-radius: var(--radius-md); }
-.prose code:not(pre code) { background-color: #f3f4f6; font-size: 0.875em; }
+.prose code:not(pre code) { background-color: var(--gx-surface-sunken); font-size: 0.875em; }
 
 /* Images: rounded, centered */
 .prose img { border-radius: var(--radius-md); margin-left: auto; margin-right: auto; }
@@ -490,7 +490,7 @@ Float-right content sidebar used in articles:
 ```css
 .linkbox {
   float: right; width: 200px; margin: 0 0 1rem 1.5rem;
-  padding: 1rem; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: var(--radius-md);
+  padding: 1rem; background: var(--gx-surface-2); border: 1px solid var(--gx-line); border-radius: var(--radius-md);
 }
 @media (max-width: 768px) { .linkbox { float: none; width: 100%; } }
 ```

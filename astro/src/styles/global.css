@@ -509,7 +509,7 @@ body {
 }
 
 .prose code:not(pre code) {
-  background-color: #f3f4f6;
+  background-color: var(--gx-surface-sunken);
   padding: 0.125rem 0.375rem;
   border-radius: 0.25rem;
   font-size: 0.875em;
@@ -608,13 +608,13 @@ body {
 
 .prose th,
 .prose td {
-  border: 1px solid #e5e7eb;
+  border: 1px solid var(--gx-line);
   padding: 0.5rem 0.75rem;
 }
 
 .prose th {
-  background-color: #25537b;
-  color: white;
+  background-color: var(--gx-brand);
+  color: var(--gx-on-brand);
   font-weight: 600;
 }
 
@@ -645,15 +645,15 @@ body {
   width: 200px;
   margin: 0 0 1rem 1.5rem;
   padding: 1rem;
-  background-color: #f8fafc;
-  border: 1px solid #e2e8f0;
+  background-color: var(--gx-surface-2);
+  border: 1px solid var(--gx-line);
   border-radius: var(--radius-md);
   font-size: 0.875rem;
 }
 
 .linkbox a {
   display: block;
-  color: #25537b;
+  color: var(--gx-link);
   text-decoration: none;
   padding: 0.25rem 0;
 }
@@ -664,7 +664,7 @@ body {
 
 .linkbox hr {
   margin: 0.5rem 0;
-  border-color: #e2e8f0;
+  border-color: var(--gx-line);
 }
 
 @media (max-width: 768px) {
@@ -692,7 +692,7 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  background-color: #fff;
+  background-color: var(--gx-surface-raised);
   border: 1px solid color-mix(in srgb, var(--color-galaxy-primary) 10%, transparent);
   border-radius: var(--radius-md);
   box-shadow: var(--gx-elev-xs);
