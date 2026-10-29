@@ -47,7 +47,8 @@ test.describe('News filter bar', () => {
     const { title, term } = await page.locator('.news-list article').evaluateAll((articles) => {
       for (const article of articles) {
         const heading = (article.querySelector('h2')?.textContent || '').trim();
-        const summary = (article.querySelector('p')?.textContent || '').toLowerCase();
+        // The teaser, not the date line above it
+        const summary = (article.querySelector('p:not(:has(time))')?.textContent || '').toLowerCase();
         const word = (summary.match(/[a-z]{7,}/g) || []).find((w) => !heading.toLowerCase().includes(w));
         if (word) return { title: heading, term: word };
       }
