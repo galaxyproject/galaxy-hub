@@ -1,7 +1,9 @@
 import { describe, expect, it } from 'vitest';
 import {
+  DEFAULT_THEME_MODE,
   THEME_CHANGE_EVENT,
   THEME_PREPAINT_SCRIPT,
+  themePrepaintScript,
   THEME_STORAGE_KEY,
   applyThemeMode,
   parseThemeMode,
@@ -45,10 +47,13 @@ const blockedStorage = {
 };
 
 describe('parseThemeMode', () => {
-  it('keeps light and dark and maps anything else to system', () => {
+  it('keeps system, light and dark and maps anything else to the default', () => {
+    expect(DEFAULT_THEME_MODE).toBe('system');
     expect(parseThemeMode('light')).toBe('light');
     expect(parseThemeMode('dark')).toBe('dark');
     for (const value of ['system', 'DARK', '', null, undefined, 1]) expect(parseThemeMode(value)).toBe('system');
+    expect(parseThemeMode('sepia', 'light')).toBe('light');
+    expect(parseThemeMode('system', 'light')).toBe('system');
   });
 });
 
@@ -60,6 +65,8 @@ describe('readThemeMode', () => {
     expect(readThemeMode(storage)).toBe('dark');
     expect(readThemeMode(blockedStorage)).toBe('system');
     expect(readThemeMode(null)).toBe('system');
+    expect(readThemeMode(new FakeStorage(), 'light')).toBe('light');
+    expect(readThemeMode(blockedStorage, 'light')).toBe('light');
   });
 });
 
@@ -93,6 +100,17 @@ describe('setThemeMode', () => {
     expect(seen).toEqual(['dark', 'system']);
   });
 
+  it('stores System when the default is Light, so dark stays opt-in', () => {
+    const storage = new FakeStorage();
+    const root = new FakeRoot();
+    setThemeMode('system', { storage, root, target: new EventTarget(), fallback: 'light' });
+    expect(storage.getItem(THEME_STORAGE_KEY)).toBe('system');
+    expect(root.attrs.has('data-theme')).toBe(false);
+    setThemeMode('light', { storage, root, target: new EventTarget(), fallback: 'light' });
+    expect(storage.getItem(THEME_STORAGE_KEY)).toBeNull();
+    expect(root.attrs.get('data-theme')).toBe('light');
+  });
+
   it('still applies the choice when storage is blocked', () => {
     const root = new FakeRoot();
     setThemeMode('light', { storage: blockedStorage, root, target: new EventTarget() });
@@ -101,14 +119,14 @@ describe('setThemeMode', () => {
 });
 
 describe('THEME_PREPAINT_SCRIPT', () => {
-  function run(storage: unknown) {
+  function run(storage: unknown, script = THEME_PREPAINT_SCRIPT) {
     const root = new FakeRoot();
     const listeners: Record<string, () => void> = {};
     const doc = {
       documentElement: root,
       addEventListener: (type: string, fn: () => void) => (listeners[type] = fn),
     };
-    new Function('document', 'localStorage', THEME_PREPAINT_SCRIPT)(doc, storage);
+    new Function('document', 'localStorage', script)(doc, storage);
     return { root, listeners };
   }
 
@@ -130,6 +148,17 @@ describe('THEME_PREPAINT_SCRIPT', () => {
     for (const storage of [new FakeStorage(), junk, blockedStorage]) {
       expect(run(storage).root.attrs.has('data-theme')).toBe(false);
     }
+  });
+
+  it('with a Light default, sets data-theme="light" unless System or Dark is stored', () => {
+    const script = themePrepaintScript('light');
+    expect(run(new FakeStorage(), script).root.attrs.get('data-theme')).toBe('light');
+    const system = new FakeStorage();
+    system.setItem(THEME_STORAGE_KEY, 'system');
+    expect(run(system, script).root.attrs.has('data-theme')).toBe(false);
+    const dark = new FakeStorage();
+    dark.setItem(THEME_STORAGE_KEY, 'dark');
+    expect(run(dark, script).root.attrs.get('data-theme')).toBe('dark');
   });
 
   it('uses the same storage key as the helpers', () => {
