@@ -59,4 +59,12 @@ describe('sortProjectIndex', () => {
       'brc',
     ]);
   });
+
+  it('lists a running project before an ended one that started later', () => {
+    const items = [
+      item('later', 'Later', { facts: parseProjectFacts({ status: 'ended', start_date: '2027-01-01' }) }),
+      item('running', 'Running', { facts: parseProjectFacts({ status: 'active', start_date: '2026-10-01' }) }),
+    ];
+    expect(sortProjectIndex(items, now).map((entry) => entry.id)).toEqual(['running', 'later']);
+  });
 });
