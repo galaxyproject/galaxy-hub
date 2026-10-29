@@ -723,7 +723,7 @@ The Hub uses a layered depth model rather than heavy shadow stacking:
 - **`shadow-md`**: Cards on dark backgrounds where more lift is needed; the `gx-tile--link` hover lift
 - **`shadow-lg`**: Reserved for overlay UI (sheets, dialogs) -- never on standard cards
 - **No `shadow-xl` / `shadow-2xl`**: depth comes from the layered background model, not shadow stacking
-- **Tokens**: the four steps read the elevation roles `--gx-elev-xs` ... `--gx-elev-lg` (`global.css`, light in `:root`, dark in `.dark`), so the utilities follow the theme. Light values are Tailwind's defaults; dark values are darker and denser. Plain CSS uses `var(--gx-elev-*)`, never a shadow literal. Shadow colour utilities (`shadow-black/20`) do not apply to these steps; we do not use them.
+- **Tokens**: the four steps read the elevation roles `--gx-elev-xs` ... `--gx-elev-lg` (`global.css`, light in `:root`, dark in `.dark`), so the utilities follow the theme. Light values are what the site already rendered: Tailwind's defaults for xs, md and lg; for sm, Bootstrap's `0 0.125rem 0.25rem rgb(0 0 0 / 0.075)`, because `bootstrap-compat.css` defines `.shadow-sm` with `!important` (it now reads `var(--gx-elev-sm)` too). Dark values are darker and denser. Exception: the compat `.shadow` class (also matched by Tailwind's bare `shadow`) keeps Bootstrap's literal `0 0.5rem 1rem rgb(0 0 0 / 0.15)` and does not follow the theme; use `shadow-sm` or `shadow-md` in new code. Plain CSS uses `var(--gx-elev-*)`, never a shadow literal. Shadow colour utilities (`shadow-black/20`) do not apply to these steps; we do not use them.
 
 ### Borders
 
