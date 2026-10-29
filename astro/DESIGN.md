@@ -523,6 +523,32 @@ The sidebar tells readers where a page sits. The URL decides the context; nothin
 - **Mobile**: the header shows a region chip (short name) that opens the menu sheet with the region menu already open. Escape closes the region menu first, then the sheet; focus returns to the chip or the menu button.
 - **View transitions**: the sidebar persists (`transition:persist` on the `<aside>`) only between pages with the same context, so its links always match the page; the active link follows the URL.
 
+### Breadcrumbs
+
+**Use `<Breadcrumbs>`** (`astro/src/components/common/Breadcrumbs.astro`) above the page title. Today only the project pages use it.
+
+- **Markup**: `nav aria-label="Breadcrumb"` with an `ol`. The last item is the current page: plain bold text with `aria-current="page"`, never a link. An earlier item without `href` renders as plain text, for a level that has no page of its own (for example "Projects": there is no `/projects/` page).
+- **Look**: 14px `galaxy-grey` links, underlined, a `›` separator between items, a 14px globe icon in `galaxy-primary` on the first item ("Galaxy Project", `/`). Hover turns the link `galaxy-primary` with a gold underline, never gold text.
+
+```astro
+<Breadcrumbs
+  items={[{ label: 'Galaxy Project', href: '/' }, { label: 'Projects' }, { label: 'EuroScienceGateway' }]}
+/>
+```
+
+### Project pages
+
+Projects with their own section (`/projects/<id>/`, today only EuroScienceGateway) use the main shell with the project context in the sidebar. The section's links (Overview, News, Past events) are listed once in `utils/siteContext.ts` and feed both the sidebar's project group and the page tabs.
+
+- **Data**: facts come from the project's `main.md` frontmatter (`content/projects/<id>/main.md`): `status` (`active` | `ended`), `start_date`, `end_date`, `labels`, `programme`, `call`, `grants` (label, id, url), `logo_on_dark`, `funding_logo`, `funding_logo_alt`. `utils/projectFacts.ts` parses them; a missing field drops its row instead of showing a guess. Without `status`, a project counts as ended once its end date has passed; with neither `status` nor `end_date` the status row and badge are left out.
+- **Top** (`components/projects/ProjectPageTop.astro`): breadcrumbs, then on the overview a **project band**: `galaxy-dark` to `galaxy-primary` gradient with the 24px grid texture, 3px `galaxy-gold` bottom rule, at most 180px tall at desktop width. It holds an uppercase eyebrow ("Project · EOSC · Horizon Europe", layers icon in gold), the `h1`, a white status badge ("Ended · Aug 2025") and the lead; the light-lettered logo sits on the right and hides below 640px. Section pages (News, Past events) pass `title` and get a compact header instead: project link and status badge above the `h1`.
+- **Tabs**: a `nav` labelled "<project> sections" with links, not ARIA tabs (each tab is its own page). The current tab has `aria-current="page"` and a 3px `galaxy-gold` underline; a count pill can follow the label (News). Tabs are 44px tall and scroll sideways on phones.
+- **Ended notice** (`ProjectEndedNotice.astro`): `role="note"`, `chicago-50` box with a `chicago-500` left rule and an archive icon: "This project has ended", then the dates from the frontmatter and the page's own sentence (`record` prop or the default slot).
+- **Facts box** (`ProjectFactsBox.astro`): white box with a `bay-of-many-200` border: status, duration with its length in months, programme and call, one row per grant (external links), a "Partner list" row linking to `#partners` (the number of listed organisations, not a partner count claim), and the funding logo on a light plate. On `lg` and up it sits in a 15rem right rail above "On this page" (labels above values); below `lg` it shows inline under the notice. Give each copy its own `idPrefix`.
+- **Logos** with dark lettering (partners, linked projects, the funding logo) sit on a light plate (`#f3f4f6`).
+- **Lists**: news and past events use `ProjectRows.astro` (title link, date line, teaser); the News page reuses `NewsList`.
+- **Funding** (`ProjectFunding.astro`): every project page ends with the funding acknowledgement from the project's `funding_notice.md` (emblem and statement), as the grant asks for it on project material.
+
 ---
 
 ## 4b. Animation & Motion
