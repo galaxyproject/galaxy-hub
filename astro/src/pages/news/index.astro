@@ -3,6 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHeader from '../../components/layout/PageHeader.astro';
 import NewsList from '../../components/news/NewsList.vue';
 import { getPublishedNews } from '../../utils/content';
+import { listImage } from '../../utils/listImage';
 
 // Get published news articles (excludes future-dated articles)
 const newsArticles = await getPublishedNews();
@@ -16,6 +17,7 @@ const articleData = newsArticles.map((a) => ({
   tags: Array.isArray(a.data.tags) ? a.data.tags : a.data.tags ? [a.data.tags] : [],
   subsites: a.data.subsites,
   externalUrl: a.data.external_url,
+  image: listImage(a.data.image, a.body),
 }));
 ---
 

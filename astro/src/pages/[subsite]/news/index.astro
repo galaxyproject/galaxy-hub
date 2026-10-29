@@ -4,6 +4,7 @@ import PageHeader from '../../../components/layout/PageHeader.astro';
 import NewsList from '../../../components/news/NewsList.vue';
 import { subsites } from '../../../stores/subsiteStore';
 import { getPublishedNews } from '../../../utils/content';
+import { listImage } from '../../../utils/listImage';
 
 export function getStaticPaths() {
   // Generate paths for all non-external subsites (excluding global which uses /news/)
@@ -34,6 +35,7 @@ const articleData = newsArticles.map((a) => ({
   tags: Array.isArray(a.data.tags) ? a.data.tags : a.data.tags ? [a.data.tags] : [],
   subsites: a.data.subsites,
   externalUrl: a.data.external_url,
+  image: listImage(a.data.image, a.body),
 }));
 ---
 
