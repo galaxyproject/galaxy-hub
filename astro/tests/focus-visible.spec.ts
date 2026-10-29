@@ -1,8 +1,9 @@
 import { test, expect, type Locator, type Page } from '@playwright/test';
 
 // Keyboard focus (DESIGN.md "Focus"): every control shows a solid 2px outline in the focus role,
-// gold (focus-on-chrome) on the dark sidebar, and the outline keeps 3:1 against the colour it is
-// drawn on (WCAG 2.1 SC 1.4.11). Values come from computed styles, so fonts do not matter.
+// gold (focus-on-chrome) on dark chrome and dark page sections, and the outline keeps 3:1 against
+// the colour it is drawn on (WCAG 2.1 SC 1.4.11), every stop of a gradient background included.
+// Values come from computed styles, so fonts do not matter.
 
 type Case = {
   name: string;
@@ -60,6 +61,30 @@ const cases: Case[] = [
     role: '--gx-focus-on-chrome',
     locate: (page) => page.locator('.site-sidebar input').first(),
   },
+  {
+    name: 'home hero button',
+    path: '/',
+    role: '--gx-focus-on-chrome',
+    locate: (page) => page.locator('.hero-actions a').first(),
+  },
+  {
+    name: 'welcome hero link',
+    path: '/usegalaxy/welcome/',
+    role: '--gx-focus-on-chrome',
+    locate: (page) => page.locator('.welcome-hero a[href]').first(),
+  },
+  {
+    name: 'hall of fame header link',
+    path: '/hall-of-fame/',
+    role: '--gx-focus-on-chrome',
+    // Any entry: the header is the same template on every profile page
+    prepare: async (page) => {
+      const entry = page.locator('main a[href^="/hall-of-fame/"]:not([href="/hall-of-fame/"])').first();
+      await page.goto((await entry.getAttribute('href'))!);
+      await page.addStyleTag({ content: '*, *::before, *::after { transition: none !important; }' });
+    },
+    locate: (page) => page.locator('header.page-header a[href]').first(),
+  },
 ];
 
 test.use({ viewport: { width: 1440, height: 900 } });
@@ -96,17 +121,33 @@ for (const c of cases) {
       const style = getComputedStyle(el);
       const outline = rgba(style.outlineColor);
       // The outline sits outside the box (positive offset) or inside it (negative offset);
-      // stack the backgrounds from there up until one is opaque.
+      // stack the backgrounds from there up until one is opaque. An opaque gradient ends the
+      // stack too, once per colour stop, and the worst stop counts.
       const layers: number[][] = [];
+      let bottoms: number[][] = [[255, 255, 255, 1]];
       let node: Element | null = parseFloat(style.outlineOffset) < 0 ? el : el.parentElement;
       while (node) {
-        const bg = rgba(getComputedStyle(node).backgroundColor);
+        const cs = getComputedStyle(node);
+        const stops = /gradient/.test(cs.backgroundImage)
+          ? (cs.backgroundImage.match(/(rgba?|oklch|oklab)\([^()]*\)|#[0-9a-f]{3,8}\b/gi) ?? []).map(rgba)
+          : [];
+        if (stops.length && stops.every((c) => c[3] === 1)) {
+          bottoms = stops;
+          break;
+        }
+        const bg = rgba(cs.backgroundColor);
         if (bg[3] > 0) layers.push(bg);
-        if (bg[3] === 1) break;
+        if (bg[3] === 1) {
+          bottoms = [layers.pop()!];
+          break;
+        }
         node = node.parentElement;
       }
-      let base = [255, 255, 255];
-      for (const [r, g, b, a] of layers.reverse()) base = [r, g, b].map((v, i) => v * a + base[i] * (1 - a));
+      const composite = (bottom: number[], top: number[][]) => {
+        let base = bottom.slice(0, 3);
+        for (const [r, g, b, a] of [...top].reverse()) base = [r, g, b].map((v, i) => v * a + base[i] * (1 - a));
+        return base;
+      };
       const lum = (rgb: number[]) => {
         const [r, g, b] = rgb.map((v) => {
           const s = v / 255;
@@ -114,14 +155,17 @@ for (const c of cases) {
         });
         return 0.2126 * r + 0.7152 * g + 0.0722 * b;
       };
-      const [hi, lo] = [lum(outline), lum(base)].sort((a, b) => b - a);
+      const ratio = (x: number[], y: number[]) => {
+        const [hi, lo] = [lum(x), lum(y)].sort((a, b) => b - a);
+        return (hi + 0.05) / (lo + 0.05);
+      };
       return {
         focusVisible: el.matches(':focus-visible'),
         style: style.outlineStyle,
         width: style.outlineWidth,
         outline,
         expected,
-        contrast: (hi + 0.05) / (lo + 0.05),
+        contrast: Math.min(...bottoms.map((bottom) => ratio(outline, composite(bottom, layers)))),
       };
     }, c.role);
 
