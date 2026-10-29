@@ -553,9 +553,29 @@ body {
   max-width: var(--reading-measure);
 }
 
-/* Pages without a rail (ContentWithToc): the capped text blocks are centred in the full
-   column, so no empty strip opens on the right while wide content keeps the full width. */
-.prose-measure-centred
+/* Pages without a rail (ContentWithToc): on a text-only page the capped text blocks are
+   centred in the full column, so no empty strip opens on the right. When the column also
+   holds wide content (tile grids, cards, tables, figures, code, embeds), the text stays
+   left-aligned so every left edge lines up with it. */
+.prose-measure-centred:not(
+    :has(
+      > :is(
+        .gx-tile-grid,
+        .grid,
+        [class*='grid-cols'],
+        .row,
+        .card-deck,
+        .inline-div,
+        .table-wrapper,
+        table,
+        figure,
+        pre,
+        div:has(> pre),
+        iframe,
+        video
+      )
+    )
+  )
   > :is(p, ul, ol, dl, blockquote, h1, h2, h3, h4, h5, h6):not(
     .text-center,
     [align='center' i],
@@ -576,13 +596,49 @@ body {
     margin-right: max(0px, 100% - var(--reading-measure));
   }
 
-  .prose-measure-centred > .float-right,
-  .prose-measure-centred > img[align='right' i] {
+  .prose-measure-centred:not(
+      :has(
+        > :is(
+          .gx-tile-grid,
+          .grid,
+          [class*='grid-cols'],
+          .row,
+          .card-deck,
+          .inline-div,
+          .table-wrapper,
+          table,
+          figure,
+          pre,
+          div:has(> pre),
+          iframe,
+          video
+        )
+      )
+    )
+    > :is(.float-right, img[align='right' i]) {
     margin-right: max(0px, (100% - var(--reading-measure)) / 2);
   }
 
-  .prose-measure-centred > .float-left,
-  .prose-measure-centred > img[align='left' i] {
+  .prose-measure-centred:not(
+      :has(
+        > :is(
+          .gx-tile-grid,
+          .grid,
+          [class*='grid-cols'],
+          .row,
+          .card-deck,
+          .inline-div,
+          .table-wrapper,
+          table,
+          figure,
+          pre,
+          div:has(> pre),
+          iframe,
+          video
+        )
+      )
+    )
+    > :is(.float-left, img[align='left' i]) {
     margin-left: max(0px, (100% - var(--reading-measure)) / 2);
   }
 }
