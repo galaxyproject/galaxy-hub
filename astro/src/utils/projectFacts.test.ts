@@ -64,6 +64,18 @@ describe('parseProjectFacts', () => {
     expect(facts.grants).toEqual([]);
     expect(facts.labels).toEqual([]);
     expect(facts.fundingLogo).toBeUndefined();
+    expect(facts.related).toEqual([]);
+  });
+
+  it('reads related projects with a label, name and link', () => {
+    const facts = parseProjectFacts({
+      related: [
+        { label: 'Builds on', name: 'EuroScienceGateway', href: '/projects/esg/' },
+        { label: 'Builds on', name: 'No link' },
+        'esg',
+      ],
+    });
+    expect(facts.related).toEqual([{ label: 'Builds on', name: 'EuroScienceGateway', href: '/projects/esg/' }]);
   });
 });
 
