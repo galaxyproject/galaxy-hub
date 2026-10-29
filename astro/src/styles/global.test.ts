@@ -37,13 +37,33 @@ function parse(body: string): Array<[string, string]> {
   return [...body.matchAll(/([\w-]+)\s*:\s*([^;{}]+);/g)].map((m) => [m[1], m[2].trim()]);
 }
 
+/** A rule body without its nested blocks (`@variant dark { ... }`). */
+function ownBody(body: string): string {
+  return topLevelRules(body).reduce((rest, [, inner]) => rest.replace(`{${inner}}`, ';'), body);
+}
+
 function declarations(selector: string): Map<string, string> {
   const out = new Map<string, string>();
   for (const [prelude, body] of topLevelRules(css)) {
-    if (prelude === selector) for (const [name, value] of parse(body)) out.set(name, value);
+    if (prelude === selector) for (const [name, value] of parse(ownBody(body))) out.set(name, value);
   }
   return out;
 }
+
+/** Declarations inside `:root { @variant dark { ... } }`: the dark theme values. */
+function darkDeclarations(): Map<string, string> {
+  const out = new Map<string, string>();
+  for (const [prelude, body] of topLevelRules(css)) {
+    if (prelude !== ':root') continue;
+    for (const [inner, innerBody] of topLevelRules(body)) {
+      if (inner === '@variant dark') for (const [name, value] of parse(innerBody)) out.set(name, value);
+    }
+  }
+  return out;
+}
+
+/** Body of `@custom-variant dark { ... }`. */
+const darkVariant = topLevelRules(css).find(([prelude]) => prelude === '@custom-variant dark')?.[1] ?? '';
 
 /** The @theme inline block that maps the semantic roles (the one defining --color-fg). */
 const roleBlock = topLevelRules(css)
@@ -56,7 +76,7 @@ const shadcnNames =
 
 const theme = declarations('@theme inline');
 const light = declarations(':root');
-const dark = declarations('.dark');
+const dark = darkDeclarations();
 
 /** Colour utilities mapped to a runtime variable: --color-<name>: var(--<role>). */
 const colourRoles = [...theme]
@@ -72,10 +92,18 @@ describe('global.css theme roles', () => {
     expect(names).toContain('--color-accent-gold');
   });
 
-  it('gives every colour role a light value in :root and a dark value in .dark', () => {
+  it('switches dark by data-theme on <html> or the system setting, on screen only', () => {
+    expect(darkVariant).toMatch(/@media screen\s*\{\s*&:where\(\[data-theme='dark'\], \[data-theme='dark'\] \*\)/);
+    expect(darkVariant).toMatch(
+      /@media screen and \(prefers-color-scheme: dark\)\s*\{\s*&:where\(:root:not\(\[data-theme='light'\]\), :root:not\(\[data-theme='light'\]\) \*\)/
+    );
+    expect(topLevelRules(css).some(([prelude]) => prelude === '.dark')).toBe(false);
+  });
+
+  it('gives every colour role a light value in :root and a dark value under @variant dark', () => {
     const missing = colourRoles.flatMap(([name, role]) => [
       ...(light.has(role) ? [] : [`${name} -> ${role} has no :root value`]),
-      ...(dark.has(role) ? [] : [`${name} -> ${role} has no .dark value`]),
+      ...(dark.has(role) ? [] : [`${name} -> ${role} has no dark value`]),
     ]);
     expect(missing).toEqual([]);
   });

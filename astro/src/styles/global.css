@@ -10,7 +10,20 @@
 /* DESIGN.md names tokens in running text; do not scan it for class candidates. */
 @source not "../../DESIGN.md";
 
-@custom-variant dark (&:is(.dark *));
+/* Dark theme (DESIGN.md "Dark mode"): data-theme="dark" on <html>, or the system setting
+   while <html> has no data-theme="light". Screen only, so print stays light. */
+@custom-variant dark {
+  @media screen {
+    &:where([data-theme='dark'], [data-theme='dark'] *) {
+      @slot;
+    }
+  }
+  @media screen and (prefers-color-scheme: dark) {
+    &:where(:root:not([data-theme='light']), :root:not([data-theme='light']) *) {
+      @slot;
+    }
+  }
+}
 
 /* Base styles */
 html {
@@ -123,43 +136,45 @@ body {
   --sidebar-ring: oklch(0.708 0 0);
 }
 
-.dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
-  --chart-1: oklch(0.488 0.243 264.376);
-  --chart-2: oklch(0.696 0.17 162.48);
-  --chart-3: oklch(0.769 0.188 70.08);
-  --chart-4: oklch(0.627 0.265 303.9);
-  --chart-5: oklch(0.645 0.246 16.439);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
+:root {
+  @variant dark {
+    --background: oklch(0.145 0 0);
+    --foreground: oklch(0.985 0 0);
+    --card: oklch(0.205 0 0);
+    --card-foreground: oklch(0.985 0 0);
+    --popover: oklch(0.205 0 0);
+    --popover-foreground: oklch(0.985 0 0);
+    --primary: oklch(0.922 0 0);
+    --primary-foreground: oklch(0.205 0 0);
+    --secondary: oklch(0.269 0 0);
+    --secondary-foreground: oklch(0.985 0 0);
+    --muted: oklch(0.269 0 0);
+    --muted-foreground: oklch(0.708 0 0);
+    --accent: oklch(0.269 0 0);
+    --accent-foreground: oklch(0.985 0 0);
+    --destructive: oklch(0.704 0.191 22.216);
+    --border: oklch(1 0 0 / 10%);
+    --input: oklch(1 0 0 / 15%);
+    --ring: oklch(0.556 0 0);
+    --chart-1: oklch(0.488 0.243 264.376);
+    --chart-2: oklch(0.696 0.17 162.48);
+    --chart-3: oklch(0.769 0.188 70.08);
+    --chart-4: oklch(0.627 0.265 303.9);
+    --chart-5: oklch(0.645 0.246 16.439);
+    --sidebar: oklch(0.205 0 0);
+    --sidebar-foreground: oklch(0.985 0 0);
+    --sidebar-primary: oklch(0.488 0.243 264.376);
+    --sidebar-primary-foreground: oklch(0.985 0 0);
+    --sidebar-accent: oklch(0.269 0 0);
+    --sidebar-accent-foreground: oklch(0.985 0 0);
+    --sidebar-border: oklch(1 0 0 / 10%);
+    --sidebar-ring: oklch(0.556 0 0);
+  }
 }
 
 /* ==========================================================================
    Semantic roles (DESIGN.md §2 "Semantic roles"). Light values in :root, dark
-   values in .dark; nothing sets .dark yet. Raw values carry a --gx- prefix so
+   values under @variant dark (see the dark variant above). Raw values carry a --gx- prefix so
    component-local custom properties (--surface, --line, --link) cannot shadow
    them. Brand hex values appear only here; page code uses the role utilities.
    ========================================================================== */
@@ -317,62 +332,64 @@ body {
   }
 }
 
-.dark {
-  color-scheme: dark;
+:root {
+  @variant dark {
+    color-scheme: dark;
 
-  --gx-fg: #d5d8df; /* 12.91:1 on #121419 */
-  --gx-fg-strong: #f0f1f4; /* 16.31:1 */
-  --gx-fg-2: #c0c4cc; /* 10.54:1 */
-  --gx-fg-meta: #a3a8b4; /* 7.74:1 */
-  --gx-fg-faint: #737a8c;
-  --gx-fg-brand: #bfdaf4; /* 10.74:1 on surface-tint */
-  --gx-link: #8cbbe9; /* 9.12:1 */
-  --gx-link-hover: #bfdaf4; /* 12.77:1 */
-  --gx-link-line: color-mix(in srgb, #8cbbe9 50%, transparent);
-  --gx-link-hover-line: #ffd700;
+    --gx-fg: #d5d8df; /* 12.91:1 on #121419 */
+    --gx-fg-strong: #f0f1f4; /* 16.31:1 */
+    --gx-fg-2: #c0c4cc; /* 10.54:1 */
+    --gx-fg-meta: #a3a8b4; /* 7.74:1 */
+    --gx-fg-faint: #737a8c;
+    --gx-fg-brand: #bfdaf4; /* 10.74:1 on surface-tint */
+    --gx-link: #8cbbe9; /* 9.12:1 */
+    --gx-link-hover: #bfdaf4; /* 12.77:1 */
+    --gx-link-line: color-mix(in srgb, #8cbbe9 50%, transparent);
+    --gx-link-hover-line: #ffd700;
 
-  --gx-page: #121419;
-  --gx-surface: #121419;
-  --gx-surface-2: #171a21;
-  --gx-surface-raised: #1b1e27;
-  --gx-surface-overlay: #232734;
-  --gx-surface-tint: #172536;
-  --gx-surface-sunken: #22262f;
+    --gx-page: #121419;
+    --gx-surface: #121419;
+    --gx-surface-2: #171a21;
+    --gx-surface-raised: #1b1e27;
+    --gx-surface-overlay: #232734;
+    --gx-surface-tint: #172536;
+    --gx-surface-sunken: #22262f;
 
-  --gx-line: #2a2e38;
-  --gx-line-brand: rgb(140 187 233 / 0.16);
-  --gx-line-strong: rgb(140 187 233 / 0.38);
-  --gx-line-input: #737a8c; /* 4.29:1 */
-  --gx-focus: #8cbbe9;
-  --gx-focus-on-chrome: #ffd700;
+    --gx-line: #2a2e38;
+    --gx-line-brand: rgb(140 187 233 / 0.16);
+    --gx-line-strong: rgb(140 187 233 / 0.38);
+    --gx-line-input: #737a8c; /* 4.29:1 */
+    --gx-focus: #8cbbe9;
+    --gx-focus-on-chrome: #ffd700;
 
-  --gx-brand: #2b5f8e; /* white on it 6.71:1 */
-  --gx-on-brand: #ffffff;
-  --gx-selected: #8cbbe9;
-  --gx-on-selected: #10131a; /* 9.20:1 */
-  --gx-accent-gold: #ffd700;
-  --gx-accent-gold-hover: #ffe24d;
-  --gx-on-accent-gold: #2c3143;
+    --gx-brand: #2b5f8e; /* white on it 6.71:1 */
+    --gx-on-brand: #ffffff;
+    --gx-selected: #8cbbe9;
+    --gx-on-selected: #10131a; /* 9.20:1 */
+    --gx-accent-gold: #ffd700;
+    --gx-accent-gold-hover: #ffe24d;
+    --gx-on-accent-gold: #2c3143;
 
-  --gx-chrome: #1c2030;
-  --gx-chrome-fg: #d7dae3; /* 11.57:1 */
-  --gx-chrome-fg-2: #c7cad6;
-  --gx-chrome-meta: #a9aec0; /* 7.32:1 */
-  --gx-chrome-line: rgb(255 255 255 / 0.08);
-  --gx-chrome-field: #292e3f;
+    --gx-chrome: #1c2030;
+    --gx-chrome-fg: #d7dae3; /* 11.57:1 */
+    --gx-chrome-fg-2: #c7cad6;
+    --gx-chrome-meta: #a9aec0; /* 7.32:1 */
+    --gx-chrome-line: rgb(255 255 255 / 0.08);
+    --gx-chrome-field: #292e3f;
 
-  --gx-ok-fg: #74d08e; /* 8.22:1 */
-  --gx-ok-bg: #12291a;
-  --gx-ok-line: #23512f;
-  --gx-past-fg: #c0c4cc; /* 8.66:1 */
-  --gx-past-bg: #22262f;
-  --gx-past-line: #3b404c;
-  --gx-info-fg: #80c3ea; /* 8.57:1 */
-  --gx-info-bg: #14202c;
-  --gx-warn-fg: #ffe848; /* 12.43:1 */
-  --gx-warn-bg: #2a2410;
-  --gx-danger-fg: #ff817b; /* 7.02:1 */
-  --gx-danger-bg: #2e1517;
+    --gx-ok-fg: #74d08e; /* 8.22:1 */
+    --gx-ok-bg: #12291a;
+    --gx-ok-line: #23512f;
+    --gx-past-fg: #c0c4cc; /* 8.66:1 */
+    --gx-past-bg: #22262f;
+    --gx-past-line: #3b404c;
+    --gx-info-fg: #80c3ea; /* 8.57:1 */
+    --gx-info-bg: #14202c;
+    --gx-warn-fg: #ffe848; /* 12.43:1 */
+    --gx-warn-bg: #2a2410;
+    --gx-danger-fg: #ff817b; /* 7.02:1 */
+    --gx-danger-bg: #2e1517;
+  }
 }
 
 @layer base {
