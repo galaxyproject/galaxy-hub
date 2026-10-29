@@ -65,31 +65,40 @@ const viewports = [
 
 async function misplacedDates(page: Page, rows: string): Promise<string[]> {
   return page.locator(rows).evaluateAll((els) => {
-    // First 12 rows: enough to cover long and short titles without measuring 1000+ archive rows
-    return els.slice(0, 12).flatMap((row) => {
-      const date = row.querySelector('.gx-event-date, time');
-      if (!date) return [];
-      const title =
-        row.querySelector('h2, h3') ??
-        Array.from(row.querySelectorAll(':scope > *, :scope > * > *')).find(
-          (el) => !el.contains(date) && !date.contains(el) && (el.textContent ?? '').trim() !== ''
-        );
-      const label = (title?.textContent ?? row.textContent ?? '').trim().slice(0, 60);
-      if (!title) return [`${label}: no title`];
-      if (!(title.compareDocumentPosition(date) & Node.DOCUMENT_POSITION_FOLLOWING))
-        return [`${label}: date before title`];
-      // Directly under the title: a teaser paragraph comes after the date line, not between
-      const teaser = Array.from(row.querySelectorAll('p')).find((p) => !p.contains(date));
-      if (teaser && !(date.compareDocumentPosition(teaser) & Node.DOCUMENT_POSITION_FOLLOWING))
-        return [`${label}: date after the teaser`];
-      const range = document.createRange();
-      range.selectNodeContents(title);
-      const lines = Array.from(range.getClientRects()).filter((r) => r.width > 0 && r.height > 0);
-      const dateLines = Array.from(date.getClientRects()).filter((r) => r.width > 0 && r.height > 0);
-      if (lines.length === 0 || dateLines.length === 0) return [`${label}: not rendered`];
-      const titleBottom = Math.max(...lines.map((r) => r.bottom));
-      return dateLines[0].top >= titleBottom - 0.5 ? [] : [`${label}: date beside or above title`];
-    });
+    // First 12 rows of each section (upcoming, past, archive years): enough to cover long and short
+    // titles without measuring 1000+ archive rows, and upcoming rows cannot crowd out past ones
+    const perSection = new Map<Element, Element[]>();
+    for (const row of els) {
+      const section = row.closest('section') ?? document.body;
+      const list = perSection.get(section) ?? [];
+      if (list.length < 12) perSection.set(section, [...list, row]);
+    }
+    return Array.from(perSection.values())
+      .flat()
+      .flatMap((row) => {
+        const date = row.querySelector('.gx-event-date, time');
+        if (!date) return [];
+        const title =
+          row.querySelector('h2, h3') ??
+          Array.from(row.querySelectorAll(':scope > *, :scope > * > *')).find(
+            (el) => !el.contains(date) && !date.contains(el) && (el.textContent ?? '').trim() !== ''
+          );
+        const label = (title?.textContent ?? row.textContent ?? '').trim().slice(0, 60);
+        if (!title) return [`${label}: no title`];
+        if (!(title.compareDocumentPosition(date) & Node.DOCUMENT_POSITION_FOLLOWING))
+          return [`${label}: date before title`];
+        // Directly under the title: a teaser paragraph comes after the date line, not between
+        const teaser = Array.from(row.querySelectorAll('p')).find((p) => !p.contains(date));
+        if (teaser && !(date.compareDocumentPosition(teaser) & Node.DOCUMENT_POSITION_FOLLOWING))
+          return [`${label}: date after the teaser`];
+        const range = document.createRange();
+        range.selectNodeContents(title);
+        const lines = Array.from(range.getClientRects()).filter((r) => r.width > 0 && r.height > 0);
+        const dateLines = Array.from(date.getClientRects()).filter((r) => r.width > 0 && r.height > 0);
+        if (lines.length === 0 || dateLines.length === 0) return [`${label}: not rendered`];
+        const titleBottom = Math.max(...lines.map((r) => r.bottom));
+        return dateLines[0].top >= titleBottom - 0.5 ? [] : [`${label}: date beside or above title`];
+      });
   });
 }
 
