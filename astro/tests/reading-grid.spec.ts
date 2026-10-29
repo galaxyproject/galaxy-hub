@@ -87,22 +87,35 @@ test.describe('Reading grid at 1440px', () => {
     expect((await paragraph.boundingBox())!.width).toBeLessThanOrEqual((await measureAt(paragraph)) + 1);
   });
 
-  test('without a rail, text keeps the measure and centred text keeps the full width', async ({ page }) => {
+  test('without a rail, the 72ch column is centred and centred text stays centred', async ({ page }) => {
     await page.goto(NO_TOC_PAGE);
     await expect(page.locator('.toc-sidebar')).toHaveCount(0);
-    const prose = page.locator('.prose-galaxy').first();
+    const wrapper = page.locator('.content-with-toc').first();
+    const prose = wrapper.locator('.prose-galaxy');
     const proseBox = (await prose.boundingBox())!;
     const paragraph = longParagraph(prose);
     const measure = await measureAt(paragraph);
-    expect(proseBox.width, 'the column is wider than the measure').toBeGreaterThan(measure + 40);
+
+    // The wrapper's content box (inside its padding) is the space the column centres in.
+    const area = await wrapper.evaluate((el) => {
+      const r = el.getBoundingClientRect();
+      const s = getComputedStyle(el);
+      const left = r.left + parseFloat(s.paddingLeft);
+      return { left, width: r.width - parseFloat(s.paddingLeft) - parseFloat(s.paddingRight) };
+    });
+    expect(area.width, 'the content area is wider than the measure').toBeGreaterThan(measure + 40);
+    expect(proseBox.width, 'column is 72ch').toBeLessThanOrEqual(measure + 1);
+    expect(proseBox.width, 'column is 72ch').toBeGreaterThan(measure - 1);
+    const areaCentre = area.left + area.width / 2;
+    expect(Math.abs(proseBox.x + proseBox.width / 2 - areaCentre), 'column is centred').toBeLessThan(2);
+
     const textBox = (await paragraph.boundingBox())!;
-    expect(textBox.width, 'paragraph capped at 72ch').toBeLessThanOrEqual(measure + 1);
-    expect(textBox.width, 'paragraph reaches the measure').toBeGreaterThan(measure - 1);
+    expect(textBox.width, 'paragraph fills the column').toBeGreaterThan(measure - 1);
 
     const floatBox = await prose.locator(':scope > img.float-right').first().boundingBox();
     expect(floatBox, `${NO_TOC_PAGE} needs a right-floated image as a direct child`).not.toBeNull();
-    expect(floatBox!.x + floatBox!.width, 'a right float sits at the measure edge').toBeLessThanOrEqual(
-      textBox.x + measure + 1
+    expect(floatBox!.x + floatBox!.width, 'a right float stays in the column').toBeLessThanOrEqual(
+      proseBox.x + proseBox.width + 1
     );
 
     const centred = prose.locator(':scope > p[style*="text-align"]').first();

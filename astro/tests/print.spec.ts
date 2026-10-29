@@ -21,6 +21,7 @@ import { test, expect } from '@playwright/test';
 const ARTICLE = '/news/2026-07-06-gcc2026-recap/';
 const TABLE_PAGE = '/galaxy-updates/2017-10/';
 const CODE_PAGE = '/galaxy-updates/2016-10/';
+const NO_TOC_PAGE = '/galaxy-team/';
 
 /** Parsed rgb()/rgba() -> perceived luminance (0 = black, 255 = white). */
 function luminance(color: string): number {
@@ -108,20 +109,25 @@ test.describe('Print stylesheet', () => {
       expect(stuck).toEqual([]);
     });
 
-    test('running text uses the full printed width, not the 72ch screen measure', async ({ page }) => {
-      await page.goto(ARTICLE);
-      await page.emulateMedia({ media: 'print' });
+    // ARTICLE has a table of contents; NO_TOC_PAGE shows a centred 72ch column on screen.
+    for (const path of [ARTICLE, NO_TOC_PAGE]) {
+      test(`running text uses the full printed width, not the 72ch screen measure: ${path}`, async ({ page }) => {
+        await page.goto(path);
+        await page.emulateMedia({ media: 'print' });
 
-      const widths = await page.evaluate(() => {
-        const prose = document.querySelector('.prose-measure');
-        const p = [...(prose?.children ?? [])].find(
-          (el) => el.tagName === 'P' && (el.textContent ?? '').length > 200
-        );
-        return prose && p ? { prose: prose.getBoundingClientRect().width, p: p.getBoundingClientRect().width } : null;
+        // Compared with the content wrapper, so a capped column fails as well as capped text.
+        const widths = await page.evaluate(() => {
+          const wrapper = document.querySelector('.content-with-toc');
+          const prose = wrapper?.querySelector('.prose-measure');
+          const p = [...(prose?.children ?? [])].find(
+            (el) => el.tagName === 'P' && (el.textContent ?? '').length > 200
+          );
+          return wrapper && p ? { page: wrapper.clientWidth, p: p.getBoundingClientRect().width } : null;
+        });
+        expect(widths, 'expected a long paragraph in the prose column').not.toBeNull();
+        expect(widths!.p).toBeGreaterThan(widths!.page - 1);
       });
-      expect(widths, 'expected a long paragraph in the prose column').not.toBeNull();
-      expect(widths!.p).toBeGreaterThan(widths!.prose - 1);
-    });
+    }
   });
 
   test.describe('readable without background graphics', () => {
