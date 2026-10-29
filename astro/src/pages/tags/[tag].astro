@@ -69,8 +69,8 @@ const hasBoth = newsArticles.length > 0 && sortedEvents.length > 0;
                 <h3 class="text-base font-medium text-chicago-700 group-hover:text-galaxy-primary transition-colors">
                   {article.data.title}
                 </h3>
+                <time class="block mt-1 text-sm text-chicago-400">{formatDate(article.data.date)}</time>
                 {article.data.tease && <p class="text-sm text-chicago-500 mt-1 line-clamp-2">{article.data.tease}</p>}
-                <time class="text-sm text-chicago-400">{formatDate(article.data.date)}</time>
               </a>)}
             </div>
             {newsArticles.length > 20 && <button
