@@ -182,7 +182,8 @@
     break-inside: avoid;
   }
 
-  .page-header::before {
+  .page-header::before,
+  .page-header::after {
     display: none !important;
   }
 
@@ -198,7 +199,9 @@
   }
 
   /* Tag pills: keep the outline readable without a background. */
-  .page-header [class*='border-white'] {
+  .page-header [class*='border-white'],
+  .page-header [class*='border-galaxy-primary'],
+  .page-header [class*='border-chicago-200'] {
     border-color: #666 !important;
   }
 

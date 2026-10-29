@@ -1,7 +1,8 @@
 ---
 /**
  * Reusable page header component with Galaxy branding
- * Features gradient background, grid pattern overlay, and gold accent bar
+ * variant 'hero' (default): gradient background, grid pattern overlay, and gold accent bar (listings, landings)
+ * variant 'compact': title on the page surface over a hairline with a 48px gold segment (reading pages)
  * Supports optional article metadata (date, authors, tags)
  */
 
@@ -15,9 +16,19 @@ interface Props {
   date?: Date | string;
   authors?: Array<string | { id?: string; name: string }>;
   tags?: string[];
+  variant?: 'hero' | 'compact';
 }
 
-const { title, description, eyebrow, date, authors: authorsRaw = [], tags: tagsRaw = [] } = Astro.props;
+const {
+  title,
+  description,
+  eyebrow,
+  date,
+  authors: authorsRaw = [],
+  tags: tagsRaw = [],
+  variant = 'hero',
+} = Astro.props;
+const compact = variant === 'compact';
 const eyebrowData = typeof eyebrow === 'string' ? { label: eyebrow } : eyebrow;
 
 // Ensure arrays are never null
@@ -49,33 +60,58 @@ function toISOString(d: Date | string | undefined): string {
 
 // Use long format (full month names) for standalone page headers
 const formattedDate = formatDate(date, false);
+
+// Per-variant text classes: white on the hero gradient; on the compact header dark text on white,
+// links darker blue with a gold underline on hover (never gold text on white).
+const tagBase = 'inline-flex items-center px-2.5 py-1 rounded-md text-sm font-medium';
+const tone = compact
+  ? {
+      eyebrowLink:
+        'mb-1.5 inline-flex text-sm font-bold text-galaxy-primary underline-offset-4 hover:text-bay-of-many-950 hover:underline hover:decoration-galaxy-gold-dark focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-galaxy-primary',
+      eyebrowText: 'mb-1.5 text-sm font-bold text-galaxy-grey',
+      titleRow: 'page-header-title',
+      lead: 'mt-2 text-lg leading-7 text-chicago-700',
+      meta: 'flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-galaxy-grey mt-3',
+      authorLink:
+        'text-galaxy-primary underline decoration-galaxy-primary/40 underline-offset-2 hover:text-bay-of-many-950 hover:decoration-galaxy-gold-dark focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-galaxy-primary',
+      tags: 'flex flex-wrap gap-2 mt-3',
+      tagLink: `${tagBase} border border-galaxy-primary/30 text-galaxy-dark hover:border-galaxy-gold hover:bg-galaxy-gold/20 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-galaxy-primary`,
+      tagText: `${tagBase} border border-chicago-200 text-galaxy-grey`,
+    }
+  : {
+      eyebrowLink:
+        'mb-3 inline-flex text-sm font-semibold text-galaxy-gold underline-offset-4 hover:text-accent-hover hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-galaxy-gold',
+      eyebrowText: 'mb-3 text-sm font-semibold text-galaxy-gold',
+      titleRow: 'flex items-center gap-3 mb-4',
+      lead: 'text-white/80 text-lg',
+      meta: 'flex flex-wrap items-center gap-4 text-sm text-white/70 mt-4',
+      authorLink: 'underline decoration-white/40 hover:decoration-galaxy-gold',
+      tags: 'flex flex-wrap gap-2 mt-4',
+      tagLink: `${tagBase} border border-white/30 text-white hover:border-galaxy-gold hover:bg-galaxy-gold/20 transition-colors`,
+      tagText: `${tagBase} border border-white/30 text-white/70`,
+    };
 ---
 
-<header class="page-header">
+<header class:list={['page-header', compact && 'page-header--compact']}>
   <div class="page-header-content">
     {eyebrowData &&
       (eyebrowData.href ? (
-        <a
-          href={eyebrowData.href}
-          class="mb-3 inline-flex text-sm font-semibold text-galaxy-gold underline-offset-4 hover:text-accent-hover hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-galaxy-gold"
-        >
+        <a href={eyebrowData.href} class={tone.eyebrowLink}>
           {eyebrowData.label}
         </a>
       ) : (
-        <div class="mb-3 text-sm font-semibold text-galaxy-gold">{eyebrowData.label}</div>
+        <div class={tone.eyebrowText}>{eyebrowData.label}</div>
       ))}
 
-    <div class="flex items-center gap-3 mb-4">
+    <div class={tone.titleRow}>
       <div class="w-1 h-8 bg-galaxy-gold"></div>
       <h1 class="text-3xl sm:text-4xl font-bold tracking-tight">{title}</h1>
     </div>
 
-    {description && <p class="text-white/80 text-lg">{description}</p>}
+    {description && <p class={tone.lead}>{description}</p>}
 
     {/* Article metadata row */}
-    {(date || normalizedAuthors.length > 0) && <div
-      class="flex flex-wrap items-center gap-4 text-sm text-white/70 mt-4"
-    >
+    {(date || normalizedAuthors.length > 0) && <div class={tone.meta}>
       {date && <time datetime={toISOString(date)} class="font-medium">
         {formattedDate}
       </time>}
@@ -91,33 +127,22 @@ const formattedDate = formatDate(date, false);
         <span class="flex flex-wrap gap-1.5">
           {normalizedAuthors.map((author, idx) => {
             const label = <>{author.label}{idx < normalizedAuthors.length - 1 ? ',' : ''}</>;
-            return author.href ? (
-              <a href={author.href} class="underline decoration-white/40 hover:decoration-galaxy-gold">{label}</a>
-            ) : (
-              <span>{label}</span>
-            );
+            return author.href ? <a href={author.href} class={tone.authorLink}>{label}</a> : <span>{label}</span>;
           })}
         </span>
       </div>}
     </div>}
 
     {/* Tags — only link tags that have a generated page (no slashes, reasonable length) */}
-    {tags.length > 0 && <div class="flex flex-wrap gap-2 mt-4">
+    {tags.length > 0 && <div class={tone.tags}>
       {tags.map((tag) => {
         const linkable = tag && !tag.includes('/') && tag.trim().length < 100;
         return linkable ? (
-          <a
-            href={`/tags/${tag.toLowerCase()}/`}
-            class="inline-flex items-center px-2.5 py-1 rounded-md text-sm font-medium border border-white/30 text-white hover:border-galaxy-gold hover:bg-galaxy-gold/20 transition-colors"
-          >
+          <a href={`/tags/${tag.toLowerCase()}/`} class={tone.tagLink}>
             {tag}
           </a>
         ) : (
-          <span
-            class="inline-flex items-center px-2.5 py-1 rounded-md text-sm font-medium border border-white/30 text-white/70"
-          >
-            {tag}
-          </span>
+          <span class={tone.tagText}>{tag}</span>
         );
       })}
     </div>}
@@ -152,5 +177,59 @@ const formattedDate = formatDate(date, false);
   .page-header-content {
     position: relative;
     z-index: 1;
+  }
+
+  /* Compact variant: flat on the page surface, hairline with a 48px gold segment */
+  .page-header--compact {
+    margin: 0 1.5rem;
+    padding: 2rem 0 1.25rem;
+    background: none;
+    color: var(--color-galaxy-dark);
+    border-radius: 0;
+    border-bottom: 1px solid var(--color-chicago-100);
+  }
+
+  .page-header--compact::before {
+    content: none;
+  }
+
+  .page-header--compact::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 48px;
+    height: 3px;
+    border-radius: 2px;
+    background: var(--color-galaxy-gold);
+  }
+
+  /* The hero's side bar is the only gold on the title row; the segment replaces it */
+  .page-header--compact .page-header-title > .bg-galaxy-gold {
+    display: none;
+  }
+
+  .page-header--compact h1 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    letter-spacing: -0.01em;
+    color: var(--color-galaxy-dark);
+  }
+
+  @media (min-width: 640px) {
+    .page-header--compact {
+      margin: 0 2rem;
+    }
+  }
+
+  @media (max-width: 639.98px) {
+    .page-header--compact {
+      padding: 1.5rem 0 1rem;
+    }
+
+    .page-header--compact h1 {
+      font-size: 1.625rem;
+      line-height: 2rem;
+    }
   }
 </style>
