@@ -156,14 +156,14 @@ const hasIde = scenes.some((s) => s.kind === 'ide');
       <h2>What one install gives your agent</h2>
       <div class="grid gap-4 md:grid-cols-3">
         {pillars.map((p) => <div
-          class="bg-white border border-galaxy-primary/10 rounded-lg shadow-sm p-6 flex flex-col gap-3"
+          class="bg-surface border border-galaxy-primary/10 rounded-lg shadow-sm p-6 flex flex-col gap-3"
         >
           <span
-            class="inline-grid place-items-center w-10 h-10 rounded-md bg-galaxy-primary/10 text-galaxy-primary [&>svg]:w-5 [&>svg]:h-5"
+            class="inline-grid place-items-center w-10 h-10 rounded-md bg-galaxy-primary/10 text-link [&>svg]:w-5 [&>svg]:h-5"
             set:html={svg(p.icon)}
           />
-          <h3 class="text-lg font-semibold text-galaxy-dark leading-snug">{p.title}</h3>
-          <p class="text-sm text-galaxy-grey leading-relaxed flex-1">{p.text}</p>
+          <h3 class="text-lg font-semibold text-fg-strong leading-snug">{p.title}</h3>
+          <p class="text-sm text-fg-meta leading-relaxed flex-1">{p.text}</p>
           <a
             class="ash-link inline-flex items-center gap-1.5 text-sm font-semibold transition-colors [&>svg]:w-4 [&>svg]:h-4"
             href={p.href}
