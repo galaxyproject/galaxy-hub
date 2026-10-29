@@ -345,9 +345,10 @@ body {
 }
 
 /* Logo plate (DESIGN.md "Dark mode"): logos and line art with dark lettering on a transparent
-   background sit on a light plate in dark. Transparent in light. A spread shadow, so nothing moves. */
+   background sit on a light plate in dark. Transparent in light. A spread shadow, so nothing moves.
+   Images in prose and region inserts get it by file type; opaque images hide it. */
 .logo-plate,
-.prose img:is([src$='.svg'], [src$='.png'], [src$='.webp'], [src$='.gif']) {
+:is(.prose, .subsite-inserts) img:is([src$='.svg'], [src$='.png'], [src$='.webp'], [src$='.gif']) {
   background-color: var(--gx-logo-plate);
   box-shadow: 0 0 0 4px var(--gx-logo-plate);
 }
