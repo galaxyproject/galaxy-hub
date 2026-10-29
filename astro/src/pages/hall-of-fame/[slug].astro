@@ -555,7 +555,7 @@ const hasBoth = newsItems.length > 0 && eventItems.length > 0;
   .collapsible summary {
     cursor: pointer;
     font-weight: 600;
-    color: #2c3143;
+    color: var(--color-fg-strong);
     display: inline-flex;
     align-items: center;
     gap: 0.35rem;
@@ -568,7 +568,7 @@ const hasBoth = newsItems.length > 0 && eventItems.length > 0;
   .collapsible summary::before {
     content: '▾';
     font-size: 0.85rem;
-    color: #6b7280;
+    color: var(--color-fg-meta);
   }
 
   .collapsible[open] summary::before {
@@ -576,7 +576,7 @@ const hasBoth = newsItems.length > 0 && eventItems.length > 0;
   }
 
   .collapsible .count {
-    color: #6b7280;
+    color: var(--color-fg-meta);
     font-weight: 500;
   }
 </style>
