@@ -63,3 +63,15 @@ test('supporters sit flat around their cards', async ({ page }) => {
   expect(style).toEqual({ image: 'none', bg: TRANSPARENT, left: '0px', radius: '0px' });
   await expect(section.locator('[data-supporter-card]').first()).toBeVisible();
 });
+
+for (const path of ['/projects/esg/', '/projects/esg/news/', '/projects/esg/events/']) {
+  test(`${path}: the project page is not boxed`, async ({ page }) => {
+    await page.goto(path);
+    const panel = page.locator('#main-content > div').first();
+    const style = await panel.evaluate((el) => {
+      const own = getComputedStyle(el);
+      return { bg: own.backgroundColor, shadow: own.boxShadow };
+    });
+    expect(style).toEqual({ bg: TRANSPARENT, shadow: 'none' });
+  });
+}
