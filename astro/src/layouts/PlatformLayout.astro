@@ -85,7 +85,7 @@ const sections = [
 <BaseLayout title={title || 'Galaxy Server'} description={summary} noindex={noindex}>
   <article class="max-w-4xl mx-auto">
     <!-- Back Link -->
-    <a href="/use/" class="inline-flex items-center gap-1 text-galaxy-primary hover:underline mb-6">
+    <a href="/use/" class="inline-flex items-center gap-1 text-link hover:underline mb-6">
       <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
       </svg>
@@ -96,7 +96,7 @@ const sections = [
     <header class="mb-8">
       <div class="flex flex-col md:flex-row gap-6">
         <div class="flex-1">
-          <h1 class="text-h1 font-bold text-chicago-900 mb-4">{title}</h1>
+          <h1 class="text-h1 font-bold text-fg mb-4">{title}</h1>
 
           {url && <a
             href={url}
@@ -123,7 +123,7 @@ const sections = [
 
           {tags && tags.length > 0 && <div class="flex flex-wrap gap-2">
             {tags.map((tag: string) => <span
-              class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-galaxy-primary/10 text-galaxy-primary"
+              class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-galaxy-primary/10 text-link"
             >
               {tag}
             </span>)}
@@ -135,7 +135,7 @@ const sections = [
             href={url}
             target="_blank"
             rel="noopener noreferrer"
-            class="block border border-ebony-clay-100 rounded-lg p-2 hover:border-galaxy-primary transition-colors"
+            class="block border border-line rounded-lg p-2 hover:border-galaxy-primary transition-colors"
           >
             <img src={image} alt={title} class="max-w-48 h-auto" />
           </a>
@@ -146,9 +146,9 @@ const sections = [
     <!-- Platform Instances Table -->
     {instances && instances.length > 0 && <div class="mb-8 overflow-x-auto">
       <table class="w-full border-collapse">
-        <tbody class="divide-y divide-ebony-clay-100">
-          {instances.map((instance: PlatformInstance) => <tr class="bg-ebony-clay-50 even:bg-white">
-            <th class="px-4 py-3 text-left text-sm font-medium text-chicago-900 w-40">
+        <tbody class="divide-y divide-line">
+          {instances.map((instance: PlatformInstance) => <tr class="bg-surface-chip even:bg-surface">
+            <th class="px-4 py-3 text-left text-sm font-medium text-fg w-40">
               {groupNames[instance.platform_group || ''] || instance.platform_group || 'Instance'}:
             </th>
             <td class="px-4 py-3 text-sm">
@@ -157,28 +157,28 @@ const sections = [
                   href={instance.platform_url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="text-galaxy-primary hover:underline"
+                  class="text-link hover:underline"
                 >
                   {instance.platform_text || instance.platform_url}
                 </a>
               ) : (
                 <span>{instance.platform_text}</span>
               )}
-              {instance.platform_location && <span class="text-chicago-500 ml-2">({instance.platform_location})</span>}
+              {instance.platform_location && <span class="text-fg-meta ml-2">({instance.platform_location})</span>}
             </td>
           </tr>)}
-          {scope && <tr class="bg-ebony-clay-50 even:bg-white">
-            <th class="px-4 py-3 text-left text-sm font-medium text-chicago-900 w-40">Scope:</th>
+          {scope && <tr class="bg-surface-chip even:bg-surface">
+            <th class="px-4 py-3 text-left text-sm font-medium text-fg w-40">Scope:</th>
             <td class="px-4 py-3 text-sm">
-              <a href={`/use/?scope=${encodeURIComponent(scope)}`} class="text-galaxy-primary hover:underline">
+              <a href={`/use/?scope=${encodeURIComponent(scope)}`} class="text-link hover:underline">
                 {scopeNames[scope] || scope}
               </a>
             </td>
           </tr>}
-          {summary && <tr class="bg-ebony-clay-50 even:bg-white">
-            <th class="px-4 py-3 text-left text-sm font-medium text-chicago-900 w-40 align-top">Summary:</th>
+          {summary && <tr class="bg-surface-chip even:bg-surface">
+            <th class="px-4 py-3 text-left text-sm font-medium text-fg w-40 align-top">Summary:</th>
             <td
-              class="px-4 py-3 text-sm text-chicago-700 prose prose-sm max-w-none"
+              class="px-4 py-3 text-sm text-fg-2 prose prose-sm max-w-none"
               set:html={renderMarkdownInline(summary)}
             />
           </tr>}
@@ -193,8 +193,8 @@ const sections = [
 
     <!-- Metadata Sections -->
     {sections.map((section) => <div class="mb-6">
-      <h2 class="text-xl font-semibold text-chicago-900 mb-3 capitalize">{section.name}</h2>
-      <ul class="list-disc list-inside space-y-1 text-chicago-700">
+      <h2 class="text-xl font-semibold text-fg mb-3 capitalize">{section.name}</h2>
+      <ul class="list-disc list-inside space-y-1 text-fg-2">
         {section.items.map((item: string) => (
           <li class="prose prose-sm max-w-none" set:html={renderMarkdownInline(item)} />
         ))}
@@ -205,14 +205,12 @@ const sections = [
                 href={`https://www.zotero.org/groups/1732893/galaxy/tags/%3E${tag}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                class="text-galaxy-primary hover:underline"
+                class="text-link hover:underline"
               >
                 {tag} tagged publications
               </a
               >{' '} in the{' '}
-              <a href="/publication-library/" class="text-galaxy-primary hover:underline">
-                Galaxy Publication Library
-              </a>
+              <a href="/publication-library/" class="text-link hover:underline"> Galaxy Publication Library </a>
             </li>)}
           </>
         )}
@@ -220,9 +218,9 @@ const sections = [
     </div>)}
 
     <!-- Platform Footer -->
-    <footer class="mt-12 pt-8 border-t border-ebony-clay-100">
+    <footer class="mt-12 pt-8 border-t border-line">
       <div class="flex justify-between items-center">
-        <a href="/use/" class="text-galaxy-primary hover:underline flex items-center gap-1">
+        <a href="/use/" class="text-link hover:underline flex items-center gap-1">
           <Icon name="chevron-left" />
           Back to Galaxy Servers
         </a>
@@ -231,7 +229,7 @@ const sections = [
             href={editUrl}
             target="_blank"
             rel="noopener noreferrer"
-            class="text-chicago-500 hover:text-galaxy-primary flex items-center gap-1.5 transition-colors"
+            class="text-fg-meta hover:text-link flex items-center gap-1.5 transition-colors"
           >
             <Icon name="edit" />
             Edit on GitHub

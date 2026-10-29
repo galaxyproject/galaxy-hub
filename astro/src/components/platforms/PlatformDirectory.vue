@@ -339,11 +339,11 @@ function getHostname(url: string): string {
 <template>
   <div class="platform-directory">
     <!-- Search and Filters -->
-    <div class="bg-white rounded-lg shadow-sm border border-ebony-clay-100 p-6 mb-8">
+    <div class="bg-surface rounded-lg shadow-sm border border-line p-6 mb-8">
       <div class="flex flex-col md:flex-row gap-4">
         <!-- Search with tool: / reference: autocomplete -->
         <div class="flex-1 relative">
-          <label class="block text-sm font-medium text-chicago-700 mb-1">Search</label>
+          <label class="block text-sm font-medium text-fg-2 mb-1">Search</label>
           <Input
             v-model="searchQuery"
             type="search"
@@ -363,26 +363,22 @@ function getHostname(url: string): string {
             v-if="showAutocomplete && filteredSuggestions.length > 0"
             id="platform-search-suggestions"
             role="listbox"
-            class="absolute z-30 mt-1 max-h-72 w-full overflow-y-auto rounded-md border border-ebony-clay-200 bg-white py-1 shadow-lg"
+            class="absolute z-30 mt-1 max-h-72 w-full overflow-y-auto rounded-md border border-line bg-surface py-1 shadow-lg"
           >
             <li
               v-for="(suggestion, index) in filteredSuggestions"
               :key="`${suggestion.type}-${suggestion.name}`"
               role="option"
               :aria-selected="index === selectedSuggestionIndex"
-              class="flex cursor-pointer items-center justify-between gap-3 px-3 py-2 text-sm hover:bg-ebony-clay-50"
-              :class="{ 'bg-ebony-clay-100': index === selectedSuggestionIndex }"
+              class="flex cursor-pointer items-center justify-between gap-3 px-3 py-2 text-sm hover:bg-surface-chip"
+              :class="{ 'bg-surface-chip-hover': index === selectedSuggestionIndex }"
               @mouseenter="selectedSuggestionIndex = index"
               @mousedown.prevent="selectSuggestion(suggestion)"
             >
-              <span class="min-w-0 truncate text-chicago-800">{{ suggestion.name }}</span>
+              <span class="min-w-0 truncate text-fg">{{ suggestion.name }}</span>
               <span
                 class="shrink-0 rounded-full px-2 py-0.5 text-xs"
-                :class="
-                  suggestion.type === 'tool'
-                    ? 'bg-galaxy-primary/10 text-galaxy-primary'
-                    : 'bg-green-100 text-green-800'
-                "
+                :class="suggestion.type === 'tool' ? 'bg-galaxy-primary/10 text-link' : 'bg-green-100 text-green-800'"
               >
                 {{ suggestion.badge }}
               </span>
@@ -390,7 +386,7 @@ function getHostname(url: string): string {
           </ul>
 
           <!-- Active tool/reference search indicator -->
-          <p v-if="isToolSearch" class="mt-1 text-xs text-galaxy-primary">
+          <p v-if="isToolSearch" class="mt-1 text-xs text-link">
             Tool search: “{{ searchQuery.trim().slice(5).trim() }}”
           </p>
           <p v-else-if="isReferenceSearch" class="mt-1 text-xs text-green-700">
@@ -400,7 +396,7 @@ function getHostname(url: string): string {
 
         <!-- Scope Filter -->
         <div class="w-full md:w-48">
-          <label for="platform-filter-type" class="block text-sm font-medium text-chicago-700 mb-1">Type</label>
+          <label for="platform-filter-type" class="block text-sm font-medium text-fg-2 mb-1">Type</label>
           <select
             id="platform-filter-type"
             v-model="selectedScope"
@@ -414,7 +410,7 @@ function getHostname(url: string): string {
 
         <!-- Location Filter -->
         <div class="w-full md:w-48">
-          <label for="platform-filter-location" class="block text-sm font-medium text-chicago-700 mb-1">Location</label>
+          <label for="platform-filter-location" class="block text-sm font-medium text-fg-2 mb-1">Location</label>
           <select
             id="platform-filter-location"
             v-model="selectedLocation"
@@ -428,7 +424,7 @@ function getHostname(url: string): string {
 
         <!-- Platform Group Filter -->
         <div class="w-full md:w-48">
-          <label for="platform-filter-platform" class="block text-sm font-medium text-chicago-700 mb-1">Platform</label>
+          <label for="platform-filter-platform" class="block text-sm font-medium text-fg-2 mb-1">Platform</label>
           <select
             id="platform-filter-platform"
             v-model="selectedPlatformGroup"
@@ -447,7 +443,7 @@ function getHostname(url: string): string {
       </div>
 
       <!-- Results count -->
-      <div class="mt-4 text-sm text-chicago-600">
+      <div class="mt-4 text-sm text-fg-meta">
         Showing {{ filteredPlatforms.length }} of {{ platforms.length }} Galaxy servers
       </div>
     </div>
@@ -458,13 +454,10 @@ function getHostname(url: string): string {
         <Card class="h-full hover:shadow-md transition-shadow border-t-4 border-t-galaxy-primary">
           <CardHeader class="pb-2">
             <div class="flex items-start justify-between">
-              <CardTitle class="text-lg text-chicago-900 group-hover:text-galaxy-primary transition-colors">
+              <CardTitle class="text-lg text-fg group-hover:text-link transition-colors">
                 {{ platform.title || 'Galaxy Server' }}
               </CardTitle>
-              <span
-                v-if="platform.scope"
-                class="text-xs px-2 py-1 rounded-full bg-galaxy-primary/10 text-galaxy-primary"
-              >
+              <span v-if="platform.scope" class="text-xs px-2 py-1 rounded-full bg-galaxy-primary/10 text-link">
                 {{ getScopeLabel(platform.scope) }}
               </span>
             </div>
@@ -472,10 +465,10 @@ function getHostname(url: string): string {
           <CardContent>
             <p
               v-if="platform.summary"
-              class="text-sm text-chicago-600 line-clamp-3 mb-3 prose prose-sm max-w-none"
+              class="text-sm text-fg-meta line-clamp-3 mb-3 prose prose-sm max-w-none"
               v-html="renderMarkdownInline(platform.summary)"
             ></p>
-            <div class="flex items-center justify-between text-xs text-chicago-500">
+            <div class="flex items-center justify-between text-xs text-fg-meta">
               <span v-if="platform.url" class="truncate max-w-[60%]">
                 {{ getHostname(platform.url) }}
               </span>
@@ -504,7 +497,7 @@ function getHostname(url: string): string {
 
     <!-- No results message -->
     <div v-if="filteredPlatforms.length === 0" class="text-center py-12">
-      <p class="text-chicago-500 mb-4">No Galaxy servers found matching your criteria.</p>
+      <p class="text-fg-meta mb-4">No Galaxy servers found matching your criteria.</p>
       <Button variant="outline" @click="clearFilters">Clear Filters</Button>
     </div>
   </div>
