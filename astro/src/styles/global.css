@@ -218,7 +218,7 @@ body {
   --text-micro: var(--gx-text-micro);
   --text-micro--line-height: 1rem;
 
-  /* Reading measure: max-w-measure. */
+  /* Reading measure: max-w-measure. Defined now, applied with the reading grid (DESIGN.md Prose). */
   --container-measure: var(--measure);
 }
 
@@ -430,33 +430,6 @@ body {
   & :where([class~='lead']):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
     font-size: var(--gx-text-lead);
     line-height: 1.75rem;
-  }
-}
-
-/* Reading measure: running text stops at 72ch; tables, code, images, figures, embeds
-   and tile grids keep the full content width. Direct children only, so text inside
-   layout wrappers (centred blocks, legacy .bs-compat grids) keeps its own width.
-   The measure resolves once on the container (body font), so headings stop at the
-   same edge as paragraphs instead of at 72ch of their larger font. */
-@property --gx-measure-width {
-  syntax: '<length>';
-  inherits: true;
-  initial-value: 0px;
-}
-
-@layer components {
-  @media screen {
-    .prose-measure {
-      --gx-measure-width: var(--measure);
-    }
-
-    .prose-measure > :where(p, ul, ol, dl, blockquote, h1, h2, h3, h4, h5, h6) {
-      max-width: var(--gx-measure-width);
-    }
-
-    .prose-measure > :where(p:has(> img, > a > img, > picture, > iframe, > video)) {
-      max-width: none;
-    }
   }
 }
 
