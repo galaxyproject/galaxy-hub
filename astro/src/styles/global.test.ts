@@ -33,14 +33,26 @@ function topLevelRules(source: string): Array<[string, string]> {
   return rules;
 }
 
+function parse(body: string): Array<[string, string]> {
+  return [...body.matchAll(/([\w-]+)\s*:\s*([^;{}]+);/g)].map((m) => [m[1], m[2].trim()]);
+}
+
 function declarations(selector: string): Map<string, string> {
   const out = new Map<string, string>();
   for (const [prelude, body] of topLevelRules(css)) {
-    if (prelude !== selector) continue;
-    for (const m of body.matchAll(/([\w-]+)\s*:\s*([^;{}]+);/g)) out.set(m[1], m[2].trim());
+    if (prelude === selector) for (const [name, value] of parse(body)) out.set(name, value);
   }
   return out;
 }
+
+/** The @theme inline block that maps the semantic roles (the one defining --color-fg). */
+const roleBlock = topLevelRules(css)
+  .filter(([prelude, body]) => prelude === '@theme inline' && /--color-fg\s*:/.test(body))
+  .map(([, body]) => parse(body));
+
+/** shadcn names already in the first @theme inline block (design-alignment fact 5). */
+const shadcnNames =
+  /^--color-(background|foreground|card|popover|primary|secondary|muted|accent|destructive)(-foreground)?$|^--color-(border|input|ring|chart-\d+|sidebar(-[\w-]+)?)$/;
 
 const theme = declarations('@theme inline');
 const light = declarations(':root');
@@ -81,6 +93,15 @@ describe('global.css theme roles', () => {
   it('declares color-scheme in both theme blocks', () => {
     expect(light.get('color-scheme')).toBe('light');
     expect(dark.get('color-scheme')).toBe('dark');
+  });
+
+  it('maps every role colour to a --gx- variable and redefines no shadcn name', () => {
+    expect(roleBlock).toHaveLength(1);
+    const colours = roleBlock[0].filter(([name]) => name.startsWith('--color-'));
+    const notMapped = colours.filter(([, value]) => !/^var\(--gx-[\w-]+\)$/.test(value)).map(([name]) => name);
+    expect(notMapped).toEqual([]);
+    const shadcn = colours.filter(([name]) => shadcnNames.test(name)).map(([name]) => name);
+    expect(shadcn).toEqual([]);
   });
 
   it('never reuses galaxy-ui primitive names or the shadcn accent for theme colours', () => {
