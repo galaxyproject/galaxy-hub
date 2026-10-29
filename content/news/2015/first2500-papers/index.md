@@ -36,7 +36,7 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
     <td> </td>
     <td> </td>
     <td style=" text-align: right; background-color: #cfe2f3;"> 2 </td>
-    <td style=" text-align: right; background-color: #6fa8dc;"> 15 </td>
+    <td style=" text-align: right; background-color: #6fa8dc; color: #2c3143;"> 15 </td>
     <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 26 </td>
     <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 50 </td>
     <td style=" text-align: right; background-color: #2d65b6; color: #ffffff;"> 92 </td>
@@ -51,8 +51,8 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
     <td style=" text-align: right; background-color: #dddddd;"> 1 </td>
     <td style=" text-align: right; background-color: #cfe2f3;"> 3 </td>
     <td style=" text-align: right; background-color: #9fc5e8;"> 7 </td>
-    <td style=" text-align: right; background-color: #6fa8dc;"> 11 </td>
-    <td style=" text-align: right; background-color: #6fa8dc;"> 18 </td>
+    <td style=" text-align: right; background-color: #6fa8dc; color: #2c3143;"> 11 </td>
+    <td style=" text-align: right; background-color: #6fa8dc; color: #2c3143;"> 18 </td>
     <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 36 </td>
     <td style=" text-align: right; background-color: #2d65b6; color: #ffffff;"> 68 </td>
     <td style=" text-align: right; background-color: #1d45a6; color: #ffffff;"> 127 </td>
@@ -101,7 +101,7 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
     <td> </td>
     <td> </td>
     <td style=" text-align: right; background-color: #dddddd;"> 1 </td>
-    <td style=" text-align: right; background-color: #6fa8dc;"> 15 </td>
+    <td style=" text-align: right; background-color: #6fa8dc; color: #2c3143;"> 15 </td>
     <td style=" text-align: right; background-color: #2d65b6; color: #ffffff;"> 57 </td>
     <td style=" text-align: right; background-color: #2d65b6; color: #ffffff;"> 77 </td>
     <td style=" text-align: right;"> <strong>150</strong> </td>
@@ -114,8 +114,8 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
     <td style=" text-align: right; background-color: #cfe2f3;"> 2 </td>
     <td style=" text-align: right; background-color: #cfe2f3;"> 2 </td>
     <td style=" text-align: right; background-color: #cfe2f3;"> 5 </td>
-    <td style=" text-align: right; background-color: #6fa8dc;"> 16 </td>
-    <td style=" text-align: right; background-color: #6fa8dc;"> 15 </td>
+    <td style=" text-align: right; background-color: #6fa8dc; color: #2c3143;"> 16 </td>
+    <td style=" text-align: right; background-color: #6fa8dc; color: #2c3143;"> 15 </td>
     <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 26 </td>
     <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 45 </td>
     <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 24 </td>
@@ -130,7 +130,7 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
     <td> </td>
     <td> </td>
     <td style=" text-align: right; background-color: #cfe2f3;"> 2 </td>
-    <td style=" text-align: right; background-color: #6fa8dc;"> 13 </td>
+    <td style=" text-align: right; background-color: #6fa8dc; color: #2c3143;"> 13 </td>
     <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 22 </td>
     <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 38 </td>
     <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 24 </td>
@@ -160,10 +160,10 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
     <td style=" text-align: right; background-color: #dddddd;"> 1 </td>
     <td style=" text-align: right; background-color: #dddddd;"> 1 </td>
     <td style=" text-align: right; background-color: #9fc5e8;"> 7 </td>
-    <td style=" text-align: right; background-color: #6fa8dc;"> 13 </td>
+    <td style=" text-align: right; background-color: #6fa8dc; color: #2c3143;"> 13 </td>
     <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 21 </td>
     <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 24 </td>
-    <td style=" text-align: right; background-color: #6fa8dc;"> 17 </td>
+    <td style=" text-align: right; background-color: #6fa8dc; color: #2c3143;"> 17 </td>
     <td style=" text-align: right;"> <strong>84</strong> </td>
   </tr>
   <tr>
@@ -208,7 +208,7 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
     <td style=" text-align: right; background-color: #9fc5e8;"> 7 </td>
     <td style=" text-align: right; background-color: #9fc5e8;"> 8 </td>
     <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 24 </td>
-    <td style=" text-align: right; background-color: #6fa8dc;"> 12 </td>
+    <td style=" text-align: right; background-color: #6fa8dc; color: #2c3143;"> 12 </td>
     <td style=" text-align: right;"> <strong>57</strong> </td>
   </tr>
   <tr>
@@ -221,7 +221,7 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
     <td style=" text-align: right; background-color: #9fc5e8;"> 7 </td>
     <td style=" text-align: right; background-color: #cfe2f3;"> 3 </td>
     <td style=" text-align: right; background-color: #9fc5e8;"> 10 </td>
-    <td style=" text-align: right; background-color: #6fa8dc;"> 13 </td>
+    <td style=" text-align: right; background-color: #6fa8dc; color: #2c3143;"> 13 </td>
     <td style=" text-align: right; background-color: #9fc5e8;"> 8 </td>
     <td style=" text-align: right; background-color: #cfe2f3;"> 5 </td>
     <td style=" text-align: right;"> <strong>53</strong> </td>
@@ -250,9 +250,9 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
     <td style=" text-align: right; background-color: #dddddd;"> 1 </td>
     <td style=" text-align: right; background-color: #cfe2f3;"> 3 </td>
     <td style=" text-align: right; background-color: #cfe2f3;"> 4 </td>
-    <td style=" text-align: right; background-color: #6fa8dc;"> 12 </td>
+    <td style=" text-align: right; background-color: #6fa8dc; color: #2c3143;"> 12 </td>
     <td style=" text-align: right; background-color: #9fc5e8;"> 6 </td>
-    <td style=" text-align: right; background-color: #6fa8dc;"> 11 </td>
+    <td style=" text-align: right; background-color: #6fa8dc; color: #2c3143;"> 11 </td>
     <td style=" text-align: right; background-color: #cfe2f3;"> 5 </td>
     <td style=" text-align: right;"> <strong>45</strong> </td>
   </tr>
