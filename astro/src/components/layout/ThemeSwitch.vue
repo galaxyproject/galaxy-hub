@@ -29,7 +29,10 @@ const optionClass = [
   'peer-focus-visible:outline-2 peer-focus-visible:outline-offset-1 peer-focus-visible:outline-galaxy-gold',
 ];
 
-const mode = ref<ThemeMode>('system');
+// Unset until mounted, so the server HTML checks no radio. During a view-transition swap the new
+// page's sidebar briefly shares the radio name with the persisted one, and a checked radio there
+// would uncheck the persisted choice.
+const mode = ref<ThemeMode | null>(null);
 
 function onThemeChange(event: Event) {
   mode.value = (event as CustomEvent<ThemeMode>).detail;
