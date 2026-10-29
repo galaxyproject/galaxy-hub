@@ -43,7 +43,8 @@ test.describe('Filter URL sync keeps router history state and hash', () => {
     expect(typeof before).toBe('number');
 
     await page
-      .locator('section:has-text("Past Events") button', { hasText: /^\s*\d{4}/ })
+      .getByRole('group', { name: 'Filter events by year' })
+      .getByRole('button', { name: /^\d{4}/ })
       .first()
       .click();
     await expect(page).toHaveURL(/\/events\/\?year=\d{4}#keep-me$/);
