@@ -1062,3 +1062,10 @@
 .bs-compat.btn a {
   color: inherit;
 }
+
+/* In dark, bold text inside legacy buttons keeps the button colour, not the light prose bold colour */
+.prose .bs-compat.btn :is(strong, b) {
+  @variant dark {
+    color: inherit;
+  }
+}
