@@ -313,6 +313,7 @@ export default {
   padding: 0.5rem 1rem;
   cursor: pointer;
   background-color: #eee;
+  color: #2c3143;
   border: 1px solid #ccc;
   border-radius: 0.5rem;
 }
@@ -333,31 +334,37 @@ th, td {
 }
 .event-egd {
   background-color: #ffadad;
+  color: #2c3143;
   padding: 2px 6px;
   border-radius: 5px;
 }
 .event-lunch {
   background-color: #ffd6a5;
+  color: #2c3143;
   padding: 2px 6px;
   border-radius: 5px;
 }
 .event-elixir {
   background-color: #fdffb6;
+  color: #2c3143;
   padding: 2px 6px;
   border-radius: 5px;
 }
 .event-bof {
   background-color: #caffbf;
+  color: #2c3143;
   padding: 2px 6px;
   border-radius: 5px;
 }
 .event-meets {
   background-color: #9bf6ff;
+  color: #2c3143;
   padding: 2px 6px;
   border-radius: 5px;
 }
 .event-esg {
   background-color: #bdb2ff;
+  color: #2c3143;
   padding: 2px 6px;
   border-radius: 5px;
 }
