@@ -29,7 +29,7 @@ const eventData = events.map((e) => ({
     <PageHeader title="Events" description="Workshops, conferences, and community gatherings" />
 
     <div class="bg-white px-6 sm:px-8 py-6 rounded-b-lg shadow-sm">
-      <EventsList client:only="vue" events={eventData} />
+      <EventsList client:only="vue" events={eventData} path={Astro.url.pathname} />
     </div>
   </div>
 </BaseLayout>
