@@ -86,6 +86,8 @@ test('/genouest/ lists the first five of /genouest/news/ and /genouest/events/, 
 });
 
 test('region rows are flat: no box, hairline, title underlined only on hover', async ({ page }) => {
+  // No smooth scrolling (global.css), so hover() scrolls the row in at once
+  await page.emulateMedia({ reducedMotion: 'reduce' });
   await page.setViewportSize({ width: 1440, height: 900 });
   await page.goto('/eu/');
   const row = section(page, 'Latest news').locator('ol.project-rows > li').first();
@@ -98,9 +100,12 @@ test('region rows are flat: no box, hairline, title underlined only on hover', a
   const link = row.locator('h3 a');
   const underline = () => link.evaluate((el) => getComputedStyle(el).textDecorationLine);
   expect(await underline()).toBe('none');
-  // The stretched link covers the row: hovering anywhere on it underlines the title
-  await row.hover({ position: { x: 8, y: 8 } });
-  await expect.poll(underline).toBe('underline');
+  // The stretched link covers the row: hovering anywhere on it underlines the title. Images in
+  // the region intro above can still shift the row after the pointer lands, so hover again.
+  await expect(async () => {
+    await row.hover({ position: { x: 8, y: 8 } });
+    expect(await underline()).toBe('underline');
+  }).toPass();
 
   // Short month on region news dates, e.g. "Oct 21, 2026"
   await expect(row.locator('time')).toHaveText(/^[A-Z][a-z]{2} \d{1,2}, \d{4}$/);
