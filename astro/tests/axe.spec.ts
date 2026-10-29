@@ -24,13 +24,13 @@ type Region = { name: string; count: number; locate: (page: Page) => Locator };
 type ScanTarget = { path: string; ready?: (page: Page) => Locator; exclude?: Region[] };
 
 const css = (selector: string) => (page: Page) => page.locator(selector);
-// SubsiteOverview: a section is its header row (heading, "View all") followed by the item rows
-// or its empty-state text
+// SubsiteOverview: a section is its header row (heading, "All ...") followed by the item rows
+// or its empty state
 const listAfterHeading = (heading: string) => (page: Page) =>
   page
     .locator('section')
     .filter({ has: page.getByRole('heading', { name: heading, exact: true }) })
-    .locator(':scope > ol.region-rows, :scope > p');
+    .locator(':scope > ol.project-rows, :scope > .region-empty');
 
 const pages: ScanTarget[] = [
   {
@@ -60,8 +60,8 @@ const pages: ScanTarget[] = [
   {
     path: '/embed/eu/', // EmbedLayout
     exclude: [
-      { name: 'upcoming events', count: 1, locate: listAfterHeading('Upcoming Events') },
-      { name: 'recent news', count: 1, locate: listAfterHeading('Recent News') },
+      { name: 'upcoming events', count: 1, locate: listAfterHeading('Upcoming events') },
+      { name: 'recent news', count: 1, locate: listAfterHeading('Latest news') },
     ],
   },
   {

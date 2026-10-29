@@ -1,8 +1,8 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import RegionBand from './layout/RegionBand.astro';
-import EventDate from './events/EventDate.astro';
-import { formatDate } from '../utils/dateUtils';
+import ProjectRows, { type ProjectRow } from './projects/ProjectRows.astro';
+import Icon from './mdx/Icon.astro';
 
 interface Props {
   subsite: string;
@@ -18,10 +18,20 @@ const { subsite, title, description, upcomingEvents, subsiteNews, hasMainContent
 const moreLink =
   'text-sm font-bold text-link no-underline hover:text-link-hover hover:underline hover:decoration-link-hover-line hover:decoration-2';
 
-function toIsoDate(date: Date | string | undefined): string | undefined {
-  if (!date) return undefined;
-  return (date instanceof Date ? date : new Date(date)).toISOString().slice(0, 10);
-}
+// Same subsite-scoped content as /<region>/events/ and /<region>/news/, five of each
+const eventRows: ProjectRow[] = upcomingEvents.map((event) => ({
+  href: `/${event.data.slug}/`,
+  title: event.data.title || 'Untitled event',
+  tease: event.data.tease,
+  start: event.data.date,
+  end: event.data.end,
+}));
+const newsRows: ProjectRow[] = subsiteNews.map((article) => ({
+  href: `/${article.data.slug}/`,
+  title: article.data.title || 'Untitled',
+  tease: article.data.tease,
+  start: article.data.date,
+}));
 ---
 
 <div class="max-w-6xl mx-auto">
@@ -34,45 +44,39 @@ function toIsoDate(date: Date | string | undefined): string | undefined {
   <div class="region-home-grid">
     <section aria-labelledby="region-events">
       <div class="region-sec-head">
-        <h2 id="region-events">Upcoming Events</h2>
-        <a href={`/${subsite}/events/`} class={moreLink}>View all <span class="sr-only">{title} events</span></a>
+        <h2 id="region-events">Upcoming events</h2>
+        <a href={`/${subsite}/events/`} class={moreLink}>
+          All events <span aria-hidden="true">→</span><span class="sr-only"> from {title}</span>
+        </a>
       </div>
 
-      {upcomingEvents.length === 0 ? (
-        <p class="region-empty">No upcoming events.</p>
+      {eventRows.length === 0 ? (
+        <div class="region-empty">
+          <span class="region-empty__icon" aria-hidden="true"><Icon name="inbox" size={28} /></span>
+          <p class="region-empty__title">No upcoming events</p>
+          <p class="region-empty__text">New events show here once they are announced.</p>
+        </div>
       ) : (
-        <ol class="region-rows">
-          {upcomingEvents.map((event) => <li class="region-row">
-            <h3 class="region-row__title">
-              <a class="region-row__link" href={`/${event.data.slug}/`}>{event.data.title}</a>
-            </h3>
-            <p class="region-row__meta"><EventDate start={event.data.date} end={event.data.end} /></p>
-            {event.data.tease && <p class="region-row__teaser">{event.data.tease}</p>}
-          </li>)}
-        </ol>
+        <ProjectRows kind="events" past={false} items={eventRows} />
       )}
     </section>
 
     <section aria-labelledby="region-news">
       <div class="region-sec-head">
-        <h2 id="region-news">Recent News</h2>
-        <a href={`/${subsite}/news/`} class={moreLink}>View all <span class="sr-only">{title} news</span></a>
+        <h2 id="region-news">Latest news</h2>
+        <a href={`/${subsite}/news/`} class={moreLink}>
+          All news <span aria-hidden="true">→</span><span class="sr-only"> from {title}</span>
+        </a>
       </div>
 
-      {subsiteNews.length === 0 ? (
-        <p class="region-empty">No recent news.</p>
+      {newsRows.length === 0 ? (
+        <div class="region-empty">
+          <span class="region-empty__icon" aria-hidden="true"><Icon name="inbox" size={28} /></span>
+          <p class="region-empty__title">No news yet</p>
+          <p class="region-empty__text">News for this region shows here once it is posted.</p>
+        </div>
       ) : (
-        <ol class="region-rows">
-          {subsiteNews.map((article) => <li class="region-row">
-            <h3 class="region-row__title">
-              <a class="region-row__link" href={`/${article.data.slug}/`}>{article.data.title}</a>
-            </h3>
-            <p class="region-row__meta">
-              <time datetime={toIsoDate(article.data.date)}>{formatDate(article.data.date)}</time>
-            </p>
-            {article.data.tease && <p class="region-row__teaser">{article.data.tease}</p>}
-          </li>)}
-        </ol>
+        <ProjectRows kind="news" items={newsRows} />
       )}
     </section>
   </div>
@@ -159,105 +163,36 @@ function toIsoDate(date: Date | string | undefined): string | undefined {
     color: var(--gx-fg-strong);
   }
 
+  /* Empty list (prototype A .empty): the section stays, with a dashed box in place of the rows */
   .region-empty {
-    padding: 14px 0;
-    color: var(--gx-fg-meta);
-  }
-
-  /* Flat rows: hairline between items, the whole row is the link, gold bar on hover and focus */
-  .region-rows {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-
-  .region-row {
-    position: relative;
     display: flex;
     flex-direction: column;
-    gap: 4px;
-    padding: 14px 12px 14px 14px;
-    border-bottom: 1px solid var(--gx-line);
-    transition: background-color 0.15s;
-  }
-
-  .region-row::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 10px;
-    bottom: 10px;
-    width: 3px;
-    border-radius: 2px;
-    background: var(--gx-accent-gold);
-    transform: scaleY(0);
-    transition: transform 0.2s;
-  }
-
-  .region-row:hover {
+    align-items: center;
+    gap: 6px;
+    margin-top: 12px;
+    padding: 32px 20px;
+    text-align: center;
+    border: 1px dashed var(--gx-line-strong);
+    border-radius: 0.625rem;
     background: var(--gx-surface-2);
   }
 
-  .region-row:hover::before,
-  .region-row:focus-within::before {
-    transform: scaleY(1);
+  .region-empty__icon {
+    display: inline-flex;
+    color: var(--gx-fg-meta);
   }
 
-  .region-row__title {
+  .region-empty__title {
     margin: 0;
-    font-size: 1rem;
-    line-height: 1.4;
     font-weight: 700;
     color: var(--gx-fg-strong);
   }
 
-  .region-row__link {
-    color: inherit;
-    text-decoration: none;
-  }
-
-  .region-row__link::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-  }
-
-  .region-row__link:hover {
-    color: var(--gx-link-hover);
-  }
-
-  .region-row__link:focus-visible {
-    outline: none;
-  }
-
-  .region-row:has(.region-row__link:focus-visible) {
-    outline: 2px solid var(--gx-focus);
-    outline-offset: -2px;
-  }
-
-  .region-row__meta {
+  .region-empty__text {
     margin: 0;
     font-size: var(--gx-text-meta);
     line-height: 1.25rem;
     color: var(--gx-fg-meta);
-  }
-
-  .region-row__teaser {
-    display: -webkit-box;
-    margin: 0;
-    overflow: hidden;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-    font-size: var(--gx-text-meta);
-    line-height: 1.25rem;
-    color: var(--gx-fg-2);
-  }
-
-  @media (prefers-reduced-motion: reduce) {
-    .region-row,
-    .region-row::before {
-      transition: none;
-    }
   }
 
   .subsite-inserts :global(> *) {
