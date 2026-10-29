@@ -34,33 +34,31 @@ const windowLabel = formatDate(endDate, false);
 const detail = `(${validated} validated, ${attempted} attempted, ${notTested} not tested).`;
 ---
 
-<div class="not-prose my-6 p-5 rounded-lg border border-galaxy-primary/10 bg-white shadow-sm">
-  <p class="text-lg text-galaxy-dark font-semibold">
-    The Galaxy {version} release was validated through {windowLabel}.
-  </p>
-  {total > 0 && <p class="text-sm text-chicago-700 mt-1">
+<div class="not-prose my-6 p-5 rounded-lg border border-galaxy-primary/10 bg-surface shadow-sm">
+  <p class="text-lg text-fg-strong font-semibold">The Galaxy {version} release was validated through {windowLabel}.</p>
+  {total > 0 && <p class="text-sm text-fg-2 mt-1">
     <span class={`font-bold ${TONES.complete.text}`}>{coverage}%</span> of {total} in-scope PRs validated {detail}
   </p>}
 
   {guardians.length > 0 && <div class="mt-4">
-    <div class="flex items-center gap-1 text-xs text-chicago-500 uppercase tracking-wide">
+    <div class="flex items-center gap-1 text-xs text-fg-meta uppercase tracking-wide">
       <Icon name="shield-check" size={14} />
       Testers
     </div>
     <ul class="mt-2 flex flex-wrap gap-3">
       {guardians.map((g) => <li
-        class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border bg-light-bg border-ebony-clay-100"
+        class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border bg-surface-tint border-line"
       >
         <img src={g.avatarUrl} alt="" loading="lazy" width="20" height="20" class="w-5 h-5 rounded-full" />
         <a
           href={g.url}
           target="_blank"
           rel="noopener noreferrer"
-          class="text-sm font-medium text-galaxy-dark hover:text-galaxy-primary"
+          class="text-sm font-medium text-fg-strong hover:text-link"
         >
           @{g.login}
         </a>
-        <span class="text-xs text-chicago-500">validated {g.validatedCount}</span>
+        <span class="text-xs text-fg-meta">validated {g.validatedCount}</span>
       </li>)}
     </ul>
   </div>}

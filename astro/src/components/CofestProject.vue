@@ -14,13 +14,13 @@ defineProps<{
 <template>
   <Card :class="['gx-tile border-galaxy-primary/10 py-0 gap-0', { 'h-full': !standalone }]">
     <CardHeader class="pt-4 pb-1">
-      <CardTitle class="m-0 text-galaxy-dark text-base leading-tight">{{ project.project }}</CardTitle>
+      <CardTitle class="m-0 text-fg-strong text-base leading-tight">{{ project.project }}</CardTitle>
     </CardHeader>
     <CardContent class="flex flex-1 flex-col gap-2.5 pt-1 pb-4">
-      <p v-if="project.description" class="text-sm text-galaxy-grey leading-relaxed">{{ project.description }}</p>
+      <p v-if="project.description" class="text-sm text-fg-meta leading-relaxed">{{ project.description }}</p>
       <div v-if="project.lead" class="text-sm">
-        <span class="text-galaxy-grey">Lead: </span>
-        <span class="font-semibold text-galaxy-primary">{{ project.lead }}</span>
+        <span class="text-fg-meta">Lead: </span>
+        <span class="font-semibold text-link">{{ project.lead }}</span>
       </div>
       <div v-if="project.assignees.length > 0 || !postEvent" class="team-section">
         <span class="section-label">TEAM</span>
@@ -29,7 +29,7 @@ defineProps<{
             {{ name }}
           </Badge>
         </div>
-        <p v-else class="text-xs text-galaxy-primary italic">✨ Open spot — come join this project!</p>
+        <p v-else class="text-xs text-link italic">✨ Open spot — come join this project!</p>
       </div>
       <div v-if="postEvent && hasOutcomes" class="outcomes-section">
         <span class="section-label">HIGHLIGHTS</span>
@@ -53,7 +53,7 @@ defineProps<{
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.08em;
-  color: var(--color-galaxy-grey, #6b7280);
+  color: var(--color-fg-meta);
 }
 
 .outcomes-section {
