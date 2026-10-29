@@ -3,7 +3,6 @@ import { ref, computed, onMounted, onUnmounted, watch } from 'vue';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
-import { renderMarkdownInline } from '@/utils/markdown';
 import { onPopState, readParams, writeParams } from '@/utils/urlFilters';
 
 interface Platform {
@@ -12,6 +11,8 @@ interface Platform {
   url?: string | null;
   scope?: string | null;
   summary?: string | null;
+  /** Summary rendered to HTML at build time. */
+  summaryHtml?: string;
   platforms?:
     | {
         platform_group?: string | null;
@@ -471,9 +472,9 @@ function getHostname(url: string): string {
           </CardHeader>
           <CardContent>
             <p
-              v-if="platform.summary"
+              v-if="platform.summaryHtml"
               class="text-sm text-chicago-600 line-clamp-3 mb-3 prose prose-sm max-w-none"
-              v-html="renderMarkdownInline(platform.summary)"
+              v-html="platform.summaryHtml"
             ></p>
             <div class="flex items-center justify-between text-xs text-chicago-500">
               <span v-if="platform.url" class="truncate max-w-[60%]">

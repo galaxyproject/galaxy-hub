@@ -1,14 +1,13 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { marked } from 'marked';
 import {
-  buildGtnHallOfFameUrl,
-  communityHasGtnHallOfFame,
+  getCommunityContactLinks,
   getCommunityImage,
+  getCommunityProfileUrl,
   communitySlug,
   findCommunityBySlug,
-  getCommunityGithubHandle,
   listContributors,
+  profileBioHtml,
   toArray,
 } from '../../utils/contributors';
 import { getContributionIndex } from '../../utils/hallOfFameIndex';
@@ -45,34 +44,10 @@ const profileDescription =
   (community as any)?.record?.bio ||
   (community as any)?.record?.description ||
   (community as any)?.record?.funding_statement;
-const profileDescriptionHtml = profileDescription ? marked.parse(profileDescription) : '';
-const githubHandle = community?.record ? getCommunityGithubHandle(community.record as any) : undefined;
+const profileDescriptionHtml = profileDescription ? profileBioHtml(String(profileDescription)) : '';
 const avatarUrl = community?.record ? getCommunityImage(community.record as any) : undefined;
-
-type ContactLink = {
-  label: string;
-  href: string;
-  icon?: string;
-};
-const contactLinks: ContactLink[] = [];
-
-function pushLink(label: string, href?: string, icon?: ContactLink['icon']) {
-  if (href) contactLinks.push({ label, href, icon });
-}
-
-if (community) {
-  const record: any = community.record;
-  if (record.fediverse) pushLink('Mastodon', record.fediverse, 'mastodon');
-  if (record.bluesky) pushLink('Bluesky', `https://bsky.app/profile/${record.bluesky}`, 'bluesky');
-  if (record.linkedin) pushLink('LinkedIn', `https://www.linkedin.com/in/${record.linkedin}`, 'linkedin');
-  if (record.matrix) pushLink('Matrix', `https://matrix.to/#/${record.matrix}`, 'matrix');
-  if (record.orcid) pushLink('ORCID', `https://orcid.org/${record.orcid}`, 'orcid');
-  if (githubHandle) pushLink('GitHub', `https://github.com/${githubHandle}`, 'github');
-  if (communityHasGtnHallOfFame(record)) {
-    const gtnUrl = buildGtnHallOfFameUrl(community.record.id || displayName || targetSlug);
-    pushLink('GTN Hall of Fame', gtnUrl, 'gtn');
-  }
-}
+const profileUrl = getCommunityProfileUrl(community?.record);
+const contactLinks = community ? getCommunityContactLinks(community.record, displayName || targetSlug) : [];
 
 const affiliationTags =
   community?.type === 'contributor'
@@ -112,8 +87,8 @@ const hasBoth = newsItems.length > 0 && eventItems.length > 0;
         <div class="flex items-center gap-3 mb-4">
           <div class="w-1 h-8 bg-galaxy-gold"></div>
           <h1 class="text-3xl sm:text-4xl font-bold tracking-tight">
-            {community?.record?.url ? (
-              <a href={community.record.url} class="hover:text-galaxy-gold transition-colors">
+            {profileUrl ? (
+              <a href={profileUrl} class="hover:text-galaxy-gold transition-colors">
                 {displayName || slug}
               </a>
             ) : (
@@ -137,11 +112,11 @@ const hasBoth = newsItems.length > 0 && eventItems.length > 0;
         <p class="text-white/70 mt-2 text-sm">{totalItems} contribution{totalItems === 1 ? '' : 's'}</p>
         {community && <div class="profile-header-block">
           <a
-            href={community?.record?.url || '#'}
-            class:list={['profile-avatar', 'profile-avatar-sm', { 'pointer-events-none': !community?.record?.url }]}
-            target={community?.record?.url ? '_blank' : undefined}
-            rel={community?.record?.url ? 'noopener noreferrer' : undefined}
-            aria-label={community?.record?.url ? `Visit ${displayName || slug}` : undefined}
+            href={profileUrl || '#'}
+            class:list={['profile-avatar', 'profile-avatar-sm', { 'pointer-events-none': !profileUrl }]}
+            target={profileUrl ? '_blank' : undefined}
+            rel={profileUrl ? 'noopener noreferrer' : undefined}
+            aria-label={profileUrl ? `Visit ${displayName || slug}` : undefined}
           >
             {avatarUrl ? (
               <img src={avatarUrl} alt={displayName || slug} class="profile-avatar-img" loading="lazy" />

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue';
-import { renderMarkdown } from '@/utils/markdown';
 import { Button } from '@/components/ui/button';
+import { safeHref } from '@/utils/url';
 
 export interface DykImage {
   url: string;
@@ -17,7 +17,8 @@ export interface DykItem {
   slug: string;
   title: string;
   tease?: string | null;
-  body: string;
+  /** Body rendered to HTML at build time. */
+  bodyHtml: string;
   subsites?: string[];
   date?: string | null;
   weight?: number | null;
@@ -55,7 +56,6 @@ function resample() {
 
 defineExpose({ resample });
 
-const bodyHtml = renderMarkdown(props.item.body);
 const linkTarget = props.newTab ? '_blank' : undefined;
 const linkRel = props.newTab ? 'noopener noreferrer' : undefined;
 </script>
@@ -72,12 +72,12 @@ const linkRel = props.newTab ? 'noopener noreferrer' : undefined;
       <figcaption class="dyk-caption">{{ sampledImage.alt }}</figcaption>
     </figure>
 
-    <div class="dyk-body" v-html="bodyHtml" />
+    <div class="dyk-body" v-html="item.bodyHtml" />
 
     <footer v-if="sampledLink" class="dyk-footer">
       <Button
         as="a"
-        :href="sampledLink.url"
+        :href="safeHref(sampledLink.url)"
         :target="linkTarget"
         :rel="linkRel"
         variant="default"

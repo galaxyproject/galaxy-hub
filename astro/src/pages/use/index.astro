@@ -5,6 +5,7 @@ import PlatformDirectory from '../../components/platforms/PlatformDirectory.vue'
 import MapToggle from './map/MapToggle.vue';
 import { prepareMapPlatformData } from './map/mapDataUtils';
 import { loadToolNames, loadReferenceNames } from '../../utils/platformDatasets';
+import { renderMarkdownInline } from '../../utils/markdown';
 
 // Get all platforms
 const platforms = await getListedCollection('platforms');
@@ -17,6 +18,7 @@ const platformData = platforms
     url: p.data.url,
     scope: p.data.scope,
     summary: p.data.summary,
+    summaryHtml: renderMarkdownInline(p.data.summary),
     platforms: p.data.platforms,
     image: p.data.image,
   }))
