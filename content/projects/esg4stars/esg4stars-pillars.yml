@@ -1,0 +1,17 @@
+heading: Five pillars
+
+pillars:
+    - name: Track smarter
+      content: Make energy use visible, measurable and FAIR
+
+    - name: Transfer less
+      content: Move only the necessary data
+
+    - name: Store less
+      content: Optimise storage footprints with storage classes and modern file formats
+
+    - name: Compute less
+      content: Reduce redundant processing and allocate right-sized resources
+
+    - name: Drive change
+      content: Raise awareness and drive adoption into European research infrastructures
