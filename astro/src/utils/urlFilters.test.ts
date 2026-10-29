@@ -118,6 +118,14 @@ describe('browser wrappers', () => {
     expect(isOnPage('/news/')).toBe(false);
   });
 
+  it('isOnPage tells a list from its sub-pages and other regions', () => {
+    stubWindow('https://hub.test/eu/events/?year=2024');
+    expect(isOnPage('/eu/events/')).toBe(true);
+    expect(isOnPage('/eu/events/archive/')).toBe(false);
+    expect(isOnPage('/events/')).toBe(false);
+    expect(isOnPage('/eu/news/')).toBe(false);
+  });
+
   it('isOnPage treats a trailing index.html in the URL as the directory', () => {
     stubWindow('https://hub.test/us/citations/index.html?year=2024');
     expect(isOnPage('/us/citations/')).toBe(true);
