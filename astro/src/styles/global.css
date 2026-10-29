@@ -760,8 +760,18 @@ a.gx-tile--link:hover {
 a.gx-tile--link:hover::before {
   transform: scaleX(1);
 }
+/* The tile keeps its text colours on hover (the prose link hover would recolour and
+   underline the whole card); only the "more" affordance takes the link hover. */
+.prose a.gx-tile--link:hover {
+  color: inherit;
+  text-decoration: none;
+}
 a.gx-tile--link:hover .gx-tile__more {
-  color: var(--color-galaxy-gold);
+  color: var(--gx-link-hover);
+  text-decoration: underline;
+  text-decoration-color: var(--gx-link-hover-line);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
 }
 
 /* Feature variant: galaxy-primary left border for emphasized content tiles. */
