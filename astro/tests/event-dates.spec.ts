@@ -75,7 +75,8 @@ test.describe('Event date line', () => {
             a.left < b.right - 0.5 && b.left < a.right - 0.5 && a.top < b.bottom - 0.5 && b.top < a.bottom - 0.5;
           return els.flatMap((row) => {
             const href = row.getAttribute('href');
-            const title = row.lastElementChild!.getBoundingClientRect();
+            // Upcoming rows title with an h3; past rows put the title first, the date line under it
+            const title = (row.querySelector('h3') ?? row.firstElementChild)!.getBoundingClientRect();
             const found: string[] = [];
             if (title.right > row.getBoundingClientRect().right + 0.5) found.push(`${href} title overflows row`);
             for (const part of row.querySelectorAll('.gx-event-date time, .gx-event-date__dur, .gx-event-date__icon')) {
