@@ -44,8 +44,8 @@
     flex-direction: column;
     min-width: 12rem;
     flex: 1 1 auto;
-    background-color: var(--color-surface);
-    border: 1px solid var(--color-line);
+    background-color: var(--gx-surface);
+    border: 1px solid var(--gx-line);
     border-radius: 0.5rem;
     overflow: hidden;
 
@@ -338,7 +338,7 @@
   &.table {
     width: 100%;
     margin-bottom: 1rem;
-    color: var(--color-fg);
+    color: var(--gx-fg);
     border-collapse: collapse;
   }
 
@@ -382,7 +382,7 @@
 /* Restore styling for .table headers without inline background colors */
 .prose .bs-compat.table th:not([style*='background-color']) {
   background-color: transparent;
-  color: var(--color-fg-strong);
+  color: var(--gx-fg-strong);
 }
 
 /* ==========================================================================
@@ -455,7 +455,7 @@
 }
 
 .bg-light {
-  background-color: var(--color-surface-sunken) !important;
+  background-color: var(--gx-surface-sunken) !important;
 }
 
 .bg-dark {
@@ -1049,4 +1049,9 @@
 /* Accessibility - hide from screen readers when decorative */
 [aria-hidden='true'] {
   speak: never;
+}
+
+/* Links inside legacy Bootstrap buttons take the button text colour */
+.bs-compat.btn a {
+  color: inherit;
 }
