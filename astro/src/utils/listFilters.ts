@@ -1,11 +1,18 @@
 /**
- * Shared matching helpers for list filters (citations, and the lists that adopt the filter bar next).
+ * Shared matching helpers for list filters (news, events and citations).
  * Pure functions: the list component owns the state and the URL sync (`@/utils/urlFilters`).
  */
 
 export interface YearCount {
   year: number;
   count: number;
+}
+
+/** UTC year of an item date (the year chips use UTC); `null` when the date is missing or invalid. */
+export function yearOf(date: Date | string | null | undefined): number | null {
+  if (!date) return null;
+  const parsed = date instanceof Date ? date : new Date(date);
+  return Number.isNaN(parsed.getTime()) ? null : parsed.getUTCFullYear();
 }
 
 /** Lower-cased words of a text query; a blank query has no terms. */
