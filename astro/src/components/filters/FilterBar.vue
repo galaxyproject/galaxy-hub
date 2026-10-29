@@ -4,7 +4,7 @@ import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import YearFilter from './YearFilter.vue';
-import type { FilterOption, YearOption } from './types';
+import type { FilterOption, YearOption, YearValue } from './types';
 
 const props = withDefaults(
   defineProps<{
@@ -17,6 +17,8 @@ const props = withDefaults(
     /** Extra context for the count line, e.g. "in 2024". */
     resultContext?: string;
     years?: YearOption[];
+    /** Opt-in "Unknown year" chip with this count (see YearFilter). */
+    unknownYearCount?: number;
     yearLabel?: string;
     searchLabel?: string;
     searchPlaceholder?: string;
@@ -28,6 +30,7 @@ const props = withDefaults(
   {
     resultContext: '',
     years: () => [],
+    unknownYearCount: undefined,
     yearLabel: 'Filter by year',
     searchLabel: 'Search',
     searchPlaceholder: '',
@@ -39,7 +42,7 @@ const props = withDefaults(
 );
 
 const q = defineModel<string>('q', { default: '' });
-const year = defineModel<number | null>('year', { default: null });
+const year = defineModel<YearValue>('year', { default: null });
 const tag = defineModel<string | null>('tag', { default: null });
 
 const id = useId();
@@ -94,7 +97,13 @@ const countText = computed(() => {
 
 <template>
   <div role="group" :aria-label="label" class="filter-bar mb-6 space-y-4">
-    <YearFilter v-if="years.length > 0" v-model="year" :years="years" :label="yearLabel" />
+    <YearFilter
+      v-if="years.length > 0"
+      v-model="year"
+      :years="years"
+      :unknown-count="unknownYearCount"
+      :label="yearLabel"
+    />
 
     <div class="flex flex-col gap-3 sm:flex-row sm:items-end">
       <div class="min-w-0 flex-1">
