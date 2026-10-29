@@ -16,15 +16,15 @@ export interface Tone {
 
 export const TONES: Record<SnapshotKind, Tone> = {
   needsValidation: {
-    text: 'text-chicago-700',
-    pill: 'bg-ebony-clay-50 text-chicago-700 border-ebony-clay-100',
+    text: 'text-fg-2',
+    pill: 'bg-surface-chip text-fg-2 border-line',
   },
   inProgress: {
     text: 'text-gold-500',
     pill: 'bg-gold-500 text-gray-900 border-gold-500',
   },
   complete: {
-    text: 'text-green-700',
+    text: 'text-ok-fg',
     pill: 'bg-green-700 text-white border-green-700',
   },
 };
