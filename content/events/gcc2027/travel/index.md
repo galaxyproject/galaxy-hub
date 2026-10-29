@@ -22,7 +22,7 @@ We have secured a discounted group rate for GCC2027 attendees. More hotel option
 
 <div class="not-prose" style="border: 1px solid var(--color-galaxy-primary); border-radius: 0.75rem; padding: 1.25rem; margin: 1.5rem 0;">
     <div class="flex flex-wrap items-center gap-3" style="margin-bottom: 1rem;">
-        <h3 style="margin: 0; font-size: 1.35rem; font-weight: 700; color: var(--color-galaxy-dark);">Tru by Hilton</h3>
+        <h3 style="margin: 0; font-size: 1.35rem; font-weight: 700; color: var(--gx-fg-strong);">Tru by Hilton</h3>
         <span class="rounded-full bg-galaxy-primary px-3 py-1 text-xs font-semibold uppercase text-white whitespace-nowrap">Group block</span>
     </div>
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
