@@ -647,15 +647,15 @@ body {
   width: 200px;
   margin: 0 0 1rem 1.5rem;
   padding: 1rem;
-  background-color: #f8fafc;
-  border: 1px solid #e2e8f0;
+  background-color: var(--color-surface-2);
+  border: 1px solid var(--color-line);
   border-radius: 0.5rem;
   font-size: 0.875rem;
 }
 
 .linkbox a {
   display: block;
-  color: #25537b;
+  color: var(--color-link);
   text-decoration: none;
   padding: 0.25rem 0;
 }
@@ -666,7 +666,7 @@ body {
 
 .linkbox hr {
   margin: 0.5rem 0;
-  border-color: #e2e8f0;
+  border-color: var(--color-line);
 }
 
 @media (max-width: 768px) {
@@ -694,7 +694,7 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  background-color: #fff;
+  background-color: var(--color-surface);
   border: 1px solid color-mix(in srgb, var(--color-galaxy-primary) 10%, transparent);
   border-radius: 0.5rem;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
@@ -713,7 +713,7 @@ body {
 .gx-tile .gx-tile__title {
   margin: 0;
   padding: 0.9rem 1.15rem 0.3rem;
-  color: var(--color-galaxy-dark);
+  color: var(--color-fg-strong);
   font-weight: 600;
   font-size: 1.15rem;
   line-height: 1.3;
@@ -721,7 +721,7 @@ body {
 
 .gx-tile__body {
   padding: 0 1.15rem 1rem;
-  color: var(--color-galaxy-grey);
+  color: var(--color-fg-meta);
   font-size: 0.95rem;
   line-height: 1.55;
 }
