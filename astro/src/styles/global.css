@@ -386,21 +386,21 @@ body {
 
 /* Galaxy-branded prose styles */
 .prose {
-  --tw-prose-body: var(--gx-fg);
-  --tw-prose-headings: var(--gx-fg-strong);
-  --tw-prose-lead: var(--gx-fg-2);
   --tw-prose-links: var(--gx-link);
+  --tw-prose-headings: var(--gx-fg-strong);
+  overflow-wrap: break-word;
+}
+
+/* Compact reading scale (DESIGN.md §3): 16/1.6 body, 30/22/18/16 headings, 18/28 lead,
+   text colours from the roles. A utility, so it sorts after Typography's .prose rules
+   and before the text-* sizes that content headings sometimes carry. */
+@utility prose-compact {
+  --tw-prose-body: var(--gx-fg);
+  --tw-prose-lead: var(--gx-fg-2);
   --tw-prose-bold: var(--gx-fg-strong);
   --tw-prose-counters: var(--gx-fg-meta);
   --tw-prose-quotes: var(--gx-fg-2);
   --tw-prose-captions: var(--gx-fg-meta);
-  overflow-wrap: break-word;
-}
-
-/* Compact reading scale (DESIGN.md §3): 16/1.6 body, 30/22/18/16 headings, 18/28 lead.
-   A utility, so it sorts after Typography's .prose rules and before the text-* sizes
-   that content headings sometimes carry. */
-@utility prose-galaxy {
   font-size: var(--gx-text-body);
   line-height: 1.6;
 
