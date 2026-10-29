@@ -63,12 +63,12 @@ const hasBoth = newsArticles.length > 0 && sortedEvents.length > 0;
             <div id="news-list">
               {newsArticles.map((article, idx) => <a
                 href={`/${article.data.slug}/`}
-                class:list={['gx-row', { hidden: idx >= 20 }]}
+                class:list={['gx-lrow', { hidden: idx >= 20 }]}
                 data-item
               >
-                <h3 class="gx-row__title">{article.data.title}</h3>
-                <p class="gx-row__meta"><time>{formatDate(article.data.date)}</time></p>
-                {article.data.tease && <p class="gx-row__teaser">{article.data.tease}</p>}
+                <h3 class="gx-lrow__title">{article.data.title}</h3>
+                <p class="gx-lrow__meta"><time>{formatDate(article.data.date)}</time></p>
+                {article.data.tease && <p class="gx-lrow__teaser">{article.data.tease}</p>}
               </a>)}
             </div>
             {newsArticles.length > 20 && <button

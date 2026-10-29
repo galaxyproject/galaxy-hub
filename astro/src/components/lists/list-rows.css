@@ -3,7 +3,7 @@
  * archive, tag and past-event lists. Prototype A styles.css .row/.row__* (566-598), .badge--past
  * (620-623) and .year-sec__h (822-824). Plain CSS with token fallbacks, like event-date.css.
  */
-.gx-row {
+.gx-lrow {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -16,12 +16,12 @@
 }
 
 /* This file is unlayered, so it would beat Tailwind's layered .hidden (tag pages hide rows past 20) */
-.gx-row.hidden {
+.gx-lrow.hidden {
   display: none;
 }
 
 /* Gold bar on hover and keyboard focus, as in the prototype */
-.gx-row::before {
+.gx-lrow::before {
   content: '';
   position: absolute;
   top: 10px;
@@ -34,16 +34,16 @@
   transition: transform 0.2s;
 }
 
-.gx-row:hover {
+.gx-lrow:hover {
   background: var(--color-chicago-50, #f5f5f6);
 }
 
-.gx-row:hover::before,
-.gx-row:focus-within::before {
+.gx-lrow:hover::before,
+.gx-lrow:focus-within::before {
   transform: scaleY(1);
 }
 
-.gx-row__title {
+.gx-lrow__title {
   margin: 0;
   color: var(--color-galaxy-dark, #2c3143);
   font-size: 1.125rem;
@@ -51,17 +51,17 @@
   line-height: 1.4;
 }
 
-.gx-row--past .gx-row__title {
+.gx-lrow--past .gx-lrow__title {
   color: var(--color-chicago-900, #3c3c3d);
 }
 
-.gx-row:hover .gx-row__title {
+.gx-lrow:hover .gx-lrow__title {
   text-decoration: underline;
   text-decoration-color: var(--color-galaxy-gold, #ffd700);
   text-decoration-thickness: 2px;
 }
 
-.gx-row__meta {
+.gx-lrow__meta {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -72,23 +72,23 @@
   line-height: 1.25rem;
 }
 
-.gx-row__meta > span {
+.gx-lrow__meta > span {
   display: inline-flex;
   align-items: center;
   gap: 5px;
 }
 
-.gx-row__icon {
+.gx-lrow__icon {
   display: inline-flex;
   color: var(--color-galaxy-primary, #25537b);
 }
 
-.gx-row__icon svg {
+.gx-lrow__icon svg {
   width: 14px;
   height: 14px;
 }
 
-.gx-row__teaser {
+.gx-lrow__teaser {
   display: -webkit-box;
   margin: 0;
   overflow: hidden;
@@ -147,11 +147,11 @@
 }
 
 @media (max-width: 639.98px) {
-  .gx-row {
+  .gx-lrow {
     padding: 12px 8px 12px 10px;
   }
 
-  .gx-row__title {
+  .gx-lrow__title {
     font-size: 1rem;
   }
 }

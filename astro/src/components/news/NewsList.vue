@@ -63,12 +63,12 @@ const ui = computed(() =>
       }
     : {
         list: '',
-        item: 'gx-row',
+        item: 'gx-lrow',
         link: 'block',
         body: 'flex flex-col gap-1',
-        title: 'gx-row__title',
-        meta: 'gx-row__meta',
-        teaser: 'gx-row__teaser',
+        title: 'gx-lrow__title',
+        meta: 'gx-lrow__meta',
+        teaser: 'gx-lrow__teaser',
         tags: 'mt-0.5 flex flex-wrap gap-2',
       }
 );

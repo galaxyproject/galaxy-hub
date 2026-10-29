@@ -77,13 +77,13 @@ const ui = computed(() =>
       }
     : {
         list: '',
-        item: 'gx-row',
+        item: 'gx-lrow',
         link: 'flex flex-col gap-1',
-        title: 'gx-row__title',
-        pastTitle: 'gx-row__title',
-        meta: 'gx-row__meta',
+        title: 'gx-lrow__title',
+        pastTitle: 'gx-lrow__title',
+        meta: 'gx-lrow__meta',
         place: '',
-        teaser: 'gx-row__teaser',
+        teaser: 'gx-lrow__teaser',
       }
 );
 const pageSize = 50;
@@ -353,7 +353,7 @@ function displaySubsite(subsite: string): string {
               <p v-if="event.date || event.location" :class="ui.meta">
                 <EventDate v-if="event.date" :start="event.date" :end="event.end" />
                 <span v-if="event.location" :class="ui.place">
-                  <span class="gx-row__icon" aria-hidden="true"><MapPin :size="14" /></span>
+                  <span class="gx-lrow__icon" aria-hidden="true"><MapPin :size="14" /></span>
                   {{ getLocationText(event.location) }}
                 </span>
               </p>
@@ -381,7 +381,7 @@ function displaySubsite(subsite: string): string {
         <article
           v-for="event in pastEvents.slice(0, pastDisplayCount)"
           :key="event.slug"
-          :class="[ui.item, { 'gx-row--past': !isTiles }]"
+          :class="[ui.item, { 'gx-lrow--past': !isTiles }]"
         >
           <!-- Date line under the title, as on every list -->
           <a :href="buildUrl(event.slug)" :class="ui.link">
@@ -392,7 +392,7 @@ function displaySubsite(subsite: string): string {
             <p :class="ui.meta">
               <EventDate v-if="event.date" :start="event.date" :end="event.end" past />
               <span v-if="event.location" :class="ui.place">
-                <span class="gx-row__icon" aria-hidden="true"><MapPin :size="14" /></span>
+                <span class="gx-lrow__icon" aria-hidden="true"><MapPin :size="14" /></span>
                 {{ getLocationText(event.location) }}
               </span>
               <PastBadge />

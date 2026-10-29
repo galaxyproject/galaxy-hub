@@ -42,20 +42,20 @@ const {
 } = Astro.props;
 ---
 
-<a href={href} class:list={['gx-row', { 'gx-row--past': past }, className]} {...attrs}>
-  <h3 class="gx-row__title">
+<a href={href} class:list={['gx-lrow', { 'gx-lrow--past': past }, className]} {...attrs}>
+  <h3 class="gx-lrow__title">
     {title}
     {externalUrl && <ExternalIcon href={externalUrl} />}
   </h3>
-  <p class="gx-row__meta">
+  <p class="gx-lrow__meta">
     <EventDate start={start} end={end} format={format} past={past} />
     {location && <span>
-      <span class="gx-row__icon" aria-hidden="true"><Icon name="map-pin" size={14} /></span>
+      <span class="gx-lrow__icon" aria-hidden="true"><Icon name="map-pin" size={14} /></span>
       {location}
     </span>}
     {past && <PastBadge />}
   </p>
-  {tease && <p class="gx-row__teaser">{tease}</p>}
+  {tease && <p class="gx-lrow__teaser">{tease}</p>}
   {tags.length > 0 && <span class="flex flex-wrap gap-1">
     {tags.map((tag) => <span class="text-xs px-2 py-0.5 bg-ebony-clay-50 text-chicago-600 rounded">{tag}</span>)}
   </span>}

@@ -22,18 +22,18 @@ const cases: RowCase[] = [
     count: /past events?/,
   },
   { name: 'region archive', path: '/eu/events/archive/', rows: '.events-list article', past: '.events-list article' },
-  { name: 'events archive', path: '/events/archive/', rows: 'main section a.gx-row', past: 'main section a.gx-row' },
+  { name: 'events archive', path: '/events/archive/', rows: 'main section a.gx-lrow', past: 'main section a.gx-lrow' },
   {
     name: 'webinars',
     path: '/events/webinars/',
-    rows: 'main section a.gx-row',
-    past: 'main section:has(h2:text("Past Webinars")) a.gx-row',
+    rows: 'main section a.gx-lrow',
+    past: 'main section:has(h2:text("Past Webinars")) a.gx-lrow',
   },
   {
     name: 'community calls',
     path: '/community/community-calls/',
-    rows: 'main section a.gx-row',
-    past: 'main section:has(h2:text("Past Community Calls")) a.gx-row',
+    rows: 'main section a.gx-lrow',
+    past: 'main section:has(h2:text("Past Community Calls")) a.gx-lrow',
   },
   { name: 'tag page', path: '/tags/conference/', rows: '#news-list > a, #events-list > a' },
 ];
