@@ -170,10 +170,11 @@
   }
 
   /* --------------------------------------------------------------------
-     Page header -- white text on a dark gradient on screen, which is
-     invisible when background graphics are disabled.
+     Page header and region band -- white text on a dark gradient on
+     screen, which is invisible when background graphics are disabled.
      -------------------------------------------------------------------- */
-  .page-header {
+  .page-header,
+  .region-band {
     background: none !important;
     color: #000 !important;
     padding: 0 0 0.6rem !important;
@@ -183,12 +184,14 @@
   }
 
   .page-header::before,
-  .page-header::after {
+  .page-header::after,
+  .region-band::before {
     display: none !important;
   }
 
   .page-header *,
-  .page-header a {
+  .page-header a,
+  .region-band * {
     color: #000 !important;
     text-decoration: none !important;
   }

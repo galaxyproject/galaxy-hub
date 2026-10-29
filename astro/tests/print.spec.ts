@@ -121,6 +121,17 @@ test.describe('Print stylesheet', () => {
       expect(luminance(color)).toBeLessThan(100);
     });
 
+    test('region band text is dark, not white-on-dark', async ({ page }) => {
+      await page.goto('/eu/');
+      await page.emulateMedia({ media: 'print' });
+
+      const band = page.locator('section.region-band');
+      const style = await band.evaluate((el) => getComputedStyle(el).backgroundImage);
+      expect(style).toBe('none');
+      const color = await band.locator('h1').evaluate((el) => getComputedStyle(el).color);
+      expect(luminance(color)).toBeLessThan(100);
+    });
+
     test('table headers are dark text, not white on blue', async ({ page }) => {
       await page.goto(TABLE_PAGE);
       await page.emulateMedia({ media: 'print' });
