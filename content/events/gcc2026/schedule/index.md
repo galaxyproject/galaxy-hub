@@ -90,7 +90,7 @@ presentation.
 <style>
 .gcc-schedule-day {
   margin: 1.5rem 0;
-  border: 1px solid #d9e0e8;
+  border: 1px solid var(--gx-line);
   border-radius: 0.6rem;
   overflow: hidden;
 }
@@ -134,10 +134,10 @@ presentation.
 
 .gcc-talk-list {
   margin: 1.25rem 0 2.25rem;
-  border: 1px solid #d9e0e8;
+  border: 1px solid var(--gx-line);
   border-radius: 0.5rem;
   overflow: hidden;
-  background: #fff;
+  background: var(--gx-surface);
 }
 
 .gcc-talk-list-header,
@@ -150,15 +150,15 @@ presentation.
 
 .gcc-talk-list-header {
   padding: 0.65rem 1rem;
-  background: #f4f7fa;
-  color: #2c3143;
+  background: var(--gx-surface-2);
+  color: var(--gx-fg-strong);
   font-size: 0.82rem;
   font-weight: 700;
   line-height: 1.3;
 }
 
 .gcc-talk {
-  border-top: 1px solid #d9e0e8;
+  border-top: 1px solid var(--gx-line);
 }
 
 .gcc-talk > summary {
@@ -173,7 +173,7 @@ presentation.
 
 .gcc-talk > summary::before {
   content: "+";
-  color: #25537b;
+  color: var(--gx-link);
   font-weight: 700;
   line-height: 1.35;
 }
@@ -184,20 +184,20 @@ presentation.
 
 .gcc-talk > summary:hover,
 .gcc-talk[open] > summary {
-  background: #f8fafc;
+  background: var(--gx-surface-2);
 }
 
 .gcc-talk-time,
 .gcc-talk-authors,
 .gcc-talk-poster {
-  color: #475569;
+  color: var(--gx-fg-2);
   font-size: 0.92rem;
   line-height: 1.4;
 }
 
 .gcc-talk-title {
   display: block;
-  color: #25537b;
+  color: var(--gx-link);
   font-weight: 700;
   line-height: 1.35;
 }
@@ -211,21 +211,21 @@ presentation.
   justify-self: start;
   padding: 0.12rem 0.45rem;
   border-radius: 999px;
-  background: #eaf1f7;
-  color: #25537b;
+  background: var(--gx-surface-tint);
+  color: var(--gx-link);
   font-weight: 700;
   white-space: nowrap;
 }
 
 .gcc-talk-poster-empty {
   background: transparent;
-  color: #94a3b8;
+  color: var(--gx-fg-meta);
   font-weight: 400;
 }
 
 .gcc-talk-abstract {
   padding: 0 1rem 1rem 3.15rem;
-  color: #334155;
+  color: var(--gx-fg);
   font-size: 0.95rem;
   line-height: 1.65;
 }
