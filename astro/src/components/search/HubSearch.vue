@@ -157,13 +157,13 @@ function getCollectionFilterLabel(collection: string): string {
 
 function getCollectionColor(collection: string): string {
   const colors: Record<string, string> = {
-    articles: 'bg-galaxy-primary/10 text-galaxy-primary',
+    articles: 'bg-galaxy-primary/10 text-link',
     events: 'bg-green-100 text-green-800',
     platforms: 'bg-purple-100 text-purple-800',
     news: 'bg-cyan-100 text-cyan-800',
     'hall-of-fame': 'bg-amber-100 text-amber-900',
   };
-  return colors[collection] || 'bg-ebony-clay-50 text-chicago-800';
+  return colors[collection] || 'bg-surface-chip text-fg';
 }
 
 function highlightMatch(text: string, maxLength: number = 200): string {
@@ -201,7 +201,7 @@ function highlightMatch(text: string, maxLength: number = 200): string {
           </option>
         </select>
       </div>
-      <div class="text-sm text-chicago-600">
+      <div class="text-sm text-fg-meta">
         <span v-if="isLoading">Loading search index...</span>
         <span v-else-if="!query.trim()"> {{ searchIndex.length.toLocaleString() }} pages indexed </span>
         <span v-else>
@@ -216,11 +216,11 @@ function highlightMatch(text: string, maxLength: number = 200): string {
       <article
         v-for="result in results"
         :key="result.slug"
-        class="bg-white rounded-lg border border-ebony-clay-100 p-5 hover:shadow-md transition-shadow"
+        class="bg-surface rounded-lg border border-line p-5 hover:shadow-md transition-shadow"
       >
         <a :href="result.path" class="block">
           <div class="flex items-start justify-between gap-4 mb-2">
-            <h2 class="text-lg font-semibold text-chicago-900 hover:text-galaxy-primary transition-colors">
+            <h2 class="text-lg font-semibold text-fg hover:text-link transition-colors">
               {{ result.title }}
               <ExternalIcon v-if="result.collection === 'events' && result.external_url" />
             </h2>
@@ -231,17 +231,17 @@ function highlightMatch(text: string, maxLength: number = 200): string {
 
           <p
             v-if="result.excerpt || result.tease"
-            class="text-chicago-600 text-sm mb-3"
+            class="text-fg-meta text-sm mb-3"
             v-html="highlightMatch(result.tease || result.excerpt)"
           ></p>
 
-          <div class="flex items-center gap-4 text-xs text-chicago-500">
+          <div class="flex items-center gap-4 text-xs text-fg-meta">
             <time v-if="result.date">{{ formatDate(result.date) }}</time>
             <div v-if="result.tags?.length" class="flex gap-1 flex-wrap">
-              <span v-for="tag in result.tags.slice(0, 3)" :key="tag" class="px-2 py-0.5 bg-ebony-clay-50 rounded">
+              <span v-for="tag in result.tags.slice(0, 3)" :key="tag" class="px-2 py-0.5 bg-surface-chip rounded">
                 {{ tag }}
               </span>
-              <span v-if="result.tags.length > 3" class="text-chicago-400"> +{{ result.tags.length - 3 }} more </span>
+              <span v-if="result.tags.length > 3" class="text-fg-meta"> +{{ result.tags.length - 3 }} more </span>
             </div>
           </div>
         </a>
@@ -258,8 +258,8 @@ function highlightMatch(text: string, maxLength: number = 200): string {
           d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
         ></path>
       </svg>
-      <p class="text-chicago-500 mb-2">No results found for "{{ query }}"</p>
-      <p class="text-sm text-chicago-400">Try different keywords or check your spelling</p>
+      <p class="text-fg-meta mb-2">No results found for "{{ query }}"</p>
+      <p class="text-sm text-fg-meta">Try different keywords or check your spelling</p>
     </div>
 
     <!-- Empty state -->
@@ -272,7 +272,7 @@ function highlightMatch(text: string, maxLength: number = 200): string {
           d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
         ></path>
       </svg>
-      <p class="text-chicago-500">Enter a search term to search the Galaxy Community Hub</p>
+      <p class="text-fg-meta">Enter a search term to search the Galaxy Community Hub</p>
     </div>
   </div>
 </template>

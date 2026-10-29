@@ -104,19 +104,19 @@ watch(
 
 <template>
   <div>
-    <p class="text-sm text-chicago-600 mb-4">
+    <p class="text-sm text-fg-meta mb-4">
       Search across the Galaxy ecosystem: Hub pages, codebase, mailing lists, help forum, and more.
     </p>
 
     <div v-if="cseError" role="alert" class="text-center py-12">
-      <p class="text-chicago-500 mb-2">Could not load Google Search.</p>
-      <p class="text-sm text-chicago-400">
+      <p class="text-fg-meta mb-2">Could not load Google Search.</p>
+      <p class="text-sm text-fg-meta">
         This may be due to an ad blocker or network issue. Try the Hub Search tab instead.
       </p>
     </div>
 
     <div v-else-if="!cseLoaded" role="status" class="text-center py-12">
-      <p class="text-chicago-500">Loading Google Search...</p>
+      <p class="text-fg-meta">Loading Google Search...</p>
     </div>
 
     <div v-else-if="!query.trim()" class="text-center py-12">
@@ -128,7 +128,7 @@ watch(
           d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
         ></path>
       </svg>
-      <p class="text-chicago-500">Enter a search term to search across the Galaxy ecosystem</p>
+      <p class="text-fg-meta">Enter a search term to search across the Galaxy ecosystem</p>
     </div>
 
     <div ref="containerRef" class="gcse-results"></div>
