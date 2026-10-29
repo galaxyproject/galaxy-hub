@@ -192,6 +192,24 @@ test.describe('Print stylesheet', () => {
     });
   });
 
+  test('Dark (data-theme="dark" on a dark OS) never prints: light page, dark text', async ({ page }) => {
+    await page.emulateMedia({ colorScheme: 'dark' });
+    await page.addInitScript(() => localStorage.setItem('hub-theme', 'dark'));
+    await page.goto(ARTICLE);
+    expect(await page.evaluate(() => document.documentElement.getAttribute('data-theme'))).toBe('dark');
+
+    await page.emulateMedia({ media: 'print', colorScheme: 'dark' });
+    const style = (selector: string, prop: 'color' | 'backgroundColor') =>
+      page
+        .locator(selector)
+        .first()
+        .evaluate((el, p) => getComputedStyle(el)[p], prop);
+    expect(await page.evaluate(() => getComputedStyle(document.documentElement).colorScheme)).toBe('light');
+    expect(luminance(await style('main.site-content', 'backgroundColor'))).toBeGreaterThan(200);
+    expect(luminance(await style('article .prose p', 'color'))).toBeLessThan(128);
+    expect(luminance(await style('article h1', 'color'))).toBeLessThan(128);
+  });
+
   test('print media hides chrome without dropping body copy', async ({ page }) => {
     await page.goto(ARTICLE);
     await page.waitForLoadState('networkidle');
