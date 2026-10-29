@@ -702,6 +702,16 @@ body {
   font-weight: 600;
 }
 
+/* Link blue on the blue header cell is 1:1: header links take the cell's white. */
+.prose table:not(.bs-compat) th a {
+  color: inherit;
+  text-decoration-color: currentColor;
+}
+
+.prose table:not(.bs-compat) th a:hover {
+  text-decoration-color: var(--gx-link-hover-line);
+}
+
 /* Compact content tables (DESIGN.md "Tables"). Unclassed only: legacy .bs-compat
    and component tables keep their own type and cell padding. */
 .prose table:not([class]) {
