@@ -27,24 +27,24 @@ We have secured a discounted group rate for GCC2027 attendees. More hotel option
     </div>
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
         <div>
-            <div class="text-xs font-semibold uppercase text-galaxy-grey">Dates</div>
+            <div class="text-xs font-semibold uppercase text-fg-meta">Dates</div>
             <div>June 25 – July 1, 2027</div>
         </div>
         <div>
-            <div class="text-xs font-semibold uppercase text-galaxy-grey">Rate</div>
+            <div class="text-xs font-semibold uppercase text-fg-meta">Rate</div>
             <div><strong>$291 CAD</strong> / night, single or double occupancy</div>
         </div>
         <div>
-            <div class="text-xs font-semibold uppercase text-galaxy-grey">Included</div>
+            <div class="text-xs font-semibold uppercase text-fg-meta">Included</div>
             <div>Hot buffet breakfast and Wi-Fi</div>
         </div>
         <div>
-            <div class="text-xs font-semibold uppercase text-galaxy-grey">To the venue</div>
+            <div class="text-xs font-semibold uppercase text-fg-meta">To the venue</div>
             <div>About a 15-minute train ride</div>
         </div>
     </div>
     <p style="margin: 1rem 0;"><strong>Book by May 21, 2027.</strong> Rooms left in the block are released after this date.</p>
-    <a class="inline-flex items-center gap-2 rounded-full border border-galaxy-primary px-4 py-1 text-sm font-semibold text-galaxy-primary no-underline whitespace-nowrap hover:bg-galaxy-primary hover:text-white" href="https://group.trubyhilton.com/5kr6vr" target="_blank" rel="noopener noreferrer">
+    <a class="inline-flex items-center gap-2 rounded-full border border-galaxy-primary px-4 py-1 text-sm font-semibold text-link no-underline whitespace-nowrap hover:bg-galaxy-primary hover:text-white" href="https://group.trubyhilton.com/5kr6vr" target="_blank" rel="noopener noreferrer">
         <span>Book with the GCC2027 group rate</span>
         <Icon name="external-link" />
     </a>

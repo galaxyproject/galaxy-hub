@@ -7,7 +7,7 @@ autotoc: false
 
 # Code of Conduct
 
-<p class="text-lg text-galaxy-grey">
+<p class="text-lg text-fg-meta">
 We are committed to providing a welcoming and inspiring community for all.
 If you participate in GCC2027, then you too are committed to this goal.
 </p>

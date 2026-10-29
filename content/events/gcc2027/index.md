@@ -52,15 +52,15 @@ contributions:
             <div class="gcc-hero__badges not-prose flex flex-wrap items-center justify-center gap-3 leading-tight">
                 <div class="gcc-hero__date inline-flex overflow-hidden rounded-lg border-2 border-galaxy-primary">
                     <span class="flex items-center justify-center bg-galaxy-primary px-3 py-1.5 text-xs font-semibold uppercase tracking-wider text-white whitespace-nowrap">Save the date</span>
-                    <span class="px-4 py-1.5 text-center text-xl font-bold text-galaxy-dark whitespace-nowrap">June 26 – July 1, 2027</span>
+                    <span class="px-4 py-1.5 text-center text-xl font-bold text-fg-strong whitespace-nowrap">June 26 – July 1, 2027</span>
                 </div>
-                <a class="inline-flex items-center gap-2 rounded-full border border-galaxy-primary px-4 py-1 text-sm font-semibold text-galaxy-primary no-underline whitespace-nowrap hover:bg-galaxy-primary hover:text-white" href="https://maps.app.goo.gl/fLKHeTxgrkXHvmXF6" target="_blank" rel="noopener noreferrer">
+                <a class="inline-flex items-center gap-2 rounded-full border border-galaxy-primary px-4 py-1 text-sm font-semibold text-link no-underline whitespace-nowrap hover:bg-galaxy-primary hover:text-white" href="https://maps.app.goo.gl/fLKHeTxgrkXHvmXF6" target="_blank" rel="noopener noreferrer">
                     <Icon name="map-pin" />
                     <span>Longueuil<span class="gcc-hero__location-extra"> (Montréal area)</span>, Québec, Canada</span>
                 </a>
             </div>
             <h3 style="margin-top: 1rem;">Held at Université de Sherbrooke - Campus Longueuil, in the riverside city of <a href="https://www.google.com/maps/search/?api=1&query=Longueuil%2C+Qu%C3%A9bec%2C+Canada" target="_blank" rel="noopener noreferrer">Longueuil, Québec</a></h3>
-            <p class="text-lg text-galaxy-grey">Registration, abstract submission, and fellowship applications open in <strong>November 2026</strong>.</p>
+            <p class="text-lg text-fg-meta">Registration, abstract submission, and fellowship applications open in <strong>November 2026</strong>.</p>
             {/* TODO: add buttons once open, e.g. Register / Submit an abstract / Apply for a fellowship */}
         </div>
     </div>
@@ -80,24 +80,24 @@ contributions:
 <a class="gx-tile gx-tile--link" href="/events/gcc2027/schedule/">
   <div class="gx-tile__media not-prose" style="display: flex; flex-direction: column; justify-content: center; gap: 0.4rem; padding: 0 1.15rem; background: var(--color-bay-of-many-100);">
     <div style="display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; padding: 0.3rem 0.75rem; background: #fff; border-left: 4px solid var(--color-galaxy-gold); border-radius: 0.25rem;">
-      <span class="text-xs font-semibold uppercase tracking-wider text-galaxy-grey">Training</span>
+      <span class="text-xs font-semibold uppercase tracking-wider text-fg-meta">Training</span>
       <span class="text-right leading-tight whitespace-nowrap">
-        <span class="block text-xs text-galaxy-grey">Saturday</span>
-        <span class="block text-sm font-bold text-galaxy-dark">Jun 26</span>
+        <span class="block text-xs text-fg-meta">Saturday</span>
+        <span class="block text-sm font-bold text-fg-strong">Jun 26</span>
       </span>
     </div>
     <div style="display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; padding: 0.3rem 0.75rem; background: #fff; border-left: 4px solid var(--color-galaxy-primary); border-radius: 0.25rem;">
-      <span class="text-xs font-semibold uppercase tracking-wider text-galaxy-grey">Conference</span>
+      <span class="text-xs font-semibold uppercase tracking-wider text-fg-meta">Conference</span>
       <span class="text-right leading-tight whitespace-nowrap">
-        <span class="block text-xs text-galaxy-grey">Sunday – Tuesday</span>
-        <span class="block text-sm font-bold text-galaxy-dark">Jun 27 – 29</span>
+        <span class="block text-xs text-fg-meta">Sunday – Tuesday</span>
+        <span class="block text-sm font-bold text-fg-strong">Jun 27 – 29</span>
       </span>
     </div>
     <div style="display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; padding: 0.3rem 0.75rem; background: #fff; border-left: 4px solid var(--color-galaxy-dark); border-radius: 0.25rem;">
-      <span class="text-xs font-semibold uppercase tracking-wider text-galaxy-grey">CoFest</span>
+      <span class="text-xs font-semibold uppercase tracking-wider text-fg-meta">CoFest</span>
       <span class="text-right leading-tight whitespace-nowrap">
-        <span class="block text-xs text-galaxy-grey">Wednesday – Thursday</span>
-        <span class="block text-sm font-bold text-galaxy-dark">Jun 30 – Jul 1</span>
+        <span class="block text-xs text-fg-meta">Wednesday – Thursday</span>
+        <span class="block text-sm font-bold text-fg-strong">Jun 30 – Jul 1</span>
       </span>
     </div>
   </div>
@@ -109,7 +109,7 @@ contributions:
 <a class="gx-tile gx-tile--link" href="/events/gcc2027/fellowships/">
   <img class="gx-tile__media" src="/images/events/gcc2026/Scholarships.jpg" alt="Scholarship recipients for GCC2026" />
   <div class="gx-tile__title">GCC2027 fellowships</div>
-  <p class="gx-tile__teaser">Financial support shouldn't be a barrier to joining us. Applications open in <strong class="text-galaxy-primary">November 2026</strong>, with full details on awards and eligibility to follow.</p>
+  <p class="gx-tile__teaser">Financial support shouldn't be a barrier to joining us. Applications open in <strong class="text-link">November 2026</strong>, with full details on awards and eligibility to follow.</p>
   <span class="gx-tile__more">See fellowship details →</span>
 </a>
 
