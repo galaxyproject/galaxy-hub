@@ -28,7 +28,7 @@ The technical substrate is Astro with Tailwind CSS 4, Vue 3 components hydrated 
 - Gold (`#ffd700`) as the sole accent color, reserved for high-impact moments
 - Card-based layouts with `rounded-lg` borders and `shadow-sm` elevation
 - 24px grid pattern overlays on dark backgrounds for subtle scientific/technical texture
-- Gradient mastheads (`galaxy-dark → galaxy-primary` at 135°) with gold bottom borders
+- Gradient mastheads (`galaxy-dark → galaxy-primary` at 135°) with gold bottom borders on listing and landing pages; reading pages use the compact header (hairline with a short gold segment)
 - Lucide icons for UI chrome; FontAwesome in legacy content is converted to Lucide SVGs during preprocessing
 - Bootstrap 4 compatibility layer scoped under `.bs-compat` for ~125 legacy content files
 
@@ -149,7 +149,7 @@ Content tables are compact and stay inside the prose column. Rules (`global.css`
 
 ### Page Header
 
-Appears on all content pages -- gradient background with grid overlay and gold accent bar. **Use the `<PageHeader>` Astro component** (`astro/src/components/layout/PageHeader.astro`) rather than reimplementing this; it supports optional date, authors, and tags.
+The default `hero` variant appears on listing and landing pages -- gradient background with grid overlay and gold accent bar. Reading pages use the compact variant (see "Page header: compact variant" below). **Use the `<PageHeader>` Astro component** (`astro/src/components/layout/PageHeader.astro`) rather than reimplementing this; it supports optional date, authors, and tags.
 
 The structure it produces (shown for reference):
 
@@ -163,6 +163,31 @@ The structure it produces (shown for reference):
     <h1 class="text-3xl sm:text-4xl font-bold tracking-tight">Title</h1>
   </div>
   <p class="text-white/80 text-lg max-w-2xl">Description</p>
+</header>
+```
+
+#### Page header: compact variant
+
+Reading pages use `<PageHeader variant="compact">`: content pages and news posts (`ArticleLayout`), event pages and conference pages (`ConferenceLayout`). Listing and landing pages (news, events, tags, search, region homes) keep the default `hero` variant above. FAIR pages keep the hero too, because their principle cards (`FairSectionHero`) sit on the gradient.
+
+- **Surface**: flat on the article's white surface; no gradient, grid overlay, rounded corners or gold side bar. The header lines up with the content column (`1.5rem` side margin, `2rem` from `sm`).
+- **Rule**: a 1px `chicago-100` hairline under the header with a 48px x 3px `galaxy-gold` segment at its left end (`::after`). The segment is the only gold in the header.
+- **Type**: optional eyebrow 14px bold; h1 30/36 bold `galaxy-dark` (26/32 below 640px); lead 18/28 `chicago-700`; meta row (date, authors) 14px `galaxy-grey` (`#58585a`, 7.1:1 on white).
+- **Links**: `galaxy-primary` text; hover turns the text `bay-of-many-950` and the underline `galaxy-gold-dark`. Author links stay underlined (they sit in a text row). Never gold text on white.
+- **Tags**: the outline tag (`border-galaxy-primary/30 text-galaxy-dark`, gold border and `galaxy-gold/20` fill on hover).
+- **Event facts**: event and conference headers add `EventHeaderMeta` (`components/events/EventHeaderMeta.astro`): a labelled grid (Date, Location, Contact) with 12px uppercase `galaxy-grey` labels; the date is the `EventDate` line in the long weekday format, with its duration pill. Conference subnav pills are `galaxy-primary` outline pills; the active pill has a gold border and `galaxy-gold/20` fill with `galaxy-dark` text.
+
+```astro
+<PageHeader variant="compact" title={title} description={tease} date={date} authors={authors} tags={tags} />
+```
+
+```html
+<header class="page-header page-header--compact">  <!-- hairline + ::after gold segment -->
+  <div class="page-header-content">
+    <h1>Title</h1>                                    <!-- 30/36, galaxy-dark -->
+    <p class="mt-2 text-lg leading-7 text-chicago-700">Lead</p>
+    <div class="mt-3 text-sm text-galaxy-grey">Date · Authors</div>
+  </div>
 </header>
 ```
 
