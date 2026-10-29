@@ -45,7 +45,8 @@ function ownBody(body: string): string {
 function declarations(selector: string): Map<string, string> {
   const out = new Map<string, string>();
   for (const [prelude, body] of topLevelRules(css)) {
-    if (prelude === selector) for (const [name, value] of parse(ownBody(body))) out.set(name, value);
+    const selectors = prelude.split(',').map((s) => s.trim());
+    if (selectors.includes(selector)) for (const [name, value] of parse(ownBody(body))) out.set(name, value);
   }
   return out;
 }
@@ -106,6 +107,13 @@ describe('global.css theme roles', () => {
       ...(dark.has(role) ? [] : [`${name} -> ${role} has no dark value`]),
     ]);
     expect(missing).toEqual([]);
+  });
+
+  it('gives legacy Bootstrap alerts the light values, so their light tints stay readable in dark', () => {
+    const alert = declarations('.bs-compat.alert');
+    expect(alert.get('color-scheme')).toBe('light');
+    expect(alert.get('--gx-fg')).toBe(light.get('--gx-fg'));
+    expect(alert.get('--gx-link')).toBe(light.get('--gx-link'));
   });
 
   it('declares color-scheme in both theme blocks', () => {

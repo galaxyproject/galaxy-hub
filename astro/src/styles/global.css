@@ -253,7 +253,15 @@ body {
   --container-measure: var(--measure);
 }
 
-:root {
+/* Light values. Light islands take them too: content drawn for light only (legacy Bootstrap
+   alerts, inline-styled legacy boxes, the agent page bands) keeps its light look in dark. */
+:root,
+.bs-compat.alert,
+.prose [style*='background'],
+.ag-band,
+.agent-shells,
+.agentic-stack,
+.agl {
   color-scheme: light;
 
   /* text */
@@ -331,8 +339,29 @@ body {
   --measure: 72ch;
 }
 
+/* Light islands (above) also reset the inherited text colour and the prose colours, which
+   otherwise resolve on the dark .prose parent. Alerts keep their Bootstrap text colour. */
+.prose [style*='background'],
+.ag-band,
+.agent-shells,
+.agentic-stack,
+.agl {
+  color: var(--gx-fg);
+  --tw-prose-body: var(--gx-fg);
+  --tw-prose-bold: var(--gx-fg-strong);
+  --tw-prose-links: var(--gx-link);
+  --tw-prose-headings: var(--gx-fg-strong);
+  --tw-prose-code: var(--gx-fg-strong);
+}
+
 @media (min-width: 40rem) {
-  :root {
+  :root,
+  .bs-compat.alert,
+  .prose [style*='background'],
+  .ag-band,
+  .agent-shells,
+  .agentic-stack,
+  .agl {
     --gx-text-h1: 1.875rem;
   }
 }
