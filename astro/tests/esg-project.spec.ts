@@ -120,6 +120,19 @@ test.describe('ESG project pages', () => {
     ).toBeVisible();
   });
 
+  test('the overview shows target groups, outcomes and impact from section_1.md', async ({ page }) => {
+    await page.setViewportSize({ width: 1440, height: 900 });
+    await page.goto('/projects/esg/');
+    const section = page.getByRole('region', { name: 'Target groups, outcomes and impact' });
+    await expect(section.getByRole('heading', { level: 3 })).toHaveText([/Target Groups/, /Outcomes/, /Impact/]);
+    await expect(section).toContainText('European Scientists (direct)');
+    const toc = page.getByRole('navigation', { name: 'On this page' });
+    await expect(toc.getByRole('link', { name: 'Target groups, outcomes and impact' })).toHaveAttribute(
+      'href',
+      '#target-groups-outcomes-impact'
+    );
+  });
+
   test('section pages show the status after the title and no project link in the header', async ({ page }) => {
     await page.setViewportSize({ width: 1440, height: 900 });
     await page.goto('/projects/esg/events/');

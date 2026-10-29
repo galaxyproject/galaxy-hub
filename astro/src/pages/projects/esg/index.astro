@@ -23,6 +23,9 @@ const project = await getProject('esg', 'partners');
 const { Content: Summary, headings: summaryHeadings } = await render(project.entry);
 const fundingSlug = 'projects/esg/funding_notice';
 const hasFunding = Boolean(await getInsert(fundingSlug));
+// Target groups, outcomes and impact (section_1.md, h3 subsections)
+const impact = await getInsert('projects/esg/section_1');
+const Impact = impact ? (await render(impact)).Content : null;
 
 // Load ESG data from datasets collection (content/projects/esg/*.yml, keyed by file name)
 const objectives = (await getEntry('datasets', 'objectives'))?.data;
@@ -47,6 +50,7 @@ const headings = [
   externalLinks && { depth: 2, slug: 'projects', text: externalLinks.heading || 'Projects Part of ESG' },
   { depth: 2, slug: 'work-packages', text: 'Work Packages' },
   expectedResults && { depth: 2, slug: 'results', text: expectedResults.heading || 'Expected Results' },
+  Impact && { depth: 2, slug: 'target-groups-outcomes-impact', text: 'Target groups, outcomes and impact' },
   { depth: 2, slug: 'news', text: 'News' },
   { depth: 2, slug: 'past-events', text: 'Past events' },
   partners && { depth: 2, slug: 'partners', text: 'Project Partners' },
@@ -137,6 +141,12 @@ const headings = [
         </ul>
       </ProjectSection>}
 
+      {Impact && <ProjectSection id="target-groups-outcomes-impact" title="Target groups, outcomes and impact">
+        <div class="esg-impact prose prose-galaxy max-w-none">
+          <Impact />
+        </div>
+      </ProjectSection>}
+
       <ProjectSection
         id="news"
         title="News"
@@ -212,6 +222,10 @@ const headings = [
     margin: 0;
     padding: 0;
     list-style: none;
+  }
+
+  .esg-impact :global(h3:first-child) {
+    margin-top: 0;
   }
 
   .esg-numlist {
