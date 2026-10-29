@@ -97,7 +97,7 @@ function handleNavClick() {
     <button
       ref="chip"
       type="button"
-      class="ml-1.5 inline-flex min-h-11 min-w-0 max-w-full items-center gap-1.5 rounded-full border border-white/35 bg-ebony-clay-950 px-2.5 py-1.5 text-sm font-bold leading-5 text-white focus-visible:outline-2 focus-visible:outline-galaxy-gold"
+      class="ml-1.5 inline-flex min-h-11 min-w-0 max-w-full items-center gap-1.5 rounded-full border border-white/35 bg-ebony-clay-950 px-2.5 py-1.5 text-sm font-bold leading-5 text-white"
       aria-haspopup="dialog"
       :aria-expanded="isOpen && openedFromChip"
       :data-context="context.id"
@@ -125,7 +125,7 @@ function handleNavClick() {
       </SheetTrigger>
       <SheetContent
         side="left"
-        class="w-80 bg-galaxy-dark border-medium-bg p-0 overflow-hidden"
+        class="on-chrome w-80 bg-galaxy-dark border-medium-bg p-0 overflow-hidden"
         data-testid="mobile-menu"
         role="dialog"
         @open-auto-focus="onOpenAutoFocus"

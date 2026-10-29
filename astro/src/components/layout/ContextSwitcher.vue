@@ -108,7 +108,7 @@ onBeforeUnmount(() => document.removeEventListener('pointerdown', onDocumentPoin
     <button
       ref="button"
       type="button"
-      class="grid w-full min-h-14 grid-cols-[32px_1fr_auto] items-center gap-x-2.5 rounded-[0.625rem] border border-white/15 bg-ebony-clay-950 p-2.5 text-left text-white transition-colors hover:border-white/35 hover:bg-[#1b1f2b] focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-galaxy-gold aria-expanded:border-white/35 aria-expanded:bg-[#1b1f2b]"
+      class="grid w-full min-h-14 grid-cols-[32px_1fr_auto] items-center gap-x-2.5 rounded-[0.625rem] border border-white/15 bg-ebony-clay-950 p-2.5 text-left text-white transition-colors hover:border-white/35 hover:bg-[#1b1f2b] focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-focus-on-chrome aria-expanded:border-white/35 aria-expanded:bg-[#1b1f2b]"
       :aria-expanded="open"
       :aria-controls="menuId"
       :data-context="context.id"
@@ -170,7 +170,7 @@ onBeforeUnmount(() => document.removeEventListener('pointerdown', onDocumentPoin
               :aria-current="item.current ? 'true' : undefined"
               :target="item.external ? '_blank' : undefined"
               :rel="item.external ? 'noopener noreferrer' : undefined"
-              class="grid min-h-11 lg:min-h-8 grid-cols-[16px_1fr_auto] items-center gap-x-2 rounded-md px-2 py-1.5 text-sm leading-5 text-galaxy-dark no-underline hover:bg-light-bg hover:text-bay-of-many-950 focus-visible:bg-light-bg focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-galaxy-primary aria-[current=true]:bg-light-bg aria-[current=true]:font-bold"
+              class="grid min-h-11 lg:min-h-8 grid-cols-[16px_1fr_auto] items-center gap-x-2 rounded-md px-2 py-1.5 text-sm leading-5 text-galaxy-dark no-underline hover:bg-light-bg hover:text-bay-of-many-950 focus-visible:bg-light-bg focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-focus aria-[current=true]:bg-light-bg aria-[current=true]:font-bold"
               @click="onItemClick(item)"
             >
               <component :is="itemIcon(item)" class="h-4 w-4 text-galaxy-primary" aria-hidden="true" />

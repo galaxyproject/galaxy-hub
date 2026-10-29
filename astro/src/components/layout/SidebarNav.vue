@@ -91,7 +91,7 @@ function onLinkClick(link: SidebarLink) {
 // Chrome colours from prototype A (NOTES "Contrast"): text ebony-clay-50, sub-items 100, labels 200,
 // hover white/7, active white/12 with a gold bar, focus gold. Rows are 44px in the mobile sheet, 32px on desktop.
 const itemBase =
-  'relative flex w-full min-h-11 lg:min-h-8 items-center gap-1.5 rounded-md px-3 py-1.5 text-left text-sm transition-colors hover:bg-white/[0.07] hover:text-white focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-galaxy-gold';
+  'relative flex w-full min-h-11 lg:min-h-8 items-center gap-1.5 rounded-md px-3 py-1.5 text-left text-sm transition-colors hover:bg-white/[0.07] hover:text-white focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-focus-on-chrome';
 const activeLink =
   "aria-[current=page]:bg-white/[0.12] aria-[current=page]:font-bold aria-[current=page]:text-white aria-[current=page]:before:absolute aria-[current=page]:before:inset-y-[7px] aria-[current=page]:before:left-[3px] aria-[current=page]:before:w-[3px] aria-[current=page]:before:rounded-sm aria-[current=page]:before:bg-galaxy-gold aria-[current=page]:before:content-['']";
 const linkClass = `${itemBase} ${activeLink} text-ebony-clay-50`;
