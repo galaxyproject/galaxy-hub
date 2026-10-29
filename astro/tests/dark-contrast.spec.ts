@@ -23,6 +23,8 @@ const pages = [
   '/news/2021-05-galaxy-update/', // legacy Bootstrap cards
   '/community/sig/', // legacy Bootstrap alerts
   '/projects/covid19/data/', // inline code and kbd
+  '/pasteur/', // region inserts: alert links
+  '/ifb/', // region inserts: bg-secondary card
   '/this-page-does-not-exist/', // 404
 ];
 
