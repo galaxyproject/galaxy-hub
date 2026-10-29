@@ -39,16 +39,14 @@ function getInitialSubsite(): SubsiteId {
 // Current subsite state - initialized from URL to avoid hydration flash
 export const currentSubsite = atom<SubsiteId>(getInitialSubsite());
 
-// Update store on view transitions - only when URL explicitly has a subsite prefix
-// This preserves user's subsite selection when navigating to non-prefixed URLs
+// Pathname of the page on screen; islands kept by transition:persist read it instead of their stale props
+export const currentPathname = atom<string>(typeof window !== 'undefined' ? window.location.pathname : '/');
+
+// The URL decides the subsite on every view transition: a non-prefixed URL is global
 if (typeof window !== 'undefined') {
   document.addEventListener('astro:after-swap', () => {
-    const urlSubsite = detectSubsiteFromPath(window.location.pathname);
-    // Only update if URL has an explicit subsite prefix (not 'global')
-    // This way, selecting US then clicking /events/ keeps US selected
-    if (urlSubsite !== 'global' && currentSubsite.get() !== urlSubsite) {
-      currentSubsite.set(urlSubsite);
-    }
+    currentPathname.set(window.location.pathname);
+    currentSubsite.set(detectSubsiteFromPath(window.location.pathname));
   });
 }
 
@@ -110,21 +108,4 @@ export function getSubsiteStaticPaths() {
       params: { subsite: s.id },
       props: { subsiteInfo: s },
     }));
-}
-
-// Helper: navigate to subsite landing page
-export function navigateToSubsiteMain(id: SubsiteId) {
-  const subsite = subsites.find((s) => s.id === id);
-  if (!subsite || typeof window === 'undefined') return;
-
-  if ('external' in subsite && subsite.external) {
-    window.location.href = subsite.external;
-    return;
-  }
-
-  // Global intentionally routes to the onboarding landing page instead of `/`.
-  const targetPath = id === 'global' ? '/get-started/' : subsite.path || '/';
-  if (window.location.pathname !== targetPath) {
-    window.location.href = targetPath;
-  }
 }

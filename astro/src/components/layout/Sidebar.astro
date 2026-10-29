@@ -3,6 +3,7 @@
 // Desktop: Fixed left sidebar with Vue-powered navigation
 // Mobile: Hidden (use MobileMenu.vue for mobile)
 import SidebarNav from './SidebarNav.vue';
+import ContextSwitcher from './ContextSwitcher.vue';
 import type { NavbarData } from '@/utils/navbar';
 import type { SubsiteId } from '@/stores/subsiteStore';
 import Icon from '../mdx/Icon.astro';
@@ -10,23 +11,28 @@ import Icon from '../mdx/Icon.astro';
 interface Props {
   navbar?: NavbarData | null;
   initialSubsite?: SubsiteId;
+  /** transition:persist name; the sidebar survives view transitions between pages with the same name. */
+  persistKey?: string;
 }
 
-const { navbar, initialSubsite } = Astro.props as Props;
+const { navbar, initialSubsite, persistKey } = Astro.props as Props;
 ---
 
 <aside
-  class="site-sidebar hidden lg:flex flex-col w-64 bg-galaxy-dark text-white fixed left-0 top-0 h-screen overflow-y-auto z-40"
+  class="site-sidebar hidden lg:flex flex-col w-64 bg-galaxy-dark text-white fixed left-0 top-0 h-screen z-40"
+  transition:persist={persistKey}
 >
-  <!-- Logo Section -->
-  <div class="p-4 pr-6 border-b border-medium-bg flex justify-center">
-    <a href="/" class="sidebar-logo block">
-      <img src="/images/galaxy_logo_hub_white.svg" alt="Galaxy Community Hub" class="h-10 w-auto" />
-    </a>
-  </div>
+  <!-- Pinned top: logo, context header, search (never scrolls) -->
+  <div class="relative z-10 flex flex-none flex-col gap-2.5 border-b border-white/[0.08] p-3">
+    <div class="flex min-h-11 items-center px-1">
+      <a href="/" class="sidebar-logo block">
+        <img src="/images/galaxy_logo_hub_white.svg" alt="Galaxy Community Hub" class="h-[33px] w-auto" />
+      </a>
+    </div>
 
-  <!-- Search -->
-  <div class="p-4 border-b border-medium-bg">
+    <ContextSwitcher client:load currentPath={Astro.url.pathname} idPrefix="sb" />
+
+    <!-- Search -->
     <form action="/search/" method="get">
       <div class="relative">
         <input
@@ -61,76 +67,80 @@ const { navbar, initialSubsite } = Astro.props as Props;
     </form>
   </div>
 
-  <!-- Navigation (Vue component for collapsible sections) -->
-  <div class="flex-1 p-4 overflow-y-auto">
+  <!-- Scrollable area: grouped navigation, archive notice, social links -->
+  <div
+    class="sidebar-scroll flex min-h-0 flex-1 flex-col overflow-y-auto overscroll-contain px-3 pb-5 pt-3.5"
+    data-sidebar-scroll
+  >
     <SidebarNav client:load navbar={navbar} initialSubsite={initialSubsite} currentPath={Astro.url.pathname} />
-  </div>
 
-  <!-- Archive notice -->
-  <div id="archive-notice" class="mx-3 mb-3 p-3 rounded-md bg-medium-bg text-xs text-chicago-300 leading-relaxed">
-    <div class="flex items-start justify-between gap-2">
-      <p class="m-0">
-        Missing something?<br />
-        <a
-          id="archive-link"
-          href="https://archive.galaxyproject.org"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="text-galaxy-gold hover:underline"
-          >View this page on the old site</a
+    <!-- Archive notice -->
+    <div id="archive-notice" class="mt-5 p-3 rounded-md bg-medium-bg text-xs text-chicago-200 leading-relaxed">
+      <div class="flex items-start justify-between gap-2">
+        <p class="m-0">
+          Missing something?<br />
+          <a
+            id="archive-link"
+            href="https://archive.galaxyproject.org"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-galaxy-gold hover:underline"
+          >
+            View this page on the old site
+          </a>
+        </p>
+        <button
+          id="archive-dismiss"
+          class="shrink-0 text-chicago-500 hover:text-chicago-300 transition-colors"
+          aria-label="Dismiss"
         >
-      </p>
-      <button
-        id="archive-dismiss"
-        class="shrink-0 text-chicago-500 hover:text-chicago-300 transition-colors"
-        aria-label="Dismiss"
-      >
-        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-        </svg>
-      </button>
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
+      </div>
     </div>
-  </div>
 
-  <!-- Social links -->
-  <div class="p-4 border-t border-medium-bg">
-    <div class="flex justify-center gap-4">
-      <a
-        href="https://github.com/galaxyproject"
-        class="social-icon text-chicago-400 hover:text-galaxy-gold"
-        aria-label="GitHub"
-        target="_blank"
-        rel="noopener"
-      >
-        <Icon name="github" size={20} />
-      </a>
-      <a
-        href="https://www.youtube.com/@galaxyproject"
-        class="social-icon text-chicago-400 hover:text-galaxy-gold"
-        aria-label="YouTube"
-        target="_blank"
-        rel="noopener"
-      >
-        <Icon name="youtube" size={20} />
-      </a>
-      <a
-        href="https://mstdn.science/@galaxyproject"
-        class="social-icon text-chicago-400 hover:text-galaxy-gold"
-        aria-label="Mastodon"
-        target="_blank"
-        rel="noopener"
-      >
-        <Icon name="mastodon" size={20} />
-      </a>
-      <a
-        href="https://www.linkedin.com/company/galaxy-project"
-        class="social-icon text-chicago-400 hover:text-galaxy-gold"
-        aria-label="LinkedIn"
-        target="_blank"
-        rel="noopener"
-      >
-        <Icon name="linkedin" size={20} />
-      </a>
+    <!-- Social links -->
+    <div class="mt-3 pt-4 border-t border-white/[0.08]">
+      <div class="flex justify-center gap-4">
+        <a
+          href="https://github.com/galaxyproject"
+          class="social-icon text-chicago-400 hover:text-galaxy-gold"
+          aria-label="GitHub"
+          target="_blank"
+          rel="noopener"
+        >
+          <Icon name="github" size={20} />
+        </a>
+        <a
+          href="https://www.youtube.com/@galaxyproject"
+          class="social-icon text-chicago-400 hover:text-galaxy-gold"
+          aria-label="YouTube"
+          target="_blank"
+          rel="noopener"
+        >
+          <Icon name="youtube" size={20} />
+        </a>
+        <a
+          href="https://mstdn.science/@galaxyproject"
+          class="social-icon text-chicago-400 hover:text-galaxy-gold"
+          aria-label="Mastodon"
+          target="_blank"
+          rel="noopener"
+        >
+          <Icon name="mastodon" size={20} />
+        </a>
+        <a
+          href="https://www.linkedin.com/company/galaxy-project"
+          class="social-icon text-chicago-400 hover:text-galaxy-gold"
+          aria-label="LinkedIn"
+          target="_blank"
+          rel="noopener"
+        >
+          <Icon name="linkedin" size={20} />
+        </a>
+      </div>
     </div>
   </div>
 </aside>
@@ -156,6 +166,11 @@ const { navbar, initialSubsite } = Astro.props as Props;
 
   .social-icon:hover {
     transform: scale(1.15);
+  }
+
+  .sidebar-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: #4c5574 transparent; /* ebony-clay-700 */
   }
 </style>
 

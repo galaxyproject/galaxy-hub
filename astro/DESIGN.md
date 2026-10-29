@@ -430,6 +430,37 @@ Legacy content files (~125 Markdown files) use Bootstrap 4 classes (`btn-primary
 
 **Contract**: never apply `.bs-compat` manually to new components, and never introduce new Bootstrap classes in new content. The compat layer is a migration affordance, not a sanctioned styling path.
 
+### Sidebar context
+
+The sidebar tells readers where a page sits. The URL decides the context; nothing is stored between pages, and there is no "home region".
+
+| URL | Context header | Nav groups |
+|---|---|---|
+| `/<region>/...` (a hub subsite) | region name · Region (map pin) | region group, then global |
+| `/projects/esg/...` | EuroScienceGateway · Project (layers) | project group, then global |
+| everything else | Galaxy Project · Global (globe) | global only |
+
+- **Layout**: the top of the sidebar is pinned (logo, context header, search); the navigation, archive notice and social links scroll below it.
+- **Context header** (`ContextSwitcher.vue`): a button with the mark, the name, the kind and "Change". It is a disclosure (`aria-expanded`, `aria-controls`) for the region menu, a list of links grouped as Global, Regions on this Hub and Other Galaxy sites (external, new tab). Opening it focuses the current item (`aria-current="true"`); arrow keys, Home and End move; Escape closes and returns focus to the button; Tab out or an outside click closes it.
+- **Nav groups** (`SidebarNav.vue`): each group is `role="group"` with a label (icon, name, kind tag). Links into the current subsite are region links (`scope: 'region'` in `utils/navbar.ts`), led by an Overview link to the region home; everything else stays in the global group, which always starts with the global News and Events, then keeps its collapsible sections. The group never relies on colour alone: label text, icon and tag carry it.
+- **Mobile**: the header shows a region chip (icon + short name) that opens the menu sheet with the region menu already open. Escape closes the region menu first, then the sheet; focus returns to the chip or the menu button. The chip, the menu button and the rows in the sheet are at least 44px tall; desktop rows are 32px.
+- **View transitions**: the sidebar persists (`transition:persist`) only between pages with the same context, so its links always match the page; the active link follows the URL.
+- **Chrome colours** (from the redesign prototype, light theme):
+
+| Role | Token | Use |
+|---|---|---|
+| Chrome | `galaxy-dark` | sidebar, mobile header |
+| Well | `ebony-clay-950` (hover `#1b1f2b`) | context header, mobile chip |
+| Field | `ebony-clay-800` | search input |
+| Text / sub-item / meta | `ebony-clay-50` / `ebony-clay-100` / `ebony-clay-200` | nav links, section links, group labels and kind |
+| Link | `bay-of-many-300` | "Change" |
+| Mark | `galaxy-primary` (project `ebony-clay-700`) | context mark |
+| Lines | `white/8`, borders `white/15`, strong `white/35` | separators, header and tags |
+| Hover / active | `white/7` / `white/12` + 3px `galaxy-gold` bar | nav links, `aria-current="page"` |
+| Accent / focus | `galaxy-gold` | region mark, focus ring on chrome |
+
+The region menu sits on a light surface: white, `galaxy-dark` text, `galaxy-grey` meta, `light-bg` hover and current, `galaxy-primary` icons and focus ring (gold focus is for chrome only).
+
 ---
 
 ## 4b. Animation & Motion
