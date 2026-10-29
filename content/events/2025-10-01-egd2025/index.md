@@ -332,6 +332,9 @@ th, td {
   padding: 0.5rem;
   border: 1px solid #ccc;
 }
+[class^='event-'] a {
+  color: inherit;
+}
 .event-egd {
   background-color: #ffadad;
   color: #2c3143;
