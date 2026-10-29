@@ -60,6 +60,26 @@ jobs:
       - name: Validate metadata
         run: uv run --python 3.12 --with pykwalify --with pyyaml make validate-metadata
 
+  python-script-tests:
+    name: Python Script Tests
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: .
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v10.3.0
+        with:
+          python-version: "3.12"
+
+      - name: Run tests
+        run: uv run --python 3.12 --no-project --with pandas --with requests --with pyyaml --with feedparser --with python-dateutil --with markdown-it-py make test-python
+
   content-lint:
     name: Content Lint
     runs-on: ubuntu-latest
