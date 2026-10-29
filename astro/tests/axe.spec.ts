@@ -155,6 +155,14 @@ const knownIssues: Record<string, Record<string, KnownIssue>> = {
   },
 };
 
+// Dark theme (system setting dark, nothing stored): the chrome and the article, news and event cards,
+// whose surfaces use colour roles. Pages still drawn in fixed light colours are not scanned dark yet
+// (DESIGN.md "Dark mode"). Keys and rules work like knownIssues, desktop only.
+const darkPages = ['/community/', '/news/2025-10-15-egd2025/', '/events/2025-admin-training-brno/'];
+const darkKnownIssues: Record<string, Record<string, KnownIssue>> = {
+  [chromeKey]: knownIssues[chromeKey],
+};
+
 function indent(text: string, spaces: number): string {
   return text
     .split('\n')
@@ -173,10 +181,10 @@ function describeViolations(violations: Violation[]): string {
     .join('\n\n');
 }
 
-async function openPage(page: Page, path: string, viewportName: ViewportName) {
+async function openPage(page: Page, path: string, viewportName: ViewportName, colorScheme: 'light' | 'dark' = 'light') {
   await page.setViewportSize(viewports[viewportName]);
   // The home page fades in its stats; scan the settled colours, not a mid-animation frame
-  await page.emulateMedia({ reducedMotion: 'reduce' });
+  await page.emulateMedia({ reducedMotion: 'reduce', colorScheme });
   const response = await page.goto(path);
   expect(response?.status()).toBe(200);
   await page.waitForLoadState('networkidle');
@@ -186,8 +194,8 @@ function newBuilder(page: Page): AxeBuilder {
   return new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa']).exclude('astro-dev-toolbar');
 }
 
-function expectOnlyKnown(key: string, viewportName: ViewportName, violations: Violation[]) {
-  const known = Object.entries(knownIssues[key] ?? {})
+function expectOnlyKnown(key: string, viewportName: ViewportName, violations: Violation[], issues = knownIssues) {
+  const known = Object.entries(issues[key] ?? {})
     .filter(([, issue]) => issue.viewports.includes(viewportName))
     .map(([ruleId]) => ruleId);
   const failing = violations.filter((v) => failingImpacts.has(v.impact ?? ''));
@@ -251,5 +259,25 @@ test.describe('Axe accessibility scan', () => {
         expectOnlyKnown(path, viewportName, results.violations);
       });
     }
+  }
+});
+
+test.describe('Axe accessibility scan, dark theme', () => {
+  test('site chrome has no new serious or critical violations (dark)', async ({ page }) => {
+    await openPage(page, chromePage, 'desktop', 'dark');
+    let builder = newBuilder(page);
+    for (const selector of chromeSelectors) builder = builder.include(selector);
+    const results = await builder.analyze();
+    expectOnlyKnown(chromeKey, 'desktop', results.violations, darkKnownIssues);
+  });
+
+  for (const path of darkPages) {
+    test(`${path} has no new serious or critical violations (dark)`, async ({ page }) => {
+      await openPage(page, path, 'desktop', 'dark');
+      let builder = newBuilder(page);
+      for (const selector of chromeSelectors) builder = builder.exclude(selector);
+      const results = await builder.analyze();
+      expectOnlyKnown(path, 'desktop', results.violations, darkKnownIssues);
+    });
   }
 });
