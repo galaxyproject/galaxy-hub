@@ -112,3 +112,68 @@ test('the archive year heading is a ruled heading with a count, not a boxed bar'
   expect(style).toEqual({ bg: 'rgba(0, 0, 0, 0)', position: 'static', border: '1px solid' });
   await expect(heading.locator('.gx-year-head__count')).toHaveText(/^\d+ events$/);
 });
+
+test.describe('list row links', () => {
+  test.use({ viewport: { width: 1440, height: 900 } });
+
+  for (const { path, row, ready } of [
+    { path: '/events/webinars/', row: 'main section li.gx-lrow' },
+    { path: '/events/?status=past', row: '.events-list article', ready: /past events?/ },
+    { path: '/news/?year=2020', row: '.news-list article', ready: /in 2020/ },
+  ]) {
+    test(`${path}: the title link names the row, covers it and shows a focus ring`, async ({ page }) => {
+      await page.goto(path);
+      // Hydrated lists re-render once the URL filter applies; wait for its count line
+      if (ready) await expect(page.locator('[data-filter-count]').first()).toHaveText(ready, { timeout: 60_000 });
+      const first = page
+        .locator(row)
+        .filter({ hasNot: page.locator('[data-external-icon]') })
+        .first();
+      await expect(first).toBeVisible({ timeout: 60_000 });
+      const link = first.getByRole('link');
+      await expect(link).toHaveCount(1);
+      const title = ((await first.locator('h2, h3').first().textContent()) ?? '').trim();
+      await expect(link).toHaveAccessibleName(title);
+
+      // Keyboard focus outlines the whole row
+      await link.focus();
+      const outline = await first.evaluate((el) => {
+        const s = getComputedStyle(el);
+        return `${s.outlineStyle} ${s.outlineWidth}`;
+      });
+      expect(outline).toBe('solid 2px');
+
+      // A click near the row's bottom-right corner, away from the title text, follows the link
+      const href = await link.getAttribute('href');
+      const box = (await first.boundingBox())!;
+      await page.mouse.click(box.x + box.width - 6, box.y + box.height - 6);
+      await expect(page).toHaveURL(new RegExp(`${href}$`));
+    });
+  }
+});
+
+test.describe('tiles keep their cards', () => {
+  test.use({ viewport: { width: 1440, height: 900 } });
+
+  test('event tiles have no Past badge and keep the 16px grey location icon', async ({ page }) => {
+    await page.goto('/events/?view=tiles');
+    const tiles = page.locator('.events-list [data-view="tiles"] article');
+    await expect(tiles.first()).toBeVisible({ timeout: 60_000 });
+    // Past tiles keep the date line alone: no badge, no location
+    const pastTiles = page.locator('.events-list section:has(h2:text("Past Events")) [data-view="tiles"] article');
+    await expect(pastTiles.first()).toBeVisible();
+    await expect(page.locator('.events-list .gx-badge-past')).toHaveCount(0);
+    expect(await pastTiles.first().locator('p > span:not(.gx-event-date)').count()).toBe(0);
+    await expect(page.locator('.events-list .gx-lrow, .events-list .gx-lrow__icon')).toHaveCount(0);
+
+    const icon = page.locator('.events-list [data-view="tiles"] article p > span:not(.gx-event-date) > svg').first();
+    await expect(icon).toBeVisible();
+    const { width, colour, meta } = await icon.evaluate((svg) => ({
+      width: svg.getBoundingClientRect().width,
+      colour: getComputedStyle(svg).color,
+      meta: getComputedStyle(svg.closest('p')!).color,
+    }));
+    expect(width).toBe(16);
+    expect(colour).toBe(meta);
+  });
+});

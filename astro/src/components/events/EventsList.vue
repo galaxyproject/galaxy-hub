@@ -62,23 +62,24 @@ const selectedStatus = ref<EventStatus | null>(null);
 const view = ref<ListView>(LIST_VIEW_DEFAULT);
 const isTiles = computed(() => view.value === 'tiles');
 const tilesGrid = 'grid grid-cols-[repeat(auto-fill,minmax(min(100%,16rem),1fr))] gap-4';
-// Rows use the shared list row (list-rows.css, DESIGN.md "List Rows"); tiles keep their cards
+// Rows use the shared list row (list-rows.css, DESIGN.md "List Rows"); tiles keep their cards. Both use a
+// title link stretched over the item, so the whole row or card is clickable.
+const tileFocus =
+  'has-[a:focus-visible]:outline-2 has-[a:focus-visible]:outline-offset-2 has-[a:focus-visible]:outline-solid has-[a:focus-visible]:outline-galaxy-primary';
 const ui = computed(() =>
   isTiles.value
     ? {
         list: tilesGrid,
-        item: 'rounded-lg border border-ebony-clay-100 bg-white p-4 transition-shadow hover:shadow-md',
-        link: 'group flex h-full flex-col gap-1',
+        item: `group relative rounded-lg border border-ebony-clay-100 bg-white p-4 transition-shadow hover:shadow-md ${tileFocus}`,
         title: 'text-base font-semibold text-chicago-900 transition-colors group-hover:text-galaxy-primary',
         pastTitle: 'text-base font-medium text-chicago-700 transition-colors group-hover:text-galaxy-primary',
-        meta: 'flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-chicago-500',
+        meta: 'mt-1 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-chicago-500',
         place: 'flex items-center gap-1',
-        teaser: 'mt-1 line-clamp-3 text-sm text-chicago-600',
+        teaser: 'mt-2 line-clamp-3 text-sm text-chicago-600',
       }
     : {
-        list: '',
+        list: 'gx-lrows',
         item: 'gx-lrow',
-        link: 'flex flex-col gap-1',
         title: 'gx-lrow__title',
         pastTitle: 'gx-lrow__title',
         meta: 'gx-lrow__meta',
@@ -345,20 +346,42 @@ function displaySubsite(subsite: string): string {
         </h2>
         <div :data-view="view" :class="ui.list">
           <article v-for="event in upcomingEvents" :key="event.slug" :class="ui.item">
-            <a :href="buildUrl(event.slug)" :class="ui.link">
-              <h3 :class="ui.title">
+            <h3 :class="ui.title">
+              <a :href="buildUrl(event.slug)" class="gx-lrow__link">
                 {{ event.title || 'Untitled Event' }}
                 <ExternalIcon v-if="event.externalUrl" :href="event.externalUrl" />
-              </h3>
-              <p v-if="event.date || event.location" :class="ui.meta">
-                <EventDate v-if="event.date" :start="event.date" :end="event.end" />
-                <span v-if="event.location" :class="ui.place">
-                  <span class="gx-lrow__icon" aria-hidden="true"><MapPin :size="14" /></span>
-                  {{ getLocationText(event.location) }}
-                </span>
-              </p>
-              <p v-if="event.tease" :class="ui.teaser" v-html="renderMarkdownInline(event.tease)"></p>
-            </a>
+              </a>
+            </h3>
+            <p v-if="event.date || event.location" :class="ui.meta">
+              <EventDate v-if="event.date" :start="event.date" :end="event.end" />
+              <span v-if="event.location" :class="ui.place">
+                <svg
+                  v-if="isTiles"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-4 w-4"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                  />
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                  />
+                </svg>
+                <span v-else class="gx-lrow__icon" aria-hidden="true"><MapPin :size="14" /></span>
+                {{ getLocationText(event.location) }}
+              </span>
+            </p>
+            <p v-if="event.tease" :class="ui.teaser" v-html="renderMarkdownInline(event.tease)"></p>
           </article>
         </div>
       </section>
@@ -384,20 +407,23 @@ function displaySubsite(subsite: string): string {
           :class="[ui.item, { 'gx-lrow--past': !isTiles }]"
         >
           <!-- Date line under the title, as on every list -->
-          <a :href="buildUrl(event.slug)" :class="ui.link">
-            <h3 :class="ui.pastTitle">
+          <h3 :class="ui.pastTitle">
+            <a :href="buildUrl(event.slug)" class="gx-lrow__link">
               {{ event.title || 'Untitled Event' }}
               <ExternalIcon v-if="event.externalUrl" :href="event.externalUrl" />
-            </h3>
-            <p :class="ui.meta">
-              <EventDate v-if="event.date" :start="event.date" :end="event.end" past />
-              <span v-if="event.location" :class="ui.place">
+            </a>
+          </h3>
+          <p :class="ui.meta">
+            <EventDate v-if="event.date" :start="event.date" :end="event.end" past />
+            <!-- Rows only: tiles keep the date line alone -->
+            <template v-if="!isTiles">
+              <span v-if="event.location">
                 <span class="gx-lrow__icon" aria-hidden="true"><MapPin :size="14" /></span>
                 {{ getLocationText(event.location) }}
               </span>
               <PastBadge />
-            </p>
-          </a>
+            </template>
+          </p>
         </article>
       </div>
       <div v-if="pastEvents.length === 0" class="p-8 text-center bg-ebony-clay-50 rounded-lg">

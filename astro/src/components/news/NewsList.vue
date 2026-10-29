@@ -48,13 +48,15 @@ const selectedYear = ref<YearValue>(null);
 const selectedTag = ref<string | null>(null);
 const view = ref<ListView>(LIST_VIEW_DEFAULT);
 const isTiles = computed(() => view.value === 'tiles');
-// Rows use the shared list row (list-rows.css, DESIGN.md "List Rows"); tiles keep their cards
+// Rows use the shared list row (list-rows.css, DESIGN.md "List Rows"); tiles keep their cards. Both use a
+// title link stretched over the item, so the whole row or card is clickable.
+const tileFocus =
+  'has-[a:focus-visible]:outline-2 has-[a:focus-visible]:outline-offset-2 has-[a:focus-visible]:outline-solid has-[a:focus-visible]:outline-galaxy-primary';
 const ui = computed(() =>
   isTiles.value
     ? {
         list: 'grid grid-cols-[repeat(auto-fill,minmax(min(100%,16rem),1fr))] gap-4',
-        item: 'overflow-hidden rounded-lg border border-ebony-clay-100 bg-white shadow-sm transition-shadow hover:shadow-md',
-        link: 'group flex h-full flex-col',
+        item: `group relative flex h-full flex-col overflow-hidden rounded-lg border border-ebony-clay-100 bg-white shadow-sm transition-shadow hover:shadow-md ${tileFocus}`,
         body: 'flex-1 p-4',
         title: 'mb-2 text-base font-semibold text-chicago-900 transition-colors group-hover:text-galaxy-primary',
         meta: 'mb-2 text-sm text-chicago-500',
@@ -62,14 +64,13 @@ const ui = computed(() =>
         tags: 'mt-3 flex flex-wrap gap-2',
       }
     : {
-        list: '',
+        list: 'gx-lrows',
         item: 'gx-lrow',
-        link: 'block',
         body: 'flex flex-col gap-1',
         title: 'gx-lrow__title',
         meta: 'gx-lrow__meta',
         teaser: 'gx-lrow__teaser',
-        tags: 'mt-0.5 flex flex-wrap gap-2',
+        tags: 'gx-lrow__raised mt-0.5 flex flex-wrap gap-2',
       }
 );
 const pageSize = 20;
@@ -247,36 +248,36 @@ function displaySubsite(subsite: string): string {
     <!-- Articles: shared list rows, or tiles with the image at the bottom -->
     <div :data-view="view" :class="ui.list">
       <article v-for="article in filteredArticles.slice(0, displayCount)" :key="article.slug" :class="ui.item">
-        <a :href="buildUrl(article.slug)" :class="ui.link">
-          <div :class="ui.body">
-            <h2 :class="ui.title">
+        <div :class="ui.body">
+          <h2 :class="ui.title">
+            <a :href="buildUrl(article.slug)" class="gx-lrow__link">
               {{ article.title || 'Untitled' }}
               <ExternalIcon v-if="article.externalUrl" :href="article.externalUrl" />
-            </h2>
-            <p v-if="article.date" :class="ui.meta">
-              <time>{{ formatDate(article.date) }}</time>
-            </p>
-            <p v-if="article.tease" :class="ui.teaser" v-html="renderMarkdownInline(article.tease)"></p>
-            <div v-if="article.tags?.length" :class="ui.tags">
-              <span
-                v-for="tag in article.tags.slice(0, isTiles ? 3 : 5)"
-                :key="tag"
-                class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-ebony-clay-50 text-chicago-600"
-              >
-                {{ tag }}
-              </span>
-            </div>
+            </a>
+          </h2>
+          <p v-if="article.date" :class="ui.meta">
+            <time>{{ formatDate(article.date) }}</time>
+          </p>
+          <p v-if="article.tease" :class="ui.teaser" v-html="renderMarkdownInline(article.tease)"></p>
+          <div v-if="article.tags?.length" :class="ui.tags">
+            <span
+              v-for="tag in article.tags.slice(0, isTiles ? 3 : 5)"
+              :key="tag"
+              class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-ebony-clay-50 text-chicago-600"
+            >
+              {{ tag }}
+            </span>
           </div>
-          <img
-            v-if="isTiles && article.image"
-            :src="article.image"
-            alt=""
-            loading="lazy"
-            decoding="async"
-            class="aspect-video w-full border-t border-ebony-clay-100 object-cover"
-            data-tile-image
-          />
-        </a>
+        </div>
+        <img
+          v-if="isTiles && article.image"
+          :src="article.image"
+          alt=""
+          loading="lazy"
+          decoding="async"
+          class="aspect-video w-full border-t border-ebony-clay-100 object-cover"
+          data-tile-image
+        />
       </article>
     </div>
 
