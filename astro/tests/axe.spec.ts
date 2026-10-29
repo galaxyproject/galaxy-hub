@@ -7,7 +7,8 @@ import { AxeBuilder } from '@axe-core/playwright';
 //
 // A new news post or event, or the date moving on, does not change what the scans see. The news
 // and events listings open a past year that sits in the "Older years" select (?year=2020), so their
-// items stay the same (the recent-year chips and their counts still change).
+// items stay the same (the recent-year chips and their counts still change); the US citations list
+// opens the same year.
 // Regions that list the latest news, upcoming events or ESG news and past events are excluded, and
 // each must match exactly `count` elements, so a renamed hook fails instead of letting live content
 // back into the scan. News teasers, tags and dates are covered on the news year view, past event
@@ -89,6 +90,10 @@ const pages: ScanTarget[] = [
             .or(page.getByText(/^No upcoming events/)),
       },
     ],
+  },
+  {
+    path: `/us/citations/?year=${fixedYear}`, // CitationList + CitationFilters (server list, filter bar island)
+    ready: (page) => page.getByText(new RegExp(`^\\s*\\d+ citations?\\s+in ${fixedYear}\\s*$`)),
   },
   { path: '/use/' },
   { path: '/search/' },
