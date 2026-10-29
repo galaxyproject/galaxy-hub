@@ -52,6 +52,7 @@ New page code uses **role tokens**: they name what a colour is for, carry a ligh
 | Lead, secondary | `text-fg-2` | `#4f4e50` chicago-700 | `#c0c4cc` | 8.27 / 10.54 |
 | Meta: dates, bylines, counts | `text-fg-meta` | `#58585a` galaxy-grey | `#a3a8b4` | 7.10 / 7.74 |
 | Faint: decoration only, never text | `text-fg-faint` | `#878789` | `#737a8c` | 3.59 / 4.29 |
+| Index letters: large A-Z group markers | `text-fg-letter` | `#5f7f9c` | `#6688aa` | 4.20 / 4.97 |
 | Brand text: tags, type badges | `text-fg-brand` | `#1f4465` | `#bfdaf4` | 9.13 / 10.74 on `surface-tint` |
 | Link | `text-link`, `decoration-link-line` | `#25537b` galaxy-primary | `#8cbbe9` | 8.07 / 9.12 |
 | Link hover | `text-link-hover`, `decoration-link-hover-line` | `#1f4465`, gold-600 `#d19e00` underline | `#bfdaf4`, gold underline | 10.13 / 12.77 |
