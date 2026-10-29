@@ -99,16 +99,18 @@ test.describe('Reading grid at 1440px', () => {
     expect(textBox.width, 'paragraph capped at 72ch').toBeLessThanOrEqual(measure + 1);
     expect(textBox.width, 'paragraph reaches the measure').toBeGreaterThan(measure - 1);
 
-    const float = (await prose.locator(':scope > img.float-right').first().boundingBox())!;
-    expect(float.x + float.width, 'a right float sits at the measure edge').toBeLessThanOrEqual(
+    const floatBox = await prose.locator(':scope > img.float-right').first().boundingBox();
+    expect(floatBox, `${NO_TOC_PAGE} needs a right-floated image as a direct child`).not.toBeNull();
+    expect(floatBox!.x + floatBox!.width, 'a right float sits at the measure edge').toBeLessThanOrEqual(
       textBox.x + measure + 1
     );
 
     const centred = prose.locator(':scope > p[style*="text-align"]').first();
-    const centredBox = (await centred.boundingBox())!;
-    expect(centredBox.width, 'centred paragraph uses the full column').toBeGreaterThan(proseBox.width - 2);
+    const centredBox = await centred.boundingBox();
+    expect(centredBox, `${NO_TOC_PAGE} needs a centred paragraph as a direct child`).not.toBeNull();
+    expect(centredBox!.width, 'centred paragraph uses the full column').toBeGreaterThan(proseBox.width - 2);
     const centre = proseBox.x + proseBox.width / 2;
-    expect(Math.abs(centredBox.x + centredBox.width / 2 - centre)).toBeLessThan(2);
+    expect(Math.abs(centredBox!.x + centredBox!.width / 2 - centre)).toBeLessThan(2);
   });
 
   test('a centred conference intro stays centred in the content column', async ({ page }) => {
