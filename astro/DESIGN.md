@@ -132,6 +132,17 @@ Content rendered from Markdown uses custom prose styles (see `.prose` and `.pros
 .prose img { border-radius: 0.5rem; margin-left: auto; margin-right: auto; }
 ```
 
+### Tables
+
+Content tables are compact and stay inside the prose column. Rules (`global.css`, `build/rehype-scrollable-tables.mjs`):
+
+- **Type and cells**: plain (unclassed) content tables use the `text-sm` scale, 14px on a 20px line, with `10px 12px` cell padding. The head keeps the galaxy-primary fill with white 600 text.
+- **No early wrap**: at build time, cells of Markdown tables that hold only short inline text (24 characters or fewer: dates, numbers, short labels) get `whitespace-nowrap`. Long text cells still wrap, so the browser narrows the text columns instead of breaking a date over two lines. No fixed column widths.
+- **Scroll fallback**: every content table sits in the focusable, labelled `.table-wrapper` region, which scrolls sideways when the table is still wider than the column. Tables never break out of the content column.
+- **Left alone**: raw HTML tables keep default wrapping; tables that bring a class (legacy `.bs-compat`, the bare `EventsTable` / `NewsTable` components) keep their own type and padding. In print, short cells wrap again, since paper cannot scroll.
+
+**galaxy-ui parity**: prose tables are the hub's counterpart of `GTable` with `compact` (`g-table-compact`). Same intent, different values: `GTable` cells are `0.75rem` and compact cells `0.3rem`; prose tables use `10px 12px` so running text in cells stays readable. The hub head mirrors `headVariant="dark"` (`g-header-dark`), not the light default.
+
 ---
 
 ## 4. Component Stylings
@@ -304,6 +315,26 @@ Reka UI / shadcn-style components are available for:
 - **Card**, **CardHeader**, **CardContent**, etc. (`@/components/ui/card`) -- structured card layout
 
 These use the OKLch semantic tokens, which read as neutral on Galaxy backgrounds. Don't restyle their internals with Galaxy brand colors -- they're deliberately chromatic-neutral so they compose anywhere.
+
+### Filters
+
+Listing pages (news, events, citations, platforms, search) filter in place and keep the filter state in the URL, so a filtered view can be shared, bookmarked and restored with back/forward.
+
+- **Component**: `FilterBar` (`@/components/filters/FilterBar.vue`) composes `YearFilter` (year chips plus an "Older years" select), a labelled text search (`ui/input`), an optional tag/type select (`ui/select`), a "Clear filters" button (`ui/button`, shown only while a filter is active) and the result count. The list component owns the state and passes it in with `v-model:q`, `v-model:year` and `v-model:tag`; the bar stays presentational. Adopted by news; events, citations, platforms and search move to it next.
+- **Year chips**: the first chip is "All years" (no year filter, newest first), then the five most recent years with counts, then older years in the select. Chips are `<button aria-pressed>` inside `role="group"` with an `aria-label`, `rounded-md` like other controls, at least 32px tall.
+- **URL sync**: use `@/utils/urlFilters` (`readParams`, `writeParams`, `onPopState`), never `history.replaceState` by hand. It keeps `history.state` (Astro's ClientRouter stores its navigation index there) and the hash, drops empty and default values and writes params in a stable order; `onPopState` only calls back while the URL is still on the page that subscribed. Read params in `onMounted`, not during setup: the server render has no query string and hydration must match it.
+- **Param names**: `q` (text), `year`, `tag`, `region`, `type`, `status`, `sort`, `view`. Write them in that order. Pagination ("Load more") stays out of the URL. Keep accepting legacy names and values a page already supports (for example the singular `platform_group` slugs).
+- **Text search**: debounce the model and URL update (~250ms); the input itself updates at once. Match every word of the query against the title and summary, case-insensitive.
+
+Accessibility (WCAG 2.1 AA):
+
+- Every control has a visible `<label>` (or `aria-labelledby`); the chip group and the bar have an `aria-label`.
+- The result count is one `aria-live="polite"` `aria-atomic="true"` line that is always in the DOM and says what is applied, e.g. "37 articles in 2024 tagged “training”".
+- Focus is a solid 2px `galaxy-primary` outline with a 2px offset (`focus-visible:outline-2 outline-offset-2 outline-solid outline-galaxy-primary`, plus `ring-0` on the primitives). The primitives' default 50% ring is below 3:1 on white, and box-shadow rings disappear in forced-colors mode while outlines stay. Input and select borders use `chicago-400` (3:1 on white).
+- The focus and border classes are overrides in `FilterBar` and `YearFilter`, interim until the token PR moves them into the primitives. The "Clear filters" button keeps the `ui/button` `outline` variant and its neutral OKLch tokens; only its focus outline is overridden.
+- Targets are at least 24×24px (WCAG 2.2 SC 2.5.8, best practice beyond the 2.1 AA baseline; chips 32px, inputs and selects 40px). Everything works with the keyboard: Tab between controls, Space/Enter on chips, arrow keys in the selects.
+- After "Clear filters", focus moves to the search input because the button disappears.
+- At 390px the bar stacks (chips wrap, then search, tag, clear, count) with no horizontal scroll. A bottom sheet (see Mobile Bottom Sheet) is for pages with more filters than fit.
 
 ### Interactive Hover (Gold Bar Animation)
 

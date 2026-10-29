@@ -67,8 +67,15 @@ const { yearCounts, years } = groupCitationsByYear(citations);
 </div>
 
 <script>
-  (() => {
+  import { onPopState, readParams, writeParams } from '@/utils/urlFilters';
+
+  const FILTER_PARAMS = { year: 'all' };
+
+  // The ClientRouter runs this module once, so set up again on every page load
+  function init() {
     const buttons = Array.from(document.querySelectorAll<HTMLElement>('[data-year-button]'));
+    // Not a citations page: leave its URL alone
+    if (buttons.length === 0) return;
     const items = Array.from(document.querySelectorAll<HTMLElement>('[data-citation-year]'));
     const countEl = document.querySelector<HTMLElement>('[data-filter-count]');
     const noun = countEl?.dataset.noun || 'citations';
@@ -97,23 +104,14 @@ const { yearCounts, years } = groupCitationsByYear(citations);
         countEl.textContent = `Showing ${visible} ${label}`;
       }
 
-      const params = new URLSearchParams(window.location.search);
-      if (year === 'all') {
-        params.delete('year');
-      } else {
-        params.set('year', year);
-      }
-      const newUrl = `${window.location.pathname}${params.toString() ? `?${params.toString()}` : ''}`;
-      window.history.replaceState(window.history.state, '', newUrl + window.location.hash);
+      writeParams({ year }, { defaults: FILTER_PARAMS });
     }
 
-    const searchParams = new URLSearchParams(window.location.search);
-    const initialYear = (() => {
-      const fromQuery = searchParams.get('year');
-      if (!fromQuery) return 'all';
+    function yearFromUrl() {
+      const fromQuery = readParams(FILTER_PARAMS).year ?? 'all';
       const normalized = fromQuery.toLowerCase() === 'unknown' ? 'unknown' : fromQuery;
       return buttons.some((b) => (b.dataset.year || '') === normalized) ? normalized : 'all';
-    })();
+    }
 
     buttons.forEach((btn) => {
       btn.addEventListener('click', (event) => {
@@ -122,6 +120,12 @@ const { yearCounts, years } = groupCitationsByYear(citations);
       });
     });
 
-    applyFilter(initialYear);
-  })();
+    // Back/forward restores the year from the URL; stop listening once the router swaps the page
+    const stopPopState = onPopState(() => applyFilter(yearFromUrl()));
+    document.addEventListener('astro:before-swap', stopPopState, { once: true });
+
+    applyFilter(yearFromUrl());
+  }
+
+  document.addEventListener('astro:page-load', init);
 </script>

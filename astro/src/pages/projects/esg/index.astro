@@ -5,7 +5,8 @@
  */
 import ESGLayout from '../../../layouts/ESGLayout.astro';
 import EsgInteractivePoster from '../../../components/EsgInteractivePoster.astro';
-import { getCollection, getEntry } from 'astro:content';
+import { getEntry } from 'astro:content';
+import { getListedCollection } from '../../../utils/content';
 import EventDate from '../../../components/events/EventDate.astro';
 import { isPastEvent } from '../../../utils/dateUtils';
 
@@ -19,7 +20,7 @@ const partners = (await getEntry('datasets', 'partners'))?.data;
 const externalLinks = (await getEntry('datasets', 'external_links'))?.data;
 
 // Load ESG news
-const allNews = await getCollection('news');
+const allNews = await getListedCollection('news');
 // ESG is a project surface, so it intentionally uses narrow project tags rather than subsite-wide matching.
 const esgNews = allNews
   .filter((a) => a.data.subsites?.includes('esg'))
@@ -31,7 +32,7 @@ const esgNews = allNews
   .slice(0, 6);
 
 // Load ESG events (past only: the project is over)
-const events = await getCollection('events');
+const events = await getListedCollection('events');
 const now = new Date();
 const esgEvents = events
   .filter((e) => {

@@ -11,9 +11,11 @@ import '../styles/bootstrap-compat.css'; /* ensure Astro styles */
 interface Props {
   title: string;
   description?: string;
+  /** Ask search engines not to index the page (drafts). */
+  noindex?: boolean;
 }
 
-const { title, description } = Astro.props;
+const { title, description, noindex = false } = Astro.props;
 ---
 
 <!doctype html>
@@ -22,6 +24,7 @@ const { title, description } = Astro.props;
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description || `${title} - Galaxy Community Hub`} />
+    {noindex && <meta name="robots" content="noindex" />}
     <title>{title} | Galaxy</title>
 
     <!-- Favicon -->

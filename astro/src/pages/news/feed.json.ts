@@ -3,7 +3,7 @@
  * Outputs news articles within 30 days at /news/feed.json
  * Format matches original Gridsome feed for backward compatibility
  */
-import { getCollection } from 'astro:content';
+import { getListedCollection } from '../../utils/content';
 import { marked } from 'marked';
 import { extractAuthors } from '../../utils/contributors';
 import { expandSubsites } from '../../utils/subsites';
@@ -29,7 +29,7 @@ function generateShortId(str: string): string {
 }
 
 export async function GET() {
-  const allNews = await getCollection('news');
+  const allNews = await getListedCollection('news');
 
   // Filter to news articles within days_ago limit
   const newsArticles = allNews

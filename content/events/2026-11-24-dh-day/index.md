@@ -5,6 +5,7 @@ end: '2026-11-24'
 location:
   name: Freiburg
 tags: [humanities, ai]
+contact: Daniela Schneider
 contributions:
   organisers:
     - Sch-Da

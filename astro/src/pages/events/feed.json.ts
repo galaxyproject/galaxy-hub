@@ -3,7 +3,7 @@
  * Outputs events within 30 days at /events/feed.json
  * Format matches original Gridsome feed for backward compatibility
  */
-import { getCollection } from 'astro:content';
+import { getListedCollection } from '../../utils/content';
 import { marked } from 'marked';
 import { expandSubsites } from '../../utils/subsites';
 import { formatDate } from '../../utils/dateUtils';
@@ -28,7 +28,7 @@ function getDaysAgo(date: Date): number {
 }
 
 export async function GET() {
-  const events = await getCollection('events');
+  const events = await getListedCollection('events');
 
   // Filter events within days_ago limit and transform
   const feedItems = await Promise.all(

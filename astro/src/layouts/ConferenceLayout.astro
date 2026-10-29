@@ -40,6 +40,8 @@ interface Props {
   externalUrl?: string | null;
   showMetadata?: boolean;
   subnavItems?: Array<{ href: string; label: string; active?: boolean }>;
+  /** Ask search engines not to index the page (drafts). */
+  noindex?: boolean;
 }
 
 const {
@@ -58,6 +60,7 @@ const {
   externalUrl,
   showMetadata = true,
   subnavItems = [],
+  noindex = false,
 } = Astro.props;
 
 function toDate(d: Date | string | undefined): Date | null {
@@ -91,7 +94,7 @@ const hasMetadata =
     contacts.length > 0);
 ---
 
-<BaseLayout title={title || 'Conference'} description={description}>
+<BaseLayout title={title || 'Conference'} description={description} noindex={noindex}>
   <article class="max-w-6xl mx-auto bg-white relative">
     {hasMetadata && <div class:list={['conference-hero', isSubpage && 'is-subpage']}>
       <PageHeader title={title || 'Conference'} description={description} tags={tags} authors={authors}>

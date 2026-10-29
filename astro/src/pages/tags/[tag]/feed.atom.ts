@@ -28,7 +28,7 @@ export async function GET({ params }: APIContext) {
   const profile = (await getTagIndex()).get(tag);
 
   const news: AtomEntry[] = (profile?.news ?? [])
-    .filter((article) => !article.data.draft && isPublishedDate(article.data.date, now))
+    .filter((article) => isPublishedDate(article.data.date, now))
     .map((article) => {
       const slug = (article.data.slug || article.id).replace(/\/$/, '');
       return {
@@ -40,18 +40,16 @@ export async function GET({ params }: APIContext) {
       };
     });
 
-  const events: AtomEntry[] = (profile?.events ?? [])
-    .filter((event) => !event.data.draft)
-    .map((event) => {
-      const slug = (event.data.slug || event.id).replace(/\/$/, '');
-      return {
-        title: event.data.title || 'Untitled',
-        url: `${SITE_URL}${eventLinkFromSlug(slug)}`,
-        date: event.data.date,
-        summary: event.data.tease || undefined,
-        categories: [{ term: 'event', label: 'Event' }],
-      };
-    });
+  const events: AtomEntry[] = (profile?.events ?? []).map((event) => {
+    const slug = (event.data.slug || event.id).replace(/\/$/, '');
+    return {
+      title: event.data.title || 'Untitled',
+      url: `${SITE_URL}${eventLinkFromSlug(slug)}`,
+      date: event.data.date,
+      summary: event.data.tease || undefined,
+      categories: [{ term: 'event', label: 'Event' }],
+    };
+  });
 
   const entries: AtomEntry[] = [...news, ...events]
     .sort((a, b) => {

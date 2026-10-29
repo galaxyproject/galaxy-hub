@@ -438,6 +438,37 @@ describe('processMarkdownFile publish date', () => {
     expect(isWritten(filePath)).toBe(true);
   });
 
+  it.each([
+    ['news', 'news/2020/2020-01-01-draft/index.md'],
+    ['events', 'events/2020-01-01-draft/index.md'],
+    ['articles', 'draft-page/index.md'],
+  ])('builds %s marked draft: true and keeps the flag for listings to read', async (collection, relPath) => {
+    const filePath = path.join(contentDir, relPath);
+    fs.mkdirSync(path.dirname(filePath), { recursive: true });
+    fs.writeFileSync(filePath, `---\ntitle: Fixture\ndate: '2020-01-01'\ndraft: true\n---\nBody\n`);
+    expect((await processFixture(filePath)).collection).toBe(collection);
+    const written = destPathsForMarkdown(filePath, contentDir, outputDir).filter((dest) => fs.existsSync(dest));
+    expect(written).toHaveLength(1);
+    expect(matter(fs.readFileSync(written[0], 'utf-8')).data.draft).toBe(true);
+  });
+
+  it('keeps inserts marked draft: true so <slot> and <Insert> still resolve', async () => {
+    const filePath = path.join(contentDir, 'some/page/draft_insert.md');
+    fs.mkdirSync(path.dirname(filePath), { recursive: true });
+    fs.writeFileSync(filePath, `---\ndraft: true\n---\nInsert body\n`);
+    expect((await processFixture(filePath)).collection).toBe('inserts');
+    expect(isWritten(filePath)).toBe(true);
+    expect(resolveInsertContent('/some/page/draft_insert', 0, contentDir).content).toContain('Insert body');
+  });
+
+  it('keeps news marked draft: false', async () => {
+    const filePath = path.join(contentDir, 'news/2020/2020-01-01-ready/index.md');
+    fs.mkdirSync(path.dirname(filePath), { recursive: true });
+    fs.writeFileSync(filePath, `---\ntitle: Fixture\ndate: '2020-01-01'\ndraft: false\n---\nBody\n`);
+    expect((await processFixture(filePath)).collection).toBe('news');
+    expect(isWritten(filePath)).toBe(true);
+  });
+
   it('keeps events dated in the future', async () => {
     const filePath = writeFixture('events/2999-01-01-future/index.md', '2999-01-01');
     expect((await processFixture(filePath)).collection).toBe('events');
