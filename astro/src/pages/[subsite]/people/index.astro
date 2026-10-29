@@ -76,7 +76,7 @@ const eyebrow = subsite === 'eu' ? { label: 'Galaxy Europe', href: '/eu/' } : un
       {subsite === 'us' && <SiteNavigation client:load sites={usSites} />}
     </PageHeader>
 
-    <div class="bg-white rounded-b-lg shadow-sm px-6 sm:px-8 py-8 space-y-10">
+    <div class="px-6 sm:px-8 py-8 space-y-10">
       {groups.map((group) => <section id={group.id} class="space-y-4">
         {isAggregate && <div class="flex items-center justify-between gap-3 border-b border-ebony-clay-100 pb-3">
           <div>

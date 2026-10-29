@@ -36,7 +36,7 @@ const serialized: DykItem[] = items.map(toSerializable);
   <div class="max-w-6xl mx-auto">
     <PageHeader title={headerTitle} description={pageDescription} {eyebrow} />
 
-    <div class="bg-white px-6 sm:px-8 py-6 rounded-b-lg shadow-sm">
+    <div class="px-6 sm:px-8 py-6">
       {serialized.length > 0 ? (
         <div class="dyk-grid">
           {serialized.map((item) => (

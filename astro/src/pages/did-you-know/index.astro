@@ -16,7 +16,7 @@ const serialized: DykItem[] = items.map(toSerializable);
       description="Bite-sized tips and tricks for getting more out of Galaxy. Each visit shows a fresh image and link — come back often!"
     />
 
-    <div class="bg-white px-6 sm:px-8 py-6 rounded-b-lg shadow-sm">
+    <div class="px-6 sm:px-8 py-6">
       {serialized.length > 0 ? (
         <div class="dyk-grid">
           {serialized.map((item) => (

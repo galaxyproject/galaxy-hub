@@ -65,7 +65,7 @@ const letters = Object.keys(groupedTags).sort();
     </nav>
 
     <!-- Tags by letter -->
-    <div class="bg-white px-8 py-6 rounded-b-lg shadow-sm">
+    <div class="px-8 py-6">
       {letters.map((letter, idx) => <section
         id={`section-${letter}`}
         class={idx > 0 ? 'mt-8 pt-8 border-t border-ebony-clay-50' : ''}

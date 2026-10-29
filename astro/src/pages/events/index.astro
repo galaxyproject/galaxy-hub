@@ -24,7 +24,7 @@ const eventData = events.map((e) => ({
   <div class="max-w-6xl mx-auto">
     <PageHeader title="Events" description="Workshops, conferences, and community gatherings" />
 
-    <div class="bg-white px-6 sm:px-8 py-6 rounded-b-lg shadow-sm">
+    <div class="px-6 sm:px-8 py-6">
       <EventsList client:only="vue" events={eventData} />
     </div>
   </div>
