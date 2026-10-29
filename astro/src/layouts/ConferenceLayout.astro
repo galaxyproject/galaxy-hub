@@ -111,7 +111,7 @@ const hasMetadata =
       {supporters.length > 0 && <div class="mb-6">
         <SupporterGrid supporters={supporters} title="Supporters" />
       </div>}
-      <div class="flex justify-between items-center pt-4 border-t border-ebony-clay-100">
+      <div class="flex justify-between items-center pt-4 border-t border-line">
         <a
           href="/events/"
           class="text-link hover:text-link-hover hover:underline hover:decoration-link-hover-line hover:decoration-2 flex items-center gap-1.5 font-medium transition-colors"
@@ -150,7 +150,7 @@ const hasMetadata =
   .conference-subnav {
     margin-top: 1.5rem;
     padding-top: 1rem;
-    border-top: 1px solid var(--color-chicago-100);
+    border-top: 1px solid var(--color-line);
     display: flex;
     flex-wrap: wrap;
     gap: 0.75rem;
@@ -162,7 +162,7 @@ const hasMetadata =
     padding: 0.35rem 0.75rem;
     border-radius: 999px;
     border: 1px solid rgb(37 83 123 / 0.3);
-    color: var(--color-galaxy-primary);
+    color: var(--color-link);
     font-size: 0.95rem;
     line-height: 1.25rem;
     text-decoration: none;
@@ -179,14 +179,14 @@ const hasMetadata =
   }
 
   .conference-subnav-link:focus-visible {
-    outline: 2px solid var(--color-galaxy-primary);
+    outline: 2px solid var(--color-focus);
     outline-offset: 2px;
   }
 
   .conference-subnav-link.is-active {
     border-color: var(--color-galaxy-gold);
     background: rgb(255 215 0 / 0.2);
-    color: var(--color-galaxy-dark);
+    color: var(--color-fg-strong);
     font-weight: 600;
   }
 
@@ -243,7 +243,7 @@ const hasMetadata =
       z-index: 40;
       margin: 0;
       border-top: 0;
-      border-bottom: 1px solid var(--color-chicago-100);
+      border-bottom: 1px solid var(--color-line);
       background: #fff;
       box-shadow: 0 6px 16px rgb(44 49 67 / 0.12);
       mask-image: none;

@@ -9,7 +9,7 @@ components: true
 
 #### June 25-26, 2026
 
-  <div class="text-lg text-galaxy-grey">
+  <div class="text-lg text-fg-meta">
     CoFest is a community gathering by those interested in
     contributing to Galaxy's tool set, documentation, training materials, code base,
     and anywhere else that expands the Galaxy ecosystem.
