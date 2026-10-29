@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { getListedCollection } from '../../../utils/content';
-import EventDate from '@/components/events/EventDate.astro';
+import EventRow from '@/components/lists/EventRow.astro';
 import { isUpcomingEvent, isPastEvent } from '../../../utils/dateUtils';
 
 const tag = 'cofest';
@@ -58,21 +58,16 @@ const pastEvents = taggedEvents
       {upcomingEvents.length === 0 ? (
         <p class="text-chicago-500 italic">No upcoming CoFests scheduled. Check back soon!</p>
       ) : (
-        <div class="space-y-4">
-          {upcomingEvents.map((event) => <a
-            href={`/${event.data.slug}/`}
-            class="block p-4 bg-white rounded-lg border border-ebony-clay-100 hover:border-galaxy-primary hover:shadow-md transition-all"
-          >
-            <div class="flex items-start justify-between gap-4">
-              <div>
-                <h3 class="font-semibold text-galaxy-dark hover:text-galaxy-primary">{event.data.title}</h3>
-                <p class="text-sm mt-1">
-                  <EventDate start={event.data.date} end={event.data.end} />
-                </p>
-                {event.data.tease && <p class="text-chicago-600 text-sm mt-1 line-clamp-2">{event.data.tease}</p>}
-              </div>
-            </div>
-          </a>)}
+        <div>
+          {upcomingEvents.map((event) => (
+            <EventRow
+              href={`/${event.data.slug}/`}
+              title={event.data.title}
+              start={event.data.date}
+              end={event.data.end}
+              tease={event.data.tease}
+            />
+          ))}
         </div>
       )}
     </section>
@@ -87,16 +82,16 @@ const pastEvents = taggedEvents
       {pastEvents.length === 0 ? (
         <p class="text-chicago-500 italic">No past CoFests found.</p>
       ) : (
-        <div class="space-y-2">
-          {pastEvents.map((event) => <a
-            href={`/${event.data.slug}/`}
-            class="flex flex-col gap-1 p-3 bg-ebony-clay-50 rounded-lg hover:bg-ebony-clay-50 transition-colors"
-          >
-            <span class="text-chicago-700 hover:text-galaxy-primary">{event.data.title}</span>
-            <span class="text-sm">
-              <EventDate start={event.data.date} end={event.data.end} past />
-            </span>
-          </a>)}
+        <div>
+          {pastEvents.map((event) => (
+            <EventRow
+              href={`/${event.data.slug}/`}
+              title={event.data.title}
+              start={event.data.date}
+              end={event.data.end}
+              past
+            />
+          ))}
         </div>
       )}
     </section>

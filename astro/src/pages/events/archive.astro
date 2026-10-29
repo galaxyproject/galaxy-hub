@@ -1,8 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getListedCollection } from '../../utils/content';
-import ExternalIcon from '../../components/common/ExternalIcon.vue';
-import EventDate from '../../components/events/EventDate.astro';
+import EventRow from '../../components/lists/EventRow.astro';
 import { getUTCYear, utcDayOneYearAgo } from '../../utils/dateUtils';
 
 // Get all events, sorted by date descending
@@ -43,10 +42,6 @@ function getLocationName(location: any): string {
   if (typeof location === 'string') return location;
   return location.name || '';
 }
-
-function hasExternalUrl(event: (typeof archivedEvents)[number]) {
-  return Boolean((event.data as any).external_url);
-}
 ---
 
 <BaseLayout title="Events Archive" description="Archive of past Galaxy community events">
@@ -60,41 +55,25 @@ function hasExternalUrl(event: (typeof archivedEvents)[number]) {
       <p class="text-sm text-chicago-500 mt-2">Showing {archivedEvents.length} events from {years.length} years</p>
     </div>
 
-    {years.map((year) => <section class="mb-10">
-      <h2
-        class="text-2xl font-bold text-galaxy-dark mb-4 sticky top-0 bg-background py-2 border-b border-ebony-clay-100"
-      >
+    {years.map((year) => <section aria-labelledby={`archive-${year}`}>
+      <h2 id={`archive-${year}`} class="gx-year-head">
         {year}
-        <span class="text-sm font-normal text-chicago-500 ml-2">({eventsByYear[year].length} events)</span>
+        <span class="gx-year-head__count">{eventsByYear[year].length}<span class="sr-only"> events</span></span>
       </h2>
-
-      <div class="space-y-2">
-        {eventsByYear[year].map((event) => <a
-          href={`/${event.data.slug}/`}
-          class="flex flex-wrap items-center gap-3 p-3 bg-white rounded-lg border border-ebony-clay-100 hover:border-galaxy-primary hover:shadow-sm transition-all"
-        >
-          <span class="flex min-w-0 flex-1 flex-col gap-1">
-            <span class="text-galaxy-dark hover:text-galaxy-primary">
-              {event.data.title}
-              {hasExternalUrl(event) && <ExternalIcon href={(event.data as any).external_url} />}
-            </span>
-            <span class="text-sm">
-              <EventDate start={event.data.date} end={event.data.end} format={{ year: false }} past />
-            </span>
-          </span>
-          {getLocationName(event.data.location) && <span class="text-sm text-chicago-400 hidden md:inline"
-            >{getLocationName(event.data.location)}</span
-          >}
-          {event.data.tags && Array.isArray(event.data.tags) && event.data.tags.length > 0 && <div
-            class="hidden lg:flex gap-1"
-          >
-            {event.data.tags
-              .slice(0, 2)
-              .map((tag: string) => <span class="text-xs px-2 py-0.5 bg-ebony-clay-50 text-chicago-600 rounded"
-                >{tag}</span
-              >)}
-          </div>}
-        </a>)}
+      <div>
+        {eventsByYear[year].map((event) => (
+          <EventRow
+            href={`/${event.data.slug}/`}
+            title={event.data.title}
+            start={event.data.date}
+            end={event.data.end}
+            format={{ year: false }}
+            location={getLocationName(event.data.location)}
+            tags={Array.isArray(event.data.tags) ? event.data.tags.slice(0, 2) : []}
+            externalUrl={(event.data as any).external_url}
+            past
+          />
+        ))}
       </div>
     </section>)}
 
