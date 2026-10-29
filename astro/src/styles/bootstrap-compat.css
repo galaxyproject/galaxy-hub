@@ -478,7 +478,7 @@
 }
 
 .text-muted {
-  color: #6c757d !important;
+  color: var(--gx-fg-meta) !important;
 }
 
 .text-primary {
