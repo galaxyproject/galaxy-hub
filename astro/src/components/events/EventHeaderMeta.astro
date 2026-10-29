@@ -37,8 +37,8 @@ const contactText = contacts
   .map((c) => c.name || c.email)
   .filter(Boolean)
   .join(', ');
-const labelClass = 'text-xs font-bold uppercase tracking-[0.06em] text-galaxy-grey';
-const valueClass = 'mt-1 flex items-start gap-1.5 text-galaxy-dark';
+const labelClass = 'text-xs font-bold uppercase tracking-[0.06em] text-fg-meta';
+const valueClass = 'mt-1 flex items-start gap-1.5 text-fg-strong';
 ---
 
 <dl class="event-header-meta mt-4 grid grid-cols-1 gap-x-6 gap-y-3 text-sm sm:grid-cols-2">
@@ -75,6 +75,15 @@ const valueClass = 'mt-1 flex items-start gap-1.5 text-galaxy-dark';
 
   .event-header-meta__icon,
   .event-header-meta :global(.gx-event-date__icon) {
-    color: var(--color-galaxy-primary);
+    color: var(--color-link);
+  }
+
+  /* The shared date line keeps fixed light colours for list cards; here it sits on the themed card */
+  .event-header-meta :global(.gx-event-date) {
+    color: var(--color-fg-strong);
+  }
+
+  .event-header-meta :global(.gx-event-date--past) {
+    color: var(--color-fg-meta);
   }
 </style>
