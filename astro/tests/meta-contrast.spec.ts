@@ -16,6 +16,9 @@ const pages = [
   '/hall-of-fame/', // letter counts
   '/events/gcc2019/', // links in blue table header cells
   '/use/usegalaxy-eu/', // platform location on striped rows
+  '/tags/', // large index letters (3:1 branch) and counts
+  '/usegalaxy/welcome/', // feed dates and fallback text (Bluesky blocked: the error text shows)
+  '/agents/', // landing path meta
 ];
 
 type Failure = { text: string; ratio: number; fg: string; bg: string; source: string };
@@ -25,10 +28,13 @@ async function lowContrastText(page: Page): Promise<Failure[]> {
     const canvas = document.createElement('canvas');
     canvas.width = canvas.height = 1;
     const ctx = canvas.getContext('2d', { willReadFrequently: true })!;
+    // A colour the canvas cannot parse leaves the sentinel in place instead of reading as black
+    const sentinel = '#010203';
     const rgba = (color: string): number[] => {
       ctx.clearRect(0, 0, 1, 1);
-      ctx.fillStyle = '#000';
+      ctx.fillStyle = sentinel;
       ctx.fillStyle = color;
+      if (ctx.fillStyle === sentinel) throw new Error(`Canvas could not parse the computed colour "${color}"`);
       ctx.fillRect(0, 0, 1, 1);
       const d = ctx.getImageData(0, 0, 1, 1).data;
       return [d[0], d[1], d[2], d[3] / 255];
@@ -107,6 +113,8 @@ test.describe('Meta text contrast, light theme', () => {
   for (const path of pages) {
     test(`${path} has no low-contrast text`, async ({ page }) => {
       await page.emulateMedia({ reducedMotion: 'reduce' });
+      // The welcome page loads its feed from Bluesky; keep the test offline and deterministic
+      await page.route('https://public.api.bsky.app/**', (route) => route.abort());
       const response = await page.goto(path);
       expect(response?.status()).toBe(200);
       await page.waitForLoadState('networkidle');
