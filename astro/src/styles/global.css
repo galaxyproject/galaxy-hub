@@ -386,9 +386,75 @@ body {
 
 /* Galaxy-branded prose styles */
 .prose {
-  --tw-prose-links: var(--gx-link);
+  --tw-prose-body: var(--gx-fg);
   --tw-prose-headings: var(--gx-fg-strong);
+  --tw-prose-lead: var(--gx-fg-2);
+  --tw-prose-links: var(--gx-link);
+  --tw-prose-bold: var(--gx-fg-strong);
+  --tw-prose-counters: var(--gx-fg-meta);
+  --tw-prose-quotes: var(--gx-fg-2);
+  --tw-prose-captions: var(--gx-fg-meta);
   overflow-wrap: break-word;
+}
+
+/* Compact reading scale (DESIGN.md §3): 16/1.6 body, 30/22/18/16 headings, 18/28 lead.
+   A utility, so it sorts after Typography's .prose rules and before the text-* sizes
+   that content headings sometimes carry. */
+@utility prose-galaxy {
+  font-size: var(--gx-text-body);
+  line-height: 1.6;
+
+  & :where(h1):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
+    font-size: var(--gx-text-h1);
+    line-height: 1.2;
+  }
+
+  & :where(h2):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
+    font-size: var(--gx-text-h2);
+    line-height: 1.3;
+  }
+
+  & :where(h3):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
+    font-size: var(--gx-text-h3);
+    line-height: 1.4;
+  }
+
+  & :where(h4):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
+    font-size: var(--gx-text-h4);
+    line-height: 1.5;
+  }
+
+  & :where([class~='lead']):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
+    font-size: var(--gx-text-lead);
+    line-height: 1.75rem;
+  }
+}
+
+/* Reading measure: running text stops at 72ch; tables, code, images, figures, embeds
+   and tile grids keep the full content width. Direct children only, so text inside
+   layout wrappers (centred blocks, legacy .bs-compat grids) keeps its own width.
+   The measure resolves once on the container (body font), so headings stop at the
+   same edge as paragraphs instead of at 72ch of their larger font. */
+@property --gx-measure-width {
+  syntax: '<length>';
+  inherits: true;
+  initial-value: 0px;
+}
+
+@layer components {
+  @media screen {
+    .prose-measure {
+      --gx-measure-width: var(--measure);
+    }
+
+    .prose-measure > :where(p, ul, ol, dl, blockquote, h1, h2, h3, h4, h5, h6) {
+      max-width: var(--gx-measure-width);
+    }
+
+    .prose-measure > :where(p:has(> img, > a > img, > picture, > iframe, > video)) {
+      max-width: none;
+    }
+  }
 }
 
 .prose h1,
@@ -500,11 +566,6 @@ body {
     margin-bottom: 1.75em;
   }
 
-  .prose-lg :where(.table-wrapper) {
-    margin-top: 1.7777778em;
-    margin-bottom: 1.7777778em;
-  }
-
   .prose :where(.table-wrapper:has(> .bs-compat.table)) {
     margin-bottom: 1rem;
   }
@@ -546,7 +607,7 @@ body {
 .prose blockquote {
   border-left: 4px solid #ffd700;
   padding-left: 1rem;
-  color: #4b5563;
+  color: var(--gx-fg-2);
   font-style: italic;
   background-color: #ffd70008;
   padding: 1rem;
