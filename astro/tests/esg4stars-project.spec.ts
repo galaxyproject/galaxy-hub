@@ -97,6 +97,15 @@ test.describe('ESG4Stars project pages', () => {
     for (const name of events) await expect(page.getByRole('link', { name })).toBeVisible();
   });
 
+  test('ESG links back to ESG4Stars', async ({ page }) => {
+    await page.setViewportSize({ width: 1440, height: 900 });
+    await page.goto('/projects/esg/');
+    const box = page
+      .getByRole('complementary', { name: 'Project facts and contents' })
+      .getByRole('region', { name: 'Project facts' });
+    await expect(box.getByRole('link', { name: 'ESG4Stars' })).toHaveAttribute('href', '/projects/esg4stars/');
+  });
+
   for (const { path } of pages) {
     test(`${path} fits a 390px phone without horizontal scroll`, async ({ page }) => {
       await page.setViewportSize({ width: 390, height: 844 });
