@@ -4,11 +4,11 @@ tease: "This page will be your starting point for Galaxy, the go-to place when y
 components: true
 ---
 
-<img class="img-fluid float-right mt-1 mb-3 ml-4" src="/images/undraw-illustrations/get-started.svg" width="160" alt="community events" />
-
 Below you will find a __step-by-step suggested pathway__ for you to follow as a newcomer, a student, an expert or just about anybody interested in using Galaxy.
 
 ## Step 1: Get acquainted with Galaxy terminology
+
+<img class="img-fluid float-right mt-1 mb-3 ml-4" src="/images/undraw-illustrations/get-started.svg" width="160" alt="community events" />
 
 The [__Galaxy Glossary__ <Icon name="book" />](/get-started/glossary/)  contains the terminology, acronyms and definitions. As a newbie, you will probably skim through this list, but later on in your journey you may come back to refer to it as it will help you get a better understanding of the Galaxy Ecosystem.
 
