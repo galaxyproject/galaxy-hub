@@ -124,9 +124,6 @@ const knownIssues: Record<string, Record<string, KnownIssue>> = {
       viewports: both,
     },
   },
-  [`/events/?year=${fixedYear}`]: {
-    'color-contrast': { reason: 'year button counts opacity-75 are 3.64:1 (EventsList.vue)', viewports: both },
-  },
 };
 
 function indent(text: string, spaces: number): string {

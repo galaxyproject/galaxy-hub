@@ -322,7 +322,7 @@ function displaySubsite(subsite: string): string {
             ]"
           >
             All years
-            <span class="ml-1 text-xs opacity-75">({{ allPastEvents.length }})</span>
+            <span class="ml-1 text-xs">({{ allPastEvents.length }})</span>
           </button>
           <button
             v-for="year in recentPastYears"
@@ -336,7 +336,7 @@ function displaySubsite(subsite: string): string {
             ]"
           >
             {{ year }}
-            <span class="ml-1 text-xs opacity-75">({{ countPastForYear(year) }})</span>
+            <span class="ml-1 text-xs">({{ countPastForYear(year) }})</span>
           </button>
           <!-- Older years dropdown -->
           <select
