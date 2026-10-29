@@ -131,7 +131,7 @@ test.describe('Reading grid at 1440px', () => {
     expect(Math.abs(centredBox!.x + centredBox!.width / 2 - centre)).toBeLessThan(2);
   });
 
-  test('without a rail, tile grids keep the full column', async ({ page }) => {
+  test('without a rail, tile grids keep the full column and text lines up with them', async ({ page }) => {
     await page.goto(CENTRED_EVENT);
     await expect(page.locator('.toc-sidebar')).toHaveCount(0);
     const prose = page.locator('.prose-galaxy').first();
@@ -140,9 +140,12 @@ test.describe('Reading grid at 1440px', () => {
     expect(gridBox, `${CENTRED_EVENT} needs a tile grid`).not.toBeNull();
     const measure = await measureAt(prose);
     expect(gridBox!.width, 'tile grid wider than the measure').toBeGreaterThan(measure + 40);
-    const heading = prose.locator(':scope > h2').first();
-    const headingBox = (await heading.boundingBox())!;
-    expect(headingBox.width, 'section heading capped at 72ch').toBeLessThanOrEqual(measure + 1);
+    // With wide content in the column, text stays left-aligned with it (not centred).
+    const heading = grid.locator('xpath=preceding-sibling::*[1][self::h2]');
+    const headingBox = await heading.boundingBox();
+    expect(headingBox, `${CENTRED_EVENT} needs an h2 right before the tile grid`).not.toBeNull();
+    expect(headingBox!.width, 'section heading capped at 72ch').toBeLessThanOrEqual(measure + 1);
+    expect(Math.abs(headingBox!.x - gridBox!.x), 'heading starts where the grid starts').toBeLessThan(1);
   });
 
   test('a centred conference intro stays centred in the content column', async ({ page }) => {
