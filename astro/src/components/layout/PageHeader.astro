@@ -79,8 +79,14 @@ const formattedDate = formatDate(date, false);
       {date && <time datetime={toISOString(date)} class="font-medium">
         {formattedDate}
       </time>}
-      {normalizedAuthors.length > 0 && <div class="flex items-center gap-1.5 flex-wrap">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      {normalizedAuthors.length > 0 && <div class="flex items-start gap-1.5 min-w-0">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-4 w-4 shrink-0 mt-0.5"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
           <path
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -88,7 +94,7 @@ const formattedDate = formatDate(date, false);
             d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
           />
         </svg>
-        <span class="flex flex-wrap gap-1.5">
+        <span class="flex flex-wrap gap-1.5 min-w-0">
           {normalizedAuthors.map((author, idx) => {
             const label = <>{author.label}{idx < normalizedAuthors.length - 1 ? ',' : ''}</>;
             return author.href ? (
