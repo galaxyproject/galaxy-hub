@@ -104,7 +104,7 @@ const formattedTime = computed(() => (props.lastUpdated ? props.lastUpdated.toLo
 
 <template>
   <div class="presenter-body" :class="isLight ? 'presenter-light' : 'on-chrome'">
-    <header class="presenter-header">
+    <header class="presenter-header on-chrome">
       <div class="presenter-header-inner">
         <img src="/images/galaxy_logo_hub_white.svg" alt="Galaxy" class="presenter-logo" />
         <div class="presenter-title-group">
