@@ -26,27 +26,27 @@ const { subsite, title, description, upcomingEvents, subsiteNews, hasMainContent
   <div class="grid gap-8 lg:grid-cols-2">
     <section>
       <div class="flex items-center justify-between mb-4">
-        <h2 class="text-xl font-bold text-galaxy-dark">Upcoming Events</h2>
+        <h2 class="text-xl font-bold text-fg-strong">Upcoming Events</h2>
         <a
           href={`/${subsite}/events/`}
-          class="text-sm font-medium text-galaxy-primary hover:text-link-hover hover:underline hover:decoration-link-hover-line hover:decoration-2 transition-colors"
+          class="text-sm font-medium text-link hover:text-link-hover hover:underline hover:decoration-link-hover-line hover:decoration-2 transition-colors"
         >
           View all →
         </a>
       </div>
 
       {upcomingEvents.length === 0 ? (
-        <p class="text-chicago-500 italic">No upcoming events.</p>
+        <p class="text-fg-meta italic">No upcoming events.</p>
       ) : (
         <div class="space-y-3">
           {upcomingEvents.map((event) => <a
             href={`/${event.data.slug}/`}
-            class="group relative block overflow-hidden p-4 bg-white rounded-lg border border-galaxy-primary/10 shadow-sm hover:border-galaxy-primary/30 transition-all"
+            class="group relative block overflow-hidden p-4 bg-surface rounded-lg border border-galaxy-primary/10 shadow-sm hover:border-galaxy-primary/30 transition-all"
           >
             <span
               class="absolute left-0 top-0 bottom-0 w-1 bg-galaxy-gold transform origin-left scale-y-0 group-hover:scale-y-100 transition-transform duration-200"
             />
-            <h3 class="font-medium text-galaxy-dark group-hover:text-galaxy-primary transition-colors line-clamp-2">
+            <h3 class="font-medium text-fg-strong group-hover:text-link transition-colors line-clamp-2">
               {event.data.title}
             </h3>
             <p class="mt-1 text-sm">
@@ -59,28 +59,28 @@ const { subsite, title, description, upcomingEvents, subsiteNews, hasMainContent
 
     <section>
       <div class="flex items-center justify-between mb-4">
-        <h2 class="text-xl font-bold text-galaxy-dark">Recent News</h2>
+        <h2 class="text-xl font-bold text-fg-strong">Recent News</h2>
         <a
           href={`/${subsite}/news/`}
-          class="text-sm font-medium text-galaxy-primary hover:text-link-hover hover:underline hover:decoration-link-hover-line hover:decoration-2 transition-colors"
+          class="text-sm font-medium text-link hover:text-link-hover hover:underline hover:decoration-link-hover-line hover:decoration-2 transition-colors"
         >
           View all →
         </a>
       </div>
 
       {subsiteNews.length === 0 ? (
-        <p class="text-chicago-500 italic">No recent news.</p>
+        <p class="text-fg-meta italic">No recent news.</p>
       ) : (
         <div class="space-y-3">
           {subsiteNews.map((article) => <a
             href={`/${article.data.slug}/`}
-            class="group relative block overflow-hidden p-4 bg-white rounded-lg border border-galaxy-primary/10 shadow-sm hover:border-galaxy-primary/30 transition-all"
+            class="group relative block overflow-hidden p-4 bg-surface rounded-lg border border-galaxy-primary/10 shadow-sm hover:border-galaxy-primary/30 transition-all"
           >
             <span
               class="absolute left-0 top-0 bottom-0 w-1 bg-galaxy-gold transform origin-left scale-y-0 group-hover:scale-y-100 transition-transform duration-200"
             />
-            <div class="text-xs text-chicago-500 mb-1">{formatDate(article.data.date)}</div>
-            <h3 class="font-medium text-galaxy-dark group-hover:text-galaxy-primary transition-colors line-clamp-2">
+            <div class="text-xs text-fg-meta mb-1">{formatDate(article.data.date)}</div>
+            <h3 class="font-medium text-fg-strong group-hover:text-link transition-colors line-clamp-2">
               {article.data.title}
             </h3>
           </a>)}
@@ -89,48 +89,48 @@ const { subsite, title, description, upcomingEvents, subsiteNews, hasMainContent
     </section>
   </div>
 
-  <section class="mt-12 pt-8 border-t border-ebony-clay-100">
-    <h2 class="text-xl font-bold text-galaxy-dark mb-4">Quick Links</h2>
+  <section class="mt-12 pt-8 border-t border-line">
+    <h2 class="text-xl font-bold text-fg-strong mb-4">Quick Links</h2>
     <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
       <a
         href={`/${subsite}/events/`}
-        class="group relative overflow-hidden p-4 bg-white border border-galaxy-primary/10 rounded-lg shadow-sm hover:border-galaxy-primary/30 transition-colors"
+        class="group relative overflow-hidden p-4 bg-surface border border-galaxy-primary/10 rounded-lg shadow-sm hover:border-galaxy-primary/30 transition-colors"
       >
         <span
           class="absolute left-0 top-0 bottom-0 w-1 bg-galaxy-gold transform origin-left scale-y-0 group-hover:scale-y-100 transition-transform duration-200"
         ></span>
-        <h3 class="font-semibold text-galaxy-dark">Events</h3>
-        <p class="text-sm text-chicago-600">Browse all events</p>
+        <h3 class="font-semibold text-fg-strong">Events</h3>
+        <p class="text-sm text-fg-meta">Browse all events</p>
       </a>
       <a
         href={`/${subsite}/news/`}
-        class="group relative overflow-hidden p-4 bg-white border border-galaxy-primary/10 rounded-lg shadow-sm hover:border-galaxy-primary/30 transition-colors"
+        class="group relative overflow-hidden p-4 bg-surface border border-galaxy-primary/10 rounded-lg shadow-sm hover:border-galaxy-primary/30 transition-colors"
       >
         <span
           class="absolute left-0 top-0 bottom-0 w-1 bg-galaxy-gold transform origin-left scale-y-0 group-hover:scale-y-100 transition-transform duration-200"
         ></span>
-        <h3 class="font-semibold text-galaxy-dark">News</h3>
-        <p class="text-sm text-chicago-600">Read latest news</p>
+        <h3 class="font-semibold text-fg-strong">News</h3>
+        <p class="text-sm text-fg-meta">Read latest news</p>
       </a>
       <a
         href="/use/"
-        class="group relative overflow-hidden p-4 bg-white border border-galaxy-primary/10 rounded-lg shadow-sm hover:border-galaxy-primary/30 transition-colors"
+        class="group relative overflow-hidden p-4 bg-surface border border-galaxy-primary/10 rounded-lg shadow-sm hover:border-galaxy-primary/30 transition-colors"
       >
         <span
           class="absolute left-0 top-0 bottom-0 w-1 bg-galaxy-gold transform origin-left scale-y-0 group-hover:scale-y-100 transition-transform duration-200"
         ></span>
-        <h3 class="font-semibold text-galaxy-dark">Platforms</h3>
-        <p class="text-sm text-chicago-600">Find Galaxy servers</p>
+        <h3 class="font-semibold text-fg-strong">Platforms</h3>
+        <p class="text-sm text-fg-meta">Find Galaxy servers</p>
       </a>
       <a
         href="/community/"
-        class="group relative overflow-hidden p-4 bg-white border border-galaxy-primary/10 rounded-lg shadow-sm hover:border-galaxy-primary/30 transition-colors"
+        class="group relative overflow-hidden p-4 bg-surface border border-galaxy-primary/10 rounded-lg shadow-sm hover:border-galaxy-primary/30 transition-colors"
       >
         <span
           class="absolute left-0 top-0 bottom-0 w-1 bg-galaxy-gold transform origin-left scale-y-0 group-hover:scale-y-100 transition-transform duration-200"
         ></span>
-        <h3 class="font-semibold text-galaxy-dark">Community</h3>
-        <p class="text-sm text-chicago-600">Get involved</p>
+        <h3 class="font-semibold text-fg-strong">Community</h3>
+        <p class="text-sm text-fg-meta">Get involved</p>
       </a>
     </div>
   </section>
@@ -160,13 +160,13 @@ const { subsite, title, description, upcomingEvents, subsiteNews, hasMainContent
   }
 
   .subsite-inserts :global(a:not([class])) {
-    color: var(--color-galaxy-primary);
+    color: var(--color-link);
     text-decoration: underline;
     text-underline-offset: 2px;
   }
 
   .subsite-inserts :global(a:not([class]):hover) {
-    color: var(--color-galaxy-dark);
+    color: var(--color-fg-strong);
   }
 
   /* Override the harsh bg-secondary on info-box cards to use Galaxy branding */
