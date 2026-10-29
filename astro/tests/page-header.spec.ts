@@ -1,11 +1,12 @@
 import { test, expect, type Page } from '@playwright/test';
 
-// Reading pages (articles, news posts) use the compact page header: title on the
+// Reading pages (articles, news posts, events) use the compact page header: title on the
 // page surface, a hairline underneath with a 48px gold segment, no gradient. Listing and landing
 // pages keep the gradient hero.
 const compactPages = [
   { name: 'content page', path: '/community/' },
   { name: 'news post', path: '/news/2025-10-15-egd2025/' },
+  { name: 'event page', path: '/events/2025-admin-training-brno/' },
 ];
 
 const heroPages = [
@@ -62,6 +63,18 @@ for (const { name, path } of compactPages) {
     });
   });
 }
+
+test.describe('compact page header: event details', () => {
+  test('event page keeps date, duration and location in the header', async ({ page }) => {
+    await page.goto('/events/2025-admin-training-brno/');
+    const head = header(page);
+    await expect(head.getByText('Date', { exact: true })).toBeVisible();
+    await expect(head.locator('.gx-event-date time').first()).toHaveAttribute('datetime', '2025-11-24');
+    await expect(head.locator('.gx-event-date__dur')).toHaveText('5 days');
+    await expect(head.getByText('Location', { exact: true })).toBeVisible();
+    await expect(head.getByText('Brno, Czechia, Europe')).toBeVisible();
+  });
+});
 
 for (const { name, path } of heroPages) {
   test(`hero page header stays on the ${name}`, async ({ page }) => {

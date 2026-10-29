@@ -1,0 +1,80 @@
+---
+/**
+ * Event facts for the compact page header of event and conference pages: date (EventDate line with
+ * duration), location and contacts, each with a visible label.
+ */
+import EventDate from './EventDate.astro';
+import Icon from '../ui/Icon.astro';
+
+interface LocationData {
+  name?: string;
+  city?: string;
+  country?: string;
+}
+
+interface Contact {
+  name?: string;
+  email?: string;
+}
+
+interface Props {
+  date?: Date | string;
+  end?: Date | string;
+  location?: string | LocationData | null;
+  contacts?: Contact[];
+}
+
+const { date, end, location, contacts = [] } = Astro.props;
+
+function getLocationText(loc: string | LocationData | null | undefined): string {
+  if (!loc) return '';
+  if (typeof loc === 'string') return loc;
+  return [loc.name, loc.city, loc.country].filter(Boolean).join(', ');
+}
+
+const locationText = getLocationText(location);
+const contactText = contacts
+  .map((c) => c.name || c.email)
+  .filter(Boolean)
+  .join(', ');
+const labelClass = 'text-xs font-bold uppercase tracking-[0.06em] text-galaxy-grey';
+const valueClass = 'mt-1 flex items-start gap-1.5 text-galaxy-dark';
+---
+
+<dl class="event-header-meta mt-4 grid grid-cols-1 gap-x-6 gap-y-3 text-sm sm:grid-cols-2">
+  {date && <div>
+    <dt class={labelClass}>Date</dt>
+    <dd class="mt-1">
+      <EventDate start={date} end={end} format={{ short: false, weekday: true }} />
+    </dd>
+  </div>}
+
+  {locationText && <div>
+    <dt class={labelClass}>Location</dt>
+    <dd class={valueClass}>
+      <span class="event-header-meta__icon" aria-hidden="true"><Icon name="location" /></span>
+      <span>{locationText}</span>
+    </dd>
+  </div>}
+
+  {contactText && <div>
+    <dt class={labelClass}>Contact</dt>
+    <dd class={valueClass}>
+      <span class="event-header-meta__icon" aria-hidden="true"><Icon name="user" /></span>
+      <span>{contactText}</span>
+    </dd>
+  </div>}
+</dl>
+
+<style>
+  .event-header-meta__icon {
+    display: inline-flex;
+    flex: none;
+    margin-top: 0.125rem;
+  }
+
+  .event-header-meta__icon,
+  .event-header-meta :global(.gx-event-date__icon) {
+    color: var(--color-galaxy-primary);
+  }
+</style>
