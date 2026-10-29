@@ -63,10 +63,6 @@ watch(draft, (value) => {
 
 onUnmounted(() => clearTimeout(timer));
 
-// Solid 2px outline instead of the primitives' 50% ring (below 3:1 on white); outlines also show in forced colors
-const focusRing =
-  'focus-visible:ring-0 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-solid focus-visible:outline-galaxy-primary';
-
 const ALL = '__all__';
 const tagValue = computed(() => tag.value ?? ALL);
 
@@ -105,19 +101,14 @@ const countText = computed(() => {
           type="search"
           :placeholder="searchPlaceholder"
           autocomplete="off"
-          class="h-10 border-chicago-400"
-          :class="focusRing"
+          class="h-10"
         />
       </div>
 
       <div v-if="tagOptions.length > 0" class="min-w-0 sm:w-56">
         <span :id="tagLabelId" class="mb-1 block text-sm font-medium text-chicago-700">{{ tagLabel }}</span>
         <Select :model-value="tagValue" @update:model-value="onTagChange">
-          <SelectTrigger
-            :aria-labelledby="tagLabelId"
-            class="h-10 w-full border-chicago-400 data-[size=default]:h-10"
-            :class="focusRing"
-          >
+          <SelectTrigger :aria-labelledby="tagLabelId" class="h-10 w-full data-[size=default]:h-10">
             <SelectValue :placeholder="tagAllLabel" />
           </SelectTrigger>
           <SelectContent class="max-h-72">
@@ -129,14 +120,7 @@ const countText = computed(() => {
         </Select>
       </div>
 
-      <Button
-        v-if="hasFilters"
-        type="button"
-        variant="outline"
-        class="h-10 shrink-0"
-        :class="focusRing"
-        @click="clearAll"
-      >
+      <Button v-if="hasFilters" type="button" variant="outline" class="h-10 shrink-0" @click="clearAll">
         Clear filters
       </Button>
     </div>

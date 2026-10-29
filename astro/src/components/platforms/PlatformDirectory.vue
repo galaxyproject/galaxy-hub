@@ -404,7 +404,7 @@ function getHostname(url: string): string {
           <select
             id="platform-filter-type"
             v-model="selectedScope"
-            class="w-full h-10 rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
+            class="w-full h-10 rounded-md border border-line-input bg-background px-3 py-2 text-sm"
           >
             <option v-for="scope in scopes" :key="scope" :value="scope">
               {{ scope === 'all' ? 'All Types' : getScopeLabel(scope) }}
@@ -418,7 +418,7 @@ function getHostname(url: string): string {
           <select
             id="platform-filter-location"
             v-model="selectedLocation"
-            class="w-full h-10 rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
+            class="w-full h-10 rounded-md border border-line-input bg-background px-3 py-2 text-sm"
           >
             <option v-for="loc in locations" :key="loc" :value="loc">
               {{ loc === 'all' ? 'All Locations' : loc }}
@@ -432,7 +432,7 @@ function getHostname(url: string): string {
           <select
             id="platform-filter-platform"
             v-model="selectedPlatformGroup"
-            class="w-full h-10 rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
+            class="w-full h-10 rounded-md border border-line-input bg-background px-3 py-2 text-sm"
           >
             <option v-for="group in platformGroups" :key="group" :value="group">
               {{ group === 'all' ? 'All Platforms' : groupLabels[group] || group }}
