@@ -1,0 +1,62 @@
+---
+/**
+ * One event in a server-rendered list (DESIGN.md "List Rows"): title, the event date line with
+ * location and a Past badge, then an optional teaser and tags. The whole row is the link.
+ */
+import EventDate from '@/components/events/EventDate.astro';
+import ExternalIcon from '@/components/common/ExternalIcon.vue';
+import Icon from '@/components/mdx/Icon.astro';
+import type { DateFormatOptions } from '@/utils/dateUtils';
+import PastBadge from './PastBadge.astro';
+import './list-rows.css';
+
+interface Props {
+  href: string;
+  title: string;
+  start: Date | string | null | undefined;
+  end?: Date | string | null;
+  past?: boolean;
+  location?: string;
+  tease?: string | null;
+  tags?: string[];
+  externalUrl?: string;
+  format?: boolean | DateFormatOptions;
+  class?: string;
+  /** Hooks for page scripts, e.g. data-item on the tag pages. */
+  [attr: `data-${string}`]: unknown;
+}
+
+const {
+  href,
+  title,
+  start,
+  end,
+  past = false,
+  location,
+  tease,
+  tags = [],
+  externalUrl,
+  format,
+  class: className,
+  ...attrs
+} = Astro.props;
+---
+
+<a href={href} class:list={['gx-row', { 'gx-row--past': past }, className]} {...attrs}>
+  <h3 class="gx-row__title">
+    {title}
+    {externalUrl && <ExternalIcon href={externalUrl} />}
+  </h3>
+  <p class="gx-row__meta">
+    <EventDate start={start} end={end} format={format} past={past} />
+    {location && <span>
+      <span class="gx-row__icon" aria-hidden="true"><Icon name="map-pin" size={14} /></span>
+      {location}
+    </span>}
+    {past && <PastBadge />}
+  </p>
+  {tease && <p class="gx-row__teaser">{tease}</p>}
+  {tags.length > 0 && <span class="flex flex-wrap gap-1">
+    {tags.map((tag) => <span class="text-xs px-2 py-0.5 bg-ebony-clay-50 text-chicago-600 rounded">{tag}</span>)}
+  </span>}
+</a>

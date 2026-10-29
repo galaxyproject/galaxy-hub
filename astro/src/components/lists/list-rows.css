@@ -1,0 +1,157 @@
+/*
+ * List rows (DESIGN.md "List Rows"): flat rows split by a hairline, shared by the news, events,
+ * archive, tag and past-event lists. Prototype A styles.css .row/.row__* (566-598), .badge--past
+ * (620-623) and .year-sec__h (822-824). Plain CSS with token fallbacks, like event-date.css.
+ */
+.gx-row {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 14px 12px 14px 14px;
+  border-bottom: 1px solid var(--color-chicago-100, #e6e6e7);
+  color: var(--color-chicago-900, #3c3c3d);
+  text-decoration: none;
+  transition: background-color 0.15s;
+}
+
+/* This file is unlayered, so it would beat Tailwind's layered .hidden (tag pages hide rows past 20) */
+.gx-row.hidden {
+  display: none;
+}
+
+/* Gold bar on hover and keyboard focus, as in the prototype */
+.gx-row::before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 0;
+  width: 3px;
+  border-radius: 2px;
+  background: var(--color-galaxy-gold, #ffd700);
+  transform: scaleY(0);
+  transition: transform 0.2s;
+}
+
+.gx-row:hover {
+  background: var(--color-chicago-50, #f5f5f6);
+}
+
+.gx-row:hover::before,
+.gx-row:focus-within::before {
+  transform: scaleY(1);
+}
+
+.gx-row__title {
+  margin: 0;
+  color: var(--color-galaxy-dark, #2c3143);
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.gx-row--past .gx-row__title {
+  color: var(--color-chicago-900, #3c3c3d);
+}
+
+.gx-row:hover .gx-row__title {
+  text-decoration: underline;
+  text-decoration-color: var(--color-galaxy-gold, #ffd700);
+  text-decoration-thickness: 2px;
+}
+
+.gx-row__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2px 14px;
+  margin: 0;
+  color: var(--color-galaxy-grey, #58585a);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.gx-row__meta > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.gx-row__icon {
+  display: inline-flex;
+  color: var(--color-galaxy-primary, #25537b);
+}
+
+.gx-row__icon svg {
+  width: 14px;
+  height: 14px;
+}
+
+.gx-row__teaser {
+  display: -webkit-box;
+  margin: 0;
+  overflow: hidden;
+  color: var(--color-chicago-900, #3c3c3d);
+  font-size: 1rem;
+  line-height: 1.5rem;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.gx-badge-past {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  border: 1px solid var(--color-chicago-200, #d0d0d1);
+  border-radius: 9999px;
+  background: var(--color-chicago-50, #f5f5f6);
+  color: var(--color-chicago-700, #4f4e50);
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1rem;
+  white-space: nowrap;
+}
+
+.gx-badge-past__icon {
+  display: inline-flex;
+}
+
+.gx-badge-past svg {
+  width: 12px;
+  height: 12px;
+}
+
+.gx-year-head {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin: 28px 0 0;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--color-chicago-100, #e6e6e7);
+  color: var(--color-galaxy-dark, #2c3143);
+  font-size: 1.375rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.gx-year-head__count {
+  padding: 0 8px;
+  border-radius: 9999px;
+  background: var(--color-chicago-50, #f5f5f6);
+  color: var(--color-galaxy-grey, #58585a);
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+}
+
+@media (max-width: 639.98px) {
+  .gx-row {
+    padding: 12px 8px 12px 10px;
+  }
+
+  .gx-row__title {
+    font-size: 1rem;
+  }
+}
