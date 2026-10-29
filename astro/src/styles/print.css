@@ -95,9 +95,12 @@
     background: none !important;
   }
 
-  /* The 72ch screen measure would leave text short of tables on paper; use the page width. */
+  /* The 72ch screen measure (and the centred 72ch column of pages without a table of
+     contents) would leave text short of tables on paper; use the page width. */
   .prose-measure {
     --reading-measure: 100% !important;
+    max-width: none !important;
+    margin-inline: 0 !important;
   }
 
   /* Decorative page-background patterns waste ink and hurt text contrast. */

@@ -32,6 +32,12 @@ const gridClass = 'xl:grid xl:grid-cols-[minmax(0,var(--measure))_14rem] xl:just
 const mobileTocClass = 'toc-mobile xl:hidden mx-6 sm:mx-8 mt-6 border border-ebony-clay-100 rounded-lg';
 const summaryClass = 'px-4 py-3 cursor-pointer font-medium text-galaxy-primary hover:bg-ebony-clay-50 rounded-lg';
 const railClass = 'sticky top-6 max-h-[calc(100vh-3rem)] overflow-y-auto pt-0.5 pr-1 pb-4 pl-0.5';
+// Without a rail the whole column is 72ch and centred, so no empty strip opens on the right.
+const proseClass = [
+  'prose prose-compact prose-galaxy min-w-0',
+  measure && 'prose-measure',
+  measure && !showToc ? 'mx-auto max-w-measure' : 'max-w-none',
+];
 ---
 
 {/* Below xl: collapsible block above the text (its summary names it, so no inner title) */}
@@ -44,7 +50,7 @@ const railClass = 'sticky top-6 max-h-[calc(100vh-3rem)] overflow-y-auto pt-0.5 
 
 <div class:list={['content-with-toc px-6 sm:px-8 pt-6', showToc && gridClass]}>
   {/* Main Content */}
-  <div class:list={['prose prose-compact prose-galaxy max-w-none min-w-0', measure && 'prose-measure']}>
+  <div class:list={proseClass}>
     <slot />
   </div>
 
