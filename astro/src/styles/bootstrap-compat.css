@@ -373,8 +373,7 @@
 }
 
 /* Bootstrap .table within .prose should preserve inline styles (statistics/citations page) */
-.prose .bs-compat.table th,
-.prose .bs-compat.table td {
+.prose .bs-compat.table :is(th, td):not([style*='background'], [bgcolor]) {
   background-color: inherit;
   color: inherit;
 }
