@@ -95,6 +95,11 @@ export function projectLinks(contextId: string): { label: string; href: string }
   return PROJECT_CONTEXTS.find((entry) => entry.id === contextId)?.links ?? [];
 }
 
+/** Ids of the projects with their own section under /projects/<id>/. */
+export function projectContextIds(): string[] {
+  return PROJECT_CONTEXTS.map((entry) => entry.id);
+}
+
 /** The sidebar persists across navigation only while the context stays the same. */
 export function contextPersistKey(path: string): string {
   return `sidebar-${contextFromPath(path).id}`;
