@@ -142,7 +142,7 @@ function getContinentLabel(continent: string | undefined): string {
                     getLocationName(career.data.location)
                   )}
                 </span>}
-                {career.data.continent && <span class="text-chicago-400"
+                {career.data.continent && <span class="text-fg-meta"
                   >({getContinentLabel(career.data.continent)})</span
                 >}
               </CardDescription>
@@ -179,7 +179,7 @@ function getContinentLabel(continent: string | undefined): string {
           {closedPositions.map((career) => <div
             class="flex flex-wrap items-center gap-3 p-3 bg-ebony-clay-50 rounded-lg border border-ebony-clay-100"
           >
-            <span class="text-sm text-chicago-400 whitespace-nowrap min-w-20">
+            <span class="text-sm text-fg-meta whitespace-nowrap min-w-20">
               {formatDate(career.data.closes)}
             </span>
             <a
@@ -190,7 +190,7 @@ function getContinentLabel(continent: string | undefined): string {
             >
               {career.data.title}
             </a>
-            {getLocationName(career.data.location) && <span class="text-sm text-chicago-400 hidden sm:inline"
+            {getLocationName(career.data.location) && <span class="text-sm text-fg-meta hidden sm:inline"
               >{getLocationName(career.data.location)}</span
             >}
           </div>)}
