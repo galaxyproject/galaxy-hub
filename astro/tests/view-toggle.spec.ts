@@ -232,7 +232,8 @@ test.describe('View toggle on events', () => {
   test('view is written after the year', async ({ page }) => {
     await openEvents(page);
     await page
-      .locator('section:has-text("Past Events") button', { hasText: /^\s*\d{4}/ })
+      .getByRole('group', { name: 'Filter events by year' })
+      .getByRole('button', { name: /^\d{4}/ })
       .nth(1)
       .click();
     await button(page, group, 'Tiles').click();

@@ -28,7 +28,11 @@ test.describe('Year filters are routable', () => {
   test('events past year filter updates URL and results', async ({ page }) => {
     await page.goto('/events/');
 
-    const pastYearButton = page.locator('section:has-text("Past Events") button', { hasText: /\d{4}/ }).first();
+    const pastYearButton = page
+      .getByRole('group', { name: 'Filter events by year' })
+      .getByRole('button', { name: /^\d{4}/ })
+      // The newest chip can be a year with upcoming events only
+      .nth(1);
     const label = (await pastYearButton.textContent()) || '';
     const match = label.match(/(\d{4})/);
     expect(match).not.toBeNull();

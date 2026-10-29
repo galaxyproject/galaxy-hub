@@ -1,5 +1,6 @@
 ---
 import { getListedCollection } from '../../utils/content';
+import { eventTags } from '../../utils/eventFilters';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHeader from '../../components/layout/PageHeader.astro';
 import EventsList from '../../components/events/EventsList.vue';
@@ -14,8 +15,10 @@ const eventData = events.map((e) => ({
   title: e.data.title || 'Untitled Event',
   date: e.data.date instanceof Date ? e.data.date.toISOString() : e.data.date,
   end: e.data.end instanceof Date ? e.data.end?.toISOString() : e.data.end,
+  tease: e.data.tease,
   teaseHtml: renderMarkdownInline(e.data.tease),
   location: e.data.location,
+  tags: eventTags(e.data.tags),
   subsites: e.data.subsites,
   externalUrl: e.data.external_url,
 }));

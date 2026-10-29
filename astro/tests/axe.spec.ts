@@ -6,13 +6,13 @@ import { AxeBuilder } from '@axe-core/playwright';
 // The chrome itself is scanned once per viewport on chromePage.
 //
 // A new news post or event, or the date moving on, does not change what the scans see. The news
-// and events listings open a past year from the "Older..." dropdown, so their items stay the same
-// (the recent-year chips and their counts still change; on the events view their only violation
-// is masked).
+// and events listings open a past year that sits in the "Older years" select (?year=2020), so their
+// items stay the same (the recent-year chips and their counts still change).
 // Regions that list the latest news, upcoming events or ESG news and past events are excluded, and
 // each must match exactly `count` elements, so a renamed hook fails instead of letting live content
 // back into the scan. News teasers, tags and dates are covered on the news year view, past event
-// items on the events year view. Upcoming event cards on /events/ and the item lists on the home
+// items on the events year view. On that view the year filter also empties the upcoming list, so
+// its region is the "No upcoming events" notice; upcoming event cards and the item lists on the home
 // page, bare feed cards, embed overview and ESG page are not scanned; the rest of those pages is.
 // Edits to a scanned page or its inserts, and new platforms on /use/, are still checked on purpose.
 const fixedYear = 2020;
@@ -86,7 +86,7 @@ const pages: ScanTarget[] = [
           page
             .locator('section')
             .filter({ has: page.getByRole('heading', { name: /^Upcoming Events/ }) })
-            .or(page.getByText('No upcoming events for this subsite.')),
+            .or(page.getByText(/^No upcoming events/)),
       },
     ],
   },
@@ -123,9 +123,6 @@ const knownIssues: Record<string, Record<string, KnownIssue>> = {
         'sidebar and footer text-chicago-400 on #2c3143 is 3.59:1 (SidebarNav.vue, SubsiteSwitcher.vue, Sidebar.astro, BaseLayout.astro); mobile shows only the footer',
       viewports: both,
     },
-  },
-  [`/events/?year=${fixedYear}`]: {
-    'color-contrast': { reason: 'year button counts opacity-75 are 3.64:1 (EventsList.vue)', viewports: both },
   },
 };
 
