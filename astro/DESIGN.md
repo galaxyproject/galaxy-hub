@@ -310,11 +310,13 @@ News and event listing pages (news, events, archives, webinars and the other tag
 News and event lists (news, events, region events and archives, the events archive, webinars and the other tag lists, tag pages) share one flat row from prototype A (`.row` in `prototypes/A/styles.css`): no card, background, radius or gap; a 1px `chicago-100` hairline under each row; 14px padding (12px on phones). Tiles keep their cards.
 
 ```astro
-<EventRow href={url} title={title} start={date} end={end} location={place} tease={tease} past />
+<ol class="gx-lrows">
+  <EventRow href={url} title={title} start={date} end={end} location={place} tease={tease} past />
+</ol>
 ```
 
-- Styles: `components/lists/list-rows.css` (plain CSS with token fallbacks, like `event-date.css`): `.gx-lrow`, `.gx-lrow--past`, `.gx-lrow__title` (18px bold `galaxy-dark`, 16px on phones; past rows `chicago-900`), `.gx-lrow__meta` (14px `galaxy-grey`: the event date line or news date, location, badge), `.gx-lrow__teaser` (16px `chicago-900`, two lines), `.gx-badge-past`, `.gx-year-head`.
-- `EventRow.astro` renders one server-side event row (the whole row is the link); `NewsList` and `EventsList` apply the same classes in rows view. `PastBadge.astro` / `PastBadge.vue`: 12px clock icon and "Past" (`chicago-700` on `chicago-50`, `chicago-200` border, 7.9:1) on every past event row.
+- Styles: `components/lists/list-rows.css` (plain CSS with token fallbacks, like `event-date.css`): `.gx-lrows` (the `ol`), `.gx-lrow` (the `li`), `.gx-lrow__link`, `.gx-lrow--past`, `.gx-lrow__title` (18px bold `galaxy-dark`, 16px on phones; past rows `chicago-900`), `.gx-lrow__meta` (14px `galaxy-grey`: the event date line or news date, location, badge), `.gx-lrow__teaser` (16px `chicago-900`, two lines), `.gx-lrow__raised`, `.gx-badge-past`, `.gx-year-head`. The `gx-lrow` prefix keeps clear of `.gx-row` in the agentic stack.
+- Markup: `ol.gx-lrows > li.gx-lrow > h3 > a.gx-lrow__link`. The title link stretches over the row (`::after`, `inset: 0`), so the whole row is clickable and the link name is the title alone. Tags and any other links sit above it (`z-index: 2`). Keyboard focus outlines the row (2px `galaxy-primary`, offset -2px). `EventRow.astro` renders one server-side event row; `NewsList` and `EventsList` use the same markup in rows view, and their tiles use the same stretched link inside the card. The Past badge and the location line are rows-only. `PastBadge.astro` / `PastBadge.vue`: 12px clock icon and "Past" (`chicago-700` on `chicago-50`, `chicago-200` border, 7.9:1) on every past event row.
 - Hover: `chicago-50` fill, a 3px gold bar on the left (also on keyboard focus) and a gold title underline.
 - Archive years: `.gx-year-head` is a 22px heading with a count pill and a hairline under it, not a sticky boxed bar.
 - Role tokens: the row uses palette tokens (`chicago-*`, `galaxy-*`) until the role tokens land; then the hairline maps to the line role, meta to the meta role and the hover fill to the subtle surface.
