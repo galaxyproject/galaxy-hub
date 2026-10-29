@@ -120,14 +120,39 @@ test.describe('ESG project pages', () => {
     ).toBeVisible();
   });
 
-  test('section pages keep the status next to the project name', async ({ page }) => {
+  test('section pages show the status after the title and no project link in the header', async ({ page }) => {
+    await page.setViewportSize({ width: 1440, height: 900 });
     await page.goto('/projects/esg/events/');
-    await expect(page.locator('.project-head [data-project-status="ended"]')).toHaveText('Ended · Aug 2025');
-    await expect(page.locator('.project-head').getByRole('link', { name: 'EuroScienceGateway' })).toHaveAttribute(
-      'href',
-      '/projects/esg/'
-    );
+    const head = page.locator('.project-head');
+    const badge = head.locator('[data-project-status="ended"]');
+    await expect(badge).toHaveText('Ended · Aug 2025');
+    // Badge sits on the title line, right of the h1
+    const h1 = (await head.locator('h1').boundingBox())!;
+    const pill = (await badge.boundingBox())!;
+    expect(pill.x).toBeGreaterThan(h1.x + h1.width - 1);
+    expect(Math.abs(pill.y + pill.height / 2 - (h1.y + h1.height / 2))).toBeLessThan(h1.height / 2);
+    await expect(head.getByRole('link')).toHaveCount(0);
+    await expect(
+      page.getByRole('navigation', { name: 'Breadcrumb' }).getByRole('link', { name: 'EuroScienceGateway' })
+    ).toHaveAttribute('href', '/projects/esg/');
   });
+
+  for (const { path, parent, href } of [
+    { path: '/projects/esg/news/', parent: 'EuroScienceGateway', href: '/projects/esg/' },
+    { path: '/projects/esg/', parent: 'Galaxy Project', href: '/' },
+  ]) {
+    test(`${path} breadcrumbs collapse to a back link on phones`, async ({ page }) => {
+      await page.setViewportSize({ width: 390, height: 844 });
+      await page.goto(path);
+      const crumbs = page.getByRole('navigation', { name: 'Breadcrumb' });
+      await expect(crumbs.locator('ol')).toBeHidden();
+      await expect(crumbs.getByRole('link')).toHaveCount(1);
+      await expect(crumbs.getByRole('link')).toHaveText(new RegExp(`^\\s*‹\\s*${parent}\\s*$`));
+      await expect(crumbs.getByRole('link')).toHaveAttribute('href', href);
+      // One line, no wrapping
+      expect((await crumbs.boundingBox())!.height).toBeLessThanOrEqual(40);
+    });
+  }
 
   for (const path of pages.map((p) => p.path)) {
     test(`${path} ends with the EU funding acknowledgement`, async ({ page }) => {

@@ -2,7 +2,7 @@
 /**
  * Top of a project page: breadcrumbs, the project band (eyebrow, title, status badge, lead, logo)
  * and the section tabs. Section pages (News, Past events) pass `title` and get a compact header
- * instead of the band: project name and status above the page title. Tabs are links with
+ * instead of the band: the page title with the status badge after it (the breadcrumb links the project). Tabs are links with
  * aria-current, not ARIA tabs: each one is its own page. The tab links come from siteContext.ts,
  * the same list the sidebar's project group shows.
  */
@@ -46,15 +46,13 @@ const crumbs = [
 
   {title ? (
     <header class="project-head">
-      <p class="project-head__context">
-        <span class="project-head__icon" aria-hidden="true"><Icon name="layers" size={16} /></span>
-        <a href={projectHref}>{name}</a>
+      <div class="project-head__titlerow">
+        <h1 id="page-title">{title}</h1>
         {badge && <span class="project-head__badge" data-project-status={status}>
           {ended && <span aria-hidden="true"><Icon name="archive" size={12} /></span>}
           {badge}
         </span>}
-      </p>
-      <h1 id="page-title">{title}</h1>
+      </div>
       {lead && <p class="project-head__lead">{lead}</p>}
     </header>
   ) : (
@@ -188,31 +186,11 @@ const crumbs = [
     opacity: 0.95;
   }
 
-  .project-head__context {
+  .project-head__titlerow {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 6px 8px;
-    margin: 0 0 6px;
-    font-size: 0.875rem;
-    font-weight: 700;
-    color: var(--color-galaxy-grey);
-  }
-
-  .project-head__context a {
-    color: var(--color-galaxy-grey);
-    text-decoration: underline;
-    text-underline-offset: 2px;
-  }
-
-  .project-head__context a:hover {
-    color: var(--color-galaxy-primary);
-    text-decoration-color: var(--color-galaxy-gold);
-  }
-
-  .project-head__icon {
-    display: inline-flex;
-    color: var(--color-galaxy-primary);
+    gap: 6px 12px;
   }
 
   .project-head__badge {
