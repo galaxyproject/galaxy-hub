@@ -55,7 +55,7 @@ New page code uses **role tokens**: they name what a colour is for, carry a ligh
 | Brand text: tags, type badges | `text-fg-brand` | `#1f4465` | `#bfdaf4` | 9.13 / 10.74 on `surface-tint` |
 | Link | `text-link`, `decoration-link-line` | `#25537b` galaxy-primary | `#8cbbe9` | 8.07 / 9.12 |
 | Link hover | `text-link-hover`, `decoration-link-hover-line` | `#1f4465`, gold-600 `#d19e00` underline | `#bfdaf4`, gold underline | 10.13 / 12.77 |
-| Page, surface | `bg-page`, `bg-surface` | `#ffffff` | `#121419` | Today the content area is still `bg-light-bg` `#edf4fa` under white cards (§6); the flat white page of the redesign comes with the shell changes and will use `bg-page`. |
+| Page, surface | `bg-page`, `bg-surface` | `#ffffff` | `#121419` | The content area is `bg-page`; reading text and lists sit flat on it, with no card around them (§6). |
 | Surface 2: row hover, panels | `bg-surface-2` | `#f6f9fc` | `#171a21` | |
 | Raised: cards, inputs | `bg-surface-raised` | `#ffffff` | `#1b1e27` | |
 | Overlay: menus, popovers | `bg-surface-overlay` | `#ffffff` | `#232734` | |
@@ -674,8 +674,8 @@ Don't reach for `rounded-xl` / `rounded-2xl` -- we don't use them.
 ```
 
 - **Sidebar**: `w-64` (256px), fixed left, `bg-galaxy-dark`, hidden below `lg` (1024px)
-- **Content area**: Flex, fills remaining width, `bg-light-bg` page background
-- **Content cards**: White background, `rounded-lg`, `shadow-sm`, sitting on the light-bg
+- **Content area**: Flex, fills remaining width, flat `bg-page` background (white)
+- **Reading surface**: articles and list pages sit flat on the page; cards (`rounded-lg`, `shadow-sm`, a border) are for real cards only, never a box around a whole page's text
 
 ### Section Rhythm (Homepage / Landing Pages)
 
@@ -700,8 +700,8 @@ The Hub uses a layered depth model rather than heavy shadow stacking:
 | Level | Treatment | Usage |
 |-------|-----------|-------|
 | Ground | `bg-galaxy-dark` (sidebar, headers) | Structural chrome, deepest layer |
-| Page | `bg-light-bg` (#edf4fa) | Page background, sits above the dark frame. The redesign moves to a flat white page (`bg-page`, §2) with the shell changes |
-| Surface | `bg-white rounded-lg shadow-sm` | Content cards, the primary reading surface |
+| Page | `bg-page` (white) | Page background beside the dark frame; the reading surface, flat |
+| Surface | `bg-surface-raised rounded-lg shadow-sm` + border | Cards only (news and event tiles, platform cards); never a card inside a card |
 | Elevated | `bg-white rounded-lg shadow-md` | Cards on dark backgrounds (hero sections) |
 | Overlay | `shadow-lg` on sheets/modals | Sheets, dialogs -- UI overlays only |
 
