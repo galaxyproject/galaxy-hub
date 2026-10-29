@@ -148,6 +148,17 @@ test.describe('Reading grid at 1440px', () => {
     expect(Math.abs(headingBox!.x - gridBox!.x), 'heading starts where the grid starts').toBeLessThan(1);
   });
 
+  test('without a rail, text lines up with an embed wrapped in a div', async ({ page }) => {
+    await page.goto('/events/2021-05-27-dev-roundtable/');
+    await expect(page.locator('.toc-sidebar')).toHaveCount(0);
+    const prose = page.locator('.prose-galaxy').first();
+    const iframe = prose.locator(':scope > div > iframe').first();
+    const iframeBox = await iframe.boundingBox();
+    expect(iframeBox, 'the page needs a wrapped iframe').not.toBeNull();
+    const textBox = (await longParagraph(prose, 80).boundingBox())!;
+    expect(Math.abs(textBox.x - iframeBox!.x), 'text starts where the embed starts').toBeLessThan(1);
+  });
+
   test('a centred conference intro stays centred in the content column', async ({ page }) => {
     await page.goto(CENTRED_EVENT);
     const prose = page.locator('.prose-galaxy').first();
