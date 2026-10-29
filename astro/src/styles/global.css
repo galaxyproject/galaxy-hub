@@ -386,8 +386,8 @@ body {
 
 /* Galaxy-branded prose styles */
 .prose {
-  --tw-prose-links: #25537b;
-  --tw-prose-headings: #2c3143;
+  --tw-prose-links: var(--gx-link);
+  --tw-prose-headings: var(--gx-fg-strong);
   overflow-wrap: break-word;
 }
 
@@ -410,17 +410,19 @@ body {
 .prose a {
   color: var(--tw-prose-links);
   text-decoration: underline;
-  text-decoration-color: color-mix(in srgb, var(--tw-prose-links) 40%, transparent);
+  text-decoration-color: var(--gx-link-line);
   text-underline-offset: 2px;
   transition:
     text-decoration-color 0.15s ease-in-out,
     color 0.15s ease-in-out;
 }
 
+/* Darker blue text plus a gold underline: gold text on white is 1.40:1. */
 .prose a:hover {
-  color: #ffd700;
+  color: var(--gx-link-hover);
   text-decoration: underline;
-  text-decoration-color: #ffd700;
+  text-decoration-color: var(--gx-link-hover-line);
+  text-decoration-thickness: 2px;
 }
 
 .prose a:has(> img) {
@@ -771,7 +773,7 @@ a.gx-tile--link:hover .gx-tile__more {
   opacity: 0;
   text-decoration: none;
   font-weight: 400;
-  color: #25537b;
+  color: var(--gx-link);
   margin-left: 0.5rem;
   transition: opacity 0.15s ease-in-out;
 }
@@ -785,8 +787,10 @@ a.gx-tile--link:hover .gx-tile__more {
 }
 
 .heading-anchor:hover {
-  color: #ffd700;
-  text-decoration: none;
+  color: var(--gx-link-hover);
+  text-decoration: underline;
+  text-decoration-color: var(--gx-link-hover-line);
+  text-decoration-thickness: 2px;
 }
 
 /* Tool list styling - renders Markdown links as badges */
