@@ -1,13 +1,10 @@
 ---
 title: Get Started
+tease: "This page will be your starting point for Galaxy, the go-to place when you need to refresh your knowledge once you have already gotten to know more about the Community."
 components: true
 ---
 
 <img class="img-fluid float-right" src="/images/undraw-illustrations/get-started.svg" style="width:200px;" alt="community events" />
-
-# Welcome!
-
-This page will be your starting point for Galaxy, the go-to place when you need to refresh your knowledge once you have already gotten to know more about the Community.
 
 Below you will find a __step-by-step suggested pathway__ for you to follow as a newcomer, a student, an expert or just about anybody interested in using Galaxy.
 
