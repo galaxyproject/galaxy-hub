@@ -1,4 +1,25 @@
-import { test, expect } from '@playwright/test';
+import { test, expect, type Locator, type Page } from '@playwright/test';
+
+const waitForCitations = (page: Page) =>
+  expect(page.locator('astro-island:has(.citation-filters)')).not.toHaveAttribute('ssr', { timeout: 60_000 });
+
+// The first year chip after "All years"
+const firstYearChip = (page: Page, noun: string) =>
+  page
+    .getByRole('group', { name: `Filter ${noun} by year` })
+    .getByRole('button', { name: /^\d{4}/ })
+    .first();
+
+const chipYear = async (chip: Locator) => ((await chip.textContent()) || '').match(/\d{4}/)?.[0] ?? '';
+
+const shownYears = async (page: Page) =>
+  [
+    ...new Set(
+      await page
+        .locator('article[data-citation-year]:not(.hidden)')
+        .evaluateAll((els) => els.map((el) => el.getAttribute('data-citation-year')))
+    ),
+  ].sort();
 
 test.describe('Subsite citations', () => {
   test('eu citations render entries', async ({ page }) => {
@@ -13,24 +34,19 @@ test.describe('Subsite citations', () => {
 
   test('year filter narrows visible citations', async ({ page }) => {
     await page.goto('/eu/citations/');
-    const yearButton = page.locator('[data-year-button]').nth(1); // first actual year after "All"
-    const year = await yearButton.getAttribute('data-year');
+    await waitForCitations(page);
+    const yearButton = firstYearChip(page, 'citations');
+    const year = await chipYear(yearButton);
 
     expect(year).toBeTruthy();
     await yearButton.click();
 
-    await expect
-      .poll(async () => {
-        const visibleYears = await page.$$eval('article', (els) =>
-          els.filter((el) => !el.classList.contains('hidden')).map((el) => el.getAttribute('data-citation-year'))
-        );
-        return [...new Set(visibleYears)].sort();
-      })
-      .toEqual([year]);
+    await expect.poll(() => shownYears(page)).toEqual([year]);
   });
 
   test('year filter works after a client-side visit to another citations page', async ({ page }) => {
     await page.goto('/eu/citations/');
+    await waitForCitations(page);
     // A real anchor click goes through the ClientRouter, which runs the page script only once
     await page.evaluate(() => {
       const link = document.createElement('a');
@@ -42,20 +58,14 @@ test.describe('Subsite citations', () => {
     });
     await page.locator('#test-citations-link').click();
     await expect(page.locator('h1')).toHaveText('ELIXIR-IT Citations');
+    await waitForCitations(page);
 
-    const yearButton = page.locator('[data-year-button]').nth(1);
-    const year = await yearButton.getAttribute('data-year');
+    const yearButton = firstYearChip(page, 'citations');
+    const year = await chipYear(yearButton);
     await yearButton.click();
     await expect(page).toHaveURL(new RegExp(`/elixir-it/citations/\\?year=${year}$`));
     await expect(yearButton).toHaveAttribute('aria-pressed', 'true');
-    await expect
-      .poll(async () => {
-        const visibleYears = await page.$$eval('article', (els) =>
-          els.filter((el) => !el.classList.contains('hidden')).map((el) => el.getAttribute('data-citation-year'))
-        );
-        return [...new Set(visibleYears)];
-      })
-      .toEqual([year]);
+    await expect.poll(() => shownYears(page)).toEqual([year]);
   });
 
   test('elixir-it citations render entries', async ({ page }) => {
@@ -118,7 +128,7 @@ test.describe('Freiburg publications', () => {
     ).toBeVisible();
     await expect(page.getByText(/cited the Freiburg/i)).toHaveCount(0);
     await expect(page.locator('article').first()).toBeVisible();
-    await expect(page.locator('[data-filter-count]')).toHaveText(/^Showing \d+ publications$/);
+    await expect(page.locator('[data-filter-count]')).toHaveText(/^\d+ publications$/);
   });
 
   test('old citations url redirects to publications', async ({ page }) => {

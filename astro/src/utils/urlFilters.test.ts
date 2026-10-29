@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it, vi } from 'vitest';
-import { buildSearch, onPopState, parseParams, readParams, writeParams } from './urlFilters';
+import { buildSearch, isOnPage, onPopState, parseParams, parseYearParam, readParams, writeParams } from './urlFilters';
 
 describe('parseParams', () => {
   it('returns values for managed keys and defaults for missing or empty ones', () => {
@@ -12,6 +12,23 @@ describe('parseParams', () => {
 
   it('decodes encoded values', () => {
     expect(parseParams('?q=single%20cell+rna', { q: null })).toEqual({ q: 'single cell rna' });
+  });
+});
+
+describe('parseYearParam', () => {
+  it('reads a four-digit year', () => {
+    expect(parseYearParam('2024')).toBe(2024);
+  });
+
+  it('reads unknown, in any case, for entries without a year', () => {
+    expect(parseYearParam('unknown')).toBe('unknown');
+    expect(parseYearParam('Unknown')).toBe('unknown');
+  });
+
+  it('returns null for a missing, empty or non-year value', () => {
+    for (const value of [null, '', 'all', 'unknownx', '20x4', '2024.5', '-2024', '99999']) {
+      expect(parseYearParam(value)).toBeNull();
+    }
   });
 });
 
@@ -91,6 +108,22 @@ describe('browser wrappers', () => {
     expect(win.history.replaceState).not.toHaveBeenCalled();
   });
 
+  it('isOnPage compares the current pathname', () => {
+    stubWindow('https://hub.test/us/citations/?year=2024');
+    expect(isOnPage('/us/citations/')).toBe(true);
+    expect(isOnPage('/us/citations')).toBe(true);
+    expect(isOnPage('/us/')).toBe(false);
+    expect(isOnPage('/us/citations/index.html')).toBe(true);
+    // A late island mount after back/forward already moved the URL to another page
+    expect(isOnPage('/news/')).toBe(false);
+  });
+
+  it('isOnPage treats a trailing index.html in the URL as the directory', () => {
+    stubWindow('https://hub.test/us/citations/index.html?year=2024');
+    expect(isOnPage('/us/citations/')).toBe(true);
+    expect(isOnPage('/us/')).toBe(false);
+  });
+
   it('onPopState subscribes and unsubscribes', () => {
     const win = stubWindow('https://hub.test/news/');
     const cb = vi.fn();
@@ -123,5 +156,6 @@ describe('outside the browser', () => {
     expect(readParams({ year: null, tab: 'hub' })).toEqual({ year: null, tab: 'hub' });
     expect(writeParams({ year: 2024 })).toBe(false);
     expect(onPopState(() => {})).toBeTypeOf('function');
+    expect(isOnPage('/news/')).toBe(false);
   });
 });

@@ -4,7 +4,7 @@ import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { renderMarkdownInline } from '@/utils/markdown';
-import { onPopState, readParams, writeParams } from '@/utils/urlFilters';
+import { isOnPage, onPopState, readParams, writeParams } from '@/utils/urlFilters';
 
 interface Platform {
   slug: string;
@@ -35,10 +35,13 @@ const props = withDefaults(
     // name -> platform slugs that provide that tool / reference (genome)
     toolIndex?: Record<string, string[]>;
     referenceIndex?: Record<string, string[]>;
+    /** Pathname of the page the directory is on; the URL is only read and written while it matches. */
+    path?: string;
   }>(),
   {
     toolIndex: () => ({}),
     referenceIndex: () => ({}),
+    path: '/use/',
   }
 );
 
@@ -226,6 +229,7 @@ const filteredPlatforms = computed(() => {
 
 function clearFilters() {
   searchQuery.value = '';
+  urlQuery.value = '';
   showAutocomplete.value = false;
   selectedSuggestionIndex.value = -1;
   selectedScope.value = 'all';
@@ -275,31 +279,65 @@ function closeAutocomplete() {
   }, 150);
 }
 
-// URL params: `scope` and `platform_group` (plural slug; singular slugs are accepted on read)
-const FILTER_PARAMS = { scope: 'all', platform_group: null };
+// URL params, in this order: `q`, `region` (the Location select), `scope` and `platform_group`
+// (plural slug; singular slugs are accepted on read)
+const FILTER_PARAMS = { q: null, region: 'all', scope: 'all', platform_group: null };
+const QUERY_DEBOUNCE_MS = 250;
+
+// The list filters as you type; the URL follows the query once typing pauses
+const urlQuery = ref('');
+let queryTimer: ReturnType<typeof setTimeout> | undefined;
 
 function applyUrlFilters() {
-  const { scope, platform_group: groupSlug } = readParams(FILTER_PARAMS);
+  const { q, region, scope, platform_group: groupSlug } = readParams(FILTER_PARAMS);
+  const query = q ?? '';
+  // A query restored from the URL must not open the suggestions
+  if (query !== searchQuery.value) suppressAutocomplete.value = true;
+  searchQuery.value = query;
+  urlQuery.value = query;
+  selectedLocation.value = region && locations.value.includes(region) ? region : 'all';
   selectedPlatformGroup.value = (groupSlug && urlSlugToGroup[groupSlug]) || 'all';
   selectedScope.value = scope && scopes.value.includes(scope) ? scope : 'all';
+  // The state may not change (e.g. `?region=XX` -> all), so drop what was not applied here
+  writeUrl();
+}
+
+function writeUrl() {
+  const group = selectedPlatformGroup.value;
+  writeParams(
+    {
+      q: urlQuery.value,
+      region: selectedLocation.value,
+      scope: selectedScope.value,
+      platform_group: group === 'all' ? null : groupToUrlSlug[group] || group,
+    },
+    { defaults: FILTER_PARAMS }
+  );
 }
 
 let stopPopState = () => {};
 
 onMounted(() => {
+  // Mounted after back/forward already left this page: leave the other page's URL alone
+  if (!isOnPage(props.path)) return;
   applyUrlFilters();
   // Back/forward restores the filters from the URL
   stopPopState = onPopState(applyUrlFilters);
 });
 
-onUnmounted(() => stopPopState());
-
-watch([selectedScope, selectedPlatformGroup], ([scope, group]) => {
-  writeParams(
-    { scope, platform_group: group === 'all' ? null : groupToUrlSlug[group] || group },
-    { defaults: FILTER_PARAMS }
-  );
+onUnmounted(() => {
+  stopPopState();
+  clearTimeout(queryTimer);
 });
+
+watch(searchQuery, (value) => {
+  clearTimeout(queryTimer);
+  queryTimer = setTimeout(() => {
+    urlQuery.value = value.trim();
+  }, QUERY_DEBOUNCE_MS);
+});
+
+watch([urlQuery, selectedLocation, selectedScope, selectedPlatformGroup], writeUrl);
 
 watch(searchQuery, () => {
   // Runs after v-model updates, so filteredSuggestions is current here.

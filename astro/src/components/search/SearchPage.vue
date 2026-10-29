@@ -7,15 +7,19 @@ import HubSearch from './HubSearch.vue';
 import PanGalacticSearch from './PanGalacticSearch.vue';
 import PublicationSearch from './PublicationSearch.vue';
 
-const FILTER_PARAMS = { q: null, tab: 'hub' };
+// URL params, in this order: q, type (Hub Search content type), tab
+const FILTER_PARAMS = { q: null, type: 'all', tab: 'hub' };
 const TABS = ['hub', 'google', 'publications'];
 
 const searchQuery = ref('');
+const contentType = ref('all');
 const activeTab = ref('hub');
 
 function applyUrlParams() {
-  const { q, tab } = readParams(FILTER_PARAMS);
+  const { q, type, tab } = readParams(FILTER_PARAMS);
   searchQuery.value = q ?? '';
+  // HubSearch drops a type its index does not have, once the index has loaded
+  contentType.value = type ?? 'all';
   activeTab.value = tab && TABS.includes(tab) ? tab : 'hub';
 }
 
@@ -29,9 +33,12 @@ onMounted(() => {
 
 onUnmounted(() => stopPopState());
 
-watch([searchQuery, activeTab], ([q, tab]) => {
-  writeParams({ q, tab }, { defaults: FILTER_PARAMS });
+watch([searchQuery, contentType, activeTab], ([q, type, tab]) => {
+  writeParams({ q, type, tab }, { defaults: FILTER_PARAMS });
 });
+
+const tabClass =
+  'min-h-11 h-auto flex-auto sm:min-h-0 sm:h-[calc(100%-1px)] sm:flex-1 data-[state=active]:bg-galaxy-primary data-[state=active]:text-white data-[state=active]:shadow-md';
 </script>
 
 <template>
@@ -51,29 +58,15 @@ watch([searchQuery, activeTab], ([q, tab]) => {
 
     <!-- Tabs -->
     <Tabs v-model="activeTab" default-value="hub">
-      <TabsList class="mb-6 bg-galaxy-dark/10 p-1">
-        <TabsTrigger
-          value="hub"
-          class="data-[state=active]:bg-galaxy-primary data-[state=active]:text-white data-[state=active]:shadow-md"
-        >
-          Hub Search
-        </TabsTrigger>
-        <TabsTrigger
-          value="google"
-          class="data-[state=active]:bg-galaxy-primary data-[state=active]:text-white data-[state=active]:shadow-md"
-        >
-          Pan-Galactic Search
-        </TabsTrigger>
-        <TabsTrigger
-          value="publications"
-          class="data-[state=active]:bg-galaxy-primary data-[state=active]:text-white data-[state=active]:shadow-md"
-        >
-          Publication Search
-        </TabsTrigger>
+      <!-- Below sm the tabs wrap inside the card, with 44px tall targets -->
+      <TabsList class="mb-6 h-auto w-full flex-wrap bg-galaxy-dark/10 p-1 sm:h-9 sm:w-fit sm:flex-nowrap">
+        <TabsTrigger value="hub" :class="tabClass">Hub Search</TabsTrigger>
+        <TabsTrigger value="google" :class="tabClass">Pan-Galactic Search</TabsTrigger>
+        <TabsTrigger value="publications" :class="tabClass">Publication Search</TabsTrigger>
       </TabsList>
 
       <TabsContent value="hub">
-        <HubSearch :query="searchQuery" />
+        <HubSearch v-model:type="contentType" :query="searchQuery" />
       </TabsContent>
 
       <TabsContent value="google" force-mount class="data-[state=inactive]:hidden">

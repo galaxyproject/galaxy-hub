@@ -2,7 +2,7 @@ import fs from 'fs';
 import os from 'os';
 import path from 'path';
 import { afterEach, describe, expect, it } from 'vitest';
-import { groupCitationsByYear, loadCitations, loadSubsiteCitations } from './citations';
+import { loadCitations, loadSubsiteCitations } from './citations';
 
 const BIB = `@article{older,
   title = {Older paper},
@@ -81,19 +81,5 @@ describe('loadSubsiteCitations', () => {
     );
 
     expect(result.map(({ subsite, citations }) => [subsite.id, citations.length])).toEqual([['eu', 3]]);
-  });
-});
-
-describe('groupCitationsByYear', () => {
-  it('counts per year, newest first, unknown last', () => {
-    const { yearCounts, years } = groupCitationsByYear([
-      { year: 2019, raw: {} },
-      { raw: {} },
-      { year: 2023, raw: {} },
-      { year: 2019, raw: {} },
-    ]);
-
-    expect(years).toEqual(['2023', '2019', 'unknown']);
-    expect(yearCounts).toEqual({ '2023': 1, '2019': 2, unknown: 1 });
   });
 });
