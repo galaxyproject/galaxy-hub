@@ -104,7 +104,7 @@ watch(
 
     <div v-else-if="results && results.length === 0" class="text-center py-12">
       <p class="text-chicago-500 mb-2">No publications found for "{{ query }}"</p>
-      <p class="text-sm text-chicago-400">Try different keywords or check your spelling</p>
+      <p class="text-sm text-fg-meta">Try different keywords or check your spelling</p>
     </div>
 
     <div v-else-if="!query.trim()" class="text-center py-12">
