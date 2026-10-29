@@ -126,13 +126,15 @@ test.describe('Accessibility', () => {
   });
 
   test.describe('Accessible names', () => {
-    test('sidebar search button and region switcher are named', async ({ page }) => {
+    test('sidebar search button and context header are named', async ({ page }) => {
       await page.setViewportSize({ width: 1280, height: 800 });
       await page.goto('/community/');
 
       const sidebar = page.locator('aside');
       await expect(sidebar.getByRole('button', { name: 'Search' })).toBeVisible();
-      await expect(sidebar.getByRole('combobox', { name: 'Region' })).toBeVisible();
+      const context = sidebar.getByRole('button', { name: /Current context: Galaxy Project.*Change region/ });
+      await expect(context).toBeVisible();
+      await expect(context).toHaveAttribute('aria-expanded', 'false');
     });
 
     test('mobile region switcher is named', async ({ page }) => {
