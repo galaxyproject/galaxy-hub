@@ -22,7 +22,7 @@ import CofestBoard from '../../components/CofestBoard.astro';
 import SupporterGrid from '../../components/content/SupporterGrid.astro';
 import { resolveSupporters } from '../../utils/supporters';
 import { isPastEvent } from '../../utils/dateUtils';
-import { ROOT_CRUMB, sectionCrumbs, type Crumb } from '../../utils/breadcrumbs';
+import { eventCrumbs, type Crumb } from '../../utils/breadcrumbs';
 import { isDraft, isListed } from '../../utils/publish-date.mjs';
 import { extractFunding, extractAuthors, resolveAuthor } from '../../utils/contributors';
 import Icon from '../../components/ui/Icon.astro';
@@ -101,7 +101,12 @@ export async function getStaticPaths() {
     const navTitle = data.nav_title;
     if (typeof navTitle === 'string' && navTitle.trim()) return navTitle.trim();
 
-    const title = data.title;
+    return getPageLabel(entry, rootTitle);
+  }
+
+  // The page's title, or its last URL segment when it has none (or repeats the conference title)
+  function getPageLabel(entry: any, rootTitle?: string): string {
+    const title = (entry.data || {}).title;
     if (typeof title === 'string' && title.trim() && title !== rootTitle) return title.trim();
 
     const segment = (entry.data.slug || '').split('/').at(-1) || '';
@@ -182,19 +187,35 @@ export async function getStaticPaths() {
     });
   }
 
+  // Labels of the event pages a breadcrumb can link (pages that redirect away are left out)
+  const pageLabels = new Map<string, string>();
+  for (const event of events) {
+    if (!event.data.external_url) pageLabels.set(`/${event.data.slug}/`, getPageLabel(event));
+  }
+
   return events.map((event) => {
     // Remove 'events/' prefix from slug for the URL
     const urlSlug = event.data.slug.replace(/^events\//, '');
     const rootSlug = getRootSlug(event.data.slug || '');
     const conferenceContext = rootSlug ? conferenceContexts.get(rootSlug) : undefined;
+    // The conference home shows the conference title; its subpages use their subnav label
+    const label = !conferenceContext
+      ? getPageLabel(event)
+      : event.data.slug === conferenceContext.rootSlug
+        ? conferenceContext.title || getPageLabel(event)
+        : getNavLabel(event, conferenceContext.title);
     return {
       params: { slug: urlSlug },
-      props: { event, conferenceContext },
+      props: { event, conferenceContext, crumbs: eventCrumbs(event.data.slug, label, pageLabels) },
     };
   });
 }
 
-const { event, conferenceContext } = Astro.props as { event: any; conferenceContext?: ConferenceContext };
+const { event, conferenceContext, crumbs } = Astro.props as {
+  event: any;
+  conferenceContext?: ConferenceContext;
+  crumbs: Crumb[];
+};
 const { Content, headings } = await render(event);
 const sourceFile = event.data.sourceFile || `${event.data.slug}/index.md`;
 
@@ -224,19 +245,6 @@ const conferenceSubnavItems = (conferenceContext?.navItems || []).map((item) => 
       ? event.data.slug === item.slug
       : event.data.slug === item.slug || event.data.slug.startsWith(`${item.slug}/`),
 }));
-const eventsCrumb = { label: 'Events', href: '/events/' };
-// A conference subpage links its conference home; the subnav label names the page when it has one.
-const crumbs: Crumb[] =
-  conferenceContext && event.data.slug !== conferenceContext.rootSlug
-    ? [
-        ROOT_CRUMB,
-        eventsCrumb,
-        { label: conferenceTitle, href: `/${conferenceContext.rootSlug}/` },
-        {
-          label: conferenceContext.navItems.find((item) => item.slug === event.data.slug)?.label || title || 'Event',
-        },
-      ]
-    : sectionCrumbs(eventsCrumb, (isConferenceEvent ? conferenceTitle : title) || 'Event');
 const showConferenceMetadata = Boolean(
   conferenceTitle ||
   conferenceDescription ||

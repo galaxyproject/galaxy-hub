@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { articleCrumbs, ROOT_CRUMB } from './breadcrumbs';
+import { articleCrumbs, eventCrumbs, ROOT_CRUMB } from './breadcrumbs';
 
 const titles = new Map([
   ['/community/', 'The Galaxy Community'],
@@ -50,6 +50,42 @@ describe('articleCrumbs', () => {
       ROOT_CRUMB,
       { label: 'The Galaxy Community', href: '/community/' },
       { label: 'Governance' },
+    ]);
+  });
+});
+
+describe('eventCrumbs', () => {
+  const EVENTS = { label: 'Events', href: '/events/' };
+  const eventPages = new Map([
+    ['/events/gcc2012/', 'GCC2012'],
+    ['/events/gcc2012/training-day/', 'GCC2012 Training Day'],
+    ['/events/meetups/baltimore/', 'Baltimore Galaxy Meetup'],
+  ]);
+
+  it('puts an event under Events', () => {
+    expect(eventCrumbs('events/2025-admin-training-brno', 'Admin training', eventPages)).toEqual([
+      ROOT_CRUMB,
+      EVENTS,
+      { label: 'Admin training' },
+    ]);
+  });
+
+  it('links every parent event page, the conference home included', () => {
+    expect(eventCrumbs('events/gcc2012/training-day/ws5', 'Workshop 5', eventPages)).toEqual([
+      ROOT_CRUMB,
+      EVENTS,
+      { label: 'GCC2012', href: '/events/gcc2012/' },
+      { label: 'GCC2012 Training Day', href: '/events/gcc2012/training-day/' },
+      { label: 'Workshop 5' },
+    ]);
+  });
+
+  it('leaves out parent levels without a page', () => {
+    expect(eventCrumbs('events/meetups/baltimore/2015-02-18', 'Meetup', eventPages)).toEqual([
+      ROOT_CRUMB,
+      EVENTS,
+      { label: 'Baltimore Galaxy Meetup', href: '/events/meetups/baltimore/' },
+      { label: 'Meetup' },
     ]);
   });
 });

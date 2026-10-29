@@ -62,6 +62,30 @@ const trails = [
       [null, '/events/gcc2026/'],
     ],
   },
+  {
+    name: 'nested conference page without a title',
+    path: '/events/gcc2012/training-day/ws5/',
+    count: 5,
+    items: [
+      ['Galaxy Project', '/'],
+      ['Events', '/events/'],
+      ['GCC2012', '/events/gcc2012/'],
+      ['GCC2012 Training Day', '/events/gcc2012/training-day/'],
+      ['Ws5', null],
+    ],
+  },
+  {
+    name: 'event in a meetup series',
+    path: '/events/meetups/baltimore/2015-02-18/',
+    count: 5,
+    items: [
+      ['Galaxy Project', '/'],
+      ['Events', '/events/'],
+      ['Meetups', '/events/meetups/'],
+      ['Baltimore', '/events/meetups/baltimore/'],
+      ['Feb 18, 2015 Baltimore Area Galaxy Meetup @ Johns Hopkins', null],
+    ],
+  },
 ] as const;
 
 function trail(page: Page) {
