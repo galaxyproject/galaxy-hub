@@ -36,7 +36,7 @@ const projectHref = tabs[0]?.href;
 const currentLabel = tabs.find((tab) => tab.href === path)?.label ?? title;
 const crumbs = [
   { label: 'Galaxy Project', href: '/' },
-  { label: 'Projects' },
+  { label: 'Projects', href: '/projects/' },
   ...(title ? [{ label: name, href: projectHref }, { label: currentLabel ?? title }] : [{ label: name }]),
 ];
 ---

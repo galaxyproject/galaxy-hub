@@ -31,6 +31,9 @@ test.describe('ESG4Stars project pages', () => {
       await expect(tabs(page).getByRole('link')).toHaveText([/^\s*Overview\s*$/, /^\s*News\s+\d+\s*$/, /^\s*Events\s*$/]);
       await expect(tabs(page).locator('[aria-current="page"]')).toContainText(tab);
 
+      const crumbs = page.getByRole('navigation', { name: 'Breadcrumb' });
+      await expect(crumbs.getByRole('link', { name: 'Projects' })).toHaveAttribute('href', '/projects/');
+
       const funding = page.getByRole('region', { name: 'Funding' });
       await expect(funding).toContainText('This project is funded by the European Union');
       await expect(funding).toContainText('Grant Agreement number 101290798');
