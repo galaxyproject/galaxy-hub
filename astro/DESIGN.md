@@ -292,7 +292,7 @@ The `<Badge>` component (`@/components/ui/badge`) is available with `default`, `
 
 Event dates in lists render as one inline line: a 16 px calendar icon, the date range in bold, and a duration pill ("2 days") for multi-day events only. The line sits in the row's meta area under the title, next to the location. There is no calendar block.
 
-News and event listing pages (news, events, archives, webinars and the other tag lists, tag pages) put the date in the same place: directly under the title and before any teaser, in rows and tiles, upcoming and past, at every width. The region home cards, Hall of Fame and the home page news cards still lead with the date and move next. News rows show the publication date there; past event rows (events list, archives, webinars and other tag lists) stack the title first and the date line under it instead of a date column.
+News and event listing pages (news, events, archives, webinars and the other tag lists, tag pages) put the date in the same place: directly under the title and before any teaser, in rows and tiles, upcoming and past, at every width. Not yet: the region home news cards and the home page news cards still lead with the date, and Hall of Fame contribution rows put it after the teaser. News rows show the publication date there; past event rows (events list, archives, webinars and other tag lists) stack the title first and the date line under it instead of a date column.
 
 ```astro
 <EventDate start={event.data.date} end={event.data.end} />
