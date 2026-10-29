@@ -63,6 +63,7 @@ New page code uses **role tokens**: they name what a colour is for, carry a ligh
 | Overlay: menus, popovers | `bg-surface-overlay` | `#ffffff` | `#232734` | |
 | Tint: tags, callouts, table heads | `bg-surface-tint` | `#edf4fa` light-bg | `#172536` | link on tint 7.27 / 7.68 |
 | Sunken: inline code, counts | `bg-surface-sunken` | `#f5f5f6` chicago-50 | `#22262f` | meta on sunken 6.51 / 6.36 |
+| Chip: filter chips, list row hover | `bg-surface-chip`, `bg-surface-chip-hover` | `#dfe2ea` ebony-clay-50, `#d3d6e2` ebony-clay-100 | `#2a2e3a`, `#353a48` | fg-2 on chip 6.38 / 7.75 |
 | Lines | `border-line`, `-line-brand`, `-line-strong` | chicago-100; primary at 16% / 34% | `#2a2e38`; `#8cbbe9` at 16% / 38% | decorative |
 | Input border | `border-line-input` | `#878789` | `#737a8c` | 3.59 / 4.29 (3:1 for controls) |
 | Focus | `outline-focus`, `outline-focus-on-chrome` | `#25537b`; gold on chrome | `#8cbbe9`; gold | 8.07 / 9.12 |
