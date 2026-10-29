@@ -356,7 +356,7 @@ body {
 /* In dark, inline colours pasted into citation titles follow the title colour */
 .citation-title [style*='color'] {
   @variant dark {
-    color: inherit;
+    color: inherit !important; /* beats the inline style */
   }
 }
 
