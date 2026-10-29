@@ -16,9 +16,11 @@ interface Heading {
 interface Props {
   headings?: Heading[];
   autotoc?: boolean;
+  /** Cap running text at the 72ch measure (off for full-bleed pages). */
+  measure?: boolean;
 }
 
-const { headings = [], autotoc = false } = Astro.props;
+const { headings = [], autotoc = false, measure = true } = Astro.props;
 
 // Determine if TOC should be shown (autotoc enabled and enough headings)
 const filteredHeadings = headings.filter((h) => h.depth >= 2 && h.depth <= 4);
@@ -41,8 +43,8 @@ const railClass = 'sticky top-6 max-h-[calc(100vh-3rem)] overflow-y-auto pt-0.5 
 </details>}
 
 <div class:list={['content-with-toc px-6 sm:px-8 pt-6', showToc && gridClass]}>
-  {/* Main Content. 72ch measure (--measure) lands with the reading grid, see DESIGN.md Prose */}
-  <div class="prose prose-compact prose-galaxy max-w-none min-w-0">
+  {/* Main Content */}
+  <div class:list={['prose prose-compact prose-galaxy max-w-none min-w-0', measure && 'prose-measure']}>
     <slot />
   </div>
 

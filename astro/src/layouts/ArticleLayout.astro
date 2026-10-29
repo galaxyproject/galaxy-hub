@@ -95,7 +95,7 @@ const hasMetadata =
       <img src={image} alt={title} class="w-full" />
     </figure>}
 
-    <ContentWithToc headings={headings} autotoc={autotoc}>
+    <ContentWithToc headings={headings} autotoc={autotoc} measure={!fullBleed}>
       <slot />
     </ContentWithToc>
 
