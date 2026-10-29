@@ -7,13 +7,13 @@ import ProjectPageTop from '../../../components/projects/ProjectPageTop.astro';
 import ProjectRows from '../../../components/projects/ProjectRows.astro';
 import ProjectFunding from '../../../components/projects/ProjectFunding.astro';
 import { getInsert } from '../../../utils/content';
-import { ESG_ID, getEsgNews, getEsgPastEvents, getEsgProject } from '../../../utils/esgProject';
 import { countLabel } from '../../../utils/projectFacts';
+import { getProject, getProjectEvents, getProjectNews } from '../../../utils/projectPages';
 
-const project = await getEsgProject();
+const project = await getProject('esg', 'partners');
 const intro = (await getInsert('projects/esg/events'))?.data as { description?: string } | undefined;
-const newsCount = (await getEsgNews()).length;
-const pastEvents = await getEsgPastEvents();
+const newsCount = (await getProjectNews(project.source)).length;
+const pastEvents = await getProjectEvents(project.source, { pastOnly: true });
 ---
 
 <BaseLayout
@@ -22,7 +22,7 @@ const pastEvents = await getEsgPastEvents();
 >
   <div class="max-w-6xl mx-auto bg-white rounded-lg shadow-sm p-4 sm:p-6 lg:p-8">
     <ProjectPageTop
-      projectId={ESG_ID}
+      projectId={project.id}
       name={project.name}
       description={project.description}
       facts={project.facts}

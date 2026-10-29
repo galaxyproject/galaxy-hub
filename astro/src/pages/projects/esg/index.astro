@@ -15,9 +15,9 @@ import Icon from '../../../components/mdx/Icon.astro';
 import { getEntry, render } from 'astro:content';
 import { getInsert } from '../../../utils/content';
 import { countLabel } from '../../../utils/projectFacts';
-import { ESG_ID, getEsgNews, getEsgPastEvents, getEsgProject } from '../../../utils/esgProject';
+import { getProject, getProjectEvents, getProjectNews } from '../../../utils/projectPages';
 
-const project = await getEsgProject();
+const project = await getProject('esg', 'partners');
 const { Content: Summary, headings: summaryHeadings } = await render(project.entry);
 const fundingSlug = 'projects/esg/funding_notice';
 const hasFunding = Boolean(await getInsert(fundingSlug));
@@ -28,9 +28,9 @@ const expectedResults = (await getEntry('datasets', 'expected_results'))?.data;
 const partners = (await getEntry('datasets', 'partners'))?.data;
 const externalLinks = (await getEntry('datasets', 'external_links'))?.data;
 
-const esgNews = await getEsgNews();
+const esgNews = await getProjectNews(project.source);
 const latestNews = esgNews.slice(0, 6);
-const pastEvents = (await getEsgPastEvents()).slice(0, 5);
+const pastEvents = (await getProjectEvents(project.source, { pastOnly: true })).slice(0, 5);
 
 const newsHref = '/projects/esg/news/';
 const eventsHref = '/projects/esg/events/';
@@ -55,7 +55,7 @@ const headings = [
 <BaseLayout title={project.name} description={project.description}>
   <div class="esg-page max-w-6xl mx-auto bg-white rounded-lg shadow-sm p-4 sm:p-6 lg:p-8">
     <ProjectPageTop
-      projectId={ESG_ID}
+      projectId={project.id}
       name={project.name}
       description={project.description}
       facts={project.facts}

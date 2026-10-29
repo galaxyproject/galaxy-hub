@@ -7,11 +7,11 @@ import ProjectPageTop from '../../../components/projects/ProjectPageTop.astro';
 import ProjectFunding from '../../../components/projects/ProjectFunding.astro';
 import NewsList from '../../../components/news/NewsList.vue';
 import { getInsert } from '../../../utils/content';
-import { ESG_ID, getEsgNews, getEsgProject } from '../../../utils/esgProject';
+import { getProject, getProjectNews } from '../../../utils/projectPages';
 
-const project = await getEsgProject();
+const project = await getProject('esg', 'partners');
 const intro = (await getInsert('projects/esg/news'))?.data as { description?: string } | undefined;
-const esgNews = await getEsgNews();
+const esgNews = await getProjectNews(project.source);
 const newsHref = '/projects/esg/news/';
 
 // Plain objects for the Vue island. No initialSubsite: /projects/ URLs resolve to the global subsite,
@@ -30,7 +30,7 @@ const articleData = esgNews.map((a) => ({
 <BaseLayout title={`News | ${project.name}`} description={intro?.description ?? `News from ${project.name}`}>
   <div class="max-w-6xl mx-auto bg-white rounded-lg shadow-sm p-4 sm:p-6 lg:p-8">
     <ProjectPageTop
-      projectId={ESG_ID}
+      projectId={project.id}
       name={project.name}
       description={project.description}
       facts={project.facts}
