@@ -22,7 +22,7 @@ top experts on the topic.
 <div style="margin-bottom: 40px;">
 <h2 style="text-align: center; background-color: var(--color-bay-of-many-100); padding: 20px; border-radius: 0.5rem;"><b>Day 1</b> — Thursday, June 25</h2>
 <h3 style="text-align: center; margin-left: 5%; width: 90%; background-color: var(--color-bay-of-many-200); padding: 10px; border-radius: 0.5rem;">Session 1 (9:00 am – 12:00 pm)</h3>
-<p style="text-align: center; color: var(--color-galaxy-grey);">Three parallel tracks — choose the one that fits your interests.</p>
+<p style="text-align: center; color: var(--gx-fg-meta);">Three parallel tracks — choose the one that fits your interests.</p>
 
 <div class="gx-tile-grid">
 
@@ -69,7 +69,7 @@ launchpad for contributing to Galaxy during CoFest.
 <div style="margin-bottom: 40px;">
 <h2 style="text-align: center; background-color: var(--color-bay-of-many-100); padding: 20px; border-radius: 0.5rem;"><b>Day 2</b> — Friday, June 26</h2>
 <h3 style="text-align: center; margin-left: 5%; width: 90%; background-color: var(--color-bay-of-many-200); padding: 10px; border-radius: 0.5rem;">Session 2 (9:00 am – 12:00 pm)</h3>
-<p style="text-align: center; color: var(--color-galaxy-grey);">Three parallel tracks — choose the one that fits your interests.</p>
+<p style="text-align: center; color: var(--gx-fg-meta);">Three parallel tracks — choose the one that fits your interests.</p>
 
 <div class="gx-tile-grid">
 
