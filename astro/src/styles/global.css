@@ -553,93 +553,73 @@ body {
   max-width: var(--reading-measure);
 }
 
-/* Pages without a rail (ContentWithToc): on a text-only page the capped text blocks are
-   centred in the full column, so no empty strip opens on the right. When the column also
-   holds wide content (tile grids, cards, tables, figures, code, embeds), the text stays
-   left-aligned so every left edge lines up with it. */
+/* Pages without a rail (ContentWithToc): the 72ch text is centred only when every direct
+   child of the column is a text block (or an authored-centred block or a floated image), so
+   no empty strip opens on the right of a text-only page. Anything else (grids, tables,
+   embeds, wrappers) keeps the text left-aligned, so every left edge lines up. The column
+   publishes the inset; text blocks, floats and (when centred) image-only paragraphs and
+   rules use it, so the condition is written once. */
 .prose-measure-centred:not(
-    :has(
-      > :is(
-        .gx-tile-grid,
-        .grid,
-        [class*='grid-cols'],
-        .row,
-        .card-deck,
-        .inline-div,
-        .table-wrapper,
-        table,
-        figure,
-        pre,
-        div:has(> pre),
-        iframe,
-        video
-      )
+  :has(
+    > :not(
+      p,
+      ul,
+      ol,
+      dl,
+      blockquote,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      hr,
+      br,
+      .text-center,
+      [align='center' i],
+      [style*='text-align:center' i],
+      [style*='text-align: center' i],
+      img.float-right,
+      img.float-left,
+      img[align]
     )
   )
-  > :is(p, ul, ol, dl, blockquote, h1, h2, h3, h4, h5, h6):not(
+) {
+  --reading-inset: max(0px, (100% - var(--reading-measure)) / 2);
+  --reading-cap: var(--reading-measure);
+}
+
+.prose-measure-centred
+  > :is(p, ul, ol, dl, blockquote, h1, h2, h3, h4, h5, h6, hr):not(
     .text-center,
     [align='center' i],
     [style*='text-align:center' i],
-    [style*='text-align: center' i],
-    :has(> img:only-child:not(.float-right, .float-left, [align])),
-    :has(> a:only-child > img:only-child)
+    [style*='text-align: center' i]
   ) {
-  margin-inline: auto;
+  margin-inline: var(--reading-inset, 0px);
+}
+
+/* Centred pages also cap image-only paragraphs and rules, so nothing starts left of the text. */
+.prose-measure-centred
+  > :is(hr, p:has(> img:only-child), p:has(> a:only-child > img:only-child)):not(
+    .text-center,
+    [align='center' i],
+    [style*='text-align:center' i],
+    [style*='text-align: center' i]
+  ) {
+  max-width: var(--reading-cap, none);
 }
 
 /* A right float that is a direct child of the column floats at the edge of the text,
-   so the text beside it keeps its usual gap (half the slack when the text is centred).
-   Below sm, floats stack (see below). */
+   so the text beside it keeps its usual gap. Below sm, floats stack (see below). */
 @media (min-width: 40rem) {
   .prose-measure > .float-right,
   .prose-measure > img[align='right' i] {
-    margin-right: max(0px, 100% - var(--reading-measure));
+    margin-right: max(0px, 100% - var(--reading-measure) - var(--reading-inset, 0px));
   }
 
-  .prose-measure-centred:not(
-      :has(
-        > :is(
-          .gx-tile-grid,
-          .grid,
-          [class*='grid-cols'],
-          .row,
-          .card-deck,
-          .inline-div,
-          .table-wrapper,
-          table,
-          figure,
-          pre,
-          div:has(> pre),
-          iframe,
-          video
-        )
-      )
-    )
-    > :is(.float-right, img[align='right' i]) {
-    margin-right: max(0px, (100% - var(--reading-measure)) / 2);
-  }
-
-  .prose-measure-centred:not(
-      :has(
-        > :is(
-          .gx-tile-grid,
-          .grid,
-          [class*='grid-cols'],
-          .row,
-          .card-deck,
-          .inline-div,
-          .table-wrapper,
-          table,
-          figure,
-          pre,
-          div:has(> pre),
-          iframe,
-          video
-        )
-      )
-    )
-    > :is(.float-left, img[align='left' i]) {
-    margin-left: max(0px, (100% - var(--reading-measure)) / 2);
+  .prose-measure-centred > :is(.float-left, img[align='left' i]) {
+    margin-left: var(--reading-inset, 0px);
   }
 }
 
