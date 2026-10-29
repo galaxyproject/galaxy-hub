@@ -1,12 +1,13 @@
 import { test, expect, type Page } from '@playwright/test';
 
-// Reading pages (articles, news posts, events) use the compact page header: title on the
+// Reading pages (articles, news posts, events, conferences) use the compact page header: title on the
 // page surface, a hairline underneath with a 48px gold segment, no gradient. Listing and landing
 // pages keep the gradient hero.
 const compactPages = [
   { name: 'content page', path: '/community/' },
   { name: 'news post', path: '/news/2025-10-15-egd2025/' },
   { name: 'event page', path: '/events/2025-admin-training-brno/' },
+  { name: 'conference page', path: '/events/gcc2026/' },
 ];
 
 const heroPages = [
@@ -74,6 +75,14 @@ test.describe('compact page header: event details', () => {
     await expect(head.getByText('Location', { exact: true })).toBeVisible();
     await expect(head.getByText('Brno, Czechia, Europe')).toBeVisible();
   });
+
+  test('conference subnav pills are dark text on the light header', async ({ page }) => {
+    await page.goto('/events/gcc2026/');
+    const active = page.locator('nav[aria-label="Conference pages"] a.is-active');
+    await expect(active).toHaveCount(1);
+    const fg = await active.evaluate((el) => getComputedStyle(el).color);
+    expect(fg).toBe('rgb(44, 49, 67)');
+  });
 });
 
 for (const { name, path } of heroPages) {
@@ -91,4 +100,16 @@ test('compact header author links are galaxy-primary, not white', async ({ page 
   const author = header(page).locator('a[href^="/hall-of-fame/"]').first();
   await expect(author).toBeVisible();
   expect(await author.evaluate((el) => getComputedStyle(el).color)).toBe('rgb(37, 83, 123)');
+});
+
+test('pinned conference subnav sits on white on phones', async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto('/events/gcc2026/');
+  const nav = page.locator('.conference-subnav');
+  await expect(nav).toBeVisible();
+  await expect(async () => {
+    await page.mouse.wheel(0, 600);
+    await expect(nav).toHaveClass(/\bis-stuck\b/, { timeout: 500 });
+  }).toPass();
+  expect(await nav.evaluate((el) => getComputedStyle(el).backgroundColor)).toBe('rgb(255, 255, 255)');
 });

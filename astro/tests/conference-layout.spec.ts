@@ -57,7 +57,13 @@ test.describe('Conference Layout', () => {
 
       // Date should be visible in the page header
       await expect(header.getByText('Date', { exact: true })).toBeVisible();
-      await expect(header.locator('time').filter({ hasText: /June.*2026/ })).toBeVisible();
+      // Start and end each have their own <time> (EventDate line)
+      await expect(
+        header
+          .locator('time')
+          .filter({ hasText: /June.*2026/ })
+          .first()
+      ).toBeVisible();
 
       // Location should be visible in the page header
       await expect(header.getByText('Location', { exact: true })).toBeVisible();
