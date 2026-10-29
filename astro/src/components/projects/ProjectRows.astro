@@ -1,6 +1,6 @@
 ---
 /**
- * Compact rows of news posts or past events on project pages: title, date line, teaser.
+ * Compact rows of news posts or events (project pages, region homes): title, date line, teaser.
  * Events use the shared event date line (EventDate); news shows the publication date.
  */
 import EventDate from '@/components/events/EventDate.astro';
@@ -17,9 +17,11 @@ export interface ProjectRow {
 interface Props {
   items: ProjectRow[];
   kind: 'news' | 'events';
+  /** Events are past (muted date line) unless a page lists upcoming ones. */
+  past?: boolean;
 }
 
-const { items, kind } = Astro.props;
+const { items, kind, past = true } = Astro.props;
 
 function isoDay(value: Date | string | null | undefined): string | undefined {
   if (!value) return undefined;
@@ -33,7 +35,7 @@ function isoDay(value: Date | string | null | undefined): string | undefined {
     <h3><a href={item.href}>{item.title}</a></h3>
     <p class="project-rows__meta">
       {kind === 'events' ? (
-        <EventDate start={item.start} end={item.end} past />
+        <EventDate start={item.start} end={item.end} {past} />
       ) : (
         <time datetime={isoDay(item.start)}>{formatDate(item.start, false)}</time>
       )}
