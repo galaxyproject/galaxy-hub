@@ -199,6 +199,7 @@ body {
   --color-surface-sunken: var(--gx-surface-sunken);
   --color-surface-chip: var(--gx-surface-chip);
   --color-surface-chip-hover: var(--gx-surface-chip-hover);
+  --color-logo-plate: var(--gx-logo-plate);
   --color-line: var(--gx-line);
   --color-line-brand: var(--gx-line-brand);
   --color-line-strong: var(--gx-line-strong);
@@ -289,6 +290,7 @@ body {
   --gx-surface-sunken: #f5f5f6; /* chicago-50 */
   --gx-surface-chip: #dfe2ea; /* ebony-clay-50: filter chips, list row hover */
   --gx-surface-chip-hover: #d3d6e2; /* ebony-clay-100 */
+  --gx-logo-plate: transparent; /* .logo-plate: no plate in light */
 
   /* lines */
   --gx-line: #e6e6e7; /* chicago-100 */
@@ -340,6 +342,14 @@ body {
   --gx-text-micro: 0.75rem;
 
   --measure: 72ch;
+}
+
+/* Logo plate (DESIGN.md "Dark mode"): logos and line art with dark lettering on a transparent
+   background sit on a light plate in dark. Transparent in light. A spread shadow, so nothing moves. */
+.logo-plate,
+.prose img:is([src$='.svg'], [src$='.png'], [src$='.webp'], [src$='.gif']) {
+  background-color: var(--gx-logo-plate);
+  box-shadow: 0 0 0 4px var(--gx-logo-plate);
 }
 
 /* In dark, inline colours pasted into citation titles follow the title colour */
@@ -409,6 +419,7 @@ body {
     --gx-surface-sunken: #22262f;
     --gx-surface-chip: #2a2e3a;
     --gx-surface-chip-hover: #353a48;
+    --gx-logo-plate: #f3f4f6; /* light plate behind logos with dark lettering */
 
     --gx-line: #2a2e38;
     --gx-line-brand: rgb(140 187 233 / 0.16);
