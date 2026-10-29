@@ -76,11 +76,14 @@ const supporters = supportersRaw || [];
 // Check if we have meaningful metadata to show in header
 const hasMetadata =
   (title && title !== 'Galaxy Hub') || date || (authors?.length ?? 0) > 0 || tags.length > 0 || description;
+// FAIR pages keep the hero: their principle cards (FairSectionHero) are styled for the dark gradient
+const headerVariant = fairSection ? 'hero' : 'compact';
 ---
 
 <BaseLayout title={title} description={description} fullBleed={fullBleed} image={ogImage ?? image} noindex={noindex}>
   <article class:list={['bg-white relative', fullBleed ? 'max-w-none' : 'max-w-6xl mx-auto']}>
     {hasMetadata && !hideHeader && <PageHeader
+      variant={headerVariant}
       title={title}
       description={description}
       eyebrow={eyebrow}
