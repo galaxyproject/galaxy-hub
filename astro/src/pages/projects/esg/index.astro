@@ -110,6 +110,7 @@ const headings = [
           <ul class="esg-logolinks">
             {externalLinks.external_links?.map((link: any) => <li>
               <img
+                class="logo-plate"
                 src={`/images/projects/esg/link-images/${link.image?.split('/').pop()}`}
                 alt=""
                 loading="lazy"
@@ -195,7 +196,7 @@ const headings = [
             {partners.partners?.map((partner: any) => <li>
               <a href={partner.website} target="_blank" rel="noopener noreferrer">
                 <span class="esg-partners__logo">
-                  <img src={partnerLogo(partner.image)} alt="" loading="lazy" decoding="async" />
+                  <img class="logo-plate" src={partnerLogo(partner.image)} alt="" loading="lazy" decoding="async" />
                 </span>
                 <span> {partner.name}<span class="sr-only"> (opens in a new tab)</span> </span>
               </a>
