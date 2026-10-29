@@ -1,5 +1,5 @@
 ---
-description: "Users, developers, and trainers providing feedback and energy to improve and expand the <>."
+description: "Users, developers, and trainers providing feedback and energy to improve and expand the processing of mass spectrometry data with Galaxy."
 title: "Galaxy Mass Spectrometry Community of Practice"
 ---
 
