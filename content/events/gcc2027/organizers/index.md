@@ -18,7 +18,7 @@ autotoc: false
     margin: 1rem auto 0;
     border-radius: 9999px;
     object-fit: cover;
-    background: var(--color-ebony-clay-50);
+    background: var(--color-surface-chip);
   }
 
   .gcc-people .gx-tile__title {
@@ -40,11 +40,11 @@ autotoc: false
   }
 
   .gcc-people .gx-tile__title a {
-    color: var(--color-galaxy-dark);
+    color: var(--color-fg-strong);
   }
 
   .gcc-person__org a {
-    color: var(--color-galaxy-primary);
+    color: var(--color-link);
   }
 </style>
 
