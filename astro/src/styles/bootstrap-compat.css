@@ -331,7 +331,7 @@
   &.table {
     width: 100%;
     margin-bottom: 1rem;
-    color: #212529;
+    color: var(--color-fg);
     border-collapse: collapse;
   }
 
@@ -375,7 +375,7 @@
 /* Restore styling for .table headers without inline background colors */
 .prose .bs-compat.table th:not([style*='background-color']) {
   background-color: transparent;
-  color: #1f2937;
+  color: var(--color-fg-strong);
 }
 
 /* ==========================================================================
@@ -448,7 +448,7 @@
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: var(--color-surface-sunken) !important;
 }
 
 .bg-dark {
