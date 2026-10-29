@@ -6,6 +6,11 @@
 > shipped as `@galaxyproject/brand-tokens`. This document covers only what's
 > specific to the Hub (component stylings, layout, animation, the OKLch UI-primitive
 > layer, SIG/WG category colors, responsive behavior).
+>
+> **Source of truth for Hub design:** this file plus galaxy-ui
+> ([`galaxyproject/galaxy` `client/packages/ui`](https://github.com/galaxyproject/galaxy/tree/dev/client/packages/ui),
+> its `tokens.css`). The Hub aligns colour values and role names with galaxy-ui; it does
+> not import galaxy-ui (a private workspace package of raw Vue SFCs). See §10.
 
 ## 1. Visual Theme & Atmosphere
 
@@ -15,14 +20,14 @@ The typography is built entirely on Atkinson Hyperlegible -- a font designed spe
 
 The Hub is part of a broader Galaxy ecosystem that includes IWC (Intergalactic Workflow Commission), GTN (Galaxy Training Network), and the usegalaxy.org servers. All share the same brand palette, gold accent patterns, dark/light contrast model, and card-based layouts. A researcher browsing workflows on IWC, reading news on the Hub, and taking a GTN tutorial should feel like they're navigating one cohesive platform.
 
-IWC is the closest sibling site in design terms and has its own [DESIGN.md](https://github.com/galaxyproject/iwc/blob/main/website/DESIGN.md) in the `galaxyproject/iwc` repository. The two docs should be read together -- where they differ, prefer IWC's approach for anything that appears on both sites (cards, tabs, hover accent bars, section backgrounds). §2 documents the shared Pantone-style color aliases so cross-property code can be written interchangeably.
+IWC is the closest sibling site in design terms and has its own [DESIGN.md](https://github.com/galaxyproject/iwc/blob/main/website/DESIGN.md) in the `galaxyproject/iwc` repository. Read the two docs together, and look at how IWC builds a pattern that appears on both sites (cards, tabs, hover accent bars, section backgrounds) before writing new code. **Precedence:** where they disagree, this file and galaxy-ui win; IWC is a reference, not the rule. §2 documents the shared Pantone-style color aliases so cross-property code can be written interchangeably.
 
-The site is light-mode only in practice -- dark-mode CSS custom properties exist in `global.css` under a `.dark` class, but nothing toggles that class. Treat the site as single-theme until that changes.
+**Dark mode:** colours are semantic roles with a light value in `:root` and a dark value in `.dark` (`global.css`, §2). The theme switch will set `.dark` on `<html>`; it ships after the redesign, so nothing sets the class yet and the site renders light. Never hardcode a colour that has no dark value: use a role, or add the role with both values.
 
 The technical substrate is Astro with Tailwind CSS 4, Vue 3 components hydrated client-side via Reka UI primitives, and class-variance-authority for component variants. Content is Markdown/MDX preprocessed from a shared `/content/` directory, with Bootstrap compatibility classes scoped under `.bs-compat` for legacy content.
 
 **Key Characteristics:**
-- Light-mode only: dark structural elements (sidebar, headers) frame light content backgrounds
+- Light theme today, dark-ready: every role has a light and a dark value; dark structural elements (sidebar, headers) frame light content backgrounds
 - Atkinson Hyperlegible at 400/700 -- accessibility-first typography
 - Galaxy brand palette for brand-facing surfaces, OKLch semantic tokens for generic UI internals (see §2)
 - Gold (`#ffd700`) as the sole accent color, reserved for high-impact moments
@@ -36,14 +41,55 @@ The technical substrate is Astro with Tailwind CSS 4, Vue 3 components hydrated 
 
 ## 2. Color Palette & Roles
 
-The Hub runs two parallel color systems. **Don't mix them.**
+### Semantic roles (light/dark)
+
+New page code uses **role tokens**: they name what a colour is for, carry a light and a dark value, and resolve to brand values. Defined in `global.css` as `--gx-<role>` in `:root` (light) and `.dark` (dark), exposed to Tailwind through `@theme inline` as `--color-<role>`, so `text-fg-meta`, `bg-surface-tint`, `border-line` and `decoration-link-hover-line` all work. Ratios are WCAG 2.1 against the page (`#ffffff` light, `#121419` dark) unless noted; a unit test (`src/styles/global.test.ts`) fails when a role lacks its dark value.
+
+| Role | Utility | Light | Dark | Contrast (light / dark) |
+|------|---------|-------|------|-------------------------|
+| Body text | `text-fg` | `#3c3c3d` chicago-900 | `#d5d8df` | 11.02 / 12.91 |
+| Headings | `text-fg-strong` | `#2c3143` galaxy-dark | `#f0f1f4` | 12.90 / 16.31 |
+| Lead, secondary | `text-fg-2` | `#4f4e50` chicago-700 | `#c0c4cc` | 8.27 / 10.54 |
+| Meta: dates, bylines, counts | `text-fg-meta` | `#58585a` galaxy-grey | `#a3a8b4` | 7.10 / 7.74 |
+| Faint: decoration only, never text | `text-fg-faint` | `#878789` | `#737a8c` | 3.59 / 4.29 |
+| Brand text: tags, type badges | `text-fg-brand` | `#1f4465` | `#bfdaf4` | 9.13 / 10.74 on `surface-tint` |
+| Link | `text-link`, `decoration-link-line` | `#25537b` galaxy-primary | `#8cbbe9` | 8.07 / 9.12 |
+| Link hover | `text-link-hover`, `decoration-link-hover-line` | `#1f4465`, gold-600 `#d19e00` underline | `#bfdaf4`, gold underline | 10.13 / 12.77 |
+| Page, surface | `bg-page`, `bg-surface` | `#ffffff` | `#121419` | |
+| Surface 2: row hover, panels | `bg-surface-2` | `#f6f9fc` | `#171a21` | |
+| Raised: cards, inputs | `bg-surface-raised` | `#ffffff` | `#1b1e27` | |
+| Overlay: menus, popovers | `bg-surface-overlay` | `#ffffff` | `#232734` | |
+| Tint: tags, callouts, table heads | `bg-surface-tint` | `#edf4fa` light-bg | `#172536` | link on tint 7.27 / 7.68 |
+| Sunken: inline code, counts | `bg-surface-sunken` | `#f5f5f6` chicago-50 | `#22262f` | meta on sunken 6.51 / 6.36 |
+| Lines | `border-line`, `-line-brand`, `-line-strong` | chicago-100; primary at 16% / 34% | `#2a2e38`; `#8cbbe9` at 16% / 38% | decorative |
+| Input border | `border-line-input` | `#878789` | `#737a8c` | 3.59 / 4.29 (3:1 for controls) |
+| Focus | `outline-focus`, `outline-focus-on-chrome` | `#25537b`; gold on chrome | `#8cbbe9`; gold | 8.07 / 9.12 |
+| Brand fill | `bg-brand`, `text-on-brand` | `#25537b`, white | `#2b5f8e`, white | 8.07 / 6.71 |
+| Selected: pressed chip, current item | `bg-selected`, `text-on-selected` | `#25537b`, white | `#8cbbe9`, `#10131a` | 8.07 / 9.20 |
+| Gold accent: CTAs, active marks | `bg-accent-gold`, `-accent-gold-hover`, `text-on-accent-gold` | `#ffd700`, hover `#d19e00`, galaxy-dark text | `#ffd700`, hover `#ffe24d` | 9.20 both |
+| Chrome: sidebar, footer | `bg-chrome`, `text-chrome-fg`, `-chrome-fg-2`, `-chrome-meta`, `border-chrome-line`, `bg-chrome-field` | `#2c3143`, `#dfe2ea`, `#d3d6e2`, `#bbc0d2` | `#1c2030`, `#d7dae3`, `#c7cad6`, `#a9aec0` | nav 9.96 / 11.57; meta 7.12 / 7.32 |
+| Status ok / past | `text-ok-fg` `bg-ok-bg` `border-ok-line`; `-past-*` | `#006b15` on `#eef7ef`; `#4f4e50` on `#f5f5f6` | `#74d08e` on `#12291a`; `#c0c4cc` on `#22262f` | 6.16 / 8.22; 7.59 / 8.66 |
+| Status info / warn / danger | `text-info-fg` `bg-info-bg`; `warn-*`; `danger-*` | galaxy-ui 600-700 text on 100 bg | light text on dark tint | 7.58 / 8.57; 6.68 / 12.43; 8.59 / 7.02 |
+
+Rules:
+
+- Brand aliases (`galaxy-*`, `light-bg`, hex) appear only inside role definitions and brand moments (hero gradients, the gold bar). Existing page code moves to roles as it is touched.
+- Gold is never text on a light surface (1.40:1 on white). Links hover to `link-hover` with a gold underline.
+- Meta text is `text-fg-meta`, never an opacity-faded grey (`text-galaxy-grey/70` is about 3.45:1 and fails AA).
+- The gold role is `accent-gold`, not `accent`: `accent` is the shadcn near-white below, and `@galaxyproject/brand-tokens` also defines a gold `--color-accent` that the shadcn mapping overrides.
+- Role names avoid the shadcn names (`background`, `foreground`, `primary`, `muted`, `accent`, `border`, `input`, `ring`, `sidebar-*`, ...) and never reuse galaxy-ui primitive names such as `--color-blue-600`, which would collide with Tailwind's own `blue` scale.
+- Primitives (Button, Badge, Input) may consume **role** tokens, never brand aliases. That is the single-palette direction below, without a parallel branded button.
+
+### Brand tokens and the OKLch layer
+
+Under the roles, the Hub still runs two parallel color systems. **Don't mix them.**
 
 - **Galaxy brand tokens** (`galaxy-*`, `light-bg`, `medium-bg`, etc.) are for brand-facing surfaces: hero sections, page headers, cards, prose content, navigation. The palette contract is defined in the [base design system](https://github.com/galaxyproject/galaxy-brand-tokens/blob/main/DESIGN.md).
 - **OKLch semantic tokens** (`primary`, `secondary`, `muted`, `accent`, `destructive`, `border`, etc.) power the generic UI component layer (Reka UI / shadcn-style components -- Input, Select, Sheet, Accordion, Tabs). These resolve to near-achromatic values, *not* Galaxy blues. `bg-primary` is near-black; it is **not** `galaxy-primary`.
 
-When composing a new Galaxy page, use brand tokens. When dropping in a form input or a modal, the generic components already use the OKLch tokens -- leave them alone.
+When composing a new Galaxy page, use the role tokens above (brand tokens only for brand moments). When dropping in a form input or a modal, the generic components already use the OKLch tokens -- leave them alone.
 
-### OKLch Semantic Tokens (Transitional)
+#### OKLch Semantic Tokens (Transitional)
 
 Generic UI primitives (Input, Select, Sheet, Accordion, Tabs -- the shadcn/Reka-scaffolded components) use a second set of tokens inherited from shadcn: `primary`, `secondary`, `muted`, `accent`, `destructive`, `border`, `input`. These resolve to achromatic (near-grayscale) values in light mode:
 
@@ -82,16 +128,23 @@ Atkinson Hyperlegible is the canonical Galaxy brand typeface. The stack and acce
 
 ### Hierarchy
 
-| Role | Tailwind Classes | Usage |
-|------|-----------------|-------|
-| Page Title (H1) | `text-3xl sm:text-4xl font-bold tracking-tight text-galaxy-dark` | Page and article titles |
-| Section Header (H2) | `text-2xl font-bold text-galaxy-dark` | Major content sections |
-| Card Title (H3) | `text-xl font-semibold text-galaxy-dark` | Card headers, subsections |
-| Subheading (H4) | `text-lg font-semibold text-galaxy-dark` | Minor sections |
-| Body | `text-base text-galaxy-grey` | Paragraph text |
-| Lead / intro | `text-lg text-galaxy-grey` | Intro paragraph under a title (replaces Bootstrap `lead`) |
-| Muted | `text-sm text-galaxy-grey/70` | Metadata, help text, timestamps |
-| Links | `text-galaxy-primary hover:text-galaxy-gold` | All interactive links |
+A compact scale: 16px body text, headings close to it, so pages read densely without shouting. Each step is a type token (`--text-<step>` in `global.css`); the `text-<step>` utility sets size and line height, weight and colour come from separate classes.
+
+| Role | Size / line height | Tailwind Classes | Usage |
+|------|--------------------|-----------------|-------|
+| Page Title (H1) | 30/36 (26 below `sm`) | `text-h1 font-bold tracking-tight text-fg-strong` | Page and article titles (`PageHeader`) |
+| Section Header (H2) | 22/1.3 | `text-h2 font-bold text-fg-strong` | Major content sections |
+| Card Title (H3) | 18/1.4 | `text-h3 font-semibold text-fg-strong` | Card headers, subsections |
+| Subheading (H4) | 16/1.5 | `text-h4 font-semibold text-fg-strong` | Minor sections |
+| Body | 16/1.6 | `text-body text-fg` | Paragraph text |
+| Lead / intro | 18/28 | `text-lead text-fg-2` | Intro paragraph under a title (replaces Bootstrap `lead`) |
+| Meta | 14/20 | `text-meta text-fg-meta` | Metadata, help text, timestamps (7.10:1; never opacity-faded) |
+| Micro | 12/16 | `text-micro font-bold uppercase tracking-wider` | Overlines, group labels |
+| Links | | `text-link hover:text-link-hover underline decoration-link-line hover:decoration-link-hover-line` | Interactive links in text: darker blue plus a gold underline on hover, never gold text on light |
+
+On dark chrome (sidebar, footer, page header) gold hover text stays allowed: gold on galaxy-dark is 9.20:1.
+
+The scale follows prototype A of the redesign. galaxy-ui's `GHeading` sizes (`h-xl` 1.7rem ... `h-sm` 1.0625rem on a 0.85rem app base) are an application scale; the Hub aligns role names, not sizes.
 
 ### Icons
 
@@ -99,12 +152,17 @@ Use **Lucide icons** (via `lucide-vue-next` and the Lucide SVG set) for all UI c
 
 ### Prose Styling
 
-Content rendered from Markdown uses custom prose styles (see `.prose` and `.prose-galaxy` in `global.css`):
+Content rendered from Markdown uses `prose prose-galaxy` (never `prose-lg`), plus `prose-measure` in the reading layouts (`ContentWithToc`, `PlatformLayout`). See `.prose`, `prose-galaxy` and `.prose-measure` in `global.css`:
+
+- **Scale**: `prose-galaxy` is a Tailwind utility that sets the §3 hierarchy on Typography: 16/1.6 body, h1-h4 from the type tokens, lead 18/28. Being a utility, it beats Typography's own sizes and still loses to a `text-*` class a content heading carries.
+- **Measure**: under `prose-measure`, direct text children (`p`, lists, `dl`, blockquotes, headings) stop at `--measure` (72ch of the body font). Tables (`.table-wrapper`), code blocks, images and image-only paragraphs, figures, embeds and tile grids keep the full content column. Text nested in layout wrappers (centred blocks, legacy `.bs-compat` grids) keeps its own width. Screen only; print uses the full page.
+- **Bare embeds** (`BareArticleLayout`, iframed by usegalaxy.eu and .fr) use the same scale but no measure: they keep their 1200px centred column.
+- **Colours**: Typography's variables map to roles: body `fg`, headings and bold `fg-strong`, lead and quotes `fg-2`, counters and captions `fg-meta`, links `link`.
 
 ```css
-/* Heading colors */
---tw-prose-headings: #2c3143;
---tw-prose-links: #25537b;
+/* Heading and link colours come from roles */
+--tw-prose-headings: var(--gx-fg-strong);
+--tw-prose-links: var(--gx-link);
 
 /* H2: subtle gold underline */
 .prose h2 { border-bottom: 2px solid rgba(255, 215, 0, 0.2); padding-bottom: 0.5rem; }
@@ -120,9 +178,9 @@ Content rendered from Markdown uses custom prose styles (see `.prose` and `.pros
 /* Tables: galaxy-primary header */
 .prose th { background-color: #25537b; color: white; font-weight: 600; }
 
-/* Links: underline with gold hover */
-.prose a { text-decoration-color: color-mix(in srgb, #25537b 40%, transparent); }
-.prose a:hover { color: #ffd700; text-decoration-color: #ffd700; }
+/* Links: underlined; hover = darker blue text + 2px gold-600 underline (gold text on white is 1.40:1) */
+.prose a { text-decoration-color: var(--gx-link-line); }
+.prose a:hover { color: var(--gx-link-hover); text-decoration-color: var(--gx-link-hover-line); text-decoration-thickness: 2px; }
 
 /* Code blocks: dark background */
 .prose pre { background-color: #1f2937; border-radius: 0.5rem; }
@@ -138,7 +196,7 @@ Content tables are compact and stay inside the prose column. Rules (`global.css`
 
 - **Type and cells**: plain (unclassed) content tables use the `text-sm` scale, 14px on a 20px line, with `10px 12px` cell padding. The head keeps the galaxy-primary fill with white 600 text.
 - **No early wrap**: at build time, cells of Markdown tables that hold only short inline text (24 characters or fewer: dates, numbers, short labels) get `whitespace-nowrap`. Long text cells still wrap, so the browser narrows the text columns instead of breaking a date over two lines. No fixed column widths.
-- **Scroll fallback**: every content table sits in the focusable, labelled `.table-wrapper` region, which scrolls sideways when the table is still wider than the column. Tables never break out of the content column.
+- **Scroll fallback**: every content table sits in the focusable, labelled `.table-wrapper` region, which scrolls sideways when the table is still wider than the column. Tables never break out of the content column, and the 72ch text measure does not apply to them: they use the full column.
 - **Left alone**: raw HTML tables keep default wrapping; tables that bring a class (legacy `.bs-compat`, the bare `EventsTable` / `NewsTable` components) keep their own type and padding. In print, short cells wrap again, since paper cannot scroll.
 
 **galaxy-ui parity**: prose tables are the hub's counterpart of `GTable` with `compact` (`g-table-compact`). Same intent, different values: `GTable` cells are `0.75rem` and compact cells `0.3rem`; prose tables use `10px 12px` so running text in cells stays readable. The hub head mirrors `headVariant="dark"` (`g-header-dark`), not the light default.
@@ -390,11 +448,11 @@ Key traits: `rounded-t-2xl` (only top corners), max-height so content scrolls, a
 
 ### Heading Anchors
 
-Anchor links appear on hover with gold color transition:
+Anchor links appear on hover and follow the link hover rule:
 
 ```css
-.heading-anchor { opacity: 0; color: #25537b; transition: opacity 0.15s; }
-.heading-anchor:hover { color: #ffd700; }
+.heading-anchor { opacity: 0; color: var(--gx-link); transition: opacity 0.15s; }
+.heading-anchor:hover { color: var(--gx-link-hover); text-decoration: underline var(--gx-link-hover-line) 2px; }
 h2:hover .heading-anchor { opacity: 1; }
 /* Touch devices: always visible at 50% */
 @media (hover: none) { .heading-anchor { opacity: 0.5; } }
@@ -496,6 +554,7 @@ Astro's built-in View Transitions are enabled site-wide. The dev server is case-
 ### Spacing & Grid
 
 - **Base unit**: Tailwind's default 4px scale (0.25rem increments)
+- **Reading measure**: `--measure: 72ch` (utility `max-w-measure`) caps running text in reading layouts; see §3 Prose Styling
 - **Grid pattern**: 24px × 24px overlay used on dark backgrounds for scientific texture
   - Light backgrounds: `rgba(37, 83, 123, 0.06)` (galaxy-primary tinted) -- class `bg-grid`
   - Dark backgrounds: `rgba(255, 255, 255, 0.03)` (white tinted) -- class `bg-grid-dark`
@@ -588,8 +647,9 @@ The 24px grid pattern creates a "workflow editor mesh" effect that adds scientif
 - Use Galaxy brand tokens (`galaxy-dark`, `galaxy-primary`, `galaxy-gold`, `galaxy-grey`) for all brand-facing surfaces
 - Reserve gold for high-impact moments: CTAs, active states, accent borders, hero text
 - Use `rounded-lg` + `shadow-sm` consistently on content cards
-- Make all links `text-galaxy-primary` with `hover:text-galaxy-gold` transitions
-- Use `text-galaxy-dark` for heading text color
+- Use role tokens (`text-fg`, `text-fg-meta`, `bg-surface-tint`, `border-line`) for new page code; every role has a dark value (§2)
+- Make links in text `text-link` with `hover:text-link-hover` and a gold underline on hover
+- Use `text-fg-strong` (galaxy-dark) for heading text color
 - Use Atkinson Hyperlegible -- never substitute another font
 - Apply `bg-grid-dark` overlay on dark hero/section backgrounds
 - Use the gradient pattern (`galaxy-dark → galaxy-primary` at 135°) for page headers
@@ -601,7 +661,11 @@ The 24px grid pattern creates a "workflow editor mesh" effect that adds scientif
 ### Don't
 
 - Don't use generic Tailwind grays (`gray-500`, `slate-600`) for brand-facing text or backgrounds
-- Don't use `text-blue-*` or `text-indigo-*` on links -- always `text-galaxy-primary`
+- Don't use `text-blue-*` or `text-indigo-*` on links -- always `text-link` (galaxy-primary)
+- Don't put gold text on light surfaces (1.40:1 on white), including link hovers; gold is an underline, fill or bar there
+- Don't fade meta text with opacity (`text-galaxy-grey/70`, about 3.45:1) or use `chicago-400` for text (3.59:1); use `text-fg-meta`
+- Don't hardcode a colour that has no dark value; add a role with both values instead
+- Don't use `prose-lg` for content, and don't let running text span a wide column; reading layouts use `prose-galaxy prose-measure`
 - Don't overuse gold -- if every element has a gold accent, the signature is lost
 - Don't add gold borders to cards on dark backgrounds -- the white card IS the contrast
 - Don't use `bg-primary` expecting Galaxy blue -- `primary` is the OKLch near-black token; use `bg-galaxy-primary` for brand blue
@@ -642,7 +706,7 @@ The 24px grid pattern creates a "workflow editor mesh" effect that adds scientif
 
 - **Cards**: 3-col → 2-col (tablet) → 1-col (mobile)
 - **Linkbox**: `float: right` on desktop → `float: none; width: 100%` below 768px
-- **Page header**: Title scales from `text-4xl` to `text-3xl` via `sm:` prefix
+- **Page header**: Title is `text-h1`: 30px from `sm` up, 26px below
 - **Homepage hero**: Stats row wraps, CTA row stacks
 - **Detail sidebars**: `lg:w-80 xl:w-96 2xl:w-1/4 shrink-0` -- fixed widths prevent cramping on medium screens
 
@@ -663,7 +727,7 @@ Refer to the [base design system Quick Color Reference](https://github.com/galax
 
 - "Create a Galaxy page header. Gradient `linear-gradient(135deg, #2c3143, #25537b)`, gold bottom border (`border-bottom: 4px solid #ffd700`), 24px grid overlay at 3% white. Title `text-3xl sm:text-4xl font-bold` in white, preceded by a `w-1 h-8 bg-galaxy-gold` accent bar."
 
-- "Build a content card on `bg-light-bg`: `bg-white rounded-lg shadow-sm p-6`. Add `border-l-4 border-l-galaxy-gold` if it's featured. Title `text-xl font-semibold text-galaxy-dark`, body `text-galaxy-grey`, links `text-galaxy-primary hover:text-galaxy-gold`."
+- "Build a content card on `bg-light-bg`: `bg-white rounded-lg shadow-sm p-6`. Add `border-l-4 border-l-galaxy-gold` if it's featured. Title `text-h3 font-semibold text-fg-strong`, body `text-fg`, links `text-link hover:text-link-hover hover:decoration-link-hover-line`."
 
 - "Build a dark hero section: `bg-galaxy-dark` with `bg-grid-dark` overlay. Key phrase in `text-galaxy-gold`. Primary CTA: `bg-galaxy-gold text-galaxy-dark font-semibold px-6 py-3 rounded-lg hover:bg-galaxy-gold-dark`. Secondary CTA on dark bg: `border-2 border-white/30 text-white hover:bg-white/10`."
 
@@ -677,14 +741,47 @@ Refer to the [base design system Quick Color Reference](https://github.com/galax
 2. **Two palettes, one rule**: Galaxy tokens for brand surfaces, OKLch for generic UI (transitional -- see §2). Don't mix. If `bg-primary` looks black, that's because it is -- use `bg-galaxy-primary` for brand blue.
 3. **Gold is earned**: Only on CTAs, active states, accent borders, and hero highlights. More than ~3 gold elements per section is probably too many.
 4. **Cards are white, lg, sm**: `bg-white rounded-lg shadow-sm` on light backgrounds; `shadow-md` on dark backgrounds; skip the gold border on dark backgrounds.
-5. **Links follow the pattern**: `text-galaxy-primary` resting, `hover:text-galaxy-gold` with transition.
+5. **Links follow the pattern**: `text-link` resting, `hover:text-link-hover` with a gold underline; gold hover text only on dark chrome.
 6. **Grid overlay**: `bg-grid-dark` on dark sections. Use the `<PageHeader>` component to get the full gradient + grid + gold-bar treatment without reimplementing it.
 7. **Tokens over hex**: `bg-galaxy-dark` not `bg-[#2c3143]`. Tokens are in `global.css` under `@theme`.
 8. **Check IWC first**: For patterns that appear on both sites (cards, tabs, filter sidebars, hover accent bars), look at how IWC implements it ([galaxyproject/iwc website](https://github.com/galaxyproject/iwc/tree/main/website)) before writing new code. Ecosystem consistency > local cleverness.
 
 ---
 
+## 10. galaxy-ui Alignment
+
+galaxy-ui (`client/packages/ui` in `galaxyproject/galaxy`) is the Galaxy application's component library: private, raw Vue SFCs inside a Bootstrap / `@vue/compat` app, primitive tokens only (`--color-{blue,grey,green,yellow,orange,red}-{100..900}`, `--spacing-N`, `--font-size-{small,medium,large}`), no semantic layer and no dark mode. The Hub cannot import it; it aligns with it.
+
+**Values** (same hex in galaxy-ui, brand tokens and Hub roles):
+
+| galaxy-ui | Brand token | Hub role |
+|-----------|-------------|----------|
+| `blue-600` `#25537b` | `galaxy-primary` | `link`, `focus`, `brand`, `selected` |
+| `blue-700` `#2c3143` | `galaxy-dark` | `fg-strong`, `chrome` |
+| `yellow-500` `#ffd700` | `galaxy-gold` | `accent-gold` |
+| `blue-100` `#f1f9fe`, `blue-600` text | | `info-bg`, `info-fg` |
+| `yellow-100`, `yellow-700` | | `warn-bg`, `warn-fg` |
+| `red-100`, `red-700` | | `danger-bg`, `danger-fg` |
+
+Known mismatches: galaxy-ui `yellow-600` `#f0aa02` vs brand `gold-600` `#d19e00` (the Hub's gold hover and link-hover underline use `#d19e00`); galaxy-ui greys have no `#58585a` (Hub meta and body come from the brand chicago scale); galaxy-ui `green-600` text is 3.25:1 on white, so the Hub's `ok-fg` uses a darker green.
+
+**Names** (same meaning, Hub spelling):
+
+| galaxy-ui | Hub |
+|-----------|-----|
+| `GButton` `color`/`size`/`outline`/`pressed`/`pill` | `ui/button` cva variants; sizes `sm`/`default`/`lg` = `small`/`medium`/`large` |
+| `GButtonGroup` + `pressed` | View toggle: `role="group"` with `aria-pressed` buttons |
+| `GTable` `compact`, `headVariant` | prose tables (§3 Tables) |
+| `GTabs` | Reka `ui/tabs` for in-page panels |
+| `GLink` | link roles (§2) |
+| `GAlert` `variant` | `.callout` on the status roles |
+
+**Rule:** never copy galaxy-ui variable names (`--color-blue-600` and friends) into the Hub `@theme`: they would replace Tailwind's own `blue` scale that existing `text-blue-*` utilities use. Align values and role names only. Proposals that would help both sides (a role layer in galaxy-ui, a 3:1 focus colour instead of the `blue-400` glow, `aria-pressed` on `GButton pressed`) are drafted for the galaxy-ui maintainers, not patched here.
+
+---
+
 ## Sister Documents
 
-- **IWC DESIGN.md**: [galaxyproject/iwc website/DESIGN.md](https://github.com/galaxyproject/iwc/blob/main/website/DESIGN.md) -- the closest sibling site.
+- **galaxy-ui**: [README](https://github.com/galaxyproject/galaxy/blob/dev/client/packages/ui/README.md) and [`tokens.css`](https://github.com/galaxyproject/galaxy/blob/dev/client/packages/ui/src/styles/tokens.css) in `galaxyproject/galaxy` -- with this file, the source of truth for Hub design (§10).
+- **IWC DESIGN.md**: [galaxyproject/iwc website/DESIGN.md](https://github.com/galaxyproject/iwc/blob/main/website/DESIGN.md) -- the closest sibling site; a reference (see §1 precedence).
 - **Base design system**: [galaxyproject/galaxy-brand-tokens DESIGN.md](https://github.com/galaxyproject/galaxy-brand-tokens/blob/main/DESIGN.md) -- the canonical base Galaxy design system.
