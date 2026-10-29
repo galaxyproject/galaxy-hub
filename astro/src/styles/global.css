@@ -348,7 +348,7 @@ body {
    background sit on a light plate in dark. Transparent in light. A spread shadow, so nothing moves.
    Images in prose and region inserts get it by file type; opaque images hide it. */
 .logo-plate,
-:is(.prose, .subsite-inserts) img:is([src$='.svg'], [src$='.png'], [src$='.webp'], [src$='.gif']) {
+:is(.prose, .subsite-inserts) img:is([src*='.svg' i], [src*='.png' i], [src*='.webp' i], [src*='.gif' i]) {
   background-color: var(--gx-logo-plate);
   box-shadow: 0 0 0 4px var(--gx-logo-plate);
 }
