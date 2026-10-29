@@ -136,6 +136,46 @@ test.describe('Theme switch', () => {
     expect(await stored(page)).toBe('dark');
   });
 
+  test('native controls follow the theme: color-scheme is dark for Dark and for a dark system', async ({ page }) => {
+    const scheme = () =>
+      page.evaluate(() => {
+        const input = document.createElement('input');
+        input.type = 'date';
+        document.querySelector('main')?.append(input);
+        const value = [getComputedStyle(document.documentElement).colorScheme, getComputedStyle(input).colorScheme];
+        input.remove();
+        return value;
+      });
+    await page.emulateMedia({ colorScheme: 'dark' });
+    await page.goto(PAGE);
+    await expect(page.locator('meta[name="color-scheme"]')).toHaveAttribute('content', 'light dark');
+    expect(await theme(page)).toBeNull();
+    expect(await scheme()).toEqual(['dark', 'dark']);
+
+    await pick(page, 'Light');
+    expect(await scheme()).toEqual(['light', 'light']);
+
+    await page.emulateMedia({ colorScheme: 'light' });
+    await pick(page, 'Dark');
+    expect(await theme(page)).toBe('dark');
+    expect(await scheme()).toEqual(['dark', 'dark']);
+  });
+
+  test('the switch is reachable at 390px on home, in its mobile menu', async ({ page }) => {
+    // Content pages: covered by the mobile menu test above
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.emulateMedia({ colorScheme: 'light' });
+    await page.goto('/');
+    await page.getByRole('button', { name: 'Toggle menu' }).click();
+    const group = page.locator('#mobile-menu [data-theme-switch]');
+    await expect(page.locator('#mobile-menu astro-island:has([data-theme-switch])')).not.toHaveAttribute('ssr');
+    await group.scrollIntoViewIfNeeded();
+    await expect(group).toBeInViewport();
+    await group.locator('label').filter({ hasText: 'Dark' }).click();
+    await expect.poll(() => theme(page)).toBe('dark');
+    expect(await stored(page)).toBe('dark');
+  });
+
   test('print stays light with Dark chosen', async ({ page }) => {
     await page.addInitScript((key) => localStorage.setItem(key, 'dark'), KEY);
     await page.goto(PAGE);
