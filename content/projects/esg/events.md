@@ -1,8 +1,8 @@
 ---
-title: Events - EuroScienceGateway
-description: All Events regarding the EuroScienceGateway Project
+title: Past events - EuroScienceGateway
+description: Past events of the EuroScienceGateway Project
 ---
 
-# EuroScienceGateway Events
+# EuroScienceGateway Past Events
 
-Upcoming and past events regarding the EuroScienceGateway Project.
+Past events of the EuroScienceGateway Project.

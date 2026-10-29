@@ -106,7 +106,7 @@ test.describe('Event date line', () => {
       });
     }
 
-    test('/projects/esg/ Events card lists each title before its date line', async ({ page }) => {
+    test('/projects/esg/ past events list each title before its date line', async ({ page }) => {
       await page.goto('/projects/esg/');
 
       const items = page.locator('li:has(.gx-event-date)');
