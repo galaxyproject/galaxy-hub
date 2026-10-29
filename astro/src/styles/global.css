@@ -553,12 +553,37 @@ body {
   max-width: var(--reading-measure);
 }
 
-/* A right float that is a direct child of the column floats at the measure edge, so the
-   text beside it keeps its usual gap. Below sm, floats stack (see below). */
+/* Pages without a rail (ContentWithToc): the capped text blocks are centred in the full
+   column, so no empty strip opens on the right while wide content keeps the full width. */
+.prose-measure-centred
+  > :is(p, ul, ol, dl, blockquote, h1, h2, h3, h4, h5, h6):not(
+    .text-center,
+    [align='center' i],
+    [style*='text-align:center' i],
+    [style*='text-align: center' i],
+    :has(> img:only-child:not(.float-right, .float-left, [align])),
+    :has(> a:only-child > img:only-child)
+  ) {
+  margin-inline: auto;
+}
+
+/* A right float that is a direct child of the column floats at the edge of the text,
+   so the text beside it keeps its usual gap (half the slack when the text is centred).
+   Below sm, floats stack (see below). */
 @media (min-width: 40rem) {
   .prose-measure > .float-right,
   .prose-measure > img[align='right' i] {
     margin-right: max(0px, 100% - var(--reading-measure));
+  }
+
+  .prose-measure-centred > .float-right,
+  .prose-measure-centred > img[align='right' i] {
+    margin-right: max(0px, (100% - var(--reading-measure)) / 2);
+  }
+
+  .prose-measure-centred > .float-left,
+  .prose-measure-centred > img[align='left' i] {
+    margin-left: max(0px, (100% - var(--reading-measure)) / 2);
   }
 }
 
