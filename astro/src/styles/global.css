@@ -342,6 +342,13 @@ body {
   --measure: 72ch;
 }
 
+/* In dark, inline colours pasted into citation titles follow the title colour */
+.citation-title [style*='color'] {
+  @variant dark {
+    color: inherit;
+  }
+}
+
 /* In dark, light islands (above) also reset the inherited text colour and the prose colours,
    which otherwise resolve on the dark .prose parent. Dark only, so light stays as it was.
    Alerts keep their Bootstrap text colour. */
