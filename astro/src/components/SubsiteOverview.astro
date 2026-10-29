@@ -1,6 +1,6 @@
 ---
 import type { CollectionEntry } from 'astro:content';
-import PageHeader from './layout/PageHeader.astro';
+import RegionBand from './layout/RegionBand.astro';
 import EventDate from './events/EventDate.astro';
 import { formatDate } from '../utils/dateUtils';
 
@@ -17,7 +17,7 @@ const { subsite, title, description, upcomingEvents, subsiteNews, hasMainContent
 ---
 
 <div class="max-w-6xl mx-auto">
-  <PageHeader {title} {description} />
+  <RegionBand {title} {description} />
 
   {hasMainContent && <div class="my-5 max-w-none subsite-inserts">
     <slot name="main-content" />

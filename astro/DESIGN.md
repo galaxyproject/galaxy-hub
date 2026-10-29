@@ -226,7 +226,11 @@ The structure it produces (shown for reference):
 
 #### Page header: compact variant
 
-Reading pages use `<PageHeader variant="compact">`: content pages and news posts (`ArticleLayout`), event pages and conference pages (`ConferenceLayout`). Listing and landing pages (news, events, tags, search, region homes) keep the default `hero` variant above. FAIR pages keep the hero too, because their principle cards (`FairSectionHero`) sit on the gradient.
+Reading pages use `<PageHeader variant="compact">`: content pages and news posts (`ArticleLayout`), event pages and conference pages (`ConferenceLayout`). Listing and landing pages (news, events, tags, search) keep the default `hero` variant above. FAIR pages keep the hero too, because their principle cards (`FairSectionHero`) sit on the gradient.
+
+#### Region band
+
+Region homes (`/eu/`, `/freiburg/`, ..., and their `/embed/` copies) open with `<RegionBand>` (`components/layout/RegionBand.astro`) instead of a page header: `galaxy-dark` to `galaxy-primary` gradient at 120deg, the 24px grid texture, a 3px gold bottom rule, `rounded-lg`, at most 180px tall at desktop width. It holds an uppercase micro eyebrow ("Regional community", gold map-pin icon), the `h1` and the lead in `chrome-fg`. The project band (`ProjectPageTop.astro`) uses the same look.
 
 - **Surface**: flat on the article's white surface; no gradient, grid overlay, rounded corners or gold side bar. The header lines up with the content column (`1.5rem` side margin, `2rem` from `sm`).
 - **Rule**: a 1px `chicago-100` hairline under the header with a 48px x 3px `galaxy-gold` segment at its left end (`::after`). The segment is the only gold in the header.

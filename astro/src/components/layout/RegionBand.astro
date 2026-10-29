@@ -1,0 +1,96 @@
+---
+/**
+ * Brand band at the top of a region home: eyebrow, h1 and lead on the dark-to-primary gradient
+ * with the 24px grid and a 3px gold rule. At most 180px tall at desktop width; the gradient is
+ * kept for landing pages and these bands only (reading and list pages are flat).
+ */
+import Icon from '../mdx/Icon.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+  eyebrow?: string;
+}
+
+const { title, description, eyebrow = 'Regional community' } = Astro.props;
+---
+
+<section class="region-band" aria-labelledby="page-title">
+  <p class="region-band__eyebrow">
+    <span class="region-band__icon" aria-hidden="true"><Icon name="map-pin" size={14} /></span>
+    {eyebrow}
+  </p>
+  <h1 id="page-title" class="text-h1 font-bold">{title}</h1>
+  {description && <p class="region-band__lead">{description}</p>}
+</section>
+
+<style>
+  .region-band {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    padding: 24px 28px;
+    border-radius: 0.625rem;
+    border-bottom: 3px solid var(--gx-accent-gold);
+    color: #fff;
+    background: linear-gradient(
+      120deg,
+      var(--color-galaxy-dark) 0%,
+      var(--color-galaxy-dark) 42%,
+      var(--color-galaxy-primary) 100%
+    );
+  }
+
+  /* Same 24px grid texture as the hero page header */
+  .region-band::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background-image:
+      linear-gradient(to right, rgb(255 255 255 / 0.04) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(255 255 255 / 0.04) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+
+  .region-band__eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 0 0 8px;
+    font-size: var(--gx-text-micro);
+    line-height: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--gx-chrome-fg);
+  }
+
+  .region-band__icon {
+    display: inline-flex;
+    color: var(--gx-accent-gold);
+  }
+
+  .region-band h1 {
+    margin: 0;
+    letter-spacing: -0.01em;
+    color: #fff;
+  }
+
+  .region-band__lead {
+    margin: 6px 0 0;
+    font-size: var(--gx-text-lead);
+    line-height: 1.75rem;
+    color: var(--gx-chrome-fg);
+  }
+
+  @media (max-width: 767.98px) {
+    .region-band {
+      padding: 20px 18px;
+    }
+
+    .region-band__eyebrow {
+      letter-spacing: 0.04em;
+    }
+  }
+</style>
