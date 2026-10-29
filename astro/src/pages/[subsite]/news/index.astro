@@ -5,6 +5,7 @@ import NewsList from '../../../components/news/NewsList.vue';
 import { subsites } from '../../../stores/subsiteStore';
 import { getPublishedNews } from '../../../utils/content';
 import { listImage } from '../../../utils/listImage';
+import { servedImageCheck } from '../../../utils/publicImage';
 
 export function getStaticPaths() {
   // Generate paths for all non-external subsites (excluding global which uses /news/)
@@ -27,6 +28,9 @@ const eyebrow = isEurope ? { label: 'Galaxy Europe', href: '/eu/' } : undefined;
 const newsArticles = await getPublishedNews();
 
 // Transform to plain objects for Vue component
+// Tile images must exist in public/ and stay under the size cap
+const tileImageOk = servedImageCheck();
+
 const articleData = newsArticles.map((a) => ({
   slug: a.data.slug,
   title: a.data.title || 'Untitled',
@@ -35,7 +39,7 @@ const articleData = newsArticles.map((a) => ({
   tags: Array.isArray(a.data.tags) ? a.data.tags : a.data.tags ? [a.data.tags] : [],
   subsites: a.data.subsites,
   externalUrl: a.data.external_url,
-  image: listImage(a.data.image, a.body),
+  image: listImage(a.data.image, a.body, tileImageOk),
 }));
 ---
 
