@@ -95,6 +95,11 @@
     background: none !important;
   }
 
+  /* The 72ch screen measure would leave text short of tables on paper; use the page width. */
+  .prose-measure {
+    --reading-measure: 100% !important;
+  }
+
   /* Decorative page-background patterns waste ink and hurt text contrast. */
   .bg-grid,
   .bg-grid-dark {

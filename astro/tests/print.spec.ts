@@ -107,6 +107,21 @@ test.describe('Print stylesheet', () => {
       );
       expect(stuck).toEqual([]);
     });
+
+    test('running text uses the full printed width, not the 72ch screen measure', async ({ page }) => {
+      await page.goto(ARTICLE);
+      await page.emulateMedia({ media: 'print' });
+
+      const widths = await page.evaluate(() => {
+        const prose = document.querySelector('.prose-measure');
+        const p = [...(prose?.children ?? [])].find(
+          (el) => el.tagName === 'P' && (el.textContent ?? '').length > 200
+        );
+        return prose && p ? { prose: prose.getBoundingClientRect().width, p: p.getBoundingClientRect().width } : null;
+      });
+      expect(widths, 'expected a long paragraph in the prose column').not.toBeNull();
+      expect(widths!.p).toBeGreaterThan(widths!.prose - 1);
+    });
   });
 
   test.describe('readable without background graphics', () => {
