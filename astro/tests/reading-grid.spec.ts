@@ -74,6 +74,22 @@ test.describe('Reading grid at 1440px', () => {
     const measure = await measureAt(paragraph);
     expect((await prose.boundingBox())!.width, 'text column').toBeLessThanOrEqual(measure + 1);
     expect((await paragraph.boundingBox())!.width).toBeLessThanOrEqual(measure + 1);
+
+    // As in prototype A: text on the left edge of the frame, rail on the right edge.
+    const frame = await page.locator('.content-with-toc').evaluate((el) => {
+      const r = el.getBoundingClientRect();
+      const s = getComputedStyle(el);
+      return { left: r.left + parseFloat(s.paddingLeft), right: r.right - parseFloat(s.paddingRight) };
+    });
+    const railBox = (await page.locator('.toc-sidebar').boundingBox())!;
+    expect(Math.abs((await prose.boundingBox())!.x - frame.left), 'text starts at the frame edge').toBeLessThan(1);
+    expect(Math.abs(railBox.x + railBox.width - frame.right), 'rail ends at the frame edge').toBeLessThan(1);
+
+    // Prototype A's frame: 40px in from the main area on both sides below its 1120px cap,
+    // which gives the same text-to-rail gap.
+    const main = (await page.locator('main').boundingBox())!;
+    expect(Math.abs(frame.left - main.x - 40), 'frame 40px from the main area').toBeLessThan(1);
+    expect(Math.abs(main.x + main.width - frame.right - 40), 'frame 40px from the main area').toBeLessThan(1);
   });
 
   test('tables keep the full column, text keeps the measure', async ({ page }) => {
