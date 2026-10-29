@@ -57,7 +57,7 @@ if (person.github && githubUrl) socialLinks.push({ label: 'GitHub', href: github
 ---
 
 <article
-  class="relative rounded-lg border border-galaxy-primary/10 bg-white shadow-sm transition-transform duration-200 hover:-translate-y-1 hover:shadow-md text-center p-6 pt-14 overflow-visible"
+  class="relative rounded-lg border border-galaxy-primary/10 bg-surface shadow-sm transition-transform duration-200 hover:-translate-y-1 hover:shadow-md text-center p-6 pt-14 overflow-visible"
 >
   {hallOfFameUrl && <a
     href={hallOfFameUrl}
@@ -67,12 +67,12 @@ if (person.github && githubUrl) socialLinks.push({ label: 'GitHub', href: github
     Hub Contributions
   </a>}
   <div
-    class="absolute -top-12 left-1/2 -translate-x-1/2 h-20 w-20 rounded-full ring-4 ring-white shadow-md overflow-hidden bg-ebony-clay-50"
+    class="absolute -top-12 left-1/2 -translate-x-1/2 h-20 w-20 rounded-full ring-4 ring-white shadow-md overflow-hidden bg-surface-chip"
   >
     {avatar ? (
       <img src={avatar} alt={person.name} class="h-full w-full object-cover" loading="lazy" />
     ) : (
-      <div class="h-full w-full flex items-center justify-center text-lg font-semibold text-galaxy-primary">
+      <div class="h-full w-full flex items-center justify-center text-lg font-semibold text-link">
         {(person.name || person.id || '?').slice(0, 2).toUpperCase()}
       </div>
     )}
@@ -80,8 +80,8 @@ if (person.github && githubUrl) socialLinks.push({ label: 'GitHub', href: github
 
   <div class="space-y-2">
     <div class="space-y-1">
-      <h3 class="text-lg font-semibold text-galaxy-dark mt-2">{person.name}</h3>
-      {person.title && <p class="text-sm text-chicago-600">{person.title}</p>}
+      <h3 class="text-lg font-semibold text-fg-strong mt-2">{person.name}</h3>
+      {person.title && <p class="text-sm text-fg-meta">{person.title}</p>}
     </div>
     {bioHtml && <div class="pt-1 prose prose-sm max-w-none text-left mx-auto" set:html={bioHtml} />}
   </div>
@@ -97,14 +97,14 @@ if (person.github && githubUrl) socialLinks.push({ label: 'GitHub', href: github
       return row.href ? (
         <a
           href={row.href}
-          class="flex items-center justify-center gap-2 text-sm text-galaxy-primary hover:text-galaxy-dark transition-colors"
+          class="flex items-center justify-center gap-2 text-sm text-link hover:text-fg-strong transition-colors"
           target={row.href.startsWith('http') ? '_blank' : undefined}
           rel={row.href.startsWith('http') ? 'noopener noreferrer' : undefined}
         >
           {content}
         </a>
       ) : (
-        <div class="flex items-center justify-center gap-2 text-sm text-chicago-700">{content}</div>
+        <div class="flex items-center justify-center gap-2 text-sm text-fg-2">{content}</div>
       );
     })}
   </div>
@@ -113,7 +113,7 @@ if (person.github && githubUrl) socialLinks.push({ label: 'GitHub', href: github
     {/* Orcid's knocked-out "iD" lettering needs a touch more size to stay legible */}
     {socialLinks.map((link) => <a
       href={link.href}
-      class="inline-flex items-center justify-center h-9 w-9 rounded-full border border-ebony-clay-100 text-galaxy-primary bg-white hover:bg-galaxy-primary/10 hover:border-galaxy-primary transition-colors shadow-sm"
+      class="inline-flex items-center justify-center h-9 w-9 rounded-full border border-line text-link bg-surface hover:bg-galaxy-primary/10 hover:border-galaxy-primary transition-colors shadow-sm"
       target="_blank"
       rel="noopener noreferrer"
       title={link.label}
