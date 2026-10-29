@@ -1,0 +1,86 @@
+---
+/**
+ * Compact rows of news posts or past events on project pages: title, date line, teaser.
+ * Events use the shared event date line (EventDate); news shows the publication date.
+ */
+import EventDate from '@/components/events/EventDate.astro';
+import { formatDate } from '@/utils/dateUtils';
+
+export interface ProjectRow {
+  href: string;
+  title: string;
+  tease?: string | null;
+  start?: Date | string | null;
+  end?: Date | string | null;
+}
+
+interface Props {
+  items: ProjectRow[];
+  kind: 'news' | 'events';
+}
+
+const { items, kind } = Astro.props;
+
+function isoDay(value: Date | string | null | undefined): string | undefined {
+  if (!value) return undefined;
+  const date = new Date(value);
+  return Number.isNaN(date.getTime()) ? undefined : date.toISOString().slice(0, 10);
+}
+---
+
+<ol class="project-rows" data-project-list={kind}>
+  {items.map((item) => <li>
+    <h3><a href={item.href}>{item.title}</a></h3>
+    <p class="project-rows__meta">
+      {kind === 'events' ? (
+        <EventDate start={item.start} end={item.end} past />
+      ) : (
+        <time datetime={isoDay(item.start)}>{formatDate(item.start, false)}</time>
+      )}
+    </p>
+    {item.tease && <p class="project-rows__teaser">{item.tease}</p>}
+  </li>)}
+</ol>
+
+<style>
+  .project-rows {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .project-rows li {
+    padding: 14px 0;
+    border-bottom: 1px solid var(--color-chicago-100);
+  }
+
+  .project-rows h3 {
+    margin: 0 0 4px;
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 700;
+  }
+
+  .project-rows h3 a {
+    color: var(--color-galaxy-primary);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .project-rows h3 a:hover {
+    text-decoration-color: var(--color-galaxy-gold);
+  }
+
+  .project-rows__meta {
+    margin: 0;
+    font-size: 0.875rem;
+    color: var(--color-galaxy-grey);
+  }
+
+  .project-rows__teaser {
+    margin: 4px 0 0;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: var(--color-chicago-900);
+  }
+</style>

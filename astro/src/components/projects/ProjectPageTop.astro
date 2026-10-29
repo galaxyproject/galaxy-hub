@@ -1,0 +1,306 @@
+---
+/**
+ * Top of a project page: breadcrumbs, the project band (eyebrow, title, status badge, lead, logo)
+ * and the section tabs. Section pages (News, Past events) pass `title` and get a compact header
+ * instead of the band: project name and status above the page title. Tabs are links with
+ * aria-current, not ARIA tabs: each one is its own page. The tab links come from siteContext.ts,
+ * the same list the sidebar's project group shows.
+ */
+import Breadcrumbs from '@/components/common/Breadcrumbs.astro';
+import Icon from '@/components/mdx/Icon.astro';
+import { projectLinks } from '@/utils/siteContext';
+import { projectStatus, statusBadgeLabel, type ProjectFacts } from '@/utils/projectFacts';
+
+interface Props {
+  projectId: string;
+  name: string;
+  description: string;
+  facts: ProjectFacts;
+  /** Item counts shown next to a tab label, keyed by the tab's href. */
+  counts?: Record<string, number>;
+  /** Title of a section page; the overview leaves it out and shows the band. */
+  title?: string;
+  /** Lead under a section page's title. */
+  lead?: string;
+}
+
+const { projectId, name, description, facts, counts = {}, title, lead } = Astro.props;
+const now = new Date();
+const status = projectStatus(facts, now);
+const ended = status === 'ended';
+const badge = statusBadgeLabel(facts, now);
+const eyebrow = ['Project', ...facts.labels].join(' · ');
+const path = Astro.url.pathname.endsWith('/') ? Astro.url.pathname : `${Astro.url.pathname}/`;
+const tabs = projectLinks(projectId);
+const projectHref = tabs[0]?.href;
+const currentLabel = tabs.find((tab) => tab.href === path)?.label ?? title;
+const crumbs = [
+  { label: 'Galaxy Project', href: '/' },
+  { label: 'Projects' },
+  ...(title ? [{ label: name, href: projectHref }, { label: currentLabel ?? title }] : [{ label: name }]),
+];
+---
+
+<div class="project-top">
+  <Breadcrumbs items={crumbs} />
+
+  {title ? (
+    <header class="project-head">
+      <p class="project-head__context">
+        <span class="project-head__icon" aria-hidden="true"><Icon name="layers" size={16} /></span>
+        <a href={projectHref}>{name}</a>
+        {badge && <span class="project-head__badge" data-project-status={status}>
+          {ended && <span aria-hidden="true"><Icon name="archive" size={12} /></span>}
+          {badge}
+        </span>}
+      </p>
+      <h1 id="page-title">{title}</h1>
+      {lead && <p class="project-head__lead">{lead}</p>}
+    </header>
+  ) : (
+    <section class="project-band" aria-labelledby="page-title">
+      <div class="project-band__body">
+        <p class="project-band__eyebrow">
+          <span class="project-band__eyebrow-icon" aria-hidden="true"><Icon name="layers" size={14} /></span>
+          {eyebrow}
+        </p>
+        <div class="project-band__titlerow">
+          <h1 id="page-title">{name}</h1>
+          {badge && <span class="project-band__badge" data-project-status={status}>
+            {ended && <span aria-hidden="true"><Icon name="archive" size={14} /></span>}
+            {badge}
+          </span>}
+        </div>
+        {description && <p class="project-band__lead">{description}</p>}
+      </div>
+      {facts.logoOnDark && <img class="project-band__logo" src={facts.logoOnDark} alt="" width="240" height="42" />}
+    </section>
+  )}
+
+  <nav class="project-tabs" aria-label={`${name} sections`}>
+    <ul>
+      {tabs.map((tab) => <li>
+        <a href={tab.href} aria-current={path === tab.href ? 'page' : undefined}>
+          {tab.label}
+          {counts[tab.href] !== undefined && <span class="project-tabs__count">{counts[tab.href]}</span>}
+        </a>
+      </li>)}
+    </ul>
+  </nav>
+</div>
+
+<style>
+  .project-band {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px 32px;
+    padding: 20px 28px;
+    border-radius: 0.5rem;
+    border-bottom: 3px solid var(--color-galaxy-gold);
+    color: #fff;
+    background: linear-gradient(
+      120deg,
+      var(--color-galaxy-dark) 0%,
+      var(--color-galaxy-dark) 42%,
+      var(--color-galaxy-primary) 100%
+    );
+  }
+
+  /* Same 24px grid texture as the page header */
+  .project-band::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background-image:
+      linear-gradient(to right, rgb(255 255 255 / 0.03) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(255 255 255 / 0.03) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+
+  .project-band__body {
+    flex: 1 1 380px;
+    min-width: 0;
+  }
+
+  .project-band__eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 0 0 6px;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-ebony-clay-50);
+  }
+
+  .project-band__eyebrow-icon {
+    display: inline-flex;
+    color: var(--color-galaxy-gold);
+  }
+
+  .project-band__titlerow {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px 12px;
+  }
+
+  .project-band h1 {
+    margin: 0;
+    font-size: 1.875rem;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    color: #fff;
+  }
+
+  .project-band__badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 2px 10px;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    color: var(--color-galaxy-dark);
+    background: #fff;
+  }
+
+  .project-band__lead {
+    margin: 6px 0 0;
+    font-size: 1.125rem;
+    line-height: 1.6rem;
+    color: var(--color-ebony-clay-50);
+  }
+
+  .project-band__logo {
+    flex: none;
+    width: 240px;
+    height: auto;
+    opacity: 0.95;
+  }
+
+  .project-head__context {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px 8px;
+    margin: 0 0 6px;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: var(--color-galaxy-grey);
+  }
+
+  .project-head__context a {
+    color: var(--color-galaxy-grey);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .project-head__context a:hover {
+    color: var(--color-galaxy-primary);
+    text-decoration-color: var(--color-galaxy-gold);
+  }
+
+  .project-head__icon {
+    display: inline-flex;
+    color: var(--color-galaxy-primary);
+  }
+
+  .project-head__badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 0 8px;
+    border: 1px solid var(--color-chicago-200);
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    color: var(--color-chicago-700);
+    background: var(--color-chicago-50);
+  }
+
+  .project-head h1 {
+    margin: 0;
+    font-size: 1.875rem;
+    line-height: 1.2;
+    font-weight: 700;
+    color: var(--color-galaxy-dark);
+  }
+
+  .project-head__lead {
+    margin: 8px 0 0;
+    font-size: 1.125rem;
+    line-height: 1.6rem;
+    color: var(--color-chicago-700);
+  }
+
+  .project-tabs {
+    margin: 16px 0 24px;
+    border-bottom: 1px solid var(--color-chicago-100);
+  }
+
+  .project-tabs ul {
+    display: flex;
+    gap: 4px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .project-tabs a {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    min-height: 44px;
+    margin-bottom: -1px;
+    padding: 8px 12px;
+    font-size: 0.875rem;
+    font-weight: 700;
+    white-space: nowrap;
+    color: var(--color-galaxy-grey);
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+  }
+
+  .project-tabs a:hover {
+    color: var(--color-galaxy-primary);
+    background: var(--color-chicago-50);
+  }
+
+  .project-tabs a[aria-current='page'] {
+    color: var(--color-galaxy-dark);
+    border-bottom-color: var(--color-galaxy-gold);
+  }
+
+  .project-tabs__count {
+    padding: 0 6px;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    color: var(--color-galaxy-grey);
+    background: var(--color-chicago-100);
+  }
+
+  @media (max-width: 639px) {
+    .project-band {
+      padding: 18px;
+    }
+
+    .project-band h1 {
+      font-size: 1.625rem;
+    }
+
+    .project-band__logo {
+      display: none;
+    }
+  }
+</style>
