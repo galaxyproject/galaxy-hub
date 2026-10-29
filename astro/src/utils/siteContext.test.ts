@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { contextFromPath, contextMenuGroups, contextPersistKey } from './siteContext';
+import { contextFromPath, contextMenuGroups, contextPersistKey, projectLinks } from './siteContext';
 
 describe('contextFromPath', () => {
   it('uses the region for region-prefixed URLs', () => {
@@ -33,6 +33,21 @@ describe('contextFromPath', () => {
       href: '/projects/esg/',
     });
     expect(contextFromPath('/projects/esgx/')).toMatchObject({ kind: 'global' });
+  });
+
+  it('treats ESG4Stars pages as their own project context', () => {
+    expect(contextFromPath('/projects/esg4stars/events/')).toMatchObject({
+      id: 'esg4stars',
+      kind: 'project',
+      name: 'ESG4Stars',
+      href: '/projects/esg4stars/',
+    });
+    expect(projectLinks('esg4stars').map((link) => link.href)).toEqual([
+      '/projects/esg4stars/',
+      '/projects/esg4stars/news/',
+      '/projects/esg4stars/events/',
+    ]);
+    expect(contextFromPath('/projects/')).toMatchObject({ kind: 'global' });
   });
 });
 
