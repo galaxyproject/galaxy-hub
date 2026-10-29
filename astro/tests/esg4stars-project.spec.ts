@@ -88,10 +88,16 @@ test.describe('ESG4Stars project pages', () => {
   });
 
   test('news and events come from the esg4stars tag', async ({ page }) => {
+    // The overview shows the latest 6 news and 5 events; named items are checked on the full lists
     await page.goto('/projects/esg4stars/');
-    await expect(page.getByRole('region', { name: 'News' }).getByRole('link', { name: kickedOff })).toBeVisible();
-    const overviewEvents = page.getByRole('region', { name: 'Events', exact: true });
-    for (const name of events) await expect(overviewEvents.getByRole('link', { name })).toBeVisible();
+    for (const [kind, max] of [
+      ['news', 6],
+      ['events', 5],
+    ] as const) {
+      const rows = await page.locator(`[data-project-list="${kind}"] > li`).count();
+      expect(rows, kind).toBeGreaterThan(0);
+      expect(rows, kind).toBeLessThanOrEqual(max);
+    }
 
     await page.goto('/projects/esg4stars/news/');
     await expect(page.getByRole('link', { name: kickedOff })).toBeVisible();
