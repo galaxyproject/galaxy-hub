@@ -1,0 +1,57 @@
+---
+/**
+ * Notice at the top of an ended project's overview. Renders nothing while the project runs.
+ */
+import Icon from '@/components/mdx/Icon.astro';
+import { projectDuration, projectHasEnded, type ProjectFacts } from '@/utils/projectFacts';
+
+interface Props {
+  name: string;
+  facts: ProjectFacts;
+  /** What the pages keep now that the project has ended; the default slot replaces it. */
+  record?: string;
+}
+
+const { name, facts, record } = Astro.props;
+const ended = projectHasEnded(facts, new Date());
+const duration = projectDuration(facts);
+---
+
+{ended && <div class="project-ended" role="note" aria-labelledby="project-ended-title">
+  <span class="project-ended__icon" aria-hidden="true"><Icon name="archive" size={20} /></span>
+  <div>
+    <p class="project-ended__title" id="project-ended-title">This project has ended</p>
+    <p>
+      {duration ? `${name} ran from ${duration.long}.` : `${name} has ended.`}
+      <slot>{record && ` ${record}`}</slot>
+    </p>
+  </div>
+</div>}
+
+<style>
+  .project-ended {
+    display: flex;
+    gap: 12px;
+    margin: 0 0 16px;
+    padding: 14px 16px;
+    border-left: 4px solid var(--color-chicago-500);
+    border-radius: 0 0.5rem 0.5rem 0;
+    color: var(--color-galaxy-dark);
+    background: var(--color-chicago-50);
+  }
+
+  .project-ended__icon {
+    display: inline-flex;
+    margin-top: 2px;
+    color: var(--color-galaxy-grey);
+  }
+
+  .project-ended p {
+    margin: 0;
+  }
+
+  .project-ended .project-ended__title {
+    margin-bottom: 2px;
+    font-weight: 700;
+  }
+</style>

@@ -1,0 +1,174 @@
+---
+/**
+ * Project facts: status, duration, programme, grants, the partner list link and the funding logo.
+ * Rows without data in the project's frontmatter are left out.
+ */
+import Icon from '@/components/mdx/Icon.astro';
+import { countLabel, projectDuration, projectStatus, type ProjectFacts } from '@/utils/projectFacts';
+
+interface Props {
+  facts: ProjectFacts;
+  /** Rows in the partner list (partners.yml); shown as a link to it, not as a partner count claim. */
+  partnerCount?: number;
+  /** Anchor of the partners section the row links to. */
+  partnersHref?: string;
+  /** Id prefix, so two copies on one page (inline on phones, rail on desktop) do not collide. */
+  idPrefix?: string;
+  class?: string;
+}
+
+const {
+  facts,
+  partnerCount = 0,
+  partnersHref = '#partners',
+  idPrefix = 'project-facts',
+  class: className,
+} = Astro.props;
+const titleId = `${idPrefix}-title`;
+const status = projectStatus(facts, new Date());
+const duration = projectDuration(facts);
+const programme = [facts.programme, facts.call].filter(Boolean).join(' · ');
+---
+
+<section class:list={['project-facts', className]} aria-labelledby={titleId}>
+  <h2 class="project-facts__title" id={titleId}>Project facts</h2>
+  <dl>
+    {status && <div>
+      <dt>Status</dt>
+      <dd>
+        <span class="project-facts__status">
+          {status === 'ended' && <span aria-hidden="true"><Icon name="archive" size={14} /></span>}
+          {status === 'ended' ? 'Ended' : 'Active'}
+        </span>
+      </dd>
+    </div>}
+    {duration && <div>
+      <dt>Duration</dt>
+      <dd>{duration.short} <span class="project-facts__muted">({countLabel(duration.months, 'month')})</span></dd>
+    </div>}
+    {programme && <div>
+      <dt>Programme</dt>
+      <dd>{programme}</dd>
+    </div>}
+    {facts.grants.map((grant) => <div>
+      <dt>{grant.label}</dt>
+      <dd>
+        {grant.url ? (
+          <a href={grant.url} target="_blank" rel="noopener noreferrer">
+            {grant.id}<span aria-hidden="true"><Icon name="external-link" size={12} /></span>
+            <span class="sr-only"> (opens in a new tab)</span>
+          </a>
+        ) : (
+          grant.id
+        )}
+      </dd>
+    </div>)}
+    {partnerCount > 0 && <div>
+      <dt>Partner list</dt>
+      <dd><a href={partnersHref}>{countLabel(partnerCount, 'organisation')}</a></dd>
+    </div>}
+  </dl>
+  {facts.fundingLogo && (
+    <img
+      class="project-facts__logo"
+      src={facts.fundingLogo.src}
+      alt={facts.fundingLogo.alt}
+      width="150"
+      height="38"
+      loading="lazy"
+      decoding="async"
+    />
+  )}
+</section>
+
+<style>
+  .project-facts {
+    padding: 14px 16px;
+    border: 1px solid var(--color-bay-of-many-200);
+    border-radius: 0.5rem;
+    background: #fff;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 0.05);
+  }
+
+  .project-facts__title {
+    margin: 0 0 8px;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-galaxy-grey);
+  }
+
+  .project-facts dl {
+    display: grid;
+    gap: 8px;
+    margin: 0;
+  }
+
+  .project-facts dl > div {
+    display: grid;
+    grid-template-columns: 6.5rem 1fr;
+    gap: 0 8px;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .project-facts dt {
+    color: var(--color-galaxy-grey);
+  }
+
+  .project-facts dd {
+    margin: 0;
+    color: var(--color-galaxy-dark);
+    overflow-wrap: anywhere;
+  }
+
+  .project-facts a {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    color: var(--color-galaxy-primary);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .project-facts a:hover {
+    text-decoration-color: var(--color-galaxy-gold);
+  }
+
+  .project-facts__status {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 0 8px;
+    border: 1px solid var(--color-chicago-200);
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--color-chicago-700);
+    background: var(--color-chicago-50);
+  }
+
+  .project-facts__muted {
+    color: var(--color-galaxy-grey);
+  }
+
+  .project-facts__logo {
+    display: block;
+    width: 150px;
+    height: auto;
+    margin-top: 12px;
+    padding: 4px;
+    border-radius: 0.25rem;
+    background: #f3f4f6;
+    box-sizing: content-box;
+  }
+
+  /* In the right rail (lg and up) the label sits above its value */
+  @media (min-width: 1024px) {
+    .project-facts--rail dl > div {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
