@@ -7,6 +7,8 @@ import { describe, expect, it } from 'vitest';
 // but not the repo's content/ directory, so a colour-role class that appears only in content
 // Markdown is never generated and silently does nothing. Content may use a role class only
 // when src/ already uses the same class (same variant prefix too, e.g. `hover:`).
+// This approximates Tailwind's scan by text search: a class that appears in src/ only inside
+// `@apply` or a comment passes here and is still missing from the build.
 
 const astroRoot = fileURLToPath(new URL('../../', import.meta.url));
 const contentRoot = join(astroRoot, '..', 'content');
