@@ -68,6 +68,33 @@ test.describe('Sidebar context header', () => {
     await expect(sidebar.getByRole('link', { name: 'News', exact: true })).not.toHaveAttribute('aria-current');
   });
 
+  test('the sidebar persists within a context and is replaced in another one', async ({ page }) => {
+    await page.goto('/news/');
+    const sidebar = await hydratedSidebar(page);
+    const marked = () =>
+      page.evaluate(() => (document.querySelector('aside.site-sidebar') as { __marker?: boolean } | null)?.__marker);
+    await page.evaluate(() => {
+      (document.querySelector('aside.site-sidebar') as unknown as { __marker: boolean }).__marker = true;
+    });
+
+    // A section that holds neither page stays open only if the sidebar element survives
+    const applications = sidebar.getByRole('button', { name: 'Applications' });
+    await applications.click();
+    await expect(applications).toHaveAttribute('aria-expanded', 'true');
+
+    await sidebar.getByRole('link', { name: 'Events', exact: true }).click();
+    await expect(page).toHaveURL(/\/events\/$/);
+    await expect(sidebar.getByRole('link', { name: 'Events', exact: true })).toHaveAttribute('aria-current', 'page');
+    await expect(applications).toHaveAttribute('aria-expanded', 'true');
+    expect(await marked()).toBe(true);
+
+    await contextButton(page).click();
+    await page.locator('#sb-region-menu a[data-region="freiburg"]').click();
+    await expect(page).toHaveURL(/\/freiburg\/$/);
+    await expect(contextButton(page).locator('[data-context-name]')).toHaveText('Galaxy Freiburg');
+    expect(await marked()).toBeUndefined();
+  });
+
   test('the region menu is a keyboard disclosure of links', async ({ page }) => {
     await page.goto('/freiburg/');
     await hydratedSidebar(page);

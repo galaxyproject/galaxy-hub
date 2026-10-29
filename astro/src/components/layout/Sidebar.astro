@@ -11,13 +11,16 @@ import Icon from '../mdx/Icon.astro';
 interface Props {
   navbar?: NavbarData | null;
   initialSubsite?: SubsiteId;
+  /** transition:persist name; the sidebar survives view transitions between pages with the same name. */
+  persistKey?: string;
 }
 
-const { navbar, initialSubsite } = Astro.props as Props;
+const { navbar, initialSubsite, persistKey } = Astro.props as Props;
 ---
 
 <aside
   class="site-sidebar hidden lg:flex flex-col w-64 bg-galaxy-dark text-white fixed left-0 top-0 h-screen overflow-y-auto z-40"
+  transition:persist={persistKey}
 >
   <!-- Logo Section -->
   <div class="p-4 pr-6 border-b border-medium-bg flex justify-center">
