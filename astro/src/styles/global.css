@@ -12,9 +12,10 @@
 
 @custom-variant dark (&:is(.dark *));
 
-/* Base styles */
+/* Base styles. Clip, not hidden: hidden makes html and body scroll containers, which
+   breaks position: sticky (the "On this page" rail). */
 html {
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -47,7 +48,7 @@ h6 {
 
 body {
   font-family: var(--font-sans);
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 @theme inline {
