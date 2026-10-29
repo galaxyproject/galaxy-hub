@@ -14,6 +14,14 @@ interface Props {
 }
 
 const { subsite, title, description, upcomingEvents, subsiteNews, hasMainContent = false } = Astro.props;
+
+const moreLink =
+  'text-sm font-bold text-link no-underline hover:text-link-hover hover:underline hover:decoration-link-hover-line hover:decoration-2';
+
+function toIsoDate(date: Date | string | undefined): string | undefined {
+  if (!date) return undefined;
+  return (date instanceof Date ? date : new Date(date)).toISOString().slice(0, 10);
+}
 ---
 
 <div class="max-w-6xl mx-auto">
@@ -23,68 +31,48 @@ const { subsite, title, description, upcomingEvents, subsiteNews, hasMainContent
     <slot name="main-content" />
   </div>}
 
-  <div class="grid gap-8 lg:grid-cols-2">
-    <section>
-      <div class="flex items-center justify-between mb-4">
-        <h2 class="text-xl font-bold text-galaxy-dark">Upcoming Events</h2>
-        <a
-          href={`/${subsite}/events/`}
-          class="text-sm font-medium text-galaxy-primary hover:text-link-hover hover:underline hover:decoration-link-hover-line hover:decoration-2 transition-colors"
-        >
-          View all →
-        </a>
+  <div class="region-home-grid">
+    <section aria-labelledby="region-events">
+      <div class="region-sec-head">
+        <h2 id="region-events">Upcoming Events</h2>
+        <a href={`/${subsite}/events/`} class={moreLink}>View all <span class="sr-only">{title} events</span></a>
       </div>
 
       {upcomingEvents.length === 0 ? (
-        <p class="text-chicago-500 italic">No upcoming events.</p>
+        <p class="region-empty">No upcoming events.</p>
       ) : (
-        <div class="space-y-3">
-          {upcomingEvents.map((event) => <a
-            href={`/${event.data.slug}/`}
-            class="group relative block overflow-hidden p-4 bg-white rounded-lg border border-galaxy-primary/10 shadow-sm hover:border-galaxy-primary/30 transition-all"
-          >
-            <span
-              class="absolute left-0 top-0 bottom-0 w-1 bg-galaxy-gold transform origin-left scale-y-0 group-hover:scale-y-100 transition-transform duration-200"
-            />
-            <h3 class="font-medium text-galaxy-dark group-hover:text-galaxy-primary transition-colors line-clamp-2">
-              {event.data.title}
+        <ol class="region-rows">
+          {upcomingEvents.map((event) => <li class="region-row">
+            <h3 class="region-row__title">
+              <a class="region-row__link" href={`/${event.data.slug}/`}>{event.data.title}</a>
             </h3>
-            <p class="mt-1 text-sm">
-              <EventDate start={event.data.date} end={event.data.end} />
-            </p>
-          </a>)}
-        </div>
+            <p class="region-row__meta"><EventDate start={event.data.date} end={event.data.end} /></p>
+            {event.data.tease && <p class="region-row__teaser">{event.data.tease}</p>}
+          </li>)}
+        </ol>
       )}
     </section>
 
-    <section>
-      <div class="flex items-center justify-between mb-4">
-        <h2 class="text-xl font-bold text-galaxy-dark">Recent News</h2>
-        <a
-          href={`/${subsite}/news/`}
-          class="text-sm font-medium text-galaxy-primary hover:text-link-hover hover:underline hover:decoration-link-hover-line hover:decoration-2 transition-colors"
-        >
-          View all →
-        </a>
+    <section aria-labelledby="region-news">
+      <div class="region-sec-head">
+        <h2 id="region-news">Recent News</h2>
+        <a href={`/${subsite}/news/`} class={moreLink}>View all <span class="sr-only">{title} news</span></a>
       </div>
 
       {subsiteNews.length === 0 ? (
-        <p class="text-chicago-500 italic">No recent news.</p>
+        <p class="region-empty">No recent news.</p>
       ) : (
-        <div class="space-y-3">
-          {subsiteNews.map((article) => <a
-            href={`/${article.data.slug}/`}
-            class="group relative block overflow-hidden p-4 bg-white rounded-lg border border-galaxy-primary/10 shadow-sm hover:border-galaxy-primary/30 transition-all"
-          >
-            <span
-              class="absolute left-0 top-0 bottom-0 w-1 bg-galaxy-gold transform origin-left scale-y-0 group-hover:scale-y-100 transition-transform duration-200"
-            />
-            <div class="text-xs text-chicago-500 mb-1">{formatDate(article.data.date)}</div>
-            <h3 class="font-medium text-galaxy-dark group-hover:text-galaxy-primary transition-colors line-clamp-2">
-              {article.data.title}
+        <ol class="region-rows">
+          {subsiteNews.map((article) => <li class="region-row">
+            <h3 class="region-row__title">
+              <a class="region-row__link" href={`/${article.data.slug}/`}>{article.data.title}</a>
             </h3>
-          </a>)}
-        </div>
+            <p class="region-row__meta">
+              <time datetime={toIsoDate(article.data.date)}>{formatDate(article.data.date)}</time>
+            </p>
+            {article.data.tease && <p class="region-row__teaser">{article.data.tease}</p>}
+          </li>)}
+        </ol>
       )}
     </section>
   </div>
@@ -139,6 +127,139 @@ const { subsite, title, description, upcomingEvents, subsiteNews, hasMainContent
 </div>
 
 <style>
+  .region-home-grid {
+    display: grid;
+    gap: 32px 40px;
+    margin-top: 32px;
+  }
+
+  @media (min-width: 1024px) {
+    .region-home-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  /* Section head: h2 and "View all" over a hairline (prototype A .sec-head) */
+  .region-sec-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 8px 16px;
+    padding-bottom: 8px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid var(--gx-line);
+  }
+
+  .region-sec-head h2 {
+    margin: 0;
+    font-size: var(--gx-text-h2);
+    line-height: 1.3;
+    font-weight: 700;
+    color: var(--gx-fg-strong);
+  }
+
+  .region-empty {
+    padding: 14px 0;
+    color: var(--gx-fg-meta);
+  }
+
+  /* Flat rows: hairline between items, the whole row is the link, gold bar on hover and focus */
+  .region-rows {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .region-row {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 14px 12px 14px 14px;
+    border-bottom: 1px solid var(--gx-line);
+    transition: background-color 0.15s;
+  }
+
+  .region-row::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 10px;
+    bottom: 10px;
+    width: 3px;
+    border-radius: 2px;
+    background: var(--gx-accent-gold);
+    transform: scaleY(0);
+    transition: transform 0.2s;
+  }
+
+  .region-row:hover {
+    background: var(--gx-surface-2);
+  }
+
+  .region-row:hover::before,
+  .region-row:focus-within::before {
+    transform: scaleY(1);
+  }
+
+  .region-row__title {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 700;
+    color: var(--gx-fg-strong);
+  }
+
+  .region-row__link {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .region-row__link::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+  }
+
+  .region-row__link:hover {
+    color: var(--gx-link-hover);
+  }
+
+  .region-row__link:focus-visible {
+    outline: none;
+  }
+
+  .region-row:has(.region-row__link:focus-visible) {
+    outline: 2px solid var(--gx-focus);
+    outline-offset: -2px;
+  }
+
+  .region-row__meta {
+    margin: 0;
+    font-size: var(--gx-text-meta);
+    line-height: 1.25rem;
+    color: var(--gx-fg-meta);
+  }
+
+  .region-row__teaser {
+    display: -webkit-box;
+    margin: 0;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-size: var(--gx-text-meta);
+    line-height: 1.25rem;
+    color: var(--gx-fg-2);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .region-row,
+    .region-row::before {
+      transition: none;
+    }
+  }
+
   .subsite-inserts :global(> *) {
     margin-bottom: 1.5rem;
   }

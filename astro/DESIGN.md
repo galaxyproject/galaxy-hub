@@ -230,7 +230,7 @@ Reading pages use `<PageHeader variant="compact">`: content pages and news posts
 
 #### Region band
 
-Region homes (`/eu/`, `/freiburg/`, ..., and their `/embed/` copies) open with `<RegionBand>` (`components/layout/RegionBand.astro`) instead of a page header: `galaxy-dark` to `galaxy-primary` gradient at 120deg, the 24px grid texture, a 3px gold bottom rule, `rounded-lg`, at most 180px tall at desktop width. It holds an uppercase micro eyebrow ("Regional community", gold map-pin icon), the `h1` and the lead in `chrome-fg`. The project band (`ProjectPageTop.astro`) uses the same look.
+Region homes (`/eu/`, `/freiburg/`, ..., and their `/embed/` copies) open with `<RegionBand>` (`components/layout/RegionBand.astro`) instead of a page header: `galaxy-dark` to `galaxy-primary` gradient at 120deg, the 24px grid texture, a 3px gold bottom rule, `rounded-lg`, at most 180px tall at desktop width. It holds an uppercase micro eyebrow ("Regional community", gold map-pin icon), the `h1` and the lead in `chrome-fg`. Below it the upcoming events and recent news are flat rows (hairline between rows, the whole row is the link, `surface-2` hover with a 3px gold bar) under a section head with a hairline and a "View all" link. The project band (`ProjectPageTop.astro`) uses the same look.
 
 - **Surface**: flat on the article's white surface; no gradient, grid overlay, rounded corners or gold side bar. The header lines up with the content column (`1.5rem` side margin, `2rem` from `sm`).
 - **Rule**: a 1px `chicago-100` hairline under the header with a 48px x 3px `galaxy-gold` segment at its left end (`::after`). The segment is the only gold in the header.

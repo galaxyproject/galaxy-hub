@@ -24,13 +24,13 @@ type Region = { name: string; count: number; locate: (page: Page) => Locator };
 type ScanTarget = { path: string; ready?: (page: Page) => Locator; exclude?: Region[] };
 
 const css = (selector: string) => (page: Page) => page.locator(selector);
-// SubsiteOverview: a section is its header row (heading, "View all") followed by the item list
+// SubsiteOverview: a section is its header row (heading, "View all") followed by the item rows
 // or its empty-state text
 const listAfterHeading = (heading: string) => (page: Page) =>
   page
     .locator('section')
     .filter({ has: page.getByRole('heading', { name: heading, exact: true }) })
-    .locator(':scope > div.space-y-3, :scope > p');
+    .locator(':scope > ol.region-rows, :scope > p');
 
 const pages: ScanTarget[] = [
   {
