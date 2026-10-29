@@ -23,29 +23,33 @@ const { headings = [], autotoc = false } = Astro.props;
 // Determine if TOC should be shown (autotoc enabled and enough headings)
 const filteredHeadings = headings.filter((h) => h.depth >= 2 && h.depth <= 4);
 const showToc = autotoc && filteredHeadings.length >= 2;
+
+// Reading grid (DESIGN.md §5): from xl (1280px) a 72ch text column and a 224px sticky rail
+// pushed to the right edge; below xl one column with the collapsible block on top.
+const gridClass = 'xl:grid xl:grid-cols-[minmax(0,var(--measure))_14rem] xl:justify-between xl:gap-x-12';
+const mobileTocClass = 'toc-mobile xl:hidden mx-6 sm:mx-8 mt-6 border border-ebony-clay-100 rounded-lg';
+const summaryClass = 'px-4 py-3 cursor-pointer font-medium text-galaxy-primary hover:bg-ebony-clay-50 rounded-lg';
+const railClass = 'sticky top-6 max-h-[calc(100vh-3rem)] overflow-y-auto pt-0.5 pr-1 pb-4 pl-0.5';
 ---
 
-{/* Mobile TOC: collapsible details element */}
-{showToc && <details class="toc-mobile lg:hidden mx-6 sm:mx-8 mt-6 border border-ebony-clay-100 rounded-lg">
-  <summary class="px-4 py-3 cursor-pointer font-medium text-galaxy-primary hover:bg-ebony-clay-50 rounded-lg">
-    On this page
-  </summary>
+{/* Below xl: collapsible block above the text (its summary names it, so no inner title) */}
+{showToc && <details class={mobileTocClass}>
+  <summary class={summaryClass}>On this page</summary>
   <div class="px-4 pb-4">
-    <TableOfContents headings={headings} />
+    <TableOfContents headings={headings} showTitle={false} />
   </div>
 </details>}
 
-{/* Content with optional TOC sidebar */}
-<div class:list={['content-with-toc px-6 sm:px-8 pt-6', showToc && 'lg:flex lg:gap-8']}>
+<div class:list={['content-with-toc px-6 sm:px-8 pt-6', showToc && gridClass]}>
   {/* Main Content. 72ch measure (--measure) lands with the reading grid, see DESIGN.md Prose */}
-  <div class:list={['prose prose-compact prose-galaxy max-w-none', showToc && 'lg:flex-1 lg:min-w-0']}>
+  <div class="prose prose-compact prose-galaxy max-w-none min-w-0">
     <slot />
   </div>
 
-  {/* Desktop TOC Sidebar (right side) */}
-  {showToc && <div class="toc-sidebar hidden lg:block lg:w-56 lg:flex-shrink-0">
-    <div class="sticky top-24">
-      <TableOfContents headings={headings} />
+  {/* From xl: the sticky "On this page" rail; it scrolls itself when taller than the window */}
+  {showToc && <div class="toc-sidebar hidden xl:block">
+    <div class={railClass} data-toc-rail>
+      <TableOfContents headings={headings} backToTop />
     </div>
   </div>}
 </div>
