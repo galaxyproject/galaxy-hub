@@ -49,13 +49,13 @@ const cases: ListCase[] = [
   },
   { name: 'region events', path: '/eu/events/', rows: '.events-list article', ready: '.events-list article' },
   { name: 'region archive', path: '/eu/events/archive/', rows: '.events-list article', ready: '.events-list article' },
-  { name: 'events archive', path: '/events/archive/', rows: 'main section a:has(.gx-event-date)' },
-  { name: 'webinars', path: '/events/webinars/', rows: 'main section a:has(.gx-event-date)' },
-  { name: 'cofests', path: '/events/cofests/', rows: 'main section a:has(.gx-event-date)' },
-  { name: 'papercuts', path: '/events/cofests/papercuts/', rows: 'main section a:has(.gx-event-date)' },
-  { name: 'community calls', path: '/community/community-calls/', rows: 'main section a:has(.gx-event-date)' },
-  { name: 'developer roundtable', path: '/community/devroundtable/', rows: 'main section a:has(.gx-event-date)' },
-  { name: 'tag page', path: '/tags/conference/', rows: 'main section a:has(time)' },
+  { name: 'events archive', path: '/events/archive/', rows: 'main section li:has(.gx-event-date)' },
+  { name: 'webinars', path: '/events/webinars/', rows: 'main section li:has(.gx-event-date)' },
+  { name: 'cofests', path: '/events/cofests/', rows: 'main section li:has(.gx-event-date)' },
+  { name: 'papercuts', path: '/events/cofests/papercuts/', rows: 'main section li:has(.gx-event-date)' },
+  { name: 'community calls', path: '/community/community-calls/', rows: 'main section li:has(.gx-event-date)' },
+  { name: 'developer roundtable', path: '/community/devroundtable/', rows: 'main section li:has(.gx-event-date)' },
+  { name: 'tag page', path: '/tags/conference/', rows: 'main section li:has(time)' },
 ];
 
 const viewports = [

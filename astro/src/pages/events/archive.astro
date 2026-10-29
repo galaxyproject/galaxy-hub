@@ -60,7 +60,7 @@ function getLocationName(location: any): string {
         {year}
         <span class="gx-year-head__count">{eventsByYear[year].length}<span class="sr-only"> events</span></span>
       </h2>
-      <div>
+      <ol class="gx-lrows">
         {eventsByYear[year].map((event) => (
           <EventRow
             href={`/${event.data.slug}/`}
@@ -74,7 +74,7 @@ function getLocationName(location: any): string {
             past
           />
         ))}
-      </div>
+      </ol>
     </section>)}
 
     {archivedEvents.length === 0 && <p class="text-chicago-500 italic text-center py-12">No archived events found.</p>}

@@ -1,7 +1,8 @@
 ---
 /**
  * One event in a server-rendered list (DESIGN.md "List Rows"): title, the event date line with
- * location and a Past badge, then an optional teaser and tags. The whole row is the link.
+ * location and a Past badge, then an optional teaser and tags. Render inside `<ol class="gx-lrows">`;
+ * the title link stretches over the row, so the whole row is clickable and its name is the title.
  */
 import EventDate from '@/components/events/EventDate.astro';
 import ExternalIcon from '@/components/common/ExternalIcon.vue';
@@ -42,10 +43,12 @@ const {
 } = Astro.props;
 ---
 
-<a href={href} class:list={['gx-lrow', { 'gx-lrow--past': past }, className]} {...attrs}>
+<li class:list={['gx-lrow', { 'gx-lrow--past': past }, className]} {...attrs}>
   <h3 class="gx-lrow__title">
-    {title}
-    {externalUrl && <ExternalIcon href={externalUrl} />}
+    <a class="gx-lrow__link" href={href}>
+      {title}
+      {externalUrl && <ExternalIcon href={externalUrl} />}
+    </a>
   </h3>
   <p class="gx-lrow__meta">
     <EventDate start={start} end={end} format={format} past={past} />
@@ -56,7 +59,7 @@ const {
     {past && <PastBadge />}
   </p>
   {tease && <p class="gx-lrow__teaser">{tease}</p>}
-  {tags.length > 0 && <span class="flex flex-wrap gap-1">
+  {tags.length > 0 && <span class="gx-lrow__raised flex flex-wrap gap-1">
     {tags.map((tag) => <span class="text-xs px-2 py-0.5 bg-ebony-clay-50 text-chicago-600 rounded">{tag}</span>)}
   </span>}
-</a>
+</li>

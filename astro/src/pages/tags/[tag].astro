@@ -60,17 +60,15 @@ const hasBoth = newsArticles.length > 0 && sortedEvents.length > 0;
               </svg>
               News <span class="text-sm font-normal text-chicago-400">({newsArticles.length})</span>
             </h2>
-            <div id="news-list">
-              {newsArticles.map((article, idx) => <a
-                href={`/${article.data.slug}/`}
-                class:list={['gx-lrow', { hidden: idx >= 20 }]}
-                data-item
-              >
-                <h3 class="gx-lrow__title">{article.data.title}</h3>
+            <ol class="gx-lrows" id="news-list">
+              {newsArticles.map((article, idx) => <li class:list={['gx-lrow', { hidden: idx >= 20 }]} data-item>
+                <h3 class="gx-lrow__title">
+                  <a class="gx-lrow__link" href={`/${article.data.slug}/`}>{article.data.title}</a>
+                </h3>
                 <p class="gx-lrow__meta"><time>{formatDate(article.data.date)}</time></p>
                 {article.data.tease && <p class="gx-lrow__teaser">{article.data.tease}</p>}
-              </a>)}
-            </div>
+              </li>)}
+            </ol>
             {newsArticles.length > 20 && <button
               type="button"
               class="mt-4 text-sm text-galaxy-primary hover:text-galaxy-gold transition-colors"
@@ -95,7 +93,7 @@ const hasBoth = newsArticles.length > 0 && sortedEvents.length > 0;
               </svg>
               Events <span class="text-sm font-normal text-chicago-400">({sortedEvents.length})</span>
             </h2>
-            <div id="events-list">
+            <ol class="gx-lrows" id="events-list">
               {sortedEvents.map((event, idx) => (
                 <EventRow
                   href={`/${event.data.slug}/`}
@@ -109,7 +107,7 @@ const hasBoth = newsArticles.length > 0 && sortedEvents.length > 0;
                   data-item
                 />
               ))}
-            </div>
+            </ol>
             {sortedEvents.length > 20 && <button
               type="button"
               class="mt-4 text-sm text-galaxy-primary hover:text-galaxy-gold transition-colors"

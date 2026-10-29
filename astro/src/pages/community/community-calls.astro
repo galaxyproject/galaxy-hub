@@ -59,7 +59,7 @@ const pastEvents = taggedEvents
       {upcomingEvents.length === 0 ? (
         <p class="text-chicago-500 italic">No upcoming community calls scheduled. Check back soon!</p>
       ) : (
-        <div>
+        <ol class="gx-lrows">
           {upcomingEvents.map((event) => (
             <EventRow
               href={`/${event.data.slug}/`}
@@ -69,7 +69,7 @@ const pastEvents = taggedEvents
               tease={event.data.tease}
             />
           ))}
-        </div>
+        </ol>
       )}
     </section>
 
@@ -83,7 +83,7 @@ const pastEvents = taggedEvents
       {pastEvents.length === 0 ? (
         <p class="text-chicago-500 italic">No past community calls found.</p>
       ) : (
-        <div>
+        <ol class="gx-lrows">
           {pastEvents.map((event) => (
             <EventRow
               href={`/${event.data.slug}/`}
@@ -93,7 +93,7 @@ const pastEvents = taggedEvents
               past
             />
           ))}
-        </div>
+        </ol>
       )}
     </section>
   </div>

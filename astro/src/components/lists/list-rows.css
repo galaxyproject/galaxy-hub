@@ -1,8 +1,14 @@
 /*
  * List rows (DESIGN.md "List Rows"): flat rows split by a hairline, shared by the news, events,
- * archive, tag and past-event lists. Prototype A styles.css .row/.row__* (566-598), .badge--past
+ * archive, tag and past-event lists. Prototype A styles.css .rows/.row/.row__* (565-598), .badge--past
  * (620-623) and .year-sec__h (822-824). Plain CSS with token fallbacks, like event-date.css.
  */
+.gx-lrows {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .gx-lrow {
   position: relative;
   display: flex;
@@ -11,7 +17,6 @@
   padding: 14px 12px 14px 14px;
   border-bottom: 1px solid var(--color-chicago-100, #e6e6e7);
   color: var(--color-chicago-900, #3c3c3d);
-  text-decoration: none;
   transition: background-color 0.15s;
 }
 
@@ -55,10 +60,39 @@
   color: var(--color-chicago-900, #3c3c3d);
 }
 
-.gx-lrow:hover .gx-lrow__title {
+/* Stretched title link: the whole row is clickable, the link name is the title (styles.css:580-584) */
+.gx-lrow__link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.gx-lrow__link::after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+}
+
+.gx-lrow__link:focus-visible {
+  outline: none;
+}
+
+.gx-lrow:has(.gx-lrow__link:focus-visible) {
+  outline: 2px solid var(--color-galaxy-primary, #25537b);
+  outline-offset: -2px;
+}
+
+.gx-lrow:hover .gx-lrow__link {
   text-decoration: underline;
   text-decoration-color: var(--color-galaxy-gold, #ffd700);
   text-decoration-thickness: 2px;
+}
+
+/* Other links and the tags sit above the stretched link (styles.css:593) */
+.gx-lrow a:not(.gx-lrow__link),
+.gx-lrow__raised {
+  position: relative;
+  z-index: 2;
 }
 
 .gx-lrow__meta {

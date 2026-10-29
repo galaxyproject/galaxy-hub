@@ -27,14 +27,16 @@ test.describe('Event date line', () => {
   test('tag pages show the range, duration pill and machine-readable dates', async ({ page }) => {
     await page.goto('/tags/conference/');
 
-    await expectMultiDay(page.locator(`a[href="/events/${multiDay}"]`));
-    await expectSingleDay(page.locator(`a[href="/events/${singleDay}"]`));
+    await expectMultiDay(page.locator(`li:has(a[href="/events/${multiDay}"])`));
+    await expectSingleDay(page.locator(`li:has(a[href="/events/${singleDay}"])`));
   });
 
   test('tag pages mute past events', async ({ page }) => {
     await page.goto('/tags/conference/');
 
-    await expect(page.locator(`a[href="/events/${multiDay}"] .gx-event-date`)).toHaveClass(/gx-event-date--past/);
+    await expect(page.locator(`li:has(a[href="/events/${multiDay}"]) .gx-event-date`)).toHaveClass(
+      /gx-event-date--past/
+    );
   });
 
   test('the Vue date line separates the range from the duration pill with a space', async ({ page }) => {
@@ -68,19 +70,20 @@ test.describe('Event date line', () => {
         await page.goto(path);
         await page.evaluate(() => document.fonts.ready);
 
-        const rows = page.locator('a:has(.gx-event-date)');
+        const rows = page.locator('li:has(.gx-event-date)');
         expect(await rows.count()).toBeGreaterThan(0);
         const problems = await rows.evaluateAll((els) => {
           const meets = (a: DOMRect, b: DOMRect) =>
             a.left < b.right - 0.5 && b.left < a.right - 0.5 && a.top < b.bottom - 0.5 && b.top < a.bottom - 0.5;
           return els.flatMap((row) => {
-            const href = row.getAttribute('href');
+            const href = row.querySelector('a')?.getAttribute('href');
             // Upcoming rows title with an h3; past rows put the title first, the date line under it
             const title = (row.querySelector('h3') ?? row.firstElementChild)!.getBoundingClientRect();
             const found: string[] = [];
             if (title.right > row.getBoundingClientRect().right + 0.5) found.push(`${href} title overflows row`);
             for (const part of row.querySelectorAll('.gx-event-date time, .gx-event-date__dur, .gx-event-date__icon')) {
-              if (meets(part.getBoundingClientRect(), title)) found.push(`${href} ${part.className || part.tagName} overlaps title`);
+              if (meets(part.getBoundingClientRect(), title))
+                found.push(`${href} ${part.className || part.tagName} overlaps title`);
             }
             return found;
           });
@@ -101,7 +104,7 @@ test.describe('Event date line', () => {
               const range = date.querySelector('.gx-event-date__range')!.getBoundingClientRect();
               return range.top >= icon.bottom;
             })
-            .map((date) => date.textContent?.trim()),
+            .map((date) => date.textContent?.trim())
         );
         expect(stacked).toEqual([]);
       });
@@ -120,7 +123,7 @@ test.describe('Event date line', () => {
             const follows = title.compareDocumentPosition(date) & Node.DOCUMENT_POSITION_FOLLOWING;
             return !follows || date.getBoundingClientRect().top < title.getBoundingClientRect().top;
           })
-          .map((li) => li.textContent?.trim()),
+          .map((li) => li.textContent?.trim())
       );
       expect(misordered).toEqual([]);
     });
