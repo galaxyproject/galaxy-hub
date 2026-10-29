@@ -1,265 +1,164 @@
 <script setup lang="ts">
-import { ref, computed, onMounted } from 'vue';
-import { useStore } from '@nanostores/vue';
-import { currentSubsite, navigateToSubsiteMain, subsites, type SubsiteId } from '@/stores/subsiteStore';
+import { ref, computed } from 'vue';
+import { type SubsiteId } from '@/stores/subsiteStore';
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible';
-import { ChevronDown, Menu } from '@lucide/vue';
-import { isCurrentPage, navbarToSidebarNavigation, type NavbarData, type SidebarNavigation } from '@/utils/navbar';
+import { ChevronDown, Globe, Layers, MapPin, Menu } from '@lucide/vue';
+import { type NavbarData, type SidebarNavigation } from '@/utils/navbar';
+import { CONTEXT_KIND_LABELS, contextFromPath } from '@/utils/siteContext';
+import ContextSwitcher from './ContextSwitcher.vue';
+import SidebarNav from './SidebarNav.vue';
 
-interface NavItem {
-  label: string;
-  href: string;
-  external?: boolean;
-  subsiteOnly?: boolean;
-}
-
-interface NavSection {
-  title: string;
-  items: NavItem[];
-}
-
-const DEFAULT_MOBILE_NAV = {
+// Mobile navigation used when the subsite has no navbar data (global pages)
+const DEFAULT_MOBILE_NAV: SidebarNavigation = {
   topLinks: [],
   sections: [
     {
       title: 'Use Galaxy',
       items: [
-        { label: 'Get Started', href: '/get-started/' },
-        { label: 'Galaxy Servers', href: '/use/' },
-        { label: 'Training', href: 'https://training.galaxyproject.org', external: true },
-        { label: 'Documentation', href: 'https://docs.galaxyproject.org', external: true },
+        { label: 'Get Started', href: '/get-started/', scope: 'global' },
+        { label: 'Galaxy Servers', href: '/use/', scope: 'global' },
+        { label: 'Training', href: 'https://training.galaxyproject.org', external: true, scope: 'global' },
+        { label: 'Documentation', href: 'https://docs.galaxyproject.org', external: true, scope: 'global' },
       ],
     },
     {
       title: 'Community',
       items: [
-        { label: 'News', href: '/news/' },
-        { label: 'Events', href: '/events/' },
-        { label: 'Search', href: '/search/' },
-        { label: 'People', href: '/people/', subsiteOnly: true },
-        { label: 'Blog', href: '/blog/' },
-        { label: 'Get Involved', href: '/community/' },
-        { label: 'Hall of Fame', href: '/hall-of-fame/' },
-        { label: 'Support', href: '/support/' },
+        { label: 'News', href: '/news/', scope: 'global' },
+        { label: 'Events', href: '/events/', scope: 'global' },
+        { label: 'Search', href: '/search/', scope: 'global' },
+        { label: 'Blog', href: '/blog/', scope: 'global' },
+        { label: 'Get Involved', href: '/community/', scope: 'global' },
+        { label: 'Hall of Fame', href: '/hall-of-fame/', scope: 'global' },
+        { label: 'Support', href: '/support/', scope: 'global' },
       ],
     },
     {
       title: 'About',
       items: [
-        { label: 'Galaxy Project', href: '/about/' },
-        { label: 'Team', href: '/community/team/' },
-        { label: 'Citing Galaxy', href: '/citing-galaxy/' },
-        { label: 'Statistics', href: '/galaxy-project/statistics/' },
-        { label: 'Careers', href: '/careers/' },
+        { label: 'Galaxy Project', href: '/about/', scope: 'global' },
+        { label: 'Team', href: '/community/team/', scope: 'global' },
+        { label: 'Citing Galaxy', href: '/citing-galaxy/', scope: 'global' },
+        { label: 'Statistics', href: '/galaxy-project/statistics/', scope: 'global' },
+        { label: 'Careers', href: '/careers/', scope: 'global' },
       ],
     },
   ],
   bottomLinks: [],
-} as const;
+};
 
-const props = defineProps<{
-  navbar?: NavbarData | null;
-  initialSubsite?: SubsiteId;
-  currentPath?: string;
-}>();
+const props = withDefaults(
+  defineProps<{
+    navbar?: NavbarData | null;
+    initialSubsite?: SubsiteId;
+    currentPath?: string;
+  }>(),
+  { navbar: null, initialSubsite: 'global', currentPath: '/' }
+);
 
 const isOpen = ref(false);
-const subsite = useStore(currentSubsite);
-const hasMounted = ref(false);
-const effectiveSubsite = computed(() =>
-  !hasMounted.value && props.initialSubsite ? props.initialSubsite : subsite.value
-);
-const showPeople = computed(() => !!effectiveSubsite.value && effectiveSubsite.value !== 'global');
+// True while the sheet was opened from the region chip: the region menu opens with it
+const openedFromChip = ref(false);
+const chip = ref<HTMLButtonElement | null>(null);
 
-const navModel = computed<SidebarNavigation>(
-  () => navbarToSidebarNavigation(props.navbar, effectiveSubsite.value) || (DEFAULT_MOBILE_NAV as SidebarNavigation)
-);
-const navSections = computed<NavSection[]>(() => navModel.value.sections);
-const topLinks = computed<NavItem[]>(() => navModel.value.topLinks);
-const bottomLinks = computed<NavItem[]>(() => navModel.value.bottomLinks);
+const context = computed(() => contextFromPath(props.currentPath));
+const kindLabel = computed(() => CONTEXT_KIND_LABELS[context.value.kind].toLowerCase());
 
-const openSections = ref<Set<string>>(new Set(navModel.value.sections.slice(0, 2).map((section) => section.title)));
-
-onMounted(() => {
-  if (props.initialSubsite) {
-    currentSubsite.set(props.initialSubsite);
-  }
-  hasMounted.value = true;
-});
-
-function toggleSection(title: string) {
-  if (openSections.value.has(title)) {
-    openSections.value.delete(title);
-  } else {
-    openSections.value.add(title);
-  }
-  openSections.value = new Set(openSections.value);
+function openFromChip() {
+  openedFromChip.value = true;
+  isOpen.value = true;
 }
 
-function isSectionOpen(title: string): boolean {
-  return openSections.value.has(title);
+function onOpenChange(open: boolean) {
+  isOpen.value = open;
 }
 
-function handleSubsiteChange(value: string) {
-  navigateToSubsiteMain(value as SubsiteId);
+// The region menu takes focus itself when the chip opened the sheet
+function onOpenAutoFocus(event: Event) {
+  if (openedFromChip.value) event.preventDefault();
+}
+
+// Focus returns to the control that opened the sheet
+function onCloseAutoFocus(event: Event) {
+  if (openedFromChip.value) {
+    event.preventDefault();
+    chip.value?.focus();
+  }
+  openedFromChip.value = false;
 }
 
 function handleNavClick() {
   isOpen.value = false;
 }
-
-function filteredItems(section: NavSection) {
-  return section.items.filter((item) => !(item.subsiteOnly && !showPeople.value));
-}
 </script>
 
 <template>
-  <Sheet v-model:open="isOpen" @update:open="(val) => (isOpen = val)">
-    <SheetTrigger as-child>
-      <button
-        class="lg:hidden p-2 text-white hover:bg-medium-bg rounded-md transition-colors"
-        aria-label="Open menu"
-        :aria-expanded="isOpen"
-        @click="isOpen = true"
-      >
-        <Menu class="h-6 w-6" />
-      </button>
-    </SheetTrigger>
-    <SheetContent
-      side="left"
-      class="w-80 bg-galaxy-dark border-medium-bg p-0 overflow-hidden"
-      data-testid="mobile-menu"
-      role="dialog"
+  <div class="flex min-w-0 flex-1 items-center gap-1.5">
+    <button
+      ref="chip"
+      type="button"
+      class="ml-1.5 inline-flex min-h-11 min-w-0 max-w-full items-center gap-1.5 rounded-full border border-white/35 bg-ebony-clay-950 px-2.5 py-1.5 text-sm font-bold leading-5 text-white focus-visible:outline-2 focus-visible:outline-galaxy-gold"
+      aria-haspopup="dialog"
+      :aria-expanded="isOpen && openedFromChip"
+      :data-context="context.id"
+      data-context-chip
+      @click="openFromChip"
     >
-      <SheetHeader class="px-4 py-3 border-b border-medium-bg flex-shrink-0">
-        <SheetTitle class="text-white flex items-center gap-2">
-          <img src="/images/galaxy_logo_hub_white.svg" alt="Galaxy" class="h-8" />
-          Galaxy Hub
-        </SheetTitle>
-      </SheetHeader>
+      <MapPin v-if="context.kind === 'region'" class="h-4 w-4 flex-none text-galaxy-gold" aria-hidden="true" />
+      <Layers v-else-if="context.kind === 'project'" class="h-4 w-4 flex-none" aria-hidden="true" />
+      <Globe v-else class="h-4 w-4 flex-none" aria-hidden="true" />
+      <span class="min-w-0 truncate">{{ context.shortName }}</span>
+      <span class="sr-only"> — current context: {{ context.name }} ({{ kindLabel }}). Change region</span>
+      <ChevronDown class="h-4 w-4 flex-none" aria-hidden="true" />
+    </button>
+    <span class="flex-1" aria-hidden="true"></span>
 
-      <div class="flex flex-col flex-1 min-h-0 overflow-y-auto">
-        <!-- Region Switcher -->
-        <div class="px-4 py-4 border-b border-medium-bg">
-          <label
-            id="mobile-region-switcher-label"
-            class="text-xs font-medium text-chicago-400 uppercase tracking-wider mb-2 block"
-          >
-            Region
-          </label>
-          <Select :model-value="effectiveSubsite" @update:model-value="handleSubsiteChange">
-            <SelectTrigger
-              class="w-full bg-medium-bg border-0 text-white"
-              aria-labelledby="mobile-region-switcher-label"
-            >
-              <SelectValue placeholder="Select region" />
-            </SelectTrigger>
-            <SelectContent class="bg-galaxy-dark border-medium-bg">
-              <SelectItem
-                v-for="site in subsites"
-                :key="site.id"
-                :value="site.id"
-                class="text-white hover:bg-medium-bg focus:bg-medium-bg"
-              >
-                <span class="flex items-center gap-2">
-                  {{ site.name }}
-                  <svg
-                    v-if="'external' in site && site.external"
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-3 w-3 opacity-50"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                    />
-                  </svg>
-                </span>
-              </SelectItem>
-            </SelectContent>
-          </Select>
+    <Sheet :open="isOpen" @update:open="onOpenChange">
+      <SheetTrigger as-child>
+        <button
+          class="lg:hidden inline-flex min-h-11 min-w-11 items-center justify-center text-white hover:bg-medium-bg rounded-md transition-colors"
+          aria-label="Open menu"
+          :aria-expanded="isOpen"
+        >
+          <Menu class="h-6 w-6" />
+        </button>
+      </SheetTrigger>
+      <SheetContent
+        side="left"
+        class="w-80 bg-galaxy-dark border-medium-bg p-0 overflow-hidden"
+        data-testid="mobile-menu"
+        role="dialog"
+        @open-auto-focus="onOpenAutoFocus"
+        @close-auto-focus="onCloseAutoFocus"
+      >
+        <SheetHeader class="px-4 py-3 border-b border-medium-bg flex-shrink-0">
+          <SheetTitle class="text-white flex items-center gap-2">
+            <img src="/images/galaxy_logo_hub_white.svg" alt="Galaxy" class="h-8" />
+            Galaxy Hub
+          </SheetTitle>
+        </SheetHeader>
+
+        <!-- Context header and region menu, pinned above the scrolling navigation -->
+        <div class="relative z-10 flex-shrink-0 border-b border-white/[0.08] px-3 pb-3">
+          <ContextSwitcher
+            :current-path="currentPath"
+            id-prefix="mm"
+            :default-open="openedFromChip"
+            @navigate="handleNavClick"
+          />
         </div>
 
-        <!-- Navigation -->
-        <nav class="flex-1 p-4 space-y-2" aria-label="Main">
-          <div class="space-y-1">
-            <a
-              v-for="link in topLinks"
-              :key="link.href"
-              :href="link.href"
-              :aria-current="isCurrentPage(link.href, currentPath) ? 'page' : undefined"
-              class="flex items-center px-3 py-2 text-sm font-medium text-gray-300 hover:bg-medium-bg hover:text-white rounded-md transition-colors"
-              @click="!link.external && handleNavClick()"
-            >
-              {{ link.label }}
-            </a>
-          </div>
-
-          <div v-for="section in navSections" :key="section.title">
-            <Collapsible :open="isSectionOpen(section.title)" @update:open="toggleSection(section.title)">
-              <CollapsibleTrigger
-                class="flex w-full items-center justify-between px-3 py-2 text-sm font-medium text-chicago-300 hover:bg-medium-bg hover:text-white rounded-md transition-colors"
-              >
-                {{ section.title }}
-                <ChevronDown
-                  class="h-4 w-4 transition-transform duration-200"
-                  :class="{ 'rotate-180': isSectionOpen(section.title) }"
-                />
-              </CollapsibleTrigger>
-              <CollapsibleContent class="pl-3 space-y-1 mt-1">
-                <a
-                  v-for="item in filteredItems(section)"
-                  :key="item.href"
-                  :href="item.href"
-                  :aria-current="isCurrentPage(item.href, currentPath) ? 'page' : undefined"
-                  :target="item.external ? '_blank' : undefined"
-                  :rel="item.external ? 'noopener noreferrer' : undefined"
-                  class="flex items-center px-3 py-1.5 text-sm text-chicago-400 hover:bg-medium-bg hover:text-white rounded-md transition-colors"
-                  @click="!item.external && handleNavClick()"
-                >
-                  {{ item.label }}
-                  <svg
-                    v-if="item.external"
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-3 w-3 ml-1 opacity-50"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                    />
-                  </svg>
-                </a>
-              </CollapsibleContent>
-            </Collapsible>
-          </div>
-
-          <div class="pt-4 border-t border-gray-700 space-y-1">
-            <a
-              v-for="link in bottomLinks"
-              :key="link.href"
-              :href="link.href"
-              :aria-current="isCurrentPage(link.href, currentPath) ? 'page' : undefined"
-              :target="link.external ? '_blank' : undefined"
-              :rel="link.external ? 'noopener noreferrer' : undefined"
-              class="flex items-center px-3 py-2 text-sm text-gray-400 hover:bg-medium-bg hover:text-white rounded-md transition-colors"
-              @click="!link.external && handleNavClick()"
-            >
-              {{ link.label }}
-            </a>
-          </div>
-        </nav>
-      </div>
-    </SheetContent>
-  </Sheet>
+        <div class="flex flex-col flex-1 min-h-0 overflow-y-auto px-3 pb-5">
+          <SidebarNav
+            :navbar="navbar"
+            :initial-subsite="initialSubsite"
+            :current-path="currentPath"
+            :fallback="DEFAULT_MOBILE_NAV"
+            id-prefix="mm"
+            @navigate="handleNavClick"
+          />
+        </div>
+      </SheetContent>
+    </Sheet>
+  </div>
 </template>

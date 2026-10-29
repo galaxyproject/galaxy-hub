@@ -112,3 +112,46 @@ test.describe('Sidebar context header', () => {
     await expect(project.getByRole('link', { name: 'Overview' })).toHaveAttribute('aria-current', 'page');
   });
 });
+
+test.describe('Mobile region chip', () => {
+  test.beforeEach(async ({ page }) => {
+    await page.setViewportSize({ width: 390, height: 844 });
+  });
+
+  test('the chip shows the context and opens the sheet with the region menu', async ({ page }) => {
+    await page.goto('/freiburg/');
+    const header = page.locator('.site-mobile-header');
+    await expect(header.locator('astro-island[ssr]')).toHaveCount(0);
+    const chip = header.locator('[data-context-chip]');
+    await expect(chip).toContainText('Freiburg');
+    await expect(chip).toHaveAccessibleName(/current context: Galaxy Freiburg \(region\)\. Change region/);
+
+    await chip.click();
+    const sheet = page.locator('[data-testid="mobile-menu"][data-state="open"]');
+    const menu = sheet.locator('#mm-region-menu');
+    await expect(menu).toBeVisible();
+    await expect(menu.locator('a[aria-current="true"]')).toBeFocused();
+
+    // Escape closes the region menu first, then the sheet; focus returns to the chip
+    await page.keyboard.press('Escape');
+    await expect(menu).toBeHidden();
+    await expect(sheet).toBeVisible();
+    await page.keyboard.press('Escape');
+    await expect(sheet).toHaveCount(0);
+    await expect(chip).toBeFocused();
+  });
+
+  test('the sheet groups the region links before the global ones', async ({ page }) => {
+    await page.goto('/freiburg/');
+    await expect(page.locator('.site-mobile-header astro-island[ssr]')).toHaveCount(0);
+    await page.getByRole('button', { name: 'Open menu' }).click();
+    const sheet = page.locator('[data-testid="mobile-menu"][data-state="open"]');
+
+    await expect(sheet.getByRole('group', { name: 'Galaxy Freiburg Region' })).toBeVisible();
+    await expect(sheet.getByRole('group', { name: 'Galaxy Project Global' })).toBeVisible();
+    await expect(sheet.getByRole('button', { name: /Current context: Galaxy Freiburg/ })).toHaveAttribute(
+      'aria-expanded',
+      'false'
+    );
+  });
+});
