@@ -19,9 +19,15 @@ interface Props {
   kind: 'news' | 'events';
   /** Events are past (muted date line) unless a page lists upcoming ones. */
   past?: boolean;
+  /**
+   * 'flat' (region homes, prototype A rows): the whole row is the link, title underlined only on
+   * hover, gold bar and tinted row on hover, two-line teaser, short news dates.
+   */
+  variant?: 'project' | 'flat';
 }
 
-const { items, kind, past = true } = Astro.props;
+const { items, kind, past = true, variant = 'project' } = Astro.props;
+const flat = variant === 'flat';
 
 function isoDay(value: Date | string | null | undefined): string | undefined {
   if (!value) return undefined;
@@ -30,14 +36,14 @@ function isoDay(value: Date | string | null | undefined): string | undefined {
 }
 ---
 
-<ol class="project-rows" data-project-list={kind}>
+<ol class:list={['project-rows', flat && 'project-rows--flat']} data-project-list={kind}>
   {items.map((item) => <li>
     <h3><a href={item.href}>{item.title}</a></h3>
     <p class="project-rows__meta">
       {kind === 'events' ? (
         <EventDate start={item.start} end={item.end} {past} />
       ) : (
-        <time datetime={isoDay(item.start)}>{formatDate(item.start, false)}</time>
+        <time datetime={isoDay(item.start)}>{formatDate(item.start, flat)}</time>
       )}
     </p>
     {item.tease && <p class="project-rows__teaser">{item.tease}</p>}
@@ -84,5 +90,87 @@ function isoDay(value: Date | string | null | undefined): string | undefined {
     font-size: 0.875rem;
     line-height: 1.25rem;
     color: var(--color-chicago-900);
+  }
+  /* Flat rows (prototype A .row): placed after the base rules so they win at equal specificity */
+  .project-rows--flat li {
+    position: relative;
+    padding: 14px 12px 14px 14px;
+    border-bottom-color: var(--gx-line);
+    transition: background-color 0.15s;
+  }
+
+  .project-rows--flat li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 10px;
+    bottom: 10px;
+    width: 3px;
+    border-radius: 2px;
+    background: var(--gx-accent-gold);
+    transform: scaleY(0);
+    transition: transform 0.2s;
+  }
+
+  .project-rows--flat li:hover {
+    background: var(--gx-surface-2);
+  }
+
+  .project-rows--flat li:hover::before,
+  .project-rows--flat li:focus-within::before {
+    transform: scaleY(1);
+  }
+
+  .project-rows--flat h3 {
+    color: var(--gx-fg-strong);
+  }
+
+  .project-rows--flat h3 a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .project-rows--flat h3 a::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+  }
+
+  .project-rows--flat li:hover h3 a {
+    text-decoration: underline;
+    text-decoration-color: var(--gx-link-hover-line);
+    text-decoration-thickness: 2px;
+  }
+
+  .project-rows--flat h3 a:focus-visible {
+    outline: none;
+  }
+
+  .project-rows--flat li:has(h3 a:focus-visible) {
+    outline: 2px solid var(--gx-focus);
+    outline-offset: -2px;
+    border-radius: 6px;
+  }
+
+  .project-rows--flat .project-rows__teaser {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    color: var(--gx-fg-meta);
+  }
+
+  @media (max-width: 639.98px) {
+    .project-rows--flat li {
+      padding: 12px 8px 12px 10px;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .project-rows--flat li,
+    .project-rows--flat li::before {
+      transition: none;
+    }
   }
 </style>
