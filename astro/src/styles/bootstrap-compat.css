@@ -373,9 +373,17 @@
 }
 
 /* Bootstrap .table within .prose should preserve inline styles (statistics/citations page) */
-.prose .bs-compat.table :is(th, td):not([style*='background'], [bgcolor]) {
+.prose .bs-compat.table th,
+.prose .bs-compat.table td {
   background-color: inherit;
   color: inherit;
+}
+
+/* In dark, cells with their own light fill are light islands: dark text instead of the inherited light text */
+.prose .bs-compat.table :is(th, td):is([style*='background'], [bgcolor]):not([style*='transparent']) {
+  @variant dark {
+    color: var(--gx-fg);
+  }
 }
 
 /* Restore styling for .table headers without inline background colors */
