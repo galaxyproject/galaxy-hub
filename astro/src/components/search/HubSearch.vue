@@ -215,7 +215,7 @@ function highlightMatch(text: string): string {
       <article
         v-for="result in results"
         :key="result.slug"
-        class="bg-white rounded-lg border border-ebony-clay-100 p-5 hover:shadow-md transition-shadow"
+        class="bg-surface rounded-lg border border-ebony-clay-100 p-5 hover:shadow-md transition-shadow"
       >
         <a :href="result.path" class="block">
           <div class="flex items-start justify-between gap-4 mb-2">
