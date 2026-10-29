@@ -79,7 +79,7 @@ function hasExternalUrl(event: (typeof archivedEvents)[number]) {
             {event.data.title}
             {hasExternalUrl(event) && <ExternalIcon href={(event.data as any).external_url} />}
           </span>
-          {getLocationName(event.data.location) && <span class="text-sm text-chicago-400 hidden md:inline"
+          {getLocationName(event.data.location) && <span class="text-sm text-fg-meta hidden md:inline"
             >{getLocationName(event.data.location)}</span
           >}
           {event.data.tags && Array.isArray(event.data.tags) && event.data.tags.length > 0 && <div
