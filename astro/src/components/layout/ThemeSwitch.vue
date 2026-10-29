@@ -51,7 +51,8 @@ onBeforeUnmount(() => {
 <template>
   <div class="flex items-center" role="radiogroup" :aria-labelledby="`${props.idPrefix}-theme-label`" data-theme-switch>
     <span :id="`${props.idPrefix}-theme-label`" class="sr-only">Theme</span>
-    <span class="flex flex-1 gap-0.5 rounded-md border border-white/10 bg-black/20 p-0.5">
+    <!-- A ring, not .border: bootstrap-compat.css styles .border globally with a light grey -->
+    <span class="flex flex-1 gap-0.5 rounded-md bg-black/20 p-0.5 ring-1 ring-inset ring-white/10">
       <span v-for="option in OPTIONS" :key="option.value" class="relative flex flex-1">
         <input
           :id="`${props.idPrefix}-theme-${option.value}`"
