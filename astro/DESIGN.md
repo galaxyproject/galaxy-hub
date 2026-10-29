@@ -22,12 +22,14 @@ The Hub is part of a broader Galaxy ecosystem that includes IWC (Intergalactic W
 
 IWC is the closest sibling site in design terms and has its own [DESIGN.md](https://github.com/galaxyproject/iwc/blob/main/website/DESIGN.md) in the `galaxyproject/iwc` repository. Read the two docs together, and look at how IWC builds a pattern that appears on both sites (cards, tabs, hover accent bars, section backgrounds) before writing new code. **Precedence:** where they disagree, this file and galaxy-ui win; IWC is a reference, not the rule. §2 documents the shared Pantone-style color aliases so cross-property code can be written interchangeably.
 
-**Dark mode:** colours are semantic roles with a light value in `:root` and a dark value in `.dark` (`global.css`, §2). The theme switch will set `.dark` on `<html>`; it ships after the redesign, so nothing sets the class yet and the site renders light. Never hardcode a colour that has no dark value: use a role, or add the role with both values.
+**Dark mode:** supported. Colours are semantic roles with a light value in `:root` and a dark value under `@variant dark` (`global.css`, §2). Dark applies when `<html>` has `data-theme="dark"`, or when the system prefers dark and `<html>` has no `data-theme="light"`; the same rule drives Tailwind's `dark:` variant. It is screen only, so print stays light. The theme switch (System by default, Light, Dark) sits in the sidebar footer and at the foot of the mobile menu; it stores the choice in `localStorage` (`hub-theme`), and an inline `<head>` script (`ThemeScript.astro`, `src/utils/theme.ts`) sets the attribute before first paint and again after each view-transition swap. Embeds, bare pages and the standalone pages without the switch set `data-theme="light"`.
+
+Rules: never hardcode a colour that has no dark value; use a role, or add the role with both values (a light value in `:root`, a dark value in the `@variant dark` block; `global.test.ts` fails when one is missing). A page is dark-ready once its surfaces and text use roles: a fixed light surface (`bg-white`, `bg-light-bg`) with role-coloured text inside, or fixed dark text (`text-galaxy-dark`, `text-chicago-*`) on a role surface, is unreadable in dark. Test both themes: look at the page with the switch on Light and on Dark, and add dark pages to the dark scan in `tests/axe.spec.ts` once they pass. Many list, landing and legacy pages still use fixed light colours; move them to roles before adding them to the dark scan.
 
 The technical substrate is Astro with Tailwind CSS 4, Vue 3 components hydrated client-side via Reka UI primitives, and class-variance-authority for component variants. Content is Markdown/MDX preprocessed from a shared `/content/` directory, with Bootstrap compatibility classes scoped under `.bs-compat` for legacy content.
 
 **Key Characteristics:**
-- Light theme today, dark-ready: every role has a light and a dark value; dark structural elements (sidebar, headers) frame light content backgrounds
+- Light and dark themes: every role has a light and a dark value; the sidebar and footer stay dark in both, and content surfaces follow the theme where they use roles
 - Atkinson Hyperlegible at 400/700 -- accessibility-first typography
 - Galaxy brand palette for brand-facing surfaces, OKLch semantic tokens for generic UI internals (see §2)
 - Gold (`#ffd700`) as the sole accent color, reserved for high-impact moments
@@ -43,7 +45,7 @@ The technical substrate is Astro with Tailwind CSS 4, Vue 3 components hydrated 
 
 ### Semantic roles (light/dark)
 
-New page code uses **role tokens**: they name what a colour is for, carry a light and a dark value, and resolve to brand values. Defined in `global.css` as `--gx-<role>` in `:root` (light) and `.dark` (dark), exposed to Tailwind through `@theme inline` as `--color-<role>`, so `text-fg-meta`, `bg-surface-tint`, `border-line` and `decoration-link-hover-line` all work. Ratios are WCAG 2.1 against the page (`#ffffff` light, `#121419` dark) unless noted; a unit test (`src/styles/global.test.ts`) fails when a role lacks its dark value.
+New page code uses **role tokens**: they name what a colour is for, carry a light and a dark value, and resolve to brand values. Defined in `global.css` as `--gx-<role>` in `:root` (light) and its `@variant dark` block (dark), exposed to Tailwind through `@theme inline` as `--color-<role>`, so `text-fg-meta`, `bg-surface-tint`, `border-line` and `decoration-link-hover-line` all work. Ratios are WCAG 2.1 against the page (`#ffffff` light, `#121419` dark) unless noted; a unit test (`src/styles/global.test.ts`) fails when a role lacks its dark value.
 
 | Role | Utility | Light | Dark | Contrast (light / dark) |
 |------|---------|-------|------|-------------------------|
