@@ -123,7 +123,11 @@ async function clientNavigate(page: Page, href: string) {
     document.body.append(link);
     link.click();
   }, href);
-  await expect(page).toHaveURL(new RegExp(`${href}$`));
+  await expect(page).toHaveURL((url) => url.pathname === href);
+  await expectNoReload(page);
+}
+
+async function expectNoReload(page: Page) {
   expect(await page.evaluate(() => (window as unknown as { __noReload?: boolean }).__noReload)).toBe(true);
 }
 
@@ -135,6 +139,7 @@ test.describe('Subsite scope follows the URL', () => {
     await clientNavigate(page, '/news/');
     await expect(page.locator('.news-list')).toBeVisible();
     await expect(page.getByText('Showing news for')).toHaveCount(0);
+    await expectNoReload(page);
   });
 
   test('a region list is filtered after client-side navigation from a global page', async ({ page }) => {
@@ -144,6 +149,7 @@ test.describe('Subsite scope follows the URL', () => {
 
     await clientNavigate(page, '/freiburg/news/');
     await expect(page.getByText('Showing news for')).toContainText('Freiburg');
+    await expectNoReload(page);
   });
 });
 
@@ -208,6 +214,26 @@ test.describe('Sidebar accessibility', () => {
       expect(serious(results.violations)).toEqual([]);
     });
   }
+
+  // With the region menu open, axe reports the archive notice behind it as "incomplete", not checked
+  test('desktop sidebar archive notice passes color-contrast with the menu closed', async ({ page }) => {
+    await page.setViewportSize({ width: 1440, height: 900 });
+    await page.goto('/freiburg/');
+    await hydratedSidebar(page);
+    const notice = page.locator('#archive-notice');
+    await notice.scrollIntoViewIfNeeded();
+    await expect(notice).toBeVisible();
+
+    const results = await new AxeBuilder({ page })
+      .withTags(tags)
+      .withRules(['color-contrast'])
+      .include('aside.site-sidebar')
+      .analyze();
+    const nodesIn = (list: typeof results.violations) =>
+      list.flatMap((rule) => rule.nodes.map((node) => node.target.join(' ')));
+    expect(nodesIn(results.violations)).toEqual([]);
+    expect(nodesIn(results.incomplete).filter((target) => target.includes('archive'))).toEqual([]);
+  });
 
   test('mobile header and menu sheet have no serious violations', async ({ page }) => {
     await page.setViewportSize({ width: 390, height: 844 });

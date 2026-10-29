@@ -120,7 +120,7 @@ const knownIssues: Record<string, Record<string, KnownIssue>> = {
   [chromeKey]: {
     'color-contrast': {
       reason:
-        'footer text-chicago-400 on #2c3143 is 3.59:1 (BaseLayout.astro); the sidebar has no violations (sidebar-context.spec.ts scans it alone)',
+        'footer text-chicago-400 on #2c3143 is 3.59:1 (BaseLayout.astro); sidebar-context.spec.ts scans the sidebar on its own (archive notice included, menu closed)',
       viewports: both,
     },
   },
