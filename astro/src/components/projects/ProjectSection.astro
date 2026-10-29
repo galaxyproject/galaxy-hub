@@ -1,0 +1,92 @@
+---
+/**
+ * One section of a project overview: an h2, optionally in a head row with a count pill or an
+ * "All ..." link on the right, then the section's content.
+ */
+import Icon from '@/components/mdx/Icon.astro';
+
+interface Props {
+  /** Id of the h2, also the anchor the table of contents links to. */
+  id: string;
+  title: string;
+  /** Short text in a pill after the heading, e.g. "13 organisations". */
+  count?: string;
+  /** Link on the right of the head row; `context` is read by screen readers only. */
+  more?: { href: string; label: string; context?: string };
+  class?: string;
+}
+
+const { id, title, count, more, class: className } = Astro.props;
+const headRow = Boolean(count || more);
+---
+
+<section class:list={['project-section', className]} aria-labelledby={id}>
+  {headRow ? (
+    <div class="project-section__head">
+      <h2 id={id} class="project-section__title">{title}</h2>
+      {count && <span class="project-section__count">{count}</span>}
+      {more && <a href={more.href}>
+        {more.label}
+        {more.context && <span class="sr-only"> {more.context}</span>}
+        <span aria-hidden="true"><Icon name="arrow-right" size={14} /></span>
+      </a>}
+    </div>
+  ) : (
+    <h2 id={id} class="project-section__title">{title}</h2>
+  )}
+  <slot />
+</section>
+
+<style>
+  .project-section {
+    margin-top: 2.5rem;
+  }
+
+  .project-section__title {
+    margin: 0 0 12px;
+    font-size: 1.5rem;
+    line-height: 1.3;
+    font-weight: 700;
+    color: var(--color-galaxy-dark);
+  }
+
+  .project-section__head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 8px 16px;
+    margin-bottom: 4px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--color-chicago-100);
+  }
+
+  .project-section__head .project-section__title {
+    margin: 0;
+  }
+
+  .project-section__head > a {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    min-height: 24px;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: var(--color-galaxy-primary);
+    text-decoration: none;
+  }
+
+  .project-section__head > a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--color-galaxy-gold);
+  }
+
+  .project-section__count {
+    padding: 0 8px;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: var(--color-galaxy-grey);
+    background: var(--color-chicago-100);
+  }
+</style>

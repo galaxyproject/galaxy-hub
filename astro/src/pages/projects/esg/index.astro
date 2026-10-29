@@ -11,6 +11,8 @@ import ProjectFactsBox from '../../../components/projects/ProjectFactsBox.astro'
 import ProjectFunding from '../../../components/projects/ProjectFunding.astro';
 import TableOfContents from '../../../components/layout/TableOfContents.astro';
 import ProjectRows from '../../../components/projects/ProjectRows.astro';
+import ProjectColumns from '../../../components/projects/ProjectColumns.astro';
+import ProjectSection from '../../../components/projects/ProjectSection.astro';
 import Icon from '../../../components/mdx/Icon.astro';
 import { getEntry, render } from 'astro:content';
 import { getInsert } from '../../../utils/content';
@@ -62,8 +64,8 @@ const headings = [
       counts={{ [newsHref]: esgNews.length }}
     />
 
-    <div class="esg-layout">
-      <div class="esg-layout__lead">
+    <ProjectColumns>
+      <Fragment slot="lead">
         <ProjectEndedNotice
           name={project.name}
           facts={project.facts}
@@ -75,9 +77,9 @@ const headings = [
           facts={project.facts}
           partnerCount={project.partnerCount}
         />
-      </div>
+      </Fragment>
 
-      <aside class="esg-layout__rail hidden lg:block" aria-label="Project facts and contents">
+      <Fragment slot="rail">
         <ProjectFactsBox
           class="project-facts--rail mb-6"
           idPrefix="facts-rail"
@@ -85,211 +87,122 @@ const headings = [
           partnerCount={project.partnerCount}
         />
         <TableOfContents headings={headings} />
-      </aside>
+      </Fragment>
 
-      <div class="esg-layout__main">
-        <div class="prose prose-galaxy max-w-none">
-          <Summary />
-        </div>
-
-        {objectives && <section class="esg-section" aria-labelledby="objectives">
-          <h2 id="objectives" class="esg-h2">{objectives.heading || 'Objectives'}</h2>
-          <ol class="esg-numlist">
-            {objectives.objectives?.map((obj: any, index: number) => <li>
-              <span class="esg-numlist__n" aria-hidden="true">{index + 1}</span>
-              <div>
-                <h3>{obj.title}</h3>
-                <p>{obj.content}</p>
-              </div>
-            </li>)}
-          </ol>
-        </section>}
-
-        {externalLinks && <section class="esg-section" aria-labelledby="projects">
-          <h2 id="projects" class="esg-h2">{externalLinks.heading || 'Projects Part of ESG'}</h2>
-          <ul class="esg-logolinks">
-            {externalLinks.external_links?.map((link: any) => <li>
-              <img
-                src={`/images/projects/esg/link-images/${link.image?.split('/').pop()}`}
-                alt=""
-                loading="lazy"
-                decoding="async"
-              />
-              <a href={link.url} target="_blank" rel="noopener noreferrer">
-                {link.name}
-                <span aria-hidden="true"><Icon name="external-link" size={12} /></span>
-                <span class="sr-only"> (opens in a new tab)</span>
-              </a>
-            </li>)}
-          </ul>
-        </section>}
-
-        <section class="esg-section">
-          <EsgInteractivePoster />
-        </section>
-
-        {expectedResults && <section class="esg-section" aria-labelledby="results">
-          <h2 id="results" class="esg-h2">{expectedResults.heading || 'Expected Results'}</h2>
-          <ul class="esg-results">
-            {expectedResults.expected_results?.map((result: any) => <li>
-              <span class="esg-results__icon" aria-hidden="true"><Icon name="target" size={16} /></span>
-              <h3>{result.title}</h3>
-              <p>{result.content}</p>
-            </li>)}
-          </ul>
-        </section>}
-
-        <section class="esg-section" aria-labelledby="news">
-          <div class="esg-sec-head">
-            <h2 id="news" class="esg-h2">News</h2>
-            <a href={newsHref}>
-              All {esgNews.length} news<span class="sr-only"> from {project.name}</span>
-              <span aria-hidden="true"><Icon name="arrow-right" size={14} /></span>
-            </a>
-          </div>
-          {latestNews.length > 0 ? (
-            <ProjectRows
-              kind="news"
-              items={latestNews.map((item) => ({
-                href: `/${item.data.slug}/`,
-                title: item.data.title,
-                tease: item.data.tease,
-                start: item.data.date,
-              }))}
-            />
-          ) : (
-            <p class="text-chicago-700 text-sm">No news articles yet.</p>
-          )}
-        </section>
-
-        <section class="esg-section" aria-labelledby="past-events">
-          <div class="esg-sec-head">
-            <h2 id="past-events" class="esg-h2">Past events</h2>
-            <a href={eventsHref}>
-              All past events<span class="sr-only"> of {project.name}</span>
-              <span aria-hidden="true"><Icon name="arrow-right" size={14} /></span>
-            </a>
-          </div>
-          {pastEvents.length > 0 ? (
-            <ProjectRows
-              kind="events"
-              items={pastEvents.map((event) => ({
-                href: `/${event.data.slug}/`,
-                title: event.data.title,
-                tease: event.data.tease,
-                start: event.data.date,
-                end: event.data.end,
-              }))}
-            />
-          ) : (
-            <p class="text-chicago-700 text-sm">No past events.</p>
-          )}
-        </section>
-
-        {partners && <section class="esg-section" aria-labelledby="partners">
-          <div class="esg-sec-head">
-            <h2 id="partners" class="esg-h2">Project Partners</h2>
-            <span class="esg-count">{countLabel(project.partnerCount, 'organisation')}</span>
-          </div>
-          <ul class="esg-partners">
-            {partners.partners?.map((partner: any) => <li>
-              <a href={partner.website} target="_blank" rel="noopener noreferrer">
-                <span class="esg-partners__logo">
-                  <img src={partnerLogo(partner.image)} alt="" loading="lazy" decoding="async" />
-                </span>
-                <span> {partner.name}<span class="sr-only"> (opens in a new tab)</span> </span>
-              </a>
-            </li>)}
-          </ul>
-        </section>}
-
-        <ProjectFunding slug={fundingSlug} class="mt-10" />
+      <div class="prose prose-galaxy max-w-none">
+        <Summary />
       </div>
-    </div>
+
+      {objectives && <ProjectSection id="objectives" title={objectives.heading || 'Objectives'}>
+        <ol class="esg-numlist">
+          {objectives.objectives?.map((obj: any, index: number) => <li>
+            <span class="esg-numlist__n" aria-hidden="true">{index + 1}</span>
+            <div>
+              <h3>{obj.title}</h3>
+              <p>{obj.content}</p>
+            </div>
+          </li>)}
+        </ol>
+      </ProjectSection>}
+
+      {externalLinks && <ProjectSection id="projects" title={externalLinks.heading || 'Projects Part of ESG'}>
+        <ul class="esg-logolinks">
+          {externalLinks.external_links?.map((link: any) => <li>
+            <img
+              src={`/images/projects/esg/link-images/${link.image?.split('/').pop()}`}
+              alt=""
+              loading="lazy"
+              decoding="async"
+            />
+            <a href={link.url} target="_blank" rel="noopener noreferrer">
+              {link.name}
+              <span aria-hidden="true"><Icon name="external-link" size={12} /></span>
+              <span class="sr-only"> (opens in a new tab)</span>
+            </a>
+          </li>)}
+        </ul>
+      </ProjectSection>}
+
+      <section class="esg-poster">
+        <EsgInteractivePoster />
+      </section>
+
+      {expectedResults && <ProjectSection id="results" title={expectedResults.heading || 'Expected Results'}>
+        <ul class="esg-results">
+          {expectedResults.expected_results?.map((result: any) => <li>
+            <span class="esg-results__icon" aria-hidden="true"><Icon name="target" size={16} /></span>
+            <h3>{result.title}</h3>
+            <p>{result.content}</p>
+          </li>)}
+        </ul>
+      </ProjectSection>}
+
+      <ProjectSection
+        id="news"
+        title="News"
+        more={{ href: newsHref, label: `All ${esgNews.length} news`, context: `from ${project.name}` }}
+      >
+        {latestNews.length > 0 ? (
+          <ProjectRows
+            kind="news"
+            items={latestNews.map((item) => ({
+              href: `/${item.data.slug}/`,
+              title: item.data.title,
+              tease: item.data.tease,
+              start: item.data.date,
+            }))}
+          />
+        ) : (
+          <p class="text-chicago-700 text-sm">No news articles yet.</p>
+        )}
+      </ProjectSection>
+
+      <ProjectSection
+        id="past-events"
+        title="Past events"
+        more={{ href: eventsHref, label: 'All past events', context: `of ${project.name}` }}
+      >
+        {pastEvents.length > 0 ? (
+          <ProjectRows
+            kind="events"
+            items={pastEvents.map((event) => ({
+              href: `/${event.data.slug}/`,
+              title: event.data.title,
+              tease: event.data.tease,
+              start: event.data.date,
+              end: event.data.end,
+            }))}
+          />
+        ) : (
+          <p class="text-chicago-700 text-sm">No past events.</p>
+        )}
+      </ProjectSection>
+
+      {partners && <ProjectSection
+        id="partners"
+        title="Project Partners"
+        count={countLabel(project.partnerCount, 'organisation')}
+      >
+        <ul class="esg-partners">
+          {partners.partners?.map((partner: any) => <li>
+            <a href={partner.website} target="_blank" rel="noopener noreferrer">
+              <span class="esg-partners__logo">
+                <img src={partnerLogo(partner.image)} alt="" loading="lazy" decoding="async" />
+              </span>
+              <span> {partner.name}<span class="sr-only"> (opens in a new tab)</span> </span>
+            </a>
+          </li>)}
+        </ul>
+      </ProjectSection>}
+
+      <ProjectFunding slug={fundingSlug} class="mt-10" />
+    </ProjectColumns>
   </div>
 </BaseLayout>
 
 <style>
-  .esg-layout {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr);
-  }
-
-  @media (min-width: 1024px) {
-    .esg-layout {
-      grid-template-columns: minmax(0, 1fr) 15rem;
-      column-gap: 2.5rem;
-    }
-
-    .esg-layout__lead {
-      grid-column: 1;
-      grid-row: 1;
-    }
-
-    .esg-layout__rail {
-      grid-column: 2;
-      grid-row: 1 / span 2;
-    }
-
-    .esg-layout__main {
-      grid-column: 1;
-      grid-row: 2;
-    }
-  }
-
-  .esg-section {
+  .esg-poster {
     margin-top: 2.5rem;
-  }
-
-  .esg-h2 {
-    display: inline-flex;
-    align-items: baseline;
-    gap: 8px;
-    margin: 0 0 12px;
-    font-size: 1.5rem;
-    line-height: 1.3;
-    font-weight: 700;
-    color: var(--color-galaxy-dark);
-  }
-
-  .esg-sec-head {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    justify-content: space-between;
-    gap: 8px 16px;
-    margin-bottom: 4px;
-    padding-bottom: 8px;
-    border-bottom: 1px solid var(--color-chicago-100);
-  }
-
-  .esg-sec-head .esg-h2 {
-    margin: 0;
-  }
-
-  .esg-sec-head > a {
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-    min-height: 24px;
-    font-size: 0.875rem;
-    font-weight: 700;
-    color: var(--color-galaxy-primary);
-    text-decoration: none;
-  }
-
-  .esg-sec-head > a:hover {
-    text-decoration: underline;
-    text-decoration-color: var(--color-galaxy-gold);
-  }
-
-  .esg-count {
-    padding: 0 8px;
-    border-radius: 9999px;
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-    color: var(--color-galaxy-grey);
-    background: var(--color-chicago-100);
   }
 
   .esg-numlist,
