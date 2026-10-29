@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import type { YearOption } from './types';
+import type { YearOption, YearValue } from './types';
 
 const props = withDefaults(
   defineProps<{
@@ -10,11 +10,13 @@ const props = withDefaults(
     allLabel?: string;
     /** Years shown as chips; the rest go into the "Older years" select. */
     chipCount?: number;
+    /** Opt-in "Unknown year" chip (entries without a year) with this count; left out when undefined. */
+    unknownCount?: number;
   }>(),
-  { allLabel: 'All years', chipCount: 5 }
+  { allLabel: 'All years', chipCount: 5, unknownCount: undefined }
 );
 
-const model = defineModel<number | null>({ default: null });
+const model = defineModel<YearValue>({ default: null });
 
 const chipYears = computed(() => props.years.slice(0, props.chipCount));
 const olderYears = computed(() => props.years.slice(props.chipCount));
@@ -71,5 +73,15 @@ const chipOff = 'bg-ebony-clay-50 text-chicago-700 hover:bg-ebony-clay-100';
         </SelectItem>
       </SelectContent>
     </Select>
+    <button
+      v-if="unknownCount !== undefined"
+      type="button"
+      :aria-pressed="model === 'unknown'"
+      :class="[chipBase, model === 'unknown' ? chipOn : chipOff]"
+      @click="model = 'unknown'"
+    >
+      Unknown year
+      <span class="ml-1 text-xs">({{ unknownCount }})</span>
+    </button>
   </div>
 </template>

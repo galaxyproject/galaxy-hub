@@ -101,8 +101,10 @@ test.describe('Year filters are routable', () => {
     await page.locator('#test-citations-link').click();
     await expect(page).toHaveURL(/\/elixir-it\/citations\/$/);
     const citationYears = await page
-      .locator('[data-year-button]')
-      .evaluateAll((els) => els.map((el) => el.getAttribute('data-year')));
+      .getByRole('group', { name: 'Filter citations by year' })
+      .getByRole('button')
+      .evaluateAll((els) => els.map((el) => (el.textContent || '').match(/\d{4}/)?.[0]));
+    expect(citationYears.filter(Boolean).length).toBeGreaterThan(0);
     // A year the citations page also lists would be written back unchanged and hide the bug
     expect(citationYears).not.toContain(year);
 
