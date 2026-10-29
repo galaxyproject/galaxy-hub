@@ -11,6 +11,7 @@ import { ClientRouter } from 'astro:transitions';
 import '../styles/global.css';
 import SkipLink from '../components/layout/SkipLink.astro';
 import ThemeScript from '../components/layout/ThemeScript.astro';
+import ThemeSwitch from '../components/layout/ThemeSwitch.vue';
 
 interface Props {
   title: string;
@@ -176,6 +177,10 @@ const { title, description = 'Galaxy Community Hub - Open source platform for da
         <a href="/use/">Galaxy Platforms</a>
         <a href="/careers/">Careers</a>
         <a href="/publication-library/">Publications</a>
+        <div class="mobile-section-label">Theme</div>
+        <div data-home-theme>
+          <ThemeSwitch client:load id-prefix="home" touch />
+        </div>
         <a href="https://usegalaxy.org" target="_blank" class="mobile-cta">Use Galaxy →</a>
       </div>
     </header>
