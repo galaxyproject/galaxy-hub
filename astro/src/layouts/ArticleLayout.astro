@@ -85,7 +85,7 @@ const headerVariant = fairSection ? 'hero' : 'compact';
 ---
 
 <BaseLayout title={title} description={description} fullBleed={fullBleed} image={ogImage ?? image} noindex={noindex}>
-  <article class:list={['bg-white relative', fullBleed ? 'max-w-none' : 'max-w-6xl mx-auto']}>
+  <article class:list={['relative', fullBleed ? 'max-w-none' : 'max-w-6xl mx-auto']}>
     {hasMetadata && !hideHeader && <PageHeader
       variant={headerVariant}
       crumbs={crumbs}
