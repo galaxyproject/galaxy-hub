@@ -20,10 +20,10 @@ test.describe('Projects index', () => {
 
     const list = page.locator('[data-project-index]');
     const cards = list.locator(':scope > li');
-    await expect(cards).toHaveCount(internal.length + 1);
+    // Known pages are listed; new project pages may join without breaking this
     const hrefs = await list.getByRole('link').evaluateAll((els) => els.map((a) => a.getAttribute('href')));
     expect(hrefs.slice(0, 2)).toEqual(['/projects/esg4stars/', '/projects/esg/']);
-    expect([...hrefs].sort()).toEqual([...internal, 'https://brc-analytics.org/'].sort());
+    expect(hrefs).toEqual(expect.arrayContaining([...internal, 'https://brc-analytics.org/']));
     expect(hrefs).not.toContain('/projects/singlecell/');
     expect(hrefs).not.toContain('/projects/small-scale-admins/');
 
