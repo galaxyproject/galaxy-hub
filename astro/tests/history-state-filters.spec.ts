@@ -52,13 +52,15 @@ test.describe('Filter URL sync keeps router history state and hash', () => {
 
   test('citations year', async ({ page }) => {
     await page.goto('/elixir-it/citations/#keep-me');
+    await expect(page.locator('astro-island:has(.citation-filters)')).not.toHaveAttribute('ssr', { timeout: 60_000 });
     const before = await historyIndex(page);
     expect(typeof before).toBe('number');
 
     const button = page
-      .locator('[data-year-button][data-year]:not([data-year="all"]):not([data-year="unknown"])')
+      .getByRole('group', { name: 'Filter citations by year' })
+      .getByRole('button', { name: /^\d{4}/ })
       .first();
-    const year = await button.getAttribute('data-year');
+    const year = ((await button.textContent()) || '').match(/\d{4}/)?.[0] as string;
     await button.click();
     await expect(page).toHaveURL(new RegExp(`/elixir-it/citations/\\?year=${year}#keep-me$`));
     expect(await historyIndex(page)).toBe(before);
@@ -100,15 +102,15 @@ test.describe('Filters follow popstate', () => {
 
   test('citations year', async ({ page }) => {
     await page.goto('/elixir-it/citations/');
-    const button = page
-      .locator('[data-year-button][data-year]:not([data-year="all"]):not([data-year="unknown"])')
-      .first();
-    const year = await button.getAttribute('data-year');
+    await expect(page.locator('astro-island:has(.citation-filters)')).not.toHaveAttribute('ssr', { timeout: 60_000 });
+    const group = page.getByRole('group', { name: 'Filter citations by year' });
+    const button = group.getByRole('button', { name: /^\d{4}/ }).first();
+    const year = ((await button.textContent()) || '').match(/\d{4}/)?.[0] as string;
 
     await popTo(page, `/elixir-it/citations/?year=${year}`);
     await expect(button).toHaveAttribute('aria-pressed', 'true');
     await popTo(page, '/elixir-it/citations/');
-    await expect(page.locator('[data-year-button][data-year="all"]')).toHaveAttribute('aria-pressed', 'true');
+    await expect(group.getByRole('button', { name: 'All years' })).toHaveAttribute('aria-pressed', 'true');
   });
 
   test('platform scope and group', async ({ page }) => {
