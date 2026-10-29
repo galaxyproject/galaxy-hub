@@ -397,7 +397,18 @@ Reka UI / shadcn-style components are available for:
 - **Tabs** (`@/components/ui/tabs`) -- tabbed navigation
 - **Card**, **CardHeader**, **CardContent**, etc. (`@/components/ui/card`) -- structured card layout
 
-These use the OKLch semantic tokens, which read as neutral on Galaxy backgrounds. Don't restyle their internals with Galaxy brand colors -- they're deliberately chromatic-neutral so they compose anywhere.
+These use the OKLch semantic tokens, which read as neutral on Galaxy backgrounds. Don't restyle their internals with Galaxy brand colors -- they're deliberately chromatic-neutral so they compose anywhere. Two exceptions come from the role tokens (§2), never from brand aliases: keyboard focus is the global outline (see Focus below), and Input and SelectTrigger borders use `border-line-input` (3.59:1 on white, the 3:1 that control borders need).
+
+### Focus
+
+One rule for every focusable element, in `global.css` (`@layer base`):
+
+- **Shape**: a solid 2px outline with a 2px offset, shown on `:focus-visible` only (keyboard, and text inputs on click). An outline, not a box-shadow ring: it stays visible in forced-colours mode.
+- **Colour**: the `focus` role, `#25537b` on light surfaces (8.07:1 on white, 7.27:1 on `surface-tint`); `#8cbbe9` in dark.
+- **On chrome**: inside an element marked `.on-chrome` (sidebar, mobile bar, mobile menu sheet, footer, hero page header, home masthead) the outline is `focus-on-chrome` gold (9.20:1 on `#2c3143`). Mark new dark chrome with `.on-chrome` instead of adding gold focus classes. A light surface inside chrome (the region menu) sets `focus-visible:outline-focus` on its items.
+- **Primitives** (Button, Input, SelectTrigger, Badge, TabsTrigger, AccordionTrigger, the sheet close button) carry no focus classes and no `outline-none`; they take the rule. Don't add `outline-none` or `focus:ring-*` to a control.
+- **Overrides**: only the offset, where the outline would be clipped or collide (`focus-visible:-outline-offset-2` on sidebar rows and menu items), with the colour from `outline-focus` or `outline-focus-on-chrome`. Scoped `<style>` blocks that set `outline: none` win over the rule; only use them for elements that are never a control (`#main-content`).
+- **Test**: `tests/focus-visible.spec.ts` checks style, width, role colour and 3:1 against the background behind the outline for a content link, buttons, the search input, a year chip, a sidebar link and the sidebar search.
 
 ### Filters
 
@@ -413,8 +424,7 @@ Accessibility (WCAG 2.1 AA):
 
 - Every control has a visible `<label>` (or `aria-labelledby`); the chip group and the bar have an `aria-label`.
 - The result count is one `aria-live="polite"` `aria-atomic="true"` line that is always in the DOM and says what is applied, e.g. "37 articles in 2024 tagged “training”".
-- Focus is a solid 2px `galaxy-primary` outline with a 2px offset (`focus-visible:outline-2 outline-offset-2 outline-solid outline-galaxy-primary`, plus `ring-0` on the primitives). The primitives' default 50% ring is below 3:1 on white, and box-shadow rings disappear in forced-colors mode while outlines stay. Input and select borders use `chicago-400` (3:1 on white).
-- The focus and border classes are overrides in `FilterBar` and `YearFilter`, interim until a focus-rule PR moves them into the primitives (the `focus` and `line-input` role tokens exist, §2; the primitives do not use them yet). The "Clear filters" button keeps the `ui/button` `outline` variant and its neutral OKLch tokens; only its focus outline is overridden.
+- Focus follows the global rule (see Focus): chips, the search input, the selects and the "Clear filters" button carry no focus classes of their own. Input and select borders come from the primitives' `line-input` role (3:1 on white). The "Clear filters" button keeps the `ui/button` `outline` variant and its neutral OKLch tokens.
 - Targets are at least 24×24px (WCAG 2.2 SC 2.5.8, best practice beyond the 2.1 AA baseline; chips 32px, inputs and selects 40px). Everything works with the keyboard: Tab between controls, Space/Enter on chips, arrow keys in the selects.
 - After "Clear filters", focus moves to the search input because the button disappears.
 - At 390px the bar stacks (chips wrap, then search, tag, clear, count) with no horizontal scroll. A bottom sheet (see Mobile Bottom Sheet) is for pages with more filters than fit.
