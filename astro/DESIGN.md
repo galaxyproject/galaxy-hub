@@ -230,8 +230,8 @@ Reading pages use `<PageHeader variant="compact">`: content pages and news posts
 
 - **Surface**: flat on the article's white surface; no gradient, grid overlay, rounded corners or gold side bar. The header lines up with the content column (`1.5rem` side margin, `2rem` from `sm`).
 - **Rule**: a 1px `chicago-100` hairline under the header with a 48px x 3px `galaxy-gold` segment at its left end (`::after`). The segment is the only gold in the header.
-- **Type**: optional eyebrow 14px bold; h1 30/36 bold `galaxy-dark` (26/32 below 640px); lead 18/28 `chicago-700`; meta row (date, authors) 14px `galaxy-grey` (`#58585a`, 7.1:1 on white).
-- **Links**: `galaxy-primary` text; hover turns the text `bay-of-many-950` and the underline `galaxy-gold-dark`. Author links stay underlined (they sit in a text row). Never gold text on white.
+- **Type**: optional eyebrow 14px bold; h1 `text-h1` (30/36, 26 below 640px) bold `galaxy-dark`; lead 18/28 `chicago-700`; meta row (date, authors) 14px `galaxy-grey` (`#58585a`, 7.1:1 on white).
+- **Links**: `galaxy-primary` text; hover uses the link-hover roles (`text-link-hover`, `decoration-link-hover-line`: darker blue text, gold underline). Author links stay underlined (they sit in a text row). Never gold text on white.
 - **Tags**: the outline tag (`border-galaxy-primary/30 text-galaxy-dark`, gold border and `galaxy-gold/20` fill on hover).
 - **Event facts**: event and conference headers add `EventHeaderMeta` (`components/events/EventHeaderMeta.astro`): a labelled grid (Date, Location, Contact) with 12px uppercase `galaxy-grey` labels; the date is the `EventDate` line in the long weekday format, with its duration pill. Conference subnav pills are `galaxy-primary` outline pills; the active pill has a gold border and `galaxy-gold/20` fill with `galaxy-dark` text.
 
