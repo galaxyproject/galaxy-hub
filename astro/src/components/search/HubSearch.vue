@@ -234,13 +234,13 @@ function highlightMatch(text: string): string {
             v-html="highlightMatch(result.tease || result.excerpt)"
           ></p>
 
-          <div class="flex items-center gap-4 text-xs text-chicago-500">
+          <div class="flex items-center gap-4 text-xs text-fg-meta">
             <time v-if="result.date">{{ formatDate(result.date) }}</time>
             <div v-if="result.tags?.length" class="flex gap-1 flex-wrap">
               <span v-for="tag in result.tags.slice(0, 3)" :key="tag" class="px-2 py-0.5 bg-ebony-clay-50 rounded">
                 {{ tag }}
               </span>
-              <span v-if="result.tags.length > 3" class="text-chicago-400"> +{{ result.tags.length - 3 }} more </span>
+              <span v-if="result.tags.length > 3"> +{{ result.tags.length - 3 }} more </span>
             </div>
           </div>
         </a>
@@ -258,7 +258,7 @@ function highlightMatch(text: string): string {
         ></path>
       </svg>
       <p class="text-chicago-500 mb-2">No results found for "{{ query }}"</p>
-      <p class="text-sm text-chicago-400">Try different keywords or check your spelling</p>
+      <p class="text-sm text-fg-meta">Try different keywords or check your spelling</p>
     </div>
 
     <!-- Empty state -->
