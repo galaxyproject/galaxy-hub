@@ -4,7 +4,7 @@ tease: "This page will be your starting point for Galaxy, the go-to place when y
 components: true
 ---
 
-<img class="img-fluid float-right" src="/images/undraw-illustrations/get-started.svg" style="width:200px;" alt="community events" />
+<img class="img-fluid float-right mt-1 mb-3 ml-4" src="/images/undraw-illustrations/get-started.svg" width="160" alt="community events" />
 
 Below you will find a __step-by-step suggested pathway__ for you to follow as a newcomer, a student, an expert or just about anybody interested in using Galaxy.
 
@@ -13,7 +13,8 @@ Below you will find a __step-by-step suggested pathway__ for you to follow as a 
 The [__Galaxy Glossary__ <Icon name="book" />](/get-started/glossary/)  contains the terminology, acronyms and definitions. As a newbie, you will probably skim through this list, but later on in your journey you may come back to refer to it as it will help you get a better understanding of the Galaxy Ecosystem.
 
 ## Step 2 : Get familiar with Galaxy
-<img class="float-right" src="/images/undraw-illustrations/teamwork.svg" alt="" width="240" />
+
+<img class="img-fluid float-right mt-1 mb-3 ml-4" src="/images/undraw-illustrations/teamwork.svg" width="160" alt="" />
 
 ### Public Servers
 
@@ -51,7 +52,7 @@ We have many more [**Galaxy Training materials**](https://training.galaxyproject
 
 ### Galaxy Help & Bug Reports
 
-<img class="img-fluid float-right" src="/images/undraw-illustrations/fixing-bugs.svg" style="width:200px;height:100px;" alt="community events" />
+<img class="img-fluid float-right mt-1 mb-3 ml-4" src="/images/undraw-illustrations/fixing-bugs.svg" width="160" alt="community events" />
 
 Have a bug  <Icon name="alert-circle" /> or an error you haven't been able to solve? Do you have a question that you haven't found already answered in the [**FAQs**](https://training.galaxyproject.org/training-material/faq)?
 
@@ -67,7 +68,7 @@ Check what other members have done in our [**Publication library**](https://www.
 
 ## Step 3:  Your place within the Galaxy Community
 
-<img class="img-fluid float-right" src="/images/undraw-illustrations/connected-people.svg" style="width:200px;height:100px;" alt="community events" />
+<img class="img-fluid float-right mt-1 mb-3 ml-4" src="/images/undraw-illustrations/connected-people.svg" width="160" alt="community events" />
 
 Still wonder what the Galaxy Community is about?
 You already know it, you are already part of it! But let’s dive in the complexity of the [**Galaxy Communities**](/community/)!
@@ -84,7 +85,7 @@ What if you can't find yourself in these lists of regional and/or community of p
 
 ## Step 4: Take part and contribute to Galaxy
 
-<img class="img-fluid float-right" src="/images/undraw-illustrations/collaborators.svg" style="width:200px;height:100px;" alt="community events" />
+<img class="img-fluid float-right mt-1 mb-3 ml-4" src="/images/undraw-illustrations/collaborators.svg" width="160" alt="community events" />
 
 Look at our guide on [**how to start contributing**](https://galaxyproject.org/community/contributing/) and there are many ways to do so: coding, writing and creating tutorials, and answering questions in Matrix or the Help Forum to mention some ways.
 
