@@ -51,15 +51,15 @@ Combined metrics across usegalaxy.org, usegalaxy.eu, usegalaxy.org.au, usegalaxy
   </tr>
   <tr>
     <td>🇪🇺 usegalaxy.eu</td>
-    <td style="text-align: right; background-color: #e8f3e6;"><strong style="color: #3e7b36;">93.3M</strong></td>
+    <td style="text-align: right; background-color: #e8f3e6;"><strong style="color: #2f5f29;">93.3M</strong></td>
   </tr>
   <tr>
     <td>🇺🇸 usegalaxy.org</td>
-    <td style="text-align: right; background-color: #f5f3e0;"><strong style="color: #7a8b10;">72.9M</strong></td>
+    <td style="text-align: right; background-color: #f5f3e0;"><strong style="color: #5c6a0c;">72.9M</strong></td>
   </tr>
   <tr>
     <td>🇦🇺 usegalaxy.org.au</td>
-    <td style="text-align: right; background-color: #fdf2e6;"><strong style="color: #ed7808;">13.6M</strong></td>
+    <td style="text-align: right; background-color: #fdf2e6;"><strong style="color: #a35205;">13.6M</strong></td>
   </tr>
   <tr>
     <td>🇫🇷 usegalaxy.fr</td>
@@ -76,11 +76,11 @@ Combined metrics across usegalaxy.org, usegalaxy.eu, usegalaxy.org.au, usegalaxy
   </tr>
   <tr>
     <td>galaxy</td>
-    <td style="text-align: right; background-color: #e8f3e6;"><strong style="color: #3e7b36;">7,554</strong></td>
+    <td style="text-align: right; background-color: #e8f3e6;"><strong style="color: #2f5f29;">7,554</strong></td>
   </tr>
   <tr>
     <td>training-material</td>
-    <td style="text-align: right; background-color: #eef5e8;"><strong style="color: #5a9b4a;">4,974</strong></td>
+    <td style="text-align: right; background-color: #eef5e8;"><strong style="color: #3d6b31;">4,974</strong></td>
   </tr>
   <tr>
     <td>tools-iuc</td>
@@ -123,7 +123,7 @@ The [Intergalactic Workflow Commission (IWC)](https://iwc.galaxyproject.org/) ma
   <tr>
     <td style="text-align: center; padding: 15px;"><strong style="font-size: 1.5em; color: #6f265d;">25</strong><br/>workflow categories</td>
     <td style="text-align: center; padding: 15px;"><strong style="font-size: 1.5em; color: #9c2a07;">270</strong><br/>PRs merged in 2025</td>
-    <td style="text-align: center; padding: 15px;"><strong style="font-size: 1.5em; color: #3e7b36;">1,251</strong><br/>commits in 2025</td>
+    <td style="text-align: center; padding: 15px;"><strong style="font-size: 1.5em; color: var(--gx-ok-fg);">1,251</strong><br/>commits in 2025</td>
   </tr>
 </table>
 
