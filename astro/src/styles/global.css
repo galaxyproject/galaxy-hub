@@ -419,6 +419,21 @@ body {
   .on-chrome :focus-visible {
     outline-color: var(--gx-focus-on-chrome);
   }
+
+  /* Brand-filled table heads: the outline sits on #25537b (legacy .bs-compat heads are unfilled) */
+  .prose table:not(.bs-compat) th :focus-visible {
+    outline-color: var(--gx-focus-on-chrome);
+  }
+
+  /* Links inside legacy Bootstrap buttons sit on the button fill: outline the button instead */
+  .bs-compat.btn:has(:focus-visible) {
+    outline: 2px solid var(--gx-focus);
+    outline-offset: 2px;
+  }
+
+  .bs-compat.btn :focus-visible {
+    outline: none;
+  }
 }
 
 /* Subtle grid background pattern (like workflow editor mesh) */

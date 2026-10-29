@@ -277,6 +277,11 @@
   outline-offset: -2px;
 }
 
+/* The Galaxy pane is light: gold would be 1.3:1 there */
+.stk-pane--galaxy:focus-visible {
+  outline-color: var(--gx-focus);
+}
+
 @media (max-width: 639.98px) {
   .stk-pane {
     height: 260px;

@@ -156,7 +156,8 @@
 
 .ash-btn:focus-visible,
 .ash-tab:focus-visible,
-.ash-ctl:focus-visible {
+.ash-ctl:focus-visible,
+.ash-body:focus-visible {
   outline: 2px solid var(--ash-gold);
   outline-offset: 2px;
 }
