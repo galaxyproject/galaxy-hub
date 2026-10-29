@@ -62,8 +62,6 @@ const selectedTag = ref<string | null>(null);
 const selectedStatus = ref<EventStatus | null>(null);
 const view = ref<ListView>(LIST_VIEW_DEFAULT);
 const isTiles = computed(() => view.value === 'tiles');
-// The toggle sits on the first heading: Upcoming Events when that list shows, else Past Events
-const toggleOnUpcoming = computed(() => props.showUpcoming && upcomingEvents.value.length > 0);
 const tilesGrid = 'grid grid-cols-[repeat(auto-fill,minmax(min(100%,16rem),1fr))] gap-4';
 const pageSize = 50;
 const pastDisplayCount = ref(pageSize);
@@ -320,19 +318,20 @@ function displaySubsite(subsite: string): string {
       :result-noun-singular="resultNounSingular"
       :result-context="resultContext"
       @update:status="onStatusChange"
-    />
+    >
+      <template #actions>
+        <ViewToggle v-model="view" label="Events layout" />
+      </template>
+    </FilterBar>
 
     <!-- Upcoming Events -->
     <template v-if="showUpcomingSection">
       <section v-if="upcomingEvents.length > 0" class="mb-12">
-        <div class="mb-6 flex flex-wrap items-center justify-between gap-x-4 gap-y-2">
-          <h2 class="text-2xl font-semibold text-chicago-900 flex items-center gap-2">
-            <span class="inline-block w-3 h-3 bg-green-500 rounded-full"></span>
-            Upcoming Events
-            <span class="text-sm font-normal text-chicago-500">({{ upcomingEvents.length }})</span>
-          </h2>
-          <ViewToggle v-model="view" label="Events layout" />
-        </div>
+        <h2 class="text-2xl font-semibold text-chicago-900 mb-6 flex items-center gap-2">
+          <span class="inline-block w-3 h-3 bg-green-500 rounded-full"></span>
+          Upcoming Events
+          <span class="text-sm font-normal text-chicago-500">({{ upcomingEvents.length }})</span>
+        </h2>
         <div :data-view="view" :class="isTiles ? tilesGrid : 'space-y-6'">
           <article
             v-for="event in upcomingEvents"
@@ -404,13 +403,10 @@ function displaySubsite(subsite: string): string {
 
     <!-- Past Events -->
     <section v-if="showPastSection">
-      <div class="mb-4 flex flex-wrap items-center justify-between gap-x-4 gap-y-2">
-        <h2 class="text-2xl font-semibold text-chicago-900">
-          Past Events
-          <span class="text-sm font-normal text-chicago-500">({{ pastEvents.length }})</span>
-        </h2>
-        <ViewToggle v-if="!toggleOnUpcoming" v-model="view" label="Events layout" />
-      </div>
+      <h2 class="text-2xl font-semibold text-chicago-900 mb-4">
+        Past Events
+        <span class="text-sm font-normal text-chicago-500">({{ pastEvents.length }})</span>
+      </h2>
 
       <div :data-view="view" :class="isTiles ? tilesGrid : 'space-y-4'">
         <article
