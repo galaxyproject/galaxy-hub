@@ -505,6 +505,21 @@ Legacy content files (~125 Markdown files) use Bootstrap 4 classes (`btn-primary
 
 **Contract**: never apply `.bs-compat` manually to new components, and never introduce new Bootstrap classes in new content. The compat layer is a migration affordance, not a sanctioned styling path.
 
+### Sidebar context
+
+The sidebar tells readers where a page sits. The URL decides the context; nothing is stored between pages, and there is no "home region".
+
+| URL | Context header | Nav groups |
+|---|---|---|
+| `/<region>/...` (a hub subsite) | region name (kind: Region) | region group, then global |
+| `/projects/esg/...` | EuroScienceGateway (kind: Project) | project group, then global |
+| everything else | Galaxy Project (kind: Global) | global only |
+
+- **Context header** (`ContextSwitcher.vue`): sits below the logo, above search. A button with the context name and a chevron; its accessible name adds the kind ("Current context: Galaxy Freiburg, Region. Change region"). It is a disclosure (`aria-expanded`, `aria-controls`) for the region menu, a list of links grouped as Global, Regions on this Hub and Other Galaxy sites (external, new tab). Opening it focuses the current item (`aria-current="true"`); arrow keys, Home and End move; Escape closes and returns focus to the button; Tab out or an outside click closes it.
+- **Nav groups** (`SidebarNav.vue`): each group is `role="group"` with a plain text heading (the context name, or "Galaxy Project"). Links into the current subsite are region links (`scope: 'region'` in `utils/navbar.ts`), led by an Overview link to the region home; everything else stays in the global group, which always starts with the global News and Events, then keeps its collapsible sections. When the global group is the only group it has no visible heading and is named with `aria-label`.
+- **Mobile**: the header shows a region chip (short name) that opens the menu sheet with the region menu already open. Escape closes the region menu first, then the sheet; focus returns to the chip or the menu button.
+- **View transitions**: the sidebar persists (`transition:persist` on the `<aside>`) only between pages with the same context, so its links always match the page; the active link follows the URL.
+
 ---
 
 ## 4b. Animation & Motion
@@ -594,7 +609,8 @@ Don't reach for `rounded-xl` / `rounded-2xl` -- we don't use them.
 │ #2c3143, fixed      │                                        │
 │                     │  ┌──────────────────────────────────┐  │
 │  [Galaxy Logo]      │  │ Page Header                      │  │
-│  [Search]           │  │ gradient + grid + gold border    │  │
+│  [Context header]   │  │ gradient + grid + gold border    │  │
+│  [Search]           │  │                                  │  │
 │  [Navigation]       │  └──────────────────────────────────┘  │
 │  [Sections...]      │  ┌──────────────────────────────────┐  │
 │                     │  │ Content Card (white, shadow-sm)  │  │
@@ -720,7 +736,7 @@ The 24px grid pattern creates a "workflow editor mesh" effect that adds scientif
 - **Desktop**: Fixed left sidebar (`w-64`, `hidden lg:flex`)
 - **Mobile**: Hamburger icon triggers a Sheet slide-out menu with full-screen dark background
 - Navigation items stack vertically on mobile
-- Region/subsite selector moves to bottom of mobile menu
+- The mobile header shows a region chip; the context header and region menu sit at the top of the mobile menu (see [Sidebar context](#sidebar-context))
 
 ### Touch Targets
 
