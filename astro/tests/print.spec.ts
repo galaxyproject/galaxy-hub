@@ -205,7 +205,11 @@ test.describe('Print stylesheet', () => {
         .first()
         .evaluate((el, p) => getComputedStyle(el)[p], prop);
     expect(await page.evaluate(() => getComputedStyle(document.documentElement).colorScheme)).toBe('light');
-    expect(luminance(await style('main.site-content', 'backgroundColor'))).toBeGreaterThan(200);
+    // Print drops page backgrounds: each layer is either transparent (white paper) or light
+    for (const selector of ['body', 'main.site-content', 'article']) {
+      const bg = await style(selector, 'backgroundColor');
+      if (bg !== 'rgba(0, 0, 0, 0)') expect(luminance(bg)).toBeGreaterThan(200);
+    }
     expect(luminance(await style('article .prose p', 'color'))).toBeLessThan(128);
     expect(luminance(await style('article h1', 'color'))).toBeLessThan(128);
   });
