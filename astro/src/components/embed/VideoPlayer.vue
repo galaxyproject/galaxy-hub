@@ -91,20 +91,20 @@ const videoInfo = computed(() => {
     </video>
 
     <!-- Unknown/unsupported -->
-    <div v-else class="p-4 bg-ebony-clay-50 rounded-lg text-center">
-      <p class="text-chicago-600">Unable to embed video</p>
+    <div v-else class="p-4 bg-surface-chip rounded-lg text-center">
+      <p class="text-fg-meta">Unable to embed video</p>
       <a
         v-if="src || url"
         :href="src || url"
         target="_blank"
         rel="noopener noreferrer"
-        class="text-galaxy-primary hover:underline"
+        class="text-link hover:underline"
       >
         Open video
       </a>
     </div>
 
     <!-- Caption -->
-    <p v-if="title" class="text-center text-sm text-chicago-600 mt-2">{{ title }}</p>
+    <p v-if="title" class="text-center text-sm text-fg-meta mt-2">{{ title }}</p>
   </div>
 </template>

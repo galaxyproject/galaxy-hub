@@ -128,8 +128,8 @@ function goTo(index: number) {
 
 <template>
   <div class="carousel my-6 relative max-w-4xl mx-auto">
-    <div v-if="normalizedImages.length === 0" class="p-4 bg-ebony-clay-50 rounded-lg text-center">
-      <p class="text-chicago-600">No images available</p>
+    <div v-if="normalizedImages.length === 0" class="p-4 bg-surface-chip rounded-lg text-center">
+      <p class="text-fg-meta">No images available</p>
     </div>
 
     <template v-else>
@@ -192,7 +192,7 @@ function goTo(index: number) {
       </div>
 
       <!-- Caption -->
-      <p v-if="normalizedImages[currentIndex].caption" class="text-center text-sm text-chicago-600 mt-2">
+      <p v-if="normalizedImages[currentIndex].caption" class="text-center text-sm text-fg-meta mt-2">
         {{ normalizedImages[currentIndex].caption }}
       </p>
 
