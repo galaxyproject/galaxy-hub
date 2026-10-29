@@ -121,9 +121,9 @@ The [Intergalactic Workflow Commission (IWC)](https://iwc.galaxyproject.org/) ma
 
 <table class="table">
   <tr>
-    <td style="text-align: center; padding: 15px;"><strong style="font-size: 1.5em; color: #6f265d;">25</strong><br/>workflow categories</td>
-    <td style="text-align: center; padding: 15px;"><strong style="font-size: 1.5em; color: #9c2a07;">270</strong><br/>PRs merged in 2025</td>
-    <td style="text-align: center; padding: 15px;"><strong style="font-size: 1.5em; color: var(--gx-ok-fg);">1,251</strong><br/>commits in 2025</td>
+    <td style="text-align: center; padding: 15px; background-color: #ffffff;"><strong style="font-size: 1.5em; color: #6f265d;">25</strong><br/>workflow categories</td>
+    <td style="text-align: center; padding: 15px; background-color: #ffffff;"><strong style="font-size: 1.5em; color: #9c2a07;">270</strong><br/>PRs merged in 2025</td>
+    <td style="text-align: center; padding: 15px; background-color: #ffffff;"><strong style="font-size: 1.5em; color: #3e7b36;">1,251</strong><br/>commits in 2025</td>
   </tr>
 </table>
 
