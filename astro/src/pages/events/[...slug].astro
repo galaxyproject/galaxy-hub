@@ -22,6 +22,7 @@ import CofestBoard from '../../components/CofestBoard.astro';
 import SupporterGrid from '../../components/content/SupporterGrid.astro';
 import { resolveSupporters } from '../../utils/supporters';
 import { isPastEvent } from '../../utils/dateUtils';
+import { ROOT_CRUMB, sectionCrumbs, type Crumb } from '../../utils/breadcrumbs';
 import { isDraft, isListed } from '../../utils/publish-date.mjs';
 import { extractFunding, extractAuthors, resolveAuthor } from '../../utils/contributors';
 import Icon from '../../components/ui/Icon.astro';
@@ -223,6 +224,19 @@ const conferenceSubnavItems = (conferenceContext?.navItems || []).map((item) => 
       ? event.data.slug === item.slug
       : event.data.slug === item.slug || event.data.slug.startsWith(`${item.slug}/`),
 }));
+const eventsCrumb = { label: 'Events', href: '/events/' };
+// A conference subpage links its conference home; the subnav label names the page when it has one.
+const crumbs: Crumb[] =
+  conferenceContext && event.data.slug !== conferenceContext.rootSlug
+    ? [
+        ROOT_CRUMB,
+        eventsCrumb,
+        { label: conferenceTitle, href: `/${conferenceContext.rootSlug}/` },
+        {
+          label: conferenceContext.navItems.find((item) => item.slug === event.data.slug)?.label || title || 'Event',
+        },
+      ]
+    : sectionCrumbs(eventsCrumb, (isConferenceEvent ? conferenceTitle : title) || 'Event');
 const showConferenceMetadata = Boolean(
   conferenceTitle ||
   conferenceDescription ||
@@ -328,6 +342,7 @@ const editUrl = `https://github.com/galaxyproject/galaxy-hub/edit/main/content/$
     location={conferenceLocation}
     contacts={conferenceContacts}
     subnavItems={conferenceSubnavItems}
+    crumbs={crumbs}
     headings={headings}
     autotoc={autotoc}
     supporters={supporters}
@@ -344,7 +359,14 @@ const editUrl = `https://github.com/galaxyproject/galaxy-hub/edit/main/content/$
 ) : (
   <BaseLayout title={title || 'Event'} description={tease} noindex={isDraft(event.data)}>
     <article class="max-w-6xl mx-auto bg-white relative">
-      <PageHeader variant="compact" title={title || 'Event'} description={tease} tags={tags} authors={displayAuthors}>
+      <PageHeader
+        variant="compact"
+        crumbs={crumbs}
+        title={title || 'Event'}
+        description={tease}
+        tags={tags}
+        authors={displayAuthors}
+      >
         <EventHeaderMeta date={date} end={end} location={location} contacts={contacts} />
       </PageHeader>
 

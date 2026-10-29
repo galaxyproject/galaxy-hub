@@ -6,6 +6,7 @@ import ContentWithToc from '../components/layout/ContentWithToc.astro';
 import SupporterGrid from '../components/content/SupporterGrid.astro';
 import Icon from '../components/ui/Icon.astro';
 import type { SupporterProfile } from '../utils/supporters';
+import type { Crumb } from '../utils/breadcrumbs';
 
 interface Heading {
   depth: number;
@@ -39,6 +40,8 @@ interface Props {
   editUrl: string;
   showMetadata?: boolean;
   subnavItems?: Array<{ href: string; label: string; active?: boolean }>;
+  /** Breadcrumb trail above the title. */
+  crumbs?: Crumb[];
   /** Ask search engines not to index the page (drafts). */
   noindex?: boolean;
 }
@@ -58,6 +61,7 @@ const {
   editUrl,
   showMetadata = true,
   subnavItems = [],
+  crumbs = [],
   noindex = false,
 } = Astro.props;
 
@@ -80,6 +84,7 @@ const hasMetadata =
     {hasMetadata && <div class:list={['conference-hero', isSubpage && 'is-subpage']}>
       <PageHeader
         variant="compact"
+        crumbs={crumbs}
         title={title || 'Conference'}
         description={description}
         tags={tags}

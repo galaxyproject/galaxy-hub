@@ -4,6 +4,7 @@ import PageHeader from '../components/layout/PageHeader.astro';
 import FairSectionHero from '../components/content/FairSectionHero.astro';
 import SupporterGrid from '../components/content/SupporterGrid.astro';
 import type { SupporterProfile } from '../utils/supporters';
+import type { Crumb } from '../utils/breadcrumbs';
 import ContentWithToc from '../components/layout/ContentWithToc.astro';
 import Icon from '../components/ui/Icon.astro';
 
@@ -23,6 +24,8 @@ interface Props {
   headings?: Heading[];
   image?: string;
   eyebrow?: string | { label: string; href?: string };
+  /** Breadcrumb trail above the title (compact header only). */
+  crumbs?: Crumb[];
   backLink?: {
     href: string;
     label: string;
@@ -50,6 +53,7 @@ const {
   tags: tagsRaw = [],
   image,
   eyebrow,
+  crumbs,
   backLink,
   autotoc = true,
   headings = [],
@@ -84,6 +88,7 @@ const headerVariant = fairSection ? 'hero' : 'compact';
   <article class:list={['bg-white relative', fullBleed ? 'max-w-none' : 'max-w-6xl mx-auto']}>
     {hasMetadata && !hideHeader && <PageHeader
       variant={headerVariant}
+      crumbs={crumbs}
       title={title}
       description={description}
       eyebrow={eyebrow}

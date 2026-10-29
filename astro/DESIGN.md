@@ -546,7 +546,9 @@ The region menu sits on a light surface: white, `galaxy-dark` text, `galaxy-grey
 
 ### Breadcrumbs
 
-**Use `<Breadcrumbs>`** (`astro/src/components/common/Breadcrumbs.astro`) above the page title. Today only the project pages use it.
+**Use `<Breadcrumbs>`** (`astro/src/components/common/Breadcrumbs.astro`) above the page title: on project pages, and on reading pages through the compact page header's `crumbs` prop (content pages, news posts, event and conference pages). Listing pages, landing pages and region homes have none.
+
+- **Trails** (`utils/breadcrumbs.ts`): Galaxy Project (`/`), then on region pages the region ("Galaxy Europe", `/eu/`), then each parent level that has a page, then the page. A parent level without a page is left out, not given a label guessed from the URL. News posts: Galaxy Project › News › post; events: Galaxy Project › Events › event; conference subpages also link the conference home.
 
 - **Markup**: `nav aria-label="Breadcrumb"` with an `ol`. The last item is the current page: plain bold text with `aria-current="page"`, never a link. An earlier item without `href` renders as plain text, for a level that has no page of its own (for example "Projects": there is no `/projects/` page).
 - **Phones** (below 640px): the trail collapses to one back link, "‹ <nearest linked parent>", so it never wraps; the full trail shows from 640px.

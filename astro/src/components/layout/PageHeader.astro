@@ -3,9 +3,11 @@
  * Reusable page header component with Galaxy branding
  * variant 'hero' (default): gradient background, grid pattern overlay, and gold accent bar (listings, landings)
  * variant 'compact': title on the page surface over a hairline with a 48px gold segment (reading pages)
- * Supports optional article metadata (date, authors, tags)
+ * Supports optional article metadata (date, authors, tags); the compact variant can open with breadcrumbs
  */
 
+import Breadcrumbs from '../common/Breadcrumbs.astro';
+import type { Crumb } from '../../utils/breadcrumbs';
 import { formatDate } from '../../utils/dateUtils';
 import { getHubHallOfFameUrl } from '../../utils/contributors';
 
@@ -17,6 +19,8 @@ interface Props {
   authors?: Array<string | { id?: string; name: string }>;
   tags?: string[];
   variant?: 'hero' | 'compact';
+  /** Trail above the title; shown on the compact variant only (the hero has no light text for it). */
+  crumbs?: Crumb[];
 }
 
 const {
@@ -27,6 +31,7 @@ const {
   authors: authorsRaw = [],
   tags: tagsRaw = [],
   variant = 'hero',
+  crumbs = [],
 } = Astro.props;
 const compact = variant === 'compact';
 const eyebrowData = typeof eyebrow === 'string' ? { label: eyebrow } : eyebrow;
@@ -94,6 +99,8 @@ const tone = compact
 
 <header class:list={['page-header', compact && 'page-header--compact']}>
   <div class="page-header-content">
+    {compact && crumbs.length > 0 && <Breadcrumbs items={crumbs} />}
+
     {eyebrowData &&
       (eyebrowData.href ? (
         <a href={eyebrowData.href} class={tone.eyebrowLink}>

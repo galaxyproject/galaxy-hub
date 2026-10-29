@@ -3,6 +3,7 @@ import { getCollection, render } from 'astro:content';
 import ArticleLayout from '../../layouts/ArticleLayout.astro';
 import { isPublishedDate } from '../../utils/dateUtils';
 import { isDraft } from '../../utils/publish-date.mjs';
+import { sectionCrumbs } from '../../utils/breadcrumbs';
 
 // Import MDX components for embedded content
 import VegaEmbed from '../../components/mdx/VegaEmbed.astro';
@@ -110,6 +111,7 @@ const schemaNews = {
   headings={headings}
   autotoc={autotoc}
   supporters={supporters}
+  crumbs={sectionCrumbs({ label: 'News', href: '/news/' }, title || 'News')}
   backLink={{ href: '/news/', label: 'Back to News' }}
   sourceFile={sourceFile}
 >

@@ -217,8 +217,8 @@ test.describe('Content Rendering', () => {
     test('links are styled and clickable', async ({ page }) => {
       await page.goto('/admin/');
 
-      // Find links in content (exclude TOC sidebar links)
-      const contentLinks = page.locator('main a[href]:not(.toc-link)');
+      // Find links in content (exclude TOC sidebar links and the breadcrumb trail)
+      const contentLinks = page.locator('main a[href]:not(.toc-link):not(nav[aria-label="Breadcrumb"] a)');
       const linkCount = await contentLinks.count();
 
       if (linkCount > 0) {

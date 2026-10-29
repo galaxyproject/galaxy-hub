@@ -2,6 +2,7 @@
 import { getCollection, render } from 'astro:content';
 import ArticleLayout from '../layouts/ArticleLayout.astro';
 import { isDraft } from '../utils/publish-date.mjs';
+import { articleCrumbs } from '../utils/breadcrumbs';
 
 // Import MDX components for embedded content
 import VegaEmbed from '../components/mdx/VegaEmbed.astro';
@@ -33,20 +34,26 @@ export async function getStaticPaths() {
     return !slug.startsWith('events/') && !slug.startsWith('use/');
   });
 
+  // Titles of every content page by URL, for the parent levels of each page's breadcrumbs
+  const pageTitles = new Map<string, string>();
+  for (const { data } of articles) {
+    if (data.title) pageTitles.set(`/${data.slug}/`, data.title);
+  }
+
   return genericArticles.map((article) => ({
     params: { slug: article.data.slug },
-    props: { article },
+    props: { article, pageTitles },
   }));
 }
 
-const { article } = Astro.props;
+const { article, pageTitles } = Astro.props;
 const { Content, headings } = await render(article);
 const sourceFile = article.data.sourceFile || `${article.data.slug}/index.md`;
 const fairSection =
   article.data.slug === 'fair' || article.data.slug.startsWith('fair/') ? article.data.slug : undefined;
 
 const { title, date, tags = [], tease, image, autotoc } = article.data;
-const eyebrow = article.data.slug.startsWith('eu/') ? { label: 'Galaxy Europe', href: '/eu/' } : undefined;
+const crumbs = articleCrumbs(article.data.slug, title || 'Galaxy Hub', pageTitles);
 
 // MDX components map - keys match PascalCase names used in preprocessed content
 const components = {
@@ -78,7 +85,7 @@ const components = {
   date={date}
   tags={tags}
   image={image}
-  eyebrow={eyebrow}
+  crumbs={crumbs}
   headings={headings}
   autotoc={autotoc}
   sourceFile={sourceFile}
