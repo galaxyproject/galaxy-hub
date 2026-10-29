@@ -425,6 +425,8 @@ body {
 
 /* Galaxy-branded prose styles */
 .prose {
+  --tw-prose-body: var(--gx-fg);
+  --tw-prose-bold: var(--gx-fg-strong);
   --tw-prose-links: var(--gx-link);
   --tw-prose-headings: var(--gx-fg-strong);
   overflow-wrap: break-word;
