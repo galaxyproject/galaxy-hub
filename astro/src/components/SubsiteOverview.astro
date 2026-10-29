@@ -16,7 +16,7 @@ interface Props {
 const { subsite, title, description, upcomingEvents, subsiteNews, hasMainContent = false } = Astro.props;
 
 const moreLink =
-  'text-sm font-bold text-link no-underline hover:text-link-hover hover:underline hover:decoration-link-hover-line hover:decoration-2';
+  'inline-flex items-center gap-1 text-sm font-bold text-link no-underline hover:text-link-hover hover:underline hover:decoration-link-hover-line hover:decoration-2';
 
 // Same subsite-scoped content as /<region>/events/ and /<region>/news/, five of each
 const eventRows: ProjectRow[] = upcomingEvents.map((event) => ({
@@ -46,7 +46,8 @@ const newsRows: ProjectRow[] = subsiteNews.map((article) => ({
       <div class="region-sec-head">
         <h2 id="region-events">Upcoming events</h2>
         <a href={`/${subsite}/events/`} class={moreLink}>
-          All events <span aria-hidden="true">→</span><span class="sr-only"> from {title}</span>
+          All events<span class="sr-only"> from {title}</span>
+          <span aria-hidden="true"><Icon name="arrow-right" size={14} /></span>
         </a>
       </div>
 
@@ -57,7 +58,7 @@ const newsRows: ProjectRow[] = subsiteNews.map((article) => ({
           <p class="region-empty__text">New events show here once they are announced.</p>
         </div>
       ) : (
-        <ProjectRows kind="events" past={false} items={eventRows} />
+        <ProjectRows kind="events" variant="flat" past={false} items={eventRows} />
       )}
     </section>
 
@@ -65,7 +66,8 @@ const newsRows: ProjectRow[] = subsiteNews.map((article) => ({
       <div class="region-sec-head">
         <h2 id="region-news">Latest news</h2>
         <a href={`/${subsite}/news/`} class={moreLink}>
-          All news <span aria-hidden="true">→</span><span class="sr-only"> from {title}</span>
+          All news<span class="sr-only"> from {title}</span>
+          <span aria-hidden="true"><Icon name="arrow-right" size={14} /></span>
         </a>
       </div>
 
@@ -76,7 +78,7 @@ const newsRows: ProjectRow[] = subsiteNews.map((article) => ({
           <p class="region-empty__text">News for this region shows here once it is posted.</p>
         </div>
       ) : (
-        <ProjectRows kind="news" items={newsRows} />
+        <ProjectRows kind="news" variant="flat" items={newsRows} />
       )}
     </section>
   </div>
@@ -143,7 +145,7 @@ const newsRows: ProjectRow[] = subsiteNews.map((article) => ({
     }
   }
 
-  /* Section head: h2 and "View all" over a hairline (prototype A .sec-head) */
+  /* Section head: h2 and its "All events" / "All news" link over a hairline (prototype A .sec-head) */
   .region-sec-head {
     display: flex;
     flex-wrap: wrap;
