@@ -21,6 +21,7 @@ funding_logo: /images/projects/esg/images/EN-Funded by the EU-POS.png
 funding_logo_alt: Funded by the European Union
 feed:
   subsite: esg
+partners_dataset: partners
 related:
   - label: Followed by
     name: ESG4Stars
