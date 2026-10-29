@@ -78,7 +78,7 @@ jobs:
           python-version: "3.12"
 
       - name: Run tests
-        run: uv run --python 3.12 --no-project --with pandas --with requests --with pyyaml --with feedparser --with python-dateutil --with markdown-it-py make test-python
+        run: uv run --python 3.12 --no-project --with pandas --with requests --with pyyaml --with feedparser --with python-dateutil --with markdown-it-py --with pillow==13.0.0 make test-python
 
   content-lint:
     name: Content Lint
