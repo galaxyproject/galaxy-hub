@@ -4,6 +4,7 @@
 // Mobile: Hidden (use MobileMenu.vue for mobile)
 import SidebarNav from './SidebarNav.vue';
 import ContextSwitcher from './ContextSwitcher.vue';
+import ThemeSwitch from './ThemeSwitch.vue';
 import type { NavbarData } from '@/utils/navbar';
 import type { SubsiteId } from '@/stores/subsiteStore';
 import Icon from '../mdx/Icon.astro';
@@ -141,6 +142,11 @@ const { navbar, initialSubsite, persistKey } = Astro.props as Props;
         </a>
       </div>
     </div>
+  </div>
+
+  <!-- Pinned footer: theme switch (never scrolls) -->
+  <div class="flex-none border-t border-white/[0.08] px-3 pb-2.5 pt-2" data-sidebar-footer>
+    <ThemeSwitch client:load idPrefix="sb" />
   </div>
 </aside>
 
