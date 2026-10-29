@@ -499,6 +499,18 @@ body {
   margin-right: auto;
 }
 
+/* On phones a floated content image (bootstrap-compat .float-right/.float-left are
+   !important) left the text a ~90px column beside it; stack it above the text instead. */
+@media (max-width: 39.99rem) {
+  .prose img.float-right,
+  .prose img.float-left,
+  .prose img[align='right' i],
+  .prose img[align='left' i] {
+    float: none !important;
+    display: block;
+  }
+}
+
 /* Inline image galleries (e.g. GCC logo grid) */
 .inline-div {
   display: flex;
