@@ -32,9 +32,16 @@ test.describe('Reading layout at 390px', () => {
     const icon = firstAuthor.locator('xpath=ancestor::div[*[local-name()="svg"]][1]/*[local-name()="svg"]');
 
     const iconBox = (await icon.boundingBox())!;
-    const nameBox = (await firstAuthor.boundingBox())!;
-    expect(iconBox.x + iconBox.width, 'icon is left of the name').toBeLessThanOrEqual(nameBox.x);
-    expect(Math.abs(iconBox.y + iconBox.height / 2 - (nameBox.y + nameBox.height / 2))).toBeLessThan(8);
+    // First rendered line of the first name: font-independent, the name itself may wrap.
+    const line = await firstAuthor.evaluate((el) => {
+      const range = document.createRange();
+      range.selectNodeContents(el);
+      const r = range.getClientRects()[0];
+      return { left: r.left, top: r.top, bottom: r.bottom };
+    });
+    expect(iconBox.x + iconBox.width, 'icon is left of the name').toBeLessThanOrEqual(line.left);
+    expect(iconBox.y, 'icon overlaps the first line').toBeLessThan(line.bottom);
+    expect(iconBox.y + iconBox.height, 'icon overlaps the first line').toBeGreaterThan(line.top);
   });
 
   test('an anchored heading clears the fixed mobile header', async ({ page }) => {
