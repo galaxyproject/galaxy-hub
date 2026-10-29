@@ -30,6 +30,12 @@ export function parseParams<S extends ParamSchema>(search: string, schema: S): P
   return out;
 }
 
+/** A `year` param: a four-digit year as a number, `unknown` (entries without a year), else `null`. */
+export function parseYearParam(param: string | null): number | 'unknown' | null {
+  if (param?.toLowerCase() === 'unknown') return 'unknown';
+  return param && /^\d{4}$/.test(param) ? Number(param) : null;
+}
+
 /**
  * Build a search string (`''` or `?a=b`) from the current one. Keys present in `values` are
  * written first, in the order given, unless empty or equal to their default; params not named in
@@ -56,6 +62,16 @@ export function buildSearch(search: string, values: ParamValues, defaults: Param
 /** Read the managed params from `window.location`; all defaults outside the browser. */
 export function readParams<S extends ParamSchema>(schema: S): ParsedParams<S> {
   return parseParams(isBrowser() ? window.location.search : '', schema);
+}
+
+/**
+ * True while the URL is still on `pathname`. An island can hydrate after back/forward has already
+ * moved the URL to the previous page; it must then neither read nor write that page's params.
+ */
+export function isOnPage(pathname: string): boolean {
+  // `/us/citations`, `/us/citations/` and `/us/citations/index.html` are the same page
+  const trim = (path: string) => path.replace(/\/index\.html$/, '').replace(/\/+$/, '') || '/';
+  return isBrowser() && trim(window.location.pathname) === trim(pathname);
 }
 
 /** Write filter values to the URL. Returns `true` when the URL changed. */
