@@ -19,6 +19,8 @@ grants:
 logo_on_dark: /images/projects/esg/eosc_euro_science_gateway_white.svg
 funding_logo: /images/projects/esg/images/EN-Funded by the EU-POS.png
 funding_logo_alt: Funded by the European Union
+feed:
+  subsite: esg
 ---
 
 ![eosc | EuroScienceGateway](./eosc_euro_science_gateway.svg)
