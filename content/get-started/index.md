@@ -7,9 +7,9 @@ components: true
 
 # Welcome!
 
-<span style="font-size:medium;">This page will be your starting point for Galaxy, the go-to place when you need to refresh your knowledge once you have already gotten to know more about the Community.</span>
+This page will be your starting point for Galaxy, the go-to place when you need to refresh your knowledge once you have already gotten to know more about the Community.
 
-<span style="font-size:medium;">Below you will find a __step-by-step suggested pathway__ for you to follow as a newcomer, a student, an expert or just about anybody interested in using Galaxy.</span>
+Below you will find a __step-by-step suggested pathway__ for you to follow as a newcomer, a student, an expert or just about anybody interested in using Galaxy.
 
 ## Step 1: Get acquainted with Galaxy terminology
 
