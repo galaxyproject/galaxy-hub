@@ -57,7 +57,7 @@ const parent = items.slice(0, lastIndex).findLast((item) => item.href);
     list-style: none;
     font-size: 0.875rem;
     line-height: 1.25rem;
-    color: var(--color-galaxy-grey);
+    color: var(--color-fg-meta);
   }
 
   .breadcrumbs .breadcrumbs__back {
@@ -86,7 +86,7 @@ const parent = items.slice(0, lastIndex).findLast((item) => item.href);
   .breadcrumbs li + li::before {
     content: '›' / '';
     margin: 0 8px;
-    color: var(--color-chicago-500);
+    color: var(--color-fg-meta);
   }
 
   .breadcrumbs a {
@@ -94,23 +94,23 @@ const parent = items.slice(0, lastIndex).findLast((item) => item.href);
     align-items: center;
     gap: 5px;
     min-height: 24px;
-    color: var(--color-galaxy-grey);
+    color: var(--color-fg-meta);
     text-decoration: underline;
     text-underline-offset: 2px;
   }
 
   .breadcrumbs a:hover {
-    color: var(--color-galaxy-primary);
+    color: var(--color-link);
     text-decoration-color: var(--color-galaxy-gold);
   }
 
   .breadcrumbs__icon {
     display: inline-flex;
-    color: var(--color-galaxy-primary);
+    color: var(--color-link);
   }
 
   .breadcrumbs__current {
     font-weight: 700;
-    color: var(--color-chicago-900);
+    color: var(--color-fg);
   }
 </style>

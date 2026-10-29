@@ -53,7 +53,7 @@ const headings = [
 ---
 
 <BaseLayout title={project.name} description={project.description}>
-  <div class="esg-page max-w-6xl mx-auto bg-white rounded-lg shadow-sm p-4 sm:p-6 lg:p-8">
+  <div class="esg-page max-w-6xl mx-auto bg-surface rounded-lg shadow-sm p-4 sm:p-6 lg:p-8">
     <ProjectPageTop
       projectId={ESG_ID}
       name={project.name}
@@ -158,7 +158,7 @@ const headings = [
               }))}
             />
           ) : (
-            <p class="text-chicago-700 text-sm">No news articles yet.</p>
+            <p class="text-fg-2 text-sm">No news articles yet.</p>
           )}
         </section>
 
@@ -182,7 +182,7 @@ const headings = [
               }))}
             />
           ) : (
-            <p class="text-chicago-700 text-sm">No past events.</p>
+            <p class="text-fg-2 text-sm">No past events.</p>
           )}
         </section>
 
@@ -249,7 +249,7 @@ const headings = [
     font-size: 1.5rem;
     line-height: 1.3;
     font-weight: 700;
-    color: var(--color-galaxy-dark);
+    color: var(--color-fg-strong);
   }
 
   .esg-sec-head {
@@ -260,7 +260,7 @@ const headings = [
     gap: 8px 16px;
     margin-bottom: 4px;
     padding-bottom: 8px;
-    border-bottom: 1px solid var(--color-chicago-100);
+    border-bottom: 1px solid var(--color-line);
   }
 
   .esg-sec-head .esg-h2 {
@@ -274,7 +274,7 @@ const headings = [
     min-height: 24px;
     font-size: 0.875rem;
     font-weight: 700;
-    color: var(--color-galaxy-primary);
+    color: var(--color-link);
     text-decoration: none;
   }
 
@@ -288,8 +288,8 @@ const headings = [
     border-radius: 9999px;
     font-size: 0.875rem;
     line-height: 1.25rem;
-    color: var(--color-galaxy-grey);
-    background: var(--color-chicago-100);
+    color: var(--color-fg-meta);
+    background: var(--color-line);
   }
 
   .esg-numlist,
@@ -331,13 +331,13 @@ const headings = [
     font-size: 1rem;
     line-height: 1.5;
     font-weight: 700;
-    color: var(--color-galaxy-dark);
+    color: var(--color-fg-strong);
   }
 
   .esg-numlist p,
   .esg-results p {
     margin: 0;
-    color: var(--color-chicago-900);
+    color: var(--color-fg);
   }
 
   .esg-logolinks {
@@ -352,7 +352,7 @@ const headings = [
     align-items: center;
     gap: 8px;
     padding: 16px;
-    border: 1px solid var(--color-chicago-100);
+    border: 1px solid var(--color-line);
     border-radius: 0.5rem;
     text-align: center;
   }
@@ -364,12 +364,12 @@ const headings = [
     padding: 4px 6px;
     border-radius: 0.25rem;
     object-fit: contain;
-    background: #f3f4f6;
+    background: var(--color-surface-sunken);
     box-sizing: content-box;
   }
 
   .esg-logolinks a {
-    color: var(--color-galaxy-primary);
+    color: var(--color-link);
     text-decoration: underline;
     text-underline-offset: 2px;
     display: inline-flex;
@@ -392,7 +392,7 @@ const headings = [
 
   .esg-results li {
     padding: 14px 16px;
-    border: 1px solid var(--color-chicago-100);
+    border: 1px solid var(--color-line);
     border-radius: 0.5rem;
   }
 
@@ -408,7 +408,7 @@ const headings = [
     height: 32px;
     margin-bottom: 6px;
     border-radius: 0.25rem;
-    color: var(--color-galaxy-primary);
+    color: var(--color-link);
     background: var(--color-light-bg);
   }
 
@@ -426,19 +426,19 @@ const headings = [
     gap: 8px;
     height: 100%;
     padding: 14px 10px 12px;
-    border: 1px solid var(--color-chicago-100);
+    border: 1px solid var(--color-line);
     border-radius: 0.5rem;
     font-size: 0.75rem;
     line-height: 1rem;
     font-weight: 700;
     text-align: center;
-    color: var(--color-galaxy-dark);
+    color: var(--color-fg-strong);
     text-decoration: none;
   }
 
   .esg-partners a:hover {
     border-color: var(--color-chicago-300);
-    color: var(--color-galaxy-primary);
+    color: var(--color-link);
     text-decoration: underline;
   }
 
@@ -449,7 +449,7 @@ const headings = [
     height: 52px;
     padding: 4px 8px;
     border-radius: 0.25rem;
-    background: #f3f4f6;
+    background: var(--color-surface-sunken);
   }
 
   .esg-partners__logo img {

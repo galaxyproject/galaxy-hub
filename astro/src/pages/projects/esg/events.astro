@@ -19,7 +19,7 @@ const pastEvents = await getEsgPastEvents();
   title={`Past events | ${project.name}`}
   description={intro?.description ?? `Past events of ${project.name}`}
 >
-  <div class="max-w-6xl mx-auto bg-white rounded-lg shadow-sm p-4 sm:p-6 lg:p-8">
+  <div class="max-w-6xl mx-auto bg-surface rounded-lg shadow-sm p-4 sm:p-6 lg:p-8">
     <ProjectPageTop
       projectId={ESG_ID}
       name={project.name}
@@ -32,7 +32,7 @@ const pastEvents = await getEsgPastEvents();
 
     <section aria-labelledby="past-events-title" class="max-w-4xl">
       <h2 id="past-events-title" class="sr-only">Past events</h2>
-      <p class="text-sm text-chicago-700 mb-2">{pastEvents.length} past events, newest first</p>
+      <p class="text-sm text-fg-2 mb-2">{pastEvents.length} past events, newest first</p>
       {pastEvents.length > 0 ? (
         <ProjectRows
           kind="events"
@@ -45,7 +45,7 @@ const pastEvents = await getEsgPastEvents();
           }))}
         />
       ) : (
-        <p class="text-chicago-700 text-sm">No past events.</p>
+        <p class="text-fg-2 text-sm">No past events.</p>
       )}
     </section>
 
