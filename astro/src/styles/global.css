@@ -257,7 +257,7 @@ body {
    alerts, inline-styled legacy boxes, the agent page bands) keeps its light look in dark. */
 :root,
 .bs-compat.alert,
-.prose [style*='background'],
+.prose [style*='background']:not([style*='transparent']),
 .prose [bgcolor],
 .prose .bg-warning,
 .ag-band,
@@ -343,7 +343,7 @@ body {
 
 /* Light islands (above) also reset the inherited text colour and the prose colours, which
    otherwise resolve on the dark .prose parent. Alerts keep their Bootstrap text colour. */
-.prose [style*='background'],
+.prose [style*='background']:not([style*='transparent']),
 .prose [bgcolor],
 .prose .bg-warning,
 .ag-band,
@@ -361,7 +361,7 @@ body {
 @media (min-width: 40rem) {
   :root,
   .bs-compat.alert,
-  .prose [style*='background'],
+  .prose [style*='background']:not([style*='transparent']),
   .prose [bgcolor],
   .prose .bg-warning,
   .ag-band,
