@@ -98,24 +98,24 @@ const countText = computed(() => {
 
     <div class="flex flex-col gap-3 sm:flex-row sm:items-end">
       <div class="min-w-0 flex-1">
-        <label :for="searchId" class="mb-1 block text-sm font-medium text-chicago-700">{{ searchLabel }}</label>
+        <label :for="searchId" class="mb-1 block text-sm font-medium text-fg-2">{{ searchLabel }}</label>
         <Input
           :id="searchId"
           v-model="draft"
           type="search"
           :placeholder="searchPlaceholder"
           autocomplete="off"
-          class="h-10 border-chicago-400"
+          class="h-10 border-line-input"
           :class="focusRing"
         />
       </div>
 
       <div v-if="tagOptions.length > 0" class="min-w-0 sm:w-56">
-        <span :id="tagLabelId" class="mb-1 block text-sm font-medium text-chicago-700">{{ tagLabel }}</span>
+        <span :id="tagLabelId" class="mb-1 block text-sm font-medium text-fg-2">{{ tagLabel }}</span>
         <Select :model-value="tagValue" @update:model-value="onTagChange">
           <SelectTrigger
             :aria-labelledby="tagLabelId"
-            class="h-10 w-full border-chicago-400 data-[size=default]:h-10"
+            class="h-10 w-full border-line-input data-[size=default]:h-10"
             :class="focusRing"
           >
             <SelectValue :placeholder="tagAllLabel" />
@@ -141,7 +141,7 @@ const countText = computed(() => {
       </Button>
     </div>
 
-    <p class="text-sm text-chicago-600" aria-live="polite" aria-atomic="true" data-filter-count>
+    <p class="text-sm text-fg-meta" aria-live="polite" aria-atomic="true" data-filter-count>
       {{ countText }}
     </p>
   </div>

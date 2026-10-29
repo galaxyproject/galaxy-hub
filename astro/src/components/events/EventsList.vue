@@ -202,9 +202,9 @@ function displaySubsite(subsite: string): string {
   <div class="events-list">
     <!-- Subsite indicator -->
     <div v-if="effectiveSubsite !== 'global'" class="mb-6 p-4 bg-galaxy-primary/10 rounded-lg">
-      <p class="text-sm text-galaxy-dark">
+      <p class="text-sm text-fg-strong">
         Showing events for <strong>{{ displaySubsite(effectiveSubsite) }}</strong> subsite.
-        <button @click="() => currentSubsite.set('global')" class="ml-2 text-galaxy-primary hover:underline">
+        <button @click="() => currentSubsite.set('global')" class="ml-2 text-link hover:underline">
           Show all events
         </button>
       </p>
@@ -213,27 +213,27 @@ function displaySubsite(subsite: string): string {
     <!-- Upcoming Events -->
     <template v-if="props.showUpcoming">
       <section v-if="upcomingEvents.length > 0" class="mb-12">
-        <h2 class="text-2xl font-semibold text-chicago-900 mb-6 flex items-center gap-2">
+        <h2 class="text-2xl font-semibold text-fg mb-6 flex items-center gap-2">
           <span class="inline-block w-3 h-3 bg-green-500 rounded-full"></span>
           Upcoming Events
-          <span class="text-sm font-normal text-chicago-500">({{ upcomingEvents.length }})</span>
+          <span class="text-sm font-normal text-fg-meta">({{ upcomingEvents.length }})</span>
         </h2>
         <div class="space-y-6">
           <article
             v-for="event in upcomingEvents"
             :key="event.slug"
-            class="bg-white border border-ebony-clay-100 rounded-lg p-6 hover:shadow-md transition-shadow"
+            class="bg-surface border border-line rounded-lg p-6 hover:shadow-md transition-shadow"
           >
             <a :href="buildUrl(event.slug)" class="block">
               <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
                 <div class="flex-1">
-                  <h3 class="text-lg font-semibold text-chicago-900 hover:text-galaxy-primary transition-colors">
+                  <h3 class="text-lg font-semibold text-fg hover:text-link transition-colors">
                     {{ event.title || 'Untitled Event' }}
                     <ExternalIcon v-if="event.externalUrl" :href="event.externalUrl" />
                   </h3>
                   <p
                     v-if="event.date || event.location"
-                    class="text-sm text-chicago-500 mt-1 flex flex-wrap items-center gap-x-3 gap-y-1"
+                    class="text-sm text-fg-meta mt-1 flex flex-wrap items-center gap-x-3 gap-y-1"
                   >
                     <EventDate v-if="event.date" :start="event.date" :end="event.end" />
                     <span v-if="event.location" class="flex items-center gap-1">
@@ -260,7 +260,7 @@ function displaySubsite(subsite: string): string {
                       {{ getLocationText(event.location) }}
                     </span>
                   </p>
-                  <p v-if="event.tease" class="text-chicago-600 mt-2" v-html="renderMarkdownInline(event.tease)"></p>
+                  <p v-if="event.tease" class="text-fg-meta mt-2" v-html="renderMarkdownInline(event.tease)"></p>
                 </div>
               </div>
             </a>
@@ -268,16 +268,16 @@ function displaySubsite(subsite: string): string {
         </div>
       </section>
 
-      <div v-else class="mb-12 p-8 text-center bg-ebony-clay-50 rounded-lg">
-        <p class="text-chicago-600">No upcoming events for this subsite.</p>
+      <div v-else class="mb-12 p-8 text-center bg-surface-chip rounded-lg">
+        <p class="text-fg-meta">No upcoming events for this subsite.</p>
       </div>
     </template>
 
     <!-- Past Events -->
     <section>
-      <h2 class="text-2xl font-semibold text-chicago-900 mb-4">
+      <h2 class="text-2xl font-semibold text-fg mb-4">
         Past Events
-        <span class="text-sm font-normal text-chicago-500">({{ allPastEvents.length }} total)</span>
+        <span class="text-sm font-normal text-fg-meta">({{ allPastEvents.length }} total)</span>
       </h2>
 
       <!-- Year navigation for past events -->
@@ -290,7 +290,7 @@ function displaySubsite(subsite: string): string {
               'px-3 py-1.5 text-sm font-medium rounded-md transition-colors',
               selectedPastYear === null
                 ? 'bg-galaxy-primary text-white'
-                : 'bg-ebony-clay-50 text-chicago-700 hover:bg-ebony-clay-100',
+                : 'bg-surface-chip text-fg-2 hover:bg-surface-chip-hover',
             ]"
           >
             All years
@@ -304,7 +304,7 @@ function displaySubsite(subsite: string): string {
               'px-3 py-1.5 text-sm font-medium rounded-md transition-colors',
               selectedPastYear === year
                 ? 'bg-galaxy-primary text-white'
-                : 'bg-ebony-clay-50 text-chicago-700 hover:bg-ebony-clay-100',
+                : 'bg-surface-chip text-fg-2 hover:bg-surface-chip-hover',
             ]"
           >
             {{ year }}
@@ -320,7 +320,7 @@ function displaySubsite(subsite: string): string {
               'px-3 py-1.5 text-sm font-medium rounded-md transition-colors border-0 cursor-pointer',
               olderPastYears.includes(selectedPastYear as number)
                 ? 'bg-galaxy-primary text-white'
-                : 'bg-ebony-clay-50 text-chicago-700 hover:bg-ebony-clay-100',
+                : 'bg-surface-chip text-fg-2 hover:bg-surface-chip-hover',
             ]"
           >
             <option value="older" disabled selected>Older...</option>
@@ -331,7 +331,7 @@ function displaySubsite(subsite: string): string {
         </div>
       </div>
 
-      <p class="text-sm text-chicago-500 mb-4">
+      <p class="text-sm text-fg-meta mb-4">
         {{ pastEvents.length }} event{{ pastEvents.length !== 1 ? 's' : '' }}
         <span v-if="selectedPastYear"> in {{ selectedPastYear }}</span>
         <span v-else> across all years</span>
@@ -341,11 +341,11 @@ function displaySubsite(subsite: string): string {
         <article
           v-for="event in pastEvents.slice(0, pastDisplayCount)"
           :key="event.slug"
-          class="border-b border-ebony-clay-100 pb-4"
+          class="border-b border-line pb-4"
         >
           <a :href="buildUrl(event.slug)" class="group block">
             <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
-              <h3 class="text-base font-medium text-chicago-700 group-hover:text-galaxy-primary transition-colors">
+              <h3 class="text-base font-medium text-fg-2 group-hover:text-link transition-colors">
                 {{ event.title || 'Untitled Event' }}
                 <ExternalIcon v-if="event.externalUrl" :href="event.externalUrl" />
               </h3>
@@ -355,7 +355,7 @@ function displaySubsite(subsite: string): string {
         </article>
       </div>
       <div v-if="pastEvents.length > pastDisplayCount" class="mt-6 text-center">
-        <p class="text-chicago-500 text-sm mb-3">
+        <p class="text-fg-meta text-sm mb-3">
           Showing {{ pastDisplayCount }} of {{ pastEvents.length }} events
           <span v-if="selectedPastYear">in {{ selectedPastYear }}</span>
           <span v-else>across all years</span>

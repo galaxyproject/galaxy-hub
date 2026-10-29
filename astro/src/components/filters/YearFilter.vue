@@ -28,9 +28,9 @@ function onOlderChange(value: unknown) {
 }
 
 const chipBase =
-  'inline-flex min-h-8 items-center rounded-md px-3 py-1.5 text-sm font-medium transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-solid focus-visible:outline-galaxy-primary';
+  'inline-flex min-h-8 items-center rounded-md px-3 py-1.5 text-sm font-medium transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-solid focus-visible:outline-focus';
 const chipOn = 'bg-galaxy-primary text-white';
-const chipOff = 'bg-ebony-clay-50 text-chicago-700 hover:bg-ebony-clay-100';
+const chipOff = 'bg-surface-chip text-fg-2 hover:bg-surface-chip-hover';
 </script>
 
 <template>
@@ -59,7 +59,7 @@ const chipOff = 'bg-ebony-clay-50 text-chicago-700 hover:bg-ebony-clay-100';
         size="sm"
         aria-label="Older years"
         :class="[
-          'min-h-8 border-0 font-medium shadow-none focus-visible:ring-0 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-solid focus-visible:outline-galaxy-primary data-[placeholder]:text-chicago-700',
+          'min-h-8 border-0 font-medium shadow-none focus-visible:ring-0 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-solid focus-visible:outline-focus data-[placeholder]:text-fg-2',
           olderSelected ? chipOn : chipOff,
         ]"
       >

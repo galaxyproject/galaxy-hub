@@ -41,7 +41,7 @@ const articleData = newsArticles.map((a) => ({
   <div class="max-w-6xl mx-auto">
     <PageHeader title={headerTitle} description={pageDescription} {eyebrow} />
 
-    <div class="bg-white rounded-b-lg shadow-sm px-6 sm:px-8 py-6">
+    <div class="bg-surface rounded-b-lg shadow-sm px-6 sm:px-8 py-6">
       <NewsList client:load articles={articleData} initialSubsite={subsiteId} />
     </div>
   </div>
