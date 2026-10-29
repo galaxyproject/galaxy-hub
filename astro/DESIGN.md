@@ -363,7 +363,7 @@ Its markup, for reference:
 
 ```html
 <div role="group" aria-label="News layout"
-     class="hidden gap-0.5 rounded-md border-1 border-chicago-400 bg-white p-0.5 sm:inline-flex">
+     class="hidden gap-0.5 rounded-md border border-chicago-400 bg-white p-0.5 sm:inline-flex">
   <button type="button" aria-pressed="true"
           class="inline-flex min-h-8 items-center gap-1.5 rounded-[4px] px-3 py-1 text-sm leading-5
                  bg-galaxy-primary font-bold text-white">
@@ -381,7 +381,7 @@ Its markup, for reference:
 - **State and URL**: the list owns the state (`v-model`) and keeps it in the `view` param (`rows` | `tiles`) through `@/utils/urlFilters`, read in `onMounted`. Rows is the default and stays out of the URL; an unknown value reads as rows. Write `view` in the same `writeParams` call as the list's other params so it lands last (see Filters, "Param names"); `parseListView()` and `LIST_VIEW_DEFAULT` live in `@/utils/listView`. The site is static, so a `?view=tiles` URL paints rows first and switches to tiles after hydration, like `?q=` and `?year=`.
 - **Tiles**: `grid-cols-[repeat(auto-fill,minmax(min(100%,16rem),1fr))] gap-4`, white cards with an `ebony-clay-100` border. News tiles show the post image at the bottom of the card (frontmatter `image`, else the first site image in the body, via `listImage()` in `@/utils/listImage`; `alt=""` because the title above names the post). GIFs, files missing from `public/` and files over 1 MB are skipped at build (`servedImageCheck()` in `@/utils/publicImage`) until listings get thumbnails; posts without an image have no image area. Event tiles keep the `EventDate` line. Rows keep the list look.
 - **Scope**: full listing pages only (news, events, subsite news and events, events archive). Bare and embed widgets have no toggle.
-- **Contrast**: white on `galaxy-primary` 8.07:1; `chicago-700` on white 8.3:1 (7.5:1 on the hover fill); the pressed fill is 8.07:1 against the white group, so the state passes the 3:1 non-text minimum; the `chicago-400` group border is 3.59:1 (the input border). Use `border-1`, not `border`: the global `.border` in `bootstrap-compat.css` forces a grey `#dee2e6` with `!important`.
+- **Contrast**: white on `galaxy-primary` 8.07:1; `chicago-700` on white 8.3:1 (7.5:1 on the hover fill); the pressed fill is 8.07:1 against the white group, so the state passes the 3:1 non-text minimum; the `chicago-400` group border is 3.59:1 (the input border).
 
 Accessibility (WCAG 2.1 AA):
 

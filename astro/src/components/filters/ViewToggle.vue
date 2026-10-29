@@ -32,12 +32,11 @@ const buttonOff = 'text-chicago-700 hover:bg-bay-of-many-100 hover:text-galaxy-d
 </script>
 
 <template>
-  <!-- Hidden on phones, where tiles are one column (a ?view=tiles link still shows tiles).
-       border-1, not border: bootstrap-compat's global .border sets a grey colour with !important -->
+  <!-- Hidden on phones, where tiles are one column (a ?view=tiles link still shows tiles) -->
   <div
     role="group"
     :aria-label="label"
-    class="hidden gap-0.5 rounded-md border-1 border-chicago-400 bg-white p-0.5 sm:inline-flex"
+    class="hidden gap-0.5 rounded-md border border-chicago-400 bg-white p-0.5 sm:inline-flex"
     data-view-toggle
   >
     <button
