@@ -52,7 +52,11 @@
     color: #fff;
     background: rgba(255, 255, 255, 0.16);
     border-color: rgba(255, 215, 0, 0.7);
-    outline: none;
+  }
+
+  /* The button sits on the dark code block: the global outline in its on-chrome colour */
+  .code-copy:focus-visible {
+    outline-color: var(--gx-focus-on-chrome);
   }
 
   .code-copy.is-copied {
