@@ -47,8 +47,7 @@ const pillars = (await getEntry('datasets', 'esg4stars-pillars'))?.data as
   { heading?: string; pillars?: Pillar[] } | undefined;
 const streams = (await getEntry('datasets', 'esg4stars-streams'))?.data as
   { heading?: string; streams?: Stream[] } | undefined;
-const partners = (await getEntry('datasets', 'esg4stars-partners'))?.data as
-  { heading?: string; partners?: Partner[] } | undefined;
+const partners = project.partners as { heading?: string; partners?: Partner[] } | undefined;
 
 const news = await getProjectNews(project.source);
 const events = await getProjectEvents(project.source);

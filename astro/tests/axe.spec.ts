@@ -20,8 +20,10 @@ import { AxeBuilder } from '@axe-core/playwright';
 // ESG event is edited or added. The ESG4Stars news and events pages are not scanned: the project runs,
 // so both lists change with each new post or event and as dates pass. They use the same NewsList and
 // ProjectRows as the ESG pages; the unmuted date line of upcoming rows (galaxy-dark) is darker than the
-// muted one scanned on the ESG past events page.
-// Edits to a scanned page or its inserts, and new platforms on /use/, are still checked on purpose.
+// muted one scanned on the ESG past events page. The projects index (/projects/) is scanned whole: its
+// cards come from content/projects/, not from news or events.
+// Edits to a scanned page or its inserts, and new platforms on /use/ or /projects/, are still checked
+// on purpose.
 const fixedYear = 2020;
 // ESG news started in 2022; 2023 is a full past year of the project
 const esgNewsYear = 2023;
@@ -59,6 +61,7 @@ const pages: ScanTarget[] = [
     ready: (page) => page.getByText(new RegExp(`^\\s*\\d+ articles?\\s+in ${esgNewsYear}\\s*$`)),
   },
   { path: '/projects/esg/events/' }, // project section page; scans the ProjectRows past event list
+  { path: '/projects/' }, // projects index (cards from content/projects/)
   {
     path: '/projects/esg4stars/', // second project page from the shared components (pillars, partner table)
     exclude: [{ name: 'news and events lists', count: 2, locate: css('[data-project-list]') }],

@@ -9,7 +9,7 @@ import NewsList from '../../../components/news/NewsList.vue';
 import { getInsert } from '../../../utils/content';
 import { getProject, getProjectNews } from '../../../utils/projectPages';
 
-const project = await getProject('esg', 'partners');
+const project = await getProject('esg');
 const intro = (await getInsert('projects/esg/news'))?.data as { description?: string } | undefined;
 const esgNews = await getProjectNews(project.source);
 const newsHref = '/projects/esg/news/';

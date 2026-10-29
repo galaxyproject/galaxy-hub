@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { contextFromPath, contextMenuGroups, contextPersistKey, projectLinks } from './siteContext';
+import { contextFromPath, contextMenuGroups, contextPersistKey, projectContextIds, projectLinks } from './siteContext';
 
 describe('contextFromPath', () => {
   it('uses the region for region-prefixed URLs', () => {
@@ -48,6 +48,7 @@ describe('contextFromPath', () => {
       '/projects/esg4stars/events/',
     ]);
     expect(contextFromPath('/projects/')).toMatchObject({ kind: 'global' });
+    expect(projectContextIds()).toEqual(['esg', 'esg4stars']);
   });
 });
 
