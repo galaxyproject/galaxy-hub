@@ -459,6 +459,9 @@ body {
   --tw-prose-bold: var(--gx-fg-strong);
   --tw-prose-links: var(--gx-link);
   --tw-prose-headings: var(--gx-fg-strong);
+  --tw-prose-code: var(--gx-fg-strong);
+  --tw-prose-kbd: var(--gx-fg-strong);
+  --tw-prose-kbd-shadows: color-mix(in srgb, var(--gx-fg-strong) 10%, transparent);
   overflow-wrap: break-word;
 }
 
@@ -540,7 +543,7 @@ body {
 }
 
 .prose code:not(pre code) {
-  background-color: #f3f4f6;
+  background-color: var(--color-surface-sunken);
   padding: 0.125rem 0.375rem;
   border-radius: 0.25rem;
   font-size: 0.875em;
