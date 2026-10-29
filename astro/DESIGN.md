@@ -407,27 +407,44 @@ Signature pattern shared with IWC -- gold bar animates in from the left on hover
 </div>
 ```
 
-### View Toggle (Sliding Pill)
+### View Toggle (Segmented Control)
 
-Pattern from IWC for binary view switching (list ↔ grid, table ↔ cards). A container holds two buttons with a single sliding pill background that animates horizontally:
+Binary view switching (Rows ↔ Tiles on listings) uses a small segmented control from prototype A of the redesign (`.seg` in `prototypes/A/styles.css`): a bordered white group of two buttons, the pressed one filled. The hub component is `ViewToggle` (`@/components/filters/ViewToggle.vue`), used by the news and events listings:
+
+```vue
+<ViewToggle v-model="view" label="News layout" />
+```
+
+Its markup, for reference:
 
 ```html
-<div class="relative inline-flex rounded-lg bg-galaxy-dark/10 p-1">
-  <!-- Sliding pill indicator -->
-  <div class="absolute top-1 bottom-1 w-[calc(50%-2px)] rounded-md
-              bg-galaxy-gold shadow-md transition-all duration-300 ease-out"
-       :class="isGrid ? 'left-[calc(50%+1px)]' : 'left-1'"></div>
-
-  <button class="relative z-10 inline-flex items-center gap-1.5 rounded-md
-                 px-3.5 py-1.5 text-sm font-medium transition-colors duration-300"
-          :class="!isGrid ? 'text-galaxy-dark' : 'text-galaxy-grey hover:text-galaxy-dark'">
-    <List :size="16" /> <span>List</span>
+<div role="group" aria-label="News layout"
+     class="hidden gap-0.5 rounded-md border-1 border-chicago-400 bg-white p-0.5 sm:inline-flex">
+  <button type="button" aria-pressed="true"
+          class="inline-flex min-h-8 items-center gap-1.5 rounded-[4px] px-3 py-1 text-sm leading-5
+                 bg-galaxy-primary font-bold text-white">
+    <List :size="16" aria-hidden="true" /> <span>Rows</span>
   </button>
-  <!-- Grid button mirrors above -->
+  <button type="button" aria-pressed="false"
+          class="... text-chicago-700 hover:bg-bay-of-many-100 hover:text-galaxy-dark">
+    <LayoutGrid :size="16" aria-hidden="true" /> <span>Tiles</span>
+  </button>
 </div>
 ```
 
-The active icon also gets a subtle `scale-110` while the inactive stays at `scale-100`. Reference: [`ViewToggle.vue`](https://github.com/galaxyproject/iwc/blob/main/website/src/components/ViewToggle.vue) in the IWC repo.
+- **Look**: 2px padding and gap, 6px group radius, 4px button radius, 14/20 text, 16px icon with a 6px gap. Unpressed text `chicago-700`, hover fill `bay-of-many-100`; pressed fill `galaxy-primary` with white bold text. No sliding pill, no animation, no gold. (The IWC sliding pill that this section described before is not the hub pattern.)
+- **Placement**: on the row the list already has, never a row of its own. News: the result-count line of `FilterBar` (count left, toggle right, via its `actions` slot). Events: the first section heading (Upcoming Events, or Past Events when there is no upcoming list, as on the archive). The row is `flex flex-wrap items-center justify-between`; the hidden toggle leaves no gap on phones.
+- **State and URL**: the list owns the state (`v-model`) and keeps it in the `view` param (`rows` | `tiles`) through `@/utils/urlFilters`, read in `onMounted`. Rows is the default and stays out of the URL; an unknown value reads as rows. Write `view` in the same `writeParams` call as the list's other params so it lands last (see Filters, "Param names"); `parseListView()` and `LIST_VIEW_DEFAULT` live in `@/utils/listView`. The site is static, so a `?view=tiles` URL paints rows first and switches to tiles after hydration, like `?q=` and `?year=`.
+- **Tiles**: `grid-cols-[repeat(auto-fill,minmax(min(100%,16rem),1fr))] gap-4`, white cards with an `ebony-clay-100` border. News tiles show the post image at the bottom of the card (frontmatter `image`, else the first site image in the body, via `listImage()` in `@/utils/listImage`; `alt=""` because the title above names the post). GIFs, files missing from `public/` and files over 1 MB are skipped at build (`servedImageCheck()` in `@/utils/publicImage`) until listings get thumbnails; posts without an image have no image area. Event tiles keep the `EventDate` line. Rows keep the list look.
+- **Scope**: full listing pages only (news, events, subsite news and events, events archive). Bare and embed widgets have no toggle.
+- **Contrast**: white on `galaxy-primary` 8.07:1; `chicago-700` on white 8.3:1 (7.5:1 on the hover fill); the pressed fill is 8.07:1 against the white group, so the state passes the 3:1 non-text minimum; the `chicago-400` group border is 3.59:1 (the input border). Use `border-1`, not `border`: the global `.border` in `bootstrap-compat.css` forces a grey `#dee2e6` with `!important`.
+
+Accessibility (WCAG 2.1 AA):
+
+- Two `<button type="button" aria-pressed>` inside `role="group"` with an `aria-label` naming the list ("News layout", "Events layout"). Not a tablist: both layouts show the same items.
+- Every button has a visible text label next to its icon; icons are `aria-hidden`.
+- Hidden below `sm`, where tiles are one column; a tiles link still opens tiles. From `sm` up the buttons are 32px tall.
+- Focus is the solid 2px `galaxy-primary` outline with a 2px offset, as in Filters.
 
 ### Mobile Bottom Sheet
 

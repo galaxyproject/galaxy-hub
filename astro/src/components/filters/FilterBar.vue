@@ -141,8 +141,12 @@ const countText = computed(() => {
       </Button>
     </div>
 
-    <p class="text-sm text-chicago-600" aria-live="polite" aria-atomic="true" data-filter-count>
-      {{ countText }}
-    </p>
+    <!-- Count left, optional list actions (e.g. the view toggle) right -->
+    <div class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2">
+      <p class="text-sm text-chicago-600" aria-live="polite" aria-atomic="true" data-filter-count>
+        {{ countText }}
+      </p>
+      <slot name="actions" />
+    </div>
   </div>
 </template>

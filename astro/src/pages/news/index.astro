@@ -3,11 +3,16 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHeader from '../../components/layout/PageHeader.astro';
 import NewsList from '../../components/news/NewsList.vue';
 import { getPublishedNews } from '../../utils/content';
+import { listImage } from '../../utils/listImage';
+import { servedImageCheck } from '../../utils/publicImage';
 
 // Get published news articles (excludes future-dated articles)
 const newsArticles = await getPublishedNews();
 
 // Transform to plain objects for Vue component
+// Tile images must exist in public/ and stay under the size cap
+const tileImageOk = servedImageCheck();
+
 const articleData = newsArticles.map((a) => ({
   slug: a.data.slug,
   title: a.data.title || 'Untitled',
@@ -16,6 +21,7 @@ const articleData = newsArticles.map((a) => ({
   tags: Array.isArray(a.data.tags) ? a.data.tags : a.data.tags ? [a.data.tags] : [],
   subsites: a.data.subsites,
   externalUrl: a.data.external_url,
+  image: listImage(a.data.image, a.body, tileImageOk),
 }));
 ---
 
