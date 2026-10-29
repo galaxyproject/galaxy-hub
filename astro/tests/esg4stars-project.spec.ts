@@ -59,6 +59,7 @@ test.describe('ESG4Stars project pages', () => {
       'href',
       'https://cordis.europa.eu/project/id/101290798'
     );
+    await expect(box.getByRole('link', { name: 'EuroScienceGateway' })).toHaveAttribute('href', '/projects/esg/');
     await expect(box.getByRole('img', { name: 'Funded by the European Union' })).toBeVisible();
 
     // Partner count comes from the partner list
