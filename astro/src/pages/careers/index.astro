@@ -142,9 +142,9 @@ function getContinentLabel(continent: string | undefined): string {
                     getLocationName(career.data.location)
                   )}
                 </span>}
-                {career.data.continent && <span class="text-fg-meta"
-                  >({getContinentLabel(career.data.continent)})</span
-                >}
+                {career.data.continent && <span class="text-fg-meta">
+                  ({getContinentLabel(career.data.continent)})
+                </span>}
               </CardDescription>
             </CardHeader>
             <CardContent>
@@ -190,9 +190,9 @@ function getContinentLabel(continent: string | undefined): string {
             >
               {career.data.title}
             </a>
-            {getLocationName(career.data.location) && <span class="text-sm text-fg-meta hidden sm:inline"
-              >{getLocationName(career.data.location)}</span
-            >}
+            {getLocationName(career.data.location) && <span class="text-sm text-fg-meta hidden sm:inline">
+              {getLocationName(career.data.location)}
+            </span>}
           </div>)}
         </div>
       )}
