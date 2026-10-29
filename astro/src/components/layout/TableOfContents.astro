@@ -41,10 +41,10 @@ const shouldRender = filteredHeadings.length >= 2;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: #6b7280;
+    color: var(--color-fg-meta);
     margin-bottom: 0.75rem;
     padding-bottom: 0.5rem;
-    border-bottom: 1px solid #e5e7eb;
+    border-bottom: 1px solid var(--color-line);
   }
 
   .toc-list {
@@ -72,7 +72,7 @@ const shouldRender = filteredHeadings.length >= 2;
   .toc-link {
     display: block;
     padding: 0.25rem 0;
-    color: #4b5563;
+    color: var(--color-fg-2);
     text-decoration: none;
     line-height: 1.4;
     transition:
@@ -81,15 +81,15 @@ const shouldRender = filteredHeadings.length >= 2;
   }
 
   .toc-link:hover {
-    color: #25537b;
+    color: var(--color-link);
     padding-left: 0.25rem;
   }
 
   /* Active state for JS-enhanced TOC highlighting (optional future enhancement) */
   .toc-link.active {
-    color: #25537b;
+    color: var(--color-link);
     font-weight: 500;
-    border-left: 2px solid #ffd700;
+    border-left: 2px solid var(--color-accent-gold);
     padding-left: 0.5rem;
     margin-left: -0.5rem;
   }
