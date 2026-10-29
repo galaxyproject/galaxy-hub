@@ -7,6 +7,8 @@ import { getInsert, getListedCollection } from './content';
 import { isPastEvent } from './dateUtils';
 import { parseProjectFacts, type ProjectFacts } from './projectFacts';
 import { matchesProjectSource, parseProjectSource, type ProjectSource } from './projectSource';
+import { pageIndexItems, sortProjectIndex, type ProjectIndexItem } from './projectIndex';
+import { projectContextIds } from './siteContext';
 
 export interface Project {
   id: string;
@@ -59,4 +61,25 @@ export async function getProjectEvents(source: ProjectSource, { pastOnly = false
       matchesProjectSource(entry.data, source) && (!pastOnly || isPastEvent(entry.data.date, entry.data.end, now))
   );
   return events.sort((a, b) => newestFirst(a.data.date, b.data.date));
+}
+
+/** Entries of /projects/: project sections with their facts, then the other top-level project pages. */
+export async function getProjectIndex(now: Date = new Date()): Promise<ProjectIndexItem[]> {
+  const sections = await Promise.all(
+    projectContextIds().map(async (id): Promise<ProjectIndexItem> => {
+      const project = await getProject(id);
+      return {
+        id,
+        title: project.name,
+        ...(project.description && { description: project.description }),
+        href: `/projects/${id}/`,
+        external: false,
+        facts: project.facts,
+      };
+    })
+  );
+  const sectionIds = new Set(sections.map((item) => item.id));
+  const pages = await getListedCollection('articles', (entry) => entry.data.slug.startsWith('projects/'));
+  const others = pageIndexItems(pages.map((entry) => entry.data)).filter((item) => !sectionIds.has(item.id));
+  return sortProjectIndex([...sections, ...others], now);
 }

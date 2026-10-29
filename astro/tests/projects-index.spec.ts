@@ -1,0 +1,71 @@
+import { test, expect } from '@playwright/test';
+
+// /projects/ lists the project sections (with status and dates) and the other project pages from
+// content/projects/; pages that redirect inside the Hub are left out, BRC links to its own site.
+const internal = [
+  '/projects/esg4stars/',
+  '/projects/esg/',
+  '/projects/covid19/',
+  '/projects/mass-spectrometry/',
+  '/projects/mpxv/',
+  '/projects/vgp/',
+];
+
+test.describe('Projects index', () => {
+  test('lists the project pages, running projects first', async ({ page }) => {
+    await page.setViewportSize({ width: 1440, height: 900 });
+    const response = await page.goto('/projects/');
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toHaveText('Projects');
+
+    const list = page.locator('[data-project-index]');
+    const cards = list.locator(':scope > li');
+    await expect(cards).toHaveCount(internal.length + 1);
+    const hrefs = await list.getByRole('link').evaluateAll((els) => els.map((a) => a.getAttribute('href')));
+    expect(hrefs.slice(0, 2)).toEqual(['/projects/esg4stars/', '/projects/esg/']);
+    expect([...hrefs].sort()).toEqual([...internal, 'https://brc-analytics.org/'].sort());
+    expect(hrefs).not.toContain('/projects/singlecell/');
+    expect(hrefs).not.toContain('/projects/small-scale-admins/');
+
+    // Status and dates come from the project facts
+    const esg4stars = cards.filter({ has: page.getByRole('link', { name: 'ESG4Stars' }) });
+    await expect(esg4stars.locator('[data-project-status="active"]')).toHaveText('Active');
+    await expect(esg4stars).toContainText('Oct 2026 – Sep 2029');
+    const esg = cards.filter({ has: page.getByRole('link', { name: 'EuroScienceGateway' }) });
+    await expect(esg.locator('[data-project-status="ended"]')).toHaveText('Ended · Aug 2025');
+
+    // External site: new tab, named as such
+    const brc = list.getByRole('link', { name: /BRC Analytics/ });
+    await expect(brc).toHaveAttribute('target', '_blank');
+    await expect(brc).toHaveAccessibleName(/opens in a new tab/);
+  });
+
+  test('every listed project page resolves', async ({ page, request }) => {
+    await page.goto('/projects/');
+    const hrefs = await page
+      .locator('[data-project-index]')
+      .getByRole('link')
+      .evaluateAll((els) => els.map((a) => a.getAttribute('href') ?? ''));
+    for (const href of hrefs.filter((h) => h.startsWith('/'))) {
+      const response = await request.get(href);
+      expect(response.status(), href).toBe(200);
+      expect(await response.text(), href).not.toContain('Redirecting to:');
+    }
+  });
+
+  test('the whole card opens the project', async ({ page }) => {
+    await page.setViewportSize({ width: 1440, height: 900 });
+    await page.goto('/projects/');
+    const card = page.locator('[data-project-index] > li').filter({ has: page.getByRole('link', { name: 'ESG4Stars' }) });
+    const box = (await card.boundingBox())!;
+    await page.mouse.click(box.x + box.width - 12, box.y + box.height - 12);
+    await expect(page).toHaveURL(/\/projects\/esg4stars\/$/);
+  });
+
+  test('fits a 390px phone without horizontal scroll', async ({ page }) => {
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto('/projects/');
+    const width = await page.evaluate(() => document.documentElement.scrollWidth);
+    expect(width).toBeLessThanOrEqual(390);
+  });
+});
