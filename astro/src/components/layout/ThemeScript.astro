@@ -1,0 +1,8 @@
+---
+// Applies the stored theme choice before the first paint, so dark pages never flash light.
+// Goes first in <head> on every page with the theme switch; see src/utils/theme.ts.
+import { THEME_PREPAINT_SCRIPT } from '../../utils/theme';
+---
+
+<meta name="color-scheme" content="light dark" />
+<script is:inline set:html={THEME_PREPAINT_SCRIPT} />

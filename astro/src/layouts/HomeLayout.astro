@@ -10,6 +10,7 @@
 import { ClientRouter } from 'astro:transitions';
 import '../styles/global.css';
 import SkipLink from '../components/layout/SkipLink.astro';
+import ThemeScript from '../components/layout/ThemeScript.astro';
 
 interface Props {
   title: string;
@@ -23,6 +24,7 @@ const { title, description = 'Galaxy Community Hub - Open source platform for da
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <ThemeScript />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="generator" content={Astro.generator} />

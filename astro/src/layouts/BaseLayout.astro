@@ -5,6 +5,7 @@ import Sidebar from '../components/layout/Sidebar.astro';
 import CodeCopy from '../components/content/CodeCopy.astro';
 import MobileMenu from '../components/layout/MobileMenu.vue';
 import SkipLink from '../components/layout/SkipLink.astro';
+import ThemeScript from '../components/layout/ThemeScript.astro';
 import { detectSubsiteFromPath } from '../stores/subsiteStore';
 import { getSubsiteNavbar } from '../utils/navbar-content';
 import { contextPersistKey } from '../utils/siteContext';
@@ -34,6 +35,7 @@ const sidebarPersistKey = contextPersistKey(Astro.url.pathname);
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <ThemeScript />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
