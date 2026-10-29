@@ -120,8 +120,12 @@ test.describe('Theme switch', () => {
     await page.setViewportSize({ width: 390, height: 844 });
     await page.emulateMedia({ colorScheme: 'light' });
     await page.goto(PAGE);
+    // MobileMenu is a client:load island: open it only once hydrated, then wait for the sheet's
+    // switch to mount (it checks System on mount) before choosing
+    await expect(page.locator('header.site-mobile-header astro-island').first()).not.toHaveAttribute('ssr');
     await page.getByRole('button', { name: 'Open menu' }).click();
     const menu = page.locator('[data-testid="mobile-menu"][data-state="open"]');
+    await expect(menu).toBeVisible();
     const group = menu.locator('[data-theme-switch]');
     await expect(group.getByRole('radio', { name: 'System' })).toBeChecked();
     await group.locator('label').filter({ hasText: 'Dark' }).click();
