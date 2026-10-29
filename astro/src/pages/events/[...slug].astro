@@ -344,7 +344,7 @@ const editUrl = `https://github.com/galaxyproject/galaxy-hub/edit/main/content/$
     /></ConferenceLayout>
 ) : (
   <BaseLayout title={title || 'Event'} description={tease} noindex={isDraft(event.data)}>
-    <article class="max-w-6xl mx-auto bg-white relative">
+    <article class="max-w-6xl mx-auto bg-surface relative">
       <PageHeader variant="compact" title={title || 'Event'} description={tease} tags={tags} authors={displayAuthors}>
         <EventHeaderMeta date={date} end={end} location={location} contacts={contacts} />
       </PageHeader>
@@ -361,7 +361,7 @@ const editUrl = `https://github.com/galaxyproject/galaxy-hub/edit/main/content/$
         <div class="flex justify-between items-center pt-4 border-t border-ebony-clay-100">
           <a
             href="/events/"
-            class="text-galaxy-primary hover:text-link-hover hover:underline hover:decoration-link-hover-line hover:decoration-2 flex items-center gap-1.5 font-medium transition-colors"
+            class="text-link hover:text-link-hover hover:underline hover:decoration-link-hover-line hover:decoration-2 flex items-center gap-1.5 font-medium transition-colors"
           >
             <Icon name="chevron-left" />
             Back to Events
