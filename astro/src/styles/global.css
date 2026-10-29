@@ -554,36 +554,14 @@ body {
 }
 
 /* Pages without a rail (ContentWithToc): the 72ch text is centred only when every direct
-   child of the column is a text block (or an authored-centred block or a floated image), so
-   no empty strip opens on the right of a text-only page. Anything else (grids, tables,
-   embeds, wrappers) keeps the text left-aligned, so every left edge lines up. The column
-   publishes the inset; text blocks, floats and (when centred) image-only paragraphs and
-   rules use it, so the condition is written once. */
+   child of the column is a text block (paragraphs, lists, quotes, headings, rules; centred
+   ones included) or a floated image, so no empty strip opens on the right of a text-only
+   page. Anything else (grids, tables, embeds, wrapper divs, centred boxes) keeps the text
+   left-aligned, so every left edge lines up. The column publishes the inset; text blocks,
+   floats and (when centred) image-only paragraphs and rules use it, so the condition is
+   written once. */
 .prose-measure-centred:not(
-  :has(
-    > :not(
-      p,
-      ul,
-      ol,
-      dl,
-      blockquote,
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h6,
-      hr,
-      br,
-      .text-center,
-      [align='center' i],
-      [style*='text-align:center' i],
-      [style*='text-align: center' i],
-      img.float-right,
-      img.float-left,
-      img[align]
-    )
-  )
+  :has(> :not(p, ul, ol, dl, blockquote, h1, h2, h3, h4, h5, h6, hr, br, img.float-right, img.float-left, img[align]))
 ) {
   --reading-inset: max(0px, (100% - var(--reading-measure)) / 2);
   --reading-cap: var(--reading-measure);
