@@ -135,8 +135,14 @@ function rangeSegments(startDate: Date, endDate: Date | null, format: boolean | 
     };
   }
 
+  // A year-less range that crosses into another year keeps the end year: "Dec 30 - Jan 2, 2025"
+  const endFormat =
+    !year && startDate.getUTCFullYear() !== endDate.getUTCFullYear()
+      ? { ...resolveFormat(format), year: true }
+      : format;
+
   // Otherwise show both dates in full
-  return { start: formatDate(startDate, format), end: formatDate(endDate, format), endDate };
+  return { start: formatDate(startDate, format), end: formatDate(endDate, endFormat), endDate };
 }
 
 function joinRange({ start, end }: RangeSegments): string {
