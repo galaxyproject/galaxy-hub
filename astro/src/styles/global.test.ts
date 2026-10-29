@@ -116,6 +116,27 @@ describe('global.css theme roles', () => {
     expect(alert.get('--gx-link')).toBe(light.get('--gx-link'));
   });
 
+  it('resets light-island text colours in dark only, so light rendering does not change', () => {
+    for (const island of ['.ag-band', '.prose [bgcolor]', '.subsite-inserts .bg-secondary']) {
+      const own = declarations(island);
+      expect(own.get('--gx-fg')).toBe(light.get('--gx-fg'));
+      expect([...own.keys()].filter((name) => name === 'color' || name.startsWith('--tw-prose-'))).toEqual([]);
+      const dark = new Map<string, string>();
+      for (const [prelude, body] of topLevelRules(css)) {
+        if (
+          !prelude
+            .split(',')
+            .map((s) => s.trim())
+            .includes(island)
+        )
+          continue;
+        for (const [inner, innerBody] of topLevelRules(body))
+          if (inner === '@variant dark') for (const [n, v] of parse(innerBody)) dark.set(n, v);
+      }
+      expect(dark.get('color')).toBe('var(--gx-fg)');
+    }
+  });
+
   it('declares color-scheme in both theme blocks', () => {
     expect(light.get('color-scheme')).toBe('light');
     expect(dark.get('color-scheme')).toBe('dark');
