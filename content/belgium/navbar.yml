@@ -43,6 +43,8 @@ right:
             target: "/images/galaxy-logos/"
     - label: Projects
       contents:
+          - label: All projects
+            target: "/projects/"
           - label: COVID-19
             target: "/projects/covid19/"
           - label: Monkeypox

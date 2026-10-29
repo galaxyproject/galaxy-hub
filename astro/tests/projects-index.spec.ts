@@ -69,6 +69,24 @@ test.describe('Projects index', () => {
     await expect(page).toHaveURL(/\/projects\/esg4stars\/$/);
   });
 
+  test('the sidebar links the index under Applications and marks it current', async ({ page }) => {
+    await page.setViewportSize({ width: 1440, height: 900 });
+    await page.goto('/projects/');
+    const nav = page.getByRole('navigation', { name: 'Main' });
+    const link = nav.locator('a[href="/projects/"]');
+    await expect(link).toHaveCount(1);
+    await expect(link).toBeVisible();
+    await expect(link).toHaveText(/^\s*Projects\s*$/);
+    await expect(link).toHaveAttribute('aria-current', 'page');
+    await expect(nav.locator('a[aria-current="page"]')).toHaveCount(1);
+
+    // A project page under it is not the index
+    await page.goto('/projects/vgp/');
+    await expect(page.getByRole('navigation', { name: 'Main' }).locator('a[href="/projects/"]')).not.toHaveAttribute(
+      'aria-current'
+    );
+  });
+
   test('fits a 390px phone without horizontal scroll', async ({ page }) => {
     await page.setViewportSize({ width: 390, height: 844 });
     await page.goto('/projects/');
