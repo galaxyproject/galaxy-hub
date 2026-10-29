@@ -37,7 +37,6 @@ interface Props {
   headings?: Heading[];
   supporters?: SupporterProfile[];
   editUrl: string;
-  externalUrl?: string | null;
   showMetadata?: boolean;
   subnavItems?: Array<{ href: string; label: string; active?: boolean }>;
   /** Ask search engines not to index the page (drafts). */
@@ -57,7 +56,6 @@ const {
   headings = [],
   supporters = [],
   editUrl,
-  externalUrl,
   showMetadata = true,
   subnavItems = [],
   noindex = false,
@@ -119,26 +117,15 @@ const hasMetadata =
           <Icon name="chevron-left" />
           Back to Events
         </a>
-        <div class="flex items-center gap-4">
-          <a
-            href={editUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="text-chicago-500 hover:text-galaxy-primary flex items-center gap-1.5 transition-colors"
-          >
-            <Icon name="edit" />
-            Edit on GitHub
-          </a>
-          {externalUrl && <a
-            href={externalUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="inline-flex items-center gap-2 px-4 py-2 bg-galaxy-primary text-white rounded-md hover:bg-galaxy-primary/90 transition-colors"
-          >
-            Visit Event Website
-            <Icon name="external-link" />
-          </a>}
-        </div>
+        <a
+          href={editUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-chicago-500 hover:text-galaxy-primary flex items-center gap-1.5 transition-colors"
+        >
+          <Icon name="edit" />
+          Edit on GitHub
+        </a>
       </div>
     </footer>
 
