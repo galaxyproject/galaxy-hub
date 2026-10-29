@@ -25,7 +25,8 @@ const { title, description = 'Galaxy Community Hub', fullBleed = false, image, n
 const ogImage = image ? new URL(image, Astro.site ?? Astro.url).href : undefined;
 const currentSubsite = detectSubsiteFromPath(Astro.url.pathname);
 const navbar = await getSubsiteNavbar(currentSubsite);
-// Keep the sidebar across view transitions only while the context (region, project, global) stays the same
+// Keep the sidebar across view transitions only while the context (region, project, global) stays the same.
+// The directive goes on the <aside> itself: Astro ignores transition:persist on an Astro component.
 const sidebarPersistKey = contextPersistKey(Astro.url.pathname);
 ---
 
@@ -54,7 +55,7 @@ const sidebarPersistKey = contextPersistKey(Astro.url.pathname);
     <SkipLink />
     <div class="site-shell flex min-h-screen overflow-hidden">
       <!-- Sidebar (desktop only) -->
-      <Sidebar transition:persist={sidebarPersistKey} navbar={navbar} initialSubsite={currentSubsite} />
+      <Sidebar persistKey={sidebarPersistKey} navbar={navbar} initialSubsite={currentSubsite} />
 
       <!-- Mobile header with Vue-powered menu -->
       <header
