@@ -107,4 +107,12 @@ describe('global.css theme roles', () => {
     }
     expect(light.get('--measure')).toBe('72ch');
   });
+
+  it('maps the Tailwind shadows to elevation roles with a light and a dark value', () => {
+    for (const step of ['xs', 'sm', 'md', 'lg']) {
+      expect(theme.get(`--shadow-${step}`)).toBe(`var(--gx-elev-${step})`);
+      expect(light.get(`--gx-elev-${step}`)).toBeTruthy();
+      expect(dark.get(`--gx-elev-${step}`)).toBeTruthy();
+    }
+  });
 });

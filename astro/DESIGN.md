@@ -264,7 +264,7 @@ The `gx-tile` system is the content-authored counterpart to the card pattern abo
 
 Variants and elements:
 
-- `gx-tile` -- base tile: white, `border-galaxy-primary/10`, `--radius-md` (8px), `shadow-sm`.
+- `gx-tile` -- base tile: white, `border-galaxy-primary/10`, `--radius-md` (8px), `shadow-xs`.
 - `gx-tile--link` -- the whole tile is an `<a>`; adds the signature gold hover bar (left edge, `scaleX`) and lifts to `shadow-md`. The card text keeps its colours on hover; only `gx-tile__more` takes the link hover (darker blue, gold underline). Keep contents plain (no nested links/markdown).
 - `gx-tile--feature` -- galaxy-primary left border for emphasized tiles.
 - `gx-tile__media` (160px cover image), `gx-tile__title`, `gx-tile__body` (richer markdown bodies -- separate inner content with blank lines so Markdown renders), `gx-tile__teaser` (short plain text), `gx-tile__credit` (small chicago-500 caption, e.g. photo credits), `gx-tile__more` (link affordance).
@@ -652,10 +652,12 @@ The Hub uses a layered depth model rather than heavy shadow stacking:
 
 ### Shadows
 
+- **`shadow-xs`**: Controls (inputs, outline buttons) and content tiles (`.gx-tile`)
 - **`shadow-sm`**: Default for cards on light backgrounds -- subtle, professional
-- **`shadow-md`**: Cards on dark backgrounds where more lift is needed
+- **`shadow-md`**: Cards on dark backgrounds where more lift is needed; the `gx-tile--link` hover lift
 - **`shadow-lg`**: Reserved for overlay UI (sheets, dialogs) -- never on standard cards
 - **No `shadow-xl` / `shadow-2xl`**: depth comes from the layered background model, not shadow stacking
+- **Tokens**: the four steps read the elevation roles `--gx-elev-xs` ... `--gx-elev-lg` (`global.css`, light in `:root`, dark in `.dark`), so the utilities follow the theme. Light values are Tailwind's defaults; dark values are darker and denser. Exception: `bootstrap-compat.css` defines `.shadow-sm` and `.shadow` with `!important` Bootstrap literals, so the plain `shadow-sm` class still renders `0 0.125rem 0.25rem rgb(0 0 0 / 0.075)` and does not read the role; variant forms (`hover:shadow-sm`) do. Plain CSS uses `var(--gx-elev-*)`, never a shadow literal. Shadow colour utilities (`shadow-black/20`) do not apply to these steps; we do not use them.
 
 ### Borders
 
