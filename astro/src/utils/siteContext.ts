@@ -56,6 +56,18 @@ const PROJECT_CONTEXTS: (SiteContext & { links: { label: string; href: string }[
       { label: 'Past events', href: '/projects/esg/events/' },
     ],
   },
+  {
+    id: 'esg4stars',
+    kind: 'project',
+    name: 'ESG4Stars',
+    shortName: 'ESG4Stars',
+    href: '/projects/esg4stars/',
+    links: [
+      { label: 'Overview', href: '/projects/esg4stars/' },
+      { label: 'News', href: '/projects/esg4stars/news/' },
+      { label: 'Events', href: '/projects/esg4stars/events/' },
+    ],
+  },
 ];
 
 /** The URL decides the context; nothing is remembered between pages. */

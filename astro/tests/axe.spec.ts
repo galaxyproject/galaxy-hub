@@ -57,6 +57,10 @@ const pages: ScanTarget[] = [
     path: '/projects/esg/events/', // project section page with past event rows
     exclude: [{ name: 'past events list', count: 1, locate: css('[data-project-list="events"]') }],
   },
+  {
+    path: '/projects/esg4stars/', // second project page from the shared components (pillars, partner table)
+    exclude: [{ name: 'news and events lists', count: 2, locate: css('[data-project-list]') }],
+  },
   { path: '/use/usegalaxy-eu/' }, // PlatformLayout
   {
     path: '/embed/eu/', // EmbedLayout
