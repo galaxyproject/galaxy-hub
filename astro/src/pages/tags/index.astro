@@ -51,7 +51,7 @@ const letters = Object.keys(groupedTags).sort();
 
     <!-- Letter navigation -->
     <nav
-      class="bg-white border-b border-ebony-clay-100 px-8 py-3 sticky top-0 z-20 shadow-sm"
+      class="bg-white border-b border-ebony-clay-100 px-8 py-3 lg:sticky lg:top-0 z-20 shadow-sm"
       aria-label="Tags by letter"
     >
       <div class="flex flex-wrap gap-1">
@@ -98,8 +98,14 @@ const letters = Object.keys(groupedTags).sort();
 </BaseLayout>
 
 <style>
-  /* Offset for sticky header */
+  /* Clear the sticky letter bar (lg and up) or the fixed mobile header (below lg) */
   section[id^='section-'] {
     scroll-margin-top: 4rem;
+  }
+
+  @media (max-width: 63.99rem) {
+    section[id^='section-'] {
+      scroll-margin-top: 7rem;
+    }
   }
 </style>
