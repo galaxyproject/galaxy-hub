@@ -155,7 +155,7 @@ Use **Lucide icons** (via `lucide-vue-next` and the Lucide SVG set) for all UI c
 Reading layouts (`ContentWithToc`, `PlatformLayout`) render Markdown with `prose prose-compact prose-galaxy`. See `.prose`, `prose-compact` and `.prose-galaxy` in `global.css`:
 
 - **Scale**: `prose-compact` is a Tailwind utility that sets the §3 hierarchy on Typography: 16/1.6 body, h1-h4 from the type tokens, lead 18/28. Being a utility, it beats Typography's own sizes and still loses to a `text-*` class a content heading carries. Don't use `prose-lg` for content.
-- **Measure**: the 72ch reading measure (`--measure`, `max-w-measure`) ships with the reading grid (sticky On this page rail), not before, so pages without a TOC do not get an empty right strip. Until then body text uses the full content width. When it lands, it caps running text only: tables, code, images, figures, embeds, tile grids and centred blocks keep the full column.
+- **Measure**: running text stops at 72ch. Reading layouts add `prose-measure` to the prose container: it resolves `--measure` once (a registered length, so headings end where paragraphs do) and caps the direct-child paragraphs, lists, definition lists, quotes and headings. Tables, code, figures, embeds, tile grids and image-only paragraphs keep the full column. Centred blocks (`.text-center`, `align="center"`, inline `text-align: center`) are exempt and stay centred in the full column. Right floats sit at the measure edge, and the column contains its floats. Full-bleed pages opt out (`ContentWithToc measure={false}`). See §5 Reading Grid.
 - **Bare embeds** (`BareArticleLayout`, iframed by usegalaxy.eu and .fr) use `prose prose-compact prose-galaxy`: the same 16px scale in their 1200px centred column.
 - **Colours**: `.prose` maps links to `link` and headings to `fg-strong`; `prose-compact` also maps body to `fg`, bold to `fg-strong`, lead and quotes to `fg-2`, counters and captions to `fg-meta`.
 
@@ -196,7 +196,7 @@ Content tables are compact and stay inside the prose column. Rules (`global.css`
 
 - **Type and cells**: plain (unclassed) content tables use the `text-sm` scale, 14px on a 20px line, with `10px 12px` cell padding. The head keeps the galaxy-primary fill with white 600 text.
 - **No early wrap**: at build time, cells of Markdown tables that hold only short inline text (24 characters or fewer: dates, numbers, short labels) get `whitespace-nowrap`. Long text cells still wrap, so the browser narrows the text columns instead of breaking a date over two lines. No fixed column widths.
-- **Scroll fallback**: every content table sits in the focusable, labelled `.table-wrapper` region, which scrolls sideways when the table is still wider than the column. Tables never break out of the content column; the future text measure will not apply to them.
+- **Scroll fallback**: every content table sits in the focusable, labelled `.table-wrapper` region, which scrolls sideways when the table is still wider than the column. Tables never break out of the content column; the 72ch text measure does not apply to them.
 - **Left alone**: raw HTML tables keep default wrapping; tables that bring a class (legacy `.bs-compat`, the bare `EventsTable` / `NewsTable` components) keep their own type and padding. In print, short cells wrap again, since paper cannot scroll.
 
 **galaxy-ui parity**: prose tables are the hub's counterpart of `GTable` with `compact` (`g-table-compact`). Same intent, different values: `GTable` cells are `0.75rem` and compact cells `0.3rem`; prose tables use `10px 12px` so running text in cells stays readable. The hub head mirrors `headVariant="dark"` (`g-header-dark`), not the light default.
@@ -571,7 +571,7 @@ Astro's built-in View Transitions are enabled site-wide. The dev server is case-
 ### Spacing & Grid
 
 - **Base unit**: Tailwind's default 4px scale (0.25rem increments)
-- **Reading measure**: `--measure: 72ch` (utility `max-w-measure`) is defined but not applied yet; it ships with the reading grid, see §3 Prose Styling
+- **Reading measure**: `--measure: 72ch` (utility `max-w-measure`), applied to running text by `prose-measure`, see §3 Prose Styling and Reading Grid below
 - **Grid pattern**: 24px × 24px overlay used on dark backgrounds for scientific texture
   - Light backgrounds: `rgba(37, 83, 123, 0.06)` (galaxy-primary tinted) -- class `bg-grid`
   - Dark backgrounds: `rgba(255, 255, 255, 0.03)` (white tinted) -- class `bg-grid-dark`
@@ -608,6 +608,16 @@ Don't reach for `rounded-xl` / `rounded-2xl` -- we don't use them.
 - **Sidebar**: `w-64` (256px), fixed left, `bg-galaxy-dark`, hidden below `lg` (1024px)
 - **Content area**: Flex, fills remaining width, `bg-light-bg` page background
 - **Content cards**: White background, `rounded-lg`, `shadow-sm`, sitting on the light-bg
+
+### Reading Grid
+
+`ContentWithToc` (articles, news, events, conference pages) lays out content as in prototype A:
+
+- **From `xl` (1280px)** with a table of contents: a grid of a `minmax(0, var(--measure))` text column and a 224px (`14rem`) "On this page" rail, 48px (`gap-x-12`) apart, rail pushed to the right edge. Tables and images stay in the text column. The rail is sticky 24px below the window top and scrolls itself (`max-height: calc(100vh - 3rem)`) when the list is taller than the window. At 1280 the text column shrinks to about 640px; at 1440 it reaches the full 72ch.
+- **Below `xl`**: one column; the table of contents is the collapsible "On this page" block above the text.
+- **Without a table of contents**: one column; running text keeps the 72ch measure, left-aligned under the page header, and wide content keeps the full width.
+- **Scroll-spy**: `TableOfContents` marks the link of the current section with `aria-current="location"` (bold, brand bar on the left), in both the rail and the block. An IntersectionObserver band near the top of the window drives it (`utils/tocSpy.ts`); it re-runs on `astro:page-load` and disconnects on `astro:before-swap`. Clicking a link uses the page's smooth scroll, which is off under `prefers-reduced-motion`. The rail ends with a "Back to top" link.
+- **Sticky needs clipping, not hiding**: `html`, `body` and the site shells use `overflow-x: clip`. `overflow-x: hidden` makes an element a scroll container, and a sticky element inside a scroll container that never scrolls never sticks.
 
 ### Section Rhythm (Homepage / Landing Pages)
 
