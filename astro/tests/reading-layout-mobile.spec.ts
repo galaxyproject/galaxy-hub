@@ -7,22 +7,28 @@ test.describe('Reading layout at 390px', () => {
     await page.setViewportSize({ width: 390, height: 844 });
   });
 
-  test('a floated image stacks instead of squeezing the text beside it', async ({ page }) => {
-    await page.goto('/get-started/');
-    const prose = page.locator('.prose-galaxy').first();
-    const heading = prose.locator('h1', { hasText: 'Welcome!' });
-    await expect(heading).toBeVisible();
+  // Content-independent: any floated content image, the first long paragraph.
+  for (const path of ['/get-started/', '/galaxy-team/']) {
+    test(`a floated image stacks instead of squeezing the text beside it: ${path}`, async ({ page }) => {
+      await page.goto(path);
+      const prose = page.locator('.prose-galaxy').first();
+      await expect(prose).toBeVisible();
 
-    const { height, lineHeight } = await heading.evaluate((el) => ({
-      height: el.getBoundingClientRect().height,
-      lineHeight: parseFloat(getComputedStyle(el).lineHeight),
-    }));
-    expect(height, 'the heading fits on one line').toBeLessThan(lineHeight * 1.5);
+      const floats = await prose
+        .locator('img.float-right, img.float-left')
+        .evaluateAll((imgs) => imgs.map((img) => getComputedStyle(img).float));
+      if (path === '/galaxy-team/') expect(floats.length, `${path} needs a floated image`).toBeGreaterThan(0);
+      for (const value of floats) expect(value, 'floated images stack on phones').toBe('none');
 
-    const proseWidth = (await prose.boundingBox())!.width;
-    const textWidth = (await heading.locator('xpath=following-sibling::p[1]').boundingBox())!.width;
-    expect(textWidth, 'the paragraph uses the full column').toBeGreaterThan(proseWidth - 2);
-  });
+      const proseWidth = (await prose.boundingBox())!.width;
+      const paragraph = prose
+        .locator(':scope > p')
+        .filter({ hasText: /[\s\S]{200,}/ })
+        .first();
+      const textWidth = (await paragraph.boundingBox())!.width;
+      expect(textWidth, 'the paragraph uses the full column').toBeGreaterThan(proseWidth - 2);
+    });
+  }
 
   test('the author icon sits on the line of the first author', async ({ page }) => {
     await page.goto('/events/2026-10-07-tool-dev-workshop/');
