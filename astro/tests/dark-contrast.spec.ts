@@ -20,6 +20,9 @@ const pages = [
   '/eu/', // region home
   '/projects/esg/', // project page
   '/galaxy-updates/2018-05/', // legacy migrated page with tables
+  '/news/2021-05-galaxy-update/', // legacy Bootstrap cards
+  '/community/sig/', // legacy Bootstrap alerts
+  '/projects/covid19/data/', // inline code and kbd
   '/this-page-does-not-exist/', // 404
 ];
 
