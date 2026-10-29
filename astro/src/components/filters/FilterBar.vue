@@ -25,6 +25,10 @@ const props = withDefaults(
     tagOptions?: FilterOption[];
     tagLabel?: string;
     tagAllLabel?: string;
+    /** Status chips (e.g. upcoming / past) after an "All" chip; left out when empty. */
+    statusOptions?: FilterOption[];
+    statusLabel?: string;
+    statusAllLabel?: string;
     debounceMs?: number;
   }>(),
   {
@@ -37,6 +41,9 @@ const props = withDefaults(
     tagOptions: () => [],
     tagLabel: 'Tag',
     tagAllLabel: 'All tags',
+    statusOptions: () => [],
+    statusLabel: 'Status',
+    statusAllLabel: 'All',
     debounceMs: 250,
   }
 );
@@ -44,10 +51,12 @@ const props = withDefaults(
 const q = defineModel<string>('q', { default: '' });
 const year = defineModel<YearValue>('year', { default: null });
 const tag = defineModel<string | null>('tag', { default: null });
+const status = defineModel<string | null>('status', { default: null });
 
 const id = useId();
 const searchId = `filter-${id}-search`;
 const tagLabelId = `filter-${id}-tag`;
+const statusLabelId = `filter-${id}-status`;
 
 // The input updates at once; the model (and with it the URL and the count) follows after a pause
 const draft = ref(q.value);
@@ -71,13 +80,19 @@ const focusRing =
   'focus-visible:ring-0 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-solid focus-visible:outline-galaxy-primary';
 
 const ALL = '__all__';
+
+// Same chip look as YearFilter, 40px tall to line up with the search input and the tag select
+const chipBase =
+  'inline-flex h-10 items-center rounded-md px-3 text-sm font-medium transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-solid focus-visible:outline-galaxy-primary';
+const chipOn = 'bg-galaxy-primary text-white';
+const chipOff = 'bg-ebony-clay-50 text-chicago-700 hover:bg-ebony-clay-100';
 const tagValue = computed(() => tag.value ?? ALL);
 
 function onTagChange(value: unknown) {
   tag.value = typeof value === 'string' && value !== ALL ? value : null;
 }
 
-const hasFilters = computed(() => q.value !== '' || year.value !== null || tag.value !== null);
+const hasFilters = computed(() => q.value !== '' || year.value !== null || tag.value !== null || status.value !== null);
 
 function clearAll() {
   clearTimeout(timer);
@@ -85,6 +100,7 @@ function clearAll() {
   q.value = '';
   year.value = null;
   tag.value = null;
+  status.value = null;
   // The button disappears once nothing is filtered; keep focus in the bar
   document.getElementById(searchId)?.focus();
 }
@@ -105,8 +121,9 @@ const countText = computed(() => {
       :label="yearLabel"
     />
 
-    <div class="flex flex-col gap-3 sm:flex-row sm:items-end">
-      <div class="min-w-0 flex-1">
+    <!-- Wraps when tight: the search keeps at least 12rem and later controls move to the next line -->
+    <div class="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-end">
+      <div class="min-w-0 flex-1 sm:min-w-48">
         <label :for="searchId" class="mb-1 block text-sm font-medium text-chicago-700">{{ searchLabel }}</label>
         <Input
           :id="searchId"
@@ -136,6 +153,22 @@ const countText = computed(() => {
             </SelectItem>
           </SelectContent>
         </Select>
+      </div>
+
+      <div v-if="statusOptions.length > 0" class="shrink-0">
+        <span :id="statusLabelId" class="mb-1 block text-sm font-medium text-chicago-700">{{ statusLabel }}</span>
+        <div role="group" :aria-labelledby="statusLabelId" class="flex flex-wrap gap-2" data-status-filter>
+          <button
+            v-for="option in [{ value: null, label: statusAllLabel }, ...statusOptions]"
+            :key="option.value ?? ALL"
+            type="button"
+            :aria-pressed="status === option.value"
+            :class="[chipBase, status === option.value ? chipOn : chipOff]"
+            @click="status = option.value"
+          >
+            {{ option.label }}
+          </button>
+        </div>
       </div>
 
       <Button
