@@ -1,65 +1,55 @@
 ---
 /**
- * ESG Events Page
- * Lists events tagged with the ESG subsite
+ * EuroScienceGateway past events. The project has ended, so only past events tagged esg are listed.
  */
-import ESGLayout from '../../../layouts/ESGLayout.astro';
-import { getListedCollection } from '../../../utils/content';
-import EventDate from '../../../components/events/EventDate.astro';
-import { isPastEvent } from '../../../utils/dateUtils';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import ProjectPageTop from '../../../components/projects/ProjectPageTop.astro';
+import ProjectRows from '../../../components/projects/ProjectRows.astro';
+import ProjectFunding from '../../../components/projects/ProjectFunding.astro';
+import { getInsert } from '../../../utils/content';
+import { ESG_ID, getEsgNews, getEsgPastEvents, getEsgProject } from '../../../utils/esgProject';
+import { countLabel } from '../../../utils/projectFacts';
 
-// Check for solo mode
-const solo = Astro.url.searchParams.get('solo') === 'true';
-
-// Load ESG events
-const events = await getListedCollection('events');
-const now = new Date();
-
-// ESG is a project surface, so it intentionally uses narrow project tags rather than subsite-wide matching.
-const allEsgEvents = events
-  .filter((e) => {
-    const subsites = e.data.subsites || [];
-    return subsites.includes('esg');
-  })
-  .sort((a, b) => {
-    const dateA = new Date(a.data.date || 0);
-    const dateB = new Date(b.data.date || 0);
-    return dateA.getTime() - dateB.getTime();
-  });
-
-// The ESG project is over, so only past events are listed (newest first).
-const pastEvents = allEsgEvents.filter((e) => isPastEvent(e.data.date, e.data.end, now)).reverse();
-
-function esgUrl(path: string): string {
-  return solo ? `${path}?solo=true` : path;
-}
+const project = await getEsgProject();
+const intro = (await getInsert('projects/esg/events'))?.data as { description?: string } | undefined;
+const newsCount = (await getEsgNews()).length;
+const pastEvents = await getEsgPastEvents();
 ---
 
-<ESGLayout title="Events" description="Past events from the EuroScienceGateway project" solo={solo}>
-  <div class="mb-6">
-    <a href={esgUrl('/projects/esg/')} class="text-galaxy-primary hover:underline text-sm"> &larr; Back to ESG Home </a>
+<BaseLayout
+  title={`Past events | ${project.name}`}
+  description={intro?.description ?? `Past events of ${project.name}`}
+>
+  <div class="max-w-6xl mx-auto bg-white rounded-lg shadow-sm p-4 sm:p-6 lg:p-8">
+    <ProjectPageTop
+      projectId={ESG_ID}
+      name={project.name}
+      description={project.description}
+      facts={project.facts}
+      counts={{ '/projects/esg/news/': newsCount }}
+      title={`${project.name} past events`}
+      lead={intro?.description}
+    />
+
+    <section aria-labelledby="past-events-title" class="max-w-4xl">
+      <h2 id="past-events-title" class="sr-only">Past events</h2>
+      <p class="text-sm text-chicago-700 mb-2">{countLabel(pastEvents.length, 'past event')}, newest first</p>
+      {pastEvents.length > 0 ? (
+        <ProjectRows
+          kind="events"
+          items={pastEvents.map((event) => ({
+            href: `/${event.data.slug}/`,
+            title: event.data.title,
+            tease: event.data.tease,
+            start: event.data.date,
+            end: event.data.end,
+          }))}
+        />
+      ) : (
+        <p class="text-chicago-700 text-sm">No past events.</p>
+      )}
+    </section>
+
+    <ProjectFunding slug="projects/esg/funding_notice" class="mt-10" />
   </div>
-
-  <h1 class="text-3xl font-light text-chicago-800 mb-8">EuroScienceGateway Events</h1>
-
-  <!-- Past Events -->
-  <section>
-    <h2 class="text-2xl font-light text-chicago-700 mb-6">Past Events</h2>
-    {pastEvents.length > 0 ? (
-      <div class="space-y-3">
-        {pastEvents.map((event) => <div class="border-b border-ebony-clay-50 pb-3">
-          <div class="flex flex-col md:flex-row md:items-center gap-2">
-            <span class="text-sm shrink-0">
-              <EventDate start={event.data.date} end={event.data.end} past />
-            </span>
-            <a href={`/${event.data.slug}/`} class="text-chicago-700 hover:text-galaxy-gold">
-              {event.data.title}
-            </a>
-          </div>
-        </div>)}
-      </div>
-    ) : (
-      <p class="text-chicago-500 text-sm">No past events.</p>
-    )}
-  </section>
-</ESGLayout>
+</BaseLayout>

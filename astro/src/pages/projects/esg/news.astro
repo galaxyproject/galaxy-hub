@@ -1,49 +1,44 @@
 ---
 /**
- * ESG News Page
- * Lists news articles tagged with ESG subsite
+ * EuroScienceGateway news: listed news tagged esg, in the shared news list (search, year and tag filters).
  */
-import ESGLayout from '../../../layouts/ESGLayout.astro';
-import { getListedCollection } from '../../../utils/content';
-import { formatDate } from '../../../utils/dateUtils';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import ProjectPageTop from '../../../components/projects/ProjectPageTop.astro';
+import ProjectFunding from '../../../components/projects/ProjectFunding.astro';
+import NewsList from '../../../components/news/NewsList.vue';
+import { getInsert } from '../../../utils/content';
+import { ESG_ID, getEsgNews, getEsgProject } from '../../../utils/esgProject';
 
-// Check for solo mode
-const solo = Astro.url.searchParams.get('solo') === 'true';
+const project = await getEsgProject();
+const intro = (await getInsert('projects/esg/news'))?.data as { description?: string } | undefined;
+const esgNews = await getEsgNews();
+const newsHref = '/projects/esg/news/';
 
-// Load ESG news
-const allNews = await getListedCollection('news');
-// ESG is a project surface, so it intentionally uses narrow project tags rather than subsite-wide matching.
-const esgNews = allNews
-  .filter((a) => a.data.subsites?.includes('esg'))
-  .sort((a, b) => {
-    const dateA = new Date(a.data.date || 0);
-    const dateB = new Date(b.data.date || 0);
-    return dateB.getTime() - dateA.getTime();
-  });
-
-function esgUrl(path: string): string {
-  return solo ? `${path}?solo=true` : path;
-}
+// Plain objects for the Vue island. No initialSubsite: /projects/ URLs resolve to the global subsite,
+// so the list shows every article passed in (all of them tagged esg).
+const articleData = esgNews.map((a) => ({
+  slug: a.data.slug,
+  title: a.data.title || 'Untitled',
+  date: a.data.date instanceof Date ? a.data.date.toISOString() : a.data.date,
+  tease: a.data.tease,
+  tags: Array.isArray(a.data.tags) ? a.data.tags : a.data.tags ? [a.data.tags] : [],
+  subsites: a.data.subsites,
+  externalUrl: a.data.external_url,
+}));
 ---
 
-<ESGLayout title="News" description="Latest news from the EuroScienceGateway project" solo={solo}>
-  <div class="mb-6">
-    <a href={esgUrl('/projects/esg/')} class="text-galaxy-primary hover:underline text-sm"> &larr; Back to ESG Home </a>
+<BaseLayout title={`News | ${project.name}`} description={intro?.description ?? `News from ${project.name}`}>
+  <div class="max-w-6xl mx-auto bg-white rounded-lg shadow-sm p-4 sm:p-6 lg:p-8">
+    <ProjectPageTop
+      projectId={ESG_ID}
+      name={project.name}
+      description={project.description}
+      facts={project.facts}
+      counts={{ [newsHref]: esgNews.length }}
+      title={`${project.name} News`}
+      lead={intro?.description}
+    />
+    <NewsList client:load articles={articleData} path={Astro.url.pathname} />
+    <ProjectFunding slug="projects/esg/funding_notice" class="mt-10" />
   </div>
-
-  <h1 class="text-3xl font-light text-chicago-800 mb-8">EuroScienceGateway News</h1>
-
-  {esgNews.length > 0 ? (
-    <div class="space-y-6">
-      {esgNews.map((article) => <article class="border-b border-ebony-clay-100 pb-6">
-        <a href={`/${article.data.slug}/`} class="block group">
-          <h2 class="text-xl font-medium text-galaxy-primary group-hover:underline mb-2">{article.data.title}</h2>
-        </a>
-        <p class="text-sm text-chicago-500 mb-2">{formatDate(article.data.date, false)}</p>
-        {article.data.tease && <p class="text-chicago-700">{article.data.tease}</p>}
-      </article>)}
-    </div>
-  ) : (
-    <p class="text-chicago-500">No news articles found for EuroScienceGateway.</p>
-  )}
-</ESGLayout>
+</BaseLayout>
