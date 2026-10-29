@@ -96,7 +96,7 @@ const sections = [
     <header class="mb-8">
       <div class="flex flex-col md:flex-row gap-6">
         <div class="flex-1">
-          <h1 class="text-3xl sm:text-4xl font-bold text-chicago-900 mb-4">{title}</h1>
+          <h1 class="text-h1 font-bold text-chicago-900 mb-4">{title}</h1>
 
           {url && <a
             href={url}
@@ -186,8 +186,8 @@ const sections = [
       </table>
     </div>}
 
-    <!-- Platform Content -->
-    <div class="prose prose-lg prose-galaxy max-w-none mb-8">
+    <!-- Platform Content. 72ch measure (--measure) lands with the reading grid, see DESIGN.md Prose -->
+    <div class="prose prose-compact prose-galaxy max-w-none mb-8">
       <slot />
     </div>
 
@@ -250,22 +250,3 @@ const sections = [
     </footer>
   </article>
 </BaseLayout>
-
-<style>
-  .prose-galaxy {
-    --tw-prose-links: #25537b;
-    --tw-prose-headings: #2c3143;
-  }
-
-  .prose-galaxy :where(a):not(:where([class~='not-prose'] *)) {
-    color: var(--tw-prose-links);
-    text-decoration: underline;
-    text-decoration-color: color-mix(in srgb, var(--tw-prose-links) 40%, transparent);
-    text-underline-offset: 2px;
-  }
-
-  .prose-galaxy :where(a):not(:where([class~='not-prose'] *)):hover {
-    text-decoration: underline;
-    text-decoration-color: currentColor;
-  }
-</style>

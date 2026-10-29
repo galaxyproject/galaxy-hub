@@ -48,6 +48,6 @@ watch(() => props.url || props.src, loadContent);
       <p class="font-medium">Failed to load embedded content</p>
       <p class="text-sm">{{ error }}</p>
     </div>
-    <div v-else class="prose prose-galaxy max-w-none" v-html="content"></div>
+    <div v-else class="prose prose-compact prose-galaxy max-w-none" v-html="content"></div>
   </div>
 </template>

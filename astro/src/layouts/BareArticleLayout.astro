@@ -35,7 +35,7 @@ const { title, description, noindex = false } = Astro.props;
          chrome, so vertical space above the content is wasted. Sides and bottom keep
          their breathing room. -->
     <main class="px-4 pt-2 pb-6 sm:px-6 sm:pb-8 lg:px-8 lg:pb-10">
-      <article class="prose prose-lg prose-galaxy max-w-none">
+      <article class="prose prose-compact prose-galaxy max-w-none">
         <slot />
       </article>
     </main>
@@ -53,8 +53,8 @@ const { title, description, noindex = false } = Astro.props;
 <style is:global>
   /* Prose styles for bare pages */
   .prose-galaxy {
-    --tw-prose-links: #25537b;
-    --tw-prose-headings: #2c3143;
+    --tw-prose-links: var(--gx-link);
+    --tw-prose-headings: var(--gx-fg-strong);
   }
 
   .prose-galaxy table {
@@ -78,20 +78,9 @@ const { title, description, noindex = false } = Astro.props;
   .prose-galaxy a {
     color: var(--tw-prose-links);
     text-decoration: underline;
-    text-decoration-color: color-mix(in srgb, var(--tw-prose-links) 40%, transparent);
+    text-decoration-color: var(--gx-link-line);
     text-underline-offset: 2px;
     overflow-wrap: anywhere;
-  }
-
-  .prose-galaxy a:hover {
-    text-decoration: underline;
-    text-decoration-color: currentColor;
-  }
-
-  .prose a:hover {
-    text-decoration: underline;
-    text-decoration-color: currentColor;
-    color: var(--tw-prose-links);
   }
 
   .prose-galaxy code {
@@ -121,7 +110,7 @@ const { title, description, noindex = false } = Astro.props;
     color: var(--tw-prose-headings);
   }
 
-  article.prose.prose-lg.prose-galaxy.max-w-none {
+  article.prose.prose-compact.prose-galaxy.max-w-none {
     max-width: 1200px;
     margin: 0 auto !important;
   }

@@ -7,6 +7,9 @@
 @import './print.css';
 @plugin "@tailwindcss/typography";
 
+/* DESIGN.md names tokens in running text; do not scan it for class candidates. */
+@source not "../../DESIGN.md";
+
 @custom-variant dark (&:is(.dark *));
 
 /* Base styles */
@@ -27,6 +30,19 @@ h4,
 h5,
 h6 {
   scroll-margin-top: 6rem;
+}
+
+/* Below lg the 5.5rem mobile header is fixed (BaseLayout pt-22); anchored headings
+   need its height plus 1.5rem of room, not 6rem. */
+@media (max-width: 63.99rem) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    scroll-margin-top: 7rem;
+  }
 }
 
 body {
@@ -141,6 +157,224 @@ body {
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+/* ==========================================================================
+   Semantic roles (DESIGN.md §2 "Semantic roles"). Light values in :root, dark
+   values in .dark; nothing sets .dark yet. Raw values carry a --gx- prefix so
+   component-local custom properties (--surface, --line, --link) cannot shadow
+   them. Brand hex values appear only here; page code uses the role utilities.
+   ========================================================================== */
+@theme inline {
+  --color-fg: var(--gx-fg);
+  --color-fg-strong: var(--gx-fg-strong);
+  --color-fg-2: var(--gx-fg-2);
+  --color-fg-meta: var(--gx-fg-meta);
+  --color-fg-faint: var(--gx-fg-faint);
+  --color-fg-brand: var(--gx-fg-brand);
+  --color-link: var(--gx-link);
+  --color-link-hover: var(--gx-link-hover);
+  --color-link-line: var(--gx-link-line);
+  --color-link-hover-line: var(--gx-link-hover-line);
+  --color-page: var(--gx-page);
+  --color-surface: var(--gx-surface);
+  --color-surface-2: var(--gx-surface-2);
+  --color-surface-raised: var(--gx-surface-raised);
+  --color-surface-overlay: var(--gx-surface-overlay);
+  --color-surface-tint: var(--gx-surface-tint);
+  --color-surface-sunken: var(--gx-surface-sunken);
+  --color-line: var(--gx-line);
+  --color-line-brand: var(--gx-line-brand);
+  --color-line-strong: var(--gx-line-strong);
+  --color-line-input: var(--gx-line-input);
+  --color-focus: var(--gx-focus);
+  --color-focus-on-chrome: var(--gx-focus-on-chrome);
+  --color-brand: var(--gx-brand);
+  --color-on-brand: var(--gx-on-brand);
+  --color-selected: var(--gx-selected);
+  --color-on-selected: var(--gx-on-selected);
+  --color-accent-gold: var(--gx-accent-gold);
+  --color-accent-gold-hover: var(--gx-accent-gold-hover);
+  --color-on-accent-gold: var(--gx-on-accent-gold);
+  --color-chrome: var(--gx-chrome);
+  --color-chrome-fg: var(--gx-chrome-fg);
+  --color-chrome-fg-2: var(--gx-chrome-fg-2);
+  --color-chrome-meta: var(--gx-chrome-meta);
+  --color-chrome-line: var(--gx-chrome-line);
+  --color-chrome-field: var(--gx-chrome-field);
+  --color-ok-fg: var(--gx-ok-fg);
+  --color-ok-bg: var(--gx-ok-bg);
+  --color-ok-line: var(--gx-ok-line);
+  --color-past-fg: var(--gx-past-fg);
+  --color-past-bg: var(--gx-past-bg);
+  --color-past-line: var(--gx-past-line);
+  --color-info-fg: var(--gx-info-fg);
+  --color-info-bg: var(--gx-info-bg);
+  --color-warn-fg: var(--gx-warn-fg);
+  --color-warn-bg: var(--gx-warn-bg);
+  --color-danger-fg: var(--gx-danger-fg);
+  --color-danger-bg: var(--gx-danger-bg);
+
+  /* Compact type scale (DESIGN.md §3): text-h1 ... text-micro set size and line height. */
+  --text-h1: var(--gx-text-h1);
+  --text-h1--line-height: 1.2;
+  --text-h2: var(--gx-text-h2);
+  --text-h2--line-height: 1.3;
+  --text-h3: var(--gx-text-h3);
+  --text-h3--line-height: 1.4;
+  --text-h4: var(--gx-text-h4);
+  --text-h4--line-height: 1.5;
+  --text-body: var(--gx-text-body);
+  --text-body--line-height: 1.6;
+  --text-lead: var(--gx-text-lead);
+  --text-lead--line-height: 1.75rem;
+  --text-meta: var(--gx-text-meta);
+  --text-meta--line-height: 1.25rem;
+  --text-micro: var(--gx-text-micro);
+  --text-micro--line-height: 1rem;
+
+  /* Reading measure: max-w-measure. Defined now, applied with the reading grid (DESIGN.md Prose). */
+  --container-measure: var(--measure);
+}
+
+:root {
+  color-scheme: light;
+
+  /* text */
+  --gx-fg: #3c3c3d; /* chicago-900, 11.02:1 on white */
+  --gx-fg-strong: #2c3143; /* galaxy-dark, 12.90:1 */
+  --gx-fg-2: #4f4e50; /* chicago-700, 8.27:1 */
+  --gx-fg-meta: #58585a; /* galaxy-grey, 7.10:1 */
+  --gx-fg-faint: #878789; /* chicago-400, 3.59:1: decoration only, never text */
+  --gx-fg-brand: #1f4465; /* bay-of-many-950, 9.13:1 on surface-tint */
+  --gx-link: #25537b; /* galaxy-primary, 8.07:1 */
+  --gx-link-hover: #1f4465; /* 10.13:1 */
+  --gx-link-line: color-mix(in srgb, #25537b 40%, transparent);
+  --gx-link-hover-line: #d19e00; /* gold-600 underline; gold is never link text on light */
+
+  /* surfaces */
+  --gx-page: #ffffff;
+  --gx-surface: #ffffff;
+  --gx-surface-2: #f6f9fc;
+  --gx-surface-raised: #ffffff;
+  --gx-surface-overlay: #ffffff;
+  --gx-surface-tint: #edf4fa; /* light-bg */
+  --gx-surface-sunken: #f5f5f6; /* chicago-50 */
+
+  /* lines */
+  --gx-line: #e6e6e7; /* chicago-100 */
+  --gx-line-brand: rgb(37 83 123 / 0.16);
+  --gx-line-strong: rgb(37 83 123 / 0.34);
+  --gx-line-input: #878789; /* 3.59:1, meets 3:1 for control borders */
+  --gx-focus: #25537b;
+  --gx-focus-on-chrome: #ffd700;
+
+  /* fills */
+  --gx-brand: #25537b;
+  --gx-on-brand: #ffffff;
+  --gx-selected: #25537b;
+  --gx-on-selected: #ffffff;
+  --gx-accent-gold: #ffd700;
+  --gx-accent-gold-hover: #d19e00;
+  --gx-on-accent-gold: #2c3143; /* 9.20:1 on gold */
+
+  /* chrome: sidebar, mobile bar, footer (dark in both themes) */
+  --gx-chrome: #2c3143;
+  --gx-chrome-fg: #dfe2ea; /* 9.96:1 */
+  --gx-chrome-fg-2: #d3d6e2;
+  --gx-chrome-meta: #bbc0d2; /* 7.12:1 */
+  --gx-chrome-line: rgb(255 255 255 / 0.08);
+  --gx-chrome-field: #3c435c;
+
+  /* status (text on its own bg) */
+  --gx-ok-fg: #006b15; /* 6.16:1 */
+  --gx-ok-bg: #eef7ef;
+  --gx-ok-line: #b5d9bb;
+  --gx-past-fg: #4f4e50; /* 7.59:1 */
+  --gx-past-bg: #f5f5f6;
+  --gx-past-line: #d0d0d1;
+  --gx-info-fg: #25537b; /* 7.58:1 */
+  --gx-info-bg: #f1f9fe;
+  --gx-warn-fg: #7f5102; /* 6.68:1 */
+  --gx-warn-bg: #fefeea;
+  --gx-danger-fg: #91081b; /* 8.59:1 */
+  --gx-danger-bg: #fff3f3;
+
+  /* type (rem; the h1 grows from 26px to 30px at the sm breakpoint) */
+  --gx-text-h1: 1.625rem;
+  --gx-text-h2: 1.375rem;
+  --gx-text-h3: 1.125rem;
+  --gx-text-h4: 1rem;
+  --gx-text-body: 1rem;
+  --gx-text-lead: 1.125rem;
+  --gx-text-meta: 0.875rem;
+  --gx-text-micro: 0.75rem;
+
+  --measure: 72ch;
+}
+
+@media (min-width: 40rem) {
+  :root {
+    --gx-text-h1: 1.875rem;
+  }
+}
+
+.dark {
+  color-scheme: dark;
+
+  --gx-fg: #d5d8df; /* 12.91:1 on #121419 */
+  --gx-fg-strong: #f0f1f4; /* 16.31:1 */
+  --gx-fg-2: #c0c4cc; /* 10.54:1 */
+  --gx-fg-meta: #a3a8b4; /* 7.74:1 */
+  --gx-fg-faint: #737a8c;
+  --gx-fg-brand: #bfdaf4; /* 10.74:1 on surface-tint */
+  --gx-link: #8cbbe9; /* 9.12:1 */
+  --gx-link-hover: #bfdaf4; /* 12.77:1 */
+  --gx-link-line: color-mix(in srgb, #8cbbe9 50%, transparent);
+  --gx-link-hover-line: #ffd700;
+
+  --gx-page: #121419;
+  --gx-surface: #121419;
+  --gx-surface-2: #171a21;
+  --gx-surface-raised: #1b1e27;
+  --gx-surface-overlay: #232734;
+  --gx-surface-tint: #172536;
+  --gx-surface-sunken: #22262f;
+
+  --gx-line: #2a2e38;
+  --gx-line-brand: rgb(140 187 233 / 0.16);
+  --gx-line-strong: rgb(140 187 233 / 0.38);
+  --gx-line-input: #737a8c; /* 4.29:1 */
+  --gx-focus: #8cbbe9;
+  --gx-focus-on-chrome: #ffd700;
+
+  --gx-brand: #2b5f8e; /* white on it 6.71:1 */
+  --gx-on-brand: #ffffff;
+  --gx-selected: #8cbbe9;
+  --gx-on-selected: #10131a; /* 9.20:1 */
+  --gx-accent-gold: #ffd700;
+  --gx-accent-gold-hover: #ffe24d;
+  --gx-on-accent-gold: #2c3143;
+
+  --gx-chrome: #1c2030;
+  --gx-chrome-fg: #d7dae3; /* 11.57:1 */
+  --gx-chrome-fg-2: #c7cad6;
+  --gx-chrome-meta: #a9aec0; /* 7.32:1 */
+  --gx-chrome-line: rgb(255 255 255 / 0.08);
+  --gx-chrome-field: #292e3f;
+
+  --gx-ok-fg: #74d08e; /* 8.22:1 */
+  --gx-ok-bg: #12291a;
+  --gx-ok-line: #23512f;
+  --gx-past-fg: #c0c4cc; /* 8.66:1 */
+  --gx-past-bg: #22262f;
+  --gx-past-line: #3b404c;
+  --gx-info-fg: #80c3ea; /* 8.57:1 */
+  --gx-info-bg: #14202c;
+  --gx-warn-fg: #ffe848; /* 12.43:1 */
+  --gx-warn-bg: #2a2410;
+  --gx-danger-fg: #ff817b; /* 7.02:1 */
+  --gx-danger-bg: #2e1517;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
@@ -168,9 +402,48 @@ body {
 
 /* Galaxy-branded prose styles */
 .prose {
-  --tw-prose-links: #25537b;
-  --tw-prose-headings: #2c3143;
+  --tw-prose-links: var(--gx-link);
+  --tw-prose-headings: var(--gx-fg-strong);
   overflow-wrap: break-word;
+}
+
+/* Compact reading scale (DESIGN.md §3): 16/1.6 body, 30/22/18/16 headings, 18/28 lead,
+   text colours from the roles. A utility, so it sorts after Typography's .prose rules
+   and before the text-* sizes that content headings sometimes carry. */
+@utility prose-compact {
+  --tw-prose-body: var(--gx-fg);
+  --tw-prose-lead: var(--gx-fg-2);
+  --tw-prose-bold: var(--gx-fg-strong);
+  --tw-prose-counters: var(--gx-fg-meta);
+  --tw-prose-quotes: var(--gx-fg-2);
+  --tw-prose-captions: var(--gx-fg-meta);
+  font-size: var(--gx-text-body);
+  line-height: 1.6;
+
+  & :where(h1):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
+    font-size: var(--gx-text-h1);
+    line-height: 1.2;
+  }
+
+  & :where(h2):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
+    font-size: var(--gx-text-h2);
+    line-height: 1.3;
+  }
+
+  & :where(h3):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
+    font-size: var(--gx-text-h3);
+    line-height: 1.4;
+  }
+
+  & :where(h4):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
+    font-size: var(--gx-text-h4);
+    line-height: 1.5;
+  }
+
+  & :where([class~='lead']):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
+    font-size: var(--gx-text-lead);
+    line-height: 1.75rem;
+  }
 }
 
 .prose h1,
@@ -192,17 +465,19 @@ body {
 .prose a {
   color: var(--tw-prose-links);
   text-decoration: underline;
-  text-decoration-color: color-mix(in srgb, var(--tw-prose-links) 40%, transparent);
+  text-decoration-color: var(--gx-link-line);
   text-underline-offset: 2px;
   transition:
     text-decoration-color 0.15s ease-in-out,
     color 0.15s ease-in-out;
 }
 
+/* Darker blue text plus a gold underline: gold text on white is 1.40:1. */
 .prose a:hover {
-  color: #ffd700;
+  color: var(--gx-link-hover);
   text-decoration: underline;
-  text-decoration-color: #ffd700;
+  text-decoration-color: var(--gx-link-hover-line);
+  text-decoration-thickness: 2px;
 }
 
 .prose a:has(> img) {
@@ -235,6 +510,18 @@ body {
   border-radius: 0.5rem;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* On phones a floated content image (bootstrap-compat .float-right/.float-left are
+   !important) left the text a ~90px column beside it; stack it above the text instead. */
+@media (max-width: 39.99rem) {
+  .prose img.float-right,
+  .prose img.float-left,
+  .prose img[align='right' i],
+  .prose img[align='left' i] {
+    float: none !important;
+    display: block;
+  }
 }
 
 /* Inline image galleries (e.g. GCC logo grid) */
@@ -280,11 +567,6 @@ body {
     margin-bottom: 1.75em;
   }
 
-  .prose-lg :where(.table-wrapper) {
-    margin-top: 1.7777778em;
-    margin-bottom: 1.7777778em;
-  }
-
   .prose :where(.table-wrapper:has(> .bs-compat.table)) {
     margin-bottom: 1rem;
   }
@@ -326,7 +608,7 @@ body {
 .prose blockquote {
   border-left: 4px solid #ffd700;
   padding-left: 1rem;
-  color: #4b5563;
+  color: var(--gx-fg-2);
   font-style: italic;
   background-color: #ffd70008;
   padding: 1rem;
@@ -479,8 +761,18 @@ a.gx-tile--link:hover {
 a.gx-tile--link:hover::before {
   transform: scaleX(1);
 }
+/* The tile keeps its text colours on hover (the prose link hover would recolour and
+   underline the whole card); only the "more" affordance takes the link hover. */
+.prose a.gx-tile--link:hover {
+  color: inherit;
+  text-decoration: none;
+}
 a.gx-tile--link:hover .gx-tile__more {
-  color: var(--color-galaxy-gold);
+  color: var(--gx-link-hover);
+  text-decoration: underline;
+  text-decoration-color: var(--gx-link-hover-line);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
 }
 
 /* Feature variant: galaxy-primary left border for emphasized content tiles. */
@@ -553,7 +845,7 @@ a.gx-tile--link:hover .gx-tile__more {
   opacity: 0;
   text-decoration: none;
   font-weight: 400;
-  color: #25537b;
+  color: var(--gx-link);
   margin-left: 0.5rem;
   transition: opacity 0.15s ease-in-out;
 }
@@ -567,8 +859,10 @@ a.gx-tile--link:hover .gx-tile__more {
 }
 
 .heading-anchor:hover {
-  color: #ffd700;
-  text-decoration: none;
+  color: var(--gx-link-hover);
+  text-decoration: underline;
+  text-decoration-color: var(--gx-link-hover-line);
+  text-decoration-thickness: 2px;
 }
 
 /* Tool list styling - renders Markdown links as badges */
