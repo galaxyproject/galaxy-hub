@@ -2,8 +2,8 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHeader from '../../components/layout/PageHeader.astro';
 import { getTagIndex } from '../../utils/tagIndex';
-import ExternalIcon from '../../components/common/ExternalIcon.vue';
-import EventDate from '../../components/events/EventDate.astro';
+import EventRow from '../../components/lists/EventRow.astro';
+import '../../components/lists/list-rows.css';
 import { formatDate, isPastEvent } from '../../utils/dateUtils';
 
 export async function getStaticPaths() {
@@ -60,17 +60,15 @@ const hasBoth = newsArticles.length > 0 && sortedEvents.length > 0;
               </svg>
               News <span class="text-sm font-normal text-chicago-400">({newsArticles.length})</span>
             </h2>
-            <div class="space-y-4" id="news-list">
+            <div id="news-list">
               {newsArticles.map((article, idx) => <a
                 href={`/${article.data.slug}/`}
-                class:list={['block group', { hidden: idx >= 20 }]}
+                class:list={['gx-row', { hidden: idx >= 20 }]}
                 data-item
               >
-                <h3 class="text-base font-medium text-chicago-700 group-hover:text-galaxy-primary transition-colors">
-                  {article.data.title}
-                </h3>
-                <time class="block mt-1 text-sm text-chicago-400">{formatDate(article.data.date)}</time>
-                {article.data.tease && <p class="text-sm text-chicago-500 mt-1 line-clamp-2">{article.data.tease}</p>}
+                <h3 class="gx-row__title">{article.data.title}</h3>
+                <p class="gx-row__meta"><time>{formatDate(article.data.date)}</time></p>
+                {article.data.tease && <p class="gx-row__teaser">{article.data.tease}</p>}
               </a>)}
             </div>
             {newsArticles.length > 20 && <button
@@ -97,25 +95,20 @@ const hasBoth = newsArticles.length > 0 && sortedEvents.length > 0;
               </svg>
               Events <span class="text-sm font-normal text-chicago-400">({sortedEvents.length})</span>
             </h2>
-            <div class="space-y-4" id="events-list">
-              {sortedEvents.map((event, idx) => <a
-                href={`/${event.data.slug}/`}
-                class:list={['block group', { hidden: idx >= 20 }]}
-                data-item
-              >
-                <h3 class="text-base font-medium text-chicago-700 group-hover:text-galaxy-primary transition-colors">
-                  {event.data.title}
-                  {event.data.external_url && <ExternalIcon href={event.data.external_url} />}
-                </h3>
-                <p class="text-sm mt-1">
-                  <EventDate
-                    start={event.data.date}
-                    end={event.data.end}
-                    past={isPastEvent(event.data.date, event.data.end)}
-                  />
-                </p>
-                {event.data.tease && <p class="text-sm text-chicago-500 mt-1 line-clamp-2">{event.data.tease}</p>}
-              </a>)}
+            <div id="events-list">
+              {sortedEvents.map((event, idx) => (
+                <EventRow
+                  href={`/${event.data.slug}/`}
+                  title={event.data.title}
+                  start={event.data.date}
+                  end={event.data.end}
+                  past={isPastEvent(event.data.date, event.data.end)}
+                  tease={event.data.tease}
+                  externalUrl={event.data.external_url}
+                  class={idx >= 20 ? 'hidden' : undefined}
+                  data-item
+                />
+              ))}
             </div>
             {sortedEvents.length > 20 && <button
               type="button"
