@@ -2,7 +2,8 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getListedCollection } from '../../utils/content';
 import ExternalIcon from '../../components/common/ExternalIcon.vue';
-import { formatDate, getUTCYear, utcDayOneYearAgo } from '../../utils/dateUtils';
+import EventDate from '../../components/events/EventDate.astro';
+import { getUTCYear, utcDayOneYearAgo } from '../../utils/dateUtils';
 
 // Get all events, sorted by date descending
 const events = await getListedCollection('events');
@@ -72,12 +73,14 @@ function hasExternalUrl(event: (typeof archivedEvents)[number]) {
           href={`/${event.data.slug}/`}
           class="flex flex-wrap items-center gap-3 p-3 bg-white rounded-lg border border-ebony-clay-100 hover:border-galaxy-primary hover:shadow-sm transition-all"
         >
-          <span class="text-sm text-chicago-500 whitespace-nowrap min-w-16"
-            >{formatDate(event.data.date, { year: false })}</span
-          >
-          <span class="flex-1 text-galaxy-dark hover:text-galaxy-primary">
-            {event.data.title}
-            {hasExternalUrl(event) && <ExternalIcon href={(event.data as any).external_url} />}
+          <span class="flex min-w-0 flex-1 flex-col gap-1">
+            <span class="text-galaxy-dark hover:text-galaxy-primary">
+              {event.data.title}
+              {hasExternalUrl(event) && <ExternalIcon href={(event.data as any).external_url} />}
+            </span>
+            <span class="text-sm">
+              <EventDate start={event.data.date} end={event.data.end} format={{ year: false }} past />
+            </span>
           </span>
           {getLocationName(event.data.location) && <span class="text-sm text-chicago-400 hidden md:inline"
             >{getLocationName(event.data.location)}</span

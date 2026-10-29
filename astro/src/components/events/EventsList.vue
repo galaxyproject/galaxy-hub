@@ -417,18 +417,13 @@ function displaySubsite(subsite: string): string {
           "
         >
           <a :href="buildUrl(event.slug)" :class="isTiles ? 'group block h-full' : 'group block'">
-            <div :class="['flex flex-col gap-2', { 'sm:flex-row sm:items-center sm:justify-between': !isTiles }]">
+            <!-- Date line under the title, as on every list -->
+            <div class="flex flex-col gap-1">
               <h3 class="text-base font-medium text-chicago-700 group-hover:text-galaxy-primary transition-colors">
                 {{ event.title || 'Untitled Event' }}
                 <ExternalIcon v-if="event.externalUrl" :href="event.externalUrl" />
               </h3>
-              <EventDate
-                v-if="event.date"
-                :class="['text-sm', { 'sm:shrink-0': !isTiles }]"
-                :start="event.date"
-                :end="event.end"
-                past
-              />
+              <EventDate v-if="event.date" class="text-sm" :start="event.date" :end="event.end" past />
             </div>
           </a>
         </article>
