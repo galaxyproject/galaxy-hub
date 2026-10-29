@@ -7,10 +7,10 @@ async function openNews(page: Page, path = '/news/') {
   await expect(page.locator('astro-island:has(.news-list)')).not.toHaveAttribute('ssr', { timeout: 60_000 });
 }
 
-// EventsList is client:only, so it is ready once it renders
+// EventsList is client:only, so it is ready once it renders (the toggle is hidden on phones)
 async function openEvents(page: Page, path = '/events/') {
   await page.goto(path);
-  await expect(page.locator('.events-list [data-view-toggle]')).toBeVisible({ timeout: 60_000 });
+  await expect(page.locator('.events-list [data-view-toggle]')).toBeAttached({ timeout: 60_000 });
 }
 
 const toggle = (page: Page, name: string) => page.getByRole('group', { name });
@@ -146,16 +146,26 @@ test.describe('View toggle on news', () => {
     await expectView(page, group, newsList(page), 'tiles');
   });
 
-  test('390px phone: 44px targets, no horizontal scroll in tiles', async ({ page }) => {
+  test('390px phone: toggle hidden, a tiles link still shows tiles, no horizontal scroll', async ({ page }) => {
     await page.setViewportSize({ width: 390, height: 844 });
     await openNews(page, '/news/?view=tiles');
-    for (const label of ['Rows', 'Tiles'] as const) {
-      const box = await button(page, group, label).boundingBox();
-      expect(box?.height).toBeGreaterThanOrEqual(44);
-      expect(box?.width).toBeGreaterThanOrEqual(44);
-    }
+    await expect(page.locator('.news-list [data-view-toggle]')).toBeHidden();
+    await expect(newsList(page)).toHaveAttribute('data-view', 'tiles');
+    await expect(newsList(page)).toHaveCSS('display', 'grid');
+    await expect(page).toHaveURL(/\/news\/\?view=tiles$/);
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
     expect(overflow).toBeLessThanOrEqual(0);
+  });
+
+  test('the toggle shows from 640px, where tiles have two columns', async ({ page }) => {
+    await page.setViewportSize({ width: 639, height: 900 });
+    await openNews(page, '/news/?view=tiles');
+    await expect(page.locator('.news-list [data-view-toggle]')).toBeHidden();
+
+    await page.setViewportSize({ width: 640, height: 900 });
+    await expect(toggle(page, group)).toBeVisible();
+    const columns = await newsList(page).evaluate((el) => getComputedStyle(el).gridTemplateColumns.split(' ').length);
+    expect(columns).toBe(2);
   });
 
   test('segmented control: pressed is galaxy-primary with white bold text, the group has a 3:1 border', async ({
@@ -288,11 +298,12 @@ test.describe('View toggle on events', () => {
     await expectView(page, group, pastList(page), 'tiles');
   });
 
-  test('390px phone: no horizontal scroll in tiles', async ({ page }) => {
+  test('390px phone: toggle hidden, tiles still shown, no horizontal scroll', async ({ page }) => {
     await page.setViewportSize({ width: 390, height: 844 });
     await openEvents(page, '/events/?view=tiles');
-    const box = await button(page, group, 'Tiles').boundingBox();
-    expect(box?.height).toBeGreaterThanOrEqual(44);
+    await expect(page.locator('.events-list [data-view-toggle]')).toBeHidden();
+    await expect(pastList(page)).toHaveAttribute('data-view', 'tiles');
+    await expect(pastList(page)).toHaveCSS('display', 'grid');
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
     expect(overflow).toBeLessThanOrEqual(0);
   });

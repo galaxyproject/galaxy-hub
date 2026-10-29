@@ -361,10 +361,10 @@ Its markup, for reference:
 
 ```html
 <div role="group" aria-label="News layout"
-     class="inline-flex gap-0.5 rounded-md border-1 border-chicago-400 bg-white p-0.5">
+     class="hidden gap-0.5 rounded-md border-1 border-chicago-400 bg-white p-0.5 sm:inline-flex">
   <button type="button" aria-pressed="true"
-          class="inline-flex min-h-11 items-center gap-1.5 rounded-[4px] px-3 py-1 text-sm leading-5
-                 sm:min-h-8 bg-galaxy-primary font-bold text-white">
+          class="inline-flex min-h-8 items-center gap-1.5 rounded-[4px] px-3 py-1 text-sm leading-5
+                 bg-galaxy-primary font-bold text-white">
     <List :size="16" aria-hidden="true" /> <span>Rows</span>
   </button>
   <button type="button" aria-pressed="false"
@@ -375,7 +375,7 @@ Its markup, for reference:
 ```
 
 - **Look**: 2px padding and gap, 6px group radius, 4px button radius, 14/20 text, 16px icon with a 6px gap. Unpressed text `chicago-700`, hover fill `bay-of-many-100`; pressed fill `galaxy-primary` with white bold text. No sliding pill, no animation, no gold. (The IWC sliding pill that this section described before is not the hub pattern.)
-- **Placement**: on the row the list already has, never a row of its own. News: the result-count line of `FilterBar` (count left, toggle right, via its `actions` slot). Events: the first section heading (Upcoming Events, or Past Events when there is no upcoming list, as on the archive). The row is `flex flex-wrap items-center justify-between`, so on phones the toggle wraps under the count or heading.
+- **Placement**: on the row the list already has, never a row of its own. News: the result-count line of `FilterBar` (count left, toggle right, via its `actions` slot). Events: the first section heading (Upcoming Events, or Past Events when there is no upcoming list, as on the archive). The row is `flex flex-wrap items-center justify-between`; the hidden toggle leaves no gap on phones.
 - **State and URL**: the list owns the state (`v-model`) and keeps it in the `view` param (`rows` | `tiles`) through `@/utils/urlFilters`, read in `onMounted`. Rows is the default and stays out of the URL; an unknown value reads as rows. Write `view` in the same `writeParams` call as the list's other params so it lands last (see Filters, "Param names"); `parseListView()` and `LIST_VIEW_DEFAULT` live in `@/utils/listView`. The site is static, so a `?view=tiles` URL paints rows first and switches to tiles after hydration, like `?q=` and `?year=`.
 - **Tiles**: `grid-cols-[repeat(auto-fill,minmax(min(100%,16rem),1fr))] gap-4`, white cards with an `ebony-clay-100` border. News tiles show the post image at the bottom of the card (frontmatter `image`, else the first site image in the body, via `listImage()` in `@/utils/listImage`; `alt=""` because the title above names the post). GIFs, files missing from `public/` and files over 1 MB are skipped at build (`servedImageCheck()` in `@/utils/publicImage`) until listings get thumbnails; posts without an image have no image area. Event tiles keep the `EventDate` line. Rows keep the list look.
 - **Scope**: full listing pages only (news, events, subsite news and events, events archive). Bare and embed widgets have no toggle.
@@ -385,7 +385,7 @@ Accessibility (WCAG 2.1 AA):
 
 - Two `<button type="button" aria-pressed>` inside `role="group"` with an `aria-label` naming the list ("News layout", "Events layout"). Not a tablist: both layouts show the same items.
 - Every button has a visible text label next to its icon; icons are `aria-hidden`.
-- Targets are at least 44px tall below `sm` (`min-h-11`) and 32px from `sm` up.
+- Hidden below `sm`, where tiles are one column; a tiles link still opens tiles. From `sm` up the buttons are 32px tall.
 - Focus is the solid 2px `galaxy-primary` outline with a 2px offset, as in Filters.
 
 ### Mobile Bottom Sheet

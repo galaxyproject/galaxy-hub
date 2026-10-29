@@ -24,19 +24,20 @@ const options = computed(() => [
   { value: 'tiles' as const, label: props.tilesLabel, icon: LayoutGrid },
 ]);
 
-// 44px tall on phones (touch target), 32px from sm up; 14/20 text, 16px icon
+// 32px tall, 14/20 text, 16px icon
 const buttonBase =
-  'inline-flex min-h-11 items-center gap-1.5 rounded-[4px] px-3 py-1 text-sm leading-5 transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-solid focus-visible:outline-galaxy-primary sm:min-h-8';
+  'inline-flex min-h-8 items-center gap-1.5 rounded-[4px] px-3 py-1 text-sm leading-5 transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-solid focus-visible:outline-galaxy-primary';
 const buttonOn = 'bg-galaxy-primary font-bold text-white';
 const buttonOff = 'text-chicago-700 hover:bg-bay-of-many-100 hover:text-galaxy-dark';
 </script>
 
 <template>
-  <!-- border-1, not border: bootstrap-compat's global .border sets a grey colour with !important -->
+  <!-- Hidden on phones, where tiles are one column (a ?view=tiles link still shows tiles).
+       border-1, not border: bootstrap-compat's global .border sets a grey colour with !important -->
   <div
     role="group"
     :aria-label="label"
-    class="inline-flex gap-0.5 rounded-md border-1 border-chicago-400 bg-white p-0.5"
+    class="hidden gap-0.5 rounded-md border-1 border-chicago-400 bg-white p-0.5 sm:inline-flex"
     data-view-toggle
   >
     <button
