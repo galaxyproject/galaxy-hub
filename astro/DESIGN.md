@@ -445,7 +445,7 @@ IWC uses `odd:bg-bay-of-many-50/30` on workflow list items. The effect should be
 
 ### Bootstrap Compatibility
 
-Legacy content files (~125 Markdown files) use Bootstrap 4 classes (`btn-primary`, `card-deck`, `alert`, etc.). The preprocess step automatically adds a `.bs-compat` wrapper class to any file containing these patterns. Bootstrap CSS is scoped under `.bs-compat` in `astro/src/styles/bootstrap-compat.css` so it doesn't leak into modern components.
+Legacy content files (~125 Markdown files) use Bootstrap 4 classes (`btn-primary`, `card-deck`, `alert`, etc.). The preprocess step automatically adds a `.bs-compat` wrapper class to any file containing these patterns. Bootstrap CSS is scoped under `.bs-compat` in `astro/src/styles/bootstrap-compat.css` so it doesn't leak into modern components. Bootstrap's `.border` (grey `#dee2e6`, `!important`) applies only on or inside a `.bs-compat` element, so Tailwind's `border` keeps its colour class everywhere else.
 
 **Contract**: never apply `.bs-compat` manually to new components, and never introduce new Bootstrap classes in new content. The compat layer is a migration affordance, not a sanctioned styling path.
 

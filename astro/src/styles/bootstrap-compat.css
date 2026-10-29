@@ -937,7 +937,9 @@
   border-radius: 50% !important;
 }
 
-.border {
+/* Legacy content only: unscoped, this grey overrode the colour of every Tailwind `border` */
+.bs-compat.border,
+.bs-compat .border {
   border: 1px solid #dee2e6 !important;
 }
 .border-0 {
