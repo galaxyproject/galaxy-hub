@@ -159,6 +159,17 @@ test.describe('Reading grid at 1440px', () => {
     expect(Math.abs(textBox.x - iframeBox!.x), 'text starts where the embed starts').toBeLessThan(1);
   });
 
+  test('without a rail, text lines up with a centred box', async ({ page }) => {
+    await page.goto('/community/steering/');
+    await expect(page.locator('.toc-sidebar')).toHaveCount(0);
+    const prose = page.locator('.prose-galaxy').first();
+    const alertBox = await prose.locator(':scope > .alert').first().boundingBox();
+    expect(alertBox, 'the page needs an alert box as a direct child').not.toBeNull();
+    // The page's text is its heading; a 72ch block, so its box shows the text edge.
+    const textBox = (await prose.locator(':scope > :is(h1, h2)').first().boundingBox())!;
+    expect(Math.abs(textBox.x - alertBox!.x), 'text starts where the box starts').toBeLessThan(1);
+  });
+
   test('a centred conference intro stays centred in the content column', async ({ page }) => {
     await page.goto(CENTRED_EVENT);
     const prose = page.locator('.prose-galaxy').first();
