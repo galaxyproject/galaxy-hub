@@ -7,6 +7,7 @@ import { type NavbarData, type SidebarNavigation } from '@/utils/navbar';
 import { CONTEXT_KIND_LABELS, contextFromPath } from '@/utils/siteContext';
 import ContextSwitcher from './ContextSwitcher.vue';
 import SidebarNav from './SidebarNav.vue';
+import ThemeSwitch from './ThemeSwitch.vue';
 
 // Mobile navigation used when the subsite has no navbar data (global pages)
 const DEFAULT_MOBILE_NAV: SidebarNavigation = {
@@ -157,6 +158,11 @@ function handleNavClick() {
             id-prefix="mm"
             @navigate="handleNavClick"
           />
+        </div>
+
+        <!-- Theme switch, pinned below the scrolling navigation -->
+        <div class="flex-shrink-0 border-t border-white/[0.08] px-3 pb-3 pt-2" data-mobile-menu-footer>
+          <ThemeSwitch id-prefix="mm" touch />
         </div>
       </SheetContent>
     </Sheet>
