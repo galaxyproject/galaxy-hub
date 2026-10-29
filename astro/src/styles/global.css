@@ -7,6 +7,9 @@
 @import './print.css';
 @plugin "@tailwindcss/typography";
 
+/* DESIGN.md names tokens in running text; do not scan it for class candidates. */
+@source not "../../DESIGN.md";
+
 @custom-variant dark (&:is(.dark *));
 
 /* Base styles */

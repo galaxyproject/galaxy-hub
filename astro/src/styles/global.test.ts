@@ -67,19 +67,9 @@ const colourRoles = [...theme]
 describe('global.css theme roles', () => {
   it('maps the semantic colour roles into Tailwind', () => {
     const names = colourRoles.map(([name]) => name);
-    for (const role of [
-      'fg',
-      'fg-strong',
-      'fg-meta',
-      'link',
-      'link-hover',
-      'surface',
-      'line',
-      'focus',
-      'accent-gold',
-    ]) {
-      expect(names).toContain(`--color-${role}`);
-    }
+    const required = ['fg', 'fg-strong', 'fg-meta', 'link', 'link-hover', 'surface', 'line', 'focus'];
+    for (const role of required) expect(names).toContain(`--color-${role}`);
+    expect(names).toContain('--color-accent-gold');
   });
 
   it('gives every colour role a light value in :root and a dark value in .dark', () => {
