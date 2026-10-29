@@ -87,43 +87,46 @@ test.describe('Reading grid at 1440px', () => {
     expect((await paragraph.boundingBox())!.width).toBeLessThanOrEqual((await measureAt(paragraph)) + 1);
   });
 
-  test('without a rail, the 72ch column is centred and centred text stays centred', async ({ page }) => {
+  test('without a rail, text blocks are 72ch and centred, the column keeps its full width', async ({ page }) => {
     await page.goto(NO_TOC_PAGE);
     await expect(page.locator('.toc-sidebar')).toHaveCount(0);
-    const wrapper = page.locator('.content-with-toc').first();
-    const prose = wrapper.locator('.prose-galaxy');
+    const prose = page.locator('.prose-galaxy').first();
     const proseBox = (await prose.boundingBox())!;
     const paragraph = longParagraph(prose);
     const measure = await measureAt(paragraph);
-
-    // The wrapper's content box (inside its padding) is the space the column centres in.
-    const area = await wrapper.evaluate((el) => {
-      const r = el.getBoundingClientRect();
-      const s = getComputedStyle(el);
-      const left = r.left + parseFloat(s.paddingLeft);
-      return { left, width: r.width - parseFloat(s.paddingLeft) - parseFloat(s.paddingRight) };
-    });
-    expect(area.width, 'the content area is wider than the measure').toBeGreaterThan(measure + 40);
-    expect(proseBox.width, 'column is 72ch').toBeLessThanOrEqual(measure + 1);
-    expect(proseBox.width, 'column is 72ch').toBeGreaterThan(measure - 1);
-    const areaCentre = area.left + area.width / 2;
-    expect(Math.abs(proseBox.x + proseBox.width / 2 - areaCentre), 'column is centred').toBeLessThan(2);
+    expect(proseBox.width, 'the column is wider than the measure').toBeGreaterThan(measure + 40);
 
     const textBox = (await paragraph.boundingBox())!;
-    expect(textBox.width, 'paragraph fills the column').toBeGreaterThan(measure - 1);
+    expect(textBox.width, 'paragraph capped at 72ch').toBeLessThanOrEqual(measure + 1);
+    expect(textBox.width, 'paragraph reaches the measure').toBeGreaterThan(measure - 1);
+    const centre = proseBox.x + proseBox.width / 2;
+    expect(Math.abs(textBox.x + textBox.width / 2 - centre), 'paragraph is centred').toBeLessThan(2);
 
     const floatBox = await prose.locator(':scope > img.float-right').first().boundingBox();
     expect(floatBox, `${NO_TOC_PAGE} needs a right-floated image as a direct child`).not.toBeNull();
-    expect(floatBox!.x + floatBox!.width, 'a right float stays in the column').toBeLessThanOrEqual(
-      proseBox.x + proseBox.width + 1
+    expect(floatBox!.x + floatBox!.width, 'a right float sits at the text edge').toBeLessThanOrEqual(
+      textBox.x + textBox.width + 1
     );
 
     const centred = prose.locator(':scope > p[style*="text-align"]').first();
     const centredBox = await centred.boundingBox();
     expect(centredBox, `${NO_TOC_PAGE} needs a centred paragraph as a direct child`).not.toBeNull();
     expect(centredBox!.width, 'centred paragraph uses the full column').toBeGreaterThan(proseBox.width - 2);
-    const centre = proseBox.x + proseBox.width / 2;
     expect(Math.abs(centredBox!.x + centredBox!.width / 2 - centre)).toBeLessThan(2);
+  });
+
+  test('without a rail, tile grids keep the full column', async ({ page }) => {
+    await page.goto(CENTRED_EVENT);
+    await expect(page.locator('.toc-sidebar')).toHaveCount(0);
+    const prose = page.locator('.prose-galaxy').first();
+    const grid = prose.locator('.gx-tile-grid').first();
+    const gridBox = await grid.boundingBox();
+    expect(gridBox, `${CENTRED_EVENT} needs a tile grid`).not.toBeNull();
+    const measure = await measureAt(prose);
+    expect(gridBox!.width, 'tile grid wider than the measure').toBeGreaterThan(measure + 40);
+    const heading = prose.locator(':scope > h2').first();
+    const headingBox = (await heading.boundingBox())!;
+    expect(headingBox.width, 'section heading capped at 72ch').toBeLessThanOrEqual(measure + 1);
   });
 
   test('a centred conference intro stays centred in the content column', async ({ page }) => {
@@ -166,5 +169,30 @@ test.describe('Reading grid at 390px', () => {
       await page.goto(path);
       await expectNoSidewaysScroll(page);
     }
+  });
+});
+
+test.describe('Event pages and the On this page rail at 1440px', () => {
+  test.beforeEach(async ({ page }) => {
+    await page.setViewportSize({ width: 1440, height: 900 });
+  });
+
+  test('an event with headings gets the rail by default', async ({ page }) => {
+    await page.goto('/events/2023-02-02-foodborne-pathogen-detection-workshop/');
+    await expect(page.locator('.toc-sidebar nav')).toBeVisible();
+  });
+
+  test('an event with autotoc: false keeps no rail', async ({ page }) => {
+    await page.goto('/events/2021-10-sars-cov-2-training/');
+    await expect(page.locator('.prose-galaxy').first()).toBeVisible();
+    await expect(page.locator('.toc-sidebar')).toHaveCount(0);
+  });
+
+  test('conference pages are unchanged', async ({ page }) => {
+    await page.goto('/events/2018-europe-dev/abstracts/');
+    await expect(page.locator('.conference-subnav')).toHaveCount(1);
+    await expect(page.locator('.toc-sidebar nav')).toBeVisible();
+    await page.goto(CENTRED_EVENT);
+    await expect(page.locator('.toc-sidebar')).toHaveCount(0);
   });
 });
