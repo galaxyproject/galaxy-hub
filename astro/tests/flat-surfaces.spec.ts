@@ -46,3 +46,20 @@ for (const path of listingPages) {
     expect(style).toEqual({ bg: TRANSPARENT, shadow: 'none', radius: '0px' });
   });
 }
+
+test('supporters sit flat around their cards', async ({ page }) => {
+  await page.goto('/events/2025-admin-training-brno/');
+  const section = page.locator('section.supporter-section');
+  await expect(section).toBeVisible();
+  const style = await section.evaluate((el) => {
+    const own = getComputedStyle(el);
+    return {
+      image: own.backgroundImage,
+      bg: own.backgroundColor,
+      left: own.borderLeftWidth,
+      radius: own.borderTopLeftRadius,
+    };
+  });
+  expect(style).toEqual({ image: 'none', bg: TRANSPARENT, left: '0px', radius: '0px' });
+  await expect(section.locator('[data-supporter-card]').first()).toBeVisible();
+});

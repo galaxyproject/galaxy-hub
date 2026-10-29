@@ -59,11 +59,10 @@ const { supporters = [], title = 'Supporters' } = Astro.props;
 </section>}
 
 <style>
+  /* Flat on the page: the supporter cards are the only boxes (no card around cards) */
   .supporter-section {
-    background: linear-gradient(135deg, rgba(37, 83, 123, 0.04), rgba(252, 185, 0, 0.04));
-    border: 1px solid #e5e7eb;
-    border-radius: 0.75rem;
-    padding: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--gx-line);
   }
 
   .supporter-heading {
