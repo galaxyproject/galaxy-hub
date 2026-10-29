@@ -406,6 +406,18 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+
+  /* Focus (DESIGN.md "Focus"): one solid 2px outline for every control, in the focus role
+     (8.07:1 on white); gold inside dark chrome (sidebar, mobile bar, footer, dark headers).
+     An outline, not a box-shadow ring: it stays visible in forced-colours mode. */
+  :focus-visible {
+    outline: 2px solid var(--gx-focus);
+    outline-offset: 2px;
+  }
+
+  .on-chrome :focus-visible {
+    outline-color: var(--gx-focus-on-chrome);
+  }
 }
 
 /* Subtle grid background pattern (like workflow editor mesh) */
@@ -908,11 +920,9 @@ h6:hover .heading-anchor {
   opacity: 1;
 }
 
-/* Show anchor on focus for keyboard navigation */
+/* Show anchor on focus for keyboard navigation; the outline is the global focus rule */
 .heading-anchor:focus {
   opacity: 1;
-  outline: 2px solid #25537b;
-  outline-offset: 2px;
 }
 
 /* Touch devices: show anchors at reduced opacity */
