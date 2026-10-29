@@ -32,6 +32,19 @@ h6 {
   scroll-margin-top: 6rem;
 }
 
+/* Below lg the 5.5rem mobile header is fixed (BaseLayout pt-22); anchored headings
+   need its height plus 1.5rem of room, not 6rem. */
+@media (max-width: 63.99rem) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    scroll-margin-top: 7rem;
+  }
+}
+
 body {
   font-family: var(--font-sans);
   overflow-x: hidden;
