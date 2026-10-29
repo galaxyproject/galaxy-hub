@@ -67,19 +67,19 @@ test.describe('View toggle on news', () => {
     await openNews(page, '/news/?view=tiles');
     const tile = page.locator('.news-list article:has([data-tile-image])').first();
     await expect(tile).toBeVisible();
-    const { imageTop, textBottom, imageBottom, linkBottom } = await tile.evaluate((article) => {
-      const link = article.querySelector('a') as HTMLElement;
+    const { imageTop, textBottom, imageBottom, cardBottom } = await tile.evaluate((article) => {
       const image = article.querySelector('[data-tile-image]') as HTMLElement;
       const text = image.previousElementSibling as HTMLElement;
       return {
         imageTop: image.getBoundingClientRect().top,
         imageBottom: image.getBoundingClientRect().bottom,
         textBottom: text.getBoundingClientRect().bottom,
-        linkBottom: link.getBoundingClientRect().bottom,
+        // Inner edge: the card's bottom minus its 1px border
+        cardBottom: article.getBoundingClientRect().bottom - parseFloat(getComputedStyle(article).borderBottomWidth),
       };
     });
     expect(imageTop).toBeGreaterThanOrEqual(textBottom - 1);
-    expect(Math.abs(linkBottom - imageBottom)).toBeLessThanOrEqual(1);
+    expect(Math.abs(cardBottom - imageBottom)).toBeLessThanOrEqual(1);
     await expect(tile.locator('[data-tile-image]')).toHaveAttribute('alt', '');
   });
 
