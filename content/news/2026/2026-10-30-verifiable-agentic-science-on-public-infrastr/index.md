@@ -21,7 +21,7 @@ contributions:
   - jgoecks
   - mschatz
   - bgruening
-  - spond
+  - sergeikosakovskypond
   - nekrut
 ---
 
