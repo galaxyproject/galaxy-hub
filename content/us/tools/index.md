@@ -2,7 +2,7 @@
 # THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
 # To update, run: python3 scripts/update-tools.py --server https://usegalaxy.org --name "Galaxy US" --output content/us/tools/index.md
 title: Galaxy US Tools
-description: "2388 tools and counting"
+description: "2395 tools and counting"
 ---
 
 
@@ -675,6 +675,7 @@ description: "2388 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=augustus" target="_top" title="gene prediction for prokaryotic and eukaryotic genomes">Augustus</a>
 <a href="https://usegalaxy.org/root?tool_id=braker3" target="_top" title="genome annotation">BRAKER3</a>
 <a href="https://usegalaxy.org/root?tool_id=bakta" target="_top" title="Rapid and standardized annotation of bacterial genomes, MAGs and plasmids">Bakta</a>
+<a href="https://usegalaxy.org/root?tool_id=bionym" target="_top" title="resolve a gene identifier into a confidence-scored knowledge graph">BioNym resolve</a>
 <a href="https://usegalaxy.org/root?tool_id=blastxml_to_gapped_gff3" target="_top" title="">BlastXML to gapped GFF3</a>
 <a href="https://usegalaxy.org/root?tool_id=busco" target="_top" title="Assess genome assembly and annotation completeness">Busco</a>
 <a href="https://usegalaxy.org/root?tool_id=cpat" target="_top" title="coding potential assessment">CPAT</a>
@@ -814,6 +815,7 @@ description: "2388 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=ucsc_chainprenet" target="_top" title="Remove chains that don&#x27;t have a chance of being netted">chainPreNet</a>
 <a href="https://usegalaxy.org/root?tool_id=ucsc_chainsort" target="_top" title="Sort chains">chainSort</a>
 <a href="https://usegalaxy.org/root?tool_id=ucsc_chainswap" target="_top" title="Swap target and query in a chain.">chainSwap</a>
+<a href="https://usegalaxy.org/root?tool_id=chromap" target="_top" title="Fast alignment and preprocessing of chromatin profiles">chromap</a>
 <a href="https://usegalaxy.org/root?tool_id=metilene" target="_top" title="calling differentially methylated regions from bisulfite sequencing data">metilene</a>
 <a href="https://usegalaxy.org/root?tool_id=ucsc_netchainsubset" target="_top" title="Create chain file with subset of chains that appear in the net">netChainSubset</a>
 <a href="https://usegalaxy.org/root?tool_id=ucsc_netfilter" target="_top" title="Filter out parts of net">netFilter</a>
@@ -909,6 +911,7 @@ description: "2388 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=seacr" target="_top" title="for sparse enrichment analysis">SEACR</a>
 <a href="https://usegalaxy.org/root?tool_id=peakcalling_sicer" target="_top" title="Statistical approach for the Identification of ChIP-Enriched Regions">SICER</a>
 <a href="https://usegalaxy.org/root?tool_id=tag_pileup_frequency" target="_top" title="">Tag pileup frequency</a>
+<a href="https://usegalaxy.org/root?tool_id=homer_annotatePeaks" target="_top" title="">annotatePeaks</a>
 
 </div>
 
@@ -2293,6 +2296,7 @@ description: "2388 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=bg_diamond_view" target="_top" title="generate formatted output from DAA files">Diamond view</a>
 <a href="https://usegalaxy.org/root?tool_id=gtdbtk_classify_wf" target="_top" title="by placement in GTDB reference tree">GTDB-Tk Classify genomes</a>
 <a href="https://usegalaxy.org/root?tool_id=humann" target="_top" title="to profile presence/absence and abundance of microbial pathways and gene families">HUMAnN</a>
+<a href="https://usegalaxy.org/root?tool_id=itsx" target="_top" title="identifies ITS sequences and extracts the ITS region">ITSx</a>
 <a href="https://usegalaxy.org/root?tool_id=kneaddata" target="_top" title="Quality control and contaminant removal for metagenomic data">KneadData</a>
 <a href="https://usegalaxy.org/root?tool_id=kraken" target="_top" title="assign taxonomic labels to sequencing reads">Kraken</a>
 <a href="https://usegalaxy.org/root?tool_id=kraken_taxonomy_report" target="_top" title="view report of classification for multiple samples">Kraken taxonomic report</a>
@@ -2361,6 +2365,7 @@ description: "2388 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=ampvis2_load" target="_top" title="">ampvis2 load</a>
 <a href="https://usegalaxy.org/root?tool_id=ampvis2_ordinate" target="_top" title="">ampvis2 ordination plot</a>
 <a href="https://usegalaxy.org/root?tool_id=ampvis2_subset_samples" target="_top" title="by sample metadata">ampvis2 subset samples</a>
+<a href="https://usegalaxy.org/root?tool_id=barrnap" target="_top" title="Locate ribosomal RNA&#x27;s in a fasta file. (GFF output)">barrnap</a>
 <a href="https://usegalaxy.org/root?tool_id=cd_hit_dup" target="_top" title="remove duplicates and detect chimaeras in sequencing reads">cd-hit-dup</a>
 <a href="https://usegalaxy.org/root?tool_id=checkm2" target="_top" title="Rapid assessment of genome bin quality using machine learning">checkm2</a>
 <a href="https://usegalaxy.org/root?tool_id=drep_compare" target="_top" title="compare a list of genomes">dRep compare</a>
@@ -2371,6 +2376,7 @@ description: "2388 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=dada2_learnErrors" target="_top" title="Learn Error rates">dada2: learnErrors</a>
 <a href="https://usegalaxy.org/root?tool_id=dada2_makeSequenceTable" target="_top" title="construct a sequence table (analogous to OTU table)">dada2: makeSequenceTable</a>
 <a href="https://usegalaxy.org/root?tool_id=dada2_mergePairs" target="_top" title="Merge denoised forward and reverse reads">dada2: mergePairs</a>
+<a href="https://usegalaxy.org/root?tool_id=dada2_mergeSequenceTables" target="_top" title="merge 2 or more sequence tables together">dada2: mergeSequenceTables</a>
 <a href="https://usegalaxy.org/root?tool_id=dada2_plotComplexity" target="_top" title="Plot sequence complexity profile">dada2: plotComplexity</a>
 <a href="https://usegalaxy.org/root?tool_id=dada2_plotQualityProfile" target="_top" title="plot a visual summary of the quality scores">dada2: plotQualityProfile</a>
 <a href="https://usegalaxy.org/root?tool_id=dada2_removeBimeraDenovo" target="_top" title="Remove bimeras from collections of unique sequences">dada2: removeBimeraDenovo</a>
@@ -2637,6 +2643,7 @@ description: "2388 tools and counting"
 
 <div class="tool-list">
 
+<a href="https://usegalaxy.org/root?tool_id=fragpipe" target="_top" title="Data analysis for mass spectrometry-based proteomics">(Development) FragPipe -  Academic Research and Education User License (Non-Commercial)</a>
 <a href="https://usegalaxy.org/root?tool_id=colabfold_alphafold" target="_top" title="Predict protein structures with Colabfold">Colabfold Alphafold</a>
 <a href="https://usegalaxy.org/root?tool_id=colabfold_msa" target="_top" title="Generate MSAs for the Alphafold step of Colabfold">Colabfold MSA</a>
 <a href="https://usegalaxy.org/root?tool_id=custom_pro_db" target="_top" title="Generate protein FASTAs from exosome or transcriptome data">CustomProDB</a>
@@ -2645,7 +2652,6 @@ description: "2388 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=FalseDiscoveryRate" target="_top" title="Estimates the false discovery rate on peptide and protein level using decoy searches">FalseDiscoveryRate</a>
 <a href="https://usegalaxy.org/root?tool_id=fasta_cli" target="_top" title="Appends decoy sequences to FASTA files">FastaCLI</a>
 <a href="https://usegalaxy.org/root?tool_id=FeatureFinderMultiplex" target="_top" title="Determination of peak ratios in LC-MS data">FeatureFinderMultiplex</a>
-<a href="https://usegalaxy.org/root?tool_id=fragpipe" target="_top" title="Data analysis for mass spectrometry-based proteomics">FragPipe -  Academic Research and Education User License (Non-Commercial)</a>
 <a href="https://usegalaxy.org/root?tool_id=fragpipe_manifest_generator" target="_top" title="Generate a FragPipe Manifest File (Experimental Design File)">FragPipe Manifest Generator</a>
 <a href="https://usegalaxy.org/root?tool_id=IDMapper" target="_top" title="Assigns protein/peptide identifications to features or consensus features">IDMapper</a>
 <a href="https://usegalaxy.org/root?tool_id=ident_params" target="_top" title="Sets the identification parameters to be used in SearchGUI and PeptideShaker apps">Identification Parameters</a>
@@ -2916,6 +2922,7 @@ description: "2388 tools and counting"
 
 <div class="tool-list">
 
+<a href="https://usegalaxy.org/root?tool_id=atacseqqc_tsse" target="_top" title="Computes Transcription Start Site Enrichment Score">ATACseqQC TSSE</a>
 <a href="https://usegalaxy.org/root?tool_id=hicup_deduplicator" target="_top" title="removes duplicated di-tags (retaining one copy of each) from the data set.">Hicup Deduplicator</a>
 <a href="https://usegalaxy.org/root?tool_id=hicup_digester" target="_top" title="cuts throughout a selected genome at one or two specified restriction sites.">Hicup Digester</a>
 <a href="https://usegalaxy.org/root?tool_id=hicup_filter" target="_top" title="classifies read pairs, identifying valid Hi-C di-tags">Hicup Filter</a>
