@@ -73,7 +73,7 @@ Sarah and the family have shared the following:
 > We have created a website in memory of Ross Lazarus. It has:
 >  - a biography written by Kirsten Tilgals
 >  - a video recording of the celebration of life that took place on Wednesday, September 23, 2026, with a photo slideshow and speeches
->  - a digital photo album where you can upload any photos of Ross you'd like to share
+>  - a digital photo album
 >
 > You can access the website here: [rossbiography.vercel.app](https://rossbiography.vercel.app/)
 
