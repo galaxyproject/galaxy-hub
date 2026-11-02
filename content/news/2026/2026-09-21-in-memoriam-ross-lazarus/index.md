@@ -24,11 +24,16 @@ Ross had been actively involved in health informatics and bioinformatics for mor
 
 This was the time he discovered the very early version of Galaxy, back then without a workflow editor, a web application to run bioinformatics applications in a reproducible and transparent way.
 In Ross's own telling, his office neighbour Benjamin Raby ran in one day: "You've got to come and look at this!" On Benji's screen was a web tool from Penn State that did what Ross had written custom code for the day before, except that Benji could now do it himself. "I was blown away because this was absolutely brilliant," Ross recalled. He got his own copy, fixed the problems he found, and wrote to the developers: "This is cool. Who are you and can we meet?"
-Ross was one of the first Galaxy power users, pushing boundaries of this new Galaxy project. But Ross was more than a user, he became quickly involved in the project, contributed tools, ideas and advice.
+Ross was one of the first Galaxy power users, pushing boundaries of this new Galaxy project. But Ross was more than a user, he became quickly involved in the project, contributed tools, ideas and advice and run his own Galaxy instance.
+
+<center>
+  <img src="./ross-galaxy.png" width="620" alt="Ross's Galaxy instance for the Harvard Medical School" />
+</center>
+
 He became a mentor for Anton Nekrutenko and James Taylor, who at the time were just starting the Galaxy Project. With his practical advice and involvement, the Galaxy project was able to get funded and lay the foundation for what the project is today. Ross wrote a grant that subcontracted the Penn State group at a time when, as he put it, they were about to run out of money and the lab was about to close.
 
 After his stay at Harvard Medical School Ross went back to Australia and served as Director of Computational Biology at the [Baker Heart and Diabetes Institute](https://baker.edu.au) in Melbourne until 2015.
-During this time the [IUC](https://galaxyproject.org/iuc/) was founded and Ross was one of the founding members. Without his help and advice the IUC would not be what it is today - a community of more than 400 contributors working on more than 2000 Galaxy tools.
+During this time the [IUC](https://galaxyproject.org/iuc/) was started and Ross was one of the founding members. Without his help and advice the IUC would not be what it is today - a community of more than 400 contributors working on more than 2000 Galaxy tools.
 Ross authored and maintained countless computational tools, pipelines, and Galaxy wrappers, many of them still in use. For example, he wrote the early RNA STAR wrapper back when STAR was really new. The RNA STAR tool in Galaxy
 alone has more than 1 million executions.
 
@@ -53,34 +58,6 @@ the [VGP](https://vertebrategenomesproject.org) and other projects and helped us
 Looking back on Galaxy, Ross wrote:
 
 > It's always been about trying to do things for the public good; in the case of Galaxy, to make things a bit better for scientists in, say, Uganda or Jakarta, who don't have access to much in the way of infrastructure or resources. And I'm pleased to say that it's happening. We've done it, we do it, and it works.
-
-## Galaxy publications
-
-Ross co-authored many papers on Galaxy, from the early days of the project to the most recent community updates:
-
-1. Lazarus R, Taylor J, Qiu W, Nekrutenko A. Toward the commoditization of translational genomic research: design and implementation features of the Galaxy genomic workbench. *Summit Transl Bioinform*. 2008. [PubMed](https://pubmed.ncbi.nlm.nih.gov/21347127/)
-2. Blankenberg D, Von Kuster G, Coraor N, Ananda G, Lazarus R, Mangan M, Nekrutenko A, Taylor J. Galaxy: a web-based genome analysis tool for experimentalists. *Curr Protoc Mol Biol*. 2010. [PubMed](https://pubmed.ncbi.nlm.nih.gov/20069535/)
-3. Goecks J, Nekrutenko A, Taylor J; Galaxy Team. Galaxy: a comprehensive approach for supporting accessible, reproducible, and transparent computational research in the life sciences. *Genome Biol*. 2010. [PubMed](https://pubmed.ncbi.nlm.nih.gov/20738864/)
-4. Blankenberg D, Taylor J, Nekrutenko A; Galaxy Team. Making whole genome multiple alignments usable for biologists. *Bioinformatics*. 2011. [PubMed](https://pubmed.ncbi.nlm.nih.gov/21775304/)
-5. Lazarus R, Kaspi A, Ziemann M; Galaxy Team. Creating reusable tools from scripts: the Galaxy Tool Factory. *Bioinformatics*. 2012. [PubMed](https://pubmed.ncbi.nlm.nih.gov/23024011/)
-6. Galaxy Community. The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2022 update. *Nucleic Acids Res*. 2022. [PubMed](https://pubmed.ncbi.nlm.nih.gov/35446428/)
-7. Galaxy Community. The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update. *Nucleic Acids Res*. 2024. [PubMed](https://pubmed.ncbi.nlm.nih.gov/38769056/)
-
-His full publication record, covering decades of epidemiology, genetics and public-health informatics, is on [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Lazarus+Ross%22%5BFull+Author+Name%5D) and [ORCID](https://orcid.org/0000-0003-3939-1961).
-
-## Ross's tools in the IUC
-
-Ross wrote and maintained many tools in the [IUC tools repository](https://github.com/galaxyproject/tools-iuc), from the first IUC days to his last months:
-
-- [RNA STAR](https://github.com/galaxyproject/tools-iuc/tree/main/tools/rgrnastar) (`rgrnastar`), the RNA-seq aligner, and its [index builder data manager](https://github.com/galaxyproject/tools-iuc/tree/main/data_managers/data_manager_star_index_builder)
-- [JBrowse2](https://github.com/galaxyproject/tools-iuc/tree/main/tools/jbrowse2), the genome browser as a Galaxy tool
-- [bigwig_outlier_bed](https://github.com/galaxyproject/tools-iuc/tree/main/tools/bigwig_outlier_bed), which finds regions of extreme values in bigwig files
-- [microsatbed](https://github.com/galaxyproject/tools-iuc/tree/main/tools/microsatbed), which reports short tandem repeats as bed features
-- [bbgbigwig](https://github.com/galaxyproject/tools-iuc/tree/main/tools/bbgbigwig), which makes coverage bigwigs from bam, bed or gff
-- [wigToBigWig](https://github.com/galaxyproject/tools-iuc/tree/main/tools/ucsc_tools/wigtobigwig), which converts wig to bigwig
-- [WebLogo3](https://github.com/galaxyproject/tools-iuc/tree/main/tools/weblogo3) and [ClustalW](https://github.com/galaxyproject/tools-iuc/tree/main/tools/clustalw)
-- Major updates to [Sniffles](https://github.com/galaxyproject/tools-iuc/tree/main/tools/sniffles), [seqtk](https://github.com/galaxyproject/tools-iuc/tree/main/tools/seqtk) (telo) and [nucmer](https://github.com/galaxyproject/tools-iuc/tree/main/tools/mummer4)
-- Earlier tools, now deprecated: the [Tool Factory](https://github.com/galaxyproject/tools-iuc/tree/main/deprecated/tools/tool_factory_2), [differential count models](https://github.com/galaxyproject/tools-iuc/tree/main/deprecated/tools/differential_count_models) (edgeR/DESeq2/voom), [htseq-count](https://github.com/galaxyproject/tools-iuc/tree/main/deprecated/tools/htseq) and [rglasso](https://github.com/galaxyproject/tools-iuc/tree/main/deprecated/tools/rglasso)
 
 ## In memory of Ross
 
@@ -112,3 +89,32 @@ Rest in peace, our dear friend! 🌻
   <img src="./sydney.jpeg" width="620" alt="Sydney" />
 </center>
 
+## Annex
+
+### Galaxy publications
+
+Ross co-authored many papers on Galaxy, from the early days of the project to the most recent community updates:
+
+1. Lazarus R, Taylor J, Qiu W, Nekrutenko A. Toward the commoditization of translational genomic research: design and implementation features of the Galaxy genomic workbench. *Summit Transl Bioinform*. 2008. [PubMed](https://pubmed.ncbi.nlm.nih.gov/21347127/)
+2. Blankenberg D, Von Kuster G, Coraor N, Ananda G, Lazarus R, Mangan M, Nekrutenko A, Taylor J. Galaxy: a web-based genome analysis tool for experimentalists. *Curr Protoc Mol Biol*. 2010. [PubMed](https://pubmed.ncbi.nlm.nih.gov/20069535/)
+3. Goecks J, Nekrutenko A, Taylor J; Galaxy Team. Galaxy: a comprehensive approach for supporting accessible, reproducible, and transparent computational research in the life sciences. *Genome Biol*. 2010. [PubMed](https://pubmed.ncbi.nlm.nih.gov/20738864/)
+4. Blankenberg D, Taylor J, Nekrutenko A; Galaxy Team. Making whole genome multiple alignments usable for biologists. *Bioinformatics*. 2011. [PubMed](https://pubmed.ncbi.nlm.nih.gov/21775304/)
+5. Lazarus R, Kaspi A, Ziemann M; Galaxy Team. Creating reusable tools from scripts: the Galaxy Tool Factory. *Bioinformatics*. 2012. [PubMed](https://pubmed.ncbi.nlm.nih.gov/23024011/)
+6. Galaxy Community. The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2022 update. *Nucleic Acids Res*. 2022. [PubMed](https://pubmed.ncbi.nlm.nih.gov/35446428/)
+7. Galaxy Community. The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update. *Nucleic Acids Res*. 2024. [PubMed](https://pubmed.ncbi.nlm.nih.gov/38769056/)
+
+His full publication record, covering decades of epidemiology, genetics and public-health informatics, is on [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Lazarus+Ross%22%5BFull+Author+Name%5D) and [ORCID](https://orcid.org/0000-0003-3939-1961).
+
+### Ross's tools in the IUC
+
+Ross wrote and maintained many tools in the [IUC tools repository](https://github.com/galaxyproject/tools-iuc), from the first IUC days to his last months:
+
+- [RNA STAR](https://github.com/galaxyproject/tools-iuc/tree/main/tools/rgrnastar) (`rgrnastar`), the RNA-seq aligner, and its [index builder data manager](https://github.com/galaxyproject/tools-iuc/tree/main/data_managers/data_manager_star_index_builder)
+- [JBrowse2](https://github.com/galaxyproject/tools-iuc/tree/main/tools/jbrowse2), the genome browser as a Galaxy tool
+- [bigwig_outlier_bed](https://github.com/galaxyproject/tools-iuc/tree/main/tools/bigwig_outlier_bed), which finds regions of extreme values in bigwig files
+- [microsatbed](https://github.com/galaxyproject/tools-iuc/tree/main/tools/microsatbed), which reports short tandem repeats as bed features
+- [bbgbigwig](https://github.com/galaxyproject/tools-iuc/tree/main/tools/bbgbigwig), which makes coverage bigwigs from bam, bed or gff
+- [wigToBigWig](https://github.com/galaxyproject/tools-iuc/tree/main/tools/ucsc_tools/wigtobigwig), which converts wig to bigwig
+- [WebLogo3](https://github.com/galaxyproject/tools-iuc/tree/main/tools/weblogo3) and [ClustalW](https://github.com/galaxyproject/tools-iuc/tree/main/tools/clustalw)
+- Major updates to [Sniffles](https://github.com/galaxyproject/tools-iuc/tree/main/tools/sniffles), [seqtk](https://github.com/galaxyproject/tools-iuc/tree/main/tools/seqtk) (telo) and [nucmer](https://github.com/galaxyproject/tools-iuc/tree/main/tools/mummer4)
+- Earlier tools, now deprecated: the [Tool Factory](https://github.com/galaxyproject/tools-iuc/tree/main/deprecated/tools/tool_factory_2), [differential count models](https://github.com/galaxyproject/tools-iuc/tree/main/deprecated/tools/differential_count_models) (edgeR/DESeq2/voom), [htseq-count](https://github.com/galaxyproject/tools-iuc/tree/main/deprecated/tools/htseq) and [rglasso](https://github.com/galaxyproject/tools-iuc/tree/main/deprecated/tools/rglasso)
