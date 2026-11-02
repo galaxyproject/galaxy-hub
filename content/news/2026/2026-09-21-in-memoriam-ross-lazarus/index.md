@@ -14,26 +14,26 @@ contributions:
   <img src="./image.png" width="620" alt="Ross Lazarus" />
 </center>
 
-We lost a friend, mentor and a great human being this weekend - Ross Lazarus.
+We lost a friend, mentor and a great human being this weekend: Ross Lazarus.
 
 ## Early career
 
-Ross had been actively involved in health informatics and bioinformatics for more than 40 years since graduating from the Faculty of Medicine at the University of Melbourne in 1974. Ross really wanted to change the world in profound, measurable ways. This is why early on he decided to do something that would benefit entire global populations: public health and clinical epidemiology. He started teaching undergraduate, graduate and postgraduate medical students at the University of Sydney before moving to [Harvard Medical School](https://hms.harvard.edu) in 2000 where he was Director of Bioinformatics at the Channing Laboratory.
+Ross had been actively involved in health informatics and bioinformatics for more than 40 years since graduating from the Faculty of Medicine at the University of Melbourne in 1974. Ross really wanted to change the world in profound, measurable ways. This is why early on he decided to do something that would benefit entire global populations: public health and clinical epidemiology. He started teaching undergraduate, graduate and postgraduate medical students at the University of Sydney before moving to [Harvard Medical School](https://hms.harvard.edu) in 2000, where he was Director of Bioinformatics at the Channing Laboratory.
 
 ## The Galaxy years
 
 This was the time he discovered the very early version of Galaxy, back then without a workflow editor, a web application to run bioinformatics applications in a reproducible and transparent way.
 Ross was one of the first Galaxy power users, pushing boundaries of this new Galaxy project. But Ross was more than a user, he became quickly involved in the project, contributed tools, ideas and advice.
-He became a mentor for Anton Nekrutenko and James Taylor who at the time, were just starting the Galaxy Project. With his practical advice and involvement the Galaxy project was able to get funded and lay the foundation for the project is today. 
+He became a mentor for Anton Nekrutenko and James Taylor, who at the time were just starting the Galaxy Project. With his practical advice and involvement, the Galaxy project was able to get funded and lay the foundation for what the project is today.
 
 After his stay at Harvard Medical School Ross went back to Australia and served as Head of Computational Biology at the [Baker Heart and Diabetes Institute](https://baker.edu.au) in Melbourne until 2015.
 During this time the [IUC](https://galaxyproject.org/iuc/) was founded and Ross was one of the founding members. Without his help and advice the IUC would not be what it is today - a community of more than 400 contributors working on more than 2000 Galaxy tools.
-Ross authored and maintained countless computational tools, pipelines, and Galaxy wrappers, many of them still in use. For example the early RNA STAR wrapper, back then when STAR was really new. The RNA STAR tool in Galaxy
+Ross authored and maintained countless computational tools, pipelines, and Galaxy wrappers, many of them still in use. For example, he wrote the early RNA STAR wrapper back when STAR was really new. The RNA STAR tool in Galaxy
 alone has more than 1 million executions.
 
 ## Retirement and return
 
-In 2015 Ross retired and enjoyed life in Bondi Beach together with Sarah and his two kids. It was hard to have him in a very different time zone. So we reached out and wanted to know where we would need to organize a GCC to get him back. He responded in a very funny email which he ended with:
+In 2015 Ross retired and enjoyed life in Bondi Beach together with Sarah and his two kids. It was hard to have him in such a different time zone, so we reached out and asked where we would need to organize a GCC to get him back. He responded in a very funny email which he ended with:
 
 > Sorry to have drifted off but I seem to be moving out of that Galaxy and into another...
 
@@ -41,13 +41,13 @@ Indeed, he was swimming and hiking a lot. Just enjoying life. Wonderful.
 
 In 2017 we had an Admin training in Melbourne with the Australian Galaxy community and he invited us to his place where we had a wonderful time. Learning about flying foxes and philosophizing about science.
 
-With the sudden death of [James Taylor](/jxtx/) in early 2020 the community was mourning and Ross, once again, helped us to get through the awful time. He knew that the loss of James would be a challenge for the community and he was there to help.
+With the sudden death of [James Taylor](/jxtx/) in early 2020 the community was mourning, and Ross, once again, helped us get through that awful time. He knew that the loss of James would be a challenge for the community and he was there to help.
 We built a more sustainable community governance model and Ross was always there to advise us. During that hard time and during the Pandemic, Ross was back helping in various roles and Galaxy boards.
 
 In 2023, we had our first [GCC in Australia](https://galaxyproject.org/events/gcc2023/) and of course we invited Ross. It was so lovely to see him and Sarah again in Brisbane. A few Europeans stayed a bit longer in Australia and Ross
 was so kind to host us in Sydney, showing us around Bondi Beach. We could also use his apartment in Melbourne to work closely with [Galaxy Australia](https://usegalaxy.org.au/). He was so generous, insightful and inspiring to many of us during this time.
 
-And something happened :) I think he was hooked again. From that time onward he was back online. He started to contribute to IUC again, developed tools and workflows for
+And something happened :) I think he was hooked again. From that time onward he was back online. He started to contribute to the IUC again, developed tools and workflows for
 the [VGP](https://vertebrategenomesproject.org) and other projects and helped us build the community by serving on different boards. Ross was back and it was wonderful to work with him (again).
 
 ## Galaxy publications
