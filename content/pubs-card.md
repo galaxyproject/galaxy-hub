@@ -5,7 +5,7 @@ icon: book-open
 items:
 
 - title: "Selection analysis identifies unusual clustered mutational changes in Omicron lineage BA.1 that likely impact Spike function"
-  link: https://doi.org/10.1101/2022.01.14.476382v1
+  link: https://doi.org/10.1101/2022.01.14.476382
   tease: "<span class='altmetric-embed float-right' data-badge-type='4' data-doi='10.26434/chemrxiv-2021-zr4xn'></span> Martin, D.P., Lytras, S., Lucaci, A.G., Maier, Gruning, B. ... Kosakovsky Pond S.L. (2022). *bioRxiv*."
 - title: "VectorBase.org updates: bioinformatic resources for invertebrate vectors of human pathogens and related organisms"
   link: https://doi.org/10.1016/j.cois.2021.11.008

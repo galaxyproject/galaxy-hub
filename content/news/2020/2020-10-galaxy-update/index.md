@@ -258,9 +258,9 @@ Rivière, E., Heupink, T. H., Ismail, N., Dippenaar, A., Clarke, C., Abebe, G., 
 
 
 <div class="card border-info" style="min-width: 12rem;">
-<div class="card-header">[Fostering Accessible Online Education Using Galaxy as an e-learning Platform](https://doi.org/10.20944/preprints202009.0457)</div>
+<div class="card-header">[Fostering Accessible Online Education Using Galaxy as an e-learning Platform](https://doi.org/10.20944/preprints202009.0457.v1)</div>
 
-Serrano-Solano, B., Erxleben, A., Gallardo-Alba, C., Rasche, H., Hiltemann, S., Föll, M., Fahrner, M., Dunning, M. J., Schulz, M., Scholtz, B., Clements, D., Nekrutenko, A., Batut, B., & Grüning, B. (2020). *Preprints*. [doi: 10.20944/preprints202009.0457](https://doi.org/10.20944/preprints202009.0457)
+Serrano-Solano, B., Erxleben, A., Gallardo-Alba, C., Rasche, H., Hiltemann, S., Föll, M., Fahrner, M., Dunning, M. J., Schulz, M., Scholtz, B., Clements, D., Nekrutenko, A., Batut, B., & Grüning, B. (2020). *Preprints*. [doi: 10.20944/preprints202009.0457.v1](https://doi.org/10.20944/preprints202009.0457.v1)
 </div>
 
 </div>
