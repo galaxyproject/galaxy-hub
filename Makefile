@@ -76,7 +76,7 @@ validate-metadata: ## Validate news, events, and did-you-know schemas
 
 test-python: ## Run the Python script tests
 	python -m unittest discover -s scripts -p 'test_*.py'
-	python -m unittest discover -s utils -p 'test_*.py' || [ $$? -eq 5 ]
+	python -m unittest discover -s utils -p 'test_*.py'
 .PHONY: test-python
 
 help:
