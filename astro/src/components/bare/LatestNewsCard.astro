@@ -35,8 +35,9 @@ const moreUrl = `${siteUrl}/bare/${subsite}/news/`;
 
 <div class="home-card">
   <div class="card-header">
-    <a href={moreUrl} target="_blank" style="color: inherit; text-decoration: none">
+    <a href={moreUrl} target="_blank" aria-label="All news" style="color: inherit; text-decoration: none">
       <svg
+        aria-hidden="true"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 512 512"
         style="color: #25537b; font-size: 25px; line-height: 28px; height: 25px"

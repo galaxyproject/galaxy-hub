@@ -124,31 +124,6 @@ const knownIssues: Record<string, Record<string, KnownIssue>> = {
       viewports: both,
     },
   },
-  '/': {
-    'color-contrast': {
-      reason: 'home stat labels 3.68:1 and citation guide link 4.35:1 (pages/index.astro)',
-      viewports: both,
-    },
-    'link-in-text-block': {
-      reason: 'citation DOI link is not underlined, 1.32:1 against body text (pages/index.astro)',
-      viewports: both,
-    },
-  },
-  '/use/usegalaxy-eu/': {
-    'color-contrast': {
-      reason: 'platform location text-chicago-500 is 4.04:1 (PlatformLayout.astro)',
-      viewports: both,
-    },
-  },
-  '/bare/eu/usegalaxy/main/': {
-    'link-name': {
-      reason: 'card header SVG icon links have no accessible name (LatestNewsCard.astro, LatestEventsCard.astro)',
-      viewports: both,
-    },
-  },
-  '/bare/eu/latest/news/': {
-    'link-name': { reason: 'card header SVG icon link has no accessible name (LatestNewsCard.astro)', viewports: both },
-  },
   [`/events/?year=${fixedYear}`]: {
     'color-contrast': { reason: 'year button counts opacity-75 are 3.64:1 (EventsList.vue)', viewports: both },
   },
