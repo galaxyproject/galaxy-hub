@@ -27,7 +27,7 @@ In Ross's own telling, his office neighbour Benjamin Raby ran in one day: "You'v
 Ross was one of the first Galaxy power users, pushing boundaries of this new Galaxy project. But Ross was more than a user, he became quickly involved in the project, contributed tools, ideas and advice.
 He became a mentor for Anton Nekrutenko and James Taylor, who at the time were just starting the Galaxy Project. With his practical advice and involvement, the Galaxy project was able to get funded and lay the foundation for what the project is today. Ross wrote a grant that subcontracted the Penn State group at a time when, as he put it, they were about to run out of money and the lab was about to close.
 
-After his stay at Harvard Medical School Ross went back to Australia and served as Head of Computational Biology at the [Baker Heart and Diabetes Institute](https://baker.edu.au) in Melbourne until 2015.
+After his stay at Harvard Medical School Ross went back to Australia and served as Director of Computational Biology at the [Baker Heart and Diabetes Institute](https://baker.edu.au) in Melbourne until 2015.
 During this time the [IUC](https://galaxyproject.org/iuc/) was founded and Ross was one of the founding members. Without his help and advice the IUC would not be what it is today - a community of more than 400 contributors working on more than 2000 Galaxy tools.
 Ross authored and maintained countless computational tools, pipelines, and Galaxy wrappers, many of them still in use. For example, he wrote the early RNA STAR wrapper back when STAR was really new. The RNA STAR tool in Galaxy
 alone has more than 1 million executions.
@@ -42,8 +42,7 @@ Indeed, he was swimming and hiking a lot. Just enjoying life. Wonderful.
 
 In 2017 we had an Admin training in Melbourne with the Australian Galaxy community and he invited us to his place where we had a wonderful time. Learning about flying foxes and philosophizing about science.
 
-With the sudden death of [James Taylor](/jxtx/) in early 2020 the community was mourning, and Ross, once again, helped us get through that awful time. He knew that the loss of James would be a challenge for the community and he was there to help.
-We built a more sustainable community governance model and Ross was always there to advise us. During that hard time and during the Pandemic, Ross was back helping in various roles and Galaxy boards.
+With the sudden death of [James Taylor](/jxtx/) in early 2020 the community was mourning, and Ross, once again, helped us get through that awful time. He knew that the loss of James would be a challenge for the community and he was there to help. We built a more sustainable community governance model and Ross was always there to advise us. During that hard time and during the Pandemic, Ross was back helping in various roles and Galaxy boards.
 
 In 2023, we had our first [GCC in Australia](https://galaxyproject.org/events/gcc2023/) and of course we invited Ross. It was so lovely to see him and Sarah again in Brisbane. A few Europeans stayed a bit longer in Australia and Ross
 was so kind to host us in Sydney, showing us around Bondi Beach. We could also use his apartment in Melbourne to work closely with [Galaxy Australia](https://usegalaxy.org.au/). He was so generous, insightful and inspiring to many of us during this time.
@@ -85,7 +84,7 @@ Ross wrote and maintained many tools in the [IUC tools repository](https://githu
 
 ## In memory of Ross
 
-A bit nerdy, but we are sure Ross would have liked it. Galaxy servers send a special HTTP header in Ross's honour.
+A bit nerdy, but we are sure Ross would have liked it. Galaxy servers send a special HTTP header in Ross's honor.
 
 ```bash
 curl -sI https://usegalaxy.eu/ | grep -i clacks
