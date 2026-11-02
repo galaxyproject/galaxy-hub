@@ -3,10 +3,10 @@
  * Outputs all Galaxy platform/server data at /use/feed.json
  * Format matches original Gridsome feed for backward compatibility
  */
-import { getCollection } from 'astro:content';
+import { getListedCollection } from '../../utils/content';
 
 export async function GET() {
-  const platforms = await getCollection('platforms');
+  const platforms = await getListedCollection('platforms');
 
   // Format as array (matching Gridsome output)
   const feedItems = platforms.map((platform) => {

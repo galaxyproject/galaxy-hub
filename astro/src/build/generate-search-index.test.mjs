@@ -1,9 +1,13 @@
 import { describe, it, expect } from 'vitest';
+import fs from 'fs';
+import os from 'os';
+import path from 'path';
 import {
   buildHallOfFameEntries,
   classifyFunding,
   extractCommunityMetadata,
   communitySlug,
+  processFile,
 } from './generate-search-index.mjs';
 
 describe('generate-search-index metadata helpers', () => {
@@ -116,5 +120,34 @@ describe('generate-search-index hall-of-fame entries', () => {
     const slugs = buildHallOfFameEntries(communityData).map((entry) => entry.slug);
 
     expect(slugs).toEqual(['hall-of-fame/alice']);
+  });
+});
+
+describe('generate-search-index processFile', () => {
+  const communityData = {
+    contributors: {},
+    organisations: {},
+    grants: {},
+    lookups: { contributors: new Set(), organisations: new Set(), grants: new Set() },
+    tagLookup: { exact: new Map(), compact: new Map() },
+  };
+
+  const indexFixture = (frontmatter) => {
+    const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'search-index-test-'));
+    const filePath = path.join(dir, 'page.md');
+    fs.writeFileSync(filePath, `---\n${frontmatter}\n---\nBody text\n`);
+    try {
+      return processFile(filePath, 'news', communityData);
+    } finally {
+      fs.rmSync(dir, { recursive: true, force: true });
+    }
+  };
+
+  it('indexes a published page', () => {
+    expect(indexFixture('title: Live\nslug: news/live')?.path).toBe('/news/live/');
+  });
+
+  it('leaves draft pages out of the index', () => {
+    expect(indexFixture('title: Draft\nslug: news/draft\ndraft: true')).toBeNull();
   });
 });

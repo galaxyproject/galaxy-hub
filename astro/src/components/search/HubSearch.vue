@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed, onMounted } from 'vue';
+import { ref, computed, onMounted, watch } from 'vue';
 import { formatDate } from '@/utils/dateUtils';
 import ExternalIcon from '../common/ExternalIcon.vue';
 
@@ -21,9 +21,11 @@ interface SearchEntry {
 
 const props = defineProps<{ query: string }>();
 
+// Content type ('all' or a collection); SearchPage keeps it in the URL as `type`
+const selectedCollection = defineModel<string>('type', { default: 'all' });
+
 const searchIndex = ref<SearchEntry[]>([]);
 const isLoading = ref(true);
-const selectedCollection = ref<string>('all');
 
 onMounted(async () => {
   try {
@@ -39,6 +41,12 @@ onMounted(async () => {
 const collections = computed(() => {
   const unique = new Set(searchIndex.value.map((e) => e.collection));
   return ['all', ...Array.from(unique).sort()];
+});
+
+// Drop a type the index does not have (a stale or mistyped ?type=); wait for the index first
+watch([selectedCollection, collections, isLoading], ([type, options, loading]) => {
+  if (loading || searchIndex.value.length === 0) return;
+  if (!options.includes(type)) selectedCollection.value = 'all';
 });
 
 function normalizeForMatch(value: string): string {

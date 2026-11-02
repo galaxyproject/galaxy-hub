@@ -5,6 +5,7 @@
  */
 import { getCollection, render } from 'astro:content';
 import BareArticleLayout from '../../layouts/BareArticleLayout.astro';
+import { isDraft } from '../../utils/publish-date.mjs';
 
 // Import MDX components for embedded content
 import VegaEmbed from '../../components/mdx/VegaEmbed.astro';
@@ -55,6 +56,6 @@ const components = {
 };
 ---
 
-<BareArticleLayout title={title || 'Page'} description={tease}>
+<BareArticleLayout title={title || 'Page'} description={tease} noindex={isDraft(article.data)}>
   <Content components={components} />
 </BareArticleLayout>

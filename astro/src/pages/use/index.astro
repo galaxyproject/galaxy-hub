@@ -1,5 +1,5 @@
 ---
-import { getCollection } from 'astro:content';
+import { getListedCollection } from '../../utils/content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PlatformDirectory from '../../components/platforms/PlatformDirectory.vue';
 import MapToggle from './map/MapToggle.vue';
@@ -7,7 +7,7 @@ import { prepareMapPlatformData } from './map/mapDataUtils';
 import { loadToolNames, loadReferenceNames } from '../../utils/platformDatasets';
 
 // Get all platforms
-const platforms = await getCollection('platforms');
+const platforms = await getListedCollection('platforms');
 
 // Transform platforms to the format expected by the Vue component
 const platformData = platforms

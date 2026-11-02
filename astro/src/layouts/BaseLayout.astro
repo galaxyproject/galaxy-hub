@@ -16,9 +16,11 @@ interface Props {
   fullBleed?: boolean;
   /** Social preview image (site-relative or absolute URL). */
   image?: string;
+  /** Ask search engines not to index the page (drafts). */
+  noindex?: boolean;
 }
 
-const { title, description = 'Galaxy Community Hub', fullBleed = false, image } = Astro.props;
+const { title, description = 'Galaxy Community Hub', fullBleed = false, image, noindex = false } = Astro.props;
 const ogImage = image ? new URL(image, Astro.site ?? Astro.url).href : undefined;
 const currentSubsite = detectSubsiteFromPath(Astro.url.pathname);
 const navbar = await getSubsiteNavbar(currentSubsite);
@@ -33,6 +35,7 @@ const navbar = await getSubsiteNavbar(currentSubsite);
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex" />}
     <title>{title} | Galaxy Hub</title>
 
     <!-- Open Graph / Social -->

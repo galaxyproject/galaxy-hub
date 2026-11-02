@@ -1,4 +1,4 @@
-import { getCollection } from 'astro:content';
+import { getListedCollection } from './content';
 import {
   communityInHubHallOfFame,
   communityNameInHubHallOfFame,
@@ -11,7 +11,7 @@ import {
 } from './contributors';
 
 export async function getHallOfFameSlugs(): Promise<Set<string>> {
-  const [articles, events] = await Promise.all([getCollection('articles'), getCollection('events')]);
+  const [articles, events] = await Promise.all([getListedCollection('articles'), getListedCollection('events')]);
   const slugs = new Set<string>();
 
   const add = (value: string | undefined) => {

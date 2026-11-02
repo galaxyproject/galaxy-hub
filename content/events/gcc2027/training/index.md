@@ -7,7 +7,8 @@ autotoc: false
 
 # Training opportunities at GCC2027
 
-GCC2027 will bring about an exciting set of educational sessions so you can
+GCC2027 will begin with a dedicated **Training Day on June 26, 2027**, which will 
+bring about an exciting set of educational sessions so you can
 learn new concepts, get some practical, hands-on training, interact with others
 working in the similar space, and get answers for any questions you have by the
 top experts on the topic.

@@ -1,10 +1,13 @@
 <script setup lang="ts">
-import { ref, computed, onMounted, watch } from 'vue';
+import { ref, computed, onMounted, onUnmounted, watch } from 'vue';
 import { useStore } from '@nanostores/vue';
 import { currentSubsite, subsites, type SubsiteId } from '@/stores/subsiteStore';
 import { renderMarkdownInline } from '@/utils/markdown';
 import { getUTCYear, isUpcomingEvent, isPastEvent } from '@/utils/dateUtils';
 import { contentMatchesSubsite } from '@/utils/subsites';
+import { onPopState, readParams, writeParams } from '@/utils/urlFilters';
+import { LIST_VIEW_DEFAULT, parseListView, type ListView } from '@/utils/listView';
+import ViewToggle from '../filters/ViewToggle.vue';
 import ExternalIcon from '../common/ExternalIcon.vue';
 import EventDate from './EventDate.vue';
 
@@ -42,28 +45,44 @@ const hasMounted = ref(false);
 const effectiveSubsite = computed(() =>
   !hasMounted.value && props.initialSubsite ? props.initialSubsite : $subsite.value
 );
-const isBrowser = typeof window !== 'undefined';
+const FILTER_PARAMS = { year: null, view: LIST_VIEW_DEFAULT };
 
 function getYearFromQuery(): number | null {
-  if (!isBrowser) return null;
-  const param = new URLSearchParams(window.location.search).get('year');
+  const param = readParams(FILTER_PARAMS).year;
   if (!param) return null;
   const parsed = Number(param);
   return Number.isFinite(parsed) ? parsed : null;
 }
 
 // Year-based navigation for past events
-const selectedPastYear = ref<number | null>(getYearFromQuery());
+// Read from the URL after mount: the server render has no query, and hydration must match it
+const selectedPastYear = ref<number | null>(null);
+const view = ref<ListView>(LIST_VIEW_DEFAULT);
+const isTiles = computed(() => view.value === 'tiles');
+// The toggle sits on the first heading: Upcoming Events when that list shows, else Past Events
+const toggleOnUpcoming = computed(() => props.showUpcoming && upcomingEvents.value.length > 0);
+const tilesGrid = 'grid grid-cols-[repeat(auto-fill,minmax(min(100%,16rem),1fr))] gap-4';
 const pageSize = 50;
 const pastDisplayCount = ref(pageSize);
+
+let stopPopState = () => {};
 
 // Set initial subsite from URL route if provided
 onMounted(() => {
   if (props.initialSubsite && props.initialSubsite !== 'global') {
     currentSubsite.set(props.initialSubsite);
   }
+  selectedPastYear.value = getYearFromQuery();
+  view.value = parseListView(readParams(FILTER_PARAMS).view);
   hasMounted.value = true;
+  // Back/forward restores the past-events year and the layout from the URL
+  stopPopState = onPopState(() => {
+    selectedPastYear.value = getYearFromQuery();
+    view.value = parseListView(readParams(FILTER_PARAMS).view);
+  });
 });
+
+onUnmounted(() => stopPopState());
 
 function loadMorePast() {
   pastDisplayCount.value += pageSize;
@@ -168,21 +187,9 @@ function selectPastYear(year: number | null) {
   selectedPastYear.value = year;
 }
 
-function updateUrl(year: number | null) {
-  if (!isBrowser) return;
-  const params = new URLSearchParams(window.location.search);
-  if (year === null) {
-    params.delete('year');
-  } else {
-    params.set('year', String(year));
-  }
-  const newUrl = `${window.location.pathname}${params.toString() ? `?${params.toString()}` : ''}${window.location.hash}`;
-  // Keep the existing state: Astro's ClientRouter stores its navigation index there
-  window.history.replaceState(window.history.state, '', newUrl);
-}
-
-watch(selectedPastYear, (year) => {
-  updateUrl(year);
+// One write for both params keeps them in the documented order
+watch([selectedPastYear, view], ([year, layout]) => {
+  writeParams({ year, view: layout }, { defaults: { view: LIST_VIEW_DEFAULT } });
 });
 
 function getLocationText(location: EventData['location']): string {
@@ -216,21 +223,32 @@ function displaySubsite(subsite: string): string {
     <!-- Upcoming Events -->
     <template v-if="props.showUpcoming">
       <section v-if="upcomingEvents.length > 0" class="mb-12">
-        <h2 class="text-2xl font-semibold text-chicago-900 mb-6 flex items-center gap-2">
-          <span class="inline-block w-3 h-3 bg-green-500 rounded-full"></span>
-          Upcoming Events
-          <span class="text-sm font-normal text-chicago-500">({{ upcomingEvents.length }})</span>
-        </h2>
-        <div class="space-y-6">
+        <div class="mb-6 flex flex-wrap items-center justify-between gap-x-4 gap-y-2">
+          <h2 class="text-2xl font-semibold text-chicago-900 flex items-center gap-2">
+            <span class="inline-block w-3 h-3 bg-green-500 rounded-full"></span>
+            Upcoming Events
+            <span class="text-sm font-normal text-chicago-500">({{ upcomingEvents.length }})</span>
+          </h2>
+          <ViewToggle v-model="view" label="Events layout" />
+        </div>
+        <div :data-view="view" :class="isTiles ? tilesGrid : 'space-y-6'">
           <article
             v-for="event in upcomingEvents"
             :key="event.slug"
-            class="bg-white border border-ebony-clay-100 rounded-lg p-6 hover:shadow-md transition-shadow"
+            :class="[
+              'bg-white border border-ebony-clay-100 rounded-lg hover:shadow-md transition-shadow',
+              isTiles ? 'p-4' : 'p-6',
+            ]"
           >
-            <a :href="buildUrl(event.slug)" class="block">
-              <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
+            <a :href="buildUrl(event.slug)" :class="isTiles ? 'block h-full' : 'block'">
+              <div :class="['flex flex-col gap-4', { 'sm:flex-row sm:items-start sm:justify-between': !isTiles }]">
                 <div class="flex-1">
-                  <h3 class="text-lg font-semibold text-chicago-900 hover:text-galaxy-primary transition-colors">
+                  <h3
+                    :class="[
+                      'font-semibold text-chicago-900 hover:text-galaxy-primary transition-colors',
+                      isTiles ? 'text-base' : 'text-lg',
+                    ]"
+                  >
                     {{ event.title || 'Untitled Event' }}
                     <ExternalIcon v-if="event.externalUrl" :href="event.externalUrl" />
                   </h3>
@@ -263,7 +281,11 @@ function displaySubsite(subsite: string): string {
                       {{ getLocationText(event.location) }}
                     </span>
                   </p>
-                  <p v-if="event.tease" class="text-chicago-600 mt-2" v-html="renderMarkdownInline(event.tease)"></p>
+                  <p
+                    v-if="event.tease"
+                    :class="['text-chicago-600 mt-2', { 'line-clamp-3 text-sm': isTiles }]"
+                    v-html="renderMarkdownInline(event.tease)"
+                  ></p>
                 </div>
               </div>
             </a>
@@ -278,10 +300,13 @@ function displaySubsite(subsite: string): string {
 
     <!-- Past Events -->
     <section>
-      <h2 class="text-2xl font-semibold text-chicago-900 mb-4">
-        Past Events
-        <span class="text-sm font-normal text-chicago-500">({{ allPastEvents.length }} total)</span>
-      </h2>
+      <div class="mb-4 flex flex-wrap items-center justify-between gap-x-4 gap-y-2">
+        <h2 class="text-2xl font-semibold text-chicago-900">
+          Past Events
+          <span class="text-sm font-normal text-chicago-500">({{ allPastEvents.length }} total)</span>
+        </h2>
+        <ViewToggle v-if="!toggleOnUpcoming" v-model="view" label="Events layout" />
+      </div>
 
       <!-- Year navigation for past events -->
       <div class="mb-6">
@@ -340,19 +365,29 @@ function displaySubsite(subsite: string): string {
         <span v-else> across all years</span>
       </p>
 
-      <div class="space-y-4">
+      <div :data-view="view" :class="isTiles ? tilesGrid : 'space-y-4'">
         <article
           v-for="event in pastEvents.slice(0, pastDisplayCount)"
           :key="event.slug"
-          class="border-b border-ebony-clay-100 pb-4"
+          :class="
+            isTiles
+              ? 'rounded-lg border border-ebony-clay-100 bg-white p-4 transition-shadow hover:shadow-md'
+              : 'border-b border-ebony-clay-100 pb-4'
+          "
         >
-          <a :href="buildUrl(event.slug)" class="group block">
-            <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+          <a :href="buildUrl(event.slug)" :class="isTiles ? 'group block h-full' : 'group block'">
+            <div :class="['flex flex-col gap-2', { 'sm:flex-row sm:items-center sm:justify-between': !isTiles }]">
               <h3 class="text-base font-medium text-chicago-700 group-hover:text-galaxy-primary transition-colors">
                 {{ event.title || 'Untitled Event' }}
                 <ExternalIcon v-if="event.externalUrl" :href="event.externalUrl" />
               </h3>
-              <EventDate v-if="event.date" class="text-sm sm:shrink-0" :start="event.date" :end="event.end" past />
+              <EventDate
+                v-if="event.date"
+                :class="['text-sm', { 'sm:shrink-0': !isTiles }]"
+                :start="event.date"
+                :end="event.end"
+                past
+              />
             </div>
           </a>
         </article>

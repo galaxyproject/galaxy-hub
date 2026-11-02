@@ -1,5 +1,5 @@
 ---
-import { getCollection } from 'astro:content';
+import { getListedCollection } from '../../utils/content';
 import BareArticleLayout from '../../layouts/BareArticleLayout.astro';
 import { subsites } from '../../stores/subsiteStore';
 
@@ -126,7 +126,7 @@ for (const filePath of Object.keys(staticPageModules)) {
   }
 }
 
-const bareArticles = await getCollection('bare-articles');
+const bareArticles = await getListedCollection('bare-articles');
 const dynamicRoutes = bareArticles
   .map((article) => routeFromBareSlug(article.data.slug))
   .filter((route): route is string => Boolean(route))

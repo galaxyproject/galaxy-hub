@@ -2,7 +2,7 @@
 # THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
 # To update, run: python3 scripts/update-tools.py --server https://usegalaxy.org --name "Galaxy US" --output content/us/tools/index.md
 title: Galaxy US Tools
-description: "2377 tools and counting"
+description: "2388 tools and counting"
 ---
 
 
@@ -1287,6 +1287,7 @@ description: "2377 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=image_learner" target="_top" title="trains and evaluates an image classification/regression model">Image Learner</a>
 <a href="https://usegalaxy.org/root?tool_id=sklearn_label_encoder" target="_top" title="Encode target labels with value between 0 and n_classes-1">Label encoder</a>
 <a href="https://usegalaxy.org/root?tool_id=sklearn_lightgbm" target="_top" title="- train and apply LightGBM models">LightGBM</a>
+<a href="https://usegalaxy.org/root?tool_id=ml_visualization_ex" target="_top" title="includes several types of plotting for machine learning">Machine Learning Visualization Extension</a>
 <a href="https://usegalaxy.org/root?tool_id=model_prediction" target="_top" title="predicts on new data using a preffited model">Model Prediction</a>
 <a href="https://usegalaxy.org/root?tool_id=sklearn_model_validation" target="_top" title="includes cross_validate, cross_val_predict, learning_curve, and more">Model Validation</a>
 <a href="https://usegalaxy.org/root?tool_id=multimodal_learner" target="_top" title="Train and evaluate an AutoGluon Multimodal model (tabular + image + text)">Multimodal Learner</a>
@@ -1891,6 +1892,7 @@ description: "2377 tools and counting"
 <div class="tool-list">
 
 <a href="https://usegalaxy.org/root?tool_id=blastxml_to_tabular" target="_top" title="Convert BLAST XML output to tabular">BLAST XML to tabular</a>
+<a href="https://usegalaxy.org/root?tool_id=kraken2" target="_top" title="assign taxonomic labels to sequencing reads">Kraken2</a>
 <a href="https://usegalaxy.org/root?tool_id=ncbi_blastdbcmd_wrapper" target="_top" title="Extract sequence(s) from BLAST database">NCBI BLAST+ blastdbcmd entry(s)</a>
 <a href="https://usegalaxy.org/root?tool_id=ncbi_blastn_wrapper" target="_top" title="Search nucleotide database with nucleotide query sequence(s)">NCBI BLAST+ blastn</a>
 <a href="https://usegalaxy.org/root?tool_id=ncbi_blastp_wrapper" target="_top" title="Search protein database with protein query sequence(s)">NCBI BLAST+ blastp</a>
@@ -2241,6 +2243,7 @@ description: "2377 tools and counting"
 
 <div class="tool-list">
 
+<a href="https://usegalaxy.org/root?tool_id=phyloseq_add_rank_names" target="_top" title="Add taxonomy rank names to a phyloseq object">Add Rank Names to Phyloseq Object</a>
 <a href="https://usegalaxy.org/root?tool_id=biom_add_metadata" target="_top" title="to a BIOM table">Add metadata</a>
 <a href="https://usegalaxy.org/root?tool_id=scikit_bio_diversity_beta_diversity" target="_top" title="using scikit-bio">Beta Diversity</a>
 <a href="https://usegalaxy.org/root?tool_id=binette" target="_top" title="Binning refinement tool">Binette</a>
@@ -2283,6 +2286,7 @@ description: "2377 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=phyloseq_from_dada2" target="_top" title="from dada2 sequence and taxonomy tables">Create phyloseq object</a>
 <a href="https://usegalaxy.org/root?tool_id=phyloseq_from_biom" target="_top" title="from a BIOM file">Create phyloseq object</a>
 <a href="https://usegalaxy.org/root?tool_id=das_tool" target="_top" title="for genome-resolved metagenomics">DAS Tool</a>
+<a href="https://usegalaxy.org/root?tool_id=decontam" target="_top" title="Identification and removal of contaminants">Decontam</a>
 <a href="https://usegalaxy.org/root?tool_id=defense_finder" target="_top" title="systematically detect known anti-phage systems">DefenseFinder</a>
 <a href="https://usegalaxy.org/root?tool_id=bg_diamond" target="_top" title="align sequences against a protein database">Diamond</a>
 <a href="https://usegalaxy.org/root?tool_id=bg_diamond_makedb" target="_top" title="build database from a FASTA file">Diamond makedb</a>
@@ -2306,6 +2310,7 @@ description: "2377 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=krakentools_beta_diversity" target="_top" title="from Kraken, Krona and Bracken files">Krakentools: calculates beta diversity (Bray-Curtis dissimilarity)</a>
 <a href="https://usegalaxy.org/root?tool_id=taxonomy_krona_chart" target="_top" title="from taxonomic profile">Krona pie chart</a>
 <a href="https://usegalaxy.org/root?tool_id=mapseq" target="_top" title="sequence read classification designed to assign taxonomy and OTU classifications">MAPseq</a>
+<a href="https://usegalaxy.org/root?tool_id=maaslin3" target="_top" title="Microbiome Multivariable Association with Linear Models">MaAsLin3</a>
 <a href="https://usegalaxy.org/root?tool_id=motus_map_snv" target="_top" title="Map reads to the marker gene database for SNV calling">Map SNV</a>
 <a href="https://usegalaxy.org/root?tool_id=maxbin2" target="_top" title="clusters metagenomic contigs into bins">MaxBin2</a>
 <a href="https://usegalaxy.org/root?tool_id=mereg_mOTUs_tables" target="_top" title="Merge mOTUs aboundance or count tables">Merge</a>
@@ -2316,6 +2321,7 @@ description: "2377 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=name2taxid" target="_top" title="Convert taxon names to NCBI Taxids">Name2taxid</a>
 <a href="https://usegalaxy.org/root?tool_id=nonpareil" target="_top" title="to estimate average coverage and generate Nonpareil curves">Nonpareil</a>
 <a href="https://usegalaxy.org/root?tool_id=phi_toolkit_report" target="_top" title="">PHI toolkit report</a>
+<a href="https://usegalaxy.org/root?tool_id=phyloseq_tax_glom" target="_top" title="Aggregates a Phyloseq object at a specified taxonomic rank">Phyloseq Taxonomic Agglomeration</a>
 <a href="https://usegalaxy.org/root?tool_id=phyloseq_plot_richness" target="_top" title="">Phyloseq: plot alpha diverstiy measure</a>
 <a href="https://usegalaxy.org/root?tool_id=phyloseq_plot_ordination" target="_top" title="">Phyloseq: plot ordination</a>
 <a href="https://usegalaxy.org/root?tool_id=PlasFlow" target="_top" title="Prediction of plasmid sequences in metagenomic contigs">PlasFlow</a>
@@ -2350,7 +2356,11 @@ description: "2377 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=vegan_diversity" target="_top" title="index">Vegan Diversity</a>
 <a href="https://usegalaxy.org/root?tool_id=vegan_fisher_alpha" target="_top" title="index">Vegan Fisher Alpha</a>
 <a href="https://usegalaxy.org/root?tool_id=vegan_rarefaction" target="_top" title="curve and statistics">Vegan Rarefaction</a>
+<a href="https://usegalaxy.org/root?tool_id=ampvis2_export_otu" target="_top" title="">ampvis2 export otu</a>
+<a href="https://usegalaxy.org/root?tool_id=ampvis2_heatmap" target="_top" title="">ampvis2 heatmap</a>
 <a href="https://usegalaxy.org/root?tool_id=ampvis2_load" target="_top" title="">ampvis2 load</a>
+<a href="https://usegalaxy.org/root?tool_id=ampvis2_ordinate" target="_top" title="">ampvis2 ordination plot</a>
+<a href="https://usegalaxy.org/root?tool_id=ampvis2_subset_samples" target="_top" title="by sample metadata">ampvis2 subset samples</a>
 <a href="https://usegalaxy.org/root?tool_id=cd_hit_dup" target="_top" title="remove duplicates and detect chimaeras in sequencing reads">cd-hit-dup</a>
 <a href="https://usegalaxy.org/root?tool_id=checkm2" target="_top" title="Rapid assessment of genome bin quality using machine learning">checkm2</a>
 <a href="https://usegalaxy.org/root?tool_id=drep_compare" target="_top" title="compare a list of genomes">dRep compare</a>
@@ -2386,6 +2396,7 @@ description: "2377 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=metamdbg_asm" target="_top" title="Assemble long-read metagenomes (HiFi / ONT)">metaMDBG assemble (ASM)</a>
 <a href="https://usegalaxy.org/root?tool_id=metamdbg_gfa" target="_top" title="Generate a GFA graph from a metaMDBG assembly or list available k-values">metaMDBG graph (GFA)</a>
 <a href="https://usegalaxy.org/root?tool_id=metagenomeseq_normalizaton" target="_top" title="Cumulative sum scaling">metagenomeSeq Normalization</a>
+<a href="https://usegalaxy.org/root?tool_id=mmuphin" target="_top" title="Performing meta-analyses of microbiome studies">mmuphin</a>
 <a href="https://usegalaxy.org/root?tool_id=metasbt_profile" target="_top" title="genomes with MetaSBT to infer their taxonomic">profile</a>
 <a href="https://usegalaxy.org/root?tool_id=staramr_search" target="_top" title="Scans genome assemblies against the ResFinder, PlasmidFinder, and PointFinder databases searching for AMR genes.">staramr</a>
 <a href="https://usegalaxy.org/root?tool_id=sylph_profile" target="_top" title="Profile a metagenome including taxonomic and sequence abundances">sylph profile</a>

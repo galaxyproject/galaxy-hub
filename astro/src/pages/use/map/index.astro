@@ -1,11 +1,11 @@
 ---
-import { getCollection } from 'astro:content';
+import { getListedCollection } from '../../../utils/content';
 import PlatformMap from './PlatformMap.vue';
 import '../../../styles/global.css';
 import { prepareMapPlatformData } from './mapDataUtils';
 
 // Get all platforms
-const platforms = await getCollection('platforms');
+const platforms = await getListedCollection('platforms');
 
 // Prepare map data using self-contained utility
 const platformData = prepareMapPlatformData(platforms);

@@ -7,7 +7,7 @@
  * and open in a new tab because those bare pages are themselves embedded in Galaxy
  * server interfaces, where a same-tab relative link would navigate the host frame.
  */
-import { getCollection } from 'astro:content';
+import { getListedCollection } from '../../utils/content';
 import { contentMatchesSubsite } from '@/utils/subsites';
 
 interface Props {
@@ -18,10 +18,10 @@ interface Props {
 
 const { subsite, siteUrl = 'https://galaxyproject.org', limit = 5 } = Astro.props;
 
-const allNews = await getCollection('news');
+const allNews = await getListedCollection('news');
 const newsArticles = allNews
   .filter((article) => {
-    return contentMatchesSubsite(article.data.subsites, subsite) && !article.data.draft;
+    return contentMatchesSubsite(article.data.subsites, subsite);
   })
   .sort((a, b) => {
     const dateA = a.data.date ? new Date(a.data.date) : new Date(0);

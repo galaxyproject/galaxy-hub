@@ -74,6 +74,11 @@ validate-metadata: ## Validate news, events, and did-you-know schemas
 	python scripts/validate_did_you_know.py
 .PHONY: validate-metadata
 
+test-python: ## Run the Python script tests
+	python -m unittest discover -s scripts -p 'test_*.py'
+	python -m unittest discover -s utils -p 'test_*.py' || [ $$? -eq 5 ]
+.PHONY: test-python
+
 help:
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
 .PHONY: help

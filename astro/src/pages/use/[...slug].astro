@@ -4,6 +4,7 @@
  */
 import { getCollection, render } from 'astro:content';
 import PlatformLayout from '../../layouts/PlatformLayout.astro';
+import { isDraft } from '../../utils/publish-date.mjs';
 
 // Import MDX components for embedded content
 import VegaEmbed from '../../components/mdx/VegaEmbed.astro';
@@ -71,6 +72,7 @@ const components = {
 ---
 
 <PlatformLayout
+  noindex={isDraft(platform.data)}
   title={title || 'Galaxy Server'}
   url={url}
   image={image}

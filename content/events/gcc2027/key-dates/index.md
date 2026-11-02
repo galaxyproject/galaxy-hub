@@ -18,8 +18,9 @@ money and give you an opportunity to present your work.
 | TBA | Early registration closes and regular registration opens |
 | TBA | Abstract submissions for talks close |
 | TBA | Abstract submissions for posters & demos close |
-| Jun 26, 2027 | GCC2027 starts! |
-| TBA | CoFest starts |
+| June 26, 2027 | [GCC2027 Training Day](/events/gcc2027/training/) |
+| June 27-29, 2027 | GCC2027 Main Conference |
+| June 30 – July 1, 2027 | [GCC2027 CoFest](/events/gcc2027/cofest/) |
 
 </div>
 

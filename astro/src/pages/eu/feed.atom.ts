@@ -3,7 +3,7 @@
  * Outputs EU-filtered news articles at /eu/feed.atom
  * Format matches original Gridsome feed for backward compatibility
  */
-import { getCollection } from 'astro:content';
+import { getListedCollection } from '../../utils/content';
 import { marked } from 'marked';
 import { contentMatchesSubsite } from '../../utils/subsites';
 import { atomDate as formatAtomDate, escapeXML } from '../../utils/feed';
@@ -14,7 +14,7 @@ const FEED_DESCRIPTION = 'The European Galaxy Instance';
 const MAX_ITEMS = 25;
 
 export async function GET() {
-  const allNews = await getCollection('news');
+  const allNews = await getListedCollection('news');
 
   // Filter to EU news articles
   const euNews = allNews

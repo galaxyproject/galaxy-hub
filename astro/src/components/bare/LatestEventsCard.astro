@@ -7,7 +7,7 @@
  * and open in a new tab because those bare pages are themselves embedded in Galaxy
  * server interfaces, where a same-tab relative link would navigate the host frame.
  */
-import { getCollection } from 'astro:content';
+import { getListedCollection } from '../../utils/content';
 import { contentMatchesSubsite } from '@/utils/subsites';
 import EventDate from '@/components/events/EventDate.astro';
 import { isUpcomingEvent } from '@/utils/dateUtils';
@@ -22,8 +22,8 @@ const { subsite, siteUrl = 'https://galaxyproject.org', limit = 5 } = Astro.prop
 
 const now = new Date();
 
-const allEvents = await getCollection('events', (entry) => {
-  return contentMatchesSubsite(entry.data.subsites, subsite) && !entry.data.draft;
+const allEvents = await getListedCollection('events', (entry) => {
+  return contentMatchesSubsite(entry.data.subsites, subsite);
 });
 
 // Get upcoming events

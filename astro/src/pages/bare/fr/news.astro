@@ -4,15 +4,15 @@
  * Shows FR-filtered news articles in a table layout
  * Embedded in Galaxy FR interface
  */
-import { getCollection } from 'astro:content';
+import { getListedCollection } from '../../../utils/content';
 import BareArticleLayout from '../../../layouts/BareArticleLayout.astro';
 import NewsTable from '../../../components/bare/NewsTable.astro';
 import { contentMatchesSubsite } from '../../../utils/subsites';
 
-const allNews = await getCollection('news');
+const allNews = await getListedCollection('news');
 const newsArticles = allNews
   .filter((article) => {
-    return contentMatchesSubsite(article.data.subsites, 'fr') && !article.data.draft;
+    return contentMatchesSubsite(article.data.subsites, 'fr');
   })
   .sort((a, b) => {
     const dateA = a.data.date ? new Date(a.data.date) : new Date(0);

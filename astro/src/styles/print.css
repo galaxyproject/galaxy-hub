@@ -290,6 +290,11 @@
     overflow-wrap: break-word;
   }
 
+  /* Short cells stay on one line on screen, where the table can scroll; paper cannot. */
+  .prose :is(th, td).whitespace-nowrap {
+    white-space: normal !important;
+  }
+
   .prose th {
     background: none !important;
     color: #000 !important;

@@ -1,4 +1,4 @@
-import { getCollection } from 'astro:content';
+import { getListedCollection } from '../../../utils/content';
 import { isPublishedDate } from '../../../utils/dateUtils';
 import { contentMatchesSubsite } from '../../../utils/subsites';
 import { buildAtomFeed, type AtomEntry } from '../../../utils/feed';
@@ -7,12 +7,11 @@ const SITE_URL = 'https://galaxyproject.org';
 const MAX_ITEMS = 50;
 
 export async function GET() {
-  const newsArticles = await getCollection('news');
+  const newsArticles = await getListedCollection('news');
   const now = new Date();
 
   const euNews = newsArticles
     .filter((article) => {
-      if (article.data.draft) return false;
       if (!isPublishedDate(article.data.date, now)) return false;
       return contentMatchesSubsite(article.data.subsites, 'eu');
     })

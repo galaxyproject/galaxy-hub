@@ -80,20 +80,3 @@ export async function loadSubsiteCitations<T extends { id: string }>(
   }
   return withEntries;
 }
-
-export function groupCitationsByYear(citations: Citation[]): { yearCounts: Record<string, number>; years: string[] } {
-  const yearCounts = citations.reduce(
-    (acc, citation) => {
-      const key = citation.year ? String(citation.year) : 'unknown';
-      acc[key] = (acc[key] || 0) + 1;
-      return acc;
-    },
-    {} as Record<string, number>
-  );
-  const years = Object.keys(yearCounts).sort((a, b) => {
-    if (a === 'unknown') return 1;
-    if (b === 'unknown') return -1;
-    return Number(b) - Number(a);
-  });
-  return { yearCounts, years };
-}

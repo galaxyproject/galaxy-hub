@@ -1,4 +1,5 @@
-import { getCollection, type CollectionEntry } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+import { getListedCollection } from './content';
 import {
   communityInHubHallOfFame,
   communityNameInHubHallOfFame,
@@ -38,14 +39,14 @@ let contributionIndexPromise: Promise<Map<string, ContributionProfile>> | undefi
 
 async function getNewsArticles(): Promise<NewsEntry[]> {
   if (!newsPromise) {
-    newsPromise = getCollection('news');
+    newsPromise = getListedCollection('news');
   }
   return newsPromise;
 }
 
 async function getEvents(): Promise<EventEntry[]> {
   if (!eventsPromise) {
-    eventsPromise = getCollection('events');
+    eventsPromise = getListedCollection('events');
   }
   return eventsPromise;
 }

@@ -1,10 +1,10 @@
-import { getCollection } from 'astro:content';
+import { getListedCollection } from '../../utils/content';
 import type { APIContext } from 'astro';
 import { escapeICS, foldLine, formatICSDate, formatICSDateOnly, formatICSURI, getICSEndDate } from '../../utils/ics';
 import { utcDayOneYearAgo } from '../../utils/dateUtils';
 
 export async function GET(context: APIContext) {
-  const events = await getCollection('events');
+  const events = await getListedCollection('events');
 
   const now = new Date();
   const oneYearAgo = utcDayOneYearAgo(now);

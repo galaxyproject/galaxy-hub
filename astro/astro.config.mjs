@@ -9,6 +9,7 @@ import rehypeSlug from 'rehype-slug';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import rehypeScrollableTables from './src/build/rehype-scrollable-tables.mjs';
 import rehypeImageSize from './src/build/rehype-image-size.mjs';
+import { collectDraftPaths, isDraftPageUrl } from './src/build/draft-pages.mjs';
 import generatedRedirects from './src/build/generated-redirects.json' with { type: 'json' };
 import releaseGuardiansRedirect from './src/data/release-guardians/redirect.json' with { type: 'json' };
 
@@ -45,6 +46,9 @@ const patternRedirects = Object.fromEntries(
   Object.entries(generatedRedirects.patterns).map(([from, to]) => [from, { destination: to, status: 301 }])
 );
 
+let draftPaths;
+const getDraftPaths = () => (draftPaths ??= collectDraftPaths());
+
 // https://astro.build/config
 export default defineConfig({
   site: 'https://galaxyproject.org',
@@ -64,7 +68,7 @@ export default defineConfig({
     // MDX inherits the base `markdown` config (extendMarkdownConfig defaults to true),
     // so the unified() processor below applies to .mdx as well as .md.
     mdx(),
-    sitemap(),
+    sitemap({ filter: (page) => !isDraftPageUrl(page, getDraftPaths()) }),
   ],
   markdown: {
     // Astro 7 defaults to the Sätteri pipeline, which does not run remark/rehype
