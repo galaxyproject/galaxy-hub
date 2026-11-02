@@ -124,12 +124,6 @@ const knownIssues: Record<string, Record<string, KnownIssue>> = {
       viewports: both,
     },
   },
-  '/use/usegalaxy-eu/': {
-    'color-contrast': {
-      reason: 'platform location text-chicago-500 is 4.04:1 (PlatformLayout.astro)',
-      viewports: both,
-    },
-  },
   '/bare/eu/usegalaxy/main/': {
     'link-name': {
       reason: 'card header SVG icon links have no accessible name (LatestNewsCard.astro, LatestEventsCard.astro)',
