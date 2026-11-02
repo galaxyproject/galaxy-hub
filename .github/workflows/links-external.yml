@@ -24,7 +24,7 @@ jobs:
             --exclude-all-private
             --exclude "localhost:8080"
             --exclude '^https://academic\.oup\.com/'
-            --exclude '^https://doi\.org/10\.1093/'
+            --remap '^https?://(?:dx\.|www\.)?doi\.org/(10\..+) https://doi.org/api/handles/$1'
             --
             "https://galaxyproject.org/"
             "https://galaxyproject.org/use/"
