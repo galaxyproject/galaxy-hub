@@ -7,10 +7,13 @@ import {
   extractFunding,
   getContributor,
   getHubHallOfFameUrl,
+  getCommunityContactLinks,
   getCommunityImage,
   getCommunityGithubHandle,
+  getCommunityProfileUrl,
   getGrant,
   getOrganisation,
+  profileBioHtml,
 } from './contributors';
 import { inHubHallOfFame } from './community-base.mjs';
 
@@ -150,5 +153,105 @@ describe('avatar resolution', () => {
     expect(getGrant('eurosciencegateway')?.avatarUrl).toBe(
       'https://training.galaxyproject.org/training-material/assets/images/eurosciencegateway.png'
     );
+  });
+});
+
+describe('profile bio HTML', () => {
+  it('renders Markdown bios with links, lists and images', () => {
+    const markdown = [
+      '[ELIXIR Germany](https://www.denbi.de/elixir-de/) is **funded**.',
+      '',
+      '- one',
+      '- two',
+      '',
+      '![logo](https://example.org/logo.png)',
+    ].join('\n');
+    const html = [
+      '<p><a href="https://www.denbi.de/elixir-de/">ELIXIR Germany</a> is <strong>funded</strong>.</p>',
+      '<ul>',
+      '<li>one</li>',
+      '<li>two</li>',
+      '</ul>',
+      '<p><img src="https://example.org/logo.png" alt="logo" /></p>',
+      '',
+    ].join('\n');
+    expect(profileBioHtml(markdown)).toBe(html);
+  });
+
+  it('removes raw HTML and script links that marked passes through', () => {
+    const markdown = 'Hi <script>alert(1)</script>[x](javascript:alert(1)) <img src=x onerror=alert(1)>';
+    expect(profileBioHtml(markdown)).toBe('<p>Hi x </p>\n');
+  });
+
+  it('keeps mailto links and drops relative or non-web images', () => {
+    const markdown = '[Mail](mailto:someone@example.org) ![a](/training-material/a.png) ![b](ftp://example.org/b.png)';
+    expect(profileBioHtml(markdown)).toBe('<p><a href="mailto:someone@example.org">Mail</a>  </p>\n');
+  });
+});
+
+describe('profile link schemes', () => {
+  const unsafe = [
+    'javascript:alert(1)',
+    'JAVASCRIPT:alert(1)',
+    ' javascript:alert(1)',
+    'java\tscript:alert(1)',
+    'data:text/html;base64,PHNjcmlwdD4=',
+    'vbscript:msgbox(1)',
+    '//evil.example/x',
+    'www.example.org',
+  ];
+
+  it('keeps http(s) website URLs unchanged', () => {
+    expect(getCommunityProfileUrl({ id: 'org', url: 'https://example.org/a?b=1' })).toBe('https://example.org/a?b=1');
+    expect(getCommunityProfileUrl({ id: 'org', url: 'http://example.org' })).toBe('http://example.org');
+  });
+
+  it.each(unsafe)('drops website URL %j', (url) => {
+    expect(getCommunityProfileUrl({ id: 'org', url })).toBeUndefined();
+  });
+
+  it('returns no website URL for a missing record or field', () => {
+    expect(getCommunityProfileUrl(undefined)).toBeUndefined();
+    expect(getCommunityProfileUrl({ id: 'org' })).toBeUndefined();
+  });
+
+  it.each(unsafe)('drops the Mastodon link for fediverse %j and keeps the others', (fediverse) => {
+    const links = getCommunityContactLinks({ id: 'someone', github: false, fediverse, bluesky: 'someone.bsky.social' });
+    expect(links.map((link) => link.label)).toEqual(['Bluesky', 'GTN Hall of Fame']);
+    for (const link of links) expect(link.href).toMatch(/^https:\/\//);
+  });
+
+  it('builds every contact link from a record', () => {
+    const record = {
+      id: 'someone',
+      fediverse: 'https://mastodon.example/@someone',
+      bluesky: 'someone.bsky.social',
+      linkedin: 'someone',
+      matrix: '@someone:matrix.org',
+      orcid: '0000-0002-1825-0097',
+    };
+    expect(getCommunityContactLinks(record)).toEqual([
+      { label: 'Mastodon', href: 'https://mastodon.example/@someone', icon: 'mastodon' },
+      { label: 'Bluesky', href: 'https://bsky.app/profile/someone.bsky.social', icon: 'bluesky' },
+      { label: 'LinkedIn', href: 'https://www.linkedin.com/in/someone', icon: 'linkedin' },
+      { label: 'Matrix', href: 'https://matrix.to/#/@someone:matrix.org', icon: 'matrix' },
+      { label: 'ORCID', href: 'https://orcid.org/0000-0002-1825-0097', icon: 'orcid' },
+      { label: 'GitHub', href: 'https://github.com/someone', icon: 'github' },
+      {
+        label: 'GTN Hall of Fame',
+        href: 'https://training.galaxyproject.org/training-material/hall-of-fame/someone/',
+        icon: 'gtn',
+      },
+    ]);
+  });
+
+  it('uses the fallback key for the GTN link when the record id is empty', () => {
+    expect(getCommunityContactLinks({ id: '', github: false }, 'Some Org')).toEqual([
+      {
+        label: 'GTN Hall of Fame',
+        href: 'https://training.galaxyproject.org/training-material/hall-of-fame/Some%20Org/',
+        icon: 'gtn',
+      },
+    ]);
   });
 });

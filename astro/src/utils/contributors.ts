@@ -1,7 +1,10 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { marked } from 'marked';
 import { parse } from 'yaml';
+import { sanitizeHtml } from './safe-html';
+import { safeUrl } from './url';
 import {
   communitySlug as baseCommunitySlug,
   inHubHallOfFame as baseInHubHallOfFame,
@@ -288,6 +291,48 @@ export function getCommunityGithubHandle(record?: CommunityGithubRecord): string
   }
 
   return undefined;
+}
+
+/** Hall-of-fame bio HTML for `set:html`: synced Markdown, rendered with marked, then allowlisted. */
+export function profileBioHtml(markdown: string): string {
+  return sanitizeHtml(marked.parse(markdown, { async: false }), 'bio');
+}
+
+type CommunityRecord = ContributorRecord | OrganisationRecord | GrantRecord;
+
+export interface ContactLink {
+  label: string;
+  href: string;
+  icon?: string;
+}
+
+/** Website link of a synced record; anything but an absolute http(s) URL yields no link. */
+export function getCommunityProfileUrl(record?: { url?: unknown }): string | undefined {
+  return safeUrl(record?.url);
+}
+
+/**
+ * Contact links for a hall-of-fame profile. Every href passes `safeUrl`, so a synced `fediverse`
+ * value with another scheme (e.g. `javascript:`) is dropped instead of rendered.
+ */
+export function getCommunityContactLinks(record: CommunityRecord, gtnFallbackKey?: string): ContactLink[] {
+  const links: ContactLink[] = [];
+  const push = (label: string, href: string, icon: string) => {
+    const url = safeUrl(href);
+    if (url) links.push({ label, href: url, icon });
+  };
+
+  if (record.fediverse) push('Mastodon', record.fediverse, 'mastodon');
+  if (record.bluesky) push('Bluesky', `https://bsky.app/profile/${record.bluesky}`, 'bluesky');
+  if (record.linkedin) push('LinkedIn', `https://www.linkedin.com/in/${record.linkedin}`, 'linkedin');
+  if (record.matrix) push('Matrix', `https://matrix.to/#/${record.matrix}`, 'matrix');
+  if (record.orcid) push('ORCID', `https://orcid.org/${record.orcid}`, 'orcid');
+  const githubHandle = getCommunityGithubHandle(record);
+  if (githubHandle) push('GitHub', `https://github.com/${githubHandle}`, 'github');
+  if (communityHasGtnHallOfFame(record)) {
+    push('GTN Hall of Fame', buildGtnHallOfFameUrl(record.id || gtnFallbackKey || ''), 'gtn');
+  }
+  return links;
 }
 
 export function getCommunityImage(
