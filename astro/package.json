@@ -48,7 +48,7 @@
     "astro": "^7.4.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "glob": "^13.0.0",
+    "glob": "^14.0.2",
     "gray-matter": "^4.0.3",
     "lucide-static": "^1.59.0",
     "marked": "^18.1.1",
