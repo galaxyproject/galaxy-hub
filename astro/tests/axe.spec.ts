@@ -124,12 +124,6 @@ const knownIssues: Record<string, Record<string, KnownIssue>> = {
       viewports: both,
     },
   },
-  '/': {
-    'link-in-text-block': {
-      reason: 'citation DOI link is not underlined, 1.32:1 against body text (pages/index.astro)',
-      viewports: both,
-    },
-  },
   '/use/usegalaxy-eu/': {
     'color-contrast': {
       reason: 'platform location text-chicago-500 is 4.04:1 (PlatformLayout.astro)',

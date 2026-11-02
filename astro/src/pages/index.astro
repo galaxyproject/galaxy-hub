@@ -857,13 +857,18 @@ const pillars = [
 
     .cite-container .cite-text a {
       color: var(--galaxy-gold);
-      text-decoration: none;
-      transition: color 0.2s;
+      text-decoration: underline;
+      text-decoration-color: color-mix(in srgb, var(--galaxy-gold) 50%, transparent);
+      text-underline-offset: 2px;
+      transition:
+        color 0.2s,
+        text-decoration-color 0.2s;
     }
 
     .cite-container .cite-text a:hover {
       color: var(--galaxy-gold-dark);
-      text-decoration: underline;
+      text-decoration-color: currentColor;
+      text-decoration-thickness: 2px;
     }
 
     .cite-guide-link {
