@@ -1,6 +1,6 @@
 ---
 title: "In memoriam: Ross Lazarus"
-date: "2026-09-21"
+date: "2026-11-02"
 tease: "Sorry to have drifted off but I seem to be moving out of that Galaxy and into another..."
 subsites: [all]
 tags: [community]
