@@ -125,10 +125,6 @@ const knownIssues: Record<string, Record<string, KnownIssue>> = {
     },
   },
   '/': {
-    'color-contrast': {
-      reason: 'home stat labels 3.68:1 and citation guide link 4.35:1 (pages/index.astro)',
-      viewports: both,
-    },
     'link-in-text-block': {
       reason: 'citation DOI link is not underlined, 1.32:1 against body text (pages/index.astro)',
       viewports: both,
