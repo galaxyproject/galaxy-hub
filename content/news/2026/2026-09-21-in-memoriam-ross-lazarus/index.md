@@ -18,13 +18,14 @@ We lost a friend, mentor and a great human being this weekend: Ross Lazarus.
 
 ## Early career
 
-Ross had been actively involved in health informatics and bioinformatics for more than 40 years since graduating from the Faculty of Medicine at the University of Melbourne in 1974. Ross really wanted to change the world in profound, measurable ways. This is why early on he decided to do something that would benefit entire global populations: public health and clinical epidemiology. He started teaching undergraduate, graduate and postgraduate medical students at the University of Sydney before moving to [Harvard Medical School](https://hms.harvard.edu) in 2000, where he was Director of Bioinformatics at the Channing Laboratory.
+Ross had been actively involved in health informatics and bioinformatics for more than 40 years since graduating from the Faculty of Medicine at the University of Melbourne in 1974. Ross really wanted to change the world in profound, measurable ways. This is why early on he decided to do something that would benefit entire global populations: public health and clinical epidemiology. He worked as a general practitioner in Collingwood, studied epidemiology at Monash University and computer science at RMIT, and built health information systems in Victoria, from lung function screening for power station workers to a state-wide register of vacant nursing home beds. In the late 1980s he started teaching undergraduate, graduate and postgraduate medical students at the University of Sydney. A sabbatical at the Channing Laboratory at [Harvard Medical School](https://hms.harvard.edu) in the mid-1990s led to a second, much longer stay: in 2000 he moved to Boston for what was meant to be six months, and stayed for more than a decade as Director of Bioinformatics at the Channing Laboratory.
 
 ## The Galaxy years
 
 This was the time he discovered the very early version of Galaxy, back then without a workflow editor, a web application to run bioinformatics applications in a reproducible and transparent way.
+In Ross's own telling, his office neighbour Benjamin Raby ran in one day: "You've got to come and look at this!" On Benji's screen was a web tool from Penn State that did what Ross had written custom code for the day before, except that Benji could now do it himself. "I was blown away because this was absolutely brilliant," Ross recalled. He got his own copy, fixed the problems he found, and wrote to the developers: "This is cool. Who are you and can we meet?"
 Ross was one of the first Galaxy power users, pushing boundaries of this new Galaxy project. But Ross was more than a user, he became quickly involved in the project, contributed tools, ideas and advice.
-He became a mentor for Anton Nekrutenko and James Taylor, who at the time were just starting the Galaxy Project. With his practical advice and involvement, the Galaxy project was able to get funded and lay the foundation for what the project is today.
+He became a mentor for Anton Nekrutenko and James Taylor, who at the time were just starting the Galaxy Project. With his practical advice and involvement, the Galaxy project was able to get funded and lay the foundation for what the project is today. Ross wrote a grant that subcontracted the Penn State group at a time when, as he put it, they were about to run out of money and the lab was about to close.
 
 After his stay at Harvard Medical School Ross went back to Australia and served as Head of Computational Biology at the [Baker Heart and Diabetes Institute](https://baker.edu.au) in Melbourne until 2015.
 During this time the [IUC](https://galaxyproject.org/iuc/) was founded and Ross was one of the founding members. Without his help and advice the IUC would not be what it is today - a community of more than 400 contributors working on more than 2000 Galaxy tools.
@@ -49,6 +50,10 @@ was so kind to host us in Sydney, showing us around Bondi Beach. We could also u
 
 And something happened :) I think he was hooked again. From that time onward he was back online. He started to contribute to the IUC again, developed tools and workflows for
 the [VGP](https://vertebrategenomesproject.org) and other projects and helped us build the community by serving on different boards. Ross was back and it was wonderful to work with him (again).
+
+Looking back on Galaxy, Ross wrote:
+
+> It's always been about trying to do things for the public good; in the case of Galaxy, to make things a bit better for scientists in, say, Uganda or Jakarta, who don't have access to much in the way of infrastructure or resources. And I'm pleased to say that it's happening. We've done it, we do it, and it works.
 
 ## Galaxy publications
 
