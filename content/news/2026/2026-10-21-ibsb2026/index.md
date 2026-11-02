@@ -1,6 +1,7 @@
 ---
 title: IBSB 2026 – Bringing Galaxy Bioimage Analysis to Jena
 date: '2026-10-21'
+tease: "Galaxy bioimage analysis at IBSB 2026 in Jena: a symposium talk, a hands-on workshop and new tool collaborations."
 tags: [training, workshop, talk, imaging]
 location:
   name: Jena, DE
@@ -17,7 +18,7 @@ contributions:
 
 ## A warm welcome in the city of Carl Zeiss
 
-Jena, the city where Carl Zeiss built his optics pioneering company, gave us a very warm welcome at [IBSB 2026](https://asb-conference.hki-jena.de/ibsb2026). It felt fitting to share Galaxy for bioimage analysis in a place with such a long history of making microscopy possible.
+Jena, the city where Carl Zeiss built his pioneering optics company, gave us a very warm welcome at [IBSB 2026](https://asb-conference.hki-jena.de/ibsb2026). It felt fitting to share Galaxy for bioimage analysis in a place with such a long history of making microscopy possible.
 
 In mid-September 2026, the workshop (September 16–17) and the symposium (September 17–18) were hosted at Leibniz-HKI by the Applied Systems Biology research group, and the symposium opened with a welcome from Thilo Figge.
 
