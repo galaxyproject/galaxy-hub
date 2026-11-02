@@ -124,15 +124,6 @@ const knownIssues: Record<string, Record<string, KnownIssue>> = {
       viewports: both,
     },
   },
-  '/bare/eu/usegalaxy/main/': {
-    'link-name': {
-      reason: 'card header SVG icon links have no accessible name (LatestNewsCard.astro, LatestEventsCard.astro)',
-      viewports: both,
-    },
-  },
-  '/bare/eu/latest/news/': {
-    'link-name': { reason: 'card header SVG icon link has no accessible name (LatestNewsCard.astro)', viewports: both },
-  },
   [`/events/?year=${fixedYear}`]: {
     'color-contrast': { reason: 'year button counts opacity-75 are 3.64:1 (EventsList.vue)', viewports: both },
   },
