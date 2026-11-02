@@ -14,7 +14,7 @@ contributions:
   <img src="./image.png" width="620" alt="Ross Lazarus" />
 </center>
 
-We lost a friend, mentor and a great human being this weekend: Ross Lazarus.
+We lost a friend, mentor and a great human being: Ross Lazarus.
 
 ## Early career
 
