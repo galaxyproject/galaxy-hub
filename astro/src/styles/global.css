@@ -12,9 +12,10 @@
 
 @custom-variant dark (&:is(.dark *));
 
-/* Base styles */
+/* Base styles. Clip, not hidden: hidden makes html and body scroll containers, which
+   breaks position: sticky (the "On this page" rail). */
 html {
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -47,7 +48,7 @@ h6 {
 
 body {
   font-family: var(--font-sans);
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 @theme inline {
@@ -231,7 +232,7 @@ body {
   --text-micro: var(--gx-text-micro);
   --text-micro--line-height: 1rem;
 
-  /* Reading measure: max-w-measure. Defined now, applied with the reading grid (DESIGN.md Prose). */
+  /* Reading measure: max-w-measure (DESIGN.md §3 Prose, §5 Reading grid). */
   --container-measure: var(--measure);
 }
 
@@ -309,6 +310,7 @@ body {
   --gx-text-micro: 0.75rem;
 
   --measure: 72ch;
+  --measure-rail: 80ch;
 }
 
 @media (min-width: 40rem) {
@@ -521,6 +523,88 @@ body {
   .prose img[align='left' i] {
     float: none !important;
     display: block;
+  }
+}
+
+/* Reading measure (DESIGN.md §3 Prose): running text in a .prose-measure container stops at
+   72ch (80ch beside the rail). The registered length resolves the measure once, at the
+   container's font size, so headings end where paragraphs do. Tables, code, figures, embeds,
+   image-only paragraphs and centred blocks keep the full column. */
+@property --reading-measure {
+  syntax: '<length-percentage>';
+  inherits: true;
+  initial-value: 100%;
+}
+
+/* flow-root keeps floats inside the column, as the grid cell does beside the rail. */
+.prose-measure {
+  --reading-measure: var(--measure);
+  display: flow-root;
+}
+
+.prose-measure
+  > :is(p, ul, ol, dl, blockquote, h1, h2, h3, h4, h5, h6):not(
+    .text-center,
+    [align='center' i],
+    [style*='text-align:center' i],
+    [style*='text-align: center' i],
+    :has(> img:only-child:not(.float-right, .float-left, [align])),
+    :has(> a:only-child > img:only-child)
+  ) {
+  max-width: var(--reading-measure);
+}
+
+/* Pages without a rail keep the measure only when every direct child of the column is a
+   text block (paragraphs, lists, quotes, headings, rules; centred ones included) or a floated
+   image. Anything else (tile grids, tables, embeds, figures, code, wrapper divs, centred
+   boxes, scripts such as the JSON-LD block that ends news posts) lifts the measure, so text
+   uses the full column as it did before. */
+.prose-measure-text-only:has(
+  > :not(p, ul, ol, dl, blockquote, h1, h2, h3, h4, h5, h6, hr, br, img.float-right, img.float-left, img[align])
+) {
+  --reading-measure: 100%;
+  display: block;
+}
+
+/* Text-only pages without a rail (ContentWithToc) centre the 72ch text, so no empty strip
+   opens on the right. The column publishes the inset; text blocks, floats, image-only
+   paragraphs and rules use it. With the measure lifted the inset is 0. */
+.prose-measure-centred {
+  --reading-inset: max(0px, (100% - var(--reading-measure)) / 2);
+  --reading-cap: var(--reading-measure);
+}
+
+.prose-measure-centred
+  > :is(p, ul, ol, dl, blockquote, h1, h2, h3, h4, h5, h6, hr):not(
+    .text-center,
+    [align='center' i],
+    [style*='text-align:center' i],
+    [style*='text-align: center' i]
+  ) {
+  margin-inline: var(--reading-inset, 0px);
+}
+
+/* Centred pages also cap image-only paragraphs and rules, so nothing starts left of the text. */
+.prose-measure-centred
+  > :is(hr, p:has(> img:only-child), p:has(> a:only-child > img:only-child)):not(
+    .text-center,
+    [align='center' i],
+    [style*='text-align:center' i],
+    [style*='text-align: center' i]
+  ) {
+  max-width: var(--reading-cap, none);
+}
+
+/* A right float that is a direct child of the column floats at the edge of the text,
+   so the text beside it keeps its usual gap. Below sm, floats stack (see below). */
+@media (min-width: 40rem) {
+  .prose-measure > .float-right,
+  .prose-measure > img[align='right' i] {
+    margin-right: max(0px, 100% - var(--reading-measure) - var(--reading-inset, 0px));
+  }
+
+  .prose-measure-centred > :is(.float-left, img[align='left' i]) {
+    margin-left: var(--reading-inset, 0px);
   }
 }
 

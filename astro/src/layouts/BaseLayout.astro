@@ -49,7 +49,7 @@ const navbar = await getSubsiteNavbar(currentSubsite);
   </head>
   <body class="min-h-screen bg-background text-foreground">
     <SkipLink />
-    <div class="site-shell flex min-h-screen overflow-hidden">
+    <div class="site-shell flex min-h-screen overflow-x-clip">
       <!-- Sidebar (desktop only) -->
       <Sidebar transition:persist navbar={navbar} initialSubsite={currentSubsite} />
 
@@ -64,7 +64,7 @@ const navbar = await getSubsiteNavbar(currentSubsite);
       </header>
 
       <!-- Main content area -->
-      <div class="site-main flex-1 flex flex-col min-h-screen lg:ml-64 pt-22 lg:pt-0 min-w-0 overflow-x-hidden">
+      <div class="site-main flex-1 flex flex-col min-h-screen lg:ml-64 pt-22 lg:pt-0 min-w-0 overflow-x-clip">
         <main
           id="main-content"
           tabindex="-1"

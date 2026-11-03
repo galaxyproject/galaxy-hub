@@ -453,7 +453,7 @@ const editUrl = `https://github.com/galaxyproject/galaxy-hub/edit/main/content/$
         </div>
       </PageHeader>
 
-      <ContentWithToc headings={headings} autotoc={autotoc}>
+      <ContentWithToc headings={headings} autotoc={autotoc !== false}>
         <Content components={components} />
       </ContentWithToc>
 

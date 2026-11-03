@@ -6,7 +6,7 @@
 
    1. Make articles print at all. The screen layout nests flex containers
       (`.site-shell` > `.site-main` > `.site-content`) and clips them with
-      `overflow: hidden`. Chrome fragments flex containers across printed
+      `overflow-x: clip`. Chrome fragments flex containers across printed
       pages very poorly -- paragraphs get truncated mid-sentence and headings
       vanish leaving only their bottom border. On top of that the mobile
       header is `position: fixed`, which Chrome repeats on *every* page,
@@ -59,10 +59,10 @@
   /* --------------------------------------------------------------------
      Layout reset -- the actual bug fix.
 
-     `overflow-x: hidden` on the root computes `overflow-y` to `auto`
-     (per spec, a non-visible value on one axis forces the other off
-     `visible`), which makes the root a scroll container and clips printed
-     content past page one.
+     Screen styles clip sideways (`overflow-x: clip`). Were any of these
+     `hidden`, `overflow-y` would compute to `auto` (per spec, a scrolling
+     value on one axis forces the other off `visible`), which makes it a
+     scroll container and clips printed content past page one.
      -------------------------------------------------------------------- */
   html,
   body {
@@ -93,6 +93,11 @@
     margin: 0 !important;
     padding: 0 !important;
     background: none !important;
+  }
+
+  /* The 72ch screen measure would leave text short of tables on paper; use the page width. */
+  .prose-measure {
+    --reading-measure: 100% !important;
   }
 
   /* Decorative page-background patterns waste ink and hurt text contrast. */
