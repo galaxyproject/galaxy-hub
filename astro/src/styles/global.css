@@ -555,30 +555,12 @@ body {
 }
 
 /* Pages without a rail keep the measure only when every direct child of the column is a
-   text block (paragraphs, lists, quotes, headings, rules; centred ones included), a floated
-   image or a script. Anything else (tile grids, tables, embeds, figures, code, wrapper divs,
-   centred boxes) lifts the measure, so text uses the full column as it did before. */
+   text block (paragraphs, lists, quotes, headings, rules; centred ones included) or a floated
+   image. Anything else (tile grids, tables, embeds, figures, code, wrapper divs, centred
+   boxes, scripts such as the JSON-LD block that ends news posts) lifts the measure, so text
+   uses the full column as it did before. */
 .prose-measure-text-only:has(
-  > :not(
-    p,
-    ul,
-    ol,
-    dl,
-    blockquote,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    hr,
-    br,
-    img.float-right,
-    img.float-left,
-    img[align],
-    script,
-    style
-  )
+  > :not(p, ul, ol, dl, blockquote, h1, h2, h3, h4, h5, h6, hr, br, img.float-right, img.float-left, img[align])
 ) {
   --reading-measure: 100%;
   display: block;

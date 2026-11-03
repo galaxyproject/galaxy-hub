@@ -11,7 +11,7 @@ const NO_TOC_PAGE = '/galaxy-team/';
 const CENTRED_EVENT = '/events/gcc2026/';
 const EVENT_TOC_PAGE = '/events/2023-02-02-foodborne-pathogen-detection-workshop/';
 const TILES_PAGE = '/events/gcc2026/highlights/';
-const TEXT_ONLY_NEWS = '/news/2014-questionnaire/';
+const NO_RAIL_NEWS = '/news/2021-04-elixir-impl/';
 
 /** Width of `<ch>ch` at the font size of the given element (72 = measure, 80 = beside the rail). */
 async function measureAt(locator: Locator, ch = 72): Promise<number> {
@@ -188,23 +188,16 @@ test.describe('Reading grid at 1440px', () => {
     expect(Math.abs(centredBox!.x + centredBox!.width / 2 - centre)).toBeLessThan(2);
   });
 
-  test('without a rail, a text-only page with a script child still centres its 72ch text', async ({ page }) => {
-    // News pages end their column with a JSON-LD script; it renders nothing, so it does not count.
-    await page.goto(TEXT_ONLY_NEWS);
+  // Pages without a rail that hold more than text render their text as on main: full column.
+  test('without a rail, a news post keeps full-width text as on main', async ({ page }) => {
+    // News posts end their column with a JSON-LD script, so they are never text-only.
+    await page.goto(NO_RAIL_NEWS);
     await expect(page.locator('.toc-sidebar')).toHaveCount(0);
     const prose = page.locator('.prose-galaxy').first();
     await expect(prose.locator(':scope > script')).toHaveCount(1);
-    const proseBox = (await prose.boundingBox())!;
-    const paragraph = longParagraph(prose);
-    const measure = await measureAt(paragraph);
-    const textBox = (await paragraph.boundingBox())!;
-    expect(textBox.width, 'paragraph capped at 72ch').toBeLessThanOrEqual(measure + 1);
-    expect(textBox.width, 'paragraph reaches the measure').toBeGreaterThan(measure - 1);
-    const centre = proseBox.x + proseBox.width / 2;
-    expect(Math.abs(textBox.x + textBox.width / 2 - centre), 'paragraph is centred').toBeLessThan(2);
+    await expectFullColumn(prose, longParagraph(prose));
   });
 
-  // Pages without a rail that hold more than text render their text as on main: full column.
   test('without a rail, text above a tile grid uses the full column', async ({ page }) => {
     await page.goto(TILES_PAGE);
     await expect(page.locator('.toc-sidebar')).toHaveCount(0);
