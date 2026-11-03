@@ -1,0 +1,16 @@
+---
+title: "ELIXIR highlights the impact of long-term funding on Galaxy"
+date: 2026-11-03
+tease: "ELIXIR highlights how sustained investments in research infrastructure have supported the development and impact of Galaxy."
+tags: [elixir, funding, galaxy, infrastructure]
+---
+
+Since 2016, ELIXIR has invested €50 million in more than 175 projects involving 22 ELIXIR Nodes.
+
+These Commissioned Services support essential infrastructure activities that might otherwise struggle to attract traditional research funding.
+
+In a recent news release, ELIXIR highlights Beacon and Galaxy as examples of how sustained investments can support developments with a much wider impact across the research community.
+
+[Read the full news release](https://us.list-manage.com/160IbXapf1y?e=819a3dd679&c2id=4472b39483495816b0b338cc286f212b).
+
+
