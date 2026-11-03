@@ -1,25 +1,49 @@
 import { test, expect, type Locator, type Page } from '@playwright/test';
 
-// Reading grid: 72ch text column with a sticky "On this page" rail from 1280px, the
-// measure on running text, centred blocks left at full width, no sideways page scroll.
-// Widths are compared with 72ch resolved in the page itself, so the font does not matter.
+// Reading grid: from 1280px a text column of up to 80ch with a sticky "On this page" rail
+// 48px beside it; 72ch text without a rail; centred blocks at full width; no sideways scroll.
+// Widths are compared with `ch` resolved in the page itself, so the font does not matter.
 
 const TOC_PAGE = '/get-started/';
 const TABLE_PAGE = '/news/2025-10-10-llm-hub/';
 const NO_TOC_PAGE = '/galaxy-team/';
 const CENTRED_EVENT = '/events/gcc2026/';
+const EVENT_TOC_PAGE = '/events/2023-02-02-foodborne-pathogen-detection-workshop/';
 
-/** Width of `72ch` (the --measure token) at the font size of the given element. */
-async function measureAt(locator: Locator): Promise<number> {
-  return locator.evaluate((el) => {
+/** Width of `<ch>ch` at the font size of the given element (72 = measure, 80 = beside the rail). */
+async function measureAt(locator: Locator, ch = 72): Promise<number> {
+  return locator.evaluate((el, n) => {
     const probe = document.createElement('span');
-    probe.style.cssText = 'display:block;position:absolute;visibility:hidden;width:var(--measure)';
+    probe.style.cssText = `display:block;position:absolute;visibility:hidden;width:${n}ch`;
     el.appendChild(probe);
     const width = probe.getBoundingClientRect().width;
     probe.remove();
     return width;
+  }, ch);
+}
+
+/** Text column, rail and frame edges of the reading grid. */
+async function gridEdges(page: Page) {
+  const frame = await page.locator('.content-with-toc').evaluate((el) => {
+    const r = el.getBoundingClientRect();
+    const s = getComputedStyle(el);
+    return { left: r.left + parseFloat(s.paddingLeft), right: r.right - parseFloat(s.paddingRight) };
+  });
+  const prose = (await page.locator('.prose-galaxy').first().boundingBox())!;
+  const rail = (await page.locator('.toc-sidebar').boundingBox())!;
+  return { frame, prose, rail };
+}
+
+/** Left and right edges of the white content card that holds the reading grid. */
+async function cardEdges(page: Page) {
+  return page.locator('.content-with-toc').evaluate((el) => {
+    const r = el.closest('article')!.getBoundingClientRect();
+    return { left: r.left, right: r.right };
   });
 }
+
+/** Text inset from the white card edges (`sm:px-8`), with or without the rail. */
+const CARD_INSET = 32;
 
 /** First direct-child paragraph of the prose column with at least `min` characters of text. */
 function longParagraph(prose: Locator, min = 200): Locator {
@@ -67,30 +91,31 @@ test.describe('Reading grid at 1440px', () => {
     }
   });
 
-  test('running text stops at 72ch beside the rail', async ({ page }) => {
-    await page.goto(TOC_PAGE);
-    const prose = page.locator('.prose-galaxy').first();
-    const paragraph = longParagraph(prose);
-    const measure = await measureAt(paragraph);
-    expect((await prose.boundingBox())!.width, 'text column').toBeLessThanOrEqual(measure + 1);
-    expect((await paragraph.boundingBox())!.width).toBeLessThanOrEqual(measure + 1);
+  for (const path of [TOC_PAGE, EVENT_TOC_PAGE]) {
+    test(`running text takes up to 80ch with the rail 48px beside it on ${path}`, async ({ page }) => {
+      await page.goto(path);
+      const paragraph = longParagraph(page.locator('.prose-galaxy').first());
+      const wide = await measureAt(paragraph, 80);
+      const { frame, prose, rail } = await gridEdges(page);
+      expect(prose.width, 'text column').toBeLessThanOrEqual(wide + 1);
+      const textWidth = (await paragraph.boundingBox())!.width;
+      expect(textWidth, 'paragraph capped at 80ch').toBeLessThanOrEqual(wide + 1);
+      expect(textWidth, 'paragraph wider than the 72ch used without a rail').toBeGreaterThan(
+        (await measureAt(paragraph)) + 1
+      );
+      expect(textWidth, 'paragraph fills the room the frame leaves').toBeGreaterThan(
+        Math.min(wide, frame.right - frame.left - 48 - rail.width) - 1
+      );
 
-    // As in prototype A: text on the left edge of the frame, rail on the right edge.
-    const frame = await page.locator('.content-with-toc').evaluate((el) => {
-      const r = el.getBoundingClientRect();
-      const s = getComputedStyle(el);
-      return { left: r.left + parseFloat(s.paddingLeft), right: r.right - parseFloat(s.paddingRight) };
+      expect(Math.abs(prose.x - frame.left), 'text starts at the frame edge').toBeLessThan(1);
+      expect(Math.abs(rail.x - (prose.x + prose.width) - 48), 'rail 48px beside the text').toBeLessThan(1);
+      expect(rail.x + rail.width, 'rail inside the frame').toBeLessThanOrEqual(frame.right + 1);
+
+      const card = await cardEdges(page);
+      expect(Math.abs(prose.x - card.left - CARD_INSET), 'text 32px in from the card').toBeLessThan(1);
+      expect(Math.abs(card.right - rail.x - rail.width - CARD_INSET), 'rail 32px in from the card').toBeLessThan(1);
     });
-    const railBox = (await page.locator('.toc-sidebar').boundingBox())!;
-    expect(Math.abs((await prose.boundingBox())!.x - frame.left), 'text starts at the frame edge').toBeLessThan(1);
-    expect(Math.abs(railBox.x + railBox.width - frame.right), 'rail ends at the frame edge').toBeLessThan(1);
-
-    // Prototype A's frame: 40px in from the main area on both sides below its 1120px cap,
-    // which gives the same text-to-rail gap.
-    const main = (await page.locator('main').boundingBox())!;
-    expect(Math.abs(frame.left - main.x - 40), 'frame 40px from the main area').toBeLessThan(1);
-    expect(Math.abs(main.x + main.width - frame.right - 40), 'frame 40px from the main area').toBeLessThan(1);
-  });
+  }
 
   test('tables keep the full column, text keeps the measure', async ({ page }) => {
     await page.goto(TABLE_PAGE);
@@ -100,7 +125,7 @@ test.describe('Reading grid at 1440px', () => {
     const proseWidth = (await prose.boundingBox())!.width;
     expect((await table.boundingBox())!.width).toBeGreaterThan(proseWidth - 2);
     const paragraph = longParagraph(prose, 120);
-    expect((await paragraph.boundingBox())!.width).toBeLessThanOrEqual((await measureAt(paragraph)) + 1);
+    expect((await paragraph.boundingBox())!.width).toBeLessThanOrEqual((await measureAt(paragraph, 80)) + 1);
   });
 
   test('without a rail, text blocks are 72ch and centred, the column keeps its full width', async ({ page }) => {
@@ -111,6 +136,10 @@ test.describe('Reading grid at 1440px', () => {
     const paragraph = longParagraph(prose);
     const measure = await measureAt(paragraph);
     expect(proseBox.width, 'the column is wider than the measure').toBeGreaterThan(measure + 40);
+    const card = await cardEdges(page);
+    expect(Math.abs(proseBox.x - card.left - CARD_INSET), 'column 32px in from the card').toBeLessThan(1);
+    const rightInset = card.right - proseBox.x - proseBox.width;
+    expect(Math.abs(rightInset - CARD_INSET), 'column 32px in from the card').toBeLessThan(1);
 
     const textBox = (await paragraph.boundingBox())!;
     expect(textBox.width, 'paragraph capped at 72ch').toBeLessThanOrEqual(measure + 1);
@@ -194,6 +223,28 @@ test.describe('Reading grid at 1440px', () => {
   });
 });
 
+test.describe('Reading grid from 1280px to 1920px', () => {
+  for (const width of [1280, 1366, 1439, 1920]) {
+    test(`text takes up to 80ch inside the 32px card inset, rail 48px beside it at ${width}px`, async ({ page }) => {
+      await page.setViewportSize({ width, height: 900 });
+      await page.goto(TOC_PAGE);
+      await expect(page.locator('.toc-sidebar nav')).toBeVisible();
+      const paragraph = longParagraph(page.locator('.prose-galaxy').first());
+      const { frame, prose, rail } = await gridEdges(page);
+      const expected = Math.min(await measureAt(paragraph, 80), frame.right - frame.left - 48 - rail.width);
+      expect(Math.abs(prose.width - expected), 'text takes the room left, up to 80ch').toBeLessThan(1);
+      expect(Math.abs(rail.x - (prose.x + prose.width) - 48), 'rail 48px beside the text').toBeLessThan(1);
+      expect(rail.x + rail.width, 'rail inside the frame').toBeLessThanOrEqual(frame.right + 1);
+      const card = await cardEdges(page);
+      expect(Math.abs(prose.x - card.left - CARD_INSET), 'text 32px in from the card').toBeLessThan(1);
+      expect(Math.abs(card.right - rail.x - rail.width - CARD_INSET), 'rail 32px in from the card').toBeLessThan(1);
+      const text = (await paragraph.boundingBox())!;
+      expect(text.x + text.width, 'text stays in its column').toBeLessThanOrEqual(prose.x + prose.width + 1);
+      await expectNoSidewaysScroll(page);
+    });
+  }
+});
+
 test.describe('Reading grid at 390px', () => {
   test.beforeEach(async ({ page }) => {
     await page.setViewportSize({ width: 390, height: 844 });
@@ -203,6 +254,9 @@ test.describe('Reading grid at 390px', () => {
     await page.goto(TOC_PAGE);
     await expect(page.locator('details.toc-mobile')).toBeVisible();
     await expect(page.locator('.toc-sidebar')).toBeHidden();
+    const prose = (await page.locator('.prose-galaxy').first().boundingBox())!;
+    const card = await cardEdges(page);
+    expect(Math.abs(prose.x - card.left - 24), 'text 24px in from the card').toBeLessThan(1);
   });
 
   test('no sideways page scroll', async ({ page }) => {
