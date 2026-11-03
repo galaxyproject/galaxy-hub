@@ -11,7 +11,7 @@ contributions:
 ---
 
 <center>
-  <img src="./image.png" width="620" alt="Ross Lazarus" />
+  <img src="./image.jpg" width="620" alt="Ross Lazarus" />
 </center>
 
 We lost a friend, mentor and a great human being: Ross Lazarus.
