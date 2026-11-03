@@ -48,6 +48,25 @@ async function cardEdges(page: Page) {
 /** Text inset from the white card edges (`sm:px-8`), with or without the rail. */
 const CARD_INSET = 32;
 
+/**
+ * Text 32px in from the card and the rail 48px beside it. Then one of two bounds applies, and
+ * which one depends on the font's `ch`: the text reaches 80ch and the extra room stays to the
+ * right of the rail, or the card is the limit and the rail sits 32px in from its right edge.
+ */
+async function expectRailGridInsets(page: Page, wide: number) {
+  const { prose, rail } = await gridEdges(page);
+  const card = await cardEdges(page);
+  expect(Math.abs(prose.x - card.left - CARD_INSET), 'text 32px in from the card').toBeLessThan(1);
+  expect(Math.abs(rail.x - (prose.x + prose.width) - 48), 'rail 48px beside the text').toBeLessThan(1);
+  const rightInset = card.right - rail.x - rail.width;
+  if (Math.abs(prose.width - wide) < 1) {
+    expect(rightInset, 'text at 80ch, rail at least 32px in from the card').toBeGreaterThan(CARD_INSET - 1);
+  } else {
+    expect(prose.width, 'text narrower than 80ch').toBeLessThan(wide);
+    expect(Math.abs(rightInset - CARD_INSET), 'text below 80ch, rail 32px in from the card').toBeLessThan(1);
+  }
+}
+
 /** First direct-child paragraph of the prose column with at least `min` characters of text. */
 function longParagraph(prose: Locator, min = 200): Locator {
   return prose.locator(':scope > p').filter({ hasText: new RegExp(`[\\s\\S]{${min},}`) }).first();
@@ -121,12 +140,8 @@ test.describe('Reading grid at 1440px', () => {
       );
 
       expect(Math.abs(prose.x - frame.left), 'text starts at the frame edge').toBeLessThan(1);
-      expect(Math.abs(rail.x - (prose.x + prose.width) - 48), 'rail 48px beside the text').toBeLessThan(1);
       expect(rail.x + rail.width, 'rail inside the frame').toBeLessThanOrEqual(frame.right + 1);
-
-      const card = await cardEdges(page);
-      expect(Math.abs(prose.x - card.left - CARD_INSET), 'text 32px in from the card').toBeLessThan(1);
-      expect(Math.abs(card.right - rail.x - rail.width - CARD_INSET), 'rail 32px in from the card').toBeLessThan(1);
+      await expectRailGridInsets(page, wide);
     });
   }
 
@@ -269,13 +284,11 @@ test.describe('Reading grid from 1280px to 1920px', () => {
       await expect(page.locator('.toc-sidebar nav')).toBeVisible();
       const paragraph = longParagraph(page.locator('.prose-galaxy').first());
       const { frame, prose, rail } = await gridEdges(page);
-      const expected = Math.min(await measureAt(paragraph, 80), frame.right - frame.left - 48 - rail.width);
+      const wide = await measureAt(paragraph, 80);
+      const expected = Math.min(wide, frame.right - frame.left - 48 - rail.width);
       expect(Math.abs(prose.width - expected), 'text takes the room left, up to 80ch').toBeLessThan(1);
-      expect(Math.abs(rail.x - (prose.x + prose.width) - 48), 'rail 48px beside the text').toBeLessThan(1);
       expect(rail.x + rail.width, 'rail inside the frame').toBeLessThanOrEqual(frame.right + 1);
-      const card = await cardEdges(page);
-      expect(Math.abs(prose.x - card.left - CARD_INSET), 'text 32px in from the card').toBeLessThan(1);
-      expect(Math.abs(card.right - rail.x - rail.width - CARD_INSET), 'rail 32px in from the card').toBeLessThan(1);
+      await expectRailGridInsets(page, wide);
       const text = (await paragraph.boundingBox())!;
       expect(text.x + text.width, 'text stays in its column').toBeLessThanOrEqual(prose.x + prose.width + 1);
       await expectNoSidewaysScroll(page);
