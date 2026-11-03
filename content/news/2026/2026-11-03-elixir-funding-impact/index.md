@@ -3,6 +3,8 @@ title: "ELIXIR highlights the impact of long-term funding on Galaxy"
 date: "2026-11-03"
 tease: "ELIXIR highlights how sustained investments in research infrastructure have supported the development and impact of Galaxy."
 tags: [elixir, infrastructure]
+subsites: [global, eu]
+main_subsite: eu
 ---
 
 Since 2016, ELIXIR has invested €50 million in more than 175 projects involving 22 ELIXIR Nodes.
