@@ -232,7 +232,8 @@ test.describe('View toggle on events', () => {
   test('view is written after the year', async ({ page }) => {
     await openEvents(page);
     await page
-      .locator('section:has-text("Past Events") button', { hasText: /^\s*\d{4}/ })
+      .getByRole('group', { name: 'Filter events by year' })
+      .getByRole('button', { name: /^\d{4}/ })
       .nth(1)
       .click();
     await button(page, group, 'Tiles').click();
@@ -273,16 +274,14 @@ test.describe('View toggle on events', () => {
     await expectView(page, group, pastList(page), 'rows');
   });
 
-  test('sits on the first section heading', async ({ page }) => {
+  test('sits on the result count row', async ({ page }) => {
     await openEvents(page);
     await expect(page.locator('.events-list [data-view-toggle]')).toHaveCount(1);
-    const upcoming = page.getByRole('heading', { name: /^Upcoming Events/ });
-    const heading = (await upcoming.count()) ? upcoming : page.getByRole('heading', { name: /^Past Events/ });
-    await expectSameRow(heading, toggle(page, group));
+    await expectSameRow(page.locator('.events-list [data-filter-count]'), toggle(page, group));
 
     await openEvents(page, '/eu/events/archive/');
     await expect(page.locator('.events-list [data-view-toggle]')).toHaveCount(1);
-    await expectSameRow(page.getByRole('heading', { name: /^Past Events/ }), toggle(page, group));
+    await expectSameRow(page.locator('.events-list [data-filter-count]'), toggle(page, group));
   });
 
   test('subsite events and the archive have the toggle', async ({ page }) => {
