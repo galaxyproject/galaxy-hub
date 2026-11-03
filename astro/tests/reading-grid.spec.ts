@@ -1,7 +1,8 @@
 import { test, expect, type Locator, type Page } from '@playwright/test';
 
 // Reading grid: from 1280px a text column of up to 80ch with a sticky "On this page" rail
-// 48px beside it; 72ch text without a rail; centred blocks at full width; no sideways scroll.
+// 48px beside it; without a rail, centred 72ch text on text-only pages and full-width text
+// (as on main) on pages with more than text; centred blocks at full width; no sideways scroll.
 // Widths are compared with `ch` resolved in the page itself, so the font does not matter.
 
 const TOC_PAGE = '/get-started/';
@@ -9,6 +10,8 @@ const TABLE_PAGE = '/news/2025-10-10-llm-hub/';
 const NO_TOC_PAGE = '/galaxy-team/';
 const CENTRED_EVENT = '/events/gcc2026/';
 const EVENT_TOC_PAGE = '/events/2023-02-02-foodborne-pathogen-detection-workshop/';
+const TILES_PAGE = '/events/gcc2026/highlights/';
+const TEXT_ONLY_NEWS = '/news/2014-questionnaire/';
 
 /** Width of `<ch>ch` at the font size of the given element (72 = measure, 80 = beside the rail). */
 async function measureAt(locator: Locator, ch = 72): Promise<number> {
@@ -48,6 +51,16 @@ const CARD_INSET = 32;
 /** First direct-child paragraph of the prose column with at least `min` characters of text. */
 function longParagraph(prose: Locator, min = 200): Locator {
   return prose.locator(':scope > p').filter({ hasText: new RegExp(`[\\s\\S]{${min},}`) }).first();
+}
+
+/** The block spans the prose column (no measure), as running text does on main. */
+async function expectFullColumn(prose: Locator, block: Locator) {
+  const proseBox = (await prose.boundingBox())!;
+  const box = (await block.boundingBox())!;
+  // The measure resolves at the column's font size, so headings compare with it too.
+  expect(box.width, 'text is wider than the 72ch measure').toBeGreaterThan((await measureAt(prose)) + 40);
+  expect(Math.abs(box.x - proseBox.x), 'text starts at the column edge').toBeLessThan(1);
+  expect(Math.abs(box.width - proseBox.width), 'text spans the full column').toBeLessThan(1);
 }
 
 async function expectNoSidewaysScroll(page: Page) {
@@ -160,42 +173,67 @@ test.describe('Reading grid at 1440px', () => {
     expect(Math.abs(centredBox!.x + centredBox!.width / 2 - centre)).toBeLessThan(2);
   });
 
-  test('without a rail, tile grids keep the full column and text lines up with them', async ({ page }) => {
+  test('without a rail, a text-only page with a script child still centres its 72ch text', async ({ page }) => {
+    // News pages end their column with a JSON-LD script; it renders nothing, so it does not count.
+    await page.goto(TEXT_ONLY_NEWS);
+    await expect(page.locator('.toc-sidebar')).toHaveCount(0);
+    const prose = page.locator('.prose-galaxy').first();
+    await expect(prose.locator(':scope > script')).toHaveCount(1);
+    const proseBox = (await prose.boundingBox())!;
+    const paragraph = longParagraph(prose);
+    const measure = await measureAt(paragraph);
+    const textBox = (await paragraph.boundingBox())!;
+    expect(textBox.width, 'paragraph capped at 72ch').toBeLessThanOrEqual(measure + 1);
+    expect(textBox.width, 'paragraph reaches the measure').toBeGreaterThan(measure - 1);
+    const centre = proseBox.x + proseBox.width / 2;
+    expect(Math.abs(textBox.x + textBox.width / 2 - centre), 'paragraph is centred').toBeLessThan(2);
+  });
+
+  // Pages without a rail that hold more than text render their text as on main: full column.
+  test('without a rail, text above a tile grid uses the full column', async ({ page }) => {
+    await page.goto(TILES_PAGE);
+    await expect(page.locator('.toc-sidebar')).toHaveCount(0);
+    const prose = page.locator('.prose-galaxy').first();
+    await expect(prose.locator(':scope > div img').first(), `${TILES_PAGE} needs talk tiles`).toBeVisible();
+    await expectFullColumn(prose, longParagraph(prose));
+  });
+
+  test('without a rail, a heading over a tile grid spans the grid', async ({ page }) => {
     await page.goto(CENTRED_EVENT);
     await expect(page.locator('.toc-sidebar')).toHaveCount(0);
     const prose = page.locator('.prose-galaxy').first();
     const grid = prose.locator('.gx-tile-grid').first();
     const gridBox = await grid.boundingBox();
     expect(gridBox, `${CENTRED_EVENT} needs a tile grid`).not.toBeNull();
-    const measure = await measureAt(prose);
-    expect(gridBox!.width, 'tile grid wider than the measure').toBeGreaterThan(measure + 40);
-    // With wide content in the column, text stays left-aligned with it (not centred).
+    expect(gridBox!.width, 'tile grid wider than the measure').toBeGreaterThan((await measureAt(prose)) + 40);
     const heading = grid.locator('xpath=preceding-sibling::*[1][self::h2]');
-    const headingBox = await heading.boundingBox();
-    expect(headingBox, `${CENTRED_EVENT} needs an h2 right before the tile grid`).not.toBeNull();
-    expect(headingBox!.width, 'section heading capped at 72ch').toBeLessThanOrEqual(measure + 1);
-    expect(Math.abs(headingBox!.x - gridBox!.x), 'heading starts where the grid starts').toBeLessThan(1);
+    await expect(heading, `${CENTRED_EVENT} needs an h2 right before the tile grid`).toHaveCount(1);
+    await expectFullColumn(prose, heading);
+    const headingBox = (await heading.boundingBox())!;
+    expect(Math.abs(headingBox.x - gridBox!.x), 'heading starts where the grid starts').toBeLessThan(1);
   });
 
-  test('without a rail, text lines up with an embed wrapped in a div', async ({ page }) => {
+  test('without a rail, text beside an embed wrapped in a div uses the full column', async ({ page }) => {
     await page.goto('/events/2021-05-27-dev-roundtable/');
     await expect(page.locator('.toc-sidebar')).toHaveCount(0);
     const prose = page.locator('.prose-galaxy').first();
-    const iframe = prose.locator(':scope > div > iframe').first();
-    const iframeBox = await iframe.boundingBox();
+    const iframeBox = await prose.locator(':scope > div > iframe').first().boundingBox();
     expect(iframeBox, 'the page needs a wrapped iframe').not.toBeNull();
-    const textBox = (await longParagraph(prose, 80).boundingBox())!;
+    const paragraph = longParagraph(prose, 80);
+    await expectFullColumn(prose, paragraph);
+    const textBox = (await paragraph.boundingBox())!;
     expect(Math.abs(textBox.x - iframeBox!.x), 'text starts where the embed starts').toBeLessThan(1);
   });
 
-  test('without a rail, text lines up with a centred box', async ({ page }) => {
+  test('without a rail, text beside a centred box uses the full column', async ({ page }) => {
     await page.goto('/community/steering/');
     await expect(page.locator('.toc-sidebar')).toHaveCount(0);
     const prose = page.locator('.prose-galaxy').first();
     const alertBox = await prose.locator(':scope > .alert').first().boundingBox();
     expect(alertBox, 'the page needs an alert box as a direct child').not.toBeNull();
-    // The page's text is its heading; a 72ch block, so its box shows the text edge.
-    const textBox = (await prose.locator(':scope > :is(h1, h2)').first().boundingBox())!;
+    const heading = prose.locator(':scope > :is(h1, h2)').first();
+    await expectFullColumn(prose, heading);
+    const textBox = (await heading.boundingBox())!;
     expect(Math.abs(textBox.x - alertBox!.x), 'text starts where the box starts').toBeLessThan(1);
   });
 
