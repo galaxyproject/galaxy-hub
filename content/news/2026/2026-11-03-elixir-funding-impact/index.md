@@ -5,7 +5,7 @@ tease: "ELIXIR highlights how sustained investments in research infrastructure h
 tags: [elixir, infrastructure]
 subsites: [global, eu]
 main_subsite: eu
-external_url: https://elixir-europe.org/news/impact-sustained-funding
+external_url: https://elixir-europe.org/news/impact-elixir-funding
 ---
 
 Since 2016, ELIXIR has invested €50 million in more than 175 projects involving 22 ELIXIR Nodes.
