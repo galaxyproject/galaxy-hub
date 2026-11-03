@@ -80,7 +80,7 @@ Start by joining our [💬Matrix channel](https://matrix.to/#/#galaxyproject_mas
 
  | Partners | Description | People involved |
  |----------|-------------|-----------------|
- | [Seq4AMR](https://www.jpiamr.eu/projects/seq4amr/) | [JPIAMR]() Network for Integrating Microbial Sequencing and Platforms for Antimicrobial Resistance | Saskia Hilteman
+ | [Seq4AMR](https://www.jpiamr.eu/projects/seq4amr/) | [JPIAMR](https://www.jpiamr.eu/) Network for Integrating Microbial Sequencing and Platforms for Antimicrobial Resistance | Saskia Hilteman
  | [ELIXIR Emerging Microbiome Community](https://elixir-europe.org/communities/marine-metagenomics) | | Bérénice Batut
  | µbioinfo Slack | |
 
