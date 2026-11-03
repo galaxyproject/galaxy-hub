@@ -10,10 +10,10 @@ We are a mix of users, developers, and trainers providing feedback and energy to
 ## I'm just trying to learn to analyse my data, how did I get here?
 Hello user! You'll be interested in the following resources:
 
- - [Learning pathway for getting to grips with Galaxy and <>]()
+ - Learning pathway for getting to grips with Galaxy and <>
  - [Proteomics training material](https://training.galaxyproject.org/training-material/topics/proteomics)
  - [Metabolomics training material](https://training.galaxyproject.org/training-material/topics/metabolomics)
- - Galaxy instance: [<> instance]()
+ - Galaxy instance: <> instance
  - [Matrix channel for asking for help](https://matrix.to/#/#galaxyproject_mass-spectrometry:matrix.org)
 
 Saying that, we'd absolutely love to have users feedback on their experiences to help us improve. You'd be very welcome to join the Community of Practice to help improve the processing of mass spectrometry data in Galaxy!
@@ -59,9 +59,9 @@ We have a chat forum to discuss news and ideas, and are represented in the Galax
 
 Start by joining our [💬Matrix channel](https://matrix.to/#/#galaxyproject_mass-spectrometry:matrix.org) and introduce yourself! (Or you can just lurk there for a bit!)
 
- - 📪[Mailing list]()
- - ✅[Trello site]()
- - 🗓️[SC-CoP Google Calendar]() <-- Subscribe!
+ - 📪Mailing list
+ - ✅Trello site
+ - 🗓️SC-CoP Google Calendar <-- Subscribe!
  - 📝[Meeting Notes doc](https://docs.google.com/document/d/1EvGFC39qT8tp-TbLqlXGZehgPm0VXZEYnlac13gBXO0/edit#heading=h.vxfnvlhpiq7n) <--- There's a section here called 'New here?' that gives tips on how to start contributing as well!
  - 🧑🏽‍🏫[User Matrix Channel](https://matrix.to/#/#galaxyproject_mass-spectrometry:matrix.org)
 
@@ -80,7 +80,7 @@ Start by joining our [💬Matrix channel](https://matrix.to/#/#galaxyproject_mas
 
  | Partners | Description | People involved |
  |----------|-------------|-----------------|
- | [Seq4AMR](https://www.jpiamr.eu/projects/seq4amr/) | [JPIAMR]() Network for Integrating Microbial Sequencing and Platforms for Antimicrobial Resistance | Saskia Hilteman
+ | [Seq4AMR](https://www.jpiamr.eu/projects/seq4amr/) | [JPIAMR](https://www.jpiamr.eu/) Network for Integrating Microbial Sequencing and Platforms for Antimicrobial Resistance | Saskia Hilteman
  | [ELIXIR Emerging Microbiome Community](https://elixir-europe.org/communities/marine-metagenomics) | | Bérénice Batut
  | µbioinfo Slack | |
 

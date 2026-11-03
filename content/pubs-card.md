@@ -6,10 +6,10 @@ items:
 
 - title: "Selection analysis identifies unusual clustered mutational changes in Omicron lineage BA.1 that likely impact Spike function"
   link: https://doi.org/10.1101/2022.01.14.476382
-  tease: "<span class='altmetric-embed float-right' data-badge-type='4' data-doi='10.26434/chemrxiv-2021-zr4xn'></span> Martin, D.P., Lytras, S., Lucaci, A.G., Maier, Gruning, B. ... Kosakovsky Pond S.L. (2022). *bioRxiv*."
+  tease: "<span class='altmetric-embed float-right' data-badge-type='4' data-doi='10.1101/2022.01.14.476382'></span> Martin, D.P., Lytras, S., Lucaci, A.G., Maier, Gruning, B. ... Kosakovsky Pond S.L. (2022). *bioRxiv*."
 - title: "VectorBase.org updates: bioinformatic resources for invertebrate vectors of human pathogens and related organisms"
   link: https://doi.org/10.1016/j.cois.2021.11.008
-  tease: "<span class='altmetric-embed float-right' data-badge-type='4' data-doi='10.26434/chemrxiv-2021-zr4xn'></span> Giraldo-Calderón, G. I., Harb, O.S., Kelly S.A., and Rund S. SC, Roos D.S., McDowell M.A. (2022). *Current Opinion in Insect Science*."
+  tease: "<span class='altmetric-embed float-right' data-badge-type='4' data-doi='10.1016/j.cois.2021.11.008'></span> Giraldo-Calderón, G. I., Harb, O.S., Kelly S.A., and Rund S. SC, Roos D.S., McDowell M.A. (2022). *Current Opinion in Insect Science*."
 - title: "Galaxy workflows for fragment-based virtual screening: A case study on the SARS-CoV-2 main protease"
   link: https://doi.org/10.26434/chemrxiv-2021-zr4xn
   tease: "<span class='altmetric-embed float-right' data-badge-type='4' data-doi='10.26434/chemrxiv-2021-zr4xn'></span> Bray, S., Dudgeon, T., Skyner, R., Backofen, R., Grüning, B., & Delft, F. von. (2021). *ChemRxiv*."
