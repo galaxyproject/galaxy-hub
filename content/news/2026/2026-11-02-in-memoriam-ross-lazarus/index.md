@@ -67,7 +67,7 @@ A bit nerdy, but we are sure Ross would have liked it. Galaxy servers send a spe
 curl -sI https://usegalaxy.eu/ | grep -i clacks
 ```
 
-It is the community's tribute to deceased Galaxy community members, a reference to [Terry Pratchett's](https://en.wikipedia.org/wiki/Terry_Pratchett) [Discworld novels](<https://wiki.lspace.org/Clacks>).
+It is the community's tribute to deceased Galaxy community members, a reference to [Terry Pratchett's](https://en.wikipedia.org/wiki/Terry_Pratchett) [Discworld novels](https://wiki.lspace.org/Clacks).
 So whenever someone opens Galaxy now, Ross's name is traveling through the network forever.
 
 ---
