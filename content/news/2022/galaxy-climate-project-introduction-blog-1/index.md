@@ -41,18 +41,18 @@ The Galaxy ToolShed houses more than 2,000 tools, out of which several tools are
 
 | Climate Analysis Tools |      Synopsis    |
 |----------|:-------------|
-| [c3s](https://toolshed.g2.bx.psu.edu/repository/browse_repository?id=66db1d2dd5ec1fab) |    Copernicus Climate Change Service (C3S)   |  
-| [cads](https://toolshed.g2.bx.psu.edu/repository/browse_repositories_in_category?sort=name&operation=view_or_manage_repository&id=58c4b9b8233320fc) |  Copernicus Atmosphere Data Store (ADS)   |
-|[cdo_info](https://toolshed.g2.bx.psu.edu/repository/browse_repositories_in_category?sort=name&operation=view_or_manage_repository&id=c8c1cfa654cb096d) | Wrapper for cdo tool: CDO get info |
-| [cdo_operations](https://toolshed.g2.bx.psu.edu/repository/browse_repositories_in_category?sort=name&operation=view_or_manage_repository&id=8a2394bf5c1816a5) |  Wrapper for cdo tool: CDO Operations |
-| [cds_essential_variability](https://toolshed.g2.bx.psu.edu/repository/browse_repositories_in_category?sort=name&operation=view_or_manage_repository&id=0d422cfb5d8fef89)|   Get Copernicus Essential Climate Variables for assessing climate variability   |
-|[cesm](https://toolshed.g2.bx.psu.edu/repository/browse_repositories_in_category?sort=name&operation=view_or_manage_repository&id=7aa3cab2c60dddc0) | Community Earth System Model (CESM) |
-| [climate_stripes](https://toolshed.g2.bx.psu.edu/repository/browse_repositories_in_category?sort=name&operation=view_or_manage_repository&id=51707a18875902ba) |  Create climate stripes from a tabular input file |
-| [ctsm_fates](https://toolshed.g2.bx.psu.edu/repository/browse_repositories_in_category?sort=name&operation=view_or_manage_repository&id=f39a869bd7709275) |    EMERALD version of the Functionally Assembled Terrestrial Ecosystem Simulator (FATES) with Community Terrestrial Systems Model as host model  |
-| [eodie](https://toolshed.g2.bx.psu.edu/repository/browse_repositories_in_category?sort=name&operation=view_or_manage_repository&id=ddd8dba334f1d765) |  Earth Observation Data Information Extractor |
+| [c3s](https://toolshed.g2.bx.psu.edu/view/climate/c3s) |    Copernicus Climate Change Service (C3S)   |  
+| [cads](https://toolshed.g2.bx.psu.edu/view/climate/cads) |  Copernicus Atmosphere Data Store (ADS)   |
+|[cdo_info](https://toolshed.g2.bx.psu.edu/view/climate/cdo_info) | Wrapper for cdo tool: CDO get info |
+| [cdo_operations](https://toolshed.g2.bx.psu.edu/view/climate/cdo_operations) |  Wrapper for cdo tool: CDO Operations |
+| [cds_essential_variability](https://toolshed.g2.bx.psu.edu/view/climate/cds_essential_variability)|   Get Copernicus Essential Climate Variables for assessing climate variability   |
+|[cesm](https://toolshed.g2.bx.psu.edu/view/climate/cesm) | Community Earth System Model (CESM) |
+| [climate_stripes](https://toolshed.g2.bx.psu.edu/view/climate/climate_stripes) |  Create climate stripes from a tabular input file |
+| [ctsm_fates](https://toolshed.g2.bx.psu.edu/view/climate/ctsm_fates) |    EMERALD version of the Functionally Assembled Terrestrial Ecosystem Simulator (FATES) with Community Terrestrial Systems Model as host model  |
+| [eodie](https://toolshed.g2.bx.psu.edu/view/climate/eodie) |  Earth Observation Data Information Extractor |
 | [psy_maps](https://toolshed.g2.bx.psu.edu/view/climate/psy_maps) | Visualization of regular geographical data on a map with psyplot |
-|[shift_longitudes](https://toolshed.g2.bx.psu.edu/repository/browse_repositories_in_category?sort=name&operation=view_or_manage_repository&id=6f6f2aca88e226de) | Shift longitudes ranging from 0º and 360º to -180º and 180º |
-|[suite_cdo](https://toolshed.g2.bx.psu.edu/repository/browse_repositories_in_category?sort=name&operation=view_or_manage_repository&id=11bb18c4362d86a5) |  A suite of cdo tools |
+|[shift_longitudes](https://toolshed.g2.bx.psu.edu/view/climate/shift_longitudes) | Shift longitudes ranging from 0º and 360º to -180º and 180º |
+|[suite_cdo](https://toolshed.g2.bx.psu.edu/view/climate/suite_cdo) |  A suite of cdo tools |
 |[mean_per_zone](https://climate.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/climate/mean_per_zone/mean_per_zone) |  Creates a png image showing statistic over areas as defined in the vector file |
 
 ## Interactive tools
@@ -93,7 +93,7 @@ You can also find below the important list of tools for **GIS(Geographic Informa
 
 
 
-Climate data vary from other generic data in various ways. Its dimensions are generally huge and are mainly available in netCDF, binary, etc. formats, requiring new and more straightforward tools to work on. We have tools for tabular and comma-separated values (CSV) designs, but few instruments are targeted toward netCDF file analysis. Some available tools can be found here [xarray_coords_info](https://toolshed.g2.bx.psu.edu/repository/browse_repository?id=0535bc9a272a7dba). Besides these, there are a couple of other tools.
+Climate data vary from other generic data in various ways. Its dimensions are generally huge and are mainly available in netCDF, binary, etc. formats, requiring new and more straightforward tools to work on. We have tools for tabular and comma-separated values (CSV) designs, but few instruments are targeted toward netCDF file analysis. Some available tools can be found here [xarray_coords_info](https://toolshed.g2.bx.psu.edu/view/ecology/xarray_coords_info). Besides these, there are a couple of other tools.
 Although the ocean of existing tools can be used in combinations to obtain the desired results, this will again create the issue of complicated/untidy workflows and confusion. Moreover, a [newcomer](https://galaxyproject.org/get-started/) to the Galaxy Climate instance may find challenging to learn the jargon and get stuck. Nevertheless, the vision toward expanding climate-specific tools is being highly propagated. The process of tool contribution is not very tedious, and anyone who wishes to do so can contribute.
 
 
