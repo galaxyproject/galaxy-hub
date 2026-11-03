@@ -105,16 +105,3 @@ Ross co-authored many papers on Galaxy, from the early days of the project to th
 
 His full publication record, covering decades of epidemiology, genetics and public-health informatics, is on [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Lazarus+Ross%22%5BFull+Author+Name%5D) and [ORCID](https://orcid.org/0000-0003-3939-1961).
 
-### Ross's tools in the IUC
-
-Ross wrote and maintained many tools in the [IUC tools repository](https://github.com/galaxyproject/tools-iuc), from the first IUC days to his last months:
-
-- [RNA STAR](https://github.com/galaxyproject/tools-iuc/tree/main/tools/rgrnastar) (`rgrnastar`), the RNA-seq aligner, and its [index builder data manager](https://github.com/galaxyproject/tools-iuc/tree/main/data_managers/data_manager_star_index_builder)
-- [JBrowse2](https://github.com/galaxyproject/tools-iuc/tree/main/tools/jbrowse2), the genome browser as a Galaxy tool
-- [bigwig_outlier_bed](https://github.com/galaxyproject/tools-iuc/tree/main/tools/bigwig_outlier_bed), which finds regions of extreme values in bigwig files
-- [microsatbed](https://github.com/galaxyproject/tools-iuc/tree/main/tools/microsatbed), which reports short tandem repeats as bed features
-- [bbgbigwig](https://github.com/galaxyproject/tools-iuc/tree/main/tools/bbgbigwig), which makes coverage bigwigs from bam, bed or gff
-- [wigToBigWig](https://github.com/galaxyproject/tools-iuc/tree/main/tools/ucsc_tools/wigtobigwig), which converts wig to bigwig
-- [WebLogo3](https://github.com/galaxyproject/tools-iuc/tree/main/tools/weblogo3) and [ClustalW](https://github.com/galaxyproject/tools-iuc/tree/main/tools/clustalw)
-- Major updates to [Sniffles](https://github.com/galaxyproject/tools-iuc/tree/main/tools/sniffles), [seqtk](https://github.com/galaxyproject/tools-iuc/tree/main/tools/seqtk) (telo) and [nucmer](https://github.com/galaxyproject/tools-iuc/tree/main/tools/mummer4)
-- Earlier tools, now deprecated: the [Tool Factory](https://github.com/galaxyproject/tools-iuc/tree/main/deprecated/tools/tool_factory_2), [differential count models](https://github.com/galaxyproject/tools-iuc/tree/main/deprecated/tools/differential_count_models) (edgeR/DESeq2/voom), [htseq-count](https://github.com/galaxyproject/tools-iuc/tree/main/deprecated/tools/htseq) and [rglasso](https://github.com/galaxyproject/tools-iuc/tree/main/deprecated/tools/rglasso)
