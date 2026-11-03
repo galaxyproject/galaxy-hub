@@ -9,7 +9,7 @@ Since 2016, ELIXIR has invested €50 million in more than 175 projects involvin
 
 These Commissioned Services support essential infrastructure activities that might otherwise struggle to attract traditional research funding.
 
-In a recent news release, ELIXIR highlights Beacon and Galaxy as examples of how sustained investments can support developments with a much wider impact across the research community.
+In a recent [news release](https://elixir-europe.org/news/impact-elixir-funding), ELIXIR highlights Beacon and Galaxy as examples of how sustained investments can support developments with a much wider impact across the research community.
 
 
 
