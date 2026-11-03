@@ -26,11 +26,9 @@ const { headings = [], autotoc = false, measure = true } = Astro.props;
 const filteredHeadings = headings.filter((h) => h.depth >= 2 && h.depth <= 4);
 const showToc = autotoc && filteredHeadings.length >= 2;
 
-// Reading grid (DESIGN.md §5): from xl (1280px) a 72ch text column and a 224px sticky rail
-// pushed to the right edge; below xl one column with the collapsible block on top.
-// xl:px-4 makes the grid as wide as prototype A's page frame (main inset 24px + 16px = its
-// 40px), so space-between leaves the same text-to-rail gap.
-const gridClass = 'xl:grid xl:grid-cols-[minmax(0,var(--measure))_14rem] xl:justify-between xl:gap-x-12 xl:px-4';
+// Reading grid (DESIGN.md §5): from xl a text column of up to 80ch with the 224px rail 48px beside it.
+const gridClass =
+  'xl:grid xl:[--measure:var(--measure-rail)] xl:grid-cols-[minmax(0,var(--measure))_14rem] xl:justify-start xl:gap-x-12';
 const mobileTocClass = 'toc-mobile xl:hidden mx-6 sm:mx-8 mt-6 border border-ebony-clay-100 rounded-lg';
 const summaryClass = 'px-4 py-3 cursor-pointer font-medium text-galaxy-primary hover:bg-ebony-clay-50 rounded-lg';
 const railClass = 'sticky top-6 max-h-[calc(100vh-3rem)] overflow-y-auto pt-0.5 pr-1 pb-4 pl-0.5';

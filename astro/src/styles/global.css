@@ -310,6 +310,7 @@ body {
   --gx-text-micro: 0.75rem;
 
   --measure: 72ch;
+  --measure-rail: 80ch;
 }
 
 @media (min-width: 40rem) {
@@ -526,9 +527,9 @@ body {
 }
 
 /* Reading measure (DESIGN.md §3 Prose): running text in a .prose-measure container stops at
-   72ch. The registered length resolves 72ch once, at the container's font size, so headings
-   end where paragraphs do. Tables, code, figures, embeds, image-only paragraphs and centred
-   blocks keep the full column. */
+   72ch (80ch beside the rail). The registered length resolves the measure once, at the
+   container's font size, so headings end where paragraphs do. Tables, code, figures, embeds,
+   image-only paragraphs and centred blocks keep the full column. */
 @property --reading-measure {
   syntax: '<length-percentage>';
   inherits: true;
