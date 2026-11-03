@@ -11,6 +11,5 @@ These Commissioned Services support essential infrastructure activities that mig
 
 In a recent news release, ELIXIR highlights Beacon and Galaxy as examples of how sustained investments can support developments with a much wider impact across the research community.
 
-[Read the full news release](https://us.list-manage.com/160IbXapf1y?e=819a3dd679&c2id=4472b39483495816b0b338cc286f212b).
 
 
