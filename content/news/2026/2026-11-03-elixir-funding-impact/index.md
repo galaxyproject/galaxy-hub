@@ -1,6 +1,6 @@
 ---
 title: "ELIXIR highlights the impact of long-term funding on Galaxy"
-date: 2026-11-03
+date: "2026-11-03"
 tease: "ELIXIR highlights how sustained investments in research infrastructure have supported the development and impact of Galaxy."
 tags: [elixir, infrastructure]
 ---
