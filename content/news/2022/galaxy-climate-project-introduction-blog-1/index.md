@@ -50,7 +50,7 @@ The Galaxy ToolShed houses more than 2,000 tools, out of which several tools are
 | [climate_stripes](https://toolshed.g2.bx.psu.edu/repository/browse_repositories_in_category?sort=name&operation=view_or_manage_repository&id=51707a18875902ba) |  Create climate stripes from a tabular input file |
 | [ctsm_fates](https://toolshed.g2.bx.psu.edu/repository/browse_repositories_in_category?sort=name&operation=view_or_manage_repository&id=f39a869bd7709275) |    EMERALD version of the Functionally Assembled Terrestrial Ecosystem Simulator (FATES) with Community Terrestrial Systems Model as host model  |
 | [eodie](https://toolshed.g2.bx.psu.edu/repository/browse_repositories_in_category?sort=name&operation=view_or_manage_repository&id=ddd8dba334f1d765) |  Earth Observation Data Information Extractor |
-| [psy_maps]() | Visualization of regular geographical data on a map with psyplot |
+| [psy_maps](https://toolshed.g2.bx.psu.edu/view/climate/psy_maps) | Visualization of regular geographical data on a map with psyplot |
 |[shift_longitudes](https://toolshed.g2.bx.psu.edu/repository/browse_repositories_in_category?sort=name&operation=view_or_manage_repository&id=6f6f2aca88e226de) | Shift longitudes ranging from 0º and 360º to -180º and 180º |
 |[suite_cdo](https://toolshed.g2.bx.psu.edu/repository/browse_repositories_in_category?sort=name&operation=view_or_manage_repository&id=11bb18c4362d86a5) |  A suite of cdo tools |
 |[mean_per_zone](https://climate.usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/climate/mean_per_zone/mean_per_zone) |  Creates a png image showing statistic over areas as defined in the vector file |
