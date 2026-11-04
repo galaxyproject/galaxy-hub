@@ -14,8 +14,6 @@ tags: [hackathon, tools, training]
 subsites: [global, eu]
 main_subsite: eu
 contributions:
-  authorship:
-    - mirelaminkova
   infrastructure:
     - surf
   organisers:
