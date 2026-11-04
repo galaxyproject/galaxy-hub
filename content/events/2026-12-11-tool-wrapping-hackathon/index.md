@@ -11,11 +11,13 @@ location:
   country: The Netherlands
 contact: Mirela Minkova
 tags: [hackathon, tools, training]
-subsites: [eu]
+subsites: [global, eu]
+main_subsite: eu
 contributions:
+  infrastructure:
+    - surf
   organisers:
     - mirelaminkova
-    - surf
 ---
 
 _Make your command-line tool usable by thousands of researchers - without them ever touching a terminal._
