@@ -359,7 +359,8 @@ Event dates in lists render as one inline line: a 16 px calendar icon, the date 
 - One component: `components/events/EventDate.astro` for server markup, `EventDate.vue` for Vue islands. Both read their text from `eventDateParts()` in `utils/dateUtils.ts` and share `event-date.css` (plain CSS with token fallbacks, so the bare iframe feeds without `global.css` get it too).
 - Markup: `<time datetime="YYYY-MM-DD">` for the start and, for ranges, the end; the duration is plain text so screen readers read "2 days"; the icon is `aria-hidden`.
 - Colours: range `galaxy-dark` (12.9:1 on white), past `chicago-600` (7.1:1 on white, 5.5:1 on `ebony-clay-50`), pill `bay-of-many-950` on `bay-of-many-100` with a `bay-of-many-200` border (9.1:1).
-- Date tables (bare `EventsTable`) and event page headers keep their own formats.
+- Date tables (bare `EventsTable`) keep their own format.
+- **Event facts**: event and conference page headers use `EventHeaderMeta` (`components/events/EventHeaderMeta.astro`), a `<dl>` with visible Date, Location and Contact labels on the gradient: white `font-medium` labels, `white/80` values, a 20 px `galaxy-gold` icon beside each fact. The date uses this component's markup in the long weekday format, restyled as plain `white/80` text: no bold, no calendar icon, no duration pill.
 
 ### Forms
 
