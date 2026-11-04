@@ -1,4 +1,5 @@
 import { test, expect, type Page } from '@playwright/test';
+import { AxeBuilder } from '@axe-core/playwright';
 
 // The URL decides the sidebar context (prototype A, R2): region pages show the region,
 // every other page shows the global Galaxy Project context. Nothing is remembered.
@@ -146,6 +147,39 @@ test.describe('Sidebar context header', () => {
   });
 });
 
+// Client-side navigation (ClientRouter) keeps the JS state; the URL alone decides the list scope
+async function clientNavigate(page: Page, href: string) {
+  await page.evaluate((target) => {
+    (window as unknown as { __noReload?: boolean }).__noReload = true;
+    const link = document.createElement('a');
+    link.href = target;
+    document.body.append(link);
+    link.click();
+  }, href);
+  await expect(page).toHaveURL(new RegExp(`${href}$`));
+  expect(await page.evaluate(() => (window as unknown as { __noReload?: boolean }).__noReload)).toBe(true);
+}
+
+test.describe('Subsite scope follows the URL', () => {
+  test('a region list does not filter the global list after client-side navigation', async ({ page }) => {
+    await page.goto('/freiburg/news/');
+    await expect(page.getByText('Showing news for')).toContainText('Freiburg');
+
+    await clientNavigate(page, '/news/');
+    await expect(page.locator('.news-list')).toBeVisible();
+    await expect(page.getByText('Showing news for')).toHaveCount(0);
+  });
+
+  test('a region list is filtered after client-side navigation from a global page', async ({ page }) => {
+    await page.goto('/news/');
+    await expect(page.locator('.news-list')).toBeVisible();
+    await expect(page.getByText('Showing news for')).toHaveCount(0);
+
+    await clientNavigate(page, '/freiburg/news/');
+    await expect(page.getByText('Showing news for')).toContainText('Freiburg');
+  });
+});
+
 test.describe('Mobile region chip', () => {
   test.beforeEach(async ({ page }) => {
     await page.setViewportSize({ width: 390, height: 844 });
@@ -186,5 +220,57 @@ test.describe('Mobile region chip', () => {
       'aria-expanded',
       'false'
     );
+  });
+});
+
+// The site-chrome scan in axe.spec.ts masks color-contrast for the footer; scan the sidebar on its own
+test.describe('Sidebar accessibility', () => {
+  const tags = ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'];
+  const serious = (violations: { id: string; impact?: string | null }[]) =>
+    violations.filter((v) => v.impact === 'serious' || v.impact === 'critical').map((v) => v.id);
+
+  for (const path of ['/community/', '/freiburg/', '/projects/esg/']) {
+    test(`desktop context header and open region menu have no serious violations on ${path}`, async ({ page }) => {
+      await page.setViewportSize({ width: 1440, height: 900 });
+      await page.goto(path);
+      await hydratedSidebar(page);
+      await contextButton(page).click();
+      await expect(page.locator('#sb-region-menu')).toBeVisible();
+
+      const results = await new AxeBuilder({ page })
+        .withTags(tags)
+        .include('aside [aria-controls="sb-region-menu"]')
+        .include('#sb-region-menu')
+        .analyze();
+      expect(serious(results.violations)).toEqual([]);
+    });
+
+    // color-contrast is off here: chicago-400 links (3.59:1) and the archive notice (4.46:1) are the
+    // known sidebar contrast issue (axe.spec.ts knownIssues, chrome)
+    test(`desktop sidebar groups and links have no other serious violations on ${path}`, async ({ page }) => {
+      await page.setViewportSize({ width: 1440, height: 900 });
+      await page.goto(path);
+      await hydratedSidebar(page);
+
+      const results = await new AxeBuilder({ page })
+        .withTags(tags)
+        .include('aside.site-sidebar')
+        .disableRules(['color-contrast'])
+        .analyze();
+      expect(serious(results.violations)).toEqual([]);
+    });
+  }
+
+  test('mobile header and menu sheet have no serious violations', async ({ page }) => {
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto('/freiburg/');
+    await expect(page.locator('.site-mobile-header astro-island[ssr]')).toHaveCount(0);
+    let results = await new AxeBuilder({ page }).withTags(tags).include('header.site-mobile-header').analyze();
+    expect(serious(results.violations)).toEqual([]);
+
+    await page.getByRole('button', { name: 'Open menu' }).click();
+    await expect(page.locator('[data-testid="mobile-menu"][data-state="open"]')).toBeVisible();
+    results = await new AxeBuilder({ page }).withTags(tags).include('[data-testid="mobile-menu"]').analyze();
+    expect(serious(results.violations)).toEqual([]);
   });
 });
