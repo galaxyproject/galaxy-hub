@@ -1,0 +1,98 @@
+---
+/**
+ * Event facts for the gradient page header of event and conference pages: date, location and
+ * contacts, each with a visible label. Same look as the inline block it replaced: a gold icon
+ * beside each label and value, the date range as plain text without the list duration pill.
+ */
+import EventDate from './EventDate.astro';
+import Icon from '../ui/Icon.astro';
+
+interface LocationData {
+  name?: string;
+  city?: string;
+  country?: string;
+}
+
+interface Contact {
+  name?: string;
+  email?: string;
+}
+
+interface Props {
+  date?: Date | string;
+  end?: Date | string;
+  location?: string | LocationData | null;
+  /** Frontmatter allows one contact object or a list. */
+  contacts?: Contact[] | Contact | null;
+}
+
+const { date, end, location, contacts } = Astro.props;
+
+function getLocationText(loc: string | LocationData | null | undefined): string {
+  if (!loc) return '';
+  if (typeof loc === 'string') return loc;
+  return [loc.name, loc.city, loc.country].filter(Boolean).join(', ');
+}
+
+const contactList = Array.isArray(contacts) ? contacts : contacts ? [contacts] : [];
+const locationText = getLocationText(location);
+const contactText = contactList
+  .map((c) => c?.name || c?.email)
+  .filter(Boolean)
+  .join(', ');
+const itemClass = 'relative pl-8';
+const labelClass = 'block font-medium text-white';
+const iconClass = 'absolute left-0 top-0.5 flex text-galaxy-gold';
+---
+
+{(date || locationText || contactText) && <dl
+  class="event-header-meta mt-4 grid grid-cols-1 gap-4 text-sm text-white/80 sm:grid-cols-2"
+>
+  {date && <div class={itemClass}>
+    <dt class={labelClass}>
+      <span class={iconClass} aria-hidden="true"><Icon name="calendar" class="h-5 w-5" /></span>
+      Date
+    </dt>
+    <dd>
+      <EventDate start={date} end={end} format={{ short: false, weekday: true }} />
+    </dd>
+  </div>}
+
+  {locationText && <div class={itemClass}>
+    <dt class={labelClass}>
+      <span class={iconClass} aria-hidden="true"><Icon name="location" class="h-5 w-5" /></span>
+      Location
+    </dt>
+    <dd>{locationText}</dd>
+  </div>}
+
+  {contactText && <div class={itemClass}>
+    <dt class={labelClass}>
+      <span class={iconClass} aria-hidden="true"><Icon name="user" class="h-5 w-5" /></span>
+      Contact
+    </dt>
+    <dd>{contactText}</dd>
+  </div>}
+</dl>}
+
+<style>
+  /* The shared EventDate line is styled for light list cards; on the header it reads as plain text. */
+  .event-header-meta :global(.gx-event-date) {
+    display: inline;
+    color: inherit;
+  }
+
+  .event-header-meta :global(.gx-event-date__icon),
+  .event-header-meta :global(.gx-event-date__dur) {
+    display: none;
+  }
+
+  .event-header-meta :global(.gx-event-date__range) {
+    max-width: none;
+    font-weight: inherit;
+  }
+
+  .event-header-meta :global(.gx-event-date__range time) {
+    white-space: normal;
+  }
+</style>
