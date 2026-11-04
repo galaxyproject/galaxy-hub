@@ -11,7 +11,8 @@ location:
   country: The Netherlands
 contact: Mirela Minkova
 tags: [hackathon, tools, training]
-subsites: [eu]
+subsites: [global, eu]
+main_subsite: eu
 contributions:
   organisers:
     - mirelaminkova
