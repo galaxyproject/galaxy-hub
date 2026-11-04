@@ -109,20 +109,3 @@ export function getSubsiteStaticPaths() {
       props: { subsiteInfo: s },
     }));
 }
-
-// Helper: navigate to subsite landing page
-export function navigateToSubsiteMain(id: SubsiteId) {
-  const subsite = subsites.find((s) => s.id === id);
-  if (!subsite || typeof window === 'undefined') return;
-
-  if ('external' in subsite && subsite.external) {
-    window.location.href = subsite.external;
-    return;
-  }
-
-  // Global intentionally routes to the onboarding landing page instead of `/`.
-  const targetPath = id === 'global' ? '/get-started/' : subsite.path || '/';
-  if (window.location.pathname !== targetPath) {
-    window.location.href = targetPath;
-  }
-}
