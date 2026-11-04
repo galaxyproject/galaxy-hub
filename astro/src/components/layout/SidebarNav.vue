@@ -4,7 +4,6 @@ import { useStore } from '@nanostores/vue';
 import { currentPathname, type SubsiteId } from '@/stores/subsiteStore';
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible';
 import { ChevronDown } from '@lucide/vue';
-import SubsiteSwitcher from './SubsiteSwitcher.vue';
 import {
   getDefaultSidebarNavigation,
   groupSidebarNavigation,
@@ -196,11 +195,6 @@ const bottomLinkClass =
           </Collapsible>
         </li>
       </ul>
-    </div>
-
-    <!-- Region Selector -->
-    <div class="pt-4 border-t border-ebony-clay-700">
-      <SubsiteSwitcher :initial-subsite="initialSubsite" />
     </div>
 
     <!-- Bottom links (@jxtx Foundation) -->
