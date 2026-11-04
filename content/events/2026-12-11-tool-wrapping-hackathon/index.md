@@ -14,9 +14,12 @@ tags: [hackathon, tools, training]
 subsites: [global, eu]
 main_subsite: eu
 contributions:
+  authorship:
+    - mirelaminkova
+  infrastructure:
+    - surf
   organisers:
     - mirelaminkova
-    - surf
 ---
 
 _Make your command-line tool usable by thousands of researchers - without them ever touching a terminal._
