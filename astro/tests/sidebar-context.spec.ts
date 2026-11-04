@@ -156,7 +156,11 @@ async function clientNavigate(page: Page, href: string) {
     document.body.append(link);
     link.click();
   }, href);
-  await expect(page).toHaveURL(new RegExp(`${href}$`));
+  await expect(page).toHaveURL((url) => url.pathname === href);
+  await expectNoReload(page);
+}
+
+async function expectNoReload(page: Page) {
   expect(await page.evaluate(() => (window as unknown as { __noReload?: boolean }).__noReload)).toBe(true);
 }
 
@@ -168,6 +172,7 @@ test.describe('Subsite scope follows the URL', () => {
     await clientNavigate(page, '/news/');
     await expect(page.locator('.news-list')).toBeVisible();
     await expect(page.getByText('Showing news for')).toHaveCount(0);
+    await expectNoReload(page);
   });
 
   test('a region list is filtered after client-side navigation from a global page', async ({ page }) => {
@@ -177,6 +182,7 @@ test.describe('Subsite scope follows the URL', () => {
 
     await clientNavigate(page, '/freiburg/news/');
     await expect(page.getByText('Showing news for')).toContainText('Freiburg');
+    await expectNoReload(page);
   });
 });
 
