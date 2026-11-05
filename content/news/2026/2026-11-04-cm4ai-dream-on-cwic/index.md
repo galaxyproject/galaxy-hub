@@ -3,7 +3,7 @@ title: "The CM4AI-AnVIL DREAM Challenge data is ready to analyze on CWIC"
 date: '2026-11-04'
 tease: "All of the challenge's training images are in a data library on the CFDE Cloud Workspace Galaxy, with a workflow and tutorial to get you to a first scored baseline. No downloads needed."
 hide_tease: false
-tags: [data, imaging, workflows, hackathon]
+tags: [data, imaging, workflow, hackathon]
 subsites: [global, us]
 main_subsite: us
 contributions:
