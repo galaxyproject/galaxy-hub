@@ -100,7 +100,7 @@ const viewports = {
 };
 type ViewportName = keyof typeof viewports;
 
-// BaseLayout chrome: sidebar (main nav, region switcher), mobile banner header and site footer.
+// BaseLayout chrome: sidebar (main nav, context header), mobile banner header and site footer.
 // print.css hides the same three hooks. HomeLayout, EmbedLayout and the bare pages have none of them.
 const chromeSelectors = ['aside.site-sidebar', 'header.site-mobile-header', 'footer.site-footer'];
 const chromePage = '/community/';
@@ -120,7 +120,7 @@ const knownIssues: Record<string, Record<string, KnownIssue>> = {
   [chromeKey]: {
     'color-contrast': {
       reason:
-        'sidebar and footer text-chicago-400 on #2c3143 is 3.59:1 (SidebarNav.vue, SubsiteSwitcher.vue, Sidebar.astro, BaseLayout.astro); mobile shows only the footer',
+        'sidebar and footer text-chicago-400 on #2c3143 is 3.59:1 (SidebarNav.vue, Sidebar.astro, BaseLayout.astro); mobile shows only the footer',
       viewports: both,
     },
   },
