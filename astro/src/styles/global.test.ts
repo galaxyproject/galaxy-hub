@@ -109,9 +109,16 @@ describe('global.css theme roles', () => {
   });
 
   it('maps the Tailwind shadows to elevation roles with a light and a dark value', () => {
+    // Light values must stay Tailwind's defaults, or every shadow utility changes on screen.
+    const tailwindDefaults: Record<string, string> = {
+      xs: '0 1px 2px 0 rgb(0 0 0 / 0.05)',
+      sm: '0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)',
+      md: '0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)',
+      lg: '0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)',
+    };
     for (const step of ['xs', 'sm', 'md', 'lg']) {
       expect(theme.get(`--shadow-${step}`)).toBe(`var(--gx-elev-${step})`);
-      expect(light.get(`--gx-elev-${step}`)).toBeTruthy();
+      expect(light.get(`--gx-elev-${step}`)).toBe(tailwindDefaults[step]);
       expect(dark.get(`--gx-elev-${step}`)).toBeTruthy();
     }
   });
