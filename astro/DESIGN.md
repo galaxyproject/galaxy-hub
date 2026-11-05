@@ -172,22 +172,22 @@ Reading layouts (`ContentWithToc`, `PlatformLayout`) render Markdown with `prose
   border-left: 4px solid #ffd700;
   background-color: rgba(255, 215, 0, 0.03);
   padding: 1rem;
-  border-radius: 0 0.5rem 0.5rem 0;
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
 }
 
 /* Tables: galaxy-primary header */
-.prose th { background-color: #25537b; color: white; font-weight: 600; }
+.prose th { background-color: var(--gx-brand); color: var(--gx-on-brand); font-weight: 600; }
 
 /* Links: underlined; hover = darker blue text + 2px gold-600 underline (gold text on white is 1.40:1) */
 .prose a { text-decoration-color: var(--gx-link-line); }
 .prose a:hover { color: var(--gx-link-hover); text-decoration-color: var(--gx-link-hover-line); text-decoration-thickness: 2px; }
 
 /* Code blocks: dark background */
-.prose pre { background-color: #1f2937; border-radius: 0.5rem; }
+.prose pre { background-color: #1f2937; border-radius: var(--radius-md); }
 .prose code:not(pre code) { background-color: #f3f4f6; font-size: 0.875em; }
 
 /* Images: rounded, centered */
-.prose img { border-radius: 0.5rem; margin-left: auto; margin-right: auto; }
+.prose img { border-radius: var(--radius-md); margin-left: auto; margin-right: auto; }
 ```
 
 ### Tables
@@ -264,7 +264,7 @@ The `gx-tile` system is the content-authored counterpart to the card pattern abo
 
 Variants and elements:
 
-- `gx-tile` -- base tile: white, `border-galaxy-primary/10`, `rounded-lg`, `shadow-sm`.
+- `gx-tile` -- base tile: white, `border-galaxy-primary/10`, `--radius-md` (8px), `shadow-xs`.
 - `gx-tile--link` -- the whole tile is an `<a>`; adds the signature gold hover bar (left edge, `scaleX`) and lifts to `shadow-md`. The card text keeps its colours on hover; only `gx-tile__more` takes the link hover (darker blue, gold underline). Keep contents plain (no nested links/markdown).
 - `gx-tile--feature` -- galaxy-primary left border for emphasized tiles.
 - `gx-tile__media` (160px cover image), `gx-tile__title`, `gx-tile__body` (richer markdown bodies -- separate inner content with blank lines so Markdown renders), `gx-tile__teaser` (short plain text), `gx-tile__credit` (small chicago-500 caption, e.g. photo credits), `gx-tile__more` (link affordance).
@@ -296,7 +296,7 @@ Jane Doe is ... (markdown bio)
 </div>
 ```
 
-`.profile-row`: flex row, 200px photo column with a `rounded-lg` photo.
+`.profile-row`: flex row, 200px photo column with a `--radius-md` (8px) photo.
 
 ### Buttons
 
@@ -483,7 +483,7 @@ Float-right content sidebar used in articles:
 ```css
 .linkbox {
   float: right; width: 200px; margin: 0 0 1rem 1.5rem;
-  padding: 1rem; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 0.5rem;
+  padding: 1rem; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: var(--radius-md);
 }
 @media (max-width: 768px) { .linkbox { float: none; width: 100%; } }
 ```
@@ -594,11 +594,14 @@ Astro's built-in View Transitions are enabled site-wide. The dev server is case-
 
 ### Border Radius Scale
 
-| Size | Used For |
-|------|----------|
-| `rounded-md` | Small controls: inputs, buttons, toolbar items |
-| `rounded-lg` | Cards, content surfaces, hero blocks -- the default for surfaces |
-| `rounded-full` | Pills, circular badges, avatars |
+| Utility | Token | Value | Used For |
+|---------|-------|-------|----------|
+| `rounded-sm` | `--radius-sm` | 6px | Menu items, small inline marks |
+| `rounded-md` | `--radius-md` | 8px | Small controls: inputs, buttons, toolbar items; the content blocks in `global.css` (`.gx-tile`, `.callout`, `.linkbox`, `.prose pre`, `.prose img`, profile photos) |
+| `rounded-lg` | `--radius-lg` | 10px | Cards, content surfaces, hero blocks -- the default for surfaces |
+| `rounded-full` | - | 9999px | Pills, circular badges, avatars |
+
+All three steps derive from `--radius` (10px). Plain CSS uses the tokens (`border-radius: var(--radius-md)`), never a px or rem literal. Inline code keeps its 4px corner, below the scale.
 
 Don't reach for `rounded-xl` / `rounded-2xl` -- we don't use them.
 
@@ -666,10 +669,12 @@ The Hub uses a layered depth model rather than heavy shadow stacking:
 
 ### Shadows
 
+- **`shadow-xs`**: Controls (inputs, outline buttons) and content tiles (`.gx-tile`)
 - **`shadow-sm`**: Default for cards on light backgrounds -- subtle, professional
-- **`shadow-md`**: Cards on dark backgrounds where more lift is needed
+- **`shadow-md`**: Cards on dark backgrounds where more lift is needed; the `gx-tile--link` hover lift
 - **`shadow-lg`**: Reserved for overlay UI (sheets, dialogs) -- never on standard cards
 - **No `shadow-xl` / `shadow-2xl`**: depth comes from the layered background model, not shadow stacking
+- **Tokens**: the four steps read the elevation roles `--gx-elev-xs` ... `--gx-elev-lg` (`global.css`, light in `:root`, dark in `.dark`), so the utilities follow the theme. Light values are Tailwind's defaults; dark values are darker and denser. Exception: `bootstrap-compat.css` defines `.shadow-sm` and `.shadow` with `!important` Bootstrap literals, so the plain `shadow-sm` class still renders `0 0.125rem 0.25rem rgb(0 0 0 / 0.075)` and does not read the role; variant forms (`hover:shadow-sm`) do. Plain CSS uses `var(--gx-elev-*)`, never a shadow literal. Shadow colour utilities (`shadow-black/20`) do not apply to these steps; we do not use them.
 
 ### Borders
 
