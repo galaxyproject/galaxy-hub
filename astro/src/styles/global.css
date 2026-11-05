@@ -246,7 +246,7 @@ body {
   --gx-fg-2: #4f4e50; /* chicago-700, 8.27:1 */
   --gx-fg-meta: #58585a; /* galaxy-grey, 7.10:1 */
   --gx-fg-faint: #878789; /* chicago-400, 3.59:1: decoration only, never text */
-  --gx-fg-letter: #5f7f9c; /* 4.20:1: large A-Z index letters */
+  --gx-fg-letter: #5f7f9c; /* 4.20:1: large text only (>=24px or 18.66px bold, 3:1), A-Z index letters */
   --gx-fg-brand: #1f4465; /* bay-of-many-950, 9.13:1 on surface-tint */
   --gx-link: #25537b; /* galaxy-primary, 8.07:1 */
   --gx-link-hover: #1f4465; /* 10.13:1 */
