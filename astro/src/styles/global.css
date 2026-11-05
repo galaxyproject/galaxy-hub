@@ -697,8 +697,8 @@ body {
 }
 
 .prose th {
-  background-color: #25537b;
-  color: white;
+  background-color: var(--gx-brand);
+  color: var(--gx-on-brand);
   font-weight: 600;
 }
 
@@ -737,7 +737,7 @@ body {
 
 .linkbox a {
   display: block;
-  color: #25537b;
+  color: var(--gx-link);
   text-decoration: none;
   padding: 0.25rem 0;
 }
@@ -776,7 +776,7 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  background-color: #fff;
+  background-color: var(--gx-surface-raised);
   border: 1px solid color-mix(in srgb, var(--color-galaxy-primary) 10%, transparent);
   border-radius: var(--radius-md);
   box-shadow: var(--gx-elev-xs);

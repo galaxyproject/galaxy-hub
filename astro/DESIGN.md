@@ -176,7 +176,7 @@ Reading layouts (`ContentWithToc`, `PlatformLayout`) render Markdown with `prose
 }
 
 /* Tables: galaxy-primary header */
-.prose th { background-color: #25537b; color: white; font-weight: 600; }
+.prose th { background-color: var(--gx-brand); color: var(--gx-on-brand); font-weight: 600; }
 
 /* Links: underlined; hover = darker blue text + 2px gold-600 underline (gold text on white is 1.40:1) */
 .prose a { text-decoration-color: var(--gx-link-line); }
