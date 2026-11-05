@@ -93,7 +93,9 @@ You can upload your files in various ways in the upload section on the left side
 - [Whisper](https://galaxyproject.org/news/2024-04-25-whisper-tool/): Audio to text conversion
 - WhisperX: Audio conversion including speaker diarisation
 - FFmpeg Format Converter: Convert between video and audio formats
-- New Fave for forced alignment and vowel extraction   
+- New Fave for forced alignment and vowel extraction
+- Montreal Forced Aligner for speech-text alignment
+- Praat for speech analysis
 
 ### 🎞️ **Image  and video tools**
 - Tesseract: Optical Character Recognition (OCR). You can see an example workflow using Tesseract to transcribe a German newspaper in [this video](https://usegalaxy.eu/static/share/OCR.mp4)
@@ -125,12 +127,14 @@ You can upload your files in various ways in the upload section on the left side
 - RStudio
 - QGIS
 - Jupyter Notebook
-- LibreQDA: An open source alternative for Qualitative Data Analysis
+- LibreQDA: An open-source alternative for Qualitative Data Analysis
+- Praat for speech analysis
 
 ### 📊 **Visualisations**
-- General: Bar chart, Histogram, Scatterplot, Plotting tool for multiple series, Boxplot, etc.
+- General: Bar chart, Histogram, Scatter plot, Plotting tool for multiple series, Box plot, etc.
 - Word cloud
 - OpenLayers map: Visualise locations on a map with GeoJSON
+- Webdata Warc explorer: A tiny application for client-side exploration of WARC files and records in a browser.
     
 ### 🔍 **Research tools**
 -  OpenAlex explorer: Research and fetch papers from OpenAlex using DOI or title
@@ -147,6 +151,7 @@ You can upload your files in various ways in the upload section on the left side
 - Yolo DocLayout: Document layout analysis - click [here](https://galaxyproject.org/news/2026-01-07-hf-integration/) for an example workflow.
 - SAM 3: AI-based Semantic Segmentation of Videos and Images
 - [LangChain Text Splitter](https://galaxyproject.org/news/2026-10-02-langchain-text-splitters/)
+- Montreal Forced Aligner for speech-text alignment
 
 ### **Domain-specific tools**
 - [ONTO-ToolKit](https://doi.org/10.1186/1471-2105-11-S12-S8) working with OBO files for ontologies
@@ -160,7 +165,6 @@ to repositories](https://usegalaxy.eu/root?tool_id=export_remote) allows you to 
 - Kraken (HTR) 
 - Stanford Core NLP: Natural language processing tool
 - SpaCy
-- Montreal Forced Aligner (MFA)
 
 If tools are missing or the list is outdated, please let us know. We are available via this [Matrix Channel](https://matrix.to/#/#galaxyproject-digital-humanities:matrix.org)
 
