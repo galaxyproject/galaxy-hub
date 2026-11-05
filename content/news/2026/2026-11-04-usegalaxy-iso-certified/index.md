@@ -1,7 +1,7 @@
 ---
 title: "usegalaxy.eu's information security is certified – we passed the annual audit"
 date: "2026-11-04"
-tease: "Did you know the computer center, usegalaxy.eu runs on is ISO 27001 certified since 2022? Let us explain what that means."
+tease: "Did you know the computer center, usegalaxy.eu runs on is ISO 27001 certified since 2021? Let us explain what that means."
 subsites: [eu, freiburg]
 main_subsite: eu
 tags: [eu, freiburg, policy, infrastructure, security, support]
@@ -17,7 +17,7 @@ contributions:
     - elixir-europe
 ---
 # usegalaxy.eu's information security is certified – we passed the annual audit!
-Did you know that the computer center, usegalaxy.eu runs on, has been ISO 27001 certified since 2022? This means the Freiburg University computer center has implemented an information security management system (ISMS), a structured framework of policies, processes, and controls to systematically manage and protect sensitive information. By improving cybersecurity and availability, this certification benefits the whole Galaxy Europe community and serves as proof of our information security practice to partners and funders. The annual surveillance audit was successfully completed last week – a good opportunity, therefore, to raise awareness about it.  
+Did you know that the computer center, usegalaxy.eu runs on, has been ISO 27001 certified since 2021? This means the Freiburg University computer center has implemented an information security management system (ISMS), a structured framework of policies, processes, and controls to systematically manage and protect sensitive information. By improving cybersecurity and availability, this certification benefits the whole Galaxy Europe community and serves as proof of our information security practice to partners and funders. The annual surveillance audit was successfully completed last week – a good opportunity, therefore, to raise awareness about it.  
 
 ## What is ISO 27001 about? What are the requirements?
 The requirements of the ISO 27001 standard can be seen as three pillars that are examined when an organization is evaluated. The standard's requirements are organized in seven clauses (4-10): Context of the organization, Leadership, Planning, Support, Operation, Performance Evaluation, and Improvement, but summarizing them in three pillars makes it more explainable.
