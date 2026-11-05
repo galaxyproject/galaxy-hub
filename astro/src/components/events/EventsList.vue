@@ -2,15 +2,17 @@
 import { ref, computed, onMounted, onUnmounted, watch } from 'vue';
 import { useStore } from '@nanostores/vue';
 import { currentSubsite, subsites, type SubsiteId } from '@/stores/subsiteStore';
-import { getUTCYear, isUpcomingEvent, isPastEvent } from '@/utils/dateUtils';
+import { isUpcomingEvent, isPastEvent } from '@/utils/dateUtils';
 import { contentMatchesSubsite } from '@/utils/subsites';
-import { onPopState, readParams, writeParams } from '@/utils/urlFilters';
+import { isOnPage, onPopState, parseYearParam, readParams, writeParams } from '@/utils/urlFilters';
+import { countByYear, matchesTerms, queryTerms, yearOf } from '@/utils/listFilters';
 import { LIST_VIEW_DEFAULT, parseListView, type ListView } from '@/utils/listView';
 import { eventSearchText, parseEventStatus, type EventLocation, type EventStatus } from '@/utils/eventFilters';
 import FilterBar from '../filters/FilterBar.vue';
 import ViewToggle from '../filters/ViewToggle.vue';
 import ExternalIcon from '../common/ExternalIcon.vue';
 import EventDate from './EventDate.vue';
+import type { YearValue } from '../filters/types';
 
 interface EventData {
   slug: string;
@@ -31,6 +33,8 @@ const props = withDefaults(
   defineProps<{
     events: EventData[];
     initialSubsite?: SubsiteId;
+    /** This page's path, for the late-hydration guard (isOnPage). */
+    path: string;
     /** False on the archive: past events only, no status filter. */
     showUpcoming?: boolean;
   }>(),
@@ -49,15 +53,9 @@ const effectiveSubsite = computed(() =>
 // status (upcoming | past, null = both), view. "Load more" stays out.
 const FILTER_PARAMS = { q: null, year: null, tag: null, status: null, view: LIST_VIEW_DEFAULT };
 
-function parseYear(param: string | null): number | null {
-  if (!param) return null;
-  const parsed = Number(param);
-  return Number.isFinite(parsed) ? parsed : null;
-}
-
 // Read from the URL after mount: the server render has no query, and hydration must match it
 const searchQuery = ref('');
-const selectedYear = ref<number | null>(null);
+const selectedYear = ref<YearValue>(null);
 const selectedTag = ref<string | null>(null);
 const selectedStatus = ref<EventStatus | null>(null);
 const view = ref<ListView>(LIST_VIEW_DEFAULT);
@@ -79,7 +77,9 @@ const statusOptions = computed(() =>
 function applyUrlFilters() {
   const params = readParams(FILTER_PARAMS);
   searchQuery.value = params.q ?? '';
-  selectedYear.value = parseYear(params.year);
+  // Events have no "Unknown year" chip, so ?year=unknown means all years
+  const year = parseYearParam(params.year);
+  selectedYear.value = year === 'unknown' ? null : year;
   selectedTag.value = params.tag;
   selectedStatus.value = props.showUpcoming ? parseEventStatus(params.status) : null;
   view.value = parseListView(params.view);
@@ -93,6 +93,8 @@ let stopPopState = () => {};
 
 // Set initial subsite from URL route if provided
 onMounted(() => {
+  // Mounted after back/forward already left this page: leave the other page's URL and region alone
+  if (!isOnPage(props.path)) return;
   if (props.initialSubsite && props.initialSubsite !== 'global') {
     currentSubsite.set(props.initialSubsite);
   }
@@ -108,12 +110,7 @@ function loadMorePast() {
   pastDisplayCount.value += pageSize;
 }
 
-// Get year from event
-function getYear(event: EventData): number | null {
-  if (!event.date) return null;
-  const date = new Date(event.date);
-  return isNaN(date.getTime()) ? null : getUTCYear(date);
-}
+const getYear = (event: EventData) => yearOf(event.date);
 
 // Filter events based on current subsite
 const filteredEvents = computed(() => {
@@ -170,12 +167,10 @@ const searchText = computed(() => {
 });
 
 // Every word of the query must appear in the title, tease or location
-const queryTerms = computed(() => searchQuery.value.toLowerCase().split(/\s+/).filter(Boolean));
+const terms = computed(() => queryTerms(searchQuery.value));
 
 function matchesQuery(event: EventData): boolean {
-  if (queryTerms.value.length === 0) return true;
-  const text = searchText.value.get(event) ?? '';
-  return queryTerms.value.every((term) => text.includes(term));
+  return matchesTerms(searchText.value.get(event) ?? '', terms.value);
 }
 
 function matchesTag(event: EventData): boolean {
@@ -192,26 +187,17 @@ const statusEvents = computed(() => [
   ...(showPastSection.value ? allPastEvents.value : []),
 ]);
 
-// Every year with an upcoming or past event in this subsite, newest first
-const availableYears = computed(() => {
-  const years = new Set<number>();
-  [...allUpcomingEvents.value, ...allPastEvents.value].forEach((event) => {
-    const year = getYear(event);
-    if (year) years.add(year);
-  });
-  return Array.from(years).sort((a, b) => b - a);
-});
-
-// Year chip counts follow the text, tag and status filters
+// Every year with an upcoming or past event in this subsite, newest first; chip counts follow the
+// text, tag and status filters
 const yearOptions = computed(() => {
-  const counts = new Map<number, number>();
-  statusEvents.value.forEach((event) => {
-    if (!matchesQuery(event) || !matchesTag(event)) return;
-    const year = getYear(event);
-    if (year) counts.set(year, (counts.get(year) ?? 0) + 1);
-  });
-  return availableYears.value.map((year) => ({ year, count: counts.get(year) ?? 0 }));
+  const shown = new Set(statusEvents.value);
+  return countByYear(
+    [...allUpcomingEvents.value, ...allPastEvents.value],
+    getYear,
+    (event) => shown.has(event) && matchesQuery(event) && matchesTag(event)
+  );
 });
+const availableYears = computed(() => yearOptions.value.map((option) => option.year));
 
 // Every tag in this subsite, A-Z; counts follow the text, year and status filters
 const tagOptions = computed(() => {
@@ -231,7 +217,7 @@ const tagOptions = computed(() => {
 
 // Drop a year or tag this subsite does not have (a stale or mistyped param), so the bar and the list agree
 watch([selectedYear, availableYears], ([year, years]) => {
-  if (year !== null && !years.includes(year)) selectedYear.value = null;
+  if (typeof year === 'number' && !years.includes(year)) selectedYear.value = null;
 });
 watch([selectedTag, tagOptions], ([tag, options]) => {
   if (tag !== null && !options.some((option) => option.value === tag)) selectedTag.value = null;

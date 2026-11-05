@@ -56,7 +56,7 @@ const eventData = events.map((e) => ({
     </PageHeader>
 
     <div class="bg-white rounded-b-lg shadow-sm px-6 sm:px-8 py-6">
-      <EventsList client:only="vue" events={eventData} initialSubsite={subsiteId} />
+      <EventsList client:only="vue" events={eventData} initialSubsite={subsiteId} path={Astro.url.pathname} />
     </div>
   </div>
 </BaseLayout>

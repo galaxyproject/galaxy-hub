@@ -2,13 +2,15 @@
 import { ref, computed, onMounted, onUnmounted, watch } from 'vue';
 import { useStore } from '@nanostores/vue';
 import { currentSubsite, subsites, type SubsiteId } from '@/stores/subsiteStore';
-import { formatDate, getUTCYear } from '@/utils/dateUtils';
+import { formatDate } from '@/utils/dateUtils';
 import { contentMatchesSubsite } from '@/utils/subsites';
-import { onPopState, readParams, writeParams } from '@/utils/urlFilters';
+import { isOnPage, onPopState, parseYearParam, readParams, writeParams } from '@/utils/urlFilters';
+import { countByYear, matchesTerms, queryTerms, yearOf } from '@/utils/listFilters';
 import { LIST_VIEW_DEFAULT, parseListView, type ListView } from '@/utils/listView';
 import FilterBar from '../filters/FilterBar.vue';
 import ViewToggle from '../filters/ViewToggle.vue';
 import ExternalIcon from '../common/ExternalIcon.vue';
+import type { YearValue } from '../filters/types';
 
 interface NewsArticle {
   slug: string;
@@ -28,6 +30,8 @@ interface NewsArticle {
 const props = defineProps<{
   articles: NewsArticle[];
   initialSubsite?: SubsiteId;
+  /** This page's path, for the late-hydration guard (isOnPage). */
+  path: string;
 }>();
 
 const $subsite = useStore(currentSubsite);
@@ -39,15 +43,9 @@ const effectiveSubsite = computed(() =>
 // URL params, in this order: q (title + tease text), year (null = all years), tag, view. "Load more" stays out.
 const FILTER_PARAMS = { q: null, year: null, tag: null, view: LIST_VIEW_DEFAULT };
 
-function parseYear(param: string | null): number | null {
-  if (!param) return null;
-  const parsed = Number(param);
-  return Number.isFinite(parsed) ? parsed : null;
-}
-
 // Read from the URL after mount: the server render has no query, and hydration must match it
 const searchQuery = ref('');
-const selectedYear = ref<number | null>(null);
+const selectedYear = ref<YearValue>(null);
 const selectedTag = ref<string | null>(null);
 const view = ref<ListView>(LIST_VIEW_DEFAULT);
 const isTiles = computed(() => view.value === 'tiles');
@@ -57,7 +55,9 @@ const displayCount = ref(pageSize);
 function applyUrlFilters() {
   const params = readParams(FILTER_PARAMS);
   searchQuery.value = params.q ?? '';
-  selectedYear.value = parseYear(params.year);
+  // News has no "Unknown year" chip, so ?year=unknown means all years
+  const year = parseYearParam(params.year);
+  selectedYear.value = year === 'unknown' ? null : year;
   selectedTag.value = params.tag;
   view.value = parseListView(params.view);
 }
@@ -66,6 +66,8 @@ let stopPopState = () => {};
 
 // Set initial subsite from URL route if provided
 onMounted(() => {
+  // Hydrated after back/forward already left this page: leave the other page's URL and region alone
+  if (!isOnPage(props.path)) return;
   if (props.initialSubsite && props.initialSubsite !== 'global') {
     currentSubsite.set(props.initialSubsite);
   }
@@ -88,12 +90,7 @@ const filteredBySubsite = computed(() => {
   });
 });
 
-// Get year from article
-function getYear(article: NewsArticle): number | null {
-  if (!article.date) return null;
-  const date = new Date(article.date);
-  return isNaN(date.getTime()) ? null : getUTCYear(date);
-}
+const getYear = (article: NewsArticle) => yearOf(article.date);
 
 // Lower-cased title + tease, built once per article list
 const searchText = computed(() => {
@@ -105,12 +102,10 @@ const searchText = computed(() => {
 });
 
 // Every word of the query must appear in the title or tease
-const queryTerms = computed(() => searchQuery.value.toLowerCase().split(/\s+/).filter(Boolean));
+const terms = computed(() => queryTerms(searchQuery.value));
 
 function matchesQuery(article: NewsArticle): boolean {
-  if (queryTerms.value.length === 0) return true;
-  const text = searchText.value.get(article) ?? '';
-  return queryTerms.value.every((term) => text.includes(term));
+  return matchesTerms(searchText.value.get(article) ?? '', terms.value);
 }
 
 function matchesTag(article: NewsArticle): boolean {
@@ -121,32 +116,19 @@ function matchesYear(article: NewsArticle): boolean {
   return selectedYear.value === null || getYear(article) === selectedYear.value;
 }
 
-// Available years (sorted descending)
-const availableYears = computed(() => {
-  const years = new Set<number>();
-  filteredBySubsite.value.forEach((article) => {
-    const year = getYear(article);
-    if (year) years.add(year);
-  });
-  return Array.from(years).sort((a, b) => b - a);
-});
+// Every year in this subsite, newest first; only the subsite changes it, not the text or tag filters
+const availableYears = computed(() => countByYear(filteredBySubsite.value, getYear).map((option) => option.year));
+
+// Year chip counts follow the text and tag filters
+const yearOptions = computed(() =>
+  countByYear(filteredBySubsite.value, getYear, (article) => matchesQuery(article) && matchesTag(article))
+);
 
 // Keep selected year valid when available years change
 watch(availableYears, (years) => {
-  if (selectedYear.value !== null && !years.includes(selectedYear.value)) {
+  if (typeof selectedYear.value === 'number' && !years.includes(selectedYear.value)) {
     selectedYear.value = years[0] ?? null;
   }
-});
-
-// Year chip counts follow the text and tag filters
-const yearOptions = computed(() => {
-  const counts = new Map<number, number>();
-  filteredBySubsite.value.forEach((article) => {
-    if (!matchesQuery(article) || !matchesTag(article)) return;
-    const year = getYear(article);
-    if (year) counts.set(year, (counts.get(year) ?? 0) + 1);
-  });
-  return availableYears.value.map((year) => ({ year, count: counts.get(year) ?? 0 }));
 });
 
 // Every tag in this subsite, A-Z; counts follow the text and year filters

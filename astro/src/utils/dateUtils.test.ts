@@ -56,6 +56,15 @@ describe('formatDateRange with format options', () => {
     expect(formatDateRange('2026-10-12', undefined, { year: false })).toBe('Oct 12');
   });
 
+  it('keeps the end year when a year-less range crosses into the next year', () => {
+    // The archive lists rows under the start year's heading, so only the end year is new
+    expect(formatDateRange('2024-12-30', '2025-01-02', { year: false })).toBe('Dec 30 - Jan 2, 2025');
+    expect(eventDateParts('2024-12-30', '2025-01-02', { year: false })).toMatchObject({
+      start: 'Dec 30',
+      end: 'Jan 2, 2025',
+    });
+  });
+
   it('treats an end on the same UTC day as a one-day event', () => {
     expect(formatDateRange('2026-10-12', '2026-10-12T15:00:00Z')).toBe('Oct 12, 2026');
   });

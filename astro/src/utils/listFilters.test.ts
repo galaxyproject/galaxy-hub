@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { countByYear, matchesTerms, queryTerms } from './listFilters';
+import { countByYear, matchesTerms, queryTerms, yearOf } from './listFilters';
 
 describe('queryTerms', () => {
   it('lower-cases and splits on any whitespace', () => {
@@ -55,5 +55,21 @@ describe('countByYear', () => {
       { year: 2021, count: 1 },
       { year: 2019, count: 1 },
     ]);
+  });
+});
+
+describe('yearOf', () => {
+  it('reads the UTC year of a date string or Date', () => {
+    expect(yearOf('2020-06-01')).toBe(2020);
+    expect(yearOf(new Date(Date.UTC(2019, 11, 31, 23, 30)))).toBe(2019);
+    // Midnight UTC on New Year stays in the new year in every timezone
+    expect(yearOf('2021-01-01T00:00:00Z')).toBe(2021);
+  });
+
+  it('returns null for a missing or invalid date', () => {
+    expect(yearOf(undefined)).toBeNull();
+    expect(yearOf(null)).toBeNull();
+    expect(yearOf('')).toBeNull();
+    expect(yearOf('not a date')).toBeNull();
   });
 });

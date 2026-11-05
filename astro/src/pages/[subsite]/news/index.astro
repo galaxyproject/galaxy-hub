@@ -50,7 +50,7 @@ const articleData = newsArticles.map((a) => ({
     <PageHeader title={headerTitle} description={pageDescription} {eyebrow} />
 
     <div class="bg-white rounded-b-lg shadow-sm px-6 sm:px-8 py-6">
-      <NewsList client:load articles={articleData} initialSubsite={subsiteId} />
+      <NewsList client:load articles={articleData} initialSubsite={subsiteId} path={Astro.url.pathname} />
     </div>
   </div>
 </BaseLayout>

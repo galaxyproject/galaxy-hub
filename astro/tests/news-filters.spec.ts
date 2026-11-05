@@ -136,6 +136,20 @@ test.describe('News filter bar', () => {
     await expect(count(page)).not.toContainText('tagged');
   });
 
+  test('typing keeps the year from the URL, also one the list has no chip for', async ({ page }) => {
+    await openNews(page, '/news/?year=2020&q=galaxy');
+    await search(page).fill('galaxy training');
+    await expect(page).toHaveURL(/\/news\/\?q=galaxy\+training&year=2020$/);
+    await expect(count(page)).toContainText('in 2020 matching “galaxy training”');
+
+    // Only a region change re-picks the year: the text filter leaves the year list alone
+    await openNews(page, '/news/?year=1990&q=galaxy');
+    await expect(count(page)).toContainText('in 1990 matching “galaxy”');
+    await search(page).fill('galaxy training');
+    await expect(page).toHaveURL(/\/news\/\?q=galaxy\+training&year=1990$/);
+    await expect(count(page)).toContainText('in 1990 matching “galaxy training”');
+  });
+
   test('year chip counts follow the text search', async ({ page }) => {
     await openNews(page, '/news/?q=training');
     await expect(search(page)).toHaveValue('training');
