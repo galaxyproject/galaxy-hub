@@ -97,6 +97,7 @@ const pages: ScanTarget[] = [
   },
   { path: '/use/' },
   { path: '/search/' },
+  { path: '/hub/contributing/new/' }, // PostCreator
 ];
 
 const viewports = {
