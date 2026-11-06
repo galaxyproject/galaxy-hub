@@ -14,7 +14,11 @@ money and give you an opportunity to present your work.
 
 | Date   | What |
 | -----: | ---  |
-| November 2026 | Registration, abstract submission, and fellowship applications open |
+| November 15, 2026 | [Fellowship](/events/gcc2027/fellowships/) applications open |
+| November 2026 | Registration and abstract submission open |
+| February 15, 2027 | Fellowship applications due for the first review round |
+| March 15, 2027 | Fellowship applications close (second review round) |
+| March 25, 2027 | Fellowship awards announced |
 | TBA | Early registration closes and regular registration opens |
 | TBA | Abstract submissions for talks close |
 | TBA | Abstract submissions for posters & demos close |
