@@ -4,37 +4,10 @@ import vue from '@astrojs/vue';
 import tailwindcss from '@tailwindcss/vite';
 import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
-import { unified } from '@astrojs/markdown-remark';
-import rehypeSlug from 'rehype-slug';
-import rehypeAutolinkHeadings from 'rehype-autolink-headings';
-import rehypeScrollableTables from './src/build/rehype-scrollable-tables.mjs';
-import rehypeImageSize from './src/build/rehype-image-size.mjs';
+import { markdownConfig } from './src/build/markdown-config.mjs';
 import { collectDraftPaths, isDraftPageUrl } from './src/build/draft-pages.mjs';
 import generatedRedirects from './src/build/generated-redirects.json' with { type: 'json' };
 import releaseGuardiansRedirect from './src/data/release-guardians/redirect.json' with { type: 'json' };
-
-const autolinkConfig = {
-  behavior: 'append',
-  properties: {
-    class: 'heading-anchor',
-    ariaLabel: 'Link to this section',
-  },
-};
-
-// github-dark renders comments in #6A737D, 3.05:1 on its #24292E background; use its
-// lighter grey (5.34:1) so comments meet WCAG AA.
-const readableCodeComments = {
-  name: 'readable-code-comments',
-  tokens(lines) {
-    for (const line of lines) {
-      for (const token of line) {
-        if (token.color?.toLowerCase() === '#6a737d') {
-          token.color = '#959da5';
-        }
-      }
-    }
-  },
-};
 
 // Build redirect config with 301 status for SEO
 // Simple redirects: exact path mappings
@@ -70,21 +43,8 @@ export default defineConfig({
     mdx(),
     sitemap({ filter: (page) => !isDraftPageUrl(page, getDraftPaths()) }),
   ],
-  markdown: {
-    // Astro 7 defaults to the Sätteri pipeline, which does not run remark/rehype
-    // plugins. Opt back into unified() so rehype-slug + autolink headings keep working.
-    processor: unified({
-      rehypePlugins: [
-        rehypeSlug,
-        [rehypeAutolinkHeadings, autolinkConfig],
-        rehypeScrollableTables,
-        rehypeImageSize,
-      ],
-    }),
-    shikiConfig: {
-      transformers: [readableCodeComments],
-    },
-  },
+  // Shared with the post creator preview, so it renders bodies the way the site does
+  markdown: markdownConfig,
   vite: {
     define: {
       __VUE_PROD_HYDRATION_MISMATCH_DETAILS__: true,
