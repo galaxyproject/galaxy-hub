@@ -3,6 +3,10 @@ title: User-Defined Tools
 tease: "Write and run your own simple tools from the Galaxy interface — no server access, no admin installation, no Tool Shed."
 ---
 
+<div class="alert alert-warning" role="alert">
+<strong>This page will be deprecated.</strong> Galaxy's own documentation now carries the authoritative reference for User-Defined Tools: <a href="https://docs.galaxyproject.org/en/master/dev/user_defined_tools_authoring.html">Authoring User-Defined Tools</a>. Once that page is updated to cover everything here, this page will be retired and will point you there instead. When the two disagree, the Galaxy documentation is correct.
+</div>
+
 *Beta feature available on UseGalaxy.org only*
 
 User-Defined Tools (UDTs) let regular Galaxy users write and run their own simple tools directly from the Galaxy interface — no server access, no admin installation, and no waiting for a tool to be added to a Tool Shed. If you've ever needed a quick one-off script, a table-reformatting step, or wanted to glue together a couple of shell commands in a workflow, and didn't want to file a request with your Galaxy admin, UDTs are for you.
@@ -70,129 +74,102 @@ Clicking **Custom Tools** opens a panel listing every UDT you've created, each w
 
 ## More examples
 
-The concatenation tool above is about as simple as a UDT gets. The two examples below are closer to what a real analysis step looks like — several inputs, several outputs, and a heavier `shell_command`. Click a summary line to expand the full tool definition.
+The concatenation tool above is about as simple as a UDT gets. The two below are closer to the size of a real analysis step — several inputs, several outputs, and real work to do. Both keep `shell_command` to a short invocation and put the actual script in `configfiles`, which is the pattern to reach for once the logic outgrows a one-liner: Galaxy writes each config file into the job's working directory before running the command. Click a summary line to expand the full tool definition.
 
 <details>
 <summary>Normalize sequence names in a GFF/GTF file, with a report</summary>
 
-This tool rewrites the sequence names (column 1) in a GFF/GTF annotation file using a two-column mapping file, leaves names on an "ignore" list untouched, and fails the job if it encounters a name it doesn't recognize. It also writes a TSV report summarizing what happened to each sequence name. Rather than a one-line command, `shell_command` here is a small embedded Python script — useful once the logic is more than a simple pipe of existing command-line tools.
+This tool rewrites the sequence names (column 1) of a GFF/GTF annotation using a two-column mapping file, leaves names on an "ignore" list untouched, and fails the job if it meets a name it wasn't told about. It also writes a short TSV report of what it did. The logic is a Python script, held in `configfiles` and called by `shell_command` with the input paths as arguments.
 
 ```yaml
 class: GalaxyUserTool
 id: gxf-seqname-normalizer
-name: gxf-seqname-normalizer
-version: 0.1.0
+name: Normalize GXF sequence names
+version: 0.2.0
+description: rename sequences in a GFF/GTF file from a mapping table
 container: python:3.11-slim
-shell_command: >-
-  python - <<'PY' $(inputs.annotation.path) $(inputs.mapping.path)
-  $(inputs.ignore.path) normalized.gxf report.tsv
+shell_command: python normalize.py '$(inputs.annotation.path)' '$(inputs.mapping.path)'
+  '$(inputs.ignore.path)' normalized.gxf report.tsv
+configfiles:
+  - filename: normalize.py
+    content: |
+      import sys
+      from collections import Counter
 
-  import sys
+      ann_path, map_path, ign_path, out_path, rep_path = sys.argv[1:6]
 
-  from collections import Counter
+      mapping = {}
+      with open(map_path, encoding="utf-8") as fh:
+          for line in fh:
+              if line.startswith("#") or not line.strip():
+                  continue
+              parts = line.rstrip("\n").split("\t")
+              if len(parts) >= 2:
+                  mapping[parts[0]] = parts[1]
 
-  ann_path, map_path, ign_path, out_path, rep_path = sys.argv[1:6]
+      ignore = set()
+      with open(ign_path, encoding="utf-8") as fh:
+          for line in fh:
+              if line.startswith("#") or not line.strip():
+                  continue
+              ignore.add(line.strip().split("\t")[0])
 
+      counts = Counter()
+      unknown = set()
 
-  mapping = {}
+      with open(ann_path, encoding="utf-8", errors="replace") as inp, open(
+          out_path, "w", encoding="utf-8"
+      ) as out:
+          for line in inp:
+              if line.startswith("#") or not line.strip():
+                  out.write(line)
+                  continue
+              parts = line.rstrip("\n").split("\t")
+              seq = parts[0]
+              if seq in mapping:
+                  parts[0] = mapping[seq]
+                  counts["renamed"] += 1
+                  out.write("\t".join(parts) + "\n")
+              elif seq in ignore:
+                  counts["ignored"] += 1
+                  out.write(line)
+              else:
+                  counts["unknown"] += 1
+                  unknown.add(seq)
 
-  map_pairs = 0
+      with open(rep_path, "w", encoding="utf-8") as rep:
+          rep.write("metric\tvalue\n")
+          for metric in ("renamed", "ignored", "unknown"):
+              rep.write(f"{metric}\t{counts[metric]}\n")
 
-  with open(map_path, encoding='utf-8') as fh:
-      for line in fh:
-          line=line.rstrip('\n')
-          if not line or line.startswith('#'):
-              continue
-          parts=line.split('\t')
-          if len(parts) < 2:
-              continue
-          old,new=parts[0],parts[1]
-          mapping[old]=new
-          map_pairs += 1
-
-  ignore=set()
-
-  with open(ign_path, encoding='utf-8') as fh:
-      for line in fh:
-          line=line.strip()
-          if not line or line.startswith('#'):
-              continue
-          ignore.add(line.split('\t')[0])
-
-  seen=Counter(); disposition=Counter(); unknown=[]
-
-  feature_lines=renamed=ignored=passthrough=fasta_lines=comments=0
-
-  in_fasta=False
-
-  with open(ann_path, encoding='utf-8', errors='replace') as inp, open(out_path,
-  'w', encoding='utf-8') as out:
-      for line in inp:
-          if in_fasta:
-              fasta_lines += 1
-              out.write(line)
-              continue
-          if line.startswith('##FASTA'):
-              comments += 1
-              in_fasta=True
-              out.write(line)
-              continue
-          if line.startswith('#') or not line.strip():
-              comments += 1 if line.startswith('#') else 0
-              out.write(line)
-              continue
-          parts=line.rstrip('\n').split('\t')
-          if len(parts) < 2:
-              out.write(line)
-              continue
-          feature_lines += 1
-          seq=parts[0]
-          seen[seq] += 1
-          if seq in mapping:
-              parts[0]=mapping[seq]
-              renamed += 1
-              disposition[(seq,'mapped',mapping[seq])] += 1
-              out.write('\t'.join(parts)+'\n')
-          elif seq in ignore:
-              ignored += 1
-              disposition[(seq,'ignored','')] += 1
-              # Preserve ignored records verbatim for auditability; downstream can filter if needed.
-              out.write(line)
-          else:
-              unknown.append(seq)
-              disposition[(seq,'unknown','')] += 1
-
-  with open(rep_path, 'w', encoding='utf-8') as rep:
-      rep.write('metric\tvalue\n')
-      rep.write(f'mapping_pairs\t{map_pairs}\n')
-      rep.write(f'ignore_seqnames\t{len(ignore)}\n')
-      rep.write(f'feature_lines_in\t{feature_lines}\n')
-      rep.write(f'renamed_lines\t{renamed}\n')
-      rep.write(f'ignored_lines\t{ignored}\n')
-      rep.write(f'comment_or_blank_lines\t{comments}\n')
-      rep.write(f'fasta_lines_preserved_after_fasta_pragma\t{fasta_lines}\n')
-      rep.write(f'unknown_lines\t{len(unknown)}\n')
-      rep.write('\nseqname\tdisposition\ttarget\tcount\n')
-      for (seq,disp,target),count in sorted(disposition.items()):
-          rep.write(f'{seq}\t{disp}\t{target}\t{count}\n')
-
-  if unknown:
-      print('Unknown seqnames: ' + ', '.join(sorted(set(unknown))), file=sys.stderr)
-      sys.exit(2)
-  PY
+      if unknown:
+          sys.exit("Unknown sequence names: " + ", ".join(sorted(unknown)))
 inputs:
   - name: annotation
+    label: Annotation to rewrite
     type: data
+    format:
+      - gff
+      - gff3
+      - gtf
   - name: mapping
+    label: Two-column old-name/new-name mapping
     type: data
+    format:
+      - tabular
   - name: ignore
+    label: Sequence names to leave untouched
     type: data
+    format:
+      - tabular
 outputs:
   - name: normalized
+    label: $(inputs.annotation.element_identifier) (renamed)
     type: data
-    format: gff3
+    format_source: annotation
     from_work_dir: normalized.gxf
   - name: report
+    label: $(inputs.annotation.element_identifier) (rename report)
     type: data
     format: tabular
     from_work_dir: report.tsv
@@ -201,46 +178,47 @@ outputs:
 </details>
 
 <details>
-<summary>Run NucleoATAC and expose all of its outputs</summary>
+<summary>Run NucleoATAC and expose its outputs</summary>
 
-This tool wraps [NucleoATAC](https://github.com/GreenleafLab/NucleoATAC), a real bioinformatics package, running from a Biocontainer image rather than a generic base image. It shows a longer, multi-step `shell_command` (staging inputs, indexing the reference, running the tool, then unpacking each compressed result — or substituting an empty file when NucleoATAC didn't produce one), inputs restricted to specific formats, a dozen labeled outputs, and an optional Markdown `help` block describing the tool for its users.
+This tool wraps [NucleoATAC](https://github.com/GreenleafLab/NucleoATAC), a real bioinformatics package, running from a Biocontainer image rather than a generic base image. It shows a multi-step shell script, a CPU request declared as a resource requirement and passed through to the program as `$GALAXY_SLOTS`, inputs restricted to specific formats, several labeled outputs, and a Markdown `help` block describing the tool to whoever runs it. NucleoATAC leaves out a result file when it has nothing to report, so the script creates an empty one in that case and every declared output is always claimed.
 
 ```yaml
 class: GalaxyUserTool
-id: nucleoatac-rich-simple
-name: NucleoATAC rich outputs simple
-version: 0.4.2
-description: Run NucleoATAC and expose occupancy, peak, dyad, signal, combined
-  map, and NFR outputs.
+id: nucleoatac-run
+name: NucleoATAC
+version: 0.5.0
+description: call nucleosome positions and occupancy from ATAC-seq data
 container: quay.io/biocontainers/nucleoatac:0.3.4--py27hf85d69d_6
-shell_command: cp '$(inputs.bam.path)' reads.bam && cp
-  '$(inputs.reference.path)' ref.fa && cp '$(inputs.regions.path)' regions.bed
-  && python -c "import pysam; pysam.index('reads.bam'); pysam.faidx('ref.fa')"
-  && nucleoatac run --bed regions.bed --bam reads.bam --fasta ref.fa --out
-  result --cores $GALAXY_SLOTS && if [ -s result.occ.bedgraph.gz ]; then gunzip
-  -c result.occ.bedgraph.gz > occ.bedgraph; else touch occ.bedgraph; fi && if [
-  -s result.occ.lower_bound.bedgraph.gz ]; then gunzip -c
-  result.occ.lower_bound.bedgraph.gz > occ.lower_bound.bedgraph; else touch
-  occ.lower_bound.bedgraph; fi && if [ -s result.occ.upper_bound.bedgraph.gz ];
-  then gunzip -c result.occ.upper_bound.bedgraph.gz > occ.upper_bound.bedgraph;
-  else touch occ.upper_bound.bedgraph; fi && if [ -s result.occpeaks.bed.gz ];
-  then gunzip -c result.occpeaks.bed.gz > occpeaks.bed; else touch occpeaks.bed;
-  fi && if [ -s result.nucpos.bed.gz ]; then gunzip -c result.nucpos.bed.gz >
-  nucpos.bed; else touch nucpos.bed; fi && if [ -s
-  result.nucpos.redundant.bed.gz ]; then gunzip -c
-  result.nucpos.redundant.bed.gz > nucpos.redundant.bed; else touch
-  nucpos.redundant.bed; fi && if [ -s result.nucleoatac_signal.bedgraph.gz ];
-  then gunzip -c result.nucleoatac_signal.bedgraph.gz >
-  nucleoatac_signal.bedgraph; else touch nucleoatac_signal.bedgraph; fi && if [
-  -s result.nucleoatac_signal.smooth.bedgraph.gz ]; then gunzip -c
-  result.nucleoatac_signal.smooth.bedgraph.gz >
-  nucleoatac_signal.smooth.bedgraph; else touch
-  nucleoatac_signal.smooth.bedgraph; fi && if [ -s result.nucmap_combined.bed.gz
-  ]; then gunzip -c result.nucmap_combined.bed.gz > nucmap_combined.bed; else
-  touch nucmap_combined.bed; fi && if [ -s result.nfrpos.bed.gz ]; then gunzip
-  -c result.nfrpos.bed.gz > nfrpos.bed; else touch nfrpos.bed; fi && if [ -s
-  result.fragmentsizes.txt ]; then cp result.fragmentsizes.txt
-  fragmentsizes.txt; else touch fragmentsizes.txt; fi
+requirements:
+  - type: resource
+    cores_min: 4
+shell_command: sh run.sh '$(inputs.bam.path)' '$(inputs.reference.path)' '$(inputs.regions.path)'
+configfiles:
+  - filename: run.sh
+    content: |
+      set -eu
+      bam="$1"
+      reference="$2"
+      regions="$3"
+
+      cp "$bam" reads.bam
+      cp "$reference" ref.fa
+      cp "$regions" regions.bed
+      python -c "import pysam; pysam.index('reads.bam'); pysam.faidx('ref.fa')"
+
+      nucleoatac run --bed regions.bed --bam reads.bam --fasta ref.fa --out result --cores "$GALAXY_SLOTS"
+
+      # NucleoATAC omits a result file when it has nothing to report. Unpack
+      # whatever is there and leave an empty file for the rest, so that a
+      # no-call is distinguishable from a failed job.
+      for name in occ occpeaks nucpos nucleoatac_signal nucmap_combined nfrpos; do
+          : > "$name.out"
+          for packed in "result.$name.bed.gz" "result.$name.bedgraph.gz"; do
+              if [ -s "$packed" ]; then
+                  gunzip -c "$packed" > "$name.out"
+              fi
+          done
+      done
 inputs:
   - name: bam
     label: Coordinate-sorted ATAC BAM
@@ -248,83 +226,57 @@ inputs:
     format:
       - bam
   - name: reference
-    label: Reference FASTA with matching chromosome names
+    label: Reference FASTA with matching sequence names
     type: data
     format:
       - fasta
   - name: regions
-    label: Regions BED
+    label: Regions to analyze
     type: data
     format:
       - bed
 outputs:
   - name: occ
-    label: NucleoATAC occupancy bedGraph
+    label: $(inputs.bam.element_identifier) occupancy
     type: data
     format: bedgraph
-    from_work_dir: occ.bedgraph
-  - name: occ_lower
-    label: NucleoATAC occupancy lower bound bedGraph
-    type: data
-    format: bedgraph
-    from_work_dir: occ.lower_bound.bedgraph
-  - name: occ_upper
-    label: NucleoATAC occupancy upper bound bedGraph
-    type: data
-    format: bedgraph
-    from_work_dir: occ.upper_bound.bedgraph
+    from_work_dir: occ.out
   - name: occpeaks
-    label: NucleoATAC occupancy peaks BED
+    label: $(inputs.bam.element_identifier) occupancy peaks
     type: data
     format: bed
-    from_work_dir: occpeaks.bed
+    from_work_dir: occpeaks.out
   - name: nucpos
-    label: NucleoATAC high-resolution nucleosome positions BED
+    label: $(inputs.bam.element_identifier) nucleosome positions
     type: data
     format: bed
-    from_work_dir: nucpos.bed
-  - name: nucpos_redundant
-    label: NucleoATAC redundant nucleosome positions BED
-    type: data
-    format: bed
-    from_work_dir: nucpos.redundant.bed
+    from_work_dir: nucpos.out
   - name: nucleoatac_signal
-    label: NucleoATAC signal bedGraph
+    label: $(inputs.bam.element_identifier) nucleosome signal
     type: data
     format: bedgraph
-    from_work_dir: nucleoatac_signal.bedgraph
-  - name: nucleoatac_signal_smooth
-    label: NucleoATAC smoothed signal bedGraph
-    type: data
-    format: bedgraph
-    from_work_dir: nucleoatac_signal.smooth.bedgraph
+    from_work_dir: nucleoatac_signal.out
   - name: nucmap_combined
-    label: NucleoATAC combined nucleosome map BED
+    label: $(inputs.bam.element_identifier) combined nucleosome map
     type: data
     format: bed
-    from_work_dir: nucmap_combined.bed
+    from_work_dir: nucmap_combined.out
   - name: nfrpos
-    label: NucleoATAC NFR positions BED
+    label: $(inputs.bam.element_identifier) NFR positions
     type: data
     format: bed
-    from_work_dir: nfrpos.bed
-  - name: fragmentsizes
-    label: NucleoATAC fragment-size distribution
-    type: data
-    format: tabular
-    from_work_dir: fragmentsizes.txt
+    from_work_dir: nfrpos.out
 help:
   format: markdown
-  content: >-
-    Runs NucleoATAC 0.3.4 on a coordinate-sorted ATAC BAM, reference FASTA, and
-    regions BED, then exposes the main NucleoATAC intermediate and final
-    outputs. Version 0.4.2 uses the fully qualified Quay Biocontainers image to
-    avoid Docker Hub library namespace pull failures.
+  content: |
+    Runs NucleoATAC on a coordinate-sorted ATAC BAM, a reference FASTA and a
+    regions BED, and reports nucleosome occupancy, occupancy peaks,
+    nucleosome positions, nucleosome signal, a combined nucleosome map and
+    nucleosome-free-region positions.
 
-
-    Inputs must use matching chromosome names across BAM, FASTA, and BED.
-    Optional missing output files are represented as empty datasets so no-call
-    outputs can be distinguished from failed jobs.
+    The BAM, FASTA and BED must use the same sequence names. An output with
+    nothing to report comes back as an empty dataset rather than failing the
+    job.
 ```
 
 </details>
@@ -341,9 +293,48 @@ Because this is a beta feature and the security model is still being hardened, w
 
 ## Sharing tools
 
-UDTs are private to the user who created them by default. If you embed a UDT in a workflow and share that workflow, anyone who imports the workflow automatically gets a copy of the tool in their own account — they don't need to have created it themselves or have tool-creation permission.
+UDTs are private to the user who created them. There is no way to share a single tool with another user directly — sharing happens by way of a workflow that carries the tool definition with it.
 
-An administrator can also export a UDT to disk and install it like a regular tool, making it available instance-wide.
+A workflow that uses a UDT embeds the whole tool definition rather than a reference to it, so the workflow is self-contained. In a Format 2 workflow (`.gxwf.yml`) the definition sits inline under the step's `run` key:
+
+```yaml
+class: GalaxyWorkflow
+inputs:
+  text_file:
+    type: data
+outputs:
+  without_comments:
+    outputSource: remove_comments/output_file
+steps:
+  remove_comments:
+    run:
+      class: GalaxyUserTool
+      id: remove_comments
+      version: 0.1.0
+      name: Remove Comment Lines
+      container: quay.io/biocontainers/grep:3.4--hf43ccf4_4
+      shell_command: grep -v '^#' '$(inputs.input_file.path)' > output.txt || test "$?" = 1
+      inputs:
+        - name: input_file
+          type: data
+          format: txt
+      outputs:
+        - name: output_file
+          type: data
+          format_source: input_file
+          from_work_dir: output.txt
+    in:
+      input_file: text_file
+```
+
+Galaxy's `.ga` export works the same way, carrying the definition in the step's `tool_representation` field.
+
+When someone imports that workflow, Galaxy creates a private copy of the tool in their account. Two things to keep in mind:
+
+- The importing user needs the **Custom Tool Execution** role on that instance. They do *not* need tool-creation permission, and they don't need to have written the tool — but without the execution role the workflow's UDT steps won't run for them.
+- They get a copy, not a link back to your tool. Editing your original afterwards has no effect on their copy, and vice versa.
+
+An administrator can also export a UDT to disk and load it like a regular tool, making it available instance-wide.
 
 ## Security considerations
 
@@ -356,8 +347,10 @@ UDTs are a beta feature and still evolving. At the moment:
 - There's no access to Galaxy's reference data.
 - There's no access to dataset metadata or metadata files (such as BAM indexes).
 - There's no access to a tool's `extra_files` directory.
-- Test cases aren't supported yet.
+- Test cases can be declared but not run. A tool may carry a `tests:` block using the same syntax as other YAML-format Galaxy tools, and Galaxy stores and returns it, but there is no "run this tool's tests" action in the interface — a tool held in the database has no tool directory, so file-based test inputs can't be resolved. Declared tests only become executable once the tool is exported to disk and loaded like a regular tool. Until then, check a tool by running it on inputs whose answer you already know and comparing against the same command run outside Galaxy — worth doing once per version, since a version bump usually means a new container image too.
 
 ## Learn more
 
-For the full technical reference, including the complete list of supported input types and fields, see the [Galaxy administration documentation on User-Defined Tools](https://docs.galaxyproject.org/en/master/admin/user_defined_tools.html).
+For the full technical reference, including the complete list of supported input types and fields, the expression syntax, and how to use a UDT in a workflow or through the API, see [Authoring User-Defined Tools](https://docs.galaxyproject.org/en/master/dev/user_defined_tools_authoring.html) in the Galaxy developer documentation — the same reference the tool editor's help panel shows.
+
+For the administrator's side — enabling the feature, routing UDT jobs to an isolated destination with `job_conf.yml` or TPV, and how stored tools behave when the schema changes between Galaxy releases — see [User-Defined Tools (Beta)](https://docs.galaxyproject.org/en/master/admin/user_defined_tools.html) in the Galaxy administration documentation.
