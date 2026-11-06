@@ -46,3 +46,25 @@ export async function optimizeImage(file: File): Promise<OptimizedImage | null> 
   if (!blob || blob.size > file.size * 0.9) return null;
   return { blob, width, height, originalWidth, originalHeight };
 }
+
+/**
+ * A JPEG copy of a photo in a format the Hub does not publish (HEIC from iPhones, AVIF, TIFF, ...),
+ * when this browser can read it (Safari reads HEIC). Null when it cannot.
+ */
+export async function convertToJpeg(file: File): Promise<File | null> {
+  let bitmap: ImageBitmap;
+  try {
+    bitmap = await createImageBitmap(file, { imageOrientation: 'from-image' });
+  } catch {
+    return null;
+  }
+  const canvas = document.createElement('canvas');
+  canvas.width = bitmap.width;
+  canvas.height = bitmap.height;
+  canvas.getContext('2d')!.drawImage(bitmap, 0, 0);
+  bitmap.close();
+  const blob = await new Promise<Blob | null>((resolve) => canvas.toBlob(resolve, 'image/jpeg', QUALITY));
+  if (!blob) return null;
+  const base = file.name.replace(/\.[^.]*$/, '') || 'photo';
+  return new File([blob], `${base}.jpg`, { type: 'image/jpeg' });
+}

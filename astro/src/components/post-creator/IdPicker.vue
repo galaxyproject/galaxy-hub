@@ -22,6 +22,9 @@ const props = defineProps<{
   label: string;
   options: PickerOption[];
   placeholder?: string;
+  /** What a new value must look like, and the hint shown when it does not (for example GitHub usernames). */
+  newPattern?: RegExp;
+  newPatternHint?: string;
 }>();
 
 const model = defineModel<string[]>({ required: true });
@@ -48,10 +51,16 @@ const typed = computed(() => search.value.trim());
 const isKnown = computed(() =>
   props.options.some((o) => [o.id, o.name].some((v) => v.toLowerCase() === typed.value.toLowerCase()))
 );
+const newAllowed = computed(() => !props.newPattern || props.newPattern.test(typed.value));
 
 function remove(id: string) {
   model.value = model.value.filter((value) => value !== id);
 }
+
+// Same surface and open/close animation as ui/select's SelectContent (Reka sets the same data-state
+// and data-side on both), so all dropdowns on the form look and move alike
+const contentClass =
+  'bg-popover text-popover-foreground data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 relative z-50 max-h-(--reka-combobox-content-available-height) w-(--reka-combobox-trigger-width) min-w-[8rem] overflow-hidden rounded-md border shadow-md';
 
 const item =
   'flex cursor-default items-center justify-between gap-3 rounded px-2 py-1.5 text-sm text-fg outline-none select-none data-[highlighted]:bg-ebony-clay-100';
@@ -73,11 +82,7 @@ const item =
         />
       </ComboboxAnchor>
       <ComboboxPortal>
-        <ComboboxContent
-          position="popper"
-          :side-offset="4"
-          class="z-50 w-[var(--reka-combobox-trigger-width)] rounded-md border border-line bg-white shadow-md"
-        >
+        <ComboboxContent position="popper" :side-offset="4" :class="contentClass">
           <ComboboxViewport class="max-h-72 overflow-y-auto p-1">
             <ComboboxItem v-for="option in matches" :key="option.id" :value="option.id" :class="item">
               <span class="min-w-0 truncate">
@@ -86,9 +91,10 @@ const item =
               </span>
               <ComboboxItemIndicator><Check class="size-4" aria-hidden="true" /></ComboboxItemIndicator>
             </ComboboxItem>
-            <ComboboxItem v-if="typed && !isKnown" :value="typed" :class="item">
+            <ComboboxItem v-if="typed && !isKnown && newAllowed" :value="typed" :class="item">
               <span>Add “{{ typed }}” as new</span>
             </ComboboxItem>
+            <p v-else-if="typed && !isKnown" class="px-2 py-1.5 text-sm text-fg-meta">{{ newPatternHint }}</p>
             <p v-if="!matches.length && !typed" class="px-2 py-1.5 text-sm text-fg-meta">Nothing to show.</p>
           </ComboboxViewport>
         </ComboboxContent>

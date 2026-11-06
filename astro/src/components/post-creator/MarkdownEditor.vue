@@ -201,7 +201,9 @@ function wrap(before: string, after: string, placeholder: string) {
 function prefixLines(prefix: string) {
   const v = view.value;
   if (!v) return;
-  const { from, to } = v.state.selection.main;
+  const { from, to: end } = v.state.selection.main;
+  // A selection that ends at the start of a line (shift+down, triple-click) does not include that line
+  const to = end > from && v.state.doc.lineAt(end).from === end ? end - 1 : end;
   const changes = [];
   for (let pos = from; pos <= to;) {
     const line = v.state.doc.lineAt(pos);
@@ -224,15 +226,18 @@ function insertBlock(text: string) {
   v.focus();
 }
 
-/** Replaces the first `old` with `next` (removing it with its blank line when `next` is empty). */
+/** Replaces every `old` with `next` (removing each with its blank line when `next` is empty). */
 function replaceText(old: string, next: string): boolean {
   const v = view.value;
   if (!v || !old) return false;
   const doc = v.state.doc.toString();
-  const from = doc.indexOf(old);
-  if (from < 0) return false;
-  const to = from + old.length + (next === '' && doc.startsWith('\n\n', from + old.length) ? 2 : 0);
-  v.dispatch({ changes: { from, to, insert: next } });
+  const changes = [];
+  for (let from = doc.indexOf(old); from >= 0; from = doc.indexOf(old, from + old.length)) {
+    const to = from + old.length + (next === '' && doc.startsWith('\n\n', from + old.length) ? 2 : 0);
+    changes.push({ from, to, insert: next });
+  }
+  if (!changes.length) return false;
+  v.dispatch({ changes });
   return true;
 }
 

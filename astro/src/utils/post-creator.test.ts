@@ -2,6 +2,7 @@ import { readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 import { parse } from 'yaml';
 import { normalizeBody } from '../build/normalize-transforms.mjs';
+import { normalizeSlugSegment } from '../build/slug-utils.mjs';
 import {
   MAX_URL_LENGTH,
   OFFERED_SUBSITES,
@@ -11,6 +12,7 @@ import {
   mdxProblems,
   OUTLINES,
   embedFor,
+  mediaKind,
   mediaMarkdown,
   mediaName,
   newEntries,
@@ -106,7 +108,7 @@ describe('postPath', () => {
 
   it('makes lowercase, hyphen-only folder names', () => {
     expect(slugFromTitle('Ünïcode_and CamelCase: a very long title with many words')).toBe(
-      'uenicode-and-camel-case-a-very-long'
+      'uenicode-and-camelcase-a-very-long-title'
     );
   });
 });
@@ -159,6 +161,14 @@ describe('newEntries', () => {
 describe('postProblems', () => {
   it('accepts a complete form', () => {
     expect(postProblems(form())).toEqual([]);
+  });
+
+  it('asks events for an organiser or funder, as the metadata check does', () => {
+    const event = form({ kind: 'event', authors: [], funding: [] });
+    expect(postProblems(event)).toEqual(['Add at least one organiser or funder: the checks require them for events.']);
+    expect(postProblems({ ...event, funding: ['deNBI'] })).toEqual([]);
+    expect(postProblems({ ...event, date: '2026-01-10' })).toEqual([]);
+    expect(postProblems(form({ authors: [], funding: [] }))).toEqual([]);
   });
 
   it('reports missing title, bad dates and a stray main subsite', () => {
@@ -226,7 +236,8 @@ describe('media', () => {
 
   it('writes the right Markdown for each kind', () => {
     expect(mediaMarkdown('a.png', { alt: 'A [group] photo' })).toBe('![A group photo](./a.png)');
-    expect(mediaMarkdown('talk.mp4')).toBe('<VideoPlayer src="./talk.mp4" />');
+    // A <video>, whose src the build rewrites (VideoPlayer's it does not)
+    expect(mediaMarkdown('talk.mp4')).toBe('<video controls src="./talk.mp4"></video>');
     expect(mediaMarkdown('slides.pdf')).toBe('[slides.pdf](./slides.pdf)');
   });
 
@@ -301,4 +312,33 @@ it('links to the upload page for the post folder', () => {
   expect(uploadPageUrl(form())).toBe(
     'https://github.com/galaxyproject/galaxy-hub/upload/main/content/news/2026/2026-11-05-galaxy-new-release'
   );
+});
+
+it('makes folder names the build keeps as they are', () => {
+  // slugify alone splits camelCase ("rn-aseq"); the build's rule does not, and content:lint compares them
+  for (const title of ['New RNAseq tutorials', 'miRNA workshop', 'BiaPy now in Galaxy', 'GCC2026 CoFest outcomes']) {
+    const slug = slugFromTitle(title);
+    expect(normalizeSlugSegment(slug)).toBe(slug);
+  }
+  expect(slugFromTitle('New RNAseq tutorials')).toBe('new-rnaseq-tutorials');
+});
+
+it('only takes files the build publishes', () => {
+  expect(mediaKind('a.JPG')).toBe('image');
+  expect(mediaKind('clip.webm')).toBe('video');
+  expect(mediaKind('slides.pdf')).toBe('file');
+  for (const name of ['photo.heic', 'photo.avif', 'clip.mov', 'slides.pptx', 'data.csv'])
+    expect(mediaKind(name)).toBeNull();
+});
+
+it('keeps components: true in the metadata-only file sent for long texts', () => {
+  const long = form({ body: '<Icon name="x" /> ' + 'ü '.repeat(3000) });
+  expect(new URL(githubLink(long).url).searchParams.get('value')).toContain('components: true');
+});
+
+it('sends text the content:lint transforms leave unchanged', () => {
+  const once = normalizeBody(
+    'a<br>b <BR> <https://x.org> <td rowspan=3> <i class="fa fa-laptop"></i> <g-link to="/">x</g-link>'
+  );
+  expect(normalizeBody(once)).toBe(once);
 });

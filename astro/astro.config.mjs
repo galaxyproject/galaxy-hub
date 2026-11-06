@@ -48,6 +48,9 @@ export default defineConfig({
   vite: {
     define: {
       __VUE_PROD_HYDRATION_MISMATCH_DETAILS__: true,
+      // @astrojs/markdown-remark reads this at load time. The post creator preview loads it in the
+      // browser, where dev has no `process`; the build already turns `process.env` into `{}`.
+      'process.env.ASTRO_PERFORMANCE_BENCHMARK': 'undefined',
     },
     plugins: [tailwindcss()],
     server: {

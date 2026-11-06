@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { renderPostBody } from './post-preview';
-import { embedFor } from './post-creator';
+import { embedFor, mediaMarkdown } from './post-creator';
 
 describe('renderPostBody', () => {
   it('renders like the site: smart quotes, heading ids and anchors, wrapped tables', async () => {
@@ -33,5 +33,13 @@ describe('renderPostBody', () => {
     expect(html).toContain('<img src="/images/news/2026-11-06-team/other.png" alt="Other" />');
     expect(html).toContain('<img src="blob:http://x/1" alt="Team" />');
     expect(html).toContain('<em>Icon: shown on the published page.</em>');
+  });
+
+  it('shows videos from the post folder, like the published page', async () => {
+    const html = await renderPostBody(mediaMarkdown('clip.mp4'), {
+      slug: 'news/x',
+      files: { 'clip.mp4': 'blob:http://x/2' },
+    });
+    expect(html).toContain('<video controls src="blob:http://x/2"></video>');
   });
 });
