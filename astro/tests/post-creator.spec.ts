@@ -152,6 +152,8 @@ test('post creator checks text with components like the MDX build does', async (
 });
 
 test('post creator adds images at the cursor and updates them in place', async ({ page }) => {
+  // Downloads path: a browser without folder access (Firefox, Safari)
+  await page.addInitScript(() => delete (window as { showDirectoryPicker?: unknown }).showDirectoryPicker);
   await openCreator(page);
   await page.getByLabel('Title (required)').fill('Photos');
   await page
@@ -191,6 +193,8 @@ test('post creator adds images at the cursor and updates them in place', async (
     'team-photo.png'
   );
 
+  // Every copy goes with the file
+  await item.getByRole('button', { name: 'Insert again' }).click();
   await item.getByRole('button', { name: 'Remove team-photo.png' }).click();
   await expect(file).not.toContainText('team-photo.png');
 });
@@ -308,4 +312,64 @@ test('post creator previews the text the way the site renders it', async ({ page
   await expect(preview.locator('h2#results')).toHaveText('“Results”…');
   await expect(preview.locator('h2#results a.heading-anchor')).toHaveAttribute('href', '#results');
   await expect(preview.locator('table')).toBeVisible();
+});
+
+test('post creator hides the text when the post links to another site', async ({ page }) => {
+  await openCreator(page);
+  await page.getByLabel('Title (required)').fill('Our paper');
+  await page.getByLabel('External link').fill('https://doi.org/10.1093/nar/gkae410');
+  const note = page.locator('[data-external-note]');
+  await expect(note).toContainText('links to doi.org, so it has no page of its own');
+  await expect(page.locator('.cm-editor')).toBeHidden();
+  await note.getByRole('button', { name: 'Write text anyway' }).click();
+  await expect(page.locator('.cm-editor')).toBeVisible();
+});
+
+test('post creator saves into a folder with the exact names where the browser allows it', async ({ page }) => {
+  // A stand-in for the folder picker (Chrome, Edge) that records what is written
+  await page.addInitScript(() => {
+    const written: Record<string, string> = {};
+    (window as unknown as { written: typeof written }).written = written;
+    (window as unknown as { showDirectoryPicker: () => Promise<unknown> }).showDirectoryPicker = async () => ({
+      name: 'my-post',
+      getFileHandle: async (name: string) => ({
+        createWritable: async () => ({
+          write: async (blob: Blob) => (written[name] = await blob.text()),
+          close: async () => {},
+        }),
+      }),
+    });
+  });
+  await openCreator(page);
+  await page.getByLabel('Title (required)').fill('Folder save');
+  await page.locator('input[type="file"]').setInputFiles({ name: 'a.png', mimeType: 'image/png', buffer: PNG });
+  await page.getByRole('button', { name: 'Save all files to a folder' }).click();
+  await expect(page.locator('[data-saved]')).toHaveText('Saved to the folder my-post.');
+  const written = await page.evaluate(() => (window as unknown as { written: Record<string, string> }).written);
+  expect(Object.keys(written).sort()).toEqual(['a.png', 'index.md']);
+  expect(written['index.md']).toBe(await (await fileText(page)).textContent());
+});
+
+test('post creator refuses files the Hub cannot publish and new people without a username', async ({ page }) => {
+  await openCreator(page);
+  await page
+    .locator('input[type="file"]')
+    .setInputFiles({ name: 'slides.pptx', mimeType: 'application/vnd.ms-powerpoint', buffer: Buffer.from('x') });
+  await expect(page.locator('[data-file-notice]')).toContainText('slides.pptx: the Hub can only publish');
+  await expect(page.locator('[data-media-list]')).toHaveCount(0);
+
+  await page.getByRole('combobox', { name: 'Authors' }).fill('Jane Doe');
+  await expect(page.getByText('For someone new, type their GitHub username')).toBeVisible();
+  await expect(page.getByRole('option', { name: /Add “Jane Doe”/ })).toHaveCount(0);
+});
+
+test('post creator list button only changes the selected lines', async ({ page }) => {
+  await openCreator(page);
+  await page.locator('.cm-content').click();
+  await page.keyboard.type('One\nTwo\nThree');
+  await page.keyboard.press('Control+Home');
+  await page.keyboard.press('Shift+ArrowDown');
+  await page.keyboard.press('Shift+ArrowDown');
+  await page.getByRole('button', { name: 'Bulleted list' }).click();
+  await expect(await fileText(page)).toContainText('- One\n- Two\nThree');
 });

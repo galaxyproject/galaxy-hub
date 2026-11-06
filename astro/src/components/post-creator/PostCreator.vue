@@ -9,7 +9,7 @@ import EventDate from '@/components/events/EventDate.vue';
 import { formatDate } from '@/utils/dateUtils';
 import IdPicker, { type PickerOption } from './IdPicker.vue';
 import MarkdownEditor from './MarkdownEditor.vue';
-import { optimizeImage, MAX_SIDE } from '@/utils/image-optimize';
+import { convertToJpeg, optimizeImage, MAX_SIDE } from '@/utils/image-optimize';
 import { focusRing, hintClass, inputClass, labelClass, linkClass } from './styles';
 import {
   BLUESKY_LIMIT,
@@ -32,6 +32,7 @@ import {
   slugFromTitle,
   socialPost,
   uploadPageUrl,
+  PUBLISHED_TYPES,
   type ImageSize,
   type Outline,
   type PostForm,
@@ -133,6 +134,7 @@ const ids = {
   contact: id('contact'),
   url: id('url'),
   urlHint: id('url-hint'),
+  contactHint: id('contact-hint'),
   main: id('main'),
   slug: id('slug'),
   body: id('body'),
@@ -146,6 +148,14 @@ const ids = {
 };
 
 const isEvent = computed(() => form.kind === 'event');
+// With an external link the post page redirects there (news and events [...slug].astro), so the text
+// is not shown anywhere; the first image still becomes the list and social media picture
+const linksOut = computed(() => form.externalUrl.trim() !== '');
+const externalHost = computed(() => {
+  const url = form.externalUrl.trim();
+  return URL.canParse(url) ? new URL(url).hostname : url;
+});
+const writeAnyway = ref(false);
 const tagOptions = computed(() => props.tags.map((tag) => ({ id: tag, name: tag })));
 const mainChoices = computed(() => mainSubsiteChoices(form.subsites));
 const subsiteName = (value: string) => OFFERED_SUBSITES.find((s) => s.id === value)?.name ?? value;
@@ -167,7 +177,7 @@ const mainSubsite = selectModel('mainSubsite');
 
 const path = computed(() => postPath(form));
 const text = computed(() => buildPost(form));
-const link = computed(() => githubLink(form));
+const link = computed(() => githubLink(form, text.value));
 // MDX is checked with its own parser, loaded on first use; the latest run wins
 const mdxIssues = ref<string[]>([]);
 let mdxTimer: ReturnType<typeof setTimeout> | undefined;
@@ -217,6 +227,10 @@ function setKind(kind: PostKind) {
 }
 
 const chip = 'inline-flex h-10 items-center rounded-md px-4 text-sm font-medium transition-colors ' + focusRing;
+// Underline tabs: grey text, the active one dark with a 4px gold bar; the bar sits on the list's bottom line.
+// The focus outline is inset because the card clips its corners.
+const tabClass =
+  '-mb-px h-auto min-h-11 flex-none rounded-none border-0 border-b-4 border-transparent bg-transparent px-0 pt-3 pb-2 text-base font-medium text-chicago-700 shadow-none hover:text-fg-strong data-[state=active]:border-galaxy-gold data-[state=active]:bg-transparent data-[state=active]:font-bold data-[state=active]:text-fg-strong data-[state=active]:shadow-none focus-visible:ring-0 focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-solid focus-visible:outline-galaxy-primary';
 
 // Files stay in the browser: the GitHub link carries text only, so authors upload them to the post folder.
 // Each file's text in the editor is tracked, so changing alt text, caption or size updates it in place.
@@ -243,8 +257,29 @@ const editor = ref<InstanceType<typeof MarkdownEditor>>();
 const snippetFor = (item: MediaItem) =>
   mediaMarkdown(item.name, { alt: item.alt, caption: item.caption, size: item.imageSize });
 
-/** Adds files at the cursor: from the file picker, a drop or a paste. */
-function addFiles(files: File[]) {
+const fileNotice = ref('');
+
+/**
+ * Adds files at the cursor: from the file picker, a drop or a paste. Only types the build publishes
+ * are kept; photos in other formats (HEIC, AVIF, ...) become JPEGs when the browser can read them.
+ */
+async function addFiles(dropped: File[]) {
+  const files: File[] = [];
+  const refused: string[] = [];
+  for (const file of dropped) {
+    if (mediaKind(file.name)) files.push(file);
+    else {
+      const jpeg =
+        file.type.startsWith('image/') || /\.(heic|heif|avif|tiff?|bmp)$/i.test(file.name)
+          ? await convertToJpeg(file)
+          : null;
+      if (jpeg) files.push(jpeg);
+      else refused.push(file.name);
+    }
+  }
+  fileNotice.value = refused.length
+    ? `${refused.join(', ')}: the Hub can only publish ${PUBLISHED_TYPES.map((t) => t.toUpperCase()).join(', ')} files.`
+    : '';
   for (const file of files) {
     const name = mediaName(
       file.name,
@@ -295,7 +330,7 @@ function revokeMedia(item: MediaItem) {
 
 function onFiles(event: Event) {
   const input = event.target as HTMLInputElement;
-  addFiles([...(input.files ?? [])]);
+  void addFiles([...(input.files ?? [])]);
   input.value = '';
 }
 
@@ -330,10 +365,48 @@ const useUpload = computed(() => media.value.length > 0 || !link.value.complete)
 const uploadUrl = computed(() => uploadPageUrl(form));
 const saved = ref(false);
 
-/** Downloads index.md and every file under the names the text uses. */
+// Saving waits for the smaller copies, so what is saved is what the cards describe
+const shrinking = computed(() => media.value.some((m) => m.optimizing));
+// Chrome and Edge can write into a folder the author picks, with the exact names; others download
+const canPickFolder = ref(false);
+onMounted(() => (canPickFolder.value = 'showDirectoryPicker' in window));
+const savedTo = ref('');
+
+type DirectoryHandle = {
+  name: string;
+  getFileHandle(
+    name: string,
+    options: { create: boolean }
+  ): Promise<{
+    createWritable(): Promise<{ write(data: Blob): Promise<void>; close(): Promise<void> }>;
+  }>;
+};
+
+/** Saves index.md and every file under the names the text uses. */
 async function saveAll() {
   const indexUrl = URL.createObjectURL(new Blob([text.value], { type: 'text/markdown' }));
   const files = [{ name: 'index.md', url: indexUrl }, ...media.value.map((m) => ({ name: m.name, url: m.url }))];
+  if (canPickFolder.value) {
+    try {
+      const pick = (window as unknown as { showDirectoryPicker: (o: object) => Promise<DirectoryHandle> })
+        .showDirectoryPicker;
+      const dir = await pick({ id: 'galaxy-hub-post', mode: 'readwrite' });
+      for (const file of files) {
+        const writable = await (await dir.getFileHandle(file.name, { create: true })).createWritable();
+        await writable.write(await (await fetch(file.url)).blob());
+        await writable.close();
+      }
+      savedTo.value = dir.name;
+      saved.value = true;
+      URL.revokeObjectURL(indexUrl);
+      return;
+    } catch (error) {
+      if ((error as Error).name === 'AbortError') return;
+      // Not allowed here (permissions, sandboxed browser): fall back to downloads
+      canPickFolder.value = false;
+    }
+  }
+  savedTo.value = '';
   for (const file of files) {
     const a = document.createElement('a');
     a.href = file.url;
@@ -468,6 +541,7 @@ const sizeText = (bytes: number) =>
                   <SelectItem v-for="c in CONTINENTS" :key="c.id" :value="c.id">{{ c.name }}</SelectItem>
                 </SelectContent>
               </Select>
+              <p :class="hintClass">Shown as a flag in the event tables other Galaxy sites embed.</p>
             </div>
             <div>
               <label :for="ids.location" :class="labelClass">Location</label>
@@ -485,8 +559,10 @@ const sizeText = (bytes: number) =>
               :id="ids.contact"
               v-model="form.contact"
               placeholder="Name or email"
+              :aria-describedby="ids.contactHint"
               :class="[inputClass, focusRing]"
             />
+            <p :id="ids.contactHint" :class="hintClass">Shown in the event tables other Galaxy sites embed.</p>
           </div>
         </template>
 
@@ -501,7 +577,8 @@ const sizeText = (bytes: number) =>
             :class="[inputClass, focusRing]"
           />
           <p :id="ids.urlHint" :class="hintClass">
-            Only if the {{ isEvent ? 'event' : 'news item' }} lives on another website. The listing then links there.
+            Only if the {{ isEvent ? 'event' : 'news item' }} lives on another website. Its Hub page then sends visitors
+            there, and lists link straight to it.
           </p>
         </div>
 
@@ -574,6 +651,8 @@ const sizeText = (bytes: number) =>
           :label="isEvent ? 'Organisers' : 'Authors'"
           :options="people"
           placeholder="Type a name or GitHub username"
+          :new-pattern="/^[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?$/"
+          new-pattern-hint="Not in the list. For someone new, type their GitHub username (letters, numbers and -)."
         >
           <template #hint>
             Your GitHub username. Not in the list yet? Type it anyway; we show what to add below the file.
@@ -585,6 +664,8 @@ const sizeText = (bytes: number) =>
           label="Funding"
           :options="funders"
           placeholder="Type a project or organisation"
+          :new-pattern="/^[\w.-]+$/"
+          new-pattern-hint="Not in the list. A new ID uses letters, numbers, - and _, with no spaces."
         >
           <template #hint> Grants and organisations shared with the Galaxy Training Network. </template>
         </IdPicker>
@@ -594,40 +675,69 @@ const sizeText = (bytes: number) =>
         <h3 :id="ids.secText" class="text-h4 font-bold text-fg-strong">Your text</h3>
         <div>
           <span :id="ids.body" :class="labelClass">Text</span>
-          <div v-if="!form.body.trim()" class="mb-2 flex flex-wrap items-center gap-2 text-sm" data-outlines>
-            <span class="text-fg-meta">Start from an outline:</span>
-            <button
-              v-for="outline in OUTLINES[form.kind]"
-              :key="outline.label"
-              type="button"
-              class="rounded-md border border-line px-2.5 py-1 text-chicago-700 hover:bg-ebony-clay-50"
-              :class="focusRing"
-              @click="useOutline(outline)"
-            >
-              {{ outline.label }}
-            </button>
+          <div v-if="linksOut" class="mb-3 space-y-2 rounded-md bg-info-bg p-3 text-sm text-info-fg" data-external-note>
+            <p>
+              This {{ isEvent ? 'event' : 'news item' }} links to {{ externalHost }}, so it has no page of its own on
+              the Hub: text written here is not shown anywhere. Images are: the first one is the picture in news lists
+              and on social media.
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <Button size="sm" variant="outline" type="button" :class="focusRing" @click="fileInput?.click()">
+                Add an image
+              </Button>
+              <Button
+                v-if="!writeAnyway && !form.body.trim()"
+                size="sm"
+                variant="ghost"
+                type="button"
+                :class="focusRing"
+                @click="writeAnyway = true"
+              >
+                Write text anyway
+              </Button>
+            </div>
           </div>
-          <MarkdownEditor
-            ref="editor"
-            v-model="form.body"
-            :label-id="ids.body"
-            :hint-id="ids.bodyHint"
-            @add-files="fileInput?.click()"
-            @files="addFiles"
-          />
-          <input
-            ref="fileInput"
-            type="file"
-            multiple
-            accept="image/*,video/*,.pdf"
-            class="hidden"
-            aria-label="Choose images or files"
-            @change="onFiles"
-          />
-          <p :id="ids.bodyHint" :class="hintClass">
-            Paste from Google Docs, Word or an email and the formatting is kept. Markdown, HTML and Hub components all
-            work. <a :href="`${DOCS}#markdown`" :class="linkClass">Formatting help</a>
-          </p>
+          <p v-if="fileNotice" class="mt-2 text-sm text-danger-fg" role="status" data-file-notice>{{ fileNotice }}</p>
+          <div v-show="!linksOut || writeAnyway || form.body.trim()">
+            <div
+              v-if="!form.body.trim() && !linksOut"
+              class="mb-2 flex flex-wrap items-center gap-2 text-sm"
+              data-outlines
+            >
+              <span class="text-fg-meta">Start from an outline:</span>
+              <button
+                v-for="outline in OUTLINES[form.kind]"
+                :key="outline.label"
+                type="button"
+                class="rounded-md border border-line px-2.5 py-1 text-chicago-700 hover:bg-ebony-clay-50"
+                :class="focusRing"
+                @click="useOutline(outline)"
+              >
+                {{ outline.label }}
+              </button>
+            </div>
+            <MarkdownEditor
+              ref="editor"
+              v-model="form.body"
+              :label-id="ids.body"
+              :hint-id="ids.bodyHint"
+              @add-files="fileInput?.click()"
+              @files="addFiles"
+            />
+            <input
+              ref="fileInput"
+              type="file"
+              multiple
+              :accept="[...PUBLISHED_TYPES, 'heic', 'heif', 'avif'].map((t) => `.${t}`).join(',')"
+              class="hidden"
+              aria-label="Choose images or files"
+              @change="onFiles"
+            />
+            <p :id="ids.bodyHint" :class="hintClass">
+              Paste from Google Docs, Word or an email and the formatting is kept. Markdown, HTML and Hub components all
+              work. <a :href="`${DOCS}#markdown`" :class="linkClass">Formatting help</a>
+            </p>
+          </div>
         </div>
 
         <div v-if="media.length">
@@ -773,14 +883,17 @@ const sizeText = (bytes: number) =>
 
     <section aria-labelledby="post-preview-heading" class="space-y-5 lg:sticky lg:top-4 lg:self-start">
       <h2 id="post-preview-heading" class="text-h3 font-bold text-fg-strong">Your post</h2>
-      <Tabs default-value="preview">
-        <TabsList>
-          <TabsTrigger value="preview" :class="focusRing">Preview</TabsTrigger>
-          <TabsTrigger value="file" :class="focusRing">File</TabsTrigger>
-          <TabsTrigger value="social" :class="focusRing">Social media</TabsTrigger>
+      <!-- One card with the tabs as its header; underline tabs with the gold active bar (IWC DESIGN.md Tabs) -->
+      <Tabs default-value="preview" class="gap-0 overflow-hidden rounded-lg border-1 border-line bg-white">
+        <TabsList
+          class="h-auto w-full justify-start gap-6 rounded-none border-b-1 border-ebony-clay-100 bg-ebony-clay-50 px-5 py-0"
+        >
+          <TabsTrigger value="preview" :class="tabClass">Preview</TabsTrigger>
+          <TabsTrigger value="file" :class="tabClass">File</TabsTrigger>
+          <TabsTrigger value="social" :class="tabClass">Social media</TabsTrigger>
         </TabsList>
         <TabsContent value="preview">
-          <article class="max-h-[36rem] overflow-auto rounded-lg border border-line p-5" data-preview>
+          <article class="max-h-[36rem] overflow-auto p-5" data-preview>
             <p v-if="form.externalUrl" class="mb-3 rounded-md bg-info-bg p-2 text-sm text-info-fg">
               Listings link to {{ form.externalUrl }} instead of this page.
             </p>
@@ -809,7 +922,7 @@ const sizeText = (bytes: number) =>
             <p v-else class="mt-4 text-sm text-fg-meta">Your text shows here.</p>
           </article>
         </TabsContent>
-        <TabsContent value="file" class="space-y-3">
+        <TabsContent value="file" class="space-y-3 p-5">
           <p class="text-sm break-all">
             <code>{{ path }}</code>
           </p>
@@ -818,7 +931,7 @@ const sizeText = (bytes: number) =>
             data-file-text
           ><code>{{ text }}</code></pre>
         </TabsContent>
-        <TabsContent value="social" class="space-y-3" data-social>
+        <TabsContent value="social" class="space-y-3 p-5" data-social>
           <p v-if="!social.posted" class="rounded-md bg-warn-bg p-3 text-sm text-warn-fg">
             Not posted to social media: choose at least one subsite.
           </p>
@@ -906,12 +1019,21 @@ const sizeText = (bytes: number) =>
         </p>
         <ol class="list-decimal space-y-4 pl-5">
           <li class="space-y-2">
-            <Button type="button" :disabled="problems.length > 0" :class="focusRing" @click="saveAll">
-              <Download class="size-4" aria-hidden="true" /> Save all files
+            <Button type="button" :disabled="problems.length > 0 || shrinking" :class="focusRing" @click="saveAll">
+              <Download class="size-4" aria-hidden="true" />
+              {{
+                shrinking ? 'Making images smaller…' : canPickFolder ? 'Save all files to a folder' : 'Save all files'
+              }}
             </Button>
-            <p class="text-fg-meta">
-              {{ uploadNames.join(', ') }} go to your downloads. Your browser may ask to allow several downloads.
-              <span v-if="saved" class="text-ok-fg">Saved.</span>
+            <p v-if="canPickFolder" class="text-fg-meta">
+              Pick an empty folder: {{ uploadNames.join(', ') }} are written there with these exact names.
+            </p>
+            <p v-else class="text-fg-meta">
+              {{ uploadNames.join(', ') }} go to your downloads. Your browser may ask to allow several downloads. If it
+              renames one (for example <code>index (1).md</code>), rename it back before uploading.
+            </p>
+            <p v-if="saved" class="text-ok-fg" data-saved>
+              {{ savedTo ? `Saved to the folder ${savedTo}.` : 'Saved.' }}
             </p>
           </li>
           <li class="space-y-2">

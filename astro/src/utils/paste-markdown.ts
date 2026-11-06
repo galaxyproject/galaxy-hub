@@ -8,13 +8,6 @@ import rehypeRemark from 'rehype-remark';
 import remarkGfm from 'remark-gfm';
 import remarkStringify from 'remark-stringify';
 
-// Formatting worth keeping; a paste with none of it (a plain paragraph, code from an editor) stays plain text
-const RICH = /<(h[1-6]|ul|ol|table|strong|b|em|i|a|blockquote)\b/i;
-
-export function isRichHtml(html: string): boolean {
-  return RICH.test(html);
-}
-
 /** Docs and Word mark bold and italic with styles instead of tags; turn those into tags. */
 function cleanDocument(doc: Document): number {
   // Google Docs wraps the whole paste in <b style="font-weight:normal" id="docs-internal-guid-…">

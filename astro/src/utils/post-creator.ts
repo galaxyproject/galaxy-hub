@@ -7,6 +7,7 @@ import slugify from '@sindresorhus/slugify';
 import { subsites } from '../stores/subsiteStore';
 import { SUBSITE_GROUPS } from './subsites';
 import { formatDate } from './dateUtils';
+import { normalizeSlugSegment } from '../build/slug-utils.mjs';
 import { KNOWN_COMPONENTS, bodyHasComponents, normalizeBody } from '../build/normalize-transforms.mjs';
 
 export type PostKind = 'news' | 'event';
@@ -89,12 +90,17 @@ export function emptyForm(kind: PostKind, today: string): PostForm {
 }
 
 // shortcut: first 7 words keep folder names readable; authors can edit the slug
+// The build renames folders with normalizeSlugSegment (slug-utils.mjs, plus its overrides), so a
+// folder name must already be in that form or content:lint fails. slugify's camelCase split
+// ("RNAseq" to "rn-aseq") does not match it, so it is turned off.
+const toSlug = (text: string) => normalizeSlugSegment(slugify(text, { decamelize: false }));
+
 export function slugFromTitle(title: string): string {
-  return slugify(title).split('-').filter(Boolean).slice(0, 7).join('-');
+  return toSlug(title).split('-').filter(Boolean).slice(0, 7).join('-');
 }
 
 export function postPath(form: PostForm): string {
-  const folder = `${form.date}-${slugify(form.slug) || slugFromTitle(form.title) || 'my-post'}`;
+  const folder = `${form.date}-${toSlug(form.slug) || slugFromTitle(form.title) || 'my-post'}`;
   return form.kind === 'news'
     ? `content/news/${form.date.slice(0, 4)}/${folder}/index.md`
     : `content/events/${folder}/index.md`;
@@ -105,7 +111,7 @@ function quote(value: string): string {
   return `'${value.replace(/\s+/g, ' ').trim().replace(/'/g, "''")}'`;
 }
 
-function frontmatterLines(form: PostForm): string[] {
+function frontmatterLines(form: PostForm, components: boolean): string[] {
   const lines = [`title: ${quote(form.title)}`, `date: ${quote(form.date)}`];
   const event = form.kind === 'event';
   const add = (key: string, value: string) => value.trim() && lines.push(`${key}: ${quote(value)}`);
@@ -124,7 +130,7 @@ function frontmatterLines(form: PostForm): string[] {
   list('subsites', form.subsites);
   add('main_subsite', form.mainSubsite);
   // Same rule as content:lint, so the flag never disagrees with the check
-  if (usesComponents(form.body)) lines.push('components: true');
+  if (components) lines.push('components: true');
   if (form.authors.length || form.funding.length) {
     lines.push('contributions:');
     for (const [role, ids] of [
@@ -139,8 +145,11 @@ function frontmatterLines(form: PostForm): string[] {
 
 /** The file to commit. The body goes through the content:lint transforms, so the check passes as is. */
 export function buildPost(form: PostForm, body = form.body): string {
-  const text = normalizeBody(body).trim();
-  return `---\n${frontmatterLines(form).join('\n')}\n---\n${text ? `\n${text}\n` : ''}`;
+  const normalized = normalizeBody(form.body);
+  // The flag follows the real text, also when `body` is the paste placeholder of a long post
+  const lines = frontmatterLines(form, bodyHasComponents(normalized));
+  const text = (body === form.body ? normalized : normalizeBody(body)).trim();
+  return `---\n${lines.join('\n')}\n---\n${text ? `\n${text}\n` : ''}`;
 }
 
 // Browsers send `'` as %27; encode it here so the length check measures the real URL
@@ -151,9 +160,9 @@ function newFileUrl(path: string, value: string): string {
 }
 
 /** `complete` is false when the text was too long for a link and only the frontmatter was sent. */
-export function githubLink(form: PostForm): { url: string; complete: boolean } {
+export function githubLink(form: PostForm, file = buildPost(form)): { url: string; complete: boolean } {
   const path = postPath(form);
-  const url = newFileUrl(path, buildPost(form));
+  const url = newFileUrl(path, file);
   if (url.length <= MAX_URL_LENGTH) return { url, complete: true };
   return { url: newFileUrl(path, buildPost(form, 'Paste your text here.')), complete: false };
 }
@@ -182,6 +191,9 @@ export function newEntries(form: PostForm, known: Known): Known {
   };
 }
 
+// `make validate-metadata` runs the stricter checks for items dated after this (Makefile --be-strict-from)
+export const STRICT_FROM = '2026-02-24';
+
 export function postProblems(form: PostForm): string[] {
   const problems: string[] = [];
   const isDate = (value: string) => /^\d{4}-\d{2}-\d{2}$/.test(value);
@@ -189,6 +201,9 @@ export function postProblems(form: PostForm): string[] {
   if (!isDate(form.date)) problems.push('Add a date.');
   if (form.kind === 'event' && form.end && (!isDate(form.end) || form.end < form.date))
     problems.push('The end date must be on or after the start date.');
+  // Same rule as check_recent_contributions_required in scripts/validate_events.py
+  if (form.kind === 'event' && form.date > STRICT_FROM && !form.authors.length && !form.funding.length)
+    problems.push('Add at least one organiser or funder: the checks require them for events.');
   if (form.mainSubsite && !mainSubsiteChoices(form.subsites).includes(form.mainSubsite))
     problems.push('The main subsite must be one of the chosen subsites.');
   return problems;
@@ -201,10 +216,15 @@ export function usesComponents(body: string): boolean {
 
 export type MediaKind = 'image' | 'video' | 'file';
 
-export function mediaKind(name: string): MediaKind {
-  if (/\.(png|jpe?g|gif|webp|svg|avif)$/.test(name)) return 'image';
-  if (/\.(mp4|webm|ogv|mov)$/.test(name)) return 'video';
-  return 'file';
+// Only what the build publishes: copyAssets copies, and processImagePaths rewrites, just these types
+const PUBLISHED = { image: ['jpg', 'jpeg', 'png', 'gif', 'svg', 'webp'], video: ['mp4', 'webm'], file: ['pdf'] };
+export const PUBLISHED_TYPES = Object.values(PUBLISHED).flat();
+
+/** What a file in the post folder is, or null when the Hub would not publish it. */
+export function mediaKind(name: string): MediaKind | null {
+  const ext = name.split('.').at(-1)?.toLowerCase() ?? '';
+  const kind = (Object.keys(PUBLISHED) as MediaKind[]).find((k) => PUBLISHED[k].includes(ext));
+  return kind ?? null;
 }
 
 /** Lowercase, hyphenated file name (content:lint rejects new uppercase asset names), unique in the post folder. */
@@ -217,7 +237,7 @@ export function mediaName(fileName: string, taken: string[]): string {
           .toLowerCase()
           .replace(/[^a-z0-9]/g, '')
       : '';
-  const base = slugify(dot > 0 ? fileName.slice(0, dot) : fileName) || 'file';
+  const base = slugify(dot > 0 ? fileName.slice(0, dot) : fileName, { decamelize: false }) || 'file';
   const name = (suffix: string) => (ext ? `${base}${suffix}.${ext}` : `${base}${suffix}`);
   let i = 1;
   while (taken.includes(name(i === 1 ? '' : `-${i}`))) i++;
@@ -245,14 +265,16 @@ const escapeHtml = (value: string) =>
 
 /**
  * The text that shows a file from the post folder. A plain image is Markdown; a sized or captioned
- * one is a <figure> written the way content:lint wants it (self-closed, quoted numbers). Videos use
- * the VideoPlayer component.
+ * one is a <figure> written the way content:lint wants it (self-closed, quoted numbers). Videos are
+ * a <video> element and PDFs a link.
  */
 export function mediaMarkdown(name: string, options: MediaOptions = {}): string {
   const { alt = '', caption = '', size = 'full' } = options;
   const kind = mediaKind(name);
-  if (kind === 'video') return `<VideoPlayer src="./${name}" />`;
-  if (kind === 'file') return `[${alt.trim().replace(/[[\]]/g, '') || name}](./${name})`;
+  // A plain <video>: the build rewrites its src to /images/<slug>/ (processImagePaths) but not the
+  // VideoPlayer component's, which would 404
+  if (kind === 'video') return `<video controls src="./${name}"></video>`;
+  if (kind !== 'image') return `[${alt.trim().replace(/[[\]]/g, '') || name}](./${name})`;
   if (size === 'full' && !caption.trim()) return `![${alt.replace(/[[\]]/g, '')}](./${name})`;
   const width = size === 'full' ? '' : ` width="${IMAGE_WIDTHS[size]}"`;
   const lines = ['<figure>', `  <img src="./${name}" alt="${escapeHtml(alt.trim())}"${width} />`];
