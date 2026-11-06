@@ -3,6 +3,10 @@ title: User-Defined Tools
 tease: "Write and run your own simple tools from the Galaxy interface — no server access, no admin installation, no Tool Shed."
 ---
 
+<div class="alert alert-warning" role="alert">
+<strong>This page will be deprecated.</strong> Galaxy's own documentation now carries the authoritative reference for User-Defined Tools: <a href="https://docs.galaxyproject.org/en/master/dev/user_defined_tools_authoring.html">Authoring User-Defined Tools</a>. Once that page is updated to cover everything here, this page will be retired and will point you there instead. When the two disagree, the Galaxy documentation is correct.
+</div>
+
 *Beta feature available on UseGalaxy.org only*
 
 User-Defined Tools (UDTs) let regular Galaxy users write and run their own simple tools directly from the Galaxy interface — no server access, no admin installation, and no waiting for a tool to be added to a Tool Shed. If you've ever needed a quick one-off script, a table-reformatting step, or wanted to glue together a couple of shell commands in a workflow, and didn't want to file a request with your Galaxy admin, UDTs are for you.
@@ -341,9 +345,48 @@ Because this is a beta feature and the security model is still being hardened, w
 
 ## Sharing tools
 
-UDTs are private to the user who created them by default. If you embed a UDT in a workflow and share that workflow, anyone who imports the workflow automatically gets a copy of the tool in their own account — they don't need to have created it themselves or have tool-creation permission.
+UDTs are private to the user who created them. There is no way to share a single tool with another user directly — sharing happens by way of a workflow that carries the tool definition with it.
 
-An administrator can also export a UDT to disk and install it like a regular tool, making it available instance-wide.
+A workflow that uses a UDT embeds the whole tool definition rather than a reference to it, so the workflow is self-contained. In a Format 2 workflow (`.gxwf.yml`) the definition sits inline under the step's `run` key:
+
+```yaml
+class: GalaxyWorkflow
+inputs:
+  text_file:
+    type: data
+outputs:
+  without_comments:
+    outputSource: remove_comments/output_file
+steps:
+  remove_comments:
+    run:
+      class: GalaxyUserTool
+      id: remove_comments
+      version: 0.1.0
+      name: Remove Comment Lines
+      container: quay.io/biocontainers/grep:3.4--hf43ccf4_4
+      shell_command: grep -v '^#' '$(inputs.input_file.path)' > output.txt || test "$?" = 1
+      inputs:
+        - name: input_file
+          type: data
+          format: txt
+      outputs:
+        - name: output_file
+          type: data
+          format_source: input_file
+          from_work_dir: output.txt
+    in:
+      input_file: text_file
+```
+
+Galaxy's `.ga` export works the same way, carrying the definition in the step's `tool_representation` field.
+
+When someone imports that workflow, Galaxy creates a private copy of the tool in their account. Two things to keep in mind:
+
+- The importing user needs the **Custom Tool Execution** role on that instance. They do *not* need tool-creation permission, and they don't need to have written the tool — but without the execution role the workflow's UDT steps won't run for them.
+- They get a copy, not a link back to your tool. Editing your original afterwards has no effect on their copy, and vice versa.
+
+An administrator can also export a UDT to disk and load it like a regular tool, making it available instance-wide.
 
 ## Security considerations
 
@@ -356,8 +399,10 @@ UDTs are a beta feature and still evolving. At the moment:
 - There's no access to Galaxy's reference data.
 - There's no access to dataset metadata or metadata files (such as BAM indexes).
 - There's no access to a tool's `extra_files` directory.
-- Test cases aren't supported yet.
+- Test cases can be declared but not run. A tool may carry a `tests:` block using the same syntax as other YAML-format Galaxy tools, and Galaxy stores and returns it, but there is no "run this tool's tests" action in the interface — a tool held in the database has no tool directory, so file-based test inputs can't be resolved. Declared tests only become executable once the tool is exported to disk and loaded like a regular tool. Until then, check a tool by running it on inputs whose answer you already know and comparing against the same command run outside Galaxy — worth doing once per version, since a version bump usually means a new container image too.
 
 ## Learn more
 
-For the full technical reference, including the complete list of supported input types and fields, see the [Galaxy administration documentation on User-Defined Tools](https://docs.galaxyproject.org/en/master/admin/user_defined_tools.html).
+For the full technical reference, including the complete list of supported input types and fields, the expression syntax, and how to use a UDT in a workflow or through the API, see [Authoring User-Defined Tools](https://docs.galaxyproject.org/en/master/dev/user_defined_tools_authoring.html) in the Galaxy developer documentation — the same reference the tool editor's help panel shows.
+
+For the administrator's side — enabling the feature, routing UDT jobs to an isolated destination with `job_conf.yml` or TPV, and how stored tools behave when the schema changes between Galaxy releases — see [User-Defined Tools (Beta)](https://docs.galaxyproject.org/en/master/admin/user_defined_tools.html) in the Galaxy administration documentation.
