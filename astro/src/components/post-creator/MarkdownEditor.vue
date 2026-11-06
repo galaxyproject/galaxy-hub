@@ -42,11 +42,20 @@ function say(message: string) {
   notice.value = message;
 }
 
-async function pasteHtml(html: string) {
-  const { htmlToMarkdown } = await import('@/utils/paste-markdown');
-  const { markdown, droppedImages } = await htmlToMarkdown(html);
+async function pasteHtml(html: string, plain: string) {
   const v = view.value;
   if (!v) return;
+  let result;
+  try {
+    const { htmlToMarkdown } = await import('@/utils/paste-markdown');
+    result = await htmlToMarkdown(html);
+  } catch {
+    // Conversion or its download failed: keep the paste as plain text rather than losing it
+    v.dispatch(v.state.replaceSelection(plain));
+    say('Pasted as plain text: the formatting could not be converted.');
+    return;
+  }
+  const { markdown, droppedImages } = result;
   v.dispatch(v.state.replaceSelection(markdown));
   v.focus();
   say(
@@ -137,7 +146,7 @@ onMounted(async () => {
           const html = data.getData('text/html');
           if (html && RICH_HTML.test(html)) {
             event.preventDefault();
-            void pasteHtml(html);
+            void pasteHtml(html, data.getData('text/plain'));
             return true;
           }
           return false;
@@ -249,9 +258,17 @@ const embedUrl = ref('');
 const embedInputId = useId();
 const embedHintId = useId();
 
+const embedButton = ref<HTMLButtonElement>();
+
 function openEmbed() {
   embedOpen.value = !embedOpen.value;
   if (embedOpen.value) setTimeout(() => document.getElementById(embedInputId)?.focus());
+}
+
+/** Closes the row and puts focus back on the Embed button, so it does not drop to the page. */
+function closeEmbed() {
+  embedOpen.value = false;
+  embedButton.value?.focus();
 }
 
 function insertEmbed() {
@@ -267,11 +284,13 @@ function insertEmbed() {
           ? 'Added the Mastodon post.'
           : 'Added the calendar.'
     );
-  } else if (URL.canParse(link)) {
-    insertBlock(`[${link}](${link})`);
+  } else if (URL.canParse(link) && /^https?:$/.test(new URL(link).protocol)) {
+    // Only web links: a javascript: or data: address must not become a link in the post
+    const href = new URL(link).href;
+    insertBlock(`[${href}](${href})`);
     say('This site cannot be embedded, so it was added as a link.');
   } else {
-    say('That does not look like a link. Copy the full address, starting with https://.');
+    say('That does not look like a web link. Copy the full address, starting with https://.');
     return;
   }
   embedUrl.value = '';
@@ -293,9 +312,9 @@ const tools = [
 ];
 
 const toolButton =
-  'inline-flex size-8 items-center justify-center rounded text-chicago-700 hover:bg-ebony-clay-100 ' + focusRing;
+  'inline-flex size-8 items-center justify-center rounded-sm text-fg-2 hover:bg-ebony-clay-100 ' + focusRing;
 const textButton =
-  'inline-flex h-8 items-center gap-1.5 rounded px-2 text-sm text-chicago-700 hover:bg-ebony-clay-100 ' + focusRing;
+  'inline-flex h-8 items-center gap-1.5 rounded-sm px-2 text-sm text-fg-2 hover:bg-ebony-clay-100 ' + focusRing;
 </script>
 
 <template>
@@ -304,7 +323,7 @@ const textButton =
     :class="dragging ? 'border-galaxy-primary bg-surface-tint' : 'border-chicago-400'"
   >
     <div
-      role="toolbar"
+      role="group"
       aria-label="Formatting"
       class="flex flex-wrap items-center gap-1 border-b border-line bg-ebony-clay-50 px-1 py-1"
     >
@@ -323,12 +342,12 @@ const textButton =
       <button type="button" :class="textButton" @click="emit('add-files')">
         <ImagePlus class="size-4" aria-hidden="true" /> Image
       </button>
-      <button type="button" :class="textButton" :aria-expanded="embedOpen" @click="openEmbed">
+      <button ref="embedButton" type="button" :class="textButton" :aria-expanded="embedOpen" @click="openEmbed">
         <Clapperboard class="size-4" aria-hidden="true" /> Embed
       </button>
     </div>
 
-    <div v-if="embedOpen" class="space-y-2 border-b border-line bg-white p-3">
+    <div v-if="embedOpen" class="space-y-2 border-b border-line bg-surface-raised p-3">
       <label :for="embedInputId" :class="labelClass">Link to embed</label>
       <div class="flex flex-wrap gap-2">
         <Input
@@ -339,10 +358,10 @@ const textButton =
           :aria-describedby="embedHintId"
           :class="[inputClass, focusRing, 'min-w-0 flex-1']"
           @keydown.enter.prevent="insertEmbed"
-          @keydown.escape="embedOpen = false"
+          @keydown.escape="closeEmbed"
         />
         <Button type="button" :class="focusRing" @click="insertEmbed">Insert</Button>
-        <Button type="button" variant="ghost" :class="focusRing" @click="embedOpen = false">Cancel</Button>
+        <Button type="button" variant="ghost" :class="focusRing" @click="closeEmbed">Cancel</Button>
       </div>
       <p :id="embedHintId" :class="hintClass">
         A YouTube video, a Mastodon post or a Google Calendar (from its “Integrate calendar” settings). Other links are
@@ -350,7 +369,7 @@ const textButton =
       </p>
     </div>
 
-    <div ref="host" class="bg-white" />
+    <div ref="host" class="bg-surface-raised" />
 
     <div class="flex items-start gap-2 border-t border-line bg-ebony-clay-50 px-3 py-2 text-sm text-fg-meta">
       <Paperclip class="mt-0.5 size-4 shrink-0" aria-hidden="true" />

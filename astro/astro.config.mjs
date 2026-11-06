@@ -1,4 +1,5 @@
 // @ts-check
+import { fileURLToPath } from 'node:url';
 import { defineConfig } from 'astro/config';
 import vue from '@astrojs/vue';
 import tailwindcss from '@tailwindcss/vite';
@@ -52,7 +53,21 @@ export default defineConfig({
       // browser, where dev has no `process`; the build already turns `process.env` into `{}`.
       'process.env.ASTRO_PERFORMANCE_BENCHMARK': 'undefined',
     },
-    plugins: [tailwindcss()],
+    plugins: [
+      tailwindcss(),
+      {
+        // Browser build only: Astro's highlighter imports `shiki`, which references all ~240 grammars.
+        // The post creator preview (the only browser user) gets a module with the hub's languages.
+        name: 'post-creator-preview-shiki',
+        enforce: 'pre',
+        applyToEnvironment: (environment) => environment.name === 'client',
+        resolveId(source, importer) {
+          if (source === 'shiki' && importer?.includes('@astrojs/internal-helpers')) {
+            return fileURLToPath(new URL('./src/build/shiki-preview.mjs', import.meta.url));
+          }
+        },
+      },
+    ],
     server: {
       // Reduce inotify watcher pressure during dev/Playwright runs
       watch: {

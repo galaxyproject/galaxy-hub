@@ -74,7 +74,7 @@ const NON_TEXT_TAGS = [
 ];
 
 /** Authored Markdown (teasers, summaries, bodies): everything marked emits for CommonMark and GFM. */
-const MARKDOWN_TAGS = [...BIO_TAGS, 'figcaption', 'figure', 'h1', 'table', 'thead', 'tbody', 'tr', 'th', 'td'];
+const MARKDOWN_TAGS = [...BIO_TAGS, 'h1', 'table', 'thead', 'tbody', 'tr', 'th', 'td'];
 
 /** A link without a safe href is unwrapped (text kept); an image without a safe src is removed. */
 const dropUnsafeLinks: sanitize.IOptions['exclusiveFilter'] = (frame) => {
@@ -128,7 +128,7 @@ const OPTIONS: Record<SanitizeProfile, sanitize.IOptions> = {
     allowedTags: MARKDOWN_TAGS,
     allowedAttributes: {
       a: ['href', 'title'],
-      img: ['src', 'alt', 'title', 'width', 'height'],
+      img: ['src', 'alt', 'title'],
       ol: ['start'],
       span: ['style'],
       td: ['align'],
@@ -139,7 +139,7 @@ const OPTIONS: Record<SanitizeProfile, sanitize.IOptions> = {
     transformTags: {
       span: smallCapsSpan,
       a: urlAttrTransform('href', (url) => safeHref(url, LINK_SCHEMES), ['title']),
-      img: urlAttrTransform('src', (url) => safeHref(url, HTTP_SCHEMES), ['alt', 'title', 'class', 'width', 'height']),
+      img: urlAttrTransform('src', (url) => safeHref(url, HTTP_SCHEMES), ['alt', 'title', 'class']),
     },
     exclusiveFilter: dropUnsafeLinks,
   },
@@ -150,6 +150,8 @@ const OPTIONS: Record<SanitizeProfile, sanitize.IOptions> = {
     allowedTags: [
       ...MARKDOWN_TAGS,
       'abbr',
+      'figcaption',
+      'figure',
       'caption',
       'center',
       'col',

@@ -1,13 +1,15 @@
 ---
 import fs from 'node:fs';
-import path from 'node:path';
 import { parse } from 'yaml';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import PageHeader from '../../../components/layout/PageHeader.astro';
 import PostCreator from '../../../components/post-creator/PostCreator.vue';
-import { listContributors, listGrants, listOrganisations } from '../../../utils/contributors';
+import { listContributors, listGrants, listOrganisations, resolveContentPath } from '../../../utils/contributors';
 
-const tags: string[] = parse(fs.readFileSync(path.resolve(process.cwd(), '../content/TAGS.yaml'), 'utf8'));
+const tags: string[] = parse(fs.readFileSync(resolveContentPath('TAGS.yaml'), 'utf8'));
+const templates = 'https://github.com/galaxyproject/galaxy-hub/blob/main/CONTRIBUTING.md#news-and-event-templates';
+const linkClass =
+  'text-link underline decoration-link-line underline-offset-2 hover:text-link-hover hover:decoration-link-hover-line';
 
 // Only id and name reach the page: the island props are inlined into the HTML
 const option = (record: { id: string; name?: string }) => ({ id: record.id, name: record.name || record.id });
@@ -27,14 +29,10 @@ const funders = [...listGrants().map(option), ...organisations].sort(byName);
       description="Fill in the form. We build the file for you and open it on GitHub, ready to submit as a pull request."
       eyebrow={{ label: 'Contributing', href: '/hub/contributing/' }}
     />
-    <div class="bg-white px-6 sm:px-8 py-6 rounded-b-lg shadow-sm">
+    <div class="bg-surface-raised px-6 sm:px-8 py-6 rounded-b-lg shadow-sm">
       <p class="mb-6 text-sm text-fg-meta">
         You need a free GitHub account. Prefer to write the file yourself? See the
-        <a
-          href="https://github.com/galaxyproject/galaxy-hub/blob/main/CONTRIBUTING.md#news-and-event-templates"
-          class="text-link underline decoration-link-line underline-offset-2 hover:text-link-hover hover:decoration-link-hover-line"
-          >templates</a
-        >.
+        <a href={templates} class={linkClass}>templates</a>.
       </p>
       <PostCreator client:load tags={[...tags].sort((a, b) => a.localeCompare(b))} people={people} funders={funders} />
     </div>

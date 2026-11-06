@@ -17,7 +17,7 @@ The easiest way is to use the "Edit on Github" link near the bottom of any Hub p
 
 ### Creating a new page
 
-In the GitHub web interface, navigate to the appropriate directory under `/content/` and click "Add file" → "Create new file". For news items, create the year bucket first, then add `your-page-name/index.md` inside it (for example `content/news/2026/my-news-item/index.md`). GitHub will create the directory for you.
+In the GitHub web interface, navigate to the appropriate directory under `/content/` and click "Add file" → "Create new file". For news items, create the year bucket first, then add `your-page-name/index.md` inside it (for example `content/news/2026/2026-03-05-my-news-item/index.md`; news folders start with the date). GitHub will create the directory for you.
 
 **News and events**: the easiest way is the [post creator](https://galaxyproject.org/hub/contributing/new/). Fill in the form and it opens the file on GitHub with the right folder and metadata. You can also copy a [template](#news-and-event-templates).
 

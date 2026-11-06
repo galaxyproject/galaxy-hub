@@ -179,15 +179,6 @@ describe('postProblems', () => {
   });
 });
 
-it('keeps quotes in the GitHub link encoded so its length is the real one', () => {
-  expect(githubLink(form()).url).not.toContain("'");
-});
-
-it('only offers subsites the metadata check accepts', () => {
-  const valid = parse(readFileSync(new URL('../../../content/SUBSITES.yaml', import.meta.url), 'utf8'));
-  for (const subsite of OFFERED_SUBSITES) expect(valid).toContain(subsite.id);
-});
-
 describe('components', () => {
   it('adds components: true when the text uses one', () => {
     expect(buildPost(form({ body: 'Hi <Icon name="laptop" />' }))).toContain('\ncomponents: true\n');
@@ -295,50 +286,61 @@ describe('socialPost', () => {
   });
 });
 
-it('keeps outlines in plain Markdown', () => {
-  for (const outline of [...OUTLINES.news, ...OUTLINES.event]) {
-    expect(usesComponents(outline.text)).toBe(false);
-    expect(normalizeBody(outline.text)).toBe(outline.text);
-  }
-});
+describe('rules shared with the build and CI', () => {
+  it('keeps quotes in the GitHub link encoded so its length is the real one', () => {
+    expect(githubLink(form()).url).not.toContain("'");
+  });
 
-it('finds links whose address is still a placeholder', () => {
-  expect(
-    placeholderLinks('[Slides](https://) and [GTN](https://training.galaxyproject.org/) and [x](http://)')
-  ).toEqual(['Slides', 'x']);
-});
+  it('only offers subsites the metadata check accepts', () => {
+    const valid = parse(readFileSync(new URL('../../../content/SUBSITES.yaml', import.meta.url), 'utf8'));
+    for (const subsite of OFFERED_SUBSITES) expect(valid).toContain(subsite.id);
+  });
 
-it('links to the upload page for the post folder', () => {
-  expect(uploadPageUrl(form())).toBe(
-    'https://github.com/galaxyproject/galaxy-hub/upload/main/content/news/2026/2026-11-05-galaxy-new-release'
-  );
-});
+  it('keeps outlines in plain Markdown', () => {
+    for (const outline of [...OUTLINES.news, ...OUTLINES.event]) {
+      expect(usesComponents(outline.text)).toBe(false);
+      expect(normalizeBody(outline.text)).toBe(outline.text);
+    }
+  });
 
-it('makes folder names the build keeps as they are', () => {
-  // slugify alone splits camelCase ("rn-aseq"); the build's rule does not, and content:lint compares them
-  for (const title of ['New RNAseq tutorials', 'miRNA workshop', 'BiaPy now in Galaxy', 'GCC2026 CoFest outcomes']) {
-    const slug = slugFromTitle(title);
-    expect(normalizeSlugSegment(slug)).toBe(slug);
-  }
-  expect(slugFromTitle('New RNAseq tutorials')).toBe('new-rnaseq-tutorials');
-});
+  it('finds links whose address is still a placeholder', () => {
+    expect(
+      placeholderLinks('[Slides](https://) and [GTN](https://training.galaxyproject.org/) and [x](http://)')
+    ).toEqual(['Slides', 'x']);
+  });
 
-it('only takes files the build publishes', () => {
-  expect(mediaKind('a.JPG')).toBe('image');
-  expect(mediaKind('clip.webm')).toBe('video');
-  expect(mediaKind('slides.pdf')).toBe('file');
-  for (const name of ['photo.heic', 'photo.avif', 'clip.mov', 'slides.pptx', 'data.csv'])
-    expect(mediaKind(name)).toBeNull();
-});
+  it('links to the upload page for the post folder', () => {
+    expect(uploadPageUrl(form())).toBe(
+      'https://github.com/galaxyproject/galaxy-hub/upload/main/content/news/2026/2026-11-05-galaxy-new-release'
+    );
+  });
 
-it('keeps components: true in the metadata-only file sent for long texts', () => {
-  const long = form({ body: '<Icon name="x" /> ' + 'ü '.repeat(3000) });
-  expect(new URL(githubLink(long).url).searchParams.get('value')).toContain('components: true');
-});
+  it('makes folder names the build keeps as they are', () => {
+    // slugify alone splits camelCase ("rn-aseq"); the build's rule does not, and content:lint compares them
+    for (const title of ['New RNAseq tutorials', 'miRNA workshop', 'BiaPy now in Galaxy', 'GCC2026 CoFest outcomes']) {
+      const slug = slugFromTitle(title);
+      expect(normalizeSlugSegment(slug)).toBe(slug);
+    }
+    expect(slugFromTitle('New RNAseq tutorials')).toBe('new-rnaseq-tutorials');
+  });
 
-it('sends text the content:lint transforms leave unchanged', () => {
-  const once = normalizeBody(
-    'a<br>b <BR> <https://x.org> <td rowspan=3> <i class="fa fa-laptop"></i> <g-link to="/">x</g-link>'
-  );
-  expect(normalizeBody(once)).toBe(once);
+  it('only takes files the build publishes', () => {
+    expect(mediaKind('a.JPG')).toBe('image');
+    expect(mediaKind('clip.webm')).toBe('video');
+    expect(mediaKind('slides.pdf')).toBe('file');
+    for (const name of ['photo.heic', 'photo.avif', 'clip.mov', 'slides.pptx', 'data.csv'])
+      expect(mediaKind(name)).toBeNull();
+  });
+
+  it('keeps components: true in the metadata-only file sent for long texts', () => {
+    const long = form({ body: '<Icon name="x" /> ' + 'ü '.repeat(3000) });
+    expect(new URL(githubLink(long).url).searchParams.get('value')).toContain('components: true');
+  });
+
+  it('sends text the content:lint transforms leave unchanged', () => {
+    const once = normalizeBody(
+      'a<br>b <BR> <https://x.org> <td rowspan=3> <i class="fa fa-laptop"></i> <g-link to="/">x</g-link>'
+    );
+    expect(normalizeBody(once)).toBe(once);
+  });
 });

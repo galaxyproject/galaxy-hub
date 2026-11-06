@@ -91,7 +91,8 @@ function findContentPathFrom(startDir: string, filename: string): string | undef
   }
 }
 
-function resolveContentPath(filename: string): string {
+/** Absolute path of a file in the repository's content/ folder. */
+export function resolveContentPath(filename: string): string {
   const candidates = [process.cwd(), path.dirname(fileURLToPath(import.meta.url))];
 
   for (const candidate of candidates) {

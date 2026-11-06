@@ -24,7 +24,8 @@ const getRenderer = () =>
   }) as Promise<Renderer>);
 
 const names = KNOWN_COMPONENTS.join('|');
-const PAIRED = new RegExp(`<(${names})\\b[^>]*>[\\s\\S]*?</\\1>`, 'g');
+// `(?<!/)` so a self-closed tag is not taken for an opening one (it would swallow the text after it)
+const PAIRED = new RegExp(`<(${names})\\b[^>]*(?<!/)>[\\s\\S]*?</\\1>`, 'g');
 const SELF = new RegExp(`<(${names})\\b[^>]*/>`, 'g');
 
 /**

@@ -29,6 +29,8 @@ import {
   newEntries,
   placeholderLinks,
   postProblems,
+  TITLE_PROBLEM,
+  DATE_PROBLEM,
   slugFromTitle,
   socialPost,
   uploadPageUrl,
@@ -68,7 +70,8 @@ onMounted(() => {
     const saved = JSON.parse(localStorage.getItem(DRAFT_KEY) ?? 'null');
     if (saved?.form && (saved.form.title?.trim() || saved.form.body?.trim())) draft.value = saved;
   } catch {
-    localStorage.removeItem(DRAFT_KEY);
+    // Unreadable draft, or storage blocked: start without one
+    forgetDraft();
   }
   // Wait for the author's answer before saving over an older draft
   autosave = !draft.value;
@@ -80,13 +83,28 @@ watch(
     if (!autosave) return;
     clearTimeout(saveTimer);
     saveTimer = setTimeout(() => {
-      if (value.title.trim() || value.body.trim()) {
+      if (!value.title.trim() && !value.body.trim()) return forgetDraft();
+      try {
         localStorage.setItem(DRAFT_KEY, JSON.stringify({ form: value, savedAt: new Date().toISOString() }));
-      } else localStorage.removeItem(DRAFT_KEY);
+        autosaveOff.value = false;
+      } catch {
+        // Storage full or blocked (private mode, site settings)
+        autosaveOff.value = true;
+      }
     }, 500);
   },
   { deep: true }
 );
+
+const autosaveOff = ref(false);
+
+function forgetDraft() {
+  try {
+    localStorage.removeItem(DRAFT_KEY);
+  } catch {
+    // Storage blocked: nothing was saved either
+  }
+}
 
 function restoreDraft() {
   if (draft.value) Object.assign(form, emptyForm(draft.value.form.kind ?? 'news', today()), draft.value.form);
@@ -95,7 +113,7 @@ function restoreDraft() {
 }
 
 function discardDraft() {
-  localStorage.removeItem(DRAFT_KEY);
+  forgetDraft();
   draft.value = null;
   autosave = true;
 }
@@ -108,23 +126,26 @@ const savedAtText = computed(() =>
 
 // Two clicks instead of a confirm() dialog
 const confirmStartOver = ref(false);
+let startOverTimer: ReturnType<typeof setTimeout> | undefined;
 function startOver() {
   if (!confirmStartOver.value) {
     confirmStartOver.value = true;
-    setTimeout(() => (confirmStartOver.value = false), 4000);
+    startOverTimer = setTimeout(() => (confirmStartOver.value = false), 4000);
     return;
   }
   confirmStartOver.value = false;
   media.value.forEach(revokeMedia);
   media.value = [];
   Object.assign(form, emptyForm(form.kind, today()));
-  localStorage.removeItem(DRAFT_KEY);
+  forgetDraft();
 }
 
 const id = (name: string) => `post-${name}-${useId()}`;
 const ids = {
   kind: id('kind'),
   title: id('title'),
+  titleError: id('title-error'),
+  dateError: id('date-error'),
   date: id('date'),
   end: id('end'),
   tease: id('tease'),
@@ -194,6 +215,21 @@ watch(
   }
 );
 const problems = computed(() => [...postProblems(form), ...mdxIssues.value]);
+// Title and date errors show once the field was left empty, not on a fresh form
+const touched = reactive({ title: false, date: false });
+const titleError = computed(() => (touched.title && problems.value.includes(TITLE_PROBLEM) ? TITLE_PROBLEM : ''));
+const dateError = computed(() => (touched.date && problems.value.includes(DATE_PROBLEM) ? DATE_PROBLEM : ''));
+const listedProblems = computed(() =>
+  problems.value.filter((p) => !((p === TITLE_PROBLEM && !touched.title) || (p === DATE_PROBLEM && !touched.date)))
+);
+const waitingFor = computed(() =>
+  [
+    !touched.title && problems.value.includes(TITLE_PROBLEM) && 'the title',
+    !touched.date && problems.value.includes(DATE_PROBLEM) && 'the date',
+  ]
+    .filter(Boolean)
+    .join(' and ')
+);
 const warnings = computed(() => [
   ...media.value
     .filter((m) => mediaKind(m.name) === 'image' && !m.alt.trim())
@@ -211,10 +247,19 @@ const added = computed(() =>
 const month = new Date().toLocaleDateString('en-CA').slice(0, 7);
 const copied = ref(false);
 
+const copyFailed = ref(false);
+let copiedTimer: ReturnType<typeof setTimeout> | undefined;
+
 async function copy() {
-  await navigator.clipboard.writeText(text.value);
-  copied.value = true;
-  setTimeout(() => (copied.value = false), 3000);
+  try {
+    await navigator.clipboard.writeText(text.value);
+    copied.value = true;
+    copyFailed.value = false;
+    copiedTimer = setTimeout(() => (copied.value = false), 3000);
+  } catch {
+    // Refused (permissions, insecure page): the File tab shows the text to copy by hand
+    copyFailed.value = true;
+  }
 }
 
 const KINDS: { kind: PostKind; label: string }[] = [
@@ -230,7 +275,7 @@ const chip = 'inline-flex h-10 items-center rounded-md px-4 text-sm font-medium 
 // Underline tabs: grey text, the active one dark with a 4px gold bar; the bar sits on the list's bottom line.
 // The focus outline is inset because the card clips its corners.
 const tabClass =
-  '-mb-px h-auto min-h-11 flex-none rounded-none border-0 border-b-4 border-transparent bg-transparent px-0 pt-3 pb-2 text-base font-medium text-chicago-700 shadow-none hover:text-fg-strong data-[state=active]:border-galaxy-gold data-[state=active]:bg-transparent data-[state=active]:font-bold data-[state=active]:text-fg-strong data-[state=active]:shadow-none focus-visible:ring-0 focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-solid focus-visible:outline-galaxy-primary';
+  '-mb-px h-auto min-h-11 flex-none rounded-none border-0 border-b-4 border-transparent bg-transparent px-0 pt-3 pb-2 text-base font-medium text-fg-2 shadow-none hover:text-fg-strong data-[state=active]:border-galaxy-gold data-[state=active]:bg-transparent data-[state=active]:font-bold data-[state=active]:text-fg-strong data-[state=active]:shadow-none focus-visible:ring-0 focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-solid focus-visible:outline-galaxy-primary';
 
 // Files stay in the browser: the GitHub link carries text only, so authors upload them to the post folder.
 // Each file's text in the editor is tracked, so changing alt text, caption or size updates it in place.
@@ -358,7 +403,10 @@ const IMAGE_SIZES: { value: ImageSize; label: string }[] = [
   { value: 'small', label: `Small (${IMAGE_WIDTHS.small} px)` },
 ];
 
-onBeforeUnmount(() => media.value.forEach(revokeMedia));
+onBeforeUnmount(() => {
+  media.value.forEach(revokeMedia);
+  [saveTimer, mdxTimer, previewTimer, copiedTimer, startOverTimer].forEach((timer) => clearTimeout(timer));
+});
 
 // Posts with files (or text too long for a link) go up through GitHub's upload page in one commit
 const useUpload = computed(() => media.value.length > 0 || !link.value.complete);
@@ -479,8 +527,8 @@ const sizeText = (bytes: number) =>
               :class="[
                 chip,
                 form.kind === option.kind
-                  ? 'bg-galaxy-primary text-white'
-                  : 'bg-ebony-clay-50 text-chicago-700 hover:bg-ebony-clay-100',
+                  ? 'bg-selected text-on-selected'
+                  : 'bg-ebony-clay-50 text-fg-2 hover:bg-ebony-clay-100',
               ]"
               @click="setKind(option.kind)"
             >
@@ -491,7 +539,16 @@ const sizeText = (bytes: number) =>
 
         <div>
           <label :for="ids.title" :class="labelClass">Title (required)</label>
-          <Input :id="ids.title" v-model="form.title" required :class="[inputClass, focusRing]" />
+          <Input
+            :id="ids.title"
+            v-model="form.title"
+            required
+            :aria-invalid="titleError ? true : undefined"
+            :aria-describedby="titleError ? ids.titleError : undefined"
+            :class="[inputClass, focusRing]"
+            @blur="touched.title = true"
+          />
+          <p v-if="titleError" :id="ids.titleError" class="mt-1 text-sm text-danger-fg">{{ titleError }}</p>
         </div>
 
         <div class="grid gap-4 sm:grid-cols-2">
@@ -499,7 +556,17 @@ const sizeText = (bytes: number) =>
             <label :for="ids.date" :class="labelClass">{{
               isEvent ? 'Start date (required)' : 'Date (required)'
             }}</label>
-            <Input :id="ids.date" v-model="form.date" type="date" required :class="[inputClass, focusRing]" />
+            <Input
+              :id="ids.date"
+              v-model="form.date"
+              type="date"
+              required
+              :aria-invalid="dateError ? true : undefined"
+              :aria-describedby="dateError ? ids.dateError : undefined"
+              :class="[inputClass, focusRing]"
+              @blur="touched.date = true"
+            />
+            <p v-if="dateError" :id="ids.dateError" class="mt-1 text-sm text-danger-fg">{{ dateError }}</p>
           </div>
           <div v-if="isEvent">
             <label :for="ids.end" :class="labelClass">Last day</label>
@@ -709,7 +776,7 @@ const sizeText = (bytes: number) =>
                 v-for="outline in OUTLINES[form.kind]"
                 :key="outline.label"
                 type="button"
-                class="rounded-md border border-line px-2.5 py-1 text-chicago-700 hover:bg-ebony-clay-50"
+                class="rounded-md border border-line px-2.5 py-1 text-fg-2 hover:bg-ebony-clay-50"
                 :class="focusRing"
                 @click="useOutline(outline)"
               >
@@ -757,12 +824,12 @@ const sizeText = (bytes: number) =>
                 v-if="mediaKind(item.name) === 'image'"
                 :src="item.url"
                 alt=""
-                class="size-16 shrink-0 rounded object-cover"
+                class="size-16 shrink-0 rounded-sm object-cover"
               />
-              <span v-else class="flex size-16 shrink-0 items-center justify-center rounded bg-ebony-clay-50">
+              <span v-else class="flex size-16 shrink-0 items-center justify-center rounded-sm bg-ebony-clay-50">
                 <component
                   :is="mediaKind(item.name) === 'video' ? Film : FileText"
-                  class="size-6 text-chicago-700"
+                  class="size-6 text-fg-2"
                   aria-hidden="true"
                 />
               </span>
@@ -884,7 +951,7 @@ const sizeText = (bytes: number) =>
     <section aria-labelledby="post-preview-heading" class="space-y-5 lg:sticky lg:top-4 lg:self-start">
       <h2 id="post-preview-heading" class="text-h3 font-bold text-fg-strong">Your post</h2>
       <!-- One card with the tabs as its header; underline tabs with the gold active bar (IWC DESIGN.md Tabs) -->
-      <Tabs default-value="preview" class="gap-0 overflow-hidden rounded-lg border-1 border-line bg-white">
+      <Tabs default-value="preview" class="gap-0 overflow-hidden rounded-lg border-1 border-line bg-surface-raised">
         <TabsList
           class="h-auto w-full justify-start gap-6 rounded-none border-b-1 border-ebony-clay-100 bg-ebony-clay-50 px-5 py-0"
         >
@@ -941,7 +1008,7 @@ const sizeText = (bytes: number) =>
             to the post.
           </p>
           <pre
-            class="rounded-lg border border-line bg-white p-4 font-sans text-sm whitespace-pre-wrap text-fg"
+            class="rounded-lg border border-line bg-surface-raised p-4 font-sans text-sm whitespace-pre-wrap text-fg"
             data-social-text
             >{{ social.text }}</pre>
           <p v-if="attachedImages.length" class="text-sm text-fg-meta" data-social-images>
@@ -962,9 +1029,16 @@ const sizeText = (bytes: number) =>
       </Tabs>
 
       <div aria-live="polite" aria-atomic="true">
-        <ul v-if="problems.length" class="list-disc pl-5 text-sm text-danger-fg">
-          <li v-for="problem in problems" :key="problem">{{ problem }}</li>
+        <ul v-if="listedProblems.length" class="list-disc pl-5 text-sm text-danger-fg">
+          <li v-for="problem in listedProblems" :key="problem">{{ problem }}</li>
         </ul>
+        <p v-else-if="waitingFor" class="text-sm text-fg-meta">Fill in {{ waitingFor }} to continue.</p>
+        <p v-if="autosaveOff" class="text-sm text-warn-fg">
+          This browser does not allow saving a draft here, so your work is not kept if you close the page.
+        </p>
+        <p v-if="copyFailed" class="text-sm text-warn-fg">
+          The browser did not allow copying. Open the File tab and copy the text from there.
+        </p>
         <ul v-if="warnings.length" class="list-disc pl-5 text-sm text-warn-fg" data-warnings>
           <li v-for="warning in warnings" :key="warning">{{ warning }}</li>
         </ul>
@@ -986,20 +1060,18 @@ const sizeText = (bytes: number) =>
             Add to <a :href="`${FILES}/TAGS.yaml`" :class="linkClass">content/TAGS.yaml</a> in the same pull request:
           </p>
           <pre
-            class="mt-1 rounded bg-white p-2 text-fg"
+            class="mt-1 rounded-sm bg-surface-raised p-2 text-fg"
           ><code>{{ added.tags.map((t) => `- ${t}`).join('\n') }}</code></pre>
         </div>
         <div v-if="added.people.length">
           <p>
             Add to
-            <a :href="`${GTN}/CONTRIBUTORS.yaml`" :class="linkClass"
-              >CONTRIBUTORS.yaml in the training-material repository</a
-            >
-            (a separate pull request). The Hub picks it up once its nightly sync pull request is merged, usually within
-            a day.
+            <a :href="`${GTN}/CONTRIBUTORS.yaml`" :class="linkClass">the GTN's CONTRIBUTORS.yaml</a>
+            (in the training-material repository, a separate pull request). The Hub picks it up once its nightly sync
+            pull request is merged, usually within a day.
           </p>
           <pre
-            class="mt-1 rounded bg-white p-2 text-fg"
+            class="mt-1 rounded-sm bg-surface-raised p-2 text-fg"
           ><code>{{ added.people.map((p) => `${p}:\n  name: Your Name\n  joined: ${month}`).join('\n') }}</code></pre>
         </div>
         <p v-if="added.funders.length">
@@ -1056,7 +1128,7 @@ const sizeText = (bytes: number) =>
           <li>
             Drag all the saved files onto that page, then click <strong>Propose changes</strong> (or
             <strong>Commit changes</strong>) and open the pull request. The checks on it tell you if anything needs
-            fixing.
+            fixing. If GitHub first asks you to fork the repository, do that, then open the upload page again.
           </li>
         </ol>
       </div>
