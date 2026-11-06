@@ -194,11 +194,14 @@ export function newEntries(form: PostForm, known: Known): Known {
 // `make validate-metadata` runs the stricter checks for items dated after this (Makefile --be-strict-from)
 export const STRICT_FROM = '2026-02-24';
 
+export const TITLE_PROBLEM = 'Add a title.';
+export const DATE_PROBLEM = 'Add a date.';
+
 export function postProblems(form: PostForm): string[] {
   const problems: string[] = [];
   const isDate = (value: string) => /^\d{4}-\d{2}-\d{2}$/.test(value);
-  if (!form.title.trim()) problems.push('Add a title.');
-  if (!isDate(form.date)) problems.push('Add a date.');
+  if (!form.title.trim()) problems.push(TITLE_PROBLEM);
+  if (!isDate(form.date)) problems.push(DATE_PROBLEM);
   if (form.kind === 'event' && form.end && (!isDate(form.end) || form.end < form.date))
     problems.push('The end date must be on or after the start date.');
   // Same rule as check_recent_contributions_required in scripts/validate_events.py

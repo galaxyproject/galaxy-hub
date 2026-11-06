@@ -53,8 +53,10 @@ const isKnown = computed(() =>
 );
 const newAllowed = computed(() => !props.newPattern || props.newPattern.test(typed.value));
 
+// The removed chip's button had focus; move it to the search box, as FilterBar does after clearing
 function remove(id: string) {
   model.value = model.value.filter((value) => value !== id);
+  document.getElementById(inputId)?.focus();
 }
 
 // Same surface and open/close animation as ui/select's SelectContent (Reka sets the same data-state
@@ -63,7 +65,7 @@ const contentClass =
   'bg-popover text-popover-foreground data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 relative z-50 max-h-(--reka-combobox-content-available-height) w-(--reka-combobox-trigger-width) min-w-[8rem] overflow-hidden rounded-md border shadow-md';
 
 const item =
-  'flex cursor-default items-center justify-between gap-3 rounded px-2 py-1.5 text-sm text-fg outline-none select-none data-[highlighted]:bg-ebony-clay-100';
+  'flex cursor-default items-center justify-between gap-3 rounded-sm px-2 py-1.5 text-sm text-fg outline-none select-none data-[highlighted]:bg-ebony-clay-100';
 </script>
 
 <template>
@@ -111,7 +113,7 @@ const item =
         <span v-else>{{ labels.get(id) !== id ? `${labels.get(id)} (${id})` : id }}</span>
         <button
           type="button"
-          class="inline-flex size-6 items-center justify-center rounded hover:bg-ebony-clay-100"
+          class="inline-flex size-6 items-center justify-center rounded-sm hover:bg-ebony-clay-100"
           :class="focusRing"
           :aria-label="`Remove ${labels.get(id) ?? id}`"
           @click="remove(id)"

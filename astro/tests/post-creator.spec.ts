@@ -72,8 +72,15 @@ test('post creator builds an event and a GitHub link for it', async ({ page }) =
 
 test('post creator blocks the link until the form is valid', async ({ page }) => {
   await openCreator(page);
-  await expect(page.getByText('Add a title.')).toBeVisible();
+  // A fresh form says what is missing without calling it an error
+  await expect(page.getByText('Fill in the title to continue.')).toBeVisible();
   await expect(page.getByRole('button', { name: 'Open on GitHub' })).toBeDisabled();
+  const title = page.getByLabel('Title (required)');
+  await title.focus();
+  await title.blur();
+  // Once left empty, the field itself says so, for screen readers too
+  await expect(title).toHaveAttribute('aria-invalid', 'true');
+  await expect(title).toHaveAccessibleDescription('Add a title.');
 });
 
 test('post creator keeps new names and says where to add them', async ({ page }) => {
@@ -87,7 +94,7 @@ test('post creator keeps new names and says where to add them', async ({ page })
   const box = page.locator('[data-new-entries]');
   await expect(box).toContainText('- brand-new-tag');
   await expect(box).toContainText('first-time-author:\n  name: Your Name');
-  await expect(box.getByRole('link', { name: /training-material/ })).toHaveAttribute(
+  await expect(box.getByRole('link', { name: /CONTRIBUTORS\.yaml/ })).toHaveAttribute(
     'href',
     'https://github.com/galaxyproject/training-material/edit/main/CONTRIBUTORS.yaml'
   );
@@ -213,7 +220,10 @@ test('post creator offers outlines and restores a saved draft', async ({ page })
   await expect(page.locator('.cm-content')).toContainText('## What we did');
 
   await page.evaluate(() => sessionStorage.setItem('keep-draft', '1'));
-  await page.waitForTimeout(800); // autosave runs 500 ms after the last change
+  // Autosave runs 500 ms after the last change
+  await expect
+    .poll(() => page.evaluate(() => localStorage.getItem('galaxy-hub:post-creator-draft') ?? ''))
+    .toContain('Recap of the training');
   await page.reload();
   await expect(page.locator('[data-draft]')).toContainText('Recap of the training');
   await page.getByRole('button', { name: 'Restore it' }).click();
@@ -372,4 +382,20 @@ test('post creator list button only changes the selected lines', async ({ page }
   await page.keyboard.press('Shift+ArrowDown');
   await page.getByRole('button', { name: 'Bulleted list' }).click();
   await expect(await fileText(page)).toContainText('- One\n- Two\nThree');
+});
+
+test('post creator keeps focus in place after closing the embed row or removing a chip', async ({ page }) => {
+  await openCreator(page);
+  const embed = page.getByRole('button', { name: 'Embed' });
+  await embed.click();
+  await page.getByLabel('Link to embed').fill('javascript:alert(1)');
+  await page.getByRole('button', { name: 'Insert', exact: true }).click();
+  // Only web links become links
+  await expect(page.locator('[data-editor-notice]')).toContainText('does not look like a web link');
+  await page.getByLabel('Link to embed').press('Escape');
+  await expect(embed).toBeFocused();
+
+  await pick(page, 'Tags', 'training');
+  await page.getByRole('button', { name: 'Remove training' }).click();
+  await expect(page.getByRole('combobox', { name: 'Tags' })).toBeFocused();
 });

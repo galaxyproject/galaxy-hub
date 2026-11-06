@@ -1,6 +1,5 @@
-// Same control look as FilterBar: solid 2px outline (the primitives' 50% ring is below 3:1 on white)
-export const focusRing =
-  'focus-visible:ring-0 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-solid focus-visible:outline-galaxy-primary';
+// Same control look as FilterBar
+export { focusRing } from '@/lib/focus-ring';
 export const inputClass = 'h-10 border-chicago-400';
 export const labelClass = 'mb-1 block text-sm font-medium text-chicago-700';
 export const hintClass = 'mt-1 text-sm text-fg-meta';
