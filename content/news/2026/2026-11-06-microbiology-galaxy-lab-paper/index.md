@@ -7,11 +7,7 @@ subsites: [all]
 tags: 
 - microbiology
 - paper
-- FAIR
 - community
-- tools
-- workflows
-- training
 contributions:
   authorship:
     - bebatut
