@@ -74,129 +74,102 @@ Clicking **Custom Tools** opens a panel listing every UDT you've created, each w
 
 ## More examples
 
-The concatenation tool above is about as simple as a UDT gets. The two examples below are closer to what a real analysis step looks like — several inputs, several outputs, and a heavier `shell_command`. Click a summary line to expand the full tool definition.
+The concatenation tool above is about as simple as a UDT gets. The two below are closer to the size of a real analysis step — several inputs, several outputs, and real work to do. Both keep `shell_command` to a short invocation and put the actual script in `configfiles`, which is the pattern to reach for once the logic outgrows a one-liner: Galaxy writes each config file into the job's working directory before running the command. Click a summary line to expand the full tool definition.
 
 <details>
 <summary>Normalize sequence names in a GFF/GTF file, with a report</summary>
 
-This tool rewrites the sequence names (column 1) in a GFF/GTF annotation file using a two-column mapping file, leaves names on an "ignore" list untouched, and fails the job if it encounters a name it doesn't recognize. It also writes a TSV report summarizing what happened to each sequence name. Rather than a one-line command, `shell_command` here is a small embedded Python script — useful once the logic is more than a simple pipe of existing command-line tools.
+This tool rewrites the sequence names (column 1) of a GFF/GTF annotation using a two-column mapping file, leaves names on an "ignore" list untouched, and fails the job if it meets a name it wasn't told about. It also writes a short TSV report of what it did. The logic is a Python script, held in `configfiles` and called by `shell_command` with the input paths as arguments.
 
 ```yaml
 class: GalaxyUserTool
 id: gxf-seqname-normalizer
-name: gxf-seqname-normalizer
-version: 0.1.0
+name: Normalize GXF sequence names
+version: 0.2.0
+description: rename sequences in a GFF/GTF file from a mapping table
 container: python:3.11-slim
-shell_command: >-
-  python - <<'PY' $(inputs.annotation.path) $(inputs.mapping.path)
-  $(inputs.ignore.path) normalized.gxf report.tsv
+shell_command: python normalize.py '$(inputs.annotation.path)' '$(inputs.mapping.path)'
+  '$(inputs.ignore.path)' normalized.gxf report.tsv
+configfiles:
+  - filename: normalize.py
+    content: |
+      import sys
+      from collections import Counter
 
-  import sys
+      ann_path, map_path, ign_path, out_path, rep_path = sys.argv[1:6]
 
-  from collections import Counter
+      mapping = {}
+      with open(map_path, encoding="utf-8") as fh:
+          for line in fh:
+              if line.startswith("#") or not line.strip():
+                  continue
+              parts = line.rstrip("\n").split("\t")
+              if len(parts) >= 2:
+                  mapping[parts[0]] = parts[1]
 
-  ann_path, map_path, ign_path, out_path, rep_path = sys.argv[1:6]
+      ignore = set()
+      with open(ign_path, encoding="utf-8") as fh:
+          for line in fh:
+              if line.startswith("#") or not line.strip():
+                  continue
+              ignore.add(line.strip().split("\t")[0])
 
+      counts = Counter()
+      unknown = set()
 
-  mapping = {}
+      with open(ann_path, encoding="utf-8", errors="replace") as inp, open(
+          out_path, "w", encoding="utf-8"
+      ) as out:
+          for line in inp:
+              if line.startswith("#") or not line.strip():
+                  out.write(line)
+                  continue
+              parts = line.rstrip("\n").split("\t")
+              seq = parts[0]
+              if seq in mapping:
+                  parts[0] = mapping[seq]
+                  counts["renamed"] += 1
+                  out.write("\t".join(parts) + "\n")
+              elif seq in ignore:
+                  counts["ignored"] += 1
+                  out.write(line)
+              else:
+                  counts["unknown"] += 1
+                  unknown.add(seq)
 
-  map_pairs = 0
+      with open(rep_path, "w", encoding="utf-8") as rep:
+          rep.write("metric\tvalue\n")
+          for metric in ("renamed", "ignored", "unknown"):
+              rep.write(f"{metric}\t{counts[metric]}\n")
 
-  with open(map_path, encoding='utf-8') as fh:
-      for line in fh:
-          line=line.rstrip('\n')
-          if not line or line.startswith('#'):
-              continue
-          parts=line.split('\t')
-          if len(parts) < 2:
-              continue
-          old,new=parts[0],parts[1]
-          mapping[old]=new
-          map_pairs += 1
-
-  ignore=set()
-
-  with open(ign_path, encoding='utf-8') as fh:
-      for line in fh:
-          line=line.strip()
-          if not line or line.startswith('#'):
-              continue
-          ignore.add(line.split('\t')[0])
-
-  seen=Counter(); disposition=Counter(); unknown=[]
-
-  feature_lines=renamed=ignored=passthrough=fasta_lines=comments=0
-
-  in_fasta=False
-
-  with open(ann_path, encoding='utf-8', errors='replace') as inp, open(out_path,
-  'w', encoding='utf-8') as out:
-      for line in inp:
-          if in_fasta:
-              fasta_lines += 1
-              out.write(line)
-              continue
-          if line.startswith('##FASTA'):
-              comments += 1
-              in_fasta=True
-              out.write(line)
-              continue
-          if line.startswith('#') or not line.strip():
-              comments += 1 if line.startswith('#') else 0
-              out.write(line)
-              continue
-          parts=line.rstrip('\n').split('\t')
-          if len(parts) < 2:
-              out.write(line)
-              continue
-          feature_lines += 1
-          seq=parts[0]
-          seen[seq] += 1
-          if seq in mapping:
-              parts[0]=mapping[seq]
-              renamed += 1
-              disposition[(seq,'mapped',mapping[seq])] += 1
-              out.write('\t'.join(parts)+'\n')
-          elif seq in ignore:
-              ignored += 1
-              disposition[(seq,'ignored','')] += 1
-              # Preserve ignored records verbatim for auditability; downstream can filter if needed.
-              out.write(line)
-          else:
-              unknown.append(seq)
-              disposition[(seq,'unknown','')] += 1
-
-  with open(rep_path, 'w', encoding='utf-8') as rep:
-      rep.write('metric\tvalue\n')
-      rep.write(f'mapping_pairs\t{map_pairs}\n')
-      rep.write(f'ignore_seqnames\t{len(ignore)}\n')
-      rep.write(f'feature_lines_in\t{feature_lines}\n')
-      rep.write(f'renamed_lines\t{renamed}\n')
-      rep.write(f'ignored_lines\t{ignored}\n')
-      rep.write(f'comment_or_blank_lines\t{comments}\n')
-      rep.write(f'fasta_lines_preserved_after_fasta_pragma\t{fasta_lines}\n')
-      rep.write(f'unknown_lines\t{len(unknown)}\n')
-      rep.write('\nseqname\tdisposition\ttarget\tcount\n')
-      for (seq,disp,target),count in sorted(disposition.items()):
-          rep.write(f'{seq}\t{disp}\t{target}\t{count}\n')
-
-  if unknown:
-      print('Unknown seqnames: ' + ', '.join(sorted(set(unknown))), file=sys.stderr)
-      sys.exit(2)
-  PY
+      if unknown:
+          sys.exit("Unknown sequence names: " + ", ".join(sorted(unknown)))
 inputs:
   - name: annotation
+    label: Annotation to rewrite
     type: data
+    format:
+      - gff
+      - gff3
+      - gtf
   - name: mapping
+    label: Two-column old-name/new-name mapping
     type: data
+    format:
+      - tabular
   - name: ignore
+    label: Sequence names to leave untouched
     type: data
+    format:
+      - tabular
 outputs:
   - name: normalized
+    label: $(inputs.annotation.element_identifier) (renamed)
     type: data
-    format: gff3
+    format_source: annotation
     from_work_dir: normalized.gxf
   - name: report
+    label: $(inputs.annotation.element_identifier) (rename report)
     type: data
     format: tabular
     from_work_dir: report.tsv
@@ -205,46 +178,47 @@ outputs:
 </details>
 
 <details>
-<summary>Run NucleoATAC and expose all of its outputs</summary>
+<summary>Run NucleoATAC and expose its outputs</summary>
 
-This tool wraps [NucleoATAC](https://github.com/GreenleafLab/NucleoATAC), a real bioinformatics package, running from a Biocontainer image rather than a generic base image. It shows a longer, multi-step `shell_command` (staging inputs, indexing the reference, running the tool, then unpacking each compressed result — or substituting an empty file when NucleoATAC didn't produce one), inputs restricted to specific formats, a dozen labeled outputs, and an optional Markdown `help` block describing the tool for its users.
+This tool wraps [NucleoATAC](https://github.com/GreenleafLab/NucleoATAC), a real bioinformatics package, running from a Biocontainer image rather than a generic base image. It shows a multi-step shell script, a CPU request declared as a resource requirement and passed through to the program as `$GALAXY_SLOTS`, inputs restricted to specific formats, several labeled outputs, and a Markdown `help` block describing the tool to whoever runs it. NucleoATAC leaves out a result file when it has nothing to report, so the script creates an empty one in that case and every declared output is always claimed.
 
 ```yaml
 class: GalaxyUserTool
-id: nucleoatac-rich-simple
-name: NucleoATAC rich outputs simple
-version: 0.4.2
-description: Run NucleoATAC and expose occupancy, peak, dyad, signal, combined
-  map, and NFR outputs.
+id: nucleoatac-run
+name: NucleoATAC
+version: 0.5.0
+description: call nucleosome positions and occupancy from ATAC-seq data
 container: quay.io/biocontainers/nucleoatac:0.3.4--py27hf85d69d_6
-shell_command: cp '$(inputs.bam.path)' reads.bam && cp
-  '$(inputs.reference.path)' ref.fa && cp '$(inputs.regions.path)' regions.bed
-  && python -c "import pysam; pysam.index('reads.bam'); pysam.faidx('ref.fa')"
-  && nucleoatac run --bed regions.bed --bam reads.bam --fasta ref.fa --out
-  result --cores $GALAXY_SLOTS && if [ -s result.occ.bedgraph.gz ]; then gunzip
-  -c result.occ.bedgraph.gz > occ.bedgraph; else touch occ.bedgraph; fi && if [
-  -s result.occ.lower_bound.bedgraph.gz ]; then gunzip -c
-  result.occ.lower_bound.bedgraph.gz > occ.lower_bound.bedgraph; else touch
-  occ.lower_bound.bedgraph; fi && if [ -s result.occ.upper_bound.bedgraph.gz ];
-  then gunzip -c result.occ.upper_bound.bedgraph.gz > occ.upper_bound.bedgraph;
-  else touch occ.upper_bound.bedgraph; fi && if [ -s result.occpeaks.bed.gz ];
-  then gunzip -c result.occpeaks.bed.gz > occpeaks.bed; else touch occpeaks.bed;
-  fi && if [ -s result.nucpos.bed.gz ]; then gunzip -c result.nucpos.bed.gz >
-  nucpos.bed; else touch nucpos.bed; fi && if [ -s
-  result.nucpos.redundant.bed.gz ]; then gunzip -c
-  result.nucpos.redundant.bed.gz > nucpos.redundant.bed; else touch
-  nucpos.redundant.bed; fi && if [ -s result.nucleoatac_signal.bedgraph.gz ];
-  then gunzip -c result.nucleoatac_signal.bedgraph.gz >
-  nucleoatac_signal.bedgraph; else touch nucleoatac_signal.bedgraph; fi && if [
-  -s result.nucleoatac_signal.smooth.bedgraph.gz ]; then gunzip -c
-  result.nucleoatac_signal.smooth.bedgraph.gz >
-  nucleoatac_signal.smooth.bedgraph; else touch
-  nucleoatac_signal.smooth.bedgraph; fi && if [ -s result.nucmap_combined.bed.gz
-  ]; then gunzip -c result.nucmap_combined.bed.gz > nucmap_combined.bed; else
-  touch nucmap_combined.bed; fi && if [ -s result.nfrpos.bed.gz ]; then gunzip
-  -c result.nfrpos.bed.gz > nfrpos.bed; else touch nfrpos.bed; fi && if [ -s
-  result.fragmentsizes.txt ]; then cp result.fragmentsizes.txt
-  fragmentsizes.txt; else touch fragmentsizes.txt; fi
+requirements:
+  - type: resource
+    cores_min: 4
+shell_command: sh run.sh '$(inputs.bam.path)' '$(inputs.reference.path)' '$(inputs.regions.path)'
+configfiles:
+  - filename: run.sh
+    content: |
+      set -eu
+      bam="$1"
+      reference="$2"
+      regions="$3"
+
+      cp "$bam" reads.bam
+      cp "$reference" ref.fa
+      cp "$regions" regions.bed
+      python -c "import pysam; pysam.index('reads.bam'); pysam.faidx('ref.fa')"
+
+      nucleoatac run --bed regions.bed --bam reads.bam --fasta ref.fa --out result --cores "$GALAXY_SLOTS"
+
+      # NucleoATAC omits a result file when it has nothing to report. Unpack
+      # whatever is there and leave an empty file for the rest, so that a
+      # no-call is distinguishable from a failed job.
+      for name in occ occpeaks nucpos nucleoatac_signal nucmap_combined nfrpos; do
+          : > "$name.out"
+          for packed in "result.$name.bed.gz" "result.$name.bedgraph.gz"; do
+              if [ -s "$packed" ]; then
+                  gunzip -c "$packed" > "$name.out"
+              fi
+          done
+      done
 inputs:
   - name: bam
     label: Coordinate-sorted ATAC BAM
@@ -252,83 +226,57 @@ inputs:
     format:
       - bam
   - name: reference
-    label: Reference FASTA with matching chromosome names
+    label: Reference FASTA with matching sequence names
     type: data
     format:
       - fasta
   - name: regions
-    label: Regions BED
+    label: Regions to analyze
     type: data
     format:
       - bed
 outputs:
   - name: occ
-    label: NucleoATAC occupancy bedGraph
+    label: $(inputs.bam.element_identifier) occupancy
     type: data
     format: bedgraph
-    from_work_dir: occ.bedgraph
-  - name: occ_lower
-    label: NucleoATAC occupancy lower bound bedGraph
-    type: data
-    format: bedgraph
-    from_work_dir: occ.lower_bound.bedgraph
-  - name: occ_upper
-    label: NucleoATAC occupancy upper bound bedGraph
-    type: data
-    format: bedgraph
-    from_work_dir: occ.upper_bound.bedgraph
+    from_work_dir: occ.out
   - name: occpeaks
-    label: NucleoATAC occupancy peaks BED
+    label: $(inputs.bam.element_identifier) occupancy peaks
     type: data
     format: bed
-    from_work_dir: occpeaks.bed
+    from_work_dir: occpeaks.out
   - name: nucpos
-    label: NucleoATAC high-resolution nucleosome positions BED
+    label: $(inputs.bam.element_identifier) nucleosome positions
     type: data
     format: bed
-    from_work_dir: nucpos.bed
-  - name: nucpos_redundant
-    label: NucleoATAC redundant nucleosome positions BED
-    type: data
-    format: bed
-    from_work_dir: nucpos.redundant.bed
+    from_work_dir: nucpos.out
   - name: nucleoatac_signal
-    label: NucleoATAC signal bedGraph
+    label: $(inputs.bam.element_identifier) nucleosome signal
     type: data
     format: bedgraph
-    from_work_dir: nucleoatac_signal.bedgraph
-  - name: nucleoatac_signal_smooth
-    label: NucleoATAC smoothed signal bedGraph
-    type: data
-    format: bedgraph
-    from_work_dir: nucleoatac_signal.smooth.bedgraph
+    from_work_dir: nucleoatac_signal.out
   - name: nucmap_combined
-    label: NucleoATAC combined nucleosome map BED
+    label: $(inputs.bam.element_identifier) combined nucleosome map
     type: data
     format: bed
-    from_work_dir: nucmap_combined.bed
+    from_work_dir: nucmap_combined.out
   - name: nfrpos
-    label: NucleoATAC NFR positions BED
+    label: $(inputs.bam.element_identifier) NFR positions
     type: data
     format: bed
-    from_work_dir: nfrpos.bed
-  - name: fragmentsizes
-    label: NucleoATAC fragment-size distribution
-    type: data
-    format: tabular
-    from_work_dir: fragmentsizes.txt
+    from_work_dir: nfrpos.out
 help:
   format: markdown
-  content: >-
-    Runs NucleoATAC 0.3.4 on a coordinate-sorted ATAC BAM, reference FASTA, and
-    regions BED, then exposes the main NucleoATAC intermediate and final
-    outputs. Version 0.4.2 uses the fully qualified Quay Biocontainers image to
-    avoid Docker Hub library namespace pull failures.
+  content: |
+    Runs NucleoATAC on a coordinate-sorted ATAC BAM, a reference FASTA and a
+    regions BED, and reports nucleosome occupancy, occupancy peaks,
+    nucleosome positions, nucleosome signal, a combined nucleosome map and
+    nucleosome-free-region positions.
 
-
-    Inputs must use matching chromosome names across BAM, FASTA, and BED.
-    Optional missing output files are represented as empty datasets so no-call
-    outputs can be distinguished from failed jobs.
+    The BAM, FASTA and BED must use the same sequence names. An output with
+    nothing to report comes back as an empty dataset rather than failing the
+    job.
 ```
 
 </details>
