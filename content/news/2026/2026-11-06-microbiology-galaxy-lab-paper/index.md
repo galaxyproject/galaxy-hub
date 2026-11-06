@@ -14,8 +14,8 @@ tags:
 - training
 contributions:
   authorship:
-    - bbatut
-    - pzierep
+    - bebatut
+    - paulzierep
 ---
 
 We're thrilled to share our new publication in *Communications Biology*: **"Microbiology Galaxy Lab: a community-driven gateway for reproducible and FAIR analysis of microbiological data."** 
@@ -44,7 +44,7 @@ Built on the Galaxy framework and powered by the [Galaxy Labs Engine](https://do
 
 The platform's utility is exemplified through diverse use cases spanning health, infectious disease, and environmental microbiology:
 
-* **Antimicrobial resistance (AMR) tracking** via platforms like [ABRomics](https://abromics.ch/) and BenchAMRking, supporting pathogen genomic surveillance and clinical reporting.
+* **Antimicrobial resistance (AMR) tracking** via platforms like [ABRomics](https://www.abromics.fr/) and BenchAMRking, supporting pathogen genomic surveillance and clinical reporting.
 * **Biomarker prediction** applying machine learning and AI to microbiome research, e.g., discovering microbial biomarkers with tools like MetaSBT and identifying disease-associated signatures in conditions such as ovarian cancer or cystic fibrosis.
 * **Microbiome classification** using metabarcoding, metagenomics, and whole-genome sequencing to explore root microbiomes, soil communities (BioDIGS), aeromicrobiome, and global mycorrhizal fungi (SPUN).
 * **Functional annotation of key microbes** from metagenome-assembled genomes (MAGs) to multi-omics integration combining metagenomics, metatranscriptomics, and metaproteomics.
@@ -53,7 +53,7 @@ The platform's utility is exemplified through diverse use cases spanning health,
 
 The MGL was shaped by the community it serves. A survey of over **3,000 Galaxy users** working in microbial research revealed primary use in bacterial genomics and metagenomics, with growing interest in functional analysis, genome assembly, metaproteomics, and AMR profiling, alongside challenges like limited user experience and technical hurdles. These insights directly informed the platform's design.
 
-No formal membership is required to contribute or benefit: the microGalaxy community is open to all, coordinated by [Bérénice Batut](https://galaxyproject.org/hall-of-fame/bbatut/) and Paul Zierep, who organize regular meetings, working groups, hackathons, and events, including collaborations with the IWC, ELIXIR, and the Galaxy Community.
+No formal membership is required to contribute or benefit: the microGalaxy community is open to all, coordinated by [Bérénice Batut](https://galaxyproject.org/hall-of-fame/bebatut/) and Paul Zierep, who organize regular meetings, working groups, hackathons, and events, including collaborations with the IWC, ELIXIR, and the Galaxy Community.
 
 ## Looking Ahead
 
