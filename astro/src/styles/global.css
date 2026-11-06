@@ -170,6 +170,7 @@ body {
   --color-fg-2: var(--gx-fg-2);
   --color-fg-meta: var(--gx-fg-meta);
   --color-fg-faint: var(--gx-fg-faint);
+  --color-fg-letter: var(--gx-fg-letter);
   --color-fg-brand: var(--gx-fg-brand);
   --color-link: var(--gx-link);
   --color-link-hover: var(--gx-link-hover);
@@ -245,6 +246,7 @@ body {
   --gx-fg-2: #4f4e50; /* chicago-700, 8.27:1 */
   --gx-fg-meta: #58585a; /* galaxy-grey, 7.10:1 */
   --gx-fg-faint: #878789; /* chicago-400, 3.59:1: decoration only, never text */
+  --gx-fg-letter: #5f7f9c; /* 4.20:1: large text only (>=24px or 18.66px bold, 3:1), A-Z index letters */
   --gx-fg-brand: #1f4465; /* bay-of-many-950, 9.13:1 on surface-tint */
   --gx-link: #25537b; /* galaxy-primary, 8.07:1 */
   --gx-link-hover: #1f4465; /* 10.13:1 */
@@ -327,6 +329,7 @@ body {
   --gx-fg-2: #c0c4cc; /* 10.54:1 */
   --gx-fg-meta: #a3a8b4; /* 7.74:1 */
   --gx-fg-faint: #737a8c;
+  --gx-fg-letter: #6688aa; /* 4.97:1 */
   --gx-fg-brand: #bfdaf4; /* 10.74:1 on surface-tint */
   --gx-link: #8cbbe9; /* 9.12:1 */
   --gx-link-hover: #bfdaf4; /* 12.77:1 */
@@ -700,6 +703,16 @@ body {
   background-color: var(--gx-brand);
   color: var(--gx-on-brand);
   font-weight: 600;
+}
+
+/* Link blue on the blue header cell is 1:1: header links take the cell's white. */
+.prose table:not(.bs-compat) th a {
+  color: inherit;
+  text-decoration-color: currentColor;
+}
+
+.prose table:not(.bs-compat) th a:hover {
+  text-decoration-color: var(--gx-link-hover-line);
 }
 
 /* Compact content tables (DESIGN.md "Tables"). Unclassed only: legacy .bs-compat

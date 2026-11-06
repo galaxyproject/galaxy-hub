@@ -52,6 +52,7 @@ New page code uses **role tokens**: they name what a colour is for, carry a ligh
 | Lead, secondary | `text-fg-2` | `#4f4e50` chicago-700 | `#c0c4cc` | 8.27 / 10.54 |
 | Meta: dates, bylines, counts | `text-fg-meta` | `#58585a` galaxy-grey | `#a3a8b4` | 7.10 / 7.74 |
 | Faint: decoration only, never text | `text-fg-faint` | `#878789` | `#737a8c` | 3.59 / 4.29 |
+| Index letters: large A-Z group markers, large text only (>=24px or 18.66px bold) | `text-fg-letter` | `#5f7f9c` | `#6688aa` | 4.20 / 4.97 (3:1 large text) |
 | Brand text: tags, type badges | `text-fg-brand` | `#1f4465` | `#bfdaf4` | 9.13 / 10.74 on `surface-tint` |
 | Link | `text-link`, `decoration-link-line` | `#25537b` galaxy-primary | `#8cbbe9` | 8.07 / 9.12 |
 | Link hover | `text-link-hover`, `decoration-link-hover-line` | `#1f4465`, gold-600 `#d19e00` underline | `#bfdaf4`, gold underline | 10.13 / 12.77 |
@@ -76,6 +77,7 @@ Rules:
 - Brand aliases (`galaxy-*`, `light-bg`, hex) appear only inside role definitions and brand moments (hero gradients, the gold bar). Existing page code moves to roles as it is touched.
 - Gold is never text on a light surface (1.40:1 on white). Links hover to `link-hover` with a gold underline.
 - Meta text is `text-fg-meta`, never an opacity-faded grey (`text-galaxy-grey/70` is about 3.45:1 and fails AA).
+- `text-fg-letter` is for large text only (>=24px, or 18.66px bold), where AA needs 3:1; its 4.20:1 fails AA at body sizes.
 - The gold role is `--color-accent-gold` (`bg-accent-gold`, `text-on-accent-gold`), not `accent`: `accent` is the shadcn near-white below, and `@galaxyproject/brand-tokens` also defines a gold `--color-accent` that the shadcn mapping overrides.
 - Role names avoid the shadcn names (`background`, `foreground`, `primary`, `muted`, `accent`, `border`, `input`, `ring`, `sidebar-*`, ...) and never reuse galaxy-ui primitive names such as `--color-blue-600`, which would collide with Tailwind's own `blue` scale.
 - Primitives (Button, Badge, Input) may consume **role** tokens, never brand aliases. That is the single-palette direction below, without a parallel branded button.

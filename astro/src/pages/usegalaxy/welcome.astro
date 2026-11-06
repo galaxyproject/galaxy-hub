@@ -107,7 +107,7 @@ const carouselSlides = [
                 aria-label="Previous slide"
                 class="bg-black/40 hover:bg-black/60 text-white rounded-full w-8 h-8 flex items-center justify-center text-lg transition-colors cursor-pointer border-0"
               >
-                &#8249;
+                <span aria-hidden="true">&#8249;</span>
               </button>
             </div>
             <div class="absolute inset-y-0 right-0 flex items-center pr-2">
@@ -116,7 +116,7 @@ const carouselSlides = [
                 aria-label="Next slide"
                 class="bg-black/40 hover:bg-black/60 text-white rounded-full w-8 h-8 flex items-center justify-center text-lg transition-colors cursor-pointer border-0"
               >
-                &#8250;
+                <span aria-hidden="true">&#8250;</span>
               </button>
             </div>
           </div>
@@ -143,7 +143,7 @@ const carouselSlides = [
             <p class="font-semibold text-galaxy-dark text-xs m-0">Latest from Bluesky</p>
           </div>
           <div id="bluesky-feed-posts" class="space-y-1.5 overflow-y-auto text-sm flex-1" style="max-height: 190px">
-            <p class="text-chicago-400 text-xs m-0">Loading posts&hellip;</p>
+            <p class="text-fg-meta text-xs m-0">Loading posts&hellip;</p>
           </div>
           <a
             href="https://bsky.app/profile/galaxyproject.bsky.social"
@@ -237,7 +237,7 @@ const carouselSlides = [
         <a
           href="https://galaxyproject.org/citing-galaxy/"
           target="_blank"
-          class="text-chicago-400 hover:text-galaxy-primary transition-colors"
+          class="text-fg-meta hover:text-galaxy-primary transition-colors"
           >full citation guide</a
         >
       </p>
@@ -499,7 +499,7 @@ const carouselSlides = [
 
           if (items.length === 0) {
             const empty = document.createElement('p');
-            empty.className = 'text-chicago-400 text-xs m-0';
+            empty.className = 'text-fg-meta text-xs m-0';
             empty.textContent = 'No recent posts found.';
             container.appendChild(empty);
             return;
@@ -534,7 +534,7 @@ const carouselSlides = [
             const link = document.createElement('a');
             link.href = postUrl;
             link.target = '_blank';
-            link.className = 'text-chicago-400 text-xs hover:text-galaxy-primary no-underline';
+            link.className = 'text-fg-meta text-xs hover:text-galaxy-primary no-underline';
             link.textContent = date
               ? date.toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' })
               : 'View post';
@@ -545,7 +545,7 @@ const carouselSlides = [
         } catch (err) {
           container.textContent = '';
           const errEl = document.createElement('p');
-          errEl.className = 'text-chicago-400 text-xs m-0';
+          errEl.className = 'text-fg-meta text-xs m-0';
           errEl.textContent = 'Unable to load Bluesky posts right now.';
           container.appendChild(errEl);
           console.error('Failed to load Bluesky feed', err);
