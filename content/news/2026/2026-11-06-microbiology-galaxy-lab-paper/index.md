@@ -3,7 +3,7 @@ title: 'New Publication "Microbiology Galaxy Lab: a community-driven gateway for
 date: '2026-11-06'
 tease: 'The microGalaxy community is proud to announce the publication of the Microbiology Galaxy Lab in Communications Biology, presenting a free, globally accessible platform for reproducible and FAIR microbiological data analysis.'
 hide_tease: false
-subsites: [global, eu, us, freiburg, ifb]
+subsites: [all]
 tags: 
 - microbiology
 - paper
