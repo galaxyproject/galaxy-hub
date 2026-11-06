@@ -169,3 +169,19 @@ describe('sanitizeHtml bio profile (hall-of-fame)', () => {
     );
   });
 });
+
+describe('sanitizeHtml markdown profile (post bodies)', () => {
+  const md = (html: string) => sanitizeHtml(html, 'markdown');
+
+  it('keeps figures with captions and image sizes', () => {
+    expect(
+      md('<figure><img src="./a.png" alt="A" width="600" height="400"><figcaption>Cap</figcaption></figure>')
+    ).toBe('<figure><img src="./a.png" alt="A" width="600" height="400" /><figcaption>Cap</figcaption></figure>');
+  });
+
+  it('still drops event handlers and inline styles on images', () => {
+    expect(md('<img src="./a.png" width="600" style="x" onerror="alert(1)">')).toBe(
+      '<img src="./a.png" width="600" />'
+    );
+  });
+});
