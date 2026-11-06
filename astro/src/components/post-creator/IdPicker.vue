@@ -1,8 +1,17 @@
 <script setup lang="ts">
 import { computed, ref, useId } from 'vue';
-import { X } from '@lucide/vue';
-import { Input } from '@/components/ui/input';
-import { focusRing, inputClass, labelClass, hintClass } from './styles';
+import { Check, X } from '@lucide/vue';
+import {
+  ComboboxAnchor,
+  ComboboxContent,
+  ComboboxInput,
+  ComboboxItem,
+  ComboboxItemIndicator,
+  ComboboxPortal,
+  ComboboxRoot,
+  ComboboxViewport,
+} from 'reka-ui';
+import { focusRing, hintClass, labelClass } from './styles';
 
 export interface PickerOption {
   id: string;
@@ -18,68 +27,74 @@ const props = defineProps<{
 const model = defineModel<string[]>({ required: true });
 
 const inputId = useId();
-const listId = useId();
 const hintId = useId();
-const draft = ref('');
+const search = ref('');
 
-const byKey = computed(() => {
-  const map = new Map<string, PickerOption>();
-  for (const option of props.options) {
-    map.set(option.name.toLowerCase(), option);
-    map.set(option.id.toLowerCase(), option);
-  }
-  return map;
-});
+// shortcut: show the first 50 matches; type more to narrow down 700+ contributors
+const LIMIT = 50;
 
 const labels = computed(() => new Map(props.options.map((o) => [o.id, o.name])));
 
-function add() {
-  const text = draft.value.trim();
-  if (!text) return;
-  // Unknown values are kept: a first-time author is not in CONTRIBUTORS.yaml yet. PostCreator lists them.
-  const value = byKey.value.get(text.toLowerCase())?.id ?? text;
-  if (!model.value.includes(value)) model.value = [...model.value, value];
-  draft.value = '';
-}
+const matches = computed(() => {
+  const words = search.value.toLowerCase().split(/\s+/).filter(Boolean);
+  const hits = words.length
+    ? props.options.filter((o) => words.every((word) => `${o.name} ${o.id}`.toLowerCase().includes(word)))
+    : props.options;
+  return hits.slice(0, LIMIT);
+});
 
-// A datalist pick fires `input` with the full value and no keystroke; add it right away
-function onInput(event: Event) {
-  if (!(event instanceof InputEvent) || event.inputType === 'insertReplacementText') {
-    if (byKey.value.has(draft.value.trim().toLowerCase())) add();
-  }
-}
-
-// Leaving the box keeps a typed known value; unknown text stays for the author to confirm with Enter
-function onBlur() {
-  if (byKey.value.has(draft.value.trim().toLowerCase())) add();
-}
+// Unknown values are allowed: a first-time author is not in CONTRIBUTORS.yaml yet. PostCreator lists them.
+const typed = computed(() => search.value.trim());
+const isKnown = computed(() =>
+  props.options.some((o) => [o.id, o.name].some((v) => v.toLowerCase() === typed.value.toLowerCase()))
+);
 
 function remove(id: string) {
   model.value = model.value.filter((value) => value !== id);
 }
+
+const item =
+  'flex cursor-default items-center justify-between gap-3 rounded px-2 py-1.5 text-sm text-fg outline-none select-none data-[highlighted]:bg-ebony-clay-100';
 </script>
 
 <template>
   <div>
     <label :for="inputId" :class="labelClass">{{ label }}</label>
-    <Input
-      :id="inputId"
-      v-model="draft"
-      :list="listId"
-      :placeholder="placeholder"
-      autocomplete="off"
-      :aria-describedby="hintId"
-      :class="[inputClass, focusRing]"
-      @input="onInput"
-      @keydown.enter.prevent="add"
-      @blur="onBlur"
-    />
-    <datalist :id="listId">
-      <option v-for="option in options" :key="option.id" :value="option.id">
-        {{ option.name === option.id ? '' : option.name }}
-      </option>
-    </datalist>
-    <p :id="hintId" :class="hintClass">Press Enter to add. <slot name="hint" /></p>
+    <ComboboxRoot v-model="model" multiple ignore-filter open-on-click>
+      <ComboboxAnchor
+        class="flex h-10 w-full items-center rounded-md border border-chicago-400 bg-transparent px-3 shadow-xs focus-within:outline-2 focus-within:outline-offset-2 focus-within:outline-galaxy-primary focus-within:outline-solid"
+      >
+        <ComboboxInput
+          :id="inputId"
+          v-model="search"
+          :placeholder="placeholder"
+          :aria-describedby="hintId"
+          class="h-full w-full bg-transparent text-base outline-none placeholder:text-muted-foreground md:text-sm"
+        />
+      </ComboboxAnchor>
+      <ComboboxPortal>
+        <ComboboxContent
+          position="popper"
+          :side-offset="4"
+          class="z-50 w-[var(--reka-combobox-trigger-width)] rounded-md border border-line bg-white shadow-md"
+        >
+          <ComboboxViewport class="max-h-72 overflow-y-auto p-1">
+            <ComboboxItem v-for="option in matches" :key="option.id" :value="option.id" :class="item">
+              <span class="min-w-0 truncate">
+                {{ option.name }}
+                <span v-if="option.name !== option.id" class="text-fg-meta">({{ option.id }})</span>
+              </span>
+              <ComboboxItemIndicator><Check class="size-4" aria-hidden="true" /></ComboboxItemIndicator>
+            </ComboboxItem>
+            <ComboboxItem v-if="typed && !isKnown" :value="typed" :class="item">
+              <span>Add “{{ typed }}” as new</span>
+            </ComboboxItem>
+            <p v-if="!matches.length && !typed" class="px-2 py-1.5 text-sm text-fg-meta">Nothing to show.</p>
+          </ComboboxViewport>
+        </ComboboxContent>
+      </ComboboxPortal>
+    </ComboboxRoot>
+    <p :id="hintId" :class="hintClass"><slot name="hint" /></p>
     <ul v-if="model.length" class="mt-2 flex flex-wrap gap-2" :aria-label="`Selected: ${label}`">
       <li
         v-for="id in model"
