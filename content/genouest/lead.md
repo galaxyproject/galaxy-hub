@@ -1,1 +1,0 @@
-../eu/common/about-galaxy.md
