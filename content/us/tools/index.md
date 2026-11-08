@@ -2,7 +2,7 @@
 # THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
 # To update, run: python3 scripts/update-tools.py --server https://usegalaxy.org --name "Galaxy US" --output content/us/tools/index.md
 title: Galaxy US Tools
-description: "2395 tools and counting"
+description: "2398 tools and counting"
 ---
 
 
@@ -240,6 +240,7 @@ description: "2395 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=cshl_fastx_reverse_complement" target="_top" title="">Reverse-Complement</a>
 <a href="https://usegalaxy.org/root?tool_id=trim_reads" target="_top" title="">Select high quality segments</a>
 <a href="https://usegalaxy.org/root?tool_id=seqkit_grep" target="_top" title="grep-like tools for FASTA/Q files">SeqKit grep</a>
+<a href="https://usegalaxy.org/root?tool_id=seqkit_stats" target="_top" title="of FASTA/Q files">SeqKit statistics</a>
 <a href="https://usegalaxy.org/root?tool_id=seqkit_translate" target="_top" title="nucleotid to protein sequence">SeqKit translate</a>
 <a href="https://usegalaxy.org/root?tool_id=seqkit_split2" target="_top" title="Split sequences into files by part size, number of parts, or length">Seqkit Split2</a>
 <a href="https://usegalaxy.org/root?tool_id=sickle" target="_top" title="Windowed adaptive trimming of FASTQ data">Sickle</a>
@@ -942,6 +943,7 @@ description: "2395 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=bg_diamond_view" target="_top" title="generate formatted output from DAA files">Diamond view</a>
 <a href="https://usegalaxy.org/root?tool_id=trinity_run_de_analysis" target="_top" title="using a Trinity assembly">Differential expression analysis</a>
 <a href="https://usegalaxy.org/root?tool_id=egsea" target="_top" title="easy and efficient ensemble gene set testing">EGSEA</a>
+<a href="https://usegalaxy.org/root?tool_id=fadu" target="_top" title="Counting algorithm to quantify prokaryotic RNA-Seq data per GFF3 feature">FADU</a>
 <a href="https://usegalaxy.org/root?tool_id=feelnc" target="_top" title="FlExible Extraction of LncRNA">FEELnc</a>
 <a href="https://usegalaxy.org/root?tool_id=filter_combined_via_tracking" target="_top" title="using tracking file">Filter Combined Transcripts</a>
 <a href="https://usegalaxy.org/root?tool_id=trinity_filter_low_expr_transcripts" target="_top" title="from a Trinity assembly">Filter low expression transcripts</a>
@@ -980,6 +982,7 @@ description: "2395 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=heinz_visualization" target="_top" title="the optimal scoring subnetwork">Visualize</a>
 <a href="https://usegalaxy.org/root?tool_id=blockbuster" target="_top" title="detects blocks of overlapping reads using a gaussian-distribution approach">blockbuster</a>
 <a href="https://usegalaxy.org/root?tool_id=cummeRbund" target="_top" title="visualize Cuffdiff output">cummeRbund</a>
+<a href="https://usegalaxy.org/root?tool_id=drs_transcript_prediction" target="_top" title="Predicts transcripts from direct RNA sequencing reads for organisms without splicing">drs-transcript-prediction</a>
 <a href="https://usegalaxy.org/root?tool_id=edger" target="_top" title="Perform differential expression of count data">edgeR</a>
 <a href="https://usegalaxy.org/root?tool_id=featurecounts" target="_top" title="Measure gene expression in RNA-Seq experiments from SAM or BAM files">featureCounts</a>
 <a href="https://usegalaxy.org/root?tool_id=goseq" target="_top" title="tests for overrepresented gene categories">goseq</a>
@@ -1106,7 +1109,7 @@ description: "2395 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=phykit_tree_based" target="_top" title="">PhyKit - Tree-based functions</a>
 <a href="https://usegalaxy.org/root?tool_id=tn93" target="_top" title="compute distances between aligned sequences">TN93</a>
 <a href="https://usegalaxy.org/root?tool_id=tn93_cluster" target="_top" title="sequences that lie within a specific distance of each other">TN93 Cluster</a>
-<a href="https://usegalaxy.org/root?tool_id=tn93_filter" target="_top" title="- remove sequences from a reference that are within a given distance of of a cluster">TN93 Filter</a>
+<a href="https://usegalaxy.org/root?tool_id=tn93_filter" target="_top" title="- remove sequences from a reference that are within a given distance of a cluster">TN93 Filter</a>
 
 </div>
 
@@ -2643,7 +2646,6 @@ description: "2395 tools and counting"
 
 <div class="tool-list">
 
-<a href="https://usegalaxy.org/root?tool_id=fragpipe" target="_top" title="Data analysis for mass spectrometry-based proteomics">(Development) FragPipe -  Academic Research and Education User License (Non-Commercial)</a>
 <a href="https://usegalaxy.org/root?tool_id=colabfold_alphafold" target="_top" title="Predict protein structures with Colabfold">Colabfold Alphafold</a>
 <a href="https://usegalaxy.org/root?tool_id=colabfold_msa" target="_top" title="Generate MSAs for the Alphafold step of Colabfold">Colabfold MSA</a>
 <a href="https://usegalaxy.org/root?tool_id=custom_pro_db" target="_top" title="Generate protein FASTAs from exosome or transcriptome data">CustomProDB</a>
@@ -2652,6 +2654,7 @@ description: "2395 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=FalseDiscoveryRate" target="_top" title="Estimates the false discovery rate on peptide and protein level using decoy searches">FalseDiscoveryRate</a>
 <a href="https://usegalaxy.org/root?tool_id=fasta_cli" target="_top" title="Appends decoy sequences to FASTA files">FastaCLI</a>
 <a href="https://usegalaxy.org/root?tool_id=FeatureFinderMultiplex" target="_top" title="Determination of peak ratios in LC-MS data">FeatureFinderMultiplex</a>
+<a href="https://usegalaxy.org/root?tool_id=fragpipe" target="_top" title="Data analysis for mass spectrometry-based proteomics">FragPipe -  Academic Research and Education User License (Non-Commercial)</a>
 <a href="https://usegalaxy.org/root?tool_id=fragpipe_manifest_generator" target="_top" title="Generate a FragPipe Manifest File (Experimental Design File)">FragPipe Manifest Generator</a>
 <a href="https://usegalaxy.org/root?tool_id=IDMapper" target="_top" title="Assigns protein/peptide identifications to features or consensus features">IDMapper</a>
 <a href="https://usegalaxy.org/root?tool_id=ident_params" target="_top" title="Sets the identification parameters to be used in SearchGUI and PeptideShaker apps">Identification Parameters</a>
