@@ -48,18 +48,17 @@ The Galaxy workflow was benchmarked against the official SameStr Nextflow pipeli
 
 ## Learn it with the Galaxy Training Network
 
-A new GTN tutorial,[**Shared strain detection with SameStr**](https://training.galaxyproject.org/training-material/topics/microbiome/tutorials/samestr-strain-detection/tutorial.html), walks you through the analysis using real FMT data. It explains why strain-level analysis matters, shows you how to run the complete workflow, and goes through each SameStr tool step by step, including what every key parameter does and when to be careful about changing it.
+A new GTN tutorial, [**Shared strain detection with SameStr**](https://training.galaxyproject.org/training-material/topics/microbiome/tutorials/samestr-strain-detection/tutorial.html), walks you through the analysis using real FMT data. It explains why strain-level analysis matters, shows you how to run the complete workflow, and goes through each SameStr tool step by step, including what every key parameter does and when to be careful about changing it.
 
 
 ## Acknowledgements
 
-We warmly thank **Daniel Podlesny** and the **EMBL team** behind SameStr and its Nextflow implementation, for developing these tools and for supporting their integration into Galaxy. We thank **[de.NBI](https://www.denbi.de/)** (German Network for Bioinformatics Infrastructure) for providing the virtual machine used to benchmark both pipelines and to develop the blueprint of the Galaxy implementation. We are also grateful to Wolfgang Maier, Matthias Bernt and Marius van den Beek for their careful review of the wrappers and the IWC workflow.
+We warmly thank Daniel Podlesny and the EMBL team behind SameStr and its Nextflow implementation, for developing these tools and for supporting their integration into Galaxy. We thank **[de.NBI](https://www.denbi.de/)** (German Network for Bioinformatics Infrastructure) for providing the virtual machine used to benchmark both pipelines and to develop the blueprint of the Galaxy implementation. We are also grateful to Wolfgang Maier, Matthias Bernt and Marius van den Beek for their careful review of the wrappers and the IWC workflow.
 
 ## Get started
 
-- **Run the workflow**: import it from the [IWC workflow page](https://iwc.galaxyproject.org/workflow/samestr-shared-strain-detection-main/)
-  into [usegalaxy.eu](https://usegalaxy.eu), where all tools and a current MetaPhlAn-based SameStr database are already installed.
-- **Follow the tutorial** on the [Galaxy Training Network](https://training.galaxyproject.org/training-material/topics/microbiome/tutorials/samestr-strain-detection/tutorial.html).
+- **Run the workflow**: import it from the [IWC workflow page](https://iwc.galaxyproject.org/workflow/samestr-shared-strain-detection-main/) into [usegalaxy.eu](https://usegalaxy.eu), where all tools and a current MetaPhlAn-based SameStr database are already installed.
+- **Follow the tutorial** on the [Galaxy Training Network](https://training.galaxyproject.org/training-material/topics/microbiome/tutorials samestr-strain-detection/tutorial.html).
 - **Coming next**: support for mOTUs as an alternative profiler.
 
 Questions or feedback? Join us on the [Galaxy Help Forum](https://help.galaxyproject.org/) or the [Galaxy Matrix channels](https://matrix.to/#/#galaxyproject_Lobby:gitter.im).
