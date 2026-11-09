@@ -16,6 +16,7 @@ funding_logo: /images/projects/esg/images/EN-Funded by the EU-POS.png
 funding_logo_alt: Funded by the European Union
 feed:
   tag: esg4stars
+partners_dataset: esg4stars-partners
 related:
   - label: Builds on
     name: EuroScienceGateway
