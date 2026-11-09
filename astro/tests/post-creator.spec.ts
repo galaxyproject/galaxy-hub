@@ -158,14 +158,12 @@ test('post creator checks text with components like the MDX build does', async (
   await expect(await fileText(page)).toContainText('components: true');
 });
 
-test('post creator guesses the uploader from the first author of a news item only', async ({ page }) => {
+test('post creator does not guess the uploader from the authors', async ({ page }) => {
   await openCreator(page);
   await page.getByLabel('Title (required)').fill('Photos');
   await pick(page, 'Authors', 'first-time-author', 'Add “first-time-author” as new');
   await page.locator('input[type="file"]').setInputFiles({ name: 'photo.png', mimeType: 'image/png', buffer: PNG });
-  await expect(page.getByLabel('Your GitHub username')).toHaveValue('first-time-author');
-  // An event's first organiser is often someone else: their fork is not the uploader's
-  await page.getByRole('button', { name: 'Event', exact: true }).click();
+  // Whoever uploads is often not the first author: a wrong name opens someone else's fork
   await expect(page.getByLabel('Your GitHub username')).toHaveValue('');
 });
 

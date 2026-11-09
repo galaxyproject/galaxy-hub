@@ -425,18 +425,9 @@ onBeforeUnmount(() => {
 // Posts with files (or text too long for a link) go up through GitHub's upload page in one commit
 const useUpload = computed(() => media.value.length > 0 || !link.value.complete);
 // Whoever uploads works in their own fork (GitHub disables uploads without push access), so the
-// upload link needs their GitHub username. The first author of a news item is a good guess until
-// they type one; an event's first organiser is not (often someone else, or an organisation)
+// upload link needs their GitHub username. Not guessed from the authors: whoever uploads is often
+// someone else, and a wrong name opens a fork they cannot upload to
 const uploader = ref('');
-let uploaderTyped = false;
-const markUploaderTyped = () => (uploaderTyped = true);
-watch(
-  () => (isEvent.value ? '' : form.authors[0]),
-  (first) => {
-    if (!uploaderTyped) uploader.value = first && GITHUB_USERNAME.test(first) ? first : '';
-  },
-  { immediate: true }
-);
 // People often copy their name as @name
 const uploaderName = computed(() => uploader.value.trim().replace(/^@/, ''));
 const uploaderValid = computed(() => GITHUB_USERNAME.test(uploaderName.value));
@@ -1180,7 +1171,6 @@ const sizeText = (bytes: number) =>
               :aria-describedby="uploaderInvalid ? `${ids.uploaderError} ${ids.uploaderHint}` : ids.uploaderHint"
               :aria-invalid="uploaderInvalid || undefined"
               :class="[inputClass, focusRing]"
-              @input="markUploaderTyped"
             />
             <p v-if="uploaderInvalid" :id="ids.uploaderError" class="text-danger-fg" data-uploader-error>
               That is not a GitHub username: it has only letters, numbers and single hyphens.
