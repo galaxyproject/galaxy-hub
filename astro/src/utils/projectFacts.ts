@@ -1,6 +1,6 @@
 /**
  * Project facts read from a project's frontmatter (content/projects/<id>/main.md):
- * status, start and end dates, programme, grants and logos. Fields that are missing or
+ * status, start and end dates, programme, grants, logos and related projects. Fields that are missing or
  * malformed stay undefined, so a page shows only what the content states.
  */
 import { HTTP_SCHEMES, safeUrl } from './url';
@@ -11,6 +11,13 @@ export interface ProjectGrant {
   label: string;
   id: string;
   url?: string;
+}
+
+/** Another project page this one builds on or continues in, shown in the facts box. */
+export interface RelatedProject {
+  label: string;
+  name: string;
+  href: string;
 }
 
 export interface ProjectLogo {
@@ -30,6 +37,7 @@ export interface ProjectFacts {
   /** Logo with light lettering, for the dark project band. */
   logoOnDark?: string;
   fundingLogo?: ProjectLogo;
+  related: RelatedProject[];
 }
 
 const STATUSES: ProjectStatus[] = ['active', 'ended'];
@@ -64,6 +72,15 @@ function grant(value: unknown): ProjectGrant | undefined {
   return url ? { label, id, url } : { label, id };
 }
 
+function related(value: unknown): RelatedProject | undefined {
+  if (!value || typeof value !== 'object') return undefined;
+  const entry = value as Record<string, unknown>;
+  const label = text(entry.label);
+  const name = text(entry.name);
+  const href = link(entry.href);
+  return label && name && href ? { label, name, href } : undefined;
+}
+
 export function parseProjectFacts(data: Record<string, unknown>): ProjectFacts {
   const status = text(data.status) as ProjectStatus | undefined;
   const fundingLogo = text(data.funding_logo);
@@ -77,6 +94,7 @@ export function parseProjectFacts(data: Record<string, unknown>): ProjectFacts {
     grants: Array.isArray(data.grants) ? data.grants.map(grant).filter((g): g is ProjectGrant => !!g) : [],
     logoOnDark: text(data.logo_on_dark),
     fundingLogo: fundingLogo ? { src: fundingLogo, alt: text(data.funding_logo_alt) ?? '' } : undefined,
+    related: Array.isArray(data.related) ? data.related.map(related).filter((r): r is RelatedProject => !!r) : [],
   };
 }
 
