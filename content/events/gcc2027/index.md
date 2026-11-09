@@ -45,6 +45,8 @@ contributions:
   }
 `}</style>
 
+{/* TODO: Add a rotating/carousel-like alert once open, e.g. Register / Submit an abstract / Apply for a fellowship */}
+
 <div class="gcc-hero">
     <div class="gcc-hero__grid grid gap-6 items-center">
         <img class="w-full max-w-md mx-auto" src="/images/events/gcc2027/gcc2027-logo-transparent.png" alt="GCC2027 Conference Logo" />
@@ -61,7 +63,6 @@ contributions:
             </div>
             <h3 style="margin-top: 1rem;">Held at Université de Sherbrooke - Campus Longueuil, in the riverside city of <a href="https://www.google.com/maps/search/?api=1&query=Longueuil%2C+Qu%C3%A9bec%2C+Canada" target="_blank" rel="noopener noreferrer">Longueuil, Québec</a></h3>
             <p class="text-lg text-galaxy-grey">Registration, abstract submission, and fellowship applications open in <strong>November 2026</strong>.</p>
-            {/* TODO: add buttons once open, e.g. Register / Submit an abstract / Apply for a fellowship */}
         </div>
     </div>
 </div>
@@ -109,7 +110,7 @@ contributions:
 <a class="gx-tile gx-tile--link" href="/events/gcc2027/fellowships/">
   <img class="gx-tile__media" src="/images/events/gcc2026/Scholarships.jpg" alt="Scholarship recipients for GCC2026" />
   <div class="gx-tile__title">GCC2027 fellowships</div>
-  <p class="gx-tile__teaser">Financial support shouldn't be a barrier to joining us. Applications open in <strong class="text-galaxy-primary">November 2026</strong>, with full details on awards and eligibility to follow.</p>
+  <p class="gx-tile__teaser">Financial support shouldn't be a barrier to joining us. Applications open <strong class="text-galaxy-primary">November 15, 2026</strong> and close <strong class="text-galaxy-primary">March 15, 2027</strong>.</p>
   <span class="gx-tile__more">See fellowship details →</span>
 </a>
 
