@@ -1,0 +1,53 @@
+heading: Project Partners
+
+partners:
+    - short_name: UFR
+      name: ALBERT-LUDWIGS-UNIVERSITAET FREIBURG
+      country: DE
+
+    - short_name: BSC CNS
+      name: BARCELONA SUPERCOMPUTING CENTER CENTRO NACIONAL DE SUPERCOMPUTACION
+      country: ES
+
+    - short_name: CESNET
+      name: CESNET ZAJMOVE SDRUZENI PRAVNICKYCH OSOB
+      country: CZ
+
+    - short_name: VIB vzw
+      name: Vlaams Instituut voor Biotechnologie
+      country: BE
+
+    - name: Sci-Scale
+      country: BE
+
+    - name: EURO-BIOIMAGING ERIC
+      country: FI
+
+    - short_name: EMBL
+      name: EUROPEAN MOLECULAR BIOLOGY LABORATORY
+      country: DE
+      note: Affiliated entity of partner 6
+
+    - short_name: CNR
+      name: CONSIGLIO NAZIONALE DELLE RICERCHE
+      country: IT
+
+    - short_name: CNRS
+      name: CENTRE NATIONAL DE LA RECHERCHE SCIENTIFIQUE
+      country: FR
+
+    - short_name: UKA
+      name: UNIVERSITAETSKLINIKUM AACHEN
+      country: DE
+
+    - short_name: UC3M
+      name: UNIVERSIDAD CARLOS III DE MADRID
+      country: ES
+
+    - short_name: GerBI
+      name: GERMAN BIOIMAGING - GESELLSCHAFT FÜR MIKROSKOPIE UND BILDANALYSE E.V.
+      country: DE
+
+    - short_name: EI
+      name: EARLHAM INSTITUTE
+      country: GB
