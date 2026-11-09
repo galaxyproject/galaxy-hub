@@ -13,7 +13,7 @@ contributions:
     - deNBI
     - mwk
     - deKCD
-    - ufr
+    - uni-freiburg
     - elixir-europe
 ---
 # usegalaxy.eu's information security is certified – we passed the annual audit!
