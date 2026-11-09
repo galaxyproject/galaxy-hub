@@ -53,7 +53,7 @@ A new GTN tutorial,[**Shared strain detection with SameStr**](https://training.g
 
 ## Acknowledgements
 
-We warmly thank **Daniel Podlesny** and the **EMBL team** behind SameStr and its Nextflow implementation, for developing these tools and for supporting their integration into Galaxy. We thank **[de.NBI](https://www.denbi.de/)** (German Network for Bioinformatics Infrastructure) for providing the virtual machine used to benchmark both pipelines and to develop the blueprint of the Galaxy implementation. We are also grateful to Wolfgang Maier and Marius van den Beek of the Freiburg Galaxy team for their careful review of the wrappers and the IWC workflow.
+We warmly thank **Daniel Podlesny** and the **EMBL team** behind SameStr and its Nextflow implementation, for developing these tools and for supporting their integration into Galaxy. We thank **[de.NBI](https://www.denbi.de/)** (German Network for Bioinformatics Infrastructure) for providing the virtual machine used to benchmark both pipelines and to develop the blueprint of the Galaxy implementation. We are also grateful to Wolfgang Maier, Matthias Bernt and Marius van den Beek for their careful review of the wrappers and the IWC workflow.
 
 ## Get started
 
