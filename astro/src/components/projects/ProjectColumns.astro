@@ -1,0 +1,50 @@
+---
+/**
+ * Columns of a project overview: the lead (notice, inline facts) and the main sections on the left,
+ * a 15rem right rail (facts box, "On this page") from lg up. Below lg the rail is hidden; pages show
+ * an inline facts box in the lead slot instead.
+ */
+---
+
+<div class="project-columns">
+  <div class="project-columns__lead">
+    <slot name="lead" />
+  </div>
+
+  <aside class="project-columns__rail hidden lg:block" aria-label="Project facts and contents">
+    <slot name="rail" />
+  </aside>
+
+  <div class="project-columns__main">
+    <slot />
+  </div>
+</div>
+
+<style>
+  .project-columns {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  @media (min-width: 1024px) {
+    .project-columns {
+      grid-template-columns: minmax(0, 1fr) 15rem;
+      column-gap: 2.5rem;
+    }
+
+    .project-columns__lead {
+      grid-column: 1;
+      grid-row: 1;
+    }
+
+    .project-columns__rail {
+      grid-column: 2;
+      grid-row: 1 / span 2;
+    }
+
+    .project-columns__main {
+      grid-column: 1;
+      grid-row: 2;
+    }
+  }
+</style>

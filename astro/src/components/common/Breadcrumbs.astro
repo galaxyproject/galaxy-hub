@@ -1,0 +1,116 @@
+---
+/**
+ * Breadcrumb trail above a page's title. The last item is the current page (aria-current, no link);
+ * an earlier item without href renders as plain text, for levels that have no page of their own.
+ * Below 640px the trail collapses to one back link to the nearest linked parent, so it never wraps.
+ */
+import Icon from '@/components/mdx/Icon.astro';
+
+export interface Crumb {
+  label: string;
+  href?: string;
+}
+
+interface Props {
+  items: Crumb[];
+  class?: string;
+}
+
+const { items, class: className } = Astro.props;
+const lastIndex = items.length - 1;
+const parent = items.slice(0, lastIndex).findLast((item) => item.href);
+---
+
+{items.length > 0 && <nav class:list={['breadcrumbs', className]} aria-label="Breadcrumb">
+  {parent && <a class="breadcrumbs__back" href={parent.href}>
+    <span aria-hidden="true">‹</span>
+    {parent.label}
+  </a>}
+  <ol class:list={{ 'breadcrumbs__trail--collapsible': Boolean(parent) }}>
+    {items.map((item, index) => <li>
+      {index === lastIndex ? (
+        <span class="breadcrumbs__current" aria-current="page">
+          {item.label}
+        </span>
+      ) : item.href ? (
+        <a href={item.href}>
+          {index === 0 && <span class="breadcrumbs__icon" aria-hidden="true">
+            <Icon name="globe" size={14} />
+          </span>}
+          {item.label}
+        </a>
+      ) : (
+        <span>{item.label}</span>
+      )}
+    </li>)}
+  </ol>
+</nav>}
+
+<style>
+  .breadcrumbs ol {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2px 0;
+    margin: 0 0 12px;
+    padding: 0;
+    list-style: none;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: var(--color-galaxy-grey);
+  }
+
+  .breadcrumbs .breadcrumbs__back {
+    display: none;
+  }
+
+  @media (max-width: 639px) {
+    .breadcrumbs .breadcrumbs__back {
+      display: inline-flex;
+      margin-bottom: 12px;
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+    }
+
+    .breadcrumbs .breadcrumbs__trail--collapsible {
+      display: none;
+    }
+  }
+
+  .breadcrumbs li {
+    display: inline-flex;
+    align-items: center;
+    min-width: 0;
+  }
+
+  .breadcrumbs li + li::before {
+    content: '›' / '';
+    margin: 0 8px;
+    color: var(--color-chicago-500);
+  }
+
+  .breadcrumbs a {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    min-height: 24px;
+    color: var(--color-galaxy-grey);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .breadcrumbs a:hover {
+    color: var(--color-galaxy-primary);
+    text-decoration-color: var(--color-galaxy-gold);
+  }
+
+  .breadcrumbs__icon {
+    display: inline-flex;
+    color: var(--color-galaxy-primary);
+  }
+
+  .breadcrumbs__current {
+    font-weight: 700;
+    color: var(--color-chicago-900);
+  }
+</style>

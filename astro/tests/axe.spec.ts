@@ -9,14 +9,19 @@ import { AxeBuilder } from '@axe-core/playwright';
 // and events listings open a past year that sits in the "Older years" select (?year=2020), so their
 // items stay the same (the recent-year chips and their counts still change); the US citations list
 // opens the same year.
-// Regions that list the latest news, upcoming events or ESG news and past events are excluded, and
-// each must match exactly `count` elements, so a renamed hook fails instead of letting live content
-// back into the scan. News teasers, tags and dates are covered on the news year view, past event
-// items on the events year view. On that view the year filter also empties the upcoming list, so
-// its region is the "No upcoming events" notice; upcoming event cards and the item lists on the home
-// page, bare feed cards, embed overview and ESG page are not scanned; the rest of those pages is.
+// Regions that list the latest news, upcoming events or the ESG overview's news and past events are
+// excluded, and each must match exactly `count` elements, so a renamed hook fails instead of letting
+// live content back into the scan. News teasers, tags and dates are covered on the news year view,
+// past event items on the events year view. On that view the year filter also empties the upcoming
+// list, so its region is the "No upcoming events" notice; upcoming event cards and the item lists on
+// the home page, bare feed cards, embed overview and ESG overview are not scanned; the rest of those
+// pages is. The ESG news page opens a fixed past year like /news/. The ESG past events page is
+// scanned whole: the project has ended, so its list (ProjectRows) changes only when an ESG event
+// is edited or added.
 // Edits to a scanned page or its inserts, and new platforms on /use/, are still checked on purpose.
 const fixedYear = 2020;
+// ESG news started in 2022; 2023 is a full past year of the project
+const esgNewsYear = 2023;
 
 type Region = { name: string; count: number; locate: (page: Page) => Locator };
 type ScanTarget = { path: string; ready?: (page: Page) => Locator; exclude?: Region[] };
@@ -43,19 +48,14 @@ const pages: ScanTarget[] = [
   { path: '/events/2025-admin-training-brno/' }, // event page
   { path: '/events/gcc2026/' }, // ConferenceLayout
   {
-    path: '/projects/esg/', // ESGLayout
-    exclude: [
-      {
-        name: 'news and past events lists',
-        count: 2,
-        locate: (page) =>
-          page
-            .locator('section')
-            .filter({ has: page.getByRole('link', { name: 'More News', exact: true }) })
-            .locator('ul'),
-      },
-    ],
+    path: '/projects/esg/', // project page (BaseLayout, band, facts box)
+    exclude: [{ name: 'news and past events lists', count: 2, locate: css('[data-project-list]') }],
   },
+  {
+    path: `/projects/esg/news/?year=${esgNewsYear}`, // project section page with NewsList
+    ready: (page) => page.getByText(new RegExp(`^\\s*\\d+ articles?\\s+in ${esgNewsYear}\\s*$`)),
+  },
+  { path: '/projects/esg/events/' }, // project section page; scans the ProjectRows past event list
   { path: '/use/usegalaxy-eu/' }, // PlatformLayout
   {
     path: '/embed/eu/', // EmbedLayout
