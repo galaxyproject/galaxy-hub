@@ -2,7 +2,7 @@
 title: "Tracking shared microbial strains in Galaxy: SameStr tools and workflow now available!"
 date: "2026-11-09"
 tease: "A bachelor thesis from Freiburg brings SameStr strain-level metagenomics to Galaxy as a peer-reviewed IWC workflow, eight new tools and a GTN tutorial"
-tags: [eu, metagenomics, microbiome, workflows, iwc, gtn, tools]
+tags: [eu, metagenomics, microbial, freiburg, teaching, workflow, gtn, tools]
 subsites: [all, eu, freiburg]
 main_subsite: freiburg
 contributions:
