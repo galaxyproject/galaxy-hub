@@ -14,6 +14,12 @@ Two microbiome samples can contain the same bacterial *species* and still carry 
 
 [SameStr](https://github.com/danielpodlesny/samestr) (Podlesny et al., 2022) was designed for exactly this. It builds single-nucleotide variant profiles from species-specific MetaPhlAn marker genes and compares them across samples, detecting shared strains even when they are not the dominant strain in a sample. Until now, using it meant either installing software, building reference databases and working on the command line or using Nextflow Workflow Manager. With this release, the full analysis is available in Galaxy, and no command-line experience is needed.
 
+
+## From bachelor thesis to community resource
+
+**Xènia Morera Martínez**, a bachelor's student, carried out this work as her bachelor thesis in the Bioinformatics Group at the University of Freiburg, under the supervision of Saim Momin. Within a single project, she wrapped a complete tool suite and its Data Manager, built and published a peer-reviewed workflow, validated it against the reference implementation, and wrote a GTN tutorial. That covers the full cycle of contributing to Galaxy, and we are proud of her acheivement.
+
+
 ## The workflow
 
 The new IWC workflow [**SameStr-based shared strain detection from paired-end metagenomic data**](https://iwc.galaxyproject.org/workflow/samestr-shared-strain-detection-main/) takes a collection of paired-end shotgun metagenomic reads and runs the complete analysis:
@@ -27,7 +33,7 @@ Reference databases and the key overlap and similarity thresholds are exposed as
 
 ## Eight new tools for the community
 
-To build the workflow, all eight SameStr tools were wrapped and contributed to the [Intergalactic Utilities Commission](https://github.com/galaxyproject/tools-iuc/tree/main/tools/samestr). They include **SameStr Extract** for reference genomes and a **Data Manager** that builds SameStr reference databases from MetaPhlAn or mOTUs markers. Galaxy administrators can therefore provide ready-to-use databases, and users simply select one from a dropdown. Each tool can also be used on its own, outside the workflow.
+To build the workflow, all eight SameStr tools were wrapped and contributed to the [Intergalactic Utilities Commission](https://github.com/galaxyproject/tools-iuc/tree/main/tools/samestr). They include SameStr Extract for reference genomes and a Data Manager that builds SameStr reference databases from MetaPhlAn or mOTUs markers. Galaxy administrators can therefore provide ready-to-use databases, and users simply select one from a dropdown. Each tool can also be used on its own, outside the workflow.
 
 ## Validated against the reference implementation
 
@@ -42,15 +48,12 @@ The Galaxy workflow was benchmarked against the official SameStr Nextflow pipeli
 
 ## Learn it with the Galaxy Training Network
 
-A new GTN tutorial,[**Shared strain detection with SameStr**](https://training.galaxyproject.org/training-material/topics/microbiome/tutorials/samestr-strain-detection/tutorial.html),walks you through the analysis using real FMT data. It explains why strain-level analysis matters, shows you how to run the complete workflow, and goes through each SameStr tool step by step, including what every key parameter does and when to be careful about changing it.
+A new GTN tutorial,[**Shared strain detection with SameStr**](https://training.galaxyproject.org/training-material/topics/microbiome/tutorials/samestr-strain-detection/tutorial.html), walks you through the analysis using real FMT data. It explains why strain-level analysis matters, shows you how to run the complete workflow, and goes through each SameStr tool step by step, including what every key parameter does and when to be careful about changing it.
 
-## From bachelor thesis to community resource
-
-**Xènia Morera Martínez**, a bachelor's student, carried out this work as her bachelor thesis in the Bioinformatics Group at the University of Freiburg, under the supervision of Saim Momin. Within a single project, she wrapped a complete tool suite and its Data Manager, built and published a peer-reviewed workflow, validated it against the reference implementation, and wrote a GTN tutorial. That covers the full cycle of contributing to Galaxy, and we are proud of her acheivement.
 
 ## Acknowledgements
 
-We warmly thank **Daniel Podlesny** and the **EMBL team** behind SameStr and its Nextflow implementation, for developing these tools and for supporting their integration into Galaxy. We thank **[de.NBI](https://www.denbi.de/)** (German Network for Bioinformatics Infrastructure) for providing the virtual machines used to benchmark both pipelines and to develop the blueprint of the Galaxy implementation. We are also grateful to Wolfgang Maier and Marius van den Beek of the Freiburg Galaxy team for their careful review of the wrappers and the workflow.
+We warmly thank **Daniel Podlesny** and the **EMBL team** behind SameStr and its Nextflow implementation, for developing these tools and for supporting their integration into Galaxy. We thank **[de.NBI](https://www.denbi.de/)** (German Network for Bioinformatics Infrastructure) for providing the virtual machine used to benchmark both pipelines and to develop the blueprint of the Galaxy implementation. We are also grateful to Wolfgang Maier and Marius van den Beek of the Freiburg Galaxy team for their careful review of the wrappers and the IWC workflow.
 
 ## Get started
 
