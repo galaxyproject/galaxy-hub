@@ -28,8 +28,6 @@ related:
     href: /projects/esg4stars/
 ---
 
-![eosc | EuroScienceGateway](./eosc_euro_science_gateway.svg)
-
 ## Project Summary
 
 In the past decade, many scientific domains have been transformed into data-driven disciplines relying on the exchange and integration of internationally distributed data. Exploiting this data is still a laborious and largely manual task, prone to losses and errors, and increasingly specialized beyond most users technical capabilities. [FAIR practices](https://doi.org/10.1038/sdata.2016.18) are encouraged but their adoption curve is steep. The needs for compute and data resources, tools, and application platforms are often domain-specific. 
