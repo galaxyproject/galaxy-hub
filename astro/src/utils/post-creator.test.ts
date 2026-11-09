@@ -22,6 +22,7 @@ import {
   slugFromTitle,
   socialPost,
   uploadPageUrl,
+  markdownUrl,
   usesComponents,
   type PostForm,
 } from './post-creator';
@@ -309,9 +310,15 @@ describe('rules shared with the build and CI', () => {
     ).toEqual(['Slides', 'x']);
   });
 
-  it('links to the upload page for the post folder', () => {
-    expect(uploadPageUrl(form())).toBe(
-      'https://github.com/galaxyproject/galaxy-hub/upload/main/content/news/2026/2026-11-05-galaxy-new-release'
+  it("links to the upload page for the post folder in the uploader's fork", () => {
+    expect(uploadPageUrl(form(), 'octocat')).toBe(
+      'https://github.com/octocat/galaxy-hub/upload/main/content/news/2026/2026-11-05-galaxy-new-release'
+    );
+  });
+
+  it('keeps brackets and spaces from ending a Markdown link early', () => {
+    expect(markdownUrl('https://en.wikipedia.org/wiki/Galaxy_(software) x')).toBe(
+      'https://en.wikipedia.org/wiki/Galaxy_%28software%29%20x'
     );
   });
 

@@ -17,7 +17,7 @@ import {
 } from '@lucide/vue';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
-import { embedFor } from '@/utils/post-creator';
+import { embedFor, markdownUrl } from '@/utils/post-creator';
 import { focusRing, hintClass, inputClass, labelClass } from './styles';
 
 const props = defineProps<{ labelId: string; hintId: string }>();
@@ -140,7 +140,7 @@ onMounted(async () => {
           const { from, to } = v.state.selection.main;
           if (from !== to && URL_ONLY.test(text)) {
             event.preventDefault();
-            v.dispatch(v.state.replaceSelection(`[${v.state.sliceDoc(from, to)}](${text})`));
+            v.dispatch(v.state.replaceSelection(`[${v.state.sliceDoc(from, to)}](${markdownUrl(text)})`));
             return true;
           }
           const html = data.getData('text/html');
@@ -287,7 +287,7 @@ function insertEmbed() {
   } else if (URL.canParse(link) && /^https?:$/.test(new URL(link).protocol)) {
     // Only web links: a javascript: or data: address must not become a link in the post
     const href = new URL(link).href;
-    insertBlock(`[${href}](${href})`);
+    insertBlock(`[${href.replace(/[[\]]/g, '\\$&')}](${markdownUrl(href)})`);
     say('This site cannot be embedded, so it was added as a link.');
   } else {
     say('That does not look like a web link. Copy the full address, starting with https://.');

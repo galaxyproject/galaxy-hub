@@ -180,9 +180,12 @@ test('post creator adds images at the cursor and updates them in place', async (
     '<figure>\n  <img src="./team-photo.png" alt="The team at work" width="600" />\n  <figcaption>Day one</figcaption>\n</figure>'
   );
   await expect(page.locator('[data-upload-flow]')).toContainText('index.md, team-photo.png');
+  // Uploads go to the author's fork: GitHub disables uploads without push access
+  await expect(page.getByRole('button', { name: 'Open the upload page' })).toBeDisabled();
+  await page.getByLabel('Your GitHub username').fill('octocat');
   await expect(page.getByRole('link', { name: 'Open the upload page' })).toHaveAttribute(
     'href',
-    /^https:\/\/github\.com\/galaxyproject\/galaxy-hub\/upload\/main\/content\/news\/\d{4}\/\d{4}-\d{2}-\d{2}-photos$/
+    /^https:\/\/github\.com\/octocat\/galaxy-hub\/upload\/main\/content\/news\/\d{4}\/\d{4}-\d{2}-\d{2}-photos$/
   );
   // One upload: index.md and the image, under the names the text uses
   const downloads: { name: string; text: string }[] = [];
@@ -342,12 +345,15 @@ test('post creator saves into a folder with the exact names where the browser al
     (window as unknown as { written: typeof written }).written = written;
     (window as unknown as { showDirectoryPicker: () => Promise<unknown> }).showDirectoryPicker = async () => ({
       name: 'my-post',
-      getFileHandle: async (name: string) => ({
-        createWritable: async () => ({
-          write: async (blob: Blob) => (written[name] = await blob.text()),
-          close: async () => {},
-        }),
-      }),
+      getFileHandle: async (name: string, options?: { create?: boolean }) => {
+        if (!options?.create && !(name in written)) throw new DOMException('missing', 'NotFoundError');
+        return {
+          createWritable: async () => ({
+            write: async (blob: Blob) => (written[name] = await blob.text()),
+            close: async () => {},
+          }),
+        };
+      },
     });
   });
   await openCreator(page);
@@ -358,6 +364,32 @@ test('post creator saves into a folder with the exact names where the browser al
   const written = await page.evaluate(() => (window as unknown as { written: Record<string, string> }).written);
   expect(Object.keys(written).sort()).toEqual(['a.png', 'index.md']);
   expect(written['index.md']).toBe(await (await fileText(page)).textContent());
+});
+
+test('post creator never overwrites files in the chosen folder', async ({ page }) => {
+  await page.addInitScript(() => {
+    const written: Record<string, string> = { 'index.md': 'an older post' };
+    (window as unknown as { written: typeof written }).written = written;
+    (window as unknown as { showDirectoryPicker: () => Promise<unknown> }).showDirectoryPicker = async () => ({
+      name: 'old-post',
+      getFileHandle: async (name: string, options?: { create?: boolean }) => {
+        if (!options?.create && !(name in written)) throw new DOMException('missing', 'NotFoundError');
+        return {
+          createWritable: async () => ({
+            write: async (b: Blob) => (written[name] = await b.text()),
+            close: async () => {},
+          }),
+        };
+      },
+    });
+  });
+  await openCreator(page);
+  await page.getByLabel('Title (required)').fill('Folder clash');
+  await page.locator('input[type="file"]').setInputFiles({ name: 'a.png', mimeType: 'image/png', buffer: PNG });
+  await page.getByRole('button', { name: 'Save all files to a folder' }).click();
+  await expect(page.locator('[data-save-error]')).toContainText('already has index.md. Pick an empty folder.');
+  const written = await page.evaluate(() => (window as unknown as { written: Record<string, string> }).written);
+  expect(written).toEqual({ 'index.md': 'an older post' });
 });
 
 test('post creator refuses files the Hub cannot publish and new people without a username', async ({ page }) => {

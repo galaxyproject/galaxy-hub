@@ -34,15 +34,22 @@ export interface PostForm {
 }
 
 export const REPO_NEW_FILE_URL = 'https://github.com/galaxyproject/galaxy-hub/new/main';
-export const REPO_UPLOAD_URL = 'https://github.com/galaxyproject/galaxy-hub/upload/main';
+export const REPO_FORK_URL = 'https://github.com/galaxyproject/galaxy-hub/fork';
+export const GITHUB_USERNAME = /^[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?$/;
 
 /**
- * GitHub's upload page for the post folder. It works for a folder that does not exist yet, so
- * index.md and its images go up in one commit and one pull request.
+ * GitHub's upload page for the post folder, in the author's fork: GitHub disables uploads to a
+ * repository without push access, even after forking, so first-time authors upload to their fork.
+ * It works for a folder that does not exist yet, so index.md and its images go up in one commit.
  */
-export function uploadPageUrl(form: PostForm): string {
+export function uploadPageUrl(form: PostForm, owner: string): string {
   const folder = postPath(form).replace(/\/index\.md$/, '');
-  return `${REPO_UPLOAD_URL}/${folder.split('/').map(encodeURIComponent).join('/')}`;
+  return `https://github.com/${encodeURIComponent(owner)}/galaxy-hub/upload/main/${folder.split('/').map(encodeURIComponent).join('/')}`;
+}
+
+/** A URL as a Markdown link target: brackets would end it early, so they are percent-encoded. */
+export function markdownUrl(url: string): string {
+  return url.replace(/\(/g, '%28').replace(/\)/g, '%29').replace(/ /g, '%20');
 }
 
 // GitHub answers 414/500 somewhere between 6000 and 7000 characters (tested Nov 2026)

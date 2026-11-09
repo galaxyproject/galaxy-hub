@@ -34,6 +34,8 @@ import {
   slugFromTitle,
   socialPost,
   uploadPageUrl,
+  GITHUB_USERNAME,
+  REPO_FORK_URL,
   PUBLISHED_TYPES,
   type ImageSize,
   type Outline,
@@ -156,6 +158,8 @@ const ids = {
   url: id('url'),
   urlHint: id('url-hint'),
   contactHint: id('contact-hint'),
+  uploader: id('uploader'),
+  uploaderHint: id('uploader-hint'),
   main: id('main'),
   slug: id('slug'),
   body: id('body'),
@@ -316,7 +320,7 @@ async function addFiles(dropped: File[]) {
     else {
       const jpeg =
         file.type.startsWith('image/') || /\.(heic|heif|avif|tiff?|bmp)$/i.test(file.name)
-          ? await convertToJpeg(file)
+          ? await convertToJpeg(file).catch(() => null)
           : null;
       if (jpeg) files.push(jpeg);
       else refused.push(file.name);
@@ -353,8 +357,15 @@ async function addFiles(dropped: File[]) {
 }
 
 async function shrink(item: MediaItem, file: File) {
-  const result = await optimizeImage(file);
-  item.optimizing = false;
+  let result;
+  try {
+    result = await optimizeImage(file);
+  } catch {
+    result = null; // the original is kept
+  } finally {
+    // Always, or Save would stay disabled
+    item.optimizing = false;
+  }
   if (!result || !media.value.includes(item)) return;
   const { blob, ...dimensions } = result;
   item.smaller = { url: URL.createObjectURL(blob), size: blob.size, ...dimensions };
@@ -410,7 +421,20 @@ onBeforeUnmount(() => {
 
 // Posts with files (or text too long for a link) go up through GitHub's upload page in one commit
 const useUpload = computed(() => media.value.length > 0 || !link.value.complete);
-const uploadUrl = computed(() => uploadPageUrl(form));
+// Whoever uploads works in their own fork (GitHub disables uploads without push access), so the
+// upload link needs their GitHub username; the first author is a good guess until they type one
+const uploader = ref('');
+let uploaderTyped = false;
+const markUploaderTyped = () => (uploaderTyped = true);
+watch(
+  () => form.authors[0],
+  (first) => {
+    if (!uploaderTyped && first && GITHUB_USERNAME.test(first)) uploader.value = first;
+  },
+  { immediate: true }
+);
+const uploaderValid = computed(() => GITHUB_USERNAME.test(uploader.value.trim()));
+const uploadUrl = computed(() => (uploaderValid.value ? uploadPageUrl(form, uploader.value.trim()) : ''));
 const saved = ref(false);
 
 // Saving waits for the smaller copies, so what is saved is what the cards describe
@@ -419,12 +443,13 @@ const shrinking = computed(() => media.value.some((m) => m.optimizing));
 const canPickFolder = ref(false);
 onMounted(() => (canPickFolder.value = 'showDirectoryPicker' in window));
 const savedTo = ref('');
+const saveError = ref('');
 
 type DirectoryHandle = {
   name: string;
   getFileHandle(
     name: string,
-    options: { create: boolean }
+    options?: { create: boolean }
   ): Promise<{
     createWritable(): Promise<{ write(data: Blob): Promise<void>; close(): Promise<void> }>;
   }>;
@@ -434,24 +459,48 @@ type DirectoryHandle = {
 async function saveAll() {
   const indexUrl = URL.createObjectURL(new Blob([text.value], { type: 'text/markdown' }));
   const files = [{ name: 'index.md', url: indexUrl }, ...media.value.map((m) => ({ name: m.name, url: m.url }))];
+  saveError.value = '';
   if (canPickFolder.value) {
+    let dir: DirectoryHandle | undefined;
     try {
       const pick = (window as unknown as { showDirectoryPicker: (o: object) => Promise<DirectoryHandle> })
         .showDirectoryPicker;
-      const dir = await pick({ id: 'galaxy-hub-post', mode: 'readwrite' });
+      dir = await pick({ id: 'galaxy-hub-post', mode: 'readwrite' });
+    } catch (error) {
+      if ((error as Error).name === 'AbortError') return;
+      // Not allowed here (permissions, sandboxed browser): fall back to downloads below
+      canPickFolder.value = false;
+    }
+    if (dir) {
+      // Never overwrite: a folder that already has one of these names is refused before anything is written
+      const taken: string[] = [];
       for (const file of files) {
-        const writable = await (await dir.getFileHandle(file.name, { create: true })).createWritable();
-        await writable.write(await (await fetch(file.url)).blob());
-        await writable.close();
+        try {
+          await dir.getFileHandle(file.name);
+          taken.push(file.name);
+        } catch {
+          // Not there yet
+        }
+      }
+      if (taken.length) {
+        saveError.value = `The folder ${dir.name} already has ${taken.join(', ')}. Pick an empty folder.`;
+        return;
+      }
+      for (const file of files) {
+        try {
+          const writable = await (await dir.getFileHandle(file.name, { create: true })).createWritable();
+          await writable.write(await (await fetch(file.url)).blob());
+          await writable.close();
+        } catch {
+          // Stop here instead of leaving a half-saved post and downloading the rest elsewhere
+          saveError.value = `Could not save ${file.name} in ${dir.name}, so saving stopped. Try again in an empty folder.`;
+          return;
+        }
       }
       savedTo.value = dir.name;
       saved.value = true;
       URL.revokeObjectURL(indexUrl);
       return;
-    } catch (error) {
-      if ((error as Error).name === 'AbortError') return;
-      // Not allowed here (permissions, sandboxed browser): fall back to downloads
-      canPickFolder.value = false;
     }
   }
   savedTo.value = '';
@@ -1090,6 +1139,10 @@ const sizeText = (bytes: number) =>
           }}
         </p>
         <ol class="list-decimal space-y-4 pl-5">
+          <li class="space-y-1">
+            <a :href="REPO_FORK_URL" target="_blank" rel="noopener" :class="linkClass">Fork galaxy-hub</a> to your
+            GitHub account, once. GitHub only takes uploads in a repository you can push to.
+          </li>
           <li class="space-y-2">
             <Button type="button" :disabled="problems.length > 0 || shrinking" :class="focusRing" @click="saveAll">
               <Download class="size-4" aria-hidden="true" />
@@ -1104,13 +1157,27 @@ const sizeText = (bytes: number) =>
               {{ uploadNames.join(', ') }} go to your downloads. Your browser may ask to allow several downloads. If it
               renames one (for example <code>index (1).md</code>), rename it back before uploading.
             </p>
-            <p v-if="saved" class="text-ok-fg" data-saved>
+            <p v-if="saveError" class="text-danger-fg" role="alert" data-save-error>{{ saveError }}</p>
+            <p v-else-if="saved" class="text-ok-fg" data-saved>
               {{ savedTo ? `Saved to the folder ${savedTo}.` : 'Saved.' }}
             </p>
           </li>
           <li class="space-y-2">
+            <label :for="ids.uploader" :class="labelClass">Your GitHub username</label>
+            <Input
+              :id="ids.uploader"
+              v-model="uploader"
+              autocomplete="username"
+              :aria-describedby="ids.uploaderHint"
+              :class="[inputClass, focusRing]"
+              @input="markUploaderTyped"
+            />
+            <p :id="ids.uploaderHint" class="text-fg-meta">
+              The upload page opens in your fork. If you can push to the Hub repository itself, type
+              <code>galaxyproject</code>.
+            </p>
             <Button
-              v-if="!problems.length"
+              v-if="!problems.length && uploaderValid"
               as="a"
               :href="uploadUrl"
               target="_blank"
@@ -1126,9 +1193,9 @@ const sizeText = (bytes: number) =>
             </p>
           </li>
           <li>
-            Drag all the saved files onto that page, then click <strong>Propose changes</strong> (or
-            <strong>Commit changes</strong>) and open the pull request. The checks on it tell you if anything needs
-            fixing. If GitHub first asks you to fork the repository, do that, then open the upload page again.
+            Drag all the saved files onto that page. Choose <strong>Create a new branch</strong>, click
+            <strong>Commit changes</strong>, then open the pull request to <code>galaxyproject/galaxy-hub</code>. The
+            checks on it tell you if anything needs fixing.
           </li>
         </ol>
       </div>

@@ -39,7 +39,13 @@ export async function optimizeImage(file: File): Promise<OptimizedImage | null> 
   const canvas = document.createElement('canvas');
   canvas.width = width;
   canvas.height = height;
-  canvas.getContext('2d')!.drawImage(bitmap, 0, 0, width, height);
+  // Null when the browser is out of canvas memory (iOS, very large photos): keep the original
+  const context = canvas.getContext('2d');
+  if (!context) {
+    bitmap.close();
+    return null;
+  }
+  context.drawImage(bitmap, 0, 0, width, height);
   bitmap.close();
   const blob = await new Promise<Blob | null>((resolve) => canvas.toBlob(resolve, type, QUALITY));
   // Keep the original unless the copy saves at least a tenth
@@ -61,7 +67,12 @@ export async function convertToJpeg(file: File): Promise<File | null> {
   const canvas = document.createElement('canvas');
   canvas.width = bitmap.width;
   canvas.height = bitmap.height;
-  canvas.getContext('2d')!.drawImage(bitmap, 0, 0);
+  const context = canvas.getContext('2d');
+  if (!context) {
+    bitmap.close();
+    return null;
+  }
+  context.drawImage(bitmap, 0, 0);
   bitmap.close();
   const blob = await new Promise<Blob | null>((resolve) => canvas.toBlob(resolve, 'image/jpeg', QUALITY));
   if (!blob) return null;
