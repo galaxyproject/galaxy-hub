@@ -158,6 +158,17 @@ test('post creator checks text with components like the MDX build does', async (
   await expect(await fileText(page)).toContainText('components: true');
 });
 
+test('post creator guesses the uploader from the first author of a news item only', async ({ page }) => {
+  await openCreator(page);
+  await page.getByLabel('Title (required)').fill('Photos');
+  await pick(page, 'Authors', 'first-time-author', 'Add “first-time-author” as new');
+  await page.locator('input[type="file"]').setInputFiles({ name: 'photo.png', mimeType: 'image/png', buffer: PNG });
+  await expect(page.getByLabel('Your GitHub username')).toHaveValue('first-time-author');
+  // An event's first organiser is often someone else: their fork is not the uploader's
+  await page.getByRole('button', { name: 'Event', exact: true }).click();
+  await expect(page.getByLabel('Your GitHub username')).toHaveValue('');
+});
+
 test('post creator adds images at the cursor and updates them in place', async ({ page }) => {
   // Downloads path: a browser without folder access (Firefox, Safari)
   await page.addInitScript(() => delete (window as { showDirectoryPicker?: unknown }).showDirectoryPicker);
@@ -182,7 +193,11 @@ test('post creator adds images at the cursor and updates them in place', async (
   await expect(page.locator('[data-upload-flow]')).toContainText('index.md, team-photo.png');
   // Uploads go to the author's fork: GitHub disables uploads without push access
   await expect(page.getByRole('button', { name: 'Open the upload page' })).toBeDisabled();
-  await page.getByLabel('Your GitHub username').fill('octocat');
+  await page.getByLabel('Your GitHub username').fill('octo cat');
+  await expect(page.locator('[data-uploader-error]')).toBeVisible();
+  // A copied @name works
+  await page.getByLabel('Your GitHub username').fill('@octocat');
+  await expect(page.locator('[data-uploader-error]')).toHaveCount(0);
   await expect(page.getByRole('link', { name: 'Open the upload page' })).toHaveAttribute(
     'href',
     /^https:\/\/github\.com\/octocat\/galaxy-hub\/upload\/main\/content\/news\/\d{4}\/\d{4}-\d{2}-\d{2}-photos$/

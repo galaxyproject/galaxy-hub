@@ -162,6 +162,7 @@ const ids = {
   contactHint: id('contact-hint'),
   uploader: id('uploader'),
   uploaderHint: id('uploader-hint'),
+  uploaderError: id('uploader-error'),
   main: id('main'),
   slug: id('slug'),
   body: id('body'),
@@ -424,21 +425,25 @@ onBeforeUnmount(() => {
 // Posts with files (or text too long for a link) go up through GitHub's upload page in one commit
 const useUpload = computed(() => media.value.length > 0 || !link.value.complete);
 // Whoever uploads works in their own fork (GitHub disables uploads without push access), so the
-// upload link needs their GitHub username; the first author is a good guess until they type one
+// upload link needs their GitHub username. The first author of a news item is a good guess until
+// they type one; an event's first organiser is not (often someone else, or an organisation)
 const uploader = ref('');
 let uploaderTyped = false;
 const markUploaderTyped = () => (uploaderTyped = true);
 watch(
-  () => form.authors[0],
+  () => (isEvent.value ? '' : form.authors[0]),
   (first) => {
-    if (!uploaderTyped && first && GITHUB_USERNAME.test(first)) uploader.value = first;
+    if (!uploaderTyped) uploader.value = first && GITHUB_USERNAME.test(first) ? first : '';
   },
   { immediate: true }
 );
-const uploaderValid = computed(() => GITHUB_USERNAME.test(uploader.value.trim()));
-const uploadUrl = computed(() => (uploaderValid.value ? uploadPageUrl(form, uploader.value.trim()) : ''));
+// People often copy their name as @name
+const uploaderName = computed(() => uploader.value.trim().replace(/^@/, ''));
+const uploaderValid = computed(() => GITHUB_USERNAME.test(uploaderName.value));
+const uploaderInvalid = computed(() => uploaderName.value !== '' && !uploaderValid.value);
+const uploadUrl = computed(() => (uploaderValid.value ? uploadPageUrl(form, uploaderName.value) : ''));
 const branch = computed(() => uploadBranch(form));
-const pullUrl = computed(() => (uploaderValid.value ? pullRequestUrl(form, uploader.value.trim()) : ''));
+const pullUrl = computed(() => (uploaderValid.value ? pullRequestUrl(form, uploaderName.value) : ''));
 const saved = ref(false);
 
 // Saving waits for the smaller copies, so what is saved is what the cards describe
@@ -1172,13 +1177,17 @@ const sizeText = (bytes: number) =>
               :id="ids.uploader"
               v-model="uploader"
               autocomplete="username"
-              :aria-describedby="ids.uploaderHint"
+              :aria-describedby="uploaderInvalid ? `${ids.uploaderError} ${ids.uploaderHint}` : ids.uploaderHint"
+              :aria-invalid="uploaderInvalid || undefined"
               :class="[inputClass, focusRing]"
               @input="markUploaderTyped"
             />
+            <p v-if="uploaderInvalid" :id="ids.uploaderError" class="text-danger-fg" data-uploader-error>
+              That is not a GitHub username: it has only letters, numbers and single hyphens.
+            </p>
             <p :id="ids.uploaderHint" class="text-fg-meta">
-              The upload page opens in your fork. If you can push to the Hub repository itself, type
-              <code>galaxyproject</code>.
+              The upload page opens in your fork; GitHub shows "page not found" until you have one (step 1). If you can
+              push to the Hub repository itself, type <code>galaxyproject</code>.
             </p>
             <Button
               v-if="!problems.length && uploaderValid"
