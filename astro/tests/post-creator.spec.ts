@@ -187,6 +187,12 @@ test('post creator adds images at the cursor and updates them in place', async (
     'href',
     /^https:\/\/github\.com\/octocat\/galaxy-hub\/upload\/main\/content\/news\/\d{4}\/\d{4}-\d{2}-\d{2}-photos$/
   );
+  // The pull request goes from the fork branch, named after the folder, to the Hub
+  await expect(page.locator('[data-upload-flow]')).toContainText(/name it \d{4}-\d{2}-\d{2}-photos/);
+  await expect(page.getByRole('link', { name: 'Open the pull request' })).toHaveAttribute(
+    'href',
+    /^https:\/\/github\.com\/galaxyproject\/galaxy-hub\/compare\/main\.\.\.octocat:galaxy-hub:\d{4}-\d{2}-\d{2}-photos\?expand=1$/
+  );
   // One upload: index.md and the image, under the names the text uses
   const downloads: { name: string; text: string }[] = [];
   page.on('download', async (d) =>

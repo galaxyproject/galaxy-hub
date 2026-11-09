@@ -47,6 +47,19 @@ export function uploadPageUrl(form: PostForm, owner: string): string {
   return `https://github.com/${encodeURIComponent(owner)}/galaxy-hub/upload/main/${folder.split('/').map(encodeURIComponent).join('/')}`;
 }
 
+/** Branch name the steps suggest for the upload: the post folder's name. */
+export function uploadBranch(form: PostForm): string {
+  return postPath(form).split('/').at(-2) ?? 'my-post';
+}
+
+/**
+ * The pull request page from the author's fork to the Hub. After an upload in a fork, GitHub
+ * offers a pull request inside the fork itself, so the steps link here instead.
+ */
+export function pullRequestUrl(form: PostForm, owner: string): string {
+  return `https://github.com/galaxyproject/galaxy-hub/compare/main...${encodeURIComponent(owner)}:galaxy-hub:${encodeURIComponent(uploadBranch(form))}?expand=1`;
+}
+
 /** A URL as a Markdown link target: brackets would end it early, so they are percent-encoded. */
 export function markdownUrl(url: string): string {
   return url.replace(/\(/g, '%28').replace(/\)/g, '%29').replace(/ /g, '%20');

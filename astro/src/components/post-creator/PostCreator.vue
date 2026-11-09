@@ -34,6 +34,8 @@ import {
   slugFromTitle,
   socialPost,
   uploadPageUrl,
+  uploadBranch,
+  pullRequestUrl,
   GITHUB_USERNAME,
   REPO_FORK_URL,
   PUBLISHED_TYPES,
@@ -435,6 +437,8 @@ watch(
 );
 const uploaderValid = computed(() => GITHUB_USERNAME.test(uploader.value.trim()));
 const uploadUrl = computed(() => (uploaderValid.value ? uploadPageUrl(form, uploader.value.trim()) : ''));
+const branch = computed(() => uploadBranch(form));
+const pullUrl = computed(() => (uploaderValid.value ? pullRequestUrl(form, uploader.value.trim()) : ''));
 const saved = ref(false);
 
 // Saving waits for the smaller copies, so what is saved is what the cards describe
@@ -1193,9 +1197,26 @@ const sizeText = (bytes: number) =>
             </p>
           </li>
           <li>
-            Drag all the saved files onto that page. Choose <strong>Create a new branch</strong>, click
-            <strong>Commit changes</strong>, then open the pull request to <code>galaxyproject/galaxy-hub</code>. The
-            checks on it tell you if anything needs fixing.
+            Drag all the saved files onto that page. Choose <strong>Create a new branch</strong>, name it
+            <code>{{ branch }}</code> and click <strong>Propose changes</strong>. The pull request page GitHub shows
+            next is for your fork: skip it.
+          </li>
+          <li class="space-y-2">
+            <Button
+              v-if="!problems.length && uploaderValid"
+              as="a"
+              :href="pullUrl"
+              target="_blank"
+              rel="noopener"
+              :class="focusRing"
+            >
+              Open the pull request
+            </Button>
+            <Button v-else disabled>Open the pull request</Button>
+            <p class="text-fg-meta">
+              It compares your branch with the Hub. Click <strong>Create pull request</strong>; the checks on it tell
+              you if anything needs fixing.
+            </p>
           </li>
         </ol>
       </div>

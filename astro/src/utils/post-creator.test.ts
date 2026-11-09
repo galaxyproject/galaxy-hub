@@ -23,6 +23,8 @@ import {
   socialPost,
   uploadPageUrl,
   markdownUrl,
+  pullRequestUrl,
+  uploadBranch,
   usesComponents,
   type PostForm,
 } from './post-creator';
@@ -313,6 +315,13 @@ describe('rules shared with the build and CI', () => {
   it("links to the upload page for the post folder in the uploader's fork", () => {
     expect(uploadPageUrl(form(), 'octocat')).toBe(
       'https://github.com/octocat/galaxy-hub/upload/main/content/news/2026/2026-11-05-galaxy-new-release'
+    );
+  });
+
+  it('links the pull request from the fork branch to the Hub', () => {
+    expect(uploadBranch(form())).toBe('2026-11-05-galaxy-new-release');
+    expect(pullRequestUrl(form(), 'octocat')).toBe(
+      'https://github.com/galaxyproject/galaxy-hub/compare/main...octocat:galaxy-hub:2026-11-05-galaxy-new-release?expand=1'
     );
   });
 
