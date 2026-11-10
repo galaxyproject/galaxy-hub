@@ -1,6 +1,6 @@
 ---
 title: "AI4SOCIAL+ Kickoff"
-date: "2026-10-01"
+date: "2026-11-10"
 tease: "AI4SOCIAL+ project in person kickoff in Barcelona on November 10, 2026"
 subsites: [global,eu,freiburg]
 main_subsite: freiburg
