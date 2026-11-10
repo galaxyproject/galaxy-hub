@@ -2,7 +2,7 @@
 title: "Announcing a shared Hugging Face data table for Galaxy"
 date: "2026-04-13"
 tease: "Galaxy is standardising a shared data table for pre-downloaded Hugging Face models so tool authors and admins can coordinate without duplicated effort."
-tags: [tools, admin, ai]
+tags: [tools, admin, ai, interoperability]
 subsites: [all]
 contributions:
   authorship:
