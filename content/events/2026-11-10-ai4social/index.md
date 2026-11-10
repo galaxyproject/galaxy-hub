@@ -21,5 +21,6 @@ transformation in the Humanities and Social Sciences.
 
 Following the project's [online kick off in October](https://galaxyproject.org/news/2026-10-01-ai4social/),  we met in the Barcelona Super-computing Center in Barcelona to meet up with all project partners in person.
 The morning mostly contained input from various partners about standards, repositories and synergies, including a panel on workflows and an introduction to Galaxy.
-The afternoon focused on interactive exchange on the topics of defining AI readiness and mapping tools and use-cases within the project. 
+The afternoon focused on exchange of insights. We collected what **AI readiness** means to the different parties involved to set the tone for future discussions by the various streams and start to define AI readiness within the project.
+Afterwards,
 Finished off with the social dinner, we had a full and very rich day with loads of insights to properly set us up for a successful continuation of the project.
