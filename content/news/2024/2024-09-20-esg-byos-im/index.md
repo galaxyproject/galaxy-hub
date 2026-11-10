@@ -3,7 +3,7 @@ title: "Bring Your Own Storage with Galaxy"
 date: "2024-09-20"
 tease: "Connect Galaxy with external storage resources easily"
 hide_tease: false
-tags: [esg-wp4, esg]
+tags: [esg-wp4, esg, interoperability]
 subsites: [all-eu, esg, global]
 main_subsite: eu
 contributions:
