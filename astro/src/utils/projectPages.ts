@@ -5,6 +5,7 @@
 import { getEntry, type CollectionEntry } from 'astro:content';
 import { getInsert, getListedCollection } from './content';
 import { isPastEvent } from './dateUtils';
+import { publishedNews } from './newsList';
 import { parseProjectFacts, type ProjectFacts } from './projectFacts';
 import { matchesProjectSource, parseProjectSource, type ProjectSource } from './projectSource';
 import { pageIndexItems, sortProjectIndex, type ProjectIndexItem } from './projectIndex';
@@ -52,10 +53,10 @@ export async function getProject(id: string): Promise<Project> {
   };
 }
 
-/** Listed news of the project, newest first. */
-export async function getProjectNews(source: ProjectSource) {
+/** Listed news of the project that is out by `now` (future-dated posts hidden, as on /news/), newest first. */
+export async function getProjectNews(source: ProjectSource, now: Date = new Date()) {
   const news = await getListedCollection('news', (entry) => matchesProjectSource(entry.data, source));
-  return news.sort((a, b) => newestFirst(a.data.date, b.data.date));
+  return publishedNews(news, now).sort((a, b) => newestFirst(a.data.date, b.data.date));
 }
 
 /** Listed events of the project, newest first; `pastOnly` for a project that has ended. */

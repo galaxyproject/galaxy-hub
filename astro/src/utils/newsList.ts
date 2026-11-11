@@ -2,6 +2,7 @@
  * Plain objects for the NewsList island, shared by /news/, the regional news pages and every project
  * news page, so each list gets the same teaser HTML and tile image.
  */
+import { isPublishedDate } from './dateUtils';
 import { listImage } from './listImage';
 import { renderMarkdownInline } from './markdown';
 
@@ -62,4 +63,14 @@ export function newsListItems(
     externalUrl: data.external_url,
     image: listImage(data.image, body, acceptImage),
   }));
+}
+
+type Dated = { data: { date?: Date | string | null } };
+
+/**
+ * News that is out by `now`: future-dated posts stay hidden until a rebuild on or after their date.
+ * Every news listing uses it (/news/, regional and project news).
+ */
+export function publishedNews<T extends Dated>(entries: T[], now = new Date()): T[] {
+  return entries.filter((entry) => isPublishedDate(entry.data.date ?? undefined, now));
 }
