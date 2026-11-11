@@ -19,7 +19,7 @@ import { getInsert } from '../../../utils/content';
 import { countLabel } from '../../../utils/projectFacts';
 import { getProject, getProjectEvents, getProjectNews } from '../../../utils/projectPages';
 
-const project = await getProject('esg', 'partners');
+const project = await getProject('esg');
 const { Content: Summary, headings: summaryHeadings } = await render(project.entry);
 const fundingSlug = 'projects/esg/funding_notice';
 const hasFunding = Boolean(await getInsert(fundingSlug));
@@ -30,7 +30,7 @@ const Impact = impact ? (await render(impact)).Content : null;
 // Load ESG data from datasets collection (content/projects/esg/*.yml, keyed by file name)
 const objectives = (await getEntry('datasets', 'objectives'))?.data;
 const expectedResults = (await getEntry('datasets', 'expected_results'))?.data;
-const partners = (await getEntry('datasets', 'partners'))?.data;
+const partners = project.partners as { partners?: any[] } | undefined;
 const externalLinks = (await getEntry('datasets', 'external_links'))?.data;
 
 const esgNews = await getProjectNews(project.source);

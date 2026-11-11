@@ -1,0 +1,38 @@
+---
+/**
+ * ESG4Stars news: listed news tagged esg4stars, in the shared news list (search, year and tag filters).
+ */
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import ProjectPageTop from '../../../components/projects/ProjectPageTop.astro';
+import ProjectFunding from '../../../components/projects/ProjectFunding.astro';
+import NewsList from '../../../components/news/NewsList.vue';
+import { getInsert } from '../../../utils/content';
+import { newsListItems } from '../../../utils/newsList';
+import { servedImageCheck } from '../../../utils/publicImage';
+import { getProject, getProjectNews } from '../../../utils/projectPages';
+
+const project = await getProject('esg4stars');
+const intro = (await getInsert('projects/esg4stars/news'))?.data as { description?: string } | undefined;
+const news = await getProjectNews(project.source);
+const newsHref = '/projects/esg4stars/news/';
+
+// Plain objects for the Vue island, mapped like /news/ (teaser HTML, tile image); no initialSubsite,
+// so the list shows every article passed in.
+const articleData = newsListItems(news, servedImageCheck());
+---
+
+<BaseLayout title={`News | ${project.name}`} description={intro?.description ?? `News from ${project.name}`}>
+  <div class="max-w-6xl mx-auto bg-white rounded-lg shadow-sm p-4 sm:p-6 lg:p-8">
+    <ProjectPageTop
+      projectId={project.id}
+      name={project.name}
+      description={project.description}
+      facts={project.facts}
+      counts={{ [newsHref]: news.length }}
+      title={`${project.name} News`}
+      lead={intro?.description}
+    />
+    <NewsList client:load articles={articleData} path={Astro.url.pathname} />
+    <ProjectFunding slug="projects/esg4stars/funding_notice" class="mt-10" />
+  </div>
+</BaseLayout>

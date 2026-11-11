@@ -1,0 +1,337 @@
+---
+/**
+ * ESG4Stars project overview, built from the shared project components like the ESG overview.
+ * Facts come from content/projects/esg4stars/main.md, sections from its esg4stars-* datasets,
+ * news and events from the esg4stars tag.
+ */
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import ProjectPageTop from '../../../components/projects/ProjectPageTop.astro';
+import ProjectEndedNotice from '../../../components/projects/ProjectEndedNotice.astro';
+import ProjectFactsBox from '../../../components/projects/ProjectFactsBox.astro';
+import ProjectFunding from '../../../components/projects/ProjectFunding.astro';
+import ProjectColumns from '../../../components/projects/ProjectColumns.astro';
+import ProjectSection from '../../../components/projects/ProjectSection.astro';
+import ProjectRows from '../../../components/projects/ProjectRows.astro';
+import TableOfContents from '../../../components/layout/TableOfContents.astro';
+import { getEntry, render } from 'astro:content';
+import { getInsert } from '../../../utils/content';
+import { isPastEvent } from '../../../utils/dateUtils';
+import { countLabel } from '../../../utils/projectFacts';
+import { getProject, getProjectEvents, getProjectNews } from '../../../utils/projectPages';
+
+interface Pillar {
+  name: string;
+  content: string;
+}
+
+interface Stream {
+  name?: string;
+  work_packages: string;
+  content: string;
+}
+
+interface Partner {
+  short_name?: string;
+  name: string;
+  country: string;
+  note?: string;
+}
+
+const project = await getProject('esg4stars');
+const { Content: Summary, headings: summaryHeadings } = await render(project.entry);
+const fundingSlug = 'projects/esg4stars/funding_notice';
+const hasFunding = Boolean(await getInsert(fundingSlug));
+
+// Datasets are keyed by file name across content/, hence the esg4stars- prefix
+const pillars = (await getEntry('datasets', 'esg4stars-pillars'))?.data as
+  { heading?: string; pillars?: Pillar[] } | undefined;
+const streams = (await getEntry('datasets', 'esg4stars-streams'))?.data as
+  { heading?: string; streams?: Stream[] } | undefined;
+const partners = project.partners as { heading?: string; partners?: Partner[] } | undefined;
+
+const news = await getProjectNews(project.source);
+const events = await getProjectEvents(project.source);
+const now = new Date();
+
+const newsHref = '/projects/esg4stars/news/';
+const eventsHref = '/projects/esg4stars/events/';
+const pillarsTitle = pillars?.heading || 'Five pillars';
+const streamsTitle = streams?.heading || 'Project architecture';
+const partnersTitle = partners?.heading || 'Project Partners';
+
+function sentence(text: string): string {
+  return text.charAt(0).toUpperCase() + text.slice(1);
+}
+
+const headings = [
+  ...summaryHeadings.filter((heading) => heading.depth === 2),
+  pillars?.pillars && { depth: 2, slug: 'pillars', text: pillarsTitle },
+  streams?.streams && { depth: 2, slug: 'architecture', text: streamsTitle },
+  { depth: 2, slug: 'news', text: 'News' },
+  { depth: 2, slug: 'events', text: 'Events' },
+  partners?.partners && { depth: 2, slug: 'partners', text: partnersTitle },
+  hasFunding && { depth: 2, slug: 'funding', text: 'Funding' },
+].filter((heading): heading is { depth: number; slug: string; text: string } => Boolean(heading));
+---
+
+<BaseLayout title={project.name} description={project.description}>
+  <div class="max-w-6xl mx-auto bg-white rounded-lg shadow-sm p-4 sm:p-6 lg:p-8">
+    <ProjectPageTop
+      projectId={project.id}
+      name={project.name}
+      description={project.description}
+      facts={project.facts}
+      counts={{ [newsHref]: news.length }}
+    />
+
+    <ProjectColumns>
+      <Fragment slot="lead">
+        <ProjectEndedNotice name={project.name} facts={project.facts} />
+        <ProjectFactsBox
+          class="lg:hidden mb-6"
+          idPrefix="facts-inline"
+          facts={project.facts}
+          partnerCount={project.partnerCount}
+        />
+      </Fragment>
+
+      <Fragment slot="rail">
+        <ProjectFactsBox
+          class="project-facts--rail mb-6"
+          idPrefix="facts-rail"
+          facts={project.facts}
+          partnerCount={project.partnerCount}
+        />
+        <TableOfContents headings={headings} />
+      </Fragment>
+
+      <div class="prose prose-galaxy max-w-none">
+        <Summary />
+      </div>
+
+      {pillars?.pillars && <ProjectSection id="pillars" title={pillarsTitle}>
+        <ul class="e4s-pillars">
+          {pillars.pillars.map((pillar, index) => <li data-pillar={index + 1}>
+            <h3>{pillar.name}</h3>
+            <p>{pillar.content}</p>
+          </li>)}
+        </ul>
+      </ProjectSection>}
+
+      {streams?.streams && <ProjectSection id="architecture" title={streamsTitle}>
+        <ul class="e4s-streams">
+          {streams.streams.map((stream) => <li>
+            <h3>
+              {stream.name && <span class="e4s-streams__name">{stream.name}</span>}
+              <span class="e4s-streams__wp">{stream.work_packages}</span>
+            </h3>
+            <p>{sentence(stream.content)}</p>
+          </li>)}
+        </ul>
+      </ProjectSection>}
+
+      <ProjectSection
+        id="news"
+        title="News"
+        more={{ href: newsHref, label: `All ${news.length} news`, context: `from ${project.name}` }}
+      >
+        {news.length > 0 ? (
+          <ProjectRows
+            kind="news"
+            items={news.slice(0, 6).map((item) => ({
+              href: `/${item.data.slug}/`,
+              title: item.data.title,
+              tease: item.data.tease,
+              start: item.data.date,
+            }))}
+          />
+        ) : (
+          <p class="text-chicago-700 text-sm">No news articles yet.</p>
+        )}
+      </ProjectSection>
+
+      <ProjectSection
+        id="events"
+        title="Events"
+        more={{ href: eventsHref, label: 'All events', context: `of ${project.name}` }}
+      >
+        {events.length > 0 ? (
+          <ProjectRows
+            kind="events"
+            items={events.slice(0, 5).map((event) => ({
+              href: `/${event.data.slug}/`,
+              title: event.data.title,
+              tease: event.data.tease,
+              start: event.data.date,
+              end: event.data.end,
+              past: isPastEvent(event.data.date, event.data.end, now),
+            }))}
+          />
+        ) : (
+          <p class="text-chicago-700 text-sm">No events yet.</p>
+        )}
+      </ProjectSection>
+
+      {partners?.partners && <ProjectSection
+        id="partners"
+        title={partnersTitle}
+        count={countLabel(project.partnerCount, 'organisation')}
+      >
+        <table class="e4s-partners">
+          <thead>
+            <tr>
+              <th scope="col">No.</th>
+              <th scope="col">Organisation</th>
+              <th scope="col">Country</th>
+            </tr>
+          </thead>
+          <tbody>
+            {partners.partners.map((partner, index) => <tr>
+              <td>{index + 1}</td>
+              <td>
+                <span class="e4s-partners__label">{partner.short_name || partner.name}</span>
+                {partner.short_name && <span class="e4s-partners__name">{partner.name}</span>}
+                {partner.note && <span class="e4s-partners__note">{partner.note}</span>}
+              </td>
+              <td>{partner.country}</td>
+            </tr>)}
+          </tbody>
+        </table>
+      </ProjectSection>}
+
+      <ProjectFunding slug={fundingSlug} class="mt-10" />
+    </ProjectColumns>
+  </div>
+</BaseLayout>
+
+<style>
+  .e4s-pillars,
+  .e4s-streams {
+    display: grid;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  /* The five pillars run from red (track) to green (drive change), as in the project's graphic */
+  .e4s-pillars li {
+    display: grid;
+    gap: 2px 16px;
+    padding: 10px 14px;
+    border: 1px solid var(--color-chicago-100);
+    border-left: 6px solid var(--pillar-color);
+    border-radius: 0.5rem;
+  }
+
+  @media (min-width: 640px) {
+    .e4s-pillars li {
+      grid-template-columns: 10rem 1fr;
+      align-items: baseline;
+    }
+  }
+
+  .e4s-pillars li[data-pillar='1'] {
+    --pillar-color: #e5412d;
+  }
+
+  .e4s-pillars li[data-pillar='2'] {
+    --pillar-color: #f08a24;
+  }
+
+  .e4s-pillars li[data-pillar='3'] {
+    --pillar-color: #f2c12e;
+  }
+
+  .e4s-pillars li[data-pillar='4'] {
+    --pillar-color: #a5c43a;
+  }
+
+  .e4s-pillars li[data-pillar='5'] {
+    --pillar-color: #5c9e3d;
+  }
+
+  .e4s-pillars h3,
+  .e4s-streams h3 {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 700;
+    color: var(--color-galaxy-dark);
+  }
+
+  .e4s-pillars p,
+  .e4s-streams p {
+    margin: 0;
+    color: var(--color-chicago-900);
+  }
+
+  .e4s-streams li {
+    padding: 12px 16px;
+    border: 1px solid var(--color-chicago-100);
+    border-radius: 0.5rem;
+  }
+
+  .e4s-streams h3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 4px 10px;
+    margin-bottom: 2px;
+  }
+
+  .e4s-streams__wp {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--color-galaxy-grey);
+  }
+
+  .e4s-streams p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .e4s-partners {
+    width: 100%;
+    margin-top: 8px;
+    border-collapse: collapse;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .e4s-partners th {
+    padding: 8px 10px;
+    border-bottom: 1px solid var(--color-chicago-200);
+    text-align: left;
+    font-weight: 700;
+    color: var(--color-galaxy-grey);
+  }
+
+  .e4s-partners td {
+    padding: 8px 10px;
+    border-bottom: 1px solid var(--color-chicago-100);
+    vertical-align: top;
+    color: var(--color-chicago-900);
+    overflow-wrap: anywhere;
+  }
+
+  .e4s-partners td:first-child,
+  .e4s-partners td:last-child {
+    width: 1%;
+    white-space: nowrap;
+    color: var(--color-galaxy-grey);
+  }
+
+  /* Short name in bold, or the legal name when the partner has no short name */
+  .e4s-partners__label {
+    display: block;
+    font-weight: 700;
+    color: var(--color-galaxy-dark);
+  }
+
+  .e4s-partners__note {
+    display: block;
+    font-size: 0.75rem;
+    color: var(--color-galaxy-grey);
+  }
+</style>

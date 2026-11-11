@@ -9,16 +9,21 @@ import { AxeBuilder } from '@axe-core/playwright';
 // and events listings open a past year that sits in the "Older years" select (?year=2020), so their
 // items stay the same (the recent-year chips and their counts still change); the US citations list
 // opens the same year.
-// Regions that list the latest news, upcoming events or the ESG overview's news and past events are
-// excluded, and each must match exactly `count` elements, so a renamed hook fails instead of letting
-// live content back into the scan. News teasers, tags and dates are covered on the news year view,
-// past event items on the events year view. On that view the year filter also empties the upcoming
-// list, so its region is the "No upcoming events" notice; upcoming event cards and the item lists on
-// the home page, bare feed cards, embed overview and ESG overview are not scanned; the rest of those
-// pages is. The ESG news page opens a fixed past year like /news/. The ESG past events page is
-// scanned whole: the project has ended, so its list (ProjectRows) changes only when an ESG event
-// is edited or added.
-// Edits to a scanned page or its inserts, and new platforms on /use/, are still checked on purpose.
+// Regions that list the latest news, upcoming events or the news and events of a project overview
+// (ESG, ESG4Stars) are excluded, and each must match exactly `count` elements, so a renamed hook fails
+// instead of letting live content back into the scan. News teasers, tags and dates are covered on the
+// news year view, past event items on the events year view. On that view the year filter also empties
+// the upcoming list, so its region is the "No upcoming events" notice; upcoming event cards and the
+// item lists on the home page, bare feed cards, embed overview and project overviews are not scanned;
+// the rest of those pages is. The ESG news page opens a fixed past year like /news/. The ESG past
+// events page is scanned whole: the project has ended, so its list (ProjectRows) changes only when an
+// ESG event is edited or added. The ESG4Stars news and events pages are not scanned: the project runs,
+// so both lists change with each new post or event and as dates pass. They use the same NewsList and
+// ProjectRows as the ESG pages; the unmuted date line of upcoming rows (galaxy-dark) is darker than the
+// muted one scanned on the ESG past events page. The projects index (/projects/) is scanned whole: its
+// cards come from content/projects/, not from news or events.
+// Edits to a scanned page or its inserts, and new platforms on /use/ or /projects/, are still checked
+// on purpose.
 const fixedYear = 2020;
 // ESG news started in 2022; 2023 is a full past year of the project
 const esgNewsYear = 2023;
@@ -56,6 +61,11 @@ const pages: ScanTarget[] = [
     ready: (page) => page.getByText(new RegExp(`^\\s*\\d+ articles?\\s+in ${esgNewsYear}\\s*$`)),
   },
   { path: '/projects/esg/events/' }, // project section page; scans the ProjectRows past event list
+  { path: '/projects/' }, // projects index (cards from content/projects/)
+  {
+    path: '/projects/esg4stars/', // second project page from the shared components (pillars, partner table)
+    exclude: [{ name: 'news and events lists', count: 2, locate: css('[data-project-list]') }],
+  },
   { path: '/use/usegalaxy-eu/' }, // PlatformLayout
   {
     path: '/embed/eu/', // EmbedLayout

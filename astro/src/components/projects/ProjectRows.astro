@@ -12,6 +12,8 @@ export interface ProjectRow {
   tease?: string | null;
   start?: Date | string | null;
   end?: Date | string | null;
+  /** Muted date line for an event that is over; event rows default to past. */
+  past?: boolean;
 }
 
 interface Props {
@@ -33,7 +35,7 @@ function isoDay(value: Date | string | null | undefined): string | undefined {
     <h3><a href={item.href}>{item.title}</a></h3>
     <p class="project-rows__meta">
       {kind === 'events' ? (
-        <EventDate start={item.start} end={item.end} past />
+        <EventDate start={item.start} end={item.end} past={item.past ?? true} />
       ) : (
         <time datetime={isoDay(item.start)}>{formatDate(item.start, false)}</time>
       )}

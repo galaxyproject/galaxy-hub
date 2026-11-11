@@ -56,6 +56,18 @@ const PROJECT_CONTEXTS: (SiteContext & { links: { label: string; href: string }[
       { label: 'Past events', href: '/projects/esg/events/' },
     ],
   },
+  {
+    id: 'esg4stars',
+    kind: 'project',
+    name: 'ESG4Stars',
+    shortName: 'ESG4Stars',
+    href: '/projects/esg4stars/',
+    links: [
+      { label: 'Overview', href: '/projects/esg4stars/' },
+      { label: 'News', href: '/projects/esg4stars/news/' },
+      { label: 'Events', href: '/projects/esg4stars/events/' },
+    ],
+  },
 ];
 
 /** The URL decides the context; nothing is remembered between pages. */
@@ -81,6 +93,11 @@ export function contextFromPath(path: string): SiteContext {
 /** Section links of a project context (empty for regions and global). */
 export function projectLinks(contextId: string): { label: string; href: string }[] {
   return PROJECT_CONTEXTS.find((entry) => entry.id === contextId)?.links ?? [];
+}
+
+/** Ids of the projects with their own section under /projects/<id>/. */
+export function projectContextIds(): string[] {
+  return PROJECT_CONTEXTS.map((entry) => entry.id);
 }
 
 /** The sidebar persists across navigation only while the context stays the same. */

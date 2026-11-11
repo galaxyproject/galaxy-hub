@@ -7,6 +7,8 @@ import { getInsert, getListedCollection } from './content';
 import { isPastEvent } from './dateUtils';
 import { parseProjectFacts, type ProjectFacts } from './projectFacts';
 import { matchesProjectSource, parseProjectSource, type ProjectSource } from './projectSource';
+import { pageIndexItems, sortProjectIndex, type ProjectIndexItem } from './projectIndex';
+import { projectContextIds } from './siteContext';
 
 export interface Project {
   id: string;
@@ -16,6 +18,8 @@ export interface Project {
   description: string;
   facts: ProjectFacts;
   source: ProjectSource;
+  /** The partners dataset named by `partners_dataset` in main.md (its `partners` list and optional `heading`). */
+  partners?: { heading?: string; partners?: unknown[] };
   partnerCount: number;
 }
 
@@ -24,16 +28,18 @@ function newestFirst(a?: Date | string | null, b?: Date | string | null): number
 }
 
 /**
- * @param partnersDataset Dataset with the project's `partners` list. Datasets are keyed by file name
- * across all of content/, so a project's YAML files need names no other project uses.
+ * A project's facts, news source and partner list, all named in its main.md. `partners_dataset` is the
+ * file name of its partner YAML: datasets are keyed by file name across all of content/.
  */
-export async function getProject(id: string, partnersDataset = `${id}-partners`): Promise<Project> {
+export async function getProject(id: string): Promise<Project> {
   const main = await getInsert(`projects/${id}/main`);
   if (!main) throw new Error(`content/projects/${id}/main.md is missing`);
   const data = main.data as Record<string, unknown>;
   const source = parseProjectSource(data.feed);
   if (!source) throw new Error(`content/projects/${id}/main.md needs feed.subsite or feed.tag`);
-  const partners = (await getEntry('datasets', partnersDataset))?.data?.partners;
+  const partnersDataset = typeof data.partners_dataset === 'string' ? data.partners_dataset.trim() : '';
+  const partners = partnersDataset ? (await getEntry('datasets', partnersDataset))?.data : undefined;
+  if (partnersDataset && !partners) throw new Error(`content/projects/${id}/main.md: no dataset ${partnersDataset}`);
   return {
     id,
     entry: main,
@@ -41,7 +47,8 @@ export async function getProject(id: string, partnersDataset = `${id}-partners`)
     description: typeof data.description === 'string' ? data.description : '',
     facts: parseProjectFacts(data),
     source,
-    partnerCount: Array.isArray(partners) ? partners.length : 0,
+    partners,
+    partnerCount: Array.isArray(partners?.partners) ? partners.partners.length : 0,
   };
 }
 
@@ -59,4 +66,25 @@ export async function getProjectEvents(source: ProjectSource, { pastOnly = false
       matchesProjectSource(entry.data, source) && (!pastOnly || isPastEvent(entry.data.date, entry.data.end, now))
   );
   return events.sort((a, b) => newestFirst(a.data.date, b.data.date));
+}
+
+/** Entries of /projects/: project sections with their facts, then the other top-level project pages. */
+export async function getProjectIndex(now: Date = new Date()): Promise<ProjectIndexItem[]> {
+  const sections = await Promise.all(
+    projectContextIds().map(async (id): Promise<ProjectIndexItem> => {
+      const project = await getProject(id);
+      return {
+        id,
+        title: project.name,
+        ...(project.description && { description: project.description }),
+        href: `/projects/${id}/`,
+        external: false,
+        facts: project.facts,
+      };
+    })
+  );
+  const sectionIds = new Set(sections.map((item) => item.id));
+  const pages = await getListedCollection('articles', (entry) => entry.data.slug.startsWith('projects/'));
+  const others = pageIndexItems(pages.map((entry) => entry.data)).filter((item) => !sectionIds.has(item.id));
+  return sortProjectIndex([...sections, ...others], now);
 }

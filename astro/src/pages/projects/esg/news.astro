@@ -7,24 +7,18 @@ import ProjectPageTop from '../../../components/projects/ProjectPageTop.astro';
 import ProjectFunding from '../../../components/projects/ProjectFunding.astro';
 import NewsList from '../../../components/news/NewsList.vue';
 import { getInsert } from '../../../utils/content';
+import { newsListItems } from '../../../utils/newsList';
+import { servedImageCheck } from '../../../utils/publicImage';
 import { getProject, getProjectNews } from '../../../utils/projectPages';
 
-const project = await getProject('esg', 'partners');
+const project = await getProject('esg');
 const intro = (await getInsert('projects/esg/news'))?.data as { description?: string } | undefined;
 const esgNews = await getProjectNews(project.source);
 const newsHref = '/projects/esg/news/';
 
-// Plain objects for the Vue island. No initialSubsite: /projects/ URLs resolve to the global subsite,
-// so the list shows every article passed in (all of them tagged esg).
-const articleData = esgNews.map((a) => ({
-  slug: a.data.slug,
-  title: a.data.title || 'Untitled',
-  date: a.data.date instanceof Date ? a.data.date.toISOString() : a.data.date,
-  tease: a.data.tease,
-  tags: Array.isArray(a.data.tags) ? a.data.tags : a.data.tags ? [a.data.tags] : [],
-  subsites: a.data.subsites,
-  externalUrl: a.data.external_url,
-}));
+// Plain objects for the Vue island, mapped like /news/ (teaser HTML, tile image). No initialSubsite:
+// /projects/ URLs resolve to the global subsite, so the list shows every article passed in.
+const articleData = newsListItems(esgNews, servedImageCheck());
 ---
 
 <BaseLayout title={`News | ${project.name}`} description={intro?.description ?? `News from ${project.name}`}>

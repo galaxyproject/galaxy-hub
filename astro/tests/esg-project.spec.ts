@@ -55,6 +55,7 @@ test.describe('ESG project pages', () => {
       const crumbs = page.getByRole('navigation', { name: 'Breadcrumb' });
       await expect(crumbs.locator('ol > li')).toHaveCount(path === '/projects/esg/' ? 3 : 4);
       await expect(crumbs.getByRole('link', { name: 'Galaxy Project' })).toHaveAttribute('href', '/');
+      await expect(crumbs.getByRole('link', { name: 'Projects' })).toHaveAttribute('href', '/projects/');
       await expect(crumbs.locator('[aria-current="page"]')).toHaveText(crumb);
       await expect(crumbs.locator('[aria-current="page"]')).not.toHaveAttribute('href');
 
@@ -152,7 +153,7 @@ test.describe('ESG project pages', () => {
 
   for (const { path, parent, href } of [
     { path: '/projects/esg/news/', parent: 'EuroScienceGateway', href: '/projects/esg/' },
-    { path: '/projects/esg/', parent: 'Galaxy Project', href: '/' },
+    { path: '/projects/esg/', parent: 'Projects', href: '/projects/' },
   ]) {
     test(`${path} breadcrumbs collapse to a back link on phones`, async ({ page }) => {
       await page.setViewportSize({ width: 390, height: 844 });
