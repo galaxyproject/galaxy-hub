@@ -56,6 +56,11 @@ test.describe('Projects index', () => {
     await expect(esg4stars).toContainText('Oct 2026 – Sep 2029');
     const esg = cards.filter({ has: page.getByRole('link', { name: 'EuroScienceGateway' }) });
     await expect(esg.locator('[data-project-status="ended"]')).toHaveText('Ended · Aug 2025');
+    // The heading leads each card, in the reading order and on screen; status and dates follow it
+    await expect(esg4stars.locator(':scope > *').first()).toHaveJSProperty('tagName', 'H3');
+    const title = (await esg4stars.locator('h3').boundingBox())!;
+    const meta = (await esg4stars.locator('.project-card__meta').boundingBox())!;
+    expect(meta.y).toBeGreaterThanOrEqual(title.y + title.height - 1);
 
     // External site: new tab, named as such
     const brc = list.getByRole('link', { name: /BRC Analytics/ });

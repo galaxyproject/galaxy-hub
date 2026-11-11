@@ -46,13 +46,6 @@ const count = externalCount > 0 ? `${onHub}, ${countLabel(externalCount, 'extern
           <h2 class="project-group__title">{group.title}</h2>
           <ul class="project-cards">
             {group.items.map((project) => <li class="project-card">
-              {(project.badge || project.dates || project.host) && <p class="project-card__meta">
-                {project.badge && <span class="project-card__badge" data-project-status={project.status}>
-                  {project.badge}
-                </span>}
-                {project.dates && <span>{project.dates}</span>}
-                {project.host && <span>External site · {project.host}</span>}
-              </p>}
               <h3 class="project-card__title">
                 {project.external ? (
                   <a class="project-card__link" href={project.href} target="_blank" rel="noopener noreferrer">
@@ -64,6 +57,13 @@ const count = externalCount > 0 ? `${onHub}, ${countLabel(externalCount, 'extern
                   <a class="project-card__link" href={project.href}>{project.title}</a>
                 )}
               </h3>
+              {(project.badge || project.dates || project.host) && <p class="project-card__meta">
+                {project.badge && <span class="project-card__badge" data-project-status={project.status}>
+                  {project.badge}
+                </span>}
+                {project.dates && <span>{project.dates}</span>}
+                {project.host && <span>External site · {project.host}</span>}
+              </p>}
               {project.description && <p class="project-card__desc">{project.description}</p>}
             </li>)}
           </ul>
