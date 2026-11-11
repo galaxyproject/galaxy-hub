@@ -189,8 +189,8 @@ const headings = [
             {partners.partners.map((partner, index) => <tr>
               <td>{index + 1}</td>
               <td>
-                {partner.short_name && <span class="e4s-partners__short">{partner.short_name}</span>}
-                <span class="e4s-partners__name">{partner.name}</span>
+                <span class="e4s-partners__label">{partner.short_name || partner.name}</span>
+                {partner.short_name && <span class="e4s-partners__name">{partner.name}</span>}
                 {partner.note && <span class="e4s-partners__note">{partner.note}</span>}
               </td>
               <td>{partner.country}</td>
@@ -322,7 +322,8 @@ const headings = [
     color: var(--color-galaxy-grey);
   }
 
-  .e4s-partners__short {
+  /* Short name in bold, or the legal name when the partner has no short name */
+  .e4s-partners__label {
     display: block;
     font-weight: 700;
     color: var(--color-galaxy-dark);

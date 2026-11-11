@@ -70,6 +70,17 @@ test.describe('ESG4Stars project pages', () => {
     await expect(rows).toHaveCount(13);
     await expect(box.getByRole('link', { name: '13 organisations' })).toHaveAttribute('href', '#partners');
     await expect(rows.nth(6)).toContainText('Affiliated entity of partner 6');
+    // Every partner leads with a bold name: the short name, or the legal name when there is none
+    for (const [index, label] of [
+      [0, 'UFR'],
+      [4, 'Sci-Scale'],
+      [5, 'EURO-BIOIMAGING ERIC'],
+    ] as const) {
+      const lead = rows.nth(index).locator('td').nth(1).locator('span').first();
+      await expect(lead).toHaveText(label);
+      await expect(lead).toHaveCSS('font-weight', '700');
+    }
+    await expect(rows.nth(4).locator('td').nth(1)).toHaveText('Sci-Scale');
   });
 
   test('the overview lists the five pillars as text', async ({ page }) => {
