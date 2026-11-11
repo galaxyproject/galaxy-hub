@@ -118,6 +118,24 @@ test.describe('ESG4Stars project pages', () => {
     for (const name of events) await expect(page.getByRole('link', { name })).toBeVisible();
   });
 
+  test('the events page groups upcoming events (soonest first) before past ones (newest first)', async ({ page }) => {
+    // The project runs until September 2029, so both groups are there; their contents move with the dates
+    await page.goto('/projects/esg4stars/events/');
+    const main = page.locator('#main-content');
+    await expect(main.getByRole('heading', { level: 2, name: /events$/ })).toHaveText(['Upcoming events', 'Past events']);
+    for (const [name, order] of [
+      ['Upcoming events', 1],
+      ['Past events', -1],
+    ] as const) {
+      const starts = await page
+        .getByRole('region', { name })
+        .locator('[data-project-list] > li')
+        .evaluateAll((els) => els.map((el) => el.querySelector('time')?.getAttribute('datetime') ?? ''));
+      const sorted = [...starts].sort((a, b) => order * a.localeCompare(b));
+      expect(starts, name).toEqual(sorted);
+    }
+  });
+
   test('the news page applies the year from the URL', async ({ page }) => {
     // The project started in 2026, so that year always has news
     await page.goto('/projects/esg4stars/news/?year=2026');

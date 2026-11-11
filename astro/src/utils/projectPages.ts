@@ -4,8 +4,8 @@
  */
 import { getEntry, type CollectionEntry } from 'astro:content';
 import { getInsert, getListedCollection } from './content';
-import { isPastEvent } from './dateUtils';
 import { publishedNews } from './newsList';
+import { splitProjectEvents } from './projectEvents';
 import { parseProjectFacts, projectStatus, type ProjectFacts } from './projectFacts';
 import { matchesProjectSource, parseProjectSource, type ProjectSource } from './projectSource';
 import { pageIndexItems, sortProjectIndex, type ProjectIndexItem } from './projectIndex';
@@ -59,14 +59,14 @@ export async function getProjectNews(source: ProjectSource, now: Date = new Date
   return publishedNews(news, now).sort((a, b) => newestFirst(a.data.date, b.data.date));
 }
 
-/** Listed events of the project, newest first; `pastOnly` for a project that has ended. */
+/**
+ * Listed events of the project: upcoming ones soonest first, then past ones newest first
+ * (splitProjectEvents); `pastOnly` for a project that has ended.
+ */
 export async function getProjectEvents(source: ProjectSource, { pastOnly = false, now = new Date() } = {}) {
-  const events = await getListedCollection(
-    'events',
-    (entry) =>
-      matchesProjectSource(entry.data, source) && (!pastOnly || isPastEvent(entry.data.date, entry.data.end, now))
-  );
-  return events.sort((a, b) => newestFirst(a.data.date, b.data.date));
+  const events = await getListedCollection('events', (entry) => matchesProjectSource(entry.data, source));
+  const { upcoming, past } = splitProjectEvents(events, now);
+  return pastOnly ? past : [...upcoming, ...past];
 }
 
 /**
