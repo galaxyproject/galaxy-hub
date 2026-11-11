@@ -2,7 +2,7 @@
 title: "A story of Conda, CVMFS and Containers"
 date: '2026-11-11'
 tease: "How usegalaxy.eu switched to containerized jobs"
-tags: [bioconda, conda, devops, infrastructure, jobs, reproducibility, cvmfs, containers]
+tags: [Bioconda, conda, devops, infrastructure, jobs, reproducibility, cvmfs, containers]
 subsites: [all, esg, eu, freiburg]
 main_subsite: eu
 contributions:
