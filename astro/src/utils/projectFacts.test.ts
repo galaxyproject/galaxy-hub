@@ -110,9 +110,14 @@ describe('parseProjectFacts', () => {
 });
 
 describe('projectHasEnded', () => {
-  it('follows an explicit status', () => {
+  it('follows status ended, also before the end date', () => {
     expect(projectHasEnded(parseProjectFacts(esg), new Date('2024-01-01'))).toBe(true);
-    expect(projectHasEnded(parseProjectFacts({ status: 'active', end_date: '2020-01-01' }), new Date())).toBe(false);
+  });
+
+  it('ends a project marked active once its end date has passed', () => {
+    const facts = parseProjectFacts({ status: 'active', end_date: '2029-09-30' });
+    expect(projectHasEnded(facts, new Date('2029-09-30T12:00:00Z'))).toBe(false);
+    expect(projectHasEnded(facts, new Date('2029-10-01T00:00:00Z'))).toBe(true);
   });
 
   it('falls back to the end date when no status is set', () => {
@@ -133,6 +138,13 @@ describe('projectStatus', () => {
     expect(projectStatus(parseProjectFacts({ status: 'active' }), new Date())).toBe('active');
     expect(projectStatus(parseProjectFacts({ end_date: '2025-08-31' }), new Date('2026-01-01'))).toBe('ended');
     expect(projectStatus(parseProjectFacts({ end_date: '2025-08-31' }), new Date('2025-01-01'))).toBe('active');
+  });
+
+  it('flips to ended after the end date without a content edit', () => {
+    const esg4stars = parseProjectFacts({ status: 'active', start_date: '2026-10-01', end_date: '2029-09-30' });
+    expect(projectStatus(esg4stars, new Date('2026-11-11'))).toBe('active');
+    expect(projectStatus(esg4stars, new Date('2029-10-01'))).toBe('ended');
+    expect(statusBadgeLabel(esg4stars, new Date('2029-10-01'))).toBe('Ended · Sep 2029');
   });
 });
 
