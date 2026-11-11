@@ -6,10 +6,10 @@ import { getEntry, type CollectionEntry } from 'astro:content';
 import { getInsert, getListedCollection } from './content';
 import { isPastEvent } from './dateUtils';
 import { publishedNews } from './newsList';
-import { parseProjectFacts, type ProjectFacts } from './projectFacts';
+import { parseProjectFacts, projectStatus, type ProjectFacts } from './projectFacts';
 import { matchesProjectSource, parseProjectSource, type ProjectSource } from './projectSource';
 import { pageIndexItems, sortProjectIndex, type ProjectIndexItem } from './projectIndex';
-import { projectContextIds } from './siteContext';
+import { contextFromPath, projectContextIds, projectLinks, type ProjectLink } from './siteContext';
 
 export interface Project {
   id: string;
@@ -67,6 +67,17 @@ export async function getProjectEvents(source: ProjectSource, { pastOnly = false
       matchesProjectSource(entry.data, source) && (!pastOnly || isPastEvent(entry.data.date, entry.data.end, now))
   );
   return events.sort((a, b) => newestFirst(a.data.date, b.data.date));
+}
+
+/**
+ * Section links of the project a page belongs to (empty outside a project), for the sidebar's project
+ * group; the events label follows the project's status at build time.
+ */
+export async function getProjectNavLinks(path: string, now: Date = new Date()): Promise<ProjectLink[]> {
+  const context = contextFromPath(path);
+  if (context.kind !== 'project') return [];
+  const project = await getProject(context.id);
+  return projectLinks(context.id, { ended: projectStatus(project.facts, now) === 'ended' });
 }
 
 /** Entries of /projects/: project sections with their facts, plus the other top-level project pages. */

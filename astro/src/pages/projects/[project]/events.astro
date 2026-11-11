@@ -12,7 +12,7 @@ import { getInsert } from '../../../utils/content';
 import { isPastEvent } from '../../../utils/dateUtils';
 import { countLabel, projectStatus } from '../../../utils/projectFacts';
 import { getProject, getProjectEvents, getProjectNews } from '../../../utils/projectPages';
-import { projectContextIds } from '../../../utils/siteContext';
+import { eventsLabel, projectContextIds } from '../../../utils/siteContext';
 
 export function getStaticPaths() {
   return projectContextIds().map((id) => ({ params: { project: id }, props: { id } }));
@@ -26,7 +26,7 @@ const intro = (await getInsert(`projects/${id}/events`))?.data as { description?
 const newsCount = (await getProjectNews(project.source)).length;
 const events = await getProjectEvents(project.source, { pastOnly: ended, now });
 
-const label = ended ? 'Past events' : 'Events';
+const label = eventsLabel(ended);
 const headingId = ended ? 'past-events-title' : 'events-title';
 const pageTitle = `${project.name} ${ended ? 'past events' : 'Events'}`;
 const description = intro?.description ?? `${label} of ${project.name}`;

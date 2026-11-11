@@ -6,6 +6,7 @@ import SidebarNav from './SidebarNav.vue';
 import ContextSwitcher from './ContextSwitcher.vue';
 import type { NavbarData } from '@/utils/navbar';
 import type { SubsiteId } from '@/stores/subsiteStore';
+import type { ProjectLink } from '@/utils/siteContext';
 import Icon from '../mdx/Icon.astro';
 
 interface Props {
@@ -13,9 +14,11 @@ interface Props {
   initialSubsite?: SubsiteId;
   /** transition:persist name; the sidebar survives view transitions between pages with the same name. */
   persistKey?: string;
+  /** Section links of the current project (getProjectNavLinks), empty outside a project. */
+  projectNav?: ProjectLink[];
 }
 
-const { navbar, initialSubsite, persistKey } = Astro.props as Props;
+const { navbar, initialSubsite, persistKey, projectNav = [] } = Astro.props as Props;
 ---
 
 <aside
@@ -72,7 +75,13 @@ const { navbar, initialSubsite, persistKey } = Astro.props as Props;
 
   <!-- Navigation (Vue component for collapsible sections) -->
   <div class="flex-1 p-4 overflow-y-auto">
-    <SidebarNav client:load navbar={navbar} initialSubsite={initialSubsite} currentPath={Astro.url.pathname} />
+    <SidebarNav
+      client:load
+      navbar={navbar}
+      initialSubsite={initialSubsite}
+      currentPath={Astro.url.pathname}
+      projectNav={projectNav}
+    />
   </div>
 
   <!-- Archive notice -->

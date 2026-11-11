@@ -4,7 +4,7 @@ import { type SubsiteId } from '@/stores/subsiteStore';
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet';
 import { ChevronDown, Menu } from '@lucide/vue';
 import { type NavbarData, type SidebarNavigation } from '@/utils/navbar';
-import { CONTEXT_KIND_LABELS, contextFromPath } from '@/utils/siteContext';
+import { CONTEXT_KIND_LABELS, contextFromPath, type ProjectLink } from '@/utils/siteContext';
 import ContextSwitcher from './ContextSwitcher.vue';
 import SidebarNav from './SidebarNav.vue';
 
@@ -52,8 +52,10 @@ const props = withDefaults(
     navbar?: NavbarData | null;
     initialSubsite?: SubsiteId;
     currentPath?: string;
+    /** Section links of the current project, passed on to SidebarNav. */
+    projectNav?: ProjectLink[];
   }>(),
-  { navbar: null, initialSubsite: 'global', currentPath: '/' }
+  { navbar: null, initialSubsite: 'global', currentPath: '/', projectNav: () => [] }
 );
 
 const isOpen = ref(false);
@@ -150,6 +152,7 @@ function handleNavClick() {
             :navbar="navbar"
             :initial-subsite="initialSubsite"
             :current-path="currentPath"
+            :project-nav="projectNav"
             :fallback="DEFAULT_MOBILE_NAV"
             id-prefix="mm"
             @navigate="handleNavClick"

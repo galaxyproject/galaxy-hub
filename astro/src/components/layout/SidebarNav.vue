@@ -13,7 +13,7 @@ import {
   type SidebarLink,
   type SidebarNavigation,
 } from '@/utils/navbar';
-import { contextFromPath, projectLinks } from '@/utils/siteContext';
+import { contextFromPath, type ProjectLink } from '@/utils/siteContext';
 
 const props = withDefaults(
   defineProps<{
@@ -24,8 +24,17 @@ const props = withDefaults(
     fallback?: SidebarNavigation;
     /** Prefix for element ids, so two copies on one page do not collide. */
     idPrefix?: string;
+    /** Section links of the current project, worked out at build time (empty outside a project). */
+    projectNav?: ProjectLink[];
   }>(),
-  { navbar: null, initialSubsite: 'global', currentPath: '/', fallback: undefined, idPrefix: 'sb' }
+  {
+    navbar: null,
+    initialSubsite: 'global',
+    currentPath: '/',
+    fallback: undefined,
+    idPrefix: 'sb',
+    projectNav: () => [],
+  }
 );
 
 const emit = defineEmits<{ navigate: [] }>();
@@ -41,9 +50,7 @@ const navModel = computed<SidebarNavigation>(
   () => navbarToSidebarNavigation(props.navbar, props.initialSubsite) || props.fallback || getDefaultSidebarNavigation()
 );
 const groups = computed(() => groupSidebarNavigation(navModel.value, props.initialSubsite));
-const projectGroup = computed<SidebarLink[]>(() =>
-  projectLinks(context.value.id).map((link) => ({ ...link, scope: 'global' }))
-);
+const projectGroup = computed<SidebarLink[]>(() => props.projectNav.map((link) => ({ ...link, scope: 'global' })));
 // The global group gets a visible heading only when a region or project group sits above it
 const showGlobalHeading = computed(() => groups.value.region.length > 0 || projectGroup.value.length > 0);
 
