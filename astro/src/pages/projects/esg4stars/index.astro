@@ -15,6 +15,7 @@ import ProjectRows from '../../../components/projects/ProjectRows.astro';
 import TableOfContents from '../../../components/layout/TableOfContents.astro';
 import { getEntry, render } from 'astro:content';
 import { getInsert } from '../../../utils/content';
+import { countryName } from '../../../utils/countryName';
 import { isPastEvent } from '../../../utils/dateUtils';
 import { countLabel, projectStatus } from '../../../utils/projectFacts';
 import { getProject, getProjectEvents, getProjectNews } from '../../../utils/projectPages';
@@ -197,7 +198,7 @@ const headings = [
                 {partner.short_name && <span class="e4s-partners__name">{partner.name}</span>}
                 {partner.note && <span class="e4s-partners__note">{partner.note}</span>}
               </td>
-              <td>{partner.country}</td>
+              <td>{countryName(partner.country)}</td>
             </tr>)}
           </tbody>
         </table>

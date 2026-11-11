@@ -81,6 +81,9 @@ test.describe('ESG4Stars project pages', () => {
       await expect(lead).toHaveCSS('font-weight', '700');
     }
     await expect(rows.nth(4).locator('td').nth(1)).toHaveText('Sci-Scale');
+    // Countries by name, not ISO code
+    await expect(rows.first().locator('td').last()).toHaveText('Germany');
+    await expect(rows.last().locator('td').last()).toHaveText('United Kingdom');
   });
 
   test('the overview lists the five pillars as text', async ({ page }) => {
