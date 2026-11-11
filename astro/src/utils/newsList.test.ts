@@ -38,6 +38,11 @@ describe('newsListItems', () => {
     expect(item.image).toBe('/images/news/2026/a/body.png');
   });
 
+  it('keeps teaser links as text, since the whole row is already a link', () => {
+    const [item] = newsListItems([entry({ tease: 'Details via the [EOSC Node](https://eosc.pl/) and `code`, *now*' })]);
+    expect(item.teaseHtml).toBe('Details via the EOSC Node and <code>code</code>, <em>now</em>');
+  });
+
   it('passes the image check through, so missing files give no tile image', () => {
     const [item] = newsListItems([entry({ image: '/images/news/2026/a/lead.png' })], () => false);
     expect(item.image).toBeUndefined();
