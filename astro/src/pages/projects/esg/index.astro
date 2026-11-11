@@ -27,11 +27,11 @@ const hasFunding = Boolean(await getInsert(fundingSlug));
 const impact = await getInsert('projects/esg/section_1');
 const Impact = impact ? (await render(impact)).Content : null;
 
-// Load ESG data from datasets collection (content/projects/esg/*.yml, keyed by file name)
-const objectives = (await getEntry('datasets', 'objectives'))?.data;
-const expectedResults = (await getEntry('datasets', 'expected_results'))?.data;
+// ESG data from content/projects/esg/esg-*.yml: datasets are keyed by file name across content/, hence the prefix
+const objectives = (await getEntry('datasets', 'esg-objectives'))?.data;
+const expectedResults = (await getEntry('datasets', 'esg-expected-results'))?.data;
 const partners = project.partners as { partners?: any[] } | undefined;
-const externalLinks = (await getEntry('datasets', 'external_links'))?.data;
+const externalLinks = (await getEntry('datasets', 'esg-external-links'))?.data;
 
 const esgNews = await getProjectNews(project.source);
 const latestNews = esgNews.slice(0, 6);
