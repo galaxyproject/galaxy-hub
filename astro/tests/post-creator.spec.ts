@@ -192,6 +192,9 @@ test('post creator adds images at the cursor and updates them in place', async (
   // Uploads go to the author's fork: GitHub disables uploads without push access
   await expect(page.getByRole('button', { name: 'Open the upload page' })).toBeDisabled();
   await page.getByLabel('Your GitHub username').fill('octo cat');
+  // Like the other fields, the error waits until the name is finished
+  await expect(page.locator('[data-uploader-error]')).toHaveCount(0);
+  await page.getByLabel('Your GitHub username').blur();
   await expect(page.locator('[data-uploader-error]')).toBeVisible();
   // A copied @name works
   await page.getByLabel('Your GitHub username').fill('@octocat');
@@ -409,6 +412,43 @@ test('post creator never overwrites files in the chosen folder', async ({ page }
   await expect(page.locator('[data-save-error]')).toContainText('already has index.md. Pick an empty folder.');
   const written = await page.evaluate(() => (window as unknown as { written: Record<string, string> }).written);
   expect(written).toEqual({ 'index.md': 'an older post' });
+});
+
+test('post creator stops saving when a file cannot be written', async ({ page }) => {
+  await page.addInitScript(() => {
+    const written: Record<string, string> = {};
+    (window as unknown as { written: typeof written }).written = written;
+    (window as unknown as { showDirectoryPicker: () => Promise<unknown> }).showDirectoryPicker = async () => ({
+      name: 'my-post',
+      getFileHandle: async (name: string, options?: { create?: boolean }) => {
+        if (!options?.create) throw new DOMException('missing', 'NotFoundError');
+        return {
+          createWritable: async () => ({
+            write: async (b: Blob) => {
+              // The disk fills up after the first file
+              if (Object.keys(written).length) throw new DOMException('full', 'QuotaExceededError');
+              written[name] = await b.text();
+            },
+            close: async () => {},
+          }),
+        };
+      },
+    });
+  });
+  await openCreator(page);
+  await page.getByLabel('Title (required)').fill('Folder full');
+  await page.locator('input[type="file"]').setInputFiles({ name: 'a.png', mimeType: 'image/png', buffer: PNG });
+  let downloads = 0;
+  page.on('download', () => downloads++);
+  await page.getByRole('button', { name: 'Save all files to a folder' }).click();
+  await expect(page.locator('[data-save-error]')).toHaveText(
+    'Could not save a.png in my-post, so saving stopped. Try again in an empty folder.'
+  );
+  await expect(page.locator('[data-saved]')).toHaveCount(0);
+  const written = await page.evaluate(() => (window as unknown as { written: Record<string, string> }).written);
+  expect(Object.keys(written)).toEqual(['index.md']);
+  // No download fallback for the rest
+  expect(downloads).toBe(0);
 });
 
 test('post creator refuses files the Hub cannot publish and new people without a username', async ({ page }) => {

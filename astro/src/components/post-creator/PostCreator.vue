@@ -223,7 +223,7 @@ watch(
 );
 const problems = computed(() => [...postProblems(form), ...mdxIssues.value]);
 // Title and date errors show once the field was left empty, not on a fresh form
-const touched = reactive({ title: false, date: false });
+const touched = reactive({ title: false, date: false, uploader: false });
 const titleError = computed(() => (touched.title && problems.value.includes(TITLE_PROBLEM) ? TITLE_PROBLEM : ''));
 const dateError = computed(() => (touched.date && problems.value.includes(DATE_PROBLEM) ? DATE_PROBLEM : ''));
 const listedProblems = computed(() =>
@@ -431,7 +431,7 @@ const uploader = ref('');
 // People often copy their name as @name
 const uploaderName = computed(() => uploader.value.trim().replace(/^@/, ''));
 const uploaderValid = computed(() => GITHUB_USERNAME.test(uploaderName.value));
-const uploaderInvalid = computed(() => uploaderName.value !== '' && !uploaderValid.value);
+const uploaderInvalid = computed(() => touched.uploader && uploaderName.value !== '' && !uploaderValid.value);
 const uploadUrl = computed(() => (uploaderValid.value ? uploadPageUrl(form, uploaderName.value) : ''));
 const branch = computed(() => uploadBranch(form));
 const pullUrl = computed(() => (uploaderValid.value ? pullRequestUrl(form, uploaderName.value) : ''));
@@ -1171,9 +1171,10 @@ const sizeText = (bytes: number) =>
               :aria-describedby="uploaderInvalid ? `${ids.uploaderError} ${ids.uploaderHint}` : ids.uploaderHint"
               :aria-invalid="uploaderInvalid || undefined"
               :class="[inputClass, focusRing]"
+              @blur="touched.uploader = true"
             />
             <p v-if="uploaderInvalid" :id="ids.uploaderError" class="text-danger-fg" data-uploader-error>
-              That is not a GitHub username: it has only letters, numbers and single hyphens.
+              That is not a GitHub username: use only letters, numbers and hyphens.
             </p>
             <p :id="ids.uploaderHint" class="text-fg-meta">
               The upload page opens in your fork; GitHub shows "page not found" until you have one (step 1). If you can
