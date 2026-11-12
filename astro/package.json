@@ -91,6 +91,10 @@
     "vue-eslint-parser": "^10.4.1"
   },
   "overrides": {
+    "minimatch": "^11.0.1",
+    "linkinator": {
+      "glob": "^14.0.3"
+    },
     "@tailwindcss/typography": {
       "postcss-selector-parser": "7.1.6"
     }
