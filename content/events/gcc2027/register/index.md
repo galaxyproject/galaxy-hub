@@ -25,12 +25,6 @@ Details on the main conference registration will be posted here when registratio
 
 Details on CoFest and training registration will be posted here when registration opens.
 
-## Lodging
-
-See the [travel page](/events/gcc2027/travel/) for information about the area.
-
-<!-- TODO: lodging options near Campus Longueuil -->
-
 ## Cancellation
 
 <!-- TODO: cancellation policy -->
