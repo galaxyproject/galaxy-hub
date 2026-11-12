@@ -51,13 +51,33 @@ export function pageIndexItems(pages: ProjectPageInput[]): ProjectIndexItem[] {
   return items;
 }
 
-function rank(item: ProjectIndexItem, now: Date): number {
-  if (item.external) return 3;
-  if (!item.facts) return 2;
-  return projectStatus(item.facts, now) === 'ended' ? 1 : 0;
+/** The groups of the index, in the order they are shown. */
+export const PROJECT_GROUPS = [
+  { key: 'active', title: 'Active projects' },
+  { key: 'page', title: 'Projects and community efforts' },
+  { key: 'external', title: 'External sites' },
+  { key: 'ended', title: 'Completed projects' },
+] as const satisfies readonly { key: string; title: string }[];
+
+export type ProjectGroupKey = (typeof PROJECT_GROUPS)[number]['key'];
+
+export interface ProjectGroup {
+  key: ProjectGroupKey;
+  title: string;
+  items: ProjectIndexItem[];
 }
 
-/** Running projects, then ended ones (each newest start first), then other pages by title, external sites last. */
+/** Which group an entry belongs to: a project section by its status, any other page by where it points. */
+export function projectGroup(item: ProjectIndexItem, now: Date): ProjectGroupKey {
+  if (item.facts) return projectStatus(item.facts, now) === 'ended' ? 'ended' : 'active';
+  return item.external ? 'external' : 'page';
+}
+
+function rank(item: ProjectIndexItem, now: Date): number {
+  return PROJECT_GROUPS.findIndex((group) => group.key === projectGroup(item, now));
+}
+
+/** Running projects (newest start first), then other pages by title, then external sites, then completed ones. */
 export function sortProjectIndex(items: ProjectIndexItem[], now: Date): ProjectIndexItem[] {
   return [...items].sort(
     (a, b) =>
@@ -65,4 +85,14 @@ export function sortProjectIndex(items: ProjectIndexItem[], now: Date): ProjectI
       (b.facts?.start?.getTime() ?? 0) - (a.facts?.start?.getTime() ?? 0) ||
       a.title.localeCompare(b.title)
   );
+}
+
+/** The sorted entries split into their groups, empty groups dropped. */
+export function groupProjectIndex(items: ProjectIndexItem[], now: Date): ProjectGroup[] {
+  const sorted = sortProjectIndex(items, now);
+  return PROJECT_GROUPS.map(({ key, title }) => ({
+    key,
+    title,
+    items: sorted.filter((item) => projectGroup(item, now) === key),
+  })).filter((group) => group.items.length > 0);
 }

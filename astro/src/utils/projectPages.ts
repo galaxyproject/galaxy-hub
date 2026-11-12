@@ -68,7 +68,7 @@ export async function getProjectEvents(source: ProjectSource, { pastOnly = false
   return events.sort((a, b) => newestFirst(a.data.date, b.data.date));
 }
 
-/** Entries of /projects/: project sections with their facts, then the other top-level project pages. */
+/** Entries of /projects/: project sections with their facts, plus the other top-level project pages. */
 export async function getProjectIndex(now: Date = new Date()): Promise<ProjectIndexItem[]> {
   const sections = await Promise.all(
     projectContextIds().map(async (id): Promise<ProjectIndexItem> => {
