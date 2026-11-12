@@ -43,7 +43,7 @@ autotoc: false
 # GCC2027 Registration
 
 <div class="alert alert-info" role="alert">
-Registration for GCC2027 opens in November 2026.
+Registration for GCC2027 opens on November 15, 2026.
 </div>
 
 <div class="alert alert-warning" role="alert">
@@ -57,27 +57,14 @@ different currency, here is a convenient [currency
 converter](https://www.oanda.com/currency-converter/en/?from=CAD&to=USD&amount=500)
 to see how these numbers compare.
 
-<!-- TODO: state whether prices include GST/QST -->
+**Taxes are not included in the prices below and will be added during registration.**
 
 ## Conference: June 27–29
 
-<div class="callout">
-
-**Working in a low-income country?** If you are currently working in a
-low-income country, as defined by the World Bank, please email the
-[organizers](mailto:gcc-org@lists.galaxyproject.org) before registering and ask
-for a 50% discount code that you can apply during registration. The [list of
-eligible low-income countries is available in this
-document](https://gxy-shared.s3.amazonaws.com/low-income-countries.pdf).
-
-</div>
-
-<!-- TODO: add early bird / regular / late cut-off dates to the column headers -->
-
-|                   | Early bird | Regular | Late |
+|                   | Early bird (until Feb 28) | Regular (until May 14) | Late (until Jun 13) |
 | --- | ---: | ---: | ---: |
-| Student           | CAD 400 | CAD 450 | CAD 550   |
-| Academic          | CAD 450 | CAD 500 | CAD 600   |
+| Student / postdoc | CAD 400 | CAD 450 | CAD 550   |
+| Academic / Non-profit / Government | CAD 450 | CAD 500 | CAD 600   |
 | Industry          | CAD 650 | CAD 975 | CAD 1,450 |
 
 ## Add up your week
@@ -123,3 +110,16 @@ document](https://gxy-shared.s3.amazonaws.com/low-income-countries.pdf).
 <!-- TODO: cancellation policy -->
 
 Details on the cancellation policy will be posted here when available.
+
+## Discounts
+
+If you are currently working in a low-income country, as defined by the
+World Bank, please email the [organizers](mailto:gcc-org@lists.galaxyproject.org) before
+registering and ask for a 50% discount code that you can apply during
+registration. The [list of eligible low-income countries is available in this
+document](https://gxy-shared.s3.amazonaws.com/low-income-countries.pdf).
+
+If you are a GTN trainer or a member of the Scientific Program Committee at GCC2027
+and are in need of financial help, please email the
+[organizers](mailto:gcc-org@lists.galaxyproject.org) and a discount code will be
+provided.

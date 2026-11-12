@@ -5,6 +5,18 @@ nav_order: 4
 autotoc: false
 ---
 
+<style>
+  /* Respect markdown column alignment (the typography plugin forces text-align: start) */
+  .prose :where(th, td)[align='center'] {
+    text-align: center;
+    /* shrink the icon column to its content */
+    width: 1%;
+    white-space: nowrap;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+</style>
+
 # GCC2027 Fellowships
 
 Financial support shouldn't be a barrier to joining us. GCC2027 fellowships
@@ -37,12 +49,14 @@ committee then awards one of three levels of support:
   </div>
 </div>
 
-## Key dates
+## Key dates relevant to fellowships
 
-* 🟢 **November 15, 2026:** applications open
-* 🔴 **February 15, 2027:** apply by this date for the first review round
-* 🔴 **March 15, 2027:** applications close
-* 🏆 **March 25, 2027:** awards announced
+| Date | | What |
+| --- | :---: | --- |
+| November 15, 2026 | 🟢 | 🎓 Applications open |
+| February 15, 2027 | 🔴 | 🎓 Apply by this date for the first review round |
+| March 15, 2027 | 🔴 | 🎓 Applications close |
+| March 25, 2027 | 🏆 | 🎓 Awards announced |
 
 Deadlines are [End of Day, Anywhere on Earth time](https://time.is/Anywhere_on_Earth).
 

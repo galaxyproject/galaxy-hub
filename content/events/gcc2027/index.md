@@ -62,7 +62,7 @@ contributions:
                 </a>
             </div>
             <h3 style="margin-top: 1rem;">Held at Université de Sherbrooke - Campus Longueuil, in the riverside city of <a href="https://www.google.com/maps/search/?api=1&query=Longueuil%2C+Qu%C3%A9bec%2C+Canada" target="_blank" rel="noopener noreferrer">Longueuil, Québec</a></h3>
-            <p class="text-lg text-galaxy-grey">Registration, abstract submission, and fellowship applications open in <strong>November 2026</strong>.</p>
+            <p class="text-lg text-galaxy-grey">Registration, abstract submission, and fellowship applications open on <strong>November 15, 2026</strong>.</p>
         </div>
     </div>
 </div>

@@ -5,11 +5,23 @@ nav_order: 3
 autotoc: false
 ---
 
+<style>
+  /* Respect markdown column alignment (the typography plugin forces text-align: start) */
+  .prose :where(th, td)[align='center'] {
+    text-align: center;
+    /* shrink the icon column to its content */
+    width: 1%;
+    white-space: nowrap;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+</style>
+
 # GCC2027 Abstracts
 
-**Abstract submission for GCC2027 opens in November 2026.** If you have any
-questions about the abstract submission process, please reach out to the
-organizers at [gcc-org@lists.galaxyproject.org](mailto:gcc-org@lists.galaxyproject.org).
+<div class="alert alert-info" role="alert">
+Abstract submission for GCC2027 opens on November 15, 2026.
+</div>
 
 Presentations from the community are a core component of GCCs. These include
 oral, poster, and demo presentations. All the abstracts for presentations are
@@ -25,13 +37,13 @@ greatly. Topics of interest include but are not limited to the following areas:
 
 ## Key dates relevant to the abstracts
 
-<!-- TODO: abstract deadlines and notification dates -->
+<!-- TODO: abstract notification dates -->
 
-| Date   | What |
-| -----: | ---  |
-| November 2026 | Abstract submission opens |
-| TBA | Abstracts due for talks |
-| TBA | Abstracts due for posters/demos |
+| Date | | What |
+| --- | :---: | --- |
+| November 15, 2026 | 🟢 | 📝 Abstract submission opens |
+| April 15, 2027 | 🔴 | 🎤 Abstracts due for talks |
+| May 17, 2027 | 🔴 | 🖼️ Abstracts due for posters/demos |
 
 ## Abstract submission guidelines
 
