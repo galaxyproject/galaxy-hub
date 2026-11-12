@@ -9,7 +9,7 @@ autotoc: false
 
 **Abstract submission for GCC2027 opens in November 2026.** If you have any
 questions about the abstract submission process, please reach out to the
-[organizers](/events/gcc2027/organizers/).
+organizers at [gcc-org@lists.galaxyproject.org](mailto:gcc-org@lists.galaxyproject.org).
 
 Presentations from the community are a core component of GCCs. These include
 oral, poster, and demo presentations. All the abstracts for presentations are
@@ -41,4 +41,4 @@ Submission guidelines will be posted here when abstract submission opens.
 
 ## Questions?
 
-Please reach out to the [organizers](/events/gcc2027/organizers/).
+Please reach out to the organizers at [gcc-org@lists.galaxyproject.org](mailto:gcc-org@lists.galaxyproject.org).

@@ -55,4 +55,4 @@ please read it before applying. You sign in with your
 
 ## Questions?
 
-Please reach out to the [organizers](/events/gcc2027/organizers/).
+Please reach out to the organizers at [gcc-org@lists.galaxyproject.org](mailto:gcc-org@lists.galaxyproject.org).
