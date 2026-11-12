@@ -22,12 +22,16 @@ contributions:
 ## What was the meeting about?
 Following the project's [online kick-off in October](https://galaxyproject.org/news/2026-10-01-ai4social/),  we met in the Barcelona Supercomputing Center (BSC) in Barcelona to meet up with all project partners in person.
 
-![Picture of Poster introducing the project AI4Social+](/poster.jpg)
+<p align="center">
+  <img src="./poster.jpg" alt="Picture of Poster introducing the project AI4Social+" width="300"/>
+</p>
 
 The morning mostly consisted of input from various partners on standards, repositories, and synergies, including a panel on workflows and an introduction to Galaxy.
 We also got a quick glance at Mare Nostrum, Spain's most powerful supercomputer.
 
-![Image of Mare Nostrum, BSC's supercomputer](/mn.jpg)
+<p align="center">
+  <img src="./mn.jpg" alt="Image of Mare Nostrum, BSC's supercomputer" width="300"/>
+</p>
 
 The afternoon focused on interactive exchange of insights. We collected what **AI readiness** means to the different parties involved to set the tone for future discussions across the various streams and to start defining AI readiness within the project.
 Afterwards, one of the core sessions for the Galaxy Team focused on identifying overlaps between the various use cases and the technological partners involved. 
