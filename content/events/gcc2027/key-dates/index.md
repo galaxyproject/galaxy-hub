@@ -5,27 +5,15 @@ nav_order: 1
 autotoc: false
 ---
 
-<style>
-  /* Respect markdown column alignment (the typography plugin forces text-align: start) */
-  .prose :where(th, td)[align='center'] {
-    text-align: center;
-    /* shrink the emoji column to its content */
-    width: 1%;
-    white-space: nowrap;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-</style>
-
 # GCC2027 Key Dates
 
 Keep the following important dates in mind for GCC2027! These dates can save you
 money and give you an opportunity to present your work.
 
-<div style="max-width: 80%; min-width: 300px; margin: 0 auto;">
+<div class="gx-dates" style="max-width: 80%; min-width: 300px; margin: 0 auto;">
 
 | Date | | What |
-| --- | :---: | --- |
+| --- | --- | --- |
 | November 18, 2026 | 🟢 | 🎓 [Fellowship](/events/gcc2027/fellowships/) applications open |
 | November 18, 2026 | 🟢 | 🎟️ [Registration](/events/gcc2027/register/) and 📝 [abstract submission](/events/gcc2027/abstracts/) open |
 | February 15, 2027 | 🔴 | 🎓 Fellowship applications due for the first review round |
