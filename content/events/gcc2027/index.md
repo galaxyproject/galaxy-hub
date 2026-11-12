@@ -52,7 +52,7 @@ contributions:
         <img class="w-full max-w-md mx-auto" src="/images/events/gcc2027/gcc2027-logo-transparent.png" alt="GCC2027 Conference Logo" />
         <div>
             <div class="gcc-hero__badges not-prose flex flex-wrap items-center justify-center gap-3 leading-tight">
-                <div class="gcc-hero__date inline-flex overflow-hidden rounded-lg border-2 border-galaxy-primary">
+                <div class="gcc-hero__date inline-flex overflow-hidden rounded-lg" style="border: 2px solid var(--color-galaxy-primary);">
                     <span class="flex items-center justify-center bg-galaxy-primary px-3 py-1.5 text-xs font-semibold uppercase tracking-wider text-white whitespace-nowrap">Save the date</span>
                     <span class="px-4 py-1.5 text-center text-xl font-bold text-galaxy-dark whitespace-nowrap">June 26 – July 1, 2027</span>
                 </div>
