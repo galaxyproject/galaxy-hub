@@ -1,5 +1,16 @@
 import { describe, it, expect } from 'vitest';
-import { splitProjectEvents } from './projectEvents';
+import { eventsCountLine, splitProjectEvents } from './projectEvents';
+
+describe('eventsCountLine', () => {
+  it('names the count and the order', () => {
+    expect(eventsCountLine(1, 'upcoming event', 'soonest first')).toBe('1 upcoming event, soonest first');
+    expect(eventsCountLine(2, 'past event', 'newest first')).toBe('2 past events, newest first');
+  });
+
+  it('gives no line for an empty group, so the empty note stands alone', () => {
+    expect(eventsCountLine(0, 'upcoming event', 'soonest first')).toBe('');
+  });
+});
 
 const event = (slug: string, date?: string, end?: string) => ({ data: { slug, date, end } });
 const slugs = (events: { data: { slug: string } }[]) => events.map((item) => item.data.slug);

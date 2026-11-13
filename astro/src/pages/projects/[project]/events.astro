@@ -9,7 +9,8 @@ import ProjectPageTop from '../../../components/projects/ProjectPageTop.astro';
 import ProjectRows from '../../../components/projects/ProjectRows.astro';
 import ProjectFunding from '../../../components/projects/ProjectFunding.astro';
 import { getInsert } from '../../../utils/content';
-import { countLabel, projectStatus } from '../../../utils/projectFacts';
+import { projectStatus } from '../../../utils/projectFacts';
+import { eventsCountLine } from '../../../utils/projectEvents';
 import { getProject, getProjectEventGroups, getProjectNews } from '../../../utils/projectPages';
 import { eventsLabel, projectContextIds } from '../../../utils/siteContext';
 
@@ -35,7 +36,7 @@ const groups = [
     ? []
     : [{ id: 'upcoming', title: 'Upcoming events', items: upcoming, noun: 'upcoming event', order: 'soonest first' }]),
   { id: 'past', title: 'Past events', items: past, noun: 'past event', order: 'newest first' },
-];
+].map((group) => ({ ...group, countLine: eventsCountLine(group.items.length, group.noun, group.order) }));
 ---
 
 <BaseLayout title={`${label} | ${project.name}`} description={description}>
@@ -52,7 +53,7 @@ const groups = [
 
     {groups.map((group) => <section aria-labelledby={`${group.id}-events-title`} class="project-events max-w-4xl">
       <h2 id={`${group.id}-events-title`} class={ended ? 'sr-only' : 'project-events__title'}>{group.title}</h2>
-      <p class="text-sm text-chicago-700 mb-2">{countLabel(group.items.length, group.noun)}, {group.order}</p>
+      {group.countLine && <p class="text-sm text-chicago-700 mb-2">{group.countLine}</p>}
       {group.items.length > 0 ? (
         <ProjectRows
           kind="events"
