@@ -19,10 +19,7 @@ const projects = (await getProjectIndex(now)).map((project) => ({
   dates: project.facts && projectDuration(project.facts)?.short,
   host: project.external ? new URL(project.href).host : undefined,
 }));
-const groups = groupProjectIndex(projects, now).map((group) => ({
-  ...group,
-  items: group.items as typeof projects,
-}));
+const groups = groupProjectIndex(projects, now);
 const description = 'Projects and community efforts around Galaxy, with their own pages on the Hub.';
 const externalCount = projects.filter((project) => project.external).length;
 const onHub = `${countLabel(projects.length - externalCount, 'project')} on the Hub`;
@@ -35,32 +32,34 @@ const count = externalCount > 0 ? `${onHub}, ${countLabel(externalCount, 'extern
 
     <div class="bg-white px-4 sm:px-8 py-6 rounded-b-lg shadow-sm">
       <p class="text-sm text-chicago-700 mb-4" data-project-count>{count}</p>
-      {groups.map((group) => <section class="project-group" data-project-group={group.key}>
-        <h2 class="project-group__title">{group.title}</h2>
-        <ul class="project-cards" data-project-index>
-          {group.items.map((project) => <li class="project-card">
-            {(project.badge || project.dates || project.host) && <p class="project-card__meta">
-              {project.badge && <span class="project-card__badge" data-project-status={project.status}>
-                {project.badge}
-              </span>}
-              {project.dates && <span>{project.dates}</span>}
-              {project.host && <span>External site · {project.host}</span>}
-            </p>}
-            <h3 class="project-card__title">
-              {project.external ? (
-                <a class="project-card__link" href={project.href} target="_blank" rel="noopener noreferrer">
-                  {project.title}
-                  <span aria-hidden="true"><Icon name="external-link" size={14} /></span>
-                  <span class="sr-only"> (opens in a new tab)</span>
-                </a>
-              ) : (
-                <a class="project-card__link" href={project.href}>{project.title}</a>
-              )}
-            </h3>
-            {project.description && <p class="project-card__desc">{project.description}</p>}
-          </li>)}
-        </ul>
-      </section>)}
+      <div data-project-index>
+        {groups.map((group) => <section class="project-group" data-project-group={group.key}>
+          <h2 class="project-group__title">{group.title}</h2>
+          <ul class="project-cards">
+            {group.items.map((project) => <li class="project-card">
+              {(project.badge || project.dates || project.host) && <p class="project-card__meta">
+                {project.badge && <span class="project-card__badge" data-project-status={project.status}>
+                  {project.badge}
+                </span>}
+                {project.dates && <span>{project.dates}</span>}
+                {project.host && <span>External site · {project.host}</span>}
+              </p>}
+              <h3 class="project-card__title">
+                {project.external ? (
+                  <a class="project-card__link" href={project.href} target="_blank" rel="noopener noreferrer">
+                    {project.title}
+                    <span aria-hidden="true"><Icon name="external-link" size={14} /></span>
+                    <span class="sr-only"> (opens in a new tab)</span>
+                  </a>
+                ) : (
+                  <a class="project-card__link" href={project.href}>{project.title}</a>
+                )}
+              </h3>
+              {project.description && <p class="project-card__desc">{project.description}</p>}
+            </li>)}
+          </ul>
+        </section>)}
+      </div>
     </div>
   </div>
 </BaseLayout>

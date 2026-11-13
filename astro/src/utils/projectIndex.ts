@@ -61,10 +61,10 @@ export const PROJECT_GROUPS = [
 
 export type ProjectGroupKey = (typeof PROJECT_GROUPS)[number]['key'];
 
-export interface ProjectGroup {
+export interface ProjectGroup<T extends ProjectIndexItem = ProjectIndexItem> {
   key: ProjectGroupKey;
   title: string;
-  items: ProjectIndexItem[];
+  items: T[];
 }
 
 /** Which group an entry belongs to: a project section by its status, any other page by where it points. */
@@ -78,7 +78,7 @@ function rank(item: ProjectIndexItem, now: Date): number {
 }
 
 /** Running projects (newest start first), then other pages by title, then external sites, then completed ones. */
-export function sortProjectIndex(items: ProjectIndexItem[], now: Date): ProjectIndexItem[] {
+export function sortProjectIndex<T extends ProjectIndexItem>(items: T[], now: Date): T[] {
   return [...items].sort(
     (a, b) =>
       rank(a, now) - rank(b, now) ||
@@ -88,7 +88,7 @@ export function sortProjectIndex(items: ProjectIndexItem[], now: Date): ProjectI
 }
 
 /** The sorted entries split into their groups, empty groups dropped. */
-export function groupProjectIndex(items: ProjectIndexItem[], now: Date): ProjectGroup[] {
+export function groupProjectIndex<T extends ProjectIndexItem>(items: T[], now: Date): ProjectGroup<T>[] {
   const sorted = sortProjectIndex(items, now);
   return PROJECT_GROUPS.map(({ key, title }) => ({
     key,
