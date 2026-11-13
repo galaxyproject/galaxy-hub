@@ -29,7 +29,7 @@ Participants will collaborate on practical tasks, including:
 - **Nextflow and other workflow developers:** Evaluate generated modules and tasks, identify limitations, and contribute improvements.
 - **Researchers and workflow users:** Suggest analysis methods and use cases, test generated tools, and provide feedback.
 
-Previous work has focused on [single-cell analysis](https://github.com/kevinrue/biofair-nextflow-pipeline/tree/main/modules), with additional [examples using DESeq2](https://github.com/almahmoud/BiocJobs/tree/main/examples/DESeq2). Contributions from other research domains are particularly welcome.
+Previous work has focused on [single-cell analysis](https://github.com/kevinrue/biofair-nextflow-pipeline), with additional [examples using DESeq2](https://github.com/almahmoud/BiocJobs/tree/main/examples/DESeq2). Contributions from other research domains are particularly welcome.
 
 ## How to participate
 
