@@ -9,7 +9,7 @@
 import sanitize from 'sanitize-html';
 import { HTTP_SCHEMES, LINK_SCHEMES, safeHref, safeUrl } from './url';
 
-export type SanitizeProfile = 'inline' | 'bio' | 'markdown';
+export type SanitizeProfile = 'inline' | 'bio' | 'markdown' | 'preview';
 
 const SMALL_CAPS = 'font-variant: small-caps';
 
@@ -140,6 +140,73 @@ const OPTIONS: Record<SanitizeProfile, sanitize.IOptions> = {
       span: smallCapsSpan,
       a: urlAttrTransform('href', (url) => safeHref(url, LINK_SCHEMES), ['title']),
       img: urlAttrTransform('src', (url) => safeHref(url, HTTP_SCHEMES), ['alt', 'title', 'class']),
+    },
+    exclusiveFilter: dropUnsafeLinks,
+  },
+  // A post body as the build renders it, shown on the post creator page: keeps the HTML authors write
+  // (wrappers, classes, styles, sizes) and embeds from the sites posts use; drops scripts and handlers.
+  preview: {
+    ...COMMON,
+    allowedTags: [
+      ...MARKDOWN_TAGS,
+      'abbr',
+      'figcaption',
+      'figure',
+      'caption',
+      'center',
+      'col',
+      'colgroup',
+      'dd',
+      'details',
+      'div',
+      'dl',
+      'dt',
+      'iframe',
+      'ins',
+      'kbd',
+      'mark',
+      's',
+      'section',
+      'small',
+      'source',
+      'summary',
+      'tfoot',
+      'video',
+    ],
+    allowedAttributes: {
+      '*': ['align', 'aria-*', 'class', 'data-*', 'dir', 'height', 'id', 'lang', 'role', 'style', 'title', 'width'],
+      a: ['href', 'name', 'rel', 'target'],
+      iframe: ['allow', 'allowfullscreen', 'frameborder', 'loading', 'referrerpolicy', 'scrolling', 'src'],
+      img: ['alt', 'loading', 'src'],
+      ol: ['start'],
+      source: ['src', 'type'],
+      td: ['colspan', 'rowspan'],
+      th: ['colspan', 'rowspan', 'scope'],
+      video: ['autoplay', 'controls', 'loop', 'muted', 'playsinline', 'poster', 'src'],
+    },
+    allowedClasses: undefined,
+    allowedStyles: undefined,
+    parseStyleAttributes: false,
+    allowedSchemesByTag: {
+      a: ['http', 'https', 'mailto'],
+      iframe: ['https'],
+      img: ['http', 'https'],
+      source: ['http', 'https'],
+      video: ['http', 'https'],
+    },
+    allowedIframeHostnames: ['www.youtube-nocookie.com', 'www.youtube.com', 'calendar.google.com'],
+    transformTags: {
+      a: urlAttrTransform('href', (url) => safeHref(url, LINK_SCHEMES), [
+        'class',
+        'id',
+        'name',
+        'rel',
+        'target',
+        'title',
+        'aria-label',
+        'aria-hidden',
+        'tabindex',
+      ]),
     },
     exclusiveFilter: dropUnsafeLinks,
   },

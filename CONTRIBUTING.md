@@ -17,7 +17,9 @@ The easiest way is to use the "Edit on Github" link near the bottom of any Hub p
 
 ### Creating a new page
 
-In the GitHub web interface, navigate to the appropriate directory under `/content/` and click "Add file" → "Create new file". For news items, create the year bucket first, then add `your-page-name/index.md` inside it (for example `content/news/2026/my-news-item/index.md`). GitHub will create the directory for you.
+In the GitHub web interface, navigate to the appropriate directory under `/content/` and click "Add file" → "Create new file". For news items, create the year bucket first, then add `your-page-name/index.md` inside it (for example `content/news/2026/2026-03-05-my-news-item/index.md`; news folders start with the date). GitHub will create the directory for you.
+
+**News and events**: the easiest way is the [post creator](https://galaxyproject.org/hub/contributing/new/). Fill in the form and it opens the file on GitHub with the right folder and metadata. You can also copy a [template](#news-and-event-templates).
 
 **Directory naming rules**: Use lowercase letters, numbers, and hyphens. The directory name becomes the URL slug.
 
@@ -69,6 +71,53 @@ Events have additional fields:
 | `location`  | Object with `name:` and optional `url:`              |
 | `contact`   | Event contact information                            |
 | `subsites`  | Array of subsites to display on, e.g. `[global, eu]` |
+
+### News and event templates
+
+Copy one of these, then change or delete each line. Tags must be in [`TAGS.yaml`](content/TAGS.yaml) and subsites in [`SUBSITES.yaml`](content/SUBSITES.yaml). People and funders come from the GTN files (see [Contributions metadata](#contributions-metadata-and-hall-of-fame-recognition)). The checks on your pull request say if one is missing. Keep the quotes around text and dates.
+
+News, saved as `content/news/YYYY/YYYY-MM-DD-short-name/index.md`:
+
+```yaml
+---
+title: 'Your title'
+date: 'YYYY-MM-DD'
+tease: 'One or two plain sentences for lists and social media.'
+tags: [training]
+subsites: [global]          # see "Subsites and main_subsite" below
+main_subsite: global        # optional, one of your subsites
+contributions:
+  authorship:
+    - your-github-username
+  funding:                  # optional
+    - deNBI
+---
+
+Your text in Markdown.
+```
+
+Event, saved as `content/events/YYYY-MM-DD-short-name/index.md`:
+
+```yaml
+---
+title: 'Your event'
+date: 'YYYY-MM-DD'          # first day
+end: 'YYYY-MM-DD'           # last day; delete for a one-day event
+tease: 'One or two plain sentences for lists and social media.'
+continent: EU               # AF, AS, AU, EU, GL (online), NA or SA
+location:
+  name: 'City, Country'     # or 'Online'
+contact: 'Name or email'
+external_url: 'https://…'   # only if the event has its own website
+tags: [training]
+subsites: [global]
+contributions:
+  organisers:
+    - your-github-username
+---
+
+What the event is about, in Markdown.
+```
 
 ### Subsites and `main_subsite` in news and events
 
