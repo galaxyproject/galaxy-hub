@@ -23,4 +23,4 @@ build a Lab, start with the generator at
 
 Hyde, C. J., Syme, A., Batut, B., Zierep, P., Mok, C., Bacon, W., & Price, G.
 (2026). Community-curated Galaxy interfaces with the Galaxy Labs Engine.
-*GigaScience*. <https://doi.org/10.1093/gigascience/giag041>
+*GigaScience*. [https://doi.org/10.1093/gigascience/giag041](https://doi.org/10.1093/gigascience/giag041)
