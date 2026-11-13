@@ -11,6 +11,8 @@ right:
             target: "/support/"
           - label: Galaxy Help Forum
             target: https://help.galaxyproject.org/
+          - label: Chat on Matrix
+            target: https://matrix.to/#/%23galaxyproject_Lobby:gitter.im
     - label: Community
       contents:
           - label: The Galaxy Community
