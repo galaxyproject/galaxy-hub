@@ -36,26 +36,6 @@ pointing it at your own data.
 The source and contribution guidelines live at
 [github.com/galaxyproject/iwc](https://github.com/galaxyproject/iwc/).
 
-## Other ways to get IWC workflows
-
-IWC workflows are **automatically installed on the usegalaxy.\* servers**, so on
-Galaxy Main, Galaxy Europe, or Galaxy Australia you can run one without
-importing anything:
-
-- [usegalaxy.org published workflows](https://usegalaxy.org/workflows/list_published)
-- [usegalaxy.eu published workflows](https://usegalaxy.eu/workflows/list_published)
-- [usegalaxy.org.au published workflows](https://usegalaxy.org.au/workflows/list_published)
-
-To import them into another Galaxy server, go to **Workflows → Import → search
-form**, choose a TRS server, and search for `organization:iwc` on WorkflowHub or
-`organization:iwc-workflows` on Dockstore.
-
-Every workflow is also published outside Galaxy, so it can be cited, versioned,
-and run by other workflow systems:
-
-- [IWC on Dockstore](https://dockstore.org/organizations/iwc)
-- [IWC on WorkflowHub](https://workflowhub.eu/projects/33#workflows)
-
 ## How workflows are reviewed
 
 Anyone can contribute a production workflow. Contributions go through a pull
