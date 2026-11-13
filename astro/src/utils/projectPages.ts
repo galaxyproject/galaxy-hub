@@ -59,13 +59,15 @@ export async function getProjectNews(source: ProjectSource, now: Date = new Date
   return publishedNews(news, now).sort((a, b) => newestFirst(a.data.date, b.data.date));
 }
 
-/**
- * Listed events of the project: upcoming ones soonest first, then past ones newest first
- * (splitProjectEvents); `pastOnly` for a project that has ended.
- */
-export async function getProjectEvents(source: ProjectSource, { pastOnly = false, now = new Date() } = {}) {
+/** Listed events of the project, split once: upcoming ones soonest first, past ones newest first. */
+export async function getProjectEventGroups(source: ProjectSource, now: Date = new Date()) {
   const events = await getListedCollection('events', (entry) => matchesProjectSource(entry.data, source));
-  const { upcoming, past } = splitProjectEvents(events, now);
+  return splitProjectEvents(events, now);
+}
+
+/** Listed events of the project, upcoming then past; `pastOnly` for a project that has ended. */
+export async function getProjectEvents(source: ProjectSource, { pastOnly = false, now = new Date() } = {}) {
+  const { upcoming, past } = await getProjectEventGroups(source, now);
   return pastOnly ? past : [...upcoming, ...past];
 }
 

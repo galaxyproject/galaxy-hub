@@ -10,8 +10,7 @@ import ProjectRows from '../../../components/projects/ProjectRows.astro';
 import ProjectFunding from '../../../components/projects/ProjectFunding.astro';
 import { getInsert } from '../../../utils/content';
 import { countLabel, projectStatus } from '../../../utils/projectFacts';
-import { splitProjectEvents } from '../../../utils/projectEvents';
-import { getProject, getProjectEvents, getProjectNews } from '../../../utils/projectPages';
+import { getProject, getProjectEventGroups, getProjectNews } from '../../../utils/projectPages';
 import { eventsLabel, projectContextIds } from '../../../utils/siteContext';
 
 export function getStaticPaths() {
@@ -24,7 +23,7 @@ const project = await getProject(id);
 const ended = projectStatus(project.facts, now) === 'ended';
 const intro = (await getInsert(`projects/${id}/events`))?.data as { description?: string } | undefined;
 const newsCount = (await getProjectNews(project.source, now)).length;
-const { upcoming, past } = splitProjectEvents(await getProjectEvents(project.source, { now }), now);
+const { upcoming, past } = await getProjectEventGroups(project.source, now);
 
 const label = eventsLabel(ended);
 const pageTitle = `${project.name} ${ended ? 'past events' : 'Events'}`;
