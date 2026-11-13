@@ -15,10 +15,28 @@ The catalogue covers more than 130 workflows across domains including
 microbiome analysis, genome assembly, variant calling, transcriptomics,
 epigenetics, and single-cell analysis.
 
-- Browse the catalogue: [iwc.galaxyproject.org](https://iwc.galaxyproject.org/)
-- Source and contribution guidelines: [github.com/galaxyproject/iwc](https://github.com/galaxyproject/iwc/)
+## The IWC workflow library
 
-## Using IWC workflows
+[**iwc.galaxyproject.org**](https://iwc.galaxyproject.org/) is the place to
+start. The library lets you search the whole collection and browse it by
+category — microbiome, vertebrate genome assembly, epigenetics,
+transcriptomics, variant calling and more — with the number of workflows shown
+for each.
+
+Every workflow gets its own thoroughly documented page, such as
+[RNA-Seq paired-end read processing and quantification](https://iwc.galaxyproject.org/workflow/rnaseq-pe-main/),
+explaining what the workflow does, the inputs it expects, the outputs it
+produces, and its version history.
+
+From that page you can **import the workflow into your account on a public
+Galaxy server in a single click** — optionally along with its test data, so you
+can run it straight away and see what a finished analysis looks like before
+pointing it at your own data.
+
+The source and contribution guidelines live at
+[github.com/galaxyproject/iwc](https://github.com/galaxyproject/iwc/).
+
+## Other ways to get IWC workflows
 
 IWC workflows are **automatically installed on the usegalaxy.\* servers**, so on
 Galaxy Main, Galaxy Europe, or Galaxy Australia you can run one without
