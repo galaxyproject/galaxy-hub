@@ -26,8 +26,8 @@ money and give you an opportunity to present your work.
 
 | Date | | What |
 | --- | :---: | --- |
-| November 15, 2026 | 🟢 | 🎓 [Fellowship](/events/gcc2027/fellowships/) applications open |
-| November 15, 2026 | 🟢 | 🎟️ [Registration](/events/gcc2027/register/) and 📝 [abstract submission](/events/gcc2027/abstracts/) open |
+| November 18, 2026 | 🟢 | 🎓 [Fellowship](/events/gcc2027/fellowships/) applications open |
+| November 18, 2026 | 🟢 | 🎟️ [Registration](/events/gcc2027/register/) and 📝 [abstract submission](/events/gcc2027/abstracts/) open |
 | February 15, 2027 | 🔴 | 🎓 Fellowship applications due for the first review round |
 | February 28, 2027 | 🔴 | 🎟️ Early bird registration closes |
 | March 15, 2027 | 🔴 | 🎓 Fellowship applications close (second review round) |
@@ -42,5 +42,4 @@ money and give you an opportunity to present your work.
 
 </div>
 
-Note that all deadlines are [End of Day, Anywhere on Earth
-time](https://time.is/Anywhere_on_Earth).
+Note that all deadlines are at midnight (end of the day) [Montréal time](https://time.is/Montreal) (Eastern Time).

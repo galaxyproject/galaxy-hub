@@ -20,7 +20,7 @@ autotoc: false
 # GCC2027 Abstracts
 
 <div class="alert alert-info" role="alert">
-Abstract submission for GCC2027 opens on November 15, 2026.
+Abstract submission for GCC2027 opens on November 18, 2026.
 </div>
 
 Presentations from the community are a core component of GCCs. These include
@@ -41,9 +41,11 @@ greatly. Topics of interest include but are not limited to the following areas:
 
 | Date | | What |
 | --- | :---: | --- |
-| November 15, 2026 | 🟢 | 📝 Abstract submission opens |
+| November 18, 2026 | 🟢 | 📝 Abstract submission opens |
 | April 15, 2027 | 🔴 | 🎤 Abstracts due for talks |
 | May 17, 2027 | 🔴 | 🖼️ Abstracts due for posters/demos |
+
+Deadlines are at midnight (end of the day) [Montréal time](https://time.is/Montreal) (Eastern Time).
 
 ## Abstract submission guidelines
 

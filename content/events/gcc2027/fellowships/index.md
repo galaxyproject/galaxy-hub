@@ -53,12 +53,12 @@ committee then awards one of three levels of support:
 
 | Date | | What |
 | --- | :---: | --- |
-| November 15, 2026 | 🟢 | 🎓 Applications open |
+| November 18, 2026 | 🟢 | 🎓 Applications open |
 | February 15, 2027 | 🔴 | 🎓 Apply by this date for the first review round |
 | March 15, 2027 | 🔴 | 🎓 Applications close |
 | March 25, 2027 | 🏆 | 🎓 Awards announced |
 
-Deadlines are [End of Day, Anywhere on Earth time](https://time.is/Anywhere_on_Earth).
+Deadlines are at midnight (end of the day) [Montréal time](https://time.is/Montreal) (Eastern Time).
 
 ## Before you apply
 

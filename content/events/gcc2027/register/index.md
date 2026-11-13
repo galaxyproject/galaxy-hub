@@ -43,7 +43,7 @@ autotoc: false
 # GCC2027 Registration
 
 <div class="alert alert-info" role="alert">
-Registration for GCC2027 opens on November 15, 2026.
+Registration for GCC2027 opens on November 18, 2026.
 </div>
 
 <div class="alert alert-warning" role="alert">
@@ -66,6 +66,8 @@ to see how these numbers compare.
 | Student / postdoc | CAD 400 | CAD 450 | CAD 550   |
 | Academic / Non-profit / Government | CAD 450 | CAD 500 | CAD 600   |
 | Industry          | CAD 650 | CAD 975 | CAD 1,450 |
+
+Registration rates change at midnight (end of the listed day) [Montréal time](https://time.is/Montreal) (Eastern Time).
 
 ## Add up your week
 
