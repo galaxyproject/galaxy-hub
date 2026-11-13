@@ -2,10 +2,9 @@
 description: "A tailored landing page and toolbox over an existing Galaxy server, built and maintained by the research community it serves"
 autotoc: false
 title: "Galaxy Labs"
-redirect: "https://labs.usegalaxy.org.au/"
 ---
 
-## Galaxy Labs
+## A Galaxy tailored to a research community
 
 A Galaxy Lab is a customised "skin" over an existing Galaxy server: an
 alternative landing page and toolbox, served from a subdomain of the base site —
@@ -13,6 +12,9 @@ for example [microbiology.usegalaxy.eu](https://microbiology.usegalaxy.eu/). The
 Galaxy underneath is unchanged, with the same accounts, histories and compute;
 what differs is what a researcher lands on and how much of the toolbox they have
 to wade through to get started.
+
+To build one, or to read the Labs Engine documentation, start at
+**[labs.usegalaxy.org.au](https://labs.usegalaxy.org.au/)**.
 
 The curated toolbox is a Galaxy
 [tool panel view](https://docs.galaxyproject.org/en/master/admin/tool_panel.html#tool-panel-views):
