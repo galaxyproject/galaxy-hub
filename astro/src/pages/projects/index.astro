@@ -1,7 +1,8 @@
 ---
 /**
- * Projects index: project sections with their status and dates (content/projects/<id>/main.md),
- * then the other project pages under content/projects/, and external project sites last.
+ * Projects index: entries grouped as active project sections (content/projects/<id>/main.md,
+ * with their status and dates), then the other project pages under content/projects/, then
+ * external project sites, then completed project sections.
  */
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHeader from '../../components/layout/PageHeader.astro';
@@ -9,6 +10,7 @@ import Icon from '../../components/mdx/Icon.astro';
 import { getEntry } from 'astro:content';
 import { getGrant } from '../../utils/contributors';
 import { getProjectIndex } from '../../utils/projectPages';
+import { groupProjectIndex } from '../../utils/projectIndex';
 import { countLabel, projectDuration, projectStatus, statusBadgeLabel } from '../../utils/projectFacts';
 
 const now = new Date();
@@ -19,6 +21,7 @@ const projects = (await getProjectIndex(now)).map((project) => ({
   dates: project.facts && projectDuration(project.facts)?.short,
   host: project.external ? new URL(project.href).host : undefined,
 }));
+const groups = groupProjectIndex(projects, now);
 // Projects Galaxy takes part in that have no page of their own; names and links come from GRANTS.yaml.
 const participation = (await getEntry('datasets', 'project-participation'))?.data as
   { heading?: string; intro?: string; grants?: string[] } | undefined;
@@ -26,7 +29,6 @@ const alsoTakesPartIn = (participation?.grants ?? [])
   .map((id) => getGrant(id))
   .filter((grant) => grant?.name)
   .sort((a, b) => a!.name!.localeCompare(b!.name!));
-
 const description = 'Projects and community efforts around Galaxy, with their own pages on the Hub.';
 const externalCount = projects.filter((project) => project.external).length;
 const onHub = `${countLabel(projects.length - externalCount, 'project')} on the Hub`;
@@ -39,29 +41,34 @@ const count = externalCount > 0 ? `${onHub}, ${countLabel(externalCount, 'extern
 
     <div class="bg-white px-4 sm:px-8 py-6 rounded-b-lg shadow-sm">
       <p class="text-sm text-chicago-700 mb-4" data-project-count>{count}</p>
-      <ul class="project-cards" data-project-index>
-        {projects.map((project) => <li class="project-card">
-          {(project.badge || project.dates || project.host) && <p class="project-card__meta">
-            {project.badge && <span class="project-card__badge" data-project-status={project.status}>
-              {project.badge}
-            </span>}
-            {project.dates && <span>{project.dates}</span>}
-            {project.host && <span>External site · {project.host}</span>}
-          </p>}
-          <h2 class="project-card__title">
-            {project.external ? (
-              <a class="project-card__link" href={project.href} target="_blank" rel="noopener noreferrer">
-                {project.title}
-                <span aria-hidden="true"><Icon name="external-link" size={14} /></span>
-                <span class="sr-only"> (opens in a new tab)</span>
-              </a>
-            ) : (
-              <a class="project-card__link" href={project.href}>{project.title}</a>
-            )}
-          </h2>
-          {project.description && <p class="project-card__desc">{project.description}</p>}
-        </li>)}
-      </ul>
+      <div data-project-index>
+        {groups.map((group) => <section class="project-group" data-project-group={group.key}>
+          <h2 class="project-group__title">{group.title}</h2>
+          <ul class="project-cards">
+            {group.items.map((project) => <li class="project-card">
+              {(project.badge || project.dates || project.host) && <p class="project-card__meta">
+                {project.badge && <span class="project-card__badge" data-project-status={project.status}>
+                  {project.badge}
+                </span>}
+                {project.dates && <span>{project.dates}</span>}
+                {project.host && <span>External site · {project.host}</span>}
+              </p>}
+              <h3 class="project-card__title">
+                {project.external ? (
+                  <a class="project-card__link" href={project.href} target="_blank" rel="noopener noreferrer">
+                    {project.title}
+                    <span aria-hidden="true"><Icon name="external-link" size={14} /></span>
+                    <span class="sr-only"> (opens in a new tab)</span>
+                  </a>
+                ) : (
+                  <a class="project-card__link" href={project.href}>{project.title}</a>
+                )}
+              </h3>
+              {project.description && <p class="project-card__desc">{project.description}</p>}
+            </li>)}
+          </ul>
+        </section>)}
+      </div>
 
       {alsoTakesPartIn.length > 0 && <section class="project-participation">
         <h2 class="project-participation__title">{participation?.heading ?? 'Galaxy also takes part in'}</h2>
@@ -81,6 +88,20 @@ const count = externalCount > 0 ? `${onHub}, ${countLabel(externalCount, 'extern
 </BaseLayout>
 
 <style>
+  .project-group + .project-group {
+    margin-top: 28px;
+  }
+
+  .project-group__title {
+    margin: 0 0 12px;
+    font-size: 0.8125rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-galaxy-grey);
+  }
+
   .project-cards {
     display: grid;
     gap: 12px;

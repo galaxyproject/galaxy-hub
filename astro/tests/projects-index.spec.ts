@@ -2,6 +2,7 @@ import { test, expect } from '@playwright/test';
 
 // /projects/ lists the project sections (with status and dates) and the other project pages from
 // content/projects/; pages that redirect inside the Hub are left out, BRC links to its own site.
+// Entries are grouped: active sections, then plain pages, then external sites, then completed ones.
 const internal = [
   '/projects/esg4stars/',
   '/projects/esg/',
@@ -11,7 +12,7 @@ const internal = [
 ];
 
 test.describe('Projects index', () => {
-  test('lists the project pages, running projects first', async ({ page }) => {
+  test('lists the project pages, grouped with active first and completed last', async ({ page }) => {
     await page.setViewportSize({ width: 1440, height: 900 });
     const response = await page.goto('/projects/');
     expect(response?.status()).toBe(200);
@@ -19,15 +20,29 @@ test.describe('Projects index', () => {
     await expect(page.locator('#main-content h1')).toHaveText('Projects');
 
     const list = page.locator('[data-project-index]');
-    const cards = list.locator(':scope > li');
+    const cards = list.locator('li');
     // Known pages are listed; new project pages may join without breaking this
     const hrefs = await list.getByRole('link').evaluateAll((els) => els.map((a) => a.getAttribute('href')));
-    expect(hrefs.slice(0, 2)).toEqual(['/projects/esg4stars/', '/projects/esg/']);
     expect(hrefs).toEqual(expect.arrayContaining([...internal, 'https://brc-analytics.org/']));
     expect(hrefs).not.toContain('/projects/singlecell/');
     expect(hrefs).not.toContain('/projects/small-scale-admins/');
     // Moved to its SIG page, so it redirects inside the Hub and drops out of the index
     expect(hrefs).not.toContain('/projects/mass-spectrometry/');
+
+    // The groups follow PROJECT_GROUPS order, and each entry sits in the group its facts put it in
+    const groups = page.locator('[data-project-group]');
+    const shown = await groups.evaluateAll((els) => els.map((el) => el.getAttribute('data-project-group')));
+    expect(shown).toEqual(['active', 'page', 'external', 'ended']);
+    await expect(page.locator('[data-project-group="active"] h2')).toHaveText('Active projects');
+    const inGroup = (key: string) =>
+      page
+        .locator(`[data-project-group="${key}"]`)
+        .getByRole('link')
+        .evaluateAll((els) => els.map((a) => a.getAttribute('href')));
+    expect(await inGroup('active')).toContain('/projects/esg4stars/');
+    expect(await inGroup('page')).toContain('/projects/vgp/');
+    expect(await inGroup('external')).toContain('https://brc-analytics.org/');
+    expect(await inGroup('ended')).toContain('/projects/esg/');
     // The count tells Hub pages and external sites apart
     const onHub = hrefs.filter((href) => href?.startsWith('/')).length;
     const external = hrefs.length - onHub;
@@ -64,7 +79,7 @@ test.describe('Projects index', () => {
   test('the whole card opens the project', async ({ page }) => {
     await page.setViewportSize({ width: 1440, height: 900 });
     await page.goto('/projects/');
-    const card = page.locator('[data-project-index] > li').filter({ has: page.getByRole('link', { name: 'ESG4Stars' }) });
+    const card = page.locator('[data-project-index] li').filter({ has: page.getByRole('link', { name: 'ESG4Stars' }) });
     const box = (await card.boundingBox())!;
     await page.mouse.click(box.x + box.width - 12, box.y + box.height - 12);
     await expect(page).toHaveURL(/\/projects\/esg4stars\/$/);
