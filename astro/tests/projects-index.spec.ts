@@ -7,7 +7,6 @@ const internal = [
   '/projects/esg4stars/',
   '/projects/esg/',
   '/projects/covid19/',
-  '/projects/mass-spectrometry/',
   '/projects/mpxv/',
   '/projects/vgp/',
 ];
@@ -27,6 +26,8 @@ test.describe('Projects index', () => {
     expect(hrefs).toEqual(expect.arrayContaining([...internal, 'https://brc-analytics.org/']));
     expect(hrefs).not.toContain('/projects/singlecell/');
     expect(hrefs).not.toContain('/projects/small-scale-admins/');
+    // Moved to its SIG page, so it redirects inside the Hub and drops out of the index
+    expect(hrefs).not.toContain('/projects/mass-spectrometry/');
 
     // The groups follow PROJECT_GROUPS order, and each entry sits in the group its facts put it in
     const groups = page.locator('[data-project-group]');

@@ -283,6 +283,24 @@ Brand-tinted note box for asides and "good to know" content. Replaces Bootstrap 
 
 `.callout`: `bg-bay-of-many-100`, `border-l-4 border-l-galaxy-primary`, rounded right corners, galaxy-dark text.
 
+### Key Dates Table
+
+Dated milestones (openings, deadlines, results) as a plain Markdown table. `gx-dates` expects three columns, **Date | status icon | What**; wrap the table in it (blank lines around it so Markdown renders):
+
+```html
+<div class="gx-dates">
+
+| Date | | What |
+| --- | --- | --- |
+| November 15, 2026 | 🟢 | 🎓 Applications open |
+| March 15, 2027 | 🔴 | 🎓 Applications close |
+| March 25, 2027 | 🏆 | 🎓 Awards announced |
+
+</div>
+```
+
+`gx-dates` centres the second (status icon) column and shrinks it to its content; keep that column to icons only. Icons used on the conference pages: 🟢 opens, 🔴 deadline, 🏆 results, 🎉 conference week. Markdown column alignment (`:---:`, `---:`) works on every page, independently of `gx-dates`.
+
 ### Profile Row
 
 Photo + bio row for people (fellowship awardees, organizers, etc.). Photo left / bio right on desktop; stacks (photo on top) below 768px.

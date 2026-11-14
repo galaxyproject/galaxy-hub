@@ -19,6 +19,7 @@ patterns:
 
 # Simple redirects — exact path mappings (from → to).
 redirects:
+  /projects/capquant/: /community-projects/capquant/
   /event/2020-11-24-metabolomics/: /events/2020-12-10-metabolomics/
   /event/2020-11-24-metabolomics/plain.html: /events/2020-12-10-metabolomics/
   /event/2020-11-24-metabolomics/event.ics: /events/2020-12-10-metabolomics/

@@ -1,0 +1,26 @@
+# Projects that fund or host Galaxy work but do not have a page of their own
+# on the Hub. Rendered at the foot of /projects/.
+#
+# Each entry is a key in content/GRANTS.yaml -- the name and link come from
+# there, so this file stays a list of decisions, not a copy of the data.
+#
+# A project with its own page under content/projects/ belongs there as a card
+# instead, not in this list.
+heading: Galaxy also takes part in
+intro: >-
+  Projects that fund or host Galaxy work without having a page of their own
+  here.
+grants:
+  - ai4life
+  - ai4social
+  - biont
+  - by-covid
+  - elixir-steers
+  - eosc-life
+  - eosc-mesh
+  - fairease
+  - gaiadata
+  - materialvitaldigital
+  - moorev
+  - nfdi4bioimage
+  - nfdi4plants

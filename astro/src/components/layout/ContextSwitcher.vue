@@ -81,7 +81,8 @@ function onKeydown(event: KeyboardEvent) {
 // Tab out of the header or the menu closes it
 function onFocusOut(event: FocusEvent) {
   const next = event.relatedTarget as Node | null;
-  if (open.value && next && !root.value?.contains(next)) hide();
+  // WebKit focuses the enclosing dialog (an ancestor of root) on link tap; hiding then would eat the click
+  if (open.value && next && !root.value?.contains(next) && !next.contains(root.value)) hide();
 }
 
 function onDocumentPointerDown(event: PointerEvent) {
