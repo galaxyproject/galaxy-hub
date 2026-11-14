@@ -6,7 +6,6 @@ const internal = [
   '/projects/esg4stars/',
   '/projects/esg/',
   '/projects/covid19/',
-  '/projects/mass-spectrometry/',
   '/projects/mpxv/',
   '/projects/vgp/',
 ];
@@ -27,6 +26,8 @@ test.describe('Projects index', () => {
     expect(hrefs).toEqual(expect.arrayContaining([...internal, 'https://brc-analytics.org/']));
     expect(hrefs).not.toContain('/projects/singlecell/');
     expect(hrefs).not.toContain('/projects/small-scale-admins/');
+    // Moved to its SIG page, so it redirects inside the Hub and drops out of the index
+    expect(hrefs).not.toContain('/projects/mass-spectrometry/');
     // The count tells Hub pages and external sites apart
     const onHub = hrefs.filter((href) => href?.startsWith('/')).length;
     const external = hrefs.length - onHub;

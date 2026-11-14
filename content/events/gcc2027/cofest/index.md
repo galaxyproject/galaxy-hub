@@ -8,7 +8,7 @@ autotoc: false
 # GCC2027 CollaborationFest (CoFest!)
 
 <div class="not-prose flex justify-center my-6">
-  <div class="inline-flex flex-wrap max-w-full overflow-hidden rounded-lg border-2 border-galaxy-primary">
+  <div class="inline-flex flex-wrap max-w-full overflow-hidden rounded-lg" style="border: 2px solid var(--color-galaxy-primary);">
     <span class="flex items-center justify-center bg-galaxy-primary px-4 py-2 text-xs font-semibold uppercase tracking-wider text-white whitespace-nowrap" style="flex: 1 1 auto;">CoFest</span>
     <span class="px-5 py-2 text-center leading-tight" style="flex: 1 1 auto;">
       <span class="block text-2xl font-bold text-galaxy-dark">June&nbsp;30 – July&nbsp;1, 2027</span>

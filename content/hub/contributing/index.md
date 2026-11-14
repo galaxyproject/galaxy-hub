@@ -17,6 +17,8 @@ First, make sure you have a Github account. Then, go to the [repository page](ht
 
 ### Adding a page
 
+Writing a news item or event? Use the [post creator](/hub/contributing/new/). It builds the file for you and opens it on GitHub.
+
 If you'd just like to create an entirely new page, then, on the main Github repository page, click the "Add file" button in the upper right. Then click "Create new file". In the new page that comes up, enter the path where your file should live in the box that says "Name your file". The path should start with "content", then the url where your page should be created, then "index.md". For instance, if you want to create a page at `https://galaxyproject.org/path/to/test-page/`, then you should type "content/path/to/test-page/index.md" in the box. Each time you hit `/`, Github will create a directory out of the last bit you typed. See the [file organization page](/hub/contributing/file-organization/) for a more detailed understanding of how the files and folders are placed.
 
 Then in the main text box, type the contents of the page. It's best to use an existing `index.md` file as a reference.
