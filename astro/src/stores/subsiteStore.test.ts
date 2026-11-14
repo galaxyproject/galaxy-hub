@@ -2,12 +2,12 @@ import { describe, expect, it } from 'vitest';
 import { getSubsiteStaticPaths, subsites } from './subsiteStore';
 
 describe('European member subsites', () => {
-  it('registers GenOuest for native subsite routes', () => {
+  it('registers Galaxy France for native subsite routes', () => {
     expect(subsites).toContainEqual({
-      id: 'genouest',
-      name: 'GenOuest',
-      path: '/genouest/',
+      id: 'ifb',
+      name: 'France',
+      path: '/ifb/',
     });
-    expect(getSubsiteStaticPaths().map(({ params }) => params.subsite)).toContain('genouest');
+    expect(getSubsiteStaticPaths().map(({ params }) => params.subsite)).toContain('ifb');
   });
 });

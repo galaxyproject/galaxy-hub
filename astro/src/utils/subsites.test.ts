@@ -49,13 +49,11 @@ describe('contentMatchesSubsite', () => {
   it('does not match all-eu outside the EU group', () => {
     expect(contentMatchesSubsite(['all-eu'], 'global')).toBe(false);
     expect(contentMatchesSubsite(['all-eu'], 'us')).toBe(false);
-    expect(contentMatchesSubsite(['all-eu'], 'genouest')).toBe(false);
   });
 
   it('treats all-fr as an ordinary tag, not a group', () => {
     expect(contentMatchesSubsite(['all-fr'], 'fr')).toBe(false);
     expect(contentMatchesSubsite(['all-fr'], 'ifb')).toBe(false);
-    expect(contentMatchesSubsite(['all-fr'], 'genouest')).toBe(false);
   });
 
   it('keeps arbitrary tags as direct matches only', () => {
