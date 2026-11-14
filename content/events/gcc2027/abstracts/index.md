@@ -5,18 +5,6 @@ nav_order: 3
 autotoc: false
 ---
 
-<style>
-  /* Respect markdown column alignment (the typography plugin forces text-align: start) */
-  .prose :where(th, td)[align='center'] {
-    text-align: center;
-    /* shrink the icon column to its content */
-    width: 1%;
-    white-space: nowrap;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-</style>
-
 # GCC2027 Abstracts
 
 <div class="alert alert-info" role="alert">
@@ -39,11 +27,15 @@ greatly. Topics of interest include but are not limited to the following areas:
 
 <!-- TODO: abstract notification dates -->
 
+<div class="gx-dates">
+
 | Date | | What |
-| --- | :---: | --- |
+| --- | --- | --- |
 | November 18, 2026 | 🟢 | 📝 Abstract submission opens |
 | April 15, 2027 | 🔴 | 🎤 Abstracts due for talks |
 | May 17, 2027 | 🔴 | 🖼️ Abstracts due for posters/demos |
+
+</div>
 
 Deadlines are at midnight (end of the day) [Montréal time](https://time.is/Montreal) (Eastern Time).
 
