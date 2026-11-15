@@ -36,6 +36,27 @@ pointing it at your own data.
 The source and contribution guidelines live at
 [github.com/galaxyproject/iwc](https://github.com/galaxyproject/iwc/).
 
+## Curated workflows, inside Galaxy
+
+From **Galaxy 26.2** the Workflows page has a **Curated workflows** tab, and by
+default it lists the IWC catalogue. No account is needed to browse it and
+nothing has to be imported first — Galaxy refreshes the catalogue from IWC every
+hour and shows it alongside your own workflows.
+
+You can search it by name, description and tag, and narrow it with the
+collection buttons above the search: Microbiome, Vertebrate Genome Project,
+Epigenetics, Transcriptomics and the rest.
+
+There is also a **Ready to run here** filter, which hides every workflow whose
+tools are not all installed on that particular server. It answers the question
+that matters once you have found a promising workflow — will this actually run,
+on this Galaxy, without an administrator installing anything first?
+
+Administrators choose where the tab gets its workflows with the
+`curated_workflows_source` setting. It defaults to `iwc`; `local` lists the
+published workflows of named accounts on that server instead, and `off` removes
+the tab.
+
 ## How workflows are reviewed
 
 Anyone can contribute a production workflow. Contributions go through a pull
