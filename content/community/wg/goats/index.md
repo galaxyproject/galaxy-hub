@@ -99,11 +99,5 @@ The best way to start is to join the Matrix channel and say hello.
 
 **Organisers:** Delphine Larivière and Natalie Whitaker-Allen.
 
-## Working materials
-
-Some of these need access, and are listed for members rather than as public
-documentation.
-
-- [GitHub project board](https://github.com/orgs/galaxyproject/projects/15)
-- [Google Drive folder](https://drive.google.com/drive/folders/1KIircdXhvS7-00XZy1uIs6Dmja29yjAW)
-- [Support charter and priorities](https://docs.google.com/document/d/1YsTnGUAbh1g3z2WSmR7TKGhSPUTWCsQrz5hcCgbsTKY/edit#heading=h.9cp679lig0rf)
+Members also use a [shared Drive folder](https://drive.google.com/drive/folders/1KIircdXhvS7-00XZy1uIs6Dmja29yjAW)
+for working documents, which needs access to open.
