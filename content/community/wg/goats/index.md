@@ -44,6 +44,28 @@ takes on a cross-cutting area of the project itself. GOATS works with SIGs
 rather than replacing them — a SIG that needs training material or help reaching
 its community is a natural GOATS collaborator.
 
+## Meetings
+
+GOATS meets weekly, and moves the time according to the week of the month.
+Galaxy's outreach and training people are spread across the Americas, Europe and
+Australia, and no single hour is reasonable for all three at once — so rather
+than fixing one time and quietly excluding a third of the group, each week pairs
+two regions at hours that work for both. **Everyone, wherever they are, gets at
+least two calls a month at a sensible local hour.**
+
+| Week of the month | Day | Western US | Eastern US | Central Europe | Australia |
+|---|---|---|---|---|---|
+| **First** — US + Europe | Wednesday | 8:00 a.m. | 11:00 a.m. | 5:00 p.m. | 1:00 a.m. Thu |
+| **Second** — US + Australia | Monday / Tuesday | 4:00 p.m. Mon | 7:00 p.m. Mon | 1:00 a.m. Tue | 9:00 a.m. Tue |
+| **Third** — US + Europe | Thursday | 6:00 a.m. | 9:00 a.m. | 3:00 p.m. | 11:00 p.m. |
+| **Fourth** — Europe + Australia | Tuesday | 1:00 a.m. | 4:00 a.m. | 10:00 a.m. | 6:00 p.m. |
+
+When a month runs to a fifth week, there is no call that week.
+
+Each week is named for the two regions it is meant to suit; the other times are
+shown so you can tell at a glance whether a given week's call is one you would
+want to be awake for. You are welcome at any of them, not only your region's.
+
 ## Taking part
 
 Everyone is welcome. Outreach, training and support need far more than
