@@ -110,8 +110,6 @@ Public transit across Greater Montréal is coordinated by the **[Autorité régi
 | **3-day** | **$29.25** | Unlimited travel for 3 consecutive days (expires 11:59 PM on day 3) |
 | **Monthly** | **$170.00** | Unlimited travel for the calendar month (includes the 747 airport shuttle) |
 
-> **Money-saving tip:** If you are making a round trip starting in Montréal (Zone A), it is cheaper to buy a **1-trip Zone A** ticket (**$3.75**) to travel to Longueuil (Zone B) and exit there, and then buy a **1-trip All Modes AB** ticket (**$5.00**) for the return trip (**$8.75** total), rather than buying a **2-trip All Modes AB** ticket (**$9.75**).
-
 You can plan routes in real time using the **[Chrono mobile app](https://www.artm.quebec/en/chrono-mobile-application/)**, Google Maps, or the locally developed **[Transit app](https://transitapp.com/)**.
 
 ### South Shore Buses (RTL)
