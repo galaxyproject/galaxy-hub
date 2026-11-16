@@ -96,6 +96,7 @@ This group builds the standards and ecosystem for execution, testing, publishing
 Coordinate and guide Galaxy's Outreach & Training efforts, as well as user, admin, and developer support and documentation.
 Galaxy Outreach And Training (And) Support = GOATS!
 
+* [**About GOATS**](/community/wg/goats/)
 * [GitHub Project](https://github.com/orgs/galaxyproject/projects/15)
 * [Google Drive](https://drive.google.com/drive/folders/1KIircdXhvS7-00XZy1uIs6Dmja29yjAW)
 * [Matrix Channel](https://matrix.to/#/#galaxyproject_wg-goat:gitter.im)
