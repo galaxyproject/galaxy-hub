@@ -1,5 +1,12 @@
 import { describe, expect, it } from 'vitest';
-import { contextFromPath, contextMenuGroups, contextPersistKey, projectContextIds, projectLinks } from './siteContext';
+import {
+  contextFromPath,
+  contextMenuGroups,
+  contextPersistKey,
+  eventsLabel,
+  projectContextIds,
+  projectLinks,
+} from './siteContext';
 
 describe('contextFromPath', () => {
   it('uses the region for region-prefixed URLs', () => {
@@ -42,13 +49,38 @@ describe('contextFromPath', () => {
       name: 'ESG4Stars',
       href: '/projects/esg4stars/',
     });
-    expect(projectLinks('esg4stars').map((link) => link.href)).toEqual([
+    expect(projectLinks('esg4stars', { ended: false }).map((link) => link.href)).toEqual([
       '/projects/esg4stars/',
       '/projects/esg4stars/news/',
       '/projects/esg4stars/events/',
     ]);
     expect(contextFromPath('/projects/')).toMatchObject({ kind: 'global' });
     expect(projectContextIds()).toEqual(['esg', 'esg4stars']);
+  });
+});
+
+describe('projectLinks', () => {
+  it('names the events link from the project status, so it flips when the project ends', () => {
+    expect(projectLinks('esg4stars', { ended: false }).map((link) => link.label)).toEqual([
+      'Overview',
+      'News',
+      'Events',
+    ]);
+    expect(projectLinks('esg4stars', { ended: true })).toEqual([
+      { label: 'Overview', href: '/projects/esg4stars/' },
+      { label: 'News', href: '/projects/esg4stars/news/' },
+      { label: 'Past events', href: '/projects/esg4stars/events/' },
+    ]);
+  });
+
+  it('is empty outside a project context', () => {
+    expect(projectLinks('freiburg', { ended: false })).toEqual([]);
+    expect(projectLinks('global', { ended: true })).toEqual([]);
+  });
+
+  it('labels the events section', () => {
+    expect(eventsLabel(true)).toBe('Past events');
+    expect(eventsLabel(false)).toBe('Events');
   });
 });
 

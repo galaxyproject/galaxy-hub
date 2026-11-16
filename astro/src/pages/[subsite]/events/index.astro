@@ -5,7 +5,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 import PageHeader from '../../../components/layout/PageHeader.astro';
 import EventsList from '../../../components/events/EventsList.vue';
 import { subsites } from '../../../stores/subsiteStore';
-import { renderMarkdownInline } from '../../../utils/markdown';
+import { renderMarkdownTeaser } from '../../../utils/markdown';
 
 export function getStaticPaths() {
   // Generate paths for all non-external subsites (excluding global which uses /events/)
@@ -34,7 +34,7 @@ const eventData = events.map((e) => ({
   date: e.data.date instanceof Date ? e.data.date.toISOString() : e.data.date,
   end: e.data.end instanceof Date ? e.data.end?.toISOString() : e.data.end,
   tease: e.data.tease,
-  teaseHtml: renderMarkdownInline(e.data.tease),
+  teaseHtml: renderMarkdownTeaser(e.data.tease),
   location: e.data.location,
   tags: eventTags(e.data.tags),
   subsites: e.data.subsites,

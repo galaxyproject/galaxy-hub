@@ -1,6 +1,7 @@
 ---
 /**
- * EuroScienceGateway news: listed news tagged esg, in the shared news list (search, year and tag filters).
+ * News page of a project section (/projects/<id>/news/): listed news from the project's feed, in the
+ * shared news list (search, year and tag filters). One route serves every project in siteContext.ts.
  */
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import ProjectPageTop from '../../../components/projects/ProjectPageTop.astro';
@@ -10,15 +11,21 @@ import { getInsert } from '../../../utils/content';
 import { newsListItems } from '../../../utils/newsList';
 import { servedImageCheck } from '../../../utils/publicImage';
 import { getProject, getProjectNews } from '../../../utils/projectPages';
+import { projectContextIds } from '../../../utils/siteContext';
 
-const project = await getProject('esg');
-const intro = (await getInsert('projects/esg/news'))?.data as { description?: string } | undefined;
-const esgNews = await getProjectNews(project.source);
-const newsHref = '/projects/esg/news/';
+export function getStaticPaths() {
+  return projectContextIds().map((id) => ({ params: { project: id }, props: { id } }));
+}
+
+const { id } = Astro.props as { id: string };
+const project = await getProject(id);
+const intro = (await getInsert(`projects/${id}/news`))?.data as { description?: string } | undefined;
+const news = await getProjectNews(project.source);
+const newsHref = `/projects/${id}/news/`;
 
 // Plain objects for the Vue island, mapped like /news/ (teaser HTML, tile image). No initialSubsite:
 // /projects/ URLs resolve to the global subsite, so the list shows every article passed in.
-const articleData = newsListItems(esgNews, servedImageCheck());
+const articleData = newsListItems(news, servedImageCheck());
 ---
 
 <BaseLayout title={`News | ${project.name}`} description={intro?.description ?? `News from ${project.name}`}>
@@ -28,11 +35,11 @@ const articleData = newsListItems(esgNews, servedImageCheck());
       name={project.name}
       description={project.description}
       facts={project.facts}
-      counts={{ [newsHref]: esgNews.length }}
+      counts={{ [newsHref]: news.length }}
       title={`${project.name} News`}
       lead={intro?.description}
     />
     <NewsList client:load articles={articleData} path={Astro.url.pathname} />
-    <ProjectFunding slug="projects/esg/funding_notice" class="mt-10" />
+    <ProjectFunding slug={`projects/${id}/funding_notice`} class="mt-10" />
   </div>
 </BaseLayout>

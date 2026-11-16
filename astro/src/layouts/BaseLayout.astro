@@ -8,6 +8,7 @@ import SkipLink from '../components/layout/SkipLink.astro';
 import { detectSubsiteFromPath } from '../stores/subsiteStore';
 import { getSubsiteNavbar } from '../utils/navbar-content';
 import { contextPersistKey } from '../utils/siteContext';
+import { getProjectNavLinks } from '../utils/projectPages';
 import Icon from '../components/mdx/Icon.astro';
 
 interface Props {
@@ -28,6 +29,8 @@ const navbar = await getSubsiteNavbar(currentSubsite);
 // Keep the sidebar across view transitions only while the context (region, project, global) stays the same.
 // The directive goes on the <aside> itself: Astro ignores transition:persist on an Astro component.
 const sidebarPersistKey = contextPersistKey(Astro.url.pathname);
+// The project group's links, worked out at build time from the project's facts (empty outside a project)
+const projectNav = await getProjectNavLinks(Astro.url.pathname);
 ---
 
 <!doctype html>
@@ -55,7 +58,7 @@ const sidebarPersistKey = contextPersistKey(Astro.url.pathname);
     <SkipLink />
     <div class="site-shell flex min-h-screen overflow-x-clip">
       <!-- Sidebar (desktop only) -->
-      <Sidebar persistKey={sidebarPersistKey} navbar={navbar} initialSubsite={currentSubsite} />
+      <Sidebar persistKey={sidebarPersistKey} navbar={navbar} initialSubsite={currentSubsite} projectNav={projectNav} />
 
       <!-- Mobile header with Vue-powered menu -->
       <header
@@ -64,7 +67,13 @@ const sidebarPersistKey = contextPersistKey(Astro.url.pathname);
         <a href="/" class="block">
           <img src="/images/galaxy_logo_hub_white.svg" alt="Galaxy Community Hub" class="h-8 w-auto" />
         </a>
-        <MobileMenu client:load navbar={navbar} initialSubsite={currentSubsite} currentPath={Astro.url.pathname} />
+        <MobileMenu
+          client:load
+          navbar={navbar}
+          initialSubsite={currentSubsite}
+          currentPath={Astro.url.pathname}
+          projectNav={projectNav}
+        />
       </header>
 
       <!-- Main content area -->
