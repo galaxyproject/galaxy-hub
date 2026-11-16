@@ -38,7 +38,7 @@ A highlight for us was catching a glimpse of the [MareNostrum Ona](https://www.e
     alt="MareNostrum Ona quantum computer"
     style="margin: 0; width: 100%; height: 300px; object-fit: cover; object-position: center;" />
   <img 
-    src="./mareNostrum5.jpg"
+    src="./mare_nostrum5.jpg"
     alt="MareNostrum 5 supercomputer"
     style="margin: 0; width: 100%; height: 300px; object-fit: cover; object-position: center;" />
 </div>
