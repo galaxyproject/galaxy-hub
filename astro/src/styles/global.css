@@ -7,11 +7,15 @@
 @import './print.css';
 @plugin "@tailwindcss/typography";
 
+/* DESIGN.md names tokens in running text; do not scan it for class candidates. */
+@source not "../../DESIGN.md";
+
 @custom-variant dark (&:is(.dark *));
 
-/* Base styles */
+/* Base styles. Clip, not hidden: hidden makes html and body scroll containers, which
+   breaks position: sticky (the "On this page" rail). */
 html {
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -29,9 +33,22 @@ h6 {
   scroll-margin-top: 6rem;
 }
 
+/* Below lg the 5.5rem mobile header is fixed (BaseLayout pt-22); anchored headings
+   need its height plus 1.5rem of room, not 6rem. */
+@media (max-width: 63.99rem) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    scroll-margin-top: 7rem;
+  }
+}
+
 body {
   font-family: var(--font-sans);
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 @theme inline {
@@ -141,6 +158,252 @@ body {
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+/* ==========================================================================
+   Semantic roles (DESIGN.md §2 "Semantic roles"). Light values in :root, dark
+   values in .dark; nothing sets .dark yet. Raw values carry a --gx- prefix so
+   component-local custom properties (--surface, --line, --link) cannot shadow
+   them. Brand hex values appear only here; page code uses the role utilities.
+   ========================================================================== */
+@theme inline {
+  --color-fg: var(--gx-fg);
+  --color-fg-strong: var(--gx-fg-strong);
+  --color-fg-2: var(--gx-fg-2);
+  --color-fg-meta: var(--gx-fg-meta);
+  --color-fg-faint: var(--gx-fg-faint);
+  --color-fg-letter: var(--gx-fg-letter);
+  --color-fg-brand: var(--gx-fg-brand);
+  --color-link: var(--gx-link);
+  --color-link-hover: var(--gx-link-hover);
+  --color-link-line: var(--gx-link-line);
+  --color-link-hover-line: var(--gx-link-hover-line);
+  --color-page: var(--gx-page);
+  --color-surface: var(--gx-surface);
+  --color-surface-2: var(--gx-surface-2);
+  --color-surface-raised: var(--gx-surface-raised);
+  --color-surface-overlay: var(--gx-surface-overlay);
+  --color-surface-tint: var(--gx-surface-tint);
+  --color-surface-sunken: var(--gx-surface-sunken);
+  --color-line: var(--gx-line);
+  --color-line-brand: var(--gx-line-brand);
+  --color-line-strong: var(--gx-line-strong);
+  --color-line-input: var(--gx-line-input);
+  --color-focus: var(--gx-focus);
+  --color-focus-on-chrome: var(--gx-focus-on-chrome);
+  --color-brand: var(--gx-brand);
+  --color-on-brand: var(--gx-on-brand);
+  --color-selected: var(--gx-selected);
+  --color-on-selected: var(--gx-on-selected);
+  --color-accent-gold: var(--gx-accent-gold);
+  --color-accent-gold-hover: var(--gx-accent-gold-hover);
+  --color-on-accent-gold: var(--gx-on-accent-gold);
+  --color-chrome: var(--gx-chrome);
+  --color-chrome-fg: var(--gx-chrome-fg);
+  --color-chrome-fg-2: var(--gx-chrome-fg-2);
+  --color-chrome-meta: var(--gx-chrome-meta);
+  --color-chrome-line: var(--gx-chrome-line);
+  --color-chrome-field: var(--gx-chrome-field);
+  --color-ok-fg: var(--gx-ok-fg);
+  --color-ok-bg: var(--gx-ok-bg);
+  --color-ok-line: var(--gx-ok-line);
+  --color-past-fg: var(--gx-past-fg);
+  --color-past-bg: var(--gx-past-bg);
+  --color-past-line: var(--gx-past-line);
+  --color-info-fg: var(--gx-info-fg);
+  --color-info-bg: var(--gx-info-bg);
+  --color-warn-fg: var(--gx-warn-fg);
+  --color-warn-bg: var(--gx-warn-bg);
+  --color-danger-fg: var(--gx-danger-fg);
+  --color-danger-bg: var(--gx-danger-bg);
+
+  /* Compact type scale (DESIGN.md §3): text-h1 ... text-micro set size and line height. */
+  --text-h1: var(--gx-text-h1);
+  --text-h1--line-height: 1.2;
+  --text-h2: var(--gx-text-h2);
+  --text-h2--line-height: 1.3;
+  --text-h3: var(--gx-text-h3);
+  --text-h3--line-height: 1.4;
+  --text-h4: var(--gx-text-h4);
+  --text-h4--line-height: 1.5;
+  --text-body: var(--gx-text-body);
+  --text-body--line-height: 1.6;
+  --text-lead: var(--gx-text-lead);
+  --text-lead--line-height: 1.75rem;
+  --text-meta: var(--gx-text-meta);
+  --text-meta--line-height: 1.25rem;
+  --text-micro: var(--gx-text-micro);
+  --text-micro--line-height: 1rem;
+
+  /* Reading measure: max-w-measure (DESIGN.md §3 Prose, §5 Reading grid). */
+  --container-measure: var(--measure);
+}
+
+:root {
+  color-scheme: light;
+
+  /* text */
+  --gx-fg: #3c3c3d; /* chicago-900, 11.02:1 on white */
+  --gx-fg-strong: #2c3143; /* galaxy-dark, 12.90:1 */
+  --gx-fg-2: #4f4e50; /* chicago-700, 8.27:1 */
+  --gx-fg-meta: #58585a; /* galaxy-grey, 7.10:1 */
+  --gx-fg-faint: #878789; /* chicago-400, 3.59:1: decoration only, never text */
+  --gx-fg-letter: #5f7f9c; /* 4.20:1: large text only (>=24px or 18.66px bold, 3:1), A-Z index letters */
+  --gx-fg-brand: #1f4465; /* bay-of-many-950, 9.13:1 on surface-tint */
+  --gx-link: #25537b; /* galaxy-primary, 8.07:1 */
+  --gx-link-hover: #1f4465; /* 10.13:1 */
+  --gx-link-line: color-mix(in srgb, #25537b 40%, transparent);
+  --gx-link-hover-line: #d19e00; /* gold-600 underline; gold is never link text on light */
+
+  /* surfaces */
+  --gx-page: #ffffff;
+  --gx-surface: #ffffff;
+  --gx-surface-2: #f6f9fc;
+  --gx-surface-raised: #ffffff;
+  --gx-surface-overlay: #ffffff;
+  --gx-surface-tint: #edf4fa; /* light-bg */
+  --gx-surface-sunken: #f5f5f6; /* chicago-50 */
+
+  /* lines */
+  --gx-line: #e6e6e7; /* chicago-100 */
+  --gx-line-brand: rgb(37 83 123 / 0.16);
+  --gx-line-strong: rgb(37 83 123 / 0.34);
+  --gx-line-input: #878789; /* 3.59:1, meets 3:1 for control borders */
+  --gx-focus: #25537b;
+  --gx-focus-on-chrome: #ffd700;
+
+  /* fills */
+  --gx-brand: #25537b;
+  --gx-on-brand: #ffffff;
+  --gx-selected: #25537b;
+  --gx-on-selected: #ffffff;
+  --gx-accent-gold: #ffd700;
+  --gx-accent-gold-hover: #d19e00;
+  --gx-on-accent-gold: #2c3143; /* 9.20:1 on gold */
+
+  /* chrome: sidebar, mobile bar, footer (dark in both themes) */
+  --gx-chrome: #2c3143;
+  --gx-chrome-fg: #dfe2ea; /* 9.96:1 */
+  --gx-chrome-fg-2: #d3d6e2;
+  --gx-chrome-meta: #bbc0d2; /* 7.12:1 */
+  --gx-chrome-line: rgb(255 255 255 / 0.08);
+  --gx-chrome-field: #3c435c;
+
+  /* status (text on its own bg) */
+  --gx-ok-fg: #006b15; /* 6.16:1 */
+  --gx-ok-bg: #eef7ef;
+  --gx-ok-line: #b5d9bb;
+  --gx-past-fg: #4f4e50; /* 7.59:1 */
+  --gx-past-bg: #f5f5f6;
+  --gx-past-line: #d0d0d1;
+  --gx-info-fg: #25537b; /* 7.58:1 */
+  --gx-info-bg: #f1f9fe;
+  --gx-warn-fg: #7f5102; /* 6.68:1 */
+  --gx-warn-bg: #fefeea;
+  --gx-danger-fg: #91081b; /* 8.59:1 */
+  --gx-danger-bg: #fff3f3;
+
+  /* type (rem; the h1 grows from 26px to 30px at the sm breakpoint) */
+  --gx-text-h1: 1.625rem;
+  --gx-text-h2: 1.375rem;
+  --gx-text-h3: 1.125rem;
+  --gx-text-h4: 1rem;
+  --gx-text-body: 1rem;
+  --gx-text-lead: 1.125rem;
+  --gx-text-meta: 0.875rem;
+  --gx-text-micro: 0.75rem;
+
+  --measure: 72ch;
+  --measure-rail: 80ch;
+}
+
+@media (min-width: 40rem) {
+  :root {
+    --gx-text-h1: 1.875rem;
+  }
+}
+
+.dark {
+  color-scheme: dark;
+
+  --gx-fg: #d5d8df; /* 12.91:1 on #121419 */
+  --gx-fg-strong: #f0f1f4; /* 16.31:1 */
+  --gx-fg-2: #c0c4cc; /* 10.54:1 */
+  --gx-fg-meta: #a3a8b4; /* 7.74:1 */
+  --gx-fg-faint: #737a8c;
+  --gx-fg-letter: #6688aa; /* 4.97:1 */
+  --gx-fg-brand: #bfdaf4; /* 10.74:1 on surface-tint */
+  --gx-link: #8cbbe9; /* 9.12:1 */
+  --gx-link-hover: #bfdaf4; /* 12.77:1 */
+  --gx-link-line: color-mix(in srgb, #8cbbe9 50%, transparent);
+  --gx-link-hover-line: #ffd700;
+
+  --gx-page: #121419;
+  --gx-surface: #121419;
+  --gx-surface-2: #171a21;
+  --gx-surface-raised: #1b1e27;
+  --gx-surface-overlay: #232734;
+  --gx-surface-tint: #172536;
+  --gx-surface-sunken: #22262f;
+
+  --gx-line: #2a2e38;
+  --gx-line-brand: rgb(140 187 233 / 0.16);
+  --gx-line-strong: rgb(140 187 233 / 0.38);
+  --gx-line-input: #737a8c; /* 4.29:1 */
+  --gx-focus: #8cbbe9;
+  --gx-focus-on-chrome: #ffd700;
+
+  --gx-brand: #2b5f8e; /* white on it 6.71:1 */
+  --gx-on-brand: #ffffff;
+  --gx-selected: #8cbbe9;
+  --gx-on-selected: #10131a; /* 9.20:1 */
+  --gx-accent-gold: #ffd700;
+  --gx-accent-gold-hover: #ffe24d;
+  --gx-on-accent-gold: #2c3143;
+
+  --gx-chrome: #1c2030;
+  --gx-chrome-fg: #d7dae3; /* 11.57:1 */
+  --gx-chrome-fg-2: #c7cad6;
+  --gx-chrome-meta: #a9aec0; /* 7.32:1 */
+  --gx-chrome-line: rgb(255 255 255 / 0.08);
+  --gx-chrome-field: #292e3f;
+
+  --gx-ok-fg: #74d08e; /* 8.22:1 */
+  --gx-ok-bg: #12291a;
+  --gx-ok-line: #23512f;
+  --gx-past-fg: #c0c4cc; /* 8.66:1 */
+  --gx-past-bg: #22262f;
+  --gx-past-line: #3b404c;
+  --gx-info-fg: #80c3ea; /* 8.57:1 */
+  --gx-info-bg: #14202c;
+  --gx-warn-fg: #ffe848; /* 12.43:1 */
+  --gx-warn-bg: #2a2410;
+  --gx-danger-fg: #ff817b; /* 7.02:1 */
+  --gx-danger-bg: #2e1517;
+}
+
+/* Elevation (DESIGN.md §6): shadow-xs ... shadow-lg read these, so every shadow
+   utility follows the theme. Light values are Tailwind's defaults; dark ones are
+   darker and denser so cards still lift off a dark page. */
+@theme inline {
+  --shadow-xs: var(--gx-elev-xs);
+  --shadow-sm: var(--gx-elev-sm);
+  --shadow-md: var(--gx-elev-md);
+  --shadow-lg: var(--gx-elev-lg);
+}
+
+:root {
+  --gx-elev-xs: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --gx-elev-sm: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --gx-elev-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --gx-elev-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.dark {
+  --gx-elev-xs: 0 1px 2px 0 rgb(0 0 0 / 0.35);
+  --gx-elev-sm: 0 1px 2px rgb(0 0 0 / 0.35), 0 1px 3px rgb(0 0 0 / 0.25);
+  --gx-elev-md: 0 6px 16px -4px rgb(0 0 0 / 0.5), 0 2px 4px -2px rgb(0 0 0 / 0.3);
+  --gx-elev-lg: 0 18px 48px -8px rgb(0 0 0 / 0.7);
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
@@ -168,9 +431,48 @@ body {
 
 /* Galaxy-branded prose styles */
 .prose {
-  --tw-prose-links: #25537b;
-  --tw-prose-headings: #2c3143;
+  --tw-prose-links: var(--gx-link);
+  --tw-prose-headings: var(--gx-fg-strong);
   overflow-wrap: break-word;
+}
+
+/* Compact reading scale (DESIGN.md §3): 16/1.6 body, 30/22/18/16 headings, 18/28 lead,
+   text colours from the roles. A utility, so it sorts after Typography's .prose rules
+   and before the text-* sizes that content headings sometimes carry. */
+@utility prose-compact {
+  --tw-prose-body: var(--gx-fg);
+  --tw-prose-lead: var(--gx-fg-2);
+  --tw-prose-bold: var(--gx-fg-strong);
+  --tw-prose-counters: var(--gx-fg-meta);
+  --tw-prose-quotes: var(--gx-fg-2);
+  --tw-prose-captions: var(--gx-fg-meta);
+  font-size: var(--gx-text-body);
+  line-height: 1.6;
+
+  & :where(h1):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
+    font-size: var(--gx-text-h1);
+    line-height: 1.2;
+  }
+
+  & :where(h2):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
+    font-size: var(--gx-text-h2);
+    line-height: 1.3;
+  }
+
+  & :where(h3):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
+    font-size: var(--gx-text-h3);
+    line-height: 1.4;
+  }
+
+  & :where(h4):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
+    font-size: var(--gx-text-h4);
+    line-height: 1.5;
+  }
+
+  & :where([class~='lead']):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
+    font-size: var(--gx-text-lead);
+    line-height: 1.75rem;
+  }
 }
 
 .prose h1,
@@ -192,17 +494,19 @@ body {
 .prose a {
   color: var(--tw-prose-links);
   text-decoration: underline;
-  text-decoration-color: color-mix(in srgb, var(--tw-prose-links) 40%, transparent);
+  text-decoration-color: var(--gx-link-line);
   text-underline-offset: 2px;
   transition:
     text-decoration-color 0.15s ease-in-out,
     color 0.15s ease-in-out;
 }
 
+/* Darker blue text plus a gold underline: gold text on white is 1.40:1. */
 .prose a:hover {
-  color: #ffd700;
+  color: var(--gx-link-hover);
   text-decoration: underline;
-  text-decoration-color: #ffd700;
+  text-decoration-color: var(--gx-link-hover-line);
+  text-decoration-thickness: 2px;
 }
 
 .prose a:has(> img) {
@@ -227,14 +531,108 @@ body {
 
 .prose pre {
   background-color: #1f2937;
-  border-radius: 0.5rem;
+  border-radius: var(--radius-md);
   overflow-x: auto;
 }
 
 .prose img {
-  border-radius: 0.5rem;
+  border-radius: var(--radius-md);
   margin-left: auto;
   margin-right: auto;
+}
+
+/* On phones a floated content image (bootstrap-compat .float-right/.float-left are
+   !important) left the text a ~90px column beside it; stack it above the text instead. */
+@media (max-width: 39.99rem) {
+  .prose img.float-right,
+  .prose img.float-left,
+  .prose img[align='right' i],
+  .prose img[align='left' i] {
+    float: none !important;
+    display: block;
+  }
+}
+
+/* Reading measure (DESIGN.md §3 Prose): running text in a .prose-measure container stops at
+   72ch (80ch beside the rail). The registered length resolves the measure once, at the
+   container's font size, so headings end where paragraphs do. Tables, code, figures, embeds,
+   image-only paragraphs and centred blocks keep the full column. */
+@property --reading-measure {
+  syntax: '<length-percentage>';
+  inherits: true;
+  initial-value: 100%;
+}
+
+/* flow-root keeps floats inside the column, as the grid cell does beside the rail. */
+.prose-measure {
+  --reading-measure: var(--measure);
+  display: flow-root;
+}
+
+.prose-measure
+  > :is(p, ul, ol, dl, blockquote, h1, h2, h3, h4, h5, h6):not(
+    .text-center,
+    [align='center' i],
+    [style*='text-align:center' i],
+    [style*='text-align: center' i],
+    :has(> img:only-child:not(.float-right, .float-left, [align])),
+    :has(> a:only-child > img:only-child)
+  ) {
+  max-width: var(--reading-measure);
+}
+
+/* Pages without a rail keep the measure only when every direct child of the column is a
+   text block (paragraphs, lists, quotes, headings, rules; centred ones included) or a floated
+   image. Anything else (tile grids, tables, embeds, figures, code, wrapper divs, centred
+   boxes, scripts such as the JSON-LD block that ends news posts) lifts the measure, so text
+   uses the full column as it did before. */
+.prose-measure-text-only:has(
+  > :not(p, ul, ol, dl, blockquote, h1, h2, h3, h4, h5, h6, hr, br, img.float-right, img.float-left, img[align])
+) {
+  --reading-measure: 100%;
+  display: block;
+}
+
+/* Text-only pages without a rail (ContentWithToc) centre the 72ch text, so no empty strip
+   opens on the right. The column publishes the inset; text blocks, floats, image-only
+   paragraphs and rules use it. With the measure lifted the inset is 0. */
+.prose-measure-centred {
+  --reading-inset: max(0px, (100% - var(--reading-measure)) / 2);
+  --reading-cap: var(--reading-measure);
+}
+
+.prose-measure-centred
+  > :is(p, ul, ol, dl, blockquote, h1, h2, h3, h4, h5, h6, hr):not(
+    .text-center,
+    [align='center' i],
+    [style*='text-align:center' i],
+    [style*='text-align: center' i]
+  ) {
+  margin-inline: var(--reading-inset, 0px);
+}
+
+/* Centred pages also cap image-only paragraphs and rules, so nothing starts left of the text. */
+.prose-measure-centred
+  > :is(hr, p:has(> img:only-child), p:has(> a:only-child > img:only-child)):not(
+    .text-center,
+    [align='center' i],
+    [style*='text-align:center' i],
+    [style*='text-align: center' i]
+  ) {
+  max-width: var(--reading-cap, none);
+}
+
+/* A right float that is a direct child of the column floats at the edge of the text,
+   so the text beside it keeps its usual gap. Below sm, floats stack (see below). */
+@media (min-width: 40rem) {
+  .prose-measure > .float-right,
+  .prose-measure > img[align='right' i] {
+    margin-right: max(0px, 100% - var(--reading-measure) - var(--reading-inset, 0px));
+  }
+
+  .prose-measure-centred > :is(.float-left, img[align='left' i]) {
+    margin-left: var(--reading-inset, 0px);
+  }
 }
 
 /* Inline image galleries (e.g. GCC logo grid) */
@@ -280,11 +678,6 @@ body {
     margin-bottom: 1.75em;
   }
 
-  .prose-lg :where(.table-wrapper) {
-    margin-top: 1.7777778em;
-    margin-bottom: 1.7777778em;
-  }
-
   .prose :where(.table-wrapper:has(> .bs-compat.table)) {
     margin-bottom: 1rem;
   }
@@ -307,19 +700,40 @@ body {
 }
 
 .prose th {
-  background-color: #25537b;
-  color: white;
+  background-color: var(--gx-brand);
+  color: var(--gx-on-brand);
   font-weight: 600;
+}
+
+/* Link blue on the blue header cell is 1:1: header links take the cell's white. */
+.prose table:not(.bs-compat) th a {
+  color: inherit;
+  text-decoration-color: currentColor;
+}
+
+.prose table:not(.bs-compat) th a:hover {
+  text-decoration-color: var(--gx-link-hover-line);
+}
+
+/* Compact content tables (DESIGN.md "Tables"). Unclassed only: legacy .bs-compat
+   and component tables keep their own type and cell padding. */
+.prose table:not([class]) {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.prose table:not([class]) :is(th, td) {
+  padding: 0.625rem 0.75rem;
 }
 
 .prose blockquote {
   border-left: 4px solid #ffd700;
   padding-left: 1rem;
-  color: #4b5563;
+  color: var(--gx-fg-2);
   font-style: italic;
   background-color: #ffd70008;
   padding: 1rem;
-  border-radius: 0 0.5rem 0.5rem 0;
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
 }
 
 /* Linkbox styling (used in many articles) */
@@ -330,13 +744,13 @@ body {
   padding: 1rem;
   background-color: #f8fafc;
   border: 1px solid #e2e8f0;
-  border-radius: 0.5rem;
+  border-radius: var(--radius-md);
   font-size: 0.875rem;
 }
 
 .linkbox a {
   display: block;
-  color: #25537b;
+  color: var(--gx-link);
   text-decoration: none;
   padding: 0.25rem 0;
 }
@@ -375,10 +789,10 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  background-color: #fff;
+  background-color: var(--gx-surface-raised);
   border: 1px solid color-mix(in srgb, var(--color-galaxy-primary) 10%, transparent);
-  border-radius: 0.5rem;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: var(--radius-md);
+  box-shadow: var(--gx-elev-xs);
   overflow: hidden;
 }
 
@@ -461,15 +875,23 @@ a.gx-tile--link::before {
   z-index: 2;
 }
 a.gx-tile--link:hover {
-  box-shadow:
-    0 4px 6px -1px rgba(0, 0, 0, 0.1),
-    0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--gx-elev-md);
 }
 a.gx-tile--link:hover::before {
   transform: scaleX(1);
 }
+/* The tile keeps its text colours on hover (the prose link hover would recolour and
+   underline the whole card); only the "more" affordance takes the link hover. */
+.prose a.gx-tile--link:hover {
+  color: inherit;
+  text-decoration: none;
+}
 a.gx-tile--link:hover .gx-tile__more {
-  color: var(--color-galaxy-gold);
+  color: var(--gx-link-hover);
+  text-decoration: underline;
+  text-decoration-color: var(--gx-link-hover-line);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
 }
 
 /* Feature variant: galaxy-primary left border for emphasized content tiles. */
@@ -485,7 +907,7 @@ a.gx-tile--link:hover .gx-tile__more {
   padding: 1rem 1.25rem;
   background-color: var(--color-bay-of-many-100);
   border-left: 4px solid var(--color-galaxy-primary);
-  border-radius: 0 0.5rem 0.5rem 0;
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
   color: var(--color-galaxy-dark);
 }
 .callout > :first-child {
@@ -493,6 +915,30 @@ a.gx-tile--link:hover .gx-tile__more {
 }
 .callout > :last-child {
   margin-bottom: 0;
+}
+
+/* ==========================================================================
+   Markdown table alignment -- the typography plugin forces text-align: start
+   on every cell, which silently drops markdown column alignment (:---:, ---:).
+   ========================================================================== */
+.prose :where(th, td)[align='center'] {
+  text-align: center;
+}
+.prose :where(th, td)[align='right'] {
+  text-align: right;
+}
+
+/* ==========================================================================
+   Key dates table -- wrap a 3-column markdown table (Date | status icon | What)
+   in <div class="gx-dates">. The status-icon column is centred and shrunk to
+   its content. See DESIGN.md §4.
+   ========================================================================== */
+.gx-dates :where(th, td):nth-child(2) {
+  width: 1%;
+  white-space: nowrap;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  text-align: center;
 }
 
 /* ==========================================================================
@@ -508,7 +954,7 @@ a.gx-tile--link:hover .gx-tile__more {
   flex: 0 0 200px;
   width: 200px;
   height: auto;
-  border-radius: 0.5rem;
+  border-radius: var(--radius-md);
   margin: 0;
 }
 .profile-row__bio > :first-child {
@@ -542,7 +988,7 @@ a.gx-tile--link:hover .gx-tile__more {
   opacity: 0;
   text-decoration: none;
   font-weight: 400;
-  color: #25537b;
+  color: var(--gx-link);
   margin-left: 0.5rem;
   transition: opacity 0.15s ease-in-out;
 }
@@ -556,8 +1002,10 @@ a.gx-tile--link:hover .gx-tile__more {
 }
 
 .heading-anchor:hover {
-  color: #ffd700;
-  text-decoration: none;
+  color: var(--gx-link-hover);
+  text-decoration: underline;
+  text-decoration-color: var(--gx-link-hover-line);
+  text-decoration-thickness: 2px;
 }
 
 /* Tool list styling - renders Markdown links as badges */

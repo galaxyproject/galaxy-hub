@@ -1,4 +1,4 @@
-## Target Groups
+### Target Groups
 
 **European Scientists** (direct): Access to tools, workflows, storage and compute resources will enable breakthrough research across disciplines.
 
@@ -10,7 +10,7 @@
 
 **European funding agencies** (indirect): Computing resources are used more efficiently, duplication of effort to port existing methodologies due to infrastructure limitations will be avoided and re-use of resources and technologies across scientific domains will be stimulated.
 
-## Outcomes
+### Outcomes
 
 **Communities**: Onboarding of new scientific communities in the EuroScienceGateway ecosystem, demonstrated by new users and increased usage per user, and contribution of new tools, workflows and resources to the EuroScienceGateway. Inclusion of the established network in proposals for innovative research projects of multiple disciplines as well as EOSC-related infrastructure oriented and trans-national access to research infrastructure projects.
 
@@ -21,7 +21,7 @@
 **Global**: Alignment with similar American and Asia-Pacific initiatives. Building a global network of shared resources for all scientists.
 
 
-## Impact
+### Impact
 
 **Scientific**: The EuroScienceGateway is envisioned as an enabler of breakthrough scientific discoveries in various scientific fields.
 

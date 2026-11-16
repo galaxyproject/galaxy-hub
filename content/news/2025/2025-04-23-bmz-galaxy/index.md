@@ -5,6 +5,7 @@ tease: "New tool to run AI models for image analysis"
 tags:
 - nfdi
 - imaging
+- interoperability
 subsites: [all-eu,all,global]
 main_subsite: eu
 contributions:

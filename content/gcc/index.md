@@ -41,8 +41,8 @@ GCC has met annually since 2010 and the program has grown and transformed each y
 | Dates | Event | Where | Hosts | Participants |
 | ---- | ---- | ---- | ---- | ----: |
 | **June 26-July 1, 2027** | **[GCC2027](/events/gcc2027/)** | **Longueuil (Montréal area), Québec, Canada** | **[Université de Sherbrooke](https://www.usherbrooke.ca/)** | &#160; |
-| June 22-24, 2026 | [GCC2026](/events/gcc2026/) | Clermont-Ferrand, France | [Université Clermont Auvergne](https://www.uca.fr/) | &#160; |
-| June 23-28, 2025 | [GBCC2025](https://gbcc2025.org/) | Cold Spring Harbor, New York, United States | [CSHL](http://cshl.edu/) | &#160; |
+| June 22-24, 2026 | [GCC2026](/events/gcc2026/) | Clermont-Ferrand, France | [Université Clermont Auvergne](https://www.uca.fr/) | 150 (+40 virtual) |
+| June 23-28, 2025 | [GBCC2025](https://gbcc2025.org/) | Cold Spring Harbor, New York, United States | [CSHL](http://cshl.edu/) | 135 (+98 virtual) |
 | June 24-29, 2024 | [GCC2024](/events/gcc2024/) | Brno, Czech Republic | [Masaryk University](https://www.muni.cz/), [ELIXIR Czech Republic](https://www.elixir-czech.cz/), and [the city of Brno](https://www.brno.cz/) | 151 |
 | July 10-16, 2023 | [GCC2023](/events/gcc2023/) | Brisbane, Queensland, Australia | [Galaxy Australia](http://usegalaxy.org.au/) | 131 |
 | July 17-23, 2022 | [GCC2022](/events/gcc2022/) | Minneapolis, Minnesota, United States | [Minnesota Supercomputing Institute](https://www.msi.umn.edu/) and [GalaxyP Project](http://galaxyp.org/), University of Minnesota | 131 |

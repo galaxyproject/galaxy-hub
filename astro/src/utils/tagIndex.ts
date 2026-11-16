@@ -1,5 +1,5 @@
-import { getCollection, type CollectionEntry } from 'astro:content';
-import type { NewsEntry } from './content';
+import type { CollectionEntry } from 'astro:content';
+import { getListedCollection, type NewsEntry } from './content';
 
 type ArticleEntry = CollectionEntry<'articles'>;
 type EventEntry = CollectionEntry<'events'>;
@@ -28,9 +28,9 @@ export async function getTagIndex(): Promise<Map<string, TagProfile>> {
 
   tagIndexPromise = (async () => {
     const [articles, news, events] = await Promise.all([
-      getCollection('articles'),
-      getCollection('news'),
-      getCollection('events'),
+      getListedCollection('articles'),
+      getListedCollection('news'),
+      getListedCollection('events'),
     ]);
 
     const index = new Map<string, TagProfile>();

@@ -1,11 +1,13 @@
 ---
-import { getCollection } from 'astro:content';
+import { getListedCollection } from '../../utils/content';
+import { eventTags } from '../../utils/eventFilters';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHeader from '../../components/layout/PageHeader.astro';
 import EventsList from '../../components/events/EventsList.vue';
+import { renderMarkdownInline } from '../../utils/markdown';
 
 // Get all events and prepare data for client component
-const events = await getCollection('events');
+const events = await getListedCollection('events');
 
 // Transform to plain objects for Vue component
 const eventData = events.map((e) => ({
@@ -14,7 +16,9 @@ const eventData = events.map((e) => ({
   date: e.data.date instanceof Date ? e.data.date.toISOString() : e.data.date,
   end: e.data.end instanceof Date ? e.data.end?.toISOString() : e.data.end,
   tease: e.data.tease,
+  teaseHtml: renderMarkdownInline(e.data.tease),
   location: e.data.location,
+  tags: eventTags(e.data.tags),
   subsites: e.data.subsites,
   externalUrl: e.data.external_url,
 }));
@@ -25,7 +29,7 @@ const eventData = events.map((e) => ({
     <PageHeader title="Events" description="Workshops, conferences, and community gatherings" />
 
     <div class="bg-white px-6 sm:px-8 py-6 rounded-b-lg shadow-sm">
-      <EventsList client:only="vue" events={eventData} />
+      <EventsList client:only="vue" events={eventData} path={Astro.url.pathname} />
     </div>
   </div>
 </BaseLayout>

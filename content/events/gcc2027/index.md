@@ -45,12 +45,14 @@ contributions:
   }
 `}</style>
 
+{/* TODO: Add a rotating/carousel-like alert once open, e.g. Register / Submit an abstract / Apply for a fellowship */}
+
 <div class="gcc-hero">
     <div class="gcc-hero__grid grid gap-6 items-center">
         <img class="w-full max-w-md mx-auto" src="/images/events/gcc2027/gcc2027-logo-transparent.png" alt="GCC2027 Conference Logo" />
         <div>
             <div class="gcc-hero__badges not-prose flex flex-wrap items-center justify-center gap-3 leading-tight">
-                <div class="gcc-hero__date inline-flex overflow-hidden rounded-lg border-2 border-galaxy-primary">
+                <div class="gcc-hero__date inline-flex overflow-hidden rounded-lg" style="border: 2px solid var(--color-galaxy-primary);">
                     <span class="flex items-center justify-center bg-galaxy-primary px-3 py-1.5 text-xs font-semibold uppercase tracking-wider text-white whitespace-nowrap">Save the date</span>
                     <span class="px-4 py-1.5 text-center text-xl font-bold text-galaxy-dark whitespace-nowrap">June 26 – July 1, 2027</span>
                 </div>
@@ -59,10 +61,8 @@ contributions:
                     <span>Longueuil<span class="gcc-hero__location-extra"> (Montréal area)</span>, Québec, Canada</span>
                 </a>
             </div>
-            {/* TODO: split conference vs. CoFest dates once confirmed, e.g. add a "CoFest <dates>" pill linking to /events/gcc2027/cofest/ */}
             <h3 style="margin-top: 1rem;">Held at Université de Sherbrooke - Campus Longueuil, in the riverside city of <a href="https://www.google.com/maps/search/?api=1&query=Longueuil%2C+Qu%C3%A9bec%2C+Canada" target="_blank" rel="noopener noreferrer">Longueuil, Québec</a></h3>
-            <p class="text-lg text-galaxy-grey">Registration, abstract submission, and fellowship applications open in <strong>November 2026</strong>.</p>
-            {/* TODO: add buttons once open, e.g. Register / Submit an abstract / Apply for a fellowship */}
+            <p class="text-lg text-galaxy-grey"><a href="/events/gcc2027/register/">Registration</a>, <a href="/events/gcc2027/abstracts/">abstract submission</a>, and <a href="/events/gcc2027/fellowships/">fellowship applications</a> open on <strong>November 18, 2026</strong>.</p>
         </div>
     </div>
 </div>
@@ -78,10 +78,39 @@ contributions:
   <span class="gx-tile__more">Learn more →</span>
 </a>
 
+<a class="gx-tile gx-tile--link" href="/events/gcc2027/schedule/">
+  <div class="gx-tile__media not-prose" style="display: flex; flex-direction: column; justify-content: center; gap: 0.4rem; padding: 0 1.15rem; background: var(--color-bay-of-many-100);">
+    <div style="display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; padding: 0.3rem 0.75rem; background: #fff; border-left: 4px solid var(--color-galaxy-gold); border-radius: 0.25rem;">
+      <span class="text-xs font-semibold uppercase tracking-wider text-galaxy-grey">Training</span>
+      <span class="text-right leading-tight whitespace-nowrap">
+        <span class="block text-xs text-galaxy-grey">Saturday</span>
+        <span class="block text-sm font-bold text-galaxy-dark">Jun 26</span>
+      </span>
+    </div>
+    <div style="display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; padding: 0.3rem 0.75rem; background: #fff; border-left: 4px solid var(--color-galaxy-primary); border-radius: 0.25rem;">
+      <span class="text-xs font-semibold uppercase tracking-wider text-galaxy-grey">Conference</span>
+      <span class="text-right leading-tight whitespace-nowrap">
+        <span class="block text-xs text-galaxy-grey">Sunday – Tuesday</span>
+        <span class="block text-sm font-bold text-galaxy-dark">Jun 27 – 29</span>
+      </span>
+    </div>
+    <div style="display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; padding: 0.3rem 0.75rem; background: #fff; border-left: 4px solid var(--color-galaxy-dark); border-radius: 0.25rem;">
+      <span class="text-xs font-semibold uppercase tracking-wider text-galaxy-grey">CoFest</span>
+      <span class="text-right leading-tight whitespace-nowrap">
+        <span class="block text-xs text-galaxy-grey">Wednesday – Thursday</span>
+        <span class="block text-sm font-bold text-galaxy-dark">Jun 30 – Jul 1</span>
+      </span>
+    </div>
+  </div>
+  <div class="gx-tile__title">GCC2027 week at a glance</div>
+  <p class="gx-tile__teaser">We're doing things a bit differently this year, by beginning with training, followed by the main conference, and concluding with the CoFest.</p>
+  <span class="gx-tile__more">See the schedule →</span>
+</a>
+
 <a class="gx-tile gx-tile--link" href="/events/gcc2027/fellowships/">
   <img class="gx-tile__media" src="/images/events/gcc2026/Scholarships.jpg" alt="Scholarship recipients for GCC2026" />
   <div class="gx-tile__title">GCC2027 fellowships</div>
-  <p class="gx-tile__teaser">Financial support shouldn't be a barrier to joining us. Applications open in <strong class="text-galaxy-primary">November 2026</strong>, with full details on awards and eligibility to follow.</p>
+  <p class="gx-tile__teaser">Financial support shouldn't be a barrier to joining us. Applications open <strong class="text-galaxy-primary">November 18, 2026</strong> and close <strong class="text-galaxy-primary">March 15, 2027</strong>.</p>
   <span class="gx-tile__more">See fellowship details →</span>
 </a>
 
@@ -95,7 +124,7 @@ contributions:
 <a class="gx-tile gx-tile--link" href="/events/gcc2027/cofest/">
   <img class="gx-tile__media" src="/images/events/gcc2026/cofest/ecology_tools.jpg" alt="Still from a GCC2026 CoFest group" />
   <div class="gx-tile__title">GCC2027 CoFest</div>
-  <p class="gx-tile__teaser">Hands-on, community-driven work right after the conference. Contribute to tools, workflows, docs, or training — everyone's welcome, whatever your background. Exact dates are to be announced.</p>
+  <p class="gx-tile__teaser">Hands-on, community-driven work right after the conference. Contribute to tools, workflows, docs, or training — everyone's welcome, whatever your background. Join us June 30 – July 1.</p>
   <span class="gx-tile__more">Join CoFest →</span>
 </a>
 
@@ -110,6 +139,13 @@ contributions:
 
 ## Stay informed
 
-{/* TODO: confirm the gcc2027-announce list exists */}
+We keep the Galaxy community updated on all important GCC announcements through our GCC mailing list.
 
-We will keep the community updated on all important GCC2027 announcements through our mailing list and other communication channels. More details are coming soon.
+Sign up here for the GCC mailing list to receive updates on registration, abstract submission deadlines, program announcements, and fellowship opportunities for GCC2027.
+
+<div class="not-prose flex justify-center my-5">
+  <a class="inline-flex items-center rounded-md bg-galaxy-primary px-5 py-2.5 text-center text-sm font-semibold text-white no-underline hover:bg-galaxy-dark" href="https://lists.galaxyproject.org/lists/gcc.lists.galaxyproject.org/" target="_blank" rel="noopener noreferrer">
+    <Icon name="mail" class="inline-block mr-2" />
+    Join the GCC mailing list
+  </a>
+</div>

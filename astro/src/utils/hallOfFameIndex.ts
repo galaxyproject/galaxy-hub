@@ -1,4 +1,5 @@
-import { getCollection, type CollectionEntry } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+import { getListedCollection } from './content';
 import {
   communityInHubHallOfFame,
   communityNameInHubHallOfFame,
@@ -10,6 +11,7 @@ import {
   listGrants,
   listOrganisations,
 } from './contributors';
+import { formatDate } from './dateUtils';
 
 type NewsEntry = CollectionEntry<'news'>;
 type EventEntry = CollectionEntry<'events'>;
@@ -37,14 +39,14 @@ let contributionIndexPromise: Promise<Map<string, ContributionProfile>> | undefi
 
 async function getNewsArticles(): Promise<NewsEntry[]> {
   if (!newsPromise) {
-    newsPromise = getCollection('news');
+    newsPromise = getListedCollection('news');
   }
   return newsPromise;
 }
 
 async function getEvents(): Promise<EventEntry[]> {
   if (!eventsPromise) {
-    eventsPromise = getCollection('events');
+    eventsPromise = getListedCollection('events');
   }
   return eventsPromise;
 }
@@ -78,9 +80,7 @@ function addContribution(
     url: buildUrl(entry),
     date: dateObj?.toISOString() || entry.data.date?.toString(),
     dateValue: dateObj?.getTime() || 0,
-    displayDate: dateObj
-      ? dateObj.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })
-      : '',
+    displayDate: formatDate(dateObj),
     tease: (entry.data as Record<string, unknown>).tease as string | undefined,
     kind,
     displayMatch,

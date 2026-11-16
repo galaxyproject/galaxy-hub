@@ -4,6 +4,8 @@ import PageHeader from '../../../components/layout/PageHeader.astro';
 import NewsList from '../../../components/news/NewsList.vue';
 import { subsites } from '../../../stores/subsiteStore';
 import { getPublishedNews } from '../../../utils/content';
+import { newsListItems } from '../../../utils/newsList';
+import { servedImageCheck } from '../../../utils/publicImage';
 
 export function getStaticPaths() {
   // Generate paths for all non-external subsites (excluding global which uses /news/)
@@ -25,16 +27,8 @@ const eyebrow = isEurope ? { label: 'Galaxy Europe', href: '/eu/' } : undefined;
 // Get published news articles (excludes future-dated articles)
 const newsArticles = await getPublishedNews();
 
-// Transform to plain objects for Vue component
-const articleData = newsArticles.map((a) => ({
-  slug: a.data.slug,
-  title: a.data.title || 'Untitled',
-  date: a.data.date instanceof Date ? a.data.date.toISOString() : a.data.date,
-  tease: a.data.tease,
-  tags: Array.isArray(a.data.tags) ? a.data.tags : a.data.tags ? [a.data.tags] : [],
-  subsites: a.data.subsites,
-  externalUrl: a.data.external_url,
-}));
+// Plain objects for the Vue island; tile images must exist in public/ and stay under the size cap
+const articleData = newsListItems(newsArticles, servedImageCheck());
 ---
 
 <BaseLayout title={pageTitle} description={`Latest news from Galaxy ${subsiteName}`}>
@@ -42,7 +36,7 @@ const articleData = newsArticles.map((a) => ({
     <PageHeader title={headerTitle} description={pageDescription} {eyebrow} />
 
     <div class="bg-white rounded-b-lg shadow-sm px-6 sm:px-8 py-6">
-      <NewsList client:load articles={articleData} initialSubsite={subsiteId} />
+      <NewsList client:load articles={articleData} initialSubsite={subsiteId} path={Astro.url.pathname} />
     </div>
   </div>
 </BaseLayout>

@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { eventDurationDays, formatDate, formatDateRange } from './dateUtils';
+import { eventDateParts, eventDurationDays, formatDate, formatDateRange } from './dateUtils';
 
 describe('formatDate', () => {
   it('uses short US month-day-year by default', () => {
@@ -56,6 +56,15 @@ describe('formatDateRange with format options', () => {
     expect(formatDateRange('2026-10-12', undefined, { year: false })).toBe('Oct 12');
   });
 
+  it('keeps the end year when a year-less range crosses into the next year', () => {
+    // The archive lists rows under the start year's heading, so only the end year is new
+    expect(formatDateRange('2024-12-30', '2025-01-02', { year: false })).toBe('Dec 30 - Jan 2, 2025');
+    expect(eventDateParts('2024-12-30', '2025-01-02', { year: false })).toMatchObject({
+      start: 'Dec 30',
+      end: 'Jan 2, 2025',
+    });
+  });
+
   it('treats an end on the same UTC day as a one-day event', () => {
     expect(formatDateRange('2026-10-12', '2026-10-12T15:00:00Z')).toBe('Oct 12, 2026');
   });
@@ -94,5 +103,79 @@ describe('eventDurationDays', () => {
     expect(eventDurationDays('2026-10-12', 'not-a-date')).toBeNull();
     expect(eventDurationDays('2026-10-16', '2026-10-12')).toBeNull();
     expect(eventDurationDays('2026-10-13', '2026-10-12')).toBeNull();
+  });
+});
+
+describe('eventDateParts', () => {
+  it('describes a one-day event without an end or duration', () => {
+    expect(eventDateParts('2026-10-14')).toEqual({
+      label: 'Oct 14, 2026',
+      start: 'Oct 14, 2026',
+      end: null,
+      isoStart: '2026-10-14',
+      isoEnd: null,
+      days: 1,
+      durationLabel: null,
+    });
+    expect(eventDateParts('2026-10-14', '2026-10-14T15:00:00Z')).toMatchObject({ end: null, isoEnd: null, days: 1 });
+  });
+
+  it('splits a range within one month like formatDateRange', () => {
+    expect(eventDateParts(new Date('2026-10-05'), new Date('2026-10-06'))).toEqual({
+      label: 'Oct 5 - 6, 2026',
+      start: 'Oct 5',
+      end: '6, 2026',
+      isoStart: '2026-10-05',
+      isoEnd: '2026-10-06',
+      days: 2,
+      durationLabel: '2 days',
+    });
+  });
+
+  it('shows both full dates across months', () => {
+    expect(eventDateParts('2026-06-29', '2026-07-03')).toMatchObject({
+      label: 'Jun 29, 2026 - Jul 3, 2026',
+      start: 'Jun 29, 2026',
+      end: 'Jul 3, 2026',
+      isoEnd: '2026-07-03',
+      durationLabel: '5 days',
+    });
+  });
+
+  it('shows both full dates across years', () => {
+    expect(eventDateParts('2026-12-30', '2027-01-02')).toMatchObject({
+      label: 'Dec 30, 2026 - Jan 2, 2027',
+      start: 'Dec 30, 2026',
+      end: 'Jan 2, 2027',
+      isoStart: '2026-12-30',
+      isoEnd: '2027-01-02',
+      days: 4,
+      durationLabel: '4 days',
+    });
+  });
+
+  it('passes format options through', () => {
+    expect(eventDateParts('2026-10-05', '2026-10-06', { year: false })).toMatchObject({
+      label: 'Oct 5 - Oct 6',
+      start: 'Oct 5',
+      end: 'Oct 6',
+    });
+  });
+
+  it('returns null without a valid start and ignores an invalid end', () => {
+    expect(eventDateParts(undefined)).toBeNull();
+    expect(eventDateParts(null, '2026-10-12')).toBeNull();
+    expect(eventDateParts('not-a-date')).toBeNull();
+    expect(eventDateParts('2026-10-12', 'not-a-date')).toMatchObject({
+      label: 'Oct 12, 2026',
+      end: null,
+      isoEnd: null,
+      days: 1,
+      durationLabel: null,
+    });
+  });
+
+  it('gives no duration when the end is before the start', () => {
+    expect(eventDateParts('2026-10-16', '2026-10-12')).toMatchObject({ days: null, durationLabel: null });
   });
 });

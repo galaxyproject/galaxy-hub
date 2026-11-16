@@ -135,7 +135,7 @@ Over the rest of the summer there are other [Galaxy related events](/events/) in
 
 * "[BioBlend.objects: metacomputing with Galaxy](https://doi.org/10.1093/bioinformatics/btu386)", by S. Leo, L. Pireddu, G. Cuccuru, *et al.* *Bioinformatics* (12 June 2014), doi:10.1093/bioinformatics/btu386
 
-* "[RPPApipe: A pipeline for the analysis of reverse-phase protein array data](https://doi.org/j.biosystems.2014.06.009)" by Johannes Eichner, Yvonne Heubach, Manuel Ruff, *et al.* *Biosystems* (June 2014), doi:10.1016/j.biosystems.2014.06.009
+* "[RPPApipe: A pipeline for the analysis of reverse-phase protein array data](https://doi.org/10.1016/j.biosystems.2014.06.009)" by Johannes Eichner, Yvonne Heubach, Manuel Ruff, *et al.* *Biosystems* (June 2014), doi:10.1016/j.biosystems.2014.06.009
 
 * "[Using Bioinformatics Tools to Study the Role of microRNA in Cancer](https://doi.org/10.1007/978-1-4939-0847-9_7)", by Fabio Passetti, Natasha Andressa Nogueira Jorge, Alan Durham; In *Clinical Bioinformatics*, Vol. 1168 (2014), pp. 99-116, doi:10.1007/978-1-4939-0847-9_7
 

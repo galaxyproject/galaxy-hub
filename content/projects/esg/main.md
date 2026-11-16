@@ -1,9 +1,32 @@
 ---
 title: EuroScienceGateway
 description: Improving computational workflows in Galaxy by maturing Pulsar Network and publishing computational workflows as FAIR Digital Objects.
+status: ended
+start_date: "2022-09-01"
+end_date: "2025-08-31"
+labels:
+  - EOSC
+  - Horizon Europe
+programme: Horizon Europe
+call: HORIZON-INFRA-2021-EOSC-01-04
+grants:
+  - label: EU grant
+    id: "101057388"
+    url: https://cordis.europa.eu/project/id/101057388
+  - label: UKRI grant
+    id: "10038963"
+    url: https://gtr.ukri.org/projects?ref=10038963
+logo_on_dark: /images/projects/esg/eosc_euro_science_gateway_white.svg
+funding_logo: /images/projects/esg/images/EN-Funded by the EU-POS.png
+funding_logo_alt: Funded by the European Union
+feed:
+  subsite: esg
+partners_dataset: partners
+related:
+  - label: Followed by
+    name: ESG4Stars
+    href: /projects/esg4stars/
 ---
-
-![eosc | EuroScienceGateway](./eosc_euro_science_gateway.svg)
 
 ## Project Summary
 

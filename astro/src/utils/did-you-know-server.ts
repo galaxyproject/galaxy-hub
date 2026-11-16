@@ -6,7 +6,8 @@
  * keeps it out of client bundles that only need the pure functions.
  */
 import { getCollection } from 'astro:content';
-import { filterBySubsite, sortItems, type DidYouKnowEntry } from './did-you-know';
+import { filterBySubsite, sortItems, toSerializable, type DidYouKnowEntry, type DykItem } from './did-you-know';
+import { renderMarkdown } from './markdown';
 
 export type { DidYouKnowEntry };
 
@@ -17,4 +18,12 @@ export type { DidYouKnowEntry };
 export async function getDidYouKnow(subsite?: string): Promise<DidYouKnowEntry[]> {
   const items = await getCollection('did-you-know');
   return sortItems(filterBySubsite(items, subsite));
+}
+
+/** Card props for the client: the body is rendered to HTML at build time and not shipped as Markdown. */
+export type DykCardItem = Omit<DykItem, 'body'> & { bodyHtml: string };
+
+export function toCardItem(entry: DidYouKnowEntry): DykCardItem {
+  const { body, ...item } = toSerializable(entry);
+  return { ...item, bodyHtml: renderMarkdown(body) };
 }

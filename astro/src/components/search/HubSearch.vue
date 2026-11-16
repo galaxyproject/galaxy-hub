@@ -1,6 +1,7 @@
 <script setup lang="ts">
-import { ref, computed, onMounted } from 'vue';
+import { ref, computed, onMounted, watch } from 'vue';
 import { formatDate } from '@/utils/dateUtils';
+import { highlightMatch as highlightWords } from '@/utils/search-highlight';
 import ExternalIcon from '../common/ExternalIcon.vue';
 
 interface SearchEntry {
@@ -21,9 +22,11 @@ interface SearchEntry {
 
 const props = defineProps<{ query: string }>();
 
+// Content type ('all' or a collection); SearchPage keeps it in the URL as `type`
+const selectedCollection = defineModel<string>('type', { default: 'all' });
+
 const searchIndex = ref<SearchEntry[]>([]);
 const isLoading = ref(true);
-const selectedCollection = ref<string>('all');
 
 onMounted(async () => {
   try {
@@ -39,6 +42,12 @@ onMounted(async () => {
 const collections = computed(() => {
   const unique = new Set(searchIndex.value.map((e) => e.collection));
   return ['all', ...Array.from(unique).sort()];
+});
+
+// Drop a type the index does not have (a stale or mistyped ?type=); wait for the index first
+watch([selectedCollection, collections, isLoading], ([type, options, loading]) => {
+  if (loading || searchIndex.value.length === 0) return;
+  if (!options.includes(type)) selectedCollection.value = 'all';
 });
 
 function normalizeForMatch(value: string): string {
@@ -166,23 +175,13 @@ function getCollectionColor(collection: string): string {
   return colors[collection] || 'bg-ebony-clay-50 text-chicago-800';
 }
 
-function highlightMatch(text: string, maxLength: number = 200): string {
-  if (!text) return '';
-
+function highlightMatch(text: string): string {
   const words = props.query
     .toLowerCase()
     .split(/\s+/)
     .map((w) => normalizeQueryWord(w))
     .filter((w) => w.length > 2);
-
-  let result = text.length > maxLength ? text.slice(0, maxLength) + '...' : text;
-
-  words.forEach((word) => {
-    const regex = new RegExp(`(${word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
-    result = result.replace(regex, '<mark class="bg-yellow-200">$1</mark>');
-  });
-
-  return result;
+  return highlightWords(text, words);
 }
 </script>
 
@@ -235,13 +234,13 @@ function highlightMatch(text: string, maxLength: number = 200): string {
             v-html="highlightMatch(result.tease || result.excerpt)"
           ></p>
 
-          <div class="flex items-center gap-4 text-xs text-chicago-500">
+          <div class="flex items-center gap-4 text-xs text-fg-meta">
             <time v-if="result.date">{{ formatDate(result.date) }}</time>
             <div v-if="result.tags?.length" class="flex gap-1 flex-wrap">
               <span v-for="tag in result.tags.slice(0, 3)" :key="tag" class="px-2 py-0.5 bg-ebony-clay-50 rounded">
                 {{ tag }}
               </span>
-              <span v-if="result.tags.length > 3" class="text-chicago-400"> +{{ result.tags.length - 3 }} more </span>
+              <span v-if="result.tags.length > 3"> +{{ result.tags.length - 3 }} more </span>
             </div>
           </div>
         </a>
@@ -259,7 +258,7 @@ function highlightMatch(text: string, maxLength: number = 200): string {
         ></path>
       </svg>
       <p class="text-chicago-500 mb-2">No results found for "{{ query }}"</p>
-      <p class="text-sm text-chicago-400">Try different keywords or check your spelling</p>
+      <p class="text-sm text-fg-meta">Try different keywords or check your spelling</p>
     </div>
 
     <!-- Empty state -->

@@ -54,6 +54,8 @@ right:
             target: "/roadmap/"
     - label: Applications
       contents:
+          - label: Projects
+            target: "/projects/"
           - label: COVID-19
             target: "/projects/covid19/"
           - label: Monkeypox

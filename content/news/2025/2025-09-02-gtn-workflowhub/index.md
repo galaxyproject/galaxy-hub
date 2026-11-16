@@ -11,6 +11,7 @@ tags:
 - workflowhub
 - gtn-news
 - gtn
+- interoperability
 title: GTN is now integrated with WorkflowHub
 external_url: https://training.galaxyproject.org/training-material/news/2025/09/02/gtn-workflowhub.html
 tease: Thanks to a collaborative effort between the teams at Galaxy Training Network

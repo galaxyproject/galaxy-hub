@@ -50,6 +50,11 @@ autotoc: false
 
 # GCC2027 Organizers
 
+<div class="callout">
+    <strong>Call for volunteers:</strong> we're looking for members of the GCC2027 Scientific Program Committee.
+    <a href="#committee-members">Volunteer below ↓</a>
+</div>
+
 GCC2027 is a community effort from planning to post conference publishing and
 feedback. In addition to all the participants, presenters, and instructors,
 here are the people who make it happen.
@@ -57,7 +62,8 @@ here are the people who make it happen.
 ## GCC2027 Organizing Committee
 
 The organizing committee is the oversight and coordination group that makes sure
-GCC2027 runs smoothly.
+GCC2027 runs smoothly. To get in touch, email
+[gcc-org@lists.galaxyproject.org](mailto:gcc-org@lists.galaxyproject.org).
 
 ### Organizing Committee Chair
 
@@ -121,8 +127,6 @@ GCC2027 is hosted by the [Université de Sherbrooke](https://www.usherbrooke.ca/
   </div>
 </div>
 
-<!-- TODO: organizing committee contact email -->
-
 ## Scientific Program Committee
 
 The scientific program committee oversees the abstract review process and helps shape the conference program.
@@ -145,5 +149,9 @@ The scientific program committee oversees the abstract review process and helps 
 ### Committee Members
 
 <div class="alert alert-info" role="alert">
-    Scientific Program Committee members will be announced soon.
+    Want to help shape the GCC2027 program? We're looking for volunteers to serve on the Scientific Program Committee.
+</div>
+
+<div class="not-prose flex justify-center my-5">
+  <a class="inline-block max-w-full rounded-md bg-galaxy-primary px-5 py-2.5 text-center text-sm font-semibold leading-tight text-white no-underline hover:bg-galaxy-dark" href="https://docs.google.com/forms/d/e/1FAIpQLSeN2y7VrQFWY-ArOVFQ3QpsJATFYpySg4wYd0zT6SURoA_dbA/viewform?usp=sharing&ouid=117702235489827456804" target="_blank" rel="noopener noreferrer">Volunteer for the Scientific Program Committee</a>
 </div>

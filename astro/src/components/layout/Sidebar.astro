@@ -3,6 +3,7 @@
 // Desktop: Fixed left sidebar with Vue-powered navigation
 // Mobile: Hidden (use MobileMenu.vue for mobile)
 import SidebarNav from './SidebarNav.vue';
+import ContextSwitcher from './ContextSwitcher.vue';
 import type { NavbarData } from '@/utils/navbar';
 import type { SubsiteId } from '@/stores/subsiteStore';
 import Icon from '../mdx/Icon.astro';
@@ -10,19 +11,27 @@ import Icon from '../mdx/Icon.astro';
 interface Props {
   navbar?: NavbarData | null;
   initialSubsite?: SubsiteId;
+  /** transition:persist name; the sidebar survives view transitions between pages with the same name. */
+  persistKey?: string;
 }
 
-const { navbar, initialSubsite } = Astro.props as Props;
+const { navbar, initialSubsite, persistKey } = Astro.props as Props;
 ---
 
 <aside
   class="site-sidebar hidden lg:flex flex-col w-64 bg-galaxy-dark text-white fixed left-0 top-0 h-screen overflow-y-auto z-40"
+  transition:persist={persistKey}
 >
   <!-- Logo Section -->
   <div class="p-4 pr-6 border-b border-medium-bg flex justify-center">
     <a href="/" class="sidebar-logo block">
       <img src="/images/galaxy_logo_hub_white.svg" alt="Galaxy Community Hub" class="h-10 w-auto" />
     </a>
+  </div>
+
+  <!-- Context header with the region menu -->
+  <div class="p-4 border-b border-medium-bg">
+    <ContextSwitcher client:load currentPath={Astro.url.pathname} idPrefix="sb" />
   </div>
 
   <!-- Search -->
@@ -33,11 +42,19 @@ const { navbar, initialSubsite } = Astro.props as Props;
           type="search"
           name="q"
           placeholder="Search..."
-          class="w-full bg-medium-bg text-white placeholder-chicago-400 rounded-md py-2 px-3 pr-10 text-sm focus:outline-none focus:ring-2 focus:ring-galaxy-gold"
+          aria-keyshortcuts="Meta+K Control+K"
+          data-search-shortcut="sidebar"
+          class="peer w-full bg-medium-bg text-white placeholder-chicago-200 rounded-md py-2 px-3 pr-20 text-sm focus:outline-none focus:ring-2 focus:ring-galaxy-gold"
         />
+        <kbd
+          data-search-shortcut-hint
+          aria-hidden="true"
+          hidden
+          class="pointer-events-none absolute right-9 top-1/2 -translate-y-1/2 rounded border border-chicago-500 bg-galaxy-dark px-1.5 py-0.5 font-sans text-xs leading-none text-chicago-200 peer-focus:hidden peer-[:not(:placeholder-shown)]:hidden"
+        ></kbd>
         <button
           type="submit"
-          class="absolute right-2 top-1/2 -translate-y-1/2 text-chicago-400 hover:text-galaxy-gold"
+          class="absolute right-2 top-1/2 -translate-y-1/2 text-chicago-200 hover:text-galaxy-gold"
           aria-label="Search"
         >
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">

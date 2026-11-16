@@ -5,6 +5,7 @@ end: '2026-11-20'
 location:
   name: Mainz
 tags: [humanities, conference, ai, nfdi]
+contact: Daniela Schneider
 contributions:
   organisers:
     - Sch-Da

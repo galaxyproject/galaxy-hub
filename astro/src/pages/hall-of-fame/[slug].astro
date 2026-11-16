@@ -1,20 +1,18 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { marked } from 'marked';
 import {
-  buildGtnHallOfFameUrl,
-  communityHasGtnHallOfFame,
+  getCommunityContactLinks,
   getCommunityImage,
+  getCommunityProfileUrl,
   communitySlug,
   findCommunityBySlug,
-  getGrantDisplay,
-  getCommunityGithubHandle,
-  getOrganisationDisplay,
-  getCommunityDisplay,
   listContributors,
+  profileBioHtml,
   toArray,
 } from '../../utils/contributors';
 import { getContributionIndex } from '../../utils/hallOfFameIndex';
+import { buildCommunityChip } from '../../utils/hallOfFameChips';
+import { formatDate } from '../../utils/dateUtils';
 import Icon from '../../components/mdx/Icon.astro';
 const gtnIcon = '/images/logos/gtn_icon.svg';
 
@@ -46,51 +44,19 @@ const profileDescription =
   (community as any)?.record?.bio ||
   (community as any)?.record?.description ||
   (community as any)?.record?.funding_statement;
-const profileDescriptionHtml = profileDescription ? marked.parse(profileDescription) : '';
-const githubHandle = community?.record ? getCommunityGithubHandle(community.record as any) : undefined;
+const profileDescriptionHtml = profileDescription ? profileBioHtml(String(profileDescription)) : '';
 const avatarUrl = community?.record ? getCommunityImage(community.record as any) : undefined;
-
-type ContactLink = {
-  label: string;
-  href: string;
-  icon?: string;
-};
-const contactLinks: ContactLink[] = [];
-
-function pushLink(label: string, href?: string, icon?: ContactLink['icon']) {
-  if (href) contactLinks.push({ label, href, icon });
-}
-
-if (community) {
-  const record: any = community.record;
-  if (record.fediverse) pushLink('Mastodon', record.fediverse, 'mastodon');
-  if (record.bluesky) pushLink('Bluesky', `https://bsky.app/profile/${record.bluesky}`, 'bluesky');
-  if (record.linkedin) pushLink('LinkedIn', `https://www.linkedin.com/in/${record.linkedin}`, 'linkedin');
-  if (record.matrix) pushLink('Matrix', `https://matrix.to/#/${record.matrix}`, 'matrix');
-  if (record.orcid) pushLink('ORCID', `https://orcid.org/${record.orcid}`, 'orcid');
-  if (githubHandle) pushLink('GitHub', `https://github.com/${githubHandle}`, 'github');
-  if (communityHasGtnHallOfFame(record)) {
-    const gtnUrl = buildGtnHallOfFameUrl(community.record.id || displayName || targetSlug);
-    pushLink('GTN Hall of Fame', gtnUrl, 'gtn');
-  }
-}
+const profileUrl = getCommunityProfileUrl(community?.record);
+const contactLinks = community ? getCommunityContactLinks(community.record, displayName || targetSlug) : [];
 
 const affiliationTags =
   community?.type === 'contributor'
-    ? toArray((community.record as any).affiliations).map((id) => ({
-        id,
-        label: getOrganisationDisplay(id) || getGrantDisplay(id) || getCommunityDisplay(id) || id,
-        slug: `/hall-of-fame/${slugify(id)}/`,
-      }))
+    ? toArray((community.record as any).affiliations).map((id) => buildCommunityChip(id))
     : [];
 
 const formerAffiliationTags =
   community?.type === 'contributor'
-    ? toArray((community.record as any).former_affiliations).map((id) => ({
-        id,
-        label: getOrganisationDisplay(id) || getGrantDisplay(id) || getCommunityDisplay(id) || id,
-        slug: `/hall-of-fame/${slugify(id)}/`,
-      }))
+    ? toArray((community.record as any).former_affiliations).map((id) => buildCommunityChip(id))
     : [];
 
 const associatedContributors =
@@ -112,12 +78,6 @@ const newsItems = contributions.filter((item) => item.kind === 'news');
 const eventItems = contributions.filter((item) => item.kind === 'event');
 const totalItems = contributions.length;
 const hasBoth = newsItems.length > 0 && eventItems.length > 0;
-
-function formatDate(date: Date | string | undefined): string {
-  if (!date) return '';
-  const d = typeof date === 'string' ? new Date(date) : date;
-  return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
-}
 ---
 
 <BaseLayout title={pageTitle} description={pageDescription}>
@@ -126,9 +86,9 @@ function formatDate(date: Date | string | undefined): string {
       <div class="page-header-content">
         <div class="flex items-center gap-3 mb-4">
           <div class="w-1 h-8 bg-galaxy-gold"></div>
-          <h1 class="text-3xl sm:text-4xl font-bold tracking-tight">
-            {community?.record?.url ? (
-              <a href={community.record.url} class="hover:text-galaxy-gold transition-colors">
+          <h1 class="text-h1 font-bold tracking-tight">
+            {profileUrl ? (
+              <a href={profileUrl} class="hover:text-galaxy-gold transition-colors">
                 {displayName || slug}
               </a>
             ) : (
@@ -152,11 +112,11 @@ function formatDate(date: Date | string | undefined): string {
         <p class="text-white/70 mt-2 text-sm">{totalItems} contribution{totalItems === 1 ? '' : 's'}</p>
         {community && <div class="profile-header-block">
           <a
-            href={community?.record?.url || '#'}
-            class:list={['profile-avatar', 'profile-avatar-sm', { 'pointer-events-none': !community?.record?.url }]}
-            target={community?.record?.url ? '_blank' : undefined}
-            rel={community?.record?.url ? 'noopener noreferrer' : undefined}
-            aria-label={community?.record?.url ? `Visit ${displayName || slug}` : undefined}
+            href={profileUrl || '#'}
+            class:list={['profile-avatar', 'profile-avatar-sm', { 'pointer-events-none': !profileUrl }]}
+            target={profileUrl ? '_blank' : undefined}
+            rel={profileUrl ? 'noopener noreferrer' : undefined}
+            aria-label={profileUrl ? `Visit ${displayName || slug}` : undefined}
           >
             {avatarUrl ? (
               <img src={avatarUrl} alt={displayName || slug} class="profile-avatar-img" loading="lazy" />
@@ -168,18 +128,30 @@ function formatDate(date: Date | string | undefined): string {
             {affiliationTags.length > 0 && <div class="affiliation-group">
               <p class="affiliation-label">Affiliations</p>
               <div class="flex flex-wrap gap-2" aria-label="Affiliations">
-                {affiliationTags.map((aff) => <a href={aff.slug} class="chip chip-light">
-                  {aff.label}
-                </a>)}
+                {affiliationTags.map((aff) =>
+                  aff.href ? (
+                    <a href={aff.href} class="chip chip-light">
+                      {aff.label}
+                    </a>
+                  ) : (
+                    <span class="chip chip-light">{aff.label}</span>
+                  )
+                )}
               </div>
             </div>}
 
             {formerAffiliationTags.length > 0 && <div class="affiliation-group">
               <p class="affiliation-label affiliation-label-muted">Former Affiliations</p>
               <div class="flex flex-wrap gap-2" aria-label="Former affiliations">
-                {formerAffiliationTags.map((aff) => <a href={aff.slug} class="chip chip-muted chip-light">
-                  {aff.label}
-                </a>)}
+                {formerAffiliationTags.map((aff) =>
+                  aff.href ? (
+                    <a href={aff.href} class="chip chip-muted chip-light">
+                      {aff.label}
+                    </a>
+                  ) : (
+                    <span class="chip chip-muted chip-light">{aff.label}</span>
+                  )
+                )}
               </div>
             </div>}
 
@@ -218,9 +190,16 @@ function formatDate(date: Date | string | undefined): string {
         <details class="collapsible" open>
           <summary>Contributors <span class="count">({associatedContributors.length})</span></summary>
           <div class="flex flex-wrap gap-2 mt-3">
-            {associatedContributors.map((c) => <a href={`/hall-of-fame/${slugify(c.id)}/`} class="chip">
-              {c.name || c.id}
-            </a>)}
+            {associatedContributors.map((c) => {
+              const chip = buildCommunityChip(c.id, c.name || c.id);
+              return chip.href ? (
+                <a href={chip.href} class="chip">
+                  {chip.label}
+                </a>
+              ) : (
+                <span class="chip">{chip.label}</span>
+              );
+            })}
           </div>
         </details>
       </section>}
@@ -239,7 +218,7 @@ function formatDate(date: Date | string | undefined): string {
                   d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"
                 />
               </svg>
-              News <span class="text-sm font-normal text-chicago-400">({newsItems.length})</span>
+              News <span class="text-sm font-normal text-fg-meta">({newsItems.length})</span>
             </h2>
             <div class="space-y-4" id="news-list">
               {newsItems.map((item, idx) => <a
@@ -251,7 +230,7 @@ function formatDate(date: Date | string | undefined): string {
                   {item.title}
                 </h3>
                 {item.tease && <p class="text-sm text-chicago-500 mt-1 line-clamp-2">{item.tease}</p>}
-                <time class="text-sm text-chicago-400">{formatDate(item.date)}</time>
+                <time class="text-sm text-fg-meta">{formatDate(item.date)}</time>
               </a>)}
             </div>
             {newsItems.length > 20 && <button
@@ -276,7 +255,7 @@ function formatDate(date: Date | string | undefined): string {
                   d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
                 />
               </svg>
-              Events <span class="text-sm font-normal text-chicago-400">({eventItems.length})</span>
+              Events <span class="text-sm font-normal text-fg-meta">({eventItems.length})</span>
             </h2>
             <div class="space-y-4" id="events-list">
               {eventItems.map((item, idx) => <a
@@ -288,7 +267,7 @@ function formatDate(date: Date | string | undefined): string {
                   {item.title}
                 </h3>
                 {item.tease && <p class="text-sm text-chicago-500 mt-1 line-clamp-2">{item.tease}</p>}
-                <time class="text-sm text-chicago-400">{formatDate(item.date)}</time>
+                <time class="text-sm text-fg-meta">{formatDate(item.date)}</time>
               </a>)}
             </div>
             {eventItems.length > 20 && <button
@@ -443,7 +422,7 @@ function formatDate(date: Date | string | undefined): string {
       background-color 120ms ease;
   }
 
-  .chip:hover {
+  a.chip:hover {
     transform: translateY(-1px);
     box-shadow: 0 4px 12px rgba(31, 41, 55, 0.12);
     background: #e5e7eb;

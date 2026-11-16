@@ -1,9 +1,9 @@
 import rss from '@astrojs/rss';
-import { getCollection } from 'astro:content';
+import { getListedCollection } from '../../utils/content';
 import type { APIContext } from 'astro';
 
 export async function GET(context: APIContext) {
-  const events = await getCollection('events');
+  const events = await getListedCollection('events');
 
   // Get upcoming and recent events
   const relevantEvents = events

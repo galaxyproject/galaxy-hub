@@ -16,8 +16,6 @@ contributions:
   organisers:
     - bebatut
     - paulzierep
-    - deNBI
-    - ifb
   funding:
     - elixir-europe
     - deNBI

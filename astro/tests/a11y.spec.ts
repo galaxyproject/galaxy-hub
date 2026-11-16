@@ -126,23 +126,30 @@ test.describe('Accessibility', () => {
   });
 
   test.describe('Accessible names', () => {
-    test('sidebar search button and region switcher are named', async ({ page }) => {
+    test('sidebar search button and context header are named', async ({ page }) => {
       await page.setViewportSize({ width: 1280, height: 800 });
       await page.goto('/community/');
 
       const sidebar = page.locator('aside');
       await expect(sidebar.getByRole('button', { name: 'Search' })).toBeVisible();
-      await expect(sidebar.getByRole('combobox', { name: 'Region' })).toBeVisible();
+      const context = sidebar.getByRole('button', { name: /Current context: Galaxy Project.*Change region/ });
+      await expect(context).toBeVisible();
+      await expect(context).toHaveAttribute('aria-expanded', 'false');
     });
 
-    test('mobile region switcher is named', async ({ page }) => {
+    test('mobile region chip and context header are named', async ({ page }) => {
       await page.setViewportSize({ width: 375, height: 667 });
       await page.goto('/community/');
       await page.waitForLoadState('networkidle');
 
+      await expect(
+        page.locator('.site-mobile-header').getByRole('button', { name: /current context: Galaxy Project/ })
+      ).toBeVisible();
       await page.getByRole('button', { name: 'Open menu' }).click();
       const menu = page.locator('[data-testid="mobile-menu"][data-state="open"]');
-      await expect(menu.getByRole('combobox', { name: 'Region' })).toBeVisible();
+      const context = menu.getByRole('button', { name: /Current context: Galaxy Project.*Change region/ });
+      await expect(context).toBeVisible();
+      await expect(context).toHaveAttribute('aria-expanded', 'false');
     });
 
     test('listing and directory filters are named', async ({ page }) => {
