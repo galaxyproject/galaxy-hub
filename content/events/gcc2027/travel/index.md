@@ -194,7 +194,7 @@ At the foot of the mountain, stroll through the **[Plateau Mont-Royal](https://w
 
 Located on two islands (**Île Sainte-Hélène** and **Île Notre-Dame**) right in the middle of the Saint Lawrence River, **[Parc Jean-Drapeau](https://www.parcjeandrapeau.com/en/)** is just **one Metro stop (2 minutes)** from the conference venue on the Yellow Line.
 
-Created as the site of the legendary **Expo 67** World's Fair, the park is home to the **[Montréal Biosphere](https://espacepourlavie.ca/en/biosphere)**—an environment museum housed inside Buckminster Fuller's iconic geodesic dome—as well as historic **Stewart Museum** fortifications, public art sculptures, the **Circuit Gilles-Villeneuve** Formula 1 track (open to cyclists, runners, and walkers outside race weekend), an outdoor aquatic complex, and some of the best riverfront views of the Montréal skyline.
+Created as the site of the legendary **Expo 67** World's Fair, the park is home to the **[Montréal Biosphere](https://espacepourlavie.ca/en/biosphere)**—an environment museum housed inside Buckminster Fuller's iconic geodesic dome—as well as historic fortifications, public art sculptures, the **Circuit Gilles-Villeneuve** Formula 1 track (open to cyclists, runners, and walkers outside race weekend), an outdoor aquatic complex, and some of the best riverfront views of the Montréal skyline.
 
     </div>
   </div>
