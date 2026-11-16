@@ -36,9 +36,10 @@ described the reasoning when he
 
 *As of November 2026.*
 
-- **Conferences** — preparing for upcoming Galaxy conferences, and working with
-  the organisers of the [Galaxy Community Conference](/events/gcc2027/) to help
-  where the group can.
+- **Conferences** — preparing for upcoming conferences, which means managing how
+  Galaxy shows up at scientific meetings generally, not only at its own events.
+  Separately, working with the organisers of the
+  [Galaxy Community Conference](/events/gcc2027/) to help where the group can.
 - **Keeping this Hub current** — galaxyproject.org is a community site, and
   keeping it accurate is ongoing work rather than a one-off. See
   [contributing to the Hub](/hub/contributing/).
