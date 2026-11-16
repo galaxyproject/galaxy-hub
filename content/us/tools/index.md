@@ -2,7 +2,7 @@
 # THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
 # To update, run: python3 scripts/update-tools.py --server https://usegalaxy.org --name "Galaxy US" --output content/us/tools/index.md
 title: Galaxy US Tools
-description: "2398 tools and counting"
+description: "2399 tools and counting"
 ---
 
 
@@ -507,13 +507,13 @@ description: "2398 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=tooldistillator" target="_top" title="Extract information from output files of specific tools and expose it as JSON files">ToolDistillator</a>
 <a href="https://usegalaxy.org/root?tool_id=tooldistillator_summarize" target="_top" title="Aggregate several JSON reports from ToolDistillator">ToolDistillator Summarize</a>
 <a href="https://usegalaxy.org/root?tool_id=unzip" target="_top" title="Unzip a file">Unzip</a>
-<a href="https://usegalaxy.org/root?tool_id=ucsc_axtsort" target="_top" title=": sort AXT alignments by target position">axtSort</a>
+<a href="https://usegalaxy.org/root?tool_id=ucsc_axtsort" target="_top" title="sort AXT alignments">axtSort</a>
 <a href="https://usegalaxy.org/root?tool_id=ucsc_axtomaf" target="_top" title="Convert dataset from axt to MAF format">axtToMaf</a>
 <a href="https://usegalaxy.org/root?tool_id=bax2bam" target="_top" title="converts PacBio basecall format (bax.h5) into BAM">bax2bam</a>
 <a href="https://usegalaxy.org/root?tool_id=bed_to_protein_map" target="_top" title="genomic location of proteins for MVP">bed to protein map</a>
 <a href="https://usegalaxy.org/root?tool_id=fatovcf" target="_top" title="Convert a FASTA alignment file to Variant Call Format (VCF) single-nucleotide diffs">faToVcf</a>
 <a href="https://usegalaxy.org/root?tool_id=gffread" target="_top" title="Filters and/or converts GFF3/GTF2 records">gffread</a>
-<a href="https://usegalaxy.org/root?tool_id=ucsc_lavtopsl" target="_top" title=": convert lastz LAV alignments to PSL">lavToPsl</a>
+<a href="https://usegalaxy.org/root?tool_id=ucsc_lavtopsl" target="_top" title="convert LASTZ LAV alignments to PSL or BED">lavToPsl</a>
 <a href="https://usegalaxy.org/root?tool_id=maftoaxt" target="_top" title="Convert file from MAF to axt format">mafToAxt</a>
 <a href="https://usegalaxy.org/root?tool_id=msconvert" target="_top" title="Convert and/or filter mass spectrometry files">msconvert</a>
 <a href="https://usegalaxy.org/root?tool_id=mz_to_sqlite" target="_top" title="Extract mzIdentML and associated proteomics datasets into a SQLite DB">mz to sqlite</a>
@@ -676,6 +676,7 @@ description: "2398 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=augustus" target="_top" title="gene prediction for prokaryotic and eukaryotic genomes">Augustus</a>
 <a href="https://usegalaxy.org/root?tool_id=braker3" target="_top" title="genome annotation">BRAKER3</a>
 <a href="https://usegalaxy.org/root?tool_id=bakta" target="_top" title="Rapid and standardized annotation of bacterial genomes, MAGs and plasmids">Bakta</a>
+<a href="https://usegalaxy.org/root?tool_id=bionym_ask" target="_top" title="ask a free-form question over a BioNym knowledge graph">BioNym ask</a>
 <a href="https://usegalaxy.org/root?tool_id=bionym" target="_top" title="resolve a gene identifier into a confidence-scored knowledge graph">BioNym resolve</a>
 <a href="https://usegalaxy.org/root?tool_id=blastxml_to_gapped_gff3" target="_top" title="">BlastXML to gapped GFF3</a>
 <a href="https://usegalaxy.org/root?tool_id=busco" target="_top" title="Assess genome assembly and annotation completeness">Busco</a>
@@ -811,7 +812,7 @@ description: "2398 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=ucsc_axtchain" target="_top" title="chain together axt or psl alignments">axtChain</a>
 <a href="https://usegalaxy.org/root?tool_id=bwameth" target="_top" title="Fast and accurate aligner of BS-Seq reads">bwameth</a>
 <a href="https://usegalaxy.org/root?tool_id=ucsc_chainantirepeat" target="_top" title="Remove repeated chains">chainAntiRepeat</a>
-<a href="https://usegalaxy.org/root?tool_id=ucsc_chainmergesort" target="_top" title=": combine sorted chain files into one sorted chain file">chainMergeSort</a>
+<a href="https://usegalaxy.org/root?tool_id=ucsc_chainmergesort" target="_top" title="combine sorted chain files into one sorted chain file">chainMergeSort</a>
 <a href="https://usegalaxy.org/root?tool_id=ucsc_chainnet" target="_top" title="make alignment nets out of alignment chains">chainNet</a>
 <a href="https://usegalaxy.org/root?tool_id=ucsc_chainprenet" target="_top" title="Remove chains that don&#x27;t have a chance of being netted">chainPreNet</a>
 <a href="https://usegalaxy.org/root?tool_id=ucsc_chainsort" target="_top" title="Sort chains">chainSort</a>
@@ -1921,27 +1922,27 @@ description: "2398 tools and counting"
 
 <div class="tool-list">
 
-<a href="https://usegalaxy.org/root?tool_id=rseqc_bam2wig" target="_top" title="converts all types of RNA-seq data from BAM to Wiggle">BAM to Wiggle</a>
-<a href="https://usegalaxy.org/root?tool_id=rseqc_bam_stat" target="_top" title="reads mapping statistics for a provided BAM or SAM file.">BAM/SAM Mapping Stats</a>
-<a href="https://usegalaxy.org/root?tool_id=rseqc_clipping_profile" target="_top" title="estimates clipping profile of RNA-seq reads from BAM or SAM file">Clipping Profile</a>
-<a href="https://usegalaxy.org/root?tool_id=rseqc_deletion_profile" target="_top" title="calculates the distributions of deleted nucleotides across reads">Deletion Profile</a>
-<a href="https://usegalaxy.org/root?tool_id=rseqc_FPKM_count" target="_top" title="calculates raw read count, FPM, and FPKM for each gene">FPKM Count</a>
-<a href="https://usegalaxy.org/root?tool_id=rseqc_geneBody_coverage" target="_top" title="read coverage over gene body">Gene Body Coverage (BAM)</a>
-<a href="https://usegalaxy.org/root?tool_id=rseqc_geneBody_coverage2" target="_top" title="read coverage over gene body">Gene Body Coverage (Bigwig)</a>
-<a href="https://usegalaxy.org/root?tool_id=rseqc_read_hexamer" target="_top" title="calculates hexamer (6mer) frequency for reads, genomes, and mRNA sequences">Hexamer frequency</a>
-<a href="https://usegalaxy.org/root?tool_id=rseqc_infer_experiment" target="_top" title="speculates how RNA-seq were configured">Infer Experiment</a>
-<a href="https://usegalaxy.org/root?tool_id=rseqc_inner_distance" target="_top" title="calculate the inner distance (or insert size) between two paired RNA reads">Inner Distance</a>
-<a href="https://usegalaxy.org/root?tool_id=rseqc_insertion_profile" target="_top" title="calculates the distribution of inserted nucleotides across reads">Insertion Profile</a>
-<a href="https://usegalaxy.org/root?tool_id=rseqc_junction_annotation" target="_top" title="compares detected splice junctions to reference gene model">Junction Annotation</a>
-<a href="https://usegalaxy.org/root?tool_id=rseqc_junction_saturation" target="_top" title="detects splice junctions from each subset and compares them to reference gene model">Junction Saturation</a>
-<a href="https://usegalaxy.org/root?tool_id=rseqc_mismatch_profile" target="_top" title="calculates the distribution of mismatches across reads">Mismatch Profile</a>
-<a href="https://usegalaxy.org/root?tool_id=rseqc_RNA_fragment_size" target="_top" title="calculates the fragment size for each gene/transcript">RNA fragment size</a>
-<a href="https://usegalaxy.org/root?tool_id=rseqc_RPKM_saturation" target="_top" title="calculates raw count and RPKM values for transcript at exon, intron, and mRNA level">RPKM Saturation</a>
-<a href="https://usegalaxy.org/root?tool_id=rseqc_read_distribution" target="_top" title="calculates how mapped reads were distributed over genome feature">Read Distribution</a>
-<a href="https://usegalaxy.org/root?tool_id=rseqc_read_duplication" target="_top" title="determines reads duplication rate with sequence-based and mapping-based strategies">Read Duplication</a>
-<a href="https://usegalaxy.org/root?tool_id=rseqc_read_GC" target="_top" title="determines GC% and read count">Read GC</a>
-<a href="https://usegalaxy.org/root?tool_id=rseqc_read_NVC" target="_top" title="to check the nucleotide composition bias">Read NVC</a>
-<a href="https://usegalaxy.org/root?tool_id=rseqc_read_quality" target="_top" title="determines Phred quality score">Read Quality</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_bam2wig" target="_top" title="converts all types of RNA-seq data from BAM to Wiggle">RSeQC BAM to Wiggle</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_bam_stat" target="_top" title="reads mapping statistics for a provided BAM or SAM file.">RSeQC BAM/SAM Mapping Stats</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_clipping_profile" target="_top" title="estimates clipping profile of RNA-seq reads from BAM or SAM file">RSeQC Clipping Profile</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_deletion_profile" target="_top" title="calculates the distributions of deleted nucleotides across reads">RSeQC Deletion Profile</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_FPKM_count" target="_top" title="calculates raw read count, FPM, and FPKM for each gene">RSeQC FPKM Count</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_geneBody_coverage" target="_top" title="read coverage over gene body">RSeQC Gene Body Coverage (BAM)</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_geneBody_coverage2" target="_top" title="read coverage over gene body">RSeQC Gene Body Coverage (Bigwig)</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_read_hexamer" target="_top" title="calculates hexamer (6mer) frequency for reads, genomes, and mRNA sequences">RSeQC Hexamer frequency</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_infer_experiment" target="_top" title="speculates how RNA-seq were configured">RSeQC Infer Experiment</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_inner_distance" target="_top" title="calculate the inner distance (or insert size) between two paired RNA reads">RSeQC Inner Distance</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_insertion_profile" target="_top" title="calculates the distribution of inserted nucleotides across reads">RSeQC Insertion Profile</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_junction_annotation" target="_top" title="compares detected splice junctions to reference gene model">RSeQC Junction Annotation</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_junction_saturation" target="_top" title="detects splice junctions from each subset and compares them to reference gene model">RSeQC Junction Saturation</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_mismatch_profile" target="_top" title="calculates the distribution of mismatches across reads">RSeQC Mismatch Profile</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_RNA_fragment_size" target="_top" title="calculates the fragment size for each gene/transcript">RSeQC RNA fragment size</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_RPKM_saturation" target="_top" title="calculates raw count and RPKM values for transcript at exon, intron, and mRNA level">RSeQC RPKM Saturation</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_read_distribution" target="_top" title="calculates how mapped reads were distributed over genome feature">RSeQC Read Distribution</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_read_duplication" target="_top" title="determines reads duplication rate with sequence-based and mapping-based strategies">RSeQC Read Duplication</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_read_GC" target="_top" title="determines GC% and read count">RSeQC Read GC</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_read_NVC" target="_top" title="to check the nucleotide composition bias">RSeQC Read NVC</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_read_quality" target="_top" title="determines Phred quality score">RSeQC Read Quality</a>
 <a href="https://usegalaxy.org/root?tool_id=rseqc_tin" target="_top" title="evaluates RNA integrity at a transcript level">Transcript Integrity Number</a>
 
 </div>
@@ -2471,7 +2472,7 @@ description: "2398 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=scanpy_scale_data" target="_top" title="to make expression variance the same for all genes">Scanpy ScaleData</a>
 <a href="https://usegalaxy.org/root?tool_id=scanpy_cluster_reduce_dimension" target="_top" title="and infer trajectories">Scanpy cluster, embed</a>
 <a href="https://usegalaxy.org/root?tool_id=scanpy_filter" target="_top" title="mark and subsample">Scanpy filter</a>
-<a href="https://usegalaxy.org/root?tool_id=scanpy_normalize" target="_top" title="and impute">Scanpy normalize</a>
+<a href="https://usegalaxy.org/root?tool_id=scanpy_normalize" target="_top" title="normalize and scale">Scanpy normalize</a>
 <a href="https://usegalaxy.org/root?tool_id=scanpy_plot" target="_top" title="">Scanpy plot</a>
 <a href="https://usegalaxy.org/root?tool_id=scanpy_remove_confounders" target="_top" title="with scanpy">Scanpy remove confounders</a>
 <a href="https://usegalaxy.org/root?tool_id=seurat_create" target="_top" title="- Prepare data for the pipeline">Seurat Create</a>
