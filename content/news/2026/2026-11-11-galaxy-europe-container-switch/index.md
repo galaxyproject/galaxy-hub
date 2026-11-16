@@ -23,7 +23,7 @@ As you may already know, Galaxy Europe runs all its tools in containers. This sw
 
 ## Conda and NFS – Not exactly a match
 
-Galaxy Europe provides many tools. As many as 4,000. And these tools, in most cases, come in different versions. As you can imagine, something has to manage all this software and its dependencies. By default (since version 17.01), Galaxy uses a package manager called `Conda`. As you may know, many tools in bioinformatics and biochemical research are distributed via the Bioconda project and others find a home via conda-forge
+Galaxy Europe provides many tools. As many as 4,000. And these tools, in most cases, come in different versions. As you can imagine, something has to manage all this software and its dependencies. By default (since version 17.01), Galaxy uses a package manager called `Conda`. As you may know, many tools in bioinformatics and biochemical research are distributed via the Bioconda project and others find a home via conda-forge.
 
 In the default configuration, Galaxy will install tool dependencies in conda environments in a local directory. Environments allow the installation of different versions of software on a single host. This helps solve conflicting requirements the tools may have, for example different Python versions. However – and this is the crucial part – for each installed version of a tool, Galaxy will create a new conda environment in the local directory.
 
@@ -35,12 +35,12 @@ Accessing or writing many small files on NFS is relatively slow compared to fewe
 
 But wait! Doesn't conda use hardlinks to reduce the amount of files written to disk and reuse the same files in multiple environments? Yes, and while it saves disk space, each hardlink still uses one directory entry, leading to the same performance issue.
 
-The other issue with conda, which is even more pressing for Galaxy, is reproducibility, because conda environments can rely on untracked system libraries, which could lead to unpredictable changes in behaviour on different operating systems (or versions).
+The other issue with conda, which is even more pressing for Galaxy, is reproducibility, because conda environments can rely on untracked system libraries, which could lead to unpredictable changes in behaviour on different operating systems (or versions). 
 
 ## Next Level Reproducibility – Containers
 
 Galaxy needed to address these issues in tool dependency resolution and moved from reproducibility level 4 to level 5. That's why, around 2016–2017, Galaxy gained support for running tools in Singularity containers. Singularity, now called Apptainer, is a rootless container runtime that uses the [Singularity Image Format (SIF)](https://github.com/apptainer/sif), which stores images in a single POSIX file.
-
+If you want to learn more about reproducibility in computational life sciences and why Galaxy chose Singularity/Apptainer, you can find a nicely written [paper](https://doi.org/10.1016/j.cels.2018.03.014) authored by members of the Galaxy Community.
 So the plan was to move from thousands of conda environments to thousands of container files.
 
 The first question that came to our minds was: How do you distribute thousands of containers? Logically, anyone would think of using a container registry. When you think about it, hundreds of containers being pulled across multiple servers in an HPC environment means an enormous amount of network traffic, both on our side and, especially, on the registry's end (big shoutout to the people maintaining Quay.io!). And since usegalaxy.eu is only one Galaxy instance, you could imagine the load the whole Galaxy community would create on Quay.io. So, long story short: we got rate-limited by the Quay.io maintainers for some hours (no hard feelings!) and we needed to find a way to store these containers as close as possible to where the compute actually happens.
