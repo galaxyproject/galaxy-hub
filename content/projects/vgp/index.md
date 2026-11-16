@@ -1,5 +1,5 @@
 ---
-description: "Aiding in the creation a publicly-available database of genome assemblies of over 70,000 vertebrate species"
+description: "Aiding in the creation of a publicly available database of genome assemblies for over 70,000 vertebrate species"
 autotoc: false
 title: "The Vertebrate Genomes Project in Galaxy"
 components: true

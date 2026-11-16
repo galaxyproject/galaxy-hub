@@ -10,7 +10,7 @@ import { getInsert } from '../../../utils/content';
 import { countLabel } from '../../../utils/projectFacts';
 import { getProject, getProjectEvents, getProjectNews } from '../../../utils/projectPages';
 
-const project = await getProject('esg', 'partners');
+const project = await getProject('esg');
 const intro = (await getInsert('projects/esg/events'))?.data as { description?: string } | undefined;
 const newsCount = (await getProjectNews(project.source)).length;
 const pastEvents = await getProjectEvents(project.source, { pastOnly: true });

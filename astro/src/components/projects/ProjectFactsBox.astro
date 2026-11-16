@@ -1,6 +1,6 @@
 ---
 /**
- * Project facts: status, duration, programme, grants, the partner list link and the funding logo.
+ * Project facts: status, duration, programme, grants, related projects, the partner list link and the funding logo.
  * Rows without data in the project's frontmatter are left out.
  */
 import Icon from '@/components/mdx/Icon.astro';
@@ -62,6 +62,10 @@ const programme = [facts.programme, facts.call].filter(Boolean).join(' · ');
           grant.id
         )}
       </dd>
+    </div>)}
+    {facts.related.map((project) => <div>
+      <dt>{project.label}</dt>
+      <dd><a href={project.href}>{project.name}</a></dd>
     </div>)}
     {partnerCount > 0 && <div>
       <dt>Partner list</dt>

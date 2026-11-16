@@ -3,6 +3,7 @@ import { computed, onUnmounted, ref, useId, watch } from 'vue';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+import { focusRing } from '@/lib/focus-ring';
 import YearFilter from './YearFilter.vue';
 import type { FilterOption, YearOption, YearValue } from './types';
 
@@ -74,10 +75,6 @@ watch(draft, (value) => {
 });
 
 onUnmounted(() => clearTimeout(timer));
-
-// Solid 2px outline instead of the primitives' 50% ring (below 3:1 on white); outlines also show in forced colors
-const focusRing =
-  'focus-visible:ring-0 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-solid focus-visible:outline-galaxy-primary';
 
 const ALL = '__all__';
 

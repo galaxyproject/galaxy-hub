@@ -1,4 +1,8 @@
-Histories for [A systems-level mass spectrometry-based technique for accurate and sensitive quantification of the RNA cap epitranscriptome](https://www.nature.com/articles/s41596-023-00857-0) by Wang et al. (2023).
+---
+title: "CapQuant: quantification of the RNA cap epitranscriptome"
+---
+
+Published Galaxy histories for [A systems-level mass spectrometry-based technique for accurate and sensitive quantification of the RNA cap epitranscriptome](https://www.nature.com/articles/s41596-023-00857-0) by Wang et al. (2023).
 
 - https://usegalaxy.org/published/history?id=25cdb8fd9935c2a5
 - https://usegalaxy.org/published/history?id=65dafc73f8d3aff4

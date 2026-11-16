@@ -52,7 +52,7 @@ contributions:
         <img class="w-full max-w-md mx-auto" src="/images/events/gcc2027/gcc2027-logo-transparent.png" alt="GCC2027 Conference Logo" />
         <div>
             <div class="gcc-hero__badges not-prose flex flex-wrap items-center justify-center gap-3 leading-tight">
-                <div class="gcc-hero__date inline-flex overflow-hidden rounded-lg border-2 border-galaxy-primary">
+                <div class="gcc-hero__date inline-flex overflow-hidden rounded-lg" style="border: 2px solid var(--color-galaxy-primary);">
                     <span class="flex items-center justify-center bg-galaxy-primary px-3 py-1.5 text-xs font-semibold uppercase tracking-wider text-white whitespace-nowrap">Save the date</span>
                     <span class="px-4 py-1.5 text-center text-xl font-bold text-galaxy-dark whitespace-nowrap">June 26 – July 1, 2027</span>
                 </div>
@@ -62,7 +62,7 @@ contributions:
                 </a>
             </div>
             <h3 style="margin-top: 1rem;">Held at Université de Sherbrooke - Campus Longueuil, in the riverside city of <a href="https://www.google.com/maps/search/?api=1&query=Longueuil%2C+Qu%C3%A9bec%2C+Canada" target="_blank" rel="noopener noreferrer">Longueuil, Québec</a></h3>
-            <p class="text-lg text-galaxy-grey">Registration, abstract submission, and fellowship applications open in <strong>November 2026</strong>.</p>
+            <p class="text-lg text-galaxy-grey"><a href="/events/gcc2027/register/">Registration</a>, <a href="/events/gcc2027/abstracts/">abstract submission</a>, and <a href="/events/gcc2027/fellowships/">fellowship applications</a> open on <strong>November 18, 2026</strong>.</p>
         </div>
     </div>
 </div>
@@ -110,7 +110,7 @@ contributions:
 <a class="gx-tile gx-tile--link" href="/events/gcc2027/fellowships/">
   <img class="gx-tile__media" src="/images/events/gcc2026/Scholarships.jpg" alt="Scholarship recipients for GCC2026" />
   <div class="gx-tile__title">GCC2027 fellowships</div>
-  <p class="gx-tile__teaser">Financial support shouldn't be a barrier to joining us. Applications open <strong class="text-galaxy-primary">November 15, 2026</strong> and close <strong class="text-galaxy-primary">March 15, 2027</strong>.</p>
+  <p class="gx-tile__teaser">Financial support shouldn't be a barrier to joining us. Applications open <strong class="text-galaxy-primary">November 18, 2026</strong> and close <strong class="text-galaxy-primary">March 15, 2027</strong>.</p>
   <span class="gx-tile__more">See fellowship details →</span>
 </a>
 

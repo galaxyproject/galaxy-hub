@@ -169,3 +169,38 @@ describe('sanitizeHtml bio profile (hall-of-fame)', () => {
     );
   });
 });
+
+describe('sanitizeHtml preview profile (post creator)', () => {
+  const preview = (html: string) => sanitizeHtml(html, 'preview');
+
+  it('keeps the HTML authors write: wrappers, classes, styles, figures and image sizes', () => {
+    expect(
+      preview(
+        '<div class="center" style="color: red"><figure><img src="./a.png" alt="A" width="600"><figcaption>Cap</figcaption></figure></div>'
+      )
+    ).toBe(
+      '<div class="center" style="color: red"><figure><img src="./a.png" alt="A" width="600" /><figcaption>Cap</figcaption></figure></div>'
+    );
+  });
+
+  it('drops javascript: and data: addresses on links and images', () => {
+    expect(preview('<a href="javascript:alert(1)">x</a>')).toBe('x');
+    expect(preview('<a href="data:text/html,<script>alert(1)</script>">x</a>')).toBe('x');
+    expect(preview('<img src="javascript:alert(1)">')).toBe('');
+    expect(preview('<img src="data:image/svg+xml,<svg onload=alert(1)>">')).toBe('');
+  });
+
+  it('keeps embeds from the sites posts use only, without srcdoc', () => {
+    expect(preview('<iframe src="https://www.youtube-nocookie.com/embed/x"></iframe>')).toBe(
+      '<iframe src="https://www.youtube-nocookie.com/embed/x"></iframe>'
+    );
+    expect(preview('<iframe src="https://evil.example/x"></iframe>')).toBe('<iframe></iframe>');
+    expect(preview('<iframe srcdoc="<script>alert(1)</script>" src="https://www.youtube.com/embed/x"></iframe>')).toBe(
+      '<iframe src="https://www.youtube.com/embed/x"></iframe>'
+    );
+  });
+
+  it('drops scripts, styles and event handlers', () => {
+    expect(preview('<script>alert(1)</script><style>body{}</style><p onclick="x()">t</p>')).toBe('<p>t</p>');
+  });
+});

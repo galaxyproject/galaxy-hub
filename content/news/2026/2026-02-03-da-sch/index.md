@@ -3,7 +3,7 @@ title: "Connecting Humanities Data: Analyzing DaSCH data on Galaxy"
 date: "2026-02-03"
 tease: "We're excited to announce the collaboration between DaSCH, the Swiss National Data and Service Center for the Humanities, and the data analysis platform Galaxy."
 subsites: [global,eu,us]
-tags: [datacommons, repository, workflow, eosc, text-mining, llm, nlp, literature, humanities]
+tags: [datacommons, repository, workflow, eosc, text-mining, llm, nlp, literature, humanities, interoperability]
 contributions:
   authorship:
     - jnussbaum

@@ -1,6 +1,6 @@
 ---
 title: ESG4Stars
-description: Sustainable Scientific Workflows for Research Infrastructures, to reduce the environmental footprint of scientific computing and data analysis on European research infrastructures.
+description: ESG4Stars aims to reduce the environmental footprint of scientific computing and data analysis across European research infrastructures by promoting sustainable scientific workflows.
 status: active
 start_date: "2026-10-01"
 end_date: "2029-09-30"
