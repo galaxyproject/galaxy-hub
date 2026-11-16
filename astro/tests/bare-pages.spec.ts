@@ -206,6 +206,28 @@ test.describe('Bare Pages', () => {
       await expect(feedCards).toHaveCount(2);
     });
 
+    test('/bare/it/usegalaxy/main/ keeps the links of the inlined elixir-it site footer', async ({ page }) => {
+      const response = await page.goto('/bare/it/usegalaxy/main/');
+      expect(response?.status()).toBe(200);
+
+      const footer = page.locator('footer [data-name="/elixir-it/site-footer"]');
+      await expect(footer.getByRole('link', { name: 'UseGalaxy-it' })).toHaveAttribute(
+        'href',
+        'https://github.com/usegalaxy-it/'
+      );
+      await expect(footer.getByRole('link', { name: 'Laniakea' })).toHaveAttribute(
+        'href',
+        'https://github.com/Laniakea-elixir-it'
+      );
+      await expect(footer.getByRole('link', { name: 'UseGalaxy.eu feed' })).toHaveAttribute('href', '/eu/feed.atom');
+
+      for (const name of ['UseGalaxy-it', 'Laniakea', 'UseGalaxy.eu feed']) {
+        const item = footer.getByRole('link', { name }).locator('xpath=..');
+        await expect(item.locator('svg')).toHaveCount(1);
+        await expect(item.locator('svg')).toHaveAttribute('width', '16');
+      }
+    });
+
     // Every bare page that carries the feeds used to pull them from
     // /bare/<subsite>/latest/* through same-origin iframes.
     const pagesWithLatestFeeds = [
