@@ -50,11 +50,11 @@ A highlight for us was catching a glimpse of the [MareNostrum Ona](https://www.e
 
 ## A Day Full of Insights and Fruitful Discussions
 
-In the morning various (infrastructure) partners, including us, were introducing themselves.
-Remarkable was to witnessing how quickly all embraced the rapidly evolving generative AI landscape 
-(we should have counted the number of times each partner mentioned AI agents in their presentations 😁)
+In the morning, various (infrastructure) partners, including us, were introducing themselves.
+Remarkable was witnessing how quickly all embraced the rapidly evolving generative AI landscape 
+(we should have counted the number of times each partner mentioned AI agents in their presentations 😁).
 
-In the afternoon we continued with a plenary session on what **AI readiness** means to the different parties involved. 
+In the afternoon, we continued with a plenary session on what **AI readiness** means to the different parties involved. 
 This helped to set the tone for future discussions across the various streams and to start defining AI readiness within the project. 
 
 Afterwards, there was a matchmaking session to identify potential collaborations between the use-cases and
@@ -64,4 +64,4 @@ The day concluded with a networking dinner, where we continued our fruitful disc
 
 ## Keep an Eye on AI4SOCIAL+ Updates
 
-Stay tuned for all our latest project updates on the [Galaxy Hub](https://galaxyproject.org/hall-of-fame/ai4social/) and the [Galaxy Training Network](https://training.galaxyproject.org/training-material/hall-of-fame/ai4social/). In addition, make sure to check the [Digital Humanities and Social Sciences Special Interest Group](https://galaxyproject.org/community/sig/digital-humanities/) for new tools, workflows, training resources, and more. 
+Stay tuned for all our latest project updates from Galaxy on the [Galaxy Hub](https://galaxyproject.org/hall-of-fame/ai4social/) and the [Galaxy Training Network](https://training.galaxyproject.org/training-material/hall-of-fame/ai4social/). In addition, make sure to check the [Digital Humanities and Social Sciences Special Interest Group](https://galaxyproject.org/community/sig/digital-humanities/) for new tools, workflows, training resources, and more. 
