@@ -1,0 +1,212 @@
+<svg viewBox="0 0 1570 669" aria-label="DREAM challenge: a first pass with Galaxy tools + UDTs" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>DREAM challenge: a first pass with Galaxy tools + UDTs</title>
+  <defs>
+    <pattern id="wd-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#c5d5e4" stroke-width="0.5"/>
+    </pattern>
+    <pattern id="wd-grid-major" width="100" height="100" patternUnits="userSpaceOnUse">
+      <rect width="100" height="100" fill="url(#wd-grid)"/>
+      <path d="M 100 0 L 0 0 0 100" fill="none" stroke="#b0c4d8" stroke-width="1"/>
+    </pattern>
+    <filter id="wd-shadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="1" dy="2" stdDeviation="1.5" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="1570" height="669" fill="#f8f9fa"/>
+  <rect width="1570" height="669" fill="url(#wd-grid-major)"/>
+  <rect x="0" y="0" width="1570" height="55" fill="#25537b"/>
+  <text x="20" y="28" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="white">DREAM challenge: a first pass with Galaxy tools + UDTs</text>
+  <text x="20" y="44" font-family="system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.85)">CFDE Cloud Workspace (CWIC), KOLF training tars from the data library</text>
+  <path d="M 200.0 131.0 C 230.0 131.0, 240.0 264.5, 270.0 264.5" stroke="white" fill="none" stroke-linecap="round" stroke-width="8"/>
+  <path d="M 200.0 275.0 C 230.0 275.0, 240.0 282.0, 270.0 282.0" stroke="white" fill="none" stroke-linecap="round" stroke-width="8"/>
+  <path d="M 200.0 433.0 C 230.0 433.0, 240.0 299.5, 270.0 299.5" stroke="white" fill="none" stroke-linecap="round" stroke-width="8"/>
+  <path d="M 470.0 264.5 C 500.0 264.5, 510.0 131.0, 540.0 131.0" stroke="white" fill="none" stroke-linecap="round" stroke-width="7"/>
+  <path d="M 470.0 282.0 C 500.0 282.0, 510.0 275.0, 540.0 275.0" stroke="white" fill="none" stroke-linecap="round" stroke-width="8"/>
+  <path d="M 460.0 433.0 C 492.0 433.0, 508.0 433.0, 540.0 433.0" stroke="white" fill="none" stroke-linecap="round" stroke-width="8"/>
+  <path d="M 470.0 299.5 C 606.0 299.5, 674.0 423.7, 810.0 423.7" stroke="white" fill="none" stroke-linecap="round" stroke-width="7"/>
+  <path d="M 1000.0 591.0 C 1032.0 591.0, 1048.0 423.7, 1080.0 423.7" stroke="white" fill="none" stroke-linecap="round" stroke-width="7"/>
+  <path d="M 740.0 131.0 C 776.0 131.0, 794.0 120.5, 830.0 120.5" stroke="white" fill="none" stroke-linecap="round" stroke-width="8"/>
+  <path d="M 740.0 275.0 C 770.0 275.0, 780.0 275.0, 810.0 275.0" stroke="white" fill="none" stroke-linecap="round" stroke-width="8"/>
+  <path d="M 1010.0 275.0 C 1046.0 275.0, 1064.0 264.5, 1100.0 264.5" stroke="white" fill="none" stroke-linecap="round" stroke-width="8"/>
+  <path d="M 740.0 433.0 C 770.0 433.0, 780.0 442.3, 810.0 442.3" stroke="white" fill="none" stroke-linecap="round" stroke-width="8"/>
+  <path d="M 1010.0 433.0 C 1040.0 433.0, 1050.0 442.3, 1080.0 442.3" stroke="white" fill="none" stroke-linecap="round" stroke-width="8"/>
+  <path d="M 1280.0 433.0 C 1310.0 433.0, 1320.0 440.0, 1350.0 440.0" stroke="white" fill="none" stroke-linecap="round" stroke-width="8"/>
+  <path d="M 1450.0 475.0 C 1450.0 505.0, 1370.0 572.0, 1400.0 572.0" stroke="white" fill="none" stroke-linecap="round" stroke-width="8"/>
+  <path d="M 200.0 131.0 C 230.0 131.0, 240.0 264.5, 270.0 264.5" stroke="#25537b" fill="none" stroke-linecap="round" stroke-width="4"/>
+  <path d="M 200.0 275.0 C 230.0 275.0, 240.0 282.0, 270.0 282.0" stroke="#25537b" fill="none" stroke-linecap="round" stroke-width="4"/>
+  <path d="M 200.0 433.0 C 230.0 433.0, 240.0 299.5, 270.0 299.5" stroke="#25537b" fill="none" stroke-linecap="round" stroke-width="4"/>
+  <path d="M 470.0 264.5 C 500.0 264.5, 510.0 131.0, 540.0 131.0" stroke="#25537b" fill="none" stroke-linecap="round" stroke-width="3"/>
+  <path d="M 470.0 282.0 C 500.0 282.0, 510.0 275.0, 540.0 275.0" stroke="#25537b" fill="none" stroke-linecap="round" stroke-width="4"/>
+  <path d="M 460.0 433.0 C 492.0 433.0, 508.0 433.0, 540.0 433.0" stroke="#25537b" fill="none" stroke-linecap="round" stroke-width="4"/>
+  <path d="M 470.0 299.5 C 606.0 299.5, 674.0 423.7, 810.0 423.7" stroke="#25537b" fill="none" stroke-linecap="round" stroke-width="3"/>
+  <path d="M 1000.0 591.0 C 1032.0 591.0, 1048.0 423.7, 1080.0 423.7" stroke="#25537b" fill="none" stroke-linecap="round" stroke-width="3"/>
+  <path d="M 740.0 131.0 C 776.0 131.0, 794.0 120.5, 830.0 120.5" stroke="#25537b" fill="none" stroke-linecap="round" stroke-width="4"/>
+  <path d="M 740.0 275.0 C 770.0 275.0, 780.0 275.0, 810.0 275.0" stroke="#25537b" fill="none" stroke-linecap="round" stroke-width="4"/>
+  <path d="M 1010.0 275.0 C 1046.0 275.0, 1064.0 264.5, 1100.0 264.5" stroke="#25537b" fill="none" stroke-linecap="round" stroke-width="4"/>
+  <path d="M 740.0 433.0 C 770.0 433.0, 780.0 442.3, 810.0 442.3" stroke="#25537b" fill="none" stroke-linecap="round" stroke-width="4"/>
+  <path d="M 1010.0 433.0 C 1040.0 433.0, 1050.0 442.3, 1080.0 442.3" stroke="#25537b" fill="none" stroke-linecap="round" stroke-width="4"/>
+  <path d="M 1280.0 433.0 C 1310.0 433.0, 1320.0 440.0, 1350.0 440.0" stroke="#25537b" fill="none" stroke-linecap="round" stroke-width="4"/>
+  <path d="M 1450.0 475.0 C 1450.0 505.0, 1370.0 572.0, 1400.0 572.0" stroke="#25537b" fill="none" stroke-linecap="round" stroke-width="4"/>
+  <g filter="url(#wd-shadow)" transform="translate(20.0, 75.0)">
+    <rect width="180.0" height="84.0" rx="4" fill="white" stroke="#ffd700" stroke-width="1.5"/>
+    <rect width="180.0" height="28" rx="4" fill="#ffd700"/>
+    <rect x="0" y="24" width="180.0" height="4" fill="#ffd700"/>
+    <text x="10" y="19" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#2C3143">KOLF training tars</text>
+    <text x="90.0" y="52" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#495057">list of tar</text>
+    <circle cx="180.0" cy="56.0" r="6" fill="white" stroke="#ffd700" stroke-width="2"/>
+  </g>
+  <g filter="url(#wd-shadow)" transform="translate(20.0, 219.0)">
+    <rect width="180.0" height="84.0" rx="4" fill="white" stroke="#ffd700" stroke-width="1.5"/>
+    <rect width="180.0" height="28" rx="4" fill="#ffd700"/>
+    <rect x="0" y="24" width="180.0" height="4" fill="#ffd700"/>
+    <text x="10" y="19" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#2C3143">KOLF manifest</text>
+    <text x="90.0" y="52" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#495057">csv</text>
+    <circle cx="180.0" cy="56.0" r="6" fill="white" stroke="#ffd700" stroke-width="2"/>
+  </g>
+  <g filter="url(#wd-shadow)" transform="translate(20.0, 377.0)">
+    <rect width="180.0" height="84.0" rx="4" fill="white" stroke="#ffd700" stroke-width="1.5"/>
+    <rect width="180.0" height="28" rx="4" fill="#ffd700"/>
+    <rect x="0" y="24" width="180.0" height="4" fill="#ffd700"/>
+    <text x="10" y="19" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#2C3143">Held-out antibodies</text>
+    <text x="90.0" y="52" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#495057">text</text>
+    <circle cx="180.0" cy="56.0" r="6" fill="white" stroke="#ffd700" stroke-width="2"/>
+  </g>
+  <g filter="url(#wd-shadow)" transform="translate(280.0, 377.0)">
+    <rect width="180.0" height="84.0" rx="4" fill="white" stroke="#ffd700" stroke-width="1.5"/>
+    <rect width="180.0" height="28" rx="4" fill="#ffd700"/>
+    <rect x="0" y="24" width="180.0" height="4" fill="#ffd700"/>
+    <text x="10" y="19" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#2C3143">Reference proteins</text>
+    <text x="90.0" y="52" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#495057">491 KOLF, fasta</text>
+    <circle cx="180.0" cy="56.0" r="6" fill="white" stroke="#ffd700" stroke-width="2"/>
+  </g>
+  <g filter="url(#wd-shadow)" transform="translate(820.0, 535.0)">
+    <rect width="180.0" height="84.0" rx="4" fill="white" stroke="#ffd700" stroke-width="1.5"/>
+    <rect width="180.0" height="28" rx="4" fill="#ffd700"/>
+    <rect x="0" y="24" width="180.0" height="4" fill="#ffd700"/>
+    <text x="10" y="19" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#2C3143">Reference table</text>
+    <text x="90.0" y="52" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#495057">495 KOLF antibodies</text>
+    <circle cx="180.0" cy="56.0" r="6" fill="white" stroke="#ffd700" stroke-width="2"/>
+  </g>
+  <g filter="url(#wd-shadow)" transform="translate(270.0, 219.0)">
+    <rect width="200.0" height="98.0" rx="4" fill="white" stroke="#25537b" stroke-width="1"/>
+    <rect width="200.0" height="28" rx="4" fill="#25537b"/>
+    <rect x="0" y="24" width="200.0" height="4" fill="#25537b"/>
+    <text x="10" y="19" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="rgba(255,255,255,0.85)">1:</text>
+    <text x="26" y="19" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="white">Unpack cells</text>
+    <text x="100.0" y="52" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#495057">user-defined tool</text>
+    <text x="100.0" y="66" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#868e96">tables, FASTA, images</text>
+    <circle cx="0.0" cy="45.5" r="6" fill="white" stroke="#25537b" stroke-width="2"/>
+    <circle cx="0.0" cy="63.0" r="6" fill="white" stroke="#25537b" stroke-width="2"/>
+    <circle cx="0.0" cy="80.5" r="6" fill="white" stroke="#25537b" stroke-width="2"/>
+    <circle cx="200.0" cy="45.5" r="6" fill="white" stroke="#25537b" stroke-width="2"/>
+    <circle cx="200.0" cy="63.0" r="6" fill="white" stroke="#25537b" stroke-width="2"/>
+    <circle cx="200.0" cy="80.5" r="6" fill="white" stroke="#25537b" stroke-width="2"/>
+  </g>
+  <g filter="url(#wd-shadow)" transform="translate(540.0, 75.0)">
+    <rect width="200.0" height="84.0" rx="4" fill="white" stroke="#25537b" stroke-width="1"/>
+    <rect width="200.0" height="28" rx="4" fill="#25537b"/>
+    <rect x="0" y="24" width="200.0" height="4" fill="#25537b"/>
+    <text x="10" y="19" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="rgba(255,255,255,0.85)">2:</text>
+    <text x="26" y="19" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="white">Datamash</text>
+    <text x="100.0" y="52" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#495057">antibodies per location</text>
+    <circle cx="0.0" cy="56.0" r="6" fill="white" stroke="#25537b" stroke-width="2"/>
+    <circle cx="200.0" cy="56.0" r="6" fill="white" stroke="#25537b" stroke-width="2"/>
+  </g>
+  <g filter="url(#wd-shadow)" transform="translate(540.0, 219.0)">
+    <rect width="200.0" height="84.0" rx="4" fill="white" stroke="#25537b" stroke-width="1"/>
+    <rect width="200.0" height="28" rx="4" fill="#25537b"/>
+    <rect x="0" y="24" width="200.0" height="4" fill="#25537b"/>
+    <text x="10" y="19" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="rgba(255,255,255,0.85)">3:</text>
+    <text x="26" y="19" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="white">Overlay images</text>
+    <text x="100.0" y="52" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#495057">outline scored cell</text>
+    <circle cx="0.0" cy="56.0" r="6" fill="white" stroke="#25537b" stroke-width="2"/>
+    <circle cx="200.0" cy="56.0" r="6" fill="white" stroke="#25537b" stroke-width="2"/>
+  </g>
+  <g filter="url(#wd-shadow)" transform="translate(540.0, 377.0)">
+    <rect width="200.0" height="84.0" rx="4" fill="white" stroke="#25537b" stroke-width="1"/>
+    <rect width="200.0" height="28" rx="4" fill="#25537b"/>
+    <rect x="0" y="24" width="200.0" height="4" fill="#25537b"/>
+    <text x="10" y="19" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="rgba(255,255,255,0.85)">5:</text>
+    <text x="26" y="19" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="white">makeblastdb</text>
+    <text x="100.0" y="52" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#495057">KOLF training proteins</text>
+    <circle cx="0.0" cy="56.0" r="6" fill="white" stroke="#25537b" stroke-width="2"/>
+    <circle cx="200.0" cy="56.0" r="6" fill="white" stroke="#25537b" stroke-width="2"/>
+  </g>
+  <g filter="url(#wd-shadow)" transform="translate(810.0, 219.0)">
+    <rect width="200.0" height="84.0" rx="4" fill="white" stroke="#25537b" stroke-width="1"/>
+    <rect width="200.0" height="28" rx="4" fill="#25537b"/>
+    <rect x="0" y="24" width="200.0" height="4" fill="#25537b"/>
+    <text x="10" y="19" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="rgba(255,255,255,0.85)">4:</text>
+    <text x="26" y="19" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="white">Image Montage</text>
+    <text x="100.0" y="52" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#495057">stains + protein</text>
+    <circle cx="0.0" cy="56.0" r="6" fill="white" stroke="#25537b" stroke-width="2"/>
+    <circle cx="200.0" cy="56.0" r="6" fill="white" stroke="#25537b" stroke-width="2"/>
+  </g>
+  <g filter="url(#wd-shadow)" transform="translate(810.0, 377.0)">
+    <rect width="200.0" height="84.0" rx="4" fill="white" stroke="#25537b" stroke-width="1"/>
+    <rect width="200.0" height="28" rx="4" fill="#25537b"/>
+    <rect x="0" y="24" width="200.0" height="4" fill="#25537b"/>
+    <text x="10" y="19" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="rgba(255,255,255,0.85)">6:</text>
+    <text x="26" y="19" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="white">blastp</text>
+    <text x="100.0" y="52" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#495057">nearest training protein</text>
+    <circle cx="0.0" cy="46.7" r="6" fill="white" stroke="#25537b" stroke-width="2"/>
+    <circle cx="0.0" cy="65.3" r="6" fill="white" stroke="#25537b" stroke-width="2"/>
+    <circle cx="200.0" cy="56.0" r="6" fill="white" stroke="#25537b" stroke-width="2"/>
+  </g>
+  <g filter="url(#wd-shadow)" transform="translate(1080.0, 377.0)">
+    <rect width="200.0" height="84.0" rx="4" fill="white" stroke="#25537b" stroke-width="1"/>
+    <rect width="200.0" height="28" rx="4" fill="#25537b"/>
+    <rect x="0" y="24" width="200.0" height="4" fill="#25537b"/>
+    <text x="10" y="19" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="rgba(255,255,255,0.85)">7:</text>
+    <text x="26" y="19" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="white">Join + Cut</text>
+    <text x="100.0" y="52" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#495057">hit -&gt; compartment</text>
+    <circle cx="0.0" cy="46.7" r="6" fill="white" stroke="#25537b" stroke-width="2"/>
+    <circle cx="0.0" cy="65.3" r="6" fill="white" stroke="#25537b" stroke-width="2"/>
+    <circle cx="200.0" cy="56.0" r="6" fill="white" stroke="#25537b" stroke-width="2"/>
+  </g>
+  <g filter="url(#wd-shadow)" transform="translate(1350.0, 377.0)">
+    <rect width="200.0" height="98.0" rx="4" fill="white" stroke="#25537b" stroke-width="1"/>
+    <rect width="200.0" height="28" rx="4" fill="#25537b"/>
+    <rect x="0" y="24" width="200.0" height="4" fill="#25537b"/>
+    <text x="10" y="19" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="rgba(255,255,255,0.85)">8:</text>
+    <text x="26" y="19" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="white">Score baselines</text>
+    <text x="100.0" y="52" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#495057">user-defined tool</text>
+    <text x="100.0" y="66" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#868e96">participant benchmark</text>
+    <circle cx="0.0" cy="63.0" r="6" fill="white" stroke="#25537b" stroke-width="2"/>
+    <circle cx="100.0" cy="98.0" r="6" fill="white" stroke="#25537b" stroke-width="2"/>
+  </g>
+  <g filter="url(#wd-shadow)" transform="translate(830.0, 75.0)">
+    <rect width="160.0" height="63.0" rx="4" fill="white" stroke="#10b981" stroke-width="1.5"/>
+    <rect width="160.0" height="28" rx="4" fill="#10b981"/>
+    <rect x="0" y="24" width="160.0" height="4" fill="#10b981"/>
+    <text x="10" y="19" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="white">Location counts</text>
+    <circle cx="0.0" cy="45.5" r="5" fill="white" stroke="#10b981" stroke-width="2"/>
+  </g>
+  <g filter="url(#wd-shadow)" transform="translate(1100.0, 219.0)">
+    <rect width="160.0" height="63.0" rx="4" fill="white" stroke="#10b981" stroke-width="1.5"/>
+    <rect width="160.0" height="28" rx="4" fill="#10b981"/>
+    <rect x="0" y="24" width="160.0" height="4" fill="#10b981"/>
+    <text x="10" y="19" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="white">Cell montages</text>
+    <circle cx="0.0" cy="45.5" r="5" fill="white" stroke="#10b981" stroke-width="2"/>
+  </g>
+  <g filter="url(#wd-shadow)" transform="translate(1400.0, 535.0)">
+    <rect width="100.0" height="50.0" rx="4" fill="white" stroke="#5bc0de" stroke-width="1.5" stroke-dasharray="4 2"/>
+    <rect width="100.0" height="24" rx="4" fill="#5bc0de"/>
+    <rect x="0" y="20" width="100.0" height="4" fill="#5bc0de"/>
+    <text x="10" y="15" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="white">Leaderboard</text>
+    <circle cx="0.0" cy="37.0" r="5" fill="white" stroke="#5bc0de" stroke-width="2"/>
+  </g>
+  <g transform="translate(20, 654)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#495057">Legend:</text>
+    <rect x="60" y="-10" width="14" height="14" rx="2" fill="white" stroke="#ffd700" stroke-width="1.5"/>
+    <text x="80" y="0" font-family="system-ui, sans-serif" font-size="9" fill="#6c757d">Input</text>
+    <line x1="123.0" y1="-4" x2="163.0" y2="-4" stroke="#25537b" stroke-width="4" stroke-linecap="round"/>
+    <text x="171.0" y="0" font-family="system-ui, sans-serif" font-size="9" fill="#6c757d">Data flow</text>
+    <line x1="235.6" y1="-4" x2="275.6" y2="-4" stroke="#25537b" stroke-width="3" stroke-linecap="round"/>
+    <text x="283.6" y="0" font-family="system-ui, sans-serif" font-size="9" fill="#6c757d">Secondary</text>
+    <rect x="348.2" y="-10" width="14" height="14" rx="2" fill="white" stroke="#10b981" stroke-width="1.5"/>
+    <text x="368.2" y="0" font-family="system-ui, sans-serif" font-size="9" fill="#6c757d">Output</text>
+    <rect x="416.6" y="-10" width="14" height="14" rx="2" fill="white" stroke="#5bc0de" stroke-width="1.5"/>
+    <text x="436.6" y="0" font-family="system-ui, sans-serif" font-size="9" fill="#6c757d">Report</text>
+  </g>
+</svg>
