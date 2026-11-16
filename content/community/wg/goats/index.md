@@ -32,6 +32,20 @@ described the reasoning when he
 - **Documentation** — making sure the project's documentation is written,
   current, and findable.
 
+## What the group is working on
+
+*As of November 2026.*
+
+- **Conferences** — preparing for upcoming Galaxy conferences, and working with
+  the organisers of the [Galaxy Community Conference](/events/gcc2027/) to help
+  where the group can.
+- **Keeping this Hub current** — galaxyproject.org is a community site, and
+  keeping it accurate is ongoing work rather than a one-off. See
+  [contributing to the Hub](/hub/contributing/).
+- **Coordinating with the GTN** — in particular the annual
+  [Galaxy Training Academy](https://training.galaxyproject.org/training-material/events/),
+  the GTN's yearly global training event.
+
 ## Where GOATS sits
 
 GOATS is one of Galaxy's [Working Groups](/community/wg/). Working Groups are
@@ -61,6 +75,11 @@ least two calls a month at a sensible local hour.**
 | **Fourth** — Europe + Australia | Tuesday | 1:00 a.m. | 4:00 a.m. | 10:00 a.m. | 6:00 p.m. |
 
 When a month runs to a fifth week, there is no call that week.
+
+All of these are on the
+[Galaxy Working Groups calendar](https://calendar.google.com/calendar/u/0?cid=NWw2bzBtc2ZkdW9pcjU5aHJhYjBqbGtvY2NAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ),
+which is the place to check if a daylight-saving change has shifted the times
+relative to yours.
 
 Each week is named for the two regions it is meant to suit; the other times are
 shown so you can tell at a glance whether a given week's call is one you would
