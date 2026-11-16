@@ -79,8 +79,6 @@ Longueuil sits at the crossroads of major Québec, Canadian, and U.S. highways, 
 
 ## Public Transportation & Getting Around
 
-One of the greatest advantages of the GCC2027 venue is its direct indoor integration with Greater Montréal's transit network.
-
 ### Metro (STM Yellow Line)
 
 The conference venue sits directly above the **[Longueuil–Université-de-Sherbrooke Metro station](https://www.stm.info/en/info/networks/metro/longueuil-universite-de-sherbrooke)**, the southern terminus of the **Yellow Line (*Ligne jaune*)**:
@@ -98,8 +96,21 @@ Public transit across Greater Montréal is coordinated by the **[Autorité régi
 - **Longueuil (South Shore)** is **Zone B**.
 
 <div class="callout">
-<strong>Which Metro ticket to buy:</strong> To travel by Metro between Longueuil and Montréal, you need an <strong>All Modes AB (<em>Tous modes AB</em>)</strong> fare. Standard "Zone A" Montréal tourist passes cover buses and Metro stations on the Island of Montréal (and allow you to exit at Longueuil when boarding in Montréal), but <strong>will not open the turnstiles to board the Metro at Longueuil–Université-de-Sherbrooke station</strong>. Always select <strong>All Modes AB</strong> (available as 1-trip, 2-trip, 10-trip, 24-hour, 3-day, or weekly passes) at station vending machines!
+<strong>Which Metro ticket to buy:</strong> To travel by Metro between Longueuil and Montréal, you need an <strong>All Modes AB (<em>Tous modes AB</em>)</strong> fare. Standard "Zone A" Montréal tourist passes cover buses and Metro stations on the Island of Montréal (and allow you to exit at Longueuil when boarding in Montréal), but <strong>will not open the turnstiles to board the Metro at Longueuil–Université-de-Sherbrooke station</strong>. Always select <strong>All Modes AB</strong> at station vending machines!
 </div>
+
+**All Modes AB Fares (Regular, in CAD)** — see the **[STM Transit Fares](https://www.stm.info/en/info/fares/transit-fares)** page for full details:
+
+| Fare | Price | Notes |
+| :--- | :--- | :--- |
+| **1-trip** | **$5.00** | Valid for 120 minutes with transfers |
+| **2-trip** | **$9.75** | Convenient for a round trip |
+| **10-trip** | **$47.50** | Bundle of 10 single trips |
+| **24-hour** | **$13.75** | Unlimited travel for 24 hours (includes the 747 airport shuttle) |
+| **3-day** | **$29.25** | Unlimited travel for 3 consecutive days (expires 11:59 PM on day 3) |
+| **Monthly** | **$170.00** | Unlimited travel for the calendar month (includes the 747 airport shuttle) |
+
+> **Money-saving tip:** If you are making a round trip starting in Montréal (Zone A), it is cheaper to buy a **1-trip Zone A** ticket (**$3.75**) to travel to Longueuil (Zone B) and exit there, and then buy a **1-trip All Modes AB** ticket (**$5.00**) for the return trip (**$8.75** total), rather than buying a **2-trip All Modes AB** ticket (**$9.75**).
 
 You can plan routes in real time using the **[Chrono mobile app](https://www.artm.quebec/en/chrono-mobile-application/)**, Google Maps, or the locally developed **[Transit app](https://transitapp.com/)**.
 
