@@ -55,9 +55,7 @@ Remarkable was to witnessing how quickly all embraced the rapidly evolving gener
 (we should have counted the number of times each partner mentioned AI agents in their presentations 😁)
 
 In the afternoon we continued with a plenary session on what **AI readiness** means to the different parties involved. 
-This helped to set the tone for future discussions across the various streams and to start defining AI readiness within the project. As it turned out it is quite difficult to narrow down various aspects of AI readiness so
-they stay in the scope of the project. !!! @Daniela: maybe we could add a here a word cloud of the AI readiness
-brainstorming session in the google doc, if it would still be available??. !!!
+This helped to set the tone for future discussions across the various streams and to start defining AI readiness within the project. 
 
 Afterwards, there was a matchmaking session to identify potential collaborations between the use-cases and
 the different partners. The project's five use cases cover different topics from various social sciences and humanities domains. Those range from recognising handwritten archival material to climate science and identifying citation "cartels" in academic literature. 
