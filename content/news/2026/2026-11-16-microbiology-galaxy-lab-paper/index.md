@@ -1,6 +1,6 @@
 ---
 title: 'New Publication "Microbiology Galaxy Lab: a community-driven gateway for reproducible and FAIR analysis of microbiological data"'
-date: '2026-11-06'
+date: '2026-11-16'
 tease: 'The microGalaxy community is proud to announce the publication of the Microbiology Galaxy Lab in Communications Biology, presenting a free, globally accessible platform for reproducible and FAIR microbiological data analysis.'
 hide_tease: false
 subsites: [all]
@@ -14,13 +14,32 @@ contributions:
     - paulzierep
   funding:
     - deNBI
-    - ifb
+    - bmbf               # de.NBI-RBC 031A538A
+    - mwk                # LIBIS/de.NBI Freiburg
+    - eurosciencegateway # 101057388
+    - bge                # 101059492
+    - ifb                # ANR-11-INBS-0013
+    - abromics
+    - cnrs               # ABRomics
+    - NIH                # U41HG006620, U24AI183870, 75N92023P00302
 ---
 
 We're thrilled to share our new publication in *Communications Biology*: **"Microbiology Galaxy Lab: a community-driven gateway for reproducible and FAIR analysis of microbiological data."** 
 📘 [Read the full article here](https://www.nature.com/articles/s42003-026-10750-7)
 
+## How it started
 
+For many years, the [**microGalaxy community**](/community/sig/microbial/) has developed and expanded **microbiology-related resources** within Galaxy. More than three years ago, we set out to bring these resources together and show the microbiology research community what they make possible: access to a **wide range of tools, workflows, and computing resources**.
+
+To guide this effort, we conducted a **user survey** and an **in-depth analysis** of the available resources. We then organized the content and overhauled the **Microbiology Galaxy Lab (MGL)**.
+
+Turning this work into a publication proved more challenging than we expected. We believe this was partly due to misconceptions about Galaxy and, in particular, to the difficulty of conveying the **additional value** the MGL offers the community.
+
+The value lies not only in the number of resources, but in bringing them together in one place: the MGL offers **315 tools** and more than **115 ready-to-use workflows** for **microbiology researchers**. While individual workflows are often published in journals, a curated collection makes these resources easier to find and reuse.
+
+Our **literature analysis** helps put this contribution in context. We identified **10,991 publications** that rely on Galaxy, including **3,067 focused on microbiology**. These figures highlight Galaxy's relevance to microbial research and the opportunity to make its resources more **accessible and reusable**.
+
+After a long process and several rounds of revisions, we are pleased to have published this work in **Communications Biology**.
 
 ## Democratizing Microbial Omics Analysis
 
