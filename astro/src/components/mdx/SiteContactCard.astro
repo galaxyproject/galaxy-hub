@@ -16,6 +16,7 @@ interface Props {
 }
 
 const { links, prose = false } = Astro.props;
+const hasBody = Astro.slots.has('default');
 
 // Plain links in rendered Markdown match the textLink class in linkClasses.ts; chips are styled separately.
 const proseClasses = [
@@ -28,10 +29,12 @@ const proseClasses = [
 <section class="mt-12 rounded-lg border border-galaxy-primary/10 bg-white p-6 text-center shadow-sm">
   {prose ? <div class={proseClasses}><slot /></div> : <slot />}
 
-  {links.length > 0 && <ul class="mt-5 flex flex-wrap items-center justify-center gap-3 text-sm">
+  {links.length > 0 && <ul
+    class:list={[hasBody && 'mt-[1.25rem]', 'flex flex-wrap items-center justify-center gap-3 text-sm']}
+  >
     {links.map((link) => <li>
       <a
-        class="inline-flex items-center gap-1.5 rounded-md border border-galaxy-primary/15 px-3 py-1.5 text-galaxy-primary hover:border-galaxy-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-galaxy-primary"
+        class="inline-flex items-center gap-1.5 rounded-md border-1 border-galaxy-primary/15 px-3 py-1.5 text-galaxy-primary hover:border-galaxy-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-galaxy-primary"
         href={link.href}
         target={link.target}
         rel={link.rel}
