@@ -10,6 +10,7 @@ import EuSiteFooter from '../../components/mdx/EuSiteFooter.astro';
 import FreiburgSiteFooter from '../../components/mdx/FreiburgSiteFooter.astro';
 import CzSiteFooter from '../../components/mdx/CzSiteFooter.astro';
 import SiteContactCard from '../../components/mdx/SiteContactCard.astro';
+import EditOnGitHub from '../../components/layout/EditOnGitHub.astro';
 import CzIntro from '../../components/mdx/CzIntro.astro';
 
 export const getStaticPaths = getSubsiteStaticPaths;
@@ -83,6 +84,9 @@ const markdownFooters = footerEntries
     isComponentFooter: hasFooterComponent && entry.data.slug === `${subsite}/site-footer`,
   }))
   .filter((footer) => !footer.isComponentFooter);
+
+// The home page is built from several inserts, so the edit link points at the subsite's content folder.
+const sourceUrl = `https://github.com/galaxyproject/galaxy-hub/tree/main/content/${subsite}`;
 ---
 
 <BaseLayout title={title} description={description}>
@@ -111,5 +115,6 @@ const markdownFooters = footerEntries
         )
       )}
     </Fragment>
+    <EditOnGitHub slot="footer-content" href={sourceUrl} />
   </SubsiteOverview>
 </BaseLayout>
