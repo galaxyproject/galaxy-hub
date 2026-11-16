@@ -262,7 +262,13 @@ For an authentic taste of local life, visit one of the area's bustling public ma
 - **[Atwater Market (*Marché Atwater*)](https://www.marchespublics-mtl.com/en/marches/atwater-market/)** (Saint-Henri, Green Metro line): Famous for its Art Deco market hall right next to the scenic **Lachine Canal** bike and walking path.
 - **[Marché public de Longueuil](https://marchepublicdelongueuil.com/)**: Located on the South Shore, showcasing regional Montérégie farm produce, ciders, and baked goods.
 
-Québec is also a pioneer of the **craft beer (*microbrasserie*)** movement and is internationally known for **Québec ice cider (*cidre de glace*)** and artisanal ciders from the neighbouring Montérégie orchards. Whether you are grabbing a casual pint on **Rue Saint-Charles in Longueuil** or exploring the neighbourhoods of Montréal, you will find exceptional local brews and welcoming *terrasses*.
+Québec is also a pioneer of the **craft beer (*microbrasserie*)** movement and is internationally known for **Québec ice cider (*cidre de glace*)** and artisanal ciders from the neighbouring Montérégie orchards. Whether you are grabbing a casual pint on **Rue Saint-Charles in Longueuil** or exploring the neighbourhoods of Montréal, you will find exceptional local brews and welcoming *terrasses*, including:
+
+- **Pit Caribou**: Celebrated Gaspésie craft brewery with a lively Montréal pub offering coastal-inspired ales, IPAs, and barrel-aged sours.
+- **Benelux**: A beloved Montréal brewpub with locations in downtown (Rue Sherbrooke) and Verdun, known for its house-brewed beers and relaxed *terrasses*.
+- **Siboire**: Popular Sherbrooke-born microbrewery with Montréal taprooms serving classic and creative craft beers alongside pub fare.
+- **Dieu du Ciel!**: One of Montréal's most iconic craft brewpubs (Plateau Mont-Royal), famous for inventive beers like *Péché Mortel* and *Moralité*.
+- **Messorem Bracitorium**: A cult-favourite Saint-Henri taproom known for hazy IPAs, fruited sours, and a lively outdoor *terrasse* near the Lachine Canal.
 
 #### Vegan & Vegetarian-Friendly Dining
 
