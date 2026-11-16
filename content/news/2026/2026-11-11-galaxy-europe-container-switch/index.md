@@ -23,7 +23,7 @@ As you may already know, Galaxy Europe runs all its tools in containers. This sw
 
 ## Conda and NFS – Not exactly a match
 
-Galaxy Europe provides many tools. As many as 4,000. And these tools, in most cases, come in different versions. As you can imagine, something has to manage all this software and its dependencies. By default (since version 17.01), Galaxy uses software called `Conda`, a package manager originally from the Python ecosystem. As you may know, many tools in bioinformatics and biochemical research are distributed via the Bioconda project.
+Galaxy Europe provides many tools. As many as 4,000. And these tools, in most cases, come in different versions. As you can imagine, something has to manage all this software and its dependencies. By default (since version 17.01), Galaxy uses a package manager called `Conda`. As you may know, many tools in bioinformatics and biochemical research are distributed via the Bioconda project and others find a home via conda-forge
 
 In the default configuration, Galaxy will install tool dependencies in conda environments in a local directory. Environments allow the installation of different versions of software on a single host. This helps solve conflicting requirements the tools may have, for example different Python versions. However – and this is the crucial part – for each installed version of a tool, Galaxy will create a new conda environment in the local directory.
 
