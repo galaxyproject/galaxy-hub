@@ -1,9 +1,10 @@
 ---
 /**
  * Columns of a project overview: the lead (notice, inline facts) and the main sections on the left,
- * a 15rem right rail (facts box, "On this page") from lg up. Below lg the rail is hidden; pages show
- * an inline facts box in the lead slot instead.
+ * a 15rem right rail from lg up: the facts box (slot "rail") and a sticky "On this page" (slot "toc").
+ * Below lg the rail is hidden; pages show an inline facts box in the lead slot instead.
  */
+import { tocRailClass } from '../../utils/tocRail';
 ---
 
 <div class="project-columns">
@@ -13,6 +14,10 @@
 
   <aside class="project-columns__rail hidden lg:block" aria-label="Project facts and contents">
     <slot name="rail" />
+    {/* The "On this page" slot follows the window; it scrolls itself when taller than the window */}
+    {Astro.slots.has('toc') && <div class={tocRailClass} data-toc-rail>
+      <slot name="toc" />
+    </div>}
   </aside>
 
   <div class="project-columns__main">
