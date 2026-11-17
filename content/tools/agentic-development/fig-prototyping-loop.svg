@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 440" width="920" height="440" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+  <rect width="920" height="440" fill="#ffffff"/>
+  <defs>
+    <marker id="l1" markerWidth="10" markerHeight="10" refX="9" refY="3.5" orient="auto"><path d="M0,0 L0,7 L9,3.5 z" fill="#3a6ea5"/></marker>
+    <marker id="l2" markerWidth="10" markerHeight="10" refX="9" refY="3.5" orient="auto"><path d="M0,0 L0,7 L9,3.5 z" fill="#d99b3f"/></marker>
+  </defs>
+
+  <text x="460" y="30" text-anchor="middle" font-size="15" font-weight="600" fill="#2c3143">The prototyping loop</text>
+  <text x="460" y="50" text-anchor="middle" font-size="11" fill="#6b7280">You specify and review. The agent writes, runs, reads the failure, and revises.</text>
+
+  <!-- 1 describe -->
+  <rect x="40" y="86" width="180" height="86" rx="8" fill="#e8f0f8" stroke="#3a6ea5" stroke-width="1.5"/>
+  <text x="130" y="112" text-anchor="middle" font-size="12.5" font-weight="600" fill="#2c3143">1 · You describe</text>
+  <text x="130" y="132" text-anchor="middle" font-size="10" fill="#4a5568">“strip comment lines</text>
+  <text x="130" y="147" text-anchor="middle" font-size="10" fill="#4a5568">before the counter runs”</text>
+  <text x="130" y="164" text-anchor="middle" font-size="9" fill="#6b7280">prose, not YAML</text>
+
+  <!-- 2 draft -->
+  <rect x="270" y="86" width="180" height="86" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="360" y="112" text-anchor="middle" font-size="12.5" font-weight="600" fill="#2c3143">2 · Agent drafts</text>
+  <text x="360" y="132" text-anchor="middle" font-size="10" fill="#4a5568">a GalaxyUserTool</text>
+  <text x="360" y="147" text-anchor="middle" font-size="10" fill="#4a5568">YAML definition</text>
+  <text x="360" y="164" text-anchor="middle" font-size="9" font-family="ui-monospace,Menlo,monospace" fill="#3a6ea5">create_user_tool</text>
+
+  <!-- 3 run -->
+  <rect x="500" y="86" width="180" height="86" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="590" y="112" text-anchor="middle" font-size="12.5" font-weight="600" fill="#2c3143">3 · Run it small</text>
+  <text x="590" y="132" text-anchor="middle" font-size="10" fill="#4a5568">on one tiny dataset,</text>
+  <text x="590" y="147" text-anchor="middle" font-size="10" fill="#4a5568">not the real inputs</text>
+  <text x="590" y="164" text-anchor="middle" font-size="9" font-family="ui-monospace,Menlo,monospace" fill="#3a6ea5">run_tool</text>
+
+  <!-- 4 read -->
+  <rect x="730" y="86" width="150" height="86" rx="8" fill="#fdf3e3" stroke="#d99b3f" stroke-width="1.5"/>
+  <text x="805" y="112" text-anchor="middle" font-size="12.5" font-weight="600" fill="#2c3143">4 · Read the</text>
+  <text x="805" y="129" text-anchor="middle" font-size="12.5" font-weight="600" fill="#2c3143">failure</text>
+  <text x="805" y="149" text-anchor="middle" font-size="10" fill="#4a5568">stderr, exit code</text>
+  <text x="805" y="164" text-anchor="middle" font-size="9" font-family="ui-monospace,Menlo,monospace" fill="#8a5f1a">get_job_details</text>
+
+  <path d="M224,129 L266,129" stroke="#3a6ea5" stroke-width="2" marker-end="url(#l1)" fill="none"/>
+  <path d="M454,129 L496,129" stroke="#3a6ea5" stroke-width="2" marker-end="url(#l1)" fill="none"/>
+  <path d="M684,129 L726,129" stroke="#3a6ea5" stroke-width="2" marker-end="url(#l1)" fill="none"/>
+
+  <!-- revise loop back -->
+  <path d="M805,176 L805,214 Q805,226 793,226 L372,226 Q360,226 360,214 L360,178" stroke="#d99b3f" stroke-width="2" fill="none" marker-end="url(#l2)"/>
+  <rect x="474" y="214" width="112" height="22" rx="4" fill="#ffffff"/>
+  <text x="530" y="230" text-anchor="middle" font-size="10.5" font-weight="600" fill="#8a5f1a">revise and retry</text>
+
+  <!-- success exit -->
+  <path d="M880,129 L900,129 L900,300 L590,300" stroke="#5a9367" stroke-width="2" fill="none"/>
+  <rect x="470" y="286" width="240" height="30" rx="6" fill="#e4efe6" stroke="#5a9367" stroke-width="1.5"/>
+  <text x="590" y="306" text-anchor="middle" font-size="11.5" font-weight="600" fill="#33613e">it works — now you review it</text>
+
+  <!-- review box -->
+  <rect x="150" y="342" width="620" height="76" rx="8" fill="#f7f9fb" stroke="#cbd5e1"/>
+  <text x="170" y="364" font-size="11.5" font-weight="600" fill="#2c3143">Your job at every turn:</text>
+  <text x="170" y="384" font-size="10.5" fill="#4a5568">Is the container real and pinned?  ·  Does every output declare where its bytes come from?</text>
+  <text x="170" y="402" font-size="10.5" fill="#4a5568">Is it reaching for reference data or metadata it cannot have?  ·  Do the declared tests prove anything? (No.)</text>
+  <path d="M590,320 L590,338" stroke="#5a9367" stroke-width="2" fill="none"/>
+</svg>
