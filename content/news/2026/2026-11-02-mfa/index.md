@@ -40,14 +40,17 @@ suggested adding two command-line tools:
 
 Both are command-line tools, meaning researchers need a certain programming knowledge to use them.
 This can be a barrier. 
-Wrapping those tools for Galaxy made them accessible through a web interface. 
-That way, researchers without programming skills can also use them.
+Wrapping MFA and new-fave for Galaxy made them accessible through a web interface. 
+That way, researchers without programming skills could also use them.
 My colleagues [Armin Dadras](https://github.com/dadrasarmin/) and [Wolfgang Maier](https://github.com/wm75) wrapped the tools and made them available as test tools.
+
 Jessica tested extensively to identify where the tools needed improvements and what tweaks would make them even more useful on Galaxy.
 For this, Jessica's domain knowledge, insights and enthusiasm were essential.
 Once the tools were good to go, [Ivo Leist](https://github.com/IvoLeist/) ported them from the test status into Toolshed-ready tools.
 (If you want to read more on the technical process, stay tuned for Jessica's second step of the journey!)
 Thanks to all of them, you can run [Montreal Forced Aligner](https://ssh.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fmfa_align%2Fmfa_align%2F3.4.2%2B0&version=latest) and [new-fave](https://ssh.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/new_fave_extract/new_fave_extract/1.3.0+galaxy0) directly on Galaxy.
+
+<a href="https://ssh.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fmfa_align%2Fmfa_align%2F3.4.2%2B0&version=latest"><button type="button" class="btn btn-success">Click to test MFA Align on Galaxy Europe!</button></a>
 
 ## From Tools to Workflow to Trainings
 Making the tools accessible outside of command-line settings can already be super helpful for many researchers.
@@ -56,6 +59,6 @@ This is particularly useful because MFA includes many sub-tools for specific tas
 In a workflow, they can be easily combined and adjusted to a user's needs.
 Those workflows can be used as a basis for writing tutorials for the [Galaxy Training Network](https://training.galaxyproject.org/training-material/) to support the community in using those tools.
 Jessica did just that by adding a tutorial on [how to use Montreal Forced Aligner](https://gxy.io/GTN:T00585) for vowel extraction.
-That way, she opened the door to showcasing how Galaxy could be useful for linguists.
-But her regular analysis still included [praat](https://praat.org/), an interactive phonetics tool not yet available on Galaxy.   
-
+That way, she opened the door to showcasing how Galaxy could be useful for linguists and broadened the Galaxy DH SIG even more.
+But her regular analysis still included [Praat](https://praat.org/), an interactive phonetics tool not yet available on Galaxy.
+Stay tuned to read more on Jessica's galactic journey and how we are growing the DH community on Galaxy step by step and tool by tool.
