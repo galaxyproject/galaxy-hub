@@ -2,7 +2,7 @@
 title: CellProfiler now available in Galaxy
 date: '2020-07-01'
 tags: [tools, training]
-subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, ifb]
 main_subsite: eu
 contributions:
   authorship:
@@ -31,7 +31,7 @@ In total, 22 modules have been integrated into **19 Galaxy tools**, providing sc
 <br />
 ### Data Access
 
-Scientists can now upload their own images to a Galaxy instance and build workflows combining these tools to address different biological questions. The outcome will vary depending on the design of the workflow: segmentation masks for each object identified, features associated with images or any of the objects segmented, images with metadata overlaid on top of the identified objects, among others. 
+Scientists can now upload their own images to a Galaxy instance and build workflows combining these tools to address different biological questions. The outcome will vary depending on the design of the workflow: segmentation masks for each object identified, features associated with images or any of the objects segmented, images with metadata overlaid on top of the identified objects, among others.
 
 Another approach is to reuse public data from previous studies that are available at the <a href="https://idr.openmicroscopy.org/" target="_blank">Image Data Resource (IDR)</a>. For that purpose, a <a href="https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/idr_download_by_ids/idr_download_by_ids" target="_blank">Galaxy tool</a> was developed in collaboration with EOSC-Life WP1, that directly connects to the IDR, with advanced error handling, and makes bulk-downloads possible.
 

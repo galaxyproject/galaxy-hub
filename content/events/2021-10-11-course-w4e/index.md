@@ -5,9 +5,9 @@ end: '2021-10-11'
 location:
   name: UMR Toxalim, INRAE, Toulouse, France
 external_url: https://workflow4metabolomics.org/events
-subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, ifb]
 main_subsite: eu
 ---
 
 
-Using Galaxy and the Workflow4metabolomics infrastructure to analyse your own metabolomics data. 
+Using Galaxy and the Workflow4metabolomics infrastructure to analyse your own metabolomics data.

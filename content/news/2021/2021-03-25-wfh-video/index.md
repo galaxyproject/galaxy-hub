@@ -2,7 +2,7 @@
 title: How to import a workflow from the Workflow Hub and run it on remote COVID-19 data
 date: '2021-03-25'
 tags: [training, faq, covid-19, workflow, workflowhub, gtn]
-subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, ifb]
 main_subsite: eu
 contributions:
   authorship:
@@ -24,7 +24,7 @@ We have created a video showcasing the process for a COVID-19 data analysis work
 1. Search in the Workflow Hub and retrieve a Galaxy workflow.
 2. Import it easily into Galaxy.
 3. Get remote COVID-19 data into your Galaxy history.
-4. Run the imported workflow on the remote data. 
+4. Run the imported workflow on the remote data.
 
 You can see how it works in practice in the following video:
 

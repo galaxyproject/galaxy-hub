@@ -8,9 +8,9 @@ contacts:
 location:
   name: European Bioinformatics Institute, Hinxton, United Kingdom
 external_url: https://www.ebi.ac.uk/training/events/introduction-metabolomics-analysis/
-subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, ifb]
 main_subsite: eu
 ---
 
-The course at EMBL-EBI will provide an introduction to metabolomics using publicly available data, software and tools.  
+The course at EMBL-EBI will provide an introduction to metabolomics using publicly available data, software and tools.
 

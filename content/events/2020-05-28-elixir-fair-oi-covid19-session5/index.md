@@ -6,7 +6,7 @@ tags: [training, covid-19]
 contacts:
 - name: Galaxy and ELIXIR
 hidefooter: true
-subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, ifb]
 main_subsite: eu
 contributions:
   funding:
@@ -20,7 +20,7 @@ contributions:
 
 The Galaxy Community and ELIXIR organise a [webinar series](https://elixir-europe.org/events/webinar-galaxy-elixir-covid19) to demonstrate how open software and public research infrastructures can be used in analysing and publishing SARS-CoV2 data.
 
-## Session 5: Behind the scenes - Global Open Infrastructures at work 
+## Session 5: Behind the scenes - Global Open Infrastructures at work
 
 28 May 2020, **17.00-18.00 CEST** (starts at **16.00 BST**, **11.00 EDT**, **8.00 PDT**)
 

@@ -2,7 +2,7 @@
 title: 'UseGalaxy.eu Use Case: Translational Research and Precision Medicine'
 date: '2024-06-03'
 tags: [usecase]
-subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, ifb]
 main_subsite: eu
 contributions:
   authorship:
@@ -13,7 +13,7 @@ With this article we would like to share Ali's experience with usegalaxy.eu and 
 
 >The world of bioinformatics moves very quickly, and it can often become a race against time to keep up with it. This is not helped by the fragmented nature of the different tool specifications, and it becomes almost impossible to have all the tools available to ensure that you have everything available to run them. Galaxy has made it easier for bioinformaticians and non-bioinformaticians alike to evaluate different tools quickly. This, then, was the reason I had a long interaction with Galaxy recently.
 >
->Our lab is at the forefront of translational research and precision medicine. Our core activities include Active Kinome evaluation and multi-omics analyses. Luckily, we are also affiliated with a medical school, allowing us to quickly explore translation in the bench/computer-to-bedside. One such opportunity arose recently, when we were given access to exome sequencing data for a patient with certain psychiatric illnesses. Our lab has had an interest in bioenergetic dysfunction in schizophrenia and the genetic variants that allow it to happen. We have published on it earlier, ([here](https://doi.org/10.1016/j.biopsych.2017.10.014) and [here]https://doi.org/10.1038/s41380-022-01494-x). 
+>Our lab is at the forefront of translational research and precision medicine. Our core activities include Active Kinome evaluation and multi-omics analyses. Luckily, we are also affiliated with a medical school, allowing us to quickly explore translation in the bench/computer-to-bedside. One such opportunity arose recently, when we were given access to exome sequencing data for a patient with certain psychiatric illnesses. Our lab has had an interest in bioenergetic dysfunction in schizophrenia and the genetic variants that allow it to happen. We have published on it earlier, ([here](https://doi.org/10.1016/j.biopsych.2017.10.014) and [here]https://doi.org/10.1038/s41380-022-01494-x).
 >
 >I was then tasked with identifying potential mutations and other single nucleotide variants present in the patient's genome to determine their genotype concerning mutations related to bioenergetic dysfunction. This process took the form of the following steps:
 >

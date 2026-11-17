@@ -8,7 +8,7 @@ contacts:
 location:
   name: online
 hidefooter: true
-subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, ifb]
 main_subsite: eu
 contributions:
   funding:
@@ -21,7 +21,7 @@ contributions:
 
 Galaxy is supported by a large and active community distributed across the globe, which leads to rapid developments in every release. However, many of this features remain unknown by most of the users.
 
-With this series of four webinars, the global Galaxy community will present such advanced features, touching upon workflows, data processing and management, interoperability and interactive tools, among others. 
+With this series of four webinars, the global Galaxy community will present such advanced features, touching upon workflows, data processing and management, interoperability and interactive tools, among others.
 
 ## Galaxy-ELIXIR webinars: Advanced Features
 

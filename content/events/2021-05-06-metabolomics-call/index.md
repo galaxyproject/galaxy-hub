@@ -7,9 +7,9 @@ contacts:
   name: Melanie Foell
 location:
   name: online
-subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, ifb]
 main_subsite: eu
 ---
 
-Recent developments and future plans in the Galaxy Metabolomics community 
+Recent developments and future plans in the Galaxy Metabolomics community
 

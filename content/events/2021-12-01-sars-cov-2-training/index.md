@@ -5,7 +5,7 @@ end: '2021-12-01'
 tags: [training, covid-19, talk, workshop]
 location:
   name: online
-subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, ifb]
 main_subsite: eu
 contributions:
   funding:
@@ -152,7 +152,7 @@ To run the tutorials, you will need a **Galaxy account**. We recommend you to:
 
 Should you have any questions, the instructors will be available in chat. We will use the Slack space of the Galaxy Training Network. Depending on your location you might need to use a VPN, so **please make sure that you can join Slack before the workshop**.
 
-Once you are in, you will see different channels (#general #random, #social), pass by and say hi to your colleagues! 
+Once you are in, you will see different channels (#general #random, #social), pass by and say hi to your colleagues!
 
 When asking a question:
 - Ask in the appropriate channel.
@@ -160,7 +160,7 @@ When asking a question:
 - Say which server you're using.
 - Share all of the details (What did the tool say? What was the error? Did you see more information in the bug-report icon?).
 
-During the workshop, the instructors will be there to reply to your questions. 
+During the workshop, the instructors will be there to reply to your questions.
 
 ## Certificates
 

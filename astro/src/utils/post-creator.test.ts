@@ -146,7 +146,7 @@ describe('mainSubsiteChoices', () => {
       'ifb',
     ]);
     expect(mainSubsiteChoices(['all'])).not.toContain('all');
-    expect(mainSubsiteChoices(['all'])).toContain('genouest');
+    expect(mainSubsiteChoices(['all'])).toContain('ifb');
   });
 });
 

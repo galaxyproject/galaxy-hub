@@ -4,7 +4,7 @@ date: '2020-10-01'
 end: '2020-10-01'
 location:
   name: online
-subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, ifb]
 main_subsite: eu
 ---
 
@@ -18,5 +18,5 @@ In addition, [**John Chilton**](https://galaxyproject.org/people/john-chilton/) 
 - [International numbers available](https://psu.zoom.us/u/acsPCWIZGV)
 - 6 pm CEST
 
-If you are a user, developer or admin and you are interested in presenting in the upcoming weeks, [let us know](https://docs.google.com/forms/d/e/1FAIpQLScIGEFHYn46d9PvVNDUWXyK50lMckiRvvCi_kJuvPkd5T6tNg/viewform)! 
+If you are a user, developer or admin and you are interested in presenting in the upcoming weeks, [let us know](https://docs.google.com/forms/d/e/1FAIpQLScIGEFHYn46d9PvVNDUWXyK50lMckiRvvCi_kJuvPkd5T6tNg/viewform)!
 
