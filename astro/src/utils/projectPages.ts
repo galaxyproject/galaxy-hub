@@ -4,11 +4,12 @@
  */
 import { getEntry, type CollectionEntry } from 'astro:content';
 import { getInsert, getListedCollection } from './content';
-import { isPastEvent } from './dateUtils';
-import { parseProjectFacts, type ProjectFacts } from './projectFacts';
+import { publishedNews } from './newsList';
+import { splitProjectEvents } from './projectEvents';
+import { parseProjectFacts, projectStatus, type ProjectFacts } from './projectFacts';
 import { matchesProjectSource, parseProjectSource, type ProjectSource } from './projectSource';
 import { pageIndexItems, sortProjectIndex, type ProjectIndexItem } from './projectIndex';
-import { projectContextIds } from './siteContext';
+import { contextFromPath, projectContextIds, projectLinks, type ProjectLink } from './siteContext';
 
 export interface Project {
   id: string;
@@ -52,23 +53,36 @@ export async function getProject(id: string): Promise<Project> {
   };
 }
 
-/** Listed news of the project, newest first. */
-export async function getProjectNews(source: ProjectSource) {
+/** Listed news of the project that is out by `now` (future-dated posts hidden, as on /news/), newest first. */
+export async function getProjectNews(source: ProjectSource, now: Date = new Date()) {
   const news = await getListedCollection('news', (entry) => matchesProjectSource(entry.data, source));
-  return news.sort((a, b) => newestFirst(a.data.date, b.data.date));
+  return publishedNews(news, now).sort((a, b) => newestFirst(a.data.date, b.data.date));
 }
 
-/** Listed events of the project, newest first; `pastOnly` for a project that has ended. */
+/** Listed events of the project, split once: upcoming ones soonest first, past ones newest first. */
+export async function getProjectEventGroups(source: ProjectSource, now: Date = new Date()) {
+  const events = await getListedCollection('events', (entry) => matchesProjectSource(entry.data, source));
+  return splitProjectEvents(events, now);
+}
+
+/** Listed events of the project, upcoming then past; `pastOnly` for a project that has ended. */
 export async function getProjectEvents(source: ProjectSource, { pastOnly = false, now = new Date() } = {}) {
-  const events = await getListedCollection(
-    'events',
-    (entry) =>
-      matchesProjectSource(entry.data, source) && (!pastOnly || isPastEvent(entry.data.date, entry.data.end, now))
-  );
-  return events.sort((a, b) => newestFirst(a.data.date, b.data.date));
+  const { upcoming, past } = await getProjectEventGroups(source, now);
+  return pastOnly ? past : [...upcoming, ...past];
 }
 
-/** Entries of /projects/: project sections with their facts, then the other top-level project pages. */
+/**
+ * Section links of the project a page belongs to (empty outside a project), for the sidebar's project
+ * group; the events label follows the project's status at build time.
+ */
+export async function getProjectNavLinks(path: string, now: Date = new Date()): Promise<ProjectLink[]> {
+  const context = contextFromPath(path);
+  if (context.kind !== 'project') return [];
+  const project = await getProject(context.id);
+  return projectLinks(context.id, { ended: projectStatus(project.facts, now) === 'ended' });
+}
+
+/** Entries of /projects/: project sections with their facts, plus the other top-level project pages. */
 export async function getProjectIndex(now: Date = new Date()): Promise<ProjectIndexItem[]> {
   const sections = await Promise.all(
     projectContextIds().map(async (id): Promise<ProjectIndexItem> => {

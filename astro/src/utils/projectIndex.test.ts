@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { pageIndexItems, sortProjectIndex, type ProjectIndexItem } from './projectIndex';
+import { groupProjectIndex, pageIndexItems, sortProjectIndex, type ProjectIndexItem } from './projectIndex';
 import { parseProjectFacts } from './projectFacts';
 
 describe('pageIndexItems', () => {
@@ -43,7 +43,7 @@ describe('sortProjectIndex', () => {
     ...extra,
   });
 
-  it('puts running projects first, then ended ones, then other pages by title, external sites last', () => {
+  it('puts running projects first, then other pages by title, then external sites, then ended ones', () => {
     const items = [
       item('brc', 'BRC Analytics', { external: true }),
       item('vgp', 'VGP'),
@@ -53,10 +53,10 @@ describe('sortProjectIndex', () => {
     ];
     expect(sortProjectIndex(items, now).map((entry) => entry.id)).toEqual([
       'esg4stars',
-      'esg',
       'covid19',
       'vgp',
       'brc',
+      'esg',
     ]);
   });
 
@@ -66,5 +66,36 @@ describe('sortProjectIndex', () => {
       item('running', 'Running', { facts: parseProjectFacts({ status: 'active', start_date: '2026-10-01' }) }),
     ];
     expect(sortProjectIndex(items, now).map((entry) => entry.id)).toEqual(['running', 'later']);
+  });
+});
+
+describe('groupProjectIndex', () => {
+  const now = new Date('2026-10-29');
+  const item = (id: string, title: string, extra: Partial<ProjectIndexItem> = {}): ProjectIndexItem => ({
+    id,
+    title,
+    href: `/projects/${id}/`,
+    external: false,
+    ...extra,
+  });
+
+  it('splits entries into the four groups, in display order', () => {
+    const items = [
+      item('brc', 'BRC Analytics', { external: true }),
+      item('vgp', 'VGP'),
+      item('esg', 'EuroScienceGateway', { facts: parseProjectFacts({ status: 'ended', start_date: '2022-09-01' }) }),
+      item('esg4stars', 'ESG4Stars', { facts: parseProjectFacts({ status: 'active', start_date: '2026-10-01' }) }),
+    ];
+    expect(groupProjectIndex(items, now).map((group) => [group.key, group.items.map((entry) => entry.id)])).toEqual([
+      ['active', ['esg4stars']],
+      ['page', ['vgp']],
+      ['external', ['brc']],
+      ['ended', ['esg']],
+    ]);
+  });
+
+  it('drops empty groups', () => {
+    const items = [item('vgp', 'VGP'), item('covid19', 'COVID-19')];
+    expect(groupProjectIndex(items, now).map((group) => group.key)).toEqual(['page']);
   });
 });

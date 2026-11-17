@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { newsListItems } from './newsList';
+import { newsListItems, publishedNews } from './newsList';
 
 const entry = (data: Record<string, unknown>, body = '') => ({ data: { slug: 'news/2026/a', ...data }, body });
 
@@ -59,5 +59,22 @@ describe('newsListItems', () => {
     const [item] = newsListItems([entry({ date: '2026-01-02', tags: 'single' })]);
     expect(item).toMatchObject({ title: 'Untitled', date: '2026-01-02', teaseHtml: '', tags: ['single'] });
     expect(newsListItems([entry({})])[0].tags).toEqual([]);
+  });
+});
+
+describe('publishedNews', () => {
+  const now = new Date('2026-11-11T12:00:00Z');
+
+  it('hides news dated after today, like /news/', () => {
+    const news = [
+      entry({ slug: 'news/today', date: '2026-11-11' }),
+      entry({ slug: 'news/tomorrow', date: '2026-11-12' }),
+      entry({ slug: 'news/past', date: new Date('2026-10-01T00:00:00Z') }),
+    ];
+    expect(publishedNews(news, now).map((item) => item.data.slug)).toEqual(['news/today', 'news/past']);
+  });
+
+  it('keeps undated news', () => {
+    expect(publishedNews([entry({ slug: 'news/undated' })], now)).toHaveLength(1);
   });
 });

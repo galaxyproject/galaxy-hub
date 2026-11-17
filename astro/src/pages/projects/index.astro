@@ -1,12 +1,16 @@
 ---
 /**
- * Projects index: project sections with their status and dates (content/projects/<id>/main.md),
- * then the other project pages under content/projects/, and external project sites last.
+ * Projects index: entries grouped as active project sections (content/projects/<id>/main.md,
+ * with their status and dates), then the other project pages under content/projects/, then
+ * external project sites, then completed project sections.
  */
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHeader from '../../components/layout/PageHeader.astro';
 import Icon from '../../components/mdx/Icon.astro';
+import { getEntry } from 'astro:content';
+import { getGrant } from '../../utils/contributors';
 import { getProjectIndex } from '../../utils/projectPages';
+import { groupProjectIndex } from '../../utils/projectIndex';
 import { countLabel, projectDuration, projectStatus, statusBadgeLabel } from '../../utils/projectFacts';
 
 const now = new Date();
@@ -17,6 +21,14 @@ const projects = (await getProjectIndex(now)).map((project) => ({
   dates: project.facts && projectDuration(project.facts)?.short,
   host: project.external ? new URL(project.href).host : undefined,
 }));
+const groups = groupProjectIndex(projects, now);
+// Projects Galaxy takes part in that have no page of their own; names and links come from GRANTS.yaml.
+const participation = (await getEntry('datasets', 'project-participation'))?.data as
+  { heading?: string; intro?: string; grants?: string[] } | undefined;
+const alsoTakesPartIn = (participation?.grants ?? [])
+  .map((id) => getGrant(id))
+  .filter((grant) => grant?.name)
+  .sort((a, b) => a!.name!.localeCompare(b!.name!));
 const description = 'Projects and community efforts around Galaxy, with their own pages on the Hub.';
 const externalCount = projects.filter((project) => project.external).length;
 const onHub = `${countLabel(projects.length - externalCount, 'project')} on the Hub`;
@@ -29,34 +41,67 @@ const count = externalCount > 0 ? `${onHub}, ${countLabel(externalCount, 'extern
 
     <div class="bg-white px-4 sm:px-8 py-6 rounded-b-lg shadow-sm">
       <p class="text-sm text-chicago-700 mb-4" data-project-count>{count}</p>
-      <ul class="project-cards" data-project-index>
-        {projects.map((project) => <li class="project-card">
-          {(project.badge || project.dates || project.host) && <p class="project-card__meta">
-            {project.badge && <span class="project-card__badge" data-project-status={project.status}>
-              {project.badge}
-            </span>}
-            {project.dates && <span>{project.dates}</span>}
-            {project.host && <span>External site · {project.host}</span>}
-          </p>}
-          <h2 class="project-card__title">
-            {project.external ? (
-              <a class="project-card__link" href={project.href} target="_blank" rel="noopener noreferrer">
-                {project.title}
-                <span aria-hidden="true"><Icon name="external-link" size={14} /></span>
-                <span class="sr-only"> (opens in a new tab)</span>
-              </a>
+      <div data-project-index>
+        {groups.map((group) => <section class="project-group" data-project-group={group.key}>
+          <h2 class="project-group__title">{group.title}</h2>
+          <ul class="project-cards">
+            {group.items.map((project) => <li class="project-card">
+              <h3 class="project-card__title">
+                {project.external ? (
+                  <a class="project-card__link" href={project.href} target="_blank" rel="noopener noreferrer">
+                    {project.title}
+                    <span aria-hidden="true"><Icon name="external-link" size={14} /></span>
+                    <span class="sr-only"> (opens in a new tab)</span>
+                  </a>
+                ) : (
+                  <a class="project-card__link" href={project.href}>{project.title}</a>
+                )}
+              </h3>
+              {(project.badge || project.dates || project.host) && <p class="project-card__meta">
+                {project.badge && <span class="project-card__badge" data-project-status={project.status}>
+                  {project.badge}
+                </span>}
+                {project.dates && <span>{project.dates}</span>}
+                {project.host && <span>External site · {project.host}</span>}
+              </p>}
+              {project.description && <p class="project-card__desc">{project.description}</p>}
+            </li>)}
+          </ul>
+        </section>)}
+      </div>
+
+      {alsoTakesPartIn.length > 0 && <section class="project-participation">
+        <h2 class="project-participation__title">{participation?.heading ?? 'Galaxy also takes part in'}</h2>
+        {participation?.intro && <p class="project-participation__intro">{participation.intro}</p>}
+        <ul class="project-participation__list">
+          {alsoTakesPartIn.map((grant) => <li>
+            {grant!.url ? (
+              <a href={grant!.url} target="_blank" rel="noopener noreferrer">{grant!.name}</a>
             ) : (
-              <a class="project-card__link" href={project.href}>{project.title}</a>
+              grant!.name
             )}
-          </h2>
-          {project.description && <p class="project-card__desc">{project.description}</p>}
-        </li>)}
-      </ul>
+          </li>)}
+        </ul>
+      </section>}
     </div>
   </div>
 </BaseLayout>
 
 <style>
+  .project-group + .project-group {
+    margin-top: 28px;
+  }
+
+  .project-group__title {
+    margin: 0 0 12px;
+    font-size: 0.8125rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-galaxy-grey);
+  }
+
   .project-cards {
     display: grid;
     gap: 12px;
@@ -169,6 +214,44 @@ const count = externalCount > 0 ? `${onHub}, ${countLabel(externalCount, 'extern
   .project-card:has(.project-card__link:focus-visible) {
     outline: 2px solid var(--color-galaxy-primary);
     outline-offset: 2px;
+  }
+
+  .project-participation {
+    margin-top: 32px;
+    padding-top: 20px;
+    border-top: 1px solid var(--color-chicago-200);
+  }
+
+  .project-participation__title {
+    margin: 0 0 8px;
+    font-size: 0.8125rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-galaxy-grey);
+  }
+
+  .project-participation__intro {
+    margin: 0 0 10px;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: var(--color-chicago-900);
+  }
+
+  .project-participation__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 16px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .project-participation__list a {
+    color: var(--color-galaxy-primary);
   }
 
   .project-card__desc {

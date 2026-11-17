@@ -2,8 +2,9 @@
  * Plain objects for the NewsList island, shared by /news/, the regional news pages and every project
  * news page, so each list gets the same teaser HTML and tile image.
  */
+import { isPublishedDate } from './dateUtils';
 import { listImage } from './listImage';
-import { renderMarkdownInline } from './markdown';
+import { renderMarkdownTeaser } from './markdown';
 
 export interface NewsListEntry {
   data: {
@@ -31,17 +32,6 @@ export interface NewsListItem {
   image?: string;
 }
 
-// Opening and closing tags of links in sanitized HTML
-const LINK_TAG = /<\/?a\b[^>]*>/gi;
-
-/**
- * Teaser HTML for a list row. The whole row is a link, and a link inside a link makes the browser split
- * the row (and Vue report a hydration mismatch), so teaser links keep only their text.
- */
-function teaserHtml(tease?: string | null): string {
-  return renderMarkdownInline(tease).replace(LINK_TAG, '');
-}
-
 /**
  * `acceptImage` checks a tile image candidate; pages pass `servedImageCheck()` (file in public/, under
  * the size cap). Fields pass through as they are (null stays null), so the island props match what
@@ -56,10 +46,20 @@ export function newsListItems(
     title: data.title || 'Untitled',
     date: data.date instanceof Date ? data.date.toISOString() : data.date,
     tease: data.tease,
-    teaseHtml: teaserHtml(data.tease),
+    teaseHtml: renderMarkdownTeaser(data.tease),
     tags: Array.isArray(data.tags) ? data.tags : data.tags ? [data.tags] : [],
     subsites: data.subsites,
     externalUrl: data.external_url,
     image: listImage(data.image, body, acceptImage),
   }));
+}
+
+type Dated = { data: { date?: Date | string | null } };
+
+/**
+ * News that is out by `now`: future-dated posts stay hidden until a rebuild on or after their date.
+ * Every news listing uses it (/news/, regional and project news).
+ */
+export function publishedNews<T extends Dated>(entries: T[], now = new Date()): T[] {
+  return entries.filter((entry) => isPublishedDate(entry.data.date ?? undefined, now));
 }

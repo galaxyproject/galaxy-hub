@@ -98,9 +98,12 @@ export function parseProjectFacts(data: Record<string, unknown>): ProjectFacts {
   };
 }
 
-/** An explicit status wins; otherwise the project has ended once its end date has passed. */
+/**
+ * A project has ended once its end date has passed, so `status: active` cannot go stale; `status: ended`
+ * also ends it before that date (a project that stopped early).
+ */
 export function projectHasEnded(facts: ProjectFacts, now: Date): boolean {
-  if (facts.status) return facts.status === 'ended';
+  if (facts.status === 'ended') return true;
   if (!facts.end) return false;
   const lastDay = new Date(facts.end);
   lastDay.setUTCDate(lastDay.getUTCDate() + 1);

@@ -5,12 +5,12 @@
 
 import { getCollection, type CollectionEntry } from 'astro:content';
 import {
-  isPublishedDate,
   isUpcomingEvent,
   isPastEvent,
   formatDate as formatDateUtil,
   formatDateRange as formatDateRangeUtil,
 } from './dateUtils';
+import { publishedNews } from './newsList';
 import { contentMatchesSubsite } from './subsites';
 import { isListed } from './publish-date.mjs';
 
@@ -254,10 +254,7 @@ export async function getNews(subsite?: string): Promise<NewsEntry[]> {
  * appear after a site rebuild on or after their publication date.
  */
 export async function getPublishedNews(subsite?: string): Promise<NewsEntry[]> {
-  const articles = await getNews(subsite);
-  const now = new Date();
-
-  return articles.filter((article) => isPublishedDate(article.data.date, now));
+  return publishedNews(await getNews(subsite));
 }
 
 /**

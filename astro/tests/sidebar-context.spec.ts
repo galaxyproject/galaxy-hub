@@ -214,6 +214,27 @@ test.describe('Mobile region chip', () => {
     await expect(chip).toBeFocused();
   });
 
+  // WebKit does not focus a tapped link; it focuses the nearest focusable ancestor (the sheet), which
+  // used to close the menu before the click landed. Emulate that focus move in Chromium.
+  test('tapping a region link navigates when focus moves to the sheet on press', async ({ page }) => {
+    await page.goto('/freiburg/');
+    const header = page.locator('.site-mobile-header');
+    await expect(header.locator('astro-island[ssr]')).toHaveCount(0);
+    await header.locator('[data-context-chip]').click();
+    const sheet = page.locator('[data-testid="mobile-menu"][data-state="open"]');
+    const menu = sheet.locator('#mm-region-menu');
+    await expect(menu).toBeVisible();
+    await expect(menu.locator('a[aria-current="true"]')).toBeFocused();
+
+    await page.evaluate(() => {
+      const dialog = document.querySelector<HTMLElement>('[data-testid="mobile-menu"]');
+      document.querySelector('#mm-region-menu')?.addEventListener('mousedown', () => dialog?.focus());
+    });
+
+    await menu.locator('a[data-region="belgium"]').click();
+    await expect(page).toHaveURL(/\/belgium\/$/);
+  });
+
   test('the sheet groups the region links before the global ones', async ({ page }) => {
     await page.goto('/freiburg/');
     await expect(page.locator('.site-mobile-header astro-island[ssr]')).toHaveCount(0);

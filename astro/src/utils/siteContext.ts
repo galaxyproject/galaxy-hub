@@ -42,33 +42,16 @@ const GLOBAL_CONTEXT: SiteContext = {
   href: '/get-started/',
 };
 
-// Projects that keep their own section under /projects/<id>/ and show as their own context.
-const PROJECT_CONTEXTS: (SiteContext & { links: { label: string; href: string }[] })[] = [
-  {
-    id: 'esg',
-    kind: 'project',
-    name: 'EuroScienceGateway',
-    shortName: 'ESG',
-    href: '/projects/esg/',
-    links: [
-      { label: 'Overview', href: '/projects/esg/' },
-      { label: 'News', href: '/projects/esg/news/' },
-      { label: 'Past events', href: '/projects/esg/events/' },
-    ],
-  },
-  {
-    id: 'esg4stars',
-    kind: 'project',
-    name: 'ESG4Stars',
-    shortName: 'ESG4Stars',
-    href: '/projects/esg4stars/',
-    links: [
-      { label: 'Overview', href: '/projects/esg4stars/' },
-      { label: 'News', href: '/projects/esg4stars/news/' },
-      { label: 'Events', href: '/projects/esg4stars/events/' },
-    ],
-  },
+// Projects that keep their own section under /projects/<id>/ (overview, news, events) and show as their own context.
+const PROJECT_CONTEXTS: SiteContext[] = [
+  { id: 'esg', kind: 'project', name: 'EuroScienceGateway', shortName: 'ESG', href: '/projects/esg/' },
+  { id: 'esg4stars', kind: 'project', name: 'ESG4Stars', shortName: 'ESG4Stars', href: '/projects/esg4stars/' },
 ];
+
+export interface ProjectLink {
+  label: string;
+  href: string;
+}
 
 /** The URL decides the context; nothing is remembered between pages. */
 export function contextFromPath(path: string): SiteContext {
@@ -90,9 +73,23 @@ export function contextFromPath(path: string): SiteContext {
   };
 }
 
-/** Section links of a project context (empty for regions and global). */
-export function projectLinks(contextId: string): { label: string; href: string }[] {
-  return PROJECT_CONTEXTS.find((entry) => entry.id === contextId)?.links ?? [];
+/** Name of a project's events section: only past events are left once the project has ended. */
+export function eventsLabel(ended: boolean): string {
+  return ended ? 'Past events' : 'Events';
+}
+
+/**
+ * Section links of a project context (empty for regions and global). `ended` comes from the project's
+ * facts at build time (projectStatus), so the events label flips without an edit here.
+ */
+export function projectLinks(contextId: string, { ended }: { ended: boolean }): ProjectLink[] {
+  const project = PROJECT_CONTEXTS.find((entry) => entry.id === contextId);
+  if (!project) return [];
+  return [
+    { label: 'Overview', href: project.href },
+    { label: 'News', href: `${project.href}news/` },
+    { label: eventsLabel(ended), href: `${project.href}events/` },
+  ];
 }
 
 /** Ids of the projects with their own section under /projects/<id>/. */

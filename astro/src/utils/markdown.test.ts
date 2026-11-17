@@ -1,5 +1,20 @@
 import { describe, expect, it } from 'vitest';
-import { renderMarkdown, renderMarkdownInline } from './markdown';
+import { renderMarkdown, renderMarkdownInline, renderMarkdownTeaser } from './markdown';
+
+describe('renderMarkdownTeaser', () => {
+  it('keeps link text and other formatting but no anchors, since list rows are links already', () => {
+    const html = renderMarkdownTeaser(
+      'Details via the [EOSC Node](https://eosc.pl/), <a href="/x">raw</a> and `code`, *now*'
+    );
+    expect(html).toBe('Details via the EOSC Node, raw and <code>code</code>, <em>now</em>');
+    expect(html).not.toMatch(/<a\b/i);
+  });
+
+  it('returns an empty string for missing text', () => {
+    expect(renderMarkdownTeaser(undefined)).toBe('');
+    expect(renderMarkdownTeaser(null)).toBe('');
+  });
+});
 
 describe('renderMarkdownInline', () => {
   it('keeps the formatting authored teasers use', () => {

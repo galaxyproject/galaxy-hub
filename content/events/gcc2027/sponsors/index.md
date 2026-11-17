@@ -69,4 +69,4 @@ We'd love to have your organization among the first GCC2027 sponsors.
 Packages can be customized to align with your marketing and philanthropic goals.
 For more information on any of the sponsorship opportunities, contact
 [Jenn Michener](mailto:jvessio1@jhu.edu) or reach out to the
-[organizers](/events/gcc2027/organizers/).
+organizers at [gcc-org@lists.galaxyproject.org](mailto:gcc-org@lists.galaxyproject.org).

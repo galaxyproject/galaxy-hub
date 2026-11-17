@@ -918,6 +918,30 @@ a.gx-tile--link:hover .gx-tile__more {
 }
 
 /* ==========================================================================
+   Markdown table alignment -- the typography plugin forces text-align: start
+   on every cell, which silently drops markdown column alignment (:---:, ---:).
+   ========================================================================== */
+.prose :where(th, td)[align='center'] {
+  text-align: center;
+}
+.prose :where(th, td)[align='right'] {
+  text-align: right;
+}
+
+/* ==========================================================================
+   Key dates table -- wrap a 3-column markdown table (Date | status icon | What)
+   in <div class="gx-dates">. The status-icon column is centred and shrunk to
+   its content. See DESIGN.md §4.
+   ========================================================================== */
+.gx-dates :where(th, td):nth-child(2) {
+  width: 1%;
+  white-space: nowrap;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  text-align: center;
+}
+
+/* ==========================================================================
    Profile row -- photo + bio. Replaces fellowship layout tables. See DESIGN.md §4.
    ========================================================================== */
 .profile-row {

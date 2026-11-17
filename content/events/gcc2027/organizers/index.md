@@ -62,7 +62,8 @@ here are the people who make it happen.
 ## GCC2027 Organizing Committee
 
 The organizing committee is the oversight and coordination group that makes sure
-GCC2027 runs smoothly.
+GCC2027 runs smoothly. To get in touch, email
+[gcc-org@lists.galaxyproject.org](mailto:gcc-org@lists.galaxyproject.org).
 
 ### Organizing Committee Chair
 
@@ -125,8 +126,6 @@ GCC2027 is hosted by the [Université de Sherbrooke](https://www.usherbrooke.ca/
     <p class="gx-tile__teaser gcc-person__org"><span><a href="https://www.usherbrooke.ca/">Université de Sherbrooke</a></span><span>Canada</span></p>
   </div>
 </div>
-
-<!-- TODO: organizing committee contact email -->
 
 ## Scientific Program Committee
 

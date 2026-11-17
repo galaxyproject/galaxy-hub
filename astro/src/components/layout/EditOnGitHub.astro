@@ -1,0 +1,24 @@
+---
+import Icon from '../ui/Icon.astro';
+
+interface Props {
+  /** GitHub URL of the page source. */
+  href: string;
+  label?: string;
+}
+
+const { href, label = 'Edit on GitHub' } = Astro.props;
+---
+
+<!-- Arbitrary margin: bootstrap-compat's `.mt-*` utilities are !important and would override mt-4. -->
+<div class="mt-[1rem] flex justify-end">
+  <a
+    {href}
+    target="_blank"
+    rel="noopener noreferrer"
+    class="text-chicago-500 hover:text-galaxy-primary flex items-center gap-1.5 transition-colors"
+  >
+    <Icon name="edit" />
+    {label}
+  </a>
+</div>
