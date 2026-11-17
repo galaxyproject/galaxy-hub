@@ -6,6 +6,7 @@ import SupporterGrid from '../components/content/SupporterGrid.astro';
 import type { SupporterProfile } from '../utils/supporters';
 import ContentWithToc from '../components/layout/ContentWithToc.astro';
 import Icon from '../components/ui/Icon.astro';
+import EditOnGitHubLink from '../components/layout/EditOnGitHubLink.astro';
 
 interface Heading {
   depth: number;
@@ -118,15 +119,7 @@ const hasMetadata =
         ) : (
           <span />
         )}
-        {editUrl && <a
-          href={editUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          class="text-chicago-500 hover:text-galaxy-primary flex items-center gap-1.5 transition-colors"
-        >
-          <Icon name="edit" />
-          {editLabel}
-        </a>}
+        {editUrl && <EditOnGitHubLink href={editUrl} label={editLabel} />}
       </div>}
     </footer>
   </article>

@@ -6,6 +6,7 @@
  */
 import BaseLayout from './BaseLayout.astro';
 import Icon from '../components/ui/Icon.astro';
+import EditOnGitHubLink from '../components/layout/EditOnGitHubLink.astro';
 import { renderMarkdownInline } from '../utils/markdown';
 
 interface PlatformInstance {
@@ -227,15 +228,7 @@ const sections = [
           Back to Galaxy Servers
         </a>
         <div class="flex items-center gap-4">
-          {editUrl && <a
-            href={editUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="text-chicago-500 hover:text-galaxy-primary flex items-center gap-1.5 transition-colors"
-          >
-            <Icon name="edit" />
-            Edit on GitHub
-          </a>}
+          {editUrl && <EditOnGitHubLink href={editUrl} />}
           {url && <a
             href={url}
             target="_blank"
