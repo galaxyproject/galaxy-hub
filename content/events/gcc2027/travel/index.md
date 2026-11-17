@@ -14,9 +14,9 @@ Situated on the South Shore (*Rive-Sud*) of the Saint Lawrence River, the campus
 
 ## About Longueuil & the Greater Montréal Area
 
-### Longueuil & Montréal: Riverside Convenience Meets Cosmopolitan Culture
+### Longueuil & Montréal: Convenience Meets Cosmopolitan Culture
 
-Hosting GCC2027 in **Longueuil** gives attendees the best of both worlds: a modern, welcoming riverside hub on the South Shore with immediate, effortless access to **Montréal**—North America's premier French-speaking metropolis.
+Hosting GCC2027 in **Longueuil** gives attendees the best of both worlds: a modern, welcoming hub on the South Shore with immediate, effortless access to **Montréal**—North America's premier French-speaking metropolis.
 
 Directly across the Saint Lawrence River from Montréal, **Longueuil** (population ~255,000; over 430,000 in its agglomeration) combines urban convenience with a relaxed neighbourhood feel. Just minutes from the conference venue, the historic district of **Vieux-Longueuil** along **Rue Saint-Charles** charms visitors with heritage stone buildings, leafy *terrasses*, independent bistros, and lively microbreweries, while **Parc Marie-Victorin** offers scenic walking and cycling paths along the riverfront.
 
