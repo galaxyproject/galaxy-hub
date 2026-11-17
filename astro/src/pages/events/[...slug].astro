@@ -25,6 +25,7 @@ import { isPastEvent } from '../../utils/dateUtils';
 import { isDraft, isListed } from '../../utils/publish-date.mjs';
 import { extractFunding, extractAuthors, resolveAuthor } from '../../utils/contributors';
 import Icon from '../../components/ui/Icon.astro';
+import EditOnGitHubLink from '../../components/layout/EditOnGitHubLink.astro';
 import ReleaseGuardiansSummary from '../../components/release-guardians/Summary.astro';
 import ReleaseGuardiansSection from '../../components/release-guardians/Section.astro';
 import ReleaseGuardiansLabelPill from '../../components/release-guardians/LabelPill.astro';
@@ -363,15 +364,7 @@ const editUrl = `https://github.com/galaxyproject/galaxy-hub/edit/main/content/$
             Back to Events
           </a>
           <div class="flex items-center gap-4">
-            <a
-              href={editUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              class="text-chicago-500 hover:text-galaxy-primary flex items-center gap-1.5 transition-colors"
-            >
-              <Icon name="edit" />
-              Edit on GitHub
-            </a>
+            <EditOnGitHubLink href={editUrl} />
             {external_url && <a
               href={external_url}
               target="_blank"
