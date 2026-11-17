@@ -50,5 +50,12 @@ Once the tools were good to go, [Ivo Leist](https://github.com/IvoLeist/) ported
 Thanks to all of them, you can run [Montreal Forced Aligner](https://ssh.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fmfa_align%2Fmfa_align%2F3.4.2%2B0&version=latest) and [new-fave](https://ssh.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/new_fave_extract/new_fave_extract/1.3.0+galaxy0) directly on Galaxy.
 
 ## From Tools to Workflow to Trainings
-Making the tools accessible outside of command-line settings can already be super helpful.
+Making the tools accessible outside of command-line settings can already be super helpful for many researchers.
 But the real power of Galaxy lies in creating [workflows](https://gxy.io/GTN:T00163) by chaining several tools together to create a reproducible pipeline.
+This is particularly useful because MFA includes many sub-tools for specific tasks. 
+In a workflow, they can be easily combined and adjusted to a user's needs.
+Those workflows can be used as a basis for writing tutorials for the [Galaxy Training Network](https://training.galaxyproject.org/training-material/) to support the community in using those tools.
+Jessica did just that by adding a tutorial on [how to use Montreal Forced Aligner](https://gxy.io/GTN:T00585) for vowel extraction.
+That way, she opened the door to showcasing how Galaxy could be useful for linguists.
+But her regular analysis still included [praat](https://praat.org/), an interactive phonetics tool not yet available on Galaxy.   
+
