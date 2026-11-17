@@ -112,6 +112,12 @@ The Genomic Data Infrastructure (GDI) project brings together national agencies,
 
 [ELIXIR-CONVERGE](https://elixir-europe.org/about-us/how-funded/eu-projects/converge) delivers provisioning, across Europe, of distributed local support for data management. This is based on a toolkit for researchers that enables lifecycle management for their research data, in compliance with international standards.
 
+### MaterialVital-Digital
+
+[MaterialVital-Digital (MVD)](https://www.materialdigital.de/) advances digital and data-driven research for biohybrid and engineered living materials. Funded by the German Federal Ministry of Research, Technology and Space (BMFTR) and [launched in February 2026](/news/2026-03-11-mvd-kickoff/), it brings together [Fraunhofer IWM](https://www.iwm.fraunhofer.de/en.html), the [Leibniz INM](https://www.leibniz-inm.de/), and the University of Freiburg. The project describes experimental and development processes with ontologies and shared metadata, maps the user and data journeys of researchers, and implements reusable workflows for materials-science use cases such as electrospinning and living therapeutic materials.
+
+The Freiburg Galaxy team contributes expertise in omics data analysis, FAIR tools and workflow development, and research data management through Galaxy. This includes integrating Galaxy with data portals and electronic lab notebooks such as [CKAN](/news/2026-09-16-ckan-integration/), [openBIS](/news/2026-09-11-openbis-integration/), and RSpace, packaging research outcomes as RO-Crates, and providing training through the [Galaxy Training Network](https://training.galaxyproject.org/). Use cases and requirements are refined in joint workshops with the partners, e.g. in [Saarbrücken](/news/2026-03-02-mvd-workshop/) and [Freiburg](/news/2026-07-13-mvd-second-workshop/).
+
 ## Research Projects
 
 ### MIRACUM
