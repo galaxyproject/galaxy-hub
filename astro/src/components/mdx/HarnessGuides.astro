@@ -1,11 +1,7 @@
 ---
 /**
- * HarnessGuides: compact header + 5-tab harness selector + active setup panel
- * for /agents/. Used from MDX as:
- *
- *   <HarnessGuides>
- *     <HarnessGuide id="claude-code" name="Claude Code" source="…">…markdown…</HarnessGuide>
- *   </HarnessGuides>
+ * HarnessGuides: compact header + 6-tab harness selector + numbered Step 1/2/3
+ * cards for /agents/.
  *
  * Without JavaScript every panel is visible, stacked, and tabs are plain
  * anchors. With JavaScript one panel shows at a time, URL hash tracks selection
@@ -13,13 +9,15 @@
  * panel at the matching sub-heading.
  */
 import bandsCss from '../agent-pages/bands.css?raw';
+import { harnessIcons } from '../agent-pages/harness-icons';
 
 const tabs = [
-  { id: 'claude-code', name: 'Claude Code', tag: 'CLI · keychain prompt', monogram: 'CC', accent: '#d97757' },
-  { id: 'codex', name: 'Codex CLI', tag: 'CLI · shell or .env', monogram: 'Cx', accent: '#10a37f' },
-  { id: 'antigravity', name: 'Antigravity', tag: 'CLI & IDE · shell or .env', monogram: 'Ag', accent: '#4285f4' },
-  { id: 'claude-desktop', name: 'Claude Desktop', tag: 'No terminal · .mcpb', monogram: 'CD', accent: '#d97757' },
-  { id: 'other', name: 'Pi / Cursor / Other', tag: 'MCP + Agent Skills', monogram: '+', accent: '#14b8a6' },
+  { id: 'orbit', name: 'Orbit', tag: 'Desktop app · Galaxy built in', accent: '#eab308' },
+  { id: 'claude-code', name: 'Claude Code', tag: 'CLI · keychain prompt', accent: '#d97757' },
+  { id: 'codex', name: 'Codex CLI', tag: 'CLI · shell or .env', accent: '#4f46e5' },
+  { id: 'antigravity', name: 'Antigravity', tag: 'CLI & IDE · shell or .env', accent: '#4285f4' },
+  { id: 'claude-desktop', name: 'Claude Desktop', tag: 'No terminal · .mcpb', accent: '#d97757' },
+  { id: 'other', name: 'Pi / Cursor / Other', tag: 'MCP + Agent Skills', accent: '#0d9488' },
 ];
 ---
 
@@ -31,35 +29,41 @@ const tabs = [
     <div class="ag-top__inner">
       <h1 class="ag-top__title">Use Galaxy from your <em>AI agent</em></h1>
       <p class="ag-top__lede">
-        Pick your harness below and follow Steps A, B, and C. Every tool, workflow, and custom container runs as a
-        reproducible job in your Galaxy history.
+        Follow Steps 1–4 below — every tool, workflow, and custom container runs as a tracked job in your Galaxy
+        history.
       </p>
     </div>
   </div>
 </section>
 
-<div class="ag-band ag-band--white ag-band--guides">
+<div class="ag-band ag-band--guides">
   <div class="hguides" data-harness-guides>
-    <div class="hguides__tabs not-prose" role="tablist" aria-label="Setup guide by harness">
-      {tabs.map((t, i) => <a
-        class:list={['hguides__tab', i === 0 && 'is-active']}
-        role="tab"
-        id={`guide-tab-${t.id}`}
-        href={`#guide-${t.id}`}
-        aria-selected={i === 0 ? 'true' : 'false'}
-        aria-controls={`guide-${t.id}`}
-        tabindex={i === 0 ? 0 : -1}
-        data-guide-tab={t.id}
-        style={`--ash-accent: ${t.accent}`}
-      >
-        <span class="hguides__mono" aria-hidden="true">
-          {t.monogram}
-        </span>
-        <span class="hguides__txt">
-          <span class="hguides__name">{t.name}</span>
-          <span class="hguides__tag">{t.tag}</span>
-        </span>
-      </a>)}
+    <div class="hstep hstep--picker not-prose">
+      <div class="hstep__badge" aria-hidden="true">1</div>
+      <div class="hstep__body">
+        <h3 class="hstep__picker-title"><span class="hstep__kicker">Step 1:</span> Pick your agent</h3>
+        <div class="hguides__tabs" role="tablist" aria-label="Pick your agent">
+          {tabs.map((t, i) => <a
+            class:list={['hguides__tab', i === 0 && 'is-active']}
+            role="tab"
+            id={`guide-tab-${t.id}`}
+            href={`#guide-${t.id}`}
+            aria-selected={i === 0 ? 'true' : 'false'}
+            aria-controls={`guide-${t.id}`}
+            tabindex={i === 0 ? 0 : -1}
+            data-guide-tab={t.id}
+            style={`--ash-accent: ${t.accent}`}
+          >
+            <span class="hguides__logo" aria-hidden="true">
+              <Fragment set:html={harnessIcons[t.id]} />
+            </span>
+            <span class="hguides__txt">
+              <span class="hguides__name">{t.name}</span>
+              <span class="hguides__tag">{t.tag}</span>
+            </span>
+          </a>)}
+        </div>
+      </div>
     </div>
     <div class="hguides__panels">
       <slot />
@@ -96,22 +100,44 @@ const tabs = [
 
   .ag-top__inner {
     position: relative;
-    max-width: 64rem;
+    max-width: 84rem;
     margin: 0 auto;
     padding: 2.25rem 1.5rem 2rem;
   }
 
   @media (min-width: 640px) {
     .ag-top__inner {
-      padding: 2.75rem 2rem 2.35rem;
+      padding: 2.6rem 2.25rem 2.3rem;
     }
+  }
+
+  /* Widen all bands on /agents/ so the page uses modern monitor width cleanly. */
+  .prose .ag-top ~ .ag-band {
+    padding-left: max(1.5rem, calc((100% + 3rem - 84rem) / 2));
+    padding-right: max(1.5rem, calc((100% + 3rem - 84rem) / 2));
+  }
+
+  @media (min-width: 640px) {
+    .prose .ag-top ~ .ag-band {
+      padding-left: max(2.25rem, calc((100% + 4rem - 84rem) / 2));
+      padding-right: max(2.25rem, calc((100% + 4rem - 84rem) / 2));
+    }
+  }
+
+  .prose .ag-top ~ .ag-band > p,
+  .prose .ag-top ~ .ag-band > ul {
+    max-width: 64rem;
+  }
+
+  .prose .ag-top ~ .ag-band--white .ag-example {
+    background: color-mix(in srgb, var(--color-light-bg, #edf4fa) 48%, #fff);
   }
 
   .ag-top .ag-top__title {
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: clamp(1.9rem, 4.2vw, 2.75rem);
+    font-size: clamp(2rem, 4.2vw, 2.85rem);
     font-weight: 700;
     line-height: 1.1;
     letter-spacing: -0.02em;
@@ -125,60 +151,88 @@ const tabs = [
   }
 
   .ag-top .ag-top__lede {
-    max-width: 44rem;
-    margin: 0.7rem 0 0;
-    font-size: clamp(0.98rem, 1.5vw, 1.1rem);
+    max-width: 54rem;
+    margin: 0.65rem 0 0;
+    font-size: clamp(1rem, 1.45vw, 1.12rem);
     line-height: 1.5;
-    color: rgba(255, 255, 255, 0.85);
+    color: rgba(255, 255, 255, 0.88);
     text-wrap: pretty;
   }
 
   .prose .ag-band--guides {
-    padding-top: 2rem;
+    padding-top: 2.25rem;
+    padding-bottom: 3.25rem;
   }
 
   .hguides {
     margin: 0;
   }
 
+  .hstep--picker {
+    margin-bottom: 1.15rem;
+  }
+
+  .hstep__picker-title {
+    margin: 0.1rem 0 1rem;
+    padding: 0;
+    border: 0;
+    font-size: clamp(1.22rem, 1.8vw, 1.42rem);
+    font-weight: 700;
+    line-height: 1.25;
+    color: var(--color-galaxy-dark, #2c3143);
+  }
+
   .hguides__tabs {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(11.5rem, 1fr));
-    gap: 0.55rem;
-    margin-bottom: 1.75rem;
+    grid-template-columns: 1fr;
+    gap: 0.7rem;
+    margin: 0;
+  }
+
+  @media (min-width: 560px) {
+    .hguides__tabs {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (min-width: 960px) {
+    .hguides__tabs {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
   }
 
   .hguides__tab,
   .prose .hguides__tab {
     display: flex;
     align-items: center;
-    gap: 0.65rem;
-    padding: 0.7rem 0.85rem;
+    gap: 0.85rem;
+    padding: 0.85rem 1.05rem;
     border: 1px solid color-mix(in srgb, var(--color-galaxy-primary, #25537b) 18%, transparent);
     border-bottom: 3px solid color-mix(in srgb, var(--color-galaxy-primary, #25537b) 18%, transparent);
-    border-radius: 0.5rem;
+    border-radius: 0.65rem;
     background: color-mix(in srgb, var(--color-light-bg, #edf4fa) 55%, #fff);
     color: var(--color-galaxy-dark, #2c3143);
     text-decoration: none;
     transition:
       background-color 0.15s ease,
       border-color 0.15s ease,
-      box-shadow 0.15s ease;
+      box-shadow 0.15s ease,
+      transform 0.15s ease;
   }
 
   .hguides__tab:hover,
   .prose .hguides__tab:hover {
     background: #fff;
-    border-color: color-mix(in srgb, var(--color-galaxy-primary, #25537b) 38%, transparent);
+    border-color: color-mix(in srgb, var(--color-galaxy-primary, #25537b) 40%, transparent);
     text-decoration: none;
   }
 
   .hguides__tab.is-active,
   .prose .hguides__tab.is-active {
     background: #fff;
-    border-color: color-mix(in srgb, var(--color-galaxy-primary, #25537b) 35%, transparent);
-    border-bottom-color: var(--ash-accent, #ffd700);
-    box-shadow: 0 2px 6px rgba(16, 32, 52, 0.08);
+    border: 2px solid var(--color-galaxy-primary, #25537b);
+    border-bottom: 4px solid var(--ash-accent, #25537b);
+    box-shadow: 0 4px 14px rgba(16, 32, 52, 0.11);
   }
 
   .hguides__tab:focus-visible {
@@ -186,25 +240,25 @@ const tabs = [
     outline-offset: 2px;
   }
 
-  .hguides__mono {
+  .hguides__logo {
     display: grid;
     flex: none;
     place-items: center;
-    width: 1.85rem;
-    height: 1.85rem;
-    border-radius: 0.4rem;
-    font-size: 0.75rem;
-    font-weight: 700;
-    line-height: 1;
-    color: var(--color-galaxy-primary, #25537b);
-    background: color-mix(in srgb, var(--color-galaxy-primary, #25537b) 10%, #fff);
-    border: 1px solid color-mix(in srgb, var(--color-galaxy-primary, #25537b) 25%, transparent);
+    width: 2.45rem;
+    height: 2.45rem;
+    border-radius: 0.55rem;
+    background: #fff;
+    border: 1px solid color-mix(in srgb, var(--color-galaxy-primary, #25537b) 16%, transparent);
+    box-shadow: 0 1px 2px rgba(16, 32, 52, 0.05);
   }
 
-  .hguides__tab.is-active .hguides__mono {
-    color: #fff;
-    background: var(--color-galaxy-primary, #25537b);
-    border-color: var(--color-galaxy-primary, #25537b);
+  .hguides__logo svg {
+    display: block;
+  }
+
+  .hguides__tab.is-active .hguides__logo {
+    border-color: color-mix(in srgb, var(--ash-accent, #25537b) 55%, transparent);
+    box-shadow: 0 1px 4px rgba(16, 32, 52, 0.1);
   }
 
   .hguides__txt {
@@ -214,21 +268,30 @@ const tabs = [
   }
 
   .hguides__name {
-    font-size: 0.95rem;
+    font-size: 1.02rem;
     font-weight: 700;
     line-height: 1.2;
     color: var(--color-galaxy-dark, #2c3143);
   }
 
   .hguides__tag {
-    margin-top: 0.12rem;
-    font-size: 0.75rem;
+    margin-top: 0.16rem;
+    font-size: 0.78rem;
     line-height: 1.25;
     color: var(--color-galaxy-grey, #58585a);
   }
 
   .hguide {
     scroll-margin-top: 5rem;
+  }
+
+  /* Remove narrow 65ch prose clamps inside guide cards and details drawers. */
+  .prose .hguide p,
+  .prose .hguide ul,
+  .prose .hguide ol,
+  .prose .hguide li,
+  .prose .hguide details {
+    max-width: none;
   }
 
   /* No JS: guides stack with their own titles. With JS: tabs own the title. */
@@ -262,47 +325,151 @@ const tabs = [
     border: 0;
   }
 
-  /* Top-level Step A / B / C headings inside each harness panel. */
-  .prose .hguide > h4 {
+  /* Large numbered Step 1 / 2 / 3 cards inside each harness panel. */
+  .prose .hstep {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1.4rem 1.35rem;
+    background: #fff;
+    border: 1px solid color-mix(in srgb, var(--color-galaxy-primary, #25537b) 16%, transparent);
+    border-radius: 0.85rem;
+    box-shadow: 0 2px 10px rgba(16, 32, 52, 0.05);
+  }
+
+  .prose .hstep + .hstep {
+    margin-top: 1.15rem;
+  }
+
+  @media (min-width: 680px) {
+    .prose .hstep {
+      grid-template-columns: 3.85rem minmax(0, 1fr);
+      gap: 1.5rem;
+      padding: 1.75rem 2.15rem;
+      align-items: start;
+    }
+  }
+
+  .hstep__badge {
+    display: grid;
+    place-items: center;
+    width: 3.4rem;
+    height: 3.4rem;
+    border-radius: 0.85rem;
+    background: var(--color-galaxy-primary, #25537b);
+    border-bottom: 4px solid var(--color-galaxy-gold, #ffd700);
+    color: #fff;
+    font-size: 1.75rem;
+    font-weight: 800;
+    line-height: 1;
+    box-shadow: 0 2px 6px rgba(37, 83, 123, 0.22);
+  }
+
+  @media (min-width: 680px) {
+    .hstep__badge {
+      width: 3.75rem;
+      height: 3.75rem;
+      font-size: 1.9rem;
+    }
+  }
+
+  .prose .hstep__body {
+    min-width: 0;
+  }
+
+  .prose .hstep__body > :first-child {
+    margin-top: 0;
+  }
+
+  .prose .hstep__body > :last-child {
+    margin-bottom: 0;
+  }
+
+  .prose .hstep__body > h4 {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 0.6rem;
-    font-size: 1.28em;
-    margin-top: 1.75em;
-    margin-bottom: 0.6em;
-    padding-top: 1.25em;
-    border-top: 1px solid color-mix(in srgb, var(--color-galaxy-primary, #25537b) 12%, transparent);
+    margin: 0.1rem 0 0.9rem;
+    padding: 0;
+    border: 0;
+    font-size: clamp(1.22rem, 1.8vw, 1.42rem);
+    font-weight: 700;
+    line-height: 1.25;
+    color: var(--color-galaxy-dark, #2c3143);
   }
 
-  .prose .hguide > h4:first-of-type {
-    margin-top: 1.1em;
-    padding-top: 0;
-    border-top: 0;
+  .prose .hstep__kicker,
+  .hstep__kicker {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
   }
 
-  .prose .hguide > h4::before {
-    content: '';
-    flex: none;
-    width: 4px;
-    height: 1.35rem;
-    border-radius: 2px;
-    background: var(--color-galaxy-gold, #ffd700);
+  .prose .hstep__body p,
+  .prose .hstep__body li {
+    font-size: 1.02rem;
+    line-height: 1.65;
+  }
+
+  .prose .hstep__body :is(ul, ol) {
+    margin: 0.5rem 0 0.85rem;
+    padding-left: 1.35rem;
+  }
+
+  .prose .hstep__body li + li {
+    margin-top: 0.5rem;
+  }
+
+  .prose .hstep__body :is(.code-block, pre) {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .prose .hstep__body > :is(.code-block, pre):last-child {
+    margin-bottom: 0;
   }
 
   .prose .hguide h5 {
-    font-size: 1.05em;
+    font-size: 1.06rem;
     font-weight: 700;
     color: var(--color-galaxy-dark, #2c3143);
-    margin-top: 1.4em;
-    margin-bottom: 0.45em;
+    margin-top: 1.35rem;
+    margin-bottom: 0.45rem;
     scroll-margin-top: 5rem;
   }
 
+  .prose .hguide > details {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: none !important;
+    margin-top: 1.25rem;
+    padding: 0.95rem 1.4rem;
+    background: #fff;
+    border: 1px solid color-mix(in srgb, var(--color-galaxy-primary, #25537b) 16%, transparent);
+    border-radius: 0.75rem;
+  }
+
+  .prose .hguide > details > summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--color-galaxy-primary, #25537b);
+  }
+
+  .prose .hguide > details[open] > summary {
+    margin-bottom: 0.9rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-galaxy-primary, #25537b) 12%, transparent);
+  }
+
   .hguide__source {
-    margin-top: 2rem;
-    padding-top: 0.75rem;
-    border-top: 1px solid color-mix(in srgb, var(--color-galaxy-primary, #25537b) 15%, transparent);
-    font-size: 0.85em;
+    margin-top: 1.25rem;
+    padding-top: 0;
+    border-top: 0;
+    font-size: 0.84rem;
     color: var(--color-galaxy-grey, #4b5563);
   }
 
