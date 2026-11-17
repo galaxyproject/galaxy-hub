@@ -77,6 +77,7 @@ Then use component tags in your content:
 |:--|:--|:--|
 | `Icon` | Lucide icon | `<Icon name="laptop" />` |
 | `VegaEmbed` | Vega-Lite chart | `<VegaEmbed spec="chart.json" />` |
+| `MermaidEmbed` | Mermaid diagram | `<MermaidEmbed>flowchart LR; A --> B</MermaidEmbed>` |
 | `Mastodon` | Mastodon embed | `<Mastodon url="..." />` |
 | `VideoPlayer` | Video player | `<VideoPlayer src="./video.mp4" />` |
 | `Carousel` | Image carousel | `<Carousel />` |
@@ -86,6 +87,34 @@ Then use component tags in your content:
 | `MarkdownEmbed` | Embed markdown | `<MarkdownEmbed />` |
 | `CalendarEmbed` | Calendar widget | `<CalendarEmbed />` |
 | `Insert` | Inline content snippet | `<Insert name="/path/to/snippet" />` |
+
+### Mermaid diagrams
+
+Use the `MermaidEmbed` component to render [Mermaid](https://mermaid.js.org/) diagrams. Put the diagram source in a fenced `mermaid` code block between the opening and closing tags:
+
+`````markdown
+<MermaidEmbed>
+```mermaid
+flowchart LR
+    A[Audio + Transcription] --> B[MFA alignment]
+    B --> C[TextGrid files]
+```
+</MermaidEmbed>
+`````
+
+Alternatively, pass the diagram source as a `chart` prop: `<MermaidEmbed chart="flowchart LR; A --> B" />`.
+
+This is what the diagram above looks like rendered:
+
+<MermaidEmbed>
+```mermaid
+flowchart LR
+    A[Audio + Transcription] --> B[MFA alignment]
+    B --> C[TextGrid files]
+    C --> D[Praat correction]
+    D --> E[new-fave extraction]
+```
+</MermaidEmbed>
 
 ### MDX compatibility notes
 

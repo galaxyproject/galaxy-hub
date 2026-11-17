@@ -90,7 +90,7 @@ components: true
 Here's an icon: <Icon name="laptop" />
 ```
 
-Available components include: `Icon`, `VegaEmbed`, `Twitter`, `Mastodon`, `VideoPlayer`, `Carousel`, `Flickr`, `Supporters`, `Contacts`, `MarkdownEmbed`, `CalendarEmbed`, and `Insert`.
+Available components include: `Icon`, `VegaEmbed`, `MermaidEmbed`, `Twitter`, `Mastodon`, `VideoPlayer`, `Carousel`, `Flickr`, `Supporters`, `Contacts`, `MarkdownEmbed`, `CalendarEmbed`, and `Insert`.
 
 Files with `components: true` are processed as MDX rather than plain Markdown. This means HTML comments must use JSX syntax (`{/* comment */}` instead of `<!-- comment -->`), and certain patterns like bare `<>` or `<` followed by a number need escaping. If you don't use any components, you don't need to worry about any of this — leave `components` out and your file will be processed as plain Markdown.
 
