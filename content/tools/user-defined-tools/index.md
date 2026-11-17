@@ -7,13 +7,22 @@ tease: "Write and run your own simple tools from the Galaxy interface — no ser
 <strong>This page will be deprecated.</strong> Galaxy's own documentation now carries the authoritative reference for User-Defined Tools: <a href="https://docs.galaxyproject.org/en/master/dev/user_defined_tools_authoring.html">Authoring User-Defined Tools</a>. Once that page is updated to cover everything here, this page will be retired and will point you there instead. When the two disagree, the Galaxy documentation is correct.
 </div>
 
-*Beta feature available on UseGalaxy.org only*
+*Beta feature available on UseGalaxy.org — enabled per account*
 
-User-Defined Tools (UDTs) let regular Galaxy users write and run their own simple tools directly from the Galaxy interface — no server access, no admin installation, and no waiting for a tool to be added to a Tool Shed. If you've ever needed a quick one-off script, a table-reformatting step, or wanted to glue together a couple of shell commands in a workflow, and didn't want to file a request with your Galaxy admin, UDTs are for you.
+User-Defined Tools (UDTs) let regular Galaxy users — and [connected AI agents](/agents/) — write and run their own containerized YAML tools directly in Galaxy, with no server access, no admin installation, and no waiting on the Tool Shed. If you need a custom Python/shell step, a format normalizer, or a Biocontainer tool that isn't installed yet, UDTs run it as a tracked Galaxy job in your history and workflows.
 
-Using an AI agent? See [the Galaxy agentic stack](/agents/stack/), where an agent writes and runs a UDT while Galaxy keeps the record.
+## Request beta access on UseGalaxy.org
 
-UDTs are meant to fill that gap, not to replace published tools. Galaxy's goals of reproducibility and collaboration still matter — whenever a "real" Tool Shed tool already does what you need, prefer it, since workflows and analyses built on published tools are easier for others to share, rerun, and publish. Reach for a UDT when no existing tool fits and the job is too small to justify a full tool submission.
+On **UseGalaxy.org (Galaxy Main)**, UDT access is turned on per account:
+
+1. Open **[udt-signup.galaxyproject.org](https://udt-signup.galaxyproject.org/)** *(optional: sign in with ORCID first for faster review)*.
+2. Enter your **UseGalaxy.org** account email/username and a sentence or two describing what you plan to build or run.
+3. Once approved, **Custom Tools** (wrench icon) appears in your Galaxy Activity Bar — and any connected [AI agent](/agents/) or [Orbit](/agents/orbit/) can author and run UDTs on your behalf ([see an end-to-end agent run](/agents/stack/)).
+4. Ask questions, report rough edges, or share working `GalaxyUserTool` YAMLs in **[GitHub Discussions (`Agents & UDTs`)](https://github.com/galaxyproject/galaxy/discussions/categories/agents-udts)**.
+
+*(Working on a different Galaxy server? Ask that server's administrators — see [Enabling User-Defined Tools](#enabling-user-defined-tools-for-admins) below.)*
+
+UDTs are meant to fill gaps, not to replace published tools. Whenever a Tool Shed tool already does what you need, prefer it — analyses built on published tools are easier for others to share, rerun, and cite.
 
 ## What is a User-Defined Tool?
 

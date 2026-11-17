@@ -27,7 +27,7 @@ Don't want to write a full XML tool or wait for admin installation? [User-Define
 
 ## Working with an AI agent
 
-This section is for people building tools. If you want an AI agent to plan and run analyses on Galaxy for you, start at [AI Agents and Galaxy](/agents/) instead: [Orbit](/agents/orbit/) is a desktop app with Galaxy already wired up, or you can [add Galaxy to a coding agent you already use](/agents/plugins/). [The Galaxy agentic stack](/agents/stack/) shows an agent writing and running its own user-defined tool when no installed tool fits.
+This section is for people building tools. If you want an AI agent to plan and run analyses on Galaxy for you, start at [Use Galaxy from Your AI Agent](/agents/) (setup guides for Claude Code, Codex, Antigravity, Claude Desktop, Pi, and Cursor, plus [Orbit](/agents/orbit/)). [The Galaxy agentic stack](/agents/stack/) shows an agent writing and running its own user-defined tool when no installed tool fits.
 
 ## Need help?
 

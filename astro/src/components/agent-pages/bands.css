@@ -61,6 +61,27 @@
   background: var(--ag-gold);
 }
 
+.prose .ag-step-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.18rem 0.6rem;
+  border-radius: 999px;
+  background: var(--ag-primary);
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  line-height: 1.3;
+  flex: none;
+}
+
+.prose .ag-note {
+  margin-top: 1.25rem;
+  font-size: 0.92rem;
+  color: var(--color-galaxy-grey, #58585a);
+}
+
 .prose .ag-band > p,
 .prose .ag-band > ul {
   max-width: 46rem;
@@ -325,6 +346,15 @@
   border: 1px solid var(--ag-line);
   border-radius: 0.5rem;
   background: #fff;
+  overflow-x: auto;
+}
+
+@media (max-width: 680px) {
+  .prose .ag-band table {
+    display: block;
+    overflow-x: auto;
+    max-width: 100%;
+  }
 }
 
 .prose .ag-band summary {
