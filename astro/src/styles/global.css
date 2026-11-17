@@ -942,6 +942,143 @@ a.gx-tile--link:hover .gx-tile__more {
 }
 
 /* ==========================================================================
+   Event schedule -- wrap each day's Markdown table (Time | Event | optional
+   Location) in <div class="gx-schedule">. A fixed time column keeps every day
+   aligned; an Event cell that is only italic text (*Break*) is a logistics row
+   and recedes. Below 640px a Location column drops under its event instead of
+   adding a third column. Day jump links: <nav class="gx-schedule-days">.
+   See DESIGN.md §4.
+   ========================================================================== */
+.gx-schedule .table-wrapper {
+  margin-top: 0.75rem;
+  margin-bottom: 2rem;
+  border: 1px solid var(--gx-line);
+  border-radius: var(--radius-md);
+}
+
+.gx-schedule table {
+  table-layout: fixed;
+}
+
+/* Collapsed rather than removed: the fixed table layout takes its column
+   widths from this first row. */
+.prose .gx-schedule thead {
+  border: 0;
+}
+
+.prose .gx-schedule thead th {
+  height: 0;
+  padding-block: 0;
+  border: 0;
+  background: none;
+  font-size: 0;
+  line-height: 0;
+}
+
+@media (max-width: 39.99rem) {
+  .gx-schedule thead {
+    display: none;
+  }
+}
+
+.prose .gx-schedule :is(th, td) {
+  border-width: 0 0 1px;
+  border-color: var(--gx-line);
+  vertical-align: top;
+}
+
+.prose .gx-schedule tr:last-child td {
+  border-bottom: 0;
+}
+
+.gx-schedule :is(th, td):first-child {
+  width: 7.5rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  color: var(--gx-fg-strong);
+}
+
+.gx-schedule :is(th, td):nth-child(2) {
+  color: var(--gx-fg-strong);
+}
+
+.gx-schedule :is(th, td):nth-child(3) {
+  width: 35%;
+  color: var(--gx-fg-meta);
+}
+
+.gx-schedule tr:has(> td:nth-child(2) > em:only-child) td {
+  background: var(--gx-surface-sunken);
+  color: var(--gx-fg-meta);
+  font-weight: 400;
+}
+
+.gx-schedule td > em:only-child {
+  font-style: normal;
+}
+
+@media (max-width: 39.99rem) {
+  .gx-schedule :is(table, tbody, tr, td) {
+    display: block;
+  }
+
+  .gx-schedule tr {
+    display: grid;
+    grid-template-columns: 6.25rem minmax(0, 1fr);
+    border-bottom: 1px solid var(--gx-line);
+  }
+
+  .gx-schedule tr:last-child {
+    border-bottom: 0;
+  }
+
+  .prose .gx-schedule td {
+    width: auto;
+    border: 0;
+  }
+
+  .prose .gx-schedule td:nth-child(n + 3) {
+    grid-column: 2;
+    padding-top: 0;
+  }
+
+  .gx-schedule tr:has(> td:nth-child(2) > em:only-child) {
+    background: var(--gx-surface-sunken);
+  }
+}
+
+.gx-schedule-days {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(6.5rem, 1fr));
+  gap: 0.5rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.gx-schedule-days a {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--gx-line-strong);
+  border-radius: var(--radius-md);
+  color: var(--gx-fg-meta);
+  font-size: 0.8125rem;
+  line-height: 1.2;
+  text-decoration: none;
+  transition: background-color 0.15s, border-color 0.15s;
+}
+
+.gx-schedule-days a span {
+  color: var(--gx-fg-strong);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.gx-schedule-days a:hover {
+  background: var(--gx-surface-tint);
+  border-color: var(--gx-link);
+}
+
+/* ==========================================================================
    Profile row -- photo + bio. Replaces fellowship layout tables. See DESIGN.md §4.
    ========================================================================== */
 .profile-row {

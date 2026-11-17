@@ -301,6 +301,33 @@ Dated milestones (openings, deadlines, results) as a plain Markdown table. `gx-d
 
 `gx-dates` centres the second (status icon) column and shrinks it to its content; keep that column to icons only. Icons used on the conference pages: 🟢 opens, 🔴 deadline, 🏆 results, 🎉 conference week. Markdown column alignment (`:---:`, `---:`) works on every page, independently of `gx-dates`.
 
+### Event Schedule
+
+A day-by-day programme: one `##` heading per day, each followed by a plain
+Markdown table wrapped in `gx-schedule`. Columns are **Time | Event**, with an
+optional third **Location** column:
+
+```html
+<div class="gx-schedule">
+
+| Time | Event |
+| --- | --- |
+| 9:00–10:00 | Keynote |
+| 10:00–10:20 | *Break* |
+
+</div>
+```
+
+- The time column has a fixed width, so every day's table lines up. The header
+  row is collapsed but kept for screen readers.
+- An Event cell holding only italic text (`*Break*`, `*Lunch*`) marks a
+  logistics row, which gets a muted fill so the sessions stand out.
+- Below 640px, a Location column moves under its event rather than adding a
+  third column.
+
+Jump links to the days go in `<nav class="gx-schedule-days not-prose">`, one
+`<a href="#day-heading-id"><span>Mon 28</span>Conference</a>` per day.
+
 ### Profile Row
 
 Photo + bio row for people (fellowship awardees, organizers, etc.). Photo left / bio right on desktop; stacks (photo on top) below 768px.
