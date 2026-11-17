@@ -1,0 +1,14 @@
+---
+import MermaidEmbedVue from '../embed/MermaidEmbed.vue';
+
+interface Props {
+  /** Diagram source. If omitted, the component's children are used. */
+  chart?: string;
+}
+
+const { chart } = Astro.props;
+---
+
+<MermaidEmbedVue client:visible chart={chart}>
+  <slot />
+</MermaidEmbedVue>

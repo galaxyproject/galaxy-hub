@@ -1,88 +1,184 @@
 ---
 /**
- * HarnessGuides: tabbed container for the per-harness setup guides on
- * /agents/plugins/. Used from MDX as
+ * HarnessGuides: compact header + 5-tab harness selector + active setup panel
+ * for /agents/. Used from MDX as:
  *
  *   <HarnessGuides>
  *     <HarnessGuide id="claude-code" name="Claude Code" source="…">…markdown…</HarnessGuide>
  *   </HarnessGuides>
  *
- * The tab strip is derived from the agent-shells scene list so the hero tabs
- * and the guide tabs always agree. Without JavaScript every panel is visible,
- * stacked, and the tabs are plain anchors. With JavaScript one panel shows at a
- * time, the URL hash tracks the selection (#guide-<id>), and selection is kept
- * in sync with the hero's live shells through the `agent-shells:select` event.
+ * Without JavaScript every panel is visible, stacked, and tabs are plain
+ * anchors. With JavaScript one panel shows at a time, URL hash tracks selection
+ * (#guide-<id>), and legacy #guide-pi / #guide-cursor hashes open the "other"
+ * panel at the matching sub-heading.
  */
-import { scenes } from '../agent-shells/scenes';
+import bandsCss from '../agent-pages/bands.css?raw';
 
-const tabs = scenes.map((s) => ({ id: s.id, name: s.name, monogram: s.monogram, accent: s.accent }));
+const tabs = [
+  { id: 'claude-code', name: 'Claude Code', tag: 'CLI · keychain prompt', monogram: 'CC', accent: '#d97757' },
+  { id: 'codex', name: 'Codex CLI', tag: 'CLI · shell or .env', monogram: 'Cx', accent: '#10a37f' },
+  { id: 'antigravity', name: 'Antigravity', tag: 'CLI & IDE · shell or .env', monogram: 'Ag', accent: '#4285f4' },
+  { id: 'claude-desktop', name: 'Claude Desktop', tag: 'No terminal · .mcpb', monogram: 'CD', accent: '#d97757' },
+  { id: 'other', name: 'Pi / Cursor / Other', tag: 'MCP + Agent Skills', monogram: '+', accent: '#14b8a6' },
+];
 ---
 
-<div class="hguides" data-harness-guides>
-  <div class="hguides__tabs" role="tablist" aria-label="Setup guide by harness">
-    {tabs.map((t, i) => <a
-      class:list={['hguides__tab', i === 0 && 'is-active']}
-      role="tab"
-      id={`guide-tab-${t.id}`}
-      href={`#guide-${t.id}`}
-      aria-selected={i === 0 ? 'true' : 'false'}
-      aria-controls={`guide-${t.id}`}
-      tabindex={i === 0 ? 0 : -1}
-      data-guide-tab={t.id}
-      style={`--ash-accent: ${t.accent}`}
-    >
-      <span class="hguides__mono" aria-hidden="true">
-        {t.monogram}
-      </span>
-      {t.name}
-    </a>)}
+<style is:global set:html={bandsCss}></style>
+
+<section class="ag-top not-prose">
+  <div class="ag-top__hero">
+    <div class="ag-top__grid bg-grid-dark" aria-hidden="true"></div>
+    <div class="ag-top__inner">
+      <h1 class="ag-top__title">Use Galaxy from your <em>AI agent</em></h1>
+      <p class="ag-top__lede">
+        Pick your harness below and follow Steps A, B, and C. Every tool, workflow, and custom container runs as a
+        reproducible job in your Galaxy history.
+      </p>
+    </div>
   </div>
-  <div class="hguides__panels">
-    <slot />
+</section>
+
+<div class="ag-band ag-band--white ag-band--guides">
+  <div class="hguides" data-harness-guides>
+    <div class="hguides__tabs not-prose" role="tablist" aria-label="Setup guide by harness">
+      {tabs.map((t, i) => <a
+        class:list={['hguides__tab', i === 0 && 'is-active']}
+        role="tab"
+        id={`guide-tab-${t.id}`}
+        href={`#guide-${t.id}`}
+        aria-selected={i === 0 ? 'true' : 'false'}
+        aria-controls={`guide-${t.id}`}
+        tabindex={i === 0 ? 0 : -1}
+        data-guide-tab={t.id}
+        style={`--ash-accent: ${t.accent}`}
+      >
+        <span class="hguides__mono" aria-hidden="true">
+          {t.monogram}
+        </span>
+        <span class="hguides__txt">
+          <span class="hguides__name">{t.name}</span>
+          <span class="hguides__tag">{t.tag}</span>
+        </span>
+      </a>)}
+    </div>
+    <div class="hguides__panels">
+      <slot />
+    </div>
   </div>
 </div>
 
 <style is:global>
+  .ag-top {
+    --ag-dark: var(--color-galaxy-dark, #2c3143);
+    --ag-primary: var(--color-galaxy-primary, #25537b);
+    --ag-gold: var(--color-galaxy-gold, #ffd700);
+    margin: -1.5rem -1.5rem 0;
+  }
+
+  @media (min-width: 640px) {
+    .ag-top {
+      margin: -1.5rem -2rem 0;
+    }
+  }
+
+  .ag-top__hero {
+    position: relative;
+    background: linear-gradient(135deg, var(--ag-dark) 0%, var(--ag-primary) 100%);
+    border-bottom: 4px solid var(--ag-gold);
+    color: #fff;
+  }
+
+  .ag-top__grid {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+  }
+
+  .ag-top__inner {
+    position: relative;
+    max-width: 64rem;
+    margin: 0 auto;
+    padding: 2.25rem 1.5rem 2rem;
+  }
+
+  @media (min-width: 640px) {
+    .ag-top__inner {
+      padding: 2.75rem 2rem 2.35rem;
+    }
+  }
+
+  .ag-top .ag-top__title {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: clamp(1.9rem, 4.2vw, 2.75rem);
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: #fff;
+    text-wrap: balance;
+  }
+
+  .ag-top__title em {
+    font-style: normal;
+    color: var(--ag-gold);
+  }
+
+  .ag-top .ag-top__lede {
+    max-width: 44rem;
+    margin: 0.7rem 0 0;
+    font-size: clamp(0.98rem, 1.5vw, 1.1rem);
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.85);
+    text-wrap: pretty;
+  }
+
+  .prose .ag-band--guides {
+    padding-top: 2rem;
+  }
+
   .hguides {
-    margin: 1rem 0 2.5rem;
+    margin: 0;
   }
 
   .hguides__tabs {
-    display: flex;
-    gap: 0.25rem;
-    overflow-x: auto;
-    scrollbar-width: thin;
-    border-bottom: 2px solid color-mix(in srgb, var(--color-galaxy-primary, #25537b) 15%, transparent);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(11.5rem, 1fr));
+    gap: 0.55rem;
+    margin-bottom: 1.75rem;
   }
 
   .hguides__tab,
   .prose .hguides__tab {
-    display: inline-flex;
-    flex: none;
+    display: flex;
     align-items: center;
-    gap: 0.5rem;
-    margin-bottom: -2px;
-    padding: 0.65rem 0.9rem;
-    border-bottom: 3px solid transparent;
-    color: var(--color-galaxy-grey, #4b5563);
-    font-weight: 700;
+    gap: 0.65rem;
+    padding: 0.7rem 0.85rem;
+    border: 1px solid color-mix(in srgb, var(--color-galaxy-primary, #25537b) 18%, transparent);
+    border-bottom: 3px solid color-mix(in srgb, var(--color-galaxy-primary, #25537b) 18%, transparent);
+    border-radius: 0.5rem;
+    background: color-mix(in srgb, var(--color-light-bg, #edf4fa) 55%, #fff);
+    color: var(--color-galaxy-dark, #2c3143);
     text-decoration: none;
-    white-space: nowrap;
     transition:
-      color 0.15s ease,
-      border-color 0.15s ease;
+      background-color 0.15s ease,
+      border-color 0.15s ease,
+      box-shadow 0.15s ease;
   }
 
   .hguides__tab:hover,
   .prose .hguides__tab:hover {
-    color: var(--color-galaxy-dark, #2c3143);
+    background: #fff;
+    border-color: color-mix(in srgb, var(--color-galaxy-primary, #25537b) 38%, transparent);
     text-decoration: none;
   }
 
   .hguides__tab.is-active,
   .prose .hguides__tab.is-active {
-    color: var(--color-galaxy-dark, #2c3143);
+    background: #fff;
+    border-color: color-mix(in srgb, var(--color-galaxy-primary, #25537b) 35%, transparent);
     border-bottom-color: var(--ash-accent, #ffd700);
+    box-shadow: 0 2px 6px rgba(16, 32, 52, 0.08);
   }
 
   .hguides__tab:focus-visible {
@@ -92,15 +188,43 @@ const tabs = scenes.map((s) => ({ id: s.id, name: s.name, monogram: s.monogram, 
 
   .hguides__mono {
     display: grid;
+    flex: none;
     place-items: center;
-    width: 1.6rem;
-    height: 1.6rem;
-    border-radius: 0.375rem;
-    font-size: 0.68rem;
+    width: 1.85rem;
+    height: 1.85rem;
+    border-radius: 0.4rem;
+    font-size: 0.75rem;
+    font-weight: 700;
     line-height: 1;
     color: var(--color-galaxy-primary, #25537b);
     background: color-mix(in srgb, var(--color-galaxy-primary, #25537b) 10%, #fff);
-    border: 1px solid color-mix(in srgb, var(--color-galaxy-primary, #25537b) 30%, transparent);
+    border: 1px solid color-mix(in srgb, var(--color-galaxy-primary, #25537b) 25%, transparent);
+  }
+
+  .hguides__tab.is-active .hguides__mono {
+    color: #fff;
+    background: var(--color-galaxy-primary, #25537b);
+    border-color: var(--color-galaxy-primary, #25537b);
+  }
+
+  .hguides__txt {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+  }
+
+  .hguides__name {
+    font-size: 0.95rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--color-galaxy-dark, #2c3143);
+  }
+
+  .hguides__tag {
+    margin-top: 0.12rem;
+    font-size: 0.75rem;
+    line-height: 1.25;
+    color: var(--color-galaxy-grey, #58585a);
   }
 
   .hguide {
@@ -138,16 +262,40 @@ const tabs = scenes.map((s) => ({ id: s.id, name: s.name, monogram: s.monogram, 
     border: 0;
   }
 
-  /* Guide sections are h4 (page h2 → panel h3 → section h4); size them like h3. */
-  .prose .hguide h4 {
-    font-size: 1.25em;
-    margin-top: 1.8em;
+  /* Top-level Step A / B / C headings inside each harness panel. */
+  .prose .hguide > h4 {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 1.28em;
+    margin-top: 1.75em;
     margin-bottom: 0.6em;
+    padding-top: 1.25em;
+    border-top: 1px solid color-mix(in srgb, var(--color-galaxy-primary, #25537b) 12%, transparent);
+  }
+
+  .prose .hguide > h4:first-of-type {
+    margin-top: 1.1em;
+    padding-top: 0;
+    border-top: 0;
+  }
+
+  .prose .hguide > h4::before {
+    content: '';
+    flex: none;
+    width: 4px;
+    height: 1.35rem;
+    border-radius: 2px;
+    background: var(--color-galaxy-gold, #ffd700);
   }
 
   .prose .hguide h5 {
     font-size: 1.05em;
-    margin-top: 1.5em;
+    font-weight: 700;
+    color: var(--color-galaxy-dark, #2c3143);
+    margin-top: 1.4em;
+    margin-bottom: 0.45em;
+    scroll-margin-top: 5rem;
   }
 
   .hguide__source {
@@ -157,11 +305,27 @@ const tabs = scenes.map((s) => ({ id: s.id, name: s.name, monogram: s.monogram, 
     font-size: 0.85em;
     color: var(--color-galaxy-grey, #4b5563);
   }
+
+  @media print {
+    .ag-top__hero {
+      background: none;
+      color: #000;
+      border-bottom: 1px solid #000;
+    }
+    .ag-top .ag-top__title,
+    .ag-top__title em,
+    .ag-top .ag-top__lede {
+      color: #000;
+    }
+  }
 </style>
 
 <script>
-  const EVENT = 'agent-shells:select';
   const HASH_PREFIX = '#guide-';
+  const ALIASES: Record<string, { panel: string; sub?: string }> = {
+    pi: { panel: 'other', sub: 'pi' },
+    cursor: { panel: 'other', sub: 'cursor' },
+  };
 
   function mount(root: HTMLElement) {
     if (root.dataset.mounted === '1') return;
@@ -172,31 +336,43 @@ const tabs = scenes.map((s) => ({ id: s.id, name: s.name, monogram: s.monogram, 
     const panels = Array.from(root.querySelectorAll<HTMLElement>('[data-guide-panel]'));
     const ids = tabs.map((t) => t.dataset.guideTab ?? '');
 
-    function select(id: string, opts: { announce?: boolean; hash?: boolean } = {}) {
-      if (!ids.includes(id)) return false;
+    function resolve(raw: string): { panel: string; sub?: string } | null {
+      if (ids.includes(raw)) return { panel: raw };
+      return ALIASES[raw] ?? null;
+    }
+
+    function select(raw: string, opts: { hash?: boolean } = {}) {
+      const target = resolve(raw);
+      if (!target) return null;
       tabs.forEach((t) => {
-        const active = t.dataset.guideTab === id;
+        const active = t.dataset.guideTab === target.panel;
         t.classList.toggle('is-active', active);
         t.setAttribute('aria-selected', active ? 'true' : 'false');
         t.tabIndex = active ? 0 : -1;
       });
       panels.forEach((p) => {
-        p.hidden = p.dataset.guidePanel !== id;
+        p.hidden = p.dataset.guidePanel !== target.panel;
       });
-      if (opts.hash) history.replaceState(history.state, '', `${HASH_PREFIX}${id}`);
-      if (opts.announce) document.dispatchEvent(new CustomEvent(EVENT, { detail: { id, source: 'guides' } }));
-      return true;
+      if (opts.hash) history.replaceState(history.state, '', `${HASH_PREFIX}${raw}`);
+      return target;
     }
 
-    function reveal(id: string) {
-      const panel = panels.find((p) => p.dataset.guidePanel === id);
-      panel?.scrollIntoView({ block: 'start', behavior: 'auto' });
+    function reveal(target: { panel: string; sub?: string }) {
+      const panel = panels.find((p) => p.dataset.guidePanel === target.panel);
+      if (target.sub) {
+        panel?.querySelector<HTMLElement>(`#${target.sub}`)?.scrollIntoView({ block: 'start', behavior: 'auto' });
+        return;
+      }
+      const rect = root.getBoundingClientRect();
+      if (rect.top < 0 || rect.top > window.innerHeight * 0.6) {
+        root.scrollIntoView({ block: 'start', behavior: 'auto' });
+      }
     }
 
     tabs.forEach((t, i) => {
       t.addEventListener('click', (e) => {
         e.preventDefault();
-        select(ids[i], { announce: true, hash: true });
+        select(ids[i], { hash: true });
       });
       t.addEventListener('keydown', (e) => {
         const n = tabs.length;
@@ -212,45 +388,38 @@ const tabs = scenes.map((s) => ({ id: s.id, name: s.name, monogram: s.monogram, 
       });
     });
 
-    // Any in-page link to a guide (hero chips, cards, "Set up" button) opens
-    // that panel and scrolls to it; a hidden panel cannot be a native anchor
-    // target. Capture phase, so this runs before Astro's client router sees the
-    // click and treats it as a same-page navigation.
     const onDocClick = (e: MouseEvent) => {
       const a = (e.target as HTMLElement).closest<HTMLAnchorElement>(`a[href^="${HASH_PREFIX}"]`);
       if (!a || a.dataset.guideTab !== undefined) return;
-      const id = a.getAttribute('href')!.slice(HASH_PREFIX.length);
-      if (!select(id, { announce: true, hash: true })) return;
+      const raw = a.getAttribute('href')!.slice(HASH_PREFIX.length);
+      const target = select(raw, { hash: true });
+      if (!target) return;
       e.preventDefault();
-      reveal(id);
+      reveal(target);
     };
     document.addEventListener('click', onDocClick, true);
-
-    const onShellsSelect = (e: Event) => {
-      const { id, source } = (e as CustomEvent<{ id: string; source: string }>).detail;
-      if (source === 'guides') return;
-      select(id, { hash: true });
-    };
-    document.addEventListener(EVENT, onShellsSelect);
 
     const onHash = () => {
       const h = location.hash;
       if (!h.startsWith(HASH_PREFIX)) return;
-      const id = h.slice(HASH_PREFIX.length);
-      if (select(id, { announce: true })) reveal(id);
+      const target = select(h.slice(HASH_PREFIX.length));
+      if (target) reveal(target);
     };
     window.addEventListener('hashchange', onHash);
 
-    // Initial state: honour a deep link, else the first guide.
-    if (location.hash.startsWith(HASH_PREFIX) && select(location.hash.slice(HASH_PREFIX.length), { announce: true })) {
-      reveal(location.hash.slice(HASH_PREFIX.length));
+    if (location.hash.startsWith(HASH_PREFIX)) {
+      const target = select(location.hash.slice(HASH_PREFIX.length));
+      if (target) {
+        reveal(target);
+      } else {
+        select(ids[0]);
+      }
     } else {
       select(ids[0]);
     }
 
     return () => {
       document.removeEventListener('click', onDocClick, true);
-      document.removeEventListener(EVENT, onShellsSelect);
       window.removeEventListener('hashchange', onHash);
       delete root.dataset.mounted;
     };

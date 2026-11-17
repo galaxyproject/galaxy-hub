@@ -5,6 +5,7 @@ import EventHeaderMeta from '../components/events/EventHeaderMeta.astro';
 import ContentWithToc from '../components/layout/ContentWithToc.astro';
 import SupporterGrid from '../components/content/SupporterGrid.astro';
 import Icon from '../components/ui/Icon.astro';
+import EditOnGitHubLink from '../components/layout/EditOnGitHubLink.astro';
 import type { SupporterProfile } from '../utils/supporters';
 
 interface Heading {
@@ -114,15 +115,7 @@ const hasMetadata =
           Back to Events
         </a>
         <div class="flex items-center gap-4">
-          <a
-            href={editUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="text-chicago-500 hover:text-galaxy-primary flex items-center gap-1.5 transition-colors"
-          >
-            <Icon name="edit" />
-            Edit on GitHub
-          </a>
+          <EditOnGitHubLink href={editUrl} />
           {externalUrl && <a
             href={externalUrl}
             target="_blank"

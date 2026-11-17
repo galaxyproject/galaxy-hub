@@ -10,11 +10,11 @@ gtn: false
 continent: EU
 location:
   name: online
-subsites: [global, us, eu, pasteur, freiburg, elixir-it, belgium, genouest]
+subsites: [global, us, eu, pasteur, freiburg, elixir-it, belgium, ifb]
 main_subsite: eu
 ---
 
-The first call of the Galaxy Metabolomics Community will be held on the __10th of December at 2 PM CET__. 
+The first call of the Galaxy Metabolomics Community will be held on the __10th of December at 2 PM CET__.
 
 The bi-monthly community calls aim at bringing together Galaxy metabolomics researchers -including users and developers- to discuss about needs, ideas, scientific problems and to find new collaborators and synergies in the community. Everyone is welcome!
 

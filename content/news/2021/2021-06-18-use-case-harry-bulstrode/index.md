@@ -2,14 +2,14 @@
 title: 'UseGalaxy.eu Use Case: Zika virus effects on brain and brain tumours'
 date: '2021-06-18'
 tags: [usecase]
-subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, ifb]
 main_subsite: eu
 contributions:
   authorship:
     - harrybulstrode
 ---
 
-[__Harry Bulstrode__](https://www.stemcells.cam.ac.uk/directory/harry-bulstrode) from the [Wellcome Stem Cell Institute at the University of Cambridge (UK)](https://www.stemcells.cam.ac.uk/) has kindly described for us his research topic: __Zika virus effects on brain and brain tumours__. 
+[__Harry Bulstrode__](https://www.stemcells.cam.ac.uk/directory/harry-bulstrode) from the [Wellcome Stem Cell Institute at the University of Cambridge (UK)](https://www.stemcells.cam.ac.uk/) has kindly described for us his research topic: __Zika virus effects on brain and brain tumours__.
 
 > I use [usegalaxy.eu](https://usegalaxy.eu/) to analyse bulk RNA Seq datasets from human embryo brain tissue and glioblastoma brain tumours. We are looking at the oncolytic effects of Zika virus on brain and brain tumours, and at the effect of the microenvironment on the ability of the virus to infect.
 

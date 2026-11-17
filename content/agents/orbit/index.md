@@ -159,6 +159,8 @@ If you already pay for ChatGPT Plus or Pro, you can [sign in with that subscript
 
 This is what lets Orbit run steps on Galaxy. Log in to your Galaxy server (for example [usegalaxy.org](https://usegalaxy.org)), open **User › Preferences › Manage API Key**, and copy your key or create one.
 
+Want Orbit to write and run custom containerized tools when no installed Galaxy tool fits? On **UseGalaxy.org**, [request User-Defined Tools beta access](https://udt-signup.galaxyproject.org/) — everything else works right away while your request is reviewed.
+
 </li>
 <li>
 
@@ -441,6 +443,6 @@ That's a temporary rate limit, not a billing problem or a bad key, and it clears
 - [galaxy-mcp](https://github.com/galaxyproject/galaxy-mcp): the MCP server for the Galaxy API
 - [galaxy-skills](https://github.com/galaxyproject/galaxy-skills): the curated Galaxy skills
 - [Galaxy Training Network](https://training.galaxyproject.org): tutorials for Galaxy analyses
-- [Plugins for your own coding agent](/agents/plugins/): Galaxy in Claude Code, Codex, Antigravity or Pi instead
+- [Use Galaxy from your own coding agent](/agents/): Galaxy in Claude Code, Codex, Antigravity, Claude Desktop, Pi, or Cursor instead
 
 </div>

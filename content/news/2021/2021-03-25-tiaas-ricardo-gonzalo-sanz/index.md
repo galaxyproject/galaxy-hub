@@ -2,7 +2,7 @@
 title: Training Infrastructure Feedback from Dr. Ricardo Gonzalo Sanz
 date: '2021-03-25'
 tags: [training, tiaas]
-subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, ifb]
 main_subsite: eu
 contributions:
   authorship:
@@ -15,7 +15,7 @@ contributions:
 
 Recently, staff from the Statistics and Bioinformatics Unit from Vall d’Hebron Institute of Research (VHIR) were involved in two trainings where we used TIaaS resources. We never used TiaaS before these trainings.
 
-From 16 November to 16 December 2020, the Bioinformatics Course for Biomedical Research was taught to 25 students. This course provides students with the knowledge to understand common workflows in omics data analysis and to be familiar with common bioinformatics tools. Some of the lessons taught include an introduction to the Galaxy Platform, Quality control of NGS data, RNAseq and Variant data analysis. Some of the lessons were focused on the tutorials found in the [Galaxy Training Network (GTN)](https://training.galaxyproject.org/training-material/). 
+From 16 November to 16 December 2020, the Bioinformatics Course for Biomedical Research was taught to 25 students. This course provides students with the knowledge to understand common workflows in omics data analysis and to be familiar with common bioinformatics tools. Some of the lessons taught include an introduction to the Galaxy Platform, Quality control of NGS data, RNAseq and Variant data analysis. Some of the lessons were focused on the tutorials found in the [Galaxy Training Network (GTN)](https://training.galaxyproject.org/training-material/).
 
 From 23 to 25 February 2021, Bioinformatics lessons within the study plan of the Master in Translational Biomedical Research were taught to more than 50 students. This master is an official programme that gives access to doctoral studies and it has been designed in order to create excellent translational researchers able to contribute to the transformation of knowledge from basic research into clinical applications that provide a benefit to the patient's health. Some of the lessons taught include an introduction to the Galaxy Platform, RNAseq and Variant data analysis, focused again in the tutorials found in the GTN among others.
 

@@ -6,7 +6,7 @@ tags: [training]
 contacts:
 - name: Anne Fouilloux
 external_url: https://nordicesmhub.github.io/forces-2021/intro.html
-subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, ifb]
 main_subsite: eu
 ---
 

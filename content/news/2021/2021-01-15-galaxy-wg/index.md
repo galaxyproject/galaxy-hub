@@ -2,7 +2,7 @@
 title: 'New Galaxy Community Organization: Working Groups'
 date: '2021-01-15'
 tags: []
-subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, ifb]
 main_subsite: eu
 contributions:
   authorship:
@@ -16,7 +16,7 @@ The Working Groups are open to everyone, with members __distributed across the g
 
 Each working group has the __autonomy__ to organize themselves internally and is responsible for __defining goals__ in each quarter of the year. Those goals, together with the input from the community and the steering committee, will be incorporated into the __community roadmap__.
 
-The Working Groups provide __entry points__ into the community for new members, will __improve the communication__ between experts and will help with __channelling the contributions__. 
+The Working Groups provide __entry points__ into the community for new members, will __improve the communication__ between experts and will help with __channelling the contributions__.
 
 This new organization has been discussed in two Developer Roundtables and the ELIXIR-Galaxy community has been informed in the monthly meetings.
 

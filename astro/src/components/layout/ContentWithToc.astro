@@ -6,6 +6,7 @@
  * Use this component to avoid duplicating TOC logic across page templates.
  */
 import TableOfContents from './TableOfContents.astro';
+import { tocRailClass } from '../../utils/tocRail';
 
 interface Heading {
   depth: number;
@@ -31,7 +32,6 @@ const gridClass =
   'xl:grid xl:[--measure:var(--measure-rail)] xl:grid-cols-[minmax(0,var(--measure))_14rem] xl:justify-start xl:gap-x-12';
 const mobileTocClass = 'toc-mobile xl:hidden mx-6 sm:mx-8 mt-6 border border-ebony-clay-100 rounded-lg';
 const summaryClass = 'px-4 py-3 cursor-pointer font-medium text-galaxy-primary hover:bg-ebony-clay-50 rounded-lg';
-const railClass = 'sticky top-6 max-h-[calc(100vh-3rem)] overflow-y-auto pt-0.5 pr-1 pb-4 pl-0.5';
 // Without a rail only text-only pages keep the measure, centred so no empty strip opens on
 // the right; pages with tile grids, tables or embeds keep full-width text.
 const proseClass = [
@@ -57,7 +57,7 @@ const proseClass = [
 
   {/* From xl: the sticky "On this page" rail; it scrolls itself when taller than the window */}
   {showToc && <div class="toc-sidebar hidden xl:block">
-    <div class={railClass} data-toc-rail>
+    <div class={tocRailClass} data-toc-rail>
       <TableOfContents headings={headings} backToTop />
     </div>
   </div>}

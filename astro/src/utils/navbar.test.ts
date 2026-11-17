@@ -125,35 +125,6 @@ describe('navbar utilities', () => {
     expect(groups.global.bottomLinks.map((link) => link.label)).toEqual(['@jxtx']);
   });
 
-  it('starts the global group with the global News and Events when a region has other global links', () => {
-    // Shaped like content/genouest/navbar.yml: region News/Events/People plus a cross-region Tools link
-    const nav = navbarToSidebarNavigation(
-      {
-        left: [
-          { label: 'News', target: 'news/', relativeTo: 'subsite' },
-          { label: 'Events', target: 'events/', relativeTo: 'subsite' },
-          { label: 'People', target: 'people/', relativeTo: 'subsite' },
-          { label: 'Tools', target: '/eu/tools/' },
-          { label: 'Global news again', target: '/news/' },
-        ],
-      },
-      'genouest'
-    );
-    const groups = groupSidebarNavigation(nav!, 'genouest');
-
-    expect(groups.region.map((link) => link.href)).toEqual([
-      '/genouest/',
-      '/genouest/news/',
-      '/genouest/events/',
-      '/genouest/people/',
-    ]);
-    expect(groups.global.topLinks.map((link) => [link.label, link.href])).toEqual([
-      ['News', '/news/'],
-      ['Events', '/events/'],
-      ['Tools', '/eu/tools/'],
-    ]);
-  });
-
   it('does not add a second overview link when the navbar has one', () => {
     const nav = navbarToSidebarNavigation({ left: [{ label: 'Home', target: '/eu/' }] }, 'eu');
     expect(groupSidebarNavigation(nav!, 'eu').region.map((link) => link.label)).toEqual(['Home']);

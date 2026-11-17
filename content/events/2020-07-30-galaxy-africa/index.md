@@ -5,7 +5,7 @@ end: '2020-07-30'
 tags: [training]
 location:
   name: Online
-subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, ifb]
 main_subsite: eu
 ---
 

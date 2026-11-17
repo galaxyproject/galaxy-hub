@@ -3,7 +3,7 @@ title: 'Training Infrastructure feedback: FORCeS eScience course'
 date: '2021-11-13'
 tease: 'Tools in Climate Science: Linking Observations with Modelling'
 tags: [training, tiaas]
-subsites: [global, us, eu, pasteur, freiburg, elixir-it, belgium, genouest]
+subsites: [global, us, eu, pasteur, freiburg, elixir-it, belgium, ifb]
 main_subsite: eu
 contributions:
   authorship:
@@ -27,7 +27,7 @@ We made an extensive use of Galaxy Pangeo Climate JupyterLab interactive tool fo
 ## Setup and data availability
 
 The figure below shows what was available to end-users. The dashed lines (blue and magenta) represent data access points that are all external to your Galaxy instance. In fact, there are many more access points where you can get access to data and we only listed the ones that may be relevant for this course.
- 
+
 
 ![fig1](/assets/media/tiaas/anne_1.png)
 Figure 1: different storage endpoints available to Galaxy Pangeo Climate JupyterLab during the EScience 2021 course.
@@ -37,9 +37,9 @@ The setup is very flexible:
 - New software, packages & conda Jupyter environment can be added by any users.
 - The notebooks are regularly saved in the NIRD Read/Write object storage and/or in GitHub.
 
-## Group work 
+## Group work
 
-We had 28 participants to the course, mostly master students and PhDs, divided in 7 groups and mentored by PhDs and/or postdocs: 
+We had 28 participants to the course, mostly master students and PhDs, divided in 7 groups and mentored by PhDs and/or postdocs:
 - __Group 1 - SOA__: SOA stands for Secondary Organic Aerosols and this group works on the evaluation of SOA mediated earth System feedbacks.
 - __Group 2 - LOBSTER__: The LOBSTER group works on Linking Ocean, Biosphere and Sea ice in  ArcTic modEls and obseRvations (LOBSTER).
 - __Group 3 - OCTOPUS__: The OCTOPUS groups work on explOring aerosol-Cloud inTeractiOns in CMIP6 models Using joint-hiStograms (OCTOPUS).
@@ -62,7 +62,7 @@ Figure 2: Overview of the work done by all the groups during the eScience2021 co
 
 ## What’s next?
 
-The course is still not finished e.g. all the students are working on their final Jupyter notebook, report and oral presentation. 
+The course is still not finished e.g. all the students are working on their final Jupyter notebook, report and oral presentation.
 We have already identified new topics/tutorials to develop for Galaxy training e.g.:
 - The pangeo ecosystem and its optimal usage
 - Introduction to aerosols and Climate

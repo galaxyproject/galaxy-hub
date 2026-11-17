@@ -8,7 +8,7 @@ hide_tease: true
 tags: [training]
 location:
   name: Online
-subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, ifb]
 main_subsite: eu
 contributions:
   authorship:
@@ -19,7 +19,7 @@ contributions:
 
 The [4th de.NBI Cloud User meeting](https://events.denbi.de/event/1/) took place from 12th to 24th of November 2021.
 
-Many researchers from different bioinformatics research areas gathered to learn more about cloud computing and the de.NBI Cloud. 
+Many researchers from different bioinformatics research areas gathered to learn more about cloud computing and the de.NBI Cloud.
 
 The Galaxy Team contributed to the event, organizing two different workshops:
 * [Bioconda and Biocontainers](https://events.denbi.de/event/1/program) - organizer: Björn Grüning
