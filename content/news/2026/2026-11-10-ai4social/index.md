@@ -24,10 +24,10 @@ Following the project's [online kickoff in October](https://galaxyproject.org/ne
   <img 
     src="./poster.jpg"
     alt="AI4SOCIAL+ project poster"
-    style="margin: 0; width: 100%; height: 300px; object-fit: cover; object-position: center;">
+    style="margin: 0; width: 100%; height: 300px; object-fit: cover; object-position: center;" />
   <img src="./group_picture.jpg"
     alt="AI4SOCIAL+ group picture"
-    style="margin: 0; width: 100%; height: 300px; object-fit: cover; object-position: center;">
+    style="margin: 0; width: 100%; height: 300px; object-fit: cover; object-position: center;" />
 </div>
 
 A highlight for us was catching a glimpse of the [MareNostrum Ona](https://www.eurohpc-ju.europa.eu/document/download/bf1e0fce-57d6-4d9a-ba29-e738a4fdd22f_en?filename=BSC_Quantum_poster_eng_por.pdf) quantum computing infrastructure, housed in a chapel. Equally exciting was seeing [MareNostrum 5](https://bsc.es/marenostrum/marenostrum-5), Spain’s most powerful classical supercomputer.
@@ -36,11 +36,11 @@ A highlight for us was catching a glimpse of the [MareNostrum Ona](https://www.e
   <img 
     src="./quantum_computer.jpg"
     alt="MareNostrum Ona quantum computer"
-    style="margin: 0; width: 100%; height: 300px; object-fit: cover; object-position: center;">
+    style="margin: 0; width: 100%; height: 300px; object-fit: cover; object-position: center;" />
   <img 
-    src="./MareNostrum5.jpg"
+    src="./mare_nostrum5.jpg"
     alt="MareNostrum 5 supercomputer"
-    style="margin: 0; width: 100%; height: 300px; object-fit: cover; object-position: center;">
+    style="margin: 0; width: 100%; height: 300px; object-fit: cover; object-position: center;" />
 </div>
 <p style="margin: 8px 0 0; font-size: 0.8rem; line-height: 1.5; color: #555;">
   <a href="https://www.eurekalert.org/multimedia/1133924">MareNostrum Ona</a> — Barcelona Supercomputing Center · CC BY |
