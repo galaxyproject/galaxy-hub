@@ -112,8 +112,6 @@ The Genomic Data Infrastructure (GDI) project brings together national agencies,
 
 [ELIXIR-CONVERGE](https://elixir-europe.org/about-us/how-funded/eu-projects/converge) delivers provisioning, across Europe, of distributed local support for data management. This is based on a toolkit for researchers that enables lifecycle management for their research data, in compliance with international standards.
 
-### Stardast
-
 ## Research Projects
 
 ### MIRACUM
