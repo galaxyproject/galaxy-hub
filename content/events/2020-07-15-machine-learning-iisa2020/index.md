@@ -9,7 +9,7 @@ contacts:
 location:
   name: online
 hidefooter: true
-subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, ifb]
 main_subsite: eu
 contributions:
   funding:
@@ -17,7 +17,7 @@ contributions:
 
 ---
 
-**Machine Learning in Bioinformatics using Galaxy at 11th International Conference on Information, Intelligence, Systems and Applications**  
+**Machine Learning in Bioinformatics using Galaxy at 11th International Conference on Information, Intelligence, Systems and Applications**
 
 
 **Description:**

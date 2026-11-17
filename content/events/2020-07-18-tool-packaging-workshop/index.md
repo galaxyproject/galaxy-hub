@@ -8,7 +8,7 @@ contacts:
 location:
   name: online
 hidefooter: true
-subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, ifb]
 main_subsite: eu
 contributions:
   funding:
@@ -20,7 +20,7 @@ contributions:
 
 **Workshop on Tool Packaging organised by EOSC-Life**
 
-**18th July 2020, 21:30-23:55 CEST** 
+**18th July 2020, 21:30-23:55 CEST**
 
 EOSC-Life WP2 will be hosting a workshop on tool packaging as part of the Bioinformatics Community Conference, BCC2020, the next 18th of July. This time there will be introductions to **conda**, **Bioconda** and **BioContainers**, along with **hands-on** for the participants to give it a try. The **<a href="https://bcc2020.sched.com/event/cYGp/fit-your-tools-into-any-platform-with-bioconda-and-biocontainers" target="_blank">registration is now open</a>**, so if that sounds interesting to you or your RI, <a href="https://bcc2020.github.io/Registration/#registration" target="_blank">join us</a>! Early rates (with 50% off) only until the 10th of July!
 

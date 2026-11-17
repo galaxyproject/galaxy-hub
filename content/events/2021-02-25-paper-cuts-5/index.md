@@ -4,7 +4,7 @@ date: '2021-02-25'
 end: '2021-02-25'
 location:
   name: online
-subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, ifb]
 main_subsite: eu
 contributions:
   funding:

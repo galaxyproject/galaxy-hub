@@ -9,7 +9,7 @@ contacts:
 location:
   name: online
 hidefooter: true
-subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, ifb]
 main_subsite: eu
 contributions:
   funding:
@@ -20,7 +20,7 @@ contributions:
 
 **Machine Learning & Omics data: Opportunities for advancing biomedical data analysis in Galaxy**
 
-**31th August 2020, 13:30-16:30 CEST** 
+**31th August 2020, 13:30-16:30 CEST**
 
 **Description:**
 Machine learning (ML) has emerged as a discipline that enables computers to assist humans in making sense of large and complex data sets. With the drop-in cost of sequencing technologies, large amounts of omics data are being generated and made accessible to researchers. Analyzing these complex large data is not trivial and the use of classical tools cannot explore their full potential. Machine learning algorithms can thus be very useful in mining large omics datasets to uncover new insights that can advance the field of medicine and improve health care. There is an increasing interest in the potential of ML to create predictive models and to identify complex patterns from omics datasets. The aim of this tutorial is to introduce participants to the Machine learning and taxonomy of machine learning algorithms and common machine learning algorithms, through the Galaxy-ML environment. Galaxy-ML extends Galaxy, a user-friendly, web-based computational workbench used by tens of thousands of scientists across the world, with a machine learning tool suite that supports end-to-end analysis. Galaxy-ML uses the Galaxy framework to make machine learning tools and pipelines widely accessible. As Galaxy records all parameters and tools used, all analyses including those for machine learning are completely reproducible.

@@ -13,7 +13,7 @@ contacts:
 - name: Bérénice Batut
 - name: Assunta DeSanto
 external_url: https://galaxy-mentor-network.netlify.app/blog/2022/02/26/welcome-launch/
-subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, ifb]
 main_subsite: eu
 ---
 

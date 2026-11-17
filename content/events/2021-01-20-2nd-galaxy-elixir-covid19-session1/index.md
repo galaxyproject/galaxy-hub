@@ -8,7 +8,7 @@ contacts:
 location:
   name: online
 hidefooter: true
-subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, ifb]
 main_subsite: eu
 contributions:
   funding:
@@ -41,7 +41,7 @@ The first session will summarise the developments in Galaxy the past eight month
 - Single-tool view, simplified workflow run-form
 - Scaling and performance improvements over the last 9 month
 - Paper-Cut event(s)
-- Galaxy plans for the next years 
+- Galaxy plans for the next years
 
 
 

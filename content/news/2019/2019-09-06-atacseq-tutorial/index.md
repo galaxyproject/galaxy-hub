@@ -2,7 +2,7 @@
 title: First ATACseq training material!
 date: '2019-09-06'
 tags: [training]
-subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, ifb]
 main_subsite: eu
 contributions:
   authorship:
@@ -12,7 +12,7 @@ contributions:
     - deNBI
 ---
 
-Many people are waiting for it! We are proud to present the first Galaxy training material on [ATACseq](https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/atac-seq/tutorial.html) data analysis. 
+Many people are waiting for it! We are proud to present the first Galaxy training material on [ATACseq](https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/atac-seq/tutorial.html) data analysis.
 
 ATAC-Seq (Assay for Transposase-Accessible Chromatin using sequencing) is a method to investigate the accessibility of chromatin and thus a method to determine regulatory mechanisms of gene expression.
 

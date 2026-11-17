@@ -2,7 +2,7 @@
 title: UseGalaxy.fr is hiring
 date: '2021-01-18'
 tags: [jobs, devops]
-subsites: [eu, ifb, genouest]
+subsites: [eu, ifb, ifb]
 main_subsite: eu
 contributions:
   authorship:

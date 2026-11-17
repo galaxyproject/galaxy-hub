@@ -3,7 +3,7 @@ title: Women in Data Science 2021 - Perspectives in Industry and Academia - Join
   AG and de.NBI / ELIXIR Germany event
 date: '2021-07-01'
 tags: [training]
-subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, ifb]
 main_subsite: eu
 contributions:
   authorship:
@@ -18,7 +18,7 @@ Last June 18th, Bayer AG (as a member of the de.NBI Industrial Forum) and de.NBI
 
 ![WiDS](/assets/media/2021-07-01-wids.jpeg)
 
-Agenda | 
+Agenda |
 --- | ---
 **Opening address** |
 WiDS network at Bayer AG | **Arwa Al-Dilaimi**, Bayer AG

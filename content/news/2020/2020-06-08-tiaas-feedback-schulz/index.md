@@ -2,7 +2,7 @@
 title: 'Training Infrastructure Feedback from Marcel Schulz '
 date: '2020-06-08'
 tags: [training, tiaas, outreach]
-subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, ifb]
 main_subsite: eu
 contributions:
   authorship:
@@ -29,5 +29,5 @@ The excercises were designed to expect more self-engagement from the students to
 in later excercises when they got used to Galaxy mimicking experiences with tools designed by
 researchers as what they would have to deal with later  in their careers.
 
-Thanks to the Galaxy community for providing such a fantastic resource! 
+Thanks to the Galaxy community for providing such a fantastic resource!
 

@@ -2,7 +2,7 @@
 title: Training Infrastructure Feedback from Mali Salmon-Divon
 date: '2021-02-22'
 tags: [training, tiaas]
-subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, ifb]
 main_subsite: eu
 contributions:
   authorship:
@@ -17,4 +17,4 @@ During January 2021, I led two Galaxy workshops; the first was for 20 Graduate s
 The second workshop was given to 20 medical doctors. In five meetings of 4 hours each, they were introduced to the Galaxy platform and analyzed both exome trio data and RNA-seq.
 The feedback I received from both events was fantastic. Students were thrilled with the ability to perform analyses without needing to write code. They found Galaxy to be user-friendly and easy to operate, and I am sure they will use it in their research.
 
-I would like to thank Galaxy eu. team, for providing the excellent TIaaS service, and to thank the team and especially to Beatriz Serrano-Solano, for their generous support!!! 
+I would like to thank Galaxy eu. team, for providing the excellent TIaaS service, and to thank the team and especially to Beatriz Serrano-Solano, for their generous support!!!

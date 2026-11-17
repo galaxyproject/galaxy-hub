@@ -2,7 +2,7 @@
 title: UseGalaxy.eu update to 18.05 and GDPR
 date: '2018-05-25'
 tags: [release]
-subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, ifb]
 main_subsite: eu
 ---
 
@@ -24,7 +24,7 @@ A few highlights (in no particual order)!
   significantly easier for you to create complex collections that better
   represent your data.
 
-  To learn how to use the new uploader you can try a tutorial for the new uploader on 
+  To learn how to use the new uploader you can try a tutorial for the new uploader on
   [the Training Materials site](https://galaxyproject.github.io/training-material/topics/introduction/tutorials/galaxy-intro-rules/tutorial.html).
 
 If you notice any issues, please do not hesitate to [let us know](mailto:galaxy@informatik.uni-freiburg.de)
