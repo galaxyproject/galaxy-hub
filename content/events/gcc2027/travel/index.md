@@ -8,9 +8,61 @@ components: true
 
 # Travel
 
-GCC2027 is being held at the **[Université de Sherbrooke – Campus de Longueuil](https://www.usherbrooke.ca/campus-longueuil/)**, located at **150 Place Charles-Le Moyne, Longueuil, QC J4K 0A8, Canada**.
+GCC2027 will take place at the **[Université de Sherbrooke – Campus de Longueuil](https://www.usherbrooke.ca/campus-longueuil/)**, a 16-storey glass tower on the South Shore (*Rive-Sud*) of the Saint Lawrence River.
 
-Situated on the South Shore (*Rive-Sud*) of the Saint Lawrence River, the campus is directly connected indoors to the **Longueuil–Université-de-Sherbrooke Metro station** (Yellow Line / *Ligne jaune*), placing attendees just a 10-minute subway ride from the heart of downtown **Montréal**.
+## GCC2027 Host: Université de Sherbrooke
+
+### About the University
+
+**GCC2027 is hosted by the [Université de Sherbrooke (UdeS)](https://www.usherbrooke.ca/)**, one of Québec's leading French-language research universities. Welcoming **more than 31,000 students** and supported by over **7,400 faculty and staff members** across its campuses in Sherbrooke and Longueuil, UdeS is widely recognized for its student-centred culture, pioneering co-operative education programs, commitment to sustainability, and high-impact interdisciplinary research.
+
+Université de Sherbrooke is deeply engaged in **bioinformatics, genomics, computational biology, and health data science**, and is the proud institutional home of **[UseGalaxy Canada](https://usegalaxy.ca/)**, the newest member of the global **UseGalaxy.\*** federation providing open, reproducible computational infrastructure to researchers across Canada.
+
+## GCC2027 Location
+
+- **Address**:
+  **Université de Sherbrooke – Campus de Longueuil**
+  150 Place Charles-Le Moyne
+  Longueuil, QC J4K 0A8, Canada
+- **Public Transportation**: Directly connected indoors to **Longueuil–Université-de-Sherbrooke Station** (Metro **Yellow Line / *Ligne jaune*** and **RTL regional bus terminus**)—just 2 stops (10-minute Metro ride) from Berri-UQAM in downtown Montréal.
+
+## Lodging
+
+We have secured a discounted group rate for GCC2027 attendees. More hotel options will be added here soon.
+
+<div class="not-prose" style="border: 1px solid var(--color-galaxy-primary); border-radius: 0.75rem; padding: 1.25rem; margin: 1.5rem 0;">
+    <div class="flex flex-wrap items-center gap-3" style="margin-bottom: 1rem;">
+        <h3 style="margin: 0; font-size: 1.35rem; font-weight: 700; color: var(--color-galaxy-dark);">Tru by Hilton</h3>
+        <span class="rounded-full bg-galaxy-primary px-3 py-1 text-xs font-semibold uppercase text-white whitespace-nowrap">Group block</span>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+        <div>
+            <div class="text-xs font-semibold uppercase text-galaxy-grey">Dates</div>
+            <div>June 25 – July 1, 2027</div>
+        </div>
+        <div>
+            <div class="text-xs font-semibold uppercase text-galaxy-grey">Rate</div>
+            <div><strong>$291 CAD</strong> / night, single or double occupancy</div>
+        </div>
+        <div>
+            <div class="text-xs font-semibold uppercase text-galaxy-grey">Included</div>
+            <div>Hot buffet breakfast and Wi-Fi</div>
+        </div>
+        <div>
+            <div class="text-xs font-semibold uppercase text-galaxy-grey">To the venue</div>
+            <div>About a 15-minute train ride</div>
+        </div>
+    </div>
+    <p style="margin: 1rem 0;"><strong>Book by May 21, 2027.</strong> Rooms left in the block are released after this date.</p>
+    <a class="inline-flex items-center gap-2 rounded-full border border-galaxy-primary px-4 py-1 text-sm font-semibold text-galaxy-primary no-underline whitespace-nowrap hover:bg-galaxy-primary hover:text-white" href="https://group.trubyhilton.com/5kr6vr" target="_blank" rel="noopener noreferrer">
+        <span>Book with the GCC2027 group rate</span>
+        <Icon name="external-link" />
+    </a>
+</div>
+
+{/* TODO: add the other hotel block(s) here as cards like the one above once their contracts are signed */}
+
+**As availability may be limited, we encourage attendees to book early.**
 
 ## About Longueuil & the Greater Montréal Area
 
@@ -120,44 +172,6 @@ The **[Réseau de transport de Longueuil (RTL)](https://www.rtl-longueuil.qc.ca/
 
 - **[BIXI Bike Share](https://bixi.com/en/)**: Greater Montréal's popular bike-sharing network features hundreds of stations—including standard and electric-assist bikes—right outside Campus de Longueuil and throughout Montréal. Experienced cyclists can even ride between Longueuil and Montréal via the scenic multipurpose path across the **Jacques-Cartier Bridge** or along the **Saint Lawrence Seaway path** through Parc Jean-Drapeau.
 - **[River Shuttle (*Navette fluviale*)](https://navark.ca/en/river-shuttles/)**: Throughout the summer, pedestrian and cyclist ferries connect the **Longueuil Marina (Parc Marie-Victorin)**, **Parc Jean-Drapeau**, and the **Old Port of Montréal (*Vieux-Port*)**, offering a relaxing and scenic commute on the water.
-
-## Lodging
-
-We have secured a discounted group rate for GCC2027 attendees. More hotel options will be added here soon.
-
-<div class="not-prose" style="border: 1px solid var(--color-galaxy-primary); border-radius: 0.75rem; padding: 1.25rem; margin: 1.5rem 0;">
-    <div class="flex flex-wrap items-center gap-3" style="margin-bottom: 1rem;">
-        <h3 style="margin: 0; font-size: 1.35rem; font-weight: 700; color: var(--color-galaxy-dark);">Tru by Hilton</h3>
-        <span class="rounded-full bg-galaxy-primary px-3 py-1 text-xs font-semibold uppercase text-white whitespace-nowrap">Group block</span>
-    </div>
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
-        <div>
-            <div class="text-xs font-semibold uppercase text-galaxy-grey">Dates</div>
-            <div>June 25 – July 1, 2027</div>
-        </div>
-        <div>
-            <div class="text-xs font-semibold uppercase text-galaxy-grey">Rate</div>
-            <div><strong>$291 CAD</strong> / night, single or double occupancy</div>
-        </div>
-        <div>
-            <div class="text-xs font-semibold uppercase text-galaxy-grey">Included</div>
-            <div>Hot buffet breakfast and Wi-Fi</div>
-        </div>
-        <div>
-            <div class="text-xs font-semibold uppercase text-galaxy-grey">To the venue</div>
-            <div>About a 15-minute train ride</div>
-        </div>
-    </div>
-    <p style="margin: 1rem 0;"><strong>Book by May 21, 2027.</strong> Rooms left in the block are released after this date.</p>
-    <a class="inline-flex items-center gap-2 rounded-full border border-galaxy-primary px-4 py-1 text-sm font-semibold text-galaxy-primary no-underline whitespace-nowrap hover:bg-galaxy-primary hover:text-white" href="https://group.trubyhilton.com/5kr6vr" target="_blank" rel="noopener noreferrer">
-        <span>Book with the GCC2027 group rate</span>
-        <Icon name="external-link" />
-    </a>
-</div>
-
-{/* TODO: add the other hotel block(s) here as cards like the one above once their contracts are signed */}
-
-**As availability may be limited, we encourage attendees to book early.**
 
 ## Highlights in Montréal & Longueuil
 
@@ -288,21 +302,3 @@ Montréal and Longueuil offer a rich selection of plant-based restaurants as wel
 - **Currency & Payments**: The local currency is the **Canadian Dollar ($ CAD)**. Contactless credit and debit cards (**Visa**, **Mastercard**, **Apple Pay**, **Google Pay**) are accepted almost everywhere, from taxis and metro vending machines to bakeries and coffee shops.
 - **Taxes & Tipping**: Displayed prices in shops and on restaurant menus do **not** include sales taxes—federal **GST (5%)** and provincial **QST (9.975%)**, totaling **~14.975%**, are added at checkout. In sit-down restaurants, bars, and taxis, tipping is customary (typically **15% to 18%** of the pre-tax bill).
 - **Electricity**: Canada uses standard North American **Type A and Type B** electrical outlets (**120V, 60Hz**). Travelers arriving from outside North America should bring a plug adapter.
-
-## GCC2027 Host: Université de Sherbrooke
-
-### About the University
-
-**GCC2027 is hosted by the [Université de Sherbrooke (UdeS)](https://www.usherbrooke.ca/)**, one of Québec's leading French-language research universities. Welcoming **more than 31,000 students** and supported by over **7,400 faculty and staff members** across its campuses in Sherbrooke and Longueuil, UdeS is widely recognized for its student-centred culture, pioneering co-operative education programs, commitment to sustainability, and high-impact interdisciplinary research.
-
-Université de Sherbrooke is deeply engaged in **bioinformatics, genomics, computational biology, and health data science**, and is the proud institutional home of **[UseGalaxy Canada](https://usegalaxy.ca/)**, the newest member of the global **UseGalaxy.\*** federation providing open, reproducible computational infrastructure to researchers across Canada.
-
-## GCC2027 Location
-
-**GCC2027 will take place at the [Université de Sherbrooke – Campus de Longueuil](https://www.usherbrooke.ca/campus-longueuil/)**,  16-storey glass tower situated directly above the Longueuil–Université-de-Sherbrooke Metro station and regional bus terminus.
-
-- **Address**:
-  **Université de Sherbrooke – Campus de Longueuil**
-  150 Place Charles-Le Moyne
-  Longueuil, QC J4K 0A8, Canada
-- **Public Transportation**: Directly connected indoors to **Longueuil–Université-de-Sherbrooke Station** (Metro **Yellow Line** and **RTL bus terminus**)—just 2 stops from Berri-UQAM in downtown Montréal.
