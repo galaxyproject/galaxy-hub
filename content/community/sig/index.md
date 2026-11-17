@@ -20,6 +20,8 @@ Check out the upcoming meetings across the communities.
 In the following, you will find a list of current active Special Interest Groups. If you can't find yourself in this list, we always welcome new SIGs.
 You can read more about the [GCB and SIGs](/community/governance/gcb/) or learn [how to set up your own](https://training.galaxyproject.org/training-material/topics/community/tutorials/sig_create/tutorial.html).
 
+Most SIGs have their own [Matrix](https://matrix.org/) chat channel, linked from their page below. For general discussion, join the [Galaxy Matrix Lobby](https://matrix.to/#/%23galaxyproject_Lobby:gitter.im).
+
 ---
 
 ## Communities of Practice

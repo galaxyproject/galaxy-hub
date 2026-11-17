@@ -6,4 +6,6 @@
 
 [Galaxy WGs](/community/wg/)
 
+[Galaxy Matrix Lobby](https://matrix.to/#/%23galaxyproject_Lobby:gitter.im)
+
 </div>
