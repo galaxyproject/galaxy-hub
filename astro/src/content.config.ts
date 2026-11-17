@@ -146,6 +146,15 @@ const bareArticles = defineCollection({
   schema: baseArticleSchema,
 });
 
+// Contact chips of a subsite's site-footer insert (rendered by SiteContactCard).
+const contactLinkSchema = z.object({
+  href: z.string(),
+  icon: z.string(),
+  label: z.string(),
+  rel: z.string().optional(),
+  target: z.string().optional(),
+});
+
 // Inserts (content snippets for embedding)
 const inserts = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/inserts' }),
@@ -153,6 +162,7 @@ const inserts = defineCollection({
     .object({
       slug: z.string(),
       title: z.string().optional(),
+      links: z.array(contactLinkSchema).optional(),
     })
     .passthrough(),
 });

@@ -167,6 +167,32 @@ export function deriveNewsNaturalSlug(normalizedDirname) {
 const insertCache = new Map();
 
 /**
+ * Subsite home pages render an insert's frontmatter `links` as chips. A page that inlines the
+ * insert (bare pages) only gets its body, so the links follow the body as centred plain links,
+ * each with a small grey icon before it. The icons use the MDX `Icon` component, so the page
+ * must be MDX: `hasComponents` says so.
+ */
+function appendFrontmatterLinks(body, links) {
+  if (!Array.isArray(links) || links.length === 0) {
+    return { content: body, hasComponents: false };
+  }
+  // Escape Markdown and MDX syntax in labels; wrap hrefs in angle form with the characters that end it percent-encoded.
+  const escapeLabel = (label) => String(label).replace(/[\\[\]{}<>]/g, '\\$&');
+  const encodeHref = (href) => String(href).replace(/[\s<>{}\\]/g, (char) => encodeURIComponent(char));
+  const itemStyle = 'display:inline-flex;align-items:center;gap:0.375rem;color:#777';
+  let hasIcon = false;
+  const items = links
+    .map((link) => {
+      const hasValidIcon = typeof link.icon === 'string' && /^[a-z0-9-]+$/.test(link.icon);
+      hasIcon = hasIcon || hasValidIcon;
+      const icon = hasValidIcon ? `<Icon name="${link.icon}" size={16} /> ` : '';
+      return `<span style="${itemStyle}">${icon}[${escapeLabel(link.label)}](<${encodeHref(link.href)}>)</span>`;
+    })
+    .join(' &nbsp; ');
+  return { content: `<div class="text-center">\n\n${body}\n\n${items}\n\n</div>`, hasComponents: hasIcon };
+}
+
+/**
  * Resolve an insert file's content, applying the same transforms used for page content.
  * Returns { content, hasComponents } or null if the file doesn't exist.
  */
@@ -220,8 +246,13 @@ function resolveInsertContent(slotName, depth = 0, contentDir = CONTENT_DIR) {
   processed = inlined;
   processed = addBootstrapMarker(processed);
   processed = processImagePaths(processed, insertSlug);
+  const { content: withLinks, hasComponents: linksHaveComponents } = appendFrontmatterLinks(
+    processed,
+    insertFrontmatter.links
+  );
+  processed = withLinks;
 
-  const hasComponents = insertFrontmatter.components === true || nestedComponents;
+  const hasComponents = insertFrontmatter.components === true || nestedComponents || linksHaveComponents;
   const result = { content: processed, hasComponents };
   insertCache.set(cacheKey, result);
   return result;

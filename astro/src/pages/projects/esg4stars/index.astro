@@ -15,9 +15,11 @@ import ProjectRows from '../../../components/projects/ProjectRows.astro';
 import TableOfContents from '../../../components/layout/TableOfContents.astro';
 import { getEntry, render } from 'astro:content';
 import { getInsert } from '../../../utils/content';
+import { countryName } from '../../../utils/countryName';
 import { isPastEvent } from '../../../utils/dateUtils';
-import { countLabel } from '../../../utils/projectFacts';
+import { countLabel, projectStatus } from '../../../utils/projectFacts';
 import { getProject, getProjectEvents, getProjectNews } from '../../../utils/projectPages';
+import { eventsLabel } from '../../../utils/siteContext';
 
 interface Pillar {
   name: string;
@@ -49,9 +51,12 @@ const streams = (await getEntry('datasets', 'esg4stars-streams'))?.data as
   { heading?: string; streams?: Stream[] } | undefined;
 const partners = project.partners as { heading?: string; partners?: Partner[] } | undefined;
 
-const news = await getProjectNews(project.source);
-const events = await getProjectEvents(project.source);
 const now = new Date();
+const news = await getProjectNews(project.source, now);
+// Once the project has ended only past events are left, and the section says so
+const ended = projectStatus(project.facts, now) === 'ended';
+const events = await getProjectEvents(project.source, { pastOnly: ended, now });
+const eventsTitle = eventsLabel(ended);
 
 const newsHref = '/projects/esg4stars/news/';
 const eventsHref = '/projects/esg4stars/events/';
@@ -68,7 +73,7 @@ const headings = [
   pillars?.pillars && { depth: 2, slug: 'pillars', text: pillarsTitle },
   streams?.streams && { depth: 2, slug: 'architecture', text: streamsTitle },
   { depth: 2, slug: 'news', text: 'News' },
-  { depth: 2, slug: 'events', text: 'Events' },
+  { depth: 2, slug: 'events', text: eventsTitle },
   partners?.partners && { depth: 2, slug: 'partners', text: partnersTitle },
   hasFunding && { depth: 2, slug: 'funding', text: 'Funding' },
 ].filter((heading): heading is { depth: number; slug: string; text: string } => Boolean(heading));
@@ -152,8 +157,8 @@ const headings = [
 
       <ProjectSection
         id="events"
-        title="Events"
-        more={{ href: eventsHref, label: 'All events', context: `of ${project.name}` }}
+        title={eventsTitle}
+        more={{ href: eventsHref, label: `All ${eventsTitle.toLowerCase()}`, context: `of ${project.name}` }}
       >
         {events.length > 0 ? (
           <ProjectRows
@@ -168,7 +173,7 @@ const headings = [
             }))}
           />
         ) : (
-          <p class="text-chicago-700 text-sm">No events yet.</p>
+          <p class="text-chicago-700 text-sm">{ended ? 'No past events.' : 'No events yet.'}</p>
         )}
       </ProjectSection>
 
@@ -193,7 +198,7 @@ const headings = [
                 {partner.short_name && <span class="e4s-partners__name">{partner.name}</span>}
                 {partner.note && <span class="e4s-partners__note">{partner.note}</span>}
               </td>
-              <td>{partner.country}</td>
+              <td>{countryName(partner.country)}</td>
             </tr>)}
           </tbody>
         </table>

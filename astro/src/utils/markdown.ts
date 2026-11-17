@@ -15,6 +15,17 @@ export function renderMarkdownInline(text?: string | null): string {
   return text ? sanitizeHtml(marked.parseInline(text, { async: false }), 'markdown') : '';
 }
 
+// Opening and closing tags of links in sanitized HTML
+const LINK_TAG = /<\/?a\b[^>]*>/gi;
+
+/**
+ * Render a teaser for a list row. The whole row is a link, and a link inside a link makes the browser split
+ * the row (and Vue report a hydration mismatch), so teaser links keep only their text.
+ */
+export function renderMarkdownTeaser(text?: string | null): string {
+  return renderMarkdownInline(text).replace(LINK_TAG, '');
+}
+
 /**
  * Render markdown as block HTML (with <p> tags etc.)
  * Use for longer body text that should be formatted as paragraphs.

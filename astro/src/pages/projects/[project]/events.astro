@@ -1,0 +1,90 @@
+---
+/**
+ * Events page of a project section (/projects/<id>/events/): events from the project's feed, upcoming
+ * ones soonest first, then past ones newest first. A project that has ended lists only its past events.
+ * One route serves every project in siteContext.ts.
+ */
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import ProjectPageTop from '../../../components/projects/ProjectPageTop.astro';
+import ProjectRows from '../../../components/projects/ProjectRows.astro';
+import ProjectFunding from '../../../components/projects/ProjectFunding.astro';
+import { getInsert } from '../../../utils/content';
+import { projectStatus } from '../../../utils/projectFacts';
+import { eventsCountLine } from '../../../utils/projectEvents';
+import { getProject, getProjectEventGroups, getProjectNews } from '../../../utils/projectPages';
+import { eventsLabel, projectContextIds } from '../../../utils/siteContext';
+
+export function getStaticPaths() {
+  return projectContextIds().map((id) => ({ params: { project: id }, props: { id } }));
+}
+
+const { id } = Astro.props as { id: string };
+const now = new Date();
+const project = await getProject(id);
+const ended = projectStatus(project.facts, now) === 'ended';
+const intro = (await getInsert(`projects/${id}/events`))?.data as { description?: string } | undefined;
+const newsCount = (await getProjectNews(project.source, now)).length;
+const { upcoming, past } = await getProjectEventGroups(project.source, now);
+
+const label = eventsLabel(ended);
+const pageTitle = `${project.name} ${ended ? 'past events' : 'Events'}`;
+const description = intro?.description ?? `${label} of ${project.name}`;
+
+// A running project shows two titled groups; an ended one only its past events, under a hidden heading
+const groups = [
+  ...(ended
+    ? []
+    : [{ id: 'upcoming', title: 'Upcoming events', items: upcoming, noun: 'upcoming event', order: 'soonest first' }]),
+  { id: 'past', title: 'Past events', items: past, noun: 'past event', order: 'newest first' },
+].map((group) => ({ ...group, countLine: eventsCountLine(group.items.length, group.noun, group.order) }));
+---
+
+<BaseLayout title={`${label} | ${project.name}`} description={description}>
+  <div class="max-w-6xl mx-auto bg-white rounded-lg shadow-sm p-4 sm:p-6 lg:p-8">
+    <ProjectPageTop
+      projectId={project.id}
+      name={project.name}
+      description={project.description}
+      facts={project.facts}
+      counts={{ [`/projects/${id}/news/`]: newsCount }}
+      title={pageTitle}
+      lead={intro?.description}
+    />
+
+    {groups.map((group) => <section aria-labelledby={`${group.id}-events-title`} class="project-events max-w-4xl">
+      <h2 id={`${group.id}-events-title`} class={ended ? 'sr-only' : 'project-events__title'}>{group.title}</h2>
+      {group.countLine && <p class="text-sm text-chicago-700 mb-2">{group.countLine}</p>}
+      {group.items.length > 0 ? (
+        <ProjectRows
+          kind="events"
+          items={group.items.map((event) => ({
+            href: `/${event.data.slug}/`,
+            title: event.data.title,
+            tease: event.data.tease,
+            start: event.data.date,
+            end: event.data.end,
+            past: group.id === 'past',
+          }))}
+        />
+      ) : (
+        <p class="text-chicago-700 text-sm">{group.id === 'past' ? 'No past events.' : 'No upcoming events.'}</p>
+      )}
+    </section>)}
+
+    <ProjectFunding slug={`projects/${id}/funding_notice`} class="mt-10" />
+  </div>
+</BaseLayout>
+
+<style>
+  .project-events + .project-events {
+    margin-top: 2rem;
+  }
+
+  .project-events__title {
+    margin: 0 0 4px;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+    color: var(--color-galaxy-dark);
+  }
+</style>
