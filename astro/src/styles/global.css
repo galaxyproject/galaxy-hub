@@ -1064,7 +1064,9 @@ a.gx-tile--link:hover .gx-tile__more {
   font-size: 0.8125rem;
   line-height: 1.2;
   text-decoration: none;
-  transition: background-color 0.15s, border-color 0.15s;
+  transition:
+    background-color 0.15s,
+    border-color 0.15s;
 }
 
 .gx-schedule-days a span {
