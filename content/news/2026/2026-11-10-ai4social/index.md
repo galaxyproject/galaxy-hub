@@ -30,7 +30,7 @@ Following the project's [online kickoff in October](https://galaxyproject.org/ne
     style="margin: 0; width: 100%; height: 300px; object-fit: cover; object-position: center;" />
 </div>
 
-A highlight for us was catching a glimpse of the [MareNostrum Ona](https://www.eurohpc-ju.europa.eu/document/download/bf1e0fce-57d6-4d9a-ba29-e738a4fdd22f_en?filename=BSC_Quantum_poster_eng_por.pdf) quantum computing infrastructure, housed in a chapel. Equally exciting was seeing [MareNostrum 5](https://bsc.es/marenostrum/marenostrum-5), Spain’s most powerful classical supercomputer.
+A highlight for us was catching a glimpse of the [MareNostrum Ona](https://www.eurohpc-ju.europa.eu/document/download/bf1e0fce-57d6-4d9a-ba29-e738a4fdd22f_en?filename=BSC_Quantum_poster_eng_por.pdf) quantum computing infrastructure, housed in a former chapel. Equally exciting was seeing [MareNostrum 5](https://bsc.es/marenostrum/marenostrum-5), Spain’s most powerful classical supercomputer.
 
 <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px;">
   <img 
@@ -55,13 +55,13 @@ Remarkable was witnessing how quickly all embraced the rapidly evolving generati
 (we should have counted the number of times each partner mentioned AI agents in their presentations 😁).
 
 In the afternoon, we continued with a plenary session on what **AI readiness** means to the different parties involved. 
-This helped to set the tone for future discussions across the various streams and to start defining AI readiness within the project. 
+This helped set the tone for future discussions across the various streams and begin defining AI readiness within the project. 
 
-Afterwards, there was a matchmaking session to identify potential collaborations between the use-cases and
-the different partners. The project's five use cases cover different topics from various social sciences and humanities domains. Those range from recognising handwritten archival material to climate science and identifying citation "cartels" in academic literature. 
+Afterwards, there was a matchmaking session to identify potential collaborations between the use cases and
+the different partners. The project's five use cases cover different topics across the social sciences and the humanities. Those range from recognising handwritten archival material to climate science and identifying citation "cartels" in academic literature. 
 
 The day concluded with a networking dinner, where we continued our fruitful discussions. We are confident that after this full and very rich day with loads of insights, we are well set up for a successful continuation of the project. 
 
 ## Keep an Eye on AI4SOCIAL+ Updates
 
-Stay tuned for all our latest project updates from Galaxy on the [Galaxy Hub](https://galaxyproject.org/hall-of-fame/ai4social/) and the [Galaxy Training Network](https://training.galaxyproject.org/training-material/hall-of-fame/ai4social/). In addition, make sure to check the [Digital Humanities and Social Sciences Special Interest Group](https://galaxyproject.org/community/sig/digital-humanities/) for new tools, workflows, training resources, and more. 
+Stay tuned for all our latest project updates from Galaxy on the [Galaxy Hub](https://galaxyproject.org/hall-of-fame/ai4social/) and the [Galaxy Training Network](https://training.galaxyproject.org/training-material/hall-of-fame/ai4social/). In addition, make sure to check the [Digital Humanities and Social Sciences Special Interest Group](https://galaxyproject.org/community/sig/digital-humanities/) for new tools, workflows, training resources, and more. We will also share the general project website as soon as it is online.
