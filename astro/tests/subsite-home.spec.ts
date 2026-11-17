@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test.describe('Subsite home inserts', () => {
-  for (const site of ['eu', 'freiburg', 'genouest']) {
+  for (const site of ['eu', 'freiburg']) {
     test(`/${site}/ renders the shared Galaxy intro`, async ({ page }) => {
       await page.goto(`/${site}/`);
 

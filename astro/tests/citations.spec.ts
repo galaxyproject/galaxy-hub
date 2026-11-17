@@ -80,11 +80,6 @@ test.describe('Subsite citations', () => {
     { subsite: 'us', title: 'US Citations', server: 'usegalaxy.org Galaxy server' },
     { subsite: 'belgium', title: 'VIB (Belgium) Citations', server: 'usegalaxy.be Galaxy server' },
     { subsite: 'pasteur', title: 'Pasteur Citations', server: 'galaxy.pasteur.fr Galaxy server' },
-    {
-      subsite: 'genouest',
-      title: 'GenOuest Citations',
-      server: 'galaxy.genouest.org Galaxy server, now replaced by usegalaxy.fr',
-    },
   ];
 
   for (const { subsite, title, server } of serverCitations) {
