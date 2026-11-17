@@ -160,20 +160,20 @@ Log in to [usegalaxy.org](https://usegalaxy.org) and open **User › Preferences
 <div class="ag-choices">
 <div class="ag-choice">
 
+#### Your own coding agent
+
+Claude Code, Codex, Antigravity, Pi, or Cursor. Install two plugins: the Galaxy connection (`galaxy-mcp`) and the Galaxy skills, including `udt-authoring`, which the agent follows when it writes a tool. Claude Desktop gets the one-click MCP connection.
+
+<p class="ag-links"><a class="ag-go" href="/agents/">Set up your agent</a></p>
+
+</div>
+<div class="ag-choice">
+
 #### Orbit
 
 A desktop app with Galaxy already wired in. Paste your server URL and key into its preferences and it fetches the Galaxy skills on first use. It drafts a plan, waits for your approval and keeps a git-tracked notebook of the analysis.
 
 <p class="ag-links"><a class="ag-go" href="/agents/orbit/">Install Orbit</a> <a href="https://galaxyproject.github.io/loom/">How it works</a></p>
-
-</div>
-<div class="ag-choice">
-
-#### Your own coding agent
-
-Claude Code, Codex, Antigravity or Pi. Install two plugins: the Galaxy connection (`galaxy-mcp`) and the Galaxy skills, including `udt-authoring`, which the agent follows when it writes a tool. Claude Desktop gets the connection without the skills.
-
-<p class="ag-links"><a class="ag-go" href="/agents/plugins/">Set up your agent</a></p>
 
 </div>
 </div>
