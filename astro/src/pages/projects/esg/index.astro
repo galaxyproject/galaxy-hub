@@ -90,8 +90,9 @@ const headings = [
           facts={project.facts}
           partnerCount={project.partnerCount}
         />
-        <TableOfContents headings={headings} />
       </Fragment>
+
+      <TableOfContents slot="toc" headings={headings} />
 
       <div class="prose prose-galaxy max-w-none">
         <Summary />
