@@ -50,6 +50,7 @@ test.describe('Agents setup page (/agents/)', () => {
       await expect(page.locator(`a[href="${href}"]`).first(), href).toBeVisible();
     }
     await expect(page.getByRole('heading', { name: 'Get help' })).toBeVisible();
+    await expect(page.locator('a[href="https://github.com/galaxyproject/galaxy-skills/discussions"]')).toBeVisible();
     await expect(page.locator('meta[property="og:image"]')).toHaveAttribute('content', /galaxy_logo/);
 
     expect(errors).toEqual([]);
