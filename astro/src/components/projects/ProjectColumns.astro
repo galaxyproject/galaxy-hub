@@ -4,9 +4,7 @@
  * a 15rem right rail from lg up: the facts box (slot "rail") and a sticky "On this page" (slot "toc").
  * Below lg the rail is hidden; pages show an inline facts box in the lead slot instead.
  */
-
-// Same sticky wrapper as the reading-page rail in ContentWithToc.astro.
-const tocClass = 'sticky top-6 max-h-[calc(100vh-3rem)] overflow-y-auto pt-0.5 pr-1 pb-4 pl-0.5';
+import { tocRailClass } from '../../utils/tocRail';
 ---
 
 <div class="project-columns">
@@ -17,9 +15,9 @@ const tocClass = 'sticky top-6 max-h-[calc(100vh-3rem)] overflow-y-auto pt-0.5 p
   <aside class="project-columns__rail hidden lg:block" aria-label="Project facts and contents">
     <slot name="rail" />
     {/* The "On this page" slot follows the window; it scrolls itself when taller than the window */}
-    <div class={tocClass} data-toc-rail>
+    {Astro.slots.has('toc') && <div class={tocRailClass} data-toc-rail>
       <slot name="toc" />
-    </div>
+    </div>}
   </aside>
 
   <div class="project-columns__main">
