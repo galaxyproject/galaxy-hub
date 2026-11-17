@@ -151,7 +151,7 @@ test('post creator checks text with components like the MDX build does', async (
   await expect(page.getByText('Line 3: A “<” here starts a tag.')).toBeVisible();
   await expect(page.getByRole('button', { name: 'Open on GitHub' })).toBeDisabled();
 
-  await page.keyboard.press('Control+a');
+  await page.keyboard.press('ControlOrMeta+a');
   await page.keyboard.type('<Icon name="laptop" /> Laptop\n\nFewer than 500 samples');
   await expect(page.getByText(/Line 3:/)).toHaveCount(0);
   await expect(page.getByRole('link', { name: 'Open on GitHub' })).toBeVisible();
@@ -468,7 +468,7 @@ test('post creator list button only changes the selected lines', async ({ page }
   await openCreator(page);
   await page.locator('.cm-content').click();
   await page.keyboard.type('One\nTwo\nThree');
-  await page.keyboard.press('Control+Home');
+  await page.keyboard.press('ControlOrMeta+Home');
   await page.keyboard.press('Shift+ArrowDown');
   await page.keyboard.press('Shift+ArrowDown');
   await page.getByRole('button', { name: 'Bulleted list' }).click();
