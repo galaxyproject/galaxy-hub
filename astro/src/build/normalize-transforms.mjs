@@ -129,6 +129,7 @@ export function fixAutolinks(content) {
 export function fixComponentCase(content) {
   const componentMap = {
     'vega-embed': 'VegaEmbed',
+    'mermaid-embed': 'MermaidEmbed',
     mastodon: 'Mastodon',
     'video-player': 'VideoPlayer',
     carousel: 'Carousel',

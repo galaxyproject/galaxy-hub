@@ -8,6 +8,7 @@ import { isDraft } from '../../utils/publish-date.mjs';
 
 // Import MDX components for embedded content
 import VegaEmbed from '../../components/mdx/VegaEmbed.astro';
+import MermaidEmbed from '../../components/mdx/MermaidEmbed.astro';
 import Mastodon from '../../components/mdx/Mastodon.astro';
 import VideoPlayer from '../../components/mdx/VideoPlayer.astro';
 import Carousel from '../../components/mdx/Carousel.astro';
@@ -58,6 +59,7 @@ const tagList = Array.isArray(tags) ? tags : tags ? [tags] : [];
 // MDX components map
 const components = {
   VegaEmbed,
+  MermaidEmbed,
   Mastodon,
   VideoPlayer,
   Carousel,
