@@ -582,7 +582,7 @@ Don't use a coding agent yet? Orbit is a standalone desktop app for macOS, Linux
 
 ## Get help & share feedback
 
-- **Agents & User-Defined Tools forum:** [GitHub Discussions](https://github.com/galaxyproject/galaxy-skills/discussions) — Q&A, beta feedback, and **Show & Tell** for working `GalaxyUserTool` YAMLs and agent runs *(real-time Matrix chat: [#galaxyproject:matrix.org](https://matrix.to/#/#galaxyproject:matrix.org))*.
+- **Agents & User-Defined Tools forum:** [GitHub Discussions (`Agents & UDTs`)](https://github.com/galaxyproject/galaxy/discussions/categories/agents-udts) — Q&A, beta feedback, and working `GalaxyUserTool` YAMLs *(real-time Matrix chat: [#galaxyproject:matrix.org](https://matrix.to/#/#galaxyproject:matrix.org))*.
 - **Connection diagnostics:** run `galaxy-connect` in your agent or open the **Manual MCP setup and troubleshooting** drawer in your tab above.
 - **General Galaxy support:** [Galaxy Help forum](https://help.galaxyproject.org/).
 - **Plugin & bundle issues:** [galaxyproject/agentic-plugins](https://github.com/galaxyproject/agentic-plugins) (upstream skills: [galaxy-skills](https://github.com/galaxyproject/galaxy-skills) and [foundry](https://github.com/galaxyproject/foundry)).

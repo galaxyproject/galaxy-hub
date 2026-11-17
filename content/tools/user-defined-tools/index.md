@@ -18,7 +18,7 @@ On **UseGalaxy.org (Galaxy Main)**, UDT access is turned on per account:
 1. Open **[udt-signup.galaxyproject.org](https://udt-signup.galaxyproject.org/)** *(optional: sign in with ORCID first for faster review)*.
 2. Enter your **UseGalaxy.org** account email/username and a sentence or two describing what you plan to build or run.
 3. Once approved, **Custom Tools** (wrench icon) appears in your Galaxy Activity Bar — and any connected [AI agent](/agents/) or [Orbit](/agents/orbit/) can author and run UDTs on your behalf ([see an end-to-end agent run](/agents/stack/)).
-4. Ask questions, report rough edges, or share working `GalaxyUserTool` YAMLs in **[GitHub Discussions](https://github.com/galaxyproject/galaxy-skills/discussions)**.
+4. Ask questions, report rough edges, or share working `GalaxyUserTool` YAMLs in **[GitHub Discussions (`Agents & UDTs`)](https://github.com/galaxyproject/galaxy/discussions/categories/agents-udts)**.
 
 *(Working on a different Galaxy server? Ask that server's administrators — see [Enabling User-Defined Tools](#enabling-user-defined-tools-for-admins) below.)*
 
