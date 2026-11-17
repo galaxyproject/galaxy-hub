@@ -18,17 +18,21 @@ The [Freiburg Galaxy Team](/freiburg/people/) is highly involved in many project
 - [GalaxyP](http://galaxyp.org), a Galaxy community dedicated to developing [tools](https://github.com/galaxyproteomics/tools-galaxyp), workflows, and [training material](https://training.galaxyproject.org/training-material/topics/proteomics/) for proteomic research.
 - [Galaxy Genome Annotation (GGA)](https://galaxy-genome-annotation.github.io/), a group of projects focused on supporting genome annotation inside Galaxy.
 
-## EuroScienceGateway
+## ESG4Stars
 
-With the [EuroScienceGateway](/projects/esg/) (ESG) project, the European Galaxy community received direct funding for the first time from the European Commission through a successful Horizon Europe grant. Since September 2022, this project allows us together with 15 European partners to leverage a federated open access computational infrastructure through Galaxy as a gateway for data resources, tools, and applications by the FAIR principle. It provides more resources for users, via Galaxy and cloud APIs, to users in Europe, including national Galaxy servers.
+Building on work from the [EuroScienceGateway](/projects/esg/) (ESG) project,  ESG4Stars, Sustainable Scientific Workflows for Research Infrastructures, is a three-year project funded by the EU through HORIZON-INFRA-2025-01-TECH-01. The aim of the project is to reduce the environmental footprint of the entire scientific computing and data analysis lifecycle on European research infrastructures.
+From data transfer through compute requirements to data storage, the project will achieve quantifiable reductions for each component of that footprint - first on the fleet of European Galaxy servers as a pillar of EOSC, the European Open Science Cloud.
+Beyond the Galaxy ecosystem, the project will actively promote and facilitate the uptake of all insights and advancements by the wider scientific computing community and by other research infrastructure providers.
 
 ## Bioconda And BioContainers
 
-Spending valuable time in compilation or installation should not be a problem nowadays. Therefore, the Freiburg Galaxy team is leading the [Bioconda](https://bioconda.github.io/) and [BioContainers](https://biocontainers.pro/) projects, which together form a strong stack for reproducible science.
+Spending valuable time on compilation or installation should not be a problem nowadays. Therefore, the Freiburg Galaxy team is leading the [Bioconda](https://bioconda.github.io/) and [BioContainers](https://biocontainers.pro/) projects, which together form a strong stack for reproducible science.
 
 Bioconda is a channel for the conda package manager specializing in bioinformatics with around 9,000 bioinformatics packages ready to use with `conda install`.
 
 BioContainers is an open source and community-driven framework which provides system-agnostic executable environments for bioinformatics software, with around 70,000 containers ready to use.
+
+# Ongoing Projects
 
 ## Infrastructure Projects
 
@@ -51,17 +55,20 @@ The team has participated in several [ELIXIR Implementation Studies](https://eli
 - Beacon and beyond - Implementation-driven standards and protocols for CNV discovery and data exchange, 2021.
 - Deploying Reproducible Containers and Workflows Across Cloud Environments, 2021.
 
-### EOSC-Life
-
-The European Open Science Cloud (EOSC), and [EOSC-Life](https://www.eosc-life.eu/) in particular, brings together the 13 Life Science ESFRI research infrastructures to create an open, digital, and collaborative space for biological and medical research. The project will publish FAIR data and a catalog of services provided by participating RIs for the management, storage, and reuse of data in the European Open Science Cloud.
-
-Galaxy is a key player in [WP2 on Tools & Workflows](https://www.eosc-life.eu/tools-workflows) and WP7, around [Cloud Deployment](https://www.eosc-life.eu/about/work-packages).
-
 ### EOSC4Cancer
 
 [EOSC4Cancer](https://eosc4cancer.eu/) will make diverse types of cancer data accessible: genomics, imaging, medical, clinical, environmental, and socio-economic. It will use and enhance federated and interoperable systems for securely identifying, sharing, processing, and reusing FAIR data across borders and offer them via community-driven analysis environments.
 
 Galaxy is a partner in [WP3 Tool Integration & Visualization](https://eosc4cancer.eu/wp-3) and [WP1 FAIR Data](https://eosc4cancer.eu/wp-1).
+
+### EOSC AI4Social+
+
+[AI4Social+](https://doi.org/10.3030/101292886) is a three-year project funded by the EU through HORIZON-INFRA-2025-01-EOSC-03 under grant agreement number 101292886. 
+It aims to foster AI readiness in the Humanities and Social Sciences. 
+
+### EOSC Mesh
+
+EOSC-Mesh is funded under HORIZON-INFRA-2025-01-EOSC-01 to expand EOSC capacity and capabilities by establishing and enrolling seven federating Nodes interoperable with the EOSC EU Node.
 
 ### BGE/VGP ERGA
 
@@ -105,6 +112,8 @@ The Genomic Data Infrastructure (GDI) project brings together national agencies,
 
 [ELIXIR-CONVERGE](https://elixir-europe.org/about-us/how-funded/eu-projects/converge) delivers provisioning, across Europe, of distributed local support for data management. This is based on a toolkit for researchers that enables lifecycle management for their research data, in compliance with international standards.
 
+### Stardast
+
 ## Research Projects
 
 ### MIRACUM
@@ -112,18 +121,6 @@ The Genomic Data Infrastructure (GDI) project brings together national agencies,
 The goal of the [MIRACUM (Medical Informatics for Research and Care in University Medicine)](https://www.miracum.org/) project is to foster IT innovations for healthcare research and medical care. The project aims for accessibility and usability of clinical data, imaging data, and data from molecular and genomics analyses at local and across different locations through a modular, scalable, and federated data integration center. Taking advantage of digitalization in medicine, linking data and generating medical knowledge is required for a better, data-based healthcare delivery system. MIRACUM unites 10 university hospitals, 2 universities, and an industrial partner from 7 German federal states.
 
 As part of the MTB (Molecular Tumor Board) use case, the Freiburg Galaxy team is developing and maintaining together with [Melanie Börries](https://www.mol-med.uni-freiburg.de/mom/boerries) the EXOM-seq pipeline in Galaxy.
-
-### BY-COVID
-
-The [BeYond-COVID](https://by-covid.org/) project aims to make COVID-19 data accessible to scientists in laboratories but also to anyone who can use it, such as medical staff in hospitals or government officials. Going beyond SARS-CoV-2 data, the project will provide a framework for making data from other infectious diseases open and accessible to everyone.
-
-### CRC 1425
-
-The [Collaborative Research Centre 1425 - "Heterocellular Nature of Cardiac Lesions: Identities, Interactions, Implications"](https://www.sfb1425.uni-freiburg.de/) brings together scientists working in cardiac research.
-
-### CRC 992
-
-As part of the [Collaborative Research Centre 992 - "Medical Epigenetics"](https://www.sfb992.uni-freiburg.de/), the Freiburg Galaxy team is helping researchers to analyse their epigenetic data. In this framework, we are developing and maintaining deepTools and [HiCExplorer](https://hicexplorer.readthedocs.io/) together with the [group of Thomas Manke](https://www.ie-freiburg.mpg.de/de/bioinformaticsfac) from MPI-IE.
 
 ### COST Action CA16212
 
@@ -141,18 +138,56 @@ Plants are vital to human life and health and are essential to mitigate the effe
 
 ## Capacity Building And Training Projects
 
-### Gallantries
-
-The [Gallantries](https://gallantries.github.io/) project aims to increase bioinformatics and core data analysis skills in the field of life sciences across Europe.
-
 ### Open Life Science
 
-[Open Life Science (OLS)](https://openlifesci.org/) is a 16-week long mentoring and training program for Open Science ambassadors.
+[Open Life Science (OLS)](https://openlifesci.org/) is a 16-week-long mentoring and training program for Open Science ambassadors.
 
 ### StreetScience Project
 
 In the [Street Science community](https://web.archive.org/web/20221203021954/https://streetscience.community/), we want to make science tangible and accessible by bringing it to the street via open science workshops. These workshops are an excuse to meet, discuss, educate, and develop ideas in a neutral, open, noncompetitive, and not-for-profit environment.
 
+### de.KCD
+
+[The German Competence Center Cloud Technologies for Data Management and Processing (de.KCD)](https://datenkompetenz.cloud/) is a cross-location and cross-domain contact point for teaching skills in handling data using cloud-based technologies, resources and methods for institutions and networked centers as well as for researchers at all career levels.
+
+### STARDAST
+
+STARDAST (STewardship and Recognition for DAta Science Talent) is funded under HORIZON-INFRA-2025-01-EOSC-04 to establish a sustainable, cross-sector ecosystem for professional data stewardship across Europe under grant agreement number 101268773.
+
+# Past Projects
+
+## Infrastructure Projects
+
+## EuroScienceGateway
+
+With the [EuroScienceGateway](/projects/esg/) (ESG) project, the European Galaxy community received direct funding for the first time from the European Commission through a successful Horizon Europe grant. Since September 2022, this project has allowed us, together with 15 European partners, to leverage a federated open-access computational infrastructure through Galaxy as a gateway for data resources, tools, and applications in line with the FAIR principles. It provides more resources for users, via Galaxy and cloud APIs, to users in Europe, including national Galaxy servers.
+
+### EOSC-Life
+
+The European Open Science Cloud (EOSC), and [EOSC-Life](https://www.eosc-life.eu/) in particular, brings together the 13 Life Science ESFRI research infrastructures to create an open, digital, and collaborative space for biological and medical research. The project will publish FAIR data and a catalog of services provided by participating RIs for the management, storage, and reuse of data in the European Open Science Cloud.
+
+Galaxy is a key player in [WP2 on Tools & Workflows](https://www.eosc-life.eu/tools-workflows) and WP7, around [Cloud Deployment](https://www.eosc-life.eu/about/work-packages).
+
+## Research Projects
+
+### BY-COVID
+
+The [BeYond-COVID](https://by-covid.org/) project aims to make COVID-19 data accessible to scientists in laboratories but also to anyone who can use it, such as medical staff in hospitals or government officials. Going beyond SARS-CoV-2 data, the project will provide a framework for making data from other infectious diseases open and accessible to everyone.
+
+### CRC 992
+
+As part of the [Collaborative Research Centre 992 - "Medical Epigenetics"](https://www.sfb992.uni-freiburg.de/), the Freiburg Galaxy team is helping researchers to analyse their epigenetic data. In this framework, we are developing and maintaining deepTools and [HiCExplorer](https://hicexplorer.readthedocs.io/) together with the [group of Thomas Manke](https://www.ie-freiburg.mpg.de/de/bioinformaticsfac) from MPI-IE.
+
+### CRC 1425
+
+The [Collaborative Research Centre 1425 - "Heterocellular Nature of Cardiac Lesions: Identities, Interactions, Implications"](https://www.sfb1425.uni-freiburg.de/) brings together scientists working in cardiac research.
+
+## Capacity Building And Training Projects
+
 ### BioNT
 
 BioNT, the [BIO Network for Training](http://biont-training.eu/), is a consortium project aiming at delivering bioinformatics training across sectors, including training for industry employees and job seekers.
+
+### Gallantries
+
+The [Gallantries](https://gallantries.github.io/) project aims to increase bioinformatics and core data analysis skills in the field of life sciences across Europe.
