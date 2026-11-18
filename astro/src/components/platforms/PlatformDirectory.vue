@@ -430,70 +430,83 @@ function getHostname(url: string): string {
       class="bg-surface-2 rounded-lg border-1 border-line p-4 sm:p-5 mb-6"
     >
       <div class="flex flex-col gap-4">
-        <!-- Search with tool: / reference: autocomplete -->
-        <div class="relative">
-          <label for="platform-filter-search" class="block text-sm font-medium text-fg-2 mb-1">Search servers</label>
-          <div class="relative">
-            <Search
-              :size="16"
-              aria-hidden="true"
-              class="pointer-events-none absolute top-1/2 left-3 z-10 -translate-y-1/2 text-fg-meta"
-            />
-            <Input
-              id="platform-filter-search"
-              v-model="searchQuery"
-              type="search"
-              placeholder="Search, tool:name, or reference:genome"
-              class="h-10 w-full border-chicago-400 bg-surface-raised pl-9"
-              :class="focusRing"
-              autocomplete="off"
-              role="combobox"
-              aria-autocomplete="list"
-              aria-controls="platform-search-suggestions"
-              :aria-expanded="showAutocomplete"
-              @keydown="onSearchKeydown"
-              @blur="closeAutocomplete"
-            />
+        <!-- Search with tool: / reference: autocomplete; Clear sits beside it so the suggestions never cover it -->
+        <div class="flex items-start gap-3">
+          <div class="relative min-w-0 flex-1">
+            <label for="platform-filter-search" class="block text-sm font-medium text-fg-2 mb-1">Search servers</label>
+            <div class="relative">
+              <Search
+                :size="16"
+                aria-hidden="true"
+                class="pointer-events-none absolute top-1/2 left-3 z-10 -translate-y-1/2 text-fg-meta"
+              />
+              <Input
+                id="platform-filter-search"
+                v-model="searchQuery"
+                type="search"
+                placeholder="Search, tool:name, or reference:genome"
+                class="h-10 w-full border-chicago-400 bg-surface-raised pl-9"
+                :class="focusRing"
+                autocomplete="off"
+                role="combobox"
+                aria-autocomplete="list"
+                aria-controls="platform-search-suggestions"
+                :aria-expanded="showAutocomplete"
+                @keydown="onSearchKeydown"
+                @blur="closeAutocomplete"
+              />
+            </div>
+
+            <!-- Autocomplete dropdown -->
+            <ul
+              v-if="showAutocomplete && filteredSuggestions.length > 0"
+              id="platform-search-suggestions"
+              role="listbox"
+              class="absolute z-30 mt-1 max-h-72 w-full overflow-y-auto rounded-md border border-ebony-clay-200 bg-white py-1 shadow-lg"
+            >
+              <li
+                v-for="(suggestion, index) in filteredSuggestions"
+                :key="`${suggestion.type}-${suggestion.name}`"
+                role="option"
+                :aria-selected="index === selectedSuggestionIndex"
+                class="flex cursor-pointer items-center justify-between gap-3 px-3 py-2 text-sm hover:bg-ebony-clay-50"
+                :class="{ 'bg-ebony-clay-100': index === selectedSuggestionIndex }"
+                @mouseenter="selectedSuggestionIndex = index"
+                @mousedown.prevent="selectSuggestion(suggestion)"
+              >
+                <span class="min-w-0 truncate text-chicago-800">{{ suggestion.name }}</span>
+                <span
+                  class="shrink-0 rounded-full px-2 py-0.5 text-xs"
+                  :class="
+                    suggestion.type === 'tool'
+                      ? 'bg-galaxy-primary/10 text-galaxy-primary'
+                      : 'bg-green-100 text-green-800'
+                  "
+                >
+                  {{ suggestion.badge }}
+                </span>
+              </li>
+            </ul>
+
+            <!-- Active tool/reference search indicator -->
+            <p v-if="isToolSearch" class="mt-1 text-xs text-galaxy-primary">
+              Tool search: “{{ searchQuery.trim().slice(5).trim() }}”
+            </p>
+            <p v-else-if="isReferenceSearch" class="mt-1 text-xs text-green-700">
+              Reference search: “{{ searchQuery.trim().slice(10).trim() }}”
+            </p>
           </div>
 
-          <!-- Autocomplete dropdown -->
-          <ul
-            v-if="showAutocomplete && filteredSuggestions.length > 0"
-            id="platform-search-suggestions"
-            role="listbox"
-            class="absolute z-30 mt-1 max-h-72 w-full overflow-y-auto rounded-md border border-ebony-clay-200 bg-white py-1 shadow-lg"
+          <!-- Clear Filters: only while a filter is active -->
+          <Button
+            v-if="hasFilters"
+            variant="outline"
+            class="mt-6 h-10 shrink-0"
+            :class="focusRing"
+            @click="clearFilters"
           >
-            <li
-              v-for="(suggestion, index) in filteredSuggestions"
-              :key="`${suggestion.type}-${suggestion.name}`"
-              role="option"
-              :aria-selected="index === selectedSuggestionIndex"
-              class="flex cursor-pointer items-center justify-between gap-3 px-3 py-2 text-sm hover:bg-ebony-clay-50"
-              :class="{ 'bg-ebony-clay-100': index === selectedSuggestionIndex }"
-              @mouseenter="selectedSuggestionIndex = index"
-              @mousedown.prevent="selectSuggestion(suggestion)"
-            >
-              <span class="min-w-0 truncate text-chicago-800">{{ suggestion.name }}</span>
-              <span
-                class="shrink-0 rounded-full px-2 py-0.5 text-xs"
-                :class="
-                  suggestion.type === 'tool'
-                    ? 'bg-galaxy-primary/10 text-galaxy-primary'
-                    : 'bg-green-100 text-green-800'
-                "
-              >
-                {{ suggestion.badge }}
-              </span>
-            </li>
-          </ul>
-
-          <!-- Active tool/reference search indicator -->
-          <p v-if="isToolSearch" class="mt-1 text-xs text-galaxy-primary">
-            Tool search: “{{ searchQuery.trim().slice(5).trim() }}”
-          </p>
-          <p v-else-if="isReferenceSearch" class="mt-1 text-xs text-green-700">
-            Reference search: “{{ searchQuery.trim().slice(10).trim() }}”
-          </p>
+            Clear
+          </Button>
         </div>
 
         <div class="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-end">
@@ -520,11 +533,6 @@ function getHostname(url: string): string {
               <option v-for="group in platformGroups" :key="group" :value="group">{{ groupOption(group) }}</option>
             </select>
           </div>
-
-          <!-- Clear Filters: only while a filter is active -->
-          <Button v-if="hasFilters" variant="outline" class="h-10 shrink-0" :class="focusRing" @click="clearFilters">
-            Clear filters
-          </Button>
         </div>
       </div>
 
