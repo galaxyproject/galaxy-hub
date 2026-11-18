@@ -43,14 +43,16 @@ autotoc: false
 # GCC2027 Registration
 
 <div class="alert alert-info" role="alert">
-Registration for GCC2027 opens on November 18, 2026.
+Registration for GCC2027 is now open!
 </div>
 
 <div class="alert alert-warning" role="alert">
 Applying for a <a href="/events/gcc2027/fellowships/">fellowship</a>? Please don't pay for registration in advance: fellowship recipients receive a registration code, and awards are announced by March 25, 2027.
 </div>
 
-<!-- TODO: registration link / button -->
+<div class="not-prose flex justify-center my-5">
+  <a class="inline-block max-w-full rounded-md bg-galaxy-primary px-5 py-2.5 text-center text-sm font-semibold leading-tight text-white no-underline hover:bg-galaxy-dark" href="https://event.fourwaves.com/gcc2027" target="_blank" rel="noopener noreferrer">Register for GCC2027</a>
+</div>
 
 All prices are listed in Canadian dollars (CAD). If you prefer to reason in a
 different currency, here is a convenient [currency

@@ -8,7 +8,7 @@ autotoc: false
 # GCC2027 Abstracts
 
 <div class="alert alert-info" role="alert">
-Abstract submission for GCC2027 opens on November 18, 2026.
+Abstract submission for GCC2027 is now open!
 </div>
 
 Presentations from the community are a core component of GCCs. These include
@@ -41,9 +41,15 @@ Deadlines are at midnight (end of the day) [Montréal time](https://time.is/Mont
 
 ## Abstract submission guidelines
 
-<!-- TODO: submission link and guidelines -->
+Abstracts are submitted through the Galaxy conference submission site:
 
-Submission guidelines will be posted here when abstract submission opens.
+<div class="not-prose flex justify-center my-5">
+  <a class="inline-block max-w-full rounded-md bg-galaxy-primary px-5 py-2.5 text-center text-sm font-semibold leading-tight text-white no-underline hover:bg-galaxy-dark" href="https://conferences.galaxyproject.org/" target="_blank" rel="noopener noreferrer">Submit an abstract</a>
+</div>
+
+<!-- TODO: detailed submission guidelines (length limits, format, review criteria) -->
+
+More detailed guidelines will be posted here soon.
 
 ## Questions?
 
