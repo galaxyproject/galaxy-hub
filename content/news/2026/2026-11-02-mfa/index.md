@@ -57,7 +57,7 @@ But the real power of Galaxy lies in creating [workflows](https://gxy.io/GTN:T00
 This is particularly useful because MFA includes many sub-tools for specific tasks. 
 In a workflow, they can be easily combined and adjusted to a user's needs.
 Those workflows can be used as a basis for writing tutorials for the [Galaxy Training Network](https://training.galaxyproject.org/training-material/) to support the community in using those tools.
-Jessica did just that by adding a tutorial on [how to use Montreal Forced Aligner](https://gxy.io/GTN:T00585) for vowel extraction.
+Jessica did just that by contributing a tutorial on [how to use Montreal Forced Aligner](https://gxy.io/GTN:T00585) to align speech recordings with their transcriptions, providing the foundation for subsequent vowel formant extraction with new-fave.
 That way, she opened the door to showcasing how Galaxy could be useful for linguists and broadened the Galaxy DH SIG even more.
 But her regular analysis still included [Praat](https://praat.org/), an interactive phonetics tool not yet available on Galaxy.
 Stay tuned to read more on Jessica's galactic journey and how we are growing the DH community on Galaxy step by step and tool by tool.
