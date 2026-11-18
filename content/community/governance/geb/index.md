@@ -1,6 +1,5 @@
 ---
 title: Galaxy Executive Board (GEB)
-autotoc: false
 ---
 
 <slot name="/community/governance/linkbox" />
