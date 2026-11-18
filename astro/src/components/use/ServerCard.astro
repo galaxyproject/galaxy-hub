@@ -21,7 +21,7 @@ interface Props {
 const { name, description, href, logo, mark, detailsHref } = Astro.props;
 ---
 
-<li class="flex flex-col rounded-lg border-1 border-line bg-surface-raised p-[1.25rem] shadow-sm">
+<li class="flex flex-col rounded-lg border-1 border-line bg-surface-raised p-[1.25rem] shadow-[var(--gx-elev-sm)]">
   {logo ? (
     <img src={logo} alt="" class="h-12 w-auto max-w-full self-start object-contain object-left" />
   ) : (

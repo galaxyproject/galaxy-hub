@@ -22,7 +22,7 @@ const { href, title, description, icon, external = false } = Astro.props;
     href={href}
     target={external ? '_blank' : undefined}
     rel={external ? 'noopener' : undefined}
-    class="group flex h-full items-start gap-4 rounded-lg border-1 border-line bg-surface-raised p-[1rem] shadow-sm transition-colors hover:border-line-strong hover:bg-surface-2 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-solid focus-visible:outline-focus"
+    class="group flex h-full items-start gap-4 rounded-lg border-1 border-line bg-surface-raised p-[1rem] shadow-[var(--gx-elev-sm)] transition-colors hover:border-line-strong hover:bg-surface-2 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-solid focus-visible:outline-focus"
   >
     <span
       class="flex h-10 w-10 shrink-0 items-center justify-center rounded-md bg-surface-tint text-fg-brand"
