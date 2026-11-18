@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted, watch } from 'vue';
-import { MapPin, Search } from '@lucide/vue';
+import { Inbox, MapPin, Search } from '@lucide/vue';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { focusRing } from '@/lib/focus-ring';
@@ -595,9 +595,14 @@ function getHostname(url: string): string {
     </div>
 
     <!-- No results message -->
-    <div v-if="filteredPlatforms.length === 0" class="text-center py-12">
-      <p class="text-chicago-500 mb-4">No Galaxy servers found matching your criteria.</p>
-      <Button variant="outline" @click="clearFilters">Clear Filters</Button>
+    <div
+      v-if="filteredPlatforms.length === 0"
+      class="flex flex-col items-center rounded-lg border-1 border-dashed border-chicago-400 bg-surface-2 px-4 py-12 text-center"
+    >
+      <Inbox :size="32" aria-hidden="true" class="mb-3 text-fg-meta" />
+      <h3 class="text-h3 font-semibold text-fg-strong">No Galaxy servers found</h3>
+      <p class="mt-1 mb-4 text-fg-2">Nothing matches your search and filters. Try fewer filters or a different word.</p>
+      <Button variant="outline" :class="focusRing" @click="clearFilters">Clear filters</Button>
     </div>
   </div>
 </template>
