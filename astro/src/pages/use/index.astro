@@ -102,7 +102,7 @@ const mainServers = [
         The main public Galaxy servers are free for everyone. Start here for general-purpose genomic analysis.
       </p>
 
-      <ul class="m-0 grid list-none grid-cols-1 gap-4 p-0 sm:grid-cols-2 lg:grid-cols-4">
+      <ul class="m-0 grid list-none grid-cols-1 gap-4 p-0 sm:grid-cols-2 xl:grid-cols-4">
         {mainServers.map((server) => (
           <ServerCard {...server} />
         ))}
@@ -131,7 +131,7 @@ const mainServers = [
     <section class="mt-12">
       <h2 class="mb-[1rem] border-b border-line pb-2 text-h2 font-bold text-fg-strong">Other Ways to Use Galaxy</h2>
       <p class="mb-6 text-fg-2">Can't find what you need? There are more options for running Galaxy.</p>
-      <ul class="m-0 grid list-none grid-cols-1 gap-4 p-0 md:grid-cols-3">
+      <ul class="m-0 grid list-none grid-cols-[repeat(auto-fit,minmax(min(100%,16rem),1fr))] gap-4 p-0">
         <LinkTile
           href="/admin/"
           icon="server"
