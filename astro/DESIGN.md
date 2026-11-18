@@ -283,6 +283,22 @@ Brand-tinted note box for asides and "good to know" content. Replaces Bootstrap 
 
 `.callout`: `bg-bay-of-many-100`, `border-l-4 border-l-galaxy-primary`, rounded right corners, galaxy-dark text.
 
+### Date Badge
+
+A highlighted date: a coloured label joined to the date, in a bordered pill. Used for "Save the date" in a conference hero and for a sub-event's dates (e.g. CoFest). Add an optional subtitle under the date:
+
+```html
+<div class="gx-date-badge">
+  <span class="gx-date-badge__label">CoFest</span>
+  <span class="gx-date-badge__value">
+    June&nbsp;30 – July&nbsp;1, 2027
+    <span class="gx-date-badge__sub">Wednesday – Thursday, right after the conference</span>
+  </span>
+</div>
+```
+
+`gx-date-badge` sits inline; centre it with a wrapping flex container. When there isn't room for both halves side by side, the label wraps above the date. Use `&nbsp;` inside a date (`June&nbsp;30`) so it only breaks between parts.
+
 ### Key Dates Table
 
 Dated milestones (openings, deadlines, results) as a plain Markdown table. `gx-dates` expects three columns, **Date | status icon | What**; wrap the table in it (blank lines around it so Markdown renders):
@@ -300,6 +316,60 @@ Dated milestones (openings, deadlines, results) as a plain Markdown table. `gx-d
 ```
 
 `gx-dates` centres the second (status icon) column and shrinks it to its content; keep that column to icons only. Icons used on the conference pages: 🟢 opens, 🔴 deadline, 🏆 results, 🎉 conference week. Markdown column alignment (`:---:`, `---:`) works on every page, independently of `gx-dates`.
+
+### Event Schedule
+
+A day-by-day programme: one `##` heading per day, each followed by a plain
+Markdown table wrapped in `gx-schedule`. Columns are **Time | Event**, with an
+optional third **Location** column:
+
+```html
+<div class="gx-schedule">
+
+| Time | Event |
+| --- | --- |
+| 9:00–10:00 | Keynote |
+| 10:00–10:20 | *Break* |
+
+</div>
+```
+
+- The time column has a fixed width, so every day's table lines up. The header
+  row is collapsed but kept for screen readers.
+- An Event cell holding only italic text (`*Break*`, `*Lunch*`) marks a
+  logistics row, which gets a muted fill so the sessions stand out.
+- Below 640px, a Location column moves under its event rather than adding a
+  third column.
+
+Jump links to the days go in `<nav class="gx-timeline not-prose">`: a
+bordered timeline, read left to right, with one phase per part of the event.
+Each phase has a coloured label strip and links to its days; `--days` sets its
+width in proportion to its number of days.
+
+```html
+<nav class="gx-timeline not-prose" aria-label="Schedule days">
+  <div class="gx-timeline__track">
+    <div class="gx-timeline__phase gx-timeline__phase--gold" style="--days: 1">
+      <span class="gx-timeline__label">Training</span>
+      <div class="gx-timeline__dates">
+        <a href="#saturday-june-26">Sat 26</a>
+      </div>
+    </div>
+    <div class="gx-timeline__phase" style="--days: 3">
+      <span class="gx-timeline__label">Conference</span>
+      <div class="gx-timeline__dates">
+        <a href="#sunday-june-27">Sun 27</a>
+        <a href="#monday-june-28">Mon 28</a>
+        <a href="#tuesday-june-29">Tue 29</a>
+      </div>
+    </div>
+  </div>
+</nav>
+```
+
+- Phase label colours: galaxy-primary by default, `gx-timeline__phase--gold`
+  or `--dark` for the others.
+- Below 480px the phases stack, each with its label above its days.
 
 ### Profile Row
 
