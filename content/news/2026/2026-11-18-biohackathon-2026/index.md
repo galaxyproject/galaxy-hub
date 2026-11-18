@@ -8,7 +8,7 @@ tease: "Three BioHackathon Europe 2026 projects workflow portability, collaborat
 hide_tease: false
 tags:
   - tools
-  - workflows
+  - workflow
 contributions:
   authorship:
     - anuprulez
