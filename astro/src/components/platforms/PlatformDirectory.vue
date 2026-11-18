@@ -5,7 +5,7 @@ import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { focusRing } from '@/lib/focus-ring';
 import { countryName } from '@/utils/countryName';
-import { platformInitials, scopeLabel } from '@/utils/platformLabels';
+import { isLogoPath, platformInitials, scopeLabel } from '@/utils/platformLabels';
 import { isOnPage, onPopState, readParams, writeParams } from '@/utils/urlFilters';
 
 interface Platform {
@@ -401,11 +401,11 @@ function getLocationNames(platform: Platform): string {
     .join(', ');
 }
 
-// A logo that fails to load falls back to the initials tile
+// Only site paths named *logo* are shown (other images are figures); a logo that fails to load falls back too
 const brokenLogos = ref(new Set<string>());
 
 function showLogo(platform: Platform): boolean {
-  return Boolean(platform.image) && !brokenLogos.value.has(platform.slug);
+  return isLogoPath(platform.image) && !brokenLogos.value.has(platform.slug);
 }
 
 function onLogoError(platform: Platform) {
@@ -560,11 +560,11 @@ function getHostname(url: string): string {
             v-if="showLogo(platform)"
             :src="platform.image ?? undefined"
             alt=""
-            width="40"
+            width="96"
             height="40"
             loading="lazy"
             decoding="async"
-            class="size-10 shrink-0 rounded-md border-1 border-line bg-white object-contain p-0.5"
+            class="h-10 w-24 shrink-0 rounded-md bg-[#f3f4f6] object-contain object-left p-1"
             @error="onLogoError(platform)"
           />
           <div
