@@ -1,12 +1,11 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted, watch } from 'vue';
-import { Search } from '@lucide/vue';
+import { MapPin, Search } from '@lucide/vue';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
-import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { focusRing } from '@/lib/focus-ring';
 import { countryName } from '@/utils/countryName';
-import { scopeLabel } from '@/utils/platformLabels';
+import { platformInitials, scopeLabel } from '@/utils/platformLabels';
 import { isOnPage, onPopState, readParams, writeParams } from '@/utils/urlFilters';
 
 interface Platform {
@@ -386,8 +385,31 @@ watch(searchQuery, () => {
   showAutocomplete.value = filteredSuggestions.value.length > 0;
 });
 
-function getLocationFromPlatform(platform: Platform): string | null | undefined {
-  return platform.platforms?.[0]?.platform_location;
+function unique(values: (string | null | undefined)[]): string[] {
+  return [...new Set(values.filter((value): value is string => Boolean(value)))];
+}
+
+function getGroupLabels(platform: Platform): string {
+  return unique(platform.platforms?.map((inst) => inst.platform_group) ?? [])
+    .map((group) => groupLabels[group] || group)
+    .join(', ');
+}
+
+function getLocationNames(platform: Platform): string {
+  return unique(platform.platforms?.map((inst) => inst.platform_location) ?? [])
+    .map(countryName)
+    .join(', ');
+}
+
+// A logo that fails to load falls back to the initials tile
+const brokenLogos = ref(new Set<string>());
+
+function showLogo(platform: Platform): boolean {
+  return Boolean(platform.image) && !brokenLogos.value.has(platform.slug);
+}
+
+function onLogoError(platform: Platform) {
+  brokenLogos.value = new Set(brokenLogos.value).add(platform.slug);
 }
 
 function getHostname(url: string): string {
@@ -514,51 +536,61 @@ function getHostname(url: string): string {
 
     <!-- Platform Grid -->
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      <a v-for="platform in filteredPlatforms" :key="platform.slug" :href="`/${platform.slug}/`" class="block group">
-        <Card class="h-full hover:shadow-md transition-shadow border-t-4 border-t-galaxy-primary">
-          <CardHeader class="pb-2">
-            <div class="flex items-start justify-between">
-              <CardTitle class="text-lg text-chicago-900 group-hover:text-galaxy-primary transition-colors">
-                {{ platform.title || 'Galaxy Server' }}
-              </CardTitle>
+      <a
+        v-for="platform in filteredPlatforms"
+        :key="platform.slug"
+        :href="`/${platform.slug}/`"
+        class="group relative flex h-full flex-col overflow-hidden rounded-lg border-1 border-line bg-surface-raised p-5 shadow-sm transition-shadow hover:shadow-md"
+        :class="focusRing"
+      >
+        <span
+          aria-hidden="true"
+          class="absolute inset-y-0 left-0 w-1 origin-left scale-x-0 bg-galaxy-gold transition-transform duration-200 group-hover:scale-x-100 group-focus-visible:scale-x-100 motion-reduce:transition-none"
+        ></span>
+        <div class="flex items-start gap-3">
+          <img
+            v-if="showLogo(platform)"
+            :src="platform.image ?? undefined"
+            alt=""
+            width="40"
+            height="40"
+            loading="lazy"
+            decoding="async"
+            class="size-10 shrink-0 rounded-md border-1 border-line bg-white object-contain p-0.5"
+            @error="onLogoError(platform)"
+          />
+          <div
+            v-else
+            aria-hidden="true"
+            class="flex size-10 shrink-0 items-center justify-center rounded-md bg-surface-tint text-sm font-bold text-fg-brand"
+          >
+            {{ platformInitials(platform.title) }}
+          </div>
+          <div class="min-w-0 flex-1">
+            <h3 class="text-h3 font-semibold text-fg-strong break-words group-hover:text-link-hover">
+              {{ platform.title || 'Galaxy Server' }}
+            </h3>
+            <div class="mt-1 flex flex-wrap items-center gap-x-2 gap-y-1">
               <span
                 v-if="platform.scope"
-                class="text-xs px-2 py-1 rounded-full bg-galaxy-primary/10 text-galaxy-primary"
+                class="rounded-full bg-surface-tint px-2 py-0.5 text-micro font-bold text-fg-brand"
               >
                 {{ scopeLabel(platform.scope) }}
               </span>
-            </div>
-          </CardHeader>
-          <CardContent>
-            <p
-              v-if="platform.summaryHtml"
-              class="text-sm text-chicago-600 line-clamp-3 mb-3 prose prose-sm max-w-none"
-              v-html="platform.summaryHtml"
-            ></p>
-            <div class="flex items-center justify-between text-xs text-chicago-500">
-              <span v-if="platform.url" class="truncate max-w-[60%]">
-                {{ getHostname(platform.url) }}
-              </span>
-              <span v-if="getLocationFromPlatform(platform)" class="flex items-center gap-1">
-                <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                  ></path>
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                  ></path>
-                </svg>
-                {{ getLocationFromPlatform(platform) }}
+              <span v-if="getGroupLabels(platform)" class="text-meta text-fg-meta">
+                {{ getGroupLabels(platform) }}
               </span>
             </div>
-          </CardContent>
-        </Card>
+          </div>
+        </div>
+        <p v-if="platform.summaryHtml" class="mt-3 text-meta text-fg-2 line-clamp-3" v-html="platform.summaryHtml"></p>
+        <div class="mt-auto flex items-center justify-between gap-3 pt-3 text-meta text-fg-meta">
+          <span v-if="platform.url" class="min-w-0 truncate">{{ getHostname(platform.url) }}</span>
+          <span v-if="getLocationNames(platform)" class="flex min-w-0 shrink-0 items-center gap-1 max-w-[50%]">
+            <MapPin :size="14" aria-hidden="true" class="shrink-0" />
+            <span class="truncate">{{ getLocationNames(platform) }}</span>
+          </span>
+        </div>
       </a>
     </div>
 
