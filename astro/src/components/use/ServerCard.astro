@@ -21,7 +21,7 @@ interface Props {
 const { name, description, href, logo, mark, detailsHref } = Astro.props;
 ---
 
-<li class="flex flex-col rounded-lg border-1 border-line bg-surface-raised p-5 shadow-sm">
+<li class="flex flex-col rounded-lg border-1 border-line bg-surface-raised p-[1.25rem] shadow-sm">
   {logo ? (
     <img src={logo} alt="" class="h-12 w-auto max-w-full self-start object-contain object-left" />
   ) : (
@@ -32,20 +32,20 @@ const { name, description, href, logo, mark, detailsHref } = Astro.props;
       {mark}
     </span>
   )}
-  <h3 class="mt-4 text-h3 font-semibold text-fg-strong">{name}</h3>
+  <h3 class="mt-[1rem] text-h3 font-semibold text-fg-strong">{name}</h3>
   <p class="mt-2 flex-1 text-meta text-fg-2">{description}</p>
   <a
     href={href}
     target="_blank"
     rel="noopener"
-    class="mt-4 inline-flex min-h-10 items-center gap-2 self-start rounded-md border-1 border-line-input bg-surface-raised px-4 py-2 text-sm font-bold text-link hover:bg-surface-tint hover:text-link-hover focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-solid focus-visible:outline-focus"
+    class="mt-[1rem] inline-flex min-h-10 items-center gap-2 self-start rounded-md border-1 border-line-input bg-surface-raised px-4 py-2 text-sm font-bold text-link hover:bg-surface-tint hover:text-link-hover focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-solid focus-visible:outline-focus"
   >
     Start analyzing<span class="sr-only"> on {name} (opens in a new tab)</span>
     <span aria-hidden="true"><Icon name="external-link" size={16} /></span>
   </a>
   {detailsHref && <a
     href={detailsHref}
-    class="mt-3 self-start text-sm text-link underline decoration-link-line underline-offset-2 hover:text-link-hover hover:decoration-link-hover-line hover:decoration-2 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-solid focus-visible:outline-focus"
+    class="mt-[0.75rem] self-start text-sm text-link underline decoration-link-line underline-offset-2 hover:text-link-hover hover:decoration-link-hover-line hover:decoration-2 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-solid focus-visible:outline-focus"
   >
     Server details<span class="sr-only"> for {name}</span>
   </a>}
