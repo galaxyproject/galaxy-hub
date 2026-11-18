@@ -150,7 +150,7 @@ The scale follows prototype A of the redesign. galaxy-ui's `GHeading` sizes (`h-
 
 ### Icons
 
-Use **Lucide icons** (via `lucide-vue-next` and the Lucide SVG set) for all UI chrome -- navigation, controls, inline icons in buttons. The content preprocessor automatically converts legacy FontAwesome references in Markdown/MDX to inline Lucide SVGs, so don't introduce new FontAwesome usage.
+Use **Lucide icons** (`@lucide/vue` in Vue components, `components/mdx/Icon.astro` in Astro) for all UI chrome -- navigation, controls, inline icons in buttons. The content preprocessor automatically converts legacy FontAwesome references in Markdown/MDX to inline Lucide SVGs, so don't introduce new FontAwesome usage.
 
 ### Prose Styling
 
@@ -270,6 +270,15 @@ Variants and elements:
 - `gx-tile--link` -- the whole tile is an `<a>`; adds the signature gold hover bar (left edge, `scaleX`) and lifts to `shadow-md`. The card text keeps its colours on hover; only `gx-tile__more` takes the link hover (darker blue, gold underline). Keep contents plain (no nested links/markdown).
 - `gx-tile--feature` -- galaxy-primary left border for emphasized tiles.
 - `gx-tile__media` (160px cover image), `gx-tile__title`, `gx-tile__body` (richer markdown bodies -- separate inner content with blank lines so Markdown renders), `gx-tile__teaser` (short plain text), `gx-tile__credit` (small chicago-500 caption, e.g. photo credits), `gx-tile__more` (link affordance).
+
+### Server Card and Link Tile
+
+Two small Astro components build the top and bottom of `/use/` (`components/use/`). Both are `<li>` items: the page owns the `<ul>`.
+
+- `ServerCard`: a main server. Neutral card (`border-line`, `bg-surface-raised`, `rounded-lg`, `shadow-sm`, 20px padding) with a 48px-tall logo (or a 48px `surface-tint` square with a two-letter mark for a server without a usable logo), the name as an `h3`, a short description, an outline "Start analyzing" button (external link: sr-only " on <name> (opens in a new tab)" and an `aria-hidden` icon) and an optional "Server details" text link (sr-only " for <name>"). Four columns only from `xl` (1280px): with the sidebar open, `lg` leaves cards too narrow for the button.
+- `LinkTile`: one link into another page, the whole tile is the `<a>`: 40px icon square (`surface-tint`), title (`text-h4`), description (`text-meta text-fg-2`) and an arrow; an external link adds an icon and sr-only "(opens in a new tab)". Place tiles in `grid-cols-[repeat(auto-fit,minmax(min(100%,16rem),1fr))]`.
+- Spacing and borders: `bootstrap-compat.css` forces `!important` values on `p-1..5`, `m-1..5`, `mt-1..5`, `mb-1..5` and `.border`, even outside `.bs-compat`. In these components use arbitrary values (`p-[1.25rem]`, `mt-[1rem]`) and `border-1`.
+- Colours are role tokens only; focus is the solid 2px outline from Filters. Descriptions are plain text, since the tile is a link and links cannot nest.
 
 ### Callout / Note
 
