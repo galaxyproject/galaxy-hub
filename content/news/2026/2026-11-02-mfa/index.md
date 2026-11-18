@@ -38,8 +38,7 @@ suggested adding two command-line tools:
 ## Adding new linguistics tools: Montreal Forced Aligner and new fave
 The Montreal Forced Aligner breaks speech down into individual speech sounds and aligns these with their corresponding transcription. New fave can use this output to extract the vowel measurements for further analysis.
 
-Both are command-line tools, meaning researchers need a certain programming knowledge to use them.
-This can be a barrier. 
+Both are command-line tools that require some technical knowledge, which can present a barrier for researchers accustomed to graphical user interfaces.
 Wrapping MFA and new-fave for Galaxy made them accessible through a web interface. 
 That way, researchers without programming skills could also use them.
 My colleagues [Armin Dadras](https://github.com/dadrasarmin/) and [Wolfgang Maier](https://github.com/wm75) wrapped the tools and made them available as test tools.
