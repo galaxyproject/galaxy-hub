@@ -9,10 +9,13 @@ contributions:
   authorship:
     - Sch-Da
     - wallajess
+    - IvoLeist
   funding:
     - deKCD
     - deNBI
     - mwk
+    - ai4social
+    - eu
 ---
 
 # Galaxy Special Interest Groups
