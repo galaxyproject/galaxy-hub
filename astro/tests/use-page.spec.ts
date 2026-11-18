@@ -4,7 +4,7 @@ const SERVERS = [
   { name: 'UseGalaxy.org', href: 'https://usegalaxy.org', details: '/use/usegalaxy-org/' },
   { name: 'UseGalaxy.eu', href: 'https://usegalaxy.eu', details: '/use/usegalaxy-eu/' },
   { name: 'UseGalaxy.org.au', href: 'https://usegalaxy.org.au', details: '/use/usegalaxy-au/' },
-  { name: 'UseGalaxy.ca', href: 'https://usegalaxy.ca', details: null },
+  { name: 'UseGalaxy.ca', href: 'https://usegalaxy.ca', details: '/use/usegalaxy-ca/' },
 ];
 
 test.describe('Use Galaxy page', () => {
@@ -26,12 +26,8 @@ test.describe('Use Galaxy page', () => {
       await expect(start).toHaveAttribute('target', '_blank');
 
       const details = card.getByRole('link', { name: /^Server details/ });
-      if (server.details) {
-        await expect(details).toHaveAttribute('href', server.details);
-        await expect(details).toHaveAccessibleName(`Server details for ${server.name}`);
-      } else {
-        await expect(details).toHaveCount(0);
-      }
+      await expect(details).toHaveAttribute('href', server.details);
+      await expect(details).toHaveAccessibleName(`Server details for ${server.name}`);
     }
 
     // Logos load for the three servers that have one; usegalaxy.ca shows a CA mark.
@@ -41,6 +37,20 @@ test.describe('Use Galaxy page', () => {
     }
     await expect(cards.nth(3).locator('img')).toHaveCount(0);
     await expect(cards.nth(3).getByText('CA', { exact: true })).toBeVisible();
+  });
+
+  test('platform map toggle is a keyboard-operable disclosure button', async ({ page }) => {
+    const toggle = page.getByRole('button', { name: 'Show Platform Map' });
+    await expect(toggle).toHaveAttribute('aria-expanded', 'false');
+
+    await toggle.focus();
+    await page.keyboard.press('Enter');
+    const hide = page.getByRole('button', { name: 'Hide Platform Map' });
+    await expect(hide).toHaveAttribute('aria-expanded', 'true');
+    await expect(page.locator('#platform-map')).toBeVisible();
+
+    await page.keyboard.press('Space');
+    await expect(page.getByRole('button', { name: 'Show Platform Map' })).toHaveAttribute('aria-expanded', 'false');
   });
 
   test('other ways to use Galaxy are link tiles', async ({ page }) => {

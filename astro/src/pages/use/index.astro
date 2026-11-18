@@ -47,7 +47,7 @@ for (const p of platforms) {
   }
 }
 
-// Main servers: logos come from the platform pages' `image` field; usegalaxy.ca has no Hub page yet.
+// Main servers: logos come from the platform pages' `image` field; usegalaxy.ca has no logo yet.
 const platformImage = (slug: string) => platforms.find((p) => p.data.slug === slug)?.data.image;
 const mainServers = [
   {
@@ -76,6 +76,7 @@ const mainServers = [
     description: 'The Canadian Galaxy server for general purpose analysis.',
     href: 'https://usegalaxy.ca',
     mark: 'CA',
+    detailsHref: '/use/usegalaxy-ca/',
   },
 ];
 ---
