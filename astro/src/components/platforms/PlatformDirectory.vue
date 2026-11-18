@@ -406,7 +406,7 @@ function teaserHtml(platform: Platform): string {
   return (platform.summaryHtml ?? '').replace(/<\/?a\b[^>]*>/gi, '');
 }
 
-// Only site paths named *logo* are shown (other images are figures); a logo that fails to load falls back too
+// Only site image paths with "logo" in them (e.g. /images/logos/...) are shown, other images are figures; a logo that fails to load falls back too
 const brokenLogos = ref(new Set<string>());
 
 function showLogo(platform: Platform): boolean {
@@ -432,7 +432,7 @@ function getHostname(url: string): string {
     <div
       role="group"
       aria-label="Filter Galaxy servers"
-      class="bg-surface-2 rounded-lg border-1 border-line p-4 sm:p-5 mb-6"
+      class="bg-surface-2 rounded-lg border-1 border-line p-[16px] sm:p-[20px] mb-6"
     >
       <div class="flex flex-col gap-4">
         <!-- Search with tool: / reference: autocomplete; Clear sits beside it so the suggestions never cover it -->
@@ -542,17 +542,17 @@ function getHostname(url: string): string {
       </div>
 
       <!-- Results count -->
-      <p class="mt-4 text-meta text-fg-meta" aria-live="polite" aria-atomic="true">
+      <p class="mt-[16px] text-meta text-fg-meta" aria-live="polite" aria-atomic="true">
         Showing {{ filteredPlatforms.length }} of {{ platforms.length }} Galaxy servers
       </p>
     </div>
 
     <!-- Platform Grid -->
-    <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 m-0 p-0 list-none">
+    <ul class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 m-0 p-0 list-none">
       <li
         v-for="platform in filteredPlatforms"
         :key="platform.slug"
-        class="group relative flex flex-col rounded-lg border-1 border-line bg-surface-raised py-4 pr-4 pl-[18px] shadow-sm transition-[box-shadow,border-color] duration-200 hover:border-chicago-300 hover:shadow-md has-[a:focus-visible]:outline-2 has-[a:focus-visible]:outline-offset-2 has-[a:focus-visible]:outline-solid has-[a:focus-visible]:outline-galaxy-primary"
+        class="group relative flex flex-col rounded-lg border-1 border-line bg-surface-raised py-4 pr-4 pl-[18px] shadow-[0_1px_2px_rgb(0_0_0/0.05)] transition-[box-shadow,border-color] duration-200 hover:border-chicago-300 hover:shadow-[0_4px_6px_rgb(0_0_0/0.08)] has-[a:focus-visible]:outline-2 has-[a:focus-visible]:outline-offset-2 has-[a:focus-visible]:outline-solid has-[a:focus-visible]:outline-galaxy-primary"
       >
         <span
           aria-hidden="true"
@@ -599,7 +599,11 @@ function getHostname(url: string): string {
             </div>
           </div>
         </div>
-        <p v-if="platform.summaryHtml" class="mt-3 text-meta text-fg-2 line-clamp-3" v-html="teaserHtml(platform)"></p>
+        <p
+          v-if="platform.summaryHtml"
+          class="mt-[12px] text-meta text-fg-2 line-clamp-3"
+          v-html="teaserHtml(platform)"
+        ></p>
         <div class="mt-auto flex items-center justify-between gap-3 pt-3 text-meta text-fg-meta">
           <span v-if="platform.url" class="min-w-0 truncate">{{ getHostname(platform.url) }}</span>
           <span v-if="getLocationNames(platform)" class="flex min-w-0 shrink-0 items-center gap-1 max-w-[50%]">
@@ -615,9 +619,11 @@ function getHostname(url: string): string {
       v-if="filteredPlatforms.length === 0"
       class="flex flex-col items-center rounded-lg border-1 border-dashed border-chicago-400 bg-surface-2 px-4 py-12 text-center"
     >
-      <Inbox :size="32" aria-hidden="true" class="mb-3 text-fg-meta" />
+      <Inbox :size="32" aria-hidden="true" class="mb-[12px] text-fg-meta" />
       <h3 class="text-h3 font-semibold text-fg-strong">No Galaxy servers found</h3>
-      <p class="mt-1 mb-4 text-fg-2">Nothing matches your search and filters. Try fewer filters or a different word.</p>
+      <p class="mt-1 mb-[16px] text-fg-2">
+        Nothing matches your search and filters. Try fewer filters or a different word.
+      </p>
       <Button variant="outline" :class="focusRing" @click="clearFilters">Clear filters</Button>
     </div>
   </div>
