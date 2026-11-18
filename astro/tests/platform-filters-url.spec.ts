@@ -154,7 +154,9 @@ test.describe('Platform directory query and location in the URL', () => {
     for (const src of srcs) expect(src).toMatch(/^\/(?!\/).*logo/i);
     // A card without a logo shows two-letter initials instead
     await expect(cards.filter({ hasNot: page.locator('img') }).first()).toBeVisible();
-    // The title link is the only link of a card, stretched over it
-    await expect(cards.first().locator('a')).toHaveCount(1);
+    // The title link is the only link of every card, stretched over it
+    const linkCounts = await cards.evaluateAll((items) => items.map((item) => item.querySelectorAll('a').length));
+    expect(linkCounts.length).toBeGreaterThan(0);
+    expect(linkCounts.every((count) => count === 1)).toBe(true);
   });
 });
