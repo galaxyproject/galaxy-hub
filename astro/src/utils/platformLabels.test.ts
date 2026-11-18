@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { platformInitials, scopeLabel } from './platformLabels';
+import { isLogoPath, platformInitials, scopeLabel } from './platformLabels';
 
 describe('scopeLabel', () => {
   it('names every scope slug the platforms use, in sentence case', () => {
@@ -33,5 +33,22 @@ describe('platformInitials', () => {
     expect(platformInitials('  (ELIXIR) - Italy ')).toBe('EI');
     expect(platformInitials('')).toBe('GX');
     expect(platformInitials('--')).toBe('GX');
+  });
+});
+
+describe('isLogoPath', () => {
+  it('accepts a site path whose name says logo', () => {
+    expect(isLogoPath('/images/logos/UseGalaxy.orgLogo600.png')).toBe(true);
+    expect(isLogoPath('/images/use/mitolink/mitolink-logo.jpg')).toBe(true);
+    expect(isLogoPath('/use/hcemm/hcemm-LOGO.png')).toBe(true);
+  });
+
+  it('rejects figures, screenshots and anything that is not a site path', () => {
+    expect(isLogoPath('/use/arga/arga-pipeline.png')).toBe(false);
+    expect(isLogoPath('http://abims.sb-roscoff.fr/files/logos/abims-LD.png')).toBe(false);
+    expect(isLogoPath('//cdn.example.org/logo.png')).toBe(false);
+    expect(isLogoPath('')).toBe(false);
+    expect(isLogoPath(null)).toBe(false);
+    expect(isLogoPath(undefined)).toBe(false);
   });
 });

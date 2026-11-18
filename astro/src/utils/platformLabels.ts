@@ -23,3 +23,9 @@ export function platformInitials(title: string): string {
   const letters = words.length > 1 ? words[0][0] + words[1][0] : (words[0] ?? '').slice(0, 2);
   return letters ? letters.toUpperCase() : 'GX';
 }
+
+/** True for a site path (not a remote URL) whose name says "logo"; other images are figures or screenshots. */
+export function isLogoPath(image: string | null | undefined): image is string {
+  if (!image || !image.startsWith('/') || image.startsWith('//')) return false;
+  return /logo/i.test(image);
+}
