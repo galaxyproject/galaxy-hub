@@ -992,7 +992,7 @@ a.gx-tile--link:hover .gx-tile__more {
    Location) in <div class="gx-schedule">. A fixed time column keeps every day
    aligned; an Event cell that is only italic text (*Break*) is a logistics row
    and recedes. Below 640px a Location column drops under its event instead of
-   adding a third column. Day jump links: <nav class="gx-schedule-days">.
+   adding a third column. Day jump links: <nav class="gx-timeline">.
    See DESIGN.md §4.
    ========================================================================== */
 .gx-schedule .table-wrapper {
@@ -1093,37 +1093,92 @@ a.gx-tile--link:hover .gx-tile__more {
   }
 }
 
-.gx-schedule-days {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(6.5rem, 1fr));
-  gap: 0.5rem;
+/* ==========================================================================
+   Timeline -- an event's phases (e.g. Training | Conference | CoFest) read
+   left to right, each with a coloured label and links to its days. Used for
+   the schedule's day jump links. See DESIGN.md §4.
+   ========================================================================== */
+.gx-timeline {
+  container-type: inline-size;
   margin: 1.5rem 0 2rem;
 }
 
-.gx-schedule-days a {
+.gx-timeline__track {
   display: flex;
+  overflow: hidden;
+  border: 2px solid var(--color-galaxy-primary);
+  border-radius: var(--radius-lg);
+}
+
+.gx-timeline__phase {
+  display: flex;
+  flex: var(--days, 1) 1 0;
   flex-direction: column;
-  padding: 0.5rem 0.75rem;
-  border: 1px solid var(--gx-line-strong);
-  border-radius: var(--radius-md);
-  color: var(--gx-fg-meta);
-  font-size: 0.8125rem;
-  line-height: 1.2;
-  text-decoration: none;
-  transition:
-    background-color 0.15s,
-    border-color 0.15s;
+  min-width: 0;
 }
 
-.gx-schedule-days a span {
+.gx-timeline__phase + .gx-timeline__phase {
+  border-left: 2px solid var(--color-galaxy-primary);
+}
+
+.gx-timeline__label {
+  padding: 0.3rem 0.75rem;
+  background: var(--phase-color, var(--color-galaxy-primary));
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.gx-timeline__phase--gold {
+  --phase-color: var(--color-galaxy-gold);
+}
+
+.gx-timeline__phase--gold .gx-timeline__label {
+  color: var(--color-galaxy-dark);
+}
+
+.gx-timeline__phase--dark {
+  --phase-color: var(--color-galaxy-dark);
+}
+
+.gx-timeline__dates {
+  display: flex;
+  flex: 1;
+}
+
+.gx-timeline__dates a {
+  flex: 1 1 0;
+  padding: 0.5rem 0.25rem;
   color: var(--gx-fg-strong);
-  font-size: 1rem;
   font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  text-decoration: none;
+  transition: background-color 0.15s;
 }
 
-.gx-schedule-days a:hover {
+.gx-timeline__dates a + a {
+  border-left: 1px solid var(--gx-line-strong);
+}
+
+.gx-timeline__dates a:hover {
   background: var(--gx-surface-tint);
-  border-color: var(--gx-link);
+}
+
+/* Narrow: stack the phases, each with its label above its days */
+@container (max-width: 480px) {
+  .gx-timeline__track {
+    flex-direction: column;
+  }
+
+  .gx-timeline__phase + .gx-timeline__phase {
+    border-top: 2px solid var(--color-galaxy-primary);
+    border-left: 0;
+  }
 }
 
 /* ==========================================================================

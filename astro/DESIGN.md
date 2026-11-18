@@ -341,8 +341,35 @@ optional third **Location** column:
 - Below 640px, a Location column moves under its event rather than adding a
   third column.
 
-Jump links to the days go in `<nav class="gx-schedule-days not-prose">`, one
-`<a href="#day-heading-id"><span>Mon 28</span>Conference</a>` per day.
+Jump links to the days go in `<nav class="gx-timeline not-prose">`: a
+bordered timeline, read left to right, with one phase per part of the event.
+Each phase has a coloured label strip and links to its days; `--days` sets its
+width in proportion to its number of days.
+
+```html
+<nav class="gx-timeline not-prose" aria-label="Schedule days">
+  <div class="gx-timeline__track">
+    <div class="gx-timeline__phase gx-timeline__phase--gold" style="--days: 1">
+      <span class="gx-timeline__label">Training</span>
+      <div class="gx-timeline__dates">
+        <a href="#saturday-june-26">Sat 26</a>
+      </div>
+    </div>
+    <div class="gx-timeline__phase" style="--days: 3">
+      <span class="gx-timeline__label">Conference</span>
+      <div class="gx-timeline__dates">
+        <a href="#sunday-june-27">Sun 27</a>
+        <a href="#monday-june-28">Mon 28</a>
+        <a href="#tuesday-june-29">Tue 29</a>
+      </div>
+    </div>
+  </div>
+</nav>
+```
+
+- Phase label colours: galaxy-primary by default, `gx-timeline__phase--gold`
+  or `--dark` for the others.
+- Below 480px the phases stack, each with its label above its days.
 
 ### Profile Row
 

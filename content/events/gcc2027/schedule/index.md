@@ -11,13 +11,40 @@ autotoc: false
 This is a **preliminary schedule** and is subject to change. Session details,
 talks, posters, and locations will be added as the program is finalized.
 
-<nav class="gx-schedule-days not-prose" aria-label="Schedule days">
-  <a href="#saturday-june-26"><span>Sat 26</span>Training</a>
-  <a href="#sunday-june-27"><span>Sun 27</span>Conference</a>
-  <a href="#monday-june-28"><span>Mon 28</span>Conference</a>
-  <a href="#tuesday-june-29"><span>Tue 29</span>Conference</a>
-  <a href="#wednesday-june-30"><span>Wed 30</span>CoFest</a>
-  <a href="#thursday-july-1"><span>Thu 1</span>CoFest</a>
+<!--
+TODO (before the conference): make this whole view live during the event, using
+the current Montréal time:
+- Mark sessions that have already finished (in the day tables), and days that are
+  over (in the timeline below).
+- Highlight where we are right now: the current day in the timeline and the
+  session currently running.
+- Upcoming days and sessions keep their current styling.
+-->
+
+<nav class="gx-timeline not-prose" aria-label="Schedule days">
+  <div class="gx-timeline__track">
+    <div class="gx-timeline__phase gx-timeline__phase--gold" style="--days: 1">
+      <span class="gx-timeline__label">Training</span>
+      <div class="gx-timeline__dates">
+        <a href="#saturday-june-26">Sat 26</a>
+      </div>
+    </div>
+    <div class="gx-timeline__phase" style="--days: 3">
+      <span class="gx-timeline__label">Conference</span>
+      <div class="gx-timeline__dates">
+        <a href="#sunday-june-27">Sun 27</a>
+        <a href="#monday-june-28">Mon 28</a>
+        <a href="#tuesday-june-29">Tue 29</a>
+      </div>
+    </div>
+    <div class="gx-timeline__phase gx-timeline__phase--dark" style="--days: 2">
+      <span class="gx-timeline__label">CoFest</span>
+      <div class="gx-timeline__dates">
+        <a href="#wednesday-june-30">Wed 30</a>
+        <a href="#thursday-july-1">Thu 1</a>
+      </div>
+    </div>
+  </div>
 </nav>
 
 ## Saturday, June 26
