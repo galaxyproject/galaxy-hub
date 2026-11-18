@@ -100,7 +100,7 @@ test.describe('Platform directory query and location in the URL', () => {
 
   test('back from a platform page restores q and region', async ({ page }) => {
     await openUse(page, '/use/?q=galaxy&region=DE');
-    const card = page.locator('.platform-directory .grid > a').first();
+    const card = page.locator('.platform-directory .grid > li h3 a').first();
     const href = (await card.getAttribute('href')) as string;
     await card.click();
     await expect.poll(() => new URL(page.url()).pathname).toBe(href);
@@ -112,5 +112,49 @@ test.describe('Platform directory query and location in the URL', () => {
 
     await page.goForward();
     await expect.poll(() => new URL(page.url()).pathname).toBe(href);
+  });
+
+  test('option labels carry counts and country names', async ({ page }) => {
+    await openUse(page);
+    await expect(scope(page).locator('option[value="all"]')).toHaveText(/^All types \(\d+\)$/);
+    await expect(scope(page).locator('option[value="tool-publishing"]')).toHaveText(/^Tool publishing \(\d+\)$/);
+    await expect(location(page).locator('option[value="DE"]')).toHaveText(/^Germany \(\d+\)$/);
+    await expect(location(page).locator('option[value="UK"]')).toHaveText(/^United Kingdom \(\d+\)$/);
+  });
+
+  test('Clear filters is hidden until a filter is set, then returns focus to the search box', async ({ page }) => {
+    await openUse(page);
+    const clear = page.getByRole('button', { name: 'Clear filters' });
+    await expect(clear).toHaveCount(0);
+
+    await location(page).selectOption('DE');
+    await expect(clear).toHaveCount(1);
+    await clear.click();
+    await expect(clear).toHaveCount(0);
+    await expect(location(page)).toHaveValue('all');
+    await expect(page.locator('#platform-filter-search')).toBeFocused();
+  });
+
+  test('the empty state has one Clear filters button and clears the search', async ({ page }) => {
+    await openUse(page, '/use/?q=zzzzqq');
+    await expect(page.getByRole('heading', { name: 'No Galaxy servers found' })).toBeVisible();
+    const clear = page.getByRole('button', { name: 'Clear filters' });
+    await expect(clear).toHaveCount(1);
+    await clear.click();
+    await expect(page.getByRole('heading', { name: 'No Galaxy servers found' })).toHaveCount(0);
+    await expect(search(page)).toHaveValue('');
+  });
+
+  test('cards show a logo only for site logo paths and initials otherwise', async ({ page }) => {
+    await openUse(page);
+    const cards = page.locator('.platform-directory .grid > li');
+    await expect(cards.first()).toBeVisible();
+    const srcs = await cards.locator('img').evaluateAll((imgs) => imgs.map((img) => img.getAttribute('src') ?? ''));
+    expect(srcs.length).toBeGreaterThan(0);
+    for (const src of srcs) expect(src).toMatch(/^\/(?!\/).*logo/i);
+    // A card without a logo shows two-letter initials instead
+    await expect(cards.filter({ hasNot: page.locator('img') }).first()).toBeVisible();
+    // The title link is the only link of a card, stretched over it
+    await expect(cards.first().locator('a')).toHaveCount(1);
   });
 });

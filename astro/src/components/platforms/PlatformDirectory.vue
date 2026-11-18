@@ -401,6 +401,11 @@ function getLocationNames(platform: Platform): string {
     .join(', ');
 }
 
+// The stretched title link covers the card, so links inside the summary keep only their text
+function teaserHtml(platform: Platform): string {
+  return (platform.summaryHtml ?? '').replace(/<\/?a\b[^>]*>/gi, '');
+}
+
 // Only site paths named *logo* are shown (other images are figures); a logo that fails to load falls back too
 const brokenLogos = ref(new Set<string>());
 
@@ -497,15 +502,15 @@ function getHostname(url: string): string {
             </p>
           </div>
 
-          <!-- Clear Filters: only while a filter is active -->
+          <!-- Clear Filters: only while a filter is active (the empty state has its own button) -->
           <Button
-            v-if="hasFilters"
+            v-if="hasFilters && filteredPlatforms.length > 0"
             variant="outline"
             class="mt-6 h-10 shrink-0"
             :class="focusRing"
             @click="clearFilters"
           >
-            Clear
+            Clear filters
           </Button>
         </div>
 
@@ -543,17 +548,15 @@ function getHostname(url: string): string {
     </div>
 
     <!-- Platform Grid -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      <a
+    <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 m-0 p-0 list-none">
+      <li
         v-for="platform in filteredPlatforms"
         :key="platform.slug"
-        :href="`/${platform.slug}/`"
-        class="group relative flex h-full flex-col overflow-hidden rounded-lg border-1 border-line bg-surface-raised p-5 shadow-sm transition-shadow hover:shadow-md"
-        :class="focusRing"
+        class="group relative flex flex-col rounded-lg border-1 border-line bg-surface-raised py-4 pr-4 pl-[18px] shadow-sm transition-[box-shadow,border-color] duration-200 hover:border-chicago-300 hover:shadow-md has-[a:focus-visible]:outline-2 has-[a:focus-visible]:outline-offset-2 has-[a:focus-visible]:outline-solid has-[a:focus-visible]:outline-galaxy-primary"
       >
         <span
           aria-hidden="true"
-          class="absolute inset-y-0 left-0 w-1 origin-left scale-x-0 bg-galaxy-gold transition-transform duration-200 group-hover:scale-x-100 group-focus-visible:scale-x-100 motion-reduce:transition-none"
+          class="absolute top-3 bottom-3 -left-px w-[3px] scale-y-0 rounded-r-[2px] bg-galaxy-gold transition-transform duration-200 group-focus-within:scale-y-100 group-hover:scale-y-100 motion-reduce:transition-none"
         ></span>
         <div class="flex items-start gap-3">
           <img
@@ -575,8 +578,13 @@ function getHostname(url: string): string {
             {{ platformInitials(platform.title) }}
           </div>
           <div class="min-w-0 flex-1">
-            <h3 class="text-h3 font-semibold text-fg-strong break-words group-hover:text-link-hover">
-              {{ platform.title || 'Galaxy Server' }}
+            <h3 class="text-h3 font-semibold text-fg-strong break-words">
+              <a
+                :href="`/${platform.slug}/`"
+                class="text-inherit no-underline after:absolute after:inset-0 after:rounded-lg after:content-[''] focus-visible:outline-none group-hover:underline group-hover:decoration-galaxy-gold group-hover:decoration-2"
+              >
+                {{ platform.title || 'Galaxy Server' }}
+              </a>
             </h3>
             <div class="mt-1 flex flex-wrap items-center gap-x-2 gap-y-1">
               <span
@@ -591,7 +599,7 @@ function getHostname(url: string): string {
             </div>
           </div>
         </div>
-        <p v-if="platform.summaryHtml" class="mt-3 text-meta text-fg-2 line-clamp-3" v-html="platform.summaryHtml"></p>
+        <p v-if="platform.summaryHtml" class="mt-3 text-meta text-fg-2 line-clamp-3" v-html="teaserHtml(platform)"></p>
         <div class="mt-auto flex items-center justify-between gap-3 pt-3 text-meta text-fg-meta">
           <span v-if="platform.url" class="min-w-0 truncate">{{ getHostname(platform.url) }}</span>
           <span v-if="getLocationNames(platform)" class="flex min-w-0 shrink-0 items-center gap-1 max-w-[50%]">
@@ -599,8 +607,8 @@ function getHostname(url: string): string {
             <span class="truncate">{{ getLocationNames(platform) }}</span>
           </span>
         </div>
-      </a>
-    </div>
+      </li>
+    </ul>
 
     <!-- No results message -->
     <div
