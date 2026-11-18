@@ -1,3 +1,5 @@
+import { safeHref } from './url';
+
 const SCOPE_LABELS: Record<string, string> = {
   usegalaxy: 'UseGalaxy',
   domain: 'Domain specific',
@@ -26,6 +28,6 @@ export function platformInitials(title: string): string {
 
 /** True for a site path (not a remote URL) whose name says "logo"; other images are figures or screenshots. */
 export function isLogoPath(image: string | null | undefined): image is string {
-  if (!image || !image.startsWith('/') || image.startsWith('//')) return false;
+  if (!image || !image.startsWith('/') || safeHref(image) === undefined) return false;
   return /logo/i.test(image);
 }

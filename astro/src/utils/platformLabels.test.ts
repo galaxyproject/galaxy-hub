@@ -43,6 +43,13 @@ describe('isLogoPath', () => {
     expect(isLogoPath('/use/hcemm/hcemm-LOGO.png')).toBe(true);
   });
 
+  it('rejects paths the browser reads as another host', () => {
+    expect(isLogoPath('/\\evil.example/logo.png')).toBe(false);
+    expect(isLogoPath('/\t/evil.example/logo.png')).toBe(false);
+    expect(isLogoPath('/\n/evil.example/logo.png')).toBe(false);
+    expect(isLogoPath('/\\/evil.example/logo.png')).toBe(false);
+  });
+
   it('rejects figures, screenshots and anything that is not a site path', () => {
     expect(isLogoPath('/use/arga/arga-pipeline.png')).toBe(false);
     expect(isLogoPath('http://abims.sb-roscoff.fr/files/logos/abims-LD.png')).toBe(false);
