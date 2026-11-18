@@ -58,7 +58,7 @@ Feel free to add to this document or join someone else's project by adding your 
     </a>
 </div>
 
-### <i>Note that this is not the exhaustive list of projects for the CoFest!</i>
+**<i>Note that this is not the exhaustive list of projects for the CoFest!</i>**
 
 <p class="lead">
     <strong>
