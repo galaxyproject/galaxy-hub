@@ -3,6 +3,7 @@ import { getListedCollection } from '../../utils/content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PlatformDirectory from '../../components/platforms/PlatformDirectory.vue';
 import ServerCard from '../../components/use/ServerCard.astro';
+import LinkTile from '../../components/use/LinkTile.astro';
 import MapToggle from './map/MapToggle.vue';
 import { prepareMapPlatformData } from './map/mapDataUtils';
 import { loadToolNames, loadReferenceNames } from '../../utils/platformDatasets';
@@ -126,30 +127,30 @@ const mainServers = [
     </section>
 
     <!-- Additional Resources -->
-    <section class="mt-16 py-12 bg-ebony-clay-50 -mx-4 px-4 rounded-lg">
-      <div class="max-w-4xl mx-auto text-center">
-        <h2 class="text-2xl font-semibold text-galaxy-dark mb-4">Other Ways to Use Galaxy</h2>
-        <p class="text-chicago-600 mb-8">Can't find what you need? There are more options for running Galaxy.</p>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <a href="/admin/" class="block p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
-            <h3 class="font-semibold text-galaxy-dark mb-2">Run Your Own</h3>
-            <p class="text-sm text-chicago-600">Install and configure Galaxy on your own infrastructure.</p>
-          </a>
-          <a href="/cloud/" class="block p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
-            <h3 class="font-semibold text-galaxy-dark mb-2">Cloud Deployments</h3>
-            <p class="text-sm text-chicago-600">Deploy Galaxy on AWS, GCP, Azure, or other cloud platforms.</p>
-          </a>
-          <a
-            href="https://training.galaxyproject.org/"
-            target="_blank"
-            rel="noopener"
-            class="block p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
-          >
-            <h3 class="font-semibold text-galaxy-dark mb-2">Galaxy Training</h3>
-            <p class="text-sm text-chicago-600">Learn how to use Galaxy with our extensive tutorial library.</p>
-          </a>
-        </div>
-      </div>
+    <section class="mt-12">
+      <h2 class="mb-4 border-b border-line pb-2 text-h2 font-bold text-fg-strong">Other Ways to Use Galaxy</h2>
+      <p class="mb-6 text-fg-2">Can't find what you need? There are more options for running Galaxy.</p>
+      <ul class="m-0 grid list-none grid-cols-1 gap-4 p-0 md:grid-cols-3">
+        <LinkTile
+          href="/admin/"
+          icon="server"
+          title="Run Your Own"
+          description="Install and configure Galaxy on your own infrastructure."
+        />
+        <LinkTile
+          href="/cloud/"
+          icon="globe"
+          title="Cloud Deployments"
+          description="Deploy Galaxy on AWS, GCP, Azure, or other cloud platforms."
+        />
+        <LinkTile
+          href="https://training.galaxyproject.org/"
+          icon="book-open"
+          title="Galaxy Training"
+          description="Learn how to use Galaxy with our extensive tutorial library."
+          external
+        />
+      </ul>
     </section>
   </div>
 </BaseLayout>

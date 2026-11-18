@@ -1,0 +1,45 @@
+---
+/**
+ * Link tile for "Other ways to use Galaxy": icon, title, description and an arrow; the whole tile is one link.
+ */
+import Icon from '@/components/mdx/Icon.astro';
+
+interface Props {
+  href: string;
+  title: string;
+  description: string;
+  /** Lucide icon name. */
+  icon: string;
+  /** Opens another site in a new tab. */
+  external?: boolean;
+}
+
+const { href, title, description, icon, external = false } = Astro.props;
+---
+
+<li>
+  <a
+    href={href}
+    target={external ? '_blank' : undefined}
+    rel={external ? 'noopener' : undefined}
+    class="group flex h-full items-start gap-4 rounded-lg border-1 border-line bg-surface-raised p-4 shadow-sm transition-colors hover:border-line-strong hover:bg-surface-2 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-solid focus-visible:outline-focus"
+  >
+    <span
+      class="flex h-10 w-10 shrink-0 items-center justify-center rounded-md bg-surface-tint text-fg-brand"
+      aria-hidden="true"
+    >
+      <Icon name={icon} size={20} />
+    </span>
+    <span class="min-w-0 flex-1">
+      <span class="flex items-center gap-1.5 text-h4 font-semibold text-fg-strong">
+        {title}
+        {external && <span aria-hidden="true"><Icon name="external-link" size={14} /></span>}
+        {external && <span class="sr-only">(opens in a new tab)</span>}
+      </span>
+      <span class="mt-1 block text-meta text-fg-2">{description}</span>
+    </span>
+    <span class="mt-0.5 shrink-0 text-fg-brand transition-transform group-hover:translate-x-0.5" aria-hidden="true">
+      <Icon name="arrow-right" size={18} />
+    </span>
+  </a>
+</li>
