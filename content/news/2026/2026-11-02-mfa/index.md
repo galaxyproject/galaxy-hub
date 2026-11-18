@@ -45,7 +45,7 @@ My colleagues [Armin Dadras](https://github.com/dadrasarmin/) and [Wolfgang Maie
 
 Jessica tested extensively to identify where the tools needed improvements and what tweaks would make them even more useful on Galaxy.
 For this, Jessica's domain knowledge, insights and enthusiasm were essential.
-Once the tools were good to go, [Ivo Leist](https://github.com/IvoLeist/) ported them from the test status into Toolshed-ready tools.
+Once the tools were good to go, [Ivo Leist](https://github.com/IvoLeist/) ported them from the test status into Galaxy Toolshed-ready tools.
 (If you want to read more on the technical process, stay tuned for Jessica's second step of the journey!)
 Thanks to all of them, you can run [Montreal Forced Aligner](https://ssh.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fbgruening%2Fmfa_align%2Fmfa_align%2F3.4.2%2B0&version=latest) and [new-fave](https://ssh.usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/new_fave_extract/new_fave_extract/1.3.0+galaxy0) directly on Galaxy.
 
