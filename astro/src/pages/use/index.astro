@@ -47,7 +47,7 @@ for (const p of platforms) {
   }
 }
 
-// Main servers: logos come from the platform pages' `image` field; usegalaxy.ca has no logo yet.
+// Main servers: logos come from the platform pages' `image` field; usegalaxy.org.au (its image is a page screenshot) and usegalaxy.ca have no logo yet.
 const platformImage = (slug: string) => platforms.find((p) => p.data.slug === slug)?.data.image;
 const mainServers = [
   {
@@ -68,7 +68,7 @@ const mainServers = [
     name: 'UseGalaxy.org.au',
     description: 'Galaxy Australia serving the Oceania region with local support.',
     href: 'https://usegalaxy.org.au',
-    logo: platformImage('use/usegalaxy-au'),
+    mark: 'AU',
     detailsHref: '/use/usegalaxy-au/',
   },
   {

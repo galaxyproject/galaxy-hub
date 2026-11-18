@@ -30,14 +30,32 @@ test.describe('Use Galaxy page', () => {
       await expect(details).toHaveAccessibleName(`Server details for ${server.name}`);
     }
 
-    // Logos load for the three servers that have one; usegalaxy.ca shows a CA mark.
-    for (const i of [0, 1, 2]) {
+    // Logos load for the two servers that have one; .org.au and .ca show a short mark.
+    for (const i of [0, 1]) {
       const logo = cards.nth(i).locator('img');
       await expect.poll(() => logo.evaluate((img: HTMLImageElement) => img.naturalWidth)).toBeGreaterThan(0);
     }
-    await expect(cards.nth(3).locator('img')).toHaveCount(0);
-    await expect(cards.nth(3).getByText('CA', { exact: true })).toBeVisible();
+    for (const [i, mark] of [[2, 'AU'], [3, 'CA']] as const) {
+      await expect(cards.nth(i).locator('img')).toHaveCount(0);
+      await expect(cards.nth(i).getByText(mark, { exact: true })).toBeVisible();
+    }
   });
+
+  for (const width of [768, 1024, 1280, 1440]) {
+    test(`server cards keep their button inside the card at ${width}px`, async ({ page }) => {
+      await page.setViewportSize({ width, height: 900 });
+      await page.goto('/use/');
+      const cards = page.locator('section', { has: page.getByRole('heading', { name: 'Main UseGalaxy Servers' }) });
+      const items = await cards.getByRole('listitem').all();
+      expect(items).toHaveLength(4);
+      for (const item of items) {
+        const card = await item.boundingBox();
+        const button = await item.getByRole('link', { name: /^Start analyzing/ }).boundingBox();
+        expect(button && card && button.x + button.width <= card.x + card.width).toBe(true);
+        expect(button && card && button.x >= card.x).toBe(true);
+      }
+    });
+  }
 
   test('platform map toggle is a keyboard-operable disclosure button', async ({ page }) => {
     const toggle = page.getByRole('button', { name: 'Show Platform Map' });
