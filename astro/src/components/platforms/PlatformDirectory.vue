@@ -1,8 +1,12 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted, watch } from 'vue';
+import { Search } from '@lucide/vue';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
+import { focusRing } from '@/lib/focus-ring';
+import { countryName } from '@/utils/countryName';
+import { scopeLabel } from '@/utils/platformLabels';
 import { isOnPage, onPopState, readParams, writeParams } from '@/utils/urlFilters';
 
 interface Platform {
@@ -98,25 +102,28 @@ const scopes = computed(() => {
   return ['all', ...Array.from(uniqueScopes).sort()];
 });
 
+// Option counts: how many servers each value matches (a server counts once per value)
+function countBy(values: (p: Platform) => (string | null | undefined)[]): Map<string, number> {
+  const counts = new Map<string, number>();
+  for (const p of props.platforms) {
+    for (const value of new Set(values(p))) {
+      if (value) counts.set(value, (counts.get(value) ?? 0) + 1);
+    }
+  }
+  return counts;
+}
+
+const scopeCounts = computed(() => countBy((p) => [p.scope]));
+const locationCounts = computed(() => countBy((p) => p.platforms?.map((inst) => inst.platform_location) ?? []));
+const groupCounts = computed(() => countBy((p) => p.platforms?.map((inst) => inst.platform_group) ?? []));
+
+// platform_location holds ISO country codes (DE, US, UK, EU); the select shows them as names
 const locations = computed(() => {
-  const uniqueLocations = new Set<string>();
-  props.platforms.forEach((p) => {
-    p.platforms?.forEach((inst) => {
-      if (inst.platform_location) uniqueLocations.add(inst.platform_location);
-    });
-  });
-  return ['all', ...Array.from(uniqueLocations).sort()];
+  const codes = [...locationCounts.value.keys()].sort((a, b) => countryName(a).localeCompare(countryName(b)));
+  return ['all', ...codes];
 });
 
-const platformGroups = computed(() => {
-  const uniqueGroups = new Set<string>();
-  props.platforms.forEach((p) => {
-    p.platforms?.forEach((inst) => {
-      if (inst.platform_group) uniqueGroups.add(inst.platform_group);
-    });
-  });
-  return ['all', ...Array.from(uniqueGroups).sort()];
-});
+const platformGroups = computed(() => ['all', ...[...groupCounts.value.keys()].sort()]);
 
 // Lowercased name -> set of platform slugs, for tool:/reference: filtering
 const toolLookup = computed(() => buildLookup(props.toolIndex));
@@ -228,6 +235,31 @@ const filteredPlatforms = computed(() => {
   return sorted;
 });
 
+const selectClass = 'h-10 w-full rounded-md border-1 border-chicago-400 bg-surface-raised px-3 text-sm text-fg';
+
+function scopeOption(scope: string): string {
+  if (scope === 'all') return `All types (${props.platforms.length})`;
+  return `${scopeLabel(scope)} (${scopeCounts.value.get(scope)})`;
+}
+
+function locationOption(code: string): string {
+  if (code === 'all') return 'All locations';
+  return `${countryName(code)} (${locationCounts.value.get(code)})`;
+}
+
+function groupOption(group: string): string {
+  if (group === 'all') return 'All platforms';
+  return `${groupLabels[group] || group} (${groupCounts.value.get(group)})`;
+}
+
+const hasFilters = computed(
+  () =>
+    searchQuery.value.trim() !== '' ||
+    selectedScope.value !== 'all' ||
+    selectedLocation.value !== 'all' ||
+    selectedPlatformGroup.value !== 'all'
+);
+
 function clearFilters() {
   searchQuery.value = '';
   urlQuery.value = '';
@@ -236,6 +268,8 @@ function clearFilters() {
   selectedScope.value = 'all';
   selectedLocation.value = 'all';
   selectedPlatformGroup.value = 'all';
+  // The Clear buttons disappear once nothing is filtered; keep focus in the filters
+  document.getElementById('platform-filter-search')?.focus();
 }
 
 function selectSuggestion(suggestion: SearchSuggestion) {
@@ -352,16 +386,6 @@ watch(searchQuery, () => {
   showAutocomplete.value = filteredSuggestions.value.length > 0;
 });
 
-function getScopeLabel(scope: string): string {
-  const labels: Record<string, string> = {
-    usegalaxy: 'UseGalaxy',
-    domain: 'Domain Specific',
-    general: 'General Purpose',
-    'academic-cloud': 'Academic Cloud',
-  };
-  return labels[scope] || scope;
-}
-
 function getLocationFromPlatform(platform: Platform): string | null | undefined {
   return platform.platforms?.[0]?.platform_location;
 }
@@ -378,24 +402,37 @@ function getHostname(url: string): string {
 <template>
   <div class="platform-directory">
     <!-- Search and Filters -->
-    <div class="bg-white rounded-lg shadow-sm border border-ebony-clay-100 p-6 mb-8">
-      <div class="flex flex-col md:flex-row gap-4">
+    <div
+      role="group"
+      aria-label="Filter Galaxy servers"
+      class="bg-surface-2 rounded-lg border-1 border-line p-4 sm:p-5 mb-6"
+    >
+      <div class="flex flex-col gap-4">
         <!-- Search with tool: / reference: autocomplete -->
-        <div class="flex-1 relative">
-          <label class="block text-sm font-medium text-chicago-700 mb-1">Search</label>
-          <Input
-            v-model="searchQuery"
-            type="search"
-            placeholder="Search, tool:name, or reference:genome"
-            class="w-full"
-            autocomplete="off"
-            role="combobox"
-            aria-autocomplete="list"
-            aria-controls="platform-search-suggestions"
-            :aria-expanded="showAutocomplete"
-            @keydown="onSearchKeydown"
-            @blur="closeAutocomplete"
-          />
+        <div class="relative">
+          <label for="platform-filter-search" class="block text-sm font-medium text-fg-2 mb-1">Search servers</label>
+          <div class="relative">
+            <Search
+              :size="16"
+              aria-hidden="true"
+              class="pointer-events-none absolute top-1/2 left-3 z-10 -translate-y-1/2 text-fg-meta"
+            />
+            <Input
+              id="platform-filter-search"
+              v-model="searchQuery"
+              type="search"
+              placeholder="Search, tool:name, or reference:genome"
+              class="h-10 w-full border-chicago-400 bg-surface-raised pl-9"
+              :class="focusRing"
+              autocomplete="off"
+              role="combobox"
+              aria-autocomplete="list"
+              aria-controls="platform-search-suggestions"
+              :aria-expanded="showAutocomplete"
+              @keydown="onSearchKeydown"
+              @blur="closeAutocomplete"
+            />
+          </div>
 
           <!-- Autocomplete dropdown -->
           <ul
@@ -437,58 +474,42 @@ function getHostname(url: string): string {
           </p>
         </div>
 
-        <!-- Scope Filter -->
-        <div class="w-full md:w-48">
-          <label for="platform-filter-type" class="block text-sm font-medium text-chicago-700 mb-1">Type</label>
-          <select
-            id="platform-filter-type"
-            v-model="selectedScope"
-            class="w-full h-10 rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
-          >
-            <option v-for="scope in scopes" :key="scope" :value="scope">
-              {{ scope === 'all' ? 'All Types' : getScopeLabel(scope) }}
-            </option>
-          </select>
-        </div>
+        <div class="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-end">
+          <!-- Scope Filter -->
+          <div class="min-w-0 flex-1 sm:min-w-44">
+            <label for="platform-filter-type" class="block text-sm font-medium text-fg-2 mb-1">Type</label>
+            <select id="platform-filter-type" v-model="selectedScope" :class="[selectClass, focusRing]">
+              <option v-for="scope in scopes" :key="scope" :value="scope">{{ scopeOption(scope) }}</option>
+            </select>
+          </div>
 
-        <!-- Location Filter -->
-        <div class="w-full md:w-48">
-          <label for="platform-filter-location" class="block text-sm font-medium text-chicago-700 mb-1">Location</label>
-          <select
-            id="platform-filter-location"
-            v-model="selectedLocation"
-            class="w-full h-10 rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
-          >
-            <option v-for="loc in locations" :key="loc" :value="loc">
-              {{ loc === 'all' ? 'All Locations' : loc }}
-            </option>
-          </select>
-        </div>
+          <!-- Location Filter -->
+          <div class="min-w-0 flex-1 sm:min-w-44">
+            <label for="platform-filter-location" class="block text-sm font-medium text-fg-2 mb-1">Location</label>
+            <select id="platform-filter-location" v-model="selectedLocation" :class="[selectClass, focusRing]">
+              <option v-for="loc in locations" :key="loc" :value="loc">{{ locationOption(loc) }}</option>
+            </select>
+          </div>
 
-        <!-- Platform Group Filter -->
-        <div class="w-full md:w-48">
-          <label for="platform-filter-platform" class="block text-sm font-medium text-chicago-700 mb-1">Platform</label>
-          <select
-            id="platform-filter-platform"
-            v-model="selectedPlatformGroup"
-            class="w-full h-10 rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
-          >
-            <option v-for="group in platformGroups" :key="group" :value="group">
-              {{ group === 'all' ? 'All Platforms' : groupLabels[group] || group }}
-            </option>
-          </select>
-        </div>
+          <!-- Platform Group Filter -->
+          <div class="min-w-0 flex-1 sm:min-w-44">
+            <label for="platform-filter-platform" class="block text-sm font-medium text-fg-2 mb-1">Platform</label>
+            <select id="platform-filter-platform" v-model="selectedPlatformGroup" :class="[selectClass, focusRing]">
+              <option v-for="group in platformGroups" :key="group" :value="group">{{ groupOption(group) }}</option>
+            </select>
+          </div>
 
-        <!-- Clear Filters -->
-        <div class="flex items-end">
-          <Button variant="outline" @click="clearFilters" class="h-10"> Clear </Button>
+          <!-- Clear Filters: only while a filter is active -->
+          <Button v-if="hasFilters" variant="outline" class="h-10 shrink-0" :class="focusRing" @click="clearFilters">
+            Clear filters
+          </Button>
         </div>
       </div>
 
       <!-- Results count -->
-      <div class="mt-4 text-sm text-chicago-600">
+      <p class="mt-4 text-meta text-fg-meta" aria-live="polite" aria-atomic="true">
         Showing {{ filteredPlatforms.length }} of {{ platforms.length }} Galaxy servers
-      </div>
+      </p>
     </div>
 
     <!-- Platform Grid -->
@@ -504,7 +525,7 @@ function getHostname(url: string): string {
                 v-if="platform.scope"
                 class="text-xs px-2 py-1 rounded-full bg-galaxy-primary/10 text-galaxy-primary"
               >
-                {{ getScopeLabel(platform.scope) }}
+                {{ scopeLabel(platform.scope) }}
               </span>
             </div>
           </CardHeader>
