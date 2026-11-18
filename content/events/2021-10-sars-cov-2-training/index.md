@@ -11,7 +11,6 @@ gtn: true
 tags: [covid-19, workshop, talk, training]
 contact: "Instructors"
 subsites: [all]
-autotoc: false
 contributions:
   funding:
     - eu

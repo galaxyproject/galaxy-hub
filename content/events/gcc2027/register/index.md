@@ -2,7 +2,6 @@
 title: "GCC2027 Registration"
 nav_title: Register
 nav_order: 2
-autotoc: false
 ---
 
 <style>

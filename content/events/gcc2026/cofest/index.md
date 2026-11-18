@@ -1,5 +1,4 @@
 ---
-autotoc: false
 components: true
 ---
 
