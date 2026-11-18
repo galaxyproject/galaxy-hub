@@ -8,7 +8,7 @@ platforms:
     platform_text: "UseGalaxy Europe"
     platform_location: DE
 summary: "The free public European Galaxy server"
-image: "/use/usegalaxy-eu/useGalaxy.eu.512.png"
+image: "/images/logos/useGalaxy.eu.svg"
 comments:
   - "Strong on genomics; community-specific subdomains; interactive environments. See the [project website](https://galaxyproject.eu/) for more."
   - "List of [installed tools in UseGalaxy.eu](https://galaxyproject.eu/tools)."
