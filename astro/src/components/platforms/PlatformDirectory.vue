@@ -1,8 +1,11 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted, watch } from 'vue';
+import { Inbox, MapPin, Search } from '@lucide/vue';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
-import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
+import { focusRing } from '@/lib/focus-ring';
+import { countryName } from '@/utils/countryName';
+import { isLogoPath, platformInitials, scopeLabel } from '@/utils/platformLabels';
 import { isOnPage, onPopState, readParams, writeParams } from '@/utils/urlFilters';
 
 interface Platform {
@@ -98,25 +101,28 @@ const scopes = computed(() => {
   return ['all', ...Array.from(uniqueScopes).sort()];
 });
 
+// Option counts: how many servers each value matches (a server counts once per value)
+function countBy(values: (p: Platform) => (string | null | undefined)[]): Map<string, number> {
+  const counts = new Map<string, number>();
+  for (const p of props.platforms) {
+    for (const value of new Set(values(p))) {
+      if (value) counts.set(value, (counts.get(value) ?? 0) + 1);
+    }
+  }
+  return counts;
+}
+
+const scopeCounts = computed(() => countBy((p) => [p.scope]));
+const locationCounts = computed(() => countBy((p) => p.platforms?.map((inst) => inst.platform_location) ?? []));
+const groupCounts = computed(() => countBy((p) => p.platforms?.map((inst) => inst.platform_group) ?? []));
+
+// platform_location holds ISO country codes (DE, US, UK, EU); the select shows them as names
 const locations = computed(() => {
-  const uniqueLocations = new Set<string>();
-  props.platforms.forEach((p) => {
-    p.platforms?.forEach((inst) => {
-      if (inst.platform_location) uniqueLocations.add(inst.platform_location);
-    });
-  });
-  return ['all', ...Array.from(uniqueLocations).sort()];
+  const codes = [...locationCounts.value.keys()].sort((a, b) => countryName(a).localeCompare(countryName(b)));
+  return ['all', ...codes];
 });
 
-const platformGroups = computed(() => {
-  const uniqueGroups = new Set<string>();
-  props.platforms.forEach((p) => {
-    p.platforms?.forEach((inst) => {
-      if (inst.platform_group) uniqueGroups.add(inst.platform_group);
-    });
-  });
-  return ['all', ...Array.from(uniqueGroups).sort()];
-});
+const platformGroups = computed(() => ['all', ...[...groupCounts.value.keys()].sort()]);
 
 // Lowercased name -> set of platform slugs, for tool:/reference: filtering
 const toolLookup = computed(() => buildLookup(props.toolIndex));
@@ -228,6 +234,31 @@ const filteredPlatforms = computed(() => {
   return sorted;
 });
 
+const selectClass = 'h-10 w-full rounded-md border-1 border-chicago-400 bg-surface-raised px-3 text-sm text-fg';
+
+function scopeOption(scope: string): string {
+  if (scope === 'all') return `All types (${props.platforms.length})`;
+  return `${scopeLabel(scope)} (${scopeCounts.value.get(scope)})`;
+}
+
+function locationOption(code: string): string {
+  if (code === 'all') return 'All locations';
+  return `${countryName(code)} (${locationCounts.value.get(code)})`;
+}
+
+function groupOption(group: string): string {
+  if (group === 'all') return 'All platforms';
+  return `${groupLabels[group] || group} (${groupCounts.value.get(group)})`;
+}
+
+const hasFilters = computed(
+  () =>
+    searchQuery.value.trim() !== '' ||
+    selectedScope.value !== 'all' ||
+    selectedLocation.value !== 'all' ||
+    selectedPlatformGroup.value !== 'all'
+);
+
 function clearFilters() {
   searchQuery.value = '';
   urlQuery.value = '';
@@ -236,6 +267,8 @@ function clearFilters() {
   selectedScope.value = 'all';
   selectedLocation.value = 'all';
   selectedPlatformGroup.value = 'all';
+  // The Clear buttons disappear once nothing is filtered; keep focus in the filters
+  document.getElementById('platform-filter-search')?.focus();
 }
 
 function selectSuggestion(suggestion: SearchSuggestion) {
@@ -352,18 +385,36 @@ watch(searchQuery, () => {
   showAutocomplete.value = filteredSuggestions.value.length > 0;
 });
 
-function getScopeLabel(scope: string): string {
-  const labels: Record<string, string> = {
-    usegalaxy: 'UseGalaxy',
-    domain: 'Domain Specific',
-    general: 'General Purpose',
-    'academic-cloud': 'Academic Cloud',
-  };
-  return labels[scope] || scope;
+function unique(values: (string | null | undefined)[]): string[] {
+  return [...new Set(values.filter((value): value is string => Boolean(value)))];
 }
 
-function getLocationFromPlatform(platform: Platform): string | null | undefined {
-  return platform.platforms?.[0]?.platform_location;
+function getGroupLabels(platform: Platform): string {
+  return unique(platform.platforms?.map((inst) => inst.platform_group) ?? [])
+    .map((group) => groupLabels[group] || group)
+    .join(', ');
+}
+
+function getLocationNames(platform: Platform): string {
+  return unique(platform.platforms?.map((inst) => inst.platform_location) ?? [])
+    .map(countryName)
+    .join(', ');
+}
+
+// The stretched title link covers the card, so links inside the summary keep only their text
+function teaserHtml(platform: Platform): string {
+  return (platform.summaryHtml ?? '').replace(/<\/?a\b[^>]*>/gi, '');
+}
+
+// Only site image paths with "logo" in them (e.g. /images/logos/...) are shown, other images are figures; a logo that fails to load falls back too
+const brokenLogos = ref(new Set<string>());
+
+function showLogo(platform: Platform): boolean {
+  return isLogoPath(platform.image) && !brokenLogos.value.has(platform.slug);
+}
+
+function onLogoError(platform: Platform) {
+  brokenLogos.value = new Set(brokenLogos.value).add(platform.slug);
 }
 
 function getHostname(url: string): string {
@@ -378,173 +429,202 @@ function getHostname(url: string): string {
 <template>
   <div class="platform-directory">
     <!-- Search and Filters -->
-    <div class="bg-white rounded-lg shadow-sm border border-ebony-clay-100 p-6 mb-8">
-      <div class="flex flex-col md:flex-row gap-4">
-        <!-- Search with tool: / reference: autocomplete -->
-        <div class="flex-1 relative">
-          <label class="block text-sm font-medium text-chicago-700 mb-1">Search</label>
-          <Input
-            v-model="searchQuery"
-            type="search"
-            placeholder="Search, tool:name, or reference:genome"
-            class="w-full"
-            autocomplete="off"
-            role="combobox"
-            aria-autocomplete="list"
-            aria-controls="platform-search-suggestions"
-            :aria-expanded="showAutocomplete"
-            @keydown="onSearchKeydown"
-            @blur="closeAutocomplete"
-          />
+    <div
+      role="group"
+      aria-label="Filter Galaxy servers"
+      class="bg-surface-2 rounded-lg border-1 border-line p-[16px] sm:p-[20px] mb-6"
+    >
+      <div class="flex flex-col gap-4">
+        <!-- Search with tool: / reference: autocomplete; Clear sits beside it so the suggestions never cover it -->
+        <div class="flex items-start gap-3">
+          <div class="relative min-w-0 flex-1">
+            <label for="platform-filter-search" class="block text-sm font-medium text-fg-2 mb-1">Search servers</label>
+            <div class="relative">
+              <Search
+                :size="16"
+                aria-hidden="true"
+                class="pointer-events-none absolute top-1/2 left-3 z-10 -translate-y-1/2 text-fg-meta"
+              />
+              <Input
+                id="platform-filter-search"
+                v-model="searchQuery"
+                type="search"
+                placeholder="Search, tool:name, or reference:genome"
+                class="h-10 w-full border-chicago-400 bg-surface-raised pl-9"
+                :class="focusRing"
+                autocomplete="off"
+                role="combobox"
+                aria-autocomplete="list"
+                aria-controls="platform-search-suggestions"
+                :aria-expanded="showAutocomplete"
+                @keydown="onSearchKeydown"
+                @blur="closeAutocomplete"
+              />
+            </div>
 
-          <!-- Autocomplete dropdown -->
-          <ul
-            v-if="showAutocomplete && filteredSuggestions.length > 0"
-            id="platform-search-suggestions"
-            role="listbox"
-            class="absolute z-30 mt-1 max-h-72 w-full overflow-y-auto rounded-md border border-ebony-clay-200 bg-white py-1 shadow-lg"
-          >
-            <li
-              v-for="(suggestion, index) in filteredSuggestions"
-              :key="`${suggestion.type}-${suggestion.name}`"
-              role="option"
-              :aria-selected="index === selectedSuggestionIndex"
-              class="flex cursor-pointer items-center justify-between gap-3 px-3 py-2 text-sm hover:bg-ebony-clay-50"
-              :class="{ 'bg-ebony-clay-100': index === selectedSuggestionIndex }"
-              @mouseenter="selectedSuggestionIndex = index"
-              @mousedown.prevent="selectSuggestion(suggestion)"
+            <!-- Autocomplete dropdown -->
+            <ul
+              v-if="showAutocomplete && filteredSuggestions.length > 0"
+              id="platform-search-suggestions"
+              role="listbox"
+              class="absolute z-30 mt-1 max-h-72 w-full overflow-y-auto rounded-md border border-ebony-clay-200 bg-white py-1 shadow-lg"
             >
-              <span class="min-w-0 truncate text-chicago-800">{{ suggestion.name }}</span>
-              <span
-                class="shrink-0 rounded-full px-2 py-0.5 text-xs"
-                :class="
-                  suggestion.type === 'tool'
-                    ? 'bg-galaxy-primary/10 text-galaxy-primary'
-                    : 'bg-green-100 text-green-800'
-                "
+              <li
+                v-for="(suggestion, index) in filteredSuggestions"
+                :key="`${suggestion.type}-${suggestion.name}`"
+                role="option"
+                :aria-selected="index === selectedSuggestionIndex"
+                class="flex cursor-pointer items-center justify-between gap-3 px-3 py-2 text-sm hover:bg-ebony-clay-50"
+                :class="{ 'bg-ebony-clay-100': index === selectedSuggestionIndex }"
+                @mouseenter="selectedSuggestionIndex = index"
+                @mousedown.prevent="selectSuggestion(suggestion)"
               >
-                {{ suggestion.badge }}
-              </span>
-            </li>
-          </ul>
+                <span class="min-w-0 truncate text-chicago-800">{{ suggestion.name }}</span>
+                <span
+                  class="shrink-0 rounded-full px-2 py-0.5 text-xs"
+                  :class="
+                    suggestion.type === 'tool'
+                      ? 'bg-galaxy-primary/10 text-galaxy-primary'
+                      : 'bg-green-100 text-green-800'
+                  "
+                >
+                  {{ suggestion.badge }}
+                </span>
+              </li>
+            </ul>
 
-          <!-- Active tool/reference search indicator -->
-          <p v-if="isToolSearch" class="mt-1 text-xs text-galaxy-primary">
-            Tool search: “{{ searchQuery.trim().slice(5).trim() }}”
-          </p>
-          <p v-else-if="isReferenceSearch" class="mt-1 text-xs text-green-700">
-            Reference search: “{{ searchQuery.trim().slice(10).trim() }}”
-          </p>
-        </div>
+            <!-- Active tool/reference search indicator -->
+            <p v-if="isToolSearch" class="mt-1 text-xs text-galaxy-primary">
+              Tool search: “{{ searchQuery.trim().slice(5).trim() }}”
+            </p>
+            <p v-else-if="isReferenceSearch" class="mt-1 text-xs text-green-700">
+              Reference search: “{{ searchQuery.trim().slice(10).trim() }}”
+            </p>
+          </div>
 
-        <!-- Scope Filter -->
-        <div class="w-full md:w-48">
-          <label for="platform-filter-type" class="block text-sm font-medium text-chicago-700 mb-1">Type</label>
-          <select
-            id="platform-filter-type"
-            v-model="selectedScope"
-            class="w-full h-10 rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
+          <!-- Clear Filters: only while a filter is active (the empty state has its own button) -->
+          <Button
+            v-if="hasFilters && filteredPlatforms.length > 0"
+            variant="outline"
+            class="mt-6 h-10 shrink-0"
+            :class="focusRing"
+            @click="clearFilters"
           >
-            <option v-for="scope in scopes" :key="scope" :value="scope">
-              {{ scope === 'all' ? 'All Types' : getScopeLabel(scope) }}
-            </option>
-          </select>
+            Clear filters
+          </Button>
         </div>
 
-        <!-- Location Filter -->
-        <div class="w-full md:w-48">
-          <label for="platform-filter-location" class="block text-sm font-medium text-chicago-700 mb-1">Location</label>
-          <select
-            id="platform-filter-location"
-            v-model="selectedLocation"
-            class="w-full h-10 rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
-          >
-            <option v-for="loc in locations" :key="loc" :value="loc">
-              {{ loc === 'all' ? 'All Locations' : loc }}
-            </option>
-          </select>
-        </div>
+        <div class="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-end">
+          <!-- Scope Filter -->
+          <div class="min-w-0 flex-1 sm:min-w-44">
+            <label for="platform-filter-type" class="block text-sm font-medium text-fg-2 mb-1">Type</label>
+            <select id="platform-filter-type" v-model="selectedScope" :class="[selectClass, focusRing]">
+              <option v-for="scope in scopes" :key="scope" :value="scope">{{ scopeOption(scope) }}</option>
+            </select>
+          </div>
 
-        <!-- Platform Group Filter -->
-        <div class="w-full md:w-48">
-          <label for="platform-filter-platform" class="block text-sm font-medium text-chicago-700 mb-1">Platform</label>
-          <select
-            id="platform-filter-platform"
-            v-model="selectedPlatformGroup"
-            class="w-full h-10 rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
-          >
-            <option v-for="group in platformGroups" :key="group" :value="group">
-              {{ group === 'all' ? 'All Platforms' : groupLabels[group] || group }}
-            </option>
-          </select>
-        </div>
+          <!-- Location Filter -->
+          <div class="min-w-0 flex-1 sm:min-w-44">
+            <label for="platform-filter-location" class="block text-sm font-medium text-fg-2 mb-1">Location</label>
+            <select id="platform-filter-location" v-model="selectedLocation" :class="[selectClass, focusRing]">
+              <option v-for="loc in locations" :key="loc" :value="loc">{{ locationOption(loc) }}</option>
+            </select>
+          </div>
 
-        <!-- Clear Filters -->
-        <div class="flex items-end">
-          <Button variant="outline" @click="clearFilters" class="h-10"> Clear </Button>
+          <!-- Platform Group Filter -->
+          <div class="min-w-0 flex-1 sm:min-w-44">
+            <label for="platform-filter-platform" class="block text-sm font-medium text-fg-2 mb-1">Platform</label>
+            <select id="platform-filter-platform" v-model="selectedPlatformGroup" :class="[selectClass, focusRing]">
+              <option v-for="group in platformGroups" :key="group" :value="group">{{ groupOption(group) }}</option>
+            </select>
+          </div>
         </div>
       </div>
 
       <!-- Results count -->
-      <div class="mt-4 text-sm text-chicago-600">
+      <p class="mt-[16px] text-meta text-fg-meta" aria-live="polite" aria-atomic="true">
         Showing {{ filteredPlatforms.length }} of {{ platforms.length }} Galaxy servers
-      </div>
+      </p>
     </div>
 
     <!-- Platform Grid -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      <a v-for="platform in filteredPlatforms" :key="platform.slug" :href="`/${platform.slug}/`" class="block group">
-        <Card class="h-full hover:shadow-md transition-shadow border-t-4 border-t-galaxy-primary">
-          <CardHeader class="pb-2">
-            <div class="flex items-start justify-between">
-              <CardTitle class="text-lg text-chicago-900 group-hover:text-galaxy-primary transition-colors">
+    <ul class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 m-0 p-0 list-none">
+      <li
+        v-for="platform in filteredPlatforms"
+        :key="platform.slug"
+        class="group relative flex flex-col rounded-lg border-1 border-line bg-surface-raised py-4 pr-4 pl-[18px] shadow-[0_1px_2px_rgb(0_0_0/0.05)] transition-[box-shadow,border-color] duration-200 hover:border-chicago-300 hover:shadow-[0_4px_6px_rgb(0_0_0/0.08)] has-[a:focus-visible]:outline-2 has-[a:focus-visible]:outline-offset-2 has-[a:focus-visible]:outline-solid has-[a:focus-visible]:outline-galaxy-primary"
+      >
+        <span
+          aria-hidden="true"
+          class="absolute top-3 bottom-3 -left-px w-[3px] scale-y-0 rounded-r-[2px] bg-galaxy-gold transition-transform duration-200 group-focus-within:scale-y-100 group-hover:scale-y-100 motion-reduce:transition-none"
+        ></span>
+        <div class="flex items-start gap-3">
+          <img
+            v-if="showLogo(platform)"
+            :src="platform.image ?? undefined"
+            alt=""
+            width="96"
+            height="40"
+            loading="lazy"
+            decoding="async"
+            class="h-10 w-24 shrink-0 rounded-md bg-[#f3f4f6] object-contain object-left p-1"
+            @error="onLogoError(platform)"
+          />
+          <div
+            v-else
+            aria-hidden="true"
+            class="flex size-10 shrink-0 items-center justify-center rounded-md bg-surface-tint text-sm font-bold text-fg-brand"
+          >
+            {{ platformInitials(platform.title) }}
+          </div>
+          <div class="min-w-0 flex-1">
+            <h3 class="text-h3 font-semibold text-fg-strong break-words">
+              <a
+                :href="`/${platform.slug}/`"
+                class="text-inherit no-underline after:absolute after:inset-0 after:rounded-lg after:content-[''] focus-visible:outline-none group-hover:underline group-hover:decoration-galaxy-gold group-hover:decoration-2"
+              >
                 {{ platform.title || 'Galaxy Server' }}
-              </CardTitle>
+              </a>
+            </h3>
+            <div class="mt-1 flex flex-wrap items-center gap-x-2 gap-y-1">
               <span
                 v-if="platform.scope"
-                class="text-xs px-2 py-1 rounded-full bg-galaxy-primary/10 text-galaxy-primary"
+                class="rounded-full bg-surface-tint px-2 py-0.5 text-micro font-bold text-fg-brand"
               >
-                {{ getScopeLabel(platform.scope) }}
+                {{ scopeLabel(platform.scope) }}
+              </span>
+              <span v-if="getGroupLabels(platform)" class="text-meta text-fg-meta">
+                {{ getGroupLabels(platform) }}
               </span>
             </div>
-          </CardHeader>
-          <CardContent>
-            <p
-              v-if="platform.summaryHtml"
-              class="text-sm text-chicago-600 line-clamp-3 mb-3 prose prose-sm max-w-none"
-              v-html="platform.summaryHtml"
-            ></p>
-            <div class="flex items-center justify-between text-xs text-chicago-500">
-              <span v-if="platform.url" class="truncate max-w-[60%]">
-                {{ getHostname(platform.url) }}
-              </span>
-              <span v-if="getLocationFromPlatform(platform)" class="flex items-center gap-1">
-                <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                  ></path>
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                  ></path>
-                </svg>
-                {{ getLocationFromPlatform(platform) }}
-              </span>
-            </div>
-          </CardContent>
-        </Card>
-      </a>
-    </div>
+          </div>
+        </div>
+        <p
+          v-if="platform.summaryHtml"
+          class="mt-[12px] text-meta text-fg-2 line-clamp-3"
+          v-html="teaserHtml(platform)"
+        ></p>
+        <div class="mt-auto flex items-center justify-between gap-3 pt-3 text-meta text-fg-meta">
+          <span v-if="platform.url" class="min-w-0 truncate">{{ getHostname(platform.url) }}</span>
+          <span v-if="getLocationNames(platform)" class="flex min-w-0 shrink-0 items-center gap-1 max-w-[50%]">
+            <MapPin :size="14" aria-hidden="true" class="shrink-0" />
+            <span class="truncate">{{ getLocationNames(platform) }}</span>
+          </span>
+        </div>
+      </li>
+    </ul>
 
     <!-- No results message -->
-    <div v-if="filteredPlatforms.length === 0" class="text-center py-12">
-      <p class="text-chicago-500 mb-4">No Galaxy servers found matching your criteria.</p>
-      <Button variant="outline" @click="clearFilters">Clear Filters</Button>
+    <div
+      v-if="filteredPlatforms.length === 0"
+      class="flex flex-col items-center rounded-lg border-1 border-dashed border-chicago-400 bg-surface-2 px-4 py-12 text-center"
+    >
+      <Inbox :size="32" aria-hidden="true" class="mb-[12px] text-fg-meta" />
+      <h3 class="text-h3 font-semibold text-fg-strong">No Galaxy servers found</h3>
+      <p class="mt-1 mb-[16px] text-fg-2">
+        Nothing matches your search and filters. Try fewer filters or a different word.
+      </p>
+      <Button variant="outline" :class="focusRing" @click="clearFilters">Clear filters</Button>
     </div>
   </div>
 </template>
