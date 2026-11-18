@@ -5,7 +5,6 @@ external_url: ""
 date: "2022-01-14"
 source_blog: ""
 source_blog_url: ""
-autotoc: false
 site: InterGalactic Ministry of Truth
 contributions:
   authorship:

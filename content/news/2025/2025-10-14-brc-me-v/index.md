@@ -8,7 +8,6 @@ hide_tease: false
 tags:
 - paper
 - brc-analytics
-autotoc: false
 components: true
 contributions:
   authorship:

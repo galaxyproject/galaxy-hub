@@ -3,7 +3,6 @@ title: The new Storage dashboard
 date: "2022-03-25"
 tease: "New pull request from David López merged: Add Storage dashboard"
 hide_tease: true
-autotoc: false
 tags: ['ui-ux', 'feature', 'highlight']
 subsites: [global]
 contributions:
