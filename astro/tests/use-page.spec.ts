@@ -53,6 +53,11 @@ test.describe('Use Galaxy page', () => {
     await expect(page.getByRole('button', { name: 'Show Platform Map' })).toHaveAttribute('aria-expanded', 'false');
   });
 
+  test('directory cards do not nest links inside links', async ({ page }) => {
+    await expect(page.getByRole('combobox', { name: 'Type' })).toBeVisible();
+    await expect(page.locator('a a')).toHaveCount(0);
+  });
+
   test('other ways to use Galaxy are link tiles', async ({ page }) => {
     const section = page.locator('section', { has: page.getByRole('heading', { name: 'Other Ways to Use Galaxy' }) });
     await expect(section.getByRole('link', { name: /^Run Your Own/ })).toHaveAttribute('href', '/admin/');
