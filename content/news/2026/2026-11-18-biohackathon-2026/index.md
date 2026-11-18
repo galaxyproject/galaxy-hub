@@ -13,7 +13,7 @@ contributions:
   authorship:
     - anuprulez
     - arash77
-    - Minamehr
+    - minamehr
     - RZ9082
   funding:
     - elixir-europe
