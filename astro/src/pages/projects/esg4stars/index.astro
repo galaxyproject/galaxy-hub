@@ -12,7 +12,6 @@ import ProjectFunding from '../../../components/projects/ProjectFunding.astro';
 import ProjectColumns from '../../../components/projects/ProjectColumns.astro';
 import ProjectSection from '../../../components/projects/ProjectSection.astro';
 import ProjectRows from '../../../components/projects/ProjectRows.astro';
-import TableOfContents from '../../../components/layout/TableOfContents.astro';
 import { getEntry, render } from 'astro:content';
 import { getInsert } from '../../../utils/content';
 import { countryName } from '../../../utils/countryName';
@@ -89,7 +88,7 @@ const headings = [
       counts={{ [newsHref]: news.length }}
     />
 
-    <ProjectColumns>
+    <ProjectColumns headings={headings}>
       <Fragment slot="lead">
         <ProjectEndedNotice name={project.name} facts={project.facts} />
         <ProjectFactsBox
@@ -108,8 +107,6 @@ const headings = [
           partnerCount={project.partnerCount}
         />
       </Fragment>
-
-      <TableOfContents slot="toc" headings={headings} />
 
       <div class="prose prose-galaxy max-w-none">
         <Summary />
