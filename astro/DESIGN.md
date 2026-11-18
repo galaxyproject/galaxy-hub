@@ -283,6 +283,22 @@ Brand-tinted note box for asides and "good to know" content. Replaces Bootstrap 
 
 `.callout`: `bg-bay-of-many-100`, `border-l-4 border-l-galaxy-primary`, rounded right corners, galaxy-dark text.
 
+### Date Badge
+
+A highlighted date: a coloured label joined to the date, in a bordered pill. Used for "Save the date" in a conference hero and for a sub-event's dates (e.g. CoFest). Add an optional subtitle under the date:
+
+```html
+<div class="gx-date-badge">
+  <span class="gx-date-badge__label">CoFest</span>
+  <span class="gx-date-badge__value">
+    June&nbsp;30 – July&nbsp;1, 2027
+    <span class="gx-date-badge__sub">Wednesday – Thursday, right after the conference</span>
+  </span>
+</div>
+```
+
+`gx-date-badge` sits inline; centre it with a wrapping flex container. When there isn't room for both halves side by side, the label wraps above the date. Use `&nbsp;` inside a date (`June&nbsp;30`) so it only breaks between parts.
+
 ### Key Dates Table
 
 Dated milestones (openings, deadlines, results) as a plain Markdown table. `gx-dates` expects three columns, **Date | status icon | What**; wrap the table in it (blank lines around it so Markdown renders):
