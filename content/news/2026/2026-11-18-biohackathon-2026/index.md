@@ -22,7 +22,7 @@ contributions:
     - deNBI
 ---
 
-At BioHackathon Europe 2026 (November 9-13, 2026, Campus Belloch), contributors from across the research software and
+At BioHackathon Europe 2026 (November 9-13, 2026, Campus Belloch, Spain), contributors from across the research software and
 life-science communities worked together on three projects. Their work ranged from porting workflows from ecosystem to another, 
 laying the foundations for a collaborative microbiome knowledge graph and integrating AI resources for model execution.
 
