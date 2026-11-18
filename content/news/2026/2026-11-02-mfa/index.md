@@ -32,7 +32,7 @@ But the field is vast, and it was clear to me from the start that I would need l
 I would need to transport my vision of DH's galactic journey (more than the status quo) if I wanted to build a community.
 
 One of the people who saw this vision early on was [Jessica Wallace](https://github.com/wallajess). 
-She is a researcher in the English Department at the University of Freiburg, is involved in the University's [Digital Humanities Lab]() and has previously worked with the [NFDI consortium Text+](https://text-plus.org/). 
+She is a researcher in the English Department at the University of Freiburg, is involved in the University's [Digital Humanities Lab](https://digitalhumanities.uni-freiburg.de/dh-lab) and has previously worked with the [NFDI consortium Text+](https://text-plus.org/). 
 We had met several times - mostly around meetings of the University of Freiburg's [Central Data Facility (CDF)](https://uni-freiburg.de/cdf-en/) when I pitched her my vision. 
 She accepted the challenge to create one of her usual linguistics workflows on Galaxy and
 suggested adding two command-line tools: 
