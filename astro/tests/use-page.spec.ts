@@ -42,7 +42,7 @@ test.describe('Use Galaxy page', () => {
   });
 
   for (const width of [768, 1024, 1280, 1440]) {
-    test(`server cards keep their button inside the card at ${width}px`, async ({ page }) => {
+    test(`server cards keep their button on one line inside the card at ${width}px`, async ({ page }) => {
       await page.setViewportSize({ width, height: 900 });
       await page.goto('/use/');
       const cards = page.locator('section', { has: page.getByRole('heading', { name: 'Main UseGalaxy Servers' }) });
@@ -53,6 +53,8 @@ test.describe('Use Galaxy page', () => {
         const button = await item.getByRole('link', { name: /^Start analyzing/ }).boundingBox();
         expect(button && card && button.x + button.width <= card.x + card.width).toBe(true);
         expect(button && card && button.x >= card.x).toBe(true);
+        // One line is 40px tall (min-h-10); a wrapped label is taller.
+        expect(button && button.height <= 40).toBe(true);
       }
     });
   }
