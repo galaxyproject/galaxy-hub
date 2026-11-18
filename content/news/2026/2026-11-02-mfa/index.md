@@ -36,7 +36,7 @@ suggested adding two command-line tools:
 [Montreal Forced Aligner (MFA)](https://montreal-forced-aligner.readthedocs.io/) and [new fave](https://pypi.org/project/new-fave/).
 
 ## Adding new linguistics tools: Montreal Forced Aligner and new fave
-[I think here a short introduction of the tools should follow]
+The Montreal Forced Aligner breaks speech down into individual speech sounds and aligns these with their corresponding transcription. New fave can use this output to extract the vowel measurements for further analysis.
 
 Both are command-line tools, meaning researchers need a certain programming knowledge to use them.
 This can be a barrier. 
