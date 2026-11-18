@@ -1,6 +1,6 @@
 ---
 title: "Use Galaxy from Your AI Agent"
-tease: "Pick your harness — Claude Code, Codex CLI, Antigravity, Claude Desktop, Pi, or Cursor — and connect to Galaxy in three clear steps (A, B, C)."
+tease: "Pick your agent — Orbit, Claude Code, Codex CLI, Antigravity, Claude Desktop, Pi, or Cursor — and connect to Galaxy in four clear numbered steps."
 subsites: [all]
 components: true
 autotoc: false
@@ -12,31 +12,86 @@ generated_from: https://github.com/galaxyproject/agentic-plugins/blob/main/scrip
 
 <HarnessGuides>
 
+<HarnessGuide id="orbit" name="Orbit" source="https://github.com/galaxyproject/galaxy-hub/blob/main/content/agents/orbit/index.md" sourceLabel="the Orbit guide in galaxy-hub">
+
+<div class="hstep">
+<div class="hstep__badge not-prose" aria-hidden="true">2</div>
+<div class="hstep__body">
+
+#### <span class="hstep__kicker">Step 2</span> Get your Galaxy key and a model key
+
+- **Galaxy API key:** On [usegalaxy.org](https://usegalaxy.org) *(or [usegalaxy.eu](https://usegalaxy.eu) / [usegalaxy.org.au](https://usegalaxy.org.au))*, open **User › Preferences › Manage API Key** → **Create a new key**.
+- **Custom tools on UseGalaxy.org *(optional)*:** Request [User-Defined Tools beta access](https://udt-signup.galaxyproject.org/) (~30s). Standard tools work immediately while we approve.
+- **Model provider:** Grab an API key from [Anthropic](https://console.anthropic.com/) (`claude-sonnet-4-6` recommended), [OpenAI](https://platform.openai.com/), [Google Gemini](https://aistudio.google.com/), or [DeepSeek](https://platform.deepseek.com/) — or sign in with an existing **ChatGPT Plus / Pro** subscription inside Orbit.
+
+</div>
+</div>
+
+<div class="hstep">
+<div class="hstep__badge not-prose" aria-hidden="true">3</div>
+<div class="hstep__body">
+
+#### <span class="hstep__kicker">Step 3</span> Download Orbit and enter your keys
+
+**[Orbit](/agents/orbit/)** is Galaxy's standalone desktop app — **`galaxy-mcp` and `galaxy-skills` are already built in** (no terminal required):
+
+1. Download the installer for macOS (`.dmg`), Linux (`.deb` / `.rpm` / `.zip`), or Windows (`.zip`) from **[Orbit Releases](https://github.com/galaxyproject/orbit/releases/latest)** and open **Orbit**.
+2. Press **`Cmd+,`** (`Ctrl+,` on Linux/Windows) to open **Preferences**:
+   - **Provider:** paste your model key *(or choose **OpenAI Codex** → **Sign in with ChatGPT**)* and pick a default model.
+   - **Galaxy:** enter `https://usegalaxy.org` (no `/api`) and paste your Galaxy API key → **Save** *(footer indicator turns green)*.
+
+</div>
+</div>
+
+<div class="hstep">
+<div class="hstep__badge not-prose" aria-hidden="true">4</div>
+<div class="hstep__body">
+
+#### <span class="hstep__kicker">Step 4</span> Verify and run
+
+Start a session and ask:
+
+```
+Connect to Galaxy and tell me who I am.
+```
+
+Orbit confirms your Galaxy account and attaches to a history. Describe your analysis — Orbit drafts a plan for your approval, executes on Galaxy (including custom containerized UDTs), and records every decision in your notebook. Full tour & model guide: **[galaxyproject.org/agents/orbit/](/agents/orbit/)**.
+
+</div>
+</div>
+
+<details>
+<summary>Model switching, Windows WSL2 & troubleshooting</summary>
+
+- **Switch models mid-session:** plan on a frontier model, then switch to a cheaper model for execution via the footer selector, `Cmd/Ctrl+,`, or `/model <exact-id>` (e.g. `/model claude-sonnet-4-6`).
+- **Windows local shell (WSL2):** native `Orbit.exe` runs all steps remotely on Galaxy; for local shell execution on Windows 11 (WSLg), install `orbit_<version>_amd64.deb` inside Ubuntu WSL2 (`chmod 600 ~/.loom/config.json`).
+- **Troubleshooting & feedback:** if the footer Galaxy dot stays grey/red, check **Preferences › Galaxy** (omit `/api`; match key to server). Report issues via Orbit's **Feedback** button or **[GitHub Discussions (`Agents & UDTs`)](https://github.com/galaxyproject/galaxy/discussions/categories/agents-udts)**.
+
+</details>
+
+</HarnessGuide>
+
 <HarnessGuide id="claude-code" name="Claude Code" source="https://github.com/galaxyproject/agentic-plugins/blob/main/docs/claude-code.md">
 
-Connects [Claude Code](https://code.claude.com) to Galaxy with the `galaxy-mcp`
-server (48 Galaxy tools) and curated `galaxy-skills`.
+<div class="hstep">
+<div class="hstep__badge not-prose" aria-hidden="true">2</div>
+<div class="hstep__body">
 
-#### Step A · Get your Galaxy API key and request UDT access
+#### <span class="hstep__kicker">Step 2</span> Get your Galaxy API key
 
-1. **API key:** Log in to [usegalaxy.org](https://usegalaxy.org) (or
-   [usegalaxy.eu](https://usegalaxy.eu), [usegalaxy.org.au](https://usegalaxy.org.au),
-   or your institution's server) → **User › Preferences › Manage API Key** →
-   **Create a new key** → copy it. *(Keep it out of chat; Claude Code saves it in
-   your system keychain in Step B.)*
-2. **User-Defined Tools beta (UseGalaxy.org):** Submit the 30-second form at
-   **[udt-signup.galaxyproject.org](https://udt-signup.galaxyproject.org/)**
-   with your UseGalaxy.org email *(optional ORCID sign-in speeds review)*. All
-   installed Galaxy tools and workflows work immediately; once approved, Claude
-   can also write and run custom containerized YAML tools (`create_user_tool` /
-   `run_user_tool`).
+- **Galaxy API key:** On [usegalaxy.org](https://usegalaxy.org) *(or [usegalaxy.eu](https://usegalaxy.eu) / [usegalaxy.org.au](https://usegalaxy.org.au))*, open **User › Preferences › Manage API Key** → **Create a new key**.
+- **Custom tools on UseGalaxy.org *(optional)*:** Request [User-Defined Tools beta access](https://udt-signup.galaxyproject.org/) (~30s). Standard tools and workflows work immediately while we approve.
 
-#### Step B · Install in Claude Code
+</div>
+</div>
 
-**Needs:** Claude Code (`claude --version`) and [uv](https://docs.astral.sh/uv/)
-on your `PATH` (`uv --version`).
+<div class="hstep">
+<div class="hstep__badge not-prose" aria-hidden="true">3</div>
+<div class="hstep__body">
 
-Run inside Claude Code:
+#### <span class="hstep__kicker">Step 3</span> Install the Galaxy plugins
+
+Requires [Claude Code](https://code.claude.com) and [uv](https://docs.astral.sh/uv/) (`uv --version`). Run inside Claude Code:
 
 ```
 /plugin marketplace add galaxyproject/agentic-plugins
@@ -44,56 +99,47 @@ Run inside Claude Code:
 /plugin install galaxy-skills@galaxyproject
 ```
 
-Installing `galaxy-mcp` prompts for your **Galaxy URL** (default
-`https://usegalaxy.org`, no `/api`) and **API key**. **Start a new Claude Code
-session afterwards.**
+Enter your **Galaxy URL** (default `https://usegalaxy.org`, no `/api`) and **API key** when prompted (saved to your keychain), then **start a new Claude Code session**.
 
-Building Galaxy XML wrappers or Workflow Foundry casts? Add only what you need
-(every installed skill adds its description to each turn's context):
+</div>
+</div>
+
+<div class="hstep">
+<div class="hstep__badge not-prose" aria-hidden="true">4</div>
+<div class="hstep__body">
+
+#### <span class="hstep__kicker">Step 4</span> Verify and run
+
+Check `/mcp` shows `galaxy` **connected**, then ask:
+
+```
+Connect to Galaxy and tell me who I am.
+```
+
+Claude calls `get_user` and confirms your account. Then ask in plain language — upload reads, run IWC workflows, write JupyterLite (`gxy`) notebooks, rebuild scratch histories (`reproduciblify`), or author containerized YAML tools (`udt-authoring`).
+
+</div>
+</div>
+
+<details>
+<summary>Optional developer skills, CLI install, updates & troubleshooting</summary>
+
+##### Optional plugins (tool wrappers & workflow engineering)
+
+Install only if you author ToolShed XML wrappers or Workflow Foundry pipelines (every skill adds to per-turn context):
 
 ```
 /plugin install galaxy-dev-skills@galaxyproject
 /plugin install foundry-skills@galaxyproject
 ```
 
-#### Step C · Verify and run
+##### Slash commands
 
-1. Run `/mcp` (`galaxy` shows **connected**), then ask:
+Claude selects skills automatically, or call them directly: `/galaxy-mcp:galaxy-connect`, `/galaxy-skills:galaxy-integration`, `/galaxy-skills:galaxy-mcp-reference`, `/galaxy-skills:collection-manipulation`, `/galaxy-skills:udt-authoring`, `/galaxy-skills:workflow-reports`, `/galaxy-skills:reproduciblify`.
 
-   ```
-   Connect to Galaxy and tell me who I am.
-   ```
+##### Terminal install, updates & reconfiguration
 
-   Claude calls `get_user` and reports your Galaxy username and account details.
-   *(If anything fails, run `/galaxy-mcp:galaxy-connect`.)*
-2. Ask for real work in plain language — uploading FASTQs, running IWC
-   workflows, writing in-Galaxy JupyterLite (`gxy`) notebooks, rebuilding
-   scratch histories (`reproduciblify`), or authoring containerized UDTs.
-
-<details>
-<summary>Skills, terminal install, updates, and reconfiguration</summary>
-
-##### Invoke skills directly or in plain language
-
-Claude picks skills automatically from your prompt, or you can invoke them with `/`:
-
-| Command | Purpose |
-|---------|---------|
-| `/galaxy-mcp:galaxy-connect` | Diagnose or verify the Galaxy connection |
-| `/galaxy-skills:galaxy-integration` | Choose between MCP, JupyterLite (`gxy`), and BioBlend scripts |
-| `/galaxy-skills:galaxy-mcp-reference` | Galaxy MCP tool catalog and ID pitfalls |
-| `/galaxy-skills:collection-manipulation` | Filter, sort, relabel, and reshape dataset collections |
-| `/galaxy-skills:udt-authoring` | Author validated `GalaxyUserTool` YAML definitions |
-| `/galaxy-skills:workflow-reports` | Draft Galaxy Workflow Editor report templates |
-| `/galaxy-skills:reproduciblify` | Rebuild a messy history into a clean, workflow-extractable analysis |
-| `/galaxy-dev-skills:tool-dev` | Author and test ToolShed XML wrappers (`galaxy-dev-skills`) |
-| `/galaxy-dev-skills:nf-to-galaxy` | Convert Nextflow modules and pipelines (`galaxy-dev-skills`) |
-| `/foundry-skills:pipeline-nextflow-to-galaxy` | End-to-end Nextflow-to-Galaxy Foundry pipeline (`foundry-skills`) |
-
-##### Install from a terminal (or headlessly)
-
-On Claude Code 2.1.275+, `--marketplace` adds the marketplace automatically
-(export `GALAXY_API_KEY` first so the secret stays out of shell history):
+Headless install (Claude Code 2.1.275+, with `GALAXY_API_KEY` exported):
 
 ```bash
 claude plugin install galaxy-mcp --marketplace galaxyproject/agentic-plugins \
@@ -102,23 +148,9 @@ claude plugin install galaxy-mcp --marketplace galaxyproject/agentic-plugins \
 claude plugin install galaxy-skills@galaxyproject
 ```
 
-##### Change URL/key or update
+Reconfigure anytime via `/plugin configure galaxy-mcp@galaxyproject` (then restart). Update via `/plugin marketplace update galaxyproject` followed by `/plugin update galaxy-mcp@galaxyproject` and `/plugin update galaxy-skills@galaxyproject`.
 
-Reconfigure anytime with `/plugin configure galaxy-mcp@galaxyproject` (then
-start a new session). Update installed plugins with:
-
-```
-/plugin marketplace update galaxyproject
-/plugin update galaxy-mcp@galaxyproject
-/plugin update galaxy-skills@galaxyproject
-```
-
-</details>
-
-<details>
-<summary>Manual MCP setup and troubleshooting</summary>
-
-##### Register `galaxy-mcp` without the plugin
+##### Manual MCP setup (without plugins) & troubleshooting
 
 ```bash
 claude mcp add --scope user galaxy \
@@ -127,12 +159,8 @@ claude mcp add --scope user galaxy \
   -- uvx galaxy-mcp
 ```
 
-##### Troubleshooting
-
-- **No `galaxy` server in `/mcp`**: start a new session after installing; confirm `uv --version` works.
-- **Server fails on first start**: run `uvx galaxy-mcp` in a terminal to inspect the error (first run needs network access to fetch `galaxy-mcp` from PyPI).
-- **"Plugin option galaxy_api_key isn't set"** or **"Missing Galaxy URL and API key"**: run `/plugin configure galaxy-mcp@galaxyproject` and fill in both fields, or place `GALAXY_URL` and `GALAXY_API_KEY` in a project `.env` file.
-- **"Provided API key is not valid"**: keys are per Galaxy server; create or copy the key from the matching server and reconfigure.
+- **No `galaxy` in `/mcp`:** start a new session after installing; check `uv --version`.
+- **Key or URL error:** run `/plugin configure galaxy-mcp@galaxyproject` (keys are per Galaxy server; omit `/api` from URL) or run `/galaxy-mcp:galaxy-connect`.
 
 </details>
 
@@ -140,32 +168,31 @@ claude mcp add --scope user galaxy \
 
 <HarnessGuide id="codex" name="Codex CLI" source="https://github.com/galaxyproject/agentic-plugins/blob/main/docs/codex.md">
 
-Connects [OpenAI Codex CLI](https://developers.openai.com/codex/cli) to Galaxy
-with the `galaxy-mcp` server (48 Galaxy tools) and curated `galaxy-skills`.
+<div class="hstep">
+<div class="hstep__badge not-prose" aria-hidden="true">2</div>
+<div class="hstep__body">
 
-#### Step A · Get your Galaxy API key, request UDT access, and export credentials
+#### <span class="hstep__kicker">Step 2</span> Get your Galaxy API key and export it
 
-1. **API key:** Log in to [usegalaxy.org](https://usegalaxy.org) (or
-   [usegalaxy.eu](https://usegalaxy.eu), [usegalaxy.org.au](https://usegalaxy.org.au),
-   or your institution's server) → **User › Preferences › Manage API Key** →
-   **Create a new key** → copy it.
-2. **User-Defined Tools beta (UseGalaxy.org):** Submit the 30-second form at
-   **[udt-signup.galaxyproject.org](https://udt-signup.galaxyproject.org/)**
-   with your UseGalaxy.org email *(optional ORCID sign-in speeds review)*. Basic
-   tools and workflows work immediately while we approve UDT access.
-3. **Export credentials:** Codex forwards `GALAXY_URL` (no `/api`) and
-   `GALAXY_API_KEY` from your shell. Add both to `~/.zshrc` or `~/.bashrc` (then
-   open a new terminal), or place them in a project `.env` file (gitignored):
+- **Galaxy API key:** On [usegalaxy.org](https://usegalaxy.org) *(or [usegalaxy.eu](https://usegalaxy.eu) / [usegalaxy.org.au](https://usegalaxy.org.au))*, open **User › Preferences › Manage API Key** → **Create a new key**.
+- **Custom tools on UseGalaxy.org *(optional)*:** Request [User-Defined Tools beta access](https://udt-signup.galaxyproject.org/) (~30s). Standard tools work immediately while we approve.
+- **Export in your shell** (`~/.zshrc` / `~/.bashrc`, then open a new terminal — or put in a gitignored `.env`):
 
-   ```bash
-   export GALAXY_URL="https://usegalaxy.org"
-   export GALAXY_API_KEY="paste-your-key-here"
-   ```
+```bash
+export GALAXY_URL="https://usegalaxy.org"
+export GALAXY_API_KEY="paste-your-key-here"
+```
 
-#### Step B · Install in Codex CLI
+</div>
+</div>
 
-**Needs:** Codex CLI (`codex --version`) and [uv](https://docs.astral.sh/uv/) on
-your `PATH` (`uv --version`).
+<div class="hstep">
+<div class="hstep__badge not-prose" aria-hidden="true">3</div>
+<div class="hstep__body">
+
+#### <span class="hstep__kicker">Step 3</span> Install the Galaxy plugins
+
+Requires [Codex CLI](https://developers.openai.com/codex/cli) and [uv](https://docs.astral.sh/uv/) (`uv --version`):
 
 ```bash
 codex plugin marketplace add galaxyproject/agentic-plugins
@@ -175,60 +202,41 @@ codex plugin add galaxy-skills@galaxyproject
 
 **Start a new `codex` session afterwards.**
 
-Building Galaxy XML wrappers or Workflow Foundry casts? Add only what you need
-(every installed skill adds to per-turn context):
+</div>
+</div>
+
+<div class="hstep">
+<div class="hstep__badge not-prose" aria-hidden="true">4</div>
+<div class="hstep__body">
+
+#### <span class="hstep__kicker">Step 4</span> Verify and run
+
+Ask Codex (approve the one-time MCP prompt on first call):
+
+```
+Connect to Galaxy and tell me who I am.
+```
+
+Codex calls `get_user` and confirms your account. Then ask in plain language — upload reads, run IWC workflows, write JupyterLite (`gxy`) notebooks, rebuild histories (`$reproduciblify`), or author containerized YAML tools (`$udt-authoring`).
+
+</div>
+</div>
+
+<details>
+<summary>Optional developer skills, manual config, updates & troubleshooting</summary>
+
+##### Optional plugins (tool wrappers & workflow engineering)
 
 ```bash
 codex plugin add galaxy-dev-skills@galaxyproject
 codex plugin add foundry-skills@galaxyproject
 ```
 
-#### Step C · Verify and run
+##### Direct `$skill` invocation & updates
 
-1. Run `codex mcp list` (or `/mcp` inside Codex — `galaxy` shows `enabled`),
-   then ask:
+Invoke any skill with `$` (e.g. `$galaxy-connect`, `$udt-authoring`, `$reproduciblify`, `$collection-manipulation`). Update with `codex plugin marketplace upgrade` then re-run `codex plugin add ...`; remove with `codex plugin remove <name>@galaxyproject`.
 
-   ```
-   Connect to Galaxy and tell me who I am.
-   ```
-
-   Approve the MCP tool prompt on first use — Codex calls `get_user` and reports
-   your Galaxy username and account details. *(If anything fails, type
-   `$galaxy-connect`.)*
-2. Ask in plain language — upload FASTQs, run IWC workflows, write in-Galaxy
-   JupyterLite (`gxy`) notebooks, rebuild scratch histories (`$reproduciblify`),
-   or author containerized UDTs (`$udt-authoring`).
-
-<details>
-<summary>Skills, updates, and removing plugins</summary>
-
-##### Use the skills
-
-Codex picks skills automatically from your prompt, or you can invoke them with
-`$` (or `/skills`): `$galaxy-connect`, `$galaxy-integration`,
-`$jupyterlite-galaxy`, `$galaxy-mcp-reference`, `$collection-manipulation`,
-`$udt-authoring`, `$workflow-reports`, `$reproduciblify` (plus `$tool-dev` and
-`$nf-to-galaxy` if `galaxy-dev-skills` is installed).
-
-##### Update or remove
-
-```bash
-codex plugin marketplace upgrade
-codex plugin add galaxy-mcp@galaxyproject
-codex plugin add galaxy-skills@galaxyproject
-```
-
-Remove any plugin with `codex plugin remove <name>@galaxyproject`.
-
-</details>
-
-<details>
-<summary>Manual MCP setup and troubleshooting</summary>
-
-##### Register `galaxy-mcp` without the plugin
-
-Add to `~/.codex/config.toml` (forwards variables from your shell without writing
-your key to disk):
+##### Manual `~/.codex/config.toml` & troubleshooting
 
 ```toml
 [mcp_servers.galaxy]
@@ -237,12 +245,8 @@ args = ["galaxy-mcp"]
 env_vars = ["GALAXY_URL", "GALAXY_API_KEY"]
 ```
 
-##### Troubleshooting
-
-- **No `galaxy` server in `/mcp`**: start a new Codex session; verify `uv --version`.
-- **"Missing Galaxy URL and API key"**: variables were not exported in the shell that launched Codex (common with GUI launchers). Put `GALAXY_URL` and `GALAXY_API_KEY` in a project `.env` file or export them before running `codex`.
-- **Server fails to start**: run `uvx galaxy-mcp` in a terminal to see the underlying error.
-- **"Provided API key is not valid"**: the key belongs to a different Galaxy server or was revoked.
+- **Missing URL / key error:** confirm `GALAXY_URL` (no `/api`) and `GALAXY_API_KEY` are exported in the shell that launched `codex`, or place them in `.env`.
+- **No `galaxy` in `codex mcp list`:** start a new session and verify `uv --version`.
 
 </details>
 
@@ -250,34 +254,31 @@ env_vars = ["GALAXY_URL", "GALAXY_API_KEY"]
 
 <HarnessGuide id="antigravity" name="Antigravity" source="https://github.com/galaxyproject/agentic-plugins/blob/main/docs/antigravity.md">
 
-Connects Google [Antigravity](https://antigravity.google) (`agy` CLI and IDE,
-sharing `~/.gemini/config/`) to Galaxy with the `galaxy-mcp` server (48 Galaxy
-tools) and curated `galaxy-skills`.
+<div class="hstep">
+<div class="hstep__badge not-prose" aria-hidden="true">2</div>
+<div class="hstep__body">
 
-#### Step A · Get your Galaxy API key, request UDT access, and export credentials
+#### <span class="hstep__kicker">Step 2</span> Get your Galaxy API key and export it
 
-1. **API key:** Log in to [usegalaxy.org](https://usegalaxy.org) (or
-   [usegalaxy.eu](https://usegalaxy.eu), [usegalaxy.org.au](https://usegalaxy.org.au),
-   or your institution's server) → **User › Preferences › Manage API Key** →
-   **Create a new key** → copy it.
-2. **User-Defined Tools beta (UseGalaxy.org):** Submit the 30-second form at
-   **[udt-signup.galaxyproject.org](https://udt-signup.galaxyproject.org/)**
-   with your UseGalaxy.org email *(optional ORCID sign-in speeds review)*. Basic
-   tools and workflows work immediately while we approve UDT access.
-3. **Export credentials:** Add both variables to `~/.zshrc` or `~/.bashrc` (then
-   open a new terminal), or place them in a workspace `.env` file (recommended
-   when launching the Antigravity IDE from the Dock, which may not read
-   `~/.zshrc`):
+- **Galaxy API key:** On [usegalaxy.org](https://usegalaxy.org) *(or [usegalaxy.eu](https://usegalaxy.eu) / [usegalaxy.org.au](https://usegalaxy.org.au))*, open **User › Preferences › Manage API Key** → **Create a new key**.
+- **Custom tools on UseGalaxy.org *(optional)*:** Request [User-Defined Tools beta access](https://udt-signup.galaxyproject.org/) (~30s). Standard tools work immediately while we approve.
+- **Export in `~/.zshrc` / `~/.bashrc`** *(or put in a workspace `.env` when launching the Antigravity IDE from the Dock)*:
 
-   ```bash
-   export GALAXY_URL="https://usegalaxy.org"
-   export GALAXY_API_KEY="paste-your-key-here"
-   ```
+```bash
+export GALAXY_URL="https://usegalaxy.org"
+export GALAXY_API_KEY="paste-your-key-here"
+```
 
-#### Step B · Install in Antigravity
+</div>
+</div>
 
-**Needs:** Antigravity (`agy --version` or IDE), [uv](https://docs.astral.sh/uv/)
-on your `PATH`, and `git`.
+<div class="hstep">
+<div class="hstep__badge not-prose" aria-hidden="true">3</div>
+<div class="hstep__body">
+
+#### <span class="hstep__kicker">Step 3</span> Install the Galaxy plugins
+
+Requires [Antigravity](https://antigravity.google) (`agy` CLI or IDE), [uv](https://docs.astral.sh/uv/), and `git`:
 
 ```bash
 git clone https://github.com/galaxyproject/agentic-plugins.git ~/.galaxy-agentic-plugins
@@ -287,59 +288,39 @@ agy plugin install ~/.galaxy-agentic-plugins/plugins/galaxy-skills
 
 **Start a new session afterwards.**
 
-Building Galaxy XML wrappers or Workflow Foundry casts? Add only what you need:
+</div>
+</div>
+
+<div class="hstep">
+<div class="hstep__badge not-prose" aria-hidden="true">4</div>
+<div class="hstep__body">
+
+#### <span class="hstep__kicker">Step 4</span> Verify and run
+
+Check `/mcp` shows `galaxy-mcp_galaxy` **running**, then ask:
+
+```
+Connect to Galaxy and tell me who I am.
+```
+
+Antigravity calls `get_user` and confirms your account. Then ask in plain language — upload reads, run IWC workflows, write JupyterLite (`gxy`) notebooks, rebuild histories (`/reproduciblify`), or author containerized YAML tools (`/udt-authoring`).
+
+</div>
+</div>
+
+<details>
+<summary>Optional developer skills, manual config, updates & troubleshooting</summary>
+
+##### Optional plugins & updates
 
 ```bash
 agy plugin install ~/.galaxy-agentic-plugins/plugins/galaxy-dev-skills
 agy plugin install ~/.galaxy-agentic-plugins/plugins/foundry-skills
 ```
 
-#### Step C · Verify and run
+Update anytime with `git -C ~/.galaxy-agentic-plugins pull` and re-run `agy plugin install ...`. Inspect with `agy plugin list` or remove with `agy plugin uninstall <name>`.
 
-1. Type `/mcp` (`galaxy-mcp_galaxy` shows **running**), then ask:
-
-   ```
-   Connect to Galaxy and tell me who I am.
-   ```
-
-   The agent calls `get_user` and reports your Galaxy username and account
-   details. *(If anything fails, run `/galaxy-connect`.)*
-2. Ask in plain language — upload FASTQs, run IWC workflows, write in-Galaxy
-   JupyterLite (`gxy`) notebooks, rebuild scratch histories (`/reproduciblify`),
-   or author containerized UDTs (`/udt-authoring`).
-
-<details>
-<summary>Skills, workspace scoping, and updates</summary>
-
-##### Use the skills
-
-Run `/skills` or type `/<skill-name>` — `/galaxy-connect`, `/galaxy-integration`,
-`/galaxy-mcp-reference`, `/collection-manipulation`, `/udt-authoring`,
-`/workflow-reports`, `/reproduciblify` (plus `/tool-dev` and `/nf-to-galaxy`
-from `galaxy-dev-skills`). Nested sub-skills such as `jupyterlite-galaxy` are
-loaded automatically through their parent skill.
-
-To scope a plugin to one workspace instead of installing globally, copy its
-folder into `<workspace>/.agents/plugins/`.
-
-##### Update or remove
-
-```bash
-git -C ~/.galaxy-agentic-plugins pull
-agy plugin install ~/.galaxy-agentic-plugins/plugins/galaxy-mcp
-agy plugin install ~/.galaxy-agentic-plugins/plugins/galaxy-skills
-```
-
-Use `agy plugin list` to inspect installed plugins and `agy plugin uninstall <name>` to remove one.
-
-</details>
-
-<details>
-<summary>Manual MCP setup and troubleshooting</summary>
-
-##### Register `galaxy-mcp` without the plugin
-
-(`${VAR}` placeholders inside `mcp_config.json` are not expanded by Antigravity; pass values via `--env` from an exported shell variable instead, and skip installing the `galaxy-mcp` plugin so the server is not registered twice.)
+##### Manual MCP setup & troubleshooting
 
 ```bash
 agy mcp add --env GALAXY_URL=https://usegalaxy.org \
@@ -347,12 +328,8 @@ agy mcp add --env GALAXY_URL=https://usegalaxy.org \
             galaxy uvx galaxy-mcp
 ```
 
-##### Troubleshooting
-
-- **No `galaxy-mcp_galaxy` in `/mcp`**: start a new session; check `agy plugin list` and `uv --version`.
-- **"Missing Galaxy URL and API key"**: GUI IDE launches often miss `~/.zshrc`; add `GALAXY_URL` and `GALAXY_API_KEY` to a workspace `.env` file or register via `agy mcp add --env` above.
-- **Server fails to start**: run `uvx galaxy-mcp` in a terminal to inspect the error.
-- **"Provided API key is not valid"**: key belongs to a different Galaxy server or was revoked.
+- **Missing URL / key in the GUI IDE:** Dock launches often skip `~/.zshrc`; add `GALAXY_URL` and `GALAXY_API_KEY` to your workspace `.env` or use `agy mcp add --env` above (do not install `galaxy-mcp` plugin at the same time).
+- **Connection check:** run `/galaxy-connect` or test `uvx galaxy-mcp` in a terminal.
 
 </details>
 
@@ -360,65 +337,59 @@ agy mcp add --env GALAXY_URL=https://usegalaxy.org \
 
 <HarnessGuide id="claude-desktop" name="Claude Desktop" source="https://github.com/galaxyproject/agentic-plugins/blob/main/docs/claude-desktop.md">
 
-Connects [Claude Desktop](https://claude.com/download) to Galaxy as a
-**one-click bundle** (48 Galaxy MCP tools: histories, datasets, tools, IWC
-workflows, and User-Defined Tools). **No terminal or Python install required.**
+<div class="hstep">
+<div class="hstep__badge not-prose" aria-hidden="true">2</div>
+<div class="hstep__body">
 
-*(Agent Skills apply only to coding agents — Claude Desktop uses the MCP tools directly.)*
+#### <span class="hstep__kicker">Step 2</span> Get your Galaxy API key
 
-#### Step A · Get your Galaxy API key and request UDT access
+- **Galaxy API key:** On [usegalaxy.org](https://usegalaxy.org) *(or [usegalaxy.eu](https://usegalaxy.eu) / [usegalaxy.org.au](https://usegalaxy.org.au))*, open **User › Preferences › Manage API Key** → **Create a new key**.
+- **Custom tools on UseGalaxy.org *(optional)*:** Request [User-Defined Tools beta access](https://udt-signup.galaxyproject.org/) (~30s). Standard tools work immediately while we approve.
 
-1. **API key:** Log in to [usegalaxy.org](https://usegalaxy.org) (or
-   [usegalaxy.eu](https://usegalaxy.eu), [usegalaxy.org.au](https://usegalaxy.org.au),
-   or your institution's server) → **User › Preferences › Manage API Key** →
-   **Create a new key** → copy it. *(Keep it out of chat; Claude Desktop stores
-   it in your system keychain in Step B.)*
-2. **User-Defined Tools beta (UseGalaxy.org):** Submit the 30-second form at
-   **[udt-signup.galaxyproject.org](https://udt-signup.galaxyproject.org/)**
-   with your UseGalaxy.org email *(optional ORCID sign-in speeds review)*. Basic
-   tools and workflows work immediately; once approved, Claude can also create
-   and run custom containerized tools (`create_user_tool` / `run_user_tool`).
+</div>
+</div>
 
-#### Step B · Install the one-click bundle
+<div class="hstep">
+<div class="hstep__badge not-prose" aria-hidden="true">3</div>
+<div class="hstep__body">
 
-1. Download **`galaxy-mcp.mcpb`** from the
-   [latest release](https://github.com/galaxyproject/agentic-plugins/releases/latest)
-   and double-click it (or drag onto Claude Desktop / **Settings › Extensions ›
-   Advanced settings › Install Extension…**).
-2. In the install dialog, fill in **Galaxy URL** (default `https://usegalaxy.org`,
-   no `/api`) and **Galaxy API key**, then click **Install**. *(First start takes
-   ~30–60 seconds while Claude Desktop's built-in runtime downloads `galaxy-mcp`.)*
+#### <span class="hstep__kicker">Step 3</span> Open the one-click bundle
 
-#### Step C · Verify and run
+No terminal or Python install required *(connects the 48 Galaxy MCP tools directly)*:
 
-Start a new chat and ask:
+1. Download **`galaxy-mcp.mcpb`** from the **[latest release](https://github.com/galaxyproject/agentic-plugins/releases/latest)** and double-click it *(or drag onto [Claude Desktop](https://claude.com/download))*.
+2. Enter your **Galaxy URL** (default `https://usegalaxy.org`, no `/api`) and **Galaxy API key**, then click **Install** *(first start takes ~30–60s)*.
+
+</div>
+</div>
+
+<div class="hstep">
+<div class="hstep__badge not-prose" aria-hidden="true">4</div>
+<div class="hstep__body">
+
+#### <span class="hstep__kicker">Step 4</span> Verify and run
+
+Open a new chat and ask:
 
 ```
 Connect to Galaxy and tell me who I am.
 ```
 
-Claude calls `get_user` and reports your Galaxy username and account details.
-Then ask it to inspect histories, upload datasets, launch IWC workflows, or
-author and run User-Defined Tools.
+Claude calls `get_user` and confirms your account. Then ask it to inspect histories, upload datasets, launch IWC workflows, or create and run containerized YAML tools.
+
+</div>
+</div>
 
 <details>
-<summary>Reconfigure, update, manual setup, and troubleshooting</summary>
+<summary>Reconfigure, update, manual JSON config & troubleshooting</summary>
 
-##### Change the Galaxy URL or API key
+##### Reconfigure or update
 
-Open **Settings › Extensions › Galaxy › Configure**, update your values, and
-start a new chat.
+Update credentials under **Settings › Extensions › Galaxy › Configure**. Upgrade anytime by opening a newer `galaxy-mcp.mcpb` from [Releases](https://github.com/galaxyproject/agentic-plugins/releases/latest).
 
-##### Update
+##### Manual `claude_desktop_config.json` (without `.mcpb`)
 
-Download the newest `galaxy-mcp.mcpb` from the
-[releases page](https://github.com/galaxyproject/agentic-plugins/releases/latest)
-and open it — Claude Desktop upgrades in place and keeps your credentials.
-
-##### Manual config (without `.mcpb` bundle)
-
-Requires [uv](https://docs.astral.sh/uv/) on your `PATH`. Add to
-`claude_desktop_config.json` (**Settings › Developer › Edit Config**):
+Requires [uv](https://docs.astral.sh/uv/) (`Settings › Developer › Edit Config`):
 
 ```json
 {
@@ -435,12 +406,8 @@ Requires [uv](https://docs.astral.sh/uv/) on your `PATH`. Add to
 }
 ```
 
-##### Troubleshooting
-
-- **Extension error right after install**: check **Settings › Extensions › Galaxy** logs; first launch requires network access to download Python and `galaxy-mcp`.
-- **"Missing Galaxy URL and API key"**: open **Settings › Extensions › Galaxy › Configure** and fill both fields.
-- **"Provided API key is not valid"**: key belongs to a different Galaxy server or was revoked; generate a fresh key and update **Configure**.
-- **Slow first tool call**: `galaxy-mcp` starts on demand; subsequent calls are fast.
+- **Startup error:** check **Settings › Extensions › Galaxy** logs; first launch requires internet access to download `galaxy-mcp`.
+- **Invalid API key:** keys are per Galaxy server; generate a key on the matching server and update **Configure**.
 
 </details>
 
@@ -448,43 +415,48 @@ Requires [uv](https://docs.astral.sh/uv/) on your `PATH`. Add to
 
 <HarnessGuide id="other" name="Pi / Cursor / Other" source="https://github.com/galaxyproject/agentic-plugins/tree/main/docs">
 
-Connects [Pi](https://pi.dev), [Cursor](https://cursor.com), OpenCode, or any MCP-capable coding agent to Galaxy with `galaxy-mcp` (48 Galaxy tools) and curated `galaxy-skills`.
+<div class="hstep">
+<div class="hstep__badge not-prose" aria-hidden="true">2</div>
+<div class="hstep__body">
 
-#### Step A · Get your Galaxy API key, request UDT access, and export credentials
+#### <span class="hstep__kicker">Step 2</span> Get your Galaxy API key and export it
 
-1. **API key:** Log in to [usegalaxy.org](https://usegalaxy.org) (or [usegalaxy.eu](https://usegalaxy.eu), [usegalaxy.org.au](https://usegalaxy.org.au), or your institution's server) → **User › Preferences › Manage API Key** → **Create a new key** → copy it.
-2. **User-Defined Tools beta (UseGalaxy.org):** Submit the 30-second form at **[udt-signup.galaxyproject.org](https://udt-signup.galaxyproject.org/)** with your UseGalaxy.org email *(optional ORCID sign-in speeds review)*. Basic tools and workflows work immediately while we approve UDT access.
-3. **Export credentials:** Add both variables to `~/.zshrc` or `~/.bashrc` (then open a new terminal), or place them in a project `.env` file (gitignored):
+- **Galaxy API key:** On [usegalaxy.org](https://usegalaxy.org) *(or [usegalaxy.eu](https://usegalaxy.eu) / [usegalaxy.org.au](https://usegalaxy.org.au))*, open **User › Preferences › Manage API Key** → **Create a new key**.
+- **Custom tools on UseGalaxy.org *(optional)*:** Request [User-Defined Tools beta access](https://udt-signup.galaxyproject.org/) (~30s). Standard tools work immediately while we approve.
+- **Export in `~/.zshrc` / `~/.bashrc`** *(or place in a gitignored `.env`)*:
 
-   ```bash
-   export GALAXY_URL="https://usegalaxy.org"
-   export GALAXY_API_KEY="paste-your-key-here"
-   ```
+```bash
+export GALAXY_URL="https://usegalaxy.org"
+export GALAXY_API_KEY="paste-your-key-here"
+```
 
-#### Step B · Install for your harness
+</div>
+</div>
 
-**Needs:** [uv](https://docs.astral.sh/uv/) on your `PATH` (`uv --version`).
+<div class="hstep">
+<div class="hstep__badge not-prose" aria-hidden="true">3</div>
+<div class="hstep__body">
+
+#### <span class="hstep__kicker">Step 3</span> Install for your harness
+
+Requires [uv](https://docs.astral.sh/uv/) (`uv --version`).
 
 <h5 id="pi">Pi (<code>pi</code> 1.x)</h5>
-
-*(Install or upgrade Pi via `npm i -g @earendil-works/pi-coding-agent`.)*
 
 ```bash
 pi mcp add galaxy -- uvx galaxy-mcp
 pi install git:github.com/galaxyproject/agentic-plugins
 ```
 
-Restart `pi` afterwards (`pi mcp list` checks the connection). *(Full guide: [docs/pi.md](https://github.com/galaxyproject/agentic-plugins/blob/main/docs/pi.md).)*
+Restart `pi` afterwards *(install/upgrade Pi via `npm i -g @earendil-works/pi-coding-agent`; [full Pi guide](https://github.com/galaxyproject/agentic-plugins/blob/main/docs/pi.md))*.
 
 <h5 id="cursor">Cursor</h5>
 
-1. Open **Customize** in the Cursor sidebar → **From GitHub Repository** → enter `galaxyproject/agentic-plugins`.
-2. Install **`galaxy-mcp`** and **`galaxy-skills`** *(skip `galaxy-dev-skills` and `foundry-skills` unless you build XML wrappers or Foundry workflows)*.
-3. Run **Developer: Reload Window**. *(Full guide + one-click MCP link: [docs/cursor.md](https://github.com/galaxyproject/agentic-plugins/blob/main/docs/cursor.md).)*
+Open **Customize › From GitHub Repository** → `galaxyproject/agentic-plugins` → install **`galaxy-mcp`** + **`galaxy-skills`** → **Developer: Reload Window** *([full Cursor guide](https://github.com/galaxyproject/agentic-plugins/blob/main/docs/cursor.md))*.
 
 <h5 id="generic-mcp">OpenCode or any MCP + Agent Skills client</h5>
 
-Clone the skills into `~/.agents/skills/` and register `uvx galaxy-mcp` in your agent's MCP config:
+Clone `galaxy-skills` and add `uvx galaxy-mcp` to your MCP config:
 
 ```bash
 git clone https://github.com/galaxyproject/galaxy-skills ~/.agents/skills/galaxy-skills
@@ -505,7 +477,14 @@ git clone https://github.com/galaxyproject/galaxy-skills ~/.agents/skills/galaxy
 }
 ```
 
-#### Step C · Verify and run
+</div>
+</div>
+
+<div class="hstep">
+<div class="hstep__badge not-prose" aria-hidden="true">4</div>
+<div class="hstep__body">
+
+#### <span class="hstep__kicker">Step 4</span> Verify and run
 
 Ask your agent:
 
@@ -513,14 +492,15 @@ Ask your agent:
 Connect to Galaxy and tell me who I am.
 ```
 
-It calls `get_user` and reports your Galaxy username and account details *(troubleshoot anytime with `galaxy-connect`)*. Then ask in plain language — upload FASTQs, run IWC workflows, write in-Galaxy JupyterLite (`gxy`) notebooks, rebuild scratch histories (`reproduciblify`), or author containerized UDTs (`udt-authoring`).
+It calls `get_user` and confirms your account. Then ask in plain language — upload reads, run IWC workflows, write JupyterLite (`gxy`) notebooks, rebuild histories (`reproduciblify`), or author containerized YAML tools (`udt-authoring`).
+
+</div>
+</div>
 
 <details>
-<summary>Pi skill filtering (context budget) and updates</summary>
+<summary>Pi skill filtering (context budget) & updates</summary>
 
-##### Keep only analyst skills in Pi
-
-`pi install` loads all 86 skills across `galaxy-skills`, `galaxy-dev-skills`, and `foundry-skills`. Exclude the developer sets in `~/.pi/agent/settings.json` (or `.pi/settings.json`) to save per-turn context:
+`pi install` loads all 86 skills. Exclude the optional developer sets in `~/.pi/agent/settings.json` to keep per-turn context lean:
 
 ```json
 {
@@ -541,16 +521,16 @@ Update Pi packages anytime with `pi update --extensions`.
 
 </HarnessGuides>
 
-<div class="ag-band">
+<div class="ag-band ag-band--white">
 
 ## What your plugins include
 
-For everyday data analysis, install **`galaxy-mcp`** + **`galaxy-skills`** only. Add the developer sets only if you build XML tool wrappers or construct workflows, since every installed skill adds its description to each turn's context:
+Install **`galaxy-mcp`** + **`galaxy-skills`** for everyday analysis. Add the developer sets only if you build XML tool wrappers or construct workflows:
 
 | Plugin | Audience | Contents | Default |
 |--------|----------|----------|---------|
 | **`galaxy-mcp`** | Everyone | Live Galaxy connection (48 MCP tools: histories, datasets, tools, IWC workflows, UDTs) + `galaxy-connect` | **Install** |
-| **`galaxy-skills`** | Analysts & researchers | 7 skills for *using* Galaxy: MCP patterns, collections, in-Galaxy JupyterLite notebooks (`gxy`), UDT authoring, workflow reports, `reproduciblify` | **Install** *(coding agents)* |
+| **`galaxy-skills`** | Analysts & researchers | 7 skills for *using* Galaxy: MCP patterns, collections, JupyterLite notebooks (`gxy`), UDT authoring, workflow reports, `reproduciblify` | **Install** *(coding agents)* |
 | **`galaxy-dev-skills`** | Tool developers | 9 skills for *building* Galaxy: ToolShed XML wrappers (`tool-dev`), Nextflow conversion (`nf-to-galaxy`), `usegalaxy-tools`, UCSC track hubs, Hub news | Optional |
 | **`foundry-skills`** | Workflow engineers | 69 Workflow Foundry casts turning papers, Nextflow, and CWL into validated Galaxy workflows | Optional |
 
@@ -561,7 +541,7 @@ For everyday data analysis, install **`galaxy-mcp`** + **`galaxy-skills`** only.
 
 **[The Galaxy agentic stack](/agents/stack/)**
 
-See an agent write and run a containerized YAML tool when no installed Galaxy tool fits, with every command, container, and dataset recorded in your history.
+Watch an agent write and run a containerized YAML tool when no installed Galaxy tool fits, with every command, container, and dataset recorded in your history.
 
 </div>
 <div class="ag-example">
@@ -573,9 +553,9 @@ YAML tool syntax, sandbox model, real examples, and per-account beta access on U
 </div>
 <div class="ag-example">
 
-**[Orbit desktop app (beta)](/agents/orbit/)**
+**[Orbit desktop app guide](/agents/orbit/)**
 
-Don't use a coding agent yet? Orbit is a standalone desktop app for macOS, Linux, and Windows with Galaxy and the Galaxy skills already wired in.
+Model selection & pricing, mid-session `/model` switching, local + Galaxy execution, and visual tour of the Orbit desktop app.
 
 </div>
 </div>
@@ -583,7 +563,7 @@ Don't use a coding agent yet? Orbit is a standalone desktop app for macOS, Linux
 ## Get help & share feedback
 
 - **Agents & User-Defined Tools forum:** [GitHub Discussions (`Agents & UDTs`)](https://github.com/galaxyproject/galaxy/discussions/categories/agents-udts) — Q&A, beta feedback, and working `GalaxyUserTool` YAMLs *(real-time Matrix chat: [#galaxyproject:matrix.org](https://matrix.to/#/#galaxyproject:matrix.org))*.
-- **Connection diagnostics:** run `galaxy-connect` in your agent or open the **Manual MCP setup and troubleshooting** drawer in your tab above.
+- **Connection diagnostics:** run `galaxy-connect` in your agent or open the troubleshooting drawer at the bottom of your harness tab above.
 - **General Galaxy support:** [Galaxy Help forum](https://help.galaxyproject.org/).
 - **Plugin & bundle issues:** [galaxyproject/agentic-plugins](https://github.com/galaxyproject/agentic-plugins) (upstream skills: [galaxy-skills](https://github.com/galaxyproject/galaxy-skills) and [foundry](https://github.com/galaxyproject/foundry)).
 
