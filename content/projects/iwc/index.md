@@ -1,6 +1,5 @@
 ---
 description: "Open, peer-reviewed Galaxy workflows: reviewed, tested, versioned, and runnable on Galaxy servers"
-autotoc: false
 title: "Intergalactic Workflow Commission"
 ---
 

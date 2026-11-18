@@ -1,7 +1,6 @@
 ---
 title: "Result interpretation"
 description: "Analysis of variants"
-autotoc: false
 components: true
 ---
 
