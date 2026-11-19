@@ -150,7 +150,7 @@ The scale follows prototype A of the redesign. galaxy-ui's `GHeading` sizes (`h-
 
 ### Icons
 
-Use **Lucide icons** (via `lucide-vue-next` and the Lucide SVG set) for all UI chrome -- navigation, controls, inline icons in buttons. The content preprocessor automatically converts legacy FontAwesome references in Markdown/MDX to inline Lucide SVGs, so don't introduce new FontAwesome usage.
+Use **Lucide icons** (`@lucide/vue` in Vue components, `components/mdx/Icon.astro` in Astro) for all UI chrome -- navigation, controls, inline icons in buttons. The content preprocessor automatically converts legacy FontAwesome references in Markdown/MDX to inline Lucide SVGs, so don't introduce new FontAwesome usage.
 
 ### Prose Styling
 
@@ -270,6 +270,14 @@ Variants and elements:
 - `gx-tile--link` -- the whole tile is an `<a>`; adds the signature gold hover bar (left edge, `scaleX`) and lifts to `shadow-md`. The card text keeps its colours on hover; only `gx-tile__more` takes the link hover (darker blue, gold underline). Keep contents plain (no nested links/markdown).
 - `gx-tile--feature` -- galaxy-primary left border for emphasized tiles.
 - `gx-tile__media` (160px cover image), `gx-tile__title`, `gx-tile__body` (richer markdown bodies -- separate inner content with blank lines so Markdown renders), `gx-tile__teaser` (short plain text), `gx-tile__credit` (small chicago-500 caption, e.g. photo credits), `gx-tile__more` (link affordance).
+
+### Link Tile
+
+`LinkTile` (`components/use/`) builds the bottom of `/use/`. It is an `<li>` item: the page owns the `<ul>`. The four main server boxes at the top of the page stay as written in `use/index.astro`: gradient boxes with a generic icon and no logos, so the four look alike. Their grid is four columns only from `xl` (1280px): with the sidebar open, `lg` leaves the boxes too narrow for the "Start analyzing" link. Logos can be considered once every instance has one.
+
+- `LinkTile`: one link into another page, the whole tile is the `<a>`: 40px icon square (`surface-tint`), title (`text-h4`), description (`text-meta text-fg-2`) and an arrow; an external link adds an icon and sr-only "(opens in a new tab)". Place tiles in `grid-cols-[repeat(auto-fit,minmax(min(100%,16rem),1fr))]`.
+- Compat collisions: `bootstrap-compat.css` defines these plain classes globally, outside `.bs-compat` too, and the legacy values win over Tailwind's: `p-0..5`, `m-0..5`, `mt-0..5`, `mb-0..5`, `ml-`/`mr-`/`mx-` (0..5, `auto`), `.border` (and `border-0`), `.rounded`, `.shadow` and `.shadow-sm`. In this component use arbitrary values (`p-[1.25rem]`, `mt-[1rem]`, `shadow-[var(--gx-elev-sm)]`) and `border-1`; variant forms (`hover:shadow-sm`) are not affected.
+- Colours are role tokens only; focus is the solid 2px outline from Filters. Descriptions are plain text, since the tile is a link and links cannot nest.
 
 ### Callout / Note
 
