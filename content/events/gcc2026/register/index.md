@@ -1,4 +1,5 @@
 ---
+autotoc: false
 ---
 
 # GCC2026 Registration

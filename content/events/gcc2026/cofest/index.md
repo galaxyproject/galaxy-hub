@@ -1,4 +1,5 @@
 ---
+autotoc: false
 components: true
 ---
 
@@ -6,7 +7,7 @@ components: true
 
 # GCC2026 CollaborationFest (CoFest!)
 
-**June 25-26, 2026**
+#### June 25-26, 2026
 
   <div class="text-lg text-galaxy-grey">
     CoFest is a community gathering by those interested in
