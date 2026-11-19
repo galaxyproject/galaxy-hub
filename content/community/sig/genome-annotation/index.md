@@ -1,6 +1,5 @@
 ---
 description: "Galaxy as a platform for the annotation of genomes"
-autotoc: false
 title: "Galaxy Genome Annotation Community of Practice"
 ---
 

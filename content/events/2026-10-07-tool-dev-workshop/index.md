@@ -14,7 +14,6 @@ gtn: false
 contact: Saim Momin, Matthias Bernt
 tags: [workshop, tools, training, uni-freiburg, esg]
 subsites: [all]
-autotoc: false
 contributions:
   organisers:
     - intergalacticutilitiescommissioniuc

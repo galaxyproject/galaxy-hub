@@ -1,6 +1,5 @@
 ---
 description: "Documentation for VGP-Galaxy assembly workflows"
-autotoc: false
 title: "VGP-Galaxy assembly workflows"
 ---
 

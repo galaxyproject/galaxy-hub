@@ -1,7 +1,6 @@
 ---
 title: "Data"
 description: "Data produced by Galaxy COVID19 effort"
-autotoc: false
 ---
 
 All data produced by our effort can be found at a public FTP server at <kbd>ftp://xfer13.crg.eu/</kbd>. This site was generously provided by [the Viral Beacon project](https://covid19beacon.crg.eu/).

@@ -1,6 +1,5 @@
 ---
 title: "How to contribute"
-autotoc: false
 ---
 <div class='right'><img src="/images/undraw-illustrations/contribute.svg" alt="" width="240" /></div>
 
