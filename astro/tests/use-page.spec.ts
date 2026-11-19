@@ -12,7 +12,7 @@ test.describe('Use Galaxy page', () => {
     await page.goto('/use/');
   });
 
-  test('main servers are cards with a start link, a details link and a logo', async ({ page }) => {
+  test('main servers are cards with a start link and a details link', async ({ page }) => {
     const section = page.locator('section', { has: page.getByRole('heading', { name: 'Main UseGalaxy Servers' }) });
     const cards = section.getByRole('listitem');
     await expect(cards).toHaveCount(SERVERS.length);
@@ -30,15 +30,8 @@ test.describe('Use Galaxy page', () => {
       await expect(details).toHaveAccessibleName(`Server details for ${server.name}`);
     }
 
-    // Logos load for the two servers that have one; .org.au and .ca show a short mark.
-    for (const i of [0, 1]) {
-      const logo = cards.nth(i).locator('img');
-      await expect.poll(() => logo.evaluate((img: HTMLImageElement) => img.naturalWidth)).toBeGreaterThan(0);
-    }
-    for (const [i, mark] of [[2, 'AU'], [3, 'CA']] as const) {
-      await expect(cards.nth(i).locator('img')).toHaveCount(0);
-      await expect(cards.nth(i).getByText(mark, { exact: true })).toBeVisible();
-    }
+    // Text only: no logo or mark on any card until every instance has a logo.
+    await expect(cards.locator('img')).toHaveCount(0);
   });
 
   for (const width of [768, 1024, 1280, 1440]) {

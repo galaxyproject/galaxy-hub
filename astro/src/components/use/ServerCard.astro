@@ -1,7 +1,7 @@
 ---
 /**
- * Main UseGalaxy server card: logo, name, description, "Start analyzing" button (external) and an optional
- * "Server details" link to the Hub page of the server. Without a logo it shows a short mono mark instead.
+ * Main UseGalaxy server card: name, description, "Start analyzing" button (external) and an optional
+ * "Server details" link to the Hub page of the server. Text only: logos wait until every instance has one.
  */
 import Icon from '@/components/mdx/Icon.astro';
 
@@ -10,29 +10,15 @@ interface Props {
   description: string;
   /** External address of the server. */
   href: string;
-  /** Logo path; leave out to show `mark`. */
-  logo?: string;
-  /** Two-letter mark shown in place of a missing logo. */
-  mark?: string;
   /** Hub page of the server; leave out when it has none. */
   detailsHref?: string;
 }
 
-const { name, description, href, logo, mark, detailsHref } = Astro.props;
+const { name, description, href, detailsHref } = Astro.props;
 ---
 
 <li class="flex flex-col rounded-lg border-1 border-line bg-surface-raised p-[1.25rem] shadow-[var(--gx-elev-sm)]">
-  {logo ? (
-    <img src={logo} alt="" class="h-12 w-auto max-w-full self-start object-contain object-left" />
-  ) : (
-    mark && <span
-      class="flex h-12 w-12 items-center justify-center rounded-md bg-surface-tint text-sm font-bold text-fg-brand"
-      aria-hidden="true"
-    >
-      {mark}
-    </span>
-  )}
-  <h3 class="mt-[1rem] text-h3 font-semibold text-fg-strong">{name}</h3>
+  <h3 class="text-h3 font-semibold text-fg-strong">{name}</h3>
   <p class="mt-2 flex-1 text-meta text-fg-2">{description}</p>
   <a
     href={href}

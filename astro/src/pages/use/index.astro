@@ -47,35 +47,29 @@ for (const p of platforms) {
   }
 }
 
-// Main servers: logos come from the platform pages' `image` field; usegalaxy.org.au (its image is a page screenshot) and usegalaxy.ca have no logo yet.
-const platformImage = (slug: string) => platforms.find((p) => p.data.slug === slug)?.data.image;
 const mainServers = [
   {
     name: 'UseGalaxy.org',
     description: 'The main US Galaxy server hosted at Penn State and Johns Hopkins. Free for everyone.',
     href: 'https://usegalaxy.org',
-    logo: platformImage('use/usegalaxy-org'),
     detailsHref: '/use/usegalaxy-org/',
   },
   {
     name: 'UseGalaxy.eu',
     description: 'The European Galaxy server at Freiburg with extensive tools and training support.',
     href: 'https://usegalaxy.eu',
-    logo: platformImage('use/usegalaxy-eu'),
     detailsHref: '/use/usegalaxy-eu/',
   },
   {
     name: 'UseGalaxy.org.au',
     description: 'Galaxy Australia serving the Oceania region with local support.',
     href: 'https://usegalaxy.org.au',
-    mark: 'AU',
     detailsHref: '/use/usegalaxy-au/',
   },
   {
     name: 'UseGalaxy.ca',
     description: 'The Canadian Galaxy server for general purpose analysis.',
     href: 'https://usegalaxy.ca',
-    mark: 'CA',
     detailsHref: '/use/usegalaxy-ca/',
   },
 ];
