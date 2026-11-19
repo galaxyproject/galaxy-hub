@@ -1,0 +1,71 @@
+---
+/**
+ * Bare copy of the ESG4Stars overview for iframes on partner sites: the same data and sections as
+ * /projects/esg4stars/ without the Hub navbar, sidebar, footer, tabs and contents rail. Links are
+ * absolute and open in a new tab; search engines are pointed at the Hub page.
+ */
+import BareArticleLayout from '@/layouts/BareArticleLayout.astro';
+import BareHubLinks from '@/components/bare/BareHubLinks.astro';
+import ProjectBareHead from '@/components/projects/ProjectBareHead.astro';
+import ProjectEndedNotice from '@/components/projects/ProjectEndedNotice.astro';
+import ProjectFactsBox from '@/components/projects/ProjectFactsBox.astro';
+import Esg4StarsSections from '@/components/projects/esg4stars/Esg4StarsSections.astro';
+import { HUB_ORIGIN } from '@/utils/bareHubLinks';
+import { getEsg4StarsOverview } from '@/utils/esg4starsOverview';
+
+const overview = await getEsg4StarsOverview();
+const { project, Summary } = overview;
+---
+
+<BareArticleLayout
+  title={project.name}
+  description={project.description}
+  canonical={`${HUB_ORIGIN}/projects/${project.id}/`}
+  prose={false}
+>
+  <BareHubLinks>
+    <ProjectBareHead name={project.name} description={project.description} facts={project.facts} />
+
+    <div class="e4s-bare__lead">
+      <div class="e4s-bare__summary">
+        <ProjectEndedNotice name={project.name} facts={project.facts} />
+        <div class="prose prose-galaxy max-w-none">
+          <Summary />
+        </div>
+      </div>
+      <ProjectFactsBox
+        class="project-facts--rail e4s-bare__facts"
+        idPrefix="facts"
+        facts={project.facts}
+        partnerCount={project.partnerCount}
+      />
+    </div>
+
+    <Esg4StarsSections overview={overview} />
+  </BareHubLinks>
+</BareArticleLayout>
+
+<style>
+  /* Summary beside the facts box from lg up, the box first on smaller screens */
+  .e4s-bare__lead {
+    display: grid;
+    gap: 24px;
+    margin-top: 24px;
+  }
+
+  .e4s-bare__lead > :global(.e4s-bare__facts) {
+    order: -1;
+  }
+
+  @media (min-width: 1024px) {
+    .e4s-bare__lead {
+      grid-template-columns: minmax(0, 1fr) 16rem;
+      align-items: start;
+      gap: 40px;
+    }
+
+    .e4s-bare__lead > :global(.e4s-bare__facts) {
+      order: 0;
+    }
+  }
+</style>
