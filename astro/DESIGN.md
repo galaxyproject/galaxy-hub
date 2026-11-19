@@ -64,7 +64,8 @@ New page code uses **role tokens**: they name what a colour is for, carry a ligh
 | Sunken: inline code, counts | `bg-surface-sunken` | `#f5f5f6` chicago-50 | `#22262f` | meta on sunken 6.51 / 6.36 |
 | Lines | `border-line`, `-line-brand`, `-line-strong` | chicago-100; primary at 16% / 34% | `#2a2e38`; `#8cbbe9` at 16% / 38% | decorative |
 | Input border | `border-line-input` | `#878789` | `#737a8c` | 3.59 / 4.29 (3:1 for controls) |
-| Focus | `outline-focus`, `outline-focus-on-chrome` | `#25537b`; gold on chrome | `#8cbbe9`; gold | 8.07 / 9.12 |
+| Focus: outer outline | `outline-focus` | `#2c3143` galaxy-dark | `#ffffff` | 11.63 to 12.90 on the light surfaces; 13.49 to 18.42 on the dark ones |
+| Focus: inner ring | `--color-focus-inner` (box-shadow colour) | `#ffffff` | `#1c2030` chrome | 12.90 on the sidebar, 9.77 on `chrome-field` |
 | Brand fill | `bg-brand`, `text-on-brand` | `#25537b`, white | `#2b5f8e`, white | 8.07 / 6.71 |
 | Selected: pressed chip, current item | `bg-selected`, `text-on-selected` | `#25537b`, white | `#8cbbe9`, `#10131a` | 8.07 / 9.20 |
 | Gold accent: CTAs, active marks | `bg-accent-gold`, `bg-accent-gold-hover`, `text-on-accent-gold` | `#ffd700`, hover `#d19e00`, galaxy-dark text | `#ffd700`, hover `#ffe24d` | 9.20 both |
@@ -76,6 +77,9 @@ Rules:
 
 - Brand aliases (`galaxy-*`, `light-bg`, hex) appear only inside role definitions and brand moments (hero gradients, the gold bar). Existing page code moves to roles as it is touched.
 - Gold is never text on a light surface (1.40:1 on white). Links hover to `link-hover` with a gold underline.
+- Focus is one global rule, `:focus-visible` in `global.css` (`@layer base`; written plain, not `:where()`, so it beats the Tailwind preflight `:-moz-focusring` rule in Firefox by source order): a `2px` solid outline in `--color-focus` at a `2px` offset plus a `2px` inner ring in `--color-focus-inner` (a `box-shadow` that fills the offset gap). Light theme: galaxy-dark outline, white ring. Dark theme: white outline, `chrome` ring. Components add no focus classes of their own; the ui primitives carry no `ring-*` or `outline-none` (`SelectItem` keeps `outline-hidden`: its highlight is the indicator, and it drops the inner ring with `focus-visible:[box-shadow:none]`). One tone clears 3:1 on every surface, so no surface needs its own rule: the dark outline is 12.90:1 on white, 11.63 on `light-bg`, 12.21 on `surface-2`; on the dark sidebar, footer and agent bands, where the dark outline disappears, the white ring is 12.90:1 on `#2c3143` and 9.77 on `chrome-field`; in the dark theme the white outline is 13.49 to 18.42:1 on every dark surface. The shadow is dropped in forced-colors mode; the outline stays.
+- Deliberate exceptions to the focus rule: inset outlines where an ancestor clips (`-outline-offset-2` and `box-shadow: none`; an inset outline has no gap ring, so its colour must clear 3:1 on its own surface: `ContextSwitcher` menu items are white on the dark menu, 12.90 and 9.77 on the focused row; the agentic-stack panes are galaxy-dark on the light pane, 12.37, and white on the dark agent pane, 17.36; the `AgentShells` replay region is white on the terminal and IDE windows and galaxy-dark on the desktop window (12.37), and its tabs are white on the dark tab strip; the agent-band `details` summary is galaxy-dark on the white box, 12.90, since the box clips sideways overflow), card-level rings where a stretched link carries the focus (`PlatformDirectory` cards, projects index cards, `NewsList` tiles, whose `overflow-hidden` would clip a ring on the link: the global outline and `--color-focus-inner` shadow on the card, none on the link), `#main-content` (a programmatic focus target: no ring), and the post creator (admin tool, keeps its `focusRing` helper). A `shadow-*` utility rewrites `box-shadow`, so the rule also sets `--tw-ring-shadow`; use `focus-visible:[box-shadow:none]` (not `shadow-none`) to drop the inner ring.
+- A focusable element with its own `box-shadow` outside the utilities layer loses the inner ring, because unlayered CSS beats `@layer base` and the Bootstrap-compat `.shadow` and `.shadow-sm` are `!important`. Two fixes: on a focusable use `shadow-[var(--gx-elev-sm)]` instead of `shadow-sm` (the arbitrary value is a normal Tailwind utility, so the ring survives), and for a scoped or content rule add a `:focus-visible` rule that lists `0 0 0 2px var(--color-focus-inner)` together with the element's own shadow (`a.gx-tile--link`, `.agl-tile`, `.mcard`, the active `HarnessGuides` tab, the `NewsList` tile card). A shadow that only appears on `:hover` is left alone: it replaces the inner ring only while the pointer also rests on the focused element, and the outline stays.
 - Meta text is `text-fg-meta`, never an opacity-faded grey (`text-galaxy-grey/70` is about 3.45:1 and fails AA).
 - `text-fg-letter` is for large text only (>=24px, or 18.66px bold), where AA needs 3:1; its 4.20:1 fails AA at body sizes.
 - The sidebar still uses brand aliases on `galaxy-dark` (`#2c3143`), not the chrome roles: nav and sub-links `chicago-300` (5.89:1), the archive notice `chicago-200` on `medium-bg` (6.34:1) and its dismiss icon `chicago-300` (4.46:1). `chicago-400` (3.60:1 there) is for icons only, never text. `axe.spec.ts` and `sidebar-context.spec.ts` enforce `color-contrast` on the sidebar and mobile menu.
@@ -278,7 +282,7 @@ Variants and elements:
 
 - `LinkTile`: one link into another page, the whole tile is the `<a>`: 40px icon square (`surface-tint`), title (`text-h4`), description (`text-meta text-fg-2`) and an arrow; an external link adds an icon and sr-only "(opens in a new tab)". Place tiles in `grid-cols-[repeat(auto-fit,minmax(min(100%,16rem),1fr))]`.
 - Compat collisions: `bootstrap-compat.css` defines these plain classes globally, outside `.bs-compat` too, and the legacy values win over Tailwind's: `p-0..5`, `m-0..5`, `mt-0..5`, `mb-0..5`, `ml-`/`mr-`/`mx-` (0..5, `auto`), `.border` (and `border-0`), `.rounded`, `.shadow` and `.shadow-sm`. In this component use arbitrary values (`p-[1.25rem]`, `mt-[1rem]`, `shadow-[var(--gx-elev-sm)]`) and `border-1`; variant forms (`hover:shadow-sm`) are not affected.
-- Colours are role tokens only; focus is the solid 2px outline from Filters. Descriptions are plain text, since the tile is a link and links cannot nest.
+- Colours are role tokens only; focus is the global ring (Rules, §2). Descriptions are plain text, since the tile is a link and links cannot nest.
 
 ### Callout / Note
 
@@ -489,8 +493,8 @@ Accessibility (WCAG 2.1 AA):
 
 - Every control has a visible `<label>` (or `aria-labelledby`); the chip group and the bar have an `aria-label`.
 - The result count is one `aria-live="polite"` `aria-atomic="true"` line that is always in the DOM and says what is applied, e.g. "37 articles in 2024 tagged “training”".
-- Focus is a solid 2px `galaxy-primary` outline with a 2px offset (`focus-visible:outline-2 outline-offset-2 outline-solid outline-galaxy-primary`, plus `ring-0` on the primitives). The primitives' default 50% ring is below 3:1 on white, and box-shadow rings disappear in forced-colors mode while outlines stay. Input and select borders use `chicago-400` (3:1 on white).
-- The focus and border classes are overrides in `FilterBar` and `YearFilter`, interim until a focus-rule PR moves them into the primitives (the `focus` and `line-input` role tokens exist, §2; the primitives do not use them yet). The "Clear filters" button keeps the `ui/button` `outline` variant and its neutral OKLch tokens; only its focus outline is overridden.
+- Focus is the global ring (dark outline plus white inner ring, Rules in §2); `FilterBar`, `YearFilter` and `PlatformDirectory` add no focus classes. Input and select borders use `chicago-400` (3:1 on white).
+- The border classes are still overrides in `FilterBar` and `YearFilter` (the `line-input` role token exists, §2; the primitives do not use it yet). The "Clear filters" button keeps the `ui/button` `outline` variant and its neutral OKLch tokens.
 - Targets are at least 24×24px (WCAG 2.2 SC 2.5.8, best practice beyond the 2.1 AA baseline; chips 32px, inputs and selects 40px). Everything works with the keyboard: Tab between controls, Space/Enter on chips, arrow keys in the selects.
 - After "Clear filters", focus moves to the search input because the button disappears.
 - At 390px the bar stacks (chips wrap, then search, tag, clear, count) with no horizontal scroll. A bottom sheet (see Mobile Bottom Sheet) is for pages with more filters than fit.
@@ -545,7 +549,7 @@ Accessibility (WCAG 2.1 AA):
 - Two `<button type="button" aria-pressed>` inside `role="group"` with an `aria-label` naming the list ("News layout", "Events layout"). Not a tablist: both layouts show the same items.
 - Every button has a visible text label next to its icon; icons are `aria-hidden`.
 - Hidden below `sm`, where tiles are one column; a tiles link still opens tiles. From `sm` up the buttons are 32px tall.
-- Focus is the solid 2px `galaxy-primary` outline with a 2px offset, as in Filters.
+- Focus is the global ring (Rules, §2).
 
 ### Mobile Bottom Sheet
 
@@ -940,8 +944,8 @@ galaxy-ui (`client/packages/ui` in `galaxyproject/galaxy`) is the Galaxy applica
 
 | galaxy-ui | Brand token | Hub role |
 |-----------|-------------|----------|
-| `blue-600` `#25537b` | `galaxy-primary` | `link`, `focus`, `brand`, `selected` |
-| `blue-700` `#2c3143` | `galaxy-dark` | `fg-strong`, `chrome` |
+| `blue-600` `#25537b` | `galaxy-primary` | `link`, `brand`, `selected` |
+| `blue-700` `#2c3143` | `galaxy-dark` | `fg-strong`, `chrome`, `focus` |
 | `yellow-500` `#ffd700` | `galaxy-gold` | `bg-accent-gold` |
 | `blue-100` `#f1f9fe`, `blue-600` text | | `info-bg`, `info-fg` |
 | `yellow-100`, `yellow-700` | | `warn-bg`, `warn-fg` |
