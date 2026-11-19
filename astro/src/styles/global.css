@@ -188,7 +188,7 @@ body {
   --color-line-strong: var(--gx-line-strong);
   --color-line-input: var(--gx-line-input);
   --color-focus: var(--gx-focus);
-  --color-focus-on-chrome: var(--gx-focus-on-chrome);
+  --color-focus-inner: var(--gx-focus-inner);
   --color-brand: var(--gx-brand);
   --color-on-brand: var(--gx-on-brand);
   --color-selected: var(--gx-selected);
@@ -267,8 +267,8 @@ body {
   --gx-line-brand: rgb(37 83 123 / 0.16);
   --gx-line-strong: rgb(37 83 123 / 0.34);
   --gx-line-input: #878789; /* 3.59:1, meets 3:1 for control borders */
-  --gx-focus: #25537b;
-  --gx-focus-on-chrome: #ffd700;
+  --gx-focus: #2c3143; /* outer ring, galaxy-dark; 12.90:1 on white, 11.63 on light-bg */
+  --gx-focus-inner: #ffffff; /* the gap ring: 12.90:1 on the dark sidebar, 9.77 on its field */
 
   /* fills */
   --gx-brand: #25537b;
@@ -348,8 +348,8 @@ body {
   --gx-line-brand: rgb(140 187 233 / 0.16);
   --gx-line-strong: rgb(140 187 233 / 0.38);
   --gx-line-input: #737a8c; /* 4.29:1 */
-  --gx-focus: #8cbbe9;
-  --gx-focus-on-chrome: #ffd700;
+  --gx-focus: #ffffff; /* 13.49:1 or more on every dark surface */
+  --gx-focus-inner: #1c2030; /* the dark chrome colour: a clean gap between the element and the white ring */
 
   --gx-brand: #2b5f8e; /* white on it 6.71:1 */
   --gx-on-brand: #ffffff;
@@ -406,7 +406,17 @@ body {
 
 @layer base {
   * {
-    @apply border-border outline-ring/50;
+    @apply border-border;
+  }
+  /* One focus look: a dark outline plus a white inner ring in the offset gap (the two swap in the
+     dark theme), so one tone clears 3:1 on any surface. --tw-ring-shadow
+     carries the ring into elements whose shadow utility rewrites box-shadow. Not :where():
+     it must beat preflight's Firefox :-moz-focusring outline by specificity or order. */
+  :focus-visible {
+    outline: 2px solid var(--color-focus);
+    outline-offset: 2px;
+    --tw-ring-shadow: 0 0 0 2px var(--color-focus-inner);
+    box-shadow: 0 0 0 2px var(--color-focus-inner);
   }
   body {
     @apply bg-background text-foreground;
@@ -1269,11 +1279,9 @@ h6:hover .heading-anchor {
   opacity: 1;
 }
 
-/* Show anchor on focus for keyboard navigation */
+/* Show anchor on focus for keyboard navigation (the ring comes from the global focus rule) */
 .heading-anchor:focus {
   opacity: 1;
-  outline: 2px solid #25537b;
-  outline-offset: 2px;
 }
 
 /* Touch devices: show anchors at reduced opacity */
