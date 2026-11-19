@@ -274,6 +274,12 @@ const pillars = [
       transform: translateY(-1px);
     }
 
+    /* The glow animation would replace the global inner ring. */
+    .btn-primary:focus-visible {
+      animation: none;
+      box-shadow: 0 0 0 2px var(--color-focus-inner);
+    }
+
     @keyframes subtle-glow {
       0%,
       100% {

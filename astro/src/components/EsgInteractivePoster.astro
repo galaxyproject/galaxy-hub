@@ -203,6 +203,11 @@ const workPackages = [
     background-color: rgba(241, 194, 50, 0.1);
   }
 
+  /* box-shadow: none above would drop the global inner ring. */
+  .click-overlay button:focus-visible {
+    box-shadow: 0 0 0 2px var(--color-focus-inner);
+  }
+
   .poster-divider {
     width: 80%;
     margin: 1.5rem auto;

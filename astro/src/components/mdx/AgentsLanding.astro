@@ -447,6 +447,13 @@ const more = [
       0 2px 4px -2px rgb(0 0 0 / 0.1);
   }
 
+  /* The tile's own shadow would replace the global inner ring. */
+  .agl-tile:focus-visible {
+    box-shadow:
+      0 0 0 2px var(--color-focus-inner),
+      0 1px 2px 0 rgb(0 0 0 / 0.05);
+  }
+
   .agl-tile:hover .agl-tile__bar,
   .agl-tile:focus-visible .agl-tile__bar {
     transform: scaleX(1);

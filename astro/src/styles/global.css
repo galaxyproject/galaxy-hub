@@ -887,6 +887,12 @@ a.gx-tile--link::before {
 a.gx-tile--link:hover {
   box-shadow: var(--gx-elev-md);
 }
+/* .gx-tile's own shadow would replace the global inner ring. */
+a.gx-tile--link:focus-visible {
+  box-shadow:
+    0 0 0 2px var(--color-focus-inner),
+    var(--gx-elev-xs);
+}
 a.gx-tile--link:hover::before {
   transform: scaleX(1);
 }
