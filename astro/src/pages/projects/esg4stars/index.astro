@@ -35,6 +35,9 @@ interface Partner {
   short_name?: string;
   name: string;
   country: string;
+  /** Site path of the logo, e.g. /images/projects/esg4stars/partners/uka.png */
+  image?: string;
+  website?: string;
   note?: string;
 }
 
@@ -192,9 +195,23 @@ const headings = [
             {partners.partners.map((partner, index) => <tr>
               <td>{index + 1}</td>
               <td>
-                <span class="e4s-partners__label">{partner.short_name || partner.name}</span>
-                {partner.short_name && <span class="e4s-partners__name">{partner.name}</span>}
-                {partner.note && <span class="e4s-partners__note">{partner.note}</span>}
+                <div class="e4s-partners__org">
+                  {partner.image && <div class="e4s-partners__logo">
+                    <img src={partner.image} alt="" loading="lazy" decoding="async" />
+                  </div>}
+                  <div>
+                    {partner.website ? (
+                      <a href={partner.website} target="_blank" rel="noopener noreferrer">
+                        <span class="e4s-partners__label">{partner.short_name || partner.name}</span>
+                        <span class="sr-only"> (opens in a new tab)</span>
+                      </a>
+                    ) : (
+                      <span class="e4s-partners__label">{partner.short_name || partner.name}</span>
+                    )}
+                    {partner.short_name && <span class="e4s-partners__name">{partner.name}</span>}
+                    {partner.note && <span class="e4s-partners__note">{partner.note}</span>}
+                  </div>
+                </div>
               </td>
               <td>{countryName(partner.country)}</td>
             </tr>)}
@@ -325,11 +342,54 @@ const headings = [
     color: var(--color-galaxy-grey);
   }
 
+  /* Logo above the name on phones, beside it from sm up; the logo box is as wide as the ESG overview's */
+  .e4s-partners__org {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  @media (min-width: 640px) {
+    .e4s-partners__org {
+      flex-direction: row;
+      align-items: center;
+      gap: 16px;
+    }
+  }
+
+  .e4s-partners__logo {
+    display: grid;
+    flex: none;
+    place-items: center;
+    width: 120px;
+    height: 52px;
+    padding: 4px 8px;
+    border-radius: 0.25rem;
+    background: #f3f4f6;
+  }
+
+  .e4s-partners__logo img {
+    width: auto;
+    max-width: 104px;
+    max-height: 44px;
+    object-fit: contain;
+  }
+
   /* Short name in bold, or the legal name when the partner has no short name */
   .e4s-partners__label {
     display: block;
     font-weight: 700;
     color: var(--color-galaxy-dark);
+  }
+
+  .e4s-partners a {
+    text-decoration: none;
+  }
+
+  .e4s-partners a:hover .e4s-partners__label {
+    color: var(--color-galaxy-primary);
+    text-decoration: underline;
   }
 
   .e4s-partners__note {

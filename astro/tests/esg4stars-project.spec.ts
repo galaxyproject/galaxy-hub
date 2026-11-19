@@ -80,10 +80,50 @@ test.describe('ESG4Stars project pages', () => {
       await expect(lead).toHaveText(label);
       await expect(lead).toHaveCSS('font-weight', '700');
     }
-    await expect(rows.nth(4).locator('td').nth(1)).toHaveText('Sci-Scale');
+    // Sci-Scale has no short name, so its legal name is not printed a second time
+    await expect(rows.nth(4).locator('td').nth(1)).toContainText('Sci-Scale');
+    await expect(rows.nth(4).locator('.e4s-partners__name')).toHaveCount(0);
     // Countries by name, not ISO code
     await expect(rows.first().locator('td').last()).toHaveText('Germany');
     await expect(rows.last().locator('td').last()).toHaveText('United Kingdom');
+  });
+
+  test('partners show their logo and link out to their website', async ({ page }) => {
+    await page.goto('/projects/esg4stars/');
+    const partners = page.getByRole('region', { name: 'Project Partners' });
+    const rows = partners.locator('tbody tr');
+    await expect(rows).toHaveCount(13);
+
+    // EMBL is the only partner without a logo; the other twelve each show one, and every file loads
+    const logos = partners.locator('tbody img');
+    await expect(logos).toHaveCount(12);
+    await expect(rows.nth(6).locator('img')).toHaveCount(0);
+    // ...and no empty logo box that would leave a gap above its name
+    await expect(rows.nth(6).locator('.e4s-partners__logo')).toHaveCount(0);
+    for (const logo of await logos.all()) {
+      await logo.scrollIntoViewIfNeeded();
+      await expect(logo).toHaveAttribute('alt', '');
+      await expect.poll(() => logo.evaluate((img: HTMLImageElement) => img.naturalWidth)).toBeGreaterThan(0);
+    }
+
+    // Reused site logos and the ones added under /images/projects/esg4stars/partners/
+    await expect(rows.nth(0).locator('img')).toHaveAttribute('src', '/images/logos/UFR-vorlage-designsystem-typo-farben-V1.94.png');
+    await expect(rows.nth(1).locator('img')).toHaveAttribute('src', '/images/projects/esg/partner-logos/BSC-logo-paths.svg');
+    await expect(rows.nth(4).locator('img')).toHaveAttribute('src', '/images/projects/esg4stars/partners/sci-scale.png');
+    await expect(rows.nth(5).locator('img')).toHaveAttribute('src', '/images/logos/euro-bioimaging-wide.png');
+    await expect(rows.nth(8).locator('img')).toHaveAttribute('src', '/images/logos/cnrs-logo-text-wide.png');
+
+    // Every name links to the partner's website in a new tab
+    const links = partners.locator('tbody').getByRole('link');
+    await expect(links).toHaveCount(13);
+    for (const link of await links.all()) {
+      await expect(link).toHaveAttribute('target', '_blank');
+      await expect(link).toHaveAttribute('rel', 'noopener noreferrer');
+      await expect(link).toHaveAttribute('href', /^https:\/\//);
+    }
+    await expect(rows.nth(0).getByRole('link', { name: /^UFR/ })).toHaveAttribute('href', 'https://www.uni-freiburg.de/');
+    await expect(rows.nth(4).getByRole('link', { name: /^Sci-Scale/ })).toHaveAttribute('href', 'https://sci-scale.net/');
+    await expect(rows.nth(6).getByRole('link', { name: /^EMBL/ })).toHaveAttribute('href', 'https://www.embl.org/');
   });
 
   test('the overview lists the five pillars as text', async ({ page }) => {
