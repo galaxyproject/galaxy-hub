@@ -107,7 +107,10 @@ Registration rates change at midnight (end of the listed day) [Montréal time](h
 
 </div>
 
-**Attending online instead?** Virtual attendance for the conference (June 27–29) is **CAD 50**.
+**Attending online instead?** Virtual attendance for the conference (June 27–29)
+is **CAD 50**. Note that [presentations](/events/gcc2027/abstracts/) must be
+given in person, so if you are presenting a talk, poster, or demo you need an
+in-person registration rather than a virtual one.
 
 ## Cancellation
 

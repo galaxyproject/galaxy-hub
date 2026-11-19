@@ -37,6 +37,10 @@ committee then awards one of three levels of support:
   </div>
 </div>
 
+If you plan to present at GCC2027, apply for one of the in-person levels.
+[Presentations](/events/gcc2027/abstracts/) must be given in person, so the
+Virtual level does not cover you as a presenter.
+
 ## Key dates relevant to fellowships
 
 <div class="gx-dates">
