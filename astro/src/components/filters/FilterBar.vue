@@ -3,7 +3,6 @@ import { computed, onUnmounted, ref, useId, watch } from 'vue';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { focusRing } from '@/lib/focus-ring';
 import YearFilter from './YearFilter.vue';
 import type { FilterOption, YearOption, YearValue } from './types';
 
@@ -79,8 +78,7 @@ onUnmounted(() => clearTimeout(timer));
 const ALL = '__all__';
 
 // Same chip look as YearFilter, 40px tall to line up with the search input and the tag select
-const chipBase =
-  'inline-flex h-10 items-center rounded-md px-3 text-sm font-medium transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-solid focus-visible:outline-galaxy-primary';
+const chipBase = 'inline-flex h-10 items-center rounded-md px-3 text-sm font-medium transition-colors';
 const chipOn = 'bg-galaxy-primary text-white';
 const chipOff = 'bg-ebony-clay-50 text-chicago-700 hover:bg-ebony-clay-100';
 const tagValue = computed(() => tag.value ?? ALL);
@@ -129,18 +127,13 @@ const countText = computed(() => {
           :placeholder="searchPlaceholder"
           autocomplete="off"
           class="h-10 border-chicago-400"
-          :class="focusRing"
         />
       </div>
 
       <div v-if="tagOptions.length > 0" class="min-w-0 sm:w-56">
         <span :id="tagLabelId" class="mb-1 block text-sm font-medium text-chicago-700">{{ tagLabel }}</span>
         <Select :model-value="tagValue" @update:model-value="onTagChange">
-          <SelectTrigger
-            :aria-labelledby="tagLabelId"
-            class="h-10 w-full border-chicago-400 data-[size=default]:h-10"
-            :class="focusRing"
-          >
+          <SelectTrigger :aria-labelledby="tagLabelId" class="h-10 w-full border-chicago-400 data-[size=default]:h-10">
             <SelectValue :placeholder="tagAllLabel" />
           </SelectTrigger>
           <SelectContent class="max-h-72">
@@ -168,14 +161,7 @@ const countText = computed(() => {
         </div>
       </div>
 
-      <Button
-        v-if="hasFilters"
-        type="button"
-        variant="outline"
-        class="h-10 shrink-0"
-        :class="focusRing"
-        @click="clearAll"
-      >
+      <Button v-if="hasFilters" type="button" variant="outline" class="h-10 shrink-0" @click="clearAll">
         Clear filters
       </Button>
     </div>
