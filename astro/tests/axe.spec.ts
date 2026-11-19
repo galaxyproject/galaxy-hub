@@ -79,6 +79,10 @@ const pages: ScanTarget[] = [
     exclude: [{ name: 'news and events card items', count: 2, locate: css('.latest-feeds .card-body') }],
   },
   {
+    path: '/bare/projects/esg4stars/', // bare copy of the ESG4Stars overview (prose-less BareArticleLayout)
+    exclude: [{ name: 'news and events lists', count: 2, locate: css('[data-project-list]') }],
+  },
+  {
     path: '/bare/eu/latest/news/', // bare feed widget
     exclude: [{ name: 'news card items', count: 1, locate: css('.card-body') }],
   },
