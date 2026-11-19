@@ -7,6 +7,7 @@ import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import { markdownConfig } from './src/build/markdown-config.mjs';
 import { collectDraftPaths, isDraftPageUrl } from './src/build/draft-pages.mjs';
+import { isSitemapExcludedUrl } from './src/build/sitemap-pages.mjs';
 import generatedRedirects from './src/build/generated-redirects.json' with { type: 'json' };
 import releaseGuardiansRedirect from './src/data/release-guardians/redirect.json' with { type: 'json' };
 
@@ -42,7 +43,7 @@ export default defineConfig({
     // MDX inherits the base `markdown` config (extendMarkdownConfig defaults to true),
     // so the unified() processor below applies to .mdx as well as .md.
     mdx(),
-    sitemap({ filter: (page) => !isDraftPageUrl(page, getDraftPaths()) }),
+    sitemap({ filter: (page) => !isDraftPageUrl(page, getDraftPaths()) && !isSitemapExcludedUrl(page) }),
   ],
   // Shared with the post creator preview, so it renders bodies the way the site does
   markdown: markdownConfig,
