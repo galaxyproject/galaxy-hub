@@ -115,7 +115,7 @@ if (person.github && githubUrl) socialLinks.push({ label: 'GitHub', href: github
     {/* Orcid's knocked-out "iD" lettering needs a touch more size to stay legible */}
     {socialLinks.map((link) => <a
       href={link.href}
-      class="inline-flex items-center justify-center h-9 w-9 rounded-full border border-ebony-clay-100 text-galaxy-primary bg-white hover:bg-galaxy-primary/10 hover:border-galaxy-primary transition-colors shadow-sm"
+      class="inline-flex items-center justify-center h-9 w-9 rounded-full border border-ebony-clay-100 text-galaxy-primary bg-white hover:bg-galaxy-primary/10 hover:border-galaxy-primary transition-colors shadow-[var(--gx-elev-sm)]"
       target="_blank"
       rel="noopener noreferrer"
       title={link.label}
