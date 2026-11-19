@@ -30,7 +30,10 @@ test.describe('Event header facts', () => {
     await expect(icon).toHaveCSS('color', GOLD);
     await expect(icon).toHaveCSS('width', '20px');
 
-    await expect(facts.locator('dt', { hasText: 'Location' })).toBeVisible();
+    const locationLabel = facts.locator('dt', { hasText: 'Location' });
+    await expect(locationLabel).toBeVisible();
+    await expect(locationLabel.locator('svg')).toHaveCSS('color', GOLD);
+    await expect(locationLabel.locator('svg path').first()).toHaveAttribute('d', /\S/);
     const location = facts.locator('dd', { hasText: 'Brno, Czechia, Europe' });
     await expect(location).toBeVisible();
     await expect(location).toHaveCSS('color', WHITE_80);
