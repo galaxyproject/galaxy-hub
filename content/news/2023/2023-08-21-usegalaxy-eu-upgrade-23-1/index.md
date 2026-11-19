@@ -8,7 +8,7 @@ subsites: [eu, esg]
 tags: [esg, esg-wp1]
 contributions:
   authorship:
-    - kysrpex
+    - domgz
   funding:
     - eu
     - eurosciencegateway
