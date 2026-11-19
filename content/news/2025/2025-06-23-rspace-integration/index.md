@@ -7,7 +7,7 @@ subsites: [all,esg]
 tags: [esg, esg-wp2, "new feature", rdm, nfdi, "interoperability"]
 contributions:
   authorship:
-    - kysrpex
+    - domgz
   funding:
     - eu
     - eurosciencegateway

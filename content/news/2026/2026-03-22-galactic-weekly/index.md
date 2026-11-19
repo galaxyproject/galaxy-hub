@@ -241,7 +241,7 @@ A new issue was opened proposing the addition of a "tools" subcommand to the gxa
 - [BadRequestError: Error code: 400 - {'error': {'message': 'Invalid schema for function \'choose_process\': schema must be a JSON Schema of \'type: "object"\', got \'type: "None"\'.', 'type': 'invalid_request_error', 'param': 'tools&#91;0&#93;.function.parameters', 'code': 'inval...](https://github.com/galaxyproject/galaxy/issues/22184) by @galaxyproject-sentryintegration[bot]
 - [ObjectNotFound: No such object found.](https://github.com/galaxyproject/galaxy/issues/22182) by @galaxyproject-sentryintegration[bot]
 - [User Preferences "Make All Data Private" option always fails with a 400](https://github.com/galaxyproject/galaxy/issues/22173) by @ahmedhamidawan
-- [On the effectiveness and scalability of &#96;celery_user_rate_limit&#96;](https://github.com/galaxyproject/galaxy/issues/22177) by @kysrpex
+- [On the effectiveness and scalability of &#96;celery_user_rate_limit&#96;](https://github.com/galaxyproject/galaxy/issues/22177) by @domgz
 - [batch celery tasks during history deletion](https://github.com/galaxyproject/galaxy/issues/22171) by @bgruening
 - [Data unit discrepancy (MB vs. MiB)](https://github.com/galaxyproject/galaxy/issues/22137) by @B0r1sD
 - [Cannot draw connections between workflow steps in Safari](https://github.com/galaxyproject/galaxy/issues/22175) by @kostrykin
