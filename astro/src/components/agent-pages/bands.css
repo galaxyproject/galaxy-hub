@@ -310,11 +310,6 @@
   text-decoration: none;
 }
 
-.prose .ag-band a.ag-go:focus-visible {
-  outline: 2px solid var(--ag-primary);
-  outline-offset: 2px;
-}
-
 /* The one-line prompt in "Try it" wraps instead of scrolling under the Copy button. */
 .prose .ag-band pre[data-language='plaintext'] {
   padding-right: 5.5rem;
@@ -362,6 +357,13 @@
   font-weight: 700;
   color: var(--ag-dark);
   cursor: pointer;
+}
+
+/* Inset, dark on the white details box: its overflow-x clips an outer ring. */
+.prose .ag-band summary:focus-visible {
+  outline: 2px solid var(--ag-dark);
+  outline-offset: -2px;
+  box-shadow: none;
 }
 
 .prose .ag-band summary::marker {
