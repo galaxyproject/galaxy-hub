@@ -11,7 +11,7 @@ grants:
   - label: EU grant
     id: "101290798"
     url: https://cordis.europa.eu/project/id/101290798
-logo_on_dark: https://training.galaxyproject.org/training-material/shared/images/logo_esg4stars.svg
+logo_on_dark: /images/projects/esg4stars/logo_esg4stars.svg
 funding_logo: /images/projects/esg/images/EN-Funded by the EU-POS.png
 funding_logo_alt: Funded by the European Union
 feed:

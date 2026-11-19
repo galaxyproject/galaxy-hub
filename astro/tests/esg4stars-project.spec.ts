@@ -49,6 +49,12 @@ test.describe('ESG4Stars project pages', () => {
     await expect(band).toContainText('Project · Horizon Europe');
     await expect(band.locator('[data-project-status="active"]')).toHaveText('Active');
     expect((await band.boundingBox())!.height).toBeLessThanOrEqual(180);
+    // The logo is served by the hub, loads, and stays within the compact band
+    const logo = band.locator('.project-band__logo');
+    await expect(logo).toHaveAttribute('src', '/images/projects/esg4stars/logo_esg4stars.svg');
+    await expect(logo).toBeVisible();
+    expect(await logo.evaluate((img: HTMLImageElement) => img.complete && img.naturalWidth > 0)).toBe(true);
+    expect((await logo.boundingBox())!.height).toBeLessThanOrEqual(100);
     // A running project has no ended notice
     await expect(page.getByRole('note')).toHaveCount(0);
 
