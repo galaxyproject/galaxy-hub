@@ -4,62 +4,75 @@ partners:
     - short_name: UFR
       name: ALBERT-LUDWIGS-UNIVERSITAET FREIBURG
       country: DE
-      image: ./partner-logos/UFR-vorlage-designsystem-typo-farben-V1.94-768x543.png
+      image: /images/logos/UFR-vorlage-designsystem-typo-farben-V1.94.png
+      website: https://www.uni-freiburg.de/
 
     - short_name: BSC CNS
       name: BARCELONA SUPERCOMPUTING CENTER CENTRO NACIONAL DE SUPERCOMPUTACION
       country: ES
-      image: ./partner-logos/BSC-logo-paths.svg
+      image: /images/projects/esg/partner-logos/BSC-logo-paths.svg
+      website: https://www.bsc.es/
 
     - short_name: CESNET
       name: CESNET ZAJMOVE SDRUZENI PRAVNICKYCH OSOB
       country: CZ
-      image: ./partner-logos/CESNET_LOGO.png
+      image: /images/projects/esg/partner-logos/CESNET_LOGO.png
+      website: https://www.cesnet.cz/
 
     - short_name: VIB vzw
       name: Vlaams Instituut voor Biotechnologie
       country: BE
-      image: ./partner-logos/VIB.svg
-      
+      image: /images/projects/esg/partner-logos/VIB.svg
+      website: https://vib.be/
+
     - name: Sci-Scale
       country: BE
-      image: ./partner-logos/sci-scale-lockup-horizontal-color-2000w.png
+      image: /images/projects/esg4stars/partners/sci-scale.png
+      website: https://sci-scale.net/
 
     - name: EURO-BIOIMAGING ERIC
       country: FI
-      image: ./partner-logos/eubi-logo-square.png
-      
+      image: /images/logos/euro-bioimaging-wide.png
+      website: https://www.eurobioimaging.eu/
+
     - short_name: EMBL
       name: EUROPEAN MOLECULAR BIOLOGY LABORATORY
       country: DE
+      website: https://www.embl.org/
       note: Affiliated entity of partner 6
 
     - short_name: CNR
       name: CONSIGLIO NAZIONALE DELLE RICERCHE
       country: IT
-      image: ./partner-logos/CNR.png
+      image: /images/projects/esg/partner-logos/CNR.png
+      website: https://www.cnr.it/
 
     - short_name: CNRS
       name: CENTRE NATIONAL DE LA RECHERCHE SCIENTIFIQUE
       country: FR
-      image: ./partner-logos/LOGO_CNRS_BLEU.png
-      
+      image: /images/logos/cnrs-logo-text-wide.png
+      website: https://www.cnrs.fr/
+
     - short_name: UKA
       name: UNIVERSITAETSKLINIKUM AACHEN
       country: DE
-      image: ./partner-logos/UKA_Logo.png
+      image: /images/projects/esg4stars/partners/uka.png
+      website: https://www.ukaachen.de/
 
     - short_name: UC3M
       name: UNIVERSIDAD CARLOS III DE MADRID
       country: ES
-      image: ./partner-logos/UC3M.png
-      
+      image: /images/projects/esg4stars/partners/uc3m.png
+      website: https://www.uc3m.es/
+
     - short_name: GerBI
       name: GERMAN BIOIMAGING - GESELLSCHAFT FÜR MIKROSKOPIE UND BILDANALYSE E.V.
       country: DE
-      image: ./partner-logos/GerBI_1.1_Logo_standard_background.svg
-      
+      image: /images/projects/esg4stars/partners/gerbi.png
+      website: https://gerbi-gmb.de/
+
     - short_name: EI
       name: EARLHAM INSTITUTE
       country: GB
-      image: ./partner-logos/EI-logo.svg
+      image: /images/projects/esg4stars/partners/earlham-institute.svg
+      website: https://www.earlham.ac.uk/
