@@ -5,7 +5,6 @@ main_subsite: global
 date: '2026-10-01'
 tags:
 - gtn-news
-- RDM
 - training
 - news
 title: 'Kick-off of STARDAST: Professionalising Data Stewardship Across Europe'
