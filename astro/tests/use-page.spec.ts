@@ -1,53 +1,48 @@
 import { test, expect } from '@playwright/test';
 
 const SERVERS = [
-  { name: 'UseGalaxy.org', href: 'https://usegalaxy.org', details: '/use/usegalaxy-org/' },
-  { name: 'UseGalaxy.eu', href: 'https://usegalaxy.eu', details: '/use/usegalaxy-eu/' },
-  { name: 'UseGalaxy.org.au', href: 'https://usegalaxy.org.au', details: '/use/usegalaxy-au/' },
-  { name: 'UseGalaxy.ca', href: 'https://usegalaxy.ca', details: '/use/usegalaxy-ca/' },
+  { name: 'UseGalaxy.org', href: 'https://usegalaxy.org' },
+  { name: 'UseGalaxy.eu', href: 'https://usegalaxy.eu' },
+  { name: 'UseGalaxy.org.au', href: 'https://usegalaxy.org.au' },
+  { name: 'UseGalaxy.ca', href: 'https://usegalaxy.ca' },
 ];
+
+const mainServers = (page: import('@playwright/test').Page) =>
+  page.locator('section', { has: page.getByRole('heading', { name: 'Main UseGalaxy Servers' }) });
 
 test.describe('Use Galaxy page', () => {
   test.beforeEach(async ({ page }) => {
     await page.goto('/use/');
   });
 
-  test('main servers are cards with a start link and a details link', async ({ page }) => {
-    const section = page.locator('section', { has: page.getByRole('heading', { name: 'Main UseGalaxy Servers' }) });
-    const cards = section.getByRole('listitem');
-    await expect(cards).toHaveCount(SERVERS.length);
+  test('main servers are four boxes that open the server, with no logos', async ({ page }) => {
+    const boxes = mainServers(page).locator('a[target="_blank"]');
+    await expect(boxes).toHaveCount(SERVERS.length);
 
     for (const [i, server] of SERVERS.entries()) {
-      const card = cards.nth(i);
-      await expect(card.getByRole('heading', { name: server.name })).toBeVisible();
-
-      const start = card.getByRole('link', { name: `Start analyzing on ${server.name} (opens in a new tab)` });
-      await expect(start).toHaveAttribute('href', server.href);
-      await expect(start).toHaveAttribute('target', '_blank');
-
-      const details = card.getByRole('link', { name: /^Server details/ });
-      await expect(details).toHaveAttribute('href', server.details);
-      await expect(details).toHaveAccessibleName(`Server details for ${server.name}`);
+      const box = boxes.nth(i);
+      await expect(box).toHaveAttribute('href', server.href);
+      await expect(box.getByRole('heading', { name: server.name })).toBeVisible();
+      await expect(box.getByText('Start analyzing')).toBeVisible();
     }
 
-    // Text only: no logo or mark on any card until every instance has a logo.
-    await expect(cards.locator('img')).toHaveCount(0);
+    // Logos wait until every instance has one.
+    await expect(mainServers(page).locator('img')).toHaveCount(0);
   });
 
   for (const width of [768, 1024, 1280, 1440]) {
-    test(`server cards keep their button on one line inside the card at ${width}px`, async ({ page }) => {
+    test(`server boxes keep their start link on one line inside the box at ${width}px`, async ({ page }) => {
       await page.setViewportSize({ width, height: 900 });
       await page.goto('/use/');
-      const cards = page.locator('section', { has: page.getByRole('heading', { name: 'Main UseGalaxy Servers' }) });
-      const items = await cards.getByRole('listitem').all();
-      expect(items).toHaveLength(4);
-      for (const item of items) {
-        const card = await item.boundingBox();
-        const button = await item.getByRole('link', { name: /^Start analyzing/ }).boundingBox();
-        expect(button && card && button.x + button.width <= card.x + card.width).toBe(true);
-        expect(button && card && button.x >= card.x).toBe(true);
-        // One line is 40px tall (min-h-10); a wrapped label is taller.
-        expect(button && button.height <= 40).toBe(true);
+      const boxes = await mainServers(page).locator('a[target="_blank"]').all();
+      expect(boxes).toHaveLength(4);
+      for (const box of boxes) {
+        const outer = await box.boundingBox();
+        const label = await box.getByText('Start analyzing').boundingBox();
+        expect(label && outer && label.x + label.width <= outer.x + outer.width).toBe(true);
+        expect(label && outer && label.x >= outer.x).toBe(true);
+        // One line of text-sm is 20px tall; a wrapped label is taller.
+        expect(label && label.height <= 20).toBe(true);
       }
     });
   }
