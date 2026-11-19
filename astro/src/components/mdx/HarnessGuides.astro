@@ -235,6 +235,14 @@ const tabs = [
     box-shadow: 0 4px 14px rgba(16, 32, 52, 0.11);
   }
 
+  /* The active tab's own shadow would replace the global inner ring. */
+  .hguides__tab.is-active:focus-visible,
+  .prose .hguides__tab.is-active:focus-visible {
+    box-shadow:
+      0 0 0 2px var(--color-focus-inner),
+      0 4px 14px rgba(16, 32, 52, 0.11);
+  }
+
   .hguides__logo {
     display: grid;
     flex: none;
