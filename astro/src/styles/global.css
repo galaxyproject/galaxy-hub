@@ -423,6 +423,17 @@ body {
   }
 }
 
+/* Light-filled control on a dark surface (DESIGN.md §2): the global ring would put a white inner
+   ring against a white fill and a dark outline against a dark surface. Mirror the pair so the dark
+   ring rims the fill and the white outline clears the surface. Fixed tones, same in both themes. */
+@utility focus-on-dark {
+  &:focus-visible {
+    outline-color: var(--color-white);
+    --tw-ring-shadow: 0 0 0 2px var(--color-galaxy-dark);
+    box-shadow: 0 0 0 2px var(--color-galaxy-dark);
+  }
+}
+
 /* Subtle grid background pattern (like workflow editor mesh) */
 .bg-grid {
   background-image:
