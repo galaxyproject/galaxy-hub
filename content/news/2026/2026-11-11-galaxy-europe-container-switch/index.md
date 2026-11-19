@@ -9,7 +9,7 @@ contributions:
   authorship:
     - mira-miracoli
     - gsaudade99
-    - kysrpex
+    - domgz
   funding:
     - eu
     - elixir-europe

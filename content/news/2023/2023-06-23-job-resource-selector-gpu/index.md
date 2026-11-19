@@ -9,7 +9,7 @@ main_subsite: eu
 contributions:
   authorship:
     - anuprulez
-    - kysrpex
+    - domgz
   funding:
     - eu
     - eurosciencegateway

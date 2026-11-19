@@ -90,7 +90,7 @@ Want to talk with trainers and developers on how to improve single cell analysis
 
 - [Pavankumar Videm](https://github.com/pavanvidem)
 - [Wendi Bacon](https://training.galaxyproject.org/training-material/hall-of-fame/nomadscientist/)
-- [José Domínguez](https://github.com/kysrpex)
+- [José Domínguez](https://github.com/domgz)
 - [Alex Ostrovsky](https://github.com/astrovsky01)
 - [Andrey Solovyev](https://github.com/a-solovyev12)
 - [Bérénice Batut](https://github.com/bebatut)
