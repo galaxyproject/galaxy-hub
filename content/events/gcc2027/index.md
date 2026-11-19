@@ -25,10 +25,6 @@ contributions:
   }
 
   @container (max-width: 480px) {
-    .gcc-hero__date {
-      flex-direction: column;
-    }
-
     .gcc-hero__location-extra {
       display: none;
     }
@@ -52,9 +48,9 @@ contributions:
         <img class="w-full max-w-md mx-auto" src="/images/events/gcc2027/gcc2027-logo-transparent.png" alt="GCC2027 Conference Logo" />
         <div>
             <div class="gcc-hero__badges not-prose flex flex-wrap items-center justify-center gap-3 leading-tight">
-                <div class="gcc-hero__date inline-flex overflow-hidden rounded-lg" style="border: 2px solid var(--color-galaxy-primary);">
-                    <span class="flex items-center justify-center bg-galaxy-primary px-3 py-1.5 text-xs font-semibold uppercase tracking-wider text-white whitespace-nowrap">Save the date</span>
-                    <span class="px-4 py-1.5 text-center text-xl font-bold text-galaxy-dark whitespace-nowrap">June 26 – July 1, 2027</span>
+                <div class="gx-date-badge">
+                    <span class="gx-date-badge__label">Save the date</span>
+                    <span class="gx-date-badge__value">June&nbsp;26 – July&nbsp;1, 2027</span>
                 </div>
                 <a class="inline-flex items-center gap-2 rounded-full border border-galaxy-primary px-4 py-1 text-sm font-semibold text-galaxy-primary no-underline whitespace-nowrap hover:bg-galaxy-primary hover:text-white" href="https://maps.app.goo.gl/fLKHeTxgrkXHvmXF6" target="_blank" rel="noopener noreferrer">
                     <Icon name="map-pin" />
@@ -62,7 +58,7 @@ contributions:
                 </a>
             </div>
             <h3 style="margin-top: 1rem;">Held at Université de Sherbrooke - Campus Longueuil, in the city of <a href="https://www.google.com/maps/search/?api=1&query=Longueuil%2C+Qu%C3%A9bec%2C+Canada" target="_blank" rel="noopener noreferrer">Longueuil, Québec</a></h3>
-            <p class="text-lg text-galaxy-grey"><a href="/events/gcc2027/register/">Registration</a>, <a href="/events/gcc2027/abstracts/">abstract submission</a>, and <a href="/events/gcc2027/fellowships/">fellowship applications</a> open on <strong>November 18, 2026</strong>.</p>
+            <p class="text-lg text-galaxy-grey"><a href="/events/gcc2027/register/">Registration</a>, <a href="/events/gcc2027/abstracts/">abstract submission</a>, and <a href="/events/gcc2027/fellowships/">fellowship applications</a> are <strong>now open</strong>.</p>
         </div>
     </div>
 </div>

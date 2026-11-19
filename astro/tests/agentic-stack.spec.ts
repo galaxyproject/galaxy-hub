@@ -68,7 +68,7 @@ test.describe('Agentic stack page', () => {
       '/tools/user-defined-tools/',
       '/agents/',
       '/agents/orbit/',
-      'https://galaxyproject.github.io/loom/',
+      'https://galaxyproject.github.io/orbit/',
     ]) {
       expect(await page.locator(`a[href="${href}"]`).count(), href).toBeGreaterThan(0);
     }

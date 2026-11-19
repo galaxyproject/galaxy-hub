@@ -173,7 +173,7 @@ Claude Code, Codex, Antigravity, Pi, or Cursor. Install two plugins: the Galaxy 
 
 A desktop app with Galaxy already wired in. Paste your server URL and key into its preferences and it fetches the Galaxy skills on first use. It drafts a plan, waits for your approval and keeps a git-tracked notebook of the analysis.
 
-<p class="ag-links"><a class="ag-go" href="/agents/orbit/">Install Orbit</a> <a href="https://galaxyproject.github.io/loom/">How it works</a></p>
+<p class="ag-links"><a class="ag-go" href="/agents/orbit/">Install Orbit</a> <a href="https://galaxyproject.github.io/orbit/">How it works</a></p>
 
 </div>
 </div>

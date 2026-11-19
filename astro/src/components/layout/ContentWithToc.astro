@@ -6,6 +6,7 @@
  * Use this component to avoid duplicating TOC logic across page templates.
  */
 import TableOfContents from './TableOfContents.astro';
+import MobileToc from './MobileToc.astro';
 import { tocRailClass } from '../../utils/tocRail';
 
 interface Heading {
@@ -31,7 +32,6 @@ const showToc = autotoc && filteredHeadings.length >= 2;
 const gridClass =
   'xl:grid xl:[--measure:var(--measure-rail)] xl:grid-cols-[minmax(0,var(--measure))_14rem] xl:justify-start xl:gap-x-12';
 const mobileTocClass = 'toc-mobile xl:hidden mx-6 sm:mx-8 mt-6 border border-ebony-clay-100 rounded-lg';
-const summaryClass = 'px-4 py-3 cursor-pointer font-medium text-galaxy-primary hover:bg-ebony-clay-50 rounded-lg';
 // Without a rail only text-only pages keep the measure, centred so no empty strip opens on
 // the right; pages with tile grids, tables or embeds keep full-width text.
 const proseClass = [
@@ -42,12 +42,7 @@ const proseClass = [
 ---
 
 {/* Below xl: collapsible block above the text (its summary names it, so no inner title) */}
-{showToc && <details class={mobileTocClass}>
-  <summary class={summaryClass}>On this page</summary>
-  <div class="px-4 pb-4">
-    <TableOfContents headings={headings} showTitle={false} />
-  </div>
-</details>}
+{showToc && <MobileToc headings={headings} class={mobileTocClass} />}
 
 <div class:list={['content-with-toc px-6 sm:px-8 pt-6', showToc && gridClass]}>
   {/* Main Content */}
