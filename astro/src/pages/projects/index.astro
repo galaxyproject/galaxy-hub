@@ -209,11 +209,15 @@ const count = externalCount > 0 ? `${onHub}, ${countLabel(externalCount, 'extern
 
   .project-card__link:focus-visible {
     outline: none;
+    box-shadow: none;
   }
 
   .project-card:has(.project-card__link:focus-visible) {
-    outline: 2px solid var(--color-galaxy-primary);
+    outline: 2px solid var(--color-focus);
     outline-offset: 2px;
+    box-shadow:
+      0 0 0 2px var(--color-focus-inner),
+      0 1px 2px rgb(0 0 0 / 0.05);
   }
 
   .project-participation {
