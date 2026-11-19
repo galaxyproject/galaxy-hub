@@ -282,7 +282,9 @@ const chip = 'inline-flex h-10 items-center rounded-md px-4 text-sm font-medium 
 // Underline tabs: grey text, the active one dark with a 4px gold bar; the bar sits on the list's bottom line.
 // The focus outline is inset because the card clips its corners.
 const tabClass =
-  '-mb-px h-auto min-h-11 flex-none rounded-none border-0 border-b-4 border-transparent bg-transparent px-0 pt-3 pb-2 text-base font-medium text-fg-2 shadow-none hover:text-fg-strong data-[state=active]:border-galaxy-gold data-[state=active]:bg-transparent data-[state=active]:font-bold data-[state=active]:text-fg-strong data-[state=active]:shadow-none focus-visible:ring-0 focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-solid focus-visible:outline-galaxy-primary';
+  '-mb-px h-auto min-h-11 flex-none rounded-none border-0 border-b-4 border-transparent bg-transparent px-0 pt-3 pb-2 text-base font-medium text-fg-2 shadow-none hover:text-fg-strong data-[state=active]:border-galaxy-gold data-[state=active]:bg-transparent data-[state=active]:font-bold data-[state=active]:text-fg-strong data-[state=active]:shadow-none focus-visible:ring-0 focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-solid focus-visible:outline-focus';
+// The tab panels span the clipped card, so their global focus ring is inset too.
+const panelClass = 'focus-visible:-outline-offset-2 focus-visible:[box-shadow:none]';
 
 // Files stay in the browser: the GitHub link carries text only, so authors upload them to the post folder.
 // Each file's text in the editor is tracked, so changing alt text, caption or size updates it in place.
@@ -1008,7 +1010,7 @@ const sizeText = (bytes: number) =>
           <TabsTrigger value="file" :class="tabClass">File</TabsTrigger>
           <TabsTrigger value="social" :class="tabClass">Social media</TabsTrigger>
         </TabsList>
-        <TabsContent value="preview">
+        <TabsContent value="preview" :class="panelClass">
           <article class="max-h-[36rem] overflow-auto p-5" data-preview>
             <p v-if="form.externalUrl" class="mb-3 rounded-md bg-info-bg p-2 text-sm text-info-fg">
               Listings link to {{ form.externalUrl }} instead of this page.
@@ -1038,7 +1040,7 @@ const sizeText = (bytes: number) =>
             <p v-else class="mt-4 text-sm text-fg-meta">Your text shows here.</p>
           </article>
         </TabsContent>
-        <TabsContent value="file" class="space-y-3 p-5">
+        <TabsContent value="file" :class="[panelClass, 'space-y-3 p-5']">
           <p class="text-sm break-all">
             <code>{{ path }}</code>
           </p>
@@ -1047,7 +1049,7 @@ const sizeText = (bytes: number) =>
             data-file-text
           ><code>{{ text }}</code></pre>
         </TabsContent>
-        <TabsContent value="social" class="space-y-3 p-5" data-social>
+        <TabsContent value="social" :class="[panelClass, 'space-y-3 p-5']" data-social>
           <p v-if="!social.posted" class="rounded-md bg-warn-bg p-3 text-sm text-warn-fg">
             Not posted to social media: choose at least one subsite.
           </p>
