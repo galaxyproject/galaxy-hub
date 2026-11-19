@@ -250,7 +250,7 @@ test.describe('Mobile region chip', () => {
   });
 });
 
-// The site-chrome scan in axe.spec.ts masks color-contrast for the footer; scan the sidebar on its own
+// The site-chrome scan in axe.spec.ts covers the shared chrome; scan the sidebar and mobile menu on their own
 test.describe('Sidebar accessibility', () => {
   const tags = ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'];
   const serious = (violations: { id: string; impact?: string | null }[]) =>
@@ -272,18 +272,12 @@ test.describe('Sidebar accessibility', () => {
       expect(serious(results.violations)).toEqual([]);
     });
 
-    // color-contrast is off here: chicago-400 links (3.59:1) and the archive notice (4.46:1) are the
-    // known sidebar contrast issue (axe.spec.ts knownIssues, chrome)
-    test(`desktop sidebar groups and links have no other serious violations on ${path}`, async ({ page }) => {
+    test(`desktop sidebar groups and links have no serious violations on ${path}`, async ({ page }) => {
       await page.setViewportSize({ width: 1440, height: 900 });
       await page.goto(path);
       await hydratedSidebar(page);
 
-      const results = await new AxeBuilder({ page })
-        .withTags(tags)
-        .include('aside.site-sidebar')
-        .disableRules(['color-contrast'])
-        .analyze();
+      const results = await new AxeBuilder({ page }).withTags(tags).include('aside.site-sidebar').analyze();
       expect(serious(results.violations)).toEqual([]);
     });
   }
