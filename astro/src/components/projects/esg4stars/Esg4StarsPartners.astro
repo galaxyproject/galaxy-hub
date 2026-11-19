@@ -1,0 +1,144 @@
+---
+/**
+ * The ESG4Stars partner table (esg4stars-partners dataset): number, logo and name linking to the
+ * partner's website, country.
+ */
+import ProjectSection from '@/components/projects/ProjectSection.astro';
+import { countryName } from '@/utils/countryName';
+import type { Esg4StarsPartner } from '@/utils/esg4starsOverview';
+
+interface Props {
+  title: string;
+  partners: Esg4StarsPartner[];
+  /** Pill after the heading, e.g. "13 organisations". */
+  count?: string;
+}
+
+const { title, partners, count } = Astro.props;
+---
+
+<ProjectSection id="partners" title={title} count={count}>
+  <table class="e4s-partners">
+    <thead>
+      <tr>
+        <th scope="col">No.</th>
+        <th scope="col">Organisation</th>
+        <th scope="col">Country</th>
+      </tr>
+    </thead>
+    <tbody>
+      {partners.map((partner, index) => <tr>
+        <td>{index + 1}</td>
+        <td>
+          <div class="e4s-partners__org">
+            {partner.image && <div class="e4s-partners__logo">
+              <img src={partner.image} alt="" loading="lazy" decoding="async" />
+            </div>}
+            <div>
+              {partner.website ? (
+                <a href={partner.website} target="_blank" rel="noopener noreferrer">
+                  <span class="e4s-partners__label">{partner.short_name || partner.name}</span>
+                  <span class="sr-only"> (opens in a new tab)</span>
+                </a>
+              ) : (
+                <span class="e4s-partners__label">{partner.short_name || partner.name}</span>
+              )}
+              {partner.short_name && <span class="e4s-partners__name">{partner.name}</span>}
+              {partner.note && <span class="e4s-partners__note">{partner.note}</span>}
+            </div>
+          </div>
+        </td>
+        <td>{countryName(partner.country)}</td>
+      </tr>)}
+    </tbody>
+  </table>
+</ProjectSection>
+
+<style>
+  .e4s-partners {
+    width: 100%;
+    margin-top: 8px;
+    border-collapse: collapse;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .e4s-partners th {
+    padding: 8px 10px;
+    border-bottom: 1px solid var(--color-chicago-200);
+    text-align: left;
+    font-weight: 700;
+    color: var(--color-galaxy-grey);
+  }
+
+  .e4s-partners td {
+    padding: 8px 10px;
+    border-bottom: 1px solid var(--color-chicago-100);
+    vertical-align: top;
+    color: var(--color-chicago-900);
+    overflow-wrap: anywhere;
+  }
+
+  .e4s-partners td:first-child,
+  .e4s-partners td:last-child {
+    width: 1%;
+    white-space: nowrap;
+    color: var(--color-galaxy-grey);
+  }
+
+  /* Logo above the name on phones, beside it from sm up; the logo box is as wide as the ESG overview's */
+  .e4s-partners__org {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  @media (min-width: 640px) {
+    .e4s-partners__org {
+      flex-direction: row;
+      align-items: center;
+      gap: 16px;
+    }
+  }
+
+  .e4s-partners__logo {
+    display: grid;
+    flex: none;
+    place-items: center;
+    width: 120px;
+    height: 52px;
+    padding: 4px 8px;
+    border-radius: 0.25rem;
+    background: #f3f4f6;
+  }
+
+  .e4s-partners__logo img {
+    width: auto;
+    max-width: 104px;
+    max-height: 44px;
+    object-fit: contain;
+  }
+
+  /* Short name in bold, or the legal name when the partner has no short name */
+  .e4s-partners__label {
+    display: block;
+    font-weight: 700;
+    color: var(--color-galaxy-dark);
+  }
+
+  .e4s-partners a {
+    text-decoration: none;
+  }
+
+  .e4s-partners a:hover .e4s-partners__label {
+    color: var(--color-galaxy-primary);
+    text-decoration: underline;
+  }
+
+  .e4s-partners__note {
+    display: block;
+    font-size: 0.75rem;
+    color: var(--color-galaxy-grey);
+  }
+</style>

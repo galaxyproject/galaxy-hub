@@ -1,0 +1,59 @@
+---
+/**
+ * The ESG4Stars overview sections after the summary: pillars, architecture, news, events, partners
+ * and funding. Shared by the Hub page and its bare copy; the bare page rewrites the site-path links.
+ */
+import ProjectFunding from '@/components/projects/ProjectFunding.astro';
+import ProjectRows from '@/components/projects/ProjectRows.astro';
+import ProjectSection from '@/components/projects/ProjectSection.astro';
+import Esg4StarsPartners from './Esg4StarsPartners.astro';
+import Esg4StarsPillars from './Esg4StarsPillars.astro';
+import Esg4StarsStreams from './Esg4StarsStreams.astro';
+import { countLabel } from '@/utils/projectFacts';
+import type { Esg4StarsOverview } from '@/utils/esg4starsOverview';
+
+interface Props {
+  overview: Esg4StarsOverview;
+}
+
+const { overview } = Astro.props;
+const { project, eventsTitle, ended } = overview;
+---
+
+{overview.pillars && <Esg4StarsPillars title={overview.pillarsTitle} pillars={overview.pillars} />}
+
+{overview.streams && <Esg4StarsStreams title={overview.streamsTitle} streams={overview.streams} />}
+
+<ProjectSection
+  id="news"
+  title="News"
+  more={{ href: overview.newsHref, label: `All ${overview.newsCount} news`, context: `from ${project.name}` }}
+>
+  {overview.newsRows.length > 0 ? (
+    <ProjectRows kind="news" items={overview.newsRows} />
+  ) : (
+    <p class="text-chicago-700 text-sm">No news articles yet.</p>
+  )}
+</ProjectSection>
+
+<ProjectSection
+  id="events"
+  title={eventsTitle}
+  more={{ href: overview.eventsHref, label: `All ${eventsTitle.toLowerCase()}`, context: `of ${project.name}` }}
+>
+  {overview.eventRows.length > 0 ? (
+    <ProjectRows kind="events" items={overview.eventRows} />
+  ) : (
+    <p class="text-chicago-700 text-sm">{ended ? 'No past events.' : 'No events yet.'}</p>
+  )}
+</ProjectSection>
+
+{overview.partners && (
+  <Esg4StarsPartners
+    title={overview.partnersTitle}
+    partners={overview.partners}
+    count={countLabel(project.partnerCount, 'organisation')}
+  />
+)}
+
+<ProjectFunding slug={overview.fundingSlug} class="mt-10" />
