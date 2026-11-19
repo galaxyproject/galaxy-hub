@@ -103,9 +103,9 @@ const linkClass =
 const triggerClass =
   'flex w-full items-center justify-between px-3 py-2 text-sm font-medium text-chicago-300 hover:bg-medium-bg hover:text-white rounded-md transition-colors';
 const subLinkClass =
-  'flex items-center px-3 py-1.5 text-sm text-chicago-400 hover:bg-medium-bg hover:text-white rounded-md transition-colors';
+  'flex items-center px-3 py-1.5 text-sm text-chicago-300 hover:bg-medium-bg hover:text-white rounded-md transition-colors';
 const bottomLinkClass =
-  'flex items-center px-3 py-2 text-sm text-chicago-400 hover:bg-medium-bg hover:text-white rounded-md transition-colors';
+  'flex items-center px-3 py-2 text-sm text-chicago-300 hover:bg-medium-bg hover:text-white rounded-md transition-colors';
 </script>
 
 <template>
