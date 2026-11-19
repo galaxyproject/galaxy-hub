@@ -33,6 +33,9 @@ title: Galaxy Live
   border-color: rgba(255, 215, 0, 0.75);
   box-shadow: 0 4px 8px rgba(44, 49, 67, 0.12);
 }
+.mcard:focus-visible {
+  box-shadow: 0 0 0 2px var(--color-focus-inner), 0 1px 2px rgba(44, 49, 67, 0.08);
+}
 
 .flex-container {
   padding: 0;
