@@ -21,11 +21,6 @@
     text-decoration: none;
   }
 
-  .skip-link:focus {
-    outline: 2px solid var(--color-galaxy-dark);
-    outline-offset: 2px;
-  }
-
   .skip-link:not(:focus) {
     width: 1px;
     height: 1px;
@@ -39,5 +34,6 @@
 <style is:global>
   #main-content:focus {
     outline: none;
+    box-shadow: none;
   }
 </style>

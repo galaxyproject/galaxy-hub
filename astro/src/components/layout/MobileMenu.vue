@@ -99,7 +99,7 @@ function handleNavClick() {
     <button
       ref="chip"
       type="button"
-      class="ml-1.5 inline-flex min-w-0 max-w-full items-center gap-1 rounded-md p-2 text-sm font-medium text-white hover:bg-medium-bg transition-colors focus-visible:outline-2 focus-visible:outline-galaxy-gold"
+      class="ml-1.5 inline-flex min-w-0 max-w-full items-center gap-1 rounded-md p-2 text-sm font-medium text-white hover:bg-medium-bg transition-colors"
       aria-haspopup="dialog"
       :aria-expanded="isOpen && openedFromChip"
       :data-context="context.id"
