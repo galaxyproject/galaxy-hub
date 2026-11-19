@@ -255,6 +255,12 @@ const crumbs = [
     background: var(--color-chicago-50);
   }
 
+  /* The scrolling strip clips anything outside the link, so the ring sits inside it */
+  .project-tabs a:focus-visible {
+    outline-offset: -2px;
+    box-shadow: none;
+  }
+
   .project-tabs a[aria-current='page'] {
     color: var(--color-galaxy-dark);
     border-bottom-color: var(--color-galaxy-gold);
