@@ -326,6 +326,7 @@ export const KNOWN_COMPONENTS = [
   'Supporters',
   'Contacts',
   'MarkdownEmbed',
+  'MermaidEmbed',
   'CalendarEmbed',
   'Insert',
   'LatestFeeds',
