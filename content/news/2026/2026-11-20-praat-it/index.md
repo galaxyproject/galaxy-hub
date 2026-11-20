@@ -1,6 +1,6 @@
 ---
 title: 'From Galaxy Tool Development workshop to My First Interactive Tool: Bringing Praat to Galaxy'
-date: '2026-11-05'
+date: '2026-11-20'
 tease: "Everyone can contribute to Galaxy! Get inspired how I got (with the help of the Galaxy community) the well-known speech analysis software Praat into Galaxy and learned a lot about containerisation, git, and Galaxy ITs along the way."
 hide_tease: false
 subsites: [global, eu, freiburg]
@@ -39,7 +39,7 @@ audio signals, inspect spectrograms, measure acoustic properties, and create or 
 This adds neatly to other tools already on Galaxy, like Montreal Forced Aligner (MFA) and New Fave.
 
 Until now, Galaxy enabled the alignment of transcriptions with their audio files through MFA, and the extraction of vowel formant measurements using new-fave. But researchers had to export the aligned TextGrids and leave the Galaxy platform to check and correct the automatic alignments before they could be processed in new-fave. This was time-consuming and messy. 
-Wouldn't it be much better if  you could use Praat directly within Galaxy alongside the rest of your speech research workflow?
+Wouldn't it be much better if you could use Praat directly within Galaxy alongside the rest of your speech research workflow?
 
 ## From speech recordings to phonetic annotations directly in your browser: Praat in Galaxy
 
