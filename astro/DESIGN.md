@@ -150,7 +150,7 @@ The scale follows prototype A of the redesign. galaxy-ui's `GHeading` sizes (`h-
 
 ### Icons
 
-Use **Lucide icons** (via `lucide-vue-next` and the Lucide SVG set) for all UI chrome -- navigation, controls, inline icons in buttons. The content preprocessor automatically converts legacy FontAwesome references in Markdown/MDX to inline Lucide SVGs, so don't introduce new FontAwesome usage.
+Use **Lucide icons** (`@lucide/vue` in Vue components, `components/mdx/Icon.astro` in Astro) for all UI chrome -- navigation, controls, inline icons in buttons. The content preprocessor automatically converts legacy FontAwesome references in Markdown/MDX to inline Lucide SVGs, so don't introduce new FontAwesome usage.
 
 ### Prose Styling
 
@@ -271,6 +271,14 @@ Variants and elements:
 - `gx-tile--feature` -- galaxy-primary left border for emphasized tiles.
 - `gx-tile__media` (160px cover image), `gx-tile__title`, `gx-tile__body` (richer markdown bodies -- separate inner content with blank lines so Markdown renders), `gx-tile__teaser` (short plain text), `gx-tile__credit` (small chicago-500 caption, e.g. photo credits), `gx-tile__more` (link affordance).
 
+### Link Tile
+
+`LinkTile` (`components/use/`) builds the bottom of `/use/`. It is an `<li>` item: the page owns the `<ul>`. The four main server boxes at the top of the page stay as written in `use/index.astro`: gradient boxes with a generic icon and no logos, so the four look alike. Their grid is four columns only from `xl` (1280px): with the sidebar open, `lg` leaves the boxes too narrow for the "Start analyzing" link. Logos can be considered once every instance has one.
+
+- `LinkTile`: one link into another page, the whole tile is the `<a>`: 40px icon square (`surface-tint`), title (`text-h4`), description (`text-meta text-fg-2`) and an arrow; an external link adds an icon and sr-only "(opens in a new tab)". Place tiles in `grid-cols-[repeat(auto-fit,minmax(min(100%,16rem),1fr))]`.
+- Compat collisions: `bootstrap-compat.css` defines these plain classes globally, outside `.bs-compat` too, and the legacy values win over Tailwind's: `p-0..5`, `m-0..5`, `mt-0..5`, `mb-0..5`, `ml-`/`mr-`/`mx-` (0..5, `auto`), `.border` (and `border-0`), `.rounded`, `.shadow` and `.shadow-sm`. In this component use arbitrary values (`p-[1.25rem]`, `mt-[1rem]`, `shadow-[var(--gx-elev-sm)]`) and `border-1`; variant forms (`hover:shadow-sm`) are not affected.
+- Colours are role tokens only; focus is the solid 2px outline from Filters. Descriptions are plain text, since the tile is a link and links cannot nest.
+
 ### Callout / Note
 
 Brand-tinted note box for asides and "good to know" content. Replaces Bootstrap `alert-*`. Intentionally blue (not gold), so gold stays reserved for high-impact moments.
@@ -282,6 +290,22 @@ Brand-tinted note box for asides and "good to know" content. Replaces Bootstrap 
 ```
 
 `.callout`: `bg-bay-of-many-100`, `border-l-4 border-l-galaxy-primary`, rounded right corners, galaxy-dark text.
+
+### Date Badge
+
+A highlighted date: a coloured label joined to the date, in a bordered pill. Used for "Save the date" in a conference hero and for a sub-event's dates (e.g. CoFest). Add an optional subtitle under the date:
+
+```html
+<div class="gx-date-badge">
+  <span class="gx-date-badge__label">CoFest</span>
+  <span class="gx-date-badge__value">
+    June&nbsp;30 – July&nbsp;1, 2027
+    <span class="gx-date-badge__sub">Wednesday – Thursday, right after the conference</span>
+  </span>
+</div>
+```
+
+`gx-date-badge` sits inline; centre it with a wrapping flex container. When there isn't room for both halves side by side, the label wraps above the date. Use `&nbsp;` inside a date (`June&nbsp;30`) so it only breaks between parts.
 
 ### Key Dates Table
 
@@ -300,6 +324,60 @@ Dated milestones (openings, deadlines, results) as a plain Markdown table. `gx-d
 ```
 
 `gx-dates` centres the second (status icon) column and shrinks it to its content; keep that column to icons only. Icons used on the conference pages: 🟢 opens, 🔴 deadline, 🏆 results, 🎉 conference week. Markdown column alignment (`:---:`, `---:`) works on every page, independently of `gx-dates`.
+
+### Event Schedule
+
+A day-by-day programme: one `##` heading per day, each followed by a plain
+Markdown table wrapped in `gx-schedule`. Columns are **Time | Event**, with an
+optional third **Location** column:
+
+```html
+<div class="gx-schedule">
+
+| Time | Event |
+| --- | --- |
+| 9:00–10:00 | Keynote |
+| 10:00–10:20 | *Break* |
+
+</div>
+```
+
+- The time column has a fixed width, so every day's table lines up. The header
+  row is collapsed but kept for screen readers.
+- An Event cell holding only italic text (`*Break*`, `*Lunch*`) marks a
+  logistics row, which gets a muted fill so the sessions stand out.
+- Below 640px, a Location column moves under its event rather than adding a
+  third column.
+
+Jump links to the days go in `<nav class="gx-timeline not-prose">`: a
+bordered timeline, read left to right, with one phase per part of the event.
+Each phase has a coloured label strip and links to its days; `--days` sets its
+width in proportion to its number of days.
+
+```html
+<nav class="gx-timeline not-prose" aria-label="Schedule days">
+  <div class="gx-timeline__track">
+    <div class="gx-timeline__phase gx-timeline__phase--gold" style="--days: 1">
+      <span class="gx-timeline__label">Training</span>
+      <div class="gx-timeline__dates">
+        <a href="#saturday-june-26">Sat 26</a>
+      </div>
+    </div>
+    <div class="gx-timeline__phase" style="--days: 3">
+      <span class="gx-timeline__label">Conference</span>
+      <div class="gx-timeline__dates">
+        <a href="#sunday-june-27">Sun 27</a>
+        <a href="#monday-june-28">Mon 28</a>
+        <a href="#tuesday-june-29">Tue 29</a>
+      </div>
+    </div>
+  </div>
+</nav>
+```
+
+- Phase label colours: galaxy-primary by default, `gx-timeline__phase--gold`
+  or `--dark` for the others.
+- Below 480px the phases stack, each with its label above its days.
 
 ### Profile Row
 
@@ -400,6 +478,7 @@ These use the OKLch semantic tokens, which read as neutral on Galaxy backgrounds
 Listing pages (news, events, citations, platforms, search) filter in place and keep the filter state in the URL, so a filtered view can be shared, bookmarked and restored with back/forward.
 
 - **Component**: `FilterBar` (`@/components/filters/FilterBar.vue`) composes `YearFilter` (year chips plus an "Older years" select), a labelled text search (`ui/input`), an optional tag/type select (`ui/select`), a "Clear filters" button (`ui/button`, shown only while a filter is active) and the result count. The list component owns the state and passes it in with `v-model:q`, `v-model:year` and `v-model:tag`; the bar stays presentational. Adopted by news, citations and events. Citations add the opt-in "Unknown year" chip through `unknownYearCount` and keep their list as server HTML, which the bar's island filters in place. Events add status chips through `statusOptions`, `:status` and `@update:status`: upcoming or past, "All events" by default; the archive has none. The platform directory (`/use/`) and Hub Search keep their own controls (tool/genome suggestions, several selects) and sync them through `@/utils/urlFilters`.
+- **Platform directory** (`PlatformDirectory.vue`): a tinted panel (`bg-surface-2`) with the search and "Clear filters" on one row (the suggestion list spans the panel and would cover a button below it), then Type, Location and Platform as native selects whose options carry counts ("Germany (32)"; Location shows country names from the ISO code through `utils/countryName.ts`). The top "Clear filters" hides while the empty state shows its own. The card grid is two columns from `md` and three from `xl` (a logo plate leaves too little title room in three columns on a 1024px window). Cards are `ul > li` with the title as an `h3` link stretched over the card, a 3px gold bar on the left edge (as on the project cards, `scaleY` on hover and focus) and a logo only when the site image path contains `logo` (such as `/images/logos/...`; 96x40 on a `#f3f4f6` plate, `object-contain`); other images are figures, so those cards show two-letter initials. Summary links keep only their text.
 - **Year chips**: the first chip is "All years" (no year filter, newest first), then the five most recent years with counts, then older years in the select. Chips are `<button aria-pressed>` inside `role="group"` with an `aria-label`, `rounded-md` like other controls, at least 32px tall.
 - **URL sync**: use `@/utils/urlFilters` (`readParams`, `writeParams`, `onPopState`), never `history.replaceState` by hand. It keeps `history.state` (Astro's ClientRouter stores its navigation index there) and the hash, drops empty and default values and writes params in a stable order; `onPopState` only calls back while the URL is still on the page that subscribed. Read params in `onMounted`, not during setup: the server render has no query string and hydration must match it.
 - **Param names**: `q` (text), `year`, `tag`, `region`, `type`, `status`, `sort`, `view`. Write them in that order. Pagination ("Load more") stays out of the URL. Keep accepting legacy names and values a page already supports (for example the singular `platform_group` slugs).
@@ -569,7 +648,7 @@ Projects with their own section (`/projects/<id>/`, today EuroScienceGateway and
 - **Top** (`components/projects/ProjectPageTop.astro`): breadcrumbs, then on the overview a **project band**: `galaxy-dark` to `galaxy-primary` gradient with the 24px grid texture, 3px `galaxy-gold` bottom rule, at most 180px tall at desktop width. It holds an uppercase eyebrow ("Project · EOSC · Horizon Europe", layers icon in gold), the `h1`, a white status badge ("Ended · Aug 2025") and the lead; the light-lettered logo sits on the right and hides below 640px. Section pages (News, and Past events or Events) pass `title` and get a compact header instead: the `h1` with the status badge after it on the same line, and no project link in the header (the breadcrumb and the Overview tab lead back).
 - **Tabs**: a `nav` labelled "<project> sections" with links, not ARIA tabs (each tab is its own page). The current tab has `aria-current="page"` and a 3px `galaxy-gold` underline; a count pill can follow the label (News). Tabs are 44px tall and scroll sideways on phones.
 - **Ended notice** (`ProjectEndedNotice.astro`): `role="note"`, `chicago-50` box with a `chicago-500` left rule and an archive icon: "This project has ended", then the dates from the frontmatter and the page's own sentence (`record` prop or the default slot).
-- **Facts box** (`ProjectFactsBox.astro`): white box with a `bay-of-many-200` border: status, duration with its length in months, programme and call, one row per grant (external links), a "Partner list" row linking to `#partners` (the number of listed organisations, not a partner count claim), and the funding logo on a light plate. On `lg` and up it sits in a 15rem right rail above "On this page" (labels above values); the facts scroll away and "On this page" stays sticky 24px below the window top, scrolling itself when taller than the window (slot `toc` of `ProjectColumns.astro`; the wrapper classes are `tocRailClass` in `utils/tocRail.ts`, shared with the reading rail); below `lg` it shows inline under the notice. Give each copy its own `idPrefix`.
+- **Facts box** (`ProjectFactsBox.astro`): white box with a `bay-of-many-200` border: status, duration with its length in months, programme and call, one row per grant (external links), a "Partner list" row linking to `#partners` (the number of listed organisations, not a partner count claim), and the funding logo on a light plate. On `lg` and up it sits in a 15rem right rail above "On this page" (labels above values); the facts scroll away and "On this page" stays sticky 24px below the window top, scrolling itself when taller than the window (the `headings` of `ProjectColumns.astro`; the wrapper classes are `tocRailClass` in `utils/tocRail.ts`, shared with the reading rail); below `lg` it shows inline under the notice, followed by "On this page" as the collapsible `MobileToc` block (the one `ContentWithToc` uses below `xl`) above the first section. Give each copy its own `idPrefix`.
 - **Overview layout**: `ProjectColumns.astro` (lead slot, right rail, main column) and `ProjectSection.astro` (an `h2`, optionally in a head row with a count pill such as "13 organisations" or an "All N news" link). Project-specific lists stay in the page: ESG's objectives, logo links, results and partner logos; ESG4Stars' five pillars (a text list with a colour bar per pillar, red to green as in the project's graphic, never the image), thematic streams and a partner table (number, short name in bold over the legal name, or the legal name in bold when there is no short name, and the country by its English name from the ISO code in the YAML via `utils/countryName.ts`; no logos).
 - **Logos** with dark lettering (partners, linked projects, the funding logo) sit on a light plate (`#f3f4f6`).
 - **Lists**: news and events use `ProjectRows.astro` (title link, date line, teaser; past events get the muted date line); the News page reuses `NewsList` with the same items as /news/ (`utils/newsList.ts`: teaser HTML and tile image).

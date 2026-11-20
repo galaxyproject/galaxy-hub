@@ -5,7 +5,6 @@ tease: "Across 160 bioinformatics tasks, agents using Galaxy achieved accuracy c
 hide_tease: true
 tags: [ai, llm]
 subsites: [global]
-autotoc: false
 contributions:
   authorship:
     - qchiujunhao

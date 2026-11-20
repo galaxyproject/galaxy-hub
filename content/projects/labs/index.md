@@ -1,6 +1,5 @@
 ---
 description: "A tailored landing page and toolbox over an existing Galaxy server, built and maintained by the research community it serves"
-autotoc: false
 title: "Galaxy Labs"
 ---
 

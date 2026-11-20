@@ -9,7 +9,6 @@ import ProjectPageTop from '../../../components/projects/ProjectPageTop.astro';
 import ProjectEndedNotice from '../../../components/projects/ProjectEndedNotice.astro';
 import ProjectFactsBox from '../../../components/projects/ProjectFactsBox.astro';
 import ProjectFunding from '../../../components/projects/ProjectFunding.astro';
-import TableOfContents from '../../../components/layout/TableOfContents.astro';
 import ProjectRows from '../../../components/projects/ProjectRows.astro';
 import ProjectColumns from '../../../components/projects/ProjectColumns.astro';
 import ProjectSection from '../../../components/projects/ProjectSection.astro';
@@ -68,7 +67,7 @@ const headings = [
       counts={{ [newsHref]: esgNews.length }}
     />
 
-    <ProjectColumns>
+    <ProjectColumns headings={headings}>
       <Fragment slot="lead">
         <ProjectEndedNotice
           name={project.name}
@@ -91,8 +90,6 @@ const headings = [
           partnerCount={project.partnerCount}
         />
       </Fragment>
-
-      <TableOfContents slot="toc" headings={headings} />
 
       <div class="prose prose-galaxy max-w-none">
         <Summary />

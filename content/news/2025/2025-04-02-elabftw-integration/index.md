@@ -7,7 +7,7 @@ subsites: [eu, esg]
 tags: [esg, esg-wp2, interoperability]
 contributions:
   authorship:
-    - kysrpex
+    - domgz
   funding:
     - eu
     - eurosciencegateway

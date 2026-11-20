@@ -8,7 +8,7 @@ platforms:
     platform_text: "ABiMS Galaxy"
     platform_location: FR
 summary: "Analysis and bioinformatics for Marine Science."
-image: "http://abims.sb-roscoff.fr/sites/abims.sb-roscoff.fr/files/logos/abims/abims-LD.png"
+image: "/images/logos/ABiMSLogo.png"
 comments:
   - "General purpose genomics analysis, featuring many standard tools plus many additional tools. Howerver, we are specialized in RNASeq with reference and RNASeq denovo."
   - "[Request an account](http://abims.sb-roscoff.fr/account)"

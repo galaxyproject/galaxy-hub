@@ -1,14 +1,14 @@
 import { test, expect, type Page } from '@playwright/test';
 
 /**
- * /agents/ -- unified, zero-distraction setup page: compact header, 5 harness
- * tabs immediately above the fold (Claude Code, Codex CLI, Antigravity,
+ * /agents/ -- unified, zero-distraction setup page: compact header, 6 harness
+ * tabs immediately above the fold (Claude Code, Codex CLI, Antigravity, Orbit,
  * Claude Desktop, Pi / Cursor / Other), each rendering a self-contained
  * Step A -> Step B -> Step C checklist, followed by the plugin summary and
  * modest footer cards (/agents/stack/, /tools/user-defined-tools/, /agents/orbit/).
  */
 
-const HARNESSES = ['claude-code', 'codex', 'antigravity', 'claude-desktop', 'other'];
+const HARNESSES = ['orbit', 'claude-code', 'codex', 'antigravity', 'claude-desktop', 'other'];
 
 const guidesMounted = (page: Page) =>
   expect(page.locator('[data-harness-guides]')).toHaveAttribute('data-mounted', '1');
@@ -16,7 +16,7 @@ const selectedGuide = (page: Page) => page.locator('[data-harness-guides] [data-
 const visiblePanels = (page: Page) => page.locator('[data-harness-guides] [data-guide-panel]:not([hidden])');
 
 test.describe('Agents setup page (/agents/)', () => {
-  test('renders compact header, 5 harness tabs above the fold, self-contained A/B/C steps, and footer links', async ({
+  test('renders compact header, 6 harness tabs above the fold, self-contained A/B/C steps, and footer links', async ({
     page,
   }) => {
     const errors: string[] = [];
@@ -33,25 +33,33 @@ test.describe('Agents setup page (/agents/)', () => {
 
     const guides = page.locator('[data-harness-guides]');
     await expect(guides).toBeVisible();
+    await expect(guides.locator('.hstep--picker .hstep__badge')).toHaveText('1');
+    await expect(guides.locator('.hstep--picker')).toContainText('Pick your agent');
     await expect(guides.getByRole('tab')).toHaveCount(HARNESSES.length);
+    await expect(guides.getByRole('tab').first()).toHaveAttribute('data-guide-tab', 'orbit');
+    await expect(guides.locator('.hguides__logo svg')).toHaveCount(HARNESSES.length);
     await expect(guides.locator('[data-guide-panel]')).toHaveCount(HARNESSES.length);
     await expect(visiblePanels(page)).toHaveCount(1);
-    await expect(visiblePanels(page)).toHaveAttribute('data-guide-panel', 'claude-code');
+    await expect(visiblePanels(page)).toHaveAttribute('data-guide-panel', 'orbit');
 
-    // Active panel has self-contained Step A (including UDT signup), Step B, Step C.
-    const claudePanel = page.locator('#guide-claude-code');
-    await expect(claudePanel).toContainText('Step A');
-    await expect(claudePanel).toContainText('Step B');
-    await expect(claudePanel).toContainText('Step C');
-    await expect(claudePanel.locator('a[href="https://udt-signup.galaxyproject.org/"]')).toBeVisible();
+    // Active panel (Orbit by default) has Step 2, Step 3, Step 4 cards underneath Box 1.
+    const orbitDefaultPanel = page.locator('#guide-orbit');
+    await expect(orbitDefaultPanel.locator('.hstep')).toHaveCount(3);
+    await expect(orbitDefaultPanel.locator('.hstep__badge')).toHaveText(['2', '3', '4']);
+    await expect(orbitDefaultPanel).toContainText('Step 2');
+    await expect(orbitDefaultPanel).toContainText('Step 3');
+    await expect(orbitDefaultPanel).toContainText('Step 4');
+    await expect(orbitDefaultPanel.locator('a[href="https://udt-signup.galaxyproject.org/"]')).toBeVisible();
 
     // Footer links to stack, UDT docs, and Orbit.
     for (const href of ['/agents/stack/', '/tools/user-defined-tools/', '/agents/orbit/']) {
-      await expect(page.locator(`a[href="${href}"]`).first(), href).toBeVisible();
+      await expect(page.locator(`.ag-examples a[href="${href}"]`), href).toBeVisible();
     }
     await expect(page.getByRole('heading', { name: 'Get help' })).toBeVisible();
     await expect(
-      page.locator('a[href="https://github.com/galaxyproject/galaxy/discussions/categories/agents-udts"]')
+      page.locator(
+        '.ag-band:not(.ag-band--guides) a[href="https://github.com/galaxyproject/galaxy/discussions/categories/agents-udts"]'
+      )
     ).toBeVisible();
     await expect(page.locator('meta[property="og:image"]')).toHaveAttribute('content', /galaxy_logo/);
 
@@ -77,6 +85,17 @@ test.describe('Agents setup page (/agents/)', () => {
   });
 
   test('deep links open exact panel and alias #guide-pi / #guide-cursor to the Other panel', async ({ page }) => {
+    await page.goto('/agents/#guide-orbit');
+    await guidesMounted(page);
+    await expect(visiblePanels(page)).toHaveAttribute('data-guide-panel', 'orbit');
+    const orbitPanel = page.locator('#guide-orbit');
+    await expect(orbitPanel.locator('.hstep')).toHaveCount(3);
+    await expect(orbitPanel).toContainText('Step 2');
+    await expect(orbitPanel).toContainText('Step 3');
+    await expect(orbitPanel).toContainText('Step 4');
+    await expect(orbitPanel.locator('a[href="https://github.com/galaxyproject/orbit/releases/latest"]')).toBeVisible();
+    await expect(orbitPanel.locator('a[href="/agents/orbit/"]').first()).toBeVisible();
+
     await page.goto('/agents/#guide-claude-desktop');
     await guidesMounted(page);
     await expect(visiblePanels(page)).toHaveAttribute('data-guide-panel', 'claude-desktop');

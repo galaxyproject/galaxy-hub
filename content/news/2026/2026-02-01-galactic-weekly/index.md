@@ -131,7 +131,7 @@ This week, one new issue was reported for the galaxy-release-util repository con
 - [Bump python-multipart from 0.0.21 to 0.0.22 in /lib/galaxy/dependencies](https://github.com/galaxyproject/galaxy/pull/21663) by @dependabot[bot]
 - [Add agent based AI tool recommendation](https://github.com/galaxyproject/galaxy/pull/21661) by @dannon
 - [Update locuszoom package version to 0.0.9](https://github.com/galaxyproject/galaxy/pull/21658) by @elmedjadjirayane
-- [[25.1] Fix HTCondor runner unwatching jobs when stopping containers](https://github.com/galaxyproject/galaxy/pull/21656) by @kysrpex
+- [[25.1] Fix HTCondor runner unwatching jobs when stopping containers](https://github.com/galaxyproject/galaxy/pull/21656) by @domgz
 - [Add tests for oidc usernames](https://github.com/galaxyproject/galaxy/pull/21655) by @nuwang
 
 ### galaxy-hub

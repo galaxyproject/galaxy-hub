@@ -322,7 +322,7 @@ test.describe('Event pages and the On this page rail at 1440px', () => {
   });
 
   test('an event with autotoc: false keeps no rail', async ({ page }) => {
-    await page.goto('/events/2021-10-sars-cov-2-training/');
+    await page.goto('/events/2022-10-psu-workshop/');
     await expect(page.locator('.prose-galaxy').first()).toBeVisible();
     await expect(page.locator('.toc-sidebar')).toHaveCount(0);
   });
