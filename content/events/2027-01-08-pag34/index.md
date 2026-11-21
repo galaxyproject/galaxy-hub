@@ -11,6 +11,12 @@ contact: Organizing Committee
 gtn: false
 tags: [conference, workshop, community]
 subsites: [all]
+contributions:
+  instructors:
+    - mschatz
+    - natalie-wa
+    - nekrut
+    - richard-burhans
 ---
 
 # PAG 34
