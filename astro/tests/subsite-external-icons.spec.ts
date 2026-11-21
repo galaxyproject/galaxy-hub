@@ -10,7 +10,11 @@ test.describe('Subsite external link indicators', () => {
   });
 
   test('/eu/events/ shows external icon for events with external_url', async ({ page }) => {
-    const response = await page.goto('/eu/events/');
+    // Pin the year, as the /eu/news/ test above does. The past-events list is
+    // sorted newest-first and sliced to pageSize (50), so an unfiltered
+    // /eu/events/ drops this 2025 event off the first page as newer events
+    // age into the past.
+    const response = await page.goto('/eu/events/?year=2025');
     expect(response?.status()).toBe(200);
 
     const event = page.getByRole('link', { name: /ecoCompute conference 2025/i });
