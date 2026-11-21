@@ -12,6 +12,9 @@ gtn: false
 tags: [conference, workshop, community]
 subsites: [all]
 contributions:
+  organisers:
+    - scottcain
+    - jennaj
   instructors:
     - mschatz
     - natalie-wa
