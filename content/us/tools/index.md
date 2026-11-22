@@ -2,7 +2,7 @@
 # THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
 # To update, run: python3 scripts/update-tools.py --server https://usegalaxy.org --name "Galaxy US" --output content/us/tools/index.md
 title: Galaxy US Tools
-description: "2399 tools and counting"
+description: "2421 tools and counting"
 ---
 
 
@@ -307,6 +307,7 @@ description: "2399 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=samtools_collate" target="_top" title="shuffle and group reads together by their names">Samtools collate</a>
 <a href="https://usegalaxy.org/root?tool_id=samtools_coverage" target="_top" title="Produces a histogram or table of coverage per chromosome">Samtools coverage</a>
 <a href="https://usegalaxy.org/root?tool_id=samtools_depth" target="_top" title="compute the depth at each position or region">Samtools depth</a>
+<a href="https://usegalaxy.org/root?tool_id=samtools_faidx" target="_top" title="Index a FASTA file">Samtools faidx</a>
 <a href="https://usegalaxy.org/root?tool_id=samtools_fastx" target="_top" title="extract FASTA or FASTQ from alignment files">Samtools fastx</a>
 <a href="https://usegalaxy.org/root?tool_id=samtools_fixmate" target="_top" title="fill mate coordinates, ISIZE and mate related flags">Samtools fixmate</a>
 <a href="https://usegalaxy.org/root?tool_id=samtools_flagstat" target="_top" title="tabulate descriptive stats for BAM datset">Samtools flagstat</a>
@@ -834,17 +835,38 @@ description: "2399 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=arriba_draw_fusions" target="_top" title="">Arriba Draw Fusions</a>
 <a href="https://usegalaxy.org/root?tool_id=arriba_get_filters" target="_top" title="to history">Arriba Get Filters</a>
 <a href="https://usegalaxy.org/root?tool_id=bamleftalign" target="_top" title="indels in BAM datasets">BamLeftAlign</a>
+<a href="https://usegalaxy.org/root?tool_id=cnvkit_antitarget" target="_top" title="Lists the chromosomal coordinates for targeted resequencing">CNVkit Antitarget</a>
+<a href="https://usegalaxy.org/root?tool_id=cnvkit_autobin" target="_top" title="Estimates read counts or depths in a BAM file">CNVkit Autobin</a>
+<a href="https://usegalaxy.org/root?tool_id=cnvkit_batch" target="_top" title="Run the CNVkit pipeline on one or more BAM files">CNVkit Batch</a>
+<a href="https://usegalaxy.org/root?tool_id=cnvkit_breaks" target="_top" title="List the targeted genes with segmentaion breakpoint">CNVkit Breaks</a>
+<a href="https://usegalaxy.org/root?tool_id=cnvkit_call" target="_top" title="Call copy number variants from segmented log2 ratios">CNVkit Call</a>
+<a href="https://usegalaxy.org/root?tool_id=cnvkit_coverage" target="_top" title="Calculate coverage in the given regions from BAM read depths">CNVkit Coverage</a>
+<a href="https://usegalaxy.org/root?tool_id=cnvkit_diagram" target="_top" title="Draw copy number on chromosomes as a diagram">CNVkit Diagram</a>
+<a href="https://usegalaxy.org/root?tool_id=cnvkit_fix" target="_top" title="Adjust raw coverage data">CNVkit Fix</a>
+<a href="https://usegalaxy.org/root?tool_id=cnvkit_genemetrics" target="_top" title="Identify targeted genes with copy number gain or loss">CNVkit Genemetrics</a>
+<a href="https://usegalaxy.org/root?tool_id=cnvkit_heatmap" target="_top" title="Plot copy number for multiple samples as a heatmap">CNVkit Heatmap</a>
+<a href="https://usegalaxy.org/root?tool_id=cnvkit_reference" target="_top" title="Compile a copy-number reference from the given files or directory containing normal samples">CNVkit Reference</a>
+<a href="https://usegalaxy.org/root?tool_id=cnvkit_scatter" target="_top" title="Plot bin-level log2 coverages and segmentation calls together">CNVkit Scatter</a>
+<a href="https://usegalaxy.org/root?tool_id=cnvkit_segment" target="_top" title="Infer copy number segments from the given coverage table">CNVkit Segment</a>
+<a href="https://usegalaxy.org/root?tool_id=cnvkit_segmetrics" target="_top" title="calculate summary statistics">CNVkit Segmetrics</a>
+<a href="https://usegalaxy.org/root?tool_id=cnvkit_sex" target="_top" title="Guess samples’ chromosomal sex from the relative coverage of chromosomes X and Y">CNVkit Sex</a>
+<a href="https://usegalaxy.org/root?tool_id=cnvkit_target" target="_top" title="Prepare a BED file of baited regions for use with CNVkit">CNVkit Target</a>
 <a href="https://usegalaxy.org/root?tool_id=lofreq_call" target="_top" title="with LoFreq">Call variants</a>
 <a href="https://usegalaxy.org/root?tool_id=deepvariant" target="_top" title="deep learning-based variant caller">DeepVariant</a>
 <a href="https://usegalaxy.org/root?tool_id=exomedepth" target="_top" title="Calls copy number variants (CNVs) from targeted sequence data">ExomeDepth</a>
 <a href="https://usegalaxy.org/root?tool_id=getalleleseq" target="_top" title="Generate major and minor allele sequences from alleles table">FASTA from allele counts</a>
 <a href="https://usegalaxy.org/root?tool_id=snp_sites" target="_top" title="from a multi-FASTA alignment file">Finds SNP sites</a>
 <a href="https://usegalaxy.org/root?tool_id=freebayes" target="_top" title="bayesian genetic variant detector">FreeBayes</a>
+<a href="https://usegalaxy.org/root?tool_id=gatk4_applybqsr" target="_top" title="Apply Base Quality Score Recalibration (BQSR) to a BAM file">GATK4 ApplyBQSR</a>
+<a href="https://usegalaxy.org/root?tool_id=gatk4_base_recalibrator" target="_top" title="Generates recalibration table for Base Quality Score Recalibration (BQSR)">GATK4 BaseRecalibrator</a>
+<a href="https://usegalaxy.org/root?tool_id=gatk4_haplotype_caller" target="_top" title="Call germline SNPs and indels via local re-assembly of haplotypes">GATK4 HaplotypeCaller</a>
 <a href="https://usegalaxy.org/root?tool_id=gatk4_mutect2" target="_top" title="- Call somatic SNVs and indels via local assembly of haplotypes">GATK4 Mutect2</a>
+<a href="https://usegalaxy.org/root?tool_id=gatk4_split_n_cigar_reads" target="_top" title="Splits reads that contain Ns in their CIGAR string (RNA-seq)">GATK4 SplitNCigarReads</a>
 <a href="https://usegalaxy.org/root?tool_id=lofreq_indelqual" target="_top" title="into a BAM file">Insert indel qualities</a>
 <a href="https://usegalaxy.org/root?tool_id=jasminesv" target="_top" title="Merge structural variants across samples">JasmineSV</a>
 <a href="https://usegalaxy.org/root?tool_id=lofreq_filter" target="_top" title="called variants posteriorly">Lofreq filter</a>
 <a href="https://usegalaxy.org/root?tool_id=hetbox" target="_top" title="Minor Allele Frequency Boxplot">MAF boxplot</a>
+<a href="https://usegalaxy.org/root?tool_id=manta" target="_top" title="Manta calls structural variants (SVs) and indels from mapped paired-end sequencing reads.">Manta</a>
 <a href="https://usegalaxy.org/root?tool_id=mutate_snp_codon_1" target="_top" title="with SNPs">Mutate Codons</a>
 <a href="https://usegalaxy.org/root?tool_id=naive_variant_caller" target="_top" title="- tabulate variable sites from BAM datasets">Naive Variant Caller (NVC)</a>
 <a href="https://usegalaxy.org/root?tool_id=phylorelatives" target="_top" title="Relatedness of minor alelle sequences in NJ tree">Phylorelatives</a>
