@@ -2,7 +2,7 @@
 # THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
 # To update, run: python3 scripts/update-tools.py --server https://usegalaxy.eu --name "European Galaxy" --output content/eu/tools/index.md
 title: European Galaxy Tools
-description: "4557 tools and counting"
+description: "4577 tools and counting"
 ---
 
 
@@ -363,6 +363,7 @@ description: "4557 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=GeneBed_Maf_Fasta2" target="_top" title="given a set of coding exon intervals">Stitch Gene blocks</a>
 <a href="https://usegalaxy.eu/root?tool_id=biom_subset_table" target="_top" title="a BIOM table">Subset</a>
 <a href="https://usegalaxy.eu/root?tool_id=biom_summarize_table" target="_top" title="in a BIOM table">Summarize sample or observation data</a>
+<a href="https://usegalaxy.eu/root?tool_id=tei_converter" target="_top" title="convert linked entities to stand-off TEI annotations">TEI converter</a>
 <a href="https://usegalaxy.eu/root?tool_id=geopandas_table2geojson" target="_top" title="">Table to GeoJSON</a>
 <a href="https://usegalaxy.eu/root?tool_id=thermo_raw_file_converter" target="_top" title="RAW file converter">Thermo</a>
 <a href="https://usegalaxy.eu/root?tool_id=tooldistillator" target="_top" title="Extract information from output files of specific tools and expose it as JSON files">ToolDistillator</a>
@@ -495,6 +496,9 @@ description: "4557 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=cshl_fastx_renamer" target="_top" title="">Rename sequences</a>
 <a href="https://usegalaxy.eu/root?tool_id=cshl_fastx_reverse_complement" target="_top" title="">Reverse-Complement</a>
 <a href="https://usegalaxy.eu/root?tool_id=trim_reads" target="_top" title="">Select high quality segments</a>
+<a href="https://usegalaxy.eu/root?tool_id=seqfu_check" target="_top" title="Check the integrity of FASTQ files">SeqFu check</a>
+<a href="https://usegalaxy.eu/root?tool_id=seqfu_count" target="_top" title="Count FASTA/FASTQ reads">SeqFu count</a>
+<a href="https://usegalaxy.eu/root?tool_id=seqfu_stats" target="_top" title="Statistics on FASTA and FASTQ sequence lengths and quality">SeqFu stats</a>
 <a href="https://usegalaxy.eu/root?tool_id=seqkit_head" target="_top" title="Displays N records of a FASTA or FASTQ file">SeqKit Head</a>
 <a href="https://usegalaxy.eu/root?tool_id=seqkit_fx2tab" target="_top" title="convert FASTA/Q to tabular">SeqKit fx2tab</a>
 <a href="https://usegalaxy.eu/root?tool_id=seqkit_grep" target="_top" title="grep-like tools for FASTA/Q files">SeqKit grep</a>
@@ -858,6 +862,7 @@ description: "4557 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=picrust_categorize" target="_top" title="by collapsing hierarchical data to a specified functional level">Categorize</a>
 <a href="https://usegalaxy.eu/root?tool_id=chipseeker" target="_top" title="for ChIP peak annotation and visualization">ChIPseeker</a>
 <a href="https://usegalaxy.eu/root?tool_id=chewbbaca_allelecall" target="_top" title="Determine the allelic profiles of a set of genomes">ChewBBACA AlleleCall</a>
+<a href="https://usegalaxy.eu/root?tool_id=lc_classify" target="_top" title="by repeat unit and purity (BED6)">Classify low-complexity intervals</a>
 <a href="https://usegalaxy.eu/root?tool_id=clipkit" target="_top" title="trim multiple sequence alignments while retaining phylogenetically informative sites">ClipKIT</a>
 <a href="https://usegalaxy.eu/root?tool_id=commet" target="_top" title="COmpare Multiple METagenomes">Commet</a>
 <a href="https://usegalaxy.eu/root?tool_id=picrust_compare_biom" target="_top" title="Compare the accuracy of biom files (expected and observed) either by observations (default) or by samples.">Compare BIOM tables</a>
@@ -890,6 +895,7 @@ description: "4557 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=glimmer_extract" target="_top" title="from a genome">Extract sequence regions</a>
 <a href="https://usegalaxy.eu/root?tool_id=fair_bioheaders_combine" target="_top" title="add a metadata header to FASTA, GFA or GFF3">FAIR-bioHeaders combine</a>
 <a href="https://usegalaxy.eu/root?tool_id=fair_bioheaders_convert" target="_top" title="metadata between YAML, JSON, JSON-LD and HTML">FAIR-bioHeaders convert</a>
+<a href="https://usegalaxy.eu/root?tool_id=fair_bioheaders_metadata" target="_top" title="write FHR metadata for a genome assembly">FAIR-bioHeaders metadata</a>
 <a href="https://usegalaxy.eu/root?tool_id=fair_bioheaders_strip" target="_top" title="remove the metadata header from FASTA, GFA or GFF3">FAIR-bioHeaders strip</a>
 <a href="https://usegalaxy.eu/root?tool_id=fair_bioheaders_verify" target="_top" title="check a metadata header and its checksum">FAIR-bioHeaders verify</a>
 <a href="https://usegalaxy.eu/root?tool_id=fastani" target="_top" title="fast alignment-free computation of whole-genome Average Nucleotide Identity">FastANI</a>
@@ -1298,7 +1304,7 @@ description: "4557 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=aligned_to_consensus" target="_top" title="">Consensus sequence from aligned FASTA</a>
 <a href="https://usegalaxy.eu/root?tool_id=unicycler" target="_top" title="pipeline for bacterial genomes">Create assemblies with Unicycler</a>
 <a href="https://usegalaxy.eu/root?tool_id=disco" target="_top" title="to assemble metagenomics data using an overlap-layout-consensus (OLC) approach">DISCO</a>
-<a href="https://usegalaxy.eu/root?tool_id=make_ear" target="_top" title="A tool to compile assembly reports and statistics from assembly pipeline">ERGA Assembly Reporting Tool (EAR)</a>
+<a href="https://usegalaxy.eu/root?tool_id=make_ear" target="_top" title="compile assembly statistics into an ERGA Assembly Report (PDF)">ERGA Assembly Reporting Tool (EAR)</a>
 <a href="https://usegalaxy.eu/root?tool_id=edena_ass_wrapper" target="_top" title="">Edena (assembling)</a>
 <a href="https://usegalaxy.eu/root?tool_id=edena_ovl_wrapper" target="_top" title="">Edena (overlapping)</a>
 <a href="https://usegalaxy.eu/root?tool_id=fbqs_integrator" target="_top" title="Merge quality-checked outputs from Fastp, Bracken and QUAST into consolidated STARAMR Excel report">FBQS Integrator</a>
@@ -1313,7 +1319,7 @@ description: "4557 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=halfdeep" target="_top" title="identifies genomic regions with half-depth coverage based on sequencing read mappings.">HalfDeep</a>
 <a href="https://usegalaxy.eu/root?tool_id=hapcut2" target="_top" title="haplotype assembly for diploid organisms">Hapcut2</a>
 <a href="https://usegalaxy.eu/root?tool_id=hapog" target="_top" title="genome polishing">Hapo-G</a>
-<a href="https://usegalaxy.eu/root?tool_id=hifiasm" target="_top" title="haplotype-resolved de novo assembler for PacBio Hifi reads">Hifiasm</a>
+<a href="https://usegalaxy.eu/root?tool_id=hifiasm" target="_top" title="haplotype-resolved de novo assembler for PacBio Hifi and ONT reads">Hifiasm</a>
 <a href="https://usegalaxy.eu/root?tool_id=hifiasm_meta" target="_top" title="for metagenome assembly using Hifi reads">Hifiasm_meta</a>
 <a href="https://usegalaxy.eu/root?tool_id=hypo" target="_top" title="super fast and accurate polisher for long read genome assemblies">HyPo</a>
 <a href="https://usegalaxy.eu/root?tool_id=idba_hybrid" target="_top" title="Iterative de Bruijn Graph Assembler for hybrid sequencing data">IDBA-HYBRID</a>
@@ -1360,6 +1366,7 @@ description: "4557 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=refseq_masher_contains" target="_top" title="Find NCBI RefSeq Genomes contained in your sequences">RefSeq Masher Contains</a>
 <a href="https://usegalaxy.eu/root?tool_id=refseq_masher_matches" target="_top" title="Find closest matching NCBI RefSeq Genomes to your sequences">RefSeq Masher Matches</a>
 <a href="https://usegalaxy.eu/root?tool_id=salsa" target="_top" title="scaffold long read assemblies with Hi-C">SALSA</a>
+<a href="https://usegalaxy.eu/root?tool_id=skesa" target="_top" title="de novo assembly of microbial Illumina reads">SKESA</a>
 <a href="https://usegalaxy.eu/root?tool_id=sopra_wpc" target="_top" title="for Illumina libraries">SOPRA with prebuilt contigs</a>
 <a href="https://usegalaxy.eu/root?tool_id=spades" target="_top" title="genome assembler for genomes of regular and single-cell projects">SPAdes</a>
 <a href="https://usegalaxy.eu/root?tool_id=ssake" target="_top" title="short DNA sequences assembler">SSAKE</a>
@@ -2728,6 +2735,7 @@ description: "4557 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=binette" target="_top" title="Binning refinement tool">Binette</a>
 <a href="https://usegalaxy.eu/root?tool_id=bin_refiner" target="_top" title="refines metagenome bins">Binning refiner</a>
 <a href="https://usegalaxy.eu/root?tool_id=biobox_add_taxid" target="_top" title="Add taxid output from BAT or GTDB to biobox binning data">Biobox add taxid</a>
+<a href="https://usegalaxy.eu/root?tool_id=mothur_biom_info" target="_top" title="create shared and taxonomy files from biom">Biom.info</a>
 <a href="https://usegalaxy.eu/root?tool_id=est_abundance" target="_top" title="to re-estimate abundance at a taxonomic level from kraken output">Bracken</a>
 <a href="https://usegalaxy.eu/root?tool_id=cami_amber" target="_top" title="Evaluation package for MAGs">CAMI AMBER</a>
 <a href="https://usegalaxy.eu/root?tool_id=cami_amber_add" target="_top" title="Create gold standard file for CAMI AMBER">CAMI AMBER add length column</a>
@@ -2779,6 +2787,7 @@ description: "4557 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=deacon_index_union" target="_top" title="Compute the union of two or more deacon index files">Deacon Index Union</a>
 <a href="https://usegalaxy.eu/root?tool_id=decontam" target="_top" title="Identification and removal of contaminants">Decontam</a>
 <a href="https://usegalaxy.eu/root?tool_id=defense_finder" target="_top" title="systematically detect known anti-phage systems">DefenseFinder</a>
+<a href="https://usegalaxy.eu/root?tool_id=mothur_estimator_single" target="_top" title="Estimate the total richness of a sample">Estimator.single</a>
 <a href="https://usegalaxy.eu/root?tool_id=eukrep" target="_top" title="Classification of Eukaryotic and Prokaryotic sequences from metagenomic datasets">EukRep</a>
 <a href="https://usegalaxy.eu/root?tool_id=extract_metaphlan_database" target="_top" title="from the MetaPhlAn database">Extract the marker sequences and metadata</a>
 <a href="https://usegalaxy.eu/root?tool_id=fairy_cov" target="_top" title="Create coverage file for specific binners">Fairy coverage</a>
@@ -2820,6 +2829,7 @@ description: "4557 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=krakentools_extract_kraken_reads" target="_top" title="Extract reads that were classified by the Kraken family at specified taxonomic IDs">Krakentools: Extract Kraken Reads By ID</a>
 <a href="https://usegalaxy.eu/root?tool_id=krakentools_beta_diversity" target="_top" title="from Kraken, Krona and Bracken files">Krakentools: calculates beta diversity (Bray-Curtis dissimilarity)</a>
 <a href="https://usegalaxy.eu/root?tool_id=taxonomy_krona_chart" target="_top" title="from taxonomic profile">Krona pie chart</a>
+<a href="https://usegalaxy.eu/root?tool_id=mothur_kruskal_wallis" target="_top" title="Non-parametric test for OTUs that differ between treatments">Kruskal.wallis</a>
 <a href="https://usegalaxy.eu/root?tool_id=last_split" target="_top" title="finds &quot;split alignments&quot; (typically for DNA) or &quot;spliced alignments&quot; (typically for RNA).">LAST-split</a>
 <a href="https://usegalaxy.eu/root?tool_id=last_train" target="_top" title="finds the rates (probabilities) of insertion, deletion, and substitutions between two sets of sequences.">LAST-train</a>
 <a href="https://usegalaxy.eu/root?tool_id=last_al" target="_top" title="finds local alignments between query sequences, and reference sequences.">LASTal</a>
@@ -2851,10 +2861,13 @@ description: "4557 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=mt2mq" target="_top" title="Tool to prepare metatranscriptomic outputs from ASaiM for Metaquantome">MT2MQ</a>
 <a href="https://usegalaxy.eu/root?tool_id=maaslin2" target="_top" title="Microbiome Multivariable Association with Linear Models">MaAsLin 2</a>
 <a href="https://usegalaxy.eu/root?tool_id=maaslin3" target="_top" title="Microbiome Multivariable Association with Linear Models">MaAsLin3</a>
+<a href="https://usegalaxy.eu/root?tool_id=mothur_make_clr" target="_top" title="Make a centered log-ratio transformed shared file">Make.clr</a>
 <a href="https://usegalaxy.eu/root?tool_id=motus_map_snv" target="_top" title="Map reads to the marker gene database for SNV calling">Map SNV</a>
 <a href="https://usegalaxy.eu/root?tool_id=maxbin2" target="_top" title="clusters metagenomic contigs into bins">MaxBin2</a>
 <a href="https://usegalaxy.eu/root?tool_id=merge_metaphlan_tables" target="_top" title="MetaPhlAn abundance tables">Merge</a>
 <a href="https://usegalaxy.eu/root?tool_id=mereg_mOTUs_tables" target="_top" title="Merge mOTUs aboundance or count tables">Merge</a>
+<a href="https://usegalaxy.eu/root?tool_id=mothur_merge_count" target="_top" title="Merge count tables">Merge.count</a>
+<a href="https://usegalaxy.eu/root?tool_id=mothur_merge_otus" target="_top" title="Merge OTUs that share the same taxonomy">Merge.otus</a>
 <a href="https://usegalaxy.eu/root?tool_id=metabat2" target="_top" title="metagenome binning">MetaBAT2</a>
 <a href="https://usegalaxy.eu/root?tool_id=metacoag" target="_top" title="metagenomic contig binning via connectivity information">MetaCoAG</a>
 <a href="https://usegalaxy.eu/root?tool_id=metaeuk_easy_predict" target="_top" title="High-throughput gene discovery and annotation for large-scale eukaryotic metagenomics">MetaEuk Easy Predict</a>
@@ -2888,6 +2901,7 @@ description: "4557 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=humann_reduce_table" target="_top" title="a joined HUMAnN table">Reduce</a>
 <a href="https://usegalaxy.eu/root?tool_id=humann_regroup_table" target="_top" title="HUMAnN table features">Regroup</a>
 <a href="https://usegalaxy.eu/root?tool_id=humann_rename_table" target="_top" title="of a HUMAnN generated table">Rename features</a>
+<a href="https://usegalaxy.eu/root?tool_id=mothur_rename_seqs" target="_top" title="Rename sequences by concatenating the group name">Rename.seqs</a>
 <a href="https://usegalaxy.eu/root?tool_id=humann_renorm_table" target="_top" title="a HUMAnN generated table">Renormalize</a>
 <a href="https://usegalaxy.eu/root?tool_id=sirius_csifingerid" target="_top" title="is used to identify metabolites using single and        tandem mass spectrometry">SIRIUS-CSI:FingerID</a>
 <a href="https://usegalaxy.eu/root?tool_id=srst2" target="_top" title="Short Read Sequence Typing for Bacterial Pathogens">SRST2</a>
@@ -2907,8 +2921,10 @@ description: "4557 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=semibin_bin" target="_top" title="into bins">SemiBin: Group the contigs</a>
 <a href="https://usegalaxy.eu/root?tool_id=semibin_train" target="_top" title="the semi-supervised deep learning model">SemiBin: Train</a>
 <a href="https://usegalaxy.eu/root?tool_id=seqsero2" target="_top" title="Salmonella serotype prediction">SeqSero2</a>
+<a href="https://usegalaxy.eu/root?tool_id=mothur_sparcc" target="_top" title="Calculate correlations between OTUs with the SparCC algorithm">Sparcc</a>
 <a href="https://usegalaxy.eu/root?tool_id=humann_split_table" target="_top" title="a merged HUMAnN table">Split</a>
 <a href="https://usegalaxy.eu/root?tool_id=humann_split_stratified_table" target="_top" title="into 2 tables (one stratified and one unstratified)">Split a HUMAnN table</a>
+<a href="https://usegalaxy.eu/root?tool_id=mothur_taxonomy_to_krona" target="_top" title="convert a mothur taxonomy file to Krona input format">Taxonomy-to-Krona</a>
 <a href="https://usegalaxy.eu/root?tool_id=humann_unpack_pathways" target="_top" title="to show the genes for each">Unpack pathway abundances</a>
 <a href="https://usegalaxy.eu/root?tool_id=valet" target="_top" title="to detect mis-assemblies in metagenomic assemblies">VALET</a>
 <a href="https://usegalaxy.eu/root?tool_id=vapor" target="_top" title="Classify Influenza samples from short reads sequence data">VAPOR</a>
@@ -2962,6 +2978,7 @@ description: "4557 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=dada2_removeBimeraDenovo" target="_top" title="Remove bimeras from collections of unique sequences">dada2: removeBimeraDenovo</a>
 <a href="https://usegalaxy.eu/root?tool_id=dada2_seqCounts" target="_top" title="">dada2: sequence counts</a>
 <a href="https://usegalaxy.eu/root?tool_id=genomad_end_to_end" target="_top" title="identify virus and plasmid genomes from nucleotide sequences">geNomad</a>
+<a href="https://usegalaxy.eu/root?tool_id=hgt_site_call" target="_top" title="call candidate horizontal gene transfer sites from host alignments and per-read taxonomic calls">hgt-site</a>
 <a href="https://usegalaxy.eu/root?tool_id=iphop_predict" target="_top" title="host of input bacteriophage/archaeal virus genomes">iPHoP predict</a>
 <a href="https://usegalaxy.eu/root?tool_id=metasbt_index" target="_top" title="genomes with Sequence Bloom Trees or update an existing database">index</a>
 <a href="https://usegalaxy.eu/root?tool_id=jellyfish" target="_top" title="">jellyfish</a>
@@ -3101,7 +3118,7 @@ description: "4557 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=mothur_cluster" target="_top" title="Assign sequences to OTUs (Operational Taxonomic Unit)">Cluster</a>
 <a href="https://usegalaxy.eu/root?tool_id=mothur_cluster_classic" target="_top" title="Assign sequences to OTUs (Dotur implementation)">Cluster.classic</a>
 <a href="https://usegalaxy.eu/root?tool_id=mothur_cluster_fragments" target="_top" title="Group sequences that are part of a larger sequence">Cluster.fragments</a>
-<a href="https://usegalaxy.eu/root?tool_id=mothur_cluster_split" target="_top" title="Assign sequences to OTUs and split large matrices">Cluster.split</a>
+<a href="https://usegalaxy.eu/root?tool_id=mothur_cluster_split" target="_top" title="Assign sequences to OTUs based on taxonomy and cluster them">Cluster.split</a>
 <a href="https://usegalaxy.eu/root?tool_id=mothur_collect_shared" target="_top" title="Generate collector&#x27;s curves for calculators on OTUs">Collect.shared</a>
 <a href="https://usegalaxy.eu/root?tool_id=mothur_collect_single" target="_top" title="Generate collector&#x27;s curves for OTUs">Collect.single</a>
 <a href="https://usegalaxy.eu/root?tool_id=mothur_consensus_seqs" target="_top" title="Find a consensus sequence for each OTU or phylotype">Consensus.seqs</a>
@@ -3995,11 +4012,12 @@ description: "4557 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=keras_train_and_eval" target="_top" title="conduct deep training and evaluation either implicitly or explicitly">Deep learning training and evaluation</a>
 <a href="https://usegalaxy.eu/root?tool_id=deepmicro" target="_top" title="Representation learning and classification framework">DeepMicro</a>
 <a href="https://usegalaxy.eu/root?tool_id=sklearn_discriminant_classifier" target="_top" title="">Discriminant Analysis</a>
+<a href="https://usegalaxy.eu/root?tool_id=embed_faiss_search" target="_top" title="look up entity descriptions in a FAISS knowledge-base index">Embedding search with FAISS</a>
 <a href="https://usegalaxy.eu/root?tool_id=sklearn_ensemble" target="_top" title="for classification and regression">Ensemble methods</a>
 <a href="https://usegalaxy.eu/root?tool_id=sklearn_estimator_attributes" target="_top" title="get important attributes from an estimator or scikit object">Estimator attributes</a>
 <a href="https://usegalaxy.eu/root?tool_id=sklearn_fitted_model_eval" target="_top" title="using a new batch of labeled data">Evaluate a Fitted Model</a>
 <a href="https://usegalaxy.eu/root?tool_id=sklearn_pairwise_metrics" target="_top" title="or compute affinity or kernel for sets of samples">Evaluate pairwise distances</a>
-<a href="https://usegalaxy.eu/root?tool_id=black_forest_labs_flux" target="_top" title="text-to-image model">FLUX</a>
+<a href="https://usegalaxy.eu/root?tool_id=black_forest_labs_flux" target="_top" title="generate and edit images">FLUX</a>
 <a href="https://usegalaxy.eu/root?tool_id=sklearn_feature_selection" target="_top" title="module, including univariate filter selection methods and recursive feature elimination algorithm">Feature Selection</a>
 <a href="https://usegalaxy.eu/root?tool_id=sklearn_model_fit" target="_top" title="or other models using a labeled dataset">Fit a Pipeline, Ensemble</a>
 <a href="https://usegalaxy.eu/root?tool_id=flexynesis" target="_top" title="A deep-learning based multi-omics bulk sequencing data integration suite">Flexynesis</a>
@@ -4027,6 +4045,7 @@ description: "4557 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=sklearn_pca" target="_top" title="with scikit-learn">Principal component analysis</a>
 <a href="https://usegalaxy.eu/root?tool_id=rag_retriever" target="_top" title="Retrieve relevant chunks from documents and output a context file">RAG Retriever</a>
 <a href="https://usegalaxy.eu/root?tool_id=biomodels_biomd0000001066" target="_top" title="to predict efficacy of immune checkpoint blockade across multiple cancer patient cohorts">Random Forest model</a>
+<a href="https://usegalaxy.eu/root?tool_id=cross_encoder_rerank" target="_top" title="pick the best knowledge-base entry for every entity with a Hugging Face reranker">Rerank candidates with a cross-encoder</a>
 <a href="https://usegalaxy.eu/root?tool_id=simorgh" target="_top" title="Deep learning framework for apo-state and cryptic pocket prediction">SIMORGH</a>
 <a href="https://usegalaxy.eu/root?tool_id=scipy_sparse" target="_top" title="for manipulating 2-D Scipy sparse numeric data">Sparse Matrix Functions</a>
 <a href="https://usegalaxy.eu/root?tool_id=whisper" target="_top" title="Transcribe audio or video files to text using the OpenAI Whisper">Speech to Text</a>
@@ -4599,7 +4618,7 @@ description: "4557 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=ip_crop_image" target="_top" title="with giatools">Crop image</a>
 <a href="https://usegalaxy.eu/root?tool_id=cp_display_data_on_image" target="_top" title="with CellProfiler">DisplayDataOnImage</a>
 <a href="https://usegalaxy.eu/root?tool_id=doclayoutyolo" target="_top" title="Enhancing document layout analysis">DocLayout-YOLO</a>
-<a href="https://usegalaxy.eu/root?tool_id=idr_download_by_ids" target="_top" title="">Download IDR/OMERO</a>
+<a href="https://usegalaxy.eu/root?tool_id=idr_download_by_ids" target="_top" title="with requests and omero-py">Download IDR/OMERO</a>
 <a href="https://usegalaxy.eu/root?tool_id=edit_coco_annotation" target="_top" title="Filter and rename tracks in a COCO annotation file">Edit COCO Annotation</a>
 <a href="https://usegalaxy.eu/root?tool_id=imagej2_enhance_contrast" target="_top" title="with ImageJ2">Enhance contrast</a>
 <a href="https://usegalaxy.eu/root?tool_id=cp_enhance_or_suppress_features" target="_top" title="with CellProfiler">EnhanceOrSuppressFeatures</a>
@@ -4792,6 +4811,7 @@ description: "4557 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_wallace" target="_top" title="Webbased Interactive modeling of species niches and distributions">Wallace</a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_wilson" target="_top" title="Webbased Interactive Omics visualization">Wilson</a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_bam_iobio" target="_top" title="">bam.iobio visualisation</a>
+<a href="https://usegalaxy.eu/root?tool_id=interactive_tool_escriptorium" target="_top" title="Segmentation and transcription of manuscripts">eScriptorium</a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_geoexplorer" target="_top" title="An interactive spatial analysis platform using ggvis and Leaflet">geoexplorer</a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_isee" target="_top" title="">iSEE</a>
 <a href="https://usegalaxy.eu/root?tool_id=interactive_tool_metashark" target="_top" title="Metadata Shiny Automated Resource and Knowledge">metashark</a>
