@@ -28,6 +28,8 @@ interface LocationData {
 
 interface Props {
   title: string;
+  /** Last crumb of the trail: the sub-page's own name; empty falls back to its last URL segment. Defaults to `title`. */
+  breadcrumbTitle?: string;
   description?: string;
   tags?: string[];
   authors?: Array<string | { id?: string; name: string }>;
@@ -48,6 +50,7 @@ interface Props {
 
 const {
   title,
+  breadcrumbTitle = title || 'Conference',
   description,
   tags = [],
   authors = [],
@@ -81,7 +84,7 @@ const hasMetadata =
 
 <BaseLayout title={title || 'Conference'} description={description} noindex={noindex}>
   {hasMetadata && <div class="max-w-6xl mx-auto">
-    <ReadingBreadcrumbs title={title || 'Conference'} />
+    <ReadingBreadcrumbs title={breadcrumbTitle} />
   </div>}
   <article class="max-w-6xl mx-auto bg-white relative">
     {hasMetadata && <div class:list={['conference-hero', isSubpage && 'is-subpage']}>

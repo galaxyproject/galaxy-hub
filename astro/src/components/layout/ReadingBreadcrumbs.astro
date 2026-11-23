@@ -3,10 +3,10 @@
  * Breadcrumbs for a reading page (article, news post, event): the trail comes from the URL and
  * the titles of the parent pages, plus the schema.org BreadcrumbList for search engines.
  */
-import { getCollection } from 'astro:content';
 import Breadcrumbs from '@/components/common/Breadcrumbs.astro';
 import { breadcrumbJsonLd, readingTrail } from '@/utils/breadcrumbs';
 import { safeJsonLd } from '@/utils/json-ld';
+import { getPageTitles } from '@/utils/page-titles';
 
 interface Props {
   title: string;
@@ -14,12 +14,8 @@ interface Props {
 
 const { title } = Astro.props;
 const path = Astro.url.pathname;
-const inCollection = path.startsWith('/news/') || path.startsWith('/events/');
-const articles = inCollection ? [] : await getCollection('articles');
-const pageTitles = new Map<string, string>();
-for (const entry of articles) {
-  if (entry.data.title) pageTitles.set(entry.data.slug.replace(/^\/|\/$/g, ''), entry.data.title);
-}
+// A news post's parent is always /news/, so it needs no lookup
+const pageTitles = path.startsWith('/news/') ? new Map<string, string | null>() : await getPageTitles();
 const trail = readingTrail(path, title, pageTitles);
 const site = Astro.site?.toString() || 'https://galaxyproject.org';
 const schema = breadcrumbJsonLd(trail, site, path);

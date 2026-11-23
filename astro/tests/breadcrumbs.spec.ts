@@ -85,6 +85,60 @@ test.describe('Breadcrumbs on reading pages', () => {
       });
     }
 
+    test('a sub-page of a conference sits under that conference and ends with its own title', async ({ page }) => {
+      await page.goto('/events/gcc2026/register/');
+      const crumbs = await visibleCrumbs(page);
+      expect(crumbs.map((c) => c.href)).toEqual(['/', '/events/', '/events/gcc2026/', null]);
+      expect(crumbs[1].text).toBe('Events');
+      expect(crumbs[3].text).toBe('GCC2026 Registration');
+      const parent = nav(page).getByRole('link', { name: /Galaxy Community Conference/ });
+      await expect(parent).toHaveAttribute('href', '/events/gcc2026/');
+      expect(crumbs[2].text).not.toBe(crumbs[3].text);
+    });
+
+    test('a conference sub-page without a title of its own is named after its menu label, the parent stays a link', async ({
+      page,
+    }) => {
+      await page.goto('/events/gcc2026/organizers/');
+      const crumbs = await visibleCrumbs(page);
+      expect(crumbs.map((c) => c.href)).toEqual(['/', '/events/', '/events/gcc2026/', null]);
+      expect(crumbs[2].text).toContain('Galaxy Community Conference');
+      expect(crumbs[3].text).toBe('Organizers');
+      await expect(nav(page).locator('[aria-current="page"]')).toHaveText('Organizers');
+      const lists = await page
+        .locator('script[type="application/ld+json"]')
+        .evaluateAll((scripts) => scripts.map((s) => JSON.parse(s.textContent ?? '')));
+      const list = lists.find((json) => json['@type'] === 'BreadcrumbList');
+      const paths = list.itemListElement.map((i: { item: string }) => new URL(i.item).pathname);
+      expect(paths).toEqual(['/', '/events/', '/events/gcc2026/', '/events/gcc2026/organizers/']);
+    });
+
+    test('a page titled like its parent keeps its own crumb and the parent stays a link', async ({ page }) => {
+      await page.goto('/jxtx/bio/');
+      const crumbs = await visibleCrumbs(page);
+      expect(crumbs.map((c) => c.href)).toEqual(['/', '/jxtx/', null]);
+      await expect(nav(page).locator('[aria-current="page"]')).toHaveCount(1);
+    });
+
+    test('a parent page without a title in its front matter is a link, with a readable name', async ({ page }) => {
+      await page.goto('/archive/dev-news-briefs/2012-01-20/');
+      const crumbs = await visibleCrumbs(page);
+      expect(crumbs.map((c) => c.href)).toEqual(['/', '/archive/', null, null]);
+      expect(crumbs[1].text).toBe('Wiki Page Archive');
+    });
+
+    for (const [path, parent, href] of [
+      ['/projects/bge/', 'Projects', '/projects/'],
+      ['/eu/about/', 'Galaxy Europe', '/eu/'],
+    ] as const) {
+      test(`${path} links its parent ${href}, which is routed outside the content files`, async ({ page }) => {
+        await page.goto(path);
+        const crumbs = await visibleCrumbs(page);
+        expect(crumbs[1].text).toBe(parent);
+        expect(crumbs[1].href).toBe(href);
+      });
+    }
+
     test('the trail sits above the page title', async ({ page }) => {
       await page.goto(NEWS);
       const trail = (await nav(page).boundingBox())!;
