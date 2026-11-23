@@ -1,0 +1,25 @@
+---
+/**
+ * Breadcrumbs for a reading page (article, news post, event): the trail comes from the URL and
+ * the titles of the parent pages.
+ */
+import { getCollection } from 'astro:content';
+import Breadcrumbs from '@/components/common/Breadcrumbs.astro';
+import { readingTrail } from '@/utils/breadcrumbs';
+
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+const path = Astro.url.pathname;
+const inCollection = path.startsWith('/news/') || path.startsWith('/events/');
+const articles = inCollection ? [] : await getCollection('articles');
+const pageTitles = new Map<string, string>();
+for (const entry of articles) {
+  if (entry.data.title) pageTitles.set(entry.data.slug.replace(/^\/|\/$/g, ''), entry.data.title);
+}
+const trail = readingTrail(path, title, pageTitles);
+---
+
+{trail.length > 1 && <Breadcrumbs items={trail} variant="chevron" />}
