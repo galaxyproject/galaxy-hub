@@ -4,11 +4,40 @@ date: "2024-11-26"
 tease: "Turn your text into stunning visuals with FLUX models, now integrated into Galaxy!"
 hide_tease: false
 subsites: [global, eu, us, freiburg]
-tags: [tools]
+tags: [tools, ai]
 contributions:
   authorship:
     - arash77
 ---
+
+> **Update (November 2026):** FLUX in Galaxy can now edit images and redraw parts of them, with a newer generation of FLUX models. See [What's new](#whats-new-november-2026) below. The rest of this post describes the 2024 version of the tool, which is still available as an older tool version.
+
+## What's new (November 2026)
+
+The FLUX tool now uses newer FLUX models from Black Forest Labs, including **FLUX.2 [klein]** and **FLUX 3 Image Klein**, and does three things:
+
+| Task | Input | What it does |
+|------|-------|--------------|
+| **Generate** | A text prompt | Creates an image from your description |
+| **Edit or combine** | Up to 10 images and a prompt | Changes an image, or combines several images, as the prompt describes |
+| **Inpaint** | An image, a mask and a prompt | Redraws only the white part of the mask and keeps the rest |
+
+**FLUX.2 [klein]** is fast and openly licensed (Apache 2.0), like FLUX.1 [schnell] before it, and it is the only one that can inpaint. **FLUX 3 Image Klein** gives the best quality, but like FLUX.1 [dev] its weights are for non-commercial use only. The description of each model in the tool says the same, so you can check it before you choose.
+
+For example, we first generated an image with the prompt `a red apple on a wooden table, studio photo`, and then edited it with the prompt `make the apple green`:
+
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px;">
+  <img src="./flux_generate_red_apple.png" alt="FLUX image of a red apple on a wooden table" style="margin: 0; width: 100%;" />
+  <img src="./flux_edit_green_apple.png" alt="The same image edited by FLUX so that the apple is green" style="margin: 0; width: 100%;" />
+</div>
+
+Only the color of the apple changed. The table, the light and the angle stayed the same.
+
+Under **Advanced options** you can set the image size, the number of steps and a seed. The same seed and inputs give the same image, which helps when you want to reproduce a result.
+
+If you use FLUX in a saved workflow: the form now starts with the task, and the models have new names, so pick the model again after updating the tool.
+
+<a href="https://usegalaxy.eu/root?tool_id=black_forest_labs_flux"><button type="button" class="btn btn-success">Try the new FLUX on usegalaxy.eu!</button></a>
 
 ## Using Black Forest Labs' FLUX Models Inside Galaxy: A Guide to Text-to-Image Integration
 
