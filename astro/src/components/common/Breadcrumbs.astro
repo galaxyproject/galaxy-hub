@@ -4,7 +4,7 @@
  * an earlier item without href renders as plain text, for levels that have no page of their own.
  * Below 640px the "project" variant collapses to one back link to the nearest linked parent, so it never wraps.
  * The "chevron" variant stays one line on phones: the current page is the last crumb and takes the
- * remaining space (ellipsis, full text in the title attribute), the middle levels fold into "…".
+ * remaining space (ellipsis, full text in the title attribute), the folded levels move into a menu.
  */
 import Icon from '@/components/mdx/Icon.astro';
 
@@ -16,7 +16,7 @@ export interface Crumb {
 interface Props {
   items: Crumb[];
   class?: string;
-  /** "chevron": house icon and chevron icons; below 640px the Home link is an icon and the middle levels fold into a "…". */
+  /** "chevron": house icon and chevron icons; below 640px the Home link is an icon and the middle levels fold into a "…" menu. */
   variant?: 'project' | 'chevron';
 }
 
@@ -27,6 +27,7 @@ const parent = chevron ? undefined : items.slice(0, lastIndex).findLast((item) =
 // Keep the first crumb, the parent and the current page on phones
 const folds = (index: number) => chevron && items.length > 3 && index > 0 && index < lastIndex - 1;
 const folded = items.filter((_, index) => folds(index));
+const foldLabel = `Show ${folded.length} more ${folded.length === 1 ? 'level' : 'levels'}`;
 ---
 
 {items.length > 0 && <nav class:list={['breadcrumbs', className]} data-variant={variant} aria-label="Breadcrumb">
@@ -59,7 +60,20 @@ const folded = items.filter((_, index) => folds(index));
         <span class="breadcrumbs__sep" aria-hidden="true">
           <Icon name="chevron-right" size={14} />
         </span>
-        <span aria-hidden="true">…</span>
+        <details>
+          <summary>
+            <span class="breadcrumbs__sr">{foldLabel}</span>
+            <span aria-hidden="true">…</span>
+            <span class="breadcrumbs__caret" aria-hidden="true">
+              <Icon name="chevron-down" size={14} />
+            </span>
+          </summary>
+          <ul class="breadcrumbs__menu">
+            {folded.map((item) => <li>
+              {item.href ? <a href={item.href}>{item.label}</a> : <span>{item.label}</span>}
+            </li>)}
+          </ul>
+        </details>
       </li>}
     </Fragment>)}
   </ol>
@@ -118,10 +132,94 @@ const folded = items.filter((_, index) => folds(index));
     color: var(--color-chicago-500);
   }
 
-  /* Fold marker: phones only, the folded levels are shown in the trail on wider screens */
+  /* Fold menu: phones only, the folded levels are shown in the trail on wider screens */
   .breadcrumbs .breadcrumbs__more {
     display: none;
     align-items: center;
+  }
+
+  .breadcrumbs__more details {
+    position: relative;
+  }
+
+  .breadcrumbs__more summary {
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+    min-width: 24px;
+    min-height: 24px;
+    padding: 0 2px;
+    border-radius: var(--radius-sm);
+    color: var(--color-galaxy-grey);
+    cursor: pointer;
+    list-style: none;
+  }
+
+  .breadcrumbs__more summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .breadcrumbs__more summary:hover {
+    color: var(--color-galaxy-primary);
+  }
+
+  .breadcrumbs__more summary:focus-visible {
+    outline: 2px solid var(--color-galaxy-primary);
+    outline-offset: 2px;
+  }
+
+  .breadcrumbs__caret {
+    display: inline-flex;
+  }
+
+  .breadcrumbs__more details[open] .breadcrumbs__caret {
+    transform: rotate(180deg);
+  }
+
+  .breadcrumbs .breadcrumbs__menu {
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 0;
+    z-index: 20;
+    min-width: 12rem;
+    max-width: calc(100vw - 5rem);
+    margin: 0;
+    padding: 4px;
+    list-style: none;
+    background: var(--color-surface-overlay);
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius-md);
+    box-shadow: var(--gx-elev-md);
+  }
+
+  .breadcrumbs .breadcrumbs__menu li {
+    display: block;
+  }
+
+  .breadcrumbs .breadcrumbs__menu a,
+  .breadcrumbs .breadcrumbs__menu span {
+    display: flex;
+    align-items: center;
+    min-height: 32px;
+    padding: 4px 8px;
+    border-radius: var(--radius-sm);
+  }
+
+  .breadcrumbs .breadcrumbs__menu a {
+    color: var(--color-link);
+  }
+
+  .breadcrumbs .breadcrumbs__menu span {
+    color: var(--color-fg-meta);
+  }
+
+  .breadcrumbs__sr {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
   }
 
   @media (max-width: 639px) {
@@ -148,7 +246,7 @@ const folded = items.filter((_, index) => folds(index));
     }
 
     /* The parent keeps its full text, unless the row cannot hold about 6 characters of the current page:
-       it is capped at the row minus the Home icon, the fold marker and that minimum */
+       it is capped at the row minus the Home icon, the fold menu and that minimum */
     .breadcrumbs[data-variant='chevron'] > ol > li:nth-last-child(2):not(:first-child) {
       flex: none;
       min-width: 0;
@@ -219,3 +317,25 @@ const folded = items.filter((_, index) => folds(index));
     color: var(--color-chicago-900);
   }
 </style>
+
+<script>
+  // The fold menu is a native <details> and works without this; it only adds Escape, outside click and focus-out closing
+  const openMenus = () => document.querySelectorAll<HTMLDetailsElement>('.breadcrumbs__more details[open]');
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key !== 'Escape') return;
+    openMenus().forEach((menu) => {
+      const hadFocus = menu.contains(document.activeElement);
+      menu.open = false;
+      if (hadFocus) menu.querySelector('summary')?.focus();
+    });
+  });
+
+  const closeOutside = (event: Event) => {
+    openMenus().forEach((menu) => {
+      if (!menu.contains(event.target as Node)) menu.open = false;
+    });
+  };
+  document.addEventListener('click', closeOutside);
+  document.addEventListener('focusin', closeOutside);
+</script>
