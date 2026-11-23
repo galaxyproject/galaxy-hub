@@ -81,6 +81,30 @@ jobs:
       - name: Run tests
         run: uv run --python 3.12 --no-project --with pandas --with requests --with pyyaml --with feedparser --with python-dateutil --with markdown-it-py --with pillow==13.0.0 make test-python
 
+  image-size-check:
+    name: Image Size Check
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: .
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+          fetch-depth: 2
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v10.3.3
+        with:
+          python-version: "3.12"
+
+      - name: Check image sizes
+        env:
+          IMAGE_CHECK_BASE: HEAD^1
+        run: uv run --python 3.12 --no-project --with pillow==13.0.0 python scripts/check_image_sizes.py
+
   content-lint:
     name: Content Lint
     runs-on: ubuntu-latest
