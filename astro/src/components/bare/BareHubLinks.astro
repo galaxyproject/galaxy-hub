@@ -1,0 +1,12 @@
+---
+/**
+ * Renders its slot with every link made iframe-safe (utils/bareHubLinks.ts): site paths become
+ * absolute Hub URLs and links that leave the page open in a new tab. For bare copies of Hub pages
+ * built from shared components and Markdown.
+ */
+import { bareHubLinks } from '@/utils/bareHubLinks';
+
+const html = await Astro.slots.render('default');
+---
+
+<Fragment set:html={bareHubLinks(html)} />

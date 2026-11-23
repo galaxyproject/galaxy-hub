@@ -13,9 +13,13 @@ interface Props {
   description?: string;
   /** Ask search engines not to index the page (drafts). */
   noindex?: boolean;
+  /** Absolute URL of the page search engines should index instead, e.g. the Hub page a bare copy mirrors. */
+  canonical?: string;
+  /** Wrap the slot in the prose article; pages built from components that bring their own styles turn it off. */
+  prose?: boolean;
 }
 
-const { title, description, noindex = false } = Astro.props;
+const { title, description, noindex = false, canonical, prose = true } = Astro.props;
 ---
 
 <!doctype html>
@@ -25,6 +29,7 @@ const { title, description, noindex = false } = Astro.props;
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description || `${title} - Galaxy Community Hub`} />
     {noindex && <meta name="robots" content="noindex" />}
+    {canonical && <link rel="canonical" href={canonical} />}
     <title>{title} | Galaxy</title>
 
     <!-- Favicon -->
@@ -35,7 +40,7 @@ const { title, description, noindex = false } = Astro.props;
          chrome, so vertical space above the content is wasted. Sides and bottom keep
          their breathing room. -->
     <main class="px-4 pt-2 pb-6 sm:px-6 sm:pb-8 lg:px-8 lg:pb-10">
-      <article class="prose prose-compact prose-galaxy max-w-none">
+      <article class:list={prose ? 'prose prose-compact prose-galaxy max-w-none' : 'mx-auto max-w-[1200px]'}>
         <slot />
       </article>
     </main>

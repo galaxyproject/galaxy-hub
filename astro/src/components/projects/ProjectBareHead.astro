@@ -1,0 +1,111 @@
+---
+/**
+ * Compact head of a bare project page (/bare/projects/<id>/): name, status badge, description and the
+ * logo for dark backgrounds, in the colours of the Hub's project band but without breadcrumbs and tabs.
+ */
+import Icon from '@/components/mdx/Icon.astro';
+import { projectStatus, statusBadgeLabel, type ProjectFacts } from '@/utils/projectFacts';
+
+interface Props {
+  name: string;
+  description: string;
+  facts: ProjectFacts;
+}
+
+const { name, description, facts } = Astro.props;
+const now = new Date();
+const status = projectStatus(facts, now);
+const badge = statusBadgeLabel(facts, now);
+---
+
+<section class="project-bare-head" aria-labelledby="page-title">
+  <div class="project-bare-head__body">
+    <div class="project-bare-head__titlerow">
+      <h1 id="page-title">{name}</h1>
+      {badge && <span class="project-bare-head__badge" data-project-status={status}>
+        {status === 'ended' && <span aria-hidden="true"><Icon name="archive" size={14} /></span>}
+        {badge}
+      </span>}
+    </div>
+    {description && <p class="project-bare-head__lead">{description}</p>}
+  </div>
+  {facts.logoOnDark && <img class="project-bare-head__logo" src={facts.logoOnDark} alt="" width="200" height="35" />}
+</section>
+
+<style>
+  .project-bare-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px 24px;
+    padding: 16px 20px;
+    border-radius: 0.5rem;
+    border-bottom: 3px solid var(--color-galaxy-gold);
+    color: #fff;
+    background: linear-gradient(
+      120deg,
+      var(--color-galaxy-dark) 0%,
+      var(--color-galaxy-dark) 42%,
+      var(--color-galaxy-primary) 100%
+    );
+  }
+
+  .project-bare-head__body {
+    flex: 1 1 320px;
+    min-width: 0;
+  }
+
+  .project-bare-head__titlerow {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px 12px;
+  }
+
+  .project-bare-head h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .project-bare-head__badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 0 8px;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    color: var(--color-galaxy-dark);
+    background: #fff;
+  }
+
+  .project-bare-head__lead {
+    margin: 4px 0 0;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: var(--color-ebony-clay-50);
+  }
+
+  .project-bare-head__logo {
+    flex: none;
+    width: auto;
+    height: auto;
+    max-width: 200px;
+    max-height: 72px;
+    opacity: 0.95;
+  }
+
+  @media (max-width: 639px) {
+    .project-bare-head {
+      padding: 14px 16px;
+    }
+
+    .project-bare-head__logo {
+      display: none;
+    }
+  }
+</style>

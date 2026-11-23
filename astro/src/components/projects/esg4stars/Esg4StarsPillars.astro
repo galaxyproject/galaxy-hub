@@ -1,0 +1,83 @@
+---
+/**
+ * The five ESG4Stars pillars (esg4stars-pillars dataset) as a list section of the overview.
+ */
+import ProjectSection from '@/components/projects/ProjectSection.astro';
+import type { Esg4StarsPillar } from '@/utils/esg4starsOverview';
+
+interface Props {
+  title: string;
+  pillars: Esg4StarsPillar[];
+}
+
+const { title, pillars } = Astro.props;
+---
+
+<ProjectSection id="pillars" title={title}>
+  <ul class="e4s-pillars">
+    {pillars.map((pillar, index) => <li data-pillar={index + 1}>
+      <h3>{pillar.name}</h3>
+      <p>{pillar.content}</p>
+    </li>)}
+  </ul>
+</ProjectSection>
+
+<style>
+  .e4s-pillars {
+    display: grid;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  /* The five pillars run from red (track) to green (drive change), as in the project's graphic */
+  .e4s-pillars li {
+    display: grid;
+    gap: 2px 16px;
+    padding: 10px 14px;
+    border: 1px solid var(--color-chicago-100);
+    border-left: 6px solid var(--pillar-color);
+    border-radius: 0.5rem;
+  }
+
+  @media (min-width: 640px) {
+    .e4s-pillars li {
+      grid-template-columns: 10rem 1fr;
+      align-items: baseline;
+    }
+  }
+
+  .e4s-pillars li[data-pillar='1'] {
+    --pillar-color: #e5412d;
+  }
+
+  .e4s-pillars li[data-pillar='2'] {
+    --pillar-color: #f08a24;
+  }
+
+  .e4s-pillars li[data-pillar='3'] {
+    --pillar-color: #f2c12e;
+  }
+
+  .e4s-pillars li[data-pillar='4'] {
+    --pillar-color: #a5c43a;
+  }
+
+  .e4s-pillars li[data-pillar='5'] {
+    --pillar-color: #5c9e3d;
+  }
+
+  .e4s-pillars h3 {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 700;
+    color: var(--color-galaxy-dark);
+  }
+
+  .e4s-pillars p {
+    margin: 0;
+    color: var(--color-chicago-900);
+  }
+</style>
