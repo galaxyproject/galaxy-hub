@@ -78,6 +78,7 @@ Rules:
 - Gold is never text on a light surface (1.40:1 on white). Links hover to `link-hover` with a gold underline.
 - Meta text is `text-fg-meta`, never an opacity-faded grey (`text-galaxy-grey/70` is about 3.45:1 and fails AA).
 - `text-fg-letter` is for large text only (>=24px, or 18.66px bold), where AA needs 3:1; its 4.20:1 fails AA at body sizes.
+- The sidebar still uses brand aliases on `galaxy-dark` (`#2c3143`), not the chrome roles: nav and sub-links `chicago-300` (5.89:1), the archive notice `chicago-200` on `medium-bg` (6.34:1) and its dismiss icon `chicago-300` (4.46:1). `chicago-400` (3.60:1 there) is for icons only, never text. `axe.spec.ts` and `sidebar-context.spec.ts` enforce `color-contrast` on the sidebar and mobile menu.
 - The gold role is `--color-accent-gold` (`bg-accent-gold`, `text-on-accent-gold`), not `accent`: `accent` is the shadcn near-white below, and `@galaxyproject/brand-tokens` also defines a gold `--color-accent` that the shadcn mapping overrides.
 - Role names avoid the shadcn names (`background`, `foreground`, `primary`, `muted`, `accent`, `border`, `input`, `ring`, `sidebar-*`, ...) and never reuse galaxy-ui primitive names such as `--color-blue-600`, which would collide with Tailwind's own `blue` scale.
 - Primitives (Button, Badge, Input) may consume **role** tokens, never brand aliases. That is the single-palette direction below, without a parallel branded button.

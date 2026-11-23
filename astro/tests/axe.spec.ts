@@ -135,15 +135,7 @@ const failingImpacts = new Set(['serious', 'critical']);
 // An entry masks its rule only at the viewports it lists. At those viewports it must still fire,
 // or the test fails as stale; at any other viewport the rule fails as new. A fix that clears a
 // rule at one viewport removes that viewport from the entry, and the entry goes once none is left.
-const knownIssues: Record<string, Record<string, KnownIssue>> = {
-  [chromeKey]: {
-    'color-contrast': {
-      reason:
-        'sidebar text-chicago-400 on #2c3143 is 3.59:1 (SidebarNav.vue, Sidebar.astro); mobile hides the sidebar',
-      viewports: ['desktop'],
-    },
-  },
-};
+const knownIssues: Record<string, Record<string, KnownIssue>> = {};
 
 function indent(text: string, spaces: number): string {
   return text
