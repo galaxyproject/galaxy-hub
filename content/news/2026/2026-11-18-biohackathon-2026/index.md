@@ -28,7 +28,7 @@ laying the foundations for a collaborative microbiome knowledge graph and integr
 
 ## Project 31: Nextflow to Galaxy Workflow Portability and FAIRness via Modular LLM Agent Skills
 
-[![Project 31 participants with their BioHackathon poster](./project-31.png)](./project-31.png)
+[![Project 31 participants with their BioHackathon poster](./project-31.jpg)](./project-31.jpg)
 
 The [Galaxy Workflow Foundry](https://github.com/galaxyproject/foundry) is a
 knowledge base and a set of modular LLM agent skills for converting workflows
@@ -58,7 +58,7 @@ Bennett, Gareth Price, Jaskirat Singh, Ziad Al Bkhetan, and George He.
 
 ## Project 16: MiCoKnowGraph—Building Common Knowledge for a Collaborative Microbiome Knowledge Graph
 
-[![Project 16 poster showing the collaborative microbiome knowledge graph approach](./project-16.png)](./project-16.png)
+[![Project 16 poster showing the collaborative microbiome knowledge graph approach](./project-16.jpg)](./project-16.jpg)
 
 How can we build a collaborative microbiome knowledge graph?
 
