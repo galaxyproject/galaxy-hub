@@ -622,11 +622,13 @@ The sidebar tells readers where a page sits. The URL decides the context; nothin
 
 ### Breadcrumbs
 
-**Use `<Breadcrumbs>`** (`astro/src/components/common/Breadcrumbs.astro`) above the page title. Today only the project pages use it.
+**Use `<Breadcrumbs>`** (`astro/src/components/common/Breadcrumbs.astro`) above the page title. It has two variants: `project` (project pages, the default) and `chevron` (reading pages: articles, news posts, events and conference pages, through `components/layout/ReadingBreadcrumbs.astro`).
 
-- **Markup**: `nav aria-label="Breadcrumb"` with an `ol`. The last item is the current page: plain bold text with `aria-current="page"`, never a link. An earlier item without `href` renders as plain text, for a level that has no page of its own. On project pages "Projects" links the projects index (`/projects/`).
-- **Phones** (below 640px): the trail collapses to one back link, "‹ <nearest linked parent>", so it never wraps; the full trail shows from 640px.
-- **Look**: 14px `galaxy-grey` links, underlined, a `›` separator between items, a 14px globe icon in `galaxy-primary` on the first item ("Galaxy Project", `/`). Hover turns the link `galaxy-primary` with a gold underline, never gold text.
+- **Markup**: `nav aria-label="Breadcrumb"` with an `ol`. The last item is the current page: bold text with `aria-current="page"`, never a link. An earlier item without `href` renders as plain text, for a level that has no page of its own. On project pages "Projects" links the projects index (`/projects/`).
+- **Reading-page trail** (`utils/breadcrumbs.ts`, `utils/page-titles.ts`): Home, one crumb per folder of the URL, then the page. A folder that has a page is a link labelled with that page's title (front matter title, else the first `#` heading, else the folder name; pages routed in code such as `/projects/`, `/careers/` and the subsite homes use their own title). A folder without a page is plain text. A news post sits under News; an event sits under Events, and a conference sub-page under its event. Never write the labels by hand; the trail follows the URL.
+- **Look**: 14px links in `galaxy-grey`, underlined, `galaxy-primary` with a gold underline on hover, never gold text. `project` has a `›` separator and a globe icon on the first item ("Galaxy Project", `/`). `chevron` has chevron icons between items and a house icon on "Home" (`/`).
+- **Phones** (below 640px): `project` collapses to one back link, "‹ <nearest linked parent>". `chevron` stays on one row: Home is the icon alone (its name stays for screen readers), the levels between Home and the parent fold into a "…" menu, and the current page is the last crumb inline. It takes the room that is left and is cut with an ellipsis, its full text in the `title` attribute. The menu is a native `details`/`summary` (works without script); Escape, an outside click and moving focus away close it. It overlays the page, so opening it never shifts the content. Menu colours are role tokens: `surface-overlay` background, `line` border, `link` links, `fg-meta` plain levels.
+- **Structured data**: the `chevron` trail adds a schema.org `BreadcrumbList` (linked levels and the current page, absolute URLs). The project trail has none.
 
 ```astro
 <Breadcrumbs
