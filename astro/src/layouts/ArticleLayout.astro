@@ -7,6 +7,7 @@ import type { SupporterProfile } from '../utils/supporters';
 import ContentWithToc from '../components/layout/ContentWithToc.astro';
 import Icon from '../components/ui/Icon.astro';
 import EditOnGitHubLink from '../components/layout/EditOnGitHubLink.astro';
+import ReadingBreadcrumbs from '../components/layout/ReadingBreadcrumbs.astro';
 
 interface Heading {
   depth: number;
@@ -80,6 +81,9 @@ const hasMetadata =
 ---
 
 <BaseLayout title={title} description={description} fullBleed={fullBleed} image={ogImage ?? image} noindex={noindex}>
+  {hasMetadata && !hideHeader && !fullBleed && <div class="max-w-6xl mx-auto">
+    <ReadingBreadcrumbs title={title} />
+  </div>}
   <article class:list={['bg-white relative', fullBleed ? 'max-w-none' : 'max-w-6xl mx-auto']}>
     {hasMetadata && !hideHeader && <PageHeader
       title={title}

@@ -27,6 +27,7 @@ import { isDraft, isListed } from '../../utils/publish-date.mjs';
 import { extractFunding, extractAuthors, resolveAuthor } from '../../utils/contributors';
 import Icon from '../../components/ui/Icon.astro';
 import EditOnGitHubLink from '../../components/layout/EditOnGitHubLink.astro';
+import ReadingBreadcrumbs from '../../components/layout/ReadingBreadcrumbs.astro';
 import ReleaseGuardiansSummary from '../../components/release-guardians/Summary.astro';
 import ReleaseGuardiansSection from '../../components/release-guardians/Section.astro';
 import ReleaseGuardiansLabelPill from '../../components/release-guardians/LabelPill.astro';
@@ -343,6 +344,9 @@ const editUrl = `https://github.com/galaxyproject/galaxy-hub/edit/main/content/$
     <script slot="extra" type="application/ld+json" is:inline set:html={safeJsonLd(schemaEvent)} /></ConferenceLayout>
 ) : (
   <BaseLayout title={title || 'Event'} description={tease} noindex={isDraft(event.data)}>
+    <div class="max-w-6xl mx-auto">
+      <ReadingBreadcrumbs title={title || 'Event'} />
+    </div>
     <article class="max-w-6xl mx-auto bg-white relative">
       <PageHeader title={title || 'Event'} description={tease} tags={tags} authors={displayAuthors}>
         <EventHeaderMeta date={date} end={end} location={location} contacts={contacts} />
