@@ -10,7 +10,8 @@ contributions:
   authorship:
     - arash77
   funding:
-    -ai4social
+    - ai4social
+    - eu
 ---
 
 ## Who said what?
