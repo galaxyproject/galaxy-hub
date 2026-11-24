@@ -107,7 +107,7 @@ onBeforeUnmount(() => document.removeEventListener('pointerdown', onDocumentPoin
     <button
       ref="button"
       type="button"
-      class="flex w-full items-center justify-between gap-2 rounded-md bg-medium-bg px-3 py-2 text-left text-sm text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-galaxy-gold"
+      class="flex w-full items-center justify-between gap-2 rounded-md bg-medium-bg px-3 py-2 text-left text-sm text-white"
       :aria-expanded="open"
       :aria-controls="menuId"
       :data-context="context.id"
@@ -139,7 +139,7 @@ onBeforeUnmount(() => document.removeEventListener('pointerdown', onDocumentPoin
               :aria-current="item.current ? 'true' : undefined"
               :target="item.external ? '_blank' : undefined"
               :rel="item.external ? 'noopener noreferrer' : undefined"
-              class="flex items-center gap-2 rounded-sm px-2 py-1.5 text-sm text-white no-underline hover:bg-medium-bg focus:bg-medium-bg focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-galaxy-gold"
+              class="flex items-center gap-2 rounded-sm px-2 py-1.5 text-sm text-white no-underline hover:bg-medium-bg focus:bg-medium-bg focus-visible:-outline-offset-2 focus-visible:outline-white focus-visible:[box-shadow:none]"
               @click="onItemClick(item)"
             >
               {{ item.name }}

@@ -4,7 +4,6 @@
       type="button"
       variant="outline"
       class="h-10"
-      :class="focusRing"
       :aria-expanded="isVisible"
       :aria-controls="mapId"
       @click="toggleMap"
@@ -25,7 +24,6 @@
 import { ref } from 'vue';
 import { Map as MapIcon } from '@lucide/vue';
 import { Button } from '@/components/ui/button';
-import { focusRing } from '@/lib/focus-ring';
 import PlatformMap from './PlatformMap.vue';
 
 withDefaults(defineProps<{ platforms?: unknown[] }>(), { platforms: () => [] });

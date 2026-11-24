@@ -233,11 +233,18 @@ function displaySubsite(subsite: string): string {
         :key="article.slug"
         :class="
           isTiles
-            ? 'overflow-hidden rounded-lg border border-ebony-clay-100 bg-white shadow-sm transition-shadow hover:shadow-md'
+            ? 'overflow-hidden rounded-lg border border-ebony-clay-100 bg-white shadow-[var(--gx-elev-sm)] transition-shadow hover:shadow-md has-[a:focus-visible]:outline-2 has-[a:focus-visible]:outline-offset-2 has-[a:focus-visible]:outline-solid has-[a:focus-visible]:outline-focus has-[a:focus-visible]:shadow-[0_0_0_2px_var(--color-focus-inner)]'
             : 'border-b border-ebony-clay-100 pb-8'
         "
       >
-        <a :href="buildUrl(article.slug)" :class="isTiles ? 'group flex h-full flex-col' : 'group block'">
+        <a
+          :href="buildUrl(article.slug)"
+          :class="
+            isTiles
+              ? 'group flex h-full flex-col focus-visible:outline-none focus-visible:[box-shadow:none]'
+              : 'group block'
+          "
+        >
           <div :class="{ 'flex-1 p-4': isTiles }">
             <h2
               :class="[

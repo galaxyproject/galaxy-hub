@@ -39,7 +39,7 @@ const { title, description = 'Galaxy Community Hub - Open source platform for da
   <body>
     <SkipLink />
     <!-- Masthead - always visible, transparent over hero -->
-    <header id="masthead" class="masthead">
+    <header id="masthead" class="masthead focus-scope-dark">
       <div class="masthead-inner">
         <a href="/" class="masthead-logo" aria-current={Astro.url.pathname === '/' ? 'page' : undefined}>
           <img src="/images/galaxy_logo_hub_white.svg" alt="Galaxy" class="h-8" />
@@ -382,12 +382,6 @@ const { title, description = 'Galaxy Community Hub - Open source platform for da
 
       .search-input::placeholder {
         color: var(--color-chicago-200);
-      }
-
-      .search-input:focus {
-        outline: none;
-        border-color: #ffd700;
-        box-shadow: 0 0 0 2px rgba(255, 215, 0, 0.2);
       }
 
       .search-close {

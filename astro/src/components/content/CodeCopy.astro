@@ -52,7 +52,6 @@
     color: #fff;
     background: #474b50;
     border-color: rgba(255, 215, 0, 0.7);
-    outline: none;
   }
 
   .code-copy.is-copied {
@@ -160,7 +159,7 @@
 
       const btn = document.createElement('button');
       btn.type = 'button';
-      btn.className = 'code-copy';
+      btn.className = 'code-copy focus-scope-dark';
       setState(btn, 'idle');
       wrap.appendChild(btn);
     });

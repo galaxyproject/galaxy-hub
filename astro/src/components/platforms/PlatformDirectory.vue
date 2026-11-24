@@ -3,7 +3,6 @@ import { ref, computed, onMounted, onUnmounted, watch } from 'vue';
 import { Inbox, MapPin, Search } from '@lucide/vue';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
-import { focusRing } from '@/lib/focus-ring';
 import { countryName } from '@/utils/countryName';
 import { isLogoPath, platformInitials, scopeLabel } from '@/utils/platformLabels';
 import { isOnPage, onPopState, readParams, writeParams } from '@/utils/urlFilters';
@@ -451,7 +450,6 @@ function getHostname(url: string): string {
                 type="search"
                 placeholder="Search, tool:name, or reference:genome"
                 class="h-10 w-full border-chicago-400 bg-surface-raised pl-9"
-                :class="focusRing"
                 autocomplete="off"
                 role="combobox"
                 aria-autocomplete="list"
@@ -507,7 +505,6 @@ function getHostname(url: string): string {
             v-if="hasFilters && filteredPlatforms.length > 0"
             variant="outline"
             class="mt-6 h-10 shrink-0"
-            :class="focusRing"
             @click="clearFilters"
           >
             Clear filters
@@ -518,7 +515,7 @@ function getHostname(url: string): string {
           <!-- Scope Filter -->
           <div class="min-w-0 flex-1 sm:min-w-44">
             <label for="platform-filter-type" class="block text-sm font-medium text-fg-2 mb-1">Type</label>
-            <select id="platform-filter-type" v-model="selectedScope" :class="[selectClass, focusRing]">
+            <select id="platform-filter-type" v-model="selectedScope" :class="selectClass">
               <option v-for="scope in scopes" :key="scope" :value="scope">{{ scopeOption(scope) }}</option>
             </select>
           </div>
@@ -526,7 +523,7 @@ function getHostname(url: string): string {
           <!-- Location Filter -->
           <div class="min-w-0 flex-1 sm:min-w-44">
             <label for="platform-filter-location" class="block text-sm font-medium text-fg-2 mb-1">Location</label>
-            <select id="platform-filter-location" v-model="selectedLocation" :class="[selectClass, focusRing]">
+            <select id="platform-filter-location" v-model="selectedLocation" :class="selectClass">
               <option v-for="loc in locations" :key="loc" :value="loc">{{ locationOption(loc) }}</option>
             </select>
           </div>
@@ -534,7 +531,7 @@ function getHostname(url: string): string {
           <!-- Platform Group Filter -->
           <div class="min-w-0 flex-1 sm:min-w-44">
             <label for="platform-filter-platform" class="block text-sm font-medium text-fg-2 mb-1">Platform</label>
-            <select id="platform-filter-platform" v-model="selectedPlatformGroup" :class="[selectClass, focusRing]">
+            <select id="platform-filter-platform" v-model="selectedPlatformGroup" :class="selectClass">
               <option v-for="group in platformGroups" :key="group" :value="group">{{ groupOption(group) }}</option>
             </select>
           </div>
@@ -552,7 +549,7 @@ function getHostname(url: string): string {
       <li
         v-for="platform in filteredPlatforms"
         :key="platform.slug"
-        class="group relative flex flex-col rounded-lg border-1 border-line bg-surface-raised py-4 pr-4 pl-[18px] shadow-[0_1px_2px_rgb(0_0_0/0.05)] transition-[box-shadow,border-color] duration-200 hover:border-chicago-300 hover:shadow-[0_4px_6px_rgb(0_0_0/0.08)] has-[a:focus-visible]:outline-2 has-[a:focus-visible]:outline-offset-2 has-[a:focus-visible]:outline-solid has-[a:focus-visible]:outline-galaxy-primary"
+        class="group relative flex flex-col rounded-lg border-1 border-line bg-surface-raised py-4 pr-4 pl-[18px] shadow-[0_1px_2px_rgb(0_0_0/0.05)] transition-[box-shadow,border-color] duration-200 hover:border-chicago-300 hover:shadow-[0_4px_6px_rgb(0_0_0/0.08)] has-[a:focus-visible]:outline-2 has-[a:focus-visible]:outline-offset-2 has-[a:focus-visible]:outline-solid has-[a:focus-visible]:outline-focus has-[a:focus-visible]:shadow-[0_0_0_2px_var(--color-focus-inner)]"
       >
         <span
           aria-hidden="true"
@@ -581,7 +578,7 @@ function getHostname(url: string): string {
             <h3 class="text-h3 font-semibold text-fg-strong break-words">
               <a
                 :href="`/${platform.slug}/`"
-                class="text-inherit no-underline after:absolute after:inset-0 after:rounded-lg after:content-[''] focus-visible:outline-none group-hover:underline group-hover:decoration-galaxy-gold group-hover:decoration-2"
+                class="text-inherit no-underline after:absolute after:inset-0 after:rounded-lg after:content-[''] focus-visible:[box-shadow:none] focus-visible:outline-none group-hover:underline group-hover:decoration-galaxy-gold group-hover:decoration-2"
               >
                 {{ platform.title || 'Galaxy Server' }}
               </a>
@@ -624,7 +621,7 @@ function getHostname(url: string): string {
       <p class="mt-1 mb-[16px] text-fg-2">
         Nothing matches your search and filters. Try fewer filters or a different word.
       </p>
-      <Button variant="outline" :class="focusRing" @click="clearFilters">Clear filters</Button>
+      <Button variant="outline" @click="clearFilters">Clear filters</Button>
     </div>
   </div>
 </template>

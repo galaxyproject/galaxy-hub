@@ -26,7 +26,7 @@ const options = computed(() => [
 
 // 32px tall, 14/20 text, 16px icon
 const buttonBase =
-  'inline-flex min-h-8 items-center gap-1.5 rounded-[4px] px-3 py-1 text-sm leading-5 transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-solid focus-visible:outline-galaxy-primary';
+  'inline-flex min-h-8 items-center gap-1.5 rounded-[4px] px-3 py-1 text-sm leading-5 transition-colors';
 const buttonOn = 'bg-galaxy-primary font-bold text-white';
 const buttonOff = 'text-chicago-700 hover:bg-bay-of-many-100 hover:text-galaxy-dark';
 </script>

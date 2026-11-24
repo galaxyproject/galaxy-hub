@@ -41,7 +41,7 @@ const { subsite, title, description, upcomingEvents, subsiteNews, hasMainContent
         <div class="space-y-3">
           {upcomingEvents.map((event) => <a
             href={`/${event.data.slug}/`}
-            class="group relative block overflow-hidden p-4 bg-white rounded-lg border border-galaxy-primary/10 shadow-sm hover:border-galaxy-primary/30 transition-all"
+            class="group relative block overflow-hidden p-4 bg-white rounded-lg border border-galaxy-primary/10 shadow-[var(--gx-elev-sm)] hover:border-galaxy-primary/30 transition-all"
           >
             <span
               class="absolute left-0 top-0 bottom-0 w-1 bg-galaxy-gold transform origin-left scale-y-0 group-hover:scale-y-100 transition-transform duration-200"
@@ -74,7 +74,7 @@ const { subsite, title, description, upcomingEvents, subsiteNews, hasMainContent
         <div class="space-y-3">
           {subsiteNews.map((article) => <a
             href={`/${article.data.slug}/`}
-            class="group relative block overflow-hidden p-4 bg-white rounded-lg border border-galaxy-primary/10 shadow-sm hover:border-galaxy-primary/30 transition-all"
+            class="group relative block overflow-hidden p-4 bg-white rounded-lg border border-galaxy-primary/10 shadow-[var(--gx-elev-sm)] hover:border-galaxy-primary/30 transition-all"
           >
             <span
               class="absolute left-0 top-0 bottom-0 w-1 bg-galaxy-gold transform origin-left scale-y-0 group-hover:scale-y-100 transition-transform duration-200"
@@ -94,7 +94,7 @@ const { subsite, title, description, upcomingEvents, subsiteNews, hasMainContent
     <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
       <a
         href={`/${subsite}/events/`}
-        class="group relative overflow-hidden p-4 bg-white border border-galaxy-primary/10 rounded-lg shadow-sm hover:border-galaxy-primary/30 transition-colors"
+        class="group relative overflow-hidden p-4 bg-white border border-galaxy-primary/10 rounded-lg shadow-[var(--gx-elev-sm)] hover:border-galaxy-primary/30 transition-colors"
       >
         <span
           class="absolute left-0 top-0 bottom-0 w-1 bg-galaxy-gold transform origin-left scale-y-0 group-hover:scale-y-100 transition-transform duration-200"
@@ -104,7 +104,7 @@ const { subsite, title, description, upcomingEvents, subsiteNews, hasMainContent
       </a>
       <a
         href={`/${subsite}/news/`}
-        class="group relative overflow-hidden p-4 bg-white border border-galaxy-primary/10 rounded-lg shadow-sm hover:border-galaxy-primary/30 transition-colors"
+        class="group relative overflow-hidden p-4 bg-white border border-galaxy-primary/10 rounded-lg shadow-[var(--gx-elev-sm)] hover:border-galaxy-primary/30 transition-colors"
       >
         <span
           class="absolute left-0 top-0 bottom-0 w-1 bg-galaxy-gold transform origin-left scale-y-0 group-hover:scale-y-100 transition-transform duration-200"
@@ -114,7 +114,7 @@ const { subsite, title, description, upcomingEvents, subsiteNews, hasMainContent
       </a>
       <a
         href="/use/"
-        class="group relative overflow-hidden p-4 bg-white border border-galaxy-primary/10 rounded-lg shadow-sm hover:border-galaxy-primary/30 transition-colors"
+        class="group relative overflow-hidden p-4 bg-white border border-galaxy-primary/10 rounded-lg shadow-[var(--gx-elev-sm)] hover:border-galaxy-primary/30 transition-colors"
       >
         <span
           class="absolute left-0 top-0 bottom-0 w-1 bg-galaxy-gold transform origin-left scale-y-0 group-hover:scale-y-100 transition-transform duration-200"
@@ -124,7 +124,7 @@ const { subsite, title, description, upcomingEvents, subsiteNews, hasMainContent
       </a>
       <a
         href="/community/"
-        class="group relative overflow-hidden p-4 bg-white border border-galaxy-primary/10 rounded-lg shadow-sm hover:border-galaxy-primary/30 transition-colors"
+        class="group relative overflow-hidden p-4 bg-white border border-galaxy-primary/10 rounded-lg shadow-[var(--gx-elev-sm)] hover:border-galaxy-primary/30 transition-colors"
       >
         <span
           class="absolute left-0 top-0 bottom-0 w-1 bg-galaxy-gold transform origin-left scale-y-0 group-hover:scale-y-100 transition-transform duration-200"
