@@ -9,6 +9,8 @@ tags: [tools, ai, humanities]
 contributions:
   authorship:
     - arash77
+  funding:
+    -ai4social
 ---
 
 ## Who said what?
