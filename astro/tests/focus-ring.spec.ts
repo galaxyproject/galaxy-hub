@@ -66,6 +66,14 @@ test.describe('Global focus ring', () => {
     await expectRing(link, ON_DARK_PAIR);
   });
 
+  test('page header link: white outline and a dark gap ring on the dark header', async ({ page }) => {
+    await page.setViewportSize({ width: 1440, height: 900 });
+    await page.goto('/freiburg/publications/');
+    const link = page.locator('header.page-header a[href="/freiburg/"]');
+    await tabTo(page, link, 400);
+    await expectRing(link, ON_DARK_PAIR);
+  });
+
   test('sidebar search input and region switcher', async ({ page }) => {
     await page.setViewportSize({ width: 1440, height: 900 });
     await page.goto('/community/');
