@@ -268,7 +268,7 @@ body {
   --gx-line-strong: rgb(37 83 123 / 0.34);
   --gx-line-input: #878789; /* 3.59:1, meets 3:1 for control borders */
   --gx-focus: #2c3143; /* outer ring, galaxy-dark; 12.90:1 on white, 11.63 on light-bg */
-  --gx-focus-inner: #ffffff; /* the gap ring: 12.90:1 on the dark sidebar, 9.77 on its field */
+  --gx-focus-inner: #ffffff; /* the gap ring; dark surfaces swap the pair via focus-scope-dark */
 
   /* fills */
   --gx-brand: #25537b;
@@ -409,7 +409,7 @@ body {
     @apply border-border;
   }
   /* One focus look: a dark outline plus a white inner ring in the offset gap (the two swap in the
-     dark theme), so one tone clears 3:1 on any surface. --tw-ring-shadow
+     dark theme and inside focus-scope-dark containers). --tw-ring-shadow
      carries the ring into elements whose shadow utility rewrites box-shadow. Not :where():
      it must beat preflight's Firefox :-moz-focusring outline by specificity or order. */
   :focus-visible {

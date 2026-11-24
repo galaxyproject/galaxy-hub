@@ -65,7 +65,7 @@ New page code uses **role tokens**: they name what a colour is for, carry a ligh
 | Lines | `border-line`, `-line-brand`, `-line-strong` | chicago-100; primary at 16% / 34% | `#2a2e38`; `#8cbbe9` at 16% / 38% | decorative |
 | Input border | `border-line-input` | `#878789` | `#737a8c` | 3.59 / 4.29 (3:1 for controls) |
 | Focus: outer outline | `outline-focus` | `#2c3143` galaxy-dark; `#ffffff` inside `focus-scope-dark` | `#ffffff` | 11.63 to 12.90 on the light surfaces; 12.90 white on `#2c3143` and 13.49 to 18.42 on the dark surfaces |
-| Focus: inner ring | `--color-focus-inner` (box-shadow colour) | `#ffffff`; `#2c3143` chrome inside `focus-scope-dark` | `#1c2030` chrome | 12.90 on white; the dark ring against a gold fill is 9.20, against a white fill 12.90 |
+| Focus: inner ring | `--color-focus-inner` (box-shadow colour) | `#ffffff`; `#2c3143` chrome inside `focus-scope-dark` | `#1c2030` chrome | the white ring is 12.90 against the galaxy-dark outline; the dark ring against a gold fill is 9.20, against a white fill 12.90 |
 | Brand fill | `bg-brand`, `text-on-brand` | `#25537b`, white | `#2b5f8e`, white | 8.07 / 6.71 |
 | Selected: pressed chip, current item | `bg-selected`, `text-on-selected` | `#25537b`, white | `#8cbbe9`, `#10131a` | 8.07 / 9.20 |
 | Gold accent: CTAs, active marks | `bg-accent-gold`, `bg-accent-gold-hover`, `text-on-accent-gold` | `#ffd700`, hover `#d19e00`, galaxy-dark text | `#ffd700`, hover `#ffe24d` | 9.20 both |
