@@ -124,7 +124,7 @@ function handleNavClick() {
       </SheetTrigger>
       <SheetContent
         side="left"
-        class="w-80 bg-galaxy-dark border-medium-bg p-0 overflow-hidden"
+        class="focus-scope-dark w-80 bg-galaxy-dark border-medium-bg p-0 overflow-hidden"
         data-testid="mobile-menu"
         role="dialog"
         @open-auto-focus="onOpenAutoFocus"

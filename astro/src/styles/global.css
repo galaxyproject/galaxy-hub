@@ -434,6 +434,16 @@ body {
   }
 }
 
+/* Dark surface scope (DESIGN.md §2): on a dark band the global pair shows only its white inner ring,
+   hugging the control, because the dark outline has the colour of the band. Put this class on the
+   dark container (or on a control that sits on dark) to swap the pair for everything inside it:
+   a white outline that clears the band and a chrome gap ring that rims the control, which also works
+   for light-filled and gold controls. Chrome is dark in both themes, so the dark theme keeps its look. */
+@utility focus-scope-dark {
+  --color-focus: var(--color-white);
+  --color-focus-inner: var(--gx-chrome);
+}
+
 /* Subtle grid background pattern (like workflow editor mesh) */
 .bg-grid {
   background-image:
