@@ -73,7 +73,7 @@ You can upload your files in various ways in the upload section on the left side
 - diff: Comparing two text documents
 - Editor: Make manual changes that will not be tracked. Find the editor on the left-hand side panel under *Visualisations*.
 - Regular Expressions: Various tools in Galaxy to help you select specific patterns from your text, as explained [here](https://training.galaxyproject.org/training-material/faqs/galaxy/analysis_regular_expressions.html).
-- LLM Hub: Run various locally hosted LLMs within your workflows.
+- LLM Hub: Run various LLMs hosted by the University of Freiburg and e-INFRA CZ within your workflows.
 - GPT: Large language model - this is only accessible with the OpenAI credentials. Find more information on how to set this up [here](https://galaxyproject.org/news/2024-09-02-chat-gpt/).
 
 #### **Natural Language Processing (NLP) Tools**
@@ -91,7 +91,7 @@ You can upload your files in various ways in the upload section on the left side
 ### 🔊**Audio tools**
 - Audio Player: Find the player to listen to audio files in Galaxy on the left-hand side panel under *Visualisations*.
 - [Whisper](https://galaxyproject.org/news/2024-04-25-whisper-tool/): Audio to text conversion
-- WhisperX: Audio conversion including speaker diarisation
+- [WhisperX](https://galaxyproject.org/news/2026-11-23-whisperx/): Audio conversion including speaker diarisation
 - FFmpeg Format Converter: Convert between video and audio formats
 - New Fave for forced alignment and vowel extraction
 - Montreal Forced Aligner for speech-text alignment
@@ -110,7 +110,7 @@ You can upload your files in various ways in the upload section on the left side
 - TIFF viewer: View TIFF files in Galaxy on the left-hand side panel under *Visualisations*.
 - Video player: View video files in Galaxy on the left-hand side panel under *Visualisations*.
 - Yolo DocLayout: Document layout analysis - click [here](https://galaxyproject.org/news/2026-01-07-hf-integration/) for an example workflow.
-- LLM Hub: Run various locally hosted LLMs within your workflows.
+- LLM Hub: Run various LLMs hosted by the University of Freiburg and e-INFRA CZ within your workflows.
 - File Format Identification: Check multimedia files for corrupt or duplicated files
 - SAM 3: AI-based Semantic Segmentation of Videos and Images
     
@@ -144,7 +144,8 @@ You can upload your files in various ways in the upload section on the left side
 ### 🤖 **AI and Machine Learning tools**
 - [flux](https://galaxyproject.org/news/2024-11-26-flux/): text to image conversion
 - [Whisper](https://galaxyproject.org/news/2024-04-25-whisper-tool/): Audio to text conversion
-- LLM Hub: Run various AI models hosted by the Freiburg Compute Center (RZ) without any API keys. Interested? Read [here](https://galaxyproject.org/news/2025-10-10-llm-hub/) on how to set this up. 
+- [WhisperX](https://galaxyproject.org/news/2026-11-23-whisperx/): Audio to text conversion with speaker labels
+- LLM Hub: Run various AI models hosted by the Freiburg Compute Center (RZ) and e-INFRA CZ without any API keys. Interested? Read [here](https://galaxyproject.org/news/2025-10-10-llm-hub/) on how to set this up. 
 - GPT: Large language model - this is only accessible with OpenAI credentials. Find more information on how to set this up [here](https://galaxyproject.org/news/2024-09-02-chat-gpt/).
 - TabPFN: Tabular data prediction
 - [Cleanlab](https://galaxyproject.org/news/2025-06-13-cleanlab/): Identifies label issues in Machine Learning datasets
