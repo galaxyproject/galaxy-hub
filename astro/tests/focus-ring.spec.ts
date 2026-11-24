@@ -2,13 +2,15 @@ import { test, expect, type Locator, type Page } from '@playwright/test';
 
 // One global :focus-visible rule (styles/global.css): a 2px outline at a 2px offset and a 2px inner
 // ring (box-shadow) that fills the gap. Light theme: galaxy-dark outline, white ring. Dark theme:
-// white outline, chrome ring. Every surface is reached with real Tab presses, so :focus-visible
-// matches the way it does for a keyboard user.
+// white outline, chrome ring. Dark surfaces (sidebar, footer, dark bands) carry the focus-scope-dark
+// class, which swaps the pair in the light theme: white outline, galaxy-dark gap ring. Every surface
+// is reached with real Tab presses, so :focus-visible matches the way it does for a keyboard user.
 const DARK = 'rgb(44, 49, 67)';
 const WHITE = 'rgb(255, 255, 255)';
 const CHROME = 'rgb(28, 32, 48)';
 const LIGHT_PAIR = { outer: DARK, inner: WHITE };
 const DARK_PAIR = { outer: WHITE, inner: CHROME };
+const ON_DARK_PAIR = { outer: WHITE, inner: DARK };
 
 async function tabTo(page: Page, target: Locator, max = 250) {
   const el = target.first();
@@ -47,13 +49,21 @@ async function settled(page: Page, islandHost: string) {
 test.describe('Global focus ring', () => {
   test.setTimeout(90_000);
 
-  test('sidebar link', async ({ page }) => {
+  test('sidebar link: white outline and a dark gap ring on the dark sidebar', async ({ page }) => {
     await page.setViewportSize({ width: 1440, height: 900 });
     await page.goto('/community/');
     await settled(page, 'aside');
     const link = page.locator('aside').getByRole('navigation', { name: 'Main' }).getByRole('link').first();
     await tabTo(page, link);
-    await expectRing(link);
+    await expectRing(link, ON_DARK_PAIR);
+  });
+
+  test('footer link: white outline and a dark gap ring on the dark footer', async ({ page }) => {
+    await page.setViewportSize({ width: 1440, height: 900 });
+    await page.goto('/community/');
+    const link = page.locator('footer.site-footer a[href]').first();
+    await tabTo(page, link, 400);
+    await expectRing(link, ON_DARK_PAIR);
   });
 
   test('sidebar search input and region switcher', async ({ page }) => {
@@ -62,12 +72,12 @@ test.describe('Global focus ring', () => {
     await settled(page, 'aside');
     const search = page.locator('aside input[type="search"]');
     await tabTo(page, search);
-    await expectRing(search);
+    await expectRing(search, ON_DARK_PAIR);
 
     const context = page.locator('aside').getByRole('button', { name: /Current context:/ });
     await page.keyboard.press('Shift+Tab');
     await expect(context).toBeFocused();
-    await expectRing(context);
+    await expectRing(context, ON_DARK_PAIR);
   });
 
   test('prose link', async ({ page }) => {
@@ -107,7 +117,7 @@ test.describe('Global focus ring', () => {
     await page.keyboard.press('Enter');
     const input = page.locator('#search-input');
     await expect(input).toBeFocused();
-    await expectRing(input);
+    await expectRing(input, ON_DARK_PAIR);
   });
 
   test('content link tile with its own shadow keeps the inner ring', async ({ page }) => {
@@ -151,12 +161,18 @@ test.describe('Global focus ring', () => {
       .toBe(`solid 2px ${WHITE} -2px none`);
   });
 
-  test('dark agent band in the light theme: the white inner ring shows on the dark band', async ({ page }) => {
+  test('dark agent band in the light theme: white outline, dark gap ring on the gold CTA and the ghost button', async ({
+    page,
+  }) => {
     await page.setViewportSize({ width: 1440, height: 900 });
     await page.goto('/agents/stack/');
-    const button = page.locator('.stk-btn').first();
-    await tabTo(page, button, 400);
-    await expectRing(button);
+    const gold = page.locator('.stk-cta .stk-btn:not(.stk-btn--ghost)');
+    await tabTo(page, gold, 400);
+    await expectRing(gold, ON_DARK_PAIR);
+
+    const ghost = page.locator('.stk-cta .stk-btn--ghost');
+    await tabTo(page, ghost, 400);
+    await expectRing(ghost, ON_DARK_PAIR);
   });
 
   test('stack panes use an inset outline in the tone that clears their own surface', async ({ page }) => {
@@ -209,7 +225,7 @@ test.describe('Global focus ring', () => {
     await settled(page, '.site-mobile-header');
     const chip = header.locator('[data-context-chip]');
     await tabTo(page, chip);
-    await expectRing(chip);
+    await expectRing(chip, ON_DARK_PAIR);
   });
 
   test('the dark theme swaps the pair: white outline, chrome inner ring', async ({ page }) => {
@@ -220,6 +236,16 @@ test.describe('Global focus ring', () => {
     const mapButton = page.getByRole('button', { name: 'Show Platform Map' });
     await tabTo(page, mapButton);
     await expectRing(mapButton, DARK_PAIR);
+  });
+
+  test('the dark theme keeps its pair inside a dark scope: white outline, chrome inner ring', async ({ page }) => {
+    await page.setViewportSize({ width: 1440, height: 900 });
+    await page.goto('/community/');
+    await settled(page, 'aside');
+    await page.evaluate(() => document.documentElement.classList.add('dark'));
+    const link = page.locator('aside').getByRole('navigation', { name: 'Main' }).getByRole('link').first();
+    await tabTo(page, link);
+    await expectRing(link, DARK_PAIR);
   });
 
   test('#main-content keeps no ring after the skip link', async ({ page }) => {
