@@ -442,6 +442,8 @@ body {
 @utility focus-scope-dark {
   --color-focus: var(--color-white);
   --color-focus-inner: var(--gx-chrome);
+  --gx-focus: var(--color-white);
+  --gx-focus-inner: var(--gx-chrome);
 }
 
 /* Subtle grid background pattern (like workflow editor mesh) */
