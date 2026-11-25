@@ -6,6 +6,8 @@ import SupporterGrid from '../components/content/SupporterGrid.astro';
 import type { SupporterProfile } from '../utils/supporters';
 import ContentWithToc from '../components/layout/ContentWithToc.astro';
 import Icon from '../components/ui/Icon.astro';
+import EditOnGitHubLink from '../components/layout/EditOnGitHubLink.astro';
+import ReadingBreadcrumbs from '../components/layout/ReadingBreadcrumbs.astro';
 
 interface Heading {
   depth: number;
@@ -38,6 +40,8 @@ interface Props {
   generatedFrom?: string;
   /** Social preview image; defaults to `image`. */
   ogImage?: string;
+  /** Ask search engines not to index the page (drafts). */
+  noindex?: boolean;
 }
 
 const {
@@ -58,6 +62,7 @@ const {
   fullBleed = false,
   generatedFrom,
   ogImage,
+  noindex = false,
 } = Astro.props;
 
 const editUrl =
@@ -75,7 +80,10 @@ const hasMetadata =
   (title && title !== 'Galaxy Hub') || date || (authors?.length ?? 0) > 0 || tags.length > 0 || description;
 ---
 
-<BaseLayout title={title} description={description} fullBleed={fullBleed} image={ogImage ?? image}>
+<BaseLayout title={title} description={description} fullBleed={fullBleed} image={ogImage ?? image} noindex={noindex}>
+  {hasMetadata && !hideHeader && !fullBleed && <div class="max-w-6xl mx-auto">
+    <ReadingBreadcrumbs title={title} />
+  </div>}
   <article class:list={['bg-white relative', fullBleed ? 'max-w-none' : 'max-w-6xl mx-auto']}>
     {hasMetadata && !hideHeader && <PageHeader
       title={title}
@@ -92,7 +100,7 @@ const hasMetadata =
       <img src={image} alt={title} class="w-full" />
     </figure>}
 
-    <ContentWithToc headings={headings} autotoc={autotoc}>
+    <ContentWithToc headings={headings} autotoc={autotoc} measure={!fullBleed}>
       <slot />
     </ContentWithToc>
 
@@ -107,7 +115,7 @@ const hasMetadata =
         {backLink ? (
           <a
             href={backLink.href}
-            class="text-galaxy-primary hover:text-galaxy-gold flex items-center gap-1.5 font-medium transition-colors"
+            class="text-galaxy-primary hover:text-link-hover hover:underline hover:decoration-link-hover-line hover:decoration-2 flex items-center gap-1.5 font-medium transition-colors"
           >
             <Icon name="chevron-left" />
             {backLink.label}
@@ -115,15 +123,7 @@ const hasMetadata =
         ) : (
           <span />
         )}
-        {editUrl && <a
-          href={editUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          class="text-chicago-500 hover:text-galaxy-primary flex items-center gap-1.5 transition-colors"
-        >
-          <Icon name="edit" />
-          {editLabel}
-        </a>}
+        {editUrl && <EditOnGitHubLink href={editUrl} label={editLabel} />}
       </div>}
     </footer>
   </article>

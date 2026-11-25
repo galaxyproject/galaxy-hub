@@ -7,6 +7,8 @@ import MobileMenu from '../components/layout/MobileMenu.vue';
 import SkipLink from '../components/layout/SkipLink.astro';
 import { detectSubsiteFromPath } from '../stores/subsiteStore';
 import { getSubsiteNavbar } from '../utils/navbar-content';
+import { contextPersistKey } from '../utils/siteContext';
+import { getProjectNavLinks } from '../utils/projectPages';
 import Icon from '../components/mdx/Icon.astro';
 
 interface Props {
@@ -16,12 +18,19 @@ interface Props {
   fullBleed?: boolean;
   /** Social preview image (site-relative or absolute URL). */
   image?: string;
+  /** Ask search engines not to index the page (drafts). */
+  noindex?: boolean;
 }
 
-const { title, description = 'Galaxy Community Hub', fullBleed = false, image } = Astro.props;
+const { title, description = 'Galaxy Community Hub', fullBleed = false, image, noindex = false } = Astro.props;
 const ogImage = image ? new URL(image, Astro.site ?? Astro.url).href : undefined;
 const currentSubsite = detectSubsiteFromPath(Astro.url.pathname);
 const navbar = await getSubsiteNavbar(currentSubsite);
+// Keep the sidebar across view transitions only while the context (region, project, global) stays the same.
+// The directive goes on the <aside> itself: Astro ignores transition:persist on an Astro component.
+const sidebarPersistKey = contextPersistKey(Astro.url.pathname);
+// The project group's links, worked out at build time from the project's facts (empty outside a project)
+const projectNav = await getProjectNavLinks(Astro.url.pathname);
 ---
 
 <!doctype html>
@@ -33,6 +42,7 @@ const navbar = await getSubsiteNavbar(currentSubsite);
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex" />}
     <title>{title} | Galaxy Hub</title>
 
     <!-- Open Graph / Social -->
@@ -46,22 +56,28 @@ const navbar = await getSubsiteNavbar(currentSubsite);
   </head>
   <body class="min-h-screen bg-background text-foreground">
     <SkipLink />
-    <div class="site-shell flex min-h-screen overflow-hidden">
+    <div class="site-shell flex min-h-screen overflow-x-clip">
       <!-- Sidebar (desktop only) -->
-      <Sidebar transition:persist navbar={navbar} initialSubsite={currentSubsite} />
+      <Sidebar persistKey={sidebarPersistKey} navbar={navbar} initialSubsite={currentSubsite} projectNav={projectNav} />
 
       <!-- Mobile header with Vue-powered menu -->
       <header
-        class="site-mobile-header lg:hidden fixed top-0 left-0 right-0 z-50 bg-galaxy-dark p-4 flex items-center justify-between"
+        class="site-mobile-header focus-scope-dark lg:hidden fixed top-0 left-0 right-0 z-50 bg-galaxy-dark p-4 flex items-center justify-between"
       >
         <a href="/" class="block">
           <img src="/images/galaxy_logo_hub_white.svg" alt="Galaxy Community Hub" class="h-8 w-auto" />
         </a>
-        <MobileMenu client:load navbar={navbar} initialSubsite={currentSubsite} currentPath={Astro.url.pathname} />
+        <MobileMenu
+          client:load
+          navbar={navbar}
+          initialSubsite={currentSubsite}
+          currentPath={Astro.url.pathname}
+          projectNav={projectNav}
+        />
       </header>
 
       <!-- Main content area -->
-      <div class="site-main flex-1 flex flex-col min-h-screen lg:ml-64 pt-22 lg:pt-0 min-w-0 overflow-x-hidden">
+      <div class="site-main flex-1 flex flex-col min-h-screen lg:ml-64 pt-22 lg:pt-0 min-w-0 overflow-x-clip">
         <main
           id="main-content"
           tabindex="-1"
@@ -75,7 +91,7 @@ const navbar = await getSubsiteNavbar(currentSubsite);
         <CodeCopy />
 
         <!-- Footer -->
-        <footer class="site-footer bg-galaxy-dark text-white py-8 px-4 sm:px-6 lg:px-8">
+        <footer class="site-footer focus-scope-dark bg-galaxy-dark text-white py-8 px-4 sm:px-6 lg:px-8">
           <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
               <h2 class="text-lg font-semibold text-galaxy-gold mb-4">Galaxy Project</h2>
@@ -119,11 +135,15 @@ const navbar = await getSubsiteNavbar(currentSubsite);
               </div>
             </div>
           </div>
-          <div class="max-w-7xl mx-auto mt-8 pt-6 border-t border-ebony-clay-700 text-center text-sm text-chicago-400">
+          <div class="max-w-7xl mx-auto mt-8 pt-6 border-t border-ebony-clay-700 text-center text-sm text-chrome-meta">
             <p>&copy; {new Date().getFullYear()} Galaxy Project. All rights reserved.</p>
           </div>
         </footer>
       </div>
     </div>
+    <script>
+      import { initSearchShortcut } from '../utils/searchShortcut';
+      initSearchShortcut();
+    </script>
   </body>
 </html>

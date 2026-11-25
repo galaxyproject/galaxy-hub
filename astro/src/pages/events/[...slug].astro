@@ -3,10 +3,12 @@ import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ConferenceLayout from '../../layouts/ConferenceLayout.astro';
 import PageHeader from '../../components/layout/PageHeader.astro';
+import EventHeaderMeta from '../../components/events/EventHeaderMeta.astro';
 import ContentWithToc from '../../components/layout/ContentWithToc.astro';
 
 // Import MDX components for embedded content
 import VegaEmbed from '../../components/mdx/VegaEmbed.astro';
+import MermaidEmbed from '../../components/mdx/MermaidEmbed.astro';
 import Mastodon from '../../components/mdx/Mastodon.astro';
 import VideoPlayer from '../../components/mdx/VideoPlayer.astro';
 import Carousel from '../../components/mdx/Carousel.astro';
@@ -21,14 +23,19 @@ import CofestBoard from '../../components/CofestBoard.astro';
 import SupporterGrid from '../../components/content/SupporterGrid.astro';
 import { resolveSupporters } from '../../utils/supporters';
 import { isPastEvent } from '../../utils/dateUtils';
+import { isDraft, isListed } from '../../utils/publish-date.mjs';
 import { extractFunding, extractAuthors, resolveAuthor } from '../../utils/contributors';
 import Icon from '../../components/ui/Icon.astro';
+import EditOnGitHubLink from '../../components/layout/EditOnGitHubLink.astro';
+import ReadingBreadcrumbs from '../../components/layout/ReadingBreadcrumbs.astro';
+import { firstHeading } from '../../utils/breadcrumbs';
 import ReleaseGuardiansSummary from '../../components/release-guardians/Summary.astro';
 import ReleaseGuardiansSection from '../../components/release-guardians/Section.astro';
 import ReleaseGuardiansLabelPill from '../../components/release-guardians/LabelPill.astro';
 import ReleaseGuardiansCoordination from '../../components/release-guardians/Coordination.astro';
 import ReleaseGuardiansPhase from '../../components/release-guardians/Phase.astro';
 import ReleaseGuardiansRecap from '../../components/release-guardians/Recap.astro';
+import { safeJsonLd } from '../../utils/json-ld';
 
 interface ConferenceNavItem {
   slug: string;
@@ -88,6 +95,11 @@ export async function getStaticPaths() {
       .join(' ');
   }
 
+  function getNavOrder(entry: any): number {
+    const navOrder = ((entry.data || {}) as Record<string, unknown>).nav_order;
+    return typeof navOrder === 'number' && Number.isFinite(navOrder) ? navOrder : Infinity;
+  }
+
   function getNavLabel(entry: any, rootTitle?: string): string {
     const data = (entry.data || {}) as Record<string, unknown>;
     const navTitle = data.nav_title;
@@ -145,7 +157,15 @@ export async function getStaticPaths() {
     const navItems: ConferenceNavItem[] = [
       { slug: rootSlug, href: `/${rootSlug}/`, label: 'Home' },
       ...childPages
-        .sort((a, b) => (a.data.slug || '').localeCompare(b.data.slug || ''))
+        // A draft sub-page is built but stays out of the conference navigation.
+        .filter((entry) => isListed(entry))
+        .sort((a, b) => {
+          // Pages with nav_order come first, in that order; the rest follow alphabetically.
+          const orderA = getNavOrder(a);
+          const orderB = getNavOrder(b);
+          if (orderA !== orderB) return orderA - orderB;
+          return (a.data.slug || '').localeCompare(b.data.slug || '');
+        })
         .map((entry) => ({
           slug: entry.data.slug,
           href: `/${entry.data.slug}/`,
@@ -195,6 +215,14 @@ const authorIds = extractAuthors(eventData);
 const displayAuthors = authorIds.map(resolveAuthor);
 
 const conferenceTitle = conferenceContext?.title || title || 'Conference';
+// A conference sub-page's trail ends with its own name: its title or first heading, else its label in the conference
+// menu; the layout's title is the conference's, so it cannot stand for the page
+const subpageTitle =
+  [title, event.body ? firstHeading(event.body) : undefined]
+    .map((candidate) => (typeof candidate === 'string' ? candidate.trim() : ''))
+    .find((candidate) => candidate && candidate !== conferenceTitle) ??
+  conferenceContext?.navItems?.find((item) => item.slug === event.data.slug)?.label;
+const isConferenceSubpage = Boolean(conferenceContext) && event.data.slug !== conferenceContext?.rootSlug;
 const conferenceDescription = conferenceContext?.description || tease;
 const conferenceDate = conferenceContext?.date || date;
 const conferenceEnd = conferenceContext?.end || end;
@@ -220,6 +248,7 @@ const showConferenceMetadata = Boolean(
 // MDX components map
 const components = {
   VegaEmbed,
+  MermaidEmbed,
   Mastodon,
   VideoPlayer,
   Carousel,
@@ -242,39 +271,6 @@ const components = {
 function toDate(d: Date | string | undefined): Date | null {
   if (!d) return null;
   return d instanceof Date ? d : new Date(d);
-}
-
-function formatDate(date: Date | string | undefined): string {
-  const d = toDate(date);
-  if (!d) return '';
-  return d.toLocaleDateString('en-US', {
-    weekday: 'long',
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-    timeZone: 'UTC',
-  });
-}
-
-function formatDateRange(start: Date | string | undefined, endDate?: Date | string): string {
-  const startD = toDate(start);
-  const endD = toDate(endDate);
-  if (!startD) return '';
-  if (!endD || startD.getTime() === endD.getTime()) {
-    return formatDate(startD);
-  }
-  return `${formatDate(startD)} - ${formatDate(endD)}`;
-}
-
-function toISOString(d: Date | string | undefined): string {
-  const dateObj = toDate(d);
-  return dateObj ? dateObj.toISOString() : '';
-}
-
-function getLocationText(loc: typeof location): string {
-  if (!loc) return '';
-  const parts = [loc.name, loc.city, loc.country].filter(Boolean);
-  return parts.join(', ');
 }
 
 function buildLocation(loc: typeof location) {
@@ -336,7 +332,9 @@ const editUrl = `https://github.com/galaxyproject/galaxy-hub/edit/main/content/$
 
 {isConferenceEvent ? (
   <ConferenceLayout
+    noindex={isDraft(event.data)}
     title={conferenceTitle}
+    breadcrumbTitle={isConferenceSubpage ? (subpageTitle ?? '') : conferenceTitle}
     description={conferenceDescription}
     tags={conferenceTags}
     authors={[]}
@@ -353,118 +351,18 @@ const editUrl = `https://github.com/galaxyproject/galaxy-hub/edit/main/content/$
     showMetadata={showConferenceMetadata}
   >
     <Content components={components} />
-    <script
-      slot="extra"
-      type="application/ld+json"
-      is:inline
-      set:html={JSON.stringify(schemaEvent)}
-    /></ConferenceLayout>
+    <script slot="extra" type="application/ld+json" is:inline set:html={safeJsonLd(schemaEvent)} /></ConferenceLayout>
 ) : (
-  <BaseLayout title={title || 'Event'} description={tease}>
+  <BaseLayout title={title || 'Event'} description={tease} noindex={isDraft(event.data)}>
+    <div class="max-w-6xl mx-auto">
+      <ReadingBreadcrumbs title={title || 'Event'} />
+    </div>
     <article class="max-w-6xl mx-auto bg-white relative">
       <PageHeader title={title || 'Event'} description={tease} tags={tags} authors={displayAuthors}>
-        {/* Event-specific metadata */}
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm mt-4">
-          {date && <div class="flex items-start gap-3 text-white/80">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5 text-galaxy-gold flex-shrink-0 mt-0.5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-              />
-            </svg>
-            <div>
-              <span class="block font-medium text-white">Date</span>
-              <time datetime={toISOString(date)}>{formatDateRange(date, end)}</time>
-            </div>
-          </div>}
-
-          {location && <div class="flex items-start gap-3 text-white/80">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5 text-galaxy-gold flex-shrink-0 mt-0.5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-              />
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-              />
-            </svg>
-            <div>
-              <span class="block font-medium text-white">Location</span>
-              <span>{getLocationText(location)}</span>
-            </div>
-          </div>}
-
-          {external_url && <div class="flex items-start gap-3 text-white/80">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5 text-galaxy-gold flex-shrink-0 mt-0.5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"
-              />
-            </svg>
-            <div>
-              <span class="block font-medium text-white">Website</span>
-              <a href={external_url} target="_blank" rel="noopener noreferrer" class="text-galaxy-gold hover:underline">
-                Event Website
-              </a>
-            </div>
-          </div>}
-
-          {contacts.length > 0 && <div class="flex items-start gap-3 text-white/80">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5 text-galaxy-gold flex-shrink-0 mt-0.5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
-              />
-            </svg>
-            <div>
-              <span class="block font-medium text-white">Contact</span>
-              <span>
-                {contacts
-                  .map((c: { name?: string; email?: string }) => c.name || c.email)
-                  .filter(Boolean)
-                  .join(', ')}
-              </span>
-            </div>
-          </div>}
-        </div>
+        <EventHeaderMeta date={date} end={end} location={location} contacts={contacts} />
       </PageHeader>
 
-      <ContentWithToc headings={headings} autotoc={autotoc}>
+      <ContentWithToc headings={headings} autotoc={autotoc !== false}>
         <Content components={components} />
       </ContentWithToc>
 
@@ -476,21 +374,13 @@ const editUrl = `https://github.com/galaxyproject/galaxy-hub/edit/main/content/$
         <div class="flex justify-between items-center pt-4 border-t border-ebony-clay-100">
           <a
             href="/events/"
-            class="text-galaxy-primary hover:text-galaxy-gold flex items-center gap-1.5 font-medium transition-colors"
+            class="text-galaxy-primary hover:text-link-hover hover:underline hover:decoration-link-hover-line hover:decoration-2 flex items-center gap-1.5 font-medium transition-colors"
           >
             <Icon name="chevron-left" />
             Back to Events
           </a>
           <div class="flex items-center gap-4">
-            <a
-              href={editUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              class="text-chicago-500 hover:text-galaxy-primary flex items-center gap-1.5 transition-colors"
-            >
-              <Icon name="edit" />
-              Edit on GitHub
-            </a>
+            <EditOnGitHubLink href={editUrl} />
             {external_url && <a
               href={external_url}
               target="_blank"
@@ -504,7 +394,7 @@ const editUrl = `https://github.com/galaxyproject/galaxy-hub/edit/main/content/$
         </div>
       </footer>
 
-      <script type="application/ld+json" is:inline set:html={JSON.stringify(schemaEvent)} />
+      <script type="application/ld+json" is:inline set:html={safeJsonLd(schemaEvent)} />
     </article>
   </BaseLayout>
 )}

@@ -1,0 +1,71 @@
+---
+/**
+ * The ESG4Stars project architecture (esg4stars-streams dataset): one card per stream with its work packages.
+ */
+import ProjectSection from '@/components/projects/ProjectSection.astro';
+import type { Esg4StarsStream } from '@/utils/esg4starsOverview';
+
+interface Props {
+  title: string;
+  streams: Esg4StarsStream[];
+}
+
+const { title, streams } = Astro.props;
+
+function sentence(text: string): string {
+  return text.charAt(0).toUpperCase() + text.slice(1);
+}
+---
+
+<ProjectSection id="architecture" title={title}>
+  <ul class="e4s-streams">
+    {streams.map((stream) => <li>
+      <h3>
+        {stream.name && <span class="e4s-streams__name">{stream.name}</span>}
+        <span class="e4s-streams__wp">{stream.work_packages}</span>
+      </h3>
+      <p>{sentence(stream.content)}</p>
+    </li>)}
+  </ul>
+</ProjectSection>
+
+<style>
+  .e4s-streams {
+    display: grid;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .e4s-streams li {
+    padding: 12px 16px;
+    border: 1px solid var(--color-chicago-100);
+    border-radius: 0.5rem;
+  }
+
+  .e4s-streams h3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 4px 10px;
+    margin: 0 0 2px;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 700;
+    color: var(--color-galaxy-dark);
+  }
+
+  .e4s-streams__wp {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--color-galaxy-grey);
+  }
+
+  .e4s-streams p {
+    margin: 0;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: var(--color-chicago-900);
+  }
+</style>

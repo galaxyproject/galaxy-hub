@@ -2,7 +2,7 @@
 title: 20,000 users
 date: "2020-10-21"
 tags: [tiaas, outreach]
-subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, ifb]
 main_subsite: eu
 contributions:
   authorship:

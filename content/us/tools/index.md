@@ -2,7 +2,7 @@
 # THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
 # To update, run: python3 scripts/update-tools.py --server https://usegalaxy.org --name "Galaxy US" --output content/us/tools/index.md
 title: Galaxy US Tools
-description: "2370 tools and counting"
+description: "2421 tools and counting"
 ---
 
 
@@ -240,6 +240,7 @@ description: "2370 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=cshl_fastx_reverse_complement" target="_top" title="">Reverse-Complement</a>
 <a href="https://usegalaxy.org/root?tool_id=trim_reads" target="_top" title="">Select high quality segments</a>
 <a href="https://usegalaxy.org/root?tool_id=seqkit_grep" target="_top" title="grep-like tools for FASTA/Q files">SeqKit grep</a>
+<a href="https://usegalaxy.org/root?tool_id=seqkit_stats" target="_top" title="of FASTA/Q files">SeqKit statistics</a>
 <a href="https://usegalaxy.org/root?tool_id=seqkit_translate" target="_top" title="nucleotid to protein sequence">SeqKit translate</a>
 <a href="https://usegalaxy.org/root?tool_id=seqkit_split2" target="_top" title="Split sequences into files by part size, number of parts, or length">Seqkit Split2</a>
 <a href="https://usegalaxy.org/root?tool_id=sickle" target="_top" title="Windowed adaptive trimming of FASTQ data">Sickle</a>
@@ -306,6 +307,7 @@ description: "2370 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=samtools_collate" target="_top" title="shuffle and group reads together by their names">Samtools collate</a>
 <a href="https://usegalaxy.org/root?tool_id=samtools_coverage" target="_top" title="Produces a histogram or table of coverage per chromosome">Samtools coverage</a>
 <a href="https://usegalaxy.org/root?tool_id=samtools_depth" target="_top" title="compute the depth at each position or region">Samtools depth</a>
+<a href="https://usegalaxy.org/root?tool_id=samtools_faidx" target="_top" title="Index a FASTA file">Samtools faidx</a>
 <a href="https://usegalaxy.org/root?tool_id=samtools_fastx" target="_top" title="extract FASTA or FASTQ from alignment files">Samtools fastx</a>
 <a href="https://usegalaxy.org/root?tool_id=samtools_fixmate" target="_top" title="fill mate coordinates, ISIZE and mate related flags">Samtools fixmate</a>
 <a href="https://usegalaxy.org/root?tool_id=samtools_flagstat" target="_top" title="tabulate descriptive stats for BAM datset">Samtools flagstat</a>
@@ -506,13 +508,13 @@ description: "2370 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=tooldistillator" target="_top" title="Extract information from output files of specific tools and expose it as JSON files">ToolDistillator</a>
 <a href="https://usegalaxy.org/root?tool_id=tooldistillator_summarize" target="_top" title="Aggregate several JSON reports from ToolDistillator">ToolDistillator Summarize</a>
 <a href="https://usegalaxy.org/root?tool_id=unzip" target="_top" title="Unzip a file">Unzip</a>
-<a href="https://usegalaxy.org/root?tool_id=ucsc_axtsort" target="_top" title=": sort AXT alignments by target position">axtSort</a>
+<a href="https://usegalaxy.org/root?tool_id=ucsc_axtsort" target="_top" title="sort AXT alignments">axtSort</a>
 <a href="https://usegalaxy.org/root?tool_id=ucsc_axtomaf" target="_top" title="Convert dataset from axt to MAF format">axtToMaf</a>
 <a href="https://usegalaxy.org/root?tool_id=bax2bam" target="_top" title="converts PacBio basecall format (bax.h5) into BAM">bax2bam</a>
 <a href="https://usegalaxy.org/root?tool_id=bed_to_protein_map" target="_top" title="genomic location of proteins for MVP">bed to protein map</a>
 <a href="https://usegalaxy.org/root?tool_id=fatovcf" target="_top" title="Convert a FASTA alignment file to Variant Call Format (VCF) single-nucleotide diffs">faToVcf</a>
 <a href="https://usegalaxy.org/root?tool_id=gffread" target="_top" title="Filters and/or converts GFF3/GTF2 records">gffread</a>
-<a href="https://usegalaxy.org/root?tool_id=ucsc_lavtopsl" target="_top" title=": convert lastz LAV alignments to PSL">lavToPsl</a>
+<a href="https://usegalaxy.org/root?tool_id=ucsc_lavtopsl" target="_top" title="convert LASTZ LAV alignments to PSL or BED">lavToPsl</a>
 <a href="https://usegalaxy.org/root?tool_id=maftoaxt" target="_top" title="Convert file from MAF to axt format">mafToAxt</a>
 <a href="https://usegalaxy.org/root?tool_id=msconvert" target="_top" title="Convert and/or filter mass spectrometry files">msconvert</a>
 <a href="https://usegalaxy.org/root?tool_id=mz_to_sqlite" target="_top" title="Extract mzIdentML and associated proteomics datasets into a SQLite DB">mz to sqlite</a>
@@ -675,6 +677,8 @@ description: "2370 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=augustus" target="_top" title="gene prediction for prokaryotic and eukaryotic genomes">Augustus</a>
 <a href="https://usegalaxy.org/root?tool_id=braker3" target="_top" title="genome annotation">BRAKER3</a>
 <a href="https://usegalaxy.org/root?tool_id=bakta" target="_top" title="Rapid and standardized annotation of bacterial genomes, MAGs and plasmids">Bakta</a>
+<a href="https://usegalaxy.org/root?tool_id=bionym_ask" target="_top" title="ask a free-form question over a BioNym knowledge graph">BioNym ask</a>
+<a href="https://usegalaxy.org/root?tool_id=bionym" target="_top" title="resolve a gene identifier into a confidence-scored knowledge graph">BioNym resolve</a>
 <a href="https://usegalaxy.org/root?tool_id=blastxml_to_gapped_gff3" target="_top" title="">BlastXML to gapped GFF3</a>
 <a href="https://usegalaxy.org/root?tool_id=busco" target="_top" title="Assess genome assembly and annotation completeness">Busco</a>
 <a href="https://usegalaxy.org/root?tool_id=cpat" target="_top" title="coding potential assessment">CPAT</a>
@@ -809,11 +813,12 @@ description: "2370 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=ucsc_axtchain" target="_top" title="chain together axt or psl alignments">axtChain</a>
 <a href="https://usegalaxy.org/root?tool_id=bwameth" target="_top" title="Fast and accurate aligner of BS-Seq reads">bwameth</a>
 <a href="https://usegalaxy.org/root?tool_id=ucsc_chainantirepeat" target="_top" title="Remove repeated chains">chainAntiRepeat</a>
-<a href="https://usegalaxy.org/root?tool_id=ucsc_chainmergesort" target="_top" title=": combine sorted chain files into one sorted chain file">chainMergeSort</a>
+<a href="https://usegalaxy.org/root?tool_id=ucsc_chainmergesort" target="_top" title="combine sorted chain files into one sorted chain file">chainMergeSort</a>
 <a href="https://usegalaxy.org/root?tool_id=ucsc_chainnet" target="_top" title="make alignment nets out of alignment chains">chainNet</a>
 <a href="https://usegalaxy.org/root?tool_id=ucsc_chainprenet" target="_top" title="Remove chains that don&#x27;t have a chance of being netted">chainPreNet</a>
 <a href="https://usegalaxy.org/root?tool_id=ucsc_chainsort" target="_top" title="Sort chains">chainSort</a>
 <a href="https://usegalaxy.org/root?tool_id=ucsc_chainswap" target="_top" title="Swap target and query in a chain.">chainSwap</a>
+<a href="https://usegalaxy.org/root?tool_id=chromap" target="_top" title="Fast alignment and preprocessing of chromatin profiles">chromap</a>
 <a href="https://usegalaxy.org/root?tool_id=metilene" target="_top" title="calling differentially methylated regions from bisulfite sequencing data">metilene</a>
 <a href="https://usegalaxy.org/root?tool_id=ucsc_netchainsubset" target="_top" title="Create chain file with subset of chains that appear in the net">netChainSubset</a>
 <a href="https://usegalaxy.org/root?tool_id=ucsc_netfilter" target="_top" title="Filter out parts of net">netFilter</a>
@@ -830,17 +835,38 @@ description: "2370 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=arriba_draw_fusions" target="_top" title="">Arriba Draw Fusions</a>
 <a href="https://usegalaxy.org/root?tool_id=arriba_get_filters" target="_top" title="to history">Arriba Get Filters</a>
 <a href="https://usegalaxy.org/root?tool_id=bamleftalign" target="_top" title="indels in BAM datasets">BamLeftAlign</a>
+<a href="https://usegalaxy.org/root?tool_id=cnvkit_antitarget" target="_top" title="Lists the chromosomal coordinates for targeted resequencing">CNVkit Antitarget</a>
+<a href="https://usegalaxy.org/root?tool_id=cnvkit_autobin" target="_top" title="Estimates read counts or depths in a BAM file">CNVkit Autobin</a>
+<a href="https://usegalaxy.org/root?tool_id=cnvkit_batch" target="_top" title="Run the CNVkit pipeline on one or more BAM files">CNVkit Batch</a>
+<a href="https://usegalaxy.org/root?tool_id=cnvkit_breaks" target="_top" title="List the targeted genes with segmentaion breakpoint">CNVkit Breaks</a>
+<a href="https://usegalaxy.org/root?tool_id=cnvkit_call" target="_top" title="Call copy number variants from segmented log2 ratios">CNVkit Call</a>
+<a href="https://usegalaxy.org/root?tool_id=cnvkit_coverage" target="_top" title="Calculate coverage in the given regions from BAM read depths">CNVkit Coverage</a>
+<a href="https://usegalaxy.org/root?tool_id=cnvkit_diagram" target="_top" title="Draw copy number on chromosomes as a diagram">CNVkit Diagram</a>
+<a href="https://usegalaxy.org/root?tool_id=cnvkit_fix" target="_top" title="Adjust raw coverage data">CNVkit Fix</a>
+<a href="https://usegalaxy.org/root?tool_id=cnvkit_genemetrics" target="_top" title="Identify targeted genes with copy number gain or loss">CNVkit Genemetrics</a>
+<a href="https://usegalaxy.org/root?tool_id=cnvkit_heatmap" target="_top" title="Plot copy number for multiple samples as a heatmap">CNVkit Heatmap</a>
+<a href="https://usegalaxy.org/root?tool_id=cnvkit_reference" target="_top" title="Compile a copy-number reference from the given files or directory containing normal samples">CNVkit Reference</a>
+<a href="https://usegalaxy.org/root?tool_id=cnvkit_scatter" target="_top" title="Plot bin-level log2 coverages and segmentation calls together">CNVkit Scatter</a>
+<a href="https://usegalaxy.org/root?tool_id=cnvkit_segment" target="_top" title="Infer copy number segments from the given coverage table">CNVkit Segment</a>
+<a href="https://usegalaxy.org/root?tool_id=cnvkit_segmetrics" target="_top" title="calculate summary statistics">CNVkit Segmetrics</a>
+<a href="https://usegalaxy.org/root?tool_id=cnvkit_sex" target="_top" title="Guess samples’ chromosomal sex from the relative coverage of chromosomes X and Y">CNVkit Sex</a>
+<a href="https://usegalaxy.org/root?tool_id=cnvkit_target" target="_top" title="Prepare a BED file of baited regions for use with CNVkit">CNVkit Target</a>
 <a href="https://usegalaxy.org/root?tool_id=lofreq_call" target="_top" title="with LoFreq">Call variants</a>
 <a href="https://usegalaxy.org/root?tool_id=deepvariant" target="_top" title="deep learning-based variant caller">DeepVariant</a>
 <a href="https://usegalaxy.org/root?tool_id=exomedepth" target="_top" title="Calls copy number variants (CNVs) from targeted sequence data">ExomeDepth</a>
 <a href="https://usegalaxy.org/root?tool_id=getalleleseq" target="_top" title="Generate major and minor allele sequences from alleles table">FASTA from allele counts</a>
 <a href="https://usegalaxy.org/root?tool_id=snp_sites" target="_top" title="from a multi-FASTA alignment file">Finds SNP sites</a>
 <a href="https://usegalaxy.org/root?tool_id=freebayes" target="_top" title="bayesian genetic variant detector">FreeBayes</a>
+<a href="https://usegalaxy.org/root?tool_id=gatk4_applybqsr" target="_top" title="Apply Base Quality Score Recalibration (BQSR) to a BAM file">GATK4 ApplyBQSR</a>
+<a href="https://usegalaxy.org/root?tool_id=gatk4_base_recalibrator" target="_top" title="Generates recalibration table for Base Quality Score Recalibration (BQSR)">GATK4 BaseRecalibrator</a>
+<a href="https://usegalaxy.org/root?tool_id=gatk4_haplotype_caller" target="_top" title="Call germline SNPs and indels via local re-assembly of haplotypes">GATK4 HaplotypeCaller</a>
 <a href="https://usegalaxy.org/root?tool_id=gatk4_mutect2" target="_top" title="- Call somatic SNVs and indels via local assembly of haplotypes">GATK4 Mutect2</a>
+<a href="https://usegalaxy.org/root?tool_id=gatk4_split_n_cigar_reads" target="_top" title="Splits reads that contain Ns in their CIGAR string (RNA-seq)">GATK4 SplitNCigarReads</a>
 <a href="https://usegalaxy.org/root?tool_id=lofreq_indelqual" target="_top" title="into a BAM file">Insert indel qualities</a>
 <a href="https://usegalaxy.org/root?tool_id=jasminesv" target="_top" title="Merge structural variants across samples">JasmineSV</a>
 <a href="https://usegalaxy.org/root?tool_id=lofreq_filter" target="_top" title="called variants posteriorly">Lofreq filter</a>
 <a href="https://usegalaxy.org/root?tool_id=hetbox" target="_top" title="Minor Allele Frequency Boxplot">MAF boxplot</a>
+<a href="https://usegalaxy.org/root?tool_id=manta" target="_top" title="Manta calls structural variants (SVs) and indels from mapped paired-end sequencing reads.">Manta</a>
 <a href="https://usegalaxy.org/root?tool_id=mutate_snp_codon_1" target="_top" title="with SNPs">Mutate Codons</a>
 <a href="https://usegalaxy.org/root?tool_id=naive_variant_caller" target="_top" title="- tabulate variable sites from BAM datasets">Naive Variant Caller (NVC)</a>
 <a href="https://usegalaxy.org/root?tool_id=phylorelatives" target="_top" title="Relatedness of minor alelle sequences in NJ tree">Phylorelatives</a>
@@ -909,6 +935,7 @@ description: "2370 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=seacr" target="_top" title="for sparse enrichment analysis">SEACR</a>
 <a href="https://usegalaxy.org/root?tool_id=peakcalling_sicer" target="_top" title="Statistical approach for the Identification of ChIP-Enriched Regions">SICER</a>
 <a href="https://usegalaxy.org/root?tool_id=tag_pileup_frequency" target="_top" title="">Tag pileup frequency</a>
+<a href="https://usegalaxy.org/root?tool_id=homer_annotatePeaks" target="_top" title="">annotatePeaks</a>
 
 </div>
 
@@ -939,6 +966,7 @@ description: "2370 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=bg_diamond_view" target="_top" title="generate formatted output from DAA files">Diamond view</a>
 <a href="https://usegalaxy.org/root?tool_id=trinity_run_de_analysis" target="_top" title="using a Trinity assembly">Differential expression analysis</a>
 <a href="https://usegalaxy.org/root?tool_id=egsea" target="_top" title="easy and efficient ensemble gene set testing">EGSEA</a>
+<a href="https://usegalaxy.org/root?tool_id=fadu" target="_top" title="Counting algorithm to quantify prokaryotic RNA-Seq data per GFF3 feature">FADU</a>
 <a href="https://usegalaxy.org/root?tool_id=feelnc" target="_top" title="FlExible Extraction of LncRNA">FEELnc</a>
 <a href="https://usegalaxy.org/root?tool_id=filter_combined_via_tracking" target="_top" title="using tracking file">Filter Combined Transcripts</a>
 <a href="https://usegalaxy.org/root?tool_id=trinity_filter_low_expr_transcripts" target="_top" title="from a Trinity assembly">Filter low expression transcripts</a>
@@ -977,6 +1005,7 @@ description: "2370 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=heinz_visualization" target="_top" title="the optimal scoring subnetwork">Visualize</a>
 <a href="https://usegalaxy.org/root?tool_id=blockbuster" target="_top" title="detects blocks of overlapping reads using a gaussian-distribution approach">blockbuster</a>
 <a href="https://usegalaxy.org/root?tool_id=cummeRbund" target="_top" title="visualize Cuffdiff output">cummeRbund</a>
+<a href="https://usegalaxy.org/root?tool_id=drs_transcript_prediction" target="_top" title="Predicts transcripts from direct RNA sequencing reads for organisms without splicing">drs-transcript-prediction</a>
 <a href="https://usegalaxy.org/root?tool_id=edger" target="_top" title="Perform differential expression of count data">edgeR</a>
 <a href="https://usegalaxy.org/root?tool_id=featurecounts" target="_top" title="Measure gene expression in RNA-Seq experiments from SAM or BAM files">featureCounts</a>
 <a href="https://usegalaxy.org/root?tool_id=goseq" target="_top" title="tests for overrepresented gene categories">goseq</a>
@@ -1048,6 +1077,13 @@ description: "2370 tools and counting"
 <div class="tool-list">
 
 <a href="https://usegalaxy.org/root?tool_id=hyphy_annotate" target="_top" title="a newick tree with HyPhy">Annotate</a>
+<a href="https://usegalaxy.org/root?tool_id=chronaeon_align" target="_top" title="Reference-guided codon-aware alignment threading">ChronAeon Align</a>
+<a href="https://usegalaxy.org/root?tool_id=chronaeon_autoclock" target="_top" title="Unsupervised multi-clock community deconvolution and outlier triage">ChronAeon AutoClock</a>
+<a href="https://usegalaxy.org/root?tool_id=chronaeon_date" target="_top" title="Calibrate heterochronous molecular clocks and date MRCA">ChronAeon Date</a>
+<a href="https://usegalaxy.org/root?tool_id=chronaeon_dynamics" target="_top" title="Estimate epidemic growth rate (r) and reproduction numbers (R0, Rt)">ChronAeon Dynamics</a>
+<a href="https://usegalaxy.org/root?tool_id=chronaeon_phylogeo" target="_top" title="Discrete phylogeography and spatial transmission network inference">ChronAeon PhyloGeo</a>
+<a href="https://usegalaxy.org/root?tool_id=chronaeon_sketch" target="_top" title="Alignment-free MinHash sketching and sequence binning">ChronAeon Sketch</a>
+<a href="https://usegalaxy.org/root?tool_id=chronaeon_triage" target="_top" title="Streaming high-throughput QC and molecular clock outlier triage">ChronAeon Triage</a>
 <a href="https://usegalaxy.org/root?tool_id=drhip" target="_top" title="Data Reduction for HyPhy with Inference Processing">DRHIP</a>
 <a href="https://usegalaxy.org/root?tool_id=hyphy_bgm" target="_top" title="- Detecting coevolving sites via Bayesian graphical models">HyPhy-BGM</a>
 <a href="https://usegalaxy.org/root?tool_id=hyphy_busted" target="_top" title="Branch-site Unrestricted Statistical Test for Episodic Diversification">HyPhy-BUSTED</a>
@@ -1096,7 +1132,7 @@ description: "2370 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=phykit_tree_based" target="_top" title="">PhyKit - Tree-based functions</a>
 <a href="https://usegalaxy.org/root?tool_id=tn93" target="_top" title="compute distances between aligned sequences">TN93</a>
 <a href="https://usegalaxy.org/root?tool_id=tn93_cluster" target="_top" title="sequences that lie within a specific distance of each other">TN93 Cluster</a>
-<a href="https://usegalaxy.org/root?tool_id=tn93_filter" target="_top" title="- remove sequences from a reference that are within a given distance of of a cluster">TN93 Filter</a>
+<a href="https://usegalaxy.org/root?tool_id=tn93_filter" target="_top" title="- remove sequences from a reference that are within a given distance of a cluster">TN93 Filter</a>
 
 </div>
 
@@ -1280,6 +1316,7 @@ description: "2370 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=image_learner" target="_top" title="trains and evaluates an image classification/regression model">Image Learner</a>
 <a href="https://usegalaxy.org/root?tool_id=sklearn_label_encoder" target="_top" title="Encode target labels with value between 0 and n_classes-1">Label encoder</a>
 <a href="https://usegalaxy.org/root?tool_id=sklearn_lightgbm" target="_top" title="- train and apply LightGBM models">LightGBM</a>
+<a href="https://usegalaxy.org/root?tool_id=ml_visualization_ex" target="_top" title="includes several types of plotting for machine learning">Machine Learning Visualization Extension</a>
 <a href="https://usegalaxy.org/root?tool_id=model_prediction" target="_top" title="predicts on new data using a preffited model">Model Prediction</a>
 <a href="https://usegalaxy.org/root?tool_id=sklearn_model_validation" target="_top" title="includes cross_validate, cross_val_predict, learning_curve, and more">Model Validation</a>
 <a href="https://usegalaxy.org/root?tool_id=multimodal_learner" target="_top" title="Train and evaluate an AutoGluon Multimodal model (tabular + image + text)">Multimodal Learner</a>
@@ -1884,6 +1921,7 @@ description: "2370 tools and counting"
 <div class="tool-list">
 
 <a href="https://usegalaxy.org/root?tool_id=blastxml_to_tabular" target="_top" title="Convert BLAST XML output to tabular">BLAST XML to tabular</a>
+<a href="https://usegalaxy.org/root?tool_id=kraken2" target="_top" title="assign taxonomic labels to sequencing reads">Kraken2</a>
 <a href="https://usegalaxy.org/root?tool_id=ncbi_blastdbcmd_wrapper" target="_top" title="Extract sequence(s) from BLAST database">NCBI BLAST+ blastdbcmd entry(s)</a>
 <a href="https://usegalaxy.org/root?tool_id=ncbi_blastn_wrapper" target="_top" title="Search nucleotide database with nucleotide query sequence(s)">NCBI BLAST+ blastn</a>
 <a href="https://usegalaxy.org/root?tool_id=ncbi_blastp_wrapper" target="_top" title="Search protein database with protein query sequence(s)">NCBI BLAST+ blastp</a>
@@ -1906,27 +1944,27 @@ description: "2370 tools and counting"
 
 <div class="tool-list">
 
-<a href="https://usegalaxy.org/root?tool_id=rseqc_bam2wig" target="_top" title="converts all types of RNA-seq data from BAM to Wiggle">BAM to Wiggle</a>
-<a href="https://usegalaxy.org/root?tool_id=rseqc_bam_stat" target="_top" title="reads mapping statistics for a provided BAM or SAM file.">BAM/SAM Mapping Stats</a>
-<a href="https://usegalaxy.org/root?tool_id=rseqc_clipping_profile" target="_top" title="estimates clipping profile of RNA-seq reads from BAM or SAM file">Clipping Profile</a>
-<a href="https://usegalaxy.org/root?tool_id=rseqc_deletion_profile" target="_top" title="calculates the distributions of deleted nucleotides across reads">Deletion Profile</a>
-<a href="https://usegalaxy.org/root?tool_id=rseqc_FPKM_count" target="_top" title="calculates raw read count, FPM, and FPKM for each gene">FPKM Count</a>
-<a href="https://usegalaxy.org/root?tool_id=rseqc_geneBody_coverage" target="_top" title="read coverage over gene body">Gene Body Coverage (BAM)</a>
-<a href="https://usegalaxy.org/root?tool_id=rseqc_geneBody_coverage2" target="_top" title="read coverage over gene body">Gene Body Coverage (Bigwig)</a>
-<a href="https://usegalaxy.org/root?tool_id=rseqc_read_hexamer" target="_top" title="calculates hexamer (6mer) frequency for reads, genomes, and mRNA sequences">Hexamer frequency</a>
-<a href="https://usegalaxy.org/root?tool_id=rseqc_infer_experiment" target="_top" title="speculates how RNA-seq were configured">Infer Experiment</a>
-<a href="https://usegalaxy.org/root?tool_id=rseqc_inner_distance" target="_top" title="calculate the inner distance (or insert size) between two paired RNA reads">Inner Distance</a>
-<a href="https://usegalaxy.org/root?tool_id=rseqc_insertion_profile" target="_top" title="calculates the distribution of inserted nucleotides across reads">Insertion Profile</a>
-<a href="https://usegalaxy.org/root?tool_id=rseqc_junction_annotation" target="_top" title="compares detected splice junctions to reference gene model">Junction Annotation</a>
-<a href="https://usegalaxy.org/root?tool_id=rseqc_junction_saturation" target="_top" title="detects splice junctions from each subset and compares them to reference gene model">Junction Saturation</a>
-<a href="https://usegalaxy.org/root?tool_id=rseqc_mismatch_profile" target="_top" title="calculates the distribution of mismatches across reads">Mismatch Profile</a>
-<a href="https://usegalaxy.org/root?tool_id=rseqc_RNA_fragment_size" target="_top" title="calculates the fragment size for each gene/transcript">RNA fragment size</a>
-<a href="https://usegalaxy.org/root?tool_id=rseqc_RPKM_saturation" target="_top" title="calculates raw count and RPKM values for transcript at exon, intron, and mRNA level">RPKM Saturation</a>
-<a href="https://usegalaxy.org/root?tool_id=rseqc_read_distribution" target="_top" title="calculates how mapped reads were distributed over genome feature">Read Distribution</a>
-<a href="https://usegalaxy.org/root?tool_id=rseqc_read_duplication" target="_top" title="determines reads duplication rate with sequence-based and mapping-based strategies">Read Duplication</a>
-<a href="https://usegalaxy.org/root?tool_id=rseqc_read_GC" target="_top" title="determines GC% and read count">Read GC</a>
-<a href="https://usegalaxy.org/root?tool_id=rseqc_read_NVC" target="_top" title="to check the nucleotide composition bias">Read NVC</a>
-<a href="https://usegalaxy.org/root?tool_id=rseqc_read_quality" target="_top" title="determines Phred quality score">Read Quality</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_bam2wig" target="_top" title="converts all types of RNA-seq data from BAM to Wiggle">RSeQC BAM to Wiggle</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_bam_stat" target="_top" title="reads mapping statistics for a provided BAM or SAM file.">RSeQC BAM/SAM Mapping Stats</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_clipping_profile" target="_top" title="estimates clipping profile of RNA-seq reads from BAM or SAM file">RSeQC Clipping Profile</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_deletion_profile" target="_top" title="calculates the distributions of deleted nucleotides across reads">RSeQC Deletion Profile</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_FPKM_count" target="_top" title="calculates raw read count, FPM, and FPKM for each gene">RSeQC FPKM Count</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_geneBody_coverage" target="_top" title="read coverage over gene body">RSeQC Gene Body Coverage (BAM)</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_geneBody_coverage2" target="_top" title="read coverage over gene body">RSeQC Gene Body Coverage (Bigwig)</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_read_hexamer" target="_top" title="calculates hexamer (6mer) frequency for reads, genomes, and mRNA sequences">RSeQC Hexamer frequency</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_infer_experiment" target="_top" title="speculates how RNA-seq were configured">RSeQC Infer Experiment</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_inner_distance" target="_top" title="calculate the inner distance (or insert size) between two paired RNA reads">RSeQC Inner Distance</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_insertion_profile" target="_top" title="calculates the distribution of inserted nucleotides across reads">RSeQC Insertion Profile</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_junction_annotation" target="_top" title="compares detected splice junctions to reference gene model">RSeQC Junction Annotation</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_junction_saturation" target="_top" title="detects splice junctions from each subset and compares them to reference gene model">RSeQC Junction Saturation</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_mismatch_profile" target="_top" title="calculates the distribution of mismatches across reads">RSeQC Mismatch Profile</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_RNA_fragment_size" target="_top" title="calculates the fragment size for each gene/transcript">RSeQC RNA fragment size</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_RPKM_saturation" target="_top" title="calculates raw count and RPKM values for transcript at exon, intron, and mRNA level">RSeQC RPKM Saturation</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_read_distribution" target="_top" title="calculates how mapped reads were distributed over genome feature">RSeQC Read Distribution</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_read_duplication" target="_top" title="determines reads duplication rate with sequence-based and mapping-based strategies">RSeQC Read Duplication</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_read_GC" target="_top" title="determines GC% and read count">RSeQC Read GC</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_read_NVC" target="_top" title="to check the nucleotide composition bias">RSeQC Read NVC</a>
+<a href="https://usegalaxy.org/root?tool_id=rseqc_read_quality" target="_top" title="determines Phred quality score">RSeQC Read Quality</a>
 <a href="https://usegalaxy.org/root?tool_id=rseqc_tin" target="_top" title="evaluates RNA integrity at a transcript level">Transcript Integrity Number</a>
 
 </div>
@@ -2234,6 +2272,7 @@ description: "2370 tools and counting"
 
 <div class="tool-list">
 
+<a href="https://usegalaxy.org/root?tool_id=phyloseq_add_rank_names" target="_top" title="Add taxonomy rank names to a phyloseq object">Add Rank Names to Phyloseq Object</a>
 <a href="https://usegalaxy.org/root?tool_id=biom_add_metadata" target="_top" title="to a BIOM table">Add metadata</a>
 <a href="https://usegalaxy.org/root?tool_id=scikit_bio_diversity_beta_diversity" target="_top" title="using scikit-bio">Beta Diversity</a>
 <a href="https://usegalaxy.org/root?tool_id=binette" target="_top" title="Binning refinement tool">Binette</a>
@@ -2276,12 +2315,14 @@ description: "2370 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=phyloseq_from_dada2" target="_top" title="from dada2 sequence and taxonomy tables">Create phyloseq object</a>
 <a href="https://usegalaxy.org/root?tool_id=phyloseq_from_biom" target="_top" title="from a BIOM file">Create phyloseq object</a>
 <a href="https://usegalaxy.org/root?tool_id=das_tool" target="_top" title="for genome-resolved metagenomics">DAS Tool</a>
+<a href="https://usegalaxy.org/root?tool_id=decontam" target="_top" title="Identification and removal of contaminants">Decontam</a>
 <a href="https://usegalaxy.org/root?tool_id=defense_finder" target="_top" title="systematically detect known anti-phage systems">DefenseFinder</a>
 <a href="https://usegalaxy.org/root?tool_id=bg_diamond" target="_top" title="align sequences against a protein database">Diamond</a>
 <a href="https://usegalaxy.org/root?tool_id=bg_diamond_makedb" target="_top" title="build database from a FASTA file">Diamond makedb</a>
 <a href="https://usegalaxy.org/root?tool_id=bg_diamond_view" target="_top" title="generate formatted output from DAA files">Diamond view</a>
 <a href="https://usegalaxy.org/root?tool_id=gtdbtk_classify_wf" target="_top" title="by placement in GTDB reference tree">GTDB-Tk Classify genomes</a>
 <a href="https://usegalaxy.org/root?tool_id=humann" target="_top" title="to profile presence/absence and abundance of microbial pathways and gene families">HUMAnN</a>
+<a href="https://usegalaxy.org/root?tool_id=itsx" target="_top" title="identifies ITS sequences and extracts the ITS region">ITSx</a>
 <a href="https://usegalaxy.org/root?tool_id=kneaddata" target="_top" title="Quality control and contaminant removal for metagenomic data">KneadData</a>
 <a href="https://usegalaxy.org/root?tool_id=kraken" target="_top" title="assign taxonomic labels to sequencing reads">Kraken</a>
 <a href="https://usegalaxy.org/root?tool_id=kraken_taxonomy_report" target="_top" title="view report of classification for multiple samples">Kraken taxonomic report</a>
@@ -2299,6 +2340,7 @@ description: "2370 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=krakentools_beta_diversity" target="_top" title="from Kraken, Krona and Bracken files">Krakentools: calculates beta diversity (Bray-Curtis dissimilarity)</a>
 <a href="https://usegalaxy.org/root?tool_id=taxonomy_krona_chart" target="_top" title="from taxonomic profile">Krona pie chart</a>
 <a href="https://usegalaxy.org/root?tool_id=mapseq" target="_top" title="sequence read classification designed to assign taxonomy and OTU classifications">MAPseq</a>
+<a href="https://usegalaxy.org/root?tool_id=maaslin3" target="_top" title="Microbiome Multivariable Association with Linear Models">MaAsLin3</a>
 <a href="https://usegalaxy.org/root?tool_id=motus_map_snv" target="_top" title="Map reads to the marker gene database for SNV calling">Map SNV</a>
 <a href="https://usegalaxy.org/root?tool_id=maxbin2" target="_top" title="clusters metagenomic contigs into bins">MaxBin2</a>
 <a href="https://usegalaxy.org/root?tool_id=mereg_mOTUs_tables" target="_top" title="Merge mOTUs aboundance or count tables">Merge</a>
@@ -2309,6 +2351,7 @@ description: "2370 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=name2taxid" target="_top" title="Convert taxon names to NCBI Taxids">Name2taxid</a>
 <a href="https://usegalaxy.org/root?tool_id=nonpareil" target="_top" title="to estimate average coverage and generate Nonpareil curves">Nonpareil</a>
 <a href="https://usegalaxy.org/root?tool_id=phi_toolkit_report" target="_top" title="">PHI toolkit report</a>
+<a href="https://usegalaxy.org/root?tool_id=phyloseq_tax_glom" target="_top" title="Aggregates a Phyloseq object at a specified taxonomic rank">Phyloseq Taxonomic Agglomeration</a>
 <a href="https://usegalaxy.org/root?tool_id=phyloseq_plot_richness" target="_top" title="">Phyloseq: plot alpha diverstiy measure</a>
 <a href="https://usegalaxy.org/root?tool_id=phyloseq_plot_ordination" target="_top" title="">Phyloseq: plot ordination</a>
 <a href="https://usegalaxy.org/root?tool_id=PlasFlow" target="_top" title="Prediction of plasmid sequences in metagenomic contigs">PlasFlow</a>
@@ -2343,7 +2386,12 @@ description: "2370 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=vegan_diversity" target="_top" title="index">Vegan Diversity</a>
 <a href="https://usegalaxy.org/root?tool_id=vegan_fisher_alpha" target="_top" title="index">Vegan Fisher Alpha</a>
 <a href="https://usegalaxy.org/root?tool_id=vegan_rarefaction" target="_top" title="curve and statistics">Vegan Rarefaction</a>
+<a href="https://usegalaxy.org/root?tool_id=ampvis2_export_otu" target="_top" title="">ampvis2 export otu</a>
+<a href="https://usegalaxy.org/root?tool_id=ampvis2_heatmap" target="_top" title="">ampvis2 heatmap</a>
 <a href="https://usegalaxy.org/root?tool_id=ampvis2_load" target="_top" title="">ampvis2 load</a>
+<a href="https://usegalaxy.org/root?tool_id=ampvis2_ordinate" target="_top" title="">ampvis2 ordination plot</a>
+<a href="https://usegalaxy.org/root?tool_id=ampvis2_subset_samples" target="_top" title="by sample metadata">ampvis2 subset samples</a>
+<a href="https://usegalaxy.org/root?tool_id=barrnap" target="_top" title="Locate ribosomal RNA&#x27;s in a fasta file. (GFF output)">barrnap</a>
 <a href="https://usegalaxy.org/root?tool_id=cd_hit_dup" target="_top" title="remove duplicates and detect chimaeras in sequencing reads">cd-hit-dup</a>
 <a href="https://usegalaxy.org/root?tool_id=checkm2" target="_top" title="Rapid assessment of genome bin quality using machine learning">checkm2</a>
 <a href="https://usegalaxy.org/root?tool_id=drep_compare" target="_top" title="compare a list of genomes">dRep compare</a>
@@ -2354,6 +2402,7 @@ description: "2370 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=dada2_learnErrors" target="_top" title="Learn Error rates">dada2: learnErrors</a>
 <a href="https://usegalaxy.org/root?tool_id=dada2_makeSequenceTable" target="_top" title="construct a sequence table (analogous to OTU table)">dada2: makeSequenceTable</a>
 <a href="https://usegalaxy.org/root?tool_id=dada2_mergePairs" target="_top" title="Merge denoised forward and reverse reads">dada2: mergePairs</a>
+<a href="https://usegalaxy.org/root?tool_id=dada2_mergeSequenceTables" target="_top" title="merge 2 or more sequence tables together">dada2: mergeSequenceTables</a>
 <a href="https://usegalaxy.org/root?tool_id=dada2_plotComplexity" target="_top" title="Plot sequence complexity profile">dada2: plotComplexity</a>
 <a href="https://usegalaxy.org/root?tool_id=dada2_plotQualityProfile" target="_top" title="plot a visual summary of the quality scores">dada2: plotQualityProfile</a>
 <a href="https://usegalaxy.org/root?tool_id=dada2_removeBimeraDenovo" target="_top" title="Remove bimeras from collections of unique sequences">dada2: removeBimeraDenovo</a>
@@ -2379,6 +2428,7 @@ description: "2370 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=metamdbg_asm" target="_top" title="Assemble long-read metagenomes (HiFi / ONT)">metaMDBG assemble (ASM)</a>
 <a href="https://usegalaxy.org/root?tool_id=metamdbg_gfa" target="_top" title="Generate a GFA graph from a metaMDBG assembly or list available k-values">metaMDBG graph (GFA)</a>
 <a href="https://usegalaxy.org/root?tool_id=metagenomeseq_normalizaton" target="_top" title="Cumulative sum scaling">metagenomeSeq Normalization</a>
+<a href="https://usegalaxy.org/root?tool_id=mmuphin" target="_top" title="Performing meta-analyses of microbiome studies">mmuphin</a>
 <a href="https://usegalaxy.org/root?tool_id=metasbt_profile" target="_top" title="genomes with MetaSBT to infer their taxonomic">profile</a>
 <a href="https://usegalaxy.org/root?tool_id=staramr_search" target="_top" title="Scans genome assemblies against the ResFinder, PlasmidFinder, and PointFinder databases searching for AMR genes.">staramr</a>
 <a href="https://usegalaxy.org/root?tool_id=sylph_profile" target="_top" title="Profile a metagenome including taxonomic and sequence abundances">sylph profile</a>
@@ -2444,7 +2494,7 @@ description: "2370 tools and counting"
 <a href="https://usegalaxy.org/root?tool_id=scanpy_scale_data" target="_top" title="to make expression variance the same for all genes">Scanpy ScaleData</a>
 <a href="https://usegalaxy.org/root?tool_id=scanpy_cluster_reduce_dimension" target="_top" title="and infer trajectories">Scanpy cluster, embed</a>
 <a href="https://usegalaxy.org/root?tool_id=scanpy_filter" target="_top" title="mark and subsample">Scanpy filter</a>
-<a href="https://usegalaxy.org/root?tool_id=scanpy_normalize" target="_top" title="and impute">Scanpy normalize</a>
+<a href="https://usegalaxy.org/root?tool_id=scanpy_normalize" target="_top" title="normalize and scale">Scanpy normalize</a>
 <a href="https://usegalaxy.org/root?tool_id=scanpy_plot" target="_top" title="">Scanpy plot</a>
 <a href="https://usegalaxy.org/root?tool_id=scanpy_remove_confounders" target="_top" title="with scanpy">Scanpy remove confounders</a>
 <a href="https://usegalaxy.org/root?tool_id=seurat_create" target="_top" title="- Prepare data for the pipeline">Seurat Create</a>
@@ -2898,6 +2948,7 @@ description: "2370 tools and counting"
 
 <div class="tool-list">
 
+<a href="https://usegalaxy.org/root?tool_id=atacseqqc_tsse" target="_top" title="Computes Transcription Start Site Enrichment Score">ATACseqQC TSSE</a>
 <a href="https://usegalaxy.org/root?tool_id=hicup_deduplicator" target="_top" title="removes duplicated di-tags (retaining one copy of each) from the data set.">Hicup Deduplicator</a>
 <a href="https://usegalaxy.org/root?tool_id=hicup_digester" target="_top" title="cuts throughout a selected genome at one or two specified restriction sites.">Hicup Digester</a>
 <a href="https://usegalaxy.org/root?tool_id=hicup_filter" target="_top" title="classifies read pairs, identifying valid Hi-C di-tags">Hicup Filter</a>

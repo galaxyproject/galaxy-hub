@@ -6,6 +6,11 @@
 > shipped as `@galaxyproject/brand-tokens`. This document covers only what's
 > specific to the Hub (component stylings, layout, animation, the OKLch UI-primitive
 > layer, SIG/WG category colors, responsive behavior).
+>
+> **Source of truth for Hub design:** this file plus galaxy-ui
+> ([`galaxyproject/galaxy` `client/packages/ui`](https://github.com/galaxyproject/galaxy/tree/dev/client/packages/ui),
+> its `tokens.css`). The Hub aligns colour values and role names with galaxy-ui; it does
+> not import galaxy-ui (a private workspace package of raw Vue SFCs). See §10.
 
 ## 1. Visual Theme & Atmosphere
 
@@ -15,14 +20,14 @@ The typography is built entirely on Atkinson Hyperlegible -- a font designed spe
 
 The Hub is part of a broader Galaxy ecosystem that includes IWC (Intergalactic Workflow Commission), GTN (Galaxy Training Network), and the usegalaxy.org servers. All share the same brand palette, gold accent patterns, dark/light contrast model, and card-based layouts. A researcher browsing workflows on IWC, reading news on the Hub, and taking a GTN tutorial should feel like they're navigating one cohesive platform.
 
-IWC is the closest sibling site in design terms and has its own [DESIGN.md](https://github.com/galaxyproject/iwc/blob/main/website/DESIGN.md) in the `galaxyproject/iwc` repository. The two docs should be read together -- where they differ, prefer IWC's approach for anything that appears on both sites (cards, tabs, hover accent bars, section backgrounds). §2 documents the shared Pantone-style color aliases so cross-property code can be written interchangeably.
+IWC is the closest sibling site in design terms and has its own [DESIGN.md](https://github.com/galaxyproject/iwc/blob/main/website/DESIGN.md) in the `galaxyproject/iwc` repository. Read the two docs together, and look at how IWC builds a pattern that appears on both sites (cards, tabs, hover accent bars, section backgrounds) before writing new code. **Precedence:** where they disagree, this file and galaxy-ui win; IWC is a reference, not the rule. §2 documents the shared Pantone-style color aliases so cross-property code can be written interchangeably.
 
-The site is light-mode only in practice -- dark-mode CSS custom properties exist in `global.css` under a `.dark` class, but nothing toggles that class. Treat the site as single-theme until that changes.
+**Dark mode:** colours are semantic roles with a light value in `:root` and a dark value in `.dark` (`global.css`, §2). The theme switch will set `.dark` on `<html>`; it ships after the redesign, so nothing sets the class yet and the site renders light. Never hardcode a colour that has no dark value: use a role, or add the role with both values.
 
 The technical substrate is Astro with Tailwind CSS 4, Vue 3 components hydrated client-side via Reka UI primitives, and class-variance-authority for component variants. Content is Markdown/MDX preprocessed from a shared `/content/` directory, with Bootstrap compatibility classes scoped under `.bs-compat` for legacy content.
 
 **Key Characteristics:**
-- Light-mode only: dark structural elements (sidebar, headers) frame light content backgrounds
+- Light theme today, dark-ready: every role has a light and a dark value; dark structural elements (sidebar, headers) frame light content backgrounds
 - Atkinson Hyperlegible at 400/700 -- accessibility-first typography
 - Galaxy brand palette for brand-facing surfaces, OKLch semantic tokens for generic UI internals (see §2)
 - Gold (`#ffd700`) as the sole accent color, reserved for high-impact moments
@@ -36,14 +41,62 @@ The technical substrate is Astro with Tailwind CSS 4, Vue 3 components hydrated 
 
 ## 2. Color Palette & Roles
 
-The Hub runs two parallel color systems. **Don't mix them.**
+### Semantic roles (light/dark)
+
+New page code uses **role tokens**: they name what a colour is for, carry a light and a dark value, and resolve to brand values. Defined in `global.css` as `--gx-<role>` in `:root` (light) and `.dark` (dark), exposed to Tailwind through `@theme inline` as `--color-<role>`, so `text-fg-meta`, `bg-surface-tint`, `border-line` and `decoration-link-hover-line` all work. Ratios are WCAG 2.1 against the page (`#ffffff` light, `#121419` dark) unless noted; a unit test (`src/styles/global.test.ts`) fails when a role lacks its dark value.
+
+| Role | Utility | Light | Dark | Contrast (light / dark) |
+|------|---------|-------|------|-------------------------|
+| Body text | `text-fg` | `#3c3c3d` chicago-900 | `#d5d8df` | 11.02 / 12.91 |
+| Headings | `text-fg-strong` | `#2c3143` galaxy-dark | `#f0f1f4` | 12.90 / 16.31 |
+| Lead, secondary | `text-fg-2` | `#4f4e50` chicago-700 | `#c0c4cc` | 8.27 / 10.54 |
+| Meta: dates, bylines, counts | `text-fg-meta` | `#58585a` galaxy-grey | `#a3a8b4` | 7.10 / 7.74 |
+| Faint: decoration only, never text | `text-fg-faint` | `#878789` | `#737a8c` | 3.59 / 4.29 |
+| Index letters: large A-Z group markers, large text only (>=24px or 18.66px bold) | `text-fg-letter` | `#5f7f9c` | `#6688aa` | 4.20 / 4.97 (3:1 large text) |
+| Brand text: tags, type badges | `text-fg-brand` | `#1f4465` | `#bfdaf4` | 9.13 / 10.74 on `surface-tint` |
+| Link | `text-link`, `decoration-link-line` | `#25537b` galaxy-primary | `#8cbbe9` | 8.07 / 9.12 |
+| Link hover | `text-link-hover`, `decoration-link-hover-line` | `#1f4465`, gold-600 `#d19e00` underline | `#bfdaf4`, gold underline | 10.13 / 12.77 |
+| Page, surface | `bg-page`, `bg-surface` | `#ffffff` | `#121419` | Today the content area is still `bg-light-bg` `#edf4fa` under white cards (§6); the flat white page of the redesign comes with the shell changes and will use `bg-page`. |
+| Surface 2: row hover, panels | `bg-surface-2` | `#f6f9fc` | `#171a21` | |
+| Raised: cards, inputs | `bg-surface-raised` | `#ffffff` | `#1b1e27` | |
+| Overlay: menus, popovers | `bg-surface-overlay` | `#ffffff` | `#232734` | |
+| Tint: tags, callouts, table heads | `bg-surface-tint` | `#edf4fa` light-bg | `#172536` | link on tint 7.27 / 7.68 |
+| Sunken: inline code, counts | `bg-surface-sunken` | `#f5f5f6` chicago-50 | `#22262f` | meta on sunken 6.51 / 6.36 |
+| Lines | `border-line`, `-line-brand`, `-line-strong` | chicago-100; primary at 16% / 34% | `#2a2e38`; `#8cbbe9` at 16% / 38% | decorative |
+| Input border | `border-line-input` | `#878789` | `#737a8c` | 3.59 / 4.29 (3:1 for controls) |
+| Focus: outer outline | `outline-focus` | `#2c3143` galaxy-dark; `#ffffff` inside `focus-scope-dark` | `#ffffff` | 11.63 to 12.90 on the light surfaces; 12.90 white on `#2c3143` and 13.49 to 18.42 on the dark surfaces |
+| Focus: inner ring | `--color-focus-inner` (box-shadow colour) | `#ffffff`; `#2c3143` chrome inside `focus-scope-dark` | `#1c2030` chrome | the white ring is 12.90 against the galaxy-dark outline; the dark ring against a gold fill is 9.20, against a white fill 12.90 |
+| Brand fill | `bg-brand`, `text-on-brand` | `#25537b`, white | `#2b5f8e`, white | 8.07 / 6.71 |
+| Selected: pressed chip, current item | `bg-selected`, `text-on-selected` | `#25537b`, white | `#8cbbe9`, `#10131a` | 8.07 / 9.20 |
+| Gold accent: CTAs, active marks | `bg-accent-gold`, `bg-accent-gold-hover`, `text-on-accent-gold` | `#ffd700`, hover `#d19e00`, galaxy-dark text | `#ffd700`, hover `#ffe24d` | 9.20 both |
+| Chrome: sidebar, footer | `bg-chrome`, `text-chrome-fg`, `-chrome-fg-2`, `-chrome-meta`, `border-chrome-line`, `bg-chrome-field` | `#2c3143`, `#dfe2ea`, `#d3d6e2`, `#bbc0d2` | `#1c2030`, `#d7dae3`, `#c7cad6`, `#a9aec0` | nav 9.96 / 11.57; meta 7.12 / 7.32 |
+| Status ok / past | `text-ok-fg` `bg-ok-bg` `border-ok-line`; `-past-*` | `#006b15` on `#eef7ef`; `#4f4e50` on `#f5f5f6` | `#74d08e` on `#12291a`; `#c0c4cc` on `#22262f` | 6.16 / 8.22; 7.59 / 8.66 |
+| Status info / warn / danger | `text-info-fg` `bg-info-bg`; `warn-*`; `danger-*` | galaxy-ui 600-700 text on 100 bg | light text on dark tint | 7.58 / 8.57; 6.68 / 12.43; 8.59 / 7.02 |
+
+Rules:
+
+- Brand aliases (`galaxy-*`, `light-bg`, hex) appear only inside role definitions and brand moments (hero gradients, the gold bar). Existing page code moves to roles as it is touched.
+- Gold is never text on a light surface (1.40:1 on white). Links hover to `link-hover` with a gold underline.
+- Focus is one global rule, `:focus-visible` in `global.css` (`@layer base`; written plain, not `:where()`, so it beats the Tailwind preflight `:-moz-focusring` rule in Firefox by source order): a `2px` solid outline in `--color-focus` at a `2px` offset plus a `2px` inner ring in `--color-focus-inner` (a `box-shadow` that fills the offset gap). Light theme: galaxy-dark outline, white ring. Dark theme: white outline, `chrome` ring. Components add no focus classes of their own; the ui primitives carry no `ring-*` or `outline-none` (`SelectItem` keeps `outline-hidden`: its highlight is the indicator, and it drops the inner ring with `focus-visible:[box-shadow:none]`). On the light surfaces the dark outline clears 3:1: 12.90:1 on white, 11.63 on `light-bg`, 12.21 on `surface-2`. On a dark surface it does not: the outline has the colour of the band, so only the white inner ring shows, hugging the control, and the focus reads as missing. Dark surfaces therefore carry the `focus-scope-dark` utility (`global.css`), which swaps the pair for everything inside the container: `--color-focus` becomes white and `--color-focus-inner` becomes `--gx-chrome`. The outline is the one that clears the band (white on `#2c3143` is 12.90:1, on `chrome-field` `#3c435c` 9.77, on the `#25537b` end of a gradient 8.07), and the chrome gap ring rims the control (against a gold fill 9.20:1, against a white fill 12.90:1, so it reads on gold and light-filled controls and on transparent ones). It is set on the sidebar, mobile header and menu sheet, the site footer, `PageHeader` and the hall-of-fame header, the home page (masthead, `homepage-v2`, footer), the welcome page hero, the dark heroes of `AgenticStack`, `AgentShells` and `OrbitHero`, and on the code copy button (a dark control on a dark code block). Put it on a new dark container; never on a container that holds a white card with its own controls (the `AgentsLanding` hero keeps the light pair for the buttons on its white path cards). Chrome is dark in both themes (`#2c3143` light, `#1c2030` dark), so in the dark theme the scope gives the same pair as the theme itself: white outline, chrome ring. In the dark theme the white outline is 13.49 to 18.42:1 on every dark surface. The shadow is dropped in forced-colors mode; the outline stays.
+- Deliberate exceptions to the focus rule: inset outlines where an ancestor clips (`-outline-offset-2` and `box-shadow: none`; an inset outline has no gap ring, so its colour must clear 3:1 on its own surface: `ContextSwitcher` menu items are white on the dark menu, 12.90 and 9.77 on the focused row; the agentic-stack panes are galaxy-dark on the light pane, 12.37, and white on the dark agent pane, 17.36; the `AgentShells` replay region is white on the terminal and IDE windows and galaxy-dark on the desktop window (12.37), and its tabs are white on the dark tab strip; the agent-band `details` summary is galaxy-dark on the white box, 12.90, since the box clips sideways overflow; the post creator tab panels take the global outline colour on the light card, and its tab triggers use `outline-focus` inset; the project tabs in `ProjectPageTop` are galaxy-dark on the white page, 12.90, since the strip scrolls sideways and clips a ring), card-level rings where a stretched link carries the focus (`PlatformDirectory` cards, projects index cards, `NewsList` tiles, whose `overflow-hidden` would clip a ring on the link: the global outline and `--color-focus-inner` shadow on the card, none on the link), `#main-content` (a programmatic focus target: no ring), and the post creator (admin tool, keeps its `focusRing` helper). A `shadow-*` utility rewrites `box-shadow`, so the rule also sets `--tw-ring-shadow`; use `focus-visible:[box-shadow:none]` (not `shadow-none`) to drop the inner ring. Light-filled control on a dark surface (a white button on `bg-galaxy-dark`, such as Donate on the UseGalaxy welcome page): the global pair fails twice, since the white ring merges into the white fill and the dark outline disappears on the dark surface. Inside a `focus-scope-dark` container the swapped pair already covers it. For a lone control on a dark block that is not a scope container, add the `focus-on-dark` utility (`global.css`) to the control, which sets the same pair in both themes with fixed tones: a white outline (12.90:1 on `#2c3143`) and a galaxy-dark inner ring against the fill (12.90:1 on white). Transparent controls and the gold CTAs on dark bands (the agent heroes, the home page) take the scope pair: the unscoped global ring left them with a band-coloured outline and only the white inner ring touching the control.
+- A focusable element with its own `box-shadow` outside the utilities layer loses the inner ring, because unlayered CSS beats `@layer base` and the Bootstrap-compat `.shadow` and `.shadow-sm` are `!important`. Two fixes: on a focusable use `shadow-[var(--gx-elev-sm)]` instead of `shadow-sm` (the arbitrary value is a normal Tailwind utility, so the ring survives), and for a scoped or content rule add a `:focus-visible` rule that lists `0 0 0 2px var(--color-focus-inner)` together with the element's own shadow (`a.gx-tile--link`, `.agl-tile`, `.mcard`, the active `HarnessGuides` tab, the `NewsList` tile card). A shadow that only appears on `:hover` is left alone: it replaces the inner ring only while the pointer also rests on the focused element, and the outline stays.
+- Meta text is `text-fg-meta`, never an opacity-faded grey (`text-galaxy-grey/70` is about 3.45:1 and fails AA).
+- `text-fg-letter` is for large text only (>=24px, or 18.66px bold), where AA needs 3:1; its 4.20:1 fails AA at body sizes.
+- The sidebar still uses brand aliases on `galaxy-dark` (`#2c3143`), not the chrome roles: nav and sub-links `chicago-300` (5.89:1), the archive notice `chicago-200` on `medium-bg` (6.34:1) and its dismiss icon `chicago-300` (4.46:1). `chicago-400` (3.60:1 there) is for icons only, never text. `axe.spec.ts` and `sidebar-context.spec.ts` enforce `color-contrast` on the sidebar and mobile menu.
+- The gold role is `--color-accent-gold` (`bg-accent-gold`, `text-on-accent-gold`), not `accent`: `accent` is the shadcn near-white below, and `@galaxyproject/brand-tokens` also defines a gold `--color-accent` that the shadcn mapping overrides.
+- Role names avoid the shadcn names (`background`, `foreground`, `primary`, `muted`, `accent`, `border`, `input`, `ring`, `sidebar-*`, ...) and never reuse galaxy-ui primitive names such as `--color-blue-600`, which would collide with Tailwind's own `blue` scale.
+- Primitives (Button, Badge, Input) may consume **role** tokens, never brand aliases. That is the single-palette direction below, without a parallel branded button.
+
+### Brand tokens and the OKLch layer
+
+Under the roles, the Hub still runs two parallel color systems. **Don't mix them.**
 
 - **Galaxy brand tokens** (`galaxy-*`, `light-bg`, `medium-bg`, etc.) are for brand-facing surfaces: hero sections, page headers, cards, prose content, navigation. The palette contract is defined in the [base design system](https://github.com/galaxyproject/galaxy-brand-tokens/blob/main/DESIGN.md).
 - **OKLch semantic tokens** (`primary`, `secondary`, `muted`, `accent`, `destructive`, `border`, etc.) power the generic UI component layer (Reka UI / shadcn-style components -- Input, Select, Sheet, Accordion, Tabs). These resolve to near-achromatic values, *not* Galaxy blues. `bg-primary` is near-black; it is **not** `galaxy-primary`.
 
-When composing a new Galaxy page, use brand tokens. When dropping in a form input or a modal, the generic components already use the OKLch tokens -- leave them alone.
+When composing a new Galaxy page, use the role tokens above (brand tokens only for brand moments). When dropping in a form input or a modal, the generic components already use the OKLch tokens -- leave them alone.
 
-### OKLch Semantic Tokens (Transitional)
+#### OKLch Semantic Tokens (Transitional)
 
 Generic UI primitives (Input, Select, Sheet, Accordion, Tabs -- the shadcn/Reka-scaffolded components) use a second set of tokens inherited from shadcn: `primary`, `secondary`, `muted`, `accent`, `destructive`, `border`, `input`. These resolve to achromatic (near-grayscale) values in light mode:
 
@@ -82,29 +135,41 @@ Atkinson Hyperlegible is the canonical Galaxy brand typeface. The stack and acce
 
 ### Hierarchy
 
-| Role | Tailwind Classes | Usage |
-|------|-----------------|-------|
-| Page Title (H1) | `text-3xl sm:text-4xl font-bold tracking-tight text-galaxy-dark` | Page and article titles |
-| Section Header (H2) | `text-2xl font-bold text-galaxy-dark` | Major content sections |
-| Card Title (H3) | `text-xl font-semibold text-galaxy-dark` | Card headers, subsections |
-| Subheading (H4) | `text-lg font-semibold text-galaxy-dark` | Minor sections |
-| Body | `text-base text-galaxy-grey` | Paragraph text |
-| Lead / intro | `text-lg text-galaxy-grey` | Intro paragraph under a title (replaces Bootstrap `lead`) |
-| Muted | `text-sm text-galaxy-grey/70` | Metadata, help text, timestamps |
-| Links | `text-galaxy-primary hover:text-galaxy-gold` | All interactive links |
+A compact scale: 16px body text, headings close to it, so pages read densely without shouting. Each step is a type token (`--text-<step>` in `global.css`); the `text-<step>` utility sets size and line height, weight and colour come from separate classes.
+
+| Role | Size / line height | Tailwind Classes | Usage |
+|------|--------------------|-----------------|-------|
+| Page Title (H1) | 30/36 (26 below `sm`) | `text-h1 font-bold tracking-tight text-fg-strong` | Page and article titles (`PageHeader`) |
+| Section Header (H2) | 22/1.3 | `text-h2 font-bold text-fg-strong` | Major content sections |
+| Card Title (H3) | 18/1.4 | `text-h3 font-semibold text-fg-strong` | Card headers, subsections |
+| Subheading (H4) | 16/1.5 | `text-h4 font-semibold text-fg-strong` | Minor sections |
+| Body | 16/1.6 | `text-body text-fg` | Paragraph text |
+| Lead / intro | 18/28 | `text-lead text-fg-2` | Intro paragraph under a title (replaces Bootstrap `lead`) |
+| Meta | 14/20 | `text-meta text-fg-meta` | Metadata, help text, timestamps (7.10:1; never opacity-faded) |
+| Micro | 12/16 | `text-micro font-bold uppercase tracking-wider` | Overlines, group labels |
+| Links | | `text-link hover:text-link-hover underline decoration-link-line hover:decoration-link-hover-line hover:decoration-2` | Interactive links in text: darker blue plus a gold underline on hover, never gold text on light |
+
+On dark chrome (sidebar, footer, page header) gold hover text stays allowed: gold on galaxy-dark is 9.20:1.
+
+The scale follows prototype A of the redesign. galaxy-ui's `GHeading` sizes (`h-xl` 1.7rem ... `h-sm` 1.0625rem on a 0.85rem app base) are an application scale; the Hub aligns role names, not sizes.
 
 ### Icons
 
-Use **Lucide icons** (via `lucide-vue-next` and the Lucide SVG set) for all UI chrome -- navigation, controls, inline icons in buttons. The content preprocessor automatically converts legacy FontAwesome references in Markdown/MDX to inline Lucide SVGs, so don't introduce new FontAwesome usage.
+Use **Lucide icons** (`@lucide/vue` in Vue components, `components/mdx/Icon.astro` in Astro) for all UI chrome -- navigation, controls, inline icons in buttons. The content preprocessor automatically converts legacy FontAwesome references in Markdown/MDX to inline Lucide SVGs, so don't introduce new FontAwesome usage.
 
 ### Prose Styling
 
-Content rendered from Markdown uses custom prose styles (see `.prose` and `.prose-galaxy` in `global.css`):
+Reading layouts (`ContentWithToc`, `PlatformLayout`) render Markdown with `prose prose-compact prose-galaxy`. See `.prose`, `prose-compact` and `.prose-galaxy` in `global.css`:
+
+- **Scale**: `prose-compact` is a Tailwind utility that sets the §3 hierarchy on Typography: 16/1.6 body, h1-h4 from the type tokens, lead 18/28. Being a utility, it beats Typography's own sizes and still loses to a `text-*` class a content heading carries. Don't use `prose-lg` for content.
+- **Measure**: running text stops at 80ch beside the "On this page" rail; without the rail it stops at 72ch on text-only pages and uses the full column on pages with more than text (§5 Reading Grid). Reading layouts add `prose-measure` to the prose container: it resolves `--measure` once (a registered length, so headings end where paragraphs do) and caps the direct-child paragraphs, lists, definition lists, quotes and headings. Tables, code, figures, embeds, tile grids and image-only paragraphs keep the full column. Centred blocks (`.text-center`, `align="center"`, inline `text-align: center`) are exempt and stay centred in the full column. Right floats sit at the measure edge, and the column contains its floats. Full-bleed pages opt out (`ContentWithToc measure={false}`). See §5 Reading Grid.
+- **Bare embeds** (`BareArticleLayout`, iframed by usegalaxy.eu and .fr) use `prose prose-compact prose-galaxy`: the same 16px scale in their 1200px centred column.
+- **Colours**: `.prose` maps links to `link` and headings to `fg-strong`; `prose-compact` also maps body to `fg`, bold to `fg-strong`, lead and quotes to `fg-2`, counters and captions to `fg-meta`.
 
 ```css
-/* Heading colors */
---tw-prose-headings: #2c3143;
---tw-prose-links: #25537b;
+/* Heading and link colours come from roles */
+--tw-prose-headings: var(--gx-fg-strong);
+--tw-prose-links: var(--gx-link);
 
 /* H2: subtle gold underline */
 .prose h2 { border-bottom: 2px solid rgba(255, 215, 0, 0.2); padding-bottom: 0.5rem; }
@@ -114,23 +179,34 @@ Content rendered from Markdown uses custom prose styles (see `.prose` and `.pros
   border-left: 4px solid #ffd700;
   background-color: rgba(255, 215, 0, 0.03);
   padding: 1rem;
-  border-radius: 0 0.5rem 0.5rem 0;
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
 }
 
 /* Tables: galaxy-primary header */
-.prose th { background-color: #25537b; color: white; font-weight: 600; }
+.prose th { background-color: var(--gx-brand); color: var(--gx-on-brand); font-weight: 600; }
 
-/* Links: underline with gold hover */
-.prose a { text-decoration-color: color-mix(in srgb, #25537b 40%, transparent); }
-.prose a:hover { color: #ffd700; text-decoration-color: #ffd700; }
+/* Links: underlined; hover = darker blue text + 2px gold-600 underline (gold text on white is 1.40:1) */
+.prose a { text-decoration-color: var(--gx-link-line); }
+.prose a:hover { color: var(--gx-link-hover); text-decoration-color: var(--gx-link-hover-line); text-decoration-thickness: 2px; }
 
 /* Code blocks: dark background */
-.prose pre { background-color: #1f2937; border-radius: 0.5rem; }
+.prose pre { background-color: #1f2937; border-radius: var(--radius-md); }
 .prose code:not(pre code) { background-color: #f3f4f6; font-size: 0.875em; }
 
 /* Images: rounded, centered */
-.prose img { border-radius: 0.5rem; margin-left: auto; margin-right: auto; }
+.prose img { border-radius: var(--radius-md); margin-left: auto; margin-right: auto; }
 ```
+
+### Tables
+
+Content tables are compact and stay inside the prose column. Rules (`global.css`, `build/rehype-scrollable-tables.mjs`):
+
+- **Type and cells**: plain (unclassed) content tables use the `text-sm` scale, 14px on a 20px line, with `10px 12px` cell padding. The head keeps the galaxy-primary fill with white 600 text.
+- **No early wrap**: at build time, cells of Markdown tables that hold only short inline text (24 characters or fewer: dates, numbers, short labels) get `whitespace-nowrap`. Long text cells still wrap, so the browser narrows the text columns instead of breaking a date over two lines. No fixed column widths.
+- **Scroll fallback**: every content table sits in the focusable, labelled `.table-wrapper` region, which scrolls sideways when the table is still wider than the column. Tables never break out of the content column; the 72ch text measure does not apply to them.
+- **Left alone**: raw HTML tables keep default wrapping; tables that bring a class (legacy `.bs-compat`, the bare `EventsTable` / `NewsTable` components) keep their own type and padding. In print, short cells wrap again, since paper cannot scroll.
+
+**galaxy-ui parity**: prose tables are the hub's counterpart of `GTable` with `compact` (`g-table-compact`). Same intent, different values: `GTable` cells are `0.75rem` and compact cells `0.3rem`; prose tables use `10px 12px` so running text in cells stays readable. The hub head mirrors `headVariant="dark"` (`g-header-dark`), not the light default.
 
 ---
 
@@ -149,7 +225,7 @@ The structure it produces (shown for reference):
   <!-- ::before pseudo: 24px grid, white 3% opacity -->
   <div class="flex items-center gap-3 mb-4">
     <div class="w-1 h-8 bg-galaxy-gold"></div>  <!-- Gold accent bar -->
-    <h1 class="text-3xl sm:text-4xl font-bold tracking-tight">Title</h1>
+    <h1 class="text-h1 font-bold tracking-tight">Title</h1>
   </div>
   <p class="text-white/80 text-lg max-w-2xl">Description</p>
 </header>
@@ -188,17 +264,25 @@ The `gx-tile` system is the content-authored counterpart to the card pattern abo
     <img class="gx-tile__media" src="..." alt="..." />  <!-- 160px cover image -->
     <div class="gx-tile__title">Title</div>             <!-- galaxy-dark, semibold -->
     <p class="gx-tile__teaser">A one- or two-line hook.</p>
-    <span class="gx-tile__more">Learn more →</span>     <!-- galaxy-primary, gold on hover -->
+    <span class="gx-tile__more">Learn more →</span>     <!-- galaxy-primary; link-hover + gold underline on hover -->
   </a>
 </div>
 ```
 
 Variants and elements:
 
-- `gx-tile` -- base tile: white, `border-galaxy-primary/10`, `rounded-lg`, `shadow-sm`.
-- `gx-tile--link` -- the whole tile is an `<a>`; adds the signature gold hover bar (left edge, `scaleX`) and lifts to `shadow-md`. Keep contents plain (no nested links/markdown).
+- `gx-tile` -- base tile: white, `border-galaxy-primary/10`, `--radius-md` (8px), `shadow-xs`.
+- `gx-tile--link` -- the whole tile is an `<a>`; adds the signature gold hover bar (left edge, `scaleX`) and lifts to `shadow-md`. The card text keeps its colours on hover; only `gx-tile__more` takes the link hover (darker blue, gold underline). Keep contents plain (no nested links/markdown).
 - `gx-tile--feature` -- galaxy-primary left border for emphasized tiles.
 - `gx-tile__media` (160px cover image), `gx-tile__title`, `gx-tile__body` (richer markdown bodies -- separate inner content with blank lines so Markdown renders), `gx-tile__teaser` (short plain text), `gx-tile__credit` (small chicago-500 caption, e.g. photo credits), `gx-tile__more` (link affordance).
+
+### Link Tile
+
+`LinkTile` (`components/use/`) builds the bottom of `/use/`. It is an `<li>` item: the page owns the `<ul>`. The four main server boxes at the top of the page stay as written in `use/index.astro`: gradient boxes with a generic icon and no logos, so the four look alike. Their grid is four columns only from `xl` (1280px): with the sidebar open, `lg` leaves the boxes too narrow for the "Start analyzing" link. Logos can be considered once every instance has one.
+
+- `LinkTile`: one link into another page, the whole tile is the `<a>`: 40px icon square (`surface-tint`), title (`text-h4`), description (`text-meta text-fg-2`) and an arrow; an external link adds an icon and sr-only "(opens in a new tab)". Place tiles in `grid-cols-[repeat(auto-fit,minmax(min(100%,16rem),1fr))]`.
+- Compat collisions: `bootstrap-compat.css` defines these plain classes globally, outside `.bs-compat` too, and the legacy values win over Tailwind's: `p-0..5`, `m-0..5`, `mt-0..5`, `mb-0..5`, `ml-`/`mr-`/`mx-` (0..5, `auto`), `.border` (and `border-0`), `.rounded`, `.shadow` and `.shadow-sm`. In this component use arbitrary values (`p-[1.25rem]`, `mt-[1rem]`, `shadow-[var(--gx-elev-sm)]`) and `border-1`; variant forms (`hover:shadow-sm`) are not affected.
+- Colours are role tokens only; focus is the global ring (Rules, §2). Descriptions are plain text, since the tile is a link and links cannot nest.
 
 ### Callout / Note
 
@@ -211,6 +295,94 @@ Brand-tinted note box for asides and "good to know" content. Replaces Bootstrap 
 ```
 
 `.callout`: `bg-bay-of-many-100`, `border-l-4 border-l-galaxy-primary`, rounded right corners, galaxy-dark text.
+
+### Date Badge
+
+A highlighted date: a coloured label joined to the date, in a bordered pill. Used for "Save the date" in a conference hero and for a sub-event's dates (e.g. CoFest). Add an optional subtitle under the date:
+
+```html
+<div class="gx-date-badge">
+  <span class="gx-date-badge__label">CoFest</span>
+  <span class="gx-date-badge__value">
+    June&nbsp;30 – July&nbsp;1, 2027
+    <span class="gx-date-badge__sub">Wednesday – Thursday, right after the conference</span>
+  </span>
+</div>
+```
+
+`gx-date-badge` sits inline; centre it with a wrapping flex container. When there isn't room for both halves side by side, the label wraps above the date. Use `&nbsp;` inside a date (`June&nbsp;30`) so it only breaks between parts.
+
+### Key Dates Table
+
+Dated milestones (openings, deadlines, results) as a plain Markdown table. `gx-dates` expects three columns, **Date | status icon | What**; wrap the table in it (blank lines around it so Markdown renders):
+
+```html
+<div class="gx-dates">
+
+| Date | | What |
+| --- | --- | --- |
+| November 15, 2026 | 🟢 | 🎓 Applications open |
+| March 15, 2027 | 🔴 | 🎓 Applications close |
+| March 25, 2027 | 🏆 | 🎓 Awards announced |
+
+</div>
+```
+
+`gx-dates` centres the second (status icon) column and shrinks it to its content; keep that column to icons only. Icons used on the conference pages: 🟢 opens, 🔴 deadline, 🏆 results, 🎉 conference week. Markdown column alignment (`:---:`, `---:`) works on every page, independently of `gx-dates`.
+
+### Event Schedule
+
+A day-by-day programme: one `##` heading per day, each followed by a plain
+Markdown table wrapped in `gx-schedule`. Columns are **Time | Event**, with an
+optional third **Location** column:
+
+```html
+<div class="gx-schedule">
+
+| Time | Event |
+| --- | --- |
+| 9:00–10:00 | Keynote |
+| 10:00–10:20 | *Break* |
+
+</div>
+```
+
+- The time column has a fixed width, so every day's table lines up. The header
+  row is collapsed but kept for screen readers.
+- An Event cell holding only italic text (`*Break*`, `*Lunch*`) marks a
+  logistics row, which gets a muted fill so the sessions stand out.
+- Below 640px, a Location column moves under its event rather than adding a
+  third column.
+
+Jump links to the days go in `<nav class="gx-timeline not-prose">`: a
+bordered timeline, read left to right, with one phase per part of the event.
+Each phase has a coloured label strip and links to its days; `--days` sets its
+width in proportion to its number of days.
+
+```html
+<nav class="gx-timeline not-prose" aria-label="Schedule days">
+  <div class="gx-timeline__track">
+    <div class="gx-timeline__phase gx-timeline__phase--gold" style="--days: 1">
+      <span class="gx-timeline__label">Training</span>
+      <div class="gx-timeline__dates">
+        <a href="#saturday-june-26">Sat 26</a>
+      </div>
+    </div>
+    <div class="gx-timeline__phase" style="--days: 3">
+      <span class="gx-timeline__label">Conference</span>
+      <div class="gx-timeline__dates">
+        <a href="#sunday-june-27">Sun 27</a>
+        <a href="#monday-june-28">Mon 28</a>
+        <a href="#tuesday-june-29">Tue 29</a>
+      </div>
+    </div>
+  </div>
+</nav>
+```
+
+- Phase label colours: galaxy-primary by default, `gx-timeline__phase--gold`
+  or `--dark` for the others.
+- Below 480px the phases stack, each with its label above its days.
 
 ### Profile Row
 
@@ -227,7 +399,7 @@ Jane Doe is ... (markdown bio)
 </div>
 ```
 
-`.profile-row`: flex row, 200px photo column with a `rounded-lg` photo.
+`.profile-row`: flex row, 200px photo column with a `--radius-md` (8px) photo.
 
 ### Buttons
 
@@ -277,6 +449,22 @@ Don't wrap the `<Button>` component in overrides to try to make it Galaxy-brande
 
 The `<Badge>` component (`@/components/ui/badge`) is available with `default`, `secondary`, `destructive`, `outline` variants, but for Galaxy content tags the hand-styled patterns above are preferred.
 
+### Event Date
+
+Event dates in lists render as one inline line: a 16 px calendar icon, the date range in bold, and a duration pill ("2 days") for multi-day events only. The line sits in the row's meta area under the title, next to the location. There is no calendar block.
+
+```astro
+<EventDate start={event.data.date} end={event.data.end} />
+<EventDate start={event.data.date} end={event.data.end} past />  <!-- muted past rows -->
+<EventDate start={event.data.date} end={event.data.end} format={{ year: false }} />
+```
+
+- One component: `components/events/EventDate.astro` for server markup, `EventDate.vue` for Vue islands. Both read their text from `eventDateParts()` in `utils/dateUtils.ts` and share `event-date.css` (plain CSS with token fallbacks, so the bare iframe feeds without `global.css` get it too).
+- Markup: `<time datetime="YYYY-MM-DD">` for the start and, for ranges, the end; the duration is plain text so screen readers read "2 days"; the icon is `aria-hidden`.
+- Colours: range `galaxy-dark` (12.9:1 on white), past `chicago-600` (7.1:1 on white, 5.5:1 on `ebony-clay-50`), pill `bay-of-many-950` on `bay-of-many-100` with a `bay-of-many-200` border (9.1:1).
+- Date tables (bare `EventsTable`) keep their own format.
+- **Event facts**: event and conference page headers use `EventHeaderMeta` (`components/events/EventHeaderMeta.astro`), a `<dl>` with visible Date, Location and Contact labels on the gradient: white `font-medium` labels, `white/80` values, a 20 px `galaxy-gold` icon beside each fact. The date uses this component's markup in the long weekday format, restyled as plain `white/80` text: no bold, no calendar icon, no duration pill.
+
 ### Forms
 
 Reka UI / shadcn-style components are available for:
@@ -289,6 +477,27 @@ Reka UI / shadcn-style components are available for:
 - **Card**, **CardHeader**, **CardContent**, etc. (`@/components/ui/card`) -- structured card layout
 
 These use the OKLch semantic tokens, which read as neutral on Galaxy backgrounds. Don't restyle their internals with Galaxy brand colors -- they're deliberately chromatic-neutral so they compose anywhere.
+
+### Filters
+
+Listing pages (news, events, citations, platforms, search) filter in place and keep the filter state in the URL, so a filtered view can be shared, bookmarked and restored with back/forward.
+
+- **Component**: `FilterBar` (`@/components/filters/FilterBar.vue`) composes `YearFilter` (year chips plus an "Older years" select), a labelled text search (`ui/input`), an optional tag/type select (`ui/select`), a "Clear filters" button (`ui/button`, shown only while a filter is active) and the result count. The list component owns the state and passes it in with `v-model:q`, `v-model:year` and `v-model:tag`; the bar stays presentational. Adopted by news, citations and events. Citations add the opt-in "Unknown year" chip through `unknownYearCount` and keep their list as server HTML, which the bar's island filters in place. Events add status chips through `statusOptions`, `:status` and `@update:status`: upcoming or past, "All events" by default; the archive has none. The platform directory (`/use/`) and Hub Search keep their own controls (tool/genome suggestions, several selects) and sync them through `@/utils/urlFilters`.
+- **Platform directory** (`PlatformDirectory.vue`): a tinted panel (`bg-surface-2`) with the search and "Clear filters" on one row (the suggestion list spans the panel and would cover a button below it), then Type, Location and Platform as native selects whose options carry counts ("Germany (32)"; Location shows country names from the ISO code through `utils/countryName.ts`). The top "Clear filters" hides while the empty state shows its own. The card grid is two columns from `md` and three from `xl` (a logo plate leaves too little title room in three columns on a 1024px window). Cards are `ul > li` with the title as an `h3` link stretched over the card, a 3px gold bar on the left edge (as on the project cards, `scaleY` on hover and focus) and a logo only when the site image path contains `logo` (such as `/images/logos/...`; 96x40 on a `#f3f4f6` plate, `object-contain`); other images are figures, so those cards show two-letter initials. Summary links keep only their text.
+- **Year chips**: the first chip is "All years" (no year filter, newest first), then the five most recent years with counts, then older years in the select. Chips are `<button aria-pressed>` inside `role="group"` with an `aria-label`, `rounded-md` like other controls, at least 32px tall.
+- **URL sync**: use `@/utils/urlFilters` (`readParams`, `writeParams`, `onPopState`), never `history.replaceState` by hand. It keeps `history.state` (Astro's ClientRouter stores its navigation index there) and the hash, drops empty and default values and writes params in a stable order; `onPopState` only calls back while the URL is still on the page that subscribed. Read params in `onMounted`, not during setup: the server render has no query string and hydration must match it.
+- **Param names**: `q` (text), `year`, `tag`, `region`, `type`, `status`, `sort`, `view`. Write them in that order. Pagination ("Load more") stays out of the URL. Keep accepting legacy names and values a page already supports (for example the singular `platform_group` slugs).
+- **Text search**: debounce the model and URL update (~250ms); the input itself updates at once. Match every word of the query against the title and summary, case-insensitive.
+
+Accessibility (WCAG 2.1 AA):
+
+- Every control has a visible `<label>` (or `aria-labelledby`); the chip group and the bar have an `aria-label`.
+- The result count is one `aria-live="polite"` `aria-atomic="true"` line that is always in the DOM and says what is applied, e.g. "37 articles in 2024 tagged “training”".
+- Focus is the global ring (dark outline plus white inner ring, Rules in §2); `FilterBar`, `YearFilter` and `PlatformDirectory` add no focus classes. Input and select borders use `chicago-400` (3:1 on white).
+- The border classes are still overrides in `FilterBar` and `YearFilter` (the `line-input` role token exists, §2; the primitives do not use it yet). The "Clear filters" button keeps the `ui/button` `outline` variant and its neutral OKLch tokens.
+- Targets are at least 24×24px (WCAG 2.2 SC 2.5.8, best practice beyond the 2.1 AA baseline; chips 32px, inputs and selects 40px). Everything works with the keyboard: Tab between controls, Space/Enter on chips, arrow keys in the selects.
+- After "Clear filters", focus moves to the search input because the button disappears.
+- At 390px the bar stacks (chips wrap, then search, tag, clear, count) with no horizontal scroll. A bottom sheet (see Mobile Bottom Sheet) is for pages with more filters than fit.
 
 ### Interactive Hover (Gold Bar Animation)
 
@@ -303,27 +512,44 @@ Signature pattern shared with IWC -- gold bar animates in from the left on hover
 </div>
 ```
 
-### View Toggle (Sliding Pill)
+### View Toggle (Segmented Control)
 
-Pattern from IWC for binary view switching (list ↔ grid, table ↔ cards). A container holds two buttons with a single sliding pill background that animates horizontally:
+Binary view switching (Rows ↔ Tiles on listings) uses a small segmented control from prototype A of the redesign (`.seg` in `prototypes/A/styles.css`): a bordered white group of two buttons, the pressed one filled. The hub component is `ViewToggle` (`@/components/filters/ViewToggle.vue`), used by the news and events listings:
+
+```vue
+<ViewToggle v-model="view" label="News layout" />
+```
+
+Its markup, for reference:
 
 ```html
-<div class="relative inline-flex rounded-lg bg-galaxy-dark/10 p-1">
-  <!-- Sliding pill indicator -->
-  <div class="absolute top-1 bottom-1 w-[calc(50%-2px)] rounded-md
-              bg-galaxy-gold shadow-md transition-all duration-300 ease-out"
-       :class="isGrid ? 'left-[calc(50%+1px)]' : 'left-1'"></div>
-
-  <button class="relative z-10 inline-flex items-center gap-1.5 rounded-md
-                 px-3.5 py-1.5 text-sm font-medium transition-colors duration-300"
-          :class="!isGrid ? 'text-galaxy-dark' : 'text-galaxy-grey hover:text-galaxy-dark'">
-    <List :size="16" /> <span>List</span>
+<div role="group" aria-label="News layout"
+     class="hidden gap-0.5 rounded-md border-1 border-chicago-400 bg-white p-0.5 sm:inline-flex">
+  <button type="button" aria-pressed="true"
+          class="inline-flex min-h-8 items-center gap-1.5 rounded-[4px] px-3 py-1 text-sm leading-5
+                 bg-galaxy-primary font-bold text-white">
+    <List :size="16" aria-hidden="true" /> <span>Rows</span>
   </button>
-  <!-- Grid button mirrors above -->
+  <button type="button" aria-pressed="false"
+          class="... text-chicago-700 hover:bg-bay-of-many-100 hover:text-galaxy-dark">
+    <LayoutGrid :size="16" aria-hidden="true" /> <span>Tiles</span>
+  </button>
 </div>
 ```
 
-The active icon also gets a subtle `scale-110` while the inactive stays at `scale-100`. Reference: [`ViewToggle.vue`](https://github.com/galaxyproject/iwc/blob/main/website/src/components/ViewToggle.vue) in the IWC repo.
+- **Look**: 2px padding and gap, 6px group radius, 4px button radius, 14/20 text, 16px icon with a 6px gap. Unpressed text `chicago-700`, hover fill `bay-of-many-100`; pressed fill `galaxy-primary` with white bold text. No sliding pill, no animation, no gold. (The IWC sliding pill that this section described before is not the hub pattern.)
+- **Placement**: on the row the list already has, never a row of its own. News and events: the result-count line of `FilterBar` (count left, toggle right, via its `actions` slot). The row is `flex flex-wrap items-center justify-between`; the hidden toggle leaves no gap on phones.
+- **State and URL**: the list owns the state (`v-model`) and keeps it in the `view` param (`rows` | `tiles`) through `@/utils/urlFilters`, read in `onMounted`. Rows is the default and stays out of the URL; an unknown value reads as rows. Write `view` in the same `writeParams` call as the list's other params so it lands last (see Filters, "Param names"); `parseListView()` and `LIST_VIEW_DEFAULT` live in `@/utils/listView`. The site is static, so a `?view=tiles` URL paints rows first and switches to tiles after hydration, like `?q=` and `?year=`.
+- **Tiles**: `grid-cols-[repeat(auto-fill,minmax(min(100%,16rem),1fr))] gap-4`, white cards with an `ebony-clay-100` border. News tiles show the post image at the bottom of the card (frontmatter `image`, else the first site image in the body, via `listImage()` in `@/utils/listImage`; `alt=""` because the title above names the post). GIFs, files missing from `public/` and files over 1 MB are skipped at build (`servedImageCheck()` in `@/utils/publicImage`) until listings get thumbnails; posts without an image have no image area. Event tiles keep the `EventDate` line. Rows keep the list look.
+- **Scope**: full listing pages only (news, events, subsite news and events, events archive). Bare and embed widgets have no toggle.
+- **Contrast**: white on `galaxy-primary` 8.07:1; `chicago-700` on white 8.3:1 (7.5:1 on the hover fill); the pressed fill is 8.07:1 against the white group, so the state passes the 3:1 non-text minimum; the `chicago-400` group border is 3.59:1 (the input border). Use `border-1`, not `border`: the global `.border` in `bootstrap-compat.css` forces a grey `#dee2e6` with `!important`.
+
+Accessibility (WCAG 2.1 AA):
+
+- Two `<button type="button" aria-pressed>` inside `role="group"` with an `aria-label` naming the list ("News layout", "Events layout"). Not a tablist: both layouts show the same items.
+- Every button has a visible text label next to its icon; icons are `aria-hidden`.
+- Hidden below `sm`, where tiles are one column; a tiles link still opens tiles. From `sm` up the buttons are 32px tall.
+- Focus is the global ring (Rules, §2).
 
 ### Mobile Bottom Sheet
 
@@ -344,11 +570,11 @@ Key traits: `rounded-t-2xl` (only top corners), max-height so content scrolls, a
 
 ### Heading Anchors
 
-Anchor links appear on hover with gold color transition:
+Anchor links appear on hover and follow the link hover rule:
 
 ```css
-.heading-anchor { opacity: 0; color: #25537b; transition: opacity 0.15s; }
-.heading-anchor:hover { color: #ffd700; }
+.heading-anchor { opacity: 0; color: var(--gx-link); transition: opacity 0.15s; }
+.heading-anchor:hover { color: var(--gx-link-hover); text-decoration: underline var(--gx-link-hover-line) 2px; }
 h2:hover .heading-anchor { opacity: 1; }
 /* Touch devices: always visible at 50% */
 @media (hover: none) { .heading-anchor { opacity: 0.5; } }
@@ -361,7 +587,7 @@ Float-right content sidebar used in articles:
 ```css
 .linkbox {
   float: right; width: 200px; margin: 0 0 1rem 1.5rem;
-  padding: 1rem; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 0.5rem;
+  padding: 1rem; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: var(--radius-md);
 }
 @media (max-width: 768px) { .linkbox { float: none; width: 100%; } }
 ```
@@ -383,6 +609,58 @@ IWC uses `odd:bg-bay-of-many-50/30` on workflow list items. The effect should be
 Legacy content files (~125 Markdown files) use Bootstrap 4 classes (`btn-primary`, `card-deck`, `alert`, etc.). The preprocess step automatically adds a `.bs-compat` wrapper class to any file containing these patterns. Bootstrap CSS is scoped under `.bs-compat` in `astro/src/styles/bootstrap-compat.css` so it doesn't leak into modern components.
 
 **Contract**: never apply `.bs-compat` manually to new components, and never introduce new Bootstrap classes in new content. The compat layer is a migration affordance, not a sanctioned styling path.
+
+### Sidebar context
+
+The sidebar tells readers where a page sits. The URL decides the context; nothing is stored between pages, and there is no "home region".
+
+| URL | Context header | Nav groups |
+|---|---|---|
+| `/<region>/...` (a hub subsite) | region name (kind: Region) | region group, then global |
+| `/projects/esg/...` | EuroScienceGateway (kind: Project) | project group, then global |
+| everything else | Galaxy Project (kind: Global) | global only |
+
+- **Context header** (`ContextSwitcher.vue`): sits below the logo, above search. A button with the context name and a chevron; its accessible name adds the kind ("Current context: Galaxy Freiburg, Region. Change region"). It is a disclosure (`aria-expanded`, `aria-controls`) for the region menu, a list of links grouped as Global, Regions on this Hub and Other Galaxy sites (external, new tab). Opening it focuses the current item (`aria-current="true"`); arrow keys, Home and End move; Escape closes and returns focus to the button; Tab out or an outside click closes it.
+- **Nav groups** (`SidebarNav.vue`): each group is `role="group"` with a plain text heading (the context name, or "Galaxy Project"). Links into the current subsite are region links (`scope: 'region'` in `utils/navbar.ts`), led by an Overview link to the region home; everything else stays in the global group, which always starts with the global News and Events, then keeps its collapsible sections. When the global group is the only group it has no visible heading and is named with `aria-label`.
+- **Mobile**: the header shows a region chip (short name) that opens the menu sheet with the region menu already open. Escape closes the region menu first, then the sheet; focus returns to the chip or the menu button.
+- **View transitions**: the sidebar persists (`transition:persist` on the `<aside>`) only between pages with the same context, so its links always match the page; the active link follows the URL.
+
+### Breadcrumbs
+
+**Use `<Breadcrumbs>`** (`astro/src/components/common/Breadcrumbs.astro`) above the page title. It has two variants: `project` (project pages, the default) and `chevron` (reading pages: articles, news posts, events and conference pages, through `components/layout/ReadingBreadcrumbs.astro`).
+
+- **Markup**: `nav aria-label="Breadcrumb"` with an `ol`. The last item is the current page: bold text with `aria-current="page"`, never a link. An earlier item without `href` renders as plain text, for a level that has no page of its own. On project pages "Projects" links the projects index (`/projects/`).
+- **Reading-page trail** (`utils/breadcrumbs.ts`, `utils/page-titles.ts`): Home, one crumb per folder of the URL, then the page. A folder that has a page is a link labelled with that page's title (front matter title, else the first `#` heading, else the folder name; pages routed in code such as `/projects/`, `/careers/` and the subsite homes use their own title). A folder without a page is plain text. A news post sits under News; an event sits under Events, and a conference sub-page under its event. Never write the labels by hand; the trail follows the URL.
+- **Look**: 14px links in `galaxy-grey`, underlined, `galaxy-primary` with a gold underline on hover, never gold text. `project` has a `›` separator and a globe icon on the first item ("Galaxy Project", `/`). `chevron` has chevron icons between items and a house icon on "Home" (`/`).
+- **Phones** (below 640px): `project` collapses to one back link, "‹ <nearest linked parent>". `chevron` stays on one row: Home is the icon alone (its name stays for screen readers), the levels between Home and the parent fold into a "…" menu, and the current page is the last crumb inline. It takes the room that is left and is cut with an ellipsis, its full text in the `title` attribute. The menu is a native `details`/`summary` (works without script); Escape, an outside click and moving focus away close it. It overlays the page, so opening it never shifts the content. Menu colours are role tokens: `surface-overlay` background, `line` border, `link` links, `fg-meta` plain levels.
+- **Structured data**: the `chevron` trail adds a schema.org `BreadcrumbList` (linked levels and the current page, absolute URLs). The project trail has none.
+
+```astro
+<Breadcrumbs
+  items={[
+    { label: 'Galaxy Project', href: '/' },
+    { label: 'Projects', href: '/projects/' },
+    { label: 'EuroScienceGateway' },
+  ]}
+/>
+```
+
+### Project pages
+
+Projects with their own section (`/projects/<id>/`, today EuroScienceGateway and ESG4Stars) use the main shell with the project context in the sidebar. The section's links (Overview, News, and Past events for an ended project or Events for a running one) come from `projectLinks()` in `utils/siteContext.ts` and feed both the sidebar's project group and the page tabs. The events label follows the project's status at build time (`getProjectNavLinks()` in `utils/projectPages.ts` hands the sidebar its links through `BaseLayout`), so it flips when the end date passes. Both overviews are built from the same components in `components/projects/`; only their content sections differ. The News and Events pages are one dynamic route for every project (`pages/projects/[project]/news.astro` and `events.astro`, paths from `projectContextIds()`); a new project adds its overview page and its context entry, not copies of those pages.
+
+- **Data**: facts come from the project's `main.md` frontmatter (`content/projects/<id>/main.md`): `status` (`active` | `ended`), `start_date`, `end_date`, `labels`, `programme`, `call`, `grants` (label, id, url), `logo_on_dark`, `funding_logo`, `funding_logo_alt`, `related` (label, name, href: facts rows that link another project, e.g. "Builds on"), `feed` (`subsite`, `tag` or both, see below; required, the pages fail to build without it) and `partners_dataset` (file name of the partner YAML; the one place a project names it). `utils/projectFacts.ts` parses the facts; a missing field drops its row instead of showing a guess. A project counts as ended once its end date has passed, so the badge, tabs and lists flip at the next build without a content edit; `status: ended` ends it earlier, and `status: active` never outlasts the end date. With neither `status` nor `end_date` the status row and badge are left out.
+- **News and events source**: `feed.subsite` (ESG: news with `esg` in `subsites`) or `feed.tag` (ESG4Stars: the `esg4stars` tag), or both; either one matches (`utils/projectSource.ts`, loaders in `utils/projectPages.ts`). Future-dated news stays hidden until a rebuild on its date, as on /news/ (`publishedNews` in `utils/newsList.ts`). An ended project lists past events only; a running one lists upcoming events soonest first, then past events newest first, muting the date line of past ones (`utils/projectEvents.ts`); its Events page shows them as two titled groups, Upcoming events and Past events.
+- **Section data**: YAML datasets are keyed by file name across all of `content/`, so every project's files carry its id as a prefix (`esg-objectives.yml`, `esg-partners.yml`, `esg4stars-pillars.yml`, `esg4stars-partners.yml`) and the next project cannot overwrite them.
+- **Top** (`components/projects/ProjectPageTop.astro`): breadcrumbs, then on the overview a **project band**: `galaxy-dark` to `galaxy-primary` gradient with the 24px grid texture, 3px `galaxy-gold` bottom rule, at most 180px tall at desktop width. It holds an uppercase eyebrow ("Project · EOSC · Horizon Europe", layers icon in gold), the `h1`, a white status badge ("Ended · Aug 2025") and the lead; the light-lettered logo sits on the right and hides below 640px. Section pages (News, and Past events or Events) pass `title` and get a compact header instead: the `h1` with the status badge after it on the same line, and no project link in the header (the breadcrumb and the Overview tab lead back).
+- **Tabs**: a `nav` labelled "<project> sections" with links, not ARIA tabs (each tab is its own page). The current tab has `aria-current="page"` and a 3px `galaxy-gold` underline; a count pill can follow the label (News). Tabs are 44px tall and scroll sideways on phones.
+- **Ended notice** (`ProjectEndedNotice.astro`): `role="note"`, `chicago-50` box with a `chicago-500` left rule and an archive icon: "This project has ended", then the dates from the frontmatter and the page's own sentence (`record` prop or the default slot).
+- **Facts box** (`ProjectFactsBox.astro`): white box with a `bay-of-many-200` border: status, duration with its length in months, programme and call, one row per grant (external links), a "Partner list" row linking to `#partners` (the number of listed organisations, not a partner count claim), and the funding logo on a light plate. On `lg` and up it sits in a 15rem right rail above "On this page" (labels above values); the facts scroll away and "On this page" stays sticky 24px below the window top, scrolling itself when taller than the window (the `headings` of `ProjectColumns.astro`; the wrapper classes are `tocRailClass` in `utils/tocRail.ts`, shared with the reading rail); below `lg` it shows inline under the notice, followed by "On this page" as the collapsible `MobileToc` block (the one `ContentWithToc` uses below `xl`) above the first section. Give each copy its own `idPrefix`.
+- **Overview layout**: `ProjectColumns.astro` (lead slot, right rail, main column) and `ProjectSection.astro` (an `h2`, optionally in a head row with a count pill such as "13 organisations" or an "All N news" link). Project-specific lists stay in the page: ESG's objectives, logo links, results and partner logos; ESG4Stars' five pillars (a text list with a colour bar per pillar, red to green as in the project's graphic, never the image), thematic streams and a partner table (number, short name in bold over the legal name, or the legal name in bold when there is no short name, and the country by its English name from the ISO code in the YAML via `utils/countryName.ts`; no logos).
+- **Logos** with dark lettering (partners, linked projects, the funding logo) sit on a light plate (`#f3f4f6`).
+- **Lists**: news and events use `ProjectRows.astro` (title link, date line, teaser; past events get the muted date line); the News page reuses `NewsList` with the same items as /news/ (`utils/newsList.ts`: teaser HTML and tile image).
+- **Funding** (`ProjectFunding.astro`): every project page ends with the funding acknowledgement from the project's `funding_notice.md` (emblem and statement), as the grant asks for it on project material.
+- **Projects index** (`pages/projects/index.astro`): `PageHeader` and a white panel with a count line ("6 projects on the Hub, 1 external site", from `countLabel`) above four `h2` groups, each a grid of cards (min 300px): Active projects, Projects and community efforts, External sites, Completed projects (`PROJECT_GROUPS`; an empty group is not shown). Below the groups, a "Galaxy also takes part in" list links the other grants. Each card: the title as an `h3` link stretched over the whole card, then a meta line (status badge and dates for project sections, "External site · host" for external links) and the description; the heading comes first in both the DOM and on screen. Hover and focus show the 3px gold bar on the left edge. Pages that redirect inside the Hub and pages without a title are left out (`utils/projectIndex.ts`).
 
 ---
 
@@ -450,17 +728,21 @@ Astro's built-in View Transitions are enabled site-wide. The dev server is case-
 ### Spacing & Grid
 
 - **Base unit**: Tailwind's default 4px scale (0.25rem increments)
+- **Reading measure**: `--measure: 72ch` (utility `max-w-measure`), and `--measure-rail: 80ch` beside the "On this page" rail, applied to running text by `prose-measure`, see §3 Prose Styling and Reading Grid below
 - **Grid pattern**: 24px × 24px overlay used on dark backgrounds for scientific texture
   - Light backgrounds: `rgba(37, 83, 123, 0.06)` (galaxy-primary tinted) -- class `bg-grid`
   - Dark backgrounds: `rgba(255, 255, 255, 0.03)` (white tinted) -- class `bg-grid-dark`
 
 ### Border Radius Scale
 
-| Size | Used For |
-|------|----------|
-| `rounded-md` | Small controls: inputs, buttons, toolbar items |
-| `rounded-lg` | Cards, content surfaces, hero blocks -- the default for surfaces |
-| `rounded-full` | Pills, circular badges, avatars |
+| Utility | Token | Value | Used For |
+|---------|-------|-------|----------|
+| `rounded-sm` | `--radius-sm` | 6px | Menu items, small inline marks |
+| `rounded-md` | `--radius-md` | 8px | Small controls: inputs, buttons, toolbar items; the content blocks in `global.css` (`.gx-tile`, `.callout`, `.linkbox`, `.prose pre`, `.prose img`, profile photos) |
+| `rounded-lg` | `--radius-lg` | 10px | Cards, content surfaces, hero blocks -- the default for surfaces |
+| `rounded-full` | - | 9999px | Pills, circular badges, avatars |
+
+All three steps derive from `--radius` (10px). Plain CSS uses the tokens (`border-radius: var(--radius-md)`), never a px or rem literal. Inline code keeps its 4px corner, below the scale.
 
 Don't reach for `rounded-xl` / `rounded-2xl` -- we don't use them.
 
@@ -472,7 +754,8 @@ Don't reach for `rounded-xl` / `rounded-2xl` -- we don't use them.
 │ #2c3143, fixed      │                                        │
 │                     │  ┌──────────────────────────────────┐  │
 │  [Galaxy Logo]      │  │ Page Header                      │  │
-│  [Search]           │  │ gradient + grid + gold border    │  │
+│  [Context header]   │  │ gradient + grid + gold border    │  │
+│  [Search]           │  │                                  │  │
 │  [Navigation]       │  └──────────────────────────────────┘  │
 │  [Sections...]      │  ┌──────────────────────────────────┐  │
 │                     │  │ Content Card (white, shadow-sm)  │  │
@@ -486,6 +769,16 @@ Don't reach for `rounded-xl` / `rounded-2xl` -- we don't use them.
 - **Sidebar**: `w-64` (256px), fixed left, `bg-galaxy-dark`, hidden below `lg` (1024px)
 - **Content area**: Flex, fills remaining width, `bg-light-bg` page background
 - **Content cards**: White background, `rounded-lg`, `shadow-sm`, sitting on the light-bg
+
+### Reading Grid
+
+`ContentWithToc` (articles, news, events, conference pages) lays out content in a reading grid. Articles, news, events and conference pages show the table of contents by default (`autotoc: false` turns it off) once a page has at least two h2-h4 headings:
+
+- **From `xl` (1280px)** with a table of contents: the grid sets `--measure` to `--measure-rail` (80ch), so the text column is `minmax(0, 80ch)`, and the 224px (`14rem`) "On this page" rail sits 48px (`gap-x-12`) after it (`justify-content: start`). The wider measure uses the room the rail leaves instead of an empty gap between text and rail. Text and rail keep the white card's 32px inset (`sm:px-8`) on both sides, as on pages without a rail. Tables and images stay in the text column. The rail is sticky 24px below the window top and scrolls itself (`max-height: calc(100vh - 3rem)`) when the list is taller than the window. The text column takes the room the inset, gap and rail leave: about 640px at 1280, 800px at 1440 and 816px once the card reaches its 1152px cap (`max-w-6xl`), so 80ch (about 830px) is the upper bound.
+- **Below `xl`**: one column; the table of contents is the collapsible "On this page" block above the text.
+- **Without a table of contents**: the column keeps its full width, and the measure applies only to text-only pages (`prose-measure-text-only`): every direct child of the column is a text block (paragraphs, lists, quotes, headings, rules; authored-centred paragraphs and headings included) or a floated image. There the 72ch text is centred (`prose-measure-centred`; the column publishes `--reading-inset`, used by the text blocks and floats), image-only paragraphs and rules are capped at 72ch too, so nothing starts left of the text, and right and left floats sit at the edges of the text. Any other child (tile grids, cards, tables, figures, code, embeds, wrapper divs, centred boxes such as a `div.text-center` or an alert, scripts) lifts the measure: running text uses the full column, as before the reading grid. News posts end the column with their JSON-LD `<script>`, so a news post without a table of contents keeps full-width text, as before. Full-bleed pages keep the full width. `PlatformLayout` is not a `ContentWithToc` page: its text-only Markdown keeps the 72ch measure, left-aligned under the metadata table; mixed content uses the full column. Print uses the full page width either way.
+- **Scroll-spy**: `TableOfContents` marks the link of the current section with `aria-current="location"` (bold, brand bar on the left), in both the rail and the block. An IntersectionObserver band near the top of the window drives it (`utils/tocSpy.ts`); it re-runs on `astro:page-load` and disconnects on `astro:before-swap`. Clicking a link uses the page's smooth scroll, which is off under `prefers-reduced-motion`. The rail ends with a "Back to top" link.
+- **Sticky needs clipping, not hiding**: `html`, `body` and the site shells use `overflow-x: clip`. `overflow-x: hidden` makes an element a scroll container, and a sticky element inside a scroll container that never scrolls never sticks.
 
 ### Section Rhythm (Homepage / Landing Pages)
 
@@ -510,17 +803,19 @@ The Hub uses a layered depth model rather than heavy shadow stacking:
 | Level | Treatment | Usage |
 |-------|-----------|-------|
 | Ground | `bg-galaxy-dark` (sidebar, headers) | Structural chrome, deepest layer |
-| Page | `bg-light-bg` (#edf4fa) | Page background, sits above the dark frame |
+| Page | `bg-light-bg` (#edf4fa) | Page background, sits above the dark frame. The redesign moves to a flat white page (`bg-page`, §2) with the shell changes |
 | Surface | `bg-white rounded-lg shadow-sm` | Content cards, the primary reading surface |
 | Elevated | `bg-white rounded-lg shadow-md` | Cards on dark backgrounds (hero sections) |
 | Overlay | `shadow-lg` on sheets/modals | Sheets, dialogs -- UI overlays only |
 
 ### Shadows
 
+- **`shadow-xs`**: Controls (inputs, outline buttons) and content tiles (`.gx-tile`)
 - **`shadow-sm`**: Default for cards on light backgrounds -- subtle, professional
-- **`shadow-md`**: Cards on dark backgrounds where more lift is needed
+- **`shadow-md`**: Cards on dark backgrounds where more lift is needed; the `gx-tile--link` hover lift
 - **`shadow-lg`**: Reserved for overlay UI (sheets, dialogs) -- never on standard cards
 - **No `shadow-xl` / `shadow-2xl`**: depth comes from the layered background model, not shadow stacking
+- **Tokens**: the four steps read the elevation roles `--gx-elev-xs` ... `--gx-elev-lg` (`global.css`, light in `:root`, dark in `.dark`), so the utilities follow the theme. Light values are Tailwind's defaults; dark values are darker and denser. Exception: `bootstrap-compat.css` defines `.shadow-sm` and `.shadow` with `!important` Bootstrap literals, so the plain `shadow-sm` class still renders `0 0.125rem 0.25rem rgb(0 0 0 / 0.075)` and does not read the role; variant forms (`hover:shadow-sm`) do. Plain CSS uses `var(--gx-elev-*)`, never a shadow literal. Shadow colour utilities (`shadow-black/20`) do not apply to these steps; we do not use them.
 
 ### Borders
 
@@ -542,8 +837,9 @@ The 24px grid pattern creates a "workflow editor mesh" effect that adds scientif
 - Use Galaxy brand tokens (`galaxy-dark`, `galaxy-primary`, `galaxy-gold`, `galaxy-grey`) for all brand-facing surfaces
 - Reserve gold for high-impact moments: CTAs, active states, accent borders, hero text
 - Use `rounded-lg` + `shadow-sm` consistently on content cards
-- Make all links `text-galaxy-primary` with `hover:text-galaxy-gold` transitions
-- Use `text-galaxy-dark` for heading text color
+- Use role tokens (`text-fg`, `text-fg-meta`, `bg-surface-tint`, `border-line`) for new page code; every role has a dark value (§2)
+- Make links in text `text-link` with `hover:text-link-hover` and a gold underline on hover
+- Use `text-fg-strong` (galaxy-dark) for heading text color
 - Use Atkinson Hyperlegible -- never substitute another font
 - Apply `bg-grid-dark` overlay on dark hero/section backgrounds
 - Use the gradient pattern (`galaxy-dark → galaxy-primary` at 135°) for page headers
@@ -555,7 +851,11 @@ The 24px grid pattern creates a "workflow editor mesh" effect that adds scientif
 ### Don't
 
 - Don't use generic Tailwind grays (`gray-500`, `slate-600`) for brand-facing text or backgrounds
-- Don't use `text-blue-*` or `text-indigo-*` on links -- always `text-galaxy-primary`
+- Don't use `text-blue-*` or `text-indigo-*` on links -- always `text-link` (galaxy-primary)
+- Don't put gold text on light surfaces (1.40:1 on white), including link hovers; gold is an underline, fill or bar there
+- Don't fade meta text with opacity (`text-galaxy-grey/70`, about 3.45:1) or use `chicago-400` for text (3.59:1); use `text-fg-meta`
+- Don't hardcode a colour that has no dark value; add a role with both values instead
+- Don't use `prose-lg` for content; reading layouts use `prose-compact prose-galaxy`
 - Don't overuse gold -- if every element has a gold accent, the signature is lost
 - Don't add gold borders to cards on dark backgrounds -- the white card IS the contrast
 - Don't use `bg-primary` expecting Galaxy blue -- `primary` is the OKLch near-black token; use `bg-galaxy-primary` for brand blue
@@ -583,7 +883,7 @@ The 24px grid pattern creates a "workflow editor mesh" effect that adds scientif
 - **Desktop**: Fixed left sidebar (`w-64`, `hidden lg:flex`)
 - **Mobile**: Hamburger icon triggers a Sheet slide-out menu with full-screen dark background
 - Navigation items stack vertically on mobile
-- Region/subsite selector moves to bottom of mobile menu
+- The mobile header shows a region chip; the context header and region menu sit at the top of the mobile menu (see [Sidebar context](#sidebar-context))
 
 ### Touch Targets
 
@@ -596,7 +896,7 @@ The 24px grid pattern creates a "workflow editor mesh" effect that adds scientif
 
 - **Cards**: 3-col → 2-col (tablet) → 1-col (mobile)
 - **Linkbox**: `float: right` on desktop → `float: none; width: 100%` below 768px
-- **Page header**: Title scales from `text-4xl` to `text-3xl` via `sm:` prefix
+- **Page header**: Title is `text-h1`: 30px from `sm` up, 26px below
 - **Homepage hero**: Stats row wraps, CTA row stacks
 - **Detail sidebars**: `lg:w-80 xl:w-96 2xl:w-1/4 shrink-0` -- fixed widths prevent cramping on medium screens
 
@@ -615,9 +915,9 @@ Refer to the [base design system Quick Color Reference](https://github.com/galax
 
 ### Example Component Prompts
 
-- "Create a Galaxy page header. Gradient `linear-gradient(135deg, #2c3143, #25537b)`, gold bottom border (`border-bottom: 4px solid #ffd700`), 24px grid overlay at 3% white. Title `text-3xl sm:text-4xl font-bold` in white, preceded by a `w-1 h-8 bg-galaxy-gold` accent bar."
+- "Create a Galaxy page header. Gradient `linear-gradient(135deg, #2c3143, #25537b)`, gold bottom border (`border-bottom: 4px solid #ffd700`), 24px grid overlay at 3% white. Title `text-h1 font-bold` in white, preceded by a `w-1 h-8 bg-galaxy-gold` accent bar."
 
-- "Build a content card on `bg-light-bg`: `bg-white rounded-lg shadow-sm p-6`. Add `border-l-4 border-l-galaxy-gold` if it's featured. Title `text-xl font-semibold text-galaxy-dark`, body `text-galaxy-grey`, links `text-galaxy-primary hover:text-galaxy-gold`."
+- "Build a content card on `bg-light-bg`: `bg-white rounded-lg shadow-sm p-6`. Add `border-l-4 border-l-galaxy-gold` if it's featured. Title `text-h3 font-semibold text-fg-strong`, body `text-fg`, links `text-link hover:text-link-hover hover:decoration-link-hover-line`."
 
 - "Build a dark hero section: `bg-galaxy-dark` with `bg-grid-dark` overlay. Key phrase in `text-galaxy-gold`. Primary CTA: `bg-galaxy-gold text-galaxy-dark font-semibold px-6 py-3 rounded-lg hover:bg-galaxy-gold-dark`. Secondary CTA on dark bg: `border-2 border-white/30 text-white hover:bg-white/10`."
 
@@ -631,14 +931,47 @@ Refer to the [base design system Quick Color Reference](https://github.com/galax
 2. **Two palettes, one rule**: Galaxy tokens for brand surfaces, OKLch for generic UI (transitional -- see §2). Don't mix. If `bg-primary` looks black, that's because it is -- use `bg-galaxy-primary` for brand blue.
 3. **Gold is earned**: Only on CTAs, active states, accent borders, and hero highlights. More than ~3 gold elements per section is probably too many.
 4. **Cards are white, lg, sm**: `bg-white rounded-lg shadow-sm` on light backgrounds; `shadow-md` on dark backgrounds; skip the gold border on dark backgrounds.
-5. **Links follow the pattern**: `text-galaxy-primary` resting, `hover:text-galaxy-gold` with transition.
+5. **Links follow the pattern**: `text-link` resting, `hover:text-link-hover` with a gold underline; gold hover text only on dark chrome.
 6. **Grid overlay**: `bg-grid-dark` on dark sections. Use the `<PageHeader>` component to get the full gradient + grid + gold-bar treatment without reimplementing it.
 7. **Tokens over hex**: `bg-galaxy-dark` not `bg-[#2c3143]`. Tokens are in `global.css` under `@theme`.
 8. **Check IWC first**: For patterns that appear on both sites (cards, tabs, filter sidebars, hover accent bars), look at how IWC implements it ([galaxyproject/iwc website](https://github.com/galaxyproject/iwc/tree/main/website)) before writing new code. Ecosystem consistency > local cleverness.
 
 ---
 
+## 10. galaxy-ui Alignment
+
+galaxy-ui (`client/packages/ui` in `galaxyproject/galaxy`) is the Galaxy application's component library: private, raw Vue SFCs inside a Bootstrap / `@vue/compat` app, primitive tokens only (`--color-{blue,grey,green,yellow,orange,red}-{100..900}`, `--spacing-N`, `--font-size-{small,medium,large}`), no semantic layer and no dark mode. The Hub cannot import it; it aligns with it.
+
+**Values** (same hex in galaxy-ui, brand tokens and Hub roles):
+
+| galaxy-ui | Brand token | Hub role |
+|-----------|-------------|----------|
+| `blue-600` `#25537b` | `galaxy-primary` | `link`, `brand`, `selected` |
+| `blue-700` `#2c3143` | `galaxy-dark` | `fg-strong`, `chrome`, `focus` |
+| `yellow-500` `#ffd700` | `galaxy-gold` | `bg-accent-gold` |
+| `blue-100` `#f1f9fe`, `blue-600` text | | `info-bg`, `info-fg` |
+| `yellow-100`, `yellow-700` | | `warn-bg`, `warn-fg` |
+| `red-100`, `red-700` | | `danger-bg`, `danger-fg` |
+
+Known mismatches: galaxy-ui `yellow-600` `#f0aa02` vs brand `gold-600` `#d19e00` (the Hub's gold hover and link-hover underline use `#d19e00`); galaxy-ui greys have no `#58585a` (Hub meta and body come from the brand chicago scale); galaxy-ui `green-600` text is 3.25:1 on white, so the Hub's `ok-fg` uses a darker green.
+
+**Names** (same meaning, Hub spelling):
+
+| galaxy-ui | Hub |
+|-----------|-----|
+| `GButton` `color`/`size`/`outline`/`pressed`/`pill` | `ui/button` cva variants; sizes `sm`/`default`/`lg` = `small`/`medium`/`large` |
+| `GButtonGroup` + `pressed` | View toggle: `role="group"` with `aria-pressed` buttons |
+| `GTable` `compact`, `headVariant` | prose tables (§3 Tables) |
+| `GTabs` | Reka `ui/tabs` for in-page panels |
+| `GLink` | link roles (§2) |
+| `GAlert` `variant` | `.callout` on the status roles |
+
+**Rule:** never copy galaxy-ui variable names (`--color-blue-600` and friends) into the Hub `@theme`: they would replace Tailwind's own `blue` scale that existing `text-blue-*` utilities use. Align values and role names only. Proposals that would help both sides (a role layer in galaxy-ui, a 3:1 focus colour instead of the `blue-400` glow, `aria-pressed` on `GButton pressed`) are drafted for the galaxy-ui maintainers, not patched here.
+
+---
+
 ## Sister Documents
 
-- **IWC DESIGN.md**: [galaxyproject/iwc website/DESIGN.md](https://github.com/galaxyproject/iwc/blob/main/website/DESIGN.md) -- the closest sibling site.
+- **galaxy-ui**: [README](https://github.com/galaxyproject/galaxy/blob/dev/client/packages/ui/README.md) and [`tokens.css`](https://github.com/galaxyproject/galaxy/blob/dev/client/packages/ui/src/styles/tokens.css) in `galaxyproject/galaxy` -- with this file, the source of truth for Hub design (§10).
+- **IWC DESIGN.md**: [galaxyproject/iwc website/DESIGN.md](https://github.com/galaxyproject/iwc/blob/main/website/DESIGN.md) -- the closest sibling site; a reference (see §1 precedence).
 - **Base design system**: [galaxyproject/galaxy-brand-tokens DESIGN.md](https://github.com/galaxyproject/galaxy-brand-tokens/blob/main/DESIGN.md) -- the canonical base Galaxy design system.

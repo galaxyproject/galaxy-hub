@@ -1,7 +1,7 @@
 ---
 title: UseGalaxy.eu update to 20.09
 date: '2020-12-03'
-subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, ifb]
 tags: [release]
 main_subsite: eu
 contributions:
@@ -39,7 +39,7 @@ Galaxy now presents a simpler and cleaner interface for submitting workflows tha
 
 #### Accelerated batch job creation and workflow step scheduling
 
-Galaxy now batches database interactions for the creation of batch jobs. For large batches of jobs this can speed up job creation by 100 fold or more. 
+Galaxy now batches database interactions for the creation of batch jobs. For large batches of jobs this can speed up job creation by 100 fold or more.
 
 ---
 

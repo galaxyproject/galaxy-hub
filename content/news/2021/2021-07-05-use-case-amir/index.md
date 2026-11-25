@@ -2,7 +2,7 @@
 title: 'UseGalaxy.eu Use Case: colorectal cancer research'
 date: '2021-07-05'
 tags: [demo, community]
-subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, ifb]
 main_subsite: eu
 contributions:
   authorship:
@@ -10,8 +10,8 @@ contributions:
 ---
 
 __Amir Sabbaghian__ is using Galaxy at the [Advance Technologies Faculty, Golestan University of Medical Sciences Campus (Iran)](https://goums.ac.ir/index.php?slc_lang=en&sid=100) for colorectal cancer research. Thank you Amir for sharing your work with us!
- 
-Description of the project: 
+
+Description of the project:
 
 > miRNAs with low fluctuations in blood samples of normal people and their comparison in patients with colorectal cancer have been evaluated
 > via _in silico_ methods.

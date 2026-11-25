@@ -56,19 +56,19 @@ test.describe('Agentic stack page', () => {
     await expect(steps.first()).toContainText('Request UDT access');
     await expect(steps.first().locator('a.ag-go')).toHaveAttribute('href', 'https://udt-signup.galaxyproject.org/');
 
-    // Orbit and your own agent get one choice each, Orbit first.
+    // Coding agent first, Orbit second.
     const choices = page.locator('.ag-choice a.ag-go');
-    await expect(choices.nth(0)).toHaveAttribute('href', '/agents/orbit/');
-    await expect(choices.nth(1)).toHaveAttribute('href', '/agents/plugins/');
+    await expect(choices.nth(0)).toHaveAttribute('href', '/agents/');
+    await expect(choices.nth(1)).toHaveAttribute('href', '/agents/orbit/');
 
     // Every destination the page promises, each linked at least once.
     for (const href of [
       '#get-started',
       'https://udt-signup.galaxyproject.org/',
       '/tools/user-defined-tools/',
-      '/agents/plugins/',
+      '/agents/',
       '/agents/orbit/',
-      'https://galaxyproject.github.io/loom/',
+      'https://galaxyproject.github.io/orbit/',
     ]) {
       expect(await page.locator(`a[href="${href}"]`).count(), href).toBeGreaterThan(0);
     }

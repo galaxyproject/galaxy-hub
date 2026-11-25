@@ -15,6 +15,53 @@ from pykwalify.errors import SchemaError
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 LOG = logging.getLogger(__name__)
 
+# Keep in sync with astro/src/utils/subsites.ts (SUBSITE_GROUPS).
+SUBSITE_GROUPS = {
+    "all-eu": ["eu", "freiburg", "belgium", "pasteur", "elixir-it", "ifb"],
+}
+
+
+def expand_subsite_ids(values, all_ids=None):
+    """Expand group tags ('all', 'all-eu') to the concrete subsite ids they cover."""
+    if values is None:
+        return set()
+    if isinstance(values, str):
+        values = [values]
+    normalized = {str(v).strip().lower() for v in values if isinstance(v, str) and str(v).strip()}
+    if "all" in normalized:
+        return set(all_ids) if all_ids else {"all"}
+    expanded = set(normalized)
+    for value in normalized:
+        expanded.update(SUBSITE_GROUPS.get(value, []))
+    return expanded
+
+
+def check_main_subsite_consistency(aggregated, subsite_ids, skip_folders=None):
+    """`main_subsite` should be one of the subsites the item belongs to."""
+    errors = []
+    skip_folders = set(skip_folders or [])
+    valid_ids = {str(s).strip().lower() for s in subsite_ids if isinstance(s, str)}
+    for folder, data in aggregated.items():
+        if not isinstance(data, dict) or folder in skip_folders:
+            continue
+        main = data.get("main_subsite")
+        subsites = data.get("subsites")
+        if isinstance(subsites, str):
+            subsites = [subsites]
+        if not isinstance(main, str) or not subsites:
+            continue
+        main_id = main.strip().lower()
+        if main_id not in valid_ids:
+            # Unknown ids are already reported by the enum validation.
+            continue
+        covered = expand_subsite_ids(subsites, valid_ids)
+        if main_id not in covered:
+            errors.append(
+                f"{folder}: main_subsite '{main}' is not listed in `subsites` {subsites}. "
+                "Set main_subsite to one of the subsites the item belongs to, or remove it."
+            )
+    return errors
+
 
 def load_yaml(path):
     with open(path, "r", encoding="utf-8") as handle:
@@ -141,8 +188,7 @@ def validate_data(source_data, schema_data):
                     continue
                 if line.startswith(("Schema validation failed", "<SchemaError", "--- All found errors", "validation.invalid")):
                     continue
-                if line.startswith("- "):
-                    line = line[2:]
+                line = line.removeprefix("- ")
                 messages.append(line)
             if messages:
                 break
@@ -236,8 +282,18 @@ def log_validation_errors(errors, logger):
         hint = None
         if "tag" in lower and "enum" in lower or "/tags" in lower:
             hint = "If this is a new tag, add it to content/TAGS.yaml."
+        elif "main_subsite" in lower:
+            hint = (
+                "main_subsite must be an id from content/SUBSITES.yaml and should be one of the "
+                "item's `subsites`."
+            )
         elif "subsite" in lower:
-            hint = "If this is a new subsite, add it to content/SUBSITES.yaml."
+            hint = (
+                "Subsite ids must be listed in content/SUBSITES.yaml — if this is a new subsite, "
+                "add it there. `all` = every subsite, `all-eu` = "
+                "eu/freiburg/belgium/pasteur/elixir-it/ifb; omitting `subsites` shows the item on "
+                "the main site listings only."
+            )
         elif any(key in lower for key in ["funding", "grant", "contributor", "organisation", "organization"]):
             hint = "If this is a new contributor/organisation/grant ID, update the GTN vocababulary files (CONTRIBUTORS.yaml / ORGANISATIONS.yaml / GRANTS.yaml) under https://github.com/galaxyproject/training-material"
         if hint:

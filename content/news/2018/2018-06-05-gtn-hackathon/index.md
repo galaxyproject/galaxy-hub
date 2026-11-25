@@ -4,17 +4,17 @@ date: '2018-06-05'
 tags: [training]
 location:
   name: Norwich, UK
-subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, ifb]
 main_subsite: eu
 ---
 
-From 21st to 23rd of May was held a workshop for Galaxy training material and skills improvement at the [Earlham Institut](https://www.earlham.ac.uk/) in Norwich. Bérénice and Björn were there! 
+From 21st to 23rd of May was held a workshop for Galaxy training material and skills improvement at the [Earlham Institut](https://www.earlham.ac.uk/) in Norwich. Bérénice and Björn were there!
 
 <img src="./tweet-998485131995369472.webp" alt="Post by Bérénice Batut (@bebatut): The 3 days @ELIXIREurope workshop for #usegalaxy training material development and skills improvement is starting at @EarlhamInst #Norwich @denbiOffice" width="550" height="646" />
 
 *Post by @bebatut on 21 May 2018*
 
-The Monday was dedicated to a Train the Trainer workshop by Sarah Morgan from EBI. We reviewed learning principles and how they apply to training and learned training techniques that can be used to enhance learner engagement and participation. 
+The Monday was dedicated to a Train the Trainer workshop by Sarah Morgan from EBI. We reviewed learning principles and how they apply to training and learned training techniques that can be used to enhance learner engagement and participation.
 
 On Tuesday, we started with an update on Galaxy features relevant for training. After for the next 2 days, we broke into groups to work on several aspects of the Galaxy training material:
 

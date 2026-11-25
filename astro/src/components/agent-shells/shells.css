@@ -154,13 +154,6 @@
   height: 1rem;
 }
 
-.ash-btn:focus-visible,
-.ash-tab:focus-visible,
-.ash-ctl:focus-visible {
-  outline: 2px solid var(--ash-gold);
-  outline-offset: 2px;
-}
-
 .ash-mono {
   display: grid;
   place-items: center;
@@ -230,6 +223,13 @@
 .ash-tab.is-active {
   color: #fff;
   border-bottom-color: var(--ash-accent);
+}
+
+/* Inset, white on the dark tab strip: the scrolling strip clips an outer ring. */
+.ash-tab:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: -2px;
+  box-shadow: none;
 }
 
 .ash-tab.is-active .ash-mono {
@@ -485,6 +485,17 @@
 
 .ash-window[data-kind='terminal'] .ash-body {
   font-family: var(--ash-mono);
+}
+
+/* Inset: the window clips an outer ring. White on the dark kinds, dark on the light desktop kind. */
+.ash-body:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: -2px;
+  box-shadow: none;
+}
+
+.ash-window[data-kind='desktop'] .ash-body:focus-visible {
+  outline-color: var(--ash-dark);
 }
 
 .ash-window[data-kind='desktop'] .ash-body,

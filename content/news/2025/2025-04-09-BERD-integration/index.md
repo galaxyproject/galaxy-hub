@@ -5,7 +5,7 @@ tease: "Research your Business, Economic and Related Data from the BERD Data Por
 continent: EU
 contact: Daniela Schneider
 gtn: false
-tags: [news]
+tags: [news, interoperability]
 subsites: [all]
 ---
 

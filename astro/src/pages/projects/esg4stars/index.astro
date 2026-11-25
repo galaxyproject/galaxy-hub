@@ -1,0 +1,56 @@
+---
+/**
+ * ESG4Stars project overview, built from the shared project components like the ESG overview.
+ * Data and sections come from getEsg4StarsOverview and Esg4StarsSections, which the bare copy at
+ * /bare/projects/esg4stars/ uses too.
+ */
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import ProjectPageTop from '../../../components/projects/ProjectPageTop.astro';
+import ProjectEndedNotice from '../../../components/projects/ProjectEndedNotice.astro';
+import ProjectFactsBox from '../../../components/projects/ProjectFactsBox.astro';
+import ProjectColumns from '../../../components/projects/ProjectColumns.astro';
+import Esg4StarsSections from '../../../components/projects/esg4stars/Esg4StarsSections.astro';
+import { getEsg4StarsOverview } from '../../../utils/esg4starsOverview';
+
+const overview = await getEsg4StarsOverview();
+const { project, Summary } = overview;
+---
+
+<BaseLayout title={project.name} description={project.description}>
+  <div class="max-w-6xl mx-auto bg-white rounded-lg shadow-sm p-4 sm:p-6 lg:p-8">
+    <ProjectPageTop
+      projectId={project.id}
+      name={project.name}
+      description={project.description}
+      facts={project.facts}
+      counts={{ [overview.newsHref]: overview.newsCount }}
+    />
+
+    <ProjectColumns headings={overview.headings}>
+      <Fragment slot="lead">
+        <ProjectEndedNotice name={project.name} facts={project.facts} />
+        <ProjectFactsBox
+          class="lg:hidden mb-6"
+          idPrefix="facts-inline"
+          facts={project.facts}
+          partnerCount={project.partnerCount}
+        />
+      </Fragment>
+
+      <Fragment slot="rail">
+        <ProjectFactsBox
+          class="project-facts--rail mb-6"
+          idPrefix="facts-rail"
+          facts={project.facts}
+          partnerCount={project.partnerCount}
+        />
+      </Fragment>
+
+      <div class="prose prose-galaxy max-w-none">
+        <Summary />
+      </div>
+
+      <Esg4StarsSections overview={overview} />
+    </ProjectColumns>
+  </div>
+</BaseLayout>

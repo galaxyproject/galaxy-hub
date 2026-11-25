@@ -13,11 +13,13 @@ Content lives in the `/content/` directory. Most pages are an `index.md` file in
 
 ### Editing an existing page
 
-The easiest way is to use the edit link on any Hub page — click the GitHub icon in the upper right corner. This takes you to the source file in GitHub where you can edit it directly and submit a pull request.
+The easiest way is to use the "Edit on Github" link near the bottom of any Hub page. This takes you to the source file in GitHub where you can edit it directly and submit a pull request.
 
 ### Creating a new page
 
-In the GitHub web interface, navigate to the appropriate directory under `/content/` and click "Add file" → "Create new file". For news items, create the year bucket first, then add `your-page-name/index.md` inside it (for example `content/news/2026/my-news-item/index.md`). GitHub will create the directory for you.
+In the GitHub web interface, navigate to the appropriate directory under `/content/` and click "Add file" → "Create new file". For news items, create the year bucket first, then add `your-page-name/index.md` inside it (for example `content/news/2026/2026-03-05-my-news-item/index.md`; news folders start with the date). GitHub will create the directory for you.
+
+**News and events**: the easiest way is the [post creator](https://galaxyproject.org/hub/contributing/new/). Fill in the form and it opens the file on GitHub with the right folder and metadata. You can also copy a [template](#news-and-event-templates).
 
 **Directory naming rules**: Use lowercase letters, numbers, and hyphens. The directory name becomes the URL slug.
 
@@ -70,6 +72,82 @@ Events have additional fields:
 | `contact`   | Event contact information                            |
 | `subsites`  | Array of subsites to display on, e.g. `[global, eu]` |
 
+### News and event templates
+
+Copy one of these, then change or delete each line. Tags must be in [`TAGS.yaml`](content/TAGS.yaml) and subsites in [`SUBSITES.yaml`](content/SUBSITES.yaml). People and funders come from the GTN files (see [Contributions metadata](#contributions-metadata-and-hall-of-fame-recognition)). The checks on your pull request say if one is missing. Keep the quotes around text and dates.
+
+News, saved as `content/news/YYYY/YYYY-MM-DD-short-name/index.md`:
+
+```yaml
+---
+title: 'Your title'
+date: 'YYYY-MM-DD'
+tease: 'One or two plain sentences for lists and social media.'
+tags: [training]
+subsites: [global]          # see "Subsites and main_subsite" below
+main_subsite: global        # optional, one of your subsites
+contributions:
+  authorship:
+    - your-github-username
+  funding:                  # optional
+    - deNBI
+---
+
+Your text in Markdown.
+```
+
+Event, saved as `content/events/YYYY-MM-DD-short-name/index.md`:
+
+```yaml
+---
+title: 'Your event'
+date: 'YYYY-MM-DD'          # first day
+end: 'YYYY-MM-DD'           # last day; delete for a one-day event
+tease: 'One or two plain sentences for lists and social media.'
+continent: EU               # AF, AS, AU, EU, GL (online), NA or SA
+location:
+  name: 'City, Country'     # or 'Online'
+contact: 'Name or email'
+external_url: 'https://…'   # only if the event has its own website
+tags: [training]
+subsites: [global]
+contributions:
+  organisers:
+    - your-github-username
+---
+
+What the event is about, in Markdown.
+```
+
+### Subsites and `main_subsite` in news and events
+
+These two fields are easy to copy from an older item without realizing what they do. `subsites` decides which **subsite listings** show your item — for example `galaxyproject.org/eu/news/` or `/freiburg/events/`. The main `/news/` and `/events/` pages list every published item, so `subsites` never hides anything from the main site.
+
+| `subsites`              | Item appears on                                                                                                        |
+| :---------------------- | :--------------------------------------------------------------------------------------------------------------------- |
+| *(omitted)*             | main `/news/` or `/events/` page only                                                                                  |
+| `[global]`              | same as omitting subsites, but handled differently by feed consumers (see below)                                       |
+| `[all]`                 | main news/events page and all subpages                                                                                 |
+| `[all-eu]`              | main news/events page and the EU group of subpages: Europe, Freiburg, VIB (Belgium), Pasteur, ELIXIR-IT, ELIXIR-FR/IFB |
+| `[eu, freiburg]`, etc.  | main news/events page and the specific news/events subpages                                                            |
+
+Valid ids are listed in [`content/SUBSITES.yaml`](content/SUBSITES.yaml) — pick the values that match where your item belongs instead of copying them from an older item.
+
+`main_subsite` does not affect where an item appears on the Hub, but is published to the Hub's news and events feeds.
+The behavior of consumers of these feeds — most notably the Galaxy Social Assistant (see Social media below) — can be influenced by setting `main_subsite`.
+
+**Social media**: the [galaxy-social-assistant](https://github.com/usegalaxy-eu/galaxy-social-assistant) reads the `/news/feed.json` and `/events/feed.json` feeds and posts news from the last 30 days and upcoming events to the project's social channels based on these fields.
+
+For the exact rules of dispatching to different social media channels, see the project's [config file](https://github.com/usegalaxy-eu/galaxy-social-assistant/blob/main/config.yml).
+
+As general rules, the Social Assistant will:
+
+- give precedence to `main_subsite`, if it knows how to handle its value, over `subsites`.
+- **ignore** items that specify neither `subsites` nor `main_subsite`.
+
+This makes it possible to fine-tune the reach of items on social media.
+One consequence of this behavior is that if you want your item to appear only on the main `/news/` and `/events/` pages on the Hub, but *also* on global social media channels, use `subsites: [global]` explicitly instead of omitting `subsites`.
+
 ### Markdown
 
 Content is written in standard [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/). Prefer Markdown over raw HTML whenever possible — it's easier to maintain and renders more consistently.
@@ -83,6 +161,8 @@ Place images in the same directory as your `index.md` and reference them with re
 ```
 
 For images shared across pages, use `/images/...` paths (these are served from `content/images/`). Example: `/images/logos/galaxy_project_logo.jpg`.
+
+Save photos as JPEG, at most 2000 px on the long edge and under 1 MB; PR checks warn above 1 MB or 2500 px and fail above 5 MB.
 
 Tweets are not embedded. To show a post from X (Twitter), add a screenshot of it as an image, with the author and post text as alt text (see [Markdown tips](https://galaxyproject.org/hub/contributing/markdown/)).
 

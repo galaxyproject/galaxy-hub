@@ -1,10 +1,12 @@
 ---
-import { render } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import ArticleLayout from '../../layouts/ArticleLayout.astro';
-import { getPublishedNews } from '../../utils/content';
+import { isPublishedDate } from '../../utils/dateUtils';
+import { isDraft } from '../../utils/publish-date.mjs';
 
 // Import MDX components for embedded content
 import VegaEmbed from '../../components/mdx/VegaEmbed.astro';
+import MermaidEmbed from '../../components/mdx/MermaidEmbed.astro';
 import Mastodon from '../../components/mdx/Mastodon.astro';
 import VideoPlayer from '../../components/mdx/VideoPlayer.astro';
 import Carousel from '../../components/mdx/Carousel.astro';
@@ -18,10 +20,12 @@ import Insert from '../../components/mdx/Insert.astro';
 import CofestProject from '../../components/mdx/CofestProject.astro';
 import { resolveSupporters } from '../../utils/supporters';
 import { extractAuthors, extractFunding, resolveAuthor } from '../../utils/contributors';
+import { safeJsonLd } from '../../utils/json-ld';
 
 export async function getStaticPaths() {
-  // Get only published news articles (excludes future-dated articles)
-  const newsArticles = await getPublishedNews();
+  // Every published news page is built, drafts included, so a draft can be previewed by URL.
+  const now = new Date();
+  const newsArticles = (await getCollection('news')).filter((article) => isPublishedDate(article.data.date, now));
 
   return newsArticles.map((article) => {
     // Remove 'news/' prefix from slug for the URL
@@ -51,6 +55,7 @@ const supporters = await resolveSupporters(fundingIds);
 // MDX components map
 const components = {
   VegaEmbed,
+  MermaidEmbed,
   Mastodon,
   VideoPlayer,
   Carousel,
@@ -98,6 +103,7 @@ const schemaNews = {
 ---
 
 <ArticleLayout
+  noindex={isDraft(article.data)}
   title={title || 'News'}
   description={tease}
   date={date}
@@ -111,4 +117,4 @@ const schemaNews = {
   sourceFile={sourceFile}
 >
   <Content components={components} />
-  <script type="application/ld+json" is:inline set:html={JSON.stringify(schemaNews)} /></ArticleLayout>
+  <script type="application/ld+json" is:inline set:html={safeJsonLd(schemaNews)} /></ArticleLayout>

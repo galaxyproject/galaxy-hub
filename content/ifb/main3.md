@@ -11,7 +11,7 @@ subtitle: The subdomains of the French Galaxy server
       <h2 class="card-title text-dark">Microbiology</h2>
       <p class="card-text">Whether you're working with microbiome samples or bacterial isolates, long or short reads, shotgun or 16S sequencing, genomics, transcriptomics, proteomics, metabolomics, or integrative multi-omics analysis—this is the place for you!</p>
       <div class="text-center">
-          <img src="https://raw.githubusercontent.com/galaxyproject/galaxy_codex/main/communities/microgalaxy/lab/static/microgalaxy-logo.png" alt="microGalaxy" style="height: 50px; width: auto; display: block; margin: 1rem auto" />
+          <img src="/assets/media/usegalaxy/microgalaxy/microgalaxy-logo.png" alt="microGalaxy" style="height: 50px; width: auto; display: block; margin: 1rem auto" />
           <br /><br />
           <a href="https://microbiology.usegalaxy.fr/" target="_top" class="btn btn-primary">Microbiology</a>
       </div>
@@ -22,7 +22,7 @@ subtitle: The subdomains of the French Galaxy server
       <h2 class="card-title text-dark">Single-cell</h2>
       <p class="card-text"> Access Single Cell Omics analysis tutorials, tools, and workflows that let you analyse data without programming experience or private infrastructure. </p>
       <div class="text-center">
-          <img src="https://raw.githubusercontent.com/galaxyproject/galaxy_codex/main/communities/spoc/lab/static/logo_single_cell.svg" alt="Workflow4Metabolomics" style="height: 100px; width: auto; display: block; margin: 1rem auto" />
+          <img src="/assets/media/usegalaxy/singlecell/logo_single_cell.svg" alt="Single-cell" style="height: 100px; width: auto; display: block; margin: 1rem auto" />
           <br /><br />
           <a href="https://singlecell.usegalaxy.fr/" target="_top" class="btn btn-primary">Single-cell</a>
       </div>
@@ -99,7 +99,7 @@ subtitle: The subdomains of the French Galaxy server
       <h2 class="card-title text-dark">Biodiversity genomics</h2>
       <p class="card-text">Tools, workflows and tutorials produced by the Galaxy Ecology community, focusing on biodiversity genomics.</p>
       <div class="text-center">
-        <img src="https://raw.githubusercontent.com/galaxyproject/galaxy_codex/main/communities/biodiversity/lab/biodiversity-logo.png" alt="Biodiversity genomics" style="height: 100px; width: auto; display: block; margin: 1rem auto" />
+        <img src="/assets/media/usegalaxy/biodiversity/biodiversity-logo.png" alt="Biodiversity genomics" style="height: 100px; width: auto; display: block; margin: 1rem auto" />
         <br /><br /><br />
           <a href="https://biodiversity-genomics.usegalaxy.fr/" target="_top" class="btn btn-primary">Biodiversity genomics</a>
       </div>
@@ -110,7 +110,7 @@ subtitle: The subdomains of the French Galaxy server
       <h2 class="card-title text-dark">Earth System</h2>
       <p class="card-text">A web platform to get, process, analyze and visualize environmental data.</p>
       <div class="text-center">
-        <img src="https://raw.githubusercontent.com/galaxyproject/galaxy_codex/main/communities/earth/lab/static/earth-logo.png" alt="Galaxy for Earth System Sciences" style="height: 100px; width: auto; display: block; margin: 1rem auto" />
+        <img src="/assets/media/usegalaxy/earth-system/earth-logo.png" alt="Galaxy for Earth System Sciences" style="height: 100px; width: auto; display: block; margin: 1rem auto" />
         <br /><br /><br />
           <a href="https://earth-system.usegalaxy.fr/" target="_top" class="btn btn-primary">Earth System</a>
       </div>

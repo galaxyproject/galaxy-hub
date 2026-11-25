@@ -8,6 +8,9 @@ on:
   schedule:
     - cron: "0 0,8,16 * * *"
 
+permissions:
+  contents: read
+
 jobs:
   collect:
     name: Collect news/events from the Galaxy Training Network
@@ -17,6 +20,7 @@ jobs:
       - uses: actions/checkout@v7
         with:
           fetch-depth: 1
+          persist-credentials: false
 
       - name: Generate GitHub App token
         id: app-token
@@ -26,7 +30,7 @@ jobs:
           private-key: ${{ secrets.HUB_BOT_APP_PRIVATE_KEY }}
 
       - name: Set up Python
-        uses: actions/setup-python@v7.0.0
+        uses: actions/setup-python@v7.1.0
         with:
           python-version: "3.12"
 

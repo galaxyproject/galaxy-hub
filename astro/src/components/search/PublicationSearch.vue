@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref, watch } from 'vue';
+import { safeUrl } from '@/utils/url';
 
 const props = defineProps<{ query: string }>();
 
@@ -83,7 +84,7 @@ watch(
         :key="item.data.url || item.data.title"
         class="bg-white rounded-lg border border-ebony-clay-100 p-5 hover:shadow-md transition-shadow"
       >
-        <a v-if="item.data.url" :href="item.data.url" target="_blank" class="block">
+        <a v-if="safeUrl(item.data.url)" :href="safeUrl(item.data.url)" target="_blank" class="block">
           <h2 class="text-lg font-semibold text-chicago-900 hover:text-galaxy-primary transition-colors mb-1">
             {{ item.data.title }}
           </h2>
@@ -103,7 +104,7 @@ watch(
 
     <div v-else-if="results && results.length === 0" class="text-center py-12">
       <p class="text-chicago-500 mb-2">No publications found for "{{ query }}"</p>
-      <p class="text-sm text-chicago-400">Try different keywords or check your spelling</p>
+      <p class="text-sm text-fg-meta">Try different keywords or check your spelling</p>
     </div>
 
     <div v-else-if="!query.trim()" class="text-center py-12">

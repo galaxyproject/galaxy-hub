@@ -12,6 +12,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { collectDraftPaths } from './draft-pages.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ASTRO_ROOT = path.resolve(__dirname, '../..');
@@ -40,6 +41,7 @@ function extractFrontmatterField(content, fieldName) {
 
 async function generate() {
   const lookup = {};
+  const draftPaths = collectDraftPaths(CONTENT_DIR);
   const collections = ['events', 'articles', 'news', 'platforms', 'bare-articles'];
 
   for (const collection of collections) {
@@ -61,6 +63,7 @@ async function generate() {
       if (!slug) continue;
 
       const canonicalPath = `/${slug}/`;
+      if (draftPaths.has(canonicalPath)) continue;
       const entry = { p: canonicalPath, t: title || slug };
 
       // Index the canonical slug

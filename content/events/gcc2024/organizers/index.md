@@ -61,7 +61,7 @@ Scientific committee members are community volunteers who review the submitted a
 
 Training coordinators structure the training events at GCC2024 and coordinated with all the trainers.
 
-* **[Tyler Collins]()**, [Johns Hopkins University](https://jhu.edu/), United States
+* **[Tyler Collins](https://orcid.org/0000-0002-3026-9049)**, [Johns Hopkins University](https://jhu.edu/), United States
 
 * (no longer active) **[Assunta DeSanto](https://github.com/assuntad23)**, [Penn State University](https://psu.edu/), United States
 

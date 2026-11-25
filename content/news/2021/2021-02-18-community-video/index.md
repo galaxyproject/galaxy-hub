@@ -4,14 +4,14 @@ date: '2021-02-18'
 tags: []
 location:
   name: online
-subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, ifb]
 main_subsite: eu
 contributions:
   authorship:
     - beatrizserrano
 ---
 
-The Galaxy community is broad and diverse. Contributors to the main code, admins, tool developers, trainers, students... we are spread all over the world!  
+The Galaxy community is broad and diverse. Contributors to the main code, admins, tool developers, trainers, students... we are spread all over the world!
 
 This global open-source effort has its core values in the __accessibility__ of analysis tools for everyone, __reproducibility__ of the scientific pipelines, __transparency__, and __shareability__ of the results with others. These values can only be accomplished thanks to an awesome community.
 

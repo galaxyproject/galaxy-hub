@@ -1,0 +1,37 @@
+---
+/**
+ * Event date line: calendar icon, bold date range and, for multi-day events, a duration pill.
+ * Vue twin: EventDate.vue (same markup and styles, text from eventDateParts).
+ */
+import Icon from '@/components/mdx/Icon.astro';
+import { eventDateParts, type DateFormatOptions } from '@/utils/dateUtils';
+import './event-date.css';
+
+interface Props {
+  start: Date | string | null | undefined;
+  end?: Date | string | null;
+  format?: boolean | DateFormatOptions;
+  /** Muted text for past events. */
+  past?: boolean;
+  class?: string;
+}
+
+const { start, end, format, past = false, class: className } = Astro.props;
+const parts = eventDateParts(start, end, format);
+---
+
+{parts && <span class:list={['gx-event-date', { 'gx-event-date--past': past }, className]}>
+  <span class="gx-event-date__icon" aria-hidden="true">
+    <Icon name="calendar" size={16} />
+  </span>
+  <span class="gx-event-date__range">
+    <time datetime={parts.isoStart}>{parts.start}</time>
+    {parts.end && (
+      <>
+        {' - '}
+        <time datetime={parts.isoEnd}>{parts.end}</time>
+      </>
+    )}
+  </span>
+  {parts.durationLabel && <span class="gx-event-date__dur">{parts.durationLabel}</span>}
+</span>}

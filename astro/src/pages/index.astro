@@ -2,11 +2,11 @@
 import HomeLayout from '../layouts/HomeLayout.astro';
 import HeroHighlight from '../components/HeroHighlight.astro';
 import Icon from '../components/mdx/Icon.astro';
-import { getCollection } from 'astro:content';
-import { isUpcomingEvent } from '../utils/dateUtils';
+import { getListedCollection } from '../utils/content';
+import { formatDate, getUTCDate, isUpcomingEvent } from '../utils/dateUtils';
 
 // Get recent news from the news collection
-const news = await getCollection('news');
+const news = await getListedCollection('news');
 const recentNews = news
   .sort((a, b) => {
     const dateA = a.data.date instanceof Date ? a.data.date : new Date(a.data.date || '');
@@ -16,7 +16,7 @@ const recentNews = news
   .slice(0, 3);
 
 // Get upcoming events
-const events = await getCollection('events');
+const events = await getListedCollection('events');
 const now = new Date();
 const upcomingEvents = events
   .filter((e) => isUpcomingEvent(e.data.date, e.data.end, now))
@@ -26,12 +26,6 @@ const upcomingEvents = events
     return dateA.getTime() - dateB.getTime();
   })
   .slice(0, 4);
-
-function formatDate(date: Date | string | undefined): string {
-  if (!date) return '';
-  const d = date instanceof Date ? date : new Date(date);
-  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
-}
 
 const currentYear = new Date().getFullYear();
 
@@ -84,6 +78,7 @@ const pillars = [
       --text-primary: #f8fafc;
       --text-secondary: rgba(248, 250, 252, 0.7);
       --text-muted: rgba(248, 250, 252, 0.5);
+      --text-meta: #bbc0d2; /* 5.39:1 on --medium-bg, 7.12:1 on --galaxy-dark */
 
       background: var(--galaxy-dark);
       color: var(--text-primary);
@@ -279,6 +274,12 @@ const pillars = [
       transform: translateY(-1px);
     }
 
+    /* The glow animation would replace the global inner ring. */
+    .btn-primary:focus-visible {
+      animation: none;
+      box-shadow: 0 0 0 2px var(--color-focus-inner);
+    }
+
     @keyframes subtle-glow {
       0%,
       100% {
@@ -391,7 +392,7 @@ const pillars = [
 
     .stat-label {
       font-size: 0.8rem;
-      color: var(--text-muted);
+      color: var(--text-meta);
       text-transform: uppercase;
       letter-spacing: 0.05em;
       margin-top: 0.5rem;
@@ -862,18 +863,23 @@ const pillars = [
 
     .cite-container .cite-text a {
       color: var(--galaxy-gold);
-      text-decoration: none;
-      transition: color 0.2s;
+      text-decoration: underline;
+      text-decoration-color: color-mix(in srgb, var(--galaxy-gold) 50%, transparent);
+      text-underline-offset: 2px;
+      transition:
+        color 0.2s,
+        text-decoration-color 0.2s;
     }
 
     .cite-container .cite-text a:hover {
       color: var(--galaxy-gold-dark);
-      text-decoration: underline;
+      text-decoration-color: currentColor;
+      text-decoration-thickness: 2px;
     }
 
     .cite-guide-link {
       font-size: 0.8rem;
-      color: var(--text-muted);
+      color: var(--text-meta);
       text-decoration: none;
       transition: color 0.2s;
     }
@@ -993,7 +999,7 @@ const pillars = [
     }
   </style>
 
-  <div class="homepage-v2">
+  <div class="homepage-v2 focus-scope-dark">
     <!-- Hero Section -->
     <section class="hero-section grid-overlay">
       <div class="hero-container">
@@ -1239,7 +1245,7 @@ const pillars = [
           </div>
           <div class="news-list">
             {recentNews.map((item) => <a href={`/${item.data.slug}/`} class="news-card">
-              <div class="news-date">{formatDate(item.data.date)}</div>
+              <div class="news-date">{formatDate(item.data.date, { year: false })}</div>
               <h3 class="news-title">{item.data.title}</h3>
               {item.data.tease && <p class="news-excerpt">{item.data.tease}</p>}
             </a>)}
@@ -1254,8 +1260,8 @@ const pillars = [
           <div class="events-list">
             {upcomingEvents.map((event) => {
               const date = event.data.date instanceof Date ? event.data.date : new Date(event.data.date || '');
-              const day = date.getDate();
-              const month = date.toLocaleDateString('en-US', { month: 'short' });
+              const day = getUTCDate(date);
+              const month = date.toLocaleDateString('en-US', { month: 'short', timeZone: 'UTC' });
               return <a href={`/${event.data.slug}/`} class="event-card">
                 <div class="event-date-box">
                   <span class="event-date-day">{day}</span>
@@ -1291,7 +1297,7 @@ const pillars = [
   </div>
 
   <!-- Footer -->
-  <footer slot="footer" class="homepage-v2 home-footer">
+  <footer slot="footer" class="homepage-v2 home-footer focus-scope-dark">
     <div class="footer-container">
       <div class="footer-brand">
         <h2>Galaxy Project</h2>

@@ -1,0 +1,68 @@
+---
+/**
+ * Columns of a project overview: the lead (notice, inline facts) and the main sections on the left,
+ * a 15rem right rail from lg up: the facts box (slot "rail") and a sticky "On this page" (from `headings`).
+ * Below lg the rail is hidden; pages show an inline facts box in the lead slot, and "On this page"
+ * is the collapsible block between the lead and the main sections.
+ */
+import TableOfContents from '../layout/TableOfContents.astro';
+import MobileToc from '../layout/MobileToc.astro';
+import { tocRailClass } from '../../utils/tocRail';
+
+interface Props {
+  headings?: Array<{ depth: number; slug: string; text: string }>;
+}
+
+const { headings = [] } = Astro.props;
+const showToc = headings.filter((h) => h.depth >= 2 && h.depth <= 4).length >= 2;
+const mobileTocClass = 'toc-mobile lg:hidden mb-6 border border-ebony-clay-100 rounded-lg';
+---
+
+<div class="project-columns">
+  <div class="project-columns__lead">
+    <slot name="lead" />
+  </div>
+
+  {showToc && <MobileToc headings={headings} class={mobileTocClass} />}
+
+  <aside class="project-columns__rail hidden lg:block" aria-label="Project facts and contents">
+    <slot name="rail" />
+    {/* "On this page" follows the window; it scrolls itself when taller than the window */}
+    {showToc && <div class={tocRailClass} data-toc-rail>
+      <TableOfContents headings={headings} />
+    </div>}
+  </aside>
+
+  <div class="project-columns__main">
+    <slot />
+  </div>
+</div>
+
+<style>
+  .project-columns {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  @media (min-width: 64rem) {
+    .project-columns {
+      grid-template-columns: minmax(0, 1fr) 15rem;
+      column-gap: 2.5rem;
+    }
+
+    .project-columns__lead {
+      grid-column: 1;
+      grid-row: 1;
+    }
+
+    .project-columns__rail {
+      grid-column: 2;
+      grid-row: 1 / span 2;
+    }
+
+    .project-columns__main {
+      grid-column: 1;
+      grid-row: 2;
+    }
+  }
+</style>

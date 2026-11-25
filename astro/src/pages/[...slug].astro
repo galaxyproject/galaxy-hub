@@ -1,9 +1,11 @@
 ---
 import { getCollection, render } from 'astro:content';
 import ArticleLayout from '../layouts/ArticleLayout.astro';
+import { isDraft } from '../utils/publish-date.mjs';
 
 // Import MDX components for embedded content
 import VegaEmbed from '../components/mdx/VegaEmbed.astro';
+import MermaidEmbed from '../components/mdx/MermaidEmbed.astro';
 import Mastodon from '../components/mdx/Mastodon.astro';
 import VideoPlayer from '../components/mdx/VideoPlayer.astro';
 import Carousel from '../components/mdx/Carousel.astro';
@@ -50,6 +52,7 @@ const eyebrow = article.data.slug.startsWith('eu/') ? { label: 'Galaxy Europe', 
 // MDX components map - keys match PascalCase names used in preprocessed content
 const components = {
   VegaEmbed,
+  MermaidEmbed,
   Mastodon,
   VideoPlayer,
   Carousel,
@@ -71,6 +74,7 @@ const components = {
 ---
 
 <ArticleLayout
+  noindex={isDraft(article.data)}
   title={title || 'Galaxy Hub'}
   description={tease}
   date={date}

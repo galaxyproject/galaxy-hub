@@ -1,0 +1,147 @@
+---
+title: "2027 Galaxy Community Conference (GCC2027)"
+date: '2027-06-26'
+end: '2027-07-01'
+skip_title_render: true
+autotoc: false
+hide_metadata: true
+components: true
+tease: "The yearly conference of the Galaxy community, where researchers, developers, and educators from around the world meet to share science, learn, and shape the future of open data analysis."
+continent: NA
+location:
+  name: "Longueuil (Montréal area), Québec, Canada"
+  url: "/events/gcc2027/"
+gtn: true
+contact: "Organizing Committee"
+conference: true
+subsites: [all]
+contributions:
+  organisers: []
+---
+
+<style>{`
+  .gcc-hero {
+    container-type: inline-size;
+  }
+
+  @container (max-width: 480px) {
+    .gcc-hero__location-extra {
+      display: none;
+    }
+  }
+
+  @container (min-width: 768px) {
+    .gcc-hero__grid {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .gcc-hero__badges {
+      justify-content: flex-start;
+    }
+  }
+`}</style>
+
+{/* TODO: Add a rotating/carousel-like alert once open, e.g. Register / Submit an abstract / Apply for a fellowship */}
+
+<div class="gcc-hero">
+    <div class="gcc-hero__grid grid gap-6 items-center">
+        <img class="w-full max-w-md mx-auto" src="/images/events/gcc2027/gcc2027-logo-transparent.png" alt="GCC2027 Conference Logo" />
+        <div>
+            <div class="gcc-hero__badges not-prose flex flex-wrap items-center justify-center gap-3 leading-tight">
+                <div class="gx-date-badge">
+                    <span class="gx-date-badge__label">Save the date</span>
+                    <span class="gx-date-badge__value">June&nbsp;26 – July&nbsp;1, 2027</span>
+                </div>
+                <a class="inline-flex items-center gap-2 rounded-full border border-galaxy-primary px-4 py-1 text-sm font-semibold text-galaxy-primary no-underline whitespace-nowrap hover:bg-galaxy-primary hover:text-white" href="https://maps.app.goo.gl/fLKHeTxgrkXHvmXF6" target="_blank" rel="noopener noreferrer">
+                    <Icon name="map-pin" />
+                    <span>Longueuil<span class="gcc-hero__location-extra"> (Montréal area)</span>, Québec, Canada</span>
+                </a>
+            </div>
+            <h3 style="margin-top: 1rem;">Held at Université de Sherbrooke - Campus Longueuil, in the city of <a href="https://www.google.com/maps/search/?api=1&query=Longueuil%2C+Qu%C3%A9bec%2C+Canada" target="_blank" rel="noopener noreferrer">Longueuil, Québec</a></h3>
+            <p class="text-lg text-galaxy-grey"><a href="/events/gcc2027/register/">Registration</a>, <a href="/events/gcc2027/abstracts/">abstract submission</a>, and <a href="/events/gcc2027/fellowships/">fellowship applications</a> are <strong>now open</strong>.</p>
+        </div>
+    </div>
+</div>
+
+## Event highlights
+
+<div class="gx-tile-grid">
+
+<a class="gx-tile gx-tile--link" href="/gcc">
+  <img class="gx-tile__media" src="/images/events/gcc2026/GroupPhoto.jpg" alt="GCC conference attendees" />
+  <div class="gx-tile__title">About the GCC conference series</div>
+  <p class="gx-tile__teaser">The Galaxy Community Conference has been the community's central gathering since 2010 — where the people who use, build, and teach Galaxy come together to share work and shape what comes next.</p>
+  <span class="gx-tile__more">Learn more →</span>
+</a>
+
+<a class="gx-tile gx-tile--link" href="/events/gcc2027/schedule/">
+  <div class="gx-tile__media not-prose" style="display: flex; flex-direction: column; justify-content: center; gap: 0.4rem; padding: 0 1.15rem; background: var(--color-bay-of-many-100);">
+    <div style="display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; padding: 0.3rem 0.75rem; background: #fff; border-left: 4px solid var(--color-galaxy-gold); border-radius: 0.25rem;">
+      <span class="text-xs font-semibold uppercase tracking-wider text-galaxy-grey">Training</span>
+      <span class="text-right leading-tight whitespace-nowrap">
+        <span class="block text-xs text-galaxy-grey">Saturday</span>
+        <span class="block text-sm font-bold text-galaxy-dark">Jun 26</span>
+      </span>
+    </div>
+    <div style="display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; padding: 0.3rem 0.75rem; background: #fff; border-left: 4px solid var(--color-galaxy-primary); border-radius: 0.25rem;">
+      <span class="text-xs font-semibold uppercase tracking-wider text-galaxy-grey">Conference</span>
+      <span class="text-right leading-tight whitespace-nowrap">
+        <span class="block text-xs text-galaxy-grey">Sunday – Tuesday</span>
+        <span class="block text-sm font-bold text-galaxy-dark">Jun 27 – 29</span>
+      </span>
+    </div>
+    <div style="display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; padding: 0.3rem 0.75rem; background: #fff; border-left: 4px solid var(--color-galaxy-dark); border-radius: 0.25rem;">
+      <span class="text-xs font-semibold uppercase tracking-wider text-galaxy-grey">CoFest</span>
+      <span class="text-right leading-tight whitespace-nowrap">
+        <span class="block text-xs text-galaxy-grey">Wednesday – Thursday</span>
+        <span class="block text-sm font-bold text-galaxy-dark">Jun 30 – Jul 1</span>
+      </span>
+    </div>
+  </div>
+  <div class="gx-tile__title">GCC2027 week at a glance</div>
+  <p class="gx-tile__teaser">We're doing things a bit differently this year, by beginning with training, followed by the main conference, and concluding with the CoFest.</p>
+  <span class="gx-tile__more">See the schedule →</span>
+</a>
+
+<a class="gx-tile gx-tile--link" href="/events/gcc2027/fellowships/">
+  <img class="gx-tile__media" src="/images/events/gcc2026/Scholarships.jpg" alt="Scholarship recipients for GCC2026" />
+  <div class="gx-tile__title">GCC2027 fellowships</div>
+  <p class="gx-tile__teaser">Financial support shouldn't be a barrier to joining us. Applications open <strong class="text-galaxy-primary">November 18, 2026</strong> and close <strong class="text-galaxy-primary">March 15, 2027</strong>.</p>
+  <span class="gx-tile__more">See fellowship details →</span>
+</a>
+
+<a class="gx-tile gx-tile--link" href="https://www.usherbrooke.ca/campus-longueuil/" target="_blank" rel="noopener noreferrer">
+  <img class="gx-tile__media" src="/images/events/gcc2027/university_of_sherbrooke.jpg" alt="Université de Sherbrooke campus" />
+  <div class="gx-tile__title">GCC2027 host</div>
+  <p class="gx-tile__teaser">GCC2027 is hosted by the Université de Sherbrooke, home of UseGalaxy Canada, the newest member of the UseGalaxy.* federation. Its Campus Longueuil is a 16-storey tower right by the metro.</p>
+  <span class="gx-tile__more">Visit Campus Longueuil →</span>
+</a>
+
+<a class="gx-tile gx-tile--link" href="/events/gcc2027/cofest/">
+  <img class="gx-tile__media" src="/images/events/gcc2026/cofest/ecology_tools.jpg" alt="Still from a GCC2026 CoFest group" />
+  <div class="gx-tile__title">GCC2027 CoFest</div>
+  <p class="gx-tile__teaser">Hands-on, community-driven work right after the conference. Contribute to tools, workflows, docs, or training — everyone's welcome, whatever your background. Join us June 30 – July 1.</p>
+  <span class="gx-tile__more">Join CoFest →</span>
+</a>
+
+<a class="gx-tile gx-tile--link" href="/events/gcc2027/travel/">
+  <img class="gx-tile__media" src="/images/events/gcc2027/montreal_image.jpg" alt="Old town Montreal" />
+  <div class="gx-tile__title">Montréal area, Québec, Canada</div>
+  <p class="gx-tile__teaser">A vibrant, French-speaking city featuring the cobblestone streets of Old Montréal, scenic views from Mount Royal, and lively summer festivals. GCC2027 is just across the river in Longueuil, about 10 minutes from downtown by metro.</p>
+  <span class="gx-tile__more">Plan your trip →</span>
+</a>
+
+</div>
+
+## Stay informed
+
+We keep the Galaxy community updated on all important GCC announcements through our GCC mailing list.
+
+Sign up here for the GCC mailing list to receive updates on registration, abstract submission deadlines, program announcements, and fellowship opportunities for GCC2027.
+
+<div class="not-prose flex justify-center my-5">
+  <a class="inline-flex items-center rounded-md bg-galaxy-primary px-5 py-2.5 text-center text-sm font-semibold text-white no-underline hover:bg-galaxy-dark" href="https://lists.galaxyproject.org/lists/gcc.lists.galaxyproject.org/" target="_blank" rel="noopener noreferrer">
+    <Icon name="mail" class="inline-block mr-2" />
+    Join the GCC mailing list
+  </a>
+</div>

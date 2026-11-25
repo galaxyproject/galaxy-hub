@@ -1,13 +1,15 @@
 ---
-import { getCollection } from 'astro:content';
+import { getListedCollection } from '../../utils/content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PlatformDirectory from '../../components/platforms/PlatformDirectory.vue';
+import LinkTile from '../../components/use/LinkTile.astro';
 import MapToggle from './map/MapToggle.vue';
 import { prepareMapPlatformData } from './map/mapDataUtils';
 import { loadToolNames, loadReferenceNames } from '../../utils/platformDatasets';
+import { renderMarkdownInline } from '../../utils/markdown';
 
 // Get all platforms
-const platforms = await getCollection('platforms');
+const platforms = await getListedCollection('platforms');
 
 // Transform platforms to the format expected by the Vue component
 const platformData = platforms
@@ -17,6 +19,7 @@ const platformData = platforms
     url: p.data.url,
     scope: p.data.scope,
     summary: p.data.summary,
+    summaryHtml: renderMarkdownInline(p.data.summary),
     platforms: p.data.platforms,
     image: p.data.image,
   }))
@@ -47,24 +50,27 @@ for (const p of platforms) {
 <BaseLayout title="Use Galaxy" description="Find a Galaxy server to analyze your data">
   <div class="max-w-7xl mx-auto">
     <!-- Hero Section -->
-    <header class="text-center py-12 mb-8">
-      <h1 class="text-4xl font-bold text-galaxy-dark mb-4">Use Galaxy</h1>
-      <p class="text-xl text-chicago-600 max-w-2xl mx-auto">
+    <header class="mb-10 pt-2">
+      <h1 class="text-h1 font-bold tracking-tight text-fg-strong">Use Galaxy</h1>
+      <p class="mt-2 text-lead text-fg-2">
         Galaxy is available in many forms. Find the right server for your research from {platforms.length}+ options
         worldwide.
       </p>
+      <div class="mt-6 border-t border-line" aria-hidden="true">
+        <span class="-mt-px block h-0.5 w-12 bg-accent-gold"></span>
+      </div>
     </header>
 
     <!-- Main UseGalaxy Servers -->
     <section class="mb-12">
-      <h2 class="text-2xl font-semibold text-galaxy-dark mb-6">Main UseGalaxy Servers</h2>
-      <p class="text-chicago-600 mb-6">
+      <h2 class="mb-[1rem] border-b border-line pb-2 text-h2 font-bold text-fg-strong">Main UseGalaxy Servers</h2>
+      <p class="mb-6 text-fg-2">
         The main public Galaxy servers are free for everyone. Start here for general-purpose genomic analysis.
       </p>
 
       <!-- UseGalaxy.* -->
       <div class="bg-white rounded-lg shadow-sm border border-ebony-clay-100 p-6 mb-8">
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6">
           <a
             href="https://usegalaxy.org"
             target="_blank"
@@ -222,8 +228,8 @@ for (const p of platforms) {
 
     <!-- All Servers Directory -->
     <section>
-      <h2 class="text-2xl font-semibold text-galaxy-dark mb-6">All Galaxy Servers</h2>
-      <p class="text-chicago-600 mb-8">
+      <h2 class="mb-[1rem] border-b border-line pb-2 text-h2 font-bold text-fg-strong">All Galaxy Servers</h2>
+      <p class="mb-6 text-fg-2">
         Beyond the main UseGalaxy servers, there are hundreds of specialized Galaxy instances for specific domains,
         geographic regions, and research areas. Use the filters below to find the right one for your needs.
       </p>
@@ -237,30 +243,30 @@ for (const p of platforms) {
     </section>
 
     <!-- Additional Resources -->
-    <section class="mt-16 py-12 bg-ebony-clay-50 -mx-4 px-4 rounded-lg">
-      <div class="max-w-4xl mx-auto text-center">
-        <h2 class="text-2xl font-semibold text-galaxy-dark mb-4">Other Ways to Use Galaxy</h2>
-        <p class="text-chicago-600 mb-8">Can't find what you need? There are more options for running Galaxy.</p>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <a href="/admin/" class="block p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
-            <h3 class="font-semibold text-galaxy-dark mb-2">Run Your Own</h3>
-            <p class="text-sm text-chicago-600">Install and configure Galaxy on your own infrastructure.</p>
-          </a>
-          <a href="/cloud/" class="block p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
-            <h3 class="font-semibold text-galaxy-dark mb-2">Cloud Deployments</h3>
-            <p class="text-sm text-chicago-600">Deploy Galaxy on AWS, GCP, Azure, or other cloud platforms.</p>
-          </a>
-          <a
-            href="https://training.galaxyproject.org/"
-            target="_blank"
-            rel="noopener"
-            class="block p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
-          >
-            <h3 class="font-semibold text-galaxy-dark mb-2">Galaxy Training</h3>
-            <p class="text-sm text-chicago-600">Learn how to use Galaxy with our extensive tutorial library.</p>
-          </a>
-        </div>
-      </div>
+    <section class="mt-12">
+      <h2 class="mb-[1rem] border-b border-line pb-2 text-h2 font-bold text-fg-strong">Other Ways to Use Galaxy</h2>
+      <p class="mb-6 text-fg-2">Can't find what you need? There are more options for running Galaxy.</p>
+      <ul class="m-0 grid list-none grid-cols-[repeat(auto-fit,minmax(min(100%,16rem),1fr))] gap-4 p-0">
+        <LinkTile
+          href="/admin/"
+          icon="server"
+          title="Run Your Own"
+          description="Install and configure Galaxy on your own infrastructure."
+        />
+        <LinkTile
+          href="/cloud/"
+          icon="globe"
+          title="Cloud Deployments"
+          description="Deploy Galaxy on AWS, GCP, Azure, or other cloud platforms."
+        />
+        <LinkTile
+          href="https://training.galaxyproject.org/"
+          icon="book-open"
+          title="Galaxy Training"
+          description="Learn how to use Galaxy with our extensive tutorial library."
+          external
+        />
+      </ul>
     </section>
   </div>
 </BaseLayout>

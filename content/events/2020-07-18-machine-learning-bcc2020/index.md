@@ -9,7 +9,7 @@ contacts:
 location:
   name: online
 hidefooter: true
-subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, ifb]
 main_subsite: eu
 contributions:
   funding:
@@ -20,7 +20,7 @@ contributions:
 
 **Introduction to Machine Learning using Galaxy at Bioinformatics Community Conference 2020**
 
-**18th July 2020, 15:00-17:30 CEST and 19th July 2020, 09:30-12:00 CEST** 
+**18th July 2020, 15:00-17:30 CEST and 19th July 2020, 09:30-12:00 CEST**
 
 **Questions:**
 

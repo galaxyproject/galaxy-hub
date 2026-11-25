@@ -2,12 +2,15 @@
 import type { GuardianPr, SnapshotKind } from './data';
 import { TONES } from './tones';
 import Icon from '../mdx/Icon.astro';
+import { safeUrl } from '../../utils/url';
 
 interface Props {
   pr: GuardianPr;
   kind?: SnapshotKind;
 }
 const { pr, kind = 'needsValidation' } = Astro.props;
+const prUrl = safeUrl(pr.url);
+const guardianUrl = safeUrl(pr.guardian?.url);
 ---
 
 <div
@@ -28,7 +31,7 @@ const { pr, kind = 'needsValidation' } = Astro.props;
     )}
     <div class="min-w-0 flex-1">
       <div class="font-semibold">
-        <a href={pr.url} target="_blank" rel="noopener noreferrer" class="text-galaxy-dark hover:text-galaxy-primary"
+        <a href={prUrl} target="_blank" rel="noopener noreferrer" class="text-galaxy-dark hover:text-galaxy-primary"
           >#{pr.number} — {pr.title}</a
         >
       </div>
@@ -42,7 +45,7 @@ const { pr, kind = 'needsValidation' } = Astro.props;
       {pr.tease && <div class="text-sm text-chicago-700 mt-2 leading-snug">
         {pr.tease}
         <a
-          href={pr.url}
+          href={prUrl}
           target="_blank"
           rel="noopener noreferrer"
           class="text-galaxy-primary hover:underline whitespace-nowrap"
@@ -55,7 +58,7 @@ const { pr, kind = 'needsValidation' } = Astro.props;
         <span class={`inline-flex items-center gap-1 px-2 py-0.5 text-xs rounded-full border ${TONES[kind].pill}`}>
           <Icon name="shield-check" size={14} />
           <a
-            href={pr.guardian.url}
+            href={guardianUrl}
             target="_blank"
             rel="noopener noreferrer"
             class="font-medium text-inherit! hover:text-inherit! hover:underline"

@@ -4,10 +4,10 @@ date: "2025-04-02"
 tease: "Bring data to Galaxy straight from the lab."
 hide_tease: false
 subsites: [eu, esg]
-tags: [esg, esg-wp2]
+tags: [esg, esg-wp2, interoperability]
 contributions:
   authorship:
-    - kysrpex
+    - domgz
   funding:
     - eu
     - eurosciencegateway

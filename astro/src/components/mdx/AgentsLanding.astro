@@ -60,7 +60,7 @@ const more = [
             </p>
             <div class="agl-path__actions">
               <a class="agl-btn" href="/agents/orbit/">Install Orbit <Fragment set:html={svg(icons.arrow)} /></a>
-              <a class="agl-link" href="https://galaxyproject.github.io/loom/">How Orbit works</a>
+              <a class="agl-link" href="https://galaxyproject.github.io/orbit/">How Orbit works</a>
             </div>
           </div>
         </article>
@@ -276,7 +276,7 @@ const more = [
   .agl .agl-path__meta {
     font-size: 0.875rem;
     line-height: 1.5;
-    color: color-mix(in srgb, var(--agl-grey) 80%, transparent);
+    color: var(--gx-fg-meta);
   }
 
   /* Pushes the actions to the bottom so the two cards' buttons line up. */
@@ -447,6 +447,13 @@ const more = [
       0 2px 4px -2px rgb(0 0 0 / 0.1);
   }
 
+  /* The tile's own shadow would replace the global inner ring. */
+  .agl-tile:focus-visible {
+    box-shadow:
+      0 0 0 2px var(--color-focus-inner),
+      0 1px 2px 0 rgb(0 0 0 / 0.05);
+  }
+
   .agl-tile:hover .agl-tile__bar,
   .agl-tile:focus-visible .agl-tile__bar {
     transform: scaleX(1);
@@ -462,13 +469,6 @@ const more = [
     font-size: 0.95rem;
     line-height: 1.5;
     color: var(--agl-grey);
-  }
-
-  .agl-btn:focus-visible,
-  .agl-link:focus-visible,
-  .agl-tile:focus-visible {
-    outline: 2px solid var(--agl-gold);
-    outline-offset: 3px;
   }
 
   @media (prefers-reduced-motion: reduce) {

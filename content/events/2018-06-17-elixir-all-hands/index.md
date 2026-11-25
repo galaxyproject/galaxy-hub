@@ -6,7 +6,7 @@ tags: [training]
 location:
   city: Lisbon
   country: Portugal
-subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, ifb]
 main_subsite: eu
 contributions:
   funding:

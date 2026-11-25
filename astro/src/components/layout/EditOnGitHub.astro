@@ -1,0 +1,16 @@
+---
+import EditOnGitHubLink from './EditOnGitHubLink.astro';
+
+interface Props {
+  /** GitHub URL of the page source. */
+  href: string;
+  label?: string;
+}
+
+const { href, label } = Astro.props;
+---
+
+<!-- Arbitrary margin: bootstrap-compat's `.mt-*` utilities are !important and would override mt-4. -->
+<div class="mt-[1rem] flex justify-end">
+  <EditOnGitHubLink {href} {label} />
+</div>

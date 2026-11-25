@@ -78,6 +78,20 @@ Behind the scenes, the GTA is a broad collaborative effort. Track leads organize
 
 GTA2026 would not have been possible without that collective effort.
 
+## Feedback from the event
+
+This year's GTA saw **2225 registered participants** from across the globe, with particularly strong representation from India and Egypt. Most participants were either **Graduate students** (31.5 %), **Postgraduate students** (28.6 %), or **Undergraduate students** (17.2 %).
+
+In total 668 certificates were requested, and 402 certificates were issued. The most popular certificate request was for the Introduction to Galaxy, followed by Microbiome, Proteomics, and Variant analysis Tracks.
+
+What participants did say about the GTA2026:
+
+- The training week was a learning experience in various fields of genomics analysis. Microbiome analysis I did first time. It is quite interesting. Other track experiences were also exciting. There are lots to learn in Bioinformatics and GALAXY is a platform which makes it easier. The training week was such opportunity which brings all trainers althought to help learners. I added GALAXY tutorials in my weekly learning priorities so that I can assimilate the content in best way.
+- I plan to learn how to use Galaxy for Microbiome, mostly, but I accidentally got caught into the Digital Humanities track, and I have to admit it is soooo interesting
+- I would like to share my previous experience with GTA2024. That course allowed me to complete my recent publication.
+-  Hello, week's been great so far. I've been going through the Python Zero to Hero course and honestly, it's been super accessible and easy to follow. The way the content is structured makes it really beginner-friendly, even if you're coming from a different background.
+
+
 ## Thank You, GTA2026!
 
 The numbers tell an exciting story: more than 2,200 registrations, 108 countries, and 11 training tracks. But the Galaxy Training Academy is ultimately about the people behind those numbers.

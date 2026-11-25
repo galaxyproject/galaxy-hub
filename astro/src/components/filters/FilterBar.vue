@@ -1,0 +1,177 @@
+<script setup lang="ts">
+import { computed, onUnmounted, ref, useId, watch } from 'vue';
+import { Input } from '@/components/ui/input';
+import { Button } from '@/components/ui/button';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+import YearFilter from './YearFilter.vue';
+import type { FilterOption, YearOption, YearValue } from './types';
+
+const props = withDefaults(
+  defineProps<{
+    /** Accessible name of the whole bar, e.g. "Filter news". */
+    label: string;
+    resultCount: number;
+    /** Plural noun for the result count, e.g. "articles". */
+    resultNoun: string;
+    resultNounSingular: string;
+    /** Extra context for the count line, e.g. "in 2024". */
+    resultContext?: string;
+    years?: YearOption[];
+    /** Opt-in "Unknown year" chip with this count (see YearFilter). */
+    unknownYearCount?: number;
+    yearLabel?: string;
+    searchLabel?: string;
+    searchPlaceholder?: string;
+    tagOptions?: FilterOption[];
+    tagLabel?: string;
+    tagAllLabel?: string;
+    /** Status chips (e.g. upcoming / past) after an "All" chip; left out when empty. */
+    statusOptions?: FilterOption[];
+    statusLabel?: string;
+    statusAllLabel?: string;
+    debounceMs?: number;
+  }>(),
+  {
+    resultContext: '',
+    years: () => [],
+    unknownYearCount: undefined,
+    yearLabel: 'Filter by year',
+    searchLabel: 'Search',
+    searchPlaceholder: '',
+    tagOptions: () => [],
+    tagLabel: 'Tag',
+    tagAllLabel: 'All tags',
+    statusOptions: () => [],
+    statusLabel: 'Status',
+    statusAllLabel: 'All',
+    debounceMs: 250,
+  }
+);
+
+const q = defineModel<string>('q', { default: '' });
+const year = defineModel<YearValue>('year', { default: null });
+const tag = defineModel<string | null>('tag', { default: null });
+const status = defineModel<string | null>('status', { default: null });
+
+const id = useId();
+const searchId = `filter-${id}-search`;
+const tagLabelId = `filter-${id}-tag`;
+const statusLabelId = `filter-${id}-status`;
+
+// The input updates at once; the model (and with it the URL and the count) follows after a pause
+const draft = ref(q.value);
+let timer: ReturnType<typeof setTimeout> | undefined;
+
+watch(q, (value) => {
+  if (value !== draft.value.trim()) draft.value = value;
+});
+
+watch(draft, (value) => {
+  clearTimeout(timer);
+  timer = setTimeout(() => {
+    q.value = value.trim();
+  }, props.debounceMs);
+});
+
+onUnmounted(() => clearTimeout(timer));
+
+const ALL = '__all__';
+
+// Same chip look as YearFilter, 40px tall to line up with the search input and the tag select
+const chipBase = 'inline-flex h-10 items-center rounded-md px-3 text-sm font-medium transition-colors';
+const chipOn = 'bg-galaxy-primary text-white';
+const chipOff = 'bg-ebony-clay-50 text-chicago-700 hover:bg-ebony-clay-100';
+const tagValue = computed(() => tag.value ?? ALL);
+
+function onTagChange(value: unknown) {
+  tag.value = typeof value === 'string' && value !== ALL ? value : null;
+}
+
+const hasFilters = computed(() => q.value !== '' || year.value !== null || tag.value !== null || status.value !== null);
+
+function clearAll() {
+  clearTimeout(timer);
+  draft.value = '';
+  q.value = '';
+  year.value = null;
+  tag.value = null;
+  status.value = null;
+  // The button disappears once nothing is filtered; keep focus in the bar
+  document.getElementById(searchId)?.focus();
+}
+
+const countText = computed(() => {
+  const noun = props.resultCount === 1 ? props.resultNounSingular : props.resultNoun;
+  return [`${props.resultCount} ${noun}`, props.resultContext].filter(Boolean).join(' ');
+});
+</script>
+
+<template>
+  <div role="group" :aria-label="label" class="filter-bar mb-6 space-y-4">
+    <YearFilter
+      v-if="years.length > 0"
+      v-model="year"
+      :years="years"
+      :unknown-count="unknownYearCount"
+      :label="yearLabel"
+    />
+
+    <!-- Wraps when tight: the search keeps at least 12rem and later controls move to the next line -->
+    <div class="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-end">
+      <div class="min-w-0 flex-1 sm:min-w-48">
+        <label :for="searchId" class="mb-1 block text-sm font-medium text-chicago-700">{{ searchLabel }}</label>
+        <Input
+          :id="searchId"
+          v-model="draft"
+          type="search"
+          :placeholder="searchPlaceholder"
+          autocomplete="off"
+          class="h-10 border-chicago-400"
+        />
+      </div>
+
+      <div v-if="tagOptions.length > 0" class="min-w-0 sm:w-56">
+        <span :id="tagLabelId" class="mb-1 block text-sm font-medium text-chicago-700">{{ tagLabel }}</span>
+        <Select :model-value="tagValue" @update:model-value="onTagChange">
+          <SelectTrigger :aria-labelledby="tagLabelId" class="h-10 w-full border-chicago-400 data-[size=default]:h-10">
+            <SelectValue :placeholder="tagAllLabel" />
+          </SelectTrigger>
+          <SelectContent class="max-h-72">
+            <SelectItem :value="ALL">{{ tagAllLabel }}</SelectItem>
+            <SelectItem v-for="option in tagOptions" :key="option.value" :value="option.value">
+              {{ option.label }}<template v-if="option.count !== undefined"> ({{ option.count }})</template>
+            </SelectItem>
+          </SelectContent>
+        </Select>
+      </div>
+
+      <div v-if="statusOptions.length > 0" class="shrink-0">
+        <span :id="statusLabelId" class="mb-1 block text-sm font-medium text-chicago-700">{{ statusLabel }}</span>
+        <div role="group" :aria-labelledby="statusLabelId" class="flex flex-wrap gap-2" data-status-filter>
+          <button
+            v-for="option in [{ value: null, label: statusAllLabel }, ...statusOptions]"
+            :key="option.value ?? ALL"
+            type="button"
+            :aria-pressed="status === option.value"
+            :class="[chipBase, status === option.value ? chipOn : chipOff]"
+            @click="status = option.value"
+          >
+            {{ option.label }}
+          </button>
+        </div>
+      </div>
+
+      <Button v-if="hasFilters" type="button" variant="outline" class="h-10 shrink-0" @click="clearAll">
+        Clear filters
+      </Button>
+    </div>
+
+    <!-- Count left, optional list actions (e.g. the view toggle) right -->
+    <div class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2">
+      <p class="text-sm text-chicago-600" aria-live="polite" aria-atomic="true" data-filter-count>
+        {{ countText }}
+      </p>
+      <slot name="actions" />
+    </div>
+  </div>
+</template>

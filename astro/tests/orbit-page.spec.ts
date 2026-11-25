@@ -17,7 +17,7 @@ test.describe('Orbit page', () => {
     await expect(page.locator('.page-header')).toHaveCount(0);
 
     const ctas = page.locator('.orh__cta a');
-    await expect(ctas.first()).toHaveAttribute('href', 'https://github.com/galaxyproject/loom/releases/latest');
+    await expect(ctas.first()).toHaveAttribute('href', 'https://github.com/galaxyproject/orbit/releases/latest');
     await expect(ctas.nth(1)).toHaveAttribute('href', '#installation');
   });
 

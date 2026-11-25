@@ -1,7 +1,8 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHeader from '../../components/layout/PageHeader.astro';
-import { getCollection, type CollectionEntry } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+import { getListedCollection } from '../../utils/content';
 import { extractAuthors, extractFunding } from '../../utils/contributors';
 import { addDirectoryContributor, type DirectoryContributor } from '../../utils/hallOfFameDirectory';
 
@@ -15,7 +16,7 @@ function normalizeEntry(entry: NewsEntry | EventEntry): { authors: string[]; sup
   return { authors, supporters };
 }
 
-const [newsArticles, events] = await Promise.all([getCollection('news'), getCollection('events')]);
+const [newsArticles, events] = await Promise.all([getListedCollection('news'), getListedCollection('events')]);
 
 const authorMap = new Map<string, DirectoryContributor>();
 const supporterMap = new Map<string, DirectoryContributor>();
@@ -76,7 +77,7 @@ const supporterGroups = groupContributors(supporters);
     </PageHeader>
 
     <nav
-      class="bg-white border-b border-ebony-clay-100 px-8 py-3 sticky top-0 z-20 shadow-sm"
+      class="bg-white border-b border-ebony-clay-100 px-8 py-3 sticky top-22 lg:top-0 z-20 shadow-sm"
       aria-label="Hall of Fame sections"
     >
       <div class="flex flex-wrap gap-2">
@@ -96,7 +97,7 @@ const supporterGroups = groupContributors(supporters);
     </nav>
 
     <div class="bg-white px-8 py-6 rounded-b-lg shadow-sm space-y-12">
-      <section id="authors" class="scroll-mt-24">
+      <section id="authors" class="scroll-mt-40 lg:scroll-mt-24">
         <div class="flex items-center gap-4 mb-4">
           <h2 class="text-2xl font-semibold text-galaxy-dark">Authors</h2>
           <span class="text-sm text-chicago-500">{totalAuthors} contributors</span>
@@ -118,8 +119,8 @@ const supporterGroups = groupContributors(supporters);
               class={idx > 0 ? 'mt-6 pt-6 border-t border-ebony-clay-50' : ''}
             >
               <div class="flex items-center gap-4 mb-3">
-                <span class="text-3xl font-bold text-galaxy-primary/60">{letter}</span>
-                <span class="text-xs text-chicago-400">{authorGroups.groups[letter].length} names</span>
+                <span class="text-3xl font-bold text-fg-letter">{letter}</span>
+                <span class="text-xs text-fg-meta">{authorGroups.groups[letter].length} names</span>
               </div>
               <div class="flex flex-wrap gap-2">
                 {authorGroups.groups[letter].map((item) => <a
@@ -146,7 +147,7 @@ const supporterGroups = groupContributors(supporters);
         )}
       </section>
 
-      <section id="supporters" class="scroll-mt-24">
+      <section id="supporters" class="scroll-mt-40 lg:scroll-mt-24">
         <div class="flex items-center gap-4 mb-4">
           <h2 class="text-2xl font-semibold text-galaxy-dark">Supporters</h2>
           <span class="text-sm text-chicago-500">{totalSupporters} contributors</span>
@@ -168,8 +169,8 @@ const supporterGroups = groupContributors(supporters);
               class={idx > 0 ? 'mt-6 pt-6 border-t border-ebony-clay-50' : ''}
             >
               <div class="flex items-center gap-4 mb-3">
-                <span class="text-3xl font-bold text-galaxy-primary/60">{letter}</span>
-                <span class="text-xs text-chicago-400">{supporterGroups.groups[letter].length} names</span>
+                <span class="text-3xl font-bold text-fg-letter">{letter}</span>
+                <span class="text-xs text-fg-meta">{supporterGroups.groups[letter].length} names</span>
               </div>
               <div class="flex flex-wrap gap-2">
                 {supporterGroups.groups[letter].map((item) => <a

@@ -46,7 +46,7 @@ Whole analyses, in plain language. Each of these runs as a single session:
 
 ## Installation
 
-Every build is on the [Releases page](https://github.com/galaxyproject/loom/releases). Pick the file for your computer:
+Every build is on the [Releases page](https://github.com/galaxyproject/orbit/releases). Pick the file for your computer:
 
 | Your system | File | Notes |
 |---|---|---|
@@ -98,7 +98,7 @@ Or extract `Orbit-linux-x64-<version>.zip` anywhere and run `orbit` from it.
 
 ### Windows
 
-1. Download `Orbit-win32-x64-<version>.zip` from the [Releases page](https://github.com/galaxyproject/loom/releases).
+1. Download `Orbit-win32-x64-<version>.zip` from the [Releases page](https://github.com/galaxyproject/orbit/releases).
 2. Extract it anywhere you can write to.
 3. Run **Orbit.exe**. The build is unsigned, so the first time Windows will probably show a SmartScreen warning: choose **More info**, then **Run anyway**.
 
@@ -158,6 +158,8 @@ If you already pay for ChatGPT Plus or Pro, you can [sign in with that subscript
 ### Get a Galaxy API key
 
 This is what lets Orbit run steps on Galaxy. Log in to your Galaxy server (for example [usegalaxy.org](https://usegalaxy.org)), open **User › Preferences › Manage API Key**, and copy your key or create one.
+
+Want Orbit to write and run custom containerized tools when no installed Galaxy tool fits? On **UseGalaxy.org**, [request User-Defined Tools beta access](https://udt-signup.galaxyproject.org/) — everything else works right away while your request is reviewed.
 
 </li>
 <li>
@@ -431,16 +433,16 @@ That's a temporary rate limit, not a billing problem or a bad key, and it clears
 ## Getting help
 
 - **Bugs:** the **Feedback** button in Orbit, or `/feedback` in the CLI, sends your report (with optional diagnostics) straight to the team. If you're a beta tester, this is the main channel, and we're counting on a few reports a week.
-- **Questions, discussion and feature requests:** the [Orbit category on the Galaxy Help forum](https://help.galaxyproject.org/c/orbit-support/16).
-- **Detailed bug or crash reports:** the [GitHub issue tracker](https://github.com/galaxyproject/loom/issues).
+- **Questions, discussion and feature requests:** [GitHub Discussions (`Agents & UDTs`)](https://github.com/galaxyproject/galaxy/discussions/categories/agents-udts) or the [Orbit category on the Galaxy Help forum](https://help.galaxyproject.org/c/orbit-support/16).
+- **Detailed bug or crash reports:** the [GitHub issue tracker](https://github.com/galaxyproject/orbit/issues).
 
 ## Related resources
 
-- [galaxyproject/loom](https://github.com/galaxyproject/loom): Orbit's source code, releases and issue tracker
-- [How Orbit and Loom work](https://galaxyproject.github.io/loom/): the project site
+- [galaxyproject/orbit](https://github.com/galaxyproject/orbit): Orbit's source code, releases and issue tracker
+- [How Orbit works](https://galaxyproject.github.io/orbit/): the project site
 - [galaxy-mcp](https://github.com/galaxyproject/galaxy-mcp): the MCP server for the Galaxy API
 - [galaxy-skills](https://github.com/galaxyproject/galaxy-skills): the curated Galaxy skills
 - [Galaxy Training Network](https://training.galaxyproject.org): tutorials for Galaxy analyses
-- [Plugins for your own coding agent](/agents/plugins/): Galaxy in Claude Code, Codex, Antigravity or Pi instead
+- [Use Galaxy from your own coding agent](/agents/): Galaxy in Claude Code, Codex, Antigravity, Claude Desktop, Pi, or Cursor instead
 
 </div>

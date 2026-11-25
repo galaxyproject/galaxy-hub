@@ -3,6 +3,7 @@ import fs from 'fs';
 import os from 'os';
 import path from 'path';
 import matter from 'gray-matter';
+import { compile } from '@mdx-js/mdx';
 import {
   addBootstrapMarker,
   deriveNewsNaturalSlug,
@@ -255,6 +256,101 @@ describe('inlineInserts', () => {
     const { content: result } = inlineInserts(content);
     expect(result).toBe(content);
   });
+
+  describe('insert frontmatter links', () => {
+    let dir;
+
+    beforeEach(() => {
+      dir = fs.mkdtempSync(path.join(os.tmpdir(), 'inserts-'));
+      fs.mkdirSync(path.join(dir, 'site'));
+    });
+
+    afterEach(() => {
+      fs.rmSync(dir, { recursive: true, force: true });
+    });
+
+    it('appends the links after the body as centred Markdown links', () => {
+      fs.writeFileSync(
+        path.join(dir, 'site', 'site-footer.md'),
+        [
+          '---',
+          'links:',
+          '  - href: https://example.org/team',
+          '    icon: github',
+          '    label: Team [beta]',
+          '  - href: /eu/feed.atom',
+          '    icon: rss',
+          '    label: UseGalaxy.eu feed',
+          '---',
+          '',
+          'Funded by someone.',
+          '',
+        ].join('\n')
+      );
+      const { content: result, hasComponents } = inlineInserts('<slot name="/site/site-footer" />', 0, dir);
+      expect(result).toContain('Funded by someone.');
+      expect(result).toContain('<div class="text-center">');
+      expect(result).toContain('<Icon name="github" size={16} /> [Team');
+      expect(result).toContain('<Icon name="rss" size={16} /> [UseGalaxy.eu feed]');
+      expect(hasComponents).toBe(true);
+      expect(result).toContain('[Team \\[beta\\]](<https://example.org/team>)');
+      expect(result).toContain('[UseGalaxy.eu feed](</eu/feed.atom>)');
+      expect(result.indexOf('Funded by someone.')).toBeLessThan(result.indexOf('[UseGalaxy.eu feed]'));
+    });
+
+    it('escapes MDX and Markdown syntax in a label and href so the output still compiles', async () => {
+      fs.writeFileSync(
+        path.join(dir, 'site', 'nasty.md'),
+        [
+          '---',
+          'links:',
+          "  - href: 'https://example.org/a b)c<d>{e}'",
+          '    icon: github',
+          "    label: 'Edit {x} <b> [y] \\ z'",
+          '---',
+          '',
+          'Body.',
+          '',
+        ].join('\n')
+      );
+      const { content: result } = inlineInserts('<slot name="/site/nasty" />', 0, dir);
+      expect(result).toContain('[Edit \\{x\\} \\<b\\> \\[y\\] \\\\ z](<https://example.org/a%20b)c%3Cd%3E%7Be%7D>)');
+      const compiled = String(await compile(result));
+      expect(compiled).toContain('https://example.org/a%20b)c%3Cd%3E%7Be%7D');
+      expect(compiled).toContain('Edit {x} <b> [y] \\\\ z');
+    });
+
+    it('leaves an insert without links as its plain body', () => {
+      fs.writeFileSync(path.join(dir, 'site', 'plain.md'), 'Just text.\n');
+      const { content: result, hasComponents } = inlineInserts('<slot name="/site/plain" />', 0, dir);
+      expect(result).toContain('Just text.');
+      expect(result).not.toContain('text-center');
+      expect(hasComponents).toBe(false);
+    });
+
+    it('skips the icon for a link without a usable icon name', () => {
+      fs.writeFileSync(
+        path.join(dir, 'site', 'noicon.md'),
+        [
+          '---',
+          'links:',
+          '  - href: /a',
+          '    label: Plain',
+          '  - href: /b',
+          "    icon: 'x\"y'",
+          '    label: Odd',
+          '---',
+          '',
+          'Body.',
+          '',
+        ].join('\n')
+      );
+      const { content: result, hasComponents } = inlineInserts('<slot name="/site/noicon" />', 0, dir);
+      expect(result).not.toContain('<Icon');
+      expect(result).toContain('[Plain](</a>)');
+      expect(hasComponents).toBe(false);
+    });
+  });
 });
 
 describe('shiftHeadings', () => {
@@ -434,6 +530,37 @@ describe('processMarkdownFile publish date', () => {
 
   it('keeps news with an unparseable date so schema validation still rejects it', async () => {
     const filePath = writeFixture('news/2026/2026-13-02-typo/index.md', '2026-13-02');
+    expect((await processFixture(filePath)).collection).toBe('news');
+    expect(isWritten(filePath)).toBe(true);
+  });
+
+  it.each([
+    ['news', 'news/2020/2020-01-01-draft/index.md'],
+    ['events', 'events/2020-01-01-draft/index.md'],
+    ['articles', 'draft-page/index.md'],
+  ])('builds %s marked draft: true and keeps the flag for listings to read', async (collection, relPath) => {
+    const filePath = path.join(contentDir, relPath);
+    fs.mkdirSync(path.dirname(filePath), { recursive: true });
+    fs.writeFileSync(filePath, `---\ntitle: Fixture\ndate: '2020-01-01'\ndraft: true\n---\nBody\n`);
+    expect((await processFixture(filePath)).collection).toBe(collection);
+    const written = destPathsForMarkdown(filePath, contentDir, outputDir).filter((dest) => fs.existsSync(dest));
+    expect(written).toHaveLength(1);
+    expect(matter(fs.readFileSync(written[0], 'utf-8')).data.draft).toBe(true);
+  });
+
+  it('keeps inserts marked draft: true so <slot> and <Insert> still resolve', async () => {
+    const filePath = path.join(contentDir, 'some/page/draft_insert.md');
+    fs.mkdirSync(path.dirname(filePath), { recursive: true });
+    fs.writeFileSync(filePath, `---\ndraft: true\n---\nInsert body\n`);
+    expect((await processFixture(filePath)).collection).toBe('inserts');
+    expect(isWritten(filePath)).toBe(true);
+    expect(resolveInsertContent('/some/page/draft_insert', 0, contentDir).content).toContain('Insert body');
+  });
+
+  it('keeps news marked draft: false', async () => {
+    const filePath = path.join(contentDir, 'news/2020/2020-01-01-ready/index.md');
+    fs.mkdirSync(path.dirname(filePath), { recursive: true });
+    fs.writeFileSync(filePath, `---\ntitle: Fixture\ndate: '2020-01-01'\ndraft: false\n---\nBody\n`);
     expect((await processFixture(filePath)).collection).toBe('news');
     expect(isWritten(filePath)).toBe(true);
   });

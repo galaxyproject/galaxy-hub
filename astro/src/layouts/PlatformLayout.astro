@@ -6,6 +6,7 @@
  */
 import BaseLayout from './BaseLayout.astro';
 import Icon from '../components/ui/Icon.astro';
+import EditOnGitHubLink from '../components/layout/EditOnGitHubLink.astro';
 import { renderMarkdownInline } from '../utils/markdown';
 
 interface PlatformInstance {
@@ -31,6 +32,8 @@ interface Props {
   sponsors?: string[];
   tags?: string[];
   sourceFile?: string;
+  /** Ask search engines not to index the page (drafts). */
+  noindex?: boolean;
 }
 
 const {
@@ -48,6 +51,7 @@ const {
   sponsors = [],
   tags = [],
   sourceFile,
+  noindex = false,
 } = Astro.props;
 
 const editUrl = sourceFile ? `https://github.com/galaxyproject/galaxy-hub/edit/main/content/${sourceFile}` : undefined;
@@ -79,7 +83,7 @@ const sections = [
 ].filter((s) => s.items && s.items.length > 0);
 ---
 
-<BaseLayout title={title || 'Galaxy Server'} description={summary}>
+<BaseLayout title={title || 'Galaxy Server'} description={summary} noindex={noindex}>
   <article class="max-w-4xl mx-auto">
     <!-- Back Link -->
     <a href="/use/" class="inline-flex items-center gap-1 text-galaxy-primary hover:underline mb-6">
@@ -93,7 +97,7 @@ const sections = [
     <header class="mb-8">
       <div class="flex flex-col md:flex-row gap-6">
         <div class="flex-1">
-          <h1 class="text-3xl sm:text-4xl font-bold text-chicago-900 mb-4">{title}</h1>
+          <h1 class="text-h1 font-bold text-chicago-900 mb-4">{title}</h1>
 
           {url && <a
             href={url}
@@ -161,7 +165,7 @@ const sections = [
               ) : (
                 <span>{instance.platform_text}</span>
               )}
-              {instance.platform_location && <span class="text-chicago-500 ml-2">({instance.platform_location})</span>}
+              {instance.platform_location && <span class="text-fg-meta ml-2">({instance.platform_location})</span>}
             </td>
           </tr>)}
           {scope && <tr class="bg-ebony-clay-50 even:bg-white">
@@ -184,7 +188,7 @@ const sections = [
     </div>}
 
     <!-- Platform Content -->
-    <div class="prose prose-lg prose-galaxy max-w-none mb-8">
+    <div class="prose prose-compact prose-galaxy prose-measure prose-measure-text-only max-w-none mb-8">
       <slot />
     </div>
 
@@ -224,15 +228,7 @@ const sections = [
           Back to Galaxy Servers
         </a>
         <div class="flex items-center gap-4">
-          {editUrl && <a
-            href={editUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="text-chicago-500 hover:text-galaxy-primary flex items-center gap-1.5 transition-colors"
-          >
-            <Icon name="edit" />
-            Edit on GitHub
-          </a>}
+          {editUrl && <EditOnGitHubLink href={editUrl} />}
           {url && <a
             href={url}
             target="_blank"
@@ -247,22 +243,3 @@ const sections = [
     </footer>
   </article>
 </BaseLayout>
-
-<style>
-  .prose-galaxy {
-    --tw-prose-links: #25537b;
-    --tw-prose-headings: #2c3143;
-  }
-
-  .prose-galaxy :where(a):not(:where([class~='not-prose'] *)) {
-    color: var(--tw-prose-links);
-    text-decoration: underline;
-    text-decoration-color: color-mix(in srgb, var(--tw-prose-links) 40%, transparent);
-    text-underline-offset: 2px;
-  }
-
-  .prose-galaxy :where(a):not(:where([class~='not-prose'] *)):hover {
-    text-decoration: underline;
-    text-decoration-color: currentColor;
-  }
-</style>

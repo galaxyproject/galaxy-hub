@@ -929,6 +929,11 @@ dennypopp:
     github: false
     joined: 2026-01
 
+detocjerome:
+    gtn-halloffame: "no"
+    name: "Jérôme Detoc"
+    joined: 2026-10
+
 diegodepanis:
     gtn-halloffame: "no"
     name: Diego De Panis
@@ -1113,10 +1118,14 @@ kevinvanneste:
     joined: 2026-01
 
 kgerb:
-    gtn-halloffame: "no"
     name: Kilian Gerberding
     joined: 2026-06
     email: kilian.gerberding@geosense.uni-freiburg.de
+    orcid: 0009-0002-5001-2571
+    linkedin: kilian-gerberding
+    bio: Researcher at the Chair of Sensor-based Geoinformatics (geosense), University of Freiburg, working on [3Dtrees.earth](https://3dtrees.earth). Profile on [ResearchGate](https://www.researchgate.net/profile/Kilian-Gerberding).
+    affiliations:
+        - uni-freiburg
 
 khaivandangusf2210:
     name: Khai Van Dang
@@ -2585,7 +2594,7 @@ kxk302:
     email: kxk302@gmail.com
     joined: 2021-02
 
-kysrpex:
+domgz:
     name: José Manuel Domínguez
     joined: 2023-10
     elixir_node: de
@@ -4249,6 +4258,12 @@ vdda:
     name: Victoria Dominguez del Angel
     joined: 2017-09
 
+vebaev:
+    name: Vesselin Baev
+    email: baev@uni-plovdiv.bg
+    orcid: 0000-0002-5224-9145
+    joined: 2026-10
+
 VerenaMoo:
     name: Verena Moosmann
     joined: 2024-12
@@ -4690,3 +4705,11 @@ fsouard:
 RJMW:
     name: Ralf Weber
     joined: 2026-09
+    
+gsaudade99:
+    name: Gabriel Saudade
+    matrix: 'gsaudade:matrix.org'
+    email: saudade@informatik.uni-freiburg.de
+    joined: 2026-11
+    affiliations:
+      - uni-freiburg

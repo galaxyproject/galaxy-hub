@@ -4,7 +4,7 @@ date: '2022-06-07'
 tease: Dr.
 hide_tease: true
 tags: [training, tiaas]
-subsites: [pasteur, freiburg, elixir-it, belgium, genouest]
+subsites: [pasteur, freiburg, elixir-it, belgium, ifb]
 contributions:
   authorship:
     - stefaniedukowicschulze

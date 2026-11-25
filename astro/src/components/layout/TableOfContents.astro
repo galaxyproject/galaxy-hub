@@ -9,9 +9,13 @@ interface Props {
   headings: Heading[];
   minDepth?: number;
   maxDepth?: number;
+  /** Show the "On this page" title (off where a summary already names the block). */
+  showTitle?: boolean;
+  /** Add a "Back to top" link after the list (the desktop rail). */
+  backToTop?: boolean;
 }
 
-const { headings, minDepth = 2, maxDepth = 4 } = Astro.props;
+const { headings, minDepth = 2, maxDepth = 4, showTitle = true, backToTop = false } = Astro.props;
 
 // Filter headings by depth and ensure we have at least 2
 const filteredHeadings = headings.filter((h) => h.depth >= minDepth && h.depth <= maxDepth);
@@ -21,76 +25,104 @@ const shouldRender = filteredHeadings.length >= 2;
 ---
 
 {shouldRender && <nav class="toc" aria-label="On this page">
-  <h2 class="toc-title">On this page</h2>
+  {showTitle && <h2 class="toc-title">On this page</h2>}
   <ul class="toc-list">
     {filteredHeadings.map((heading) => <li class={`toc-item toc-depth-${heading.depth}`}>
-      <a href={`#${heading.slug}`} class="toc-link">
-        {heading.text}
-      </a>
+      <a href={`#${heading.slug}`} class="toc-link">{heading.text}</a>
     </li>)}
   </ul>
+  {backToTop && <a href="#main-content" class="toc-top">
+    <svg class="toc-top-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path d="M12 19V5M5 12l7-7 7 7" />
+    </svg>
+    Back to top
+  </a>}
 </nav>}
+
+<script>
+  import { initTocSpy } from '../../utils/tocSpy';
+
+  let teardown: (() => void) | null = null;
+  document.addEventListener('astro:page-load', () => {
+    teardown?.();
+    teardown = initTocSpy();
+  });
+  document.addEventListener('astro:before-swap', () => {
+    teardown?.();
+    teardown = null;
+  });
+</script>
 
 <style>
   .toc {
-    font-size: 0.875rem;
+    font-size: var(--gx-text-meta);
+    line-height: 1.25rem;
   }
 
   .toc-title {
-    font-size: 0.75rem;
-    font-weight: 600;
+    font-size: var(--gx-text-micro);
+    line-height: 1rem;
+    font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: #6b7280;
-    margin-bottom: 0.75rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 1px solid #e5e7eb;
+    letter-spacing: 0.06em;
+    color: var(--gx-fg-meta);
+    margin: 0 0 0.5rem;
   }
 
   .toc-list {
     list-style: none;
     padding: 0;
     margin: 0;
-  }
-
-  .toc-item {
-    margin-bottom: 0.25rem;
-  }
-
-  .toc-depth-2 {
-    padding-left: 0;
-  }
-
-  .toc-depth-3 {
-    padding-left: 0.75rem;
-  }
-
-  .toc-depth-4 {
-    padding-left: 1.5rem;
+    border-left: 1px solid var(--gx-line);
   }
 
   .toc-link {
     display: block;
-    padding: 0.25rem 0;
-    color: #4b5563;
+    margin-left: -1px;
+    padding: 5px 8px 5px 12px;
+    border-left: 2px solid transparent;
+    color: var(--gx-fg-meta);
     text-decoration: none;
-    line-height: 1.4;
-    transition:
-      color 0.15s ease-in-out,
-      padding-left 0.15s ease-in-out;
   }
 
-  .toc-link:hover {
-    color: #25537b;
-    padding-left: 0.25rem;
+  .toc-depth-3 .toc-link {
+    padding-left: 24px;
   }
 
-  /* Active state for JS-enhanced TOC highlighting (optional future enhancement) */
-  .toc-link.active {
-    color: #25537b;
-    font-weight: 500;
-    border-left: 2px solid #ffd700;
-    padding-left: 0.5rem;
-    margin-left: -0.5rem;
+  .toc-depth-4 .toc-link {
+    padding-left: 36px;
+  }
+
+  .toc-link:hover,
+  .toc-top:hover {
+    color: var(--gx-link-hover);
+    text-decoration: underline;
+  }
+
+  .toc-link[aria-current] {
+    color: var(--gx-fg-strong);
+    font-weight: 700;
+    border-left-color: var(--gx-brand);
+    background: linear-gradient(90deg, var(--gx-surface-tint), transparent);
+  }
+
+  .toc-top {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 12px;
+    padding: 4px 0;
+    color: var(--gx-fg-meta);
+    text-decoration: none;
+  }
+
+  .toc-top-icon {
+    width: 14px;
+    height: 14px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
   }
 </style>

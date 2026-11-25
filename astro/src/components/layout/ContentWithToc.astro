@@ -6,6 +6,8 @@
  * Use this component to avoid duplicating TOC logic across page templates.
  */
 import TableOfContents from './TableOfContents.astro';
+import MobileToc from './MobileToc.astro';
+import { tocRailClass } from '../../utils/tocRail';
 
 interface Heading {
   depth: number;
@@ -16,36 +18,42 @@ interface Heading {
 interface Props {
   headings?: Heading[];
   autotoc?: boolean;
+  /** Cap running text at the 72ch measure (off for full-bleed pages). */
+  measure?: boolean;
 }
 
-const { headings = [], autotoc = false } = Astro.props;
+const { headings = [], autotoc = false, measure = true } = Astro.props;
 
 // Determine if TOC should be shown (autotoc enabled and enough headings)
 const filteredHeadings = headings.filter((h) => h.depth >= 2 && h.depth <= 4);
 const showToc = autotoc && filteredHeadings.length >= 2;
+
+// Reading grid (DESIGN.md §5): from xl a text column of up to 80ch with the 224px rail 48px beside it.
+const gridClass =
+  'xl:grid xl:[--measure:var(--measure-rail)] xl:grid-cols-[minmax(0,var(--measure))_14rem] xl:justify-start xl:gap-x-12';
+const mobileTocClass = 'toc-mobile xl:hidden mx-6 sm:mx-8 mt-6 border border-ebony-clay-100 rounded-lg';
+// Without a rail only text-only pages keep the measure, centred so no empty strip opens on
+// the right; pages with tile grids, tables or embeds keep full-width text.
+const proseClass = [
+  'prose prose-compact prose-galaxy max-w-none min-w-0',
+  measure && 'prose-measure',
+  measure && !showToc && 'prose-measure-text-only prose-measure-centred',
+];
 ---
 
-{/* Mobile TOC: collapsible details element */}
-{showToc && <details class="toc-mobile lg:hidden mx-6 sm:mx-8 mt-6 border border-ebony-clay-100 rounded-lg">
-  <summary class="px-4 py-3 cursor-pointer font-medium text-galaxy-primary hover:bg-ebony-clay-50 rounded-lg">
-    On this page
-  </summary>
-  <div class="px-4 pb-4">
-    <TableOfContents headings={headings} />
-  </div>
-</details>}
+{/* Below xl: collapsible block above the text (its summary names it, so no inner title) */}
+{showToc && <MobileToc headings={headings} class={mobileTocClass} />}
 
-{/* Content with optional TOC sidebar */}
-<div class:list={['content-with-toc px-6 sm:px-8 pt-6', showToc && 'lg:flex lg:gap-8']}>
+<div class:list={['content-with-toc px-6 sm:px-8 pt-6', showToc && gridClass]}>
   {/* Main Content */}
-  <div class:list={['prose prose-lg prose-galaxy max-w-none', showToc && 'lg:flex-1 lg:min-w-0']}>
+  <div class:list={proseClass}>
     <slot />
   </div>
 
-  {/* Desktop TOC Sidebar (right side) */}
-  {showToc && <div class="toc-sidebar hidden lg:block lg:w-56 lg:flex-shrink-0">
-    <div class="sticky top-24">
-      <TableOfContents headings={headings} />
+  {/* From xl: the sticky "On this page" rail; it scrolls itself when taller than the window */}
+  {showToc && <div class="toc-sidebar hidden xl:block">
+    <div class={tocRailClass} data-toc-rail>
+      <TableOfContents headings={headings} backToTop />
     </div>
   </div>}
 </div>

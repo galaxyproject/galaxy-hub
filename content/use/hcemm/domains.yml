@@ -1,0 +1,22 @@
+domains:
+  - platform_url: https://galaxy.hcemm.eu
+    ip: 79.120.228.107
+    version: IPv4
+    asn: AS12301 Invitech ICT Services Kft.
+    org: Hungarian Center for Excellence of Molecular Medicine
+
+    release:
+      version_major: "26.1"
+
+    location:
+      city: Szeged
+      region: Csongrád-Csanád
+      region_code: CS
+      country: HU
+      country_name: Hungary
+      country_code: HU
+      continent_code: EU
+      postal: 6728
+      latitude: 46.2807
+      longitude: 20.1010
+      timezone: Europe/Budapest

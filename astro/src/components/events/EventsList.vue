@@ -1,24 +1,30 @@
 <script setup lang="ts">
-import { ref, computed, onMounted, watch } from 'vue';
+import { ref, computed, onMounted, onUnmounted, watch } from 'vue';
 import { useStore } from '@nanostores/vue';
 import { currentSubsite, subsites, type SubsiteId } from '@/stores/subsiteStore';
-import { renderMarkdownInline } from '@/utils/markdown';
-import { formatDateRange, getUTCYear, isUpcomingEvent, isPastEvent } from '@/utils/dateUtils';
+import { isUpcomingEvent, isPastEvent } from '@/utils/dateUtils';
 import { contentMatchesSubsite } from '@/utils/subsites';
+import { isOnPage, onPopState, parseYearParam, readParams, writeParams } from '@/utils/urlFilters';
+import { countByYear, matchesTerms, queryTerms, yearOf } from '@/utils/listFilters';
+import { LIST_VIEW_DEFAULT, parseListView, type ListView } from '@/utils/listView';
+import { eventSearchText, parseEventStatus, type EventLocation, type EventStatus } from '@/utils/eventFilters';
+import FilterBar from '../filters/FilterBar.vue';
+import ViewToggle from '../filters/ViewToggle.vue';
 import ExternalIcon from '../common/ExternalIcon.vue';
+import EventDate from './EventDate.vue';
+import type { YearValue } from '../filters/types';
 
 interface EventData {
   slug: string;
   title: string;
   date?: string;
   end?: string;
+  /** Raw tease text, searched by the filter bar. */
   tease?: string;
-  location?:
-    | {
-        city?: string;
-        name?: string;
-      }
-    | string;
+  /** Tease rendered to HTML at build time. */
+  teaseHtml?: string;
+  location?: EventLocation;
+  tags?: string[];
   subsites?: string[] | string;
   externalUrl?: string;
 }
@@ -27,12 +33,13 @@ const props = withDefaults(
   defineProps<{
     events: EventData[];
     initialSubsite?: SubsiteId;
+    /** This page's path, for the late-hydration guard (isOnPage). */
+    path: string;
+    /** False on the archive: past events only, no status filter. */
     showUpcoming?: boolean;
-    defaultToAllYears?: boolean;
   }>(),
   {
     showUpcoming: true,
-    defaultToAllYears: false,
   }
 );
 
@@ -41,39 +48,69 @@ const hasMounted = ref(false);
 const effectiveSubsite = computed(() =>
   !hasMounted.value && props.initialSubsite ? props.initialSubsite : $subsite.value
 );
-const isBrowser = typeof window !== 'undefined';
 
-function getYearFromQuery(): number | null {
-  if (!isBrowser) return null;
-  const param = new URLSearchParams(window.location.search).get('year');
-  if (!param) return null;
-  const parsed = Number(param);
-  return Number.isFinite(parsed) ? parsed : null;
-}
+// URL params, in this order: q (title, summary and location text), year (null = all years), tag,
+// status (upcoming | past, null = both), view. "Load more" stays out.
+const FILTER_PARAMS = { q: null, year: null, tag: null, status: null, view: LIST_VIEW_DEFAULT };
 
-// Year-based navigation for past events
-const selectedPastYear = ref<number | null>(getYearFromQuery());
+// Read from the URL after mount: the server render has no query, and hydration must match it
+const searchQuery = ref('');
+const selectedYear = ref<YearValue>(null);
+const selectedTag = ref<string | null>(null);
+const selectedStatus = ref<EventStatus | null>(null);
+const view = ref<ListView>(LIST_VIEW_DEFAULT);
+const isTiles = computed(() => view.value === 'tiles');
+const tilesGrid = 'grid grid-cols-[repeat(auto-fill,minmax(min(100%,16rem),1fr))] gap-4';
 const pageSize = 50;
 const pastDisplayCount = ref(pageSize);
 
+// The archive lists past events only, so it has no status filter
+const statusOptions = computed(() =>
+  props.showUpcoming
+    ? [
+        { value: 'upcoming', label: 'Upcoming' },
+        { value: 'past', label: 'Past' },
+      ]
+    : []
+);
+
+function applyUrlFilters() {
+  const params = readParams(FILTER_PARAMS);
+  searchQuery.value = params.q ?? '';
+  // Events have no "Unknown year" chip, so ?year=unknown means all years
+  const year = parseYearParam(params.year);
+  selectedYear.value = year === 'unknown' ? null : year;
+  selectedTag.value = params.tag;
+  selectedStatus.value = props.showUpcoming ? parseEventStatus(params.status) : null;
+  view.value = parseListView(params.view);
+}
+
+function onStatusChange(value: string | null) {
+  selectedStatus.value = parseEventStatus(value);
+}
+
+let stopPopState = () => {};
+
 // Set initial subsite from URL route if provided
 onMounted(() => {
+  // Mounted after back/forward already left this page: leave the other page's URL and region alone
+  if (!isOnPage(props.path)) return;
   if (props.initialSubsite && props.initialSubsite !== 'global') {
     currentSubsite.set(props.initialSubsite);
   }
+  applyUrlFilters();
   hasMounted.value = true;
+  // Back/forward restores the filters and the layout from the URL
+  stopPopState = onPopState(applyUrlFilters);
 });
+
+onUnmounted(() => stopPopState());
 
 function loadMorePast() {
   pastDisplayCount.value += pageSize;
 }
 
-// Get year from event
-function getYear(event: EventData): number | null {
-  if (!event.date) return null;
-  const date = new Date(event.date);
-  return isNaN(date.getTime()) ? null : getUTCYear(date);
-}
+const getYear = (event: EventData) => yearOf(event.date);
 
 // Filter events based on current subsite
 const filteredEvents = computed(() => {
@@ -97,7 +134,8 @@ function toDate(d: string | undefined): Date | null {
   return new Date(d);
 }
 
-const upcomingEvents = computed(() => {
+const allUpcomingEvents = computed(() => {
+  if (!props.showUpcoming) return [];
   return filteredEvents.value
     .filter((event) => isUpcomingEvent(event.date, event.end, now))
     .sort((a, b) => {
@@ -107,7 +145,7 @@ const upcomingEvents = computed(() => {
     });
 });
 
-// All past events (before year filtering)
+// All past events (before the other filters)
 const allPastEvents = computed(() => {
   return filteredEvents.value
     .filter((event) => isPastEvent(event.date, event.end, now))
@@ -118,69 +156,104 @@ const allPastEvents = computed(() => {
     });
 });
 
-// Available years for past events (sorted descending)
-const availablePastYears = computed(() => {
-  const years = new Set<number>();
-  allPastEvents.value.forEach((event) => {
-    const year = getYear(event);
-    if (year) years.add(year);
+const showUpcomingSection = computed(() => props.showUpcoming && selectedStatus.value !== 'past');
+const showPastSection = computed(() => selectedStatus.value !== 'upcoming');
+
+// Lower-cased title + tease + location, built once per event list
+const searchText = computed(() => {
+  const map = new Map<EventData, string>();
+  props.events.forEach((event) => map.set(event, eventSearchText(event)));
+  return map;
+});
+
+// Every word of the query must appear in the title, tease or location
+const terms = computed(() => queryTerms(searchQuery.value));
+
+function matchesQuery(event: EventData): boolean {
+  return matchesTerms(searchText.value.get(event) ?? '', terms.value);
+}
+
+function matchesTag(event: EventData): boolean {
+  return selectedTag.value === null || (event.tags ?? []).includes(selectedTag.value);
+}
+
+function matchesYear(event: EventData): boolean {
+  return selectedYear.value === null || getYear(event) === selectedYear.value;
+}
+
+// Events the status filter keeps: the shown sections, before text, year and tag
+const statusEvents = computed(() => [
+  ...(showUpcomingSection.value ? allUpcomingEvents.value : []),
+  ...(showPastSection.value ? allPastEvents.value : []),
+]);
+
+// Every year with an upcoming or past event in this subsite, newest first; chip counts follow the
+// text, tag and status filters
+const yearOptions = computed(() => {
+  const shown = new Set(statusEvents.value);
+  return countByYear(
+    [...allUpcomingEvents.value, ...allPastEvents.value],
+    getYear,
+    (event) => shown.has(event) && matchesQuery(event) && matchesTag(event)
+  );
+});
+const availableYears = computed(() => yearOptions.value.map((option) => option.year));
+
+// Every tag in this subsite, A-Z; counts follow the text, year and status filters
+const tagOptions = computed(() => {
+  const all = new Set<string>();
+  const counts = new Map<string, number>();
+  [...allUpcomingEvents.value, ...allPastEvents.value].forEach((event) => {
+    (event.tags ?? []).forEach((tag) => all.add(tag));
   });
-  return Array.from(years).sort((a, b) => b - a);
+  statusEvents.value.forEach((event) => {
+    if (!matchesQuery(event) || !matchesYear(event)) return;
+    (event.tags ?? []).forEach((tag) => counts.set(tag, (counts.get(tag) ?? 0) + 1));
+  });
+  return Array.from(all)
+    .sort((a, b) => a.localeCompare(b))
+    .map((tag) => ({ value: tag, label: tag, count: counts.get(tag) ?? 0 }));
 });
 
-// Split years: show last 5 as buttons, rest in dropdown
-const recentPastYears = computed(() => availablePastYears.value.slice(0, 5));
-const olderPastYears = computed(() => availablePastYears.value.slice(5));
-
-// Set default year to most recent when available years change
-watch(availablePastYears, (years) => {
-  if (years.length === 0) return;
-
-  if (selectedPastYear.value === null) {
-    if (!props.defaultToAllYears) {
-      selectedPastYear.value = years[0];
-    }
-  } else if (!years.includes(selectedPastYear.value)) {
-    selectedPastYear.value = props.defaultToAllYears ? null : years[0];
-  }
+// Drop a year or tag this subsite does not have (a stale or mistyped param), so the bar and the list agree
+watch([selectedYear, availableYears], ([year, years]) => {
+  if (typeof year === 'number' && !years.includes(year)) selectedYear.value = null;
+});
+watch([selectedTag, tagOptions], ([tag, options]) => {
+  if (tag !== null && !options.some((option) => option.value === tag)) selectedTag.value = null;
 });
 
-// Reset pagination when year or subsite changes
-watch([selectedPastYear, effectiveSubsite], () => {
+// Reset pagination when a filter or the subsite changes
+watch([searchQuery, selectedYear, selectedTag, selectedStatus, effectiveSubsite], () => {
   pastDisplayCount.value = pageSize;
 });
 
-// Past events filtered by selected year
-const pastEvents = computed(() => {
-  if (selectedPastYear.value === null) {
-    return allPastEvents.value;
-  }
-  return allPastEvents.value.filter((event) => getYear(event) === selectedPastYear.value);
-});
+const matchesFilters = (event: EventData) => matchesYear(event) && matchesTag(event) && matchesQuery(event);
+const upcomingEvents = computed(() =>
+  showUpcomingSection.value ? allUpcomingEvents.value.filter(matchesFilters) : []
+);
+const pastEvents = computed(() => (showPastSection.value ? allPastEvents.value.filter(matchesFilters) : []));
+const resultCount = computed(() => upcomingEvents.value.length + pastEvents.value.length);
 
-// Count per year for badges
-function countPastForYear(year: number): number {
-  return allPastEvents.value.filter((event) => getYear(event) === year).length;
-}
+const hasFilters = computed(
+  () => searchQuery.value !== '' || selectedYear.value !== null || selectedTag.value !== null
+);
 
-function selectPastYear(year: number | null) {
-  selectedPastYear.value = year;
-}
+const resultNoun = computed(() => (selectedStatus.value ? `${selectedStatus.value} events` : 'events'));
+const resultNounSingular = computed(() => (selectedStatus.value ? `${selectedStatus.value} event` : 'event'));
+const resultContext = computed(() =>
+  [
+    selectedYear.value !== null ? `in ${selectedYear.value}` : '',
+    selectedTag.value !== null ? `tagged “${selectedTag.value}”` : '',
+    searchQuery.value ? `matching “${searchQuery.value}”` : '',
+  ]
+    .filter(Boolean)
+    .join(' ')
+);
 
-function updateUrl(year: number | null) {
-  if (!isBrowser) return;
-  const params = new URLSearchParams(window.location.search);
-  if (year === null) {
-    params.delete('year');
-  } else {
-    params.set('year', String(year));
-  }
-  const newUrl = `${window.location.pathname}${params.toString() ? `?${params.toString()}` : ''}`;
-  window.history.replaceState({}, '', newUrl);
-}
-
-watch(selectedPastYear, (year) => {
-  updateUrl(year);
+// One write for every param keeps them in the documented order
+watch([searchQuery, selectedYear, selectedTag, selectedStatus, view], ([q, year, tag, status, layout]) => {
+  writeParams({ q, year, tag, status, view: layout }, { defaults: { view: LIST_VIEW_DEFAULT } });
 });
 
 function getLocationText(location: EventData['location']): string {
@@ -211,56 +284,95 @@ function displaySubsite(subsite: string): string {
       </p>
     </div>
 
+    <FilterBar
+      v-model:q="searchQuery"
+      v-model:year="selectedYear"
+      v-model:tag="selectedTag"
+      :status="selectedStatus"
+      label="Filter events"
+      :years="yearOptions"
+      year-label="Filter events by year"
+      search-label="Search events"
+      search-placeholder="Search titles, summaries and places"
+      :tag-options="tagOptions"
+      tag-label="Tag"
+      :status-options="statusOptions"
+      status-label="Show"
+      status-all-label="All events"
+      :result-count="resultCount"
+      :result-noun="resultNoun"
+      :result-noun-singular="resultNounSingular"
+      :result-context="resultContext"
+      @update:status="onStatusChange"
+    >
+      <template #actions>
+        <ViewToggle v-model="view" label="Events layout" />
+      </template>
+    </FilterBar>
+
     <!-- Upcoming Events -->
-    <template v-if="props.showUpcoming">
+    <template v-if="showUpcomingSection">
       <section v-if="upcomingEvents.length > 0" class="mb-12">
         <h2 class="text-2xl font-semibold text-chicago-900 mb-6 flex items-center gap-2">
           <span class="inline-block w-3 h-3 bg-green-500 rounded-full"></span>
           Upcoming Events
           <span class="text-sm font-normal text-chicago-500">({{ upcomingEvents.length }})</span>
         </h2>
-        <div class="space-y-6">
+        <div :data-view="view" :class="isTiles ? tilesGrid : 'space-y-6'">
           <article
             v-for="event in upcomingEvents"
             :key="event.slug"
-            class="bg-white border border-ebony-clay-100 rounded-lg p-6 hover:shadow-md transition-shadow"
+            :class="[
+              'bg-white border border-ebony-clay-100 rounded-lg hover:shadow-md transition-shadow',
+              isTiles ? 'p-4' : 'p-6',
+            ]"
           >
-            <a :href="buildUrl(event.slug)" class="block">
-              <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
+            <a :href="buildUrl(event.slug)" :class="isTiles ? 'block h-full' : 'block'">
+              <div :class="['flex flex-col gap-4', { 'sm:flex-row sm:items-start sm:justify-between': !isTiles }]">
                 <div class="flex-1">
-                  <h3 class="text-lg font-semibold text-chicago-900 hover:text-galaxy-primary transition-colors">
+                  <h3
+                    :class="[
+                      'font-semibold text-chicago-900 hover:text-galaxy-primary transition-colors',
+                      isTiles ? 'text-base' : 'text-lg',
+                    ]"
+                  >
                     {{ event.title || 'Untitled Event' }}
                     <ExternalIcon v-if="event.externalUrl" :href="event.externalUrl" />
                   </h3>
-                  <p v-if="event.tease" class="text-chicago-600 mt-1" v-html="renderMarkdownInline(event.tease)"></p>
-                  <p v-if="event.location" class="text-sm text-chicago-500 mt-2 flex items-center gap-1">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                      />
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                      />
-                    </svg>
-                    {{ getLocationText(event.location) }}
+                  <p
+                    v-if="event.date || event.location"
+                    class="text-sm text-chicago-500 mt-1 flex flex-wrap items-center gap-x-3 gap-y-1"
+                  >
+                    <EventDate v-if="event.date" :start="event.date" :end="event.end" />
+                    <span v-if="event.location" class="flex items-center gap-1">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-4 w-4"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                        />
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                        />
+                      </svg>
+                      {{ getLocationText(event.location) }}
+                    </span>
                   </p>
-                </div>
-                <div class="sm:text-right">
-                  <time v-if="event.date" class="text-sm font-medium text-galaxy-primary">
-                    {{ formatDateRange(event.date, event.end) }}
-                  </time>
+                  <p
+                    v-if="event.teaseHtml"
+                    :class="['text-chicago-600 mt-2', { 'line-clamp-3 text-sm': isTiles }]"
+                    v-html="event.teaseHtml"
+                  ></p>
                 </div>
               </div>
             </a>
@@ -269,98 +381,54 @@ function displaySubsite(subsite: string): string {
       </section>
 
       <div v-else class="mb-12 p-8 text-center bg-ebony-clay-50 rounded-lg">
-        <p class="text-chicago-600">No upcoming events for this subsite.</p>
+        <p class="text-chicago-600">
+          {{ hasFilters ? 'No upcoming events match these filters.' : 'No upcoming events for this subsite.' }}
+        </p>
       </div>
     </template>
 
     <!-- Past Events -->
-    <section>
+    <section v-if="showPastSection">
       <h2 class="text-2xl font-semibold text-chicago-900 mb-4">
         Past Events
-        <span class="text-sm font-normal text-chicago-500">({{ allPastEvents.length }} total)</span>
+        <span class="text-sm font-normal text-chicago-500">({{ pastEvents.length }})</span>
       </h2>
 
-      <!-- Year navigation for past events -->
-      <div class="mb-6">
-        <div class="flex flex-wrap items-center gap-2">
-          <button
-            v-if="props.defaultToAllYears"
-            @click="selectPastYear(null)"
-            :class="[
-              'px-3 py-1.5 text-sm font-medium rounded-md transition-colors',
-              selectedPastYear === null
-                ? 'bg-galaxy-primary text-white'
-                : 'bg-ebony-clay-50 text-chicago-700 hover:bg-ebony-clay-100',
-            ]"
-          >
-            All years
-            <span class="ml-1 text-xs opacity-75">({{ allPastEvents.length }})</span>
-          </button>
-          <button
-            v-for="year in recentPastYears"
-            :key="year"
-            @click="selectPastYear(year)"
-            :class="[
-              'px-3 py-1.5 text-sm font-medium rounded-md transition-colors',
-              selectedPastYear === year
-                ? 'bg-galaxy-primary text-white'
-                : 'bg-ebony-clay-50 text-chicago-700 hover:bg-ebony-clay-100',
-            ]"
-          >
-            {{ year }}
-            <span class="ml-1 text-xs opacity-75">({{ countPastForYear(year) }})</span>
-          </button>
-          <!-- Older years dropdown -->
-          <select
-            v-if="olderPastYears.length > 0"
-            aria-label="Older years"
-            :value="olderPastYears.includes(selectedPastYear as number) ? selectedPastYear : 'older'"
-            @change="(e) => selectPastYear(Number((e.target as HTMLSelectElement).value))"
-            :class="[
-              'px-3 py-1.5 text-sm font-medium rounded-md transition-colors border-0 cursor-pointer',
-              olderPastYears.includes(selectedPastYear as number)
-                ? 'bg-galaxy-primary text-white'
-                : 'bg-ebony-clay-50 text-chicago-700 hover:bg-ebony-clay-100',
-            ]"
-          >
-            <option value="older" disabled selected>Older...</option>
-            <option v-for="year in olderPastYears" :key="year" :value="year">
-              {{ year }} ({{ countPastForYear(year) }})
-            </option>
-          </select>
-        </div>
-      </div>
-
-      <p class="text-sm text-chicago-500 mb-4">
-        {{ pastEvents.length }} event{{ pastEvents.length !== 1 ? 's' : '' }}
-        <span v-if="selectedPastYear"> in {{ selectedPastYear }}</span>
-        <span v-else> across all years</span>
-      </p>
-
-      <div class="space-y-4">
+      <div :data-view="view" :class="isTiles ? tilesGrid : 'space-y-4'">
         <article
           v-for="event in pastEvents.slice(0, pastDisplayCount)"
           :key="event.slug"
-          class="border-b border-ebony-clay-100 pb-4"
+          :class="
+            isTiles
+              ? 'rounded-lg border border-ebony-clay-100 bg-white p-4 transition-shadow hover:shadow-md'
+              : 'border-b border-ebony-clay-100 pb-4'
+          "
         >
-          <a :href="buildUrl(event.slug)" class="group block">
-            <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+          <a :href="buildUrl(event.slug)" :class="isTiles ? 'group block h-full' : 'group block'">
+            <div :class="['flex flex-col gap-2', { 'sm:flex-row sm:items-center sm:justify-between': !isTiles }]">
               <h3 class="text-base font-medium text-chicago-700 group-hover:text-galaxy-primary transition-colors">
                 {{ event.title || 'Untitled Event' }}
                 <ExternalIcon v-if="event.externalUrl" :href="event.externalUrl" />
               </h3>
-              <time v-if="event.date" class="text-sm text-chicago-500">
-                {{ formatDateRange(event.date, event.end) }}
-              </time>
+              <EventDate
+                v-if="event.date"
+                :class="['text-sm', { 'sm:shrink-0': !isTiles }]"
+                :start="event.date"
+                :end="event.end"
+                past
+              />
             </div>
           </a>
         </article>
       </div>
+      <div v-if="pastEvents.length === 0" class="p-8 text-center bg-ebony-clay-50 rounded-lg">
+        <p class="text-chicago-600">
+          {{ hasFilters ? 'No past events match these filters.' : 'No past events for this subsite.' }}
+        </p>
+      </div>
       <div v-if="pastEvents.length > pastDisplayCount" class="mt-6 text-center">
         <p class="text-chicago-500 text-sm mb-3">
-          Showing {{ pastDisplayCount }} of {{ pastEvents.length }} events
-          <span v-if="selectedPastYear">in {{ selectedPastYear }}</span>
-          <span v-else>across all years</span>
+          Showing {{ pastDisplayCount }} of {{ pastEvents.length }} past events {{ resultContext }}
         </p>
         <button
           @click="loadMorePast"

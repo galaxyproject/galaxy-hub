@@ -5,6 +5,7 @@ end: '2026-11-20'
 location:
   name: Mainz
 tags: [humanities, conference, ai, nfdi]
+contact: Daniela Schneider
 contributions:
   organisers:
     - Sch-Da
@@ -19,5 +20,5 @@ subsites: [eu, freiburg]
 
 The conference "Künstliche Intelligenz und die Zukunft kleiner Fächer" (AI and the future of small subjects) addresses how smaller fields can handle AI's impact to methods and research in their disciplines.
 You can find out more on [the conference website](https://www.kleinefaecher.de/beitraege/blogbeitrag/tagung-kuenstliche-intelligenz-und-die-zukunft-kleiner-faecher-am-19-und-20-november-2026).
-On Friday, Galaxy will be part of the World Café, introducing Galaxy's capacity to support researchers from those fields with open source analysis, including AI tools and workflows. 
+On Friday, Galaxy will be part of the World Café, introducing Galaxy's capacity to support researchers from those fields with open-source analysis, including AI tools and workflows. We will also introduce the new EU project [AI4Social+](https://galaxyproject.org/hall-of-fame/ai4social/), where our task will be supporting five use cases on AI readiness.
 Join us to get the discussion started!

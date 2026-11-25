@@ -8,10 +8,20 @@
  * raw HTML are still strings here; their tags are wrapped textually, skipping
  * HTML comments. A `<table` inside an attribute value or a script string would
  * be misread; no content does that.
+ *
+ * Cells of unclassed element tables whose content is short inline text (a date,
+ * a number, a short label) get `whitespace-nowrap`, so the browser narrows long
+ * text columns instead of breaking them. Raw HTML tables and tables that bring a
+ * class (legacy `.bs-compat`) keep the default wrapping.
  */
 
 const WRAPPER_CLASS = 'table-wrapper';
 const RAW_TOKEN = /<!--|-->|<table\b|<\/table\s*>/gi;
+const NOWRAP_CLASS = 'whitespace-nowrap';
+const SHORT_CELL_CHARS = 24;
+const INLINE_TAGS = new Set(
+  'a abbr b cite code data del em i ins kbd mark q s samp small span strong sub sup time u var'.split(' ')
+);
 
 function isWrapper(node) {
   return node?.type === 'element' && node.tagName === 'div' && node.properties?.className?.includes(WRAPPER_CLASS);
@@ -65,6 +75,38 @@ function scanRaw(value, state, onOpen = () => {}, onClose = () => {}) {
   }
 }
 
+/** Visible text of a cell, or null when it holds anything but text and inline tags. */
+function inlineText(node) {
+  let out = '';
+  for (const child of node.children ?? []) {
+    if (child.type === 'text') out += child.value;
+    else if (child.type === 'comment') continue;
+    else if (child.type === 'element' && child.tagName === 'svg') continue;
+    else if (child.type === 'element' && INLINE_TAGS.has(child.tagName)) {
+      const inner = inlineText(child);
+      if (inner === null) return null;
+      out += inner;
+    } else return null;
+  }
+  return out;
+}
+
+/** Add the nowrap class to the short cells of a table, skipping nested tables. */
+function markShortCells(node) {
+  for (const child of node.children ?? []) {
+    if (child.type !== 'element' || child.tagName === 'table') continue;
+    if (child.tagName !== 'td' && child.tagName !== 'th') {
+      markShortCells(child);
+      continue;
+    }
+    const text = inlineText(child)?.replace(/\s+/g, ' ').trim();
+    if (!text || text.length > SHORT_CELL_CHARS) continue;
+    child.properties ??= {};
+    const className = child.properties.className ?? [];
+    if (!className.includes(NOWRAP_CLASS)) child.properties.className = [...className, NOWRAP_CLASS];
+  }
+}
+
 const newState = () => ({ depth: 0, open: [], inComment: false, stray: false });
 
 export default function rehypeScrollableTables() {
@@ -92,11 +134,13 @@ export default function rehypeScrollableTables() {
       tree,
       newState(),
       (parent, index) => {
+        const table = parent.children[index];
+        if (!table.properties?.className?.length) markShortCells(table);
         parent.children[index] = {
           type: 'element',
           tagName: 'div',
           properties: { className: [WRAPPER_CLASS], role: 'region', tabIndex: 0, ariaLabel: nextLabel() },
-          children: [parent.children[index]],
+          children: [table],
         };
       },
       (node, state) => {

@@ -1,9 +1,11 @@
 ---
-import { getCollection } from 'astro:content';
+import { getListedCollection } from '../../../../utils/content';
+import { eventTags } from '../../../../utils/eventFilters';
 import BaseLayout from '../../../../layouts/BaseLayout.astro';
 import PageHeader from '../../../../components/layout/PageHeader.astro';
 import EventsList from '../../../../components/events/EventsList.vue';
 import { subsites } from '../../../../stores/subsiteStore';
+import { renderMarkdownTeaser } from '../../../../utils/markdown';
 
 export function getStaticPaths() {
   return subsites
@@ -21,7 +23,7 @@ const headerTitle = isEurope ? 'Events Archive' : `${subsiteName} Events Archive
 const pageDescription = `Past events for the ${subsiteName} Galaxy community.`;
 const eyebrow = isEurope ? { label: 'Galaxy Europe', href: '/eu/' } : undefined;
 
-const events = await getCollection('events');
+const events = await getListedCollection('events');
 
 const eventData = events.map((e) => ({
   slug: e.data.slug,
@@ -29,7 +31,9 @@ const eventData = events.map((e) => ({
   date: e.data.date instanceof Date ? e.data.date.toISOString() : e.data.date,
   end: e.data.end instanceof Date ? e.data.end?.toISOString() : e.data.end,
   tease: e.data.tease,
+  teaseHtml: renderMarkdownTeaser(e.data.tease),
   location: e.data.location,
+  tags: eventTags(e.data.tags),
   subsites: e.data.subsites,
   externalUrl: e.data.external_url,
 }));
@@ -53,8 +57,8 @@ const eventData = events.map((e) => ({
         client:only="vue"
         events={eventData}
         initialSubsite={subsiteId}
+        path={Astro.url.pathname}
         showUpcoming={false}
-        defaultToAllYears={true}
       />
     </div>
   </div>

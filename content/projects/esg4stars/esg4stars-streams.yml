@@ -1,0 +1,17 @@
+heading: Project architecture - Thematic streams and Work packages
+
+streams:
+    - work_packages: WP1 and WP2
+      content: project coordination, governance, and alignment across technical and community activities, risk control, Key Performance Indicators (KPIs) oversight
+
+    - name: Stream 1
+      work_packages: WP3 – WP5
+      content: requirements identification and co-design with user communities and RIs, curates FAIR runtime metrics, validates performance hotspots, and drives adoption through training and EOSC alignment
+
+    - name: Stream 2
+      work_packages: WP6 – WP7
+      content: data-layer optimisation, upload deduplication, deferred materialisation, site-local caching, distribution of ML/AI models via CVMFS, and integration of NGFF
+
+    - name: Stream 3
+      work_packages: WP8 – WP9
+      content: compute-layer optimisation, tool and pipeline refactoring, a global job cache enabling safe job reuse, and a resource-calibration service integrated with TPV and interoperable with external workflow engines

@@ -3,19 +3,12 @@
  * Outputs events within 30 days at /events/feed.json
  * Format matches original Gridsome feed for backward compatibility
  */
-import { getCollection } from 'astro:content';
+import { getListedCollection } from '../../utils/content';
 import { marked } from 'marked';
 import { expandSubsites } from '../../utils/subsites';
+import { formatDate } from '../../utils/dateUtils';
 
 const JSONFEED_DAYS_AGO_LIMIT = 30;
-
-function formatDate(date: Date): string {
-  // Match Gridsome format: "4 November 2026"
-  const day = date.getUTCDate();
-  const month = date.toLocaleDateString('en-US', { timeZone: 'UTC', month: 'long' });
-  const year = date.getUTCFullYear();
-  return `${day} ${month} ${year}`;
-}
 
 // Generate short hash ID like Gridsome does
 function generateShortId(str: string): string {
@@ -35,7 +28,7 @@ function getDaysAgo(date: Date): number {
 }
 
 export async function GET() {
-  const events = await getCollection('events');
+  const events = await getListedCollection('events');
 
   // Filter events within days_ago limit and transform
   const feedItems = await Promise.all(
@@ -95,13 +88,15 @@ export async function GET() {
           title: data.title || null,
           tease: data.tease || null,
           subsites,
+          main_subsite: data.main_subsite || null,
           location: locationObj,
           continent: data.continent || null,
           contact,
           external_url: data.external_url || null,
           gtn: data.gtn || null,
           links: [],
-          date: formatDate(date),
+          // Match Gridsome format: "4 November 2026"
+          date: formatDate(date, { short: false, locale: 'en-GB' }),
           draft: data.draft || null,
           days: data.end ? Math.round((data.end.getTime() - date.getTime()) / (1000 * 60 * 60 * 24)) + 1 : 1,
           days_ago: daysAgo,

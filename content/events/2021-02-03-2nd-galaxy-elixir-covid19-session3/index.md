@@ -8,7 +8,7 @@ contacts:
 location:
   name: online
 hidefooter: true
-subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, ifb]
 main_subsite: eu
 contributions:
   funding:
@@ -39,7 +39,7 @@ This session will present the [COVID-19 Data Portal](https://www.covid19dataport
 
 #### Speakers
 
-- Ignacio Eguinoa 
+- Ignacio Eguinoa
 - Bert Droeskbeke
 - Frederik Coppens
 

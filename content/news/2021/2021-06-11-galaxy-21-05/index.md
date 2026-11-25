@@ -3,7 +3,7 @@ title: UseGalaxy.eu update to 21.05
 date: '2021-06-11'
 tags: [release]
 external_url: https://docs.galaxyproject.org/en/release_21.05/releases/21.05_announce_user.html
-subsites: [eu, pasteur, freiburg, elixir-it, belgium, genouest]
+subsites: [eu, pasteur, freiburg, elixir-it, belgium, ifb]
 main_subsite: eu
 contributions:
   authorship:
@@ -13,7 +13,7 @@ contributions:
     - elixir-europe
 ---
 
-UseGalaxy.eu has been updated to version 21.05. 
+UseGalaxy.eu has been updated to version 21.05.
 
 Check out the [user release notes](https://docs.galaxyproject.org/en/release_21.05/releases/21.05_announce_user.html) for a lot more details, there are many more
 enhancements, new visualizations, datatypes and bugfixes.
