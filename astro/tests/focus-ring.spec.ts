@@ -271,4 +271,26 @@ test.describe('Global focus ring', () => {
     });
     expect(style).toBe('none none');
   });
+
+  test('Cofest presenter: white outline on its header in both views, the global pair on its light footer', async ({
+    page,
+  }) => {
+    await page.route('https://docs.google.com/**', (route) => route.fulfill({ status: 200, body: '' }));
+    await page.setViewportSize({ width: 1440, height: 900 });
+    await page.goto('/events/gcc2026/cofest/board/');
+    const toggle = page.getByRole('button', { name: 'Switch to light mode' });
+    await tabTo(page, toggle);
+    await expectRing(toggle, ON_DARK_PAIR);
+
+    // The light view keeps the dark blue header, so its controls keep the white outline
+    await page.keyboard.press('Enter');
+    const back = page.getByRole('button', { name: 'Switch to dark mode' });
+    await expect(back).toBeFocused();
+    await expectRing(back, ON_DARK_PAIR);
+
+    // The light view footer is light grey: the global pair
+    const previous = page.getByRole('button', { name: 'Previous slide' });
+    await tabTo(page, previous);
+    await expectRing(previous);
+  });
 });
