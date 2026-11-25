@@ -66,6 +66,8 @@ In short: use WhisperX when you need to know who is speaking, and LLM Hub when y
 
 ## What's next?
 
+ Do you want to know more? For a hands-on introduction, follow our Galaxy Training Network tutorial [Transcribing Audio and Video files with Automated Speech Recognition](https://gxy.io/GTN:T00577).
+
 A transcript is often only the first step. In [our post on LangChain Text Splitters](https://galaxyproject.org/news/2026-10-02-langchain-text-splitters/), we show a workflow that transcribes a video with WhisperX and translates the subtitles with LLM Hub.
 
 Have feedback or a recording that doesn't work well? Reach out to [contact@usegalaxy.eu](mailto:contact@usegalaxy.eu).
