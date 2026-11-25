@@ -1,6 +1,7 @@
 ---
 subsites:
-- all-eu
+- eu
+- freiburg
 date: '2026-11-25'
 title: Cancer classification on gene expression data with the stateof-the-art TabICL (v2) on Galaxy
 tags: [tools, workflow]
