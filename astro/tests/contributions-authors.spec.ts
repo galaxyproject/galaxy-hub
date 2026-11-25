@@ -5,10 +5,10 @@ test.describe('Contributions authors precedence', () => {
     await page.goto('/news/2026-01-07-hf-integration/');
 
     // Structured data should include only the contribution author
-    const schemaHandle = await page.locator('script[type="application/ld+json"]').first();
-    const schemaRaw = await schemaHandle.textContent();
-    expect(schemaRaw).toBeTruthy();
-    const schema = JSON.parse(schemaRaw || '{}');
+    // The page also carries a BreadcrumbList block, so pick the article one by type
+    const blocks = await page.locator('script[type="application/ld+json"]').allTextContents();
+    const schema = blocks.map((raw) => JSON.parse(raw)).find((doc) => doc['@type'] === 'NewsArticle');
+    expect(schema).toBeTruthy();
     const authorNames = Array.isArray(schema.author) ? schema.author.map((a: any) => a.name) : [];
     expect(authorNames).toContain('Anup Kumar');
     expect(authorNames).not.toContain('anuprulez');

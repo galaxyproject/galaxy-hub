@@ -51,13 +51,13 @@ function toISOString(d: Date | string | undefined): string {
 const formattedDate = formatDate(date, false);
 ---
 
-<header class="page-header">
+<header class="page-header focus-scope-dark">
   <div class="page-header-content">
     {eyebrowData &&
       (eyebrowData.href ? (
         <a
           href={eyebrowData.href}
-          class="mb-3 inline-flex text-sm font-semibold text-galaxy-gold underline-offset-4 hover:text-accent-hover hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-galaxy-gold"
+          class="mb-3 inline-flex text-sm font-semibold text-galaxy-gold underline-offset-4 hover:text-accent-hover hover:underline"
         >
           {eyebrowData.label}
         </a>

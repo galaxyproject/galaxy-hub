@@ -6,6 +6,7 @@ import ContentWithToc from '../components/layout/ContentWithToc.astro';
 import SupporterGrid from '../components/content/SupporterGrid.astro';
 import Icon from '../components/ui/Icon.astro';
 import EditOnGitHubLink from '../components/layout/EditOnGitHubLink.astro';
+import ReadingBreadcrumbs from '../components/layout/ReadingBreadcrumbs.astro';
 import type { SupporterProfile } from '../utils/supporters';
 
 interface Heading {
@@ -27,6 +28,8 @@ interface LocationData {
 
 interface Props {
   title: string;
+  /** Last crumb of the trail: the sub-page's own name; empty falls back to its last URL segment. Defaults to `title`. */
+  breadcrumbTitle?: string;
   description?: string;
   tags?: string[];
   authors?: Array<string | { id?: string; name: string }>;
@@ -47,6 +50,7 @@ interface Props {
 
 const {
   title,
+  breadcrumbTitle = title || 'Conference',
   description,
   tags = [],
   authors = [],
@@ -79,6 +83,9 @@ const hasMetadata =
 ---
 
 <BaseLayout title={title || 'Conference'} description={description} noindex={noindex}>
+  {hasMetadata && <div class="max-w-6xl mx-auto">
+    <ReadingBreadcrumbs title={breadcrumbTitle} />
+  </div>}
   <article class="max-w-6xl mx-auto bg-white relative">
     {hasMetadata && <div class:list={['conference-hero', isSubpage && 'is-subpage']}>
       <PageHeader title={title || 'Conference'} description={description} tags={tags} authors={authors}>

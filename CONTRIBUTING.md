@@ -162,6 +162,8 @@ Place images in the same directory as your `index.md` and reference them with re
 
 For images shared across pages, use `/images/...` paths (these are served from `content/images/`). Example: `/images/logos/galaxy_project_logo.jpg`.
 
+Save photos as JPEG, at most 2000 px on the long edge and under 1 MB; PR checks warn above 1 MB or 2500 px and fail above 5 MB.
+
 Tweets are not embedded. To show a post from X (Twitter), add a screenshot of it as an image, with the author and post text as alt text (see [Markdown tips](https://galaxyproject.org/hub/contributing/markdown/)).
 
 ### Contributions metadata and Hall of Fame recognition

@@ -27,6 +27,8 @@ import { isDraft, isListed } from '../../utils/publish-date.mjs';
 import { extractFunding, extractAuthors, resolveAuthor } from '../../utils/contributors';
 import Icon from '../../components/ui/Icon.astro';
 import EditOnGitHubLink from '../../components/layout/EditOnGitHubLink.astro';
+import ReadingBreadcrumbs from '../../components/layout/ReadingBreadcrumbs.astro';
+import { firstHeading } from '../../utils/breadcrumbs';
 import ReleaseGuardiansSummary from '../../components/release-guardians/Summary.astro';
 import ReleaseGuardiansSection from '../../components/release-guardians/Section.astro';
 import ReleaseGuardiansLabelPill from '../../components/release-guardians/LabelPill.astro';
@@ -213,6 +215,14 @@ const authorIds = extractAuthors(eventData);
 const displayAuthors = authorIds.map(resolveAuthor);
 
 const conferenceTitle = conferenceContext?.title || title || 'Conference';
+// A conference sub-page's trail ends with its own name: its title or first heading, else its label in the conference
+// menu; the layout's title is the conference's, so it cannot stand for the page
+const subpageTitle =
+  [title, event.body ? firstHeading(event.body) : undefined]
+    .map((candidate) => (typeof candidate === 'string' ? candidate.trim() : ''))
+    .find((candidate) => candidate && candidate !== conferenceTitle) ??
+  conferenceContext?.navItems?.find((item) => item.slug === event.data.slug)?.label;
+const isConferenceSubpage = Boolean(conferenceContext) && event.data.slug !== conferenceContext?.rootSlug;
 const conferenceDescription = conferenceContext?.description || tease;
 const conferenceDate = conferenceContext?.date || date;
 const conferenceEnd = conferenceContext?.end || end;
@@ -324,6 +334,7 @@ const editUrl = `https://github.com/galaxyproject/galaxy-hub/edit/main/content/$
   <ConferenceLayout
     noindex={isDraft(event.data)}
     title={conferenceTitle}
+    breadcrumbTitle={isConferenceSubpage ? (subpageTitle ?? '') : conferenceTitle}
     description={conferenceDescription}
     tags={conferenceTags}
     authors={[]}
@@ -343,6 +354,9 @@ const editUrl = `https://github.com/galaxyproject/galaxy-hub/edit/main/content/$
     <script slot="extra" type="application/ld+json" is:inline set:html={safeJsonLd(schemaEvent)} /></ConferenceLayout>
 ) : (
   <BaseLayout title={title || 'Event'} description={tease} noindex={isDraft(event.data)}>
+    <div class="max-w-6xl mx-auto">
+      <ReadingBreadcrumbs title={title || 'Event'} />
+    </div>
     <article class="max-w-6xl mx-auto bg-white relative">
       <PageHeader title={title || 'Event'} description={tease} tags={tags} authors={displayAuthors}>
         <EventHeaderMeta date={date} end={end} location={location} contacts={contacts} />

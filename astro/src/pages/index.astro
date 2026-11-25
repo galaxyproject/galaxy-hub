@@ -274,6 +274,12 @@ const pillars = [
       transform: translateY(-1px);
     }
 
+    /* The glow animation would replace the global inner ring. */
+    .btn-primary:focus-visible {
+      animation: none;
+      box-shadow: 0 0 0 2px var(--color-focus-inner);
+    }
+
     @keyframes subtle-glow {
       0%,
       100% {
@@ -993,7 +999,7 @@ const pillars = [
     }
   </style>
 
-  <div class="homepage-v2">
+  <div class="homepage-v2 focus-scope-dark">
     <!-- Hero Section -->
     <section class="hero-section grid-overlay">
       <div class="hero-container">
@@ -1291,7 +1297,7 @@ const pillars = [
   </div>
 
   <!-- Footer -->
-  <footer slot="footer" class="homepage-v2 home-footer">
+  <footer slot="footer" class="homepage-v2 home-footer focus-scope-dark">
     <div class="footer-container">
       <div class="footer-brand">
         <h2>Galaxy Project</h2>

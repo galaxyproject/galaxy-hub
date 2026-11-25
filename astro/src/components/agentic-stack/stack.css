@@ -146,12 +146,6 @@
   height: 1rem;
 }
 
-.stk-btn:focus-visible,
-.stk-ctl:focus-visible {
-  outline: 2px solid var(--as-gold);
-  outline-offset: 2px;
-}
-
 /* ── The run window ────────────────────────────────────────────────── */
 
 .stk-demo {
@@ -272,9 +266,15 @@
   min-height: 0;
 }
 
+/* Inset: the window clips an outer ring. Dark on the light pane, white on the dark agent pane. */
 .stk-pane:focus-visible {
-  outline: 2px solid var(--as-gold);
+  outline: 2px solid var(--as-dark);
   outline-offset: -2px;
+  box-shadow: none;
+}
+
+.stk-pane--agent:focus-visible {
+  outline-color: #fff;
 }
 
 @media (max-width: 639.98px) {
