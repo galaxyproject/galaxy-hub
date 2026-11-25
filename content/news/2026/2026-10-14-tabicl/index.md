@@ -2,7 +2,7 @@
 subsites:
 - all-eu
 date: '2026-11-25'
-title: Cancer classification on gene expression data with TabICL (v2) on Galaxy
+title: Cancer classification on gene expression data with the stateof-the-art TabICL (v2) on Galaxy
 tags: [tools, workflow]
 tease: "Leverage state-of-the-art TabICL (v2) models on the European Galaxy server to classify complex biomedical tabular datasets."
 contributions:
