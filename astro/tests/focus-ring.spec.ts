@@ -330,4 +330,42 @@ test.describe('Global focus ring', () => {
     await tabTo(page, page.locator('.cm-content'), 400);
     await expectRing(box);
   });
+
+  test('forced colors keep the outline and drop the inner ring', async ({ page }) => {
+    await page.emulateMedia({ forcedColors: 'active' });
+    await page.setViewportSize({ width: 1440, height: 900 });
+    await page.goto('/community/');
+    const link = page.locator('main .prose a[href]').first();
+    await tabTo(page, link);
+    const r = await ring(link);
+    expect(r.style).toBe('solid');
+    expect(r.width).toBe('2px');
+    expect(r.color).not.toBe('rgba(0, 0, 0, 0)');
+    expect(r.shadow).toBe('none');
+  });
+
+  test('mobile menu opened from the Menu button: focus enters the sheet, stays in it, returns to the button', async ({
+    page,
+  }) => {
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto('/freiburg/');
+    await settled(page, '.site-mobile-header');
+    const trigger = page.getByRole('button', { name: 'Open menu' });
+    await tabTo(page, trigger);
+    await page.keyboard.press('Enter');
+
+    const menu = page.getByTestId('mobile-menu');
+    await expect(menu.getByRole('button', { name: /Current context:/ })).toBeFocused();
+    const inMenu = () => page.evaluate(() => !!document.activeElement?.closest('[data-testid="mobile-menu"]'));
+    for (const key of ['Tab', 'Shift+Tab']) {
+      for (let i = 0; i < 40; i++) {
+        await page.keyboard.press(key);
+        expect(await inMenu()).toBe(true);
+      }
+    }
+
+    await page.keyboard.press('Escape');
+    await expect(menu).toBeHidden();
+    await expect(trigger).toBeFocused();
+  });
 });
