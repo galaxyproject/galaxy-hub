@@ -1,0 +1,25 @@
+---
+/** Embeddable head of ESG4Stars: name, status, description and the facts box (grant, dates, partners). */
+import Esg4StarsBarePart from '@/components/projects/esg4stars/Esg4StarsBarePart.astro';
+import ProjectBareHead from '@/components/projects/ProjectBareHead.astro';
+import ProjectFactsBox from '@/components/projects/ProjectFactsBox.astro';
+import { getEsg4StarsOverview } from '@/utils/esg4starsOverview';
+
+const { project } = await getEsg4StarsOverview();
+---
+
+<Esg4StarsBarePart title={project.name} description={project.description}>
+  <ProjectBareHead name={project.name} description={project.description} facts={project.facts} />
+  <ProjectFactsBox
+    class="project-facts--rail e4s-head__facts"
+    idPrefix="facts"
+    facts={project.facts}
+    partnerCount={project.partnerCount}
+  />
+</Esg4StarsBarePart>
+
+<style>
+  :global(.e4s-head__facts) {
+    margin-top: 16px;
+  }
+</style>
