@@ -2,7 +2,7 @@
 title: "MaterialVital-Digital (MVD) Workshop: Connecting RSpace, CKAN and Galaxy"
 date: "2026-11-24"
 tease: "The Freiburg Galaxy team demonstrated data exchange with RSpace and CKAN, materials-science analysis, and the development of reusable Galaxy tools and workflows."
-subsites: [freiburg]
+subsites: [eu, freiburg]
 contributions:
   authorship:
     - anuprulez
@@ -47,18 +47,15 @@ SEM fibre analysis tool using those parameters, followed by a return to the RSpa
 This illustrates how experimental records can provide both the data and the context needed for analysis,
 while the notebook remains a place to connect the experiment with its computational results.
 
-
-[![Watch the RSpace–Galaxy–RSpace demonstration on YouTube](add link to the video)](<add link to the video>)
-
-[Watch the demonstration on YouTube](https://www.youtube.com/watch?v=LPZh9BOjkQs).
-
-[Download the RSpace–Galaxy–RSpace video](./rspace-galaxy-rspace.mp4).
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kK84sfytbbc" title="RSpace–Galaxy–RSpace demonstration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## CKAN to Galaxy and back
 
 The CKAN demonstration illustrated the corresponding round trip between the **MVD data portal** and Galaxy.
 This develops the July workshop's idea of a Galaxy entry point in CKAN into a practical demonstration of data
 exchange between the repository and the analysis platform.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ifD6e0h3JLo" title="CKAN–Galaxy–CKAN demonstration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Galaxy tools for materials-science analysis
 
@@ -101,8 +98,8 @@ The demonstrations provide a basis for extending the MVD data journeys explored 
 
 ## Resources
 
-- Workshop slides: [Galaxy tool and workflows generation](./galaxy-tools-and-workflows.pdf)
-- Workshop slides: [RSpace → Galaxy → CKAN](./rspace-ckan-galaxy-integration.pdf)
+- Workshop slides: [Galaxy tool and workflows generation](https://drive.google.com/file/d/1oowLcgxO-38b6arZwO_OH58viHVj4mlZ/view?usp=sharing)
+- Workshop slides: [RSpace → Galaxy → CKAN](https://drive.google.com/file/d/1iEDOQtncmXyrH7W2Xk4NiB-xhgZAy-6_/view?usp=sharing)
 - [European Galaxy server](https://usegalaxy.eu/)
 - [Galaxy tool-development tutorials](https://galaxyproject.github.io/training-material/topics/dev/#st-tooldev)
 - [Planemo: writing standalone Galaxy tools](https://planemo.readthedocs.io/en/master/writing_standalone.html)
