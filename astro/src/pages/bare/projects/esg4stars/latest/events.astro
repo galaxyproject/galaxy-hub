@@ -1,0 +1,23 @@
+---
+/** Embeddable latest events feed of ESG4Stars; the same section as #events on /projects/esg4stars/. */
+import Esg4StarsBarePart from '@/components/projects/esg4stars/Esg4StarsBarePart.astro';
+import ProjectRows from '@/components/projects/ProjectRows.astro';
+import ProjectSection from '@/components/projects/ProjectSection.astro';
+import { getEsg4StarsOverview } from '@/utils/esg4starsOverview';
+
+const { project, eventRows, eventsTitle, eventsHref, ended } = await getEsg4StarsOverview();
+---
+
+<Esg4StarsBarePart title={`${eventsTitle} - ${project.name}`} anchor="events">
+  <ProjectSection
+    id="events"
+    title={eventsTitle}
+    more={{ href: eventsHref, label: `All ${eventsTitle.toLowerCase()}`, context: `of ${project.name}` }}
+  >
+    {eventRows.length > 0 ? (
+      <ProjectRows kind="events" items={eventRows} />
+    ) : (
+      <p class="text-chicago-700 text-sm">{ended ? 'No past events.' : 'No events yet.'}</p>
+    )}
+  </ProjectSection>
+</Esg4StarsBarePart>
