@@ -9,6 +9,9 @@ tags: [tools, ai, humanities]
 contributions:
   authorship:
     - arash77
+  funding:
+    - ai4social
+    - eu
 ---
 
 ## Who said what?
@@ -62,6 +65,8 @@ Galaxy has more than one way to turn speech into text:
 In short: use WhisperX when you need to know who is speaking, and LLM Hub when you want a quick transcript of an audio file.
 
 ## What's next?
+
+ Do you want to know more? For a hands-on introduction, follow our Galaxy Training Network tutorial [Transcribing Audio and Video files with Automated Speech Recognition](https://gxy.io/GTN:T00577).
 
 A transcript is often only the first step. In [our post on LangChain Text Splitters](https://galaxyproject.org/news/2026-10-02-langchain-text-splitters/), we show a workflow that transcribes a video with WhisperX and translates the subtitles with LLM Hub.
 
