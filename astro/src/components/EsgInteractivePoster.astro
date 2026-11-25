@@ -248,6 +248,12 @@ const workPackages = [
     background: rgba(0, 0, 0, 0.3);
   }
 
+  /* .carousel clips overflow, so the ring sits inside the button; an inset outline has no gap ring. */
+  .carousel-control:focus-visible {
+    outline-offset: -2px;
+    box-shadow: none;
+  }
+
   .carousel-content {
     flex: 1;
     position: relative;

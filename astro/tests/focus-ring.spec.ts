@@ -293,4 +293,16 @@ test.describe('Global focus ring', () => {
     await tabTo(page, previous);
     await expectRing(previous);
   });
+
+  test('ESG carousel controls use an inset outline, since the rounded box clips a ring', async ({ page }) => {
+    await page.setViewportSize({ width: 1440, height: 900 });
+    await page.goto('/projects/esg/');
+    for (const id of ['#carousel-prev', '#carousel-next']) {
+      const control = page.locator(id);
+      await tabTo(page, control, 400);
+      await expect
+        .poll(() => ring(control).then((r) => `${r.style} ${r.width} ${r.color} ${r.offset} ${r.shadow}`))
+        .toBe(`solid 2px ${DARK} -2px none`);
+    }
+  });
 });
