@@ -305,4 +305,29 @@ test.describe('Global focus ring', () => {
         .toBe(`solid 2px ${DARK} -2px none`);
     }
   });
+
+  test('post creator tag picker takes the global ring on its box', async ({ page }) => {
+    await page.setViewportSize({ width: 1440, height: 900 });
+    await page.goto('/hub/contributing/new/');
+    await settled(page, 'main');
+    const input = page.getByRole('combobox', { name: 'Tags' });
+    await tabTo(page, input, 400);
+    await expectRing(input.locator('xpath=..'));
+  });
+
+  test('post creator editor takes the global ring on its box for the text, not for the toolbar', async ({ page }) => {
+    await page.setViewportSize({ width: 1440, height: 900 });
+    await page.goto('/hub/contributing/new/');
+    await settled(page, 'main');
+    await expect(page.locator('.cm-content')).toBeVisible();
+    const box = page.locator('.cm-editor').locator("xpath=ancestor::div[contains(@class,'rounded-md')][1]");
+
+    const bold = page.getByRole('button', { name: 'Bold' });
+    await tabTo(page, bold, 400);
+    await expect.poll(() => ring(bold).then((r) => `${r.style} ${r.width} ${r.color}`)).toBe(`solid 2px ${DARK}`);
+    expect((await ring(box)).style).toBe('none');
+
+    await tabTo(page, page.locator('.cm-content'), 400);
+    await expectRing(box);
+  });
 });
