@@ -39,6 +39,7 @@ describe('JSON-LD script elements', () => {
 
   it('finds the news and event structured data', () => {
     expect(scripts.map((s) => s.file).sort()).toEqual([
+      'components/layout/ReadingBreadcrumbs.astro',
       'pages/events/[...slug].astro',
       'pages/events/[...slug].astro',
       'pages/news/[...slug].astro',
