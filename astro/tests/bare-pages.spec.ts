@@ -18,6 +18,11 @@ test.describe('Bare Pages', () => {
       // [subsite] page templates are expanded into one concrete route per subsite
       await expect(page.locator('a[href="/bare/eu/did-you-know/"]')).toBeVisible();
 
+      // Embeddable ESG4Stars parts are static routes under src/pages/bare/projects
+      for (const part of ['head', 'pillars', 'architecture', 'partners', 'latest/news', 'latest/events']) {
+        await expect(page.locator(`a[href="/bare/projects/esg4stars/${part}/"]`)).toBeVisible();
+      }
+
       const hrefs = await sitemapLinks.evaluateAll((links) => links.map((link) => link.getAttribute('href') || ''));
       expect(hrefs.length).toBeGreaterThan(5);
       expect(new Set(hrefs).size).toBe(hrefs.length);
