@@ -82,6 +82,18 @@ const pages: ScanTarget[] = [
     path: '/bare/projects/esg4stars/', // bare copy of the ESG4Stars overview (prose-less BareArticleLayout)
     exclude: [{ name: 'news and events lists', count: 2, locate: css('[data-project-list]') }],
   },
+  { path: '/bare/projects/esg4stars/head/' }, // embeddable part: name, status and facts box
+  { path: '/bare/projects/esg4stars/pillars/' }, // embeddable part: five pillars
+  { path: '/bare/projects/esg4stars/architecture/' }, // embeddable part: work streams
+  { path: '/bare/projects/esg4stars/partners/' }, // embeddable part: partner table
+  {
+    path: '/bare/projects/esg4stars/latest/news/', // embeddable news feed (project row list)
+    exclude: [{ name: 'news list', count: 1, locate: css('[data-project-list]') }],
+  },
+  {
+    path: '/bare/projects/esg4stars/latest/events/', // embeddable events feed (project row list)
+    exclude: [{ name: 'events list', count: 1, locate: css('[data-project-list]') }],
+  },
   {
     path: '/bare/eu/latest/news/', // bare feed widget
     exclude: [{ name: 'news card items', count: 1, locate: css('.card-body') }],
