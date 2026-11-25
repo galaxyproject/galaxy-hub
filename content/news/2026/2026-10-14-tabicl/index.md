@@ -1,7 +1,7 @@
 ---
 subsites:
 - all
-date: '2026-04-28'
+date: '2026-11-25'
 title: Accurate Biomedical Classification with TabICLv2 on Galaxy
 tags: [tools, workflow]
 tease: "Leverage state-of-the-art TabICLv2 models on the European Galaxy server to classify complex biomedical datasets with high accuracy."
@@ -17,48 +17,65 @@ contributions:
 
 A newer version of [TabICL](https://doi.org/10.48550/arXiv.2602.11139) tool (v2) using recent models ([v2](https://huggingface.co/jingang/TabICL/tree/main)) has been integrated into the [European Galaxy server](https://usegalaxy.eu/). The choice of pre-trained TabICL models (for both, classification and regression) can be directly selected from the "Select model" dropdown. Just choose the machine learning task, a suitable model and your training/test datasets to achieve an accelerated performance.
 
-<img src="./images/tabicl_tool.png" alt="fastq" width="800"/>
-
 **Note**: The TabICL models are under a non-commercial license and should be used for non-commercial purposes only. For commercial purposes, please contact sales@priorlabs.ai.
 
-The following two use-cases for classifying biomedical datasets showcase the usage of TabICL on the European Galaxy server. The datasets have been collected from a recent [Tabular Learning for Biomedical Data](https://openreview.net/pdf?id=3Phk0nC9hK) publication.
+## Cancer-type classification from platelet RNA expression
 
-### Splice-junction gene sequences
+This example uses platelet RNA expression to classify cancer types with TabICLv2. [GSE68086](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE68086) contains RNA-sequencing data from 283 blood platelet samples, including 228 samples from patients with cancer and 55 healthy controls. The [Galaxy workflow invocation](https://usegalaxy.eu/workflows/invocations/773ee478658c6cd5), run on 24 November 2026, classifies five cancer types from these expression profiles.
 
-Understanding how genes are translated into proteins requires more than just reading DNA sequences. It involves recognizing how cells edit those sequences before use. In higher organisms, this editing process, known as RNA splicing, removes non-coding regions called introns and joins together coding regions called exons. The key challenge tackled in this dataset is identifying the precise points where this cutting and stitching occurs, known as splice junctions. Specifically, the task focuses on detecting exon–intron (EI) boundaries, also called donor sites, and intron–exon (IE) boundaries, known as acceptor sites. Additionally, if sequences don't have such junctions, they are labeled as neither (N). Accurately predicting these boundaries from raw DNA sequences is crucial for understanding gene structure and function, and it has become a classic problem in computational biology and machine learning. To evaluate how well different machine learning approaches handle this problem, researchers created a dataset of DNA sequences (3,190) with their boundary labels. The dataset remains a valuable benchmark for exploring how machine learning can bridge the gap between raw biological data and meaningful scientific interpretation.
+### Datasets used
 
-To evaluate TabICL on this high-quality benchmark dataset, [DNA_sequence_classification_TabICL](https://usegalaxy.eu/published/workflow?id=6b7ad97c010ca356) workflow is created that preprocesses DNA sequences by encoding them into 3-mers, splits them into train and test sets, performs training to map features to labels and lastly does model evaluation using visualisation methods such as precision-recall curve and confusion matrix.
+The invocation uses two source data files and a preprocessing notebook:
 
-<img src="./images/confusion_matrix_dna.png" alt="confusion_matrix_dna" width="800"/>
+| Input | Contents and role |
+| --- | --- |
+| `GSE68086_TEP_data_matrix.txt` | A gene expression matrix with gene identifiers in the first column and samples in the remaining columns. Its expression values provide the predictive features. |
+| `GSE68086_series_matrix.txt` | GEO sample metadata, including sample accession identifiers and cancer-type annotations. These annotations supply the target labels. |
+| `jl-20260714-145750` | A Jupyter notebook containing the preprocessing code, supplied as an executable workflow input. |
 
-<img src="./images/prc_dna.png" alt="precision_recall_curve_dna" width="800"/>
+The notebook extracts cancer-type labels from the metadata and associates them with expression columns by position. It selects the five cancer classes below and transposes the expression matrix so that rows represent samples and columns represent genes, with a separate `label` column. This prepared table is saved as `GSE68086_expression_columns`. Healthy controls and hepatobiliary cancer samples are excluded, so this example predicts cancer type among the selected classes rather than whether a sample has cancer.
 
-#### Workflow
+| Class | Samples |
+| --- | ---: |
+| Breast | 39 |
+| Colorectal cancer (CRC) | 42 |
+| Glioblastoma (GBM) | 40 |
+| Lung | 60 |
+| Pancreas | 35 |
+| Total | 216 |
 
-This [workflow](https://usegalaxy.eu/published/workflow?id=6b7ad97c010ca356) outlines a DNA sequence classification pipeline built to distinguish between different types of splice junctions using TabICL. It begins with preprocessing steps that prepare raw DNA sequences into a structured format suitable for analysis, followed by feature handling tailored to sequence data. The core of the workflow applies a TabICL                             -based model, which is designed to perform efficient probabilistic classification, even with relatively small datasets. By integrating preprocessing and model inference into a single pipeline, the workflow streamlines the process from raw biological data to predictive insights. It is particularly useful for tasks like identifying exon–intron and intron–exon boundaries, demonstrating how modern automated workflows can simplify complex bioinformatics analyses while maintaining strong predictive performance. The workflow achieves high accuracy on DNA sequence classification task across 3 classes.
+### Workflow
 
+The workflow is named **Cancer prediction using gene expression data by TabICLv2 with feature selection and preprocessing**. Its [invocation](https://usegalaxy.eu/workflows/invocations/773ee478658c6cd5) records 38 steps covering notebook execution, label encoding, data splitting, feature selection, normalisation, prediction, and evaluation.
 
-### Diabetes dataset
+After encoding the cancer labels, the workflow performs a stratified 75:25 training/test split with random seed 42, producing 162 training samples and 54 test samples. It selects 500 gene features from the training data using `SelectKBest` with the chi-squared score, extracts the corresponding test features, and applies L1 normalisation to each sample. The TabICL tool version `2.2.0+galaxy0` then runs classification with the pretrained `tabicl-classifier-v2-20260212.ckpt` model. SHAP explanations are enabled with a maximum of 10 samples and a beeswarm plot.
 
-Diabetes is a widespread disease with abundant data but serious complications, highlighting the need for more accurate diagnostic approaches. This dataset was collected from Iraqi patients at Medical City Hospital and Al-Kindy Teaching Hospital using real clinical records. It contains key medical and laboratory features such as age, gender, blood sugar level, BMI, creatinine, urea, cholesterol, lipid profile, and HbA1c. The target variable classifies patients into diabetic, non-diabetic, or pre-diabetic categories, making it suitable for building predictive models. From the dataset table, each row represents an individual patient, while the columns correspond to different clinical measurements and attributes. Variables like blood sugar and HbA1c are strong indicators of glucose control, while BMI and cholesterol-related features help assess overall metabolic health. Kidney function markers such as creatinine and urea provide additional clinical context. Together, these features allow for identifying patterns and relationships between health indicators and diabetes status, supporting data analysis, classification tasks, and early diagnosis efforts.
+### Results
 
-To evaluate TabICL on this high-quality diabetes dataset, [Diabetes_detection_TabICL](https://usegalaxy.eu/u/kumara/w/diabetes-detection-using-tabicl           -1) workflow is created that preprocesses the features such encoding gender into their numerical representation, splits them into train and test sets, performs training to map features to labels and lastly does model evaluation using visualisation methods such as precision-recall curve and confusion matrix.
+The invocation completed successfully. Its [test performance metrics](https://usegalaxy.eu/api/datasets/40160950115d555e9e0303802743371b/display) report:
 
-<img src="./images/confusion_matrix_diabetes.png" alt="confusion_matrix_diabetes" width="800"/>
+| Metric | Test result |
+| --- | ---: |
+| Accuracy | 66.67% |
+| Balanced accuracy | 66.89% |
+| Weighted F1 | 0.6628 |
 
-<img src="./images/prc_diabetes.png" alt="precision_recall_curve_diabetes" width="800"/>
+The [prediction table](https://usegalaxy.eu/api/datasets/40160950115d555ec2b244aa815c236b/display) contains the 500 selected features, true labels, and predicted labels for all 54 test samples. Of these, 36 are correctly classified. The confusion matrix below uses encoded labels: 0 = Breast, 1 = CRC, 2 = GBM, 3 = Lung, and 4 = Pancreas.
 
-#### Workflow
+![Confusion matrix for the five cancer classes, showing 36 correct predictions among 54 test samples.](./images/confusion_matrix_gse68086.png)
 
-This [workflow](https://usegalaxy.eu/u/kumara/w/diabetes-detection-using-tabicl-1) preprocesses tabular diabetes data by selecting relevant columns, encoding categorical features, and combining them into a structured dataset before splitting it into training and testing sets. It then applies a TabICL classification model to predict outcomes and evaluates performance using a confusion matrix and precision-recall visualisations.
+The invocation’s [precision–recall curve](https://usegalaxy.eu/api/datasets/40160950115d555eaf6ee3c9b3e216fb/display) shows performance across classification thresholds for each cancer class, with a dashed micro-average curve. The legend reports average precision (AP): Breast 0.66, CRC 0.57, GBM 0.92, Lung 0.69, and Pancreas 0.66. Class numbers follow the same encoding as the confusion matrix.
 
-### References
+![Multiclass precision–recall curves for the five cancer classes, with per-class average precision and a dashed micro-average curve.](./images/precision_recall_gse68086.png)
+
+The run also produces the SHAP beeswarm plot below, alongside the prepared expression table (`GSE68086_expression_columns`). The invocation's confusion-matrix output is labelled “TabPFN confusion matrix”, but the executed prediction tool and checkpoint are TabICLv2.
+
+![SHAP beeswarm plot generated by the TabICLv2 cancer-type classification run with a maximum of 10 samples.](./images/shap_gse68086.png)
+
+These scores describe one held-out split of five cancer classes in this dataset. They do not measure cancer-versus-healthy detection or establish clinical diagnostic performance.
+
+## References
 
 - [TabICL on Galaxy](https://usegalaxy.eu/?tool_id=tabicl)
-- [Tabular Learning for Biomedical Data](https://openreview.net/pdf?id=3Phk0nC9hK)
-- [Splice junctions datasets](https://archive.ics.uci.edu/dataset/69/molecular+biology+splice+junction+gene+sequences)
-- [Published workflow for DNA sequence classification on Galaxy](https://usegalaxy.eu/published/workflow?id=6b7ad97c010ca356)
-- [Workflow invocation for DNA sequence classification](https://usegalaxy.eu/workflows/invocations/d244771639421489)
-- [Diabetes datasets](https://www.kaggle.com/datasets/aravindpcoder/diabetes-dataset)
-- [Published workflow for Diabetes detection on Galaxy](https://usegalaxy.eu/u/kumara/w/diabetes-detection-using-tabpfn-1)
-- [Workflow invocation for Diabetes detection](https://usegalaxy.eu/workflows/invocations/a2b636544c89e8e4)
+- [GSE68086 platelet RNA expression dataset](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE68086)
+- [Workflow invocation for cancer-type classification with TabICLv2](https://usegalaxy.eu/workflows/invocations/773ee478658c6cd5)
