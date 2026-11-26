@@ -7,6 +7,7 @@
 
 import '../styles/global.css';
 import '../styles/bootstrap-compat.css'; /* ensure Astro styles */
+import PlausibleEu from '../components/bare/PlausibleEu.astro';
 
 interface Props {
   title: string;
@@ -34,6 +35,7 @@ const { title, description, noindex = false, canonical, prose = true } = Astro.p
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <PlausibleEu />
   </head>
   <body class="min-h-screen bg-white text-chicago-900">
     <!-- Tight top padding: these pages are iframed into a host that supplies its own

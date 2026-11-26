@@ -1,0 +1,14 @@
+---
+// Only the EU bare pages are tracked: the other bare sites are embedded by other servers and would mix their stats in.
+const tracked = Astro.url.pathname.startsWith('/bare/eu/');
+---
+
+{tracked && (
+  <script
+    is:inline
+    async
+    defer
+    data-domain="galaxyproject.eu"
+    src="https://plausible.galaxyproject.eu/js/plausible.js"
+  />
+)}
