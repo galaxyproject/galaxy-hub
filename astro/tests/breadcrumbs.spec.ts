@@ -148,6 +148,12 @@ test.describe('Breadcrumbs on reading pages', () => {
       await expect(page.locator('main h1').first()).toHaveText(crumbs[2].text);
     });
 
+    test('a platform page has no separate back link above the title, the trail links Use Galaxy', async ({ page }) => {
+      await page.goto(PLATFORM);
+      await expect(page.locator('article > a[href="/use/"]')).toHaveCount(0);
+      await expect(nav(page).getByRole('link', { name: 'Use Galaxy' })).toHaveAttribute('href', '/use/');
+    });
+
     test('the trail sits above the page title', async ({ page }) => {
       await page.goto(NEWS);
       const trail = (await nav(page).boundingBox())!;
