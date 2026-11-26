@@ -1,7 +1,7 @@
 import { test, expect, type Locator, type Page } from '@playwright/test';
 import { AxeBuilder } from '@axe-core/playwright';
 
-// Breadcrumb trail above the title on reading pages (articles, news posts, events, conferences):
+// Breadcrumb trail above the title on reading pages (articles, news posts, events, conferences, platforms):
 // the trail per layout, the one-row phone layout with the current page as the last crumb, the
 // fold menu on phones, the BreadcrumbList JSON-LD and a scan of the trail with axe.
 // Geometry checks compare boxes and overflow, never exact widths: font metrics differ per platform.
@@ -14,6 +14,8 @@ const NEWS = '/news/2026-11-18-biohackathon-2026/';
 const EVENT = '/events/2026-10-14-microgalaxy-hackathon/';
 const CONFERENCE = '/events/gcc2026/';
 const SHORT = '/community/';
+const PLATFORM = '/use/usegalaxy-eu/';
+const ARCHIVED_PLATFORM = '/use/archive/openminted/';
 
 const nav = (page: Page) => page.getByRole('navigation', { name: 'Breadcrumb' });
 
@@ -139,6 +141,31 @@ test.describe('Breadcrumbs on reading pages', () => {
       });
     }
 
+    test('a platform page shows Home, Use Galaxy, then the platform', async ({ page }) => {
+      await page.goto(PLATFORM);
+      const crumbs = await visibleCrumbs(page);
+      expect(crumbs.map((c) => c.text)).toEqual(['Home', 'Use Galaxy', 'UseGalaxy.eu']);
+      expect(crumbs.map((c) => c.href)).toEqual(['/', '/use/', null]);
+      await expect(page.locator('main h1').first()).toHaveText(crumbs[2].text);
+    });
+
+    test('an archived platform page shows Home, Use Galaxy, Archive as plain text, then the platform', async ({
+      page,
+    }) => {
+      await page.goto(ARCHIVED_PLATFORM);
+      const crumbs = await visibleCrumbs(page);
+      expect(crumbs.map((c) => c.href)).toEqual(['/', '/use/', null, null]);
+      expect(crumbs[1].text).toBe('Use Galaxy');
+      expect(crumbs[2].text).toBe('Archive');
+      await expect(page.locator('main h1').first()).toHaveText(crumbs[3].text);
+    });
+
+    test('a platform page has no separate back link above the title, the trail links Use Galaxy', async ({ page }) => {
+      await page.goto(PLATFORM);
+      await expect(page.locator('article > a[href="/use/"]')).toHaveCount(0);
+      await expect(nav(page).getByRole('link', { name: 'Use Galaxy' })).toHaveAttribute('href', '/use/');
+    });
+
     test('the trail sits above the page title', async ({ page }) => {
       await page.goto(NEWS);
       const trail = (await nav(page).boundingBox())!;
@@ -250,6 +277,8 @@ test.describe('Breadcrumbs on reading pages', () => {
       ['a news post', NEWS],
       ['an event', EVENT],
       ['a conference page', CONFERENCE],
+      ['a platform page', PLATFORM],
+      ['an archived platform page', ARCHIVED_PLATFORM],
     ] as const) {
       for (const size of [NARROW, PHONE]) {
         test(`${name} has no horizontal scroll at ${size.width}px, also with the menu open`, async ({ page }) => {
@@ -358,7 +387,7 @@ test.describe('Breadcrumbs on reading pages', () => {
   });
 
   test.describe('BreadcrumbList JSON-LD', () => {
-    for (const path of [DEEP, NEWS, EVENT, CONFERENCE, SHORT]) {
+    for (const path of [DEEP, NEWS, EVENT, CONFERENCE, SHORT, PLATFORM, ARCHIVED_PLATFORM]) {
       test(`${path} lists the trail in order`, async ({ page }) => {
         await page.goto(path);
         const blocks = await page
@@ -426,7 +455,7 @@ test.describe('Breadcrumbs on reading pages', () => {
       ).toEqual([]);
     };
 
-    for (const path of [DEEP, NEWS, EVENT]) {
+    for (const path of [DEEP, NEWS, EVENT, PLATFORM]) {
       test(`${path} on desktop`, async ({ page }) => {
         await page.emulateMedia({ reducedMotion: 'reduce' });
         await page.goto(path);

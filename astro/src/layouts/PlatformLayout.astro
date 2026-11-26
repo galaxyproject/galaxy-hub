@@ -7,6 +7,7 @@
 import BaseLayout from './BaseLayout.astro';
 import Icon from '../components/ui/Icon.astro';
 import EditOnGitHubLink from '../components/layout/EditOnGitHubLink.astro';
+import ReadingBreadcrumbs from '../components/layout/ReadingBreadcrumbs.astro';
 import { renderMarkdownInline } from '../utils/markdown';
 
 interface PlatformInstance {
@@ -85,13 +86,7 @@ const sections = [
 
 <BaseLayout title={title || 'Galaxy Server'} description={summary} noindex={noindex}>
   <article class="max-w-4xl mx-auto">
-    <!-- Back Link -->
-    <a href="/use/" class="inline-flex items-center gap-1 text-galaxy-primary hover:underline mb-6">
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
-      </svg>
-      Platform Directory
-    </a>
+    <ReadingBreadcrumbs title={title} />
 
     <!-- Platform Header -->
     <header class="mb-8">

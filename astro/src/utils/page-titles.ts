@@ -6,6 +6,7 @@ import { buildPageTitles, type PageTitles } from '@/utils/breadcrumbs';
 const ROUTED_PAGES: Record<string, string> = {
   projects: 'Projects',
   careers: 'Careers',
+  use: 'Use Galaxy',
   'events/archive': 'Events Archive',
 };
 
