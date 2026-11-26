@@ -1,0 +1,20 @@
+---
+/** Embeddable partner table of ESG4Stars; the same section as #partners on /projects/esg4stars/. */
+import Esg4StarsBarePart from '@/components/projects/esg4stars/Esg4StarsBarePart.astro';
+import Esg4StarsPartners from '@/components/projects/esg4stars/Esg4StarsPartners.astro';
+import { countLabel } from '@/utils/projectFacts';
+import { getEsg4StarsOverview } from '@/utils/esg4starsOverview';
+
+const overview = await getEsg4StarsOverview();
+const { project, partners, partnersTitle } = overview;
+---
+
+<Esg4StarsBarePart title={`${partnersTitle} - ${project.name}`} anchor="partners">
+  {partners && (
+    <Esg4StarsPartners
+      title={partnersTitle}
+      partners={partners}
+      count={countLabel(project.partnerCount, 'organisation')}
+    />
+  )}
+</Esg4StarsBarePart>

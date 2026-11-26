@@ -1,9 +1,13 @@
-import { test, expect } from '@playwright/test';
+import { test, expect, type Locator, type Page } from '@playwright/test';
 
 // Bare copy of the ESG4Stars overview for iframes on partner sites: the same sections as
 // /projects/esg4stars/ without the Hub chrome, every link absolute and in a new tab.
 // Its sitemap exclusion is build-only and covered by src/build/sitemap-pages.test.mjs.
 const path = '/bare/projects/esg4stars/';
+
+// Light DOM only: a locator would also match the nav and header inside the dev server's shadow-DOM toolbar
+const hubChromeCount = (page: Page) =>
+  page.evaluate(() => document.querySelectorAll('.site-sidebar, header, footer, nav').length);
 
 test.describe('ESG4Stars bare overview', () => {
   test('shows the head and every overview section', async ({ page }) => {
@@ -36,7 +40,7 @@ test.describe('ESG4Stars bare overview', () => {
 
   test('has no Hub chrome', async ({ page }) => {
     await page.goto(path);
-    await expect(page.locator('.site-sidebar, header, footer, nav')).toHaveCount(0);
+    expect(await hubChromeCount(page)).toBe(0);
     await expect(page.locator('.project-tabs, .project-toc, [data-toc]')).toHaveCount(0);
     await expect(page.getByRole('complementary', { name: 'Project facts and contents' })).toHaveCount(0);
   });
@@ -93,4 +97,90 @@ test.describe('ESG4Stars bare overview', () => {
     });
     expect(overflowing).toEqual([]);
   });
+});
+
+// One embeddable page per overview section for partner iframes. Static parts sit at <part>/, the
+// two feeds under latest/ like the Galaxy Europe ones. Each is canonical to its Hub section.
+const parts: { part: string; anchor: string; ready: (page: Page) => Locator; title: RegExp }[] = [
+  { part: 'head', anchor: '', ready: (page) => page.locator('.project-bare-head'), title: /^ESG4Stars/ },
+  {
+    part: 'pillars',
+    anchor: '#pillars',
+    ready: (page) => page.getByRole('region', { name: 'Five pillars' }),
+    title: /^Five pillars/,
+  },
+  {
+    part: 'architecture',
+    anchor: '#architecture',
+    ready: (page) => page.getByRole('region', { name: /Project architecture/ }),
+    title: /^Project architecture/,
+  },
+  {
+    part: 'partners',
+    anchor: '#partners',
+    ready: (page) => page.getByRole('region', { name: 'Project Partners' }),
+    title: /^Project Partners/,
+  },
+  { part: 'latest/news', anchor: '#news', ready: (page) => page.locator('[data-project-list="news"]'), title: /^News/ },
+  {
+    part: 'latest/events',
+    anchor: '#events',
+    ready: (page) => page.locator('[data-project-list="events"]'),
+    title: /^(Past e|E)vents/,
+  },
+];
+
+test.describe('ESG4Stars bare parts', () => {
+  for (const { part, anchor, ready, title } of parts) {
+    const partPath = `/bare/projects/esg4stars/${part}/`;
+
+    test.describe(part, () => {
+      test('renders its section without Hub chrome', async ({ page }) => {
+        expect((await page.goto(partPath))?.status()).toBe(200);
+        await expect(ready(page).first()).toBeVisible();
+        await expect(page).toHaveTitle(title);
+        expect(await hubChromeCount(page)).toBe(0);
+      });
+
+      test('links are absolute and open in a new tab', async ({ request }) => {
+        const html = await (await request.get(partPath)).text();
+        const anchors = html.match(/<a\b[^>]*>/g) ?? [];
+        for (const tag of anchors) {
+          const href = tag.match(/\shref="([^"]*)"/)?.[1] ?? '';
+          // In-frame jumps must land on an id in this frame
+          if (href.startsWith('#')) {
+            expect(html, tag).toContain(`id="${href.slice(1)}"`);
+            continue;
+          }
+          expect(href, tag).toMatch(/^https:\/\//);
+          expect(tag, href).toContain('target="_blank"');
+          expect(tag, href).toMatch(/\srel="[^"]*noopener/);
+        }
+      });
+
+      test('is canonical to the Hub section and indexable', async ({ page }) => {
+        await page.goto(partPath);
+        await expect(page.locator('link[rel="canonical"]')).toHaveAttribute(
+          'href',
+          `https://galaxyproject.org/projects/esg4stars/${anchor}`
+        );
+        await expect(page.locator('meta[name="robots"]')).toHaveCount(0);
+      });
+
+      test('fits a 390px phone without horizontal scroll', async ({ page }) => {
+        await page.setViewportSize({ width: 390, height: 844 });
+        await page.goto(partPath);
+        await page.waitForLoadState('networkidle');
+        const overflowing = await page.evaluate(() => {
+          const limit = document.documentElement.clientWidth + 1;
+          return [...document.querySelectorAll<HTMLElement>('main *')]
+            .filter((el) => el.getClientRects().length > 0 && !el.closest('.sr-only'))
+            .filter((el) => el.getBoundingClientRect().right > limit)
+            .map((el) => `${el.tagName.toLowerCase()}.${el.className}`.slice(0, 80));
+        });
+        expect(overflowing).toEqual([]);
+        expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
+      });
+    });
+  }
 });

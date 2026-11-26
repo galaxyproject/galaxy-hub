@@ -139,6 +139,15 @@ test.describe('Breadcrumbs on reading pages', () => {
       });
     }
 
+    test('the ESG4Stars embed page links its project crumb with the project name, not the folder name', async ({
+      page,
+    }) => {
+      await page.goto('/projects/esg4stars/embed/');
+      const crumbs = await visibleCrumbs(page);
+      expect(crumbs.map((c) => c.text).slice(0, 3)).toEqual(['Home', 'Projects', 'ESG4Stars']);
+      expect(crumbs.map((c) => c.href)).toEqual(['/', '/projects/', '/projects/esg4stars/', null]);
+    });
+
     test('the trail sits above the page title', async ({ page }) => {
       await page.goto(NEWS);
       const trail = (await nav(page).boundingBox())!;

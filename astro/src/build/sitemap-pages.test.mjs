@@ -12,4 +12,10 @@ describe('isSitemapExcludedUrl', () => {
     expect(isSitemapExcludedUrl('https://galaxyproject.org/bare/eu/news/')).toBe(false);
     expect(isSitemapExcludedUrl('https://galaxyproject.org/bare/projects/esg4stars/news/')).toBe(false);
   });
+
+  it('leaves out each embeddable ESG4Stars part', () => {
+    for (const part of ['head', 'pillars', 'architecture', 'partners', 'latest/news', 'latest/events']) {
+      expect(isSitemapExcludedUrl(`https://galaxyproject.org/bare/projects/esg4stars/${part}/`)).toBe(true);
+    }
+  });
 });

@@ -1,0 +1,12 @@
+---
+/** Embeddable project architecture (work streams) of ESG4Stars; same section as #architecture on /projects/esg4stars/. */
+import Esg4StarsBarePart from '@/components/projects/esg4stars/Esg4StarsBarePart.astro';
+import Esg4StarsStreams from '@/components/projects/esg4stars/Esg4StarsStreams.astro';
+import { getEsg4StarsOverview } from '@/utils/esg4starsOverview';
+
+const { project, streams, streamsTitle } = await getEsg4StarsOverview();
+---
+
+<Esg4StarsBarePart title={`${streamsTitle} - ${project.name}`} anchor="architecture">
+  {streams && <Esg4StarsStreams title={streamsTitle} streams={streams} />}
+</Esg4StarsBarePart>

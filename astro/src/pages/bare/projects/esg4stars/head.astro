@@ -1,0 +1,29 @@
+---
+/** Embeddable head of ESG4Stars: name, status, description and the facts box (grant, dates, partners). */
+import Esg4StarsBarePart from '@/components/projects/esg4stars/Esg4StarsBarePart.astro';
+import ProjectBareHead from '@/components/projects/ProjectBareHead.astro';
+import ProjectFactsBox from '@/components/projects/ProjectFactsBox.astro';
+import { HUB_ORIGIN } from '@/utils/bareHubLinks';
+import { getEsg4StarsOverview } from '@/utils/esg4starsOverview';
+
+const { project } = await getEsg4StarsOverview();
+// The partner table is not in this frame, so its link goes to the Hub section instead of a dead #partners
+const partnersHref = `${HUB_ORIGIN}/projects/${project.id}/#partners`;
+---
+
+<Esg4StarsBarePart title={project.name} description={project.description}>
+  <ProjectBareHead name={project.name} description={project.description} facts={project.facts} />
+  <ProjectFactsBox
+    class="project-facts--rail e4s-head__facts"
+    idPrefix="facts"
+    facts={project.facts}
+    partnerCount={project.partnerCount}
+    partnersHref={partnersHref}
+  />
+</Esg4StarsBarePart>
+
+<style>
+  :global(.e4s-head__facts) {
+    margin-top: 16px;
+  }
+</style>

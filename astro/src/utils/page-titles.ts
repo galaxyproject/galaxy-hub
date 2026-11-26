@@ -7,6 +7,7 @@ const ROUTED_PAGES: Record<string, string> = {
   projects: 'Projects',
   careers: 'Careers',
   'events/archive': 'Events Archive',
+  'projects/esg4stars': 'ESG4Stars',
 };
 
 // Each hub-hosted subsite has a home page (/eu/, /us/, ...) titled by its landing-page label

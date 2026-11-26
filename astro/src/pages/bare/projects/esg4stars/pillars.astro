@@ -1,0 +1,12 @@
+---
+/** Embeddable five pillars of ESG4Stars; the same section as #pillars on /projects/esg4stars/. */
+import Esg4StarsBarePart from '@/components/projects/esg4stars/Esg4StarsBarePart.astro';
+import Esg4StarsPillars from '@/components/projects/esg4stars/Esg4StarsPillars.astro';
+import { getEsg4StarsOverview } from '@/utils/esg4starsOverview';
+
+const { project, pillars, pillarsTitle } = await getEsg4StarsOverview();
+---
+
+<Esg4StarsBarePart title={`${pillarsTitle} - ${project.name}`} anchor="pillars">
+  {pillars && <Esg4StarsPillars title={pillarsTitle} pillars={pillars} />}
+</Esg4StarsBarePart>

@@ -1,0 +1,35 @@
+---
+/**
+ * Frame of one embeddable ESG4Stars part (under /bare/projects/esg4stars/): the bare layout without
+ * chrome, hub links rewritten to absolute new-tab links, and a canonical pointing at the matching
+ * section of the Hub page so search engines index that instead.
+ */
+import BareArticleLayout from '@/layouts/BareArticleLayout.astro';
+import BareHubLinks from '@/components/bare/BareHubLinks.astro';
+import { HUB_ORIGIN } from '@/utils/bareHubLinks';
+
+interface Props {
+  title: string;
+  description?: string;
+  /** Id of the section on the Hub page this part mirrors; omitted for the page head. */
+  anchor?: string;
+}
+
+const { title, description, anchor } = Astro.props;
+const canonical = `${HUB_ORIGIN}/projects/esg4stars/${anchor ? `#${anchor}` : ''}`;
+---
+
+<BareArticleLayout title={title} description={description} canonical={canonical} prose={false}>
+  <BareHubLinks>
+    <div class="e4s-part">
+      <slot />
+    </div>
+  </BareHubLinks>
+</BareArticleLayout>
+
+<style>
+  /* The section margin only separates sections on a full page; a part starts at the top of its frame */
+  .e4s-part > :global(.project-section:first-child) {
+    margin-top: 0;
+  }
+</style>
