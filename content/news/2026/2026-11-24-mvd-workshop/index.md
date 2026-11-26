@@ -3,7 +3,7 @@ title: "MaterialVital-Digital (MVD) Workshop: Connecting RSpace, CKAN and Galaxy
 date: "2026-11-24"
 tease: "The Freiburg Galaxy team demonstrated data exchange with RSpace and CKAN, materials-science analysis, and the development of a reusable Galaxy tool."
 subsites: [eu, freiburg]
-tags: [workshop, materials science, imaging, tools, workflow, interoperability, file sources]
+tags: [workshop, imaging, tools, workflow, interoperability]
 contributions:
   authorship:
     - anuprulez
