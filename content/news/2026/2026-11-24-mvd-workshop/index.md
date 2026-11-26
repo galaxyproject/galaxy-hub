@@ -3,6 +3,7 @@ title: "MaterialVital-Digital (MVD) Workshop: Connecting RSpace, CKAN and Galaxy
 date: "2026-11-24"
 tease: "The Freiburg Galaxy team demonstrated data exchange with RSpace and CKAN, materials-science analysis, and the development of a reusable Galaxy tool."
 subsites: [eu, freiburg]
+tags: [workshop, materials science, imaging, tools, workflow, interoperability, file sources]
 contributions:
   authorship:
     - anuprulez
@@ -18,6 +19,9 @@ On 24 November 2026, the MaterialVital-Digital (MVD) workshop in Freiburg demons
 experimental documentation, data repositories, and reproducible analysis. The Freiburg Galaxy team presented
 **data exchange and analysis between RSpace, Galaxy, and CKAN**, alongside approaches for developing Galaxy tools and workflows.
 
+[![RSpace -> Galaxy -> CKAN](./rspace-galaxy-ckan.png)](./rspace-galaxy-ckan.png)
+
+
 Building on the work showcased during the [July workshop at IWM Freiburg](/news/2026-07-13-mvd-second-workshop/), the workshop presentations and demonstrations focused on practical approaches from generated experimental data to scientific data analysis and back to the systems used by researchers.
 
 ## Connecting RSpace, Galaxy and CKAN
@@ -31,8 +35,8 @@ illustrated adding an RSpace connection through **Manage Your Repositories**, se
 
 ## RSpace to Galaxy and back
 
-The RSpace demonstration followed a materials-science example involving **scanning electron microscopy (SEM)
-fibre analysis** tool. An image and a JSON file containing analysis parameters were brought into Galaxy from an
+The RSpace demonstration followed a materials-science example involving [**scanning electron microscopy SEM
+fibre analysis**](https://usegalaxy.eu/root?tool_id=sem_analysis) tool. An image and a JSON file containing analysis parameters were brought into Galaxy from an
 RSpace document. The demo video also showed a request to Galaxy's integrated AI assistant, Olit, to run the
 SEM fibre analysis tool using those parameters in an automatic manner filling out all essential parameters of the SEM tool, followed by a return to the RSpace notebook to document results. This illustrates how experimental records can provide both the data and the context needed for analysis, while the notebook's experiment is enriched with its computational results.
 
@@ -67,9 +71,11 @@ how an analysis was performed when moving between platforms.
 
 ## Resources
 
-- Workshop slides: [Galaxy tool and workflows generation](https://drive.google.com/file/d/1oowLcgxO-38b6arZwO_OH58viHVj4mlZ/view?usp=sharing)
-- Workshop slides: [RSpace → Galaxy → CKAN](https://drive.google.com/file/d/1iEDOQtncmXyrH7W2Xk4NiB-xhgZAy-6_/view?usp=sharing)
+- [Galaxy tool and workflows generation](https://zenodo.org/records/24560212/files/Galaxy-Tools-Workflows.pdf?download=1)
+- [RSpace → Galaxy → CKAN](https://zenodo.org/records/24560212/files/RSpace-CKAN-Galaxy-Integration.pdf?download=1)
 - [European Galaxy server](https://usegalaxy.eu/)
+- [Scanning electron microscopy (SEM) fibre analysis tool](https://usegalaxy.eu/root?tool_id=sem_analysis)
+- [Image analysis history](https://usegalaxy.eu/u/kumara/h/ckan-galaxy-demo)
 - [Galaxy tool-development tutorials](https://galaxyproject.github.io/training-material/topics/dev/#st-tooldev)
 - [Planemo: writing standalone Galaxy tools](https://planemo.readthedocs.io/en/master/writing_standalone.html)
 - [IWC workflow library](https://iwc.galaxyproject.org/)
