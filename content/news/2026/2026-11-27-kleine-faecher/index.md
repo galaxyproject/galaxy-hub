@@ -1,7 +1,7 @@
 ---
-title: " Galaxy and AI4SOCIAL+ at the World Café *AI in small subjects*"
+title: " Galaxy and AI4SOCIAL+ at the World Café on AI in small subjects"
 date: "2026-11-27"
-tease: "We presented Galaxy and AI4SOCIAL+ in Mainz to representative of small subjects (*kleine Fächer*)."
+tease: "We presented Galaxy and AI4SOCIAL+ in Mainz to users of small subjects (*kleine Fächer*)."
 subsites: [global,eu,freiburg]
 main_subsite: freiburg
 tags: [conference, eosc, humanities, project, ai]
