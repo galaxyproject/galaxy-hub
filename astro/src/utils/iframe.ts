@@ -11,7 +11,11 @@ export function notifyParent(): void {
   const event = new Event('mounted', { bubbles: true, cancelable: true });
   window.dispatchEvent(event);
   if (window.parent !== window) {
-    window.parent.document.dispatchEvent(event);
+    try {
+      window.parent.document.dispatchEvent(event);
+    } catch {
+      // Cross-origin parent: reading its document throws a SecurityError
+    }
   }
 }
 
