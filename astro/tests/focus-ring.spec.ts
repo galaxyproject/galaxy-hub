@@ -271,4 +271,101 @@ test.describe('Global focus ring', () => {
     });
     expect(style).toBe('none none');
   });
+
+  test('Cofest presenter: white outline on its header in both views, the global pair on its light footer', async ({
+    page,
+  }) => {
+    await page.route('https://docs.google.com/**', (route) => route.fulfill({ status: 200, body: '' }));
+    await page.setViewportSize({ width: 1440, height: 900 });
+    await page.goto('/events/gcc2026/cofest/board/');
+    const toggle = page.getByRole('button', { name: 'Switch to light mode' });
+    await tabTo(page, toggle);
+    await expectRing(toggle, ON_DARK_PAIR);
+
+    // The light view keeps the dark blue header, so its controls keep the white outline
+    await page.keyboard.press('Enter');
+    const back = page.getByRole('button', { name: 'Switch to dark mode' });
+    await expect(back).toBeFocused();
+    await expectRing(back, ON_DARK_PAIR);
+
+    // The light view footer is light grey: the global pair
+    const previous = page.getByRole('button', { name: 'Previous slide' });
+    await tabTo(page, previous);
+    await expectRing(previous);
+  });
+
+  test('ESG carousel controls use an inset outline, since the rounded box clips a ring', async ({ page }) => {
+    await page.setViewportSize({ width: 1440, height: 900 });
+    await page.goto('/projects/esg/');
+    for (const id of ['#carousel-prev', '#carousel-next']) {
+      const control = page.locator(id);
+      await tabTo(page, control, 400);
+      await expect
+        .poll(() => ring(control).then((r) => `${r.style} ${r.width} ${r.color} ${r.offset} ${r.shadow}`))
+        .toBe(`solid 2px ${DARK} -2px none`);
+    }
+  });
+
+  test('post creator tag picker takes the global ring on its box', async ({ page }) => {
+    await page.setViewportSize({ width: 1440, height: 900 });
+    await page.goto('/hub/contributing/new/');
+    await settled(page, 'main');
+    const input = page.getByRole('combobox', { name: 'Tags' });
+    await tabTo(page, input, 400);
+    await expectRing(input.locator('xpath=..'));
+  });
+
+  test('post creator editor takes the global ring on its box for the text, not for the toolbar', async ({ page }) => {
+    await page.setViewportSize({ width: 1440, height: 900 });
+    await page.goto('/hub/contributing/new/');
+    await settled(page, 'main');
+    await expect(page.locator('.cm-content')).toBeVisible();
+    const box = page.locator('.cm-editor').locator("xpath=ancestor::div[contains(@class,'rounded-md')][1]");
+
+    const bold = page.getByRole('button', { name: 'Bold' });
+    await tabTo(page, bold, 400);
+    await expect.poll(() => ring(bold).then((r) => `${r.style} ${r.width} ${r.color}`)).toBe(`solid 2px ${DARK}`);
+    expect((await ring(box)).style).toBe('none');
+
+    await tabTo(page, page.locator('.cm-content'), 400);
+    await expectRing(box);
+  });
+
+  test('forced colors keep the outline and drop the inner ring', async ({ page }) => {
+    await page.emulateMedia({ forcedColors: 'active' });
+    await page.setViewportSize({ width: 1440, height: 900 });
+    await page.goto('/community/');
+    const link = page.locator('main .prose a[href]').first();
+    await tabTo(page, link);
+    const r = await ring(link);
+    expect(r.style).toBe('solid');
+    expect(r.width).toBe('2px');
+    expect(r.color).not.toBe('rgba(0, 0, 0, 0)');
+    expect(r.shadow).toBe('none');
+  });
+
+  test('mobile menu opened from the Menu button: focus enters the sheet, stays in it, returns to the button', async ({
+    page,
+  }) => {
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto('/freiburg/');
+    await settled(page, '.site-mobile-header');
+    const trigger = page.getByRole('button', { name: 'Open menu' });
+    await tabTo(page, trigger);
+    await page.keyboard.press('Enter');
+
+    const menu = page.getByTestId('mobile-menu');
+    await expect(menu.getByRole('button', { name: /Current context:/ })).toBeFocused();
+    const inMenu = () => page.evaluate(() => !!document.activeElement?.closest('[data-testid="mobile-menu"]'));
+    for (const key of ['Tab', 'Shift+Tab']) {
+      for (let i = 0; i < 40; i++) {
+        await page.keyboard.press(key);
+        expect(await inMenu()).toBe(true);
+      }
+    }
+
+    await page.keyboard.press('Escape');
+    await expect(menu).toBeHidden();
+    await expect(trigger).toBeFocused();
+  });
 });

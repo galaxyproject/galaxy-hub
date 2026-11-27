@@ -319,7 +319,7 @@ const textButton =
 
 <template>
   <div
-    class="rounded-md border focus-within:outline-2 focus-within:outline-offset-2 focus-within:outline-galaxy-primary focus-within:outline-solid"
+    class="rounded-md border has-[.cm-content:focus-visible]:outline-2 has-[.cm-content:focus-visible]:outline-offset-2 has-[.cm-content:focus-visible]:outline-solid has-[.cm-content:focus-visible]:outline-focus has-[.cm-content:focus-visible]:shadow-[0_0_0_2px_var(--color-focus-inner)]"
     :class="dragging ? 'border-galaxy-primary bg-surface-tint' : 'border-chicago-400'"
   >
     <div

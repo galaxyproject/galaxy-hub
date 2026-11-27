@@ -73,7 +73,7 @@ const item =
     <label :for="inputId" :class="labelClass">{{ label }}</label>
     <ComboboxRoot v-model="model" multiple ignore-filter open-on-click>
       <ComboboxAnchor
-        class="flex h-10 w-full items-center rounded-md border border-chicago-400 bg-transparent px-3 shadow-xs focus-within:outline-2 focus-within:outline-offset-2 focus-within:outline-galaxy-primary focus-within:outline-solid"
+        class="flex h-10 w-full items-center rounded-md border border-chicago-400 bg-transparent px-3 shadow-xs has-[input:focus-visible]:outline-2 has-[input:focus-visible]:outline-offset-2 has-[input:focus-visible]:outline-solid has-[input:focus-visible]:outline-focus has-[input:focus-visible]:shadow-[0_0_0_2px_var(--color-focus-inner)]"
       >
         <ComboboxInput
           :id="inputId"
