@@ -53,6 +53,24 @@ At [Noor Biotechnologies](http://noorbiotech.com/) we support your genomics rese
 With [Noor Biotechnologies](http://noorbiotech.com/), you can make sense of your microbial genomics data
 
 
+# Development and Consulting
+
+## Sci-Scale
+
+<div class='right'><a href='https://sci-scale.net/'><img src="/images/logos/sci-scale-logo.svg" alt="Sci-Scale" width="220" /></a></div>
+
+[Sci-Scale](https://sci-scale.net/) is a Belgian scientific-software company founded in 2019, whose team includes Galaxy core developers and committers. Sci-Scale builds, optimises and scales Galaxy deployments, tools and workflows for universities and research projects, and contributes the work back to Galaxy and its ecosystem.
+
+Services include:
+
+* **Galaxy feature development**: new framework, API, datatype and user interface features, developed in the open and contributed upstream
+* **Tool development**: turning command-line software into tested Galaxy tools, with Conda/Bioconda packaging and publication to the [ToolShed](https://toolshed.g2.bx.psu.edu/)
+* **Workflow development**: designing, optimising and migrating workflows to the standards of the [Intergalactic Workflow Commission (IWC)](https://iwc.galaxyproject.org/)
+* **Scaling and performance**: job scheduling and [TPV](https://total-perspective-vortex.readthedocs.io/) metascheduling, caching, and distributed or HPC execution with [Pulsar](https://pulsar.readthedocs.io/)
+* **Consulting**: architecture and code review, deployment and integration advice, and training
+
+Contact Sci-Scale at [info@sci-scale.net](mailto:info@sci-scale.net).
+
 # Onsite Turnkey Systems
 
 ## Takeru Galaxy
