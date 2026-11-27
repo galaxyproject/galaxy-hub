@@ -8,6 +8,8 @@ main_subsite: eu
 contributions:
   authorship:
     - gsaudade99
+    - mira-miracoli
+    - domgz
   funding:
     - eu
     - elixir-europe
